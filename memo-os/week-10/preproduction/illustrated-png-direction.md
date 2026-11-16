@@ -30,24 +30,20 @@ The repository's V5 Gold Standard Studio Patch, section 5, calls this **Mode B �
 - Commission complete native **1080 × 1920 PNGs, 9:16**, and inspect the actual image. Historical 2:3 images remain historical; they are not stretched into new masters.
 - Review the complete illustrated page at full size and phone scale. Judge the action, emotion, identity and legibility together. A font calculation or word-count pass cannot substitute for looking at the artwork.
 
-## Applied to the six scenes
+## Active Pass3 applications
 
-**Chili–D0nkey:** the arena, four-hoof leverage, continuous rope and crowd organize the full image; headline and narration inhabit its open atmosphere. The hogtie remains an earned, publicly witnessed payoff.
+**W10-M01:** Arsenal Rodeo Grounds: DK pursues the fleeing outlaw, catches him with his own lasso, and deliberately hogties him before a packed crowd.
 
-**Red–Niño:** bleak November air and failing repairs create the image's space. Text belongs in that same cold atmosphere. The historical memory changes Red's behavior; it does not add a separate flashback panel.
+**W10-M02:** Red tries to save his damaged soccer pitch, then revisits the remembered Central Basin court and watches its wall-mounted hoop fail under a falling limb.
 
-**TDS–Chins:** the temple threshold, distant family door, three simultaneous expressions and foreground noise props tell the joke. The quiet pause is a story beat, not a blank layout panel.
+**W10-M03:** Chins deliberately jackhammers concrete and plays loud music below the family balcony, acknowledges TDS’s plea for quiet and laughs before continuing.
 
-**Mud–Slob:** low ground, planted feet, keg pressure and the continuous retreat track make force visible. Avoid a posed winner portrait detached from the physical contest.
+**W10-M04:** An indifferent beer delivery through the swamp makes Mud’s territorial warning irrelevant; the shipment keeps moving at routine speed.
 
-**Duckhook–HMB:** the large indoor dining-hall birthday, wrapped gift, 200 Burger reveal, separate cake and reacting guests share one clear space. HMB sets down the gift before Duck opens it, then deliberately presses the candle-free birthday cake into Duck’s face. Burger, frosting, retained belt and witness reactions remain legible in the same warm room. No birthday combat, rail trip or table collapse is part of the active direction.
+**W10-M05:** At a lavish indoor birthday celebration, HMB turns an apparently generous gift into a 200 Burger joke, then presses a birthday cake into Duckhook’s face in front of the delighted dining hall.
 
-**ObiWan–LLC:** green blade, red fire, causeway, ridge and surviving battery create the page's motion and lighting. Text shares the smoke and atmosphere; the entire sequence stays an explosive Jedi-versus-Empire battle.
+**W10-M06:** Unlimited Firepower: an explosive Jedi-versus-Empire assault at ObiWan’s mountain approach.
 
-## Pass2 weather, sets and camera
+## Whole-issue continuity and output
 
-[World/story Pass2](world-story-pass-02.md) now supplies the active regional storm and established-world treatment. Niño’s front reaches the whole Commonwealth with different exposure, timing and shelter. All18 matchup camera briefs have specific local effects; the supporting pages use their proposed civic or landscape settings. Separate durable construction, everyday furnishings and fresh event dressing. Existing exact character references govern costume and anatomy through rain, mud, frost and cake. The stories remain creative candidates for further refinement.
-
-## Current production boundary
-
-Written source content and illustrated-page commissions can be completed now. The pre-Monday scores remain provisional and no winner branch is newly certified. The next artwork is a complete illustrated PNG candidate, produced and visually reviewed one page at a time. No Week 10 PDF or document-layout rehearsal is part of this continuation.
+[Whole-issue Pass3](whole-issue-pass-03.md) controls current scene and supporting-page work. Retained Pass2material supplies the birthday, Ridge Gate and graded regional storm. All35candidatecontracts, including17supporting departments, now have concrete settings, light and copy. P34adds injury consequences and P35adds the Week11GOTWpreview; P32remains optional and omitted. No image or final sports branch is approved by these notes.

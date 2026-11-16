@@ -1,3 +1,5 @@
+> Archive of an earlier creative pass. Current authority is [whole-issue-pass-03.md](whole-issue-pass-03.md); compatible birthday, Ridge Gate and regional weather details remain retained. Superseded venue/mechanism ideas below are not active production instructions.
+
 # Week 10 — bounded Inklings-method review
 
 **Historical earlier review.** Its birthday combat/rail/table-fall staging is superseded by Jake’s Pass2 indoor 200 Burger gift and cake-to-face instruction. Its earlier local-storm scope is superseded by the realm-wide, geographically varied front. Current source: [world-story-pass-02.md](world-story-pass-02.md).

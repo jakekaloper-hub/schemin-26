@@ -1,3 +1,5 @@
+> Archive of an earlier creative pass. Current authority is [whole-issue-pass-03.md](whole-issue-pass-03.md); compatible birthday, Ridge Gate and regional weather details remain retained. Superseded venue/mechanism ideas below are not active production instructions.
+
 # Schemin ’26 — Week 10: Commonwealth Story & Location Pass 1
 
 **Status: brainstorming for Jake’s review.** Prepared November 16, 2026, before Monday’s remaining game. This pass reopens story, location, department placement and copy development. Existing artist briefs are useful candidates, not approved production locks. The matchup endings below describe the current leading-result story branch; final sports results still control the published issue.

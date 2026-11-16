@@ -1,193 +1,194 @@
 {
-  "status": "PASS_PREPRODUCTION_ONLY",
+  "status": "PASS_WRITTEN_PREPRODUCTION_WITH_EXPLICIT_OPEN_ITEMS",
   "executed_date": "2026-11-16",
   "checks": [
     {
-      "check": "Complete proposed issue coverage",
+      "check": "Stable page inventory",
       "pass": true,
-      "detail": "33 unique contracts,32 recommended pages,optional Book omitted"
+      "detail": "35 unique stable IDs; original P01–P33 retained; P34 and P35 added"
     },
     {
-      "check": "Six complete matchup sequences",
+      "check": "Reading run",
       "pass": true,
-      "detail": "6matchups /18beats"
+      "detail": "34 proposed reading pages; optional Book remains omitted"
     },
     {
-      "check": "Fifteen department cards",
+      "check": "All source cards resolve",
       "pass": true,
-      "detail": "All requested supporting units written"
+      "detail": "6 matchups /18beats and17departments"
     },
     {
-      "check": "Required production contract fields",
+      "check": "Full illustrated mirrors",
       "pass": true,
-      "detail": "All33 contracts include all required fields"
+      "detail": "All35art prompts, exact copies and encounters match their authoritative page contracts"
     },
     {
-      "check": "No invented finality",
+      "check": "Director source links",
       "pass": true,
-      "detail": "No final scores,winners,records,seeds,story approval or rendered-page acceptance promoted"
+      "detail": "18currentdirector entries; stale embedded copies removed in favor of page-ID references"
     },
     {
-      "check": "120 starting players and score sums",
+      "check": "Weather mirror",
       "pass": true,
-      "detail": "12teams ×10starters; every sum matches"
+      "detail": "Every brief uses the current page weather; no stale Compact/terrace/crossing companions"
     },
     {
-      "check": "Six shared game score values",
+      "check": "Native PNG contracts",
       "pass": true,
-      "detail": "Game and team score sources agree"
+      "detail": "Written native1080×1920PNGcontracts only; actual image geometry not yet tested"
     },
     {
-      "check": "All deterministic field pointers resolve",
+      "check": "No premature render lock",
       "pass": true,
-      "detail": {
-        "field_instances": 267
-      }
-    },
-    {
-      "check": "Copy-template pointers resolve",
-      "pass": true,
-      "detail": {
-        "numerical_prose_and_table_bindings": 54
-      }
-    },
-    {
-      "check": "Four exact Monday dependencies",
-      "pass": true,
-      "detail": "Club schedule + selected slots; bench/IR excluded"
-    },
-    {
-      "check": "Three exact score-lead thresholds",
-      "pass": true,
-      "detail": "Strict greater-than; equality is provider-resolved tie"
-    },
-    {
-      "check": "Completed transaction scope",
-      "pass": true,
-      "detail": "29unique completed events; source excludes pending/failed/cancelled rows"
-    },
-    {
-      "check": "Reserve scope",
-      "pass": true,
-      "detail": "104off-starting-sheet occupants; IR20 is distinct from84bench"
-    },
-    {
-      "check": "2026 first200 scope",
-      "pass": true,
-      "detail": "54final games /108prior team-weeks; no prior200+"
-    },
-    {
-      "check": "Scoring-form arithmetic",
-      "pass": true,
-      "detail": "All12 rows match0.70*((PF9+W10)/10)+0.30*W10, rounded half-up; sorted on unrounded values"
-    },
-    {
-      "check": "Twelve reference hashes",
-      "pass": true,
-      "detail": "All12 current crops verified against declaration; root visually reviewed"
-    },
-    {
-      "check": "Chili October22 source",
-      "pass": true,
-      "detail": "Original commissioner screenshot matches correction record and was visually reviewed"
+      "detail": "No finality, artwork or approval promoted"
     },
     {
       "check": "Copy budgets",
       "pass": true,
-      "detail": "All33 body-copy budgets respected; phone/raster acceptance awaits art"
+      "detail": "All35body drafts within110words; real raster legibility remains open"
     },
     {
-      "check": "Alternate branch coverage",
+      "check": "Explained unregistered parent W10-P09",
       "pass": true,
-      "detail": "Every matchup has written hold/reversal/unresolved/explicit-tie payoff"
+      "detail": "Existing published Central Basin court with proposed working ID; permanent registration remains pending"
     },
     {
-      "check": "Final standings rebuild preserves history",
+      "check": "Explained unregistered parent W10-P10",
       "pass": true,
-      "detail": "36 final standings fields resolve to distinct null postWeek10 fields; historical entering fields preserved and final table guarded"
+      "detail": "Existing published Central Basin court with proposed working ID; permanent registration remains pending"
     },
     {
-      "check": "Native-master specification",
+      "check": "Only documented court gap",
       "pass": true,
-      "detail": "Specification only; no generated-master geometry falsely certified"
+      "detail": "No anonymous unknown venue for other pages"
     },
     {
-      "check": "Historical evidence pointers and scores",
+      "check": "DK override propagated",
       "pass": true,
-      "detail": "37 retrieved slot-pair meetings checked against exact provider rows; no all-time record inferred"
+      "detail": "DK homeland illustrated hosting, provider home Chili preserved"
     },
     {
-      "check": "Six safe historical anchors",
+      "check": "GOTW preview source binding",
       "pass": true,
-      "detail": "All six scene anchors use same named characters or separately verified aliases"
+      "detail": "2025historyandcurrentbye source are distinct persisted artifacts"
     },
     {
-      "check": "Historical coverage stated",
+      "check": "New department metadata",
       "pass": true,
-      "detail": "Missing2025weeks and old-slot identity limits preserved"
+      "detail": "Removed inherited commissioner-note merge policy from P34/P35"
     },
     {
-      "check": "Personalization reaches every sequence",
+      "check": "Conditional elimination guard",
       "pass": true,
-      "detail": "18 revised pages carry history and direct commissioner direction"
+      "detail": "Supported future condition is allowed; unsupported current eliminations remain prohibited"
     },
     {
-      "check": "Obi action replaces quiet table",
+      "check": "Current finality",
       "pass": true,
-      "detail": "Active Obi copy and composition use cinematic conflict, no legacy tabletop mechanism"
+      "detail": "All six fresh source outcomes remain UNDECIDED"
     },
     {
-      "check": "Cold storm replaces flood mechanism",
+      "check": "News and readiness coverage",
       "pass": true,
-      "detail": "Red action uses cold autumn storm and historical recognition"
+      "detail": "16prioritizeddevelopments /50sources /12teamplans"
     },
     {
-      "check": "Personal payoff mechanisms present",
+      "check": "News joins",
       "pass": true,
-      "detail": "Rodeo binding, birthday celebration and newborn/noise context all in actual page material"
+      "detail": "Incident sources and team incident IDs resolve within their evidence artifact"
     },
     {
-      "check": "Complete illustrated PNG commissions",
+      "check": "Required-position count",
       "pass": true,
-      "detail": "33 full-page PNG briefs; no programmatic document-layout proof is treated as artwork"
+      "detail": "7positions across6teams including Chins D/ST and K"
     },
     {
-      "check": "Artist copy matches page source",
+      "check": "Available-player scope",
       "pass": true,
-      "detail": "All exact narration, headings and existing data displays match the single source; no added sports widgets"
+      "detail": "12non-bye unowned options, states retained; no transactions"
     },
     {
-      "check": "Actual artist prompts and reference bindings",
+      "check": "Schemin-only publication",
       "pass": true,
-      "detail": "All33 prompts contain concrete art direction; every planned character has its existing source binding, without claiming renderer attachment"
+      "detail": "Unrelated connected-league session envelope excluded"
     },
     {
-      "check": "Commissioner PNG correction recorded",
+      "check": "Character roster count",
       "pass": true,
-      "detail": "Full-page integrated-art requirement reaches every operative page and cites actual inspected Week4/Week6 examples"
+      "detail": "All12principalreferencecrops verified; later appearance overrides retained"
     },
     {
-      "check": "Portable review document links",
+      "check": "Library report mirror",
       "pass": true,
-      "detail": "All33 internal page links resolve;12reference images embedded"
+      "detail": "Complete user brief matches the repository review"
+    },
+    {
+      "check": "Exact fact bindings",
+      "pass": true,
+      "detail": "230 current value/digest checks passed"
+    },
+    {
+      "check": "Registered location parents",
+      "pass": true,
+      "detail": "33 pages bind registered parents; two court pages explicitly explain their recovered-but-unregistered venue"
+    },
+    {
+      "check": "Reference byte identity",
+      "pass": true,
+      "detail": "12 existing principal crops match their source hashes"
     }
   ],
   "independent_review": {
-    "status": "COMPLETE",
-    "data_review": "All displayed values, templates, payoff scores, numerical source scopes and scenarios passed. Added distinct guarded postWeek10 standings fields after finding a final-table handoff gap.",
-    "workflow_review": "All33 contracts,32page run,physicalaction repairs,reference holds and approval states passed.",
-    "personalization_review": "Tolkien/Lewis method review applied to accepted six-scene directions; current cards checked for scene-specific action, history and identity.",
-    "corrections_applied": [
-      "Final standings rebuild uses separate official record/seed/points-for fields; entering fields remain historical",
-      "Reserve printed rows reduced to3 with full12 backstage; wording says fantasy matchup",
-      "Moves and division copy shortened; duplicate SportsDesk callouts removed; budgets now count all visible modules",
-      "Duckhook copy specifies five straight victories"
-    ]
+    "art_and_atlas": "Identified stale nested director and weather fields; removed/rebound; present court, rope, household, delivery, birthday and bridge treatment checked.",
+    "sports": "No factual mismatch in selected copy; removed inherited P34/P35merge metadata.",
+    "league": "Confirmed divisioncounts,next-lossproof,history; repaired conditionalguard and historicalsourcebindings."
   },
   "limits": [
-    "No new artwork generated or visually accepted",
-    "No actual phone-scale page raster exists yet",
-    "No final provider outcome or official postWeek10 standing verified",
-    "Jake’s six scene directions and Game of the Week are accepted; detailed copy/composition and any new Book content remain draft inputs"
+    {
+      "id": "W10-GAP-01",
+      "state": "WAIT_FOR_EVENT",
+      "detail": "All six Week10winners remain UNDECIDED. Final results, official records/seeds, exact player totals and chosen outcome branches wait for the post-MNF refresh."
+    },
+    {
+      "id": "W10-GAP-02",
+      "state": "EXPLICIT_PROPOSAL",
+      "detail": "Forgotten Court is identified in delivered Week7art as Central Basin, but has no registered permanent location ID. Its working set ID and proposed local route spur prevent an anonymous or silently relocated setting."
+    },
+    {
+      "id": "W10-GAP-03",
+      "state": "EXPLICIT_PROPOSAL",
+      "detail": "The river/low-side pitch connection and the new DK rodeo, temple courtyard, service strip and editorial subviews are proposed child staging, not promoted permanent Atlas canon."
+    },
+    {
+      "id": "W10-GAP-04",
+      "state": "CONTINUITY_PRESERVED_BY_FRAMING",
+      "detail": "Chins’s trapped truck and Mud’s bogged racing rig have no verified recovery scene. Neither is magically restored. Family members remain offscreen/contextual until exact references are selected."
+    },
+    {
+      "id": "W10-GAP-05",
+      "state": "WAIT_FOR_REPORT",
+      "detail": "Maye severity, Bowers follow-up, Marks Thursday status, receiver clearances, Tate and other returns, and Minnesota quarterback choice remain qualified. No blanket season-ending claim."
+    },
+    {
+      "id": "W10-GAP-06",
+      "state": "CREATIVE_CANDIDATES",
+      "detail": "Week11GOTW recommendation, local sets, detailed staging, page count and prose remain in Jake’s brainstorming pass. Preparations are concrete; no request for an extra permission round is implied."
+    },
+    {
+      "id": "W10-GAP-07",
+      "state": "FUTURE_ART_STAGE",
+      "detail": "No new raster has been made. Exact reference attachment, native1080×1920geometry, physical action, lettering and390pxreadability must be checked on the actual PNGs when image production begins."
+    },
+    {
+      "id": "W10-GAP-08",
+      "state": "CONDITIONAL_REWORK_ONLY_IF_NEEDED",
+      "detail": "If a revised matchup reverses or ties, its current-leader payoff is not reused. The packet preserves the user’s setting/behavior constraints and marks reblocking before render; no unsupported alternative art is certified."
+    }
+  ],
+  "not_claimed": [
+    "Final sports lock",
+    "Rendered PNG or visual acceptance",
+    "Permanent Atlas promotion",
+    "No remaining conditional work"
   ]
 }

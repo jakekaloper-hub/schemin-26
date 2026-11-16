@@ -1,0 +1,3512 @@
+{
+  "schema_version": "1.0",
+  "title": "Schemin Week10 — Sports Desk / Reserve / Week11 research pass",
+  "as_of_utc": "2026-11-16T18:18:17Z",
+  "as_of_local": "2026-11-16 13:18 America/New_York",
+  "season": 2026,
+  "week": 10,
+  "roster_source": "current-league-pass3.json",
+  "roster_snapshot": "Fresh successful current rosters1–12; sibling captured2026-11-16T18:11:57.769Z",
+  "scope": "Read-only current NFL news and Schemin ownership assessment. No lineup changes, transactions, external writes, or artwork.",
+  "method": [
+    "All224 current roster entries inspected for ownership, current slot and injury flags.",
+    "Primary NFL/team reports prioritized; Reuters/AP and clearly attributed reporting used where primary diagnosis was not yet available.",
+    "Provider Active/Questionable/Out/IR is a flag, not a new injury diagnosis, official future game status, or an absence duration.",
+    "Week11 bye exposure counts existing Week10 starters, not a forecast Week11 lineup.",
+    "Publication dates and injury dates are separated; undated/dynamic source timestamps are not invented.",
+    "No2025 report has been substituted for current2026 injury news.",
+    "Parent production routing: new P34 injury-consequence page under production section S16; P18 performance Sports Desk remains; P25 Reserve Watch carries bye-slot exposure."
+  ],
+  "finding": "The evidence supports serious injuries of different severities and dates, not a blanket claim that many owned players suffered confirmed season-ending injuries on Nov15. Maye is potentially season-ending; Bowers is reportedly day-to-day; Hutchinson is a reported confirmed season-long NFL loss with indirect HMB D/ST ownership. LLC's confirmed Michael Wilson loss dates to Nov8.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Patriots official Week10 observations",
+      "url": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-week-10-loss-to-the-lions-in-munich",
+      "ref": "turn7view1",
+      "published": "2026-11-15 14:32 (as displayed)",
+      "word_limit": 200,
+      "support": "Maye ankle exit; Brown hamstring exit; New England Week11 bye.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S02",
+      "title": "NFL Network Maye prognosis",
+      "url": "https://amp.nfl.com/news/nfl-network-patriots-qb-drake-maye-could-miss-rest-of-2026-season",
+      "ref": "turn10search0",
+      "published": "2026-11-16 06:35 (as displayed)",
+      "word_limit": 200,
+      "support": "Extended absence possible; season-ending outcome remains potential, not final.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S03",
+      "title": "Reuters / NFL Network Bowers update",
+      "url": "https://www.reuters.com/sports/report-raiders-te-brock-bowers-avoids-major-ankle-injury--flm-2026-11-16/",
+      "ref": "turn10news9",
+      "published": "2026-11-16; time not surfaced",
+      "word_limit": 100,
+      "support": "Bowers reportedly day-to-day; further tests Monday.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S04",
+      "title": "NFL Sunday injury roundup",
+      "url": "https://amp.nfl.com/news/notable-injuries-news-sunday-week-10-games-2026",
+      "ref": "turn12view2",
+      "published": "2026-11-15 10:19; updated 21:46 (as displayed)",
+      "word_limit": 200,
+      "support": "Woody Marks concussion; Skyy Moore ankle; Kelce calf; Geno Smith ankle; other acute exits.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S05",
+      "title": "NFL Network Hutchinson ACL report",
+      "url": "https://amp.nfl.com/news/lions-aidan-hutchinson-out-for-2026-season-torn-acl",
+      "ref": "turn10search3",
+      "published": "2026-11-16 09:50 (as displayed)",
+      "word_limit": 200,
+      "support": "Initial testing reportedly confirmed ACL tear and season-long absence.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S06",
+      "title": "Chargers official final injury report and downgrade",
+      "url": "https://www.chargers.com/news/chargers-vs-ravens-injury-report-ladd-mcconkey-daiyan-henley-2026",
+      "ref": "turn7search0",
+      "published": "2026-11-15 11:45 (as displayed)",
+      "word_limit": 200,
+      "support": "McConkey downgraded OUT/back; Tre' Harris and Rashod Bateman no final designation.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S07",
+      "title": "Falcons official game breakdown",
+      "url": "https://www.atlantafalcons.com/news/game-breakdown-what-happened-in-falcons-vs-chiefs",
+      "ref": "turn20view0",
+      "published": "2026-11-15 16:09 (as displayed)",
+      "word_limit": 200,
+      "support": "London evaluated for concussion and did not return; ATL Week11 bye.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S08",
+      "title": "Jets official Monday takeaways",
+      "url": "https://www.newyorkjets.com/news/3-takeaways-rookie-qb-cade-klubnik-has-huge-growth-step-11-16-2026",
+      "ref": "turn13search5",
+      "published": "2026-11-16; time not surfaced",
+      "word_limit": 200,
+      "support": "Geno Smith and Omar Cooper Jr. ankle tests Monday; Isaiah Williams played more after Cooper exit.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S09",
+      "title": "Chiefs official game recap",
+      "url": "https://www.chiefs.com/news/chiefs-defeat-falcons-35-13-as-patrick-mahomes-throws-five-touchdowns",
+      "ref": "turn13search10",
+      "published": "2026-11-16 indexed; exact page time not surfaced",
+      "word_limit": 200,
+      "support": "Kelce returned in third quarter after calf issue; Walker did not play with groin injury.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S10",
+      "title": "Ravens official Lamar recovery statement",
+      "url": "https://www.baltimoreravens.com/news/lamar-jackson-injury-jesse-minter-ravens-statement-timeline-broken-dislocated-thumb",
+      "ref": "turn8search2",
+      "published": "2026-11-13 09:30 (as displayed)",
+      "word_limit": 200,
+      "support": "Broken/dislocated thumb; surgical injuries of this type typically heal in 6–10 weeks, with progress determining return.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S11",
+      "title": "Ravens official IR announcement",
+      "url": "https://www.baltimoreravens.com/news/lamar-jackson-tyler-huntley-injured-reserve-austin-reed-adisa-isaac-jake-moody",
+      "ref": "turn8search0",
+      "published": "2026-11-05 16:35 (as displayed)",
+      "word_limit": 200,
+      "support": "Lamar placed on NFL IR after Week8 injury.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S12",
+      "title": "Rams official Puka IR and earliest eligibility",
+      "url": "https://www.therams.com/news/mcvay-rams-placed-puka-nacua-on-ir-because-they-needed-the-roster-spot-week-10-2026-cardinals",
+      "ref": "turn8search8",
+      "published": "2026-11-13 14:09 (as displayed)",
+      "word_limit": 200,
+      "support": "Puka placed IR Nov12; earliest eligible return Week15.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S13",
+      "title": "Rams official Puka injury description",
+      "url": "https://www.therams.com/news/rams-injury-updates-puka-nacua-likely-going-on-injured-reserve-after-sustaining-mcl-pcl-sprain-and-turf-toe-against-commanders-latest-on-steve-avila-and-trent-mcduffie",
+      "ref": "turn8search7",
+      "published": "2026-11-09 16:04 (as displayed)",
+      "word_limit": 200,
+      "support": "Nov8 knee/toe injury, extended absence.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S14",
+      "title": "Patriots official Henderson IR transaction",
+      "url": "https://www.patriots.com/news/patriots-activate-fb-reggie-gilliam-and-ol-greg-van-roten-to-the-53-man-roster-from-injured-reserve-announce-additional-roster-moves",
+      "ref": "turn20view3",
+      "published": "2026-11-14 16:00 (as displayed)",
+      "word_limit": 200,
+      "support": "Henderson placed NFL IR Nov14.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S15",
+      "title": "Patriots official Week10 injury report",
+      "url": "https://www.patriots.com/news/week-10-injury-report-patriots-at-lions",
+      "ref": "turn15search2",
+      "published": "2026-11-13 11:49 (as displayed)",
+      "word_limit": 200,
+      "support": "Henderson listed illness before IR; existing Henry foot/Stevenson knee context.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S16",
+      "title": "NFL official Week11 schedule",
+      "url": "https://www.nfl.com/schedules/2026/by-week/week-11",
+      "ref": "turn12view3",
+      "published": "Live schedule retrieved 2026-11-16",
+      "word_limit": 25,
+      "support": "Week11 bye clubs: ATL, CLE, GB, LAR, NE, SEA.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S17",
+      "title": "Texans official Week11 Thursday schedule",
+      "url": "https://www.houstontexans.com/news/houston-texans-vs-indianapolis-colts-how-to-watch-thursday-night-football",
+      "ref": "turn7search9",
+      "published": "2026-11-15 15:37 (as displayed)",
+      "word_limit": 200,
+      "support": "Indianapolis at Houston Thursday Nov19, 8:15pm ET.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S18",
+      "title": "Texans official Week10 box score",
+      "url": "https://www.houstontexans.com/gameday/2026/week-10-texans-at-browns/box-score",
+      "ref": "turn11search7",
+      "published": "Game 2026-11-15; dynamic official box",
+      "word_limit": 200,
+      "support": "Stroud played Sunday; 211 passing yards, three TDs, one INT.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S19",
+      "title": "Cardinals official Michael Wilson season-ending announcement",
+      "url": "https://www.azcardinals.com/news/michael-wilson-sidelined-for-season-with-neck-injury",
+      "ref": "turn16search2",
+      "published": "2026-11-09 15:11 (as displayed)",
+      "word_limit": 200,
+      "support": "Wilson's Nov8 neck injury ended season; preceding weekend.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S20",
+      "title": "Cardinals official Wilson IR transaction",
+      "url": "https://www.azcardinals.com/news/cardinals-place-gardner-minshew-michael-wilson-on-ir",
+      "ref": "turn16search0",
+      "published": "2026-11-10 15:14 (as displayed)",
+      "word_limit": 200,
+      "support": "Wilson placed IR Nov10; Minshew also season-ending but not owned in Schemin.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S21",
+      "title": "Titans official Carnell Tate update",
+      "url": "https://www.tennesseetitans.com/news/quick-hits-on-the-titans-from-friday-of-jaguars-week-x9285",
+      "ref": "turn18search0",
+      "published": "2026-11-13; time not surfaced",
+      "word_limit": 200,
+      "support": "Tate shoulder out Week10; coach hopes Week11, awaits Wednesday progress.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S22",
+      "title": "Vikings official Week10 inactives",
+      "url": "https://www.vikings.com/news/inactives-packers-week-10-2026",
+      "ref": "turn15search10",
+      "published": "2026-11-15; time not surfaced",
+      "word_limit": 200,
+      "support": "Addison/Hockenson/Murray inactive; Cousins started.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S23",
+      "title": "Vikings official Week10 report",
+      "url": "https://www.vikings.com/news/packers-injury-report-week-10-2026-nfl-season",
+      "ref": "turn15search8",
+      "published": "2026-11-13; time not surfaced",
+      "word_limit": 200,
+      "support": "Hockenson wrist/chest and Addison thumb; no season-long ruling.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S24",
+      "title": "Ravens official MNF preview",
+      "url": "https://www.baltimoreravens.com/news/game-preview-jacoby-brissett-ravens-first-start-week-10-against-chargers-monday-night-football",
+      "ref": "turn19search1",
+      "published": "2026-11-16; time not surfaced",
+      "word_limit": 200,
+      "support": "Jacoby Brissett starts Ravens debut Monday.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S25",
+      "title": "Eagles official Hurts medical update",
+      "url": "https://www.philadelphiaeagles.com/news/eagles-and-jalen-hurts-agent-nicole-lynn-provide-an-update-on-qb-jalen-hurts?mm-view=app",
+      "ref": "turn8search4",
+      "published": "2026-10-19 10:15 (as displayed)",
+      "word_limit": 200,
+      "support": "Hurts prohibited from contact football during current treatment; no dated return promise.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S26",
+      "title": "Eagles official Week9 report",
+      "url": "https://www.philadelphiaeagles.com/news/giants-vs-eagles-injury-report-saquon-barkley-devonta-smith-cam-skattebo-2026-nfl-week-9",
+      "ref": "turn8search3",
+      "published": "2026-11-06 16:12 (as displayed)",
+      "word_limit": 200,
+      "support": "DeVonta hamstring out before Week10 bye; Saquon cleared for previous game.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S27",
+      "title": "49ers official Week10 final report",
+      "url": "https://www.49ers.com/news/evans-out-williams-and-greenlaw-questionable-deebo-returns-ahead-of-cowboys-practice-report-sfvsdal",
+      "ref": "turn15search6",
+      "published": "2026-11-13; time not surfaced",
+      "word_limit": 200,
+      "support": "Evans Achilles out, recovery progressing; no season-long declaration.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S28",
+      "title": "Rams official Davante IR announcement",
+      "url": "https://www.therams.com/news/rams-sign-kicker-brandon-mcmanus-place-poona-ford-and-davante-adams-on-injured-reserve",
+      "ref": "turn8search10",
+      "published": "2026-10-20 15:22 (as displayed)",
+      "word_limit": 200,
+      "support": "Davante hamstring IR, estimated 6–10 weeks at announcement.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S29",
+      "title": "Colts official WR room update",
+      "url": "https://www.colts.com/news/after-trading-keenan-allen-and-josh-downs-who-s-left-at-wide-receiver-for-the-colts",
+      "ref": "turn15search4",
+      "published": "2026-11-11; time not surfaced",
+      "word_limit": 200,
+      "support": "Pierce still IR with heel injury, no return timetable.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S30",
+      "title": "Panthers official transactions",
+      "url": "https://www.panthers.com/team/transactions/index-mobile",
+      "ref": "turn16search6",
+      "published": "Transaction 2026-11-11; dynamic",
+      "word_limit": 200,
+      "support": "Jonathon Brooks practice window opened Nov11; not activated in observed ledger.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S31",
+      "title": "Broncos official Harvey IR announcement",
+      "url": "https://www.denverbroncos.com/news/broncos-promote-s-taylor-rapp-to-active-roster-place-rb-rj-harvey-on-injured-reserve",
+      "ref": "turn16search3",
+      "published": "2026-10-31 15:01 (as displayed)",
+      "word_limit": 200,
+      "support": "Harvey knee IR; team names Week13 earliest eligibility.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S32",
+      "title": "Packers official Week10 report",
+      "url": "https://www.packers.com/news/packers-list-seven-questionable-rule-out-four-vs-vikings-week-10-injury-report",
+      "ref": "turn13search8",
+      "published": "2026-11-13; time not surfaced",
+      "word_limit": 200,
+      "support": "Jacobs finger ruled out Week10; no season-long declaration.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S33",
+      "title": "Steelers official Pittman update",
+      "url": "https://www.steelers.com/news/bye-week-blog-sooner-rather-than-later",
+      "ref": "turn17search1",
+      "published": "2026-11-02; time not surfaced",
+      "word_limit": 200,
+      "support": "Pittman foot IR, no definitive return date.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S34",
+      "title": "Falcons official Robinson IR announcement",
+      "url": "https://www.atlantafalcons.com/news/falcons-james-pearce-jr-brian-robinson-khalil-herbert",
+      "ref": "turn17search3",
+      "published": "2026-11-07 inferred from dated transaction/Week9 publication; page time not surfaced",
+      "word_limit": 200,
+      "support": "Brian Robinson Jr. hamstring IR.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S35",
+      "title": "Cardinals official Love IR announcement",
+      "url": "https://www.azcardinals.com/news/jeremiyah-love-kendrick-bourne-placed-on-injured-reserve",
+      "ref": "turn17search7",
+      "published": "2026-11-03 from official transaction date; page time not surfaced",
+      "word_limit": 200,
+      "support": "Love ankle IR; team expects return this season.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S36",
+      "title": "49ers official Stribling injury report",
+      "url": "https://www.49ers.com/news/de-zhaun-stribling-out-kaelon-black-and-eddy-pineiro-questionable-vs-dolphins-injury-report-ahead-of-miavssf",
+      "ref": "turn17search11",
+      "published": "Week2, September2026; exact page timestamp not surfaced",
+      "word_limit": 200,
+      "support": "Stribling ankle surgery; team expected a return during season, not season-ending declaration.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S37",
+      "title": "Rams official Ferguson practice return",
+      "url": "https://www.therams.com/news/rams-injury-updates-jaylen-watson-shoulder-surgery-out-for-rest-of-2026-season-myles-garrett-terrance-ferguson-return-to-practice-week-9",
+      "ref": "turn18search8",
+      "published": "Week9 November2026; exact page timestamp not surfaced",
+      "word_limit": 200,
+      "support": "Ferguson practice window opened; remains IR in current Schemin provider.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S38",
+      "title": "Raiders official Mayer game log",
+      "url": "https://www.raiders.com/team/players-roster/michael-mayer/",
+      "ref": "turn21search1",
+      "published": "Week10 game 2026-11-15; live log",
+      "word_limit": 200,
+      "support": "Mayer participated Nov15; two catches, 16 yards.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S39",
+      "title": "Saints official Week10 game recap",
+      "url": "https://www.neworleanssaints.com/news/carolina-panthers-new-orleans-saints-2026-nfl-week-10-game-recap",
+      "ref": "turn19search13",
+      "published": "2026-11-15; time not surfaced",
+      "word_limit": 200,
+      "support": "Kamara played, scored rushing and receiving TDs.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S40",
+      "title": "Chiefs official Week10 report",
+      "url": "https://www.chiefs.com/news/week-10-injury-report-chiefs-vs-falcons-2026",
+      "ref": "turn21search3",
+      "published": "2026-11-14 indexed; exact original timestamp not surfaced",
+      "word_limit": 200,
+      "support": "Worthy practiced fully with hamstring designation during week; read final status before any start claim.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S41",
+      "title": "Chiefs official Worthy game log",
+      "url": "https://www.chiefs.com/team/players-roster/xavier-worthy/logs/",
+      "ref": "turn21search2",
+      "published": "Week10 game 2026-11-15; live log",
+      "word_limit": 200,
+      "support": "Zero Week10 catches; do not label as a hot replacement based on health alone.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S42",
+      "title": "CBS/RotoWire quoting postgame Ryans report",
+      "url": "https://www.cbssports.com/fantasy/football/news/texans-woody-marks-not-likely-to-be-cleared-for-thursdays-game/",
+      "ref": "turn10search2",
+      "published": "2026-11-15 18:18 ET",
+      "word_limit": 25,
+      "support": "Ryans reportedly said Marks unlikely Thursday; not final OUT designation.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S43",
+      "title": "Bears official Monangai update",
+      "url": "https://www.chicagobears.com/news/kyle-monangai-back-at-practice-questionable-for-buccaneers-game-injury-update",
+      "ref": "turn18search4",
+      "published": "Week9 November2026; exact page timestamp not surfaced",
+      "word_limit": 200,
+      "support": "Toe/thumb recovery; limited practice ahead Week9; not current Week11 clearance.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S44",
+      "title": "Commanders official Croskey-Merritt IR announcement",
+      "url": "https://www.commanders.com/news/commanders-activate-amos-magee-mcnichols-croskey-merritt-jean-baptiste",
+      "ref": "turn16search4",
+      "published": "2026-10-19 15:59 (as displayed)",
+      "word_limit": 200,
+      "support": "Croskey-Merritt placed IR; no return guarantee.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S45",
+      "title": "Jets official Week10 recap",
+      "url": "https://www.newyorkjets.com/news/jets-bills-game-recap-11-15-2026",
+      "ref": "turn13search3",
+      "published": "2026-11-15; time not surfaced",
+      "word_limit": 200,
+      "support": "Geno ankle exit; Wilson and Hall played productively; next QB context unresolved.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S46",
+      "title": "Panthers official Brooks IR announcement",
+      "url": "https://www.panthers.com/news/jonathon-brooks-placed-on-injured-reserve-signed-isaiah-simmons",
+      "ref": "turn16search5",
+      "published": "2026-09-23 09:38 (as displayed)",
+      "word_limit": 200,
+      "support": "Brooks groin injury; original IR placement.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S47",
+      "title": "Associated Press Maye update",
+      "url": "https://www.foxsports.com/articles/nfl/patriots-drake-maye-will-be-sidelined-indefinitely-with-an-ankle-injury-ap-source-says",
+      "ref": "turn10search5",
+      "published": "2026-11-16 11:52 ET",
+      "word_limit": 25,
+      "support": "Maye indefinite absence; surgery decision pending.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S48",
+      "title": "Texans official Montgomery downgrade",
+      "url": "https://www.houstontexans.com/news/houston-texans-transactions-11-14-2026",
+      "ref": "turn23search1",
+      "published": "2026-11-14 12:13 (as displayed)",
+      "word_limit": 200,
+      "support": "Montgomery groin ruled out Week10 and did not travel.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S49",
+      "title": "NFL official Week9 injury roundup",
+      "url": "https://fantasy-www.nfl.com/news/notable-injuries-news-sunday-week-9-games-2026",
+      "ref": "turn25search0",
+      "published": "2026-11-08 14:45; updated 2026-11-09 00:18 (as displayed)",
+      "word_limit": 200,
+      "support": "Waddle and Burden concussion injuries from Nov8; carry-forward rather than Nov15 events.",
+      "quoted_words": 0
+    },
+    {
+      "id": "S50",
+      "title": "USA TODAY Wan'Dale Robinson report carried by Yahoo",
+      "url": "https://sports.yahoo.com/articles/wan-dale-robinson-unable-anything-055242704.html",
+      "ref": "turn25search4",
+      "published": "2026-11-16 05:52 UTC",
+      "word_limit": 200,
+      "support": "Wan'Dale injured ankle Sunday; primary team severity confirmation not retrieved.",
+      "quoted_words": 0
+    }
+  ],
+  "incidents": [
+    {
+      "rank": 1,
+      "id": "NEWS-MAYE",
+      "player": "Drake Maye",
+      "owner_id": 12,
+      "owner": "Dr. Duckhook",
+      "slot": "QB",
+      "event_date": "2026-11-15",
+      "classification": "Serious injury reported; season-ending outcome NOT confirmed",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S47"
+      ],
+      "fact": "Maye left Sunday's Munich game with an ankle/lower-leg injury. Monday reporting describes an indefinite or extended absence, potentially the rest of the season, with further medical determination pending.",
+      "week11": "New England is on bye; Duckhook needed a different quarterback for Week11 regardless. The injury threatens the plan from Week12 onward.",
+      "owned_option": "C.J. Stroud is already owned on Duckhook's bench, tagged Active, and played Sunday in the official Houston box score. Treat him as the first internal candidate, subject to the Week11 report and Thursday lock.",
+      "option_source_ids": [
+        "S18",
+        "S17"
+      ],
+      "forecast": "Plan for a potentially prolonged QB change. Do not print 'Maye's season is over' or a guaranteed return week.",
+      "safe_copy": "Duckhook's quarterback plan changed Sunday. Maye faces an extended absence; a season-ending outcome is still unconfirmed. With New England on bye, owned reserve C.J. Stroud becomes the immediate planning option."
+    },
+    {
+      "rank": 2,
+      "id": "NEWS-MARKS",
+      "player": "Woody Marks",
+      "owner_id": 10,
+      "owner": "Mud Dogs",
+      "slot": "RB",
+      "event_date": "2026-11-15",
+      "classification": "Confirmed game exit/concussion; Week11 final designation pending",
+      "source_ids": [
+        "S04",
+        "S42",
+        "S17"
+      ],
+      "fact": "Houston ruled Marks out with a concussion Sunday. Ryans reportedly considers Thursday availability unlikely.",
+      "week11": "Houston plays Thursday Nov19: this is the earliest injury decision, before most Sunday final reports. Concussion clearance is required; do not infer season-ending loss.",
+      "owned_option": "No injured teammate is an automatic handcuff. Saquon Barkley and Kenny Gainwell are rostered alternatives to assess, but this pass has not established their Week11 medical clearance; no unconditional replacement recommendation.",
+      "option_source_ids": [],
+      "forecast": "Show a short decision window, not an invented recovery deadline. The team still has a playoff route per the league audit, so injury and Cancun metaphor must not become elimination fact.",
+      "safe_copy": "The Mud Dogs' next problem arrives Thursday: Woody Marks left with a concussion, and the short week puts his availability in doubt."
+    },
+    {
+      "rank": 3,
+      "id": "NEWS-BOWERS",
+      "player": "Brock Bowers",
+      "owner_id": 7,
+      "owner": "The Chili Cheesers",
+      "slot": "TE",
+      "event_date": "2026-11-15",
+      "classification": "Ankle injury; reportedly day-to-day, not season-ending",
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "fact": "Bowers exited Sunday with an ankle injury; Monday NFL Network reporting carried by Reuters says a major injury is not believed to have occurred, with further testing planned.",
+      "week11": "Chili also loses Hunter Henry and Kyle Pitts to NFL byes, so healthy TE depth is narrower than the roster's four TE names imply.",
+      "owned_option": "Michael Mayer is already on Chili's bench, currently Active, and his official log confirms Sunday participation. He is the owned contingency to evaluate if Bowers is unavailable; participation does not guarantee Week11 health or equivalent output.",
+      "option_source_ids": [
+        "S38"
+      ],
+      "forecast": "Await tests/practice; preserve a Bowers-plays branch. Do not bury him in a season-ending casualty headline.",
+      "safe_copy": "Bowers is reportedly day-to-day after his ankle injury. With Henry and Pitts on bye, Chili's own reserve Michael Mayer becomes the first contingency if Bowers cannot go."
+    },
+    {
+      "rank": 4,
+      "id": "NEWS-BROWN",
+      "player": "A.J. Brown",
+      "owner_id": 6,
+      "owner": "Three Dreaded Snake",
+      "slot": "WR",
+      "event_date": "2026-11-15",
+      "classification": "Confirmed hamstring exit; recovery duration unresolved",
+      "source_ids": [
+        "S01"
+      ],
+      "fact": "Brown's return from prior knee trouble ended with a hamstring injury in Sunday's game.",
+      "week11": "Patriots bye removes Brown regardless of injury; Week12 outlook also depends on both Brown's recovery and New England's quarterback situation.",
+      "owned_option": "No medically cleared Week11 replacement is asserted here. TDS owns several WR options, but McConkey is currently out, Burden carries a provider Questionable flag, and the next practice cycle must be checked.",
+      "option_source_ids": [],
+      "forecast": "Do not translate commentary calling this a lost season into a medical season-ending declaration.",
+      "safe_copy": "Brown's comeback ended with another injury. The bye buys time, but the Snake's receiving plan now waits on a hamstring update and a changing Patriots offense."
+    },
+    {
+      "rank": 5,
+      "id": "NEWS-WANDALE",
+      "player": "Wan'Dale Robinson",
+      "owner_id": 6,
+      "owner": "Three Dreaded Snake",
+      "slot": "WR",
+      "event_date": "2026-11-15",
+      "classification": "Ankle injury reported; primary severity/Week11 status unresolved",
+      "source_ids": [
+        "S50"
+      ],
+      "fact": "USA TODAY reports an ankle injury during Sunday's game. Fresh provider roster marks him Questionable.",
+      "week11": "TDS already has three current starters on bye and Brown/McConkey/Burden issues; Robinson's availability is an additional roster vulnerability.",
+      "owned_option": "Do not promote a replacement as healthy before checking the next official report.",
+      "option_source_ids": [],
+      "forecast": "Do not state season-ending, a medical grade, or an official Week11 game designation before it exists.",
+      "safe_copy": "The Snake's receiver decisions keep multiplying: Robinson's ankle now joins the Week11 watch list."
+    },
+    {
+      "rank": 6,
+      "id": "NEWS-LONDON",
+      "player": "Drake London",
+      "owner_id": 3,
+      "owner": "Slob on my Dobb",
+      "slot": "WR/TE",
+      "event_date": "2026-11-15",
+      "classification": "Concussion evaluation and non-return confirmed; diagnosis/clearance unresolved",
+      "source_ids": [
+        "S07"
+      ],
+      "fact": "Atlanta says London was evaluated for a concussion late Sunday and did not return.",
+      "week11": "Atlanta is on bye, as are Slob starters Fannin and Shaheed. Track London for Week12 without announcing a diagnosed concussion from the evaluation alone.",
+      "owned_option": "No unconditional healthy-replacement claim. Slob's bench WR pool also includes Omar Cooper Jr., who left with an ankle injury.",
+      "option_source_ids": [
+        "S08"
+      ],
+      "forecast": "Slob's dominance in Week10 does not erase its Week11 TE vacancy and three current-starter byes.",
+      "safe_copy": "Slob won the road this week; next week's lineup still needs rebuilding. London is under injury review, and three current starters are on bye."
+    },
+    {
+      "rank": 7,
+      "id": "NEWS-HENDERSON",
+      "player": "TreVeyon Henderson",
+      "owner_id": 3,
+      "owner": "Slob on my Dobb",
+      "slot": "IR",
+      "event_date": "2026-11-14 transaction; illness onset not established",
+      "classification": "Confirmed new NFL IR placement; not confirmed season-ending",
+      "source_ids": [
+        "S14",
+        "S15"
+      ],
+      "fact": "New England placed Henderson on IR Saturday after listing him out with illness on its final injury report.",
+      "week11": "Already unavailable in Slob's current roster; cannot be used as immediate bye relief.",
+      "owned_option": null,
+      "option_source_ids": [],
+      "forecast": "This is a weekend roster loss, not proof of a season-ending injury. Avoid speculation about the illness.",
+      "safe_copy": "Henderson's Saturday IR move further reduces Slob's available depth."
+    },
+    {
+      "rank": 8,
+      "id": "NEWS-LAMAR",
+      "player": "Lamar Jackson",
+      "owner_id": 2,
+      "owner": "Red Leopards",
+      "slot": "IR",
+      "event_date": "2026-11-01 Week8 injury; IR 2026-11-05; prognosis 2026-11-13",
+      "classification": "Confirmed existing IR; prolonged recovery, no fixed return date",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "fact": "Baltimore reports a broken/dislocated thumb and says surgical recovery for this type of injury typically takes 6–10 weeks, with progress guiding return.",
+      "week11": "Red has J.J. McCarthy rostered at QB. Owned Drew Lock is on Seattle's Week11 bye; do not count him as next week's cover.",
+      "owned_option": "McCarthy is the existing starter, not a newly found acquisition. No other active Week11 QB is established in the current roster.",
+      "option_source_ids": [],
+      "forecast": "Useful support for Red's strain, but the injury predates this weekend and does not prove fantasy playoff elimination.",
+      "safe_copy": "Red's storm was already gathering: Lamar remains on IR, with recovery rather than a calendar promise determining his return."
+    },
+    {
+      "rank": 9,
+      "id": "NEWS-PUKA",
+      "player": "Puka Nacua",
+      "owner_id": 1,
+      "owner": "ObiWan Jacoby",
+      "slot": "IR",
+      "event_date": "2026-11-08 injury; 2026-11-12 IR",
+      "classification": "Confirmed multi-game absence; not season-ending",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "fact": "The Rams placed Puka on IR after knee/toe injuries. Their official account states Week15 is his earliest eligible return.",
+      "week11": "The entire Rams roster is on bye. Obi's current Rams D/ST and Higbee, plus Patriot Hollins, require lineup changes.",
+      "owned_option": "No replacement claims are added without the next injury report; this is a roster-construction constraint.",
+      "option_source_ids": [],
+      "forecast": "Obi must bridge the remaining regular-season weeks without assuming a Puka return before Week15; eligibility is not medical clearance.",
+      "safe_copy": "Obi's reinforcements have a calendar problem: Puka cannot return from IR before Week15."
+    },
+    {
+      "rank": 10,
+      "id": "NEWS-MCCONKEY",
+      "player": "Ladd McConkey",
+      "owner_id": 6,
+      "owner": "Three Dreaded Snake",
+      "slot": "Bench",
+      "event_date": "2026-11-15 downgrade for 2026-11-16 game",
+      "classification": "Officially OUT Monday; Week11 unresolved",
+      "source_ids": [
+        "S06"
+      ],
+      "fact": "Chargers downgraded McConkey from questionable to out because of his back and said he would not travel.",
+      "week11": "No assumption of availability against the Jets next Sunday. Recheck the next practice report.",
+      "owned_option": null,
+      "option_source_ids": [],
+      "forecast": "He is benched in Schemin; do not subtract points from the current starting lineup. Relevant to depth, not a new starter loss.",
+      "safe_copy": "McConkey will not play Monday. For TDS, that is another depth restriction entering a three-starter bye week."
+    },
+    {
+      "rank": 11,
+      "id": "NEWS-COOPER",
+      "player": "Omar Cooper Jr.",
+      "owner_id": 3,
+      "owner": "Slob on my Dobb",
+      "slot": "Bench",
+      "event_date": "2026-11-15",
+      "classification": "Ankle injury; tests/severity unresolved",
+      "source_ids": [
+        "S08"
+      ],
+      "fact": "The Jets say Cooper sustained an ankle injury and was due further testing Monday.",
+      "week11": "Do not treat him as settled cover for Slob's London/Shaheed byes.",
+      "owned_option": null,
+      "option_source_ids": [],
+      "forecast": "Jets QB Geno Smith's ankle status also affects the passing ecosystem. Any role/efficiency change is an inference, not a guarantee.",
+      "safe_copy": "Slob's reserve receiver Cooper is awaiting ankle clarity, so the bye-week replacement list remains fluid."
+    },
+    {
+      "rank": 12,
+      "id": "NEWS-HUTCHINSON",
+      "player": "Aidan Hutchinson / Lions D/ST",
+      "owner_id": 8,
+      "owner": "His Majesty's Blood",
+      "slot": "Bench D/ST; player not individually rostered",
+      "event_date": "2026-11-15",
+      "classification": "NFL Network reports season-ending ACL tear after initial tests",
+      "source_ids": [
+        "S05"
+      ],
+      "fact": "Monday NFL Network reporting says Hutchinson's ACL tear will end his season.",
+      "week11": "HMB owns Lions D/ST on the bench. This is defensive-depth and matchup context, not an injured Schemin skill-position starter.",
+      "owned_option": "HMB's current starter is Vikings D/ST; no automatic switch is prescribed.",
+      "option_source_ids": [],
+      "forecast": "Detroit defensive efficiency may change without its pass rusher; that is a forecast inference, not a quantified point deduction.",
+      "safe_copy": "Detroit's pass rush suffered a reported season-ending loss. In Schemin, the direct roster connection is HMB's reserve Lions D/ST."
+    },
+    {
+      "rank": 13,
+      "id": "NEWS-KELCE",
+      "player": "Travis Kelce",
+      "owner_id": 12,
+      "owner": "Dr. Duckhook",
+      "slot": "TE",
+      "event_date": "2026-11-15",
+      "classification": "Calf issue; returned during game",
+      "source_ids": [
+        "S09"
+      ],
+      "fact": "Kelce missed part of the first half with a calf issue and returned in the third quarter.",
+      "week11": "Recheck participation; do not present the exit as a confirmed ongoing absence.",
+      "owned_option": "Juwan Johnson is rostered reserve TE; future clearance not verified in this pass.",
+      "option_source_ids": [],
+      "forecast": "Duckhook has a second health watch, but Maye and Kelce are different severity categories.",
+      "safe_copy": "Kelce returned after a calf issue. His practice week is a watch item, not a confirmed vacancy."
+    },
+    {
+      "rank": 14,
+      "id": "NEWS-MOORE",
+      "player": "Skyy Moore",
+      "owner_id": 5,
+      "owner": "D0nkey K0ng",
+      "slot": "Bench",
+      "event_date": "2026-11-15",
+      "classification": "Ankle game exit; duration unresolved",
+      "source_ids": [
+        "S04"
+      ],
+      "fact": "Moore was ruled out of Sunday's game with an ankle issue.",
+      "week11": "Green Bay is on bye; he cannot replace DK's departing starters regardless.",
+      "owned_option": null,
+      "option_source_ids": [],
+      "forecast": "Depth note only.",
+      "safe_copy": "Moore's ankle exit adds a reserve watch for DK, with Green Bay already on bye."
+    },
+    {
+      "rank": 15,
+      "id": "NEWS-WILSON",
+      "player": "Michael Wilson",
+      "owner_id": 4,
+      "owner": "The LLC",
+      "slot": "IR",
+      "event_date": "2026-11-08 injury; 2026-11-09 season-ending announcement; 2026-11-10 IR",
+      "classification": "Officially confirmed season-ending, preceding weekend",
+      "source_ids": [
+        "S19",
+        "S20"
+      ],
+      "fact": "Arizona says Wilson's neck injury ended his season.",
+      "week11": "Already absent from LLC's active lineup; remaining WR choices must be assessed independently.",
+      "owned_option": null,
+      "option_source_ids": [],
+      "forecast": "Correct example of a season-ending owned player, but label as carry-forward news from Week9.",
+      "safe_copy": "The LLC's loss of Wilson is season-long. It belongs in the continuing casualty ledger, dated to last week."
+    },
+    {
+      "rank": 16,
+      "id": "NEWS-TATE",
+      "player": "Carnell Tate",
+      "owner_id": 8,
+      "owner": "His Majesty's Blood",
+      "slot": "Fantasy IR; provider Out",
+      "event_date": "Ongoing shoulder injury; latest official forward update 2026-11-13",
+      "classification": "Potential Week11 return; not cleared",
+      "source_ids": [
+        "S21"
+      ],
+      "fact": "Tennessee's coach expressed hope for a Week11 return and said Wednesday would provide a clearer answer.",
+      "week11": "Potential help for HMB's JSN/Mumpfield bye holes, but not an established starter or cleared replacement.",
+      "owned_option": null,
+      "option_source_ids": [],
+      "forecast": "Keep a ready/pending branch; a hope is not activation.",
+      "safe_copy": "Tate is a possible reinforcement for HMB, with Wednesday's shoulder update the next meaningful checkpoint."
+    }
+  ],
+  "team_readiness": [
+    {
+      "id": 1,
+      "name": "ObiWan Jacoby",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 3043078,
+          "name": "Derrick Henry",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "BAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4567048,
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4372016,
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4608686,
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4426515,
+          "name": "Puka Nacua",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 12483,
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "LAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3116365,
+          "name": "Mark Andrews",
+          "position": "TE",
+          "lineupSlot": "FLEX",
+          "proTeam": "BAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16014,
+          "name": "Rams D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "LAR",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4428331,
+          "name": "Rashee Rice",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "KC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360310,
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3055899,
+          "name": "Harrison Butker",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "KC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "WSH",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 3116164,
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "CIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 2991662,
+          "name": "Mack Hollins",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "NE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4682648,
+          "name": "Malachi Fields",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 2573401,
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "LAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 2973405,
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4427728,
+          "name": "Bam Knight",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "ARI",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Rams D/ST",
+        "Mack Hollins",
+        "Tyler Higbee"
+      ],
+      "week11_bye_all_rostered": [
+        "Puka Nacua",
+        "Matthew Stafford",
+        "Rams D/ST",
+        "Mack Hollins",
+        "Tyler Higbee"
+      ],
+      "headline": "Bridge the receiver absences; rebuild three bye slots.",
+      "injury_ids": [
+        "NEWS-PUKA"
+      ],
+      "other": "Waddle's concussion is a Nov8 carry-forward (S49); Walker missed Week10 with groin trouble (S09); Monangai's toe/thumb recovery and Croskey-Merritt IR remain checks (S43/S44).",
+      "gap": "Only rostered D/ST is Rams, on bye. Mark Andrews can cover the TE slot vacated by Higbee if healthy after MNF, but that shifts another FLEX decision.",
+      "safe_action": "Prepare a D/ST acquisition shortlist and post-MNF eligibility check. Do not assume Waddle or Walker has cleared for Week11.",
+      "flagged_players": [
+        {
+          "playerId": 4567048,
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4372016,
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4608686,
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4426515,
+          "name": "Puka Nacua",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "WSH",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Red Leopards",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4241478,
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4429615,
+          "name": "Zay Flowers",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "BAL",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 3916148,
+          "name": "Tony Pollard",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "TEN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4038815,
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4688813,
+          "name": "Josh Downs",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4385690,
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "BUF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4426385,
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "SEA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4430737,
+          "name": "Kyren Williams",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "LAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 5083315,
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4569559,
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4571557,
+          "name": "Spencer Shrader",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "IND",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4361411,
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4695883,
+          "name": "Jalen Coker",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4433970,
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NYG",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3930086,
+          "name": "Dawson Knox",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "BUF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3924327,
+          "name": "Drew Lock",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "SEA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16011,
+          "name": "Colts D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "IND",
+          "injuryStatus": null
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Zach Charbonnet",
+        "Kyren Williams"
+      ],
+      "week11_bye_all_rostered": [
+        "Zach Charbonnet",
+        "Kyren Williams",
+        "Drew Lock"
+      ],
+      "headline": "Existing QB/WR losses meet two running-back byes.",
+      "injury_ids": [
+        "NEWS-LAMAR"
+      ],
+      "other": "DeVonta Smith was out with hamstring trouble before Philadelphia's Week10 bye (S26). There is no fresh team confirmation of a Week11 return.",
+      "gap": "Kyren Williams and Zach Charbonnet are on bye. McCarthy is the only currently rostered non-bye, non-IR QB; Lock is a Seattle bye.",
+      "safe_action": "Reassess current owned RB/WR depth after Wednesday reports; preserve Red's playoff uncertainty rather than declaring the season dead.",
+      "flagged_players": [
+        {
+          "playerId": 4241478,
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "BAL",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Slob on my Dobb",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 3117251,
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "SF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3918298,
+          "name": "Josh Allen",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "BUF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685472,
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4432710,
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "NE",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 5083076,
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "CLE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4047365,
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "GB",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4032473,
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "SEA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16007,
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4596448,
+          "name": "Bucky Irving",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4597500,
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4567104,
+          "name": "Will Reichard",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "MIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4431299,
+          "name": "Rome Odunze",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4723820,
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": -16002,
+          "name": "Bills D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "BUF",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4040761,
+          "name": "Devin Singletary",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4426502,
+          "name": "Drake London",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "ATL",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4819231,
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360569,
+          "name": "Jordan Mason",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "MIN",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Harold Fannin Jr.",
+        "Rashid Shaheed",
+        "Drake London"
+      ],
+      "week11_bye_all_rostered": [
+        "TreVeyon Henderson",
+        "Harold Fannin Jr.",
+        "Josh Jacobs",
+        "Rashid Shaheed",
+        "Drake London",
+        "Kaleb Johnson"
+      ],
+      "headline": "A dominant Week10 roster still has a Week11 TE vacancy.",
+      "injury_ids": [
+        "NEWS-LONDON",
+        "NEWS-HENDERSON",
+        "NEWS-COOPER"
+      ],
+      "other": "Jacobs missed Week10 with a finger injury; Green Bay is on bye (S32).",
+      "gap": "Fannin is Slob's only TE and is on bye. Current starters London and Shaheed are also off.",
+      "safe_action": "TE acquisition work can begin now. Do not count London/Cooper as established Week11 fixes; London is on bye even if cleared.",
+      "flagged_players": [
+        {
+          "playerId": 4432710,
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "NE",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4047365,
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "GB",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4723820,
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4426502,
+          "name": "Drake London",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "ATL",
+          "injuryStatus": "Questionable"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The LLC",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4242335,
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "IND",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685382,
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4239996,
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4569618,
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3915416,
+          "name": "DJ Moore",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BUF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4432620,
+          "name": "Parker Washington",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4678008,
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "CAR",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4360761,
+          "name": "Michael Wilson",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "ARI",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 3915511,
+          "name": "Joe Burrow",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "CIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4241985,
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4723086,
+          "name": "Colston Loveland",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4361050,
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "NYG",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4569603,
+          "name": "Malik Washington",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "MIA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4880281,
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4036378,
+          "name": "Jordan Love",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16029,
+          "name": "Panthers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "CAR",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4427095,
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685702,
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CLE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3124679,
+          "name": "Jason Sanders",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "DeMario Douglas",
+        "Quinshon Judkins"
+      ],
+      "week11_bye_all_rostered": [
+        "Jordan Love",
+        "DeMario Douglas",
+        "Quinshon Judkins"
+      ],
+      "headline": "Two current-starter byes, one confirmed prior-week season-ending loss.",
+      "injury_ids": [
+        "NEWS-WILSON"
+      ],
+      "other": "Jonathon Brooks has a practice window, not an activation (S30/S46). Geno Smith's ankle uncertainty affects Garrett Wilson's passing environment (S08/S45); no automatic target or scoring upgrade.",
+      "gap": "DeMario Douglas and Quinshon Judkins are on bye. The current roster has non-bye RB choices, but Omarion Hampton still plays Monday and must finish healthy.",
+      "safe_action": "Watch Hampton Monday, then compare owned RB cover. Keep the Wilson injury in a dated continuing ledger.",
+      "flagged_players": [
+        {
+          "playerId": 4678008,
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "CAR",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4360761,
+          "name": "Michael Wilson",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "ARI",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "D0nkey K0ng",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4430807,
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "ATL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4361307,
+          "name": "Trey McBride",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "ARI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4427366,
+          "name": "Breece Hall",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 2577417,
+          "name": "Dak Prescott",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "DAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4047650,
+          "name": "DK Metcalf",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "PIT",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3953687,
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "DAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360078,
+          "name": "Alec Pierce",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "IND",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 3121023,
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16034,
+          "name": "Texans D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "HOU",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685415,
+          "name": "Travis Hunter",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16012,
+          "name": "Chiefs D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4430191,
+          "name": "Skyy Moore",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4429023,
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4384852,
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4686422,
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "HOU",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4361409,
+          "name": "Jahan Dotson",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4832800,
+          "name": "Denzel Boston",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CLE",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Bijan Robinson",
+        "Denzel Boston"
+      ],
+      "week11_bye_all_rostered": [
+        "Bijan Robinson",
+        "Davante Adams",
+        "Skyy Moore",
+        "MarShawn Lloyd",
+        "Jahan Dotson",
+        "Denzel Boston"
+      ],
+      "headline": "GOTW host must replace Bijan and Boston before facing HMB.",
+      "injury_ids": [
+        "NEWS-MOORE"
+      ],
+      "other": "Davante Adams remains IR from October; Alec Pierce has no established return timetable (S28/S29). Geno's injury adds uncertainty around Breece Hall's offense (S08/S45).",
+      "gap": "Bijan Robinson and Denzel Boston are current-starter byes. Skyy Moore is also bye/injury affected.",
+      "safe_action": "Alvin Kamara is already owned, Active, and played Sunday (S39): a verified internal RB candidate, not a guaranteed Bijan-equivalent. Recheck all replacements for Week11.",
+      "flagged_players": [
+        {
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4360078,
+          "name": "Alec Pierce",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "IND",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4430191,
+          "name": "Skyy Moore",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Questionable"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Three Dreaded Snake",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4870795,
+          "name": "Makai Lemon",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4361579,
+          "name": "Javonte Williams",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "DAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4431611,
+          "name": "Caleb Williams",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4036133,
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "MIN",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4360689,
+          "name": "Tyler Shough",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685278,
+          "name": "Luther Burden III",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4569587,
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "TEN",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "FA",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": -16025,
+          "name": "49ers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "SF",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4047646,
+          "name": "A.J. Brown",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4882093,
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4870653,
+          "name": "KC Concepcion",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "CLE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4612826,
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 5082424,
+          "name": "Dominic Zvada",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "NYG",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3128429,
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4569682,
+          "name": "Audric Estime",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 2576925,
+          "name": "Darren Waller",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "CAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360797,
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "LAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16033,
+          "name": "Ravens D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "BAL",
+          "injuryStatus": null
+        }
+      ],
+      "week11_bye_current_starters": [
+        "A.J. Brown",
+        "KC Concepcion",
+        "Tutu Atwell"
+      ],
+      "week11_bye_all_rostered": [
+        "A.J. Brown",
+        "KC Concepcion",
+        "Tutu Atwell"
+      ],
+      "headline": "The deepest immediate receiver watch list.",
+      "injury_ids": [
+        "NEWS-BROWN",
+        "NEWS-WANDALE",
+        "NEWS-MCCONKEY"
+      ],
+      "other": "Burden's concussion dates to Nov8 (S49). Hockenson was inactive with wrist/chest issues (S22/S23). Tyreek Hill's FA/Questionable provider flag lacks a verified current diagnosis in this pass.",
+      "gap": "Brown, KC Concepcion and Tutu Atwell are current-starter byes; several other receiver options carry health uncertainty.",
+      "safe_action": "Prepare alternate lineups around clearance outcomes. Ravens D/ST remains a live Week10 starter tonight. No single replacement is presented as medically cleared for next week.",
+      "flagged_players": [
+        {
+          "playerId": 4036133,
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "MIN",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4685278,
+          "name": "Luther Burden III",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4569587,
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "TEN",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "FA",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4047646,
+          "name": "A.J. Brown",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4612826,
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Out"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Chili Cheesers ",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DET",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4595348,
+          "name": "Malik Nabers",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NYG",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4696981,
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "NYG",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4035538,
+          "name": "David Montgomery",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "HOU",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4248528,
+          "name": "Christian Watson",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "GB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360248,
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4432665,
+          "name": "Brock Bowers",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "LV",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 3116165,
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16023,
+          "name": "Steelers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "PIT",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "SEA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3046439,
+          "name": "Hunter Henry",
+          "position": "TE",
+          "lineupSlot": "FLEX",
+          "proTeam": "NE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4429086,
+          "name": "Michael Mayer",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "LV",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4569371,
+          "name": "Isaiah Williams",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685720,
+          "name": "Bryce Young",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "CAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 5081397,
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CLE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4568490,
+          "name": "RJ Harvey",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "DEN",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": -16019,
+          "name": "Giants D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4241555,
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Christian Watson",
+        "Jason Myers",
+        "Hunter Henry",
+        "Dylan Sampson"
+      ],
+      "week11_bye_all_rostered": [
+        "Christian Watson",
+        "Kyle Pitts Sr.",
+        "Jason Myers",
+        "Hunter Henry",
+        "Dylan Sampson"
+      ],
+      "headline": "Bowers uncertainty meets four current-starter byes.",
+      "injury_ids": [
+        "NEWS-BOWERS"
+      ],
+      "other": "Montgomery was ruled out with a groin issue (S48); Harvey remains IR with no Week11 eligibility (S31). Do not assume Marks' absence makes Montgomery available.",
+      "gap": "Watson, Hunter Henry, Dylan Sampson and Jason Myers are on bye. Pitts is also on bye; Myers is the only rostered kicker.",
+      "safe_action": "Kicker acquisition work can begin. Mayer is owned and played Sunday (S38), making him the real TE contingency if Bowers cannot play; retain a Bowers-active branch.",
+      "flagged_players": [
+        {
+          "playerId": 4035538,
+          "name": "David Montgomery",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "HOU",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4432665,
+          "name": "Brock Bowers",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "LV",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4568490,
+          "name": "RJ Harvey",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "DEN",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "His Majesty's Blood",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4430878,
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SEA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4426388,
+          "name": "Jameson Williams",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DET",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4241416,
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4871023,
+          "name": "Carnell Tate",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "TEN",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4697815,
+          "name": "Rachaad White",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "WSH",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4362619,
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4430539,
+          "name": "Brenton Strange",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16016,
+          "name": "Vikings D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "MIN",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 5083754,
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3042519,
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "MIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360423,
+          "name": "Michael Penix Jr.",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4702555,
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4570037,
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 5081432,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4686361,
+          "name": "Cam Little",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4683062,
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16008,
+          "name": "Lions D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "DET",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4361741,
+          "name": "Brock Purdy",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "SF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4710855,
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "LAR",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Jaxon Smith-Njigba",
+        "Konata Mumpfield"
+      ],
+      "week11_bye_all_rostered": [
+        "Jaxon Smith-Njigba",
+        "Michael Penix Jr.",
+        "Terrance Ferguson",
+        "Konata Mumpfield"
+      ],
+      "headline": "The 200-Burger contender has two bye holes and a possible reinforcement.",
+      "injury_ids": [
+        "NEWS-HUTCHINSON",
+        "NEWS-TATE"
+      ],
+      "other": "Ferguson's practice window is a watch, not activation, and the Rams are on bye (S37).",
+      "gap": "JSN and Konata Mumpfield are current-starter byes. Michael Penix Jr. is also a bye, so do not describe him as Week11 QB insurance.",
+      "safe_action": "Track Tate Wednesday. Treat Worthy as an owned depth option whose health and usage need review, not an automatic breakout after his zero-catch Week10 (S40/S41).",
+      "flagged_players": [
+        {
+          "playerId": 4871023,
+          "name": "Carnell Tate",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "TEN",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4570037,
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "El Niño",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4379399,
+          "name": "James Cook III",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "BUF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4362238,
+          "name": "Chase Brown",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4426354,
+          "name": "George Pickens",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4239993,
+          "name": "Tee Higgins",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 16737,
+          "name": "Mike Evans",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "SF",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4040715,
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4572680,
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "GB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 2976212,
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "WSH",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4429025,
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4258173,
+          "name": "Nico Collins",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "HOU",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4428718,
+          "name": "Tre Tucker",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LV",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 2971573,
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "HOU",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4686612,
+          "name": "Tre' Harris",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4832955,
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "KC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3122840,
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "CLE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 14880,
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "MIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4363538,
+          "name": "Chad Ryland",
+          "position": "K",
+          "lineupSlot": "Bench",
+          "proTeam": "ARI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16018,
+          "name": "Saints D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "NO",
+          "injuryStatus": null
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Tucker Kraft"
+      ],
+      "week11_bye_all_rostered": [
+        "Tucker Kraft",
+        "Deshaun Watson"
+      ],
+      "headline": "Storm momentum still needs a tight end and confirmed quarterback.",
+      "injury_ids": [],
+      "other": "Hurts remains out of contact football during treatment (S25); Evans missed Week10 with Achilles trouble (S27). Kirk Cousins started only after Minnesota ruled out Kyler Murray (S22); next start not confirmed.",
+      "gap": "Kraft is Niño's only TE, on bye. Watson is a Cleveland bye, leaving the QB plan dependent on Minnesota's decision if no acquisition occurs.",
+      "safe_action": "Start the TE shortlist now. Keep Cousins' Week11 role conditional. Pickens is already owned; do not call moving him into the lineup a waiver pickup.",
+      "flagged_players": [
+        {
+          "playerId": 16737,
+          "name": "Mike Evans",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "SF",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4040715,
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Mud Dogs",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 3929630,
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4890973,
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "LV",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4430027,
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "DET",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4426348,
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4035687,
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4371733,
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "position": "TE",
+          "lineupSlot": "WR/TE",
+          "proTeam": "SF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3916433,
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3046779,
+          "name": "Jared Goff",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "DET",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4429059,
+          "name": "Woody Marks",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "HOU",
+          "injuryStatus": "Doubtful"
+        },
+        {
+          "playerId": 4241474,
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4360939,
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "BAL",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3116389,
+          "name": "Samaje Perine",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 15818,
+          "name": "Keenan Allen",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4249087,
+          "name": "Matt Gay",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "LV",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4567156,
+          "name": "Treylon Burks",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16005,
+          "name": "Browns D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "CLE",
+          "injuryStatus": null
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Browns D/ST"
+      ],
+      "week11_bye_all_rostered": [
+        "Brian Robinson Jr.",
+        "Browns D/ST"
+      ],
+      "headline": "Thursday injury decision, plus a defense vacancy.",
+      "injury_ids": [
+        "NEWS-MARKS"
+      ],
+      "other": "Pittman and Brian Robinson Jr. are existing IR cases (S33/S34). Their current Bench placement is a fantasy roster fact, not proof of eligibility.",
+      "gap": "Browns D/ST is the only rostered defense and is on bye.",
+      "safe_action": "Prepare a D/ST shortlist and RB alternatives before Thursday. Cancun remains an editorial threat, not a mathematical elimination notice.",
+      "flagged_players": [
+        {
+          "playerId": 4035687,
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4429059,
+          "name": "Woody Marks",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "HOU",
+          "injuryStatus": "Doubtful"
+        },
+        {
+          "playerId": 4241474,
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Seven Deadly Chins",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4262921,
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "MIN",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4870808,
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "ARI",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4259545,
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4569987,
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "PIT",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4567750,
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "KC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4431459,
+          "name": "Tyler Warren",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "IND",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4429096,
+          "name": "Blake Corum",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "LAR",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16026,
+          "name": "Seahawks D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "SEA",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 4373626,
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "ARI",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685247,
+          "name": "Braelon Allen",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685261,
+          "name": "Germie Bernard",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "PIT",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4869645,
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "MIA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360635,
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4837248,
+          "name": "Fernando Mendoza",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "LV",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4366031,
+          "name": "Tank Dell",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "HOU",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4258620,
+          "name": "Andre Szmyt",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "CLE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4710714,
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "SF",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4431268,
+          "name": "Chimere Dike",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TEN",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Blake Corum",
+        "Seahawks D/ST",
+        "Andre Szmyt"
+      ],
+      "week11_bye_all_rostered": [
+        "Blake Corum",
+        "Seahawks D/ST",
+        "Andre Szmyt"
+      ],
+      "headline": "Three current-starter byes expose the specialist slots.",
+      "injury_ids": [],
+      "other": "Love and Stribling remain existing IR recoveries; neither source supports a new Week10 season-ending claim (S35/S36).",
+      "gap": "Blake Corum, Seahawks D/ST and Andre Szmyt are off. There is no second D/ST or kicker in the roster.",
+      "safe_action": "Both D/ST and kicker acquisition work can start. Recheck Love's return pathway without naming a guaranteed Week11 comeback.",
+      "flagged_players": [
+        {
+          "playerId": 4870808,
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "ARI",
+          "injuryStatus": "IR"
+        },
+        {
+          "playerId": 4710714,
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "SF",
+          "injuryStatus": "IR"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dr. Duckhook",
+      "snapshot": {
+        "type": "current"
+      },
+      "players": [
+        {
+          "playerId": 4429795,
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "DET",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4569173,
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4701936,
+          "name": "Matthew Golden",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "GB",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4429205,
+          "name": "Jordan Addison",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "MIN",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4373678,
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BUF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4431452,
+          "name": "Drake Maye",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NE",
+          "injuryStatus": "Doubtful"
+        },
+        {
+          "playerId": 4711533,
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "MIA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4361370,
+          "name": "Chris Olave",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4685512,
+          "name": "Jadarian Price",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "SEA",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4360238,
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "Questionable"
+        },
+        {
+          "playerId": 4696044,
+          "name": "Kaelon Black",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "SF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16030,
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "JAX",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 3917232,
+          "name": "Tyler Bass",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "BUF",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 3929645,
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4432577,
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "HOU",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": -16027,
+          "name": "Buccaneers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": null
+        },
+        {
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "KC",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4431431,
+          "name": "Corey Kiner",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NE",
+          "injuryStatus": "Active"
+        },
+        {
+          "playerId": 4432773,
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX",
+          "injuryStatus": "Active"
+        }
+      ],
+      "week11_bye_current_starters": [
+        "Matthew Golden",
+        "Drake Maye",
+        "Jadarian Price"
+      ],
+      "week11_bye_all_rostered": [
+        "Rhamondre Stevenson",
+        "Matthew Golden",
+        "Drake Maye",
+        "Jadarian Price",
+        "Corey Kiner"
+      ],
+      "headline": "Serious QB uncertainty, a returned TE, and three byes.",
+      "injury_ids": [
+        "NEWS-MAYE",
+        "NEWS-KELCE"
+      ],
+      "other": "Jordan Addison was inactive with thumb trouble (S22/S23). Dameon Pierce's Questionable flag lacks a current diagnosis verified here.",
+      "gap": "Maye, Matthew Golden and Jadarian Price are current-starter byes.",
+      "safe_action": "Stroud is the owned QB contingency supported by Sunday participation (S18). Lock planning to Thursday, and separately follow Kelce/Addison health.",
+      "flagged_players": [
+        {
+          "playerId": 4429205,
+          "name": "Jordan Addison",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "MIN",
+          "injuryStatus": "Out"
+        },
+        {
+          "playerId": 4431452,
+          "name": "Drake Maye",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NE",
+          "injuryStatus": "Doubtful"
+        },
+        {
+          "playerId": 4360238,
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "Questionable"
+        }
+      ]
+    }
+  ],
+  "week11": {
+    "bye_clubs": [
+      "ATL",
+      "CLE",
+      "GB",
+      "LAR",
+      "NE",
+      "SEA"
+    ],
+    "source_id": "S16",
+    "uncovered_required_positions": [
+      {
+        "team_id": 1,
+        "position": "D/ST",
+        "current_owned_only": "Rams D/ST",
+        "reason": "Week11 bye"
+      },
+      {
+        "team_id": 3,
+        "position": "TE",
+        "current_owned_only": "Harold Fannin Jr.",
+        "reason": "Week11 bye"
+      },
+      {
+        "team_id": 7,
+        "position": "K",
+        "current_owned_only": "Jason Myers",
+        "reason": "Week11 bye"
+      },
+      {
+        "team_id": 9,
+        "position": "TE",
+        "current_owned_only": "Tucker Kraft",
+        "reason": "Week11 bye"
+      },
+      {
+        "team_id": 10,
+        "position": "D/ST",
+        "current_owned_only": "Browns D/ST",
+        "reason": "Week11 bye"
+      },
+      {
+        "team_id": 11,
+        "position": "D/ST",
+        "current_owned_only": "Seahawks D/ST",
+        "reason": "Week11 bye"
+      },
+      {
+        "team_id": 11,
+        "position": "K",
+        "current_owned_only": "Andre Szmyt",
+        "reason": "Week11 bye"
+      }
+    ],
+    "uncovered_position_count": 7,
+    "teams_with_uncovered_positions": 6,
+    "gotw_recommendation": {
+      "fixture": "His Majesty's Blood at D0nkey K0ng",
+      "recommendation": "Retain as cinematic GOTW, based on the parent/sibling league audit; this research supplies roster context, not the matchup-history decision.",
+      "hmb_current_starter_byes": [
+        "Jaxon Smith-Njigba",
+        "Konata Mumpfield"
+      ],
+      "dk_current_starter_byes": [
+        "Bijan Robinson",
+        "Denzel Boston"
+      ],
+      "hmb_variables": [
+        "Carnell Tate hopeful, not cleared.",
+        "Lions D/ST loses Hutchinson; bench depth effect.",
+        "Ferguson is not a Week11 option because Rams bye."
+      ],
+      "dk_variables": [
+        "Owned Kamara is a current internal RB candidate, subject to practice.",
+        "Moore is injury/bye affected; Adams/Pierce remain existing absences.",
+        "Geno's ankle status may affect Breece Hall's offensive environment; no quantified downgrade asserted."
+      ],
+      "safe_copy": "Next week's spotlight belongs to HMB at DK: this week's emerging kings meet with two current starters apiece on bye. The replacements are part of the showdown.",
+      "record_gate": "Only describe both as6–4 if the current Week10 leads hold and the league refresh confirms records."
+    },
+    "co_headliner": {
+      "fixture": "El Niño at Slob on my Dobb",
+      "angle": "The expanding storm meets Slob's logistics powerhouse, with both teams currently missing their sole TE to bye.",
+      "additional_variables": [
+        "Slob also has London/Shaheed byes and fresh Cooper/Henderson depth issues.",
+        "Niño's Cousins start is not guaranteed; Watson is on bye and Hurts remains unavailable.",
+        "No fantasy lineup should assume current full-strength projections survive bye changes."
+      ]
+    }
+  },
+  "mnf": {
+    "game": "Los Angeles Chargers at Baltimore Ravens",
+    "kickoff": "2026-11-16T20:15:00-05:00",
+    "source_ids": [
+      "S06",
+      "S24"
+    ],
+    "current_starters": [
+      {
+        "team_id": 1,
+        "player": "Derrick Henry"
+      },
+      {
+        "team_id": 1,
+        "player": "Mark Andrews"
+      },
+      {
+        "team_id": 2,
+        "player": "Zay Flowers"
+      },
+      {
+        "team_id": 6,
+        "player": "Ravens D/ST"
+      }
+    ],
+    "bench_watch": [
+      {
+        "team_id": 4,
+        "player": "Omarion Hampton",
+        "status": "Current provider Active; confirm final inactives/performance/health."
+      },
+      {
+        "team_id": 9,
+        "player": "Quentin Johnston",
+        "status": "Current provider Active; confirm inactives/performance/health."
+      },
+      {
+        "team_id": 9,
+        "player": "Tre' Harris",
+        "status": "Official final report no designation; still confirm game-day inactives."
+      },
+      {
+        "team_id": 10,
+        "player": "Rashod Bateman",
+        "status": "Official final report no designation; still confirm game-day inactives."
+      },
+      {
+        "team_id": 6,
+        "player": "Ladd McConkey",
+        "status": "Officially OUT/back; Bench, not a starting-lineup zero."
+      }
+    ],
+    "note": "Jacoby Brissett's Ravens debut is confirmed in the team preview; any effect on Henry/Andrews/Flowers is a football inference until the game is played. Do not name him as Schemin-owned."
+  },
+  "page_plans": [
+    {
+      "page": "P34 — Injury consequences (new page; production section S16)",
+      "title": "THE COST OF SUNDAY",
+      "purpose": "New injury-consequence page. Preserve P18 Sports Desk as the established performance page.",
+      "content": [
+        "Lead on Duckhook's Maye uncertainty and owned Stroud contingency.",
+        "Bowers day-to-day / Marks Thursday concussion clock / TDS receiver uncertainty.",
+        "One short dated carry-forward line for Lamar, Puka and Michael Wilson."
+      ],
+      "visual": "One full-page illustrated newsroom scene at an atlas-approved Commonwealth site. Warm working lamps, cold November light through high windows, fixed aged equipment and ink-stained reporting surfaces. Injury copy belongs naturally in the authored scene; no tiled medical dashboard and no PDF-like page layout.",
+      "continuity": "The storm is an environmental story from El Niño's run. It does not medically cause NFL injuries or turn the injured athletes into targets of the humiliation gags.",
+      "release_gate": "Recheck Monday diagnoses and Tuesday press updates before committing exact status lettering."
+    },
+    {
+      "page": "P25 — Reserve Watch",
+      "title": "WHO IS LEFT TO ANSWER?",
+      "purpose": "Distinguish already owned replacements from waiver needs.",
+      "content": [
+        "Duckhook: Stroud owned and played Sunday; Thursday decision.",
+        "Chili: Mayer owned and played Sunday; Henry/Pitts byes.",
+        "DK: Kamara owned and played Sunday; Bijan bye.",
+        "Leave unverified returns (Tate, Brooks, McConkey, Waddle, Burden) in a clearly pending category.",
+        "Seven uncovered required positions across six teams, including both kicker and defense for Chins; these are current-roster needs, not a waiver transaction result."
+      ],
+      "visual": "An established equipment or mobilization hall with occupied and empty bays integrated into the illustration. The team/role evidence selects the empty spaces; do not fabricate injury identities as decoration.",
+      "continuity": "Carry common storm direction and damp/cold clothing cues from the atlas, with lower local exposure indoors.",
+      "release_gate": "Owned-player check plus latest health/activation status; no unowned player presented as a team asset."
+    },
+    {
+      "page": "Moves / transaction page",
+      "title": "THE NEXT LINEUP STARTS HERE",
+      "purpose": "Turn verified roster holes into useful league news.",
+      "content": [
+        "Seven uncovered position needs across six teams: Obi D/ST; Slob TE; Chili K; Niño TE; Mud D/ST; Chins D/ST and K.",
+        "Use completed transactions only for recaps. Pending or failed requests are not completed moves.",
+        "Start candidate discovery now; no add/drop or claim submission is authorized by this research task."
+      ],
+      "visual": "A worn Commonwealth exchange/dispatch setting where transactions are part of the world. Any dates, names and completed statuses must come from the transaction ledger.",
+      "continuity": "Road closures and storm-lit arrival lanes connect Slob's deliveries and the wider storm without pretending the NFL byes are fantasy weather events.",
+      "release_gate": "League audit verifies transaction outcomes and later free-agent availability; no named available target from an unqueried market."
+    },
+    {
+      "page": "Opening Drive / Commissioner's note",
+      "title": "THE POINTS ARE ONLY HALF THE STORY",
+      "purpose": "Introduce late-regular-season urgency without claiming elimination or final results prematurely.",
+      "content": [
+        "Acknowledge explosive scoring and a storm that reaches more than one territory.",
+        "Forecast turns on health, six NFL byes, and actual playoff paths.",
+        "Mud Dogs' Cancun motif is a threat; the league audit finds a remaining route.",
+        "Keep all live results, records, streaks and seeds conditional until MNF/refresh."
+      ],
+      "visual": "The planned wide Commonwealth establishing image can carry the prose inside the illustration. Reuse approved atlas landmarks, weather direction and age of infrastructure.",
+      "continuity": "Bridge from current-week victory imagery to tomorrow's practical roster pressure.",
+      "release_gate": "Parent's league audit and final Week10 results."
+    },
+    {
+      "page": "Week11 preview",
+      "title": "THE STRONGEST ARRIVE SHORT-HANDED",
+      "purpose": "Connect this week's winners to next week's real constraints.",
+      "content": [
+        "HMB at DK remains the cinematic GOTW recommendation from the league audit.",
+        "Both currently have two Week10 starters on NFL bye next week.",
+        "Niño at Slob is the storm-front co-headliner; both have current TE vacancies.",
+        "Neither game is a full-strength clash by default, and conditional6–4 records must remain conditional."
+      ],
+      "visual": "At the selected existing DK/atlas venue or approved connecting approach, show preparations before the collision, not the outcome. Use worn ten-year infrastructure, practical lights, and the geographically correct degree of El Niño's front.",
+      "continuity": "HMB arrives after birthday humiliation, DK after rodeo dominance; resources and missing starters create suspense without predicting a winner.",
+      "release_gate": "Week10 final records; Week11 lineups; health/availability; confirmed site and geography."
+    }
+  ],
+  "unresolved": [
+    "Maye final diagnosis, surgery decision and season outcome.",
+    "Bowers latest testing and Week11 availability.",
+    "Marks concussion clearance and Thursday game status.",
+    "Brown hamstring severity; London evaluation outcome; Cooper and Geno ankle tests.",
+    "Robinson ankle severity and next official report.",
+    "McConkey, Waddle, Burden, Monangai and other return candidates' Week11 practice status.",
+    "Carnell Tate return and Jonathon Brooks activation; neither is guaranteed.",
+    "Tyreek Hill FA/Questionable and Dameon Pierce Questionable flags: no current diagnosis verified in this pass.",
+    "Any final injury-to-playoff-probability quantification; requires healthy-lineup assumptions and league math.",
+    "Named free-agent candidates and availability: not fetched in this task."
+  ],
+  "update_order": [
+    "Monday pregame: confirm Chargers/Ravens inactives; McConkey OUT already known.",
+    "After MNF: refresh four starting exposures, all six matchups, any newly injured owned bench players, and records/streaks.",
+    "Tuesday: update final diagnoses, Texans first short-week report, and fresh roster/transaction ownership.",
+    "Wednesday: check official practice, Tate, QB decisions, and return windows; evaluate six teams' seven uncovered positions.",
+    "Thursday: Houston injury/active status and Stroud/Marks-related decisions before kickoff.",
+    "Final copy lock: every season-ending phrase, bye replacement and return date gets a source/time/owner check."
+  ]
+}

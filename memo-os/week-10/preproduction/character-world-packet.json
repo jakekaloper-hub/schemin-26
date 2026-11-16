@@ -831,7 +831,9 @@
         "ROUTE-DELTA-CAUSEWAY",
         "ROUTE-JACKSON-LEVEE",
         "ROUTE-WESTERN-RANGE"
-      ]
+      ],
+      "active_for_pass3": false,
+      "status": "ARCHIVED_PRIOR_VENUE_CANDIDATE"
     },
     {
       "name": "Chili to neutral",
@@ -849,7 +851,9 @@
         "ROUTE-DELTA-CAUSEWAY",
         "ROUTE-BASIN-MARKET",
         "ROUTE-COMPACT-GROUNDS"
-      ]
+      ],
+      "active_for_pass3": false,
+      "status": "ARCHIVED_PRIOR_VENUE_CANDIDATE"
     },
     {
       "name": "DK to neutral",
@@ -867,7 +871,9 @@
         "ROUTE-HEARTHROAD",
         "ROUTE-UPPER-BASIN-CONNECTOR",
         "ROUTE-COMPACT-GROUNDS"
-      ]
+      ],
+      "active_for_pass3": false,
+      "status": "ARCHIVED_PRIOR_VENUE_CANDIDATE"
     },
     {
       "name": "El Niño to Red",
@@ -883,7 +889,8 @@
         "ROUTE-PORT-BASIN-CONNECTOR",
         "ROUTE-UPPER-BASIN-CONNECTOR",
         "ROUTE-RAIN-ESCARPMENT"
-      ]
+      ],
+      "active_for_pass3": true
     },
     {
       "name": "Chins to TDS",
@@ -897,7 +904,8 @@
         "ROUTE-WESTERN-RANGE",
         "ROUTE-TDS-CHILI-SHARED-MARCH",
         "ROUTE-TDS-CHILI-SHARED-MARCH"
-      ]
+      ],
+      "active_for_pass3": true
     },
     {
       "name": "Slob to Mud",
@@ -913,7 +921,8 @@
         "ROUTE-UPPER-BASIN-CONNECTOR",
         "ROUTE-BASIN-MARKET",
         "ROUTE-DELTA-CAUSEWAY"
-      ]
+      ],
+      "active_for_pass3": true
     },
     {
       "name": "HMB to Duck",
@@ -931,7 +940,8 @@
         "ROUTE-UPPER-BASIN-CONNECTOR",
         "ROUTE-BASIN-MARKET",
         "ROUTE-DELTA-CAUSEWAY"
-      ]
+      ],
+      "active_for_pass3": true
     },
     {
       "name": "LLC to Obi",
@@ -947,7 +957,81 @@
         "ROUTE-PORT-BASIN-CONNECTOR",
         "ROUTE-UPPER-BASIN-CONNECTOR",
         "ROUTE-EASTERN-ASCENT"
-      ]
+      ],
+      "active_for_pass3": true
+    },
+    {
+      "name": "Chili to DK rodeo",
+      "nodes": [
+        "LOC-CHILI-STABLE",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-DK-MUD-HILL",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "edges": [
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-JACKSON-LEVEE",
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "active_for_pass3": true,
+      "status": "REGISTERED_REGIONAL_SPINE; LOCAL_RODEO_APPROACH_PROPOSED"
+    },
+    {
+      "name": "Red field to Forgotten Court",
+      "nodes": [
+        "LOC-RED-RUINS",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-LEAGUE-CHAMBER",
+        "SET-W10-FORGOTTEN-COURT-REVISIT"
+      ],
+      "edges": [
+        "ROUTE-RAIN-ESCARPMENT",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "PROPOSED-LOCAL-COURT-SPUR"
+      ],
+      "active_for_pass3": true,
+      "status": "REGIONAL_SPINE_REGISTERED; COURT_SPUR_UNREGISTERED_PROPOSAL",
+      "elapsed_time_caption_required": true
+    },
+    {
+      "name": "DK to Week11 bridge preview",
+      "nodes": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "edges": [
+        "ROUTE-DK-HIGHLAND-LINK",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-HEARTHROAD"
+      ],
+      "active_for_pass3": true,
+      "status": "WEEK11_PREVIEW_PROPOSAL"
+    },
+    {
+      "name": "HMB to Week11 bridge preview",
+      "nodes": [
+        "LOC-BELT-KEEPER-KEEP",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "edges": [
+        "ROUTE-BLACK-CLIFF",
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "active_for_pass3": true,
+      "status": "WEEK11_PREVIEW_PROPOSAL; DIFFERENT_TIME_FROM_WEEK10_LLC_ATTACK"
     }
   ],
   "sources": [
@@ -955,5 +1039,192 @@
     "canon/characters/APPROVED_LINEUP_2026_10_18.json",
     "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
     "living-novel/os/geography/world_travel_graph_v1.json"
-  ]
+  ],
+  "pass3_set_register": [
+    {
+      "set_id": "SET-W10-DK-RODEO-GROUNDS",
+      "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "parent_status": "INTERPRETIVE_CANON",
+      "set_status": "PROPOSED_REUSABLE_CHILD_SET",
+      "region_id": "REG-UPPER-VALLEYS",
+      "name": "Arsenal Rodeo Grounds",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
+      "parent_location_id": "LOC-RED-RUINS",
+      "parent_status": "PERMANENT_CANON",
+      "set_status": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION",
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+      "parent_location_id": null,
+      "parent_status": "NO_REGISTERED_LOCATION_ID_FOUND",
+      "set_status": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+      "region_id": "REG-CENTRAL-BASIN",
+      "region_basis": "Explicit Week7 P08–10 caption",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "parent_status": "PERMANENT_CANON",
+      "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+      "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+      "parent_status": "PERMANENT_CANON",
+      "set_status": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-SCORING-COURT",
+      "working_name": "League Chamber scoring courtyard",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-COURIER-ARRIVALS",
+      "working_name": "League Archive courier court",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-MAP-THRESHOLD",
+      "working_name": "League Chamber map wall and threshold",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "set_id": "SET-W10-COMPACT-PUBLIC-BOARD",
+      "working_name": "Compact Neutral Grounds public result approach",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "set_id": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+      "working_name": "Upper Basin Connector near the mountain-lake approach",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-SCORING-HALL",
+      "working_name": "League Archive scoring hall",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+      "working_name": "League Chamber outer loggia",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+      "working_name": "League Archive courier intake desk",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-STANDINGS-HALL",
+      "working_name": "League Archive record hall",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-DIVISION-TERRACE",
+      "working_name": "League Chamber public terrace",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "set_id": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+      "working_name": "Mountain-lake overlook",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "set_id": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+      "working_name": "Alpine Wager Route, above the existing base camp",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+      "working_name": "League Chamber outward-facing fixture terrace",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "set_id": "SET-W10-OPTIONAL-BOOK-SHELF",
+      "working_name": "Temple household Book shelf, only if a new Book item is supplied",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "set_id": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+      "working_name": "Slob Foothill Camp tailgate-yard approach",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+      "working_name": "League Archive late dispatch alcove",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "set_id": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+      "working_name": "Bridge at the Mountain Lake, opposing approaches",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    }
+  ],
+  "creative_revision": {
+    "revision": "WHOLE_ISSUE_PASS_03",
+    "status": "BRAINSTORMING_PASS_3",
+    "controlling_source": "whole-issue-pass-03.md",
+    "structured_source": "whole-issue-pass-03.json",
+    "selected_detail_approval": false,
+    "new_art_generated": false,
+    "accepted_changes": [
+      "DK pursues Chili at a proposed rodeo inside DK homeland",
+      "Red sandbags the reused soccer field, then revisits the separate Central Basin basketball court",
+      "Chins jackhammers the temple courtyard and turns up music beneath TDS balcony",
+      "Slob completes a beer shipment through the swamp without a fight",
+      "All supporting departments receive revised copy, site, light, source and continuity passes"
+    ],
+    "sports_status": "All six Week10 outcomes still UNDECIDED; current-leads-hold forecasts remain conditional",
+    "supersedes": [
+      "Compact arena as M01 venue",
+      "Chili-first lasso and axe-block reversal",
+      "Barrel/air-horn noise routine",
+      "Dry-only generic Red terrace ending",
+      "Mud attack/keg-shield fight",
+      "Generic supporting-page location placeholders"
+    ]
+  }
 }

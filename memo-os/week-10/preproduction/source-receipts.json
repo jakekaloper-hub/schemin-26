@@ -53,6 +53,23 @@
       "file": "personalization-intake.md",
       "kind": "DIRECT_COMMISSIONER_INSTRUCTION",
       "date": "2026-11-16"
+    },
+    "PASS3_LEAGUE": {
+      "artifact": "current-league-pass3.json",
+      "scope": "Schemin only; connected-session metadata intentionally excluded",
+      "sha256": "0fc42577f69dac5219609321160c9973eba041dc86a15285b80586bcecfdcddf"
+    },
+    "PASS3_NEWS": {
+      "artifact": "sports-news-pass3.json",
+      "scope": "Dated reports joined to current owned roster entries; flags do not establish diagnosis"
+    },
+    "PASS3_MATH": {
+      "artifact": "playoff-witnesses-pass3.json",
+      "scope": "Constructive qualification and miss paths, conditional current-leads-hold baseline; not odds"
+    },
+    "PASS3_W11_HISTORY": {
+      "artifact": "week11-history-pass3.json",
+      "scope": "Verified 2025 Week9 DK/HMB and 2024/2025 Niño/Slob earlier meetings; explicit alias and coverage limits"
     }
   },
   "character_asset_receipts": [
@@ -213,119 +230,203 @@
   },
   "files": [
     {
-      "path": "README.md",
-      "sha256": "46f94de8037362197c433e84ed31ca19cdea17f4698efc256c1f6a3416141a07",
-      "bytes": 6779
+      "file": "README.md",
+      "sha256": "853ea2d56635f4e3d5535046a3f71a4d85f4a3ab08d22b0087944a9372483144",
+      "bytes": 3709
     },
     {
-      "path": "character-world-packet.json",
-      "sha256": "ebe0bcf436696fb66a186752cbddd1b5bbed2251f9036adaa39bd1f48b0a5a30",
-      "bytes": 50859
+      "file": "art-atlas-pass3.json",
+      "sha256": "09f2df62de33c0c8c4ec4864df621652e4224f13b3accd5fa24968abfc9b14d5",
+      "bytes": 57620
     },
     {
-      "path": "continuation-score-recheck.json",
+      "file": "available-slots-pass3.json",
+      "sha256": "0b760b1222f5ba032fb9d34592a2a6c65f92809253d92122f71d9b30fad2fb01",
+      "bytes": 8030
+    },
+    {
+      "file": "available-slots-receipts-pass3.json",
+      "sha256": "958da5881bd5ab02211d5e8db23408d7132177d2877e9e818b33ed87900babc4",
+      "bytes": 30313
+    },
+    {
+      "file": "character-world-packet.json",
+      "sha256": "79e3b6f9bed8e8ef6b529a91134bdfe2ddf808a5267fb9459bd155c4146edd6f",
+      "bytes": 61006
+    },
+    {
+      "file": "continuation-score-recheck.json",
       "sha256": "03da81ac99b44033a1f6d9d83fc60b6fe2c8b868105e84fdc968d379ebb8f6b7",
       "bytes": 4104
     },
     {
-      "path": "current-score-recheck.json",
+      "file": "current-league-pass3.json",
+      "sha256": "0fc42577f69dac5219609321160c9973eba041dc86a15285b80586bcecfdcddf",
+      "bytes": 415476
+    },
+    {
+      "file": "current-score-recheck.json",
       "sha256": "977c48f0a1bee8adb7e0cc452a69171085e4fafcfc2beca210f996f4f0fcfc3b",
       "bytes": 4590
     },
     {
-      "path": "director-sequences.json",
-      "sha256": "0f73fe4023ece31366cbb35427defaf042c03b79431d9df48156805d6ad8b5f4",
-      "bytes": 33912
+      "file": "director-sequences.json",
+      "sha256": "8ff255e107bd33bff672160e8debdba94789a229832ca3b0e57ba8d5096bc798",
+      "bytes": 105380
     },
     {
-      "path": "facts.json",
-      "sha256": "e4ae1228766abef09db5f4b2e69e0cd2677c806026b4d72b5b405a7e17a70027",
-      "bytes": 61039
+      "file": "facts.json",
+      "sha256": "d9e6eed9b60dec6ef57ce6600a23e5dd1ca453f0c7e53a51ddcf97ed78963bc4",
+      "bytes": 252631
     },
     {
-      "path": "historical-archive.json",
+      "file": "historical-archive.json",
       "sha256": "b3f8403518b16d38498a7fd3591e3058858945e3dc5516d7543586abccc06eaa",
       "bytes": 47553
     },
     {
-      "path": "historical-context.md",
-      "sha256": "a04687b0d9b8996781437859f04cb528537cd7f66ef503ee93270268fa481278",
-      "bytes": 5112
+      "file": "historical-context.md",
+      "sha256": "8fa64b2a62c83555fd343f39b27eb3fabe4a2a05a5427e47ec707ba6d86b5005",
+      "bytes": 5517
     },
     {
-      "path": "historical-provider-evidence.json",
+      "file": "historical-provider-evidence.json",
       "sha256": "b1dfe87c73609e46bf3fe0ff424c3d2c77bbd14b7b023ed85acf5d8dc16d5308",
       "bytes": 376456
     },
     {
-      "path": "historical-research.json",
+      "file": "historical-research.json",
       "sha256": "d2a40f6789bc84d34395c2a1fd74074760d059e655b288be347815a7622c406d",
       "bytes": 47445
     },
     {
-      "path": "illustrated-page-briefs.json",
-      "sha256": "0021eb1ccae59e1fabfa5712d68d60681db26e67baa280fb878ccbf17311da10",
-      "bytes": 438026
+      "file": "illustrated-page-briefs.json",
+      "sha256": "fadc02a657ae931ad6c7c6ac1bf252ebf7e96e1eea51f2784c155ffa57d749ca",
+      "bytes": 548756
     },
     {
-      "path": "illustrated-page-briefs.md",
-      "sha256": "80cd675fbedf34bdf8d4f8d663c2abaef352228bc11b9770244448683775488b",
-      "bytes": 76130
+      "file": "illustrated-page-briefs.md",
+      "sha256": "b378eadc48f27ea35d5a121d55a2d6e48c0a9cf675e0ed1dd14e55ece61de4c0",
+      "bytes": 98538
     },
     {
-      "path": "illustrated-png-direction.md",
-      "sha256": "d7a88fb03b6176f164b25bb585ea018264b14801e0888580e687a34e7eae201a",
-      "bytes": 6195
+      "file": "illustrated-png-direction.md",
+      "sha256": "426176265c5ba1c1dee481e2f0f8a3990aa584c2becc17fd6d2fc2b37702f2e6",
+      "bytes": 6018
     },
     {
-      "path": "issue-draft.md",
-      "sha256": "9d4f0d2463c38c342951aa704f1f2af79b6e9f6a4a6cd1a30f79ee74a0d7cc1c",
-      "bytes": 78225
+      "file": "issue-draft.md",
+      "sha256": "dd63a4b227b9bbc5b1bd813a466c3eb20b5f30c59034cf9f4eaf4b1af49992b2",
+      "bytes": 19981
     },
     {
-      "path": "issue-previs.json",
-      "sha256": "261cc0646476acda183aac3d74fd2f54da0862356ae5479d01d4f9b98f4abd22",
-      "bytes": 694551
+      "file": "issue-previs.json",
+      "sha256": "42fa92a7faca22eabcbea35d2195525f21a01fd2e461312afd80bddb28029d53",
+      "bytes": 905273
     },
     {
-      "path": "personalization-intake.md",
-      "sha256": "2775b2a18b94e481615208defbb2d308d65dcee1747b94f03893eaea9f824a07",
-      "bytes": 6054
+      "file": "league-audit-pass3.json",
+      "sha256": "d7407b2effb3494f96fe6c235926e96e1c2bc05f872ee50e1a9f8129eca61040",
+      "bytes": 130906
     },
     {
-      "path": "personalization-review.md",
-      "sha256": "45f248c1dc54effa6a9bf7d4e587d500ec18bb53fdbdbbf464cece4ae02c6f78",
-      "bytes": 11092
+      "file": "mnf-detail-pass3.json",
+      "sha256": "f191e2895261b16680d2abad3d491c6516027baa65e1f01062188b36c0feaf33",
+      "bytes": 33990
     },
     {
-      "path": "production-next-steps.md",
-      "sha256": "4853f8a00e8d12b70a639520619e6c500a368ff2c37ead43f231f0ab8c7121d7",
-      "bytes": 9469
+      "file": "personalization-intake.md",
+      "sha256": "3ebd45f1867d0ecd85ebc86732aa31abd20c9c981133bcefcdbebc9fc9b65813",
+      "bytes": 8177
     },
     {
-      "path": "sports-evidence.json",
+      "file": "personalization-review.md",
+      "sha256": "c1a282fd9343966f56067b23686c7c8a4ac5bbc2fc71b4bbad224256383728c7",
+      "bytes": 11679
+    },
+    {
+      "file": "playoff-witnesses-pass3.json",
+      "sha256": "15f587ca9b1093b5e101744e46bab6740bd96e99f066231fcd021e2b4452243c",
+      "bytes": 161821
+    },
+    {
+      "file": "production-next-steps.md",
+      "sha256": "482f070d563f1b72c063d29b9022609a20652cd10ab6d151edb5484d2889bcb6",
+      "bytes": 2973
+    },
+    {
+      "file": "sports-evidence.json",
       "sha256": "eb9673a847144f0f9f8798980240caf67dc293d65df1730d42aedcd9a201383b",
       "bytes": 72430
     },
     {
-      "path": "storycards.json",
-      "sha256": "d0d4fd6a6a3ce50d7f4ad5fd2f15c6c9bab1f39da8649edef9a9117c071c1ff7",
-      "bytes": 186413
+      "file": "sports-news-pass3.json",
+      "sha256": "540ae0c507a7df2090a0cb1acec6307dfedc603cecb790729b62b4fd35ca6e15",
+      "bytes": 118070
     },
     {
-      "path": "validation.json",
-      "sha256": "36fe70d51bce0589da288214f82a4d7b89f68c2f2c1629d403a3f0fc4bdaabdf",
-      "bytes": 7046
+      "file": "storycards.json",
+      "sha256": "dc82d17c1c6656c804dbb8fc3e3adb693353b42ae0949e1d956e82936c9c9419",
+      "bytes": 281688
     },
     {
-      "path": "week9-review.md",
+      "file": "validation.json",
+      "sha256": "8b422784b3b6cf41df1bd459f55c093c69d2133627bbe70f0a8ed12b2fdf5a9b",
+      "bytes": 7348
+    },
+    {
+      "file": "week11-history-pass3.json",
+      "sha256": "42848a66b7d993b8ac18d4a4ffd89a26d601591085914e78edabd40d5aa55e73",
+      "bytes": 3493
+    },
+    {
+      "file": "week9-review.md",
       "sha256": "95a91053be8bc2a9f4a865d322a577f3d9b022bd651cf30ca00f45aacb580912",
       "bytes": 7310
     },
     {
-      "path": "workflow-review.md",
-      "sha256": "279795678c25acc1ca487a3ee4ef55e00aaedc94dd29c224d6f248f3e747982b",
-      "bytes": 29977
+      "file": "whole-issue-pass-03.json",
+      "sha256": "c81731df1812d148eff692e9e995b22e942d7918674ea4d53ee59e28ec1b81d0",
+      "bytes": 222857
+    },
+    {
+      "file": "whole-issue-pass-03.md",
+      "sha256": "7ad785948498a2dc28ccf34732e9e0004db3a48062023fe862e0246e27d99a06",
+      "bytes": 109804
+    },
+    {
+      "file": "workflow-review.md",
+      "sha256": "a9b4194e5a51dd9feefebcdf669390857335bc780f69c32704519fef63ace9a5",
+      "bytes": 30177
+    },
+    {
+      "file": "world-story-pass-01.json",
+      "sha256": "a3fa0c42772b950638eacda0f30b8813daf513b1221e6056b4e15df16ffa711b",
+      "bytes": 115286
+    },
+    {
+      "file": "world-story-pass-01.md",
+      "sha256": "e7f60b8b346aeec45080a642c97384696be697fad0a7f73d88cfd888f5d3b3b4",
+      "bytes": 34204
+    },
+    {
+      "file": "world-story-pass-02.json",
+      "sha256": "76a2adab4007fce5de5e988509be051ebe903b74b7ac2bb31320d0b6c0e3148e",
+      "bytes": 177973
+    },
+    {
+      "file": "world-story-pass-02.md",
+      "sha256": "525d2e56478764524d40eabd8713425582dbf1613af230c38f6f1ffd57f1db26",
+      "bytes": 64795
     }
-  ]
+  ],
+  "pass3": {
+    "previous_draft_commit": "aff8623a79fb57c23dd0baaa6ae6821b267cb48d",
+    "fresh_scope": "Schemin-only current league state, injuries/ownership, availability, playoff proofs and actual historical art",
+    "independent_review": {
+      "art_and_atlas": "Identified stale nested director and weather fields; removed/rebound; present court, rope, household, delivery, birthday and bridge treatment checked.",
+      "sports": "No factual mismatch in selected copy; removed inherited P34/P35merge metadata.",
+      "league": "Confirmed divisioncounts,next-lossproof,history; repaired conditionalguard and historicalsourcebindings."
+    }
+  }
 }

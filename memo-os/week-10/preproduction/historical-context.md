@@ -7,7 +7,7 @@ Researched November 16, 2026 using connected FLAIM/ESPN records and the pinned S
 | The Chili Cheesers–D0nkey K0ng | 2025 Week 16: Baker Moore Purdy beat Chili **144.30–128.72**, by **15.58**, in the winners-consolation ladder. Wilson's Baker→D0nkey name continuity is independently documented. | Chili has already lost to this opponent. Last week's successful public humiliation of HMB supplies fresh confidence; the rodeo reverses who becomes the entertainment. |
 | Red Leopards–El Niño | 2022 Week 16 semifinal: El Niño **116.32–97.96**, by **18.36**. Red was **13–1**, seed 1; Niño was **7–7**, seed 5. Niño went on to win the title. | This is a specific memory of a championship run ending. Cold wind and stripped autumn surroundings make Red recognize an old pattern without inventing a present elimination. |
 | Three Dreaded Snake–Seven Deadly Chins | TDS won both retrieved 2025 meetings: **189.72–172.00** in Week 3 and **139.84–90.70** in Week 14. | Chins's current dominance gives his noisy visit a fictional revenge flavor. New fatherhood comes from Jake and the Week 9 memo; it is not inferred from fantasy scoring. |
-| Mud Dogs–Slob on my Dobb | 2025 Week 17: Slob **100.28–97.13**, by **3.15**, in the losers-consolation ladder. | A previous narrow escape supplies contrast. The new scene should show Slob leaving nothing close enough to debate. |
+| Mud Dogs–Slob on my Dobb | 2025 Week 17: Slob **100.28–97.13**, by **3.15**, in the losers-consolation ladder. | A previous narrow escape supplies contrast. The delivery scene makes the contrast practical: Slob passes at routine speed while Mud’s warning changes nothing. |
 | Dr. Duckhook–His Majesty's Blood | 2025 Week 16 semifinal: The Immortal **152.20–151.80**, by **0.40**. The Immortal is Austin's documented earlier team name; he won the ensuing title. | Duckhook nearly stopped this opponent's championship run. This week's birthday invitation turns an emphatic rematch into a personal public embarrassment. |
 | ObiWan Jacoby–The LLC | 2024 Week 12: The LLC **163.16–162.36**, by **0.80**, in the regular season. ObiWan later won that season's title. | The LLC has previously won a close encounter. This week its current 200-plus output becomes an Imperial assault at a scale that makes a narrow tactical duel inadequate. |
 
@@ -23,7 +23,7 @@ The retrieval covers 2022–2024 fully, 2025 partially, and the previously check
 
 The current 2026 scores were rechecked during this revision and were unchanged. All six provider winner fields remain UNDECIDED. Jake's direction identifies the desired leading-team branches for dramatic development; it does not require turning a provisional score into an official result.
 
-Red's slipping-season feeling is a fictional character perspective. Under the current lead-holds scenario, Red would be 5–5 with four regular-season games remaining. This packet does not establish mathematical elimination. Likewise, the user's injury context is acknowledged as personal narrative background; no new diagnosis, player absence or return timetable is invented.
+Red's slipping-season feeling is a fictional character perspective. Under the current lead-holds scenario, Red would be 5–5 with four regular-season games remaining. This packet does not establish mathematical elimination. Current injury and ownership evidence is now assessed in sports-news-pass3.json. Its confirmed, reported, prior-week and unresolved categories govern medical and roster language; Red’s despair still does not establish elimination.
 
 ## Source trail
 
@@ -32,3 +32,7 @@ Red's slipping-season feeling is a fictional character perspective. Under the cu
 - [Archive notes](historical-archive.json): prior memo scenes, character texture and pinned source register.
 - [Commissioner direction](personalization-intake.md): birthday, new-baby/noise scenario, Star Wars action, cold autumn storm and public rodeo humiliation.
 - [Playoff archaeology](https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/living-novel/history/PLAYOFF_ARCHAEOLOGY.md): independent archive corroboration for the 2022 and 2025 semifinals.
+
+## Week 11 preview additions
+
+The HMB–DK2025Week9and Niño–Slob2024/2025receipts are retained in [week11-history-pass3.json](week11-history-pass3.json). These are verified earlier meetings with alias/coverage limits, not all-time records or necessarily the latest meeting.

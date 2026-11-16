@@ -1,3 +1,5 @@
+> Earlier workflow baseline retained as evidence. Current counts, completed reviews and remaining work are in [whole-issue-pass-03.md](whole-issue-pass-03.md) and [validation.json](validation.json).
+
 # Week 10 preproduction workflow audit
 ## Evidence review, practical output contract, and prior-week lessons
 

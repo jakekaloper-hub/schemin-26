@@ -1,0 +1,4830 @@
+{
+  "schema": "schemin.week10.pass3.league-audit.v1",
+  "prepared_at_utc": "2026-11-16T18:20:08Z",
+  "league": {
+    "platform": "espn",
+    "league_id": "1417621",
+    "season": 2026,
+    "name": "Pro Schemin’ Football League"
+  },
+  "main_findings": [
+    "Week10 remains live: all six provider winnersUNDECIDED.",
+    "All12 are mathematically alive and none clinched under the current-leads-hold baseline and published rules; provider outcome fields remain null.",
+    "Mud Dogs have a specific6–8 division-title route and therefore cannot be marked eliminated now.",
+    "Any remaining Mud loss, after the conditional Week10 loss, would eliminate them; Week11 vs Chins is a conditional survival game.",
+    "Seven berths, three division routes, four shared routes; Weeks12–14 all divisional;24 fixtures remain afterWeek10.",
+    "29 completed Week10 transactions among41 lifecycle rows.",
+    "HMB at DK is the recommended Week11 cinematic GOTW, with Niño at Slob a major Storm Watch co-headliner."
+  ],
+  "rules": {
+    "regular_season_weeks": 14,
+    "playoff_berths": 7,
+    "automatic_division_winner_berths": 3,
+    "shared_berths": 4,
+    "division_return_weeks": [
+      12,
+      13,
+      14
+    ],
+    "remaining_after_week10_games_per_team": 4,
+    "remaining_after_week10_league_games": 24,
+    "playoffSeedingRule_raw": "H2H_RECORD",
+    "matchupTieRule_raw": "SLOT_POINTS",
+    "matchupTieRuleBy_raw": 20,
+    "playoffMatchupTieRule_raw": "NONE",
+    "playoffMatchupPeriodLength": 1,
+    "provider_isPlayoffMatchupEdited": false,
+    "rule_authority": "Fresh ESPN roster homeFacts confirms seven playoff teams; league_info confirms H2H_RECORD. Approved Week9 Shareable_v2 physical page31 explicitly publishes three automatic division berths, four shared berths and Weeks12–14 divisional return; page29 identifies memberships. Fresh Weeks11–14 fixtures match these rules.",
+    "provider_limit": "Fresh league_info does not expose regular-season length or the full commissioner-specific tie waterfall. Published Week9 rules provide the regular-season/division framework; ESPN H2H documentation provides the default equal-schedule H2H handling. No unreported override assumed."
+  },
+  "week10_live": [
+    {
+      "week": 10,
+      "home_team_id": 7,
+      "home_name": "The Chili Cheesers",
+      "home_points_live": 93.7,
+      "away_team_id": 5,
+      "away_name": "D0nkey K0ng",
+      "away_points_live": 156.67,
+      "provider_winner": "UNDECIDED",
+      "current_leader_id": 5,
+      "live_margin": 62.97
+    },
+    {
+      "week": 10,
+      "home_team_id": 2,
+      "home_name": "Red Leopards",
+      "home_points_live": 136.42,
+      "away_team_id": 9,
+      "away_name": "El Niño",
+      "away_points_live": 189.08,
+      "provider_winner": "UNDECIDED",
+      "current_leader_id": 9,
+      "live_margin": 52.66
+    },
+    {
+      "week": 10,
+      "home_team_id": 6,
+      "home_name": "Three Dreaded Snake",
+      "home_points_live": 75.78,
+      "away_team_id": 11,
+      "away_name": "Seven Deadly Chins",
+      "away_points_live": 146.22,
+      "provider_winner": "UNDECIDED",
+      "current_leader_id": 11,
+      "live_margin": 70.44
+    },
+    {
+      "week": 10,
+      "home_team_id": 10,
+      "home_name": "Mud Dogs",
+      "home_points_live": 113.62,
+      "away_team_id": 3,
+      "away_name": "Slob on my Dobb",
+      "away_points_live": 179.29,
+      "provider_winner": "UNDECIDED",
+      "current_leader_id": 3,
+      "live_margin": 65.67
+    },
+    {
+      "week": 10,
+      "home_team_id": 12,
+      "home_name": "Dr. Duckhook",
+      "home_points_live": 127.67,
+      "away_team_id": 8,
+      "away_name": "His Majesty's Blood",
+      "away_points_live": 208.76,
+      "provider_winner": "UNDECIDED",
+      "current_leader_id": 8,
+      "live_margin": 81.09
+    },
+    {
+      "week": 10,
+      "home_team_id": 1,
+      "home_name": "ObiWan Jacoby",
+      "home_points_live": 130.33,
+      "away_team_id": 4,
+      "away_name": "The LLC",
+      "away_points_live": 203.96,
+      "provider_winner": "UNDECIDED",
+      "current_leader_id": 4,
+      "live_margin": 73.63
+    }
+  ],
+  "mnf_remaining_starters": [
+    {
+      "team_id": 1,
+      "players": [
+        "Derrick Henry",
+        "Mark Andrews"
+      ],
+      "deficit": 73.63
+    },
+    {
+      "team_id": 2,
+      "players": [
+        "Zay Flowers"
+      ],
+      "deficit": 52.66
+    },
+    {
+      "team_id": 6,
+      "players": [
+        "Ravens D/ST"
+      ],
+      "deficit": 70.44
+    }
+  ],
+  "standings_and_status": [
+    {
+      "team_id": 12,
+      "name": "Dr. Duckhook",
+      "division": "Wings",
+      "official_completed_record": {
+        "wins": 6,
+        "losses": 3,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 1,
+      "official_points_for": 1324.48,
+      "official_points_against": 1285.07,
+      "current_projected_rank": 1,
+      "week10_live_points": 127.67,
+      "live_accumulated_pf": 1452.15,
+      "conditional_post_week10_record": {
+        "wins": 6,
+        "losses": 4,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 10,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "W5"
+    },
+    {
+      "team_id": 9,
+      "name": "El Niño",
+      "division": "Pizza",
+      "official_completed_record": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 2,
+      "official_points_for": 1260.95,
+      "official_points_against": 1207.81,
+      "current_projected_rank": 6,
+      "week10_live_points": 189.08,
+      "live_accumulated_pf": 1450.03,
+      "conditional_post_week10_record": {
+        "wins": 6,
+        "losses": 4,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 10,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "W3"
+    },
+    {
+      "team_id": 5,
+      "name": "D0nkey K0ng",
+      "division": "Burgers",
+      "official_completed_record": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 3,
+      "official_points_for": 1255.15,
+      "official_points_against": 1238.09,
+      "current_projected_rank": 3,
+      "week10_live_points": 156.67,
+      "live_accumulated_pf": 1411.82,
+      "conditional_post_week10_record": {
+        "wins": 6,
+        "losses": 4,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 10,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "W1"
+    },
+    {
+      "team_id": 2,
+      "name": "Red Leopards",
+      "division": "Wings",
+      "official_completed_record": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 4,
+      "official_points_for": 1256.69,
+      "official_points_against": 1157.64,
+      "current_projected_rank": 8,
+      "week10_live_points": 136.42,
+      "live_accumulated_pf": 1393.11,
+      "conditional_post_week10_record": {
+        "wins": 5,
+        "losses": 5,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 9,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "W1"
+    },
+    {
+      "team_id": 8,
+      "name": "His Majesty's Blood",
+      "division": "Pizza",
+      "official_completed_record": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 5,
+      "official_points_for": 1243.19,
+      "official_points_against": 1218.94,
+      "current_projected_rank": 4,
+      "week10_live_points": 208.76,
+      "live_accumulated_pf": 1451.95,
+      "conditional_post_week10_record": {
+        "wins": 6,
+        "losses": 4,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 10,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "L1"
+    },
+    {
+      "team_id": 11,
+      "name": "Seven Deadly Chins",
+      "division": "Pizza",
+      "official_completed_record": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 6,
+      "official_points_for": 1210.4,
+      "official_points_against": 1145.84,
+      "current_projected_rank": 5,
+      "week10_live_points": 146.22,
+      "live_accumulated_pf": 1356.62,
+      "conditional_post_week10_record": {
+        "wins": 6,
+        "losses": 4,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 10,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "L1"
+    },
+    {
+      "team_id": 3,
+      "name": "Slob on my Dobb",
+      "division": "Wings",
+      "official_completed_record": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 7,
+      "official_points_for": 1420.7,
+      "official_points_against": 1291.3,
+      "current_projected_rank": 2,
+      "week10_live_points": 179.29,
+      "live_accumulated_pf": 1599.99,
+      "conditional_post_week10_record": {
+        "wins": 6,
+        "losses": 4,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 10,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "W1"
+    },
+    {
+      "team_id": 7,
+      "name": "The Chili Cheesers",
+      "division": "Wings",
+      "official_completed_record": {
+        "wins": 5,
+        "losses": 4,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 8,
+      "official_points_for": 1291.09,
+      "official_points_against": 1299.6,
+      "current_projected_rank": 7,
+      "week10_live_points": 93.7,
+      "live_accumulated_pf": 1384.79,
+      "conditional_post_week10_record": {
+        "wins": 5,
+        "losses": 5,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 9,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "W1"
+    },
+    {
+      "team_id": 1,
+      "name": "ObiWan Jacoby",
+      "division": "Burgers",
+      "official_completed_record": {
+        "wins": 4,
+        "losses": 5,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 9,
+      "official_points_for": 1217.98,
+      "official_points_against": 1217.93,
+      "current_projected_rank": 9,
+      "week10_live_points": 130.33,
+      "live_accumulated_pf": 1348.31,
+      "conditional_post_week10_record": {
+        "wins": 4,
+        "losses": 6,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 8,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "L4"
+    },
+    {
+      "team_id": 6,
+      "name": "Three Dreaded Snake",
+      "division": "Burgers",
+      "official_completed_record": {
+        "wins": 4,
+        "losses": 5,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 10,
+      "official_points_for": 1196.68,
+      "official_points_against": 1255.96,
+      "current_projected_rank": 10,
+      "week10_live_points": 75.78,
+      "live_accumulated_pf": 1272.46,
+      "conditional_post_week10_record": {
+        "wins": 4,
+        "losses": 6,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 8,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "L1"
+    },
+    {
+      "team_id": 4,
+      "name": "The LLC",
+      "division": "Pizza",
+      "official_completed_record": {
+        "wins": 3,
+        "losses": 6,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 11,
+      "official_points_for": 1245.29,
+      "official_points_against": 1340.89,
+      "current_projected_rank": 11,
+      "week10_live_points": 203.96,
+      "live_accumulated_pf": 1449.25,
+      "conditional_post_week10_record": {
+        "wins": 4,
+        "losses": 6,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 8,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "L1"
+    },
+    {
+      "team_id": 10,
+      "name": "Mud Dogs",
+      "division": "Burgers",
+      "official_completed_record": {
+        "wins": 2,
+        "losses": 7,
+        "ties": 0
+      },
+      "official_standings_scope": "through nine completed matchups",
+      "official_seed": 12,
+      "official_points_for": 1067.73,
+      "official_points_against": 1331.26,
+      "current_projected_rank": 12,
+      "week10_live_points": 113.62,
+      "live_accumulated_pf": 1181.35,
+      "conditional_post_week10_record": {
+        "wins": 2,
+        "losses": 8,
+        "ties": 0
+      },
+      "max_final_wins_if_current_leads_hold": 6,
+      "provider_madePlayoffs": null,
+      "provider_finalRank": null,
+      "conditional_mathematical_status": "alive, not clinched",
+      "conditional_eliminated": false,
+      "conditional_clinched": false,
+      "entering_streak": "L7"
+    }
+  ],
+  "remaining_schedule": [
+    {
+      "week": 11,
+      "home_team_id": 3,
+      "home_name": "Slob on my Dobb",
+      "away_team_id": 9,
+      "away_name": "El Niño",
+      "same_division": false,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 6,
+      "home_name": "Three Dreaded Snake",
+      "away_team_id": 2,
+      "away_name": "Red Leopards",
+      "same_division": false,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 10,
+      "home_name": "Mud Dogs",
+      "away_team_id": 11,
+      "away_name": "Seven Deadly Chins",
+      "same_division": false,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 1,
+      "home_name": "ObiWan Jacoby",
+      "away_team_id": 7,
+      "away_name": "The Chili Cheesers",
+      "same_division": false,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 5,
+      "home_name": "D0nkey K0ng",
+      "away_team_id": 8,
+      "away_name": "His Majesty's Blood",
+      "same_division": false,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "home_team_id": 12,
+      "home_name": "Dr. Duckhook",
+      "away_team_id": 4,
+      "away_name": "The LLC",
+      "same_division": false,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 5,
+      "home_name": "D0nkey K0ng",
+      "away_team_id": 1,
+      "away_name": "ObiWan Jacoby",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 10,
+      "home_name": "Mud Dogs",
+      "away_team_id": 6,
+      "away_name": "Three Dreaded Snake",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 2,
+      "home_name": "Red Leopards",
+      "away_team_id": 12,
+      "away_name": "Dr. Duckhook",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 3,
+      "home_name": "Slob on my Dobb",
+      "away_team_id": 7,
+      "away_name": "The Chili Cheesers",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 4,
+      "home_name": "The LLC",
+      "away_team_id": 8,
+      "away_name": "His Majesty's Blood",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "home_team_id": 9,
+      "home_name": "El Niño",
+      "away_team_id": 11,
+      "away_name": "Seven Deadly Chins",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 10,
+      "home_name": "Mud Dogs",
+      "away_team_id": 1,
+      "away_name": "ObiWan Jacoby",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 6,
+      "home_name": "Three Dreaded Snake",
+      "away_team_id": 5,
+      "away_name": "D0nkey K0ng",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 3,
+      "home_name": "Slob on my Dobb",
+      "away_team_id": 12,
+      "away_name": "Dr. Duckhook",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 7,
+      "home_name": "The Chili Cheesers",
+      "away_team_id": 2,
+      "away_name": "Red Leopards",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 9,
+      "home_name": "El Niño",
+      "away_team_id": 8,
+      "away_name": "His Majesty's Blood",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "home_team_id": 11,
+      "home_name": "Seven Deadly Chins",
+      "away_team_id": 4,
+      "away_name": "The LLC",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 6,
+      "home_name": "Three Dreaded Snake",
+      "away_team_id": 1,
+      "away_name": "ObiWan Jacoby",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 10,
+      "home_name": "Mud Dogs",
+      "away_team_id": 5,
+      "away_name": "D0nkey K0ng",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 7,
+      "home_name": "The Chili Cheesers",
+      "away_team_id": 12,
+      "away_name": "Dr. Duckhook",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 3,
+      "home_name": "Slob on my Dobb",
+      "away_team_id": 2,
+      "away_name": "Red Leopards",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 11,
+      "home_name": "Seven Deadly Chins",
+      "away_team_id": 8,
+      "away_name": "His Majesty's Blood",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "home_team_id": 9,
+      "home_name": "El Niño",
+      "away_team_id": 4,
+      "away_name": "The LLC",
+      "same_division": true,
+      "provider_winner": "UNDECIDED"
+    }
+  ],
+  "elimination": {
+    "conditional_on": "All current Week10 leads hold and no corrections alter results.",
+    "all12_status": "alive, not clinched",
+    "provider_status": "Unknown/not populated: madePlayoffs and finalRank are null for all12.",
+    "mud_max_record": "6–8",
+    "mud_witness": {
+      "winners": [
+        {
+          "week": 11,
+          "home_team_id": 3,
+          "away_team_id": 9,
+          "winner_team_id": 3
+        },
+        {
+          "week": 11,
+          "home_team_id": 6,
+          "away_team_id": 2,
+          "winner_team_id": 2
+        },
+        {
+          "week": 11,
+          "home_team_id": 10,
+          "away_team_id": 11,
+          "winner_team_id": 10
+        },
+        {
+          "week": 11,
+          "home_team_id": 1,
+          "away_team_id": 7,
+          "winner_team_id": 1
+        },
+        {
+          "week": 11,
+          "home_team_id": 5,
+          "away_team_id": 8,
+          "winner_team_id": 8
+        },
+        {
+          "week": 11,
+          "home_team_id": 12,
+          "away_team_id": 4,
+          "winner_team_id": 12
+        },
+        {
+          "week": 12,
+          "home_team_id": 5,
+          "away_team_id": 1,
+          "winner_team_id": 1
+        },
+        {
+          "week": 12,
+          "home_team_id": 10,
+          "away_team_id": 6,
+          "winner_team_id": 10
+        },
+        {
+          "week": 12,
+          "home_team_id": 2,
+          "away_team_id": 12,
+          "winner_team_id": 2
+        },
+        {
+          "week": 12,
+          "home_team_id": 3,
+          "away_team_id": 7,
+          "winner_team_id": 3
+        },
+        {
+          "week": 12,
+          "home_team_id": 4,
+          "away_team_id": 8,
+          "winner_team_id": 4
+        },
+        {
+          "week": 12,
+          "home_team_id": 9,
+          "away_team_id": 11,
+          "winner_team_id": 9
+        },
+        {
+          "week": 13,
+          "home_team_id": 10,
+          "away_team_id": 1,
+          "winner_team_id": 10
+        },
+        {
+          "week": 13,
+          "home_team_id": 6,
+          "away_team_id": 5,
+          "winner_team_id": 6
+        },
+        {
+          "week": 13,
+          "home_team_id": 3,
+          "away_team_id": 12,
+          "winner_team_id": 3
+        },
+        {
+          "week": 13,
+          "home_team_id": 7,
+          "away_team_id": 2,
+          "winner_team_id": 7
+        },
+        {
+          "week": 13,
+          "home_team_id": 9,
+          "away_team_id": 8,
+          "winner_team_id": 9
+        },
+        {
+          "week": 13,
+          "home_team_id": 11,
+          "away_team_id": 4,
+          "winner_team_id": 11
+        },
+        {
+          "week": 14,
+          "home_team_id": 6,
+          "away_team_id": 1,
+          "winner_team_id": 6
+        },
+        {
+          "week": 14,
+          "home_team_id": 10,
+          "away_team_id": 5,
+          "winner_team_id": 10
+        },
+        {
+          "week": 14,
+          "home_team_id": 7,
+          "away_team_id": 12,
+          "winner_team_id": 7
+        },
+        {
+          "week": 14,
+          "home_team_id": 3,
+          "away_team_id": 2,
+          "winner_team_id": 3
+        },
+        {
+          "week": 14,
+          "home_team_id": 11,
+          "away_team_id": 8,
+          "winner_team_id": 11
+        },
+        {
+          "week": 14,
+          "home_team_id": 9,
+          "away_team_id": 4,
+          "winner_team_id": 9
+        }
+      ],
+      "final_records": {
+        "12": {
+          "team": "Dr. Duckhook",
+          "wins": 7,
+          "losses": 7,
+          "pf": 1902.15,
+          "pa": 2043.83,
+          "division_wins": 0
+        },
+        "9": {
+          "team": "El Niño",
+          "wins": 9,
+          "losses": 5,
+          "pf": 2000.03,
+          "pa": 1794.23,
+          "division_wins": 5
+        },
+        "5": {
+          "team": "D0nkey K0ng",
+          "wins": 6,
+          "losses": 8,
+          "pf": 1811.82,
+          "pa": 1931.79,
+          "division_wins": 2
+        },
+        "2": {
+          "team": "Red Leopards",
+          "wins": 7,
+          "losses": 7,
+          "pf": 1893.11,
+          "pa": 1846.72,
+          "division_wins": 4
+        },
+        "8": {
+          "team": "His Majesty's Blood",
+          "wins": 7,
+          "losses": 7,
+          "pf": 1901.95,
+          "pa": 1896.61,
+          "division_wins": 2
+        },
+        "11": {
+          "team": "Seven Deadly Chins",
+          "wins": 8,
+          "losses": 6,
+          "pf": 1856.62,
+          "pa": 1721.62,
+          "division_wins": 3
+        },
+        "3": {
+          "team": "Slob on my Dobb",
+          "wins": 10,
+          "losses": 4,
+          "pf": 2199.99,
+          "pa": 1804.92,
+          "division_wins": 5
+        },
+        "7": {
+          "team": "The Chili Cheesers",
+          "wins": 7,
+          "losses": 7,
+          "pf": 1884.79,
+          "pa": 1956.27,
+          "division_wins": 3
+        },
+        "1": {
+          "team": "ObiWan Jacoby",
+          "wins": 6,
+          "losses": 8,
+          "pf": 1848.31,
+          "pa": 1921.89,
+          "division_wins": 3
+        },
+        "6": {
+          "team": "Three Dreaded Snake",
+          "wins": 6,
+          "losses": 8,
+          "pf": 1772.46,
+          "pa": 1902.18,
+          "division_wins": 3
+        },
+        "4": {
+          "team": "The LLC",
+          "wins": 5,
+          "losses": 9,
+          "pf": 1899.25,
+          "pa": 2021.22,
+          "division_wins": 2
+        },
+        "10": {
+          "team": "Mud Dogs",
+          "wins": 6,
+          "losses": 8,
+          "pf": 1781.35,
+          "pa": 1910.55,
+          "division_wins": 4
+        }
+      },
+      "division_winners": {
+        "Burgers": 10,
+        "Pizza": 9,
+        "Wings": 3
+      },
+      "qualified_team_ids": [
+        10,
+        9,
+        3,
+        11,
+        12,
+        8,
+        2
+      ],
+      "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+    },
+    "loss_elimination_proof": "A further loss caps Mud at5wins. Six teams already have6wins in this baseline. Red and Chili both have5wins and meetWeek13; their game forces at least one more team above5winning-equivalent games even if it ties. Mud also cannot win Burgers with5wins because DK already has6. Therefore another Mud loss removes every berth route.",
+    "allowed_copy": "Cancún brochures have reached the swamp. The door is still open, but another loss closes it if these Week10 leads stand.",
+    "disallowed_copy": [
+      "Eliminated",
+      "Playoff funeral",
+      "Swamp permanently abandoned",
+      "Championship won because current seed/projected rank is high"
+    ]
+  },
+  "transactions": {
+    "window": {
+      "mode": "explicit_week",
+      "unit": "matchup_period",
+      "requested_week": 10,
+      "normalization": "none",
+      "weeks": [
+        10
+      ],
+      "provider_scoring_period_ids": [
+        10
+      ],
+      "start_date": null,
+      "end_date": null,
+      "date_bounds_kind": "unavailable",
+      "timezone": "America/New_York",
+      "returned_rows": 41
+    },
+    "source": "mTransactions2",
+    "truncated": false,
+    "status_counts": {
+      "complete": 29,
+      "failed": 7,
+      "pending": 3,
+      "canceled": 2
+    },
+    "completed_count": 29,
+    "completed_type_counts": {
+      "add": 18,
+      "waiver": 7,
+      "drop": 4
+    },
+    "completed_rows": [
+      {
+        "transaction_id": "de481763-a023-41f1-9a3d-f9d9d39c4584",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "de481763-a023-41f1-9a3d-f9d9d39c4584"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794764471431,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-15",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4432773",
+            "name": "Brian Thomas Jr.",
+            "position": "WR",
+            "team": "JAX"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "9cc85243-1384-48e2-8299-e7d4a7c6688e",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "9cc85243-1384-48e2-8299-e7d4a7c6688e"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794750761070,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-15",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4427728",
+            "name": "Bam Knight",
+            "position": "RB",
+            "team": "ARI"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3117256",
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "team": "HOU"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "720df030-566a-4138-a669-51d24ab935f9",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "720df030-566a-4138-a669-51d24ab935f9"
+        },
+        "espn_related_event_id": {
+          "kind": "string",
+          "value": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760"
+        },
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1794647278972,
+        "timestamp_source": "processDate",
+        "date": "2026-11-14",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "2973405",
+            "name": "Kalif Raymond",
+            "position": "WR",
+            "team": "CHI"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4361432",
+            "name": "Romeo Doubs",
+            "position": "WR",
+            "team": "NE"
+          }
+        ],
+        "faab_bid": 1
+      },
+      {
+        "transaction_id": "12c36132-6551-4628-b8d6-0463eac7c686",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "12c36132-6551-4628-b8d6-0463eac7c686"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794608523547,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-13",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4431268",
+            "name": "Chimere Dike",
+            "position": "WR",
+            "team": "TEN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4600981",
+            "name": "Pat Bryant",
+            "position": "WR",
+            "team": "DEN"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794532264606,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-12",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "2573401",
+            "name": "Tyler Higbee",
+            "position": "TE",
+            "team": "LAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "2973405",
+            "name": "Kalif Raymond",
+            "position": "WR",
+            "team": "CHI"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "b104acff-d40e-4ab1-a237-59cb22a734fd",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "b104acff-d40e-4ab1-a237-59cb22a734fd"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794527464250,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-12",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4360569",
+            "name": "Jordan Mason",
+            "position": "RB",
+            "team": "MIN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3149687",
+            "name": "Chris Brooks",
+            "position": "RB",
+            "team": "GB"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "6936ce10-eb31-4ae3-b5f6-dc4ee1744880",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "6936ce10-eb31-4ae3-b5f6-dc4ee1744880"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794499689767,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-12",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4600981",
+            "name": "Pat Bryant",
+            "position": "WR",
+            "team": "DEN"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4431466",
+            "name": "Jordan Watkins",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "88370b77-f24f-4962-8387-eb3c2385ef72",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "88370b77-f24f-4962-8387-eb3c2385ef72"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794440995841,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4431466",
+            "name": "Jordan Watkins",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "d017c99f-ea59-4d78-8b54-d6f6bc15ffec",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "d017c99f-ea59-4d78-8b54-d6f6bc15ffec"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794440981215,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4710714",
+            "name": "De'Zhaun Stribling",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4431466",
+            "name": "Jordan Watkins",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "3e725304-bb4b-4cb8-ace1-4df834adc337",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "3e725304-bb4b-4cb8-ace1-4df834adc337"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794420511714,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "-16011",
+            "name": "Colts D/ST",
+            "position": "D/ST",
+            "team": "IND"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16003",
+            "name": "Bears D/ST",
+            "position": "D/ST",
+            "team": "CHI"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "7a35777b-bff9-4b61-907d-2ef31e4334ad",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "7a35777b-bff9-4b61-907d-2ef31e4334ad"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794420476933,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "2"
+        ],
+        "players_added": [
+          {
+            "id": "3924327",
+            "name": "Drew Lock",
+            "position": "QB",
+            "team": "SEA"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "eb519448-4747-4b1a-aacb-c138b435c763",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "eb519448-4747-4b1a-aacb-c138b435c763"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794418998067,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "4"
+        ],
+        "players_added": [
+          {
+            "id": "3124679",
+            "name": "Jason Sanders",
+            "position": "K",
+            "team": "NYJ"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "17427",
+            "name": "Cairo Santos",
+            "position": "K",
+            "team": "CHI"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "48bc265e-7ab0-4bd7-aef9-67d17b5f8948",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "48bc265e-7ab0-4bd7-aef9-67d17b5f8948"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794408685369,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "3149687",
+            "name": "Chris Brooks",
+            "position": "RB",
+            "team": "GB"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "abd5caab-6a74-4ce1-895b-b03b79b4855a",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "abd5caab-6a74-4ce1-895b-b03b79b4855a"
+        },
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1794408502883,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4360438",
+            "name": "Brandon Aiyuk",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "7ba74a81-8aa5-4a35-88c8-9657ac7c72e3",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "7ba74a81-8aa5-4a35-88c8-9657ac7c72e3"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794408492484,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "3"
+        ],
+        "players_added": [
+          {
+            "id": "4819231",
+            "name": "Kaleb Johnson",
+            "position": "RB",
+            "team": "GB"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4686658",
+            "name": "Mike Washington Jr.",
+            "position": "RB",
+            "team": "LV"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "2d245ad6-e602-4471-adb6-30aed1c95bb5",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "2d245ad6-e602-4471-adb6-30aed1c95bb5"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794403228628,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4258620",
+            "name": "Andre Szmyt",
+            "position": "K",
+            "team": "CLE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "3150744",
+            "name": "Chase McLaughlin",
+            "position": "K",
+            "team": "TB"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "8e12b63f-b328-4a7f-8d41-f4fb186ef143",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "8e12b63f-b328-4a7f-8d41-f4fb186ef143"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794403109454,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4431466",
+            "name": "Jordan Watkins",
+            "position": "WR",
+            "team": "SF"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "4bcc51d8-17bb-45c1-900d-c341c3506c90",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "4bcc51d8-17bb-45c1-900d-c341c3506c90"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794395549073,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "-16033",
+            "name": "Ravens D/ST",
+            "position": "D/ST",
+            "team": "BAL"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "-16004",
+            "name": "Bengals D/ST",
+            "position": "D/ST",
+            "team": "CIN"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "8f6b5bd8-1fee-441b-8b8a-3fde56728d0b",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "8f6b5bd8-1fee-441b-8b8a-3fde56728d0b"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794395383923,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "4360797",
+            "name": "Tutu Atwell",
+            "position": "WR",
+            "team": "LAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4686468",
+            "name": "Seth McGowan",
+            "position": "RB",
+            "team": "IND"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "2a75823c-a099-47c5-baf5-867f1e86f101",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "2a75823c-a099-47c5-baf5-867f1e86f101"
+        },
+        "type": "add",
+        "status": "complete",
+        "timestamp": 1794395152922,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "6"
+        ],
+        "players_added": [
+          {
+            "id": "2576925",
+            "name": "Darren Waller",
+            "position": "TE",
+            "team": "CAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "17372",
+            "name": "Chris Boswell",
+            "position": "K",
+            "team": "PIT"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe"
+        },
+        "espn_related_event_id": {
+          "kind": "string",
+          "value": "b0b36732-02c3-4df9-93b7-d9354ca3e4ce"
+        },
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1794387423093,
+        "timestamp_source": "processDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4366031",
+            "name": "Tank Dell",
+            "position": "WR",
+            "team": "HOU"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 5
+      },
+      {
+        "transaction_id": "cca1ae9d-6f8f-481e-b6b9-fcf8558dd844",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "cca1ae9d-6f8f-481e-b6b9-fcf8558dd844"
+        },
+        "espn_related_event_id": {
+          "kind": "string",
+          "value": "82d60db0-ddb9-4ec0-aa4c-e993a5e69084"
+        },
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1794387423093,
+        "timestamp_source": "processDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [
+          {
+            "id": "4837248",
+            "name": "Fernando Mendoza",
+            "position": "QB",
+            "team": "LV"
+          }
+        ],
+        "players_dropped": [],
+        "faab_bid": 5
+      },
+      {
+        "transaction_id": "5458c52a-8d4e-4861-85b7-52a0d58e003e",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "5458c52a-8d4e-4861-85b7-52a0d58e003e"
+        },
+        "espn_related_event_id": {
+          "kind": "string",
+          "value": "82626b76-6732-47ba-981d-7631ccb1b2b8"
+        },
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1794387423092,
+        "timestamp_source": "processDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "8"
+        ],
+        "players_added": [
+          {
+            "id": "4710855",
+            "name": "Konata Mumpfield",
+            "position": "WR",
+            "team": "LAR"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4831959",
+            "name": "Eli Raridon",
+            "position": "TE",
+            "team": "NE"
+          }
+        ],
+        "faab_bid": 11
+      },
+      {
+        "transaction_id": "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5"
+        },
+        "espn_related_event_id": {
+          "kind": "string",
+          "value": "8c4d15b6-9fe9-4b96-b277-e5b444ea04c7"
+        },
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1794387423092,
+        "timestamp_source": "processDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "4682648",
+            "name": "Malachi Fields",
+            "position": "WR",
+            "team": "NYG"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4597703",
+            "name": "Tory Horton",
+            "position": "WR",
+            "team": "SEA"
+          }
+        ],
+        "faab_bid": 11
+      },
+      {
+        "transaction_id": "8ad50ef3-4705-44da-be52-5b8702e81798",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "8ad50ef3-4705-44da-be52-5b8702e81798"
+        },
+        "espn_related_event_id": {
+          "kind": "string",
+          "value": "ab5bb4c5-bb1a-4b41-b360-b682434aecc9"
+        },
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1794387423091,
+        "timestamp_source": "processDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "1"
+        ],
+        "players_added": [
+          {
+            "id": "2991662",
+            "name": "Mack Hollins",
+            "position": "WR",
+            "team": "NE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4382466",
+            "name": "Jalen Nailor",
+            "position": "WR",
+            "team": "LV"
+          }
+        ],
+        "faab_bid": 27
+      },
+      {
+        "transaction_id": "a860fe7d-4a71-4798-9b22-dee667603872",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "a860fe7d-4a71-4798-9b22-dee667603872"
+        },
+        "espn_related_event_id": {
+          "kind": "string",
+          "value": "473f8738-8d3d-45c4-9e7b-062ae0cf21a1"
+        },
+        "type": "waiver",
+        "status": "complete",
+        "timestamp": 1794387423090,
+        "timestamp_source": "processDate",
+        "date": "2026-11-11",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "12"
+        ],
+        "players_added": [
+          {
+            "id": "4431431",
+            "name": "Corey Kiner",
+            "position": "RB",
+            "team": "NE"
+          }
+        ],
+        "players_dropped": [
+          {
+            "id": "4360569",
+            "name": "Jordan Mason",
+            "position": "RB",
+            "team": "MIN"
+          }
+        ],
+        "faab_bid": 35
+      },
+      {
+        "transaction_id": "71e30879-8174-417d-b093-aa8c620ebe6b",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "71e30879-8174-417d-b093-aa8c620ebe6b"
+        },
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1794347946739,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-10",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4432773",
+            "name": "Brian Thomas Jr.",
+            "position": "WR",
+            "team": "JAX"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "aa2f811b-9adc-43f4-982f-0426eaeb8f99",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "aa2f811b-9adc-43f4-982f-0426eaeb8f99"
+        },
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1794347870306,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-10",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4870847",
+            "name": "Ja'Kobi Lane",
+            "position": "WR",
+            "team": "BAL"
+          }
+        ],
+        "faab_bid": 0
+      },
+      {
+        "transaction_id": "f1def487-ed5e-46db-9296-b3954235bacb",
+        "espn_event_id": {
+          "kind": "string",
+          "value": "f1def487-ed5e-46db-9296-b3954235bacb"
+        },
+        "type": "drop",
+        "status": "complete",
+        "timestamp": 1794347852344,
+        "timestamp_source": "proposedDate",
+        "date": "2026-11-10",
+        "week": 10,
+        "provider_scoring_period_id": 10,
+        "team_ids": [
+          "11"
+        ],
+        "players_added": [],
+        "players_dropped": [
+          {
+            "id": "4242512",
+            "name": "Malik Willis",
+            "position": "QB",
+            "team": "MIA"
+          }
+        ],
+        "faab_bid": 0
+      }
+    ],
+    "trade_deadline_utc": "2026-11-11T18:00:00Z",
+    "trade_deadline_eastern": "2026-11-11 13:00 EST",
+    "completed_trades_returned": 0
+  },
+  "rosters": [
+    {
+      "team_id": 1,
+      "name": "ObiWan Jacoby",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 3043078,
+          "name": "Derrick Henry",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "BAL",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4567048,
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": "Out",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4372016,
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Questionable",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4608686,
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Out",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4426515,
+          "name": "Puka Nacua",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR",
+          "keeperValue": 6
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 12483,
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "LAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 3116365,
+          "name": "Mark Andrews",
+          "position": "TE",
+          "lineupSlot": "FLEX",
+          "proTeam": "BAL",
+          "injuryStatus": "Active",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 3126486,
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "Active",
+          "keeperValue": 6
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": -16014,
+          "name": "Rams D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "LAR",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4428331,
+          "name": "Rashee Rice",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "KC",
+          "injuryStatus": "Active",
+          "keeperValue": 13
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4360310,
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 3055899,
+          "name": "Harrison Butker",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "KC",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "WSH",
+          "injuryStatus": "IR",
+          "keeperValue": 7
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 3116164,
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "CIN",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 2991662,
+          "name": "Mack Hollins",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "NE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4682648,
+          "name": "Malachi Fields",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 2573401,
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "LAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 2973405,
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 1,
+          "teamName": "ObiWan Jacoby",
+          "playerId": 4427728,
+          "name": "Bam Knight",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "ARI",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 2,
+      "name": "Red Leopards",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CIN",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4241478,
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "Out",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4429615,
+          "name": "Zay Flowers",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BAL",
+          "injuryStatus": "Active",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "BAL",
+          "injuryStatus": "IR",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 3916148,
+          "name": "Tony Pollard",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "TEN",
+          "injuryStatus": "Active",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4038815,
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4688813,
+          "name": "Josh Downs",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": "Active",
+          "keeperValue": 10
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4385690,
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "BUF",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4426385,
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "SEA",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4430737,
+          "name": "Kyren Williams",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "LAR",
+          "injuryStatus": "Active",
+          "keeperValue": 14
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 5083315,
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4569559,
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4571557,
+          "name": "Spencer Shrader",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "IND",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4361411,
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4695883,
+          "name": "Jalen Coker",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 4433970,
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NYG",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 3930086,
+          "name": "Dawson Knox",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "BUF",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": 3924327,
+          "name": "Drew Lock",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "SEA",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "playerId": -16011,
+          "name": "Colts D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "IND",
+          "injuryStatus": null,
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 3,
+      "name": "Slob on my Dobb",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 3117251,
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "SF",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DAL",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 3918298,
+          "name": "Josh Allen",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "BUF",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4685472,
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CAR",
+          "injuryStatus": "Active",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4432710,
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "NE",
+          "injuryStatus": "IR",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 5083076,
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "CLE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4047365,
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "GB",
+          "injuryStatus": "Out",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4032473,
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "SEA",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": -16007,
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": null,
+          "keeperValue": 12
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4596448,
+          "name": "Bucky Irving",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active",
+          "keeperValue": 14
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4597500,
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4567104,
+          "name": "Will Reichard",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "MIN",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4431299,
+          "name": "Rome Odunze",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4723820,
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Questionable",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": -16002,
+          "name": "Bills D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "BUF",
+          "injuryStatus": null,
+          "keeperValue": 13
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4040761,
+          "name": "Devin Singletary",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4426502,
+          "name": "Drake London",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "ATL",
+          "injuryStatus": "Questionable",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4819231,
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 3,
+          "teamName": "Slob on my Dobb",
+          "playerId": 4360569,
+          "name": "Jordan Mason",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "MIN",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        }
+      ]
+    },
+    {
+      "team_id": 4,
+      "name": "The LLC",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4242335,
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "IND",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4685382,
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4239996,
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 11
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4569618,
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 3915416,
+          "name": "DJ Moore",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BUF",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4432620,
+          "name": "Parker Washington",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4678008,
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "CAR",
+          "injuryStatus": "IR",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4360761,
+          "name": "Michael Wilson",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "ARI",
+          "injuryStatus": "IR",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 3915511,
+          "name": "Joe Burrow",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "CIN",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4241985,
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Active",
+          "keeperValue": 8
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4723086,
+          "name": "Colston Loveland",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4361050,
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "NYG",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4569603,
+          "name": "Malik Washington",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "MIA",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4880281,
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4036378,
+          "name": "Jordan Love",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": -16029,
+          "name": "Panthers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "CAR",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4427095,
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 4685702,
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CLE",
+          "injuryStatus": "Active",
+          "keeperValue": 8
+        },
+        {
+          "teamId": 4,
+          "teamName": "The LLC",
+          "playerId": 3124679,
+          "name": "Jason Sanders",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 5,
+      "name": "D0nkey K0ng",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4430807,
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "ATL",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4361307,
+          "name": "Trey McBride",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "ARI",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4427366,
+          "name": "Breece Hall",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 2577417,
+          "name": "Dak Prescott",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "DAL",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4047650,
+          "name": "DK Metcalf",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "PIT",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 3953687,
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "DAL",
+          "injuryStatus": "Active",
+          "keeperValue": 10
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4360078,
+          "name": "Alec Pierce",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "IND",
+          "injuryStatus": "IR",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 3121023,
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active",
+          "keeperValue": 11
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": -16034,
+          "name": "Texans D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "HOU",
+          "injuryStatus": null,
+          "keeperValue": 11
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4685415,
+          "name": "Travis Hunter",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 6
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": -16012,
+          "name": "Chiefs D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4430191,
+          "name": "Skyy Moore",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Questionable",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4429023,
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4384852,
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4686422,
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "HOU",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4361409,
+          "name": "Jahan Dotson",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 5,
+          "teamName": "D0nkey K0ng",
+          "playerId": 4832800,
+          "name": "Denzel Boston",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CLE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 6,
+      "name": "Three Dreaded Snake",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4870795,
+          "name": "Makai Lemon",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4361579,
+          "name": "Javonte Williams",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "DAL",
+          "injuryStatus": "Active",
+          "keeperValue": 10
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4431611,
+          "name": "Caleb Williams",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active",
+          "keeperValue": 12
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4036133,
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "MIN",
+          "injuryStatus": "Out",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4360689,
+          "name": "Tyler Shough",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4685278,
+          "name": "Luther Burden III",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Questionable",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4569587,
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "TEN",
+          "injuryStatus": "Questionable",
+          "keeperValue": 16
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "FA",
+          "injuryStatus": "Questionable",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": -16025,
+          "name": "49ers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "SF",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4047646,
+          "name": "A.J. Brown",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NE",
+          "injuryStatus": "Questionable",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4882093,
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4870653,
+          "name": "KC Concepcion",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "CLE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4612826,
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Out",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 5082424,
+          "name": "Dominic Zvada",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "NYG",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 3128429,
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Active",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4569682,
+          "name": "Audric Estime",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 2576925,
+          "name": "Darren Waller",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "CAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": 4360797,
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "LAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 6,
+          "teamName": "Three Dreaded Snake",
+          "playerId": -16033,
+          "name": "Ravens D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "BAL",
+          "injuryStatus": null,
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 7,
+      "name": "The Chili Cheesers",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 18,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 1,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 1
+        }
+      },
+      "players": [
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DET",
+          "injuryStatus": "Active",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4595348,
+          "name": "Malik Nabers",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NYG",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4696981,
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "NYG",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4035538,
+          "name": "David Montgomery",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "HOU",
+          "injuryStatus": "Out",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4248528,
+          "name": "Christian Watson",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "GB",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4360248,
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "Active",
+          "keeperValue": 12
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4432665,
+          "name": "Brock Bowers",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "LV",
+          "injuryStatus": "Questionable",
+          "keeperValue": 7
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 3116165,
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active",
+          "keeperValue": 7
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": -16023,
+          "name": "Steelers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "PIT",
+          "injuryStatus": null,
+          "keeperValue": 12
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "SEA",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 3046439,
+          "name": "Hunter Henry",
+          "position": "TE",
+          "lineupSlot": "FLEX",
+          "proTeam": "NE",
+          "injuryStatus": "Active",
+          "keeperValue": 14
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4429086,
+          "name": "Michael Mayer",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "LV",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4569371,
+          "name": "Isaiah Williams",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4685720,
+          "name": "Bryce Young",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "CAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 5081397,
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CLE",
+          "injuryStatus": "Active",
+          "keeperValue": 17
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4568490,
+          "name": "RJ Harvey",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "DEN",
+          "injuryStatus": "IR",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": -16019,
+          "name": "Giants D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Chili Cheesers ",
+          "playerId": 4241555,
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 8,
+      "name": "His Majesty's Blood",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4430878,
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SEA",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4426388,
+          "name": "Jameson Williams",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DET",
+          "injuryStatus": "Active",
+          "keeperValue": 10
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4241416,
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CAR",
+          "injuryStatus": "Active",
+          "keeperValue": 10
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4871023,
+          "name": "Carnell Tate",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "TEN",
+          "injuryStatus": "Out",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4697815,
+          "name": "Rachaad White",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "WSH",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4362619,
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4430539,
+          "name": "Brenton Strange",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": -16016,
+          "name": "Vikings D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "MIN",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 5083754,
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DAL",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 3042519,
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "MIN",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4360423,
+          "name": "Michael Penix Jr.",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4702555,
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4570037,
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "LAR",
+          "injuryStatus": "IR",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 5081432,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4686361,
+          "name": "Cam Little",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4683062,
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "KC",
+          "injuryStatus": "Active",
+          "keeperValue": 6
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": -16008,
+          "name": "Lions D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "DET",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4361741,
+          "name": "Brock Purdy",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "SF",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 8,
+          "teamName": "His Majesty's Blood",
+          "playerId": 4710855,
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "LAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 9,
+      "name": "El Niño",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 18,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 1,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 1
+        }
+      },
+      "players": [
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4379399,
+          "name": "James Cook III",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "BUF",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4362238,
+          "name": "Chase Brown",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4426354,
+          "name": "George Pickens",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DAL",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4239993,
+          "name": "Tee Higgins",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CIN",
+          "injuryStatus": "Active",
+          "keeperValue": 2
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 16737,
+          "name": "Mike Evans",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "SF",
+          "injuryStatus": "Out",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4040715,
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "IR",
+          "keeperValue": 7
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4572680,
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "GB",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 2976212,
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "WSH",
+          "injuryStatus": "Active",
+          "keeperValue": 7
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4429025,
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4258173,
+          "name": "Nico Collins",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "HOU",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4428718,
+          "name": "Tre Tucker",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LV",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 2971573,
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "HOU",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4686612,
+          "name": "Tre' Harris",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4832955,
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "KC",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 3122840,
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "CLE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 14880,
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "MIN",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": 4363538,
+          "name": "Chad Ryland",
+          "position": "K",
+          "lineupSlot": "Bench",
+          "proTeam": "ARI",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 9,
+          "teamName": "El Niño",
+          "playerId": -16018,
+          "name": "Saints D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "NO",
+          "injuryStatus": null,
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 10,
+      "name": "Mud Dogs",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 17,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 0,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 0
+        }
+      },
+      "players": [
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 3929630,
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4890973,
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "LV",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4430027,
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "DET",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4426348,
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4035687,
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT",
+          "injuryStatus": "IR",
+          "keeperValue": 6
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4371733,
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "position": "TE",
+          "lineupSlot": "WR/TE",
+          "proTeam": "SF",
+          "injuryStatus": "Active",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 3916433,
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 3046779,
+          "name": "Jared Goff",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "DET",
+          "injuryStatus": "Active",
+          "keeperValue": 10
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4429059,
+          "name": "Woody Marks",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "HOU",
+          "injuryStatus": "Doubtful",
+          "keeperValue": 16
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4241474,
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL",
+          "injuryStatus": "IR",
+          "keeperValue": 12
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4360939,
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "BAL",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 3116389,
+          "name": "Samaje Perine",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 15818,
+          "name": "Keenan Allen",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SF",
+          "injuryStatus": "Active",
+          "keeperValue": 8
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4249087,
+          "name": "Matt Gay",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "LV",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": 4567156,
+          "name": "Treylon Burks",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 10,
+          "teamName": "Mud Dogs",
+          "playerId": -16005,
+          "name": "Browns D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "CLE",
+          "injuryStatus": null,
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 11,
+      "name": "Seven Deadly Chins",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4262921,
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "MIN",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4870808,
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "ARI",
+          "injuryStatus": "IR",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4259545,
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI",
+          "injuryStatus": "Active",
+          "keeperValue": 4
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4569987,
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "PIT",
+          "injuryStatus": "Active",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4567750,
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": "Active",
+          "keeperValue": 6
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "KC",
+          "injuryStatus": "Active",
+          "keeperValue": 3
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4431459,
+          "name": "Tyler Warren",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "IND",
+          "injuryStatus": "Active",
+          "keeperValue": 8
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4429096,
+          "name": "Blake Corum",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "LAR",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": -16026,
+          "name": "Seahawks D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "SEA",
+          "injuryStatus": null,
+          "keeperValue": 13
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4373626,
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "ARI",
+          "injuryStatus": "Active",
+          "keeperValue": 13
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4685247,
+          "name": "Braelon Allen",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4685261,
+          "name": "Germie Bernard",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "PIT",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4869645,
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "MIA",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4360635,
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4837248,
+          "name": "Fernando Mendoza",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "LV",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4366031,
+          "name": "Tank Dell",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "HOU",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4258620,
+          "name": "Andre Szmyt",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "CLE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4710714,
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "SF",
+          "injuryStatus": "IR",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 11,
+          "teamName": "Seven Deadly Chins",
+          "playerId": 4431268,
+          "name": "Chimere Dike",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TEN",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        }
+      ]
+    },
+    {
+      "team_id": 12,
+      "name": "Dr. Duckhook",
+      "snapshot": {
+        "type": "current"
+      },
+      "count": 19,
+      "starter_count": 10,
+      "bench_count": 7,
+      "ir_count": 2,
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "players": [
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4429795,
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "DET",
+          "injuryStatus": "Active",
+          "keeperValue": 1
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4569173,
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NE",
+          "injuryStatus": "Active",
+          "keeperValue": 9
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4701936,
+          "name": "Matthew Golden",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "GB",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4429205,
+          "name": "Jordan Addison",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "MIN",
+          "injuryStatus": "Out",
+          "keeperValue": 7
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4373678,
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BUF",
+          "injuryStatus": "Active",
+          "keeperValue": 8
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4431452,
+          "name": "Drake Maye",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NE",
+          "injuryStatus": "Doubtful",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4711533,
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "MIA",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4361370,
+          "name": "Chris Olave",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 7
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4685512,
+          "name": "Jadarian Price",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "SEA",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4360238,
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI",
+          "injuryStatus": "Questionable",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4696044,
+          "name": "Kaelon Black",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "SF",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": -16030,
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "JAX",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 3917232,
+          "name": "Tyler Bass",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "BUF",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 3929645,
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "NO",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4432577,
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "HOU",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": -16027,
+          "name": "Buccaneers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "TB",
+          "injuryStatus": null,
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "KC",
+          "injuryStatus": "Active",
+          "keeperValue": 5
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4431431,
+          "name": "Corey Kiner",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NE",
+          "injuryStatus": "Active",
+          "keeperValue": 0
+        },
+        {
+          "teamId": 12,
+          "teamName": "Dr. Duckhook",
+          "playerId": 4432773,
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX",
+          "injuryStatus": "Active",
+          "keeperValue": 8
+        }
+      ]
+    }
+  ],
+  "week11_gotw": {
+    "recommended_primary": {
+      "away_team_id": 8,
+      "home_team_id": 5,
+      "title": "His Majesty’s Blood at D0nkey K0ng",
+      "basis": "Two conditional6–4 teams arriving from distinct Week10 dominance scenes; HMB already has a live200-point week. Verified2025W9 Wilson/Austin rematch supports revenge in the centaur’s territory.",
+      "history": {
+        "season": 2025,
+        "week": 9,
+        "home_name_then": "Baker Moore Purdy",
+        "home_score": 179.68,
+        "away_name_then": "The Immortal",
+        "away_score": 111.42,
+        "margin": 68.26,
+        "tier": "NONE"
+      },
+      "week10_live_combined_points": 365.43,
+      "current_starter_week11_bye_exposure": {
+        "HMB": [
+          "Jaxon Smith-Njigba",
+          "Konata Mumpfield"
+        ],
+        "DK": [
+          "Bijan Robinson",
+          "Denzel Boston"
+        ]
+      },
+      "creative_angle": "The king carrying the200-Burger claim enters the centaur’s established home grounds, where a prior68.26-point defeat gives the challenge memory. Preview only; no scripted winner."
+    },
+    "major_coheadliner": {
+      "away_team_id": 9,
+      "home_team_id": 3,
+      "title": "El Niño at Slob on my Dobb",
+      "basis": "Conditional6–4 vs6–4; league’s official PF leader meets a potential fourth-straight-win storm. Their current Week10 points total368.37, slightly above the primary candidate pair.",
+      "history": [
+        "2024W15: El Niño175.60, Slob137.82 in WINNERS_BRACKET.",
+        "2025W1: Slob126.57, El Niño113.58.",
+        "2025W10: Slob147.12, El Niño103.87."
+      ],
+      "week10_live_combined_points": 368.37,
+      "current_starter_week11_bye_exposure": {
+        "Slob": [
+          "Harold Fannin Jr.",
+          "Rashid Shaheed",
+          "Drake London"
+        ],
+        "Niño": [
+          "Tucker Kraft"
+        ]
+      },
+      "creative_angle": "The weather front reaches the successful delivery network’s home territory. The historical exchange lets the storm threaten a host who answered it twice in retrieved2025games."
+    },
+    "decision_status": "Editorial recommendation; fixtures are verified but final Week10 records and Week11 health/lineups are pending.",
+    "bye_context_source": {
+      "file": "sports-news-pass3.json",
+      "source_id": "S16",
+      "url": "https://www.nfl.com/schedules/2026/by-week/week-11"
+    },
+    "historical_limit": "2022–2024 complete in retained archive;2025 gaps6,7,8,11,12,13. No all-time or latest-meeting claim.",
+    "projection_limit": "Early provider Week11 totalProjectedPoints reflect current configurations and may include bye/injury gaps. They are not a probability forecast or an optimized matchup comparison."
+  },
+  "release_gates": [
+    "Reread final Week10 outcomes and fresh standings after the provider settles; rerun the conditional math if any lead changes.",
+    "Verify each sports-news event and report date against2026Week10 before labeling a new injury or season-ending loss.",
+    "Refresh Week11 starting availability, bye replacements, QB roles, and TE coverage before printing projections or power claims.",
+    "Keep standings, projected finish, editorial power ranking, and current scoring form explicitly separate.",
+    "Do not publish failed/pending waiver details as completed activity."
+  ],
+  "sources": [
+    {
+      "id": "FRESH",
+      "kind": "Flaim ESPN read-only current data",
+      "path": "current-league-pass3.json",
+      "capture_start_utc": "2026-11-16T18:11:57.769Z",
+      "calls": [
+        "session",
+        "league_info",
+        "standings",
+        "Week10–14 matchups",
+        "12 current rosters",
+        "Week10 transactions"
+      ],
+      "sha256": "d298cbe7d9b6f29c6a15adf79bb4360abd35babf54135864f5b9819df33471ff"
+    },
+    {
+      "id": "MNF",
+      "path": "mnf-detail-pass3.json",
+      "kind": "Fresh Week10 player detail for teams1,2,6"
+    },
+    {
+      "id": "CURRENT_HISTORY",
+      "path": "w10_preproduction/sports-evidence.json",
+      "kind": "Retained provider Weeks1–9 final outcomes",
+      "validation": "Recomputed nine-game wins and PF exactly match the fresh official standings."
+    },
+    {
+      "id": "RULES",
+      "kind": "Approved Week9 Shareable_v2",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "physical_pages": [
+        29,
+        31
+      ],
+      "local_review_images": [
+        "w10prep_review/w9_detail_29.png",
+        "w10prep_review/w9_detail_31.png"
+      ],
+      "verification": "Both pages independently visually re-read during this audit."
+    },
+    {
+      "id": "ESPN_TIE",
+      "url": "https://support.espn.com/hc/en-us/articles/47190901074708-H2H-Points-League-Playoff-Seeding-Tiebreakers",
+      "kind": "Official ESPN H2H points tiebreak documentation",
+      "retrieved": "2026-11-16",
+      "search_ref": "turn9search0"
+    },
+    {
+      "id": "W11_HISTORY",
+      "path": "week11-history-pass3.json",
+      "upstream": [
+        "w10_preproduction/historical-provider-evidence.json",
+        "w10_preproduction/historical-research.json"
+      ],
+      "kind": "Verified meetings and independently supported historical aliases"
+    },
+    {
+      "id": "MATH",
+      "path": "playoff-witnesses-pass3.json",
+      "script": "w10_pass3_playoff_math.py",
+      "kind": "Constructive possibility proofs; no probability estimates"
+    }
+  ],
+  "required_slot_availability_appendix": {
+    "json": "available-slots-pass3.json",
+    "markdown": "w10_pass3_available_slots.md",
+    "raw": "available-slots-receipts-pass3.json",
+    "captured_at_utc": "2026-11-16T18:24:59Z",
+    "uncovered_required_slots": 7,
+    "shortlisted_candidates": 12
+  },
+  "sports_news_companion": {
+    "markdown": "w10_pass3_sports_news.md",
+    "json": "sports-news-pass3.json"
+  }
+}

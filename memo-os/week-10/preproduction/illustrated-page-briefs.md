@@ -1,496 +1,613 @@
-# Week 10 — full-page illustrated PNG commissions
+# Week10—complete illustrated PNG briefs, Pass3
 
-**Current stage: Pass2 creative development.** Each matchup page captures one decisive moment. Detailed scenes remain under review. [Current story and production pass](world-story-pass-02.md) · [PNG direction](illustrated-png-direction.md)
+One native1080×1920PNG per selected page, with artwork and words conceived together. No new artwork has been rendered.
 
 ## W10-P01 — THE CEILING BREAKS
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Commissioner’s Note Site: League Chamber threshold/map-wall area Proposal: Officials or ordinary attendants bring damp cloaks inside and secure the outer door. Window light darkens while established interior lamps keep the address warm and readable. Light: Warm fixed lamps and cool doorway fill. Continuity: The Commissioner can acknowledge the front as public condition without claiming to witness each private scene..
+Site and ordinary use: League Chamber scoring courtyard. Registered parent LOC-LEAGUE-CHAMBER; SET-W10-CHAMBER-SCORING-COURT is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Low wide courtyard view, wind pulling two temporary scoring standards above an old public arch; deep inhabited world fills the frame. Foreground: Wet stone and attendants securing a frayed banner line. Midground: Two separate standards carry HMB and LLC insignia and exact current values; no invented physical meeting or alliance. Background: Old Chamber roofline, darkening Central Basin cloud, warm doorway.
 
-**Publication copy candidate**
+Baked-in lighting: Warm doorway and bracket lamps; cool cloud fill, no literal roof collapse.
 
-THE CEILING BREAKS
+Editorial purpose: Open on the league’s first two observed 200-plus scores this season, with weather crossing public life.
+
+Continuity pass: Cover symbols are an editorial public display, not proof that HMB and LLC traveled together or hold a shared title.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 Week 10 • Two scores beyond 200
 
-His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. For the first time this season, the Commonwealth’s scoring board needs room above two hundred.
+His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. The Commonwealth’s first two 200-point scores of this season arrive beneath a sky growing harder to ignore.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+HIS MAJESTY’S BLOOD • 208.76 · current
+
+THE LLC • 203.96 · current
+
+### Continuity
+
+- Cover symbols are an editorial public display, not proof that HMB and LLC traveled together or hold a shared title.
 
 ## W10-P02 — ROOM ABOVE TWO HUNDRED
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Opening Drive Site: Mountain Lake Bridge Proposal: Cloud shelf gathering over the eastern ridgeline, a windward lamp protected behind masonry, rippled lake surface, travelers fastening coats. Broad view introduces a shared front. Light: Pale storm-filtered morning or early-day sky, warm lamp below. Continuity: Do not show the Jedi base unless terrain supports visibility; same bridge geometry returns in closing..
+Site and ordinary use: League Archive courier court. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-COURIER-ARRIVALS is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Wide diagonal from the sheltered record-hall entrance across an active courier court; arrivals give depth and purpose. Foreground: Damp dispatch bags and a clerk protecting a newly arrived sheet. Midground: Ordinary couriers crossing old paving toward warm lamps. Background: Open route beyond arch with windblown leaves; no claim that all six locations are visible.
 
-**Publication copy candidate**
+Baked-in lighting: Amber record-hall spill meets cold courtyard air.
 
-ROOM ABOVE TWO HUNDRED
+Editorial purpose: Connect all six personal stories to competitive pressure and an expanding weather front.
 
-The scoring ceiling breaks. The standings still wait.
+Continuity pass: This is omniscient editorial introduction to proposed fiction; it does not turn private dialogue into commissioner eyewitness evidence. Result-dependent wording waits for the appropriate final branch.
 
-Two hundred stayed beyond the board for nine weeks. His Majesty’s Blood now stands at 208.76; The LLC at 203.96. Around those scores, this week gets personal: a birthday celebration becomes a public reckoning, a new father cannot buy a moment’s quiet, and Red Leopards sees an old postseason nightmare returning. The Chili Cheesers brings his pride into a crowded rodeo; D0nkey K0ng brings four planted hooves. At the mountain base, ObiWan Jacoby meets an Imperial assault with two answers still to come. Monday’s four starters remain. If the current leads hold, six teams will finish 6–4.
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Exact copy
+
+The week the pressure reached everyone
+
+Two teams have crossed 200. A birthday gift has become a taunt, the outlaw has found an audience he cannot command, and the temple has lost its quiet. Red is trying to save familiar ground. Mud cannot stop a delivery. On the ridge, Obi still answers the fire. El Niño’s front now reaches beyond one opponent’s home. Four regular-season games remain after this week; the damage and the decisions will travel with them.
+
+### Continuity
+
+- This is omniscient editorial introduction to proposed fiction; it does not turn private dialogue into commissioner eyewitness evidence. Result-dependent wording waits for the appropriate final branch.
 
 ## W10-P03 — KEEP THE WHOLE LEAGUE IN VIEW
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Commissioner’s Note Site: League Chamber threshold/map-wall area Proposal: Officials or ordinary attendants bring damp cloaks inside and secure the outer door. Window light darkens while established interior lamps keep the address warm and readable. Light: Warm fixed lamps and cool doorway fill. Continuity: The Commissioner can acknowledge the front as public condition without claiming to witness each private scene..
+Site and ordinary use: League Chamber map wall and threshold. Registered parent LOC-LEAGUE-CHAMBER; SET-W10-CHAMBER-MAP-THRESHOLD is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Eye-level three-quarter institutional interior; opened door and map wall establish the wider world. Foreground: Weather-marked dispatches on the established records desk. Midground: A neutral attendant securing the door, leaving room for the commissioner’s authored address. Background: Existing map wall and high window; divisions remain league overlays.
 
-**Publication copy candidate**
+Baked-in lighting: Fixed warm desk lamps, cool doorway light, old glass reflecting a passing cloud.
 
-KEEP THE WHOLE LEAGUE IN VIEW
+Editorial purpose: Explain why the closing regular season matters and preserve distinctions among performance, availability and qualification.
 
-Commissioner’s Note
+Continuity pass: Draft voice for Jake’s review; no invented quote, new ruling, deadline extension or postseason promise.
 
-Keep playing your own matchup. Keep watching the others. This is the part of the season when a result across the league can change the meaning of your own. The big scores deserve their space this week, but so do the managers still finding a route through a difficult run. There are seven playoff places to chase and plenty left to settle. Bring the arguments, bring the jokes, and keep the competition sharp. The league is better when all twelve teams stay in the story.
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Exact copy
+
+Commissioner’s note • Draft address
+
+The regular season is narrowing. Every result now changes what somebody must do next. Keep the score, the roster and the playoff route together: a huge Sunday does not fill a bye-week vacancy, and a humiliating scene does not eliminate a team. Seven places remain the target. We will carry the latest injury reports and the final Week 10 table into the next round before writing anybody out of it.
+
+### Continuity
+
+- Draft voice for Jake’s review; no invented quote, new ruling, deadline extension or postseason promise.
 
 ## W10-P04 — THE WEEK 10 BOARD
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Scoreboard Site: Compact arbiter pavilion/posting walk Proposal: Staff weight or secure the posted display; damp paving and flags establish the same event-weather state later seen at the rodeo. Light: Bright post-shower sky under pavilion shade. Continuity: Use the same pavilion silhouette and selected event lighting; no league result turns into a territorial storm map..
+Site and ordinary use: Compact Neutral Grounds public result approach. Registered parent LOC-COMPACT-NEUTRAL-GROUNDS; SET-W10-COMPACT-PUBLIC-BOARD is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Broad landscape across the open ceremonial field toward the existing arbiter pavilion; exact scores inhabit a temporary, scene-lit result standard. Foreground: Wind-tensioned ropes and worn public approach. Midground: Readers gathered at the common result standard, not a rodeo crowd. Background: Pavilion and arrival roads under a passing cloud band.
 
-**Publication copy candidate**
+Baked-in lighting: Early warm pavilion lamps and cool afternoon overcast; lettering follows the material’s light.
 
-THE WEEK 10 BOARD
+Editorial purpose: Give all six scorelines one accurate public reference before the stories.
+
+Continuity pass: Compact remains a civic scoreboard location only. Remove every implication that the DK rodeo happens here.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 Monday morning capture • All six results await ESPN finality
 
-Six matchups, twelve totals, one unfinished week. Henry and Andrews remain for ObiWan; Flowers remains for Red; Ravens D/ST remains for Three Dreaded Snake. The other three pairings have no scheduled starting scorers left. Every score below is provisional.
+Week 10 is still open. These six scorelines are the current board; Henry, Andrews, Flowers and Ravens D/ST remain tied to Monday night. The official results follow the final scoring.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+| home_team | home_points | away_team | away_points | status |
 
-## W10-P05 — The Main Attraction
+| --- | --- | --- | --- | --- |
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+| The Chili Cheesers | 93.70 | D0nkey K0ng | 156.67 | PROVISIONAL |
 
-Existing anchor and proposed local set: Compact Neutral Grounds; Compact Grand Ring — temporary event on established field. Durable proposed landmarks: existing arbiter pavilion silhouette ceremonial field edge arrival-road gate axis Event dressing: temporary curved grandstands arena rails lamp structures covered public aisles rear-left separate Dark Horse holding rail Movement: Chili-left and DK-right established across center ring. The rope changes control along a readable line. The public entrance remains visible through the humiliation.
+| Red Leopards | 136.42 | El Niño | 189.08 | PROVISIONAL |
 
-Decisive moment: Capture the first lariat meeting the axe haft, with Chili still controlling the tail; the public reversal is only beginning. Camera: Wide low angle from the public gate side, making the ring and crowd scale legible. Foreground: Chili’s throwing follow-through, complete lariat path and gate rail. Midground: The loop meets DK’s braced axe haft; his integrated four-legged stance stays clear and Dark Horse remains separate at rear-left. Background: Pavilion, curved stands, early lamps and a wind-tensioned awning.
+| Three Dreaded Snake | 75.78 | Seven Deadly Chins | 146.22 | PROVISIONAL |
 
-Local lighting: Lamps already establish the warm ring against cool storm sky. Ambient: Dusk arrives under the approaching basin cloud deck. Fixed sources: temporary arena lamps warm pavilion spill Moving sources: glints on rope moisture, axe metal and mud thrown by the reversal Storm relation: Staff turn lamps on early and secure awnings as wind crosses the stands. A passing shower has made the loam slick, while central action and faces stay visible.
+| Mud Dogs | 113.62 | Slob on my Dobb | 179.29 | PROVISIONAL |
 
-Shared storm, local expression: Weighted event banners snap in a consistent direction Wet loam and shallow hoofprints reflect arena lamps One section of covered stands shakes off water; spectators remain active witnesses Damp ground makes Chili’s skid and the rope’s drag line visible. The centaur’s block, rope control and deliberate binding cause the humiliation. Weather makes it messier, not inevitable. Ambient: Dusk cloud with a narrow residual horizon glow. Fixed practicals: Temporary arena lamp towers Warm arbiter-pavilion spill Moving sources: No required lightning; optional distant pulse only Continuity: The same lit pavilion and gate orient every image. The final center ring stays fully visible to the crowd.
+| Dr. Duckhook | 127.67 | His Majesty's Blood | 208.76 | PROVISIONAL |
 
-Lived-in set: Old civic paving and a maintained pavilion frame freshly assembled event seating. Rails and seating are reused event equipment with localized scuffs, not ancient collapsed ruins. Event crews know where to tension an awning or clear an aisle when a band approaches. Damp basin loam differs from dark swamp peat; boot and hoof marks record this event.
+| ObiWan Jacoby | 130.33 | The LLC | 203.96 | PROVISIONAL |
 
-Character and costume continuity: DK is one gorilla-centaur with four equine legs, giant axe and red/gold Arsenal-inspired war cloth. Chili uses the October22 corrected sunglasses, beard, ornamented hat, crimson/rust long coat, bandolier and CHILI OUTLAW buckle. Dark Horse remains separate at the holding rail. Mud progresses from hem/boots to body after the drag; no clean reset at the binding.
+### Continuity
 
-Checks: Weather is environmental pressure, not the cause of DK’s win. All four legs shown somewhere; no rider-on-horse anatomy. Bindings are deliberately made and never cross Chili’s face. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+- Compact remains a civic scoreboard location only. Remove every implication that the DK rodeo happens here.
 
-**Publication copy candidate**
+## W10-P05 — Everybody Gets a View
 
-The Main Attraction
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-The Chili Cheesers vs D0nkey K0ng
+Existing setting / proposed child: {"set_id": "SET-W10-DK-RODEO-GROUNDS", "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD", "parent_status": "INTERPRETIVE_CANON", "set_status": "PROPOSED_REUSABLE_CHILD_SET", "region_id": "REG-UPPER-VALLEYS", "name": "Arsenal Rodeo Grounds", "formal_atlas_promotion": false}
 
-The Chili Cheesers had invited an audience large enough to make the victory permanent. Last week, he had made the champion part of the entertainment. An earlier loss to this opponent could be settled in the same fashion. Across the churned ring, D0nkey K0ng braced his axe and planted four hooves. The outlaw sent his first loop flying.
+Ordinary life and age: Stock handling, training, maintenance and public events explain pens, replaceable rails and service circulation.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+Decisive moment: From a low position just inside the rail, a wide diagonal reveals Chili already running around the ring while DK gains behind him, swinging his own rope overhead. Show all four centaur legs and the single gorilla/equine body clearly. Crowd height and the visible exit gate establish public exposure. Dark Horse is separate, secured at the holding rail outside the active ring if included. The axe is stowed; it does not suddenly cut or block the lasso. Afternoon overcast gives cool fill, sheltered lanterns warm the crowded galleries, and wet hoof tracks define the pursuit line.
 
-## W10-P06 — The Arsenal Answers
+Camera: Low rail-side wide diagonal, Chili ahead on screen-left, DK pursuing from screen-right; gate rear-left. Foreground: Chili’s running boots and wet track Midground: DK swinging his rope with four legs readable Background: Same gate, rails, crowd and sheltered lamps
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+Light: Cool upper-valley overcast; sheltered amber gallery lanterns established before the chase. Wet packed earth reflects the lamps. No coastal surge. Regional storm: An outer band has wetted the highland ground; gusts tension banners. Hooves churn local earth into mud. Rain is weaker than the exposed coast.
 
-Existing anchor and proposed local set: Compact Neutral Grounds; Compact Grand Ring — temporary event on established field. Durable proposed landmarks: existing arbiter pavilion silhouette ceremonial field edge arrival-road gate axis Event dressing: temporary curved grandstands arena rails lamp structures covered public aisles rear-left separate Dark Horse holding rail Movement: Chili-left and DK-right established across center ring. The rope changes control along a readable line. The public entrance remains visible through the humiliation.
+Action and continuity: DK controls the lasso from the first frame; axe stays stowed. Chili runs; DK swings the loop above his own head. DK casts around Chili’s upper arms/torso, never the neck; the rope catch and slipping boot precede the fall. Both stop; DK manually secures the hogtie with visible handwork. No instant knot. Hat falls during the caught turn and lies beside Chili in the payoff; his face remains visible above mud.
 
-Decisive moment: Capture the two-handed pull and boot skid after the block; rope control has changed and no knot exists yet. Camera: Near-ground three-quarter view along the same action axis; show the now-grounded axe, both hands on the taut rope, planted hooves and Chili’s skidding boots. Foreground: Boot skid, taut rope and rising loam. Midground: The axe already rests on the ground. DK has the rope in both hands and pulls the still-gripping outlaw through the loam. Background: Crowd’s posture changes behind the same pavilion-side rail.
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-Local lighting: Wet rope and mud catch arena light, faces remain exposed. Ambient: Dusk arrives under the approaching basin cloud deck. Fixed sources: temporary arena lamps warm pavilion spill Moving sources: glints on rope moisture, axe metal and mud thrown by the reversal Storm relation: Staff turn lamps on early and secure awnings as wind crosses the stands. A passing shower has made the loam slick, while central action and faces stay visible.
-
-Shared storm, local expression: Weighted event banners snap in a consistent direction Wet loam and shallow hoofprints reflect arena lamps One section of covered stands shakes off water; spectators remain active witnesses Damp ground makes Chili’s skid and the rope’s drag line visible. The centaur’s block, rope control and deliberate binding cause the humiliation. Weather makes it messier, not inevitable. Ambient: Dusk cloud with a narrow residual horizon glow. Fixed practicals: Temporary arena lamp towers Warm arbiter-pavilion spill Moving sources: No required lightning; optional distant pulse only Continuity: The same lit pavilion and gate orient every image. The final center ring stays fully visible to the crowd.
-
-Lived-in set: Old civic paving and a maintained pavilion frame freshly assembled event seating. Rails and seating are reused event equipment with localized scuffs, not ancient collapsed ruins. Event crews know where to tension an awning or clear an aisle when a band approaches. Damp basin loam differs from dark swamp peat; boot and hoof marks record this event.
-
-Character and costume continuity: DK is one gorilla-centaur with four equine legs, giant axe and red/gold Arsenal-inspired war cloth. Chili uses the October22 corrected sunglasses, beard, ornamented hat, crimson/rust long coat, bandolier and CHILI OUTLAW buckle. Dark Horse remains separate at the holding rail. Mud progresses from hem/boots to body after the drag; no clean reset at the binding.
-
-Checks: Weather is environmental pressure, not the cause of DK’s win. All four legs shown somewhere; no rider-on-horse anatomy. Bindings are deliberately made and never cross Chili’s face. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
-
-**Publication copy candidate**
-
-The Arsenal Answers
+### Exact copy
 
 The Chili Cheesers vs D0nkey K0ng
 
-The first block drew a roar from the stands. The Chili Cheesers pulled harder, trusting the same skill that had always made a crowd look his way. D0nkey K0ng did not follow the pull. He set his weight against it, caught the running rope and answered once. The outlaw’s next view of his audience came through a sheet of mud.
+The Chili Cheesers ran along the rail, looking for an exit that the crowd had somehow made farther away. Behind him, D0nkey K0ng swung a broad loop above his head and kept gaining. Last week the outlaw had arranged the entertainment. In the Arsenal’s rodeo ground, every seat belonged to somebody else.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P07 — Center-Ring Receipt
+- DK rope in motion; hat still worn
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+## W10-P06 — The Ring Runs Out
 
-Existing anchor and proposed local set: Compact Neutral Grounds; Compact Grand Ring — temporary event on established field. Durable proposed landmarks: existing arbiter pavilion silhouette ceremonial field edge arrival-road gate axis Event dressing: temporary curved grandstands arena rails lamp structures covered public aisles rear-left separate Dark Horse holding rail Movement: Chili-left and DK-right established across center ring. The rope changes control along a readable line. The public entrance remains visible through the humiliation.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Decisive moment: Capture DK visibly tightening the last deliberate binding as Chili lies hogtied in center ring, with the audience witnessing the completed reversal. Camera: Medium-wide public-facing view from the same side of center ring, low enough to give Chili a view back toward his entrance. Foreground: Recognizable outlaw muddy and deliberately wrist/ankle-bound, face unobscured. Midground: DK’s upper body bends over the outlaw to finish the final manual knot; the integrated four-legged body remains supported and readable. Background: Crowd reaction, entrance gate and pavilion prove the public setting.
+Existing setting / proposed child: {"set_id": "SET-W10-DK-RODEO-GROUNDS", "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD", "parent_status": "INTERPRETIVE_CANON", "set_status": "PROPOSED_REUSABLE_CHILD_SET", "region_id": "REG-UPPER-VALLEYS", "name": "Arsenal Rodeo Grounds", "formal_atlas_promotion": false}
 
-Local lighting: Same lamps expose the humiliation; rain never becomes a curtain hiding the result. Ambient: Dusk arrives under the approaching basin cloud deck. Fixed sources: temporary arena lamps warm pavilion spill Moving sources: glints on rope moisture, axe metal and mud thrown by the reversal Storm relation: Staff turn lamps on early and secure awnings as wind crosses the stands. A passing shower has made the loam slick, while central action and faces stay visible.
+Ordinary life and age: Stock handling, training, maintenance and public events explain pens, replaceable rails and service circulation.
 
-Shared storm, local expression: Weighted event banners snap in a consistent direction Wet loam and shallow hoofprints reflect arena lamps One section of covered stands shakes off water; spectators remain active witnesses Damp ground makes Chili’s skid and the rope’s drag line visible. The centaur’s block, rope control and deliberate binding cause the humiliation. Weather makes it messier, not inevitable. Ambient: Dusk cloud with a narrow residual horizon glow. Fixed practicals: Temporary arena lamp towers Warm arbiter-pavilion spill Moving sources: No required lightning; optional distant pulse only Continuity: The same lit pavilion and gate orient every image. The final center ring stays fully visible to the crowd.
+Decisive moment: Track across the inside of Chili’s attempted turn. DK throws from the established direction, and the catch plus abrupt loss of footing becomes the decisive moment. The rope has a visible continuous route from DK’s hand to Chili, with readable slack/tension; one throw does not magically tie a completed hogtie. Chili’s boot slides through the same churned lane. His decorated hat and sunglasses remain identifiable; the hat may tilt, not disappear. Witness reactions are secondary but legible through the rail. Rain and mud never obscure which character owns the rope.
 
-Lived-in set: Old civic paving and a maintained pavilion frame freshly assembled event seating. Rails and seating are reused event equipment with localized scuffs, not ancient collapsed ruins. Event crews know where to tension an awning or clear an aisle when a band approaches. Damp basin loam differs from dark swamp peat; boot and hoof marks record this event.
+Camera: Lateral view from the same side of the pursuit axis; catch and skidding boot legible, no hidden cause. Foreground: Caught loop, slipping boot and spray Midground: DK casting with four-hoof base and continuous rope Background: Same gallery arc and visible gate
 
-Character and costume continuity: DK is one gorilla-centaur with four equine legs, giant axe and red/gold Arsenal-inspired war cloth. Chili uses the October22 corrected sunglasses, beard, ornamented hat, crimson/rust long coat, bandolier and CHILI OUTLAW buckle. Dark Horse remains separate at the holding rail. Mud progresses from hem/boots to body after the drag; no clean reset at the binding.
+Light: Cool upper-valley overcast; sheltered amber gallery lanterns established before the chase. Wet packed earth reflects the lamps. No coastal surge. Regional storm: An outer band has wetted the highland ground; gusts tension banners. Hooves churn local earth into mud. Rain is weaker than the exposed coast.
 
-Checks: Weather is environmental pressure, not the cause of DK’s win. All four legs shown somewhere; no rider-on-horse anatomy. Bindings are deliberately made and never cross Chili’s face. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Action and continuity: DK controls the lasso from the first frame; axe stays stowed. Chili runs; DK swings the loop above his own head. DK casts around Chili’s upper arms/torso, never the neck; the rope catch and slipping boot precede the fall. Both stop; DK manually secures the hogtie with visible handwork. No instant knot. Hat falls during the caught turn and lies beside Chili in the payoff; his face remains visible above mud.
 
-**Publication copy candidate**
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-Center-Ring Receipt
+### Exact copy
 
 The Chili Cheesers vs D0nkey K0ng
 
-D0nkey K0ng took the time to finish the work where every seat could see it. The Chili Cheesers lifted his muddy face toward a roar that had become laughter, hat crooked, sunglasses still in place. He had wanted the crowd to remember who commanded the ring. Now his own rope held the answer behind his back, and the Arsenal colors stood over it.
+Chili cut toward the gate. The centaur’s loop arrived first. A boot skated through the churned mud, the rope drew tight, and the outlaw’s grand escape became the part everyone would remember. D0nkey K0ng stopped with four hooves planted. There was still work to finish, and the crowd had an excellent view.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P08 — The Season Turns
+- Rope caught; Chili down; hat displaced
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+## W10-P07 — No Private Exit
 
-Existing anchor and proposed local set: Red Leopard Ruins; Windward Banner Terrace. Durable proposed landmarks: existing damaged pitch and goal two partial repair points narrow stone route to high perch predator banner above exposed lip Event dressing: repair boards, braces and tools already at hand Movement: Low repair ground leads continuously up to the banner perch; Niño enters through the established approach, not by teleporting between ruins.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Decisive moment: Red recognizes the adversary while trying to keep home functional. Camera: Near Red’s repair work, looking through his space toward the arriving front. Foreground: His hands checking a brace already checked; used tools and worn boards. Midground: Damaged goal and embodied Niño approaching. Background: Forest below and a cloud wall extending laterally into the distance.
+Existing setting / proposed child: {"set_id": "SET-W10-DK-RODEO-GROUNDS", "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD", "parent_status": "INTERPRETIVE_CANON", "set_status": "PROPOSED_REUSABLE_CHILD_SET", "region_id": "REG-UPPER-VALLEYS", "name": "Arsenal Rodeo Grounds", "formal_atlas_promotion": false}
 
-Local lighting: The last trace of warm light is cut by the front. Ambient: The strongest direct cold-front exposure among these six scenes: flat pale light, hard gusts and dimmed depth. Fixed sources: cold reflected sky on exposed fittings optional sheltered repair lamp only if selected Moving sources: restrained blue/orange identity light from embodied Niño Storm relation: Cloud arrives from the source region according to the Atlas path. It strips the exposed terrace and attacks repairs; it does not instantly kill the forest.
+Ordinary life and age: Stock handling, training, maintenance and public events explain pens, replaceable rails and service circulation.
 
-Shared storm, local expression: Cold gusts strip the upper terrace and tear at partial repairs Predator banner lashes the same wall through all views Fine wind-driven moisture and frost trace exposed fittings while dense forest remains below Red has been repairing specific old damage. Niño’s pressure tests those repairs in sequence and reawakens the memory of the 2022 collapse. The scene is a local point of maximum intensity inside a wider front, not an unrelated private weather bubble. Ambient: Flat cold overcast and low bruised cloud; enough sky reflection to read old stone and Red’s expression. Fixed practicals: Optional sheltered repair lantern, subordinate to the established banner motif Moving sources: Restrained elemental light belonging to Niño’s established identity Continuity: The cold front never changes the whole eastern forest into a northern alpine biome. Strongest remaining color can be Red and the crimson banner.
+Decisive moment: A low, wider public aftermath shows Chili hogtied in mud at the ring’s center. DK has stopped, braced all four legs and deliberately finished the binding; hand placement and the already caught rope explain the transition. This is humiliating slapstick, not injury spectacle. Chili’s face is readable and clear of the mud. The visible crowd laughs, points and reacts from safe rails. No main cast is teleported in as spectators. A dropped hat at arm’s reach, readable outlaw belt and the expansive empty space between Chili and the gate make the humiliation personal. The shot retains enough of the stands to prove it happened in front of everyone.
 
-Lived-in set: New repairs sit against worn masonry; different materials show upkeep without invented dates. Old fastenings and replacement boards make Red’s labor visible. Dense forest remains beneath the stripped upper terrace, preserving the home’s identity. The most worn surfaces are where Red uses them, not uniform fake grime across everything.
+Camera: Low wide public aftermath, Chili foreground, DK’s complete body behind, galleries filling upper depth. Foreground: Chili’s face, bound limbs and displaced hat Midground: DK finishing the binding by hand, axe still stowed Background: Same crowd laughing, with gate visibly distant
 
-Character and costume continuity: Red keeps red spotted fur, predatory muzzle, armor and spear/lance identity. Niño remains long-haired muscular humanoid elemental with recognizable blue/orange cues. Red’s fur/cloth flatten in wind; frost catches exposed fittings, not every surface equally.
+Light: Cool upper-valley overcast; sheltered amber gallery lanterns established before the chase. Wet packed earth reflects the lamps. No coastal surge. Regional storm: An outer band has wetted the highland ground; gusts tension banners. Hooves churn local earth into mud. Rain is weaker than the exposed coast.
 
-Checks: No blanket flood or total alpine biome conversion. No literal current playoff elimination claim. Niño does not become a disembodied weather cloud. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Action and continuity: DK controls the lasso from the first frame; axe stays stowed. Chili runs; DK swings the loop above his own head. DK casts around Chili’s upper arms/torso, never the neck; the rope catch and slipping boot precede the fall. Both stop; DK manually secures the hogtie with visible handwork. No instant knot. Hat falls during the caught turn and lies beside Chili in the payoff; his face remains visible above mud.
 
-**Publication copy candidate**
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-The Season Turns
+### Exact copy
+
+The Chili Cheesers vs D0nkey K0ng
+
+D0nkey K0ng finished the binding in the middle of the ring. Chili lay hogtied in the storm mud, sunglasses crooked, his decorated hat just beyond reach. Laughter rolled down from the galleries. The outlaw who had made a champion the joke last week could now see every person enjoying this one.
+
+### Continuity
+
+- Wet rope and mud progression; no property or Belt transfer
+
+## W10-P08 — One More Bag
+
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
+
+Existing setting / proposed child: {"set_id": "SET-W10-RED-SOCCER-OVERFLOW", "parent_location_id": "LOC-RED-RUINS", "parent_status": "PERMANENT_CANON", "set_status": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION", "region_id": "REG-EASTERN-STORM-COAST", "formal_atlas_promotion": false}
+
+Ordinary life and age: A once-used soccer ground and a separate old basketball court retain repairs, worn approaches and the precise scars shown in prior art.
+
+Decisive moment: Return to the exact Week9 soccer terrace: same arch, field geometry, damaged goal/net and tracks. Red braces a heavy sandbag at a low opening as a shallow river overflow creeps along the torn turf. The first few bags help locally, but water finds the adjacent old rut. Winds pull the predator banners nearly horizontal and shake the goal’s damaged net. A cold pewter sky and dim amber arch lamps replace the earlier bright green confidence. Fallen leaves lodge against the bags; this is November’s exhausted color, not a tropical deluge. The nearby river/overflow connection is a Jake-authorized new geography proposal, not an old image fact. Keep the field flood gentle, with pitch lines still partly visible. No tsunami, building collapse or knee-deep universal flood.
+
+Camera: Low oblique from the known terrace edge, hands and sandbag foreground, pitch and arch in depth. Foreground: Red bracing the sandbag beside shallow water and leaves Midground: Old rutted turf and damaged goal/net Background: Low-side overflow channel proposed beyond retaining edge; arch recovery not invented
+
+Light: Field: pewter overcast and dim warm arch lamps. Court: cold diffused squall light, a restrained embodied Niño glow; keep Red’s expression readable. Regional storm: Shallow river overflow affects only the pitch’s low edge. At the more distant Central Basin court, a localized gust is funneled by old walls and tears a limb from vegetation.
+
+Action and continuity: P08 stays at the actual damaged Storm Coast soccer pitch; new low-side river/overflow connection is proposed. Water follows existing ruts; sandbags locally slow it without causing a miraculous flood wall. P09 explicitly says Later, Forgotten Court—Central Basin; regional travel is implied, no instant adjacency. Branch falls toward the established right-wall backboard, not a newly invented freestanding pole. P10 rim bent after contact; Red’s despair and Niño’s fictional taunt do not certify playoff elimination.
+
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
+
+### Exact copy
 
 Red Leopards vs El Niño
 
-Thirteen wins had once felt like protection. Red Leopards remembered what El Niño had done with that certainty. He pressed the repair board into place and checked it again, although the first fastening had held. Beyond the ruined goal, the last leaves turned silver-side upward. The visitor emerged beneath a sky that seemed to have forgotten the afternoon.
+Red Leopards pressed another sandbag against the pitch’s low edge. Water slid through the old wheel ruts and gathered beneath the wrecked goal. He moved a bag, then another. The river rose gently enough to make each small success feel useful, and steadily enough to take it away. Beyond the banners, El Niño’s front kept coming.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P09 — The Last Leaves
+- Sandbags wet, water shallow, old damage retained
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+## W10-P09 — The Place That Answered Once
 
-Existing anchor and proposed local set: Red Leopard Ruins; Windward Banner Terrace. Durable proposed landmarks: existing damaged pitch and goal two partial repair points narrow stone route to high perch predator banner above exposed lip Event dressing: repair boards, braces and tools already at hand Movement: Low repair ground leads continuously up to the banner perch; Niño enters through the established approach, not by teleporting between ruins.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Decisive moment: Successive gusts undo specific established repairs. Camera: Oblique view along the terrace, so wind, brace failure and Red’s route upward align. Foreground: First failed fastening and snapping board. Midground: Second repair under pressure; Red still actively resisting. Background: Niño holds presence; banner lashes in the same wind.
+Existing setting / proposed child: {"set_id": "SET-W10-FORGOTTEN-COURT-REVISIT", "parent_location_id": null, "parent_status": "NO_REGISTERED_LOCATION_ID_FOUND", "set_status": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING", "region_id": "REG-CENTRAL-BASIN", "region_basis": "Explicit Week7 P08–10 caption", "formal_atlas_promotion": false}
 
-Local lighting: Cold light exposes failures; elemental glow stays subordinate to readable bodies. Ambient: The strongest direct cold-front exposure among these six scenes: flat pale light, hard gusts and dimmed depth. Fixed sources: cold reflected sky on exposed fittings optional sheltered repair lamp only if selected Moving sources: restrained blue/orange identity light from embodied Niño Storm relation: Cloud arrives from the source region according to the Atlas path. It strips the exposed terrace and attacks repairs; it does not instantly kill the forest.
+Ordinary life and age: A once-used soccer ground and a separate old basketball court retain repairs, worn approaches and the precise scars shown in prior art.
 
-Shared storm, local expression: Cold gusts strip the upper terrace and tear at partial repairs Predator banner lashes the same wall through all views Fine wind-driven moisture and frost trace exposed fittings while dense forest remains below Red has been repairing specific old damage. Niño’s pressure tests those repairs in sequence and reawakens the memory of the 2022 collapse. The scene is a local point of maximum intensity inside a wider front, not an unrelated private weather bubble. Ambient: Flat cold overcast and low bruised cloud; enough sky reflection to read old stone and Red’s expression. Fixed practicals: Optional sheltered repair lantern, subordinate to the established banner motif Moving sources: Restrained elemental light belonging to Niño’s established identity Continuity: The cold front never changes the whole eastern forest into a northern alpine biome. Strongest remaining color can be Red and the crimson banner.
+Decisive moment: Preserve the right-hand wall-mounted hoop, cracked surface and broken ruin skyline from W7P08–10. Red arrives from the near-left court edge; a snapped branch from the established vegetation margin sweeps toward the right wall. Camera placement echoes the old basketball duel so readers recognize the place before a caption explains it. A distant figure of embodied Niño may occupy the far court in the wind; he remains a humanoid elemental, not a face drawn into a cloud. Wet leaves sweep low along the stone. The strongest gust here can be a local squall funneled by the broken walls even though the basin is farther from the coastal core. Do not introduce a new freestanding basketball pole: the original goal is wall mounted.
 
-Lived-in set: New repairs sit against worn masonry; different materials show upkeep without invented dates. Old fastenings and replacement boards make Red’s labor visible. Dense forest remains beneath the stripped upper terrace, preserving the home’s identity. The most worn surfaces are where Red uses them, not uniform fake grime across everything.
+Camera: Echo the Week7 court angle; near-left arrival, hoop upper/right, branch trajectory clear. Foreground: Red at the familiar court edge, drifting leaves Midground: Branch breaking toward wall-mounted assembly Background: Same ivy walls and distant ruins; Niño embodied if present
 
-Character and costume continuity: Red keeps red spotted fur, predatory muzzle, armor and spear/lance identity. Niño remains long-haired muscular humanoid elemental with recognizable blue/orange cues. Red’s fur/cloth flatten in wind; frost catches exposed fittings, not every surface equally.
+Light: Field: pewter overcast and dim warm arch lamps. Court: cold diffused squall light, a restrained embodied Niño glow; keep Red’s expression readable. Regional storm: Shallow river overflow affects only the pitch’s low edge. At the more distant Central Basin court, a localized gust is funneled by old walls and tears a limb from vegetation.
 
-Checks: No blanket flood or total alpine biome conversion. No literal current playoff elimination claim. Niño does not become a disembodied weather cloud. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Action and continuity: P08 stays at the actual damaged Storm Coast soccer pitch; new low-side river/overflow connection is proposed. Water follows existing ruts; sandbags locally slow it without causing a miraculous flood wall. P09 explicitly says Later, Forgotten Court—Central Basin; regional travel is implied, no instant adjacency. Branch falls toward the established right-wall backboard, not a newly invented freestanding pole. P10 rim bent after contact; Red’s despair and Niño’s fictional taunt do not certify playoff elimination.
 
-**Publication copy candidate**
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-The Last Leaves
+### Exact copy
 
 Red Leopards vs El Niño
 
-Red Leopards answered the first gust with a leap toward the loose brace. The second arrived from another direction. Boards cracked, banners snapped and every leaf on the field seemed to leave at once. He had beaten this opponent convincingly before that old semifinal. The memory offered no useful footing now. El Niño advanced through the colorless air.
+Later, at the Forgotten Court in the Central Basin, Red looked toward the hoop where he had once left His Majesty’s Blood behind. He had come for the memory of something working. A gust drove leaves across the cracked court. Above the right-hand wall, an old limb split and swung toward the backboard.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Explicit elapsed-time move to Central Basin; falling branch
 
 ## W10-P10 — That Cold Again
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Existing anchor and proposed local set: Red Leopard Ruins; Windward Banner Terrace. Durable proposed landmarks: existing damaged pitch and goal two partial repair points narrow stone route to high perch predator banner above exposed lip Event dressing: repair boards, braces and tools already at hand Movement: Low repair ground leads continuously up to the banner perch; Niño enters through the established approach, not by teleporting between ruins.
+Existing setting / proposed child: {"set_id": "SET-W10-FORGOTTEN-COURT-REVISIT", "parent_location_id": null, "parent_status": "NO_REGISTERED_LOCATION_ID_FOUND", "set_status": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING", "region_id": "REG-CENTRAL-BASIN", "region_basis": "Explicit Week7 P08–10 caption", "formal_atlas_promotion": false}
 
-Decisive moment: He sees the repetition in what remains of his repair effort. Camera: Pull wider and slightly below the high perch, making Red smaller within his established home. Foreground: Torn banner moving against stone near Red. Midground: Red’s face and posture remain readable on the ledge. Background: Broken pitch below, dense forest beyond, front continuing across the realm.
+Ordinary life and age: A once-used soccer ground and a separate old basketball court retain repairs, worn approaches and the precise scars shown in prior art.
 
-Local lighting: Crimson fur/banner are the clearest color within drained stone and air. Ambient: The strongest direct cold-front exposure among these six scenes: flat pale light, hard gusts and dimmed depth. Fixed sources: cold reflected sky on exposed fittings optional sheltered repair lamp only if selected Moving sources: restrained blue/orange identity light from embodied Niño Storm relation: Cloud arrives from the source region according to the Atlas path. It strips the exposed terrace and attacks repairs; it does not instantly kill the forest.
+Decisive moment: The branch has caught the backboard/hoop assembly and bent the rim downward against the same right wall. Red kneels or sits at the near court edge, hands slack and face disbelieving; avoid a second fighting pose. Niño is clearly embodied beyond him, laughing through moving rain and cold light. The ruined support, basketball court lines and old wall remain recognizable. The sports fact behind the taunt is the **2022 Week16 semifinal: Niño 116.32, Red 97.96**, after Red’s 13–1 regular season; Niño subsequently won the championship. A newly written line such as “You remember how that run ended” is fictional dialogue, never an archival quote. A small “2022” reference should be earned by narration or an intentional prop; do not invent an old commemorative plaque.
 
-Shared storm, local expression: Cold gusts strip the upper terrace and tear at partial repairs Predator banner lashes the same wall through all views Fine wind-driven moisture and frost trace exposed fittings while dense forest remains below Red has been repairing specific old damage. Niño’s pressure tests those repairs in sequence and reawakens the memory of the 2022 collapse. The scene is a local point of maximum intensity inside a wider front, not an unrelated private weather bubble. Ambient: Flat cold overcast and low bruised cloud; enough sky reflection to read old stone and Red’s expression. Fixed practicals: Optional sheltered repair lantern, subordinate to the established banner motif Moving sources: Restrained elemental light belonging to Niño’s established identity Continuity: The cold front never changes the whole eastern forest into a northern alpine biome. Strongest remaining color can be Red and the crimson banner.
+Camera: Lower still aftermath along the same axis: Red seated, damaged hoop right, embodied Niño across the court. Foreground: Red’s slack hands and face at court edge Midground: Limb resting against ruined wall and bent rim Background: Niño visibly humanoid laughing within the storm’s light
 
-Lived-in set: New repairs sit against worn masonry; different materials show upkeep without invented dates. Old fastenings and replacement boards make Red’s labor visible. Dense forest remains beneath the stripped upper terrace, preserving the home’s identity. The most worn surfaces are where Red uses them, not uniform fake grime across everything.
+Light: Field: pewter overcast and dim warm arch lamps. Court: cold diffused squall light, a restrained embodied Niño glow; keep Red’s expression readable. Regional storm: Shallow river overflow affects only the pitch’s low edge. At the more distant Central Basin court, a localized gust is funneled by old walls and tears a limb from vegetation.
 
-Character and costume continuity: Red keeps red spotted fur, predatory muzzle, armor and spear/lance identity. Niño remains long-haired muscular humanoid elemental with recognizable blue/orange cues. Red’s fur/cloth flatten in wind; frost catches exposed fittings, not every surface equally.
+Action and continuity: P08 stays at the actual damaged Storm Coast soccer pitch; new low-side river/overflow connection is proposed. Water follows existing ruts; sandbags locally slow it without causing a miraculous flood wall. P09 explicitly says Later, Forgotten Court—Central Basin; regional travel is implied, no instant adjacency. Branch falls toward the established right-wall backboard, not a newly invented freestanding pole. P10 rim bent after contact; Red’s despair and Niño’s fictional taunt do not certify playoff elimination.
 
-Checks: No blanket flood or total alpine biome conversion. No literal current playoff elimination claim. Niño does not become a disembodied weather cloud. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-**Publication copy candidate**
-
-That Cold Again
+### Exact copy
 
 Red Leopards vs El Niño
 
-Red Leopards reached the high stone and turned into the wind. Below him, El Niño occupied the approach with the unhurried certainty of someone who needed no explanation. The field had gone almost entirely grey. One torn strip of red kept striking the wall beside him. He watched it return, and return, and thought of a season he had once believed was safe.
+The branch settled against the wall. The rim hung bent beneath it. Red sat at the court’s edge with nothing left in his hands. Across the stone, El Niño laughed into the wind. “You remember 2022.” Red did. Thirteen wins had not saved that season. Watching the broken hoop, he could feel that old uncertainty arriving again.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Broken hoop and emotional consequence proposed; river and court remain separate
 
 ## W10-P11 — THE ROADS BETWEEN
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Optional connective landscape Site: Falls Path / Delta Causeway / Mire Hill Proposal: Falls Path shows damp vegetation and maintained drainage; causeway shows routine runoff watch; Mire Hill retains old scars under new wetness. Light: Local sheltered or exposed light consistent with the adjacent chapter. Continuity: No road closure or flood breach by implication; DK standard remains below Mire Hill’s unclaimed summit..
+Site and ordinary use: Upper Basin Connector near the mountain-lake approach. Registered parent LOC-BRIDGE-MOUNTAIN-LAKE; SET-W10-UPPER-BASIN-WEATHER-VIEW is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: High oblique along the known connector approaching the stone bridge, with road, water and weather in successive depths. Foreground: Old parapet repairs and leaves caught in a drain. Midground: Ordinary travelers tightening covers and a steady lake surface rippled by gusts. Background: Cloud layers on the eastern horizon; no unsupported view of the Jedi base or Red’s actual field.
 
-**Publication copy candidate**
+Baked-in lighting: Late cold diffuse fill; sheltered bridge lamp amber and steady.
 
-THE ROADS BETWEEN
+Editorial purpose: Provide a landscape transition showing the front’s reach without collapsing the whole Atlas into one vista.
 
-The Commonwealth • Week 10
+Continuity pass: No invented miles, exact travel time, single simultaneous storm clock or identical rain severity in every region.
 
-The roads do not shorten because the stakes rise. From the highlands and mountain approaches to the wetlands, ruins and western range, another week asks the same twelve figures to leave the safety of home. What happens on the field will travel back with them.
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Exact copy
 
-## W10-P12 — Do Not Wake the Baby
+The same front, different ground
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+On the exposed coast, water finds the old damage. Farther inland, gusts take the trees and banners. In the southern wetlands, runoff arrives later through familiar channels. Up here, travelers tighten their covers and the lamps come on early. The Commonwealth has not changed places. The weather has reached more of them.
 
-Existing anchor and proposed local set: Podium Shadow Waterfall Temple; Sheltered Court. Durable proposed landmarks: recessed closed family door worn stone landing return wall facing the outer court waterfall behind vegetation off to one side Event dressing: carried barrel/lids/hammer and horn small handcart if selected Movement: TDS occupies the threshold; Chins remains on the public stone outside. Door, visitor and waterfall give the three heads different eyelines.
+### Continuity
 
-Decisive moment: The first deliberate clang interrupts a household trying to settle. Camera: View from just behind the sheltered threshold toward the landing, with enough side angle to show three heads. Foreground: Warm door edge and dry domestic patch. Midground: TDS listening and Chins placing the barrel on hard stone. Background: Waterfall and wet plants moving under a passing gust.
+- No invented miles, exact travel time, single simultaneous storm clock or identical rain severity in every region.
 
-Local lighting: Warm interior edge against cool court; no black night. Ambient: Cool spray reflection and foliage shade. Fixed sources: warm lamp behind the family door soft sky reflection from cascade Moving sources: brief metal glints on lids/hammer/horn Storm relation: Outer-band wind pushes some spray farther across the landing; distant thunder is broad and intermittent, distinct from Chins’s deliberately sharp rhythm.
+## W10-P12 — Just as the House Settles
 
-Shared storm, local expression: Foliage shivers at the court entrance while the recessed doorway stays protected Roof or stone drip lines darken the outer steps A distant cloud pulse changes the cool reflected light without blacking out the interior The family has already settled into the familiar waterfall and mild storm ambience. Chins times the unnatural sharp clang and horn for the lull; his deliberate irregular noise stays the cause of frustration. Ambient: Cool cloud and waterfall-reflected fill under vegetation. Fixed practicals: Steady warm line beneath the family door A sheltered threshold lamp if selected Moving sources: Small shifting metal highlights on lid, barrel and horn Continuity: No loud thunder competing at the exact comic climax. The waterfall does not suddenly become silent or catastrophically swell.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Lived-in set: Door latch and worn steps imply habitual household use. Dry swept stone sits within damp vegetation and spray. A repaired gutter edge or drip channel shows routine care, with no invented exact repair date. The newborn’s arrival is a current change within an existing home.
+Existing setting / proposed child: {"set_id": "SET-W10-TDS-TEMPLE-COURTYARD", "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
 
-Character and costume continuity: Exactly three serpent heads on one armored humanoid torso, with post-haircut continuity. Chins keeps heavy build, glasses, red trucker cap and work clothes, with carried noise props. The unresolved truck situation does not disappear. The child stays offscreen; the door and father’s reactions carry the personal stake.
+Ordinary life and age: Old steps, polished rail, lime-stained drain and generations of repairs establish a lived-in household before the newborn.
 
-Checks: Steady waterfall is never described as absolute silence. Thunder is not confused with Chins’s deliberate noise. Three heads do not become three bodies. No thunderclap at the encore payoff; Chins owns the interruption. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Decisive moment: A wide upward diagonal links the jackhammer’s point at ground level, Chins’s grin, the upper balcony and the family doorway. The first sharply broken concrete reveals deliberate racket, not thunder. TDS emerges above, exactly three heads on one torso: one turns toward the interior, one spots Chins and one begins shouting. The partner’s irritated voice or a soft silhouette behind the door, plus an offscreen baby’s cry, establishes household pressure without inventing an extra lead. Cool southern overcast reflects from waterfall spray; a steady warm interior lamp marks the protected room.
 
-**Publication copy candidate**
+Camera: Ground-level upward diagonal joining drill point, Chins grin, balcony and doorway. Foreground: Jackhammer point and freshly broken concrete Midground: Chins operating the jackhammer with connected hose Background: TDS emerging on balcony, warm family doorway
 
-Do Not Wake the Baby
+Light: Cool southern sky and waterfall fill; steady warm household lamp behind the balcony. Repeated lamp and shadow direction join all three pages. Regional storm: Wetland outer-band gusts move foliage and occasional spray. Drain channels darken, but the nursery and balcony remain sheltered.
 
-Three Dreaded Snake vs Seven Deadly Chins
+Action and continuity: Jackhammer bit contacts the concrete repair layer; hose connects to the compressor below. P12 child/partner are contextual offscreen sound or a doorway silhouette; no unreviewed new principal design. P13 Chins releases the hammer before using a hand to turn up the speaker; he acknowledges TDS then laughs. P14 both hands return to the jackhammer; the same concrete patch expands. TDS stays on the balcony with exactly three heads on one torso. No barrel, air horn or temple invasion.
 
-Three Dreaded Snake had finally found a moment in which all three heads could agree. Quiet. From inside the temple came the small, uncertain silence of a baby nearly asleep. Seven Deadly Chins arrived on foot with a barrel, a hammer and a look suggesting that last season’s defeats had left him something to say. He chose to say it in metal.
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
-
-## W10-P13 — Almost Asleep
-
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
-
-Existing anchor and proposed local set: Podium Shadow Waterfall Temple; Sheltered Court. Durable proposed landmarks: recessed closed family door worn stone landing return wall facing the outer court waterfall behind vegetation off to one side Event dressing: carried barrel/lids/hammer and horn small handcart if selected Movement: TDS occupies the threshold; Chins remains on the public stone outside. Door, visitor and waterfall give the three heads different eyelines.
-
-Decisive moment: The hand reaches for the horn while hope briefly returns. Camera: Closer three-quarter view across the shared torso and Chins’s hand. Foreground: A lid settling; horn still within reach. Midground: Three expressions soften unevenly as Chins pauses. Background: Same closed door and steady cascade.
-
-Local lighting: Same doorway lamp; a small metallic highlight reveals intention. Ambient: Cool spray reflection and foliage shade. Fixed sources: warm lamp behind the family door soft sky reflection from cascade Moving sources: brief metal glints on lids/hammer/horn Storm relation: Outer-band wind pushes some spray farther across the landing; distant thunder is broad and intermittent, distinct from Chins’s deliberately sharp rhythm.
-
-Shared storm, local expression: Foliage shivers at the court entrance while the recessed doorway stays protected Roof or stone drip lines darken the outer steps A distant cloud pulse changes the cool reflected light without blacking out the interior The family has already settled into the familiar waterfall and mild storm ambience. Chins times the unnatural sharp clang and horn for the lull; his deliberate irregular noise stays the cause of frustration. Ambient: Cool cloud and waterfall-reflected fill under vegetation. Fixed practicals: Steady warm line beneath the family door A sheltered threshold lamp if selected Moving sources: Small shifting metal highlights on lid, barrel and horn Continuity: No loud thunder competing at the exact comic climax. The waterfall does not suddenly become silent or catastrophically swell.
-
-Lived-in set: Door latch and worn steps imply habitual household use. Dry swept stone sits within damp vegetation and spray. A repaired gutter edge or drip channel shows routine care, with no invented exact repair date. The newborn’s arrival is a current change within an existing home.
-
-Character and costume continuity: Exactly three serpent heads on one armored humanoid torso, with post-haircut continuity. Chins keeps heavy build, glasses, red trucker cap and work clothes, with carried noise props. The unresolved truck situation does not disappear. The child stays offscreen; the door and father’s reactions carry the personal stake.
-
-Checks: Steady waterfall is never described as absolute silence. Thunder is not confused with Chins’s deliberate noise. Three heads do not become three bodies. No thunderclap at the encore payoff; Chins owns the interruption. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
-
-**Publication copy candidate**
-
-Almost Asleep
+### Exact copy
 
 Three Dreaded Snake vs Seven Deadly Chins
 
-The hammer stopped. Three Dreaded Snake froze. One head listened toward the doorway while another attempted an expression of gratitude; the third kept its eyes on the visitor. For several precious seconds, the temple seemed willing to forgive them. Seven Deadly Chins lifted a finger, as though remembering an important detail, and reached for the air horn.
+The baby had almost settled when Seven Deadly Chins put the jackhammer into the courtyard. Concrete rattled against old stone. Upstairs, a cry began, then an angry voice called for Three Dreaded Snake. He reached the balcony with three heads trying to answer three problems. Below, Chins smiled as though the house had requested the work.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P14 — An Encore Nobody Ordered
+- Baby awake; family upset; first concrete damage
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+## W10-P13 — He Heard You
 
-Existing anchor and proposed local set: Podium Shadow Waterfall Temple; Sheltered Court. Durable proposed landmarks: recessed closed family door worn stone landing return wall facing the outer court waterfall behind vegetation off to one side Event dressing: carried barrel/lids/hammer and horn small handcart if selected Movement: TDS occupies the threshold; Chins remains on the public stone outside. Door, visitor and waterfall give the three heads different eyelines.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Decisive moment: Chins deliberately restarts the racket. Camera: Slightly wider low angle, keeping the family door and visitor in one causal space. Foreground: Horn/lid gesture, not the baby. Midground: TDS’s one body trapped between listening, pleading and anger; Chins delighted. Background: Wet temple stone and waterfall continue their normal presence.
+Existing setting / proposed child: {"set_id": "SET-W10-TDS-TEMPLE-COURTYARD", "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
 
-Local lighting: Warm threshold remains steady, cool spray and harsh prop glints outside. Ambient: Cool spray reflection and foliage shade. Fixed sources: warm lamp behind the family door soft sky reflection from cascade Moving sources: brief metal glints on lids/hammer/horn Storm relation: Outer-band wind pushes some spray farther across the landing; distant thunder is broad and intermittent, distinct from Chins’s deliberately sharp rhythm.
+Ordinary life and age: Old steps, polished rail, lime-stained drain and generations of repairs establish a lived-in household before the newborn.
 
-Shared storm, local expression: Foliage shivers at the court entrance while the recessed doorway stays protected Roof or stone drip lines darken the outer steps A distant cloud pulse changes the cool reflected light without blacking out the interior The family has already settled into the familiar waterfall and mild storm ambience. Chins times the unnatural sharp clang and horn for the lull; his deliberate irregular noise stays the cause of frustration. Ambient: Cool cloud and waterfall-reflected fill under vegetation. Fixed practicals: Steady warm line beneath the family door A sheltered threshold lamp if selected Moving sources: Small shifting metal highlights on lid, barrel and horn Continuity: No loud thunder competing at the exact comic climax. The waterfall does not suddenly become silent or catastrophically swell.
+Decisive moment: Reverse to a balcony-over-shoulder view: TDS leans forward at the rail, visibly asking for quiet, while below Chins makes eye contact, laughs and reaches to turn up the music before resuming the hammer. The key is acknowledgement followed by indifference. TDS’s heads divide between the crying baby, the furious partner and the offending visitor. One broken paving patch and a short wet dust trail stay in the same positions. Chins is never moved onto the balcony to create a confrontation.
 
-Lived-in set: Door latch and worn steps imply habitual household use. Dry swept stone sits within damp vegetation and spray. A repaired gutter edge or drip channel shows routine care, with no invented exact repair date. The newborn’s arrival is a current change within an existing home.
+Camera: Over TDS shoulder from balcony toward Chins below; eye contact and volume change visible. Foreground: TDS shoulders/rail, three distinct head angles Midground: Chins laughing and reaching for music while drill is paused Background: Protected doorway and fixed courtyard shelf
 
-Character and costume continuity: Exactly three serpent heads on one armored humanoid torso, with post-haircut continuity. Chins keeps heavy build, glasses, red trucker cap and work clothes, with carried noise props. The unresolved truck situation does not disappear. The child stays offscreen; the door and father’s reactions carry the personal stake.
+Light: Cool southern sky and waterfall fill; steady warm household lamp behind the balcony. Repeated lamp and shadow direction join all three pages. Regional storm: Wetland outer-band gusts move foliage and occasional spray. Drain channels darken, but the nursery and balcony remain sheltered.
 
-Checks: Steady waterfall is never described as absolute silence. Thunder is not confused with Chins’s deliberate noise. Three heads do not become three bodies. No thunderclap at the encore payoff; Chins owns the interruption. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Action and continuity: Jackhammer bit contacts the concrete repair layer; hose connects to the compressor below. P12 child/partner are contextual offscreen sound or a doorway silhouette; no unreviewed new principal design. P13 Chins releases the hammer before using a hand to turn up the speaker; he acknowledges TDS then laughs. P14 both hands return to the jackhammer; the same concrete patch expands. TDS stays on the balcony with exactly three heads on one torso. No barrel, air horn or temple invasion.
 
-**Publication copy candidate**
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-An Encore Nobody Ordered
+### Exact copy
 
 Three Dreaded Snake vs Seven Deadly Chins
 
-The answering cry came from behind the door. Three Dreaded Snake threw both arms wide, and the three heads finally abandoned agreement: one shouted, one begged, one stared in exhausted disbelief. Seven Deadly Chins answered with a triumphant rolling clang across the lids. The visitor had found a performance his host could neither ignore nor applaud, and he plainly knew an encore.
+“Keep it down!” Three Dreaded Snake shouted over the rail. Chins stopped long enough to look directly at him. For a moment there was only the waterfall, the baby and the promise of relief. Then Chins laughed, turned the music up and put both hands back on the jackhammer. He had heard every word.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P15 — The First Charge Stops Here
+- Chins knowingly refuses the request; music louder
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+## W10-P14 — No Quiet Hours
 
-Existing anchor and proposed local set: Mud Dogs Swamp; Rootbank Crossing. Durable proposed landmarks: root pinch raised natural berm shallow feeder channel existing racing rut Event dressing: oversized metal keg used as pressure shield Movement: A continuous retreat along the same bank records every failed answer; a low side path gives Mud an intelligible attempted counter.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Decisive moment: The first charge stops hard against the keg. Camera: Very low hound-height view across the root pinch. Foreground: Mud’s charge and peat thrown by paws. Midground: Slob’s planted feet behind the keg. Background: Same raised bank and a channel with advancing rain ripples.
+Existing setting / proposed child: {"set_id": "SET-W10-TDS-TEMPLE-COURTYARD", "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
 
-Local lighting: Diffuse canopy light; rim highlight makes the contact clear. Ambient: Cloud-diffused green and brown beneath the canopy, with intermittent low amber light through one break. Fixed sources: cool reflection from the channel the persistent canopy opening Moving sources: glints along the keg rim Storm relation: A passing outer-band shower darkens peat and stirs reeds; shelter prevents an open-coast gale.
+Ordinary life and age: Old steps, polished rail, lime-stained drain and generations of repairs establish a lived-in household before the newborn.
 
-Shared storm, local expression: Reeds lean in intermittent gusts Water beads from old roots and catches in existing paw/racing ruts The channel sits dark and restless beside the still-supported berm Mud knows which ground should hold, so Slob occupying it is more humiliating. Weather worsens the margin of usable footing equally; Slob wins through pressure and weight, not a miraculous wave that sweeps Mud away. Ambient: Soft storm cloud with a brief amber break at the established canopy opening. Fixed practicals: Reflected sky from the feeder channel; no invented spotlight Moving sources: Wind-shifted canopy gaps Continuity: The break is a local post-band interval within the same front. Keep paw contact and Slob’s feet legible.
+Decisive moment: From courtyard level, Chins drives the hammer into a fresh edge of the same expanding patch, grinning toward the balcony while the speaker remains visible. TDS’s whole body is tense; all three heads now direct their frustration outward, yet the family doorway still pulls one eyeline back. This is comic escalation through attention and sound, not physical attack. No thunderclap competes with the deliberate noise at the payoff. The waterfall remains normal background ambience; the baby was settling despite it before Chins began.
 
-Lived-in set: The old rut is inherited Week9 damage rather than new decoration. Roots are rubbed by passage; reed edges show an ordinary local route. Peat, moss and timber feel used by a wetland life, not like a fresh arena dressed with generic mud.
+Camera: Courtyard-height view, drill and music source below, furious three-headed silhouette above. Foreground: The next edge of the same growing concrete patch Midground: Chins grinning with both hands operating tool Background: Balcony and sheltered family presence; ordinary waterfall
 
-Character and costume continuity: Mud remains a moss-caked quadrupedal hound with recognizable canine head and collar/chain. Slob remains massive, bare-shouldered, in work overalls and backward cap. Wet cloth darkens in places; the whole outfit is not replaced. Feet, paws and keg contact stay visible.
+Light: Cool southern sky and waterfall fill; steady warm household lamp behind the balcony. Repeated lamp and shadow direction join all three pages. Regional storm: Wetland outer-band gusts move foliage and occasional spray. Drain channels darken, but the nursery and balcony remain sheltered.
 
-Checks: Keg never becomes a raft. Feet and paws retain plausible support. Storm exposure is less direct than Red’s terrace and the exposed ridge. Atmospheric fringe can wet the surface; any downstream rise is delayed, with no instant flood wave. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Action and continuity: Jackhammer bit contacts the concrete repair layer; hose connects to the compressor below. P12 child/partner are contextual offscreen sound or a doorway silhouette; no unreviewed new principal design. P13 Chins releases the hammer before using a hand to turn up the speaker; he acknowledges TDS then laughs. P14 both hands return to the jackhammer; the same concrete patch expands. TDS stays on the balcony with exactly three heads on one torso. No barrel, air horn or temple invasion.
 
-**Publication copy candidate**
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-The First Charge Stops Here
+### Exact copy
 
-Mud Dogs vs Slob on my Dobb
+Three Dreaded Snake vs Seven Deadly Chins
 
-Mud Dogs came out of the reeds with the certainty of a creature that knew every inch beneath its paws. Slob on my Dobb met the charge behind the broad face of his keg and kept walking. Their earlier meeting had left room for an argument. This one began with four furrows in the mud and the visitor gaining ground.
+Another square of concrete broke loose. Chins worked to the music with the cheerful indifference of a man who had nowhere better to be. Above him, three furious heads demanded the same impossible thing. Behind the balcony door, the baby cried and the argument continued. Chins looked up, grinned, and kept going.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P16 — Every Yard Goes Backward
+- Same expanded hole; family frustration unresolved; no Book reopening
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+## W10-P15 — The Swamp Declares a Blockade
 
-Existing anchor and proposed local set: Mud Dogs Swamp; Rootbank Crossing. Durable proposed landmarks: root pinch raised natural berm shallow feeder channel existing racing rut Event dressing: oversized metal keg used as pressure shield Movement: A continuous retreat along the same bank records every failed answer; a low side path gives Mud an intelligible attempted counter.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Decisive moment: Mud tries a familiar local route and is forced lower beside the berm. Camera: Lateral view parallel to the bank, preserving the direction of retreat. Foreground: Paw cuts and soft margin show the attempted flank. Midground: Slob advances through the attempted answer; feet stay supported. Background: Root pinch recedes, reeds bend in the passing gust.
+Existing setting / proposed child: {"set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS", "parent_location_id": "LOC-MUD-DOGS-SWAMP", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
 
-Local lighting: Rain-darkened surfaces hold highlights; silhouettes remain separate. Ambient: Cloud-diffused green and brown beneath the canopy, with intermittent low amber light through one break. Fixed sources: cool reflection from the channel the persistent canopy opening Moving sources: glints along the keg rim Storm relation: A passing outer-band shower darkens peat and stirs reeds; shelter prevents an open-coast gale.
+Ordinary life and age: Old delivery access and maintained raised ground run beside the failed low racing line; tired signage and small repaired drains imply repeated ordinary use.
 
-Shared storm, local expression: Reeds lean in intermittent gusts Water beads from old roots and catches in existing paw/racing ruts The channel sits dark and restless beside the still-supported berm Mud knows which ground should hold, so Slob occupying it is more humiliating. Weather worsens the margin of usable footing equally; Slob wins through pressure and weight, not a miraculous wave that sweeps Mud away. Ambient: Soft storm cloud with a brief amber break at the established canopy opening. Fixed practicals: Reflected sky from the feeder channel; no invented spotlight Moving sources: Wind-shifted canopy gaps Continuity: The break is a local post-band interval within the same front. Keep paw contact and Slob’s feet legible.
+Decisive moment: Low from Mud’s side of the channel, the hound plants all four paws at a weathered entrance marker and barks toward the approaching flatbed. The camera keeps his low position and the higher service strip in one image so the failed threat is spatially obvious. Cargo dwarfs the attempted obstacle. A loose Cancun travel card can be a conditional background joke, but no official elimination stamp or abandoned-land decree appears.
 
-Lived-in set: The old rut is inherited Week9 damage rather than new decoration. Roots are rubbed by passage; reed edges show an ordinary local route. Peat, moss and timber feel used by a wetland life, not like a fresh arena dressed with generic mud.
+Camera: Low from Mud’s shoulder, channel and higher service route visible together. Foreground: Mud’s four paws and territorial sign base Midground: Routine approaching flatbed with secure cargo Background: Known failed low racing lane beside usable service strip
 
-Character and costume continuity: Mud remains a moss-caked quadrupedal hound with recognizable canine head and collar/chain. Slob remains massive, bare-shouldered, in work overalls and backward cap. Wet cloth darkens in places; the whole outfit is not replaced. Feet, paws and keg contact stay visible.
+Light: Muted wetland greens and grey overcast; warm truck lamps catch wheel edges and strapped kegs, never turn the whole swamp into a bright highway. Regional storm: Local rain and delayed runoff fill lower channels. The raised service strip remains firm, visible from page one. No sudden flood diversion.
 
-Checks: Keg never becomes a raft. Feet and paws retain plausible support. Storm exposure is less direct than Red’s terrace and the exposed ridge. Atmospheric fringe can wet the surface; any downstream rise is delayed, with no instant flood wave. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Action and continuity: Mud barks at the junction while the loaded high-clearance flatbed approaches on established raised footing. Slob is visibly driving; crates and beer kegs are strapped, load and canvas position continuous. The truck passes at routine speed without impact, combat or cargo loss. The retreating truck stays loaded; Mud remains in his own swamp. CANCÚN is a teasing travel-card prop only. No eliminated stamp, official closure or permanent abandonment.
 
-**Publication copy candidate**
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
 
-Every Yard Goes Backward
-
-Mud Dogs vs Slob on my Dobb
-
-Mud Dogs tried the root, then the softer edge, then one furious lunge around the metal. Each answer arrived a little later than Slob’s next step. The visitor turned the keg, drove forward and took another strip of the bank. Nothing in his expression suggested a surprise was required. He had brought enough force to keep the same promise repeatedly.
-
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
-
-## W10-P17 — No Close Finish
-
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
-
-Existing anchor and proposed local set: Mud Dogs Swamp; Rootbank Crossing. Durable proposed landmarks: root pinch raised natural berm shallow feeder channel existing racing rut Event dressing: oversized metal keg used as pressure shield Movement: A continuous retreat along the same bank records every failed answer; a low side path gives Mud an intelligible attempted counter.
-
-Decisive moment: The result is measured in displaced ground and posture. Camera: Wider elevated oblique view that reveals the continuous furrow without losing the defeated hound. Foreground: Churned retreat tracks. Midground: Slob above the bank, Mud intact and fierce below. Background: The original root and rut, proving how far the pressure traveled.
-
-Local lighting: A small opening in cloud restores amber on the upper bank; wet lower peat stays cool. Ambient: Cloud-diffused green and brown beneath the canopy, with intermittent low amber light through one break. Fixed sources: cool reflection from the channel the persistent canopy opening Moving sources: glints along the keg rim Storm relation: A passing outer-band shower darkens peat and stirs reeds; shelter prevents an open-coast gale.
-
-Shared storm, local expression: Reeds lean in intermittent gusts Water beads from old roots and catches in existing paw/racing ruts The channel sits dark and restless beside the still-supported berm Mud knows which ground should hold, so Slob occupying it is more humiliating. Weather worsens the margin of usable footing equally; Slob wins through pressure and weight, not a miraculous wave that sweeps Mud away. Ambient: Soft storm cloud with a brief amber break at the established canopy opening. Fixed practicals: Reflected sky from the feeder channel; no invented spotlight Moving sources: Wind-shifted canopy gaps Continuity: The break is a local post-band interval within the same front. Keep paw contact and Slob’s feet legible.
-
-Lived-in set: The old rut is inherited Week9 damage rather than new decoration. Roots are rubbed by passage; reed edges show an ordinary local route. Peat, moss and timber feel used by a wetland life, not like a fresh arena dressed with generic mud.
-
-Character and costume continuity: Mud remains a moss-caked quadrupedal hound with recognizable canine head and collar/chain. Slob remains massive, bare-shouldered, in work overalls and backward cap. Wet cloth darkens in places; the whole outfit is not replaced. Feet, paws and keg contact stay visible.
-
-Checks: Keg never becomes a raft. Feet and paws retain plausible support. Storm exposure is less direct than Red’s terrace and the exposed ridge. Atmospheric fringe can wet the surface; any downstream rise is delayed, with no instant flood wave. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
-
-**Publication copy candidate**
-
-No Close Finish
+### Exact copy
 
 Mud Dogs vs Slob on my Dobb
 
-Slob on my Dobb planted the keg on the high bank and rested a heavy hand on its rim. Mud Dogs stood below in the churned shallows, jaws still working, with no clean line left for another charge. The visitor had needed a narrow margin once. Now the distance between them could be seen in the ground itself, and nobody needed to measure it.
+Mud Dogs planted his paws beside the entrance marker and announced that the swamp was closed to visitors. Slob on my Dobb approached with a flatbed full of beer. He checked the straps in his mirror, kept the wheels on the raised service strip and continued at the same ordinary speed.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Truck and correct firm route established
+
+## W10-P16 — Same Speed
+
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
+
+Existing setting / proposed child: {"set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS", "parent_location_id": "LOC-MUD-DOGS-SWAMP", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
+
+Ordinary life and age: Old delivery access and maintained raised ground run beside the failed low racing line; tired signage and small repaired drains imply repeated ordinary use.
+
+Decisive moment: A near side-on passing view puts Mud in the foreground on the lower muddy shoulder and Slob above at the cab window, barely giving the hound a glance. The wheels stay on firm raised ground; no wheel or keg contacts Mud. The engine pace, closed cargo and unaffected posture show zero intimidation. Mud’s attempt is a bark/lunge stopped at the edge of his own footing, not a collision. No fight, flying keg, dragged animal or dangerous vehicle attack.
+
+Camera: Side-on pass, Mud lower foreground and Slob visible at cab window above. Foreground: Mud on low muddy shoulder Midground: Slob calm at wheel, wheels on raised stone Background: Same marker, rut and wetland foliage
+
+Light: Muted wetland greens and grey overcast; warm truck lamps catch wheel edges and strapped kegs, never turn the whole swamp into a bright highway. Regional storm: Local rain and delayed runoff fill lower channels. The raised service strip remains firm, visible from page one. No sudden flood diversion.
+
+Action and continuity: Mud barks at the junction while the loaded high-clearance flatbed approaches on established raised footing. Slob is visibly driving; crates and beer kegs are strapped, load and canvas position continuous. The truck passes at routine speed without impact, combat or cargo loss. The retreating truck stays loaded; Mud remains in his own swamp. CANCÚN is a teasing travel-card prop only. No eliminated stamp, official closure or permanent abandonment.
+
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
+
+### Exact copy
+
+Mud Dogs vs Slob on my Dobb
+
+Mud Dogs barked from the soft shoulder as the cab drew level. Slob gave him half a glance. The kegs stayed strapped, the wheels stayed on stone, and the delivery kept moving. The swamp had offered a warning. The driver appeared to have mistaken it for background noise.
+
+### Continuity
+
+- No collision, struggle, flying keg or seized territory
+
+## W10-P17 — Cancún Is Calling
+
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
+
+Existing setting / proposed child: {"set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS", "parent_location_id": "LOC-MUD-DOGS-SWAMP", "parent_status": "PERMANENT_CANON", "set_status": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND", "region_id": "REG-SOUTHERN-WETLANDS", "formal_atlas_promotion": false}
+
+Ordinary life and age: Old delivery access and maintained raised ground run beside the failed low racing line; tired signage and small repaired drains imply repeated ordinary use.
+
+Decisive moment: The loaded truck moves away at an ordinary pace along the raised strip. Mud remains small beneath the old territory sign, with empty low stands and the submerged racing ruts behind him. Deep foreground mud and receding tire tracks give the composition scale. Slob never celebrates a conquest or takes over the swamp; he simply finishes his route. The storm raises side channels and peels a small notice, while the route remains demonstrably usable.
+
+Camera: Wide receding route; small Mud beneath entrance marker, truck departing into depth. Foreground: Mud small beside abandoned-looking empty seats, still his home Midground: Fully loaded truck continuing without celebration Background: Empty low stands, old ruts, loose CANCÚN card
+
+Light: Muted wetland greens and grey overcast; warm truck lamps catch wheel edges and strapped kegs, never turn the whole swamp into a bright highway. Regional storm: Local rain and delayed runoff fill lower channels. The raised service strip remains firm, visible from page one. No sudden flood diversion.
+
+Action and continuity: Mud barks at the junction while the loaded high-clearance flatbed approaches on established raised footing. Slob is visibly driving; crates and beer kegs are strapped, load and canvas position continuous. The truck passes at routine speed without impact, combat or cargo loss. The retreating truck stays loaded; Mud remains in his own swamp. CANCÚN is a teasing travel-card prop only. No eliminated stamp, official closure or permanent abandonment.
+
+Current character morphology/costume comes from attached exact references, not old artwork identity. Use one complete moment per page. No decided winner tableau before the final sports branch is selected.
+
+### Exact copy
+
+Mud Dogs vs Slob on my Dobb
+
+The last crates disappeared around the bend. Mud Dogs remained beneath his territory sign, with empty seats, flooded racing ruts and nobody left to stop. A loose travel card flapped against a post: CANCÚN. Slob had not taken the swamp. He had passed through it so easily that Mud could no longer tell which part was worse.
+
+### Continuity
+
+- Delivery succeeds; humiliation and conditional vacation threat, no elimination claim
 
 ## W10-P18 — WHY THE BOARD MOVED
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Sports Desk Site: Archive courier-court service edge Proposal: Wet satchel flaps and ordinary drying cloth show evidence traveling through the same weather. This smaller activity differs from the wide rankings view. Light: Stable window/arcade light, overcast courtyard beyond. Continuity: News comes by actual routes; the storm does not manufacture score evidence..
+Site and ordinary use: League Archive scoring hall. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-SCORING-HALL is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Deep oblique across an old scoring desk toward open record-hall arches; exact concise performance lettering follows the open illustrated air and existing ledger surface. Foreground: A clerk’s scoring tools and rain-spotted folios. Midground: One long desk with six restrained leader inscriptions integrated into the artwork. Background: Receding shelves and a courtyard lamp; keep the art continuous behind copy.
 
-**Publication copy candidate**
+Baked-in lighting: Warm fixed desk pools, cool arch light and legible faces/materials.
 
-WHY THE BOARD MOVED
+Editorial purpose: Explain the player performances behind this week’s spectacle.
+
+Continuity pass: Performance uses the current starter/bench distinction. Injury consequences move to P34 so one illustrated page is not overloaded.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 The points behind the spectacle
 
-McCaffrey’s 52.60 gives Slob the largest starting contribution in the current snapshot. HMB’s Purdy–Hubbard–Smith-Njigba trio supplies 113.86; LLC’s Burrow–Likely–Washington trio adds 103.66. Those are the engines behind the two scores above 200. Across the course, Gibbs has answered with 47.40 for Duckhook, but one enormous performance has not matched HMB’s breadth. El Niño’s 189.08 also arrives with Pickens’ 44.50 still on the bench.
+McCaffrey’s 52.60 drives Slob. HMB’s Purdy–Hubbard–Smith-Njigba trio supplies 113.86; LLC’s Burrow–Likely–Washington trio adds 103.66. Duckhook answers with Gibbs’ 47.40. El Niño reaches 189.08 while Pickens’ 44.50 stays on the bench. These are current contributions; Monday can still change the board.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+| category | player | team | points |
+
+| --- | --- | --- | --- |
+
+| RB / current overall starter lead | Christian McCaffrey | Slob on my Dobb | 52.60 |
+
+| QB | Patrick Mahomes | Seven Deadly Chins | 48.62 |
+
+| WR | Ja’Marr Chase | Red Leopards | 36.10 |
+
+| TE | Isaiah Likely | The LLC | 30.70 |
+
+| D/ST | Vikings D/ST | His Majesty’s Blood | 26.00 |
+
+| K | Cam Little | His Majesty’s Blood | 19.00 |
+
+### Continuity
+
+- Performance uses the current starter/bench distinction. Injury consequences move to P34 so one illustrated page is not overloaded.
+
+## W10-P34 — THE COST OF SUNDAY
+
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
+
+Site and ordinary use: League Archive late dispatch alcove. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-INJURY-DISPATCH is proposed local staging, not promoted canon.
+
+Camera: Deep late-working archive scene; a courier places fresh reports beside an older retained ledger. Foreground: Dated dispatches and wet cloak edge; no invented medical imagery. Midground: Attendant reading under a fixed lamp, separate current and carry-forward documents visible as physical objects. Background: Old shelves, window rattled by the front, another steady lamp farther in.
+
+Baked-in lighting: Restrained amber lamps against cold evening glass; readable and sober without becoming a hospital scene.
+
+Editorial purpose: Give injury consequences enough space to separate medical certainty, dates and actual roster ownership.
+
+Continuity pass: Do not turn all game exits into season-ending diagnoses. Keep indirect D/ST exposure, existing injury dates, and reported-vs-confirmed language visible.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
+
+Sports Desk • Availability changes the next move
+
+Duckhook’s Maye faces a reported extended absence; a season-ending outcome remains unconfirmed. Mud’s Marks left with a concussion, with Houston playing Thursday. Chili awaits Bowers’ ankle follow-up. TDS adds Brown’s hamstring exit to a crowded receiver watch. Hutchinson’s reported season-ending ACL loss affects HMB through reserve Lions D/ST. LLC’s Michael Wilson is already out for the season; that injury dates to November 8. Obi’s Puka cannot return before Week 15; Red’s Lamar has a prolonged recovery without a fixed return date.
+
+### Continuity
+
+- Do not turn all game exits into season-ending diagnoses. Keep indirect D/ST exposure, existing injury dates, and reported-vs-confirmed language visible.
 
 ## W10-P19 — A Very Generous Guest
 
 Create one full-page cinematic 1080x1920 PNG illustration of a lavish birthday celebration entirely inside a well-established dining hall at the Country Club of Jackson. Use a wide entrance view with long-table perspective, a clear aisle, anonymous adult guests, abundant streamers, several cakes and maintained wood-and-brass club furnishings that show years of use. Dr. Duckhook retains his white duck head, orange bill, green golf cap and green vest; his golf equipment is stored nearby. His Majesty’s Blood enters carrying a large wrapped present with both hands: shadowed hood, two glowing red eyes, black armor, crimson cloak and retained belt. His sword is secured and unused. Establish a sturdy gift table and a separate birthday cake on the sideboard. Warm chandeliers and sconces illuminate the party; tall windows carry cool cloud reflections and passing rain from Niño’s regional front. Conceive headline and narrative lettering in the same warm room and architectural depth. This beat is social anticipation, with no duel, weapon exchange, veranda action, fall or collapsing table. The gift remains wrapped until the next beat.
 
-**Publication copy candidate**
-
-A Very Generous Guest
+### Exact copy
 
 Dr. Duckhook vs His Majesty's Blood
 
 Dr. Duckhook had filled Jackson’s dining hall with cakes, streamers and people prepared to make a fuss over him. Outside, the windows trembled. Inside, the lamps stayed golden. His Majesty’s Blood arrived carrying a present large enough to deserve its own table. Duckhook welcomed him with the confidence of a host who believed every surprise in the room had been arranged for his benefit.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Gift set on table before opening
+- Cake remains on established sideboard
+- Warm hall and cool windows retain their positions
 
 ## W10-P20 — The 200 Burger
 
 Create one cohesive full-page cinematic 1080x1920 PNG at table height inside the same warm, lived-in Country Club of Jackson dining hall. Dr. Duckhook opens the large gift that HMB has already placed on the sturdy table. The lid and ribbon reveal a gigantic but physically plausible double-decker hamburger, with a clearly legible little flag reading exactly 200 BURGER. This label is the food joke and 200-point milestone, not an exact final-score display. Frame the burger in the foreground, Duckhook’s orange bill and slowly collapsing social smile in the midground, and HMB’s towering hooded, red-eyed armored presence beside him. Preserve green golf cap/vest, HMB’s belt and crimson cloak. Show the nearby guests beginning to understand the joke. The separate birthday cake remains visible on the same sideboard; any candles have been cleared before later handling. Keep warm chandeliers and sconces, abundant streamers and cool rainy window reflections consistent with the first page. The sword and golf clubs are out of use. Integrate all selected wording with the same illustrated room; avoid separate panels or a product-ad layout.
 
-**Publication copy candidate**
-
-The 200 Burger
+### Exact copy
 
 Dr. Duckhook vs His Majesty's Blood
 
 The ribbon came away. Then the lid. A towering double-decker hamburger filled the box, its little flag announcing 200 BURGER. Duckhook’s smile held for an ambitious second. Around him, the room began to understand. His Majesty’s Blood had brought something generous, personal and impossible to return. The birthday boy was still deciding what to say when the champion reached toward the cake.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Box stays open and burger remains intact
+- Cake is ready to lift with candles cleared
+- Duckhook’s frosting has not appeared yet
 
 ## W10-P21 — Many Unhappy Returns
 
 Create the third full-page cinematic 1080x1920 PNG in the same indoor Jackson birthday sequence. At a clear three-quarter angle, show His Majesty’s Blood intentionally pressing the previously established candle-free birthday cake into Dr. Duckhook’s face. Both gloved hands, the cake and its contact must be understandable; soft frosting smears across white feathers and the orange bill while part of Duckhook’s eyes, green cap and green vest remain recognizable. The action is an outrageous birthday prank, with no weapon fighting, fall or collapsing table. HMB remains a towering shadowed hood, red eyes, black armor, crimson cloak and retained belt. Beside them the same opened box still contains the intact giant double-decker 200 BURGER, making gift and cake two separate persistent objects. The same anonymous guests laugh beneath streamers and golden chandeliers. Cool storm reflections stay beyond the windows, so the party’s light exposes every detail of the humiliation. Integrate title, chosen narration and only source-authorized score lettering into the whole illustration. Keep finality and exact scores bound to facts.json; the food’s 200 label never substitutes for the score.
 
-**Publication copy candidate**
-
-Many Unhappy Returns
+### Exact copy
 
 Dr. Duckhook vs His Majesty's Blood
 
 His Majesty’s Blood pressed the cake into Duckhook’s face before the birthday boy found his speech. Frosting spread across white feathers and orange bill as the dining hall erupted around them. The champion’s belt caught the warm light beside the open present. The 200 Burger remained magnificent. The birthday boy needed a towel.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Duckhook’s face and vest carry frosting
+- Burger remains on display
+- Guests remember the witnessed birthday humiliation
+- HMB retains belt and identity; no venue destruction or ownership change
 
 ## W10-P22 — The Empire Opens Fire
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+Develop this Retained Pass2 staging, reviewed in Pass3 as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
 
 Existing anchor and proposed local set: Trade Jedi Mountain Base; Ridge Gate. Durable proposed landmarks: worn inner arch coping with one visible repaired joint sheltered fixed lantern ridge shelf below existing war-room overlook Event dressing: two temporary attacking batteries initially LLC command position Movement: Main approach and elevated shelf converge toward LLC; the inner arch remains the defended return point.
 
@@ -504,21 +621,22 @@ Lived-in set: The footpath has a polished walking line and rougher edges, sugges
 
 Character and costume continuity: Obi stays youthful/blond with earth-toned working layers, green blade and separate golden retriever; no belt. LLC keeps suit, red tie and sunglasses; a gust may lift a jacket edge, but no Vader-mask replacement. Wear on hems and fastenings belongs to use; fresh scorch and wetness enter only after the action.
 
-Checks: Two initial batteries, one surviving. Retriever stays protected and separate. Weather complicates the action but LLC’s pressure remains the competitive mechanism. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Checks: Two initial batteries, one surviving. Retriever stays protected and separate. Weather complicates the action but LLC’s pressure remains the competitive mechanism. Current selected copy and all numeric lettering stay bound to the companion page contract. Retained detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
 
-**Publication copy candidate**
-
-The Empire Opens Fire
+### Exact copy
 
 ObiWan Jacoby vs The LLC
 
 The first blast struck the causeway before the warning could finish. ObiWan Jacoby met the next volley with a green blade and sent a burning answer into the forward battery. Above the smoke, The LLC stood on the command platform with his red tie lifting in the wind. He had beaten ObiWan by less than a point once. This time, he had brought an empire’s answer.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Begin under fire. Obi actively breaks the forward battery with returned blaster fire, forcing the assault line to change before LLC orders its response.
+- Local scene consequence remains draft until detailed acceptance
 
 ## W10-P23 — Two Ways Through
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+Develop this Retained Pass2 staging, reviewed in Pass3 as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
 
 Existing anchor and proposed local set: Trade Jedi Mountain Base; Ridge Gate. Durable proposed landmarks: worn inner arch coping with one visible repaired joint sheltered fixed lantern ridge shelf below existing war-room overlook Event dressing: two temporary attacking batteries initially LLC command position Movement: Main approach and elevated shelf converge toward LLC; the inner arch remains the defended return point.
 
@@ -532,21 +650,22 @@ Lived-in set: The footpath has a polished walking line and rougher edges, sugges
 
 Character and costume continuity: Obi stays youthful/blond with earth-toned working layers, green blade and separate golden retriever; no belt. LLC keeps suit, red tie and sunglasses; a gust may lift a jacket edge, but no Vader-mask replacement. Wear on hems and fastenings belongs to use; fresh scorch and wetness enter only after the action.
 
-Checks: Two initial batteries, one surviving. Retriever stays protected and separate. Weather complicates the action but LLC’s pressure remains the competitive mechanism. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Checks: Two initial batteries, one surviving. Retriever stays protected and separate. Weather complicates the action but LLC’s pressure remains the competitive mechanism. Current selected copy and all numeric lettering stay bound to the companion page contract. Retained detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
 
-**Publication copy candidate**
-
-Two Ways Through
+### Exact copy
 
 ObiWan Jacoby vs The LLC
 
-ObiWan Jacoby took the opening at a run. The shattered battery bought one advance; the narrow ridge offered another. He crossed the exposed stone in a green arc of deflected fire and drove toward the command platform. The LLC did not retreat. He turned one gloved hand, and the guns that had survived the first attack found the second one.
+ObiWan Jacoby took the opening at a run. The shattered battery bought one advance; the narrow ridge offered another. He crossed the exposed stone in a green arc of deflected fire and drove toward the command platform. The LLC did not retreat. He turned one gloved hand, and the battery that had survived the first attack found the second one.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
+
+- Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. LLC answers with crossfire from already established surviving positions.
+- Local scene consequence remains draft until detailed acceptance
 
 ## W10-P24 — Unlimited Firepower
 
-Develop this Pass2 candidate as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
+Develop this Retained Pass2 staging, reviewed in Pass3 as ONE cohesive full-page 1080 × 1920 cinematic PNG. Compose the action, environment, title, narration and any source-authorized factual lettering together.
 
 Existing anchor and proposed local set: Trade Jedi Mountain Base; Ridge Gate. Durable proposed landmarks: worn inner arch coping with one visible repaired joint sheltered fixed lantern ridge shelf below existing war-room overlook Event dressing: two temporary attacking batteries initially LLC command position Movement: Main approach and elevated shelf converge toward LLC; the inner arch remains the defended return point.
 
@@ -560,176 +679,381 @@ Lived-in set: The footpath has a polished walking line and rougher edges, sugges
 
 Character and costume continuity: Obi stays youthful/blond with earth-toned working layers, green blade and separate golden retriever; no belt. LLC keeps suit, red tie and sunglasses; a gust may lift a jacket edge, but no Vader-mask replacement. Wear on hems and fastenings belongs to use; fresh scorch and wetness enter only after the action.
 
-Checks: Two initial batteries, one surviving. Retriever stays protected and separate. Weather complicates the action but LLC’s pressure remains the competitive mechanism. Current selected copy and all numeric lettering stay bound to the companion page contract. Pass2 detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
+Checks: Two initial batteries, one surviving. Retriever stays protected and separate. Weather complicates the action but LLC’s pressure remains the competitive mechanism. Current selected copy and all numeric lettering stay bound to the companion page contract. Retained detailed staging and final sports branch remain under review; do not treat this brief as artwork approval.
 
-**Publication copy candidate**
-
-Unlimited Firepower
+### Exact copy
 
 ObiWan Jacoby vs The LLC
 
 The second counterattack vanished beneath converging red fire. ObiWan Jacoby drove his green blade through the nearest burst and held the inner arch as the mountain approach disappeared in smoke. Across the wrecked causeway, The LLC lowered his hand. The surviving battery answered anyway. The difference between them was no longer a fraction on a ledger. It was how much fire remained after both of ObiWan’s answers.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P25 — THE NAMES OFF THE STARTING SHEET
+- The decisive image shows both counters attempted and contained. Obi yields the exposed approach under sustained fire while LLC controls the open ground; no invented death or permanent ownership transfer.
+- Local scene consequence remains draft until detailed acceptance
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+## W10-P25 — THE NEXT STARTING SHEET
 
-Pass2 candidate setting: Module: Moves / Reserve Watch Site: People’s Champ Road Commons Proposal: Caravan awnings tied down, notices moved beneath the hall eaves, BBQ smoke bending in the common basin wind; ordinary goods and people keep moving. Light: Warm roadside-hall light against cool cloud. Continuity: Commons is CENTRAL BASIN; no Chins simultaneous appearance required, no NFL players treated as cargo or medical patients..
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Site and ordinary use: League Chamber outer loggia. Registered parent LOC-LEAGUE-CHAMBER; SET-W10-CHAMBER-RESERVE-LOGGIA is proposed local staging, not promoted canon.
 
-**Publication copy candidate**
+Camera: Wide view along an inhabited open loggia, equipment hooks and the road in depth; seven short needs are lettered in the continuous atmosphere. Foreground: Packed traveling equipment and empty hooks with team emblems. Midground: Covered roster station under old columns; it is ordinary logistics, not a new infirmary. Background: Cold open route with steady lamps and sheltered working people.
 
-THE NAMES OFF THE STARTING SHEET
+Baked-in lighting: Soft warm loggia lamps against blue-grey daylight.
 
-Fantasy reserve ledger • Captured November 16
+Editorial purpose: Translate Week11 byes and present ownership into practical gaps, while retaining a separate IR ledger.
 
-Twenty fantasy IR slots are occupied across eleven teams. This week’s ledger highlights ObiWan Jacoby, Red Leopards and Three Dreaded Snake. For tonight’s fantasy matchup, Lamar Jackson’s IR placement adds no scorer to Red’s total; Zay Flowers is the selected starter.
+Continuity pass: Seven positions across six teams; Chins needs both specialist slots. Current starters are not presumed to be the submitted Week11 lineup.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
+
+Week 11 • Seven uncovered required positions
+
+Six NFL clubs are on bye. On the current Schemin rosters, six teams lack an owned replacement at seven required positions. These are planning needs, not completed moves. The separate reserve ledger still records fantasy IR occupancy without turning that placement into a diagnosis.
+
+| team | need |
+
+| --- | --- |
+
+| ObiWan Jacoby | D/ST |
+
+| Slob on my Dobb | TE |
+
+| The Chili Cheesers | K |
+
+| El Niño | TE |
+
+| Mud Dogs | D/ST |
+
+| Seven Deadly Chins | D/ST + K |
+
+### Continuity
+
+- Seven positions across six teams; Chins needs both specialist slots. Current starters are not presumed to be the submitted Week11 lineup.
 
 ## W10-P26 — MOVES THAT REACHED THE ROSTER
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Moves / Reserve Watch Site: People’s Champ Road Commons Proposal: Caravan awnings tied down, notices moved beneath the hall eaves, BBQ smoke bending in the common basin wind; ordinary goods and people keep moving. Light: Warm roadside-hall light against cool cloud. Continuity: Commons is CENTRAL BASIN; no Chins simultaneous appearance required, no NFL players treated as cargo or medical patients..
+Site and ordinary use: League Archive courier intake desk. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-TRANSACTION-INTAKE is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf. Foreground: Completed ledger and weather-dark satchel. Midground: Ordinary stamped intake process and distinct shelves. Background: Courtyard arrival path; no invented league trading hall.
 
-**Publication copy candidate**
+Baked-in lighting: A fixed oil-lamp pool on the ledger, cool doorway beyond.
 
-MOVES THAT REACHED THE ROSTER
+Editorial purpose: Separate completed moves from pending or unsuccessful requests, then point to current roster needs.
+
+Continuity pass: Preserve the bounded source window and lifecycle status. Do not recommend a new trade after the configured November11deadline.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 Completed Week 10 activity • All bids shown are FAAB
 
-The Week 10 feed contains 29 completed transaction entries. Four trails connect those moves with this week’s lineups and Monday’s last scoring.
+The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+A two-day Mason trail • Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob added Mason the next day, dropping Chris Brooks.
+
+A familiar name changes shelves • Chins dropped Brian Thomas Jr. on November 10; Duckhook added him November 15.
+
+ObiWan works the receiver file • ObiWan completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB).
+
+The defense that still matters tonight • Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense remains its last selected scorer.
+
+### Continuity
+
+- Preserve the bounded source window and lifecycle status. Do not recommend a new trade after the configured November11deadline.
 
 ## W10-P27 — TWELVE TEAMS. NINE POSTED RESULTS.
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Official standings Site: Archive record halls opening toward court Proposal: Dry, protected records inside, damp arrivals beyond: institutions maintain their normal function during the front. Light: Warm lamps on readable data, cool depth outside. Continuity: Official data labels and finality still govern..
+Site and ordinary use: League Archive record hall. Registered parent LOC-LEAGUE-ARCHIVE; SET-W10-ARCHIVE-STANDINGS-HALL is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present. Foreground: Worn ledger edge and clerk’s hand turning a page. Midground: Twelve compact official entries, correct order, no invented post-Week10seeds. Background: Receding hall, high windows and warm record lamps.
 
-**Publication copy candidate**
+Baked-in lighting: Even warm reading light on text, cool high-window atmosphere.
 
-TWELVE TEAMS. NINE POSTED RESULTS.
+Editorial purpose: Keep the exact official table distinct from the live scoreboard and conditional forecast.
+
+Continuity pass: Retain through-nine official records now; after finality replace all rows and copy together. Never sort the future table by points alone.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 Official standings entering Week 10
 
 This is the official table through nine completed games. Duckhook entered alone at 6–3; seven teams followed at 5–4. Week 10’s scoring belongs on the live board until ESPN posts its outcomes. Equal records can occupy different seeds, so the order below follows the provider’s table.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+| seed | team | record | points_for |
+
+| --- | --- | --- | --- |
+
+| 1 | Dr. Duckhook | 6–3 | 1324.48 |
+
+| 2 | El Niño | 5–4 | 1260.95 |
+
+| 3 | D0nkey K0ng | 5–4 | 1255.15 |
+
+| 4 | Red Leopards | 5–4 | 1256.69 |
+
+| 5 | His Majesty's Blood | 5–4 | 1243.19 |
+
+| 6 | Seven Deadly Chins | 5–4 | 1210.40 |
+
+| 7 | Slob on my Dobb | 5–4 | 1420.70 |
+
+| 8 | The Chili Cheesers | 5–4 | 1291.09 |
+
+| 9 | ObiWan Jacoby | 4–5 | 1217.98 |
+
+| 10 | Three Dreaded Snake | 4–5 | 1196.68 |
+
+| 11 | The LLC | 3–6 | 1245.29 |
+
+| 12 | Mud Dogs | 2–7 | 1067.73 |
+
+### Continuity
+
+- Retain through-nine official records now; after finality replace all rows and copy together. Never sort the future table by points alone.
 
 ## W10-P28 — THREE DIVISIONS. DIFFERENT PRESSURES.
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: State of the Realm Site: Known central-basin junction / civic landscape Proposal: A working crossroads under the cloud shelf with couriers and ordinary weather precautions. The written account can describe different regional responses without cramming seven biomes into one horizon. Light: Broad storm-filtered daylight with deep layered distance. Continuity: Divisions remain cultural overlays, not separate food kingdoms or planets..
+Site and ordinary use: League Chamber public terrace. Registered parent LOC-LEAGUE-CHAMBER; SET-W10-CHAMBER-DIVISION-TERRACE is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution. Foreground: Rain-dark paving and repaired banner sockets. Midground: Burgers, Pizza and Wings emblems on temporary league standards. Background: Continuous inhabited landscape under graded cloud, not three isolated national maps.
 
-**Publication copy candidate**
+Baked-in lighting: Warm sheltered lamps under the arcade and cold distant sky.
 
-THREE DIVISIONS. DIFFERENT PRESSURES.
+Editorial purpose: Make the closing divisional pressure understandable without treating divisions as separate countries.
+
+Continuity pass: No official new seed, division-title award or territorial border is inferred from equal records.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 The same results change three separate races
 
-The current leads would reshape all three divisions. Monday can still change the picture in Burgers, Pizza and Wings.
+If the current leads hold, six teams will share 6–4 records. Pizza would contain three of them; Wings two; Burgers one. The same record will mean different pressure in different divisions. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+BURGERS • D0nkey can create separation • D0nkey K0ng would reach 6–4. If ObiWan Jacoby and Three Dreaded Snake remain behind, both fall to 4–6; Mud Dogs’ current deficit points toward 2–8.
+
+PIZZA • Three leaders on the same step • El Niño, His Majesty’s Blood and Seven Deadly Chins would share 6–4; The LLC would reach 4–6. Comebacks by Red or TDS would change that group.
+
+WINGS • The cushion is under pressure • Duckhook and Slob would meet at 6–4, with Red and Chili at 5–5. Flowers can still bring Red into the 6–4 group.
+
+### Continuity
+
+- No official new seed, division-title award or territorial border is inferred from equal records.
 
 ## W10-P29 — THE TWELVE — SCORING FORM
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Power rankings / scoring form Site: Archive courier court / Processional Proposal: Couriers use the sheltered arcade; standards or record leaves are secured against gusts; the open court remains a broad landscape. Light: Side light through a cloud break and warm archive openings. Continuity: Ranks stay distinct from official standings and do not occupy named conquered territories..
+Site and ordinary use: Mountain-lake overlook. Registered parent LOC-BRIDGE-MOUNTAIN-LAKE; SET-W10-LAKE-SCORING-FORM-OVERLOOK is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Landscape-dominant view from a worn lakeside approach, bridge receding diagonally; twelve compact ranked names sit in coherent open sky/reflected shadow, not report boxes. Foreground: Weathered approach stones and a maintained lamp bracket. Midground: Stone bridge, rippled lake and small travelers. Background: Layered upper-valley cloud; enough clear atmosphere for the complete ranking.
 
-**Publication copy candidate**
+Baked-in lighting: Cold sky, amber practicals, quiet lake reflections.
 
-THE TWELVE — SCORING FORM
+Editorial purpose: Provide the power-ranking function through the established transparent scoring-form index.
+
+Continuity pass: Retain the disclosed method. No rank is presented as an official seed or a probability; re-run after Monday closes.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 Live Week 10 index • Extra weight on the current week
 
-Slob’s season-long scoring keeps it narrowly ahead in the live index, while HMB and The LLC climb on their 200-point weeks. The formula is 70% season points per game, plus 30% of this week’s points. Week 10 is still being scored, so Monday can move these positions. This index measures scoring form; it does not assign playoff seeds or win probabilities.
+Slob leads the live scoring-form index, followed by HMB and The LLC. The established formula weights season points per game at 70% and this week at 30%. It measures scoring already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+| rank | team | index |
+
+| --- | --- | --- |
+
+| 1 | Slob on my Dobb | 165.79 |
+
+| 2 | His Majesty's Blood | 164.26 |
+
+| 3 | The LLC | 162.64 |
+
+| 4 | El Niño | 158.23 |
+
+| 5 | D0nkey K0ng | 145.83 |
+
+| 6 | Dr. Duckhook | 139.95 |
+
+| 7 | Seven Deadly Chins | 138.83 |
+
+| 8 | Red Leopards | 138.44 |
+
+| 9 | ObiWan Jacoby | 133.48 |
+
+| 10 | The Chili Cheesers | 125.05 |
+
+| 11 | Mud Dogs | 116.78 |
+
+| 12 | Three Dreaded Snake | 111.81 |
+
+### Continuity
+
+- Retain the disclosed method. No rank is presented as an official seed or a probability; re-run after Monday closes.
 
 ## W10-P30 — FOUR MORE AFTER THIS
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Playoff road Site: Alpine Wager Route Proposal: Cloud erases the distant summit before it reaches the sheltered base camp; flags and guy ropes show exposure. Any snow is elevation-supported, not a blanket applied everywhere. Light: Cold high-country sky and small protected camp lamps. Continuity: No automatically closed pass or awarded summit; southern view shows haze/roads, not readable Chamber buildings..
+Site and ordinary use: Alpine Wager Route, above the existing base camp. Registered parent LOC-RED-SLOB-ALPINE-ROUTE; SET-W10-ALPINE-REGULAR-SEASON-ROAD is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing. Foreground: Base-camp ropes, worn steps and a freshly secured Week11marker. Midground: A narrowing path with later markers receding naturally. Background: Northern Spine elevation in cold cloud; no owner crowned on the summit.
 
-**Publication copy candidate**
+Baked-in lighting: Cold altitude fill, sheltered base-camp lamps and a narrow warm horizon gap.
 
-FOUR MORE AFTER THIS
+Editorial purpose: Show four remaining regular-season steps, the seven-berth structure and the live survival stakes.
 
-Seven places. A shorter road.
+Continuity pass: Publish the conditional premise with the survival claim. Saved constructive witnesses establish possibility, never odds or likelihood.
 
-When Week 10 closes, four regular-season games per team remain. The route runs through one more cross-division round and then three weeks of familiar division opponents. A 6–4 record would give six teams the same number of wins if the current leads hold; it would not grant six identical routes. No berth is awarded on this page.
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Exact copy
+
+Seven places. The route narrows.
+
+Under the current-leads-hold table, all twelve teams still have a route and none has clinched. Mud Dogs can still win the Burgers division at 6–8 through a specific set of results. Another loss would close that route. Four games remain after this week: one crossover, then three divisional rounds.
+
+SEVEN BERTHS • Three division winners and four shared places.
+
+MUD’S NEXT TEST • If the present Week 10 leads hold, a Week 11 loss to Chins eliminates Mud.
+
+### Continuity
+
+- Publish the conditional premise with the survival claim. Saved constructive witnesses establish possibility, never odds or likelihood.
 
 ## W10-P31 — THE NEXT SIX
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Next Six / closing Site: Courier dispatch and Mountain Lake Bridge return Proposal: Same crossing at later light, lamps lit earlier under cloud, damp parapet and outgoing travelers. The front remains present after the six stories; it has not reset between pages. Light: Warm lamps, blue-grey lake and cloud; avoid implying darkness solely because Niño won. Continuity: The closing can carry next-week uncertainty and residual weather, without predetermining the next result..
+Site and ordinary use: League Chamber outward-facing fixture terrace. Registered parent LOC-LEAGUE-CHAMBER; SET-W10-CHAMBER-NEXT-SIX-TERRACE is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Broad terrace facing outward routes, six concise pairings integrated with temporary traveling standards. Foreground: Six route dispatch ribbons secured beneath the colonnade. Midground: Ordinary preparations for the next round. Background: A continuous road vista and advancing weather, not six separate postcard panels.
 
-**Publication copy candidate**
+Baked-in lighting: Even sheltered lamp light and cold daylight beyond.
 
-THE NEXT SIX
+Editorial purpose: Show every Week11fixture and give each one a distinct competitive question.
+
+Continuity pass: Keep all six provider home/away fixtures. A dedicated featured-preview page does not replace this league-wide schedule.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 Week 11 • The next cross-division round
 
-Slob meets El Niño. D0nkey receives HMB. Duckhook faces The LLC. Three of the next pairings already carry the week’s biggest scoring names into fresh opposition. Elsewhere, Red visits TDS, Chins visits Mud Dogs, and Chili travels to ObiWan. These fixtures are confirmed; their entering records will follow Week 10’s final table.
+HMB visits DK in the leading Game of the Week candidate. Niño reaches Slob’s schedule while both must fill a tight-end bye. Chins visits a Mud side facing a conditional elimination game. Red and TDS meet under receiver and running-back pressure; Chili visits Obi; The LLC tests Duckhook’s changing quarterback plan.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+| away_team | home_team | display |
+
+| --- | --- | --- |
+
+| El Niño | Slob on my Dobb | El Niño at Slob on my Dobb |
+
+| Red Leopards | Three Dreaded Snake | Red Leopards at Three Dreaded Snake |
+
+| Seven Deadly Chins | Mud Dogs | Seven Deadly Chins at Mud Dogs |
+
+| The Chili Cheesers | ObiWan Jacoby | The Chili Cheesers at ObiWan Jacoby |
+
+| His Majesty's Blood | D0nkey K0ng | His Majesty's Blood at D0nkey K0ng |
+
+| The LLC | Dr. Duckhook | The LLC at Dr. Duckhook |
+
+### Continuity
+
+- Keep all six provider home/away fixtures. A dedicated featured-preview page does not replace this league-wide schedule.
+
+## W10-P35 — THE CROSSING NARROWS
+
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
+
+Site and ordinary use: Bridge at the Mountain Lake, opposing approaches. Registered parent LOC-BRIDGE-MOUNTAIN-LAKE; SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER is proposed local staging, not promoted canon.
+
+Camera: Wide oblique along the old bridge deck; DK near approach, HMB beyond the opposite pier, empty stone between them. Foreground: DK’s complete four-legged centaur form and old repaired parapet. Midground: A visible stretch of unoccupied bridge deck; no first strike. Background: HMB’s hooded arrival, lake beneath arches and advancing upper-valley cloud.
+
+Baked-in lighting: Two sheltered steady lamps reveal both figures; cold dusk and consistent wind connect cloth, cloud and lake.
+
+Editorial purpose: Promise a dangerous powerhouse meeting before the divisional finish, grounded in a verified prior defeat and current roster constraints.
+
+Continuity pass: GOTW recommendation remains a candidate. Provider home DK differs from the neutral fictional preview site; no victory, title transfer or promised final lineup.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
+
+Week 11 GOTW candidate • His Majesty’s Blood at D0nkey K0ng
+
+Two commanding Sundays lead toward the same crossing. In their verified 2025 Week 9 meeting, DK’s franchise beat HMB’s 179.68–111.42. That memory gives this visit an edge. Both would arrive at 6–4 if the current leads hold, but both must replace two current starters on NFL byes. One more test comes before the division games return.
+
+### Continuity
+
+- GOTW recommendation remains a candidate. Provider home DK differs from the neutral fictional preview site; no victory, title transfer or promised final lineup.
 
 ## W10-P32 — FROM PITTSY’S BOOK
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Pass2 candidate setting: Module: Optional Book Site: Established TDS setting Proposal: Remain omitted without new Book content. If used, inherit sheltered temple storm fringe; no reopening is invented. Light: Cool outside weather and warm shelter Continuity: The family pause remains prior-week context..
+Site and ordinary use: Temple household Book shelf, only if a new Book item is supplied. Registered parent LOC-TDS-WATERFALL-TEMPLE; SET-W10-OPTIONAL-BOOK-SHELF is proposed local staging, not promoted canon.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Camera: Quiet close interior shelf or folded notice, contextual only. Foreground: Closed Book and a baby blanket if selected from known continuity. Midground: Sheltered household alcove. Background: Warm doorway; the jackhammer is elsewhere below.
 
-**Publication copy candidate**
+Baked-in lighting: Warm domestic lamp.
 
-FROM PITTSY’S BOOK
+Editorial purpose: Retain the optional department without inventing a reopening or betting line.
+
+Continuity pass: Omitted from recommended run. Week9closure is the last confirmed state; no fresh lines, settlements or reopening notice.
+
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
 
 Week 10 betting notice
 
 No Week 10 betting notice has been confirmed for this edition. Any posted lines, house terms and settlement belong to Pittsy’s own ledger. This issue carries no new prices or payout claim.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+### Continuity
 
-## W10-P33 — CARRY IT INTO NEXT WEEK
+- Omitted from recommended run. Week9closure is the last confirmed state; no fresh lines, settlements or reopening notice.
 
-Commission ONE complete full-page cinematic illustration as a native 1080 × 1920 PNG, 9:16. Conceive action, characters, atmosphere, title, narration and any factual lettering together. Preserve continuous art and light behind the words; use the scene’s natural readable air or an earned physical surface. Do not supply an isolated art asset for a document template. Do not create a PDF, wireframe, fixed copy grid, pasted report panel or generic boxed score card. Exact text comes from publication_copy and the source bindings; image-generated lettering is checked against those sources, never treated as factual authority. Any correction must preserve the established illustrated material and composition. Current references control identity; historical artwork controls only the cited cinematic principles.
+## W10-P33 — THE WEATHER IS COMING HOME
 
-Pass2 candidate setting: Module: Next Six / closing Site: Courier dispatch and Mountain Lake Bridge return Proposal: Same crossing at later light, lamps lit earlier under cloud, damp parapet and outgoing travelers. The front remains present after the six stories; it has not reset between pages. Light: Warm lamps, blue-grey lake and cloud; avoid implying darkness solely because Niño won. Continuity: The closing can carry next-week uncertainty and residual weather, without predetermining the next result..
+Commission one complete native 1080 × 1920 cinematic PNG, 9:16. Action, environment, lighting, title, narration and exact factual lettering are conceived together. Continuous image and light remain behind the words. Use natural atmospheric space or an earned scene surface. The master is a complete illustration; do not build a PDF, document-layout export, boxed report, collage grid or separate art asset. Inspect every visible name and number against the supplied copy. Current character references and appearance overrides control identity.
 
-Build a full landscape or deep inhabited institutional view whose ordinary use supports this department. Keep fixed practical light, material age and local response to Niño’s front visible. Preserve all exact factual lettering and source selectors from the companion JSON. A public board or standard may carry selected data, while architecture, sky and atmosphere carry integrated editorial lettering. Do not turn the illustration into a flat report layout. Detailed composition and copy remain candidates for the next pass.
+Site and ordinary use: Slob Foothill Camp tailgate-yard approach. Registered parent LOC-SLOB-FOOTHILL-CAMP; SET-W11-SLOB-TAILGATE-STORM-APPROACH is proposed local staging, not promoted canon.
 
-**Publication copy candidate**
+Camera: Wide view outward from the existing tailgate shelter toward the Hearthroad and dark foothill cloud. Foreground: Secured kegs, tightened canvas and worn tailgate-yard paving. Midground: Slob watches from shelter, calm but preparing; an embodied Niño may be a small distant road figure only if selected. Background: Upper-valley front above the route; no claim that it has already grown because of a future win.
 
-CARRY IT INTO NEXT WEEK
+Baked-in lighting: Warm yard practical against cold ridgeline cloud.
 
-Final Word
+Editorial purpose: Close on a forward-moving Storm Watch hook and the practical work the next week demands.
 
-The scoreboard will remember the numbers. The Commonwealth will remember the cake, the clanging metal, the mud and a green blade beneath a hostile sky. For Red Leopards, the cold has a familiar shape. For the others, this week has found a more personal way to leave its mark. Monday still has the final words. After this round, four regular-season games remain, with the division rivals waiting near the end of the road. Carry the memory. Bring an answer.
+Continuity pass: This is a preview, not a simultaneous Week10homecoming or a scripted Week11win. Further storm expansion remains conditional.
 
-**Source:** corresponding page in `illustrated-page-briefs.json`; factual selectors unchanged.
+Use the exact publication copy and source bindings. Its rows are content, not a prescribed table-shaped image template.
+
+### Exact copy
+
+Storm Watch • El Niño at Slob
+
+Slob’s delivery passed through the swamp without trouble. Next week the schedule brings El Niño to Slob. The league’s scoring leader has a different problem to prepare for, and both teams need a tight end before that meeting. After this comes the divisional finish. The next round begins with the work done between Sundays.
+
+### Continuity
+
+- This is a preview, not a simultaneous Week10homecoming or a scripted Week11win. Further storm expansion remains conditional.

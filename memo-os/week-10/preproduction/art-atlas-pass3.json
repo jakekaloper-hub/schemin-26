@@ -1,0 +1,511 @@
+{
+  "schema": "schemin.week10.pass3-art-atlas.v1",
+  "prepared_date": "2026-11-16",
+  "source_main_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+  "reviewer": "w10_pass3_art_atlas agent",
+  "status": "PREPRODUCTION_COMPLETE_WITH_EXPLICIT_BOUNDED_GAPS",
+  "art_format": {
+    "master": "PNG",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "full_page_cinematic": true,
+    "text_art_light_conceived_together": true,
+    "pdf_usage": "archival-source-inspection-only"
+  },
+  "simulated_review_notice": "Production-domain lenses are our simulation; named professionals did not participate or endorse recommendations.",
+  "source_retrieval_review": "### The basketball court is a real earlier setting — and it is in the Central Basin\n\nWeek 7 delivered pages 8–10 show Red Leopards playing His Majesty’s Blood at **The Forgotten Court / Central Basin**. These are recovered image bytes, not a reconstruction from a text summary. P08 is “A Game Without Witnesses,” P09 “Every Inch Contested,” and P10 “The Crossover.” The repeated identifying features are the basketball backboard and hoop mounted high on the **right-hand ruined stone wall**, dense ivy, cracked hard court, broken masonry terraces, distant towers and cascades, warm sky and red vegetation. The Belt rests at the court edge; it was not transferred by Red’s basketball win.\n\nThe older archived story packet called its Atlas reference `UNRESOLVED-FORGOTTEN-NEUTRAL-COURT`. The delivered artwork supplies a later visible regional caption, **Central Basin**. That resolves what the prior publication told readers, but does not create a registered permanent Atlas location ID. Do not silently relocate the court into Red’s Storm Coast home or claim that the two sports grounds are adjacent.\n\n**Working handling:** `SET-W10-FORGOTTEN-COURT-REVISIT`, region `REG-CENTRAL-BASIN`, existing illustrated venue / Atlas registration pending. This is the old court reused, not a new invented court. Red’s soccer field and the basketball court get a clear geographic cut and an elapsed-time bridge. The existing Rain Escarpment Road and Upper Basin Connector support regional travel; the court’s last local approach is unregistered and remains a modest new connection proposal. No invented distance, travel duration or instantaneous teleportation.\n\n### The soccer field is also recovered, including its current damage\n\nWeek 6 PDF pages 6–8 (printed folios 4–6) show the **Theatre of Ruins / Red Leopard Ruins, Storm Coast**: steep stone stands, broken arches, long central field, waterfalls or cliff drops beyond, predator banners and Red–Arsenal football rivalry. The whole illustration, lettering, texture and light form a continuous cinematic page; this is a useful visual-production precedent, not a template to reproduce mechanically.\n\nWeek 9 pages 12–14 revisit that soccer territory. P12 shows Red’s raised stone viewing terrace above a rectangular green field with white pitch lines and a white goal; ruined arches and red predator banners ring the space. P13 introduces truck damage. P14 ends with **torn turf, deep ruts, a crushed goal/net and Chins’s truck trapped at the narrow stone arch**. Those conditions cannot disappear merely because Week 10 changes opponents. The truck’s recovery has not been established. Keep the bottleneck outside the principal framing or show only the known damaged approach; do not show the truck restored and conveniently driving elsewhere.\n\n**No nearby river is visibly established in the recovered field pictures.** Jake has now requested one. The proposal is a low-side local river/overflow channel beyond the pitch’s retaining edge, feeding shallow water through the existing drainage opening and truck ruts. This is new local hydrology, explicitly identified as such, consistent with the Storm Coast’s wet exposed escarpment. It is not evidence that the previous art already showed a river.\n\n### Source receipt\n\n| Reference | Actual viewed local file | Provenance and visible use |\n|---|---|---|\n| ART-W07-P08 | `/workspace/scratch/162404e483ef/w10_pass3_refs/W07_P08.jpg` | Repository archived delivered Week7 page; Forgotten Court / Central Basin; right wall hoop and ruin geometry |\n| ART-W07-P09 | `/workspace/scratch/162404e483ef/w10_pass3_refs/W07_P09.jpg` | Same court, close action and right wall confirmation |\n| ART-W07-P10 | `/workspace/scratch/162404e483ef/w10_pass3_refs/W07_P10.jpg` | Same court, crossover payoff; Red’s prior victory gives the later broken hoop emotional force |\n| ART-W06-P06 | `/workspace/scratch/162404e483ef/w10_visual_precedents/inspection/W06_P06.png` | Week6 soccer arrival; printed folio04; Storm Coast caption, arches, stands, stairs |\n| ART-W06-P07 | `/workspace/scratch/162404e483ef/w10_visual_precedents/inspection/W06_P07.png` | Week6 soccer action; printed folio05; field, stands, rain, continuous art/text |\n| ART-W06-P08 | `/workspace/scratch/162404e483ef/w10_visual_precedents/inspection/W06_P08.png` | Week6 soccer aftermath; printed folio06; cliff/cascade background and terraces |\n| ART-W09-P12 | `/workspace/scratch/162404e483ef/w10prep_review/w9_reading_12.jpg` | Existing soccer field and stone approach before truck damage |\n| ART-W09-P13 | `/workspace/scratch/162404e483ef/w10prep_review/w9_reading_13.jpg` | Truck cuts turf; Red on truck; narrow arch/goal orientation |\n| ART-W09-P14 | `/workspace/scratch/162404e483ef/w10prep_review/w9_reading_14.jpg` | Crushed goal, ruts, trapped truck; exact last published field state |\n| ART-W09-P01 / P33 | `w10prep_review/w9_reading_01.jpg`, `w9_reading_33.jpg` | Actually viewed family-arrival/Book closure pages; waterfall stone home, new baby, closed Book |\n| ART-W09-P11 | `/workspace/scratch/162404e483ef/w10prep_review/w9_reading_11.jpg` | Actually viewed swamp aftermath: bogged racing rig, deep rut, low flooded lane |\n| ART-W09-P20 | `/workspace/scratch/162404e483ef/w10prep_review/w9_reading_20.jpg` | Actually viewed Highland Colosseum; tiered stone, arches, mountain skyline, Arsenal banners |\n\nThe companion JSON contains image SHA-256 hashes, Git blob SHAs, exact URLs and status distinctions. Historical pages are environment/story references; current character canon controls anatomy, clothing and identity whenever an old rendering differs.",
+  "scenes": [
+    {
+      "matchup_id": "W10-M01",
+      "page_ids": [
+        "P05",
+        "P06",
+        "P07"
+      ],
+      "status": "LATEST_FOUNDER_DIRECTION_ACCEPTED; DETAILED_STAGING_PROPOSED",
+      "sets": [
+        {
+          "set_id": "SET-W10-DK-RODEO-GROUNDS",
+          "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+          "parent_status": "INTERPRETIVE_CANON",
+          "set_status": "PROPOSED_REUSABLE_CHILD_SET",
+          "region_id": "REG-UPPER-VALLEYS",
+          "name": "Arsenal Rodeo Grounds",
+          "formal_atlas_promotion": false
+        }
+      ],
+      "source_ids": [
+        "ART-W09-P20",
+        "LATEST_FOUNDER_DIRECTION",
+        "ATLAS-LOCATIONS",
+        "ATLAS-WEATHER"
+      ],
+      "page_beats": [
+        {
+          "page_id": "P05",
+          "working_title": "The crowd has come for the Outlaw",
+          "treatment": "From a low position just inside the rail, a wide diagonal reveals Chili already running around the ring while DK gains behind him, swinging his own rope overhead. Show all four centaur legs and the single gorilla/equine body clearly. Crowd height and the visible exit gate establish public exposure. Dark Horse is separate, secured at the holding rail outside the active ring if included. The axe is stowed; it does not suddenly cut or block the lasso. Afternoon overcast gives cool fill, sheltered lanterns warm the crowded galleries, and wet hoof tracks define the pursuit line."
+        },
+        {
+          "page_id": "P06",
+          "working_title": "The ring runs out",
+          "treatment": "Track across the inside of Chili’s attempted turn. DK throws from the established direction, and the catch plus abrupt loss of footing becomes the decisive moment. The rope has a visible continuous route from DK’s hand to Chili, with readable slack/tension; one throw does not magically tie a completed hogtie. Chili’s boot slides through the same churned lane. His decorated hat and sunglasses remain identifiable; the hat may tilt, not disappear. Witness reactions are secondary but legible through the rail. Rain and mud never obscure which character owns the rope."
+        },
+        {
+          "page_id": "P07",
+          "working_title": "No private exit",
+          "treatment": "A low, wider public aftermath shows Chili hogtied in mud at the ring’s center. DK has stopped, braced all four legs and deliberately finished the binding; hand placement and the already caught rope explain the transition. This is humiliating slapstick, not injury spectacle. Chili’s face is readable and clear of the mud. The visible crowd laughs, points and reacts from safe rails. No main cast is teleported in as spectators. A dropped hat at arm’s reach, readable outlaw belt and the expansive empty space between Chili and the gate make the humiliation personal. The shot retains enough of the stands to prove it happened in front of everyone."
+        }
+      ],
+      "full_treatment": "**W10-M01, P05–07: Chili Cheesers vs D0nkey K0ng.** Latest direction replaces the neutral Compact arena and the earlier Chili-first rope reversal. DK is the pursuer and controls the lasso throughout. Chili is the outlaw being hogtied; the stray Red Leopards mention is treated as a dictation slip. Fantasy-provider home/away labels remain separate from this authorized fictional home venue.\n\n**Set:** `SET-W10-DK-RODEO-GROUNDS`, proposed reusable subsite under `LOC-DK-HIGHLAND-STRONGHOLD`, Upper Valleys and Foothills. Working name: **Arsenal Rodeo Grounds**. The Highland Stronghold is interpretive canon, and this subsite is a current proposal. The Week9 Highland Colosseum supplies regional architecture and public-arena precedent; do not claim this is the identical building.\n\nAn oval working stock/training ground sits below the stronghold’s established road approach. Old tiered stone backs the uphill side; scarred timber rails, replaceable gates and a sheltered announcer/lantern gallery surround the action. A service lane and holding pens explain everyday use beyond this week’s event. Scuffed posts, replacement rails of slightly different age, polished gate latches and worn steps suggest years of maintenance. Exact founding dates, invented championships and commemorative plaques are unnecessary.\n\nThe ground has a shallow slope and ordinary perimeter drains. Niño’s wider front supplies cold gusts and accumulated rain here, weaker than the exposed Storm Coast. Hooves churn the damp packed earth into heavy mud within the ring. This is **upland surface mud**, not Central Basin floodwater or coastal surge. The crowd stays above the ring’s low point and behind rails.\n\n**P05 — The crowd has come for the Outlaw.** From a low position just inside the rail, a wide diagonal reveals Chili already running around the ring while DK gains behind him, swinging his own rope overhead. Show all four centaur legs and the single gorilla/equine body clearly. Crowd height and the visible exit gate establish public exposure. Dark Horse is separate, secured at the holding rail outside the active ring if included. The axe is stowed; it does not suddenly cut or block the lasso. Afternoon overcast gives cool fill, sheltered lanterns warm the crowded galleries, and wet hoof tracks define the pursuit line.\n\n**P06 — The ring runs out.** Track across the inside of Chili’s attempted turn. DK throws from the established direction, and the catch plus abrupt loss of footing becomes the decisive moment. The rope has a visible continuous route from DK’s hand to Chili, with readable slack/tension; one throw does not magically tie a completed hogtie. Chili’s boot slides through the same churned lane. His decorated hat and sunglasses remain identifiable; the hat may tilt, not disappear. Witness reactions are secondary but legible through the rail. Rain and mud never obscure which character owns the rope.\n\n**P07 — No private exit.** A low, wider public aftermath shows Chili hogtied in mud at the ring’s center. DK has stopped, braced all four legs and deliberately finished the binding; hand placement and the already caught rope explain the transition. This is humiliating slapstick, not injury spectacle. Chili’s face is readable and clear of the mud. The visible crowd laughs, points and reacts from safe rails. No main cast is teleported in as spectators. A dropped hat at arm’s reach, readable outlaw belt and the expansive empty space between Chili and the gate make the humiliation personal. The shot retains enough of the stands to prove it happened in front of everyone.\n\n**Callback:** Week9 Chili hosted a cookout and controlled a laughing audience; now the audience and occasion belong to his opponent. His prior belt possession may remain visually accurate without implying any title transfer. Do not print a belt-change claim from a fictional rodeo result. DK’s Week9 public Highland victory supplies the crowd’s expectation, not a recycled printed score.\n\n**Persistent state:** wet rope, linked chase tracks, disturbed central mud, displaced hat and crowd positions progress across all three pages. The next issue may retain damaged rails/muddy footing only if selected and recorded.",
+      "supersedes": [
+        "Compact neutral hosting",
+        "Central Basin ring mud",
+        "Chili throws first",
+        "DK axe block",
+        "rope magically ties itself"
+      ],
+      "continuity_guards": [
+        "Preserve provider home/away separately",
+        "DK one body with four equine legs",
+        "Chili is tied character, not Red",
+        "No fantasy main-cast crowd teleportation",
+        "Rope catch precedes deliberate stopped binding",
+        "No title transfer inferred"
+      ]
+    },
+    {
+      "matchup_id": "W10-M02",
+      "page_ids": [
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "status": "LATEST_FOUNDER_DIRECTION_ACCEPTED; DETAILED_STAGING_PROPOSED",
+      "sets": [
+        {
+          "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
+          "parent_location_id": "LOC-RED-RUINS",
+          "parent_status": "PERMANENT_CANON",
+          "set_status": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION",
+          "region_id": "REG-EASTERN-STORM-COAST",
+          "formal_atlas_promotion": false
+        },
+        {
+          "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+          "parent_location_id": null,
+          "parent_status": "NO_REGISTERED_LOCATION_ID_FOUND",
+          "set_status": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+          "region_id": "REG-CENTRAL-BASIN",
+          "region_basis": "Explicit Week7 P08–10 caption",
+          "formal_atlas_promotion": false
+        }
+      ],
+      "source_ids": [
+        "ART-W07-P08",
+        "ART-W07-P09",
+        "ART-W07-P10",
+        "ART-W06-P06",
+        "ART-W06-P07",
+        "ART-W06-P08",
+        "ART-W09-P12",
+        "ART-W09-P13",
+        "ART-W09-P14",
+        "ATLAS-ROUTES",
+        "LATEST_FOUNDER_DIRECTION",
+        "HISTORY-2022-W16"
+      ],
+      "page_beats": [
+        {
+          "page_id": "P08",
+          "working_title": "One more bag",
+          "treatment": "Return to the exact Week9 soccer terrace: same arch, field geometry, damaged goal/net and tracks. Red braces a heavy sandbag at a low opening as a shallow river overflow creeps along the torn turf. The first few bags help locally, but water finds the adjacent old rut. Winds pull the predator banners nearly horizontal and shake the goal’s damaged net. A cold pewter sky and dim amber arch lamps replace the earlier bright green confidence. Fallen leaves lodge against the bags; this is November’s exhausted color, not a tropical deluge. The nearby river/overflow connection is a Jake-authorized new geography proposal, not an old image fact. Keep the field flood gentle, with pitch lines still partly visible. No tsunami, building collapse or knee-deep universal flood."
+        },
+        {
+          "page_id": "P09",
+          "working_title": "The place that answered once",
+          "treatment": "Preserve the right-hand wall-mounted hoop, cracked surface and broken ruin skyline from W7P08–10. Red arrives from the near-left court edge; a snapped branch from the established vegetation margin sweeps toward the right wall. Camera placement echoes the old basketball duel so readers recognize the place before a caption explains it. A distant figure of embodied Niño may occupy the far court in the wind; he remains a humanoid elemental, not a face drawn into a cloud. Wet leaves sweep low along the stone. The strongest gust here can be a local squall funneled by the broken walls even though the basin is farther from the coastal core. Do not introduce a new freestanding basketball pole: the original goal is wall mounted."
+        },
+        {
+          "page_id": "P10",
+          "working_title": "The rim gives way",
+          "treatment": "The branch has caught the backboard/hoop assembly and bent the rim downward against the same right wall. Red kneels or sits at the near court edge, hands slack and face disbelieving; avoid a second fighting pose. Niño is clearly embodied beyond him, laughing through moving rain and cold light. The ruined support, basketball court lines and old wall remain recognizable. The sports fact behind the taunt is the **2022 Week16 semifinal: Niño 116.32, Red 97.96**, after Red’s 13–1 regular season; Niño subsequently won the championship. A newly written line such as “You remember how that run ended” is fictional dialogue, never an archival quote. A small “2022” reference should be earned by narration or an intentional prop; do not invent an old commemorative plaque."
+        }
+      ],
+      "full_treatment": "**W10-M02, P08–10: Red Leopards vs El Niño.** This sequence now has two previously published places and a necessary regional transition. Its emotional progression is practical resistance → personal memory threatened → stunned recognition. Red does something useful before becoming overwhelmed.\n\n**P08 — One more bag.** Return to the exact Week9 soccer terrace: same arch, field geometry, damaged goal/net and tracks. Red braces a heavy sandbag at a low opening as a shallow river overflow creeps along the torn turf. The first few bags help locally, but water finds the adjacent old rut. Winds pull the predator banners nearly horizontal and shake the goal’s damaged net. A cold pewter sky and dim amber arch lamps replace the earlier bright green confidence. Fallen leaves lodge against the bags; this is November’s exhausted color, not a tropical deluge. The nearby river/overflow connection is a Jake-authorized new geography proposal, not an old image fact. Keep the field flood gentle, with pitch lines still partly visible. No tsunami, building collapse or knee-deep universal flood.\n\n**Transition:** after Red has made the immediate field effort, the next illustration names **The Forgotten Court — Central Basin** and marks elapsed time. It returns to the place of his Week7 crossover over HMB. A broad regional storm can continue across the route while Red moves; the sequence does not claim simultaneous presence in both locations. Rain Escarpment Road → Bridge/Mountain Lake → Upper Basin Connector is the supported regional spine. The final court spur and exact journey timing remain unspecified proposed connective tissue.\n\n**P09 — The place that answered once.** Preserve the right-hand wall-mounted hoop, cracked surface and broken ruin skyline from W7P08–10. Red arrives from the near-left court edge; a snapped branch from the established vegetation margin sweeps toward the right wall. Camera placement echoes the old basketball duel so readers recognize the place before a caption explains it. A distant figure of embodied Niño may occupy the far court in the wind; he remains a humanoid elemental, not a face drawn into a cloud. Wet leaves sweep low along the stone. The strongest gust here can be a local squall funneled by the broken walls even though the basin is farther from the coastal core. Do not introduce a new freestanding basketball pole: the original goal is wall mounted.\n\n**P10 — The rim gives way.** The branch has caught the backboard/hoop assembly and bent the rim downward against the same right wall. Red kneels or sits at the near court edge, hands slack and face disbelieving; avoid a second fighting pose. Niño is clearly embodied beyond him, laughing through moving rain and cold light. The ruined support, basketball court lines and old wall remain recognizable. The sports fact behind the taunt is the **2022 Week16 semifinal: Niño 116.32, Red 97.96**, after Red’s 13–1 regular season; Niño subsequently won the championship. A newly written line such as “You remember how that run ended” is fictional dialogue, never an archival quote. A small “2022” reference should be earned by narration or an intentional prop; do not invent an old commemorative plaque.\n\n**Continuity consequence:** Red’s despair is a character feeling. It does not certify elimination. Injury and playoff copy must use the league/sports desk’s verified facts. Both old sites keep their published regions. New storm damage is proposed issue state, not permanent destruction of the whole Red domain. The earlier wish to avoid repetitive flood scenes is reconciled by restricting shallow overflow to the one field, wind/branch damage to the court, and different regional effects elsewhere.",
+      "supersedes": [
+        "Generic terrace-only ending",
+        "All-dry Red sequence",
+        "Invented adjacent home basketball court",
+        "New freestanding hoop pole",
+        "River asserted as already visible in prior image"
+      ],
+      "continuity_guards": [
+        "Hoop stays right wall mounted before branch hit",
+        "Keep soccer goal damage and ruts",
+        "Truck recovery unresolved",
+        "Separate regions with elapsed-time/location bridge",
+        "Shallow field overflow only",
+        "Niño remains embodied",
+        "Despair not playoff elimination",
+        "2022 dialogue is newly authored fictional dialogue, not archive quote"
+      ]
+    },
+    {
+      "matchup_id": "W10-M03",
+      "page_ids": [
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "status": "LATEST_FOUNDER_DIRECTION_ACCEPTED; DETAILED_STAGING_PROPOSED",
+      "sets": [
+        {
+          "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+          "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+          "parent_status": "PERMANENT_CANON",
+          "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+          "region_id": "REG-SOUTHERN-WETLANDS",
+          "formal_atlas_promotion": false
+        }
+      ],
+      "source_ids": [
+        "ART-W09-P01",
+        "ART-W09-P33",
+        "ATLAS-LOCATIONS",
+        "LATEST_FOUNDER_DIRECTION"
+      ],
+      "page_beats": [
+        {
+          "page_id": "P12",
+          "working_title": "Just as the house settles",
+          "treatment": "A wide upward diagonal links the jackhammer’s point at ground level, Chins’s grin, the upper balcony and the family doorway. The first sharply broken concrete reveals deliberate racket, not thunder. TDS emerges above, exactly three heads on one torso: one turns toward the interior, one spots Chins and one begins shouting. The partner’s irritated voice or a soft silhouette behind the door, plus an offscreen baby’s cry, establishes household pressure without inventing an extra lead. Cool southern overcast reflects from waterfall spray; a steady warm interior lamp marks the protected room."
+        },
+        {
+          "page_id": "P13",
+          "working_title": "He heard the request",
+          "treatment": "Reverse to a balcony-over-shoulder view: TDS leans forward at the rail, visibly asking for quiet, while below Chins makes eye contact, laughs and reaches to turn up the music before resuming the hammer. The key is acknowledgement followed by indifference. TDS’s heads divide between the crying baby, the furious partner and the offending visitor. One broken paving patch and a short wet dust trail stay in the same positions. Chins is never moved onto the balcony to create a confrontation."
+        },
+        {
+          "page_id": "P14",
+          "working_title": "Another square of concrete",
+          "treatment": "From courtyard level, Chins drives the hammer into a fresh edge of the same expanding patch, grinning toward the balcony while the speaker remains visible. TDS’s whole body is tense; all three heads now direct their frustration outward, yet the family doorway still pulls one eyeline back. This is comic escalation through attention and sound, not physical attack. No thunderclap competes with the deliberate noise at the payoff. The waterfall remains normal background ambience; the baby was settling despite it before Chins began."
+        }
+      ],
+      "full_treatment": "**W10-M03, P12–14: Three Dreaded Snake vs Seven Deadly Chins.** Chins is the disruptive visitor. TDS is the father on the balcony. “Miss Seven Deadly Sins” is interpreted as TDS’s partner, consistent with the newborn setup. No new named spouse, independent POV or invented character design is needed.\n\n**Set:** `SET-W10-TDS-TEMPLE-COURTYARD`, a proposed household courtyard/upper-balcony subsite inside permanent `LOC-TDS-WATERFALL-TEMPLE`. Preserve waterfall, ancient stone, dense vegetation and the warm sheltered domestic threshold from established art. The courtyard’s concrete repair surface is a later practical layer over older stone, so the jackhammer has an actual material to break. A balcony with a protected family doorway overlooks it. One chipped stair, lime-stained drain, patched paving boundary and a hand-polished rail make the house feel used long before the baby arrived.\n\nA pneumatic jackhammer, hose, compact compressor and portable music speaker are **scene-specific modern props authorized by the latest direction**. Do not replace the requested jackhammer with a medieval hammer. Keep the compressor and speaker on a raised dry work shelf; the hose crosses only the courtyard below, not the family passage. This does not promote modern power infrastructure throughout the Commonwealth. Chins’s trapped truck is unnecessary: tools can be delivered on an unnamed handcart; no claim that the truck has been recovered.\n\n**P12 — Just as the house settles.** A wide upward diagonal links the jackhammer’s point at ground level, Chins’s grin, the upper balcony and the family doorway. The first sharply broken concrete reveals deliberate racket, not thunder. TDS emerges above, exactly three heads on one torso: one turns toward the interior, one spots Chins and one begins shouting. The partner’s irritated voice or a soft silhouette behind the door, plus an offscreen baby’s cry, establishes household pressure without inventing an extra lead. Cool southern overcast reflects from waterfall spray; a steady warm interior lamp marks the protected room.\n\n**P13 — He heard the request.** Reverse to a balcony-over-shoulder view: TDS leans forward at the rail, visibly asking for quiet, while below Chins makes eye contact, laughs and reaches to turn up the music before resuming the hammer. The key is acknowledgement followed by indifference. TDS’s heads divide between the crying baby, the furious partner and the offending visitor. One broken paving patch and a short wet dust trail stay in the same positions. Chins is never moved onto the balcony to create a confrontation.\n\n**P14 — Another square of concrete.** From courtyard level, Chins drives the hammer into a fresh edge of the same expanding patch, grinning toward the balcony while the speaker remains visible. TDS’s whole body is tense; all three heads now direct their frustration outward, yet the family doorway still pulls one eyeline back. This is comic escalation through attention and sound, not physical attack. No thunderclap competes with the deliberate noise at the payoff. The waterfall remains normal background ambience; the baby was settling despite it before Chins began.\n\n**Weather:** outer-band gusts move vegetation, blow occasional spray over the exposed court and darken drain channels. The southern home does not acquire the coastal apocalypse or a newly catastrophic waterfall. The balcony and nursery stay sheltered. Day-to-day domestic inconvenience is the local expression of the same weather.\n\n**Callback:** the actual Week9 cover welcomed the new baby and Pittsy’s Book closed for family time. The scene now violates that fragile family quiet. A single folded closure notice or baby blanket glimpsed inside can carry the callback; don’t populate the courtyard with extra unrelated lore. No evidence presently authorizes a claim that the Book has reopened.",
+      "supersedes": [
+        "Barrel/lid/horn performance",
+        "TDS on ground threshold",
+        "Chins unrelated spouse",
+        "Restored Chins truck arriving"
+      ],
+      "continuity_guards": [
+        "TDS exactly three heads one body",
+        "Chins on courtyard below",
+        "Family contextual/offscreen; no invented spouse identity",
+        "Actual requested jackhammer and music",
+        "Compressor/hose/speaker coherent",
+        "Concrete patch grows consistently",
+        "No thunder competing at comic payoff",
+        "No assumed Book reopening"
+      ]
+    },
+    {
+      "matchup_id": "W10-M04",
+      "page_ids": [
+        "P15",
+        "P16",
+        "P17"
+      ],
+      "status": "LATEST_FOUNDER_DIRECTION_ACCEPTED; DETAILED_STAGING_PROPOSED",
+      "sets": [
+        {
+          "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+          "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+          "parent_status": "PERMANENT_CANON",
+          "set_status": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+          "region_id": "REG-SOUTHERN-WETLANDS",
+          "formal_atlas_promotion": false
+        }
+      ],
+      "source_ids": [
+        "ART-W09-P11",
+        "ATLAS-LOCATIONS",
+        "ATLAS-ROUTES",
+        "LATEST_FOUNDER_DIRECTION"
+      ],
+      "page_beats": [
+        {
+          "page_id": "P15",
+          "working_title": "The swamp declares a blockade",
+          "treatment": "Low from Mud’s side of the channel, the hound plants all four paws at a weathered entrance marker and barks toward the approaching flatbed. The camera keeps his low position and the higher service strip in one image so the failed threat is spatially obvious. Cargo dwarfs the attempted obstacle. A loose Cancun travel card can be a conditional background joke, but no official elimination stamp or abandoned-land decree appears."
+        },
+        {
+          "page_id": "P16",
+          "working_title": "Same speed",
+          "treatment": "A near side-on passing view puts Mud in the foreground on the lower muddy shoulder and Slob above at the cab window, barely giving the hound a glance. The wheels stay on firm raised ground; no wheel or keg contacts Mud. The engine pace, closed cargo and unaffected posture show zero intimidation. Mud’s attempt is a bark/lunge stopped at the edge of his own footing, not a collision. No fight, flying keg, dragged animal or dangerous vehicle attack."
+        },
+        {
+          "page_id": "P17",
+          "working_title": "Delivery continues",
+          "treatment": "The loaded truck moves away at an ordinary pace along the raised strip. Mud remains small beneath the old territory sign, with empty low stands and the submerged racing ruts behind him. Deep foreground mud and receding tire tracks give the composition scale. Slob never celebrates a conquest or takes over the swamp; he simply finishes his route. The storm raises side channels and peels a small notice, while the route remains demonstrably usable."
+        }
+      ],
+      "full_treatment": "**W10-M04, P15–17: Mud Dogs vs Slob on my Dobb.** The beer shipment and indifference replace every attack, shield, charge and wrestling beat. Mud tries to enforce territorial authority; Slob treats the trip as ordinary work. A non-event for the winner is the joke.\n\n**Set:** `SET-W10-MUD-SWAMP-DELIVERY-PASS`, proposed working approach under permanent `LOC-MUD-DOGS-SWAMP`, Southern Wetlands. Use the established mud channels and raised ground. The last published low racing lane remains rutted and waterlogged; the Week9 rig’s recovery is unresolved. A raised, old stone/gravel service strip follows the Delta Causeway’s local margin and carries the load beside the soft racing channel. It is not a newly invented paved highway or an unsupported wide bridge over deep water.\n\n**Vehicle choice:** a battered high-clearance flatbed, visually distinct from Chins’s lifted truck, loaded with strapped beer kegs and crates under a partly rolled canvas cover. Slob is visibly driving in his existing overalls/backward cap, relaxed enough to keep one arm on the open window frame. Cargo straps, wheel clearance and firm raised footing explain why the load travels easily. The delivery truck is a narrow modernity proposal supported by Jake’s shipment idea and existing truck/bike precedents; it does not change all Atlas travel modes. A wagon is an alternative only if Jake prefers it later, not the active design now.\n\n**P15 — The swamp declares a blockade.** Low from Mud’s side of the channel, the hound plants all four paws at a weathered entrance marker and barks toward the approaching flatbed. The camera keeps his low position and the higher service strip in one image so the failed threat is spatially obvious. Cargo dwarfs the attempted obstacle. A loose Cancun travel card can be a conditional background joke, but no official elimination stamp or abandoned-land decree appears.\n\n**P16 — Same speed.** A near side-on passing view puts Mud in the foreground on the lower muddy shoulder and Slob above at the cab window, barely giving the hound a glance. The wheels stay on firm raised ground; no wheel or keg contacts Mud. The engine pace, closed cargo and unaffected posture show zero intimidation. Mud’s attempt is a bark/lunge stopped at the edge of his own footing, not a collision. No fight, flying keg, dragged animal or dangerous vehicle attack.\n\n**P17 — Delivery continues.** The loaded truck moves away at an ordinary pace along the raised strip. Mud remains small beneath the old territory sign, with empty low stands and the submerged racing ruts behind him. Deep foreground mud and receding tire tracks give the composition scale. Slob never celebrates a conquest or takes over the swamp; he simply finishes his route. The storm raises side channels and peels a small notice, while the route remains demonstrably usable.\n\n**Elimination branch:** if the league audit confirms mathematical elimination, a packed vacation bag, Cancun tag and a scheduled seasonal closure notice can sharpen the joke. If elimination is not confirmed, use “Cancun is calling” as a taunt and exhaustion/empty local stands as mood. Do not declare Mud eliminated, universally abandoned, conquered, or permanently off the map. The scene can proceed now with the factual label held separately.\n\n**Callback:** the precise contrast is last week’s failed low mud-racing lane versus a delivery truck using firm, ordinary raised ground. Preserve the old rut and failed route as environmental memory. Do not repurpose Niño’s win, or make the weather itself the victor in Slob’s matchup.",
+      "supersedes": [
+        "Hound attack duel",
+        "Slob keg shield",
+        "Slob bodily wrestles Mud",
+        "Universal flooded road",
+        "Premature certified elimination",
+        "Permanent abandoned territory"
+      ],
+      "continuity_guards": [
+        "High-clearance flatbed active vehicle proposal",
+        "Kegs/crates securely strapped",
+        "Raised strip supports heavy load",
+        "Existing failed low racing lane remains",
+        "Slob unaffected at routine pace",
+        "No truck or cargo contact with hound",
+        "Cancun is conditional joke until audited",
+        "No permanent conquest or title transfer"
+      ]
+    }
+  ],
+  "production_board": "These are our simulated reviews using the project’s registered domain assignments, not statements that the named professionals participated or endorsed these recommendations.\n\n| Registered lens | Applied Pass3 decision |\n|---|---|\n| Doug Chiang — production design | New rodeo needs gates, pens, rail, service circulation and uphill spectators; temple needs a coherent ground court/upper balcony footprint. |\n| Dylan Cole — environment | Keep Forgotten Court in Central Basin, soccer in Storm Coast, rodeo in Upper Valleys and swamp/temple in Southern Wetlands. Mud, flood, wind and spray differ by site. |\n| Joe Letteri — character VFX | DK remains one four-legged centaur; Mud a four-legged hound; TDS three heads/one torso; Niño embodied. Weather never obscures identity or repairs obsolete old render anatomy. |\n| Ngila Dickson — costume | Preserve Chili’s corrected outlaw look beneath dirt; Slob’s workwear suits delivery; Chins’s cap/glasses/working clothes persist. Mud is layered weather state, not a replacement costume. |\n| Andy Serkis — performance | Chili confidence becomes exposure; Red effort becomes helplessness; TDS bargaining becomes frustration; Slob’s unchanged composure humiliates Mud. |\n| Rob Alonzo — action | Chase/catch/stopped deliberate tie are separate phases. Jackhammer contact and hose are continuous. Flatbed follows firm ground without hound contact. Falling limb catches existing wall-mounted hoop. |\n| James Baxter — silhouettes | Give DK’s four legs negative space, keep TDS heads separately readable, leave Chili’s face visible, separate Red’s dropped hands from the broken branch. |\n| Frank Masi — decisive image | One complete dramatic moment per full-page PNG; enough environment remains to prove location and witnesses. No multi-box template substitutes for the scene. |\n| John Knoll — continuity | Maintain rope ownership, gate orientation, branch trajectory, hoop side, growing concrete hole, fixed speaker/compressor, cargo straps, old field damage and storm state. |\n| Jill Bogdanowicz — color | Red gets cold, desaturated loss; rodeo gets warm crowd galleries against cold ring; temple gets warm private doorway/cool racket below; swamp gets muted greens and practical truck lamps. |\n| Thelma Schoonmaker — editing | Explicitly bridge soccer field to Central Basin court; vary chase, social humiliation, noise and indifferent passage; don’t make all victories combat. |\n| Randy Thom — sound/motion | Rope hiss/hoof mud, grinding jackhammer/music and an unchanging delivery engine have different implied rhythms. Thunder does not steal Chins’s causal joke. |",
+  "whole_issue_propagation": "- Opening Drive should connect the widening front to the four different consequences without reporting unverified elimination or adding private dialogue as public fact.\n- The Commissioner can describe competitive narrowing and the public rodeo humiliation; Red’s private despair and the household’s exact words remain scene narration, not official evidence.\n- The Atlas/weather transition must show the Central Basin court and Storm Coast field as separate places and distinguish upstream rain from later southern runoff.\n- Sports Desk must give real injury/roster context beneath Red’s fear; fictional broken sporting places never prove that a roster is out of contention.\n- Standings, power rankings, scoreboard and Week11 preview retain exact source-bound data. A Cancun prop is not a playoff calculation. W11 game-of-week selection belongs to verified schedule/stakes work.\n- Retire the Compact-location language for W10-M01, Chili-first lasso/axe reversal, TDS barrel/horn/percussion props, Red generic terrace-only ending, and Mud attack/keg-shield language from every active prompt, alternate ending, scene card and copy field.\n- Keep the other two accepted scenes: indoor Jackson 200 Burger/birthday cake humiliation and Obi–LLC’s action-heavy Ridge Gate story. Their Pass2 staging is not overwritten by this four-scene revision.",
+  "remaining_gaps": "1. Forgotten Court has a delivered Central Basin caption and actual images, but no permanent location ID or exact local route spur. Preserve its published region and propose the connection; no need to halt brainstorming.\n2. The river beside Red’s field and the exact sandbag/drain geometry are new user-directed local geography, not retrieved old art. Select the low-side connection before rendering.\n3. Chins’s truck and Mud’s prior racing rig have unresolved recovery states. Avoid the machinery or show its known old location; do not restore it by implication.\n4. Family partner has no reviewed visual identity here. Use contextual/offscreen presence for this treatment; do not invent a separate principal.\n5. Current playoff elimination, final scores and season-ending injury assertions belong to source verification. This review does not certify them.",
+  "week11_preview": {
+    "status": "PROPOSED_WITH_LEAGUE_AUDIT_HANDOFF",
+    "game_of_week": "His Majesty’s Blood at D0nkey K0ng",
+    "provider_home": "D0nkey K0ng",
+    "fictional_venue_mode": "NEUTRAL_PREVIEW_STAGE",
+    "set_id": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+    "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+    "parent_status": "PROVISIONAL_CANON",
+    "child_set_status": "PROPOSED",
+    "region_id": "REG-UPPER-VALLEYS",
+    "dk_routes": [
+      "ROUTE-DK-HIGHLAND-LINK",
+      "ROUTE-HEARTHROAD"
+    ],
+    "hmb_routes": [
+      "ROUTE-BLACK-CLIFF",
+      "ROUTE-EASTERN-ASCENT"
+    ],
+    "historical_hook": {
+      "season": 2025,
+      "week": 9,
+      "winner_lineage": "DK franchise alias",
+      "points": [
+        179.68,
+        111.42
+      ],
+      "verification_owner": "w10_pass3_league_audit; supplied handoff, not independently reread by art reviewer"
+    },
+    "storm_watch": {
+      "matchup": "El Niño at Slob",
+      "set_id": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "parent_status": "PROVISIONAL_CANON",
+      "child_status": "PROPOSED",
+      "region_id": "REG-UPPER-VALLEYS",
+      "route_id": "ROUTE-HEARTHROAD",
+      "future_storm_growth": "CONDITIONAL_ON_FUTURE_RESULTS"
+    },
+    "full_treatment": "**Provisional Game of the Week recommendation: His Majesty’s Blood at D0nkey K0ng**, from the league-audit handoff. Provider home DK is preserved; a neutral fictional preview stage follows the existing GOTW venue convention. History handoff: DK’s franchise alias beat HMB **179.68–111.42 in 2025 Week9**. The league auditor owns that source verification; this visual review uses it as a supplied fact, not a newly inspected historical box score.\n\n**Proposed child set:** `SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER` under **`LOC-BRIDGE-MOUNTAIN-LAKE`**, the existing, ownerless **PROVISIONAL_CANON** Bridge at the Mountain Lake, Upper Valleys. Registered landmarks are stone bridge, lake and jump point. This remains a new approach/staging proposal inside the existing location; no new citadel or permanent battlefield is introduced. It serves a wholly different purpose from the rodeo: a narrow public crossing where two powerful arrivals must eventually meet.\n\n**Geographic support:** DK reaches the site by Highland Stronghold Road to Arsenal Barbershop, then Hearthroad to the lake. HMB can approach by Black Cliff Road through the Trade Jedi mountain base and Eastern Ascent. These route links are registered; their exact arrival clock and local side of the bridge are staging proposals. The site is not called DK’s home simply because ESPN lists him home.\n\n**One full-page preview image:** a wide oblique view along the old stone bridge, lake low beneath the arches, two enormous but physically grounded arrivals separated by a visible stretch of empty deck. DK holds the nearer approach, all four legs readable; HMB emerges beyond the opposite stone pier. Their stillness should feel dangerous because each already controls a whole end of the crossing. No opening blow, winner pose, transferred Belt or invented final score. Road-worn steps, repaired parapet stones and weather-pitted old lantern brackets imply long use. Two steady sheltered lamps give the fronts of both figures legibility; cold dusk and advancing cloud fill the lake behind them. A gust pulls both factions’ cloth in the same established direction. Keep the jump point background-small; this is no repeat of a leap or rodeo chase.\n\n**Integrated copy candidate:** “THE CROSSING NARROWS” / “Two heavyweights. One more test before the divisional finish.” The verified 2025 result can appear as a concise historical narration line, explicitly dated, if editorially useful. Current records, injuries and stakes arrive from the source-bound Week11 preview data. The page promises a confrontation; it does not predict one team’s victory. Frame the storm as pressure reaching the upper routes, not an outcome forecast.\n\n### Storm Watch co-headline: El Niño at Slob\n\nUse proposed **`SET-W11-SLOB-TAILGATE-STORM-APPROACH`** under registered **`LOC-SLOB-FOOTHILL-CAMP`** (PROVISIONAL_CANON, Upper Valleys; persistent tailgate yard and rough training ground; Hearthroad access). A smaller landscape beat looks outward from the used tailgate yard across stacked secured kegs toward the exposed road. Slob has shifted the shipment under the old shelter and tightened the canvas; he watches a dark front arrive over the foothill ridges. This continues the beer-delivery material vocabulary without asserting the Week10 truck’s exact destination. An embodied Niño may be a small arriving figure on the road only if the preview needs both principals; the cloud front must never replace his body. Warm yard light, cold ridge cloud, fluttering straps and a functioning drain communicate preparation rather than panic. **Storm growth next week stays conditional on future results**, and the preview supplies no fictional flood or win in advance."
+  },
+  "sources": [
+    {
+      "id": "ART-W07-P08",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10_pass3_refs/W07_P08.jpg",
+      "sha256": "5a358788aaef95565e25daa217e5cd80489d3a986f69a5d0d7f767738a1e178e",
+      "page_index_1_based": 8,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "git_blob_sha": "c975fb460a7562cd97f2eeaf36606b447061172f",
+      "repository_path": "archive/local-recovery/2026-11-08/week8-review/week7-pages/page-08.jpg",
+      "source_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/archive/local-recovery/2026-11-08/week8-review/week7-pages/page-08.jpg"
+    },
+    {
+      "id": "ART-W07-P09",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10_pass3_refs/W07_P09.jpg",
+      "sha256": "8379c26634cabd73dffdd5fe9593d763cf8694ab4dbb950d5255d270cb937c87",
+      "page_index_1_based": 9,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "git_blob_sha": "8c2e18165a0482c3cbaad30e9c3abf383e8b9502",
+      "repository_path": "archive/local-recovery/2026-11-08/week8-review/week7-pages/page-09.jpg",
+      "source_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/archive/local-recovery/2026-11-08/week8-review/week7-pages/page-09.jpg"
+    },
+    {
+      "id": "ART-W07-P10",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10_pass3_refs/W07_P10.jpg",
+      "sha256": "dc1f5b588f1c53f7d408abe4bd4f34771656c2adc881fcd8fc6bf891e0ec2212",
+      "page_index_1_based": 10,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "git_blob_sha": "1154f24f083d5875a91f76a5d9460faf1f2a91fa",
+      "repository_path": "archive/local-recovery/2026-11-08/week8-review/week7-pages/page-10.jpg",
+      "source_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/archive/local-recovery/2026-11-08/week8-review/week7-pages/page-10.jpg"
+    },
+    {
+      "id": "ART-W06-P06",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10_visual_precedents/inspection/W06_P06.png",
+      "sha256": "eb83657d3bb150741d3141bd13f31428ed00e088fed969a02afad4844ec2ce1e",
+      "page_index_1_based": 6,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_e1fc76418bd48191a9f3a02ab54acb90",
+      "url": "https://chatgpt.com/library?file_id=libfile_e1fc76418bd48191a9f3a02ab54acb90&account_id=personal"
+    },
+    {
+      "id": "ART-W06-P07",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10_visual_precedents/inspection/W06_P07.png",
+      "sha256": "ea4d8f53f84fb2477c2d98305973133862eaf54454673f46dda15f31a7ab5a07",
+      "page_index_1_based": 7,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_e1fc76418bd48191a9f3a02ab54acb90",
+      "url": "https://chatgpt.com/library?file_id=libfile_e1fc76418bd48191a9f3a02ab54acb90&account_id=personal"
+    },
+    {
+      "id": "ART-W06-P08",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10_visual_precedents/inspection/W06_P08.png",
+      "sha256": "717cfcebb7b2b940c4826f1c61b7a10bf955a240fcb90b3710d8aaac3c79a35a",
+      "page_index_1_based": 8,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_e1fc76418bd48191a9f3a02ab54acb90",
+      "url": "https://chatgpt.com/library?file_id=libfile_e1fc76418bd48191a9f3a02ab54acb90&account_id=personal"
+    },
+    {
+      "id": "ART-W09-P12",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10prep_review/w9_reading_12.jpg",
+      "sha256": "40f6bad84885519821ea2942ad252ce3489a2b13d9ed1ff3789d6992857bb332",
+      "page_index_1_based": 12,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal"
+    },
+    {
+      "id": "ART-W09-P13",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10prep_review/w9_reading_13.jpg",
+      "sha256": "79f48f5d26637d9daf4671f9d091d7d580e8e1efdb0430e4c241e150cea077e1",
+      "page_index_1_based": 13,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal"
+    },
+    {
+      "id": "ART-W09-P14",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10prep_review/w9_reading_14.jpg",
+      "sha256": "4668a869f25831b7d98c9ee02cc0f28afd6837901f17af6cafce7c156d1e3781",
+      "page_index_1_based": 14,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal"
+    },
+    {
+      "id": "ART-W09-P01",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10prep_review/w9_reading_01.jpg",
+      "sha256": "9bbc694836e02a99c7086e2a2f2897d5ec8107b29d249a6780d61ce46af0f523",
+      "page_index_1_based": 1,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal"
+    },
+    {
+      "id": "ART-W09-P11",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10prep_review/w9_reading_11.jpg",
+      "sha256": "db3891329b7b384aaf63f71f79531818dbce42fd3a211a8e9f48e1a88d792901",
+      "page_index_1_based": 11,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal"
+    },
+    {
+      "id": "ART-W09-P20",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10prep_review/w9_reading_20.jpg",
+      "sha256": "4600692c5296bad219474d8747c2b2b56d195fb3a9134fa415c2e73e747aaa67",
+      "page_index_1_based": 20,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal"
+    },
+    {
+      "id": "ART-W09-P33",
+      "kind": "ACTUALLY_VIEWED_ARCHIVAL_ARTWORK",
+      "local_path": "/workspace/scratch/162404e483ef/w10prep_review/w9_reading_33.jpg",
+      "sha256": "fae2bfafa030f94c5a88a5476edff22fdb3d67e41b82765f048d63410b65fbe2",
+      "page_index_1_based": 33,
+      "source_authority": "delivered artwork environment/story reference; current character registry overrides old identity errors",
+      "library_file_id": "libfile_3f8bb285aa348191ba09a6bf4fba1395",
+      "url": "https://chatgpt.com/library?file_id=libfile_3f8bb285aa348191ba09a6bf4fba1395&account_id=personal"
+    },
+    {
+      "id": "ATLAS-LOCATIONS",
+      "kind": "READ_SOURCE",
+      "name": "Locations registry",
+      "repository_path": "world/data/locations.json",
+      "source_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/locations.json"
+    },
+    {
+      "id": "ATLAS-WEATHER",
+      "kind": "READ_SOURCE",
+      "name": "Weather regions",
+      "repository_path": "world/data/weather_regions.json",
+      "source_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/weather_regions.json"
+    },
+    {
+      "id": "ATLAS-ROUTES",
+      "kind": "READ_SOURCE",
+      "name": "Registered routes",
+      "repository_path": "world/data/routes.json",
+      "source_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/world/data/routes.json"
+    },
+    {
+      "id": "LATEST_FOUNDER_DIRECTION",
+      "kind": "CURRENT_THREAD_USER_DIRECTION",
+      "status": "authorizes latest jackhammer/music, river/sandbags/broken hoop, DK home rodeo chase/hogtie, beer shipment and conditional Cancun concepts"
+    },
+    {
+      "id": "HISTORY-2022-W16",
+      "kind": "READ_EXISTING_VERIFIED_RESEARCH",
+      "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/historical-research.json",
+      "canonical_fact_id": "HIST-2022-W16-T02-T09",
+      "pairing_id": "W10-G02",
+      "provider_pointer": "/seasons/2022/weeks/16/data/matchups/0",
+      "scope": "semifinal score and associated standings/title outcome supplied by preproduction research"
+    },
+    {
+      "id": "PRODUCTION-BOARD-REGISTRY",
+      "kind": "READ_EXISTING_PROJECT_REVIEW",
+      "local_path": "/workspace/scratch/162404e483ef/w10_preproduction/world-story-pass-02.json",
+      "json_key": "production_board",
+      "scope": "registered 12 domain assignments; this review is simulated not actual professional participation"
+    }
+  ],
+  "no_claims": [
+    "No final-score certification",
+    "No playoff-elimination certification",
+    "No external injury verification by art reviewer",
+    "No image generation",
+    "No permanent Atlas promotion",
+    "No GitHub write"
+  ]
+}

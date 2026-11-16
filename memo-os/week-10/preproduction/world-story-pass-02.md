@@ -1,3 +1,5 @@
+> Archive of an earlier creative pass. Current authority is [whole-issue-pass-03.md](whole-issue-pass-03.md); compatible birthday, Ridge Gate and regional weather details remain retained. Superseded venue/mechanism ideas below are not active production instructions.
+
 # Schemin ’26 — Commonwealth Story, Storm & Production Pass 2
 
 **Prepared November 16, 2026. Current stage: brainstorming.** This is the second creative pass, incorporating Jake’s revised indoor birthday and a Niño-linked weather front across the whole Commonwealth. The accepted premise changes are now reflected in the operative birthday cards, copy, alternate endings and artist briefs. Detailed sets, camera choices, page order and the final sports branch remain candidates.

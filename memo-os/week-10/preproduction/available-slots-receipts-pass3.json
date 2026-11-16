@@ -1,0 +1,991 @@
+{
+  "league": {
+    "platform": "espn",
+    "league_id": "1417621",
+    "season_year": 2026
+  },
+  "position_reads": {
+    "TE": {
+      "success": true,
+      "data": {
+        "leagueId": "1417621",
+        "seasonYear": 2026,
+        "position": "TE",
+        "count": 15,
+        "freeAgents": [
+          {
+            "playerId": 4242355,
+            "name": "Jake Ferguson",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "DAL",
+            "injuryStatus": "Out",
+            "percentOwned": 35.48,
+            "percentStarted": 5.19,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 54.6,
+            "pointsPerGame": 6.07,
+            "projectedSeasonPoints": 28.88,
+            "acquisitionState": "waivers",
+            "team": "DAL",
+            "id": "4242355",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 3117256,
+            "name": "Dalton Schultz",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "HOU",
+            "injuryStatus": "Active",
+            "percentOwned": 21.95,
+            "percentStarted": 7.5,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 80.5,
+            "pointsPerGame": 8.94,
+            "projectedSeasonPoints": 69.76,
+            "acquisitionState": "waivers",
+            "team": "HOU",
+            "id": "3117256",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4576297,
+            "name": "AJ Barner",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "SEA",
+            "injuryStatus": "Active",
+            "percentOwned": 13.57,
+            "percentStarted": 9.05,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 68.4,
+            "pointsPerGame": 6.84,
+            "projectedSeasonPoints": 54.67,
+            "acquisitionState": "waivers",
+            "team": "SEA",
+            "id": "4576297",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4430802,
+            "name": "Darnell Washington",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "PIT",
+            "injuryStatus": "Active",
+            "percentOwned": 9.78,
+            "percentStarted": 6.03,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 63.9,
+            "pointsPerGame": 7.1,
+            "projectedSeasonPoints": 56.85,
+            "acquisitionState": "waivers",
+            "team": "PIT",
+            "id": "4430802",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4831959,
+            "name": "Eli Raridon",
+            "position": "TE",
+            "eligiblePositions": [
+              "Rookie",
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "NE",
+            "injuryStatus": "Active",
+            "percentOwned": 8.11,
+            "percentStarted": 5.41,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 52.1,
+            "pointsPerGame": 5.79,
+            "projectedSeasonPoints": 42.32,
+            "acquisitionState": "waivers",
+            "team": "NE",
+            "id": "4831959",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4808766,
+            "name": "Mason Taylor",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "NYJ",
+            "injuryStatus": "Active",
+            "percentOwned": 5.27,
+            "percentStarted": 1.42,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 52.7,
+            "pointsPerGame": 6.59,
+            "projectedSeasonPoints": 45.43,
+            "acquisitionState": "waivers",
+            "team": "NYJ",
+            "id": "4808766",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4242557,
+            "name": "Colby Parkinson",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "LAR",
+            "injuryStatus": "Active",
+            "percentOwned": 4.6,
+            "percentStarted": 2.06,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 38.7,
+            "pointsPerGame": 4.84,
+            "projectedSeasonPoints": 39.5,
+            "acquisitionState": "waivers",
+            "team": "LAR",
+            "id": "4242557",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4367209,
+            "name": "Greg Dulcich",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "MIA",
+            "injuryStatus": "Active",
+            "percentOwned": 2.93,
+            "percentStarted": 1.34,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 53,
+            "pointsPerGame": 5.89,
+            "projectedSeasonPoints": 56.7,
+            "acquisitionState": "waivers",
+            "team": "MIA",
+            "id": "4367209",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4243331,
+            "name": "Cade Otton",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "TB",
+            "injuryStatus": "Active",
+            "percentOwned": 1.82,
+            "percentStarted": 0.19,
+            "status": "FREEAGENT",
+            "seasonPoints": 44.1,
+            "pointsPerGame": 4.9,
+            "projectedSeasonPoints": 61.19,
+            "acquisitionState": "free_agent",
+            "team": "TB",
+            "id": "4243331"
+          },
+          {
+            "playerId": 3051876,
+            "name": "Evan Engram",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "DEN",
+            "injuryStatus": "Active",
+            "percentOwned": 1.56,
+            "percentStarted": 0.22,
+            "status": "FREEAGENT",
+            "seasonPoints": 39.9,
+            "pointsPerGame": 4.43,
+            "projectedSeasonPoints": 48.03,
+            "acquisitionState": "free_agent",
+            "team": "DEN",
+            "id": "3051876"
+          },
+          {
+            "playerId": 4686728,
+            "name": "Gunnar Helm",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "TEN",
+            "injuryStatus": "Active",
+            "percentOwned": 1.55,
+            "percentStarted": 0.31,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 43.3,
+            "pointsPerGame": 4.81,
+            "projectedSeasonPoints": 49.36,
+            "acquisitionState": "waivers",
+            "team": "TEN",
+            "id": "4686728",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4708049,
+            "name": "Gavin Bartholomew",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "MIN",
+            "injuryStatus": "Active",
+            "percentOwned": 1.53,
+            "percentStarted": 1.34,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 25,
+            "pointsPerGame": 2.78,
+            "projectedSeasonPoints": 0,
+            "acquisitionState": "waivers",
+            "team": "MIN",
+            "id": "4708049",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4595342,
+            "name": "Oronde Gadsden",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "LAC",
+            "injuryStatus": "Active",
+            "percentOwned": 1.45,
+            "percentStarted": 0.47,
+            "status": "FREEAGENT",
+            "seasonPoints": 42.5,
+            "pointsPerGame": 5.31,
+            "projectedSeasonPoints": 19.16,
+            "acquisitionState": "free_agent",
+            "team": "LAC",
+            "id": "4595342"
+          },
+          {
+            "playerId": 3123076,
+            "name": "David Njoku",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "LAC",
+            "injuryStatus": "IR",
+            "percentOwned": 1.16,
+            "percentStarted": 0.05,
+            "status": "FREEAGENT",
+            "seasonPoints": 12.7,
+            "pointsPerGame": 6.35,
+            "projectedSeasonPoints": 40.48,
+            "acquisitionState": "free_agent",
+            "team": "LAC",
+            "id": "3123076"
+          },
+          {
+            "playerId": 4372780,
+            "name": "Tommy Tremble",
+            "position": "TE",
+            "eligiblePositions": [
+              "WR/TE",
+              "TE",
+              "FLEX",
+              "OP"
+            ],
+            "proTeam": "CAR",
+            "injuryStatus": "Active",
+            "percentOwned": 0.5,
+            "percentStarted": 0.23,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 65.7,
+            "pointsPerGame": 7.3,
+            "projectedSeasonPoints": 53,
+            "acquisitionState": "waivers",
+            "team": "CAR",
+            "id": "4372780",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          }
+        ],
+        "ordering": "platform_rostered_rate_desc",
+        "capabilities": {
+          "acquisitionState": true,
+          "rosteredRate": true,
+          "startedRate": true
+        },
+        "ownershipScope": "platform_global"
+      }
+    },
+    "K": {
+      "success": true,
+      "data": {
+        "leagueId": "1417621",
+        "seasonYear": 2026,
+        "position": "K",
+        "count": 15,
+        "freeAgents": [
+          {
+            "playerId": 17372,
+            "name": "Chris Boswell",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "PIT",
+            "injuryStatus": "Active",
+            "percentOwned": 60.49,
+            "percentStarted": 46.61,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 87,
+            "pointsPerGame": 9.67,
+            "projectedSeasonPoints": 84.43,
+            "acquisitionState": "waivers",
+            "team": "PIT",
+            "id": "17372",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4689936,
+            "name": "Jake Bates",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "DET",
+            "injuryStatus": "Active",
+            "percentOwned": 54.86,
+            "percentStarted": 47,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 85,
+            "pointsPerGame": 9.44,
+            "projectedSeasonPoints": 77.2,
+            "acquisitionState": "waivers",
+            "team": "DET",
+            "id": "4689936",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4362081,
+            "name": "Cameron Dicker",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "LAC",
+            "injuryStatus": "Active",
+            "percentOwned": 41.95,
+            "percentStarted": 31.16,
+            "status": "FREEAGENT",
+            "seasonPoints": 62,
+            "pointsPerGame": 7.75,
+            "projectedSeasonPoints": 67.91,
+            "acquisitionState": "free_agent",
+            "team": "LAC",
+            "id": "4362081"
+          },
+          {
+            "playerId": 4034949,
+            "name": "Eddy Pineiro",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "SF",
+            "injuryStatus": "Active",
+            "percentOwned": 34,
+            "percentStarted": 24.76,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 56,
+            "pointsPerGame": 6.22,
+            "projectedSeasonPoints": 59.74,
+            "acquisitionState": "waivers",
+            "team": "SF",
+            "id": "4034949",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 3150744,
+            "name": "Chase McLaughlin",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "TB",
+            "injuryStatus": "Active",
+            "percentOwned": 28.19,
+            "percentStarted": 5.08,
+            "status": "FREEAGENT",
+            "seasonPoints": 99,
+            "pointsPerGame": 11,
+            "projectedSeasonPoints": 80.11,
+            "acquisitionState": "free_agent",
+            "team": "TB",
+            "id": "3150744"
+          },
+          {
+            "playerId": 4360234,
+            "name": "Evan McPherson",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "CIN",
+            "injuryStatus": "Active",
+            "percentOwned": 24.26,
+            "percentStarted": 19.7,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 85,
+            "pointsPerGame": 9.44,
+            "projectedSeasonPoints": 67.3,
+            "acquisitionState": "waivers",
+            "team": "CIN",
+            "id": "4360234",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 17427,
+            "name": "Cairo Santos",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "CHI",
+            "injuryStatus": "Active",
+            "percentOwned": 20.75,
+            "percentStarted": 9.19,
+            "status": "FREEAGENT",
+            "seasonPoints": 82,
+            "pointsPerGame": 9.11,
+            "projectedSeasonPoints": 74.63,
+            "acquisitionState": "free_agent",
+            "team": "CHI",
+            "id": "17427"
+          },
+          {
+            "playerId": 4697745,
+            "name": "Tyler Loop",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "BAL",
+            "injuryStatus": "IR",
+            "percentOwned": 20.05,
+            "percentStarted": 11.53,
+            "status": "FREEAGENT",
+            "seasonPoints": 69,
+            "pointsPerGame": 8.63,
+            "projectedSeasonPoints": 0,
+            "acquisitionState": "free_agent",
+            "team": "BAL",
+            "id": "4697745"
+          },
+          {
+            "playerId": 4574716,
+            "name": "Harrison Mevis",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "FA",
+            "injuryStatus": "Active",
+            "percentOwned": 16.49,
+            "percentStarted": 13.73,
+            "status": "FREEAGENT",
+            "seasonPoints": 32,
+            "pointsPerGame": 6.4,
+            "projectedSeasonPoints": 0,
+            "acquisitionState": "free_agent",
+            "team": null,
+            "id": "4574716"
+          },
+          {
+            "playerId": 4869461,
+            "name": "Trey Smack",
+            "position": "K",
+            "eligiblePositions": [
+              "Rookie",
+              "K"
+            ],
+            "proTeam": "GB",
+            "injuryStatus": "Active",
+            "percentOwned": 10.04,
+            "percentStarted": 8.01,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 72,
+            "pointsPerGame": 7.2,
+            "projectedSeasonPoints": 58.65,
+            "acquisitionState": "waivers",
+            "team": "GB",
+            "id": "4869461",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 4568263,
+            "name": "Ryan Fitzgerald",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "CAR",
+            "injuryStatus": "Active",
+            "percentOwned": 6.68,
+            "percentStarted": 4.7,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 72,
+            "pointsPerGame": 8,
+            "projectedSeasonPoints": 61.6,
+            "acquisitionState": "waivers",
+            "team": "CAR",
+            "id": "4568263",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": 3050478,
+            "name": "Jake Elliott",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "PHI",
+            "injuryStatus": "Active",
+            "percentOwned": 3.81,
+            "percentStarted": 1.52,
+            "status": "FREEAGENT",
+            "seasonPoints": 45,
+            "pointsPerGame": 5,
+            "projectedSeasonPoints": 44.71,
+            "acquisitionState": "free_agent",
+            "team": "PHI",
+            "id": "3050478"
+          },
+          {
+            "playerId": 2985659,
+            "name": "Wil Lutz",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "DEN",
+            "injuryStatus": "Active",
+            "percentOwned": 3.58,
+            "percentStarted": 1.02,
+            "status": "FREEAGENT",
+            "seasonPoints": 74,
+            "pointsPerGame": 8.22,
+            "projectedSeasonPoints": 74.72,
+            "acquisitionState": "free_agent",
+            "team": "DEN",
+            "id": "2985659"
+          },
+          {
+            "playerId": 10621,
+            "name": "Nick Folk",
+            "position": "K",
+            "eligiblePositions": [
+              "K"
+            ],
+            "proTeam": "FA",
+            "injuryStatus": "Active",
+            "percentOwned": 2.54,
+            "percentStarted": 1.32,
+            "status": "FREEAGENT",
+            "seasonPoints": 60,
+            "pointsPerGame": 6.67,
+            "projectedSeasonPoints": 0,
+            "acquisitionState": "free_agent",
+            "team": null,
+            "id": "10621"
+          },
+          {
+            "playerId": 5081335,
+            "name": "Drew Stevens",
+            "position": "K",
+            "eligiblePositions": [
+              "Rookie",
+              "K"
+            ],
+            "proTeam": "WSH",
+            "injuryStatus": "Active",
+            "percentOwned": 2.43,
+            "percentStarted": 1.94,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 76,
+            "pointsPerGame": 8.44,
+            "projectedSeasonPoints": 71.42,
+            "acquisitionState": "waivers",
+            "team": "WSH",
+            "id": "5081335",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          }
+        ],
+        "ordering": "platform_rostered_rate_desc",
+        "capabilities": {
+          "acquisitionState": true,
+          "rosteredRate": true,
+          "startedRate": true
+        },
+        "ownershipScope": "platform_global"
+      }
+    },
+    "DST": {
+      "success": true,
+      "data": {
+        "leagueId": "1417621",
+        "seasonYear": 2026,
+        "position": "D/ST",
+        "count": 14,
+        "freeAgents": [
+          {
+            "playerId": -16009,
+            "name": "Packers D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "GB",
+            "percentOwned": 50.22,
+            "percentStarted": 44.22,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 111.5,
+            "pointsPerGame": 11.15,
+            "projectedSeasonPoints": 66.51,
+            "acquisitionState": "waivers",
+            "team": "GB",
+            "id": "-16009",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16017,
+            "name": "Patriots D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "NE",
+            "percentOwned": 44.67,
+            "percentStarted": 31.28,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 85.6,
+            "pointsPerGame": 8.56,
+            "projectedSeasonPoints": 57.28,
+            "acquisitionState": "waivers",
+            "team": "NE",
+            "id": "-16017",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16003,
+            "name": "Bears D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "CHI",
+            "percentOwned": 39.97,
+            "percentStarted": 4.44,
+            "status": "FREEAGENT",
+            "seasonPoints": 103.7,
+            "pointsPerGame": 11.52,
+            "projectedSeasonPoints": 72.79,
+            "acquisitionState": "free_agent",
+            "team": "CHI",
+            "id": "-16003"
+          },
+          {
+            "playerId": -16004,
+            "name": "Bengals D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "CIN",
+            "percentOwned": 31.72,
+            "percentStarted": 23.1,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 95,
+            "pointsPerGame": 10.56,
+            "projectedSeasonPoints": 82.31,
+            "acquisitionState": "waivers",
+            "team": "CIN",
+            "id": "-16004",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16028,
+            "name": "Commanders D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "WSH",
+            "percentOwned": 28.26,
+            "percentStarted": 23.46,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 75.6,
+            "pointsPerGame": 8.4,
+            "projectedSeasonPoints": 62.24,
+            "acquisitionState": "waivers",
+            "team": "WSH",
+            "id": "-16028",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16021,
+            "name": "Eagles D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "PHI",
+            "percentOwned": 26.89,
+            "percentStarted": 16.79,
+            "status": "FREEAGENT",
+            "seasonPoints": 48.5,
+            "pointsPerGame": 5.39,
+            "projectedSeasonPoints": 62.96,
+            "acquisitionState": "free_agent",
+            "team": "PHI",
+            "id": "-16021"
+          },
+          {
+            "playerId": -16020,
+            "name": "Jets D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "NYJ",
+            "percentOwned": 10.32,
+            "percentStarted": 5.95,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 76.7,
+            "pointsPerGame": 7.67,
+            "projectedSeasonPoints": 65.58,
+            "acquisitionState": "waivers",
+            "team": "NYJ",
+            "id": "-16020",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16024,
+            "name": "Chargers D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "LAC",
+            "percentOwned": 9.81,
+            "percentStarted": 7.26,
+            "status": "FREEAGENT",
+            "seasonPoints": 50.8,
+            "pointsPerGame": 6.35,
+            "projectedSeasonPoints": 63.88,
+            "acquisitionState": "free_agent",
+            "team": "LAC",
+            "id": "-16024"
+          },
+          {
+            "playerId": -16006,
+            "name": "Cowboys D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "DAL",
+            "percentOwned": 9.63,
+            "percentStarted": 5.53,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 34.7,
+            "pointsPerGame": 3.47,
+            "projectedSeasonPoints": 50.43,
+            "acquisitionState": "waivers",
+            "team": "DAL",
+            "id": "-16006",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16015,
+            "name": "Dolphins D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "MIA",
+            "percentOwned": 7.54,
+            "percentStarted": 7.22,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 69.9,
+            "pointsPerGame": 7.77,
+            "projectedSeasonPoints": 57.99,
+            "acquisitionState": "waivers",
+            "team": "MIA",
+            "id": "-16015",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16013,
+            "name": "Raiders D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "LV",
+            "percentOwned": 3.44,
+            "percentStarted": 2.06,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 72.7,
+            "pointsPerGame": 7.27,
+            "projectedSeasonPoints": 51.23,
+            "acquisitionState": "waivers",
+            "team": "LV",
+            "id": "-16013",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16010,
+            "name": "Titans D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "TEN",
+            "percentOwned": 2.67,
+            "percentStarted": 1,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 60.2,
+            "pointsPerGame": 6.69,
+            "projectedSeasonPoints": 50.45,
+            "acquisitionState": "waivers",
+            "team": "TEN",
+            "id": "-16010",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16001,
+            "name": "Falcons D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "ATL",
+            "percentOwned": 2.61,
+            "percentStarted": 1.39,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 70.7,
+            "pointsPerGame": 7.07,
+            "projectedSeasonPoints": 56.31,
+            "acquisitionState": "waivers",
+            "team": "ATL",
+            "id": "-16001",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          },
+          {
+            "playerId": -16022,
+            "name": "Cardinals D/ST",
+            "position": "D/ST",
+            "eligiblePositions": [
+              "D/ST"
+            ],
+            "proTeam": "ARI",
+            "percentOwned": 0.57,
+            "percentStarted": 0.37,
+            "status": "WAIVERS",
+            "waiverProcessDate": 1794988800000,
+            "seasonPoints": 61.3,
+            "pointsPerGame": 6.13,
+            "projectedSeasonPoints": 55.59,
+            "acquisitionState": "waivers",
+            "team": "ARI",
+            "id": "-16022",
+            "waiverClearsAt": "2026-11-18T08:00:00.000Z"
+          }
+        ],
+        "ordering": "platform_rostered_rate_desc",
+        "capabilities": {
+          "acquisitionState": true,
+          "rosteredRate": true,
+          "startedRate": true
+        },
+        "ownershipScope": "platform_global"
+      }
+    }
+  }
+}

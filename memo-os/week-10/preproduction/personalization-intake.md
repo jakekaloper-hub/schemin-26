@@ -1,3 +1,11 @@
+# Latest Pass3 direction — November 16, 2026
+
+The temple scene now uses Chins’s jackhammer and loud music under TDS’s family balcony. Red reuses the actual soccer field and the separate Forgotten Court; local shallow river overflow, sandbags, gusts and a broken hoop replace the dry-only generic terrace. DK pursues and hogties Chili at a new proposed rodeo in DK’s homeland. Slob’s beer delivery passes Mud without combat. Cancún is a joke while playoff status is checked. Whole-issue passes now include injuries/ownership, all supporting departments and a Week 11 GOTW preview.
+
+These revisions supersede conflicting mechanisms below. Detailed interpretation and source distinctions are in [whole-issue-pass-03.md](whole-issue-pass-03.md). The partner and baby belong to TDS’s household; Chili is the rodeo captive. These resolve the obvious dictation slips consistently with the surrounding instructions.
+
+## Earlier intake record
+
 # Week 10 — Commissioner personalization direction
 
 **Received:** November 16, 2026, after the first pre-production packet.  
