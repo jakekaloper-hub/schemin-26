@@ -1,12 +1,16 @@
 # Schemin ’26 — Week 10 pre-production
 
-**Working title: The Ceiling Breaks.** Prepared November 16, 2026, before Chargers–Ravens. The written foundation is available; the current stage is **Commonwealth story and location brainstorming, Pass 1**. Stories, environments, department placement, copy and page count remain candidates for Jake’s successive creative passes. Results and final art remain open.
+**Working title: The Ceiling Breaks.** Prepared November 16, 2026, before Chargers–Ravens. The written foundation is available; the current stage is **Commonwealth story, storm and production brainstorming, Pass 2**. Stories, environments, department placement, copy and page count remain candidates for Jake’s successive creative passes. Results and final art remain open.
 
-## Current review — Commonwealth story and location Pass 1
+## Current review — Commonwealth story, storm and production Pass2
 
-Start with [world-story-pass-01.md](world-story-pass-01.md) for all six story reminders, six proposed local sites within existing Atlas anchors, practical lighting and scale, landscape department settings, issue-wide dependencies and Pass 2/3 choices. The [structured companion](world-story-pass-01.json) retains the Atlas, production and Inklings review basis.
+Start with [world-story-pass-02.md](world-story-pass-02.md). The [structured companion](world-story-pass-02.json) consolidates the simulated eight-lens Inklings review, actual twelve-seat production-reference bench, six developed local sets, eighteen camera/blocking candidates, seven regional weather expressions and all twelve owner-associated domain exposures.
 
-This pass reopens development at Jake’s request. Prior artist briefs are candidate material, not approved production locks. Proposed sub-site names and architecture have not been promoted into the Atlas. The recommendations below and in older files are not silently updated to every Pass 1 suggestion; that reconciliation follows the next creative selections.
+Jake's accepted revision moves Duckhook–HMB inside the Jackson dining hall for a grand birthday, wrapped **200 Burger** reveal and deliberate cake-to-face prank. Its three operative page cards, alternate endings, copy and artist prompts are revised. The former veranda duel, rail trip and cake-table fall are retired.
+
+Niño's storm now affects the entire Commonwealth with graded regional expression. This supersedes Pass1's local-only scope. All18 matchup camera/environment candidates and supporting-page setting notes inherit that direction. Other matchup prose remains candidate material for Pass3 reconciliation; page order, count, detailed staging, final sports outcomes and new artwork remain unapproved.
+
+Pass1 remains the previous exploration record, not current authority where this revision differs. No permanent Atlas records or final image masters are created by this brainstorm.
 
 ## Complete illustrated PNG production — commissioner correction
 
@@ -33,7 +37,9 @@ Every pairing now has a verified historical anchor. The research distinguishes o
 
 | File | Purpose |
 |---|---|
-| [world-story-pass-01.md](world-story-pass-01.md) | Current brainstorming brief: six rooted stories, local sites, light, landscape transitions and issue continuity |
+| [world-story-pass-02.md](world-story-pass-02.md) | Current six-story, regional-storm, established-set and production review |
+| [world-story-pass-02.json](world-story-pass-02.json) | Structured Pass2 proposals, sources, review decisions and dependencies |
+| [world-story-pass-01.md](world-story-pass-01.md) | Earlier Pass1 brainstorming record: six rooted stories, local sites, light, landscape transitions and issue continuity |
 | [world-story-pass-01.json](world-story-pass-01.json) | Structured Atlas/site proposals, Inklings alternatives, production dependencies and sources |
 | [illustrated-png-direction.md](illustrated-png-direction.md) | Controlling full-page PNG direction and actual visual precedent review |
 | [illustrated-page-briefs.md](illustrated-page-briefs.md) | 33 complete artist-facing page commissions |

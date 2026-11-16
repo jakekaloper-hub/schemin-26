@@ -1,5 +1,7 @@
 # Week 10 — bounded Inklings-method review
 
+**Historical earlier review.** Its birthday combat/rail/table-fall staging is superseded by Jake’s Pass2 indoor 200 Burger gift and cake-to-face instruction. Its earlier local-storm scope is superseded by the realm-wide, geographically varied front. Current source: [world-story-pass-02.md](world-story-pass-02.md).
+
 **Basis:** the six accepted concepts in `personalization-intake.md`, the six verified historical anchors in `historical-research.json`, and the archive/canon checks in `historical-archive.json`.
 
 **Review status:** six concrete method findings—three through historical texture/material continuity and three through meaning/consequence. This is an editorial application of the project's Tolkien and Lewis methods. It does not represent either author's participation, approval, prose imitation, or workshop-runtime certification. The revised matchup cards were not yet present when this review was written; apply the choices to those cards and their composition fields.

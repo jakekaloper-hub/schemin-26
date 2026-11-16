@@ -1,3 +1,7 @@
+# Current creative stage: Pass2
+
+Read [world-story-pass-02.md](world-story-pass-02.md) before applying the earlier operational steps below. The indoor 200 Burger birthday and realm-wide storm supersede the old combat and local-only weather candidates. The remaining next creative task is Pass3 issue-wide reconciliation after Jake’s review; these notes do not authorize skipping the brainstorming stage.
+
 # Week 10 — pre-production completed and finalization handoff
 
 **Prepared November 16, 2026.** The issue is a draft for creative review. No new illustrated page or final PDF is represented as approved.
@@ -73,7 +77,7 @@ After the game:
 The repository's author and production reference profiles were used as analytical lenses; no named professional was contacted or is represented as having participated or approved this work.
 
 - **World and ensemble continuity:** carry actual Week 9 consequences and give each side a viewpoint without introducing new permanent lore.
-- **Action and systems clarity:** establish every mechanism before its payoff; the centaur’s four planted hooves, the rope’s path, the cake table’s wheels, the noise props, the failing cold-weather repairs and the battlefield batteries have visible positions and limits.
+- **Action and systems clarity:** establish every mechanism before its payoff; the centaur’s four planted hooves, the rope’s path, the birthday gift-box placement and separate cake contact, the noise props, the failing cold-weather repairs and the battlefield batteries have visible positions and limits.
 - **Performance and composition:** use readable silhouettes and a distinct dramatic mechanism per matchup; avoid six interchangeable victory posters.
 - **Editing and mobile design:** alternate action with quieter departments, keep prose and image complementary, and test density after actual rendering.
 - **Production integrity:** resolve exact reference bytes now; keep fact finality, story approval, renderer binding and image acceptance as separate evidenced events.

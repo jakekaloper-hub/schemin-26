@@ -1,8 +1,10 @@
-# Schemin ’26 — Week 10 complete pre-production draft
+# Schemin ’26 — Week 10 working pre-production draft
 
 **Working title:** The Ceiling Breaks. **Prepared:** November 16, 2026. **State:** written drafts and page plans; creative review and final results pending.
 
 The proposed reading run has **32 pages**, with one additional prepared Pittsy’s Book slot held out by default. All six matchups have three written beats and alternative payoff copy. Page IDs remain stable if the order changes.
+
+**Current creative pass: [Pass2](world-story-pass-02.md).** The birthday’s three pages below are revised to the indoor 200 Burger gift and cake-smear sequence. All other pages retain candidate prose; the Pass2 camera, set and regional-storm direction in the JSON/artist briefs controls the next creative reconciliation.
 
 ## Full-page PNG production
 
@@ -231,7 +233,7 @@ Six matchups, twelve totals, one unfinished week. Henry and Andrews remain for O
 
 *The Chili Cheesers vs D0nkey K0ng*
 
-The Chili Cheesers had invited an audience large enough to make the victory permanent. Last week, he had made the champion part of the entertainment. An earlier loss to this opponent could be settled in the same fashion. Across the churned ring, D0nkey K0ng lowered his axe and planted four hooves. The outlaw sent his first loop flying.
+The Chili Cheesers had invited an audience large enough to make the victory permanent. Last week, he had made the champion part of the entertainment. An earlier loss to this opponent could be settled in the same fashion. Across the churned ring, D0nkey K0ng braced his axe and planted four hooves. The outlaw sent his first loop flying.
 
 
 
@@ -356,7 +358,7 @@ In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The C
 
 **Background:** The same crowd has a clear view of center ring; the separate Dark Horse remains at the gate.
 
-**Image adds:** Show an explicit short binding inset before the main aftermath: D0nkey gathers the fallen rope, controls Chili’s wrists, then secures the ankles. The final hogtie is not created magically by the earlier pull.
+Within the single continuous payoff image, DK visibly tightens the final manual binding while Chili’s secured wrists and ankles, muddy face and the watching crowd remain legible. No separate binding inset is required.
 
 **Prose adds:** The humiliation lands because Chili chose the audience and supplied the instrument.
 
@@ -607,7 +609,7 @@ Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in We
 
 **Background:** The same closed door; faint offscreen baby sounds may be represented through controlled typography, not a new child character.
 
-**Image adds:** Use clang→pause→hope→horn as four clearly separated beats within the page. Chins controls the timing rather than striking TDS or entering the family room.
+Percussion is paused; TDS’s three expressions soften unevenly while Chins’s hand approaches the horn. The actual noisy restart belongs to the following page.
 
 **Prose adds:** The pause makes renewed frustration more personal than an uninterrupted wall of noise.
 
@@ -861,146 +863,111 @@ McCaffrey’s 52.60 gives Slob the largest starting contribution in the current 
 
 ---
 
-## W10-P19 — Birthday Rules
+## W10-P19 — A Very Generous Guest
 
-**Reading position:** 19 · **Status:** DRAFT_USER_DIRECTED_FICTION
+**Stage:** Pass2 brainstorm; accepted indoor birthday mechanism, detailed execution draft.
 
-
-*Dr. Duckhook vs His Majesty's Blood*
-
-Dr. Duckhook had arranged the cake, the guests and the afternoon with the precision of a man who remembered four tenths of a point. His Majesty’s Blood arrived before the presentation. The first clash rang across the veranda as Duckhook caught the descending steel on his club and drove it aside. For one brilliant moment, the birthday still appeared to belong to its host.
-
-
+Dr. Duckhook had filled Jackson’s dining hall with cakes, streamers and people prepared to make a fuss over him. Outside, the windows trembled. Inside, the lamps stayed golden. His Majesty’s Blood arrived carrying a present large enough to deserve its own table. Duckhook welcomed him with the confidence of a host who believed every surprise in the room had been arranged for his benefit.
 
 ### Historical context for this scene
 
-In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.
-
-**Stakes:** Verified 2025 semifinal; The Immortal advanced and won the championship.
-
+The verified 2025 semifinal was decided by 0.40. The primary visual callback is Week9’s public service humiliation: HMB now arrives as the apparently generous guest who controls what gets served. [History](historical-context.md) · [Week9 review](week9-review.md)
 
 ### Scene and production plan
 
-**Narrative job:** Many Unhappy Returns: a powerhouse clash turns Duckhook’s carefully managed birthday into a public cake catastrophe.
+**Camera:** Wide view from just inside the dining-hall entrance, slightly below the standing guests’ eyeline. A long table leads toward Duckhook’s birthday chair, while HMB and his oversized wrapped box enter along a clear aisle. Show the hall as one continuous inhabited space.
 
-**Camera:** Wide energetic opening at the Country Club veranda; begin with the sword-and-club clash already underway, party framing both figures.
+**Foreground:** Warm tableware and streamers frame HMB carrying the wrapped box; a clear serving-table edge establishes where it will be set down.
 
-**Foreground:** Birthday cake on a table with locked casters; the low platform rail lies between Duckhook’s retreat path and the table. No age, year or named guest is printed.
+**Midground:** Duckhook’s white duck head, orange bill, green cap and vest remain readable amid a large celebration. The separate birthday cake sits visibly on the sideboard.
 
-**Midground:** Duckhook produces a strong two-handed counter; HMB’s black armor, hooded red eyes and belt remain visible.
+**Background:** Consistent anonymous guests, a worn service doorway, maintained woodwork and tall cool storm windows provide depth and years of ordinary club use.
 
-**Background:** Anonymous guests recoil behind a clear safety gap, club facade and greens establish the home venue.
+**Image adds:** HMB arrives as a celebrant with a large wrapped present; Duckhook welcomes the apparently generous guest. Establish the gift table, birthday chair, separate cake and party sightlines.
 
-**Image adds:** Duckhook checks the first advance with a real levered block. Establish the low rail immediately behind his heels and the stationary cake table directly beyond it.
+**Prose adds:** Duckhook expects to control a celebration arranged in his honor; HMB’s poised arrival quietly starts the service-role reversal.
 
-**Prose adds:** The0.40 semifinal memory makes birthday control emotionally specific, while the counter shows why this is a clash of powerhouses.
+**Continuity:** Duckhook’s Week 9 golf confidence HMB’s Week 9 public food humiliation with belt retained Regional storm outside a functioning indoor celebration Gift set on table before opening Cake remains on established sideboard Warm hall and cool windows retain their positions
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
+**Lighting:** Warm chandeliers, sconces and birthday light dominate inside; cool storm reflections, intermittent rain on glass and a passing lightning glow register the regional front outside. Warm light persists through the humiliation.
 
+**Render source:** The matching page in `illustrated-page-briefs.json`; native complete 1080 × 1920 PNG.
 
----
+## W10-P20 — The 200 Burger
 
-## W10-P20 — The Candles Go Out
+**Stage:** Pass2 brainstorm; accepted indoor birthday mechanism, detailed execution draft.
 
-**Reading position:** 20 · **Status:** DRAFT_USER_DIRECTED_FICTION
-
-
-*Dr. Duckhook vs His Majesty's Blood*
-
-His Majesty’s Blood came again before the applause could settle. Duckhook answered, then answered once more, losing a step with each reply. His heel caught the low rail. He fell backward through the cake, collapsing its table in a bright, ridiculous avalanche. The guests had been waiting for their host to make a wish. He suddenly had several, none of them ceremonial.
-
-
+The ribbon came away. Then the lid. A towering double-decker hamburger filled the box, its little flag announcing 200 BURGER. Duckhook’s smile held for an ambitious second. Around him, the room began to understand. His Majesty’s Blood had brought something generous, personal and impossible to return. The birthday boy was still deciding what to say when the champion reached toward the cake.
 
 ### Historical context for this scene
 
-In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.
-
-**Stakes:** Verified 2025 semifinal; The Immortal advanced and won the championship.
-
+The verified 2025 semifinal was decided by 0.40. The primary visual callback is Week9’s public service humiliation: HMB now arrives as the apparently generous guest who controls what gets served. [History](historical-context.md) · [Week9 review](week9-review.md)
 
 ### Scene and production plan
 
-**Narrative job:** Many Unhappy Returns: a powerhouse clash turns Duckhook’s carefully managed birthday into a public cake catastrophe.
+**Camera:** Table-height three-quarter view along the gift-opening axis. See the actual burger, Duckhook’s unravelling reaction and HMB’s controlled posture in one frame. Retain a recognizable window mullion and service-door angle from the first view.
 
-**Camera:** Low diagonal view along the retreat line: show the blade-to-club impact, heel catching the rail, then the backward fall into the cake through one readable action inset.
+**Foreground:** Open wrapping, displaced lid and the unmistakably large double-decker hamburger with exact small flag lettering 200 BURGER.
 
-**Foreground:** Duckhook’s heel catches the already visible low rail; locked table casters remain stationary before the impact.
+**Midground:** Duckhook’s orange bill and eyes register delayed understanding; HMB has released the box and his hands are free. Anonymous nearby guests begin to laugh.
 
-**Midground:** HMB drives the final block. Duckhook falls backward across the lower cake tier, and the table frame buckles under his weight.
+**Background:** The separate cake stays on the same sideboard, candles cleared in preparation; gold light and storm windows persist behind the birthday decorations.
 
-**Background:** Guests and birthday ribbons remain in the same positions, witnessing the loss of composure.
+**Image adds:** Duckhook opens HMB’s present and reveals the giant 200 Burger. The burger remains in the open box while HMB turns toward the separately established cake.
 
-**Image adds:** Repeated exchanges drive Duck backward until his heel catches the low rail. His body falls directly into the cake on the stationary table; the frame collapses beneath him and frosting spills around his head and shoulders. HMB’s sword never strikes a guest.
+**Prose adds:** A gift appears generous until its meaning becomes public; the host is caught between courtesy and humiliation.
 
-**Prose adds:** The birthday props become the consequence of the duel, not decoration behind a generic fight.
+**Continuity:** Gift is already resting on its established table Cake has not moved Guests retain their side of the opening axis Box stays open and burger remains intact Cake is ready to lift with candles cleared Duckhook’s frosting has not appeared yet
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
+**Lighting:** Warm chandeliers, sconces and birthday light dominate inside; cool storm reflections, intermittent rain on glass and a passing lightning glow register the regional front outside. Warm light persists through the humiliation.
 
-
----
+**Render source:** The matching page in `illustrated-page-briefs.json`; native complete 1080 × 1920 PNG.
 
 ## W10-P21 — Many Unhappy Returns
 
-**Reading position:** 21 · **Status:** CONDITIONAL_CURRENT_LEADER_ENDING_DRAFT
+**Stage:** Pass2 brainstorm; accepted indoor birthday mechanism, detailed execution draft.
 
+His Majesty’s Blood pressed the cake into Duckhook’s face before the birthday boy found his speech. Frosting spread across white feathers and orange bill as the dining hall erupted around them. The champion’s belt caught the warm light beside the open present. The 200 Burger remained magnificent. The birthday boy needed a towel.
 
-*Dr. Duckhook vs His Majesty's Blood*
-
-Dr. Duckhook sat amid the remains of his own presentation, green vest buried in frosting and orange bill emerging from a collapsed tier. His Majesty’s Blood stood where the birthday applause had been meant to gather. The guests could still read the occasion from the ribbons. Their host stared through the wreckage with the expression of someone discovering that four tenths had once been merciful.
-
-
-
-*Current player receipt: Brock Purdy 42.86; Chuba Hubbard 36.90; Jaxon Smith-Njigba 34.10; Vikings D/ST 26.00.*
-
-
-**Current score:** Dr. Duckhook 127.67 — His Majesty's Blood 208.76. **No ending selected.**
-
+**Score and sports receipt:** Retain this page’s existing `facts.json` bindings in `issue-previs.json`. `200 BURGER` is the gift label, not an exact final score. Finality remains separate.
 
 ### Alternate payoff copy
 
+**Reversal — The Birthday Belongs to Its Host** (Provider-final Dr. Duckhook win)
 
-**Reversal:** Provider-final Dr. Duckhook win
+Duckhook watched the champion reach for the cake and moved first. The elaborate gift stayed open on the table while the birthday boy redirected the prank toward its author. His guests finally found the applause he had been expecting. The burger was still enormous. The celebration belonged to its host again.
 
-Dr. Duckhook felt the rail against his heel and pivoted around it. His Majesty’s Blood followed the retreat that was no longer there, catching the locked cake table with his armored thigh. The duck stepped back onto the platform and recovered his club, frosting on one sleeve. His guests finally found the applause they had been saving for the birthday.
+**Unresolved — One More Surprise** (Provider remains UNDECIDED)
 
+The 200 Burger stood in its open box while Duckhook searched for the gracious response. His Majesty’s Blood turned toward the cake. Around the table, the guests leaned forward. The party still had one surprise waiting, and the birthday boy had not yet decided whether he wanted it.
 
-**Unresolved:** Provider remains UNDECIDED
+**Tie — A Shared Mess** (Provider explicitly resolves the matchup as a tie)
 
-The cake trembled on its table behind the low rail as blade and club met again. Dr. Duckhook held the platform edge; His Majesty’s Blood pressed from the veranda. The guests had abandoned the count of candles for the count of exchanged blows. The celebration balanced on one more step, with neither opponent ready to give it.
-
-
-**Tie:** Provider explicitly resolves the matchup as a tie
-
-The final clash left blade and club locked above the overturned cake table. Dr. Duckhook held one end of the platform and His Majesty’s Blood the other, both dusted with the celebration neither had managed to control. The guests looked from one figure to the next. There was no winner to toast, and very little cake left to divide.
-
+The gift stayed on display, but the cake belonged to neither side for long. Frosting marked both figures as the guests looked between the birthday host and his imposing visitor. They had been promised a celebration. They had received a story they would be telling for some time.
 
 ### Historical context for this scene
 
-In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.
-
-**Stakes:** Verified 2025 semifinal; The Immortal advanced and won the championship.
-
+The verified 2025 semifinal was decided by 0.40. The primary visual callback is Week9’s public service humiliation: HMB now arrives as the apparently generous guest who controls what gets served. [History](historical-context.md) · [Week9 review](week9-review.md)
 
 ### Scene and production plan
 
-**Narrative job:** Many Unhappy Returns: a powerhouse clash turns Duckhook’s carefully managed birthday into a public cake catastrophe.
+**Camera:** Unobstructed three-quarter payoff just above the table edge: capture the cake-to-face contact and immediate frosting reaction with HMB’s hands visible. Offset the giant burger beside the action, keeping Duck’s bill, face, cake contact and the same laughing guests clearly visible.
 
-**Camera:** Medium-wide payoff with Duck large in the foreground and HMB towering on the platform; retain the witnesses and birthday setting.
+**Foreground:** Soft cake and frosting visibly contact Duckhook’s face; part of orange bill, eyes and green golf cap remain recognizable. His body remains supported by his original position.
 
-**Foreground:** Duck’s orange bill, white head and green golf clothing remain recognizable through the cake; intact club lies across his knees.
+**Midground:** HMB’s deliberate gloved hands hold the cake, with hooded red eyes, dark armor, crimson cloak and retained belt readable. The open 200 Burger gift remains on the table.
 
-**Midground:** HMB stands with sword lowered, black hood and red eyes visible, championship belt unchanged.
+**Background:** The same celebration continues under warm light, with the same anonymous guests witnessing the humiliation and cooler storm color held at the windows.
 
-**Background:** Birthday ribbons, collapsed table and the same anonymous guests make the humiliation publicly legible.
+**Image adds:** HMB deliberately smears the separate birthday cake into Duckhook’s face. Cake contact and frosting make the public humiliation clear; the burger remains a separate intact prop. No combat, fall or table collapse occurs.
 
-**Image adds:** Duck settles seated amid the table he fell through and the ruined cake. Frosting delivers the comic humiliation; HMB’s decisive control completes the sporting metaphor.
+**Prose adds:** Last week’s served champion controls the service this week; the host loses the dignity he expected from his birthday celebration.
 
-**Prose adds:** The former razor-thin semifinal survivor has now spoiled the opponent’s birthday on an emphatic scale.
+**Continuity:** Gift is already open with intact double-decker burger Cake has been lifted from established sideboard with candles cleared Party light and witness positions are unchanged Duckhook’s face and vest carry frosting Burger remains on display Guests remember the witnessed birthday humiliation HMB retains belt and identity; no venue destruction or ownership change
 
-**Remaining local holds:** Outcome and score not final; use only selected provider-resolved branch; Proposed new fiction awaits creative review; Detailed staging follows the accepted commissioner direction; review page execution before art.
+**Lighting:** Warm chandeliers, sconces and birthday light dominate inside; cool storm reflections, intermittent rain on glass and a passing lightning glow register the regional front outside. Warm light persists through the humiliation.
 
-
----
+**Render source:** The matching page in `illustrated-page-briefs.json`; native complete 1080 × 1920 PNG.
 
 ## W10-P22 — The Empire Opens Fire
 

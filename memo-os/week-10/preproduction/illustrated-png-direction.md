@@ -40,9 +40,13 @@ The repository's V5 Gold Standard Studio Patch, section 5, calls this **Mode B �
 
 **Mud–Slob:** low ground, planted feet, keg pressure and the continuous retreat track make force visible. Avoid a posed winner portrait detached from the physical contest.
 
-**Duckhook–HMB:** cake, platform rail, fighting bodies and reacting guests share one clear space. Duck falls directly into the cake table; the final frosting, sword, belt and witness reactions form one scene.
+**Duckhook–HMB:** the large indoor dining-hall birthday, wrapped gift, 200 Burger reveal, separate cake and reacting guests share one clear space. HMB sets down the gift before Duck opens it, then deliberately presses the candle-free birthday cake into Duck’s face. Burger, frosting, retained belt and witness reactions remain legible in the same warm room. No birthday combat, rail trip or table collapse is part of the active direction.
 
 **ObiWan–LLC:** green blade, red fire, causeway, ridge and surviving battery create the page's motion and lighting. Text shares the smoke and atmosphere; the entire sequence stays an explosive Jedi-versus-Empire battle.
+
+## Pass2 weather, sets and camera
+
+[World/story Pass2](world-story-pass-02.md) now supplies the active regional storm and established-world treatment. Niño’s front reaches the whole Commonwealth with different exposure, timing and shelter. All18 matchup camera briefs have specific local effects; the supporting pages use their proposed civic or landscape settings. Separate durable construction, everyday furnishings and fresh event dressing. Existing exact character references govern costume and anatomy through rain, mud, frost and cake. The stories remain creative candidates for further refinement.
 
 ## Current production boundary
 

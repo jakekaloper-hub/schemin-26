@@ -16,10 +16,9 @@ No final art is requested in this pass. Existing page IDs and three-beat matchup
 
 Replace the quiet table contest with an unmistakably Star Wars cinematic action sequence: Jedi resistance against an Imperial assault, explosive impacts, powerful movement, an active counterattack and overwhelming pressure. ObiWan's green blade and recognizable identity remain central. The LLC commands the assault as the recognizable executive; a generic masked villain must not replace him. The two remaining Monday starters can motivate two visible counteroffensives, both actually attempted in the defeat branch.
 
-### His Majesty's Blood vs Dr. Duckhook — the birthday is the target
+### His Majesty's Blood vs Dr. Duckhook — the 200 Burger birthday gift
 
-Jake supplied that this matchup fell on Dr. Duckhook's birthday. Stage the confrontation at the Country Club of Jackson's birthday celebration. Both opponents should first read as formidable, followed by HMB's emphatic dominance and a spectacularly embarrassing birthday payoff. Celebration props, guests and the cake should participate in the action rather than function as generic background decoration. Do not invent an age, birth year, named guest or attributed real-life quote.
-
+Jake’s follow-up replaces the outdoor combat with a large birthday celebration entirely inside a dining hall at the Country Club of Jackson. Include cakes, streamers and a full gathering. HMB attends with a large wrapped present; Duckhook opens it to reveal a giant double-decker hamburger labeled **200 BURGER**. HMB then deliberately presses a separate birthday cake into Duckhook’s face, leaving it smudged with frosting in front of the guests. The burger remains visible. This is social trolling and birthday humiliation; no sword/club clash, rail trip or falling cake table remains in the current direction. Keep canonical costume and belt identity; no age or named real guest is invented.
 ### Mud Dogs vs Slob on my Dobb — sustained domination
 
 Show Slob's overwhelming physical superiority through successive, readable actions. Mud Dogs should not appear to be winning an even contest until a clever trick suddenly reverses it. The swamp, old ruts, exposed roots and Slob's keg remain useful identity and geography anchors. The user's “zero chance” emphasis governs the dramatic feeling, not a fabricated mathematical win probability or a literal zero score.
@@ -35,6 +34,12 @@ Use Red Leopard Ruins, the verified home domain. The storm is a cold autumn cata
 ### The Chili Cheesers vs D0nkey K0ng — public rodeo humiliation
 
 Keep this as the Game of the Week. Stage a large, muddy rodeo spectacle with a visibly present crowd. Let both warriors use their distinctive tools and bodies: Chili's outlaw rope skill meets the Arsenal gorilla-centaur's braced four-legged strength and controlled block. D0nkey turns the rope exchange against Chili and leaves him hogtied in the center of the mud for the entire stadium to see. The result is an athletic, comic humiliation; the hat, sunglasses, coat and separate Dark Horse remain recognizable. Temporary event stands at the neutral grounds do not silently become a new permanent city or replace the established Atlas.
+
+## Pass2 — accepted world and production revisions
+
+Niño’s ongoing winning run now creates a growing storm front across the whole Commonwealth. Every scene and relevant landscape can register it, with effect determined by region, exposure, shelter and timing. This replaces Pass1’s local-only storm restriction. The Atlas propagation and local intensity proposal is recorded in [Pass2](world-story-pass-02.md). Continued future wins can expand the front; exact subsequent consequences remain story choices tied to recorded outcomes.
+
+Sets should feel established through roughly a decade of Commonwealth life: ordinary use, maintenance, reused infrastructure and verified earlier scars. Do not assign every building an invented construction date. The simulated Inklings review and all twelve registered production-reference domains inform the camera, environment, costume, light, blocking and issue continuity. Detailed choices remain brainstorming.
 
 ## Historical research required for every pairing
 
