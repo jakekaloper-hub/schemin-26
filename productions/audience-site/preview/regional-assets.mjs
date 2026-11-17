@@ -171,7 +171,18 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float scatter=.5+.5*sin(p.x*34.+uTime*1.1)*sin(p.y*29.-uTime*.87);
       float foam=pow(scatter,3.)*plungeCore;
       float boundary=1.-smoothstep(.63,.94,length(p));
-      vec3 plungeTint=uColor+vec3(.10,.14,.12)*(ring*.55+foam*.45)*boundary;
+      // Local candidate impact follows the EXISTING falling sheet, landing
+      // rings and receiving pool; it does not establish new water geography.
+      // Broken moving foam stays within the original plunge-water footprint.
+      vec2 impactUv=vec2(.5,.554);
+      vec2 impactOffset=(vUv-impactUv)*vec2(2.,2.2);
+      float impactRadius=length(impactOffset);
+      float impactField=1.-smoothstep(.13,.52,impactRadius);
+      float impactCrest=pow(max(sin(impactRadius*34.-uTime*2.8+sin(vUv.x*19.+uTime*.3)*.28),0.),9.);
+      float impactBreakup=.45+.55*(.5+.5*sin(vUv.x*27.-vUv.y*17.+uTime*.57));
+      float impactFoam=impactCrest*impactBreakup*impactField;
+      vec3 plungeTint=uColor+vec3(.10,.14,.12)*(ring*.55+foam*.45)*boundary
+        +vec3(.10,.15,.13)*impactFoam*boundary;
       gl_FragColor=vec4(plungeTint,.88);
       }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
     materials.set('water-'+water.length,m);return m;
