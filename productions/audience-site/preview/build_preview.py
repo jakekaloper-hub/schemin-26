@@ -55,8 +55,8 @@ const moduleURL=URL.createObjectURL(new Blob([moduleSource],{type:'text/javascri
 let THREE=null;try{THREE=await import(moduleURL);}catch(e){console.warn('Enhanced renderer unavailable; retaining source Atlas fallback.');}
 window.addEventListener('pagehide',()=>{URL.revokeObjectURL(coreURL);URL.revokeObjectURL(moduleURL);});
 """.replace('CORE64',json.dumps(base64.b64encode(core).decode())).replace('MODULE64',json.dumps(base64.b64encode(module).decode()))
- files=[(BASE.parent/'src/observer-world.mjs','ObserverWorld'),(BASE.parent/'src/observer-weather.mjs','ObserverWeather'),(BASE/'spatial.mjs','Spatial'),(BASE/'renderer.mjs','WorldRenderer'),(BASE/'regional-assets.mjs','RegionalAssets'),(BASE/'three-world.mjs','ThreeWorldRenderer'),(BASE/'memory.mjs','EditionMemory')]
- bundle=bootstrap+'\n'.join(wrap(path,name) for path,name in files)+(BASE/'app.mjs').read_text()+'\n'+(BASE/'memory-ui.mjs').read_text()
+ files=[(BASE.parent/'src/observer-world.mjs','ObserverWorld'),(BASE.parent/'src/observer-weather.mjs','ObserverWeather'),(BASE/'spatial.mjs','Spatial'),(BASE/'renderer.mjs','WorldRenderer'),(BASE/'regional-assets.mjs','RegionalAssets'),(BASE/'three-world.mjs','ThreeWorldRenderer'),(BASE/'memory.mjs','EditionMemory'),(BASE/'place-history.mjs','PlaceHistory')]
+ bundle=bootstrap+'\n'.join(wrap(path,name) for path,name in files)+(BASE/'app.mjs').read_text()+'\n'+(BASE/'memory-ui.mjs').read_text()+'\n'+(BASE/'place-history-ui.mjs').read_text()
  html=(BASE/'index.template.html').read_text().replace('__CATALOG__',safe_json(data)).replace('__MEMORY_INDEX__',safe_json(manifest)).replace('__MEMORY_ASSETS__',safe_json(assets)).replace('__BUNDLE__',bundle.replace('</script','<\\/script'))
  edition_note=(f"{len(manifest['memories'])} locations open historical artwork from the supplied private issue; those images do not approve present-day geometry." if manifest else "No private edition artwork is included in this repository preview. Original folios require a separate explicit private build.")
  html=html.replace('__EDITION_NOTE__',edition_note)
