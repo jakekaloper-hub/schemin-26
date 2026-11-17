@@ -42,8 +42,9 @@ test('root wakes are low-intensity shader motion only on the EXISTING swamp surf
  assert.match(fragment,/uniform vec2 uRootSites\[5\]/);
  assert.match(fragment,/if\(float\(i\)>=uRootSiteCount\)break/);
  assert.match(fragment,/rootWake=max\(rootWake,wakeFade\*wakeCrest\)/);
- assert.match(fragment,/rootWake\*\.32\*bankFade/);
- assert.match(fragment,/rootDistance\*8\.7-uTime\*1\.7/);
+ assert.match(fragment,/rootWake\*\.68\*bankFade/);
+ assert.match(fragment,/wakeFade=1\.-smoothstep\(\.55,3\.25,rootDistance\)/);
+ assert.match(fragment,/rootDistance\*7\.1-uTime\*1\.6/);
  assert.doesNotMatch(fragment,/storm|weather/i);
  assert.equal(channel.material.uniforms.uRootSiteCount.value,0);
  assert.ok(a.water.filter(w=>!['swamp','channel'].includes(w.kind))

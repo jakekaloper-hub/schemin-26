@@ -65,12 +65,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
         if(float(i)>=uRootSiteCount)break;
         vec2 delta=(vUv-uRootSites[i])*vec2(21.,16.4);
         float rootDistance=length(delta);
-        float wakeFade=1.-smoothstep(.35,1.65,rootDistance);
-        float wakeCrest=pow(max(sin(rootDistance*8.7-uTime*1.7),0.),10.);
+        float wakeFade=1.-smoothstep(.55,3.25,rootDistance);
+        float wakeCrest=pow(max(sin(rootDistance*7.1-uTime*1.6),0.),6.);
         rootWake=max(rootWake,wakeFade*wakeCrest);
       }
       float bankFade=1.-smoothstep(.78,.99,length((vUv-vec2(.5))*2.));
-      vec3 rootSheen=vec3(.10,.13,.10)*(rootWake*.32*bankFade);
+      vec3 rootSheen=vec3(.13,.17,.13)*(rootWake*.68*bankFade);
       gl_FragColor=vec4(waterTint+lowSheen+quietEddy+rootSheen,.92);
       }else if(uPond>.5){
       // Two gently expanding wave trains on the existing pond; no new source hydrology.
