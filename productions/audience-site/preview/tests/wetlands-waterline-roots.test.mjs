@@ -43,11 +43,15 @@ test('the root mesh reuses existing textured tree-trunk material and static batc
  const stand=wetland.children.find(x=>x.userData.wetlandPart==='trunk');
  assert.ok(stand&&k);assert.equal(k.material,stand.material);
  const before=JSON.stringify(bindings);
+ const rootVertices=k.geometry.getIndex().count;
  const result=batchStaticGeometry(THREE,wetland);
  assert.ok(result.geometries.length>0);
- const compiled=wetland.children.filter(x=>x.userData?.compiledFrom?.includes('Candidate wetland waterline root knees'));
- assert.equal(compiled.length,1,'root projections should enter existing opaque static group');
- assert.equal(compiled[0].material,stand.material);
+ // The batcher emits compiledFrom metadata ONLY for vertex-color materials.
+ // Textured trunk batches are identified by the exact shared material instead.
+ const compiled=wetland.children.filter(x=>x.isMesh&&x.material===stand.material);
+ assert.equal(compiled.length,1,'root projections must share the existing trunk draw');
+ assert.ok(!wetland.children.includes(k),'original root mesh should be folded into the batch');
+ assert.ok(compiled[0].geometry.getAttribute('position').count>rootVertices);
  assert.ok(compiled[0].geometry.attributes.uv,'textured batch needs UVs');
  assert.equal(JSON.stringify(bindings),before);
  for(const g of result.geometries)g.dispose();assets.dispose();
