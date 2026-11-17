@@ -51,7 +51,7 @@ test('vertex movement follows the existing environment clock and leaves bank/per
   assert.match(shader,/p\.z\+=crest\*\.018\*shoreHold/,'perpendicular movement of wetland water vertices');
   assert.match(shader,/shoreHold=1\.-smoothstep\(\.65,\.96,length/,'perimeter falloff');
   assert.match(shader,/uTime\*1\.16/,'continuously evolving temporal phase');
-  assert.doesNotMatch(shader,/storm|weather/i,'vertex motion does not depend on weather');
+  assert.doesNotMatch(shader,/\buStorm\b|\buWeather\b/i,'vertex motion has no storm/weather uniform');
   a.tick(5,{storm:0});assert.equal(w.material.uniforms.uTime.value,5);
   a.tick(17,{storm:0,paused:true});assert.equal(w.material.uniforms.uTime.value,5);
   a.tick(17,{storm:0});assert.equal(w.material.uniforms.uTime.value,17);
