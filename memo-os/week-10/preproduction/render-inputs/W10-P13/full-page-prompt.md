@@ -158,119 +158,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/2",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G03",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T06",
-        "away": "T11",
-        "current_score": [
-          75.78,
-          146.22
-        ],
-        "away_lead": 70.44,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF--16033"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T06",
-          "additional_points_strictly_greater_than": 70.44,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f115f484475cc7fc6a2f90bd410ceaac7c9e053368ee22d46335b1d9ae0a0167",
+      "value_location": "facts.json#/games/2",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G03",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G03",
-        "current_team_ids": [
-          6,
-          11
-        ],
-        "current_team_names": [
-          "Three Dreaded Snake",
-          "Seven Deadly Chins"
-        ],
-        "title": "Last season’s two defeats, now a possible reversal",
-        "anchor_fact_id": "HIST-2025-W14-T06-T11",
-        "public_copy": "Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.",
-        "supported_stakes": "Both cited 2025 games were regular season; no elimination claim.",
-        "creative_use_scope": "Chins’ present Week10 lead offers a reversal of two verified prior defeats. Keep the 2026 payoff conditional while Ravens D/ST remains.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W14-T06-T11",
-          "season": 2025,
-          "week": 14,
-          "calendar_date": null,
-          "home_team_id": 11,
-          "home_name_as_returned": "Seven Deadly Chins",
-          "home_points": 90.7,
-          "away_team_id": 6,
-          "away_name_as_returned": "Three Dreaded Snake",
-          "away_points": 139.84,
-          "winner_team_id": 6,
-          "winner_name_as_returned": "Three Dreaded Snake",
-          "margin": 49.14,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2025/weeks/14/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 75.78,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/scorers/4882093/2",
-      "artifact": "facts.json",
-      "snapshot_value": 22.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 146.22,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/3139477/2",
-      "artifact": "facts.json",
-      "snapshot_value": 48.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/4429096/2",
-      "artifact": "facts.json",
-      "snapshot_value": 23.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "3745781f39653ca4a9885622df5561fbb63300c03628558434a79ae5c1bd2e4e",
+      "value_location": "facts.json#/historical_context/W10-G03",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

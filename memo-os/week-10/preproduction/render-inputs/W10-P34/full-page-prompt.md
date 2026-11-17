@@ -46,7 +46,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "THE COST OF SUNDAY",
   "deck": "Sports Desk • Availability changes the next move",
-  "body": "Dr. Duckhook’s Maye faces a reported extended absence; a season-ending outcome remains unconfirmed. Mud Dogs’ Marks left with a concussion, with Houston playing Thursday. The Chili Cheesers awaits Bowers’ ankle follow-up. Three Dreaded Snake adds Brown’s hamstring exit to a crowded receiver watch. Hutchinson’s reported season-ending ACL loss affects His Majesty's Blood through reserve Lions D/ST. The LLC’s Michael Wilson is already out for the season; that injury dates to November 8. ObiWan Jacoby’s Puka cannot return before Week 15; Red Leopards’ Lamar has a prolonged recovery without a fixed return date.",
+  "body": "Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s confirmed season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.",
   "callouts": [],
   "rows": [],
   "department_heading": "INJURY REPORT"
@@ -54,27 +54,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/pass3/news",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "663fa399ac79a574815bd447d0bee132018efa2a535584ee9d4273f73a0dd3c1",
-      "snapshot_value_stored_in": "facts.json/pass3/news"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "37de9cd33289be954a87cfea330e13f8c83d1f3d1e028ec748245ace61a12461",
+      "value_location": "facts.json#/pass3/news",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

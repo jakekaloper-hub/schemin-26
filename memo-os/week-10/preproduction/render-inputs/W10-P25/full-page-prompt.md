@@ -46,7 +46,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "THE NEXT STARTING SHEET",
   "deck": "Week 11 • Seven uncovered required positions",
-  "body": "Six NFL clubs are on bye. On the current Schemin rosters, six teams lack an owned replacement at seven required positions. These are planning needs, not completed moves. The separate reserve ledger still records fantasy IR occupancy without turning that placement into a diagnosis.",
+  "body": "Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.",
   "callouts": [],
   "rows": [
     {
@@ -79,359 +79,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/derived/reserve_occupancy",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "Bench": 84,
-        "IR": 20,
-        "teams_with_IR": 11
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "0030598d62753d23ca041c84bfbf55259af1eb455333920b303b83a7d896b1f2",
+      "value_location": "facts.json#/derived/reserve_occupancy",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/available_slots",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-AVAILABLE-SLOTS",
-        "artifact": "available-slots-pass3.json",
-        "scope": "Current read-only non-bye coverage pool; no claims or bids placed",
-        "data": {
-          "schema": "schemin.week11.required-slot-availability.v1",
-          "captured_at_utc": "2026-11-16T18:24:59Z",
-          "league_id": "1417621",
-          "season": 2026,
-          "purpose": "Read-only memo-planning availability shortlist for seven uncovered required Week11 slots; no acquisition or allocation recommendation, bid or roster change.",
-          "required_slots": [
-            {
-              "team": "Slob on my Dobb",
-              "team_id": 3,
-              "position": "TE"
-            },
-            {
-              "team": "El Niño",
-              "team_id": 9,
-              "position": "TE"
-            },
-            {
-              "team": "The Chili Cheesers",
-              "team_id": 7,
-              "position": "K"
-            },
-            {
-              "team": "Seven Deadly Chins",
-              "team_id": 11,
-              "position": "K"
-            },
-            {
-              "team": "Seven Deadly Chins",
-              "team_id": 11,
-              "position": "D/ST"
-            },
-            {
-              "team": "ObiWan Jacoby",
-              "team_id": 1,
-              "position": "D/ST"
-            },
-            {
-              "team": "Mud Dogs",
-              "team_id": 10,
-              "position": "D/ST"
-            }
-          ],
-          "excluded_week11_bye_clubs": [
-            "ATL",
-            "CLE",
-            "GB",
-            "LAR",
-            "NE",
-            "SEA"
-          ],
-          "coverage": {
-            "TE": 15,
-            "K": 15,
-            "DST": 14,
-            "inventory_complete_claim": false,
-            "ordering": "Provider platform_rostered_rate_desc; this is not a Week11 projection ranking."
-          },
-          "shortlist": {
-            "TE": [
-              {
-                "id": "3117256",
-                "name": "Dalton Schultz",
-                "team": "HOU",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 8.94,
-                "seasonPoints": 80.5
-              },
-              {
-                "id": "4430802",
-                "name": "Darnell Washington",
-                "team": "PIT",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 7.1,
-                "seasonPoints": 63.9
-              },
-              {
-                "id": "4808766",
-                "name": "Mason Taylor",
-                "team": "NYJ",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 6.59,
-                "seasonPoints": 52.7
-              },
-              {
-                "id": "4243331",
-                "name": "Cade Otton",
-                "team": "TB",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 4.9,
-                "seasonPoints": 44.1
-              }
-            ],
-            "K": [
-              {
-                "id": "17372",
-                "name": "Chris Boswell",
-                "team": "PIT",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 9.67,
-                "seasonPoints": 87
-              },
-              {
-                "id": "4689936",
-                "name": "Jake Bates",
-                "team": "DET",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 9.44,
-                "seasonPoints": 85
-              },
-              {
-                "id": "4362081",
-                "name": "Cameron Dicker",
-                "team": "LAC",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 7.75,
-                "seasonPoints": 62
-              },
-              {
-                "id": "3150744",
-                "name": "Chase McLaughlin",
-                "team": "TB",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 11,
-                "seasonPoints": 99
-              }
-            ],
-            "DST": [
-              {
-                "id": "-16003",
-                "name": "Bears D/ST",
-                "team": "CHI",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 11.52,
-                "seasonPoints": 103.7
-              },
-              {
-                "id": "-16004",
-                "name": "Bengals D/ST",
-                "team": "CIN",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 10.56,
-                "seasonPoints": 95
-              },
-              {
-                "id": "-16028",
-                "name": "Commanders D/ST",
-                "team": "WSH",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 8.4,
-                "seasonPoints": 75.6
-              },
-              {
-                "id": "-16021",
-                "name": "Eagles D/ST",
-                "team": "PHI",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 5.39,
-                "seasonPoints": 48.5
-              }
-            ]
-          },
-          "excluded_returned_entries": {
-            "TE": [
-              {
-                "id": "4242355",
-                "name": "Jake Ferguson",
-                "team": "DAL",
-                "reasons": [
-                  "provider injury designation Out"
-                ]
-              },
-              {
-                "id": "4576297",
-                "name": "AJ Barner",
-                "team": "SEA",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "4831959",
-                "name": "Eli Raridon",
-                "team": "NE",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "4242557",
-                "name": "Colby Parkinson",
-                "team": "LAR",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "3123076",
-                "name": "David Njoku",
-                "team": "LAC",
-                "reasons": [
-                  "provider injury designation IR"
-                ]
-              }
-            ],
-            "K": [
-              {
-                "id": "4697745",
-                "name": "Tyler Loop",
-                "team": "BAL",
-                "reasons": [
-                  "provider injury designation IR"
-                ]
-              },
-              {
-                "id": "4574716",
-                "name": "Harrison Mevis",
-                "team": null,
-                "reasons": [
-                  "provider club not reported"
-                ]
-              },
-              {
-                "id": "4869461",
-                "name": "Trey Smack",
-                "team": "GB",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "10621",
-                "name": "Nick Folk",
-                "team": null,
-                "reasons": [
-                  "provider club not reported"
-                ]
-              }
-            ],
-            "DST": [
-              {
-                "id": "-16009",
-                "name": "Packers D/ST",
-                "team": "GB",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "-16017",
-                "name": "Patriots D/ST",
-                "team": "NE",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "-16001",
-                "name": "Falcons D/ST",
-                "team": "ATL",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              }
-            ]
-          },
-          "availability_limits": [
-            "acquisitionState is the current provider state, not a promise a manager can complete an acquisition or win a claim.",
-            "Provider waiver clearance Nov18 at08:00UTC corresponds to03:00EST.",
-            "The12 selected candidates are absent from all224 current roster entries at the checkpoint.",
-            "Active is a provider designation that can lag news; Week11 medical/practice reports and real-team roles require rechecking.",
-            "D/ST rows carry no individual injury designation; defensive personnel and opponent matchup were not assessed in this bounded check.",
-            "No weekly projections were returned; pointsPerGame is a league-scored season average, not expected Week11 points.",
-            "Free-agent pools change; no assignment of the same player to multiple teams is implied."
-          ],
-          "source_file": "available-slots-receipts-pass3.json",
-          "bye_source": {
-            "url": "https://www.nfl.com/schedules/2026/by-week/week-11",
-            "support": "ATL,CLE,GB,LAR,NE,SEA Week11 byes",
-            "sports_news_source_id": "S16",
-            "sports_news_file": "w10_pass3_sports_news.json"
-          }
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "db6e1cb2e3d238af875677bec5482af381049979994db5dc8fef79842a9a4abf",
+      "value_location": "facts.json#/pass3/available_slots",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

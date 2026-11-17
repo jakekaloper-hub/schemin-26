@@ -40,8 +40,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "KEEP THE WHOLE LEAGUE IN VIEW",
-  "deck": "Commissioner’s note • Draft address",
-  "body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. Tonight's remaining starters can still move the board. When those numbers settle, the next week will ask each of us what we have left to field.",
+  "deck": "Commissioner’s note • After Week 10",
+  "body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. The numbers have settled, and six teams now share 6–4 records. The next week will ask each of us what we have left to field.",
   "callouts": [],
   "rows": [],
   "department_heading": "FROM THE COMMISSIONER"
@@ -49,68 +49,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/rules",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "scope": "ESTABLISHED_APPROVED_RULES",
-        "regular_season_weeks": 14,
-        "playoff_berths": 7,
-        "division_winner_berths": 3,
-        "shared_berths": 4,
-        "division_return_weeks": [
-          12,
-          13,
-          14
-        ],
-        "remaining_after_week10_per_team": 4,
-        "remaining_after_week10_league_games": 24,
-        "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json",
-        "pass3_authority": {
-          "regular_season_weeks": 14,
-          "playoff_berths": 7,
-          "automatic_division_winner_berths": 3,
-          "shared_berths": 4,
-          "division_return_weeks": [
-            12,
-            13,
-            14
-          ],
-          "remaining_after_week10_games_per_team": 4,
-          "remaining_after_week10_league_games": 24,
-          "playoffSeedingRule_raw": "H2H_RECORD",
-          "matchupTieRule_raw": "SLOT_POINTS",
-          "matchupTieRuleBy_raw": 20,
-          "playoffMatchupTieRule_raw": "NONE",
-          "playoffMatchupPeriodLength": 1,
-          "provider_isPlayoffMatchupEdited": false,
-          "rule_authority": "Fresh ESPN roster homeFacts confirms seven playoff teams; league_info confirms H2H_RECORD. Approved Week9 Shareable_v2 physical page31 explicitly publishes three automatic division berths, four shared berths and Weeks12–14 divisional return; page29 identifies memberships. Fresh Weeks11–14 fixtures match these rules.",
-          "provider_limit": "Fresh league_info does not expose regular-season length or the full commissioner-specific tie waterfall. Published Week9 rules provide the regular-season/division framework; ESPN H2H documentation provides the default equal-schedule H2H handling. No unreported override assumed."
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a0f2e4aee2d91b582481355a265df833b20a771cf1a2bee6a64b31e6630837af",
+      "value_location": "facts.json#/rules",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

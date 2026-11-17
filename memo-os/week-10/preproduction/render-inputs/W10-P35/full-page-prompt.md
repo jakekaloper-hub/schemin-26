@@ -110,8 +110,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "THE CROSSING NARROWS",
-  "deck": "Week 11 GOTW candidate • His Majesty’s Blood at D0nkey K0ng",
-  "body": "Two commanding Sundays lead toward the same crossing. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise beat His Majesty's Blood’s 179.68–111.42. That memory gives this visit an edge. Both would arrive at 6–4 if the current leads hold, but both must replace two current starters on NFL byes. One more test comes before the division games return.",
+  "deck": "Week 11 preview • His Majesty’s Blood at D0nkey K0ng",
+  "body": "Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.",
   "callouts": [],
   "rows": [],
   "department_heading": "WEEK 11 · GAME OF THE WEEK"
@@ -119,99 +119,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/pass3/week11_gotw",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-GOTW",
-        "recommendation": "His Majesty’s Blood at D0nkey K0ng",
-        "selection_status": "RECOMMENDED_NOT_COMMISSIONER_LOCKED",
-        "audit": {
-          "recommended_primary": {
-            "away_team_id": 8,
-            "home_team_id": 5,
-            "title": "His Majesty’s Blood at D0nkey K0ng",
-            "basis": "Two conditional6–4 teams arriving from distinct Week10 dominance scenes; HMB already has a live200-point week. Verified2025W9 Wilson/Austin rematch supports revenge in the centaur’s territory.",
-            "history": {
-              "season": 2025,
-              "week": 9,
-              "home_name_then": "Baker Moore Purdy",
-              "home_score": 179.68,
-              "away_name_then": "The Immortal",
-              "away_score": 111.42,
-              "margin": 68.26,
-              "tier": "NONE"
-            },
-            "week10_live_combined_points": 365.43,
-            "current_starter_week11_bye_exposure": {
-              "HMB": [
-                "Jaxon Smith-Njigba",
-                "Konata Mumpfield"
-              ],
-              "DK": [
-                "Bijan Robinson",
-                "Denzel Boston"
-              ]
-            },
-            "creative_angle": "The king carrying the200-Burger claim enters the centaur’s established home grounds, where a prior68.26-point defeat gives the challenge memory. Preview only; no scripted winner."
-          },
-          "major_coheadliner": {
-            "away_team_id": 9,
-            "home_team_id": 3,
-            "title": "El Niño at Slob on my Dobb",
-            "basis": "Conditional6–4 vs6–4; league’s official PF leader meets a potential fourth-straight-win storm. Their current Week10 points total368.37, slightly above the primary candidate pair.",
-            "history": [
-              "2024W15: El Niño175.60, Slob137.82 in WINNERS_BRACKET.",
-              "2025W1: Slob126.57, El Niño113.58.",
-              "2025W10: Slob147.12, El Niño103.87."
-            ],
-            "week10_live_combined_points": 368.37,
-            "current_starter_week11_bye_exposure": {
-              "Slob": [
-                "Harold Fannin Jr.",
-                "Rashid Shaheed",
-                "Drake London"
-              ],
-              "Niño": [
-                "Tucker Kraft"
-              ]
-            },
-            "creative_angle": "The weather front reaches the successful delivery network’s home territory. The historical exchange lets the storm threaten a host who answered it twice in retrieved2025games."
-          },
-          "decision_status": "Editorial recommendation; fixtures are verified but final Week10 records and Week11 health/lineups are pending.",
-          "bye_context_source": {
-            "file": "sports-news-pass3.json",
-            "source_id": "S16",
-            "url": "https://www.nfl.com/schedules/2026/by-week/week-11"
-          },
-          "historical_limit": "2022–2024 complete in retained archive;2025 gaps6,7,8,11,12,13. No all-time or latest-meeting claim.",
-          "projection_limit": "Early provider Week11 totalProjectedPoints reflect current configurations and may include bye/injury gaps. They are not a probability forecast or an optimized matchup comparison."
-        },
-        "history_source": "PASS3_W11_HISTORY"
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f8dec439aa7c5b0ca74de6d040686c4720dc5d8e50b820f6678191d029d0d2ef",
+      "value_location": "facts.json#/pass3/week11_gotw",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

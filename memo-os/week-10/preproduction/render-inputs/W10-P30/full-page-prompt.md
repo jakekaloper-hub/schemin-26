@@ -45,15 +45,15 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "FOUR MORE AFTER THIS",
   "deck": "Seven places. The route narrows.",
-  "body": "Under the current-leads-hold table, all twelve teams still have a route and none has clinched. Mud Dogs can still win the Burgers division at 6–8 through a specific set of results. Another loss would close that route. Four games remain after this week: one crossover, then three divisional rounds.",
+  "body": "All twelve teams still have a route, and none has clinched. At 2–8, Mud Dogs can still win Burgers at 6–8 through a specific set of results. A further loss eliminates that possibility and the remaining shared-place route. Four games remain: one crossover, then three divisional rounds.",
   "callouts": [
     {
       "heading": "SEVEN BERTHS",
       "body": "Three division winners and four shared places."
     },
     {
-      "heading": "MUD’S NEXT TEST",
-      "body": "If the present Week 10 leads hold, a Week 11 loss to Seven Deadly Chins eliminates Mud Dogs."
+      "heading": "MUD DOGS’ NEXT TEST",
+      "body": "A Week 11 loss to Seven Deadly Chins eliminates Mud Dogs. Winning keeps a narrow, help-dependent route alive."
     }
   ],
   "rows": [],
@@ -62,284 +62,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/rules",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "scope": "ESTABLISHED_APPROVED_RULES",
-        "regular_season_weeks": 14,
-        "playoff_berths": 7,
-        "division_winner_berths": 3,
-        "shared_berths": 4,
-        "division_return_weeks": [
-          12,
-          13,
-          14
-        ],
-        "remaining_after_week10_per_team": 4,
-        "remaining_after_week10_league_games": 24,
-        "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json",
-        "pass3_authority": {
-          "regular_season_weeks": 14,
-          "playoff_berths": 7,
-          "automatic_division_winner_berths": 3,
-          "shared_berths": 4,
-          "division_return_weeks": [
-            12,
-            13,
-            14
-          ],
-          "remaining_after_week10_games_per_team": 4,
-          "remaining_after_week10_league_games": 24,
-          "playoffSeedingRule_raw": "H2H_RECORD",
-          "matchupTieRule_raw": "SLOT_POINTS",
-          "matchupTieRuleBy_raw": 20,
-          "playoffMatchupTieRule_raw": "NONE",
-          "playoffMatchupPeriodLength": 1,
-          "provider_isPlayoffMatchupEdited": false,
-          "rule_authority": "Fresh ESPN roster homeFacts confirms seven playoff teams; league_info confirms H2H_RECORD. Approved Week9 Shareable_v2 physical page31 explicitly publishes three automatic division berths, four shared berths and Weeks12–14 divisional return; page29 identifies memberships. Fresh Weeks11–14 fixtures match these rules.",
-          "provider_limit": "Fresh league_info does not expose regular-season length or the full commissioner-specific tie waterfall. Published Week9 rules provide the regular-season/division framework; ESPN H2H documentation provides the default equal-schedule H2H handling. No unreported override assumed."
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a0f2e4aee2d91b582481355a265df833b20a771cf1a2bee6a64b31e6630837af",
+      "value_location": "facts.json#/rules",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/remaining_schedule",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": [
-        {
-          "week": 11,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 9,
-          "away_name": "El Niño",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 11,
-          "away_name": "Seven Deadly Chins",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 1,
-          "home_name": "ObiWan Jacoby",
-          "away_team_id": 7,
-          "away_name": "The Chili Cheesers",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 5,
-          "home_name": "D0nkey K0ng",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 12,
-          "home_name": "Dr. Duckhook",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 5,
-          "home_name": "D0nkey K0ng",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 6,
-          "away_name": "Three Dreaded Snake",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 2,
-          "home_name": "Red Leopards",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 7,
-          "away_name": "The Chili Cheesers",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 4,
-          "home_name": "The LLC",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 11,
-          "away_name": "Seven Deadly Chins",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 5,
-          "away_name": "D0nkey K0ng",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 7,
-          "home_name": "The Chili Cheesers",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 11,
-          "home_name": "Seven Deadly Chins",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 5,
-          "away_name": "D0nkey K0ng",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 7,
-          "home_name": "The Chili Cheesers",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 11,
-          "home_name": "Seven Deadly Chins",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        }
-      ]
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "e0f5bbd5e8fa9f916c58e24673779bb948a1d2ecc18e418ed89d708722f504a9",
+      "value_location": "facts.json#/pass3/remaining_schedule",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

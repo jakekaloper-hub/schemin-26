@@ -1,28 +1,31 @@
 # Schemin ’26 — Week 10 current production entrypoint
 
-**Current state: all-six-sheet pre-generation audit executed; 34 source-bound full-folio inputs ready.**
+**Backend finalized: all six Week 10 outcomes are provider-decided, and all 34 source-bound full-folio inputs across six sheets are ready for generation.**
 
-Start with the [completed execution report](../production-evidence/recovery-20261116/COMPLETION_REPORT.md), then the [34-page input manifest](render-inputs/manifest.json). Earlier pass discussions and checkpoint holds remain historical records, not competing current render directions.
+Start with [finalization evidence](../production-evidence/finalization-20261117/FINALIZATION_REPORT.md) and the [34-page manifest](render-inputs/manifest.json). The November 16 recovery remains valid for character and published-art provenance; its undecided-result statements are historical, superseded by this finalization.
 
-## Current authoring authority
+## Current authority
 
-- `issue-previs.json`: stable reading order, full scene/copy/cast contracts.
-- `illustrated-page-briefs.json`: exact mirrored image and copy instructions.
-- `storyboard-folio-plan-pass5.json`: reconciled full-folio proof ledger, not annotated-sketch instructions.
-- `render-inputs/W10-Pxx/request.json`: each 1080×1920 page, complete copy, source-qualified facts and actual image paths/hashes.
-- `character-world-packet.json`: recovered canonical crop bytes and current appearance overrides, with provenance.
-- `storycards.json`, `director-sequences.json`, `landscape-set-bible-pass4.json`: synchronized current narrative, action and geography.
+- `facts.json` and `final-league-snapshot.json`: final Week 10 scores, official records/seeds through ten games, current Week 11 planning, and separately scoped roster snapshots.
+- `issue-previs.json`, `illustrated-page-briefs.json`, `storycards.json`, `director-sequences.json`, `landscape-set-bible-pass4.json`: synchronized full-copy/scene/cast/result instructions.
+- `storyboard-folio-plan-pass5.json` and `render-inputs/W10-Pxx/request.json`: all34individual1080×1920full-folio inputs, complete copy, canonical reference images and exact source values.
+- `playoff-witnesses-final.json`: official-baseline constructive playoff evidence; no odds claims.
+- `../production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md`: user-supplied Week11 stakes applied to The Next Six, with mathematical-elimination wording checked.
 
-Opening Drive follows the published briefing-table/map/banner editorial composition. The rejected bridge-travel substitution is superseded. Both canonical 200-point characters appear on the cover. Individual full-page masters precede all sheet assembly.
+The cover depicts both canonical 200-point characters in their separate story contexts. Opening Drive follows the published briefing-table/map/banner design, not the rejected bridge journey. Optional W10-P32 remains omitted. Reading positions and six-sheet grouping are unchanged.
 
 ## Verification
 
-Run `python -m unittest -v test_render_contracts test_sheet_assembly` from this directory with Pillow installed. Twelve tests cover actual reference bytes, mirror equality, full copy, stable order, identity overrides, scoreboard pairings, provisional source scope, PNG geometry, grayscale and exact downstream compositing.
+From this directory, run the existing project environment:
 
-After individual page generation, run `assemble_review_sheets.py --masters <directory> --output <directory>`. It only scales existing complete page PNGs; it never invents or reinterprets scenes. No font files are distributed.
+```sh
+../../../.venv-audit/bin/python -m unittest -v test_final_results test_render_contracts test_sheet_assembly
+```
 
-## Production boundaries
+Tests cover final sources, copy/brief equality, canonical image bytes and overrides, exact pairings, current/Week10 snapshot separation, scoring form, playoff witnesses, user Week11 implications, geometry and downstream sheet assembly.
 
-Sports are freshly checked but still provisional because the provider has not decided the matches. Proof generation and final publication are separate. No merge, release, real-person signoff or approval of nonexistent artwork is claimed.
+## Production sequence
 
-The remaining publication-time work is event-dependent: refresh after provider finality, update all affected numbers and prose, and inspect actual generated output. Source recovery, published-art comparison, contract reconciliation, current-data audit and registered AI-role review have already been executed.
+Generate the requested individual grayscale full-page masters from the current requests; inspect each actual likeness, text and composition; assemble scaled3×2review sheets only from accepted1080×1920masters. The last sheet has four masters and two empty slots. Subsequent color generation uses those approved page compositions.
+
+Backend readiness is not artwork approval. Week11 remains a future fixture/availability snapshot, and later official stat corrections must be honored. No merge or publication has occurred.

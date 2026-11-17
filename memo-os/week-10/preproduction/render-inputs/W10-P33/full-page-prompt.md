@@ -80,66 +80,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/week11",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-FIXTURES",
-        "scope": "W11_FIXTURES",
-        "source": "SH",
-        "fixture_fields": [
-          "home",
-          "away"
-        ],
-        "fixtures": [
-          [
-            "T03",
-            "T09"
-          ],
-          [
-            "T06",
-            "T02"
-          ],
-          [
-            "T10",
-            "T11"
-          ],
-          [
-            "T01",
-            "T07"
-          ],
-          [
-            "T05",
-            "T08"
-          ],
-          [
-            "T12",
-            "T04"
-          ]
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "2618ce5500ad4348c573f9aceab79a196ba568314c40135c4923423cc5db904e",
+      "value_location": "facts.json#/week11",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T03/prior9_points_for",
+      "selector": "/teams/T03/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1420.7
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "4ebabe0529ef152cf722c883982dd303c45fd17c381018df950752e780fac893",
+      "value_location": "facts.json#/teams/T03/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

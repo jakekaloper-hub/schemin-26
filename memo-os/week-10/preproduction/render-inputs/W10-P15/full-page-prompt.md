@@ -159,114 +159,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/3",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G04",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T10",
-        "away": "T03",
-        "current_score": [
-          113.62,
-          179.29
-        ],
-        "away_lead": 65.67,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ef61320f2f00e59f5cb3b1273661b2e0b495d2cdf09dd1390731def98926af22",
+      "value_location": "facts.json#/games/3",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G04",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G04",
-        "current_team_ids": [
-          10,
-          3
-        ],
-        "current_team_names": [
-          "Mud Dogs",
-          "Slob on my Dobb"
-        ],
-        "title": "The 3.15-point consolation scrape",
-        "anchor_fact_id": "HIST-2025-W17-T03-T10",
-        "public_copy": "In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.",
-        "supported_stakes": "Losers-consolation game; it did not eliminate Mud from the championship.",
-        "creative_use_scope": "Use the remembered narrow scrape as contrast with the large current Week10 gap; avoid turning the consolation result into a playoff elimination.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W17-T03-T10",
-          "season": 2025,
-          "week": 17,
-          "calendar_date": null,
-          "home_team_id": 10,
-          "home_name_as_returned": "Mud Dogs",
-          "home_points": 97.13,
-          "away_team_id": 3,
-          "away_name_as_returned": "Slob on my Dobb",
-          "away_points": 100.28,
-          "winner_team_id": 3,
-          "winner_name_as_returned": "Slob on my Dobb",
-          "margin": 3.15,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "LOSERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/17/data/matchups/4",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 179.29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3117251/2",
-      "artifact": "facts.json",
-      "snapshot_value": 52.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3918298/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.84,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/4241389/2",
-      "artifact": "facts.json",
-      "snapshot_value": 20.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 113.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/scorers/3046779/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.52,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f928892281b83aeef75411ab42a1d639b7885cc6da1221e3587a38a3f6e2bc05",
+      "value_location": "facts.json#/historical_context/W10-G04",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

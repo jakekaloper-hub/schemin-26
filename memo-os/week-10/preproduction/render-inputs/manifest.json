@@ -1,4 +1,6 @@
 {
+  "source_finality": "W10_PROVIDER_FINAL",
+  "backend_ready": true,
   "stage": "GRAYSCALE_FOLIO_PROOF_INPUTS",
   "canvas": [
     1080,
@@ -36,7 +38,7 @@
       "request": "render-inputs/W10-P01/request.json",
       "reference_count": 6,
       "copy_words": 26,
-      "request_sha256": "99b8ed915eb15d621786c5e5ef4e43b3f8655e9b4f48b03696c1e04a5e7defcb"
+      "request_sha256": "0d9e43fcd9cf7823b006e4c59987b0400f959f0557a63c80f1d2138e1e8e4802"
     },
     {
       "page_id": "W10-P02",
@@ -47,8 +49,8 @@
       "characters": [],
       "request": "render-inputs/W10-P02/request.json",
       "reference_count": 3,
-      "copy_words": 151,
-      "request_sha256": "b150e8630a5dfe1e20dbf8a27f9c3c1e0d717f389e294fe3a7d216506c0a8f9e"
+      "copy_words": 149,
+      "request_sha256": "f401c453007ea16bf750fb5898071cbde5993ff5019d2ee8d31425a8c6a6f0c8"
     },
     {
       "page_id": "W10-P03",
@@ -59,8 +61,8 @@
       "characters": [],
       "request": "render-inputs/W10-P03/request.json",
       "reference_count": 2,
-      "copy_words": 128,
-      "request_sha256": "32c7f3f9ef895b03d0ca14328ec5e4c9c4cdb0e17aefed06c762f1979710fe3c"
+      "copy_words": 127,
+      "request_sha256": "a8a10165fc62d36900c2b6951bedd9d21b94e26d7355a1f20f03c0be1fab4648"
     },
     {
       "page_id": "W10-P04",
@@ -71,8 +73,8 @@
       "characters": [],
       "request": "render-inputs/W10-P04/request.json",
       "reference_count": 2,
-      "copy_words": 30,
-      "request_sha256": "d033af3bd22a53bf2a905aeccba28d55c07ee16dc245bb4abb1de0c7c87daa7c"
+      "copy_words": 35,
+      "request_sha256": "863913f6c78c4fad947b15e4a3c6d40b11751ff63af70d4db958a68a1195c4c2"
     },
     {
       "page_id": "W10-P05",
@@ -87,7 +89,7 @@
       "request": "render-inputs/W10-P05/request.json",
       "reference_count": 5,
       "copy_words": 79,
-      "request_sha256": "5733e6a1a339d5c3cae3fa7e82f7fd8a5cc85fbd15fae8a3f0c20f05dbe63c83"
+      "request_sha256": "539723277c80247bcbc59ec632cbac0b99635514b1414bdf20cf78f0df89c1f1"
     },
     {
       "page_id": "W10-P06",
@@ -102,7 +104,7 @@
       "request": "render-inputs/W10-P06/request.json",
       "reference_count": 5,
       "copy_words": 73,
-      "request_sha256": "769a3eae27deb0761508df909439b78d021e4e217e3f7e2ed9b75b80e95d5984"
+      "request_sha256": "a5c4c8e6b8bf8429fbaf6285c731ff33890c389ca69cda42d269123342cd6afe"
     },
     {
       "page_id": "W10-P07",
@@ -117,7 +119,7 @@
       "request": "render-inputs/W10-P07/request.json",
       "reference_count": 5,
       "copy_words": 65,
-      "request_sha256": "407307932646a119bf686e3653ec9aa7789902806f613e09c05a6fec0adcd689"
+      "request_sha256": "ee85050b3b4de539fb929f67b78c55ec4943f78e6cd8fefec85d0acdafef9989"
     },
     {
       "page_id": "W10-P08",
@@ -132,7 +134,7 @@
       "request": "render-inputs/W10-P08/request.json",
       "reference_count": 4,
       "copy_words": 91,
-      "request_sha256": "d38259f530a0224c344f1faee81ce21861e1ad92abbae4cb17a945c686b1f471"
+      "request_sha256": "29b5d820a493bb9864b2e9ca38e1b09a383ad6bc13d2338ae8622cea57a409c9"
     },
     {
       "page_id": "W10-P09",
@@ -147,7 +149,7 @@
       "request": "render-inputs/W10-P09/request.json",
       "reference_count": 4,
       "copy_words": 65,
-      "request_sha256": "35618ed7fdf7decbe5357e8cfca3e0617e4295fe4976936d312beee74d994c71"
+      "request_sha256": "8a8c12e6c59152cd11eb39d01ef578249e803405c6575f3319729a1bb4801be3"
     },
     {
       "page_id": "W10-P10",
@@ -161,8 +163,8 @@
       ],
       "request": "render-inputs/W10-P10/request.json",
       "reference_count": 4,
-      "copy_words": 77,
-      "request_sha256": "bf1f87012ce33ae215d539d8b85edf962df92b368a7672b8bd50e7db47d68711"
+      "copy_words": 76,
+      "request_sha256": "6812c1612f55f811f8d38d0ee6a0011548244eb3656eb11596b90f53a7ae6868"
     },
     {
       "page_id": "W10-P11",
@@ -174,7 +176,7 @@
       "request": "render-inputs/W10-P11/request.json",
       "reference_count": 2,
       "copy_words": 52,
-      "request_sha256": "d2c5126d238eb10f12b533093f277b137982beab63fb34b63cf3c6490126199b"
+      "request_sha256": "0f560fa15ed4c56131fb27f3021ef575d4bae6fda5c42c1b06f07127a550cfc5"
     },
     {
       "page_id": "W10-P12",
@@ -189,7 +191,7 @@
       "request": "render-inputs/W10-P12/request.json",
       "reference_count": 4,
       "copy_words": 68,
-      "request_sha256": "68f569b0be3660a1685489204bd974a19ee615bf7d149b7a9758440cfa7b26a9"
+      "request_sha256": "df898d0f2e71a90a5679729f359d79178ef78a9c3d13d4927fcd36624aabfaa4"
     },
     {
       "page_id": "W10-P13",
@@ -204,7 +206,7 @@
       "request": "render-inputs/W10-P13/request.json",
       "reference_count": 4,
       "copy_words": 75,
-      "request_sha256": "aa7e5eca4fb0362064514d83a4f4124c9c87c9bf37751b39cf05cf84b6e363fa"
+      "request_sha256": "55bceda896cb0edefd51dab0a1f090bf0c32d2eb36a4e26ba31bd39bfce44232"
     },
     {
       "page_id": "W10-P14",
@@ -219,7 +221,7 @@
       "request": "render-inputs/W10-P14/request.json",
       "reference_count": 4,
       "copy_words": 78,
-      "request_sha256": "936de1558e1ad7e2886d7d6581902d64c38ad0903aafab49112fa29947d5184b"
+      "request_sha256": "776506b92acf063756ad5c8cb03d447c0ff96dd4187e73100aedf4bb86e415f4"
     },
     {
       "page_id": "W10-P15",
@@ -234,7 +236,7 @@
       "request": "render-inputs/W10-P15/request.json",
       "reference_count": 4,
       "copy_words": 74,
-      "request_sha256": "4696a9bfc2b0e3282e10df814f65024a1a2b0c90b22a1b5b568eb018151a8e00"
+      "request_sha256": "2b22e7c8274910a644f296f5dc6580e1cb1fffb258571c4d3189d277f2c07e44"
     },
     {
       "page_id": "W10-P16",
@@ -249,7 +251,7 @@
       "request": "render-inputs/W10-P16/request.json",
       "reference_count": 4,
       "copy_words": 80,
-      "request_sha256": "37dfef9540fc5a82e486860475b354d35ff5d68a31df36ebfb018a02680225be"
+      "request_sha256": "617acaf9d76d9e58ca50e8a9bab4a5607a56d8a25d682942a277f4ede7534cb1"
     },
     {
       "page_id": "W10-P17",
@@ -263,8 +265,8 @@
       ],
       "request": "render-inputs/W10-P17/request.json",
       "reference_count": 4,
-      "copy_words": 85,
-      "request_sha256": "99ad80c06bdd97a3cf23141b770ade0b57dc7227cf618dd0d61683df26ea68ae"
+      "copy_words": 71,
+      "request_sha256": "2ed586780f5cde9a2483d18c1078d28677ff2df5d39f9a1764e25c9ce2dae733"
     },
     {
       "page_id": "W10-P18",
@@ -275,8 +277,8 @@
       "characters": [],
       "request": "render-inputs/W10-P18/request.json",
       "reference_count": 1,
-      "copy_words": 47,
-      "request_sha256": "c8fba58d9cc49c6ddda20abb8a2d0352fdbb0eb17799ea57103011666b84611e"
+      "copy_words": 70,
+      "request_sha256": "04692b99899fbed8f091145dd9fee03af7901e46771390307c94f0c1f20aea41"
     },
     {
       "page_id": "W10-P34",
@@ -287,8 +289,8 @@
       "characters": [],
       "request": "render-inputs/W10-P34/request.json",
       "reference_count": 2,
-      "copy_words": 92,
-      "request_sha256": "0b7e8ed3e21027543f060d09ee13c18bc0ee8ff36864217772c24ec62ab6f73c"
+      "copy_words": 93,
+      "request_sha256": "b50e699385a71b936530d2b4b457d514bc68a9bfb657a869ce620912fb815676"
     },
     {
       "page_id": "W10-P19",
@@ -303,7 +305,7 @@
       "request": "render-inputs/W10-P19/request.json",
       "reference_count": 5,
       "copy_words": 77,
-      "request_sha256": "94fcafd7ea207c4a92bf9ef83499f54211b4cc259a8ab8e23e83ceeb682de410"
+      "request_sha256": "5f9053d011fd1f8f42338ac30d89fbf48b1d5a65d491a7eb288144fc20fbf18c"
     },
     {
       "page_id": "W10-P20",
@@ -318,7 +320,7 @@
       "request": "render-inputs/W10-P20/request.json",
       "reference_count": 5,
       "copy_words": 63,
-      "request_sha256": "ba0ef9798038e9c0984e4d1699498a1e647053c8d1dbaf8fe7f583215d22fedc"
+      "request_sha256": "65e9fec1e9fc14d8ea037719264802f69612280351d187c47962b3820d58079e"
     },
     {
       "page_id": "W10-P21",
@@ -333,7 +335,7 @@
       "request": "render-inputs/W10-P21/request.json",
       "reference_count": 5,
       "copy_words": 69,
-      "request_sha256": "fbd19848c07aeee4eaf5d020ea1ec944abfcc8afec185675a79f1c3eec98af20"
+      "request_sha256": "c1ece3ebe756b2294225d0f495eefb2db5b82a574bab3ed5ee46d4c6267ea03b"
     },
     {
       "page_id": "W10-P22",
@@ -348,7 +350,7 @@
       "request": "render-inputs/W10-P22/request.json",
       "reference_count": 4,
       "copy_words": 66,
-      "request_sha256": "f910dc6e1c276a7b4ec09e984820759c95f080543a4729d977932cbaa3529a02"
+      "request_sha256": "650e5e48d4fcd2768af6379ae2f8bc01f662f10702d9f5d53c946263a5ee964d"
     },
     {
       "page_id": "W10-P23",
@@ -363,7 +365,7 @@
       "request": "render-inputs/W10-P23/request.json",
       "reference_count": 4,
       "copy_words": 66,
-      "request_sha256": "c0b5367a6752704f418dff8e793d66f954f420c1da5ab5e6b9e4b752bcc4ef5b"
+      "request_sha256": "1b1d442cc743e8903e5a8ad299165f0cb5c7b198fcf3c3cf655bab2299fe83d1"
     },
     {
       "page_id": "W10-P24",
@@ -377,8 +379,8 @@
       ],
       "request": "render-inputs/W10-P24/request.json",
       "reference_count": 3,
-      "copy_words": 72,
-      "request_sha256": "9e5cd144d69f4b547ca720d5c682a6704224500d5b73c74d3d75bfbe40349828"
+      "copy_words": 74,
+      "request_sha256": "7005b8e29754719c7c3e3fd5d471fa8ca794da4a83279273bedc1415ef5fbc4d"
     },
     {
       "page_id": "W10-P25",
@@ -389,8 +391,8 @@
       "characters": [],
       "request": "render-inputs/W10-P25/request.json",
       "reference_count": 1,
-      "copy_words": 44,
-      "request_sha256": "8a2b0dd3b39ead0a24dbd4916e255c7aa1a9753bb8099cb7b6b191c3fc1381a0"
+      "copy_words": 51,
+      "request_sha256": "955951528e658431e8e0c7f2f1d050f8d3bbe5e7fbb2df088a27c12ebfaa8294"
     },
     {
       "page_id": "W10-P26",
@@ -402,19 +404,19 @@
       "request": "render-inputs/W10-P26/request.json",
       "reference_count": 1,
       "copy_words": 47,
-      "request_sha256": "f164db19682cf6a28ba4454c35e60b6b7f491d9d1cb393e43a6d5e5d927ac276"
+      "request_sha256": "0abc0719dd5859a18917e22c967e4f2600f4b50e1d2cd7cfcf6805ad93832e43"
     },
     {
       "page_id": "W10-P27",
       "reading_position": 28,
       "sheet": 5,
       "slot": 4,
-      "title": "TWELVE TEAMS. NINE POSTED RESULTS.",
+      "title": "TWELVE TEAMS. TEN POSTED RESULTS.",
       "characters": [],
       "request": "render-inputs/W10-P27/request.json",
       "reference_count": 1,
-      "copy_words": 47,
-      "request_sha256": "d9a30aa3a9a6c7a0cf4a31780332320aa33ef7d485f420ed7727da920986bb5f"
+      "copy_words": 49,
+      "request_sha256": "f04e90b4599e78e16986e80299174bbe9f3b400cdf94e9172f5ff0279859e972"
     },
     {
       "page_id": "W10-P28",
@@ -425,8 +427,8 @@
       "characters": [],
       "request": "render-inputs/W10-P28/request.json",
       "reference_count": 1,
-      "copy_words": 45,
-      "request_sha256": "296e7e70cfc023bc0b38bdd47f29b2f081a91b292821dff2c137eb52e33175db"
+      "copy_words": 38,
+      "request_sha256": "4164e65b50f2a2c6c82ea8bf575ec99c628a33665f7fd5e7fc4afe8d5308cb6f"
     },
     {
       "page_id": "W10-P29",
@@ -437,8 +439,8 @@
       "characters": [],
       "request": "render-inputs/W10-P29/request.json",
       "reference_count": 1,
-      "copy_words": 52,
-      "request_sha256": "f6b915b98a3736e21a274a11bbe09154588beec4c93ac16d20e656bb1f0ddf18"
+      "copy_words": 55,
+      "request_sha256": "d946e3f402fc0cc9f9367406979e85324c9ba42304a00498b24188ea6a6d1750"
     },
     {
       "page_id": "W10-P30",
@@ -449,8 +451,8 @@
       "characters": [],
       "request": "render-inputs/W10-P30/request.json",
       "reference_count": 1,
-      "copy_words": 49,
-      "request_sha256": "9ece22032af8261fc1d2134df55b338f22dd9f3586a8a01e947401e9e9967693"
+      "copy_words": 47,
+      "request_sha256": "a0946a712446665cdb390deb964731716f7e8a53cf0d3856cf911cc9deee4b98"
     },
     {
       "page_id": "W10-P31",
@@ -461,8 +463,8 @@
       "characters": [],
       "request": "render-inputs/W10-P31/request.json",
       "reference_count": 1,
-      "copy_words": 68,
-      "request_sha256": "cd18633792aa0e1b3f5cee6bc14c8860e77d67ea7b5e92c6fcd1d92a61ca6da4"
+      "copy_words": 87,
+      "request_sha256": "5f130cb5a935e65ba2529b65af5f135d44e0c63ae0ca74d09d2bfb1f8918d4d7"
     },
     {
       "page_id": "W10-P35",
@@ -476,8 +478,8 @@
       ],
       "request": "render-inputs/W10-P35/request.json",
       "reference_count": 5,
-      "copy_words": 59,
-      "request_sha256": "cfa8e572c6ea684906113629d4540fe9fa1b63beb9b368717c06fd6a1660f36c"
+      "copy_words": 62,
+      "request_sha256": "7f74a6b8ed3cf92aae08cbe42239bb2e92e654f47e3572ee57e29a665958c883"
     },
     {
       "page_id": "W10-P33",
@@ -491,7 +493,7 @@
       "request": "render-inputs/W10-P33/request.json",
       "reference_count": 3,
       "copy_words": 60,
-      "request_sha256": "e7e1d79287f41c2d00c190629a7e1c8c8cafbba3931af28ea7eeff386bff8462"
+      "request_sha256": "3d66123e60fce039c0eba0098e05c7869ffa99a11f81c578786575fb6e46bd97"
     }
   ],
   "source_images_resolved": true,

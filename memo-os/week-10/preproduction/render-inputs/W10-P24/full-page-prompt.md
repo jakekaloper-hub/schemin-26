@@ -129,145 +129,51 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "Unlimited Firepower",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. In the current leading-score branch, that is the cruel difference between a heroic scene and a winning one. The final sports outcome remains unposted.",
-  "department_heading": "ObiWan Jacoby vs The LLC"
+  "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.",
+  "department_heading": "ObiWan Jacoby vs The LLC",
+  "result": {
+    "status": "FINAL",
+    "winner": "The LLC",
+    "winner_points": "203.96",
+    "loser": "ObiWan Jacoby",
+    "loser_points": "166.53",
+    "winner_record": "4–6",
+    "loser_record": "4–6",
+    "margin": "37.43",
+    "source": "SFINAL"
+  },
+  "football_context": "Joe Burrow 43.26; Isaiah Likely 30.70; Parker Washington 29.70; Trevor Lawrence 34.18."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/5",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G06",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T01",
-        "away": "T04",
-        "current_score": [
-          130.33,
-          203.96
-        ],
-        "away_lead": 73.63,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-3043078",
-          "W10-MNF-3116365"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T01",
-          "additional_points_strictly_greater_than": 73.63,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a031daa100cf394a90df4eca84f03103e7f49f298b9ffd88cbead7560316eda6",
+      "value_location": "facts.json#/games/5",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G06",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G06",
-        "current_team_ids": [
-          1,
-          4
-        ],
-        "current_team_names": [
-          "ObiWan Jacoby",
-          "The LLC"
-        ],
-        "title": "The LLC’s eight-tenths door",
-        "anchor_fact_id": "HIST-2024-W12-T01-T04",
-        "public_copy": "In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.",
-        "supported_stakes": "Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.",
-        "creative_use_scope": "Use this verified earlier razor-thin LLC win; do not call it their most recent meeting because the 2025 retrieval has gaps.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2024-W12-T01-T04",
-          "season": 2024,
-          "week": 12,
-          "calendar_date": null,
-          "home_team_id": 4,
-          "home_name_as_returned": "The LLC",
-          "home_points": 163.16,
-          "away_team_id": 1,
-          "away_name_as_returned": "ObiWan Jacoby",
-          "away_points": 162.36,
-          "winner_team_id": 4,
-          "winner_name_as_returned": "The LLC",
-          "margin": 0.8,
-          "provider_winner": "HOME",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2024/weeks/12/data/matchups/3",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "obiwan_2024_championship_won": true,
-          "obiwan_2024_final_rank": 1,
-          "llc_2024_final_rank": 7,
-          "outcome_confidence": "explicit",
-          "source_pointer": "/seasons/2024/standings/data/standings"
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 130.33,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/3126486/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.25,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/4360310/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.18,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 203.96,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/3915511/2",
-      "artifact": "facts.json",
-      "snapshot_value": 43.26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4361050/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4432620/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "0878647acfa07f91968e1119153585846c2de25f5122ec919782d10dcda6c321",
+      "value_location": "facts.json#/historical_context/W10-G06",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

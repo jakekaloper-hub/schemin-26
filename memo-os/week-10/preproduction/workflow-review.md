@@ -1,3 +1,5 @@
+> **Current authority: backend finalization completed2026-11-17.** This document is a historical workflow review. Use README.md, validation.json, final-league-snapshot.json and the current render-input manifest; old provisional directions do not override them.
+
 > Earlier workflow baseline retained as evidence. Current counts, completed reviews and remaining work are in [whole-issue-pass-03.md](whole-issue-pass-03.md) and [validation.json](validation.json).
 
 # Week 10 preproduction workflow audit

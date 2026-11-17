@@ -40,8 +40,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "THE WEEK 10 BOARD",
-  "deck": "Monday morning capture • All six results await ESPN finality",
-  "body": "Week 10 is still open. These six scorelines are the current board; Henry, Andrews, Flowers and Ravens D/ST remain tied to Monday night. The official results follow the final scoring.",
+  "deck": "Final Week 10 results • All six outcomes posted",
+  "body": "Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.",
   "callouts": [],
   "rows": [
     {
@@ -49,42 +49,42 @@ EXACT FULL PUBLICATION COPY
       "home_points": "93.70",
       "away_team": "D0nkey K0ng",
       "away_points": "156.67",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Red Leopards",
-      "home_points": "136.42",
+      "home_points": "147.82",
       "away_team": "El Niño",
       "away_points": "189.08",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Three Dreaded Snake",
-      "home_points": "75.78",
+      "home_points": "82.78",
       "away_team": "Seven Deadly Chins",
       "away_points": "146.22",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Mud Dogs",
       "home_points": "113.62",
       "away_team": "Slob on my Dobb",
       "away_points": "179.29",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Dr. Duckhook",
       "home_points": "127.67",
       "away_team": "His Majesty's Blood",
       "away_points": "208.76",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "ObiWan Jacoby",
-      "home_points": "130.33",
+      "home_points": "166.53",
       "away_team": "The LLC",
       "away_points": "203.96",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     }
   ],
   "department_heading": "SCOREBOARD"
@@ -92,210 +92,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": [
-        {
-          "fact_id": "W10-G01",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T07",
-          "away": "T05",
-          "current_score": [
-            93.7,
-            156.67
-          ],
-          "away_lead": 62.97,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [],
-          "scheduled_starters_complete": true,
-          "overtake": null
-        },
-        {
-          "fact_id": "W10-G02",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T02",
-          "away": "T09",
-          "current_score": [
-            136.42,
-            189.08
-          ],
-          "away_lead": 52.66,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [
-            "W10-MNF-4429615"
-          ],
-          "scheduled_starters_complete": false,
-          "overtake": {
-            "scope": "CONDITIONAL",
-            "team": "T02",
-            "additional_points_strictly_greater_than": 52.66,
-            "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-            "assumptions": [
-              "captured lineup unchanged",
-              "other current scores unchanged except listed remaining starters"
-            ]
-          }
-        },
-        {
-          "fact_id": "W10-G03",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T06",
-          "away": "T11",
-          "current_score": [
-            75.78,
-            146.22
-          ],
-          "away_lead": 70.44,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [
-            "W10-MNF--16033"
-          ],
-          "scheduled_starters_complete": false,
-          "overtake": {
-            "scope": "CONDITIONAL",
-            "team": "T06",
-            "additional_points_strictly_greater_than": 70.44,
-            "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-            "assumptions": [
-              "captured lineup unchanged",
-              "other current scores unchanged except listed remaining starters"
-            ]
-          }
-        },
-        {
-          "fact_id": "W10-G04",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T10",
-          "away": "T03",
-          "current_score": [
-            113.62,
-            179.29
-          ],
-          "away_lead": 65.67,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [],
-          "scheduled_starters_complete": true,
-          "overtake": null
-        },
-        {
-          "fact_id": "W10-G05",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T12",
-          "away": "T08",
-          "current_score": [
-            127.67,
-            208.76
-          ],
-          "away_lead": 81.09,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [],
-          "scheduled_starters_complete": true,
-          "overtake": null
-        },
-        {
-          "fact_id": "W10-G06",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T01",
-          "away": "T04",
-          "current_score": [
-            130.33,
-            203.96
-          ],
-          "away_lead": 73.63,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [
-            "W10-MNF-3043078",
-            "W10-MNF-3116365"
-          ],
-          "scheduled_starters_complete": false,
-          "overtake": {
-            "scope": "CONDITIONAL",
-            "team": "T01",
-            "additional_points_strictly_greater_than": 73.63,
-            "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-            "assumptions": [
-              "captured lineup unchanged",
-              "other current scores unchanged except listed remaining starters"
-            ]
-          }
-        }
-      ]
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "93165cd91a2b2bfa8e7984db7f2c52c4aa8ecf8bd62e6fa78fe9bc8a8099bc63",
+      "value_location": "facts.json#/games",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/mnf",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-MNF",
-        "scope": "MNF_SCHEDULE_DEPENDENCY",
-        "sources": [
-          "SH",
-          "SNFL"
-        ],
-        "game": "Los Angeles Chargers at Baltimore Ravens",
-        "kickoff_et": "2026-11-16T20:15:00-05:00",
-        "starter_count": 4,
-        "starters": [
-          {
-            "fact_id": "W10-MNF-3043078",
-            "team": "T01",
-            "player_id": "3043078",
-            "name": "Derrick Henry",
-            "club": "BAL",
-            "slot": "RB",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-3116365",
-            "team": "T01",
-            "player_id": "3116365",
-            "name": "Mark Andrews",
-            "club": "BAL",
-            "slot": "FLEX",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-4429615",
-            "team": "T02",
-            "player_id": "4429615",
-            "name": "Zay Flowers",
-            "club": "BAL",
-            "slot": "WR/TE",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF--16033",
-            "team": "T06",
-            "player_id": "-16033",
-            "name": "Ravens D/ST",
-            "club": "BAL",
-            "slot": "D/ST",
-            "points_at_capture": 0
-          }
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "30dfeb59435e969edcca13bb0377df63d56c55dde4b3a9bc17e47844de6e5665",
+      "value_location": "facts.json#/mnf",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

@@ -40,8 +40,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "THE TWELVE — SCORING FORM",
-  "deck": "Live Week 10 index • Extra weight on the current week",
-  "body": "Slob on my Dobb leads the live scoring-form index, followed by His Majesty's Blood and The LLC. The established formula weights season points per game at 70% and this week at 30%. It measures scoring already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
+  "deck": "Final Week 10 scoring index • Not playoff seeding",
+  "body": "Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
   "callouts": [],
   "rows": [
     {
@@ -66,28 +66,28 @@ EXACT FULL PUBLICATION COPY
     },
     {
       "rank": 5,
+      "team": "ObiWan Jacoby",
+      "index": "146.87"
+    },
+    {
+      "rank": 6,
       "team": "D0nkey K0ng",
       "index": "145.83"
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "team": "Red Leopards",
+      "index": "142.66"
+    },
+    {
+      "rank": 8,
       "team": "Dr. Duckhook",
       "index": "139.95"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "team": "Seven Deadly Chins",
       "index": "138.83"
-    },
-    {
-      "rank": 8,
-      "team": "Red Leopards",
-      "index": "138.44"
-    },
-    {
-      "rank": 9,
-      "team": "ObiWan Jacoby",
-      "index": "133.48"
     },
     {
       "rank": 10,
@@ -102,7 +102,7 @@ EXACT FULL PUBLICATION COPY
     {
       "rank": 12,
       "team": "Three Dreaded Snake",
-      "index": "111.81"
+      "index": "114.40"
     }
   ],
   "department_heading": "SCORING FORM"
@@ -110,138 +110,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
-      "selector": "/provisional_scoring_form",
+      "selector": "/scoring_form",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-SCORING-FORM",
-        "scope": "PROVISIONAL_SCORING_FORM",
-        "source_inputs": [
-          "S10",
-          "SH"
-        ],
-        "formula": "0.70 * ((prior9_points_for + current_week10_points) / 10) + 0.30 * current_week10_points",
-        "weights": {
-          "season_ppg_through10_including_live": 0.7,
-          "current_week10_points": 0.3
-        },
-        "display_rounding": "2 decimals, half up; sort by unrounded value",
-        "row_fields": [
-          "team",
-          "season_ppg_through10_including_live",
-          "unrounded_form",
-          "display_form"
-        ],
-        "rows": [
-          [
-            "T03",
-            159.999,
-            165.7863,
-            165.79
-          ],
-          [
-            "T08",
-            145.195,
-            164.2645,
-            164.26
-          ],
-          [
-            "T04",
-            144.925,
-            162.6355,
-            162.64
-          ],
-          [
-            "T09",
-            145.003,
-            158.2261,
-            158.23
-          ],
-          [
-            "T05",
-            141.182,
-            145.8284,
-            145.83
-          ],
-          [
-            "T12",
-            145.215,
-            139.9515,
-            139.95
-          ],
-          [
-            "T11",
-            135.662,
-            138.8294,
-            138.83
-          ],
-          [
-            "T02",
-            139.311,
-            138.4437,
-            138.44
-          ],
-          [
-            "T01",
-            134.831,
-            133.4807,
-            133.48
-          ],
-          [
-            "T07",
-            138.479,
-            125.0453,
-            125.05
-          ],
-          [
-            "T10",
-            118.135,
-            116.7805,
-            116.78
-          ],
-          [
-            "T06",
-            127.246,
-            111.8062,
-            111.81
-          ]
-        ],
-        "tie_breakers": [
-          "current Week10 points descending",
-          "stable team ID ascending"
-        ],
-        "week9_published_order": [
-          "T03",
-          "T12",
-          "T07",
-          "T05",
-          "T06",
-          "T01",
-          "T08",
-          "T04",
-          "T09",
-          "T02",
-          "T11",
-          "T10"
-        ],
-        "week9_order_source": "Week9 Shareable_v2 physical page30; source SDIV identifies PDF"
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "7df7f57a48724c2876bf88f7e0aa5e73e74c59ad93cc2f14d753a3047bb5e09c",
+      "value_location": "facts.json#/scoring_form",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

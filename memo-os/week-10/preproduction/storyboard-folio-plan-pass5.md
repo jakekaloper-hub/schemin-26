@@ -24,7 +24,7 @@ Cast: No invented principal character
 
 Full copy:
 
-By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards's sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games remaining after this one, the question was no longer simply who won. It was what each result would leave behind.
+By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.
 
 Input: `render-inputs/W10-P02/request.json`
 
@@ -36,7 +36,7 @@ Cast: No invented principal character
 
 Full copy:
 
-There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. Tonight's remaining starters can still move the board. When those numbers settle, the next week will ask each of us what we have left to field.
+There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. The numbers have settled, and six teams now share 6–4 records. The next week will ask each of us what we have left to field.
 
 Input: `render-inputs/W10-P03/request.json`
 
@@ -48,7 +48,7 @@ Cast: No invented principal character
 
 Full copy:
 
-Week 10 is still open. These six scorelines are the current board; Henry, Andrews, Flowers and Ravens D/ST remain tied to Monday night. The official results follow the final scoring.
+Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.
 
 Input: `render-inputs/W10-P04/request.json`
 
@@ -72,7 +72,7 @@ Cast: The Chili Cheesers, D0nkey K0ng
 
 Full copy:
 
-The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers's own decision to flee have done the work.
+The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers’ own decision to flee have done the work.
 
 Input: `render-inputs/W10-P06/request.json`
 
@@ -120,7 +120,7 @@ Cast: Red Leopards, El Niño
 
 Full copy:
 
-The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs somewhere inside the moving cloud, and the old semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.
+The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs across the rain-swept court, and the 2022 semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.
 
 Input: `render-inputs/W10-P10/request.json`
 
@@ -204,7 +204,7 @@ Cast: Mud Dogs, Slob on my Dobb
 
 Full copy:
 
-The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: the seventh playoff place is still mathematically reachable under the current scenario. But another loss next week could make the joke look less like a joke. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.
+The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: at 2–8, a narrow division-title route still exists. Another loss closes it. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.
 
 Input: `render-inputs/W10-P17/request.json`
 
@@ -216,7 +216,7 @@ Cast: No invented principal character
 
 Full copy:
 
-McCaffrey’s 52.60 drives Slob on my Dobb. His Majesty's Blood’s Purdy–Hubbard–Smith-Njigba trio supplies 113.86; The LLC’s Burrow–Likely–Washington trio adds 103.66. Dr. Duckhook answers with Gibbs’ 47.40. El Niño reaches 189.08 while Pickens’ 44.50 stays on the bench. These are current contributions; Monday can still change the board.
+Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.
 
 Input: `render-inputs/W10-P18/request.json`
 
@@ -228,7 +228,7 @@ Cast: No invented principal character
 
 Full copy:
 
-Dr. Duckhook’s Maye faces a reported extended absence; a season-ending outcome remains unconfirmed. Mud Dogs’ Marks left with a concussion, with Houston playing Thursday. The Chili Cheesers awaits Bowers’ ankle follow-up. Three Dreaded Snake adds Brown’s hamstring exit to a crowded receiver watch. Hutchinson’s reported season-ending ACL loss affects His Majesty's Blood through reserve Lions D/ST. The LLC’s Michael Wilson is already out for the season; that injury dates to November 8. ObiWan Jacoby’s Puka cannot return before Week 15; Red Leopards’ Lamar has a prolonged recovery without a fixed return date.
+Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s confirmed season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.
 
 Input: `render-inputs/W10-P34/request.json`
 
@@ -300,7 +300,7 @@ Cast: ObiWan Jacoby, The LLC
 
 Full copy:
 
-ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. In the current leading-score branch, that is the cruel difference between a heroic scene and a winning one. The final sports outcome remains unposted.
+ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.
 
 Input: `render-inputs/W10-P24/request.json`
 
@@ -312,7 +312,7 @@ Cast: No invented principal character
 
 Full copy:
 
-Six NFL clubs are on bye. On the current Schemin rosters, six teams lack an owned replacement at seven required positions. These are planning needs, not completed moves. The separate reserve ledger still records fantasy IR occupancy without turning that placement into a diagnosis.
+Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.
 
 Input: `render-inputs/W10-P25/request.json`
 
@@ -328,7 +328,7 @@ The Week 10 window contains 29 completed transactions. Pending and unsuccessful 
 
 Input: `render-inputs/W10-P26/request.json`
 
-## 28 · W10-P27 — TWELVE TEAMS. NINE POSTED RESULTS.
+## 28 · W10-P27 — TWELVE TEAMS. TEN POSTED RESULTS.
 
 Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present.
 
@@ -336,7 +336,7 @@ Cast: No invented principal character
 
 Full copy:
 
-This is the official table through nine completed games. Dr. Duckhook entered alone at 6–3; seven teams followed at 5–4. Week 10’s scoring belongs on the live board until ESPN posts its outcomes. Equal records can occupy different seeds, so the order below follows the provider’s table.
+Six teams share 6–4 records, with Slob on my Dobb first in the provider’s seeding and first in total points. Red Leopards and The Chili Cheesers follow at 5–5. Equal records do not mean interchangeable seeds: the order below preserves ESPN’s posted table, including the division and tiebreak structure.
 
 Input: `render-inputs/W10-P27/request.json`
 
@@ -348,7 +348,7 @@ Cast: No invented principal character
 
 Full copy:
 
-If the current leads hold, six teams will share 6–4 records. Pizza would contain three of them; Wings two; Burgers one. The same record will mean different pressure in different divisions. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.
+Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.
 
 Input: `render-inputs/W10-P28/request.json`
 
@@ -360,7 +360,7 @@ Cast: No invented principal character
 
 Full copy:
 
-Slob on my Dobb leads the live scoring-form index, followed by His Majesty's Blood and The LLC. The established formula weights season points per game at 70% and this week at 30%. It measures scoring already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.
+Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.
 
 Input: `render-inputs/W10-P29/request.json`
 
@@ -372,7 +372,7 @@ Cast: No invented principal character
 
 Full copy:
 
-Under the current-leads-hold table, all twelve teams still have a route and none has clinched. Mud Dogs can still win the Burgers division at 6–8 through a specific set of results. Another loss would close that route. Four games remain after this week: one crossover, then three divisional rounds.
+All twelve teams still have a route, and none has clinched. At 2–8, Mud Dogs can still win Burgers at 6–8 through a specific set of results. A further loss eliminates that possibility and the remaining shared-place route. Four games remain: one crossover, then three divisional rounds.
 
 Input: `render-inputs/W10-P30/request.json`
 
@@ -384,7 +384,7 @@ Cast: No invented principal character
 
 Full copy:
 
-His Majesty's Blood visits D0nkey K0ng in the leading Game of the Week candidate. El Niño reaches Slob on my Dobb’s schedule while both must fill a tight-end bye. Seven Deadly Chins visits a Mud Dogs side facing a conditional elimination game. Red Leopards and Three Dreaded Snake meet under receiver and running-back pressure; The Chili Cheesers visits ObiWan Jacoby; The LLC tests Dr. Duckhook’s changing quarterback plan.
+His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.
 
 Input: `render-inputs/W10-P31/request.json`
 
@@ -396,7 +396,7 @@ Cast: His Majesty's Blood, D0nkey K0ng
 
 Full copy:
 
-Two commanding Sundays lead toward the same crossing. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise beat His Majesty's Blood’s 179.68–111.42. That memory gives this visit an edge. Both would arrive at 6–4 if the current leads hold, but both must replace two current starters on NFL byes. One more test comes before the division games return.
+Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.
 
 Input: `render-inputs/W10-P35/request.json`
 

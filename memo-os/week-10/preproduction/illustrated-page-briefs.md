@@ -114,7 +114,6 @@ SCENE AND CONTINUITY
     "Cover editorial synthesis does not create a shared encounter, alliance, crown or belt transfer."
   ],
   "forbidden_mutations": [
-    "FINAL winner labels",
     "All-time record claim",
     "Crown on His Majesty's Blood",
     "Belt moved to another owner",
@@ -130,11 +129,11 @@ EXACT FULL PUBLICATION COPY
   "callouts": [
     {
       "label": "HIS MAJESTY’S BLOOD",
-      "value": "208.76 · current"
+      "value": "208.76 · FINAL"
     },
     {
-      "label": "THE The LLC",
-      "value": "203.96 · current"
+      "label": "THE LLC",
+      "value": "203.96 · FINAL"
     }
   ],
   "rows": [],
@@ -143,78 +142,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/history_200",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-FIRST200",
-        "historical_scope": "W09_FINAL",
-        "current_scope": "W10_LIVE",
-        "source": "SH",
-        "completed_weeks_checked": [
-          1,
-          9
-        ],
-        "team_week_observations": 108,
-        "prior_200_plus_count": 0,
-        "prior_league_season_high": {
-          "team": "T07",
-          "week": 1,
-          "points": 198
-        },
-        "current_first_two_observed_200_plus": [
-          "T08",
-          "T04"
-        ],
-        "claim_limit": "2026 season through this capture; not all-time; current values subject to correction",
-        "new_personal_season_highs": [
-          [
-            "T08",
-            208.76,
-            177.32,
-            4
-          ],
-          [
-            "T04",
-            203.96,
-            193.73,
-            5
-          ],
-          [
-            "T09",
-            189.08,
-            170.62,
-            4
-          ]
-        ],
-        "personal_high_fields": [
-          "team",
-          "current",
-          "previous_best",
-          "previous_week"
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a9152a8e04c95f0fced1112ba69905652dd206af450fcf1e35666e2a54bd469c",
+      "value_location": "facts.json#/history_200",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/teams/T08/current_points",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 208.76
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "2ffc03ad0efa364356d32d7caa2b25b132cc6e524dd8cc6c2c6247064cd1d410",
+      "value_location": "facts.json#/teams/T08/current_points",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/teams/T04/current_points",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 203.96
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "414a3f831a9c86dfdad813847527ee6f39c15316223a02a13d6a503ec99123c9",
+      "value_location": "facts.json#/teams/T04/current_points",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -345,7 +308,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "ROOM ABOVE TWO HUNDRED",
   "deck": "The week the pressure reached everyone",
-  "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards's sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games remaining after this one, the question was no longer simply who won. It was what each result would leave behind.",
+  "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.",
   "callouts": [],
   "rows": [],
   "department_heading": "OPENING DRIVE"
@@ -353,168 +316,51 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/history_200",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-FIRST200",
-        "historical_scope": "W09_FINAL",
-        "current_scope": "W10_LIVE",
-        "source": "SH",
-        "completed_weeks_checked": [
-          1,
-          9
-        ],
-        "team_week_observations": 108,
-        "prior_200_plus_count": 0,
-        "prior_league_season_high": {
-          "team": "T07",
-          "week": 1,
-          "points": 198
-        },
-        "current_first_two_observed_200_plus": [
-          "T08",
-          "T04"
-        ],
-        "claim_limit": "2026 season through this capture; not all-time; current values subject to correction",
-        "new_personal_season_highs": [
-          [
-            "T08",
-            208.76,
-            177.32,
-            4
-          ],
-          [
-            "T04",
-            203.96,
-            193.73,
-            5
-          ],
-          [
-            "T09",
-            189.08,
-            170.62,
-            4
-          ]
-        ],
-        "personal_high_fields": [
-          "team",
-          "current",
-          "previous_best",
-          "previous_week"
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a9152a8e04c95f0fced1112ba69905652dd206af450fcf1e35666e2a54bd469c",
+      "value_location": "facts.json#/history_200",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/rules",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "scope": "ESTABLISHED_APPROVED_RULES",
-        "regular_season_weeks": 14,
-        "playoff_berths": 7,
-        "division_winner_berths": 3,
-        "shared_berths": 4,
-        "division_return_weeks": [
-          12,
-          13,
-          14
-        ],
-        "remaining_after_week10_per_team": 4,
-        "remaining_after_week10_league_games": 24,
-        "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json",
-        "pass3_authority": {
-          "regular_season_weeks": 14,
-          "playoff_berths": 7,
-          "automatic_division_winner_berths": 3,
-          "shared_berths": 4,
-          "division_return_weeks": [
-            12,
-            13,
-            14
-          ],
-          "remaining_after_week10_games_per_team": 4,
-          "remaining_after_week10_league_games": 24,
-          "playoffSeedingRule_raw": "H2H_RECORD",
-          "matchupTieRule_raw": "SLOT_POINTS",
-          "matchupTieRuleBy_raw": 20,
-          "playoffMatchupTieRule_raw": "NONE",
-          "playoffMatchupPeriodLength": 1,
-          "provider_isPlayoffMatchupEdited": false,
-          "rule_authority": "Fresh ESPN roster homeFacts confirms seven playoff teams; league_info confirms H2H_RECORD. Approved Week9 Shareable_v2 physical page31 explicitly publishes three automatic division berths, four shared berths and Weeks12–14 divisional return; page29 identifies memberships. Fresh Weeks11–14 fixtures match these rules.",
-          "provider_limit": "Fresh league_info does not expose regular-season length or the full commissioner-specific tie waterfall. Published Week9 rules provide the regular-season/division framework; ESPN H2H documentation provides the default equal-schedule H2H handling. No unreported override assumed."
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a0f2e4aee2d91b582481355a265df833b20a771cf1a2bee6a64b31e6630837af",
+      "value_location": "facts.json#/rules",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/mnf",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-MNF",
-        "scope": "MNF_SCHEDULE_DEPENDENCY",
-        "sources": [
-          "SH",
-          "SNFL"
-        ],
-        "game": "Los Angeles Chargers at Baltimore Ravens",
-        "kickoff_et": "2026-11-16T20:15:00-05:00",
-        "starter_count": 4,
-        "starters": [
-          {
-            "fact_id": "W10-MNF-3043078",
-            "team": "T01",
-            "player_id": "3043078",
-            "name": "Derrick Henry",
-            "club": "BAL",
-            "slot": "RB",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-3116365",
-            "team": "T01",
-            "player_id": "3116365",
-            "name": "Mark Andrews",
-            "club": "BAL",
-            "slot": "FLEX",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-4429615",
-            "team": "T02",
-            "player_id": "4429615",
-            "name": "Zay Flowers",
-            "club": "BAL",
-            "slot": "WR/TE",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF--16033",
-            "team": "T06",
-            "player_id": "-16033",
-            "name": "Ravens D/ST",
-            "club": "BAL",
-            "slot": "D/ST",
-            "points_at_capture": 0
-          }
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "30dfeb59435e969edcca13bb0377df63d56c55dde4b3a9bc17e47844de6e5665",
+      "value_location": "facts.json#/mnf",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -604,8 +450,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "KEEP THE WHOLE LEAGUE IN VIEW",
-  "deck": "Commissioner’s note • Draft address",
-  "body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. Tonight's remaining starters can still move the board. When those numbers settle, the next week will ask each of us what we have left to field.",
+  "deck": "Commissioner’s note • After Week 10",
+  "body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. The numbers have settled, and six teams now share 6–4 records. The next week will ask each of us what we have left to field.",
   "callouts": [],
   "rows": [],
   "department_heading": "FROM THE COMMISSIONER"
@@ -613,68 +459,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/rules",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "scope": "ESTABLISHED_APPROVED_RULES",
-        "regular_season_weeks": 14,
-        "playoff_berths": 7,
-        "division_winner_berths": 3,
-        "shared_berths": 4,
-        "division_return_weeks": [
-          12,
-          13,
-          14
-        ],
-        "remaining_after_week10_per_team": 4,
-        "remaining_after_week10_league_games": 24,
-        "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json",
-        "pass3_authority": {
-          "regular_season_weeks": 14,
-          "playoff_berths": 7,
-          "automatic_division_winner_berths": 3,
-          "shared_berths": 4,
-          "division_return_weeks": [
-            12,
-            13,
-            14
-          ],
-          "remaining_after_week10_games_per_team": 4,
-          "remaining_after_week10_league_games": 24,
-          "playoffSeedingRule_raw": "H2H_RECORD",
-          "matchupTieRule_raw": "SLOT_POINTS",
-          "matchupTieRuleBy_raw": 20,
-          "playoffMatchupTieRule_raw": "NONE",
-          "playoffMatchupPeriodLength": 1,
-          "provider_isPlayoffMatchupEdited": false,
-          "rule_authority": "Fresh ESPN roster homeFacts confirms seven playoff teams; league_info confirms H2H_RECORD. Approved Week9 Shareable_v2 physical page31 explicitly publishes three automatic division berths, four shared berths and Weeks12–14 divisional return; page29 identifies memberships. Fresh Weeks11–14 fixtures match these rules.",
-          "provider_limit": "Fresh league_info does not expose regular-season length or the full commissioner-specific tie waterfall. Published Week9 rules provide the regular-season/division framework; ESPN H2H documentation provides the default equal-schedule H2H handling. No unreported override assumed."
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a0f2e4aee2d91b582481355a265df833b20a771cf1a2bee6a64b31e6630837af",
+      "value_location": "facts.json#/rules",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -751,8 +571,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "THE WEEK 10 BOARD",
-  "deck": "Monday morning capture • All six results await ESPN finality",
-  "body": "Week 10 is still open. These six scorelines are the current board; Henry, Andrews, Flowers and Ravens D/ST remain tied to Monday night. The official results follow the final scoring.",
+  "deck": "Final Week 10 results • All six outcomes posted",
+  "body": "Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.",
   "callouts": [],
   "rows": [
     {
@@ -760,42 +580,42 @@ EXACT FULL PUBLICATION COPY
       "home_points": "93.70",
       "away_team": "D0nkey K0ng",
       "away_points": "156.67",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Red Leopards",
-      "home_points": "136.42",
+      "home_points": "147.82",
       "away_team": "El Niño",
       "away_points": "189.08",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Three Dreaded Snake",
-      "home_points": "75.78",
+      "home_points": "82.78",
       "away_team": "Seven Deadly Chins",
       "away_points": "146.22",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Mud Dogs",
       "home_points": "113.62",
       "away_team": "Slob on my Dobb",
       "away_points": "179.29",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "Dr. Duckhook",
       "home_points": "127.67",
       "away_team": "His Majesty's Blood",
       "away_points": "208.76",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     },
     {
       "home_team": "ObiWan Jacoby",
-      "home_points": "130.33",
+      "home_points": "166.53",
       "away_team": "The LLC",
       "away_points": "203.96",
-      "status": "PROVISIONAL"
+      "status": "FINAL"
     }
   ],
   "department_heading": "SCOREBOARD"
@@ -803,210 +623,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": [
-        {
-          "fact_id": "W10-G01",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T07",
-          "away": "T05",
-          "current_score": [
-            93.7,
-            156.67
-          ],
-          "away_lead": 62.97,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [],
-          "scheduled_starters_complete": true,
-          "overtake": null
-        },
-        {
-          "fact_id": "W10-G02",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T02",
-          "away": "T09",
-          "current_score": [
-            136.42,
-            189.08
-          ],
-          "away_lead": 52.66,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [
-            "W10-MNF-4429615"
-          ],
-          "scheduled_starters_complete": false,
-          "overtake": {
-            "scope": "CONDITIONAL",
-            "team": "T02",
-            "additional_points_strictly_greater_than": 52.66,
-            "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-            "assumptions": [
-              "captured lineup unchanged",
-              "other current scores unchanged except listed remaining starters"
-            ]
-          }
-        },
-        {
-          "fact_id": "W10-G03",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T06",
-          "away": "T11",
-          "current_score": [
-            75.78,
-            146.22
-          ],
-          "away_lead": 70.44,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [
-            "W10-MNF--16033"
-          ],
-          "scheduled_starters_complete": false,
-          "overtake": {
-            "scope": "CONDITIONAL",
-            "team": "T06",
-            "additional_points_strictly_greater_than": 70.44,
-            "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-            "assumptions": [
-              "captured lineup unchanged",
-              "other current scores unchanged except listed remaining starters"
-            ]
-          }
-        },
-        {
-          "fact_id": "W10-G04",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T10",
-          "away": "T03",
-          "current_score": [
-            113.62,
-            179.29
-          ],
-          "away_lead": 65.67,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [],
-          "scheduled_starters_complete": true,
-          "overtake": null
-        },
-        {
-          "fact_id": "W10-G05",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T12",
-          "away": "T08",
-          "current_score": [
-            127.67,
-            208.76
-          ],
-          "away_lead": 81.09,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [],
-          "scheduled_starters_complete": true,
-          "overtake": null
-        },
-        {
-          "fact_id": "W10-G06",
-          "scope": "W10_LIVE",
-          "source": "S10",
-          "home": "T01",
-          "away": "T04",
-          "current_score": [
-            130.33,
-            203.96
-          ],
-          "away_lead": 73.63,
-          "provider_winner": "UNDECIDED",
-          "final_winner": null,
-          "remaining_starter_fact_ids": [
-            "W10-MNF-3043078",
-            "W10-MNF-3116365"
-          ],
-          "scheduled_starters_complete": false,
-          "overtake": {
-            "scope": "CONDITIONAL",
-            "team": "T01",
-            "additional_points_strictly_greater_than": 73.63,
-            "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-            "assumptions": [
-              "captured lineup unchanged",
-              "other current scores unchanged except listed remaining starters"
-            ]
-          }
-        }
-      ]
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "93165cd91a2b2bfa8e7984db7f2c52c4aa8ecf8bd62e6fa78fe9bc8a8099bc63",
+      "value_location": "facts.json#/games",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/mnf",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-MNF",
-        "scope": "MNF_SCHEDULE_DEPENDENCY",
-        "sources": [
-          "SH",
-          "SNFL"
-        ],
-        "game": "Los Angeles Chargers at Baltimore Ravens",
-        "kickoff_et": "2026-11-16T20:15:00-05:00",
-        "starter_count": 4,
-        "starters": [
-          {
-            "fact_id": "W10-MNF-3043078",
-            "team": "T01",
-            "player_id": "3043078",
-            "name": "Derrick Henry",
-            "club": "BAL",
-            "slot": "RB",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-3116365",
-            "team": "T01",
-            "player_id": "3116365",
-            "name": "Mark Andrews",
-            "club": "BAL",
-            "slot": "FLEX",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-4429615",
-            "team": "T02",
-            "player_id": "4429615",
-            "name": "Zay Flowers",
-            "club": "BAL",
-            "slot": "WR/TE",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF--16033",
-            "team": "T06",
-            "player_id": "-16033",
-            "name": "Ravens D/ST",
-            "club": "BAL",
-            "slot": "D/ST",
-            "points_at_capture": 0
-          }
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "30dfeb59435e969edcca13bb0377df63d56c55dde4b3a9bc17e47844de6e5665",
+      "value_location": "facts.json#/mnf",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -1223,114 +866,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/0",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G01",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T07",
-        "away": "T05",
-        "current_score": [
-          93.7,
-          156.67
-        ],
-        "away_lead": 62.97,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "52f431e7f5dd26f4eadb489610fa97475e438ffc3f230cccf695afdb8a06781f",
+      "value_location": "facts.json#/games/0",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G01",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G01",
-        "current_team_ids": [
-          7,
-          5
-        ],
-        "current_team_names": [
-          "The Chili Cheesers",
-          "D0nkey K0ng"
-        ],
-        "title": "The earlier consolation defeat",
-        "anchor_fact_id": "HIST-2025-W16-T05-T07",
-        "public_copy": "In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.",
-        "supported_stakes": "Winners-consolation game, not a championship elimination.",
-        "creative_use_scope": "A concrete prior defeat for Chili against the same verified Wilson persona; do not inflate its championship stakes.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T05-T07",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 7,
-          "home_name_as_returned": "The Chili Cheesers ",
-          "home_points": 128.72,
-          "away_team_id": 5,
-          "away_name_as_returned": "Baker Moore Purdy",
-          "away_points": 144.3,
-          "winner_team_id": 5,
-          "winner_name_as_returned": "Baker Moore Purdy",
-          "margin": 15.58,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 156.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/scorers/2577417/2",
-      "artifact": "facts.json",
-      "snapshot_value": 45.82,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 93.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4374302/2",
-      "artifact": "facts.json",
-      "snapshot_value": 27.8,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4685720/2",
-      "artifact": "facts.json",
-      "snapshot_value": 8.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4696981/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "8e57b50dd91a9c1752bf6d8a332eaf23f063a16e693bb01fdbd216a43437043b",
+      "value_location": "facts.json#/historical_context/W10-G01",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -1580,120 +1142,39 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "The Ring Runs Out",
   "deck": "The Chili Cheesers vs D0nkey K0ng",
-  "body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers's own decision to flee have done the work.",
+  "body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers’ own decision to flee have done the work.",
   "department_heading": "The Chili Cheesers vs D0nkey K0ng"
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/0",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G01",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T07",
-        "away": "T05",
-        "current_score": [
-          93.7,
-          156.67
-        ],
-        "away_lead": 62.97,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "52f431e7f5dd26f4eadb489610fa97475e438ffc3f230cccf695afdb8a06781f",
+      "value_location": "facts.json#/games/0",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G01",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G01",
-        "current_team_ids": [
-          7,
-          5
-        ],
-        "current_team_names": [
-          "The Chili Cheesers",
-          "D0nkey K0ng"
-        ],
-        "title": "The earlier consolation defeat",
-        "anchor_fact_id": "HIST-2025-W16-T05-T07",
-        "public_copy": "In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.",
-        "supported_stakes": "Winners-consolation game, not a championship elimination.",
-        "creative_use_scope": "A concrete prior defeat for Chili against the same verified Wilson persona; do not inflate its championship stakes.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T05-T07",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 7,
-          "home_name_as_returned": "The Chili Cheesers ",
-          "home_points": 128.72,
-          "away_team_id": 5,
-          "away_name_as_returned": "Baker Moore Purdy",
-          "away_points": 144.3,
-          "winner_team_id": 5,
-          "winner_name_as_returned": "Baker Moore Purdy",
-          "margin": 15.58,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 156.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/scorers/2577417/2",
-      "artifact": "facts.json",
-      "snapshot_value": 45.82,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 93.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4374302/2",
-      "artifact": "facts.json",
-      "snapshot_value": 27.8,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4685720/2",
-      "artifact": "facts.json",
-      "snapshot_value": 8.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4696981/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "8e57b50dd91a9c1752bf6d8a332eaf23f063a16e693bb01fdbd216a43437043b",
+      "value_location": "facts.json#/historical_context/W10-G01",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -1944,119 +1425,50 @@ EXACT FULL PUBLICATION COPY
   "headline": "No Private Exit",
   "deck": "The Chili Cheesers vs D0nkey K0ng",
   "body": "D0nkey K0ng finishes the binding in the center ring, with all four hooves planted and the rope's path plain to see. The Chili Cheesers lies hogtied, hat just out of reach, looking back at the entrance where he had expected to be the attraction. Last week he had served humiliation to a champion. This week the Commonwealth has found a new course for the menu.",
-  "department_heading": "The Chili Cheesers vs D0nkey K0ng"
+  "department_heading": "The Chili Cheesers vs D0nkey K0ng",
+  "result": {
+    "status": "FINAL",
+    "winner": "D0nkey K0ng",
+    "winner_points": "156.67",
+    "loser": "The Chili Cheesers",
+    "loser_points": "93.70",
+    "winner_record": "6–4",
+    "loser_record": "5–5",
+    "margin": "62.97",
+    "source": "SFINAL"
+  },
+  "football_context": "Dak Prescott 45.82; Cam Skattebo 29.00; Amon-Ra St. Brown 27.80; Bryce Young 8.20."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/0",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G01",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T07",
-        "away": "T05",
-        "current_score": [
-          93.7,
-          156.67
-        ],
-        "away_lead": 62.97,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "52f431e7f5dd26f4eadb489610fa97475e438ffc3f230cccf695afdb8a06781f",
+      "value_location": "facts.json#/games/0",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G01",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G01",
-        "current_team_ids": [
-          7,
-          5
-        ],
-        "current_team_names": [
-          "The Chili Cheesers",
-          "D0nkey K0ng"
-        ],
-        "title": "The earlier consolation defeat",
-        "anchor_fact_id": "HIST-2025-W16-T05-T07",
-        "public_copy": "In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.",
-        "supported_stakes": "Winners-consolation game, not a championship elimination.",
-        "creative_use_scope": "A concrete prior defeat for Chili against the same verified Wilson persona; do not inflate its championship stakes.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T05-T07",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 7,
-          "home_name_as_returned": "The Chili Cheesers ",
-          "home_points": 128.72,
-          "away_team_id": 5,
-          "away_name_as_returned": "Baker Moore Purdy",
-          "away_points": 144.3,
-          "winner_team_id": 5,
-          "winner_name_as_returned": "Baker Moore Purdy",
-          "margin": 15.58,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 156.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/scorers/2577417/2",
-      "artifact": "facts.json",
-      "snapshot_value": 45.82,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 93.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4374302/2",
-      "artifact": "facts.json",
-      "snapshot_value": 27.8,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4685720/2",
-      "artifact": "facts.json",
-      "snapshot_value": 8.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4696981/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "8e57b50dd91a9c1752bf6d8a332eaf23f063a16e693bb01fdbd216a43437043b",
+      "value_location": "facts.json#/historical_context/W10-G01",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -2291,174 +1703,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
-    {
-      "selector": "/bench_observations/George_Pickens/points",
-      "artifact": "facts.json",
-      "snapshot_value": 44.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
     {
       "selector": "/games/1",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G02",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T02",
-        "away": "T09",
-        "current_score": [
-          136.42,
-          189.08
-        ],
-        "away_lead": 52.66,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-4429615"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T02",
-          "additional_points_strictly_greater_than": 52.66,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "1a8768dfc567abd0157a36de1b4773b133a71cdf92fcce6b95ccdeadef9cdd0a",
+      "value_location": "facts.json#/games/1",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G02",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G02",
-        "current_team_ids": [
-          2,
-          9
-        ],
-        "current_team_names": [
-          "Red Leopards",
-          "El Niño"
-        ],
-        "title": "The 13–1 season that ended in the semifinal",
-        "anchor_fact_id": "HIST-2022-W16-T02-T09",
-        "public_copy": "In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.",
-        "supported_stakes": "Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.",
-        "creative_use_scope": "This supports a specific championship-run wound, rather than a generic regular-season playoff-push loss. Current Week10 can echo the history only conditionally until the final result locks.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2022-W16-T02-T09",
-          "season": 2022,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 2,
-          "home_name_as_returned": "Red Leopards",
-          "home_points": 97.96,
-          "away_team_id": 9,
-          "away_name_as_returned": "El Niño",
-          "away_points": 116.32,
-          "winner_team_id": 9,
-          "winner_name_as_returned": "El Niño",
-          "margin": 18.36,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2022/weeks/16/data/matchups/0",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "regular_season_records": {
-            "Red Leopards": "13–1",
-            "El Niño": "7–7"
-          },
-          "playoff_seeds": {
-            "Red Leopards": 1,
-            "El Niño": 5
-          },
-          "verified_final_ranks": {
-            "Red Leopards": 3,
-            "El Niño": 1
-          },
-          "nino_championship_won": true,
-          "outcome_confidence": "explicit",
-          "standings_source_pointer": "/seasons/2022/standings/data/standings",
-          "regular_season_series": [
-            {
-              "fact_id": "HIST-2022-W08-T02-T09",
-              "red_points": 192.2,
-              "nino_points": 129.55,
-              "red_margin": 62.65
-            },
-            {
-              "fact_id": "HIST-2022-W14-T02-T09",
-              "red_points": 142.26,
-              "nino_points": 82.43,
-              "red_margin": 59.83
-            }
-          ],
-          "red_entering_semifinal_played_game_streak": 7,
-          "streak_scope": "Seven consecutive regular-season victories, Weeks8–14; Week15 has no paired opponent for Red. Do not count the unpaired record as a win.",
-          "title_game": {
-            "week": 17,
-            "winner": "El Niño",
-            "winner_points": 111.56,
-            "opponent_name_as_returned": "Where Mahomies at?",
-            "opponent_points": 78.3,
-            "margin": 33.26,
-            "source_pointer": "/seasons/2022/weeks/17/data/matchups/0"
-          },
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; one title pairing in Week17; explicit final ranks confirm El Niño champion and Red third."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 136.42,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/scorers/4362628/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 189.08,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4362238/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4379399/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4832955/2",
-      "artifact": "facts.json",
-      "snapshot_value": 38.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "06f1078e0df779970feb563c2efb925254b7218f942544453a2500115f54842a",
+      "value_location": "facts.json#/historical_context/W10-G02",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -2694,174 +1965,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
-    {
-      "selector": "/bench_observations/George_Pickens/points",
-      "artifact": "facts.json",
-      "snapshot_value": 44.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
     {
       "selector": "/games/1",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G02",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T02",
-        "away": "T09",
-        "current_score": [
-          136.42,
-          189.08
-        ],
-        "away_lead": 52.66,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-4429615"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T02",
-          "additional_points_strictly_greater_than": 52.66,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "1a8768dfc567abd0157a36de1b4773b133a71cdf92fcce6b95ccdeadef9cdd0a",
+      "value_location": "facts.json#/games/1",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G02",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G02",
-        "current_team_ids": [
-          2,
-          9
-        ],
-        "current_team_names": [
-          "Red Leopards",
-          "El Niño"
-        ],
-        "title": "The 13–1 season that ended in the semifinal",
-        "anchor_fact_id": "HIST-2022-W16-T02-T09",
-        "public_copy": "In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.",
-        "supported_stakes": "Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.",
-        "creative_use_scope": "This supports a specific championship-run wound, rather than a generic regular-season playoff-push loss. Current Week10 can echo the history only conditionally until the final result locks.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2022-W16-T02-T09",
-          "season": 2022,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 2,
-          "home_name_as_returned": "Red Leopards",
-          "home_points": 97.96,
-          "away_team_id": 9,
-          "away_name_as_returned": "El Niño",
-          "away_points": 116.32,
-          "winner_team_id": 9,
-          "winner_name_as_returned": "El Niño",
-          "margin": 18.36,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2022/weeks/16/data/matchups/0",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "regular_season_records": {
-            "Red Leopards": "13–1",
-            "El Niño": "7–7"
-          },
-          "playoff_seeds": {
-            "Red Leopards": 1,
-            "El Niño": 5
-          },
-          "verified_final_ranks": {
-            "Red Leopards": 3,
-            "El Niño": 1
-          },
-          "nino_championship_won": true,
-          "outcome_confidence": "explicit",
-          "standings_source_pointer": "/seasons/2022/standings/data/standings",
-          "regular_season_series": [
-            {
-              "fact_id": "HIST-2022-W08-T02-T09",
-              "red_points": 192.2,
-              "nino_points": 129.55,
-              "red_margin": 62.65
-            },
-            {
-              "fact_id": "HIST-2022-W14-T02-T09",
-              "red_points": 142.26,
-              "nino_points": 82.43,
-              "red_margin": 59.83
-            }
-          ],
-          "red_entering_semifinal_played_game_streak": 7,
-          "streak_scope": "Seven consecutive regular-season victories, Weeks8–14; Week15 has no paired opponent for Red. Do not count the unpaired record as a win.",
-          "title_game": {
-            "week": 17,
-            "winner": "El Niño",
-            "winner_points": 111.56,
-            "opponent_name_as_returned": "Where Mahomies at?",
-            "opponent_points": 78.3,
-            "margin": 33.26,
-            "source_pointer": "/seasons/2022/weeks/17/data/matchups/0"
-          },
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; one title pairing in Week17; explicit final ranks confirm El Niño champion and Red third."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 136.42,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/scorers/4362628/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 189.08,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4362238/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4379399/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4832955/2",
-      "artifact": "facts.json",
-      "snapshot_value": 38.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "06f1078e0df779970feb563c2efb925254b7218f942544453a2500115f54842a",
+      "value_location": "facts.json#/historical_context/W10-G02",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -3091,180 +2221,51 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "That Cold Again",
   "deck": "Red Leopards vs El Niño",
-  "body": "The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs somewhere inside the moving cloud, and the old semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.",
-  "department_heading": "Red Leopards vs El Niño"
+  "body": "The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs across the rain-swept court, and the 2022 semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.",
+  "department_heading": "Red Leopards vs El Niño",
+  "result": {
+    "status": "FINAL",
+    "winner": "El Niño",
+    "winner_points": "189.08",
+    "loser": "Red Leopards",
+    "loser_points": "147.82",
+    "winner_record": "6–4",
+    "loser_record": "5–5",
+    "margin": "41.26",
+    "source": "SFINAL"
+  },
+  "football_context": "Emmett Johnson 38.30; Chase Brown 29.30; James Cook III 26.50; Ja'Marr Chase 36.10."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
-    {
-      "selector": "/bench_observations/George_Pickens/points",
-      "artifact": "facts.json",
-      "snapshot_value": 44.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
     {
       "selector": "/games/1",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G02",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T02",
-        "away": "T09",
-        "current_score": [
-          136.42,
-          189.08
-        ],
-        "away_lead": 52.66,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-4429615"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T02",
-          "additional_points_strictly_greater_than": 52.66,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "1a8768dfc567abd0157a36de1b4773b133a71cdf92fcce6b95ccdeadef9cdd0a",
+      "value_location": "facts.json#/games/1",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G02",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G02",
-        "current_team_ids": [
-          2,
-          9
-        ],
-        "current_team_names": [
-          "Red Leopards",
-          "El Niño"
-        ],
-        "title": "The 13–1 season that ended in the semifinal",
-        "anchor_fact_id": "HIST-2022-W16-T02-T09",
-        "public_copy": "In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.",
-        "supported_stakes": "Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.",
-        "creative_use_scope": "This supports a specific championship-run wound, rather than a generic regular-season playoff-push loss. Current Week10 can echo the history only conditionally until the final result locks.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2022-W16-T02-T09",
-          "season": 2022,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 2,
-          "home_name_as_returned": "Red Leopards",
-          "home_points": 97.96,
-          "away_team_id": 9,
-          "away_name_as_returned": "El Niño",
-          "away_points": 116.32,
-          "winner_team_id": 9,
-          "winner_name_as_returned": "El Niño",
-          "margin": 18.36,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2022/weeks/16/data/matchups/0",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "regular_season_records": {
-            "Red Leopards": "13–1",
-            "El Niño": "7–7"
-          },
-          "playoff_seeds": {
-            "Red Leopards": 1,
-            "El Niño": 5
-          },
-          "verified_final_ranks": {
-            "Red Leopards": 3,
-            "El Niño": 1
-          },
-          "nino_championship_won": true,
-          "outcome_confidence": "explicit",
-          "standings_source_pointer": "/seasons/2022/standings/data/standings",
-          "regular_season_series": [
-            {
-              "fact_id": "HIST-2022-W08-T02-T09",
-              "red_points": 192.2,
-              "nino_points": 129.55,
-              "red_margin": 62.65
-            },
-            {
-              "fact_id": "HIST-2022-W14-T02-T09",
-              "red_points": 142.26,
-              "nino_points": 82.43,
-              "red_margin": 59.83
-            }
-          ],
-          "red_entering_semifinal_played_game_streak": 7,
-          "streak_scope": "Seven consecutive regular-season victories, Weeks8–14; Week15 has no paired opponent for Red. Do not count the unpaired record as a win.",
-          "title_game": {
-            "week": 17,
-            "winner": "El Niño",
-            "winner_points": 111.56,
-            "opponent_name_as_returned": "Where Mahomies at?",
-            "opponent_points": 78.3,
-            "margin": 33.26,
-            "source_pointer": "/seasons/2022/weeks/17/data/matchups/0"
-          },
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; one title pairing in Week17; explicit final ranks confirm El Niño champion and Red third."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 136.42,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/scorers/4362628/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 189.08,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4362238/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4379399/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4832955/2",
-      "artifact": "facts.json",
-      "snapshot_value": 38.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "06f1078e0df779970feb563c2efb925254b7218f942544453a2500115f54842a",
+      "value_location": "facts.json#/historical_context/W10-G02",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -3376,12 +2377,14 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
-  "refresh_fields": []
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
+  "refresh_fields": [],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -3576,119 +2579,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/2",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G03",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T06",
-        "away": "T11",
-        "current_score": [
-          75.78,
-          146.22
-        ],
-        "away_lead": 70.44,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF--16033"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T06",
-          "additional_points_strictly_greater_than": 70.44,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f115f484475cc7fc6a2f90bd410ceaac7c9e053368ee22d46335b1d9ae0a0167",
+      "value_location": "facts.json#/games/2",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G03",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G03",
-        "current_team_ids": [
-          6,
-          11
-        ],
-        "current_team_names": [
-          "Three Dreaded Snake",
-          "Seven Deadly Chins"
-        ],
-        "title": "Last season’s two defeats, now a possible reversal",
-        "anchor_fact_id": "HIST-2025-W14-T06-T11",
-        "public_copy": "Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.",
-        "supported_stakes": "Both cited 2025 games were regular season; no elimination claim.",
-        "creative_use_scope": "Chins’ present Week10 lead offers a reversal of two verified prior defeats. Keep the 2026 payoff conditional while Ravens D/ST remains.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W14-T06-T11",
-          "season": 2025,
-          "week": 14,
-          "calendar_date": null,
-          "home_team_id": 11,
-          "home_name_as_returned": "Seven Deadly Chins",
-          "home_points": 90.7,
-          "away_team_id": 6,
-          "away_name_as_returned": "Three Dreaded Snake",
-          "away_points": 139.84,
-          "winner_team_id": 6,
-          "winner_name_as_returned": "Three Dreaded Snake",
-          "margin": 49.14,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2025/weeks/14/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 75.78,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/scorers/4882093/2",
-      "artifact": "facts.json",
-      "snapshot_value": 22.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 146.22,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/3139477/2",
-      "artifact": "facts.json",
-      "snapshot_value": 48.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/4429096/2",
-      "artifact": "facts.json",
-      "snapshot_value": 23.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "3745781f39653ca4a9885622df5561fbb63300c03628558434a79ae5c1bd2e4e",
+      "value_location": "facts.json#/historical_context/W10-G03",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -3909,119 +2826,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/2",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G03",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T06",
-        "away": "T11",
-        "current_score": [
-          75.78,
-          146.22
-        ],
-        "away_lead": 70.44,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF--16033"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T06",
-          "additional_points_strictly_greater_than": 70.44,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f115f484475cc7fc6a2f90bd410ceaac7c9e053368ee22d46335b1d9ae0a0167",
+      "value_location": "facts.json#/games/2",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G03",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G03",
-        "current_team_ids": [
-          6,
-          11
-        ],
-        "current_team_names": [
-          "Three Dreaded Snake",
-          "Seven Deadly Chins"
-        ],
-        "title": "Last season’s two defeats, now a possible reversal",
-        "anchor_fact_id": "HIST-2025-W14-T06-T11",
-        "public_copy": "Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.",
-        "supported_stakes": "Both cited 2025 games were regular season; no elimination claim.",
-        "creative_use_scope": "Chins’ present Week10 lead offers a reversal of two verified prior defeats. Keep the 2026 payoff conditional while Ravens D/ST remains.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W14-T06-T11",
-          "season": 2025,
-          "week": 14,
-          "calendar_date": null,
-          "home_team_id": 11,
-          "home_name_as_returned": "Seven Deadly Chins",
-          "home_points": 90.7,
-          "away_team_id": 6,
-          "away_name_as_returned": "Three Dreaded Snake",
-          "away_points": 139.84,
-          "winner_team_id": 6,
-          "winner_name_as_returned": "Three Dreaded Snake",
-          "margin": 49.14,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2025/weeks/14/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 75.78,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/scorers/4882093/2",
-      "artifact": "facts.json",
-      "snapshot_value": 22.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 146.22,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/3139477/2",
-      "artifact": "facts.json",
-      "snapshot_value": 48.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/4429096/2",
-      "artifact": "facts.json",
-      "snapshot_value": 23.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "3745781f39653ca4a9885622df5561fbb63300c03628558434a79ae5c1bd2e4e",
+      "value_location": "facts.json#/historical_context/W10-G03",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -4237,124 +3068,50 @@ EXACT FULL PUBLICATION COPY
   "headline": "No Quiet Hours",
   "deck": "Three Dreaded Snake vs Seven Deadly Chins",
   "body": "Broken concrete lies in a widening crescent around the same jackhammer. Seven Deadly Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season Three Dreaded Snake beat Seven Deadly Chins twice. This week Seven Deadly Chins has discovered a form of revenge that needs neither a trophy nor permission.",
-  "department_heading": "Three Dreaded Snake vs Seven Deadly Chins"
+  "department_heading": "Three Dreaded Snake vs Seven Deadly Chins",
+  "result": {
+    "status": "FINAL",
+    "winner": "Seven Deadly Chins",
+    "winner_points": "146.22",
+    "loser": "Three Dreaded Snake",
+    "loser_points": "82.78",
+    "winner_record": "6–4",
+    "loser_record": "4–6",
+    "margin": "63.44",
+    "source": "SFINAL"
+  },
+  "football_context": "Patrick Mahomes 48.62; Blake Corum 23.60; Bhayshul Tuten 22.90."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/2",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G03",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T06",
-        "away": "T11",
-        "current_score": [
-          75.78,
-          146.22
-        ],
-        "away_lead": 70.44,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF--16033"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T06",
-          "additional_points_strictly_greater_than": 70.44,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f115f484475cc7fc6a2f90bd410ceaac7c9e053368ee22d46335b1d9ae0a0167",
+      "value_location": "facts.json#/games/2",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G03",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G03",
-        "current_team_ids": [
-          6,
-          11
-        ],
-        "current_team_names": [
-          "Three Dreaded Snake",
-          "Seven Deadly Chins"
-        ],
-        "title": "Last season’s two defeats, now a possible reversal",
-        "anchor_fact_id": "HIST-2025-W14-T06-T11",
-        "public_copy": "Three Dreaded Snake beat Seven Deadly Chins twice in 2025: 189.72–172.00 in Week 3 and 139.84–90.70 in Week 14, margins of 17.72 and 49.14.",
-        "supported_stakes": "Both cited 2025 games were regular season; no elimination claim.",
-        "creative_use_scope": "Chins’ present Week10 lead offers a reversal of two verified prior defeats. Keep the 2026 payoff conditional while Ravens D/ST remains.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W14-T06-T11",
-          "season": 2025,
-          "week": 14,
-          "calendar_date": null,
-          "home_team_id": 11,
-          "home_name_as_returned": "Seven Deadly Chins",
-          "home_points": 90.7,
-          "away_team_id": 6,
-          "away_name_as_returned": "Three Dreaded Snake",
-          "away_points": 139.84,
-          "winner_team_id": 6,
-          "winner_name_as_returned": "Three Dreaded Snake",
-          "margin": 49.14,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2025/weeks/14/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 75.78,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T06/scorers/4882093/2",
-      "artifact": "facts.json",
-      "snapshot_value": 22.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 146.22,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/3139477/2",
-      "artifact": "facts.json",
-      "snapshot_value": 48.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T11/scorers/4429096/2",
-      "artifact": "facts.json",
-      "snapshot_value": 23.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "3745781f39653ca4a9885622df5561fbb63300c03628558434a79ae5c1bd2e4e",
+      "value_location": "facts.json#/historical_context/W10-G03",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -4576,114 +3333,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/3",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G04",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T10",
-        "away": "T03",
-        "current_score": [
-          113.62,
-          179.29
-        ],
-        "away_lead": 65.67,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ef61320f2f00e59f5cb3b1273661b2e0b495d2cdf09dd1390731def98926af22",
+      "value_location": "facts.json#/games/3",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G04",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G04",
-        "current_team_ids": [
-          10,
-          3
-        ],
-        "current_team_names": [
-          "Mud Dogs",
-          "Slob on my Dobb"
-        ],
-        "title": "The 3.15-point consolation scrape",
-        "anchor_fact_id": "HIST-2025-W17-T03-T10",
-        "public_copy": "In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.",
-        "supported_stakes": "Losers-consolation game; it did not eliminate Mud from the championship.",
-        "creative_use_scope": "Use the remembered narrow scrape as contrast with the large current Week10 gap; avoid turning the consolation result into a playoff elimination.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W17-T03-T10",
-          "season": 2025,
-          "week": 17,
-          "calendar_date": null,
-          "home_team_id": 10,
-          "home_name_as_returned": "Mud Dogs",
-          "home_points": 97.13,
-          "away_team_id": 3,
-          "away_name_as_returned": "Slob on my Dobb",
-          "away_points": 100.28,
-          "winner_team_id": 3,
-          "winner_name_as_returned": "Slob on my Dobb",
-          "margin": 3.15,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "LOSERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/17/data/matchups/4",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 179.29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3117251/2",
-      "artifact": "facts.json",
-      "snapshot_value": 52.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3918298/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.84,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/4241389/2",
-      "artifact": "facts.json",
-      "snapshot_value": 20.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 113.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/scorers/3046779/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.52,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f928892281b83aeef75411ab42a1d639b7885cc6da1221e3587a38a3f6e2bc05",
+      "value_location": "facts.json#/historical_context/W10-G04",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -4905,114 +3581,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/3",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G04",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T10",
-        "away": "T03",
-        "current_score": [
-          113.62,
-          179.29
-        ],
-        "away_lead": 65.67,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ef61320f2f00e59f5cb3b1273661b2e0b495d2cdf09dd1390731def98926af22",
+      "value_location": "facts.json#/games/3",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G04",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G04",
-        "current_team_ids": [
-          10,
-          3
-        ],
-        "current_team_names": [
-          "Mud Dogs",
-          "Slob on my Dobb"
-        ],
-        "title": "The 3.15-point consolation scrape",
-        "anchor_fact_id": "HIST-2025-W17-T03-T10",
-        "public_copy": "In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.",
-        "supported_stakes": "Losers-consolation game; it did not eliminate Mud from the championship.",
-        "creative_use_scope": "Use the remembered narrow scrape as contrast with the large current Week10 gap; avoid turning the consolation result into a playoff elimination.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W17-T03-T10",
-          "season": 2025,
-          "week": 17,
-          "calendar_date": null,
-          "home_team_id": 10,
-          "home_name_as_returned": "Mud Dogs",
-          "home_points": 97.13,
-          "away_team_id": 3,
-          "away_name_as_returned": "Slob on my Dobb",
-          "away_points": 100.28,
-          "winner_team_id": 3,
-          "winner_name_as_returned": "Slob on my Dobb",
-          "margin": 3.15,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "LOSERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/17/data/matchups/4",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 179.29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3117251/2",
-      "artifact": "facts.json",
-      "snapshot_value": 52.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3918298/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.84,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/4241389/2",
-      "artifact": "facts.json",
-      "snapshot_value": 20.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 113.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/scorers/3046779/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.52,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f928892281b83aeef75411ab42a1d639b7885cc6da1221e3587a38a3f6e2bc05",
+      "value_location": "facts.json#/historical_context/W10-G04",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -5228,120 +3823,51 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "Cancún Is Calling",
   "deck": "Mud Dogs vs Slob on my Dobb",
-  "body": "The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: the seventh playoff place is still mathematically reachable under the current scenario. But another loss next week could make the joke look less like a joke. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.",
-  "department_heading": "Mud Dogs vs Slob on my Dobb"
+  "body": "The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: at 2–8, a narrow division-title route still exists. Another loss closes it. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.",
+  "department_heading": "Mud Dogs vs Slob on my Dobb",
+  "result": {
+    "status": "FINAL",
+    "winner": "Slob on my Dobb",
+    "winner_points": "179.29",
+    "loser": "Mud Dogs",
+    "loser_points": "113.62",
+    "winner_record": "6–4",
+    "loser_record": "2–8",
+    "margin": "65.67",
+    "source": "SFINAL"
+  },
+  "football_context": "Christian McCaffrey 52.60; Josh Allen 26.84; CeeDee Lamb 20.20; Jared Goff 29.52."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/3",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G04",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T10",
-        "away": "T03",
-        "current_score": [
-          113.62,
-          179.29
-        ],
-        "away_lead": 65.67,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ef61320f2f00e59f5cb3b1273661b2e0b495d2cdf09dd1390731def98926af22",
+      "value_location": "facts.json#/games/3",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G04",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G04",
-        "current_team_ids": [
-          10,
-          3
-        ],
-        "current_team_names": [
-          "Mud Dogs",
-          "Slob on my Dobb"
-        ],
-        "title": "The 3.15-point consolation scrape",
-        "anchor_fact_id": "HIST-2025-W17-T03-T10",
-        "public_copy": "In 2025 Week 17, Slob on my Dobb beat Mud Dogs 100.28–97.13 by 3.15 in the losers-consolation ladder.",
-        "supported_stakes": "Losers-consolation game; it did not eliminate Mud from the championship.",
-        "creative_use_scope": "Use the remembered narrow scrape as contrast with the large current Week10 gap; avoid turning the consolation result into a playoff elimination.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W17-T03-T10",
-          "season": 2025,
-          "week": 17,
-          "calendar_date": null,
-          "home_team_id": 10,
-          "home_name_as_returned": "Mud Dogs",
-          "home_points": 97.13,
-          "away_team_id": 3,
-          "away_name_as_returned": "Slob on my Dobb",
-          "away_points": 100.28,
-          "winner_team_id": 3,
-          "winner_name_as_returned": "Slob on my Dobb",
-          "margin": 3.15,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "LOSERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/17/data/matchups/4",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 179.29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3117251/2",
-      "artifact": "facts.json",
-      "snapshot_value": 52.6,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/3918298/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.84,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T03/scorers/4241389/2",
-      "artifact": "facts.json",
-      "snapshot_value": 20.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 113.62,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T10/scorers/3046779/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.52,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f928892281b83aeef75411ab42a1d639b7885cc6da1221e3587a38a3f6e2bc05",
+      "value_location": "facts.json#/historical_context/W10-G04",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -5449,11 +3975,11 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "WHY THE BOARD MOVED",
   "deck": "The points behind the spectacle",
-  "body": "McCaffrey’s 52.60 drives Slob on my Dobb. His Majesty's Blood’s Purdy–Hubbard–Smith-Njigba trio supplies 113.86; The LLC’s Burrow–Likely–Washington trio adds 103.66. Dr. Duckhook answers with Gibbs’ 47.40. El Niño reaches 189.08 while Pickens’ 44.50 stays on the bench. These are current contributions; Monday can still change the board.",
+  "body": "Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.",
   "callouts": [],
   "rows": [
     {
-      "category": "RB / current overall starter lead",
+      "category": "RB / overall starter lead",
       "player": "Christian McCaffrey",
       "team": "Slob on my Dobb",
       "points": "52.60"
@@ -5494,103 +4020,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/derived/starting_position_leaders",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "RB": {
-          "team": "T03",
-          "player_id": "3117251",
-          "player": "Christian McCaffrey",
-          "points": 52.6,
-          "points_selector": "/teams/T03/scorers/3117251/2"
-        },
-        "TE": {
-          "team": "T04",
-          "player_id": "4361050",
-          "player": "Isaiah Likely",
-          "points": 30.7,
-          "points_selector": "/teams/T04/scorers/4361050/2"
-        },
-        "WR": {
-          "team": "T02",
-          "player_id": "4362628",
-          "player": "Ja'Marr Chase",
-          "points": 36.1,
-          "points_selector": "/teams/T02/scorers/4362628/2"
-        },
-        "D/ST": {
-          "team": "T08",
-          "player_id": "-16016",
-          "player": "Vikings D/ST",
-          "points": 26,
-          "points_selector": "/teams/T08/scorers/-16016/2"
-        },
-        "QB": {
-          "team": "T11",
-          "player_id": "3139477",
-          "player": "Patrick Mahomes",
-          "points": 48.62,
-          "points_selector": "/teams/T11/scorers/3139477/2"
-        },
-        "K": {
-          "team": "T08",
-          "player_id": "4686361",
-          "player": "Cam Little",
-          "points": 19,
-          "points_selector": "/teams/T08/scorers/4686361/2"
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "94dd2aca3e7de4757fb4a39c3d32849b1720c3f4d43a3a116acea96789d0b8a1",
+      "value_location": "facts.json#/derived/starting_position_leaders",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/derived/trios",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "HMB": {
-          "team": "T08",
-          "player_ids": [
-            "4361741",
-            "4241416",
-            "4430878"
-          ],
-          "points": 113.86
-        },
-        "LLC": {
-          "team": "T04",
-          "player_ids": [
-            "3915511",
-            "4361050",
-            "4432620"
-          ],
-          "points": 103.66
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ada453a575ef2eeb626b04819ad8384fb317fbafce6998ebd402f3e602ff3637",
+      "value_location": "facts.json#/derived/trios",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/bench_observations",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "George_Pickens": {
-          "team": "T09",
-          "player_id": "4426354",
-          "name": "George Pickens",
-          "slot": "Bench",
-          "started": false,
-          "points": 44.5,
-          "scope": "W10_LIVE_NONSCORING_BENCH"
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "13060e8474cfbbc5d85324116ecc71c137a885e118d21891aeb93d62e8a4f5a9",
+      "value_location": "facts.json#/bench_observations",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -5660,7 +4125,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "THE COST OF SUNDAY",
   "deck": "Sports Desk • Availability changes the next move",
-  "body": "Dr. Duckhook’s Maye faces a reported extended absence; a season-ending outcome remains unconfirmed. Mud Dogs’ Marks left with a concussion, with Houston playing Thursday. The Chili Cheesers awaits Bowers’ ankle follow-up. Three Dreaded Snake adds Brown’s hamstring exit to a crowded receiver watch. Hutchinson’s reported season-ending ACL loss affects His Majesty's Blood through reserve Lions D/ST. The LLC’s Michael Wilson is already out for the season; that injury dates to November 8. ObiWan Jacoby’s Puka cannot return before Week 15; Red Leopards’ Lamar has a prolonged recovery without a fixed return date.",
+  "body": "Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s confirmed season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.",
   "callouts": [],
   "rows": [],
   "department_heading": "INJURY REPORT"
@@ -5668,27 +4133,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/pass3/news",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "663fa399ac79a574815bd447d0bee132018efa2a535584ee9d4273f73a0dd3c1",
-      "snapshot_value_stored_in": "facts.json/pass3/news"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "37de9cd33289be954a87cfea330e13f8c83d1f3d1e028ec748245ace61a12461",
+      "value_location": "facts.json#/pass3/news",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -5870,142 +4341,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/4",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G05",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T12",
-        "away": "T08",
-        "current_score": [
-          127.67,
-          208.76
-        ],
-        "away_lead": 81.09,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "af124d9a7a921d66a1b0da6a09409511382970880c388e4ecba6d395b6a67bb1",
+      "value_location": "facts.json#/games/4",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G05",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G05",
-        "current_team_ids": [
-          12,
-          8
-        ],
-        "current_team_names": [
-          "Dr. Duckhook",
-          "His Majesty’s Blood"
-        ],
-        "title": "The semifinal decided by four tenths",
-        "anchor_fact_id": "HIST-2025-W16-T08-T12",
-        "public_copy": "In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.",
-        "supported_stakes": "Verified 2025 semifinal; The Immortal advanced and won the championship.",
-        "creative_use_scope": "A particularly strong personal callback: Duck’s prior semifinal ended four tenths short against the same verified Austin persona. The current Week10 lead is still snapshot copy until provider finalization.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T08-T12",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 12,
-          "home_name_as_returned": "Dr. Duckhook",
-          "home_points": 151.8,
-          "away_team_id": 8,
-          "away_name_as_returned": "The Immortal",
-          "away_points": 152.2,
-          "winner_team_id": 8,
-          "winner_name_as_returned": "The Immortal",
-          "margin": 0.4,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/1",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "hmb_prior_persona": "The Immortal",
-          "title_game": {
-            "week": 17,
-            "winner": "The Immortal",
-            "winner_points": 161.07,
-            "opponent": "ObiWan Jacoby",
-            "opponent_points": 109.56,
-            "margin": 51.51,
-            "source_pointer": "/seasons/2025/weeks/17/data/matchups/0"
-          },
-          "outcome_source_pointer": "/seasons/2025/standings/data/standings",
-          "championship_won": true,
-          "outcome_confidence": "explicit",
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; single title pairing in Week17; explicit outcomes confirm The Immortal champion and Duckhook fourth."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 208.76,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/-16016/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4241416/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4361741/2",
-      "artifact": "facts.json",
-      "snapshot_value": 42.86,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4430878/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4686361/2",
-      "artifact": "facts.json",
-      "snapshot_value": 19,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 127.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/scorers/4429795/2",
-      "artifact": "facts.json",
-      "snapshot_value": 47.4,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "eb991f56245a41bc45c8b96e28b7d7f85023da654a23b27c86edf0acf2dd35ce",
+      "value_location": "facts.json#/historical_context/W10-G05",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -6226,142 +4588,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/4",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G05",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T12",
-        "away": "T08",
-        "current_score": [
-          127.67,
-          208.76
-        ],
-        "away_lead": 81.09,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "af124d9a7a921d66a1b0da6a09409511382970880c388e4ecba6d395b6a67bb1",
+      "value_location": "facts.json#/games/4",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G05",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G05",
-        "current_team_ids": [
-          12,
-          8
-        ],
-        "current_team_names": [
-          "Dr. Duckhook",
-          "His Majesty’s Blood"
-        ],
-        "title": "The semifinal decided by four tenths",
-        "anchor_fact_id": "HIST-2025-W16-T08-T12",
-        "public_copy": "In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.",
-        "supported_stakes": "Verified 2025 semifinal; The Immortal advanced and won the championship.",
-        "creative_use_scope": "A particularly strong personal callback: Duck’s prior semifinal ended four tenths short against the same verified Austin persona. The current Week10 lead is still snapshot copy until provider finalization.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T08-T12",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 12,
-          "home_name_as_returned": "Dr. Duckhook",
-          "home_points": 151.8,
-          "away_team_id": 8,
-          "away_name_as_returned": "The Immortal",
-          "away_points": 152.2,
-          "winner_team_id": 8,
-          "winner_name_as_returned": "The Immortal",
-          "margin": 0.4,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/1",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "hmb_prior_persona": "The Immortal",
-          "title_game": {
-            "week": 17,
-            "winner": "The Immortal",
-            "winner_points": 161.07,
-            "opponent": "ObiWan Jacoby",
-            "opponent_points": 109.56,
-            "margin": 51.51,
-            "source_pointer": "/seasons/2025/weeks/17/data/matchups/0"
-          },
-          "outcome_source_pointer": "/seasons/2025/standings/data/standings",
-          "championship_won": true,
-          "outcome_confidence": "explicit",
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; single title pairing in Week17; explicit outcomes confirm The Immortal champion and Duckhook fourth."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 208.76,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/-16016/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4241416/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4361741/2",
-      "artifact": "facts.json",
-      "snapshot_value": 42.86,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4430878/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4686361/2",
-      "artifact": "facts.json",
-      "snapshot_value": 19,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 127.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/scorers/4429795/2",
-      "artifact": "facts.json",
-      "snapshot_value": 47.4,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "eb991f56245a41bc45c8b96e28b7d7f85023da654a23b27c86edf0acf2dd35ce",
+      "value_location": "facts.json#/historical_context/W10-G05",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -6578,147 +4831,50 @@ EXACT FULL PUBLICATION COPY
   "headline": "Many Unhappy Returns",
   "deck": "Dr. Duckhook vs His Majesty's Blood",
   "body": "His Majesty's Blood presses that cake squarely into Dr. Duckhook's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week The Chili Cheesers made His Majesty's Blood the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.",
-  "department_heading": "Dr. Duckhook vs His Majesty's Blood"
+  "department_heading": "Dr. Duckhook vs His Majesty's Blood",
+  "result": {
+    "status": "FINAL",
+    "winner": "His Majesty's Blood",
+    "winner_points": "208.76",
+    "loser": "Dr. Duckhook",
+    "loser_points": "127.67",
+    "winner_record": "6–4",
+    "loser_record": "6–4",
+    "margin": "81.09",
+    "source": "SFINAL"
+  },
+  "football_context": "Brock Purdy 42.86; Chuba Hubbard 36.90; Jaxon Smith-Njigba 34.10; Vikings D/ST 26.00."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/4",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G05",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T12",
-        "away": "T08",
-        "current_score": [
-          127.67,
-          208.76
-        ],
-        "away_lead": 81.09,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "af124d9a7a921d66a1b0da6a09409511382970880c388e4ecba6d395b6a67bb1",
+      "value_location": "facts.json#/games/4",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G05",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G05",
-        "current_team_ids": [
-          12,
-          8
-        ],
-        "current_team_names": [
-          "Dr. Duckhook",
-          "His Majesty’s Blood"
-        ],
-        "title": "The semifinal decided by four tenths",
-        "anchor_fact_id": "HIST-2025-W16-T08-T12",
-        "public_copy": "In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.",
-        "supported_stakes": "Verified 2025 semifinal; The Immortal advanced and won the championship.",
-        "creative_use_scope": "A particularly strong personal callback: Duck’s prior semifinal ended four tenths short against the same verified Austin persona. The current Week10 lead is still snapshot copy until provider finalization.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T08-T12",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 12,
-          "home_name_as_returned": "Dr. Duckhook",
-          "home_points": 151.8,
-          "away_team_id": 8,
-          "away_name_as_returned": "The Immortal",
-          "away_points": 152.2,
-          "winner_team_id": 8,
-          "winner_name_as_returned": "The Immortal",
-          "margin": 0.4,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/1",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "hmb_prior_persona": "The Immortal",
-          "title_game": {
-            "week": 17,
-            "winner": "The Immortal",
-            "winner_points": 161.07,
-            "opponent": "ObiWan Jacoby",
-            "opponent_points": 109.56,
-            "margin": 51.51,
-            "source_pointer": "/seasons/2025/weeks/17/data/matchups/0"
-          },
-          "outcome_source_pointer": "/seasons/2025/standings/data/standings",
-          "championship_won": true,
-          "outcome_confidence": "explicit",
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; single title pairing in Week17; explicit outcomes confirm The Immortal champion and Duckhook fourth."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 208.76,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/-16016/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4241416/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4361741/2",
-      "artifact": "facts.json",
-      "snapshot_value": 42.86,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4430878/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4686361/2",
-      "artifact": "facts.json",
-      "snapshot_value": 19,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 127.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/scorers/4429795/2",
-      "artifact": "facts.json",
-      "snapshot_value": 47.4,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "eb991f56245a41bc45c8b96e28b7d7f85023da654a23b27c86edf0acf2dd35ce",
+      "value_location": "facts.json#/historical_context/W10-G05",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -6929,139 +5085,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/5",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G06",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T01",
-        "away": "T04",
-        "current_score": [
-          130.33,
-          203.96
-        ],
-        "away_lead": 73.63,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-3043078",
-          "W10-MNF-3116365"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T01",
-          "additional_points_strictly_greater_than": 73.63,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a031daa100cf394a90df4eca84f03103e7f49f298b9ffd88cbead7560316eda6",
+      "value_location": "facts.json#/games/5",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G06",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G06",
-        "current_team_ids": [
-          1,
-          4
-        ],
-        "current_team_names": [
-          "ObiWan Jacoby",
-          "The LLC"
-        ],
-        "title": "The LLC’s eight-tenths door",
-        "anchor_fact_id": "HIST-2024-W12-T01-T04",
-        "public_copy": "In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.",
-        "supported_stakes": "Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.",
-        "creative_use_scope": "Use this verified earlier razor-thin LLC win; do not call it their most recent meeting because the 2025 retrieval has gaps.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2024-W12-T01-T04",
-          "season": 2024,
-          "week": 12,
-          "calendar_date": null,
-          "home_team_id": 4,
-          "home_name_as_returned": "The LLC",
-          "home_points": 163.16,
-          "away_team_id": 1,
-          "away_name_as_returned": "ObiWan Jacoby",
-          "away_points": 162.36,
-          "winner_team_id": 4,
-          "winner_name_as_returned": "The LLC",
-          "margin": 0.8,
-          "provider_winner": "HOME",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2024/weeks/12/data/matchups/3",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "obiwan_2024_championship_won": true,
-          "obiwan_2024_final_rank": 1,
-          "llc_2024_final_rank": 7,
-          "outcome_confidence": "explicit",
-          "source_pointer": "/seasons/2024/standings/data/standings"
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 130.33,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/3126486/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.25,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/4360310/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.18,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 203.96,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/3915511/2",
-      "artifact": "facts.json",
-      "snapshot_value": 43.26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4361050/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4432620/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "0878647acfa07f91968e1119153585846c2de25f5122ec919782d10dcda6c321",
+      "value_location": "facts.json#/historical_context/W10-G06",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -7259,139 +5309,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/5",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G06",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T01",
-        "away": "T04",
-        "current_score": [
-          130.33,
-          203.96
-        ],
-        "away_lead": 73.63,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-3043078",
-          "W10-MNF-3116365"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T01",
-          "additional_points_strictly_greater_than": 73.63,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a031daa100cf394a90df4eca84f03103e7f49f298b9ffd88cbead7560316eda6",
+      "value_location": "facts.json#/games/5",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G06",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G06",
-        "current_team_ids": [
-          1,
-          4
-        ],
-        "current_team_names": [
-          "ObiWan Jacoby",
-          "The LLC"
-        ],
-        "title": "The LLC’s eight-tenths door",
-        "anchor_fact_id": "HIST-2024-W12-T01-T04",
-        "public_copy": "In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.",
-        "supported_stakes": "Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.",
-        "creative_use_scope": "Use this verified earlier razor-thin LLC win; do not call it their most recent meeting because the 2025 retrieval has gaps.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2024-W12-T01-T04",
-          "season": 2024,
-          "week": 12,
-          "calendar_date": null,
-          "home_team_id": 4,
-          "home_name_as_returned": "The LLC",
-          "home_points": 163.16,
-          "away_team_id": 1,
-          "away_name_as_returned": "ObiWan Jacoby",
-          "away_points": 162.36,
-          "winner_team_id": 4,
-          "winner_name_as_returned": "The LLC",
-          "margin": 0.8,
-          "provider_winner": "HOME",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2024/weeks/12/data/matchups/3",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "obiwan_2024_championship_won": true,
-          "obiwan_2024_final_rank": 1,
-          "llc_2024_final_rank": 7,
-          "outcome_confidence": "explicit",
-          "source_pointer": "/seasons/2024/standings/data/standings"
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 130.33,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/3126486/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.25,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/4360310/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.18,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 203.96,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/3915511/2",
-      "artifact": "facts.json",
-      "snapshot_value": 43.26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4361050/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4432620/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "0878647acfa07f91968e1119153585846c2de25f5122ec919782d10dcda6c321",
+      "value_location": "facts.json#/historical_context/W10-G06",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -7583,145 +5527,51 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "Unlimited Firepower",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. In the current leading-score branch, that is the cruel difference between a heroic scene and a winning one. The final sports outcome remains unposted.",
-  "department_heading": "ObiWan Jacoby vs The LLC"
+  "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.",
+  "department_heading": "ObiWan Jacoby vs The LLC",
+  "result": {
+    "status": "FINAL",
+    "winner": "The LLC",
+    "winner_points": "203.96",
+    "loser": "ObiWan Jacoby",
+    "loser_points": "166.53",
+    "winner_record": "4–6",
+    "loser_record": "4–6",
+    "margin": "37.43",
+    "source": "SFINAL"
+  },
+  "football_context": "Joe Burrow 43.26; Isaiah Likely 30.70; Parker Washington 29.70; Trevor Lawrence 34.18."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/5",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G06",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T01",
-        "away": "T04",
-        "current_score": [
-          130.33,
-          203.96
-        ],
-        "away_lead": 73.63,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-3043078",
-          "W10-MNF-3116365"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T01",
-          "additional_points_strictly_greater_than": 73.63,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a031daa100cf394a90df4eca84f03103e7f49f298b9ffd88cbead7560316eda6",
+      "value_location": "facts.json#/games/5",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G06",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G06",
-        "current_team_ids": [
-          1,
-          4
-        ],
-        "current_team_names": [
-          "ObiWan Jacoby",
-          "The LLC"
-        ],
-        "title": "The LLC’s eight-tenths door",
-        "anchor_fact_id": "HIST-2024-W12-T01-T04",
-        "public_copy": "In 2024 Week 12, The LLC beat ObiWan Jacoby 163.16–162.36 by 0.80. It was a regular-season game, not the end of ObiWan’s season.",
-        "supported_stakes": "Regular-season Week12 result. ObiWan subsequently won the 2024 championship; LLC finished seventh.",
-        "creative_use_scope": "Use this verified earlier razor-thin LLC win; do not call it their most recent meeting because the 2025 retrieval has gaps.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2024-W12-T01-T04",
-          "season": 2024,
-          "week": 12,
-          "calendar_date": null,
-          "home_team_id": 4,
-          "home_name_as_returned": "The LLC",
-          "home_points": 163.16,
-          "away_team_id": 1,
-          "away_name_as_returned": "ObiWan Jacoby",
-          "away_points": 162.36,
-          "winner_team_id": 4,
-          "winner_name_as_returned": "The LLC",
-          "margin": 0.8,
-          "provider_winner": "HOME",
-          "provider_playoff_tier": "NONE",
-          "source_pointer": "/seasons/2024/weeks/12/data/matchups/3",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "obiwan_2024_championship_won": true,
-          "obiwan_2024_final_rank": 1,
-          "llc_2024_final_rank": 7,
-          "outcome_confidence": "explicit",
-          "source_pointer": "/seasons/2024/standings/data/standings"
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 130.33,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/3126486/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.25,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T01/scorers/4360310/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.18,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 203.96,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/3915511/2",
-      "artifact": "facts.json",
-      "snapshot_value": 43.26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4361050/2",
-      "artifact": "facts.json",
-      "snapshot_value": 30.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T04/scorers/4432620/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "0878647acfa07f91968e1119153585846c2de25f5122ec919782d10dcda6c321",
+      "value_location": "facts.json#/historical_context/W10-G06",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -7817,7 +5667,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "THE NEXT STARTING SHEET",
   "deck": "Week 11 • Seven uncovered required positions",
-  "body": "Six NFL clubs are on bye. On the current Schemin rosters, six teams lack an owned replacement at seven required positions. These are planning needs, not completed moves. The separate reserve ledger still records fantasy IR occupancy without turning that placement into a diagnosis.",
+  "body": "Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.",
   "callouts": [],
   "rows": [
     {
@@ -7850,359 +5700,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/derived/reserve_occupancy",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "Bench": 84,
-        "IR": 20,
-        "teams_with_IR": 11
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "0030598d62753d23ca041c84bfbf55259af1eb455333920b303b83a7d896b1f2",
+      "value_location": "facts.json#/derived/reserve_occupancy",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/available_slots",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-AVAILABLE-SLOTS",
-        "artifact": "available-slots-pass3.json",
-        "scope": "Current read-only non-bye coverage pool; no claims or bids placed",
-        "data": {
-          "schema": "schemin.week11.required-slot-availability.v1",
-          "captured_at_utc": "2026-11-16T18:24:59Z",
-          "league_id": "1417621",
-          "season": 2026,
-          "purpose": "Read-only memo-planning availability shortlist for seven uncovered required Week11 slots; no acquisition or allocation recommendation, bid or roster change.",
-          "required_slots": [
-            {
-              "team": "Slob on my Dobb",
-              "team_id": 3,
-              "position": "TE"
-            },
-            {
-              "team": "El Niño",
-              "team_id": 9,
-              "position": "TE"
-            },
-            {
-              "team": "The Chili Cheesers",
-              "team_id": 7,
-              "position": "K"
-            },
-            {
-              "team": "Seven Deadly Chins",
-              "team_id": 11,
-              "position": "K"
-            },
-            {
-              "team": "Seven Deadly Chins",
-              "team_id": 11,
-              "position": "D/ST"
-            },
-            {
-              "team": "ObiWan Jacoby",
-              "team_id": 1,
-              "position": "D/ST"
-            },
-            {
-              "team": "Mud Dogs",
-              "team_id": 10,
-              "position": "D/ST"
-            }
-          ],
-          "excluded_week11_bye_clubs": [
-            "ATL",
-            "CLE",
-            "GB",
-            "LAR",
-            "NE",
-            "SEA"
-          ],
-          "coverage": {
-            "TE": 15,
-            "K": 15,
-            "DST": 14,
-            "inventory_complete_claim": false,
-            "ordering": "Provider platform_rostered_rate_desc; this is not a Week11 projection ranking."
-          },
-          "shortlist": {
-            "TE": [
-              {
-                "id": "3117256",
-                "name": "Dalton Schultz",
-                "team": "HOU",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 8.94,
-                "seasonPoints": 80.5
-              },
-              {
-                "id": "4430802",
-                "name": "Darnell Washington",
-                "team": "PIT",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 7.1,
-                "seasonPoints": 63.9
-              },
-              {
-                "id": "4808766",
-                "name": "Mason Taylor",
-                "team": "NYJ",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 6.59,
-                "seasonPoints": 52.7
-              },
-              {
-                "id": "4243331",
-                "name": "Cade Otton",
-                "team": "TB",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 4.9,
-                "seasonPoints": 44.1
-              }
-            ],
-            "K": [
-              {
-                "id": "17372",
-                "name": "Chris Boswell",
-                "team": "PIT",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 9.67,
-                "seasonPoints": 87
-              },
-              {
-                "id": "4689936",
-                "name": "Jake Bates",
-                "team": "DET",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 9.44,
-                "seasonPoints": 85
-              },
-              {
-                "id": "4362081",
-                "name": "Cameron Dicker",
-                "team": "LAC",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 7.75,
-                "seasonPoints": 62
-              },
-              {
-                "id": "3150744",
-                "name": "Chase McLaughlin",
-                "team": "TB",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 11,
-                "seasonPoints": 99
-              }
-            ],
-            "DST": [
-              {
-                "id": "-16003",
-                "name": "Bears D/ST",
-                "team": "CHI",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 11.52,
-                "seasonPoints": 103.7
-              },
-              {
-                "id": "-16004",
-                "name": "Bengals D/ST",
-                "team": "CIN",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 10.56,
-                "seasonPoints": 95
-              },
-              {
-                "id": "-16028",
-                "name": "Commanders D/ST",
-                "team": "WSH",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 8.4,
-                "seasonPoints": 75.6
-              },
-              {
-                "id": "-16021",
-                "name": "Eagles D/ST",
-                "team": "PHI",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 5.39,
-                "seasonPoints": 48.5
-              }
-            ]
-          },
-          "excluded_returned_entries": {
-            "TE": [
-              {
-                "id": "4242355",
-                "name": "Jake Ferguson",
-                "team": "DAL",
-                "reasons": [
-                  "provider injury designation Out"
-                ]
-              },
-              {
-                "id": "4576297",
-                "name": "AJ Barner",
-                "team": "SEA",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "4831959",
-                "name": "Eli Raridon",
-                "team": "NE",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "4242557",
-                "name": "Colby Parkinson",
-                "team": "LAR",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "3123076",
-                "name": "David Njoku",
-                "team": "LAC",
-                "reasons": [
-                  "provider injury designation IR"
-                ]
-              }
-            ],
-            "K": [
-              {
-                "id": "4697745",
-                "name": "Tyler Loop",
-                "team": "BAL",
-                "reasons": [
-                  "provider injury designation IR"
-                ]
-              },
-              {
-                "id": "4574716",
-                "name": "Harrison Mevis",
-                "team": null,
-                "reasons": [
-                  "provider club not reported"
-                ]
-              },
-              {
-                "id": "4869461",
-                "name": "Trey Smack",
-                "team": "GB",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "10621",
-                "name": "Nick Folk",
-                "team": null,
-                "reasons": [
-                  "provider club not reported"
-                ]
-              }
-            ],
-            "DST": [
-              {
-                "id": "-16009",
-                "name": "Packers D/ST",
-                "team": "GB",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "-16017",
-                "name": "Patriots D/ST",
-                "team": "NE",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "-16001",
-                "name": "Falcons D/ST",
-                "team": "ATL",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              }
-            ]
-          },
-          "availability_limits": [
-            "acquisitionState is the current provider state, not a promise a manager can complete an acquisition or win a claim.",
-            "Provider waiver clearance Nov18 at08:00UTC corresponds to03:00EST.",
-            "The12 selected candidates are absent from all224 current roster entries at the checkpoint.",
-            "Active is a provider designation that can lag news; Week11 medical/practice reports and real-team roles require rechecking.",
-            "D/ST rows carry no individual injury designation; defensive personnel and opponent matchup were not assessed in this bounded check.",
-            "No weekly projections were returned; pointsPerGame is a league-scored season average, not expected Week11 points.",
-            "Free-agent pools change; no assignment of the same player to multiple teams is implied."
-          ],
-          "source_file": "available-slots-receipts-pass3.json",
-          "bye_source": {
-            "url": "https://www.nfl.com/schedules/2026/by-week/week-11",
-            "support": "ATL,CLE,GB,LAR,NE,SEA Week11 byes",
-            "sports_news_source_id": "S16",
-            "sports_news_file": "w10_pass3_sports_news.json"
-          }
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "db6e1cb2e3d238af875677bec5482af381049979994db5dc8fef79842a9a4abf",
+      "value_location": "facts.json#/pass3/available_slots",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -8283,11 +5816,11 @@ EXACT FULL PUBLICATION COPY
     },
     {
       "heading": "ObiWan works the receiver file",
-      "body": "ObiWan completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
+      "body": "ObiWan Jacoby completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
     },
     {
-      "heading": "The defense that still matters tonight",
-      "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense remains its last selected scorer."
+      "heading": "The defense that closed the week",
+      "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense supplied 7.00 on Monday; Three Dreaded Snake finished with 82.78."
     }
   ],
   "rows": [],
@@ -8296,728 +5829,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/completed_transactions",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-TX-COMPLETE",
-        "scope": "W10_COMPLETED_ACTIVITY",
-        "source": "S10",
-        "event_count": 29,
-        "trade_event_count": 0,
-        "window": "ESPN matchup period 10; date bounds unavailable; response not truncated",
-        "event_fields": [
-          "event_id",
-          "date",
-          "team",
-          "type",
-          "added",
-          "dropped",
-          "faab_bid"
-        ],
-        "events": [
-          [
-            "de481763-a023-41f1-9a3d-f9d9d39c4584",
-            "2026-11-15",
-            "T12",
-            "add",
-            [
-              "Brian Thomas Jr."
-            ],
-            [],
-            0
-          ],
-          [
-            "9cc85243-1384-48e2-8299-e7d4a7c6688e",
-            "2026-11-15",
-            "T01",
-            "add",
-            [
-              "Bam Knight"
-            ],
-            [
-              "Dalton Schultz"
-            ],
-            0
-          ],
-          [
-            "720df030-566a-4138-a669-51d24ab935f9",
-            "2026-11-14",
-            "T01",
-            "waiver",
-            [
-              "Kalif Raymond"
-            ],
-            [
-              "Romeo Doubs"
-            ],
-            1
-          ],
-          [
-            "12c36132-6551-4628-b8d6-0463eac7c686",
-            "2026-11-13",
-            "T11",
-            "add",
-            [
-              "Chimere Dike"
-            ],
-            [
-              "Pat Bryant"
-            ],
-            0
-          ],
-          [
-            "2118a4ed-c1d7-439b-8bdc-a0d91c2ca0cd",
-            "2026-11-12",
-            "T01",
-            "add",
-            [
-              "Tyler Higbee"
-            ],
-            [
-              "Kalif Raymond"
-            ],
-            0
-          ],
-          [
-            "b104acff-d40e-4ab1-a237-59cb22a734fd",
-            "2026-11-12",
-            "T03",
-            "add",
-            [
-              "Jordan Mason"
-            ],
-            [
-              "Chris Brooks"
-            ],
-            0
-          ],
-          [
-            "6936ce10-eb31-4ae3-b5f6-dc4ee1744880",
-            "2026-11-12",
-            "T11",
-            "add",
-            [
-              "Pat Bryant"
-            ],
-            [
-              "Jordan Watkins"
-            ],
-            0
-          ],
-          [
-            "88370b77-f24f-4962-8387-eb3c2385ef72",
-            "2026-11-11",
-            "T11",
-            "add",
-            [
-              "Jordan Watkins"
-            ],
-            [],
-            0
-          ],
-          [
-            "d017c99f-ea59-4d78-8b54-d6f6bc15ffec",
-            "2026-11-11",
-            "T11",
-            "add",
-            [
-              "De'Zhaun Stribling"
-            ],
-            [
-              "Jordan Watkins"
-            ],
-            0
-          ],
-          [
-            "3e725304-bb4b-4cb8-ace1-4df834adc337",
-            "2026-11-11",
-            "T02",
-            "add",
-            [
-              "Colts D/ST"
-            ],
-            [
-              "Bears D/ST"
-            ],
-            0
-          ],
-          [
-            "7a35777b-bff9-4b61-907d-2ef31e4334ad",
-            "2026-11-11",
-            "T02",
-            "add",
-            [
-              "Drew Lock"
-            ],
-            [],
-            0
-          ],
-          [
-            "eb519448-4747-4b1a-aacb-c138b435c763",
-            "2026-11-11",
-            "T04",
-            "add",
-            [
-              "Jason Sanders"
-            ],
-            [
-              "Cairo Santos"
-            ],
-            0
-          ],
-          [
-            "48bc265e-7ab0-4bd7-aef9-67d17b5f8948",
-            "2026-11-11",
-            "T03",
-            "add",
-            [
-              "Chris Brooks"
-            ],
-            [],
-            0
-          ],
-          [
-            "abd5caab-6a74-4ce1-895b-b03b79b4855a",
-            "2026-11-11",
-            "T03",
-            "drop",
-            [],
-            [
-              "Brandon Aiyuk"
-            ],
-            0
-          ],
-          [
-            "7ba74a81-8aa5-4a35-88c8-9657ac7c72e3",
-            "2026-11-11",
-            "T03",
-            "add",
-            [
-              "Kaleb Johnson"
-            ],
-            [
-              "Mike Washington Jr."
-            ],
-            0
-          ],
-          [
-            "2d245ad6-e602-4471-adb6-30aed1c95bb5",
-            "2026-11-11",
-            "T11",
-            "add",
-            [
-              "Andre Szmyt"
-            ],
-            [
-              "Chase McLaughlin"
-            ],
-            0
-          ],
-          [
-            "8e12b63f-b328-4a7f-8d41-f4fb186ef143",
-            "2026-11-11",
-            "T11",
-            "add",
-            [
-              "Jordan Watkins"
-            ],
-            [],
-            0
-          ],
-          [
-            "4bcc51d8-17bb-45c1-900d-c341c3506c90",
-            "2026-11-11",
-            "T06",
-            "add",
-            [
-              "Ravens D/ST"
-            ],
-            [
-              "Bengals D/ST"
-            ],
-            0
-          ],
-          [
-            "8f6b5bd8-1fee-441b-8b8a-3fde56728d0b",
-            "2026-11-11",
-            "T06",
-            "add",
-            [
-              "Tutu Atwell"
-            ],
-            [
-              "Seth McGowan"
-            ],
-            0
-          ],
-          [
-            "2a75823c-a099-47c5-baf5-867f1e86f101",
-            "2026-11-11",
-            "T06",
-            "add",
-            [
-              "Darren Waller"
-            ],
-            [
-              "Chris Boswell"
-            ],
-            0
-          ],
-          [
-            "fc5e84d1-7ea7-47d4-a08e-3c38fc38aafe",
-            "2026-11-11",
-            "T11",
-            "waiver",
-            [
-              "Tank Dell"
-            ],
-            [],
-            5
-          ],
-          [
-            "cca1ae9d-6f8f-481e-b6b9-fcf8558dd844",
-            "2026-11-11",
-            "T11",
-            "waiver",
-            [
-              "Fernando Mendoza"
-            ],
-            [],
-            5
-          ],
-          [
-            "5458c52a-8d4e-4861-85b7-52a0d58e003e",
-            "2026-11-11",
-            "T08",
-            "waiver",
-            [
-              "Konata Mumpfield"
-            ],
-            [
-              "Eli Raridon"
-            ],
-            11
-          ],
-          [
-            "aeea3baf-be16-4f63-99ba-e5d7bcfa05f5",
-            "2026-11-11",
-            "T01",
-            "waiver",
-            [
-              "Malachi Fields"
-            ],
-            [
-              "Tory Horton"
-            ],
-            11
-          ],
-          [
-            "8ad50ef3-4705-44da-be52-5b8702e81798",
-            "2026-11-11",
-            "T01",
-            "waiver",
-            [
-              "Mack Hollins"
-            ],
-            [
-              "Jalen Nailor"
-            ],
-            27
-          ],
-          [
-            "a860fe7d-4a71-4798-9b22-dee667603872",
-            "2026-11-11",
-            "T12",
-            "waiver",
-            [
-              "Corey Kiner"
-            ],
-            [
-              "Jordan Mason"
-            ],
-            35
-          ],
-          [
-            "71e30879-8174-417d-b093-aa8c620ebe6b",
-            "2026-11-10",
-            "T11",
-            "drop",
-            [],
-            [
-              "Brian Thomas Jr."
-            ],
-            0
-          ],
-          [
-            "aa2f811b-9adc-43f4-982f-0426eaeb8f99",
-            "2026-11-10",
-            "T11",
-            "drop",
-            [],
-            [
-              "Ja'Kobi Lane"
-            ],
-            0
-          ],
-          [
-            "f1def487-ed5e-46db-9296-b3954235bacb",
-            "2026-11-10",
-            "T11",
-            "drop",
-            [],
-            [
-              "Malik Willis"
-            ],
-            0
-          ]
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "941707ffd3362f88436bb8dae5f9eb7f953ba079a7fb58e4b7be508893ed6c10",
+      "value_location": "facts.json#/completed_transactions",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/transactions",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "656cd67943f90ce7818cca5f2df6c65623e303bf7b141204f1718c3e9388bd0a",
-      "snapshot_value_stored_in": "facts.json/pass3/transactions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "3b730827564e5539650ce0e8d7c43084dcbcc2d5ca811ec1bc8dcc819632ab04",
+      "value_location": "facts.json#/pass3/transactions",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/available_slots",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-AVAILABLE-SLOTS",
-        "artifact": "available-slots-pass3.json",
-        "scope": "Current read-only non-bye coverage pool; no claims or bids placed",
-        "data": {
-          "schema": "schemin.week11.required-slot-availability.v1",
-          "captured_at_utc": "2026-11-16T18:24:59Z",
-          "league_id": "1417621",
-          "season": 2026,
-          "purpose": "Read-only memo-planning availability shortlist for seven uncovered required Week11 slots; no acquisition or allocation recommendation, bid or roster change.",
-          "required_slots": [
-            {
-              "team": "Slob on my Dobb",
-              "team_id": 3,
-              "position": "TE"
-            },
-            {
-              "team": "El Niño",
-              "team_id": 9,
-              "position": "TE"
-            },
-            {
-              "team": "The Chili Cheesers",
-              "team_id": 7,
-              "position": "K"
-            },
-            {
-              "team": "Seven Deadly Chins",
-              "team_id": 11,
-              "position": "K"
-            },
-            {
-              "team": "Seven Deadly Chins",
-              "team_id": 11,
-              "position": "D/ST"
-            },
-            {
-              "team": "ObiWan Jacoby",
-              "team_id": 1,
-              "position": "D/ST"
-            },
-            {
-              "team": "Mud Dogs",
-              "team_id": 10,
-              "position": "D/ST"
-            }
-          ],
-          "excluded_week11_bye_clubs": [
-            "ATL",
-            "CLE",
-            "GB",
-            "LAR",
-            "NE",
-            "SEA"
-          ],
-          "coverage": {
-            "TE": 15,
-            "K": 15,
-            "DST": 14,
-            "inventory_complete_claim": false,
-            "ordering": "Provider platform_rostered_rate_desc; this is not a Week11 projection ranking."
-          },
-          "shortlist": {
-            "TE": [
-              {
-                "id": "3117256",
-                "name": "Dalton Schultz",
-                "team": "HOU",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 8.94,
-                "seasonPoints": 80.5
-              },
-              {
-                "id": "4430802",
-                "name": "Darnell Washington",
-                "team": "PIT",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 7.1,
-                "seasonPoints": 63.9
-              },
-              {
-                "id": "4808766",
-                "name": "Mason Taylor",
-                "team": "NYJ",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 6.59,
-                "seasonPoints": 52.7
-              },
-              {
-                "id": "4243331",
-                "name": "Cade Otton",
-                "team": "TB",
-                "position": "TE",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 4.9,
-                "seasonPoints": 44.1
-              }
-            ],
-            "K": [
-              {
-                "id": "17372",
-                "name": "Chris Boswell",
-                "team": "PIT",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 9.67,
-                "seasonPoints": 87
-              },
-              {
-                "id": "4689936",
-                "name": "Jake Bates",
-                "team": "DET",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 9.44,
-                "seasonPoints": 85
-              },
-              {
-                "id": "4362081",
-                "name": "Cameron Dicker",
-                "team": "LAC",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 7.75,
-                "seasonPoints": 62
-              },
-              {
-                "id": "3150744",
-                "name": "Chase McLaughlin",
-                "team": "TB",
-                "position": "K",
-                "injuryStatus": "Active",
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 11,
-                "seasonPoints": 99
-              }
-            ],
-            "DST": [
-              {
-                "id": "-16003",
-                "name": "Bears D/ST",
-                "team": "CHI",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 11.52,
-                "seasonPoints": 103.7
-              },
-              {
-                "id": "-16004",
-                "name": "Bengals D/ST",
-                "team": "CIN",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 10.56,
-                "seasonPoints": 95
-              },
-              {
-                "id": "-16028",
-                "name": "Commanders D/ST",
-                "team": "WSH",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "waivers",
-                "waiverClearsAt": "2026-11-18T08:00:00.000Z",
-                "pointsPerGame": 8.4,
-                "seasonPoints": 75.6
-              },
-              {
-                "id": "-16021",
-                "name": "Eagles D/ST",
-                "team": "PHI",
-                "position": "D/ST",
-                "injuryStatus": null,
-                "acquisitionState": "free_agent",
-                "waiverClearsAt": null,
-                "pointsPerGame": 5.39,
-                "seasonPoints": 48.5
-              }
-            ]
-          },
-          "excluded_returned_entries": {
-            "TE": [
-              {
-                "id": "4242355",
-                "name": "Jake Ferguson",
-                "team": "DAL",
-                "reasons": [
-                  "provider injury designation Out"
-                ]
-              },
-              {
-                "id": "4576297",
-                "name": "AJ Barner",
-                "team": "SEA",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "4831959",
-                "name": "Eli Raridon",
-                "team": "NE",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "4242557",
-                "name": "Colby Parkinson",
-                "team": "LAR",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "3123076",
-                "name": "David Njoku",
-                "team": "LAC",
-                "reasons": [
-                  "provider injury designation IR"
-                ]
-              }
-            ],
-            "K": [
-              {
-                "id": "4697745",
-                "name": "Tyler Loop",
-                "team": "BAL",
-                "reasons": [
-                  "provider injury designation IR"
-                ]
-              },
-              {
-                "id": "4574716",
-                "name": "Harrison Mevis",
-                "team": null,
-                "reasons": [
-                  "provider club not reported"
-                ]
-              },
-              {
-                "id": "4869461",
-                "name": "Trey Smack",
-                "team": "GB",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "10621",
-                "name": "Nick Folk",
-                "team": null,
-                "reasons": [
-                  "provider club not reported"
-                ]
-              }
-            ],
-            "DST": [
-              {
-                "id": "-16009",
-                "name": "Packers D/ST",
-                "team": "GB",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "-16017",
-                "name": "Patriots D/ST",
-                "team": "NE",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              },
-              {
-                "id": "-16001",
-                "name": "Falcons D/ST",
-                "team": "ATL",
-                "reasons": [
-                  "Week11 bye"
-                ]
-              }
-            ]
-          },
-          "availability_limits": [
-            "acquisitionState is the current provider state, not a promise a manager can complete an acquisition or win a claim.",
-            "Provider waiver clearance Nov18 at08:00UTC corresponds to03:00EST.",
-            "The12 selected candidates are absent from all224 current roster entries at the checkpoint.",
-            "Active is a provider designation that can lag news; Week11 medical/practice reports and real-team roles require rechecking.",
-            "D/ST rows carry no individual injury designation; defensive personnel and opponent matchup were not assessed in this bounded check.",
-            "No weekly projections were returned; pointsPerGame is a league-scored season average, not expected Week11 points.",
-            "Free-agent pools change; no assignment of the same player to multiple teams is implied."
-          ],
-          "source_file": "available-slots-receipts-pass3.json",
-          "bye_source": {
-            "url": "https://www.nfl.com/schedules/2026/by-week/week-11",
-            "support": "ATL,CLE,GB,LAR,NE,SEA Week11 byes",
-            "sports_news_source_id": "S16",
-            "sports_news_file": "w10_pass3_sports_news.json"
-          }
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "db6e1cb2e3d238af875677bec5482af381049979994db5dc8fef79842a9a4abf",
+      "value_location": "facts.json#/pass3/available_slots",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -9037,7 +5884,7 @@ REFERENCE IMAGES
   }
 ]
 
-## W10-P27 — TWELVE TEAMS. NINE POSTED RESULTS.
+## W10-P27 — TWELVE TEAMS. TEN POSTED RESULTS.
 
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
@@ -9080,82 +5927,82 @@ SCENE AND CONTINUITY
 
 EXACT FULL PUBLICATION COPY
 {
-  "headline": "TWELVE TEAMS. NINE POSTED RESULTS.",
-  "deck": "Official standings entering Week 10",
-  "body": "This is the official table through nine completed games. Dr. Duckhook entered alone at 6–3; seven teams followed at 5–4. Week 10’s scoring belongs on the live board until ESPN posts its outcomes. Equal records can occupy different seeds, so the order below follows the provider’s table.",
+  "headline": "TWELVE TEAMS. TEN POSTED RESULTS.",
+  "deck": "Official standings after Week 10",
+  "body": "Six teams share 6–4 records, with Slob on my Dobb first in the provider’s seeding and first in total points. Red Leopards and The Chili Cheesers follow at 5–5. Equal records do not mean interchangeable seeds: the order below preserves ESPN’s posted table, including the division and tiebreak structure.",
   "callouts": [],
   "rows": [
     {
       "seed": 1,
-      "team": "Dr. Duckhook",
-      "record": "6–3",
-      "points_for": "1324.48"
+      "team": "Slob on my Dobb",
+      "record": "6–4",
+      "points_for": "1599.99"
     },
     {
       "seed": 2,
       "team": "El Niño",
-      "record": "5–4",
-      "points_for": "1260.95"
+      "record": "6–4",
+      "points_for": "1450.03"
     },
     {
       "seed": 3,
       "team": "D0nkey K0ng",
-      "record": "5–4",
-      "points_for": "1255.15"
+      "record": "6–4",
+      "points_for": "1411.82"
     },
     {
       "seed": 4,
-      "team": "Red Leopards",
-      "record": "5–4",
-      "points_for": "1256.69"
+      "team": "His Majesty's Blood",
+      "record": "6–4",
+      "points_for": "1451.95"
     },
     {
       "seed": 5,
-      "team": "His Majesty's Blood",
-      "record": "5–4",
-      "points_for": "1243.19"
+      "team": "Dr. Duckhook",
+      "record": "6–4",
+      "points_for": "1452.15"
     },
     {
       "seed": 6,
       "team": "Seven Deadly Chins",
-      "record": "5–4",
-      "points_for": "1210.40"
+      "record": "6–4",
+      "points_for": "1356.62"
     },
     {
       "seed": 7,
-      "team": "Slob on my Dobb",
-      "record": "5–4",
-      "points_for": "1420.70"
+      "team": "Red Leopards",
+      "record": "5–5",
+      "points_for": "1404.51"
     },
     {
       "seed": 8,
       "team": "The Chili Cheesers",
-      "record": "5–4",
-      "points_for": "1291.09"
+      "record": "5–5",
+      "points_for": "1384.79"
     },
     {
       "seed": 9,
-      "team": "ObiWan Jacoby",
-      "record": "4–5",
-      "points_for": "1217.98"
+      "team": "The LLC",
+      "record": "4–6",
+      "points_for": "1449.25"
     },
     {
       "seed": 10,
-      "team": "Three Dreaded Snake",
-      "record": "4–5",
-      "points_for": "1196.68"
+      "team": "ObiWan Jacoby",
+      "record": "4–6",
+      "points_for": "1384.51"
     },
     {
       "seed": 11,
-      "team": "The LLC",
-      "record": "3–6",
-      "points_for": "1245.29"
+      "team": "Three Dreaded Snake",
+      "record": "4–6",
+      "points_for": "1279.46"
     },
     {
       "seed": 12,
       "team": "Mud Dogs",
-      "record": "2–7",
-      "points_for": "1067.73"
+      "record": "2–8",
+      "points_for": "1181.35"
     }
   ],
   "department_heading": "STANDINGS"
@@ -9163,277 +6010,240 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
-      "selector": "/teams/T01/entering_official_seed",
+      "selector": "/official_records",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 9
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ca459f3f4533ecbcb9728cac751c8ee4b9aa480859299e3bf315bef5593c85d5",
+      "value_location": "facts.json#/official_records",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T02/entering_official_seed",
+      "selector": "/teams/T01/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 4
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "value_location": "facts.json#/teams/T01/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T03/entering_official_seed",
+      "selector": "/teams/T02/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 7
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "value_location": "facts.json#/teams/T02/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T04/entering_official_seed",
+      "selector": "/teams/T03/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 11
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "value_location": "facts.json#/teams/T03/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T05/entering_official_seed",
+      "selector": "/teams/T04/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 3
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "value_location": "facts.json#/teams/T04/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T06/entering_official_seed",
+      "selector": "/teams/T05/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 10
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "value_location": "facts.json#/teams/T05/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T07/entering_official_seed",
+      "selector": "/teams/T06/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 8
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "value_location": "facts.json#/teams/T06/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T08/entering_official_seed",
+      "selector": "/teams/T07/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 5
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "value_location": "facts.json#/teams/T07/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T09/entering_official_seed",
+      "selector": "/teams/T08/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 2
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "value_location": "facts.json#/teams/T08/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T10/entering_official_seed",
+      "selector": "/teams/T09/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 12
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "value_location": "facts.json#/teams/T09/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T11/entering_official_seed",
+      "selector": "/teams/T10/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 6
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+      "value_location": "facts.json#/teams/T10/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T12/entering_official_seed",
+      "selector": "/teams/T11/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "value_location": "facts.json#/teams/T11/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T01/entering_record",
+      "selector": "/teams/T12/post_week10_official_seed",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 4,
-        "l": 5,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "value_location": "facts.json#/teams/T12/post_week10_official_seed",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T02/entering_record",
+      "selector": "/teams/T01/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 5,
-        "l": 4,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ff0c35ff82394434cb230d4509d878763407cb6639cee27900744f7525defb28",
+      "value_location": "facts.json#/teams/T01/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T03/entering_record",
+      "selector": "/teams/T02/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 5,
-        "l": 4,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "282e606e076f0bed1785cc6b3d18933e8ca608be96710559912b66a772763577",
+      "value_location": "facts.json#/teams/T02/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T04/entering_record",
+      "selector": "/teams/T03/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 3,
-        "l": 6,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "4ebabe0529ef152cf722c883982dd303c45fd17c381018df950752e780fac893",
+      "value_location": "facts.json#/teams/T03/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T05/entering_record",
+      "selector": "/teams/T04/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 5,
-        "l": 4,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "7818bca00bafa4caf3331deab1b991816b79c7061e0badc6c6bf34f13f729cba",
+      "value_location": "facts.json#/teams/T04/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T06/entering_record",
+      "selector": "/teams/T05/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 4,
-        "l": 5,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "9baf3a1c08da97505b5ecac2fafbd4574c6717e1ba85f458084b51fb0ed2aa06",
+      "value_location": "facts.json#/teams/T05/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T07/entering_record",
+      "selector": "/teams/T06/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 5,
-        "l": 4,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f8ddff3aa805575cf7d89e17a54da6c4fa3d13d57da8e814e91ceef8c538cf58",
+      "value_location": "facts.json#/teams/T06/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T08/entering_record",
+      "selector": "/teams/T07/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 5,
-        "l": 4,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "804116152857c336fa53521163f6c6cbf0a8db03cd423f3e18ad3af97ebec3e8",
+      "value_location": "facts.json#/teams/T07/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T09/entering_record",
+      "selector": "/teams/T08/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 5,
-        "l": 4,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "22566e99e43ddef4d6cf5921d421a5aff142120250ac0b9869f245a1b5cf6256",
+      "value_location": "facts.json#/teams/T08/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T10/entering_record",
+      "selector": "/teams/T09/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 2,
-        "l": 7,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "e6ac70f13225631a0f89e593080af85714600030a1aacfee9f66f0927a559dfb",
+      "value_location": "facts.json#/teams/T09/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T11/entering_record",
+      "selector": "/teams/T10/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 5,
-        "l": 4,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "40ebad34138f3146c1d61fac734194d3a8266d3c39df4cef3b136089fc9277b9",
+      "value_location": "facts.json#/teams/T10/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T12/entering_record",
+      "selector": "/teams/T11/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "w": 6,
-        "l": 3,
-        "t": 0
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "c6e871fca69d1b0667a4ad40828dfc58f1cfcea20d3f1ef25cb10b9be75bb7f3",
+      "value_location": "facts.json#/teams/T11/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T01/prior9_points_for",
+      "selector": "/teams/T12/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1217.98
-    },
-    {
-      "selector": "/teams/T02/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1256.69
-    },
-    {
-      "selector": "/teams/T03/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1420.7
-    },
-    {
-      "selector": "/teams/T04/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1245.29
-    },
-    {
-      "selector": "/teams/T05/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1255.15
-    },
-    {
-      "selector": "/teams/T06/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1196.68
-    },
-    {
-      "selector": "/teams/T07/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1291.09
-    },
-    {
-      "selector": "/teams/T08/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1243.19
-    },
-    {
-      "selector": "/teams/T09/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1260.95
-    },
-    {
-      "selector": "/teams/T10/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1067.73
-    },
-    {
-      "selector": "/teams/T11/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1210.4
-    },
-    {
-      "selector": "/teams/T12/prior9_points_for",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1324.48
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "08e8b9eab39f719f8eb4499a25865b2da330dee11f16d1c9bd9a42fc6e35b42d",
+      "value_location": "facts.json#/teams/T12/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -9502,22 +6312,22 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
   "deck": "The same results change three separate races",
-  "body": "If the current leads hold, six teams will share 6–4 records. Pizza would contain three of them; Wings two; Burgers one. The same record will mean different pressure in different divisions. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+  "body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
   "callouts": [
     {
       "label": "BURGERS",
-      "heading": "D0nkey can create separation",
-      "body": "D0nkey K0ng would reach 6–4. If ObiWan Jacoby and Three Dreaded Snake remain behind, both fall to 4–6; Mud Dogs’ current deficit points toward 2–8."
+      "heading": "D0nkey K0ng has separation",
+      "body": "D0nkey K0ng stands at 6–4. ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8 and must win out to preserve a route."
     },
     {
       "label": "PIZZA",
       "heading": "Three leaders on the same step",
-      "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins would share 6–4; The LLC would reach 4–6. Comebacks by Red Leopards or Three Dreaded Snake would change that group."
+      "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins are all 6–4. The LLC’s 203.96 victory lifts its record to 4–6, with the divisional return still ahead."
     },
     {
       "label": "WINGS",
-      "heading": "The cushion is under pressure",
-      "body": "Dr. Duckhook and Slob on my Dobb would meet at 6–4, with Red Leopards and The Chili Cheesers at 5–5. Flowers can still bring Red Leopards into the 6–4 group."
+      "heading": "The cushion has narrowed",
+      "body": "Dr. Duckhook and Slob on my Dobb are 6–4. Red Leopards and The Chili Cheesers are both 5–5. One crossover remains before the four meet division rivals again."
     }
   ],
   "rows": [],
@@ -9526,438 +6336,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/divisions",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-DIVISIONS",
-        "scope": "W09_APPROVED_DIVISIONS",
-        "source": "SDIV",
-        "members": {
-          "Burgers": [
-            "T05",
-            "T01",
-            "T06",
-            "T10"
-          ],
-          "Pizza": [
-            "T09",
-            "T08",
-            "T11",
-            "T04"
-          ],
-          "Wings": [
-            "T12",
-            "T02",
-            "T03",
-            "T07"
-          ]
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ee20cab9164bcb27f2cfa7c38596dc6082d1c872359f9fd0746c73c480bd9fc4",
+      "value_location": "facts.json#/divisions",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/conditional_records",
+      "selector": "/official_records",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-CONDITIONAL-RECORDS",
-        "scope": "CONDITIONAL",
-        "source_inputs": [
-          "S10",
-          "SH"
-        ],
-        "baseline_condition": "All current leads hold and no later corrections change results",
-        "baseline": {
-          "T12": {
-            "w": 6,
-            "l": 4,
-            "t": 0
-          },
-          "T09": {
-            "w": 6,
-            "l": 4,
-            "t": 0
-          },
-          "T05": {
-            "w": 6,
-            "l": 4,
-            "t": 0
-          },
-          "T02": {
-            "w": 5,
-            "l": 5,
-            "t": 0
-          },
-          "T08": {
-            "w": 6,
-            "l": 4,
-            "t": 0
-          },
-          "T11": {
-            "w": 6,
-            "l": 4,
-            "t": 0
-          },
-          "T03": {
-            "w": 6,
-            "l": 4,
-            "t": 0
-          },
-          "T07": {
-            "w": 5,
-            "l": 5,
-            "t": 0
-          },
-          "T01": {
-            "w": 4,
-            "l": 6,
-            "t": 0
-          },
-          "T06": {
-            "w": 4,
-            "l": 6,
-            "t": 0
-          },
-          "T04": {
-            "w": 4,
-            "l": 6,
-            "t": 0
-          },
-          "T10": {
-            "w": 2,
-            "l": 8,
-            "t": 0
-          }
-        },
-        "six_four_group": [
-          "T12",
-          "T09",
-          "T05",
-          "T08",
-          "T11",
-          "T03"
-        ],
-        "alternatives": {
-          "red_wins": {
-            "game": "W10-G02",
-            "replace_records": {
-              "T02": {
-                "w": 6,
-                "l": 4,
-                "t": 0
-              },
-              "T09": {
-                "w": 5,
-                "l": 5,
-                "t": 0
-              }
-            },
-            "six_four_group": [
-              "T12",
-              "T02",
-              "T05",
-              "T08",
-              "T11",
-              "T03"
-            ]
-          },
-          "tds_wins": {
-            "game": "W10-G03",
-            "replace_records": {
-              "T06": {
-                "w": 5,
-                "l": 5,
-                "t": 0
-              },
-              "T11": {
-                "w": 5,
-                "l": 5,
-                "t": 0
-              }
-            },
-            "six_four_group": [
-              "T12",
-              "T09",
-              "T05",
-              "T08",
-              "T03"
-            ]
-          },
-          "red_and_tds_win": {
-            "games": [
-              "W10-G02",
-              "W10-G03"
-            ],
-            "six_four_group": [
-              "T12",
-              "T02",
-              "T05",
-              "T08",
-              "T03"
-            ],
-            "apply_record_replacements_from": [
-              "red_wins",
-              "tds_wins"
-            ]
-          },
-          "obiwan_wins": {
-            "game": "W10-G06",
-            "replace_records": {
-              "T01": {
-                "w": 5,
-                "l": 5,
-                "t": 0
-              },
-              "T04": {
-                "w": 3,
-                "l": 7,
-                "t": 0
-              }
-            },
-            "six_four_group": [
-              "T12",
-              "T09",
-              "T05",
-              "T08",
-              "T11",
-              "T03"
-            ]
-          }
-        },
-        "combination_rule": "Apply compatible record replacements by game. ObiWan/LLC result does not alter the 6–4 identity group. A tie is outside these win/loss branches; await provider resolution."
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ca459f3f4533ecbcb9728cac751c8ee4b9aa480859299e3bf315bef5593c85d5",
+      "value_location": "facts.json#/official_records",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/remaining_schedule",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": [
-        {
-          "week": 11,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 9,
-          "away_name": "El Niño",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 11,
-          "away_name": "Seven Deadly Chins",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 1,
-          "home_name": "ObiWan Jacoby",
-          "away_team_id": 7,
-          "away_name": "The Chili Cheesers",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 5,
-          "home_name": "D0nkey K0ng",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 12,
-          "home_name": "Dr. Duckhook",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 5,
-          "home_name": "D0nkey K0ng",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 6,
-          "away_name": "Three Dreaded Snake",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 2,
-          "home_name": "Red Leopards",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 7,
-          "away_name": "The Chili Cheesers",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 4,
-          "home_name": "The LLC",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 11,
-          "away_name": "Seven Deadly Chins",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 5,
-          "away_name": "D0nkey K0ng",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 7,
-          "home_name": "The Chili Cheesers",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 11,
-          "home_name": "Seven Deadly Chins",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 5,
-          "away_name": "D0nkey K0ng",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 7,
-          "home_name": "The Chili Cheesers",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 11,
-          "home_name": "Seven Deadly Chins",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        }
-      ]
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "e0f5bbd5e8fa9f916c58e24673779bb948a1d2ecc18e418ed89d708722f504a9",
+      "value_location": "facts.json#/pass3/remaining_schedule",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -10021,8 +6435,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "THE TWELVE — SCORING FORM",
-  "deck": "Live Week 10 index • Extra weight on the current week",
-  "body": "Slob on my Dobb leads the live scoring-form index, followed by His Majesty's Blood and The LLC. The established formula weights season points per game at 70% and this week at 30%. It measures scoring already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
+  "deck": "Final Week 10 scoring index • Not playoff seeding",
+  "body": "Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
   "callouts": [],
   "rows": [
     {
@@ -10047,28 +6461,28 @@ EXACT FULL PUBLICATION COPY
     },
     {
       "rank": 5,
+      "team": "ObiWan Jacoby",
+      "index": "146.87"
+    },
+    {
+      "rank": 6,
       "team": "D0nkey K0ng",
       "index": "145.83"
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "team": "Red Leopards",
+      "index": "142.66"
+    },
+    {
+      "rank": 8,
       "team": "Dr. Duckhook",
       "index": "139.95"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "team": "Seven Deadly Chins",
       "index": "138.83"
-    },
-    {
-      "rank": 8,
-      "team": "Red Leopards",
-      "index": "138.44"
-    },
-    {
-      "rank": 9,
-      "team": "ObiWan Jacoby",
-      "index": "133.48"
     },
     {
       "rank": 10,
@@ -10083,7 +6497,7 @@ EXACT FULL PUBLICATION COPY
     {
       "rank": 12,
       "team": "Three Dreaded Snake",
-      "index": "111.81"
+      "index": "114.40"
     }
   ],
   "department_heading": "SCORING FORM"
@@ -10091,138 +6505,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
-      "selector": "/provisional_scoring_form",
+      "selector": "/scoring_form",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-SCORING-FORM",
-        "scope": "PROVISIONAL_SCORING_FORM",
-        "source_inputs": [
-          "S10",
-          "SH"
-        ],
-        "formula": "0.70 * ((prior9_points_for + current_week10_points) / 10) + 0.30 * current_week10_points",
-        "weights": {
-          "season_ppg_through10_including_live": 0.7,
-          "current_week10_points": 0.3
-        },
-        "display_rounding": "2 decimals, half up; sort by unrounded value",
-        "row_fields": [
-          "team",
-          "season_ppg_through10_including_live",
-          "unrounded_form",
-          "display_form"
-        ],
-        "rows": [
-          [
-            "T03",
-            159.999,
-            165.7863,
-            165.79
-          ],
-          [
-            "T08",
-            145.195,
-            164.2645,
-            164.26
-          ],
-          [
-            "T04",
-            144.925,
-            162.6355,
-            162.64
-          ],
-          [
-            "T09",
-            145.003,
-            158.2261,
-            158.23
-          ],
-          [
-            "T05",
-            141.182,
-            145.8284,
-            145.83
-          ],
-          [
-            "T12",
-            145.215,
-            139.9515,
-            139.95
-          ],
-          [
-            "T11",
-            135.662,
-            138.8294,
-            138.83
-          ],
-          [
-            "T02",
-            139.311,
-            138.4437,
-            138.44
-          ],
-          [
-            "T01",
-            134.831,
-            133.4807,
-            133.48
-          ],
-          [
-            "T07",
-            138.479,
-            125.0453,
-            125.05
-          ],
-          [
-            "T10",
-            118.135,
-            116.7805,
-            116.78
-          ],
-          [
-            "T06",
-            127.246,
-            111.8062,
-            111.81
-          ]
-        ],
-        "tie_breakers": [
-          "current Week10 points descending",
-          "stable team ID ascending"
-        ],
-        "week9_published_order": [
-          "T03",
-          "T12",
-          "T07",
-          "T05",
-          "T06",
-          "T01",
-          "T08",
-          "T04",
-          "T09",
-          "T02",
-          "T11",
-          "T10"
-        ],
-        "week9_order_source": "Week9 Shareable_v2 physical page30; source SDIV identifies PDF"
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "7df7f57a48724c2876bf88f7e0aa5e73e74c59ad93cc2f14d753a3047bb5e09c",
+      "value_location": "facts.json#/scoring_form",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -10291,15 +6600,15 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "FOUR MORE AFTER THIS",
   "deck": "Seven places. The route narrows.",
-  "body": "Under the current-leads-hold table, all twelve teams still have a route and none has clinched. Mud Dogs can still win the Burgers division at 6–8 through a specific set of results. Another loss would close that route. Four games remain after this week: one crossover, then three divisional rounds.",
+  "body": "All twelve teams still have a route, and none has clinched. At 2–8, Mud Dogs can still win Burgers at 6–8 through a specific set of results. A further loss eliminates that possibility and the remaining shared-place route. Four games remain: one crossover, then three divisional rounds.",
   "callouts": [
     {
       "heading": "SEVEN BERTHS",
       "body": "Three division winners and four shared places."
     },
     {
-      "heading": "MUD’S NEXT TEST",
-      "body": "If the present Week 10 leads hold, a Week 11 loss to Seven Deadly Chins eliminates Mud Dogs."
+      "heading": "MUD DOGS’ NEXT TEST",
+      "body": "A Week 11 loss to Seven Deadly Chins eliminates Mud Dogs. Winning keeps a narrow, help-dependent route alive."
     }
   ],
   "rows": [],
@@ -10308,284 +6617,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/rules",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "scope": "ESTABLISHED_APPROVED_RULES",
-        "regular_season_weeks": 14,
-        "playoff_berths": 7,
-        "division_winner_berths": 3,
-        "shared_berths": 4,
-        "division_return_weeks": [
-          12,
-          13,
-          14
-        ],
-        "remaining_after_week10_per_team": 4,
-        "remaining_after_week10_league_games": 24,
-        "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json",
-        "pass3_authority": {
-          "regular_season_weeks": 14,
-          "playoff_berths": 7,
-          "automatic_division_winner_berths": 3,
-          "shared_berths": 4,
-          "division_return_weeks": [
-            12,
-            13,
-            14
-          ],
-          "remaining_after_week10_games_per_team": 4,
-          "remaining_after_week10_league_games": 24,
-          "playoffSeedingRule_raw": "H2H_RECORD",
-          "matchupTieRule_raw": "SLOT_POINTS",
-          "matchupTieRuleBy_raw": 20,
-          "playoffMatchupTieRule_raw": "NONE",
-          "playoffMatchupPeriodLength": 1,
-          "provider_isPlayoffMatchupEdited": false,
-          "rule_authority": "Fresh ESPN roster homeFacts confirms seven playoff teams; league_info confirms H2H_RECORD. Approved Week9 Shareable_v2 physical page31 explicitly publishes three automatic division berths, four shared berths and Weeks12–14 divisional return; page29 identifies memberships. Fresh Weeks11–14 fixtures match these rules.",
-          "provider_limit": "Fresh league_info does not expose regular-season length or the full commissioner-specific tie waterfall. Published Week9 rules provide the regular-season/division framework; ESPN H2H documentation provides the default equal-schedule H2H handling. No unreported override assumed."
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a0f2e4aee2d91b582481355a265df833b20a771cf1a2bee6a64b31e6630837af",
+      "value_location": "facts.json#/rules",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/remaining_schedule",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": [
-        {
-          "week": 11,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 9,
-          "away_name": "El Niño",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 11,
-          "away_name": "Seven Deadly Chins",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 1,
-          "home_name": "ObiWan Jacoby",
-          "away_team_id": 7,
-          "away_name": "The Chili Cheesers",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 5,
-          "home_name": "D0nkey K0ng",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 11,
-          "home_team_id": 12,
-          "home_name": "Dr. Duckhook",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": false,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 5,
-          "home_name": "D0nkey K0ng",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 6,
-          "away_name": "Three Dreaded Snake",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 2,
-          "home_name": "Red Leopards",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 7,
-          "away_name": "The Chili Cheesers",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 4,
-          "home_name": "The LLC",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 12,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 11,
-          "away_name": "Seven Deadly Chins",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 5,
-          "away_name": "D0nkey K0ng",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 7,
-          "home_name": "The Chili Cheesers",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 13,
-          "home_team_id": 11,
-          "home_name": "Seven Deadly Chins",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 6,
-          "home_name": "Three Dreaded Snake",
-          "away_team_id": 1,
-          "away_name": "ObiWan Jacoby",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 10,
-          "home_name": "Mud Dogs",
-          "away_team_id": 5,
-          "away_name": "D0nkey K0ng",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 7,
-          "home_name": "The Chili Cheesers",
-          "away_team_id": 12,
-          "away_name": "Dr. Duckhook",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 3,
-          "home_name": "Slob on my Dobb",
-          "away_team_id": 2,
-          "away_name": "Red Leopards",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 11,
-          "home_name": "Seven Deadly Chins",
-          "away_team_id": 8,
-          "away_name": "His Majesty's Blood",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        },
-        {
-          "week": 14,
-          "home_team_id": 9,
-          "home_name": "El Niño",
-          "away_team_id": 4,
-          "away_name": "The LLC",
-          "same_division": true,
-          "provider_winner": "UNDECIDED"
-        }
-      ]
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "e0f5bbd5e8fa9f916c58e24673779bb948a1d2ecc18e418ed89d708722f504a9",
+      "value_location": "facts.json#/pass3/remaining_schedule",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -10649,39 +6716,45 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "THE NEXT SIX",
-  "deck": "Week 11 • The next cross-division round",
-  "body": "His Majesty's Blood visits D0nkey K0ng in the leading Game of the Week candidate. El Niño reaches Slob on my Dobb’s schedule while both must fill a tight-end bye. Seven Deadly Chins visits a Mud Dogs side facing a conditional elimination game. Red Leopards and Three Dreaded Snake meet under receiver and running-back pressure; The Chili Cheesers visits ObiWan Jacoby; The LLC tests Dr. Duckhook’s changing quarterback plan.",
+  "deck": "Week 11 • Head-to-head stakes before the divisional finish",
+  "body": "His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.",
   "callouts": [],
   "rows": [
     {
       "away_team": "El Niño",
       "home_team": "Slob on my Dobb",
-      "display": "El Niño at Slob on my Dobb"
+      "display": "El Niño at Slob on my Dobb",
+      "implication": "6–4 vs 6–4 • Top-seed race"
     },
     {
       "away_team": "Red Leopards",
       "home_team": "Three Dreaded Snake",
-      "display": "Red Leopards at Three Dreaded Snake"
+      "display": "Red Leopards at Three Dreaded Snake",
+      "implication": "5–5 vs 4–6 • Bubble leverage"
     },
     {
       "away_team": "Seven Deadly Chins",
       "home_team": "Mud Dogs",
-      "display": "Seven Deadly Chins at Mud Dogs"
+      "display": "Seven Deadly Chins at Mud Dogs",
+      "implication": "6–4 vs 2–8 • A loss eliminates Mud Dogs"
     },
     {
       "away_team": "The Chili Cheesers",
       "home_team": "ObiWan Jacoby",
-      "display": "The Chili Cheesers at ObiWan Jacoby"
+      "display": "The Chili Cheesers at ObiWan Jacoby",
+      "implication": "5–5 vs 4–6 • Bubble leverage"
     },
     {
       "away_team": "His Majesty's Blood",
       "home_team": "D0nkey K0ng",
-      "display": "His Majesty's Blood at D0nkey K0ng"
+      "display": "His Majesty's Blood at D0nkey K0ng",
+      "implication": "6–4 vs 6–4 • Top-seed race"
     },
     {
       "away_team": "The LLC",
       "home_team": "Dr. Duckhook",
-      "display": "The LLC at Dr. Duckhook"
+      "display": "The LLC at Dr. Duckhook",
+      "implication": "4–6 vs 6–4 • Recovery versus top-seed contention"
     }
   ],
   "department_heading": "THE NEXT SIX"
@@ -10689,139 +6762,51 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/week11",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-FIXTURES",
-        "scope": "W11_FIXTURES",
-        "source": "SH",
-        "fixture_fields": [
-          "home",
-          "away"
-        ],
-        "fixtures": [
-          [
-            "T03",
-            "T09"
-          ],
-          [
-            "T06",
-            "T02"
-          ],
-          [
-            "T10",
-            "T11"
-          ],
-          [
-            "T01",
-            "T07"
-          ],
-          [
-            "T05",
-            "T08"
-          ],
-          [
-            "T12",
-            "T04"
-          ]
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "2618ce5500ad4348c573f9aceab79a196ba568314c40135c4923423cc5db904e",
+      "value_location": "facts.json#/week11",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/pass3/readiness",
+      "selector": "/week11_implications",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "e13fa469f1f0d9e5f708504983fdc1e919d4225673482f9ada155444accc8539",
+      "value_location": "facts.json#/week11_implications",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "selector": "/official_records",
+      "artifact": "facts.json",
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ca459f3f4533ecbcb9728cac751c8ee4b9aa480859299e3bf315bef5593c85d5",
+      "value_location": "facts.json#/official_records",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
-    },
-    {
-      "selector": "/pass3/week11_gotw",
-      "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-GOTW",
-        "recommendation": "His Majesty’s Blood at D0nkey K0ng",
-        "selection_status": "RECOMMENDED_NOT_COMMISSIONER_LOCKED",
-        "audit": {
-          "recommended_primary": {
-            "away_team_id": 8,
-            "home_team_id": 5,
-            "title": "His Majesty’s Blood at D0nkey K0ng",
-            "basis": "Two conditional6–4 teams arriving from distinct Week10 dominance scenes; HMB already has a live200-point week. Verified2025W9 Wilson/Austin rematch supports revenge in the centaur’s territory.",
-            "history": {
-              "season": 2025,
-              "week": 9,
-              "home_name_then": "Baker Moore Purdy",
-              "home_score": 179.68,
-              "away_name_then": "The Immortal",
-              "away_score": 111.42,
-              "margin": 68.26,
-              "tier": "NONE"
-            },
-            "week10_live_combined_points": 365.43,
-            "current_starter_week11_bye_exposure": {
-              "HMB": [
-                "Jaxon Smith-Njigba",
-                "Konata Mumpfield"
-              ],
-              "DK": [
-                "Bijan Robinson",
-                "Denzel Boston"
-              ]
-            },
-            "creative_angle": "The king carrying the200-Burger claim enters the centaur’s established home grounds, where a prior68.26-point defeat gives the challenge memory. Preview only; no scripted winner."
-          },
-          "major_coheadliner": {
-            "away_team_id": 9,
-            "home_team_id": 3,
-            "title": "El Niño at Slob on my Dobb",
-            "basis": "Conditional6–4 vs6–4; league’s official PF leader meets a potential fourth-straight-win storm. Their current Week10 points total368.37, slightly above the primary candidate pair.",
-            "history": [
-              "2024W15: El Niño175.60, Slob137.82 in WINNERS_BRACKET.",
-              "2025W1: Slob126.57, El Niño113.58.",
-              "2025W10: Slob147.12, El Niño103.87."
-            ],
-            "week10_live_combined_points": 368.37,
-            "current_starter_week11_bye_exposure": {
-              "Slob": [
-                "Harold Fannin Jr.",
-                "Rashid Shaheed",
-                "Drake London"
-              ],
-              "Niño": [
-                "Tucker Kraft"
-              ]
-            },
-            "creative_angle": "The weather front reaches the successful delivery network’s home territory. The historical exchange lets the storm threaten a host who answered it twice in retrieved2025games."
-          },
-          "decision_status": "Editorial recommendation; fixtures are verified but final Week10 records and Week11 health/lineups are pending.",
-          "bye_context_source": {
-            "file": "sports-news-pass3.json",
-            "source_id": "S16",
-            "url": "https://www.nfl.com/schedules/2026/by-week/week-11"
-          },
-          "historical_limit": "2022–2024 complete in retained archive;2025 gaps6,7,8,11,12,13. No all-time or latest-meeting claim.",
-          "projection_limit": "Early provider Week11 totalProjectedPoints reflect current configurations and may include bye/injury gaps. They are not a probability forecast or an optimized matchup comparison."
-        },
-        "history_source": "PASS3_W11_HISTORY"
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -10955,8 +6940,8 @@ SCENE AND CONTINUITY
 EXACT FULL PUBLICATION COPY
 {
   "headline": "THE CROSSING NARROWS",
-  "deck": "Week 11 GOTW candidate • His Majesty’s Blood at D0nkey K0ng",
-  "body": "Two commanding Sundays lead toward the same crossing. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise beat His Majesty's Blood’s 179.68–111.42. That memory gives this visit an edge. Both would arrive at 6–4 if the current leads hold, but both must replace two current starters on NFL byes. One more test comes before the division games return.",
+  "deck": "Week 11 preview • His Majesty’s Blood at D0nkey K0ng",
+  "body": "Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.",
   "callouts": [],
   "rows": [],
   "department_heading": "WEEK 11 · GAME OF THE WEEK"
@@ -10964,99 +6949,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/pass3/week11_gotw",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-GOTW",
-        "recommendation": "His Majesty’s Blood at D0nkey K0ng",
-        "selection_status": "RECOMMENDED_NOT_COMMISSIONER_LOCKED",
-        "audit": {
-          "recommended_primary": {
-            "away_team_id": 8,
-            "home_team_id": 5,
-            "title": "His Majesty’s Blood at D0nkey K0ng",
-            "basis": "Two conditional6–4 teams arriving from distinct Week10 dominance scenes; HMB already has a live200-point week. Verified2025W9 Wilson/Austin rematch supports revenge in the centaur’s territory.",
-            "history": {
-              "season": 2025,
-              "week": 9,
-              "home_name_then": "Baker Moore Purdy",
-              "home_score": 179.68,
-              "away_name_then": "The Immortal",
-              "away_score": 111.42,
-              "margin": 68.26,
-              "tier": "NONE"
-            },
-            "week10_live_combined_points": 365.43,
-            "current_starter_week11_bye_exposure": {
-              "HMB": [
-                "Jaxon Smith-Njigba",
-                "Konata Mumpfield"
-              ],
-              "DK": [
-                "Bijan Robinson",
-                "Denzel Boston"
-              ]
-            },
-            "creative_angle": "The king carrying the200-Burger claim enters the centaur’s established home grounds, where a prior68.26-point defeat gives the challenge memory. Preview only; no scripted winner."
-          },
-          "major_coheadliner": {
-            "away_team_id": 9,
-            "home_team_id": 3,
-            "title": "El Niño at Slob on my Dobb",
-            "basis": "Conditional6–4 vs6–4; league’s official PF leader meets a potential fourth-straight-win storm. Their current Week10 points total368.37, slightly above the primary candidate pair.",
-            "history": [
-              "2024W15: El Niño175.60, Slob137.82 in WINNERS_BRACKET.",
-              "2025W1: Slob126.57, El Niño113.58.",
-              "2025W10: Slob147.12, El Niño103.87."
-            ],
-            "week10_live_combined_points": 368.37,
-            "current_starter_week11_bye_exposure": {
-              "Slob": [
-                "Harold Fannin Jr.",
-                "Rashid Shaheed",
-                "Drake London"
-              ],
-              "Niño": [
-                "Tucker Kraft"
-              ]
-            },
-            "creative_angle": "The weather front reaches the successful delivery network’s home territory. The historical exchange lets the storm threaten a host who answered it twice in retrieved2025games."
-          },
-          "decision_status": "Editorial recommendation; fixtures are verified but final Week10 records and Week11 health/lineups are pending.",
-          "bye_context_source": {
-            "file": "sports-news-pass3.json",
-            "source_id": "S16",
-            "url": "https://www.nfl.com/schedules/2026/by-week/week-11"
-          },
-          "historical_limit": "2022–2024 complete in retained archive;2025 gaps6,7,8,11,12,13. No all-time or latest-meeting claim.",
-          "projection_limit": "Early provider Week11 totalProjectedPoints reflect current configurations and may include bye/injury gaps. They are not a probability forecast or an optimized matchup comparison."
-        },
-        "history_source": "PASS3_W11_HISTORY"
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "f8dec439aa7c5b0ca74de6d040686c4720dc5d8e50b820f6678191d029d0d2ef",
+      "value_location": "facts.json#/pass3/week11_gotw",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
@@ -11212,66 +7140,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/week11",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W11-FIXTURES",
-        "scope": "W11_FIXTURES",
-        "source": "SH",
-        "fixture_fields": [
-          "home",
-          "away"
-        ],
-        "fixtures": [
-          [
-            "T03",
-            "T09"
-          ],
-          [
-            "T06",
-            "T02"
-          ],
-          [
-            "T10",
-            "T11"
-          ],
-          [
-            "T01",
-            "T07"
-          ],
-          [
-            "T05",
-            "T08"
-          ],
-          [
-            "T12",
-            "T04"
-          ]
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "2618ce5500ad4348c573f9aceab79a196ba568314c40135c4923423cc5db904e",
+      "value_location": "facts.json#/week11",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/readiness",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "4b296b6f793ffaf311dde11447998c1f5fca7ddb003318123d68cb56a0913cdc",
-      "snapshot_value_stored_in": "facts.json/pass3/readiness"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "47099d11a428582d7bceea7fb0326a09e0ebd1d5655957d7bf8cfa76d77568a7",
+      "value_location": "facts.json#/pass3/readiness",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
-      "selector": "/teams/T03/prior9_points_for",
+      "selector": "/teams/T03/post_week10_official_points_for",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 1420.7
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "4ebabe0529ef152cf722c883982dd303c45fd17c381018df950752e780fac893",
+      "value_location": "facts.json#/teams/T03/post_week10_official_points_for",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

@@ -42,7 +42,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "ROOM ABOVE TWO HUNDRED",
   "deck": "The week the pressure reached everyone",
-  "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards's sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games remaining after this one, the question was no longer simply who won. It was what each result would leave behind.",
+  "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.",
   "callouts": [],
   "rows": [],
   "department_heading": "OPENING DRIVE"
@@ -50,168 +50,51 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/history_200",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-FIRST200",
-        "historical_scope": "W09_FINAL",
-        "current_scope": "W10_LIVE",
-        "source": "SH",
-        "completed_weeks_checked": [
-          1,
-          9
-        ],
-        "team_week_observations": 108,
-        "prior_200_plus_count": 0,
-        "prior_league_season_high": {
-          "team": "T07",
-          "week": 1,
-          "points": 198
-        },
-        "current_first_two_observed_200_plus": [
-          "T08",
-          "T04"
-        ],
-        "claim_limit": "2026 season through this capture; not all-time; current values subject to correction",
-        "new_personal_season_highs": [
-          [
-            "T08",
-            208.76,
-            177.32,
-            4
-          ],
-          [
-            "T04",
-            203.96,
-            193.73,
-            5
-          ],
-          [
-            "T09",
-            189.08,
-            170.62,
-            4
-          ]
-        ],
-        "personal_high_fields": [
-          "team",
-          "current",
-          "previous_best",
-          "previous_week"
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a9152a8e04c95f0fced1112ba69905652dd206af450fcf1e35666e2a54bd469c",
+      "value_location": "facts.json#/history_200",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/rules",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "scope": "ESTABLISHED_APPROVED_RULES",
-        "regular_season_weeks": 14,
-        "playoff_berths": 7,
-        "division_winner_berths": 3,
-        "shared_berths": 4,
-        "division_return_weeks": [
-          12,
-          13,
-          14
-        ],
-        "remaining_after_week10_per_team": 4,
-        "remaining_after_week10_league_games": 24,
-        "source": "Week9 Shareable_v2 physical pages29 and31; seven-berth count corroborated in current roster homeFacts in sports-evidence.json",
-        "pass3_authority": {
-          "regular_season_weeks": 14,
-          "playoff_berths": 7,
-          "automatic_division_winner_berths": 3,
-          "shared_berths": 4,
-          "division_return_weeks": [
-            12,
-            13,
-            14
-          ],
-          "remaining_after_week10_games_per_team": 4,
-          "remaining_after_week10_league_games": 24,
-          "playoffSeedingRule_raw": "H2H_RECORD",
-          "matchupTieRule_raw": "SLOT_POINTS",
-          "matchupTieRuleBy_raw": 20,
-          "playoffMatchupTieRule_raw": "NONE",
-          "playoffMatchupPeriodLength": 1,
-          "provider_isPlayoffMatchupEdited": false,
-          "rule_authority": "Fresh ESPN roster homeFacts confirms seven playoff teams; league_info confirms H2H_RECORD. Approved Week9 Shareable_v2 physical page31 explicitly publishes three automatic division berths, four shared berths and Weeks12–14 divisional return; page29 identifies memberships. Fresh Weeks11–14 fixtures match these rules.",
-          "provider_limit": "Fresh league_info does not expose regular-season length or the full commissioner-specific tie waterfall. Published Week9 rules provide the regular-season/division framework; ESPN H2H documentation provides the default equal-schedule H2H handling. No unreported override assumed."
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a0f2e4aee2d91b582481355a265df833b20a771cf1a2bee6a64b31e6630837af",
+      "value_location": "facts.json#/rules",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/mnf",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-MNF",
-        "scope": "MNF_SCHEDULE_DEPENDENCY",
-        "sources": [
-          "SH",
-          "SNFL"
-        ],
-        "game": "Los Angeles Chargers at Baltimore Ravens",
-        "kickoff_et": "2026-11-16T20:15:00-05:00",
-        "starter_count": 4,
-        "starters": [
-          {
-            "fact_id": "W10-MNF-3043078",
-            "team": "T01",
-            "player_id": "3043078",
-            "name": "Derrick Henry",
-            "club": "BAL",
-            "slot": "RB",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-3116365",
-            "team": "T01",
-            "player_id": "3116365",
-            "name": "Mark Andrews",
-            "club": "BAL",
-            "slot": "FLEX",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF-4429615",
-            "team": "T02",
-            "player_id": "4429615",
-            "name": "Zay Flowers",
-            "club": "BAL",
-            "slot": "WR/TE",
-            "points_at_capture": 0
-          },
-          {
-            "fact_id": "W10-MNF--16033",
-            "team": "T06",
-            "player_id": "-16033",
-            "name": "Ravens D/ST",
-            "club": "BAL",
-            "slot": "D/ST",
-            "points_at_capture": 0
-          }
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "30dfeb59435e969edcca13bb0377df63d56c55dde4b3a9bc17e47844de6e5665",
+      "value_location": "facts.json#/mnf",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/pass3/playoffs",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_sha256": "1129b26ea56b5897b35e3e80c1b1e8e7339f32d3dcb92f49cdd41cf347461d53",
-      "snapshot_value_stored_in": "facts.json/pass3/playoffs"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

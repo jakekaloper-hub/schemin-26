@@ -106,7 +106,6 @@ SCENE AND CONTINUITY
     "Cover editorial synthesis does not create a shared encounter, alliance, crown or belt transfer."
   ],
   "forbidden_mutations": [
-    "FINAL winner labels",
     "All-time record claim",
     "Crown on His Majesty's Blood",
     "Belt moved to another owner",
@@ -122,11 +121,11 @@ EXACT FULL PUBLICATION COPY
   "callouts": [
     {
       "label": "HIS MAJESTY’S BLOOD",
-      "value": "208.76 · current"
+      "value": "208.76 · FINAL"
     },
     {
-      "label": "THE The LLC",
-      "value": "203.96 · current"
+      "label": "THE LLC",
+      "value": "203.96 · FINAL"
     }
   ],
   "rows": [],
@@ -135,78 +134,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/history_200",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "fact_id": "W10-FIRST200",
-        "historical_scope": "W09_FINAL",
-        "current_scope": "W10_LIVE",
-        "source": "SH",
-        "completed_weeks_checked": [
-          1,
-          9
-        ],
-        "team_week_observations": 108,
-        "prior_200_plus_count": 0,
-        "prior_league_season_high": {
-          "team": "T07",
-          "week": 1,
-          "points": 198
-        },
-        "current_first_two_observed_200_plus": [
-          "T08",
-          "T04"
-        ],
-        "claim_limit": "2026 season through this capture; not all-time; current values subject to correction",
-        "new_personal_season_highs": [
-          [
-            "T08",
-            208.76,
-            177.32,
-            4
-          ],
-          [
-            "T04",
-            203.96,
-            193.73,
-            5
-          ],
-          [
-            "T09",
-            189.08,
-            170.62,
-            4
-          ]
-        ],
-        "personal_high_fields": [
-          "team",
-          "current",
-          "previous_best",
-          "previous_week"
-        ]
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a9152a8e04c95f0fced1112ba69905652dd206af450fcf1e35666e2a54bd469c",
+      "value_location": "facts.json#/history_200",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/teams/T08/current_points",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 208.76
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "2ffc03ad0efa364356d32d7caa2b25b132cc6e524dd8cc6c2c6247064cd1d410",
+      "value_location": "facts.json#/teams/T08/current_points",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/teams/T04/current_points",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": 203.96
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "414a3f831a9c86dfdad813847527ee6f39c15316223a02a13d6a503ec99123c9",
+      "value_location": "facts.json#/teams/T04/current_points",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

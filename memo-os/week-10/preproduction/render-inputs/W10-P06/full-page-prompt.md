@@ -174,120 +174,39 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "The Ring Runs Out",
   "deck": "The Chili Cheesers vs D0nkey K0ng",
-  "body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers's own decision to flee have done the work.",
+  "body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers’ own decision to flee have done the work.",
   "department_heading": "The Chili Cheesers vs D0nkey K0ng"
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/0",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G01",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T07",
-        "away": "T05",
-        "current_score": [
-          93.7,
-          156.67
-        ],
-        "away_lead": 62.97,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "52f431e7f5dd26f4eadb489610fa97475e438ffc3f230cccf695afdb8a06781f",
+      "value_location": "facts.json#/games/0",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G01",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G01",
-        "current_team_ids": [
-          7,
-          5
-        ],
-        "current_team_names": [
-          "The Chili Cheesers",
-          "D0nkey K0ng"
-        ],
-        "title": "The earlier consolation defeat",
-        "anchor_fact_id": "HIST-2025-W16-T05-T07",
-        "public_copy": "In 2025 Week 16, Baker Moore Purdy — Wilson’s prior team name — beat The Chili Cheesers 144.30–128.72. The 15.58-point result belongs to the winners-consolation ladder.",
-        "supported_stakes": "Winners-consolation game, not a championship elimination.",
-        "creative_use_scope": "A concrete prior defeat for Chili against the same verified Wilson persona; do not inflate its championship stakes.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T05-T07",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 7,
-          "home_name_as_returned": "The Chili Cheesers ",
-          "home_points": 128.72,
-          "away_team_id": 5,
-          "away_name_as_returned": "Baker Moore Purdy",
-          "away_points": 144.3,
-          "winner_team_id": 5,
-          "winner_name_as_returned": "Baker Moore Purdy",
-          "margin": 15.58,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_CONSOLATION_LADDER",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/2",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 156.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T05/scorers/2577417/2",
-      "artifact": "facts.json",
-      "snapshot_value": 45.82,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 93.7,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4374302/2",
-      "artifact": "facts.json",
-      "snapshot_value": 27.8,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4685720/2",
-      "artifact": "facts.json",
-      "snapshot_value": 8.2,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T07/scorers/4696981/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "8e57b50dd91a9c1752bf6d8a332eaf23f063a16e693bb01fdbd216a43437043b",
+      "value_location": "facts.json#/historical_context/W10-G01",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

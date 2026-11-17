@@ -141,147 +141,50 @@ EXACT FULL PUBLICATION COPY
   "headline": "Many Unhappy Returns",
   "deck": "Dr. Duckhook vs His Majesty's Blood",
   "body": "His Majesty's Blood presses that cake squarely into Dr. Duckhook's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week The Chili Cheesers made His Majesty's Blood the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.",
-  "department_heading": "Dr. Duckhook vs His Majesty's Blood"
+  "department_heading": "Dr. Duckhook vs His Majesty's Blood",
+  "result": {
+    "status": "FINAL",
+    "winner": "His Majesty's Blood",
+    "winner_points": "208.76",
+    "loser": "Dr. Duckhook",
+    "loser_points": "127.67",
+    "winner_record": "6–4",
+    "loser_record": "6–4",
+    "margin": "81.09",
+    "source": "SFINAL"
+  },
+  "football_context": "Brock Purdy 42.86; Chuba Hubbard 36.90; Jaxon Smith-Njigba 34.10; Vikings D/ST 26.00."
 }
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/games/4",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G05",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T12",
-        "away": "T08",
-        "current_score": [
-          127.67,
-          208.76
-        ],
-        "away_lead": 81.09,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [],
-        "scheduled_starters_complete": true,
-        "overtake": null
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "af124d9a7a921d66a1b0da6a09409511382970880c388e4ecba6d395b6a67bb1",
+      "value_location": "facts.json#/games/4",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G05",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G05",
-        "current_team_ids": [
-          12,
-          8
-        ],
-        "current_team_names": [
-          "Dr. Duckhook",
-          "His Majesty’s Blood"
-        ],
-        "title": "The semifinal decided by four tenths",
-        "anchor_fact_id": "HIST-2025-W16-T08-T12",
-        "public_copy": "In the 2025 Week 16 semifinal, The Immortal — Austin’s prior persona, now His Majesty’s Blood — beat Dr. Duckhook 152.20–151.80 by 0.40. The Immortal then beat ObiWan Jacoby 161.07–109.56 in the final.",
-        "supported_stakes": "Verified 2025 semifinal; The Immortal advanced and won the championship.",
-        "creative_use_scope": "A particularly strong personal callback: Duck’s prior semifinal ended four tenths short against the same verified Austin persona. The current Week10 lead is still snapshot copy until provider finalization.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2025-W16-T08-T12",
-          "season": 2025,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 12,
-          "home_name_as_returned": "Dr. Duckhook",
-          "home_points": 151.8,
-          "away_team_id": 8,
-          "away_name_as_returned": "The Immortal",
-          "away_points": 152.2,
-          "winner_team_id": 8,
-          "winner_name_as_returned": "The Immortal",
-          "margin": 0.4,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2025/weeks/16/data/matchups/1",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "hmb_prior_persona": "The Immortal",
-          "title_game": {
-            "week": 17,
-            "winner": "The Immortal",
-            "winner_points": 161.07,
-            "opponent": "ObiWan Jacoby",
-            "opponent_points": 109.56,
-            "margin": 51.51,
-            "source_pointer": "/seasons/2025/weeks/17/data/matchups/0"
-          },
-          "outcome_source_pointer": "/seasons/2025/standings/data/standings",
-          "championship_won": true,
-          "outcome_confidence": "explicit",
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; single title pairing in Week17; explicit outcomes confirm The Immortal champion and Duckhook fourth."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 208.76,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/-16016/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4241416/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.9,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4361741/2",
-      "artifact": "facts.json",
-      "snapshot_value": 42.86,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4430878/2",
-      "artifact": "facts.json",
-      "snapshot_value": 34.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T08/scorers/4686361/2",
-      "artifact": "facts.json",
-      "snapshot_value": 19,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 127.67,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T12/scorers/4429795/2",
-      "artifact": "facts.json",
-      "snapshot_value": 47.4,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "eb991f56245a41bc45c8b96e28b7d7f85023da654a23b27c86edf0acf2dd35ce",
+      "value_location": "facts.json#/historical_context/W10-G05",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

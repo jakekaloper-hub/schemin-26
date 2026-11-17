@@ -70,6 +70,12 @@
     "PASS3_W11_HISTORY": {
       "artifact": "week11-history-pass3.json",
       "scope": "Verified 2025 Week9 DK/HMB and 2024/2025 Niño/Slob earlier meetings; explicit alias and coverage limits"
+    },
+    "SFINAL": {
+      "kind": "FLAIM_ESPN_FINAL_CROSSCHECK",
+      "file": "final-league-snapshot.json",
+      "captured_at_utc": "2026-11-17T16:30:05.606450+00:00",
+      "receipts": "../production-evidence/finalization-20261117/"
     }
   },
   "character_asset_receipts": [
@@ -428,5 +434,16 @@
       "sports": "No factual mismatch in selected copy; removed inherited P34/P35merge metadata.",
       "league": "Confirmed divisioncounts,next-lossproof,history; repaired conditionalguard and historicalsourcebindings."
     }
+  },
+  "current_authority": "FINAL_WEEK10_20261117",
+  "current_final_capture": {
+    "source": "final-league-snapshot.json",
+    "sha256": "0d27dd9b022df3906793832d2eb213f17bc6ce9140cea0ccbb18a91080a400cf",
+    "provider_decided": true,
+    "week": 10,
+    "season": 2026,
+    "captured_at_utc": "2026-11-17T16:30:05.606450+00:00",
+    "evidence_directory": "../production-evidence/finalization-20261117",
+    "user_week11_addition": "../production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md"
   }
 }

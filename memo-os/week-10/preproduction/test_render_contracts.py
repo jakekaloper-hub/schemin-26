@@ -41,9 +41,9 @@ class Week10RenderContracts(unittest.TestCase):
  def test_scoreboard_pairs_exact(self):
   expected=[('The Chili Cheesers','D0nkey K0ng'),('Red Leopards','El Niño'),('Three Dreaded Snake','Seven Deadly Chins'),('Mud Dogs','Slob on my Dobb'),('Dr. Duckhook',"His Majesty's Blood"),('ObiWan Jacoby','The LLC')]
   rows=self.pages['W10-P04']['draft_copy']['rows'];self.assertEqual([(r['home_team'].strip(),r['away_team'].strip()) for r in rows],expected)
-  self.assertTrue(all(r['status']=='PROVISIONAL' for r in rows))
+  self.assertTrue(all(r['status']==('FINAL' if load('facts.json').get('finality',{}).get('all_six_decided') else 'PROVISIONAL') for r in rows))
  def test_grayscale_proofs_do_not_claim_results_or_approval(self):
   for id in self.issue['recommended_reading_order']:
    request=load('render-inputs/'+id+'/request.json');self.assertFalse(request['publication_approved']);self.assertEqual(request['stage'],'GRAYSCALE_FOLIO_PROOF')
-   self.assertEqual(request['sports_policy']['unresolved_numerals'],'BLANK_RESERVED_FIELDS');self.assertFalse(request['sports_policy']['official_winner_decided'])
+   self.assertEqual(request['sports_policy']['unresolved_numerals'],'BLANK_RESERVED_FIELDS');self.assertEqual(request['sports_policy']['official_winner_decided'],bool(load('facts.json').get('finality',{}).get('all_six_decided')))
 if __name__=='__main__': unittest.main(verbosity=2)

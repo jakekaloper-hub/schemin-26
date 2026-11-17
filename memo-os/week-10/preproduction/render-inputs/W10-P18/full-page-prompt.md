@@ -45,11 +45,11 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "WHY THE BOARD MOVED",
   "deck": "The points behind the spectacle",
-  "body": "McCaffrey’s 52.60 drives Slob on my Dobb. His Majesty's Blood’s Purdy–Hubbard–Smith-Njigba trio supplies 113.86; The LLC’s Burrow–Likely–Washington trio adds 103.66. Dr. Duckhook answers with Gibbs’ 47.40. El Niño reaches 189.08 while Pickens’ 44.50 stays on the bench. These are current contributions; Monday can still change the board.",
+  "body": "Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.",
   "callouts": [],
   "rows": [
     {
-      "category": "RB / current overall starter lead",
+      "category": "RB / overall starter lead",
       "player": "Christian McCaffrey",
       "team": "Slob on my Dobb",
       "points": "52.60"
@@ -90,103 +90,42 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
     {
       "selector": "/derived/starting_position_leaders",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "RB": {
-          "team": "T03",
-          "player_id": "3117251",
-          "player": "Christian McCaffrey",
-          "points": 52.6,
-          "points_selector": "/teams/T03/scorers/3117251/2"
-        },
-        "TE": {
-          "team": "T04",
-          "player_id": "4361050",
-          "player": "Isaiah Likely",
-          "points": 30.7,
-          "points_selector": "/teams/T04/scorers/4361050/2"
-        },
-        "WR": {
-          "team": "T02",
-          "player_id": "4362628",
-          "player": "Ja'Marr Chase",
-          "points": 36.1,
-          "points_selector": "/teams/T02/scorers/4362628/2"
-        },
-        "D/ST": {
-          "team": "T08",
-          "player_id": "-16016",
-          "player": "Vikings D/ST",
-          "points": 26,
-          "points_selector": "/teams/T08/scorers/-16016/2"
-        },
-        "QB": {
-          "team": "T11",
-          "player_id": "3139477",
-          "player": "Patrick Mahomes",
-          "points": 48.62,
-          "points_selector": "/teams/T11/scorers/3139477/2"
-        },
-        "K": {
-          "team": "T08",
-          "player_id": "4686361",
-          "player": "Cam Little",
-          "points": 19,
-          "points_selector": "/teams/T08/scorers/4686361/2"
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "94dd2aca3e7de4757fb4a39c3d32849b1720c3f4d43a3a116acea96789d0b8a1",
+      "value_location": "facts.json#/derived/starting_position_leaders",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/derived/trios",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "HMB": {
-          "team": "T08",
-          "player_ids": [
-            "4361741",
-            "4241416",
-            "4430878"
-          ],
-          "points": 113.86
-        },
-        "LLC": {
-          "team": "T04",
-          "player_ids": [
-            "3915511",
-            "4361050",
-            "4432620"
-          ],
-          "points": 103.66
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "ada453a575ef2eeb626b04819ad8384fb317fbafce6998ebd402f3e602ff3637",
+      "value_location": "facts.json#/derived/trios",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/bench_observations",
       "artifact": "facts.json",
-      "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-      "snapshot_value": {
-        "George_Pickens": {
-          "team": "T09",
-          "player_id": "4426354",
-          "name": "George Pickens",
-          "slot": "Bench",
-          "started": false,
-          "points": 44.5,
-          "scope": "W10_LIVE_NONSCORING_BENCH"
-        }
-      }
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "13060e8474cfbbc5d85324116ecc71c137a885e118d21891aeb93d62e8a4f5a9",
+      "value_location": "facts.json#/bench_observations",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES

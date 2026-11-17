@@ -9,26 +9,26 @@
     1080,
     1920
   ],
-  "prompt": "One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.\n\nImage authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.\n\nPAGE W10-P28 · READING POSITION 29\n\nIDENTITY INPUTS\n[]\n\nSCENE AND CONTINUITY\n{\n  \"camera_and_composition\": \"Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution.\",\n  \"foreground\": \"Rain-dark paving and repaired banner sockets.\",\n  \"midground\": \"Burgers, Pizza and Wings emblems on temporary league standards.\",\n  \"background\": \"Continuous inhabited landscape under graded cloud, not three isolated national maps.\",\n  \"image_tells\": \"Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution. Rain-dark paving and repaired banner sockets. Burgers, Pizza and Wings emblems on temporary league standards. Continuous inhabited landscape under graded cloud, not three isolated national maps.\",\n  \"encounter\": {\n    \"venue_id\": \"LOC-LEAGUE-CHAMBER\",\n    \"set_id\": \"SET-W10-CHAMBER-DIVISION-TERRACE\",\n    \"venue_type\": \"Editorial department within existing Atlas parent; local staging proposed\",\n    \"division_context\": \"League-wide; divisions are overlays\",\n    \"route_required\": false,\n    \"world_state_in\": \"Existing place with selective wear and maintenance\",\n    \"persistent_landmarks\": [\n      \"League Chamber public terrace\"\n    ],\n    \"provisional_location\": true,\n    \"formal_atlas_promotion\": false\n  },\n  \"continuity_in\": [\n    \"LOC-LEAGUE-CHAMBER\",\n    \"Existing Commonwealth use and inherited approved weather state\"\n  ],\n  \"continuity_out\": [\n    \"No official new seed, division-title award or territorial border is inferred from equal records.\"\n  ],\n  \"forbidden_mutations\": [\n    \"Division labels treated as geographic borders\",\n    \"Unverified tiebreak explanation\",\n    \"Clinched or eliminated language\"\n  ]\n}\n\nEXACT FULL PUBLICATION COPY\n{\n  \"headline\": \"THREE DIVISIONS. DIFFERENT PRESSURES.\",\n  \"deck\": \"The same results change three separate races\",\n  \"body\": \"If the current leads hold, six teams will share 6–4 records. Pizza would contain three of them; Wings two; Burgers one. The same record will mean different pressure in different divisions. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.\",\n  \"callouts\": [\n    {\n      \"label\": \"BURGERS\",\n      \"heading\": \"D0nkey can create separation\",\n      \"body\": \"D0nkey K0ng would reach 6–4. If ObiWan Jacoby and Three Dreaded Snake remain behind, both fall to 4–6; Mud Dogs’ current deficit points toward 2–8.\"\n    },\n    {\n      \"label\": \"PIZZA\",\n      \"heading\": \"Three leaders on the same step\",\n      \"body\": \"El Niño, His Majesty’s Blood and Seven Deadly Chins would share 6–4; The LLC would reach 4–6. Comebacks by Red Leopards or Three Dreaded Snake would change that group.\"\n    },\n    {\n      \"label\": \"WINGS\",\n      \"heading\": \"The cushion is under pressure\",\n      \"body\": \"Dr. Duckhook and Slob on my Dobb would meet at 6–4, with Red Leopards and The Chili Cheesers at 5–5. Flowers can still bring Red Leopards into the 6–4 group.\"\n    }\n  ],\n  \"rows\": [],\n  \"department_heading\": \"STATE OF THE REALM\"\n}\n\nFACT POLICY\n{\n  \"official_winner_decided\": false,\n  \"source_capture_scope\": \"CURRENT_PROVISIONAL_PRE_MNF\",\n  \"unresolved_numerals\": \"BLANK_RESERVED_FIELDS\",\n  \"source_backed_current_values\": \"May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL\",\n  \"result_dependent_art\": \"Forecast branch only until provider winners decided; persistent common beats retained.\",\n  \"refresh_fields\": [\n    {\n      \"selector\": \"/divisions\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"fact_id\": \"W10-DIVISIONS\",\n        \"scope\": \"W09_APPROVED_DIVISIONS\",\n        \"source\": \"SDIV\",\n        \"members\": {\n          \"Burgers\": [\n            \"T05\",\n            \"T01\",\n            \"T06\",\n            \"T10\"\n          ],\n          \"Pizza\": [\n            \"T09\",\n            \"T08\",\n            \"T11\",\n            \"T04\"\n          ],\n          \"Wings\": [\n            \"T12\",\n            \"T02\",\n            \"T03\",\n            \"T07\"\n          ]\n        }\n      }\n    },\n    {\n      \"selector\": \"/conditional_records\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": {\n        \"fact_id\": \"W10-CONDITIONAL-RECORDS\",\n        \"scope\": \"CONDITIONAL\",\n        \"source_inputs\": [\n          \"S10\",\n          \"SH\"\n        ],\n        \"baseline_condition\": \"All current leads hold and no later corrections change results\",\n        \"baseline\": {\n          \"T12\": {\n            \"w\": 6,\n            \"l\": 4,\n            \"t\": 0\n          },\n          \"T09\": {\n            \"w\": 6,\n            \"l\": 4,\n            \"t\": 0\n          },\n          \"T05\": {\n            \"w\": 6,\n            \"l\": 4,\n            \"t\": 0\n          },\n          \"T02\": {\n            \"w\": 5,\n            \"l\": 5,\n            \"t\": 0\n          },\n          \"T08\": {\n            \"w\": 6,\n            \"l\": 4,\n            \"t\": 0\n          },\n          \"T11\": {\n            \"w\": 6,\n            \"l\": 4,\n            \"t\": 0\n          },\n          \"T03\": {\n            \"w\": 6,\n            \"l\": 4,\n            \"t\": 0\n          },\n          \"T07\": {\n            \"w\": 5,\n            \"l\": 5,\n            \"t\": 0\n          },\n          \"T01\": {\n            \"w\": 4,\n            \"l\": 6,\n            \"t\": 0\n          },\n          \"T06\": {\n            \"w\": 4,\n            \"l\": 6,\n            \"t\": 0\n          },\n          \"T04\": {\n            \"w\": 4,\n            \"l\": 6,\n            \"t\": 0\n          },\n          \"T10\": {\n            \"w\": 2,\n            \"l\": 8,\n            \"t\": 0\n          }\n        },\n        \"six_four_group\": [\n          \"T12\",\n          \"T09\",\n          \"T05\",\n          \"T08\",\n          \"T11\",\n          \"T03\"\n        ],\n        \"alternatives\": {\n          \"red_wins\": {\n            \"game\": \"W10-G02\",\n            \"replace_records\": {\n              \"T02\": {\n                \"w\": 6,\n                \"l\": 4,\n                \"t\": 0\n              },\n              \"T09\": {\n                \"w\": 5,\n                \"l\": 5,\n                \"t\": 0\n              }\n            },\n            \"six_four_group\": [\n              \"T12\",\n              \"T02\",\n              \"T05\",\n              \"T08\",\n              \"T11\",\n              \"T03\"\n            ]\n          },\n          \"tds_wins\": {\n            \"game\": \"W10-G03\",\n            \"replace_records\": {\n              \"T06\": {\n                \"w\": 5,\n                \"l\": 5,\n                \"t\": 0\n              },\n              \"T11\": {\n                \"w\": 5,\n                \"l\": 5,\n                \"t\": 0\n              }\n            },\n            \"six_four_group\": [\n              \"T12\",\n              \"T09\",\n              \"T05\",\n              \"T08\",\n              \"T03\"\n            ]\n          },\n          \"red_and_tds_win\": {\n            \"games\": [\n              \"W10-G02\",\n              \"W10-G03\"\n            ],\n            \"six_four_group\": [\n              \"T12\",\n              \"T02\",\n              \"T05\",\n              \"T08\",\n              \"T03\"\n            ],\n            \"apply_record_replacements_from\": [\n              \"red_wins\",\n              \"tds_wins\"\n            ]\n          },\n          \"obiwan_wins\": {\n            \"game\": \"W10-G06\",\n            \"replace_records\": {\n              \"T01\": {\n                \"w\": 5,\n                \"l\": 5,\n                \"t\": 0\n              },\n              \"T04\": {\n                \"w\": 3,\n                \"l\": 7,\n                \"t\": 0\n              }\n            },\n            \"six_four_group\": [\n              \"T12\",\n              \"T09\",\n              \"T05\",\n              \"T08\",\n              \"T11\",\n              \"T03\"\n            ]\n          }\n        },\n        \"combination_rule\": \"Apply compatible record replacements by game. ObiWan/LLC result does not alter the 6–4 identity group. A tie is outside these win/loss branches; await provider resolution.\"\n      }\n    },\n    {\n      \"selector\": \"/pass3/remaining_schedule\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Rebind this source before final factual acceptance; exact qualifiers are part of the fact.\",\n      \"snapshot_value\": [\n        {\n          \"week\": 11,\n          \"home_team_id\": 3,\n          \"home_name\": \"Slob on my Dobb\",\n          \"away_team_id\": 9,\n          \"away_name\": \"El Niño\",\n          \"same_division\": false,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 11,\n          \"home_team_id\": 6,\n          \"home_name\": \"Three Dreaded Snake\",\n          \"away_team_id\": 2,\n          \"away_name\": \"Red Leopards\",\n          \"same_division\": false,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 11,\n          \"home_team_id\": 10,\n          \"home_name\": \"Mud Dogs\",\n          \"away_team_id\": 11,\n          \"away_name\": \"Seven Deadly Chins\",\n          \"same_division\": false,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 11,\n          \"home_team_id\": 1,\n          \"home_name\": \"ObiWan Jacoby\",\n          \"away_team_id\": 7,\n          \"away_name\": \"The Chili Cheesers\",\n          \"same_division\": false,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 11,\n          \"home_team_id\": 5,\n          \"home_name\": \"D0nkey K0ng\",\n          \"away_team_id\": 8,\n          \"away_name\": \"His Majesty's Blood\",\n          \"same_division\": false,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 11,\n          \"home_team_id\": 12,\n          \"home_name\": \"Dr. Duckhook\",\n          \"away_team_id\": 4,\n          \"away_name\": \"The LLC\",\n          \"same_division\": false,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 12,\n          \"home_team_id\": 5,\n          \"home_name\": \"D0nkey K0ng\",\n          \"away_team_id\": 1,\n          \"away_name\": \"ObiWan Jacoby\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 12,\n          \"home_team_id\": 10,\n          \"home_name\": \"Mud Dogs\",\n          \"away_team_id\": 6,\n          \"away_name\": \"Three Dreaded Snake\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 12,\n          \"home_team_id\": 2,\n          \"home_name\": \"Red Leopards\",\n          \"away_team_id\": 12,\n          \"away_name\": \"Dr. Duckhook\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 12,\n          \"home_team_id\": 3,\n          \"home_name\": \"Slob on my Dobb\",\n          \"away_team_id\": 7,\n          \"away_name\": \"The Chili Cheesers\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 12,\n          \"home_team_id\": 4,\n          \"home_name\": \"The LLC\",\n          \"away_team_id\": 8,\n          \"away_name\": \"His Majesty's Blood\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 12,\n          \"home_team_id\": 9,\n          \"home_name\": \"El Niño\",\n          \"away_team_id\": 11,\n          \"away_name\": \"Seven Deadly Chins\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 13,\n          \"home_team_id\": 10,\n          \"home_name\": \"Mud Dogs\",\n          \"away_team_id\": 1,\n          \"away_name\": \"ObiWan Jacoby\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 13,\n          \"home_team_id\": 6,\n          \"home_name\": \"Three Dreaded Snake\",\n          \"away_team_id\": 5,\n          \"away_name\": \"D0nkey K0ng\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 13,\n          \"home_team_id\": 3,\n          \"home_name\": \"Slob on my Dobb\",\n          \"away_team_id\": 12,\n          \"away_name\": \"Dr. Duckhook\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 13,\n          \"home_team_id\": 7,\n          \"home_name\": \"The Chili Cheesers\",\n          \"away_team_id\": 2,\n          \"away_name\": \"Red Leopards\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 13,\n          \"home_team_id\": 9,\n          \"home_name\": \"El Niño\",\n          \"away_team_id\": 8,\n          \"away_name\": \"His Majesty's Blood\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 13,\n          \"home_team_id\": 11,\n          \"home_name\": \"Seven Deadly Chins\",\n          \"away_team_id\": 4,\n          \"away_name\": \"The LLC\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 14,\n          \"home_team_id\": 6,\n          \"home_name\": \"Three Dreaded Snake\",\n          \"away_team_id\": 1,\n          \"away_name\": \"ObiWan Jacoby\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 14,\n          \"home_team_id\": 10,\n          \"home_name\": \"Mud Dogs\",\n          \"away_team_id\": 5,\n          \"away_name\": \"D0nkey K0ng\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 14,\n          \"home_team_id\": 7,\n          \"home_name\": \"The Chili Cheesers\",\n          \"away_team_id\": 12,\n          \"away_name\": \"Dr. Duckhook\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 14,\n          \"home_team_id\": 3,\n          \"home_name\": \"Slob on my Dobb\",\n          \"away_team_id\": 2,\n          \"away_name\": \"Red Leopards\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 14,\n          \"home_team_id\": 11,\n          \"home_name\": \"Seven Deadly Chins\",\n          \"away_team_id\": 8,\n          \"away_name\": \"His Majesty's Blood\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        },\n        {\n          \"week\": 14,\n          \"home_team_id\": 9,\n          \"home_name\": \"El Niño\",\n          \"away_team_id\": 4,\n          \"away_name\": \"The LLC\",\n          \"same_division\": true,\n          \"provider_winner\": \"UNDECIDED\"\n        }\n      ]\n    }\n  ]\n}\n\nREFERENCE IMAGES\n[\n  {\n    \"repo_path\": \"memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p29.jpg\",\n    \"sha256\": \"2ba8183e91be71bfd406e69aceb4704fb0ba24ed214f2c955e89418c3328673a\",\n    \"bytes\": 621125,\n    \"dimensions\": [\n      910,\n      1707\n    ],\n    \"media_type\": \"image/jpeg\",\n    \"role\": \"published_memo_precedent\",\n    \"decoded_in_preflight\": true,\n    \"application\": \"Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values.\"\n  }\n]",
+  "prompt": "One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.\n\nImage authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.\n\nPAGE W10-P28 · READING POSITION 29\n\nIDENTITY INPUTS\n[]\n\nSCENE AND CONTINUITY\n{\n  \"camera_and_composition\": \"Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution.\",\n  \"foreground\": \"Rain-dark paving and repaired banner sockets.\",\n  \"midground\": \"Burgers, Pizza and Wings emblems on temporary league standards.\",\n  \"background\": \"Continuous inhabited landscape under graded cloud, not three isolated national maps.\",\n  \"image_tells\": \"Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution. Rain-dark paving and repaired banner sockets. Burgers, Pizza and Wings emblems on temporary league standards. Continuous inhabited landscape under graded cloud, not three isolated national maps.\",\n  \"encounter\": {\n    \"venue_id\": \"LOC-LEAGUE-CHAMBER\",\n    \"set_id\": \"SET-W10-CHAMBER-DIVISION-TERRACE\",\n    \"venue_type\": \"Editorial department within existing Atlas parent; local staging proposed\",\n    \"division_context\": \"League-wide; divisions are overlays\",\n    \"route_required\": false,\n    \"world_state_in\": \"Existing place with selective wear and maintenance\",\n    \"persistent_landmarks\": [\n      \"League Chamber public terrace\"\n    ],\n    \"provisional_location\": true,\n    \"formal_atlas_promotion\": false\n  },\n  \"continuity_in\": [\n    \"LOC-LEAGUE-CHAMBER\",\n    \"Existing Commonwealth use and inherited approved weather state\"\n  ],\n  \"continuity_out\": [\n    \"No official new seed, division-title award or territorial border is inferred from equal records.\"\n  ],\n  \"forbidden_mutations\": [\n    \"Division labels treated as geographic borders\",\n    \"Unverified tiebreak explanation\",\n    \"Clinched or eliminated language\"\n  ]\n}\n\nEXACT FULL PUBLICATION COPY\n{\n  \"headline\": \"THREE DIVISIONS. DIFFERENT PRESSURES.\",\n  \"deck\": \"The same results change three separate races\",\n  \"body\": \"Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.\",\n  \"callouts\": [\n    {\n      \"label\": \"BURGERS\",\n      \"heading\": \"D0nkey K0ng has separation\",\n      \"body\": \"D0nkey K0ng stands at 6–4. ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8 and must win out to preserve a route.\"\n    },\n    {\n      \"label\": \"PIZZA\",\n      \"heading\": \"Three leaders on the same step\",\n      \"body\": \"El Niño, His Majesty’s Blood and Seven Deadly Chins are all 6–4. The LLC’s 203.96 victory lifts its record to 4–6, with the divisional return still ahead.\"\n    },\n    {\n      \"label\": \"WINGS\",\n      \"heading\": \"The cushion has narrowed\",\n      \"body\": \"Dr. Duckhook and Slob on my Dobb are 6–4. Red Leopards and The Chili Cheesers are both 5–5. One crossover remains before the four meet division rivals again.\"\n    }\n  ],\n  \"rows\": [],\n  \"department_heading\": \"STATE OF THE REALM\"\n}\n\nFACT POLICY\n{\n  \"official_winner_decided\": true,\n  \"source_capture_scope\": \"W10_PROVIDER_FINAL\",\n  \"unresolved_numerals\": \"BLANK_RESERVED_FIELDS\",\n  \"source_backed_current_values\": \"Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.\",\n  \"result_dependent_art\": \"Provider-final holding branch selected; preserve approved physical choreography.\",\n  \"week11_outcomes_decided\": false,\n  \"refresh_fields\": [\n    {\n      \"selector\": \"/divisions\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.\",\n      \"source_capture_utc\": \"2026-11-17T16:53:25.527402+00:00\",\n      \"snapshot_sha256\": \"ee20cab9164bcb27f2cfa7c38596dc6082d1c872359f9fd0746c73c480bd9fc4\",\n      \"value_location\": \"facts.json#/divisions\",\n      \"source_scope\": \"See source field scope; exact visible values are already in publication_copy\"\n    },\n    {\n      \"selector\": \"/official_records\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.\",\n      \"source_capture_utc\": \"2026-11-17T16:53:25.527402+00:00\",\n      \"snapshot_sha256\": \"ca459f3f4533ecbcb9728cac751c8ee4b9aa480859299e3bf315bef5593c85d5\",\n      \"value_location\": \"facts.json#/official_records\",\n      \"source_scope\": \"See source field scope; exact visible values are already in publication_copy\"\n    },\n    {\n      \"selector\": \"/pass3/remaining_schedule\",\n      \"artifact\": \"facts.json\",\n      \"policy\": \"Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.\",\n      \"source_capture_utc\": \"2026-11-17T16:53:25.527402+00:00\",\n      \"snapshot_sha256\": \"e0f5bbd5e8fa9f916c58e24673779bb948a1d2ecc18e418ed89d708722f504a9\",\n      \"value_location\": \"facts.json#/pass3/remaining_schedule\",\n      \"source_scope\": \"See source field scope; exact visible values are already in publication_copy\"\n    }\n  ],\n  \"source_fact_bundle_sha256\": \"7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84\"\n}\n\nREFERENCE IMAGES\n[\n  {\n    \"repo_path\": \"memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p29.jpg\",\n    \"sha256\": \"2ba8183e91be71bfd406e69aceb4704fb0ba24ed214f2c955e89418c3328673a\",\n    \"bytes\": 621125,\n    \"dimensions\": [\n      910,\n      1707\n    ],\n    \"media_type\": \"image/jpeg\",\n    \"role\": \"published_memo_precedent\",\n    \"decoded_in_preflight\": true,\n    \"application\": \"Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values.\"\n  }\n]",
   "publication_copy": {
     "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
     "deck": "The same results change three separate races",
-    "body": "If the current leads hold, six teams will share 6–4 records. Pizza would contain three of them; Wings two; Burgers one. The same record will mean different pressure in different divisions. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+    "body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
     "callouts": [
       {
         "label": "BURGERS",
-        "heading": "D0nkey can create separation",
-        "body": "D0nkey K0ng would reach 6–4. If ObiWan Jacoby and Three Dreaded Snake remain behind, both fall to 4–6; Mud Dogs’ current deficit points toward 2–8."
+        "heading": "D0nkey K0ng has separation",
+        "body": "D0nkey K0ng stands at 6–4. ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8 and must win out to preserve a route."
       },
       {
         "label": "PIZZA",
         "heading": "Three leaders on the same step",
-        "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins would share 6–4; The LLC would reach 4–6. Comebacks by Red Leopards or Three Dreaded Snake would change that group."
+        "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins are all 6–4. The LLC’s 203.96 victory lifts its record to 4–6, with the divisional return still ahead."
       },
       {
         "label": "WINGS",
-        "heading": "The cushion is under pressure",
-        "body": "Dr. Duckhook and Slob on my Dobb would meet at 6–4, with Red Leopards and The Chili Cheesers at 5–5. Flowers can still bring Red Leopards into the 6–4 group."
+        "heading": "The cushion has narrowed",
+        "body": "Dr. Duckhook and Slob on my Dobb are 6–4. Red Leopards and The Chili Cheesers are both 5–5. One crossover remains before the four meet division rivals again."
       }
     ],
     "rows": [],
@@ -82,442 +82,46 @@
     }
   ],
   "sports_policy": {
-    "official_winner_decided": false,
-    "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+    "official_winner_decided": true,
+    "source_capture_scope": "W10_PROVIDER_FINAL",
     "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-    "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-    "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+    "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+    "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+    "week11_outcomes_decided": false,
     "refresh_fields": [
       {
         "selector": "/divisions",
         "artifact": "facts.json",
-        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-        "snapshot_value": {
-          "fact_id": "W10-DIVISIONS",
-          "scope": "W09_APPROVED_DIVISIONS",
-          "source": "SDIV",
-          "members": {
-            "Burgers": [
-              "T05",
-              "T01",
-              "T06",
-              "T10"
-            ],
-            "Pizza": [
-              "T09",
-              "T08",
-              "T11",
-              "T04"
-            ],
-            "Wings": [
-              "T12",
-              "T02",
-              "T03",
-              "T07"
-            ]
-          }
-        }
+        "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+        "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+        "snapshot_sha256": "ee20cab9164bcb27f2cfa7c38596dc6082d1c872359f9fd0746c73c480bd9fc4",
+        "value_location": "facts.json#/divisions",
+        "source_scope": "See source field scope; exact visible values are already in publication_copy"
       },
       {
-        "selector": "/conditional_records",
+        "selector": "/official_records",
         "artifact": "facts.json",
-        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-        "snapshot_value": {
-          "fact_id": "W10-CONDITIONAL-RECORDS",
-          "scope": "CONDITIONAL",
-          "source_inputs": [
-            "S10",
-            "SH"
-          ],
-          "baseline_condition": "All current leads hold and no later corrections change results",
-          "baseline": {
-            "T12": {
-              "w": 6,
-              "l": 4,
-              "t": 0
-            },
-            "T09": {
-              "w": 6,
-              "l": 4,
-              "t": 0
-            },
-            "T05": {
-              "w": 6,
-              "l": 4,
-              "t": 0
-            },
-            "T02": {
-              "w": 5,
-              "l": 5,
-              "t": 0
-            },
-            "T08": {
-              "w": 6,
-              "l": 4,
-              "t": 0
-            },
-            "T11": {
-              "w": 6,
-              "l": 4,
-              "t": 0
-            },
-            "T03": {
-              "w": 6,
-              "l": 4,
-              "t": 0
-            },
-            "T07": {
-              "w": 5,
-              "l": 5,
-              "t": 0
-            },
-            "T01": {
-              "w": 4,
-              "l": 6,
-              "t": 0
-            },
-            "T06": {
-              "w": 4,
-              "l": 6,
-              "t": 0
-            },
-            "T04": {
-              "w": 4,
-              "l": 6,
-              "t": 0
-            },
-            "T10": {
-              "w": 2,
-              "l": 8,
-              "t": 0
-            }
-          },
-          "six_four_group": [
-            "T12",
-            "T09",
-            "T05",
-            "T08",
-            "T11",
-            "T03"
-          ],
-          "alternatives": {
-            "red_wins": {
-              "game": "W10-G02",
-              "replace_records": {
-                "T02": {
-                  "w": 6,
-                  "l": 4,
-                  "t": 0
-                },
-                "T09": {
-                  "w": 5,
-                  "l": 5,
-                  "t": 0
-                }
-              },
-              "six_four_group": [
-                "T12",
-                "T02",
-                "T05",
-                "T08",
-                "T11",
-                "T03"
-              ]
-            },
-            "tds_wins": {
-              "game": "W10-G03",
-              "replace_records": {
-                "T06": {
-                  "w": 5,
-                  "l": 5,
-                  "t": 0
-                },
-                "T11": {
-                  "w": 5,
-                  "l": 5,
-                  "t": 0
-                }
-              },
-              "six_four_group": [
-                "T12",
-                "T09",
-                "T05",
-                "T08",
-                "T03"
-              ]
-            },
-            "red_and_tds_win": {
-              "games": [
-                "W10-G02",
-                "W10-G03"
-              ],
-              "six_four_group": [
-                "T12",
-                "T02",
-                "T05",
-                "T08",
-                "T03"
-              ],
-              "apply_record_replacements_from": [
-                "red_wins",
-                "tds_wins"
-              ]
-            },
-            "obiwan_wins": {
-              "game": "W10-G06",
-              "replace_records": {
-                "T01": {
-                  "w": 5,
-                  "l": 5,
-                  "t": 0
-                },
-                "T04": {
-                  "w": 3,
-                  "l": 7,
-                  "t": 0
-                }
-              },
-              "six_four_group": [
-                "T12",
-                "T09",
-                "T05",
-                "T08",
-                "T11",
-                "T03"
-              ]
-            }
-          },
-          "combination_rule": "Apply compatible record replacements by game. ObiWan/LLC result does not alter the 6–4 identity group. A tie is outside these win/loss branches; await provider resolution."
-        }
+        "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+        "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+        "snapshot_sha256": "ca459f3f4533ecbcb9728cac751c8ee4b9aa480859299e3bf315bef5593c85d5",
+        "value_location": "facts.json#/official_records",
+        "source_scope": "See source field scope; exact visible values are already in publication_copy"
       },
       {
         "selector": "/pass3/remaining_schedule",
         "artifact": "facts.json",
-        "policy": "Rebind this source before final factual acceptance; exact qualifiers are part of the fact.",
-        "snapshot_value": [
-          {
-            "week": 11,
-            "home_team_id": 3,
-            "home_name": "Slob on my Dobb",
-            "away_team_id": 9,
-            "away_name": "El Niño",
-            "same_division": false,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 11,
-            "home_team_id": 6,
-            "home_name": "Three Dreaded Snake",
-            "away_team_id": 2,
-            "away_name": "Red Leopards",
-            "same_division": false,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 11,
-            "home_team_id": 10,
-            "home_name": "Mud Dogs",
-            "away_team_id": 11,
-            "away_name": "Seven Deadly Chins",
-            "same_division": false,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 11,
-            "home_team_id": 1,
-            "home_name": "ObiWan Jacoby",
-            "away_team_id": 7,
-            "away_name": "The Chili Cheesers",
-            "same_division": false,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 11,
-            "home_team_id": 5,
-            "home_name": "D0nkey K0ng",
-            "away_team_id": 8,
-            "away_name": "His Majesty's Blood",
-            "same_division": false,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 11,
-            "home_team_id": 12,
-            "home_name": "Dr. Duckhook",
-            "away_team_id": 4,
-            "away_name": "The LLC",
-            "same_division": false,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 12,
-            "home_team_id": 5,
-            "home_name": "D0nkey K0ng",
-            "away_team_id": 1,
-            "away_name": "ObiWan Jacoby",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 12,
-            "home_team_id": 10,
-            "home_name": "Mud Dogs",
-            "away_team_id": 6,
-            "away_name": "Three Dreaded Snake",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 12,
-            "home_team_id": 2,
-            "home_name": "Red Leopards",
-            "away_team_id": 12,
-            "away_name": "Dr. Duckhook",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 12,
-            "home_team_id": 3,
-            "home_name": "Slob on my Dobb",
-            "away_team_id": 7,
-            "away_name": "The Chili Cheesers",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 12,
-            "home_team_id": 4,
-            "home_name": "The LLC",
-            "away_team_id": 8,
-            "away_name": "His Majesty's Blood",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 12,
-            "home_team_id": 9,
-            "home_name": "El Niño",
-            "away_team_id": 11,
-            "away_name": "Seven Deadly Chins",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 13,
-            "home_team_id": 10,
-            "home_name": "Mud Dogs",
-            "away_team_id": 1,
-            "away_name": "ObiWan Jacoby",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 13,
-            "home_team_id": 6,
-            "home_name": "Three Dreaded Snake",
-            "away_team_id": 5,
-            "away_name": "D0nkey K0ng",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 13,
-            "home_team_id": 3,
-            "home_name": "Slob on my Dobb",
-            "away_team_id": 12,
-            "away_name": "Dr. Duckhook",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 13,
-            "home_team_id": 7,
-            "home_name": "The Chili Cheesers",
-            "away_team_id": 2,
-            "away_name": "Red Leopards",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 13,
-            "home_team_id": 9,
-            "home_name": "El Niño",
-            "away_team_id": 8,
-            "away_name": "His Majesty's Blood",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 13,
-            "home_team_id": 11,
-            "home_name": "Seven Deadly Chins",
-            "away_team_id": 4,
-            "away_name": "The LLC",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 14,
-            "home_team_id": 6,
-            "home_name": "Three Dreaded Snake",
-            "away_team_id": 1,
-            "away_name": "ObiWan Jacoby",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 14,
-            "home_team_id": 10,
-            "home_name": "Mud Dogs",
-            "away_team_id": 5,
-            "away_name": "D0nkey K0ng",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 14,
-            "home_team_id": 7,
-            "home_name": "The Chili Cheesers",
-            "away_team_id": 12,
-            "away_name": "Dr. Duckhook",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 14,
-            "home_team_id": 3,
-            "home_name": "Slob on my Dobb",
-            "away_team_id": 2,
-            "away_name": "Red Leopards",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 14,
-            "home_team_id": 11,
-            "home_name": "Seven Deadly Chins",
-            "away_team_id": 8,
-            "away_name": "His Majesty's Blood",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          },
-          {
-            "week": 14,
-            "home_team_id": 9,
-            "home_name": "El Niño",
-            "away_team_id": 4,
-            "away_name": "The LLC",
-            "same_division": true,
-            "provider_winner": "UNDECIDED"
-          }
-        ]
+        "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+        "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+        "snapshot_sha256": "e0f5bbd5e8fa9f916c58e24673779bb948a1d2ecc18e418ed89d708722f504a9",
+        "value_location": "facts.json#/pass3/remaining_schedule",
+        "source_scope": "See source field scope; exact visible values are already in publication_copy"
       }
-    ]
+    ],
+    "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
   },
   "image_generation_executed": false,
   "publication_approved": false,
-  "reference_pixels_decoded_at_utc": "2026-11-16T20:34:25.019935+00:00",
+  "reference_pixels_decoded_at_utc": "2026-11-17T16:55:06.692710+00:00",
   "render_protocol": {
     "stage": "GRAYSCALE_FOLIO_PROOF",
     "canvas": [

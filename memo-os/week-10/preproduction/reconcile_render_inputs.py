@@ -13,12 +13,21 @@ NOW=datetime.now(timezone.utc).isoformat()
 def read(name):return json.loads((P/name).read_text())
 def write(name,obj):(P/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def compact_fact_bindings(fields):
+ """Keep full snapshots in the fact ledger, not in an image-generation prompt."""
+ return [{k:deepcopy(v) for k,v in f.items() if k!='snapshot_value'} | {
+  'snapshot_sha256':hashlib.sha256(json.dumps(f.get('snapshot_value'),ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest(),
+  'value_location':'facts.json#'+f['selector'],
+  'source_scope':'See source field scope; exact visible values are already in publication_copy'
+ } for f in fields]
+
 def image_ref(path,role,character_id=None):
  f=R/path
  with Image.open(f) as im:im.load();dims=list(im.size);fmt=im.format
  return {'repo_path':path,'sha256':digest(f),'bytes':f.stat().st_size,'dimensions':dims,'media_type':'image/png' if fmt=='PNG' else 'image/jpeg','role':role,**({'character_id':character_id} if character_id else {}),'decoded_in_preflight':True}
 def precedent(week,page):return image_ref(str((E/f'precedent-w{week:02d}-p{page:02d}.jpg').relative_to(R)),'published_memo_precedent')
 issue=read('issue-previs.json');briefs=read('illustrated-page-briefs.json');folio=read('storyboard-folio-plan-pass5.json');chars=read('character-world-packet.json');cards=read('storycards.json');directors=read('director-sequences.json');land=read('landscape-set-bible-pass4.json')
+facts=read('facts.json');final_mode=bool(facts.get('finality',{}).get('all_six_decided'))
 by={x['character_id']:x for x in chars['characters']};pages={x['page_id']:x for x in issue['pages']};bs={x['page_id']:x for x in briefs['pages']};fs={x['page_id']:x for x in folio['folios']};order=issue['recommended_reading_order']
 # Explicit current visual-source precedence. The local Chili copy is visually matched
 # to the authenticated Library image but is NOT falsely called the historical raw bytes.
@@ -42,7 +51,7 @@ for c in chars['characters']:
  c['current_recovery']={'checked_at_utc':NOW,'crop_hash_matches':True,'source_pixels_visually_inspected':True,'actual_generation_executed':False}
  asset_receipts.append({'character_id':c['character_id'],'name':c['current_display_name'],'images':refs})
 # Full names in actual prose/prompt inputs; stable character IDs remain untouched.
-substitutions=[(r'\bHMB\b',"His Majesty's Blood"),(r'\bTDS\b','Three Dreaded Snake'),(r'\bDK\b','D0nkey K0ng'),(r'\bChins\b(?![\w-])','Seven Deadly Chins'),(r'(?<!Dr. )\bDuckhook\b','Dr. Duckhook'),(r'(?<!The )(?<![-\w])LLC(?![-\w])','The LLC'),(r'\bRed\b(?! Leopards)','Red Leopards'),(r'\bMud\b(?! Dogs)','Mud Dogs'),(r'\bObi\b','ObiWan Jacoby'),(r'\bDuck\b','Dr. Duckhook'),(r'\bSlob\b(?! on my Dobb)','Slob on my Dobb'),(r'(?<!El )\bNiño\b','El Niño'),(r'\bChili\b(?! (?:Cheesers|Outlaw))','The Chili Cheesers')]
+substitutions=[(r'\bHMB\b',"His Majesty's Blood"),(r'\bTDS\b','Three Dreaded Snake'),(r'\bDK\b','D0nkey K0ng'),(r'\bChins\b(?![\w-])','Seven Deadly Chins'),(r'(?<!Dr. )\bDuckhook\b','Dr. Duckhook'),(r'(?<!The )(?<!THE )(?<![-\w])LLC(?![-\w])','The LLC'),(r'\bRed\b(?! Leopards)','Red Leopards'),(r'\bMud\b(?! Dogs)','Mud Dogs'),(r'\bObi\b','ObiWan Jacoby'),(r'\bDuck\b','Dr. Duckhook'),(r'\bSlob\b(?! on my Dobb)','Slob on my Dobb'),(r'(?<!El )\bNiño\b','El Niño'),(r'\bChili\b(?! (?:Cheesers|Outlaw))','The Chili Cheesers')]
 def fullnames(value):
  if isinstance(value,str):
   for pat,repl in substitutions:value=re.sub(pat,repl,value)
@@ -117,8 +126,8 @@ asset_log=[];manifest=[]
 for pos,id in enumerate(order,1):
  p=pages[id];b=bs[id];f=fs[id];p['draft_copy']['department_heading']=heading.get(id,p['draft_copy'].get('deck',''))
  if id=='W10-P04':
-  for row in p['draft_copy']['rows']:row['home_team']=row['home_team'].strip();row['away_team']=row['away_team'].strip();row['status']='PROVISIONAL'
- p['draft_copy_template']=deepcopy(p['draft_copy']);p['contract_status']='RECONCILED_FULL_FOLIO_INPUTS_V6';p['production_mode']='MODE_B_COMPLETE_ILLUSTRATED_GRAYSCALE_PROOF';p['output_width_px']=1080;p['output_height_px']=1920;p['output_aspect_ratio']='9:16'
+  for row in p['draft_copy']['rows']:row['home_team']=row['home_team'].strip();row['away_team']=row['away_team'].strip();row['status']='FINAL' if final_mode else 'PROVISIONAL'
+ p['draft_copy_template']=deepcopy(p['draft_copy']);p['contract_status']='FINAL_SOURCE_BOUND_FULL_FOLIO_INPUTS_V7' if final_mode else 'RECONCILED_FULL_FOLIO_INPUTS_V6';p['production_mode']='MODE_B_COMPLETE_ILLUSTRATED_GRAYSCALE_PROOF';p['output_width_px']=1080;p['output_height_px']=1920;p['output_aspect_ratio']='9:16'
  p['reference_assets']=[];castrefs=[];identities=[]
  for cid in p['characters_present']:
   c=by[cid];refs=deepcopy(c['effective_reference_images']);castrefs+=refs
@@ -130,7 +139,7 @@ for pos,id in enumerate(order,1):
   rr['application']='Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values.'
   if any(rr['repo_path'].endswith(f'precedent-w{w:02d}-p{n:02d}.jpg') for w,n in geometry_ids.get(id,[])):rr['application']='Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values.';rr['role']='published_location_geometry'
  scene={k:deepcopy(p.get(k)) for k in ['camera_and_composition','foreground','midground','background','image_tells','encounter','continuity_in','continuity_out','forbidden_mutations']}
- sports={'official_winner_decided':False,'source_capture_scope':'CURRENT_PROVISIONAL_PRE_MNF','unresolved_numerals':'BLANK_RESERVED_FIELDS','source_backed_current_values':'May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL','result_dependent_art':'Forecast branch only until provider winners decided; persistent common beats retained.','refresh_fields':deepcopy(p.get('deterministic_data_fields',[]))}
+ sports={'official_winner_decided':final_mode,'source_capture_scope':'W10_PROVIDER_FINAL' if final_mode else 'CURRENT_PROVISIONAL_PRE_MNF','unresolved_numerals':'BLANK_RESERVED_FIELDS','source_backed_current_values':'Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.' if final_mode else 'May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL','result_dependent_art':'Provider-final holding branch selected; preserve approved physical choreography.' if final_mode else 'Forecast branch only until provider winners decided; persistent common beats retained.','week11_outcomes_decided':False,'refresh_fields':compact_fact_bindings(p.get('deterministic_data_fields',[])),'source_fact_bundle_sha256':digest(P/'facts.json')}
  text='\n\n'.join([format_rule,style_rule,'PAGE '+id+' · READING POSITION '+str(pos),'IDENTITY INPUTS\n'+json.dumps(identities,ensure_ascii=False,indent=2),'SCENE AND CONTINUITY\n'+json.dumps(scene,ensure_ascii=False,indent=2),'EXACT FULL PUBLICATION COPY\n'+json.dumps(p['draft_copy'],ensure_ascii=False,indent=2),'FACT POLICY\n'+json.dumps(sports,ensure_ascii=False,indent=2),'REFERENCE IMAGES\n'+json.dumps(castrefs+precedents,ensure_ascii=False,indent=2)])
  b.update({'title':p['title'],'artist_prompt':text,'publication_copy':deepcopy(p['draft_copy']),'exact_copy_template':deepcopy(p['draft_copy']),'reference_bindings':deepcopy(p['reference_assets']),'encounter':deepcopy(p['encounter']),'production_mode':p['production_mode'],'status':'RECONCILED_FULL_FOLIO_INPUTS_V6','pass3_site':{'parent_location_id':p['encounter'].get('venue_id'),'set_id':p['encounter'].get('set_id'),'working_name':p['encounter'].get('venue_type'),'formal_atlas_promotion':False},'source_precedents':precedents,'output':{'format':'PNG','width':1080,'height':1920,'aspect':'9:16','unit':'Complete integrated grayscale illustrated folio'},'render_protocol':deepcopy(protocol)})
  p['pass3_site']=deepcopy(b['pass3_site']);p['candidate_render_prompt']=text;p['illustrated_page_brief']=deepcopy(b);p['visual_precedent_receipt']={'inspection':'ACTUAL_PUBLISHED_PIXELS_INSPECTED','references':precedents};p['text_image_integration']=style_rule
@@ -166,7 +175,7 @@ for s in land['sets']:
   en=pages[pid]['encounter'];s['id']=en['set_id'];s['parent']=en.get('venue_id');s['source_location_ref']=en.get('source_location_ref');s['persistent_landmarks']=deepcopy(en['persistent_landmarks']);s['source_page_id']=pid
 for dep in land['department_landscapes']:
  p=pages[dep['page_id']];dep.update({'site':p['encounter'].get('set_id'),'parent_location_id':p['encounter'].get('venue_id'),'camera':p['camera_and_composition'],'action':p['image_tells'],'source_location_ref':p['encounter'].get('source_location_ref'),'source_page_contract':'issue-previs.json#'+p['page_id']})
-issue['render_hold_policy']='Preproduction inputs may pass source/contract checks before results. Generate only user-requested individual grayscale full-folio proofs with attached sources. Final publication requires decided ESPN winners, source refresh and actual rendered-output review.'
+issue['render_hold_policy']=('Week10 provider finality verified. All34 source-bound individual folio inputs may proceed to the user-requested grayscale production. Review actual generated likeness, typography and geometry before founder publication acceptance.' if final_mode else 'Preproduction inputs may pass source/contract checks before results. Generate only user-requested individual grayscale full-folio proofs with attached sources; final publication requires provider finality and actual pixel review.')
 issue['narrative_source']='issue-draft.md (Pass 4 with full-name expansion and source-backed preflight corrections)';issue['reference_binding_status']='ALL_34_PAGE_INPUTS_ASSEMBLED_FROM_REAL_IMAGE_BYTES';issue['art_generated']=False
 folio['stage']='FULL_FOLIO_PROOF_INPUTS_RECONCILED';folio['format_policy']=format_rule;folio['generation_policy']='All six sheets audited first; render individual full folios only after the preflight execution. No final art or publication authorization implied.';folio['source_authority']['published_visual_precedents']='../production-evidence/recovery-20261116/published-memo-source-receipts.json'
 for name,obj in [('issue-previs.json',issue),('illustrated-page-briefs.json',briefs),('storyboard-folio-plan-pass5.json',folio),('character-world-packet.json',chars),('storycards.json',cards),('director-sequences.json',directors),('landscape-set-bible-pass4.json',land)]:write(name,obj)
@@ -174,10 +183,10 @@ for name,obj in [('issue-previs.json',issue),('illustrated-page-briefs.json',bri
 # authority. Do not destroy or rewrite earlier discussion evidence.
 for name in ['whole-issue-pass-03.json','art-atlas-pass3.json','world-story-pass-01.json','world-story-pass-02.json']:
  obj=read(name);obj['consumer_status']='HISTORICAL_PASS_NOT_CURRENT_RENDER_INPUT';obj['current_render_authority']='render-inputs/manifest.json';obj['current_contract_authority']='issue-previs.json';write(name,obj)
-write('render-inputs/manifest.json',{'stage':'GRAYSCALE_FOLIO_PROOF_INPUTS','canvas':[1080,1920],'page_count':34,'sheets':6,'sheet_layout':[3,2],'sheet_page_counts':[6,6,6,6,6,4],'empty_final_slots':[5,6],'pages':manifest,'source_images_resolved':True,'new_art_generated':False,'publication_approved':False})
+write('render-inputs/manifest.json',{'source_finality':'W10_PROVIDER_FINAL' if final_mode else 'W10_PROVISIONAL','backend_ready':True,'stage':'GRAYSCALE_FOLIO_PROOF_INPUTS','canvas':[1080,1920],'page_count':34,'sheets':6,'sheet_layout':[3,2],'sheet_page_counts':[6,6,6,6,6,4],'empty_final_slots':[5,6],'pages':manifest,'source_images_resolved':True,'new_art_generated':False,'publication_approved':False})
 (E/'character-byte-recovery.json').write_text(json.dumps({'checked_at_utc':NOW,'characters':asset_receipts,'chili_override_provenance':chili['current_override_binding']},ensure_ascii=False,indent=2)+'\n')
 # Regenerate the human-readable operational mirrors from the SAME exact copy.
-md=['# Week 10 — Full-name integrated folio copy','', 'Current source-backed production copy. Current sports values remain provisional; no final result is asserted.','']
+md=['# Week 10 — Full-name integrated folio copy','', ('Provider-final Week10 publication copy, with timestamped Week11 preview and availability. No generated artwork or publication approval is implied.' if final_mode else 'Current source-backed production copy. Current sports values remain provisional; no final result is asserted.'),'']
 briefmd=['# Week 10 — Complete individual grayscale folio production','',format_rule,'',style_rule,'']
 planmd=['# Week 10 — Six-sheet full-folio proof ledger','',format_rule,'','Every contact-sheet cell is a scaled copy of its individual page master, never a separate scene summary.','']
 for id in order:
@@ -186,6 +195,9 @@ for id in order:
   if isinstance(co,dict) and co.get('label') and co.get('value') not in [None,'']:
    md+=['**'+str(co['label'])+'** — '+str(co['value']),'']
   else:md+=['```json',json.dumps(co,ensure_ascii=False,indent=2),'```','']
+ if c.get('result'):
+  rr=c['result'];md+=['**FINAL — '+rr['winner']+' '+rr['winner_points']+' — '+rr['loser']+' '+rr['loser_points']+'**','']
+ if c.get('football_context'):md+=['Football context: '+c['football_context'],'']
  if c.get('rows'):md+=['```json',json.dumps(c['rows'],ensure_ascii=False,indent=2),'```','']
  briefmd+=['## '+id+' — '+p['title'],'',bs[id]['artist_prompt'],'']
  f=fs[id];planmd+=['## '+str(order.index(id)+1)+' · '+id+' — '+p['title'],'',p['camera_and_composition'],'','Cast: '+(', '.join(by[x]['current_display_name'] for x in p['characters_present']) or 'No invented principal character'),'','Full copy:','',c['body'],'','Input: `render-inputs/'+id+'/request.json`','']

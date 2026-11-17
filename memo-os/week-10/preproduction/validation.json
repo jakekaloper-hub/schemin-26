@@ -1,194 +1,53 @@
 {
-  "status": "PASS_WRITTEN_PREPRODUCTION_WITH_EXPLICIT_OPEN_ITEMS",
-  "executed_date": "2026-11-16",
+  "status": "BACKEND_FINAL_RESULTS_READY_FOR_GENERATION",
+  "checked_at_utc": "2026-11-17T16:48:18.510980+00:00",
+  "scope": "34 operative full-folio inputs across six sheets. Not rendered-pixel acceptance.",
   "checks": [
     {
-      "check": "Stable page inventory",
+      "check": "Week10 provider finality",
       "pass": true,
-      "detail": "35 unique stable IDs; original P01–P33 retained; P34 and P35 added"
+      "detail": "6/6 official outcomes;12scores and12standings corroborated by Flaim and direct ESPN."
     },
     {
-      "check": "Reading run",
+      "check": "Final narrative and result propagation",
       "pass": true,
-      "detail": "34 proposed reading pages; optional Book remains omitted"
+      "detail": "Six payoff pages contain exact FINAL receipts; scoreboard and official postWeek10 standings refreshed; all34full-copy mirrors regenerated."
     },
     {
-      "check": "All source cards resolve",
+      "check": "Canonical images and published precedent",
       "pass": true,
-      "detail": "6 matchups /18beats and17departments"
+      "detail": "Existing verified12character crops, current overrides and110reference-image occurrences retained and decoded; published Opening Drive table/map/banner remains controlling."
     },
     {
-      "check": "Full illustrated mirrors",
+      "check": "Distinct scoring/current roster snapshots",
       "pass": true,
-      "detail": "All35art prompts, exact copies and encounters match their authoritative page contracts"
+      "detail": "224Week10 scoring entries versus222currentWeek11 entries; ownership/lineup changes propagated."
     },
     {
-      "check": "Director source links",
+      "check": "Playoff math",
       "pass": true,
-      "detail": "18currentdirector entries; stale embedded copies removed in favor of page-ID references"
+      "detail": "25replayed qualification/nonqualification witnesses; all12alive and noneclinched; nextMudDogs loss eliminates."
     },
     {
-      "check": "Weather mirror",
+      "check": "User Week11 implications",
       "pass": true,
-      "detail": "Every brief uses the current page weather; no stale Compact/terrace/crossing companions"
+      "detail": "W10-P31 / reading32 / Sheet6 updated from user screenshots; five explicit counterexamples prevent unsupported automatic-elimination labels."
     },
     {
-      "check": "Native PNG contracts",
+      "check": "No fabricated artwork acceptance",
       "pass": true,
-      "detail": "Written native1080×1920PNGcontracts only; actual image geometry not yet tested"
-    },
-    {
-      "check": "No premature render lock",
-      "pass": true,
-      "detail": "No finality, artwork or approval promoted"
-    },
-    {
-      "check": "Copy budgets",
-      "pass": true,
-      "detail": "All35body drafts within110words; real raster legibility remains open"
-    },
-    {
-      "check": "Explained unregistered parent W10-P09",
-      "pass": true,
-      "detail": "Existing published Central Basin court with proposed working ID; permanent registration remains pending"
-    },
-    {
-      "check": "Explained unregistered parent W10-P10",
-      "pass": true,
-      "detail": "Existing published Central Basin court with proposed working ID; permanent registration remains pending"
-    },
-    {
-      "check": "Only documented court gap",
-      "pass": true,
-      "detail": "No anonymous unknown venue for other pages"
-    },
-    {
-      "check": "DK override propagated",
-      "pass": true,
-      "detail": "DK homeland illustrated hosting, provider home Chili preserved"
-    },
-    {
-      "check": "GOTW preview source binding",
-      "pass": true,
-      "detail": "2025historyandcurrentbye source are distinct persisted artifacts"
-    },
-    {
-      "check": "New department metadata",
-      "pass": true,
-      "detail": "Removed inherited commissioner-note merge policy from P34/P35"
-    },
-    {
-      "check": "Conditional elimination guard",
-      "pass": true,
-      "detail": "Supported future condition is allowed; unsupported current eliminations remain prohibited"
-    },
-    {
-      "check": "Current finality",
-      "pass": true,
-      "detail": "All six fresh source outcomes remain UNDECIDED"
-    },
-    {
-      "check": "News and readiness coverage",
-      "pass": true,
-      "detail": "16prioritizeddevelopments /50sources /12teamplans"
-    },
-    {
-      "check": "News joins",
-      "pass": true,
-      "detail": "Incident sources and team incident IDs resolve within their evidence artifact"
-    },
-    {
-      "check": "Required-position count",
-      "pass": true,
-      "detail": "7positions across6teams including Chins D/ST and K"
-    },
-    {
-      "check": "Available-player scope",
-      "pass": true,
-      "detail": "12non-bye unowned options, states retained; no transactions"
-    },
-    {
-      "check": "Schemin-only publication",
-      "pass": true,
-      "detail": "Unrelated connected-league session envelope excluded"
-    },
-    {
-      "check": "Character roster count",
-      "pass": true,
-      "detail": "All12principalreferencecrops verified; later appearance overrides retained"
-    },
-    {
-      "check": "Library report mirror",
-      "pass": true,
-      "detail": "Complete user brief matches the repository review"
-    },
-    {
-      "check": "Exact fact bindings",
-      "pass": true,
-      "detail": "230 current value/digest checks passed"
-    },
-    {
-      "check": "Registered location parents",
-      "pass": true,
-      "detail": "33 pages bind registered parents; two court pages explicitly explain their recovered-but-unregistered venue"
-    },
-    {
-      "check": "Reference byte identity",
-      "pass": true,
-      "detail": "12 existing principal crops match their source hashes"
+      "detail": "No new art generated, no merge or publication. Future output review is not a backend blocker."
     }
   ],
-  "independent_review": {
-    "art_and_atlas": "Identified stale nested director and weather fields; removed/rebound; present court, rope, household, delivery, birthday and bridge treatment checked.",
-    "sports": "No factual mismatch in selected copy; removed inherited P34/P35merge metadata.",
-    "league": "Confirmed divisioncounts,next-lossproof,history; repaired conditionalguard and historicalsourcebindings."
+  "test_receipt": "../production-evidence/finalization-20261117/tests-green.txt",
+  "current_manifest": "render-inputs/manifest.json",
+  "no_blanket_preproduction_hold": true,
+  "ai_role_review": {
+    "responses": 38,
+    "source_disposition": "../production-evidence/finalization-20261117/review-disposition.json",
+    "unsupported_advice_applied": false
   },
-  "limits": [
-    {
-      "id": "W10-GAP-01",
-      "state": "WAIT_FOR_EVENT",
-      "detail": "All six Week10winners remain UNDECIDED. Final results, official records/seeds, exact player totals and chosen outcome branches wait for the post-MNF refresh."
-    },
-    {
-      "id": "W10-GAP-02",
-      "state": "EXPLICIT_PROPOSAL",
-      "detail": "Forgotten Court is identified in delivered Week7art as Central Basin, but has no registered permanent location ID. Its working set ID and proposed local route spur prevent an anonymous or silently relocated setting."
-    },
-    {
-      "id": "W10-GAP-03",
-      "state": "EXPLICIT_PROPOSAL",
-      "detail": "The river/low-side pitch connection and the new DK rodeo, temple courtyard, service strip and editorial subviews are proposed child staging, not promoted permanent Atlas canon."
-    },
-    {
-      "id": "W10-GAP-04",
-      "state": "CONTINUITY_PRESERVED_BY_FRAMING",
-      "detail": "Chins’s trapped truck and Mud’s bogged racing rig have no verified recovery scene. Neither is magically restored. Family members remain offscreen/contextual until exact references are selected."
-    },
-    {
-      "id": "W10-GAP-05",
-      "state": "WAIT_FOR_REPORT",
-      "detail": "Maye severity, Bowers follow-up, Marks Thursday status, receiver clearances, Tate and other returns, and Minnesota quarterback choice remain qualified. No blanket season-ending claim."
-    },
-    {
-      "id": "W10-GAP-06",
-      "state": "CREATIVE_CANDIDATES",
-      "detail": "Week11GOTW recommendation, local sets, detailed staging, page count and prose remain in Jake’s brainstorming pass. Preparations are concrete; no request for an extra permission round is implied."
-    },
-    {
-      "id": "W10-GAP-07",
-      "state": "FUTURE_ART_STAGE",
-      "detail": "No new raster has been made. Exact reference attachment, native1080×1920geometry, physical action, lettering and390pxreadability must be checked on the actual PNGs when image production begins."
-    },
-    {
-      "id": "W10-GAP-08",
-      "state": "CONDITIONAL_REWORK_ONLY_IF_NEEDED",
-      "detail": "If a revised matchup reverses or ties, its current-leader payoff is not reused. The packet preserves the user’s setting/behavior constraints and marks reblocking before render; no unsupported alternative art is certified."
-    }
-  ],
-  "not_claimed": [
-    "Final sports lock",
-    "Rendered PNG or visual acceptance",
-    "Permanent Atlas promotion",
-    "No remaining conditional work"
-  ]
+  "tests_passed": 26,
+  "max_render_prompt_characters": 19837,
+  "completion_receipt": "../production-evidence/finalization-20261117/FINALIZATION_RECEIPT.json"
 }

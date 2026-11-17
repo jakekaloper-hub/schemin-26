@@ -173,174 +173,33 @@ EXACT FULL PUBLICATION COPY
 
 FACT POLICY
 {
-  "official_winner_decided": false,
-  "source_capture_scope": "CURRENT_PROVISIONAL_PRE_MNF",
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
   "unresolved_numerals": "BLANK_RESERVED_FIELDS",
-  "source_backed_current_values": "May be shown only with CURRENT / PROVISIONAL qualifier; never FINAL",
-  "result_dependent_art": "Forecast branch only until provider winners decided; persistent common beats retained.",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
   "refresh_fields": [
-    {
-      "selector": "/bench_observations/George_Pickens/points",
-      "artifact": "facts.json",
-      "snapshot_value": 44.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
     {
       "selector": "/games/1",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "fact_id": "W10-G02",
-        "scope": "W10_LIVE",
-        "source": "S10",
-        "home": "T02",
-        "away": "T09",
-        "current_score": [
-          136.42,
-          189.08
-        ],
-        "away_lead": 52.66,
-        "provider_winner": "UNDECIDED",
-        "final_winner": null,
-        "remaining_starter_fact_ids": [
-          "W10-MNF-4429615"
-        ],
-        "scheduled_starters_complete": false,
-        "overtake": {
-          "scope": "CONDITIONAL",
-          "team": "T02",
-          "additional_points_strictly_greater_than": 52.66,
-          "equality": "TIE_REQUIRES_PROVIDER_RESOLUTION",
-          "assumptions": [
-            "captured lineup unchanged",
-            "other current scores unchanged except listed remaining starters"
-          ]
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "1a8768dfc567abd0157a36de1b4773b133a71cdf92fcce6b95ccdeadef9cdd0a",
+      "value_location": "facts.json#/games/1",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     },
     {
       "selector": "/historical_context/W10-G02",
       "artifact": "facts.json",
-      "snapshot_value": {
-        "game_id": "W10-G02",
-        "current_team_ids": [
-          2,
-          9
-        ],
-        "current_team_names": [
-          "Red Leopards",
-          "El Niño"
-        ],
-        "title": "The 13–1 season that ended in the semifinal",
-        "anchor_fact_id": "HIST-2022-W16-T02-T09",
-        "public_copy": "In the 2022 Week 16 semifinal, El Niño beat Red Leopards 116.32–97.96 by 18.36. Red had finished the regular season 13–1 as the No.1 seed; El Niño entered 7–7 as the No.5 seed. Niño then won the championship.",
-        "supported_stakes": "Verified semifinal elimination of the No.1 seed; El Niño went on to win the championship.",
-        "creative_use_scope": "This supports a specific championship-run wound, rather than a generic regular-season playoff-push loss. Current Week10 can echo the history only conditionally until the final result locks.",
-        "all_time_h2h": null,
-        "last_meeting_claim": false,
-        "anchor": {
-          "fact_id": "HIST-2022-W16-T02-T09",
-          "season": 2022,
-          "week": 16,
-          "calendar_date": null,
-          "home_team_id": 2,
-          "home_name_as_returned": "Red Leopards",
-          "home_points": 97.96,
-          "away_team_id": 9,
-          "away_name_as_returned": "El Niño",
-          "away_points": 116.32,
-          "winner_team_id": 9,
-          "winner_name_as_returned": "El Niño",
-          "margin": 18.36,
-          "provider_winner": "AWAY",
-          "provider_playoff_tier": "WINNERS_BRACKET",
-          "source_pointer": "/seasons/2022/weeks/16/data/matchups/0",
-          "binding_scope": "same named teams or independently verified current alias",
-          "current_personal_copy_allowed": true
-        },
-        "stakes_facts": {
-          "regular_season_records": {
-            "Red Leopards": "13–1",
-            "El Niño": "7–7"
-          },
-          "playoff_seeds": {
-            "Red Leopards": 1,
-            "El Niño": 5
-          },
-          "verified_final_ranks": {
-            "Red Leopards": 3,
-            "El Niño": 1
-          },
-          "nino_championship_won": true,
-          "outcome_confidence": "explicit",
-          "standings_source_pointer": "/seasons/2022/standings/data/standings",
-          "regular_season_series": [
-            {
-              "fact_id": "HIST-2022-W08-T02-T09",
-              "red_points": 192.2,
-              "nino_points": 129.55,
-              "red_margin": 62.65
-            },
-            {
-              "fact_id": "HIST-2022-W14-T02-T09",
-              "red_points": 142.26,
-              "nino_points": 82.43,
-              "red_margin": 59.83
-            }
-          ],
-          "red_entering_semifinal_played_game_streak": 7,
-          "streak_scope": "Seven consecutive regular-season victories, Weeks8–14; Week15 has no paired opponent for Red. Do not count the unpaired record as a win.",
-          "title_game": {
-            "week": 17,
-            "winner": "El Niño",
-            "winner_points": 111.56,
-            "opponent_name_as_returned": "Where Mahomies at?",
-            "opponent_points": 78.3,
-            "margin": 33.26,
-            "source_pointer": "/seasons/2022/weeks/17/data/matchups/0"
-          },
-          "semifinal_classification_basis": "Two WINNERS_BRACKET pairings in Week16; one title pairing in Week17; explicit final ranks confirm El Niño champion and Red third."
-        }
-      },
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 136.42,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T02/scorers/4362628/2",
-      "artifact": "facts.json",
-      "snapshot_value": 36.1,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/current_points",
-      "artifact": "facts.json",
-      "snapshot_value": 189.08,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4362238/2",
-      "artifact": "facts.json",
-      "snapshot_value": 29.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4379399/2",
-      "artifact": "facts.json",
-      "snapshot_value": 26.5,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
-    },
-    {
-      "selector": "/teams/T09/scorers/4832955/2",
-      "artifact": "facts.json",
-      "snapshot_value": 38.3,
-      "policy": "Rebind from fresh facts before factual acceptance; no image-generated substitutions"
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "06f1078e0df779970feb563c2efb925254b7218f942544453a2500115f54842a",
+      "value_location": "facts.json#/historical_context/W10-G02",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
-  ]
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
 }
 
 REFERENCE IMAGES
