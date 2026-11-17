@@ -22,7 +22,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
       vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
@@ -45,7 +45,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
+      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
       vec2 wetlandUv = vUv + uFlow * uTime;
       float meander=sin(wetlandUv.y*10.+sin(wetlandUv.x*6.)*.5)*.024;
@@ -71,7 +71,21 @@ export function buildRegionalAssets(THREE, bindings, height) {
       }
       float bankFade=1.-smoothstep(.78,.99,length((vUv-vec2(.5))*2.));
       vec3 rootSheen=vec3(.13,.17,.13)*(rootWake*.68*bankFade);
-      gl_FragColor=vec4(waterTint+lowSheen+quietEddy+rootSheen,.92);
+      // Broken near-bank lapping light, confined to the existing wetland disc.
+      // This is candidate visual depth, not a new shoreline or current record.
+      float bankRadius=length((vUv-vec2(.5))*2.);
+      float bankAngle=atan(vUv.y-.5,vUv.x-.5);
+      float bankWobble=sin(bankAngle*9.+uTime*.31)*.009
+                     +sin(bankAngle*17.-uTime*.20)*.006;
+      float bankCrest=1.-smoothstep(.0,.022,abs(bankRadius-(.90+bankWobble)));
+      float bankBreakup=.45+.55*(.5+.5*sin(bankAngle*13.+uTime*.63));
+      float bankMask=smoothstep(.73,.84,bankRadius)
+                     *(1.-smoothstep(.955,.995,bankRadius));
+      float bankShelf=smoothstep(.79,.95,bankRadius)
+                      *(1.-smoothstep(.965,1.,bankRadius));
+      vec3 contactTint=waterTint*(1.-.055*bankShelf*uBankContact);
+      vec3 contactLight=vec3(.09,.12,.073)*bankCrest*bankBreakup*bankMask*uBankContact;
+      gl_FragColor=vec4(contactTint+lowSheen+quietEddy+rootSheen+contactLight,.92);
       }else if(uPond>.5){
       // Two gently expanding wave trains on the existing pond; no new source hydrology.
       vec2 p=(vUv-vec2(.5))*2.;
