@@ -21,7 +21,7 @@ test('Grazing reflectance is wetland-only, on unchanged source-bound water meshe
   assert.equal(w.material.depthWrite,false);
   assert.equal(w.material.transparent,true);
  }
- assert.ok(a.water.filter(w=>!wet.includes(w)).every(w=>w.material.uniforms.uWetland?.value===0));
+ assert.ok(a.water.filter(w=>!wet.includes(w)).every(w=>(w.material.uniforms.uWetland?.value??0)===0));
  assert.deepEqual(wet.map(w=>[w.mesh.scale.x,w.mesh.scale.y]),[[10.5,8.2],[4.2,4.5]]);
  assert.deepEqual(a.locations.map(l=>l.id),bindings.map(l=>l.id));
  assert.equal(a.worldMutationAllowed,false);
@@ -36,8 +36,8 @@ test('Shader derives bounded grazing reflectance from actual camera angle, not w
  assert.match(shader,/viewToEye=normalize\(cameraPosition-vWorld\)/);
  assert.match(shader,/viewIncidence=clamp\(abs\(viewToEye\.y\),0\.,1\.\)/);
  assert.match(shader,/grazingGain=\.035\+\.21\*pow\(1\.-viewIncidence,2\.\)/);
- assert.match(shader,/reflectedWater=mix\(contactTint,vec3\(\.31,\.41,\.37\),grazingGain\)/);
- assert.match(shader,/gl_FragColor=vec4\(reflectedWater\+lowSheen\+quietEddy\+rootSheen\+contactLight\+channelSheen,\.92\)/);
+ assert.match(shader,/contactTint=mix\(contactTint,vec3\(\.31,\.41,\.37\),grazingGain\)/);
+ assert.match(shader,/gl_FragColor=vec4\(contactTint\+lowSheen\+quietEddy\+rootSheen\+contactLight\+channelSheen,\.92\)/);
  assert.doesNotMatch(shader,/uniform float uStorm|uniform float uWeather|uniform float uRain/i);
  const gain=incidence=>.035+.21*Math.pow(1-Math.min(1,Math.max(0,incidence)),2);
  assert.ok(gain(.1)>gain(.5)&&gain(.5)>gain(.95));

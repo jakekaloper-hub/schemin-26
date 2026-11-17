@@ -103,12 +103,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec3 contactLight=vec3(.09,.12,.073)*bankCrest*bankBreakup*bankMask*uBankContact;
       // Illustrative surface reflectance grows at grazing view angles.
       // Camera-facing tint affects only the EXISTING wetland material branch;
-      // no water boundary, current, weather state, or lighting authority changes.
+      // no water boundary, current, clock input, or lighting authority changes.
       vec3 viewToEye=normalize(cameraPosition-vWorld);
       float viewIncidence=clamp(abs(viewToEye.y),0.,1.);
       float grazingGain=.035+.21*pow(1.-viewIncidence,2.);
-      vec3 reflectedWater=mix(contactTint,vec3(.31,.41,.37),grazingGain);
-      gl_FragColor=vec4(reflectedWater+lowSheen+quietEddy+rootSheen+contactLight+channelSheen,.92);
+      contactTint=mix(contactTint,vec3(.31,.41,.37),grazingGain);
+      gl_FragColor=vec4(contactTint+lowSheen+quietEddy+rootSheen+contactLight+channelSheen,.92);
       }else if(uPond>.5){
       // Two gently expanding wave trains on the existing pond; no new source hydrology.
       vec2 p=(vUv-vec2(.5))*2.;
