@@ -72,7 +72,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec3 pondTint=mix(uColor*.98,uColor*1.02,micro);
       gl_FragColor=vec4(pondTint+vec3(.09,.13,.11)*ripple,.88);
       }else if(uPlunge>.5){
-      // Small moving eddies beneath the EXISTING Temple plunge; not weather or a new waterbody.
+      // Small moving eddies beneath the EXISTING Temple plunge; not a new waterbody.
       vec2 p=(vUv-vec2(.5))*2.;
       float r=length(p*vec2(1.,1.16));
       float moving=sin(r*31.-uTime*2.1+.7*sin(vUv.x*14.+uTime*.35));
