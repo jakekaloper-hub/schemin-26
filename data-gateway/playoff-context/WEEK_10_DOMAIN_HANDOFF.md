@@ -2,7 +2,7 @@
 
 **Scope:** Connect the existing playoff-context capability to existing Memo OS consumers under the established Bullpen and publication authorities.
 
-**Status:** Code and synthetic regression coverage are provided here. Forecast publication remains held. The full routing receipt is retained locally pending approval for disclosure; no external Director acknowledgement or publication approval is claimed.
+**Status:** Code and synthetic regression coverage are provided here. Internal forecast publication remains held. Full routing and source receipts are retained in the protected checkpoint; no external Director acknowledgement or publication approval is claimed.
 
 ## Project assignment
 
@@ -39,7 +39,7 @@ Later issues supply their own page bindings. The adapter checks league, season, 
 
 1. Scout accepts a complete, current source capture and the applicable league rules. The runner verifies cutoff, finality, identity, records, score totals and unstarted remaining fixtures.
 2. Analyst runs the calculation and validation with recorded input, rule and code hashes, trial counts and random seed. Descriptive comparisons, probabilistic estimates and exact proofs retain separate classifications.
-3. The Memo adapter rechecks freshness and identity. While forecast eligibility is false, it passes descriptive fields and removes model probabilities, simulated seed/win distributions and conditional leverage.
+3. The Memo adapter rechecks freshness and identity. It always passes only supported descriptive fields and removes model probabilities, simulated seed/win distributions and conditional leverage; this consumer has no forecast-release mechanism.
 4. Memo Editor selects useful candidates in the existing page contracts. A sampled zero is not an elimination proof, and descriptive schedule effects do not establish skill or causation.
 5. Independent review and the normal Memo production gates control acceptance and release. Passing synthetic tests does not establish predictive accuracy or publication approval. Missing optional analytics leaves the verified Memo production path usable.
 
