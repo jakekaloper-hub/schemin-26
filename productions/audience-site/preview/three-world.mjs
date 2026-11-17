@@ -6,6 +6,15 @@ export function rendererQuality(width,dpr=1){
  if(!Number.isFinite(width)||width<=0||!Number.isFinite(dpr)||dpr<=0)throw Error('INVALID_RENDER_SIZE');
  return {pixelRatio:Math.min(dpr,width<700?1.25:1.5),shadowSize:width<700?1024:2048};
 }
+/** Shadows are cast by static terrain and architecture, not animated water or reeds.
+ * Reuse their depth map while only water/time/weather lighting changes.
+ * The directional sun tracks the horizontal Atlas target with fixed elevation.
+ */
+export function shadowCoverage(c){
+ if(!c||!Array.isArray(c.target)||![c.target[0],c.target[2],c.distance].every(Number.isFinite))throw Error('INVALID_SHADOW_COVERAGE');
+ const span=Math.min(140,Math.max(20,c.distance*.65));
+ return {span,key:JSON.stringify([c.target[0],c.target[2],span])};
+}
 export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeometry,buildRegionalAssets,onContextLost=()=>{}}={}){
  if(!THREE||typeof buildWorldGeometry!=='function'||typeof buildRegionalAssets!=='function')throw Error('RENDERER_DEPENDENCY_REQUIRED');
  const context=canvas.getContext('webgl2',{alpha:false,antialias:true,powerPreference:'low-power'});
@@ -34,9 +43,9 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  #include <colorspace_fragment>
  }`,side:THREE.DoubleSide});
  const oceanGeo=new THREE.PlaneGeometry(800,800,70,70),ocean=new THREE.Mesh(oceanGeo,oceanMaterial);ocean.rotation.x=-Math.PI/2;ocean.position.y=-.4;ocean.name='Moving base water';scene.add(ocean);
- let disposed=false,prepared=false,lastSignature='',frames=0,lastTime=0,lastWidth=0,lastHeight=0;
+ let disposed=false,prepared=false,lastSignature='',lastShadowKey='',frames=0,lastTime=0,lastWidth=0,lastHeight=0;
  const debugExt=context.getExtension('WEBGL_debug_renderer_info');
- const stats={renderer:'three-webgl2',engine:'three@'+THREE.REVISION,locations:bindings.length,regionalLocations:regional.locations.length,geometry:'SOURCE_BOUND_CANDIDATE_NOT_APPROVED',gpuRenderer:debugExt?context.getParameter(debugExt.UNMASKED_RENDERER_WEBGL):'UNAVAILABLE',prepared:false,frames:0,waterTime:0};
+ const stats={renderer:'three-webgl2',engine:'three@'+THREE.REVISION,locations:bindings.length,regionalLocations:regional.locations.length,geometry:'SOURCE_BOUND_CANDIDATE_NOT_APPROVED',gpuRenderer:debugExt?context.getParameter(debugExt.UNMASKED_RENDERER_WEBGL):'UNAVAILABLE',prepared:false,frames:0,waterTime:0,shadowRefreshes:0};
  function setCamera(c){
   const w=Math.max(1,canvas.clientWidth),h=Math.max(1,canvas.clientHeight),aspect=w/h,fit=Math.max(1,1.25/aspect),d=c.distance*(c.distance>100?fit:Math.min(fit,1.25)),t=c.target;
   if(w!==lastWidth||h!==lastHeight){const q=rendererQuality(w,globalThis.devicePixelRatio||1);renderer.setPixelRatio(q.pixelRatio);renderer.setSize(w,h,false);camera.aspect=aspect;camera.updateProjectionMatrix();lastWidth=w;lastHeight=h;}
@@ -48,7 +57,14 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
   if(!Number.isFinite(time)||!Number.isFinite(strength))throw Error('INVALID_RENDER_TIME');
   const signature=JSON.stringify([c,paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight]);if(signature===lastSignature)return;lastSignature=signature;setCamera(c);
   if(!paused)lastTime=time;regional.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
-  const span=Math.min(140,Math.max(20,c.distance*.65));sun.position.set(c.target[0]-95,150,c.target[2]+60);sun.target.position.set(c.target[0],0,c.target[2]);Object.assign(sun.shadow.camera,{left:-span,right:span,top:span,bottom:-span});sun.shadow.camera.updateProjectionMatrix();renderer.shadowMap.needsUpdate=true;sun.intensity=.35+strength*2.15;hemisphere.intensity=.45+strength*.95;scene.background.setRGB(.39+strength*.11,.49+strength*.14,.50+strength*.14);scene.fog.color.copy(scene.background);
+  const {span,key:shadowKey}=shadowCoverage(c);
+  if(shadowKey!==lastShadowKey){
+   sun.position.set(c.target[0]-95,150,c.target[2]+60);sun.target.position.set(c.target[0],0,c.target[2]);
+   Object.assign(sun.shadow.camera,{left:-span,right:span,top:span,bottom:-span});
+   sun.shadow.camera.updateProjectionMatrix();renderer.shadowMap.needsUpdate=true;
+   lastShadowKey=shadowKey;stats.shadowRefreshes++;
+  }
+  sun.intensity=.35+strength*2.15;hemisphere.intensity=.45+strength*.95;scene.background.setRGB(.39+strength*.11,.49+strength*.14,.50+strength*.14);scene.fog.color.copy(scene.background);
   renderer.render(scene,camera);stats.frames=++frames;stats.waterTime=lastTime;stats.triangles=renderer.info.render.triangles;stats.drawCalls=renderer.info.render.calls;stats.memory={...renderer.info.memory};
  }
  function project(p){if(disposed)return null;const v=new THREE.Vector3(...p).project(camera);if(v.z<-1||v.z>1)return null;return {x:(v.x*.5+.5)*canvas.clientWidth,y:(.5-v.y*.5)*canvas.clientHeight,depth:v.z};}
