@@ -38,6 +38,31 @@ unreleased/unknown week → no substitution.
 
 Historical outputs are regression evidence, not current-state defaults or templates to copy verbatim.
 
+## Weekly analytics intake — Week 10 onward
+
+During data verification/freeze, run the existing Data Gateway playoff-context
+runner against the current complete provider capture and record the candidate
+or precise hold. `--memo-output` invokes `playoff_context_adapter.py`; optional
+`--previs` attaches data to existing pages. Source scope/date/hashes and freshness
+travel with it. League/season/page identity and release fields are preserved.
+
+Week 10 uses P27 standings, P28 divisions, P29 scoring form, P30 playoff picture,
+P31 next-week preview and P35 GOTW stakes. Later weeks require their actual page
+bindings. Forecasts currently fail model acceptance, so Memo receives descriptive
+data without probabilities or leverage. Read `week-10/playoff-context/README.md`
+and the analytics acceptance report. Optional analytics cannot block unrelated
+verified content or select GOTW automatically.
+
+The Week 10 packet was generated and checked locally. Authenticated source and
+Memo records are not included in this code-only branch; publication of those
+records requires explicit approval. The runner accepts local input/output paths.
+
+The production follow-up found unreconciled pre-MNF source copy in the existing
+Week 10 inputs. The adapter now reports final sports-copy readiness separately
+from candidate generation. Use `--render-inputs` to inspect the actual requests;
+candidate metadata cannot certify consumption, Fact Lock or final artwork.
+Existing provisional creative preparation remains a separate permitted stage.
+
 
 ## Release-candidate artifact gate (Week 5 learning patch)
 

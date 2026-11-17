@@ -1,0 +1,36 @@
+name: Playoff Context and Memo Consumer CI
+on:
+  push:
+    paths:
+      - 'data-gateway/playoff-context/**'
+      - 'memo-os/playoff_context_adapter.py'
+      - 'memo-os/playoff_context_readiness.py'
+      - 'memo-os/playoff_context_preflight.py'
+      - 'memo-os/tests/test_playoff_context*.py'
+      - 'memo-os/week-10/playoff-context/**'
+      - '.github/workflows/playoff-context-ci.yml'
+  pull_request:
+    paths:
+      - 'data-gateway/playoff-context/**'
+      - 'memo-os/playoff_context_adapter.py'
+      - 'memo-os/playoff_context_readiness.py'
+      - 'memo-os/playoff_context_preflight.py'
+      - 'memo-os/tests/test_playoff_context*.py'
+      - 'memo-os/week-10/playoff-context/**'
+      - '.github/workflows/playoff-context-ci.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  model-and-consumers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Model, seeding, source validation and regression tests
+        working-directory: data-gateway/playoff-context
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Memo consumer preserves editorial and release authority
+        run: python -m unittest discover -s memo-os/tests -p 'test_playoff_context*.py' -v
