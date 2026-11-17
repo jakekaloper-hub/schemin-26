@@ -18,7 +18,7 @@ test('Candidate bank-contact treatment is confined to existing wetland surfaces,
   assert.equal(swamp.material.uniforms.uBankContact.value,.76);
   assert.equal(channel.material.uniforms.uBankContact.value,.42);
   assert.ok(a.water.filter(w=>!['swamp','channel'].includes(w.kind))
-    .every(w=>w.material.uniforms.uBankContact.value===0));
+    .every(w=>(w.material.uniforms.uBankContact?.value??0)===0));
   for(const w of [swamp,channel]){
     assert.equal(w.mesh.geometry.getAttribute('position').count,385);
     assert.equal(w.mesh.geometry.index.count,2160);
