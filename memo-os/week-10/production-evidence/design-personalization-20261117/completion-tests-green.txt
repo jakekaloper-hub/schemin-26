@@ -4,8 +4,10 @@ test_current_archive_has_unambiguous_personalization_pointer (test_composition_p
 test_directive_is_in_actual_request_prompt_and_all_mirrors (test_composition_personalization.CompositionPersonalization.test_directive_is_in_actual_request_prompt_and_all_mirrors) ... ok
 test_fact_body_cast_and_geography_invariance (test_composition_personalization.CompositionPersonalization.test_fact_body_cast_and_geography_invariance) ... ok
 test_omitted_pittsys_book_does_not_acquire_design_or_render_target (test_composition_personalization.CompositionPersonalization.test_omitted_pittsys_book_does_not_acquire_design_or_render_target) ... ok
+test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) ... ok
 test_personalization_is_a_completed_editorial_pass_not_blank_intake (test_composition_personalization.CompositionPersonalization.test_personalization_is_a_completed_editorial_pass_not_blank_intake) ... ok
 test_personalization_pass_covers_six_arcs_and_sixteen_departments (test_composition_personalization.CompositionPersonalization.test_personalization_pass_covers_six_arcs_and_sixteen_departments) ... ok
+test_personalization_reaches_every_consumer_without_candidate_lines (test_composition_personalization.CompositionPersonalization.test_personalization_reaches_every_consumer_without_candidate_lines) ... ok
 test_personalized_performance_notes_reach_all_actual_prompts (test_composition_personalization.CompositionPersonalization.test_personalized_performance_notes_reach_all_actual_prompts) ... ok
 test_proposed_narration_is_not_silently_published (test_composition_personalization.CompositionPersonalization.test_proposed_narration_is_not_silently_published) ... ok
 test_scene_active_fire_is_not_instructed_as_quiet_ended_battle (test_composition_personalization.CompositionPersonalization.test_scene_active_fire_is_not_instructed_as_quiet_ended_battle) ... ok
@@ -38,6 +40,6 @@ test_missing_master_rejected (test_sheet_assembly.AssemblyTests.test_missing_mas
 test_wrong_geometry_rejected (test_sheet_assembly.AssemblyTests.test_wrong_geometry_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 38 tests in 1.297s
+Ran 40 tests in 1.331s
 
 OK

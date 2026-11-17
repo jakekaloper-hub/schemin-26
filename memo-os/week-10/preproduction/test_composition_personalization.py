@@ -92,4 +92,19 @@ class CompositionPersonalization(unittest.TestCase):
   self.assertEqual(d['family'],'kinetic_action')
   self.assertIn('surviving battery',d['protected_subjects'].lower())
 
+ def test_personalization_reaches_every_consumer_without_candidate_lines(self):
+  bs={p['page_id']:p for p in load(P/'illustrated-page-briefs.json')['pages']};fs={p['page_id']:p for p in load(P/'storyboard-folio-plan-pass5.json')['folios']}
+  for pid in self.order:
+   p=self.pages[pid];self.assertEqual(bs[pid]['personalization_direction'],p['personalization_direction']);self.assertEqual(fs[pid]['personalization_direction'],p['personalization_direction'])
+  cards=load(P/'storycards.json')
+  for m in cards['matchups']:
+   group=sorted([p for p in self.pages.values() if p['source_card_id']==m['id']],key=lambda p:p['recommended_reading_position'])
+   for beat,p in zip(m['beats'],group):self.assertEqual(beat['personalization_direction'],p['personalization_direction'])
+  for d in load(P/'director-sequences.json')['pages']+load(P/'landscape-set-bible-pass4.json')['department_landscapes']:
+   self.assertEqual(d['personalization_direction'],self.pages[d['page_id']]['personalization_direction'])
+  candidates=[m['candidate_line']['text'] for m in load(P/'personalization-pass-20261117.json')['matchups']]
+  for pid in self.order:
+   prompt=load(P/'render-inputs'/pid/'request.json')['prompt']
+   for candidate in candidates:self.assertNotIn(candidate,prompt)
+
 if __name__=='__main__':unittest.main(verbosity=2)

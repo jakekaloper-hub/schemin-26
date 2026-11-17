@@ -22,7 +22,7 @@ The source-grounded disposition rejects an additional caption beneath the chase 
 
 ## Source protection and verification
 
-**39 local tests passed.** Checks cover every included page's new direction, all operative mirrors, complete copy, exact final facts, unchanged cast and locations, current image references, optional P32 exclusion, correct final-result tables, and sheet assembly.
+**40 local tests passed in the final completion suite.** Checks cover every included page's new direction, all operative mirrors, complete copy, exact final facts, unchanged cast and locations, current image references, optional P32 exclusion, correct final-result tables, and sheet assembly.
 
 One specific copy defect was repaired: a broad name substitution had changed the original P22 phrase **Red fire crosses the mountain causeway** into **Red Leopards fire**. The original controlling Pass 4 phrase is restored. Every other supplied publication-copy field is hash-equal to the baseline; the facts file, reading order, casts and encounter records are unchanged.
 
@@ -40,3 +40,6 @@ Design instructions: implemented in the current working packet. Personalization:
 - [Validated AI-role responses](validated-role-responses.json)
 - [Source-based dispositions](review-disposition.json)
 - [Local test run](tests-after.txt)
+
+
+Latest completion readback and additional review dispositions: [COMPLETION_REPORT.md](COMPLETION_REPORT.md).
