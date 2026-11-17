@@ -1,0 +1,82 @@
+{
+  "schema_version": "schemin.memo_editorial_review.v1",
+  "reviewed_at": "2026-11-17T17:30:58.114509+00:00",
+  "reviewer": {
+    "kind": "host_assistant_domain_review",
+    "assignment": "Beat Writer / Memo editorial review under existing Bullpen domain organization",
+    "external_director_acknowledgement": false,
+    "artwork_approval_claimed": false
+  },
+  "scope": "Actual page-ready harvest deltas against the finalized current Week 10 production head; PNG generation remains paused.",
+  "editorial_decision": {
+    "changed_pages": [
+      "W10-P28",
+      "W10-P30",
+      "W10-P31"
+    ],
+    "unchanged_checked_pages": [
+      "W10-P27",
+      "W10-P29",
+      "W10-P35"
+    ],
+    "recommended_page_count": 34,
+    "omitted_page": "W10-P32",
+    "new_pages": 0,
+    "reading_order_changed": false,
+    "scene_redesign": false,
+    "forecast_callouts": 1,
+    "all_twelve_povs": "Retain the full structured source packet as the all-team editorial reference. Selected material appears in the existing three pages; do not compress twelve odds/POV rows onto the current landscape-led playoff page."
+  },
+  "preserved_current_work": [
+    "Final Week 10 results, official ESPN seeds and PF values already finalized at 14b1ad0.",
+    "Final P29 scoring-form order, including ObiWan Jacoby fifth, is retained.",
+    "Current P35 records, lineup snapshot, history and bridge preview are retained.",
+    "Current user-approved Week 11 stakes, six fixture home/away identities and P31 row implications are retained.",
+    "All matchup scenes, current character overrides, pass4 landscape choices, pass5 full-folio structure, 34-page sequence and six-sheet grouping are retained.",
+    "Current final_fact_lock evidence remains scoped to its accepted final sports facts; revised claims receive their own evidence review and do not imply final art approval."
+  ],
+  "required_synchronization": [
+    "Bind the selected claims to exact harvested evidence and independent mathematics review in the operative facts source.",
+    "Synchronize actual draft_copy, draft_copy_template and any deterministic fields that mirror these sentences.",
+    "Synchronize storycards, illustrated publication_copy/exact_copy_template, artist prompt copies, director sequence copy, folio-plan copy and actual render-request copy/prompt wherever present.",
+    "Update copy budgets, selected source hashes and consumption receipts for these three pages without redefining the full-issue source snapshot.",
+    "Retain the held Schemin model status. The single TheFFHub callout is a separately attributed external observation.",
+    "Record source/code review as host-agent work and maintain PNG/artwork publication approval as ungranted."
+  ],
+  "continuity_and_source_risks": [
+    {
+      "risk": "Old pre-MNF copies are still available locally.",
+      "resolution": "Use only 14b1ad0 as the starting production authority; P27/P29/P35 need no repeat repair."
+    },
+    {
+      "risk": "Must-win-out is narrower than the real loss-elimination statement if future tied games are allowed.",
+      "resolution": "Selected copy removes the unqualified phrase. Retain only another loss eliminates, or explicitly scope four wins to the no-ties scenario."
+    },
+    {
+      "risk": "A conditional future division route could read as a current award.",
+      "resolution": "Keep the required future wins in the same visible sentence as secures the division."
+    },
+    {
+      "risk": "Simulation percentages could be confused with official seeds or exact qualification.",
+      "resolution": "Keep explicit TheFFHub attribution, date, own-result direction, historical-score method and 10,000-run scope. Leave official table untouched."
+    },
+    {
+      "risk": "A small new callout could overwhelm an already complete folio.",
+      "resolution": "Shorten duplicated P31 narration while retaining user-provided tested stakes; one callout only. Actual phone-scale readability remains an image-stage check, not claimed by this review."
+    },
+    {
+      "risk": "Adding evidence metadata without changing actual production copy repeats the prior consumption gap.",
+      "resolution": "Apply the exact bounded copy to every current consumer mirror and verify equality before handoff."
+    }
+  ],
+  "execution_boundaries": {
+    "shared_repository_modified_by_this_reviewer": false,
+    "png_generated": false,
+    "new_characters": 0,
+    "new_canon": false,
+    "external_messages_sent": false,
+    "final_art_or_publication_approved": false
+  },
+  "original_review_sha256": "b722e25295bb8f8e0739f7b9226459c679b86dbc8866807519cf03d4d06faae1",
+  "scope_note": "Public review summary. Full evidence stays in the protected reviewed source; the current acceptance is the separate final Umpire receipt."
+}

@@ -460,7 +460,7 @@
       "request": "render-inputs/W10-P28/request.json",
       "reference_count": 1,
       "copy_words": 38,
-      "request_sha256": "c4aa97900b8a4f8592172766f52f9ddc94611ec051f8da82bb5cb1602c9291e9"
+      "request_sha256": "df244f477956fb5cffe5de0083a97196660f6bd206dd9e80338f6f32cd905513"
     },
     {
       "page_id": "W10-P29",
@@ -485,8 +485,8 @@
       "characters": [],
       "request": "render-inputs/W10-P30/request.json",
       "reference_count": 1,
-      "copy_words": 47,
-      "request_sha256": "e2b9cbd37471393b32091083dec802c14f5a81f9ec832845ad24fcfca4766316"
+      "copy_words": 50,
+      "request_sha256": "236ae0ccd6a79c753e9c89370f2f189ec58dba0a5f6079f1d9eebee4db620037"
     },
     {
       "page_id": "W10-P31",
@@ -498,8 +498,8 @@
       "characters": [],
       "request": "render-inputs/W10-P31/request.json",
       "reference_count": 1,
-      "copy_words": 87,
-      "request_sha256": "35ecbfceffcc2dbea255f23065ee295a3c47c7305971448105f6e1f205466f7a"
+      "copy_words": 50,
+      "request_sha256": "e820c9425cb7f3b6f943f7e5315c14531c3ba67b1b98f997f3c28ff0aceb3e0a"
     },
     {
       "page_id": "W10-P35",
@@ -535,5 +535,25 @@
   ],
   "source_images_resolved": true,
   "new_art_generated": false,
-  "publication_approved": false
+  "publication_approved": false,
+  "production_gate": {
+    "status": "PREPRODUCTION_REVIEW_PNG_PAUSED",
+    "authority": "Latest user direction: finalize backend and frontend before PNG production; Bullpen leads the existing Week 10 workflow.",
+    "backend_source_ready": true,
+    "image_generation_authorized": false,
+    "image_generation_executed": false,
+    "publication_approved": false,
+    "next_stage": "Bullpen-led review of the existing 34-folio production package; PNG execution remains paused."
+  },
+  "playoff_harvest": {
+    "artifact": "playoff-harvest.json",
+    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+    "selected_pages": [
+      "W10-P28",
+      "W10-P30",
+      "W10-P31"
+    ],
+    "copy_authority": "playoff-harvest-copy.json",
+    "consumption_receipt": "playoff-harvest-consumption.json"
+  }
 }

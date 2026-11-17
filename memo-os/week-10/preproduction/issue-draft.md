@@ -488,7 +488,7 @@ Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burg
 {
   "label": "BURGERS",
   "heading": "D0nkey K0ng has separation",
-  "body": "D0nkey K0ng stands at 6–4. ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8 and must win out to preserve a route."
+  "body": "D0nkey K0ng is 6–4; ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8. Beating ObiWan Jacoby in Week 12 and Three Dreaded Snake in Week 13 secures D0nkey K0ng’s division title."
 }
 ```
 
@@ -504,7 +504,7 @@ Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burg
 {
   "label": "WINGS",
   "heading": "The cushion has narrowed",
-  "body": "Dr. Duckhook and Slob on my Dobb are 6–4. Red Leopards and The Chili Cheesers are both 5–5. One crossover remains before the four meet division rivals again."
+  "body": "Dr. Duckhook and Slob on my Dobb are 6–4; Red Leopards and The Chili Cheesers are 5–5. Red Leopards went 3–0 in the first divisional pass; winning all four remaining games secures Wings."
 }
 ```
 
@@ -587,7 +587,7 @@ THE PLAYOFF ROAD
 
 Seven places. The route narrows.
 
-All twelve teams still have a route, and none has clinched. At 2–8, Mud Dogs can still win Burgers at 6–8 through a specific set of results. A further loss eliminates that possibility and the remaining shared-place route. Four games remain: one crossover, then three divisional rounds.
+All twelve teams still have a route, and none has clinched. Four games remain: one crossover, then three divisional rounds. Nine wins guarantees a berth; eight alone does not. A 6–8 finish can give Mud Dogs either a Burgers title or a shared place. Record scenarios assume no tied games.
 
 ```json
 {
@@ -609,7 +609,14 @@ THE NEXT SIX
 
 Week 11 • Head-to-head stakes before the divisional finish
 
-His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.
+Four 6–4 contenders meet in two top-seed contests. The two 4–6 hosts need to close ground on the 5–5 visitors; The LLC needs recovery against Dr. Duckhook. These are not automatic eliminators. Only Mud Dogs is eliminated by a Week 11 loss. Head-to-head can decide ties; three divisional rounds follow.
+
+```json
+{
+  "heading": "BUBBLE SWING · THEFFHUB",
+  "body": "Nov. 17, 2026. Each team’s playoff estimate after its Week 11 win / loss: ObiWan Jacoby 52% / 13%; The Chili Cheesers 58% / 21%. Other games simulated; 10,000 runs from season scores, excluding projections and NFL byes."
+}
+```
 
 ```json
 [

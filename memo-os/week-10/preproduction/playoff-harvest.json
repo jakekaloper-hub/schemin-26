@@ -1,0 +1,832 @@
+{
+  "schema_version": "schemin.week10.playoff_harvest.v1",
+  "packet_id": "S26-W10-PLAYOFF-HARVEST-20261117",
+  "league_id": 1417621,
+  "season": 2026,
+  "through_week": 10,
+  "canonical_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+  "canonical_fact_bundle_binding": "Finalized facts.json checksum before integration; source-version binding, not recursive checksum after adding artifact references.",
+  "source_snapshots": {
+    "canonical_memo_facts": {
+      "source_ref": "S-CANONICAL-FACTS",
+      "captured_at_utc": "2026-11-17T16:30:05.606450+00:00",
+      "scope": "W10_FINAL"
+    },
+    "espn_harvest": {
+      "source_ref": "S-ESPN-HARVEST",
+      "as_of_utc": "2026-11-17T16:59:00Z",
+      "as_of_local": "2026-11-17 11:59 a.m. EST",
+      "scope": "FINAL_THROUGH_WEEK10; WEEK11_UNDECIDED"
+    },
+    "vendor_harvest": {
+      "source_ref": "S-HARVEST",
+      "session_completed_at_utc": "2026-11-17T17:09:28.361Z",
+      "session_completed_local": "2026-11-17 12:09:28 p.m. EST",
+      "scope": "HYPOTHETICAL_W11_TO_W14"
+    }
+  },
+  "rules": {
+    "regular_season_weeks": 14,
+    "playoff_berths": 7,
+    "division_champions": 3,
+    "wildcards": 4,
+    "tiebreaker": "ESPN H2H first; equal positive pairwise meetings required, then PF, divisional record, PA, final random decision; restart after awarding each seed",
+    "league_override_reported": false,
+    "source": "https://support.espn.com/hc/en-us/articles/47190901074708-H2H-Points-League-Playoff-Seeding-Tiebreakers",
+    "provenance": {
+      "league_structure": {
+        "source_ref": "S-CANONICAL-FACTS",
+        "json_pointers": [
+          "/rules",
+          "/divisions"
+        ],
+        "approved_week9_source_ref": "S-APPROVED-WEEK9"
+      },
+      "h2h_setting": {
+        "source_ref": "S-ESPN-HARVEST",
+        "json_pointer": "/league_info/data/schedule/playoffSeedingRule",
+        "observed_value": "H2H_RECORD"
+      },
+      "default_waterfall": {
+        "source_ref": "S-ESPN-H2H-DOC"
+      },
+      "no_current_reported_override": {
+        "source_ref": "S-ESPN-HARVEST",
+        "json_pointer": "/league_info/data/status/isPlayoffMatchupEdited",
+        "observed_value": false
+      }
+    },
+    "limits": [
+      "Fresh league_info does not alone expose all league-specific structure or a complete custom commissioner waterfall.",
+      "Accepted approved Week 9 rules supply division qualification and regular-season length.",
+      "No current reported bracket edit does not prohibit a future commissioner override.",
+      "An official tie must survive the configured weekly matchup tiebreak; equal starting scores alone do not establish a tie."
+    ]
+  },
+  "status": {
+    "alive": 12,
+    "clinched": 0,
+    "eliminated": 0,
+    "only_w11_loss_eliminated_team": "Mud Dogs"
+  },
+  "mathematical_scope": {
+    "remaining_games": 24,
+    "binary_outcome_combinations_examined": 16777216,
+    "future_tied_games_in_enumeration": false,
+    "commissioner_overrides_assumed": false,
+    "enumeration_frequencies_are_probabilities": false,
+    "illustrative_witness_scores_are_predictions": false,
+    "nine_wins_sufficient": true,
+    "eight_wins_alone_sufficient": false,
+    "six_win_qualification_witness_for_every_team": true,
+    "six_wins_minimum_scope": "No universal six-win minimum is asserted; the official-tie witness qualifies Mud at 5–8–1."
+  },
+  "claims": {
+    "all_12_alive_none_clinched": {
+      "claim_id": "all_12_alive_none_clinched",
+      "classification": "EXACT_EXISTENCE_WITNESSES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "After Week 10, all 12 teams still have a playoff path. Nobody has clinched.",
+      "review_reason": "Every team has a complete 24-game qualifying completion and a complete nonqualifying completion. All 24 status witnesses were replayed through the separate existing seeding module. Provider null outcome flags and vendor percentages are not the proof.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "future_ties_scope": "Existence witnesses are valid tie-free completions even when the wider possibility space permits ties. Do not expand this to a forecast or a Week 11 clinching statement.",
+      "source_anchors": [
+        {
+          "json_pointer": "/evidence/qualification_and_nonqualification/team_status",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/finalized_standings",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "Existence witnesses are valid tie-free completions even when the wider possibility space permits ties. Do not expand this to a forecast or a Week 11 clinching statement.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "mud_only_w11_loss_eliminates": {
+      "claim_id": "mud_only_w11_loss_eliminates",
+      "classification": "EXACT_RECORD_PROOF_AND_EXISTENCE_COUNTEREXAMPLES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "Mud Dogs are the only team whose Week 11 loss would end its playoff hopes.",
+      "review_reason": "A Mud loss caps it at five wins. Six other teams already have six. The remaining Red–Chili game forces a seventh team above five winning-equivalent games, even if that game ties. DK already has six, blocking a five-win Burgers title. Each of the other eleven teams has a verified Week 11-loss qualification completion.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "future_ties_scope": "The loss-elimination counting proof remains valid with future ties. The different statement that Mud must win all four is accepted only for the no-future-ties scenario scope.",
+      "additional_safe_copy": "Any further Mud loss eliminates it. With no future ties, Mud must win all four and receive help.",
+      "source_anchors": [
+        {
+          "json_pointer": "/finalized_standings",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/remaining_fixtures",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/evidence/w11_loss_survival",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "The loss-elimination counting proof remains valid with future ties. The different statement that Mud must win all four is accepted only for the no-future-ties scenario scope.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "nine_wins_sufficient": {
+      "claim_id": "nine_wins_sufficient",
+      "classification": "EXACT_ENUMERATION_CONDITIONAL",
+      "disposition": "QUALIFY_NO_FUTURE_TIES",
+      "safe_visible_copy": "With no tied games in the remaining schedule, nine wins guarantee a playoff berth.",
+      "review_reason": "All 16,777,216 binary schedules were enumerated. Every attainable nine-or-ten-win row has record_only_nonguarantee=0, so this result is not merely success under the illustrative 150–100 score assignment.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "future_ties_scope": "Future tied games were not enumerated. Preserve this condition unless independent review extends the proof.",
+      "prohibited_copy": [
+        "Nine wins is the only way in.",
+        "Everyone needs nine wins.",
+        "This is a probability based on 16.8 million simulations."
+      ],
+      "implementation_scope": "This is an exhaustive binary outcome enumeration with a conservative record-only berth bound, not a calibrated forecast. The number of qualifying masks is not a probability.",
+      "source_anchors": [
+        {
+          "json_pointer": "/mathematical_scope",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/evidence/enumeration",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "source_ref": "S-ENUMERATOR",
+          "sha256": "98d451d7df35e5328946b1a338d94b38df26985d448ba52db8c12458442fb70f"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "Conservatively retained as all 16,777,216 binary remaining schedules with no future ties. Umpire supplied a broader counting argument; visible copy retains the narrower scope.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "eight_wins_can_miss": {
+      "claim_id": "eight_wins_can_miss",
+      "classification": "EXACT_COUNTEREXAMPLES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "Eight wins alone do not guarantee a berth—even ObiWan, Snake and LLC can win out and still miss.",
+      "review_reason": "Concrete complete seasons leave each current 4–6 team out at 8–6. ObiWan mask 7189831 and Snake mask 120456 use illustrative 150–100 games. The valid LLC counterexample is mask 12802988, with four LLC wins of 90–85 and all other games 150–100. All three qualification sets independently replayed.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "future_ties_scope": "These tie-free counterexamples remain valid existence claims when ties are possible.",
+      "counterexample_ids": {
+        "ObiWan Jacoby": 7189831,
+        "Three Dreaded Snake": 120456,
+        "The LLC": 12802988
+      },
+      "source_anchors": [
+        {
+          "json_pointer": "/evidence/six_and_eight_win_witnesses/1_miss_with_8_wins",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/evidence/six_and_eight_win_witnesses/6_miss_with_8_wins",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/evidence/llc_win_out_miss",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "These tie-free counterexamples remain valid existence claims when ties are possible.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "dk_two_named_wins_clinch_burgers": {
+      "claim_id": "dk_two_named_wins_clinch_burgers",
+      "classification": "EXACT_RECORD_BOUND",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "DK wins Burgers by beating ObiWan in Week 12 and Snake in Week 13, regardless of its other two results.",
+      "review_reason": "Those two wins put DK at least at eight. Each of ObiWan and Snake then loses one of its four remaining games and can reach at most seven; Mud can reach at most six. No secondary tiebreak is needed.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "future_ties_scope": "Future ties elsewhere cannot raise those opponents above the stated maxima. The two named DK outcomes must be wins.",
+      "prohibited_copy": [
+        "Any two DK wins clinch Burgers.",
+        "DK has already clinched."
+      ],
+      "source_anchors": [
+        {
+          "json_pointer": "/finalized_standings",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/remaining_fixtures",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/remaining_fixtures",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "Future ties elsewhere cannot raise those opponents above the stated maxima. The two named DK outcomes must be wins.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "obi_winout_plus_extra_dk_loss": {
+      "claim_id": "obi_winout_plus_extra_dk_loss",
+      "classification": "EXACT_HEAD_TO_HEAD_ROUTE",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "ObiWan wins Burgers by winning out and getting one more DK loss outside their Week 12 rematch.",
+      "review_reason": "An ObiWan sweep produces eight wins and a 2–0 season record against DK. With one additional loss to HMB, Snake or Mud, DK finishes with at most eight; Snake and Mud cannot reach eight after losing to ObiWan. ObiWan wins the possible two-team tie directly on H2H.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "future_ties_scope": "The named wins and additional DK loss are required. Future ties in other games do not weaken this sufficient route.",
+      "prohibited_copy": [
+        "ObiWan winning out automatically clinches.",
+        "DK must lose to HMB specifically.",
+        "ObiWan has only one possible path."
+      ],
+      "source_anchors": [
+        {
+          "json_pointer": "/finalized_standings",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/completed_game_ledger",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/remaining_fixtures",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "The named wins and additional DK loss are required. Future ties in other games do not weaken this sufficient route.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "red_winout_wings_title": {
+      "claim_id": "red_winout_wings_title",
+      "classification": "EXACT_HEAD_TO_HEAD_ROUTE",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "Red Leopards win Wings by winning their final four games.",
+      "review_reason": "Red already beat all three Wings rivals. Winning out finishes 9–5 and sweeps each 2–0. Slob and Duckhook can then reach at most nine; Chili at most eight. Red wins a two-way or three-way nine-win divisional H2H tie.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "future_ties_scope": "Red must win all four. Future ties elsewhere do not invalidate this sufficient route.",
+      "prohibited_copy": [
+        "Red has already won its division.",
+        "Any three Red wins clinch Wings."
+      ],
+      "source_anchors": [
+        {
+          "json_pointer": "/finalized_standings",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/completed_game_ledger",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/remaining_fixtures",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "Red must win all four. Future ties elsewhere do not invalidate this sufficient route.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "mud_division_and_wildcard_paths": {
+      "claim_id": "mud_division_and_wildcard_paths",
+      "classification": "EXACT_EXISTENCE_WITNESSES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "Mud still has possible routes through either Burgers or a wildcard.",
+      "review_reason": "The division witness ties all Burgers teams at 6–8, with Mud 4–2 in their mini-league. The separate wildcard witness qualifies Mud at 6–8 while DK wins Burgers at 8–6. Thus DK losing out is not necessary for every Mud qualification path.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "prohibited_copy": [
+        "Mud can only qualify by winning Burgers.",
+        "DK must lose out for Mud to qualify."
+      ],
+      "illustrative_scores_are_predictions": false,
+      "source_anchors": [
+        {
+          "json_pointer": "/evidence/qualification_and_nonqualification/mud_division_witness",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/evidence/mud_wildcard",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "Subject to finality, league structure and applicable rule assumptions.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "vendor_w11_estimates": {
+      "claim_id": "vendor_w11_estimates",
+      "classification": "PROBABILISTIC_VENDOR",
+      "disposition": "ACCEPT_AS_ATTRIBUTED_DATED_ESTIMATES",
+      "safe_visible_copy": "TheFFHub estimates ObiWan at about 52% with a Week 11 win or 13% with a loss.",
+      "review_reason": "The packet preserves the displayed 10,000-run vendor output for both outcomes of all six Week 11 games. Each comparison fixes only that result and simulates all other remaining games. Values are from historical score averages/variation; the vendor excludes player projections and NFL byes.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "attribution": "TheFFHub historical-score simulations; captured November 17, 2026, session completed 12:09:28 p.m. EST.",
+      "rendering_guidance": "Use about/estimated and whole percentages or one decimal in visible copy. Keep full displayed values and exact selected outcomes in evidence. Use percentage points for win/loss differences. Mud should be described as near zero in this run rather than rounding it into mathematical elimination.",
+      "baseline_anchor": "Use run 1 baseline for baseline_pct throughout the team POVs. Run 20 baseline_restored is a separate random rerun, not a later change in league circumstances.",
+      "model_limitations": [
+        "No exposed reproducibility seed in the harvested packet.",
+        "Run-to-run sampling variation is visible between the two baseline captures.",
+        "The vendor seeding algorithm was not independently certified by operating its UI.",
+        "These rates are not the separate Schemin forecast and are not official ESPN qualification probabilities."
+      ],
+      "prohibited_copy": [
+        "100% means clinched.",
+        "0% means eliminated.",
+        "TheFFHub is our validated Schemin forecast.",
+        "A tiny cross-run change proves a specific rooting interest."
+      ],
+      "source_anchors": [
+        {
+          "json_pointer": "/vendor_experiment/settings",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/vendor_experiment/runs/1",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/vendor_experiment/runs/2",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/team_povs",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "Subject to finality, league structure and applicable rule assumptions.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "vendor_100_is_not_clinch": {
+      "claim_id": "vendor_100_is_not_clinch",
+      "classification": "EXACT_COUNTEREXAMPLE_VERSUS_VENDOR_ESTIMATE",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "safe_visible_copy": "TheFFHub showed 100% for an LLC sweep; a legal 8–6 miss still exists.",
+      "review_reason": "The captured WIN_OUT_The LLC run displayed 100. Its finite simulation did not establish a universal guarantee. The independently replayed full score-and-result counterexample leaves LLC out at 8–6.",
+      "assumptions": [
+        "Finalized Week 10 results in the declared 2026-11-17 11:59 a.m. EST snapshot remain unchanged.",
+        "The league retains 14 regular-season weeks, seven berths, three automatic division winners and four wildcards.",
+        "The observed H2H_RECORD setting and documented ESPN H2H eligibility/default waterfall apply; no unreported commissioner override is assumed."
+      ],
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "editorial_priority": "Optional methodology example; prefer the simple eight-wins-do-not-guarantee claim when page space is limited.",
+      "source_anchors": [
+        {
+          "json_pointer": "/vendor_experiment/runs/15",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/evidence/llc_win_out_miss",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "production_disposition": "ACCEPTED_CANDIDATE_WITH_STATED_SCOPE",
+      "independent_acceptance_scope": "Relevant initial Umpire scope review is available; final integrated-copy acceptance remains pending.",
+      "proof_scope": "Subject to finality, league structure and applicable rule assumptions.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "mud_official_tie_survival": {
+      "claim_id": "mud_official_tie_survival",
+      "classification": "EXACT_EXISTENCE_COUNTEREXAMPLE",
+      "production_disposition": "ACCEPTED_NARROWLY_AS_SCOPE_CONTROL",
+      "safe_visible_copy": "An official tie can preserve a Mud Dogs path; a loss cannot.",
+      "proof_scope": "Specific Mud 5–8–1 wildcard completion containing three official ties after every weekly tie rule. Existence only; not a forecast or a claim that every tie preserves a path.",
+      "source_anchors": [
+        {
+          "json_pointer": "/evidence/mud_tie_survival_counterexample",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-UMPIRE-REVIEW",
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "recommended_visible_use": "Prefer any-loss-eliminates for concise public stakes; retain this witness as a scope guardrail.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    },
+    "w11_obi_chili_vendor_split": {
+      "claim_id": "w11_obi_chili_vendor_split",
+      "classification": "PROBABILISTIC_VENDOR",
+      "production_disposition": "ACCEPTED_AS_ATTRIBUTED_DATED_ESTIMATES",
+      "safe_visible_copy": "TheFFHub estimates: ObiWan 52% with a Week 11 win, 13% with a loss; Chili 58% with a win, 21% with a loss.",
+      "proof_scope": "Two unseeded 10,000-run historical-score simulations fixing opposite results of this Week 11 game. Other games remain simulated. No clinching implication.",
+      "source_anchors": [
+        {
+          "json_pointer": "/vendor_experiment/runs/1",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        },
+        {
+          "json_pointer": "/vendor_experiment/runs/2",
+          "source_ref": "S-PROTECTED-INTEGRATION",
+          "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+          "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d"
+        }
+      ],
+      "source_review_ref": "S-SCOUT-ANALYST-REVIEW",
+      "raw_percentages": {
+        "ObiWan Jacoby": {
+          "if_win": 51.68,
+          "if_loss": 13.38,
+          "difference_percentage_points": 38.3
+        },
+        "The Chili Cheesers": {
+          "if_win": 58.17,
+          "if_loss": 21.09,
+          "difference_percentage_points": 37.08
+        }
+      },
+      "run_ids": [
+        "FFH-W10-R02",
+        "FFH-W10-R03"
+      ],
+      "attribution": "TheFFHub historical-score simulations, November 17, 2026; excludes player projections and NFL byes.",
+      "publication_acceptance": "Preproduction source review only. Integrated-copy acceptance is recorded in the execution report; actual artwork and publication acceptance remain pending.",
+      "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+    }
+  },
+  "page_claims": {
+    "W10-P28": [
+      "dk_two_named_wins_clinch_burgers",
+      "red_winout_wings_title"
+    ],
+    "W10-P30": [
+      "all_12_alive_none_clinched",
+      "nine_wins_sufficient",
+      "eight_wins_can_miss",
+      "mud_only_w11_loss_eliminates",
+      "mud_division_and_wildcard_paths"
+    ],
+    "W10-P31": [
+      "mud_only_w11_loss_eliminates",
+      "w11_obi_chili_vendor_split"
+    ]
+  },
+  "page_claims_scope": "Accepted Memo placement: P28 division routes; P30 status, thresholds and Mud survival; P31 six existing fixtures with one paired vendor callout. playoff-harvest-copy.json is visible copy authority.",
+  "validation": {
+    "canonical_finalized_standings_reconciled": true,
+    "team_count": 12,
+    "completed_game_count": 60,
+    "remaining_fixture_count": 24,
+    "retained_tie_free_witnesses": 60,
+    "additional_official_tie_counterexample": 1,
+    "prior_domain_replay_count": 60,
+    "prior_domain_replay_mismatches": 0,
+    "failed_search_trial_omitted": true,
+    "raw_vendor_runs": 20,
+    "hypothetical_vendor_scenarios": 18,
+    "baseline_vendor_captures": 2,
+    "full_binary_outcomes_examined": 16777216,
+    "binary_frequencies_are_probabilities": false,
+    "independent_integrated_witness_entries_replayed": 61,
+    "independent_integrated_witness_qualification_set_mismatches": 0,
+    "witness_count_scope": "60 stored tie-free witness entries, including the separately retained Mud division example, plus one official-tie counterexample. Counts describe retained entries, not unique schedules or probabilities."
+  },
+  "limitations": [
+    "TheFFHub results are unseeded 10,000-run historical-score simulations and vary across runs.",
+    "TheFFHub says it excludes projections and byes; these are not roster-aware forecasts.",
+    "TheFFHub table ordering is probability order; official ESPN seed is separately supplied.",
+    "Zero and 100 percent simulations do not establish mathematical elimination or clinching.",
+    "All other games remain simulated in each single-result test.",
+    "Multiple fixed-winner scenarios condition the site simulation on the named outcomes; they do not assert those outcomes will happen.",
+    "Exact completion examples establish possibility only; enumeration counts are not likelihoods.",
+    "Existing approved league qualification format and fresh H2H setting are assumed; future commissioner changes would require reanalysis.",
+    "A required Mud 4–0 applies only when remaining games have winners; an official-tie qualification counterexample is retained.",
+    "Nine-win public claims retain conservative no-future-ties scope.",
+    "Canonical Memo, ESPN harvest and vendor capture times are separate.",
+    "No unrelated personal, roster or medical data is copied from canonical facts."
+  ],
+  "production_state": {
+    "artwork_generation_allowed": false,
+    "artwork_generated": false,
+    "publication_approved": false,
+    "independent_integration_acceptance": "SEE_REQUIRED_UMPIRE_ACCEPTANCE_RECEIPT",
+    "final_visible_copy_authority": "playoff-harvest-copy.json plus existing Memo review",
+    "new_pages_required": false,
+    "selected_pages": [
+      "W10-P28",
+      "W10-P30",
+      "W10-P31"
+    ],
+    "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json",
+    "source_storage": "PROTECTED_FULL_SOURCE_WITH_COMPACT_PUBLIC_RECEIPT"
+  },
+  "receipt_kind": "PUBLIC_SELECTED_CLAIM_AND_SOURCE_RECEIPT",
+  "created_at_utc": "2026-11-17T17:39:53.080240+00:00",
+  "protected_artifact": {
+    "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+    "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "storage": "Protected artifact outside public repository",
+    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source."
+  },
+  "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json",
+  "source_library": {
+    "S-CANONICAL-FACTS": {
+      "repository_path": "memo-os/week-10/preproduction/facts.json",
+      "sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+      "packet_id": "S26-W10-FINAL-FACTS-20261117",
+      "binding_role": "Finalized pre-integration fact bundle; checksum is before adding this harvest."
+    },
+    "S-HARVEST": {
+      "original_filename": "Schemin_26_Week_10_Playoff_Scenarios.json",
+      "sha256": "4277a19a6940ff3b8000beee072a1567c7843075fca04770c59ff49d67930f86",
+      "binding_role": "Original private raw harvest. Selected publication values are in this receipt; complete reviewed source is retained in the protected artifact."
+    },
+    "S-ESPN-HARVEST": {
+      "original_filename": "playoff_fresh_evidence.json",
+      "sha256": "7a480527d17b8a3d88b910f5cf4beb31d0919473c1bf65227797f8759c0bc809",
+      "binding_role": "Schemin-only final Week 10 and future fixture receipt."
+    },
+    "S-SCOUT-ANALYST-REVIEW": {
+      "original_filename": "scout_analyst_review.json",
+      "sha256": "31ab8cbea7e38fde766a924bfe550e6806fe02af1207593be28dedf6f1a34873",
+      "binding_role": "Executed host-agent review; no external Director acknowledgement."
+    },
+    "S-UMPIRE-REVIEW": {
+      "original_filename": "umpire_initial_review.json",
+      "sha256": "15d94abb71d4334b7c52bea98ea7d21a1c57cf5385db4783f2513d67af54b445",
+      "binding_role": "Executed initial independent scope review; final diff acceptance pending."
+    },
+    "S-ENUMERATOR": {
+      "original_filename": "exact_playoff_enum.cpp",
+      "sha256": "98d451d7df35e5328946b1a338d94b38df26985d448ba52db8c12458442fb70f",
+      "run_count": 16777216,
+      "protected_artifact_pointer": "/evidence/binary_enumerator_source",
+      "protected_source_ref": "S-PROTECTED-INTEGRATION"
+    },
+    "S-APPROVED-WEEK9": {
+      "kind": "APPROVED_WEEK9_MEMO_VISUAL",
+      "title": "Week 9 Shareable_v2 PDF",
+      "physical_pages": [
+        28,
+        29
+      ],
+      "sha256": "6af7cfd3e69310fed6508e678ed0def9baf84b41d1db83776b0b0cd3b7ccef7d"
+    },
+    "S-ESPN-H2H-DOC": {
+      "url": "https://support.espn.com/hc/en-us/articles/47190901074708-H2H-Points-League-Playoff-Seeding-Tiebreakers",
+      "binding_role": "Platform default semantics, not certification of custom league settings."
+    },
+    "S-PROTECTED-INTEGRATION": {
+      "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "storage": "Protected artifact outside public repository",
+      "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source."
+    }
+  },
+  "vendor_experiment": {
+    "source_url": "https://theffhub.com/",
+    "classification": "PROBABILISTIC_VENDOR",
+    "own_forecast_model": false,
+    "captured_session_completed_at": "2026-11-17T17:09:28.361Z",
+    "settings": {
+      "site": "ESPN",
+      "playoff_tiebreaker": "Head to Head",
+      "playoff_berths": 7,
+      "simulation_count": 10000,
+      "inputs": "Historical season scores; team averages and standard deviations",
+      "excludes": "Player projections and NFL byes"
+    },
+    "selected_runs": [
+      {
+        "run_id": "FFH-W10-R02",
+        "run_index": 2,
+        "name": "W11_ObiWan_beats_Chili",
+        "fixedResults": [
+          {
+            "week": 11,
+            "winner": "ObiWan Jacoby",
+            "loser": "The Chili Cheesers",
+            "winner_id": 1,
+            "loser_id": 7
+          }
+        ],
+        "totals": {
+          "ObiWan Jacoby": 51.68,
+          "The Chili Cheesers": 21.09
+        },
+        "classification": "PROBABILISTIC_VENDOR",
+        "source_ref": "S-PROTECTED-INTEGRATION",
+        "protected_json_pointer": "/vendor_experiment/runs/1"
+      },
+      {
+        "run_id": "FFH-W10-R03",
+        "run_index": 3,
+        "name": "W11_Chili_beats_ObiWan",
+        "fixedResults": [
+          {
+            "week": 11,
+            "winner": "The Chili Cheesers",
+            "loser": "ObiWan Jacoby",
+            "winner_id": 7,
+            "loser_id": 1
+          }
+        ],
+        "totals": {
+          "ObiWan Jacoby": 13.38,
+          "The Chili Cheesers": 58.17
+        },
+        "classification": "PROBABILISTIC_VENDOR",
+        "source_ref": "S-PROTECTED-INTEGRATION",
+        "protected_json_pointer": "/vendor_experiment/runs/2"
+      }
+    ],
+    "selected_baseline": {
+      "run_id": "FFH-W10-R01",
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_json_pointer": "/vendor_experiment/runs/0"
+    },
+    "restored_baseline": {
+      "run_id": "FFH-W10-R20",
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_json_pointer": "/vendor_experiment/runs/19",
+      "interpretation": "Separate stochastic draw; not week-over-week change."
+    },
+    "complete_capture_count": 20,
+    "hypothetical_scenario_count": 18,
+    "baseline_capture_count": 2,
+    "raw_tables_in_public_receipt": false,
+    "complete_runs_source_ref": "S-PROTECTED-INTEGRATION"
+  },
+  "retained_counts": {
+    "team_povs": 12,
+    "completed_games": 60,
+    "remaining_fixtures": 24,
+    "vendor_captures": 20,
+    "hypothetical_vendor_scenarios": 18,
+    "baseline_captures": 2,
+    "tie_free_witness_entries": 60,
+    "official_tie_witness_entries": 1,
+    "total_witness_entries": 61,
+    "witness_count_scope": "Retained entries, not unique schedules or probabilities."
+  },
+  "proof_evidence_index": {
+    "enumeration": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/enumeration"
+    },
+    "qualification_and_nonqualification": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/qualification_and_nonqualification"
+    },
+    "six_and_eight_win_witnesses": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/six_and_eight_win_witnesses"
+    },
+    "llc_win_out_miss": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/llc_win_out_miss"
+    },
+    "mud_wildcard": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/mud_wildcard"
+    },
+    "w11_loss_survival": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/w11_loss_survival"
+    },
+    "mud_tie_survival_counterexample": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/mud_tie_survival_counterexample"
+    },
+    "binary_enumerator_source": {
+      "source_ref": "S-PROTECTED-INTEGRATION",
+      "protected_artifact_filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "protected_artifact_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+      "json_pointer": "/evidence/binary_enumerator_source"
+    }
+  },
+  "acceptance_boundary": "Vendor estimates and independently verified exact claims use the FFHUB_INTAKE_CONTRACT and native Memo source/proof path. They are not released or relabeled by the descriptive-only playoff_context_adapter.",
+  "publication_payload_scope": "Only selected claim explanations, premises, source hashes and the two-team Week 11 estimates are exposed here. Full source observations, all team POV bodies, raw tables and complete proofs remain in the protected artifact."
+}

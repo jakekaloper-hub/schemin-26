@@ -1,0 +1,105 @@
+{
+  "schema_version": "schemin.ffhub_page_consumption.v1",
+  "baseline_commit": "0343047b23b37a814340cafbcc7f830ebfe91919",
+  "scope": "Separate accepted TheFFHub/exact-proof intake; not the descriptive-only Schemin analytics adapter.",
+  "source_receipt": {
+    "artifact": "playoff-harvest.json",
+    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722"
+  },
+  "protected_source": {
+    "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+    "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "storage": "Protected artifact outside public repository",
+    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source."
+  },
+  "canonical_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+  "copy_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(',', ':')",
+  "pages": [
+    {
+      "page_id": "W10-P27",
+      "disposition": "REFERENCE_ONLY",
+      "copy_pointer": "issue-previs.json#/pages/26/draft_copy",
+      "copy_sha256": "6b9f6475b7055c7af163b0b9818c80f2bceb6d18a3d886ab42cf56eef0ed0abd",
+      "request": "render-inputs/W10-P27/request.json",
+      "request_sha256": "51546a5c568b4c7e8972c81e9f171f70b1ecd64214b36d5f50d4a3c95322f0f5",
+      "claim_ids": [],
+      "supports_existing_copy_claims": []
+    },
+    {
+      "page_id": "W10-P28",
+      "disposition": "SELECTED_CHANGE",
+      "copy_pointer": "issue-previs.json#/pages/27/draft_copy",
+      "copy_sha256": "f3182860c6b899ea7d2257b87f078d755439620e125cff1377561590581e1760",
+      "request": "render-inputs/W10-P28/request.json",
+      "request_sha256": "df244f477956fb5cffe5de0083a97196660f6bd206dd9e80338f6f32cd905513",
+      "claim_ids": [
+        "dk_two_named_wins_clinch_burgers",
+        "red_winout_wings_title"
+      ],
+      "supports_existing_copy_claims": []
+    },
+    {
+      "page_id": "W10-P29",
+      "disposition": "NO_MATERIAL_CANDIDATE",
+      "copy_pointer": "issue-previs.json#/pages/28/draft_copy",
+      "copy_sha256": "de31275a64b4f44364ebc3c8d36ab79dfac5567d6fb8d0fa640c09812eaac4a1",
+      "request": "render-inputs/W10-P29/request.json",
+      "request_sha256": "96a094e9d316edafe7a16a3ae27ca72b019ed476025611c108e39f2673070285",
+      "claim_ids": [],
+      "supports_existing_copy_claims": []
+    },
+    {
+      "page_id": "W10-P30",
+      "disposition": "SELECTED_CHANGE",
+      "copy_pointer": "issue-previs.json#/pages/29/draft_copy",
+      "copy_sha256": "9adc025ff077443f0428a32617e7351625a0f32c2284dd3e4809c759ffb09df9",
+      "request": "render-inputs/W10-P30/request.json",
+      "request_sha256": "236ae0ccd6a79c753e9c89370f2f189ec58dba0a5f6079f1d9eebee4db620037",
+      "claim_ids": [
+        "all_12_alive_none_clinched",
+        "nine_wins_sufficient",
+        "eight_wins_can_miss",
+        "mud_only_w11_loss_eliminates",
+        "mud_division_and_wildcard_paths"
+      ],
+      "supports_existing_copy_claims": [
+        "all_12_alive_none_clinched",
+        "mud_only_w11_loss_eliminates"
+      ]
+    },
+    {
+      "page_id": "W10-P31",
+      "disposition": "SELECTED_CHANGE",
+      "copy_pointer": "issue-previs.json#/pages/30/draft_copy",
+      "copy_sha256": "a76f75b8d77bd3f8743145c76971e343b62aaad9faf82416aaf7195c3f7af82c",
+      "request": "render-inputs/W10-P31/request.json",
+      "request_sha256": "e820c9425cb7f3b6f943f7e5315c14531c3ba67b1b98f997f3c28ff0aceb3e0a",
+      "claim_ids": [
+        "mud_only_w11_loss_eliminates",
+        "w11_obi_chili_vendor_split"
+      ],
+      "supports_existing_copy_claims": [
+        "mud_only_w11_loss_eliminates"
+      ]
+    },
+    {
+      "page_id": "W10-P35",
+      "disposition": "REFERENCE_ONLY",
+      "copy_pointer": "issue-previs.json#/pages/34/draft_copy",
+      "copy_sha256": "0446c86ebbb088b7da38f12c83228f5ed338cf486421d9eb700c95efdba6f864",
+      "request": "render-inputs/W10-P35/request.json",
+      "request_sha256": "9444b9817d6b4ef8ec984a3c62b0fef92766750c063c95e3fa8194abe4567fdc",
+      "claim_ids": [],
+      "supports_existing_copy_claims": []
+    }
+  ],
+  "production_gate": {
+    "status": "PREPRODUCTION_REVIEW_PNG_PAUSED",
+    "authority": "Latest user direction: finalize backend and frontend before PNG production; Bullpen leads the existing Week 10 workflow.",
+    "backend_source_ready": true,
+    "image_generation_authorized": false,
+    "image_generation_executed": false,
+    "publication_approved": false,
+    "next_stage": "Bullpen-led review of the existing 34-folio production package; PNG execution remains paused."
+  }
+}
