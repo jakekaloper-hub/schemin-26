@@ -59,6 +59,12 @@ python memo-os/playoff_context_preflight.py \
 A nonzero result holds consumption of that additional packet. The command does
 not undo the production branch's separately accepted final facts/proofs or
 approve artwork. It uses current time and has no historical-time override.
+It validates typed source identities and page bindings, allows only supported
+descriptive source metrics, and screens their selected copy pointers. Matching
+absent identities, invalid binding purposes, or forecast fields under generic
+display labels cannot establish acceptance. Native proof text and unselected
+prompt instructions remain under their separate Memo review path; the default
+full readiness audit retains its broader copy and prompt checks.
 `run_weekly.py` remains an evidence generator whose successful exit is not a
 final production approval. See the subsystem README for its source/diagnostic
 commands and freshness requirements.

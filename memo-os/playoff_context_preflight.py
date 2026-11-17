@@ -53,7 +53,8 @@ def check_inputs(packet_path, previs_path, render_inputs_path):
     readiness = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(readiness)
     result = readiness.audit_memo_readiness(
-        packet, previs=previs, render_requests=requests, now=datetime.now(timezone.utc))
+        packet, previs=previs, render_requests=requests, now=datetime.now(timezone.utc),
+        audit_scope='SELECTED_ANALYTICS')
     if packet.get('evaluation_mode') != 'CURRENT_CAPTURE':
         result['issues'].append({'code': 'NONCURRENT_ANALYTICS_PACKET',
             'detail': 'Historical replay or unspecified packet mode cannot clear current additional-analytics intake.'})
@@ -65,6 +66,8 @@ def check_inputs(packet_path, previs_path, render_inputs_path):
         'scope': 'ADDITIONAL_ANALYTICS_CONSUMPTION_ONLY',
         'status': 'PASS' if passed else 'HOLD',
         'native_memo_production': 'NOT_EVALUATED_OR_OVERRIDDEN',
+        'claim_screening_scope': result['claim_screening_scope'],
+        'claim_screening_limit': 'Only selected analytics copy pointers are screened. Native claims and unselected prompt instructions retain their own acceptance path.',
         'checked_at': result['checked_at'],
         'source_as_of': packet.get('source_as_of'),
         'packet_sha256': packet_hash, 'previs_sha256': previs_hash,

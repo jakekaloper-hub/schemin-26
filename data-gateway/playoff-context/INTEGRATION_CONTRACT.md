@@ -6,14 +6,21 @@
 exercised on finalized Week 10 data. Global forecast activation remains held.
 `run_weekly.py --memo-output` invokes `memo-os/playoff_context_adapter.py`;
 optional previs input produces existing page attachments. The adapter rechecks
-freshness and league/season/page identity and removes model forecast fields
-while `editorial_probability_eligible` is false. See `ACCEPTANCE_REPORT.md`.
+freshness and league/season/page identity and always emits only supported
+descriptive fields. This Memo consumer has no forecast-release mechanism;
+changing `editorial_probability_eligible` cannot enable one. See
+`ACCEPTANCE_REPORT.md`.
 
 ## Core authority
 
 Data Gateway owns the normalized, freshness-valid league-state snapshot. Playoff Context owns derived postseason analytics only.
 
 ## Consumer boundaries
+
+The scopes below describe each consumer's permitted responsibility; they do
+not activate the held internal forecast model. Any future forecast use needs
+its own accepted evidence and consumer gate. Actual FFHub manual estimates and
+independently verified native proofs retain separate provenance and acceptance.
 
 ### Weekly Memo OS
 May consume HIGH-priority editorial candidates after result lock. Memo OS retains page architecture, voice, story hierarchy and publication authority. Analytics annotations must remain optional.

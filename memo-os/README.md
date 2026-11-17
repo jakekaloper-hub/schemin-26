@@ -57,11 +57,14 @@ The Week 10 packet was generated and checked locally. Authenticated source and
 Memo records are not included in this code-only branch; publication of those
 records requires explicit approval. The runner accepts local input/output paths.
 
-The production follow-up found unreconciled pre-MNF source copy in the existing
-Week 10 inputs. The adapter now reports final sports-copy readiness separately
-from candidate generation. Use `--render-inputs` to inspect the actual requests;
-candidate metadata cannot certify consumption, Fact Lock or final artwork.
-Existing provisional creative preparation remains a separate permitted stage.
+The earlier production audit found unreconciled pre-MNF copy at PR #315
+`96bf06f`. Later finalization at `14b1ad0` resolved the native issue's source and
+copy work; that historical audit does not reopen current accepted production.
+The adapter retains a full source/copy boundary review, while
+`playoff_context_preflight.py` checks explicitly selected additional analytics.
+Use actual previs and render inputs; a candidate attachment does not certify
+consumption, Fact Lock or final artwork. Existing native proof and production
+acceptance remain under Memo authority.
 
 
 ## Release-candidate artifact gate (Week 5 learning patch)

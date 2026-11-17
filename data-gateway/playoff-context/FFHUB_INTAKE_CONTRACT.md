@@ -69,6 +69,10 @@ For additional Schemin descriptive values, use
 `memo-os/playoff_context_preflight.py` with the explicit packet, operative previs
 and render-input directory. Its result concerns consumption of that packet;
 it does not revoke a separate accepted production source/proof workflow.
+The CLI checks selected descriptive source/copy pointers and the corresponding
+copy/render mirrors. Native claims and unselected prompt instructions retain
+their existing review path. The full readiness audit remains available to
+adapter and independent-review callers; the selected-value CLI does not replace it.
 
 Week 10's retained artifact names and current production linkage are in
 `memo-os/week-10/playoff-context/README.md`.

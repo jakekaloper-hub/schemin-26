@@ -260,6 +260,146 @@ class PlayoffReadinessTests(unittest.TestCase):
         requests[PAGE] = sync_page(page, packet)
         self.assertEqual(self.audit(packet, previs, requests)['issues'], [])
 
+    def test_selected_scope_does_not_weaken_default_full_copy_review(self):
+        packet, previs, requests = fixture()
+        page = previs['pages'][0]
+        page['draft_copy']['body'] = 'Team Alpha has clinched the single qualification place.'
+        requests[PAGE] = sync_page(page, packet)
+        self.assertIn('UNACCEPTED_EXACT_CLAIM', self.codes(self.audit(packet, previs, requests)))
+        selected = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+        self.assertEqual(selected['issues'], [])
+        self.assertEqual(selected['claim_screening_scope'], 'SELECTED_ANALYTICS_COPY_POINTERS')
+
+    def test_selected_identity_text_cannot_smuggle_forecast_or_exact_claims(self):
+        for text, code in [('Team Alpha has clinched.', 'UNACCEPTED_EXACT_CLAIM'),
+                           ('90 percent playoff chance', 'HELD_FORECAST_IN_VISIBLE_COPY')]:
+            with self.subTest(text=text):
+                packet, previs, requests = fixture()
+                packet['page_bindings'][PAGE]['purpose'] = 'scoring_form'
+                packet['teams']['1']['name'] = text
+                page = previs['pages'][0]
+                page['draft_copy']['selected_value'] = text
+                page['analytics_consumption']['metric_bindings'] = [{
+                    'source_pointer': '/teams/1/name', 'copy_pointer': '/selected_value'}]
+                requests[PAGE] = sync_page(page, packet)
+                result = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+                self.assertIn(code, self.codes(result))
+
+    def test_known_structured_forecasts_are_held_in_full_review(self):
+        for field in ('seed_probability', 'division_title_probability'):
+            with self.subTest(field=field):
+                packet, previs, requests = fixture()
+                page = previs['pages'][0]
+                page['draft_copy'][field] = {'1': .9}
+                requests[PAGE] = sync_page(page, packet)
+                self.assertIn('HELD_FORECAST_IN_VISIBLE_COPY', self.codes(self.audit(packet, previs, requests)))
+
+    def test_selected_source_types_and_nested_record_shape_are_enforced(self):
+        for field, value in [('scoring_average', True),
+                             ('all_play', {'wins': 1, 'losses': 0, 'ties': 0, 'playoff_probability': .9})]:
+            with self.subTest(field=field):
+                packet, previs, requests = fixture()
+                packet['teams']['1'][field] = value
+                page = previs['pages'][0]
+                page['draft_copy']['selected_value'] = value
+                page['analytics_consumption']['metric_bindings'] = [{
+                    'source_pointer': '/teams/1/' + field, 'copy_pointer': '/selected_value'}]
+                requests[PAGE] = sync_page(page, packet)
+                result = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+                self.assertIn('INVALID_METRIC_BINDING', self.codes(result))
+
+    def test_json_boolean_cannot_stand_in_for_a_numeric_seed(self):
+        packet, previs, requests = fixture()
+        page = previs['pages'][0]
+        page['draft_copy']['rows'][0]['seed'] = True
+        page['analytics_consumption']['metric_bindings'] = [{
+            'source_pointer': '/teams/1/provider_seed', 'copy_pointer': '/rows/0/seed'}]
+        requests[PAGE] = sync_page(page, packet)
+        codes = self.codes(self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS'))
+        self.assertIn('STANDINGS_VALUE_DIFFERS_FROM_SOURCE', codes)
+        self.assertIn('COPY_VALUE_DIFFERS_FROM_SOURCE', codes)
+
+    def test_selected_scope_leaves_native_prompt_claim_review_explicit(self):
+        packet, previs, requests = fixture()
+        page = previs['pages'][0]
+        prompt = page['candidate_render_prompt'] + '\nPRINT FOOTNOTE: Team Alpha has clinched.'
+        page['candidate_render_prompt'] = page['illustrated_page_brief']['artist_prompt'] = prompt
+        requests[PAGE]['prompt'] = prompt
+        self.assertIn('OUTSIDE_COPY_CLAIM_REVIEW_REQUIRED', self.codes(self.audit(packet, previs, requests)))
+        selected = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+        self.assertEqual(selected['issues'], [])
+        self.assertEqual(len(selected['review_notes']), 1)
+        self.assertIn('unselected prompt instructions are not evaluated', selected['scope'])
+
+    def test_archived_revision_prose_is_not_current_selected_source_authority(self):
+        packet, previs, requests = fixture()
+        previs['creative_revision'] = {'sports_status': 'Archived pre-MNF pass: outcomes UNDECIDED.'}
+        self.assertIn('PROVISIONAL_SPORTS_STATE', self.codes(self.audit(packet, previs, requests)))
+        selected = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+        self.assertEqual(selected['issues'], [])
+        self.assertEqual(selected['review_notes'][0]['code'], 'LEGACY_SPORTS_REVISION_CONTEXT')
+        requests[PAGE]['sports_policy']['official_winner_decided'] = False
+        self.assertIn('RENDER_SPORTS_STILL_PROVISIONAL', self.codes(
+            self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')))
+
+    def test_noncanonical_copy_pointers_cannot_evade_selected_claim_screening(self):
+        for pointer, draft in [('/selected~2value', {'selected~2value': 'Team Alpha has clinched.'}),
+                               ('/selected/00', {'selected': ['Team Alpha has clinched.']})]:
+            with self.subTest(pointer=pointer):
+                packet, previs, requests = fixture()
+                packet['page_bindings'][PAGE]['purpose'] = 'scoring_form'
+                packet['teams']['1']['name'] = 'Team Alpha has clinched.'
+                page = previs['pages'][0]
+                page['draft_copy'].update(draft)
+                page['analytics_consumption']['metric_bindings'] = [{
+                    'source_pointer': '/teams/1/name', 'copy_pointer': pointer}]
+                requests[PAGE] = sync_page(page, packet)
+                result = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+                self.assertIn('INVALID_METRIC_BINDING', self.codes(result))
+
+    def test_valid_escaped_copy_keys_still_receive_selected_claim_screening(self):
+        packet, previs, requests = fixture()
+        packet['page_bindings'][PAGE]['purpose'] = 'scoring_form'
+        packet['teams']['1']['name'] = 'Team Alpha has clinched.'
+        page = previs['pages'][0]
+        page['draft_copy']['selected/value~'] = packet['teams']['1']['name']
+        page['analytics_consumption']['metric_bindings'] = [{
+            'source_pointer': '/teams/1/name', 'copy_pointer': '/selected~1value~0'}]
+        requests[PAGE] = sync_page(page, packet)
+        result = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+        self.assertNotIn('INVALID_METRIC_BINDING', self.codes(result))
+        self.assertIn('UNACCEPTED_EXACT_CLAIM', self.codes(result))
+
+    def test_source_receipt_identity_types_must_match_the_accepted_packet(self):
+        for key in ('season', 'through_week'):
+            with self.subTest(key=key):
+                packet, previs, requests = fixture()
+                previs['sports_source'][key] = float(previs['sports_source'][key])
+                result = self.audit(packet, previs, requests, audit_scope='SELECTED_ANALYTICS')
+                self.assertIn('PREVIS_SOURCE_MISMATCH', self.codes(result))
+
+    def test_known_purpose_label_cannot_disable_existing_standings_row_checks(self):
+        for scope in ('FULL_ISSUE', 'SELECTED_ANALYTICS'):
+            with self.subTest(scope=scope):
+                packet, previs, requests = fixture()
+                packet['page_bindings'][PAGE]['purpose'] = 'scoring_form'
+                page = previs['pages'][0]
+                page['draft_copy']['rows'][1]['points_for'] = '999.99'
+                requests[PAGE] = sync_page(page, packet)
+                result = self.audit(packet, previs, requests, audit_scope=scope)
+                self.assertIn('STANDINGS_VALUE_DIFFERS_FROM_SOURCE', self.codes(result))
+
+    def test_scoring_form_row_shape_does_not_imply_official_standings(self):
+        for scope in ('FULL_ISSUE', 'SELECTED_ANALYTICS'):
+            with self.subTest(scope=scope):
+                packet, previs, requests = fixture()
+                packet['page_bindings'][PAGE]['purpose'] = 'scoring_form'
+                page = previs['pages'][0]
+                page['draft_copy']['rows'] = [{'rank': 1, 'team': 'Team Alpha', 'index': 99.0}]
+                page['analytics_consumption'].update(decision='NO_MATERIAL_CANDIDATE', metric_bindings=[])
+                requests[PAGE] = sync_page(page, packet)
+                self.assertEqual(self.audit(packet, previs, requests, audit_scope=scope)['issues'], [])
+
 
 if __name__ == '__main__':
     unittest.main()
