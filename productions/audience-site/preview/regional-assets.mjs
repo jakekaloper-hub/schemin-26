@@ -194,12 +194,54 @@ export function buildRegionalAssets(THREE, bindings, height) {
     o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['cypress-like wetlands','raised ground'],navigable:false,routeIds:[]};
     o.castShadow=false;o.receiveShadow=false;
   }
+  function wetlandRaisedGround(g,islands){
+    // Source: permanent Mud Dogs raised ground and Southern Wetlands mudflats.
+    // Only the pre-existing FOUR local illustrative island footprints are sculpted;
+    // this creates no canonical shoreline, path, travel route or new waterway.
+    const sides=28,radii=[.27,.53,.77,.955],heights=[.88,.73,.36,-.12];
+    const positions=[],colors=[],islandIds=[],faces=[];
+    const strata=['#697456','#626952','#555844','#393e35'].map(v=>new THREE.Color(v));
+    islands.forEach(([cx,cy,cz,sx,sy,sz],island)=>{
+      const start=positions.length/3;
+      function vertex(x,y,z,color){positions.push(x,y,z);colors.push(color.r,color.g,color.b);islandIds.push(island);}
+      vertex(cx,cy+sy*(1.03+.035*Math.sin(island*3.3)),cz,strata[0]);
+      for(let r=0;r<radii.length;r++)for(let i=0;i<sides;i++){
+        const theta=i*2*Math.PI/sides;
+        const jostle=1+Math.sin(theta*5+island*1.4)*.038+Math.sin(theta*9-island*.8)*.021;
+        const radial=radii[r]*jostle;
+        const yVariation=(Math.sin(theta*4+island*.7)*.046+Math.cos(theta*7-island*1.2)*.029)*(1-r*.20);
+        const elevation=cy+sy*(heights[r]+yVariation);
+        const tint=strata[r].clone().multiplyScalar(.90+.095*(.5+.5*Math.sin(theta*8+island+r)));
+        vertex(cx+Math.cos(theta)*sx*radial,elevation,cz+Math.sin(theta)*sz*radial,tint);
+      }
+      for(let i=0;i<sides;i++)faces.push(start,start+1+i,start+1+(i+1)%sides);
+      for(let r=0;r<radii.length-1;r++)for(let i=0;i<sides;i++){
+        const a=start+1+r*sides+i,b=start+1+r*sides+(i+1)%sides;
+        const c=a+sides,d=b+sides;faces.push(a,c,b,b,c,d);
+      }
+    });
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+    geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+    geo.setAttribute('aIsland',new THREE.Float32BufferAttribute(islandIds,1));
+    geo.setIndex(faces);geo.computeVertexNormals();geo.computeBoundingSphere();
+    // The inherited opaque batcher intentionally omits vertex colors. One
+    // transparent=true/opacity=1 mesh preserves per-vertex sediment strata.
+    const reliefMaterial=new THREE.MeshStandardMaterial({vertexColors:true,roughness:.99,metalness:0,
+      side:THREE.DoubleSide,transparent:true,opacity:1,depthWrite:true});
+    materials.set('candidate-wetland-raised-ground',reliefMaterial);
+    const relief=mesh(g,geo,reliefMaterial,0,0,0);
+    relief.name='Candidate wetland raised-ground relief';
+    relief.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['raised ground','mudflats'],
+      islandCount:islands.length,routeIds:[],navigable:false};
+    relief.renderOrder=1;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
     wetlandShoreline(g);wetlandEmergentVegetation(g);
     const islands=[[1,.1,1,4,1.2,3],[-6,.1,-3,3,.9,2.7],[6,.2,-4,3.5,1,2.8],[-4,.1,5,2.7,.8,2]];
-    for(let a of islands)rock(g,...a,moss);
+    wetlandRaisedGround(g,islands);
     for(let i=0;i<14;i++){
       // Two candidate cypress-like crown profiles break the old flat, repeated tree-disc silhouette.
       // All meshes remain direct children so the existing opaque batching path still applies.
