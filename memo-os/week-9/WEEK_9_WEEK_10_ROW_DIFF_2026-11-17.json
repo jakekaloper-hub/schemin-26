@@ -1,0 +1,307 @@
+{
+  "schema": "schemin26.truth_plane_row_diff.v1",
+  "run_id": "S26-MEMO-W10-20261117",
+  "trace_id": "TRACE-S26-MEMO-20261117-1417621",
+  "work_key": "league=1417621/season=2026/week=10/observation=2026-11-17/source=flaim-espn",
+  "observation_date": "2026-11-17",
+  "league_id": "1417621",
+  "season": 2026,
+  "compared_to": {
+    "path": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-16.json",
+    "ref": "c7c1fc8f4dd4a29dc2b01324e36512a5ced23faa",
+    "pr": 313,
+    "status": "OPEN_DRAFT_REVIEW_BASELINE"
+  },
+  "typed_key": "espn_event_id.kind+':'+espn_event_id.value",
+  "transaction_rows": {
+    "week8": {
+      "previous_count": 32,
+      "current_count": 32,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "prior_snapshot": {
+        "path": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-16.json",
+        "ref": "c7c1fc8f4dd4a29dc2b01324e36512a5ced23faa",
+        "pr": 313
+      }
+    },
+    "week9": {
+      "previous_count": 42,
+      "current_count": 42,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "prior_snapshot": {
+        "path": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-16.json",
+        "ref": "c7c1fc8f4dd4a29dc2b01324e36512a5ced23faa",
+        "pr": 313
+      }
+    },
+    "week10": {
+      "previous_count": 41,
+      "current_count": 41,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "prior_snapshot": {
+        "path": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-16.json",
+        "ref": "c7c1fc8f4dd4a29dc2b01324e36512a5ced23faa",
+        "pr": 313
+      }
+    },
+    "week11": {
+      "previous_count": null,
+      "current_count": 1,
+      "added": [
+        {
+          "transaction_id": "d588fab2-d8a8-46a7-9900-9628e1cf0763",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "d588fab2-d8a8-46a7-9900-9628e1cf0763"
+          },
+          "type": "drop",
+          "status": "complete",
+          "timestamp": 1794908810514,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-17",
+          "week": 11,
+          "provider_scoring_period_id": 11,
+          "team_ids": [
+            "11"
+          ],
+          "players_added": [],
+          "players_dropped": [
+            {
+              "id": "4258620",
+              "name": "Andre Szmyt",
+              "position": "K",
+              "team": "CLE"
+            }
+          ],
+          "faab_bid": 0
+        }
+      ],
+      "removed": [],
+      "modified": [],
+      "prior_snapshot": null
+    }
+  },
+  "week10_matchup_state_changes": [
+    {
+      "home_team_id": 7,
+      "away_team_id": 5,
+      "home": "The Chili Cheesers",
+      "away": "D0nkey K0ng",
+      "old_winner": "UNDECIDED",
+      "new_winner": "AWAY",
+      "old_points": [
+        93.7,
+        156.67
+      ],
+      "new_points": [
+        93.7,
+        156.67
+      ],
+      "margin": 62.97
+    },
+    {
+      "home_team_id": 2,
+      "away_team_id": 9,
+      "home": "Red Leopards",
+      "away": "El Niño",
+      "old_winner": "UNDECIDED",
+      "new_winner": "AWAY",
+      "old_points": [
+        136.42,
+        189.08
+      ],
+      "new_points": [
+        147.82,
+        189.08
+      ],
+      "margin": 41.26
+    },
+    {
+      "home_team_id": 6,
+      "away_team_id": 11,
+      "home": "Three Dreaded Snake",
+      "away": "Seven Deadly Chins",
+      "old_winner": "UNDECIDED",
+      "new_winner": "AWAY",
+      "old_points": [
+        75.78,
+        146.22
+      ],
+      "new_points": [
+        82.78,
+        146.22
+      ],
+      "margin": 63.44
+    },
+    {
+      "home_team_id": 10,
+      "away_team_id": 3,
+      "home": "Mud Dogs",
+      "away": "Slob on my Dobb",
+      "old_winner": "UNDECIDED",
+      "new_winner": "AWAY",
+      "old_points": [
+        113.62,
+        179.29
+      ],
+      "new_points": [
+        113.62,
+        179.29
+      ],
+      "margin": 65.67
+    },
+    {
+      "home_team_id": 12,
+      "away_team_id": 8,
+      "home": "Dr. Duckhook",
+      "away": "His Majesty's Blood",
+      "old_winner": "UNDECIDED",
+      "new_winner": "AWAY",
+      "old_points": [
+        127.67,
+        208.76
+      ],
+      "new_points": [
+        127.67,
+        208.76
+      ],
+      "margin": 81.09
+    },
+    {
+      "home_team_id": 1,
+      "away_team_id": 4,
+      "home": "ObiWan Jacoby",
+      "away": "The LLC",
+      "old_winner": "UNDECIDED",
+      "new_winner": "AWAY",
+      "old_points": [
+        130.33,
+        203.96
+      ],
+      "new_points": [
+        166.53,
+        203.96
+      ],
+      "margin": 37.43
+    }
+  ],
+  "standings_changes": [
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "previous_seed": 7,
+      "current_seed": 1,
+      "previous_record": "5-4",
+      "current_record": "6-4"
+    },
+    {
+      "team_id": 9,
+      "team": "El Niño",
+      "previous_seed": 2,
+      "current_seed": 2,
+      "previous_record": "5-4",
+      "current_record": "6-4"
+    },
+    {
+      "team_id": 5,
+      "team": "D0nkey K0ng",
+      "previous_seed": 3,
+      "current_seed": 3,
+      "previous_record": "5-4",
+      "current_record": "6-4"
+    },
+    {
+      "team_id": 8,
+      "team": "His Majesty's Blood",
+      "previous_seed": 5,
+      "current_seed": 4,
+      "previous_record": "5-4",
+      "current_record": "6-4"
+    },
+    {
+      "team_id": 12,
+      "team": "Dr. Duckhook",
+      "previous_seed": 1,
+      "current_seed": 5,
+      "previous_record": "6-3",
+      "current_record": "6-4"
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "previous_seed": 6,
+      "current_seed": 6,
+      "previous_record": "5-4",
+      "current_record": "6-4"
+    },
+    {
+      "team_id": 2,
+      "team": "Red Leopards",
+      "previous_seed": 4,
+      "current_seed": 7,
+      "previous_record": "5-4",
+      "current_record": "5-5"
+    },
+    {
+      "team_id": 7,
+      "team": "The Chili Cheesers",
+      "previous_seed": 8,
+      "current_seed": 8,
+      "previous_record": "5-4",
+      "current_record": "5-5"
+    },
+    {
+      "team_id": 4,
+      "team": "The LLC",
+      "previous_seed": 11,
+      "current_seed": 9,
+      "previous_record": "3-6",
+      "current_record": "4-6"
+    },
+    {
+      "team_id": 1,
+      "team": "ObiWan Jacoby",
+      "previous_seed": 9,
+      "current_seed": 10,
+      "previous_record": "4-5",
+      "current_record": "4-6"
+    },
+    {
+      "team_id": 6,
+      "team": "Three Dreaded Snake",
+      "previous_seed": 10,
+      "current_seed": 11,
+      "previous_record": "4-5",
+      "current_record": "4-6"
+    },
+    {
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "previous_seed": 12,
+      "current_seed": 12,
+      "previous_record": "2-7",
+      "current_record": "2-8"
+    }
+  ],
+  "week10_status_counts": {
+    "complete": 29,
+    "failed": 7,
+    "pending": 3,
+    "canceled": 2,
+    "unknown": 0
+  },
+  "week11_status_counts": {
+    "complete": 1,
+    "failed": 0,
+    "pending": 0,
+    "canceled": 0,
+    "unknown": 0
+  },
+  "qualification": "Typed provider-normalized ESPN observations; not native ESPN HTTP response evidence. Signed Steward receipt, independent FACT_LOCK and release acceptance absent."
+}
