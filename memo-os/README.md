@@ -57,6 +57,12 @@ The Week 10 packet was generated and checked locally. Authenticated source and
 Memo records are not included in this code-only branch; publication of those
 records requires explicit approval. The runner accepts local input/output paths.
 
+The production follow-up found unreconciled pre-MNF source copy in the existing
+Week 10 inputs. The adapter now reports final sports-copy readiness separately
+from candidate generation. Use `--render-inputs` to inspect the actual requests;
+candidate metadata cannot certify consumption, Fact Lock or final artwork.
+Existing provisional creative preparation remains a separate permitted stage.
+
 
 ## Release-candidate artifact gate (Week 5 learning patch)
 

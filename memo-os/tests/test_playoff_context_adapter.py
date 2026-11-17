@@ -42,6 +42,10 @@ class MemoAdapterTests(unittest.TestCase):
         self.assertEqual(hydrated['pages'][0]['body'], 'Keep approved copy.')
         self.assertIn('analytics_context', hydrated['pages'][0])
         self.assertNotIn('analytics_context', previs['pages'][0])
+        self.assertTrue(packet['copy_change_required'])
+        self.assertEqual(packet['production_readiness']['status'], 'HOLD')
+        self.assertFalse(packet['production_readiness']['consumption_witnessed'])
+        self.assertEqual(hydrated['derived_analytics']['production_readiness'], 'HOLD')
 
     def test_stale_or_wrong_week_attachment_is_rejected(self):
         module = self.adapter()

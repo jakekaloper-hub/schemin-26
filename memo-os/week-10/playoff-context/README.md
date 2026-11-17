@@ -1,7 +1,8 @@
 # Week 10 sports analytics handoff
 
-**Status:** reusable adapter implemented; real Week 10 packet generated and
-independently checked locally; forecast publication held. This public branch
+**Status:** reusable candidate adapter implemented; real Week 10 arithmetic and
+packet preservation checked locally; actual production consumption and source/copy
+reconciliation remain held. Forecast publication is also held. This public branch
 contains code and documentation. The authenticated league capture, detailed run
 receipts and full Memo packet are retained separately pending explicit approval
 to publish those records to the public repository.
@@ -13,12 +14,25 @@ form), P30 (playoff picture), P31 (next-week preview) and P35 (GOTW stakes) from
 PR #315 at `96bf06fb164580e85e7985150e37ac7310e3f088`. It preserves the original
 previs content and release fields. The 34-page budget and omitted P32 remain
 unchanged. No production artwork was modified or approved by this integration.
+Preservation does not certify that the original copy is current: the production
+audit found pre-MNF scores, entering-week standings, stale scoring-form inputs,
+and unaccepted playoff claims in the existing source. Its render builder copies
+that prose and does not consume the added analytics metadata.
 
 The adapter supplies official record/seed observations, scoring averages and
 recent form, weekly all-play, weekly-median comparisons, schedule-neutral win
 equivalents, descriptive schedule effects and remaining opponents' observed
 scoring averages. Definitions travel with every value. Those comparisons
 describe scores and schedules; they do not establish skill or future entitlement.
+
+## Production readiness
+
+Before final sports-page production, reconcile the accepted final facts with
+the operative page selectors, draft copy, embedded artist prompts, illustrated
+briefs and render requests. A generated candidate packet is not a consumption
+receipt. Keep a hold until the exact source, selected values, visible copy and
+render mirrors are bound and checked together. The readiness validator reports
+missing evidence and never authorizes artwork or publication.
 
 ## Forecasts withheld
 

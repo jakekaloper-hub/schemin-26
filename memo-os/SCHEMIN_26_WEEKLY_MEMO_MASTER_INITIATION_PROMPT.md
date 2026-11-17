@@ -332,3 +332,10 @@ scoring/schedule evidence can support existing pages. Forecast percentages and
 conditional leverage remain withheld pending model validation and independent
 acceptance. Preserve qualifiers in page contracts and final copy; official
 standings and exact clinch proofs remain separate.
+
+Before final sports-copy production, inspect the actual previs and render
+requests with the analytics readiness check. Reconcile the accepted final source,
+selected values, copy templates, embedded prompts and render mirrors together.
+Record accepted analytics selections or no-material-candidate decisions. A new
+analytics packet does not update older prose or certify Fact Lock. Keep detected
+source/copy holds explicit while provisional creative preparation continues.

@@ -4,6 +4,7 @@ on:
     paths:
       - 'data-gateway/playoff-context/**'
       - 'memo-os/playoff_context_adapter.py'
+      - 'memo-os/playoff_context_readiness.py'
       - 'memo-os/tests/test_playoff_context*.py'
       - 'memo-os/week-10/playoff-context/**'
       - '.github/workflows/playoff-context-ci.yml'
@@ -11,6 +12,7 @@ on:
     paths:
       - 'data-gateway/playoff-context/**'
       - 'memo-os/playoff_context_adapter.py'
+      - 'memo-os/playoff_context_readiness.py'
       - 'memo-os/tests/test_playoff_context*.py'
       - 'memo-os/week-10/playoff-context/**'
       - '.github/workflows/playoff-context-ci.yml'

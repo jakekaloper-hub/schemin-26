@@ -2,8 +2,16 @@
 
 ## Current disposition — 2026-11-17
 
-**Weekly runner and Memo descriptive consumer: IMPLEMENTED. Forecast publication:
+**Weekly runner and descriptive candidate adapter: IMPLEMENTED. Actual Week 10
+production consumption: HOLD_SOURCE_AND_COPY_RECONCILIATION. Forecast publication:
 HOLD_BASELINE_NOT_BEATEN. Global model activation and Memo release remain held.**
+
+The production audit found that the derived packet preserved the existing
+pre-MNF copy and source selectors, while the current render builder did not
+consume its analytics attachments. Candidate attachment is not completed
+production integration. The verified final report cannot certify older page
+copy, and preservation checks cannot substitute for a source-to-visible-copy
+check. See `WEEK_10_PRODUCTION_AUDIT.md` for the corrected scope.
 
 **Publication scope:** this public branch contains implementation, synthetic
 tests and operating documentation. The real input capture, accepted rules,
@@ -21,13 +29,13 @@ local evaluation; it is not a claim that the underlying receipts are public.
 | G5 Prediction | HOLD: 42 walk-forward predictions scored Brier 0.2669438272 versus 0.25 baseline; log loss 0.7339592157 versus 0.6931471806. No external calibration. |
 | G6 No false certainty | Wilson sampling intervals and separate exact class; Memo strips unaccepted forecast fields. |
 | G7 Editorial | Material candidates capped and effect-ordered; probabilistic callouts withheld from Memo. |
-| G8 Narrative | Six existing Week 10 page contracts hydrated in a derived copy; approved prose and release state preserved. |
+| G8 Narrative | HOLD: six existing page contracts received candidate metadata, but the production renderer does not consume it. Provisional copy, selectors and artist prompts require reconciliation against the accepted final source before final output. |
 | G9 Provenance | Bound capture → diagnostic → run → Memo hashes implemented. |
-| G10 QA | Separate assistant reviewed real arithmetic, source/consumer boundaries and output: 598/598 checks passed. The full review receipt is retained locally; this is not authenticated external Umpire or publication signoff. |
+| G10 QA | Earlier 598/598 local checks covered arithmetic, provenance and preservation. The subsequent production review found stale copy and missing consumption beyond that earlier check scope. Independent production acceptance remains HOLD; no authenticated external Umpire or publication signoff is claimed. |
 
 The complete local evaluation produced a model report, diagnostic report,
 independent review and derived Memo packet. Those records are not committed to
-this public branch. All 64 analytics tests, 10 Memo consumer tests and 30 existing
+this public branch. All 75 analytics tests, 36 Memo consumer/readiness tests and 30 existing
 Data Gateway/Flaim/weekly-receipt contract tests passed using synthetic fixtures.
 The repository workflow `.github/workflows/playoff-context-ci.yml` checks the
 model, source boundaries and actual Memo consumer contract.

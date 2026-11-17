@@ -18,11 +18,17 @@ Default editorial cap: 0–3 notes per issue.
 
 The 2026-11-17 walk-forward diagnostic did not beat the 50/50 matchup baseline.
 Computed forecasts remain Analyst audit evidence; the Memo adapter removes
-their values and conditional-leverage candidates. Descriptive all-play records,
+their values and conditional-leverage candidates unconditionally. An editable
+eligibility field cannot release them; this consumer implements no forecast
+or exact-proof approval mechanism. Descriptive all-play records,
 weekly median comparisons, record-versus-scoring effects and remaining-opponent
 scoring averages remain available as dated candidates. A descriptive schedule
 effect is not proof of manager skill, intent or causation.
 
 Equal-priority eligible candidates are sorted by actual leverage magnitude,
 not incoming fixture order. An exact status must carry the `EXACT` evidence
-class. Final pixel and copy review remain owning Memo gates.
+class in the Analyst report and a separately verified proof before editorial
+use. Memo normalizes unaccepted exact claims to UNKNOWN/UNRESOLVED. Existing
+prose is audited separately: attachment of a filtered packet does not remove
+an older clinch, elimination or probability assertion already in page copy.
+Final pixel and copy review remain owning Memo gates.

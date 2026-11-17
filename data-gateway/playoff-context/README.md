@@ -1,6 +1,6 @@
 # Playoff Context Intelligence Layer V1
 
-**Status:** WEEKLY RUNNER IMPLEMENTED / DESCRIPTIVE MEMO HANDOFF VERIFIED / FORECAST PUBLICATION HOLD
+**Status:** WEEKLY RUNNER IMPLEMENTED / DESCRIPTIVE CANDIDATES VERIFIED / PRODUCTION CONSUMPTION HOLD / FORECAST PUBLICATION HOLD
 
 The local November 17 Week 10 run reconciled the completed season history and
 remaining fixtures. Its walk-forward diagnostic did not beat the 50/50 baseline.
@@ -9,6 +9,12 @@ probability and leverage fields. This branch contains code, synthetic tests and
 operating documentation only. Authenticated inputs, league-specific rule
 evidence, simulation receipts and the full Memo packet are retained separately
 pending explicit approval to publish those records to this public repository.
+
+The production follow-up found that candidate metadata alone does not reach the
+existing renderer, and preserved source copy still contains provisional facts.
+`WEEK_10_PRODUCTION_AUDIT.md` records that gap. Final page production requires a
+separate source-to-copy and render-mirror readiness check; no candidate or test
+result silently closes that gate.
 
 Reusable Schemin analytics capability beneath publication systems. It converts verified league-state snapshots into probabilistic playoff context plus conservative exact W/L-bound proofs, then emits a small editorial-candidate set. It does not publish prose or mutate canon.
 
@@ -64,13 +70,21 @@ python data-gateway/playoff-context/run_weekly.py \
   --validation /path/to/private/model-validation.json \
   --simulations 10000 --include-leverage --leverage-simulations 2000 \
   --output /path/to/private/report.json \
-  --memo-output /path/to/private/MEMO_ANALYTICS_PACKET.json
+  --memo-output /path/to/private/MEMO_ANALYTICS_PACKET.json \
+  --previs /path/to/private/issue-previs.json \
+  --render-inputs /path/to/private/render-inputs
 ```
 
 Optional `--previs <current-issue-previs.json>` attaches candidates to existing
 page contracts without changing approved copy or release state. The locally
 verified Week 10 packet used PR #315 at `96bf06fb164580e85e7985150e37ac7310e3f088`.
 Later issues supply their own page bindings; Week 10 numbering is not inferred.
+
+`--render-inputs` is optional and reads the existing per-page `request.json`
+files without editing them. The Memo packet always includes a production
+readiness result. Missing requests, unreconciled final sources, stale copy,
+unselected analytics and mismatched prompts remain explicit holds. A verified
+source/copy/render boundary still does not approve artwork or publication.
 
 The 24-hour freshness SLO is recomputed at consumption. Reproduce an old run
 using its recorded evaluation timestamp with `--as-of` in both commands;

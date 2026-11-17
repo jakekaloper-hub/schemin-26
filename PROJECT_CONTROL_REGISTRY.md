@@ -137,6 +137,10 @@ descriptive adapter now execute on finalized inputs. Forecast publication stays
 held after the model's walk-forward check failed its baseline comparison. See
 `data-gateway/playoff-context/ACCEPTANCE_REPORT.md` and
 `memo-os/week-10/playoff-context/README.md`; no broad model activation is implied.
+The follow-up production audit also holds final sports-copy consumption until
+the operative page sources, selected values and render requests are reconciled.
+See `data-gateway/playoff-context/WEEK_10_PRODUCTION_AUDIT.md`; a candidate packet
+is not evidence that production copy consumed its data.
 
 Read:
 - `data-gateway/playoff-context/README.md`
