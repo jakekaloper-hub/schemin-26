@@ -17,7 +17,7 @@ def compact_fact_bindings(fields):
  """Keep full snapshots in the fact ledger, not in an image-generation prompt."""
  return [{k:deepcopy(v) for k,v in f.items() if k!='snapshot_value'} | {
   'snapshot_sha256':hashlib.sha256(json.dumps(f.get('snapshot_value'),ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest(),
-  'value_location':'facts.json#'+f['selector'],
+  'value_location':f.get('artifact','facts.json')+'#'+f['selector'],
   'source_scope':'See source field scope; exact visible values are already in publication_copy'
  } for f in fields]
 
@@ -229,4 +229,9 @@ for id in order:
  briefmd+=['## '+id+' — '+p['title'],'',bs[id]['artist_prompt'],'']
  f=fs[id];planmd+=['## '+str(order.index(id)+1)+' · '+id+' — '+p['title'],'',p['camera_and_composition'],'','Personalization focus: '+p['personalization_direction']['focus'],'','Visual shot sequence: '+p['visual_storytelling']['structure'],'','Scene-led reading path: '+p['composition_direction']['reading_path'],'','Narration placement: '+p['composition_direction']['narration_placement'],'','Cast: '+(', '.join(by[x]['current_display_name'] for x in p['characters_present']) or 'No invented principal character'),'','Full copy:','',c['body'],'','Input: `render-inputs/'+id+'/request.json`','']
 (P/'issue-draft.md').write_text('\n'.join(md));(P/'illustrated-page-briefs.md').write_text('\n'.join(briefmd));(P/'storyboard-folio-plan-pass5.md').write_text('\n'.join(planmd))
+# Preserve the accepted playoff supplement and latest production hold when
+# this full-folio rebuild is intentionally invoked again.
+if (P/'playoff-harvest.json').exists():
+ from integrate_playoff_harvest import synchronize
+ synchronize(P)
 print(json.dumps({'page_requests':len(manifest),'canonical_crops_verified':len(asset_receipts),'reference_image_occurrences':sum(x['reference_count'] for x in manifest),'full_narratives':len(manifest),'new_images_generated':0,'output':'render-inputs/manifest.json'},indent=2))

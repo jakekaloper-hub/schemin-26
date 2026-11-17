@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "user_request": "call bullpen to handle for this and actually execture this for our week 10 memo's workflow",
+  "canonical_runtime_source": "/workspace/scratch/997ddc4a49c2/bullpen-command-readonly",
+  "canonical_source_receipt": {
+    "repository": "jakekaloper-hub/bullpen",
+    "commit": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source": "authenticated GitHub connector; exact source verified against pinned recursive git tree",
+    "git_tree_truncated": false,
+    "source_files": [
+      {
+        "path": "core/org/directorOrg.js",
+        "git_blob_sha": "43759c4c1cb0bc4b8ac3e4affe49dd1bb62a7c2e",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/core/org/directorOrg.js"
+      },
+      {
+        "path": "core/directors/portableProfiles.js",
+        "git_blob_sha": "1a94a9ec7bca3af739d0292cc4ae7fe36f377e0b",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/core/directors/portableProfiles.js"
+      },
+      {
+        "path": "core/directors/counterweights.js",
+        "git_blob_sha": "f8bdf151ef32c7fae9e820157eff207e5815dfa2",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/core/directors/counterweights.js"
+      },
+      {
+        "path": "runtime/intentCompiler.js",
+        "git_blob_sha": "1e84206b612262c0a95c8390699c026696ea46cf",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/runtime/intentCompiler.js"
+      },
+      {
+        "path": "runtime/router.js",
+        "git_blob_sha": "af63a3cba910bb39e1444e9d47c8c9da12fb2a31",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/runtime/router.js"
+      },
+      {
+        "path": "runtime/taskOrientation.js",
+        "git_blob_sha": "f81756cb6d076da26438d865d2708625d4c25cfd",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/runtime/taskOrientation.js"
+      },
+      {
+        "path": "runtime/commandRegistry.js",
+        "git_blob_sha": "f1aea183040dd169264c466654a4fe3b7c7b867e",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/runtime/commandRegistry.js"
+      },
+      {
+        "path": "runtime/counterweights.js",
+        "git_blob_sha": "50b1b758c6e2d074e1a417a42b3d9e369612c9bc",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/runtime/counterweights.js"
+      },
+      {
+        "path": "core/directors/worldSystem.js",
+        "git_blob_sha": "bfaff24fd3ca0c16723c14e683fbd53c9bb7377c",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/core/directors/worldSystem.js"
+      },
+      {
+        "path": "runtime/executionControl.js",
+        "git_blob_sha": "a328622da2970a58f4d1d7469ad890b888189344",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/runtime/executionControl.js"
+      },
+      {
+        "path": "knowledge/TASK_ORIENTATION_MATRIX.json",
+        "git_blob_sha": "e047acb3c93b425b2e00bb89d14cc47a06e3ec48",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/knowledge/TASK_ORIENTATION_MATRIX.json"
+      },
+      {
+        "path": "world/hq/director-world/BULLPEN_DIRECTOR_RELATIONSHIP_GRAPH_V1.json",
+        "git_blob_sha": "9307f987f3b0a5ea926e6253d422e67b7c8339a2",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/world/hq/director-world/BULLPEN_DIRECTOR_RELATIONSHIP_GRAPH_V1.json"
+      },
+      {
+        "path": "world/hq/director-world/BULLPEN_DIRECTOR_BEHAVIOR_REGISTRY_V1.json",
+        "git_blob_sha": "4ed534730d795895669a07ad3ddeb9af81842ade",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/world/hq/director-world/BULLPEN_DIRECTOR_BEHAVIOR_REGISTRY_V1.json"
+      },
+      {
+        "path": "world/hq/director-world/BULLPEN_DIRECTOR_WORKSPACE_AFFINITY_V1.json",
+        "git_blob_sha": "746a6927c22abc924d94408157ee31c06f339997",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/world/hq/director-world/BULLPEN_DIRECTOR_WORKSPACE_AFFINITY_V1.json"
+      },
+      {
+        "path": "world/hq/director-world/BULLPEN_DIRECTOR_MOVEMENT_PATTERNS_V1.json",
+        "git_blob_sha": "4c646fed977271518d28d4a2257a8c0c6aa4a90c",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/world/hq/director-world/BULLPEN_DIRECTOR_MOVEMENT_PATTERNS_V1.json"
+      },
+      {
+        "path": "world/hq/director-world/BULLPEN_DIRECTOR_GROUP_COMPOSITION_V1.json",
+        "git_blob_sha": "c52d3ad9ce14430736f3dc0a9b18151718545dc8",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/world/hq/director-world/BULLPEN_DIRECTOR_GROUP_COMPOSITION_V1.json"
+      },
+      {
+        "path": "world/hq/director-world/BULLPEN_HQ_OPERATING_STATE_V1.json",
+        "git_blob_sha": "81f3396bf1e14de0cbe1a48ef6d476c6fef345e7",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/world/hq/director-world/BULLPEN_HQ_OPERATING_STATE_V1.json"
+      },
+      {
+        "path": "world/hq/BULLPEN_VISUAL_SCENE_REGISTER_V1.json",
+        "git_blob_sha": "b67d9d2327c15a002fd5807b3f39a18c0b6b7677",
+        "source_url": "https://github.com/jakekaloper-hub/bullpen/blob/main/world/hq/BULLPEN_VISUAL_SCENE_REGISTER_V1.json"
+      }
+    ]
+  },
+  "routes": [
+    {
+      "scope": "analytics",
+      "task": "Evaluate accuracy and calibration of playoff metrics, exact scenario evaluation, and vendor estimates for Schemin Week 10; review data quality and source freshness.",
+      "primary": "the_scout",
+      "secondary": [
+        "the_analyst",
+        "the_librarian"
+      ],
+      "counterweight_plan": {
+        "primary": "the_scout",
+        "activated": true,
+        "edge": "provenance-first evidence quality",
+        "failure_mode": "analysis paralysis and waiting for evidence that may never become complete",
+        "counterweights": [
+          "the_closer",
+          "the_analyst"
+        ],
+        "trigger_reasons": [],
+        "challenge_questions": [
+          "Would more evidence realistically change the action?",
+          "What is known, uncertain, stale, or contradictory?",
+          "Can we make a bounded decision at the current confidence level?"
+        ],
+        "preflight": [
+          "label provenance, freshness, completeness, contradictions, and confidence"
+        ],
+        "during": [
+          "continue research only when expected information value can materially change the decision"
+        ],
+        "postflight": [
+          "compare later evidence with the original bounded decision"
+        ],
+        "tension": {
+          "id": "speed_certainty",
+          "name": "Decision Confidence Protocol",
+          "principle": "State urgency, reversibility, evidence confidence, and remaining uncertainty."
+        }
+      },
+      "confidence": 1,
+      "fallback_used": false
+    },
+    {
+      "scope": "editorial",
+      "task": "Review narrative, writing and creative quality of the accepted Week 10 memo additions against evidence and the existing issue.",
+      "primary": "the_beat_writer",
+      "secondary": [],
+      "counterweight_plan": {
+        "primary": "the_beat_writer",
+        "activated": true,
+        "edge": "truth-preserving narrative quality",
+        "failure_mode": "narrative coherence becoming stronger than evidentiary truth",
+        "counterweights": [
+          "the_scout",
+          "the_librarian"
+        ],
+        "trigger_reasons": [],
+        "challenge_questions": [
+          "What is the verified event spine?",
+          "Which statements are interpretation rather than fact?",
+          "Did creative framing alter causality or history?"
+        ],
+        "preflight": [
+          "build the fact spine before prose"
+        ],
+        "during": [
+          "keep creative framing subordinate to the event spine"
+        ],
+        "postflight": [
+          "reconcile narrative claims against evidence and provenance"
+        ],
+        "tension": {
+          "id": "story_truth",
+          "name": "Claim Provenance",
+          "principle": "Every meaningful factual claim must know where it came from."
+        }
+      },
+      "confidence": 0.8333333333333334,
+      "fallback_used": false
+    },
+    {
+      "scope": "implementation",
+      "task": "Implement repository code changes, source bindings and regression tests for Week 10; preserve the existing production workflow and paused PNG stage.",
+      "primary": "the_architect",
+      "secondary": [
+        "the_gm",
+        "the_setup_man"
+      ],
+      "counterweight_plan": {
+        "primary": "the_architect",
+        "activated": true,
+        "edge": "modular, test-driven engineering quality",
+        "failure_mode": "engineering elegance becoming an objective independent of business value",
+        "counterweights": [
+          "the_setup_man",
+          "the_gm"
+        ],
+        "trigger_reasons": [
+          "material_trigger:implement",
+          "material_trigger:production"
+        ],
+        "challenge_questions": [
+          "What observed failure justifies this complexity or refactor?",
+          "What future work is actually blocked?",
+          "What is the cost of leaving this debt alone?"
+        ],
+        "preflight": [
+          "state observed pain, incident history, blocked work, maintenance burden, remediation cost, and cost of inaction"
+        ],
+        "during": [
+          "use the smallest structural intervention that resolves the identified problem"
+        ],
+        "postflight": [
+          "verify complexity reduction, incidents prevented, development velocity, and regressions"
+        ],
+        "tension": {
+          "id": "quality_complexity",
+          "name": "Complexity Warrant",
+          "principle": "No material complexity increase without an identified failure, opportunity, or measurable quality gain."
+        }
+      },
+      "confidence": 0.3333333333333333,
+      "fallback_used": false
+    },
+    {
+      "scope": "acceptance",
+      "task": "Independently review completion evidence, domain authority and acceptance policy for the scoped Week 10 integration.",
+      "primary": "the_umpire",
+      "secondary": [
+        "the_warden"
+      ],
+      "counterweight_plan": {
+        "primary": "the_umpire",
+        "activated": true,
+        "edge": "evidence-bound governance",
+        "failure_mode": "rigid governance and compliance theater",
+        "counterweights": [
+          "the_architect",
+          "the_closer"
+        ],
+        "trigger_reasons": [],
+        "challenge_questions": [
+          "Which material failure does this control prevent or detect?",
+          "Can this be machine-enforced instead of documented?",
+          "Is this the minimum effective governance?"
+        ],
+        "preflight": [
+          "classify severity, blast radius, likelihood, and enforceability"
+        ],
+        "during": [
+          "prefer machine constraint, automated test, mandatory review, then documentation"
+        ],
+        "postflight": [
+          "retire or revise controls that neither prevent nor detect material failure"
+        ],
+        "tension": {
+          "id": "speed_certainty",
+          "name": "Decision Confidence Protocol",
+          "principle": "State urgency, reversibility, evidence confidence, and remaining uncertainty."
+        }
+      },
+      "confidence": 0.5,
+      "fallback_used": false
+    }
+  ],
+  "execution_disclosure": "Canonical routing was executed. Routing is not consultation. Separate named host-subagent reviews and the root implementation supply executed work; no external human director acknowledgement is claimed.",
+  "authority": "Bullpen owns domain decisions and leads production under the user direction.",
+  "scope": "Existing Schemin PR315 and Bullpen mission154. Three existing folios; PNG execution paused; no merge or publication.",
+  "initial_keyword_routes": [
+    {
+      "scope": "analytics",
+      "task": "Review playoff scenarios, probabilities, standings, tiebreakers, and statistical claims for Schemin-26 Week 10.",
+      "primary": "the_closer",
+      "secondary": [],
+      "counterweight_plan": {
+        "primary": "the_closer",
+        "activated": true,
+        "edge": "decisive cross-domain synthesis",
+        "failure_mode": "premature closure, manufactured consensus, central decision bottleneck",
+        "counterweights": [
+          "the_analyst",
+          "the_umpire"
+        ],
+        "trigger_reasons": [],
+        "challenge_questions": [
+          "Is a decision actually required now?",
+          "What material dissent or uncertainty remains?",
+          "What evidence would cause this decision to be reopened?"
+        ],
+        "preflight": [
+          "classify urgency and reversibility",
+          "surface material dissent",
+          "estimate information value of waiting"
+        ],
+        "during": [
+          "preserve competing authoritative views",
+          "state why one course is selected without erasing dissent"
+        ],
+        "postflight": [
+          "record decision, dissent, confidence, assumptions, and reopening conditions"
+        ],
+        "tension": {
+          "id": "speed_certainty",
+          "name": "Decision Confidence Protocol",
+          "principle": "State urgency, reversibility, evidence confidence, and remaining uncertainty."
+        }
+      },
+      "confidence": 0.25,
+      "fallback_used": true
+    },
+    {
+      "scope": "editorial",
+      "task": "Review memo narrative and editorial copy for the existing Schemin-26 Week 10 issue, with source-backed division and playoff implications.",
+      "primary": "the_beat_writer",
+      "secondary": [],
+      "counterweight_plan": {
+        "primary": "the_beat_writer",
+        "activated": true,
+        "edge": "truth-preserving narrative quality",
+        "failure_mode": "narrative coherence becoming stronger than evidentiary truth",
+        "counterweights": [
+          "the_scout",
+          "the_librarian"
+        ],
+        "trigger_reasons": [
+          "profile_trigger:memo narrative"
+        ],
+        "challenge_questions": [
+          "What is the verified event spine?",
+          "Which statements are interpretation rather than fact?",
+          "Did creative framing alter causality or history?"
+        ],
+        "preflight": [
+          "build the fact spine before prose"
+        ],
+        "during": [
+          "keep creative framing subordinate to the event spine"
+        ],
+        "postflight": [
+          "reconcile narrative claims against evidence and provenance"
+        ],
+        "tension": {
+          "id": "story_truth",
+          "name": "Claim Provenance",
+          "principle": "Every meaningful factual claim must know where it came from."
+        }
+      },
+      "confidence": 0.16666666666666666,
+      "fallback_used": false
+    },
+    {
+      "scope": "implementation",
+      "task": "Implement the accepted source bindings and render-input workflow changes in the existing Schemin-26 Week 10 preproduction; verify regressions and preserve the production pause.",
+      "primary": "the_gm",
+      "secondary": [
+        "the_setup_man",
+        "the_commissioner"
+      ],
+      "counterweight_plan": {
+        "primary": "the_gm",
+        "activated": true,
+        "edge": "user-impact product prioritization",
+        "failure_mode": "product intuition turning into sophisticated guessing",
+        "counterweights": [
+          "the_commissioner",
+          "the_analyst"
+        ],
+        "trigger_reasons": [
+          "material_trigger:implement",
+          "material_trigger:production"
+        ],
+        "challenge_questions": [
+          "What user behavior would prove this wrong?",
+          "What observable signal justifies expansion?",
+          "What is the falsification condition?"
+        ],
+        "preflight": [
+          "state user problem, expected behavior change, evidence, success signal, and falsification signal"
+        ],
+        "during": [
+          "avoid expanding scope before the core hypothesis receives signal"
+        ],
+        "postflight": [
+          "classify the bet as validated, weakened, disproven, or insufficient evidence"
+        ],
+        "tension": {
+          "id": "user_theory",
+          "name": "External Reality Check",
+          "principle": "Material product assumptions require observable stakeholder evidence whenever possible."
+        }
+      },
+      "confidence": 0.16666666666666666,
+      "fallback_used": false
+    }
+  ],
+  "routing_interpretation": "The initial keyword router did not recognize football analytics and overmatched product inside production. Domain-scoped task descriptions were used to make the actual requested work explicit; no runtime rules or permissions were changed.",
+  "executed_host_reviews": {
+    "scout_analyst": "/root/playoff_rules_audit",
+    "beat_writer": "/root/memo_playoff_context",
+    "umpire": "/root/exact_scenario_math",
+    "architect_librarian_closer": "/root"
+  }
+}

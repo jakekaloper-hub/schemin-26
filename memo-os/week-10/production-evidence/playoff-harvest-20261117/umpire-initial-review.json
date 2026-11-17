@@ -1,0 +1,45 @@
+{
+  "reviewer": {
+    "host_agent": "/root/exact_scenario_math",
+    "review_lens": "Umpire / independent acceptance",
+    "external_director_approval": false,
+    "disclosure": "This is an executed review by a real host subagent. No external person, named director, or artwork approval is claimed."
+  },
+  "reviewed_baseline_commit": "14b1ad0",
+  "created_at_utc": "2026-11-17T17:25:21.106258+00:00",
+  "phase": "INITIAL_SOURCE_AND_CLAIM_SCOPE_REVIEW; await integration diff for final acceptance",
+  "baseline_render_checks": {
+    "pages_checked": 34,
+    "failures": [],
+    "new_art_generation_observed": false,
+    "all_request_copy_equals_source": true
+  },
+  "claim_scope": {
+    "all_twelve_alive_none_clinched": {
+      "decision": "VALID_WITH_OR_WITHOUT_FUTURE_TIES",
+      "reason": "Existing binary qualification and nonqualification paths are witnesses in the broader outcome space."
+    },
+    "mud_any_future_loss_eliminates": {
+      "decision": "VALID_WITH_OR_WITHOUT_FUTURE_TIES",
+      "reason": "Maximum after a loss is five win-equivalents. Six teams already have six; Red/Chili remaining game ensures a seventh at least5.5. All division leaders already exceed five."
+    },
+    "mud_must_win_all_four": {
+      "decision": "VALID_ONLY_WHEN_FUTURE_GAMES_HAVE_WINNERS; DO_NOT_STATE_UNCONDITIONALLY",
+      "reason": "Mud can qualify at5-8-1 in the retained hypothetical tie witness."
+    },
+    "six_wins_is_minimum": {
+      "decision": "VALID_ONLY_IN_NO_FUTURE_TIES_OUTCOME_SPACE",
+      "reason": "Five wins plus one tie qualifies in retained counterexample."
+    },
+    "nine_wins_guarantees_berth": {
+      "decision": "VALID_WITH_OR_WITHOUT_FUTURE_TIES",
+      "proof": "OnlyDK inBurgers can reach9win-equivalents; it then wins its division. For a9-win Pizza/Wings team to miss, five nondivision-champions from those two divisions must have at least9win-equivalents, requiring both division champions at least9 as well. Seven such teams need at least63win-equivalents, plus the eighth team has at least4, totaling67. Pizza+Wings can finish with at most62:44 current wins+12 final intradivision games+2Week11games between those divisions+at most4Week11wins againstBurgers. Contradiction."
+    },
+    "eight_wins_is_not_universal_guarantee": {
+      "decision": "VALID_WITH_OR_WITHOUT_FUTURE_TIES",
+      "reason": "Retained binary eight-win miss witnesses are counterexamples, including all three current4-6teams."
+    }
+  },
+  "original_review_sha256": "15d94abb71d4334b7c52bea98ea7d21a1c57cf5385db4783f2513d67af54b445",
+  "scope_note": "Public review summary. Full evidence stays in the protected reviewed source; the current acceptance is the separate final Umpire receipt."
+}

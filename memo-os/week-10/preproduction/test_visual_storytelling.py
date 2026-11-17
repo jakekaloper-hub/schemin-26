@@ -34,7 +34,10 @@ class VisualStorytelling(unittest.TestCase):
   self.assertEqual(hashlib.sha256((P/'facts.json').read_bytes()).hexdigest(),b['facts_sha256'])
   for pid,old in b['pages'].items():
    with self.subTest(page=pid):
-    self.assertEqual(self.pages[pid]['draft_copy'],old['copy']);self.assertEqual(self.pages[pid]['characters_present'],old['cast']);self.assertEqual(self.pages[pid]['encounter'],old['encounter'])
+    selected=read(P/'playoff-harvest-copy.json')['pages']
+    self.assertEqual(set(selected),{'W10-P28','W10-P30','W10-P31'})
+    expected=selected[pid]['publication_copy'] if pid in selected else old['copy']
+    self.assertEqual(self.pages[pid]['draft_copy'],expected);self.assertEqual(self.pages[pid]['characters_present'],old['cast']);self.assertEqual(self.pages[pid]['encounter'],old['encounter'])
  def test_full_body_flows_once_in_unchanged_order(self):
   for p in self.registry()['pages']:
    body=self.pages[p['page_id']]['draft_copy']['body'];zones=p['copy_flow']['body_ranges'];self.assertTrue(zones)

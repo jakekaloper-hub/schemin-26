@@ -42,7 +42,11 @@ The compiler now propagates `visual_storytelling` into issue-previs, illustrated
 
 ## Verification
 
-48 tests passed in the current suite. Exact final facts, full publication copy, all35 stored cast/encounter records, included reading order and omitted P32 remain unchanged. The six review groups remain6/6/6/6/6/4. Test results are input verification only.
+57 tests passed after combining this visual revision with the concurrent reviewed playoff supplement. All publication-copy fields, all35 stored cast/encounter records and final facts match the latest accepted source commit `6ece345f5791d21684dedb902cb356084d84b40e`; the visual pass does not rewrite that supplement. Included reading order and omitted P32 remain unchanged. The six review groups remain6/6/6/6/6/4. Test results are input verification only.
+
+## Concurrent work preserved
+
+The remote branch advanced with a separately reviewed playoff supplement while the visual pass was in progress. Its exact P28/P30/P31 copy, source bindings, TheFFHub attribution and PNG-production pause were preserved through its own synchronizer. Shot-plan copy ranges were rebuilt against those exact current bodies. No force push or rollback of the analytics work was used.
 
 ## Entry points
 
@@ -51,6 +55,6 @@ The compiler now propagates `visual_storytelling` into issue-previs, illustrated
 - [Actual current requests](../../preproduction/render-inputs/manifest.json)
 - [Primary visual-source receipts](visual-source-receipts.json)
 - [AI-role replies](review-results.json) and [source adjudication](review-disposition.json)
-- [Test output](tests-green.txt)
+- [Post-integration test output](tests-merged.txt)
 
 **The instructions are revised and applied. Whether the rendered folios meet Jake’s visual taste must be judged from the actual next images; no claim of that approval is made here.**

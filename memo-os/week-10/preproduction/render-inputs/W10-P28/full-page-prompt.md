@@ -142,7 +142,7 @@ EXACT FULL PUBLICATION COPY
     {
       "label": "BURGERS",
       "heading": "D0nkey K0ng has separation",
-      "body": "D0nkey K0ng stands at 6–4. ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8 and must win out to preserve a route."
+      "body": "D0nkey K0ng is 6–4; ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8. Beating ObiWan Jacoby in Week 12 and Three Dreaded Snake in Week 13 secures D0nkey K0ng’s division title."
     },
     {
       "label": "PIZZA",
@@ -152,7 +152,7 @@ EXACT FULL PUBLICATION COPY
     {
       "label": "WINGS",
       "heading": "The cushion has narrowed",
-      "body": "Dr. Duckhook and Slob on my Dobb are 6–4. Red Leopards and The Chili Cheesers are both 5–5. One crossover remains before the four meet division rivals again."
+      "body": "Dr. Duckhook and Slob on my Dobb are 6–4; Red Leopards and The Chili Cheesers are 5–5. Red Leopards went 3–0 in the first divisional pass; winning all four remaining games secures Wings."
     }
   ],
   "rows": [],
@@ -194,9 +194,37 @@ FACT POLICY
       "snapshot_sha256": "e0f5bbd5e8fa9f916c58e24673779bb948a1d2ecc18e418ed89d708722f504a9",
       "value_location": "facts.json#/pass3/remaining_schedule",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/dk_two_named_wins_clinch_burgers",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "snapshot_sha256": "d4eedc0d1cbb1687f05e80b6b579295d78475cba50d7c15e0d75b5eac5440f0b",
+      "value_location": "playoff-harvest.json#/claims/dk_two_named_wins_clinch_burgers",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/red_winout_wings_title",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "snapshot_sha256": "7d4905fda6ce8e799f0f101576c2a9a3f57028f4b223ae1b8f70f369a90a34ab",
+      "value_location": "playoff-harvest.json#/claims/red_winout_wings_title",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
   ],
-  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+  "playoff_harvest": {
+    "artifact": "playoff-harvest.json",
+    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+    "claim_ids": [
+      "dk_two_named_wins_clinch_burgers",
+      "red_winout_wings_title"
+    ],
+    "copy_authority": "playoff-harvest-copy.json",
+    "interpretation": "Preserve every visible condition and TheFFHub attribution. Vendor 0%/100% is not mathematical elimination/clinch. The record scenarios on P30 exclude tied future games; a further Mud Dogs loss eliminates under either scope."
+  }
 }
 
 REFERENCE IMAGES

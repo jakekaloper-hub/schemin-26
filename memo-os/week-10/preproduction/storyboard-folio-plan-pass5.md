@@ -620,7 +620,7 @@ Cast: No invented principal character
 
 Full copy:
 
-All twelve teams still have a route, and none has clinched. At 2–8, Mud Dogs can still win Burgers at 6–8 through a specific set of results. A further loss eliminates that possibility and the remaining shared-place route. Four games remain: one crossover, then three divisional rounds.
+All twelve teams still have a route, and none has clinched. Four games remain: one crossover, then three divisional rounds. Nine wins guarantees a berth; eight alone does not. A 6–8 finish can give Mud Dogs either a Burgers title or a shared place. Record scenarios assume no tied games.
 
 Input: `render-inputs/W10-P30/request.json`
 
@@ -634,13 +634,13 @@ Visual shot sequence: dispatch_intent_and_outward_master
 
 Scene-led reading path: The fixture list represents imminent commitments, not anonymous decoration. → Top-seed races, bubble pressure and the verified loss-elimination condition are visibly distinct.
 
-Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches.
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches. The existing dated TheFFHub win/loss comparison and its full simulation qualifiers are a readable source callout beside the relevant fixture, not a new predicted-result illustration. Keep the dispatch detail subordinate so all six fixtures and the full source note fit.
 
 Cast: No invented principal character
 
 Full copy:
 
-His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.
+Four 6–4 contenders meet in two top-seed contests. The two 4–6 hosts need to close ground on the 5–5 visitors; The LLC needs recovery against Dr. Duckhook. These are not automatic eliminators. Only Mud Dogs is eliminated by a Week 11 loss. Head-to-head can decide ties; three divisional rounds follow.
 
 Input: `render-inputs/W10-P31/request.json`
 

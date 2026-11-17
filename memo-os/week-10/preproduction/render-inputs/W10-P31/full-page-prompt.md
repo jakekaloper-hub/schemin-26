@@ -66,7 +66,7 @@ SCENE AND CONTINUITY
     "dominant_action": "Each of six next fixtures carries a different stake.",
     "reading_path": "The fixture list represents imminent commitments, not anonymous decoration. → Top-seed races, bubble pressure and the verified loss-elimination condition are visibly distinct.",
     "heading_treatment": "THE NEXT SIX is a concise department/title rendered once; the head-to-head deck remains prominent.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches. The existing dated TheFFHub win/loss comparison and its full simulation qualifiers are a readable source callout beside the relevant fixture, not a new predicted-result illustration. Keep the dispatch detail subordinate so all six fixtures and the full source note fit.",
     "protected_subjects": "All six fixtures, correct home/away, source distinction between pressure and mathematical elimination.",
     "data_treatment": "Level exact names, records and implication text; no shorthand or falsely guaranteed top seed; three divisional rounds note stays explicit.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P31",
@@ -110,19 +110,19 @@ SCENE AND CONTINUITY
         "id": "W10-P31-V02"
       }
     ],
-    "layout_direction": "Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches.",
+    "layout_direction": "Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches. The existing dated TheFFHub win/loss comparison and its full simulation qualifiers are a readable source callout beside the relevant fixture, not a new predicted-result illustration. Keep the dispatch detail subordinate so all six fixtures and the full source note fit.",
     "dominant_view": "W10-P31-V02",
     "copy_flow": {
       "source": "issue-previs.json#W10-P31/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 258,
+          "end": 156,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 258,
-          "end": 524,
+          "start": 156,
+          "end": 301,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -147,8 +147,13 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "THE NEXT SIX",
   "deck": "Week 11 • Head-to-head stakes before the divisional finish",
-  "body": "His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.",
-  "callouts": [],
+  "body": "Four 6–4 contenders meet in two top-seed contests. The two 4–6 hosts need to close ground on the 5–5 visitors; The LLC needs recovery against Dr. Duckhook. These are not automatic eliminators. Only Mud Dogs is eliminated by a Week 11 loss. Head-to-head can decide ties; three divisional rounds follow.",
+  "callouts": [
+    {
+      "heading": "BUBBLE SWING · THEFFHUB",
+      "body": "Nov. 17, 2026. Each team’s playoff estimate after its Week 11 win / loss: ObiWan Jacoby 52% / 13%; The Chili Cheesers 58% / 21%. Other games simulated; 10,000 runs from season scores, excluding projections and NFL byes."
+    }
+  ],
   "rows": [
     {
       "away_team": "El Niño",
@@ -234,9 +239,37 @@ FACT POLICY
       "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
       "value_location": "facts.json#/pass3/playoffs",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/mud_only_w11_loss_eliminates",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "snapshot_sha256": "c33ef7befe2ae6bdfad4a55a3e1dd767cc03a75498655c58c789453b64134a11",
+      "value_location": "playoff-harvest.json#/claims/mud_only_w11_loss_eliminates",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/w11_obi_chili_vendor_split",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "snapshot_sha256": "a4387b211c418160b1a4e262165a7e12a28062861522327ccd17f5e69173c990",
+      "value_location": "playoff-harvest.json#/claims/w11_obi_chili_vendor_split",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
     }
   ],
-  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+  "playoff_harvest": {
+    "artifact": "playoff-harvest.json",
+    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+    "claim_ids": [
+      "mud_only_w11_loss_eliminates",
+      "w11_obi_chili_vendor_split"
+    ],
+    "copy_authority": "playoff-harvest-copy.json",
+    "interpretation": "Preserve every visible condition and TheFFHub attribution. Vendor 0%/100% is not mathematical elimination/clinch. The record scenarios on P30 exclude tied future games; a further Mud Dogs loss eliminates under either scope."
+  }
 }
 
 REFERENCE IMAGES

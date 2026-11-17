@@ -40,9 +40,16 @@ class CompositionPersonalization(unittest.TestCase):
  def test_fact_body_cast_and_geography_invariance(self):
   b=load(E/'baseline.json');self.assertEqual(b['reading_order'],self.order)
   self.assertEqual(hashlib.sha256((P/'facts.json').read_bytes()).hexdigest(),b['facts_sha256'])
+  # A later, separately reviewed harvest changes copy on exactly these pages.
+  # The historical design baseline still controls every cast/geography field
+  # and the copy on the other 31 folios.
+  selected=load(P/'playoff-harvest-copy.json')['pages']
+  self.assertEqual(set(selected),{'W10-P28','W10-P30','W10-P31'})
   for pid in self.order:
    with self.subTest(page=pid):
-    p=self.pages[pid];self.assertEqual(digest(p['draft_copy']),b['pages'][pid]['publication_copy_sha256'])
+    p=self.pages[pid]
+    if pid in selected:self.assertEqual(p['draft_copy'],selected[pid]['publication_copy'])
+    else:self.assertEqual(digest(p['draft_copy']),b['pages'][pid]['publication_copy_sha256'])
     self.assertEqual(p['characters_present'],b['pages'][pid]['characters_present']);self.assertEqual(p['encounter'],b['pages'][pid]['encounter'])
  def test_omitted_pittsys_book_does_not_acquire_design_or_render_target(self):
   self.assertNotIn('W10-P32',self.order)

@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-11-17T17:59:24.627087+00:00",
+  "verified_at_utc": "2026-11-17T18:04:29.311181+00:00",
   "baseline_commit": "3d80fc2a5944e45e1c250b1f42f0130f3f04ba20",
   "folios": 34,
   "cinematic_folios": 18,
@@ -15,6 +15,11 @@
   "all_stored_cast_and_encounters_unchanged": true,
   "new_images": 0,
   "test_command": "../../../.venv-audit/bin/python -m unittest -v test_visual_storytelling test_composition_personalization test_render_contracts test_final_results test_sheet_assembly",
-  "test_evidence": "tests-green.txt",
-  "limits": "No actual updated page image has been generated or visually accepted. These checks prove content propagation and preservation, not artistic quality."
+  "test_evidence": "tests-merged.txt",
+  "limits": "No actual updated page image has been generated or visually accepted. These checks prove content propagation and preservation, not artistic quality.",
+  "latest_source_commit_preserved": "6ece345f5791d21684dedb902cb356084d84b40e",
+  "publication_copy_matches_latest_source": true,
+  "original_baseline_copy_changes": "Only the separately accepted P28/P30/P31 harvest is carried forward; this visual pass changes no publication copy.",
+  "tests_passed": 57,
+  "generation_pause_preserved": true
 }

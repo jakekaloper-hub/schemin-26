@@ -486,7 +486,7 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 **W10-P31-V02 · dominant** — Broad outward terrace with readable fixture/stakes pairs. Each complete away-at-home fixture sits immediately with its existing implication. Top-seed races, bubble pressure and the verified loss-elimination condition are visibly distinct. Time: same moment.
 
-**Page composition:** Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches.
+**Page composition:** Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. Keep the existing dated TheFFHub win/loss comparison and all simulation qualifiers readable beside the relevant fixture; subordinate the small dispatch detail to this copy. No six miniature predicted matches.
 
 **Turn to next page:** Move from the six fixtures to a deliberately spacious two-contender preview.
 
