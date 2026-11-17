@@ -23,7 +23,20 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
     const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uPond:{value:kind==='pond'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`varying vec2 vUv;varying vec3 vWorld;void main(){vUv=uv;vWorld=(modelMatrix*vec4(position,1.)).xyz;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+        void main(){
+          vec3 p=position;
+          if(uWetland>.5){
+            // Animated surface relief, NOT a storm or revised current/topology claim.
+            vec2 heading=normalize(uFlow+vec2(.0001,.0001));
+            float phase=dot(uv-vec2(.5),heading)*30.-uTime*1.16;
+            float crest=sin(phase)+.35*sin((uv.x+uv.y)*57.+uTime*.71);
+            float shoreHold=1.-smoothstep(.65,.96,length((uv-vec2(.5))*2.));
+            p.z+=crest*.018*shoreHold;
+          }
+          vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
+          gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+        }`,
       fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform float uPond;uniform vec2 uFlow;uniform float uSheenGain;varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
       vec2 wetlandUv = vUv + uFlow * uTime;
@@ -53,8 +66,33 @@ export function buildRegionalAssets(THREE, bindings, height) {
       }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
     materials.set('water-'+water.length,m);return m;
   }
+  function wetlandWaterDisk(){
+    // Reversible candidate mesh: exact same unit-circle perimeter, denser interior.
+    // The edge is stationary under displacement so source-bound water footprints stay put.
+    const segments=48,rings=8,position=[0,0,0],uv=[.5,.5],indices=[];
+    for(let r=1;r<=rings;r++)for(let i=0;i<segments;i++){
+      const angle=i*2*Math.PI/segments,radius=r/rings;
+      const x=radius*Math.cos(angle),y=radius*Math.sin(angle);
+      position.push(x,y,0);uv.push(.5+.5*x,.5+.5*y);
+    }
+    for(let i=0;i<segments;i++)indices.push(0,1+i,1+(i+1)%segments);
+    for(let r=1;r<rings;r++)for(let i=0;i<segments;i++){
+      const next=(i+1)%segments;
+      const a=1+(r-1)*segments+i,b=1+(r-1)*segments+next;
+      const c=1+r*segments+i,d=1+r*segments+next;
+      indices.push(a,c,d,a,d,b);
+    }
+    const geometry=new THREE.BufferGeometry();
+    geometry.name='Candidate wetland water surface';
+    geometry.setAttribute('position',new THREE.Float32BufferAttribute(position,3));
+    geometry.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
+    geometry.setIndex(indices);geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    return geometry;
+  }
   function pool(g,kind,x,y,z,rx,rz,color='#387e75'){
-    const m=waterMaterial(kind,color),o=mesh(g,new THREE.CircleGeometry(1,40),m,x,y,z);o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.renderOrder=2;water.push({kind,material:m,mesh:o});return o;
+    const m=waterMaterial(kind,color);
+    const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():new THREE.CircleGeometry(1,40);
+    const o=mesh(g,geometry,m,x,y,z);o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.renderOrder=2;water.push({kind,material:m,mesh:o});return o;
   }
   function waterfall(g,x,y,z,width,drop){
     const m=waterMaterial('waterfall','#67aaa0'),o=mesh(g,new THREE.PlaneGeometry(width,drop,8,12),m,x,y-drop/2,z);o.castShadow=false;o.renderOrder=2;water.push({kind:'waterfall',material:m,mesh:o});
