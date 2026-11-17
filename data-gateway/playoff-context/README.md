@@ -1,6 +1,6 @@
 # Playoff Context Intelligence Layer V1
 
-**Status:** WEEKLY RUNNER IMPLEMENTED / DESCRIPTIVE CANDIDATES VERIFIED / PRODUCTION CONSUMPTION HOLD / FORECAST PUBLICATION HOLD
+**Status:** WEEKLY RUNNER IMPLEMENTED / DESCRIPTIVE CANDIDATES VERIFIED / ADDITIONAL CONSUMPTION REQUIRES CHECK / INTERNAL FORECAST PUBLICATION HOLD
 
 The local November 17 Week 10 run reconciled the completed season history and
 remaining fixtures. Its walk-forward diagnostic did not beat the 50/50 baseline.
@@ -10,11 +10,12 @@ operating documentation only. Authenticated inputs, league-specific rule
 evidence, simulation receipts and the full Memo packet are retained separately
 pending explicit approval to publish those records to this public repository.
 
-The production follow-up found that candidate metadata alone does not reach the
-existing renderer, and preserved source copy still contains provisional facts.
-`WEEK_10_PRODUCTION_AUDIT.md` records that gap. Final page production requires a
-separate source-to-copy and render-mirror readiness check; no candidate or test
-result silently closes that gate.
+The retained production audit found stale copy at PR #315 `96bf06f`; that
+branch subsequently finalized its existing inputs at `14b1ad0`. Additional
+analytics still require source-to-copy and render-mirror checks. The actual
+recent FFHub harvest is also retained through `FFHUB_INTAKE_CONTRACT.md`.
+See `memo-os/week-10/playoff-context/README.md` for the current handoff and the
+distinction between existing final production and optional new analytics.
 
 Reusable Schemin analytics capability beneath publication systems. It converts verified league-state snapshots into probabilistic playoff context plus conservative exact W/L-bound proofs, then emits a small editorial-candidate set. It does not publish prose or mutate canon.
 

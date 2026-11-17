@@ -1,6 +1,17 @@
 # Acceptance Report — Week 10 implementation and forecast hold
 
-## Current disposition — 2026-11-17
+## Production revision update
+
+The evaluation below retains the original model result and production audit
+at PR #315 `96bf06f`. That production branch subsequently finalized its existing
+34-page sources and requests at `14b1ad0`. The earlier stale-copy findings are
+historical; additional analytics remain subject to their own consumption check.
+See the [current Week 10 handoff](../../memo-os/week-10/playoff-context/README.md).
+The recovered actual FFHub scenario packet is a separate manual evidence input,
+with its own estimates and independent mathematical proofs. It is not this
+model's output. The internal forecast hold below remains in force.
+
+## Retained evaluation disposition — 2026-11-17
 
 **Weekly runner and descriptive candidate adapter: IMPLEMENTED. Actual Week 10
 production consumption: HOLD_SOURCE_AND_COPY_RECONCILIATION. Forecast publication:

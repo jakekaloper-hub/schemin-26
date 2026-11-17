@@ -333,9 +333,18 @@ conditional leverage remain withheld pending model validation and independent
 acceptance. Preserve qualifiers in page contracts and final copy; official
 standings and exact clinch proofs remain separate.
 
-Before final sports-copy production, inspect the actual previs and render
-requests with the analytics readiness check. Reconcile the accepted final source,
+When selecting additional analytics, inspect the actual previs and render
+requests with `memo-os/playoff_context_preflight.py`. Reconcile accepted sources,
 selected values, copy templates, embedded prompts and render mirrors together.
-Record accepted analytics selections or no-material-candidate decisions. A new
-analytics packet does not update older prose or certify Fact Lock. Keep detected
-source/copy holds explicit while provisional creative preparation continues.
+Record selected changes, support for existing copy, or no-material-candidate
+decisions. A new packet does not update prose or certify Fact Lock. Its hold
+does not revoke an independently accepted native Memo source/proof workflow.
+
+Recover actual TheFFHub scenario packets as a separate input using
+`data-gateway/playoff-context/FFHUB_INTAKE_CONTRACT.md`. Retain raw scenario
+tables and selected winners, compare their cutoff/rules with the operative
+issue, and distinguish vendor estimates from independent exact proofs and
+Schemin model output. The Week 10 recovered briefing/packet and current page
+handoff are indexed in `memo-os/week-10/playoff-context/README.md`. Resume the
+latest production revision; historical audits never override later verified
+finalization merely because they remain in the repository.

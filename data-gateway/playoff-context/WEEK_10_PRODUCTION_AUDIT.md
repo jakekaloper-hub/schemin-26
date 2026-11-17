@@ -1,6 +1,20 @@
 # Week 10 production audit — 2026-11-17
 
-## Disposition
+## Scope update after production finalization
+
+This is the retained audit of PR #315 at `96bf06f`, not a live hold on every
+later revision. PR #315 subsequently finalized its source/copy/render inputs
+at `14b1ad0`. Its current entrypoint and finalization evidence control the
+existing 34-page production. The gaps described below must not be reopened
+merely because the old audit remains in version history.
+
+The recovered actual FFHub harvest and optional additional Schemin analytics
+now have a separate [current handoff](../../memo-os/week-10/playoff-context/README.md).
+Any new selected value still requires actual copy consumption; the internal
+model's forecast hold remains unchanged. Neither finding revokes separately
+accepted league facts or independently verified playoff witnesses.
+
+## Disposition at the audited revision
 
 **The analytics direction is sound, but final Week 10 sports-copy consumption is
 not complete. Keep `HOLD_SOURCE_AND_COPY_RECONCILIATION` and the forecast hold.**

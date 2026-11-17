@@ -1,8 +1,15 @@
 # TheFFHub reference decision — 2026-11-17
 
-**Role:** optional external reference/manual comparison. Schemin owns the
-controlled implementation. No vendor league import, odds run or private-data
-upload occurred, and no supported third-party API integration is claimed.
+**Role:** retained external scenario evidence alongside Schemin's controlled
+implementation. The initial code review below did not run the vendor UI. A
+separate November 17 Week 10 research session did, and its actual briefing and
+scenario packet have now been recovered for Memo intake: 18 named scenarios,
+an initial baseline and a restored baseline. Preserve both workstreams.
+
+The captured vendor estimates, independently calculated exact witnesses, and
+Schemin's own model remain separate evidence classes. No supported vendor API
+or unattended synchronization is claimed. Use [FFHUB_INTAKE_CONTRACT.md](FFHUB_INTAKE_CONTRACT.md)
+and the [current Week 10 handoff](../../memo-os/week-10/playoff-context/README.md).
 
 Primary source inspected: [TheFFHubClient](https://github.com/abinish/TheFFHubClient/tree/78690c5e3221e6ec4f4fbae9b1b1197a21d312dc),
 revision `78690c5e3221e6ec4f4fbae9b1b1197a21d312dc`.
@@ -25,6 +32,9 @@ Pinned source files:
 - [PowerRankingsHelper.ts](https://github.com/abinish/TheFFHubClient/blob/78690c5e3221e6ec4f4fbae9b1b1197a21d312dc/src/powerRankings/PowerRankingsHelper.ts)
 - [leagueApi.ts](https://github.com/abinish/TheFFHubClient/blob/78690c5e3221e6ec4f4fbae9b1b1197a21d312dc/src/leagueApi.ts)
 
-A future comparison must use the same cutoff, teams, division/seed rules and
-source date. Assumption differences are not automatically defects. Analyst owns
-reconciliation. No comparative vendor run was performed here.
+A comparison must use the same cutoff, teams, division/seed rules and source
+date. Assumption differences are not automatically defects. Analyst owns
+reconciliation. The source-code review and recovered UI harvest are separate
+records; neither establishes vendor calibration or numerical equivalence to
+Schemin's model. The existing model hold does not apply by inference to another
+model's estimates.

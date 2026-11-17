@@ -137,10 +137,13 @@ descriptive adapter now execute on finalized inputs. Forecast publication stays
 held after the model's walk-forward check failed its baseline comparison. See
 `data-gateway/playoff-context/ACCEPTANCE_REPORT.md` and
 `memo-os/week-10/playoff-context/README.md`; no broad model activation is implied.
-The follow-up production audit also holds final sports-copy consumption until
-the operative page sources, selected values and render requests are reconciled.
-See `data-gateway/playoff-context/WEEK_10_PRODUCTION_AUDIT.md`; a candidate packet
-is not evidence that production copy consumed its data.
+The earlier production audit applies to PR #315 at `96bf06f`; its stale-copy
+findings are historical after that branch's finalization at `14b1ad0`.
+Additional analytics still require source-to-copy consumption evidence.
+The actual November 17 FFHub scenario harvest is retained separately and enters
+Memo through `data-gateway/playoff-context/FFHUB_INTAKE_CONTRACT.md`.
+See `memo-os/week-10/playoff-context/README.md` for the current handoff. A
+candidate packet is not evidence that production copy consumed its data.
 
 Read:
 - `data-gateway/playoff-context/README.md`
