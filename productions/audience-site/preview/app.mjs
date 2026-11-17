@@ -19,7 +19,63 @@ function dispatch(a){state=transitionObserver(state,a);return state;}
 function showFallback(reason){ready=false;cancelAnimationFrame(frameId);$('#fallback').hidden=false;$('#fallbackReason').textContent=reason;$('#splash').hidden=true;$('#skipReveal').hidden=true;}
 function escapePanels(){for(const id of ['#placesPanel','#infoPanel','#inspector'])$(id).hidden=true;$('#placesToggle').setAttribute('aria-expanded','false');$('#tooltip').hidden=true;}
 function indexButton(p){const b=document.createElement('button');b.type='button';b.textContent=p.name;b.dataset.place=p.id;b.addEventListener('click',()=>select(p.id));return b;}
-for(const p of bindings){$('#placeList').append(indexButton(p));const b=document.createElement('button');b.textContent=p.name;b.addEventListener('click',()=>{$('#fallbackDetail').replaceChildren();const h=document.createElement('h2'),d=document.createElement('p');h.textContent=p.name;d.textContent=`${p.canonStatus} · ${p.landmarks.join(' · ')}`;$('#fallbackDetail').append(h,d);});$('#fallbackPlaces').append(b);}
+/* FALLBACK_JOURNEY_START: source-bound read-only navigation when graphics are unavailable. */
+function fallbackNode(tag,text){const n=document.createElement(tag);n.textContent=text;return n;}
+function fallbackRecordList(parent,label,values){
+  if(!Array.isArray(values)||!values.length)return;
+  const s=document.createElement('section'),h=fallbackNode('h4',label),ul=document.createElement('ul');
+  for(const v of values)ul.append(fallbackNode('li',v));
+  s.append(h,ul);parent.append(s);
+}
+function renderFallbackHistory(place,indexButton){
+  // Recheck location, event and publication authority on every entry.
+  const events=PlaceHistory.historyForLocation(catalog,place.id),detail=$('#fallbackDetail');
+  detail.replaceChildren();
+  const back=fallbackNode('button','← Return to '+place.name);
+  back.type='button';back.onclick=()=>renderFallbackPlace(place,indexButton,true);
+  detail.append(back,
+    fallbackNode('h2','Recorded history · '+place.name),
+    fallbackNode('p','Source World Memory · '+catalog.history.status.replaceAll('_',' ')+' · recorded as '+catalog.stateAsOf.replaceAll('_',' ')+'. Historical entries do not establish present-day conditions, approved geometry or released story canon.'));
+  for(const event of events){
+    const article=document.createElement('article');article.className='fallback-history-record';
+    article.append(fallbackNode('h3',event.year+' · Week '+event.week+' · '+event.id),fallbackNode('p','Historical source record · read-only'));
+    for(const [key,label] of [['physical','Recorded physical effects'],['social','Recorded social effects'],['reputation','Recorded reputation effects'],['institutional','Recorded institutional effects']])fallbackRecordList(article,label,event.effects?.[key]);
+    if(event.expiryCondition)article.append(fallbackNode('p','Source expiry condition: '+event.expiryCondition));
+    if(event.supersededBy)article.append(fallbackNode('p','Source supersession: '+event.supersededBy));
+    fallbackRecordList(article,'Source receipt paths (not public links)',event.sourceReceipts);
+    detail.append(article);
+  }
+  back.focus();
+}
+function renderFallbackPlace(place,indexButton,restoreHistoryFocus=false){
+  const detail=$('#fallbackDetail');detail.replaceChildren();
+  const title=fallbackNode('h2',place.name);title.tabIndex=-1;
+  detail.append(title,fallbackNode('p',place.canonStatus.replaceAll('_',' ')+' · '+place.landmarks.join(' · ')+'. Source Atlas location; regional visual forms are candidates, not verified present-day conditions.'));
+  const listBack=fallbackNode('button','← All Atlas places');
+  listBack.type='button';listBack.onclick=()=>{detail.replaceChildren();indexButton.focus();};
+  detail.append(listBack);
+  let entries;
+  try{entries=PlaceHistory.historyForLocation(catalog,place.id);}
+  catch{
+    detail.append(fallbackNode('p','Recorded history is unavailable because this source snapshot did not pass its read-only authority checks.'));
+    title.focus();return;
+  }
+  if(!entries.length){
+    detail.append(fallbackNode('p','No location-exact World Memory entry is available for this place in this source snapshot. The place remains visible.'));
+    title.focus();return;
+  }
+  const read=fallbackNode('button','Read recorded place history · '+entries.length+' '+(entries.length===1?'entry':'entries'));
+  read.type='button';read.dataset.fallbackHistory=place.id;
+  read.onclick=()=>renderFallbackHistory(place,indexButton);
+  detail.append(fallbackNode('p','Recorded history belongs only to this location and is not live world state.'),read);
+  if(restoreHistoryFocus)read.focus();else title.focus();
+}
+for(const p of bindings){
+  $('#placeList').append(indexButton(p));
+  const b=fallbackNode('button',p.name);
+  b.type='button';b.addEventListener('click',()=>renderFallbackPlace(p,b));$('#fallbackPlaces').append(b);
+}
+/* FALLBACK_JOURNEY_END */
 function select(id){if(state.phase!=='EXPLORING'||state.inputOwner!=='WORLD')return;dispatch({type:'inspect',id});selected=bindings.find(p=>p.id===id);escapePanels();target=locationCamera(bindings,id);target.target[1]=renderer?renderer.height(target.target[0],target.target[2]):0;$('#placeRegion').textContent=selected.zoneId.replace(/^REG-/,'').replaceAll('-',' ');$('#placeName').textContent=selected.name;$('#landmarks').textContent=selected.landmarks.join(' · ');$('#placeStatus').textContent=selected.canonStatus.replaceAll('_',' ')+' · '+catalog.stateAsOf.replaceAll('_',' ');$('#inspector').hidden=false;updateMemoryEntry();updateHistoryEntry();if(paused)camera=structuredClone(target);}
 function wholeWorld(){if(state.phase!=='EXPLORING')return;dispatch({type:'world_view'});selected=null;target=defaultCamera();escapePanels();if(paused)camera=structuredClone(target);}
 $('#placesToggle').onclick=()=>{const open=$('#placesPanel').hidden;escapePanels();$('#placesPanel').hidden=!open;$('#placesToggle').setAttribute('aria-expanded',String(open));if(open)$('#placeSearch').focus();};

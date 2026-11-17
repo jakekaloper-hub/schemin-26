@@ -31,6 +31,19 @@
 #historyBoundary{padding:12px 26px;border-bottom:1px solid #b8b19432}#openHistory{display:block;margin-top:14px;width:100%;text-align:left;font-size:10px;letter-spacing:.11em;padding:14px 0;border:0;border-top:1px solid #d9c59666;background:none;color:#e8c985;min-height:44px}
 #historyAvailability{font-size:10px;line-height:1.5;color:#b4c0b3}.history-open .controls,.history-open #ambient,.history-open #hint{visibility:hidden}
 @media(max-width:700px){.history-dialog h1{font-size:22px}.history-dialog header{padding:17px}.history-dialog article{padding:18px}.history-dialog #historyBoundary{padding:10px 18px}}
+
+/* Offline/no-WebGL fallback: source-bound place and recorded-history journey. */
+#fallbackDetail{max-width:740px;margin:22px 0 54px;padding:18px 0 45px;border-top:1px solid #d1c49a40}
+#fallbackDetail h2{font:clamp(25px,4vw,34px)/1.15 Georgia,serif;margin:10px 0 12px}
+#fallbackDetail h3{font:20px/1.4 Georgia,serif;margin:20px 0 8px}
+#fallbackDetail h4{font:12px system-ui;letter-spacing:.08em;color:#e2ce9b;text-transform:uppercase;margin:12px 0 6px}
+#fallbackDetail button{display:inline-block;min-height:44px;margin:9px 12px 9px 0;padding:10px 17px;border:1px solid #d0c39d75;color:#efe6ce;background:#20382b;border-radius:24px}
+#fallbackDetail button:focus-visible{outline:3px solid #f1cf7b;outline-offset:3px}
+#fallbackDetail p,#fallbackDetail li{font-size:13px;line-height:1.75;color:#cdd2bf}
+#fallbackDetail li,#fallbackDetail h3{overflow-wrap:anywhere}
+#fallbackDetail .fallback-history-record{border-top:1px solid #d1c49a35;padding:15px 0}
+#fallbackDetail .fallback-history-record section{margin:10px 0 16px}
+#fallbackDetail ul{padding-left:22px}
 </style></head><body>
 <a class="skip" href="#placesToggle">Browse all places</a>
 <canvas id="world" tabindex="0" aria-label="Commonwealth spatial preview. Drag to move, scroll to approach, Shift-drag to orbit. All places are also accessible through the place index."></canvas><canvas id="ambient" aria-hidden="true" style="position:fixed;inset:0;width:100%;height:100%;pointer-events:none"></canvas><div class="vignette"></div>
