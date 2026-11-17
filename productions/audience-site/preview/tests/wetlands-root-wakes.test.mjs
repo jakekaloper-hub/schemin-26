@@ -47,7 +47,7 @@ test('root wakes are low-intensity shader motion only on the EXISTING swamp surf
  assert.doesNotMatch(fragment,/storm|weather/i);
  assert.equal(channel.material.uniforms.uRootSiteCount.value,0);
  assert.ok(a.water.filter(w=>!['swamp','channel'].includes(w.kind))
-   .every(w=>w.material.uniforms.uRootSiteCount.value===0));
+   .every(w=>(w.material.uniforms.uRootSiteCount?.value??0)===0));
  assert.ok(a.water.every(w=>w.mesh.isMesh));
  assert.ok(a.worldMutationAllowed===false);
  a.dispose();
