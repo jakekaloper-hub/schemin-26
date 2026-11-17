@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P18 · READING POSITION 18
 
@@ -56,13 +68,15 @@ SCENE AND CONTINUITY
     "page_id": "W10-P18",
     "family": "record_intelligence",
     "dominant_action": "Individual performances explain the final board.",
-    "reading_path": "Create one readable analytical hierarchy among the archive tools, six leader entries and the main performance paragraph.",
+    "reading_path": "The statistical distinctions—not invented athlete portraits—provide the new information.",
     "heading_treatment": "SPORTS DESK is the department; a restrained main headline leaves room for exact information.",
-    "narration_placement": "Full narrative occupies calm ledger-hall atmosphere beside the entries rather than restating a decorative board beneath it.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Keep one main information composition. Differentiate starter production, aggregate trios, bench observation and late response by editorial hierarchy, not fictional replays or tiny panels.",
     "protected_subjects": "No borrowed principal character, no added bench points; preserve starter/bench distinction.",
     "data_treatment": "Exactly six leader entries and full team/player names; all values, trio sums and Monday figures copied from current source.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P18",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "shot_structure": "documentary_performance_master",
+    "time_logic": "ONE_CONTINUOUS_MOMENT"
   },
   "personalization_direction": {
     "page_id": "W10-P18",
@@ -74,6 +88,48 @@ SCENE AND CONTINUITY
       "facts.json#/derived"
     ],
     "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P18",
+    "structure": "documentary_performance_master",
+    "time_logic": "ONE_CONTINUOUS_MOMENT",
+    "visual_question": "Which real contributions explain the apparent spectacle?",
+    "shots": [
+      {
+        "role": "dominant",
+        "pov_owner_ids": [],
+        "camera": "Oblique scoring desk with level, readable records",
+        "action": "A clerk works beside the six source-bound leaders and the already supplied performance narrative.",
+        "new_information": "The statistical distinctions—not invented athlete portraits—provide the new information.",
+        "time_relation": "same moment",
+        "id": "W10-P18-V01"
+      }
+    ],
+    "layout_direction": "Keep one main information composition. Differentiate starter production, aggregate trios, bench observation and late response by editorial hierarchy, not fictional replays or tiny panels.",
+    "dominant_view": "W10-P18-V01",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P18/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 435,
+          "anchor": "one continuous readable atmospheric field beside the main visual information"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "League Archive scoring hall"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The scored-performance folio yields to a newly arrived availability report.",
+    "grammar_references": [],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 

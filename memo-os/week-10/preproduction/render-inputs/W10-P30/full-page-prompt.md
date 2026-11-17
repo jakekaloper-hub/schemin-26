@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P30 · READING POSITION 31
 
@@ -56,13 +68,15 @@ SCENE AND CONTINUITY
     "page_id": "W10-P30",
     "family": "scenic_transition",
     "dominant_action": "Four remaining games narrow the route to seven berths.",
-    "reading_path": "The actual alpine climb draws the eye through Week 11 to Week 14 markers, with no triumph on the summit.",
+    "reading_path": "Depth provides sequential anticipation without crowning anyone at the summit.",
     "heading_treatment": "Title integrates into open cloud space; do not turn route signs into the whole page.",
-    "narration_placement": "Narrative and two callouts sit in quiet rock/sky fields along, not on top of, the visible climb.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One expansive route image. The supplied qualification conditions and seven-berth note remain exact; no odds, winners at the summit or fake branches on a geographic map.",
     "protected_subjects": "Existing route, no new territory, current survival proof distinct from odds.",
     "data_treatment": "Exact seven-berth explanation and loss-elimination qualification; no invented probability or clinched crown.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P30",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "shot_structure": "single_depth_playoff_road",
+    "time_logic": "ONE_CONTINUOUS_MOMENT"
   },
   "personalization_direction": {
     "page_id": "W10-P30",
@@ -74,6 +88,48 @@ SCENE AND CONTINUITY
       "playoff-witnesses-final.json"
     ],
     "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P30",
+    "structure": "single_depth_playoff_road",
+    "time_logic": "ONE_CONTINUOUS_MOMENT",
+    "visual_question": "What remains between the teams and the seven places?",
+    "shots": [
+      {
+        "role": "dominant",
+        "pov_owner_ids": [],
+        "camera": "Upward alpine path with four already specified week markers in depth",
+        "action": "The visible climb narrows through the remaining regular-season rounds.",
+        "new_information": "Depth provides sequential anticipation without crowning anyone at the summit.",
+        "time_relation": "same moment",
+        "id": "W10-P30-V01"
+      }
+    ],
+    "layout_direction": "One expansive route image. The supplied qualification conditions and seven-berth note remain exact; no odds, winners at the summit or fake branches on a geographic map.",
+    "dominant_view": "W10-P30-V01",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P30/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 285,
+          "anchor": "one continuous readable atmospheric field beside the main visual information"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "Alpine Wager Route, above the existing base camp"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The nearest marker becomes the immediate six Week11 decisions.",
+    "grammar_references": [],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 

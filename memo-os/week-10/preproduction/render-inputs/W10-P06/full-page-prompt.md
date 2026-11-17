@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P06 · READING POSITION 6
 
@@ -185,13 +197,15 @@ SCENE AND CONTINUITY
     "page_id": "W10-P06",
     "family": "kinetic_action",
     "dominant_action": "The rope catches the outlaw before the service gate.",
-    "reading_path": "Follow the taut line to the torso catch and slipping boot; preserve the same side of the pursuit axis.",
+    "reading_path": "Capture occurs before the runner loses his footing. → His momentum supplies the physical cause of the fall. → The rope stays controlled by the centaur; tying has not magically happened.",
     "heading_treatment": "Keep the title offset in the clear gate-side sky, not across the catching rope.",
-    "narration_placement": "Read complete prose in a quiet lateral gallery space; words never cross rope, hands, face or skidding foot.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small cause view, dominant slipping action, compact counterforce view. No separate witness-reaction panel here; the rope route and cause must be immediately readable.",
     "protected_subjects": "Torso/upper-arm capture, never neck; causal slip before manual binding; displaced hat persists.",
     "data_treatment": "Preserve supplied factual copy only; no invented score or extra result label.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P06",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "shot_structure": "causal_three_beat_action",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P06",
@@ -205,6 +219,95 @@ SCENE AND CONTINUITY
       "issue-previs.json#W10-P05–W10-P07"
     ],
     "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P06",
+    "structure": "causal_three_beat_action",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
+    "visual_question": "How does the catch become a fall rather than an instant hogtie?",
+    "shots": [
+      {
+        "role": "setup",
+        "pov_owner_ids": [
+          "CHAR-BRANDON-PRYOR"
+        ],
+        "camera": "Tight lateral torso-and-rope view",
+        "action": "The moving loop closes around the torso, never the neck.",
+        "new_information": "Capture occurs before the runner loses his footing.",
+        "time_relation": "first",
+        "id": "W10-P06-V01"
+      },
+      {
+        "role": "dominant",
+        "pov_owner_ids": [
+          "CHAR-BRANDON-PRYOR"
+        ],
+        "camera": "Low lateral full action including the same boot and wet groove",
+        "action": "His continued running pulls him into a skid through the mud.",
+        "new_information": "His momentum supplies the physical cause of the fall.",
+        "time_relation": "next",
+        "id": "W10-P06-V02"
+      },
+      {
+        "role": "counterforce",
+        "pov_owner_ids": [
+          "CHAR-WILSON-LOOK"
+        ],
+        "camera": "Wider rear-quarter view with uninterrupted rope line",
+        "action": "D0nkey K0ng braces on four hooves, keeping the captured outlaw and gate in the same geography.",
+        "new_information": "The rope stays controlled by the centaur; tying has not magically happened.",
+        "time_relation": "then",
+        "id": "W10-P06-V03"
+      }
+    ],
+    "layout_direction": "Small cause view, dominant slipping action, compact counterforce view. No separate witness-reaction panel here; the rope route and cause must be immediately readable.",
+    "dominant_view": "W10-P06-V02",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P06/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 211,
+          "anchor": "opening perspective or clear adjacent atmosphere"
+        },
+        {
+          "start": 211,
+          "end": 395,
+          "anchor": "main action or consequence reading zone"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "uphill tiered stone galleries",
+        "oval packed-earth ring with timber rails",
+        "service gate rear-left",
+        "separate horse holding rail outside active ring"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "End with controlled capture so the following page can show deliberate binding.",
+    "grammar_references": [
+      {
+        "week": 9,
+        "physical_page": 13,
+        "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p13.jpg",
+        "sha256": "3ac9b64f4a63a76526d4b6aa8a0884302daa53879a7a6cf9d1cceb01e4636a3f",
+        "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+      },
+      {
+        "week": 9,
+        "physical_page": 24,
+        "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p24.jpg",
+        "sha256": "18356812c319a90a87f66f311c59559f6eb04bf29e84816ee984a8ce8a05d22b",
+        "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+      }
+    ],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 
@@ -313,5 +416,31 @@ REFERENCE IMAGES
     "role": "published_memo_precedent",
     "decoded_in_preflight": true,
     "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p13.jpg",
+    "sha256": "3ac9b64f4a63a76526d4b6aa8a0884302daa53879a7a6cf9d1cceb01e4636a3f",
+    "bytes": 489131,
+    "dimensions": [
+      910,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "visual_storytelling_precedent",
+    "decoded_in_preflight": true,
+    "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p24.jpg",
+    "sha256": "18356812c319a90a87f66f311c59559f6eb04bf29e84816ee984a8ce8a05d22b",
+    "bytes": 514289,
+    "dimensions": [
+      960,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "visual_storytelling_precedent",
+    "decoded_in_preflight": true,
+    "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
   }
 ]

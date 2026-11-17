@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P11 · READING POSITION 11
 
@@ -52,13 +64,15 @@ SCENE AND CONTINUITY
     "page_id": "W10-P11",
     "family": "scenic_transition",
     "dominant_action": "One weather front reaches different parts of the Commonwealth.",
-    "reading_path": "A continuous connector, lake and cloud progression form the reading route; do not turn it into a new labeled map.",
+    "reading_path": "Exposure produces water effects here, not everywhere. → The shared road is the editorial anchor for the transition. → Wetland consequences lag behind exposed ground.",
     "heading_treatment": "A light-touch title inhabits the sky rather than a boxed masthead.",
-    "narration_placement": "Full short narration follows one calm sky or lake band with readable straight lines.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Three flowing landscape windows separated by unmistakable editorial boundaries; no fake continuous map or new borders. The bridge remains the anchor setting; coastal and wetland windows are documented regional comparisons.",
     "protected_subjects": "Established bridge and regional distinctions; no claim all six actual venues are visible or adjacent.",
     "data_treatment": "No invented regional values, routes or odds.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P11",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "shot_structure": "regional_weather_overture",
+    "time_logic": "EDITORIAL_REGIONAL_VIEWS_NOT_ADJACENT"
   },
   "personalization_direction": {
     "page_id": "W10-P11",
@@ -70,6 +84,71 @@ SCENE AND CONTINUITY
       "issue-previs.json#W10-P11"
     ],
     "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P11",
+    "structure": "regional_weather_overture",
+    "time_logic": "EDITORIAL_REGIONAL_VIEWS_NOT_ADJACENT",
+    "visual_question": "How does one front affect different parts of the Commonwealth?",
+    "shots": [
+      {
+        "role": "regional",
+        "pov_owner_ids": [],
+        "camera": "Low coastal retaining-edge detail",
+        "action": "Runoff follows existing damage at the already established coast.",
+        "new_information": "Exposure produces water effects here, not everywhere.",
+        "time_relation": "regional comparison; no single moment claimed",
+        "id": "W10-P11-V01"
+      },
+      {
+        "role": "dominant",
+        "pov_owner_ids": [],
+        "camera": "High oblique at the current bridge connector",
+        "action": "Travelers tighten covers beneath inland gusts and early lamps.",
+        "new_information": "The shared road is the editorial anchor for the transition.",
+        "time_relation": "regional comparison",
+        "id": "W10-P11-V02"
+      },
+      {
+        "role": "regional",
+        "pov_owner_ids": [],
+        "camera": "Low wetland-channel detail without principal cast",
+        "action": "Later runoff moves through familiar southern channels.",
+        "new_information": "Wetland consequences lag behind exposed ground.",
+        "time_relation": "later runoff explicitly not simultaneous",
+        "id": "W10-P11-V03"
+      }
+    ],
+    "layout_direction": "Three flowing landscape windows separated by unmistakable editorial boundaries; no fake continuous map or new borders. The bridge remains the anchor setting; coastal and wetland windows are documented regional comparisons.",
+    "dominant_view": "W10-P11-V02",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P11/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 174,
+          "anchor": "opening perspective or clear adjacent atmosphere"
+        },
+        {
+          "start": 174,
+          "end": 321,
+          "anchor": "main action or consequence reading zone"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "Upper Basin Connector near the mountain-lake approach"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The storm’s noise yields to the temple’s waterfall, then a man-made interruption.",
+    "grammar_references": [],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 

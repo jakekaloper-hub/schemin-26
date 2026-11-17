@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P24 · READING POSITION 25
 
@@ -140,14 +152,16 @@ SCENE AND CONTINUITY
     "page_id": "W10-P24",
     "family": "kinetic_action",
     "dominant_action": "The defender holds the arch while the single surviving battery continues firing; the battle has not gone quiet.",
-    "reading_path": "The inner arch frames one defender against the distant remaining firepower; the sheltered retriever creates a home-scale contrast.",
+    "reading_path": "He protects his threshold without being falsely shown victorious or helpless. → The victor still has resources after both earned counterattacks.",
     "heading_treatment": "Let the held threshold dominate; title and matchup line stay compact in arch shade.",
-    "narration_placement": "Full closing prose and result share clear architectural shadow, not a standard black footer below a cropped battle.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.",
     "protected_subjects": "One smoking ruined emplacement and one surviving battery still firing; separate sheltered retriever, exact identities, no belt on ObiWan Jacoby and no home transfer.",
     "data_treatment": "Exact FINAL score, margin and football context; not an image-invented 'overwhelming' number.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P24",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
-    "rhythm_variant": "sustained_defense_at_the_threshold"
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "sustained_defense_at_the_threshold",
+    "shot_structure": "resistance_and_command_counterview",
+    "time_logic": "SIMULTANEOUS_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P24",
@@ -161,6 +175,77 @@ SCENE AND CONTINUITY
       "issue-previs.json#W10-P22–W10-P24"
     ],
     "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P24",
+    "structure": "resistance_and_command_counterview",
+    "time_logic": "SIMULTANEOUS_SAME_LOCATION",
+    "visual_question": "How can the defense remain brave while the loss remains clear?",
+    "shots": [
+      {
+        "role": "dominant",
+        "pov_owner_ids": [
+          "CHAR-JAKE-KALOPER"
+        ],
+        "camera": "Human-height inward/outward arch view with readable blade, hands and sheltered retriever",
+        "action": "ObiWan Jacoby holds under continuing fire; the first emplacement smokes beyond him.",
+        "new_information": "He protects his threshold without being falsely shown victorious or helpless.",
+        "time_relation": "same moment",
+        "id": "W10-P24-V01"
+      },
+      {
+        "role": "counterpoint",
+        "pov_owner_ids": [
+          "CHAR-DAVID-BABB"
+        ],
+        "camera": "Long command-side view aimed back across the same gap",
+        "action": "The LLC remains in control as the single surviving battery continues firing toward the arch.",
+        "new_information": "The victor still has resources after both earned counterattacks.",
+        "time_relation": "same moment",
+        "id": "W10-P24-V02"
+      }
+    ],
+    "layout_direction": "Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.",
+    "dominant_view": "W10-P24-V01",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P24/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 185,
+          "anchor": "opening perspective or clear adjacent atmosphere"
+        },
+        {
+          "start": 185,
+          "end": 451,
+          "anchor": "main action or consequence reading zone"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "fixed mountain ridge",
+        "outer causeway",
+        "inner stone arch",
+        "existing mountain-base silhouette"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The defended threshold gives way to the practical question of what every team can field next.",
+    "grammar_references": [
+      {
+        "week": 9,
+        "physical_page": 12,
+        "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p12.jpg",
+        "sha256": "839e380eaa9d11b657fc3b554c4a5f057bf75a9187390015678c12adb2f218cd",
+        "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+      }
+    ],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 
@@ -255,5 +340,18 @@ REFERENCE IMAGES
     "role": "published_location_geometry",
     "decoded_in_preflight": true,
     "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p12.jpg",
+    "sha256": "839e380eaa9d11b657fc3b554c4a5f057bf75a9187390015678c12adb2f218cd",
+    "bytes": 486619,
+    "dimensions": [
+      910,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "visual_storytelling_precedent",
+    "decoded_in_preflight": true,
+    "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
   }
 ]

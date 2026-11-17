@@ -1,7 +1,8 @@
 {
   "source_finality": "W10_PROVIDER_FINAL",
   "backend_ready": true,
-  "creative_stage": "DESIGN_AND_PERSONALIZATION_PASS_COMPLETE",
+  "visual_storytelling_source": "visual-storytelling-pass-20261117.json",
+  "creative_stage": "SEQUENTIAL_VISUAL_STORYTELLING_INPUTS_READY",
   "composition_direction_source": "design-review-20261117/composition-directions.json",
   "personalization_source": "personalization-pass-20261117.json",
   "stage": "GRAYSCALE_FOLIO_PROOF_INPUTS",
@@ -35,14 +36,16 @@
       "slot": 1,
       "title": "THE CEILING BREAKS",
       "composition_family": "character_cover",
+      "visual_structure": "editorial_double_exposure",
+      "visual_beat_count": 2,
       "characters": [
         "His Majesty's Blood",
         "The LLC"
       ],
       "request": "render-inputs/W10-P01/request.json",
-      "reference_count": 6,
+      "reference_count": 7,
       "copy_words": 26,
-      "request_sha256": "508562109ffc7bc74fdaa62659ac47987317d06509b662e617fc757014afe23f"
+      "request_sha256": "901fcff8ee468322ccdc546a66d1c35f933f77fdf72ccc565acd0ef4a76c947b"
     },
     {
       "page_id": "W10-P02",
@@ -51,11 +54,13 @@
       "slot": 2,
       "title": "ROOM ABOVE TWO HUNDRED",
       "composition_family": "institutional_briefing",
+      "visual_structure": "inhabited_briefing_master",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P02/request.json",
       "reference_count": 3,
       "copy_words": 149,
-      "request_sha256": "77f763541df734d54779c5ccda875fffaef08510ea299dfea60e9ee1a86aed71"
+      "request_sha256": "f38f55cc2c906b06645d91d97ea1c5de9abf075b883a85f30e28ff29511bce83"
     },
     {
       "page_id": "W10-P03",
@@ -64,11 +69,13 @@
       "slot": 3,
       "title": "KEEP THE WHOLE LEAGUE IN VIEW",
       "composition_family": "institutional_briefing",
+      "visual_structure": "civic_breathing_page",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P03/request.json",
       "reference_count": 2,
       "copy_words": 127,
-      "request_sha256": "5fa546df87406513357b4c85211974d6f4de632286fa66cf3a4986e6e0043279"
+      "request_sha256": "a3599da63eb02b5cece26ec1c341fcba9107e9cee7822c35f6cef9156ed7a5f7"
     },
     {
       "page_id": "W10-P04",
@@ -77,11 +84,13 @@
       "slot": 4,
       "title": "THE WEEK 10 BOARD",
       "composition_family": "record_intelligence",
+      "visual_structure": "documentary_results_master",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P04/request.json",
       "reference_count": 2,
       "copy_words": 35,
-      "request_sha256": "e9f45745f3db23206211308447d37ba5fdd81cf3ab2fbf2c8ed20ab7d71d09d3"
+      "request_sha256": "3f6cec15537632a9658fe43128b0d344ea30d4da4999cd3b224de3ac387aa1f8"
     },
     {
       "page_id": "W10-P05",
@@ -90,14 +99,16 @@
       "slot": 5,
       "title": "Everybody Gets a View",
       "composition_family": "kinetic_action",
+      "visual_structure": "establishing_strip_and_opposed_pov",
+      "visual_beat_count": 3,
       "characters": [
         "The Chili Cheesers",
         "D0nkey K0ng"
       ],
       "request": "render-inputs/W10-P05/request.json",
-      "reference_count": 5,
+      "reference_count": 7,
       "copy_words": 79,
-      "request_sha256": "ba0904bb7cd0606d4985f73c20e88a864d46ac9f771c14f172d7b8f93d58691b"
+      "request_sha256": "4f50634ff8ad5d954e3dd543b73da6e37fec266a4e16821134d6b060f493061e"
     },
     {
       "page_id": "W10-P06",
@@ -106,14 +117,16 @@
       "slot": 6,
       "title": "The Ring Runs Out",
       "composition_family": "kinetic_action",
+      "visual_structure": "causal_three_beat_action",
+      "visual_beat_count": 3,
       "characters": [
         "The Chili Cheesers",
         "D0nkey K0ng"
       ],
       "request": "render-inputs/W10-P06/request.json",
-      "reference_count": 5,
+      "reference_count": 7,
       "copy_words": 73,
-      "request_sha256": "70b59de8c6bcab9a858eeb87e3c60c9d5028f25d4296ec8df369fb70586946d5"
+      "request_sha256": "a38a63edcfa248f591ef849de1b491fad402740d75b940fc89842a3938d11c5c"
     },
     {
       "page_id": "W10-P07",
@@ -122,14 +135,16 @@
       "slot": 1,
       "title": "No Private Exit",
       "composition_family": "quiet_aftermath",
+      "visual_structure": "payoff_master_and_reaction_detail",
+      "visual_beat_count": 2,
       "characters": [
         "The Chili Cheesers",
         "D0nkey K0ng"
       ],
       "request": "render-inputs/W10-P07/request.json",
-      "reference_count": 5,
+      "reference_count": 6,
       "copy_words": 65,
-      "request_sha256": "1cb9837d49f59f02623a3ba8e66b47159a4d3a4fc28a02b1c4349a013494b0dc"
+      "request_sha256": "d7e8a85766fc1476e05440cfe9e82588d5070c871d47c51324f45d336cb2e956"
     },
     {
       "page_id": "W10-P08",
@@ -138,14 +153,16 @@
       "slot": 2,
       "title": "One More Bag",
       "composition_family": "kinetic_action",
+      "visual_structure": "repair_opposition_and_detail",
+      "visual_beat_count": 3,
       "characters": [
         "Red Leopards",
         "El Niño"
       ],
       "request": "render-inputs/W10-P08/request.json",
-      "reference_count": 4,
+      "reference_count": 5,
       "copy_words": 91,
-      "request_sha256": "6341400aaa0fa6f4c7831e1b36602fcac1d43aaf9b20d781bfe0930637085f3a"
+      "request_sha256": "f0fc1f73d29505e0f64864a0c18e99e62e7e71542d89fa8fee05114d7bec7bfd"
     },
     {
       "page_id": "W10-P09",
@@ -154,14 +171,16 @@
       "slot": 3,
       "title": "The Place That Answered Once",
       "composition_family": "vertical_conflict",
+      "visual_structure": "arrival_then_impact",
+      "visual_beat_count": 2,
       "characters": [
         "Red Leopards",
         "El Niño"
       ],
       "request": "render-inputs/W10-P09/request.json",
-      "reference_count": 4,
+      "reference_count": 5,
       "copy_words": 65,
-      "request_sha256": "535f1b089c8620c8704fd557aa43def15671ea40f1834ea619e10aca3bdb05fe"
+      "request_sha256": "a34b65a084c772be020f114ff9ad67df0737077141fcfbbe4f26442059cb9877"
     },
     {
       "page_id": "W10-P10",
@@ -170,14 +189,16 @@
       "slot": 4,
       "title": "That Cold Again",
       "composition_family": "quiet_aftermath",
+      "visual_structure": "aftermath_and_opposing_look",
+      "visual_beat_count": 2,
       "characters": [
         "Red Leopards",
         "El Niño"
       ],
       "request": "render-inputs/W10-P10/request.json",
-      "reference_count": 4,
+      "reference_count": 5,
       "copy_words": 76,
-      "request_sha256": "b398043ac6016e6e877519f0026b2921bb0a3b6bed28250d13890e5b28103033"
+      "request_sha256": "ea194f32f622068ea467839393c6d4245bb7609ca38192225b98f7c2bbf186ad"
     },
     {
       "page_id": "W10-P11",
@@ -186,11 +207,13 @@
       "slot": 5,
       "title": "THE ROADS BETWEEN",
       "composition_family": "scenic_transition",
+      "visual_structure": "regional_weather_overture",
+      "visual_beat_count": 3,
       "characters": [],
       "request": "render-inputs/W10-P11/request.json",
       "reference_count": 2,
       "copy_words": 52,
-      "request_sha256": "d4f84db8316b346dc75c650cf70c35caab13d46809891e312068beb77d8d6550"
+      "request_sha256": "04018a538b86e7e7d55085f05df834b61babc502102f38bb347b833469e7171c"
     },
     {
       "page_id": "W10-P12",
@@ -199,14 +222,16 @@
       "slot": 6,
       "title": "Just as the House Settles",
       "composition_family": "vertical_conflict",
+      "visual_structure": "vertical_opposed_pov_overture",
+      "visual_beat_count": 2,
       "characters": [
         "Three Dreaded Snake",
         "Seven Deadly Chins"
       ],
       "request": "render-inputs/W10-P12/request.json",
-      "reference_count": 4,
+      "reference_count": 5,
       "copy_words": 68,
-      "request_sha256": "dc1532d555973a01d91138a51488181a6e7fb3828fa4df41271228c775f95dce"
+      "request_sha256": "eb80d37e8bf804931951aaf064e60f664f5b6720cb7cbeb3ec88a607f562b948"
     },
     {
       "page_id": "W10-P13",
@@ -215,14 +240,16 @@
       "slot": 1,
       "title": "He Heard You",
       "composition_family": "vertical_conflict",
+      "visual_structure": "pause_hope_choice_sequence",
+      "visual_beat_count": 3,
       "characters": [
         "Three Dreaded Snake",
         "Seven Deadly Chins"
       ],
       "request": "render-inputs/W10-P13/request.json",
-      "reference_count": 4,
+      "reference_count": 5,
       "copy_words": 75,
-      "request_sha256": "e9befd6df21237e7bb13a980b6aadce51379b74c6465ee183e3e056768caa471"
+      "request_sha256": "da93996325d1fe078067d25cbb4e876eaee34833c9658a665728c575c9065f63"
     },
     {
       "page_id": "W10-P14",
@@ -231,6 +258,8 @@
       "slot": 2,
       "title": "No Quiet Hours",
       "composition_family": "vertical_conflict",
+      "visual_structure": "single_climactic_vertical_master",
+      "visual_beat_count": 1,
       "characters": [
         "Three Dreaded Snake",
         "Seven Deadly Chins"
@@ -238,7 +267,7 @@
       "request": "render-inputs/W10-P14/request.json",
       "reference_count": 4,
       "copy_words": 78,
-      "request_sha256": "6abb3aabeacbac513fb1ab6b11053e252ce00b9e22cefd4e012f490f63048130"
+      "request_sha256": "abb61093c1c22212a3338d13743d823e6f083f829e4c70fb08c63003846e8ad5"
     },
     {
       "page_id": "W10-P15",
@@ -247,14 +276,16 @@
       "slot": 3,
       "title": "The Swamp Declares a Blockade",
       "composition_family": "kinetic_action",
+      "visual_structure": "low_high_opposed_pov",
+      "visual_beat_count": 2,
       "characters": [
         "Mud Dogs",
         "Slob on my Dobb"
       ],
       "request": "render-inputs/W10-P15/request.json",
-      "reference_count": 4,
+      "reference_count": 6,
       "copy_words": 74,
-      "request_sha256": "b16a11dc8d1122653f7d1c456defad231c970a8c088b7d7631ff5de405489ce3"
+      "request_sha256": "b2d8430f10f90a31c7e2cb0af097f13464ad8419d552d4fd7757a060da5bb98d"
     },
     {
       "page_id": "W10-P16",
@@ -263,14 +294,16 @@
       "slot": 4,
       "title": "Same Speed",
       "composition_family": "kinetic_action",
+      "visual_structure": "routine_pass_three_beat",
+      "visual_beat_count": 3,
       "characters": [
         "Mud Dogs",
         "Slob on my Dobb"
       ],
       "request": "render-inputs/W10-P16/request.json",
-      "reference_count": 4,
+      "reference_count": 5,
       "copy_words": 80,
-      "request_sha256": "7a2200b36b95c5c3cdfc86ccc09396147c150813aad8a913460103865c4b9590"
+      "request_sha256": "716a62b0342cbde286234c971c7bcb193266ef578f222b6bf93c653a852cbc4a"
     },
     {
       "page_id": "W10-P17",
@@ -279,6 +312,8 @@
       "slot": 5,
       "title": "Cancún Is Calling",
       "composition_family": "quiet_aftermath",
+      "visual_structure": "single_receding_aftermath",
+      "visual_beat_count": 1,
       "characters": [
         "Mud Dogs",
         "Slob on my Dobb"
@@ -286,7 +321,7 @@
       "request": "render-inputs/W10-P17/request.json",
       "reference_count": 4,
       "copy_words": 71,
-      "request_sha256": "9afd6edd2e23c72c1321684f0fe7c4dda201dfe3f5242017ed2649b7b4e70b0b"
+      "request_sha256": "71ccc4d6b3c7465f6a32650f8c674f0412814fca3cb2ab36a6e2e8aaf3b816fd"
     },
     {
       "page_id": "W10-P18",
@@ -295,11 +330,13 @@
       "slot": 6,
       "title": "WHY THE BOARD MOVED",
       "composition_family": "record_intelligence",
+      "visual_structure": "documentary_performance_master",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P18/request.json",
       "reference_count": 1,
       "copy_words": 70,
-      "request_sha256": "3874fc57912646e636d19d5843df933779d0302e91e7842ae373b29b2b2742f1"
+      "request_sha256": "7fbf615bafb198f113eea9c8864fe87a742cb29800a304ccc4bf223b5e9fc2c5"
     },
     {
       "page_id": "W10-P34",
@@ -308,11 +345,13 @@
       "slot": 1,
       "title": "THE COST OF SUNDAY",
       "composition_family": "record_intelligence",
+      "visual_structure": "current_report_and_retained_record",
+      "visual_beat_count": 2,
       "characters": [],
       "request": "render-inputs/W10-P34/request.json",
       "reference_count": 2,
       "copy_words": 93,
-      "request_sha256": "b18b4b41608408509b6557510720ae23f640c2785a70d767e11385e519aaff23"
+      "request_sha256": "a6b637e05eccbacae8635edb07af7067b738a0ab5326c58f4d326c9b53eadfb3"
     },
     {
       "page_id": "W10-P19",
@@ -321,14 +360,16 @@
       "slot": 2,
       "title": "A Very Generous Guest",
       "composition_family": "institutional_briefing",
+      "visual_structure": "host_guest_pov_overture",
+      "visual_beat_count": 2,
       "characters": [
         "Dr. Duckhook",
         "His Majesty's Blood"
       ],
       "request": "render-inputs/W10-P19/request.json",
-      "reference_count": 5,
+      "reference_count": 6,
       "copy_words": 77,
-      "request_sha256": "11e9dbf6b3ed8d1d4ab3d370ec1c1ccc8494e73fa9220f694a11624fcd6bb9a8"
+      "request_sha256": "2046497062e9db2e914394b7077f08120b81d5be694fe7575bc20be4abf24a68"
     },
     {
       "page_id": "W10-P20",
@@ -337,14 +378,16 @@
       "slot": 3,
       "title": "The 200 Burger",
       "composition_family": "character_cover",
+      "visual_structure": "opening_reveal_reaction",
+      "visual_beat_count": 3,
       "characters": [
         "Dr. Duckhook",
         "His Majesty's Blood"
       ],
       "request": "render-inputs/W10-P20/request.json",
-      "reference_count": 5,
+      "reference_count": 7,
       "copy_words": 63,
-      "request_sha256": "ed3e5c813d461615f081f45ff88e21787928f43bdbb70f33f1f1fa64c331474f"
+      "request_sha256": "0b64636454ef88fbed515eb5c794097eedaaadebf2ef27df3270bb4ae2654047"
     },
     {
       "page_id": "W10-P21",
@@ -353,14 +396,16 @@
       "slot": 4,
       "title": "Many Unhappy Returns",
       "composition_family": "kinetic_action",
+      "visual_structure": "single_contact_payoff",
+      "visual_beat_count": 1,
       "characters": [
         "Dr. Duckhook",
         "His Majesty's Blood"
       ],
       "request": "render-inputs/W10-P21/request.json",
-      "reference_count": 5,
+      "reference_count": 6,
       "copy_words": 69,
-      "request_sha256": "cd5c9d38863c652e9e0324d7f10fa9acd8b43e5eae66012bee51aac599e7641d"
+      "request_sha256": "6dd4a82c006774a7f3bbab962de2cd24a63cf7fe683336e5914db056b3508e9d"
     },
     {
       "page_id": "W10-P22",
@@ -369,14 +414,16 @@
       "slot": 5,
       "title": "The Empire Opens Fire",
       "composition_family": "kinetic_action",
+      "visual_structure": "opposed_forces_then_first_counter",
+      "visual_beat_count": 3,
       "characters": [
         "ObiWan Jacoby",
         "The LLC"
       ],
       "request": "render-inputs/W10-P22/request.json",
-      "reference_count": 4,
+      "reference_count": 6,
       "copy_words": 65,
-      "request_sha256": "f83b53a46afefa47fc555567150cf9057e48c4601b4be9e8d320f7704479c154"
+      "request_sha256": "6e8a58db08d511b8ba19d8628feaff709ec12cd303a5fcc2f75266ef896a686d"
     },
     {
       "page_id": "W10-P23",
@@ -385,14 +432,16 @@
       "slot": 6,
       "title": "Two Ways Through",
       "composition_family": "kinetic_action",
+      "visual_structure": "counterattack_command_response",
+      "visual_beat_count": 3,
       "characters": [
         "ObiWan Jacoby",
         "The LLC"
       ],
       "request": "render-inputs/W10-P23/request.json",
-      "reference_count": 4,
+      "reference_count": 5,
       "copy_words": 66,
-      "request_sha256": "1b447b4c3f1fb163f02f72480dfaf7cf6441cec6329614b9e49fb3d2b7e18a82"
+      "request_sha256": "017350f2f55da209bd37675a718877eb6561b3001eb7d961f3ad191e3d1469dd"
     },
     {
       "page_id": "W10-P24",
@@ -401,14 +450,16 @@
       "slot": 1,
       "title": "Unlimited Firepower",
       "composition_family": "kinetic_action",
+      "visual_structure": "resistance_and_command_counterview",
+      "visual_beat_count": 2,
       "characters": [
         "ObiWan Jacoby",
         "The LLC"
       ],
       "request": "render-inputs/W10-P24/request.json",
-      "reference_count": 3,
+      "reference_count": 4,
       "copy_words": 74,
-      "request_sha256": "b23d812edfacdd5a1013e2c48c28e968279abcb7fb26327092b19d7a8a40e03e"
+      "request_sha256": "5353be1a1bbbbb3ef315f6a4cdcbadedf57391a4aeee1c4a176be58c718a29f9"
     },
     {
       "page_id": "W10-P25",
@@ -417,11 +468,13 @@
       "slot": 2,
       "title": "THE NEXT STARTING SHEET",
       "composition_family": "record_intelligence",
+      "visual_structure": "logistics_detail_and_records_master",
+      "visual_beat_count": 2,
       "characters": [],
       "request": "render-inputs/W10-P25/request.json",
       "reference_count": 1,
       "copy_words": 51,
-      "request_sha256": "ee6cb51c947f7ce553f17d8921f0429c2a63449cac9b788368a40d51f35d6e84"
+      "request_sha256": "68584a88cb6826e0b19c55900825ecbd75ffb62e96decdaefd28f7d5b230f645"
     },
     {
       "page_id": "W10-P26",
@@ -430,11 +483,13 @@
       "slot": 3,
       "title": "MOVES THAT REACHED THE ROSTER",
       "composition_family": "record_intelligence",
+      "visual_structure": "record_arrival_and_transaction_trails",
+      "visual_beat_count": 2,
       "characters": [],
       "request": "render-inputs/W10-P26/request.json",
       "reference_count": 1,
       "copy_words": 47,
-      "request_sha256": "8dff85f437ed603a40cf65afbfe39574a0b055f1e26910b38748a9f6ba75ffd8"
+      "request_sha256": "f68a9f91566bbb89f14eed4be0b7465514dada2180c3b105027a669e272419f3"
     },
     {
       "page_id": "W10-P27",
@@ -443,11 +498,13 @@
       "slot": 4,
       "title": "TWELVE TEAMS. TEN POSTED RESULTS.",
       "composition_family": "record_intelligence",
+      "visual_structure": "single_official_table_master",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P27/request.json",
       "reference_count": 1,
       "copy_words": 49,
-      "request_sha256": "51546a5c568b4c7e8972c81e9f171f70b1ecd64214b36d5f50d4a3c95322f0f5"
+      "request_sha256": "c24f655cf7d0e1e800eba83453e01796829ac2a120e936d5354512cf3caedaa3"
     },
     {
       "page_id": "W10-P28",
@@ -456,11 +513,13 @@
       "slot": 5,
       "title": "THREE DIVISIONS. DIFFERENT PRESSURES.",
       "composition_family": "record_intelligence",
+      "visual_structure": "single_shared_terrace_three_pressures",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P28/request.json",
       "reference_count": 1,
       "copy_words": 38,
-      "request_sha256": "c4aa97900b8a4f8592172766f52f9ddc94611ec051f8da82bb5cb1602c9291e9"
+      "request_sha256": "aa6832c4963b2c32ff8cfb8fe70cd104e9c400b06c6d9ce1d9eeabe77089efa3"
     },
     {
       "page_id": "W10-P29",
@@ -469,11 +528,13 @@
       "slot": 6,
       "title": "THE TWELVE — SCORING FORM",
       "composition_family": "record_intelligence",
+      "visual_structure": "single_scoring_form_landscape",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P29/request.json",
       "reference_count": 1,
       "copy_words": 55,
-      "request_sha256": "96a094e9d316edafe7a16a3ae27ca72b019ed476025611c108e39f2673070285"
+      "request_sha256": "5bf5dd383c4b805cd9fc875e2e5e56b2caf1f5af8c9542eabd46419078354e3a"
     },
     {
       "page_id": "W10-P30",
@@ -482,11 +543,13 @@
       "slot": 1,
       "title": "FOUR MORE AFTER THIS",
       "composition_family": "scenic_transition",
+      "visual_structure": "single_depth_playoff_road",
+      "visual_beat_count": 1,
       "characters": [],
       "request": "render-inputs/W10-P30/request.json",
       "reference_count": 1,
       "copy_words": 47,
-      "request_sha256": "e2b9cbd37471393b32091083dec802c14f5a81f9ec832845ad24fcfca4766316"
+      "request_sha256": "e4c20acd83f4a052e6fe79a4ab143216a8c2bed21f9a3aa08d5cf9e78ff89b2c"
     },
     {
       "page_id": "W10-P31",
@@ -495,11 +558,13 @@
       "slot": 2,
       "title": "THE NEXT SIX",
       "composition_family": "fixture_dispatch",
+      "visual_structure": "dispatch_intent_and_outward_master",
+      "visual_beat_count": 2,
       "characters": [],
       "request": "render-inputs/W10-P31/request.json",
       "reference_count": 1,
       "copy_words": 87,
-      "request_sha256": "35ecbfceffcc2dbea255f23065ee295a3c47c7305971448105f6e1f205466f7a"
+      "request_sha256": "8dc4f87957662efafb19c1c431e1e7d4d02a9fbcedc92f6d688f018c17ce630b"
     },
     {
       "page_id": "W10-P35",
@@ -508,14 +573,16 @@
       "slot": 3,
       "title": "THE CROSSING NARROWS",
       "composition_family": "character_cover",
+      "visual_structure": "bridge_establish_and_opposed_pov",
+      "visual_beat_count": 3,
       "characters": [
         "His Majesty's Blood",
         "D0nkey K0ng"
       ],
       "request": "render-inputs/W10-P35/request.json",
-      "reference_count": 5,
+      "reference_count": 7,
       "copy_words": 62,
-      "request_sha256": "9444b9817d6b4ef8ec984a3c62b0fef92766750c063c95e3fa8194abe4567fdc"
+      "request_sha256": "b55fc50a2be752686fe8720b46ca329ab34abb90fa48f43d43814fe3f375d217"
     },
     {
       "page_id": "W10-P33",
@@ -524,13 +591,15 @@
       "slot": 4,
       "title": "THE WEATHER IS COMING HOME",
       "composition_family": "quiet_aftermath",
+      "visual_structure": "single_quiet_return_of_weather",
+      "visual_beat_count": 1,
       "characters": [
         "Slob on my Dobb"
       ],
       "request": "render-inputs/W10-P33/request.json",
       "reference_count": 3,
       "copy_words": 60,
-      "request_sha256": "2021c1a333b47769a5d1b1f792b3ae8744dccd8c8a3b4182988f5ba7631a9257"
+      "request_sha256": "79c4722e62481d4900fa393f8e40a76c4ea26132a71fc31a3c6ba6a2fe8c5419"
     }
   ],
   "source_images_resolved": true,

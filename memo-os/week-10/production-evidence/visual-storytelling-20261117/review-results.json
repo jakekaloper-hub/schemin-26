@@ -1,0 +1,173 @@
+{
+  "scope": "Bounded eight-role shot/POV review, not visual acceptance",
+  "results": [
+    {
+      "id": "the_architect",
+      "kind": "director",
+      "q": "What distinction must the render contract encode between one complete folio and one camera view? Name a concrete enforcement check that prevents the old poster default.",
+      "status": "returned",
+      "response": "The render contract must encode a clear distinction between a complete folio and a single camera view. This distinction can be enforced by requiring that a complete folio must include at least three distinct camera views, each with a unique perspective and action. To prevent the old poster default, the contract should specify that any folio with fewer than three distinct camera views must be rejected and returned for revision. As a recommendation, I propose that the staging for the folio include a wide establishing shot, a mid-shot of a character in action, and a close-up of a key prop or detail. This will ensure that each page of the folio provides a unique and engaging visual experience, while also preserving the integrity of the original prose and its reading order.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:48:46.365Z",
+      "finished_at": "2026-11-17T17:49:03.641Z",
+      "input_sha256": "698790dd73bf9945ebb591ffd8e1222cb76125c0795ec1ee89db39069047d2a9",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "id": "the_beat_writer",
+      "kind": "director",
+      "q": "Compare the temple pause/encore with the birthday gift/reaction. Which visible reaction shot carries the personal turn, rather than leaving it in the paragraph?",
+      "status": "returned",
+      "response": "In the \"Temple\" sequence, the pause followed by the volume control restart carries a more personal turn, as it involves a character's internal reaction to the situation, rather than an external action. In contrast, the \"Birthday\" sequence, where the cake-contact image is the primary visible reaction, relies more on the visual impact of the gift rather than the character's emotional response. My recommendation is to use the pause and volume control restart in the \"Temple\" sequence to create a more intimate and personal moment, while keeping the cake-contact image as a visual highlight in the \"Birthday\" sequence to emphasize the gift itself.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:49:03.645Z",
+      "finished_at": "2026-11-17T17:49:15.416Z",
+      "input_sha256": "748572bf1b50c66ea0dddc2279a0385e212845d1831fe3b23f222dfa7fa3f0cf",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "id": "the_librarian",
+      "kind": "director",
+      "q": "For Red Leopards, how should the split POV and travel cut avoid merging the soccer terrace and Forgotten Court or inventing a historical scene?",
+      "status": "returned",
+      "response": "To avoid merging the soccer terrace and Forgotten Court, the split POV and travel cut should clearly delineate the two locations. Use a prop, such as a large, distinctive banner or a unique architectural feature, to create a visual barrier between the two areas. For the travel cut, employ a character or prop that moves from one location to the other, ensuring the transition is smooth and the two scenes remain distinct.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:49:15.419Z",
+      "finished_at": "2026-11-17T17:49:25.117Z",
+      "input_sha256": "e2d4d1a8b860495cca617c42959161d0361c71e56c14e18736950e24397a8202",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "id": "production_editing",
+      "kind": "production_methodology",
+      "q": "Apply the inspected Week9 three-image escalation precedent to the rodeo. Specify distinct causal views, not three crops of the same instant. How should the final folio contrast?",
+      "status": "returned",
+      "response": "To apply the Week9 precedent to the rodeo sequence, we need to create distinct causal views that escalate the tension and reveal new information. For instance, in P05, we could have a close-up of the rope in Jake's hand, establishing his intent, followed by a wide shot of the arena to show the audience's reaction, and then a split perspective showing both Jake and the bull in the final moments of the chase. This contrast would highlight the escalating danger and the audience's growing concern.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:49:25.119Z",
+      "finished_at": "2026-11-17T17:49:32.081Z",
+      "input_sha256": "49fe240c6be0f8b88d1456d0753364c2202a588e12f425d9d04dc92b2f8581d7",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "id": "production_camera_blocking",
+      "kind": "production_methodology",
+      "q": "Stage the mountain sequence so the first battery is visibly destroyed and the surviving battery responds to the ridge attack. What geography and time cues prevent accidental resurrection or a third battery?",
+      "status": "returned",
+      "response": "For the mountain sequence, establish the first battery's destruction through a series of explosive shots, revealing crumbled structures and debris. The surviving battery's response should be staged with a clear line of sight to the ridge attack, using elevated positions like command posts or elevated gun emplacements to emphasize their readiness. To prevent accidental resurrection or a third battery, incorporate time cues such as a ticking clock or a countdown timer, and use geography to isolate the surviving battery, perhaps by placing them on a hilltop with a clear view of the ridge but no direct path to reinforcements.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:49:32.086Z",
+      "finished_at": "2026-11-17T17:49:36.681Z",
+      "input_sha256": "aebb2f8a5dca7513460eb229ac26b943dbfb0bd1ec91e2ee539ce63c3809ed83",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "id": "production_performance",
+      "kind": "production_methodology",
+      "q": "Make the beer delivery POV overture and passing sequence visibly funny without combat, speed tricks, cargo loss or harming the hound. Name the useful driver reaction and the final wide image.",
+      "status": "returned",
+      "response": "For the beer delivery POV overture, use a humorous miscommunication between the driver and the hound, with the hound accidentally knocking over a sign as it rushes to the vehicle. The driver's reaction should be a mix of surprise and mild frustration, perhaps with a mischievous grin, as they realize the hound's clumsy attempt at delivering the package. The final wide image should show the hound, now with a mischievous look, sitting on the porch with the beer, while the driver, still chuckling, leans against the vehicle, both sharing a look of mutual amusement.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:49:36.682Z",
+      "finished_at": "2026-11-17T17:49:42.684Z",
+      "input_sha256": "a3237423619ffb725511553e64c1e43e9d0bca9ef79838af8dda923c8bb9f87b",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "id": "inklings_pov_causality",
+      "kind": "inklings_methodology",
+      "q": "Using the supplied existing episodes, explain how subjective POV, action and reaction add character depth while one geography stays intact. Give a specific split-view example, not invented dialogue.",
+      "status": "returned",
+      "response": "In \"Week9: physical13,\" the sequential images of damage/intent, dominant leap to hood, and driver reaction create a vivid narrative arc through subjective POV. The first panel, from the driver's perspective, shows the intent and damage, establishing the stakes. The second, from the pedestrian's viewpoint, highlights the leap to the hood, showcasing the immediate threat. The third, from the driver's reaction, reveals the aftermath and emotional toll, deepening the character's arc. This split-view staging not only adds depth but also maintains the same geography, focusing on the psychological impact of the event.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:49:42.687Z",
+      "finished_at": "2026-11-17T17:49:49.015Z",
+      "input_sha256": "baac302ce9cb40af7b3cff6d533c32faac4b5d92b72c2d72c79fb344e2b6471c",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "id": "inklings_whole_issue_rhythm",
+      "kind": "inklings_methodology",
+      "q": "How should single-image breathing pages and documentary departments connect the whole issue without forcing every page into a panel grid? Connect the opening weather/props to the final camp without invented travel.",
+      "status": "returned",
+      "response": "To connect the opening weather/props to the final camp without forcing every page into a panel grid, the issue can use documentary departments to weave together the narrative through subtle transitions and visual echoes. For instance, the opening weather conditions can be subtly referenced in the final camp scenes through the use of similar atmospheric effects or props, such as a single cloud or a flickering light, which can be seen as a visual thread throughout the issue. Additionally, the issue can use the roads between different locations as a natural transition, allowing the reader to move from one setting to another without the need for a rigid panel grid. By using these methods, the issue can maintain a sense of continuity and flow, connecting the opening weather/props to the final camp without forcing every page into a panel grid.",
+      "model": "qwen2.5-coder:7b",
+      "started_at": "2026-11-17T17:49:49.017Z",
+      "finished_at": "2026-11-17T17:49:57.320Z",
+      "input_sha256": "ff43d4809ae1b73d81f40e59c18cdf65c27dcd52ea658c604e1e5b6e43112548",
+      "pixels_supplied": false,
+      "real_person_participation": false
+    }
+  ],
+  "events": [
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_architect",
+        "messageLength": 3622,
+        "responseLength": 779,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 17271
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_beat_writer",
+        "messageLength": 3616,
+        "responseLength": 647,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 11771
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 3597,
+        "responseLength": 422,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 9698
+      }
+    ]
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_architect",
+      "messageLength": 3622,
+      "responseLength": 779,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 17271
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_beat_writer",
+      "messageLength": 3616,
+      "responseLength": 647,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 11771
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_librarian",
+      "messageLength": 3597,
+      "responseLength": 422,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 9698
+    }
+  ]
+}

@@ -10,9 +10,11 @@ Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standin
 
 Personalization focus: Make the two 200-point performances personally different, not two generic conquerors.
 
-Scene-led reading path: Read the champion silhouette, then the seated executive, then the two named final scores; the eye moves across one editorial composition, not a fictitious meeting.
+Visual shot sequence: editorial_double_exposure
 
-Narration placement: A short calm shadow region between the story territories holds the complete cover paragraph.
+Scene-led reading path: The first 200-point performance has a social, teasing signature. → The other performance expresses controlled force, not the same victory pose.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One cover with two distinct story territories joined by weather and tonal atmosphere; not a literal meeting or two equal portrait cards. Keep both exact named scores by their own subject.
 
 Cast: His Majesty's Blood, The LLC
 
@@ -28,9 +30,11 @@ Editorial briefing-table composition matching the published Weeks 7–9 Opening 
 
 Personalization focus: Let the opening connect the issue’s shared pressure without replaying every payoff.
 
-Scene-led reading path: Enter through the sealed Week 10 folio, follow the map toward the banners, then read two balanced calm areas around the table perspective.
+Visual shot sequence: inhabited_briefing_master
 
-Narration placement: Full narration uses clear upper/lateral shadow, not automatic bottom columns; preserve published editorial legibility.
+Scene-led reading path: A common world frames six different consequences without six miniature posters.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Keep the recognizable published Opening Drive as one inhabited composition. Foreground objects and distant banners guide the eye; full narration lives around—not below a detached picture of—the table.
 
 Cast: No invented principal character
 
@@ -46,9 +50,11 @@ Eye-level three-quarter institutional interior; opened door and map wall establi
 
 Personalization focus: Address the league as people who will remember the week, not as a production-system report.
 
-Scene-led reading path: The desk and open threshold create an asymmetrical reading area beside the visible civic interior.
+Visual shot sequence: civic_breathing_page
 
-Narration placement: Place the whole address in a quiet wall/desk-shadow field, with architecture continuing behind and beside the words.
+Scene-led reading path: An ordinary action makes the civic space feel inhabited while the address carries the argument.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A calm full scene with asymmetrical reading space; no invented commissioner portrait or reaction montage.
 
 Cast: No invented principal character
 
@@ -64,9 +70,11 @@ Broad landscape across the open ceremonial field toward the existing arbiter pav
 
 Personalization focus: Make the six exact results the neutral reference point for the stories.
 
-Scene-led reading path: Use one dominant aligned results surface within the pavilion sightline; the public approach and viewers create depth around it.
+Visual shot sequence: documentary_results_master
 
-Narration placement: The complete brief paragraph sits beside or above the results in continuous pavilion shade, not a detached footer.
+Scene-led reading path: All twelve teams are accounted for without making six fictional aftermath pictures.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. The single scoreboard surface is the visual information, not a backdrop for another caption. Preserve all rows, hierarchy and exact digits.
 
 Cast: No invented principal character
 
@@ -82,9 +90,11 @@ Low rail-side wide diagonal, The Chili Cheesers ahead on screen-left, D0nkey K0n
 
 Personalization focus: Public confidence gives way to an urgent search for the established exit.
 
-Scene-led reading path: The gate direction and moving lasso lead from the fleeing outlaw toward the pursuer along the existing screen axis.
+Visual shot sequence: establishing_strip_and_opposed_pov
 
-Narration placement: Narration occupies an upper gallery-shadow wedge; retain ground and hoof/boot movement instead of reserving a standard lower paragraph box.
+Scene-led reading path: The reader knows the only visible exit before the chase tightens. → Escape and audience-consciousness are his immediate priorities. → His control of rope and ground is the opposing intention.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A narrow spatial overture above two unequal connected POV areas. Shared gate and gallery landmarks identify the same instant; avoid decorative profile portraits. Keep typography subordinate to the pursuit.
 
 Cast: The Chili Cheesers, D0nkey K0ng
 
@@ -100,9 +110,11 @@ Lateral view from the same side of the pursuit axis; catch and skidding boot leg
 
 Personalization focus: Loss of footing is also loss of control over the spectacle.
 
-Scene-led reading path: Follow the taut line to the torso catch and slipping boot; preserve the same side of the pursuit axis.
+Visual shot sequence: causal_three_beat_action
 
-Narration placement: Read complete prose in a quiet lateral gallery space; words never cross rope, hands, face or skidding foot.
+Scene-led reading path: Capture occurs before the runner loses his footing. → His momentum supplies the physical cause of the fall. → The rope stays controlled by the centaur; tying has not magically happened.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small cause view, dominant slipping action, compact counterforce view. No separate witness-reaction panel here; the rope route and cause must be immediately readable.
 
 Cast: The Chili Cheesers, D0nkey K0ng
 
@@ -118,9 +130,11 @@ Low public aftermath: The Chili Cheesers lies foreground with the wet rope secur
 
 Personalization focus: Public humiliation, not personal injury, is the payoff.
 
-Scene-led reading path: A low-wide view begins with the tied outlaw and hat, then reaches D0nkey K0ng and the watching galleries.
+Visual shot sequence: payoff_master_and_reaction_detail
 
-Narration placement: Full prose follows open arena-shadow to the side of the captive; final receipt is a distinct exact reading point, not a compulsory footer panel.
+Scene-led reading path: The full body mechanics prove the payoff has been earned. → The emotional cost is public embarrassment rather than invented injury.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Give the aftermath most of the folio; one smaller reaction window adds information, not another full pose. Put the exact FINAL receipt once in readable arena shadow.
 
 Cast: The Chili Cheesers, D0nkey K0ng
 
@@ -136,9 +150,11 @@ Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a s
 
 Personalization focus: Repair is an assertion of pride, not passive suffering.
 
-Scene-led reading path: Let the low water contour carry the eye from hands to tire rut and damaged goal, without rotating the text.
+Visual shot sequence: repair_opposition_and_detail
 
-Narration placement: Full prose in calm rain-shadow to one side; history remains text, not an invented flashback.
+Scene-led reading path: His effort is specific and deliberate, not a defeated pose. → The opponent sees a failing boundary rather than a repair triumph. → The precise failure is visible without a tidal wall.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A dominant working view, narrow opposing view and small water-path detail. Reuse the known terrace geometry. No basketball hoop, invented historical storm or disembodied face in a cloud.
 
 Cast: Red Leopards, El Niño
 
@@ -154,9 +170,11 @@ Echo the Week7 court angle; near-left arrival, hoop upper/right, branch trajecto
 
 Personalization focus: The familiar court offers recognition immediately before another loss.
 
-Scene-led reading path: The wall-mounted hoop and descending limb organize a vertical page; Red Leopards' glance leads upward.
+Visual shot sequence: arrival_then_impact
 
-Narration placement: Narration sits in a legible side-wall shadow, not below a self-contained picture.
+Scene-led reading path: The later destination is recognizable and separate from the soccer field. → Arrival turns into another material loss, with the force and target visible.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a smaller arrival view and a tall dominant branch-impact composition. The word Later remains in the existing prose; the source’s court—not an invented game—controls geometry.
 
 Cast: Red Leopards, El Niño
 
@@ -172,9 +190,11 @@ Lower still aftermath along the same axis: Red Leopards seated, damaged hoop rig
 
 Personalization focus: Quiet recognition is different from surrender.
 
-Scene-led reading path: The small seated figure and wrong-hanging hoop create deliberate empty space; embodied El Niño stays across the court.
+Visual shot sequence: aftermath_and_opposing_look
 
-Narration placement: Use clear wet-court reflection/shadow for the full narrative, preserving breathing room around the character.
+Scene-led reading path: The loss registers as accumulated damage and remembered disappointment. → The victor and loser experience the same aftermath differently.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Let one quiet image dominate and use a restrained opposing view. Keep the exact 2022 memory in text only; do not stage a fictional historical event or mark the current season over.
 
 Cast: Red Leopards, El Niño
 
@@ -190,9 +210,11 @@ High oblique along the known connector approaching the stone bridge, with road, 
 
 Personalization focus: Give the audience a breath and show that one world receives different weather.
 
-Scene-led reading path: A continuous connector, lake and cloud progression form the reading route; do not turn it into a new labeled map.
+Visual shot sequence: regional_weather_overture
 
-Narration placement: Full short narration follows one calm sky or lake band with readable straight lines.
+Scene-led reading path: Exposure produces water effects here, not everywhere. → The shared road is the editorial anchor for the transition. → Wetland consequences lag behind exposed ground.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Three flowing landscape windows separated by unmistakable editorial boundaries; no fake continuous map or new borders. The bridge remains the anchor setting; coastal and wetland windows are documented regional comparisons.
 
 Cast: No invented principal character
 
@@ -208,9 +230,11 @@ Ground-level upward diagonal joining drill point, Seven Deadly Chins grin, balco
 
 Personalization focus: An ordinary settling household is interrupted by an unnecessary visitor.
 
-Scene-led reading path: Link jackhammer point, Seven Deadly Chins' grin and the family balcony along one upward diagonal.
+Visual shot sequence: vertical_opposed_pov_overture
 
-Narration placement: Narration uses the calm wall between the levels; the child and partner remain protected/offscreen.
+Scene-led reading path: The source of the new noise and the vertical distance are established. → The father’s perspective connects the interruption to the doorway behind him.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Vertically opposed views use shared stair, rail and doorway anchors. Separate the angles without placing two copies of either character in one scene. Family remains inside/offscreen.
 
 Cast: Three Dreaded Snake, Seven Deadly Chins
 
@@ -226,9 +250,11 @@ Over Three Dreaded Snake shoulder from balcony toward Seven Deadly Chins below; 
 
 Personalization focus: Acknowledgement followed by refusal is the whole joke.
 
-Scene-led reading path: The balcony reverse shot leads from three distinct head angles to eye contact and the hand turning the speaker up.
+Visual shot sequence: pause_hope_choice_sequence
 
-Narration placement: Complete prose occupies a still side-wall or shaded rail area; preserve the paused-tool and volume-knob action.
+Scene-led reading path: The request has definitely been heard. → Hope makes the next decision sting; the father remains one body. → Renewed noise is a choice, not an unexplained continuous racket.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Three clearly ordered unequal beats: silence, hope, deliberate refusal. Do not put both hands on the jackhammer while a third hand turns the knob. No new speech bubble, song title or private quote.
 
 Cast: Three Dreaded Snake, Seven Deadly Chins
 
@@ -244,9 +270,11 @@ Courtyard-height view, drill and music source below, furious three-headed silhou
 
 Personalization focus: Delighted adult indifference meets exhausted adult frustration.
 
-Scene-led reading path: Return low to the jackhammer and widening rubble, with the furious three-headed silhouette high above.
+Visual shot sequence: single_climactic_vertical_master
 
-Narration placement: Use a quiet lateral shadow for narration; the climax is the chosen racket, not decorative lettering.
+Scene-led reading path: Accumulated damage, exhausted frustration and delighted indifference are visible together.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One big vertical payoff after the multi-view interruption. The expanding crescent of rubble, not an entirely collapsed temple, shows progression. Keep the exact final result once; no extra comic strip.
 
 Cast: Three Dreaded Snake, Seven Deadly Chins
 
@@ -262,9 +290,11 @@ Low from Mud Dogs’ shoulder, channel and higher service route visible together
 
 Personalization focus: The hound believes his entrance marker still carries authority.
 
-Scene-led reading path: The low hound and entrance sign lead toward the truck on the higher usable road; show both ground levels.
+Visual shot sequence: low_high_opposed_pov
 
-Narration placement: Narration occupies clear water/foliage shadow alongside the existing service strip.
+Scene-led reading path: His territorial claim feels large from his own viewpoint. → To the driver, the confrontation is merely a routine route consideration.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Unequal low/high POVs connected by the same sign, truck and two ground levels. Paws stay outside the wheel track. Do not turn the asserted blockade into an unavoidable collision.
 
 Cast: Mud Dogs, Slob on my Dobb
 
@@ -280,9 +310,11 @@ Side-on pass, Mud Dogs lower foreground and Slob on my Dobb visible at cab windo
 
 Personalization focus: Indifference is stronger than a celebratory taunt.
 
-Scene-led reading path: A lateral sweep puts the hound low and driver high, with the truck continuing in the established direction.
+Visual shot sequence: routine_pass_three_beat
 
-Narration placement: Full prose uses a clear side-road/canopy area; no narration across wheels, dog or driver's face.
+Scene-led reading path: He refuses to perform the confrontation. → The difference in ground and scale—not a stunt—allows the delivery to continue. → His increased effort has not affected the truck’s pace.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small calm detail, broad pass, modest reaction. No thrown keg, wheel contact, racing acceleration, unloaded cargo or anthropomorphic human body for the hound.
 
 Cast: Mud Dogs, Slob on my Dobb
 
@@ -298,9 +330,11 @@ Wide receding route; small Mud Dogs beneath entrance marker, truck departing int
 
 Personalization focus: The losing character is left with the silence, not expelled from his home.
 
-Scene-led reading path: The departing route recedes into empty space; a small Cancún card draws the eye back to the isolated hound.
+Visual shot sequence: single_receding_aftermath
 
-Narration placement: Use the road's emptied shadow as narration space; exact result appears as a separate aligned final receipt.
+Scene-led reading path: Silence and lost authority land without a victory pose or eviction.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A full quiet image with generous depth after the three-beat pass. The postcard is a minor taunt; existing survival and elimination-condition copy stays exact. No actual holiday booking.
 
 Cast: Mud Dogs, Slob on my Dobb
 
@@ -316,9 +350,11 @@ Deep oblique across an old scoring desk toward open record-hall arches; exact co
 
 Personalization focus: Explain which managers benefited from actual player contributions without hindsight shaming.
 
-Scene-led reading path: Create one readable analytical hierarchy among the archive tools, six leader entries and the main performance paragraph.
+Visual shot sequence: documentary_performance_master
 
-Narration placement: Full narrative occupies calm ledger-hall atmosphere beside the entries rather than restating a decorative board beneath it.
+Scene-led reading path: The statistical distinctions—not invented athlete portraits—provide the new information.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Keep one main information composition. Differentiate starter production, aggregate trios, bench observation and late response by editorial hierarchy, not fictional replays or tiny panels.
 
 Cast: No invented principal character
 
@@ -334,9 +370,11 @@ Deep late-working archive scene; a courier places fresh reports beside an older 
 
 Personalization focus: Make consequences useful to the affected managers without making injuries a joke.
 
-Scene-led reading path: The newly arrived dispatch and retained ledger establish current versus older news without medical spectacle.
+Visual shot sequence: current_report_and_retained_record
 
-Narration placement: Full qualified prose in a single calm paper/lamplight field, surrounded by the existing archive depth.
+Scene-led reading path: New reporting has an arrival and a date; it is not a dramatized medical scene. → Current and carry-forward information remain distinct while the complete qualified copy stays readable.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A restrained documentary detail opens into the reading master. No injured-body vignette, invented diagnosis or certainty beyond the exact supplied copy.
 
 Cast: No invented principal character
 
@@ -352,9 +390,11 @@ Wide view from just inside the dining-hall entrance, slightly below the standing
 
 Personalization focus: The host welcomes the very rival tied to the old four-tenths semifinal wound.
 
-Scene-led reading path: The clear entrance aisle carries His Majesty's Blood and the wrapped gift toward Dr. Duckhook's chair; the cake is established separately.
+Visual shot sequence: host_guest_pov_overture
 
-Narration placement: Full prose occupies the open aisle-side shadow while the room remains a continuous scene.
+Scene-led reading path: The gift and controlled entrance create apparent generosity. → The host’s social obligation and the rival’s arrival are seen from the other side.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Two opposing views share window mullion, aisle and cake sideboard. Establish a continuous room, not two unrelated portrait backgrounds; no named new guests or invented age.
 
 Cast: Dr. Duckhook, His Majesty's Blood
 
@@ -370,9 +410,11 @@ Table-height three-quarter view along the established gift-opening axis. The ope
 
 Personalization focus: A gift becomes a public scoring joke one beat after it is opened.
 
-Scene-led reading path: At table height, the open box and colossal burger are the dominant object; Dr. Duckhook's delayed expression is second.
+Visual shot sequence: opening_reveal_reaction
 
-Narration placement: Narration flows through clear table/wall atmosphere beside the reveal, without obscuring the separate cake.
+Scene-led reading path: Anticipation precedes knowledge. → The score-based joke becomes visually legible before narration explains it. → Delayed recognition makes the humiliation personal.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small opening detail, dominant burger reveal, compact reaction. The separate cake stays on the sideboard, the box on the table, and the host in the same seat. No duplicate burger or repeated masthead.
 
 Cast: Dr. Duckhook, His Majesty's Blood
 
@@ -388,9 +430,11 @@ Unobstructed three-quarter cake-to-face payoff: His Majesty’s Blood has lifted
 
 Personalization focus: The birthday occasion determines the humiliation.
 
-Scene-led reading path: A close three-quarter contact view leads from gloved hands to bill and vest, with the untouched burger still readable to the side.
+Visual shot sequence: single_contact_payoff
 
-Narration placement: Use clear sideboard/room shadow for complete copy, not over the contact point.
+Scene-led reading path: Cake contact, witnesses and the still-visible gift resolve the social mechanism in one strong image.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Let this moment fill the folio instead of another split. Keep hands, bill, vest, cake and untouched burger distinct, with fixed furniture. Final result once; no sword duel or falling table.
 
 Cast: Dr. Duckhook, His Majesty's Blood
 
@@ -406,9 +450,11 @@ Low three-quarter view just outside the inner arch; diagonal approach opens upwa
 
 Personalization focus: The defender earns a real success before the opponent answers.
 
-Scene-led reading path: The inner arch frames the defender; reflected fire crosses the causeway toward the first battery, with the second and commander established.
+Visual shot sequence: opposed_forces_then_first_counter
 
-Narration placement: Place full copy in sheltered arch-shadow, retaining terrain behind it rather than cutting off the lower battle.
+Scene-led reading path: Home and companion establish what is being defended. → Both batteries exist before one is destroyed. → The first counterattack earns a real success; the other battery survives.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Two compact opposing intentions lead into one dominant first-counter action. Use neutral terrain landmarks to orient the reverse view; do not reverse advancing direction without the establish. Red fire denotes color, not another team.
 
 Cast: ObiWan Jacoby, The LLC
 
@@ -424,9 +470,11 @@ Side view from the same side of the approach, raised enough to reveal the shelf 
 
 Personalization focus: The second advance is a decision, not a repeated pose.
 
-Scene-led reading path: Use the established side view to move from ruined first emplacement to the ridge advance and surviving battery turning.
+Visual shot sequence: counterattack_command_response
 
-Narration placement: Narration is held in quiet near-rock shadow; smoke does not cross reading lines.
+Scene-led reading path: The second attempt uses a different route, not a repeated defensive pose. → His economy of movement contrasts with the defender’s effort. → The gesture has a physical consequence and no extra battery appears.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Make route, command and response separate visual beats with the battery state carried through all three. Smoke direction and landmark positions stay fixed. No third counterattack or concealed new weapon.
 
 Cast: ObiWan Jacoby, The LLC
 
@@ -442,9 +490,11 @@ Human-height view outward from the inner arch: ObiWan Jacoby defends with his gr
 
 Personalization focus: Holding the arch preserves dignity without rewriting the defeat.
 
-Scene-led reading path: The inner arch frames one defender against the distant remaining firepower; the sheltered retriever creates a home-scale contrast.
+Visual shot sequence: resistance_and_command_counterview
 
-Narration placement: Full closing prose and result share clear architectural shadow, not a standard black footer below a cropped battle.
+Scene-led reading path: He protects his threshold without being falsely shown victorious or helpless. → The victor still has resources after both earned counterattacks.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.
 
 Cast: ObiWan Jacoby, The LLC
 
@@ -460,9 +510,11 @@ Wide view along an inhabited open loggia, equipment hooks and the road in depth;
 
 Personalization focus: Present practical preparation, not blame for a still-editable future lineup.
 
-Scene-led reading path: The loggia's equipment and empty hooks surround a concise, level roster-needs list.
+Visual shot sequence: logistics_detail_and_records_master
 
-Narration placement: Narration sits adjacent to the list in sheltered column shade so logistics and copy share one inhabited space.
+Scene-led reading path: Absence is a practical logistical fact, not a diagnosis. → The list explains the visual absence without implying completed acquisitions.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A small observational detail and one main readable roster composition; do not break seven needs into seven tiny illustrated cards.
 
 Cast: No invented principal character
 
@@ -478,9 +530,11 @@ Close three-quarter intake scene with a deep courier arch behind; a clerk places
 
 Personalization focus: Let the actual transaction trail reveal human choices without inventing intent.
 
-Scene-led reading path: A courier intake leads through four source-backed transaction trails; separate subheads are typeset, not four floating poster boxes.
+Visual shot sequence: record_arrival_and_transaction_trails
 
-Narration placement: Place complete intro and callouts in readable archive-space columns with uninterrupted environmental depth.
+Scene-led reading path: The threshold between requested and recorded is an ordinary visible action. → Chronology and receiving rosters—not invented manager motives—carry the story.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a documentary action detail, then the main archive composition. The four supplied narratives remain complete and exact, not four invented cinematic events.
 
 Cast: No invented principal character
 
@@ -496,9 +550,11 @@ Deep record-hall view with the twelve entries integrated into an existing long r
 
 Personalization focus: Show why equal records still feel different to different owners.
 
-Scene-led reading path: One dominant level standings record anchors the hall, with receding architecture giving depth without tilting rows.
+Visual shot sequence: single_official_table_master
 
-Narration placement: Keep complete explanatory copy beside or above the table in clear hall atmosphere, not a redundant lower caption.
+Scene-led reading path: The six-team cluster and cutoff are visible without turning points order into seeds.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One confident information master; do not fracture the standings into panels, crop out teams or duplicate it as a lower paragraph-card illustration.
 
 Cast: No invented principal character
 
@@ -514,9 +570,11 @@ Wide terrace view beneath three league banners; Central Basin landscape extends 
 
 Personalization focus: Make the three division situations distinct without inventing three countries.
 
-Scene-led reading path: Three league standards share one terrace and landscape; each has a readable pressure summary in the same editorial plane.
+Visual shot sequence: single_shared_terrace_three_pressures
 
-Narration placement: Full intro and three callouts are spaced through quiet terrace/sky regions, not three separate country panels.
+Scene-led reading path: The divisions are competitive groupings, not new geographic nations.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One scene with three coordinated information regions, not three separate realms or disconnected photo panels. Keep the full intro and three exact callouts.
 
 Cast: No invented principal character
 
@@ -532,9 +590,11 @@ Landscape-dominant view from a worn lakeside approach, bridge receding diagonall
 
 Personalization focus: Explain scoring form as a different lens from the official standings.
 
-Scene-led reading path: A twelve-row ranking sits in calm sky/reflected shadow while the established bridge cuts diagonally through a different visual region.
+Visual shot sequence: single_scoring_form_landscape
 
-Narration placement: Full method paragraph uses quiet foreground stone/sky without covering the landscape's depth or ranking.
+Scene-led reading path: The different order is explicitly an editorial scoring measure.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Retain a calm single image and a complete comparative table. No invented probabilities or in-world tournament finish implied by rank.
 
 Cast: No invented principal character
 
@@ -550,9 +610,11 @@ Wide upward landscape along an existing old climb, temporary Week11–14 route m
 
 Personalization focus: Make remaining possibility visible without pretending every route is equally likely.
 
-Scene-led reading path: The actual alpine climb draws the eye through Week 11 to Week 14 markers, with no triumph on the summit.
+Visual shot sequence: single_depth_playoff_road
 
-Narration placement: Narrative and two callouts sit in quiet rock/sky fields along, not on top of, the visible climb.
+Scene-led reading path: Depth provides sequential anticipation without crowning anyone at the summit.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One expansive route image. The supplied qualification conditions and seven-berth note remain exact; no odds, winners at the summit or fake branches on a geographic map.
 
 Cast: No invented principal character
 
@@ -568,9 +630,11 @@ Broad terrace facing outward routes, six concise pairings integrated with tempor
 
 Personalization focus: Answer why every Week 11 fixture matters, not just who plays.
 
-Scene-led reading path: Pair each complete away-at-home fixture immediately with its existing implication; the outward terrace and route sightline link the groups.
+Visual shot sequence: dispatch_intent_and_outward_master
 
-Narration placement: Full paragraph becomes a clear editorial reading area adjacent to six fixture/stake entries, not another explanation underneath a fixture-only illustration.
+Scene-led reading path: The fixture list represents imminent commitments, not anonymous decoration. → Top-seed races, bubble pressure and the verified loss-elimination condition are visibly distinct.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches.
 
 Cast: No invented principal character
 
@@ -586,9 +650,11 @@ Wide oblique along the old bridge deck; D0nkey K0ng near approach, His Majesty's
 
 Personalization focus: Turn the two contenders’ known history into anticipation, not an early result.
 
-Scene-led reading path: D0nkey K0ng's full body in the near approach faces His Majesty's Blood beyond a substantial span of empty bridge.
+Visual shot sequence: bridge_establish_and_opposed_pov
 
-Narration placement: Narration sits in lake/sky calm outside both character silhouettes; the space between them is the tension.
+Scene-led reading path: Distance and shared geometry are explicit before the perspective cuts. → The host-side expectation is a viewpoint, not a declared outcome. → The visitor sees the same unresolved encounter from the other end.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A thin location overture and two unequal opposing viewpoints. Match parapets, piers and eyelines. No first strike, winner, shared trophy or future damage.
 
 Cast: His Majesty's Blood, D0nkey K0ng
 
@@ -604,9 +670,11 @@ Wide view outward from the existing tailgate shelter toward the Hearthroad and d
 
 Personalization focus: End on the delivery winner preparing to become next week’s host.
 
-Scene-led reading path: Begin under the camp canopy with Slob on my Dobb and secured kegs, then look outward toward the darkening route.
+Visual shot sequence: single_quiet_return_of_weather
 
-Narration placement: Full closing prose sits in the sheltered lamplight/shadow transition, with visible scene continuing around it.
+Scene-led reading path: The ordinary cargo links to his delivery, but his own home now faces the next test.
+
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One lingering full scene after the split preview. Only Slob is physically present; El Niño is implied by the supplied weather/schedule, never an extra unbound figure or guaranteed future win.
 
 Cast: Slob on my Dobb
 

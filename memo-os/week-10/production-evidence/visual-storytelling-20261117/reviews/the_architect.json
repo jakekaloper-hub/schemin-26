@@ -1,0 +1,13 @@
+{
+  "id": "the_architect",
+  "kind": "director",
+  "q": "What distinction must the render contract encode between one complete folio and one camera view? Name a concrete enforcement check that prevents the old poster default.",
+  "status": "returned",
+  "response": "The render contract must encode a clear distinction between a complete folio and a single camera view. This distinction can be enforced by requiring that a complete folio must include at least three distinct camera views, each with a unique perspective and action. To prevent the old poster default, the contract should specify that any folio with fewer than three distinct camera views must be rejected and returned for revision. As a recommendation, I propose that the staging for the folio include a wide establishing shot, a mid-shot of a character in action, and a close-up of a key prop or detail. This will ensure that each page of the folio provides a unique and engaging visual experience, while also preserving the integrity of the original prose and its reading order.",
+  "model": "qwen2.5-coder:7b",
+  "started_at": "2026-11-17T17:48:46.365Z",
+  "finished_at": "2026-11-17T17:49:03.641Z",
+  "input_sha256": "698790dd73bf9945ebb591ffd8e1222cb76125c0795ec1ee89db39069047d2a9",
+  "pixels_supplied": false,
+  "real_person_participation": false
+}

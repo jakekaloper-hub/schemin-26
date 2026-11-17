@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P12 · READING POSITION 12
 
@@ -163,13 +175,15 @@ SCENE AND CONTINUITY
     "page_id": "W10-P12",
     "family": "vertical_conflict",
     "dominant_action": "Noise from below interrupts quiet family life above.",
-    "reading_path": "Link jackhammer point, Seven Deadly Chins' grin and the family balcony along one upward diagonal.",
+    "reading_path": "The source of the new noise and the vertical distance are established. → The father’s perspective connects the interruption to the doorway behind him.",
     "heading_treatment": "Set title in protected architectural shadow, leaving the vertical relationship uninterrupted.",
-    "narration_placement": "Narration uses the calm wall between the levels; the child and partner remain protected/offscreen.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Vertically opposed views use shared stair, rail and doorway anchors. Separate the angles without placing two copies of either character in one scene. Family remains inside/offscreen.",
     "protected_subjects": "Exactly three serpent heads on one body; same balcony, drain, shelf, hose and first paving damage.",
     "data_treatment": "No scoreboard-as-family-causation and no new personal details.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P12",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "shot_structure": "vertical_opposed_pov_overture",
+    "time_logic": "SIMULTANEOUS_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P12",
@@ -184,6 +198,77 @@ SCENE AND CONTINUITY
       "issue-previs.json#W10-P12–W10-P14"
     ],
     "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P12",
+    "structure": "vertical_opposed_pov_overture",
+    "time_logic": "SIMULTANEOUS_SAME_LOCATION",
+    "visual_question": "Who needs quiet and who is enjoying the interruption?",
+    "shots": [
+      {
+        "role": "dominant",
+        "pov_owner_ids": [
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "camera": "Courtyard-low upward view through jackhammer, operator and balcony",
+        "action": "Seven Deadly Chins starts the localized paving damage below the protected household.",
+        "new_information": "The source of the new noise and the vertical distance are established.",
+        "time_relation": "same moment",
+        "id": "W10-P12-V01"
+      },
+      {
+        "role": "opposed_pov",
+        "pov_owner_ids": [
+          "CHAR-PHILLIP-PITTS"
+        ],
+        "camera": "Close third-person at the balcony rail looking down",
+        "action": "Three heads on one body arrive at the rail; the same operator is below.",
+        "new_information": "The father’s perspective connects the interruption to the doorway behind him.",
+        "time_relation": "same moment",
+        "id": "W10-P12-V02"
+      }
+    ],
+    "layout_direction": "Vertically opposed views use shared stair, rail and doorway anchors. Separate the angles without placing two copies of either character in one scene. Family remains inside/offscreen.",
+    "dominant_view": "W10-P12-V01",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P12/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 192,
+          "anchor": "opening perspective or clear adjacent atmosphere"
+        },
+        {
+          "start": 192,
+          "end": 410,
+          "anchor": "main action or consequence reading zone"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "patched concrete courtyard over older stone",
+        "upper balcony and protected family doorway",
+        "waterfall, drain and planted margin",
+        "raised dry compressor/speaker shelf"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The father’s downward eyeline leads into the visitor’s acknowledgement.",
+    "grammar_references": [
+      {
+        "week": 9,
+        "physical_page": 12,
+        "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p12.jpg",
+        "sha256": "839e380eaa9d11b657fc3b554c4a5f057bf75a9187390015678c12adb2f218cd",
+        "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+      }
+    ],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 
@@ -279,5 +364,18 @@ REFERENCE IMAGES
     "role": "published_memo_precedent",
     "decoded_in_preflight": true,
     "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p12.jpg",
+    "sha256": "839e380eaa9d11b657fc3b554c4a5f057bf75a9187390015678c12adb2f218cd",
+    "bytes": 486619,
+    "dimensions": [
+      910,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "visual_storytelling_precedent",
+    "decoded_in_preflight": true,
+    "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
   }
 ]

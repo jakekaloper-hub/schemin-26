@@ -1,3 +1,7 @@
+## November 17 — sequential visual storytelling authority
+
+One completed folio is not one camera view. Follow `visual-storytelling-pass-20261117.json` for each page’s explicit POV, shot sequence and time relation. Cinematic overtures, unequal split POVs, causal action views and reaction details are intentional; single-image breathing pages and level documentary tables are retained where specified. Keep the complete supplied manuscript in reading order, never duplicate it beneath each inset. Earlier “one artwork” language means one coherent deliverable, not a prohibition on authored multiple views. No new artwork is claimed by this revision.
+
 # Week 10 — complete illustrated PNG production
 
 ## Controlling commissioner direction

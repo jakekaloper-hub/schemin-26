@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P20 · READING POSITION 21
 
@@ -150,14 +162,16 @@ SCENE AND CONTINUITY
     "page_id": "W10-P20",
     "family": "character_cover",
     "dominant_action": "The gift reveal becomes a public joke.",
-    "reading_path": "At table height, the open box and colossal burger are the dominant object; Dr. Duckhook's delayed expression is second.",
+    "reading_path": "Anticipation precedes knowledge. → The score-based joke becomes visually legible before narration explains it. → Delayed recognition makes the humiliation personal.",
     "heading_treatment": "The prop's exact 200 BURGER flag can carry the main visual joke; the page title must not duplicate it in competing oversized banners.",
-    "narration_placement": "Narration flows through clear table/wall atmosphere beside the reveal, without obscuring the separate cake.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small opening detail, dominant burger reveal, compact reaction. The separate cake stays on the sideboard, the box on the table, and the host in the same seat. No duplicate burger or repeated masthead.",
     "protected_subjects": "Two burger layers, open box, free hands, fixed guests/windows; no frosting yet.",
     "data_treatment": "200 BURGER is a milestone prop label, not a replacement for the exact final score.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P20",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
-    "rhythm_variant": "object_reveal_with_delayed_host_reaction"
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "object_reveal_with_delayed_host_reaction",
+    "shot_structure": "opening_reveal_reaction",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P20",
@@ -172,6 +186,96 @@ SCENE AND CONTINUITY
       "issue-previs.json#W10-P19–W10-P21"
     ],
     "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P20",
+    "structure": "opening_reveal_reaction",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
+    "visual_question": "When does the present become an insult?",
+    "shots": [
+      {
+        "role": "detail",
+        "pov_owner_ids": [
+          "CHAR-ZACH-WILSON"
+        ],
+        "camera": "Close hands at ribbon and lid",
+        "action": "Dr. Duckhook begins opening the existing wrapped gift.",
+        "new_information": "Anticipation precedes knowledge.",
+        "time_relation": "first",
+        "id": "W10-P20-V01"
+      },
+      {
+        "role": "dominant",
+        "pov_owner_ids": [
+          "CHAR-AUSTIN-BYARS",
+          "CHAR-ZACH-WILSON"
+        ],
+        "camera": "Table-height three-quarter reveal on the same gift axis",
+        "action": "The lid clears the colossal double-decker hamburger and exact 200 BURGER flag.",
+        "new_information": "The score-based joke becomes visually legible before narration explains it.",
+        "time_relation": "next",
+        "id": "W10-P20-V02"
+      },
+      {
+        "role": "reaction",
+        "pov_owner_ids": [
+          "CHAR-ZACH-WILSON"
+        ],
+        "camera": "Close host’s bill and eyes with familiar guests soft behind",
+        "action": "The host’s gracious expression strains as the guests begin to understand.",
+        "new_information": "Delayed recognition makes the humiliation personal.",
+        "time_relation": "after recognition",
+        "id": "W10-P20-V03"
+      }
+    ],
+    "layout_direction": "Small opening detail, dominant burger reveal, compact reaction. The separate cake stays on the sideboard, the box on the table, and the host in the same seat. No duplicate burger or repeated masthead.",
+    "dominant_view": "W10-P20-V02",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P20/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 179,
+          "anchor": "opening perspective or clear adjacent atmosphere"
+        },
+        {
+          "start": 179,
+          "end": 367,
+          "anchor": "main action or consequence reading zone"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "clubhouse dining hall",
+        "proposed tall windows facing maintained grounds",
+        "proposed service doorway and sideboard",
+        "proposed birthday chair and gift-table axis"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The already visible separate cake becomes the instrument of the payoff.",
+    "grammar_references": [
+      {
+        "week": 9,
+        "physical_page": 13,
+        "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p13.jpg",
+        "sha256": "3ac9b64f4a63a76526d4b6aa8a0884302daa53879a7a6cf9d1cceb01e4636a3f",
+        "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+      },
+      {
+        "week": 9,
+        "physical_page": 24,
+        "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p24.jpg",
+        "sha256": "18356812c319a90a87f66f311c59559f6eb04bf29e84816ee984a8ce8a05d22b",
+        "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+      }
+    ],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 
@@ -280,5 +384,31 @@ REFERENCE IMAGES
     "role": "published_memo_precedent",
     "decoded_in_preflight": true,
     "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p13.jpg",
+    "sha256": "3ac9b64f4a63a76526d4b6aa8a0884302daa53879a7a6cf9d1cceb01e4636a3f",
+    "bytes": 489131,
+    "dimensions": [
+      910,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "visual_storytelling_precedent",
+    "decoded_in_preflight": true,
+    "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p24.jpg",
+    "sha256": "18356812c319a90a87f66f311c59559f6eb04bf29e84816ee984a8ce8a05d22b",
+    "bytes": 514289,
+    "dimensions": [
+      960,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "visual_storytelling_precedent",
+    "decoded_in_preflight": true,
+    "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
   }
 ]

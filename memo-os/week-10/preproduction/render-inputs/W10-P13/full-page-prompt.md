@@ -3,7 +3,7 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
 SCENE-LED DESIGN RULES
-- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
 - Preserve published typographic identity and department recognition; vary placement and scale with scene function.
 - No default header/image/bottom-paragraph stack; typography and image are composed together.
 - Keep complete source copy; compose space around it rather than cutting words to fit.
@@ -14,6 +14,18 @@ SCENE-LED DESIGN RULES
 - Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
 - Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
 - All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
 
 PAGE W10-P13 · READING POSITION 13
 
@@ -163,13 +175,15 @@ SCENE AND CONTINUITY
     "page_id": "W10-P13",
     "family": "vertical_conflict",
     "dominant_action": "Seven Deadly Chins hears the request and chooses the louder answer.",
-    "reading_path": "The balcony reverse shot leads from three distinct head angles to eye contact and the hand turning the speaker up.",
+    "reading_path": "The request has definitely been heard. → Hope makes the next decision sting; the father remains one body. → Renewed noise is a choice, not an unexplained continuous racket.",
     "heading_treatment": "The headline sits in a quiet section of the courtyard view, not across the three heads.",
-    "narration_placement": "Complete prose occupies a still side-wall or shaded rail area; preserve the paused-tool and volume-knob action.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Three clearly ordered unequal beats: silence, hope, deliberate refusal. Do not put both hands on the jackhammer while a third hand turns the knob. No new speech bubble, song title or private quote.",
     "protected_subjects": "One body with three heads, visitor below, family inside, established hole and speaker shelf.",
     "data_treatment": "No extra dialogue attributed to real people; full supplied narrative remains intact.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P13",
-    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "shot_structure": "pause_hope_choice_sequence",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P13",
@@ -184,6 +198,88 @@ SCENE AND CONTINUITY
       "issue-previs.json#W10-P12–W10-P14"
     ],
     "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P13",
+    "structure": "pause_hope_choice_sequence",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
+    "visual_question": "Did he fail to hear, or hear and decide not to care?",
+    "shots": [
+      {
+        "role": "setup",
+        "pov_owner_ids": [
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "camera": "Tight courtyard view of paused tool and upward glance",
+        "action": "Seven Deadly Chins lets the jackhammer fall quiet and looks up.",
+        "new_information": "The request has definitely been heard.",
+        "time_relation": "first",
+        "id": "W10-P13-V01"
+      },
+      {
+        "role": "reaction",
+        "pov_owner_ids": [
+          "CHAR-PHILLIP-PITTS"
+        ],
+        "camera": "Medium balcony view of three distinct head angles",
+        "action": "One head turns toward the protected doorway while the others listen in a brief hopeful pause.",
+        "new_information": "Hope makes the next decision sting; the father remains one body.",
+        "time_relation": "the pause",
+        "id": "W10-P13-V02"
+      },
+      {
+        "role": "dominant",
+        "pov_owner_ids": [
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "camera": "Low three-quarter hand-and-face view with speaker and drill separated",
+        "action": "He laughs, reaches for the volume control, then returns attention to the paving.",
+        "new_information": "Renewed noise is a choice, not an unexplained continuous racket.",
+        "time_relation": "next; tool paused while hand adjusts music",
+        "id": "W10-P13-V03"
+      }
+    ],
+    "layout_direction": "Three clearly ordered unequal beats: silence, hope, deliberate refusal. Do not put both hands on the jackhammer while a third hand turns the knob. No new speech bubble, song title or private quote.",
+    "dominant_view": "W10-P13-V03",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P13/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 220,
+          "anchor": "opening perspective or clear adjacent atmosphere"
+        },
+        {
+          "start": 220,
+          "end": 410,
+          "anchor": "main action or consequence reading zone"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "patched concrete courtyard over older stone",
+        "upper balcony and protected family doorway",
+        "waterfall, drain and planted margin",
+        "raised dry compressor/speaker shelf"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The restarted drill carries the movement into the large destructive payoff.",
+    "grammar_references": [
+      {
+        "week": 9,
+        "physical_page": 24,
+        "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p24.jpg",
+        "sha256": "18356812c319a90a87f66f311c59559f6eb04bf29e84816ee984a8ce8a05d22b",
+        "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+      }
+    ],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
   }
 }
 
@@ -279,5 +375,18 @@ REFERENCE IMAGES
     "role": "published_memo_precedent",
     "decoded_in_preflight": true,
     "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+  },
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p24.jpg",
+    "sha256": "18356812c319a90a87f66f311c59559f6eb04bf29e84816ee984a8ce8a05d22b",
+    "bytes": 514289,
+    "dimensions": [
+      960,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "visual_storytelling_precedent",
+    "decoded_in_preflight": true,
+    "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
   }
 ]
