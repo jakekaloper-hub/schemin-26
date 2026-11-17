@@ -20,7 +20,7 @@ Reading positions 5, 6, 7 · W10-P05, W10-P06, W10-P07
 
 **Applied page directions:**
 
-**W10-P05 — Public confidence gives way to an urgent search for the established exit.** Keep the outlaw’s recognizable face, moving boots and glance toward the service gate readable; the integrated centaur owns the moving lasso. Narration provides the remembered cookout reversal; the picture supplies the pursuit, without adding a second joke beneath it.
+**W10-P05 — Chili’s second imitation provokes D0nkey K0ng. His bow becomes a turn toward the service gate.** Show the outlaw copying the four-hoofed stance, the centaur’s reaction and his hand drawing the rope before Chili bolts for the service gate. Narration provides the remembered cookout reversal; the picture supplies the pursuit, without adding a second joke beneath it.
 
 **W10-P06 — Loss of footing is also loss of control over the spectacle.** The torso catch, continuous rope and sliding boot are the decisive visual information. Witness reaction is secondary, not a separate reaction panel. The paragraph supplies irony about the crowd’s changed reaction; do not repeat a literal description as an extra caption.
 
@@ -46,9 +46,9 @@ Reading positions 8, 9, 10 · W10-P08, W10-P09, W10-P10
 
 **Applied page directions:**
 
-**W10-P08 — Repair is an assertion of pride, not passive suffering.** Hands must be lowering an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño. The 2022 memory explains why the gesture matters; do not illustrate a fabricated 2022 storm flashback.
+**W10-P08 — Repair is an assertion of pride, not passive suffering.** Show the front rolling in before Red’s hands lower an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño. The 2022 memory explains why the gesture matters; do not illustrate a fabricated 2022 storm flashback.
 
-**W10-P09 — The familiar court offers recognition immediately before another loss.** Use Red Leopards’ upward eyeline and the falling branch to distinguish this location and beat from the prior water scene. Keep the right-wall backboard. The travel sentence and recognition do the emotional work; no new geography lecture or additional basketball contest.
+**W10-P09 — The familiar court offers recognition immediately before another loss.** Use Red’s eyeline to show trees falling along the inland approach, then a separate tree toppling and its limb breaking the court hoop. Keep the right-wall backboard. The travel sentence and recognition do the emotional work; no new geography lecture or additional basketball contest.
 
 **W10-P10 — Quiet recognition is different from surrender.** Hold the seated figure beneath the broken hoop with mud still on him; El Niño remains physically across the court. Preserve open reflection around the figure. The exact old semifinal and current non-elimination distinction remain. End on repair and persistence, not a fake season-ending verdict.
 
@@ -150,11 +150,11 @@ Reading positions 23, 24, 25 · W10-P22, W10-P23, W10-P24
 
 **Applied page directions:**
 
-**W10-P22 — The defender earns a real success before the opponent answers.** ObiWan Jacoby’s planted stance and returned fire visibly destroy the first of two emplacements. Keep the retriever sheltered and The LLC recognizable across the causeway. The 0.80 earlier result explains why a narrow opening matters; red fire is color, not Red Leopards joining the scene.
+**W10-P22 — A real tactical success earns ObiWan Jacoby an audience.** The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway. The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis. ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke. A real tactical success earns ObiWan Jacoby an audience.
 
-**W10-P23 — The second advance is a decision, not a repeated pose.** Carry the defender along the established upper ridge; The LLC’s gesture turns the sole surviving battery. Keep the first wreck in view and the screen direction unchanged. Give the risk and persistence meaning without inventing a third counterattack, secret reserve or physical meeting.
+**W10-P23 — A view of the home arch makes surrender tempting. The lit blade answers.** ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair. The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below. ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline. A view of the home arch makes surrender tempting. The lit blade answers.
 
-**W10-P24 — Holding the arch preserves dignity without rewriting the defeat.** Keep the surviving battery actively firing and the destroyed one smoking. The face/hand/blade remain readable in the arch, with a separate sheltered retriever behind. Retain the exact final score and margin. This is sustained defense under fire, not a magically quiet or victorious aftermath.
+**W10-P24 — The LLC wins the encounter after ObiWan Jacoby freely refuses the price.** The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light. The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered. The LLC wins the encounter after ObiWan Jacoby freely refuses the price.
 
 **Optional narration alternative, not inserted:** “The first battery was burning. The second was the problem.”
 

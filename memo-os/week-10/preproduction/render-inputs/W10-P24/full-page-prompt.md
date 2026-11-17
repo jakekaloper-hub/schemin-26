@@ -65,9 +65,9 @@ IDENTITY INPUTS
     "full_name": "The LLC",
     "owner": "David Babb",
     "appearance": {
-      "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+      "subject_morphology": "Well-groomed human corporate executive in a dark tailored suit",
       "head_face": "Human head with short dark hair and dark sunglasses",
-      "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+      "silhouette": "Dark tailored suit, bright red tie and cigar. Standing face to face with ObiWan Jacoby, raises one hand to signal the surviving battery. The leather chair remains empty.",
       "palette": [
         "black suit",
         "white shirt",
@@ -95,14 +95,14 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Human-height view outward from the inner arch: ObiWan Jacoby defends with his green blade and separate golden retriever sheltered behind him. One distant Imperial battery is destroyed and smoking; the single surviving battery has multiple barrels converging on the defended approach. Smoke and flags blow in the same established direction. No regenerated battery or second functioning emplacement.",
-  "foreground": "ObiWan Jacoby’s green blade and recognizable face/hand.",
-  "midground": "Damaged approach and spent debris.",
-  "background": "One battery still firing, troops and The LLC in stable positions.",
-  "image_tells": "Human-height view outward from the inner arch: ObiWan Jacoby defends with his green blade and separate golden retriever sheltered behind him. One distant Imperial battery is destroyed and smoking; the single surviving battery has multiple barrels converging on the defended approach. Smoke and flags blow in the same established direction. No regenerated battery or second functioning emplacement. ObiWan Jacoby’s green blade and recognizable face/hand. Damaged approach and spent debris. One battery still firing, troops and The LLC in stable positions.",
+  "camera_and_composition": "Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.",
+  "foreground": "The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light.",
+  "midground": "The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered.",
+  "background": "One earlier wreck, the warm home arch and the same sheltered retriever.",
+  "image_tells": "Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch. The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light. The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered. One earlier wreck, the warm home arch and the same sheltered retriever.",
   "encounter": {
     "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "venue_type": "verified home domain / proposed scene",
+    "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
     "division_context": "Burgers home team vs Pizza away team",
     "route_required": true,
     "route_names": [
@@ -113,30 +113,30 @@ SCENE AND CONTINUITY
       "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
     ],
     "persistent_landmarks": [
-      "fixed mountain ridge",
-      "outer causeway",
-      "inner stone arch",
-      "existing mountain-base silhouette"
+      "mountain causeway below the command shelf",
+      "inner home arch and sheltered golden retriever",
+      "upper ridge steps to temporary field throne room",
+      "leather command chair above the floor seam"
     ],
     "provisional_location": false,
     "temporary_scene_props": [
-      "temporary Imperial assault formation",
-      "two visible battery emplacements",
-      "armored command platform",
-      "ObiWan’s green blade",
-      "ridge causeway and stone arch",
-      "golden retriever in sheltered inner approach"
+      "field throne room dressed on the existing command shelf",
+      "leather chair and floor seam",
+      "two initial battery emplacements",
+      "green blade and sheltered golden retriever"
     ],
     "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
     "set_id": "SET-W10-OBI-RIDGE-GATE"
   },
   "continuity_in": [
-    "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "Preserve current identity packets and preceding beat’s geography"
+    "mountain causeway below the command shelf",
+    "inner home arch and sheltered golden retriever",
+    "upper ridge steps to temporary field throne room",
+    "leather command chair above the floor seam",
+    "ObiWan Jacoby crosses with the blade still lit; the executive steps around to face him."
   ],
   "continuity_out": [
-    "The decisive image shows both counters attempted and contained. ObiWan Jacoby yields the exposed approach under sustained fire while The LLC controls the open ground; no invented death or permanent ownership transfer.",
-    "Local scene consequence remains draft until detailed acceptance"
+    "Lightning consumes the silhouette. The LLC wins; the home and its defender carry forward alive."
   ],
   "forbidden_mutations": [
     "No home repossession",
@@ -151,23 +151,23 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P24",
     "family": "kinetic_action",
-    "dominant_action": "The defender holds the arch while the single surviving battery continues firing; the battle has not gone quiet.",
-    "reading_path": "He protects his threshold without being falsely shown victorious or helpless. → The victor still has resources after both earned counterattacks.",
-    "heading_treatment": "Let the held threshold dominate; title and matchup line stay compact in arch shade.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.",
-    "protected_subjects": "One smoking ruined emplacement and one surviving battery still firing; separate sheltered retriever, exact identities, no belt on ObiWan Jacoby and no home transfer.",
-    "data_treatment": "Exact FINAL score, margin and football context; not an image-invented 'overwhelming' number.",
+    "dominant_action": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+    "reading_path": "A deliberate command delivers judgment; the surviving battery visibly supplies the charge. → The encounter is lost; the home and continuing character survive this week.",
+    "heading_treatment": "Place headline in quiet stone or storm shadow clear of faces and blade.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.",
+    "protected_subjects": "Canonical identities, first wreck, surviving battery, empty chair after the descent, protected arch and sheltered retriever.",
+    "data_treatment": "Retain the exact scores, 37.43 margin and Monday response.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P24",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "rhythm_variant": "sustained_defense_at_the_threshold",
     "shot_structure": "resistance_and_command_counterview",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION"
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P24",
-    "focus": "Holding the arch preserves dignity without rewriting the defeat.",
-    "performance": "Keep the surviving battery actively firing and the destroyed one smoking. The face/hand/blade remain readable in the arch, with a separate sheltered retriever behind.",
-    "narration_job": "Retain the exact final score and margin. This is sustained defense under fire, not a magically quiet or victorious aftermath.",
+    "focus": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+    "performance": "The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light. The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered.",
+    "narration_job": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
     "source_refs": [
       "issue-previs.json#W10-P24",
       "facts.json#/historical_context/W10-G06",
@@ -179,18 +179,18 @@ SCENE AND CONTINUITY
   "visual_storytelling": {
     "page_id": "W10-P24",
     "structure": "resistance_and_command_counterview",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION",
-    "visual_question": "How can the defense remain brave while the loss remains clear?",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
+    "visual_question": "What happens when The LLC sees the blade still lit?",
     "shots": [
       {
         "role": "dominant",
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Human-height inward/outward arch view with readable blade, hands and sheltered retriever",
-        "action": "ObiWan Jacoby holds under continuing fire; the first emplacement smokes beyond him.",
-        "new_information": "He protects his threshold without being falsely shown victorious or helpless.",
-        "time_relation": "same moment",
+        "camera": "Eye-level front three-quarter, below the empty chair",
+        "action": "The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light.",
+        "new_information": "A deliberate command delivers judgment; the surviving battery visibly supplies the charge.",
+        "time_relation": "At the moment of refusal",
         "id": "W10-P24-V01"
       },
       {
@@ -198,26 +198,26 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Long command-side view aimed back across the same gap",
-        "action": "The LLC remains in control as the single surviving battery continues firing toward the arch.",
-        "new_information": "The victor still has resources after both earned counterattacks.",
-        "time_relation": "same moment",
+        "camera": "Low reverse angle to the arch through the fading light",
+        "action": "The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered.",
+        "new_information": "The encounter is lost; the home and continuing character survive this week.",
+        "time_relation": "A beat later, as the flare recedes",
         "id": "W10-P24-V02"
       }
     ],
-    "layout_direction": "Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.",
+    "layout_direction": "Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.",
     "dominant_view": "W10-P24-V01",
     "copy_flow": {
       "source": "issue-previs.json#W10-P24/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 185,
+          "end": 261,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 185,
-          "end": 451,
+          "start": 261,
+          "end": 417,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -228,14 +228,14 @@ SCENE AND CONTINUITY
     "continuity": {
       "source_encounter_unchanged": true,
       "landmarks": [
-        "fixed mountain ridge",
-        "outer causeway",
-        "inner stone arch",
-        "existing mountain-base silhouette"
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam"
       ],
       "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
     },
-    "page_turn_out": "The defended threshold gives way to the practical question of what every team can field next.",
+    "page_turn_out": "Carry both competitors alive into the closing regular season.",
     "grammar_references": [
       {
         "week": 9,
@@ -253,7 +253,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "Unlimited Firepower",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.",
+  "body": "The LLC walks around until ObiWan Jacoby can see his face. Then he lifts his hand. Below the steps the surviving battery turns. The first white branch catches the green blade, the second lights the empty chair, and the flash swallows the defender’s silhouette. The arch lamp still burns. Derrick Henry and Mark Andrews supplied 36.20 on Monday. ObiWan Jacoby reached 166.53. The LLC held at 203.96, a margin of 37.43.",
   "department_heading": "ObiWan Jacoby vs The LLC",
   "result": {
     "status": "FINAL",

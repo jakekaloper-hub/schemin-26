@@ -100,11 +100,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.",
+  "camera_and_composition": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.",
   "foreground": "His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback.",
-  "midground": "The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; distant Imperial battery as a subordinate story cue, never a replacement character costume.",
+  "midground": "The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; stepped field throne dais above a distant battery as a subordinate story cue, never a replacement character costume.",
   "background": "An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
-  "image_tells": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners. His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback. The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; distant Imperial battery as a subordinate story cue, never a replacement character costume. An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
+  "image_tells": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners. His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback. The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; stepped field throne dais above a distant battery as a subordinate story cue, never a replacement character costume. An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
   "encounter": {
     "venue_id": null,
     "set_id": "SET-W10-DUAL-200-EDITORIAL-COVER",
@@ -114,7 +114,7 @@ SCENE AND CONTINUITY
     "world_state_in": "Existing place with selective wear and maintenance",
     "persistent_landmarks": [
       "Jackson birthday atmosphere",
-      "Mountain assault command position"
+      "Mountain field throne room on the command shelf"
     ],
     "provisional_location": true,
     "formal_atlas_promotion": false,
@@ -184,7 +184,7 @@ SCENE AND CONTINUITY
           "CHAR-DAVID-BABB"
         ],
         "camera": "Medium seated executive, command-chair eyeline",
-        "action": "The LLC sits with cigar in his mountain-command atmosphere.",
+        "action": "The LLC sits with cigar above the steps of his field throne room.",
         "new_information": "The other performance expresses controlled force, not the same victory pose.",
         "time_relation": "same moment",
         "id": "W10-P01-V02"

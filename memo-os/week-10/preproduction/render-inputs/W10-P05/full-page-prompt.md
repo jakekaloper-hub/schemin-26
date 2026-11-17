@@ -119,11 +119,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low rail-side wide diagonal, The Chili Cheesers ahead on screen-left, D0nkey K0ng pursuing from screen-right; gate rear-left.",
-  "foreground": "The Chili Cheesers’ running boots and wet track",
-  "midground": "D0nkey K0ng swinging his rope with four legs readable",
+  "camera_and_composition": "Low rail-side wide diagonal, The Chili Cheesers at the rail on screen-left, D0nkey K0ng drawing his rope on screen-right after Chili imitates him; gate rear-left.",
+  "foreground": "The Chili Cheesers’ boots planted wide for the imitation before he turns to run",
+  "midground": "D0nkey K0ng reacting to the imitation and drawing his rope, all four legs readable",
   "background": "Same gate, rails, crowd and sheltered lamps",
-  "image_tells": "From a low position just inside the rail, a wide diagonal reveals The Chili Cheesers already running around the ring while D0nkey K0ng gains behind him, swinging his own rope overhead. Show all four centaur legs and the single gorilla/equine body clearly. Crowd height and the visible exit gate establish public exposure. Dark Horse is separate, secured at the holding rail outside the active ring if included. The axe is stowed; it does not suddenly cut or block the lasso. Afternoon overcast gives cool fill, sheltered lanterns warm the crowded galleries, and wet hoof tracks define the pursuit line.",
+  "image_tells": "From a low position just inside the rail, a wide diagonal reveals The Chili Cheesers showing off at the rail and imitating the centaur. D0nkey K0ng sees the second imitation and draws his own lasso; Chili turns and runs for the service gate. Show all four centaur legs and the single gorilla/equine body clearly. Crowd height and the visible exit gate establish public exposure. Dark Horse is separate, secured at the holding rail outside the active ring if included. The axe is stowed; it does not suddenly cut or block the lasso. Afternoon overcast gives cool fill, sheltered lanterns warm the crowded galleries, and wet hoof tracks define the pursuit line.",
   "encounter": {
     "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
     "set_id": "SET-W10-DK-RODEO-GROUNDS",
@@ -196,21 +196,21 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P05",
     "family": "kinetic_action",
-    "dominant_action": "The Chili Cheesers runs for the exit as D0nkey K0ng closes.",
-    "reading_path": "The reader knows the only visible exit before the chase tightens. → Escape and audience-consciousness are his immediate priorities. → His control of rope and ground is the opposing intention.",
+    "dominant_action": "Chili mocks the centaur for a second laugh. D0nkey K0ng draws the lasso and Chili makes for the exit.",
+    "reading_path": "The showman has the gallery’s attention before the pursuit. → Chili chooses to make the centaur the butt of a second joke. → The insult provokes the pursuit. D0nkey K0ng owns the rope from the outset.",
     "heading_treatment": "Place the headline in quiet sky away from the loop; matchup names appear once, not twice as matching deck and header.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A narrow spatial overture above two unequal connected POV areas. Shared gate and gallery landmarks identify the same instant; avoid decorative profile portraits. Keep typography subordinate to the pursuit.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Establish the rail and rear-left gate, then give the imitation and the centaur’s reaction distinct consecutive views. Follow their opposing eyelines before Chili turns to flee.",
     "protected_subjects": "D0nkey K0ng is one gorilla-centaur, all four legs; lasso owned by him, The Dark Horse separate and outside the active chase lane.",
     "data_treatment": "No finale score on the setup unless explicitly present in source copy.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P05",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "shot_structure": "establishing_strip_and_opposed_pov",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION"
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P05",
-    "focus": "Public confidence gives way to an urgent search for the established exit.",
-    "performance": "Keep the outlaw’s recognizable face, moving boots and glance toward the service gate readable; the integrated centaur owns the moving lasso.",
+    "focus": "Chili’s second imitation provokes D0nkey K0ng. His bow becomes a turn toward the service gate.",
+    "performance": "Show the outlaw copying the four-hoofed stance, the centaur’s reaction and his hand drawing the rope before Chili bolts for the service gate.",
     "narration_job": "Narration provides the remembered cookout reversal; the picture supplies the pursuit, without adding a second joke beneath it.",
     "source_refs": [
       "issue-previs.json#W10-P05",
@@ -223,16 +223,16 @@ SCENE AND CONTINUITY
   "visual_storytelling": {
     "page_id": "W10-P05",
     "structure": "establishing_strip_and_opposed_pov",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION",
-    "visual_question": "Who controls the ring, and what escape does the outlaw see?",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
+    "visual_question": "Which joke sends D0nkey K0ng after the showman?",
     "shots": [
       {
         "role": "establishing",
         "pov_owner_ids": [],
         "camera": "High gallery view down the same ring",
-        "action": "Show the rear-left service gate, wet track and both contestants on the pursuit axis.",
-        "new_information": "The reader knows the only visible exit before the chase tightens.",
-        "time_relation": "same moment",
+        "action": "The Chili Cheesers gets a laugh at the wet Highland rail. Establish the watching centaur and the rear-left service gate beyond.",
+        "new_information": "The showman has the gallery’s attention before the pursuit.",
+        "time_relation": "first",
         "id": "W10-P05-V01"
       },
       {
@@ -240,10 +240,10 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-BRANDON-PRYOR"
         ],
-        "camera": "Close third-person behind The Chili Cheesers toward the gate",
-        "action": "The outlaw runs and looks toward the exit, with the spectators beyond.",
-        "new_information": "Escape and audience-consciousness are his immediate priorities.",
-        "time_relation": "same moment",
+        "camera": "Rail-side medium view from the outlaw’s side, gallery in the background",
+        "action": "He repeats his imitation of D0nkey K0ng’s four-hoofed stance and bows to the gallery.",
+        "new_information": "Chili chooses to make the centaur the butt of a second joke.",
+        "time_relation": "next",
         "id": "W10-P05-V02"
       },
       {
@@ -251,26 +251,26 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-WILSON-LOOK"
         ],
-        "camera": "Low three-quarter following D0nkey K0ng on the same pursuit axis",
-        "action": "The integrated gorilla-centaur closes with four legs readable and his lasso turning.",
-        "new_information": "His control of rope and ground is the opposing intention.",
-        "time_relation": "same moment",
+        "camera": "Low three-quarter reaction on D0nkey K0ng with the rear-left gate visible",
+        "action": "D0nkey K0ng stiffens at the imitation and draws his own lasso off his shoulder. As the loop rises the outlaw bolts.",
+        "new_information": "The insult provokes the pursuit. D0nkey K0ng owns the rope from the outset.",
+        "time_relation": "then",
         "id": "W10-P05-V03"
       }
     ],
-    "layout_direction": "A narrow spatial overture above two unequal connected POV areas. Shared gate and gallery landmarks identify the same instant; avoid decorative profile portraits. Keep typography subordinate to the pursuit.",
+    "layout_direction": "Establish the rail and rear-left gate, then give the imitation and the centaur’s reaction distinct consecutive views. Follow their opposing eyelines before Chili turns to flee.",
     "dominant_view": "W10-P05-V03",
     "copy_flow": {
       "source": "issue-previs.json#W10-P05/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 152,
+          "end": 231,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 152,
-          "end": 456,
+          "start": 231,
+          "end": 413,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -313,7 +313,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "Everybody Gets a View",
   "deck": "The Chili Cheesers vs D0nkey K0ng",
-  "body": "The Chili Cheesers has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to D0nkey K0ng. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.",
+  "body": "Last week The Chili Cheesers had a whole cookout laughing at His Majesty’s Blood. At the Highland rail he gets the same laugh by copying D0nkey K0ng’s four-hoofed stance. He does it again, lower this time, and bows to the gallery. The centaur stops dead. By the time the outlaw straightens, the rope is off D0nkey K0ng’s shoulder. The service gate is still open. The Chili Cheesers makes for it in his good boots.",
   "department_heading": "The Chili Cheesers vs D0nkey K0ng"
 }
 

@@ -133,11 +133,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.",
+  "camera_and_composition": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.",
   "foreground": "His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback.",
-  "midground": "The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; distant Imperial battery as a subordinate story cue, never a replacement character costume.",
+  "midground": "The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; stepped field throne dais above a distant battery as a subordinate story cue, never a replacement character costume.",
   "background": "An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
-  "image_tells": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners. His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback. The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; distant Imperial battery as a subordinate story cue, never a replacement character costume. An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
+  "image_tells": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners. His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback. The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; stepped field throne dais above a distant battery as a subordinate story cue, never a replacement character costume. An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
   "encounter": {
     "venue_id": null,
     "set_id": "SET-W10-DUAL-200-EDITORIAL-COVER",
@@ -147,7 +147,7 @@ SCENE AND CONTINUITY
     "world_state_in": "Existing place with selective wear and maintenance",
     "persistent_landmarks": [
       "Jackson birthday atmosphere",
-      "Mountain assault command position"
+      "Mountain field throne room on the command shelf"
     ],
     "provisional_location": true,
     "formal_atlas_promotion": false,
@@ -217,7 +217,7 @@ SCENE AND CONTINUITY
           "CHAR-DAVID-BABB"
         ],
         "camera": "Medium seated executive, command-chair eyeline",
-        "action": "The LLC sits with cigar in his mountain-command atmosphere.",
+        "action": "The LLC sits with cigar above the steps of his field throne room.",
         "new_information": "The other performance expresses controlled force, not the same victory pose.",
         "time_relation": "same moment",
         "id": "W10-P01-V02"
@@ -453,10 +453,10 @@ IDENTITY INPUTS
 SCENE AND CONTINUITY
 {
   "camera_and_composition": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions.",
-  "foreground": "Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and mountain assault. Props are editorial symbols, not evidence of travel.",
+  "foreground": "Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and field throne room. Props are editorial symbols, not evidence of travel.",
   "midground": "Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures.",
   "background": "League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
-  "image_tells": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions. Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and mountain assault. Props are editorial symbols, not evidence of travel. Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures. League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
+  "image_tells": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions. Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and field throne room. Props are editorial symbols, not evidence of travel. Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures. League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
   "encounter": {
     "venue_id": "LOC-LEAGUE-CHAMBER",
     "set_id": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
@@ -514,7 +514,7 @@ SCENE AND CONTINUITY
         "role": "dominant",
         "pov_owner_ids": [],
         "camera": "Over-table oblique with strong near-to-far depth",
-        "action": "A sealed folio, mapped routes and the already specified lasso/paving/delivery/gift/assault symbols gather in the briefing space.",
+        "action": "A sealed folio, mapped routes and the already specified lasso/paving/delivery/gift/field-throne symbols gather in the briefing space.",
         "new_information": "A common world frames six different consequences without six miniature posters.",
         "time_relation": "same moment",
         "id": "W10-P02-V01"
@@ -527,7 +527,7 @@ SCENE AND CONTINUITY
       "body_ranges": [
         {
           "start": 0,
-          "end": 854,
+          "end": 610,
           "anchor": "one continuous readable atmospheric field beside the main visual information"
         }
       ],
@@ -554,7 +554,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "ROOM ABOVE TWO HUNDRED",
   "deck": "The week the pressure reached everyone",
-  "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.",
+  "body": "Two teams crossed two hundred by Sunday night. One brought a hamburger to a birthday party. The other left his chair and offered a man a bargain on his own mountain. In the Highlands, an outlaw got his laugh, copied a centaur’s stance for a second one, and gave the centaur a reason to chase him. In the east, El Niño’s rain found a way past Red Leopards’ sandbags. Inland, trees were already coming down. Seven Deadly Chins arrived with a jackhammer just as a household settled. Slob on my Dobb kept a delivery appointment in a swamp. Four regular-season games remain. Who has to live with what happened here?",
   "callouts": [],
   "rows": [],
   "department_heading": "OPENING DRIVE"
@@ -1235,11 +1235,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low rail-side wide diagonal, The Chili Cheesers ahead on screen-left, D0nkey K0ng pursuing from screen-right; gate rear-left.",
-  "foreground": "The Chili Cheesers’ running boots and wet track",
-  "midground": "D0nkey K0ng swinging his rope with four legs readable",
+  "camera_and_composition": "Low rail-side wide diagonal, The Chili Cheesers at the rail on screen-left, D0nkey K0ng drawing his rope on screen-right after Chili imitates him; gate rear-left.",
+  "foreground": "The Chili Cheesers’ boots planted wide for the imitation before he turns to run",
+  "midground": "D0nkey K0ng reacting to the imitation and drawing his rope, all four legs readable",
   "background": "Same gate, rails, crowd and sheltered lamps",
-  "image_tells": "From a low position just inside the rail, a wide diagonal reveals The Chili Cheesers already running around the ring while D0nkey K0ng gains behind him, swinging his own rope overhead. Show all four centaur legs and the single gorilla/equine body clearly. Crowd height and the visible exit gate establish public exposure. Dark Horse is separate, secured at the holding rail outside the active ring if included. The axe is stowed; it does not suddenly cut or block the lasso. Afternoon overcast gives cool fill, sheltered lanterns warm the crowded galleries, and wet hoof tracks define the pursuit line.",
+  "image_tells": "From a low position just inside the rail, a wide diagonal reveals The Chili Cheesers showing off at the rail and imitating the centaur. D0nkey K0ng sees the second imitation and draws his own lasso; Chili turns and runs for the service gate. Show all four centaur legs and the single gorilla/equine body clearly. Crowd height and the visible exit gate establish public exposure. Dark Horse is separate, secured at the holding rail outside the active ring if included. The axe is stowed; it does not suddenly cut or block the lasso. Afternoon overcast gives cool fill, sheltered lanterns warm the crowded galleries, and wet hoof tracks define the pursuit line.",
   "encounter": {
     "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
     "set_id": "SET-W10-DK-RODEO-GROUNDS",
@@ -1312,21 +1312,21 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P05",
     "family": "kinetic_action",
-    "dominant_action": "The Chili Cheesers runs for the exit as D0nkey K0ng closes.",
-    "reading_path": "The reader knows the only visible exit before the chase tightens. → Escape and audience-consciousness are his immediate priorities. → His control of rope and ground is the opposing intention.",
+    "dominant_action": "Chili mocks the centaur for a second laugh. D0nkey K0ng draws the lasso and Chili makes for the exit.",
+    "reading_path": "The showman has the gallery’s attention before the pursuit. → Chili chooses to make the centaur the butt of a second joke. → The insult provokes the pursuit. D0nkey K0ng owns the rope from the outset.",
     "heading_treatment": "Place the headline in quiet sky away from the loop; matchup names appear once, not twice as matching deck and header.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A narrow spatial overture above two unequal connected POV areas. Shared gate and gallery landmarks identify the same instant; avoid decorative profile portraits. Keep typography subordinate to the pursuit.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Establish the rail and rear-left gate, then give the imitation and the centaur’s reaction distinct consecutive views. Follow their opposing eyelines before Chili turns to flee.",
     "protected_subjects": "D0nkey K0ng is one gorilla-centaur, all four legs; lasso owned by him, The Dark Horse separate and outside the active chase lane.",
     "data_treatment": "No finale score on the setup unless explicitly present in source copy.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P05",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "shot_structure": "establishing_strip_and_opposed_pov",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION"
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P05",
-    "focus": "Public confidence gives way to an urgent search for the established exit.",
-    "performance": "Keep the outlaw’s recognizable face, moving boots and glance toward the service gate readable; the integrated centaur owns the moving lasso.",
+    "focus": "Chili’s second imitation provokes D0nkey K0ng. His bow becomes a turn toward the service gate.",
+    "performance": "Show the outlaw copying the four-hoofed stance, the centaur’s reaction and his hand drawing the rope before Chili bolts for the service gate.",
     "narration_job": "Narration provides the remembered cookout reversal; the picture supplies the pursuit, without adding a second joke beneath it.",
     "source_refs": [
       "issue-previs.json#W10-P05",
@@ -1339,16 +1339,16 @@ SCENE AND CONTINUITY
   "visual_storytelling": {
     "page_id": "W10-P05",
     "structure": "establishing_strip_and_opposed_pov",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION",
-    "visual_question": "Who controls the ring, and what escape does the outlaw see?",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
+    "visual_question": "Which joke sends D0nkey K0ng after the showman?",
     "shots": [
       {
         "role": "establishing",
         "pov_owner_ids": [],
         "camera": "High gallery view down the same ring",
-        "action": "Show the rear-left service gate, wet track and both contestants on the pursuit axis.",
-        "new_information": "The reader knows the only visible exit before the chase tightens.",
-        "time_relation": "same moment",
+        "action": "The Chili Cheesers gets a laugh at the wet Highland rail. Establish the watching centaur and the rear-left service gate beyond.",
+        "new_information": "The showman has the gallery’s attention before the pursuit.",
+        "time_relation": "first",
         "id": "W10-P05-V01"
       },
       {
@@ -1356,10 +1356,10 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-BRANDON-PRYOR"
         ],
-        "camera": "Close third-person behind The Chili Cheesers toward the gate",
-        "action": "The outlaw runs and looks toward the exit, with the spectators beyond.",
-        "new_information": "Escape and audience-consciousness are his immediate priorities.",
-        "time_relation": "same moment",
+        "camera": "Rail-side medium view from the outlaw’s side, gallery in the background",
+        "action": "He repeats his imitation of D0nkey K0ng’s four-hoofed stance and bows to the gallery.",
+        "new_information": "Chili chooses to make the centaur the butt of a second joke.",
+        "time_relation": "next",
         "id": "W10-P05-V02"
       },
       {
@@ -1367,26 +1367,26 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-WILSON-LOOK"
         ],
-        "camera": "Low three-quarter following D0nkey K0ng on the same pursuit axis",
-        "action": "The integrated gorilla-centaur closes with four legs readable and his lasso turning.",
-        "new_information": "His control of rope and ground is the opposing intention.",
-        "time_relation": "same moment",
+        "camera": "Low three-quarter reaction on D0nkey K0ng with the rear-left gate visible",
+        "action": "D0nkey K0ng stiffens at the imitation and draws his own lasso off his shoulder. As the loop rises the outlaw bolts.",
+        "new_information": "The insult provokes the pursuit. D0nkey K0ng owns the rope from the outset.",
+        "time_relation": "then",
         "id": "W10-P05-V03"
       }
     ],
-    "layout_direction": "A narrow spatial overture above two unequal connected POV areas. Shared gate and gallery landmarks identify the same instant; avoid decorative profile portraits. Keep typography subordinate to the pursuit.",
+    "layout_direction": "Establish the rail and rear-left gate, then give the imitation and the centaur’s reaction distinct consecutive views. Follow their opposing eyelines before Chili turns to flee.",
     "dominant_view": "W10-P05-V03",
     "copy_flow": {
       "source": "issue-previs.json#W10-P05/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 152,
+          "end": 231,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 152,
-          "end": 456,
+          "start": 231,
+          "end": 413,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -1429,7 +1429,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "Everybody Gets a View",
   "deck": "The Chili Cheesers vs D0nkey K0ng",
-  "body": "The Chili Cheesers has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to D0nkey K0ng. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.",
+  "body": "Last week The Chili Cheesers had a whole cookout laughing at His Majesty’s Blood. At the Highland rail he gets the same laugh by copying D0nkey K0ng’s four-hoofed stance. He does it again, lower this time, and bows to the gallery. The centaur stops dead. By the time the outlaw straightens, the rope is off D0nkey K0ng’s shoulder. The service gate is still open. The Chili Cheesers makes for it in his good boots.",
   "department_heading": "The Chili Cheesers vs D0nkey K0ng"
 }
 
@@ -2536,11 +2536,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.",
+  "camera_and_composition": "Open wide on El Niño’s storm rolling over the terrace, then low at the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.",
   "foreground": "Red Leopards bracing the sandbag beside shallow water and leaves",
   "midground": "Old rutted turf and damaged goal/net",
   "background": "The low-side overflow follows the retaining edge. Far across the pitch, El Niño is a small recognizable embodied elemental watching the rain; never a face in cloud. The narrow exit and unresolved Week 9 truck position are not magically repaired.",
-  "image_tells": "Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall. Red Leopards bracing the sandbag beside shallow water and leaves Old rutted turf and damaged goal/net The low-side overflow follows the retaining edge. Far across the pitch, El Niño is a small recognizable embodied elemental watching the rain; never a face in cloud. The narrow exit and unresolved Week 9 truck position are not magically repaired.",
+  "image_tells": "Open wide on El Niño’s storm rolling over the terrace, then low at the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall. Red Leopards bracing the sandbag beside shallow water and leaves Old rutted turf and damaged goal/net The low-side overflow follows the retaining edge. Far across the pitch, El Niño is a small recognizable embodied elemental watching the rain; never a face in cloud. The narrow exit and unresolved Week 9 truck position are not magically repaired.",
   "encounter": {
     "venue_id": "LOC-RED-RUINS",
     "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
@@ -2618,7 +2618,7 @@ SCENE AND CONTINUITY
     "page_id": "W10-P08",
     "family": "kinetic_action",
     "dominant_action": "A sandbag almost works before shallow water finds its way around.",
-    "reading_path": "His effort is specific and deliberate, not a defeated pose. → The opponent sees a failing boundary rather than a repair triumph. → The precise failure is visible without a tidal wall.",
+    "reading_path": "He sees the storm approach in time to try to protect the terrace. → The opponent sees a failing boundary rather than a repair triumph. → The precise failure is visible without a tidal wall.",
     "heading_treatment": "Place the title above a quiet strip of pitch/sky, away from the bag and El Niño's recognizable distant figure.",
     "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A dominant working view, narrow opposing view and small water-path detail. Reuse the known terrace geometry. No basketball hoop, invented historical storm or disembodied face in a cloud.",
     "protected_subjects": "Week 9 soccer terrace geometry, damaged goal, narrow exit and unresolved truck; no adjacent basketball court.",
@@ -2631,7 +2631,7 @@ SCENE AND CONTINUITY
   "personalization_direction": {
     "page_id": "W10-P08",
     "focus": "Repair is an assertion of pride, not passive suffering.",
-    "performance": "Hands must be lowering an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño.",
+    "performance": "Show the front rolling in before Red’s hands lower an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño.",
     "narration_job": "The 2022 memory explains why the gesture matters; do not illustrate a fabricated 2022 storm flashback.",
     "source_refs": [
       "issue-previs.json#W10-P08",
@@ -2652,9 +2652,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-KEVIN-ZEEK"
         ],
-        "camera": "Over Red Leopards’ near shoulder across the damaged soccer terrace",
-        "action": "He actively lowers another sandbag with the damaged goal and old ruts visible.",
-        "new_information": "His effort is specific and deliberate, not a defeated pose.",
+        "camera": "Wide view from Red Leopards’ shoulder across the damaged soccer terrace to the approaching front",
+        "action": "Red watches El Niño’s storm roll in over the eastern terrace, then lowers a sandbag beside the old goal.",
+        "new_information": "He sees the storm approach in time to try to protect the terrace.",
         "time_relation": "first",
         "id": "W10-P08-V01"
       },
@@ -2688,12 +2688,12 @@ SCENE AND CONTINUITY
       "body_ranges": [
         {
           "start": 0,
-          "end": 254,
+          "end": 194,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 254,
-          "end": 480,
+          "start": 194,
+          "end": 388,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -2737,7 +2737,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "One More Bag",
   "deck": "Red Leopards vs El Niño",
-  "body": "The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red Leopards to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red Leopards shifted another bag into place. The water went around it. In 2022, he had beaten El Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.",
+  "body": "Red Leopards sees El Niño’s storm roll over the eastern terrace. He stacks sandbags beside the damaged goal. For a moment the line holds. Then a thread of brown water comes out behind his boot. It has followed last week’s tire rut around the end of the line. In 2022 he had beaten El Niño twice and carried thirteen wins into the semifinal. He remembers how fast that advantage went, too.",
   "department_heading": "Red Leopards vs El Niño"
 }
 
@@ -2940,11 +2940,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Echo the Week7 court angle; near-left arrival, hoop upper/right, branch trajectory clear.",
+  "camera_and_composition": "From the Week 7 court approach show the fallen trunks along the inland road; preserve the upper-right hoop as a court tree topples against it.",
   "foreground": "Red Leopards at the familiar court edge, drifting leaves",
-  "midground": "Branch breaking toward wall-mounted assembly",
+  "midground": "A whole tree toppling at the vegetation margin, its limb striking the wall-mounted assembly",
   "background": "Same ivy walls and distant ruins; El Niño embodied if present",
-  "image_tells": "Preserve the right-hand wall-mounted hoop, cracked surface and broken ruin skyline from W7P08–10. Red Leopards arrives from the near-left court edge; a snapped branch from the established vegetation margin sweeps toward the right wall. Camera placement echoes the old basketball duel so readers recognize the place before a caption explains it. A distant figure of embodied El Niño may occupy the far court in the wind; he remains a humanoid elemental, not a face drawn into a cloud. Wet leaves sweep low along the stone. The strongest gust here can be a local squall funneled by the broken walls even though the basin is farther from the coastal core. Do not introduce a new freestanding basketball pole: the original goal is wall mounted.",
+  "image_tells": "Preserve the right-hand wall-mounted hoop, cracked surface and broken ruin skyline from W7P08–10. Red Leopards arrives from the near-left court edge; other trunks lie along the inland approach. A tree topples from the established vegetation margin and its limb strikes the right wall. Camera placement echoes the old basketball duel so readers recognize the place before a caption explains it. A distant figure of embodied El Niño may occupy the far court in the wind; he remains a humanoid elemental, not a face drawn into a cloud. Wet leaves sweep low along the stone. The strongest gust here can be a local squall funneled by the broken walls even though the basin is farther from the coastal core. Do not introduce a new freestanding basketball pole: the original goal is wall mounted.",
   "encounter": {
     "venue_id": null,
     "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
@@ -3035,8 +3035,8 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P09",
     "family": "vertical_conflict",
-    "dominant_action": "An inland arrival becomes a falling-branch threat.",
-    "reading_path": "The later destination is recognizable and separate from the soccer field. → Arrival turns into another material loss, with the force and target visible.",
+    "dominant_action": "Red travels inland past falling trees, then sees a tree topple against the court hoop.",
+    "reading_path": "Falling trees have cut gaps across his territory by the time he reaches the separate court. → Damage stretches beyond the court; this particular falling tree also breaks the familiar hoop.",
     "heading_treatment": "The title uses open wall/sky opposite the impact trajectory; include the existing later-location cue clearly.",
     "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a smaller arrival view and a tall dominant branch-impact composition. The word Later remains in the existing prose; the source’s court—not an invented game—controls geometry.",
     "protected_subjects": "Right-wall backboard, established ivy and separate Central Basin location; branch contact remains legible.",
@@ -3049,7 +3049,7 @@ SCENE AND CONTINUITY
   "personalization_direction": {
     "page_id": "W10-P09",
     "focus": "The familiar court offers recognition immediately before another loss.",
-    "performance": "Use Red Leopards’ upward eyeline and the falling branch to distinguish this location and beat from the prior water scene. Keep the right-wall backboard.",
+    "performance": "Use Red’s eyeline to show trees falling along the inland approach, then a separate tree toppling and its limb breaking the court hoop. Keep the right-wall backboard.",
     "narration_job": "The travel sentence and recognition do the emotional work; no new geography lecture or additional basketball contest.",
     "source_refs": [
       "issue-previs.json#W10-P09",
@@ -3070,9 +3070,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-KEVIN-ZEEK"
         ],
-        "camera": "Close third-person arrival echoing the Week7 court angle",
-        "action": "Red Leopards looks toward the familiar upper-right wall-mounted basket.",
-        "new_information": "The later destination is recognizable and separate from the soccer field.",
+        "camera": "From the court approach looking back down the inland road, mud on Red Leopards’ cuffs",
+        "action": "Later in the Central Basin, Red reaches the Forgotten Court past a fallen trunk. On the visible approach another whole tree topples.",
+        "new_information": "Falling trees have cut gaps across his territory by the time he reaches the separate court.",
         "time_relation": "arrival",
         "id": "W10-P09-V01"
       },
@@ -3082,8 +3082,8 @@ SCENE AND CONTINUITY
           "CHAR-KEVIN-ZEEK"
         ],
         "camera": "Wider upward view preserving the same wall and approach",
-        "action": "The gust brings the old limb onto the backboard while Red looks up.",
-        "new_information": "Arrival turns into another material loss, with the force and target visible.",
+        "action": "At the court a tree tips from the vegetation margin and its heavy limb strikes the right-wall backboard. Red watches from clear of its path.",
+        "new_information": "Damage stretches beyond the court; this particular falling tree also breaks the familiar hoop.",
         "time_relation": "moments later",
         "id": "W10-P09-V02"
       }
@@ -3095,12 +3095,12 @@ SCENE AND CONTINUITY
       "body_ranges": [
         {
           "start": 0,
-          "end": 186,
+          "end": 167,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 186,
-          "end": 371,
+          "start": 167,
+          "end": 397,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -3144,7 +3144,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "The Place That Answered Once",
   "deck": "Red Leopards vs El Niño",
-  "body": "Later, in the Central Basin, Red Leopards reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.",
+  "body": "Later, on the road inland to the Forgotten Court in the Central Basin, Red Leopards climbs over a fallen trunk. Farther up the slope another tree tips, roots and all. From the court entrance he sees the gaps they left across his territory. For a second the familiar hoop is still there on the right-hand wall. Then the tree above it goes over. One heavy limb catches the backboard on its way down.",
   "department_heading": "Red Leopards vs El Niño"
 }
 
@@ -3347,11 +3347,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Lower still aftermath along the same axis: Red Leopards seated, damaged hoop right, embodied El Niño across the court.",
-  "foreground": "Red Leopards’ slack hands and face at court edge",
+  "camera_and_composition": "Lower still aftermath on the same axis: Red Leopards gathers the net beneath the damaged right-wall hoop, the embodied El Niño across the court and fallen trunks visible beyond.",
+  "foreground": "Red Leopards’ muddy fingers gathering the loose net at the court edge",
   "midground": "Limb resting against ruined wall and bent rim",
   "background": "El Niño visibly humanoid laughing within the storm’s light",
-  "image_tells": "The branch has caught the backboard/hoop assembly and bent the rim downward against the same right wall. Red Leopards kneels or sits at the near court edge, hands slack and face disbelieving; avoid a second fighting pose. El Niño is clearly embodied beyond him, laughing through moving rain and cold light. The ruined support, basketball court lines and old wall remain recognizable. The sports fact behind the taunt is the **2022 Week16 semifinal: El Niño 116.32, Red Leopards 97.96**, after Red Leopards’ 13–1 regular season; El Niño subsequently won the championship. A newly written line such as “You remember how that run ended” is fictional dialogue, never an archival quote. A small “2022” reference should be earned by narration or an intentional prop; do not invent an old commemorative plaque.",
+  "image_tells": "The branch has caught the backboard/hoop assembly and bent the rim downward against the same right wall. Red Leopards kneels or sits at the near court edge, muddy fingers gathering the loose net, his face registering the loss; avoid a second fighting pose. El Niño is clearly embodied beyond him, laughing through moving rain and cold light. The ruined support, basketball court lines and old wall remain recognizable. The sports fact behind the taunt is the **2022 Week16 semifinal: El Niño 116.32, Red Leopards 97.96**, after Red Leopards’ 13–1 regular season; El Niño subsequently won the championship. A newly written line such as “You remember how that run ended” is fictional dialogue, never an archival quote. A small “2022” reference should be earned by narration or an intentional prop; do not invent an old commemorative plaque.",
   "encounter": {
     "venue_id": null,
     "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
@@ -3478,7 +3478,7 @@ SCENE AND CONTINUITY
           "CHAR-KEVIN-ZEEK"
         ],
         "camera": "Still low court view, seated figure under the broken hoop",
-        "action": "Red Leopards rests with the same mud on his hands and the limb against the wall.",
+        "action": "Red Leopards sits beneath the damaged hoop; his muddy fingers catch the loose net, with other fallen trunks visible beyond the court.",
         "new_information": "The loss registers as accumulated damage and remembered disappointment.",
         "time_relation": "same moment",
         "id": "W10-P10-V01"
@@ -7892,9 +7892,9 @@ IDENTITY INPUTS
     "full_name": "The LLC",
     "owner": "David Babb",
     "appearance": {
-      "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+      "subject_morphology": "Well-groomed human corporate executive in a dark tailored suit",
       "head_face": "Human head with short dark hair and dark sunglasses",
-      "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+      "silhouette": "Dark tailored suit, bright red tie and cigar. Seated at first in the leather chair; rises to his feet as the first battery fails.",
       "palette": [
         "black suit",
         "white shirt",
@@ -7922,14 +7922,14 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low three-quarter view just outside the inner arch; diagonal approach opens upward into the frame.",
-  "foreground": "ObiWan Jacoby’s planted feet and the retriever safely beyond the threshold.",
-  "midground": "Green deflection and the first battery hit.",
-  "background": "Second battery, recognizably suited The LLC and war-room ridge.",
-  "image_tells": "Begin under fire. ObiWan Jacoby actively breaks the forward battery with returned blaster fire, forcing the assault line to change before The LLC orders its response.",
+  "camera_and_composition": "One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.",
+  "foreground": "The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway.",
+  "midground": "The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis.",
+  "background": "ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
+  "image_tells": "One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame. The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway. The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis. ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
   "encounter": {
     "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "venue_type": "verified home domain / proposed scene",
+    "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
     "division_context": "Burgers home team vs Pizza away team",
     "route_required": true,
     "route_names": [
@@ -7940,30 +7940,29 @@ SCENE AND CONTINUITY
       "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
     ],
     "persistent_landmarks": [
-      "fixed mountain ridge",
-      "outer causeway",
-      "inner stone arch",
-      "existing mountain-base silhouette"
+      "mountain causeway below the command shelf",
+      "inner home arch and sheltered golden retriever",
+      "upper ridge steps to temporary field throne room",
+      "leather command chair above the floor seam"
     ],
     "provisional_location": false,
     "temporary_scene_props": [
-      "temporary Imperial assault formation",
-      "two visible battery emplacements",
-      "armored command platform",
-      "ObiWan’s green blade",
-      "ridge causeway and stone arch",
-      "golden retriever in sheltered inner approach"
+      "field throne room dressed on the existing command shelf",
+      "leather chair and floor seam",
+      "two initial battery emplacements",
+      "green blade and sheltered golden retriever"
     ],
     "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
     "set_id": "SET-W10-OBI-RIDGE-GATE"
   },
   "continuity_in": [
-    "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "Preserve current identity packets and preceding beat’s geography"
+    "mountain causeway below the command shelf",
+    "inner home arch and sheltered golden retriever",
+    "upper ridge steps to temporary field throne room",
+    "leather command chair above the floor seam"
   ],
   "continuity_out": [
-    "Begin under fire. ObiWan Jacoby actively breaks the forward battery with returned blaster fire, forcing the assault line to change before The LLC orders its response.",
-    "Local scene consequence remains draft until detailed acceptance"
+    "First battery smoking; the chair above the open steps is being vacated."
   ],
   "forbidden_mutations": [
     "No home repossession",
@@ -7978,12 +7977,12 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P22",
     "family": "kinetic_action",
-    "dominant_action": "ObiWan Jacoby breaks the first of two Imperial batteries.",
-    "reading_path": "Home and companion establish what is being defended. → Both batteries exist before one is destroyed. → The first counterattack earns a real success; the other battery survives.",
-    "heading_treatment": "Headline lives in clear smoke/sky away from the light blade and impact.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Two compact opposing intentions lead into one dominant first-counter action. Use neutral terrain landmarks to orient the reverse view; do not reverse advancing direction without the establish. Red fire denotes color, not another team.",
-    "protected_subjects": "Green blade translated into grayscale luminance, separate retriever safe behind, suited executive, two batteries at entry.",
-    "data_treatment": "Restore the approved color phrase Red fire; Red Leopards is not in this matchup. Preserve the 2024 margin.",
+    "dominant_action": "A real tactical success earns ObiWan Jacoby an audience.",
+    "reading_path": "The warm arch establishes a reason to accept an offer later. → The reader sees the room and both sources of fire. → The destroyed battery earns an actual opening onto the steps.",
+    "heading_treatment": "Place headline in quiet stone or storm shadow clear of faces and blade.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.",
+    "protected_subjects": "Canonical identities, first wreck, surviving battery, empty chair after the descent, protected arch and sheltered retriever.",
+    "data_treatment": "Preserve the historical 2024 margin of 0.80.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P22",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "shot_structure": "opposed_forces_then_first_counter",
@@ -7991,9 +7990,9 @@ SCENE AND CONTINUITY
   },
   "personalization_direction": {
     "page_id": "W10-P22",
-    "focus": "The defender earns a real success before the opponent answers.",
-    "performance": "ObiWan Jacoby’s planted stance and returned fire visibly destroy the first of two emplacements. Keep the retriever sheltered and The LLC recognizable across the causeway.",
-    "narration_job": "The 0.80 earlier result explains why a narrow opening matters; red fire is color, not Red Leopards joining the scene.",
+    "focus": "A real tactical success earns ObiWan Jacoby an audience.",
+    "performance": "The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway. The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis. ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
+    "narration_job": "A real tactical success earns ObiWan Jacoby an audience.",
     "source_refs": [
       "issue-previs.json#W10-P22",
       "facts.json#/historical_context/W10-G06",
@@ -8006,16 +8005,16 @@ SCENE AND CONTINUITY
     "page_id": "W10-P22",
     "structure": "opposed_forces_then_first_counter",
     "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
-    "visual_question": "What must the defender protect, and what resources does the commander have?",
+    "visual_question": "What success earns the defender an audience?",
     "shots": [
       {
         "role": "setup",
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Close third-person from the inner arch toward the causeway",
-        "action": "ObiWan Jacoby braces with green blade, the separate retriever sheltered behind the threshold.",
-        "new_information": "Home and companion establish what is being defended.",
+        "camera": "Behind the inner arch, sight along the causeway",
+        "action": "The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway.",
+        "new_information": "The warm arch establishes a reason to accept an offer later.",
         "time_relation": "before counter",
         "id": "W10-P22-V01"
       },
@@ -8024,9 +8023,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Medium three-quarter command-shelf view",
-        "action": "The suited LLC commands with the two distinct emplacements visible in the established terrain.",
-        "new_information": "Both batteries exist before one is destroyed.",
+        "camera": "Low cross-axis view of the field throne shelf",
+        "action": "The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis.",
+        "new_information": "The reader sees the room and both sources of fire.",
         "time_relation": "same pre-counter moment",
         "id": "W10-P22-V02"
       },
@@ -8035,26 +8034,26 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Low wide along the established fire line",
-        "action": "ObiWan Jacoby’s visible deflection strikes the first emplacement.",
-        "new_information": "The first counterattack earns a real success; the other battery survives.",
+        "camera": "Along the returned bolt toward the front emplacement",
+        "action": "ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
+        "new_information": "The destroyed battery earns an actual opening onto the steps.",
         "time_relation": "next",
         "id": "W10-P22-V03"
       }
     ],
-    "layout_direction": "Two compact opposing intentions lead into one dominant first-counter action. Use neutral terrain landmarks to orient the reverse view; do not reverse advancing direction without the establish. Red fire denotes color, not another team.",
+    "layout_direction": "One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.",
     "dominant_view": "W10-P22-V03",
     "copy_flow": {
       "source": "issue-previs.json#W10-P22/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 174,
+          "end": 171,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 174,
-          "end": 357,
+          "start": 171,
+          "end": 410,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -8065,14 +8064,14 @@ SCENE AND CONTINUITY
     "continuity": {
       "source_encounter_unchanged": true,
       "landmarks": [
-        "fixed mountain ridge",
-        "outer causeway",
-        "inner stone arch",
-        "existing mountain-base silhouette"
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam"
       ],
       "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
     },
-    "page_turn_out": "The first smoking wreck opens the visual route toward the ridge flank.",
+    "page_turn_out": "A view of the home arch makes surrender tempting. The lit blade answers.",
     "grammar_references": [
       {
         "week": 9,
@@ -8097,7 +8096,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "The Empire Opens Fire",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
+  "body": "In 2024, eight tenths of a point settled their meeting in The LLC’s favor. ObiWan Jacoby remembers what a single opening is worth. Red fire crosses his mountain causeway. He turns it back with the green blade and the first battery folds into its own smoke. Above it, the man in the leather chair rises. The steps to his field throne room stand open. Behind ObiWan Jacoby, the lamp in the home arch still burns.",
   "department_heading": "ObiWan Jacoby vs The LLC"
 }
 
@@ -8214,7 +8213,7 @@ REFERENCE IMAGES
   }
 ]
 
-## W10-P23 — Two Ways Through
+## W10-P23 — The Price of Quiet
 
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
@@ -8283,9 +8282,9 @@ IDENTITY INPUTS
     "full_name": "The LLC",
     "owner": "David Babb",
     "appearance": {
-      "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+      "subject_morphology": "Well-groomed human corporate executive in a dark tailored suit",
       "head_face": "Human head with short dark hair and dark sunglasses",
-      "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+      "silhouette": "Dark tailored suit, bright red tie and cigar. On foot, descends the steps and stands beside ObiWan Jacoby facing the home arch. The leather chair stands empty behind them.",
       "palette": [
         "black suit",
         "white shirt",
@@ -8313,14 +8312,14 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Side view from the same side of the approach, raised enough to reveal the shelf without reversing screen direction.",
-  "foreground": "Blackened first emplacement and wind-driven smoke below.",
-  "midground": "ObiWan Jacoby committed along the upper route.",
-  "background": "The LLC and the sole remaining battery across the approach.",
-  "image_tells": "Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. The LLC answers with crossfire from already established surviving positions.",
+  "camera_and_composition": "Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.",
+  "foreground": "ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair.",
+  "midground": "The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below.",
+  "background": "ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
+  "image_tells": "Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam. ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair. The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below. ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
   "encounter": {
     "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "venue_type": "verified home domain / proposed scene",
+    "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
     "division_context": "Burgers home team vs Pizza away team",
     "route_required": true,
     "route_names": [
@@ -8331,30 +8330,30 @@ SCENE AND CONTINUITY
       "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
     ],
     "persistent_landmarks": [
-      "fixed mountain ridge",
-      "outer causeway",
-      "inner stone arch",
-      "existing mountain-base silhouette"
+      "mountain causeway below the command shelf",
+      "inner home arch and sheltered golden retriever",
+      "upper ridge steps to temporary field throne room",
+      "leather command chair above the floor seam"
     ],
     "provisional_location": false,
     "temporary_scene_props": [
-      "temporary Imperial assault formation",
-      "two visible battery emplacements",
-      "armored command platform",
-      "ObiWan’s green blade",
-      "ridge causeway and stone arch",
-      "golden retriever in sheltered inner approach"
+      "field throne room dressed on the existing command shelf",
+      "leather chair and floor seam",
+      "two initial battery emplacements",
+      "green blade and sheltered golden retriever"
     ],
     "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
     "set_id": "SET-W10-OBI-RIDGE-GATE"
   },
   "continuity_in": [
-    "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "Preserve current identity packets and preceding beat’s geography"
+    "mountain causeway below the command shelf",
+    "inner home arch and sheltered golden retriever",
+    "upper ridge steps to temporary field throne room",
+    "leather command chair above the floor seam",
+    "First battery smoking; the chair above the open steps is being vacated."
   ],
   "continuity_out": [
-    "Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. The LLC answers with crossfire from already established surviving positions.",
-    "Local scene consequence remains draft until detailed acceptance"
+    "ObiWan Jacoby crosses with the blade still lit; the executive steps around to face him."
   ],
   "forbidden_mutations": [
     "No home repossession",
@@ -8369,12 +8368,12 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P23",
     "family": "kinetic_action",
-    "dominant_action": "A second counterattack takes the higher route.",
-    "reading_path": "The second attempt uses a different route, not a repeated defensive pose. → His economy of movement contrasts with the defender’s effort. → The gesture has a physical consequence and no extra battery appears.",
-    "heading_treatment": "The title inhabits a clear upper cloud shelf, without reversing action direction.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Make route, command and response separate visual beats with the battery state carried through all three. Smoke direction and landmark positions stay fixed. No third counterattack or concealed new weapon.",
-    "protected_subjects": "Destroyed battery remains destroyed, sole surviving battery, same command shelf and consistent smoke direction.",
-    "data_treatment": "No extra battery, secret force or invented result; full supplied prose unchanged.",
+    "dominant_action": "A view of the home arch makes surrender tempting. The lit blade answers.",
+    "reading_path": "Both characters move to the same landing by choice. → His offer has a price: lay down the blade and the arch will be spared. → Crossing with the blade is the refusal.",
+    "heading_treatment": "Place headline in quiet stone or storm shadow clear of faces and blade.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.",
+    "protected_subjects": "Canonical identities, first wreck, surviving battery, empty chair after the descent, protected arch and sheltered retriever.",
+    "data_treatment": "The offered terms concern this fictional encounter.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P23",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "shot_structure": "counterattack_command_response",
@@ -8382,9 +8381,9 @@ SCENE AND CONTINUITY
   },
   "personalization_direction": {
     "page_id": "W10-P23",
-    "focus": "The second advance is a decision, not a repeated pose.",
-    "performance": "Carry the defender along the established upper ridge; The LLC’s gesture turns the sole surviving battery. Keep the first wreck in view and the screen direction unchanged.",
-    "narration_job": "Give the risk and persistence meaning without inventing a third counterattack, secret reserve or physical meeting.",
+    "focus": "A view of the home arch makes surrender tempting. The lit blade answers.",
+    "performance": "ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair. The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below. ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
+    "narration_job": "A view of the home arch makes surrender tempting. The lit blade answers.",
     "source_refs": [
       "issue-previs.json#W10-P23",
       "facts.json#/historical_context/W10-G06",
@@ -8397,16 +8396,16 @@ SCENE AND CONTINUITY
     "page_id": "W10-P23",
     "structure": "counterattack_command_response",
     "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
-    "visual_question": "How does the commander answer a meaningful second attempt?",
+    "visual_question": "Will he trade the blade for the safety of his home?",
     "shots": [
       {
         "role": "setup",
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Over-shoulder from the established upper ridge with the first wreck below",
-        "action": "ObiWan Jacoby commits to the flank.",
-        "new_information": "The second attempt uses a different route, not a repeated defensive pose.",
+        "camera": "Along the ridge from behind the defender",
+        "action": "ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair.",
+        "new_information": "Both characters move to the same landing by choice.",
         "time_relation": "first",
         "id": "W10-P23-V01"
       },
@@ -8415,9 +8414,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Close medium on the suited executive’s command gesture",
-        "action": "The LLC signals from the same command shelf.",
-        "new_information": "His economy of movement contrasts with the defender’s effort.",
+        "camera": "Over their shoulders, side by side toward the arch",
+        "action": "The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below.",
+        "new_information": "His offer has a price: lay down the blade and the arch will be spared.",
         "time_relation": "next",
         "id": "W10-P23-V02"
       },
@@ -8427,26 +8426,26 @@ SCENE AND CONTINUITY
           "CHAR-JAKE-KALOPER",
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Wide same-side approach showing one smoking wreck and the sole remaining emplacement turning",
-        "action": "The surviving battery rotates into the ridge approach.",
-        "new_information": "The gesture has a physical consequence and no extra battery appears.",
+        "camera": "Low detail of the threshold and their hands",
+        "action": "ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
+        "new_information": "Crossing with the blade is the refusal.",
         "time_relation": "response",
         "id": "W10-P23-V03"
       }
     ],
-    "layout_direction": "Make route, command and response separate visual beats with the battery state carried through all three. Smoke direction and landmark positions stay fixed. No third counterattack or concealed new weapon.",
+    "layout_direction": "Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.",
     "dominant_view": "W10-P23-V03",
     "copy_flow": {
       "source": "issue-previs.json#W10-P23/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 176,
+          "end": 188,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 176,
-          "end": 360,
+          "start": 188,
+          "end": 368,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -8457,14 +8456,14 @@ SCENE AND CONTINUITY
     "continuity": {
       "source_encounter_unchanged": true,
       "landmarks": [
-        "fixed mountain ridge",
-        "outer causeway",
-        "inner stone arch",
-        "existing mountain-base silhouette"
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam"
       ],
       "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
     },
-    "page_turn_out": "The rotating barrels motivate the retreat into the defended inner arch.",
+    "page_turn_out": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
     "grammar_references": [
       {
         "week": 9,
@@ -8480,9 +8479,9 @@ SCENE AND CONTINUITY
 
 EXACT FULL PUBLICATION COPY
 {
-  "headline": "Two Ways Through",
+  "headline": "The Price of Quiet",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "ObiWan Jacoby takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.",
+  "body": "The LLC comes down the steps to meet him. For a moment the two stand shoulder to shoulder. From here the warm arch looks almost small enough to cover with a hand. Lay the blade down before the chair, the executive offers, and the arch will be spared. ObiWan Jacoby looks back once. Then he steps across the last seam in the stone. The blade goes with him, still green.",
   "department_heading": "ObiWan Jacoby vs The LLC"
 }
 
@@ -8655,9 +8654,9 @@ IDENTITY INPUTS
     "full_name": "The LLC",
     "owner": "David Babb",
     "appearance": {
-      "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+      "subject_morphology": "Well-groomed human corporate executive in a dark tailored suit",
       "head_face": "Human head with short dark hair and dark sunglasses",
-      "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+      "silhouette": "Dark tailored suit, bright red tie and cigar. Standing face to face with ObiWan Jacoby, raises one hand to signal the surviving battery. The leather chair remains empty.",
       "palette": [
         "black suit",
         "white shirt",
@@ -8685,14 +8684,14 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Human-height view outward from the inner arch: ObiWan Jacoby defends with his green blade and separate golden retriever sheltered behind him. One distant Imperial battery is destroyed and smoking; the single surviving battery has multiple barrels converging on the defended approach. Smoke and flags blow in the same established direction. No regenerated battery or second functioning emplacement.",
-  "foreground": "ObiWan Jacoby’s green blade and recognizable face/hand.",
-  "midground": "Damaged approach and spent debris.",
-  "background": "One battery still firing, troops and The LLC in stable positions.",
-  "image_tells": "Human-height view outward from the inner arch: ObiWan Jacoby defends with his green blade and separate golden retriever sheltered behind him. One distant Imperial battery is destroyed and smoking; the single surviving battery has multiple barrels converging on the defended approach. Smoke and flags blow in the same established direction. No regenerated battery or second functioning emplacement. ObiWan Jacoby’s green blade and recognizable face/hand. Damaged approach and spent debris. One battery still firing, troops and The LLC in stable positions.",
+  "camera_and_composition": "Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.",
+  "foreground": "The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light.",
+  "midground": "The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered.",
+  "background": "One earlier wreck, the warm home arch and the same sheltered retriever.",
+  "image_tells": "Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch. The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light. The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered. One earlier wreck, the warm home arch and the same sheltered retriever.",
   "encounter": {
     "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "venue_type": "verified home domain / proposed scene",
+    "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
     "division_context": "Burgers home team vs Pizza away team",
     "route_required": true,
     "route_names": [
@@ -8703,30 +8702,30 @@ SCENE AND CONTINUITY
       "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
     ],
     "persistent_landmarks": [
-      "fixed mountain ridge",
-      "outer causeway",
-      "inner stone arch",
-      "existing mountain-base silhouette"
+      "mountain causeway below the command shelf",
+      "inner home arch and sheltered golden retriever",
+      "upper ridge steps to temporary field throne room",
+      "leather command chair above the floor seam"
     ],
     "provisional_location": false,
     "temporary_scene_props": [
-      "temporary Imperial assault formation",
-      "two visible battery emplacements",
-      "armored command platform",
-      "ObiWan’s green blade",
-      "ridge causeway and stone arch",
-      "golden retriever in sheltered inner approach"
+      "field throne room dressed on the existing command shelf",
+      "leather chair and floor seam",
+      "two initial battery emplacements",
+      "green blade and sheltered golden retriever"
     ],
     "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
     "set_id": "SET-W10-OBI-RIDGE-GATE"
   },
   "continuity_in": [
-    "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "Preserve current identity packets and preceding beat’s geography"
+    "mountain causeway below the command shelf",
+    "inner home arch and sheltered golden retriever",
+    "upper ridge steps to temporary field throne room",
+    "leather command chair above the floor seam",
+    "ObiWan Jacoby crosses with the blade still lit; the executive steps around to face him."
   ],
   "continuity_out": [
-    "The decisive image shows both counters attempted and contained. ObiWan Jacoby yields the exposed approach under sustained fire while The LLC controls the open ground; no invented death or permanent ownership transfer.",
-    "Local scene consequence remains draft until detailed acceptance"
+    "Lightning consumes the silhouette. The LLC wins; the home and its defender carry forward alive."
   ],
   "forbidden_mutations": [
     "No home repossession",
@@ -8741,23 +8740,23 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P24",
     "family": "kinetic_action",
-    "dominant_action": "The defender holds the arch while the single surviving battery continues firing; the battle has not gone quiet.",
-    "reading_path": "He protects his threshold without being falsely shown victorious or helpless. → The victor still has resources after both earned counterattacks.",
-    "heading_treatment": "Let the held threshold dominate; title and matchup line stay compact in arch shade.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.",
-    "protected_subjects": "One smoking ruined emplacement and one surviving battery still firing; separate sheltered retriever, exact identities, no belt on ObiWan Jacoby and no home transfer.",
-    "data_treatment": "Exact FINAL score, margin and football context; not an image-invented 'overwhelming' number.",
+    "dominant_action": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+    "reading_path": "A deliberate command delivers judgment; the surviving battery visibly supplies the charge. → The encounter is lost; the home and continuing character survive this week.",
+    "heading_treatment": "Place headline in quiet stone or storm shadow clear of faces and blade.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.",
+    "protected_subjects": "Canonical identities, first wreck, surviving battery, empty chair after the descent, protected arch and sheltered retriever.",
+    "data_treatment": "Retain the exact scores, 37.43 margin and Monday response.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P24",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "rhythm_variant": "sustained_defense_at_the_threshold",
     "shot_structure": "resistance_and_command_counterview",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION"
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION"
   },
   "personalization_direction": {
     "page_id": "W10-P24",
-    "focus": "Holding the arch preserves dignity without rewriting the defeat.",
-    "performance": "Keep the surviving battery actively firing and the destroyed one smoking. The face/hand/blade remain readable in the arch, with a separate sheltered retriever behind.",
-    "narration_job": "Retain the exact final score and margin. This is sustained defense under fire, not a magically quiet or victorious aftermath.",
+    "focus": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+    "performance": "The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light. The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered.",
+    "narration_job": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
     "source_refs": [
       "issue-previs.json#W10-P24",
       "facts.json#/historical_context/W10-G06",
@@ -8769,18 +8768,18 @@ SCENE AND CONTINUITY
   "visual_storytelling": {
     "page_id": "W10-P24",
     "structure": "resistance_and_command_counterview",
-    "time_logic": "SIMULTANEOUS_SAME_LOCATION",
-    "visual_question": "How can the defense remain brave while the loss remains clear?",
+    "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
+    "visual_question": "What happens when The LLC sees the blade still lit?",
     "shots": [
       {
         "role": "dominant",
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Human-height inward/outward arch view with readable blade, hands and sheltered retriever",
-        "action": "ObiWan Jacoby holds under continuing fire; the first emplacement smokes beyond him.",
-        "new_information": "He protects his threshold without being falsely shown victorious or helpless.",
-        "time_relation": "same moment",
+        "camera": "Eye-level front three-quarter, below the empty chair",
+        "action": "The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light.",
+        "new_information": "A deliberate command delivers judgment; the surviving battery visibly supplies the charge.",
+        "time_relation": "At the moment of refusal",
         "id": "W10-P24-V01"
       },
       {
@@ -8788,26 +8787,26 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Long command-side view aimed back across the same gap",
-        "action": "The LLC remains in control as the single surviving battery continues firing toward the arch.",
-        "new_information": "The victor still has resources after both earned counterattacks.",
-        "time_relation": "same moment",
+        "camera": "Low reverse angle to the arch through the fading light",
+        "action": "The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered.",
+        "new_information": "The encounter is lost; the home and continuing character survive this week.",
+        "time_relation": "A beat later, as the flare recedes",
         "id": "W10-P24-V02"
       }
     ],
-    "layout_direction": "Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.",
+    "layout_direction": "Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.",
     "dominant_view": "W10-P24-V01",
     "copy_flow": {
       "source": "issue-previs.json#W10-P24/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 185,
+          "end": 261,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 185,
-          "end": 451,
+          "start": 261,
+          "end": 417,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -8818,14 +8817,14 @@ SCENE AND CONTINUITY
     "continuity": {
       "source_encounter_unchanged": true,
       "landmarks": [
-        "fixed mountain ridge",
-        "outer causeway",
-        "inner stone arch",
-        "existing mountain-base silhouette"
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam"
       ],
       "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
     },
-    "page_turn_out": "The defended threshold gives way to the practical question of what every team can field next.",
+    "page_turn_out": "Carry both competitors alive into the closing regular season.",
     "grammar_references": [
       {
         "week": 9,
@@ -8843,7 +8842,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "Unlimited Firepower",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.",
+  "body": "The LLC walks around until ObiWan Jacoby can see his face. Then he lifts his hand. Below the steps the surviving battery turns. The first white branch catches the green blade, the second lights the empty chair, and the flash swallows the defender’s silhouette. The arch lamp still burns. Derrick Henry and Mark Andrews supplied 36.20 on Monday. ObiWan Jacoby reached 166.53. The LLC held at 203.96, a margin of 37.43.",
   "department_heading": "ObiWan Jacoby vs The LLC",
   "result": {
     "status": "FINAL",

@@ -15,12 +15,12 @@ Two characters with contrasting signatures -> inhabited briefing -> civic breath
 Vary POV overtures, causal strips, sustained master scenes, reaction details and quiet consequences. No new page count or relabeled scores.
 
 ### W10-M01 · W10-P05 / W10-P06 / W10-P07
-Visible exit/rope control -> torso catch -> slipping momentum -> controlled fall -> deliberate binding -> public reaction.
+Showing off -> imitation provokes DK -> flight toward visible exit -> torso catch -> slipping momentum -> controlled fall -> deliberate binding -> public reaction.
 
 The open loop becomes a catch; the taut line becomes a visible knot.
 
 ### W10-M02 · W10-P08 / W10-P09 / W10-P10
-Attempted repair -> water finds the gap -> explicit later travel -> familiar court arrival -> branch breaks hoop -> present-day recognition.
+Storm rolls in -> attempted sandbag repair -> water finds old rut -> later travel past falling trees -> court tree falls and its limb breaks hoop -> present-day recognition.
 
 A material loss follows him through memory and carried mud, not by merging venues.
 
@@ -40,9 +40,9 @@ Guest welcomed -> box opened -> burger understood -> host reacts -> separate cak
 Reveal is not payoff; the established cake carries the last page.
 
 ### W10-M06 · W10-P22 / W10-P23 / W10-P24
-Two forces/two batteries established -> first destroyed -> ridge counter -> command gesture -> survivor turns -> arch defended under continuing fire.
+ObiWan Jacoby disables the first battery. The LLC rises from the chair, descends to stand beside him, offers protection for surrender, then circles to face him after he refuses. A hand signal releases the surviving battery’s lightning across the field throne room.
 
-The first wreck and the remaining battery are visual state memory, not replaceable scenery.
+From the open stair to the price of surrender to the lightning judgment.
 
 ## Page-by-page direction
 
@@ -54,7 +54,7 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 **W10-P01-V01 · dominant** — Low three-quarter standing champion, gift presentation scale. His Majesty’s Blood holds the wrapped gift in the established birthday context. The first 200-point performance has a social, teasing signature. Time: same moment.
 
-**W10-P01-V02 · counterpoint** — Medium seated executive, command-chair eyeline. The LLC sits with cigar in his mountain-command atmosphere. The other performance expresses controlled force, not the same victory pose. Time: same moment.
+**W10-P01-V02 · counterpoint** — Medium seated executive, command-chair eyeline. The LLC sits with cigar above the steps of his field throne room. The other performance expresses controlled force, not the same victory pose. Time: same moment.
 
 **Page composition:** One cover with two distinct story territories joined by weather and tonal atmosphere; not a literal meeting or two equal portrait cards. Keep both exact named scores by their own subject.
 
@@ -66,7 +66,7 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 **Structure:** inhabited_briefing_master · ONE_CONTINUOUS_MOMENT
 
-**W10-P02-V01 · dominant** — Over-table oblique with strong near-to-far depth. A sealed folio, mapped routes and the already specified lasso/paving/delivery/gift/assault symbols gather in the briefing space. A common world frames six different consequences without six miniature posters. Time: same moment.
+**W10-P02-V01 · dominant** — Over-table oblique with strong near-to-far depth. A sealed folio, mapped routes and the already specified lasso/paving/delivery/gift/field-throne symbols gather in the briefing space. A common world frames six different consequences without six miniature posters. Time: same moment.
 
 **Page composition:** Keep the recognizable published Opening Drive as one inhabited composition. Foreground objects and distant banners guide the eye; full narration lives around—not below a detached picture of—the table.
 
@@ -98,17 +98,17 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 ### W10-P05 — Everybody Gets a View
 
-**Visual question:** Who controls the ring, and what escape does the outlaw see?
+**Visual question:** Which joke sends D0nkey K0ng after the showman?
 
-**Structure:** establishing_strip_and_opposed_pov · SIMULTANEOUS_SAME_LOCATION
+**Structure:** establishing_strip_and_opposed_pov · CHRONOLOGICAL_SAME_LOCATION
 
-**W10-P05-V01 · establishing** — High gallery view down the same ring. Show the rear-left service gate, wet track and both contestants on the pursuit axis. The reader knows the only visible exit before the chase tightens. Time: same moment.
+**W10-P05-V01 · establishing** — High gallery view down the same ring. The Chili Cheesers gets a laugh at the wet Highland rail. Establish the watching centaur and the rear-left service gate beyond. The showman has the gallery’s attention before the pursuit. Time: first.
 
-**W10-P05-V02 · subjective** — Close third-person behind The Chili Cheesers toward the gate. The outlaw runs and looks toward the exit, with the spectators beyond. Escape and audience-consciousness are his immediate priorities. Time: same moment.
+**W10-P05-V02 · subjective** — Rail-side medium view from the outlaw’s side, gallery in the background. He repeats his imitation of D0nkey K0ng’s four-hoofed stance and bows to the gallery. Chili chooses to make the centaur the butt of a second joke. Time: next.
 
-**W10-P05-V03 · dominant** — Low three-quarter following D0nkey K0ng on the same pursuit axis. The integrated gorilla-centaur closes with four legs readable and his lasso turning. His control of rope and ground is the opposing intention. Time: same moment.
+**W10-P05-V03 · dominant** — Low three-quarter reaction on D0nkey K0ng with the rear-left gate visible. D0nkey K0ng stiffens at the imitation and draws his own lasso off his shoulder. As the loop rises the outlaw bolts. The insult provokes the pursuit. D0nkey K0ng owns the rope from the outset. Time: then.
 
-**Page composition:** A narrow spatial overture above two unequal connected POV areas. Shared gate and gallery landmarks identify the same instant; avoid decorative profile portraits. Keep typography subordinate to the pursuit.
+**Page composition:** Establish the rail and rear-left gate, then give the imitation and the centaur’s reaction distinct consecutive views. Follow their opposing eyelines before Chili turns to flee.
 
 **Turn to next page:** Page turn follows the open loop toward The Chili Cheesers, not yet a completed capture.
 
@@ -148,7 +148,7 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 **Structure:** repair_opposition_and_detail · CHRONOLOGICAL_SAME_LOCATION
 
-**W10-P08-V01 · dominant** — Over Red Leopards’ near shoulder across the damaged soccer terrace. He actively lowers another sandbag with the damaged goal and old ruts visible. His effort is specific and deliberate, not a defeated pose. Time: first.
+**W10-P08-V01 · dominant** — Wide view from Red Leopards’ shoulder across the damaged soccer terrace to the approaching front. Red watches El Niño’s storm roll in over the eastern terrace, then lowers a sandbag beside the old goal. He sees the storm approach in time to try to protect the terrace. Time: first.
 
 **W10-P08-V02 · opposed_pov** — Reverse long view from embodied El Niño’s side of the same pitch. The elemental regards the small repair effort through the rain. The opponent sees a failing boundary rather than a repair triumph. Time: same repair moment.
 
@@ -164,9 +164,9 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 **Structure:** arrival_then_impact · CHRONOLOGICAL_SAME_LOCATION
 
-**W10-P09-V01 · setup** — Close third-person arrival echoing the Week7 court angle. Red Leopards looks toward the familiar upper-right wall-mounted basket. The later destination is recognizable and separate from the soccer field. Time: arrival.
+**W10-P09-V01 · setup** — From the court approach looking back down the inland road, mud on Red Leopards’ cuffs. Later in the Central Basin, Red reaches the Forgotten Court past a fallen trunk. On the visible approach another whole tree topples. Falling trees have cut gaps across his territory by the time he reaches the separate court. Time: arrival.
 
-**W10-P09-V02 · dominant** — Wider upward view preserving the same wall and approach. The gust brings the old limb onto the backboard while Red looks up. Arrival turns into another material loss, with the force and target visible. Time: moments later.
+**W10-P09-V02 · dominant** — Wider upward view preserving the same wall and approach. At the court a tree tips from the vegetation margin and its heavy limb strikes the right-wall backboard. Red watches from clear of its path. Damage stretches beyond the court; this particular falling tree also breaks the familiar hoop. Time: moments later.
 
 **Page composition:** Use a smaller arrival view and a tall dominant branch-impact composition. The word Later remains in the existing prose; the source’s court—not an invented game—controls geometry.
 
@@ -178,7 +178,7 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 **Structure:** aftermath_and_opposing_look · SIMULTANEOUS_SAME_LOCATION
 
-**W10-P10-V01 · dominant** — Still low court view, seated figure under the broken hoop. Red Leopards rests with the same mud on his hands and the limb against the wall. The loss registers as accumulated damage and remembered disappointment. Time: same moment.
+**W10-P10-V01 · dominant** — Still low court view, seated figure under the broken hoop. Red Leopards sits beneath the damaged hoop; his muddy fingers catch the loose net, with other fallen trunks visible beyond the court. The loss registers as accumulated damage and remembered disappointment. Time: same moment.
 
 **W10-P10-V02 · counterpoint** — Reverse view across the same court from the elemental’s side. Embodied El Niño laughs across the wet space, with Red still seated beyond. The victor and loser experience the same aftermath differently. Time: same moment.
 
@@ -356,49 +356,49 @@ The first wreck and the remaining battery are visual state memory, not replaceab
 
 ### W10-P22 — The Empire Opens Fire
 
-**Visual question:** What must the defender protect, and what resources does the commander have?
+**Visual question:** What success earns the defender an audience?
 
 **Structure:** opposed_forces_then_first_counter · CHRONOLOGICAL_SAME_LOCATION
 
-**W10-P22-V01 · setup** — Close third-person from the inner arch toward the causeway. ObiWan Jacoby braces with green blade, the separate retriever sheltered behind the threshold. Home and companion establish what is being defended. Time: before counter.
+**W10-P22-V01 · setup** — Behind the inner arch, sight along the causeway. The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway. The warm arch establishes a reason to accept an offer later. Time: before counter.
 
-**W10-P22-V02 · opposed_pov** — Medium three-quarter command-shelf view. The suited LLC commands with the two distinct emplacements visible in the established terrain. Both batteries exist before one is destroyed. Time: same pre-counter moment.
+**W10-P22-V02 · opposed_pov** — Low cross-axis view of the field throne shelf. The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis. The reader sees the room and both sources of fire. Time: same pre-counter moment.
 
-**W10-P22-V03 · dominant** — Low wide along the established fire line. ObiWan Jacoby’s visible deflection strikes the first emplacement. The first counterattack earns a real success; the other battery survives. Time: next.
+**W10-P22-V03 · dominant** — Along the returned bolt toward the front emplacement. ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke. The destroyed battery earns an actual opening onto the steps. Time: next.
 
-**Page composition:** Two compact opposing intentions lead into one dominant first-counter action. Use neutral terrain landmarks to orient the reverse view; do not reverse advancing direction without the establish. Red fire denotes color, not another team.
+**Page composition:** One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.
 
-**Turn to next page:** The first smoking wreck opens the visual route toward the ridge flank.
+**Turn to next page:** A view of the home arch makes surrender tempting. The lit blade answers.
 
-### W10-P23 — Two Ways Through
+### W10-P23 — The Price of Quiet
 
-**Visual question:** How does the commander answer a meaningful second attempt?
+**Visual question:** Will he trade the blade for the safety of his home?
 
 **Structure:** counterattack_command_response · CHRONOLOGICAL_SAME_LOCATION
 
-**W10-P23-V01 · setup** — Over-shoulder from the established upper ridge with the first wreck below. ObiWan Jacoby commits to the flank. The second attempt uses a different route, not a repeated defensive pose. Time: first.
+**W10-P23-V01 · setup** — Along the ridge from behind the defender. ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair. Both characters move to the same landing by choice. Time: first.
 
-**W10-P23-V02 · detail** — Close medium on the suited executive’s command gesture. The LLC signals from the same command shelf. His economy of movement contrasts with the defender’s effort. Time: next.
+**W10-P23-V02 · detail** — Over their shoulders, side by side toward the arch. The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below. His offer has a price: lay down the blade and the arch will be spared. Time: next.
 
-**W10-P23-V03 · dominant** — Wide same-side approach showing one smoking wreck and the sole remaining emplacement turning. The surviving battery rotates into the ridge approach. The gesture has a physical consequence and no extra battery appears. Time: response.
+**W10-P23-V03 · dominant** — Low detail of the threshold and their hands. ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline. Crossing with the blade is the refusal. Time: response.
 
-**Page composition:** Make route, command and response separate visual beats with the battery state carried through all three. Smoke direction and landmark positions stay fixed. No third counterattack or concealed new weapon.
+**Page composition:** Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.
 
-**Turn to next page:** The rotating barrels motivate the retreat into the defended inner arch.
+**Turn to next page:** The LLC wins the encounter after ObiWan Jacoby freely refuses the price.
 
 ### W10-P24 — Unlimited Firepower
 
-**Visual question:** How can the defense remain brave while the loss remains clear?
+**Visual question:** What happens when The LLC sees the blade still lit?
 
-**Structure:** resistance_and_command_counterview · SIMULTANEOUS_SAME_LOCATION
+**Structure:** resistance_and_command_counterview · CHRONOLOGICAL_SAME_LOCATION
 
-**W10-P24-V01 · dominant** — Human-height inward/outward arch view with readable blade, hands and sheltered retriever. ObiWan Jacoby holds under continuing fire; the first emplacement smokes beyond him. He protects his threshold without being falsely shown victorious or helpless. Time: same moment.
+**W10-P24-V01 · dominant** — Eye-level front three-quarter, below the empty chair. The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light. A deliberate command delivers judgment; the surviving battery visibly supplies the charge. Time: At the moment of refusal.
 
-**W10-P24-V02 · counterpoint** — Long command-side view aimed back across the same gap. The LLC remains in control as the single surviving battery continues firing toward the arch. The victor still has resources after both earned counterattacks. Time: same moment.
+**W10-P24-V02 · counterpoint** — Low reverse angle to the arch through the fading light. The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered. The encounter is lost; the home and continuing character survive this week. Time: A beat later, as the flare recedes.
 
-**Page composition:** Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.
+**Page composition:** Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.
 
-**Turn to next page:** The defended threshold gives way to the practical question of what every team can field next.
+**Turn to next page:** Carry both competitors alive into the closing regular season.
 
 ### W10-P25 — THE NEXT STARTING SHEET
 

@@ -20,7 +20,7 @@ OPENING DRIVE
 
 The week the pressure reached everyone
 
-By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.
+Two teams crossed two hundred by Sunday night. One brought a hamburger to a birthday party. The other left his chair and offered a man a bargain on his own mountain. In the Highlands, an outlaw got his laugh, copied a centaur’s stance for a second one, and gave the centaur a reason to chase him. In the east, El Niño’s rain found a way past Red Leopards’ sandbags. Inland, trees were already coming down. Seven Deadly Chins arrived with a jackhammer just as a household settled. Slob on my Dobb kept a delivery appointment in a swamp. Four regular-season games remain. Who has to live with what happened here?
 
 ## W10-P03 — KEEP THE WHOLE LEAGUE IN VIEW
 
@@ -91,7 +91,7 @@ The Chili Cheesers vs D0nkey K0ng
 
 The Chili Cheesers vs D0nkey K0ng
 
-The Chili Cheesers has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to D0nkey K0ng. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.
+Last week The Chili Cheesers had a whole cookout laughing at His Majesty’s Blood. At the Highland rail he gets the same laugh by copying D0nkey K0ng’s four-hoofed stance. He does it again, lower this time, and bows to the gallery. The centaur stops dead. By the time the outlaw straightens, the rope is off D0nkey K0ng’s shoulder. The service gate is still open. The Chili Cheesers makes for it in his good boots.
 
 ## W10-P06 — The Ring Runs Out
 
@@ -119,7 +119,7 @@ Red Leopards vs El Niño
 
 Red Leopards vs El Niño
 
-The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red Leopards to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red Leopards shifted another bag into place. The water went around it. In 2022, he had beaten El Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.
+Red Leopards sees El Niño’s storm roll over the eastern terrace. He stacks sandbags beside the damaged goal. For a moment the line holds. Then a thread of brown water comes out behind his boot. It has followed last week’s tire rut around the end of the line. In 2022 he had beaten El Niño twice and carried thirteen wins into the semifinal. He remembers how fast that advantage went, too.
 
 ## W10-P09 — The Place That Answered Once
 
@@ -127,7 +127,7 @@ Red Leopards vs El Niño
 
 Red Leopards vs El Niño
 
-Later, in the Central Basin, Red Leopards reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.
+Later, on the road inland to the Forgotten Court in the Central Basin, Red Leopards climbs over a fallen trunk. Farther up the slope another tree tips, roots and all. From the court entrance he sees the gaps they left across his territory. For a second the familiar hoop is still there on the right-hand wall. Then the tree above it goes over. One heavy limb catches the backboard on its way down.
 
 ## W10-P10 — That Cold Again
 
@@ -296,15 +296,15 @@ ObiWan Jacoby vs The LLC
 
 ObiWan Jacoby vs The LLC
 
-The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.
+In 2024, eight tenths of a point settled their meeting in The LLC’s favor. ObiWan Jacoby remembers what a single opening is worth. Red fire crosses his mountain causeway. He turns it back with the green blade and the first battery folds into its own smoke. Above it, the man in the leather chair rises. The steps to his field throne room stand open. Behind ObiWan Jacoby, the lamp in the home arch still burns.
 
-## W10-P23 — Two Ways Through
-
-ObiWan Jacoby vs The LLC
+## W10-P23 — The Price of Quiet
 
 ObiWan Jacoby vs The LLC
 
-ObiWan Jacoby takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.
+ObiWan Jacoby vs The LLC
+
+The LLC comes down the steps to meet him. For a moment the two stand shoulder to shoulder. From here the warm arch looks almost small enough to cover with a hand. Lay the blade down before the chair, the executive offers, and the arch will be spared. ObiWan Jacoby looks back once. Then he steps across the last seam in the stone. The blade goes with him, still green.
 
 ## W10-P24 — Unlimited Firepower
 
@@ -312,7 +312,7 @@ ObiWan Jacoby vs The LLC
 
 ObiWan Jacoby vs The LLC
 
-ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.
+The LLC walks around until ObiWan Jacoby can see his face. Then he lifts his hand. Below the steps the surviving battery turns. The first white branch catches the green blade, the second lights the empty chair, and the flash swallows the defender’s silhouette. The arch lamp still burns. Derrick Henry and Mark Andrews supplied 36.20 on Monday. ObiWan Jacoby reached 166.53. The LLC held at 203.96, a margin of 37.43.
 
 **FINAL — The LLC 203.96 — ObiWan Jacoby 166.53**
 

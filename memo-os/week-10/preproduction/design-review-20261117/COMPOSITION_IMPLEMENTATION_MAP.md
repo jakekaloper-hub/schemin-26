@@ -26,9 +26,9 @@ The sequential shot contract now supplements the typography/layout pass. The cur
 | W10-P19 | host guest pov overture | 2 | Eye-lines converge on the still-wrapped box. |
 | W10-P20 | opening reveal reaction | 3 | The already visible separate cake becomes the instrument of the payoff. |
 | W10-P21 | single contact payoff | 1 | Contrast warm party humiliation with cold mountain resistance; this is an editorial cut, not simultaneous travel. |
-| W10-P22 | opposed forces then first counter | 3 | The first smoking wreck opens the visual route toward the ridge flank. |
-| W10-P23 | counterattack command response | 3 | The rotating barrels motivate the retreat into the defended inner arch. |
-| W10-P24 | resistance and command counterview | 2 | The defended threshold gives way to the practical question of what every team can field next. |
+| W10-P22 | opposed forces then first counter | 3 | A view of the home arch makes surrender tempting. The lit blade answers. |
+| W10-P23 | counterattack command response | 3 | The LLC wins the encounter after ObiWan Jacoby freely refuses the price. |
+| W10-P24 | resistance and command counterview | 2 | Carry both competitors alive into the closing regular season. |
 | W10-P25 | logistics detail and records master | 2 | Unfilled needs lead to the distinction between completed moves and proposals. |
 | W10-P26 | record arrival and transaction trails | 2 | Completed moves yield to the actual official table. |
 | W10-P27 | single official table master | 1 | The league table opens into three different divisional pressures. |

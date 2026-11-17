@@ -94,11 +94,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Lower still aftermath along the same axis: Red Leopards seated, damaged hoop right, embodied El Niño across the court.",
-  "foreground": "Red Leopards’ slack hands and face at court edge",
+  "camera_and_composition": "Lower still aftermath on the same axis: Red Leopards gathers the net beneath the damaged right-wall hoop, the embodied El Niño across the court and fallen trunks visible beyond.",
+  "foreground": "Red Leopards’ muddy fingers gathering the loose net at the court edge",
   "midground": "Limb resting against ruined wall and bent rim",
   "background": "El Niño visibly humanoid laughing within the storm’s light",
-  "image_tells": "The branch has caught the backboard/hoop assembly and bent the rim downward against the same right wall. Red Leopards kneels or sits at the near court edge, hands slack and face disbelieving; avoid a second fighting pose. El Niño is clearly embodied beyond him, laughing through moving rain and cold light. The ruined support, basketball court lines and old wall remain recognizable. The sports fact behind the taunt is the **2022 Week16 semifinal: El Niño 116.32, Red Leopards 97.96**, after Red Leopards’ 13–1 regular season; El Niño subsequently won the championship. A newly written line such as “You remember how that run ended” is fictional dialogue, never an archival quote. A small “2022” reference should be earned by narration or an intentional prop; do not invent an old commemorative plaque.",
+  "image_tells": "The branch has caught the backboard/hoop assembly and bent the rim downward against the same right wall. Red Leopards kneels or sits at the near court edge, muddy fingers gathering the loose net, his face registering the loss; avoid a second fighting pose. El Niño is clearly embodied beyond him, laughing through moving rain and cold light. The ruined support, basketball court lines and old wall remain recognizable. The sports fact behind the taunt is the **2022 Week16 semifinal: El Niño 116.32, Red Leopards 97.96**, after Red Leopards’ 13–1 regular season; El Niño subsequently won the championship. A newly written line such as “You remember how that run ended” is fictional dialogue, never an archival quote. A small “2022” reference should be earned by narration or an intentional prop; do not invent an old commemorative plaque.",
   "encounter": {
     "venue_id": null,
     "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
@@ -225,7 +225,7 @@ SCENE AND CONTINUITY
           "CHAR-KEVIN-ZEEK"
         ],
         "camera": "Still low court view, seated figure under the broken hoop",
-        "action": "Red Leopards rests with the same mud on his hands and the limb against the wall.",
+        "action": "Red Leopards sits beneath the damaged hoop; his muddy fingers catch the loose net, with other fallen trunks visible beyond the court.",
         "new_information": "The loss registers as accumulated damage and remembered disappointment.",
         "time_relation": "same moment",
         "id": "W10-P10-V01"

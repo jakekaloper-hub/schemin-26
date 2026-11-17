@@ -65,9 +65,9 @@ IDENTITY INPUTS
     "full_name": "The LLC",
     "owner": "David Babb",
     "appearance": {
-      "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+      "subject_morphology": "Well-groomed human corporate executive in a dark tailored suit",
       "head_face": "Human head with short dark hair and dark sunglasses",
-      "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+      "silhouette": "Dark tailored suit, bright red tie and cigar. On foot, descends the steps and stands beside ObiWan Jacoby facing the home arch. The leather chair stands empty behind them.",
       "palette": [
         "black suit",
         "white shirt",
@@ -95,14 +95,14 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Side view from the same side of the approach, raised enough to reveal the shelf without reversing screen direction.",
-  "foreground": "Blackened first emplacement and wind-driven smoke below.",
-  "midground": "ObiWan Jacoby committed along the upper route.",
-  "background": "The LLC and the sole remaining battery across the approach.",
-  "image_tells": "Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. The LLC answers with crossfire from already established surviving positions.",
+  "camera_and_composition": "Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.",
+  "foreground": "ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair.",
+  "midground": "The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below.",
+  "background": "ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
+  "image_tells": "Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam. ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair. The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below. ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
   "encounter": {
     "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "venue_type": "verified home domain / proposed scene",
+    "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
     "division_context": "Burgers home team vs Pizza away team",
     "route_required": true,
     "route_names": [
@@ -113,30 +113,30 @@ SCENE AND CONTINUITY
       "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
     ],
     "persistent_landmarks": [
-      "fixed mountain ridge",
-      "outer causeway",
-      "inner stone arch",
-      "existing mountain-base silhouette"
+      "mountain causeway below the command shelf",
+      "inner home arch and sheltered golden retriever",
+      "upper ridge steps to temporary field throne room",
+      "leather command chair above the floor seam"
     ],
     "provisional_location": false,
     "temporary_scene_props": [
-      "temporary Imperial assault formation",
-      "two visible battery emplacements",
-      "armored command platform",
-      "ObiWan’s green blade",
-      "ridge causeway and stone arch",
-      "golden retriever in sheltered inner approach"
+      "field throne room dressed on the existing command shelf",
+      "leather chair and floor seam",
+      "two initial battery emplacements",
+      "green blade and sheltered golden retriever"
     ],
     "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
     "set_id": "SET-W10-OBI-RIDGE-GATE"
   },
   "continuity_in": [
-    "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "Preserve current identity packets and preceding beat’s geography"
+    "mountain causeway below the command shelf",
+    "inner home arch and sheltered golden retriever",
+    "upper ridge steps to temporary field throne room",
+    "leather command chair above the floor seam",
+    "First battery smoking; the chair above the open steps is being vacated."
   ],
   "continuity_out": [
-    "Two physically distinct counteroffensives are attempted: break the first battery, then flank toward the commander. The LLC answers with crossfire from already established surviving positions.",
-    "Local scene consequence remains draft until detailed acceptance"
+    "ObiWan Jacoby crosses with the blade still lit; the executive steps around to face him."
   ],
   "forbidden_mutations": [
     "No home repossession",
@@ -151,12 +151,12 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P23",
     "family": "kinetic_action",
-    "dominant_action": "A second counterattack takes the higher route.",
-    "reading_path": "The second attempt uses a different route, not a repeated defensive pose. → His economy of movement contrasts with the defender’s effort. → The gesture has a physical consequence and no extra battery appears.",
-    "heading_treatment": "The title inhabits a clear upper cloud shelf, without reversing action direction.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Make route, command and response separate visual beats with the battery state carried through all three. Smoke direction and landmark positions stay fixed. No third counterattack or concealed new weapon.",
-    "protected_subjects": "Destroyed battery remains destroyed, sole surviving battery, same command shelf and consistent smoke direction.",
-    "data_treatment": "No extra battery, secret force or invented result; full supplied prose unchanged.",
+    "dominant_action": "A view of the home arch makes surrender tempting. The lit blade answers.",
+    "reading_path": "Both characters move to the same landing by choice. → His offer has a price: lay down the blade and the arch will be spared. → Crossing with the blade is the refusal.",
+    "heading_treatment": "Place headline in quiet stone or storm shadow clear of faces and blade.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.",
+    "protected_subjects": "Canonical identities, first wreck, surviving battery, empty chair after the descent, protected arch and sheltered retriever.",
+    "data_treatment": "The offered terms concern this fictional encounter.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P23",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "shot_structure": "counterattack_command_response",
@@ -164,9 +164,9 @@ SCENE AND CONTINUITY
   },
   "personalization_direction": {
     "page_id": "W10-P23",
-    "focus": "The second advance is a decision, not a repeated pose.",
-    "performance": "Carry the defender along the established upper ridge; The LLC’s gesture turns the sole surviving battery. Keep the first wreck in view and the screen direction unchanged.",
-    "narration_job": "Give the risk and persistence meaning without inventing a third counterattack, secret reserve or physical meeting.",
+    "focus": "A view of the home arch makes surrender tempting. The lit blade answers.",
+    "performance": "ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair. The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below. ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
+    "narration_job": "A view of the home arch makes surrender tempting. The lit blade answers.",
     "source_refs": [
       "issue-previs.json#W10-P23",
       "facts.json#/historical_context/W10-G06",
@@ -179,16 +179,16 @@ SCENE AND CONTINUITY
     "page_id": "W10-P23",
     "structure": "counterattack_command_response",
     "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
-    "visual_question": "How does the commander answer a meaningful second attempt?",
+    "visual_question": "Will he trade the blade for the safety of his home?",
     "shots": [
       {
         "role": "setup",
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Over-shoulder from the established upper ridge with the first wreck below",
-        "action": "ObiWan Jacoby commits to the flank.",
-        "new_information": "The second attempt uses a different route, not a repeated defensive pose.",
+        "camera": "Along the ridge from behind the defender",
+        "action": "ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair.",
+        "new_information": "Both characters move to the same landing by choice.",
         "time_relation": "first",
         "id": "W10-P23-V01"
       },
@@ -197,9 +197,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Close medium on the suited executive’s command gesture",
-        "action": "The LLC signals from the same command shelf.",
-        "new_information": "His economy of movement contrasts with the defender’s effort.",
+        "camera": "Over their shoulders, side by side toward the arch",
+        "action": "The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below.",
+        "new_information": "His offer has a price: lay down the blade and the arch will be spared.",
         "time_relation": "next",
         "id": "W10-P23-V02"
       },
@@ -209,26 +209,26 @@ SCENE AND CONTINUITY
           "CHAR-JAKE-KALOPER",
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Wide same-side approach showing one smoking wreck and the sole remaining emplacement turning",
-        "action": "The surviving battery rotates into the ridge approach.",
-        "new_information": "The gesture has a physical consequence and no extra battery appears.",
+        "camera": "Low detail of the threshold and their hands",
+        "action": "ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
+        "new_information": "Crossing with the blade is the refusal.",
         "time_relation": "response",
         "id": "W10-P23-V03"
       }
     ],
-    "layout_direction": "Make route, command and response separate visual beats with the battery state carried through all three. Smoke direction and landmark positions stay fixed. No third counterattack or concealed new weapon.",
+    "layout_direction": "Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.",
     "dominant_view": "W10-P23-V03",
     "copy_flow": {
       "source": "issue-previs.json#W10-P23/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 176,
+          "end": 188,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 176,
-          "end": 360,
+          "start": 188,
+          "end": 368,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -239,14 +239,14 @@ SCENE AND CONTINUITY
     "continuity": {
       "source_encounter_unchanged": true,
       "landmarks": [
-        "fixed mountain ridge",
-        "outer causeway",
-        "inner stone arch",
-        "existing mountain-base silhouette"
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam"
       ],
       "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
     },
-    "page_turn_out": "The rotating barrels motivate the retreat into the defended inner arch.",
+    "page_turn_out": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
     "grammar_references": [
       {
         "week": 9,
@@ -262,9 +262,9 @@ SCENE AND CONTINUITY
 
 EXACT FULL PUBLICATION COPY
 {
-  "headline": "Two Ways Through",
+  "headline": "The Price of Quiet",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "ObiWan Jacoby takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.",
+  "body": "The LLC comes down the steps to meet him. For a moment the two stand shoulder to shoulder. From here the warm arch looks almost small enough to cover with a hand. Lay the blade down before the chair, the executive offers, and the arch will be spared. ObiWan Jacoby looks back once. Then he steps across the last seam in the stone. The blade goes with him, still green.",
   "department_heading": "ObiWan Jacoby vs The LLC"
 }
 

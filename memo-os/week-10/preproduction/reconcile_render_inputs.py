@@ -21,6 +21,19 @@ def compact_fact_bindings(fields):
   'source_scope':'See source field scope; exact visible values are already in publication_copy'
  } for f in fields]
 
+def scene_appearance(page_id, character_id, appearance):
+    """Use the portrait for likeness and the current folio for blocking."""
+    poses = {
+        "W10-P22": "Seated at first in the leather chair; rises to his feet as the first battery fails.",
+        "W10-P23": "On foot, descends the steps and stands beside ObiWan Jacoby facing the home arch. The leather chair stands empty behind them.",
+        "W10-P24": "Standing face to face with ObiWan Jacoby, raises one hand to signal the surviving battery. The leather chair remains empty.",
+    }
+    if character_id != "CHAR-DAVID-BABB" or page_id not in poses:
+        return appearance
+    return {**appearance,
+            "subject_morphology": "Well-groomed human corporate executive in a dark tailored suit",
+            "silhouette": "Dark tailored suit, bright red tie and cigar. " + poses[page_id]}
+
 def image_ref(path,role,character_id=None):
  f=R/path
  with Image.open(f) as im:im.load();dims=list(im.size);fmt=im.format
@@ -29,6 +42,18 @@ def precedent(week,page):return image_ref(str((E/f'precedent-w{week:02d}-p{page:
 issue=read('issue-previs.json');briefs=read('illustrated-page-briefs.json');folio=read('storyboard-folio-plan-pass5.json');chars=read('character-world-packet.json');cards=read('storycards.json');directors=read('director-sequences.json');land=read('landscape-set-bible-pass4.json')
 facts=read('facts.json');final_mode=bool(facts.get('finality',{}).get('all_six_decided'))
 by={x['character_id']:x for x in chars['characters']};pages={x['page_id']:x for x in issue['pages']};bs={x['page_id']:x for x in briefs['pages']};fs={x['page_id']:x for x in folio['folios']};order=issue['recommended_reading_order']
+# Preserve the active founder revision when replaying the November 16 recovery.
+# Recovery establishes the older staging on historical inputs. A revised issue
+# carries later directions in its page contracts. Use those fields at compile time.
+founder_page_ids = set(issue.get('founder_revision_folios', []))
+active_fields = ('draft_copy','camera_and_composition','foreground','midground',
+                 'background','image_tells','encounter','continuity_in',
+                 'continuity_out','forbidden_mutations')
+founder_scenes = {
+    pid: {key: deepcopy(pages[pid][key]) for key in active_fields}
+    for pid in founder_page_ids
+}
+
 # Explicit current visual-source precedence. The local Chili copy is visually matched
 # to the authenticated Library image but is NOT falsely called the historical raw bytes.
 chili_local=Path('/Users/jakekaloper/Library/Containers/com.duckduckgo.mobile.ios/Data/tmp/WebKitDropDestination-AeYHXjHz/Screenshot 2026-10-22 at 13.24.14.png')
@@ -70,17 +95,17 @@ pages['W10-P22']['draft_copy']['body']=pages['W10-P22']['draft_copy']['body'].re
 # Cover is an editorial synthesis of the two established storyline presentations, not
 # an invented literal meeting, alliance or a roof-collapse event.
 p=pages['W10-P01'];p['characters_present']=['CHAR-AUSTIN-BYARS','CHAR-DAVID-BABB'];p['owners_present']=['Austin Byars','David Babb']
-p['camera_and_composition']='Low, dramatic two-subject editorial cover: canonical His Majesty\'s Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.'
+p['camera_and_composition']='Low, dramatic two-subject editorial cover: canonical His Majesty\'s Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.'
 p['foreground']='His Majesty\'s Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback.'
-p['midground']='The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; distant Imperial battery as a subordinate story cue, never a replacement character costume.'
+p['midground']='The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; stepped field throne dais above a distant battery as a subordinate story cue, never a replacement character costume.'
 p['background']='An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.'
 p['image_tells']=' '.join(p[k] for k in ['camera_and_composition','foreground','midground','background'])
-p['encounter'].update({'venue_id':None,'venue_type':'EDITORIAL_DUAL_LOCATION_COVER_NOT_LITERAL_MEETING','set_id':'SET-W10-DUAL-200-EDITORIAL-COVER','location_refs':['LOC-COUNTRY-CLUB-JACKSON','LOC-TRADE-JEDI-MOUNTAIN-BASE'],'persistent_landmarks':['Jackson birthday atmosphere','Mountain assault command position'],'formal_atlas_promotion':False,'unregistered_parent_explained':True})
+p['encounter'].update({'venue_id':None,'venue_type':'EDITORIAL_DUAL_LOCATION_COVER_NOT_LITERAL_MEETING','set_id':'SET-W10-DUAL-200-EDITORIAL-COVER','location_refs':['LOC-COUNTRY-CLUB-JACKSON','LOC-TRADE-JEDI-MOUNTAIN-BASE'],'persistent_landmarks':['Jackson birthday atmosphere','Mountain field throne room on the command shelf'],'formal_atlas_promotion':False,'unregistered_parent_explained':True})
 p['continuity_in']=['Both canonical identities and their Week 10 cinematic presentations, not generic king/executive stand-ins.'];p['continuity_out']=['Cover editorial synthesis does not create a shared encounter, alliance, crown or belt transfer.']
 # Published Weeks 7, 8 and 9 clearly establish the Opening Drive department grammar.
 p=pages['W10-P02'];p['draft_copy']['department_heading']='OPENING DRIVE'
 p['camera_and_composition']='Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions.'
-p['foreground']='Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and mountain assault. Props are editorial symbols, not evidence of travel.'
+p['foreground']='Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and field throne room. Props are editorial symbols, not evidence of travel.'
 p['midground']='Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures.'
 p['background']='League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.'
 p['image_tells']=' '.join(p[k] for k in ['camera_and_composition','foreground','midground','background'])
@@ -102,7 +127,6 @@ pages['W10-P07']['camera_and_composition']='Low public aftermath: The Chili Chee
 pages['W10-P08']['camera_and_composition']='Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.'
 pages['W10-P20']['camera_and_composition']='Table-height three-quarter view along the established gift-opening axis. The open box reveals a colossal double-decker hamburger with both stacked layers legible; 200 BURGER is an earned prop label. Dr. Duckhook reacts opposite His Majesty’s Blood; the separate birthday cake remains on the sideboard. Preserve the window mullion, service-door angle and guests.'
 pages['W10-P21']['camera_and_composition']='Unobstructed three-quarter cake-to-face payoff: His Majesty’s Blood has lifted the separate cake with candles removed and presses it onto Dr. Duckhook’s orange bill. Hands, cake contact and frosting on the green vest remain visible. The untouched double-decker burger stays in its open box to the side; table and witnesses stay fixed.'
-pages['W10-P24']['camera_and_composition']='Human-height view outward from the inner arch: ObiWan Jacoby defends with his green blade and separate golden retriever sheltered behind him. One distant Imperial battery is destroyed and smoking; the single surviving battery has multiple barrels converging on the defended approach. Smoke and flags blow in the same established direction. No regenerated battery or second functioning emplacement.'
 for refined in ['W10-P07','W10-P08','W10-P20','W10-P21','W10-P24']:
  pages[refined]['image_tells']=' '.join(pages[refined].get(k,'') for k in ['camera_and_composition','foreground','midground','background'])
 
@@ -139,6 +163,8 @@ if set(composition_by)!=set(order):raise ValueError('Composition coverage must m
 style_rule+='\n\nSCENE-LED DESIGN RULES\n'+'\n'.join('- '+r for r in composition_registry['global_rules'])
 style_rule+='\n\nSEQUENTIAL VISUAL STORYTELLING\n'+'\n'.join('- '+r for r in visual_registry['global_rules'])
 style_rule+='\nThe visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.'
+for pid, scene in founder_scenes.items():
+ pages[pid].update(scene)
 asset_log=[];manifest=[]
 for pos,id in enumerate(order,1):
  p=pages[id];b=bs[id];f=fs[id];p['visual_storytelling']=deepcopy(visual_by[id]);p['composition_direction']=deepcopy(composition_by[id]);p['personalization_direction']=deepcopy(personalization_by[id]);p['draft_copy']['department_heading']=heading.get(id,p['draft_copy'].get('deck',''))
@@ -148,8 +174,9 @@ for pos,id in enumerate(order,1):
  p['reference_assets']=[];castrefs=[];identities=[]
  for cid in p['characters_present']:
   c=by[cid];refs=deepcopy(c['effective_reference_images']);castrefs+=refs
-  p['reference_assets'].append({'character_id':cid,'owner':c['owner'],'display_name':c['current_display_name'],'images':refs,'appearance':deepcopy(c['assertions']),'override':deepcopy(c.get('latest_override')),'reference_pixels_loaded_in_preflight':True,'generation_output_not_yet_created':True})
-  identities.append({'character_id':cid,'full_name':c['current_display_name'],'owner':c['owner'],'appearance':c['assertions'],'current_override':(c.get('latest_override') or {}).get('visual_lock',(c.get('latest_override') or {}).get('scope')),'reference_paths':[x['repo_path'] for x in refs]})
+  appearance = scene_appearance(id, cid, c['assertions'])
+  p['reference_assets'].append({'character_id':cid,'owner':c['owner'],'display_name':c['current_display_name'],'images':refs,'appearance':deepcopy(appearance),'override':deepcopy(c.get('latest_override')),'reference_pixels_loaded_in_preflight':True,'generation_output_not_yet_created':True})
+  identities.append({'character_id':cid,'full_name':c['current_display_name'],'owner':c['owner'],'appearance':appearance,'current_override':(c.get('latest_override') or {}).get('visual_lock',(c.get('latest_override') or {}).get('scope')),'reference_paths':[x['repo_path'] for x in refs]})
  precedents=[precedent(w,n) for w,n in refmap[id]]
  geometry_ids={'W10-P08':[(9,12),(9,14)],'W10-P09':[(7,8),(7,10)],'W10-P10':[(7,8),(7,10)],'W10-P12':[(9,1)],'W10-P13':[(9,1)],'W10-P14':[(9,1)],'W10-P15':[(9,9),(9,11)],'W10-P16':[(9,10),(9,11)],'W10-P17':[(9,11),(8,13)],'W10-P22':[(8,15),(8,17)],'W10-P23':[(8,15),(8,16)],'W10-P24':[(8,17)],'W10-P33':[(8,7)]}
  for rr in precedents:
@@ -169,11 +196,27 @@ for pos,id in enumerate(order,1):
  p['reference_preflight']={'status':'PASS','all_character_images_decoded':True,'per_page_attachment_manifest':'render-inputs/'+id+'/request.json','actual_render_output_review':'NOT_APPLICABLE_UNTIL_GENERATION'}
  f.update({'visual_storytelling':deepcopy(p['visual_storytelling']),'personalization_direction':deepcopy(p['personalization_direction']),'composition_direction':deepcopy(p['composition_direction']),'characters':[{'character_id':cid,'name':by[cid]['current_display_name'],'owner':by[cid]['owner'],'reference_images':deepcopy(by[cid]['effective_reference_images'])} for cid in p['characters_present']],'location':deepcopy(p['encounter']),'composition':p['camera_and_composition'],'sketch_format':format_rule,'publication_copy':deepcopy(p['draft_copy']),'continuity_in':deepcopy(p['continuity_in']),'continuity_out':deepcopy(p['continuity_out']),'reference_images':deepcopy(castrefs+precedents),'render_protocol':deepcopy(protocol),'production_status':'INPUTS_RECONCILED_AND_SOURCE_BOUND','canonical_page_id':id})
  request={'schema_version':'1.0','page_id':id,'reading_position':pos,'sheet':(pos-1)//6+1,'slot':(pos-1)%6+1,'stage':'GRAYSCALE_FOLIO_PROOF','canvas':[1080,1920],'prompt':text,'publication_copy':deepcopy(p['draft_copy']),'scene':scene,'reference_images':castrefs+precedents,'sports_policy':sports,'image_generation_executed':False,'publication_approved':False,'reference_pixels_decoded_at_utc':NOW,'render_protocol':deepcopy(protocol)}
- out=P/'render-inputs'/id;out.mkdir(parents=True,exist_ok=True);(out/'request.json').write_text(json.dumps(request,ensure_ascii=False,indent=2)+'\n');(out/'full-page-prompt.md').write_text(text+'\n')
- # A decoder ingress receipt records actual bytes loaded, not a fake image-tool call.
+ out=P/'render-inputs'/id
+ out.mkdir(parents=True,exist_ok=True)
  for im in request['reference_images']:
-  with Image.open(R/im['repo_path']) as decoded:decoded.load();assert list(decoded.size)==im['dimensions']
- (out/'reference-ingress-receipt.json').write_text(json.dumps({'page_id':id,'check':'ALL_REFERENCE_BYTES_DECODED','image_count':len(request['reference_images']),'reference_hashes':[x['sha256'] for x in request['reference_images']],'generator_invoked':False,'checked_at_utc':NOW},indent=2)+'\n')
+  with Image.open(R/im['repo_path']) as decoded:
+   decoded.load()
+   if list(decoded.size)!=im['dimensions']:
+    raise ValueError('Reference dimensions changed: '+im['repo_path'])
+ # Bind the time the exact reference batch first passed ingress. Another
+ # successful decode of identical bytes must not invalidate request hashes.
+ receipt_path=out/'reference-ingress-receipt.json'
+ receipt={'page_id':id,'check':'ALL_REFERENCE_BYTES_DECODED','image_count':len(request['reference_images']),
+          'reference_hashes':[im['sha256'] for im in request['reference_images']],'generator_invoked':False}
+ if receipt_path.exists():
+  previous=json.loads(receipt_path.read_text())
+  previous_time=previous.pop('checked_at_utc',None)
+  if previous==receipt and previous_time:
+   request['reference_pixels_decoded_at_utc']=previous_time
+ receipt['checked_at_utc']=request['reference_pixels_decoded_at_utc']
+ receipt_path.write_text(json.dumps(receipt,indent=2)+'\n')
+ (out/'request.json').write_text(json.dumps(request,ensure_ascii=False,indent=2)+'\n')
+ (out/'full-page-prompt.md').write_text(text+'\n')
  manifest.append({'page_id':id,'reading_position':pos,'sheet':(pos-1)//6+1,'slot':(pos-1)%6+1,'title':p['title'],'composition_family':p['composition_direction']['family'],'visual_structure':p['visual_storytelling']['structure'],'visual_beat_count':len(p['visual_storytelling']['shots']),'characters':[by[x]['current_display_name'] for x in p['characters_present']],'request':'render-inputs/'+id+'/request.json','reference_count':len(request['reference_images']),'copy_words':len(p['draft_copy']['body'].split()),'request_sha256':digest(out/'request.json')})
 # Synchronize every current narrative consumer, including embedded prompts and the
 # folio ledger which previous patches had missed.

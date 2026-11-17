@@ -94,11 +94,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Echo the Week7 court angle; near-left arrival, hoop upper/right, branch trajectory clear.",
+  "camera_and_composition": "From the Week 7 court approach show the fallen trunks along the inland road; preserve the upper-right hoop as a court tree topples against it.",
   "foreground": "Red Leopards at the familiar court edge, drifting leaves",
-  "midground": "Branch breaking toward wall-mounted assembly",
+  "midground": "A whole tree toppling at the vegetation margin, its limb striking the wall-mounted assembly",
   "background": "Same ivy walls and distant ruins; El Niño embodied if present",
-  "image_tells": "Preserve the right-hand wall-mounted hoop, cracked surface and broken ruin skyline from W7P08–10. Red Leopards arrives from the near-left court edge; a snapped branch from the established vegetation margin sweeps toward the right wall. Camera placement echoes the old basketball duel so readers recognize the place before a caption explains it. A distant figure of embodied El Niño may occupy the far court in the wind; he remains a humanoid elemental, not a face drawn into a cloud. Wet leaves sweep low along the stone. The strongest gust here can be a local squall funneled by the broken walls even though the basin is farther from the coastal core. Do not introduce a new freestanding basketball pole: the original goal is wall mounted.",
+  "image_tells": "Preserve the right-hand wall-mounted hoop, cracked surface and broken ruin skyline from W7P08–10. Red Leopards arrives from the near-left court edge; other trunks lie along the inland approach. A tree topples from the established vegetation margin and its limb strikes the right wall. Camera placement echoes the old basketball duel so readers recognize the place before a caption explains it. A distant figure of embodied El Niño may occupy the far court in the wind; he remains a humanoid elemental, not a face drawn into a cloud. Wet leaves sweep low along the stone. The strongest gust here can be a local squall funneled by the broken walls even though the basin is farther from the coastal core. Do not introduce a new freestanding basketball pole: the original goal is wall mounted.",
   "encounter": {
     "venue_id": null,
     "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
@@ -189,8 +189,8 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P09",
     "family": "vertical_conflict",
-    "dominant_action": "An inland arrival becomes a falling-branch threat.",
-    "reading_path": "The later destination is recognizable and separate from the soccer field. → Arrival turns into another material loss, with the force and target visible.",
+    "dominant_action": "Red travels inland past falling trees, then sees a tree topple against the court hoop.",
+    "reading_path": "Falling trees have cut gaps across his territory by the time he reaches the separate court. → Damage stretches beyond the court; this particular falling tree also breaks the familiar hoop.",
     "heading_treatment": "The title uses open wall/sky opposite the impact trajectory; include the existing later-location cue clearly.",
     "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a smaller arrival view and a tall dominant branch-impact composition. The word Later remains in the existing prose; the source’s court—not an invented game—controls geometry.",
     "protected_subjects": "Right-wall backboard, established ivy and separate Central Basin location; branch contact remains legible.",
@@ -203,7 +203,7 @@ SCENE AND CONTINUITY
   "personalization_direction": {
     "page_id": "W10-P09",
     "focus": "The familiar court offers recognition immediately before another loss.",
-    "performance": "Use Red Leopards’ upward eyeline and the falling branch to distinguish this location and beat from the prior water scene. Keep the right-wall backboard.",
+    "performance": "Use Red’s eyeline to show trees falling along the inland approach, then a separate tree toppling and its limb breaking the court hoop. Keep the right-wall backboard.",
     "narration_job": "The travel sentence and recognition do the emotional work; no new geography lecture or additional basketball contest.",
     "source_refs": [
       "issue-previs.json#W10-P09",
@@ -224,9 +224,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-KEVIN-ZEEK"
         ],
-        "camera": "Close third-person arrival echoing the Week7 court angle",
-        "action": "Red Leopards looks toward the familiar upper-right wall-mounted basket.",
-        "new_information": "The later destination is recognizable and separate from the soccer field.",
+        "camera": "From the court approach looking back down the inland road, mud on Red Leopards’ cuffs",
+        "action": "Later in the Central Basin, Red reaches the Forgotten Court past a fallen trunk. On the visible approach another whole tree topples.",
+        "new_information": "Falling trees have cut gaps across his territory by the time he reaches the separate court.",
         "time_relation": "arrival",
         "id": "W10-P09-V01"
       },
@@ -236,8 +236,8 @@ SCENE AND CONTINUITY
           "CHAR-KEVIN-ZEEK"
         ],
         "camera": "Wider upward view preserving the same wall and approach",
-        "action": "The gust brings the old limb onto the backboard while Red looks up.",
-        "new_information": "Arrival turns into another material loss, with the force and target visible.",
+        "action": "At the court a tree tips from the vegetation margin and its heavy limb strikes the right-wall backboard. Red watches from clear of its path.",
+        "new_information": "Damage stretches beyond the court; this particular falling tree also breaks the familiar hoop.",
         "time_relation": "moments later",
         "id": "W10-P09-V02"
       }
@@ -249,12 +249,12 @@ SCENE AND CONTINUITY
       "body_ranges": [
         {
           "start": 0,
-          "end": 186,
+          "end": 167,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 186,
-          "end": 371,
+          "start": 167,
+          "end": 397,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -298,7 +298,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "The Place That Answered Once",
   "deck": "Red Leopards vs El Niño",
-  "body": "Later, in the Central Basin, Red Leopards reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.",
+  "body": "Later, on the road inland to the Forgotten Court in the Central Basin, Red Leopards climbs over a fallen trunk. Farther up the slope another tree tips, roots and all. From the court entrance he sees the gaps they left across his territory. For a second the familiar hoop is still there on the right-hand wall. Then the tree above it goes over. One heavy limb catches the backboard on its way down.",
   "department_heading": "Red Leopards vs El Niño"
 }
 

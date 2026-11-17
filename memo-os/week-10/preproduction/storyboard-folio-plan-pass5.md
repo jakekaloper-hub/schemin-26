@@ -6,7 +6,7 @@ Every contact-sheet cell is a scaled copy of its individual page master, never a
 
 ## 1 · W10-P01 — THE CEILING BREAKS
 
-Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.
+Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.
 
 Personalization focus: Make the two 200-point performances personally different, not two generic conquerors.
 
@@ -40,7 +40,7 @@ Cast: No invented principal character
 
 Full copy:
 
-By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.
+Two teams crossed two hundred by Sunday night. One brought a hamburger to a birthday party. The other left his chair and offered a man a bargain on his own mountain. In the Highlands, an outlaw got his laugh, copied a centaur’s stance for a second one, and gave the centaur a reason to chase him. In the east, El Niño’s rain found a way past Red Leopards’ sandbags. Inland, trees were already coming down. Seven Deadly Chins arrived with a jackhammer just as a household settled. Slob on my Dobb kept a delivery appointment in a swamp. Four regular-season games remain. Who has to live with what happened here?
 
 Input: `render-inputs/W10-P02/request.json`
 
@@ -86,21 +86,21 @@ Input: `render-inputs/W10-P04/request.json`
 
 ## 5 · W10-P05 — Everybody Gets a View
 
-Low rail-side wide diagonal, The Chili Cheesers ahead on screen-left, D0nkey K0ng pursuing from screen-right; gate rear-left.
+Low rail-side wide diagonal, The Chili Cheesers at the rail on screen-left, D0nkey K0ng drawing his rope on screen-right after Chili imitates him; gate rear-left.
 
-Personalization focus: Public confidence gives way to an urgent search for the established exit.
+Personalization focus: Chili’s second imitation provokes D0nkey K0ng. His bow becomes a turn toward the service gate.
 
 Visual shot sequence: establishing_strip_and_opposed_pov
 
-Scene-led reading path: The reader knows the only visible exit before the chase tightens. → Escape and audience-consciousness are his immediate priorities. → His control of rope and ground is the opposing intention.
+Scene-led reading path: The showman has the gallery’s attention before the pursuit. → Chili chooses to make the centaur the butt of a second joke. → The insult provokes the pursuit. D0nkey K0ng owns the rope from the outset.
 
-Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A narrow spatial overture above two unequal connected POV areas. Shared gate and gallery landmarks identify the same instant; avoid decorative profile portraits. Keep typography subordinate to the pursuit.
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Establish the rail and rear-left gate, then give the imitation and the centaur’s reaction distinct consecutive views. Follow their opposing eyelines before Chili turns to flee.
 
 Cast: The Chili Cheesers, D0nkey K0ng
 
 Full copy:
 
-The Chili Cheesers has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to D0nkey K0ng. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.
+Last week The Chili Cheesers had a whole cookout laughing at His Majesty’s Blood. At the Highland rail he gets the same laugh by copying D0nkey K0ng’s four-hoofed stance. He does it again, lower this time, and bows to the gallery. The centaur stops dead. By the time the outlaw straightens, the rope is off D0nkey K0ng’s shoulder. The service gate is still open. The Chili Cheesers makes for it in his good boots.
 
 Input: `render-inputs/W10-P05/request.json`
 
@@ -146,13 +146,13 @@ Input: `render-inputs/W10-P07/request.json`
 
 ## 8 · W10-P08 — One More Bag
 
-Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.
+Open wide on El Niño’s storm rolling over the terrace, then low at the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.
 
 Personalization focus: Repair is an assertion of pride, not passive suffering.
 
 Visual shot sequence: repair_opposition_and_detail
 
-Scene-led reading path: His effort is specific and deliberate, not a defeated pose. → The opponent sees a failing boundary rather than a repair triumph. → The precise failure is visible without a tidal wall.
+Scene-led reading path: He sees the storm approach in time to try to protect the terrace. → The opponent sees a failing boundary rather than a repair triumph. → The precise failure is visible without a tidal wall.
 
 Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A dominant working view, narrow opposing view and small water-path detail. Reuse the known terrace geometry. No basketball hoop, invented historical storm or disembodied face in a cloud.
 
@@ -160,19 +160,19 @@ Cast: Red Leopards, El Niño
 
 Full copy:
 
-The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red Leopards to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red Leopards shifted another bag into place. The water went around it. In 2022, he had beaten El Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.
+Red Leopards sees El Niño’s storm roll over the eastern terrace. He stacks sandbags beside the damaged goal. For a moment the line holds. Then a thread of brown water comes out behind his boot. It has followed last week’s tire rut around the end of the line. In 2022 he had beaten El Niño twice and carried thirteen wins into the semifinal. He remembers how fast that advantage went, too.
 
 Input: `render-inputs/W10-P08/request.json`
 
 ## 9 · W10-P09 — The Place That Answered Once
 
-Echo the Week7 court angle; near-left arrival, hoop upper/right, branch trajectory clear.
+From the Week 7 court approach show the fallen trunks along the inland road; preserve the upper-right hoop as a court tree topples against it.
 
 Personalization focus: The familiar court offers recognition immediately before another loss.
 
 Visual shot sequence: arrival_then_impact
 
-Scene-led reading path: The later destination is recognizable and separate from the soccer field. → Arrival turns into another material loss, with the force and target visible.
+Scene-led reading path: Falling trees have cut gaps across his territory by the time he reaches the separate court. → Damage stretches beyond the court; this particular falling tree also breaks the familiar hoop.
 
 Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a smaller arrival view and a tall dominant branch-impact composition. The word Later remains in the existing prose; the source’s court—not an invented game—controls geometry.
 
@@ -180,13 +180,13 @@ Cast: Red Leopards, El Niño
 
 Full copy:
 
-Later, in the Central Basin, Red Leopards reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.
+Later, on the road inland to the Forgotten Court in the Central Basin, Red Leopards climbs over a fallen trunk. Farther up the slope another tree tips, roots and all. From the court entrance he sees the gaps they left across his territory. For a second the familiar hoop is still there on the right-hand wall. Then the tree above it goes over. One heavy limb catches the backboard on its way down.
 
 Input: `render-inputs/W10-P09/request.json`
 
 ## 10 · W10-P10 — That Cold Again
 
-Lower still aftermath along the same axis: Red Leopards seated, damaged hoop right, embodied El Niño across the court.
+Lower still aftermath on the same axis: Red Leopards gathers the net beneath the damaged right-wall hoop, the embodied El Niño across the court and fallen trunks visible beyond.
 
 Personalization focus: Quiet recognition is different from surrender.
 
@@ -446,61 +446,61 @@ Input: `render-inputs/W10-P21/request.json`
 
 ## 23 · W10-P22 — The Empire Opens Fire
 
-Low three-quarter view just outside the inner arch; diagonal approach opens upward into the frame.
+One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.
 
-Personalization focus: The defender earns a real success before the opponent answers.
+Personalization focus: A real tactical success earns ObiWan Jacoby an audience.
 
 Visual shot sequence: opposed_forces_then_first_counter
 
-Scene-led reading path: Home and companion establish what is being defended. → Both batteries exist before one is destroyed. → The first counterattack earns a real success; the other battery survives.
+Scene-led reading path: The warm arch establishes a reason to accept an offer later. → The reader sees the room and both sources of fire. → The destroyed battery earns an actual opening onto the steps.
 
-Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Two compact opposing intentions lead into one dominant first-counter action. Use neutral terrain landmarks to orient the reverse view; do not reverse advancing direction without the establish. Red fire denotes color, not another team.
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.
 
 Cast: ObiWan Jacoby, The LLC
 
 Full copy:
 
-The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.
+In 2024, eight tenths of a point settled their meeting in The LLC’s favor. ObiWan Jacoby remembers what a single opening is worth. Red fire crosses his mountain causeway. He turns it back with the green blade and the first battery folds into its own smoke. Above it, the man in the leather chair rises. The steps to his field throne room stand open. Behind ObiWan Jacoby, the lamp in the home arch still burns.
 
 Input: `render-inputs/W10-P22/request.json`
 
-## 24 · W10-P23 — Two Ways Through
+## 24 · W10-P23 — The Price of Quiet
 
-Side view from the same side of the approach, raised enough to reveal the shelf without reversing screen direction.
+Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.
 
-Personalization focus: The second advance is a decision, not a repeated pose.
+Personalization focus: A view of the home arch makes surrender tempting. The lit blade answers.
 
 Visual shot sequence: counterattack_command_response
 
-Scene-led reading path: The second attempt uses a different route, not a repeated defensive pose. → His economy of movement contrasts with the defender’s effort. → The gesture has a physical consequence and no extra battery appears.
+Scene-led reading path: Both characters move to the same landing by choice. → His offer has a price: lay down the blade and the arch will be spared. → Crossing with the blade is the refusal.
 
-Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Make route, command and response separate visual beats with the battery state carried through all three. Smoke direction and landmark positions stay fixed. No third counterattack or concealed new weapon.
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.
 
 Cast: ObiWan Jacoby, The LLC
 
 Full copy:
 
-ObiWan Jacoby takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.
+The LLC comes down the steps to meet him. For a moment the two stand shoulder to shoulder. From here the warm arch looks almost small enough to cover with a hand. Lay the blade down before the chair, the executive offers, and the arch will be spared. ObiWan Jacoby looks back once. Then he steps across the last seam in the stone. The blade goes with him, still green.
 
 Input: `render-inputs/W10-P23/request.json`
 
 ## 25 · W10-P24 — Unlimited Firepower
 
-Human-height view outward from the inner arch: ObiWan Jacoby defends with his green blade and separate golden retriever sheltered behind him. One distant Imperial battery is destroyed and smoking; the single surviving battery has multiple barrels converging on the defended approach. Smoke and flags blow in the same established direction. No regenerated battery or second functioning emplacement.
+Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.
 
-Personalization focus: Holding the arch preserves dignity without rewriting the defeat.
+Personalization focus: The LLC wins the encounter after ObiWan Jacoby freely refuses the price.
 
 Visual shot sequence: resistance_and_command_counterview
 
-Scene-led reading path: He protects his threshold without being falsely shown victorious or helpless. → The victor still has resources after both earned counterattacks.
+Scene-led reading path: A deliberate command delivers judgment; the surviving battery visibly supplies the charge. → The encounter is lost; the home and continuing character survive this week.
 
-Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Dominant active defense plus a smaller command counterview. Never describe the scene as a quiet-ended battle. Keep the surviving battery active and the destroyed battery dead; exact final receipt appears once.
+Narration placement: The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch.
 
 Cast: ObiWan Jacoby, The LLC
 
 Full copy:
 
-ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.
+The LLC walks around until ObiWan Jacoby can see his face. Then he lifts his hand. Below the steps the surviving battery turns. The first white branch catches the green blade, the second lights the empty chair, and the flash swallows the defender’s silhouette. The arch lamp still burns. Derrick Henry and Mark Andrews supplied 36.20 on Monday. ObiWan Jacoby reached 166.53. The LLC held at 203.96, a margin of 37.43.
 
 Input: `render-inputs/W10-P24/request.json`
 

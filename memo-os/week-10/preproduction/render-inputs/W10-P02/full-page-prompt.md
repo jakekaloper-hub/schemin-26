@@ -35,10 +35,10 @@ IDENTITY INPUTS
 SCENE AND CONTINUITY
 {
   "camera_and_composition": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions.",
-  "foreground": "Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and mountain assault. Props are editorial symbols, not evidence of travel.",
+  "foreground": "Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and field throne room. Props are editorial symbols, not evidence of travel.",
   "midground": "Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures.",
   "background": "League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
-  "image_tells": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions. Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and mountain assault. Props are editorial symbols, not evidence of travel. Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures. League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
+  "image_tells": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions. Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and field throne room. Props are editorial symbols, not evidence of travel. Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures. League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
   "encounter": {
     "venue_id": "LOC-LEAGUE-CHAMBER",
     "set_id": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
@@ -96,7 +96,7 @@ SCENE AND CONTINUITY
         "role": "dominant",
         "pov_owner_ids": [],
         "camera": "Over-table oblique with strong near-to-far depth",
-        "action": "A sealed folio, mapped routes and the already specified lasso/paving/delivery/gift/assault symbols gather in the briefing space.",
+        "action": "A sealed folio, mapped routes and the already specified lasso/paving/delivery/gift/field-throne symbols gather in the briefing space.",
         "new_information": "A common world frames six different consequences without six miniature posters.",
         "time_relation": "same moment",
         "id": "W10-P02-V01"
@@ -109,7 +109,7 @@ SCENE AND CONTINUITY
       "body_ranges": [
         {
           "start": 0,
-          "end": 854,
+          "end": 610,
           "anchor": "one continuous readable atmospheric field beside the main visual information"
         }
       ],
@@ -136,7 +136,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "ROOM ABOVE TWO HUNDRED",
   "deck": "The week the pressure reached everyone",
-  "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.",
+  "body": "Two teams crossed two hundred by Sunday night. One brought a hamburger to a birthday party. The other left his chair and offered a man a bargain on his own mountain. In the Highlands, an outlaw got his laugh, copied a centaur’s stance for a second one, and gave the centaur a reason to chase him. In the east, El Niño’s rain found a way past Red Leopards’ sandbags. Inland, trees were already coming down. Seven Deadly Chins arrived with a jackhammer just as a household settled. Slob on my Dobb kept a delivery appointment in a swamp. Four regular-season games remain. Who has to live with what happened here?",
   "callouts": [],
   "rows": [],
   "department_heading": "OPENING DRIVE"

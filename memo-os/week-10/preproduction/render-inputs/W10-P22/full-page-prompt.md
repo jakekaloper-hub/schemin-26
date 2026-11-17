@@ -65,9 +65,9 @@ IDENTITY INPUTS
     "full_name": "The LLC",
     "owner": "David Babb",
     "appearance": {
-      "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+      "subject_morphology": "Well-groomed human corporate executive in a dark tailored suit",
       "head_face": "Human head with short dark hair and dark sunglasses",
-      "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+      "silhouette": "Dark tailored suit, bright red tie and cigar. Seated at first in the leather chair; rises to his feet as the first battery fails.",
       "palette": [
         "black suit",
         "white shirt",
@@ -95,14 +95,14 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low three-quarter view just outside the inner arch; diagonal approach opens upward into the frame.",
-  "foreground": "ObiWan Jacoby’s planted feet and the retriever safely beyond the threshold.",
-  "midground": "Green deflection and the first battery hit.",
-  "background": "Second battery, recognizably suited The LLC and war-room ridge.",
-  "image_tells": "Begin under fire. ObiWan Jacoby actively breaks the forward battery with returned blaster fire, forcing the assault line to change before The LLC orders its response.",
+  "camera_and_composition": "One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.",
+  "foreground": "The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway.",
+  "midground": "The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis.",
+  "background": "ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
+  "image_tells": "One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame. The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway. The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis. ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
   "encounter": {
     "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "venue_type": "verified home domain / proposed scene",
+    "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
     "division_context": "Burgers home team vs Pizza away team",
     "route_required": true,
     "route_names": [
@@ -113,30 +113,29 @@ SCENE AND CONTINUITY
       "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
     ],
     "persistent_landmarks": [
-      "fixed mountain ridge",
-      "outer causeway",
-      "inner stone arch",
-      "existing mountain-base silhouette"
+      "mountain causeway below the command shelf",
+      "inner home arch and sheltered golden retriever",
+      "upper ridge steps to temporary field throne room",
+      "leather command chair above the floor seam"
     ],
     "provisional_location": false,
     "temporary_scene_props": [
-      "temporary Imperial assault formation",
-      "two visible battery emplacements",
-      "armored command platform",
-      "ObiWan’s green blade",
-      "ridge causeway and stone arch",
-      "golden retriever in sheltered inner approach"
+      "field throne room dressed on the existing command shelf",
+      "leather chair and floor seam",
+      "two initial battery emplacements",
+      "green blade and sheltered golden retriever"
     ],
     "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
     "set_id": "SET-W10-OBI-RIDGE-GATE"
   },
   "continuity_in": [
-    "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-    "Preserve current identity packets and preceding beat’s geography"
+    "mountain causeway below the command shelf",
+    "inner home arch and sheltered golden retriever",
+    "upper ridge steps to temporary field throne room",
+    "leather command chair above the floor seam"
   ],
   "continuity_out": [
-    "Begin under fire. ObiWan Jacoby actively breaks the forward battery with returned blaster fire, forcing the assault line to change before The LLC orders its response.",
-    "Local scene consequence remains draft until detailed acceptance"
+    "First battery smoking; the chair above the open steps is being vacated."
   ],
   "forbidden_mutations": [
     "No home repossession",
@@ -151,12 +150,12 @@ SCENE AND CONTINUITY
   "composition_direction": {
     "page_id": "W10-P22",
     "family": "kinetic_action",
-    "dominant_action": "ObiWan Jacoby breaks the first of two Imperial batteries.",
-    "reading_path": "Home and companion establish what is being defended. → Both batteries exist before one is destroyed. → The first counterattack earns a real success; the other battery survives.",
-    "heading_treatment": "Headline lives in clear smoke/sky away from the light blade and impact.",
-    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Two compact opposing intentions lead into one dominant first-counter action. Use neutral terrain landmarks to orient the reverse view; do not reverse advancing direction without the establish. Red fire denotes color, not another team.",
-    "protected_subjects": "Green blade translated into grayscale luminance, separate retriever safe behind, suited executive, two batteries at entry.",
-    "data_treatment": "Restore the approved color phrase Red fire; Red Leopards is not in this matchup. Preserve the 2024 margin.",
+    "dominant_action": "A real tactical success earns ObiWan Jacoby an audience.",
+    "reading_path": "The warm arch establishes a reason to accept an offer later. → The reader sees the room and both sources of fire. → The destroyed battery earns an actual opening onto the steps.",
+    "heading_treatment": "Place headline in quiet stone or storm shadow clear of faces and blade.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.",
+    "protected_subjects": "Canonical identities, first wreck, surviving battery, empty chair after the descent, protected arch and sheltered retriever.",
+    "data_treatment": "Preserve the historical 2024 margin of 0.80.",
     "personalization_note_ref": "personalization-pass-20261117.json#W10-P22",
     "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
     "shot_structure": "opposed_forces_then_first_counter",
@@ -164,9 +163,9 @@ SCENE AND CONTINUITY
   },
   "personalization_direction": {
     "page_id": "W10-P22",
-    "focus": "The defender earns a real success before the opponent answers.",
-    "performance": "ObiWan Jacoby’s planted stance and returned fire visibly destroy the first of two emplacements. Keep the retriever sheltered and The LLC recognizable across the causeway.",
-    "narration_job": "The 0.80 earlier result explains why a narrow opening matters; red fire is color, not Red Leopards joining the scene.",
+    "focus": "A real tactical success earns ObiWan Jacoby an audience.",
+    "performance": "The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway. The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis. ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
+    "narration_job": "A real tactical success earns ObiWan Jacoby an audience.",
     "source_refs": [
       "issue-previs.json#W10-P22",
       "facts.json#/historical_context/W10-G06",
@@ -179,16 +178,16 @@ SCENE AND CONTINUITY
     "page_id": "W10-P22",
     "structure": "opposed_forces_then_first_counter",
     "time_logic": "CHRONOLOGICAL_SAME_LOCATION",
-    "visual_question": "What must the defender protect, and what resources does the commander have?",
+    "visual_question": "What success earns the defender an audience?",
     "shots": [
       {
         "role": "setup",
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Close third-person from the inner arch toward the causeway",
-        "action": "ObiWan Jacoby braces with green blade, the separate retriever sheltered behind the threshold.",
-        "new_information": "Home and companion establish what is being defended.",
+        "camera": "Behind the inner arch, sight along the causeway",
+        "action": "The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway.",
+        "new_information": "The warm arch establishes a reason to accept an offer later.",
         "time_relation": "before counter",
         "id": "W10-P22-V01"
       },
@@ -197,9 +196,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-DAVID-BABB"
         ],
-        "camera": "Medium three-quarter command-shelf view",
-        "action": "The suited LLC commands with the two distinct emplacements visible in the established terrain.",
-        "new_information": "Both batteries exist before one is destroyed.",
+        "camera": "Low cross-axis view of the field throne shelf",
+        "action": "The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis.",
+        "new_information": "The reader sees the room and both sources of fire.",
         "time_relation": "same pre-counter moment",
         "id": "W10-P22-V02"
       },
@@ -208,26 +207,26 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-JAKE-KALOPER"
         ],
-        "camera": "Low wide along the established fire line",
-        "action": "ObiWan Jacoby’s visible deflection strikes the first emplacement.",
-        "new_information": "The first counterattack earns a real success; the other battery survives.",
+        "camera": "Along the returned bolt toward the front emplacement",
+        "action": "ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
+        "new_information": "The destroyed battery earns an actual opening onto the steps.",
         "time_relation": "next",
         "id": "W10-P22-V03"
       }
     ],
-    "layout_direction": "Two compact opposing intentions lead into one dominant first-counter action. Use neutral terrain landmarks to orient the reverse view; do not reverse advancing direction without the establish. Red fire denotes color, not another team.",
+    "layout_direction": "One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.",
     "dominant_view": "W10-P22-V03",
     "copy_flow": {
       "source": "issue-previs.json#W10-P22/draft_copy",
       "body_ranges": [
         {
           "start": 0,
-          "end": 174,
+          "end": 171,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 174,
-          "end": 357,
+          "start": 171,
+          "end": 410,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -238,14 +237,14 @@ SCENE AND CONTINUITY
     "continuity": {
       "source_encounter_unchanged": true,
       "landmarks": [
-        "fixed mountain ridge",
-        "outer causeway",
-        "inner stone arch",
-        "existing mountain-base silhouette"
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam"
       ],
       "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
     },
-    "page_turn_out": "The first smoking wreck opens the visual route toward the ridge flank.",
+    "page_turn_out": "A view of the home arch makes surrender tempting. The lit blade answers.",
     "grammar_references": [
       {
         "week": 9,
@@ -270,7 +269,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "The Empire Opens Fire",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
+  "body": "In 2024, eight tenths of a point settled their meeting in The LLC’s favor. ObiWan Jacoby remembers what a single opening is worth. Red fire crosses his mountain causeway. He turns it back with the green blade and the first battery folds into its own smoke. Above it, the man in the leather chair rises. The steps to his field throne room stand open. Behind ObiWan Jacoby, the lamp in the home arch still burns.",
   "department_heading": "ObiWan Jacoby vs The LLC"
 }
 

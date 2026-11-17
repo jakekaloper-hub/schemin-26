@@ -29,15 +29,19 @@ class VisualStorytelling(unittest.TestCase):
     self.assertEqual(set(x for s in ps[arc['pages'][0]]['shots'] for x in s['pov_owner_ids']),set(self.pages[arc['pages'][0]]['characters_present']))
     self.assertGreater(len({ps[pid]['structure'] for pid in arc['pages']}),1)
     self.assertTrue(arc['cause_and_effect']);self.assertTrue(arc['page_turn'])
- def test_no_new_copy_or_facts_cast_or_location_changes(self):
+ def test_copy_facts_cast_and_geography_follow_accepted_sources(self):
   b=read(E/'baseline.json');self.assertEqual(b['order'],self.order)
   self.assertEqual(hashlib.sha256((P/'facts.json').read_bytes()).hexdigest(),b['facts_sha256'])
+  founder=read(E.parent/'founder-revision-20261117'/'approved-fields.json')
   for pid,old in b['pages'].items():
    with self.subTest(page=pid):
     selected=read(P/'playoff-harvest-copy.json')['pages']
     self.assertEqual(set(selected),{'W10-P28','W10-P30','W10-P31'})
     expected=selected[pid]['publication_copy'] if pid in selected else old['copy']
-    self.assertEqual(self.pages[pid]['draft_copy'],expected);self.assertEqual(self.pages[pid]['characters_present'],old['cast']);self.assertEqual(self.pages[pid]['encounter'],old['encounter'])
+    changes=founder.get(pid,{})
+    self.assertEqual(self.pages[pid]['draft_copy'],expected | changes.get('copy',{}))
+    self.assertEqual(self.pages[pid]['characters_present'],old['cast'])
+    self.assertEqual(self.pages[pid]['encounter'],old['encounter'] | changes.get('encounter',{}))
  def test_full_body_flows_once_in_unchanged_order(self):
   for p in self.registry()['pages']:
    body=self.pages[p['page_id']]['draft_copy']['body'];zones=p['copy_flow']['body_ranges'];self.assertTrue(zones)
@@ -70,4 +74,35 @@ class VisualStorytelling(unittest.TestCase):
   self.assertEqual(p['W10-P35']['time_logic'],'SIMULTANEOUS_SAME_LOCATION')
   self.assertEqual(p['W10-P01']['time_logic'],'EDITORIAL_JUXTAPOSITION_NOT_A_MEETING')
   self.assertIn('surviving battery',json.dumps(p['W10-P24']).lower());self.assertIn('untouched burger',json.dumps(p['W10-P21']).lower())
+
+ def test_founder_scene_choices_reach_the_renderer_in_order(self):
+  # Read the actions that the illustrator actually receives for each shot.
+  markers = {
+   'W10-P05': ['gets a laugh', 'imitation', 'draws his own lasso'],
+   'W10-P08': ['storm roll in', 'sandbag'],
+   'W10-P09': ['fallen trunk', 'whole tree topples', 'right-wall backboard'],
+   'W10-P22': ['both batteries', 'disables the first battery', 'rises'],
+   'W10-P23': ['descends', 'illuminated arch', 'blade still lit'],
+   'W10-P24': ['face obiwan', 'raises a hand', 'surviving battery', 'lightning', 'silhouette'],
+  }
+  for pid, phrases in markers.items():
+   with self.subTest(page=pid):
+    request=read(P/'render-inputs'/pid/'request.json')
+    shots=request['scene']['visual_storytelling']['shots']
+    actions=' '.join(shot['action'].lower() for shot in shots)
+    position=0
+    for phrase in phrases:
+     index=actions.find(phrase,position)
+     self.assertGreaterEqual(index,0,phrase)
+     position=index+len(phrase)
+    self.assertTrue(all(s['action'] in request['prompt'] for s in shots))
+
+ def test_founder_change_scope(self):
+  changes=read(E.parent/'founder-revision-20261117'/'approved-fields.json')
+  self.assertEqual(set(changes),set('W10-P'+n for n in ['01','02','05','08','09','22','23','24']))
+  for pid, fields in changes.items():
+   self.assertLessEqual(set(fields.get('copy',{})),{'body','headline'})
+   self.assertLessEqual(set(fields.get('encounter',{})),{'venue_type','persistent_landmarks','temporary_scene_props'})
+   self.assertEqual(self.pages[pid]['encounter']['venue_id'],read(E/'baseline.json')['pages'][pid]['encounter']['venue_id'])
+
 if __name__=='__main__':unittest.main(verbosity=2)

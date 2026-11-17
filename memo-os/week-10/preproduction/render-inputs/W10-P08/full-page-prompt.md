@@ -94,11 +94,11 @@ IDENTITY INPUTS
 
 SCENE AND CONTINUITY
 {
-  "camera_and_composition": "Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.",
+  "camera_and_composition": "Open wide on El Niño’s storm rolling over the terrace, then low at the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.",
   "foreground": "Red Leopards bracing the sandbag beside shallow water and leaves",
   "midground": "Old rutted turf and damaged goal/net",
   "background": "The low-side overflow follows the retaining edge. Far across the pitch, El Niño is a small recognizable embodied elemental watching the rain; never a face in cloud. The narrow exit and unresolved Week 9 truck position are not magically repaired.",
-  "image_tells": "Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall. Red Leopards bracing the sandbag beside shallow water and leaves Old rutted turf and damaged goal/net The low-side overflow follows the retaining edge. Far across the pitch, El Niño is a small recognizable embodied elemental watching the rain; never a face in cloud. The narrow exit and unresolved Week 9 truck position are not magically repaired.",
+  "image_tells": "Open wide on El Niño’s storm rolling over the terrace, then low at the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall. Red Leopards bracing the sandbag beside shallow water and leaves Old rutted turf and damaged goal/net The low-side overflow follows the retaining edge. Far across the pitch, El Niño is a small recognizable embodied elemental watching the rain; never a face in cloud. The narrow exit and unresolved Week 9 truck position are not magically repaired.",
   "encounter": {
     "venue_id": "LOC-RED-RUINS",
     "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
@@ -176,7 +176,7 @@ SCENE AND CONTINUITY
     "page_id": "W10-P08",
     "family": "kinetic_action",
     "dominant_action": "A sandbag almost works before shallow water finds its way around.",
-    "reading_path": "His effort is specific and deliberate, not a defeated pose. → The opponent sees a failing boundary rather than a repair triumph. → The precise failure is visible without a tidal wall.",
+    "reading_path": "He sees the storm approach in time to try to protect the terrace. → The opponent sees a failing boundary rather than a repair triumph. → The precise failure is visible without a tidal wall.",
     "heading_treatment": "Place the title above a quiet strip of pitch/sky, away from the bag and El Niño's recognizable distant figure.",
     "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A dominant working view, narrow opposing view and small water-path detail. Reuse the known terrace geometry. No basketball hoop, invented historical storm or disembodied face in a cloud.",
     "protected_subjects": "Week 9 soccer terrace geometry, damaged goal, narrow exit and unresolved truck; no adjacent basketball court.",
@@ -189,7 +189,7 @@ SCENE AND CONTINUITY
   "personalization_direction": {
     "page_id": "W10-P08",
     "focus": "Repair is an assertion of pride, not passive suffering.",
-    "performance": "Hands must be lowering an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño.",
+    "performance": "Show the front rolling in before Red’s hands lower an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño.",
     "narration_job": "The 2022 memory explains why the gesture matters; do not illustrate a fabricated 2022 storm flashback.",
     "source_refs": [
       "issue-previs.json#W10-P08",
@@ -210,9 +210,9 @@ SCENE AND CONTINUITY
         "pov_owner_ids": [
           "CHAR-KEVIN-ZEEK"
         ],
-        "camera": "Over Red Leopards’ near shoulder across the damaged soccer terrace",
-        "action": "He actively lowers another sandbag with the damaged goal and old ruts visible.",
-        "new_information": "His effort is specific and deliberate, not a defeated pose.",
+        "camera": "Wide view from Red Leopards’ shoulder across the damaged soccer terrace to the approaching front",
+        "action": "Red watches El Niño’s storm roll in over the eastern terrace, then lowers a sandbag beside the old goal.",
+        "new_information": "He sees the storm approach in time to try to protect the terrace.",
         "time_relation": "first",
         "id": "W10-P08-V01"
       },
@@ -246,12 +246,12 @@ SCENE AND CONTINUITY
       "body_ranges": [
         {
           "start": 0,
-          "end": 254,
+          "end": 194,
           "anchor": "opening perspective or clear adjacent atmosphere"
         },
         {
-          "start": 254,
-          "end": 480,
+          "start": 194,
+          "end": 388,
           "anchor": "main action or consequence reading zone"
         }
       ],
@@ -295,7 +295,7 @@ EXACT FULL PUBLICATION COPY
 {
   "headline": "One More Bag",
   "deck": "Red Leopards vs El Niño",
-  "body": "The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red Leopards to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red Leopards shifted another bag into place. The water went around it. In 2022, he had beaten El Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.",
+  "body": "Red Leopards sees El Niño’s storm roll over the eastern terrace. He stacks sandbags beside the damaged goal. For a moment the line holds. Then a thread of brown water comes out behind his boot. It has followed last week’s tire rut around the end of the line. In 2022 he had beaten El Niño twice and carried thirteen wins into the semifinal. He remembers how fast that advantage went, too.",
   "department_heading": "Red Leopards vs El Niño"
 }
 
