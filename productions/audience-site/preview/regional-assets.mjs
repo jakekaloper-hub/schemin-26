@@ -22,8 +22,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
           if(uFall>.5){
@@ -42,10 +42,19 @@ export function buildRegionalAssets(THREE, bindings, height) {
             float shoreHold=1.-smoothstep(.65,.96,length((uv-vec2(.5))*2.));
             p.z+=crest*.018*shoreHold;
           }
+          if(uRiver>.5){
+            // Low-amplitude running surface on the EXISTING Temple upstream disc.
+            // Physical motion fades before the unchanged source-bounded perimeter.
+            float riverRadius=length((uv-vec2(.5))*2.);
+            float riverHold=1.-smoothstep(.68,.96,riverRadius);
+            float riverPhase=sin(uv.y*26.-uTime*1.9+sin(uv.x*8.)*.35);
+            float riverCross=sin((uv.x+uv.y)*35.-uTime*2.2);
+            p.z+=(.026*riverPhase+.009*riverCross)*riverHold;
+          }
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
+      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
       vec2 wetlandUv = vUv + uFlow * uTime;
       float meander=sin(wetlandUv.y*10.+sin(wetlandUv.x*6.)*.5)*.024;
@@ -109,7 +118,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float grazingGain=.035+.21*pow(1.-viewIncidence,2.);
       contactTint=mix(contactTint,vec3(.31,.41,.37),grazingGain);
       gl_FragColor=vec4(contactTint+lowSheen+quietEddy+rootSheen+contactLight+channelSheen,.92);
-      }else if(uPond>.5){
+      }else if(uRiver>.5){
+       // Broken light on the EXISTING upstream sheet, not a flow/topology record.
+       vec2 runningUv=vUv+vec2(0.,-uTime*.023);
+       float broken=sin(runningUv.y*44.+sin(runningUv.x*11.)*1.15);
+       float runGlint=pow(max(broken,0.),11.);
+       float riverInterior=1.-smoothstep(.72,.96,length((vUv-vec2(.5))*2.));
+       gl_FragColor=vec4(uColor+vec3(.10,.15,.13)*(runGlint*riverInterior),.88);
+       }else if(uPond>.5){
       // Two gently expanding wave trains on the existing pond; no new source hydrology.
       vec2 p=(vUv-vec2(.5))*2.;
       float r1=length((p-vec2(-.19,.08))*vec2(1.,1.25));
@@ -136,7 +152,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
     materials.set('water-'+water.length,m);return m;
   }
-  function wetlandWaterDisk(){
+  function wetlandWaterDisk(name='Candidate wetland water surface'){
     // Reversible candidate mesh: exact same unit-circle perimeter, denser interior.
     // The edge is stationary under displacement so source-bound water footprints stay put.
     const segments=48,rings=8,position=[0,0,0],uv=[.5,.5],indices=[];
@@ -153,7 +169,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       indices.push(a,c,d,a,d,b);
     }
     const geometry=new THREE.BufferGeometry();
-    geometry.name='Candidate wetland water surface';
+    geometry.name=name;
     geometry.setAttribute('position',new THREE.Float32BufferAttribute(position,3));
     geometry.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
     geometry.setIndex(indices);geometry.computeVertexNormals();geometry.computeBoundingSphere();
@@ -161,7 +177,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
   }
   function pool(g,kind,x,y,z,rx,rz,color='#387e75'){
     const m=waterMaterial(kind,color);
-    const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():new THREE.CircleGeometry(1,40);
+    const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():kind==='river'?wetlandWaterDisk('Candidate Temple upstream river surface'):new THREE.CircleGeometry(1,40);
     const o=mesh(g,geometry,m,x,y,z);o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.renderOrder=2;water.push({kind,material:m,mesh:o});return o;
   }
   function waterfall(g,x,y,z,width,drop){

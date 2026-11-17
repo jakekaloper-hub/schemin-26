@@ -10,7 +10,7 @@ const bindings=[
 ];
 const create=()=>buildRegionalAssets(THREE,bindings,()=>2);
 
-test('only Mud Dogs swamp and channel have a tessellated, unchanged-footprint water disk',()=>{
+test('Mud Dogs swamp and channel retain their unchanged-footprint water disks',()=>{
   const a=create(),wet=a.water.filter(w=>w.kind==='swamp'||w.kind==='channel');
   assert.deepEqual(wet.map(w=>w.kind),['swamp','channel']);
   for(const w of wet){
@@ -41,7 +41,8 @@ test('only Mud Dogs swamp and channel have a tessellated, unchanged-footprint wa
   assert.deepEqual(channel.mesh.position.toArray(),[-6,.14,7]);
   assert.deepEqual(channel.mesh.scale.toArray(),[4.2,4.5,1]);
   assert.equal(a.water.find(w=>w.kind==='pond').mesh.geometry.type,'CircleGeometry');
-  assert.ok(a.water.filter(w=>['river','pool'].includes(w.kind)).every(w=>w.mesh.geometry.type==='CircleGeometry'));
+  assert.equal(a.water.find(w=>w.kind==='river').mesh.geometry.name,'Candidate Temple upstream river surface');
+  assert.equal(a.water.find(w=>w.kind==='pool').mesh.geometry.type,'CircleGeometry');
   a.dispose();
 });
 
