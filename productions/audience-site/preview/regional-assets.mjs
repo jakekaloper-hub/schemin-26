@@ -58,6 +58,48 @@ export function buildRegionalAssets(THREE, bindings, height) {
       water.push({kind:'landing-ripple',material:m,mesh:ring});
     }
   }
+  function waterfallMist(g,x,y,z,drop){
+    // Diffuse spray at the EXISTING candidate waterfall plunge, not a weather storm.
+    // Illustrative environmental detail: no new watercourse, climate fact, or Atlas geometry.
+    const pos=[],phase=[],drift=[];
+    for(let i=0;i<144;i++){
+      const a=i*2.39996323,spread=.16+.83*(.5+.5*Math.sin(i*7.37));
+      const dx=Math.cos(a)*spread*1.46,dz=Math.sin(a)*spread*1.02;
+      pos.push(x+dx, y-drop+.20+.62*(.5+.5*Math.sin(i*3.13)),z+.83+dz);
+      phase.push((i*.61803398875)%1);
+      drift.push(Math.sin(i*1.73),.5+.5*Math.cos(i*2.11),Math.cos(i*.97));
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
+    geo.setAttribute('aPhase',new THREE.Float32BufferAttribute(phase,1));
+    geo.setAttribute('aDrift',new THREE.Float32BufferAttribute(drift,3));
+    geo.computeBoundingSphere();geometries.add(geo);
+    const m=new THREE.ShaderMaterial({
+      uniforms:{uTime:{value:0}},transparent:true,depthWrite:false,blending:THREE.NormalBlending,
+      vertexShader:`uniform float uTime;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;
+        void main(){
+          float age=fract(aPhase+uTime*(.105+.048*aDrift.y));
+          vec3 p=position;
+          p.x+=aDrift.x*age*.42+sin(uTime*.31+aPhase*35.)*.10;
+          p.y+=age*(.55+.65*aDrift.y);
+          p.z+=aDrift.z*age*.28;
+          vec4 view=modelViewMatrix*vec4(p,1.);
+          gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22);
+          gl_Position=projectionMatrix*view;
+          vOpacity=pow(max(sin(age*3.14159265),0.),.75)*(.50+.38*aDrift.y);
+        }`,
+      fragmentShader:`varying float vOpacity;
+        void main(){
+          float radial=length(gl_PointCoord-vec2(.5));
+          float feather=1.-smoothstep(.08,.49,radial);
+          gl_FragColor=vec4(.75,.85,.78,feather*vOpacity*.22);
+        }`
+    });
+    materials.set('candidate-temple-plunge-mist',m);ambientMotion.push(m);
+    const o=new THREE.Points(geo,m);o.name='Candidate waterfall plunge mist';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'waterfall',navigable:false,routeIds:[]};
+    o.frustumCulled=false;o.renderOrder=4;g.add(o);
+  }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
     rock(g,-6,3,-3,4,6,3,mat('#677163'));rock(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'));rock(g,-5,1,-5,4,4,3.6,mat('#596955'));
@@ -69,7 +111,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     box(g,1,2.32,1.02,1.25,2.3,.15,mat('#263c35'));
     for(let i=0;i<15;i++)box(g,-2.1+i*.44,5.52,2.43,.16,.25,.15,dark);
     for(let i=0;i<12;i++){const a=i*2.399;rock(g,Math.cos(a)*(5+i%3),.3,Math.sin(a)*(4+i%2),.7,.45,.6,i%3?stone:moss);}
-    pool(g,'river',-5.8,7.2,-1.5,2.2,2.6,'#458c7d');waterfall(g,-5.8,7.2,1.8,2.15,6.9);pool(g,'pool',-5.8,.30,3,3.8,2.8,'#3b8c7e');
+    pool(g,'river',-5.8,7.2,-1.5,2.2,2.6,'#458c7d');waterfall(g,-5.8,7.2,1.8,2.15,6.9);pool(g,'pool',-5.8,.30,3,3.8,2.8,'#3b8c7e');waterfallMist(g,-5.8,7.2,1.8,6.9);
     for(const [x,z,s]of[[-10,-1,1.5],[-9,5,1.25],[-2,-6,1.4],[6,-4,1.5],[7,1,1.3],[6,6,1.1],[-2,7,.9]])canopy(g,x,0,z,s);
     box(g,2.7,2.31,1.9,.8,.05,.6,moss);box(g,-1.8,1.16,2.2,1.1,.04,.8,moss);
   }
