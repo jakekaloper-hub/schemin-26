@@ -19,7 +19,7 @@
 | His Majesty's Blood | Dr. Duckhook | 208.76–127.67 | 81.09 |
 | The LLC | ObiWan Jacoby | 203.96–166.53 | 37.43 |
 
-ObiWan Jacoby lost to **The LLC 203.96–166.53** despite exceeding 160 points, falling to **4–6**, ESPN seed **#10**. The LLC is **4–6**, seed **#9**. The top weekly team score is **His Majesty’s Blood 208.76**; the smallest winning margin is **El Niño 41.26 over Red Leopards** (189.08–147.82). These are observed result comparisons, not additional league policy inferences.
+ObiWan Jacoby lost to **The LLC 203.96–166.53** despite exceeding 160 points, falling to **4–6**, ESPN seed **#10**. The LLC is **4–6**, seed **#9**. The top weekly team score is **His Majesty’s Blood 208.76**; the smallest winning margin is **The LLC 37.43 over ObiWan Jacoby** (203.96–166.53). These are observed result comparisons, not additional league policy inferences.
 
 ## League standings through Week 10
 | Provider seed | Team | Record | Points for |
