@@ -23,9 +23,17 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
     const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uPond:{value:kind==='pond'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`uniform float uTime;uniform float uWetland;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
+          if(uFall>.5){
+            // Flex the EXISTING falling sheet without moving source-bounded edges.
+            float sideHold=sin(uv.x*3.14159265);
+            float endHold=sin(uv.y*3.14159265);
+            float folds=sin(uv.x*17.-uTime*2.2+uv.y*7.8)
+              +.38*sin(uv.x*29.+uTime*1.45-uv.y*9.3);
+            p.z+=.10*sideHold*endHold*folds;
+          }
           if(uWetland>.5){
             // Animated surface relief, NOT a storm or revised current/topology claim.
             vec2 heading=normalize(uFlow+vec2(.0001,.0001));
