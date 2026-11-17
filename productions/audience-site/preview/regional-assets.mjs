@@ -22,7 +22,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uWetland:{value:wetland?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
       vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
@@ -45,7 +45,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
+      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uWetland;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
       vec2 wetlandUv = vUv + uFlow * uTime;
       float meander=sin(wetlandUv.y*10.+sin(wetlandUv.x*6.)*.5)*.024;
@@ -58,7 +58,20 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec3 waterTint=mix(uColor,uColor*vec3(.84,.92,.80),sediment*.13);
       vec3 lowSheen=vec3(.13,.16,.14)*(currentSheen * uSheenGain);
       vec3 quietEddy=vec3(.04,.06,.05)*(eddy*eddyFade*.5*uSheenGain);
-      gl_FragColor=vec4(waterTint+lowSheen+quietEddy,.92);
+      // Local wavelets respond to five pre-existing illustrated tree stands.
+      // Their size and phase remain scenic candidates; no extra water surface or flow.
+      float rootWake=0.;
+      for(int i=0;i<5;i++){
+        if(float(i)>=uRootSiteCount)break;
+        vec2 delta=(vUv-uRootSites[i])*vec2(21.,16.4);
+        float rootDistance=length(delta);
+        float wakeFade=1.-smoothstep(.35,1.65,rootDistance);
+        float wakeCrest=pow(max(sin(rootDistance*8.7-uTime*1.7),0.),10.);
+        rootWake=max(rootWake,wakeFade*wakeCrest);
+      }
+      float bankFade=1.-smoothstep(.78,.99,length((vUv-vec2(.5))*2.));
+      vec3 rootSheen=vec3(.10,.13,.10)*(rootWake*.32*bankFade);
+      gl_FragColor=vec4(waterTint+lowSheen+quietEddy+rootSheen,.92);
       }else if(uPond>.5){
       // Two gently expanding wave trains on the existing pond; no new source hydrology.
       vec2 p=(vUv-vec2(.5))*2.;
@@ -377,6 +390,15 @@ export function buildRegionalAssets(THREE, bindings, height) {
         t.rotation.z=(k?-.12:.12);mark(t,'hanging-vegetation');
       }
     }
+    // A small, bounded shader field is anchored to the EXISTING illustrated stands,
+    // not to an invented location, route or new moving water geometry.
+    const rootWakeSites=illustratedTreeStands.filter((_,i)=>i%3===0)
+      .map(([x,z])=>new THREE.Vector2(.5+x/21,.5+z/16.4));
+    const swampSurface=water.find(w=>w.kind==='swamp');
+    swampSurface.material.uniforms.uRootSiteCount.value=rootWakeSites.length;
+    swampSurface.material.uniforms.uRootSites.value=rootWakeSites;
+    swampSurface.mesh.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceStands:illustratedTreeStands.length,illustrativeWakeSites:rootWakeSites.length};
     wetlandWaterlineRoots(g,illustratedTreeStands);
     for(let i=0;i<26;i++){const a=i*2.399,r=6.8+Math.sin(i)*.8,x=Math.cos(a)*r,z=Math.sin(a)*r;cyl(g,x,.1,z,.04,.06,.55+(i%3)*.15,leafLight,4);}
     for(let i=0;i<12;i++){const o=mesh(g,new THREE.CircleGeometry(.18+(i%3)*.08,9),leafLight,Math.sin(i*5)*7,.16,Math.cos(i*9)*5);o.rotation.x=-Math.PI/2;o.castShadow=false;}
