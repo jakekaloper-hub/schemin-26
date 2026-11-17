@@ -23,7 +23,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
     const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
           if(uFall>.5){
@@ -50,6 +50,15 @@ export function buildRegionalAssets(THREE, bindings, height) {
             float riverPhase=sin(uv.y*26.-uTime*1.9+sin(uv.x*8.)*.35);
             float riverCross=sin((uv.x+uv.y)*35.-uTime*2.2);
             p.z+=(.026*riverPhase+.009*riverCross)*riverHold;
+          }
+          if(uPlunge>.5){
+            // Subtle water relief within the EXISTING Temple receiving-pool disc.
+            // Rim vertices stay fixed: scenic motion, not new shoreline geometry.
+            float plungeRadius=length((uv-vec2(.5))*2.);
+            float plungeHold=1.-smoothstep(.64,.96,plungeRadius);
+            float plungeWave=sin(plungeRadius*29.-uTime*1.75+sin(uv.x*13.)*.23);
+            float plungeCross=sin((uv.x*16.-uv.y*12.)+uTime*.88);
+            p.z+=(.017*plungeWave+.006*plungeCross)*plungeHold;
           }
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
@@ -152,10 +161,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
       }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
     materials.set('water-'+water.length,m);return m;
   }
-  function wetlandWaterDisk(name='Candidate wetland water surface'){
+  function wetlandWaterDisk(name='Candidate wetland water surface',segments=48){
     // Reversible candidate mesh: exact same unit-circle perimeter, denser interior.
     // The edge is stationary under displacement so source-bound water footprints stay put.
-    const segments=48,rings=8,position=[0,0,0],uv=[.5,.5],indices=[];
+    const rings=8,position=[0,0,0],uv=[.5,.5],indices=[];
     for(let r=1;r<=rings;r++)for(let i=0;i<segments;i++){
       const angle=i*2*Math.PI/segments,radius=r/rings;
       const x=radius*Math.cos(angle),y=radius*Math.sin(angle);
@@ -177,7 +186,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
   }
   function pool(g,kind,x,y,z,rx,rz,color='#387e75'){
     const m=waterMaterial(kind,color);
-    const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():kind==='river'?wetlandWaterDisk('Candidate Temple upstream river surface'):new THREE.CircleGeometry(1,40);
+    const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():kind==='river'?wetlandWaterDisk('Candidate Temple upstream river surface'):kind==='pool'?wetlandWaterDisk('Candidate Temple plunge pool surface',40):new THREE.CircleGeometry(1,40);
     const o=mesh(g,geometry,m,x,y,z);o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.renderOrder=2;water.push({kind,material:m,mesh:o});return o;
   }
   function waterfall(g,x,y,z,width,drop){

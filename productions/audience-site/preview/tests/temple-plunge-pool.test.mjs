@@ -17,7 +17,7 @@ test('Temple existing receiving pool gets a bounded candidate plunge-only eddy a
  assert.equal(plunge.material.uniforms.uPlunge.value,1);
  assert.deepEqual(plunge.mesh.position.toArray(),[-5.8,.30,3]);
  assert.deepEqual(plunge.mesh.scale.toArray(),[3.8,2.8,1]);
- assert.equal(plunge.mesh.geometry.type,'CircleGeometry');
+ assert.equal(plunge.mesh.geometry.name,'Candidate Temple plunge pool surface');
  assert.match(plunge.material.fragmentShader,/else if\(uPlunge>\.5\)/);
  assert.match(plunge.material.fragmentShader,/plungeCore/);
  assert.match(plunge.material.fragmentShader,/foam/);

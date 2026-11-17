@@ -42,7 +42,7 @@ test('Mud Dogs swamp and channel retain their unchanged-footprint water disks',(
   assert.deepEqual(channel.mesh.scale.toArray(),[4.2,4.5,1]);
   assert.equal(a.water.find(w=>w.kind==='pond').mesh.geometry.type,'CircleGeometry');
   assert.equal(a.water.find(w=>w.kind==='river').mesh.geometry.name,'Candidate Temple upstream river surface');
-  assert.equal(a.water.find(w=>w.kind==='pool').mesh.geometry.type,'CircleGeometry');
+  assert.equal(a.water.find(w=>w.kind==='pool').mesh.geometry.name,'Candidate Temple plunge pool surface');
   a.dispose();
 });
 
