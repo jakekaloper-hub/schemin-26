@@ -57,7 +57,7 @@ treated as acceptance. Private source/routing details remain local.
 | Candidate metadata did not prove production consumption | No existing renderer consumed the added references. The adapter now invokes a source/copy/render readiness check and reports `copy_change_required` truthfully. The CLI can inspect existing `request.json` files with `--render-inputs`. |
 | Preserved production copy still contained earlier facts and unaccepted claims | The actual source review found old score/standings/form inputs and five exact-claim strings. All six analytics consumers lack completed source-to-copy consumption evidence. They remain held for reconciliation. |
 
-## What Week 10 still needs
+## Required work at the historical audited revision
 
 | Existing surface | Required production work |
 |---|---|
@@ -86,7 +86,7 @@ genuine points ties, and conditional leverage needs its own uncertainty measure.
 Neither is exposed as a Week 10 Memo forecast. The score model was not tuned
 against the same historical evaluation sample.
 
-## Evidence and storage scope
+## Evidence and storage scope at the historical audited revision
 
 The integrated checks cover 75 analytics/source/diagnostic tests, 36 Memo
 adapter/readiness tests, and 30 existing Data Gateway/Flaim/receipt regressions.

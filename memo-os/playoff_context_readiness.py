@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 import hashlib
 import json
+import math
 import re
 
 
@@ -39,6 +40,23 @@ PUBLICATION_DIRECTIVE = re.compile(
     r'\b(?:print(?:ed)?|caption|footnote|on[- ]page text|display(?:ed)? text|visible text|lettering)\b',
     re.IGNORECASE,
 )
+PAGE_PURPOSES = {
+    'official_standings', 'division_context', 'scoring_form', 'playoff_picture',
+    'next_week_preview', 'gotw_stakes',
+}
+FORECAST_FIELDS = {
+    'playoff_probability', 'seed_probability', 'division_title_probability',
+    'next_game_leverage', 'conditional_win_probability', 'conditional_loss_probability',
+    'leverage_delta_pp', 'expected_final_wins', 'final_wins_p10_p90',
+    'playoff_probability_mc_standard_error', 'monte_carlo_standard_error_pp',
+    'monte_carlo_95_interval', 'qualifying_trials',
+}
+NUMBER_METRICS = {
+    'points_for', 'points_against', 'scoring_average', 'last_three_average',
+    'all_play_win_rate', 'schedule_neutral_wins', 'schedule_luck_wins',
+    'remaining_opponent_scoring_average',
+}
+RECORD_FIELDS = {'wins', 'losses', 'ties'}
 
 
 def digest(value):
@@ -49,6 +67,85 @@ def digest(value):
 
 def _hash(value):
     return isinstance(value, str) and re.fullmatch(r'[0-9a-f]{64}', value) is not None
+
+
+def _same_value(left, right):
+    """JSON booleans are never interchangeable with numeric source values."""
+    if isinstance(left, bool) or isinstance(right, bool):
+        return type(left) is type(right) and left == right
+    if isinstance(left, dict) and isinstance(right, dict):
+        return left.keys() == right.keys() and all(_same_value(left[k], right[k]) for k in left)
+    if isinstance(left, list) and isinstance(right, list):
+        return len(left) == len(right) and all(_same_value(a, b) for a, b in zip(left, right))
+    return left == right
+
+
+def _finite_number(value):
+    return type(value) is int or (type(value) is float and math.isfinite(value))
+
+
+def _record_metric(value):
+    if (not isinstance(value, dict) or set(value) != RECORD_FIELDS
+            or any(type(value[k]) is not int or value[k] < 0 for k in RECORD_FIELDS)):
+        raise ValueError('typed descriptive W/L/T record required')
+
+
+def _descriptive_source(packet, binding):
+    """Resolve only the adapter's typed descriptive metrics, never forecasts/proofs."""
+    pointer = binding.get('source_pointer') if isinstance(binding, dict) else None
+    if not isinstance(pointer, str) or not pointer.startswith('/teams/'):
+        raise ValueError('descriptive team metric source pointer required')
+    selected = _pointer(packet, pointer)
+    tokens = [token.replace('~1', '/').replace('~0', '~') for token in pointer[1:].split('/')]
+    team = packet['teams'][tokens[1]]
+    if not isinstance(team, dict):
+        raise ValueError('typed team required')
+    if len(tokens) == 2:
+        if binding.get('format') != 'record':
+            raise ValueError('whole-team selections may only display their W/L/T record')
+        _record_metric({key: team[key] for key in RECORD_FIELDS})
+        return team
+    field = tokens[2]
+    if field in {'team_id', 'name'} and len(tokens) == 3:
+        if not isinstance(team[field], str) or not team[field].strip():
+            raise ValueError('typed descriptive identity required')
+    elif field in RECORD_FIELDS | {'provider_seed'} and len(tokens) == 3:
+        value = team[field]
+        if not (field == 'provider_seed' and value is None):
+            if type(value) is not int or value < (1 if field == 'provider_seed' else 0):
+                raise ValueError('typed descriptive count required')
+    elif field in NUMBER_METRICS and len(tokens) == 3:
+        value = team[field]
+        if not (field == 'remaining_opponent_scoring_average' and value is None):
+            if not _finite_number(value):
+                raise ValueError('finite descriptive number required')
+            if field == 'all_play_win_rate' and not 0 <= value <= 1:
+                raise ValueError('descriptive win rate must be in [0, 1]')
+            if field == 'schedule_neutral_wins' and value < 0:
+                raise ValueError('schedule-neutral wins cannot be negative')
+    elif field in {'all_play', 'weekly_median_record'}:
+        _record_metric(team[field])
+        if len(tokens) != 3 and not (len(tokens) == 4 and tokens[3] in RECORD_FIELDS):
+            raise ValueError('unknown descriptive record member')
+    elif field == 'remaining_schedule':
+        schedule = team[field]
+        if not isinstance(schedule, list):
+            raise ValueError('typed remaining schedule required')
+        fields = {'week', 'opponent_id', 'opponent', 'home', 'opponent_scoring_average'}
+        for game in schedule:
+            if (not isinstance(game, dict) or set(game) != fields
+                    or type(game['week']) is not int or game['week'] < 1
+                    or type(game['home']) is not bool
+                    or not all(isinstance(game[k], str) and game[k].strip() for k in ('opponent_id', 'opponent'))
+                    or not _finite_number(game['opponent_scoring_average'])):
+                raise ValueError('typed descriptive schedule game required')
+        if len(tokens) != 3:
+            if (len(tokens) not in (4, 5) or not tokens[3].isdigit()
+                    or (len(tokens) == 5 and tokens[4] not in fields)):
+                raise ValueError('unknown descriptive schedule member')
+    else:
+        raise ValueError('forecast, exact-proof or unknown metric cannot be selected')
+    return selected
 
 
 def _time(value):
@@ -95,10 +192,12 @@ def _outside_copy_claims(text):
 def _pointer(value, pointer):
     if not isinstance(pointer, str) or not pointer.startswith('/'):
         raise ValueError('a nonempty JSON pointer is required')
+    if re.search(r'~(?![01])', pointer):
+        raise ValueError('invalid JSON pointer escape')
     for token in pointer[1:].split('/'):
         token = token.replace('~1', '/').replace('~0', '~')
         if isinstance(value, list):
-            if not token.isdigit():
+            if not re.fullmatch(r'0|[1-9][0-9]*', token):
                 raise ValueError('invalid array pointer')
             value = value[int(token)]
         elif isinstance(value, dict):
@@ -156,7 +255,8 @@ def _claim_accepted(receipts, page_id, path, text, claim_type, copy_hash, packet
 
 
 def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
-                         max_age_seconds=86400, accepted_claims=None, claim_verifier=None):
+                         max_age_seconds=86400, accepted_claims=None, claim_verifier=None,
+                         audit_scope='FULL_ISSUE'):
     """Return source/copy/render HOLD reasons without changing any inputs.
 
     ``render_requests`` is a page-ID -> actual request JSON mapping, not a
@@ -165,7 +265,15 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
     reproduce their proofs; receipt flags alone never clear a claim. Both are
     absent by default, and neither can override a held probabilistic forecast.
     A passing result only verifies this boundary, never artwork or release.
+
+    ``SELECTED_ANALYTICS`` is the opt-in CLI boundary: claims are screened only
+    at ACCEPTED metric-binding destinations. Unbound native copy and native
+    proofs are outside that boundary. The default full audit retains its broad
+    copy/prompt screening for adapter and independent-review callers.
     """
+    if audit_scope not in ('FULL_ISSUE', 'SELECTED_ANALYTICS'):
+        raise ValueError('unknown analytics audit scope')
+    selected_only = audit_scope == 'SELECTED_ANALYTICS'
     now = now or datetime.now(timezone.utc)
     if now.tzinfo is None:
         raise ValueError('timezone-aware review time required')
@@ -191,6 +299,10 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
 
     if not isinstance(packet, dict):
         raise ValueError('packet must be a mapping')
+    league_id, season = packet.get('league_id'), packet.get('season')
+    if (not isinstance(league_id, str) or not re.fullmatch(r'[1-9][0-9]*', league_id)
+            or type(season) is not int or not 1900 <= season <= 9999):
+        hold('INVALID_SOURCE_IDENTITY', 'A typed league ID and season are required; matching absent values do not establish identity.')
     for key in ('report_sha256', 'source_snapshot'):
         if not _hash(packet.get(key)):
             hold('MISSING_SOURCE_HASH', 'A complete accepted-source hash is required.', path=key)
@@ -211,16 +323,53 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
     prefix = f'W{week:02d}-' if valid_week else None
     if prefix is None:
         hold('INVALID_SOURCE_WEEK', 'The accepted cutoff week is required.')
+    for page_id, binding in bindings.items():
+        if (not isinstance(page_id, str) or prefix is None or not page_id.startswith(prefix)
+                or not isinstance(binding, dict) or not isinstance(binding.get('purpose'), str)
+                or binding['purpose'] not in PAGE_PURPOSES
+                or binding.get('candidate_only') is not True
+                or ('report_sha256' in binding and binding['report_sha256'] != packet.get('report_sha256'))):
+            hold('INVALID_PAGE_BINDING', 'Each binding needs the current page identity, a known purpose, and candidate_only=true.',
+                 page_id=page_id if isinstance(page_id, str) else None)
+    # Invalid non-string keys must not reach sorted pending-page output.
+    bindings = {key: value for key, value in bindings.items() if isinstance(key, str)}
+    teams = packet.get('teams')
+    if (not isinstance(teams, dict) or not teams
+            or any(not isinstance(key, str) or not isinstance(team, dict)
+                   or team.get('team_id') != key
+                   or not isinstance(team.get('name'), str) or not team['name'].strip()
+                   for key, team in teams.items())):
+        hold('INVALID_ANALYTICS_TEAMS', 'An identified descriptive team mapping is required.')
     if not isinstance(previs, dict):
         hold('PREVIS_NOT_SUPPLIED', 'A candidate packet alone does not demonstrate production consumption.')
         previs = {}
+    for key, expected in [('league_id', league_id), ('season', season), ('week', week)]:
+        if key in previs and (type(previs[key]) is not type(expected) or previs[key] != expected):
+            hold('ISSUE_IDENTITY_MISMATCH', 'The actual issue identity differs from the incoming source.', path=key)
+    if 'issue_id' in previs:
+        issue_id = previs['issue_id']
+        if not isinstance(issue_id, str) or not issue_id.strip():
+            hold('ISSUE_IDENTITY_MISMATCH', 'The actual issue ID must be a nonempty string.', path='issue_id')
+        else:
+            years = re.findall(r'(?<!\d)20\d{2}(?!\d)', issue_id)
+            short_years = re.findall(r'SCHEMIN[-_ ](\d{2})(?!\d)', issue_id.upper())
+            issue_weeks = re.findall(r'W(\d{1,2})(?!\d)', issue_id.upper())
+            if (any(int(y) != season for y in years)
+                    or any(type(season) is not int or int(y) != season % 100 for y in short_years)
+                    or any(int(w) != week for w in issue_weeks)):
+                hold('ISSUE_IDENTITY_MISMATCH', 'The actual issue ID contradicts its source season/week.', path='issue_id')
     if previs.get('final_fact_lock') is not True:
         hold('PREVIS_NOT_FACT_LOCKED', 'The supplied issue still lacks its owning final Fact Lock.')
     revision = previs.get('creative_revision', {})
     sports_state = revision.get('sports_status', '') if isinstance(revision, dict) else ''
     if isinstance(sports_state, str) and PROVISIONAL.search(sports_state):
-        hold('PROVISIONAL_SPORTS_STATE', 'The operative issue still describes provisional outcomes.',
-             path='creative_revision/sports_status', observed=sports_state)
+        if selected_only:
+            review_notes.append({'code': 'LEGACY_SPORTS_REVISION_CONTEXT',
+                'path': 'creative_revision/sports_status',
+                'detail': 'Revision prose is not current source authority; structured final source and selected render inputs are checked separately.'})
+        else:
+            hold('PROVISIONAL_SPORTS_STATE', 'The operative issue still describes provisional outcomes.',
+                 path='creative_revision/sports_status', observed=sports_state)
     sports_source = previs.get('sports_source')
     if not isinstance(sports_source, dict):
         hold('SOURCE_RECONCILIATION_NOT_WITNESSED',
@@ -231,9 +380,12 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
                             'report_sha256', 'source_as_of')}
         expected_source['result_lock'] = 'FINAL'
         for key, expected in expected_source.items():
-            if sports_source.get(key) != expected:
+            observed = sports_source.get(key)
+            identity_type_differs = (key in ('league_id', 'season', 'through_week')
+                                     and type(observed) is not type(expected))
+            if identity_type_differs or not _same_value(observed, expected):
                 hold('PREVIS_SOURCE_MISMATCH', 'Previs must identify the same accepted final source.',
-                     path='sports_source/'+key, expected=expected, observed=sports_source.get(key))
+                     path='sports_source/'+key, expected=expected, observed=observed)
     if previs.get('sports_snapshot_utc') != packet.get('source_as_of'):
         hold('PREVIS_SNAPSHOT_NOT_RECONCILED', 'The copy snapshot differs from its incoming analytics source.',
              expected=packet.get('source_as_of'), observed=previs.get('sports_snapshot_utc'))
@@ -260,6 +412,8 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
     receipts = accepted_claims if isinstance(accepted_claims, list) else []
 
     for page_id, page in pages.items():
+        if selected_only and page_id not in bindings:
+            continue
         if page.get('include_in_recommended_issue') is False:
             if page_id in bindings:
                 hold('BOUND_PAGE_OMITTED', 'Analytics cannot silently bind an omitted page.', page_id=page_id)
@@ -269,10 +423,23 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
             hold('PUBLICATION_COPY_MISSING', 'Actual structured publication copy is required.', page_id=page_id)
             continue
         copy_hash = digest(copy)
+        consumption = page.get('analytics_consumption')
+        selected_paths = []
+        if isinstance(consumption, dict) and consumption.get('decision') == 'ACCEPTED':
+            mappings = consumption.get('metric_bindings')
+            if isinstance(mappings, list):
+                selected_paths = [binding['copy_pointer'] for binding in mappings
+                                  if isinstance(binding, dict)
+                                  and isinstance(binding.get('copy_pointer'), str)
+                                  and binding['copy_pointer'].startswith('/')]
         for path, text in _strings(copy):
+            if selected_only and not any(path == pointer or path.startswith(pointer + '/') for pointer in selected_paths):
+                continue
             for claim_type, pattern in [('EXACT', EXACT_CLAIM), ('PROBABILISTIC', PROBABILITY_CLAIM)]:
                 context = path.replace('_', ' ').replace('-', ' ').replace('/', ' ')
-                if not (pattern.search(text) or (claim_type == 'PROBABILISTIC' and pattern.search(context))):
+                known_forecast_key = any(token.lower() in FORECAST_FIELDS for token in path.split('/'))
+                if not (pattern.search(text) or (claim_type == 'PROBABILISTIC'
+                        and (pattern.search(context) or known_forecast_key))):
                     continue
                 if claim_type == 'PROBABILISTIC':
                     hold('HELD_FORECAST_IN_VISIBLE_COPY', 'This consumer has no forecast approval mechanism; a packet flag or proof callback cannot release forecast copy.',
@@ -289,7 +456,7 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
             if brief.get('artist_prompt') != page.get('candidate_render_prompt'):
                 hold('PREVIS_PROMPT_MIRROR_MISMATCH', 'Embedded artist prompts differ.', page_id=page_id)
         for path, value in mirrors.items():
-            if value is not None and value != copy:
+            if value is not None and not _same_value(value, copy):
                 hold('PREVIS_COPY_MIRROR_MISMATCH', 'Existing copy mirrors must match the current draft.',
                      page_id=page_id, path=path)
 
@@ -297,10 +464,11 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
         # Compare actual rows even when no consumption receipt has been written;
         # a new source hash cannot make an older printed table current.
         purpose = bindings.get(page_id, {}).get('purpose') if isinstance(bindings.get(page_id), dict) else None
-        if purpose == 'official_standings':
-            teams = packet.get('teams', {})
+        table = copy.get('rows')
+        standings_shape = (isinstance(table, list) and any(
+            isinstance(row, dict) and {'seed', 'record', 'points_for'} <= row.keys() for row in table))
+        if (purpose == 'official_standings' or (page_id in bindings and standings_shape)) and isinstance(teams, dict):
             by_name = {team.get('name'): team for team in teams.values() if isinstance(team, dict)}
-            table = copy.get('rows')
             if not isinstance(table, list) or not table:
                 hold('STANDINGS_TABLE_MISSING', 'The current-standings consumer needs actual table rows.', page_id=page_id)
             else:
@@ -337,7 +505,7 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
                             source_pointer = f'/teams/{team_id}' if key == 'record' else f'/teams/{team_id}/{source_field}'
                             compared_values.append({'page_id': page_id, 'source_pointer': source_pointer,
                                 'copy_pointer': f'/rows/{index}/{key}', 'incoming': expected, 'copy_value': observed})
-                            if comparison != expected:
+                            if not _same_value(comparison, expected):
                                 hold('STANDINGS_VALUE_DIFFERS_FROM_SOURCE', 'The current standings row retains an older or different value.',
                                      page_id=page_id, path=f'/rows/{index}/{key}', expected=expected, observed=observed)
                     except (KeyError, TypeError, ValueError, InvalidOperation):
@@ -345,7 +513,6 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
                 if seen != {str(team.get('team_id')) for team in teams.values() if isinstance(team, dict)}:
                     hold('STANDINGS_COVERAGE_MISMATCH', 'The current table must cover each accepted team exactly once.', page_id=page_id)
 
-        consumption = page.get('analytics_consumption')
         page_consumed = True
         if page_id in bindings:
             if not isinstance(consumption, dict):
@@ -368,15 +535,17 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
                 if decision == 'ACCEPTED' and (not isinstance(mappings, list) or not mappings):
                     hold('METRIC_BINDINGS_MISSING', 'Accepted selections must map incoming values to actual copy fields.', page_id=page_id)
                     page_consumed = False
+                if decision == 'NO_MATERIAL_CANDIDATE' and mappings != []:
+                    hold('INVALID_METRIC_BINDING', 'A no-material-candidate decision must have an empty metric binding list.', page_id=page_id)
+                    page_consumed = False
                 for binding in mappings if isinstance(mappings, list) else []:
                     try:
-                        if not isinstance(binding, dict) or not binding.get('source_pointer', '').startswith('/teams/'):
-                            raise ValueError('team metric source pointer required')
-                        expected = _display(_pointer(packet, binding['source_pointer']), binding.get('format', 'identity'))
+                        source_value = _descriptive_source(packet, binding)
+                        expected = _display(source_value, binding.get('format', 'identity'))
                         observed = _pointer(copy, binding['copy_pointer'])
                         compared_values.append({'page_id': page_id, 'source_pointer': binding['source_pointer'],
                             'copy_pointer': binding['copy_pointer'], 'incoming': expected, 'copy_value': observed})
-                        if observed != expected:
+                        if not _same_value(observed, expected):
                             hold('COPY_VALUE_DIFFERS_FROM_SOURCE', 'Updated analytics and existing visible copy disagree.',
                                  page_id=page_id, path=binding['copy_pointer'], expected=expected, observed=observed)
                             page_consumed = False
@@ -391,7 +560,7 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
         if request.get('page_id') != page_id:
             hold('RENDER_PAGE_MISMATCH', 'Render request identity differs from its source page.', page_id=page_id)
             page_consumed = False
-        if request.get('publication_copy') != copy:
+        if not _same_value(request.get('publication_copy'), copy):
             hold('RENDER_COPY_MISMATCH', 'Renderer still holds different publication copy.', page_id=page_id)
             page_consumed = False
         prompt = request.get('prompt')
@@ -404,12 +573,12 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
             before_copy, payload = prompt.split(COPY_MARKER, 1)
             payload = payload.lstrip()
             prompt_copy, copy_end = json.JSONDecoder().raw_decode(payload)
-            if prompt_copy != copy:
+            if not _same_value(prompt_copy, copy):
                 hold('PROMPT_PUBLICATION_COPY_MISMATCH', 'The exact copy embedded in the prompt is stale.', page_id=page_id)
                 page_consumed = False
             for fragment in _outside_copy_claims(before_copy+'\n'+payload[copy_end:]):
                 quantified_forecast = PROBABILITY_CLAIM.search(fragment) and re.search(PERCENT, fragment, re.IGNORECASE)
-                if PUBLICATION_DIRECTIVE.search(fragment) or quantified_forecast:
+                if not selected_only and (PUBLICATION_DIRECTIVE.search(fragment) or quantified_forecast):
                     hold('OUTSIDE_COPY_CLAIM_REVIEW_REQUIRED',
                          'An explicit publication directive or quantified forecast occurs outside the verified copy JSON; reconcile it before rendering.',
                          page_id=page_id, path='prompt/outside_exact_copy', observed=fragment[:240])
@@ -422,8 +591,11 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
             hold('PROMPT_COPY_UNVERIFIABLE', 'Cannot verify the exact publication copy sent to the renderer.', page_id=page_id)
             page_consumed = False
         policy = request.get('sports_policy', {})
+        policy_scope = policy.get('source_capture_scope') if isinstance(policy, dict) else None
         if (not isinstance(policy, dict) or policy.get('official_winner_decided') is not True
-                or PROVISIONAL.search(str(policy.get('source_capture_scope', '')))):
+                or not isinstance(policy_scope, str) or not policy_scope.strip()
+                or not re.search(r'\bFINAL\b', policy_scope.replace('_', ' ').replace('-', ' '), re.IGNORECASE)
+                or PROVISIONAL.search(policy_scope)):
             hold('RENDER_SPORTS_STILL_PROVISIONAL', 'The operative render request has not consumed final sports state.', page_id=page_id)
             page_consumed = False
         if page_id in bindings:
@@ -435,7 +607,10 @@ def audit_memo_readiness(packet, *, previs=None, render_requests=None, now=None,
 
     return {
         'schema_version': 1, 'status': 'HOLD' if issues else 'SOURCE_AND_RENDER_INPUTS_VERIFIED',
-        'scope': 'Final sports-copy source and render-input consistency only; existing provisional proof preparation is separate. No artwork or release approval.',
+        'audit_scope': audit_scope,
+        'scope': ('Selected descriptive analytics and bound render-input consistency only. Native copy/proofs and unselected prompt instructions are not evaluated. No artwork or release approval.'
+                  if selected_only else 'Final sports-copy source and render-input consistency only; existing provisional proof preparation is separate. No artwork or release approval.'),
+        'claim_screening_scope': 'SELECTED_ANALYTICS_COPY_POINTERS' if selected_only else 'FULL_INCLUDED_COPY',
         'claim_screening_limit': 'Bounded text and key-context screening; passing does not certify every semantic claim or unrestricted prompt instruction.',
         'checked_at': now.isoformat(), 'report_sha256': packet.get('report_sha256'),
         'source_snapshot': packet.get('source_snapshot'), 'source_as_of': packet.get('source_as_of'),

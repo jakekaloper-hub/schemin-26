@@ -102,6 +102,9 @@ The adapter consumes captured provider observations and never requests cookies.
 Local source captures and audit receipts are not attached to the public branch.
 The code's tests use synthetic inputs and do not require those retained files.
 
-TheFFHub is an optional external reference/manual cross-check. No vendor league
-run or data transfer was performed. This engine's values are Schemin values,
-and neither source can replace official standings or owning publication gates.
+TheFFHub is an external manual scenario source. The separate November 17
+session produced the retained 18-scenario harvest and two baselines; it was
+recovered and checked for Week 10 production. This engine's values remain
+Schemin calculations. Vendor estimates, independent proofs and internal model
+output keep their own provenance and acceptance boundaries. Neither analytics
+source replaces official standings or owning publication gates.
