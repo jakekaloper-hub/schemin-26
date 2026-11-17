@@ -63,7 +63,22 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);gl_FragColor=vec4(mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17),.88);}else if(uWetland>.5){
+      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
+        stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);
+        float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);
+        // The EXISTING physically displaced sheet now shades from its real screen-space
+        // geometry. Not a new light/weather authority: only a restrained candidate
+        // view response to folding, with no added geometry or transparency layers.
+        vec3 faceCross=cross(dFdx(vWorld),dFdy(vWorld));
+        float faceSize=length(faceCross);
+        vec3 sheetNormal=faceSize>.00001?faceCross/faceSize:vec3(0.,0.,1.);
+        vec3 eyeRay=normalize(cameraPosition-vWorld);
+        float grazing=pow(1.-clamp(abs(dot(sheetNormal,eyeRay)),0.,1.),3.);
+        float foldFacet=clamp(abs(sheetNormal.z),0.,1.);
+        vec3 fallBase=mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17);
+        vec3 fallTint=clamp(fallBase*(.945+.055*foldFacet)+vec3(.08,.10,.08)*(grazing*.32),0.,1.);
+        gl_FragColor=vec4(fallTint,.88);
+      }else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
       vec2 wetlandUv = vUv + uFlow * uTime;
       float meander=sin(wetlandUv.y*10.+sin(wetlandUv.x*6.)*.5)*.024;
