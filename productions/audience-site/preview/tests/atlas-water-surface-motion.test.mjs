@@ -54,7 +54,7 @@ test('physical wave shader is local, time driven and zero at the original shorel
    return amplitude*(1-edge)*(.72*a1+.28*b1);
   };
   assert.ok(Math.abs(displacement(1,0,7))<1e-12,'shoreline is motionless at all times');
-  assert.ok(Math.abs(displacement(.32,.19,1)-displacement(.32,.19,4))>1e-4,'surface really advances');
+  assert.ok(Math.abs(displacement(.32,.19,1)-displacement(.32,.19,2))>1e-4,'surface really advances');
   assert.ok(Math.abs(displacement(.32,.19,1))<=amplitude+1e-9,'small bounded movement');
  }
  a.dispose();
