@@ -4,13 +4,27 @@
   "scope": "Separate accepted TheFFHub/exact-proof intake; not the descriptive-only Schemin analytics adapter.",
   "source_receipt": {
     "artifact": "playoff-harvest.json",
-    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722"
+    "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83"
   },
   "protected_source": {
     "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
     "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
-    "storage": "Protected artifact outside public repository",
-    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source."
+    "storage": "Private GitHub repository jakekaloper-hub/bullpen; immutable reviewed source archive",
+    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source.",
+    "github": {
+      "repository": "jakekaloper-hub/bullpen",
+      "visibility": "private",
+      "commit": "f740977ed4c16a33f291f10969d004bc8ed39edc",
+      "source_commit": "ff61dcf65ba87bedd6b28677e34ff93da260c928",
+      "path": "projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "url": "https://github.com/jakekaloper-hub/bullpen/blob/f740977ed4c16a33f291f10969d004bc8ed39edc/projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "pull_request": 155,
+      "pull_request_url": "https://github.com/jakekaloper-hub/bullpen/pull/155",
+      "git_blob_sha1": "37d0b636fec7bcb566450a2af33893344440fa07",
+      "utf8_bytes": 664111,
+      "retention_manifest_path": "projects/schemin-26/evidence/week-10-20261117/RETENTION_MANIFEST.json",
+      "merged_to_main": true
+    }
   },
   "canonical_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
   "copy_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(',', ':')",
@@ -31,7 +45,7 @@
       "copy_pointer": "issue-previs.json#/pages/27/draft_copy",
       "copy_sha256": "f3182860c6b899ea7d2257b87f078d755439620e125cff1377561590581e1760",
       "request": "render-inputs/W10-P28/request.json",
-      "request_sha256": "2d5ae943c2ee913fe91f5ef29655b0a0c4992eff8ce1057241e190cde208d08a",
+      "request_sha256": "3dd44a304b7c36e0099d1dafd14b023801b5a05b6e1398ae534a1fa102a3034d",
       "claim_ids": [
         "dk_two_named_wins_clinch_burgers",
         "red_winout_wings_title"
@@ -54,7 +68,7 @@
       "copy_pointer": "issue-previs.json#/pages/29/draft_copy",
       "copy_sha256": "9adc025ff077443f0428a32617e7351625a0f32c2284dd3e4809c759ffb09df9",
       "request": "render-inputs/W10-P30/request.json",
-      "request_sha256": "b40cd56f28f73f4e4df10c5ec1a4217731b25dbafde1564074e0af74b8461264",
+      "request_sha256": "8534b0f12c79c02f620a38a5dd81aa5f6809fb715d9391e32b5416d679c1e32d",
       "claim_ids": [
         "all_12_alive_none_clinched",
         "nine_wins_sufficient",
@@ -73,7 +87,7 @@
       "copy_pointer": "issue-previs.json#/pages/30/draft_copy",
       "copy_sha256": "a76f75b8d77bd3f8743145c76971e343b62aaad9faf82416aaf7195c3f7af82c",
       "request": "render-inputs/W10-P31/request.json",
-      "request_sha256": "715da708b63ffeee78297e81a9c7d5ce5d24808e6e301dcd43c8ffc530470d0c",
+      "request_sha256": "e3f9fbac653fefb210fd27535b3d7a2daa2eb1d37e6ea454663ca2d6526f985f",
       "claim_ids": [
         "mud_only_w11_loss_eliminates",
         "w11_obi_chili_vendor_split"

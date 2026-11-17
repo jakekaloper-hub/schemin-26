@@ -2,7 +2,7 @@
 
 **Current production:** the final-results and design/personalization work in
 PR #315 is preserved. The reviewed harvest is now selected on P28/P30/P31;
-PNG production remains paused. Start with the current
+Bullpen preproduction acceptance is complete; PNG production remains paused. Start with the current
 [production entrypoint](../preproduction/README.md) and
 [execution report](../production-evidence/playoff-harvest-20261117/EXECUTION_REPORT.md). The earlier analytics audit
 of `96bf06f` is historical; its stale-copy findings do not describe this newer
@@ -23,9 +23,7 @@ OS, with their different methods and acceptance boundaries retained.
 | `MEMO_ANALYTICS_PACKET.json` under the checkpoint's `schemin/production-review/` | Dated Schemin descriptive candidate checkpoint based on the earlier previs. It is historical review evidence, not the current production manuscript or a permanent fresh input. |
 | `preproduction/playoff-witnesses-final.json` | The production branch's independently checked exact-proof path, paired with final league facts. Its existing acceptance is separate from the Schemin forecast model. |
 
-The protected source artifacts are retained outside the public repository.
-Retrieve them by these exact names and verify the checkpoint manifest before
-reuse. No private storage locator or authenticated payload is required in Git.
+The complete reviewed source is now retained in [private Bullpen GitHub](https://github.com/jakekaloper-hub/bullpen/blob/f740977ed4c16a33f291f10969d004bc8ed39edc/projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json), merged through [Bullpen PR #155](https://github.com/jakekaloper-hub/bullpen/pull/155). It is exactly 664,111 bytes, SHA256 `9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d`. The public `preproduction/playoff-harvest.json` receipt binds that immutable repository, commit and path. Its complete twelve POVs, twenty captures and sixty-one witness entries are available to authorized Bullpen reviewers. Earlier briefing/checkpoint artifacts remain historical supporting evidence under their exact names; the private reviewed archive is the complete accepted source for this integration. See [retention and independent acceptance](../production-evidence/github-acceptance-20261117/README.md).
 
 ## How this supports the current pages
 
@@ -82,7 +80,7 @@ mirrors; Librarian preserves provenance; independent Umpire checks the actual
 selected copy and requests. GM/Closer coordinates the handoff. The Founder
 retains artwork and publication authority.
 
-Complete the Bullpen-led preproduction review; PNG execution is paused under
+Bullpen-led preproduction review is complete and repository retention is approved; PNG execution remains paused under
 the latest user direction. When that stage resumes, use the existing
 individual-folio sequence. Do not restart
 source recovery or re-run an already answered scenario merely to demonstrate

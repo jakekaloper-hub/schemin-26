@@ -626,15 +626,30 @@
       "W10-P31"
     ],
     "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json",
-    "source_storage": "PROTECTED_FULL_SOURCE_WITH_COMPACT_PUBLIC_RECEIPT"
+    "source_storage": "PROTECTED_FULL_SOURCE_WITH_COMPACT_PUBLIC_RECEIPT",
+    "preproduction_merge_acceptance_pointer": "../production-evidence/github-acceptance-20261117/preproduction-acceptance.json"
   },
   "receipt_kind": "PUBLIC_SELECTED_CLAIM_AND_SOURCE_RECEIPT",
   "created_at_utc": "2026-11-17T17:39:53.080240+00:00",
   "protected_artifact": {
     "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
     "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
-    "storage": "Protected artifact outside public repository",
-    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source."
+    "storage": "Private GitHub repository jakekaloper-hub/bullpen; immutable reviewed source archive",
+    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source.",
+    "github": {
+      "repository": "jakekaloper-hub/bullpen",
+      "visibility": "private",
+      "commit": "f740977ed4c16a33f291f10969d004bc8ed39edc",
+      "source_commit": "ff61dcf65ba87bedd6b28677e34ff93da260c928",
+      "path": "projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "url": "https://github.com/jakekaloper-hub/bullpen/blob/f740977ed4c16a33f291f10969d004bc8ed39edc/projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "pull_request": 155,
+      "pull_request_url": "https://github.com/jakekaloper-hub/bullpen/pull/155",
+      "git_blob_sha1": "37d0b636fec7bcb566450a2af33893344440fa07",
+      "utf8_bytes": 664111,
+      "retention_manifest_path": "projects/schemin-26/evidence/week-10-20261117/RETENTION_MANIFEST.json",
+      "merged_to_main": true
+    }
   },
   "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json",
   "source_library": {
@@ -687,8 +702,22 @@
     "S-PROTECTED-INTEGRATION": {
       "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
       "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
-      "storage": "Protected artifact outside public repository",
-      "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source."
+      "storage": "Private GitHub repository jakekaloper-hub/bullpen; immutable reviewed source archive",
+      "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source.",
+      "github": {
+        "repository": "jakekaloper-hub/bullpen",
+        "visibility": "private",
+        "commit": "f740977ed4c16a33f291f10969d004bc8ed39edc",
+        "source_commit": "ff61dcf65ba87bedd6b28677e34ff93da260c928",
+        "path": "projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+        "url": "https://github.com/jakekaloper-hub/bullpen/blob/f740977ed4c16a33f291f10969d004bc8ed39edc/projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+        "pull_request": 155,
+        "pull_request_url": "https://github.com/jakekaloper-hub/bullpen/pull/155",
+        "git_blob_sha1": "37d0b636fec7bcb566450a2af33893344440fa07",
+        "utf8_bytes": 664111,
+        "retention_manifest_path": "projects/schemin-26/evidence/week-10-20261117/RETENTION_MANIFEST.json",
+        "merged_to_main": true
+      }
     }
   },
   "vendor_experiment": {
@@ -828,5 +857,6 @@
     }
   },
   "acceptance_boundary": "Vendor estimates and independently verified exact claims use the FFHUB_INTAKE_CONTRACT and native Memo source/proof path. They are not released or relabeled by the descriptive-only playoff_context_adapter.",
-  "publication_payload_scope": "Only selected claim explanations, premises, source hashes and the two-team Week 11 estimates are exposed here. Full source observations, all team POV bodies, raw tables and complete proofs remain in the protected artifact."
+  "publication_payload_scope": "Only selected claim explanations, premises, source hashes and the two-team Week 11 estimates are exposed here. Full source observations, all team POV bodies, raw tables and complete proofs remain in the protected artifact.",
+  "preproduction_merge_acceptance_pointer": "../production-evidence/github-acceptance-20261117/preproduction-acceptance.json"
 }

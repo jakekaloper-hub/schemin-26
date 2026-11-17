@@ -10099,7 +10099,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/dk_two_named_wins_clinch_burgers",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "d4eedc0d1cbb1687f05e80b6b579295d78475cba50d7c15e0d75b5eac5440f0b",
       "value_location": "playoff-harvest.json#/claims/dk_two_named_wins_clinch_burgers",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10108,7 +10108,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/red_winout_wings_title",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "7d4905fda6ce8e799f0f101576c2a9a3f57028f4b223ae1b8f70f369a90a34ab",
       "value_location": "playoff-harvest.json#/claims/red_winout_wings_title",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10117,7 +10117,7 @@ FACT POLICY
   "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
   "playoff_harvest": {
     "artifact": "playoff-harvest.json",
-    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+    "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
     "claim_ids": [
       "dk_two_named_wins_clinch_burgers",
       "red_winout_wings_title"
@@ -10592,7 +10592,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/all_12_alive_none_clinched",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "064b573b99234c9fdc003c8a13c3a29ef07e735dd2ac03d1afa320e701475c90",
       "value_location": "playoff-harvest.json#/claims/all_12_alive_none_clinched",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10601,7 +10601,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/nine_wins_sufficient",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "842b84104d197e463fad715d7eb439dee7298e97ebccb7f72f6dece6c6683437",
       "value_location": "playoff-harvest.json#/claims/nine_wins_sufficient",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10610,7 +10610,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/eight_wins_can_miss",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "de70eeac2327d39f1c1347b2dc479357f3c84d37a25107d6fd33395e5d98a203",
       "value_location": "playoff-harvest.json#/claims/eight_wins_can_miss",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10619,7 +10619,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/mud_only_w11_loss_eliminates",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "c33ef7befe2ae6bdfad4a55a3e1dd767cc03a75498655c58c789453b64134a11",
       "value_location": "playoff-harvest.json#/claims/mud_only_w11_loss_eliminates",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10628,7 +10628,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/mud_division_and_wildcard_paths",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "6e1c31bc6e0f092dd14972ad41a8eee51e43c1211a0c07c33a3ddd8f533f796f",
       "value_location": "playoff-harvest.json#/claims/mud_division_and_wildcard_paths",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10637,7 +10637,7 @@ FACT POLICY
   "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
   "playoff_harvest": {
     "artifact": "playoff-harvest.json",
-    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+    "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
     "claim_ids": [
       "all_12_alive_none_clinched",
       "nine_wins_sufficient",
@@ -10915,7 +10915,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/mud_only_w11_loss_eliminates",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "c33ef7befe2ae6bdfad4a55a3e1dd767cc03a75498655c58c789453b64134a11",
       "value_location": "playoff-harvest.json#/claims/mud_only_w11_loss_eliminates",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10924,7 +10924,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/w11_obi_chili_vendor_split",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "a4387b211c418160b1a4e262165a7e12a28062861522327ccd17f5e69173c990",
       "value_location": "playoff-harvest.json#/claims/w11_obi_chili_vendor_split",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -10933,7 +10933,7 @@ FACT POLICY
   "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
   "playoff_harvest": {
     "artifact": "playoff-harvest.json",
-    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+    "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
     "claim_ids": [
       "mud_only_w11_loss_eliminates",
       "w11_obi_chili_vendor_split"

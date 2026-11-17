@@ -199,7 +199,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/dk_two_named_wins_clinch_burgers",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "d4eedc0d1cbb1687f05e80b6b579295d78475cba50d7c15e0d75b5eac5440f0b",
       "value_location": "playoff-harvest.json#/claims/dk_two_named_wins_clinch_burgers",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -208,7 +208,7 @@ FACT POLICY
       "artifact": "playoff-harvest.json",
       "selector": "/claims/red_winout_wings_title",
       "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
-      "source_bundle_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
       "snapshot_sha256": "7d4905fda6ce8e799f0f101576c2a9a3f57028f4b223ae1b8f70f369a90a34ab",
       "value_location": "playoff-harvest.json#/claims/red_winout_wings_title",
       "source_scope": "See source field scope; exact visible values are already in publication_copy"
@@ -217,7 +217,7 @@ FACT POLICY
   "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
   "playoff_harvest": {
     "artifact": "playoff-harvest.json",
-    "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+    "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
     "claim_ids": [
       "dk_two_named_wins_clinch_burgers",
       "red_winout_wings_title"
