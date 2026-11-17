@@ -64,8 +64,8 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   return geo;
  }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
-  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-   vertexShader:`uniform float uTime;uniform float uAmplitude;varying vec2 vUv;
+  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+   vertexShader:`uniform float uTime;uniform float uAmplitude;varying vec2 vUv;varying vec3 vWorld;
     void main(){
      vUv=uv;vec3 p=position;
      float radius=length(position.xy);
@@ -74,9 +74,23 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float waveA=sin(position.x*12.7-uTime*1.18+sin(position.y*7.5)*.45);
      float waveB=sin(position.y*10.2+uTime*.74+position.x*3.);
      p.z+=uAmplitude*interior*(.72*waveA+.28*waveB);
+     vWorld=(modelMatrix*vec4(p,1.)).xyz;
      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
     }`,
-   fragmentShader:`uniform float uTime;uniform vec3 uColor;varying vec2 vUv;void main(){float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));float line=pow(max(sin(vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7),0.),17.);float gap=smoothstep(.2,.85,.5+.5*sin(vUv.y*32.+uTime*.24));vec3 c=uColor+vec3(.09,.15,.14)*line*gap;gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
+   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;varying vec2 vUv;varying vec3 vWorld;
+    void main(){
+     float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
+     float line=pow(max(sin(vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7),0.),17.);
+     float gap=smoothstep(.2,.85,.5+.5*sin(vUv.y*32.+uTime*.24));
+     // Read the actual moving mesh's world-space facing; no static painted normal.
+     vec3 faceCross=cross(dFdx(vWorld),dFdy(vWorld));
+     float faceSize=length(faceCross);
+     vec3 faceNormal=faceSize>.00001?faceCross/faceSize:vec3(0.,1.,0.);
+     vec3 eyeRay=normalize(cameraPosition-vWorld);
+     float grazing=pow(1.-clamp(abs(dot(faceNormal,eyeRay)),0.,1.),2.);
+     vec3 viewTint=vec3(.10,.16,.15)*(uViewSheen*grazing);
+     vec3 c=clamp(uColor+vec3(.09,.15,.14)*line*gap+viewTint,0.,1.);
+     gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
   const o=mesh(g,existingWaterDisk(),material,x,y,z,'Moving '+kind+' candidate');o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.receiveShadow=false;water.push({mesh:o,material,kind});return o;
  }
  function smoke(g,x,y,z){const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,vertexShader:'varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:'uniform float uTime;varying vec2 vUv;void main(){float x=vUv.x-.5-sin(vUv.y*8.-uTime*.65)*.08;float a=exp(-x*x*36.)*sin(vUv.y*3.14159)*(.65+.35*sin(vUv.y*22.-uTime*1.4));gl_FragColor=vec4(.64,.64,.58,a*.2);}'});materials.add(material);for(const yaw of [0,Math.PI/2]){const o=mesh(g,new THREE.PlaneGeometry(2,5),material,x,y+2.5,z,'Authored pit smoke');o.rotation.y=yaw;o.castShadow=false;}motion.push(material);}
