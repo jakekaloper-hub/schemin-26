@@ -300,6 +300,49 @@ export function buildRegionalAssets(THREE, bindings, height) {
       islandCount:islands.length,routeIds:[],navigable:false};
     relief.renderOrder=1;
   }
+  function wetlandWaterlineRoots(g,stands){
+    // Candidate tapering root projections around ONLY existing illustrated tree stands.
+    // This is not a species identification, new hydrological feature or navigable ground.
+    const positions=[],uv=[],indices=[],sides=7,rings=3;let rootCount=0;
+    for(let i=0;i<stands.length;i++){
+      const [cx,cz]=stands[i];
+      for(let j=0;j<5;j++){
+        const a=j/5*Math.PI*2+i*.39,reach=.53+.17*((i+j)%4);
+        const x=cx+Math.cos(a)*reach,z=cz+Math.sin(a)*reach;
+        // Keep all projected roots INSIDE the existing illustrative swamp-water rim.
+        if(Math.hypot(x/10.5,z/8.2)>.91)continue;
+        const start=positions.length/3,h=.35+.065*((i*3+j)%6);
+        const broad=.11+.02*(i%3);
+        for(let r=0;r<rings;r++){
+          const t=r/(rings-1),radius=r===0?broad:r===1?broad*.73:.008;
+          const bend=.045*t*t;
+          for(let k=0;k<sides;k++){
+            const theta=k/sides*Math.PI*2;
+            positions.push(x+Math.cos(theta)*radius+Math.cos(a+.7)*bend,
+              .105+h*t,z+Math.sin(theta)*radius+Math.sin(a+.7)*bend);
+            uv.push(k/sides,t);
+          }
+        }
+        for(let r=0;r<rings-1;r++)for(let k=0;k<sides;k++){
+          const next=(k+1)%sides,a0=start+r*sides+k,b0=start+r*sides+next;
+          const c0=a0+sides,d0=b0+sides;
+          indices.push(a0,c0,b0,b0,c0,d0);
+        }
+        rootCount++;
+      }
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+    geo.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
+    geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+    // Existing trunk material/UVs let the static batcher reuse an existing draw group.
+    const knees=mesh(g,geo,trunk,0,0,0);
+    knees.name='Candidate wetland waterline root knees';
+    knees.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceEnvironment:['cypress-like wetlands','mud channels'],
+      sourceStands:stands.length,rootCount,navigable:false,routeIds:[]};
+    return knees;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
@@ -309,10 +352,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
     wetlandShoreline(g,landformMaterial);wetlandEmergentVegetation(g);
     const islands=[[1,.1,1,4,1.2,3],[-6,.1,-3,3,.9,2.7],[6,.2,-4,3.5,1,2.8],[-4,.1,5,2.7,.8,2]];
     wetlandRaisedGround(g,islands,landformMaterial);
+    const illustratedTreeStands=[];
     for(let i=0;i<14;i++){
       // Two candidate cypress-like crown profiles break the old flat, repeated tree-disc silhouette.
       // All meshes remain direct children so the existing opaque batching path still applies.
       const a=i*2.4,r=3.8+(i%4)*1.5,x=Math.cos(a)*r,z=Math.sin(a)*r,y=.12,h=3.3+(i%3)*.9;
+      illustratedTreeStands.push([x,z]);
       const mark=(o,part)=>{o.userData.wetlandStand=i;o.userData.wetlandPart=part;return o;};
       mark(cyl(g,x,y,z,.20,.45,h,trunk,8),'trunk');
       for(let k=0;k<4;k++){
@@ -332,6 +377,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
         t.rotation.z=(k?-.12:.12);mark(t,'hanging-vegetation');
       }
     }
+    wetlandWaterlineRoots(g,illustratedTreeStands);
     for(let i=0;i<26;i++){const a=i*2.399,r=6.8+Math.sin(i)*.8,x=Math.cos(a)*r,z=Math.sin(a)*r;cyl(g,x,.1,z,.04,.06,.55+(i%3)*.15,leafLight,4);}
     for(let i=0;i<12;i++){const o=mesh(g,new THREE.CircleGeometry(.18+(i%3)*.08,9),leafLight,Math.sin(i*5)*7,.16,Math.cos(i*9)*5);o.rotation.x=-Math.PI/2;o.castShadow=false;}
     branch(g,[-5,.5,1],[0,.8,4],.32,trunk);
