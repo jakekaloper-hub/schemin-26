@@ -1,6 +1,14 @@
 # Playoff Context Intelligence Layer V1
 
-**Status:** BUILD CANDIDATE / NOT ACTIVE
+**Status:** WEEKLY RUNNER IMPLEMENTED / DESCRIPTIVE MEMO HANDOFF VERIFIED / FORECAST PUBLICATION HOLD
+
+The local November 17 Week 10 run reconciled the completed season history and
+remaining fixtures. Its walk-forward diagnostic did not beat the 50/50 baseline.
+The Memo adapter therefore emits descriptive statistics while withholding
+probability and leverage fields. This branch contains code, synthetic tests and
+operating documentation only. Authenticated inputs, league-specific rule
+evidence, simulation receipts and the full Memo packet are retained separately
+pending explicit approval to publish those records to this public repository.
 
 Reusable Schemin analytics capability beneath publication systems. It converts verified league-state snapshots into probabilistic playoff context plus conservative exact W/L-bound proofs, then emits a small editorial-candidate set. It does not publish prose or mutate canon.
 
@@ -37,3 +45,48 @@ This capability is intentionally publication-agnostic and can feed:
 ```bash
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
+
+## Weekly execution
+
+Run from the repository root with a fresh captured Flaim bundle and accepted
+rule evidence in a private working directory. Replace the example paths below
+with your actual local paths; no real capture is bundled in this branch.
+
+```bash
+python data-gateway/playoff-context/validate_model.py \
+  /path/to/private/week-10-capture.json \
+  --rules /path/to/private/accepted-rules.json \
+  --output /path/to/private/model-validation.json
+
+python data-gateway/playoff-context/run_weekly.py \
+  /path/to/private/week-10-capture.json \
+  --rules /path/to/private/accepted-rules.json \
+  --validation /path/to/private/model-validation.json \
+  --simulations 10000 --include-leverage --leverage-simulations 2000 \
+  --output /path/to/private/report.json \
+  --memo-output /path/to/private/MEMO_ANALYTICS_PACKET.json
+```
+
+Optional `--previs <current-issue-previs.json>` attaches candidates to existing
+page contracts without changing approved copy or release state. The locally
+verified Week 10 packet used PR #315 at `96bf06fb164580e85e7985150e37ac7310e3f088`.
+Later issues supply their own page bindings; Week 10 numbering is not inferred.
+
+The 24-hour freshness SLO is recomputed at consumption. Reproduce an old run
+using its recorded evaluation timestamp with `--as-of` in both commands;
+outputs are then explicitly `HISTORICAL_REPLAY`. Do not restamp old captures.
+The adapter consumes captured provider observations and never requests cookies.
+
+## Current evidence and external reference
+
+- `ACCEPTANCE_REPORT.md`: implementation disposition and forecast hold.
+- `WEEK_10_DOMAIN_HANDOFF.md`: Analyst ownership and operating handoff.
+- `../../memo-os/week-10/playoff-context/README.md`: local packet disposition and page bindings.
+- `THEFFHUB_REFERENCE.md`: upstream features, methods, source and license review.
+
+Local source captures and audit receipts are not attached to the public branch.
+The code's tests use synthetic inputs and do not require those retained files.
+
+TheFFHub is an optional external reference/manual cross-check. No vendor league
+run or data transfer was performed. This engine's values are Schemin values,
+and neither source can replace official standings or owning publication gates.

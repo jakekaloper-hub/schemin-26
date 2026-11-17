@@ -132,6 +132,12 @@ No downstream system may imply live ESPN verification unless freshness metadata 
 
 **Playoff Context Intelligence Layer V1:** BUILD CANDIDATE / NOT ACTIVE.
 
+Week 10 update (2026-11-17): the reusable source-validation runner and Memo
+descriptive adapter now execute on finalized inputs. Forecast publication stays
+held after the model's walk-forward check failed its baseline comparison. See
+`data-gateway/playoff-context/ACCEPTANCE_REPORT.md` and
+`memo-os/week-10/playoff-context/README.md`; no broad model activation is implied.
+
 Read:
 - `data-gateway/playoff-context/README.md`
 - `data-gateway/playoff-context/MODEL_SPEC.md`

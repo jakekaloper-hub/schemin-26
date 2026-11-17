@@ -46,4 +46,9 @@ Authorized connector captures are stored as provenance-stamped provider receipts
 
 ## Playoff Context Intelligence
 
+The weekly runner and descriptive Memo consumer now execute against finalized
+inputs; forecast release remains held by model validation. Real Week 10 evidence
+is retained locally pending approval to publish authenticated records. The public
+branch contains code and synthetic tests. See the acceptance report.
+
 `playoff-context/` is a derived analytics capability beneath Data Gateway. It may compute probabilistic playoff context and conservative exact-status proofs from freshness-valid normalized league state. It does not become a source of truth, publish prose, mutate canon, or bypass result locks. Status remains **BUILD CANDIDATE / NOT ACTIVE** until its acceptance report closes all activation gates.

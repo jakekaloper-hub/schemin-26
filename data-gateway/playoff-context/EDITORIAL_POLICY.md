@@ -13,3 +13,16 @@ Prohibited upgrades:
 - analytics replacing Power Rankings or narrative consequence.
 
 Default editorial cap: 0–3 notes per issue.
+
+## Week 10 forecast hold
+
+The 2026-11-17 walk-forward diagnostic did not beat the 50/50 matchup baseline.
+Computed forecasts remain Analyst audit evidence; the Memo adapter removes
+their values and conditional-leverage candidates. Descriptive all-play records,
+weekly median comparisons, record-versus-scoring effects and remaining-opponent
+scoring averages remain available as dated candidates. A descriptive schedule
+effect is not proof of manager skill, intent or causation.
+
+Equal-priority eligible candidates are sorted by actual leverage magnitude,
+not incoming fixture order. An exact status must carry the `EXACT` evidence
+class. Final pixel and copy review remain owning Memo gates.
