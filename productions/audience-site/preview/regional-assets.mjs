@@ -67,7 +67,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
         stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);
         float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);
         // The EXISTING physically displaced sheet now shades from its real screen-space
-        // geometry. Not a new light/weather authority: only a restrained candidate
+        // geometry. No new lighting or climate authority: only a restrained candidate
         // view response to folding, with no added geometry or transparency layers.
         vec3 faceCross=cross(dFdx(vWorld),dFdy(vWorld));
         float faceSize=length(faceCross);
