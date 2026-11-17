@@ -393,6 +393,50 @@ export function buildRegionalAssets(THREE, bindings, height) {
       sourceStands:stands.length,rootCount,navigable:false,routeIds:[]};
     return knees;
   }
+  function wetlandCanopyFringe(g,crowns){
+    // Read-only hanging fringe of the SAME 14 illustrated Mud Dogs tree crowns.
+    // Foliage profile is a local scenic candidate, not a plant species or ecology claim.
+    // Opaque ribbons reuse existing foliage material and the static foliage draw batch.
+    const positions=[],uv=[],indices=[];let strands=0;
+    for(const {i,x,y,z,h} of crowns){
+      for(let k=0;k<4;k++){
+        const a=k*Math.PI/2+i*.31+.18,r=.84+.06*((k+i)%3);
+        const cx=x+Math.cos(a)*r,cz=z+Math.sin(a)*r;
+        const top=y+h+.32+.11*(k%2),length=.85+.10*((k+2*i)%5);
+        // Two crossed planes, each with a separately wound front and back.
+        // This avoids changing the shared foliage material's face-culling contract.
+        for(let plane=0;plane<2;plane++)for(let face=0;face<2;face++){
+          const axis=a+plane*Math.PI/2+.37,dx=Math.cos(axis),dz=Math.sin(axis);
+          const nx=-dz,nz=dx,offset=(face===0?1:-1)*.003;
+          const start=positions.length/3;
+          for(let row=0;row<4;row++){
+            const t=row/3,bend=.085*Math.sin(t*Math.PI)+.035*t*t;
+            const bx=cx+Math.cos(a+Math.PI/2)*bend+nx*offset;
+            const bz=cz+Math.sin(a+Math.PI/2)*bend+nz*offset;
+            const width=(.12+.018*((i+k)%3))*(1-.84*t)*(row===2?1.12:1);
+            const yy=top-length*t;
+            positions.push(bx-dx*width,yy,bz-dz*width,bx+dx*width,yy,bz+dz*width);
+            uv.push(0,1-t,1,1-t);
+          }
+          for(let row=0;row<3;row++){
+            const p=start+row*2,q=p+2;
+            if(face===0)indices.push(p,q,p+1,p+1,q,q+1);
+            else indices.push(p,p+1,q,p+1,q+1,q);
+          }
+        }
+        strands++;
+      }
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+    geo.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
+    geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+    const fringe=mesh(g,geo,leafDark,0,0,0);
+    fringe.name='Candidate Mud Dogs canopy fringe';
+    fringe.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceStands:crowns.length,
+      strands,triangles:indices.length/3,navigable:false,routeIds:[],principalCharacters:[]};
+    return fringe;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
@@ -402,12 +446,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
     wetlandShoreline(g,landformMaterial);wetlandEmergentVegetation(g);
     const islands=[[1,.1,1,4,1.2,3],[-6,.1,-3,3,.9,2.7],[6,.2,-4,3.5,1,2.8],[-4,.1,5,2.7,.8,2]];
     wetlandRaisedGround(g,islands,landformMaterial);
-    const illustratedTreeStands=[];
+    const illustratedTreeStands=[],illustratedTreeCrowns=[];
     for(let i=0;i<14;i++){
       // Two candidate cypress-like crown profiles break the old flat, repeated tree-disc silhouette.
       // All meshes remain direct children so the existing opaque batching path still applies.
       const a=i*2.4,r=3.8+(i%4)*1.5,x=Math.cos(a)*r,z=Math.sin(a)*r,y=.12,h=3.3+(i%3)*.9;
-      illustratedTreeStands.push([x,z]);
+      illustratedTreeStands.push([x,z]);illustratedTreeCrowns.push({i,x,y,z,h});
       const mark=(o,part)=>{o.userData.wetlandStand=i;o.userData.wetlandPart=part;return o;};
       mark(cyl(g,x,y,z,.20,.45,h,trunk,8),'trunk');
       for(let k=0;k<4;k++){
@@ -437,6 +481,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     swampSurface.mesh.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
       sourceStands:illustratedTreeStands.length,illustrativeWakeSites:rootWakeSites.length};
     wetlandWaterlineRoots(g,illustratedTreeStands);
+    wetlandCanopyFringe(g,illustratedTreeCrowns);
     for(let i=0;i<26;i++){const a=i*2.399,r=6.8+Math.sin(i)*.8,x=Math.cos(a)*r,z=Math.sin(a)*r;cyl(g,x,.1,z,.04,.06,.55+(i%3)*.15,leafLight,4);}
     for(let i=0;i<12;i++){const o=mesh(g,new THREE.CircleGeometry(.18+(i%3)*.08,9),leafLight,Math.sin(i*5)*7,.16,Math.cos(i*9)*5);o.rotation.x=-Math.PI/2;o.castShadow=false;}
     branch(g,[-5,.5,1],[0,.8,4],.32,trunk);
