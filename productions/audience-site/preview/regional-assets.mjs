@@ -402,7 +402,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       for(let k=0;k<4;k++){
         const a=k*Math.PI/2+i*.31+.18,r=.84+.06*((k+i)%3);
         const cx=x+Math.cos(a)*r,cz=z+Math.sin(a)*r;
-        const top=y+h+.32+.11*(k%2),length=.85+.10*((k+2*i)%5);
+        const top=y+h-.22+.10*(k%2),length=1.08+.12*((k+2*i)%5);
         // Two crossed planes, each with a separately wound front and back.
         // This avoids changing the shared foliage material's face-culling contract.
         for(let plane=0;plane<2;plane++)for(let face=0;face<2;face++){
@@ -413,7 +413,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
             const t=row/3,bend=.085*Math.sin(t*Math.PI)+.035*t*t;
             const bx=cx+Math.cos(a+Math.PI/2)*bend+nx*offset;
             const bz=cz+Math.sin(a+Math.PI/2)*bend+nz*offset;
-            const width=(.12+.018*((i+k)%3))*(1-.84*t)*(row===2?1.12:1);
+            const width=(.18+.024*((i+k)%3))*(1-.80*t)*(row===2?1.12:1);
             const yy=top-length*t;
             positions.push(bx-dx*width,yy,bz-dz*width,bx+dx*width,yy,bz+dz*width);
             uv.push(0,1-t,1,1-t);
@@ -431,7 +431,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
     geo.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
     geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
-    const fringe=mesh(g,geo,leafDark,0,0,0);
+    const fringe=mesh(g,geo,moss,0,0,0);
     fringe.name='Candidate Mud Dogs canopy fringe';
     fringe.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceStands:crowns.length,
       strands,triangles:indices.length/3,navigable:false,routeIds:[],principalCharacters:[]};

@@ -27,7 +27,7 @@ test('hanging fringe uses only the 14 existing tree crowns and stays airborne at
   for(let j=0;j<p.count;j++){
     const x=p.getX(j),y=p.getY(j),z=p.getZ(j);
     assert.ok(Number.isFinite(x)&&Number.isFinite(y)&&Number.isFinite(z));
-    assert.ok(y>1.9&&y<6.5,'fringe must hang from existing canopy, not create ground or crossing');
+    assert.ok(y>1.55&&y<6.5,'fringe must hang from existing canopy, not create ground or crossing');
     assert.ok(trunks.some(t=>Math.hypot(x-t.position.x,z-t.position.z)<1.5),
       'every strand must remain close to an existing illustrated stand');
     assert.ok([normals.getX(j),normals.getY(j),normals.getZ(j)].every(Number.isFinite));
@@ -38,8 +38,8 @@ test('hanging fringe uses only the 14 existing tree crowns and stays airborne at
 
 test('fringe is folded into existing opaque foliage draw batch and isolated to Mud Dogs',()=>{
   const assets=build(),g=swamp(assets),f=fringe(assets);
-  const canopy=g.children.find(x=>x.userData.wetlandPart==='canopy-lobe'&&x.material===f.material);
-  assert.ok(canopy,'must reuse the existing dark foliage material');
+  const canopy=g.children.find(x=>x.userData.wetlandPart==='hanging-vegetation'&&x.material===f.material);
+  assert.ok(canopy,'must reuse an existing opaque hanging-vegetation material');
   const sameMaterialBefore=g.children.filter(x=>x.isMesh&&x.material===f.material).length;
   assert.ok(sameMaterialBefore>1);
   const {geometries}=batchStaticGeometry(THREE,g);
