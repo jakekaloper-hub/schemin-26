@@ -9,7 +9,8 @@ class TestEngine(unittest.TestCase):
             "C":TeamState("C","C",1,2,points_for=360,scores=(120,120,120)),
             "D":TeamState("D","D",0,3,points_for=300,scores=(100,100,100)),
         }
-        self.rules=LeagueRules(playoff_teams=2,regular_season_weeks=5)
+        self.rules=LeagueRules(playoff_teams=2,regular_season_weeks=5,
+                               tiebreaker="POINTS_FOR", qualification_policy="OVERALL")
         self.games=[Game(4,"A","D"),Game(4,"B","C"),Game(5,"A","B"),Game(5,"C","D")]
     def test_reproducible(self):
         self.assertEqual(simulate(self.teams,self.games,self.rules,3000,7),simulate(self.teams,self.games,self.rules,3000,7))
@@ -18,8 +19,9 @@ class TestEngine(unittest.TestCase):
         self.assertGreater(x["A"]["playoff_probability"],x["D"]["playoff_probability"])
     def test_exact_bounds_no_false_certainty(self):
         x=exact_bounds_status(self.teams,self.games,self.rules)
-        self.assertEqual(x["A"]["class"],"EXACT")
-        self.assertIn(x["D"]["status"],{"ALIVE","ELIMINATED"})
+        self.assertEqual(x["A"]["status"],"UNKNOWN")
+        self.assertEqual(x["A"]["class"],"UNRESOLVED")
+        self.assertIn(x["D"]["status"],{"UNKNOWN","ELIMINATED"})
     def test_leverage(self):
         x=conditional_leverage(self.teams,self.games,self.rules,self.games[1],3000,4)
         self.assertGreaterEqual(x["B"]["leverage_delta_pp"],0)

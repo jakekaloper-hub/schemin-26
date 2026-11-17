@@ -12,7 +12,7 @@ def classify_candidates(
     leverage = leverage or {}
     candidates: List[dict] = []
     for tid, e in exact.items():
-        if e["status"] in {"CLINCHED", "ELIMINATED"}:
+        if e.get("class") == "EXACT" and e["status"] in {"CLINCHED", "ELIMINATED"}:
             candidates.append({
                 "team_id": tid,
                 "class": "EXACT",
@@ -32,7 +32,7 @@ def classify_candidates(
                 "conditional_win_probability": round(100*l["conditional_win_probability"]),
                 "conditional_loss_probability": round(100*l["conditional_loss_probability"]),
             })
-    candidates.sort(key=lambda x: x["priority"], reverse=True)
+    candidates.sort(key=lambda x: (x["priority"], x.get("leverage_delta_pp", 0)), reverse=True)
     return candidates[:max_notes]
 
 def validate_wording(candidate: Mapping[str, object], wording_class: str) -> None:

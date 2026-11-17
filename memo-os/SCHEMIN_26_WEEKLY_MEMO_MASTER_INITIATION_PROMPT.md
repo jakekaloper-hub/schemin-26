@@ -322,3 +322,29 @@ REMAINING_EXTERNAL_INPUT_REQUIRED.
 ## Forward PNG geometry (2026-10-28)
 
 **Binding for new commissions (including unfinished Week 7 and Week 8 onward):** Every Memo OS Page Design Packet, render prompt, complete-issue previs, page master and PNG acceptance receipt MUST inherit `output_format: PNG`, `output_width_px: 1080`, `output_height_px: 1920`, `output_aspect_ratio: 9:16` from `memo-os/PAGE_PRODUCTION_CONTRACT_V1.md`. Treat 1080×1920 as the final master, not a historical 1024×1536 composition stretched or arbitrarily cropped to fit. Keep character references, narrative copy, score/data typography, composition safe zones and Commissioner approvals intact. Providers may deliver an exact-ratio larger master resampled uniformly, but any ratio mismatch, crop, text loss or reference drift is a QA failure. Run `memo-os/native_png_contract.py` on actual PNG bytes before PAGE_LOCK; full-resolution character/world/copy inspection and 390px mobile QA remain mandatory. Already-published issues and their archived page packets are immutable historical evidence, not active defaults. No API or new provider is required for this policy change.
+
+## Reusable sports analytics intake — Week 10 onward
+
+Route fresh final score history and the remaining schedule through the existing
+Data Gateway playoff-context runner under Analyst ownership. Record a dated
+candidate or precise hold and use the Memo consumer adapter. Descriptive
+scoring/schedule evidence can support existing pages. Forecast percentages and
+conditional leverage remain withheld pending model validation and independent
+acceptance. Preserve qualifiers in page contracts and final copy; official
+standings and exact clinch proofs remain separate.
+
+When selecting additional analytics, inspect the actual previs and render
+requests with `memo-os/playoff_context_preflight.py`. Reconcile accepted sources,
+selected values, copy templates, embedded prompts and render mirrors together.
+Record selected changes, support for existing copy, or no-material-candidate
+decisions. A new packet does not update prose or certify Fact Lock. Its hold
+does not revoke an independently accepted native Memo source/proof workflow.
+
+Recover actual TheFFHub scenario packets as a separate input using
+`data-gateway/playoff-context/FFHUB_INTAKE_CONTRACT.md`. Retain raw scenario
+tables and selected winners, compare their cutoff/rules with the operative
+issue, and distinguish vendor estimates from independent exact proofs and
+Schemin model output. The Week 10 recovered briefing/packet and current page
+handoff are indexed in `memo-os/week-10/playoff-context/README.md`. Resume the
+latest production revision; historical audits never override later verified
+finalization merely because they remain in the repository.

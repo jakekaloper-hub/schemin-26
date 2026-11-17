@@ -5,7 +5,7 @@
 
 ## Resume existing issue before new planning
 
-Load the current issue index, its Founder context, latest actual artifact and next uncompleted step. For Week9 use [week-9/_INDEX.md](week-9/_INDEX.md) and [thread continuity](week-9/THREAD_CONTINUITY.md). Preserve questionnaire answers, delegation and supersession history; this is the existing Commissioner Context Pass.
+Load the current issue index, its Founder context, latest actual artifact and next uncompleted step. For current Week10 use [week-10/_INDEX.md](week-10/_INDEX.md), including the retained FFHub/analytics handoff. Week9's [index](week-9/_INDEX.md) and [thread continuity](week-9/THREAD_CONTINUITY.md) remain available for that issue. Preserve questionnaire answers, delegation and supersession history; this is the existing Commissioner Context Pass.
 
 ## Load order
 
@@ -64,7 +64,8 @@ Every Memo OS visual containing a league character MUST execute `OWNER RESOLUTIO
 
 ## Memo reference resolution\n\n- Explicit `Week N` requests resolve only the canonical RELEASED artifact for Week N.\n- `latest`, `current`, `benchmark`, `most recent`, and unspecified benchmark requests resolve through `../governance/publication-manifest/memo_reference_resolver.py`.\n- Search similarity never outranks structured publication authority.\n- Missing/unreleased explicit weeks fail closed; they never substitute an older memo.\n- Future release promotion must move `CURRENT_BENCHMARK` to the newly released highest week while preserving prior issues as historical canon.\n\n## Current production cycle
 
-- **Week 9: active creative preproduction** at `week-9/_INDEX.md`, continuing existing Issue #276 and upstream #268. Founder questionnaire is merged via PR #281; six conditional Sports + Story Cards and complete-issue candidate page contracts advance the existing workflow. All final fact, character/render and release gates remain separately controlled.
+- **Week 10: current production preparation** at `week-10/_INDEX.md`, continuing PR #315's finalized 34-page source/render inputs. The actual FFHub scenario harvest and independent Schemin analytics are indexed there. Next action remains individual-folio generation and actual visual review; no artwork or release approval is implied.
+- **Week 9: retained issue workflow** at `week-9/_INDEX.md`, with existing Issue #276 and upstream #268. Founder questionnaire is merged via PR #281; its creative work and separate gates remain available. This current-issue pointer does not change its publication status.
 - Week 3: closed / immutable release evidence.
 - Week 4: `week-4/_INDEX.md` remains a historical issue/control lane, not the current weekly production pointer. Later publication status and benchmark authority still resolve through the existing publication manifest; this index update does not promote any issue to RELEASED.
 

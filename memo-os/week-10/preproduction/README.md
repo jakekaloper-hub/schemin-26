@@ -6,12 +6,22 @@
 
 Start with [finalization evidence](../production-evidence/finalization-20261117/FINALIZATION_REPORT.md) and the [34-page manifest](render-inputs/manifest.json). The November 16 recovery remains valid for character and published-art provenance; its undecided-result statements are historical, superseded by this finalization.
 
+The [analytics and FFHub handoff](../playoff-context/README.md) preserves the
+actual recent scenario harvest, its independently checked proof support for
+the existing playoff/next-week copy, and the separate Schemin analytics code.
+Recover those named artifacts before duplicating research. The earlier
+analytics audit of `96bf06f` is historical; it does not reopen this finalized
+production. Additional selected analytics use the explicit intake preflight.
+
 ## Current authority
 
 - `facts.json` and `final-league-snapshot.json`: final Week 10 scores, official records/seeds through ten games, current Week 11 planning, and separately scoped roster snapshots.
 - `issue-previs.json`, `illustrated-page-briefs.json`, `storycards.json`, `director-sequences.json`, `landscape-set-bible-pass4.json`: synchronized full-copy/scene/cast/result instructions.
 - `storyboard-folio-plan-pass5.json` and `render-inputs/W10-Pxx/request.json`: all34individual1080×1920full-folio inputs, complete copy, canonical reference images and exact source values.
 - `playoff-witnesses-final.json`: official-baseline constructive playoff evidence; no odds claims.
+- `../playoff-context/README.md`: retained FFHub evidence, source-to-page handoff,
+  and optional additional analytics intake. Vendor estimates are distinct from
+  independently verified exact claims and remain unselected in current copy.
 - `../production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md`: user-supplied Week11 stakes applied to The Next Six, with mathematical-elimination wording checked.
 
 The cover depicts both canonical 200-point characters in their separate story contexts. Opening Drive follows the published briefing-table/map/banner design, not the rejected bridge journey. Optional W10-P32 remains omitted. Reading positions and six-sheet grouping are unchanged.

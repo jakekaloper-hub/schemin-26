@@ -4,6 +4,18 @@
 
 All34individual full-folio requests now contain the decided Week10 results and updated companion information. Follow `render-inputs/manifest.json` in reading order. The exact complete folio—not a substitute storyboard card—is the generation unit.
 
+The recent FFHub scenario work and Schemin analytics implementation are retained
+in the [analytics handoff](../playoff-context/README.md). Its recovered proof
+evidence supports the existing playoff/next-week wording. It adds no pages and
+does not change the accepted render requests. Retrieve the retained packet
+when a new scenario question or copy change warrants it.
+
+If the Editor selects additional Schemin analytics, run
+`memo-os/playoff_context_preflight.py` from the repository root with the explicit
+private packet, this operative previs and `render-inputs` after reconciling
+the selected copy/mirrors. That result governs the additional packet's use;
+it does not revoke the existing final-source/proof acceptance or approve art.
+
 1. Generate W10-P01 as an individual1080×1920grayscale folio using its current request and both actual character references. Preserve the complete cover copy and official208.76/203.96values.
 2. Continue through the established34-page order. Matchups use the verified holding endings; six payoff pages include full-name FINAL score receipts. Opening Drive uses the published briefing table/map/banners. The Next Six includes the user’s Week11 stakes and verified elimination distinction.
 3. Review each actual rendered page for identity, physical continuity, full-copy accuracy and readable typography; then assemble the six3×2sheets from those exact masters. Two final slots remain empty.

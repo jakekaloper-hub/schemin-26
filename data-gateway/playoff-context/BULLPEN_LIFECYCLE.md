@@ -9,6 +9,7 @@
 ## Domain authority
 
 - Scout / Data Gateway: league truth, Flaim/ESPN state, freshness, result lock.
+- Analyst / CAO: quantitative correctness, Monte Carlo simulation, metric definitions and calibration; confirmed against canonical organization on 2026-11-17.
 - Architect / CAIO: model architecture, portability, runtime boundaries.
 - Groundskeeper: implementation lifecycle and repository placement.
 - Beat Writer / Memo Editor: editorial-candidate usefulness only.
@@ -30,6 +31,11 @@
 9. Recorded activation status as BUILD CANDIDATE / NOT ACTIVE.
 
 ## Current irreducible gates
+
+**The historical Week 4 list below is superseded for current execution by
+`ACCEPTANCE_REPORT.md` and `WEEK_10_DOMAIN_HANDOFF.md`.** Final Week 10 ingestion,
+runner and provenance are implemented. Forecast publication remains held after
+the actual baseline comparison; descriptive Memo candidates remain usable.
 
 - finalized Week 4 result lock (external/provider timing);
 - complete exact tie-dependent solver semantics for `H2H_RECORD` before exact tie-dependent claims;
