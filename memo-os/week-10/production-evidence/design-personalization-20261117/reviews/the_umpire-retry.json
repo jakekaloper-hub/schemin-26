@@ -1,0 +1,24 @@
+{
+  "kind": "director",
+  "id": "the_umpire",
+  "ids": [
+    "W10-P27",
+    "W10-P29",
+    "W10-P31"
+  ],
+  "q": "What exact acceptance test keeps the differentiated data pages useful? The numbers and complete copy already remain source-controlled.",
+  "status": "returned_specific_json",
+  "structured": {
+    "page_ids": "W10-P27,W10-P29,W10-P31",
+    "keep": "Complete explanatory copy beside or above the table in clear hall atmosphere, not a redundant lower caption.",
+    "improve": "Ensure the editorial reading area adjacent to fixtures/stake entries is concise and does not overlap with fixture-only illustrations.",
+    "boundary": "All twelve teams, official order, through-ten scope and provider tiebreak distinction must remain fixed."
+  },
+  "response": "{\n  \"page_ids\": \"W10-P27,W10-P29,W10-P31\",\n  \"keep\": \"Complete explanatory copy beside or above the table in clear hall atmosphere, not a redundant lower caption.\",\n  \"improve\": \"Ensure the editorial reading area adjacent to fixtures/stake entries is concise and does not overlap with fixture-only illustrations.\",\n  \"boundary\": \"All twelve teams, official order, through-ten scope and provider tiebreak distinction must remain fixed.\"\n}",
+  "model": "qwen2.5-coder:7b",
+  "input_sha256": "c1fd3be71ffa83779e6123d6ea9b4ba62e0a3b66b9bec480008871d7c1655dce",
+  "started_at": "2026-11-17T17:20:52.925Z",
+  "finished_at": "2026-11-17T17:21:02.557Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

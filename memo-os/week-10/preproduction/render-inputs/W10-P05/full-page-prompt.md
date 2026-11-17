@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P05 · READING POSITION 5
 
 IDENTITY INPUTS
@@ -167,7 +180,32 @@ SCENE AND CONTINUITY
     "No fantasy main-cast crowd teleportation",
     "Rope catch precedes deliberate stopped binding",
     "No title transfer inferred"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P05",
+    "family": "kinetic_action",
+    "dominant_action": "The Chili Cheesers runs for the exit as D0nkey K0ng closes.",
+    "reading_path": "The gate direction and moving lasso lead from the fleeing outlaw toward the pursuer along the existing screen axis.",
+    "heading_treatment": "Place the headline in quiet sky away from the loop; matchup names appear once, not twice as matching deck and header.",
+    "narration_placement": "Narration occupies an upper gallery-shadow wedge; retain ground and hoof/boot movement instead of reserving a standard lower paragraph box.",
+    "protected_subjects": "D0nkey K0ng is one gorilla-centaur, all four legs; lasso owned by him, The Dark Horse separate and outside the active chase lane.",
+    "data_treatment": "No finale score on the setup unless explicitly present in source copy.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P05",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P05",
+    "focus": "Public confidence gives way to an urgent search for the established exit.",
+    "performance": "Keep the outlaw’s recognizable face, moving boots and glance toward the service gate readable; the integrated centaur owns the moving lasso.",
+    "narration_job": "Narration provides the remembered cookout reversal; the picture supplies the pursuit, without adding a second joke beneath it.",
+    "source_refs": [
+      "issue-previs.json#W10-P05",
+      "facts.json#/historical_context/W10-G01",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P05–W10-P07"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

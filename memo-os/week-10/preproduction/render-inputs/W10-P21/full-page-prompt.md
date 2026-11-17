@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P21 · READING POSITION 22
 
 IDENTITY INPUTS
@@ -133,7 +146,33 @@ SCENE AND CONTINUITY
     "Dr. Duckhook white duck head/orangebill/green golfer",
     "His Majesty's Blood hood shadow/red eyes/blackarmor/crimsoncloak",
     "Belt stays with His Majesty's Blood"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P21",
+    "family": "kinetic_action",
+    "dominant_action": "Cake-to-face contact turns the host into the payoff.",
+    "reading_path": "A close three-quarter contact view leads from gloved hands to bill and vest, with the untouched burger still readable to the side.",
+    "heading_treatment": "Keep the title small enough that face, hands and cake dominate the page.",
+    "narration_placement": "Use clear sideboard/room shadow for complete copy, not over the contact point.",
+    "protected_subjects": "Candles removed, cake separate from burger, seated support and fixed table; no sword duel or collapsed furniture.",
+    "data_treatment": "Exact FINAL result and football context occupy a stable clear area; belt remains with His Majesty's Blood.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P21",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P21",
+    "focus": "The birthday occasion determines the humiliation.",
+    "performance": "Show gloved hands, soft cake contact, a still-recognizable bill and vest, and the untouched burger. Candles are removed; the table and guests retain their positions.",
+    "narration_job": "The Week 9 cookout callback connects humiliation passed onward, not a new championship or belt transfer.",
+    "source_refs": [
+      "issue-previs.json#W10-P21",
+      "facts.json#/personal_context/Duckhook_birthday",
+      "facts.json#/historical_context/W10-G05",
+      "personalization-intake.md#His Majesty",
+      "issue-previs.json#W10-P19–W10-P21"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

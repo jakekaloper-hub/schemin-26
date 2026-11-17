@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P08 · READING POSITION 8
 
 IDENTITY INPUTS
@@ -146,7 +159,32 @@ SCENE AND CONTINUITY
     "El Niño remains embodied",
     "Despair not playoff elimination",
     "2022 dialogue is newly authored fictional dialogue, not archive quote"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P08",
+    "family": "kinetic_action",
+    "dominant_action": "A sandbag almost works before shallow water finds its way around.",
+    "reading_path": "Let the low water contour carry the eye from hands to tire rut and damaged goal, without rotating the text.",
+    "heading_treatment": "Place the title above a quiet strip of pitch/sky, away from the bag and El Niño's recognizable distant figure.",
+    "narration_placement": "Full prose in calm rain-shadow to one side; history remains text, not an invented flashback.",
+    "protected_subjects": "Week 9 soccer terrace geometry, damaged goal, narrow exit and unresolved truck; no adjacent basketball court.",
+    "data_treatment": "Use only existing historical figures in the exact prose; no fabricated flood measurements.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P08",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P08",
+    "focus": "Repair is an assertion of pride, not passive suffering.",
+    "performance": "Hands must be lowering an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño.",
+    "narration_job": "The 2022 memory explains why the gesture matters; do not illustrate a fabricated 2022 storm flashback.",
+    "source_refs": [
+      "issue-previs.json#W10-P08",
+      "facts.json#/historical_context/W10-G02",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P08–W10-P10"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

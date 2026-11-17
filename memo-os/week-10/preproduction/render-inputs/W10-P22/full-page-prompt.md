@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P22 · READING POSITION 23
 
 IDENTITY INPUTS
@@ -122,14 +135,39 @@ SCENE AND CONTINUITY
     "ObiWan blondhuman/earthrobes/greensword/goldenretriever/NO belt",
     "The LLC human suited corporate raider with sunglasses/cigar/briefcase",
     "Week9LLC armor is event-specific"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P22",
+    "family": "kinetic_action",
+    "dominant_action": "ObiWan Jacoby breaks the first of two Imperial batteries.",
+    "reading_path": "The inner arch frames the defender; reflected fire crosses the causeway toward the first battery, with the second and commander established.",
+    "heading_treatment": "Headline lives in clear smoke/sky away from the light blade and impact.",
+    "narration_placement": "Place full copy in sheltered arch-shadow, retaining terrain behind it rather than cutting off the lower battle.",
+    "protected_subjects": "Green blade translated into grayscale luminance, separate retriever safe behind, suited executive, two batteries at entry.",
+    "data_treatment": "Restore the approved color phrase Red fire; Red Leopards is not in this matchup. Preserve the 2024 margin.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P22",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P22",
+    "focus": "The defender earns a real success before the opponent answers.",
+    "performance": "ObiWan Jacoby’s planted stance and returned fire visibly destroy the first of two emplacements. Keep the retriever sheltered and The LLC recognizable across the causeway.",
+    "narration_job": "The 0.80 earlier result explains why a narrow opening matters; red fire is color, not Red Leopards joining the scene.",
+    "source_refs": [
+      "issue-previs.json#W10-P22",
+      "facts.json#/historical_context/W10-G06",
+      "personalization-intake.md#ObiWan",
+      "issue-previs.json#W10-P22–W10-P24"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
 {
   "headline": "The Empire Opens Fire",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red Leopards fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
+  "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
   "department_heading": "ObiWan Jacoby vs The LLC"
 }
 

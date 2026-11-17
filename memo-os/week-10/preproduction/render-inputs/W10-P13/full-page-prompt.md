@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P13 · READING POSITION 13
 
 IDENTITY INPUTS
@@ -145,7 +158,33 @@ SCENE AND CONTINUITY
     "Concrete patch grows consistently",
     "No thunder competing at comic payoff",
     "No assumed Book reopening"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P13",
+    "family": "vertical_conflict",
+    "dominant_action": "Seven Deadly Chins hears the request and chooses the louder answer.",
+    "reading_path": "The balcony reverse shot leads from three distinct head angles to eye contact and the hand turning the speaker up.",
+    "heading_treatment": "The headline sits in a quiet section of the courtyard view, not across the three heads.",
+    "narration_placement": "Complete prose occupies a still side-wall or shaded rail area; preserve the paused-tool and volume-knob action.",
+    "protected_subjects": "One body with three heads, visitor below, family inside, established hole and speaker shelf.",
+    "data_treatment": "No extra dialogue attributed to real people; full supplied narrative remains intact.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P13",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P13",
+    "focus": "Acknowledgement followed by refusal is the whole joke.",
+    "performance": "In the balcony reverse angle, make eye contact and the hand at the music control visible; the paused tool remains below. One head can turn back toward the protected doorway.",
+    "narration_job": "Preserve the one hopeful breath before the encore. Do not add a speech balloon or second comedy line that interrupts the timing.",
+    "source_refs": [
+      "issue-previs.json#W10-P13",
+      "facts.json#/personal_context/TDS_new_baby",
+      "facts.json#/historical_context/W10-G03",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P12–W10-P14"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

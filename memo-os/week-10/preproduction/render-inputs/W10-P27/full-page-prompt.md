@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P27 · READING POSITION 28
 
 IDENTITY INPUTS
@@ -34,7 +47,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Retain through-nine official records now; after finality replace all rows and copy together. Never sort the future table by points alone."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P27",
+    "family": "record_intelligence",
+    "dominant_action": "The posted table distinguishes equal records from equal seeds.",
+    "reading_path": "One dominant level standings record anchors the hall, with receding architecture giving depth without tilting rows.",
+    "heading_treatment": "A compact standing headline leaves room for all twelve entries.",
+    "narration_placement": "Keep complete explanatory copy beside or above the table in clear hall atmosphere, not a redundant lower caption.",
+    "protected_subjects": "All twelve teams, official order, through-ten scope and provider tiebreak distinction.",
+    "data_treatment": "Deterministic seed/record/points columns; no generative numbers or points-only resorting.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P27",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P27",
+    "focus": "Show why equal records still feel different to different owners.",
+    "performance": "Emphasize the six-team 6–4 cluster and the cutoff without moving rows or turning points-for order into seeding. Keep the hall secondary to comparison.",
+    "narration_job": "Preserve all twelve official rows and the posted seed order.",
+    "source_refs": [
+      "issue-previs.json#W10-P27",
+      "final-league-snapshot.json#/standings"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

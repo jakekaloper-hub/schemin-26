@@ -1,3 +1,7 @@
+> **Implementation update — November 17:** The source-grounded design and personalization pass is now implemented in all 34 operative requests. See [completed pass](../PERSONALIZATION_PASS_2026-11-17.md) and [implementation evidence](../../production-evidence/design-personalization-20261117/COMPLETION_REPORT.md). The discussion below is retained as the prior design rationale, not a current request to redo the audit.
+
+> November 17 execution update: Jake authorized applying these discoveries. Page-specific directions are now in [composition-directions.json](composition-directions.json) and consumed by all 34 operative page requests. The next [personalization pass](../PERSONALIZATION_PASS_2026-11-17.md) covers all six storylines and sixteen supporting pages. This original review remains the rationale; newly proposed personal details are not yet approved.
+
 # Week 10 — six-sheet art-direction review
 
 **Status: design discussion and proposed enhancements; no new artwork, final-layout approval, merge or publication.**

@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P11 · READING POSITION 11
 
 IDENTITY INPUTS
@@ -34,7 +47,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "No invented miles, exact travel time, single simultaneous storm clock or identical rain severity in every region."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P11",
+    "family": "scenic_transition",
+    "dominant_action": "One weather front reaches different parts of the Commonwealth.",
+    "reading_path": "A continuous connector, lake and cloud progression form the reading route; do not turn it into a new labeled map.",
+    "heading_treatment": "A light-touch title inhabits the sky rather than a boxed masthead.",
+    "narration_placement": "Full short narration follows one calm sky or lake band with readable straight lines.",
+    "protected_subjects": "Established bridge and regional distinctions; no claim all six actual venues are visible or adjacent.",
+    "data_treatment": "No invented regional values, routes or odds.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P11",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P11",
+    "focus": "Give the audience a breath and show that one world receives different weather.",
+    "performance": "Use coast, inland wind and delayed wetland runoff as spatial continuity. Reduce the title’s dominance so the landscape, not another poster frame, supplies the transition.",
+    "narration_job": "Keep the established regional sequence and routes.",
+    "source_refs": [
+      "issue-previs.json#W10-P11",
+      "issue-previs.json#W10-P11"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

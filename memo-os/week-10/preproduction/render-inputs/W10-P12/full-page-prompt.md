@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P12 · READING POSITION 12
 
 IDENTITY INPUTS
@@ -145,7 +158,33 @@ SCENE AND CONTINUITY
     "Concrete patch grows consistently",
     "No thunder competing at comic payoff",
     "No assumed Book reopening"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P12",
+    "family": "vertical_conflict",
+    "dominant_action": "Noise from below interrupts quiet family life above.",
+    "reading_path": "Link jackhammer point, Seven Deadly Chins' grin and the family balcony along one upward diagonal.",
+    "heading_treatment": "Set title in protected architectural shadow, leaving the vertical relationship uninterrupted.",
+    "narration_placement": "Narration uses the calm wall between the levels; the child and partner remain protected/offscreen.",
+    "protected_subjects": "Exactly three serpent heads on one body; same balcony, drain, shelf, hose and first paving damage.",
+    "data_treatment": "No scoreboard-as-family-causation and no new personal details.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P12",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P12",
+    "focus": "An ordinary settling household is interrupted by an unnecessary visitor.",
+    "performance": "Show the tool below and exactly three heads arriving at the balcony above. Keep the family inside and the first paving damage localized.",
+    "narration_job": "The prose establishes why the normal waterfall was bearable and the new sound is not; no diagnosis or private family facts.",
+    "source_refs": [
+      "issue-previs.json#W10-P12",
+      "facts.json#/personal_context/TDS_new_baby",
+      "facts.json#/historical_context/W10-G03",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P12–W10-P14"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

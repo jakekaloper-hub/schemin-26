@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P01 · READING POSITION 1
 
 IDENTITY INPUTS
@@ -110,7 +123,30 @@ SCENE AND CONTINUITY
     "Crown on His Majesty's Blood",
     "Belt moved to another owner",
     "Actual roof-collapse canon"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P01",
+    "family": "character_cover",
+    "dominant_action": "Two canonical 200-point performers, each in his own story atmosphere.",
+    "reading_path": "Read the champion silhouette, then the seated executive, then the two named final scores; the eye moves across one editorial composition, not a fictitious meeting.",
+    "heading_treatment": "Let the title inhabit clear upper storm-space rather than a separate masthead card; retain both names near their own score.",
+    "narration_placement": "A short calm shadow region between the story territories holds the complete cover paragraph.",
+    "protected_subjects": "Both actual identities, His Majesty's Blood's belt and gift, The LLC's suit/chair/cigar; no new shared location.",
+    "data_treatment": "Two exact named score callouts aligned and level; no generic 200 belt inscription.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P01",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P01",
+    "focus": "Make the two 200-point performances personally different, not two generic conquerors.",
+    "performance": "His Majesty’s Blood’s gift and The LLC’s command chair supply two distinct character signatures in one editorial cover. Do not convert the title into a literal roof breaking.",
+    "narration_job": "Retain both canonical characters and their separate Week 10 story contexts.",
+    "source_refs": [
+      "issue-previs.json#W10-P01",
+      "facts.json#/history_200"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

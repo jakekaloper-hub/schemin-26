@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P19 · READING POSITION 20
 
 IDENTITY INPUTS
@@ -132,7 +145,34 @@ SCENE AND CONTINUITY
     "Dr. Duckhook white duck head/orangebill/green golfer",
     "His Majesty's Blood hood shadow/red eyes/blackarmor/crimsoncloak",
     "Belt stays with His Majesty's Blood"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P19",
+    "family": "institutional_briefing",
+    "dominant_action": "An apparently generous guest enters a birthday hall.",
+    "reading_path": "The clear entrance aisle carries His Majesty's Blood and the wrapped gift toward Dr. Duckhook's chair; the cake is established separately.",
+    "heading_treatment": "Let the arrival silhouette lead; put the headline in quiet window or upper-wall space.",
+    "narration_placement": "Full prose occupies the open aisle-side shadow while the room remains a continuous scene.",
+    "protected_subjects": "Canonical hood and belt, duck golfer face, wrapped box, separate sideboard cake; no new guests identified by name.",
+    "data_treatment": "No invented age; historical margin stays exactly in the supplied narration.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P19",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "social_arrival_not_formal_briefing"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P19",
+    "focus": "The host welcomes the very rival tied to the old four-tenths semifinal wound.",
+    "performance": "Let Dr. Duckhook’s welcoming posture and the apparently generous box establish the social expectation. His Majesty's Blood’s face stays concealed; express restraint through posture, not an invented smile.",
+    "narration_job": "The 0.40 historical callback gives hesitation meaning; it is a football memory, not evidence of a real-life grudge or invented speech.",
+    "source_refs": [
+      "issue-previs.json#W10-P19",
+      "facts.json#/personal_context/Duckhook_birthday",
+      "facts.json#/historical_context/W10-G05",
+      "personalization-intake.md#His Majesty",
+      "issue-previs.json#W10-P19–W10-P21"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

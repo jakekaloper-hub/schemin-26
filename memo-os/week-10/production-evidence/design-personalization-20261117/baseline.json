@@ -1,0 +1,1322 @@
+{
+  "source_commit": "14b1ad0c56752c7f0ee965843963b0e0de03184f",
+  "scope": "Preserve complete source copy and sports facts while changing layout instructions. The P22 color-word expansion is the only editorial erratum allowed.",
+  "facts_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+  "reading_order": [
+    "W10-P01",
+    "W10-P02",
+    "W10-P03",
+    "W10-P04",
+    "W10-P05",
+    "W10-P06",
+    "W10-P07",
+    "W10-P08",
+    "W10-P09",
+    "W10-P10",
+    "W10-P11",
+    "W10-P12",
+    "W10-P13",
+    "W10-P14",
+    "W10-P15",
+    "W10-P16",
+    "W10-P17",
+    "W10-P18",
+    "W10-P34",
+    "W10-P19",
+    "W10-P20",
+    "W10-P21",
+    "W10-P22",
+    "W10-P23",
+    "W10-P24",
+    "W10-P25",
+    "W10-P26",
+    "W10-P27",
+    "W10-P28",
+    "W10-P29",
+    "W10-P30",
+    "W10-P31",
+    "W10-P35",
+    "W10-P33"
+  ],
+  "pages": {
+    "W10-P01": {
+      "publication_copy_sha256": "ab648a2853a8d9d963c6a0f1177770006f85d5bf9807c2f7f4fc4294fbc097c6",
+      "characters_present": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "set_id": "SET-W10-DUAL-200-EDITORIAL-COVER",
+        "venue_type": "EDITORIAL_DUAL_LOCATION_COVER_NOT_LITERAL_MEETING",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Jackson birthday atmosphere",
+          "Mountain assault command position"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "location_refs": [
+          "LOC-COUNTRY-CLUB-JACKSON",
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        ],
+        "unregistered_parent_explained": true
+      }
+    },
+    "W10-P02": {
+      "publication_copy_sha256": "15388f8fc575ede099c7ef6b0b5e8b043c36bb4f85d568d6bc208aafa9de2b69",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
+        "venue_type": "EDITORIAL_STAGING_IN_REGISTERED_LEAGUE_INSTITUTION",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "records desk",
+          "map wall",
+          "published Opening Drive table and banner language"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P03": {
+      "publication_copy_sha256": "24edc710f9f5e31424e9181167a79290059434e75fb888c2ec8a16aa19c13e3c",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-MAP-THRESHOLD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber map wall and threshold"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P04": {
+      "publication_copy_sha256": "78e5ccd9dd39a1b640cf327ec401f6a97e35674818b726587dad8064039206f5",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "set_id": "SET-W10-COMPACT-PUBLIC-BOARD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Compact Neutral Grounds public result approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P05": {
+      "publication_copy_sha256": "a93051dee2954b1dd3f703c92c96ea3b43440ae807a3b061430013c1a293b5e9",
+      "characters_present": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P06": {
+      "publication_copy_sha256": "2d1bb80467514109852b369d3a173d88676fd55d2a0987bf386f25161ad208c8",
+      "characters_present": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P07": {
+      "publication_copy_sha256": "fa9dcc1a8f24f52f207597c32973c793ecf1c5e1fbf3a4b54ee6f38188f3bec4",
+      "characters_present": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P08": {
+      "publication_copy_sha256": "c291bd84c484a549c07e43eb6e98557ee1567123061a0f51d4e887671a176a55",
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
+        "venue_type": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION",
+        "region_id": "REG-EASTERN-STORM-COAST",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 9 stepped grass soccer terrace",
+          "stone approach arch on near-left",
+          "small far goal now damaged, net displaced",
+          "narrow stone exit and trapped truck position from Week 9",
+          "old tire ruts; shallow overflow uses low edge"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P09": {
+      "publication_copy_sha256": "2b89481fcefb878c4594cffdec7467e3707eb7c12f11e3b3bcf0f476af3010d8",
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "region_id": "REG-CENTRAL-BASIN",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": true,
+        "source_location_ref": {
+          "type": "PUBLISHED_ARTWORK_SET",
+          "week": 7,
+          "physical_pages": [
+            8,
+            9,
+            10
+          ],
+          "name": "The Forgotten Court",
+          "region_id": "REG-CENTRAL-BASIN",
+          "permanent_atlas_id": null,
+          "exact_visual_reference_recovered": true
+        }
+      }
+    },
+    "W10-P10": {
+      "publication_copy_sha256": "6fa793a449fe481a5127e699ed3751981661bfcd8e0aa3ff4aab4a6356fb0c7c",
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "region_id": "REG-CENTRAL-BASIN",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": true,
+        "source_location_ref": {
+          "type": "PUBLISHED_ARTWORK_SET",
+          "week": 7,
+          "physical_pages": [
+            8,
+            9,
+            10
+          ],
+          "name": "The Forgotten Court",
+          "region_id": "REG-CENTRAL-BASIN",
+          "permanent_atlas_id": null,
+          "exact_visual_reference_recovered": true
+        }
+      }
+    },
+    "W10-P11": {
+      "publication_copy_sha256": "2a91b0636698053d35a7056e0366c8ee6d0720dc2e960cc0261557241866c66b",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Upper Basin Connector near the mountain-lake approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P12": {
+      "publication_copy_sha256": "e367a58b6d8147ab434fc0812ac72a4b5190c9a1c62282bdf87c7c6ea872930a",
+      "characters_present": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P13": {
+      "publication_copy_sha256": "0b3f8912e31771e52736182ae41a5f809e7b1f15e91f62569dd000e28a3b030f",
+      "characters_present": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P14": {
+      "publication_copy_sha256": "956980ae923b1616da3c84a0d7be635274f8c181d331d7ee6e99cc7b4dd3503b",
+      "characters_present": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P15": {
+      "publication_copy_sha256": "c364ec4bc610939ff30f91389eff12233b3fc7294b9e367055a816a25c00c115",
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P16": {
+      "publication_copy_sha256": "196463ec9bf31dca205395298d3fde983c2fffeed2e3ac3fc98ca5ec49140c03",
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P17": {
+      "publication_copy_sha256": "664b9a1a4029415852f5fda8bf2aa898b35dd3e4fa21ab7675a26b6e3ab4fb58",
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      }
+    },
+    "W10-P18": {
+      "publication_copy_sha256": "837f35e3691ad68faa256d1028b37eb4acd7682130bbf134868dfb16dd46e6f2",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-SCORING-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive scoring hall"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P19": {
+      "publication_copy_sha256": "70ca126dd6e44d3aac30c3b9ede57b4b0a05bdae6d96bb2d471cb05a9c7841a8",
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      }
+    },
+    "W10-P20": {
+      "publication_copy_sha256": "298df2dbe702f6c1e34e22d5ca010f26fd332ac8d819f0cdb356b7d848c16026",
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      }
+    },
+    "W10-P21": {
+      "publication_copy_sha256": "82b07f35176de4787c98c372e67af5a0db6e9ba413c9dc12aad4814863d8b976",
+      "characters_present": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      }
+    },
+    "W10-P22": {
+      "publication_copy_sha256": "22dd77fb2c7f99e4a4944e76613e404fd0d65aa612eb080df69f872be1f51a47",
+      "characters_present": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      }
+    },
+    "W10-P23": {
+      "publication_copy_sha256": "37d63752c8e260ce93de21c867664397b2967ad6f7922124e4f7de4dc6f47096",
+      "characters_present": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      }
+    },
+    "W10-P24": {
+      "publication_copy_sha256": "43c3c2e2540d4bafe28f38f0a5f2656e0722ba873226cac27225c67f408623f5",
+      "characters_present": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      }
+    },
+    "W10-P25": {
+      "publication_copy_sha256": "798948f3645d3c8480b7fd7b753edbb5b84ca61f1a39bdb083c46a3079202c8f",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber outer loggia"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P26": {
+      "publication_copy_sha256": "b75512ec242827b3460ae646238dba5d7cb8b0d16be59e5eb32fddd8d8203a8f",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive courier intake desk"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P27": {
+      "publication_copy_sha256": "d06a16cfae37a1713c00d767483e1ec9ea5696fbbcdf1bcdb82587326149dc56",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-STANDINGS-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive record hall"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P28": {
+      "publication_copy_sha256": "b4c33b77744919a14b80c34eb71aa9446a01916f801d7f58bf536645c0f3a647",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-DIVISION-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber public terrace"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P29": {
+      "publication_copy_sha256": "73319c157451643bcd9d9f21c04fadfe8530d9b2bc9ab7da81d43ffff27c852e",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Mountain-lake overlook"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P30": {
+      "publication_copy_sha256": "bf2bcec30162818bba4f012e3bd3378a70706501b89a8ad4783af8f59be57a9d",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+        "set_id": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Alpine Wager Route, above the existing base camp"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P31": {
+      "publication_copy_sha256": "4345e6a117cf1fc55fdba45e9dc62c587b688bbc202fc76ae83667ef55d73f64",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber outward-facing fixture terrace"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P32": {
+      "publication_copy_sha256": "1797bddc9c2a8c24f938ee5bff028dc2ffe6bb6619e6e2b3cffcace5e656d4ed",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-OPTIONAL-BOOK-SHELF",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Temple household Book shelf, only if a new Book item is supplied"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P33": {
+      "publication_copy_sha256": "efb474c1be593126fecaad9642edbdd2ddea82bcd0fcb141f39e0955cb090a01",
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "set_id": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Slob Foothill Camp tailgate-yard approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P34": {
+      "publication_copy_sha256": "0f5e567e7e8aee8c3ee646e8fff8d57a8ecc2c434e36c0ff8d5a34de0bd7406d",
+      "characters_present": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive late dispatch alcove"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    },
+    "W10-P35": {
+      "publication_copy_sha256": "ff59b4d9b9e50d85e21926124a5ec816495ab5ca1f17766201947ad52d00d408",
+      "characters_present": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Bridge at the Mountain Lake, opposing approaches"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      }
+    }
+  }
+}

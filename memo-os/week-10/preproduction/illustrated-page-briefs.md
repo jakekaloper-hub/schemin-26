@@ -4,11 +4,37 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 ## W10-P01 — THE CEILING BREAKS
 
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P01 · READING POSITION 1
 
@@ -118,7 +144,30 @@ SCENE AND CONTINUITY
     "Crown on His Majesty's Blood",
     "Belt moved to another owner",
     "Actual roof-collapse canon"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P01",
+    "family": "character_cover",
+    "dominant_action": "Two canonical 200-point performers, each in his own story atmosphere.",
+    "reading_path": "Read the champion silhouette, then the seated executive, then the two named final scores; the eye moves across one editorial composition, not a fictitious meeting.",
+    "heading_treatment": "Let the title inhabit clear upper storm-space rather than a separate masthead card; retain both names near their own score.",
+    "narration_placement": "A short calm shadow region between the story territories holds the complete cover paragraph.",
+    "protected_subjects": "Both actual identities, His Majesty's Blood's belt and gift, The LLC's suit/chair/cigar; no new shared location.",
+    "data_treatment": "Two exact named score callouts aligned and level; no generic 200 belt inscription.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P01",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P01",
+    "focus": "Make the two 200-point performances personally different, not two generic conquerors.",
+    "performance": "His Majesty’s Blood’s gift and The LLC’s command chair supply two distinct character signatures in one editorial cover. Do not convert the title into a literal roof breaking.",
+    "narration_job": "Retain both canonical characters and their separate Week 10 story contexts.",
+    "source_refs": [
+      "issue-previs.json#W10-P01",
+      "facts.json#/history_200"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -268,6 +317,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P02 · READING POSITION 2
 
 IDENTITY INPUTS
@@ -301,7 +363,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Introduces the entire issue; not a bridge journey or a rodeo overture."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P02",
+    "family": "institutional_briefing",
+    "dominant_action": "The briefing table gathers the six stories before the reader enters them.",
+    "reading_path": "Enter through the sealed Week 10 folio, follow the map toward the banners, then read two balanced calm areas around the table perspective.",
+    "heading_treatment": "OPENING DRIVE stays prominent and recognizable; its subheading shares the institutional scene instead of adding a second title strip.",
+    "narration_placement": "Full narration uses clear upper/lateral shadow, not automatic bottom columns; preserve published editorial legibility.",
+    "protected_subjects": "Published table/map/banner identity, all symbolic props as symbols only; no new geography or principal cast.",
+    "data_treatment": "No scores invented on maps or props; any supplied labels are exact, typography remains level.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P02",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P02",
+    "focus": "Let the opening connect the issue’s shared pressure without replaying every payoff.",
+    "performance": "Use the already specified scene props as connective clues. The table should lead into the six events rather than look like a fixture list pasted over a landscape.",
+    "narration_job": "Keep the published briefing table, map, banner and folio language and full current narration.",
+    "source_refs": [
+      "issue-previs.json#W10-P02",
+      "issue-previs.json#W10-P02"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -412,6 +497,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P03 · READING POSITION 3
 
 IDENTITY INPUTS
@@ -444,7 +542,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Draft voice for Jake’s review; no invented quote, new ruling, deadline extension or postseason promise."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P03",
+    "family": "institutional_briefing",
+    "dominant_action": "A commissioner address about consequences and the league's shared stakes.",
+    "reading_path": "The desk and open threshold create an asymmetrical reading area beside the visible civic interior.",
+    "heading_treatment": "FROM THE COMMISSIONER functions as a restrained running heading; the main statement sits beside the scene, not stacked above it.",
+    "narration_placement": "Place the whole address in a quiet wall/desk-shadow field, with architecture continuing behind and beside the words.",
+    "protected_subjects": "No invented commissioner portrait or attributed personal quote; retain neutral attendants only as already specified.",
+    "data_treatment": "No added rankings or numerical callouts beyond supplied copy.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P03",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P03",
+    "focus": "Address the league as people who will remember the week, not as a production-system report.",
+    "performance": "Let the shared birthday, broken hoop and passing truck examples carry the voice. Keep the institutional scene restrained and the entire address readable.",
+    "narration_job": "Keep the distinction between fictional consequences and the actual standings.",
+    "source_refs": [
+      "issue-previs.json#W10-P03",
+      "issue-previs.json#W10-P03"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -533,6 +654,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P04 · READING POSITION 4
 
 IDENTITY INPUTS
@@ -565,7 +699,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Compact remains a civic scoreboard location only. Remove every implication that the D0nkey K0ng rodeo happens here."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P04",
+    "family": "record_intelligence",
+    "dominant_action": "Six completed contests become a public, exact scoreboard.",
+    "reading_path": "Use one dominant aligned results surface within the pavilion sightline; the public approach and viewers create depth around it.",
+    "heading_treatment": "SCOREBOARD is concise; avoid a giant second banner taking room from the six pairings.",
+    "narration_placement": "The complete brief paragraph sits beside or above the results in continuous pavilion shade, not a detached footer.",
+    "protected_subjects": "All twelve full team names and six exact pairings; pavilion remains separate from the rodeo.",
+    "data_treatment": "Six level readable rows, two decimal scores and FINAL qualifiers; no perspective-distorted or image-invented lettering.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P04",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P04",
+    "focus": "Make the six exact results the neutral reference point for the stories.",
+    "performance": "Use consistent winning/losing emphasis and generous row spacing, not an enlarged favorite matchup that hides another result.",
+    "narration_job": "Keep all six pairings, full names and final figures in their current order.",
+    "source_refs": [
+      "issue-previs.json#W10-P04",
+      "facts.json#/games"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -687,6 +844,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P05 · READING POSITION 5
 
@@ -853,7 +1023,32 @@ SCENE AND CONTINUITY
     "No fantasy main-cast crowd teleportation",
     "Rope catch precedes deliberate stopped binding",
     "No title transfer inferred"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P05",
+    "family": "kinetic_action",
+    "dominant_action": "The Chili Cheesers runs for the exit as D0nkey K0ng closes.",
+    "reading_path": "The gate direction and moving lasso lead from the fleeing outlaw toward the pursuer along the existing screen axis.",
+    "heading_treatment": "Place the headline in quiet sky away from the loop; matchup names appear once, not twice as matching deck and header.",
+    "narration_placement": "Narration occupies an upper gallery-shadow wedge; retain ground and hoof/boot movement instead of reserving a standard lower paragraph box.",
+    "protected_subjects": "D0nkey K0ng is one gorilla-centaur, all four legs; lasso owned by him, The Dark Horse separate and outside the active chase lane.",
+    "data_treatment": "No finale score on the setup unless explicitly present in source copy.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P05",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P05",
+    "focus": "Public confidence gives way to an urgent search for the established exit.",
+    "performance": "Keep the outlaw’s recognizable face, moving boots and glance toward the service gate readable; the integrated centaur owns the moving lasso.",
+    "narration_job": "Narration provides the remembered cookout reversal; the picture supplies the pursuit, without adding a second joke beneath it.",
+    "source_refs": [
+      "issue-previs.json#W10-P05",
+      "facts.json#/historical_context/W10-G01",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P05–W10-P07"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -969,6 +1164,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P06 · READING POSITION 6
 
@@ -1135,7 +1343,32 @@ SCENE AND CONTINUITY
     "No fantasy main-cast crowd teleportation",
     "Rope catch precedes deliberate stopped binding",
     "No title transfer inferred"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P06",
+    "family": "kinetic_action",
+    "dominant_action": "The rope catches the outlaw before the service gate.",
+    "reading_path": "Follow the taut line to the torso catch and slipping boot; preserve the same side of the pursuit axis.",
+    "heading_treatment": "Keep the title offset in the clear gate-side sky, not across the catching rope.",
+    "narration_placement": "Read complete prose in a quiet lateral gallery space; words never cross rope, hands, face or skidding foot.",
+    "protected_subjects": "Torso/upper-arm capture, never neck; causal slip before manual binding; displaced hat persists.",
+    "data_treatment": "Preserve supplied factual copy only; no invented score or extra result label.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P06",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P06",
+    "focus": "Loss of footing is also loss of control over the spectacle.",
+    "performance": "The torso catch, continuous rope and sliding boot are the decisive visual information. Witness reaction is secondary, not a separate reaction panel.",
+    "narration_job": "The paragraph supplies irony about the crowd’s changed reaction; do not repeat a literal description as an extra caption.",
+    "source_refs": [
+      "issue-previs.json#W10-P06",
+      "facts.json#/historical_context/W10-G01",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P05–W10-P07"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -1251,6 +1484,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P07 · READING POSITION 7
 
@@ -1417,7 +1663,32 @@ SCENE AND CONTINUITY
     "No fantasy main-cast crowd teleportation",
     "Rope catch precedes deliberate stopped binding",
     "No title transfer inferred"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P07",
+    "family": "quiet_aftermath",
+    "dominant_action": "Public embarrassment replaces the chase.",
+    "reading_path": "A low-wide view begins with the tied outlaw and hat, then reaches D0nkey K0ng and the watching galleries.",
+    "heading_treatment": "A smaller aftermath title allows the recognizable captive and rope work to lead.",
+    "narration_placement": "Full prose follows open arena-shadow to the side of the captive; final receipt is a distinct exact reading point, not a compulsory footer panel.",
+    "protected_subjects": "Manual hogtie, visible handwork, four planted hooves, same hat/rope/mud; no belt or property transfer.",
+    "data_treatment": "Exact FINAL winner/loser names, scores and football-context text remain readable and subordinate to the payoff.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P07",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P07",
+    "focus": "Public humiliation, not personal injury, is the payoff.",
+    "performance": "Leave the hat just beyond the tied outlaw and keep his look toward the entrance/crowd legible. D0nkey K0ng’s four hooves and manual rope work remain visible.",
+    "narration_job": "Let the menu reversal close the episode; the exact final receipt is factual, not a championship proclamation.",
+    "source_refs": [
+      "issue-previs.json#W10-P07",
+      "facts.json#/historical_context/W10-G01",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P05–W10-P07"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -1545,6 +1816,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P08 · READING POSITION 8
 
@@ -1690,7 +1974,32 @@ SCENE AND CONTINUITY
     "El Niño remains embodied",
     "Despair not playoff elimination",
     "2022 dialogue is newly authored fictional dialogue, not archive quote"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P08",
+    "family": "kinetic_action",
+    "dominant_action": "A sandbag almost works before shallow water finds its way around.",
+    "reading_path": "Let the low water contour carry the eye from hands to tire rut and damaged goal, without rotating the text.",
+    "heading_treatment": "Place the title above a quiet strip of pitch/sky, away from the bag and El Niño's recognizable distant figure.",
+    "narration_placement": "Full prose in calm rain-shadow to one side; history remains text, not an invented flashback.",
+    "protected_subjects": "Week 9 soccer terrace geometry, damaged goal, narrow exit and unresolved truck; no adjacent basketball court.",
+    "data_treatment": "Use only existing historical figures in the exact prose; no fabricated flood measurements.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P08",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P08",
+    "focus": "Repair is an assertion of pride, not passive suffering.",
+    "performance": "Hands must be lowering an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño.",
+    "narration_job": "The 2022 memory explains why the gesture matters; do not illustrate a fabricated 2022 storm flashback.",
+    "source_refs": [
+      "issue-previs.json#W10-P08",
+      "facts.json#/historical_context/W10-G02",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P08–W10-P10"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -1793,6 +2102,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P09 · READING POSITION 9
 
@@ -1952,7 +2274,32 @@ SCENE AND CONTINUITY
     "El Niño remains embodied",
     "Despair not playoff elimination",
     "2022 dialogue is newly authored fictional dialogue, not archive quote"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P09",
+    "family": "vertical_conflict",
+    "dominant_action": "An inland arrival becomes a falling-branch threat.",
+    "reading_path": "The wall-mounted hoop and descending limb organize a vertical page; Red Leopards' glance leads upward.",
+    "heading_treatment": "The title uses open wall/sky opposite the impact trajectory; include the existing later-location cue clearly.",
+    "narration_placement": "Narration sits in a legible side-wall shadow, not below a self-contained picture.",
+    "protected_subjects": "Right-wall backboard, established ivy and separate Central Basin location; branch contact remains legible.",
+    "data_treatment": "No new score or playoff status; retain exact supplied copy.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P09",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P09",
+    "focus": "The familiar court offers recognition immediately before another loss.",
+    "performance": "Use Red Leopards’ upward eyeline and the falling branch to distinguish this location and beat from the prior water scene. Keep the right-wall backboard.",
+    "narration_job": "The travel sentence and recognition do the emotional work; no new geography lecture or additional basketball contest.",
+    "source_refs": [
+      "issue-previs.json#W10-P09",
+      "facts.json#/historical_context/W10-G02",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P08–W10-P10"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -2055,6 +2402,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P10 · READING POSITION 10
 
@@ -2214,7 +2574,32 @@ SCENE AND CONTINUITY
     "El Niño remains embodied",
     "Despair not playoff elimination",
     "2022 dialogue is newly authored fictional dialogue, not archive quote"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P10",
+    "family": "quiet_aftermath",
+    "dominant_action": "Red Leopards has to sit with another broken thing.",
+    "reading_path": "The small seated figure and wrong-hanging hoop create deliberate empty space; embodied El Niño stays across the court.",
+    "heading_treatment": "An understated title respects the stillness rather than becoming a climax banner.",
+    "narration_placement": "Use clear wet-court reflection/shadow for the full narrative, preserving breathing room around the character.",
+    "protected_subjects": "Same hoop damage, residual sandbag mud, same lens axis and embodied opponent; weekly defeat is not elimination.",
+    "data_treatment": "Exact FINAL receipt and football context anchored in clear space; no current elimination stamp.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P10",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P10",
+    "focus": "Quiet recognition is different from surrender.",
+    "performance": "Hold the seated figure beneath the broken hoop with mud still on him; El Niño remains physically across the court. Preserve open reflection around the figure.",
+    "narration_job": "The exact old semifinal and current non-elimination distinction remain. End on repair and persistence, not a fake season-ending verdict.",
+    "source_refs": [
+      "issue-previs.json#W10-P10",
+      "facts.json#/historical_context/W10-G02",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P08–W10-P10"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -2330,6 +2715,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P11 · READING POSITION 11
 
 IDENTITY INPUTS
@@ -2362,7 +2760,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "No invented miles, exact travel time, single simultaneous storm clock or identical rain severity in every region."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P11",
+    "family": "scenic_transition",
+    "dominant_action": "One weather front reaches different parts of the Commonwealth.",
+    "reading_path": "A continuous connector, lake and cloud progression form the reading route; do not turn it into a new labeled map.",
+    "heading_treatment": "A light-touch title inhabits the sky rather than a boxed masthead.",
+    "narration_placement": "Full short narration follows one calm sky or lake band with readable straight lines.",
+    "protected_subjects": "Established bridge and regional distinctions; no claim all six actual venues are visible or adjacent.",
+    "data_treatment": "No invented regional values, routes or odds.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P11",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P11",
+    "focus": "Give the audience a breath and show that one world receives different weather.",
+    "performance": "Use coast, inland wind and delayed wetland runoff as spatial continuity. Reduce the title’s dominance so the landscape, not another poster frame, supplies the transition.",
+    "narration_job": "Keep the established regional sequence and routes.",
+    "source_refs": [
+      "issue-previs.json#W10-P11",
+      "issue-previs.json#W10-P11"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -2422,6 +2843,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P12 · READING POSITION 12
 
@@ -2566,7 +3000,33 @@ SCENE AND CONTINUITY
     "Concrete patch grows consistently",
     "No thunder competing at comic payoff",
     "No assumed Book reopening"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P12",
+    "family": "vertical_conflict",
+    "dominant_action": "Noise from below interrupts quiet family life above.",
+    "reading_path": "Link jackhammer point, Seven Deadly Chins' grin and the family balcony along one upward diagonal.",
+    "heading_treatment": "Set title in protected architectural shadow, leaving the vertical relationship uninterrupted.",
+    "narration_placement": "Narration uses the calm wall between the levels; the child and partner remain protected/offscreen.",
+    "protected_subjects": "Exactly three serpent heads on one body; same balcony, drain, shelf, hose and first paving damage.",
+    "data_treatment": "No scoreboard-as-family-causation and no new personal details.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P12",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P12",
+    "focus": "An ordinary settling household is interrupted by an unnecessary visitor.",
+    "performance": "Show the tool below and exactly three heads arriving at the balcony above. Keep the family inside and the first paving damage localized.",
+    "narration_job": "The prose establishes why the normal waterfall was bearable and the new sound is not; no diagnosis or private family facts.",
+    "source_refs": [
+      "issue-previs.json#W10-P12",
+      "facts.json#/personal_context/TDS_new_baby",
+      "facts.json#/historical_context/W10-G03",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P12–W10-P14"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -2669,6 +3129,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P13 · READING POSITION 13
 
@@ -2813,7 +3286,33 @@ SCENE AND CONTINUITY
     "Concrete patch grows consistently",
     "No thunder competing at comic payoff",
     "No assumed Book reopening"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P13",
+    "family": "vertical_conflict",
+    "dominant_action": "Seven Deadly Chins hears the request and chooses the louder answer.",
+    "reading_path": "The balcony reverse shot leads from three distinct head angles to eye contact and the hand turning the speaker up.",
+    "heading_treatment": "The headline sits in a quiet section of the courtyard view, not across the three heads.",
+    "narration_placement": "Complete prose occupies a still side-wall or shaded rail area; preserve the paused-tool and volume-knob action.",
+    "protected_subjects": "One body with three heads, visitor below, family inside, established hole and speaker shelf.",
+    "data_treatment": "No extra dialogue attributed to real people; full supplied narrative remains intact.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P13",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P13",
+    "focus": "Acknowledgement followed by refusal is the whole joke.",
+    "performance": "In the balcony reverse angle, make eye contact and the hand at the music control visible; the paused tool remains below. One head can turn back toward the protected doorway.",
+    "narration_job": "Preserve the one hopeful breath before the encore. Do not add a speech balloon or second comedy line that interrupts the timing.",
+    "source_refs": [
+      "issue-previs.json#W10-P13",
+      "facts.json#/personal_context/TDS_new_baby",
+      "facts.json#/historical_context/W10-G03",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P12–W10-P14"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -2916,6 +3415,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P14 · READING POSITION 14
 
@@ -3060,7 +3572,33 @@ SCENE AND CONTINUITY
     "Concrete patch grows consistently",
     "No thunder competing at comic payoff",
     "No assumed Book reopening"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P14",
+    "family": "vertical_conflict",
+    "dominant_action": "The same hole expands as deliberate noise wins attention.",
+    "reading_path": "Return low to the jackhammer and widening rubble, with the furious three-headed silhouette high above.",
+    "heading_treatment": "A compact title sits in clear waterfall mist, not a strip cutting off the balcony.",
+    "narration_placement": "Use a quiet lateral shadow for narration; the climax is the chosen racket, not decorative lettering.",
+    "protected_subjects": "Same tool/hose/speaker and progressive paving damage; normal waterfall, no building collapse or threatened family.",
+    "data_treatment": "Keep exact FINAL result and context visible without obscuring rubble continuity.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P14",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P14",
+    "focus": "Delighted adult indifference meets exhausted adult frustration.",
+    "performance": "Return to the low courtyard view and enlarge only the same rubble patch. Seven Deadly Chins operates the tool with coherent hands; the speaker and compressor stay dry.",
+    "narration_job": "The prior two defeats explain the reversal; the baby is context, never the target, cause of the fantasy result or proof of neglect.",
+    "source_refs": [
+      "issue-previs.json#W10-P14",
+      "facts.json#/personal_context/TDS_new_baby",
+      "facts.json#/historical_context/W10-G03",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P12–W10-P14"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -3175,6 +3713,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P15 · READING POSITION 15
 
@@ -3320,7 +3871,32 @@ SCENE AND CONTINUITY
     "No truck or cargo contact with hound",
     "Cancun is conditional joke until audited",
     "No permanent conquest or title transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P15",
+    "family": "kinetic_action",
+    "dominant_action": "Mud Dogs' claimed authority meets a much larger routine delivery.",
+    "reading_path": "The low hound and entrance sign lead toward the truck on the higher usable road; show both ground levels.",
+    "heading_treatment": "Place the title in canopy space, avoiding a second freestanding graphic sign.",
+    "narration_placement": "Narration occupies clear water/foliage shadow alongside the existing service strip.",
+    "protected_subjects": "Quadruped Mud Dogs, Slob on my Dobb at the wheel, intact strapped cargo, failed low racing lane retained.",
+    "data_treatment": "No final score on the arrival unless supplied; no invented land decree.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P15",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P15",
+    "focus": "The hound believes his entrance marker still carries authority.",
+    "performance": "Keep all four paws on the low safe margin, with the truck approaching on the clearly higher, usable strip. The marker provides the territorial claim without blocking the truck physically.",
+    "narration_job": "The landlord comparison is fictional characterization; do not infer real ownership disputes or add a new confrontation.",
+    "source_refs": [
+      "issue-previs.json#W10-P15",
+      "facts.json#/historical_context/W10-G04",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P15–W10-P17"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -3423,6 +3999,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P16 · READING POSITION 16
 
@@ -3568,7 +4157,32 @@ SCENE AND CONTINUITY
     "No truck or cargo contact with hound",
     "Cancun is conditional joke until audited",
     "No permanent conquest or title transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P16",
+    "family": "kinetic_action",
+    "dominant_action": "The beer delivery passes at the same unbothered speed.",
+    "reading_path": "A lateral sweep puts the hound low and driver high, with the truck continuing in the established direction.",
+    "heading_treatment": "A short offset title mirrors the unshowy pace rather than a giant action heading.",
+    "narration_placement": "Full prose uses a clear side-road/canopy area; no narration across wheels, dog or driver's face.",
+    "protected_subjects": "Same cab/cargo/raised strip; no collision, thrown keg, fighting or dragged animal.",
+    "data_treatment": "Only exact supplied facts; no fake zero-chance probability.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P16",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P16",
+    "focus": "Indifference is stronger than a celebratory taunt.",
+    "performance": "Slob on my Dobb keeps an ordinary driving posture above the hound. Show the wheels on firm ground and the secure cargo; no wheel or load touches the animal.",
+    "narration_job": "Keep the schedule-versus-conquest distinction. A quiet driver and a louder hound should communicate the imbalance without explanatory extra labels.",
+    "source_refs": [
+      "issue-previs.json#W10-P16",
+      "facts.json#/historical_context/W10-G04",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P15–W10-P17"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -3671,6 +4285,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P17 · READING POSITION 17
 
@@ -3816,7 +4443,32 @@ SCENE AND CONTINUITY
     "No truck or cargo contact with hound",
     "Cancun is conditional joke until audited",
     "No permanent conquest or title transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P17",
+    "family": "quiet_aftermath",
+    "dominant_action": "The truck leaves while Mud Dogs remains beneath his own sign.",
+    "reading_path": "The departing route recedes into empty space; a small Cancún card draws the eye back to the isolated hound.",
+    "heading_treatment": "The title shares a calm canopy region and does not replace the real territory marker.",
+    "narration_placement": "Use the road's emptied shadow as narration space; exact result appears as a separate aligned final receipt.",
+    "protected_subjects": "Intact delivery, same sign and ruts; Cancún remains a taunt rather than an already-booked fate.",
+    "data_treatment": "Use provider-final score and source-backed survival language; do not stamp ELIMINATED today.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P17",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P17",
+    "focus": "The losing character is left with the silence, not expelled from his home.",
+    "performance": "Make Mud Dogs small beneath his own sign as the loaded truck recedes. The Cancún card stays a small gag, not the page’s dominant destination.",
+    "narration_job": "Use the already verified current survival and next-loss boundary. No plane ticket, elimination stamp or fictional permanent abandonment.",
+    "source_refs": [
+      "issue-previs.json#W10-P17",
+      "facts.json#/historical_context/W10-G04",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P15–W10-P17"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -3932,6 +4584,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P18 · READING POSITION 18
 
 IDENTITY INPUTS
@@ -3968,7 +4633,30 @@ SCENE AND CONTINUITY
     "Guaranteed final award",
     "Bench points added to actual matchup score",
     "Claim that hindsight proves a lineup choice irrational"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P18",
+    "family": "record_intelligence",
+    "dominant_action": "Individual performances explain the final board.",
+    "reading_path": "Create one readable analytical hierarchy among the archive tools, six leader entries and the main performance paragraph.",
+    "heading_treatment": "SPORTS DESK is the department; a restrained main headline leaves room for exact information.",
+    "narration_placement": "Full narrative occupies calm ledger-hall atmosphere beside the entries rather than restating a decorative board beneath it.",
+    "protected_subjects": "No borrowed principal character, no added bench points; preserve starter/bench distinction.",
+    "data_treatment": "Exactly six leader entries and full team/player names; all values, trio sums and Monday figures copied from current source.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P18",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P18",
+    "focus": "Explain which managers benefited from actual player contributions without hindsight shaming.",
+    "performance": "Let the final Monday contribution give ObiWan Jacoby’s resistance factual context; distinguish strong scoring in defeat from a failed effort.",
+    "narration_job": "Keep the six category leaders, the two three-player totals and the non-scoring bench distinction.",
+    "source_refs": [
+      "issue-previs.json#W10-P18",
+      "facts.json#/derived"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -4081,6 +4769,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P34 · READING POSITION 19
 
 IDENTITY INPUTS
@@ -4118,7 +4819,30 @@ SCENE AND CONTINUITY
     "Guaranteed return or future starter without confirmation",
     "Final Week10 record or clinch from live score",
     "New permanent location or belt transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P34",
+    "family": "record_intelligence",
+    "dominant_action": "Availability separates Sunday's consequences from the next lineup.",
+    "reading_path": "The newly arrived dispatch and retained ledger establish current versus older news without medical spectacle.",
+    "heading_treatment": "Use a quiet editorial title above the report reading area; no action-style alarm masthead.",
+    "narration_placement": "Full qualified prose in a single calm paper/lamplight field, surrounded by the existing archive depth.",
+    "protected_subjects": "Reported versus confirmed statuses, old injury dates and indirect defense exposure; no invented patient imagery.",
+    "data_treatment": "Do not convert source qualifiers to diagnoses or promises; preserve all exact dates and eligibility conditions.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P34",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P34",
+    "focus": "Make consequences useful to the affected managers without making injuries a joke.",
+    "performance": "Differentiate newly reported issues from retained absences with typography and dispatch grouping rather than a dramatic medical illustration.",
+    "narration_job": "Keep the exact dates, qualified diagnoses, indirect D/ST exposure and current roster joins.",
+    "source_refs": [
+      "issue-previs.json#W10-P34",
+      "sports-news-pass3.json"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -4197,6 +4921,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P19 · READING POSITION 20
 
@@ -4328,7 +5065,34 @@ SCENE AND CONTINUITY
     "Dr. Duckhook white duck head/orangebill/green golfer",
     "His Majesty's Blood hood shadow/red eyes/blackarmor/crimsoncloak",
     "Belt stays with His Majesty's Blood"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P19",
+    "family": "institutional_briefing",
+    "dominant_action": "An apparently generous guest enters a birthday hall.",
+    "reading_path": "The clear entrance aisle carries His Majesty's Blood and the wrapped gift toward Dr. Duckhook's chair; the cake is established separately.",
+    "heading_treatment": "Let the arrival silhouette lead; put the headline in quiet window or upper-wall space.",
+    "narration_placement": "Full prose occupies the open aisle-side shadow while the room remains a continuous scene.",
+    "protected_subjects": "Canonical hood and belt, duck golfer face, wrapped box, separate sideboard cake; no new guests identified by name.",
+    "data_treatment": "No invented age; historical margin stays exactly in the supplied narration.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P19",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "social_arrival_not_formal_briefing"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P19",
+    "focus": "The host welcomes the very rival tied to the old four-tenths semifinal wound.",
+    "performance": "Let Dr. Duckhook’s welcoming posture and the apparently generous box establish the social expectation. His Majesty's Blood’s face stays concealed; express restraint through posture, not an invented smile.",
+    "narration_job": "The 0.40 historical callback gives hesitation meaning; it is a football memory, not evidence of a real-life grudge or invented speech.",
+    "source_refs": [
+      "issue-previs.json#W10-P19",
+      "facts.json#/personal_context/Duckhook_birthday",
+      "facts.json#/historical_context/W10-G05",
+      "personalization-intake.md#His Majesty",
+      "issue-previs.json#W10-P19–W10-P21"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -4444,6 +5208,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P20 · READING POSITION 21
 
@@ -4575,7 +5352,34 @@ SCENE AND CONTINUITY
     "Dr. Duckhook white duck head/orangebill/green golfer",
     "His Majesty's Blood hood shadow/red eyes/blackarmor/crimsoncloak",
     "Belt stays with His Majesty's Blood"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P20",
+    "family": "character_cover",
+    "dominant_action": "The gift reveal becomes a public joke.",
+    "reading_path": "At table height, the open box and colossal burger are the dominant object; Dr. Duckhook's delayed expression is second.",
+    "heading_treatment": "The prop's exact 200 BURGER flag can carry the main visual joke; the page title must not duplicate it in competing oversized banners.",
+    "narration_placement": "Narration flows through clear table/wall atmosphere beside the reveal, without obscuring the separate cake.",
+    "protected_subjects": "Two burger layers, open box, free hands, fixed guests/windows; no frosting yet.",
+    "data_treatment": "200 BURGER is a milestone prop label, not a replacement for the exact final score.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P20",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "object_reveal_with_delayed_host_reaction"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P20",
+    "focus": "A gift becomes a public scoring joke one beat after it is opened.",
+    "performance": "Show the delayed change in the bill/eyes and the guests’ dawning response. The exact 200 BURGER flag belongs to the double-decker hamburger; the cake remains separate.",
+    "narration_job": "Preserve the gracious-host tension. Do not call 200 an exact final score or add an invented birthday age.",
+    "source_refs": [
+      "issue-previs.json#W10-P20",
+      "facts.json#/personal_context/Duckhook_birthday",
+      "facts.json#/historical_context/W10-G05",
+      "personalization-intake.md#His Majesty",
+      "issue-previs.json#W10-P19–W10-P21"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -4691,6 +5495,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P21 · READING POSITION 22
 
@@ -4823,7 +5640,33 @@ SCENE AND CONTINUITY
     "Dr. Duckhook white duck head/orangebill/green golfer",
     "His Majesty's Blood hood shadow/red eyes/blackarmor/crimsoncloak",
     "Belt stays with His Majesty's Blood"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P21",
+    "family": "kinetic_action",
+    "dominant_action": "Cake-to-face contact turns the host into the payoff.",
+    "reading_path": "A close three-quarter contact view leads from gloved hands to bill and vest, with the untouched burger still readable to the side.",
+    "heading_treatment": "Keep the title small enough that face, hands and cake dominate the page.",
+    "narration_placement": "Use clear sideboard/room shadow for complete copy, not over the contact point.",
+    "protected_subjects": "Candles removed, cake separate from burger, seated support and fixed table; no sword duel or collapsed furniture.",
+    "data_treatment": "Exact FINAL result and football context occupy a stable clear area; belt remains with His Majesty's Blood.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P21",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P21",
+    "focus": "The birthday occasion determines the humiliation.",
+    "performance": "Show gloved hands, soft cake contact, a still-recognizable bill and vest, and the untouched burger. Candles are removed; the table and guests retain their positions.",
+    "narration_job": "The Week 9 cookout callback connects humiliation passed onward, not a new championship or belt transfer.",
+    "source_refs": [
+      "issue-previs.json#W10-P21",
+      "facts.json#/personal_context/Duckhook_birthday",
+      "facts.json#/historical_context/W10-G05",
+      "personalization-intake.md#His Majesty",
+      "issue-previs.json#W10-P19–W10-P21"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -4952,6 +5795,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P22 · READING POSITION 23
 
 IDENTITY INPUTS
@@ -5072,14 +5928,39 @@ SCENE AND CONTINUITY
     "ObiWan blondhuman/earthrobes/greensword/goldenretriever/NO belt",
     "The LLC human suited corporate raider with sunglasses/cigar/briefcase",
     "Week9LLC armor is event-specific"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P22",
+    "family": "kinetic_action",
+    "dominant_action": "ObiWan Jacoby breaks the first of two Imperial batteries.",
+    "reading_path": "The inner arch frames the defender; reflected fire crosses the causeway toward the first battery, with the second and commander established.",
+    "heading_treatment": "Headline lives in clear smoke/sky away from the light blade and impact.",
+    "narration_placement": "Place full copy in sheltered arch-shadow, retaining terrain behind it rather than cutting off the lower battle.",
+    "protected_subjects": "Green blade translated into grayscale luminance, separate retriever safe behind, suited executive, two batteries at entry.",
+    "data_treatment": "Restore the approved color phrase Red fire; Red Leopards is not in this matchup. Preserve the 2024 margin.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P22",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P22",
+    "focus": "The defender earns a real success before the opponent answers.",
+    "performance": "ObiWan Jacoby’s planted stance and returned fire visibly destroy the first of two emplacements. Keep the retriever sheltered and The LLC recognizable across the causeway.",
+    "narration_job": "The 0.80 earlier result explains why a narrow opening matters; red fire is color, not Red Leopards joining the scene.",
+    "source_refs": [
+      "issue-previs.json#W10-P22",
+      "facts.json#/historical_context/W10-G06",
+      "personalization-intake.md#ObiWan",
+      "issue-previs.json#W10-P22–W10-P24"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
 {
   "headline": "The Empire Opens Fire",
   "deck": "ObiWan Jacoby vs The LLC",
-  "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red Leopards fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
+  "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
   "department_heading": "ObiWan Jacoby vs The LLC"
 }
 
@@ -5175,6 +6056,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P23 · READING POSITION 24
 
@@ -5296,7 +6190,32 @@ SCENE AND CONTINUITY
     "ObiWan blondhuman/earthrobes/greensword/goldenretriever/NO belt",
     "The LLC human suited corporate raider with sunglasses/cigar/briefcase",
     "Week9LLC armor is event-specific"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P23",
+    "family": "kinetic_action",
+    "dominant_action": "A second counterattack takes the higher route.",
+    "reading_path": "Use the established side view to move from ruined first emplacement to the ridge advance and surviving battery turning.",
+    "heading_treatment": "The title inhabits a clear upper cloud shelf, without reversing action direction.",
+    "narration_placement": "Narration is held in quiet near-rock shadow; smoke does not cross reading lines.",
+    "protected_subjects": "Destroyed battery remains destroyed, sole surviving battery, same command shelf and consistent smoke direction.",
+    "data_treatment": "No extra battery, secret force or invented result; full supplied prose unchanged.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P23",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P23",
+    "focus": "The second advance is a decision, not a repeated pose.",
+    "performance": "Carry the defender along the established upper ridge; The LLC’s gesture turns the sole surviving battery. Keep the first wreck in view and the screen direction unchanged.",
+    "narration_job": "Give the risk and persistence meaning without inventing a third counterattack, secret reserve or physical meeting.",
+    "source_refs": [
+      "issue-previs.json#W10-P23",
+      "facts.json#/historical_context/W10-G06",
+      "personalization-intake.md#ObiWan",
+      "issue-previs.json#W10-P22–W10-P24"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -5399,6 +6318,19 @@ REFERENCE IMAGES
 One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
 
 PAGE W10-P24 · READING POSITION 25
 
@@ -5520,7 +6452,33 @@ SCENE AND CONTINUITY
     "ObiWan blondhuman/earthrobes/greensword/goldenretriever/NO belt",
     "The LLC human suited corporate raider with sunglasses/cigar/briefcase",
     "Week9LLC armor is event-specific"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P24",
+    "family": "kinetic_action",
+    "dominant_action": "The defender holds the arch while the single surviving battery continues firing; the battle has not gone quiet.",
+    "reading_path": "The inner arch frames one defender against the distant remaining firepower; the sheltered retriever creates a home-scale contrast.",
+    "heading_treatment": "Let the held threshold dominate; title and matchup line stay compact in arch shade.",
+    "narration_placement": "Full closing prose and result share clear architectural shadow, not a standard black footer below a cropped battle.",
+    "protected_subjects": "One smoking ruined emplacement and one surviving battery still firing; separate sheltered retriever, exact identities, no belt on ObiWan Jacoby and no home transfer.",
+    "data_treatment": "Exact FINAL score, margin and football context; not an image-invented 'overwhelming' number.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P24",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "sustained_defense_at_the_threshold"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P24",
+    "focus": "Holding the arch preserves dignity without rewriting the defeat.",
+    "performance": "Keep the surviving battery actively firing and the destroyed one smoking. The face/hand/blade remain readable in the arch, with a separate sheltered retriever behind.",
+    "narration_job": "Retain the exact final score and margin. This is sustained defense under fire, not a magically quiet or victorious aftermath.",
+    "source_refs": [
+      "issue-previs.json#W10-P24",
+      "facts.json#/historical_context/W10-G06",
+      "personalization-intake.md#ObiWan",
+      "issue-previs.json#W10-P22–W10-P24"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -5623,6 +6581,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P25 · READING POSITION 26
 
 IDENTITY INPUTS
@@ -5660,7 +6631,30 @@ SCENE AND CONTINUITY
     "Guaranteed return or future starter without confirmation",
     "Final Week10 record or clinch from live score",
     "New permanent location or belt transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P25",
+    "family": "record_intelligence",
+    "dominant_action": "The next lineup has specific gaps rather than generic crisis.",
+    "reading_path": "The loggia's equipment and empty hooks surround a concise, level roster-needs list.",
+    "heading_treatment": "Reserve Watch remains a small department identity; the roster purpose sets the visual hierarchy.",
+    "narration_placement": "Narration sits adjacent to the list in sheltered column shade so logistics and copy share one inhabited space.",
+    "protected_subjects": "Six teams/seven positions; no fabricated completed move, diagnosis or selected future starter.",
+    "data_treatment": "Preserve complete team names and exact specialist needs; do not angle or warp the list.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P25",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P25",
+    "focus": "Present practical preparation, not blame for a still-editable future lineup.",
+    "performance": "Organize each team and its need as one readable unit in the loggia. Show absence through logistics and empty hooks, not invented injured character bodies.",
+    "narration_job": "Keep the current seven uncovered specialist positions across six teams.",
+    "source_refs": [
+      "issue-previs.json#W10-P25",
+      "facts.json#/pass3/readiness"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -5761,6 +6755,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P26 · READING POSITION 27
 
 IDENTITY INPUTS
@@ -5797,7 +6804,30 @@ SCENE AND CONTINUITY
     "Reactivating historical pending claims",
     "Inferring transaction motive",
     "Calling add/drop sequences player trades"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P26",
+    "family": "record_intelligence",
+    "dominant_action": "Completed moves form a sequence of roster consequences.",
+    "reading_path": "A courier intake leads through four source-backed transaction trails; separate subheads are typeset, not four floating poster boxes.",
+    "heading_treatment": "One restrained transaction heading; trails lead instead of another giant board.",
+    "narration_placement": "Place complete intro and callouts in readable archive-space columns with uninterrupted environmental depth.",
+    "protected_subjects": "Lifecycle status, correct add/drop chronology, FAAB versus money and post-deadline distinction.",
+    "data_treatment": "All 29-count, dates, bids, player/team names and callout bodies exact; no new trade recommendation.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P26",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P26",
+    "focus": "Let the actual transaction trail reveal human choices without inventing intent.",
+    "performance": "The Mason trail, Brian Thomas Jr. move and receiver claims should remain distinct chronological stories; make the source order clear inside one intake scene.",
+    "narration_job": "Keep the completed-event window, exact FAAB, dates and owner changes.",
+    "source_refs": [
+      "issue-previs.json#W10-P26",
+      "facts.json#/completed_transactions"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -5890,6 +6920,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P27 · READING POSITION 28
 
 IDENTITY INPUTS
@@ -5922,7 +6965,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Retain through-nine official records now; after finality replace all rows and copy together. Never sort the future table by points alone."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P27",
+    "family": "record_intelligence",
+    "dominant_action": "The posted table distinguishes equal records from equal seeds.",
+    "reading_path": "One dominant level standings record anchors the hall, with receding architecture giving depth without tilting rows.",
+    "heading_treatment": "A compact standing headline leaves room for all twelve entries.",
+    "narration_placement": "Keep complete explanatory copy beside or above the table in clear hall atmosphere, not a redundant lower caption.",
+    "protected_subjects": "All twelve teams, official order, through-ten scope and provider tiebreak distinction.",
+    "data_treatment": "Deterministic seed/record/points columns; no generative numbers or points-only resorting.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P27",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P27",
+    "focus": "Show why equal records still feel different to different owners.",
+    "performance": "Emphasize the six-team 6–4 cluster and the cutoff without moving rows or turning points-for order into seeding. Keep the hall secondary to comparison.",
+    "narration_job": "Preserve all twelve official rows and the posted seed order.",
+    "source_refs": [
+      "issue-previs.json#W10-P27",
+      "final-league-snapshot.json#/standings"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -6269,6 +7335,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P28 · READING POSITION 29
 
 IDENTITY INPUTS
@@ -6305,7 +7384,30 @@ SCENE AND CONTINUITY
     "Division labels treated as geographic borders",
     "Unverified tiebreak explanation",
     "Clinched or eliminated language"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P28",
+    "family": "record_intelligence",
+    "dominant_action": "The same record produces different pressure in three divisions.",
+    "reading_path": "Three league standards share one terrace and landscape; each has a readable pressure summary in the same editorial plane.",
+    "heading_treatment": "Let the three group labels establish hierarchy; avoid a fourth competing grand title.",
+    "narration_placement": "Full intro and three callouts are spaced through quiet terrace/sky regions, not three separate country panels.",
+    "protected_subjects": "Divisions are league groupings, not geographical borders or new food kingdoms.",
+    "data_treatment": "Exact final records and all source callouts; no clinch or elimination claim added.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P28",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P28",
+    "focus": "Make the three division situations distinct without inventing three countries.",
+    "performance": "Let the three standards share one terrace, with each pressure paragraph adjacent to its correct emblem in a level editorial plane.",
+    "narration_job": "Retain Burgers, Pizza and Wings membership and current records.",
+    "source_refs": [
+      "issue-previs.json#W10-P28",
+      "facts.json#/divisions"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -6397,6 +7499,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P29 · READING POSITION 30
 
 IDENTITY INPUTS
@@ -6429,7 +7544,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Retain the disclosed method. No rank is presented as an official seed or a probability; re-run after Monday closes."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P29",
+    "family": "record_intelligence",
+    "dominant_action": "Scoring form ranks production, not playoff entitlement.",
+    "reading_path": "A twelve-row ranking sits in calm sky/reflected shadow while the established bridge cuts diagonally through a different visual region.",
+    "heading_treatment": "SCORING FORM and the disclosed method are concise and clear, not another billboard photograph.",
+    "narration_placement": "Full method paragraph uses quiet foreground stone/sky without covering the landscape's depth or ranking.",
+    "protected_subjects": "Ranked order distinct from official seeds; no weather or injury edits to the formula.",
+    "data_treatment": "All twelve index values exact; 70/30 method displayed once, level and readable.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P29",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P29",
+    "focus": "Explain scoring form as a different lens from the official standings.",
+    "performance": "Use the lake/bridge landscape as a calm counterpoint; make the method visible before the reader mistakes the order for playoff seeds.",
+    "narration_job": "Keep all twelve rows, final input scope and the unchanged 70/30 formula.",
+    "source_refs": [
+      "issue-previs.json#W10-P29",
+      "facts.json#/scoring_form"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -6557,6 +7695,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P30 · READING POSITION 31
 
 IDENTITY INPUTS
@@ -6593,7 +7744,30 @@ SCENE AND CONTINUITY
     "Unsupported present-tense clinch/elimination claims, or future elimination claims without their stated Week 10 condition",
     "Invented playoff probabilities",
     "Permanent abandonment or property transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P30",
+    "family": "scenic_transition",
+    "dominant_action": "Four remaining games narrow the route to seven berths.",
+    "reading_path": "The actual alpine climb draws the eye through Week 11 to Week 14 markers, with no triumph on the summit.",
+    "heading_treatment": "Title integrates into open cloud space; do not turn route signs into the whole page.",
+    "narration_placement": "Narrative and two callouts sit in quiet rock/sky fields along, not on top of, the visible climb.",
+    "protected_subjects": "Existing route, no new territory, current survival proof distinct from odds.",
+    "data_treatment": "Exact seven-berth explanation and loss-elimination qualification; no invented probability or clinched crown.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P30",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P30",
+    "focus": "Make remaining possibility visible without pretending every route is equally likely.",
+    "performance": "Let the climb carry the time sequence. Keep explanatory text level in calm spaces and the harsh specific condition near the relevant note.",
+    "narration_job": "Keep seven berths, four games and the verified Mud Dogs next-loss condition.",
+    "source_refs": [
+      "issue-previs.json#W10-P30",
+      "playoff-witnesses-final.json"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -6678,6 +7852,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P31 · READING POSITION 32
 
 IDENTITY INPUTS
@@ -6710,7 +7897,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Keep all six provider home/away fixtures. A dedicated featured-preview page does not replace this league-wide schedule."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P31",
+    "family": "fixture_dispatch",
+    "dominant_action": "Each of six next fixtures carries a different stake.",
+    "reading_path": "Pair each complete away-at-home fixture immediately with its existing implication; the outward terrace and route sightline link the groups.",
+    "heading_treatment": "THE NEXT SIX is a concise department/title rendered once; the head-to-head deck remains prominent.",
+    "narration_placement": "Full paragraph becomes a clear editorial reading area adjacent to six fixture/stake entries, not another explanation underneath a fixture-only illustration.",
+    "protected_subjects": "All six fixtures, correct home/away, source distinction between pressure and mathematical elimination.",
+    "data_treatment": "Level exact names, records and implication text; no shorthand or falsely guaranteed top seed; three divisional rounds note stays explicit.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P31",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P31",
+    "focus": "Answer why every Week 11 fixture matters, not just who plays.",
+    "performance": "Attach each stake immediately to its fixture. Give head-to-head and the three divisional rounds one clear closing place; avoid a duplicated summary beneath a large list.",
+    "narration_job": "Keep all six away-at-home pairings and their checked implication fields.",
+    "source_refs": [
+      "issue-previs.json#W10-P31",
+      "production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -6832,6 +8042,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P35 · READING POSITION 33
 
 IDENTITY INPUTS
@@ -6934,7 +8157,31 @@ SCENE AND CONTINUITY
     "Guaranteed return or future starter without confirmation",
     "Final Week10 record or clinch from live score",
     "New permanent location or belt transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P35",
+    "family": "character_cover",
+    "dominant_action": "Two 6–4 contenders approach a crossing without striking.",
+    "reading_path": "D0nkey K0ng's full body in the near approach faces His Majesty's Blood beyond a substantial span of empty bridge.",
+    "heading_treatment": "Compact preview heading in quiet upper sky; no oversized banner across the unoccupied span.",
+    "narration_placement": "Narration sits in lake/sky calm outside both character silhouettes; the space between them is the tension.",
+    "protected_subjects": "Integrated four-hooved gorilla-centaur, hooded champion, established bridge; no fight, result or title transfer.",
+    "data_treatment": "Historical 2025 receipt stays distinguished from future Week 11; exact current availability language retained.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P35",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "opposing_arrivals_and_unoccupied_bridge"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P35",
+    "focus": "Turn the two contenders’ known history into anticipation, not an early result.",
+    "performance": "Let posture and distance carry the rivalry; the older 179.68–111.42 receipt remains explicitly historical and the present 6–4 records distinct.",
+    "narration_job": "Keep His Majesty’s Blood and the four-legged D0nkey K0ng on opposing bridge approaches with open space between them.",
+    "source_refs": [
+      "issue-previs.json#W10-P35",
+      "facts.json#/pass3/week11_gotw"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
@@ -7062,6 +8309,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P33 · READING POSITION 34
 
 IDENTITY INPUTS
@@ -7125,7 +8385,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "This is a preview, not a simultaneous Week10homecoming or a scripted Week11win. Further storm expansion remains conditional."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P33",
+    "family": "quiet_aftermath",
+    "dominant_action": "An ordinary delivery gives way to preparation for incoming weather.",
+    "reading_path": "Begin under the camp canopy with Slob on my Dobb and secured kegs, then look outward toward the darkening route.",
+    "heading_treatment": "THE FINAL WORD is restrained; closing title belongs in the distant cloud or canopy shadow, not another poster band.",
+    "narration_placement": "Full closing prose sits in the sheltered lamplight/shadow transition, with visible scene continuing around it.",
+    "protected_subjects": "Only Slob on my Dobb physically present; El Niño implied by weather, current costume not older horned variation.",
+    "data_treatment": "No invented future winner, new storm territory or falsely completed Week 11 lineup.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P33",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P33",
+    "focus": "End on the delivery winner preparing to become next week’s host.",
+    "performance": "Use calm preparation as the contrast to the noisy issue. The weather previews El Niño; the final paragraph should land in the shelter’s light, not another detached black box.",
+    "narration_job": "Keep Slob on my Dobb at the known foothill shelter with secured kegs and incoming weather.",
+    "source_refs": [
+      "issue-previs.json#W10-P33",
+      "issue-previs.json#W10-P33"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

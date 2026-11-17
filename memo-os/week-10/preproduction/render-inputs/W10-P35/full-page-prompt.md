@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P35 · READING POSITION 33
 
 IDENTITY INPUTS
@@ -104,7 +117,31 @@ SCENE AND CONTINUITY
     "Guaranteed return or future starter without confirmation",
     "Final Week10 record or clinch from live score",
     "New permanent location or belt transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P35",
+    "family": "character_cover",
+    "dominant_action": "Two 6–4 contenders approach a crossing without striking.",
+    "reading_path": "D0nkey K0ng's full body in the near approach faces His Majesty's Blood beyond a substantial span of empty bridge.",
+    "heading_treatment": "Compact preview heading in quiet upper sky; no oversized banner across the unoccupied span.",
+    "narration_placement": "Narration sits in lake/sky calm outside both character silhouettes; the space between them is the tension.",
+    "protected_subjects": "Integrated four-hooved gorilla-centaur, hooded champion, established bridge; no fight, result or title transfer.",
+    "data_treatment": "Historical 2025 receipt stays distinguished from future Week 11; exact current availability language retained.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P35",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "opposing_arrivals_and_unoccupied_bridge"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P35",
+    "focus": "Turn the two contenders’ known history into anticipation, not an early result.",
+    "performance": "Let posture and distance carry the rivalry; the older 179.68–111.42 receipt remains explicitly historical and the present 6–4 records distinct.",
+    "narration_job": "Keep His Majesty’s Blood and the four-legged D0nkey K0ng on opposing bridge approaches with open space between them.",
+    "source_refs": [
+      "issue-previs.json#W10-P35",
+      "facts.json#/pass3/week11_gotw"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P31 · READING POSITION 32
 
 IDENTITY INPUTS
@@ -34,7 +47,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Keep all six provider home/away fixtures. A dedicated featured-preview page does not replace this league-wide schedule."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P31",
+    "family": "fixture_dispatch",
+    "dominant_action": "Each of six next fixtures carries a different stake.",
+    "reading_path": "Pair each complete away-at-home fixture immediately with its existing implication; the outward terrace and route sightline link the groups.",
+    "heading_treatment": "THE NEXT SIX is a concise department/title rendered once; the head-to-head deck remains prominent.",
+    "narration_placement": "Full paragraph becomes a clear editorial reading area adjacent to six fixture/stake entries, not another explanation underneath a fixture-only illustration.",
+    "protected_subjects": "All six fixtures, correct home/away, source distinction between pressure and mathematical elimination.",
+    "data_treatment": "Level exact names, records and implication text; no shorthand or falsely guaranteed top seed; three divisional rounds note stays explicit.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P31",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P31",
+    "focus": "Answer why every Week 11 fixture matters, not just who plays.",
+    "performance": "Attach each stake immediately to its fixture. Give head-to-head and the three divisional rounds one clear closing place; avoid a duplicated summary beneath a large list.",
+    "narration_job": "Keep all six away-at-home pairings and their checked implication fields.",
+    "source_refs": [
+      "issue-previs.json#W10-P31",
+      "production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

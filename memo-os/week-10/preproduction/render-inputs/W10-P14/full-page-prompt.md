@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P14 · READING POSITION 14
 
 IDENTITY INPUTS
@@ -145,7 +158,33 @@ SCENE AND CONTINUITY
     "Concrete patch grows consistently",
     "No thunder competing at comic payoff",
     "No assumed Book reopening"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P14",
+    "family": "vertical_conflict",
+    "dominant_action": "The same hole expands as deliberate noise wins attention.",
+    "reading_path": "Return low to the jackhammer and widening rubble, with the furious three-headed silhouette high above.",
+    "heading_treatment": "A compact title sits in clear waterfall mist, not a strip cutting off the balcony.",
+    "narration_placement": "Use a quiet lateral shadow for narration; the climax is the chosen racket, not decorative lettering.",
+    "protected_subjects": "Same tool/hose/speaker and progressive paving damage; normal waterfall, no building collapse or threatened family.",
+    "data_treatment": "Keep exact FINAL result and context visible without obscuring rubble continuity.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P14",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P14",
+    "focus": "Delighted adult indifference meets exhausted adult frustration.",
+    "performance": "Return to the low courtyard view and enlarge only the same rubble patch. Seven Deadly Chins operates the tool with coherent hands; the speaker and compressor stay dry.",
+    "narration_job": "The prior two defeats explain the reversal; the baby is context, never the target, cause of the fantasy result or proof of neglect.",
+    "source_refs": [
+      "issue-previs.json#W10-P14",
+      "facts.json#/personal_context/TDS_new_baby",
+      "facts.json#/historical_context/W10-G03",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P12–W10-P14"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

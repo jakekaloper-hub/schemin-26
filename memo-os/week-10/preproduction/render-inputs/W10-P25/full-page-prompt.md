@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P25 · READING POSITION 26
 
 IDENTITY INPUTS
@@ -39,7 +52,30 @@ SCENE AND CONTINUITY
     "Guaranteed return or future starter without confirmation",
     "Final Week10 record or clinch from live score",
     "New permanent location or belt transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P25",
+    "family": "record_intelligence",
+    "dominant_action": "The next lineup has specific gaps rather than generic crisis.",
+    "reading_path": "The loggia's equipment and empty hooks surround a concise, level roster-needs list.",
+    "heading_treatment": "Reserve Watch remains a small department identity; the roster purpose sets the visual hierarchy.",
+    "narration_placement": "Narration sits adjacent to the list in sheltered column shade so logistics and copy share one inhabited space.",
+    "protected_subjects": "Six teams/seven positions; no fabricated completed move, diagnosis or selected future starter.",
+    "data_treatment": "Preserve complete team names and exact specialist needs; do not angle or warp the list.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P25",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P25",
+    "focus": "Present practical preparation, not blame for a still-editable future lineup.",
+    "performance": "Organize each team and its need as one readable unit in the loggia. Show absence through logistics and empty hooks, not invented injured character bodies.",
+    "narration_job": "Keep the current seven uncovered specialist positions across six teams.",
+    "source_refs": [
+      "issue-previs.json#W10-P25",
+      "facts.json#/pass3/readiness"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

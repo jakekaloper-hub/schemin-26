@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P20 · READING POSITION 21
 
 IDENTITY INPUTS
@@ -132,7 +145,34 @@ SCENE AND CONTINUITY
     "Dr. Duckhook white duck head/orangebill/green golfer",
     "His Majesty's Blood hood shadow/red eyes/blackarmor/crimsoncloak",
     "Belt stays with His Majesty's Blood"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P20",
+    "family": "character_cover",
+    "dominant_action": "The gift reveal becomes a public joke.",
+    "reading_path": "At table height, the open box and colossal burger are the dominant object; Dr. Duckhook's delayed expression is second.",
+    "heading_treatment": "The prop's exact 200 BURGER flag can carry the main visual joke; the page title must not duplicate it in competing oversized banners.",
+    "narration_placement": "Narration flows through clear table/wall atmosphere beside the reveal, without obscuring the separate cake.",
+    "protected_subjects": "Two burger layers, open box, free hands, fixed guests/windows; no frosting yet.",
+    "data_treatment": "200 BURGER is a milestone prop label, not a replacement for the exact final score.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P20",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography.",
+    "rhythm_variant": "object_reveal_with_delayed_host_reaction"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P20",
+    "focus": "A gift becomes a public scoring joke one beat after it is opened.",
+    "performance": "Show the delayed change in the bill/eyes and the guests’ dawning response. The exact 200 BURGER flag belongs to the double-decker hamburger; the cake remains separate.",
+    "narration_job": "Preserve the gracious-host tension. Do not call 200 an exact final score or add an invented birthday age.",
+    "source_refs": [
+      "issue-previs.json#W10-P20",
+      "facts.json#/personal_context/Duckhook_birthday",
+      "facts.json#/historical_context/W10-G05",
+      "personalization-intake.md#His Majesty",
+      "issue-previs.json#W10-P19–W10-P21"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

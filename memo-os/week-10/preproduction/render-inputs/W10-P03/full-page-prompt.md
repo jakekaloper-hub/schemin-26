@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P03 · READING POSITION 3
 
 IDENTITY INPUTS
@@ -34,7 +47,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Draft voice for Jake’s review; no invented quote, new ruling, deadline extension or postseason promise."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P03",
+    "family": "institutional_briefing",
+    "dominant_action": "A commissioner address about consequences and the league's shared stakes.",
+    "reading_path": "The desk and open threshold create an asymmetrical reading area beside the visible civic interior.",
+    "heading_treatment": "FROM THE COMMISSIONER functions as a restrained running heading; the main statement sits beside the scene, not stacked above it.",
+    "narration_placement": "Place the whole address in a quiet wall/desk-shadow field, with architecture continuing behind and beside the words.",
+    "protected_subjects": "No invented commissioner portrait or attributed personal quote; retain neutral attendants only as already specified.",
+    "data_treatment": "No added rankings or numerical callouts beyond supplied copy.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P03",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P03",
+    "focus": "Address the league as people who will remember the week, not as a production-system report.",
+    "performance": "Let the shared birthday, broken hoop and passing truck examples carry the voice. Keep the institutional scene restrained and the entire address readable.",
+    "narration_job": "Keep the distinction between fictional consequences and the actual standings.",
+    "source_refs": [
+      "issue-previs.json#W10-P03",
+      "issue-previs.json#W10-P03"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

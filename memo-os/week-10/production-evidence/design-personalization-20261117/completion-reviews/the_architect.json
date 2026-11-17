@@ -1,0 +1,21 @@
+{
+  "id": "the_architect",
+  "kind": "director",
+  "status": "returned",
+  "scope": "Scene-led composition across all six sheets",
+  "structured": {
+    "scope": "written input review",
+    "keep": "one concrete source-backed strength",
+    "findings": [],
+    "optional_refinement": "",
+    "limits": "text only; no pixel acceptance"
+  },
+  "response": "{\n  \"scope\": \"written input review\",\n  \"keep\": \"one concrete source-backed strength\",\n  \"findings\": [],\n  \"optional_refinement\": \"\",\n  \"limits\": \"text only; no pixel acceptance\"\n}",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Installed Bullpen runtime with authorized local Ollama",
+  "input_sha256": "facaca57beb7f6df03d2349b71cc7c8dcf72aaec414d13fe19ff7397c220385f",
+  "started_at": "2026-11-17T17:27:39.549Z",
+  "finished_at": "2026-11-17T17:27:59.677Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

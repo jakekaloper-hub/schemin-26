@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P15 · READING POSITION 15
 
 IDENTITY INPUTS
@@ -146,7 +159,32 @@ SCENE AND CONTINUITY
     "No truck or cargo contact with hound",
     "Cancun is conditional joke until audited",
     "No permanent conquest or title transfer"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P15",
+    "family": "kinetic_action",
+    "dominant_action": "Mud Dogs' claimed authority meets a much larger routine delivery.",
+    "reading_path": "The low hound and entrance sign lead toward the truck on the higher usable road; show both ground levels.",
+    "heading_treatment": "Place the title in canopy space, avoiding a second freestanding graphic sign.",
+    "narration_placement": "Narration occupies clear water/foliage shadow alongside the existing service strip.",
+    "protected_subjects": "Quadruped Mud Dogs, Slob on my Dobb at the wheel, intact strapped cargo, failed low racing lane retained.",
+    "data_treatment": "No final score on the arrival unless supplied; no invented land decree.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P15",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P15",
+    "focus": "The hound believes his entrance marker still carries authority.",
+    "performance": "Keep all four paws on the low safe margin, with the truck approaching on the clearly higher, usable strip. The marker provides the territorial claim without blocking the truck physically.",
+    "narration_job": "The landlord comparison is fictional characterization; do not infer real ownership disputes or add a new confrontation.",
+    "source_refs": [
+      "issue-previs.json#W10-P15",
+      "facts.json#/historical_context/W10-G04",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P15–W10-P17"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

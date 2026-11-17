@@ -1,0 +1,21 @@
+{
+  "id": "the_beat_writer",
+  "kind": "director",
+  "status": "returned",
+  "scope": "Personalization of all six cinematic matchups without invented private incidents",
+  "structured": {
+    "scope": "written input review",
+    "keep": "one concrete source-backed strength",
+    "findings": [],
+    "optional_refinement": "",
+    "limits": "text only; no pixel acceptance"
+  },
+  "response": "{\n  \"scope\": \"written input review\",\n  \"keep\": \"one concrete source-backed strength\",\n  \"findings\": [],\n  \"optional_refinement\": \"\",\n  \"limits\": \"text only; no pixel acceptance\"\n}",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Installed Bullpen runtime with authorized local Ollama",
+  "input_sha256": "c2bc7adec24f14d2e8fcf497f20569ffb8ed16371ec8139974fd5426600a260c",
+  "started_at": "2026-11-17T17:27:59.680Z",
+  "finished_at": "2026-11-17T17:28:11.238Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

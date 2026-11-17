@@ -1,0 +1,21 @@
+{
+  "id": "the_umpire",
+  "kind": "director",
+  "status": "returned",
+  "scope": "Coverage and usability of all sixteen supporting folios",
+  "structured": {
+    "scope": "written input review",
+    "keep": "one concrete source-backed strength",
+    "findings": [],
+    "optional_refinement": "",
+    "limits": "text only; no pixel acceptance"
+  },
+  "response": "{\n  \"scope\": \"written input review\",\n  \"keep\": \"one concrete source-backed strength\",\n  \"findings\": [],\n  \"optional_refinement\": \"\",\n  \"limits\": \"text only; no pixel acceptance\"\n}",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Installed Bullpen runtime with authorized local Ollama",
+  "input_sha256": "9bbfe2a0a43df6b73ed29fcb9cef2e688ef52bd8de321f33e31a69f83f32b2f3",
+  "started_at": "2026-11-17T17:28:22.059Z",
+  "finished_at": "2026-11-17T17:28:34.745Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

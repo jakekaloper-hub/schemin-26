@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P09 · READING POSITION 9
 
 IDENTITY INPUTS
@@ -160,7 +173,32 @@ SCENE AND CONTINUITY
     "El Niño remains embodied",
     "Despair not playoff elimination",
     "2022 dialogue is newly authored fictional dialogue, not archive quote"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P09",
+    "family": "vertical_conflict",
+    "dominant_action": "An inland arrival becomes a falling-branch threat.",
+    "reading_path": "The wall-mounted hoop and descending limb organize a vertical page; Red Leopards' glance leads upward.",
+    "heading_treatment": "The title uses open wall/sky opposite the impact trajectory; include the existing later-location cue clearly.",
+    "narration_placement": "Narration sits in a legible side-wall shadow, not below a self-contained picture.",
+    "protected_subjects": "Right-wall backboard, established ivy and separate Central Basin location; branch contact remains legible.",
+    "data_treatment": "No new score or playoff status; retain exact supplied copy.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P09",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P09",
+    "focus": "The familiar court offers recognition immediately before another loss.",
+    "performance": "Use Red Leopards’ upward eyeline and the falling branch to distinguish this location and beat from the prior water scene. Keep the right-wall backboard.",
+    "narration_job": "The travel sentence and recognition do the emotional work; no new geography lecture or additional basketball contest.",
+    "source_refs": [
+      "issue-previs.json#W10-P09",
+      "facts.json#/historical_context/W10-G02",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P08–W10-P10"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

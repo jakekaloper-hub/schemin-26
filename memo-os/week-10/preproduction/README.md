@@ -1,3 +1,5 @@
+> Current creative continuation: [completed personalization pass](PERSONALIZATION_PASS_2026-11-17.md) and [34 implemented composition directions](design-review-20261117/composition-directions.json). All page prompts carry scene-led design and source-grounded performance/emphasis notes. Six alternative narrative lines are not inserted or approved; additional Founder notes remain optional. No new artwork in this pass.
+
 # Schemin ’26 — Week 10 current production entrypoint
 
 **Backend finalized: all six Week 10 outcomes are provider-decided, and all 34 source-bound full-folio inputs across six sheets are ready for generation.**

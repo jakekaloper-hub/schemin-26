@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P33 · READING POSITION 34
 
 IDENTITY INPUTS
@@ -65,7 +78,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "This is a preview, not a simultaneous Week10homecoming or a scripted Week11win. Further storm expansion remains conditional."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P33",
+    "family": "quiet_aftermath",
+    "dominant_action": "An ordinary delivery gives way to preparation for incoming weather.",
+    "reading_path": "Begin under the camp canopy with Slob on my Dobb and secured kegs, then look outward toward the darkening route.",
+    "heading_treatment": "THE FINAL WORD is restrained; closing title belongs in the distant cloud or canopy shadow, not another poster band.",
+    "narration_placement": "Full closing prose sits in the sheltered lamplight/shadow transition, with visible scene continuing around it.",
+    "protected_subjects": "Only Slob on my Dobb physically present; El Niño implied by weather, current costume not older horned variation.",
+    "data_treatment": "No invented future winner, new storm territory or falsely completed Week 11 lineup.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P33",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P33",
+    "focus": "End on the delivery winner preparing to become next week’s host.",
+    "performance": "Use calm preparation as the contrast to the noisy issue. The weather previews El Niño; the final paragraph should land in the shelter’s light, not another detached black box.",
+    "narration_job": "Keep Slob on my Dobb at the known foothill shelter with secured kegs and incoming weather.",
+    "source_refs": [
+      "issue-previs.json#W10-P33",
+      "issue-previs.json#W10-P33"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

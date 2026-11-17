@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P29 · READING POSITION 30
 
 IDENTITY INPUTS
@@ -34,7 +47,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Retain the disclosed method. No rank is presented as an official seed or a probability; re-run after Monday closes."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P29",
+    "family": "record_intelligence",
+    "dominant_action": "Scoring form ranks production, not playoff entitlement.",
+    "reading_path": "A twelve-row ranking sits in calm sky/reflected shadow while the established bridge cuts diagonally through a different visual region.",
+    "heading_treatment": "SCORING FORM and the disclosed method are concise and clear, not another billboard photograph.",
+    "narration_placement": "Full method paragraph uses quiet foreground stone/sky without covering the landscape's depth or ranking.",
+    "protected_subjects": "Ranked order distinct from official seeds; no weather or injury edits to the formula.",
+    "data_treatment": "All twelve index values exact; 70/30 method displayed once, level and readable.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P29",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P29",
+    "focus": "Explain scoring form as a different lens from the official standings.",
+    "performance": "Use the lake/bridge landscape as a calm counterpoint; make the method visible before the reader mistakes the order for playoff seeds.",
+    "narration_job": "Keep all twelve rows, final input scope and the unchanged 70/30 formula.",
+    "source_refs": [
+      "issue-previs.json#W10-P29",
+      "facts.json#/scoring_form"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

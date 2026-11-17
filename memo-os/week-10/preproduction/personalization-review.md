@@ -1,3 +1,5 @@
+> Current personalization workspace: [PERSONALIZATION_PASS_2026-11-17.md](PERSONALIZATION_PASS_2026-11-17.md). This file preserves earlier instructions and reviews; conflicting retired mechanisms are historical, not current render authority.
+
 > Archive of an earlier creative pass. Current authority is [whole-issue-pass-03.md](whole-issue-pass-03.md); compatible birthday, Ridge Gate and regional weather details remain retained. Superseded venue/mechanism ideas below are not active production instructions.
 
 # Week 10 — bounded Inklings-method review

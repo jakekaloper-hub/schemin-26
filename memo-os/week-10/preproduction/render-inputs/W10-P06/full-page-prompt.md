@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P06 · READING POSITION 6
 
 IDENTITY INPUTS
@@ -167,7 +180,32 @@ SCENE AND CONTINUITY
     "No fantasy main-cast crowd teleportation",
     "Rope catch precedes deliberate stopped binding",
     "No title transfer inferred"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P06",
+    "family": "kinetic_action",
+    "dominant_action": "The rope catches the outlaw before the service gate.",
+    "reading_path": "Follow the taut line to the torso catch and slipping boot; preserve the same side of the pursuit axis.",
+    "heading_treatment": "Keep the title offset in the clear gate-side sky, not across the catching rope.",
+    "narration_placement": "Read complete prose in a quiet lateral gallery space; words never cross rope, hands, face or skidding foot.",
+    "protected_subjects": "Torso/upper-arm capture, never neck; causal slip before manual binding; displaced hat persists.",
+    "data_treatment": "Preserve supplied factual copy only; no invented score or extra result label.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P06",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P06",
+    "focus": "Loss of footing is also loss of control over the spectacle.",
+    "performance": "The torso catch, continuous rope and sliding boot are the decisive visual information. Witness reaction is secondary, not a separate reaction panel.",
+    "narration_job": "The paragraph supplies irony about the crowd’s changed reaction; do not repeat a literal description as an extra caption.",
+    "source_refs": [
+      "issue-previs.json#W10-P06",
+      "facts.json#/historical_context/W10-G01",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P05–W10-P07"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

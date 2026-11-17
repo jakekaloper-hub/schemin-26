@@ -1,0 +1,24 @@
+{
+  "kind": "inklings_methodology",
+  "id": "ensemble_pacing_and_world_continuity",
+  "ids": [
+    "W10-P19",
+    "W10-P20",
+    "W10-P21"
+  ],
+  "q": "What personal detail should Jake decide for the birthday arc, and what must not be invented or displaced by that detail?",
+  "status": "returned_specific_json",
+  "structured": {
+    "page_ids": "W10-P19,W10-P20,W10-P21",
+    "keep": "200 BURGER",
+    "improve": "Maintain clear separation between cake and burger for impact.",
+    "boundary": "No invented age, no sword duel, no collapsed furniture."
+  },
+  "response": "{\n  \"page_ids\": \"W10-P19,W10-P20,W10-P21\",\n  \"keep\": \"200 BURGER\",\n  \"improve\": \"Maintain clear separation between cake and burger for impact.\",\n  \"boundary\": \"No invented age, no sword duel, no collapsed furniture.\"\n}",
+  "model": "qwen2.5-coder:7b",
+  "input_sha256": "9fd697724d5aa8385f5fd7e34053748fae4076385ce6e6f28498a5181e1a1321",
+  "started_at": "2026-11-17T17:21:11.137Z",
+  "finished_at": "2026-11-17T17:21:16.054Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

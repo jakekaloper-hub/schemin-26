@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P04 · READING POSITION 4
 
 IDENTITY INPUTS
@@ -34,7 +47,30 @@ SCENE AND CONTINUITY
   "continuity_out": [
     "Compact remains a civic scoreboard location only. Remove every implication that the D0nkey K0ng rodeo happens here."
   ],
-  "forbidden_mutations": []
+  "forbidden_mutations": [],
+  "composition_direction": {
+    "page_id": "W10-P04",
+    "family": "record_intelligence",
+    "dominant_action": "Six completed contests become a public, exact scoreboard.",
+    "reading_path": "Use one dominant aligned results surface within the pavilion sightline; the public approach and viewers create depth around it.",
+    "heading_treatment": "SCOREBOARD is concise; avoid a giant second banner taking room from the six pairings.",
+    "narration_placement": "The complete brief paragraph sits beside or above the results in continuous pavilion shade, not a detached footer.",
+    "protected_subjects": "All twelve full team names and six exact pairings; pavilion remains separate from the rodeo.",
+    "data_treatment": "Six level readable rows, two decimal scores and FINAL qualifiers; no perspective-distorted or image-invented lettering.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P04",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P04",
+    "focus": "Make the six exact results the neutral reference point for the stories.",
+    "performance": "Use consistent winning/losing emphasis and generous row spacing, not an enlarged favorite matchup that hides another result.",
+    "narration_job": "Keep all six pairings, full names and final figures in their current order.",
+    "source_refs": [
+      "issue-previs.json#W10-P04",
+      "facts.json#/games"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

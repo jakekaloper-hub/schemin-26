@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P28 · READING POSITION 29
 
 IDENTITY INPUTS
@@ -38,7 +51,30 @@ SCENE AND CONTINUITY
     "Division labels treated as geographic borders",
     "Unverified tiebreak explanation",
     "Clinched or eliminated language"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P28",
+    "family": "record_intelligence",
+    "dominant_action": "The same record produces different pressure in three divisions.",
+    "reading_path": "Three league standards share one terrace and landscape; each has a readable pressure summary in the same editorial plane.",
+    "heading_treatment": "Let the three group labels establish hierarchy; avoid a fourth competing grand title.",
+    "narration_placement": "Full intro and three callouts are spaced through quiet terrace/sky regions, not three separate country panels.",
+    "protected_subjects": "Divisions are league groupings, not geographical borders or new food kingdoms.",
+    "data_treatment": "Exact final records and all source callouts; no clinch or elimination claim added.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P28",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P28",
+    "focus": "Make the three division situations distinct without inventing three countries.",
+    "performance": "Let the three standards share one terrace, with each pressure paragraph adjacent to its correct emblem in a level editorial plane.",
+    "narration_job": "Retain Burgers, Pizza and Wings membership and current records.",
+    "source_refs": [
+      "issue-previs.json#W10-P28",
+      "facts.json#/divisions"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  }
 }
 
 EXACT FULL PUBLICATION COPY

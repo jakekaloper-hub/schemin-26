@@ -2,6 +2,19 @@ One individual 1080×1920 grayscale integrated illustrated memo folio: complete 
 
 Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
 
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait artwork per folio; contact sheets are downstream only.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
 PAGE W10-P07 · READING POSITION 7
 
 IDENTITY INPUTS
@@ -167,7 +180,32 @@ SCENE AND CONTINUITY
     "No fantasy main-cast crowd teleportation",
     "Rope catch precedes deliberate stopped binding",
     "No title transfer inferred"
-  ]
+  ],
+  "composition_direction": {
+    "page_id": "W10-P07",
+    "family": "quiet_aftermath",
+    "dominant_action": "Public embarrassment replaces the chase.",
+    "reading_path": "A low-wide view begins with the tied outlaw and hat, then reaches D0nkey K0ng and the watching galleries.",
+    "heading_treatment": "A smaller aftermath title allows the recognizable captive and rope work to lead.",
+    "narration_placement": "Full prose follows open arena-shadow to the side of the captive; final receipt is a distinct exact reading point, not a compulsory footer panel.",
+    "protected_subjects": "Manual hogtie, visible handwork, four planted hooves, same hat/rope/mud; no belt or property transfer.",
+    "data_treatment": "Exact FINAL winner/loser names, scores and football-context text remain readable and subordinate to the payoff.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P07",
+    "scope": "Layout instructions only; no new narrative, private anecdote, statistic, cast or permanent geography."
+  },
+  "personalization_direction": {
+    "page_id": "W10-P07",
+    "focus": "Public humiliation, not personal injury, is the payoff.",
+    "performance": "Leave the hat just beyond the tied outlaw and keep his look toward the entrance/crowd legible. D0nkey K0ng’s four hooves and manual rope work remain visible.",
+    "narration_job": "Let the menu reversal close the episode; the exact final receipt is factual, not a championship proclamation.",
+    "source_refs": [
+      "issue-previs.json#W10-P07",
+      "facts.json#/historical_context/W10-G01",
+      "personalization-intake.md#Latest Pass3 direction",
+      "issue-previs.json#W10-P05–W10-P07"
+    ],
+    "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+  }
 }
 
 EXACT FULL PUBLICATION COPY
