@@ -41,11 +41,43 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  function ring(g,x,y,z,inner,outer,scaleZ=1,m=M.sand){const o=mesh(g,new THREE.RingGeometry(inner,outer,56),m,x,y,z,'Open ring candidate');o.rotation.x=-Math.PI/2;o.scale.y=scaleZ;return o;}
  function desk(g,x,y,z,w=2.7,m=M.wood){const top=box(g,x,y+1.1,z,w,.15,1.1,m,'Record surface');for(const dx of [-w*.4,w*.4])box(g,x+dx,y,z,.17,1.1,.65,M.timber);return top;}
  function ledger(g,x,y,z){for(let i=0;i<3;i++)box(g,x+i*.18,y+i*.08,z,.7,.08,.55,i===1?M.red:M.ivory,'Unlettered ledger');}
+ // The four EXISTING other-site water bodies use a finer interior mesh so
+ // the environmental clock moves their actual surface, not just painted streaks.
+ // All rim vertices remain fixed at the original radius; this is candidate art,
+ // not a coastline, water-level, weather or Atlas-topology assertion.
+ function existingWaterDisk(){
+  const segments=56,rings=7,positions=[0,0,0],uvs=[.5,.5],indices=[];
+  for(let ring=1;ring<=rings;ring++)for(let i=0;i<segments;i++){
+   const a=i*Math.PI*2/segments,r=ring/rings,x=Math.cos(a)*r,y=Math.sin(a)*r;
+   positions.push(x,y,0);uvs.push(.5+x*.5,.5+y*.5);
+  }
+  for(let i=0;i<segments;i++)indices.push(0,1+i,1+(i+1)%segments);
+  for(let ring=1;ring<rings;ring++)for(let i=0;i<segments;i++){
+   const p=1+(ring-1)*segments+i,q=1+(ring-1)*segments+(i+1)%segments;
+   const n=1+ring*segments+i,m=1+ring*segments+(i+1)%segments;
+   indices.push(p,n,m,p,m,q);
+  }
+  const geo=new THREE.BufferGeometry();geo.name='Candidate existing-water interior';
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('uv',new THREE.Float32BufferAttribute(uvs,2));
+  geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+  return geo;
+ }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
-  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-   vertexShader:'varying vec2 vUv; void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+   vertexShader:`uniform float uTime;uniform float uAmplitude;varying vec2 vUv;
+    void main(){
+     vUv=uv;vec3 p=position;
+     float radius=length(position.xy);
+     // Preserve the original footprint and still-shoreline vertices at all times.
+     float interior=1.-smoothstep(.58,.95,radius);
+     float waveA=sin(position.x*12.7-uTime*1.18+sin(position.y*7.5)*.45);
+     float waveB=sin(position.y*10.2+uTime*.74+position.x*3.);
+     p.z+=uAmplitude*interior*(.72*waveA+.28*waveB);
+     gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+    }`,
    fragmentShader:`uniform float uTime;uniform vec3 uColor;varying vec2 vUv;void main(){float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));float line=pow(max(sin(vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7),0.),17.);float gap=smoothstep(.2,.85,.5+.5*sin(vUv.y*32.+uTime*.24));vec3 c=uColor+vec3(.09,.15,.14)*line*gap;gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
-  const o=mesh(g,new THREE.CircleGeometry(1,56),material,x,y,z,'Moving '+kind+' candidate');o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.receiveShadow=false;water.push({mesh:o,material,kind});return o;
+  const o=mesh(g,existingWaterDisk(),material,x,y,z,'Moving '+kind+' candidate');o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.receiveShadow=false;water.push({mesh:o,material,kind});return o;
  }
  function smoke(g,x,y,z){const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,vertexShader:'varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:'uniform float uTime;varying vec2 vUv;void main(){float x=vUv.x-.5-sin(vUv.y*8.-uTime*.65)*.08;float a=exp(-x*x*36.)*sin(vUv.y*3.14159)*(.65+.35*sin(vUv.y*22.-uTime*1.4));gl_FragColor=vec4(.64,.64,.58,a*.2);}'});materials.add(material);for(const yaw of [0,Math.PI/2]){const o=mesh(g,new THREE.PlaneGeometry(2,5),material,x,y+2.5,z,'Authored pit smoke');o.rotation.y=yaw;o.castShadow=false;}motion.push(material);}
  // A definition returns one representative object for each upstream landmark.
