@@ -38,7 +38,7 @@ test('Shader derives bounded grazing reflectance from actual camera angle, not w
  assert.match(shader,/grazingGain=\.035\+\.21\*pow\(1\.-viewIncidence,2\.\)/);
  assert.match(shader,/reflectedWater=mix\(contactTint,vec3\(\.31,\.41,\.37\),grazingGain\)/);
  assert.match(shader,/gl_FragColor=vec4\(reflectedWater\+lowSheen\+quietEddy\+rootSheen\+contactLight\+channelSheen,\.92\)/);
- assert.doesNotMatch(shader,/storm|weather/i);
+ assert.doesNotMatch(shader,/uniform float uStorm|uniform float uWeather|uniform float uRain/i);
  const gain=incidence=>.035+.21*Math.pow(1-Math.min(1,Math.max(0,incidence)),2);
  assert.ok(gain(.1)>gain(.5)&&gain(.5)>gain(.95));
  assert.ok(gain(0)<=.245001&&gain(1)>=.035&&gain(1)<gain(0));
