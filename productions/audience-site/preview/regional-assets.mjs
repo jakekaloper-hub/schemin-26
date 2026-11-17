@@ -4,7 +4,7 @@
  */
 export function buildRegionalAssets(THREE, bindings, height) {
   const root=new THREE.Group(); root.name='Southern Wetlands · candidate environment';
-  const locations=[],water=[],materials=new Map(),geometries=new Set(),textures=new Set(); let disposed=false;
+  const locations=[],water=[],ambientMotion=[],materials=new Map(),geometries=new Set(),textures=new Set(); let disposed=false;
   function texture(kind){const n=128,a=new Uint8Array(n*n*4);for(let y=0;y<n;y++)for(let x=0;x<n;x++){const noise=(Math.sin(x*31.71+y*17.19)*437.3)%1;let v=220+noise*16;if(kind==='stone'){const row=Math.floor(y/32),xx=(x+(row%2)*32)%64;if(y%32<2||xx<2)v=128+noise*10;}else if(kind==='wood')v-=Math.pow(.5+.5*Math.sin(x*.9+Math.sin(y*.1)*1.2),7)*48;const i=(y*n+x)*4;a[i]=a[i+1]=a[i+2]=Math.max(0,Math.min(255,v));a[i+3]=255;}const t=new THREE.DataTexture(a,n,n);t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(2,2);t.magFilter=THREE.LinearFilter;t.minFilter=THREE.LinearMipmapLinearFilter;t.generateMipmaps=true;t.colorSpace=THREE.SRGBColorSpace;t.needsUpdate=true;textures.add(t);return t;}
   const stoneTexture=texture('stone'),woodTexture=texture('wood');
   const mat=(color,roughness=.88)=>{const key=color+':'+roughness;if(!materials.has(key)){const stoneColors=['#b4ad89','#ddd2a6','#e4d8b3','#997856'];const woody=['#6b4c33','#665340'];const t=stoneColors.includes(color)?stoneTexture:woody.includes(color)?woodTexture:null;materials.set(key,new THREE.MeshStandardMaterial({color,roughness,metalness:0,map:t,bumpMap:t,bumpScale:t?.08:0}));}return materials.get(key);};
@@ -102,10 +102,60 @@ export function buildRegionalAssets(THREE, bindings, height) {
     bank.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmarks:['mud channels','raised ground']};
     bank.castShadow=false;bank.renderOrder=1;
   }
+  function wetlandEmergentVegetation(g){
+    // Read-only visualization of vegetation on the EXISTING candidate bank.
+    // No new botanical species, river boundary, crossing, named landmark or canon.
+    // Individual blade triangles share one GPU draw; roots stay fixed as tips sway.
+    const pos=[],sway=[],tints=[];
+    const palette=['#496944','#65815a','#55754b','#778962','#5b7657'].map(c=>new THREE.Color(c));
+    const bladesPerTuft=4,tufts=96;
+    for(let i=0;i<tufts;i++){
+      const patch=Math.floor(i/6),within=i%6;
+      const a=patch/16*Math.PI*2+(within-2.5)*.033+Math.sin(i*7.17)*.009;
+      const r=1.105+.067*(.5+.5*Math.sin(i*2.19));
+      const x=Math.cos(a)*10.5*r,z=Math.sin(a)*8.2*r;
+      const y=.175+.042*(.5+.5*Math.sin(a*9.));
+      for(let j=0;j<bladesPerTuft;j++){
+        const phase=i*2.399+j*2.04;
+        const b=a+j*2.094+Math.sin(i*.82)*.25;
+        const dx=Math.cos(b),dz=Math.sin(b);
+        const h=.38+((i*13+j*7)%19)*.043;
+        const width=.047+(i+j*3)%5*.012;
+        const tipX=x+Math.sin(b*2.+i)*.10,tipZ=z+Math.cos(b*2.+i)*.07;
+        const tint=palette[(i+j)%palette.length];
+        const verts=[x-dx*width,y,z-dz*width,x+dx*width,y,z+dz*width,tipX,y+h,tipZ];
+        pos.push(...verts);
+        sway.push(phase,0,phase,0,phase,1);
+        for(let k=0;k<3;k++)tints.push(tint.r,tint.g,tint.b);
+      }
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
+    geo.setAttribute('aSway',new THREE.Float32BufferAttribute(sway,2));
+    geo.setAttribute('aTint',new THREE.Float32BufferAttribute(tints,3));
+    geo.computeVertexNormals();geo.computeBoundingSphere();
+    const m=new THREE.ShaderMaterial({
+      uniforms:{uTime:{value:0}},side:THREE.DoubleSide,depthWrite:true,
+      vertexShader:`uniform float uTime;attribute vec2 aSway;attribute vec3 aTint;varying vec3 vTint;varying float vHeight;
+      void main(){vTint=aTint;vHeight=aSway.y;
+      float flutter=sin(uTime*.77+aSway.x)+.32*sin(uTime*1.29+aSway.x*1.41);
+      vec3 p=position;p.x+=flutter*aSway.y*.16;p.z+=flutter*aSway.y*.07;
+      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);}`,
+      fragmentShader:`varying vec3 vTint;varying float vHeight;
+      void main(){gl_FragColor=vec4(vTint*(.78+.16*vHeight),1.);
+      #include <tonemapping_fragment>
+      #include <colorspace_fragment>
+      }`
+    });
+    materials.set('candidate-wetland-emergent',m);ambientMotion.push(m);
+    const o=mesh(g,geo,m,0,0,0);o.name='Candidate wetland emergent vegetation';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['cypress-like wetlands','raised ground'],navigable:false,routeIds:[]};
+    o.castShadow=false;o.receiveShadow=false;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
-    wetlandShoreline(g);
+    wetlandShoreline(g);wetlandEmergentVegetation(g);
     const islands=[[1,.1,1,4,1.2,3],[-6,.1,-3,3,.9,2.7],[6,.2,-4,3.5,1,2.8],[-4,.1,5,2.7,.8,2]];
     for(let a of islands)rock(g,...a,moss);
     for(let i=0;i<14;i++){
@@ -196,7 +246,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
   const builders={'LOC-TDS-WATERFALL-TEMPLE':temple,'LOC-MUD-DOGS-SWAMP':swamp,'LOC-COUNTRY-CLUB-JACKSON':estate};
   for(const p of bindings){if(!builders[p.id])continue;const g=new THREE.Group();g.name=p.id;g.userData={locationId:p.id,visualAuthority:'CANDIDATE_NOT_APPROVED',stateResolution:'UNRESOLVED_NOT_CURRENT_STATE',principalCharacters:[]};g.position.set(p.anchor[0],Math.max(.65,height(p.anchor[0],p.anchor[2])),p.anchor[2]);builders[p.id](g);root.add(g);locations.push({id:p.id,group:g,sourceStatus:p.canonStatus});}
   return {root,locations,water,worldMutationAllowed:false,principalCharacters:[],
-    tick(time,{paused=false}={}){if(disposed||paused)return;if(!Number.isFinite(time))throw Error('INVALID_ANIMATION_TIME');for(const w of water)w.material.uniforms.uTime.value=time;},
+    tick(time,{paused=false}={}){if(disposed||paused)return;if(!Number.isFinite(time))throw Error('INVALID_ANIMATION_TIME');for(const w of water)w.material.uniforms.uTime.value=time;for(const m of ambientMotion)m.uniforms.uTime.value=time;},
     dispose(){if(disposed)return;disposed=true;for(const g of geometries)g.dispose();for(const m of materials.values())m.dispose();for(const t of textures)t.dispose();root.clear();}
   };
 }
