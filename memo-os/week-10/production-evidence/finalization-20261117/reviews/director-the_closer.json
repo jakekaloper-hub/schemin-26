@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_closer",
+  "name": "The Closer",
+  "domain": "synthesis",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:35:50.446Z",
+  "finished_at": "2026-11-17T16:36:26.001Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The camera description for W10-P02 does not match the actual content. The description mentions a briefing table composition, but the actual content is a full-page grayscale memo folio with integrated prose.\",\n      \"required_fix\": \"Update the camera description for W10-P02 to reflect the actual content of the page.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 1,
+  "actual_input_sha256": "e8d44845074c64d82848d256d3feb29d928b08f607645af1f19ab14a27cc17e3",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P02"
+        ],
+        "severity": "major",
+        "observation": "The camera description for W10-P02 does not match the actual content. The description mentions a briefing table composition, but the actual content is a full-page grayscale memo folio with integrated prose.",
+        "required_fix": "Update the camera description for W10-P02 to reflect the actual content of the page."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

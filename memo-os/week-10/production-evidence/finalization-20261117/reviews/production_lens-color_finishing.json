@@ -1,0 +1,32 @@
+{
+  "kind": "production_lens",
+  "id": "color_finishing",
+  "name": "Jill Bogdanowicz",
+  "domain": "color_finishing",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:47:35.414Z",
+  "finished_at": "2026-11-17T16:47:48.857Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy indicates a potential error in the headline.\",\n      \"required_fix\": \"Update the headline to 'ONE CROSSOVER AND THREE DIVISIONAL ROUNDS REMAIN' to match the body text.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 6,
+  "actual_input_sha256": "5b57bc8d709f4730562ecf679429471a62a1a8b08f3029cf924ef815bd8f19ba",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P30"
+        ],
+        "severity": "major",
+        "observation": "The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy indicates a potential error in the headline.",
+        "required_fix": "Update the headline to 'ONE CROSSOVER AND THREE DIVISIONAL ROUNDS REMAIN' to match the body text."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

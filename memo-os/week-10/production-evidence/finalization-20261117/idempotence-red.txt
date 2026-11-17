@@ -1,0 +1,15 @@
+test_availability_exclusion_ids_are_unique (test_final_results.FinalResults.test_availability_exclusion_ids_are_unique) ... FAIL
+
+======================================================================
+FAIL: test_availability_exclusion_ids_are_unique (test_final_results.FinalResults.test_availability_exclusion_ids_are_unique)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 55, in test_availability_exclusion_ids_are_unique
+    ids=[x['id'] for x in rows];self.assertEqual(len(ids),len(set(ids)),pos)
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 6 != 5 : K
+
+----------------------------------------------------------------------
+Ran 1 test in 0.040s
+
+FAILED (failures=1)

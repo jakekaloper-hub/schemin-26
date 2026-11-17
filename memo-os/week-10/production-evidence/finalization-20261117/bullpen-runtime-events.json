@@ -1,0 +1,266 @@
+{
+  "events": [
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_groundskeeper",
+        "messageLength": 7970,
+        "responseLength": 498,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 12981
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_gm",
+        "messageLength": 10573,
+        "responseLength": 559,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 20828
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_pitching_coach",
+        "messageLength": 9641,
+        "responseLength": 557,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 20406
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_warden",
+        "messageLength": 9741,
+        "responseLength": 525,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 20458
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_commissioner",
+        "messageLength": 10331,
+        "responseLength": 654,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 20423
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_analyst",
+        "messageLength": 12283,
+        "responseLength": 371,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 20690
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 7965,
+        "responseLength": 483,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 16991
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_agent",
+        "messageLength": 10578,
+        "responseLength": 495,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 20529
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_bookkeeper",
+        "messageLength": 9633,
+        "responseLength": 546,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 19916
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_commissioner_general",
+        "messageLength": 9752,
+        "responseLength": 515,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 19475
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_clubhouse_manager",
+        "messageLength": 10331,
+        "responseLength": 425,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 18039
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_scout_master",
+        "messageLength": 12284,
+        "responseLength": 459,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 21533
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_architect",
+        "messageLength": 7973,
+        "responseLength": 522,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 16282
+      }
+    ]
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_groundskeeper",
+      "messageLength": 7970,
+      "responseLength": 498,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 12981
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_gm",
+      "messageLength": 10573,
+      "responseLength": 559,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 20828
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_pitching_coach",
+      "messageLength": 9641,
+      "responseLength": 557,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 20406
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_warden",
+      "messageLength": 9741,
+      "responseLength": 525,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 20458
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_commissioner",
+      "messageLength": 10331,
+      "responseLength": 654,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 20423
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_analyst",
+      "messageLength": 12283,
+      "responseLength": 371,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 20690
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_librarian",
+      "messageLength": 7965,
+      "responseLength": 483,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 16991
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_agent",
+      "messageLength": 10578,
+      "responseLength": 495,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 20529
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_bookkeeper",
+      "messageLength": 9633,
+      "responseLength": 546,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 19916
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_commissioner_general",
+      "messageLength": 9752,
+      "responseLength": 515,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 19475
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_clubhouse_manager",
+      "messageLength": 10331,
+      "responseLength": 425,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 18039
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_scout_master",
+      "messageLength": 12284,
+      "responseLength": 459,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 21533
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_architect",
+      "messageLength": 7973,
+      "responseLength": 522,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 16282
+    }
+  ]
+}

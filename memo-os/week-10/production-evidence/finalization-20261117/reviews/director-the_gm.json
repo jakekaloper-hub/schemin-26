@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_gm",
+  "name": "The GM",
+  "domain": "product",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:39:02.133Z",
+  "finished_at": "2026-11-17T16:39:22.962Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 scoreboard page incorrectly lists 'The Chili Cheesers' as the home team against 'D0nkey K0ng' in the first game, but the actual game result shows 'D0nkey K0ng' as the winner with 156.67 points.\",\n      \"required_fix\": \"Correct the home and away team labels on page W10-P04 to reflect the actual game result.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 1,
+  "actual_input_sha256": "88da9c7972cd461d3ce0bb7698d4d052957b88ce1c3eae40fe2ddb98854c63e8",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P04"
+        ],
+        "severity": "major",
+        "observation": "The Week 10 scoreboard page incorrectly lists 'The Chili Cheesers' as the home team against 'D0nkey K0ng' in the first game, but the actual game result shows 'D0nkey K0ng' as the winner with 156.67 points.",
+        "required_fix": "Correct the home and away team labels on page W10-P04 to reflect the actual game result."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

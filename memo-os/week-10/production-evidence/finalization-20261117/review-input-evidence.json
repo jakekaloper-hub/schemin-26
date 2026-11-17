@@ -1,0 +1,2100 @@
+{
+  "scope": "Pre-render audit only. No new image is generated. Assess actual written render inputs, not nonexistent final pixels.",
+  "constraints": "User requires real 1080x1920 full-page grayscale memo folios with full editorial copy, not approximate miniatures. Six contacts are downstream scaled copies. All 12 canonical crop bytes recovered and hash checked; later Chili appearance is recovered from visually matching local copy with separately recorded hash. All six Week10 ESPN winners are now AWAY, final scores and official standings through10 are crosschecked with fresh Flaim. Week11 remains undecided. Earlier generic images rejected.",
+  "visualObservations": "Official Week2 p2 and Weeks7,8,9 p2 opened as actual pixels. Weeks7-9 Opening Drive is briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose, not bridge-travel picture. Week7 p8-10 Forgotten Court has RIGHT-WALL mounted backboard, red ivy, worn hard court, ruin/waterfall skyline. Week9 p12-14 soccer terrace has grass goal, high stepped walls, approach arch, narrow exit, trapped truck and wrecked net. Separate regions.",
+  "identities": [
+    {
+      "id": "CHAR-JAKE-KALOPER",
+      "name": "ObiWan Jacoby",
+      "morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+      "negative": [
+        "championship belt",
+        "changing golden retriever into mount",
+        "changing blade away from green"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-WILSON-LOOK",
+      "name": "D0nkey K0ng",
+      "morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+      "negative": [
+        "bipedal-only gorilla",
+        "gorilla rider on separate horse",
+        "human torso",
+        "missing lower pair of legs"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-PHILLIP-PITTS",
+      "name": "Three Dreaded Snake",
+      "morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+      "negative": [
+        "single-headed snake",
+        "three separate creatures",
+        "restoring long pre-haircut dreads"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-AUSTIN-BYARS",
+      "name": "His Majesty's Blood",
+      "morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+      "negative": [
+        "unhooded bearded king",
+        "vampire mascot",
+        "crown as head replacement",
+        "removing red eyes",
+        "assigning championship belt to ObiWan"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-BRANDON-PRYOR",
+      "name": "The Chili Cheesers",
+      "morphology": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+      "negative": [
+        "horse fused to human",
+        "generic town sheriff supersession",
+        "loss of The Dark Horse"
+      ],
+      "override": {
+        "anatomy": "Adult rugged human cowboy outlaw, not anthropomorphic; The Dark Horse is a distinct four-legged black horse companion",
+        "face": "Dark beard and moustache, medium-length dark windswept hair, black sunglasses, weathered features",
+        "hat": "Weathered black-brown Western cowboy hat with red chili pepper and brass-metal ornamentation",
+        "outfit": "Long deep crimson and rust red leather outlaw coat or cape, red neckerchief, black tactical-western shirt, red cartridges across chest, leather gloves, dark scarred trousers and rugged black boots",
+        "equipment": "Western revolver, black-leather holster, prominent CHILI OUTLAW belt buckle",
+        "color_palette": [
+          "deep crimson",
+          "burnt orange",
+          "weathered black leather",
+          "brass",
+          "warm gunmetal"
+        ],
+        "companion": "The Dark Horse: separate black horse, optionally beside or behind Brandon in group scenes",
+        "cinematography": "Low-angle heroic western framing with warm sunset backlight, dramatic smoke and dust; camera/framing may vary by scene",
+        "forbidden": [
+          "generic sheriff substitution",
+          "clean-shaven cowboy",
+          "human-horse fusion or centaur",
+          "changing the Dark Horse to another animal",
+          "swapping Brandon's face or costume with another principal character",
+          "treating the poster lettering or exact pose as mandatory in every scene"
+        ]
+      }
+    },
+    {
+      "id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "name": "Slob on my Dobb",
+      "morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+      "negative": [
+        "duck head",
+        "executive suit identity",
+        "slender body substitute"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-ZACH-WILSON",
+      "name": "Dr. Duckhook",
+      "morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+      "negative": [
+        "full ordinary human head",
+        "missing duck bill",
+        "golf-club identity omitted"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-KEVIN-ZEEK",
+      "name": "Red Leopards",
+      "morphology": "Red spotted anthropomorphic predatory leopard-warrior",
+      "negative": [
+        "human-faced warrior",
+        "plain golden cat without red spots",
+        "canine head"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-BOBBY-MITCHELL",
+      "name": "Mud Dogs",
+      "morphology": "Large mud- and moss-caked feral four-legged swamp hound",
+      "negative": [
+        "humanoid brawler replacing swamp dog",
+        "clean show-dog appearance",
+        "leopard spots"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-BEN-WHIPPLE",
+      "name": "Seven Deadly Chins",
+      "morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+      "negative": [
+        "slim athletic substitute",
+        "animal-headed characterization",
+        "executive suit"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-DAVID-BABB",
+      "name": "The LLC",
+      "morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+      "negative": [
+        "gorilla centaur",
+        "monster body",
+        "leopard head"
+      ],
+      "override": null
+    },
+    {
+      "id": "CHAR-MANNING-WELTY",
+      "name": "El Niño",
+      "morphology": "Long-haired muscular human storm / ocean elemental",
+      "negative": [
+        "literal storm cloud replacing humanoid body",
+        "additional magical limbs",
+        "assuming numerical physics from graphic"
+      ],
+      "override": null
+    }
+  ],
+  "pages": [
+    {
+      "id": "W10-P01",
+      "sheet": 1,
+      "position": 1,
+      "characters": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-DAVID-BABB"
+      ],
+      "location": {
+        "venue_id": null,
+        "set_id": "SET-W10-DUAL-200-EDITORIAL-COVER",
+        "venue_type": "EDITORIAL_DUAL_LOCATION_COVER_NOT_LITERAL_MEETING",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Jackson birthday atmosphere",
+          "Mountain assault command position"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "location_refs": [
+          "LOC-COUNTRY-CLUB-JACKSON",
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        ],
+        "unregistered_parent_explained": true
+      },
+      "camera": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit as in the mountain assault. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.",
+      "body": "His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. The Commonwealth’s first two 200-point scores of this season arrive beneath a sky growing harder to ignore.",
+      "headline": "THE CEILING BREAKS",
+      "department": "SCHEMIN ’26 · WEEK 10",
+      "refs": [
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P02",
+      "sheet": 1,
+      "position": 2,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
+        "venue_type": "EDITORIAL_STAGING_IN_REGISTERED_LEAGUE_INSTITUTION",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "records desk",
+          "map wall",
+          "published Opening Drive table and banner language"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions.",
+      "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.",
+      "headline": "ROOM ABOVE TWO HUNDRED",
+      "department": "OPENING DRIVE",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P03",
+      "sheet": 1,
+      "position": 3,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-MAP-THRESHOLD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber map wall and threshold"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Eye-level three-quarter institutional interior; opened door and map wall establish the wider world.",
+      "body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. The numbers have settled, and six teams now share 6–4 records. The next week will ask each of us what we have left to field.",
+      "headline": "KEEP THE WHOLE LEAGUE IN VIEW",
+      "department": "FROM THE COMMISSIONER",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P04",
+      "sheet": 1,
+      "position": 4,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "set_id": "SET-W10-COMPACT-PUBLIC-BOARD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Compact Neutral Grounds public result approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Broad landscape across the open ceremonial field toward the existing arbiter pavilion; exact scores inhabit a temporary, scene-lit result standard.",
+      "body": "Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.",
+      "headline": "THE WEEK 10 BOARD",
+      "department": "SCOREBOARD",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P05",
+      "sheet": 1,
+      "position": 5,
+      "characters": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "location": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Low rail-side wide diagonal, The Chili Cheesers ahead on screen-left, D0nkey K0ng pursuing from screen-right; gate rear-left.",
+      "body": "The Chili Cheesers has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to D0nkey K0ng. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.",
+      "headline": "Everybody Gets a View",
+      "department": "The Chili Cheesers vs D0nkey K0ng",
+      "refs": [
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P06",
+      "sheet": 1,
+      "position": 6,
+      "characters": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "location": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Lateral view from the same side of the pursuit axis; catch and skidding boot legible, no hidden cause.",
+      "body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers’ own decision to flee have done the work.",
+      "headline": "The Ring Runs Out",
+      "department": "The Chili Cheesers vs D0nkey K0ng",
+      "refs": [
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P07",
+      "sheet": 2,
+      "position": 7,
+      "characters": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "location": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Low public aftermath: The Chili Cheesers lies foreground with the wet rope secured by visible handwork, hat beside him; behind, D0nkey K0ng is one integrated gorilla-centaur with all four hooves planted. Same wet center-ring mud, gate and galleries. No championship belt or property transfer appears.",
+      "body": "D0nkey K0ng finishes the binding in the center ring, with all four hooves planted and the rope's path plain to see. The Chili Cheesers lies hogtied, hat just out of reach, looking back at the entrance where he had expected to be the attraction. Last week he had served humiliation to a champion. This week the Commonwealth has found a new course for the menu.",
+      "headline": "No Private Exit",
+      "department": "The Chili Cheesers vs D0nkey K0ng",
+      "refs": [
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P08",
+      "sheet": 2,
+      "position": 8,
+      "characters": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "location": {
+        "venue_id": "LOC-RED-RUINS",
+        "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
+        "venue_type": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION",
+        "region_id": "REG-EASTERN-STORM-COAST",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 9 stepped grass soccer terrace",
+          "stone approach arch on near-left",
+          "small far goal now damaged, net displaced",
+          "narrow stone exit and trapped truck position from Week 9",
+          "old tire ruts; shallow overflow uses low edge"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Low oblique from the known soccer-terrace edge: Red Leopards actively lowers a sandbag in the foreground while a shallow trickle curls around its exposed end into the old tire rut. The damaged goal, stone approach and narrow exit retain their Week 9 positions; no basketball basket or tidal wall.",
+      "body": "The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red Leopards to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red Leopards shifted another bag into place. The water went around it. In 2022, he had beaten El Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.",
+      "headline": "One More Bag",
+      "department": "Red Leopards vs El Niño",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P09",
+      "sheet": 2,
+      "position": 9,
+      "characters": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "location": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "region_id": "REG-CENTRAL-BASIN",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": true,
+        "source_location_ref": {
+          "type": "PUBLISHED_ARTWORK_SET",
+          "week": 7,
+          "physical_pages": [
+            8,
+            9,
+            10
+          ],
+          "name": "The Forgotten Court",
+          "region_id": "REG-CENTRAL-BASIN",
+          "permanent_atlas_id": null,
+          "exact_visual_reference_recovered": true
+        }
+      },
+      "camera": "Echo the Week7 court angle; near-left arrival, hoop upper/right, branch trajectory clear.",
+      "body": "Later, in the Central Basin, Red Leopards reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.",
+      "headline": "The Place That Answered Once",
+      "department": "Red Leopards vs El Niño",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P10",
+      "sheet": 2,
+      "position": 10,
+      "characters": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "location": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "region_id": "REG-CENTRAL-BASIN",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": true,
+        "source_location_ref": {
+          "type": "PUBLISHED_ARTWORK_SET",
+          "week": 7,
+          "physical_pages": [
+            8,
+            9,
+            10
+          ],
+          "name": "The Forgotten Court",
+          "region_id": "REG-CENTRAL-BASIN",
+          "permanent_atlas_id": null,
+          "exact_visual_reference_recovered": true
+        }
+      },
+      "camera": "Lower still aftermath along the same axis: Red Leopards seated, damaged hoop right, embodied El Niño across the court.",
+      "body": "The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs across the rain-swept court, and the old semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.",
+      "headline": "That Cold Again",
+      "department": "Red Leopards vs El Niño",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P11",
+      "sheet": 2,
+      "position": 11,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Upper Basin Connector near the mountain-lake approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "High oblique along the known connector approaching the stone bridge, with road, water and weather in successive depths.",
+      "body": "On the exposed coast, water finds the old damage. Farther inland, gusts take the trees and banners. In the southern wetlands, runoff arrives later through familiar channels. Up here, travelers tighten their covers and the lamps come on early. The Commonwealth has not changed places. The weather has reached more of them.",
+      "headline": "THE ROADS BETWEEN",
+      "department": "THE COMMONWEALTH",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P12",
+      "sheet": 2,
+      "position": 12,
+      "characters": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "location": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Ground-level upward diagonal joining drill point, Seven Deadly Chins grin, balcony and doorway.",
+      "body": "There had been a time when the temple's waterfall was the loudest thing the family heard. Now a jackhammer bites the courtyard paving, sending pale chips against steps worn smooth over years. Behind the upstairs door the newborn starts crying. Three Dreaded Snake's partner calls for help. Three heads reach the balcony at once, none of them prepared for the sight of Seven Deadly Chins enjoying himself below.",
+      "headline": "Just as the House Settles",
+      "department": "Three Dreaded Snake vs Seven Deadly Chins",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P13",
+      "sheet": 3,
+      "position": 13,
+      "characters": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "location": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Over Three Dreaded Snake shoulder from balcony toward Seven Deadly Chins below; eye contact and volume change visible.",
+      "body": "Three Dreaded Snake shouts down to stop. Seven Deadly Chins lets the hammer go quiet long enough to look up. For one hopeful breath the waterfall fills the court again. Three Dreaded Snake turns toward the crying child. Then Seven Deadly Chins laughs, turns the music higher and plants the bit in the next square of paving. The insult is not that he could not hear. It is that he listened and chose the encore.",
+      "headline": "He Heard You",
+      "department": "Three Dreaded Snake vs Seven Deadly Chins",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P14",
+      "sheet": 3,
+      "position": 14,
+      "characters": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "location": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Courtyard-height view, drill and music source below, furious three-headed silhouette above.",
+      "body": "Broken concrete lies in a widening crescent around the same jackhammer. Seven Deadly Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season Three Dreaded Snake beat Seven Deadly Chins twice. This week Seven Deadly Chins has discovered a form of revenge that needs neither a trophy nor permission.",
+      "headline": "No Quiet Hours",
+      "department": "Three Dreaded Snake vs Seven Deadly Chins",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P15",
+      "sheet": 3,
+      "position": 15,
+      "characters": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "location": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Low from Mud Dogs’ shoulder, channel and higher service route visible together.",
+      "body": "Mud Dogs plants himself beside the old swamp entrance marker, blocking the raised service strip with the confidence of a landlord. Beyond him comes a long flatbed of beer, driven by Slob on my Dobb with the ease of a man on a familiar delivery run. The swamp is wet, the old racing ruts are full, and the cargo straps are tight. Mud Dogs barks a warning. Slob on my Dobb checks the mirror.",
+      "headline": "The Swamp Declares a Blockade",
+      "department": "Mud Dogs vs Slob on my Dobb",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P16",
+      "sheet": 3,
+      "position": 16,
+      "characters": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "location": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Side-on pass, Mud Dogs lower foreground and Slob on my Dobb visible at cab window above.",
+      "body": "The truck does not stop. Slob on my Dobb does not even make a show of defiance. He keeps the wheels on the firm strip, guides the kegs around the bend and rolls past at ordinary speed. Mud Dogs follows on the soft shoulder, barking harder as the trailer grows longer and less interested in him. The joke is not that Slob on my Dobb has conquered the swamp. It is that the swamp has ceased to inconvenience his schedule.",
+      "headline": "Same Speed",
+      "department": "Mud Dogs vs Slob on my Dobb",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P17",
+      "sheet": 3,
+      "position": 17,
+      "characters": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "location": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "camera": "Wide receding route; small Mud Dogs beneath entrance marker, truck departing into depth.",
+      "body": "The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: at 2–8, a narrow division-title route still exists. Another loss closes it. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.",
+      "headline": "Cancún Is Calling",
+      "department": "Mud Dogs vs Slob on my Dobb",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P18",
+      "sheet": 3,
+      "position": 18,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-SCORING-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive scoring hall"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Deep oblique across an old scoring desk toward open record-hall arches; exact concise performance lettering follows the open illustrated air and existing ledger surface.",
+      "body": "Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.",
+      "headline": "WHY THE BOARD MOVED",
+      "department": "SPORTS DESK",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P34",
+      "sheet": 4,
+      "position": 19,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive late dispatch alcove"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Deep late-working archive scene; a courier places fresh reports beside an older retained ledger.",
+      "body": "Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s reported season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.",
+      "headline": "THE COST OF SUNDAY",
+      "department": "INJURY REPORT",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P19",
+      "sheet": 4,
+      "position": 20,
+      "characters": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "location": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      },
+      "camera": "Wide view from just inside the dining-hall entrance, slightly below the standing guests’ eyeline. A long table leads toward Dr. Duckhook’s birthday chair, while His Majesty's Blood and his oversized wrapped box enter along a clear aisle. Show the hall as one continuous inhabited space.",
+      "body": "The dining hall in Jackson is full enough that the guests must turn sideways between the streamers and the cakes. Dr. Duckhook is the birthday boy, a host in his own kingdom of polished tables and familiar club service. His Majesty's Blood arrives beneath the storm-dark windows carrying an enormous present, belt visible and sword irrelevant. Last year Dr. Duckhook came within four tenths of stopping this rival's championship path. Tonight he opens the door to him.",
+      "headline": "A Very Generous Guest",
+      "department": "Dr. Duckhook vs His Majesty's Blood",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P20",
+      "sheet": 4,
+      "position": 21,
+      "characters": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "location": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      },
+      "camera": "Table-height three-quarter view along the established gift-opening axis. The open box reveals a colossal double-decker hamburger with both stacked layers legible; 200 BURGER is an earned prop label. Dr. Duckhook reacts opposite His Majesty’s Blood; the separate birthday cake remains on the sideboard. Preserve the window mullion, service-door angle and guests.",
+      "body": "Dr. Duckhook pulls the ribbon, raises the lid and discovers a double-decker hamburger big enough to have a title: 200 BURGER. For a moment he tries to smile like a gracious host. Then the guests understand what the number means. His Majesty's Blood has given him a celebration he can neither refuse nor explain away. The separate birthday cake waits on the sideboard.",
+      "headline": "The 200 Burger",
+      "department": "Dr. Duckhook vs His Majesty's Blood",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P21",
+      "sheet": 4,
+      "position": 22,
+      "characters": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "location": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      },
+      "camera": "Unobstructed three-quarter cake-to-face payoff: His Majesty’s Blood has lifted the separate cake with candles removed and presses it onto Dr. Duckhook’s orange bill. Hands, cake contact and frosting on the green vest remain visible. The untouched double-decker burger stays in its open box to the side; table and witnesses stay fixed.",
+      "body": "His Majesty's Blood presses that cake squarely into Dr. Duckhook's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week The Chili Cheesers made His Majesty's Blood the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.",
+      "headline": "Many Unhappy Returns",
+      "department": "Dr. Duckhook vs His Majesty's Blood",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P22",
+      "sheet": 4,
+      "position": 23,
+      "characters": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "location": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      },
+      "camera": "Low three-quarter view just outside the inner arch; diagonal approach opens upward into the frame.",
+      "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red Leopards fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
+      "headline": "The Empire Opens Fire",
+      "department": "ObiWan Jacoby vs The LLC",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P23",
+      "sheet": 4,
+      "position": 24,
+      "characters": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "location": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      },
+      "camera": "Side view from the same side of the approach, raised enough to reveal the shelf without reversing screen direction.",
+      "body": "ObiWan Jacoby takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.",
+      "headline": "Two Ways Through",
+      "department": "ObiWan Jacoby vs The LLC",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P24",
+      "sheet": 5,
+      "position": 25,
+      "characters": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "location": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      },
+      "camera": "Human-height view outward from the inner arch: ObiWan Jacoby defends with his green blade and separate golden retriever sheltered behind him. One distant Imperial battery is destroyed and smoking; the single surviving battery has multiple barrels converging on the defended approach. Smoke and flags blow in the same established direction. No regenerated battery or second functioning emplacement.",
+      "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.",
+      "headline": "Unlimited Firepower",
+      "department": "ObiWan Jacoby vs The LLC",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P25",
+      "sheet": 5,
+      "position": 26,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber outer loggia"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Wide view along an inhabited open loggia, equipment hooks and the road in depth; seven short needs are lettered in the continuous atmosphere.",
+      "body": "Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.",
+      "headline": "THE NEXT STARTING SHEET",
+      "department": "RESERVE WATCH",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P26",
+      "sheet": 5,
+      "position": 27,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive courier intake desk"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf.",
+      "body": "The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.",
+      "headline": "MOVES THAT REACHED THE ROSTER",
+      "department": "TRANSACTIONS",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P27",
+      "sheet": 5,
+      "position": 28,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-STANDINGS-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive record hall"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present.",
+      "body": "Six teams share 6–4 records, with Slob on my Dobb first in the provider’s seeding and first in total points. Red Leopards and The Chili Cheesers follow at 5–5. Equal records do not mean interchangeable seeds: the order below preserves ESPN’s posted table, including the division and tiebreak structure.",
+      "headline": "TWELVE TEAMS. TEN POSTED RESULTS.",
+      "department": "STANDINGS",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P28",
+      "sheet": 5,
+      "position": 29,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-DIVISION-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber public terrace"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution.",
+      "body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+      "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+      "department": "STATE OF THE REALM",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P29",
+      "sheet": 5,
+      "position": 30,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Mountain-lake overlook"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Landscape-dominant view from a worn lakeside approach, bridge receding diagonally; twelve compact ranked names sit in coherent open sky/reflected shadow, not report boxes.",
+      "body": "Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
+      "headline": "THE TWELVE — SCORING FORM",
+      "department": "SCORING FORM",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P30",
+      "sheet": 6,
+      "position": 31,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+        "set_id": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Alpine Wager Route, above the existing base camp"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing.",
+      "body": "All twelve teams still have a route, and none has clinched. At 2–8, Mud Dogs can still win Burgers at 6–8 through a specific set of results. A further loss eliminates that possibility and the remaining shared-place route. Four games remain: one crossover, then three divisional rounds.",
+      "headline": "FOUR MORE AFTER THIS",
+      "department": "THE PLAYOFF ROAD",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P31",
+      "sheet": 6,
+      "position": 32,
+      "characters": [],
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber outward-facing fixture terrace"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Broad terrace facing outward routes, six concise pairings integrated with temporary traveling standards.",
+      "body": "His Majesty’s Blood visits D0nkey K0ng in the Game of the Week preview. El Niño reaches Slob on my Dobb’s schedule while both still need a tight end for the bye. Seven Deadly Chins visits Mud Dogs in an elimination test for the host. Red Leopards and Three Dreaded Snake meet under injury and depth pressure; The Chili Cheesers visits ObiWan Jacoby; The LLC tests Dr. Duckhook, whose current lineup already puts C.J. Stroud at quarterback.",
+      "headline": "THE NEXT SIX",
+      "department": "THE NEXT SIX",
+      "refs": [
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P35",
+      "sheet": 6,
+      "position": 33,
+      "characters": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-WILSON-LOOK"
+      ],
+      "location": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Bridge at the Mountain Lake, opposing approaches"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Wide oblique along the old bridge deck; D0nkey K0ng near approach, His Majesty's Blood beyond the opposite pier, empty stone between them.",
+      "body": "Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.",
+      "headline": "THE CROSSING NARROWS",
+      "department": "WEEK 11 · GAME OF THE WEEK",
+      "refs": [
+        {
+          "role": "current_appearance_override"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    },
+    {
+      "id": "W10-P33",
+      "sheet": 6,
+      "position": 34,
+      "characters": [
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "location": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "set_id": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Slob Foothill Camp tailgate-yard approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "camera": "Wide view outward from the existing tailgate shelter toward the Hearthroad and dark foothill cloud.",
+      "body": "Slob on my Dobb’s delivery passed through the swamp without trouble. Next week the schedule brings El Niño to Slob on my Dobb. The league’s scoring leader has a different problem to prepare for, and both teams need a tight end before that meeting. After this comes the divisional finish. The next round begins with the work done between Sundays.",
+      "headline": "THE WEATHER IS COMING HOME",
+      "department": "THE FINAL WORD",
+      "refs": [
+        {
+          "role": "approved_lineup_crop"
+        },
+        {
+          "role": "published_location_geometry",
+          "application": "Exact existing location geometry and persistent landmarks, plus current scene changes. No copy of old score values."
+        },
+        {
+          "role": "published_memo_precedent",
+          "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+        }
+      ]
+    }
+  ]
+}

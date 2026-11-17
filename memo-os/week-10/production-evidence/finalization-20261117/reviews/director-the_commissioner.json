@@ -1,0 +1,28 @@
+{
+  "kind": "director",
+  "id": "the_commissioner",
+  "name": "The Commissioner",
+  "domain": "commissioner_success",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:40:03.846Z",
+  "finished_at": "2026-11-17T16:40:24.270Z",
+  "response": "{\n  \"scope\": \"final-source delta review\",\n  \"findings\": [],\n  \"preflight_disposition\": \"ready_for_grayscale_proof\",\n  \"limit\": \"No generated artwork exists\"\n}",
+  "primary_review_sheet": 4,
+  "actual_input_sha256": "28a860f7a37ab9b9b8963ac11d66d1d0266f29d6a3e7d2b6a18998926bd0292a",
+  "real_person_participation": false,
+  "validation_error": null,
+  "structured": {
+    "scope": "final-source delta review",
+    "findings": [],
+    "preflight_disposition": "ready_for_grayscale_proof",
+    "limit": "No generated artwork exists"
+  },
+  "response_validated": true,
+  "retried_at": "2026-11-17T16:52:50.695Z",
+  "retry_input": "commissioner-final-delta-input.json",
+  "original_invalid_preserved": "commissioner-invalid-first-response.json",
+  "includes_user_week11_addition": true
+}
