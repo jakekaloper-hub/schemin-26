@@ -115,7 +115,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     for(const [x,z,s]of[[-10,-1,1.5],[-9,5,1.25],[-2,-6,1.4],[6,-4,1.5],[7,1,1.3],[6,6,1.1],[-2,7,.9]])canopy(g,x,0,z,s);
     box(g,2.7,2.31,1.9,.8,.05,.6,moss);box(g,-1.8,1.16,2.2,1.1,.04,.8,moss);
   }
-  function wetlandShoreline(g){
+  function wetlandShoreline(g,landformMaterial){
     // Source supports mud channels, raised ground and cypress-like wetlands.
     // This bank is ONLY a local candidate transition around the existing visual pool:
     // it creates no river/shoreline topology and deliberately leaves the water ellipse visible.
@@ -137,10 +137,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
     }
     const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
     geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.setIndex(faces);geo.computeVertexNormals();
-    // Keep vertex colors intact: the current static batcher merges position/normal/UV only.
-    const bankMat=new THREE.MeshStandardMaterial({vertexColors:true,roughness:.98,side:THREE.DoubleSide,transparent:true,opacity:1,depthWrite:true});
-    materials.set('candidate-wetland-bank',bankMat);
-    const bank=mesh(g,geo,bankMat,0,0,0);bank.name='Candidate wetland shoreline transition';
+    // Opaque shared vertex-color material: landform depth and palettes survive batching.
+    const bank=mesh(g,geo,landformMaterial,0,0,0);bank.name='Candidate wetland shoreline transition';
     bank.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmarks:['mud channels','raised ground']};
     bank.castShadow=false;bank.renderOrder=1;
   }
@@ -194,7 +192,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['cypress-like wetlands','raised ground'],navigable:false,routeIds:[]};
     o.castShadow=false;o.receiveShadow=false;
   }
-  function wetlandRaisedGround(g,islands){
+  function wetlandRaisedGround(g,islands,landformMaterial){
     // Source: permanent Mud Dogs raised ground and Southern Wetlands mudflats.
     // Only the pre-existing FOUR local illustrative island footprints are sculpted;
     // this creates no canonical shoreline, path, travel route or new waterway.
@@ -225,12 +223,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
     geo.setAttribute('aIsland',new THREE.Float32BufferAttribute(islandIds,1));
     geo.setIndex(faces);geo.computeVertexNormals();geo.computeBoundingSphere();
-    // The inherited opaque batcher intentionally omits vertex colors. One
-    // transparent=true/opacity=1 mesh preserves per-vertex sediment strata.
-    const reliefMaterial=new THREE.MeshStandardMaterial({vertexColors:true,roughness:.99,metalness:0,
-      side:THREE.DoubleSide,transparent:true,opacity:1,depthWrite:true});
-    materials.set('candidate-wetland-raised-ground',reliefMaterial);
-    const relief=mesh(g,geo,reliefMaterial,0,0,0);
+    // Color strata are compiled with the shoreline in the opaque vertex-color pass.
+    const relief=mesh(g,geo,landformMaterial,0,0,0);
     relief.name='Candidate wetland raised-ground relief';
     relief.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['raised ground','mudflats'],
       islandCount:islands.length,routeIds:[],navigable:false};
@@ -239,9 +233,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
-    wetlandShoreline(g);wetlandEmergentVegetation(g);
+    const landformMaterial=new THREE.MeshStandardMaterial({vertexColors:true,roughness:.985,metalness:0,
+      side:THREE.DoubleSide,transparent:false,depthWrite:true});
+    materials.set('candidate-wetland-landform',landformMaterial);
+    wetlandShoreline(g,landformMaterial);wetlandEmergentVegetation(g);
     const islands=[[1,.1,1,4,1.2,3],[-6,.1,-3,3,.9,2.7],[6,.2,-4,3.5,1,2.8],[-4,.1,5,2.7,.8,2]];
-    wetlandRaisedGround(g,islands);
+    wetlandRaisedGround(g,islands,landformMaterial);
     for(let i=0;i<14;i++){
       // Two candidate cypress-like crown profiles break the old flat, repeated tree-disc silhouette.
       // All meshes remain direct children so the existing opaque batching path still applies.
