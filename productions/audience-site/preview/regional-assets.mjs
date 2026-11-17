@@ -214,10 +214,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
         const tint=strata[r].clone().multiplyScalar(.90+.095*(.5+.5*Math.sin(theta*8+island+r)));
         vertex(cx+Math.cos(theta)*sx*radial,elevation,cz+Math.sin(theta)*sz*radial,tint);
       }
-      for(let i=0;i<sides;i++)faces.push(start,start+1+i,start+1+(i+1)%sides);
+      for(let i=0;i<sides;i++)faces.push(start,start+1+(i+1)%sides,start+1+i);
       for(let r=0;r<radii.length-1;r++)for(let i=0;i<sides;i++){
         const a=start+1+r*sides+i,b=start+1+r*sides+(i+1)%sides;
-        const c=a+sides,d=b+sides;faces.push(a,c,b,b,c,d);
+        const c=a+sides,d=b+sides;faces.push(a,b,c,b,d,c);
       }
     });
     const geo=new THREE.BufferGeometry();

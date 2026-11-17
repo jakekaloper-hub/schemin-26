@@ -33,6 +33,8 @@ test('four existing raised-ground footprints gain one sculpted, bounded, nonplan
    heights[k].add(p.getY(i).toFixed(2));
  }
  assert.ok(heights.every(h=>h.size>=10),'each island must have genuinely differentiated elevations');
+ const normals=ground.geometry.getAttribute('normal');
+ for(let i=0;i<normals.count;i++)assert.ok(normals.getY(i)>.05,'sculpted top surface needs correctly oriented upward normals for actual WebGL lighting');
  assert.equal(a.water.filter(w=>w.kind==='swamp').length,1);
  a.dispose();
 });
