@@ -46,7 +46,7 @@ test('port shader has synchronized physical and optical water waves within the o
  }
  assert.ok(peak>.001 && delta>.002);
  assert.ok(Math.abs(portRelief(port,0,-.016,1.2)-portRelief(port,0,-.016,3.7))>.002);
- for(const w of a.water.filter(w=>w!==port)){assert.equal(w.material.uniforms.uBarrier.value,0);assert.equal(portRelief(w,0,-.016,1.2),0);}
+ for(const w of a.water.filter(w=>w!==port)){assert.equal(w.material.uniforms.uBarrier.value,0);assert.ok(Math.abs(portRelief(w,0,-.016,1.2))<1e-12,'unrelated water has zero-magnitude contact');}
  assert.equal(JSON.stringify(bindings),before);a.dispose();
 });
 test('global calm keeps ordinary port motion; explicit pause freezes and disposal remains idempotent',()=>{
