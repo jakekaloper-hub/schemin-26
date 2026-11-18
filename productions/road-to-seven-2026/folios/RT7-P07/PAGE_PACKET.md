@@ -20,7 +20,7 @@ Two roads through the Southern Wetlands: left, the Podium Shadow Waterfall Templ
 
 **Inklings literary candidate:** At the Waterfall Temple, three serpent heads turn toward the same unsettled future. The road has narrowed to an uneasy line, but it has not disappeared. Red Leopards waits on the cut; a victory could restore force to the pursuit, while defeat would leave a very small simulated chance. Afterward come Mud, DK and ObiWan, all entangled in the Burgers reckoning. Even a perfect 8–6 finish cannot guarantee passage without considering rival results. The temple remains behind the serpent, familiar and intact, as the campaign turns toward a world that will offer no mercy.
 
-**On-image text:** `THREE DREADED SNAKE · #11 · 4–6`; `FFHUB BASELINE 9.9%`; `BEAT RED: 22.6% · LOSE: 2.3%`; headline *THREE HEADS. ONE ROAD.*
+**On-image text:** `THREE DREADED SNAKE · #11 · 4–6`; `FFHUB NOV 18 9.61%`; `BEAT RED: 22.8% · LOSE: 2.4%`; headline *THREE HEADS. ONE ROAD.*
 
 **Source pointers:** protected scenario `team_povs[official_seed=11]`, `vendor_experiment.runs[name=W11_TDS_beats_Red]`, `vendor_experiment.runs[name=W11_Red_beats_TDS]`, `vendor_experiment.runs[name=baseline]`; native `preproduction/playoff-witnesses-final.json` contains both qualification and nonqualification witnesses.
 
@@ -38,7 +38,7 @@ Two roads through the Southern Wetlands: left, the Podium Shadow Waterfall Templ
 
 **Inklings literary candidate:** The Southern Wetlands have room for long odds. Mud Dogs has two victories, eight losses and four remaining contests, each a threshold that must be crossed. Lose once and the mathematics ends the journey. Win all four, and the gate still depends on distant results, division ties, and the memory of earlier encounters. There is even an exact route through a shared six-win tie, though the original simulation barely glimpses it. Mud rises toward the causeway with no claim of rescue and no invented miracle. Against Seven Deadly Chins, the next step is simply to survive.
 
-**On-image text:** `MUD DOGS · #12 · 2–8`; `FFHUB BASELINE 0.01%`; `MUST WIN ALL FOUR`; `W11 LOSS = MATHEMATICAL ELIMINATION`; hook *FOUR REQUIRED WINS. HELP REQUIRED. STILL ALIVE.*
+**On-image text:** `MUD DOGS · #12 · 2–8`; `FFHUB NOV 18 0.01%`; `MUST WIN ALL FOUR`; `W11 LOSS = MATHEMATICAL ELIMINATION`; hook *FOUR REQUIRED WINS. HELP REQUIRED. STILL ALIVE.*
 
 **Source pointers:** protected `team_povs[official_seed=12]`, `vendor_experiment.runs[name=W11_Mud_beats_Chins]`, `vendor_experiment.runs[name=W11_Chins_beats_Mud]`, `vendor_experiment.runs[name=WIN_OUT_Mud Dogs]`, `vendor_experiment.runs[name=MUD_verified_division_path]`, `exact_evidence.mud_wildcard`, native `playoff-witnesses-final.json`.
 
@@ -78,3 +78,7 @@ Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_202
 **On-image selection:** use one concise elimination-proof sentence for Mud and one Week 12/13 future gate for Snake. Avoid tiny text or 0% graphic labels implying official elimination.
 
 **Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [W12–14 forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [availability](../../evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md), [NFL](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
+
+## Publication copy lock — November 18 FFHub cohort
+
+**Authoritative for subsequent illustration lettering:** FFHub Nov 18 source capture in `../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json`. The original November 17 figures in the analytic sections are preserved as an explicitly archival separate simulation cohort, and cannot silently enter final image copy. This folio’s selected on-image odds above are sourced to the November 18 cohort. Mathematical clinch/elimination text must still use independently verified source proofs, not rounded vendor percentages. Layout and typo QA are still open.
