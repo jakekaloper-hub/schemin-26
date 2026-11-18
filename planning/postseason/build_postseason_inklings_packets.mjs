@@ -160,4 +160,4 @@ function cli(args) {
   fs.writeFileSync(opt.out,JSON.stringify(result,null,2)+'\n','utf8');
   console.log(JSON.stringify({status:'PASSED',output:path.resolve(opt.out),...result.headline}));
 }
-if(process.argv[1] && path.resolve(process.argv[1])===path.resolve(new URL(import.meta.url).pathname))cli(process.argv.slice(2));
+if(process.argv[1] && fs.realpathSync(process.argv[1])===fs.realpathSync(new URL(import.meta.url)))cli(process.argv.slice(2));
