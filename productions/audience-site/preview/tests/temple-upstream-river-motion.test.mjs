@@ -38,7 +38,7 @@ test('Temple existing upstream river alone receives tessellated interior with un
  for(const w of a.water.filter(w=>w.kind!=='river')){
    assert.equal(w.material.uniforms.uRiver?.value??0,0,'no river motion assigned to '+w.kind);
  }
- assert.equal(a.water.find(w=>w.kind==='pond').mesh.geometry.type,'CircleGeometry');
+ assert.equal(a.water.find(w=>w.kind==='pond').mesh.geometry.name,'Candidate Country Club pond surface');
  assert.equal(a.water.find(w=>w.kind==='pool').mesh.geometry.name,'Candidate Temple plunge pool surface');
  assert.equal(a.water.find(w=>w.kind==='waterfall').mesh.geometry.type,'PlaneGeometry');
  assert.equal(JSON.stringify(bindings),before);

@@ -66,7 +66,7 @@ test('pond-only GPU water relief moves the inherited two concentric wavefronts, 
       if(u===0||u===1||v===0||v===1)assert.ok(Math.abs(d)<1e-12,'bank remains fixed');
     }
   }
-  assert.ok(Math.abs(offset(.31,.62,0)-offset(.31,.62,3))>.001,'physical interior movement');
+  assert.ok(Math.abs(offset(.5,.5,0)-offset(.5,.5,3))>.001,'physical interior movement');
   for(const other of assets.water.filter(w=>w.kind!=='pond'))
     assert.equal(other.material.uniforms.uPond?.value??0,0,'no pond relief on '+other.kind);
   assets.dispose();

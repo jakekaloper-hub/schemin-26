@@ -210,7 +210,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float micro=.5+.5*sin(p.x*7.3+sin(p.y*8.2+uTime*.17));
       vec3 pondTint=mix(uColor*.98,uColor*1.02,micro);
       // Low-intensity view response derives from the SAME displaced pond surface.
-      // No invented weather, light-source, current, shoreline or second water body.
+      // No new light source, current, shoreline or second water body.
       vec3 pondCross=cross(dFdx(vWorld),dFdy(vWorld));
       float pondCrossSize=length(pondCross);
       vec3 pondNormal=pondCrossSize>.00001?pondCross/pondCrossSize:vec3(0.,1.,0.);
