@@ -48,7 +48,7 @@ test('bankside strips reuse one mesh, keep bridge approach clear and pin every s
   zBands.add(z<2?'south':'north');
   const p=delta(rise,ph,1.2),q=delta(rise,ph,3.8);
   for(const [dx,dz] of [p,q]){assert.ok(Math.abs(dx)<=.2080001);assert.ok(Math.abs(dz)<=.0350001);}
-  if(rise===0){bases++;assert.deepEqual(p,[0,0]);assert.deepEqual(q,[0,0]);}
+  if(rise===0){bases++;assert.ok(p.every(v=>Math.abs(v)===0)&&q.every(v=>Math.abs(v)===0),'base stays pinned, including signed zero');}
   if(rise===1){topMotion=Math.max(topMotion,Math.abs(p[0]),Math.abs(q[0]));change=Math.max(change,Math.abs(p[0]-q[0]));}
  }
  assert.equal(bases,40);assert.equal(zBands.size,2);assert.ok(topMotion>.1&&change>.11);
