@@ -93,3 +93,14 @@ Slob's Upper Valleys ridge and Niño's storm manifestation zone share a horizon 
 - **Founder:** controls authorizing image generation and final release.
 
 **Folio state:** SOURCE-POPULATED / STORY-DRAFTED / IMAGE_NOT_GENERATED. Not a finished image, not a fabricated sign-off.
+
+## Live FFHub revalidation — November 18, 2026
+
+A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool?site=espn&leagueId=1417621&userId=&s2=&swid=) completed 2026-11-18T16:46:53.445Z. The site still displays final Week 10 records and Week 11–14 fixtures, with ESPN Head to Head selected. Original November 17 sourced figures above remain historical evidence; the numbers below are a **separate independent 10,000-draw sample**, not an actual week-to-week change or an exact mathematical conclusion.
+
+| Team | Nov 18 baseline | W11 win | W11 loss | Win–loss spread |
+|---|---:|---:|---:|---:|
+| Slob on my Dobb | 98.48% | 99.74% | 95.89% | 3.85 pp |
+| El Niño | 87.10% | 96.88% | 83.92% | 12.96 pp |
+
+Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
