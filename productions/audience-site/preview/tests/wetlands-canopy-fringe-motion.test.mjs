@@ -48,7 +48,11 @@ test('bounded GPU tip motion leaves crown attachment fixed and never alters topo
   assert.match(shader,/p\.z\+=oscillation\*tipWeight\*\.62/);
   assert.doesNotMatch(shader,/uStorm|uRain|uWeather|uWindSpeed/);
   assert.equal(f.userData.illustrativeMaxTipDisplacement,.19);
-  assert.ok(f.geometry.boundingSphere.radius>12);
+  const unpadded=f.geometry.clone();
+  unpadded.computeBoundingSphere();
+  assert.ok(Math.abs(f.geometry.boundingSphere.radius-unpadded.boundingSphere.radius-.22)<1e-5,
+    'moving tips retain the bounded GPU-culling envelope around the original mesh');
+  unpadded.dispose();
   const displace=(phase,weight,time)=>{
     const oscillation=.12*Math.sin(time*.62+phase)+.04*Math.sin(time*1.07+phase*1.57);
     return [oscillation*weight*weight,oscillation*weight*weight*.62];
