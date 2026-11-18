@@ -1,0 +1,119 @@
+{
+  "schema_version": "schemin.road_to_seven_scene.v1",
+  "id": "RT7-P02",
+  "title": "THE SUMMIT",
+  "edition": "The Road to Seven",
+  "artifact": {
+    "format": "PNG",
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "page_count": 1,
+    "output_file": "RT7-P02.png"
+  },
+  "state": "SOURCE_AND_ASSET_BOUND_SCENE_CONTRACT__NO_PNG_GENERATED",
+  "commissioner_locks": [
+    "official_W10_seed_pairing",
+    "two_equal_character_worlds",
+    "epic_heroic_individual_POV",
+    "canon_safe_atlas",
+    "no_unplayed_results",
+    "FFHub_vendor_estimates_separate_from_exact_status"
+  ],
+  "camera": "wide elevated foothill camp versus storm-bowl horizon; cinematic dual-chapter montage, never physically adjacent",
+  "character_panels": [
+    {
+      "side": "left",
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "official_week10_seed": 1,
+      "week10_record": "6-4",
+      "owner": "Jordan Hollingshead",
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "approved_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+      "approved_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+      "appearance_manifest_path": "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/REFERENCE_MANIFEST.yaml",
+      "appearance_delta_path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+      "atlas_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "atlas_card_path": "world/location-control-plane/locations/LOC-SLOB-FOOTHILL-CAMP/CARD.json",
+      "atlas_structural_plate_path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+      "ffhub_asof": "2026-11-18T16:45:12.354Z",
+      "ffhub_baseline_pct": 98.48,
+      "ffhub_w11_win_pct": 99.74,
+      "ffhub_w11_loss_pct": 95.89,
+      "ffhub_w11_opponent": "El Niño",
+      "selected_future_forks": [
+        {
+          "week": 13,
+          "against": "Dr. Duckhook",
+          "if_win_pct": 99.76,
+          "if_loss_pct": 95.95
+        }
+      ],
+      "rendered_likeness_qa": "NOT_RUN"
+    },
+    {
+      "side": "right",
+      "team_id": 9,
+      "team": "El Niño",
+      "official_week10_seed": 2,
+      "week10_record": "6-4",
+      "owner": "Manning Welty",
+      "character_id": "CHAR-MANNING-WELTY",
+      "approved_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+      "approved_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+      "appearance_manifest_path": "canon/characters/CHAR-MANNING-WELTY/REFERENCE_MANIFEST.yaml",
+      "appearance_delta_path": "canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+      "atlas_location_id": "LOC-STORM-BOWL",
+      "atlas_card_path": "world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json",
+      "atlas_structural_plate_path": "world/environment-references/plates/LOC-STORM-BOWL/STRUCTURAL_PLATE.svg",
+      "ffhub_asof": "2026-11-18T16:45:12.354Z",
+      "ffhub_baseline_pct": 87.1,
+      "ffhub_w11_win_pct": 96.88,
+      "ffhub_w11_loss_pct": 83.92,
+      "ffhub_w11_opponent": "Slob on my Dobb",
+      "selected_future_forks": [
+        {
+          "week": 12,
+          "against": "Seven Deadly Chins",
+          "if_win_pct": 96.37,
+          "if_loss_pct": 74.54
+        },
+        {
+          "week": 13,
+          "against": "His Majesty's Blood",
+          "if_win_pct": 96.48,
+          "if_loss_pct": 78.95
+        },
+        {
+          "week": 14,
+          "against": "The LLC",
+          "if_win_pct": 97.17,
+          "if_loss_pct": 78.61
+        }
+      ],
+      "rendered_likeness_qa": "NOT_RUN"
+    }
+  ],
+  "scene_authority": {
+    "full_page_contract": "productions/road-to-seven-2026/folios/RT7-P02/PAGE_PACKET.md",
+    "data_sources": [
+      "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+      "productions/road-to-seven-2026/evidence/FFHUB_FUTURE_FORKS_2026-11-18.json",
+      "productions/road-to-seven-2026/evidence/FLAIM_CURRENT_ROSTERS_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/FLAIM_W12_W14_PROVISIONAL_PROJECTIONS.md",
+      "productions/road-to-seven-2026/evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md"
+    ]
+  },
+  "typography_rule": "One seed/record and one dated FFHub baseline and one selected future hinge per panel; full analysis stays backstage; verify at 390px mobile display.",
+  "privacy_rule": "Do not copy the private 611KB vendor raw payload into Git.",
+  "visual_safety": {
+    "reference_crop_sha_verified": true,
+    "atlas_card_exists": true,
+    "structural_plate_exists": true,
+    "approved_environment_pixel_binding": "TO_REVIEW",
+    "generated_visual_QA": "NOT_RUN",
+    "umpire_release": "NOT_SIGNED"
+  }
+}
