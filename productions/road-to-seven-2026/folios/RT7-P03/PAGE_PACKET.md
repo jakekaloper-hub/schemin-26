@@ -104,3 +104,19 @@ A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool
 | His Majesty's Blood | 87.62% | 95.17% | 80.10% | 15.07 pp |
 
 Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
+
+## Extended production intelligence — roster, markets, and future forks (Nov 18)
+
+**Immediate matchup:** DK vs HMB Week 11. ESPN currently projects **D0nkey K0ng 126.22, His Majesty's Blood 133.63**. Neither team currently has an ESPN Questionable/Doubtful/Out assigned starting player in Flaim, though DK's Davante Adams and Alec Pierce occupy IR slots.
+
+**NFL environments:** DK's Dak Prescott plays in Titans–Cowboys (Nov 18 DraftKings market via CBS: **DAL -7.5, total 53.5**), the highest current game total in the cited slate. HMB's Brock Purdy appears in 49ers–Vikings (SF -3, 46.5, Mexico City). NFL market does not establish a fantasy result.
+
+**Most consequential future gate — Burgers:** FFHub's **Week 12 DK vs ObiWan** test yields DK **99.48% if DK wins vs 86.00% if DK loses**, ObiWan **51.36% if ObiWan wins vs 16.03% if ObiWan loses**. In Week 13 DK vs Snake, DK **97.96% with win vs 84.96% with loss**. Separately, native *exact* evidence states DK beats both ObiWan and Snake in Weeks 12–13 → wins Burgers regardless of the other two results. Distinguish this proven route from sampled odds.
+
+**HMB's Pizza crossroads:** Week 13 against El Niño; FFHub HMB **96.22% after victory vs 80.29% after defeat**. The Belt Keeper must not confuse legal ownership of the Belt with being mathematically clinched.
+
+**Inklings micro-direction:** a looming Highland procession against the keeper's storm-lit keep; four-legged gorilla-centaur morphology on the left; hooded red-eyed black armor and correctly held Belt on the right. Heroic stakes instead of a fantasy dashboard.
+
+**On-image selection:** both official 6–4 records and seeds, each dated FFHub estimate, one future turning point, and one sentence about destiny not yet secured.
+
+**Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [future forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [ESPN projections](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [NFL market](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
