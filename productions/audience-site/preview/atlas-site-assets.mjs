@@ -72,6 +72,30 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   return p;
  }
  function tree(g,x,z,s=1,m=M.deepGreen){cyl(g,x,0,z,.13*s,.25*s,2.3*s,M.timber,6);for(let i=0;i<3;i++)rock(g,x+Math.sin(i*2.1)*.55*s,(2.5+i*.2)*s,z+Math.cos(i*2.1)*.45*s,s,.8*s,s,i===1?M.green:m);}
+ // Locally sculpted, presentation-only alpine stone/snow. Site anchor and
+ // authoritative summit geometry remain upstream; this adds no world state.
+ function alpineSurface(g,x,y,z,sx,sy,sz,snowCap=false){
+  const geo=new THREE.IcosahedronGeometry(1,3),position=geo.getAttribute('position'),colors=[];
+  for(let i=0;i<position.count;i++){
+   const vx=position.getX(i),vy=position.getY(i),vz=position.getZ(i);
+   // Bounded (<=2.9%) micro-relief: deterministic, no texture or new draw.
+   const grain=Math.sin(vx*19.3+vz*13.7)*Math.cos(vy*17.1-vz*4.6);
+   const crack=Math.sin(vx*39.1+vy*27.3+vz*31.7);
+   const relief=1+.020*grain+.009*crack;
+   position.setXYZ(i,vx*relief,vy*relief,vz*relief);
+   const weathering=.5+.5*Math.sin(vx*9.3+vz*5.7)*Math.cos(vy*8.1-vx*3.1);
+   const line=Math.max(0,Math.min(1,(vy-.22+grain*.10)*2.7));
+   const cover=snowCap?.76+.22*weathering:line*(.68+.22*weathering);
+   const shade=.65+.35*weathering;
+   const stone=[.18*shade,.23*shade,.26*shade],snow=[.64+.18*weathering,.70+.14*weathering,.71+.16*weathering];
+   for(let c=0;c<3;c++)colors.push(stone[c]*(1-cover)+snow[c]*cover);
+  }
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.computeVertexNormals();
+  const surface=mat('#ffffff','',{vertexColors:true,roughness:.96,metalness:0});
+  const o=mesh(g,geo,surface,x,y,z,snowCap?'Alpine summit snow · candidate':'Alpine summit stone · candidate');
+  o.scale.set(sx,sy,sz);o.rotation.set(.13+x*.03,.3+z*.11,.07);
+  return o;
+ }
  function conifer(g,x,z,s=1){cyl(g,x,0,z,.12*s,.23*s,3.3*s,M.timber,6);for(let i=0;i<3;i++)cyl(g,x,1.1*s+i*.65*s,z,.04,(1.2-i*.22)*s,1.8*s,M.deepGreen,7);}
  function ring(g,x,y,z,inner,outer,scaleZ=1,m=M.sand){const o=mesh(g,new THREE.RingGeometry(inner,outer,56),m,x,y,z,'Open ring candidate');o.rotation.x=-Math.PI/2;o.scale.y=scaleZ;return o;}
  function desk(g,x,y,z,w=2.7,m=M.wood){const top=box(g,x,y+1.1,z,w,.15,1.1,m,'Record surface');for(const dx of [-w*.4,w*.4])box(g,x+dx,y,z,.17,1.1,.65,M.timber);return top;}
@@ -221,7 +245,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-PITTSYS-BOOK'(g){box(g,0,0,0,8.3,.3,6,M.stone);pavilion(g,0,-.5,7,4,3.8,M.deepGreen);const boards=box(g,0,1,-2.3,6.1,2.7,.22,M.timber,'Ledger boards');for(const x of [-2,0,2]){box(g,x,1.2,-2.15,1.55,2.1,.05,M.ivory);for(let j=0;j<5;j++)box(g,x,1.45+j*.32,-2.1,1.3,.035,.03,M.gold);}const settlement=desk(g,0,.3,1.2,5.9,M.dark);ledger(g,-1.6,1.6,1.2);ledger(g,1.1,1.6,1.2);flag(g,3.7,.3,2.1,M.deepGreen);return [boards,settlement];},
   'LOC-BRIDGE-MOUNTAIN-LAKE'(g){const lake=waterSurface(g,0,.25,0,8.7,5.9,'mountain lake','#477f89');for(const x of [-6.8,6.8])rock(g,x,.15,0,2.1,1,3.4,M.slate);const span=arch(g,0,.3,0,3.4,.65,2.3,M.stone);box(g,0,4.27,0,9.3,.45,2.6,M.stone);for(const z of [-1.25,1.25]){box(g,0,4.7,z,9.2,.8,.18,M.light);for(let i=0;i<11;i++)box(g,-4.25+i*.85,4.7,z,.12,1,.24,M.stone);}for(const s of [-1,1])for(let i=0;i<6;i++)box(g,s*(4.8+i*.5),0,0,.52,4.7-i*.7,2.8,M.stone);const jump=box(g,2.8,4.7,1.6,1.35,.18,.85,M.light,'Recorded jump-point edge');for(const x of [-7.2,7.2])conifer(g,x,-3.3,.8);return [span,lake,jump];},
   'LOC-DK-MUD-HILL'(g){const hill=rock(g,0,.8,0,6,2.4,4.7,M.earth);for(let i=0;i<7;i++){const a=i*2.1;rock(g,Math.cos(a)*4.4,.25,Math.sin(a)*3.6,1.3,.45,1.1,M.slate);}const mire=waterSurface(g,1,.22,1.3,7.2,5.2,'mire','#515d46');const standards=flag(g,-1.9,2.6,0,M.red);flag(g,1.8,2.6,-.3,M.blue);box(g,0,2.15,2.2,3,.2,1,M.earth,'Worn illustrative ridge');return [hill,mire,standards];},
-  'LOC-RED-SLOB-ALPINE-ROUTE'(g){const summit=rock(g,0,1.4,-1.7,5.5,4.1,4.1,M.slate);rock(g,.2,4.2,-1.8,3.8,.85,2.9,M.snow);for(let i=0;i<6;i++){const a=i*.7;rock(g,-5+i*1.8,.3,Math.sin(a)*3.2,1.6,.9,1.2,M.slate);}const camp=roof(g,-3,.4,3.5,3.2,3,2.5,M.red);roof(g,2,.4,4.1,2.6,2.7,2.1,M.canvas);const marker=cyl(g,2.9,2.7,-1,.28,.45,1.9,M.stone,7,'Wager marker');flag(g,3,4.6,-1,M.red);return [summit,camp,marker];},
+  'LOC-RED-SLOB-ALPINE-ROUTE'(g){const summit=alpineSurface(g,0,1.4,-1.7,5.5,4.1,4.1);alpineSurface(g,.2,4.2,-1.8,3.8,.85,2.9,true);for(let i=0;i<6;i++){const a=i*.7;rock(g,-5+i*1.8,.3,Math.sin(a)*3.2,1.6,.9,1.2,M.slate);}const camp=roof(g,-3,.4,3.5,3.2,3,2.5,M.red);roof(g,2,.4,4.1,2.6,2.7,2.1,M.canvas);const marker=cyl(g,2.9,2.7,-1,.28,.45,1.9,M.stone,7,'Wager marker');flag(g,3,4.6,-1,M.red);return [summit,camp,marker];},
   'LOC-SOUTHERN-SPEEDWAY'(g){const track=ring(g,0,.35,0,4.2,6.7,.64,M.earth);const inner=cyl(g,0,0,0,4,4,.3,M.green,40,'Racecourse infield');inner.scale.z=.64;for(const z of [-5.7,5.7]){for(let row=0;row<4;row++)box(g,0,.25+row*.36,z+Math.sign(z)*row*.55,8,.4,.55,M.stone,'Grandstand tier');roof(g,0,2.7,z+Math.sign(z)*.7,8.8,2.3,.75,M.red);for(const x of [-3.7,3.7])for(const dz of [-.65,.65])cyl(g,x,.25,z+Math.sign(z)*.7+dz,.1,.14,2.45,M.timber,6);}const stand=g.children.find(o=>o.name==='Grandstand tier');for(const x of [-7.2,7.2])flag(g,x,.3,0,M.red);return [track,stand];},
   'LOC-LLC-STORM-CITY'(g){waterSurface(g,1,.22,3.9,10,6.2,'sheltered port','#356572');box(g,0,.3,-.7,13,.65,9,M.slate);let tower;for(const [x,z,h]of [[-4,-3,6],[0,-3.5,8],[4,-3,5.6],[-3,0,4],[2,0,4.7]]){const body=box(g,x,.95,z,2.7,h,2.5,M.light,'Mercantile tower');roof(g,x,h+.95,z,3.2,3,1.4,M.blue);for(let j=0;j<3;j++)box(g,x,2.1+j*1.2,z+1.27,1,.5,.04,M.glass);tower??=body;}const barriers=box(g,0,.9,4,13,1.35,.55,M.dark,'Storm barrier');for(let i=0;i<7;i++)box(g,-6+i*2,1.7,4,.3,1.05,.85,M.stone);steps(g,5,6.1,1.5,6,.16);return [tower,barriers];},
   'LOC-DK-HIGHLAND-STRONGHOLD'(g){box(g,0,0,0,13,.8,11,M.slate);const stronghold=hall(g,0,-3,8,4,4.6,M.stone,M.red);for(const x of [-5.4,5.4]){box(g,x,.8,0,1,3.3,8,M.stone);cyl(g,x,.8,3.8,1,1.2,4.9,M.slate,8);roof(g,x,5.7,3.8,2.6,2.6,1.5,M.red);}const court=box(g,0,.81,1.2,7.8,.1,5,M.sand,'Training court');for(const x of [-2.5,2.5]){beam(g,[x,.9,1.1],[x,2.7,1.1],.15,M.wood);beam(g,[x-.6,2.3,1.1],[x+.6,2.3,1.1],.1,M.wood);}const road=steps(g,0,6.3,3.2,5,.17);for(const x of [-3.8,3.8])flag(g,x,.8,3.4,M.red);return [stronghold,court,road];},
