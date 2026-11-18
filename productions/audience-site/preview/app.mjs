@@ -101,13 +101,13 @@ function closeInspector(){
  $('#inspector').hidden=true;
  (inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});
 }
-function wholeWorld(){if(state.phase!=='EXPLORING')return;dispatch({type:'world_view'});selected=null;target=defaultCamera();escapePanels();if(paused)camera=structuredClone(target);}
+function wholeWorld(){if(state.phase!=='EXPLORING')return;const fromInspector=$('#inspector').contains(document.activeElement);dispatch({type:'world_view'});selected=null;target=defaultCamera();escapePanels();if(paused)camera=structuredClone(target);if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});}
 $('#placesToggle').onclick=()=>{const open=$('#placesPanel').hidden;escapePanels();$('#placesPanel').hidden=!open;$('#placesToggle').setAttribute('aria-expanded',String(open));if(open)$('#placeSearch').focus();};
 $('#placesClose').onclick=()=>{escapePanels();$('#placesToggle').focus();};
 $('#infoToggle').onclick=()=>{const open=$('#infoPanel').hidden;escapePanels();$('#infoPanel').hidden=!open;};$('#infoClose').onclick=()=>{escapePanels();$('#infoToggle').focus();};
 $('#inspectorClose').onclick=closeInspector;$('#inspectSource').onclick=()=>{$('#infoPanel').hidden=false;$('#inspector').hidden=true;$('#infoClose').focus({preventScroll:true});};
 $('#placeSearch').oninput=e=>{for(const b of $('#placeList').children)b.hidden=!b.textContent.toLowerCase().includes(e.target.value.toLowerCase());};
-$('#returnWorld').onclick=wholeWorld;
+$('#returnWorld').onclick=wholeWorld;$('#inspectorWorld').onclick=wholeWorld;
 $('#wetlandsView').onclick=()=>{if(!canControl())return;const p=bindings.filter(x=>x.zoneId==='REG-SOUTHERN-WETLANDS');if(!p.length)return;selected=null;escapePanels();target={target:[p.reduce((s,x)=>s+x.anchor[0],0)/p.length,4,p.reduce((s,x)=>s+x.anchor[2],0)/p.length],distance:105,pitch:.88,yaw:.15};if(paused)camera=structuredClone(target);};
 for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>{if(state.phase!=='EXPLORING')return;dispatch({type:'camera',mode:b.dataset.view});target=modeCamera(b.dataset.view,selected?.renderAnchor||[0,0,0]);if(!selected&&b.dataset.view==='AERIAL')target=defaultCamera();for(const x of document.querySelectorAll('[data-view]'))x.classList.toggle('active',x===b);if(paused)camera=structuredClone(target);};
 function setPaused(v){paused=v;$('#motionToggle').setAttribute('aria-pressed',String(paused));$('#motionToggle').textContent=paused?'▷':'Ⅱ';$('#motionToggle').setAttribute('aria-label',paused?'Resume environmental motion':'Pause environmental motion');if(paused)camera=structuredClone(target);}
