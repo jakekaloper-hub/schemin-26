@@ -58,6 +58,22 @@ def read():
             json.loads(FORK.read_text(encoding="utf-8")),
             json.loads(CHAR.read_text(encoding="utf-8")))
 
+def display_excerpt(paragraph, max_words=50, min_words=27):
+    """Retain original Inklings sentences while fitting two phone-readable editorial columns."""
+    sentences = re.split(r"(?<=[.!?])\s+", paragraph)
+    chosen=[]
+    for sentence in sentences:
+        trial = " ".join(chosen + [sentence])
+        if len(trial.split()) > max_words and len(" ".join(chosen).split()) >= min_words:
+            break
+        chosen.append(sentence)
+    selected = " ".join(chosen).strip()
+    assert min_words <= len(selected.split()) <= max_words, (
+        "narrative excerpt would not fit the 9:16 half-column",
+        len(selected.split()))
+    assert paragraph.startswith(selected), "excerpt must preserve source verbatim"
+    return selected
+
 def narrative_entries(text):
     matches = list(re.finditer(
         r'^\*\*(Left|Right) / #(\d+) (.*?) — (.*?)\*\*\s*$',
@@ -145,7 +161,9 @@ def build(dry_run=False):
                 art["overlays"].append({
                     "kind":"character_pov","side":p["side"],"team":p["team"],"seed":seed,
                     "record":p["week10_record"],
-                    "narrative_headline":rec["headline"],"narrative_body":rec["paragraph"],
+                    "narrative_headline":rec["headline"],
+                    "narrative_body":display_excerpt(rec["paragraph"]),
+                    "narrative_full_word_count":len(rec["paragraph"].split()),
                     "playoff_probability":percent(t["baseline_pct"],base_decimals),
                     "if_w11_win":percent(t["win_pct"],base_decimals),
                     "if_w11_loss":percent(t["loss_pct"],base_decimals),
