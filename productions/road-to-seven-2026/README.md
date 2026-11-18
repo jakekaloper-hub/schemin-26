@@ -4,6 +4,12 @@
 
 **Source cutoff:** Final Week 10 (2026-11-17), entering Week 11. No Week 11 outcome has been decided or insinuated. **Status:** SOURCE-POPULATED PRODUCTION PACKET / NO PNG OUTPUT / INDEPENDENT VISUAL APPROVAL PENDING.
 
+## Full scenario and production depth — November 18
+
+The project now holds **223 actual current roster entries**, six live Week 11 ESPN matchup projections, 18 provisional Week 12–14 projected matchups, **16 live Week 11 FFHub conditional runs** plus baseline, **20 new Week 12–14 future-fork runs**, dated sportsbook/official NFL reporting, and 12 approved character image crops SHA-verified against the canonical lineup. All **seven PAGE_PACKET.md** files also have **scene.json** contracts with source, asset and location bindings. The art is not generated.
+
+**New evidence:** [12-team forecast stress test](evidence/TWELVE_TEAM_FORECAST_STRESS_TEST_2026-11-18.md) · [future forks](evidence/FFHUB_FUTURE_FORKS_2026-11-18.md) · [all current rosters](evidence/FLAIM_CURRENT_ROSTERS_2026-11-18.md) · [Week11 projections](evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md) · [future ESPN projections](evidence/FLAIM_W12_W14_PROVISIONAL_PROJECTIONS.md) · [injury exposure](evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md) · [NFL odds/news](evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md) · [Bullpen execution receipt](BULLPEN_FORWARD_FORECAST_EXECUTION_RECEIPT.md) · [source + asset QA test](tools/verify_source_coverage.py).
+
 ## Page folio index
 | Folio | Title | Character pairing |
 |---|---|---|
