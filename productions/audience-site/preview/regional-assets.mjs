@@ -534,6 +534,64 @@ export function buildRegionalAssets(THREE, bindings, height) {
       ambientClock:'ORDINARY_ENVIRONMENT',illustrativeMaxTipDisplacement:.19,drawBudgetDelta:1};
     return fringe;
   }
+
+  function wetlandFloatingFoliage(g){
+    // Rework ONLY the twelve existing leaf-colored water discs, at their original
+    // candidate centers and radii. No additional pads, wetland habitat or canon.
+    const positions=[],phases=[],edges=[],tints=[],indices=[];
+    const palette=['#5a774f','#6e8257','#536f50','#637e55'].map(v=>new THREE.Color(v));
+    const count=12,sides=9;
+    for(let i=0;i<count;i++){
+      const cx=Math.sin(i*5)*7,cz=Math.cos(i*9)*5,r=.18+(i%3)*.08;
+      const start=positions.length/3,phase=i*2.399,tint=palette[i%palette.length];
+      // Each former flat circle becomes an irregular but never larger fan.
+      const add=(x,z,edge)=>{
+        positions.push(x,.16,z);phases.push(phase);edges.push(edge);
+        tints.push(tint.r,tint.g,tint.b);
+      };
+      add(cx,cz,0);
+      for(let k=0;k<sides;k++){
+        const angle=k*2*Math.PI/sides;
+        const radius=r*(.91+.07*Math.sin(angle*3+i*1.37));
+        add(cx+Math.cos(angle)*radius,cz+Math.sin(angle)*radius,1);
+      }
+      for(let k=0;k<sides;k++)indices.push(start,start+1+(k+1)%sides,start+1+k);
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+    geo.setAttribute('aPhase',new THREE.Float32BufferAttribute(phases,1));
+    geo.setAttribute('aEdge',new THREE.Float32BufferAttribute(edges,1));
+    geo.setAttribute('aTint',new THREE.Float32BufferAttribute(tints,3));
+    geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+    // Max horizontal drift <= .1, vertical relief <= .019 in local units.
+    geo.boundingSphere.radius+=.12;
+    const m=new THREE.ShaderMaterial({
+      uniforms:{uTime:{value:0}},side:THREE.DoubleSide,transparent:false,depthWrite:true,
+      vertexShader:`uniform float uTime;attribute float aPhase;attribute float aEdge;attribute vec3 aTint;
+        varying vec3 vTint;varying float vEdge;
+        void main(){
+          vTint=aTint;vEdge=aEdge;
+          float drift=.075*sin(uTime*.35+aPhase)+.025*sin(uTime*.79+aPhase*1.71);
+          vec3 p=position;
+          p.x+=drift;p.z+=drift*.57;
+          p.y+=.010*sin(uTime*.90+aPhase)+.009*aEdge*sin(uTime*.52+aPhase*1.30);
+          gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+        }`,
+      fragmentShader:`varying vec3 vTint;varying float vEdge;
+        void main(){gl_FragColor=vec4(vTint*(.94-.08*vEdge),1.);
+          #include <tonemapping_fragment>
+          #include <colorspace_fragment>
+        }`
+    });
+    materials.set('candidate-wetland-floating-foliage',m);ambientMotion.push(m);
+    const o=mesh(g,geo,m,0,0,0);o.name='Candidate Mud Dogs floating foliage';
+    o.castShadow=false;o.receiveShadow=false;
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceEnvironment:['mud channels','cypress-like wetlands'],
+      discs:count,localCenterPreserved:true,navigable:false,routeIds:[],principalCharacters:[],
+      ambientClock:'ORDINARY_ENVIRONMENT',illustrativeMaxHorizontalDrift:.1,drawBudgetDelta:1};
+    return o;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
@@ -580,7 +638,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     wetlandWaterlineRoots(g,illustratedTreeStands);
     wetlandCanopyFringe(g,illustratedTreeCrowns);
     for(let i=0;i<26;i++){const a=i*2.399,r=6.8+Math.sin(i)*.8,x=Math.cos(a)*r,z=Math.sin(a)*r;cyl(g,x,.1,z,.04,.06,.55+(i%3)*.15,leafLight,4);}
-    for(let i=0;i<12;i++){const o=mesh(g,new THREE.CircleGeometry(.18+(i%3)*.08,9),leafLight,Math.sin(i*5)*7,.16,Math.cos(i*9)*5);o.rotation.x=-Math.PI/2;o.castShadow=false;}
+    wetlandFloatingFoliage(g);
     branch(g,[-5,.5,1],[0,.8,4],.32,trunk);
   }
   function estate(g){
