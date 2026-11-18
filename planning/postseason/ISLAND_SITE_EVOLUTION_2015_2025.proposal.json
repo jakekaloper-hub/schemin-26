@@ -1,6 +1,6 @@
 {
   "schema": "schemin.championship_island_site_evolution.proposal.v1",
-  "status": "UNPROMOTED_ATLAS_CANDIDATE",
+  "status": "SUPERSEDED_FOR_STAGING_BY_FOUNDER_V2",
   "source": "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.proposal.json",
   "atlas_zone_hypothesis": "REG-INNER-SEA-LITTORAL",
   "placement": "outside existing southeast coastal map extent",
@@ -627,5 +627,7 @@
     "island_coordinates_routes_undetermined",
     "historical_human_owners_unverified",
     "farrell_trophy_naming_date_unverified"
-  ]
+  ],
+  "controlling_fictional_venue_source": "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+  "historical_league_facts_unchanged": true
 }
