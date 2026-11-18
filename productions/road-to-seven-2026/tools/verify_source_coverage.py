@@ -5,6 +5,7 @@ Run from the repository checkout:
   python3 productions/road-to-seven-2026/tools/verify_source_coverage.py
 """
 import json
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -85,10 +86,57 @@ def run():
     test(count == 7, "Not exactly seven folios")
     test(len(all_chars) == len(set(all_chars)) == 12, "Twelve character appearances must each be unique")
 
+    # Separate scene.json contracts bind page facts to immutable visual source assets.
+    indexed = {x["team"]: x for x in live.get("teams", [])}
+    image_pairs = 0
+    for i in range(1, 8):
+        path = FOLIOS / ("RT7-P%02d" % i) / "scene.json"
+        test(path.is_file(), "Missing machine scene contract " + path.as_posix())
+        if not path.is_file():
+            continue
+        scene = json.loads(path.read_text(encoding="utf-8"))
+        art = scene.get("artifact", {})
+        test(scene.get("id") == "RT7-P%02d" % i, "Bad scene ID")
+        test(art.get("width") == 1080 and art.get("height") == 1920 and art.get("format") == "PNG",
+             "Bad PNG geometry or format for page %02d" % i)
+        panels = scene.get("character_panels", [])
+        test(len(panels) == (0 if i == 1 else 2), "Bad scene panel count on %02d" % i)
+        for p in panels:
+            image_pairs += 1
+            test(p.get("character_id") in ids, "Unknown scene character " + str(p.get("character_id")))
+            crop = REPO / p.get("approved_crop_path", "")
+            test(crop.is_file(), "Missing reference crop " + str(crop))
+            if crop.is_file():
+                test(hashlib.sha256(crop.read_bytes()).hexdigest() == p.get("approved_crop_sha256"),
+                     "Character crop SHA mismatch " + str(crop))
+            card = REPO / p.get("atlas_card_path", "")
+            plate = REPO / p.get("atlas_structural_plate_path", "")
+            test(card.is_file() and plate.is_file(), "Missing semantic card or geometry plate " + str(p.get("team")))
+            if card.is_file():
+                card_obj = json.loads(card.read_text(encoding="utf-8"))
+                test(p.get("character_id") in card_obj.get("owner_character_ids", []),
+                     "Atlas owner mismatch " + str(p.get("team")))
+            record = indexed.get(p.get("team"))
+            test(record is not None, "Missing live FFHub current team for " + str(p.get("team")))
+            if record:
+                for field, key in (("ffhub_baseline_pct", "baseline_pct"),
+                                   ("ffhub_w11_win_pct", "win_pct"),
+                                   ("ffhub_w11_loss_pct", "loss_pct")):
+                    test(abs(float(p.get(field, -1)) - float(record[key])) < .001,
+                         "FFHub scene source drift " + str(p.get("team")) + " " + field)
+    test(image_pairs == 12, "Exactly 12 official character/image bindings required")
+    approved_lineup = REPO / canon.get("stored_repository_path", "")
+    test(approved_lineup.is_file(), "Missing approved master lineup PNG")
+    if approved_lineup.is_file():
+        test(hashlib.sha256(approved_lineup.read_bytes()).hexdigest() == canon.get("sha256"),
+             "Master approved lineup SHA mismatch")
+
     print(json.dumps({
         "source_qa": "PASS" if not ISSUES else "FAIL",
         "errors": ISSUES,
         "folio_count": count,
+        "source_bound_scene_count": 7,
+        "character_and_atlas_byte_checks": image_pairs,
         "canonical_characters": len(set(all_chars)),
         "week11_teams": len(teams),
         "week11_conditional_runs": live.get("captured_runs"),
