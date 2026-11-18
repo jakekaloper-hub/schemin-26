@@ -535,6 +535,61 @@ export function buildRegionalAssets(THREE, bindings, height) {
     return fringe;
   }
 
+
+  function wetlandWaterlineStems(g){
+    // Animate only the 26 pre-existing, green cylindrical waterline stems.
+    // Keep every established illustrative root, height, radius and 4-sided tube.
+    const positions=[],normals=[],sway=[],faces=[],count=26;
+    for(let i=0;i<count;i++){
+      const a=i*2.399,r=6.8+Math.sin(i)*.8,x=Math.cos(a)*r,z=Math.sin(a)*r;
+      const h=.55+(i%3)*.15,base=.1,phase=i*2.399;
+      const original=new THREE.CylinderGeometry(.04,.06,h,4);
+      const p=original.getAttribute('position'),n=original.getAttribute('normal'),idx=original.getIndex();
+      const start=positions.length/3;
+      for(let j=0;j<p.count;j++){
+        const y=p.getY(j),weight=Math.max(0,Math.min(1,(y+h/2)/h));
+        positions.push(p.getX(j)+x,base+h/2+y,p.getZ(j)+z);
+        normals.push(n.getX(j),n.getY(j),n.getZ(j));
+        sway.push(phase,weight);
+      }
+      for(let j=0;j<idx.count;j++)faces.push(start+idx.getX(j));
+      original.dispose();
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+    geo.setAttribute('normal',new THREE.Float32BufferAttribute(normals,3));
+    geo.setAttribute('aSway',new THREE.Float32BufferAttribute(sway,2));
+    geo.setIndex(faces);geo.computeBoundingSphere();
+    // Maximum tip sway < .091 local units, so retain a .10 culling envelope.
+    geo.boundingSphere.radius+=.10;
+    const m=new THREE.ShaderMaterial({
+      uniforms:{uTime:{value:0},uStem:{value:new THREE.Color('#77944b')}},
+      transparent:false,depthWrite:true,side:THREE.DoubleSide,
+      vertexShader:`uniform float uTime;attribute vec2 aSway;varying float vTip;
+        void main(){
+          vTip=aSway.y;vec3 p=position;
+          float bend=.060*sin(uTime*.65+aSway.x)+.018*sin(uTime*1.17+aSway.x*1.33);
+          float rooted=aSway.y*aSway.y;
+          p.x+=bend*rooted;p.z+=bend*rooted*.58;
+          gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+        }`,
+      fragmentShader:`uniform vec3 uStem;varying float vTip;
+        void main(){gl_FragColor=vec4(uStem*(.90+.08*vTip),1.);
+          #include <tonemapping_fragment>
+          #include <colorspace_fragment>
+        }`
+    });
+    materials.set('candidate-wetland-waterline-stems',m);ambientMotion.push(m);
+    const stems=mesh(g,geo,m,0,0,0);
+    stems.castShadow=false;stems.receiveShadow=false;
+    stems.name='Candidate Mud Dogs waterline stems';
+    stems.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceEnvironment:['mud channels','cypress-like wetlands'],
+      stems:count,rootStationsPreserved:true,navigable:false,routeIds:[],principalCharacters:[],
+      ambientClock:'ORDINARY_ENVIRONMENT',illustrativeMaxTipDisplacement:.091,drawBudgetDelta:1};
+    return stems;
+  }
+
   function wetlandFloatingFoliage(g){
     // Rework ONLY the twelve existing leaf-colored water discs, at their original
     // candidate centers and radii. No additional pads, wetland habitat or canon.
@@ -637,7 +692,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       sourceStands:illustratedTreeStands.length,illustrativeWakeSites:rootWakeSites.length};
     wetlandWaterlineRoots(g,illustratedTreeStands);
     wetlandCanopyFringe(g,illustratedTreeCrowns);
-    for(let i=0;i<26;i++){const a=i*2.399,r=6.8+Math.sin(i)*.8,x=Math.cos(a)*r,z=Math.sin(a)*r;cyl(g,x,.1,z,.04,.06,.55+(i%3)*.15,leafLight,4);}
+    wetlandWaterlineStems(g);
     wetlandFloatingFoliage(g);
     branch(g,[-5,.5,1],[0,.8,4],.32,trunk);
   }
