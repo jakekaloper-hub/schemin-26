@@ -51,7 +51,7 @@ test('wake field is low-contrast, finite, bank masked, and only on inherited swa
  assert.match(shader,/contactTint\+=reliefLight\+padContactSheen/);
  assert.doesNotMatch(shader,/\bstorm\b|\bweather\b|\buRain\b/i);
  assert.equal(channel.material.uniforms.uPadSiteCount.value,0);
- assert.ok(a.water.filter(x=>x.kind!=='swamp').every(x=>x.material.uniforms.uPadSiteCount.value===0));
+ assert.ok(a.water.filter(x=>x.kind!=='swamp').every(x=>(x.material.uniforms.uPadSiteCount?.value??0)===0));
  assert.equal(a.water.filter(x=>x.kind==='swamp').length,1);
  assert.equal(w.mesh.geometry.getAttribute('position').count,385);
  assert.equal(w.mesh.geometry.getIndex().count,2160);
