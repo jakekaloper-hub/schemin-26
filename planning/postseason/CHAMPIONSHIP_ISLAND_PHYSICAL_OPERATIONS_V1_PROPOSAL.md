@@ -1,3 +1,7 @@
+**SUPERSEDED FOR CREATIVE DESIGN BY FOUNDER F01–F11 (2026-11-18).** This original exploration retains historical rationale only. The controlling design is `FOUNDER_CHAMPIONSHIP_ISLAND_DECISIONS_2026-11-18.md`, `ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json`, and `POSTSEASON_2026_ISLAND_EVENT_CONTRACT.proposal.json`. V1 rotating/semifinal mixed arenas, boat-only approach, and premodern broadcast restrictions must not govern new production.
+
+---
+
 # Championship Island — Physical & Competition Operating Foundation V1 (PROPOSAL)
 
 **Status:** FOUNDER-DIRECTED DESIGN CANDIDATE · NOT CANON-PROMOTED · NO 2026 OUTCOME OR RENDER AUTHORIZED  
