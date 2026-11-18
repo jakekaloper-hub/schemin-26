@@ -40,7 +40,7 @@ test('Temple plunge retessellates the same receiving pool with its original 40-s
     assert.ok(Math.abs(pos.getY(i)-Math.sin(angle))<1e-6);
     assert.ok(Math.hypot(pos.getX(i),pos.getY(i))>.999999);
   }
-  assert.equal(a.water.find(w=>w.kind==='pond').mesh.geometry.type,'CircleGeometry');
+  assert.equal(a.water.find(w=>w.kind==='pond').mesh.geometry.name,'Candidate Country Club pond surface');
   assert.equal(a.water.find(w=>w.kind==='river').mesh.geometry.name,'Candidate Temple upstream river surface');
   assert.equal(a.water.find(w=>w.kind==='waterfall').mesh.geometry.type,'PlaneGeometry');
   assert.equal(a.locations[0].group.userData.visualAuthority,'CANDIDATE_NOT_APPROVED');

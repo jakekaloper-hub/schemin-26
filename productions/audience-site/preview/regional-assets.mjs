@@ -23,7 +23,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
     const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
           if(uFall>.5){
@@ -59,6 +59,16 @@ export function buildRegionalAssets(THREE, bindings, height) {
             float plungeWave=sin(plungeRadius*29.-uTime*1.75+sin(uv.x*13.)*.23);
             float plungeCross=sin((uv.x*16.-uv.y*12.)+uTime*.88);
             p.z+=(.017*plungeWave+.006*plungeCross)*plungeHold;
+          }
+          if(uPond>.5){
+            // Existing Country Club Jackson pond; keep the inherited circular bank fixed.
+            // The two already visible radial ripples now move interior vertices as water.
+            vec2 pondP=(uv-vec2(.5))*2.;
+            float pondRadius=length(pondP);
+            float pondHold=1.-smoothstep(.66,.97,pondRadius);
+            float pondA=sin(length((pondP-vec2(-.19,.08))*vec2(1.,1.25))*33.-uTime*2.4);
+            float pondB=sin(length((pondP-vec2(.25,-.18))*vec2(1.2,1.))*25.-uTime*1.75);
+            p.z+=(.012*pondA+.007*pondB)*pondHold;
           }
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
@@ -199,7 +209,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float ripple=(wave1*.6+wave2*.4)*bank;
       float micro=.5+.5*sin(p.x*7.3+sin(p.y*8.2+uTime*.17));
       vec3 pondTint=mix(uColor*.98,uColor*1.02,micro);
-      gl_FragColor=vec4(pondTint+vec3(.09,.13,.11)*ripple,.88);
+      // Low-intensity view response derives from the SAME displaced pond surface.
+      // No invented weather, light-source, current, shoreline or second water body.
+      vec3 pondCross=cross(dFdx(vWorld),dFdy(vWorld));
+      float pondCrossSize=length(pondCross);
+      vec3 pondNormal=pondCrossSize>.00001?pondCross/pondCrossSize:vec3(0.,1.,0.);
+      float pondRelief=clamp((1.-clamp(abs(pondNormal.y),0.,1.))*18.,0.,.34);
+      vec3 pondLight=vec3(.08,.12,.10)*pondRelief*bank;
+      gl_FragColor=vec4(pondTint+vec3(.09,.13,.11)*ripple+pondLight,.88);
       }else if(uPlunge>.5){
       // Small moving eddies beneath the EXISTING Temple plunge; not a new waterbody.
       vec2 p=(vUv-vec2(.5))*2.;
@@ -251,7 +268,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
   }
   function pool(g,kind,x,y,z,rx,rz,color='#387e75'){
     const m=waterMaterial(kind,color);
-    const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():kind==='river'?wetlandWaterDisk('Candidate Temple upstream river surface'):kind==='pool'?wetlandWaterDisk('Candidate Temple plunge pool surface',40):new THREE.CircleGeometry(1,40);
+    const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():kind==='river'?wetlandWaterDisk('Candidate Temple upstream river surface'):kind==='pool'?wetlandWaterDisk('Candidate Temple plunge pool surface',40):kind==='pond'?wetlandWaterDisk('Candidate Country Club pond surface',40):new THREE.CircleGeometry(1,40);
     const o=mesh(g,geometry,m,x,y,z);o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.renderOrder=2;water.push({kind,material:m,mesh:o});return o;
   }
   function waterfall(g,x,y,z,width,drop){

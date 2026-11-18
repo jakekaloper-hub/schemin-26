@@ -10,7 +10,7 @@ const bindings=[
 ];
 const build=(locations=bindings)=>buildRegionalAssets(THREE,locations,()=>2);
 
-test('existing Country Club pond gets a separate subdued radial-ripple shader without new geometry',()=>{
+test('existing Country Club pond gets a separate subdued radial-ripple shader without new waterbody or boundary',()=>{
   const a=build(),pond=a.water.find(w=>w.kind==='pond');
   assert.ok(pond,'the existing pond mesh is retained');
   assert.equal(pond.material.uniforms.uPond.value,1);
@@ -20,7 +20,8 @@ test('existing Country Club pond gets a separate subdued radial-ripple shader wi
   assert.match(pond.material.fragmentShader,/ripple\s*=\s*\(wave1\*\.6\+wave2\*\.4\)\*bank/);
   assert.match(pond.material.fragmentShader,/uTime\*2\.4/,'visible ripples evolve with the environmental clock');
   assert.equal(a.water.filter(w=>w.kind==='pond').length,1);
-  assert.equal(pond.mesh.geometry.type,'CircleGeometry');
+  assert.equal(pond.mesh.geometry.name,'Candidate Country Club pond surface');
+  assert.equal(pond.mesh.geometry.getAttribute('position').count,321,'same 40-sided rim, tessellated interior');
   assert.equal(pond.mesh.material.transparent,true);
   a.dispose();
 });
