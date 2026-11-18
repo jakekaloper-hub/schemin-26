@@ -29,7 +29,7 @@ const equal=(a,b,msg)=>assert.deepStrictEqual(a,b,msg);
 function verifyTopology(t){
   const ids=new Set(t.nodes.map(x=>x.id));
   assert.equal(ids.size,23,'Expected 23 unique conceptual island nodes');
-  assert.equal(t.edges.length,41,'Expected 41 conceptual links');
+  assert.equal(t.edges.length,45,'Expected 45 conceptual links');
   const adj=new Map([...ids].map(n=>[n,[]]));
   for(const edge of t.edges) {
     assert.ok(ids.has(edge.from)&&ids.has(edge.to),'Dangling edge');

@@ -573,6 +573,43 @@
         "media"
       ],
       "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-042",
+      "from": "CONTENDER_FORTRESS",
+      "to": "LOSERS_BEACH",
+      "modes": [
+        "post_elimination",
+        "security"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-043",
+      "from": "LOSERS_BEACH",
+      "to": "EMERGENCY_PIER",
+      "modes": [
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-044",
+      "from": "TAILGATE_COMMONS",
+      "to": "EMERGENCY_PIER",
+      "modes": [
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-045",
+      "from": "LAST_FIELD",
+      "to": "EMERGENCY_PIER",
+      "modes": [
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
     }
   ],
   "checks": {
@@ -605,5 +642,12 @@
     "power source and network reach outside island unresolved",
     "Last Field Central Basin earlier proposal not yet formally superseded",
     "all IDs candidate not permanent LOC/ROUTE"
-  ]
+  ],
+  "evacuation_contract": {
+    "post_elimination_descent": "CONTENDER_FORTRESS -> LOSERS_BEACH, escorted and distinct from title-ground traffic",
+    "crowd_emergency_egress": "TAILGATE_COMMONS and LOSERS_BEACH connect to EMERGENCY_PIER; operations cannot rely on causeway alone",
+    "last_field_emergency_egress": "LAST_FIELD to EMERGENCY_PIER restricted route, separate from ordinary spectators",
+    "hard_gate": "Physical capacity and safety engineering requires qualified site review; topology alone is not an evacuation approval",
+    "evidence_status": "PLANNING_ONLY"
+  }
 }

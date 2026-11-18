@@ -22,7 +22,7 @@ assert.equal(cards.cards.length,56,'Must have every historical title-path fixtur
 assert.equal(cards.annual.length,11,'Must have eleven complete historical seasons');
 assert.equal(cards.cards.reduce((n,c)=>n+c.beat_sequence.length,0),168);
 assert.equal(topology.nodes.length,23);
-assert.equal(topology.edges.length,41);
+assert.equal(topology.edges.length,45);
 assert.equal(sites.sites.length,9);
 assert.equal(contract.schedule.qualification_count,7);
 assert.equal(contract.schedule.first_round_bye_seed,1);
@@ -33,7 +33,7 @@ const years=cards.annual.map(a=>a.season);
 assert.deepEqual(years,Array.from({length:11},(_,i)=>2015+i));
 const data={schema:'schemin.championship-island-static-exhibit.v1',
   editorial_state:'NONCANON_PRODUCTION_PREVIEW_NOT_ATLAS',
-  source_pins:{fact:'ESPN_FLAIM_LEAGUE_1417621_HISTORY',place:'FOUNDER_V2_PROPOSED',release:'BLOCKED_INDEPENDENT_UMPIRE_AND_ATLAS'},
+  source_pins:{fact:'ESPN_FLAIM_LEAGUE_1457621_HISTORY',place:'FOUNDER_V2_PROPOSED',release:'BLOCKED_INDEPENDENT_UMPIRE_AND_ATLAS'},
   cardsAnnual:cards.annual,cards:cards.cards,sites,topology};
 const template=fs.readFileSync(path.join(dir,'index.template.html'),'utf8');
 assert.equal(template.split('__ISLAND_DATA__').length,2,'Expected exactly one data slot');

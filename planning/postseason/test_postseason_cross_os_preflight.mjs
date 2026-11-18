@@ -78,7 +78,7 @@ check('11-year island states match 56 venue assignments',()=>{
 });
 check('Causeway and all 23 proposed points connected, no map coordinate invented',()=>{
  assert.equal(topology.nodes.length,23);
- assert.equal(topology.edges.length,41);
+ assert.equal(topology.edges.length,45);
  assert.deepEqual(reachable(topology),{count:23,total:23});
  assert.ok(topology.nodes.every(n=>n.coordinates===null && n.status==='PROPOSED_ONLY'));
  assert.ok(topology.edges.every(e=>e.status==='PLANNING_ONLY'));
@@ -122,4 +122,4 @@ check('Every title ceremony remains recorded but Farrell founding date unresolve
  assert.equal(history.fixtures.filter(f=>f.round==='FINAL').length,11);
  assert.ok(contract.holds.some(x=>x.toLowerCase().includes('memorial')));
 });
-console.log(JSON.stringify({status:'PASS',checks:checks.length,years:11,fixtures:56,challenge_stages:168,island_nodes:23,route_edges:41,publication:'HOLD',details:checks},null,2));
+console.log(JSON.stringify({status:'PASS',checks:checks.length,years:11,fixtures:56,challenge_stages:168,island_nodes:23,route_edges:45,publication:'HOLD',details:checks},null,2));

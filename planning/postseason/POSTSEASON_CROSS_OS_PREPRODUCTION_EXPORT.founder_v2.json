@@ -3269,6 +3269,35 @@
         "modes": [
           "media"
         ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "LOSERS_BEACH",
+        "modes": [
+          "post_elimination",
+          "security"
+        ]
+      },
+      {
+        "from": "LOSERS_BEACH",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ]
+      },
+      {
+        "from": "LAST_FIELD",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ]
       }
     ],
     "source_geo": "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
