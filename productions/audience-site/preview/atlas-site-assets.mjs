@@ -64,8 +64,8 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   return geo;
  }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
-  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;varying vec2 vUv;varying vec3 vWorld;
+  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;varying vec2 vUv;varying vec3 vWorld;
     void main(){
      vUv=uv;vec3 p=position;
      float radius=length(position.xy);
@@ -82,10 +82,16 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float bridgeR=min(length(position.xy-vec2(-.39,0.)),length(position.xy-vec2(.39,0.)));
      float bridgeWave=exp(-bridgeR*8.)*sin(bridgeR*24.-uTime*1.7);
      p.z+=uBridge*uAmplitude*.16*interior*bridgeWave;
+     // Candidate storm-barrier contact: modeled shape, not surveyed hydrology.
+     float barrierAxis=abs(position.y+.016);
+     float barrierSpan=smoothstep(-.85,-.62,position.x)*(1.-smoothstep(.45,.65,position.x));
+     float barrierBand=exp(-barrierAxis*13.)*barrierSpan;
+     float barrierWave=sin(barrierAxis*26.-uTime*1.35+position.x*3.1);
+     p.z+=uBarrier*uAmplitude*.20*interior*barrierBand*barrierWave;
      vWorld=(modelMatrix*vec4(p,1.)).xyz;
      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
     }`,
-   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;varying vec2 vUv;varying vec3 vWorld;
+   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;varying vec2 vUv;varying vec3 vWorld;
     void main(){
      float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
      float line=pow(max(sin(vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7),0.),17.);
@@ -100,9 +106,14 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float crossingSheen=uCrossing*pow(max(sin(vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55),0.),18.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
      float bridgeR=min(length((vUv-.5)*2.-vec2(-.39,0.)),length((vUv-.5)*2.-vec2(.39,0.)));
      float bridgeSheen=uBridge*exp(-bridgeR*10.)*pow(max(sin(bridgeR*34.-uTime*1.7),0.),8.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
+     vec2 barrierXY=(vUv-.5)*2.;
+     float barrierAxis=abs(barrierXY.y+.016);
+     float barrierSpan=smoothstep(-.85,-.62,barrierXY.x)*(1.-smoothstep(.45,.65,barrierXY.x));
+     float barrierSheen=uBarrier*exp(-barrierAxis*13.)*barrierSpan*pow(max(sin(barrierAxis*26.-uTime*1.35+barrierXY.x*3.1),0.),8.)*(1.-smoothstep(.58,.95,length(barrierXY)));
      vec3 c=clamp(uColor+vec3(.09,.15,.14)*line*gap+viewTint,0.,1.);
      c=clamp(c+vec3(.035,.065,.06)*crossingSheen,0.,1.);
      c=clamp(c+vec3(.055,.09,.08)*bridgeSheen,0.,1.);
+     c=clamp(c+vec3(.045,.075,.074)*barrierSheen,0.,1.);
      gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
   const o=mesh(g,existingWaterDisk(),material,x,y,z,'Moving '+kind+' candidate');o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.receiveShadow=false;water.push({mesh:o,material,kind});return o;
  }
