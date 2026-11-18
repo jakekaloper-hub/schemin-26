@@ -33,3 +33,11 @@ jobs:
         run: node planning/postseason/test_postseason_cross_os_preflight.mjs
       - name: Verify all committed generated previews match their authoritative draft inputs
         run: node planning/postseason/run_postseason_island_pipeline.mjs --check
+      - name: Validate verified historical facts and founder V2 supersession
+        run: node planning/postseason/test_postseason_founder_v2_integrity.mjs
+      - name: Validate dedicated public, contender, broadcast and emergency routes
+        run: node planning/postseason/test_island_circulation.mjs
+      - name: Verify interactive island preview stays source-consistent
+        run: node planning/postseason/site/build_site.mjs --check
+      - name: Check interactive exhibit accessibility and release safeguards
+        run: node planning/postseason/site/test_site.mjs
