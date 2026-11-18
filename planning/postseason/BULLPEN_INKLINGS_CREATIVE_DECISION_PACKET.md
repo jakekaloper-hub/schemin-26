@@ -1,3 +1,7 @@
+**ARCHIVED INITIAL RECOMMENDATION (PRE-FOUNDER INTERVIEW).** Replaced for active creative direction by `FOUNDER_CHAMPIONSHIP_ISLAND_DECISIONS_2026-11-18.md`. It remains source-grounded council methodology, not authenticated author participation. Inklings is now an authorized project production function rather than passive advisory only.
+
+---
+
 # Bullpen × Inklings — Championship Island Creative Decision & Challenge Packet
 
 **Status:** HUMAN-READABLE SOURCE-GROUNDED **SIMULATED** METHODOLOGY REVIEW + real GitHub and Flaim retrieval/writes; **NOT authenticated Bullpen Core routing, automated Director invocation, a genuine independently convened author council, or independent Umpire sign-off.**  
