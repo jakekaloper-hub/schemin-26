@@ -32,7 +32,7 @@ test('channel-only physical shear follows the existing flow and glint phase on u
   assert.ok(channel&&swamp);
   assert.equal(channel.material.uniforms.uChannel.value,1);
   assert.equal(swamp.material.uniforms.uChannel.value,0);
-  assert.ok(a.water.filter(w=>w.kind!=='channel').every(w=>w.material.uniforms.uChannel.value===0));
+  assert.ok(a.water.filter(w=>w.kind!=='channel').every(w=>(w.material.uniforms.uChannel?.value??0)===0));
   assert.deepEqual(channel.mesh.position.toArray(),[-6,.14,7]);
   assert.deepEqual(channel.mesh.scale.toArray(),[4.2,4.5,1]);
   assert.equal(channel.mesh.rotation.x,-Math.PI/2);
