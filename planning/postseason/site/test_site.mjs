@@ -18,6 +18,8 @@ const tests=[];
 const test=(n,f)=>{f();tests.push(n);};
 
 test('Exhibit reads all eleven years and no future winner',()=>{
+ assert.equal(model.broadcast.years.length,11);
+ assert.match(model.broadcast.years[0].coverage_heritage_proposal,/No historical digital footage asserted/);
  assert.equal(model.schema,'schemin.championship-island-static-exhibit.v1');
  assert.equal(model.editorial_state,'NONCANON_PRODUCTION_PREVIEW_NOT_ATLAS');
  assert.deepEqual(model.cardsAnnual.map(x=>x.season),Array.from({length:11},(_,i)=>2015+i));

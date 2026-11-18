@@ -126,6 +126,11 @@ var main=document.getElementById('year-main');clear(main);
 var fin=oldF(selectedYear),win=winners(fin),annual=data.cardsAnnual.find(function(x){return x.season===selectedYear;});
 var hero=push(main,el('div','year-hero panel'));var intro=push(hero,el('div'));push(intro,el('div','eyebrow',selectedYear+' · '+seasonLabel(selectedYear)));push(intro,el('h3','', 'The '+selectedYear+' Gathering'));push(intro,el('div','eyebrow','Recorded champion'));push(intro,el('div','champion',win.name));
 push(intro,el('p','',annual.world_state));
+var mediaState=data.broadcast.years.find(function(x){return x.year===selectedYear;});
+if(mediaState){
+ push(intro,el('div','eyebrow','Broadcast heritage · '+mediaState.era_status.replaceAll('_',' ')));
+ push(intro,el('p','',mediaState.coverage_heritage_proposal));
+}
 var stats=push(hero,el('div','year-stats'));
 [[annual.contender_berths,'Entrants'],[annual.bye_slots.length,'Byes'],[annual.card_ids.length,'Title-path matches'],[12-annual.contender_berths,'Initial beach guests']].forEach(function(s){var m=push(stats,el('div','minor-stat'));push(m,el('strong','',s[0]));push(m,el('span','',s[1]));});
 var rounds=[['QF','Quarterfinals'],['SF','Semifinals'],['FINAL','The Championship']];
