@@ -36,7 +36,7 @@ The LLC's maritime mercantile ledgers contrast with ObiWan's fortified mountain 
 
 **On-image typed copy:**
 - `THE LLC` · Official seed **#9** · Week 10 **4–6**
-- `PLAYOFF OUTLOOK 33.6% (FFHUB, NOV 17)` · `WIN W11 50.6%` · `LOSE W11 16.4%`
+- `PLAYOFF OUTLOOK 33.4% (FFHUB, NOV 18)` · `WIN W11 51.8%` · `LOSE W11 15.6%`
 - Editorial hook: *Even perfect execution cannot purchase certainty.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -68,7 +68,7 @@ The LLC's maritime mercantile ledgers contrast with ObiWan's fortified mountain 
 
 **On-image typed copy:**
 - `OBIWAN JACOBY` · Official seed **#10** · Week 10 **4–6**
-- `PLAYOFF OUTLOOK 32.7% (FFHUB, NOV 17)` · `WIN W11 51.7%` · `LOSE W11 13.4%`
+- `PLAYOFF OUTLOOK 32.5% (FFHUB, NOV 18)` · `WIN W11 52.9%` · `LOSE W11 12.8%`
 - Editorial hook: *The path may be narrow, but it is visible.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -122,3 +122,7 @@ Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_202
 **On-image selection:** heading *THE LONG ROAD*; two 4–6 records/seeds and one future pivot each (W14 LLC vs Niño; W12 Obi vs DK). An unobtrusive small “Nov 18 FFHub Monte Carlo” attribution. Injury details can motivate visual tension without claiming who will play.
 
 **Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [win-out](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json), [W12-14](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [injury](../../evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md), [market](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
+
+## Publication copy lock — November 18 FFHub cohort
+
+**Authoritative for subsequent illustration lettering:** FFHub Nov 18 source capture in `../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json`. The original November 17 figures in the analytic sections are preserved as an explicitly archival separate simulation cohort, and cannot silently enter final image copy. This folio’s selected on-image odds above are sourced to the November 18 cohort. Mathematical clinch/elimination text must still use independently verified source proofs, not rounded vendor percentages. Layout and typo QA are still open.
