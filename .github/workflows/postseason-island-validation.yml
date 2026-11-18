@@ -41,3 +41,9 @@ jobs:
         run: node planning/postseason/site/build_site.mjs --check
       - name: Check interactive exhibit accessibility and release safeguards
         run: node planning/postseason/site/test_site.mjs
+      - name: Verify eleven distinct professional broadcast eras
+        run: node planning/postseason/test_broadcast_history.mjs
+      - name: Verify every Inklings intervention and eleven final scripts
+        run: node planning/postseason/test_inklings_interventions.mjs
+      - name: Verify 2026 synthetic qualification and certified tournament transitions
+        run: node planning/postseason/test_tournament_runtime.mjs
