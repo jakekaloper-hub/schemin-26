@@ -115,5 +115,60 @@
     "approved_environment_pixel_binding": "TO_REVIEW",
     "generated_visual_QA": "NOT_RUN",
     "umpire_release": "NOT_SIGNED"
+  },
+  "visual_studio": {
+    "owning_role": "Schemin Narrative Art Director / Visual Direction Lead",
+    "production_lenses_are": "PUBLISHED_METHOD_REFERENCE_ONLY_NOT_HUMAN_CONSULTATIONS",
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Joe Letteri",
+      "Ngila Dickson",
+      "Rob Alonzo"
+    ],
+    "source_document": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md",
+    "skill_methods": [
+      "creative-production/produce:styles",
+      "creative-production/produce:shots",
+      "creative-production/produce:source-preservation",
+      "creative-production/produce:exact-content"
+    ]
+  },
+  "lighting_contract": {
+    "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+    "lead": [
+      "Doug Chiang",
+      "Joe Letteri",
+      "Ngila Dickson",
+      "Rob Alonzo"
+    ],
+    "time": "late golden hour / storm-break contrast",
+    "left": {
+      "key": "warm low sun across gorilla-centaur four-legged form",
+      "fill": "cool reflected Highland stone",
+      "rim": "thin golden fur edge",
+      "air": "sparse dust revealing hoof/leg shadows"
+    },
+    "right": {
+      "key": "cool cloud break at keep",
+      "fill": "warm hearth bounced light",
+      "rim": "narrow natural storm edge, eye glow cannot illuminate entire keep",
+      "air": "light sea mist near ramparts"
+    },
+    "text_safe": "unlit limestone inset away from Belt and fur highlights",
+    "forbidden": "biped DK, wrong number of legs, Belt on ObiWan, glowing eyes as spotlight",
+    "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+  },
+  "writing_contract": {
+    "owner": "Schemin Beat Writer / Inklings advisory lenses",
+    "copy_path": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+    "not_human_author_consultation": true,
+    "review_status": "WRITTEN_CANDIDATE_NOT_APPROVED"
+  },
+  "release_qa": {
+    "created_at": "2026-11-18",
+    "stage": "PREPRODUCTION_ONLY",
+    "visual_raster": "NOT_GENERATED",
+    "source_qa": "PASS",
+    "independent_umpire_visual": "NOT_RUN"
   }
 }
