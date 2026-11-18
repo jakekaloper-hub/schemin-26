@@ -1,0 +1,41 @@
+{
+  "schema_version": "schemin.road_to_seven_scene.v1",
+  "id": "RT7-P01",
+  "title": "THE ROAD TO SEVEN",
+  "edition": "The Road to Seven",
+  "artifact": {
+    "format": "PNG",
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "page_count": 1,
+    "output_file": "RT7-P01.png"
+  },
+  "state": "SOURCE_AND_ASSET_BOUND_COVER_CONTRACT__NO_PNG_GENERATED",
+  "cover": {
+    "headline": "THE ROAD TO SEVEN",
+    "subtitle": "Twelve Contenders. Seven Berths. One Commonwealth.",
+    "microcopy": "All twelve remain mathematically alive. None has clinched. Four weeks to decide seven berths.",
+    "symbols": {
+      "seven_gates": "symbolic playoff berths, not a new permanent location",
+      "twelve_roads": "represent twelve independently located character homelands; not a canonically adjacent route"
+    },
+    "camera": "sweeping epic high-angle travel line toward seven symbolic sunlit gateways, full-bleed landscape montage, 9:16 cinematic scale",
+    "on_image_limit": "title, subtitle, 12 contenders / seven berths / four weeks, one short cinematic sentence; no odds or injury data"
+  },
+  "character_panels": [],
+  "scene_authority": {
+    "full_page_contract": "productions/road-to-seven-2026/folios/RT7-P01/PAGE_PACKET.md",
+    "data_sources": [
+      "productions/road-to-seven-2026/evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/TWELVE_TEAM_FORECAST_STRESS_TEST_2026-11-18.md"
+    ]
+  },
+  "safety": {
+    "no_new_permanent_atlas_geography": true,
+    "no_unplayed_results": true,
+    "no_claim_any_team_clinched": true,
+    "rendered_visual_QA": "NOT_RUN",
+    "umpire_release": "NOT_SIGNED"
+  }
+}
