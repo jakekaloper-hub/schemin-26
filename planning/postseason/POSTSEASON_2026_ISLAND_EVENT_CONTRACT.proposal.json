@@ -1,0 +1,203 @@
+{
+  "schema": "schemin.postseason_island_event_contract.v1",
+  "status": "DESIGN_CONTRACT_NOT_RELEASED",
+  "season": 2026,
+  "source_of_truth": {
+    "league": "ESPN:football:1417621",
+    "sporting_settings": "canon/league.json plus refreshed provider playoff settings",
+    "source_gate": "LOCK_POSTWEEK_14_BEFORE_BINDINGS",
+    "world": "world/data/ and venue location promotion",
+    "historic_context": "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.proposal.json"
+  },
+  "schedule": {
+    "regular_season_ends_after_week": 14,
+    "rounds": [
+      {
+        "key": "QUARTERFINAL",
+        "week": 15,
+        "fixture_count": 3,
+        "bye_count": 1
+      },
+      {
+        "key": "SEMIFINAL",
+        "week": 16,
+        "fixture_count": 2,
+        "bye_count": 0
+      },
+      {
+        "key": "CHAMPIONSHIP",
+        "week": 17,
+        "fixture_count": 1,
+        "bye_count": 0
+      }
+    ],
+    "qualification_count": 7,
+    "first_round_bye_seed": 1,
+    "reseed": false,
+    "verified_individual_round_outcomes": false
+  },
+  "bracket_state_machine": {
+    "states": [
+      "NOT_QUALIFIED",
+      "QUALIFIED",
+      "BYE_ADVANCED",
+      "IN_CONTEST",
+      "ADVANCED",
+      "ELIMINATED_QF",
+      "ELIMINATED_SF",
+      "RUNNER_UP",
+      "CHAMPION"
+    ],
+    "transitions": [
+      [
+        "NOT_QUALIFIED",
+        "BEACH_INITIAL"
+      ],
+      [
+        "QUALIFIED",
+        "IN_CONTEST"
+      ],
+      [
+        "QUALIFIED",
+        "BYE_ADVANCED"
+      ],
+      [
+        "BYE_ADVANCED",
+        "IN_CONTEST"
+      ],
+      [
+        "IN_CONTEST",
+        "ADVANCED"
+      ],
+      [
+        "IN_CONTEST",
+        "ELIMINATED_QF"
+      ],
+      [
+        "IN_CONTEST",
+        "ELIMINATED_SF"
+      ],
+      [
+        "IN_CONTEST",
+        "RUNNER_UP"
+      ],
+      [
+        "IN_CONTEST",
+        "CHAMPION"
+      ]
+    ],
+    "preconditions": [
+      "Each transition requires exact official fixture/bye and certified result evidence",
+      "No championship winner before provider settles all final games",
+      "No unrelated event changes another matchup's score"
+    ],
+    "prohibited": [
+      "combat death as elimination",
+      "provisional or random winners",
+      "future pre-written opponent identities",
+      "automatic effect on another contest's provider outcome"
+    ]
+  },
+  "island_zones": {
+    "contenders_quarter": {
+      "entry_requires": "official qualification",
+      "current_occupancy": "unknown until result lock",
+      "exit": "certified elimination or postfinal release",
+      "rights": "seasonal temporary assignment"
+    },
+    "bye_house": {
+      "entry_requires": "official seed1 first-round bye",
+      "status": "no fictitious QF performance",
+      "exit": "semifinal appearance"
+    },
+    "losers_beach": {
+      "entry_requires": "official nonqualification or loss",
+      "as_of_week14_population": 5,
+      "after_qf_population": 8,
+      "after_sf_population": 10,
+      "after_final_population": 11,
+      "note": "counts conditional on standard seven-team single-elimination format; do not assign team identities before certified results"
+    },
+    "last_field": {
+      "event_class": "CHAMPIONSHIP_ONLY",
+      "active_status": "LOCKED_PENDING_CANON_PROMOTION_AND_FINALIST_VERIFICATION",
+      "max_competitors": 2,
+      "mandatory_remembrance": "Michael Farrell Trophy protected memorial doctrine"
+    }
+  },
+  "venue_assignment": {
+    "rounds": {
+      "QUARTERFINAL": "Three distinct, safety-cleared non-Last-Field arena LOCs after promotion",
+      "SEMIFINAL": "Two distinct approved prestige arenas",
+      "CHAMPIONSHIP": "One fixed Last Field LOC after approved island relocation"
+    },
+    "source_priority": [
+      "official round and opponents",
+      "available promoted sites",
+      "verified site geometry/weather/route",
+      "neutrality and audience capacity",
+      "editorial varied encounter form"
+    ],
+    "notes": "Never enforce a specific proposed historical venue as active without promotion"
+  },
+  "media_rhythm": {
+    "pre_match": [
+      "transport_arrival",
+      "two_head_to_head_contenders",
+      "historical_rivalry_verified",
+      "venue_geometry",
+      "contest_objective_announced"
+    ],
+    "in_match": [
+      "back_and_forth_trial",
+      "grounded_venue_interaction",
+      "counterplay",
+      "source_labeled_live_or_final_status"
+    ],
+    "post_match": [
+      "official_certified_final_score",
+      "winner_advances",
+      "loser_exits",
+      "island_bracket_changes",
+      "contenders_quarter_updated",
+      "losers_beach_updated",
+      "mainland_herald_dispatch"
+    ],
+    "presentation": "Modern sports broadcast is Memo/website presentation; in-world signal technology only as approved"
+  },
+  "data_packet_required_fields": [
+    "season",
+    "round",
+    "week",
+    "provider",
+    "league_id",
+    "snapshot_id",
+    "fixture_id",
+    "home_team_id",
+    "away_team_id",
+    "home_score",
+    "away_score",
+    "winner_team_id",
+    "result_status",
+    "venue_loc_or_candidate",
+    "encounter_form",
+    "scene_continuity_in",
+    "scene_continuity_out",
+    "render_release_gate"
+  ],
+  "delivery_channels": [
+    "memo-os",
+    "living-novel",
+    "world/atlas",
+    "commonwealth-site",
+    "visual-production"
+  ],
+  "holds": [
+    "2026 source not locked",
+    "event venues not promoted in live Atlas",
+    "physical island site and routes not verified",
+    "Last Field Central Basin island conflict pending approval",
+    "memorial founding chronology unresolved",
+    "historical owner identities incomplete"
+  ]
+}
