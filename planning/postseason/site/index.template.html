@@ -145,7 +145,12 @@ var c=selectedFixture;var d=push(main,el('section','scene-panel panel'));d.setAt
 var head=push(d,el('div','scene-header'));push(head,el('div','eyebrow',c.round+' / '+c.venue.name+' / '+c.season));push(head,el('div','eyebrow','Fictional choreography · verified winner'));
 push(d,el('h3','',c.verified.home.name+' vs '+c.verified.away.name));
 var grid=push(d,el('div','stage-grid'));c.beat_sequence.forEach(function(st){var card=push(grid,el('div','stage'));push(card,el('span','number','0'+st.n));push(card,el('strong','',st.label.replaceAll('_',' ')));push(card,el('p','',st.action));});
-var foot=push(d,el('div','scene-summary'));push(foot,el('strong','', 'Official survivor: '+winners(c).name+'. '));push(foot,document.createTextNode(c.storyroom.camp_effect+' These physical scenes are literary proposals, not historical ESPN event photography.'));
+var foot=push(d,el('div','scene-summary'));
+push(foot,el('strong','', 'Official survivor: '+winners(c).name+'. '));
+push(foot,document.createTextNode(c.storyroom.camp_effect));
+push(foot,el('p','', 'SPECTATOR CUTAWAY: '+c.storyroom.spectator_cutaway));
+push(foot,el('p','', 'HERITAGE: '+c.storyroom.heritage_consequence));
+push(foot,el('p','', 'The individual physical actions and spectator responses are fictional Inklings productions. Official ESPN history determines the scores and winner.'));
 }
 function renderFinale(main){
 var scene=data.finales.find(function(x){return x.year===selectedYear;});if(!scene)return;

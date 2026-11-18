@@ -18,6 +18,8 @@ const file = (name) => path.join(DEFAULT_DIR,name);
 export const DEFAULT_HISTORY = file('HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json');
 export const DEFAULT_SITES = file('ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json');
 export const DEFAULT_OUT = file('INKLINGS_2015_2025_COMPILED_PRODUCTION_CARDS.proposal.json');
+const interventions=JSON.parse(fs.readFileSync(file('INKLINGS_56_SIGNATURE_ENCOUNTER_INTERVENTIONS_V1.json'),'utf8'));
+const interventionById=new Map(interventions.items.map(x=>[x.fixture_id,x]));
 
 function required(v,msg) {if (!v) throw new Error(msg);}
 function hash(data) {return crypto.createHash('sha256').update(data).digest('hex');}
@@ -84,13 +86,28 @@ founding:'2015–16: 4-team era. Original small stands and modest media coverage
 six:'2017–20: 6-team era. Two QF sites in use, major causeway/event expansion; displays introduced gradually, not all instantly built.',
 seven:'2021–25: 7-team era. Three dedicated QF venues, premium suites, media complex, rugged fortress architecture and beach-village hospitality.'
 };
+export function validateInterventions(registry,history) {
+  required(registry?.schema==='schemin.inklings.signature_interventions.v1','Original Inklings registry required');
+  required(Array.isArray(registry.items)&&registry.items.length===56,'56 scene-specific interventions required');
+  const ids=new Set(registry.items.map(x=>x.fixture_id));
+  required(ids.size===56,'Duplicate intervention fixture ID');
+  required(history.fixtures.every(f=>ids.has(f.id)),'Missing historical scene intervention');
+  required(registry.items.every(x=>['signature_action','spectator_cutaway','legacy_note'].every(k=>typeof x[k]==='string'&&x[k].length>30)),
+    'Empty or generic scene direction');
+  required(new Set(registry.items.map(x=>x.signature_action)).size===56,'Repeated signature physical choreography');
+  return true;
+}
 export function compile(history,sites,sourceSha=null) {
   validate(history,sites);
+  validateInterventions(interventions,history);
   const siteById=new Map(sites.sites.map(s=>[s.id,s]));
   const cards=history.fixtures.map(f=>{
     const site=siteById.get(f.staging.venue_id);
     const w=winner(f),l=loser(f);
     const era=f.year<=2016?'founding':f.year<=2020?'six':'seven';
+    const creative=interventionById.get(f.id);
+    for (const field of ['signature_action','spectator_cutaway','legacy_note'])
+      required(typeof creative[field]==='string' && creative[field].length>30,'Missing distinctive story action '+f.id);
     return {
       card_id:'INKLINGS-'+f.id,
       verified_fixture_id:f.id,
@@ -99,8 +116,11 @@ export function compile(history,sites,sourceSha=null) {
       verified:{home:f.home,away:f.away,winner_slot:f.winner_slot,score_class:'ESPN_HISTORICAL_FACT',period:f.scoring_period},
       creative_status:'NONCANON_WORKSHOP_OUTPUT',
       venue:{id:site.id,name:site.name,zone:site.zone,round_class:site.round_assignment,physical_heritage:site.heritage},
-      beat_sequence:f.staging.stages,
+      beat_sequence:f.staging.stages.map(b=>b.n===2?{...b,action:creative.signature_action,source_class:'FICTION_ORIGINAL_INKLINGS_INTERVENTION'}:b),
       storyroom:{
+        signature_action:creative.signature_action,
+        spectator_cutaway:creative.spectator_cutaway,
+        heritage_consequence:creative.legacy_note,
         opening:confine('The crowd converges on '+site.name+'. '+f.home.name+' and '+f.away.name+' enter from opposed gates. Their public challenge is not a deathmatch, and the history of the island does not grant either side victory.'),
         physical_contest_rule:confine('Three escalating stages, both sides exercising active counterplay, followed by one ESPN-certified decision. '+f.staging.encounter_form+'.'),
         closing:confine(w.name+' survives this '+f.round+' encounter. '+l.name+' cannot advance and joins the island shore community after the recorded official result.'),
