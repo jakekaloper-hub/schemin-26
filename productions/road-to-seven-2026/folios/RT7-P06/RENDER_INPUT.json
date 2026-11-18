@@ -1,0 +1,167 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P06",
+  "page_title": "THE LONG ROAD",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "maritime mercantile boardroom vs mountain base; two independent canonical geographies",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Doug Chiang",
+        "Frank Masi",
+        "Jill Bogdanowicz",
+        "Thelma Schoonmaker"
+      ],
+      "time": "lamp-lit mercantile dusk / mountain cloud daylight",
+      "left": {
+        "key": "existing brass lantern practical across ledger",
+        "fill": "blue harbor window, low-level room bounce",
+        "rim": "soft interior warm edge only",
+        "air": "faint coastal haze seen out window"
+      },
+      "right": {
+        "key": "cool open sky from high-altitude base",
+        "fill": "warm rock reflected fill",
+        "rim": "slight sunlight edge, small locally motivated green saber spill",
+        "air": "light mountain mist behind body, not in text"
+      },
+      "text_safe": "dark uncluttered ledger panel and separate mountain stone/sky zone",
+      "forbidden": "Belt on ObiWan, large fluorescent saber glow, new LLC destruction",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Frank Masi",
+      "Jill Bogdanowicz",
+      "Thelma Schoonmaker"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "The LLC",
+      "seed": 9,
+      "record": "4-6",
+      "narrative_headline": "A Contract With Chance",
+      "narrative_body": "From the mercantile boardroom, The LLC reads an unfinished ledger, its margins crowded with matches no one can yet control. Duckhook is first; three Pizza rivals follow. Even four victories and an eight-win finish cannot legally guarantee admission in every possible season. The old scars in the room remain, but no new damage is required. He closes the ledger on certainty and opens it on action.",
+      "playoff_probability": "33.4%",
+      "if_w11_win": "51.8%",
+      "if_w11_loss": "15.6%",
+      "future_fork": {
+        "week": 14,
+        "opponent": "El Niño",
+        "if_win": "51.90%",
+        "if_loss": "16.01%",
+        "public_caption": "W14 VS EL NIÑO"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-DAVID-BABB",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340"
+      },
+      "atlas_asset": {
+        "id": "LOC-LLC-BOARDROOM",
+        "card": "world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json",
+        "plate": "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "existing brass lantern practical across ledger",
+        "fill": "blue harbor window, low-level room bounce",
+        "rim": "soft interior warm edge only",
+        "air": "faint coastal haze seen out window"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "ObiWan Jacoby",
+      "seed": 10,
+      "record": "4-6",
+      "narrative_headline": "The Mountain Still Has a Path",
+      "narrative_body": "At the Trade Jedi mountain base, ObiWan studies a sequence of roads: Chili, D0nkey K0ng, Mud Dogs, Snake. The next four weeks ask almost everything of him. A sweep, plus one additional DK defeat away from their direct rematch, can force a Burgers title. He carries his green blade, not the Belt. The mountain road is steep; for the moment it is still open.",
+      "playoff_probability": "32.5%",
+      "if_w11_win": "52.9%",
+      "if_w11_loss": "12.8%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "D0nkey K0ng",
+        "if_win": "51.36%",
+        "if_loss": "16.03%",
+        "public_caption": "W12 VS D0NKEY K0NG"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-JAKE-KALOPER",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8"
+      },
+      "atlas_asset": {
+        "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "card": "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+        "plate": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "cool open sky from high-altitude base",
+        "fill": "warm rock reflected fill",
+        "rim": "slight sunlight edge, small locally motivated green saber spill",
+        "air": "light mountain mist behind body, not in text"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  }
+}

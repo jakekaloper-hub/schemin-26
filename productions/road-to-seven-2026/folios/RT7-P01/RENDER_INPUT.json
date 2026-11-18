@@ -1,0 +1,94 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P01",
+  "page_title": "THE ROAD TO SEVEN",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "sweeping epic high-angle travel line toward seven symbolic sunlit gateways, full-bleed landscape montage, 9:16 cinematic scale",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Doug Chiang",
+        "Dylan Cole",
+        "Frank Masi",
+        "Jill Bogdanowicz"
+      ],
+      "time": "sunrise",
+      "key": "low distant golden horizon; sun appears from behind seven symbolic gateways",
+      "fill": "cool sky and subtle earth-bounce foreground",
+      "rim": "natural warm edge only on distant terrain",
+      "air": "regional haze with separately legible biome silhouettes, no new roads implied",
+      "text_safe": "upper center low-detail open sky; low glow behind text",
+      "forbidden": "new permanent shrine or gate, false geography, overexposed headline",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Dylan Cole",
+      "Frank Masi",
+      "Jill Bogdanowicz"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "cover",
+      "title": "THE ROAD TO SEVEN",
+      "subtitle": "Twelve Contenders. Seven Berths. One Commonwealth.",
+      "facts": "12 CONTENDERS · 7 BERTHS · 4 WEEKS",
+      "note": "All twelve mathematically alive and none clinched after Week 10"
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  }
+}

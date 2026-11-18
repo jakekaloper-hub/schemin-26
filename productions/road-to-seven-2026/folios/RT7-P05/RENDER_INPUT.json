@@ -1,0 +1,167 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P05",
+  "page_title": "THE SEVENTH GATE",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "jungle ruins and predator banners facing stable frontier; qualification cut line metaphorical",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Dylan Cole",
+        "Rob Alonzo",
+        "Frank Masi",
+        "Jill Bogdanowicz"
+      ],
+      "time": "forest canopy / stable late-day",
+      "left": {
+        "key": "spotted filtered amber canopy shafts",
+        "fill": "low-contrast forest green stone bounce",
+        "rim": "edge on red leopard spots and armor",
+        "air": "humid forest depth, preserved terrace scar"
+      },
+      "right": {
+        "key": "low oblique sunlight through barn entrance",
+        "fill": "earth and timber bounce to lift hat-shadowed facial planes",
+        "rim": "bronze western dust edge",
+        "air": "dry track dust; no physical adjacency"
+      },
+      "text_safe": "two separately dark, low-detail name/record zones, not on changing specular highlights",
+      "forbidden": "actual Week 13 result depicted, new stone damage, character without black hat",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Dylan Cole",
+      "Rob Alonzo",
+      "Frank Masi",
+      "Jill Bogdanowicz"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "Red Leopards",
+      "seed": 7,
+      "record": "5-5",
+      "narrative_headline": "Keeper of a Narrow Opening",
+      "narrative_body": "Between ruined stones and predator banners, Red Leopards watches the narrow way into the seventh position. Five victories place him just inside the gate, but the threshold belongs to no one yet. Three Dreaded Snake approaches first. Duckhook follows, then Chili arrives for the consequential Week 13 rematch. Red tests the footing of the terrace. A predator survives by guarding the approach, not merely roaring at it.",
+      "playoff_probability": "50.1%",
+      "if_w11_win": "64.8%",
+      "if_w11_loss": "27.2%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "The Chili Cheesers",
+        "if_win": "70.21%",
+        "if_loss": "30.71%",
+        "public_caption": "W13 VS THE CHILI CHEESERS"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-KEVIN-ZEEK",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b"
+      },
+      "atlas_asset": {
+        "id": "LOC-RED-RUINS",
+        "card": "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json",
+        "plate": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "spotted filtered amber canopy shafts",
+        "fill": "low-contrast forest green stone bounce",
+        "rim": "edge on red leopard spots and armor",
+        "air": "humid forest depth, preserved terrace scar"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "The Chili Cheesers",
+      "seed": 8,
+      "record": "5-5",
+      "narrative_headline": "One Step Beyond the Line",
+      "narrative_body": "The stable gate swings open onto dusty track. Chili holds the eighth seed and refuses to confuse standing outside with being defeated. ObiWan arrives before the three Wings rematches; Red waits in Week 13, when one result could swing both playoff paths. He settles the black brim above his eyes and steps toward the road. The seventh place is not inherited. It must be taken.",
+      "playoff_probability": "38.2%",
+      "if_w11_win": "58.8%",
+      "if_w11_loss": "20.7%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "Red Leopards",
+        "if_win": "57.36%",
+        "if_loss": "21.57%",
+        "public_caption": "W13 VS RED LEOPARDS"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-BRANDON-PRYOR",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+      },
+      "atlas_asset": {
+        "id": "LOC-CHILI-STABLE",
+        "card": "world/location-control-plane/locations/LOC-CHILI-STABLE/CARD.json",
+        "plate": "world/environment-references/plates/LOC-CHILI-STABLE/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "low oblique sunlight through barn entrance",
+        "fill": "earth and timber bounce to lift hat-shadowed facial planes",
+        "rim": "bronze western dust edge",
+        "air": "dry track dust; no physical adjacency"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P03",
+  "page_title": "THE PURSUIT",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "low-angle Highland stronghold vs storm-cliff keep; both characters full anatomy, command without coronation",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Doug Chiang",
+        "Joe Letteri",
+        "Ngila Dickson",
+        "Rob Alonzo"
+      ],
+      "time": "late golden hour / storm-break contrast",
+      "left": {
+        "key": "warm low sun across gorilla-centaur four-legged form",
+        "fill": "cool reflected Highland stone",
+        "rim": "thin golden fur edge",
+        "air": "sparse dust revealing hoof/leg shadows"
+      },
+      "right": {
+        "key": "cool cloud break at keep",
+        "fill": "warm hearth bounced light",
+        "rim": "narrow natural storm edge, eye glow cannot illuminate entire keep",
+        "air": "light sea mist near ramparts"
+      },
+      "text_safe": "unlit limestone inset away from Belt and fur highlights",
+      "forbidden": "biped DK, wrong number of legs, Belt on ObiWan, glowing eyes as spotlight",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Joe Letteri",
+      "Ngila Dickson",
+      "Rob Alonzo"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "D0nkey K0ng",
+      "seed": 3,
+      "record": "6-4",
+      "narrative_headline": "The Highland Gatekeeper",
+      "narrative_body": "The stronghold hears the scrape of stone beneath D0nkey K0ng's four planted legs. His Majesty's Blood approaches, but the more exact challenge waits beyond: ObiWan in Week 12 and Snake in Week 13. Defeat both and the Burgers crown is his under the retained rules, regardless of the other games. He looks toward those two roads, not the balcony crowd. Control is only useful when exercised.",
+      "playoff_probability": "93.3%",
+      "if_w11_win": "98.7%",
+      "if_w11_loss": "88.6%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "ObiWan Jacoby",
+        "if_win": "99.48%",
+        "if_loss": "86.00%",
+        "public_caption": "W12 VS OBIWAN JACOBY"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-WILSON-LOOK",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+      },
+      "atlas_asset": {
+        "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "card": "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json",
+        "plate": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "warm low sun across gorilla-centaur four-legged form",
+        "fill": "cool reflected Highland stone",
+        "rim": "thin golden fur edge",
+        "air": "sparse dust revealing hoof/leg shadows"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "His Majesty's Blood",
+      "seed": 4,
+      "record": "6-4",
+      "narrative_headline": "The Belt Is Not the Gate",
+      "narrative_body": "Under a hood and beneath the iron of his keep, His Majesty's Blood guards the Belt already earned. The postseason, however, has offered him no such possession. D0nkey K0ng comes first, then all three remaining Pizza opponents. Three more victories would guarantee a berth. He tightens the black armor at his wrist and advances through the keep's cold light. A champion's trinket cannot win tomorrow's encounter.",
+      "playoff_probability": "87.6%",
+      "if_w11_win": "95.2%",
+      "if_w11_loss": "80.1%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "El Niño",
+        "if_win": "96.22%",
+        "if_loss": "80.29%",
+        "public_caption": "W13 VS EL NIÑO"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-AUSTIN-BYARS",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3"
+      },
+      "atlas_asset": {
+        "id": "LOC-BELT-KEEPER-KEEP",
+        "card": "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json",
+        "plate": "world/environment-references/plates/LOC-BELT-KEEPER-KEEP/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "cool cloud break at keep",
+        "fill": "warm hearth bounced light",
+        "rim": "narrow natural storm edge, eye glow cannot illuminate entire keep",
+        "air": "light sea mist near ramparts"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  }
+}

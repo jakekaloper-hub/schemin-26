@@ -9,6 +9,7 @@ import hashlib
 import re
 from decimal import Decimal, ROUND_HALF_UP
 import sys
+import subprocess
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
@@ -181,6 +182,15 @@ def run():
     if approved_lineup.is_file():
         test(hashlib.sha256(approved_lineup.read_bytes()).hexdigest() == canon.get("sha256"),
              "Master approved lineup SHA mismatch")
+
+    # Verify the derived image-production inputs against the frozen underlying sources.
+    compiler = BASE / "tools/compile_render_inputs.py"
+    test(compiler.is_file(), "Missing deterministic render-input compiler")
+    if compiler.is_file():
+        result = subprocess.run([sys.executable, str(compiler), "--dry-run"],
+                                capture_output=True, text=True, timeout=25)
+        test(result.returncode == 0,
+             "Render manifest or per-page inputs stale: " + (result.stderr or result.stdout)[-700:])
 
     print(json.dumps({
         "source_qa": "PASS" if not ISSUES else "FAIL",

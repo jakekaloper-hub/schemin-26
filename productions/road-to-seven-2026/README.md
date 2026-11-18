@@ -18,6 +18,19 @@ The project now holds **223 actual current roster entries**, six live Week 11 ES
 - All 7 [scene.json](folios/RT7-P01/scene.json) contracts have a baked lighting contract, chosen art-method bench, Inklings source and per-character canon+Atlas bindings. Six paired folios have source-locked **November 18 on-image FFHub data**; historical November 17 figures remain in research passages, not publication lettering.
 - Final generated PNG pixel checks, human subject-to-image likeness confirmation, actual 390px mobile legibility and independent publication QA have not been performed. No raster release approval has been claimed.
 
+## Renderer-ready production handoff (independently testable)
+
+The seven \`folios/RT7-P0x/RENDER_INPUT.json\` files are now **compiled production inputs**, not merely page ideas. The deterministic compiler \`tools/compile_render_inputs.py\` assembles the approved character crop/hash/Atlas plate, frozen Week 10 rank and record, Nov 18 FFHub odds, a selected future hinge, the individually matched Inklings manuscript paragraph, and baked-in page lighting into one file per folio. The companion \`RENDER_MANIFEST.json\` pins source and scene hashes.
+
+Run from the repository root:
+
+\`\`\`sh
+python3 productions/road-to-seven-2026/tools/compile_render_inputs.py --dry-run
+python3 productions/road-to-seven-2026/tools/verify_source_coverage.py
+\`\`\`
+
+**Strict fail-closed:** The dry-run recalculates all seven render inputs and refuses source, character, team, mathematical value, narrative, or future-fork drift. If an authoritative input changes, re-run the compiler without \`--dry-run\`, independently review the new rendered-copy selection, and recheck before artwork. The image operator must **never** generate numbers or labels within AI artwork: render the cinematic scenes separately, then overlay deterministic source text. The 1080×1920 and 390-px phone proof, scene pixels, lighting, crop/identity recognition, and Umpire release are **NOT YET VERIFIED**.
+
 ## Page folio index
 | Folio | Title | Character pairing |
 |---|---|---|

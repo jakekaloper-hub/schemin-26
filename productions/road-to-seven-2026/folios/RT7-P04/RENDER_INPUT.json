@@ -1,0 +1,167 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P04",
+  "page_title": "THE THRESHOLD",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "symmetrical long golf-course approach vs irregular road commons; precision contrasts loud resistance",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Frank Masi",
+        "James Baxter",
+        "Andy Serkis",
+        "Ngila Dickson"
+      ],
+      "time": "morning club / bright commons midday",
+      "left": {
+        "key": "soft eastern daylight on Duckhook and golf green",
+        "fill": "lawn and pale path bounce",
+        "rim": "very subtle wet grass glint",
+        "air": "no dense fog; green visibility"
+      },
+      "right": {
+        "key": "upper-left direct midday road sun",
+        "fill": "warm dust and road surface bounce",
+        "rim": "small edge on hands and cap",
+        "air": "light dry dust without invented destruction"
+      },
+      "text_safe": "fairway shadow and lower road stone, strong contrast",
+      "forbidden": "unmotivated lightning, major new commons damage, generic duck",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Frank Masi",
+      "James Baxter",
+      "Andy Serkis",
+      "Ngila Dickson"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "Dr. Duckhook",
+      "seed": 5,
+      "record": "6-4",
+      "narrative_headline": "The Difficult Approach",
+      "narrative_body": "Dr. Duckhook studies the green at the Country Club of Jackson, a quiet stretch that makes error feel almost personal. Six victories have not repaired three earlier losses inside Wings. The LLC waits outside the club; afterward, Red, Slob and Chili return. He sets his stance, checks the line and takes no swing yet. The distance is measurable. The outcome is not.",
+      "playoff_probability": "87.6%",
+      "if_w11_win": "96.4%",
+      "if_w11_loss": "78.9%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "Red Leopards",
+        "if_win": "97.01%",
+        "if_loss": "76.84%",
+        "public_caption": "W12 VS RED LEOPARDS"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-ZACH-WILSON",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+      },
+      "atlas_asset": {
+        "id": "LOC-COUNTRY-CLUB-JACKSON",
+        "card": "world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json",
+        "plate": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "soft eastern daylight on Duckhook and golf green",
+        "fill": "lawn and pale path bounce",
+        "rim": "very subtle wet grass glint",
+        "air": "no dense fog; green visibility"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "Seven Deadly Chins",
+      "seed": 6,
+      "record": "6-4",
+      "narrative_headline": "No Quiet Exit",
+      "narrative_body": "The commons has heard Chins coming long before the figure appears. Mud Dogs now stands across the Week 11 road, one defeat away from mathematical elimination. A victory could make Chins the first to close another contender's season; a loss would leave both alive. Chins waves away the warning, then plants both feet on the hard road. Noise travels far. So do consequences.",
+      "playoff_probability": "82.2%",
+      "if_w11_win": "88.2%",
+      "if_w11_loss": "61.3%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "El Niño",
+        "if_win": "96.37%",
+        "if_loss": "72.80%",
+        "public_caption": "W12 VS EL NIÑO"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-BEN-WHIPPLE",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+        "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f"
+      },
+      "atlas_asset": {
+        "id": "LOC-CHINS-ROAD-COMMONS",
+        "card": "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json",
+        "plate": "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "upper-left direct midday road sun",
+        "fill": "warm dust and road surface bounce",
+        "rim": "small edge on hands and cap",
+        "air": "light dry dust without invented destruction"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  }
+}
