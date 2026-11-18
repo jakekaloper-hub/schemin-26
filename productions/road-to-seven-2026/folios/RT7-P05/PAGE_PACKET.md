@@ -104,3 +104,19 @@ A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool
 | The Chili Cheesers | 38.16% | 58.81% | 20.68% | 38.13 pp |
 
 Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
+
+## Extended production intelligence — roster, markets, and future forks (Nov 18)
+
+**Current boundary:** Red is official #7 (5–5), Chili official #8 (5–5). Week 11 is **not** their direct matchup: Red meets Snake (ESPN currently projects **Red 143.50 vs Snake 141.49**), while Chili meets ObiWan (ESPN **Chili 137.75 vs ObiWan 136.55**). Both predicted matches are narrow and neither actual score is determined.
+
+**Injury / NFL cross-correlation:** Chili's starting Brock Bowers (LV, Questionable/ankle) has **15.59 current ESPN projected points**; a no-play branch must use an eligible substitute, not pretend an automatic 15.59-point team loss. Red's current assigned starters show no ESPN non-active designations; Lamar Jackson and DeVonta Smith remain in non-starting roster slots. Red's Bo Nix and ObiWan's Waddle share Denver's real NFL environment while Chili's Bowers is on the opposing Raiders. DraftKings market Nov 18 via CBS: **Broncos -10 vs Raiders, total 40.5**; the line alone does not dictate fantasy production.
+
+**The future hinge:** In Week 13 **Chili plays Red**. Live FFHub's separate conditional test yields **Red 70.21% with victory vs 30.71% with loss** (39.50 pp), and **Chili 57.36% with victory vs 21.57% with loss** (35.79 pp). This is the center of the six-page narrative: the seventh gate is already visible, but the two rivals still have a literal future head-to-head that can move it.
+
+**Before the rematch:** Red must also confront Duckhook Week 12: **71.37% if Red wins vs 34.34% if Red loses**. Red's original Wings 3–0 first divisional pass provides a canon-safe reason for determined defensive posture, not a guaranteed sweep. Chili's four remaining wins would reach 9–5, guaranteeing a berth by the independent exact 9-win floor.
+
+**Inklings micro-direction:** Red guards and studies the damaged terrace at the jungle ruins, a tangible border; Chili waits at his established stable/western frontier, tempted toward the road. The split's emotional energy should build to an **unplayed** Week 13 confrontation. Do not depict a fabricated meeting or damage event.
+
+**On-image selection:** the line “SEVENTH TODAY. NOT FOREVER.”, the two official 5–5 records and seed numbers, dated FFHub estimates, and one clear future note “W13: CHILI vs RED”. Maintain visual parity; all player details stay in backstage evidence.
+
+**Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [future forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [availability](../../evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md), [NFL](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
