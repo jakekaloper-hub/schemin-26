@@ -36,7 +36,7 @@ The quiet exactitude of the Country Club of Jackson against the disorderly Chins
 
 **On-image typed copy:**
 - `DR. DUCKHOOK` · Official seed **#5** · Week 10 **6–4**
-- `PLAYOFF OUTLOOK 87.2% (FFHUB, NOV 17)` · `WIN W11 96.9%` · `LOSE W11 80.0%`
+- `PLAYOFF OUTLOOK 87.5% (FFHUB, NOV 18)` · `WIN W11 96.4%` · `LOSE W11 78.9%`
 - Editorial hook: *Precision must now survive the division.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -68,7 +68,7 @@ The quiet exactitude of the Country Club of Jackson against the disorderly Chins
 
 **On-image typed copy:**
 - `SEVEN DEADLY CHINS` · Official seed **#6** · Week 10 **6–4**
-- `PLAYOFF OUTLOOK 81.3% (FFHUB, NOV 17)` · `WIN W11 88.6%` · `LOSE W11 61.2%`
+- `PLAYOFF OUTLOOK 82.2% (FFHUB, NOV 18)` · `WIN W11 88.2%` · `LOSE W11 61.3%`
 - Editorial hook: *A rival's first ending may arrive at your hand.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -120,3 +120,7 @@ Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_202
 **On-image selection:** W11 projections are optional small captions; do not cram both NFL market odds and three future scenarios into the 9:16 artifact. Pick one future gate per character.
 
 **Source binding:** [FFHub live](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [W12–14 forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [NFL](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
+
+## Publication copy lock — November 18 FFHub cohort
+
+**Authoritative for future PNG lettering:** November 18, 2026 live FFHub sample (10,000 draws) as provided in `../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json`. All on-image quoted qualification percentages now select this single dated cohort. Original November 17 estimates in the analytical body remain explicitly archival and must not be mixed into final lettering. Mathematical statuses remain from separately verified witness evidence. If another dated source is adopted later, update every art text binding together and rerun source-copy QA.
