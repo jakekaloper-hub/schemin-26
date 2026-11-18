@@ -58,3 +58,23 @@ A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool
 | Mud Dogs | 0.01% | 0.07% | 0.00% | 0.07 pp |
 
 Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
+
+## Extended production intelligence — roster, markets, and future forks (Nov 18)
+
+**Two real mathematical long shots:** Three Dreaded Snake official #11 (4–6) and Mud Dogs #12 (2–8). All twelve were mathematically alive at the post-Week-10 cutoff; only a **Mud Week 11 loss** immediately eliminates among current Week 11 matchups under the retained exact binary-outcome proof.
+
+**Week 11:** ESPN assigned starters project **Snake 141.49 vs Red 143.50** — a marginal match. Snake starters T.J. Hockenson (MIN, Questionable/wrist) and Ladd McConkey (LAC, Questionable) have a combined **22.65** in current ESPN projected points, not expected missing production. Mud's current team projection is **91.39 vs Chins 146.35**; Woody Marks (HOU, Doubtful/concussion) is assigned to a starting RB slot but already projects **0.00**. Houston plays Indianapolis **Thursday Nov 19**, so selection and reports matter earlier than Sunday.
+
+**Market context:** MIN–SF has SF -3 and 46.5 total; HOU–IND has HOU -10.5 and 44.5 total (Nov 18 CBS/DraftKings snapshot). No market signal overrides the exact Mud must-win rule or establishes the Snake game outcome.
+
+**Week 12 collision:** Mud vs Snake, a rare head-to-head between the last two seeds. Fresh FFHub conditional result **Snake 13.83% with victory vs 2.94% with defeat**; Mud is sampled at **0.07% if Mud wins vs 0.00% if Mud loses**. Small Mud percentages are sampling-limited: the **exact** mathematics still controls whether any path exists.
+
+**Week 13:** Snake vs DK: **Snake 19.25% if winning vs 4.93% if losing**. **Week 14:** Mud vs DK: **Mud 0.13% if winning vs 0.00% if losing**. These are distinct *single-game* conditionals with all other future games simulated; NOT forecasts that Mud survives Weeks 11–13.
+
+**Win-out experiments:** Snake **99.28% sampled** for a full 8–6 run; Mud **4.77% sampled** for a full 6–8 finish. The independent preserved exact witness separately establishes specific Mud 6–8 Burgers and wildcard qualifying paths, each requiring outside help. Mud has four required victories, not four guaranteed victories.
+
+**Inklings micro-direction:** TDS' three-headed one-bodied serpent sees three branches at the waterfall temple, but advances on one real road. Mud stands on raised swamp ground with water/mud channels unchanged, an underdog held upright by a mathematically possible but deeply unlikely journey. The page is heroic, not a premature funeral.
+
+**On-image selection:** use one concise elimination-proof sentence for Mud and one Week 12/13 future gate for Snake. Avoid tiny text or 0% graphic labels implying official elimination.
+
+**Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [W12–14 forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [availability](../../evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md), [NFL](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
