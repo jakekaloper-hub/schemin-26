@@ -1,5 +1,5 @@
 {
-  "schema": "schemin.postseason_island_event_contract.v1",
+  "schema": "schemin.postseason_island_event_contract.founder_v2",
   "status": "DESIGN_CONTRACT_NOT_RELEASED",
   "season": 2026,
   "source_of_truth": {
@@ -128,43 +128,54 @@
   },
   "venue_assignment": {
     "rounds": {
-      "QUARTERFINAL": "Three distinct, safety-cleared non-Last-Field arena LOCs after promotion",
-      "SEMIFINAL": "Two distinct approved prestige arenas",
-      "CHAMPIONSHIP": "One fixed Last Field LOC after approved island relocation"
+      "QUARTERFINAL": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER"
+      ],
+      "SEMIFINAL": [
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE"
+      ],
+      "CHAMPIONSHIP": [
+        "CAND-POST-LAST-FIELD"
+      ]
     },
+    "round_assignment_policy": "Permanent designated round arenas; never rotate QF venue into semifinal, or semifinal into final. Assign actual opposing teams after ESPN lock with neutral logistics. Historical bracket-v2 uses identical round-class rule.",
     "source_priority": [
-      "official round and opponents",
-      "available promoted sites",
-      "verified site geometry/weather/route",
-      "neutrality and audience capacity",
-      "editorial varied encounter form"
+      "official opponents and seeds",
+      "official bracket finality",
+      "fixed authorized round venue",
+      "approved neutral safety and island site access",
+      "multi-stage challenge production and independent QA"
     ],
-    "notes": "Never enforce a specific proposed historical venue as active without promotion"
+    "hold": "Fixed slots are DESIGN CANDIDATES, not presently active LOCs. No live staging until Atlas approval."
   },
   "media_rhythm": {
     "pre_match": [
-      "transport_arrival",
-      "two_head_to_head_contenders",
-      "historical_rivalry_verified",
-      "venue_geometry",
-      "contest_objective_announced"
+      "professional_studio_live_intro",
+      "camera_establishing_footage",
+      "opponent_entering_stats",
+      "archival_prior_champions",
+      "live_screen_and_commentary_setup"
     ],
     "in_match": [
-      "back_and_forth_trial",
-      "grounded_venue_interaction",
-      "counterplay",
-      "source_labeled_live_or_final_status"
+      "opening_physical_trial",
+      "midround_opponent_counterplay",
+      "third_stage_decisive_confrontation",
+      "official_scoring_data_overlay",
+      "live_commentary"
     ],
     "post_match": [
-      "official_certified_final_score",
+      "provider_final_lock_before_certification",
       "winner_advances",
-      "loser_exits",
-      "island_bracket_changes",
-      "contenders_quarter_updated",
-      "losers_beach_updated",
-      "mainland_herald_dispatch"
+      "survivor_housing_updated",
+      "loser_shoreward_descent",
+      "losers_beach_broadcast",
+      "championship_bracket_update"
     ],
-    "presentation": "Modern sports broadcast is Memo/website presentation; in-world signal technology only as approved"
+    "in_world_technology": "Modern island cameras, wired score feeds, large live screens, commentary, studios and electrical distribution approved as Founder F08 DESIGN DIRECTION; global Commonwealth distribution and exact energy supply need separate World/Tech acceptance.",
+    "one_way_evidence": "Live commentary may state partial status, but only provider result lock certifies winner. No broadcaster determines game outcomes."
   },
   "data_packet_required_fields": [
     "season",
@@ -199,6 +210,35 @@
     "physical island site and routes not verified",
     "Last Field Central Basin island conflict pending approval",
     "memorial founding chronology unresolved",
-    "historical owner identities incomplete"
-  ]
+    "historical owner identities incomplete",
+    "Causeway route/hydrology needs promoted Atlas validation",
+    "Modern cameras/screens require World/Tech canon exception reconciled with existing global limitations",
+    "End-to-end Inklings independent agent/workers not proven active",
+    "Final art and publication require separate quality gates"
+  ],
+  "authority": "planning/postseason/FOUNDER_CHAMPIONSHIP_ISLAND_DECISIONS_2026-11-18.md",
+  "design_handoff": "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+  "visual_environment": {
+    "theme": "RUGGED_FORTIFIED_SURVIVAL_WITH_MODERN_STAGE_INFRASTRUCTURE",
+    "approach": "MONUMENTAL_MAINLAND_CAUSEWAY",
+    "resort": "PHASED_LUXURY_SPORTING_EXPANSION_2015_2025",
+    "last_field": "PERMANENT_FINAL_STADIUM_WITH_CHAMPIONS_WALK_TROPHY_HALL_FARRELL_SANCTUARY",
+    "losers_beach": "SEASONAL_BITTERSWEET_BEACH_VILLAGE",
+    "survivor_ethos": "Every contestant prefers advancement over beach comforts; no principal fatalities."
+  },
+  "inklings_role": {
+    "production_unit": "INKLINGS_POSTSEASON_STORYROOM",
+    "status": "FOUNDER_AUTHORIZED_PROJECT_PRODUCTION_FUNCTION_NOT_INDEPENDENT_AGENTS_INVOCATION",
+    "artifacts": [
+      "challenge_sequence_packs",
+      "two_contender_POV_script",
+      "arena_camera_storyboard",
+      "announcer_and_studio_script",
+      "contender_and_beach_consequence",
+      "world_continuity_handoff"
+    ],
+    "owner": "Beat Writer / Novel and Memo creative authority",
+    "handoff": "Atlas site IDs → source facts → script → counterweight challenge → independent Umpire → visual production",
+    "human_author_status": "published-method lenses only; not live participation"
+  }
 }
