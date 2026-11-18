@@ -47,3 +47,14 @@ Two roads through the Southern Wetlands: left, the Podium Shadow Waterfall Templ
 Protected briefing SHA-256 `2acf94ada97fbba5d2a36b4e2e605590b8a4af98954717ed4c3845c3190ac943`; protected JSON packet SHA-256 `4277a19a6940ff3b8000beee072a1567c7843075fca04770c59ff49d67930f86`. Both source files retained privately. Raw JSON had 18 named scenarios plus original and restored baselines, 12 teams each, valid seven-berth probability mass and traceable POV estimates. Final provider cutoff 2026-11-17.
 
 **Domain readiness:** Scout baseline reconciled, Analyst arithmetic checked, Librarian hashes recorded, 2 canonical identity IDs and Atlas locations bound. Inklings prose and Creative composition are authored candidates; independent Atlas pixel approval, Umpire review and Founder art/release authority remain open. No new live FFHub rerun or new exact 2^24 enumeration is claimed. No image yet.
+
+## Live FFHub revalidation — November 18, 2026
+
+A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool?site=espn&leagueId=1417621&userId=&s2=&swid=) completed 2026-11-18T16:46:53.445Z. The site still displays final Week 10 records and Week 11–14 fixtures, with ESPN Head to Head selected. Original November 17 sourced figures above remain historical evidence; the numbers below are a **separate independent 10,000-draw sample**, not an actual week-to-week change or an exact mathematical conclusion.
+
+| Team | Nov 18 baseline | W11 win | W11 loss | Win–loss spread |
+|---|---:|---:|---:|---:|
+| Three Dreaded Snake | 9.61% | 22.76% | 2.36% | 20.40 pp |
+| Mud Dogs | 0.01% | 0.07% | 0.00% | 0.07 pp |
+
+Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
