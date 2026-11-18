@@ -104,3 +104,21 @@ A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool
 | ObiWan Jacoby | 32.45% | 52.89% | 12.77% | 40.12 pp |
 
 Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
+
+## Extended production intelligence — roster, markets, and future forks (Nov 18)
+
+**Two potential comeback arcs:** LLC official #9 and ObiWan #10, both 4–6. They do not play one another in Week 11. ESPN's current assigned lineup projections have **LLC 153.36 vs Duckhook 146.82** and **ObiWan 136.55 vs Chili 137.75**. The LLC's apparent Week 11 matchup strength is independent of its season 4–6 record.
+
+**ObiWan's availability fork:** Kenneth Walker III (KC, Questionable/groin), Jaylen Waddle (DEN, Questionable/concussion), Kyle Monangai (CHI, Questionable) together represent **51.02 current assigned ESPN projected points**, not expected points lost. The KC/Arizona market lists KC -16.5, but Walker's participation/workload remains uncertain; Waddle's Broncos face Las Vegas with DEN -10 but he is not cleared merely by market favor. Puka remains on IR and the Rams have a Week 11 bye. Three binary injury questions can alter a marginal ESPN projected match; use a spectrum of lineups rather than assign unverified injury outcome probabilities.
+
+**LLC's NFL environment:** Joe Burrow (CIN) appears in Bengals–Washington (market total **51.5**, CIN -4.5), while Jonathan Taylor (IND) plays against Houston Thursday (Texans -10.5, total 44.5). This is a scoring-environment contrast, not evidence of whether LLC will defeat Duckhook.
+
+**Week 12 Burgers crisis:** ObiWan vs DK. Fresh FFHub conditional result: **ObiWan 51.36% with victory vs 16.03% with loss**, a **35.33 pp** swing. DK's corresponding 99.48% vs 86.00% is separately sourced. The exact ObiWan path requires a sweep plus an extra DK loss beyond the rematch to guarantee Burgers.
+
+**Week 14 LLC crossroads:** LLC vs El Niño: FFHub **51.90% if LLC wins vs 16.01% if LLC loses** (35.89 pp swing). Fresh win-out vendor estimates: LLC **100.00% sampled**, ObiWan **99.76% sampled**; both remain **not mathematically guaranteed** at an 8–6 finish. The source's explicit 8–6 miss for LLC must remain backstage and govern wording.
+
+**Inklings micro-direction:** LLC in mercantile boardroom with scarred ledger, ObiWan at mountain base without the Belt; equally heroic but radically distinct decision styles. The mountain path and harbor overlook must not be magically adjacent. Avoid overloading the visible split with player tables.
+
+**On-image selection:** heading *THE LONG ROAD*; two 4–6 records/seeds and one future pivot each (W14 LLC vs Niño; W12 Obi vs DK). An unobtrusive small “Nov 18 FFHub Monte Carlo” attribution. Injury details can motivate visual tension without claiming who will play.
+
+**Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [win-out](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json), [W12-14](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [injury](../../evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md), [market](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
