@@ -17,6 +17,8 @@
 
 ## Governing sources and workstreams
 - [Original FFHub research recovery and verification](SOURCE_RECOVERY_AND_SCENARIO_QA.md)
+- [November 18 fresh FFHub UI revalidation — 16 conditional scenarios](evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md)
+- [Machine-readable fresh 12-team probability summary](evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json)
 - [Bullpen Core routing and counterweight receipt](BULLPEN_ROUTING_AND_COUNTERWEIGHT_RECEIPT.md)
 - [Reproducible FFHub packet validator](tools/verify_ffhub_packet.py) — run locally against protected JSON; do not commit raw input
 - [Founder's five decisions + domain execution command](BULLPEN_MASTER_EXECUTION_DIRECTIVE.md)
@@ -39,6 +41,9 @@ Original raw 18-experiment/20-run JSON and preface MD were recovered from author
 - Groundskeeper: page/asset source manifest, deterministic render inputs.
 - Umpire: independent audit of actual selected copy, characters, artwork and final outputs.
 - Closer: coordinate verdict and handoff to Founder; no implied auto-approval.
+
+## Current live-vendor evidence
+Fresh Nov 18 UI runs selected every Week 11 game outcome plus four four-game win-out paths. All six paired folios include an attributed Nov 18 revalidation appendix; the original Nov 17 numbers are retained without silent replacement. Raw UI capture files are preserved in the authorized local archival folder and identified by SHA-256 in the revalidation report. The standalone edition remains fixed to finalized Week 10 and does not incorporate unplayed Week 11 outcomes.
 
 ## Current gates
 - **PASS (source-consistency execution):** historical source recovered, raw probability matrix validated, all 12 teams and six pairings bound, seven individual page briefs committed.
