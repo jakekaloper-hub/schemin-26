@@ -156,6 +156,25 @@ def run():
                                    ("ffhub_w11_loss_pct", "loss_pct")):
                     test(abs(float(p.get(field, -1)) - float(record[key])) < .001,
                          "FFHub scene source drift " + str(p.get("team")) + " " + field)
+    # Explicit authored manuscripts and visual-lighting workflows must cover every page.
+    manuscript_path = BASE / "reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md"
+    visual_path = BASE / "reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+    test(manuscript_path.is_file() and visual_path.is_file(),
+         "Missing parallel Inklings or visual studio deliverable")
+    if manuscript_path.is_file() and visual_path.is_file():
+        manuscript = manuscript_path.read_text(encoding="utf-8")
+        visual_doc = visual_path.read_text(encoding="utf-8")
+        titles = re.findall(r"^\\*\\*(?:Left|Right) / #(\\d+) (.*?) — ", manuscript, re.M)
+        test(len(titles) == 12 and len({int(rank) for rank, _ in titles}) == 12,
+             "Inklings draft must have 12 individually numbered character POVs")
+        original_pairs = [panel for page_id in range(2, 8) for panel in
+                          json.loads((FOLIOS / ("RT7-P%02d" % page_id) / "scene.json").read_text(encoding="utf-8")).get("character_panels", [])]
+        expected_map = {panel["official_week10_seed"]: panel["team"] for panel in original_pairs}
+        for rank, name in titles:
+            test(expected_map.get(int(rank)) == name.strip(),
+                 "Wrong Inklings seed/name binding #" + rank)
+        for page_id in range(1, 8):
+            test(("RT7-P%02d" % page_id) in visual_doc, "Missing visual studio lighting page %02d" % page_id)
     test(image_pairs == 12, "Exactly 12 official character/image bindings required")
     approved_lineup = REPO / canon.get("stored_repository_path", "")
     test(approved_lineup.is_file(), "Missing approved master lineup PNG")
