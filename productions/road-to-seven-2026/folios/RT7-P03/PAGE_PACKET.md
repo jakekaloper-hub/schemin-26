@@ -36,7 +36,7 @@ Four-limbed gorilla-centaur anatomy in the Highland stronghold versus the red-ey
 
 **On-image typed copy:**
 - `D0NKEY K0NG` · Official seed **#3** · Week 10 **6–4**
-- `PLAYOFF OUTLOOK 93.3% (FFHUB, NOV 18)` · `WIN W11 98.7%` · `LOSE W11 88.5%`
+- `PLAYOFF OUTLOOK 93.3% (FFHUB, NOV 18)` · `WIN W11 98.7%` · `LOSE W11 88.6%`
 - Editorial hook: *The strongest gate is the one you can secure yourself.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
