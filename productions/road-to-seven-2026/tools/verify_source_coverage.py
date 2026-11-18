@@ -7,6 +7,7 @@ Run from the repository checkout:
 import json
 import hashlib
 import re
+from decimal import Decimal, ROUND_HALF_UP
 import sys
 from pathlib import Path
 
@@ -140,8 +141,9 @@ def run():
                 )
                 test(expected_line in folio_copy,
                      "On-image baseline no longer matches Nov18 scene source for " + str(p.get("team")))
-                expected_win = "WIN W11 %.1f%%" % float(p.get("ffhub_w11_win_pct", -1))
-                expected_loss = "LOSE W11 %.1f%%" % float(p.get("ffhub_w11_loss_pct", -1))
+                round1 = lambda value: Decimal(str(value)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
+                expected_win = "WIN W11 %s%%" % round1(p.get("ffhub_w11_win_pct", -1))
+                expected_loss = "LOSE W11 %s%%" % round1(p.get("ffhub_w11_loss_pct", -1))
                 test(expected_win in folio_copy and expected_loss in folio_copy,
                      "On-image conditional odds do not match Nov18 for " + str(p.get("team")))
             else:
