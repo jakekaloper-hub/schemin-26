@@ -153,6 +153,17 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float viewIncidence=clamp(abs(viewToEye.y),0.,1.);
       float grazingGain=.035+.21*pow(1.-viewIncidence,2.);
       contactTint=mix(contactTint,vec3(.31,.41,.37),grazingGain);
+      // Existing moving surface now contributes restrained geometry-derived light.
+      // This is local wetland relief, not weather, water topology or a light source.
+      // Use world-space derivatives of the *displaced* vertices; sign-independent
+      // orientation also handles two-sided water and varying camera handedness.
+      vec3 wetlandFace=cross(dFdx(vWorld),dFdy(vWorld));
+      float wetlandFaceSize=length(wetlandFace);
+      vec3 wetlandNormal=wetlandFaceSize>.00001?wetlandFace/wetlandFaceSize:vec3(0.,1.,0.);
+      float reliefSlope=clamp((1.-clamp(abs(wetlandNormal.y),0.,1.))*14.,0.,.42);
+      float reliefFacing=clamp(abs(dot(wetlandNormal,normalize(vec3(.30,.91,.27)))),0.,1.);
+      vec3 reliefLight=vec3(.10,.15,.12)*reliefSlope*(.4+.6*reliefFacing)*bankFade;
+      contactTint+=reliefLight;
       gl_FragColor=vec4(contactTint+lowSheen+quietEddy+rootSheen+contactLight+channelSheen,.92);
       }else if(uRiver>.5){
        // Broken light on the EXISTING upstream sheet, not a flow/topology record.
