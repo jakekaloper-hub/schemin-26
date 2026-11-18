@@ -104,3 +104,19 @@ A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool
 | Seven Deadly Chins | 82.16% | 88.24% | 61.25% | 26.99 pp |
 
 Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
+
+## Extended production intelligence — roster, markets, and future forks (Nov 18)
+
+**Different Week 11 opponents:** Duckhook meets LLC, Chins meets Mud. ESPN current starters project **Duckhook 146.82 vs LLC 153.36**, and **Chins 146.35 vs Mud 91.39**. Neither Duckhook nor Chins has a starting ESPN non-active designation at this cutoff; Duckhook's bench QB Drake Maye carries Doubtful, but New England is on bye.
+
+**NFL environments:** Duckhook's C.J. Stroud is a current starter for Thursday's Colts–Texans game (Nov 18 DraftKings via CBS: **HOU -10.5, total 44.5**). Chins' Patrick Mahomes plays for Kansas City (KC -16.5 vs Cardinals), and Justin Jefferson faces San Francisco in Mexico City. Market favorites are not guaranteed player performances.
+
+**Playoff implications:** a Week 11 Chins victory over Mud would mathematically eliminate Mud under the retained schedule/rules proof; a Chins defeat would leave Mud alive. Chins' new Nov 18 FFHub W11 probabilities are **88.24% win vs 61.25% loss**. Duckhook's are **96.40% win vs 78.90% loss**, while The LLC is projected as a challenging opponent.
+
+**Future fork:** Week 12 Red vs Duckhook: Duckhook **97.01% if winning vs 76.84% if losing**. Week 13 Duckhook vs Slob: Duckhook **96.48% with victory vs 84.03% with defeat**. Chins' Week 12 contest against Niño has Chins **96.37% if winning vs 72.80% if losing**. These are separate conditional samples.
+
+**Inklings micro-direction:** Duckhook's quiet measured golf-course composure against the loud, ungovernable Chins commons. Chins' potential power to deliver the first mathematical elimination gives the page moral weight, not approval to invent destruction or a championship.
+
+**On-image selection:** W11 projections are optional small captions; do not cram both NFL market odds and three future scenarios into the 9:16 artifact. Pick one future gate per character.
+
+**Source binding:** [FFHub live](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [W12–14 forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [NFL](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
