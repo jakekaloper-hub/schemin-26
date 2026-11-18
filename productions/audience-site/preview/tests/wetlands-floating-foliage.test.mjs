@@ -34,7 +34,7 @@ test('all twelve inherited water discs preserve exact centers, original footprin
      const j=start+k;
      assert.ok([p.getX(j),p.getY(j),p.getZ(j),ph.getX(j)].every(Number.isFinite));
      assert.ok(Math.abs(ph.getX(j)-i*2.399)<.0001,'each disc has one unchanged phase');
-     assert.equal(p.getY(j),.16);
+     assert.ok(Math.abs(p.getY(j)-.16)<1e-5,'Float32 height retains the original water-surface elevation');
      assert.ok(Math.hypot(p.getX(j)-cx,p.getZ(j)-cz)<=r+.00001,'never expands old disc');
      if(k)assert.equal(edge.getX(j),1);
      const normalized=Math.hypot(p.getX(j)/10.5,p.getZ(j)/8.2);
