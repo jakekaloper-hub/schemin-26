@@ -1,0 +1,260 @@
+{
+  "schema": "schemin.ffhub_live_conditional_summary.v1",
+  "source_site": "https://theffhub.com/PlayoffTool?site=espn&leagueId=1417621&userId=&s2=&swid=",
+  "espn_league_id": 1417621,
+  "season": 2026,
+  "through_week": 10,
+  "as_of_utc": "2026-11-18T16:45:12.354Z",
+  "completed_utc": "2026-11-18T16:46:53.445Z",
+  "simulation_count": 10000,
+  "tiebreaker": "Head to Head",
+  "method": "UI button selections, reload resets previous selections; each table a fresh Monte Carlo sample",
+  "baseline_sample_type": "independent stochastic draw",
+  "fixtures": [
+    [
+      "El Niño",
+      "Slob on my Dobb"
+    ],
+    [
+      "Red Leopards",
+      "Three Dreaded Snake"
+    ],
+    [
+      "Seven Deadly Chins",
+      "Mud Dogs"
+    ],
+    [
+      "The Chili Cheesers",
+      "ObiWan Jacoby"
+    ],
+    [
+      "His Majesty's Blood",
+      "D0nkey K0ng"
+    ],
+    [
+      "The LLC",
+      "Dr. Duckhook"
+    ]
+  ],
+  "teams": [
+    {
+      "team": "Slob on my Dobb",
+      "baseline_pct": 98.48,
+      "win_pct": 99.74,
+      "loss_pct": 95.89,
+      "delta_pp": 3.85,
+      "week11_opponent": "El Niño"
+    },
+    {
+      "team": "D0nkey K0ng",
+      "baseline_pct": 93.31,
+      "win_pct": 98.66,
+      "loss_pct": 88.55,
+      "delta_pp": 10.11,
+      "week11_opponent": "His Majesty's Blood"
+    },
+    {
+      "team": "His Majesty's Blood",
+      "baseline_pct": 87.62,
+      "win_pct": 95.17,
+      "loss_pct": 80.1,
+      "delta_pp": 15.07,
+      "week11_opponent": "D0nkey K0ng"
+    },
+    {
+      "team": "Dr. Duckhook",
+      "baseline_pct": 87.55,
+      "win_pct": 96.4,
+      "loss_pct": 78.9,
+      "delta_pp": 17.5,
+      "week11_opponent": "The LLC"
+    },
+    {
+      "team": "El Niño",
+      "baseline_pct": 87.1,
+      "win_pct": 96.88,
+      "loss_pct": 83.92,
+      "delta_pp": 12.96,
+      "week11_opponent": "Slob on my Dobb"
+    },
+    {
+      "team": "Seven Deadly Chins",
+      "baseline_pct": 82.16,
+      "win_pct": 88.24,
+      "loss_pct": 61.25,
+      "delta_pp": 26.99,
+      "week11_opponent": "Mud Dogs"
+    },
+    {
+      "team": "Red Leopards",
+      "baseline_pct": 50.14,
+      "win_pct": 64.81,
+      "loss_pct": 27.21,
+      "delta_pp": 37.6,
+      "week11_opponent": "Three Dreaded Snake"
+    },
+    {
+      "team": "The Chili Cheesers",
+      "baseline_pct": 38.16,
+      "win_pct": 58.81,
+      "loss_pct": 20.68,
+      "delta_pp": 38.13,
+      "week11_opponent": "ObiWan Jacoby"
+    },
+    {
+      "team": "The LLC",
+      "baseline_pct": 33.41,
+      "win_pct": 51.78,
+      "loss_pct": 15.61,
+      "delta_pp": 36.17,
+      "week11_opponent": "Dr. Duckhook"
+    },
+    {
+      "team": "ObiWan Jacoby",
+      "baseline_pct": 32.45,
+      "win_pct": 52.89,
+      "loss_pct": 12.77,
+      "delta_pp": 40.12,
+      "week11_opponent": "The Chili Cheesers"
+    },
+    {
+      "team": "Three Dreaded Snake",
+      "baseline_pct": 9.61,
+      "win_pct": 22.76,
+      "loss_pct": 2.36,
+      "delta_pp": 20.4,
+      "week11_opponent": "Red Leopards"
+    },
+    {
+      "team": "Mud Dogs",
+      "baseline_pct": 0.01,
+      "win_pct": 0.07,
+      "loss_pct": 0,
+      "delta_pp": 0.07,
+      "week11_opponent": "Seven Deadly Chins"
+    }
+  ],
+  "sweeps": [
+    {
+      "team": "ObiWan Jacoby",
+      "qualify_pct": 99.76,
+      "fixed": [
+        {
+          "week": 11,
+          "winner": "ObiWan Jacoby",
+          "opponent": "The Chili Cheesers"
+        },
+        {
+          "week": 12,
+          "winner": "ObiWan Jacoby",
+          "opponent": "D0nkey K0ng"
+        },
+        {
+          "week": 13,
+          "winner": "ObiWan Jacoby",
+          "opponent": "Mud Dogs"
+        },
+        {
+          "week": 14,
+          "winner": "ObiWan Jacoby",
+          "opponent": "Three Dreaded Snake"
+        }
+      ]
+    },
+    {
+      "team": "Three Dreaded Snake",
+      "qualify_pct": 99.28,
+      "fixed": [
+        {
+          "week": 11,
+          "winner": "Three Dreaded Snake",
+          "opponent": "Red Leopards"
+        },
+        {
+          "week": 12,
+          "winner": "Three Dreaded Snake",
+          "opponent": "Mud Dogs"
+        },
+        {
+          "week": 13,
+          "winner": "Three Dreaded Snake",
+          "opponent": "D0nkey K0ng"
+        },
+        {
+          "week": 14,
+          "winner": "Three Dreaded Snake",
+          "opponent": "ObiWan Jacoby"
+        }
+      ]
+    },
+    {
+      "team": "The LLC",
+      "qualify_pct": 100,
+      "fixed": [
+        {
+          "week": 11,
+          "winner": "The LLC",
+          "opponent": "Dr. Duckhook"
+        },
+        {
+          "week": 12,
+          "winner": "The LLC",
+          "opponent": "His Majesty's Blood"
+        },
+        {
+          "week": 13,
+          "winner": "The LLC",
+          "opponent": "Seven Deadly Chins"
+        },
+        {
+          "week": 14,
+          "winner": "The LLC",
+          "opponent": "El Niño"
+        }
+      ]
+    },
+    {
+      "team": "Mud Dogs",
+      "qualify_pct": 4.77,
+      "fixed": [
+        {
+          "week": 11,
+          "winner": "Mud Dogs",
+          "opponent": "Seven Deadly Chins"
+        },
+        {
+          "week": 12,
+          "winner": "Mud Dogs",
+          "opponent": "Three Dreaded Snake"
+        },
+        {
+          "week": 13,
+          "winner": "Mud Dogs",
+          "opponent": "ObiWan Jacoby"
+        },
+        {
+          "week": 14,
+          "winner": "Mud Dogs",
+          "opponent": "D0nkey K0ng"
+        }
+      ]
+    }
+  ],
+  "captured_runs": 16,
+  "validation": {
+    "pass": true,
+    "errors": []
+  },
+  "source_artifacts": {
+    "raw_week11": {
+      "storage": "protected local archival file",
+      "name": "ffhub-w11-12-live-scenarios.json",
+      "sha256": "a7d946da605859df92c8008ade74f24947345367973f73482787edaa8fca1b1b"
+    },
+    "raw_sweeps": {
+      "storage": "protected local archival file",
+      "name": "ffhub-4-winout-scenarios.json",
+      "sha256": "2b8d6f98aa0f9db4ed3461bc6075c2674a37e084d279c314b9c4020e92423f30"
+    }
+  }
+}
