@@ -7,6 +7,7 @@
 2. MATCHUP_AND_CAMP_CONSTITUTION_V0_1.md — why challenges over duel-only; 8-beat physically observable match contract; byes, camp tenure, interround life, spectators/broadcasts.
 3. HISTORICAL_ISLAND_TOURNAMENTS_2015_2025_V0_1.md — all 11 season winner-bracket facts, bracket formats, season-level fictional scenes, 67 team-slot playoff appearances/attendee hierarchy.
 4. MATCH_BY_MATCH_STAGING_2015_2025_V0_1.md — all 56 historical winners-bracket matches, with verified winner/score and clearly labeled proposed arena/action.
+5. ISLAND_TIME_LAYERS_AND_REVIEW_V0_1.md — year-by-year infrastructure aging, camps, and independently challengeable simulated editorial review.
 The completed 2026 tournament does not exist yet; its eventual illustration and story must await accepted league results.
 
 ## Source authority
