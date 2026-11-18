@@ -1,6 +1,6 @@
 {
   "schema": "schemin.postseason_island_history.proposal.v1",
-  "status": "REVIEW_CANDIDATE_NOT_CANON",
+  "status": "SUPERSEDED_FOR_STAGING_BY_FOUNDER_V2",
   "generated_from": "planning/postseason/HISTORICAL_POSTSEASON_RECONSTRUCTION_2015_2025.md",
   "source_note": "Flaim ESPN league 1417621 get_matchups+get_standings retrieved 2026-11-18; physical descriptions and venues are original proposals only.",
   "championship_ground_location_hold": "Existing CAND-CHAMP-LAST-FIELD previously locates in Central Basin; island supersession requires Founder and Atlas approval.",
@@ -1635,5 +1635,7 @@
         "encounter_form": "FORM-ENDURANCE"
       }
     }
-  ]
+  ],
+  "controlling_fictional_venue_source": "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json",
+  "historical_league_facts_unchanged": true
 }
