@@ -39,3 +39,17 @@ An impossible number of paths across existing Commonwealth biomes leads toward s
 - **Founder:** controls authorizing image generation and final release.
 
 **Folio state:** SOURCE-POPULATED / STORY-DRAFTED / IMAGE_NOT_GENERATED. Not a finished image, not a fabricated sign-off.
+
+## Cover — News, forecast and future-world treatment (Nov 18)
+
+**Five independent input layers underpin the story but do not crowd this page:** ESPN official seeds and completed Week 10 results; FFHub Nov 17 historical experiment; FFHub Nov 18 fresh Week 11 and future Week 12–14 conditional runs; Flaim 223-player roster and 24 league fixtures/ESPN provisional projections; NFL team news and dated public market spreads, totals and selected passing-yards lines.
+
+**Commissioner headline, verified:** *All twelve still alive. None yet clinched. Four weeks to decide seven berths.* Exact math separately identifies Mud's requirement to win all four remaining games. Do not show an already closed gate or declare elimination.
+
+**Visual logic:** The seven glowing doors represent *playoff berths*, not permanent new geography or exactly seven triumphant characters. Each of twelve paths may belong to a different homeland, and the wide atmospheric convergence is an editorial montage rather than a canonically coherent single physical meeting.
+
+**Narrative microcopy candidate:** *The league has reached the place where the future becomes personal. Above the foothills and marshlands, beyond the market's harbor and the keeper's storm coast, twelve ambitions turn toward seven passages. Some may command the road. Others can only bargain with the results of rivals. But at the last completed Week 10 game, no passage has closed and no traveler has entered. The next four weeks will decide who crosses.*
+
+**On-image priority:** a striking cinematic title and subtitle, “12 CONTENDERS · 7 BERTHS · 4 WEEKS”, and just one line of epic prose. No roster/projection/market tables on the cover.
+
+**Source links:** [full current analytical stress test](../../evidence/TWELVE_TEAM_FORECAST_STRESS_TEST_2026-11-18.md), [future-odds scenarios](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [NFL market and injury context](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Creative/QA:** storyboard candidate only; no cover PNG or independent reference/typography sign-off has occurred.
