@@ -1,3 +1,7 @@
+**HISTORICAL SCORES REMAIN VALID; V1 FICTIONAL SITE ASSIGNMENTS AND PHYSICAL STORYBOARDS ARE SUPERSEDED.** For production, use `HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json`, which applies F03 three-stage challenges and F04 permanent round sites. This file remains an archival staging draft; do not copy venue names from its historical table into new scenes.
+
+---
+
 # Championship Island — 2015–2025 Complete Postseason Reconstruction
 **State:** EVIDENCE-ANCHORED SCORE/BRACKET INVENTORY + **PROPOSED NONCANON PHYSICAL STORYBOARD**  
 **Verified source:** Live connected Flaim Fantasy ESPN league 1417621, \`get_standings\` for 2015–2025 and \`get_matchups\` for relevant 2015–2025 postseason scoring weeks, fetched 2026-11-18; cross-check against \`living-novel/history/CHAMPIONSHIP_SUCCESSION.md\`, \`PLAYOFF_ARCHAEOLOGY.md\`, and historical season fixture ledgers.  
