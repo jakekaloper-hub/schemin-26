@@ -1,0 +1,3439 @@
+{
+  "schema": "schemin.postseason_cross_os_preview.founder_v2",
+  "status": "PREPRODUCTION_EXPORT_NOT_PUBLICATION",
+  "founder_source": "planning/postseason/FOUNDER_CHAMPIONSHIP_ISLAND_DECISIONS_2026-11-18.md",
+  "no_mutation": "world/data, canon, deployed website, active Memo and current Novel publication are untouched",
+  "consensus": {
+    "creator": "Inklings under Beat Writer",
+    "fact_owner": "Scout / League Truth",
+    "geography_owner": "Atlas/Architect",
+    "heritage_owner": "Librarian",
+    "independent_qa": "Umpire",
+    "final_delivery": "Closer/Memo/Novel owning publishers"
+  },
+  "memo_os": {
+    "target": "Weekly Memo OS postseason preproduction, after official league locks",
+    "media_style": "Modern professional broadcast island event, source-labeled editorial vs verified league facts",
+    "landscape": "Fixed round venues and linked broadcast desk",
+    "history_cards": [
+      {
+        "encounter_id": "HIST-POST-2015-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2015-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2015-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2016-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2016-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2016-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2017-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2017-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2017-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2017-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2017-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2018-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2018-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2018-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2018-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2018-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2019-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2019-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2019-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2019-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2019-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2020-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2020-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2020-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2020-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2020-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2021-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2021-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2021-QF-3",
+        "round": "QF",
+        "venue": "Breakwater Grounds",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2021-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2021-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2021-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2022-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2022-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2022-QF-3",
+        "round": "QF",
+        "venue": "Breakwater Grounds",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2022-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2022-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2022-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2023-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2023-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2023-QF-3",
+        "round": "QF",
+        "venue": "Breakwater Grounds",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2023-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2023-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2023-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2024-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2024-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2024-QF-3",
+        "round": "QF",
+        "venue": "Breakwater Grounds",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2024-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2024-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2024-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2025-QF-1",
+        "round": "QF",
+        "venue": "Iron Quarry",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2025-QF-2",
+        "round": "QF",
+        "venue": "Saltwind Steps",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2025-QF-3",
+        "round": "QF",
+        "venue": "Breakwater Grounds",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2025-SF-1",
+        "round": "SF",
+        "venue": "Crown Stair",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2025-SF-2",
+        "round": "SF",
+        "venue": "Grove of Standards",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      },
+      {
+        "encounter_id": "HIST-POST-2025-FINAL-1",
+        "round": "FINAL",
+        "venue": "Last Field",
+        "stages": 3,
+        "status": "NONCANON_WORKSHOP_OUTPUT"
+      }
+    ],
+    "release_gate": "NO_RENDER_UNTIL_PROMOTED_SITE_CHARACTER_REFERENCES_AND_FACT_LOCK"
+  },
+  "novel_os": {
+    "target": "Historical Chronicle / twelve selectable principal POVs",
+    "encounter_contracts": [
+      {
+        "id": "HIST-POST-2015-SF-1",
+        "year": 2015,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 5,
+            "name": "Here, Ok I took L's",
+            "points": 199.5
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Discount Belichick",
+            "points": 268.5
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14-15"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with Discount Belichick prevailing over Here, Ok I took L's. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2015-SF-2",
+        "year": 2015,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "Austin's Hyena's",
+            "points": 182.5
+          },
+          "away": {
+            "team_slot": 2,
+            "name": "Hook, Line, and Zeeker",
+            "points": 163
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14-15"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Austin's Hyena's prevailing over Hook, Line, and Zeeker. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2015-FINAL-1",
+        "year": 2015,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "Austin's Hyena's",
+            "points": 187
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Discount Belichick",
+            "points": 211.5
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16-17"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with Discount Belichick prevailing over Austin's Hyena's. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2016-SF-1",
+        "year": 2016,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "Austin's Hyena's",
+            "points": 220.06
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "The Real Austin's Hyenas",
+            "points": 195.22
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14-15"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Austin's Hyena's prevailing over The Real Austin's Hyenas. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2016-SF-2",
+        "year": 2016,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 1,
+            "name": "Scruffy Looking Nerf Herders",
+            "points": 204.84
+          },
+          "away": {
+            "team_slot": 7,
+            "name": "The Gunslingers",
+            "points": 214.02
+          },
+          "winner_slot": 7,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14-15"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with The Gunslingers prevailing over Scruffy Looking Nerf Herders. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2016-FINAL-1",
+        "year": 2016,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "Austin's Hyena's",
+            "points": 217.7
+          },
+          "away": {
+            "team_slot": 7,
+            "name": "The Gunslingers",
+            "points": 206.88
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16-17"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with Austin's Hyena's prevailing over The Gunslingers. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2017-QF-1",
+        "year": 2017,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 6,
+            "name": "Scrub Nation",
+            "points": 103.94
+          },
+          "away": {
+            "team_slot": 7,
+            "name": "The Gunslingers",
+            "points": 104.2
+          },
+          "winner_slot": 7,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with The Gunslingers prevailing over Scrub Nation. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2017-QF-2",
+        "year": 2017,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 9,
+            "name": "All ACL Squad",
+            "points": 136.84
+          },
+          "away": {
+            "team_slot": 2,
+            "name": "Hook, Line, and Zeeker",
+            "points": 127.64
+          },
+          "winner_slot": 9,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, Officials check the marked seawall course, water safety, tides and separate start gates.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The contestants negotiate guarded water crossings and race to restore control after a midcourse reversal.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The water trial ends with All ACL Squad prevailing over Hook, Line, and Zeeker. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2017-SF-1",
+        "year": 2017,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 11,
+            "name": "I'M HERE SO I WON'T GET FINED",
+            "points": 100.04
+          },
+          "away": {
+            "team_slot": 7,
+            "name": "The Gunslingers",
+            "points": 124.08
+          },
+          "winner_slot": 7,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with The Gunslingers prevailing over I'M HERE SO I WON'T GET FINED. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2017-SF-2",
+        "year": 2017,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 12,
+            "name": "The Fournecators",
+            "points": 127.94
+          },
+          "away": {
+            "team_slot": 9,
+            "name": "All ACL Squad",
+            "points": 115.68
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with The Fournecators prevailing over All ACL Squad. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2017-FINAL-1",
+        "year": 2017,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 12,
+            "name": "The Fournecators",
+            "points": 144.2
+          },
+          "away": {
+            "team_slot": 7,
+            "name": "The Gunslingers",
+            "points": 80.42
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with The Fournecators prevailing over The Gunslingers. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2018-QF-1",
+        "year": 2018,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "Kardiac Kids",
+            "points": 114.37
+          },
+          "away": {
+            "team_slot": 11,
+            "name": "Schreck Chappell",
+            "points": 114.27
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Kardiac Kids prevailing over Schreck Chappell. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2018-QF-2",
+        "year": 2018,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 10,
+            "name": "Highland Park Rushees",
+            "points": 147.38
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Christopher Columbus",
+            "points": 177.8
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, Both contenders receive identical materials, constraints and fixed inspection points on a prepared course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One attempts a quick assembly while the other uses structural counterplanning to reclaim time and control.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The engineering trial ends with Christopher Columbus prevailing over Highland Park Rushees. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2018-SF-1",
+        "year": 2018,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 9,
+            "name": "It Ertz When I Pee",
+            "points": 117.73
+          },
+          "away": {
+            "team_slot": 8,
+            "name": "Kardiac Kids",
+            "points": 157.9
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with Kardiac Kids prevailing over It Ertz When I Pee. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2018-SF-2",
+        "year": 2018,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 4,
+            "name": "$20 Grahams",
+            "points": 107.91
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Christopher Columbus",
+            "points": 171.12
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with Christopher Columbus prevailing over $20 Grahams. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2018-FINAL-1",
+        "year": 2018,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "Kardiac Kids",
+            "points": 160.69
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Christopher Columbus",
+            "points": 153.26
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Kardiac Kids prevailing over Christopher Columbus. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2019-QF-1",
+        "year": 2019,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 7,
+            "name": "Gunslinger Nation",
+            "points": 131.1
+          },
+          "away": {
+            "team_slot": 11,
+            "name": "Kevin's Mom's House",
+            "points": 111.9
+          },
+          "winner_slot": 7,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with Gunslinger Nation prevailing over Kevin's Mom's House. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2019-QF-2",
+        "year": 2019,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 12,
+            "name": "Convicts and Company",
+            "points": 124.54
+          },
+          "away": {
+            "team_slot": 3,
+            "name": "Please, Please, Please, please",
+            "points": 128.54
+          },
+          "winner_slot": 3,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, Officials check the marked seawall course, water safety, tides and separate start gates.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The contestants negotiate guarded water crossings and race to restore control after a midcourse reversal.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The water trial ends with Please, Please, Please, please prevailing over Convicts and Company. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2019-SF-1",
+        "year": 2019,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 5,
+            "name": "Make Amarica Great Again",
+            "points": 176.22
+          },
+          "away": {
+            "team_slot": 7,
+            "name": "Gunslinger Nation",
+            "points": 139.19
+          },
+          "winner_slot": 5,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with Make Amarica Great Again prevailing over Gunslinger Nation. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2019-SF-2",
+        "year": 2019,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 4,
+            "name": "Mr. Kenyan Drake Killed Me",
+            "points": 172.84
+          },
+          "away": {
+            "team_slot": 3,
+            "name": "Please, Please, Please, please",
+            "points": 208.97
+          },
+          "winner_slot": 3,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Both contenders receive identical materials, constraints and fixed inspection points on a prepared course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One attempts a quick assembly while the other uses structural counterplanning to reclaim time and control.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The engineering trial ends with Please, Please, Please, please prevailing over Mr. Kenyan Drake Killed Me. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2019-FINAL-1",
+        "year": 2019,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 5,
+            "name": "Make Amarica Great Again",
+            "points": 113.46
+          },
+          "away": {
+            "team_slot": 3,
+            "name": "Please, Please, Please, please",
+            "points": 158.3
+          },
+          "winner_slot": 3,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, The officials explain the shared scoring targets before the contenders take their opening attempts.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The lead changes through pressure shots and contrasting technique, with every stage witnessed and scored.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The sport trial ends with Please, Please, Please, please prevailing over Make Amarica Great Again. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2020-QF-1",
+        "year": 2020,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 182.72
+          },
+          "away": {
+            "team_slot": 9,
+            "name": "Dos Gatos",
+            "points": 136.48
+          },
+          "winner_slot": 2,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Red Leopards prevailing over Dos Gatos. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2020-QF-2",
+        "year": 2020,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 10,
+            "name": "Where Mahomies at?",
+            "points": 130.22
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Guild of Dunces",
+            "points": 94.24
+          },
+          "winner_slot": 10,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "14"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with Where Mahomies at? prevailing over Guild of Dunces. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2020-SF-1",
+        "year": 2020,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "The Grinch",
+            "points": 166.32
+          },
+          "away": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 143.72
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with The Grinch prevailing over Red Leopards. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2020-SF-2",
+        "year": 2020,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 1,
+            "name": "Obi-Wan Jacoby",
+            "points": 149.46
+          },
+          "away": {
+            "team_slot": 10,
+            "name": "Where Mahomies at?",
+            "points": 170.21
+          },
+          "winner_slot": 10,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with Where Mahomies at? prevailing over Obi-Wan Jacoby. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2020-FINAL-1",
+        "year": 2020,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "The Grinch",
+            "points": 188.44
+          },
+          "away": {
+            "team_slot": 10,
+            "name": "Where Mahomies at?",
+            "points": 189.19
+          },
+          "winner_slot": 10,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Where Mahomies at? prevailing over The Grinch. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2021-QF-1",
+        "year": 2021,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 9,
+            "name": "Dos Gatos",
+            "points": 79.46
+          },
+          "away": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 109.24
+          },
+          "winner_slot": 2,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Red Leopards prevailing over Dos Gatos. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2021-QF-2",
+        "year": 2021,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 4,
+            "name": "B.A.B.B. LLC",
+            "points": 90.64
+          },
+          "away": {
+            "team_slot": 1,
+            "name": "Obi-Wan Jacoby",
+            "points": 82.2
+          },
+          "winner_slot": 4,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, The arbiter reveals a tangible contested resource and equal official bargaining constraints.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Both sides publicly stake materials and signed claims, then contest the physical proof of performance.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The negotiation trial ends with B.A.B.B. LLC prevailing over Obi-Wan Jacoby. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2021-QF-3",
+        "year": 2021,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "The Third Coming",
+            "points": 125.06
+          },
+          "away": {
+            "team_slot": 10,
+            "name": "Where Mahomies at?",
+            "points": 108.15
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Breakwater Grounds, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with The Third Coming prevailing over Where Mahomies at?. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2021-SF-1",
+        "year": 2021,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 5,
+            "name": "Dewars White Label",
+            "points": 151.98
+          },
+          "away": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 103.12
+          },
+          "winner_slot": 5,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with Dewars White Label prevailing over Red Leopards. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2021-SF-2",
+        "year": 2021,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "The Third Coming",
+            "points": 173.04
+          },
+          "away": {
+            "team_slot": 4,
+            "name": "B.A.B.B. LLC",
+            "points": 146.84
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with The Third Coming prevailing over B.A.B.B. LLC. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2021-FINAL-1",
+        "year": 2021,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 5,
+            "name": "Dewars White Label",
+            "points": 178.06
+          },
+          "away": {
+            "team_slot": 8,
+            "name": "The Third Coming",
+            "points": 96.58
+          },
+          "winner_slot": 5,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "17"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, The officials explain the shared scoring targets before the contenders take their opening attempts.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The lead changes through pressure shots and contrasting technique, with every stage witnessed and scored.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The sport trial ends with Dewars White Label prevailing over The Third Coming. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2022-QF-1",
+        "year": 2022,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 12,
+            "name": "Javonte's InferNO Knee",
+            "points": 119.48
+          },
+          "away": {
+            "team_slot": 9,
+            "name": "El Niño",
+            "points": 132.7
+          },
+          "winner_slot": 9,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, Officials check the marked seawall course, water safety, tides and separate start gates.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The contestants negotiate guarded water crossings and race to restore control after a midcourse reversal.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The water trial ends with El Niño prevailing over Javonte's InferNO Knee. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2022-QF-2",
+        "year": 2022,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 1,
+            "name": "Obi-Wan Jacoby",
+            "points": 135.14
+          },
+          "away": {
+            "team_slot": 3,
+            "name": "Small Dak Energy",
+            "points": 150.74
+          },
+          "winner_slot": 3,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, Both contenders receive identical materials, constraints and fixed inspection points on a prepared course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One attempts a quick assembly while the other uses structural counterplanning to reclaim time and control.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The engineering trial ends with Small Dak Energy prevailing over Obi-Wan Jacoby. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2022-QF-3",
+        "year": 2022,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "The Second Coming",
+            "points": 122.23
+          },
+          "away": {
+            "team_slot": 10,
+            "name": "Where Mahomies at?",
+            "points": 162.26
+          },
+          "winner_slot": 10,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Breakwater Grounds, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Where Mahomies at? prevailing over The Second Coming. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2022-SF-1",
+        "year": 2022,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 97.96
+          },
+          "away": {
+            "team_slot": 9,
+            "name": "El Niño",
+            "points": 116.32
+          },
+          "winner_slot": 9,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with El Niño prevailing over Red Leopards. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2022-SF-2",
+        "year": 2022,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 3,
+            "name": "Small Dak Energy",
+            "points": 116.55
+          },
+          "away": {
+            "team_slot": 10,
+            "name": "Where Mahomies at?",
+            "points": 120.08
+          },
+          "winner_slot": 10,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with Where Mahomies at? prevailing over Small Dak Energy. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2022-FINAL-1",
+        "year": 2022,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 9,
+            "name": "El Niño",
+            "points": 111.56
+          },
+          "away": {
+            "team_slot": 10,
+            "name": "Where Mahomies at?",
+            "points": 78.3
+          },
+          "winner_slot": 9,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "17"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with El Niño prevailing over Where Mahomies at?. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2023-QF-1",
+        "year": 2023,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 5,
+            "name": "Benedict Coomhersnatch",
+            "points": 92.4
+          },
+          "away": {
+            "team_slot": 11,
+            "name": "Arm Chair GM",
+            "points": 148.32
+          },
+          "winner_slot": 11,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, The officials explain the shared scoring targets before the contenders take their opening attempts.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The lead changes through pressure shots and contrasting technique, with every stage witnessed and scored.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The sport trial ends with Arm Chair GM prevailing over Benedict Coomhersnatch. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2023-QF-2",
+        "year": 2023,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 10,
+            "name": "Mixon it up for a week",
+            "points": 114.86
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Eggs Benedict",
+            "points": 160.12
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with Eggs Benedict prevailing over Mixon it up for a week. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2023-QF-3",
+        "year": 2023,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 149.38
+          },
+          "away": {
+            "team_slot": 4,
+            "name": "The LLC",
+            "points": 117.91
+          },
+          "winner_slot": 2,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Breakwater Grounds, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with Red Leopards prevailing over The LLC. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2023-SF-1",
+        "year": 2023,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 9,
+            "name": "El Niño",
+            "points": 148.24
+          },
+          "away": {
+            "team_slot": 11,
+            "name": "Arm Chair GM",
+            "points": 159.52
+          },
+          "winner_slot": 11,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, The arbiter reveals a tangible contested resource and equal official bargaining constraints.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Both sides publicly stake materials and signed claims, then contest the physical proof of performance.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The negotiation trial ends with Arm Chair GM prevailing over El Niño. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2023-SF-2",
+        "year": 2023,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 149.84
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Eggs Benedict",
+            "points": 214.52
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with Eggs Benedict prevailing over Red Leopards. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2023-FINAL-1",
+        "year": 2023,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 11,
+            "name": "Arm Chair GM",
+            "points": 140.76
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Eggs Benedict",
+            "points": 192.88
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "17"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, Both contenders receive identical materials, constraints and fixed inspection points on a prepared course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One attempts a quick assembly while the other uses structural counterplanning to reclaim time and control.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The engineering trial ends with Eggs Benedict prevailing over Arm Chair GM. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2024-QF-1",
+        "year": 2024,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 9,
+            "name": "El Niño",
+            "points": 175.6
+          },
+          "away": {
+            "team_slot": 3,
+            "name": "Slob on my Dobb",
+            "points": 137.82
+          },
+          "winner_slot": 9,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with El Niño prevailing over Slob on my Dobb. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2024-QF-2",
+        "year": 2024,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 1,
+            "name": "ObiWan Jacoby",
+            "points": 235.16
+          },
+          "away": {
+            "team_slot": 12,
+            "name": "Dr. Duckhook",
+            "points": 227.24
+          },
+          "winner_slot": 1,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, The officials explain the shared scoring targets before the contenders take their opening attempts.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The lead changes through pressure shots and contrasting technique, with every stage witnessed and scored.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The sport trial ends with ObiWan Jacoby prevailing over Dr. Duckhook. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2024-QF-3",
+        "year": 2024,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 4,
+            "name": "The LLC",
+            "points": 95.96
+          },
+          "away": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 146.3
+          },
+          "winner_slot": 2,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Breakwater Grounds, Both contenders receive identical materials, constraints and fixed inspection points on a prepared course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One attempts a quick assembly while the other uses structural counterplanning to reclaim time and control.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The engineering trial ends with Red Leopards prevailing over The LLC. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2024-SF-1",
+        "year": 2024,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "The King",
+            "points": 226.28
+          },
+          "away": {
+            "team_slot": 9,
+            "name": "El Niño",
+            "points": 166.04
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with The King prevailing over El Niño. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2024-SF-2",
+        "year": 2024,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 1,
+            "name": "ObiWan Jacoby",
+            "points": 185.54
+          },
+          "away": {
+            "team_slot": 2,
+            "name": "Red Leopards",
+            "points": 177.78
+          },
+          "winner_slot": 1,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with ObiWan Jacoby prevailing over Red Leopards. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2024-FINAL-1",
+        "year": 2024,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 8,
+            "name": "The King",
+            "points": 161.68
+          },
+          "away": {
+            "team_slot": 1,
+            "name": "ObiWan Jacoby",
+            "points": 187.52
+          },
+          "winner_slot": 1,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "17"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with ObiWan Jacoby prevailing over The King. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2025-QF-1",
+        "year": 2025,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 6,
+            "name": "Three Dreaded Snake",
+            "points": 127.98
+          },
+          "away": {
+            "team_slot": 5,
+            "name": "Baker Moore Purdy",
+            "points": 116.68
+          },
+          "winner_slot": 6,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Iron Quarry, Both sides race toward different vantage points and identify competing lines through the same neutral course.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The pursuer cuts across the middle checkpoint while the leader alters pace and direction under visible spectator pressure.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The pursuit trial ends with Three Dreaded Snake prevailing over Baker Moore Purdy. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2025-QF-2",
+        "year": 2025,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 7,
+            "name": "The Chili Cheesers",
+            "points": 147.34
+          },
+          "away": {
+            "team_slot": 8,
+            "name": "The Immortal",
+            "points": 185.6
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Saltwind Steps, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with The Immortal prevailing over The Chili Cheesers. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2025-QF-3",
+        "year": 2025,
+        "round": "QF",
+        "score": {
+          "home": {
+            "team_slot": 12,
+            "name": "Dr. Duckhook",
+            "points": 171.8
+          },
+          "away": {
+            "team_slot": 11,
+            "name": "Seven Deadly Chins",
+            "points": 112.9
+          },
+          "winner_slot": 12,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "15"
+        },
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Breakwater Grounds, Opposing leaders deploy their permitted retinues along the predefined boundary markers.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "Each side counters the other's movement as secured checkpoints become disputed and the field narrows.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The tactical trial ends with Dr. Duckhook prevailing over Seven Deadly Chins. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2025-SF-1",
+        "year": 2025,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 1,
+            "name": "ObiWan Jacoby",
+            "points": 174.38
+          },
+          "away": {
+            "team_slot": 6,
+            "name": "Three Dreaded Snake",
+            "points": 153.2
+          },
+          "winner_slot": 1,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Crown Stair, The officials explain the shared scoring targets before the contenders take their opening attempts.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "The lead changes through pressure shots and contrasting technique, with every stage witnessed and scored.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The sport trial ends with ObiWan Jacoby prevailing over Three Dreaded Snake. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2025-SF-2",
+        "year": 2025,
+        "round": "SF",
+        "score": {
+          "home": {
+            "team_slot": 12,
+            "name": "Dr. Duckhook",
+            "points": 151.8
+          },
+          "away": {
+            "team_slot": 8,
+            "name": "The Immortal",
+            "points": 152.2
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "16"
+        },
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Grove of Standards, The two contenders read one another's stance and claim opposing sectors of the marked arena.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "A sequence of parries, evasions and reversals reveals the vulnerability each side tries to exploit.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The duel trial ends with The Immortal prevailing over Dr. Duckhook. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      },
+      {
+        "id": "HIST-POST-2025-FINAL-1",
+        "year": 2025,
+        "round": "FINAL",
+        "score": {
+          "home": {
+            "team_slot": 1,
+            "name": "ObiWan Jacoby",
+            "points": 109.56
+          },
+          "away": {
+            "team_slot": 8,
+            "name": "The Immortal",
+            "points": 161.07
+          },
+          "winner_slot": 8,
+          "score_class": "ESPN_HISTORICAL_FACT",
+          "period": "17"
+        },
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "stage_beats": [
+          {
+            "n": 1,
+            "label": "opening_trial",
+            "action": "At Last Field, Both sides confront identical timed stations and a conspicuous physical limit under the arena's rules.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 2,
+            "label": "counterpressure",
+            "action": "One contender recovers after a difficult station while the other presses an early advantage, forcing both to adapt.",
+            "source_class": "FICTION"
+          },
+          {
+            "n": 3,
+            "label": "decisive_confrontation",
+            "action": "The endurance trial ends with The Immortal prevailing over ObiWan Jacoby. The exact fictional physical finishing move remains subject to approved editorial choreography.",
+            "source_class": "FICTION_STAGED_FROM_VERIFIED_WINNER"
+          }
+        ],
+        "owner_identity_status": "HOLD_HISTORIC_SLOT_NOT_PERSON",
+        "narrative_status": "WORKSHOP_STAGE_DRAFT"
+      }
+    ],
+    "chapter_mode": "Eleven annual movements + match-by-match scripts after history/owner/POV reconciliation",
+    "release_gate": "NO_CHAPTER_PUBLICATION_WITH_UNVERIFIED_OWNER_OR_ERA_CHARACTER"
+  },
+  "atlas": {
+    "zone_affiliation": "REG-INNER-SEA-LITTORAL",
+    "coordinate_space": "ABSTRACT_UNMEASURED",
+    "nodes": [
+      {
+        "id": "MAINLAND_PUBLIC_LITTORAL",
+        "zone": "mainland",
+        "use": "public",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "CAUSEWAY_OUTER_GATE",
+        "zone": "causeway",
+        "use": "security",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "CAUSEWAY_RIDGE",
+        "zone": "causeway",
+        "use": "shared",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "ISLAND_ENTRY_CHECK",
+        "zone": "island_north",
+        "use": "security",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "HARBOR_RELIEF",
+        "zone": "island_north",
+        "use": "service",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "BROADCAST_HQ",
+        "zone": "island_north",
+        "use": "media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "TAILGATE_COMMONS",
+        "zone": "island_west",
+        "use": "spectator",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "LOSERS_BEACH",
+        "zone": "island_west",
+        "use": "seasonal_lodging",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "BEACH_PAVILIONS",
+        "zone": "island_west",
+        "use": "seasonal_lodging",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "IRON_QUARRY",
+        "zone": "island_west",
+        "use": "quarterfinal",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "SALTWIND_STEPS",
+        "zone": "island_east",
+        "use": "quarterfinal",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "BREAKWATER_GROUNDS",
+        "zone": "island_south",
+        "use": "quarterfinal",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "CONTENDER_FORTRESS",
+        "zone": "island_central",
+        "use": "contestant",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "BYE_HOUSE",
+        "zone": "island_central",
+        "use": "contestant",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "CROWN_STAIR",
+        "zone": "island_north",
+        "use": "semifinal",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "GROVE_STANDARDS",
+        "zone": "island_central",
+        "use": "semifinal",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "CHAMPIONS_WALK",
+        "zone": "island_central",
+        "use": "public_history",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "FARRELL_SANCTUARY",
+        "zone": "island_central",
+        "use": "memorial",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "MUSEUM_TROPHY_HALL",
+        "zone": "island_central",
+        "use": "public_history",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "LAST_FIELD",
+        "zone": "island_upland",
+        "use": "final",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "LAST_FIELD_SUITES",
+        "zone": "island_upland",
+        "use": "hospitality",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "UTILITY_PLANT",
+        "zone": "island_south",
+        "use": "service",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "id": "EMERGENCY_PIER",
+        "zone": "island_south",
+        "use": "service",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "edges": [
+      {
+        "from": "MAINLAND_PUBLIC_LITTORAL",
+        "to": "CAUSEWAY_OUTER_GATE",
+        "modes": [
+          "public",
+          "service",
+          "emergency"
+        ]
+      },
+      {
+        "from": "CAUSEWAY_OUTER_GATE",
+        "to": "CAUSEWAY_RIDGE",
+        "modes": [
+          "public",
+          "service",
+          "emergency"
+        ]
+      },
+      {
+        "from": "CAUSEWAY_RIDGE",
+        "to": "ISLAND_ENTRY_CHECK",
+        "modes": [
+          "public",
+          "service",
+          "emergency"
+        ]
+      },
+      {
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "HARBOR_RELIEF",
+        "modes": [
+          "service",
+          "emergency"
+        ]
+      },
+      {
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "BROADCAST_HQ",
+        "modes": [
+          "media",
+          "service"
+        ]
+      },
+      {
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "TAILGATE_COMMONS",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "LOSERS_BEACH",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "LOSERS_BEACH",
+        "to": "BEACH_PAVILIONS",
+        "modes": [
+          "public",
+          "emergency"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "TAILGATE_COMMONS",
+        "to": "CHAMPIONS_WALK",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "CHAMPIONS_WALK",
+        "to": "MUSEUM_TROPHY_HALL",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "MUSEUM_TROPHY_HALL",
+        "to": "FARRELL_SANCTUARY",
+        "modes": [
+          "memorial_public"
+        ]
+      },
+      {
+        "from": "CHAMPIONS_WALK",
+        "to": "LAST_FIELD",
+        "modes": [
+          "public"
+        ]
+      },
+      {
+        "from": "LAST_FIELD",
+        "to": "LAST_FIELD_SUITES",
+        "modes": [
+          "private_guest",
+          "media"
+        ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "BYE_HOUSE",
+        "modes": [
+          "contender"
+        ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "contender"
+        ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "contender"
+        ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "contender"
+        ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "contender"
+        ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "contender"
+        ]
+      },
+      {
+        "from": "CONTENDER_FORTRESS",
+        "to": "LAST_FIELD",
+        "modes": [
+          "contender"
+        ]
+      },
+      {
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "CONTENDER_FORTRESS",
+        "modes": [
+          "contender",
+          "security"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "BROADCAST_HQ",
+        "modes": [
+          "service",
+          "media"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "LAST_FIELD",
+        "modes": [
+          "service"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "service"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "service"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "service"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "service"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "service"
+        ]
+      },
+      {
+        "from": "UTILITY_PLANT",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "service",
+          "emergency"
+        ]
+      },
+      {
+        "from": "HARBOR_RELIEF",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ]
+      },
+      {
+        "from": "BROADCAST_HQ",
+        "to": "LAST_FIELD",
+        "modes": [
+          "media"
+        ]
+      },
+      {
+        "from": "BROADCAST_HQ",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "media"
+        ]
+      },
+      {
+        "from": "BROADCAST_HQ",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "media"
+        ]
+      },
+      {
+        "from": "BROADCAST_HQ",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "media"
+        ]
+      },
+      {
+        "from": "BROADCAST_HQ",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "media"
+        ]
+      },
+      {
+        "from": "BROADCAST_HQ",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "media"
+        ]
+      }
+    ],
+    "source_geo": "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+    "release_gate": "NO_WORLD_WRITEBACK_UNTIL_ROUTE_HYDROLOGY_AND_LAST_FIELD_SUPERSESSION"
+  },
+  "commonwealth_site": {
+    "target": "Living World Atlas preview; site publishing not currently authorized",
+    "years": [
+      {
+        "year": 2015,
+        "champion_name": "Discount Belichick",
+        "champion_slot": 12,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 3
+      },
+      {
+        "year": 2016,
+        "champion_name": "Austin's Hyena's",
+        "champion_slot": 8,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 3
+      },
+      {
+        "year": 2017,
+        "champion_name": "The Fournecators",
+        "champion_slot": 12,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 5
+      },
+      {
+        "year": 2018,
+        "champion_name": "Kardiac Kids",
+        "champion_slot": 8,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 5
+      },
+      {
+        "year": 2019,
+        "champion_name": "Please, Please, Please, please",
+        "champion_slot": 3,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 5
+      },
+      {
+        "year": 2020,
+        "champion_name": "Where Mahomies at?",
+        "champion_slot": 10,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 5
+      },
+      {
+        "year": 2021,
+        "champion_name": "Dewars White Label",
+        "champion_slot": 5,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 6
+      },
+      {
+        "year": 2022,
+        "champion_name": "El Niño",
+        "champion_slot": 9,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 6
+      },
+      {
+        "year": 2023,
+        "champion_name": "Eggs Benedict",
+        "champion_slot": 12,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 6
+      },
+      {
+        "year": 2024,
+        "champion_name": "ObiWan Jacoby",
+        "champion_slot": 1,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 6
+      },
+      {
+        "year": 2025,
+        "champion_name": "The Immortal",
+        "champion_slot": 8,
+        "historical_source": "ESPN",
+        "fictional_final_site": "Last Field",
+        "site_status": "DRAFT_PROPOSAL",
+        "encounters": 6
+      }
+    ],
+    "renders_available": false,
+    "deployed": false
+  },
+  "postseason_2026": {
+    "event_structure": {
+      "regular_season_ends_after_week": 14,
+      "rounds": [
+        {
+          "key": "QUARTERFINAL",
+          "week": 15,
+          "fixture_count": 3,
+          "bye_count": 1
+        },
+        {
+          "key": "SEMIFINAL",
+          "week": 16,
+          "fixture_count": 2,
+          "bye_count": 0
+        },
+        {
+          "key": "CHAMPIONSHIP",
+          "week": 17,
+          "fixture_count": 1,
+          "bye_count": 0
+        }
+      ],
+      "qualification_count": 7,
+      "first_round_bye_seed": 1,
+      "reseed": false,
+      "verified_individual_round_outcomes": false
+    },
+    "round_venues": {
+      "QUARTERFINAL": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER"
+      ],
+      "SEMIFINAL": [
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE"
+      ],
+      "CHAMPIONSHIP": [
+        "CAND-POST-LAST-FIELD"
+      ]
+    },
+    "qualifiers": null,
+    "fixtures": null,
+    "winners": null,
+    "finalists": null,
+    "champion": null,
+    "release_gate": "POST_WEEK14_SOURCE_LOCK_AND_ISLAND_CANON_APPROVAL"
+  },
+  "publication_status": "HOLD_NO_INDEPENDENT_UMPIRE_OR_ACTIVE_ATLAS_PROMOTION",
+  "historical_totals": {
+    "years": 11,
+    "matchups": 56,
+    "stages": 168,
+    "unique_island_nodes": 23
+  }
+}
