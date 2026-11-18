@@ -136,12 +136,10 @@ def run():
             folio_copy = (FOLIOS / ("RT7-P%02d" % i) / "PAGE_PACKET.md").read_text(encoding="utf-8")
             # Publication text is checked separately from source JSON. Legacy Nov17 narrative sections remain archival.
             if i < 7:
-                expected_line = (
-                    "PLAYOFF OUTLOOK %.1f%% (FFHUB, NOV 18)" % float(p.get("ffhub_baseline_pct", -1))
-                )
+                round1 = lambda value: Decimal(str(value)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
+                expected_line = "PLAYOFF OUTLOOK %s%% (FFHUB, NOV 18)" % round1(p.get("ffhub_baseline_pct", -1))
                 test(expected_line in folio_copy,
                      "On-image baseline no longer matches Nov18 scene source for " + str(p.get("team")))
-                round1 = lambda value: Decimal(str(value)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
                 expected_win = "WIN W11 %s%%" % round1(p.get("ffhub_w11_win_pct", -1))
                 expected_loss = "LOSE W11 %s%%" % round1(p.get("ffhub_w11_loss_pct", -1))
                 test(expected_win in folio_copy and expected_loss in folio_copy,
