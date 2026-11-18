@@ -36,7 +36,7 @@ Four-limbed gorilla-centaur anatomy in the Highland stronghold versus the red-ey
 
 **On-image typed copy:**
 - `D0NKEY K0NG` · Official seed **#3** · Week 10 **6–4**
-- `PLAYOFF OUTLOOK 92.9% (FFHUB, NOV 17)` · `WIN W11 98.9%` · `LOSE W11 88.1%`
+- `PLAYOFF OUTLOOK 93.3% (FFHUB, NOV 18)` · `WIN W11 98.7%` · `LOSE W11 88.5%`
 - Editorial hook: *The strongest gate is the one you can secure yourself.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -68,7 +68,7 @@ Four-limbed gorilla-centaur anatomy in the Highland stronghold versus the red-ey
 
 **On-image typed copy:**
 - `HIS MAJESTY'S BLOOD` · Official seed **#4** · Week 10 **6–4**
-- `PLAYOFF OUTLOOK 88.1% (FFHUB, NOV 17)` · `WIN W11 95.8%` · `LOSE W11 79.3%`
+- `PLAYOFF OUTLOOK 87.6% (FFHUB, NOV 18)` · `WIN W11 95.2%` · `LOSE W11 80.1%`
 - Editorial hook: *A title kept is not a berth earned.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -120,3 +120,7 @@ Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_202
 **On-image selection:** both official 6–4 records and seeds, each dated FFHub estimate, one future turning point, and one sentence about destiny not yet secured.
 
 **Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [future forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [ESPN projections](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [NFL market](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
+
+## Publication copy lock — November 18 FFHub cohort
+
+**Authoritative for future PNG lettering:** November 18, 2026 live FFHub sample (10,000 draws) as provided in `../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json`. All on-image quoted qualification percentages now select this single dated cohort. Original November 17 estimates in the analytical body remain explicitly archival and must not be mixed into final lettering. Mathematical statuses remain from separately verified witness evidence. If another dated source is adopted later, update every art text binding together and rerun source-copy QA.
