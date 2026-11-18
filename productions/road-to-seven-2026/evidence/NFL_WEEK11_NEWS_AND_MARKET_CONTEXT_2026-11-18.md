@@ -49,3 +49,22 @@
 4. Establish explicit three-branch scenarios per affected player: active/full use; active/limited use; inactive/replaced with eligible starter. Assign no invented probabilities to those branches. This is sensitivity analysis, not medical prognostication.
 5. On-image publication should have **one** attributed historical FFHub baseline date; sports and injuries may support only narrative/sidebar claims with dated sources. Avoid squeezing dozens of NFL market numbers into seven illustrated PNGs.
 6. Do not issue betting recommendations; this is research on public market-implied scoring conditions.
+
+## Additional player-prop market context (not fantasy-point forecasts)
+
+A second market layer exists at the **player-statistic** level. [Prop Lab's November 18 Week 11 passing-yards lines](https://proplabsports.com/nfl-props/passing-yards) lists, as a dated public market-derived snapshot:
+
+| NFL QB | 2026 Week 11 passing-yards line | Schemin storyline use |
+|---|---:|---|
+| Joe Burrow, CIN | 301.5 yards | The LLC; Bengals–Commanders high-total environment |
+| Dak Prescott, DAL | 278.0 yards | D0nkey K0ng; Cowboys–Titans listed high game total |
+| C.J. Stroud, HOU | 261.5 yards | Dr. Duckhook; Thursday decision timing |
+| Caleb Williams, CHI | 249.5 yards | Three Dreaded Snake; Bears vs Saints |
+| Brock Purdy, SF | 246.5 yards | His Majesty's Blood; Mexico City game |
+| Trevor Lawrence, JAX | 242.5 yards | ObiWan Jacoby; Jaguars at Giants |
+
+The specific [Nov 17 Walker receiving-yards market estimate](https://evanalytics.com/nfl/writenow/player/prop/kenneth-walker-iii-receiving-yards-player-prop-2026-week-11) was **21.5 yards**, but his injury status remains uncertain; a posted statistic line is contingent on participation and must not be interpreted as proof he will play.
+
+**Independent injury development:** [Reuters on Nov 16](https://www.reuters.com/sports/report-raiders-te-brock-bowers-avoids-major-ankle-injury--flm-2026-11-16/) reported Brock Bowers avoided a more serious ankle injury but was called day-to-day by his coach. This bolsters the scenario of an uncertain Week 11 workload; it does not establish clearance, activation, or a fantasy-point deduction.
+
+**Quantitative integrity:** player yardage props are not PPR fantasy point projections. The props do not include all fantasy scoring components, usage correlation or injury-conditional lineup substitutions. No automatic conversion to fantasy team win odds or FFHub odds is approved. Use player props as supporting exposure context in backstage page packets, at most one selected news trigger per character in published art.
