@@ -104,3 +104,17 @@ A new real UI session at [FFHub league 1417621](https://theffhub.com/PlayoffTool
 | El Niño | 87.10% | 96.88% | 83.92% | 12.96 pp |
 
 Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md) and [machine-readable 12-team summary](../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json). If editor chooses these new figures for on-image copy, use this dated cohort consistently and regenerate exact text bindings; never mix vendor samples or substitute estimates for clinch proofs. Existing literary treatments remain candidate copy.
+
+## Extended production intelligence — roster, markets, and future forks (Nov 18)
+
+**Immediate matchup:** Slob vs El Niño is a real Week 11 contest. ESPN current entered starters project **Slob 157.88 vs Niño 138.46**. Neither team has an ESPN Questionable/Doubtful/Out starter in the Flaim snapshot, but both retain bench/IR uncertainties.
+
+**One NFL game, two character fates:** Slob's Josh Allen and Niño's James Cook III both depend on Buffalo–Miami (DraftKings via CBS: **BUF -16.5, total 46.5**, Nov 18). This creates shared NFL context, not necessarily shared fantasy benefit. The season's #1 and #2 seeds should feel connected by the same on-field weather and tempo without being falsely shown at the same Commonwealth location.
+
+**Week 12–14 drama:** Slob meets Duckhook in Week 13: FFHub conditional Slob **99.76% after win vs 95.95% after loss**, Duckhook **96.48% after win vs 84.03% after loss**. Niño encounters Chins in Week 12 (**96.37% if Niño wins vs 74.54% if Niño loses**), HMB in Week 13 (**96.48% vs 78.95%**), and LLC in Week 14 (**97.17% vs 78.61%**). These are separate 10,000-simulation samples conditioning on one future game, not an exact series of compound outcomes.
+
+**Inklings micro-direction:** Slob's composure is earned rather than arrogant; Niño is a challenge capable of disrupting the summit but cannot claim an unplayed victory. Maintain opposite biomes and actual official seed order. Literary hook: *Two roads above the clouds, neither guaranteed to remain there.*
+
+**On-image selection:** retain the official 6–4 records and seeds plus concise Nov 18 probabilities; one shared Week 11 headline; a single future fork label under each portrait. Keep complete NFL odds and ESPN projections backstage.
+
+**Source binding:** [Live FFHub 18-Nov](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [future forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim current starters](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [NFL market/injury references](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
