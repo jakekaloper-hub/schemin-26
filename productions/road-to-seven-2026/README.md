@@ -10,6 +10,14 @@ The project now holds **223 actual current roster entries**, six live Week 11 ES
 
 **New evidence:** [12-team forecast stress test](evidence/TWELVE_TEAM_FORECAST_STRESS_TEST_2026-11-18.md) · [future forks](evidence/FFHUB_FUTURE_FORKS_2026-11-18.md) · [all current rosters](evidence/FLAIM_CURRENT_ROSTERS_2026-11-18.md) · [Week11 projections](evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md) · [future ESPN projections](evidence/FLAIM_W12_W14_PROVISIONAL_PROJECTIONS.md) · [injury exposure](evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md) · [NFL odds/news](evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md) · [Bullpen execution receipt](BULLPEN_FORWARD_FORECAST_EXECUTION_RECEIPT.md) · [source + asset QA test](tools/verify_source_coverage.py).
 
+## Studio ownership, Inklings and external-method review
+
+- [Visual Studio Lighting Bible](reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md): seven cinema compositions with in-world motivated light, key/fill/rim, atmospheric physics, page-specific filmed-method lenses, camera blocking and typography safe zones.
+- [Inklings Twelve-POV manuscript](reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md): all twelve characters have distinct epic passages, plus cover deck; author-council names are published-method lenses, not actual participating people.
+- [Bullpen and Tim Veil lens reconciliation](reviews/BULLPEN_TIM_VEIL_RECONCILIATION_2026-11-18.md): canonical ConsultEngine invoked with public-method Tim Veil lens and modeled Umpire/Closer Director review; unreliable generated claims quarantined and rejected; factual amendments verified with current source QA.
+- All 7 [scene.json](folios/RT7-P01/scene.json) contracts have a baked lighting contract, chosen art-method bench, Inklings source and per-character canon+Atlas bindings. Six paired folios have source-locked **November 18 on-image FFHub data**; historical November 17 figures remain in research passages, not publication lettering.
+- Final generated PNG pixel checks, human subject-to-image likeness confirmation, actual 390px mobile legibility and independent publication QA have not been performed. No raster release approval has been claimed.
+
 ## Page folio index
 | Folio | Title | Character pairing |
 |---|---|---|
@@ -53,8 +61,8 @@ Fresh Nov 18 UI runs selected every Week 11 game outcome plus four four-game win
 
 ## Current gates
 - **PASS (source-consistency execution):** historical source recovered, raw probability matrix validated, all 12 teams and six pairings bound, seven individual page briefs committed.
-- **IN PROGRESS (creative):** literary candidates exist for all twelve, but are not externally peer-reviewed or final artwork copy.
-- **NOT RUN:** actual seven PNG generations, visual-reference byte checking, image typography inspection, independent Umpire visual sign-off, Founder publication approval.
+- **PREPRODUCTION COPY COMPLETE, RASTER UNTESTED:** specific literary candidates exist for all twelve, with page-specific photographic/lighting directions and an evidence-backed model-review reconciliation. Final image overlay/readability still requires actual raster QA.
+- **NOT RUN:** actual seven PNG generations, renderer-specific subject attachment proof, generated-image typography inspection, independent Umpire visual sign-off, Founder publication approval. Character reference crop bytes and SHA matches are already proven 12/12.
 - **NOT NECESSARY FOR SAME CUTOFF:** additional stochastic site run solely to reproduce Nov 17 baseline. Re-run FFHub only when question, settings, or source cutoff changes, and label any new samples with their own receipt.
 
 No fan-facing PDF or website is part of this authorized first release. Seven PNGs remain the controlling output.
