@@ -1,0 +1,35 @@
+name: Championship Island preproduction validation
+
+on:
+  pull_request:
+    paths:
+      - 'planning/postseason/**'
+      - '.github/workflows/postseason-island-validation.yml'
+  push:
+    branches:
+      - 'feat/postseason-island-historical-foundation-20261118'
+    paths:
+      - 'planning/postseason/**'
+      - '.github/workflows/postseason-island-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-and-creative-preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate original Inklings producer
+        run: node planning/postseason/test_postseason_inklings_packets.mjs
+      - name: Validate cross-OS source, island, fixed arenas, and negative cases
+        run: node planning/postseason/test_postseason_cross_os_preflight.mjs
+      - name: Verify all committed generated previews match their authoritative draft inputs
+        run: node planning/postseason/run_postseason_island_pipeline.mjs --check
