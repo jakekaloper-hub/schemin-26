@@ -1,0 +1,631 @@
+{
+  "schema": "schemin.championship_island_site_evolution.proposal.v1",
+  "status": "UNPROMOTED_ATLAS_CANDIDATE",
+  "source": "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.proposal.json",
+  "atlas_zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+  "placement": "outside existing southeast coastal map extent",
+  "historical_fact_boundary": "Venue names, years of physical use, facilities, material changes and layout are fictional proposed design, not ESPN facts.",
+  "sites": [
+    {
+      "id": "CAND-POST-LAST-FIELD",
+      "morphology": "fixed stone championship oval on central rock upland",
+      "zone": "central_upland",
+      "heritage": "immutable twin gate axes and processional path; permanent 2015–2025 fictional final",
+      "categories": [
+        "CHAMPIONSHIP_ONLY"
+      ],
+      "infrastructure": [
+        "twin finalist gates",
+        "central certification dais",
+        "public stands",
+        "champion procession",
+        "capped suite arcades",
+        "independent memorial approach"
+      ],
+      "risks": [
+        "Final Field Central Basin vs island unresolved",
+        "Farrell name chronology unverified"
+      ],
+      "name": "Last Field",
+      "usage_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_proposed_appearance": 2015,
+      "historic_fixture_ids": [
+        "HIST-POST-2015-FINAL-1",
+        "HIST-POST-2016-FINAL-1",
+        "HIST-POST-2017-FINAL-1",
+        "HIST-POST-2018-FINAL-1",
+        "HIST-POST-2019-FINAL-1",
+        "HIST-POST-2020-FINAL-1",
+        "HIST-POST-2021-FINAL-1",
+        "HIST-POST-2022-FINAL-1",
+        "HIST-POST-2023-FINAL-1",
+        "HIST-POST-2024-FINAL-1",
+        "HIST-POST-2025-FINAL-1"
+      ],
+      "fixtures_count": 11,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-OLD-RING",
+      "morphology": "oldest shallow stone competition circle, close spectator banks",
+      "zone": "inner_quarry",
+      "heritage": "early-era use, occasional carefully inspected revival",
+      "categories": [
+        "QF",
+        "SF"
+      ],
+      "infrastructure": [
+        "outer crowd bank",
+        "low seating",
+        "stone gate",
+        "accessible heritage path"
+      ],
+      "risks": [
+        "retired venue not reusable without current maintenance proof"
+      ],
+      "name": "Old Ring",
+      "usage_years": [
+        2015,
+        2016,
+        2018,
+        2021
+      ],
+      "first_proposed_appearance": 2015,
+      "historic_fixture_ids": [
+        "HIST-POST-2015-SF-1",
+        "HIST-POST-2016-SF-1",
+        "HIST-POST-2018-QF-1",
+        "HIST-POST-2021-QF-1"
+      ],
+      "fixtures_count": 4,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-IRON-QUARRY",
+      "morphology": "stone quarry bowl with vertical terraces and marked approach lanes",
+      "zone": "inland_quarry",
+      "heritage": "recurring workhorse venue with repairs dating through the seasons",
+      "categories": [
+        "QF",
+        "SF"
+      ],
+      "infrastructure": [
+        "terraces",
+        "covered arbiters' platform",
+        "controlled course lanes",
+        "pit safety"
+      ],
+      "risks": [
+        "rockfall control",
+        "water drainage"
+      ],
+      "name": "Iron Quarry",
+      "usage_years": [
+        2015,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_proposed_appearance": 2015,
+      "historic_fixture_ids": [
+        "HIST-POST-2015-SF-2",
+        "HIST-POST-2018-QF-2",
+        "HIST-POST-2019-SF-2",
+        "HIST-POST-2020-QF-1",
+        "HIST-POST-2022-QF-2",
+        "HIST-POST-2023-QF-2",
+        "HIST-POST-2024-SF-2",
+        "HIST-POST-2025-QF-2"
+      ],
+      "fixtures_count": 8,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-VETERANS-YARD",
+      "morphology": "smaller inland ancestral training square with worn terraces",
+      "zone": "western_fold",
+      "heritage": "used in early and later revival seasons; underused between",
+      "categories": [
+        "QF",
+        "SF"
+      ],
+      "infrastructure": [
+        "low walls",
+        "repairable gates",
+        "covered benches"
+      ],
+      "risks": [
+        "seasonal restoration"
+      ],
+      "name": "Veterans' Yard",
+      "usage_years": [
+        2016,
+        2022
+      ],
+      "first_proposed_appearance": 2016,
+      "historic_fixture_ids": [
+        "HIST-POST-2016-SF-2",
+        "HIST-POST-2022-QF-3"
+      ],
+      "fixtures_count": 2,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-SALTWIND",
+      "morphology": "elevated limestone steps on windward sea-facing cliff",
+      "zone": "eastern_cliff",
+      "heritage": "famous open-air coastal trial ground in the six/seven qualifier era",
+      "categories": [
+        "QF"
+      ],
+      "infrastructure": [
+        "windward lookout",
+        "stepped spectator seats",
+        "weather instruments",
+        "safety traverse"
+      ],
+      "risks": [
+        "coastal crosswind",
+        "storm closures"
+      ],
+      "name": "Saltwind Steps",
+      "usage_years": [
+        2017,
+        2019,
+        2021,
+        2023,
+        2024
+      ],
+      "first_proposed_appearance": 2017,
+      "historic_fixture_ids": [
+        "HIST-POST-2017-QF-1",
+        "HIST-POST-2019-QF-1",
+        "HIST-POST-2021-QF-3",
+        "HIST-POST-2023-QF-3",
+        "HIST-POST-2024-QF-2"
+      ],
+      "fixtures_count": 5,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-BREAKWATER",
+      "morphology": "tidal-controlled seawall court near protected harbor",
+      "zone": "harbor",
+      "heritage": "recurring maritime contest ground and separate public spectacle",
+      "categories": [
+        "QF"
+      ],
+      "infrastructure": [
+        "sea wall",
+        "elevated galleries",
+        "marked sheltered lanes",
+        "dry emergency route"
+      ],
+      "risks": [
+        "tidal access",
+        "storm surge"
+      ],
+      "name": "Breakwater Grounds",
+      "usage_years": [
+        2017,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025
+      ],
+      "first_proposed_appearance": 2017,
+      "historic_fixture_ids": [
+        "HIST-POST-2017-QF-2",
+        "HIST-POST-2019-QF-2",
+        "HIST-POST-2020-QF-2",
+        "HIST-POST-2021-QF-2",
+        "HIST-POST-2023-QF-1",
+        "HIST-POST-2024-QF-3",
+        "HIST-POST-2025-QF-3"
+      ],
+      "fixtures_count": 7,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-CROWN-STAIR",
+      "morphology": "monumental competition court with ceremonial ascending steps",
+      "zone": "central_upland",
+      "heritage": "principal semifinal setting since proposed 2017 expansion",
+      "categories": [
+        "SF"
+      ],
+      "infrastructure": [
+        "grandstands",
+        "separate competitor tunnel",
+        "herald chamber",
+        "public approach"
+      ],
+      "risks": [
+        "large-scale crowd access"
+      ],
+      "name": "Crown Stair",
+      "usage_years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_proposed_appearance": 2017,
+      "historic_fixture_ids": [
+        "HIST-POST-2017-SF-1",
+        "HIST-POST-2018-SF-1",
+        "HIST-POST-2019-SF-1",
+        "HIST-POST-2020-SF-1",
+        "HIST-POST-2021-SF-1",
+        "HIST-POST-2022-SF-1",
+        "HIST-POST-2023-SF-1",
+        "HIST-POST-2024-SF-1",
+        "HIST-POST-2025-SF-1"
+      ],
+      "fixtures_count": 9,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-GROVE",
+      "morphology": "forest-shaded tournament amphitheater with persistent markers",
+      "zone": "sheltered_grove",
+      "heritage": "long-running prestige semifinal site with returning standards",
+      "categories": [
+        "QF",
+        "SF"
+      ],
+      "infrastructure": [
+        "protected natural stands",
+        "tree buffer",
+        "standard markers",
+        "crowd ring path"
+      ],
+      "risks": [
+        "tree damage",
+        "fire and storm safety"
+      ],
+      "name": "Grove of Standards",
+      "usage_years": [
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "first_proposed_appearance": 2017,
+      "historic_fixture_ids": [
+        "HIST-POST-2017-SF-2",
+        "HIST-POST-2018-SF-2",
+        "HIST-POST-2020-SF-2",
+        "HIST-POST-2021-SF-2",
+        "HIST-POST-2022-SF-2",
+        "HIST-POST-2023-SF-2",
+        "HIST-POST-2024-QF-1",
+        "HIST-POST-2025-SF-2"
+      ],
+      "fixtures_count": 8,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    },
+    {
+      "id": "CAND-POST-CAUSEWAY",
+      "morphology": "raised shore-crossing stone route with tidal checkpoint spans",
+      "zone": "southern_tide",
+      "heritage": "older-island infrastructure repurposed for episodic trials; active contest use from proposed 2022 revival",
+      "categories": [
+        "QF"
+      ],
+      "infrastructure": [
+        "raised spans",
+        "guarded endpoints",
+        "tidal shelters",
+        "rescue landing"
+      ],
+      "risks": [
+        "tides",
+        "evacuation",
+        "unverified historic competition before 2022"
+      ],
+      "name": "Causeway Trial",
+      "usage_years": [
+        2022,
+        2025
+      ],
+      "first_proposed_appearance": 2022,
+      "historic_fixture_ids": [
+        "HIST-POST-2022-QF-1",
+        "HIST-POST-2025-QF-1"
+      ],
+      "fixtures_count": 2,
+      "source_class": "FICTIONAL_VENUE_ALLOCATION_FROM_PROPOSAL"
+    }
+  ],
+  "annual": [
+    {
+      "year": 2015,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-OLD-RING",
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2015; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2016,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-OLD-RING",
+        "CAND-POST-VETERANS-YARD",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2016; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2017,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2017; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2018,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-OLD-RING",
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2018; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2019,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2019; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2020,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2020; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2021,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-OLD-RING",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2021; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2022,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-CAUSEWAY",
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-VETERANS-YARD",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2022; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2023,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2023; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2024,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-GROVE",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2024; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    },
+    {
+      "year": 2025,
+      "status": "PROPOSED_NONCANON",
+      "active_venue_ids": [
+        "CAND-POST-CAUSEWAY",
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "championship_site_id": "CAND-POST-LAST-FIELD",
+      "closed_outside_postseason": true,
+      "mandatory_ops": [
+        "maritime_access",
+        "spectator_safety",
+        "contender_housing",
+        "central_score_certification",
+        "beach_capacity",
+        "seasonal_shutdown"
+      ],
+      "sociohistorical_state": "Historic edition 2025; physical alterations require site-specific provenance; do not infer ancient venue use from current design."
+    }
+  ],
+  "island_districts": [
+    "protected_arrival_harbor",
+    "public_tailgate_common",
+    "contenders_quarter",
+    "seasonal_losers_beach",
+    "champions_walk",
+    "farrell_memorial",
+    "arena_network",
+    "the_last_field",
+    "media_herald_court",
+    "maintenance_service"
+  ],
+  "blocked_promotion": [
+    "championship_existing_Central_Basin_location_conflict",
+    "island_coordinates_routes_undetermined",
+    "historical_human_owners_unverified",
+    "farrell_trophy_naming_date_unverified"
+  ]
+}
