@@ -102,7 +102,7 @@ Each event needs an 8-beat preproduction contract before artwork; the short stag
 | QF | **Red Leopards** def. The LLC, 146.30–95.96 | Iron Quarry | Red's defensive control trial forces LLC away from the final gate. |
 | SF | **The King** def. El Niño, 226.28–166.04 | Crown Stair | The bye-rested top seed makes a forceful multi-stage ascent and claims the upper standard. |
 | SF | **ObiWan Jacoby** def. Red Leopards, 185.54–177.78 | Grove of Standards | A narrow two-front relay/capture sequence; ObiWan takes the final neutral banner. |
-| F | **ObiWan Jacoby** def. The King, 187.52–161.68 | THE LAST FIELD | The Trade Jedi uses measured counters and retinue coordination to complete the final objective. |
+| F | **ObiWan Jacoby** def. The King, 187.52–161.68 | THE LAST FIELD | ObiWan's fictional side wins through measured counterplay and coordinated action; exact 2024 character styling remains subject to historical-canon review. |
 
 ## 2025
 
