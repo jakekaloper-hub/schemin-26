@@ -32,6 +32,7 @@ test('existing Chili pit smoke is source-exact, isolated, and has no additional 
  const smoke=chili.group.children.filter(x=>x.name==='Authored pit smoke');
  assert.equal(smoke.length,2);
  assert.equal(smoke[0].material,smoke[1].material);
+ assert.ok(Math.abs(smoke[1].rotation.y-smoke[0].rotation.y-Math.PI/2)<1e-12,'the two original crossed smoke faces remain orthogonal');
  assert.ok(smoke.every(x=>x.geometry.type==='PlaneGeometry'&&x.geometry.getAttribute('position').count===4));
  assert.ok(a.locations.filter(x=>x!==chili).every(x=>!x.group.children.some(o=>o.name==='Authored pit smoke')));
  assert.equal(a.locations.length,20);assert.equal(a.water.length,4);
