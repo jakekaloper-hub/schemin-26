@@ -18,6 +18,9 @@ const cards=read('INKLINGS_2015_2025_COMPILED_PRODUCTION_CARDS.proposal.json');
 const sites=read('ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json');
 const topology=read('ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json');
 const contract=read('POSTSEASON_2026_ISLAND_EVENT_CONTRACT.proposal.json');
+const finales=read('INKLINGS_ELEVEN_CHAMPIONSHIP_FINALE_SCRIPTS_V1.proposal.json');
+assert.equal(finales.scenes.length,11,'Eleven authored championship scripts required');
+assert.ok(finales.scenes.every(x=>{const f=cards.cards.find(c=>c.season===x.year&&c.round==='FINAL');return f && f.verified.winner_slot===x.verified.winner_slot && f.verified.home.points===x.verified.home.points && f.verified.away.points===x.verified.away.points;}),'Finale prose/source mismatch');
 assert.equal(cards.cards.length,56,'Must have every historical title-path fixture');
 assert.equal(cards.annual.length,11,'Must have eleven complete historical seasons');
 assert.equal(cards.cards.reduce((n,c)=>n+c.beat_sequence.length,0),168);
@@ -34,7 +37,7 @@ assert.deepEqual(years,Array.from({length:11},(_,i)=>2015+i));
 const data={schema:'schemin.championship-island-static-exhibit.v1',
   editorial_state:'NONCANON_PRODUCTION_PREVIEW_NOT_ATLAS',
   source_pins:{fact:'ESPN_FLAIM_LEAGUE_1457621_HISTORY',place:'FOUNDER_V2_PROPOSED',release:'BLOCKED_INDEPENDENT_UMPIRE_AND_ATLAS'},
-  cardsAnnual:cards.annual,cards:cards.cards,sites,topology};
+  cardsAnnual:cards.annual,cards:cards.cards,sites,topology,finales:finales.scenes};
 const template=fs.readFileSync(path.join(dir,'index.template.html'),'utf8');
 assert.equal(template.split('__ISLAND_DATA__').length,2,'Expected exactly one data slot');
 const json=JSON.stringify(data).replace(/</g,'\\u003c').replace(/>/g,'\\u003e').replace(/&/g,'\\u0026').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');

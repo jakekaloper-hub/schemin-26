@@ -19,6 +19,7 @@ main{max-width:1500px;margin:auto}.section{padding:65px clamp(18px,4vw,54px);bor
 .year-main{display:grid;gap:14px}.year-hero{padding:28px 30px;display:grid;grid-template-columns:1.6fr 1fr;gap:20px}.year-hero h3{font:37px Georgia,serif;margin:12px 0}.year-hero .champion{color:var(--gold);font:25px Georgia,serif}.year-hero p{color:var(--muted);margin:10px 0}.year-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.minor-stat{border:1px solid #3c504d;border-radius:8px;padding:16px}.minor-stat strong{display:block;font:26px Georgia,serif;color:var(--cream)}.minor-stat span{font-size:11px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
 .round-section{padding:20px 25px}.round-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px}.round-title h4{margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.14em;color:var(--gold)}.round-title span{color:var(--muted);font-size:12px}.fixtures{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px}.fixture{border:1px solid #425653;background:#202f31;border-radius:7px;color:var(--cream);padding:16px;text-align:left;transition:border-color .1s}.fixture:hover,.fixture:focus{border-color:var(--gold)}.fixture .arena{font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}.side{display:flex;justify-content:space-between;gap:10px;margin:7px 0;font-size:13px}.side.win{font-weight:750;color:#f4e5be}.side b{font-variant-numeric:tabular-nums}.fixtures .fixture small{display:block;color:var(--muted);margin-top:12px}
 .scene-panel{padding:28px}.scene-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}.scene-header h3{font:29px Georgia,serif;margin:8px 0 18px}.stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.stage{padding:16px;border:1px solid #3b514f;background:#15282b;border-radius:7px}.stage .number{display:block;font:27px Georgia,serif;color:var(--gold)}.stage strong{display:block;text-transform:uppercase;letter-spacing:.09em;font-size:11px;margin:8px 0;color:var(--cream)}.stage p{color:#bfcdca;font-size:13px}.scene-summary{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:17px;margin-top:20px}
+.finale-panel{padding:30px 32px;border-color:#73654b}.finale-panel h3{font:36px Georgia,serif;margin:12px 0 5px}.finale-panel .theme{color:var(--gold);font-size:12px;letter-spacing:.08em}.finale-prose{max-width:850px}.finale-prose p{font:16px/1.85 Georgia,serif;color:#d8d8ca;margin:19px 0}.finale-foot{padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.finale-foot strong{color:var(--gold)}
 .venue-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.venue{padding:23px;min-height:205px;display:flex;flex-direction:column;gap:12px}.venue h3{margin:0;font:26px Georgia,serif}.venue .use{font-size:11px;letter-spacing:.1em;color:var(--gold);text-transform:uppercase}.venue p{color:var(--muted);font-size:13px;margin:0}.venue .small{margin-top:auto;color:#8fa9a5;font-size:12px}.venue.highlight{border-color:var(--gold)}
 .beach-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:15px}.beach-hero{padding:32px;min-height:310px;background:linear-gradient(155deg,#36392c,#172c30 72%)}.beach-hero h3{font:38px Georgia,serif;margin:15px 0}.beach-hero p{font-size:16px;color:#c8d4cc}.beach-aside{padding:30px}.beach-aside h3{font:27px Georgia,serif;margin:8px 0 15px}.beach-aside p{color:var(--muted)}.beach-progression{display:grid;grid-template-columns:repeat(4,1fr);margin-top:25px;gap:8px}.beach-progression div{background:#172727;border:1px solid #49615b;border-radius:6px;padding:12px}.beach-progression strong{font:26px Georgia,serif;display:block;color:var(--gold)}.beach-progression span{font-size:10px;color:var(--muted);text-transform:uppercase}
 .memorial{display:grid;grid-template-columns:1.1fr 1fr;gap:16px}.memorial .intro{padding:32px}.memorial .intro h3{font:37px Georgia,serif;margin:12px 0}.memorial .intro p{color:var(--muted)}.roll{padding:27px}.champ-list{display:grid;gap:8px;margin-top:22px}.champ-row{display:flex;gap:16px;padding:8px 0;border-bottom:1px solid #324644}.champ-row .year{color:var(--gold);font-variant-numeric:tabular-nums;font-size:12px;width:42px;flex-shrink:0}.champ-row .winner{font-size:13px}
@@ -136,7 +137,7 @@ var grid=push(sect,el('div','fixtures'));
 matches.forEach(function(c){var b=push(grid,el('button','fixture'));b.type='button';b.setAttribute('aria-label','Inspect '+c.verified.home.name+' versus '+c.verified.away.name);
 push(b,el('div','arena',c.venue.name));[c.verified.home,c.verified.away].forEach(function(side){var line=push(b,el('div','side'+(side.team_slot===c.verified.winner_slot?' win':'')));push(line,el('span','',side.name));push(line,el('b','',side.points.toFixed(2)));});push(b,el('small','', 'VIEW THREE-STAGE ENCOUNTER'));b.addEventListener('click',function(){selectedFixture=c;renderSelectedScene(main);});});
 });
-selectedFixture=selectedFixture||byYear[selectedYear][0];renderSelectedScene(main);
+selectedFixture=selectedFixture||byYear[selectedYear][0];renderSelectedScene(main);renderFinale(main);
 }
 function renderSelectedScene(main){
 var old=main.querySelector('.scene-panel');if(old)old.remove();if(!selectedFixture)return;
@@ -145,6 +146,19 @@ var head=push(d,el('div','scene-header'));push(head,el('div','eyebrow',c.round+'
 push(d,el('h3','',c.verified.home.name+' vs '+c.verified.away.name));
 var grid=push(d,el('div','stage-grid'));c.beat_sequence.forEach(function(st){var card=push(grid,el('div','stage'));push(card,el('span','number','0'+st.n));push(card,el('strong','',st.label.replaceAll('_',' ')));push(card,el('p','',st.action));});
 var foot=push(d,el('div','scene-summary'));push(foot,el('strong','', 'Official survivor: '+winners(c).name+'. '));push(foot,document.createTextNode(c.storyroom.camp_effect+' These physical scenes are literary proposals, not historical ESPN event photography.'));
+}
+function renderFinale(main){
+var scene=data.finales.find(function(x){return x.year===selectedYear;});if(!scene)return;
+var article=push(main,el('article','panel finale-panel'));article.setAttribute('aria-label','Original annual championship finale treatment');
+push(article,el('div','eyebrow','Inklings / annual Last Field scene / original fiction'));
+push(article,el('h3','',scene.title));
+push(article,el('div','theme',scene.angle));
+var prose=push(article,el('div','finale-prose'));
+scene.prose.forEach(function(p){push(prose,el('p','',p));});
+var foot=push(article,el('div','finale-foot'));
+push(foot,el('strong','', 'Broadcast: '));push(foot,document.createTextNode(scene.broadcast));
+push(foot,el('p','', 'Beach consequence: '+scene.beach));
+push(foot,el('p','', 'Historical scores are verified. Physical actions, island atmosphere, and fictional commentary are proposed literary treatments, not documentary facts.'));
 }
 function renderVenues(){
 var target=document.getElementById('venue-list');clear(target);
