@@ -154,7 +154,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float grazingGain=.035+.21*pow(1.-viewIncidence,2.);
       contactTint=mix(contactTint,vec3(.31,.41,.37),grazingGain);
       // Existing moving surface now contributes restrained geometry-derived light.
-      // This is local wetland relief, not weather, water topology or a light source.
+      // Local relief does not interpret source climate, topology or light authority.
       // Use world-space derivatives of the *displaced* vertices; sign-independent
       // orientation also handles two-sided water and varying camera handedness.
       vec3 wetlandFace=cross(dFdx(vWorld),dFdy(vWorld));
