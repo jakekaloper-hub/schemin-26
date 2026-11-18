@@ -1,0 +1,460 @@
+{
+  "schema": "schemin.ffhub_future_forks.summary.v1",
+  "captured_utc": "2026-11-18T17:04:43.654Z",
+  "completed_utc": "2026-11-18T17:05:07.191Z",
+  "league_id": 1417621,
+  "through_week": 10,
+  "simulations": 10000,
+  "game_count": 10,
+  "run_count": 20,
+  "cases": [
+    {
+      "week": 12,
+      "tag": "BURGERS_DK_OBI",
+      "a": "D0nkey K0ng",
+      "b": "ObiWan Jacoby",
+      "when_a_wins": {
+        "a": 99.48,
+        "b": 16.03
+      },
+      "when_b_wins": {
+        "a": 86,
+        "b": 51.36
+      },
+      "a_leverage_pp": 13.48,
+      "b_leverage_pp": 35.33,
+      "full_league_a": {
+        "D0nkey K0ng": 99.48,
+        "Slob on my Dobb": 98.77,
+        "His Majesty's Blood": 88.82,
+        "El Niño": 88.36,
+        "Dr. Duckhook": 87.15,
+        "Seven Deadly Chins": 82.64,
+        "Red Leopards": 52.8,
+        "The Chili Cheesers": 39.99,
+        "The LLC": 34.85,
+        "ObiWan Jacoby": 16.03,
+        "Three Dreaded Snake": 11.1,
+        "Mud Dogs": 0.01
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.35,
+        "Dr. Duckhook": 87.52,
+        "El Niño": 86.69,
+        "His Majesty's Blood": 86.04,
+        "D0nkey K0ng": 86,
+        "Seven Deadly Chins": 80.29,
+        "ObiWan Jacoby": 51.36,
+        "Red Leopards": 45.86,
+        "The Chili Cheesers": 36.24,
+        "The LLC": 32.23,
+        "Three Dreaded Snake": 9.4,
+        "Mud Dogs": 0.02
+      }
+    },
+    {
+      "week": 12,
+      "tag": "BURGERS_MUD_SNAKE",
+      "a": "Mud Dogs",
+      "b": "Three Dreaded Snake",
+      "when_a_wins": {
+        "a": 0.07,
+        "b": 2.94
+      },
+      "when_b_wins": {
+        "a": 0,
+        "b": 13.83
+      },
+      "a_leverage_pp": 0.07,
+      "b_leverage_pp": 10.89,
+      "full_league_a": {
+        "Slob on my Dobb": 98.52,
+        "D0nkey K0ng": 93.09,
+        "El Niño": 87.67,
+        "His Majesty's Blood": 87.47,
+        "Dr. Duckhook": 87.31,
+        "Seven Deadly Chins": 82.45,
+        "Red Leopards": 52.38,
+        "The Chili Cheesers": 40.25,
+        "The LLC": 35.07,
+        "ObiWan Jacoby": 32.78,
+        "Three Dreaded Snake": 2.94,
+        "Mud Dogs": 0.07
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.45,
+        "D0nkey K0ng": 92.72,
+        "His Majesty's Blood": 87.57,
+        "Dr. Duckhook": 87.2,
+        "El Niño": 86.67,
+        "Seven Deadly Chins": 81.05,
+        "Red Leopards": 49.23,
+        "The Chili Cheesers": 38.66,
+        "The LLC": 32.73,
+        "ObiWan Jacoby": 31.89,
+        "Three Dreaded Snake": 13.83,
+        "Mud Dogs": 0
+      }
+    },
+    {
+      "week": 12,
+      "tag": "WINGS_RED_DUCK",
+      "a": "Red Leopards",
+      "b": "Dr. Duckhook",
+      "when_a_wins": {
+        "a": 71.37,
+        "b": 76.84
+      },
+      "when_b_wins": {
+        "a": 34.34,
+        "b": 97.01
+      },
+      "a_leverage_pp": 37.03,
+      "b_leverage_pp": 20.17,
+      "full_league_a": {
+        "Slob on my Dobb": 98.48,
+        "D0nkey K0ng": 92.21,
+        "His Majesty's Blood": 86.8,
+        "El Niño": 86.16,
+        "Seven Deadly Chins": 80.01,
+        "Dr. Duckhook": 76.84,
+        "Red Leopards": 71.37,
+        "The Chili Cheesers": 37.19,
+        "The LLC": 31.89,
+        "ObiWan Jacoby": 29.55,
+        "Three Dreaded Snake": 9.49,
+        "Mud Dogs": 0.01
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.89,
+        "Dr. Duckhook": 97.01,
+        "D0nkey K0ng": 93.51,
+        "El Niño": 88.11,
+        "His Majesty's Blood": 87.62,
+        "Seven Deadly Chins": 83.73,
+        "The Chili Cheesers": 38.87,
+        "Red Leopards": 34.34,
+        "The LLC": 34.33,
+        "ObiWan Jacoby": 33.37,
+        "Three Dreaded Snake": 10.19,
+        "Mud Dogs": 0.03
+      }
+    },
+    {
+      "week": 12,
+      "tag": "PIZZA_NINO_CHINS",
+      "a": "El Niño",
+      "b": "Seven Deadly Chins",
+      "when_a_wins": {
+        "a": 96.37,
+        "b": 72.8
+      },
+      "when_b_wins": {
+        "a": 74.54,
+        "b": 96.37
+      },
+      "a_leverage_pp": 21.83,
+      "b_leverage_pp": 23.57,
+      "full_league_a": {
+        "Slob on my Dobb": 98.66,
+        "El Niño": 96.37,
+        "D0nkey K0ng": 92.42,
+        "His Majesty's Blood": 88.3,
+        "Dr. Duckhook": 87.42,
+        "Seven Deadly Chins": 72.8,
+        "Red Leopards": 51.98,
+        "The Chili Cheesers": 36.95,
+        "The LLC": 33.82,
+        "ObiWan Jacoby": 32.47,
+        "Three Dreaded Snake": 8.81,
+        "Mud Dogs": 0
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.53,
+        "Seven Deadly Chins": 96.37,
+        "D0nkey K0ng": 93.09,
+        "His Majesty's Blood": 86.28,
+        "Dr. Duckhook": 86.16,
+        "El Niño": 74.54,
+        "Red Leopards": 48.28,
+        "The Chili Cheesers": 39.86,
+        "ObiWan Jacoby": 33.06,
+        "The LLC": 32.84,
+        "Three Dreaded Snake": 10.95,
+        "Mud Dogs": 0.04
+      }
+    },
+    {
+      "week": 13,
+      "tag": "BURGERS_SNAKE_DK",
+      "a": "Three Dreaded Snake",
+      "b": "D0nkey K0ng",
+      "when_a_wins": {
+        "a": 19.25,
+        "b": 84.96
+      },
+      "when_b_wins": {
+        "a": 4.93,
+        "b": 97.96
+      },
+      "a_leverage_pp": 14.32,
+      "b_leverage_pp": 13,
+      "full_league_a": {
+        "Slob on my Dobb": 98.58,
+        "His Majesty's Blood": 88.14,
+        "Dr. Duckhook": 87.77,
+        "El Niño": 85.77,
+        "D0nkey K0ng": 84.96,
+        "Seven Deadly Chins": 80.47,
+        "Red Leopards": 49.65,
+        "ObiWan Jacoby": 36.34,
+        "The Chili Cheesers": 36.26,
+        "The LLC": 32.74,
+        "Three Dreaded Snake": 19.25,
+        "Mud Dogs": 0.07
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.87,
+        "D0nkey K0ng": 97.96,
+        "His Majesty's Blood": 88.1,
+        "El Niño": 87.24,
+        "Dr. Duckhook": 87.22,
+        "Seven Deadly Chins": 81.98,
+        "Red Leopards": 50.55,
+        "The Chili Cheesers": 39.59,
+        "The LLC": 34.51,
+        "ObiWan Jacoby": 29.05,
+        "Three Dreaded Snake": 4.93,
+        "Mud Dogs": 0
+      }
+    },
+    {
+      "week": 13,
+      "tag": "WINGS_CHILI_RED",
+      "a": "The Chili Cheesers",
+      "b": "Red Leopards",
+      "when_a_wins": {
+        "a": 57.36,
+        "b": 30.71
+      },
+      "when_b_wins": {
+        "a": 21.57,
+        "b": 70.21
+      },
+      "a_leverage_pp": 35.79,
+      "b_leverage_pp": 39.5,
+      "full_league_a": {
+        "Slob on my Dobb": 98.43,
+        "D0nkey K0ng": 92.92,
+        "His Majesty's Blood": 87.87,
+        "Dr. Duckhook": 87.15,
+        "El Niño": 86.09,
+        "Seven Deadly Chins": 82.75,
+        "The Chili Cheesers": 57.36,
+        "The LLC": 34.01,
+        "ObiWan Jacoby": 32.56,
+        "Red Leopards": 30.71,
+        "Three Dreaded Snake": 10.12,
+        "Mud Dogs": 0.03
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.89,
+        "D0nkey K0ng": 92.7,
+        "El Niño": 87.21,
+        "His Majesty's Blood": 87.17,
+        "Dr. Duckhook": 87.11,
+        "Seven Deadly Chins": 80.61,
+        "Red Leopards": 70.21,
+        "The LLC": 33.06,
+        "ObiWan Jacoby": 31.53,
+        "The Chili Cheesers": 21.57,
+        "Three Dreaded Snake": 9.93,
+        "Mud Dogs": 0.01
+      }
+    },
+    {
+      "week": 13,
+      "tag": "WINGS_SLOB_DUCK",
+      "a": "Slob on my Dobb",
+      "b": "Dr. Duckhook",
+      "when_a_wins": {
+        "a": 99.76,
+        "b": 84.03
+      },
+      "when_b_wins": {
+        "a": 95.95,
+        "b": 96.48
+      },
+      "a_leverage_pp": 3.81,
+      "b_leverage_pp": 12.45,
+      "full_league_a": {
+        "Slob on my Dobb": 99.76,
+        "D0nkey K0ng": 93.4,
+        "His Majesty's Blood": 88.3,
+        "El Niño": 87.3,
+        "Dr. Duckhook": 84.03,
+        "Seven Deadly Chins": 81.7,
+        "Red Leopards": 50.37,
+        "The Chili Cheesers": 38.77,
+        "The LLC": 34.1,
+        "ObiWan Jacoby": 32.2,
+        "Three Dreaded Snake": 10.04,
+        "Mud Dogs": 0.03
+      },
+      "full_league_b": {
+        "Dr. Duckhook": 96.48,
+        "Slob on my Dobb": 95.95,
+        "D0nkey K0ng": 92.32,
+        "El Niño": 86.98,
+        "His Majesty's Blood": 86.35,
+        "Seven Deadly Chins": 81.55,
+        "Red Leopards": 48.91,
+        "The Chili Cheesers": 36.77,
+        "The LLC": 32.67,
+        "ObiWan Jacoby": 32.56,
+        "Three Dreaded Snake": 9.45,
+        "Mud Dogs": 0.01
+      }
+    },
+    {
+      "week": 13,
+      "tag": "PIZZA_NINO_HMB",
+      "a": "El Niño",
+      "b": "His Majesty's Blood",
+      "when_a_wins": {
+        "a": 96.48,
+        "b": 80.29
+      },
+      "when_b_wins": {
+        "a": 78.95,
+        "b": 96.22
+      },
+      "a_leverage_pp": 17.53,
+      "b_leverage_pp": 15.93,
+      "full_league_a": {
+        "Slob on my Dobb": 98.46,
+        "El Niño": 96.48,
+        "D0nkey K0ng": 92.75,
+        "Dr. Duckhook": 86.07,
+        "Seven Deadly Chins": 81.62,
+        "His Majesty's Blood": 80.29,
+        "Red Leopards": 50.87,
+        "The Chili Cheesers": 38.4,
+        "The LLC": 33.27,
+        "ObiWan Jacoby": 32.35,
+        "Three Dreaded Snake": 9.43,
+        "Mud Dogs": 0.01
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.56,
+        "His Majesty's Blood": 96.22,
+        "D0nkey K0ng": 93.03,
+        "Dr. Duckhook": 88.02,
+        "Seven Deadly Chins": 82.31,
+        "El Niño": 78.95,
+        "Red Leopards": 48.88,
+        "The Chili Cheesers": 38.09,
+        "The LLC": 33.7,
+        "ObiWan Jacoby": 31.61,
+        "Three Dreaded Snake": 10.61,
+        "Mud Dogs": 0.02
+      }
+    },
+    {
+      "week": 14,
+      "tag": "BURGERS_MUD_DK",
+      "a": "Mud Dogs",
+      "b": "D0nkey K0ng",
+      "when_a_wins": {
+        "a": 0.13,
+        "b": 82.11
+      },
+      "when_b_wins": {
+        "a": 0,
+        "b": 95.93
+      },
+      "a_leverage_pp": 0.13,
+      "b_leverage_pp": 13.82,
+      "full_league_a": {
+        "Slob on my Dobb": 98.59,
+        "Dr. Duckhook": 87.96,
+        "His Majesty's Blood": 87.74,
+        "El Niño": 87.41,
+        "Seven Deadly Chins": 82.3,
+        "D0nkey K0ng": 82.11,
+        "Red Leopards": 51.69,
+        "The Chili Cheesers": 38.62,
+        "ObiWan Jacoby": 38.36,
+        "The LLC": 34.66,
+        "Three Dreaded Snake": 10.43,
+        "Mud Dogs": 0.13
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.68,
+        "D0nkey K0ng": 95.93,
+        "His Majesty's Blood": 87.49,
+        "El Niño": 87.37,
+        "Dr. Duckhook": 86.68,
+        "Seven Deadly Chins": 81.02,
+        "Red Leopards": 50.65,
+        "The Chili Cheesers": 37.79,
+        "The LLC": 33.98,
+        "ObiWan Jacoby": 31.23,
+        "Three Dreaded Snake": 9.18,
+        "Mud Dogs": 0
+      }
+    },
+    {
+      "week": 14,
+      "tag": "PIZZA_NINO_LLC",
+      "a": "El Niño",
+      "b": "The LLC",
+      "when_a_wins": {
+        "a": 97.17,
+        "b": 16.01
+      },
+      "when_b_wins": {
+        "a": 78.61,
+        "b": 51.9
+      },
+      "a_leverage_pp": 18.56,
+      "b_leverage_pp": 35.89,
+      "full_league_a": {
+        "Slob on my Dobb": 98.68,
+        "El Niño": 97.17,
+        "D0nkey K0ng": 93.3,
+        "His Majesty's Blood": 88.76,
+        "Dr. Duckhook": 87.96,
+        "Seven Deadly Chins": 84.91,
+        "Red Leopards": 51.83,
+        "The Chili Cheesers": 38.43,
+        "ObiWan Jacoby": 33.07,
+        "The LLC": 16.01,
+        "Three Dreaded Snake": 9.86,
+        "Mud Dogs": 0.02
+      },
+      "full_league_b": {
+        "Slob on my Dobb": 98.7,
+        "D0nkey K0ng": 92.74,
+        "His Majesty's Blood": 86.59,
+        "Dr. Duckhook": 86.54,
+        "El Niño": 78.61,
+        "Seven Deadly Chins": 77.93,
+        "The LLC": 51.9,
+        "Red Leopards": 48.7,
+        "The Chili Cheesers": 38.43,
+        "ObiWan Jacoby": 30.25,
+        "Three Dreaded Snake": 9.61,
+        "Mud Dogs": 0
+      }
+    }
+  ],
+  "model_cautions": [
+    "No lineup/player projections incorporated",
+    "Random simulation drift makes small differences unreliable",
+    "FFHub odds do not establish clinch or elimination",
+    "All unselected games continue to be simulated"
+  ],
+  "source_raw_private_sha256": "ccadd5dd46d9080539aca1e15a9b8c26afb3ae1ec305ed0023838902dbb17c80",
+  "source_raw_local_path": "Documents/Schemin-26/Road-to-Seven/evidence-2026-11-18/ffhub-week12-14-future-forks.json"
+}
