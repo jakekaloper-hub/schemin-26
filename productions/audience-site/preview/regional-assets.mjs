@@ -22,8 +22,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))},uIslandSiteCount:{value:0},uIslandSites:{value:Array.from({length:4},()=>new THREE.Vector4(0,0,0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
           if(uFall>.5){
@@ -53,6 +53,21 @@ export function buildRegionalAssets(THREE, bindings, height) {
                 rootRelief=max(rootRelief,rootPulse*rootFade);
               }
               p.z+=.006*rootRelief*shoreHold;
+            }
+            // Four inherited raised-ground banks disturb only adjacent existing water.
+            // The footprint and island centers come directly from the local relief mesh.
+            if(uIslandSiteCount>.5){
+              float islandLap=0.;
+              for(int i=0;i<4;i++){
+                if(float(i)>=uIslandSiteCount)break;
+                vec2 delta=(uv-uIslandSites[i].xy)/max(uIslandSites[i].zw,vec2(.00001));
+                float islandRadius=length(delta);
+                float contactBand=smoothstep(.86,.97,islandRadius)
+                  *(1.-smoothstep(1.04,1.22,islandRadius));
+                float lapPhase=islandRadius*24.-uTime*1.85+atan(delta.y,delta.x)*2.;
+                islandLap=max(islandLap,contactBand*pow(max(sin(lapPhase),0.),4.));
+              }
+              p.z+=.007*islandLap*shoreHold;
             }
           }
           if(uRiver>.5){
@@ -86,7 +101,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
+      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
         stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);
         float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);
         // The EXISTING physically displaced sheet now shades from its real screen-space
@@ -152,6 +167,21 @@ export function buildRegionalAssets(THREE, bindings, height) {
       }
       vec3 padContactSheen=vec3(.10,.14,.11)*(padContactWake*.42*bankFade);
       vec3 rootSheen=vec3(.13,.17,.13)*(rootWake*.68*bankFade);
+      // Match the same four local raised-ground margins and vertex wave phases.
+      // This modest animated contact light never creates a new shoreline.
+      float islandLap=0.;
+      if(uIslandSiteCount>.5){
+        for(int i=0;i<4;i++){
+          if(float(i)>=uIslandSiteCount)break;
+          vec2 delta=(vUv-uIslandSites[i].xy)/max(uIslandSites[i].zw,vec2(.00001));
+          float islandRadius=length(delta);
+          float contactBand=smoothstep(.86,.97,islandRadius)
+            *(1.-smoothstep(1.04,1.22,islandRadius));
+          float lapPhase=islandRadius*24.-uTime*1.85+atan(delta.y,delta.x)*2.;
+          islandLap=max(islandLap,contactBand*pow(max(sin(lapPhase),0.),4.));
+        }
+      }
+      vec3 islandSheen=vec3(.095,.13,.10)*(islandLap*.30*bankFade);
       // Candidate moving channel-only glints, aligned to the EXISTING illustrative
       // flow vector. Water footprint, shoreline and topology remain unchanged.
       float channelRibbons=0.;
@@ -202,7 +232,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float reliefSlope=clamp((1.-clamp(abs(wetlandNormal.y),0.,1.))*14.,0.,.42);
       float reliefFacing=clamp(abs(dot(wetlandNormal,normalize(vec3(.30,.91,.27)))),0.,1.);
       vec3 reliefLight=vec3(.10,.15,.12)*reliefSlope*(.4+.6*reliefFacing)*bankFade;
-      contactTint+=reliefLight+padContactSheen;
+      contactTint+=reliefLight+padContactSheen+islandSheen;
       gl_FragColor=vec4(contactTint+lowSheen+quietEddy+rootSheen+contactLight+channelSheen,.92);
       }else if(uRiver>.5){
        // Broken light on the EXISTING upstream sheet, not a flow/topology record.
@@ -767,6 +797,11 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const swampSurface=water.find(w=>w.kind==='swamp');
     swampSurface.material.uniforms.uRootSiteCount.value=rootWakeSites.length;
     swampSurface.material.uniforms.uRootSites.value=rootWakeSites;
+    // Same four relief ellipses, projected through the existing rotated water disk.
+    // Only this source-defined Mud Dogs candidate has island-contact wave sites.
+    swampSurface.material.uniforms.uIslandSiteCount.value=islands.length;
+    swampSurface.material.uniforms.uIslandSites.value=islands.map(([x,,z,sx,,sz])=>
+      new THREE.Vector4(.5+x/21,.5-z/16.4,sx*.955/21,sz*.955/16.4));
     swampSurface.material.uniforms.uPadSiteCount.value=floatingFoliageSites.length;
     floatingContactSites=swampSurface.material.uniforms.uPadSites.value;
     syncFloatingContactSites(0);
