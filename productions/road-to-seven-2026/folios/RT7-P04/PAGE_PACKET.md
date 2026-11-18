@@ -36,7 +36,7 @@ The quiet exactitude of the Country Club of Jackson against the disorderly Chins
 
 **On-image typed copy:**
 - `DR. DUCKHOOK` · Official seed **#5** · Week 10 **6–4**
-- `PLAYOFF OUTLOOK 87.5% (FFHUB, NOV 18)` · `WIN W11 96.4%` · `LOSE W11 78.9%`
+- `PLAYOFF OUTLOOK 87.6% (FFHUB, NOV 18)` · `WIN W11 96.4%` · `LOSE W11 78.9%`
 - Editorial hook: *Precision must now survive the division.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
