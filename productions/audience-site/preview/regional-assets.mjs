@@ -94,6 +94,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
       // Local wavelets respond to five pre-existing illustrated tree stands.
       // Their size and phase remain scenic candidates; no extra water surface or flow.
       float rootWake=0.;
+      // Five already illustrated root/stand anchors also project broken, subtle
+      // canopy-tone patches onto the EXISTING swamp disc. Water-fragmented shade
+      // is only scenic rendering; it is not measured light, wind or new ecology.
+      float canopyShade=0.;
       for(int i=0;i<5;i++){
         if(float(i)>=uRootSiteCount)break;
         vec2 delta=(vUv-uRootSites[i])*vec2(21.,16.4);
@@ -101,6 +105,11 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float wakeFade=1.-smoothstep(.55,3.25,rootDistance);
         float wakeCrest=pow(max(sin(rootDistance*7.1-uTime*1.6),0.),6.);
         rootWake=max(rootWake,wakeFade*wakeCrest);
+        // The channel has no stand anchors; only the Mud Dogs swamp is affected.
+        float canopyFade=1.-smoothstep(1.05,2.50,rootDistance);
+        float wateryBreakup=.5+.5*sin(delta.x*3.8-uTime*.27)
+                           *sin(delta.y*4.4+uTime*.21);
+        canopyShade=max(canopyShade,canopyFade*(.66+.34*wateryBreakup));
       }
       float bankFade=1.-smoothstep(.78,.99,length((vUv-vec2(.5))*2.));
       vec3 rootSheen=vec3(.13,.17,.13)*(rootWake*.68*bankFade);
@@ -133,6 +142,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float bankShelf=smoothstep(.79,.95,bankRadius)
                       *(1.-smoothstep(.965,1.,bankRadius));
       vec3 contactTint=waterTint*(1.-.055*bankShelf*uBankContact);
+      // A shallow, bounded shadow-tone variation from EXISTING tree positions.
+      // Keep the old water footprint and root-wake/perimeter masks unchanged.
+      contactTint*=1.-.072*canopyShade*bankFade;
       vec3 contactLight=vec3(.09,.12,.073)*bankCrest*bankBreakup*bankMask*uBankContact;
       // Illustrative surface reflectance grows at grazing view angles.
       // Camera-facing tint affects only the EXISTING wetland material branch;
