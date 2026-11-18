@@ -87,7 +87,7 @@ FACT: seven entrants, El Niño seed 1 bye, semis and final.
 - CHAMPIONSHIP: Eggs Benedict (12) 192.88 def. Arm Chair GM (11) 140.76.
 FICTIONAL SCENE TREATMENT: Opening round: controlled hunt, timed multi-team tactical course and monumental arena strategy trial. Semifinals gather increasingly enormous crowd attention; reigning champion's best regular-season record is no protection. Eggs Benedict's exceptionally strong 214.52 semifinal inspires a dominant but tightly regulated field-control portrayal, not a superhuman canon upgrade. The Last Field receives another low-seed champion. Veteran quarter records are etched but no false assumption that historical Team 12 always had one real human owner.
 
-### 2024 — The Trade Jedi wins a first verified title
+### 2024 — ObiWan Jacoby wins the verified title
 FACT: seven entrants, The King seed 1 bye, three W15 opening matches, two semis, final.
 - Opening: El Niño (9) 175.60 def. Slob on my Dobb (3) 137.82.
 - Opening: ObiWan Jacoby (1) 235.16 def. Dr. Duckhook (12) 227.24.
