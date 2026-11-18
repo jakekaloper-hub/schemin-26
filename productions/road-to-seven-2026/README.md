@@ -17,6 +17,8 @@
 
 ## Governing sources and workstreams
 - [Original FFHub research recovery and verification](SOURCE_RECOVERY_AND_SCENARIO_QA.md)
+- [Bullpen Core routing and counterweight receipt](BULLPEN_ROUTING_AND_COUNTERWEIGHT_RECEIPT.md)
+- [Reproducible FFHub packet validator](tools/verify_ffhub_packet.py) — run locally against protected JSON; do not commit raw input
 - [Founder's five decisions + domain execution command](BULLPEN_MASTER_EXECUTION_DIRECTIVE.md)
 - [Prior storyboard and Inklings scene outline](INKLINGS_STORYBOARD_CANDIDATE.md)
 - [Twelve source-grounded dossier summaries](W10_TWELVE_TEAM_DOSSIERS.md)
