@@ -730,8 +730,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
     }
     // A small, bounded shader field is anchored to the EXISTING illustrated stands,
     // not to an invented location, route or new moving water geometry.
+    // The -PI/2 water plane rotation reverses world Z along texture V. Keep
+    // wake and canopy-shadow sites on their original tree stands, not mirrored.
     const rootWakeSites=illustratedTreeStands.filter((_,i)=>i%3===0)
-      .map(([x,z])=>new THREE.Vector2(.5+x/21,.5+z/16.4));
+      .map(([x,z])=>new THREE.Vector2(.5+x/21,.5-z/16.4));
     const swampSurface=water.find(w=>w.kind==='swamp');
     swampSurface.material.uniforms.uRootSiteCount.value=rootWakeSites.length;
     swampSurface.material.uniforms.uRootSites.value=rootWakeSites;

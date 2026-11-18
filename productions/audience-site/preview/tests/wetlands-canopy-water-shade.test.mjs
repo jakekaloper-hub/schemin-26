@@ -22,7 +22,7 @@ test('existing Mud Dogs tree stations, not invented canopy locations, drive five
   assert.equal(sites.length,5);
   for(let i=0;i<5;i++){
     assert.ok(Math.abs(sites[i].x-(.5+trunks[i*3].position.x/21))<1e-6);
-    assert.ok(Math.abs(sites[i].y-(.5+trunks[i*3].position.z/16.4))<1e-6);
+    assert.ok(Math.abs(sites[i].y-(.5-trunks[i*3].position.z/16.4))<1e-6);
   }
   assert.equal(swamp.mesh.geometry.getAttribute('position').count,385);
   assert.equal(swamp.mesh.geometry.getIndex().count,2160);
