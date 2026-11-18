@@ -34,7 +34,14 @@ test('existing Chili pit smoke is source-exact, isolated, and has no additional 
  assert.equal(smoke[0].material,smoke[1].material);
  assert.ok(Math.abs(smoke[1].rotation.y-smoke[0].rotation.y-Math.PI/2)<1e-12,'the two original crossed smoke faces remain orthogonal');
  assert.ok(smoke.every(x=>x.geometry.type==='PlaneGeometry'&&x.geometry.getAttribute('position').count===4));
- assert.ok(a.locations.filter(x=>x!==chili).every(x=>!x.group.children.some(o=>o.name==='Authored pit smoke')));
+ const chins=a.locations.find(x=>x.id==='LOC-CHINS-ROAD-COMMONS');
+ assert.ok(chins&&source.locations.find(x=>x.id==='LOC-CHINS-ROAD-COMMONS').persistent_landmarks.includes('BBQ yard'));
+ const bbqSmoke=chins.group.children.filter(x=>x.name==='Authored pit smoke');
+ assert.equal(bbqSmoke.length,2,'source-existing BBQ smoke is retained');
+ assert.notEqual(smoke[0].material,bbqSmoke[0].material);
+ assert.ok(bbqSmoke[0].material.fragmentShader.includes('float x=vUv.x-.5-sin(vUv.y*8.-uTime*.65)*.08;'),'BBQ shader unchanged');
+ assert.ok(!bbqSmoke[0].material.fragmentShader.includes('float noise(vec2 p)'),'new smoke treatment is Chili-only');
+ assert.ok(a.locations.filter(x=>x!==chili&&x!==chins).every(x=>!x.group.children.some(o=>o.name==='Authored pit smoke')));
  assert.equal(a.locations.length,20);assert.equal(a.water.length,4);
  assert.equal(a.worldMutationAllowed,false);assert.equal(a.weatherMutationAllowed,false);
  assert.deepEqual(a.principalCharacters,[]);assert.equal(JSON.stringify(bindings),original);a.dispose();
