@@ -36,7 +36,7 @@ Red's jagged jungle ruins and predator banners versus Chili's western stables. T
 
 **On-image typed copy:**
 - `RED LEOPARDS` · Official seed **#7** · Week 10 **5–5**
-- `PLAYOFF OUTLOOK 50.4% (FFHUB, NOV 17)` · `WIN W11 64.2%` · `LOSE W11 27.6%`
+- `PLAYOFF OUTLOOK 50.1% (FFHUB, NOV 18)` · `WIN W11 64.8%` · `LOSE W11 27.2%`
 - Editorial hook: *A gate held by one result can be lost by the next.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -68,7 +68,7 @@ Red's jagged jungle ruins and predator banners versus Chili's western stables. T
 
 **On-image typed copy:**
 - `THE CHILI CHEESERS` · Official seed **#8** · Week 10 **5–5**
-- `PLAYOFF OUTLOOK 38.1% (FFHUB, NOV 17)` · `WIN W11 58.2%` · `LOSE W11 21.1%`
+- `PLAYOFF OUTLOOK 38.2% (FFHUB, NOV 18)` · `WIN W11 58.8%` · `LOSE W11 20.7%`
 - Editorial hook: *The border is one step away.*
 - Verified survival line: ALIVE · NOT CLINCHED · STILL A ROUTE AFTER A LOSS
 
@@ -120,3 +120,7 @@ Evidence: [full Nov 18 source report](../../evidence/FFHUB_LIVE_REVALIDATION_202
 **On-image selection:** the line “SEVENTH TODAY. NOT FOREVER.”, the two official 5–5 records and seed numbers, dated FFHub estimates, and one clear future note “W13: CHILI vs RED”. Maintain visual parity; all player details stay in backstage evidence.
 
 **Source binding:** [Live FFHub](../../evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md), [future forks](../../evidence/FFHUB_FUTURE_FORKS_2026-11-18.md), [Flaim](../../evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md), [availability](../../evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md), [NFL](../../evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md). **Status:** integrated editorial candidate; image and independent review pending.
+
+## Publication copy lock — November 18 FFHub cohort
+
+**Authoritative for subsequent illustration lettering:** FFHub Nov 18 source capture in `../../evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json`. The original November 17 figures in the analytic sections are preserved as an explicitly archival separate simulation cohort, and cannot silently enter final image copy. This folio’s selected on-image odds above are sourced to the November 18 cohort. Mathematical clinch/elimination text must still use independently verified source proofs, not rounded vendor percentages. Layout and typo QA are still open.
