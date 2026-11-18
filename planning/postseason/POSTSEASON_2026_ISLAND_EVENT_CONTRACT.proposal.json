@@ -50,10 +50,6 @@
     ],
     "transitions": [
       [
-        "NOT_QUALIFIED",
-        "BEACH_INITIAL"
-      ],
-      [
         "QUALIFIED",
         "IN_CONTEST"
       ],
@@ -84,6 +80,10 @@
       [
         "IN_CONTEST",
         "CHAMPION"
+      ],
+      [
+        "ADVANCED",
+        "IN_CONTEST"
       ]
     ],
     "preconditions": [
@@ -96,7 +96,8 @@
       "provisional or random winners",
       "future pre-written opponent identities",
       "automatic effect on another contest's provider outcome"
-    ]
+    ],
+    "place_admission_rule": "NOT_QUALIFIED permits Losers' Beach assignment only after official Week14 exclusion; no bracket state transition to a nonexistent BEACH_INITIAL state."
   },
   "island_zones": {
     "contenders_quarter": {
