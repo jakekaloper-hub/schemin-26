@@ -27,3 +27,18 @@ Date: 2026-11-18. Branch: `feat/postseason-island-historical-foundation-20261118
 - No independent Umpire, brand-new formal 2026 postseason source lock, ceremony chronology fact beyond the protected memorial doctrine, or publication authorization.
 
 **Result:** historical and creative-preproduction gate PASSED; world-canon deployment held for Founder/Atlas/independent Umpire and source-specific owner continuity.
+
+
+## Bullpen continuation — November 18, 2026
+
+**Additional reversible work, committed on the same draft branch:**
+
+- `ISLAND_SITE_EVOLUTION_2015_2025.proposal.json`: nine reusable candidate venues, per-site inventory, 11 annual arena-activation packets, and persistent physical landmarks. History from ESPN; venue usage is NONCANON FICTION.
+- `POSTSEASON_2026_ISLAND_EVENT_CONTRACT.proposal.json`: 2026 three-quarterfinal / two-semifinal / one-final bracket, seed-one bye, no reseeding, state machine, secure contender residences, beach occupancy, neutral venue selection, broadcast production and hold gates. No qualifying 2026 teams/winners populated.
+- Reconciled historical owner-source limitation to `living-novel/history/OWNER_LINEAGE.md`; all owner-specific permanent campsite claims remain blocked.
+
+**Actual same-turn read-back and structural QA via connected GitHub data: PASS, zero issues.** Re-fetched all three JSON sources at their branch blob SHAs, checked 56 unique fixture records against the nine sites, all 11 annual venue inventories, quarterfinal-winner/bye to semifinal progression, semifinal-winner to final progression, score-to-winner consistency, exactly one Last Field final per season, and nine closed state-machine transitions for the 2026 event. Seven team slots in the configured 2026 field, three QFs, two SFs, one final and bye seed one are present. The 2015/2016 two-week scoring period distinction remains intact.
+
+**Bullpen invocation boundary:** The actual canonical Bullpen GitHub instructions (`BULLPEN.md`, `docs/COMMAND_SYSTEM_V2.md`, `runtime/router.js`, `governance/DIRECTOR_COUNTERWEIGHT_SYSTEM.md`) were read to guide this work. No local Bullpen runtime, named independent director agent, or independent Umpire was successfully started; connector-only draft changes and check results are the evidence. Do not claim a live governance board or independently signed certification. Draft is not release clearance.
+
+**Next legitimate gates:** independent Umpire / creator-separated audit, historical human-owner provenance if personalized camps are required, and Founder/Atlas ratification of offshore Last Field supersession. No active location IDs or physical dimensions may be promoted before those gates.
