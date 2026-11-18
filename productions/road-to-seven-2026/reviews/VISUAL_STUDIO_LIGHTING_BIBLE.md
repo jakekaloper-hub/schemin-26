@@ -51,7 +51,7 @@ Owner: Art Direction + Physical Staging. Method lenses: Frank Masi (unit-still d
 #### RT7-P05 — THE SEVENTH GATE / Red Leopards #7 vs Chili Cheesers #8
 Owner: Narrative Art Director + Atlas Continuity Lead. Method lenses: Dylan Cole (ruins/frontier), Rob Alonzo (tension/blocking), Frank Masi (predator close-angle), Jill Bogdanowicz (color contrast).
 - Red: crouch/lean at established jungle-ruins terrace with predator banners, guarding a narrow stone approach while scanning unseen routes. No new destruction to published ruin state.
-- Chili: at the Western stable, one hand on a rail/horse tack, poised to step onto a dusty road. Black hat/dark glasses/character facial details and Dark Horse continuity where appropriate.
+- Chili: at the Western stable, one hand on a rail/horse tack, poised to step onto a dusty road. BROWN cowboy hat, weathered outlaw face, rust shawl and separate Dark Horse continuity according to the October 18 approved presentation.
 - Split: a thin glowing editorial cut line traces rough stone vs dry stable track, explicitly not a real territorial border. Aim camera slightly below eye level for both, matching screen scale.
 - Lighting baked in: Red's world = humid forest canopy breaks forming intermittent warm amber rim on fur spots, subdued green/brown bounce fill from overgrown stone; Chili's = oblique dry sunset-side KEY at the stable opening, bronze bouncing from timber and earth, hat shadow gently lifted to retain recognizable face and glasses. Color contrast creates conflict without unrealistic cross-light spill. Let a single warm band illuminate the **symbolic** seventh gate in a distant graphic layer, not literal new construction.
 - Story: official #7 vs #8; their future WEEK 13 match has extreme leverage and has NOT happened. Zero preemptive victory/trophy pose.
@@ -67,7 +67,7 @@ Owner: Visual Direction + Editorial Designer. Method lenses: Doug Chiang (archit
 #### RT7-P07 — AGAINST THE IMPOSSIBLE / Three Dreaded Snake #11 vs Mud Dogs #12
 Owner: Atlas Lead + Character Librarian + Art Direction. Method lenses: Dylan Cole (wetland hydrology), Joe Letteri (one body/three heads), Andy Serkis (performance), Frank Masi (silhouette/portrait).
 - Snake: from existing temple steps beside waterfall, a single elongated serpent body with exactly THREE expressive heads, each tracking a different future direction; use three distinct gaze axes without morphing into three separate creatures. The waterfall/temple stone/canopy are recognizable and fixed.
-- Mud Dogs: from already-existing raised swamp ground over real mud channels, grotesque blue/orange chained swamp-dog silhouette moves one heavy forelimb toward the road. Mud and water react under weight; never render a cute pet or normal dog. Maintain full body readability, not solely a close-up face.
+- Mud Dogs: from already-existing raised swamp ground over real mud channels, peat-brown / moss-green, chained FOUR-LEGGED feral swamp-hound silhouette moves one heavy forelimb toward the road. Mud and water react under weight; never render a cute pet or normal dog. Maintain full body readability, not solely a close-up face.
 - Split: mist suggests two independent Southern Wetlands sub-sites. No invented canal connecting them.
 - Lighting baked in: Snake = cool diffused waterfall canopy KEY from upper left, silvery water bounce FILL under all three muzzles, faint wet-rim only along outer edges. Mud = low very narrow dawn KEY breaking through cypress branches, muted reflected sky from swamp pools, one warm rim separating chains/body from dense dark reeds. Vary reflected light to show wet material physically; no glowing magical rescue or unnaturally radiant gate.
 - Story: Mud must win all four and get outside help; Snake's low qualification estimate does not mean mathematical elimination. Keep hope fragile, not triumphant.
@@ -85,3 +85,9 @@ Owner: Atlas Lead + Character Librarian + Art Direction. Method lenses: Dylan Co
 ## Production handoff
 
 Source references: seven per-folio PAGE_PACKET.md files and scene.json; approved 12-character SHA-matched crops; 12 Atlas location semantic cards and structural plates; published-method reference specialist registry. The published-method names are methods, not people contacted. Further generated images require actual source attachment and independent rendered-identity checks. No PNG created by this memo.
+
+## Live Atlas weather and visual authority correction — November 18
+
+The updated source-backed STUDIO_CALL_SHEETS.md and seven STAGING.json contracts govern site-appropriate weather: El Niño embodied at Storm Bowl; eastern coastal climate may be stormy without proven attribution; indirect Upper Valleys/Central Basin pressure is an illustrative forecast motif only; Southern Wetlands flood/humidity follows its own watershed; Chili's Western Tablelands stays sun-dried and dusty. The loaded persistent World State Ledger remains at end of Week 3, so the staging **does not establish** an actual continent-wide Week 10 weather disaster. This stage packet supersedes any implication in earlier generic light recipes that every rainy sky is El Niño.
+
+Costume priority: October 18 approved lineup deltas for identity staging, particularly Chili's brown hat, Mud's peat/moss quadruped shape, post-haircut TDS, and DK's four-legged gorilla-centaur. DK retains an unresolved conflict with older registered bipedal primary, so image-specific final source reconciliation and raster QA cannot be waived.

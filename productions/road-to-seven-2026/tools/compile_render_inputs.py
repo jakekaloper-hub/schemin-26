@@ -126,6 +126,32 @@ def build(dry_run=False):
           "review":{"visual_render":"NOT_RUN","identity_pixel_qa":"NOT_RUN",
                     "text_readability_390px":"NOT_RUN","independent_umpire":"NOT_SIGNED"}
         }
+        staging_path=folder/"STAGING.json"
+        assert staging_path.is_file(),f"Missing staging contract for {scene['id']}"
+        staging=json.loads(staging_path.read_text(encoding="utf-8"))
+        assert staging["page_id"]==scene["id"] and len(staging["staging_crew"])==12
+        assert staging["world_state_record_as_of"].startswith("end_of_week_3")
+        assert staging["output_policy"]["render_generated_text"] is False
+        art["staging"]={
+          "source_path":str(staging_path.relative_to(REPO)),
+          "shot_camera":staging["camera"],
+          "editorial_seam":staging["graphic_transition"],
+          "sound_implied":staging["sound_implied_only"],
+          "global_weather_motif":staging["global_motif"],
+          "world_state_age_warning":staging["temporal_warning"],
+          "studio_workflow":[{"lens":q["reference_profile"],"assignment":q["concrete_assignment"],
+                              "direct_page":q["direct_page_assignment"]} for q in staging["staging_crew"]],
+          "cast_staging":staging["characters"],
+          "cover_staging":staging.get("cover_staging")
+        }
+        # Canon, costume, staging and source bindings must match the original scene exactly.
+        for staged,cast in zip(staging["characters"],scene.get("character_panels",[])):
+            assert staged["character_id"]==cast["character_id"]
+            assert staged["team"]==cast["team"] and staged["seed"]==cast["official_week10_seed"]
+            assert staged["location_id"]==cast["atlas_location_id"]
+            assert staged["reference_sha256"]==cast["approved_crop_sha256"]
+            assert staged["el_nino_attribution"] not in ("CONFIRMED_CONTINENTAL_STORM","ASSUMED_GLOBAL")
+        assert len(staging["characters"])==len(scene.get("character_panels",[]))
         panels=scene.get("character_panels",[])
         if n==1:
             assert not panels
@@ -187,8 +213,11 @@ def build(dry_run=False):
         outputs.append({"page":scene["id"],"path":str(output.relative_to(REPO)),
                         "characters":len(panels),"copy_fragments":len(art["overlays"])})
         scene_refs.append(hash_file(scene_path))
-    index={"compiler_version":"road7-v1","pages":outputs,
-           "scene_shas":scene_refs,"manuscript_sha256":hash_file(REVIEW),
+    index={"compiler_version":"road7-staging-v2","pages":outputs,
+           "scene_shas":scene_refs,
+           "staging_manifest_sha256":hash_file(HERE/"STAGING_MANIFEST.json"),
+           "staging_shas":[hash_file(HERE/"folios"/f"RT7-P{i:02d}"/"STAGING.json") for i in range(1,8)],
+           "manuscript_sha256":hash_file(REVIEW),
            "vendor_summary_sha256":hash_file(LIVE),"future_summary_sha256":hash_file(FORK),
            "warning":"A complete render manifest is NOT proof that final pixels exist or passed art QA"}
     if dry_run:

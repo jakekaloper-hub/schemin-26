@@ -31,6 +31,21 @@ python3 productions/road-to-seven-2026/tools/verify_source_coverage.py
 
 **Strict fail-closed:** The dry-run recalculates all seven render inputs and refuses source, character, team, mathematical value, narrative, or future-fork drift. If an authoritative input changes, re-run the compiler without \`--dry-run\`, independently review the new rendered-copy selection, and recheck before artwork. The image operator must **never** generate numbers or labels within AI artwork: render the cinematic scenes separately, then overlay deterministic source text. The 1080×1920 and 390-px phone proof, scene pixels, lighting, crop/identity recognition, and Umpire release are **NOT YET VERIFIED**.
 
+## Twelve-role Film Studio and El Niño Weather System Stage
+
+The requested film-production staging is now authored and compiler-bound, not simply a brainstorm:
+
+- [Studio Call Sheets](STUDIO_CALL_SHEETS.md): all 12 existing specialist-method profiles have practical assignments, with individual character staging, sets, costumes, camera/lens positions, motivated lighting, and page-by-page climate.
+- [Staging Manifest](STAGING_MANIFEST.json) and each folio's STAGING.json: seven source-bound film staging contracts, twelve character panels, studio-method assignments, and the separated symbolic versus physically plausible weather influences.
+- [Staging compiler](tools/build_staging.py) and [Call-sheet compiler](tools/write_call_sheets.py): compare against authoritative October 18 character deltas, Atlas location cards, current World State record, weather-regions system and the 12-method filmcraft registry.
+- [Render compiler](tools/compile_render_inputs.py): embeds each scene's staged camera, lighting, set, character poses and weather role, and hashes the staging source so a later edit cannot silently bypass the gate.
+
+**El Niño truth constraint:** His direct embodied manifestation is at Storm Bowl. Eastern storm/Inner Sea weather is climatically plausible but cannot be presumed caused by El Niño; Upper Valleys and Central Basin show only conditional atmospheric hints. Southern Wetlands' river mist comes from an independent watershed, and Chili's Western Tablelands remains dry. The current persistent World State JSON is dated end of Week 3, so a specific verified Week 10 pan-Commonwealth El Niño disaster cannot be asserted. The seven-page pressure motif is cinematic and noncanonical.
+
+**Current visual priority:** October 18 approved DK gorilla-centaur is four-legged, but an older conflicting bipedal primary remains unsuperseded, so final identity/renderer approval is not complete. Chili wears a **brown hat** and The Dark Horse is a distinct companion; Mud Dogs is a low four-legged mossy swamp hound; Snake has three heads and the post-haircut form.
+
+**Evidence:** Source-and-staging QA passes zero errors. A deliberately incorrect Chili global-storm stage was detected and rejected, then original staged source was restored. No final PNGs or pixel-level likeness audits have occurred.
+
 ## Page folio index
 | Folio | Title | Character pairing |
 |---|---|---|

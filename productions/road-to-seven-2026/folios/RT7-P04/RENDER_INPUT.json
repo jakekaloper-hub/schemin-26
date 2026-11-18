@@ -165,5 +165,247 @@
     "identity_pixel_qa": "NOT_RUN",
     "text_readability_390px": "NOT_RUN",
     "independent_umpire": "NOT_SIGNED"
+  },
+  "staging": {
+    "source_path": "productions/road-to-seven-2026/folios/RT7-P04/STAGING.json",
+    "shot_camera": "55mm ground-level fairway geometry left; 40mm off-axis roadside shot right to make physical comedy readable",
+    "editorial_seam": "Green curvature and asphalt roadside edge align graphically, not physically adjacent",
+    "sound_implied": "golf-ball stillness and light clubhouse wind / distant rattling truck and scraping metal",
+    "global_weather_motif": "El Niño's atmospheric motif follows Atlas climate causality; not every storm is El Niño",
+    "world_state_age_warning": "Latest loaded persistent world-state source is Week 3; no direct Week 10 El Niño global storm event was established. This is proposed cinematic staging, not a source-verified new physical event.",
+    "studio_workflow": [
+      {
+        "lens": "Doug Chiang",
+        "assignment": "Production-design scale hierarchy, anchor architecture, shape language for symbolic cover, Highland keep and boardroom/mountain split",
+        "direct_page": false
+      },
+      {
+        "lens": "Dylan Cole",
+        "assignment": "Atlas-aware geography/biome design; separate Eastern coast, Upper Valleys, Western dry range and Southern Wetlands",
+        "direct_page": false
+      },
+      {
+        "lens": "Joe Letteri",
+        "assignment": "Character-specific morphology and weather-light interaction; verify Niño human elemental, DK centaur, spotted Red and three heads",
+        "direct_page": false
+      },
+      {
+        "lens": "Ngila Dickson",
+        "assignment": "Costume continuity from approved Oct 18 image delta; fabric wetness and period materials without redesign",
+        "direct_page": true
+      },
+      {
+        "lens": "Andy Serkis",
+        "assignment": "Express physical emotional intentions through gaze/weight/gesture; distinct POVs, no declared game outcome",
+        "direct_page": true
+      },
+      {
+        "lens": "Rob Alonzo",
+        "assignment": "Grounded contact points and action axes; swords/axes/clubs/tack must respect anatomy and set safety",
+        "direct_page": true
+      },
+      {
+        "lens": "James Baxter",
+        "assignment": "Readable silhouette and separate emotion at phone scale; confirm no species morphing",
+        "direct_page": true
+      },
+      {
+        "lens": "Frank Masi",
+        "assignment": "Lens height, frame depth and decisive still moment on every folio; no repetitive generic hero-pose",
+        "direct_page": true
+      },
+      {
+        "lens": "John Knoll",
+        "assignment": "Two-location composite seam, lighting/plate passes, exact source-bound render inputs, deterministic typography pipeline",
+        "direct_page": true
+      },
+      {
+        "lens": "Jill Bogdanowicz",
+        "assignment": "Color and exposure management; atmosphere/light continuity WITHOUT imposing identical storms in each region",
+        "direct_page": true
+      },
+      {
+        "lens": "Thelma Schoonmaker",
+        "assignment": "Seven-page editorial sequence and visual rhythm; action direction and story-pacing escalates to final survival stakes",
+        "direct_page": true
+      },
+      {
+        "lens": "Randy Thom",
+        "assignment": "Sound-implied visual cues: water roar, cloth flutter, axe impact risk, gravel scrape, horse tack, marsh sucking; no audio generation",
+        "direct_page": true
+      }
+    ],
+    "cast_staging": [
+      {
+        "side": "left",
+        "team": "Dr. Duckhook",
+        "seed": 5,
+        "character_id": "CHAR-ZACH-WILSON",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "physical_zone": "REG-SOUTHERN-WETLANDS",
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "physical_set": "Country Club clubhouse, green and water hazards; retain historical Week3 chili contamination as unresolved, never pristine-reset by default",
+        "anchor_landmarks": [
+          "clubhouse",
+          "golf grounds",
+          "water hazards"
+        ],
+        "pose_action": "Duckhook sights down a golf driver over an unswung ball; green vest and white duck bill unobscured, quietly recalculating approach",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+          "head_face": "Orange broad bill; white feathers; green golf cap",
+          "silhouette": "Green country-club sweater vest, golfer stance, club resting on shoulder",
+          "palette": [
+            "white feathers",
+            "green vest",
+            "orange bill",
+            "ivory shirt"
+          ],
+          "recognizable_props": [
+            "golf driver",
+            "golf bag and clubs",
+            "country-club attire"
+          ],
+          "negative_rules": [
+            "full ordinary human head",
+            "missing duck bill",
+            "golf-club identity omitted"
+          ]
+        },
+        "shoot_costume_dressing": "White-feathered duck head orange bill, green golf cap, green vest, club driver, not a human golfer or generic bucket-hat duck",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "reference_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+        "weather_relationships": [
+          {
+            "id": "WX-SOUTHERN-FLOOD",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "high river",
+              "mud",
+              "causeway closure"
+            ],
+            "rule": "flooding follows watershed; not arbitrary backdrop"
+          }
+        ],
+        "weather_role": "INDEPENDENT_SOUTHERN_HYDROLOGY",
+        "weather_exposure": "Humid morning, dew and independently sourced wetland water-hazard haze; NOT asserted to be caused by Niño",
+        "el_nino_attribution": "SEPARATE_WATERSHED",
+        "el_nino_note": "Southern Wetlands humidity, river water and swamp mist are local/hydrological until a separate evidence event exists",
+        "entering_world_state": [
+          "Week 3 chili contamination/humiliation history",
+          "cleanup status unresolved"
+        ],
+        "motived_lighting": {
+          "key": "soft eastern daylight on Duckhook and golf green",
+          "fill": "lawn and pale path bounce",
+          "rim": "very subtle wet grass glint",
+          "air": "no dense fog; green visibility"
+        },
+        "blocking_restrictions": [
+          "full ordinary human head",
+          "missing duck bill",
+          "golf-club identity omitted",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      },
+      {
+        "side": "right",
+        "team": "Seven Deadly Chins",
+        "seed": 6,
+        "character_id": "CHAR-BEN-WHIPPLE",
+        "location_id": "LOC-CHINS-ROAD-COMMONS",
+        "physical_zone": "REG-CENTRAL-BASIN",
+        "terrain": [
+          "broad river valleys",
+          "fertile lowlands",
+          "bridge corridors"
+        ],
+        "physical_set": "Roadside hall, BBQ yard and caravan court with grounded trucks/canvas; no new destruction",
+        "anchor_landmarks": [
+          "roadside hall",
+          "BBQ yard",
+          "caravan court"
+        ],
+        "pose_action": "Seven Deadly Chins steps out of the road commons BBQ yard gripping metal tool but NOT swinging into buildings; grimacing toward coming Mud matchup",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+          "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+          "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+          "palette": [
+            "off-white tank",
+            "denim blue",
+            "truck red",
+            "steel"
+          ],
+          "recognizable_props": [
+            "trucker cap",
+            "metal striking tool",
+            "big-rig association"
+          ],
+          "negative_rules": [
+            "slim athletic substitute",
+            "animal-headed characterization",
+            "executive suit"
+          ]
+        },
+        "shoot_costume_dressing": "Very heavyset human with multiple folded chins, red trucker cap, dark glasses, dirty tank/overalls and blunt metal tool",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+        "reference_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          },
+          {
+            "id": "WX-SOUTHERN-FLOOD",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "high river",
+              "mud",
+              "causeway closure"
+            ],
+            "rule": "flooding follows watershed; not arbitrary backdrop"
+          }
+        ],
+        "weather_role": "CENTRAL_BASIN_PROPAGATION_POSSIBLE",
+        "weather_exposure": "Weak distant banked cloud over Central Basin, hard afternoon sun/dust in local road; no arbitrary flood",
+        "el_nino_attribution": "DOWNSTREAM_PROPAGATION_NOT_CONFIRMED",
+        "el_nino_note": "Central Basin can be downstream but sky motif does not prove direct Niño weather; avoid arbitrary flood",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "upper-left direct midday road sun",
+          "fill": "warm dust and road surface bounce",
+          "rim": "small edge on hands and cap",
+          "air": "light dry dust without invented destruction"
+        },
+        "blocking_restrictions": [
+          "slim athletic substitute",
+          "animal-headed characterization",
+          "executive suit",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      }
+    ],
+    "cover_staging": null
   }
 }

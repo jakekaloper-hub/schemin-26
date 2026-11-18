@@ -183,6 +183,76 @@ def run():
         test(hashlib.sha256(approved_lineup.read_bytes()).hexdigest() == canon.get("sha256"),
              "Master approved lineup SHA mismatch")
 
+    # Full film production: weather/character/set/camera contracts fail closed.
+    stage_compiler = BASE / "tools/build_staging.py"
+    call_sheet_compiler = BASE / "tools/write_call_sheets.py"
+    for tool in (stage_compiler, call_sheet_compiler):
+        test(tool.is_file(), "Missing staging producer " + str(tool))
+        if tool.is_file():
+            result = subprocess.run([sys.executable, str(tool), "--dry-run"],
+                                    capture_output=True, text=True, timeout=25)
+            test(result.returncode == 0,
+                 "Staging contract/call sheet stale: " + (result.stderr or result.stdout)[-700:])
+    stage_manifest = BASE / "STAGING_MANIFEST.json"
+    test(stage_manifest.is_file(), "Missing full-seven STAGING_MANIFEST")
+    staged_images = []
+    direct_practitioners = set()
+    if stage_manifest.is_file():
+        stage_records = json.loads(stage_manifest.read_text(encoding="utf-8"))
+        test(stage_records.get("staged_pages") == 7 and stage_records.get("specialists") == 12,
+             "Seven pages and all 12 specialized methods must be assigned")
+        test(stage_records.get("no_new_weather_event_asserted") is True,
+             "Global weather story must not assert a new source-unknown event")
+        for i in range(1, 8):
+            p = FOLIOS / ("RT7-P%02d" % i) / "STAGING.json"
+            test(p.is_file(), "Missing film staging RT7-P%02d" % i)
+            if not p.is_file():
+                continue
+            stage = json.loads(p.read_text(encoding="utf-8"))
+            test(stage.get("page_id") == "RT7-P%02d" % i, "Wrong staging page ID")
+            test(stage.get("world_state_record_as_of") == "end_of_week_3_2026",
+                 "Unexamined later world state date")
+            specialists = stage.get("staging_crew", [])
+            test(len(specialists) == 12 and len(set(s["reference_profile"] for s in specialists)) == 12,
+                 "Missing or duplicate film specialist-method profiles")
+            direct_practitioners.update(s["reference_profile"] for s in specialists if s["direct_page_assignment"])
+            cast = stage.get("characters", [])
+            test(len(cast) == (0 if i == 1 else 2), "Staging cast count wrong page %02d" % i)
+            if i == 1:
+                test(stage.get("cover_staging", {}).get("weather") == "SYMBOLIC_ATLAS_COMPOSITE",
+                     "Cover cannot assert a real cross-continent storm")
+            for actor in cast:
+                staged_images.append(actor["character_id"])
+                test(actor.get("el_nino_attribution") not in
+                     ("CONFIRMED_CONTINENTAL_STORM", "ASSUMED_GLOBAL"),
+                     "Unverified continental Niño event asserted")
+                weather = actor.get("weather_role")
+                location = actor.get("location_id")
+                if location == "LOC-STORM-BOWL":
+                    test(weather == "EMBODIED_AT_STORM_BOWL" and
+                         actor.get("el_nino_attribution") == "EMBODIED_APPROVED",
+                         "El Niño direct manifestation missing at his source")
+                elif weather == "EMBODIED_AT_STORM_BOWL":
+                    test(False, "El Niño embodiment wrongly placed in another homeland")
+                if location == "LOC-CHILI-STABLE":
+                    test(weather == "WESTERN_DRY_RAIN_SHADOW", "Chili western weather changed")
+                    test("BROWN cowboy hat" in actor.get("shoot_costume_dressing", ""),
+                         "Chili's current brown hat must survive costume staging")
+                if location in ("LOC-MUD-DOGS-SWAMP", "LOC-TDS-WATERFALL-TEMPLE",
+                                "LOC-COUNTRY-CLUB-JACKSON"):
+                    test(weather == "INDEPENDENT_SOUTHERN_HYDROLOGY",
+                         "Southern wetlands cannot be relabeled Niño flood")
+                if actor["character_id"] == "CHAR-WILSON-LOOK":
+                    test("four-legged" in actor["approved_costume_visual"]["subject_morphology"],
+                         "DK approved four-legged presentation lost")
+                if actor["character_id"] == "CHAR-BOBBY-MITCHELL":
+                    test("four-legged" in actor["approved_costume_visual"]["subject_morphology"],
+                         "Mud's quadrupedal body lost")
+                test(all(x in actor.get("motived_lighting", {}) for x in ("key","fill","rim","air")),
+                     "Weather+lighting sources missing "+actor["character_id"])
+        test(len(staged_images)==len(set(staged_images))==12,
+             "Twelve canonical inhabitants must each receive their own staging")
+        test(len(direct_practitioners)==12, "All twelve film specialties must own actual assignments")
     # Verify the derived image-production inputs against the frozen underlying sources.
     compiler = BASE / "tools/compile_render_inputs.py"
     test(compiler.is_file(), "Missing deterministic render-input compiler")
@@ -197,6 +267,9 @@ def run():
         "errors": ISSUES,
         "folio_count": count,
         "source_bound_scene_count": 7,
+        "staged_heroic_folios": 7,
+        "visual_specialist_method_assignments": len(direct_practitioners),
+        "physical_weather_canon": "CHECKED_SEPARATE_FROM_SYMBOLIC_STORM_MOTIF",
         "character_and_atlas_byte_checks": image_pairs,
         "canonical_characters": len(set(all_chars)),
         "week11_teams": len(teams),
