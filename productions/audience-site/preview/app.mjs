@@ -15,6 +15,7 @@ let state=createObserver({locationIds:bindings.map(p=>p.id),criticalAssetIds:['g
 let renderer,camera=defaultCamera(),target=defaultCamera(),paused=reduced,animationTime=0,lastTime=0,frameId=0,revealStart=0,weather={status:'NOT_CONNECTED',affectedZoneIds:[]},demo=null,ready=false;
 let selected=null,pointerStart=null,dragDistance=0,pointers=new Map(),pinchDistance=null;
 const canvas=$('#world'),splash=$('#splash');
+let inspectionReturnFocus=canvas;
 function dispatch(a){state=transitionObserver(state,a);return state;}
 function showFallback(reason){ready=false;cancelAnimationFrame(frameId);$('#fallback').hidden=false;$('#fallbackReason').textContent=reason;$('#splash').hidden=true;$('#skipReveal').hidden=true;}
 function escapePanels(){for(const id of ['#placesPanel','#infoPanel','#inspector'])$(id).hidden=true;$('#placesToggle').setAttribute('aria-expanded','false');$('#tooltip').hidden=true;}
@@ -76,12 +77,35 @@ for(const p of bindings){
   b.type='button';b.addEventListener('click',()=>renderFallbackPlace(p,b));$('#fallbackPlaces').append(b);
 }
 /* FALLBACK_JOURNEY_END */
-function select(id){if(state.phase!=='EXPLORING'||state.inputOwner!=='WORLD')return;dispatch({type:'inspect',id});selected=bindings.find(p=>p.id===id);escapePanels();target=locationCamera(bindings,id);target.target[1]=renderer?renderer.height(target.target[0],target.target[2]):0;const framing=renderer?.siteView?.(id);if(framing)target={...target,...framing};$('#placeRegion').textContent=selected.zoneId.replace(/^REG-/,'').replaceAll('-',' ');$('#placeName').textContent=selected.name;$('#landmarks').textContent=selected.landmarks.join(' · ');$('#placeStatus').textContent=selected.canonStatus.replaceAll('_',' ')+' · '+catalog.stateAsOf.replaceAll('_',' ');$('#inspector').hidden=false;updateMemoryEntry();updateHistoryEntry();if(paused)camera=structuredClone(target);}
+function select(id){
+ if(state.phase!=='EXPLORING'||state.inputOwner!=='WORLD')return;
+ // The place index becomes hidden upon selection; never strand keyboard focus there.
+ const fromIndex=$('#placeList').contains(document.activeElement);
+ inspectionReturnFocus=fromIndex?$('#placesToggle'):canvas;
+ dispatch({type:'inspect',id});
+ selected=bindings.find(p=>p.id===id);
+ escapePanels();
+ target=locationCamera(bindings,id);
+ target.target[1]=renderer?renderer.height(target.target[0],target.target[2]):0;
+ const framing=renderer?.siteView?.(id);if(framing)target={...target,...framing};
+ $('#placeRegion').textContent=selected.zoneId.replace(/^REG-/,'').replaceAll('-',' ');
+ $('#placeName').textContent=selected.name;
+ $('#landmarks').textContent=selected.landmarks.join(' · ');
+ $('#placeStatus').textContent=selected.canonStatus.replaceAll('_',' ')+' · '+catalog.stateAsOf.replaceAll('_',' ');
+ $('#inspector').hidden=false;
+ updateMemoryEntry();updateHistoryEntry();
+ if(paused)camera=structuredClone(target);
+ if(fromIndex){const heading=$('#placeName');heading.tabIndex=-1;heading.focus({preventScroll:true});}
+}
+function closeInspector(){
+ $('#inspector').hidden=true;
+ (inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});
+}
 function wholeWorld(){if(state.phase!=='EXPLORING')return;dispatch({type:'world_view'});selected=null;target=defaultCamera();escapePanels();if(paused)camera=structuredClone(target);}
 $('#placesToggle').onclick=()=>{const open=$('#placesPanel').hidden;escapePanels();$('#placesPanel').hidden=!open;$('#placesToggle').setAttribute('aria-expanded',String(open));if(open)$('#placeSearch').focus();};
 $('#placesClose').onclick=()=>{escapePanels();$('#placesToggle').focus();};
 $('#infoToggle').onclick=()=>{const open=$('#infoPanel').hidden;escapePanels();$('#infoPanel').hidden=!open;};$('#infoClose').onclick=()=>{escapePanels();$('#infoToggle').focus();};
-$('#inspectorClose').onclick=()=>{$('#inspector').hidden=true;canvas.focus();};$('#inspectSource').onclick=()=>{$('#infoPanel').hidden=false;$('#inspector').hidden=true;};
+$('#inspectorClose').onclick=closeInspector;$('#inspectSource').onclick=()=>{$('#infoPanel').hidden=false;$('#inspector').hidden=true;$('#infoClose').focus({preventScroll:true});};
 $('#placeSearch').oninput=e=>{for(const b of $('#placeList').children)b.hidden=!b.textContent.toLowerCase().includes(e.target.value.toLowerCase());};
 $('#returnWorld').onclick=wholeWorld;
 $('#wetlandsView').onclick=()=>{if(!canControl())return;const p=bindings.filter(x=>x.zoneId==='REG-SOUTHERN-WETLANDS');if(!p.length)return;selected=null;escapePanels();target={target:[p.reduce((s,x)=>s+x.anchor[0],0)/p.length,4,p.reduce((s,x)=>s+x.anchor[2],0)/p.length],distance:105,pitch:.88,yaw:.15};if(paused)camera=structuredClone(target);};
