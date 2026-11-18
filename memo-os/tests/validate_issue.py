@@ -36,6 +36,14 @@ def validate(d):
             errors.append("division winner claim unsupported")
     if d.get("publication_state") not in ("PLANNED","REVIEW","RELEASED","PUBLISHED"):
         errors.append("unknown publication state")
+    if d.get('publication_state') in ('RELEASED','PUBLISHED') and d.get('season') == 2026 and type(d.get('week')) is int and d['week'] >= 9:
+        # Presence is not editorial merit: actual pages still need independent
+        # reviewer receipts and final PDF review.
+        required_departments = {'OPENING_DRIVE', 'SCOREBOARD', 'SPORTS_DESK', 'WAIVER_WIRE', 'STANDINGS', 'FINAL_WORD'}
+        published_departments = set(d.get('editorial_departments') or [])
+        missing = required_departments - published_departments
+        for department in sorted(missing):
+            errors.append('editorial department missing: ' + department)
     if d.get("publication_state") in ("RELEASED","PUBLISHED"):
         if d.get("pdf_page_count")!=expected: errors.append("PDF count mismatch")
         if d.get("independent_umpire_approval")!="PASS": errors.append("Umpire required")
