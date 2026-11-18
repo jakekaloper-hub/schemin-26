@@ -22,7 +22,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
       vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
@@ -63,7 +63,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
+      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
         stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);
         float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);
         // The EXISTING physically displaced sheet now shades from its real screen-space
@@ -112,6 +112,22 @@ export function buildRegionalAssets(THREE, bindings, height) {
         canopyShade=max(canopyShade,canopyFade*(.66+.34*wateryBreakup));
       }
       float bankFade=1.-smoothstep(.78,.99,length((vUv-vec2(.5))*2.));
+      // Water contact wakes follow the EXISTING twelve drifting foliage discs.
+      // This is a scenic water shader response, not new source hydrology.
+      float padContactWake=0.;
+      if(uPadSiteCount>.5){
+        for(int i=0;i<12;i++){
+          if(float(i)>=uPadSiteCount)break;
+          vec2 padDelta=(vUv-uPadSites[i])*vec2(21.,16.4);
+          float padDistance=length(padDelta);
+          if(padDistance<1.05){
+            float padInterior=1.-smoothstep(.32,1.05,padDistance);
+            float padCrest=pow(max(sin(padDistance*12.-uTime*2.05),0.),8.);
+            padContactWake=max(padContactWake,padInterior*padCrest);
+          }
+        }
+      }
+      vec3 padContactSheen=vec3(.10,.14,.11)*(padContactWake*.42*bankFade);
       vec3 rootSheen=vec3(.13,.17,.13)*(rootWake*.68*bankFade);
       // Candidate moving channel-only glints, aligned to the EXISTING illustrative
       // flow vector. Water footprint, shoreline and topology remain unchanged.
@@ -163,7 +179,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float reliefSlope=clamp((1.-clamp(abs(wetlandNormal.y),0.,1.))*14.,0.,.42);
       float reliefFacing=clamp(abs(dot(wetlandNormal,normalize(vec3(.30,.91,.27)))),0.,1.);
       vec3 reliefLight=vec3(.10,.15,.12)*reliefSlope*(.4+.6*reliefFacing)*bankFade;
-      contactTint+=reliefLight;
+      contactTint+=reliefLight+padContactSheen;
       gl_FragColor=vec4(contactTint+lowSheen+quietEddy+rootSheen+contactLight+channelSheen,.92);
       }else if(uRiver>.5){
        // Broken light on the EXISTING upstream sheet, not a flow/topology record.
@@ -601,15 +617,29 @@ export function buildRegionalAssets(THREE, bindings, height) {
     return stems;
   }
 
+  // One shared set of the pre-existing foliage-disc centers and independent phases.
+  const floatingFoliageSites=Array.from({length:12},(_,i)=>({
+    x:Math.sin(i*5)*7,z:Math.cos(i*9)*5,r:.18+(i%3)*.08,phase:i*2.399
+  }));
+  let floatingContactSites=null;
+  function syncFloatingContactSites(time){
+    if(!floatingContactSites)return;
+    for(let i=0;i<floatingFoliageSites.length;i++){
+      const site=floatingFoliageSites[i];
+      const drift=.075*Math.sin(time*.35+site.phase)+.025*Math.sin(time*.79+site.phase*1.71);
+      // Existing pool plane is X-rotated -PI/2: world +Z maps to texture -V.
+      floatingContactSites[i].set(.5+(site.x+drift)/21,.5-(site.z+drift*.57)/16.4);
+    }
+  }
   function wetlandFloatingFoliage(g){
     // Rework ONLY the twelve existing leaf-colored water discs, at their original
     // candidate centers and radii. No additional pads, wetland habitat or canon.
     const positions=[],phases=[],edges=[],tints=[],indices=[];
     const palette=['#5a774f','#6e8257','#536f50','#637e55'].map(v=>new THREE.Color(v));
-    const count=12,sides=9;
+    const count=floatingFoliageSites.length,sides=9;
     for(let i=0;i<count;i++){
-      const cx=Math.sin(i*5)*7,cz=Math.cos(i*9)*5,r=.18+(i%3)*.08;
-      const start=positions.length/3,phase=i*2.399,tint=palette[i%palette.length];
+      const {x:cx,z:cz,r,phase}=floatingFoliageSites[i];
+      const start=positions.length/3,tint=palette[i%palette.length];
       // Each former flat circle becomes an irregular but never larger fan.
       const add=(x,z,edge)=>{
         positions.push(x,.16,z);phases.push(phase);edges.push(edge);
@@ -699,6 +729,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const swampSurface=water.find(w=>w.kind==='swamp');
     swampSurface.material.uniforms.uRootSiteCount.value=rootWakeSites.length;
     swampSurface.material.uniforms.uRootSites.value=rootWakeSites;
+    swampSurface.material.uniforms.uPadSiteCount.value=floatingFoliageSites.length;
+    floatingContactSites=swampSurface.material.uniforms.uPadSites.value;
+    syncFloatingContactSites(0);
     swampSurface.mesh.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
       sourceStands:illustratedTreeStands.length,illustrativeWakeSites:rootWakeSites.length};
     wetlandWaterlineRoots(g,illustratedTreeStands);
@@ -768,7 +801,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
   const builders={'LOC-TDS-WATERFALL-TEMPLE':temple,'LOC-MUD-DOGS-SWAMP':swamp,'LOC-COUNTRY-CLUB-JACKSON':estate};
   for(const p of bindings){if(!builders[p.id])continue;const g=new THREE.Group();g.name=p.id;g.userData={locationId:p.id,visualAuthority:'CANDIDATE_NOT_APPROVED',stateResolution:'UNRESOLVED_NOT_CURRENT_STATE',principalCharacters:[]};g.position.set(p.anchor[0],Math.max(.65,height(p.anchor[0],p.anchor[2])),p.anchor[2]);builders[p.id](g);root.add(g);locations.push({id:p.id,group:g,sourceStatus:p.canonStatus});}
   return {root,locations,water,worldMutationAllowed:false,principalCharacters:[],
-    tick(time,{paused=false}={}){if(disposed||paused)return;if(!Number.isFinite(time))throw Error('INVALID_ANIMATION_TIME');for(const w of water)w.material.uniforms.uTime.value=time;for(const m of ambientMotion)m.uniforms.uTime.value=time;},
+    tick(time,{paused=false}={}){if(disposed||paused)return;if(!Number.isFinite(time))throw Error('INVALID_ANIMATION_TIME');syncFloatingContactSites(time);for(const w of water)w.material.uniforms.uTime.value=time;for(const m of ambientMotion)m.uniforms.uTime.value=time;},
     dispose(){if(disposed)return;disposed=true;for(const g of geometries)g.dispose();for(const m of materials.values())m.dispose();for(const t of textures)t.dispose();root.clear();}
   };
 }
