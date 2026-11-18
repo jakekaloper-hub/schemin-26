@@ -103,5 +103,60 @@
     "approved_environment_pixel_binding": "TO_REVIEW",
     "generated_visual_QA": "NOT_RUN",
     "umpire_release": "NOT_SIGNED"
+  },
+  "visual_studio": {
+    "owning_role": "Schemin Narrative Art Director / Visual Direction Lead",
+    "production_lenses_are": "PUBLISHED_METHOD_REFERENCE_ONLY_NOT_HUMAN_CONSULTATIONS",
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Frank Masi",
+      "Jill Bogdanowicz",
+      "Thelma Schoonmaker"
+    ],
+    "source_document": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md",
+    "skill_methods": [
+      "creative-production/produce:styles",
+      "creative-production/produce:shots",
+      "creative-production/produce:source-preservation",
+      "creative-production/produce:exact-content"
+    ]
+  },
+  "lighting_contract": {
+    "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+    "lead": [
+      "Doug Chiang",
+      "Frank Masi",
+      "Jill Bogdanowicz",
+      "Thelma Schoonmaker"
+    ],
+    "time": "lamp-lit mercantile dusk / mountain cloud daylight",
+    "left": {
+      "key": "existing brass lantern practical across ledger",
+      "fill": "blue harbor window, low-level room bounce",
+      "rim": "soft interior warm edge only",
+      "air": "faint coastal haze seen out window"
+    },
+    "right": {
+      "key": "cool open sky from high-altitude base",
+      "fill": "warm rock reflected fill",
+      "rim": "slight sunlight edge, small locally motivated green saber spill",
+      "air": "light mountain mist behind body, not in text"
+    },
+    "text_safe": "dark uncluttered ledger panel and separate mountain stone/sky zone",
+    "forbidden": "Belt on ObiWan, large fluorescent saber glow, new LLC destruction",
+    "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+  },
+  "writing_contract": {
+    "owner": "Schemin Beat Writer / Inklings advisory lenses",
+    "copy_path": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+    "not_human_author_consultation": true,
+    "review_status": "WRITTEN_CANDIDATE_NOT_APPROVED"
+  },
+  "release_qa": {
+    "created_at": "2026-11-18",
+    "stage": "PREPRODUCTION_ONLY",
+    "visual_raster": "NOT_GENERATED",
+    "source_qa": "PASS",
+    "independent_umpire_visual": "NOT_RUN"
   }
 }
