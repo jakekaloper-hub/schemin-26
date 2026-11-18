@@ -1,0 +1,609 @@
+{
+  "schema": "schemin.championship_island_topology.founder_v2",
+  "status": "CANDIDATE_NOT_REAL_COORDINATES_OR_ACTIVE_ROUTES",
+  "owner": "World/Atlas Architect under Founder F02 F04 F08",
+  "island_location": "Inner Sea Littoral outer map (proposal; exact mainland anchor unselected)",
+  "physical_law": "No invented distances, geometry, shore bearings, meters or open-sea span. All paths are conceptual connectivity until surveyed and checked against seven-zone world data.",
+  "modern_media_design": "island event-only cameras/screens/media HQ and service links, technology world exception pending",
+  "nodes": [
+    {
+      "id": "MAINLAND_PUBLIC_LITTORAL",
+      "name": "Mainland public landing",
+      "zone": "mainland",
+      "use": "public",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "CAUSEWAY_OUTER_GATE",
+      "name": "Mainland causeway gatehouse",
+      "zone": "causeway",
+      "use": "security",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "CAUSEWAY_RIDGE",
+      "name": "Monumental causeway spine",
+      "zone": "causeway",
+      "use": "shared",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "ISLAND_ENTRY_CHECK",
+      "name": "Island entry screening and rescue interchange",
+      "zone": "island_north",
+      "use": "security",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "HARBOR_RELIEF",
+      "name": "Emergency harbor and ferry dock",
+      "zone": "island_north",
+      "use": "service",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "BROADCAST_HQ",
+      "name": "Broadcast control and commentary headquarters",
+      "zone": "island_north",
+      "use": "media",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "TAILGATE_COMMONS",
+      "name": "Outer spectator tailgate grounds",
+      "zone": "island_west",
+      "use": "spectator",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "LOSERS_BEACH",
+      "name": "Losers' Beach settlement",
+      "zone": "island_west",
+      "use": "seasonal_lodging",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "BEACH_PAVILIONS",
+      "name": "Veteran beach pavilions and tavern streets",
+      "zone": "island_west",
+      "use": "seasonal_lodging",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "IRON_QUARRY",
+      "name": "Iron Quarry QF stadium",
+      "zone": "island_west",
+      "use": "quarterfinal",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "SALTWIND_STEPS",
+      "name": "Saltwind Steps QF stadium",
+      "zone": "island_east",
+      "use": "quarterfinal",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "BREAKWATER_GROUNDS",
+      "name": "Breakwater Grounds QF stadium",
+      "zone": "island_south",
+      "use": "quarterfinal",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "CONTENDER_FORTRESS",
+      "name": "Fortress contenders' residence",
+      "zone": "island_central",
+      "use": "contestant",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "BYE_HOUSE",
+      "name": "Protected bye residence",
+      "zone": "island_central",
+      "use": "contestant",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "CROWN_STAIR",
+      "name": "Crown Stair semifinal stadium",
+      "zone": "island_north",
+      "use": "semifinal",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "GROVE_STANDARDS",
+      "name": "Grove of Standards semifinal stadium",
+      "zone": "island_central",
+      "use": "semifinal",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "CHAMPIONS_WALK",
+      "name": "Champions' Walk memorial axis",
+      "zone": "island_central",
+      "use": "public_history",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "FARRELL_SANCTUARY",
+      "name": "Protected Michael Farrell memorial precinct",
+      "zone": "island_central",
+      "use": "memorial",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "MUSEUM_TROPHY_HALL",
+      "name": "Championship museum and trophy gallery",
+      "zone": "island_central",
+      "use": "public_history",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "LAST_FIELD",
+      "name": "Last Field championship stadium",
+      "zone": "island_upland",
+      "use": "final",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "LAST_FIELD_SUITES",
+      "name": "Championship private suites and press balconies",
+      "zone": "island_upland",
+      "use": "hospitality",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "UTILITY_PLANT",
+      "name": "Water, energy, waste, maintenance and standby generation",
+      "zone": "island_south",
+      "use": "service",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    },
+    {
+      "id": "EMERGENCY_PIER",
+      "name": "South coast emergency evacuation pier",
+      "zone": "island_south",
+      "use": "service",
+      "status": "PROPOSED_ONLY",
+      "coordinates": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "CAND-ISL-EDGE-001",
+      "from": "MAINLAND_PUBLIC_LITTORAL",
+      "to": "CAUSEWAY_OUTER_GATE",
+      "modes": [
+        "public",
+        "service",
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-002",
+      "from": "CAUSEWAY_OUTER_GATE",
+      "to": "CAUSEWAY_RIDGE",
+      "modes": [
+        "public",
+        "service",
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-003",
+      "from": "CAUSEWAY_RIDGE",
+      "to": "ISLAND_ENTRY_CHECK",
+      "modes": [
+        "public",
+        "service",
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-004",
+      "from": "ISLAND_ENTRY_CHECK",
+      "to": "HARBOR_RELIEF",
+      "modes": [
+        "service",
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-005",
+      "from": "ISLAND_ENTRY_CHECK",
+      "to": "BROADCAST_HQ",
+      "modes": [
+        "media",
+        "service"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-006",
+      "from": "ISLAND_ENTRY_CHECK",
+      "to": "TAILGATE_COMMONS",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-007",
+      "from": "TAILGATE_COMMONS",
+      "to": "LOSERS_BEACH",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-008",
+      "from": "LOSERS_BEACH",
+      "to": "BEACH_PAVILIONS",
+      "modes": [
+        "public",
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-009",
+      "from": "TAILGATE_COMMONS",
+      "to": "IRON_QUARRY",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-010",
+      "from": "TAILGATE_COMMONS",
+      "to": "SALTWIND_STEPS",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-011",
+      "from": "TAILGATE_COMMONS",
+      "to": "BREAKWATER_GROUNDS",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-012",
+      "from": "TAILGATE_COMMONS",
+      "to": "CROWN_STAIR",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-013",
+      "from": "TAILGATE_COMMONS",
+      "to": "GROVE_STANDARDS",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-014",
+      "from": "TAILGATE_COMMONS",
+      "to": "CHAMPIONS_WALK",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-015",
+      "from": "CHAMPIONS_WALK",
+      "to": "MUSEUM_TROPHY_HALL",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-016",
+      "from": "MUSEUM_TROPHY_HALL",
+      "to": "FARRELL_SANCTUARY",
+      "modes": [
+        "memorial_public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-017",
+      "from": "CHAMPIONS_WALK",
+      "to": "LAST_FIELD",
+      "modes": [
+        "public"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-018",
+      "from": "LAST_FIELD",
+      "to": "LAST_FIELD_SUITES",
+      "modes": [
+        "private_guest",
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-019",
+      "from": "CONTENDER_FORTRESS",
+      "to": "BYE_HOUSE",
+      "modes": [
+        "contender"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-020",
+      "from": "CONTENDER_FORTRESS",
+      "to": "IRON_QUARRY",
+      "modes": [
+        "contender"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-021",
+      "from": "CONTENDER_FORTRESS",
+      "to": "SALTWIND_STEPS",
+      "modes": [
+        "contender"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-022",
+      "from": "CONTENDER_FORTRESS",
+      "to": "BREAKWATER_GROUNDS",
+      "modes": [
+        "contender"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-023",
+      "from": "CONTENDER_FORTRESS",
+      "to": "CROWN_STAIR",
+      "modes": [
+        "contender"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-024",
+      "from": "CONTENDER_FORTRESS",
+      "to": "GROVE_STANDARDS",
+      "modes": [
+        "contender"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-025",
+      "from": "CONTENDER_FORTRESS",
+      "to": "LAST_FIELD",
+      "modes": [
+        "contender"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-026",
+      "from": "ISLAND_ENTRY_CHECK",
+      "to": "CONTENDER_FORTRESS",
+      "modes": [
+        "contender",
+        "security"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-027",
+      "from": "UTILITY_PLANT",
+      "to": "BROADCAST_HQ",
+      "modes": [
+        "service",
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-028",
+      "from": "UTILITY_PLANT",
+      "to": "LAST_FIELD",
+      "modes": [
+        "service"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-029",
+      "from": "UTILITY_PLANT",
+      "to": "IRON_QUARRY",
+      "modes": [
+        "service"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-030",
+      "from": "UTILITY_PLANT",
+      "to": "SALTWIND_STEPS",
+      "modes": [
+        "service"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-031",
+      "from": "UTILITY_PLANT",
+      "to": "BREAKWATER_GROUNDS",
+      "modes": [
+        "service"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-032",
+      "from": "UTILITY_PLANT",
+      "to": "CROWN_STAIR",
+      "modes": [
+        "service"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-033",
+      "from": "UTILITY_PLANT",
+      "to": "GROVE_STANDARDS",
+      "modes": [
+        "service"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-034",
+      "from": "UTILITY_PLANT",
+      "to": "EMERGENCY_PIER",
+      "modes": [
+        "service",
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-035",
+      "from": "HARBOR_RELIEF",
+      "to": "EMERGENCY_PIER",
+      "modes": [
+        "emergency"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-036",
+      "from": "BROADCAST_HQ",
+      "to": "LAST_FIELD",
+      "modes": [
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-037",
+      "from": "BROADCAST_HQ",
+      "to": "CROWN_STAIR",
+      "modes": [
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-038",
+      "from": "BROADCAST_HQ",
+      "to": "GROVE_STANDARDS",
+      "modes": [
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-039",
+      "from": "BROADCAST_HQ",
+      "to": "IRON_QUARRY",
+      "modes": [
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-040",
+      "from": "BROADCAST_HQ",
+      "to": "SALTWIND_STEPS",
+      "modes": [
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    },
+    {
+      "id": "CAND-ISL-EDGE-041",
+      "from": "BROADCAST_HQ",
+      "to": "BREAKWATER_GROUNDS",
+      "modes": [
+        "media"
+      ],
+      "status": "PLANNING_ONLY"
+    }
+  ],
+  "checks": {
+    "node_count": 23,
+    "edge_count": 41,
+    "public_reaches_required": [
+      "IRON_QUARRY",
+      "SALTWIND_STEPS",
+      "BREAKWATER_GROUNDS",
+      "CROWN_STAIR",
+      "GROVE_STANDARDS",
+      "CHAMPIONS_WALK",
+      "LAST_FIELD",
+      "LOSERS_BEACH"
+    ],
+    "contender_reaches_required": [
+      "IRON_QUARRY",
+      "SALTWIND_STEPS",
+      "BREAKWATER_GROUNDS",
+      "CROWN_STAIR",
+      "GROVE_STANDARDS",
+      "LAST_FIELD",
+      "BYE_HOUSE"
+    ],
+    "public_excluded_from_contender_fortress": true
+  },
+  "holds": [
+    "mainland crossing anchor and exact island placement unknown",
+    "causeway load/hydrology/weather engineering not verified",
+    "power source and network reach outside island unresolved",
+    "Last Field Central Basin earlier proposal not yet formally superseded",
+    "all IDs candidate not permanent LOC/ROUTE"
+  ]
+}
