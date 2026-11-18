@@ -23,7 +23,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
     const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
           if(uFall>.5){
@@ -41,6 +41,19 @@ export function buildRegionalAssets(THREE, bindings, height) {
             float crest=sin(phase)+.35*sin((uv.x+uv.y)*57.+uTime*.71);
             float shoreHold=1.-smoothstep(.65,.96,length((uv-vec2(.5))*2.));
             p.z+=crest*.018*shoreHold;
+            // Root ripples physically affect only the existing swamp mesh.
+            // Reuse the five tree-wake sites, phase and perimeter fade; no added surface.
+            if(uRootSiteCount>.5){
+              float rootRelief=0.;
+              for(int i=0;i<5;i++){
+                if(float(i)>=uRootSiteCount)break;
+                float rootDistance=length((uv-uRootSites[i])*vec2(21.,16.4));
+                float rootFade=1.-smoothstep(.55,3.25,rootDistance);
+                float rootPulse=pow(max(sin(rootDistance*7.1-uTime*1.6),0.),6.);
+                rootRelief=max(rootRelief,rootPulse*rootFade);
+              }
+              p.z+=.006*rootRelief*shoreHold;
+            }
           }
           if(uRiver>.5){
             // Low-amplitude running surface on the EXISTING Temple upstream disc.
