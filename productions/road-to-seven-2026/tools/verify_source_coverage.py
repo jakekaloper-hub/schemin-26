@@ -164,7 +164,7 @@ def run():
     if manuscript_path.is_file() and visual_path.is_file():
         manuscript = manuscript_path.read_text(encoding="utf-8")
         visual_doc = visual_path.read_text(encoding="utf-8")
-        titles = re.findall(r"^\\*\\*(?:Left|Right) / #(\\d+) (.*?) — ", manuscript, re.M)
+        titles = re.findall(r"^\*\*(?:Left|Right) / #(\d+) (.*?) — ", manuscript, re.M)
         test(len(titles) == 12 and len({int(rank) for rank, _ in titles}) == 12,
              "Inklings draft must have 12 individually numbered character POVs")
         original_pairs = [panel for page_id in range(2, 8) for panel in
