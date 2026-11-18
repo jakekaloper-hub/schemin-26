@@ -1,0 +1,40 @@
+{
+  "date_utc": "2026-11-18T17:59:06.271Z",
+  "provider": "local Ollama",
+  "model": "qwen2.5-coder:7b",
+  "calls": [
+    "consultExternalAdvisor tim_veil",
+    "consultDirector the_umpire"
+  ],
+  "modeled_only": true,
+  "humanVerified": false,
+  "trace": [
+    {
+      "type": "external_advisory",
+      "source": "bullpen/runtime/consultEngine",
+      "advisor": "tim_veil",
+      "mode": "PUBLISHED_METHOD_LENS",
+      "latencyMs": 41842,
+      "attempts": 1,
+      "outcome": "success",
+      "status": null,
+      "tokenCounts": {
+        "prompt_tokens": 1350,
+        "completion_tokens": 949
+      }
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_umpire",
+      "messageLength": 9094,
+      "responseLength": 4331,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 45787
+    }
+  ],
+  "outputs": {
+    "tim_chars": 4455,
+    "umpire_chars": 4331
+  }
+}
