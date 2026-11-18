@@ -1,0 +1,119 @@
+{
+  "schema_version": "schemin.road_to_seven_scene.v1",
+  "id": "RT7-P07",
+  "title": "AGAINST THE IMPOSSIBLE",
+  "edition": "The Road to Seven",
+  "artifact": {
+    "format": "PNG",
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "page_count": 1,
+    "output_file": "RT7-P07.png"
+  },
+  "state": "SOURCE_AND_ASSET_BOUND_SCENE_CONTRACT__NO_PNG_GENERATED",
+  "commissioner_locks": [
+    "official_W10_seed_pairing",
+    "two_equal_character_worlds",
+    "epic_heroic_individual_POV",
+    "canon_safe_atlas",
+    "no_unplayed_results",
+    "FFHub_vendor_estimates_separate_from_exact_status"
+  ],
+  "camera": "waterfall temple with one-bodied three-headed serpent vs swamp raised ground; no new world mutation",
+  "character_panels": [
+    {
+      "side": "left",
+      "team_id": 6,
+      "team": "Three Dreaded Snake",
+      "official_week10_seed": 11,
+      "week10_record": "4-6",
+      "owner": "Phillip Pitts",
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "approved_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "approved_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "appearance_manifest_path": "canon/characters/CHAR-PHILLIP-PITTS/REFERENCE_MANIFEST.yaml",
+      "appearance_delta_path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+      "atlas_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "atlas_card_path": "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json",
+      "atlas_structural_plate_path": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+      "ffhub_asof": "2026-11-18T16:45:12.354Z",
+      "ffhub_baseline_pct": 9.61,
+      "ffhub_w11_win_pct": 22.76,
+      "ffhub_w11_loss_pct": 2.36,
+      "ffhub_w11_opponent": "Red Leopards",
+      "selected_future_forks": [
+        {
+          "week": 12,
+          "against": "Mud Dogs",
+          "if_win_pct": 13.83,
+          "if_loss_pct": 2.94
+        },
+        {
+          "week": 13,
+          "against": "D0nkey K0ng",
+          "if_win_pct": 19.25,
+          "if_loss_pct": 4.93
+        }
+      ],
+      "rendered_likeness_qa": "NOT_RUN"
+    },
+    {
+      "side": "right",
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "official_week10_seed": 12,
+      "week10_record": "2-8",
+      "owner": "Bobby Mitchell",
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "approved_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+      "approved_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+      "appearance_manifest_path": "canon/characters/CHAR-BOBBY-MITCHELL/REFERENCE_MANIFEST.yaml",
+      "appearance_delta_path": "canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+      "atlas_location_id": "LOC-MUD-DOGS-SWAMP",
+      "atlas_card_path": "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
+      "atlas_structural_plate_path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+      "ffhub_asof": "2026-11-18T16:45:12.354Z",
+      "ffhub_baseline_pct": 0.01,
+      "ffhub_w11_win_pct": 0.07,
+      "ffhub_w11_loss_pct": 0,
+      "ffhub_w11_opponent": "Seven Deadly Chins",
+      "selected_future_forks": [
+        {
+          "week": 12,
+          "against": "Three Dreaded Snake",
+          "if_win_pct": 0.07,
+          "if_loss_pct": 0
+        },
+        {
+          "week": 14,
+          "against": "D0nkey K0ng",
+          "if_win_pct": 0.13,
+          "if_loss_pct": 0
+        }
+      ],
+      "rendered_likeness_qa": "NOT_RUN"
+    }
+  ],
+  "scene_authority": {
+    "full_page_contract": "productions/road-to-seven-2026/folios/RT7-P07/PAGE_PACKET.md",
+    "data_sources": [
+      "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+      "productions/road-to-seven-2026/evidence/FFHUB_FUTURE_FORKS_2026-11-18.json",
+      "productions/road-to-seven-2026/evidence/FLAIM_CURRENT_ROSTERS_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/FLAIM_W12_W14_PROVISIONAL_PROJECTIONS.md",
+      "productions/road-to-seven-2026/evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md"
+    ]
+  },
+  "typography_rule": "One seed/record, one dated FFHub baseline, and one selected future hinge per panel. Full analysis backstage; 390px mobile proof required.",
+  "privacy_rule": "Protected 611 KB vendor packet must not be committed to public Git.",
+  "visual_safety": {
+    "reference_crop_sha_verified": true,
+    "atlas_card_exists": true,
+    "structural_plate_exists": true,
+    "approved_environment_pixel_binding": "TO_REVIEW",
+    "generated_visual_QA": "NOT_RUN",
+    "umpire_release": "NOT_SIGNED"
+  }
+}
