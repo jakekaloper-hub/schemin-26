@@ -460,12 +460,13 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Read-only hanging fringe of the SAME 14 illustrated Mud Dogs tree crowns.
     // Foliage profile is a local scenic candidate, not a plant species or ecology claim.
     // Opaque ribbons reuse existing foliage material and the static foliage draw batch.
-    const positions=[],uv=[],indices=[];let strands=0;
+    const positions=[],uv=[],indices=[],sway=[];let strands=0;
     for(const {i,x,y,z,h} of crowns){
       for(let k=0;k<4;k++){
         const a=k*Math.PI/2+i*.31+.18,r=.84+.06*((k+i)%3);
         const cx=x+Math.cos(a)*r,cz=z+Math.sin(a)*r;
         const top=y+h-.22+.10*(k%2),length=1.08+.12*((k+2*i)%5);
+        const phase=i*1.17+k*2.399;
         // Two crossed planes, each with a separately wound front and back.
         // This avoids changing the shared foliage material's face-culling contract.
         for(let plane=0;plane<2;plane++)for(let face=0;face<2;face++){
@@ -480,6 +481,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
             const yy=top-length*t;
             positions.push(bx-dx*width,yy,bz-dz*width,bx+dx*width,yy,bz+dz*width);
             uv.push(0,1-t,1,1-t);
+            sway.push(phase,t,phase,t);
           }
           for(let row=0;row<3;row++){
             const p=start+row*2,q=p+2;
@@ -493,11 +495,43 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const geo=new THREE.BufferGeometry();
     geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
     geo.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
+    geo.setAttribute('aSway',new THREE.Float32BufferAttribute(sway,2));
     geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
-    const fringe=mesh(g,geo,moss,0,0,0);
+    // Preserve GPU culling even as hanging tips lean within their inherited crown area.
+    geo.boundingSphere.radius+=.22;
+    // One independent GPU animated mesh for the PRE-EXISTING 56 strands.
+    // The former static foliage batch remains unchanged; this adds exactly one
+    // deliberately budgeted draw instead of reauthoring the 14 tree crowns.
+    const fringeMaterial=new THREE.ShaderMaterial({
+      uniforms:{uTime:{value:0},uFoliage:{value:new THREE.Color('#607b54')}},
+      side:THREE.DoubleSide,transparent:false,depthWrite:true,
+      vertexShader:`uniform float uTime;attribute vec2 aSway;varying float vLower;
+        void main(){
+          vLower=aSway.y;
+          vec3 p=position;
+          // Top row remains stationary. Ordinary ambient motion is NOT storm-driven.
+          float tipWeight=aSway.y*aSway.y;
+          float oscillation=.12*sin(uTime*.62+aSway.x)
+                           +.04*sin(uTime*1.07+aSway.x*1.57);
+          p.x+=oscillation*tipWeight;
+          p.z+=oscillation*tipWeight*.62;
+          gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+        }`,
+      fragmentShader:`uniform vec3 uFoliage;varying float vLower;
+        void main(){gl_FragColor=vec4(uFoliage*(.94-.10*vLower),1.);
+          #include <tonemapping_fragment>
+          #include <colorspace_fragment>
+        }`
+    });
+    materials.set('candidate-wetland-canopy-fringe',fringeMaterial);
+    ambientMotion.push(fringeMaterial);
+    const fringe=mesh(g,geo,fringeMaterial,0,0,0);
+    // Dynamic vegetation must not claim a refreshed static shadow map each tick.
+    fringe.castShadow=false;fringe.receiveShadow=false;
     fringe.name='Candidate Mud Dogs canopy fringe';
     fringe.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceStands:crowns.length,
-      strands,triangles:indices.length/3,navigable:false,routeIds:[],principalCharacters:[]};
+      strands,triangles:indices.length/3,navigable:false,routeIds:[],principalCharacters:[],
+      ambientClock:'ORDINARY_ENVIRONMENT',illustrativeMaxTipDisplacement:.19,drawBudgetDelta:1};
     return fringe;
   }
   function swamp(g){

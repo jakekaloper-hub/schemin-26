@@ -36,15 +36,21 @@ test('hanging fringe uses only the 14 existing tree crowns and stays airborne at
   assets.dispose();
 });
 
-test('fringe is folded into existing opaque foliage draw batch and isolated to Mud Dogs',()=>{
+test('moving fringe uses one explicitly budgeted GPU draw while existing opaque foliage still batches',()=>{
   const assets=build(),g=swamp(assets),f=fringe(assets);
-  const canopy=g.children.find(x=>x.userData.wetlandPart==='hanging-vegetation'&&x.material===f.material);
-  assert.ok(canopy,'must reuse an existing opaque hanging-vegetation material');
-  const sameMaterialBefore=g.children.filter(x=>x.isMesh&&x.material===f.material).length;
-  assert.ok(sameMaterialBefore>1);
+  const hanging=g.children.find(x=>x.userData.wetlandPart==='hanging-vegetation');
+  assert.ok(hanging&&hanging.material!==f.material);
+  assert.ok(f.material.isShaderMaterial);
+  assert.equal(f.userData.drawBudgetDelta,1);
+  assert.equal(f.castShadow,false);
+  assert.equal(f.receiveShadow,false);
+  const staticMossBefore=g.children.filter(x=>x.isMesh&&x.material===hanging.material).length;
+  assert.ok(staticMossBefore>1);
   const {geometries}=batchStaticGeometry(THREE,g);
-  assert.equal(g.children.filter(x=>x.isMesh&&x.material===f.material).length,1);
-  assert.ok(!g.children.includes(f));
+  assert.ok(g.children.includes(f),'animated geometry must remain independently GPU-driven');
+  assert.equal(g.children.filter(x=>x===f).length,1,'only one extra scenic draw is retained');
+  assert.equal(g.children.filter(x=>x.isMesh&&x.material===hanging.material).length,1,
+    'existing static opaque foliage should remain a single batch');
   for(const other of assets.locations.filter(x=>x.id!=='LOC-MUD-DOGS-SWAMP'))
     assert.equal(other.group.getObjectByName('Candidate Mud Dogs canopy fringe'),undefined);
   for(const geo of geometries)geo.dispose();assets.dispose();
