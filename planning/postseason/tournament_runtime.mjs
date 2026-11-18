@@ -59,6 +59,7 @@ function sequence(snapshot,testMode=false){
  const known=new Set(entrants.map(x=>x.team_id)), fixtures=snapshot.fixtures||[];
  must(Array.isArray(fixtures)&&fixtures.length<=6,'Too many championship-bracket fixtures');
  must(unique(fixtures.map(f=>f.fixture_id)),'Duplicate fixture IDs');
+ must(fixtures.every(f=>ROUNDS.some(r=>r.key===f.round)),'Unknown future or unsupported round in bracket');
  const teamStatus=Object.fromEntries(entrants.map(t=>[t.team_id,{seed:t.seed,state:t.seed===1?'BYE_ADVANCED':'QUALIFIED',eliminated_round:null}]));
  const events=[{type:'QUALIFICATION_LOCKED',snapshot_id:snapshot.snapshot_id,qualifiers:7,initial_beach_count:5},
  {type:'FIRST_ROUND_BYE',team_id:bye.team_id,source_id:snapshot.snapshot_id}];

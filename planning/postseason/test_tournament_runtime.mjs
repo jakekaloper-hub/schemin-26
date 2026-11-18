@@ -98,11 +98,12 @@ bad('Reject eight qualifiers or duplicate seed',s=>s.entrants.push({team_id:'T8'
 bad('Reject reseeded championship',s=>s.reseed=true);
 bad('Reject invented winner inconsistent with real score',s=>s.fixtures[0].winner_id='T7');
 bad('Reject outcome not certified by source',s=>s.fixtures[0].certified=false);
-bad('Reject semifinal in quarterfinal stage',s=>s.fixtures.push(fixtures('SF')[3]));
+bad('Reject semifinal in quarterfinal stage',s=>{s.fixtures=s.fixtures.slice(0,1);s.fixtures.push(fixtures('SF')[3]);});
 bad('Reject round venue crossover',s=>s.fixtures[0].venue_candidate_id='CAND-POST-CROWN-STAIR');
 bad('Reject invalid old loser returned as finalist',s=>{s.fixtures=fixtures('FINAL');s.fixtures[5].home_id='T7';},'FINAL');
 bad('Reject a contender entering two QFs',s=>s.fixtures[1].away_id='T2');
 bad('Reject duplicate venue use within same round',s=>s.fixtures[1].venue_candidate_id=s.fixtures[0].venue_candidate_id);
 bad('Reject forecast-like winner before final lock',s=>{s.fixtures[0].status='IN_PROGRESS';s.fixtures[0].certified=false;},'QF');
 bad('Reject wrong playoff week',s=>s.fixtures[0].week=16);
+bad('Reject unknown hidden fixture round',s=>s.fixtures.push({...fixtures('QF')[0],fixture_id:'UNKNOWN',round:'UNKNOWN'}));
 console.log(JSON.stringify({status:'PASS',cases:tests.length,season:2026,sporting_data:'SYNTHETIC_TEST_ONLY',future_results_published:0,tests},null,2));
