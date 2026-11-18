@@ -1,6 +1,6 @@
 # THE ROAD TO SEVEN — isolated Schemin ’26 special edition
 
-**Commissioner-approved format:** Seven complete 1080×1920 cinematic PNGs, one cover followed by six split-screen pages, featuring every 2026 character twice? **No:** exactly once, 12 distinct characters across the six interior pages. The pairings are locked to official Week 10 ESPN seed ranks, NOT vendor probability order.
+**Commissioner-approved format:** Seven complete 1080×1920 cinematic PNGs, one cover followed by six split-screen pages, featuring each of the twelve canonical 2026 characters exactly once across the six interior pages. The pairings are locked to official Week 10 ESPN seed ranks, NOT vendor probability order.
 
 **Source cutoff:** Final Week 10 (2026-11-17), entering Week 11. No Week 11 outcome has been decided or insinuated. **Status:** SOURCE-POPULATED PRODUCTION PACKET / NO PNG OUTPUT / INDEPENDENT VISUAL APPROVAL PENDING.
 
