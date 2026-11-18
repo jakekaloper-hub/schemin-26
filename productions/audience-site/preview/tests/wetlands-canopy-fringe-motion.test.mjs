@@ -62,7 +62,7 @@ test('bounded GPU tip motion leaves crown attachment fixed and never alters topo
       const [x,z]=displace(phase,w,time);
       assert.ok(Number.isFinite(x)&&Number.isFinite(z));
       assert.ok(Math.hypot(x,z)<=.19);
-      if(w===0)assert.deepEqual([x,z],[0,0],'crown attachments never move');
+      if(w===0)assert.ok(x===0&&z===0,'crown attachments never move (including IEEE -0)');
     }
   assert.ok(Math.abs(displace(1.17,1,0)[0]-displace(1.17,1,3)[0])>.01);
   assert.equal(a.worldMutationAllowed,false);
