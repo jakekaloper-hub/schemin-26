@@ -77,7 +77,7 @@ function winners(c){var v=c.verified;return v.home.team_slot===v.winner_slot?v.h
 function oldF(y){return byYear[y].filter(function(c){return c.round==='FINAL';})[0];}
 function renderMap(){
 var frame=document.getElementById('map');var prior=frame.querySelector('svg');if(prior)prior.remove();
-var s=svg('svg',{viewBox:'0 0 980 650',role:'img','aria-label':'Schematic island with causeway, beach, training quarters, fixed arenas and championship field'});
+var s=svg('svg',{viewBox:'0 0 980 650',role:'img','aria-label':'Schematic island with causeway, beach, training quarters, fixed arenas and championship field'});frame.appendChild(s);
 svg('path',{d:'M355 100 C435 36 580 69 689 87 C791 114 897 139 924 265 C958 403 911 538 842 575 C726 617 591 581 498 572 C393 550 315 488 322 377 C321 267 305 170 355 100Z',fill:'#65766b',stroke:'#d5c18e','stroke-width':4},s);
 svg('path',{d:'M381 133 Q515 97 694 111 T907 303 Q898 477 790 555 Q688 585 542 546 Q415 507 370 399 Q342 277 381 133Z',fill:'#263d36',stroke:'#536b5e','stroke-width':2},s);
 svg('path',{d:'M330 394 Q402 398 449 433 Q454 492 399 541 L328 506Z',fill:'#bea77b',stroke:'#e2d0a4','stroke-width':2},s);
