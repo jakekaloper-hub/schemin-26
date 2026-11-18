@@ -99,6 +99,22 @@ def run():
         test(scene.get("id") == "RT7-P%02d" % i, "Bad scene ID")
         test(art.get("width") == 1080 and art.get("height") == 1920 and art.get("format") == "PNG",
              "Bad PNG geometry or format for page %02d" % i)
+        rig = scene.get("lighting_contract", {})
+        test(rig.get("method") == "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+             "Missing baked lighting method on page %02d" % i)
+        test(len(scene.get("visual_studio", {}).get("specialist_lenses", [])) >= 2,
+             "Missing page-specific visual specialist lens routing on page %02d" % i)
+        test(scene.get("writing_contract", {}).get("copy_path", "").endswith("INKLINGS_TWELVE_POV_EDITORIAL_COPY.md"),
+             "Missing parallel Inklings copy source page %02d" % i)
+        for field in ("time", "text_safe", "forbidden"):
+            test(bool(rig.get(field)), "Lighting rig missing %s page %02d" % (field, i))
+        if i > 1:
+            for side in ("left", "right"):
+                for field in ("key", "fill", "rim", "air"):
+                    test(bool(rig.get(side, {}).get(field)),
+                         "Lighting rig missing %s.%s page %02d" % (side, field, i))
+            test("## Publication copy lock — November 18 FFHub cohort" in (FOLIOS / ("RT7-P%02d" % i) / "PAGE_PACKET.md").read_text(),
+                 "Publication cohort lock missing on %02d" % i)
         panels = scene.get("character_panels", [])
         test(len(panels) == (0 if i == 1 else 2), "Bad scene panel count on %02d" % i)
         for p in panels:
@@ -116,6 +132,22 @@ def run():
                 card_obj = json.loads(card.read_text(encoding="utf-8"))
                 test(p.get("character_id") in card_obj.get("owner_character_ids", []),
                      "Atlas owner mismatch " + str(p.get("team")))
+            folio_copy = (FOLIOS / ("RT7-P%02d" % i) / "PAGE_PACKET.md").read_text(encoding="utf-8")
+            # Publication text is checked separately from source JSON. Legacy Nov17 narrative sections remain archival.
+            if i < 7:
+                expected_line = (
+                    "PLAYOFF OUTLOOK %.1f%% (FFHUB, NOV 18)" % float(p.get("ffhub_baseline_pct", -1))
+                )
+                test(expected_line in folio_copy,
+                     "On-image baseline no longer matches Nov18 scene source for " + str(p.get("team")))
+                expected_win = "WIN W11 %.1f%%" % float(p.get("ffhub_w11_win_pct", -1))
+                expected_loss = "LOSE W11 %.1f%%" % float(p.get("ffhub_w11_loss_pct", -1))
+                test(expected_win in folio_copy and expected_loss in folio_copy,
+                     "On-image conditional odds do not match Nov18 for " + str(p.get("team")))
+            else:
+                expected = "FFHUB NOV 18 %.2f%%" % float(p.get("ffhub_baseline_pct", -1))
+                test(expected in folio_copy,
+                     "P07 source cohort does not match Nov18 for " + str(p.get("team")))
             record = indexed.get(p.get("team"))
             test(record is not None, "Missing live FFHub current team for " + str(p.get("team")))
             if record:
