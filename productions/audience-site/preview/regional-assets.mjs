@@ -409,6 +409,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const sides=28,radii=[.27,.53,.77,.955],heights=[.88,.73,.36,-.12];
     const positions=[],colors=[],islandIds=[],faces=[];
     const strata=['#697456','#626952','#555844','#393e35'].map(v=>new THREE.Color(v));
+    // Scenic material transitions on the SAME four raised-ground footprints.
+    // Lower shelves retain a dark wet-mud wash; higher terraces show broken silt.
+    const marginMud=new THREE.Color('#26382d'),siltDust=new THREE.Color('#84775b');
     islands.forEach(([cx,cy,cz,sx,sy,sz],island)=>{
       const start=positions.length/3;
       function vertex(x,y,z,color){positions.push(x,y,z);colors.push(color.r,color.g,color.b);islandIds.push(island);}
@@ -419,7 +422,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
         const radial=radii[r]*jostle;
         const yVariation=(Math.sin(theta*4+island*.7)*.046+Math.cos(theta*7-island*1.2)*.029)*(1-r*.20);
         const elevation=cy+sy*(heights[r]+yVariation);
-        const tint=strata[r].clone().multiplyScalar(.90+.095*(.5+.5*Math.sin(theta*8+island+r)));
+        const wetWeight=(r===3?.34:r===2?.15:0)*(.86+.14*Math.sin(theta*6.8+island*.91));
+        const siltWeight=(r===1?.12:r===2?.085:0)*(.5+.5*Math.sin(theta*11.+island*1.3));
+        const tint=strata[r].clone().lerp(marginMud,wetWeight).lerp(siltDust,siltWeight)
+          .multiplyScalar(.90+.095*(.5+.5*Math.sin(theta*8+island+r)));
         vertex(cx+Math.cos(theta)*sx*radial,elevation,cz+Math.sin(theta)*sz*radial,tint);
       }
       for(let i=0;i<sides;i++)faces.push(start,start+1+(i+1)%sides,start+1+i);
