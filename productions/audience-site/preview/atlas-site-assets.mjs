@@ -188,6 +188,38 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   return course;
  }
 
+ // Source-exact Southern Speedway grandstand: eight existing tiers retain
+ // their box envelopes, while shallow physical stone tread joints and subdued
+ // grain replace their otherwise flat face treatment. Illustrative only:
+ // no spectator, race outcome, vehicle translation, architectural or canon claim.
+ let speedwayGrandstandMaterial=null;
+ function speedwayGrandstandTier(g,z,row){
+  const width=8,height=.4,depth=.55,geo=new THREE.BoxGeometry(width,height,depth,32,4,6);
+  const p=geo.getAttribute('position'),n=geo.getAttribute('normal'),colors=[];
+  for(let i=0;i<p.count;i++){
+   const x=p.getX(i),y=p.getY(i),v=p.getZ(i),ny=n.getY(i),nz=n.getZ(i);
+   const seam=Math.pow(.5+.5*Math.cos((x+4)*Math.PI*4),12);
+   const grain=.5+.5*Math.sin(x*11.3+v*16.7+row*.83)*Math.cos(x*5.7-v*21.5);
+   const endFade=Math.max(0,Math.min(1,(4-Math.abs(x))/.25));
+   if(ny>.5){
+    const inset=endFade*Math.max(0,1-Math.abs(v)/.275)*(.034*seam+.008*grain);
+    p.setY(i,y-inset);
+   }else if(Math.abs(nz)>.5){
+    const mid=Math.max(0,1-Math.abs(y)/.2);
+    p.setZ(i,v-Math.sign(v)*.017*seam*mid*endFade);
+   }
+   const shade=.67+.15*grain-.14*seam,face=ny>.5?1:.79;
+   colors.push(.72*shade*face,.70*shade*face,.65*shade*face);
+  }
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.computeVertexNormals();geo.computeBoundingSphere();
+  if(!speedwayGrandstandMaterial)speedwayGrandstandMaterial=mat('#ffffff','stone',{vertexColors:true,roughness:.98,metalness:0});
+  const tier=mesh(g,geo,speedwayGrandstandMaterial,0,.45+row*.36,z,'Grandstand tier');
+  tier.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+   sourceGeometry:'existing Southern Speedway grandstand tier',
+   originalDimensions:[8,.4,.55],row};
+  return tier;
+ }
  // Weather exposure is source-recorded for LOC-STORM-BOWL, but the tiny chips
  // and mineral shades below are reversible presentation details, not an event.
  // One existing seat stays one static mesh; existing anchors and box limits
@@ -846,7 +878,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-BRIDGE-MOUNTAIN-LAKE'(g){const lake=waterSurface(g,0,.25,0,8.7,5.9,'mountain lake','#477f89');for(const x of [-6.8,6.8])rock(g,x,.15,0,2.1,1,3.4,M.slate);const span=arch(g,0,.3,0,3.4,.65,2.3,M.stone);box(g,0,4.27,0,9.3,.45,2.6,M.stone);for(const z of [-1.25,1.25]){box(g,0,4.7,z,9.2,.8,.18,M.light);for(let i=0;i<11;i++)box(g,-4.25+i*.85,4.7,z,.12,1,.24,M.stone);}for(const s of [-1,1])for(let i=0;i<6;i++)box(g,s*(4.8+i*.5),0,0,.52,4.7-i*.7,2.8,M.stone);const jump=box(g,2.8,4.7,1.6,1.35,.18,.85,M.light,'Recorded jump-point edge');for(const x of [-7.2,7.2])conifer(g,x,-3.3,.8);return [span,lake,jump];},
   'LOC-DK-MUD-HILL'(g){const hill=rock(g,0,.8,0,6,2.4,4.7,M.earth);for(let i=0;i<7;i++){const a=i*2.1;rock(g,Math.cos(a)*4.4,.25,Math.sin(a)*3.6,1.3,.45,1.1,M.slate);}const mire=waterSurface(g,1,.22,1.3,7.2,5.2,'mire','#515d46');mireHillSedimentShelves(g);const standards=flag(g,-1.9,2.6,0,M.red);flag(g,1.8,2.6,-.3,M.blue);box(g,0,2.15,2.2,3,.2,1,M.earth,'Worn illustrative ridge');return [hill,mire,standards];},
   'LOC-RED-SLOB-ALPINE-ROUTE'(g){const summit=alpineSurface(g,0,1.4,-1.7,5.5,4.1,4.1);alpineSurface(g,.2,4.2,-1.8,3.8,.85,2.9,true);for(let i=0;i<6;i++){const a=i*.7;rock(g,-5+i*1.8,.3,Math.sin(a)*3.2,1.6,.9,1.2,M.slate);}const camp=roof(g,-3,.4,3.5,3.2,3,2.5,M.red);roof(g,2,.4,4.1,2.6,2.7,2.1,M.canvas);const marker=cyl(g,2.9,2.7,-1,.28,.45,1.9,M.stone,7,'Wager marker');flag(g,3,4.6,-1,M.red);return [summit,camp,marker];},
-  'LOC-SOUTHERN-SPEEDWAY'(g){const track=speedwayTrack(g);const inner=cyl(g,0,0,0,4,4,.3,M.green,40,'Racecourse infield');inner.scale.z=.64;for(const z of [-5.7,5.7]){for(let row=0;row<4;row++)box(g,0,.25+row*.36,z+Math.sign(z)*row*.55,8,.4,.55,M.stone,'Grandstand tier');roof(g,0,2.7,z+Math.sign(z)*.7,8.8,2.3,.75,M.red);for(const x of [-3.7,3.7])for(const dz of [-.65,.65])cyl(g,x,.25,z+Math.sign(z)*.7+dz,.1,.14,2.45,M.timber,6);}const stand=g.children.find(o=>o.name==='Grandstand tier');for(const x of [-7.2,7.2])flag(g,x,.3,0,M.red);return [track,stand];},
+  'LOC-SOUTHERN-SPEEDWAY'(g){const track=speedwayTrack(g);const inner=cyl(g,0,0,0,4,4,.3,M.green,40,'Racecourse infield');inner.scale.z=.64;for(const z of [-5.7,5.7]){for(let row=0;row<4;row++)speedwayGrandstandTier(g,z+Math.sign(z)*row*.55,row);roof(g,0,2.7,z+Math.sign(z)*.7,8.8,2.3,.75,M.red);for(const x of [-3.7,3.7])for(const dz of [-.65,.65])cyl(g,x,.25,z+Math.sign(z)*.7+dz,.1,.14,2.45,M.timber,6);}const stand=g.children.find(o=>o.name==='Grandstand tier');for(const x of [-7.2,7.2])flag(g,x,.3,0,M.red);return [track,stand];},
   'LOC-LLC-STORM-CITY'(g){waterSurface(g,1,.22,3.9,10,6.2,'sheltered port','#356572');box(g,0,.3,-.7,13,.65,9,M.slate);let tower;for(const [x,z,h]of [[-4,-3,6],[0,-3.5,8],[4,-3,5.6],[-3,0,4],[2,0,4.7]]){const body=stormCityMercantileTower(g,x,z,h);roof(g,x,h+.95,z,3.2,3,1.4,M.blue);for(let j=0;j<3;j++)box(g,x,2.1+j*1.2,z+1.27,1,.5,.04,M.glass);tower??=body;}const barriers=box(g,0,.9,4,13,1.35,.55,M.dark,'Storm barrier');for(let i=0;i<7;i++)box(g,-6+i*2,1.7,4,.3,1.05,.85,M.stone);steps(g,5,6.1,1.5,6,.16);return [tower,barriers];},
   'LOC-DK-HIGHLAND-STRONGHOLD'(g){box(g,0,0,0,13,.8,11,M.slate);const stronghold=hall(g,0,-3,8,4,4.6,M.stone,M.red);for(const x of [-5.4,5.4]){box(g,x,.8,0,1,3.3,8,M.stone);cyl(g,x,.8,3.8,1,1.2,4.9,M.slate,8);roof(g,x,5.7,3.8,2.6,2.6,1.5,M.red);}const court=highlandTrainingCourt(g);for(const x of [-2.5,2.5]){beam(g,[x,.9,1.1],[x,2.7,1.1],.15,M.wood);beam(g,[x-.6,2.3,1.1],[x+.6,2.3,1.1],.1,M.wood);}const road=steps(g,0,6.3,3.2,5,.17);for(const x of [-3.8,3.8])flag(g,x,.8,3.4,M.red);return [stronghold,court,road];},
   'LOC-TDS-CHILI-SHARED-MARCH'(g){box(g,0,0,0,13,.2,11,M.earth);const settlement=pavilion(g,-3.2,-1.5,4.7,3.8,3,M.deepGreen);pavilion(g,3.4,-2,4,3.4,2.8,M.red);waterSurface(g,0,.25,2.8,7.8,1.5,'watercourse crossing','#46766c');const crossing=sharedMarchPlankedCrossing(g);for(const x of [-1.1,1.1])box(g,x,.8,2.8,.12,.75,4.1,M.wood);const quarter=hall(g,-3.4,-4.1,4.6,2.8,2.8,M.wood,M.canvas);desk(g,3.3,.2,-.8,3.5);fence(g,4.7,3.2,3.5,3);for(const x of [-6,6])tree(g,x,-4.2,.7,M.paleGreen);crossingBankReeds(g);return [settlement,crossing,quarter];},
