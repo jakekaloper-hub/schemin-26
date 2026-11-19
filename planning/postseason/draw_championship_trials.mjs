@@ -25,7 +25,7 @@ export const CEREMONY={
   eligibility_law:'Stable lexicon ID order, physical venue and round, minimum technology year, no severe-event conditions. One per fixture, all three stages directly executed by principal.',
   avoid_repeating_seed:'Consecutive allocated historical matches within the same season and round should prefer unique selections via a predeclared no-repeat ordering; if no options remain the draw may reuse.',
   winner_policy:'The draw chooses WHAT is attempted, never WHO wins. Official ESPN source remains independently immutable.',
-  2026_policy:'DO NOT DRAW A NAMED 2026 MATCHUP UNTIL OFFICIAL PAIRING IS LOCKED; a source-specific future-season seed can be published before outcome, but not in advance of opponents.'
+  future_2026_policy:'DO NOT DRAW A NAMED 2026 MATCHUP UNTIL OFFICIAL PAIRING IS LOCKED; a source-specific future-season seed can be published before outcome, but not in advance of opponents.'
 };
 const hex=x=>crypto.createHash('sha256').update(x,'utf8').digest('hex');
 export function drawOne({fixture,obstacles,historySalt=CEREMONY.disclosed_salt,excludedIds=[]}){
