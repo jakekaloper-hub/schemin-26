@@ -395,6 +395,43 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
   const o=mesh(g,existingWaterDisk(),material,x,y,z,'Moving '+kind+' candidate');o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.receiveShadow=false;water.push({mesh:o,material,kind});return o;
  }
+ // Shallow, discontinuous sediment shelves around Mire Hill's EXISTING mire.
+ // The twelve shoals are local candidate relief inside the original water
+ // disk: they neither create dry Atlas land nor edit its shoreline/topology.
+ // Their lower edges sit just below the unchanged moving water surface.
+ function mireHillSedimentShelves(g){
+  const positions=[],colors=[],indices=[],shoals=12,angularSteps=8,radialSteps=4;
+  for(let k=0;k<shoals;k++){
+   const start=positions.length/3;
+   const centre=k*2*Math.PI/shoals+.055*Math.sin(k*2.37);
+   const width=.285+.018*Math.sin(k*1.7);
+   for(let i=0;i<=radialSteps;i++)for(let j=0;j<=angularSteps;j++){
+    const v=i/radialSteps,u=j/angularSteps;
+    const a=centre+(u-.5)*width;
+    const r=.81+.165*v+.008*Math.sin(u*Math.PI*2)*Math.sin(k*1.2)*v*(1-v);
+    const fade=Math.sin(Math.PI*u)*Math.sin(Math.PI*v);
+    const height=.216+.055*Math.pow(Math.max(0,fade),1.4)*(.8+.2*Math.sin(k*2.1+1))
+       +.005*fade*Math.sin(k*2.5+u*10+v*8);
+    positions.push(7.2*r*Math.cos(a),height,5.2*r*Math.sin(a));
+    const shade=.86+.11*Math.sin(k*1.93+u*5.3+v*4.1);
+    colors.push(.44*shade,.34*shade,.23*shade);
+   }
+   const row=angularSteps+1;
+   for(let i=0;i<radialSteps;i++)for(let j=0;j<angularSteps;j++){
+    const a=start+i*row+j,b=a+1,c=a+row,d=c+1;
+    indices.push(a,b,c,b,d,c);
+   }
+  }
+  const geo=new THREE.BufferGeometry();geo.name='Mire Hill candidate sediment relief';
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);geo.computeVertexNormals();
+  const sediment=mesh(g,geo,mat('#ffffff','',{vertexColors:true,roughness:.97,metalness:0,side:THREE.DoubleSide}),1,0,1.3,'Mire Hill sediment shelves · candidate');
+  sediment.castShadow=false;
+  sediment.userData={...sediment.userData,visualAuthority:'CANDIDATE_NOT_APPROVED',sourceWaterKind:'mire',shoalCount:shoals};
+  return sediment;
+ }
+
  // Only the source-exact Chili Stable pit uses layered, time-advected wisps.
  // Other existing smoke sites retain their prior shader. Candidate art only;
  // no new geometry/materials, atmospheric authority or world state.
@@ -597,7 +634,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-LEAGUE-CHAMBER'(g){box(g,0,0,0,9,.5,7,M.stone);for(const x of [-4,4])box(g,x,.5,-.3,.6,4,6,M.light);box(g,0,.5,-3,8,4,.5,M.light);roof(g,0,4.5,-1,9,5,1.9,M.blue);const map=box(g,0,1.8,-2.68,4.8,1.85,.07,M.gold,'Map wall');box(g,0,1.9,-2.61,4.55,1.6,.04,M.deepGreen);leagueChamberAtlasMarks(g);const record=desk(g,0,.5,.4,4.4);ledger(g,-1,1.8,.4);for(const x of [-3,3])cyl(g,x,.5,2,.24,.34,3.6,M.light,10);steps(g,0,4.3,5,4,.15);return [record,map];},
   'LOC-PITTSYS-BOOK'(g){box(g,0,0,0,8.3,.3,6,M.stone);pavilion(g,0,-.5,7,4,3.8,M.deepGreen);const boards=box(g,0,1,-2.3,6.1,2.7,.22,M.timber,'Ledger boards');for(const x of [-2,0,2]){box(g,x,1.2,-2.15,1.55,2.1,.05,M.ivory);for(let j=0;j<5;j++)box(g,x,1.45+j*.32,-2.1,1.3,.035,.03,M.gold);}const settlement=desk(g,0,.3,1.2,5.9,M.dark);ledger(g,-1.6,1.6,1.2);ledger(g,1.1,1.6,1.2);pittsysOpenLedger(g);flag(g,3.7,.3,2.1,M.deepGreen);return [boards,settlement];},
   'LOC-BRIDGE-MOUNTAIN-LAKE'(g){const lake=waterSurface(g,0,.25,0,8.7,5.9,'mountain lake','#477f89');for(const x of [-6.8,6.8])rock(g,x,.15,0,2.1,1,3.4,M.slate);const span=arch(g,0,.3,0,3.4,.65,2.3,M.stone);box(g,0,4.27,0,9.3,.45,2.6,M.stone);for(const z of [-1.25,1.25]){box(g,0,4.7,z,9.2,.8,.18,M.light);for(let i=0;i<11;i++)box(g,-4.25+i*.85,4.7,z,.12,1,.24,M.stone);}for(const s of [-1,1])for(let i=0;i<6;i++)box(g,s*(4.8+i*.5),0,0,.52,4.7-i*.7,2.8,M.stone);const jump=box(g,2.8,4.7,1.6,1.35,.18,.85,M.light,'Recorded jump-point edge');for(const x of [-7.2,7.2])conifer(g,x,-3.3,.8);return [span,lake,jump];},
-  'LOC-DK-MUD-HILL'(g){const hill=rock(g,0,.8,0,6,2.4,4.7,M.earth);for(let i=0;i<7;i++){const a=i*2.1;rock(g,Math.cos(a)*4.4,.25,Math.sin(a)*3.6,1.3,.45,1.1,M.slate);}const mire=waterSurface(g,1,.22,1.3,7.2,5.2,'mire','#515d46');const standards=flag(g,-1.9,2.6,0,M.red);flag(g,1.8,2.6,-.3,M.blue);box(g,0,2.15,2.2,3,.2,1,M.earth,'Worn illustrative ridge');return [hill,mire,standards];},
+  'LOC-DK-MUD-HILL'(g){const hill=rock(g,0,.8,0,6,2.4,4.7,M.earth);for(let i=0;i<7;i++){const a=i*2.1;rock(g,Math.cos(a)*4.4,.25,Math.sin(a)*3.6,1.3,.45,1.1,M.slate);}const mire=waterSurface(g,1,.22,1.3,7.2,5.2,'mire','#515d46');mireHillSedimentShelves(g);const standards=flag(g,-1.9,2.6,0,M.red);flag(g,1.8,2.6,-.3,M.blue);box(g,0,2.15,2.2,3,.2,1,M.earth,'Worn illustrative ridge');return [hill,mire,standards];},
   'LOC-RED-SLOB-ALPINE-ROUTE'(g){const summit=alpineSurface(g,0,1.4,-1.7,5.5,4.1,4.1);alpineSurface(g,.2,4.2,-1.8,3.8,.85,2.9,true);for(let i=0;i<6;i++){const a=i*.7;rock(g,-5+i*1.8,.3,Math.sin(a)*3.2,1.6,.9,1.2,M.slate);}const camp=roof(g,-3,.4,3.5,3.2,3,2.5,M.red);roof(g,2,.4,4.1,2.6,2.7,2.1,M.canvas);const marker=cyl(g,2.9,2.7,-1,.28,.45,1.9,M.stone,7,'Wager marker');flag(g,3,4.6,-1,M.red);return [summit,camp,marker];},
   'LOC-SOUTHERN-SPEEDWAY'(g){const track=speedwayTrack(g);const inner=cyl(g,0,0,0,4,4,.3,M.green,40,'Racecourse infield');inner.scale.z=.64;for(const z of [-5.7,5.7]){for(let row=0;row<4;row++)box(g,0,.25+row*.36,z+Math.sign(z)*row*.55,8,.4,.55,M.stone,'Grandstand tier');roof(g,0,2.7,z+Math.sign(z)*.7,8.8,2.3,.75,M.red);for(const x of [-3.7,3.7])for(const dz of [-.65,.65])cyl(g,x,.25,z+Math.sign(z)*.7+dz,.1,.14,2.45,M.timber,6);}const stand=g.children.find(o=>o.name==='Grandstand tier');for(const x of [-7.2,7.2])flag(g,x,.3,0,M.red);return [track,stand];},
   'LOC-LLC-STORM-CITY'(g){waterSurface(g,1,.22,3.9,10,6.2,'sheltered port','#356572');box(g,0,.3,-.7,13,.65,9,M.slate);let tower;for(const [x,z,h]of [[-4,-3,6],[0,-3.5,8],[4,-3,5.6],[-3,0,4],[2,0,4.7]]){const body=stormCityMercantileTower(g,x,z,h);roof(g,x,h+.95,z,3.2,3,1.4,M.blue);for(let j=0;j<3;j++)box(g,x,2.1+j*1.2,z+1.27,1,.5,.04,M.glass);tower??=body;}const barriers=box(g,0,.9,4,13,1.35,.55,M.dark,'Storm barrier');for(let i=0;i<7;i++)box(g,-6+i*2,1.7,4,.3,1.05,.85,M.stone);steps(g,5,6.1,1.5,6,.16);return [tower,barriers];},
