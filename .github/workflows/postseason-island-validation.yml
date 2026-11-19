@@ -61,3 +61,19 @@ jobs:
         run: node planning/postseason/score_summit_readiness.mjs --check
       - name: Verify Founder island supersession without editing canonical Atlas
         run: node planning/postseason/build_atlas_supersession_packet.mjs --check
+      - name: Validate Founder Interview II immutable score, draw, solo performance and permanent damage
+        run: node planning/postseason/test_founder_interview_ii.mjs
+      - name: Reject invented 2026 ceremonial draws before verified source locks
+        run: node planning/postseason/test_2026_ceremonial_draw_gates.mjs
+      - name: Check immutable historical ceremonial selections
+        run: node planning/postseason/draw_championship_trials.mjs --check
+      - name: Verify every encounter preserves a repairable permanent terrain trace
+        run: node planning/postseason/build_permanent_impact_ledger.mjs --check
+      - name: Check all 168 personally performed narrative challenge stages
+        run: node planning/postseason/build_interview_ii_scene_contracts.mjs --check
+      - name: Check 112 nonlethal fictional personal condition effects
+        run: node planning/postseason/build_owner_body_continuity.mjs --check
+      - name: Check 672 cinema previsualization camera contracts
+        run: node planning/postseason/build_interview_ii_visual_storyboards.mjs --check
+      - name: Check eleven Last Field finale rewrites agree with ceremonial draws
+        run: node planning/postseason/build_last_field_finales_interview_ii.mjs --check
