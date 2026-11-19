@@ -49,18 +49,37 @@ test('four open physical rims/hubs and eight spokes per wheel are bounded and de
  }
  assert.deepEqual([...hits].sort(),[0,1,2,3]);assert.ok(hi-lo>.13);
  for(const [x,y,z] of centers){
-  let rim=0,hub=0,spoke=0,gap=0;
+  let rim=0,hub=0,spokeRoots=0,spokeTips=0,bridge=0,gap=0;
+  const angularBins=new Set();
   for(let i=0;i<p.count;i++){
    if(Math.abs(p.getX(i)-x)>.07501)continue;
    const dy=p.getY(i)-y,dz=p.getZ(i)-z,r=Math.hypot(dy,dz);
-   if(r>.288&&r<.401)rim++;if(r<.117)hub++;
-   if(r>.14&&r<.27){
-    spoke++;
-    const angle=Math.atan2(dy,dz),delta=Math.atan2(Math.sin(angle-Math.PI/8),Math.cos(angle-Math.PI/8));
-    if(Math.abs(delta)<.08)gap++;
-   }
+   if(r>.288&&r<.401)rim++;
+   if(r<.117)hub++;
+   if(r>.108&&r<.112)spokeRoots++;
+   if(r>.325&&r<.33)spokeTips++;
   }
-  assert.ok(rim>0&&hub>0&&spoke>0);assert.equal(gap,0,'spoke openings remain clear');
+  // Spoke prisms span the hub-to-rim opening through triangles, not
+  // intermediate vertices. Check actual indexed triangle centroids.
+  const index=g.getIndex();
+  for(let k=0;k<index.count;k+=3){
+   const ids=[index.getX(k),index.getX(k+1),index.getX(k+2)];
+   const cx=ids.reduce((s,i)=>s+p.getX(i),0)/3;
+   if(Math.abs(cx-x)>.07501)continue;
+   const dy=ids.reduce((s,i)=>s+p.getY(i),0)/3-y;
+   const dz=ids.reduce((s,i)=>s+p.getZ(i),0)/3-z;
+   const r=Math.hypot(dy,dz);
+   if(r<.15||r>.28)continue;
+   const angle=Math.atan2(dy,dz);
+   const sector=Math.round(angle/(Math.PI/4));
+   const delta=Math.atan2(Math.sin(angle-sector*Math.PI/4),Math.cos(angle-sector*Math.PI/4));
+   if(Math.abs(delta)<.13){bridge++;angularBins.add((sector%8+8)%8);}
+   const gapDelta=Math.atan2(Math.sin(angle-Math.PI/8),Math.cos(angle-Math.PI/8));
+   if(Math.abs(gapDelta)<.08)gap++;
+  }
+  assert.ok(rim>0&&hub>0&&spokeRoots>0&&spokeTips>0&&bridge>0);
+  assert.equal(angularBins.size,8,'each wheel has eight separated physical spoke prisms');
+  assert.equal(gap,0,'between-spoke annular gap remains physically open');
  }
  const b=build(),g2=wheels(b).geometry;
  assert.deepEqual(p.array,g2.getAttribute('position').array);
