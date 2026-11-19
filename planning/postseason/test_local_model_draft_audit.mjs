@@ -29,6 +29,9 @@ check('Magical blast is rejected',s=>s+'\nThe Immortal uses an energy blast.','U
 check('Unprotected collapsing Last Field-like floor is rejected',s=>s+'\nThe ground gave way beneath him into a deep crevice.','UNPROTECTED_HISTORIC_ARENA_COLLAPSE');
 check('In-world internal fixture ID is rejected',s=>s+'\nANNOUNCER: HIST-POST-2018-QF-1 starts now!','INTERNAL_FIXTURE_ID_LEAKED_IN_WORLD_DIALOGUE');
 check('Unexpected language leakage is rejected',s=>s+'\nA decisive 反击 follows.','UNREVIEWED_LANGUAGE_SCRIPT_LEAK');
+check('Holograms and droids are rejected as unauthorized technology',s=>s+'\nA holographic droid joins the contest.','UNAUTHORIZED_FUTURISTIC_WORLD_TECH');
+check('Spectator contradictions are rejected',s=>s+'\nANNOUNCER: No spectators may witness this final.','AUDIENCE_EVENT_CONTRADICTION');
+check('Permanent Last Field foundation may not be drilled into',s=>s+'\nA satchel is embedded in the foundation to trigger mechanical pistons.','INTRUSIVE_HISTORIC_LAST_FIELD_FOUNDATION_DAMAGE');
 check('Truncated prose is rejected',s=>s.slice(0,530),'SHORT_UNDERDEVELOPED_SCREENPLAY');
 console.log(JSON.stringify({status:'PASS',test_count:tests.length,tests}));
 }finally{fs.rmSync(tmp,{recursive:true,force:true});}
