@@ -26,7 +26,7 @@ test('Temple retains its single fixed-edge, physically animated falling sheet',(
  assert.match(vertex,/sideHold=sin\(uv\.x\*3\.14159265\)/);
  assert.match(vertex,/endHold=sin\(uv\.y\*3\.14159265\)/);
  assert.match(vertex,/p\.z\+=\.10\*sideHold\*endHold\*folds/);
- assert.match(source,/new THREE\.PlaneGeometry\(width,drop,8,12\)/);
+ assert.match(source,/new THREE\.PlaneGeometry\(width,drop,24,32\)/);
  assert.match(source,/waterfall\(g,-5\.8,7\.2,1\.8,2\.15,6\.9\)/);
  assert.doesNotMatch(vertex,/\buStorm\b|\buWeather\b/i);
 });

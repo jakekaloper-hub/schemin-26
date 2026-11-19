@@ -15,10 +15,10 @@ test('falling Temple sheet preserves original position, dimensions, and fixed bo
  assert.equal(fall.length,1,'one inherited falling waterfall');
  const {mesh,material}=fall[0],geo=mesh.geometry;
  assert.equal(geo.type,'PlaneGeometry');
- assert.deepEqual([geo.parameters.width,geo.parameters.height,geo.parameters.widthSegments,geo.parameters.heightSegments],[2.15,6.9,8,12]);
+ assert.deepEqual([geo.parameters.width,geo.parameters.height,geo.parameters.widthSegments,geo.parameters.heightSegments],[2.15,6.9,24,32]);
  assert.deepEqual(mesh.position.toArray(),[-5.8,7.2-6.9/2,1.8]);
  assert.equal(mesh.renderOrder,2);assert.equal(material.uniforms.uFall.value,1);
- assert.equal(geo.getAttribute('position').count,9*13);
+ assert.equal(geo.getAttribute('position').count,25*33);
  const uv=geo.getAttribute('uv'),pos=geo.getAttribute('position');
  let perimeter=0,interior=0;
  for(let i=0;i<uv.count;i++){
@@ -65,4 +65,37 @@ test('global weather calm cannot freeze falling water; pause does and source rem
  assert.equal(a.locations[0].group.userData.visualAuthority,'CANDIDATE_NOT_APPROVED');
  assert.equal(JSON.stringify(bindings),before);
  a.dispose();
+});
+
+test('higher-density Temple sheet resolves both inherited fold harmonics without added draw instances',()=>{
+ const before=JSON.stringify(bindings),a=create(),fall=a.water.find(w=>w.kind==='waterfall'),geo=fall.mesh.geometry;
+ const uv=geo.getAttribute('uv'),p=geo.getAttribute('position');
+ const samplesX=new Set(),samplesY=new Set(),boundary=[];
+ for(let i=0;i<uv.count;i++){
+  const u=uv.getX(i),v=uv.getY(i);
+  samplesX.add(u.toFixed(6));samplesY.add(v.toFixed(6));
+  if(u<1e-6||u>1-1e-6||v<1e-6||v>1-1e-6)boundary.push(i);
+  assert.equal(p.getZ(i),0,'unanimated rest surface unchanged');
+ }
+ assert.equal(samplesX.size,25);assert.equal(samplesY.size,33);
+ assert.equal(geo.index.count,24*32*6);
+ assert.ok(geo.getAttribute('position').count<900,'bounded one-sheet mobile vertex budget');
+ // The 29-radian cross-sheet harmonic requires >9 segments by Nyquist;
+ // preserve additional headroom for view-dependent folds and two-band layering.
+ assert.ok(geo.parameters.widthSegments>=20);
+ assert.ok(boundary.length>100,'all four sheet edges have physical vertices');
+ const shader=fall.material.vertexShader;
+ assert.match(shader,/uv\\.x\\*29\\./);
+ assert.match(shader,/uv\\.x\\*17\\./);
+ assert.match(shader,/sideHold\\*endHold\\*folds/);
+ assert.equal(a.water.filter(w=>w.kind==='waterfall').length,1);
+ a.tick(1.2,{globalCalm:true,storm:0});
+ a.tick(5.6,{globalCalm:true,storm:0});
+ assert.equal(fall.material.uniforms.uTime.value,5.6);
+ a.tick(8,{paused:true,storm:9});
+ assert.equal(fall.material.uniforms.uTime.value,5.6);
+ let disposalCount=0;geo.addEventListener('dispose',()=>disposalCount++);
+ a.dispose();a.dispose();
+ assert.equal(disposalCount,1);
+ assert.equal(JSON.stringify(bindings),before);
 });

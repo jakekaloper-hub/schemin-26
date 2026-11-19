@@ -347,7 +347,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const o=mesh(g,geometry,m,x,y,z);o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.renderOrder=2;water.push({kind,material:m,mesh:o});return o;
   }
   function waterfall(g,x,y,z,width,drop){
-    const m=waterMaterial('waterfall','#67aaa0'),o=mesh(g,new THREE.PlaneGeometry(width,drop,8,12),m,x,y-drop/2,z);o.castShadow=false;o.renderOrder=2;water.push({kind:'waterfall',material:m,mesh:o});
+    const m=waterMaterial('waterfall','#67aaa0'),o=mesh(g,new THREE.PlaneGeometry(width,drop,24,32),m,x,y-drop/2,z);o.castShadow=false;o.renderOrder=2;water.push({kind:'waterfall',material:m,mesh:o});
     // Moving landing ripples, not frozen metallic-looking torus props.
     // Candidate local detail only: no claim about actual approved hydrology geometry.
     for(let i=0;i<4;i++){
