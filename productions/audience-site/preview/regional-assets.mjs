@@ -147,6 +147,15 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float foldFacet=clamp(abs(sheetNormal.z),0.,1.);
         vec3 fallBase=mix(uColor,vec3(.84,.96,.89),.27+stripe*.14+foam*.17);
         vec3 fallTint=clamp(fallBase*(.945+.055*foldFacet)+vec3(.08,.10,.08)*(grazing*.32),0.,1.);
+        // Narrow foam threads travel over the EXISTING folded falling sheet.
+        // Bounded visual turbulence; no invented watercourse or climate input.
+        float threadCoordinate=vUv.x*47.+sin(vUv.y*13.-uTime*1.17)*1.1;
+        float foamThread=pow(max(sin(threadCoordinate),0.),10.);
+        float brokenThread=.5+.5*sin(vUv.y*25.-uTime*3.6+vUv.x*8.);
+        float sideFade=smoothstep(.02,.13,vUv.x)*(1.-smoothstep(.87,.98,vUv.x));
+        float endFade=smoothstep(.025,.16,vUv.y)*(1.-smoothstep(.86,.985,vUv.y));
+        float threadLight=foamThread*brokenThread*sideFade*endFade;
+        fallTint=clamp(fallTint+vec3(.055,.071,.061)*threadLight,0.,1.);
         gl_FragColor=vec4(fallTint,.88);
       }else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
