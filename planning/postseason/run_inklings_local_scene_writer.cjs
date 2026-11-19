@@ -12,6 +12,7 @@
 'use strict';
 const fs=require('fs'),path=require('path'),crypto=require('crypto');
 const root=__dirname,core=process.env.BULLPEN_CORE_PATH;
+const {auditDraft}=require('./scene_quality_gate.cjs');
 if(!core||!fs.existsSync(path.join(core,'index.js')))throw Error('Authentic Bullpen core required');
 const bullpen=require(core);
 const read=x=>JSON.parse(fs.readFileSync(path.join(root,x),'utf8'));
@@ -26,6 +27,8 @@ if(ids.length<1||ids.length>3)throw Error('Bounded limit: one to three specified
 if(new Set(ids).size!==ids.length||ids.some(id=>!all.some(f=>f.id===id)))throw Error('Only known 2015–2025 fixtures may be scripted');
 const outdir=path.resolve(root,getArg('out','drafts-local-llm'));
 const model=process.env.OLLAMA_MODEL||'qwen2.5-coder:7b';
+const revisionAttempts=Number(getArg('revision-attempts','1'));
+if(!Number.isInteger(revisionAttempts)||revisionAttempts<0||revisionAttempts>2)throw Error('Bounded revision count must be 0..2');
 const provider=bullpen.adapters.authenticatedChat.createAuthenticatedChatProvider({
  endpoint:'http://127.0.0.1:11434/v1/chat/completions',apiKey:'local-loopback-only',model,timeoutMs:120000});
 const bus=bullpen.adapters.memory.createMemoryEventBus();
@@ -47,8 +50,8 @@ for(const id of ids){
  const prompt=[
 'You are an INKLINGS creative production writer under Bullpen Beat Writer authority. Produce a fully original, cinematic 700–950 word English DRAFT screenplay with separate three-phase action sequences and comprehensible physical objective. Do not write like a named existing novelist. Do not mention instructions.',
 'The historical fantasy league scoreboard is VERIFIED FACT. This competition arena and physical challenge are FICTIONAL secondary-world dramatizations.',
-'This fiction is set in season '+fixture.year+'; playoff round '+fixture.round+'; permanently fixed-round location '+fixture.staging.venue_name+'. Never use internal IDs as announcer dialogue.',
-'Both named contender personae must personally perform ALL THREE STAGES. Competitor A: '+fixture.home.name+'; Competitor B: '+fixture.away.name+'. Keep the winner and real-world fantasy scores UNKNOWN in your prose; the source system will append the official result after you finish writing.',
+'This fiction is set in season '+fixture.year+'; playoff round '+fixture.round+' ('+({QF:'quarterfinal',SF:'semifinal',FINAL:'championship final'}[fixture.round])+'); permanently fixed-round location '+fixture.staging.venue_name+'. Write the correct ROUND TYPE explicitly; never call a quarterfinal the final four. Never use internal IDs as announcer dialogue.',
+'Both named contestant personae must personally perform ALL THREE STAGES. EXACT alias A: '+fixture.home.name+'; EXACT alias B: '+fixture.away.name+'. Spell BOTH aliases correctly in EACH stage. No assistants, teams, entourage, engineers or retinue may perform a stage task for either. Winner and real-world scores remain UNKNOWN in your prose; source system appends official result.',
 'The draw selects the challenge '+ceremony.obstacle_name+'. State three explicit neutral safety-checked objectives and contested checkpoints. If this is Quarry Ambush, the course is constructed from removable foam/stone-faced panels at the Last Field; the permanent stadium has NO real quarry, collapse, deep chasm or unstable floor. All stage apparatus is load inspected.',
 'Stage briefs: '+JSON.stringify(contract.acts.map(a=>({number:a.number,objective:a.objective,action:a.scene_text.slice(0,460)}))),
 'The arena must acquire a lasting physical mark: '+impact.trace_kind+' at '+impact.original_material_anchor+'. It is safely restored without erasing material history.',
@@ -56,16 +59,28 @@ for(const id of ids){
 'No real historical human-owner names or biographies based merely on team slot. No principal death or spectator harm. No invented Farrell biography or trophy naming. Last Field original gates, foundation and field orientation always maintained. No sharp unauthorized weapons, supernatural powers, magical energy, glowing crystals, physical collapse or unprotected crevices. All controlled strikes and projectiles must have visible safety measures.',
 'Use headings EXT., PHASE ONE, PHASE TWO, PHASE THREE and stop immediately. Each phase must show BOTH characters acting personally and the opponent countering. Do not write RESULT CERTIFIED or EPILOGUE; the compiler writes those using verified records. NEVER declare either winner, any phase victor, or any numerical phase points. No internal fixture IDs in prose. English only. Do not assume 2026 happened.'
 ].join('\n');
- const response=await provider.generate({purpose:'inklings_scene_writer',system:'Write only a source-neutral three-stage fictional contest up to the moment officials call time. Do not assign a winner, title or scores; the immutable source system writes the final result. No historical owner biography, supernatural powers or invented stage numbers.',messages:[{role:'user',content:prompt}],maxTokens:2400,projectContext:{projectName:'Schemin 26',projectId:'schemin-26'}});
- const generated=String(response?.text||'').trim();
- const body=generated+'\n\nRESULT CERTIFIED\nThe official, externally verified  '+fixture.year+' title-path result is '+winner.name+' '+winner.points.toFixed(2)+' to '+loser.name+' '+loser.points.toFixed(2)+'. The in-world demonstration did not generate these fantasy-football scores. The surviving competitor advances; the defeated competitor leaves for the seasonal resort.\n\nEPILOGUE\n The stage equipment is safely inspected, and '+impact.trace_kind+' remains an identifiable permanent historic trace at '+impact.original_material_anchor+'. No irreversible harm to any principal or spectator is depicted.\n';
- const issues=[];
+ const sourceFooter='\n\nRESULT CERTIFIED\nThe official, externally verified '+fixture.year+' title-path result is '+winner.name+' '+winner.points.toFixed(2)+' to '+loser.name+' '+loser.points.toFixed(2)+'. The in-world demonstration did not generate these fantasy-football scores. The surviving competitor advances; the defeated competitor leaves for the seasonal resort.\n\nEPILOGUE\nThe stage equipment is safely inspected and repaired; '+impact.trace_kind+' remains an identifiable permanent historic trace at '+impact.original_material_anchor+'. No irreversible harm to any principal or spectator is depicted.\n';
+ let generated='',body='',quality,revisionHistory=[];
+ for(let attempt=0;attempt<=revisionAttempts;attempt++){
+   const messages=[{role:'user',content:prompt}];
+   if(attempt>0) {
+     messages.push({role:'assistant',content:generated});
+     messages.push({role:'user',content:'REWRITE the entire scene and eliminate these source and safety failures: '+quality.hard_failures.join('; ')+'. Keep the real result unknown: DO NOT write scores, RESULT CERTIFIED, or EPILOGUE; these are appended by the trusted pipeline. Both exact contestant aliases must appear in EACH stage, and only they perform stage tasks. The drawn challenge and fixed arena must be respected. Output only revised screenplay action.'});
+   }
+   const response=await provider.generate({purpose:'inklings_scene_writer',system:'Write a grounded source-neutral three-stage fictional contest until officials call time. Do not assign any winner or score; source system writes official result. No real-owner biographies, supernatural powers, or unsafe unprotected pits.',messages,maxTokens:2400,projectContext:{projectName:'Schemin 26',projectId:'schemin-26'}});
+   generated=String(response?.text||'').trim();
+   body=generated+sourceFooter;
+   quality=auditDraft({fixture_id:id,text:body,model});
+   revisionHistory.push({attempt,word_count:quality.word_count,hard_failures:quality.hard_failures,warnings:quality.warnings});
+   if(quality.hard_failures.length===0)break;
+ }
+ const issues=[...quality.hard_failures];
  for(const label of [fixture.home.name,fixture.away.name])if(!body.includes(label))issues.push('MISSING_PERSONA:'+label);
  for(const header of ['PHASE ONE','PHASE TWO','PHASE THREE'])if(!body.includes(header))issues.push('MISSING_PHASE:'+header);
- if(words(body)<320)issues.push('SHORT_DRAFT');
+ if(words(body)<550)issues.push('SHORT_DRAFT');
  if(unsafeOutput(body))issues.push('POTENTIAL_CANON_FUTURE_OR_FALSE_HISTORY');
  const record={fixture_id:id,model,source_year:fixture.year,truth:{winner_slot:fixture.winner_slot,scores:[fixture.home.points,fixture.away.points]},
- selected_obstacle:ceremony.selected_obstacle_id,permanent_impact:impact.trace_id,word_count:words(body),qa:issues.length?'REJECT_PRELIMINARY':'PRELIMINARY_FORMAT_SCREEN_ONLY',issues,
+ selected_obstacle:ceremony.selected_obstacle_id,permanent_impact:impact.trace_id,word_count:words(body),qa:issues.length?'HOLD_MACHINE_FAILURE':'PRELIMINARY_FORMAT_SCREEN_ONLY',issues,quality_gate:quality,revision_history:revisionHistory,
  disclaimer:'Locally model-generated fictional script draft. No human author, independent Umpire, renderer or live canon signoff.',text:body};
  fs.writeFileSync(path.join(outdir,id+'.proposal.json'),JSON.stringify(record,null,2)+'\n');
  results.push({fixture_id:id,words:record.word_count,qa:record.qa,issues});
