@@ -394,6 +394,32 @@ gl_FragColor=vec4(base*vShade,1.);
   o.castShadow=false;o.receiveShadow=false;
   return o;
  }
+
+ // A single unlettered, source-position map inside the existing League Chamber.
+ // Site positions, including unvisited sites, come exclusively from Atlas bindings.
+ // This is candidate indoor presentation, not canonical cartography or new paths.
+ function leagueChamberAtlasMarks(g){
+  const east=bindings.map(b=>b.anchor[0]),north=bindings.map(b=>b.anchor[2]);
+  const minX=Math.min(...east),maxX=Math.max(...east),minZ=Math.min(...north),maxZ=Math.max(...north);
+  const points=[];
+  for(const b of bindings){
+   const x=4.08*((b.anchor[0]-minX)/(maxX-minX||1)-.5);
+   const y=1.9-1.30*((b.anchor[2]-minZ)/(maxZ-minZ||1)-.5);
+   const z=-2.565,r=.050;
+   // Both triangles face the visitor (+Z), and share the existing gold material.
+   points.push(x,y+r,z, x,y-r,z, x+r,y,z,
+               x,y+r,z, x-r,y,z, x,y-r,z);
+  }
+  const geo=new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(points,3));
+  geo.computeVertexNormals();geo.computeBoundingSphere();
+  const marks=mesh(g,geo,M.gold,0,0,0,'Unlettered source Atlas map marks');
+  marks.castShadow=false;marks.receiveShadow=false;
+  marks.userData={sourcePath:'world/data/locations.json',
+   mappedLocationIds:bindings.map(b=>b.id),visualAuthority:'CANDIDATE_NOT_APPROVED'};
+  return marks;
+ }
+
  // A definition returns one representative object for each upstream landmark.
  const definitions={
   'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=tradeJediHighRidge(g);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
@@ -405,7 +431,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-BELT-KEEPER-KEEP'(g){const plinth=rock(g,0,.5,0,7,1.3,6.3,M.dark);box(g,0,.5,0,10,.8,8,M.slate);const keep=beltKeeperDarkStone(g);roof(g,0,7.7,-.8,6,5.3,2.6,M.slate);for(const x of [-4,4])for(const z of [-3,3]){cyl(g,x,1.0,z,1.05,1.2,4.5,M.slate,10);cyl(g,x,5.5,z,1.25,1.25,.6,M.dark,10);for(let i=0;i<6;i++){const a=i*Math.PI/3;box(g,x+Math.cos(a)*1.03,6.1,z+Math.sin(a)*1.03,.45,.65,.45,M.dark);}}const hallObj=box(g,0,1.3,2.3,4.3,3,2.2,M.slate,'Championship hall');arch(g,0,1.3,3.5,1,.3,.3,M.gold);flag(g,-1.5,4.6,2.6,M.red);flag(g,1.5,4.6,2.6,M.red);steps(g,0,6,2.3,5,.26);return [keep,hallObj];},
   'LOC-SLOB-FOOTHILL-CAMP'(g){const yard=box(g,0,0,0,12,.18,10,M.earth,'Tailgate yard');for(const [x,z,w,d]of [[-3,-2,4.5,4.3],[3,-2,3.3,3.5]]){roof(g,x,.3,z,w,d,3.2,M.canvas);beam(g,[x,.3,z+d*.52],[x,3.5,z],.07,M.timber);}desk(g,-2,.2,3,4);for(const x of [-4,0])box(g,x,.2,3.8,1.6,.45,.55,M.wood);const training=box(g,3,.2,2.5,3.7,.1,4,M.sand,'Rough training ground');for(const x of [2,3.5,5])cyl(g,x,.3,1.5,.17,.25,1.6,M.wood,7);for(const x of [-6,6])conifer(g,x,-3,1);return [yard,training];},
   'LOC-CHINS-ROAD-COMMONS'(g){box(g,0,0,0,13,.22,10,M.sand);const hallObj=hall(g,0,-2,8.5,4,3.4,M.wood,M.red);pavilion(g,-3.6,2.3,4,3,2.8,M.canvas);const bbq=cyl(g,-3.6,.25,2.5,.9,1,.65,M.dark,12,'BBQ yard');smoke(g,-3.6,.9,2.5);const court=box(g,3.2,.24,2.5,4,.06,4.5,M.earth,'Caravan court');for(const z of [1,4]){box(g,3.1,.6,z,2.4,.4,1.1,M.wood);for(const x of [2.3,3.9]){const wheel=cyl(g,x,.2,z,.4,.4,.15,M.black,10);wheel.rotation.z=Math.PI/2;}}return [hallObj,bbq,court];},
-  'LOC-LEAGUE-CHAMBER'(g){box(g,0,0,0,9,.5,7,M.stone);for(const x of [-4,4])box(g,x,.5,-.3,.6,4,6,M.light);box(g,0,.5,-3,8,4,.5,M.light);roof(g,0,4.5,-1,9,5,1.9,M.blue);const map=box(g,0,1.8,-2.68,4.8,1.85,.07,M.gold,'Map wall');box(g,0,1.9,-2.61,4.55,1.6,.04,M.deepGreen);const record=desk(g,0,.5,.4,4.4);ledger(g,-1,1.8,.4);for(const x of [-3,3])cyl(g,x,.5,2,.24,.34,3.6,M.light,10);steps(g,0,4.3,5,4,.15);return [record,map];},
+  'LOC-LEAGUE-CHAMBER'(g){box(g,0,0,0,9,.5,7,M.stone);for(const x of [-4,4])box(g,x,.5,-.3,.6,4,6,M.light);box(g,0,.5,-3,8,4,.5,M.light);roof(g,0,4.5,-1,9,5,1.9,M.blue);const map=box(g,0,1.8,-2.68,4.8,1.85,.07,M.gold,'Map wall');box(g,0,1.9,-2.61,4.55,1.6,.04,M.deepGreen);leagueChamberAtlasMarks(g);const record=desk(g,0,.5,.4,4.4);ledger(g,-1,1.8,.4);for(const x of [-3,3])cyl(g,x,.5,2,.24,.34,3.6,M.light,10);steps(g,0,4.3,5,4,.15);return [record,map];},
   'LOC-PITTSYS-BOOK'(g){box(g,0,0,0,8.3,.3,6,M.stone);pavilion(g,0,-.5,7,4,3.8,M.deepGreen);const boards=box(g,0,1,-2.3,6.1,2.7,.22,M.timber,'Ledger boards');for(const x of [-2,0,2]){box(g,x,1.2,-2.15,1.55,2.1,.05,M.ivory);for(let j=0;j<5;j++)box(g,x,1.45+j*.32,-2.1,1.3,.035,.03,M.gold);}const settlement=desk(g,0,.3,1.2,5.9,M.dark);ledger(g,-1.6,1.6,1.2);ledger(g,1.1,1.6,1.2);pittsysOpenLedger(g);flag(g,3.7,.3,2.1,M.deepGreen);return [boards,settlement];},
   'LOC-BRIDGE-MOUNTAIN-LAKE'(g){const lake=waterSurface(g,0,.25,0,8.7,5.9,'mountain lake','#477f89');for(const x of [-6.8,6.8])rock(g,x,.15,0,2.1,1,3.4,M.slate);const span=arch(g,0,.3,0,3.4,.65,2.3,M.stone);box(g,0,4.27,0,9.3,.45,2.6,M.stone);for(const z of [-1.25,1.25]){box(g,0,4.7,z,9.2,.8,.18,M.light);for(let i=0;i<11;i++)box(g,-4.25+i*.85,4.7,z,.12,1,.24,M.stone);}for(const s of [-1,1])for(let i=0;i<6;i++)box(g,s*(4.8+i*.5),0,0,.52,4.7-i*.7,2.8,M.stone);const jump=box(g,2.8,4.7,1.6,1.35,.18,.85,M.light,'Recorded jump-point edge');for(const x of [-7.2,7.2])conifer(g,x,-3.3,.8);return [span,lake,jump];},
   'LOC-DK-MUD-HILL'(g){const hill=rock(g,0,.8,0,6,2.4,4.7,M.earth);for(let i=0;i<7;i++){const a=i*2.1;rock(g,Math.cos(a)*4.4,.25,Math.sin(a)*3.6,1.3,.45,1.1,M.slate);}const mire=waterSurface(g,1,.22,1.3,7.2,5.2,'mire','#515d46');const standards=flag(g,-1.9,2.6,0,M.red);flag(g,1.8,2.6,-.3,M.blue);box(g,0,2.15,2.2,3,.2,1,M.earth,'Worn illustrative ridge');return [hill,mire,standards];},
