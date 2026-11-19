@@ -25,6 +25,8 @@ test('Exhibit reads all eleven years and no future winner',()=>{
  assert.equal(model.bindings.proposals.length,56);
  assert.equal(model.material.perimeter_ruins.length,9);
  assert.equal(model.ceremonial.ceremonies.length,56);
+ assert.equal(model.spatial.scene_packets.length,56);
+ assert.equal(model.spatial.diagram_units,'CURRENT_ATLAS_PREVIEW_DISPLAY_PIXELS');
  assert.equal(model.impacts.traces.length,56);
  assert.equal(model.soloScenes.cards.length,56);
  assert.equal(model.bodyEffects.games.length,56);
@@ -80,6 +82,14 @@ test('Searchable challenges and historic scar registry are present',()=>{
  assert.ok(html.includes('renderChallenges()'));
  assert.ok(html.includes('renderRuins()'));
  assert.ok(html.includes('ALTERNATE INKLINGS OBSTACLE'));
+});
+test('Physical staging controls are fully sourced and require both actor lanes',()=>{
+ assert.ok(html.includes('renderStagingPreview'));
+ assert.ok(html.includes('Play all stages'));
+ assert.ok(html.includes('aria-pressed'));
+ assert.ok(model.spatial.scene_packets.every(p=>p.stage_axes.length===3));
+ assert.ok(model.spatial.scene_packets.every(p=>p.stage_axes.every(x=>x.personally_performed)));
+ assert.ok(model.spatial.scene_packets.every(p=>p.route_access.includes('contender')&&p.route_access.includes('broadcast')));
 });
 test('Client code parses without external JS imports',()=>{
  const all=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)];

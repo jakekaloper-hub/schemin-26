@@ -79,3 +79,9 @@ jobs:
         run: node planning/postseason/build_last_field_finales_interview_ii.mjs --check
       - name: Reject bad autonomous screenplay outcomes and unauthorized world physics
         run: node planning/postseason/test_local_model_draft_audit.mjs
+      - name: Recompile normalized Atlas stage geometry without world mutation
+        run: node planning/postseason/build_island_spatial_stage_engine.mjs --check
+      - name: Verify all historical personal movement positions and isolated crew access
+        run: node planning/postseason/test_island_spatial_stage_engine.mjs
+      - name: Adversarial quality-test 2018 and 2022 longform screenplay pilots
+        run: node planning/postseason/test_scene_quality_gate.cjs

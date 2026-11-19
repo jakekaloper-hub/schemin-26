@@ -14,7 +14,7 @@ test('Two historical screenplay pilots meet source and three-stage mechanical pr
  for(const x of inputs){const q=auditDraft(x);assert.deepEqual(q.hard_failures,[],x.fixture_id+':'+JSON.stringify(q.hard_failures));assert.ok(q.word_count>1000);}
 });
 test('No early-round score can be silently omitted',()=>{
- const a={...inputs[0],text:inputs[0].text.replace('114.37','score withheld')};
+ const a={...inputs[0],text:inputs[0].text.replaceAll('114.37','score withheld')};
  assert.ok(auditDraft(a).hard_failures.some(x=>x.includes('MISSING_CERTIFIED_SCORE')));
 });
 test('Wrong permanent Last Field insertion fails early-round venue lock',()=>{
@@ -22,11 +22,11 @@ test('Wrong permanent Last Field insertion fails early-round venue lock',()=>{
  assert.ok(auditDraft(a).hard_failures.includes('WRONG_PERMANENT_CHAMPIONSHIP_STADIUM_LOCATION'));
 });
 test('Unauthorized magical hovering stage marker fails',()=>{
- const a={...inputs[0],text:inputs[0].text.replace('The marker is restored','The marker hovers')};
+ const a={...inputs[0],text:inputs[0].text+'\nA marker hovers above the quarry.\n'};
  assert.ok(auditDraft(a).hard_failures.includes('UNAPPROVED_MAGIC_OR_SELF_ACTUATING_HAZARD'));
 });
 test('In-world report cannot discuss source compiler authoring',()=>{
- const a={...inputs[0],text:inputs[0].text.replace('The public bracket changes','The source system will now append the outcome. The public bracket changes')};
+ const a={...inputs[0],text:inputs[0].text+'\nThe source system will now append the outcome.\n'};
  assert.ok(auditDraft(a).hard_failures.includes('IN_WORLD_META_SYSTEM_DIALOGUE'));
 });
 test('Unprotected arrows in active running corridors are vetoed',()=>{
