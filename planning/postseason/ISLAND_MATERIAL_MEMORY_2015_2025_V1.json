@@ -1,0 +1,1853 @@
+{
+  "schema": "schemin.postseason.island_material_memory.v1",
+  "status": "HISTORICAL_ART_DIRECTION_NOT_ACTIVE_WORLD_EVENTS",
+  "sources": [
+    "ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+    "HISTORICAL_CHALLENGE_OPTION_BINDINGS_56_V1.json"
+  ],
+  "principle": "Old scars exist if authored and approved; screens and suites evolve; the Last Field has the same maintained geometry and no catastrophic foundation damage.",
+  "perimeter_ruins": [
+    {
+      "id": "HERITAGE-OLD-RING",
+      "name": "The Old Ring",
+      "use": "DORMANT_OLDER_ARENA",
+      "terrain": "lower weathered stone circle",
+      "state": "STAFF_CLOSED",
+      "narrative": "An obsolete ring and benches, preserved as a visible memory of an earlier manner of trial; no verified League playoff is assigned here under Founder round law."
+    },
+    {
+      "id": "HERITAGE-VETERANS-YARD",
+      "name": "Veterans' Yard",
+      "use": "RETIRED_TRAINING_GROUND",
+      "terrain": "small enclosed practice courtyard",
+      "state": "STAFF_CLOSED",
+      "narrative": "Cracked old practice markers and an overgrown spectator bank are preserved instead of polished into a new final venue."
+    },
+    {
+      "id": "HERITAGE-CAUSEWAY-TRIAL",
+      "name": "Abandoned Tide Causeway Trial",
+      "use": "DORMANT_OBSTACLE_STRUCTURE",
+      "terrain": "isolated old tidal piers",
+      "state": "BARRIER_LOCKED",
+      "narrative": "An unsafe training route lies beside—not replacing—the monumental current causeway; it is a background ruin, not a public passage."
+    },
+    {
+      "id": "HERITAGE-POWDER-BERM",
+      "name": "The Powder Berm",
+      "use": "BLAST_EFFORT_HISTORY",
+      "terrain": "scraped rock berm behind a closed tactical yard",
+      "state": "PERMIT_REQUIRED",
+      "narrative": "Darkened gravel, blast panels and dismantled smoke-effect frames suggest staged explosive spectacles. No precise historic detonation is asserted without approved state event."
+    },
+    {
+      "id": "HERITAGE-FLOODED-MAZE",
+      "name": "The Sunken Course",
+      "use": "WATER_COURSE_REMNANT",
+      "terrain": "flooded masonry labyrinth on low island edge",
+      "state": "ACCESS_PROHIBITED",
+      "narrative": "A retired challenge maze with standing brackish water and plants reclaiming its former lanes; no contestant casually enters it."
+    },
+    {
+      "id": "HERITAGE-FALLEN-GALLERY",
+      "name": "The Fallen Gallery",
+      "use": "SPECTATOR_RUIN",
+      "terrain": "rock ledge with collapsed roof timbers",
+      "state": "MASONRY_SURVEY_HOLD",
+      "narrative": "An old viewing structure awaiting survey and preservation, with all ticket routes diverted around it."
+    },
+    {
+      "id": "HERITAGE-RUSTED-OVAL",
+      "name": "Rusted Oval",
+      "use": "RETIRED_RACE_TRACK",
+      "terrain": "gravel racing circuit beyond current arena fence",
+      "state": "CLOSED_TEST_RING",
+      "narrative": "Rust-stained barriers and stripped-out engines recall a changing taste for wheeled speed without pretending dirt bikes existed in 2015."
+    },
+    {
+      "id": "HERITAGE-ARCHERY-CRESCENT",
+      "name": "The Silent Crescent",
+      "use": "RETIRED_TARGET_RANGE",
+      "terrain": "shuttered stone arrow range",
+      "state": "RANGE_CLOSED",
+      "narrative": "Broken-but-locked target mounts sit behind a collapsed protective retaining wall, not freely accessible among spectators."
+    },
+    {
+      "id": "HERITAGE-PAINTBALL-FORT",
+      "name": "The Empty Fort",
+      "use": "RETIRED_TACTICAL_SET",
+      "terrain": "weathered mock-fort walls behind an inspection fence",
+      "state": "CLOSED_UNTIL_REFURBISHED",
+      "narrative": "A defunct nonlethal war-game set retains splattered panels and abandoned ramparts. Its date and original use remain fictional candidates."
+    }
+  ],
+  "years": [
+    {
+      "year": 2015,
+      "era": "ORIGINAL_STONE_AND_SIMPLE_STANDS",
+      "theme": "Founding terraces and the permanent Last Field ceremonial gates are first represented in the recovered championship archive.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2015-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2015-FINAL-1",
+              "obstacle_id": "OBST-10-01",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2015-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2015-SF-1",
+              "obstacle_id": "OBST-05-01",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2015-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2015-SF-2",
+              "obstacle_id": "OBST-01-01",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 12,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2016,
+      "era": "ORIGINAL_STONE_AND_SIMPLE_STANDS",
+      "theme": "Two seasons of stone maintenance and repeat spectator movement create recognizable paths, not large new technology.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2016-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2016-FINAL-1",
+              "obstacle_id": "OBST-05-02",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2016-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2016-SF-1",
+              "obstacle_id": "OBST-01-02",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2016-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2016-SF-2",
+              "obstacle_id": "OBST-03-06",
+              "mechanical_effect_risk": [
+                "inspected_course",
+                "speed_limits",
+                "mechanical_inspection",
+                "segregated_marshal_lane"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 8,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2017,
+      "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+      "theme": "The six-team bracket licenses distinct Iron Quarry and Saltwind quarterfinal grounds, with expanded protected entrances.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2017-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2017-FINAL-1",
+              "obstacle_id": "OBST-10-02",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2017-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2017-QF-1",
+              "obstacle_id": "OBST-03-07",
+              "mechanical_effect_risk": [
+                "inspected_course",
+                "speed_limits",
+                "mechanical_inspection",
+                "segregated_marshal_lane"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2017-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2017-QF-2",
+              "obstacle_id": "OBST-09-02",
+              "mechanical_effect_risk": [
+                "qualified_rescue",
+                "floatation_gear",
+                "tidal_window",
+                "controlled_water_depth"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2017-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2017-SF-1",
+              "obstacle_id": "OBST-01-03",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2017-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2017-SF-2",
+              "obstacle_id": "OBST-05-03",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 12,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2018,
+      "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+      "theme": "A razor-thin quarterfinal becomes an archival inscription, not retroactive proof of a damaged building.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2018-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2018-FINAL-1",
+              "obstacle_id": "OBST-01-05",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2018-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2018-QF-1",
+              "obstacle_id": "OBST-01-04",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2018-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2018-QF-2",
+              "obstacle_id": "OBST-07-01",
+              "mechanical_effect_risk": [
+                "safe_load_limit",
+                "rig_inspection",
+                "catch_net_or_barrier",
+                "repair_crew"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2018-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2018-SF-1",
+              "obstacle_id": "OBST-03-08",
+              "mechanical_effect_risk": [
+                "inspected_course",
+                "speed_limits",
+                "mechanical_inspection",
+                "segregated_marshal_lane"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2018-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2018-SF-2",
+              "obstacle_id": "OBST-05-05",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 8,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2019,
+      "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+      "theme": "League-name banners and program fixtures change; original stone paths and stadium orientation remain.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2019-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2019-FINAL-1",
+              "obstacle_id": "OBST-04-01",
+              "mechanical_effect_risk": [
+                "marked_playing_area",
+                "scorekeeping",
+                "participant_protection"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2019-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2019-QF-1",
+              "obstacle_id": "OBST-05-06",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2019-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2019-QF-2",
+              "obstacle_id": "OBST-09-03",
+              "mechanical_effect_risk": [
+                "qualified_rescue",
+                "floatation_gear",
+                "tidal_window",
+                "controlled_water_depth"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2019-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2019-SF-1",
+              "obstacle_id": "OBST-10-03",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2019-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2019-SF-2",
+              "obstacle_id": "OBST-07-02",
+              "mechanical_effect_risk": [
+                "safe_load_limit",
+                "rig_inspection",
+                "catch_net_or_barrier",
+                "repair_crew"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 3,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2020,
+      "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+      "theme": "The 0.75-point final intensifies scorekeeper/announcer protocol; no novel structural destruction is required.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2020-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2020-FINAL-1",
+              "obstacle_id": "OBST-01-07",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2020-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2020-QF-1",
+              "obstacle_id": "OBST-01-06",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2020-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2020-QF-2",
+              "obstacle_id": "OBST-03-02",
+              "mechanical_effect_risk": [
+                "inspected_course",
+                "speed_limits",
+                "mechanical_inspection",
+                "segregated_marshal_lane"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+          "matched_fixtures": [],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": []
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2020-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2020-SF-1",
+              "obstacle_id": "OBST-05-07",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2020-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2020-SF-2",
+              "obstacle_id": "OBST-10-04",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 10,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2021,
+      "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+      "theme": "Breakwater opens as the dedicated third quarterfinal ground, with larger visitor and central production facilities proposed.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2021-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2021-FINAL-1",
+              "obstacle_id": "OBST-04-02",
+              "mechanical_effect_risk": [
+                "marked_playing_area",
+                "scorekeeping",
+                "participant_protection"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2021-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2021-QF-1",
+              "obstacle_id": "OBST-01-08",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2021-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2021-QF-2",
+              "obstacle_id": "OBST-06-01",
+              "mechanical_effect_risk": [
+                "impartial_dealer",
+                "sealed_materials",
+                "rule_display",
+                "no_fraud_or_forced_loss"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2021-QF-3"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2021-QF-3",
+              "obstacle_id": "OBST-03-01",
+              "mechanical_effect_risk": [
+                "inspected_course",
+                "speed_limits",
+                "mechanical_inspection",
+                "segregated_marshal_lane"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2021-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2021-SF-1",
+              "obstacle_id": "OBST-10-05",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2021-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2021-SF-2",
+              "obstacle_id": "OBST-05-04",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 5,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2022,
+      "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+      "theme": "Scars of recurrent staged equipment are visible, but the permanent stadium and playoff grounds remain serviceable.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2022-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2022-FINAL-1",
+              "obstacle_id": "OBST-10-06",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2022-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2022-QF-1",
+              "obstacle_id": "OBST-09-08",
+              "mechanical_effect_risk": [
+                "qualified_rescue",
+                "floatation_gear",
+                "tidal_window",
+                "controlled_water_depth"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2022-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2022-QF-2",
+              "obstacle_id": "OBST-07-03",
+              "mechanical_effect_risk": [
+                "safe_load_limit",
+                "rig_inspection",
+                "catch_net_or_barrier",
+                "repair_crew"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2022-QF-3"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2022-QF-3",
+              "obstacle_id": "OBST-01-09",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2022-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2022-SF-1",
+              "obstacle_id": "OBST-05-08",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2022-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2022-SF-2",
+              "obstacle_id": "OBST-03-09",
+              "mechanical_effect_risk": [
+                "inspected_course",
+                "speed_limits",
+                "mechanical_inspection",
+                "segregated_marshal_lane"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 9,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2023,
+      "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+      "theme": "Modern camera and screen mountings can become visually dominant without changing the protected founding arches.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2023-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2023-FINAL-1",
+              "obstacle_id": "OBST-07-04",
+              "mechanical_effect_risk": [
+                "safe_load_limit",
+                "rig_inspection",
+                "catch_net_or_barrier",
+                "repair_crew"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2023-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2023-QF-1",
+              "obstacle_id": "OBST-04-03",
+              "mechanical_effect_risk": [
+                "marked_playing_area",
+                "scorekeeping",
+                "participant_protection"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2023-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2023-QF-2",
+              "obstacle_id": "OBST-05-09",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2023-QF-3"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2023-QF-3",
+              "obstacle_id": "OBST-01-10",
+              "mechanical_effect_risk": [
+                "padded_training_equipment",
+                "qualified_arbiter",
+                "medical_team",
+                "clear_throw_zone"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2023-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2023-SF-1",
+              "obstacle_id": "OBST-06-02",
+              "mechanical_effect_risk": [
+                "impartial_dealer",
+                "sealed_materials",
+                "rule_display",
+                "no_fraud_or_forced_loss"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2023-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2023-SF-2",
+              "obstacle_id": "OBST-05-10",
+              "mechanical_effect_risk": [
+                "nonlethal_replicas",
+                "boundary_marshals",
+                "fog_or_smoke_ventilation_if_used"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 12,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2024,
+      "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+      "theme": "Hospitality/suites and site-specific viewing platforms are upgraded; old arena surfaces retain identity.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2024-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2024-FINAL-1",
+              "obstacle_id": "OBST-10-08",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2024-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2024-QF-1",
+              "obstacle_id": "OBST-08-01",
+              "mechanical_effect_risk": [
+                "rated_anchors",
+                "harness_and_catch_net",
+                "rescue_access",
+                "no_unprotected_cliff_exposure"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2024-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2024-QF-2",
+              "obstacle_id": "OBST-04-04",
+              "mechanical_effect_risk": [
+                "marked_playing_area",
+                "scorekeeping",
+                "participant_protection"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2024-QF-3"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2024-QF-3",
+              "obstacle_id": "OBST-07-05",
+              "mechanical_effect_risk": [
+                "safe_load_limit",
+                "rig_inspection",
+                "catch_net_or_barrier",
+                "repair_crew"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2024-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2024-SF-1",
+              "obstacle_id": "OBST-10-07",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2024-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2024-SF-2",
+              "obstacle_id": "OBST-06-03",
+              "mechanical_effect_risk": [
+                "impartial_dealer",
+                "sealed_materials",
+                "rule_display",
+                "no_fraud_or_forced_loss"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 1,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    },
+    {
+      "year": 2025,
+      "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+      "theme": "The nearly contemporary stadium complex has elaborate lighting, camera architecture and maintained historic stone beneath it.",
+      "legacy_sites": [
+        {
+          "id": "CAND-POST-LAST-FIELD",
+          "name": "Last Field",
+          "round": "FINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2025-FINAL-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2025-FINAL-1",
+              "obstacle_id": "OBST-08-03",
+              "mechanical_effect_risk": [
+                "rated_anchors",
+                "harness_and_catch_net",
+                "rescue_access",
+                "no_unprotected_cliff_exposure"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-IRON-QUARRY",
+          "name": "Iron Quarry",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2025-QF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2025-QF-1",
+              "obstacle_id": "OBST-08-02",
+              "mechanical_effect_risk": [
+                "rated_anchors",
+                "harness_and_catch_net",
+                "rescue_access",
+                "no_unprotected_cliff_exposure"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-SALTWIND",
+          "name": "Saltwind Steps",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2025-QF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2025-QF-2",
+              "obstacle_id": "OBST-10-09",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-BREAKWATER",
+          "name": "Breakwater Grounds",
+          "round": "QUARTERFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2025-QF-3"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2025-QF-3",
+              "obstacle_id": "OBST-06-04",
+              "mechanical_effect_risk": [
+                "impartial_dealer",
+                "sealed_materials",
+                "rule_display",
+                "no_fraud_or_forced_loss"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-CROWN-STAIR",
+          "name": "Crown Stair",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2025-SF-1"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2025-SF-1",
+              "obstacle_id": "OBST-04-05",
+              "mechanical_effect_risk": [
+                "marked_playing_area",
+                "scorekeeping",
+                "participant_protection"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        },
+        {
+          "id": "CAND-POST-GROVE",
+          "name": "Grove of Standards",
+          "round": "SEMIFINAL_ONLY",
+          "activation": "OPEN_FOR_DESIGNATED_ROUND",
+          "matched_fixtures": [
+            "HIST-POST-2025-SF-2"
+          ],
+          "foundational_landmarks_preserved": true,
+          "maintenance": "Annual inspection of stone, seats, water diversion, public protection, stage rig and media mounts",
+          "permanent_explosion_damage_allowed": false,
+          "candidate_scene_scars": [
+            {
+              "fixture_id": "HIST-POST-2025-SF-2",
+              "obstacle_id": "OBST-10-10",
+              "mechanical_effect_risk": [
+                "medical_screening",
+                "rest_protocol",
+                "voluntary_stop"
+              ],
+              "visual_afterimage": "Possible removable apparatus wear, scratched boundary paint, repaired rail or photographed temporary damage, never automatic structural collapse.",
+              "persistence": "NOT_CANON_WRITEBACK",
+              "source": "PROPOSED_SCENE_NOT_HISTORICAL_PHYSICAL_FACT"
+            }
+          ]
+        }
+      ],
+      "postseason_visitors_only": true,
+      "maintenance_note": "Offseason public closure with limited caretakers; full tourist resort runs only during the postseason.",
+      "year_events_source": "FROZEN_SPORT_RESULTS_AND_PROPOSED_GEOGRAPHIC_MEMORY",
+      "museum_archive": {
+        "champion_slot": 8,
+        "status": "SPORTING_FACT; INSCRIPTION_FICTION"
+      },
+      "media_technology_status": "YEAR_SPECIFIC_DRAFT_NOT_WORLD_TECH_RATIFICATION"
+    }
+  ],
+  "release_holds": [
+    "NO_LOCATION_PROMOTION",
+    "NO_HISTORICAL_DAMAGE_CANON_WITHOUT_PROVENANCE",
+    "NO_2026_WINNER",
+    "YEAR_SCOPED_TECH_APPROVAL_REQUIRED"
+  ]
+}
