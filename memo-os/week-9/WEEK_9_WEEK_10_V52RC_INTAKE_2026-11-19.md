@@ -1,5 +1,5 @@
 # Schemin ’26 — November 19, 2026 V5.2-RC Truth Plane Intake
-**Build:** OFFICIAL V5.2-RC (not permanent). **Publication HOLD**. Preliminary deterministic checks: 32/33; scoped failures: 1. These do not certify Steward acceptance, SCK execution or independent QA.
+**Build:** OFFICIAL V5.2-RC (not permanent). **Publication HOLD**. Preliminary deterministic checks: 34/34; scoped failures: 0. These do not certify Steward acceptance, SCK execution or independent QA.
 ## Request Compiler → Assignment Contract → Workflow Graph
 - Intent: reconcile ESPN league 1417621 Week 11 activity, compare typed history, preserve source lineage, identify scoped fallout, and stage honest release gates without invoking Editorial to retrieve ESPN.
 - ECS domain assignment: League Data Platform acquisition and source-normalized preservation; independent Data Release Steward and Umpire retain decision authority. No Jack Mercer.
@@ -20,8 +20,12 @@
   - 2026-11-18: team 1 **complete add**, add Josh Cameron, drop Bam Knight, FAAB bid 0
   - 2026-11-18: team 1 **complete add**, add Chargers D/ST, drop Tyler Higbee, FAAB bid 0
   - 2026-11-18: team 3 **complete add**, add Cade Otton, drop Devin Singletary, FAAB bid 0
-- ESPN Week 9/10 official finals: six each remain unchanged. Week 11 scheduled games: six 0–0 **UNDECIDED**, and all twelve standings rows unchanged. Slob on my Dobb #1 at 6–4; ObiWan Jacoby #10 at 4–6.
+- ESPN Week 9/10 official finals: six each remain unchanged. Week 11 scheduled games: six 0–0 **UNDECIDED**, and all twelve **competitive standing records** unchanged; live waiver priorities or projected ranks changed for 10 teams. Slob on my Dobb #1 at 6–4; ObiWan Jacoby #10 at 4–6.
 - The Week 10 art-production project [PR #315](https://github.com/jakekaloper-hub/schemin-26/pull/315) is independently governed; new Week 11 transactions do not reopen locked Week 10 assets unless a dependency is actually affected.
+## Targeted standings metadata delta (semantic classification)
+- Comparing the exact November 18 and November 19 source-normalized standings identifies **10 affected teams**, with differences only in `waiverPriority` and `currentProjectedRank`. These are provider live metadata changes, **not** changes to season wins, losses, fantasy point totals, standings rank or playoff seed.
+- ESPN league's competitive records and seven-team playoff positions remain unchanged; current projected rank must not be passed off as official playoff seed. A full-row equality check initially returned false and was resolved by this typed-field comparison. Details in the row-diff artifact.
+
 ## Source lineage / limitations
 - Direct ESPN gateway on `data/live`: captured 2026-11-19T09:18:01.619712+00:00, reported `stale=false` **at capture**, manifest blob `e70a17e5e7b3caf73244690fd6013841b6f2f83c`; parsed source body was not independently reconciled today and original HTTP response bytes/headers remain unverified. Flaim returned authenticated structured `mTransactions2` for Week 8–11. A failed direct wire-provenance check does not make ESPN unavailable.
 - Temporal mismatch possible between gateway and Flaim captures; preserve provider-native identifiers and typed comparison. Historical source-normalized evidence is not a signed canonical snapshot.
