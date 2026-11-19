@@ -760,6 +760,76 @@ gl_FragColor=vec4(base*vShade,1.);
    return fronts;
   }
 
+ // The source-exact Compact Neutral Grounds already has an open circular
+ // ceremonial field. Fine low turf/soil relief below its original top surface
+ // is a reversible candidate material, NOT historic use, a ceremony, new
+ // topography or an alteration to the Atlas's place/arrival-road coordinates.
+ // A single indexed mesh replaces exactly one cylinder draw, with its
+ // previous radius envelope (top 6.5 / base 6.8) and height 0.25 unchanged.
+ function neutralGroundsCeremonialField(g){
+  const segments=48,rings=8,positions=[],colors=[],indices=[];
+  const point=(x,y,z,side=false)=>{
+   positions.push(x,y,z);
+   const grass=.5+.5*Math.sin(x*2.61+z*1.17)*Math.cos(z*3.39-x*.71);
+   const grit=.5+.5*Math.sin(x*5.77-z*3.31)*Math.cos(z*4.41+x*1.13);
+   const shade=.77+.18*grass+.05*grit;
+   if(side)colors.push(.27*shade,.32*shade,.19*shade);
+   else colors.push(.27*shade,.44*shade,.21*shade);
+   return positions.length/3-1;
+  };
+  const topY=(x,z,r)=>{
+   const fade=Math.pow(Math.sin(Math.PI*Math.min(1,r/6.5)),2);
+   const wave=.5+.5*Math.sin(x*1.47+z*.81)*Math.cos(z*1.29-x*.63);
+   return .125-fade*(.013+.044*wave);
+  };
+  point(0,.125,0);
+  for(let ring=1;ring<=rings;ring++){
+   const r=6.5*ring/rings;
+   for(let j=0;j<segments;j++){
+    const a=j*Math.PI*2/segments,x=r*Math.cos(a),z=r*Math.sin(a);
+    point(x,topY(x,z,r),z);
+   }
+  }
+  // Front faces point upward; interior rings have actual height displacement.
+  for(let j=0;j<segments;j++)
+   indices.push(0,1+(j+1)%segments,1+j);
+  for(let ring=1;ring<rings;ring++){
+   const inner=1+(ring-1)*segments,outer=1+ring*segments;
+   for(let j=0;j<segments;j++){
+    const next=(j+1)%segments,a=inner+j,b=inner+next,c=outer+j,d=outer+next;
+    indices.push(a,b,c,b,d,c);
+   }
+  }
+  // Separate wall vertices keep a crisp untouched original boundary.
+  const sideStart=positions.length/3;
+  for(let j=0;j<segments;j++){
+   const a=j*Math.PI*2/segments;
+   point(6.5*Math.cos(a),.125,6.5*Math.sin(a),true);
+   point(6.8*Math.cos(a),-.125,6.8*Math.sin(a),true);
+  }
+  for(let j=0;j<segments;j++){
+   const a=sideStart+2*j,b=sideStart+2*((j+1)%segments);
+   indices.push(a,b,a+1,b,b+1,a+1);
+  }
+  const bottomCenter=point(0,-.125,0,true),bottomStart=positions.length/3;
+  for(let j=0;j<segments;j++){
+   const a=j*Math.PI*2/segments;
+   point(6.8*Math.cos(a),-.125,6.8*Math.sin(a),true);
+  }
+  for(let j=0;j<segments;j++)
+   indices.push(bottomCenter,bottomStart+j,bottomStart+(j+1)%segments);
+  const geo=new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+  const surface=mat('#ffffff','',{vertexColors:true,roughness:.99,metalness:0});
+  const field=mesh(g,geo,surface,0,.125,0,'Open ceremonial field');
+  field.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+   sourceGeometry:'existing circular ceremonial field',
+   originalTopRadius:6.5,originalBottomRadius:6.8,originalHeight:.25};
+  return field;
+ }
+
  // A definition returns one representative object for each upstream landmark.
  const definitions={
   'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=tradeJediHighRidge(g);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
@@ -780,7 +850,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-LLC-STORM-CITY'(g){waterSurface(g,1,.22,3.9,10,6.2,'sheltered port','#356572');box(g,0,.3,-.7,13,.65,9,M.slate);let tower;for(const [x,z,h]of [[-4,-3,6],[0,-3.5,8],[4,-3,5.6],[-3,0,4],[2,0,4.7]]){const body=stormCityMercantileTower(g,x,z,h);roof(g,x,h+.95,z,3.2,3,1.4,M.blue);for(let j=0;j<3;j++)box(g,x,2.1+j*1.2,z+1.27,1,.5,.04,M.glass);tower??=body;}const barriers=box(g,0,.9,4,13,1.35,.55,M.dark,'Storm barrier');for(let i=0;i<7;i++)box(g,-6+i*2,1.7,4,.3,1.05,.85,M.stone);steps(g,5,6.1,1.5,6,.16);return [tower,barriers];},
   'LOC-DK-HIGHLAND-STRONGHOLD'(g){box(g,0,0,0,13,.8,11,M.slate);const stronghold=hall(g,0,-3,8,4,4.6,M.stone,M.red);for(const x of [-5.4,5.4]){box(g,x,.8,0,1,3.3,8,M.stone);cyl(g,x,.8,3.8,1,1.2,4.9,M.slate,8);roof(g,x,5.7,3.8,2.6,2.6,1.5,M.red);}const court=highlandTrainingCourt(g);for(const x of [-2.5,2.5]){beam(g,[x,.9,1.1],[x,2.7,1.1],.15,M.wood);beam(g,[x-.6,2.3,1.1],[x+.6,2.3,1.1],.1,M.wood);}const road=steps(g,0,6.3,3.2,5,.17);for(const x of [-3.8,3.8])flag(g,x,.8,3.4,M.red);return [stronghold,court,road];},
   'LOC-TDS-CHILI-SHARED-MARCH'(g){box(g,0,0,0,13,.2,11,M.earth);const settlement=pavilion(g,-3.2,-1.5,4.7,3.8,3,M.deepGreen);pavilion(g,3.4,-2,4,3.4,2.8,M.red);waterSurface(g,0,.25,2.8,7.8,1.5,'watercourse crossing','#46766c');const crossing=sharedMarchPlankedCrossing(g);for(const x of [-1.1,1.1])box(g,x,.8,2.8,.12,.75,4.1,M.wood);const quarter=hall(g,-3.4,-4.1,4.6,2.8,2.8,M.wood,M.canvas);desk(g,3.3,.2,-.8,3.5);fence(g,4.7,3.2,3.5,3);for(const x of [-6,6])tree(g,x,-4.2,.7,M.paleGreen);crossingBankReeds(g);return [settlement,crossing,quarter];},
-  'LOC-COMPACT-NEUTRAL-GROUNDS'(g){const field=cyl(g,0,0,0,6.5,6.8,.25,M.green,40,'Open ceremonial field');const pav=pavilion(g,0,-4.7,5,3,3.4,M.ivory);for(const x of [-4.5,4.5])flag(g,x,.25,-2,M.ivory);const roads=box(g,0,.26,4.7,2.3,.04,5.2,M.sand,'Arrival-road presentation');for(const sign of [-1,1]){const path=box(g,sign*4.3,.27,2.4,2,.03,5.3,M.sand);path.rotation.y=sign*.8;}for(const x of [-2.7,2.7])for(const z of [-.8,1.2])box(g,x,.25,z,1.5,.4,.5,M.stone);return [field,pav,roads];},
+  'LOC-COMPACT-NEUTRAL-GROUNDS'(g){const field=neutralGroundsCeremonialField(g);const pav=pavilion(g,0,-4.7,5,3,3.4,M.ivory);for(const x of [-4.5,4.5])flag(g,x,.25,-2,M.ivory);const roads=box(g,0,.26,4.7,2.3,.04,5.2,M.sand,'Arrival-road presentation');for(const sign of [-1,1]){const path=box(g,sign*4.3,.27,2.4,2,.03,5.3,M.sand);path.rotation.y=sign*.8;}for(const x of [-2.7,2.7])for(const z of [-.8,1.2])box(g,x,.25,z,1.5,.4,.5,M.stone);return [field,pav,roads];},
   'LOC-LEAGUE-ARCHIVE'(g){box(g,0,0,0,12,.45,10,M.stone);const halls=hall(g,0,-2.8,9,3.6,4.5,M.light,M.blue);for(const x of [-4.2,4.2])hall(g,x,.6,2.5,5.1,3.4,M.stone,M.blue);const vault=arch(g,0,.45,-.85,1.2,.45,.65,M.gold);box(g,0,.45,-1,2.25,2.1,.2,M.timber,'Ledger vault doors');const court=archiveCourierCourtSetts(g);for(const x of [-2.5,2.5]){cyl(g,x,.45,3.8,.17,.25,2.6,M.light,9);box(g,x,2.9,3.8,.6,.6,.6,M.gold);}desk(g,0,.55,1.1,2.6);ledger(g,0,1.8,1.1);steps(g,0,5.5,4,3,.17);return [halls,vault,court];}
  };
  for(const b of bindings){const define=definitions[b.id];if(!define)continue;
