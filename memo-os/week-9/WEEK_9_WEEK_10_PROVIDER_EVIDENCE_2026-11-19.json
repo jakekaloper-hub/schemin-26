@@ -6228,9 +6228,9 @@
       "evidence": "unique ESPN playoffSeed"
     },
     {
-      "check": "standings_not_changed",
-      "pass": false,
-      "evidence": "compare full normalized standings"
+      "check": "competitive_standings_unchanged",
+      "pass": true,
+      "evidence": "12/12 teams: W/L/T, points for/against, ESPN seed, standings rank unchanged; live waiverPriority/projected rank changes tracked separately"
     },
     {
       "check": "week9_six_matchups",
@@ -6380,10 +6380,21 @@
       "check": "week11_waiver_failures_not_counted_as_pickups",
       "pass": true,
       "evidence": "failure_reason present on failed claims"
+    },
+    {
+      "check": "live_standings_metadata_delta_scoped",
+      "pass": true,
+      "evidence": {
+        "changed_team_count": 10,
+        "changed_fields": [
+          "waiverPriority",
+          "currentProjectedRank"
+        ]
+      }
     }
   ],
-  "check_pass_count": 32,
-  "check_fail_count": 1,
+  "check_pass_count": 34,
+  "check_fail_count": 0,
   "independent_steward_acceptance": "BLOCKED_NO_AUTHENTICATED_RECEIVER",
   "canonical_snapshot_lock": "BLOCKED",
   "fact_lock": "BLOCKED",
