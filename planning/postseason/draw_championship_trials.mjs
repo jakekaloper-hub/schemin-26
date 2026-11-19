@@ -53,6 +53,27 @@ export function drawOne({fixture,obstacles,historySalt=CEREMONY.disclosed_salt,e
     original_sporting_result_unmodified:true
   };
 }
+/**
+ * 2026 draw is permitted only after official ESPN seed/pairing lock, and
+ * without a pre-known result. This does not fill future slots autonomously.
+ */
+export function draw2026VerifiedPairing({fixture,sourceLock,obstacles}){
+ if(!sourceLock || sourceLock.qualification_locked!==true
+    || sourceLock.source!=='ESPN'
+    || !sourceLock.snapshot_id || String(sourceLock.league_id)!=='1417621'
+    || sourceLock.season!==2026)throw Error('SOURCE_LOCK_REQUIRED_BEFORE_2026_CEREMONY');
+ if(!fixture || fixture.year!==2026 || fixture.source!=='ESPN'
+    || !fixture.fixture_id || fixture.id!==fixture.fixture_id
+    || fixture.provenance_snapshot!==sourceLock.snapshot_id
+    || !fixture.home_id || !fixture.away_id || fixture.home_id===fixture.away_id)
+    throw Error('VERIFIED_2026_PAIRING_REQUIRED');
+ if(fixture.winner_id||fixture.home_points!==undefined||fixture.away_points!==undefined)
+    throw Error('DO_NOT_FEED_RESULT_TO_PRECONTEST_DRAW');
+ const result=drawOne({fixture,obstacles,
+   historySalt:'PUBLIC_2026_OFFICIAL_BRACKET_LOCK_'+sourceLock.snapshot_id});
+ return {...result,release:'PRECONTEST_DRAW_ONLY_NO_CANON_PROMOTION',
+    participants_verified_from_source:true,result_still_pending:true};
+}
 export function drawHistorical(history,lexicon){
   assert.equal(history?.fixtures?.length,56);
   assert.equal(lexicon?.obstacles?.length,120);
