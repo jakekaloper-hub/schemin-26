@@ -281,7 +281,22 @@ export function buildRegionalAssets(THREE, bindings, height) {
        float broken=sin(runningUv.y*44.+sin(runningUv.x*11.)*1.15);
        float runGlint=pow(max(broken,0.),11.);
        float riverInterior=1.-smoothstep(.72,.96,length((vUv-vec2(.5))*2.));
-       gl_FragColor=vec4(uColor+vec3(.10,.15,.13)*(runGlint*riverInterior),.88);
+       // Geometry-informed, two-sided glints follow the EXISTING displaced water.
+        // This changes no river boundary or authoritative physical flow.
+        vec3 riverFace=cross(dFdx(vWorld),dFdy(vWorld));
+        float riverFaceSize=length(riverFace);
+        vec3 riverNormal=riverFaceSize>.00001?riverFace/riverFaceSize:vec3(0.,1.,0.);
+        float riverSlope=clamp((1.-clamp(abs(riverNormal.y),0.,1.))*12.,0.,.32);
+        vec3 riverEye=normalize(cameraPosition-vWorld);
+        float riverGrazing=pow(1.-clamp(abs(dot(riverNormal,riverEye)),0.,1.),2.);
+        // Narrow broken foam lines move with inherited ordinary water time;
+        // keep both existing water geometry and the quiet shoreline untouched.
+        float riverFoamLine=pow(max(sin(runningUv.x*42.+sin(runningUv.y*13.)*.7),0.),14.);
+        float riverFoamBreak=smoothstep(.47,.86,.5+.5*sin(runningUv.y*29.+vUv.x*6.-uTime*.72));
+        float riverFoam=riverFoamLine*riverFoamBreak*riverInterior;
+        vec3 riverOptics=vec3(.06,.085,.07)*riverFoam
+          +vec3(.055,.075,.062)*(riverSlope*(.45+.55*riverGrazing)*riverInterior);
+        gl_FragColor=vec4(clamp(uColor+vec3(.10,.15,.13)*(runGlint*riverInterior)+riverOptics,0.,1.),.88);
        }else if(uPond>.5){
       // Two gently expanding wave trains on the existing pond; no new source hydrology.
       vec2 p=(vUv-vec2(.5))*2.;
