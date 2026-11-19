@@ -27,6 +27,11 @@ function inspect(x){
  const invented=numbers.filter(n=>!sourceScores.has(n));
  if(invented.length)issues.push('INVENTED_STAGE_SCORE:'+invented.slice(0,6).join(','));
  if(/energy blast|glowing crystal|magical blast|teleport|saber flashing|supernatural beam|enchanted weapon/i.test(body))issues.push('UNAPPROVED_SUPERNATURAL_EFFECT');
+ if(/\b(?:holographic|hologram|android|droid|kinetic wall|compressed air barrier|gravity field|laser cannon)\b/i.test(body))issues.push('UNAUTHORIZED_FUTURISTIC_WORLD_TECH');
+ if(/\b(?:no spectators|empty arena)\b/i.test(body))issues.push('AUDIENCE_EVENT_CONTRADICTION');
+ if(/(?:satchel|hardware|mechanism).{0,25}embedded in (?:the )?foundation|pistons erupt from the ground|collapsing section of terrain/i.test(body))issues.push('INTRUSIVE_HISTORIC_LAST_FIELD_FOUNDATION_DAMAGE');
+ const explosion=body.match(/.{0,120}\b(?:explosion|blast)\b.{0,90}/ig)||[];
+ if(explosion.some(x=>!/controlled|sealed|safety|protected|staged|inspected|approved/i.test(x)))issues.push('UNCONTROLLED_EVENT_PYROTECHNICS');
  if(/2026.{0,75}(?:winner|champion|finalist)/i.test(body))issues.push('PREWRITTEN_2026_OUTCOME');
  if(!body.includes(f.home.name)||!body.includes(f.away.name))issues.push('MISSING_TWO_OPPONENTS');
  for(const key of ['PHASE ONE','PHASE TWO','PHASE THREE'])if(!body.toUpperCase().includes(key))issues.push('MISSING_'+key.replaceAll(' ','_'));
