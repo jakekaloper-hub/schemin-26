@@ -87,3 +87,8 @@ node planning/postseason/site/build_site.mjs --check
 ```
 
 **Core invariant:** The historical sporting record determines WHO WON. The fictional stage library determines WHAT a reader sees. Physical event approval belongs to the World/Atlas system; safety, memorial and independent Umpire gates must still pass before canon/publication.
+
+
+### Atlas reconciliation hold (read-only)
+
+`ATLAS_LAST_FIELD_SUPERSESSION_PACKET_V1.json` compares the current Central Basin Last Field candidate against the Founder-directed Inner Sea Littoral championship island. It names the six actual spatial and institutional gates and deliberately performs **zero** active World Engine location/route writes. Generate/check: `node planning/postseason/build_atlas_supersession_packet.mjs --check`.

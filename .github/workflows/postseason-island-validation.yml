@@ -59,3 +59,5 @@ jobs:
         run: node planning/postseason/test_summit_integrity.mjs
       - name: Recompute 100-point evidence rubric without canon promotion
         run: node planning/postseason/score_summit_readiness.mjs --check
+      - name: Verify Founder island supersession without editing canonical Atlas
+        run: node planning/postseason/build_atlas_supersession_packet.mjs --check
