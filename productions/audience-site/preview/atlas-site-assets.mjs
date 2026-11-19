@@ -96,6 +96,27 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   o.scale.set(sx,sy,sz);o.rotation.set(.13+x*.03,.3+z*.11,.07);
   return o;
  }
+ // Exact Trade Jedi Mountain Base ridge: one static replacement, original
+ // instance transform. Stone strata are illustrative, not canonical geology.
+ function tradeJediHighRidge(g){
+  const geo=new THREE.IcosahedronGeometry(1,3),position=geo.getAttribute('position'),colors=[];
+  for(let i=0;i<position.count;i++){
+   const vx=position.getX(i),vy=position.getY(i),vz=position.getZ(i);
+   const grain=Math.sin(vx*17.1+vz*8.3)*Math.cos(vy*11.7-vx*4.6);
+   const fissure=Math.sin(vx*30.7+vy*23.1+vz*14.4);
+   const relief=1+.016*grain+.008*fissure;
+   position.setXYZ(i,vx*relief,vy*relief,vz*relief);
+   const band=.5+.5*Math.sin(vy*22.7+vx*1.8+Math.sin(vz*5.4)*.28);
+   const mineral=.5+.5*Math.sin(vx*12.7+vz*15.1)*Math.cos(vy*9.9-vz*5.6);
+   const shade=.75+.25*mineral;
+   colors.push(.23+.105*shade+.04*band,.225+.07*shade+.035*band,.205+.045*shade+.027*band);
+  }
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.computeVertexNormals();
+  const stone=mat('#ffffff','',{vertexColors:true,roughness:.98,metalness:0});
+  const ridge=mesh(g,geo,stone,0,1.3,0,'Trade Jedi high ridge · candidate');
+  ridge.scale.set(7,2.5,5.5);ridge.rotation.set(.13,.3,.07);
+  return ridge;
+ }
  function conifer(g,x,z,s=1){cyl(g,x,0,z,.12*s,.23*s,3.3*s,M.timber,6);for(let i=0;i<3;i++)cyl(g,x,1.1*s+i*.65*s,z,.04,(1.2-i*.22)*s,1.8*s,M.deepGreen,7);}
  function ring(g,x,y,z,inner,outer,scaleZ=1,m=M.sand){const o=mesh(g,new THREE.RingGeometry(inner,outer,56),m,x,y,z,'Open ring candidate');o.rotation.x=-Math.PI/2;o.scale.y=scaleZ;return o;}
  // Only the source-recorded Southern Speedway receives this candidate dirt surface.
@@ -281,7 +302,7 @@ gl_FragColor=vec4(base*vShade,1.);
  }
  // A definition returns one representative object for each upstream landmark.
  const definitions={
-  'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=rock(g,0,1.3,0,7,2.5,5.5);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
+  'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=tradeJediHighRidge(g);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
   'LOC-ARSENAL-BARBERSHOP'(g){box(g,0,0,0,8,.35,6,M.stone);const shell=hall(g,0,-1,6,3.4,3.2,M.light,M.red);box(g,0,.35,1.2,5.4,2.8,.13,M.timber,'Open shop backdrop');const awning=roof(g,0,2.75,2.05,6.4,2.2,.6,M.red);for(const dx of [-2.6,2.6])cyl(g,dx,.3,2.9,.08,.11,2.45,M.ivory,7);cyl(g,0,.4,1.9,.35,.6,.6,M.black);const chair=box(g,0,1.0,1.9,1.25,.27,1.2,M.red,'Barber chair');box(g,0,1.24,1.45,1.25,1.1,.23,M.red);for(const x of [-.8,.8])box(g,x,1.1,1.9,.14,.5,1.2,M.gold);box(g,0,.72,2.85,.8,.14,.4,M.black);for(const x of [-2.2,2.2]){const pole=cyl(g,x,.35,3,.1,.1,2,M.ivory,8);for(let i=0;i<5;i++)cyl(g,x,.4+i*.35,3,.115,.115,.16,M.red,8);pole.name='Shop stripe';}return [chair,awning];},
   'LOC-STORM-BOWL'(g){const field=cyl(g,0,0,0,6.6,6.9,.45,M.sand,36,'Weather-exposed venue');for(let i=0;i<20;i++){const a=i*Math.PI*2/20;if(a>1.1&&a<2.0)continue;const x=Math.cos(a)*6.3,z=Math.sin(a)*6.3;stormBowlSeat(g,x,z,a,i);rock(g,x*1.13,.35,z*1.13,.8,.7,.8,M.dark);}const counter=desk(g,1,.45,7.6,4);pavilion(g,1,7.6,4.6,2.4,2.7,M.blue);for(const x of [-4,4])flag(g,x,.4,-5.4,M.blue);return [field,counter];},
   'LOC-LLC-BOARDROOM'(g){box(g,0,0,0,10,.55,7.5,M.slate);const chamber=hall(g,0,-1.6,8.8,3.6,4.6,M.light,M.slate);for(const x of [-4.2,4.2])cyl(g,x,.55,1.6,.27,.34,3.8,M.stone);const table=desk(g,0,.55,1.45,4.4,M.dark);ledger(g,-1.1,1.85,1.4);ledger(g,.8,1.85,1.4);const ledgers=box(g,-3.6,.55,.4,.7,2.4,1.7,M.timber,'Ledger cabinet');for(let i=0;i<5;i++)box(g,-3.6,1+i*.32,.95,.55,.19,.7,i%2?M.red:M.ivory);const overlook=box(g,0,.65,4.2,10,.2,1.8,M.stone,'Market overlook');for(let i=0;i<9;i++)box(g,-4+i, .85,4.9,.12,.8,.12,M.gold);box(g,0,1.6,4.9,8.3,.1,.1,M.gold);steps(g,0,5.6,3,4,.14);return [chamber,ledgers,overlook];},
