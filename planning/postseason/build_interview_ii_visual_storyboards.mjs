@@ -56,7 +56,7 @@ for(const scene of scenes.cards){
    protected_heritage:impact.trace_id,
    injury_references:effect.team_slot_health_fiction.map(x=>({slot:x.team_slot,effect:x.in_contest_personal_effect,fiction_only:true})),
    source_result:scene.verified_sports,
-   cut_release:'PREVIS_ONLY_NOT_RENDERED'};
+   cut_release:'PREVIS_ONLY_NOT_RENDERED'});
 }
 assert.equal(cards.length,56);
 const obj={schema:'schemin.postseason.interview_ii_visual_storyboards.v1',status:'CAMERA_AND_VISUAL_PREPRODUCTION_NOT_ACTUAL_RENDER',
