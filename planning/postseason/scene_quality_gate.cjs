@@ -61,7 +61,7 @@ function auditDraft({fixture_id,text,model=null}){
  if(fixture.round!=='FINAL' && (/EXT\.\s*(?:IRON QUARRY|SALTWIND|BREAKWATER|CROWN STAIR|GROVE)[^\n]{0,45}LAST FIELD/i.test(t) || /\b(?:Quarry|Grove|Saltwind|Crown Stair|Breakwater)['’]s Last Field\b/i.test(t))) add(hard,'WRONG_PERMANENT_CHAMPIONSHIP_STADIUM_LOCATION');
  if(/\b(?:field|arena|course)\s+collapses\b/i.test(t) && !/\b(?:temporary|removable|mock|prop)\b/i.test(t)) add(hard,'UNCONTROLLED_PERMANENT_ARENA_COLLAPSE');
  if(/\b(?:source system|pipeline|compiler)\s+(?:will|shall|can)\s+(?:now|then)?\s*(?:append|declare|show|certify)/i.test(t)) add(hard,'IN_WORLD_META_SYSTEM_DIALOGUE');
- if(/\b(?:arrow|crossbow|bolt)\b/i.test(t) && /\b(?:sprint|rush|dodg|leap|vault)\b/i.test(t) && !/\b(?:backstop|protected firing line|isolated firing lane|spectator exclusion|safe target enclosure)\b/i.test(t)) add(hard,'UNPROTECTED_PROJECTILE_AND_RUNNING_CORRIDOR');
+ if(/\b(?:arrow|crossbow|bolt)\b/i.test(t) && /\b(?:sprint|rush|dodg|leap|vault)\b/i.test(t) && !/\b(?:backstops?|protected firing line|isolated firing lane|spectator exclusion|safe target enclosure)\b/i.test(t)) add(hard,'UNPROTECTED_PROJECTILE_AND_RUNNING_CORRIDOR');
  if(fixture.round!=='FINAL' && /receives the (?:championship )?(?:belt|trophy)/i.test(t))
    add(hard,'PREMATURE_CHAMPIONSHIP_AWARD');
  // Founder F18: contest performed personally. Supporting workers can PREPARE/inspect,
