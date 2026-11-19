@@ -71,6 +71,51 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   cloth.castShadow=false;cloth.receiveShadow=false;
   return p;
  }
+
+ // Source-recorded jungle ruins receive a single batched static drape of
+ // illustrated arch creepers. This is NOT historical storm damage, new flora
+ // canon, a weather effect, or a change to any stone arch/Atlas boundary.
+ function redRuinsArchCreepers(g){
+  const positions=[],colors=[],indices=[],mounts=[-1.52,-1.12,1.12,1.52];
+  const vertex=(x,y,z,c)=>{positions.push(x,y,z);colors.push(...c);};
+  for(let arch=0;arch<3;arch++)for(let strand=0;strand<4;strand++){
+   const cx=[-4,0,4][arch],mount=mounts[strand];
+   const rootY=Math.abs(mount)>1.3?4.05:4.40;
+   const length=.55+.15*((arch+strand)%3),phase=arch*2.31+strand*.73;
+   const curve=t=>({
+    x:cx+mount+.08*t*t*Math.sin(t*5.2+phase),
+    y:rootY-length*t,
+    z:-1.97+.025*Math.sin(phase)+.045*t*Math.sin(t*6.+strand)
+   });
+   const start=positions.length/3;
+   for(let j=0;j<=7;j++){
+    const t=j/7,p=curve(t),half=.024*(1-.4*t);
+    const shade=.72+.12*Math.sin(t*7.3+phase);
+    for(const side of [-1,1])vertex(p.x+side*half,p.y,p.z,[.20*shade,.39*shade,.15*shade]);
+    if(j){const a=start+(j-1)*2,b=a+1,c=a+2,d=c+1;indices.push(a,b,c,b,d,c);}
+   }
+   // Leaflets remain inside the original terrace envelope: no new trees/sites.
+   for(const k of [2,4,6]){
+    const p=curve(k/7),s=.87+.09*Math.sin(phase+k),c=[.22*s,.48*s,.18*s];
+    for(const side of [-1,1]){
+     const a=positions.length/3,reach=side*(.13+.015*((arch+strand+k)%3));
+     vertex(p.x,p.y,p.z+.008,c);
+     vertex(p.x+reach,p.y+.06,p.z+.021,c);
+     vertex(p.x+reach*.78,p.y-.075,p.z+.025,c);
+     indices.push(a,a+1,a+2);
+    }
+   }
+  }
+  const geo=new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+  const foliage=mat('#ffffff','',{vertexColors:true,roughness:.97,metalness:0,side:THREE.DoubleSide});
+  const o=mesh(g,geo,foliage,0,0,0,'Red Ruins arch creepers · candidate');
+  o.castShadow=false;o.receiveShadow=false;
+  o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'jungle ruins'};
+  return o;
+ }
  function tree(g,x,z,s=1,m=M.deepGreen){cyl(g,x,0,z,.13*s,.25*s,2.3*s,M.timber,6);for(let i=0;i<3;i++)rock(g,x+Math.sin(i*2.1)*.55*s,(2.5+i*.2)*s,z+Math.cos(i*2.1)*.45*s,s,.8*s,s,i===1?M.green:m);}
  // Locally sculpted, presentation-only alpine stone/snow. Site anchor and
  // authoritative summit geometry remain upstream; this adds no world state.
@@ -456,7 +501,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-ARSENAL-BARBERSHOP'(g){box(g,0,0,0,8,.35,6,M.stone);const shell=hall(g,0,-1,6,3.4,3.2,M.light,M.red);box(g,0,.35,1.2,5.4,2.8,.13,M.timber,'Open shop backdrop');const awning=roof(g,0,2.75,2.05,6.4,2.2,.6,M.red);for(const dx of [-2.6,2.6])cyl(g,dx,.3,2.9,.08,.11,2.45,M.ivory,7);cyl(g,0,.4,1.9,.35,.6,.6,M.black);const chair=box(g,0,1.0,1.9,1.25,.27,1.2,M.red,'Barber chair');box(g,0,1.24,1.45,1.25,1.1,.23,M.red);for(const x of [-.8,.8])box(g,x,1.1,1.9,.14,.5,1.2,M.gold);box(g,0,.72,2.85,.8,.14,.4,M.black);for(const x of [-2.2,2.2]){const pole=cyl(g,x,.35,3,.1,.1,2,M.ivory,8);for(let i=0;i<5;i++)cyl(g,x,.4+i*.35,3,.115,.115,.16,M.red,8);pole.name='Shop stripe';}return [chair,awning];},
   'LOC-STORM-BOWL'(g){const field=cyl(g,0,0,0,6.6,6.9,.45,M.sand,36,'Weather-exposed venue');for(let i=0;i<20;i++){const a=i*Math.PI*2/20;if(a>1.1&&a<2.0)continue;const x=Math.cos(a)*6.3,z=Math.sin(a)*6.3;stormBowlSeat(g,x,z,a,i);rock(g,x*1.13,.35,z*1.13,.8,.7,.8,M.dark);}const counter=desk(g,1,.45,7.6,4);pavilion(g,1,7.6,4.6,2.4,2.7,M.blue);for(const x of [-4,4])flag(g,x,.4,-5.4,M.blue);return [field,counter];},
   'LOC-LLC-BOARDROOM'(g){box(g,0,0,0,10,.55,7.5,M.slate);const chamber=hall(g,0,-1.6,8.8,3.6,4.6,M.light,M.slate);for(const x of [-4.2,4.2])cyl(g,x,.55,1.6,.27,.34,3.8,M.stone);const table=desk(g,0,.55,1.45,4.4,M.dark);ledger(g,-1.1,1.85,1.4);ledger(g,.8,1.85,1.4);const ledgers=box(g,-3.6,.55,.4,.7,2.4,1.7,M.timber,'Ledger cabinet');for(let i=0;i<5;i++)box(g,-3.6,1+i*.32,.95,.55,.19,.7,i%2?M.red:M.ivory);const overlook=box(g,0,.65,4.2,10,.2,1.8,M.stone,'Market overlook');for(let i=0;i<9;i++)box(g,-4+i, .85,4.9,.12,.8,.12,M.gold);box(g,0,1.6,4.9,8.3,.1,.1,M.gold);steps(g,0,5.6,3,4,.14);return [chamber,ledgers,overlook];},
-  'LOC-RED-RUINS'(g){const terrace=box(g,0,0,0,12,.55,10,M.dark,'Ruined jungle terrace');for(let i=0;i<3;i++)box(g,0,.5+i*.3,-i*.5,11-i*.8,.35,8-i*.7,M.stone);for(const x of [-4,0,4])arch(g,x,1.45,-2.5,1.45,.45,.9);for(const [x,z,h]of [[-5,2,2.9],[4.7,2.4,2],[2,-4,4],[-2.7,-4,2.2]]){cyl(g,x,.5,z,.43,.52,h,M.stone,9);rock(g,x+.4,.6,z+.7,.75,.45,.7);}const banners=flag(g,-4.8,.7,3.2,M.red,true);flag(g,4.8,.7,3.2,M.red,true);steps(g,0,5.4,3.5,6,.25);for(const [x,z]of [[-6,-3],[5.8,-3.6],[-5.9,3.8]])tree(g,x,z,1.15);return [terrace,banners];},
+  'LOC-RED-RUINS'(g){const terrace=box(g,0,0,0,12,.55,10,M.dark,'Ruined jungle terrace');for(let i=0;i<3;i++)box(g,0,.5+i*.3,-i*.5,11-i*.8,.35,8-i*.7,M.stone);for(const x of [-4,0,4])arch(g,x,1.45,-2.5,1.45,.45,.9);redRuinsArchCreepers(g);for(const [x,z,h]of [[-5,2,2.9],[4.7,2.4,2],[2,-4,4],[-2.7,-4,2.2]]){cyl(g,x,.5,z,.43,.52,h,M.stone,9);rock(g,x+.4,.6,z+.7,.75,.45,.7);}const banners=flag(g,-4.8,.7,3.2,M.red,true);flag(g,4.8,.7,3.2,M.red,true);steps(g,0,5.4,3.5,6,.25);for(const [x,z]of [[-6,-3],[5.8,-3.6],[-5.9,3.8]])tree(g,x,z,1.15);return [terrace,banners];},
   'LOC-CHILI-STABLE'(g){box(g,0,0,0,13,.2,11,M.sand);const stable=hall(g,-2,-2,8,4.3,3.4,M.wood,M.red);for(const x of [-4,-1,2]){box(g,x,.3,.25,2.1,1.7,.12,M.timber);box(g,x,1.2,.35,2.1,.12,.1,M.gold);}const pit=cyl(g,4,.2,3,1.15,1.3,.7,M.dark,14,'Cooking pit');cyl(g,4,.9,3,.85,.95,.5,M.black,12);smoke(g,4,1.2,3,true);fence(g,-2,3.5,7,3.5);const enclosure=box(g,-2,.22,3.5,6.7,.04,3.3,M.earth,'Dark Horse enclosure — no actor');for(const x of [-5.8,5.6])tree(g,x,-3.7,.8,M.paleGreen);return [stable,pit,enclosure];},
   'LOC-BELT-KEEPER-KEEP'(g){const plinth=rock(g,0,.5,0,7,1.3,6.3,M.dark);box(g,0,.5,0,10,.8,8,M.slate);const keep=beltKeeperDarkStone(g);roof(g,0,7.7,-.8,6,5.3,2.6,M.slate);for(const x of [-4,4])for(const z of [-3,3]){cyl(g,x,1.0,z,1.05,1.2,4.5,M.slate,10);cyl(g,x,5.5,z,1.25,1.25,.6,M.dark,10);for(let i=0;i<6;i++){const a=i*Math.PI/3;box(g,x+Math.cos(a)*1.03,6.1,z+Math.sin(a)*1.03,.45,.65,.45,M.dark);}}const hallObj=box(g,0,1.3,2.3,4.3,3,2.2,M.slate,'Championship hall');arch(g,0,1.3,3.5,1,.3,.3,M.gold);flag(g,-1.5,4.6,2.6,M.red);flag(g,1.5,4.6,2.6,M.red);steps(g,0,6,2.3,5,.26);return [keep,hallObj];},
   'LOC-SLOB-FOOTHILL-CAMP'(g){const yard=box(g,0,0,0,12,.18,10,M.earth,'Tailgate yard');for(const [x,z,w,d]of [[-3,-2,4.5,4.3],[3,-2,3.3,3.5]]){roof(g,x,.3,z,w,d,3.2,M.canvas);beam(g,[x,.3,z+d*.52],[x,3.5,z],.07,M.timber);}desk(g,-2,.2,3,4);for(const x of [-4,0])box(g,x,.2,3.8,1.6,.45,.55,M.wood);const training=box(g,3,.2,2.5,3.7,.1,4,M.sand,'Rough training ground');for(const x of [2,3.5,5])cyl(g,x,.3,1.5,.17,.25,1.6,M.wood,7);for(const x of [-6,6])conifer(g,x,-3,1);return [yard,training];},
