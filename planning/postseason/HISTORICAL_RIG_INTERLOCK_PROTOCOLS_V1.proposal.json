@@ -1,0 +1,418 @@
+{
+  "schema": "schemin.postseason.illustrative_rig_protocols.v1",
+  "status": "TWO_VALIDATED_HISTORICAL_SCENE_PROTOCOLS_FICTION_ONLY",
+  "stage_protocols": [
+    {
+      "fixture_id": "HIST-POST-2018-QF-1",
+      "source_draw": "Arrow and Sprint",
+      "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+      "era": 2018,
+      "rig_protocol": {
+        "challenge": "Arrow and Sprint",
+        "venue": "CAND-POST-IRON-QUARRY",
+        "round": "QF",
+        "era": 2018,
+        "type": "PROTECTED_ARCHERY_THEN_SPRINT",
+        "geometry": {
+          "equal_separate_target_bays": 2,
+          "independently_lockable_target_backstops": true,
+          "run_lanes": 2,
+          "live_range_and_run_path_may_overlap": false,
+          "safety_gate": "CLOSED_UNTIL_RANGE_CLEAR",
+          "sloping_quarry_surface": "GRADED_NON_SLIP_REMOVABLE_INLAY",
+          "closing_marker": "LOWER_QUARRY_SHELF_REPLACEABLE_PLATE"
+        },
+        "scale": "NORMALIZED_DESIGN_UNITS_NO_METRIC_DISTANCES",
+        "stage_count": 3,
+        "no_score_from_trial": true,
+        "legacy_trace": "TRACE-HIST-POST-2018-QF-1"
+      },
+      "three_stages_closed": [
+        {
+          "phase": 1,
+          "closed": true,
+          "provenance": "SCHEMATIC_STAGING_ONLY"
+        },
+        {
+          "phase": 2,
+          "closed": true,
+          "provenance": "SCHEMATIC_STAGING_ONLY"
+        },
+        {
+          "phase": 3,
+          "closed": true,
+          "provenance": "SCHEMATIC_STAGING_ONLY"
+        }
+      ],
+      "inspected_event_log": [
+        {
+          "phase": 1,
+          "event": "INSPECT",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "OPEN_RANGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "SHOT_A",
+          "actor": "A"
+        },
+        {
+          "phase": 1,
+          "event": "SHOT_B",
+          "actor": "B"
+        },
+        {
+          "phase": 1,
+          "event": "CLOSE_RANGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "CONFIRM_CLEAR",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "OPEN_RUN",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "RUN_A",
+          "actor": "A"
+        },
+        {
+          "phase": 1,
+          "event": "RUN_B",
+          "actor": "B"
+        },
+        {
+          "phase": 1,
+          "event": "CLOSE_RUN",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "CERTIFY_STAGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "INSPECT",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "OPEN_RANGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "SHOT_A",
+          "actor": "A"
+        },
+        {
+          "phase": 2,
+          "event": "SHOT_B",
+          "actor": "B"
+        },
+        {
+          "phase": 2,
+          "event": "CLOSE_RANGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "CONFIRM_CLEAR",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "OPEN_RUN",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "RUN_A",
+          "actor": "A"
+        },
+        {
+          "phase": 2,
+          "event": "RUN_B",
+          "actor": "B"
+        },
+        {
+          "phase": 2,
+          "event": "CLOSE_RUN",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "CERTIFY_STAGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "INSPECT",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "OPEN_RANGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "SHOT_A",
+          "actor": "A"
+        },
+        {
+          "phase": 3,
+          "event": "SHOT_B",
+          "actor": "B"
+        },
+        {
+          "phase": 3,
+          "event": "CLOSE_RANGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "CONFIRM_CLEAR",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "OPEN_RUN",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "RUN_A",
+          "actor": "A"
+        },
+        {
+          "phase": 3,
+          "event": "RUN_B",
+          "actor": "B"
+        },
+        {
+          "phase": 3,
+          "event": "CLOSE_RUN",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "CERTIFY_STAGE",
+          "actor": "REFEREE"
+        }
+      ],
+      "winner": null,
+      "official_points": null,
+      "physical_consequence": "TRACE-HIST-POST-2018-QF-1",
+      "safety_claim": "ABSTRACT_INTERLOCK_RULES_ONLY_REAL_LOADS_AND_CROWD_CLEARANCES_NOT_VERIFIED"
+    },
+    {
+      "fixture_id": "HIST-POST-2022-SF-1",
+      "source_draw": "Clockwork Siege",
+      "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+      "era": 2022,
+      "rig_protocol": {
+        "challenge": "Clockwork Siege",
+        "venue": "CAND-POST-CROWN-STAIR",
+        "round": "SF",
+        "era": 2022,
+        "type": "EQUAL_KIT_ENGINEERING_LOAD_TEST",
+        "geometry": {
+          "matched_neutral_kits": true,
+          "build_zones": 2,
+          "independent_lift_devices": 2,
+          "bracing_kit": "SAME_APPROVED_PARTS_PER_ACTOR",
+          "counterweight_track": "TEST_CELL_ONLY",
+          "sacrificial_test_floor": "SEALED_PLATE_OVER_ORIGINAL_STONE",
+          "mechanical_stop": "ENGAGES_BEFORE_LOAD_LIMIT",
+          "inspector_role": "STOP_OR_VERIFY_ONLY_NEVER_CONSTRUCT_OR_ADJUST"
+        },
+        "permitted_load_steps_normalized": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "load_upper_envelope_normalized": 1,
+        "max_lateral_deflection_fraction_normalized": 0.18,
+        "actual_mass_kg": null,
+        "real_cantilever_length_m": null,
+        "real_approved_friction_coefficient": null,
+        "scale": "NORMALIZED_MECHANICAL_PREVIS_ONLY_NOT_ENGINEERING_CERTIFICATION",
+        "stage_count": 3,
+        "no_score_from_trial": true,
+        "legacy_trace": "TRACE-HIST-POST-2022-SF-1"
+      },
+      "three_stages_closed": [
+        {
+          "phase": 1,
+          "closed": true,
+          "provenance": "SCHEMATIC_STAGING_ONLY"
+        },
+        {
+          "phase": 2,
+          "closed": true,
+          "provenance": "SCHEMATIC_STAGING_ONLY"
+        },
+        {
+          "phase": 3,
+          "closed": true,
+          "provenance": "SCHEMATIC_STAGING_ONLY"
+        }
+      ],
+      "inspected_event_log": [
+        {
+          "phase": 1,
+          "event": "INSPECT",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "OPEN_BUILD",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "ADJUST_A",
+          "actor": "A"
+        },
+        {
+          "phase": 1,
+          "event": "ADJUST_B",
+          "actor": "B"
+        },
+        {
+          "phase": 1,
+          "event": "CLOSE_BUILD",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "START_TEST",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "READ_SAFE_STOP",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "LOCK_DEVICE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 1,
+          "event": "CERTIFY_STAGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "INSPECT",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "OPEN_BUILD",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "ADJUST_A",
+          "actor": "A"
+        },
+        {
+          "phase": 2,
+          "event": "ADJUST_B",
+          "actor": "B"
+        },
+        {
+          "phase": 2,
+          "event": "CLOSE_BUILD",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "START_TEST",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "READ_SAFE_STOP",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "LOCK_DEVICE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 2,
+          "event": "CERTIFY_STAGE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "INSPECT",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "OPEN_BUILD",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "ADJUST_A",
+          "actor": "A"
+        },
+        {
+          "phase": 3,
+          "event": "ADJUST_B",
+          "actor": "B"
+        },
+        {
+          "phase": 3,
+          "event": "CLOSE_BUILD",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "START_TEST",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "READ_SAFE_STOP",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "LOCK_DEVICE",
+          "actor": "REFEREE"
+        },
+        {
+          "phase": 3,
+          "event": "CERTIFY_STAGE",
+          "actor": "REFEREE"
+        }
+      ],
+      "winner": null,
+      "official_points": null,
+      "physical_consequence": "TRACE-HIST-POST-2022-SF-1",
+      "safety_claim": "ABSTRACT_INTERLOCK_RULES_ONLY_REAL_LOADS_AND_CROWD_CLEARANCES_NOT_VERIFIED"
+    }
+  ],
+  "no_live_results": true,
+  "no_real_engineering_certification": true,
+  "no_2026_result": true
+}
