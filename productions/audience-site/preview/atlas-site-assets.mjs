@@ -537,6 +537,52 @@ gl_FragColor=vec4(base*vShade,1.);
   return marks;
  }
 
+
+ // Source-exact Archive courier court: small inset physical paving blocks on
+ // its ORIGINAL one-mesh footprint. No inscriptions, historic material claim,
+ // new route, publication status, or canonical architecture are implied.
+ function archiveCourierCourtSetts(g){
+  const positions=[],colors=[],indices=[];
+  const emitBox=(x0,x1,y0,y1,z0,z1,tint)=>{
+   const corners=[
+    [x0,y0,z0],[x1,y0,z0],[x1,y1,z0],[x0,y1,z0],
+    [x0,y0,z1],[x1,y0,z1],[x1,y1,z1],[x0,y1,z1]
+   ];
+   for(const face of [[4,5,6,7],[1,0,3,2],[5,1,2,6],
+                      [0,4,7,3],[7,6,2,3],[0,1,5,4]]){
+    const base=positions.length/3;
+    for(const k of face){positions.push(...corners[k]);colors.push(...tint);}
+    indices.push(base,base+1,base+2,base,base+2,base+3);
+   }
+  };
+  // Continuous mortar substrate remains inside the original slab's bounds.
+  emitBox(-2.9,2.9,-.05,.028,-2.15,2.15,[.31,.30,.28]);
+  const width=5.8/8,depth=4.3/6,gap=.018;
+  let count=0;
+  for(let row=0;row<6;row++)for(let column=-1;column<=8;column++){
+   const left=-2.9+(column+(row%2)*.5)*width;
+   const right=left+width;
+   const x0=Math.max(-2.9,left+gap/2),x1=Math.min(2.9,right-gap/2);
+   if(x1-x0<.15)continue;
+   const z0=-2.15+row*depth+gap/2,z1=-2.15+(row+1)*depth-gap/2;
+   const shade=.88+.04*((row*7+column*3+41)%5);
+   const top=.05-.002*((row*5+column*7+107)%4);
+   emitBox(x0,x1,.028,top,z0,z1,
+           [.57*shade,.54*shade,.49*shade]);
+   count++;
+  }
+  const geo=new THREE.BufferGeometry();geo.name='Archive physical paving candidate';
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+  const material=mat('#ffffff','',{vertexColors:true,roughness:.96,metalness:0});
+  const court=mesh(g,geo,material,0,.51,2.1,'Courier court');
+  court.castShadow=false;
+  court.userData={sourceLandmark:'courier court',settCount:count,
+   visualAuthority:'CANDIDATE_NOT_APPROVED'};
+  return court;
+ }
+
  // A definition returns one representative object for each upstream landmark.
  const definitions={
   'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=tradeJediHighRidge(g);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
@@ -558,7 +604,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-DK-HIGHLAND-STRONGHOLD'(g){box(g,0,0,0,13,.8,11,M.slate);const stronghold=hall(g,0,-3,8,4,4.6,M.stone,M.red);for(const x of [-5.4,5.4]){box(g,x,.8,0,1,3.3,8,M.stone);cyl(g,x,.8,3.8,1,1.2,4.9,M.slate,8);roof(g,x,5.7,3.8,2.6,2.6,1.5,M.red);}const court=highlandTrainingCourt(g);for(const x of [-2.5,2.5]){beam(g,[x,.9,1.1],[x,2.7,1.1],.15,M.wood);beam(g,[x-.6,2.3,1.1],[x+.6,2.3,1.1],.1,M.wood);}const road=steps(g,0,6.3,3.2,5,.17);for(const x of [-3.8,3.8])flag(g,x,.8,3.4,M.red);return [stronghold,court,road];},
   'LOC-TDS-CHILI-SHARED-MARCH'(g){box(g,0,0,0,13,.2,11,M.earth);const settlement=pavilion(g,-3.2,-1.5,4.7,3.8,3,M.deepGreen);pavilion(g,3.4,-2,4,3.4,2.8,M.red);waterSurface(g,0,.25,2.8,7.8,1.5,'watercourse crossing','#46766c');const crossing=sharedMarchPlankedCrossing(g);for(const x of [-1.1,1.1])box(g,x,.8,2.8,.12,.75,4.1,M.wood);const quarter=hall(g,-3.4,-4.1,4.6,2.8,2.8,M.wood,M.canvas);desk(g,3.3,.2,-.8,3.5);fence(g,4.7,3.2,3.5,3);for(const x of [-6,6])tree(g,x,-4.2,.7,M.paleGreen);crossingBankReeds(g);return [settlement,crossing,quarter];},
   'LOC-COMPACT-NEUTRAL-GROUNDS'(g){const field=cyl(g,0,0,0,6.5,6.8,.25,M.green,40,'Open ceremonial field');const pav=pavilion(g,0,-4.7,5,3,3.4,M.ivory);for(const x of [-4.5,4.5])flag(g,x,.25,-2,M.ivory);const roads=box(g,0,.26,4.7,2.3,.04,5.2,M.sand,'Arrival-road presentation');for(const sign of [-1,1]){const path=box(g,sign*4.3,.27,2.4,2,.03,5.3,M.sand);path.rotation.y=sign*.8;}for(const x of [-2.7,2.7])for(const z of [-.8,1.2])box(g,x,.25,z,1.5,.4,.5,M.stone);return [field,pav,roads];},
-  'LOC-LEAGUE-ARCHIVE'(g){box(g,0,0,0,12,.45,10,M.stone);const halls=hall(g,0,-2.8,9,3.6,4.5,M.light,M.blue);for(const x of [-4.2,4.2])hall(g,x,.6,2.5,5.1,3.4,M.stone,M.blue);const vault=arch(g,0,.45,-.85,1.2,.45,.65,M.gold);box(g,0,.45,-1,2.25,2.1,.2,M.timber,'Ledger vault doors');const court=box(g,0,.46,2.1,5.8,.1,4.3,M.sand,'Courier court');for(const x of [-2.5,2.5]){cyl(g,x,.45,3.8,.17,.25,2.6,M.light,9);box(g,x,2.9,3.8,.6,.6,.6,M.gold);}desk(g,0,.55,1.1,2.6);ledger(g,0,1.8,1.1);steps(g,0,5.5,4,3,.17);return [halls,vault,court];}
+  'LOC-LEAGUE-ARCHIVE'(g){box(g,0,0,0,12,.45,10,M.stone);const halls=hall(g,0,-2.8,9,3.6,4.5,M.light,M.blue);for(const x of [-4.2,4.2])hall(g,x,.6,2.5,5.1,3.4,M.stone,M.blue);const vault=arch(g,0,.45,-.85,1.2,.45,.65,M.gold);box(g,0,.45,-1,2.25,2.1,.2,M.timber,'Ledger vault doors');const court=archiveCourierCourtSetts(g);for(const x of [-2.5,2.5]){cyl(g,x,.45,3.8,.17,.25,2.6,M.light,9);box(g,x,2.9,3.8,.6,.6,.6,M.gold);}desk(g,0,.55,1.1,2.6);ledger(g,0,1.8,1.1);steps(g,0,5.5,4,3,.17);return [halls,vault,court];}
  };
  for(const b of bindings){const define=definitions[b.id];if(!define)continue;
   const g=new THREE.Group();g.name=b.name||b.id;g.userData={locationId:b.id,canonStatus:b.canonStatus,visualAuthority:'CANDIDATE_NOT_APPROVED',currentStateClaim:false,sourceLandmarks:[...(b.landmarks||[])],sourcePath:'world/data/locations.json'};
