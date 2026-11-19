@@ -30,7 +30,11 @@ function inspect(x){
  if(/2026.{0,75}(?:winner|champion|finalist)/i.test(body))issues.push('PREWRITTEN_2026_OUTCOME');
  if(!body.includes(f.home.name)||!body.includes(f.away.name))issues.push('MISSING_TWO_OPPONENTS');
  for(const key of ['PHASE ONE','PHASE TWO','PHASE THREE'])if(!body.toUpperCase().includes(key))issues.push('MISSING_'+key.replaceAll(' ','_'));
- if(body.trim().split(/\s+/).length<400)issues.push('SHORT_UNDERDEVELOPED_PROSE');
+ if(body.trim().split(/\s+/).length<650)issues.push('SHORT_UNDERDEVELOPED_SCREENPLAY_TARGET_650_WORDS');
+ if(/deep crevice|ground gave way beneath|fell into a chasm|fell off the cliff/i.test(body))issues.push('UNPROTECTED_HISTORIC_ARENA_COLLAPSE');
+ if(/weapons in hand|unsheathed weapon|sharp blade/i.test(body) && !/padded|controlled|blunted/i.test(body))issues.push('UNSPECIFIED_CONTROLLED_WEAPON_SAFETY');
+ if(/HIST-POST-[0-9]{4}/.test(body))issues.push('INTERNAL_FIXTURE_ID_LEAKED_IN_WORLD_DIALOGUE');
+ if(/[\u3400-\u9fff]/.test(body))issues.push('UNREVIEWED_LANGUAGE_SCRIPT_LEAK');
  if(!/(RESULT CERTIFIED|FINAL RESULT|OFFICIAL RESULT)/i.test(body))issues.push('MISSING_RESULT_CERTIFICATION');
  if(!body.includes(winner.name))issues.push('MISSING_SOURCE_WINNER');
  return {fixture_id:x.fixture_id,model:x.model,source_winner_slot:f.winner_slot,
