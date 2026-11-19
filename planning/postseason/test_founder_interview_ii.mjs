@@ -45,7 +45,7 @@ test('Fixed historic Last Field accumulates exactly eleven effects without destr
  const finales=impact.traces.filter(x=>x.round==='FINAL');
  assert.equal(finales.length,11);
  assert.ok(finales.every(x=>x.site_id==='CAND-POST-LAST-FIELD'));
- assert.ok(finales.every(x=>x.final_stadium_rule.includes('foundation')));
+ assert.ok(finales.every(x=>x.final_stadium_rule.toLowerCase().includes('footprint')));
  assert.ok(finales.every(x=>x.year_after.restored_function&&x.year_after.history_not_erased));
 });
 test('No old physical injury is asserted as actual human owner medical history',()=>{

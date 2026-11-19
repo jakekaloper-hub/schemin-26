@@ -33,4 +33,4 @@ bad('No self matchup',(f,l)=>{f.away_id=f.home_id;});
 bad('No fictitious opponent score before draw',(f,l)=>{f.away_points=144;});
 bad('No premature winner supplied',(f,l)=>{f.winner_id='SYNTHETIC_T2';});
 bad('No incompatible nonexistent challenge venue',(f,l)=>{f.staging.venue_id='CAND-POST-UNKNOWN';});
-console.log(JSON.stringify({status:'PASS',cases:tests.length,source:'SYNTHETIC_ONLY_NEVER_PUBLIC',2026_real_draws_created:0,tests},null,2));
+console.log(JSON.stringify({status:'PASS',cases:tests.length,source:'SYNTHETIC_ONLY_NEVER_PUBLIC',real_2026_draws_created:0,tests},null,2));
