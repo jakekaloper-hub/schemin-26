@@ -395,6 +395,36 @@ gl_FragColor=vec4(base*vShade,1.);
   return o;
  }
 
+
+ // Provisional LLC Port City: five original mercantile tower envelopes.
+ // Shallow locally recessed courses are only candidate surface treatment,
+ // not surveyed masonry, canonical storm aftermath or a recorded construction.
+ let portTowerMaterial=null;
+ function stormCityMercantileTower(g,x,z,h){
+  const ySegments=Math.max(20,Math.round(h*6));
+  const geo=new THREE.BoxGeometry(2.7,h,2.5,10,ySegments,10);
+  const p=geo.getAttribute('position'),normals=geo.getAttribute('normal'),colors=[];
+  for(let i=0;i<p.count;i++){
+   const x0=p.getX(i),y0=p.getY(i),z0=p.getZ(i);
+   const nx=normals.getX(i),ny=normals.getY(i),nz=normals.getZ(i);
+   const vertical=Math.abs(ny)>.5,lateral=Math.abs(nx)>.5;
+   const u=lateral?z0:x0,limit=lateral?1.25:1.35;
+   const edge=Math.max(0,Math.min(1,(limit-Math.abs(u))/.26,(h*.5-Math.abs(y0))/.28));
+   const bed=Math.pow(Math.max(0,1-Math.abs(Math.sin((y0+h*.5)*Math.PI/.49))),9);
+   const course=Math.floor((y0+h*.5)/.49);
+   const joint=Math.pow(Math.max(0,1-Math.abs(Math.sin((u+(course%2)*.43)*Math.PI/.96))),10);
+   const grain=Math.sin(u*8.1+y0*5.7)*Math.cos(z0*6.9-x0*4.1);
+   const inset=vertical?0:edge*(.008+.025*Math.max(bed,joint*.82)+.007*(.5+.5*grain));
+   p.setXYZ(i,x0-nx*inset,y0-ny*inset,z0-nz*inset);
+   const tone=.79+.13*grain-.14*bed-.08*joint;
+   colors.push(.69*tone,.64*tone,.52*tone);
+  }
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.computeVertexNormals();geo.computeBoundingSphere();
+  if(!portTowerMaterial)portTowerMaterial=mat('#ffffff','stone',{vertexColors:true,roughness:.96,metalness:0});
+  return mesh(g,geo,portTowerMaterial,x,.95+h/2,z,'Mercantile tower');
+ }
+
  // A single unlettered, source-position map inside the existing League Chamber.
  // Site positions, including unvisited sites, come exclusively from Atlas bindings.
  // This is candidate indoor presentation, not canonical cartography or new paths.
@@ -437,7 +467,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-DK-MUD-HILL'(g){const hill=rock(g,0,.8,0,6,2.4,4.7,M.earth);for(let i=0;i<7;i++){const a=i*2.1;rock(g,Math.cos(a)*4.4,.25,Math.sin(a)*3.6,1.3,.45,1.1,M.slate);}const mire=waterSurface(g,1,.22,1.3,7.2,5.2,'mire','#515d46');const standards=flag(g,-1.9,2.6,0,M.red);flag(g,1.8,2.6,-.3,M.blue);box(g,0,2.15,2.2,3,.2,1,M.earth,'Worn illustrative ridge');return [hill,mire,standards];},
   'LOC-RED-SLOB-ALPINE-ROUTE'(g){const summit=alpineSurface(g,0,1.4,-1.7,5.5,4.1,4.1);alpineSurface(g,.2,4.2,-1.8,3.8,.85,2.9,true);for(let i=0;i<6;i++){const a=i*.7;rock(g,-5+i*1.8,.3,Math.sin(a)*3.2,1.6,.9,1.2,M.slate);}const camp=roof(g,-3,.4,3.5,3.2,3,2.5,M.red);roof(g,2,.4,4.1,2.6,2.7,2.1,M.canvas);const marker=cyl(g,2.9,2.7,-1,.28,.45,1.9,M.stone,7,'Wager marker');flag(g,3,4.6,-1,M.red);return [summit,camp,marker];},
   'LOC-SOUTHERN-SPEEDWAY'(g){const track=speedwayTrack(g);const inner=cyl(g,0,0,0,4,4,.3,M.green,40,'Racecourse infield');inner.scale.z=.64;for(const z of [-5.7,5.7]){for(let row=0;row<4;row++)box(g,0,.25+row*.36,z+Math.sign(z)*row*.55,8,.4,.55,M.stone,'Grandstand tier');roof(g,0,2.7,z+Math.sign(z)*.7,8.8,2.3,.75,M.red);for(const x of [-3.7,3.7])for(const dz of [-.65,.65])cyl(g,x,.25,z+Math.sign(z)*.7+dz,.1,.14,2.45,M.timber,6);}const stand=g.children.find(o=>o.name==='Grandstand tier');for(const x of [-7.2,7.2])flag(g,x,.3,0,M.red);return [track,stand];},
-  'LOC-LLC-STORM-CITY'(g){waterSurface(g,1,.22,3.9,10,6.2,'sheltered port','#356572');box(g,0,.3,-.7,13,.65,9,M.slate);let tower;for(const [x,z,h]of [[-4,-3,6],[0,-3.5,8],[4,-3,5.6],[-3,0,4],[2,0,4.7]]){const body=box(g,x,.95,z,2.7,h,2.5,M.light,'Mercantile tower');roof(g,x,h+.95,z,3.2,3,1.4,M.blue);for(let j=0;j<3;j++)box(g,x,2.1+j*1.2,z+1.27,1,.5,.04,M.glass);tower??=body;}const barriers=box(g,0,.9,4,13,1.35,.55,M.dark,'Storm barrier');for(let i=0;i<7;i++)box(g,-6+i*2,1.7,4,.3,1.05,.85,M.stone);steps(g,5,6.1,1.5,6,.16);return [tower,barriers];},
+  'LOC-LLC-STORM-CITY'(g){waterSurface(g,1,.22,3.9,10,6.2,'sheltered port','#356572');box(g,0,.3,-.7,13,.65,9,M.slate);let tower;for(const [x,z,h]of [[-4,-3,6],[0,-3.5,8],[4,-3,5.6],[-3,0,4],[2,0,4.7]]){const body=stormCityMercantileTower(g,x,z,h);roof(g,x,h+.95,z,3.2,3,1.4,M.blue);for(let j=0;j<3;j++)box(g,x,2.1+j*1.2,z+1.27,1,.5,.04,M.glass);tower??=body;}const barriers=box(g,0,.9,4,13,1.35,.55,M.dark,'Storm barrier');for(let i=0;i<7;i++)box(g,-6+i*2,1.7,4,.3,1.05,.85,M.stone);steps(g,5,6.1,1.5,6,.16);return [tower,barriers];},
   'LOC-DK-HIGHLAND-STRONGHOLD'(g){box(g,0,0,0,13,.8,11,M.slate);const stronghold=hall(g,0,-3,8,4,4.6,M.stone,M.red);for(const x of [-5.4,5.4]){box(g,x,.8,0,1,3.3,8,M.stone);cyl(g,x,.8,3.8,1,1.2,4.9,M.slate,8);roof(g,x,5.7,3.8,2.6,2.6,1.5,M.red);}const court=highlandTrainingCourt(g);for(const x of [-2.5,2.5]){beam(g,[x,.9,1.1],[x,2.7,1.1],.15,M.wood);beam(g,[x-.6,2.3,1.1],[x+.6,2.3,1.1],.1,M.wood);}const road=steps(g,0,6.3,3.2,5,.17);for(const x of [-3.8,3.8])flag(g,x,.8,3.4,M.red);return [stronghold,court,road];},
   'LOC-TDS-CHILI-SHARED-MARCH'(g){box(g,0,0,0,13,.2,11,M.earth);const settlement=pavilion(g,-3.2,-1.5,4.7,3.8,3,M.deepGreen);pavilion(g,3.4,-2,4,3.4,2.8,M.red);waterSurface(g,0,.25,2.8,7.8,1.5,'watercourse crossing','#46766c');const crossing=box(g,0,.5,2.8,2.3,.3,4.3,M.wood,'Watercourse crossing');for(const x of [-1.1,1.1])box(g,x,.8,2.8,.12,.75,4.1,M.wood);const quarter=hall(g,-3.4,-4.1,4.6,2.8,2.8,M.wood,M.canvas);desk(g,3.3,.2,-.8,3.5);fence(g,4.7,3.2,3.5,3);for(const x of [-6,6])tree(g,x,-4.2,.7,M.paleGreen);crossingBankReeds(g);return [settlement,crossing,quarter];},
   'LOC-COMPACT-NEUTRAL-GROUNDS'(g){const field=cyl(g,0,0,0,6.5,6.8,.25,M.green,40,'Open ceremonial field');const pav=pavilion(g,0,-4.7,5,3,3.4,M.ivory);for(const x of [-4.5,4.5])flag(g,x,.25,-2,M.ivory);const roads=box(g,0,.26,4.7,2.3,.04,5.2,M.sand,'Arrival-road presentation');for(const sign of [-1,1]){const path=box(g,sign*4.3,.27,2.4,2,.03,5.3,M.sand);path.rotation.y=sign*.8;}for(const x of [-2.7,2.7])for(const z of [-.8,1.2])box(g,x,.25,z,1.5,.4,.5,M.stone);return [field,pav,roads];},
