@@ -379,10 +379,127 @@
     "canceled": 4
   },
   "preliminary_checks": {
-    "passed": 32,
-    "failed": [
-      "standings_not_changed"
-    ],
-    "checks": 33
-  }
+    "passed": 34,
+    "failed": [],
+    "checks": 34
+  },
+  "competitive_standings_changed": false,
+  "standings_row_diffs": [
+    {
+      "team_id": 3,
+      "team_name": "Slob on my Dobb",
+      "changes": {
+        "waiverPriority": {
+          "previous": 9,
+          "current": 7
+        }
+      }
+    },
+    {
+      "team_id": 9,
+      "team_name": "El Niño",
+      "changes": {
+        "waiverPriority": {
+          "previous": 8,
+          "current": 12
+        },
+        "currentProjectedRank": {
+          "previous": 5,
+          "current": 6
+        }
+      }
+    },
+    {
+      "team_id": 5,
+      "team_name": "D0nkey K0ng",
+      "changes": {
+        "waiverPriority": {
+          "previous": 7,
+          "current": 6
+        }
+      }
+    },
+    {
+      "team_id": 8,
+      "team_name": "His Majesty's Blood",
+      "changes": {
+        "waiverPriority": {
+          "previous": 10,
+          "current": 8
+        }
+      }
+    },
+    {
+      "team_id": 12,
+      "team_name": "Dr. Duckhook",
+      "changes": {
+        "waiverPriority": {
+          "previous": 11,
+          "current": 9
+        },
+        "currentProjectedRank": {
+          "previous": 3,
+          "current": 5
+        }
+      }
+    },
+    {
+      "team_id": 11,
+      "team_name": "Seven Deadly Chins",
+      "changes": {
+        "waiverPriority": {
+          "previous": 12,
+          "current": 10
+        },
+        "currentProjectedRank": {
+          "previous": 6,
+          "current": 3
+        }
+      }
+    },
+    {
+      "team_id": 2,
+      "team_name": "Red Leopards",
+      "changes": {
+        "waiverPriority": {
+          "previous": 6,
+          "current": 5
+        },
+        "currentProjectedRank": {
+          "previous": 9,
+          "current": 8
+        }
+      }
+    },
+    {
+      "team_id": 7,
+      "team_name": "The Chili Cheesers ",
+      "changes": {
+        "waiverPriority": {
+          "previous": 5,
+          "current": 11
+        }
+      }
+    },
+    {
+      "team_id": 4,
+      "team_name": "The LLC",
+      "changes": {
+        "currentProjectedRank": {
+          "previous": 10,
+          "current": 9
+        }
+      }
+    },
+    {
+      "team_id": 1,
+      "team_name": "ObiWan Jacoby",
+      "changes": {
+        "currentProjectedRank": {
+          "previous": 8,
+          "current": 10
+        }
+      }
+    }
+  ]
 }
