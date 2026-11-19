@@ -121,6 +121,32 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   course.rotation.x=-Math.PI/2;course.scale.y=.64;
   return course;
  }
+
+ // Weather exposure is source-recorded for LOC-STORM-BOWL, but the tiny chips
+ // and mineral shades below are reversible presentation details, not an event.
+ // One existing seat stays one static mesh; existing anchors and box limits
+ // remain unchanged, so batching can preserve the original draw budget.
+ let stormBowlSeatMaterial=null;
+ function stormBowlSeat(g,x,z,angle,index){
+  if(!stormBowlSeatMaterial)stormBowlSeatMaterial=mat('#ffffff','',{vertexColors:true,roughness:.97,metalness:0});
+  const geo=new THREE.BoxGeometry(1.9,.7,1.4,6,3,4);
+  const position=geo.getAttribute('position'),colors=[];
+  for(let i=0;i<position.count;i++){
+   const vx=position.getX(i),vy=position.getY(i),vz=position.getZ(i);
+   const grain=.5+.5*Math.sin(vx*18.3+vz*14.7+index*.81)*Math.cos(vy*15.2-vz*8.1);
+   const corner=Math.max(0,Math.min(1,(Math.abs(vx)/.95+Math.abs(vz)/.7-1.30)/.70));
+   const fracture=.013+.065*corner*(.4+.6*grain);
+   const wornTop=vy>0?.010+.035*grain:0;
+   position.setXYZ(i,vx*(1-fracture),vy-wornTop,vz*(1-fracture));
+   const mineral=.62+.19*grain-.07*corner;
+   colors.push(.56*mineral,.59*mineral,.61*mineral);
+  }
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.computeVertexNormals();geo.computeBoundingSphere();
+  const seat=mesh(g,geo,stormBowlSeatMaterial,x,.8,z,'Broken-ring seating');
+  seat.rotation.y=-angle;
+  return seat;
+ }
  function desk(g,x,y,z,w=2.7,m=M.wood){const top=box(g,x,y+1.1,z,w,.15,1.1,m,'Record surface');for(const dx of [-w*.4,w*.4])box(g,x+dx,y,z,.17,1.1,.65,M.timber);return top;}
  function ledger(g,x,y,z){for(let i=0;i<3;i++)box(g,x+i*.18,y+i*.08,z,.7,.08,.55,i===1?M.red:M.ivory,'Unlettered ledger');}
  // The four EXISTING other-site water bodies use a finer interior mesh so
@@ -257,7 +283,7 @@ gl_FragColor=vec4(base*vShade,1.);
  const definitions={
   'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=rock(g,0,1.3,0,7,2.5,5.5);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
   'LOC-ARSENAL-BARBERSHOP'(g){box(g,0,0,0,8,.35,6,M.stone);const shell=hall(g,0,-1,6,3.4,3.2,M.light,M.red);box(g,0,.35,1.2,5.4,2.8,.13,M.timber,'Open shop backdrop');const awning=roof(g,0,2.75,2.05,6.4,2.2,.6,M.red);for(const dx of [-2.6,2.6])cyl(g,dx,.3,2.9,.08,.11,2.45,M.ivory,7);cyl(g,0,.4,1.9,.35,.6,.6,M.black);const chair=box(g,0,1.0,1.9,1.25,.27,1.2,M.red,'Barber chair');box(g,0,1.24,1.45,1.25,1.1,.23,M.red);for(const x of [-.8,.8])box(g,x,1.1,1.9,.14,.5,1.2,M.gold);box(g,0,.72,2.85,.8,.14,.4,M.black);for(const x of [-2.2,2.2]){const pole=cyl(g,x,.35,3,.1,.1,2,M.ivory,8);for(let i=0;i<5;i++)cyl(g,x,.4+i*.35,3,.115,.115,.16,M.red,8);pole.name='Shop stripe';}return [chair,awning];},
-  'LOC-STORM-BOWL'(g){const field=cyl(g,0,0,0,6.6,6.9,.45,M.sand,36,'Weather-exposed venue');for(let i=0;i<20;i++){const a=i*Math.PI*2/20;if(a>1.1&&a<2.0)continue;const x=Math.cos(a)*6.3,z=Math.sin(a)*6.3;const s=box(g,x,.45,z,1.9,.7,1.4,M.slate,'Broken-ring seating');s.rotation.y=-a;rock(g,x*1.13,.35,z*1.13,.8,.7,.8,M.dark);}const counter=desk(g,1,.45,7.6,4);pavilion(g,1,7.6,4.6,2.4,2.7,M.blue);for(const x of [-4,4])flag(g,x,.4,-5.4,M.blue);return [field,counter];},
+  'LOC-STORM-BOWL'(g){const field=cyl(g,0,0,0,6.6,6.9,.45,M.sand,36,'Weather-exposed venue');for(let i=0;i<20;i++){const a=i*Math.PI*2/20;if(a>1.1&&a<2.0)continue;const x=Math.cos(a)*6.3,z=Math.sin(a)*6.3;stormBowlSeat(g,x,z,a,i);rock(g,x*1.13,.35,z*1.13,.8,.7,.8,M.dark);}const counter=desk(g,1,.45,7.6,4);pavilion(g,1,7.6,4.6,2.4,2.7,M.blue);for(const x of [-4,4])flag(g,x,.4,-5.4,M.blue);return [field,counter];},
   'LOC-LLC-BOARDROOM'(g){box(g,0,0,0,10,.55,7.5,M.slate);const chamber=hall(g,0,-1.6,8.8,3.6,4.6,M.light,M.slate);for(const x of [-4.2,4.2])cyl(g,x,.55,1.6,.27,.34,3.8,M.stone);const table=desk(g,0,.55,1.45,4.4,M.dark);ledger(g,-1.1,1.85,1.4);ledger(g,.8,1.85,1.4);const ledgers=box(g,-3.6,.55,.4,.7,2.4,1.7,M.timber,'Ledger cabinet');for(let i=0;i<5;i++)box(g,-3.6,1+i*.32,.95,.55,.19,.7,i%2?M.red:M.ivory);const overlook=box(g,0,.65,4.2,10,.2,1.8,M.stone,'Market overlook');for(let i=0;i<9;i++)box(g,-4+i, .85,4.9,.12,.8,.12,M.gold);box(g,0,1.6,4.9,8.3,.1,.1,M.gold);steps(g,0,5.6,3,4,.14);return [chamber,ledgers,overlook];},
   'LOC-RED-RUINS'(g){const terrace=box(g,0,0,0,12,.55,10,M.dark,'Ruined jungle terrace');for(let i=0;i<3;i++)box(g,0,.5+i*.3,-i*.5,11-i*.8,.35,8-i*.7,M.stone);for(const x of [-4,0,4])arch(g,x,1.45,-2.5,1.45,.45,.9);for(const [x,z,h]of [[-5,2,2.9],[4.7,2.4,2],[2,-4,4],[-2.7,-4,2.2]]){cyl(g,x,.5,z,.43,.52,h,M.stone,9);rock(g,x+.4,.6,z+.7,.75,.45,.7);}const banners=flag(g,-4.8,.7,3.2,M.red,true);flag(g,4.8,.7,3.2,M.red,true);steps(g,0,5.4,3.5,6,.25);for(const [x,z]of [[-6,-3],[5.8,-3.6],[-5.9,3.8]])tree(g,x,z,1.15);return [terrace,banners];},
   'LOC-CHILI-STABLE'(g){box(g,0,0,0,13,.2,11,M.sand);const stable=hall(g,-2,-2,8,4.3,3.4,M.wood,M.red);for(const x of [-4,-1,2]){box(g,x,.3,.25,2.1,1.7,.12,M.timber);box(g,x,1.2,.35,2.1,.12,.1,M.gold);}const pit=cyl(g,4,.2,3,1.15,1.3,.7,M.dark,14,'Cooking pit');cyl(g,4,.9,3,.85,.95,.5,M.black,12);smoke(g,4,1.2,3,true);fence(g,-2,3.5,7,3.5);const enclosure=box(g,-2,.22,3.5,6.7,.04,3.3,M.earth,'Dark Horse enclosure — no actor');for(const x of [-5.8,5.6])tree(g,x,-3.7,.8,M.paleGreen);return [stable,pit,enclosure];},
