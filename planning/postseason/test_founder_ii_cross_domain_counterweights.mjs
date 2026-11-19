@@ -89,7 +89,7 @@ test('Cross-OS package contains all new source-bound data and remains unpublishe
  assert.equal(exportData.interview_ii.ceremonial_draws.length,56);
  assert.equal(exportData.interview_ii.permanent_traces.length,56);
  assert.equal(exportData.interview_ii.in_world_direct_competition.length,56);
- assert.equal(exportData.visual_preproduction.annual_finales.length,11);
+ assert.equal(exportData.visual_preproduction.final_prose_reconciliation.length,11);
  assert.equal(exportData.postseason_2026.champion,null);
  assert.equal(exportData.commonwealth_site.deployed,false);
  assert.equal(exportData.publication_status,'HOLD_NO_INDEPENDENT_UMPIRE_OR_ACTIVE_ATLAS_PROMOTION');
