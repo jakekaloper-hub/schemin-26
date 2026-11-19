@@ -128,6 +128,9 @@ var main=document.getElementById('year-main');clear(main);
 var fin=oldF(selectedYear),win=winners(fin),annual=data.cardsAnnual.find(function(x){return x.season===selectedYear;});
 var hero=push(main,el('div','year-hero panel'));var intro=push(hero,el('div'));push(intro,el('div','eyebrow',selectedYear+' · '+seasonLabel(selectedYear)));push(intro,el('h3','', 'The '+selectedYear+' Gathering'));push(intro,el('div','eyebrow','Recorded champion'));push(intro,el('div','champion',win.name));
 push(intro,el('p','',annual.world_state));
+var impactYear=data.impacts.annual_states.find(function(y){return y.year===selectedYear;});
+if(impactYear)push(intro,el('p','',impactYear.cumulative_traces_at_close+' persistent venue markings accumulated from 2015 through '+selectedYear+'. Each has a safe restored or archived state.'));
+
 var mediaState=data.broadcast.years.find(function(x){return x.year===selectedYear;});
 if(mediaState){
  push(intro,el('div','eyebrow','Broadcast heritage · '+mediaState.era_status.replaceAll('_',' ')));
@@ -151,19 +154,42 @@ var old=main.querySelector('.scene-panel');if(old)old.remove();if(!selectedFixtu
 var c=selectedFixture;var d=push(main,el('section','scene-panel panel'));d.setAttribute('aria-label','Selected three-stage encounter');
 var head=push(d,el('div','scene-header'));push(head,el('div','eyebrow',c.round+' / '+c.venue.name+' / '+c.season));push(head,el('div','eyebrow','Fictional choreography · verified winner'));
 push(d,el('h3','',c.verified.home.name+' vs '+c.verified.away.name));
-var grid=push(d,el('div','stage-grid'));c.beat_sequence.forEach(function(st){var card=push(grid,el('div','stage'));push(card,el('span','number','0'+st.n));push(card,el('strong','',st.label.replaceAll('_',' ')));push(card,el('p','',st.action));});
+var revision=data.soloScenes.cards.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+var selectedDraw=data.ceremonial.ceremonies.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+if(selectedDraw)push(d,el('p','eyebrow','CEREMONIAL DRAW · '+(revision?revision.draw.name:selectedDraw.selected_obstacle_id)+' · retrospective fiction'));
+var grid=push(d,el('div','stage-grid'));
+(revision?revision.acts:c.beat_sequence).forEach(function(st){
+ var card=push(grid,el('div','stage'));
+ push(card,el('span','number','0'+(st.number||st.n)));
+ push(card,el('strong','',st.label||st.stage_label||'physical challenge'));
+ push(card,el('p','',st.scene_text||st.action));
+});
 var foot=push(d,el('div','scene-summary'));
 push(foot,el('strong','', 'Official survivor: '+winners(c).name+'. '));
 push(foot,document.createTextNode(c.storyroom.camp_effect));
 push(foot,el('p','', 'SPECTATOR CUTAWAY: '+c.storyroom.spectator_cutaway));
 push(foot,el('p','', 'HERITAGE: '+c.storyroom.heritage_consequence));
+var lasting=data.impacts.traces.find(function(t){return t.fixture_id===c.verified_fixture_id;});
+if(lasting) {
+ push(foot,el('p','', 'PERMANENT ISLAND TRACE: '+lasting.impact.material_consequence+'. After safe repair the original mark or piece remains identifiable in the record.'));
+ push(foot,el('p','', 'MAINTAINED SINCE: '+lasting.year+'. The Last Field keeps its founding gates and foundation intact.'));
+}
+var body=data.bodyEffects.games.find(function(g){return g.fixture_id===c.verified_fixture_id;});
+if(body)push(foot,el('p','', 'PERSONAL PHYSICAL CONSEQUENCES (FICTION): '+body.team_slot_health_fiction.map(function(x){return x.franchise_name+': '+x.in_contest_personal_effect;}).join(' · ')));
+
 var option=data.bindings.proposals.find(function(x){return x.fixture_id===c.verified_fixture_id;});
 if(option) {
  var idea=push(foot,el('p',''));
  push(idea,el('strong','', 'ALTERNATE INKLINGS OBSTACLE: '));
  push(idea,document.createTextNode(option.scenario+' — '+option.family+'. '+option.physical_contract.terrain+'. Proposed only; source results remain unchanged.'));
 }
-push(foot,el('p','', 'The individual physical actions and spectator responses are fictional Inklings productions. Official ESPN history determines the scores and winner.'));
+var shotplan=data.storyboard.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+if(shotplan){
+var deck=push(foot,el('details','shot-deck'));var caption=push(deck,el('summary','',shotplan.shots.length+'-shot cinematic previsualization plan'));caption.setAttribute('aria-label','Open visual sequence camera plan');
+shotplan.shots.forEach(function(sh){push(deck,el('p','',sh.id.split('-').slice(-1)[0]+' · '+sh.beat.replaceAll('_',' ')+' / '+sh.lens.replaceAll('_',' ')+': '+sh.visual));});
+}
+push(foot,el('p','', 'The individual physical actions, visual shot plans, and spectator responses are fictional Inklings preproduction. Official ESPN history determines the scores and winner.'));
+
 }
 function renderFinale(main){
 var scene=data.finales.find(function(x){return x.year===selectedYear;});if(!scene)return;
@@ -171,6 +197,7 @@ var article=push(main,el('article','panel finale-panel'));article.setAttribute('
 push(article,el('div','eyebrow','Inklings / annual Last Field scene / original fiction'));
 push(article,el('h3','',scene.title));
 push(article,el('div','theme',scene.angle));
+if(scene.ceremonial_draw)push(article,el('p','eyebrow','2026-11-19 Founder Interview II / retrospective ceremonial draw: '+scene.ceremonial_draw.name));
 var prose=push(article,el('div','finale-prose'));
 scene.prose.forEach(function(p){push(prose,el('p','',p));});
 var foot=push(article,el('div','finale-foot'));

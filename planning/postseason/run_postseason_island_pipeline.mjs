@@ -23,6 +23,12 @@ const paths={
   obstacles:'OBSTACLE_LEXICON_120_V1.json',
   bindings:'HISTORICAL_CHALLENGE_OPTION_BINDINGS_56_V1.json',
   material:'ISLAND_MATERIAL_MEMORY_2015_2025_V1.json',
+  draw:'HISTORICAL_CEREMONIAL_DRAW_2015_2025.proposal.json',
+  impacts:'ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json',
+  scenes:'INKLINGS_INTERVIEW_II_56_MATCH_SCENE_CONTRACTS.proposal.json',
+  body:'INKLINGS_OWNER_BODY_CONSEQUENCE_2015_2025.proposal.json',
+  finalesV2:'INKLINGS_ELEVEN_CHAMPIONSHIP_FINALES_INTERVIEW_II_V2.proposal.json',
+  storyboard:'INKLINGS_INTERVIEW_II_VISUAL_STORYBOARDS_56.proposal.json',
   cards:'INKLINGS_2015_2025_COMPILED_PRODUCTION_CARDS.proposal.json',
   export:'POSTSEASON_CROSS_OS_PREPRODUCTION_EXPORT.founder_v2.json'
 };
@@ -70,7 +76,7 @@ function build(){
  verifyVenueFacts(history,sites);
  assert.equal(contract.schema,'schemin.postseason_island_event_contract.founder_v2');
  const cards=compile(history,sites,sha(hraw));
- const exportData=exportConsumers(cards,topology,contract,broadcast,parse('obstacles'),parse('bindings'),parse('material'));
+ const exportData=exportConsumers(cards,topology,contract,broadcast,parse('obstacles'),parse('bindings'),parse('material'),parse('draw'),parse('impacts'),parse('scenes'),parse('body'),parse('finalesV2'),parse('storyboard'));
  assert.equal(cards.headline.challenge_stages,168);
  assert.equal(exportData.publication_status,'HOLD_NO_INDEPENDENT_UMPIRE_OR_ACTIVE_ATLAS_PROMOTION');
  assert.equal(exportData.postseason_2026.champion,null);

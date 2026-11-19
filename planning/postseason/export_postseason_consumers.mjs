@@ -9,7 +9,7 @@ import {fileURLToPath} from 'node:url';
 const dir=path.dirname(fileURLToPath(import.meta.url));
 const read=name=>JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'));
 const must=(condition,message)=>{if(!condition)throw new Error(message);};
-export function exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material){
+export function exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard){
   must(cards.schema==='schemin.inklings_postseason_compiled_cards.v1','Inklings compiled cards absent');
   must(cards.cards.length===56&&cards.annual.length===11,'Historical coverage incomplete');
   must(topology.schema==='schemin.championship_island_topology.founder_v2','Founder bridge topology absent');
@@ -17,6 +17,21 @@ export function exportConsumers(cards,topology,contract,broadcast,obstacles,bind
   must(obstacles?.schema==='schemin.postseason.obstacle_lexicon.v1'&&obstacles.obstacles.length===120,'Obstacle lexicon absent');
   must(bindings?.schema==='schemin.postseason.obstacle_options_for_history.v1'&&bindings.proposals.length===56,'Fixture obstacle proposals absent');
   must(material?.schema==='schemin.postseason.island_material_memory.v1'&&material.years.length===11,'Island material history absent');
+  must(draw?.schema==='schemin.island_historical_draw_manifest.v1'&&draw.ceremonies.length===56,'Founder II ceremonial draw missing');
+  must(impacts?.schema==='schemin.championship_island_persistent_traces.v1'&&impacts.traces.length===56,'Permanent site traces missing');
+  must(scenes?.schema==='schemin.postseason.inklings_interview_ii_scene_contracts.v1'&&scenes.cards.length===56,'Direct owner stage scripts missing');
+  must(body?.schema==='schemin.postseason.owner_stage_body_continuity.proposal.v1'&&body.games.length===56,'Physical opponent consequences missing');
+  const byFixture=id=>[
+    draw.ceremonies.find(x=>x.fixture_id===id),
+    impacts.traces.find(x=>x.fixture_id===id),
+    scenes.cards.find(x=>x.fixture_id===id),
+    body.games.find(x=>x.fixture_id===id)
+  ];
+  must(cards.cards.every(c=>byFixture(c.verified_fixture_id).every(Boolean)),'Interview II fixture cross-index drift');
+  must(scenes.cards.every(c=>c.acts.every(a=>a.solo_contender_A.personally_competes&&a.solo_contender_B.personally_competes)),'Surrogate actor detected');
+  must(finalesV2?.schema==='schemin.inklings.last_field_championship_scenes.interview_ii.v2'&&finalesV2.scenes.length===11,'Founder II final scene reconciliation missing');
+  must(storyboard?.schema==='schemin.postseason.interview_ii_visual_storyboards.v1'&&storyboard.cards.length===56&&storyboard.counts.shot_contracts===672,'Visual storyboard release packets missing');
+  must(finalesV2.scenes.every(f=>draw.ceremonies.some(x=>x.fixture_id===f.verified.fixture_id && x.selected_obstacle_id===f.ceremonial_draw.obstacle_id)),'Outdated final challenge incompatible with ceremonial draw');
   const bindingByFixture=new Map(bindings.proposals.map(x=>[x.fixture_id,x]));
   must(bindingByFixture.size===56,'Duplicate challenge fixture IDs');
   must(cards.cards.every(c=>bindingByFixture.has(c.verified_fixture_id)),'Challenge/ESPN scene mismatch');
@@ -94,6 +109,32 @@ export function exportConsumers(cards,topology,contract,broadcast,obstacles,bind
       dormant_heritage:material.perimeter_ruins.map(x=>({id:x.id,name:x.name,status:x.state,narrative:x.narrative})),
       release:'HOLD_NO_WORLD_MEMORY_WRITEBACK'
     },
+    interview_ii:{
+      founder_source:'planning/postseason/FOUNDER_INTERVIEW_II_DECISION_REGISTER_2026_11_19.md',
+      ceremonial_draws:draw.ceremonies.map(d=>({fixture_id:d.fixture_id,chosen_obstacle:d.selected_obstacle_id,ticket:d.draw_ticket_sha256,ceremony_status:d.ceremonial_status})),
+      permanent_traces:impacts.traces.map(t=>({fixture_id:t.fixture_id,site_id:t.site_id,trace_id:t.trace_id,physical_anchor:t.original_material_anchor,kind:t.trace_kind,restored_function:t.year_after.restored_function})),
+      annual_trace_history:impacts.annual_states.map(y=>({year:y.year,cumulative_traces_at_close:y.cumulative_traces_at_close})),
+      in_world_direct_competition:scenes.cards.map(s=>({fixture_id:s.fixture_id,drawn_challenge:s.draw.name,phases:s.acts.map(a=>({phase:a.number,solo_a:a.solo_contender_A.personally_competes,solo_b:a.solo_contender_B.personally_competes}))})),
+      body_consequence_counts:body.counts,
+      release:'NO_OWNER_PERSONAL_HISTORY_OR_SPATIAL_CANON_PROMOTION'
+    },
+    visual_preproduction:{
+      source:'INKLINGS_INTERVIEW_II_VISUAL_STORYBOARDS_56.proposal.json',
+      fixture_count:56,shot_count:672,
+      stage_and_camera_packets:storyboard.cards.map(c=>({
+        fixture_id:c.fixture_id,
+        visual_sequence_ids:c.production_cameras.map(v=>v.shot_id),
+        reference_heritage:c.protected_heritage,
+        art_status:c.cut_release
+      })),
+      final_prose_reconciliation:finalesV2.scenes.map(s=>({
+        year:s.year,verified_fixture_id:s.verified.fixture_id,
+        ceremonial_obstacle:s.ceremonial_draw.obstacle_id,
+        maintained_stadium:s.venue_id,
+        status:s.release
+      })),
+      release:'NO_REAL_CHARACTER_RENDER_OR_2026_PUBLICATION'
+    },
     postseason_2026:{
       event_structure:contract.schedule,round_venues:contract.venue_assignment.rounds,
       qualifiers:null,fixtures:null,winners:null,finalists:null,champion:null,
@@ -111,7 +152,13 @@ if(process.argv[1]&&fs.realpathSync(process.argv[1])===fs.realpathSync(fileURLTo
     read('CHAMPIONSHIP_ISLAND_BROADCAST_HERITAGE_2015_2026.proposal.json'),
     read('OBSTACLE_LEXICON_120_V1.json'),
     read('HISTORICAL_CHALLENGE_OPTION_BINDINGS_56_V1.json'),
-    read('ISLAND_MATERIAL_MEMORY_2015_2025_V1.json')
+    read('ISLAND_MATERIAL_MEMORY_2015_2025_V1.json'),
+    read('HISTORICAL_CEREMONIAL_DRAW_2015_2025.proposal.json'),
+    read('ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json'),
+    read('INKLINGS_INTERVIEW_II_56_MATCH_SCENE_CONTRACTS.proposal.json'),
+    read('INKLINGS_OWNER_BODY_CONSEQUENCE_2015_2025.proposal.json'),
+    read('INKLINGS_ELEVEN_CHAMPIONSHIP_FINALES_INTERVIEW_II_V2.proposal.json'),
+    read('INKLINGS_INTERVIEW_II_VISUAL_STORYBOARDS_56.proposal.json')
   );
   const out=path.join(dir,'POSTSEASON_CROSS_OS_PREPRODUCTION_EXPORT.founder_v2.json');
   fs.writeFileSync(out,JSON.stringify(result,null,2)+'\n');

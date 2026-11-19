@@ -24,6 +24,11 @@ test('Exhibit reads all eleven years and no future winner',()=>{
  assert.equal(model.material.years.length,11);
  assert.equal(model.bindings.proposals.length,56);
  assert.equal(model.material.perimeter_ruins.length,9);
+ assert.equal(model.ceremonial.ceremonies.length,56);
+ assert.equal(model.impacts.traces.length,56);
+ assert.equal(model.soloScenes.cards.length,56);
+ assert.equal(model.bodyEffects.games.length,56);
+
  assert.equal(model.broadcast.years.length,11);
  assert.match(model.broadcast.years[0].coverage_heritage_proposal,/No historical digital footage asserted/);
  assert.equal(model.schema,'schemin.championship-island-static-exhibit.v1');
@@ -58,6 +63,13 @@ test('Schematic map contains 23 source nodes and 45 planned links',()=>{
  assert.equal(model.topology.edges.length,45);
  assert.ok(model.topology.nodes.every(n=>n.coordinates===null));
  assert.ok(model.topology.edges.every(e=>e.status==='PLANNING_ONLY'));
+});
+test('Ceremonial draw, personal-stage scripts and permanent traces render as original fiction',()=>{
+ assert.ok(html.includes('CEREMONIAL DRAW'));
+ assert.ok(html.includes('PERMANENT ISLAND TRACE'));
+ assert.ok(html.includes('PERSONAL PHYSICAL CONSEQUENCES'));
+ assert.ok(model.soloScenes.cards.every(c=>c.acts.every(a=>a.solo_contender_A.personally_competes&&a.solo_contender_B.personally_competes)));
+ assert.equal(model.impacts.annual_states.at(-1).cumulative_traces_at_close,56);
 });
 test('Searchable challenges and historic scar registry are present',()=>{
  assert.ok(html.includes('id="family-picker"'));

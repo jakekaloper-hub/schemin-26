@@ -26,11 +26,17 @@ const broadcast=read('CHAMPIONSHIP_ISLAND_BROADCAST_HERITAGE_2015_2026.proposal.
 const obstacles=read('OBSTACLE_LEXICON_120_V1.json');
 const bindings=read('HISTORICAL_CHALLENGE_OPTION_BINDINGS_56_V1.json');
 const material=read('ISLAND_MATERIAL_MEMORY_2015_2025_V1.json');
+const draw=read('HISTORICAL_CEREMONIAL_DRAW_2015_2025.proposal.json');
+const impacts=read('ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json');
+const scenes=read('INKLINGS_INTERVIEW_II_56_MATCH_SCENE_CONTRACTS.proposal.json');
+const body=read('INKLINGS_OWNER_BODY_CONSEQUENCE_2015_2025.proposal.json');
+const finalesV2=read('INKLINGS_ELEVEN_CHAMPIONSHIP_FINALES_INTERVIEW_II_V2.proposal.json');
+const storyboard=read('INKLINGS_INTERVIEW_II_VISUAL_STORYBOARDS_56.proposal.json');
 const history=read('HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json');
 const sites=read('ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json');
 const years=Array.from({length:11},(_,i)=>2015+i);
 const roundMap={QF:['CAND-POST-IRON-QUARRY','CAND-POST-SALTWIND','CAND-POST-BREAKWATER'],SF:['CAND-POST-CROWN-STAIR','CAND-POST-GROVE'],FINAL:['CAND-POST-LAST-FIELD']};
-const exported=exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material);
+const exported=exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard);
 
 function reachable(t) {
  const all=new Set(t.nodes.map(n=>n.id));
@@ -111,16 +117,16 @@ check('Modern island broadcast, causeway, and Inklings authorization represented
  assert.match(contract.inklings_role.status,/NOT_INDEPENDENT_AGENTS_INVOCATION/);
 });
 expectsFailure('Reject missing 2025 encounter',()=>{
- const x=clone(cards); x.cards.pop(); exportConsumers(x,topology,contract,broadcast,obstacles,bindings,material);
+ const x=clone(cards); x.cards.pop(); exportConsumers(x,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard);
 });
 expectsFailure('Reject missing causeway node',()=>{
- const x=clone(topology); x.nodes=x.nodes.filter(n=>n.id!=='CAUSEWAY_RIDGE'); exportConsumers(cards,x,contract,broadcast,obstacles,bindings,material);
+ const x=clone(topology); x.nodes=x.nodes.filter(n=>n.id!=='CAUSEWAY_RIDGE'); exportConsumers(cards,x,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard);
 });
 expectsFailure('Reject invented 2026 berth structure',()=>{
- const x=clone(contract); x.schedule.qualification_count=8; exportConsumers(cards,topology,x,broadcast,obstacles,bindings,material);
+ const x=clone(contract); x.schedule.qualification_count=8; exportConsumers(cards,topology,x,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard);
 });
 expectsFailure('Reject promoted-but-uncertified fiction',()=>{
- const x=clone(cards); x.cards[0].creative_status='APPROVED_CANON'; exportConsumers(x,topology,contract,broadcast,obstacles,bindings,material);
+ const x=clone(cards); x.cards[0].creative_status='APPROVED_CANON'; exportConsumers(x,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard);
 });
 check('Every title ceremony remains recorded but Farrell founding date unresolved',()=>{
  assert.equal(history.fixtures.filter(f=>f.round==='FINAL').length,11);
