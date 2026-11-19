@@ -674,6 +674,55 @@ gl_FragColor=vec4(base*vShade,1.);
   return mesh(g,geo,mat('#ffffff','',{roughness:.86,vertexColors:true,side:THREE.DoubleSide}),0,0,0,'Arsenal barber-pole helical bands · candidate');
  }
 
+
+ // Existing Road Commons wagon wheels: physically open illustrative rims,
+ // hubs and spokes, batched in one static draw instead of four opaque discs.
+ // No new wagon, historical event, canon transport claim or world-state write.
+ function roadCommonsSpokedWheels(g){
+  const positions=[],colors=[],indices=[],centers=[];
+  const vertex=(x,y,z,shade)=>{
+   const n=positions.length/3;
+   positions.push(x,y,z);colors.push(.36*shade,.255*shade,.16*shade);
+   return n;
+  };
+  const quad=(a,b,c,d)=>indices.push(a,b,c,a,c,d);
+  const ring=(cx,cy,cz,inner,outer,segments,shade)=>{
+   for(let i=0;i<segments;i++){
+    const a=i*2*Math.PI/segments,b=(i+1)*2*Math.PI/segments;
+    const v=(side,r,t)=>vertex(cx+side*.075,cy+Math.sin(t)*r,
+     cz+Math.cos(t)*r,shade*(.95+.05*Math.cos(t*3)));
+    const oa=v(1,outer,a),ob=v(1,outer,b),ib=v(1,inner,b),ia=v(1,inner,a);
+    const pa=v(-1,outer,a),pb=v(-1,outer,b),qb=v(-1,inner,b),qa=v(-1,inner,a);
+    quad(oa,ob,ib,ia);quad(pa,qa,qb,pb);
+    quad(oa,pa,pb,ob);quad(ia,ib,qb,qa);
+   }
+  };
+  const spoke=(cx,cy,cz,angle,shade)=>{
+   const v=(r,side,dx)=>vertex(cx+dx,cy+Math.sin(angle)*r+Math.cos(angle)*side*.032,
+    cz+Math.cos(angle)*r-Math.sin(angle)*side*.032,shade);
+   const a=v(.105,-1,.055),b=v(.325,-1,.055),c=v(.325,1,.055),d=v(.105,1,.055);
+   const e=v(.105,-1,-.055),f=v(.325,-1,-.055),h=v(.325,1,-.055),j=v(.105,1,-.055);
+   quad(a,b,c,d);quad(e,j,h,f);
+   quad(a,e,f,b);quad(b,f,h,c);quad(c,h,j,d);quad(d,j,e,a);
+  };
+  for(const z of [1,4])for(const x of [2.3,3.9]){
+   const cy=.275,shade=.88+.06*(x===2.3?1:0)+.025*(z===4?1:0);
+   centers.push([x,cy,z]);
+   ring(x,cy,z,.29,.4,24,shade);
+   ring(x,cy,z,.035,.115,16,shade*1.08);
+   for(let i=0;i<8;i++)spoke(x,cy,z,i*Math.PI/4,shade*(.94+.02*(i%3)));
+  }
+  const geo=new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);geo.computeVertexNormals();
+  const material=mat('#ffffff','',{vertexColors:true,side:THREE.DoubleSide,roughness:.94});
+  const wheels=mesh(g,geo,material,0,0,0,'Road Commons caravan open-spoke wheels · candidate');
+  wheels.userData={wheelCenters:centers,wheelCount:4,spokesPerWheel:8,
+   rimInnerRadius:.29,rimOuterRadius:.4,sourceGeometry:'illustrative existing wagon wheels'};
+  return wheels;
+ }
+
  // A definition returns one representative object for each upstream landmark.
  const definitions={
   'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=tradeJediHighRidge(g);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
@@ -684,7 +733,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-CHILI-STABLE'(g){box(g,0,0,0,13,.2,11,M.sand);const stable=hall(g,-2,-2,8,4.3,3.4,M.wood,M.red);for(const x of [-4,-1,2]){box(g,x,.3,.25,2.1,1.7,.12,M.timber);box(g,x,1.2,.35,2.1,.12,.1,M.gold);}const pit=cyl(g,4,.2,3,1.15,1.3,.7,M.dark,14,'Cooking pit');cyl(g,4,.9,3,.85,.95,.5,M.black,12);smoke(g,4,1.2,3,true);fence(g,-2,3.5,7,3.5);const enclosure=box(g,-2,.22,3.5,6.7,.04,3.3,M.earth,'Dark Horse enclosure — no actor');for(const x of [-5.8,5.6])tree(g,x,-3.7,.8,M.paleGreen);return [stable,pit,enclosure];},
   'LOC-BELT-KEEPER-KEEP'(g){const plinth=rock(g,0,.5,0,7,1.3,6.3,M.dark);box(g,0,.5,0,10,.8,8,M.slate);const keep=beltKeeperDarkStone(g);roof(g,0,7.7,-.8,6,5.3,2.6,M.slate);for(const x of [-4,4])for(const z of [-3,3]){cyl(g,x,1.0,z,1.05,1.2,4.5,M.slate,10);cyl(g,x,5.5,z,1.25,1.25,.6,M.dark,10);for(let i=0;i<6;i++){const a=i*Math.PI/3;box(g,x+Math.cos(a)*1.03,6.1,z+Math.sin(a)*1.03,.45,.65,.45,M.dark);}}const hallObj=box(g,0,1.3,2.3,4.3,3,2.2,M.slate,'Championship hall');arch(g,0,1.3,3.5,1,.3,.3,M.gold);flag(g,-1.5,4.6,2.6,M.red);flag(g,1.5,4.6,2.6,M.red);steps(g,0,6,2.3,5,.26);return [keep,hallObj];},
   'LOC-SLOB-FOOTHILL-CAMP'(g){const yard=box(g,0,0,0,12,.18,10,M.earth,'Tailgate yard');for(const [x,z,w,d]of [[-3,-2,4.5,4.3],[3,-2,3.3,3.5]]){roof(g,x,.3,z,w,d,3.2,M.canvas);beam(g,[x,.3,z+d*.52],[x,3.5,z],.07,M.timber);}desk(g,-2,.2,3,4);for(const x of [-4,0])box(g,x,.2,3.8,1.6,.45,.55,M.wood);const training=slobFoothillTrainingGround(g);for(const x of [2,3.5,5])cyl(g,x,.3,1.5,.17,.25,1.6,M.wood,7);for(const x of [-6,6])conifer(g,x,-3,1);return [yard,training];},
-  'LOC-CHINS-ROAD-COMMONS'(g){box(g,0,0,0,13,.22,10,M.sand);const hallObj=hall(g,0,-2,8.5,4,3.4,M.wood,M.red);pavilion(g,-3.6,2.3,4,3,2.8,M.canvas);const bbq=cyl(g,-3.6,.25,2.5,.9,1,.65,M.dark,12,'BBQ yard');smoke(g,-3.6,.9,2.5);const court=box(g,3.2,.24,2.5,4,.06,4.5,M.earth,'Caravan court');for(const z of [1,4]){box(g,3.1,.6,z,2.4,.4,1.1,M.wood);for(const x of [2.3,3.9]){const wheel=cyl(g,x,.2,z,.4,.4,.15,M.black,10);wheel.rotation.z=Math.PI/2;}}return [hallObj,bbq,court];},
+  'LOC-CHINS-ROAD-COMMONS'(g){box(g,0,0,0,13,.22,10,M.sand);const hallObj=hall(g,0,-2,8.5,4,3.4,M.wood,M.red);pavilion(g,-3.6,2.3,4,3,2.8,M.canvas);const bbq=cyl(g,-3.6,.25,2.5,.9,1,.65,M.dark,12,'BBQ yard');smoke(g,-3.6,.9,2.5);const court=box(g,3.2,.24,2.5,4,.06,4.5,M.earth,'Caravan court');for(const z of [1,4])box(g,3.1,.6,z,2.4,.4,1.1,M.wood);roadCommonsSpokedWheels(g);return [hallObj,bbq,court];},
   'LOC-LEAGUE-CHAMBER'(g){box(g,0,0,0,9,.5,7,M.stone);for(const x of [-4,4])box(g,x,.5,-.3,.6,4,6,M.light);box(g,0,.5,-3,8,4,.5,M.light);roof(g,0,4.5,-1,9,5,1.9,M.blue);const map=box(g,0,1.8,-2.68,4.8,1.85,.07,M.gold,'Map wall');box(g,0,1.9,-2.61,4.55,1.6,.04,M.deepGreen);leagueChamberAtlasMarks(g);const record=desk(g,0,.5,.4,4.4);ledger(g,-1,1.8,.4);for(const x of [-3,3])cyl(g,x,.5,2,.24,.34,3.6,M.light,10);steps(g,0,4.3,5,4,.15);return [record,map];},
   'LOC-PITTSYS-BOOK'(g){box(g,0,0,0,8.3,.3,6,M.stone);pavilion(g,0,-.5,7,4,3.8,M.deepGreen);const boards=box(g,0,1,-2.3,6.1,2.7,.22,M.timber,'Ledger boards');for(const x of [-2,0,2]){box(g,x,1.2,-2.15,1.55,2.1,.05,M.ivory);for(let j=0;j<5;j++)box(g,x,1.45+j*.32,-2.1,1.3,.035,.03,M.gold);}const settlement=desk(g,0,.3,1.2,5.9,M.dark);ledger(g,-1.6,1.6,1.2);ledger(g,1.1,1.6,1.2);pittsysOpenLedger(g);flag(g,3.7,.3,2.1,M.deepGreen);return [boards,settlement];},
   'LOC-BRIDGE-MOUNTAIN-LAKE'(g){const lake=waterSurface(g,0,.25,0,8.7,5.9,'mountain lake','#477f89');for(const x of [-6.8,6.8])rock(g,x,.15,0,2.1,1,3.4,M.slate);const span=arch(g,0,.3,0,3.4,.65,2.3,M.stone);box(g,0,4.27,0,9.3,.45,2.6,M.stone);for(const z of [-1.25,1.25]){box(g,0,4.7,z,9.2,.8,.18,M.light);for(let i=0;i<11;i++)box(g,-4.25+i*.85,4.7,z,.12,1,.24,M.stone);}for(const s of [-1,1])for(let i=0;i<6;i++)box(g,s*(4.8+i*.5),0,0,.52,4.7-i*.7,2.8,M.stone);const jump=box(g,2.8,4.7,1.6,1.35,.18,.85,M.light,'Recorded jump-point edge');for(const x of [-7.2,7.2])conifer(g,x,-3.3,.8);return [span,lake,jump];},
