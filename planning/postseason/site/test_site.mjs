@@ -18,6 +18,12 @@ const tests=[];
 const test=(n,f)=>{f();tests.push(n);};
 
 test('Exhibit reads all eleven years and no future winner',()=>{
+ assert.equal(model.obstacles.families.length,12);
+ assert.equal(model.obstacles.obstacles.length,120);
+ assert.equal(Object.keys(model.physicsProfiles).length,6);
+ assert.equal(model.material.years.length,11);
+ assert.equal(model.bindings.proposals.length,56);
+ assert.equal(model.material.perimeter_ruins.length,9);
  assert.equal(model.broadcast.years.length,11);
  assert.match(model.broadcast.years[0].coverage_heritage_proposal,/No historical digital footage asserted/);
  assert.equal(model.schema,'schemin.championship-island-static-exhibit.v1');
@@ -52,6 +58,16 @@ test('Schematic map contains 23 source nodes and 45 planned links',()=>{
  assert.equal(model.topology.edges.length,45);
  assert.ok(model.topology.nodes.every(n=>n.coordinates===null));
  assert.ok(model.topology.edges.every(e=>e.status==='PLANNING_ONLY'));
+});
+test('Searchable challenges and historic scar registry are present',()=>{
+ assert.ok(html.includes('id="family-picker"'));
+ assert.ok(html.includes('id="challenge-search"'));
+ assert.ok(html.includes("id='trial-venue'"));
+ assert.ok(html.includes("id='trial-year'"));
+ assert.ok(html.includes('id="ruins-list"'));
+ assert.ok(html.includes('renderChallenges()'));
+ assert.ok(html.includes('renderRuins()'));
+ assert.ok(html.includes('ALTERNATE INKLINGS OBSTACLE'));
 });
 test('Client code parses without external JS imports',()=>{
  const all=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)];

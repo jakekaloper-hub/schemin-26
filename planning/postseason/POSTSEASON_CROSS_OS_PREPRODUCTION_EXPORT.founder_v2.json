@@ -3589,6 +3589,1094 @@
     },
     "release": "HOLD_WORLD_TECH"
   },
+  "obstacle_os": {
+    "source_registry": "planning/postseason/OBSTACLE_LEXICON_120_V1.json",
+    "status": "FICTIONAL_CHALLENGE_PROPOSALS_NOT_CANON",
+    "count": 120,
+    "families": [
+      {
+        "slug": "combat",
+        "name": "Controlled combat & honor",
+        "risk": "CONTACT"
+      },
+      {
+        "slug": "marksmanship",
+        "name": "Precision & archery",
+        "risk": "PROJECTILE"
+      },
+      {
+        "slug": "racing",
+        "name": "Racing & riding",
+        "risk": "VEHICLE"
+      },
+      {
+        "slug": "sports",
+        "name": "Ball & field sport",
+        "risk": "SPORT"
+      },
+      {
+        "slug": "tactical",
+        "name": "Tactical war game",
+        "risk": "TACTICAL"
+      },
+      {
+        "slug": "board",
+        "name": "Cards & boards",
+        "risk": "PSYCHOLOGICAL"
+      },
+      {
+        "slug": "engineering",
+        "name": "Construction & siege craft",
+        "risk": "STRUCTURAL"
+      },
+      {
+        "slug": "traverse",
+        "name": "Height & traversal",
+        "risk": "FALL"
+      },
+      {
+        "slug": "aquatic",
+        "name": "Water and harbor trials",
+        "risk": "WATER"
+      },
+      {
+        "slug": "endurance",
+        "name": "Strength & endurance",
+        "risk": "EXERTION"
+      },
+      {
+        "slug": "puzzles",
+        "name": "Logic & escape",
+        "risk": "COGNITIVE"
+      },
+      {
+        "slug": "hybrid",
+        "name": "Combined championship trials",
+        "risk": "MIXED"
+      }
+    ],
+    "scene_assignments": [
+      {
+        "fixture_id": "HIST-POST-2015-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2015,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-05-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2015-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2015,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-01-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2015-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2015,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-10-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2016-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2016,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-01-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2016-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2016,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-03-06",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2016-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2016,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-05-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2017-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2017,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-03-07",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2017-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2017,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-09-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2017-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2017,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-01-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2017-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2017,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-05-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2017-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2017,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-10-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2018-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2018,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-01-04",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2018-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2018,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-07-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2018-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2018,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-03-08",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2018-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2018,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-05-05",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2018-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2018,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-01-05",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2019-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2019,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-05-06",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2019-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2019,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-09-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2019-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2019,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-10-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2019-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2019,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-07-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2019-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2019,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-04-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2020-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2020,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-01-06",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2020-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2020,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-03-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2020-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2020,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-05-07",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2020-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2020,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-10-04",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2020-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2020,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-01-07",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2021-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2021,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-01-08",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2021-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2021,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-06-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2021-QF-3",
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "year": 2021,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-03-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2021-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2021,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-10-05",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2021-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2021,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-05-04",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2021-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2021,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-04-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2022-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2022,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-09-08",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2022-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2022,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-07-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2022-QF-3",
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "year": 2022,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-01-09",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2022-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2022,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-05-08",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2022-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2022,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-03-09",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2022-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2022,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-10-06",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2023-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2023,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-04-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2023-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2023,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-05-09",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2023-QF-3",
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "year": 2023,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-01-10",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2023-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2023,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-06-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2023-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2023,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-05-10",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2023-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2023,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-07-04",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2024-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2024,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-08-01",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2024-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2024,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-04-04",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2024-QF-3",
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "year": 2024,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-07-05",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2024-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2024,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-10-07",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2024-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2024,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-06-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2024-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2024,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-10-08",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2025-QF-1",
+        "venue_candidate_id": "CAND-POST-IRON-QUARRY",
+        "year": 2025,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-08-02",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2025-QF-2",
+        "venue_candidate_id": "CAND-POST-SALTWIND",
+        "year": 2025,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-10-09",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2025-QF-3",
+        "venue_candidate_id": "CAND-POST-BREAKWATER",
+        "year": 2025,
+        "round": "QF",
+        "selected_obstacle_id": "OBST-06-04",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2025-SF-1",
+        "venue_candidate_id": "CAND-POST-CROWN-STAIR",
+        "year": 2025,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-04-05",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2025-SF-2",
+        "venue_candidate_id": "CAND-POST-GROVE",
+        "year": 2025,
+        "round": "SF",
+        "selected_obstacle_id": "OBST-10-10",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      },
+      {
+        "fixture_id": "HIST-POST-2025-FINAL-1",
+        "venue_candidate_id": "CAND-POST-LAST-FIELD",
+        "year": 2025,
+        "round": "FINAL",
+        "selected_obstacle_id": "OBST-08-03",
+        "match_result_source": "ESPN_FLAIM_VERIFIED",
+        "material_state": "SCARS_PENDING_WORLD_REVIEW",
+        "release": "HOLD"
+      }
+    ],
+    "physical_compatibility_references": "planning/postseason/arena_physical_affordances.mjs",
+    "risk_controls": "Explicitly evaluated per candidate scene"
+  },
+  "temporal_site_memory": {
+    "years": [
+      {
+        "year": 2015,
+        "era": "ORIGINAL_STONE_AND_SIMPLE_STANDS",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "era": "ORIGINAL_STONE_AND_SIMPLE_STANDS",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "era": "SIX_TEAM_EXPANSION_WITH_TWO_QF_SITES",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "NOT_YET_OPEN_FOR_PLAYOFF",
+            "fixture_count": 0
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "era": "SEVEN_TEAM_CAMPUS_AND_PRODUCTION_HQ",
+        "site_states": [
+          {
+            "site_id": "CAND-POST-LAST-FIELD",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-IRON-QUARRY",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-SALTWIND",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-BREAKWATER",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-CROWN-STAIR",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          },
+          {
+            "site_id": "CAND-POST-GROVE",
+            "activation": "OPEN_FOR_DESIGNATED_ROUND",
+            "fixture_count": 1
+          }
+        ]
+      }
+    ],
+    "dormant_heritage": [
+      {
+        "id": "HERITAGE-OLD-RING",
+        "name": "The Old Ring",
+        "status": "STAFF_CLOSED",
+        "narrative": "An obsolete ring and benches, preserved as a visible memory of an earlier manner of trial; no verified League playoff is assigned here under Founder round law."
+      },
+      {
+        "id": "HERITAGE-VETERANS-YARD",
+        "name": "Veterans' Yard",
+        "status": "STAFF_CLOSED",
+        "narrative": "Cracked old practice markers and an overgrown spectator bank are preserved instead of polished into a new final venue."
+      },
+      {
+        "id": "HERITAGE-CAUSEWAY-TRIAL",
+        "name": "Abandoned Tide Causeway Trial",
+        "status": "BARRIER_LOCKED",
+        "narrative": "An unsafe training route lies beside—not replacing—the monumental current causeway; it is a background ruin, not a public passage."
+      },
+      {
+        "id": "HERITAGE-POWDER-BERM",
+        "name": "The Powder Berm",
+        "status": "PERMIT_REQUIRED",
+        "narrative": "Darkened gravel, blast panels and dismantled smoke-effect frames suggest staged explosive spectacles. No precise historic detonation is asserted without approved state event."
+      },
+      {
+        "id": "HERITAGE-FLOODED-MAZE",
+        "name": "The Sunken Course",
+        "status": "ACCESS_PROHIBITED",
+        "narrative": "A retired challenge maze with standing brackish water and plants reclaiming its former lanes; no contestant casually enters it."
+      },
+      {
+        "id": "HERITAGE-FALLEN-GALLERY",
+        "name": "The Fallen Gallery",
+        "status": "MASONRY_SURVEY_HOLD",
+        "narrative": "An old viewing structure awaiting survey and preservation, with all ticket routes diverted around it."
+      },
+      {
+        "id": "HERITAGE-RUSTED-OVAL",
+        "name": "Rusted Oval",
+        "status": "CLOSED_TEST_RING",
+        "narrative": "Rust-stained barriers and stripped-out engines recall a changing taste for wheeled speed without pretending dirt bikes existed in 2015."
+      },
+      {
+        "id": "HERITAGE-ARCHERY-CRESCENT",
+        "name": "The Silent Crescent",
+        "status": "RANGE_CLOSED",
+        "narrative": "Broken-but-locked target mounts sit behind a collapsed protective retaining wall, not freely accessible among spectators."
+      },
+      {
+        "id": "HERITAGE-PAINTBALL-FORT",
+        "name": "The Empty Fort",
+        "status": "CLOSED_UNTIL_REFURBISHED",
+        "narrative": "A defunct nonlethal war-game set retains splattered panels and abandoned ramparts. Its date and original use remain fictional candidates."
+      }
+    ],
+    "release": "HOLD_NO_WORLD_MEMORY_WRITEBACK"
+  },
   "postseason_2026": {
     "event_structure": {
       "regular_season_ends_after_week": 14,

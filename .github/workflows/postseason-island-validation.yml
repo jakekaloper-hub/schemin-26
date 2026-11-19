@@ -47,3 +47,15 @@ jobs:
         run: node planning/postseason/test_inklings_interventions.mjs
       - name: Verify 2026 synthetic qualification and certified tournament transitions
         run: node planning/postseason/test_tournament_runtime.mjs
+      - name: Ensure curated 120-seed library has not drifted
+        run: node planning/postseason/build_obstacle_lexicon.mjs --check
+      - name: Verify 56 historical source-bound challenge alternatives
+        run: node planning/postseason/build_historical_obstacle_options.mjs --check
+      - name: Verify year-specific island physical scars and ruin history
+        run: node planning/postseason/build_island_material_memory.mjs --check
+      - name: Test all obstacle affordances, era limits, and weather closures
+        run: node planning/postseason/test_obstacle_physical_engine.mjs
+      - name: Check transparent 18-Director / 3-advisor summit simulation
+        run: node planning/postseason/test_summit_integrity.mjs
+      - name: Recompute 100-point evidence rubric without canon promotion
+        run: node planning/postseason/score_summit_readiness.mjs --check

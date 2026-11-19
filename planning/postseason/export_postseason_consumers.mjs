@@ -9,11 +9,18 @@ import {fileURLToPath} from 'node:url';
 const dir=path.dirname(fileURLToPath(import.meta.url));
 const read=name=>JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'));
 const must=(condition,message)=>{if(!condition)throw new Error(message);};
-export function exportConsumers(cards,topology,contract,broadcast){
+export function exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material){
   must(cards.schema==='schemin.inklings_postseason_compiled_cards.v1','Inklings compiled cards absent');
   must(cards.cards.length===56&&cards.annual.length===11,'Historical coverage incomplete');
   must(topology.schema==='schemin.championship_island_topology.founder_v2','Founder bridge topology absent');
   must(contract.schema==='schemin.postseason_island_event_contract.founder_v2','Founder 2026 bracket absent');
+  must(obstacles?.schema==='schemin.postseason.obstacle_lexicon.v1'&&obstacles.obstacles.length===120,'Obstacle lexicon absent');
+  must(bindings?.schema==='schemin.postseason.obstacle_options_for_history.v1'&&bindings.proposals.length===56,'Fixture obstacle proposals absent');
+  must(material?.schema==='schemin.postseason.island_material_memory.v1'&&material.years.length===11,'Island material history absent');
+  const bindingByFixture=new Map(bindings.proposals.map(x=>[x.fixture_id,x]));
+  must(bindingByFixture.size===56,'Duplicate challenge fixture IDs');
+  must(cards.cards.every(c=>bindingByFixture.has(c.verified_fixture_id)),'Challenge/ESPN scene mismatch');
+
   must(broadcast?.schema==='schemin.championship_island_broadcast_continuity.proposal.v1'&&broadcast.years.length===11,'Broadcast chronology absent');
   const ids=new Set(topology.nodes.map(n=>n.id));
   must(topology.edges.every(e=>ids.has(e.from)&&ids.has(e.to)),'Island topology edge dangling');
@@ -67,6 +74,26 @@ export function exportConsumers(cards,topology,contract,broadcast){
       renders_available:false,deployed:false
     },
     broadcast_os:{history:broadcast.years,unit_packages:broadcast.venue_unit_packages,technology_governance:broadcast.technical_doctrine.governance,distribution:broadcast.technical_doctrine.distribution_to_mainland,release:'HOLD_WORLD_TECH'},
+    obstacle_os:{
+      source_registry:'planning/postseason/OBSTACLE_LEXICON_120_V1.json',
+      status:'FICTIONAL_CHALLENGE_PROPOSALS_NOT_CANON',
+      count:obstacles.obstacles.length,
+      families:obstacles.families.map(x=>({slug:x.slug,name:x.label,risk:x.risk})),
+      scene_assignments:bindings.proposals.map(x=>({
+         fixture_id:x.fixture_id,venue_candidate_id:x.venue_candidate_id,year:x.year,round:x.round,
+         selected_obstacle_id:x.picked_obstacle_id,
+         match_result_source:'ESPN_FLAIM_VERIFIED',
+         material_state:'SCARS_PENDING_WORLD_REVIEW',
+         release:'HOLD'
+      })),
+      physical_compatibility_references:'planning/postseason/arena_physical_affordances.mjs',
+      risk_controls:'Explicitly evaluated per candidate scene'
+    },
+    temporal_site_memory:{
+      years:material.years.map(x=>({year:x.year,era:x.era,site_states:x.legacy_sites.map(s=>({site_id:s.id,activation:s.activation,fixture_count:s.matched_fixtures.length}))})),
+      dormant_heritage:material.perimeter_ruins.map(x=>({id:x.id,name:x.name,status:x.state,narrative:x.narrative})),
+      release:'HOLD_NO_WORLD_MEMORY_WRITEBACK'
+    },
     postseason_2026:{
       event_structure:contract.schedule,round_venues:contract.venue_assignment.rounds,
       qualifiers:null,fixtures:null,winners:null,finalists:null,champion:null,
@@ -81,7 +108,10 @@ if(process.argv[1]&&fs.realpathSync(process.argv[1])===fs.realpathSync(fileURLTo
     read('INKLINGS_2015_2025_COMPILED_PRODUCTION_CARDS.proposal.json'),
     read('ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json'),
     read('POSTSEASON_2026_ISLAND_EVENT_CONTRACT.proposal.json'),
-    read('CHAMPIONSHIP_ISLAND_BROADCAST_HERITAGE_2015_2026.proposal.json')
+    read('CHAMPIONSHIP_ISLAND_BROADCAST_HERITAGE_2015_2026.proposal.json'),
+    read('OBSTACLE_LEXICON_120_V1.json'),
+    read('HISTORICAL_CHALLENGE_OPTION_BINDINGS_56_V1.json'),
+    read('ISLAND_MATERIAL_MEMORY_2015_2025_V1.json')
   );
   const out=path.join(dir,'POSTSEASON_CROSS_OS_PREPRODUCTION_EXPORT.founder_v2.json');
   fs.writeFileSync(out,JSON.stringify(result,null,2)+'\n');

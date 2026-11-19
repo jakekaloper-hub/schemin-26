@@ -20,6 +20,9 @@ const paths={
   bridge:'ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json',
   contract:'POSTSEASON_2026_ISLAND_EVENT_CONTRACT.proposal.json',
   broadcast:'CHAMPIONSHIP_ISLAND_BROADCAST_HERITAGE_2015_2026.proposal.json',
+  obstacles:'OBSTACLE_LEXICON_120_V1.json',
+  bindings:'HISTORICAL_CHALLENGE_OPTION_BINDINGS_56_V1.json',
+  material:'ISLAND_MATERIAL_MEMORY_2015_2025_V1.json',
   cards:'INKLINGS_2015_2025_COMPILED_PRODUCTION_CARDS.proposal.json',
   export:'POSTSEASON_CROSS_OS_PREPRODUCTION_EXPORT.founder_v2.json'
 };
@@ -67,7 +70,7 @@ function build(){
  verifyVenueFacts(history,sites);
  assert.equal(contract.schema,'schemin.postseason_island_event_contract.founder_v2');
  const cards=compile(history,sites,sha(hraw));
- const exportData=exportConsumers(cards,topology,contract,broadcast);
+ const exportData=exportConsumers(cards,topology,contract,broadcast,parse('obstacles'),parse('bindings'),parse('material'));
  assert.equal(cards.headline.challenge_stages,168);
  assert.equal(exportData.publication_status,'HOLD_NO_INDEPENDENT_UMPIRE_OR_ACTIVE_ATLAS_PROMOTION');
  assert.equal(exportData.postseason_2026.champion,null);
