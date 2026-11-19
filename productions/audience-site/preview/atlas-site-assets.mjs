@@ -400,6 +400,48 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  // no new geometry/materials, atmospheric authority or world state.
  function smoke(g,x,y,z,layered=false){const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,vertexShader:'varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:layered?'uniform float uTime;varying vec2 vUv;float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),mix(hash(i+vec2(0.,1.)),hash(i+vec2(1.,1.)),f.x),f.y);}void main(){float rise=clamp(vUv.y,0.,1.);vec2 adv=vec2(vUv.x*4.2,vUv.y*3.9-uTime*.39);float coarse=noise(adv*1.8),fine=noise(adv*4.1+vec2(11.7,-uTime*.12));float drift=.075*sin(rise*5.7-uTime*.61)+.034*sin(rise*13.1-uTime*.27);float spread=mix(.11,.36,rise);float across=abs(vUv.x-.5-drift);float body=1.-smoothstep(spread*.52,spread,across);float breakup=clamp(.64+.52*(coarse-.5)+.36*(fine-.5),0.,1.);float birth=smoothstep(0.,.12,rise);float fade=1.-smoothstep(.72,1.,rise);float a=min(.22,.22*body*breakup*birth*fade);float grey=mix(.46,.7,rise);gl_FragColor=vec4(vec3(grey*.99,grey*.995,grey),a);}':'uniform float uTime;varying vec2 vUv;void main(){float x=vUv.x-.5-sin(vUv.y*8.-uTime*.65)*.08;float a=exp(-x*x*36.)*sin(vUv.y*3.14159)*(.65+.35*sin(vUv.y*22.-uTime*1.4));gl_FragColor=vec4(.64,.64,.58,a*.2);}'});materials.add(material);for(const yaw of [0,Math.PI/2]){const o=mesh(g,new THREE.PlaneGeometry(2,5),material,x,y+2.5,z,'Authored pit smoke');o.rotation.y=yaw;o.castShadow=false;}motion.push(material);}
 
+ // Shared March's existing source watercourse crossing receives a physically
+ // separated plank deck with two low stringers, inside the SAME 2.3×.3×4.3
+ // envelope and at its original origin. One static mesh and one local material.
+ // Illustrative carpentry only: never surveyed topology, bridge history or canon.
+ function sharedMarchPlankedCrossing(g){
+  const positions=[],colors=[],indices=[];
+  const boards=13,pitch=4.3/boards;
+  const parts=[];
+  for(let i=0;i<boards;i++){
+   const z=-2.15+(i+.5)*pitch;
+   parts.push({x:0,y:.7575,z,w:2.3,h:.085,d:pitch-.024,
+    tone:.88+.09*Math.sin(i*2.17),top:true});
+  }
+  for(const x of [-.91,.91])
+   parts.push({x,y:.61,z:0,w:.18,h:.22,d:4.3,tone:.70,top:false});
+  for(const p of parts){
+   const primitive=new THREE.BoxGeometry(p.w,p.h,p.d,2,1,1);
+   const v=primitive.getAttribute('position'),offset=positions.length/3;
+   for(let i=0;i<v.count;i++){
+    const x=v.getX(i),y=v.getY(i),z=v.getZ(i);
+    const grain=Math.sin((x+p.x)*15.3+(z+p.z)*4.9)
+               *Math.cos((z+p.z)*13.1-(x+p.x)*3.4);
+    // Only shallow nonpositive top relief; deck still meets the former top.
+    const wear=p.top&&y>0?.0035*(.5+.5*grain):0;
+    positions.push(x+p.x,y+p.y-wear,z+p.z);
+    const shade=p.tone*(.95+.05*grain);
+    colors.push(.64*shade,.43*shade,.26*shade);
+   }
+   for(const idx of primitive.index.array)indices.push(offset+idx);
+   primitive.dispose();
+  }
+  const geo=new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+  const wood=mat('#ffffff','wood',{vertexColors:true,roughness:.96,metalness:0});
+  const deck=mesh(g,geo,wood,0,0,2.8,'Watercourse crossing');
+  deck.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+   sourceLandmark:'watercourse crossing',plankCount:boards};
+  return deck;
+ }
+
  // Source-exact watercourse bank vegetation is an illustrative presentation,
  // never a measured shoreline or a new Atlas location. One combined dynamic draw.
  function crossingBankReeds(g){
@@ -514,7 +556,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-SOUTHERN-SPEEDWAY'(g){const track=speedwayTrack(g);const inner=cyl(g,0,0,0,4,4,.3,M.green,40,'Racecourse infield');inner.scale.z=.64;for(const z of [-5.7,5.7]){for(let row=0;row<4;row++)box(g,0,.25+row*.36,z+Math.sign(z)*row*.55,8,.4,.55,M.stone,'Grandstand tier');roof(g,0,2.7,z+Math.sign(z)*.7,8.8,2.3,.75,M.red);for(const x of [-3.7,3.7])for(const dz of [-.65,.65])cyl(g,x,.25,z+Math.sign(z)*.7+dz,.1,.14,2.45,M.timber,6);}const stand=g.children.find(o=>o.name==='Grandstand tier');for(const x of [-7.2,7.2])flag(g,x,.3,0,M.red);return [track,stand];},
   'LOC-LLC-STORM-CITY'(g){waterSurface(g,1,.22,3.9,10,6.2,'sheltered port','#356572');box(g,0,.3,-.7,13,.65,9,M.slate);let tower;for(const [x,z,h]of [[-4,-3,6],[0,-3.5,8],[4,-3,5.6],[-3,0,4],[2,0,4.7]]){const body=stormCityMercantileTower(g,x,z,h);roof(g,x,h+.95,z,3.2,3,1.4,M.blue);for(let j=0;j<3;j++)box(g,x,2.1+j*1.2,z+1.27,1,.5,.04,M.glass);tower??=body;}const barriers=box(g,0,.9,4,13,1.35,.55,M.dark,'Storm barrier');for(let i=0;i<7;i++)box(g,-6+i*2,1.7,4,.3,1.05,.85,M.stone);steps(g,5,6.1,1.5,6,.16);return [tower,barriers];},
   'LOC-DK-HIGHLAND-STRONGHOLD'(g){box(g,0,0,0,13,.8,11,M.slate);const stronghold=hall(g,0,-3,8,4,4.6,M.stone,M.red);for(const x of [-5.4,5.4]){box(g,x,.8,0,1,3.3,8,M.stone);cyl(g,x,.8,3.8,1,1.2,4.9,M.slate,8);roof(g,x,5.7,3.8,2.6,2.6,1.5,M.red);}const court=highlandTrainingCourt(g);for(const x of [-2.5,2.5]){beam(g,[x,.9,1.1],[x,2.7,1.1],.15,M.wood);beam(g,[x-.6,2.3,1.1],[x+.6,2.3,1.1],.1,M.wood);}const road=steps(g,0,6.3,3.2,5,.17);for(const x of [-3.8,3.8])flag(g,x,.8,3.4,M.red);return [stronghold,court,road];},
-  'LOC-TDS-CHILI-SHARED-MARCH'(g){box(g,0,0,0,13,.2,11,M.earth);const settlement=pavilion(g,-3.2,-1.5,4.7,3.8,3,M.deepGreen);pavilion(g,3.4,-2,4,3.4,2.8,M.red);waterSurface(g,0,.25,2.8,7.8,1.5,'watercourse crossing','#46766c');const crossing=box(g,0,.5,2.8,2.3,.3,4.3,M.wood,'Watercourse crossing');for(const x of [-1.1,1.1])box(g,x,.8,2.8,.12,.75,4.1,M.wood);const quarter=hall(g,-3.4,-4.1,4.6,2.8,2.8,M.wood,M.canvas);desk(g,3.3,.2,-.8,3.5);fence(g,4.7,3.2,3.5,3);for(const x of [-6,6])tree(g,x,-4.2,.7,M.paleGreen);crossingBankReeds(g);return [settlement,crossing,quarter];},
+  'LOC-TDS-CHILI-SHARED-MARCH'(g){box(g,0,0,0,13,.2,11,M.earth);const settlement=pavilion(g,-3.2,-1.5,4.7,3.8,3,M.deepGreen);pavilion(g,3.4,-2,4,3.4,2.8,M.red);waterSurface(g,0,.25,2.8,7.8,1.5,'watercourse crossing','#46766c');const crossing=sharedMarchPlankedCrossing(g);for(const x of [-1.1,1.1])box(g,x,.8,2.8,.12,.75,4.1,M.wood);const quarter=hall(g,-3.4,-4.1,4.6,2.8,2.8,M.wood,M.canvas);desk(g,3.3,.2,-.8,3.5);fence(g,4.7,3.2,3.5,3);for(const x of [-6,6])tree(g,x,-4.2,.7,M.paleGreen);crossingBankReeds(g);return [settlement,crossing,quarter];},
   'LOC-COMPACT-NEUTRAL-GROUNDS'(g){const field=cyl(g,0,0,0,6.5,6.8,.25,M.green,40,'Open ceremonial field');const pav=pavilion(g,0,-4.7,5,3,3.4,M.ivory);for(const x of [-4.5,4.5])flag(g,x,.25,-2,M.ivory);const roads=box(g,0,.26,4.7,2.3,.04,5.2,M.sand,'Arrival-road presentation');for(const sign of [-1,1]){const path=box(g,sign*4.3,.27,2.4,2,.03,5.3,M.sand);path.rotation.y=sign*.8;}for(const x of [-2.7,2.7])for(const z of [-.8,1.2])box(g,x,.25,z,1.5,.4,.5,M.stone);return [field,pav,roads];},
   'LOC-LEAGUE-ARCHIVE'(g){box(g,0,0,0,12,.45,10,M.stone);const halls=hall(g,0,-2.8,9,3.6,4.5,M.light,M.blue);for(const x of [-4.2,4.2])hall(g,x,.6,2.5,5.1,3.4,M.stone,M.blue);const vault=arch(g,0,.45,-.85,1.2,.45,.65,M.gold);box(g,0,.45,-1,2.25,2.1,.2,M.timber,'Ledger vault doors');const court=box(g,0,.46,2.1,5.8,.1,4.3,M.sand,'Courier court');for(const x of [-2.5,2.5]){cyl(g,x,.45,3.8,.17,.25,2.6,M.light,9);box(g,x,2.9,3.8,.6,.6,.6,M.gold);}desk(g,0,.55,1.1,2.6);ledger(g,0,1.8,1.1);steps(g,0,5.5,4,3,.17);return [halls,vault,court];}
  };
