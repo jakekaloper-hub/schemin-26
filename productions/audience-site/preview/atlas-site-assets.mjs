@@ -277,7 +277,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   return geo;
  }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
-  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0},uMire:{value:kind==='mire'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0},uMire:{value:kind==='mire'?1:0},uLakeGlint:{value:kind==='mountain lake'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
    vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;
     void main(){
      vUv=uv;vec3 p=position;
@@ -309,7 +309,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vWorld=(modelMatrix*vec4(p,1.)).xyz;
      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
     }`,
-   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;
+   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;
     void main(){
      float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
      float line=pow(max(sin(vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7),0.),17.);
@@ -321,6 +321,15 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vec3 eyeRay=normalize(cameraPosition-vWorld);
      float grazing=pow(1.-clamp(abs(dot(faceNormal,eyeRay)),0.,1.),2.);
      vec3 viewTint=vec3(.10,.16,.15)*(uViewSheen*grazing);
+     // Candidate-only lake glints follow real displaced-surface derivatives.
+     // Fixed illustrative key light: NOT an Eastern solar or weather feed.
+     // Uniform branch skips extra work on the other three existing waters.
+     float lakeGlint=0.;
+     if(uLakeGlint>.5){
+       vec3 lakeNormal=faceNormal.y<0.?-faceNormal:faceNormal;
+       vec3 lakeSun=normalize(vec3(.43,.79,.37));
+       lakeGlint=(1.-smoothstep(.58,.95,length((vUv-.5)*2.)))*pow(max(dot(reflect(-lakeSun,lakeNormal),eyeRay),0.),12.);
+     }
      float crossingSheen=uCrossing*pow(max(sin(vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55),0.),18.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
      float bridgeR=min(length((vUv-.5)*2.-vec2(-.39,0.)),length((vUv-.5)*2.-vec2(.39,0.)));
      float bridgeSheen=uBridge*exp(-bridgeR*10.)*pow(max(sin(bridgeR*34.-uTime*1.7),0.),8.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
@@ -335,6 +344,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vec3 c=clamp(uColor+vec3(.09,.15,.14)*line*gap+viewTint,0.,1.);
      c=clamp(c+vec3(.035,.065,.06)*crossingSheen,0.,1.);
      c=clamp(c+vec3(.055,.09,.08)*bridgeSheen,0.,1.);
+     c=clamp(c+vec3(.13,.18,.17)*lakeGlint,0.,1.);
      c=clamp(c+vec3(.045,.075,.074)*barrierSheen,0.,1.);
      c=clamp(c+vec3(.052,.034,-.008)*mireSilt,0.,1.);
      gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
