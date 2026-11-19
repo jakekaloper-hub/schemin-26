@@ -30,6 +30,7 @@ const impacts=read('ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json');
 const soloScenes=read('INKLINGS_INTERVIEW_II_56_MATCH_SCENE_CONTRACTS.proposal.json');
 const bodyEffects=read('INKLINGS_OWNER_BODY_CONSEQUENCE_2015_2025.proposal.json');
 const spatial=read('ISLAND_SPATIAL_STAGE_ENGINE_V1.proposal.json');
+const rigs=read('HISTORICAL_RIG_INTERLOCK_PROTOCOLS_V1.proposal.json');
 
 assert.equal(broadcast.years.length,11,'Every historical season needs its own broadcast-era contract');
 assert.equal(finales.scenes.length,11,'Eleven authored championship scripts required');
@@ -53,6 +54,7 @@ assert.equal(soloScenes.cards.length,56);
 assert.equal(soloScenes.cards.reduce((n,c)=>n+c.acts.length,0),168);
 assert.equal(bodyEffects.games.length,56);
 assert.equal(spatial.scene_packets.length,56);
+assert.equal(rigs.stage_protocols.length,2);
 assert.equal(spatial.scene_packets.reduce((n,x)=>n+x.stage_axes.length,0),168);
 assert.equal(spatial.status,'CANDIDATE_SCHEMATIC_NOT_GEOGRAPHIC_ENGINEERING_OR_PHYSICS_CERTIFICATION');
 assert.ok(soloScenes.cards.every(c=>c.acts.every(x=>x.solo_contender_A.personally_competes&&x.solo_contender_B.personally_competes)));
@@ -67,7 +69,7 @@ assert.deepEqual(years,Array.from({length:11},(_,i)=>2015+i));
 const data={schema:'schemin.championship-island-static-exhibit.v1',
   editorial_state:'NONCANON_PRODUCTION_PREVIEW_NOT_ATLAS',
   source_pins:{fact:'ESPN_FLAIM_LEAGUE_1417621_HISTORY',place:'FOUNDER_V2_PROPOSED',release:'BLOCKED_INDEPENDENT_UMPIRE_AND_ATLAS'},
-  cardsAnnual:cards.annual,cards:cards.cards,sites,topology,finales:finales.scenes,storyboard:storyboard.cards.map(c=>({fixture_id:c.fixture_id,shots:c.production_cameras.map(v=>({id:v.shot_id,beat:v.beat,lens:v.lens,visual:v.visual,witness_status:v.witness_status}))})),broadcast,obstacles,bindings,material,physicsProfiles:VENUES,riskControls:RISK_CONTROLS,ceremonial,impacts,soloScenes,bodyEffects,spatial:{status:spatial.status,scene_packets:spatial.scene_packets.map(p=>({fixture_id:p.fixture_id,site:p.venue_candidate_id,stage_axes:p.stage_axes,terrain:p.physical_fit.terrain,route_access:Object.keys(p.access)})),diagram_units:spatial.grid.units}};
+  cardsAnnual:cards.annual,cards:cards.cards,sites,topology,finales:finales.scenes,storyboard:storyboard.cards.map(c=>({fixture_id:c.fixture_id,shots:c.production_cameras.map(v=>({id:v.shot_id,beat:v.beat,lens:v.lens,visual:v.visual,witness_status:v.witness_status}))})),broadcast,obstacles,bindings,material,physicsProfiles:VENUES,riskControls:RISK_CONTROLS,ceremonial,impacts,soloScenes,bodyEffects,spatial:{status:spatial.status,scene_packets:spatial.scene_packets.map(p=>({fixture_id:p.fixture_id,site:p.venue_candidate_id,stage_axes:p.stage_axes,terrain:p.physical_fit.terrain,route_access:Object.keys(p.access)})),diagram_units:spatial.grid.units},rigs:rigs.stage_protocols.map(r=>({fixture_id:r.fixture_id,type:r.rig_protocol.type,staging_events:r.inspected_event_log.length,scale:r.rig_protocol.scale}))};
 const template=fs.readFileSync(path.join(dir,'index.template.html'),'utf8');
 assert.equal(template.split('__ISLAND_DATA__').length,2,'Expected exactly one data slot');
 const json=JSON.stringify(data).replace(/</g,'\\u003c').replace(/>/g,'\\u003e').replace(/&/g,'\\u0026').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');

@@ -26,6 +26,7 @@ test('Exhibit reads all eleven years and no future winner',()=>{
  assert.equal(model.material.perimeter_ruins.length,9);
  assert.equal(model.ceremonial.ceremonies.length,56);
  assert.equal(model.spatial.scene_packets.length,56);
+ assert.equal(model.rigs.length,2);
  assert.equal(model.spatial.diagram_units,'CURRENT_ATLAS_PREVIEW_DISPLAY_PIXELS');
  assert.equal(model.impacts.traces.length,56);
  assert.equal(model.soloScenes.cards.length,56);
@@ -87,6 +88,7 @@ test('Physical staging controls are fully sourced and require both actor lanes',
  assert.ok(html.includes('renderStagingPreview'));
  assert.ok(html.includes("'class':'venue-terrain'"));
  assert.ok(html.includes('Play all stages'));
+ assert.ok(html.includes('Rig interlock: '));
  assert.ok(html.includes('aria-pressed'));
  assert.ok(model.spatial.scene_packets.every(p=>p.stage_axes.length===3));
  assert.ok(model.spatial.scene_packets.every(p=>p.stage_axes.every(x=>x.personally_performed)));

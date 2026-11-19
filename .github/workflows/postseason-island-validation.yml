@@ -85,3 +85,7 @@ jobs:
         run: node planning/postseason/test_island_spatial_stage_engine.mjs
       - name: Adversarial quality-test 2018 and 2022 longform screenplay pilots
         run: node planning/postseason/test_scene_quality_gate.cjs
+      - name: Check protected archery/clockwork rig event sequences
+        run: node planning/postseason/stage_rig_interlocks.mjs --check
+      - name: Reject unsafe stage rig transitions and surrogate performers
+        run: node planning/postseason/test_stage_rig_interlocks.mjs

@@ -256,6 +256,11 @@ var label=push(aside,el('div','eyebrow','Phase 1'));
 var desc=push(aside,el('p','',source.stage_axes[0].A_action+'. The other contender personally counters the same trial.'));
 push(aside,el('p','', 'Terrain: '+source.terrain.ground+'. ' +source.terrain.slope+'. Broadcast and spectator movement remain on separate planned routes.'));
 push(aside,el('p','', 'This is non-metric motion previsualization, not an actual physics simulation, a game result, a GIS map or an approved safety plan.'));
+var rig=data.rigs.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+if(rig){
+ push(aside,el('p','primary','Rig interlock: '+rig.type.replaceAll('_',' ')));
+ push(aside,el('p','', 'Audited sequence: '+rig.staging_events+' procedural events across three phases. '+rig.scale+'. This does not certify real-world mechanical forces or choose a winner.'));
+}
 function showStage(i){
  var st=source.stage_axes[i],scale=136;
  a.style.transform='translate('+(300+st.A[0]*scale)+'px,'+(180+st.A[1]*scale)+'px)';

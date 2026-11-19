@@ -9,7 +9,14 @@ import {fileURLToPath} from 'node:url';
 const dir=path.dirname(fileURLToPath(import.meta.url));
 const read=name=>JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'));
 const must=(condition,message)=>{if(!condition)throw new Error(message);};
-export function exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard){
+export function exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard,spatial=null,rigs=null){
+  spatial=spatial||read('ISLAND_SPATIAL_STAGE_ENGINE_V1.proposal.json');
+  rigs=rigs||read('HISTORICAL_RIG_INTERLOCK_PROTOCOLS_V1.proposal.json');
+  must(spatial?.schema==='schemin.postseason.schematic_spatial_stage_engine.v1'&&spatial.scene_packets.length===56,'Physical stage previsualization absent');
+  must(rigs?.schema==='schemin.postseason.illustrative_rig_protocols.v1'&&rigs.stage_protocols.length===2,'Rig interlock protocols absent');
+  must(spatial.no_sport_result_simulation===true && rigs.no_live_results===true,'Previsualization cannot simulate winner');
+  must(spatial.scene_packets.every(p=>p.physical_fit.eligible),'Unsafe physical stage plan');
+  must(rigs.stage_protocols.every(r=>r.winner===null && r.official_points===null),'Rig returns unverified score');
   must(cards.schema==='schemin.inklings_postseason_compiled_cards.v1','Inklings compiled cards absent');
   must(cards.cards.length===56&&cards.annual.length===11,'Historical coverage incomplete');
   must(topology.schema==='schemin.championship_island_topology.founder_v2','Founder bridge topology absent');
@@ -135,6 +142,35 @@ export function exportConsumers(cards,topology,contract,broadcast,obstacles,bind
       })),
       release:'NO_REAL_CHARACTER_RENDER_OR_2026_PUBLICATION'
     },
+    spatial_os:{
+      status:spatial.status,
+      coordinate_space:spatial.grid.units,
+      real_metric_geography:false,
+      stage_positions_count:spatial.scene_packets.reduce((n,x)=>n+x.stage_axes.length,0),
+      permanent_site_count:spatial.permanent_round_sites.length,
+      scene_access:spatial.scene_packets.map(p=>({
+        fixture_id:p.fixture_id,venue:p.venue_candidate_id,
+        axis_stages:p.stage_axes.map(a=>({A:a.A,B:a.B,phase:a.name,personal:true})),
+        contender_route:p.access.contender,
+        spectator_route:p.access.spectator,
+        broadcast_route:p.access.broadcast,
+        service_route:p.access.service,
+        last_safety_certification:p.physical_fit.structural_certification
+      })),
+      release:'NORMALIZED_PREVIS_NOT_ENGINEERING_CERTIFICATION'
+    },
+    physical_rig_os:{
+      status:rigs.status,
+      stage_protocols:rigs.stage_protocols.map(r=>({
+        fixture_id:r.fixture_id,venue:r.venue_candidate_id,
+        type:r.rig_protocol.type,
+        staging_events:r.inspected_event_log.length,
+        personally_competed:true,
+        authoring_not_actual_physics:true,
+        external_winner_only:true
+      })),
+      release:'NO_ACTUAL_LOAD_SAFETY_CERTIFICATION'
+    },
     postseason_2026:{
       event_structure:contract.schedule,round_venues:contract.venue_assignment.rounds,
       qualifiers:null,fixtures:null,winners:null,finalists:null,champion:null,
@@ -158,7 +194,9 @@ if(process.argv[1]&&fs.realpathSync(process.argv[1])===fs.realpathSync(fileURLTo
     read('INKLINGS_INTERVIEW_II_56_MATCH_SCENE_CONTRACTS.proposal.json'),
     read('INKLINGS_OWNER_BODY_CONSEQUENCE_2015_2025.proposal.json'),
     read('INKLINGS_ELEVEN_CHAMPIONSHIP_FINALES_INTERVIEW_II_V2.proposal.json'),
-    read('INKLINGS_INTERVIEW_II_VISUAL_STORYBOARDS_56.proposal.json')
+    read('INKLINGS_INTERVIEW_II_VISUAL_STORYBOARDS_56.proposal.json'),
+    read('ISLAND_SPATIAL_STAGE_ENGINE_V1.proposal.json'),
+    read('HISTORICAL_RIG_INTERLOCK_PROTOCOLS_V1.proposal.json')
   );
   const out=path.join(dir,'POSTSEASON_CROSS_OS_PREPRODUCTION_EXPORT.founder_v2.json');
   fs.writeFileSync(out,JSON.stringify(result,null,2)+'\n');
