@@ -723,6 +723,43 @@ gl_FragColor=vec4(base*vShade,1.);
   return wheels;
  }
 
+  // The three source-existing Chili stable fronts remain in their original
+  // envelopes; real slat gaps replace opaque panels. Decorative joinery only:
+  // not a new stall, an inhabited horse, or canonical stable construction.
+  function chiliStableOpenSlatFronts(g){
+   const positions=[],colors=[],indices=[],bayCenters=[-4,-1,2];
+   const cube=(x,y,z,w,h,d,shade)=>{
+    const base=positions.length/3;
+    for(const [dx,dy,dz] of [
+     [-.5,0,-.5],[.5,0,-.5],[.5,1,-.5],[-.5,1,-.5],
+     [-.5,0,.5],[.5,0,.5],[.5,1,.5],[-.5,1,.5]
+    ]){
+     positions.push(x+dx*w,y+dy*h,z+dz*d);
+     colors.push(.42*shade,.285*shade,.17*shade);
+    }
+    for(const [a,b,c,d0] of [[0,3,2,1],[4,5,6,7],[0,4,7,3],
+     [1,2,6,5],[0,1,5,4],[3,7,6,2]])
+     indices.push(base+a,base+b,base+c,base+a,base+c,base+d0);
+   };
+   for(let bay=0;bay<bayCenters.length;bay++){
+    const x=bayCenters[bay];
+    for(let i=0;i<9;i++)
+     cube(x+(i-4)*.235,.3,.25,.14,1.7,.12,.83+.025*((i+bay*2)%5));
+    // Exact original 2.1-wide end rails, kept inside the previous panel volume.
+    cube(x,.3,.25,2.1,.12,.12,.79+.025*bay);
+    cube(x,1.88,.25,2.1,.12,.12,.83+.025*bay);
+   }
+   const geo=new THREE.BufferGeometry();
+   geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+   geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+   geo.setIndex(indices);geo.computeVertexNormals();
+   const wood=mat('#ffffff','wood',{vertexColors:true,roughness:.95,side:THREE.DoubleSide});
+   const fronts=mesh(g,geo,wood,0,0,0,'Chili Stable open-slat fronts · candidate');
+   fronts.userData={bayCenters,slatsPerBay:9,sourceGeometry:'existing stable-front panels',
+    visualAuthority:'CANDIDATE_NOT_APPROVED'};
+   return fronts;
+  }
+
  // A definition returns one representative object for each upstream landmark.
  const definitions={
   'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=tradeJediHighRidge(g);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
@@ -730,7 +767,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-STORM-BOWL'(g){const field=cyl(g,0,0,0,6.6,6.9,.45,M.sand,36,'Weather-exposed venue');for(let i=0;i<20;i++){const a=i*Math.PI*2/20;if(a>1.1&&a<2.0)continue;const x=Math.cos(a)*6.3,z=Math.sin(a)*6.3;stormBowlSeat(g,x,z,a,i);rock(g,x*1.13,.35,z*1.13,.8,.7,.8,M.dark);}const counter=desk(g,1,.45,7.6,4);pavilion(g,1,7.6,4.6,2.4,2.7,M.blue);for(const x of [-4,4])flag(g,x,.4,-5.4,M.blue);return [field,counter];},
   'LOC-LLC-BOARDROOM'(g){box(g,0,0,0,10,.55,7.5,M.slate);const chamber=hall(g,0,-1.6,8.8,3.6,4.6,M.light,M.slate);for(const x of [-4.2,4.2])cyl(g,x,.55,1.6,.27,.34,3.8,M.stone);const table=desk(g,0,.55,1.45,4.4,M.dark);ledger(g,-1.1,1.85,1.4);ledger(g,.8,1.85,1.4);const ledgers=box(g,-3.6,.55,.4,.7,2.4,1.7,M.timber,'Ledger cabinet');for(let i=0;i<5;i++)box(g,-3.6,1+i*.32,.95,.55,.19,.7,i%2?M.red:M.ivory);const overlook=box(g,0,.65,4.2,10,.2,1.8,M.stone,'Market overlook');for(let i=0;i<9;i++)box(g,-4+i, .85,4.9,.12,.8,.12,M.gold);box(g,0,1.6,4.9,8.3,.1,.1,M.gold);steps(g,0,5.6,3,4,.14);return [chamber,ledgers,overlook];},
   'LOC-RED-RUINS'(g){const terrace=box(g,0,0,0,12,.55,10,M.dark,'Ruined jungle terrace');for(let i=0;i<3;i++)box(g,0,.5+i*.3,-i*.5,11-i*.8,.35,8-i*.7,M.stone);for(const x of [-4,0,4])arch(g,x,1.45,-2.5,1.45,.45,.9);redRuinsArchCreepers(g);for(const [x,z,h]of [[-5,2,2.9],[4.7,2.4,2],[2,-4,4],[-2.7,-4,2.2]]){cyl(g,x,.5,z,.43,.52,h,M.stone,9);rock(g,x+.4,.6,z+.7,.75,.45,.7);}const banners=flag(g,-4.8,.7,3.2,M.red,true);flag(g,4.8,.7,3.2,M.red,true);steps(g,0,5.4,3.5,6,.25);for(const [x,z]of [[-6,-3],[5.8,-3.6],[-5.9,3.8]])tree(g,x,z,1.15);return [terrace,banners];},
-  'LOC-CHILI-STABLE'(g){box(g,0,0,0,13,.2,11,M.sand);const stable=hall(g,-2,-2,8,4.3,3.4,M.wood,M.red);for(const x of [-4,-1,2]){box(g,x,.3,.25,2.1,1.7,.12,M.timber);box(g,x,1.2,.35,2.1,.12,.1,M.gold);}const pit=cyl(g,4,.2,3,1.15,1.3,.7,M.dark,14,'Cooking pit');cyl(g,4,.9,3,.85,.95,.5,M.black,12);smoke(g,4,1.2,3,true);fence(g,-2,3.5,7,3.5);const enclosure=box(g,-2,.22,3.5,6.7,.04,3.3,M.earth,'Dark Horse enclosure — no actor');for(const x of [-5.8,5.6])tree(g,x,-3.7,.8,M.paleGreen);return [stable,pit,enclosure];},
+  'LOC-CHILI-STABLE'(g){box(g,0,0,0,13,.2,11,M.sand);const stable=hall(g,-2,-2,8,4.3,3.4,M.wood,M.red);chiliStableOpenSlatFronts(g);for(const x of [-4,-1,2])box(g,x,1.2,.35,2.1,.12,.1,M.gold);const pit=cyl(g,4,.2,3,1.15,1.3,.7,M.dark,14,'Cooking pit');cyl(g,4,.9,3,.85,.95,.5,M.black,12);smoke(g,4,1.2,3,true);fence(g,-2,3.5,7,3.5);const enclosure=box(g,-2,.22,3.5,6.7,.04,3.3,M.earth,'Dark Horse enclosure — no actor');for(const x of [-5.8,5.6])tree(g,x,-3.7,.8,M.paleGreen);return [stable,pit,enclosure];},
   'LOC-BELT-KEEPER-KEEP'(g){const plinth=rock(g,0,.5,0,7,1.3,6.3,M.dark);box(g,0,.5,0,10,.8,8,M.slate);const keep=beltKeeperDarkStone(g);roof(g,0,7.7,-.8,6,5.3,2.6,M.slate);for(const x of [-4,4])for(const z of [-3,3]){cyl(g,x,1.0,z,1.05,1.2,4.5,M.slate,10);cyl(g,x,5.5,z,1.25,1.25,.6,M.dark,10);for(let i=0;i<6;i++){const a=i*Math.PI/3;box(g,x+Math.cos(a)*1.03,6.1,z+Math.sin(a)*1.03,.45,.65,.45,M.dark);}}const hallObj=box(g,0,1.3,2.3,4.3,3,2.2,M.slate,'Championship hall');arch(g,0,1.3,3.5,1,.3,.3,M.gold);flag(g,-1.5,4.6,2.6,M.red);flag(g,1.5,4.6,2.6,M.red);steps(g,0,6,2.3,5,.26);return [keep,hallObj];},
   'LOC-SLOB-FOOTHILL-CAMP'(g){const yard=box(g,0,0,0,12,.18,10,M.earth,'Tailgate yard');for(const [x,z,w,d]of [[-3,-2,4.5,4.3],[3,-2,3.3,3.5]]){roof(g,x,.3,z,w,d,3.2,M.canvas);beam(g,[x,.3,z+d*.52],[x,3.5,z],.07,M.timber);}desk(g,-2,.2,3,4);for(const x of [-4,0])box(g,x,.2,3.8,1.6,.45,.55,M.wood);const training=slobFoothillTrainingGround(g);for(const x of [2,3.5,5])cyl(g,x,.3,1.5,.17,.25,1.6,M.wood,7);for(const x of [-6,6])conifer(g,x,-3,1);return [yard,training];},
   'LOC-CHINS-ROAD-COMMONS'(g){box(g,0,0,0,13,.22,10,M.sand);const hallObj=hall(g,0,-2,8.5,4,3.4,M.wood,M.red);pavilion(g,-3.6,2.3,4,3,2.8,M.canvas);const bbq=cyl(g,-3.6,.25,2.5,.9,1,.65,M.dark,12,'BBQ yard');smoke(g,-3.6,.9,2.5);const court=box(g,3.2,.24,2.5,4,.06,4.5,M.earth,'Caravan court');for(const z of [1,4])box(g,3.1,.6,z,2.4,.4,1.1,M.wood);roadCommonsSpokedWheels(g);return [hallObj,bbq,court];},
