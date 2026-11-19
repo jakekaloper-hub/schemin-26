@@ -810,6 +810,29 @@ export function buildRegionalAssets(THREE, bindings, height) {
       ambientClock:'ORDINARY_ENVIRONMENT',illustrativeMaxHorizontalDrift:.1,drawBudgetDelta:1};
     return o;
   }
+  function cypressTrunk(g,x,y,z,h,standIndex){
+    // Sculpt ONLY the existing 14 candidate Mud Dogs tree cylinders.
+    // Keep the same height and .20 top/.45 base radius envelope, with no new mesh
+    // or material: deep vertical bark flutes are illustrative, not botanical canon.
+    const geo=new THREE.CylinderGeometry(.20,.45,h,16,6);
+    geo.name='Candidate Mud Dogs fluted cypress-like trunk';
+    const p=geo.getAttribute('position');
+    for(let k=0;k<p.count;k++){
+      const xx=p.getX(k),yy=p.getY(k),zz=p.getZ(k),radius=Math.hypot(xx,zz);
+      if(radius<.000001)continue; // Existing cap centers remain centered.
+      const angle=Math.atan2(zz,xx),lower=(h*.5-yy)/h;
+      const flutes=Math.sin(angle*7+standIndex*.37+yy*.15)*(.50+.50*lower);
+      const crossGrain=Math.sin(angle*13-standIndex*.23+yy*.47);
+      const factor=.93+.055*flutes+.014*crossGrain; // <= .999, never beyond old rim.
+      p.setXYZ(k,xx*factor,yy,zz*factor);
+    }
+    p.needsUpdate=true;
+    geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,trunk,x,y+h/2,z);
+    o.userData={...o.userData,visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceEnvironment:['cypress-like wetlands'],originalRadiusEnvelopePreserved:true};
+    return o;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
@@ -826,7 +849,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       const a=i*2.4,r=3.8+(i%4)*1.5,x=Math.cos(a)*r,z=Math.sin(a)*r,y=.12,h=3.3+(i%3)*.9;
       illustratedTreeStands.push([x,z]);illustratedTreeCrowns.push({i,x,y,z,h});
       const mark=(o,part)=>{o.userData.wetlandStand=i;o.userData.wetlandPart=part;return o;};
-      mark(cyl(g,x,y,z,.20,.45,h,trunk,8),'trunk');
+      mark(cypressTrunk(g,x,y,z,h,i),'trunk');
       for(let k=0;k<4;k++){
         const b=k*Math.PI/2+i*.31,reach=.85+(i%3)*.15;
         mark(branch(g,[x,y+.67,z],[x+Math.cos(b)*reach,y+.045,z+Math.sin(b)*reach],.11,trunk),'buttress-root');
