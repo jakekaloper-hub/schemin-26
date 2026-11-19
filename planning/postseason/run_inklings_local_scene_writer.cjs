@@ -48,23 +48,24 @@ for(const id of ids){
 'You are an INKLINGS creative production writer under Bullpen Beat Writer authority. Produce a fully original, cinematic 650–900 word DRAFT screenplay scene. Do not write like any named existing novelist. Do not mention instructions.',
 'The historical fantasy league scoreboard is VERIFIED FACT. This competition arena and physical challenge are FICTIONAL secondary-world dramatizations.',
 'Fixture: '+id+'; season '+fixture.year+'; round '+fixture.round+'; location '+fixture.staging.venue_name+'.',
-'Competitors must each personally perform ALL THREE STAGES. Home: '+fixture.home.name+' ('+fixture.home.points+'); away: '+fixture.away.name+' ('+fixture.away.points+'). Verified winner: '+winner.name+'; loser: '+loser.name+'.',
+'Both named contender personae must personally perform ALL THREE STAGES. Competitor A: '+fixture.home.name+'; Competitor B: '+fixture.away.name+'. Keep the winner and real-world fantasy scores UNKNOWN in your prose; the source system will append the official result after you finish writing.',
 'The draw selects the challenge '+ceremony.obstacle_name+'. It has an objective that must be intelligible to the audience.',
 'Stage briefs: '+JSON.stringify(contract.acts.map(a=>({number:a.number,objective:a.objective,action:a.scene_text.slice(0,460)}))),
 'The arena must acquire a lasting physical mark: '+impact.trace_kind+' at '+impact.original_material_anchor+'. It is safely restored without erasing material history.',
-'Write dynamic scene action, 1 original broadcaster line per stage, two competing strategies, changing terrain use, sensory material realism, a decisive source-certified result followed by defeated-person shoreward exit.',
+'Write dynamic scene action, one broadcaster line per stage, two distinct physical strategies, changing terrain use, and material realism. STOP at the end of PHASE THREE BEFORE ANY VICTORY OR SCORE IS KNOWN. Do not invent interim scores, declared phase winners, energy blasts or magical mechanics.',
 'No real historical human-owner names or biographies based merely on team slot. No principal death. No unrelated spectators harmed. No invented Farrell biography or historic trophy naming. Last Field original physical alignment always maintained if final.',
-'Use screenplay headings EXT., PHASE ONE, PHASE TWO, PHASE THREE, RESULT CERTIFIED, EPILOGUE. Do not insert another winner. Do not assume 2026 happened.'
+'Use headings EXT., PHASE ONE, PHASE TWO, PHASE THREE and stop immediately. DO NOT WRITE RESULT CERTIFIED OR EPILOGUE: those will be appended from an immutable external sports record by the compiler. Never declare either competitor victorious. Never assign numerical phase points. Do not assume 2026 happened.'
 ].join('\n');
- const response=await provider.generate({purpose:'inklings_scene_writer',system:'You write precise, source-faithful original screenplay drafts; source facts override narrative creativity.',messages:[{role:'user',content:prompt}],maxTokens:1600,projectContext:{projectName:'Schemin 26',projectId:'schemin-26'}});
- const body=String(response?.text||'');
+ const response=await provider.generate({purpose:'inklings_scene_writer',system:'Write only a source-neutral three-stage fictional contest up to the moment officials call time. Do not assign a winner, title or scores; the immutable source system writes the final result. No historical owner biography, supernatural powers or invented stage numbers.',messages:[{role:'user',content:prompt}],maxTokens:1600,projectContext:{projectName:'Schemin 26',projectId:'schemin-26'}});
+ const generated=String(response?.text||'').trim();
+ const body=generated+'\n\nRESULT CERTIFIED\nThe official, externally verified  '+fixture.year+' title-path result is '+winner.name+' '+winner.points.toFixed(2)+' to '+loser.name+' '+loser.points.toFixed(2)+'. The in-world demonstration did not generate these fantasy-football scores. The surviving competitor advances; the defeated competitor leaves for the seasonal resort.\n\nEPILOGUE\n The stage equipment is safely inspected, and '+impact.trace_kind+' remains an identifiable permanent historic trace at '+impact.original_material_anchor+'. No irreversible harm to any principal or spectator is depicted.\n';
  const issues=[];
  for(const label of [fixture.home.name,fixture.away.name])if(!body.includes(label))issues.push('MISSING_PERSONA:'+label);
  for(const header of ['PHASE ONE','PHASE TWO','PHASE THREE'])if(!body.includes(header))issues.push('MISSING_PHASE:'+header);
  if(words(body)<320)issues.push('SHORT_DRAFT');
  if(unsafeOutput(body))issues.push('POTENTIAL_CANON_FUTURE_OR_FALSE_HISTORY');
  const record={fixture_id:id,model,source_year:fixture.year,truth:{winner_slot:fixture.winner_slot,scores:[fixture.home.points,fixture.away.points]},
- selected_obstacle:ceremony.selected_obstacle_id,permanent_impact:impact.trace_id,word_count:words(body),qa:issues.length?'HOLD':'READY_FOR_EDITORIAL_REVIEW',issues,
+ selected_obstacle:ceremony.selected_obstacle_id,permanent_impact:impact.trace_id,word_count:words(body),qa:issues.length?'REJECT_PRELIMINARY':'PRELIMINARY_FORMAT_SCREEN_ONLY',issues,
  disclaimer:'Locally model-generated fictional script draft. No human author, independent Umpire, renderer or live canon signoff.',text:body};
  fs.writeFileSync(path.join(outdir,id+'.proposal.json'),JSON.stringify(record,null,2)+'\n');
  results.push({fixture_id:id,words:record.word_count,qa:record.qa,issues});
