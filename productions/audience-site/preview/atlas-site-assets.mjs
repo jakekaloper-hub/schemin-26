@@ -225,6 +225,35 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  }
  function desk(g,x,y,z,w=2.7,m=M.wood){const top=box(g,x,y+1.1,z,w,.15,1.1,m,'Record surface');for(const dx of [-w*.4,w*.4])box(g,x+dx,y,z,.17,1.1,.65,M.timber);return top;}
  function ledger(g,x,y,z){for(let i=0;i<3;i++)box(g,x+i*.18,y+i*.08,z,.7,.08,.55,i===1?M.red:M.ivory,'Unlettered ledger');}
+ // Pittsy's Book: unlettered open spread upon the existing settlement desk.
+ // Ruled paper / curvature are illustrative only: no odds or historical writes.
+ function pittsysOpenLedger(g){
+  const geo=new THREE.BufferGeometry(),positions=[],colors=[],indices=[];
+  const columns=14,rows=24;
+  for(const side of [-1,1]){
+   const start=positions.length/3;
+   for(let row=0;row<=rows;row++)for(let column=0;column<=columns;column++){
+    const u=column/columns,v=row/rows;
+    const x=-.07+side*(.025+.705*u),z=1.2+(v-.5)*1.14;
+    const y=1.62+.056*Math.pow(u,1.25)-.014*Math.exp(-Math.pow(u/.16,2))+.006*Math.sin(Math.PI*v)*u;
+    positions.push(x,y,z);
+    const ruled=(row>=4&&row<=20&&row%4===0)?.085:0;
+    const tone=.89-.02*u-ruled;
+    colors.push(tone,tone*.971,tone*.884);
+   }
+   for(let row=0;row<rows;row++)for(let col=0;col<columns;col++){
+    const a=start+row*(columns+1)+col,b=a+1,c=a+columns+1,d=c+1;
+    indices.push(a,b,c,b,d,c);
+   }
+  }
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);geo.computeVertexNormals();
+  const cover=box(g,-.07,1.55,1.2,1.55,.065,1.24,M.deepGreen,'Open ledger cover candidate');
+  const leaves=mesh(g,geo,mat('#ffffff','',{vertexColors:true,side:THREE.DoubleSide,roughness:1}),0,0,0,'Open ledger leaves — unlabeled');
+  for(const piece of [cover,leaves])piece.userData={...piece.userData,visualAuthority:'CANDIDATE_NOT_APPROVED',contentAuthority:'NONE'};
+  return leaves;
+ }
  // The four EXISTING other-site water bodies use a finer interior mesh so
  // the environmental clock moves their actual surface, not just painted streaks.
  // All rim vertices remain fixed at the original radius; this is candidate art,
@@ -367,7 +396,7 @@ gl_FragColor=vec4(base*vShade,1.);
   'LOC-SLOB-FOOTHILL-CAMP'(g){const yard=box(g,0,0,0,12,.18,10,M.earth,'Tailgate yard');for(const [x,z,w,d]of [[-3,-2,4.5,4.3],[3,-2,3.3,3.5]]){roof(g,x,.3,z,w,d,3.2,M.canvas);beam(g,[x,.3,z+d*.52],[x,3.5,z],.07,M.timber);}desk(g,-2,.2,3,4);for(const x of [-4,0])box(g,x,.2,3.8,1.6,.45,.55,M.wood);const training=box(g,3,.2,2.5,3.7,.1,4,M.sand,'Rough training ground');for(const x of [2,3.5,5])cyl(g,x,.3,1.5,.17,.25,1.6,M.wood,7);for(const x of [-6,6])conifer(g,x,-3,1);return [yard,training];},
   'LOC-CHINS-ROAD-COMMONS'(g){box(g,0,0,0,13,.22,10,M.sand);const hallObj=hall(g,0,-2,8.5,4,3.4,M.wood,M.red);pavilion(g,-3.6,2.3,4,3,2.8,M.canvas);const bbq=cyl(g,-3.6,.25,2.5,.9,1,.65,M.dark,12,'BBQ yard');smoke(g,-3.6,.9,2.5);const court=box(g,3.2,.24,2.5,4,.06,4.5,M.earth,'Caravan court');for(const z of [1,4]){box(g,3.1,.6,z,2.4,.4,1.1,M.wood);for(const x of [2.3,3.9]){const wheel=cyl(g,x,.2,z,.4,.4,.15,M.black,10);wheel.rotation.z=Math.PI/2;}}return [hallObj,bbq,court];},
   'LOC-LEAGUE-CHAMBER'(g){box(g,0,0,0,9,.5,7,M.stone);for(const x of [-4,4])box(g,x,.5,-.3,.6,4,6,M.light);box(g,0,.5,-3,8,4,.5,M.light);roof(g,0,4.5,-1,9,5,1.9,M.blue);const map=box(g,0,1.8,-2.68,4.8,1.85,.07,M.gold,'Map wall');box(g,0,1.9,-2.61,4.55,1.6,.04,M.deepGreen);const record=desk(g,0,.5,.4,4.4);ledger(g,-1,1.8,.4);for(const x of [-3,3])cyl(g,x,.5,2,.24,.34,3.6,M.light,10);steps(g,0,4.3,5,4,.15);return [record,map];},
-  'LOC-PITTSYS-BOOK'(g){box(g,0,0,0,8.3,.3,6,M.stone);pavilion(g,0,-.5,7,4,3.8,M.deepGreen);const boards=box(g,0,1,-2.3,6.1,2.7,.22,M.timber,'Ledger boards');for(const x of [-2,0,2]){box(g,x,1.2,-2.15,1.55,2.1,.05,M.ivory);for(let j=0;j<5;j++)box(g,x,1.45+j*.32,-2.1,1.3,.035,.03,M.gold);}const settlement=desk(g,0,.3,1.2,5.9,M.dark);ledger(g,-1.6,1.6,1.2);ledger(g,1.1,1.6,1.2);flag(g,3.7,.3,2.1,M.deepGreen);return [boards,settlement];},
+  'LOC-PITTSYS-BOOK'(g){box(g,0,0,0,8.3,.3,6,M.stone);pavilion(g,0,-.5,7,4,3.8,M.deepGreen);const boards=box(g,0,1,-2.3,6.1,2.7,.22,M.timber,'Ledger boards');for(const x of [-2,0,2]){box(g,x,1.2,-2.15,1.55,2.1,.05,M.ivory);for(let j=0;j<5;j++)box(g,x,1.45+j*.32,-2.1,1.3,.035,.03,M.gold);}const settlement=desk(g,0,.3,1.2,5.9,M.dark);ledger(g,-1.6,1.6,1.2);ledger(g,1.1,1.6,1.2);pittsysOpenLedger(g);flag(g,3.7,.3,2.1,M.deepGreen);return [boards,settlement];},
   'LOC-BRIDGE-MOUNTAIN-LAKE'(g){const lake=waterSurface(g,0,.25,0,8.7,5.9,'mountain lake','#477f89');for(const x of [-6.8,6.8])rock(g,x,.15,0,2.1,1,3.4,M.slate);const span=arch(g,0,.3,0,3.4,.65,2.3,M.stone);box(g,0,4.27,0,9.3,.45,2.6,M.stone);for(const z of [-1.25,1.25]){box(g,0,4.7,z,9.2,.8,.18,M.light);for(let i=0;i<11;i++)box(g,-4.25+i*.85,4.7,z,.12,1,.24,M.stone);}for(const s of [-1,1])for(let i=0;i<6;i++)box(g,s*(4.8+i*.5),0,0,.52,4.7-i*.7,2.8,M.stone);const jump=box(g,2.8,4.7,1.6,1.35,.18,.85,M.light,'Recorded jump-point edge');for(const x of [-7.2,7.2])conifer(g,x,-3.3,.8);return [span,lake,jump];},
   'LOC-DK-MUD-HILL'(g){const hill=rock(g,0,.8,0,6,2.4,4.7,M.earth);for(let i=0;i<7;i++){const a=i*2.1;rock(g,Math.cos(a)*4.4,.25,Math.sin(a)*3.6,1.3,.45,1.1,M.slate);}const mire=waterSurface(g,1,.22,1.3,7.2,5.2,'mire','#515d46');const standards=flag(g,-1.9,2.6,0,M.red);flag(g,1.8,2.6,-.3,M.blue);box(g,0,2.15,2.2,3,.2,1,M.earth,'Worn illustrative ridge');return [hill,mire,standards];},
   'LOC-RED-SLOB-ALPINE-ROUTE'(g){const summit=alpineSurface(g,0,1.4,-1.7,5.5,4.1,4.1);alpineSurface(g,.2,4.2,-1.8,3.8,.85,2.9,true);for(let i=0;i<6;i++){const a=i*.7;rock(g,-5+i*1.8,.3,Math.sin(a)*3.2,1.6,.9,1.2,M.slate);}const camp=roof(g,-3,.4,3.5,3.2,3,2.5,M.red);roof(g,2,.4,4.1,2.6,2.7,2.1,M.canvas);const marker=cyl(g,2.9,2.7,-1,.28,.45,1.9,M.stone,7,'Wager marker');flag(g,3,4.6,-1,M.red);return [summit,camp,marker];},
