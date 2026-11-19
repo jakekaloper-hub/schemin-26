@@ -9,11 +9,13 @@ import {fileURLToPath} from 'node:url';
 const dir=path.dirname(fileURLToPath(import.meta.url));
 const read=name=>JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'));
 const must=(condition,message)=>{if(!condition)throw new Error(message);};
-export function exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard,spatial=null,rigs=null){
+export function exportConsumers(cards,topology,contract,broadcast,obstacles,bindings,material,draw,impacts,scenes,body,finalesV2,storyboard,spatial=null,rigs=null,atlasSiting=null){
   spatial=spatial||read('ISLAND_SPATIAL_STAGE_ENGINE_V1.proposal.json');
   rigs=rigs||read('HISTORICAL_RIG_INTERLOCK_PROTOCOLS_V1.proposal.json');
+  atlasSiting=atlasSiting||read('ATLAS_NEUTRAL_CAUSEWAY_SITING_HYPOTHESIS_V1.proposal.json');
   must(spatial?.schema==='schemin.postseason.schematic_spatial_stage_engine.v1'&&spatial.scene_packets.length===56,'Physical stage previsualization absent');
   must(rigs?.schema==='schemin.postseason.illustrative_rig_protocols.v1'&&rigs.stage_protocols.length===2,'Rig interlock protocols absent');
+  must(atlasSiting?.schema==='schemin.postseason.architect_candidate_siting.v1'&&atlasSiting.world_writes.length===0&&atlasSiting.canon_promotion===false,'Unpromoted neutral causeway siting required');
   must(spatial.no_sport_result_simulation===true && rigs.no_live_results===true,'Previsualization cannot simulate winner');
   must(spatial.scene_packets.every(p=>p.physical_fit.eligible),'Unsafe physical stage plan');
   must(rigs.stage_protocols.every(r=>r.winner===null && r.official_points===null),'Rig returns unverified score');
@@ -142,6 +144,17 @@ export function exportConsumers(cards,topology,contract,broadcast,obstacles,bind
       })),
       release:'NO_REAL_CHARACTER_RENDER_OR_2026_PUBLICATION'
     },
+    atlas_siting_candidate:{
+      status:atlasSiting.status,
+      coordinate_type:'ABSTRACT_ATLAS_SKETCH_NOT_METRIC',
+      physical_zone_id:atlasSiting.proof.physical_region_id,
+      public_gate:atlasSiting.hypothesis.public_mainland_gate,
+      league_island:atlasSiting.hypothesis.island_centre,
+      tentative_crossing:atlasSiting.hypothesis.causeway_crossing,
+      proposed_links:atlasSiting.hypothesis.planned_links,
+      live_world_mutations:0,
+      release:'HOLD_NEUTRAL_ACCESS_HYDROLOGY_TECH_AND_ATLAS_PROMOTION'
+    },
     spatial_os:{
       status:spatial.status,
       coordinate_space:spatial.grid.units,
@@ -196,7 +209,8 @@ if(process.argv[1]&&fs.realpathSync(process.argv[1])===fs.realpathSync(fileURLTo
     read('INKLINGS_ELEVEN_CHAMPIONSHIP_FINALES_INTERVIEW_II_V2.proposal.json'),
     read('INKLINGS_INTERVIEW_II_VISUAL_STORYBOARDS_56.proposal.json'),
     read('ISLAND_SPATIAL_STAGE_ENGINE_V1.proposal.json'),
-    read('HISTORICAL_RIG_INTERLOCK_PROTOCOLS_V1.proposal.json')
+    read('HISTORICAL_RIG_INTERLOCK_PROTOCOLS_V1.proposal.json'),
+    read('ATLAS_NEUTRAL_CAUSEWAY_SITING_HYPOTHESIS_V1.proposal.json')
   );
   const out=path.join(dir,'POSTSEASON_CROSS_OS_PREPRODUCTION_EXPORT.founder_v2.json');
   fs.writeFileSync(out,JSON.stringify(result,null,2)+'\n');

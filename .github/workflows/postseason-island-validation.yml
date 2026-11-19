@@ -89,3 +89,7 @@ jobs:
         run: node planning/postseason/stage_rig_interlocks.mjs --check
       - name: Reject unsafe stage rig transitions and surrogate performers
         run: node planning/postseason/test_stage_rig_interlocks.mjs
+      - name: Verify neutral offshore siting against current Atlas source
+        run: node planning/postseason/build_neutral_causeway_siting.mjs --check
+      - name: Reject owner-controlled causeway or active world mutation
+        run: node planning/postseason/test_neutral_causeway_siting.mjs

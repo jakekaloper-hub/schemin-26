@@ -7849,6 +7849,85 @@
     ],
     "release": "NO_REAL_CHARACTER_RENDER_OR_2026_PUBLICATION"
   },
+  "atlas_siting_candidate": {
+    "status": "UNPROMOTED_FOUNDER_APPROVED_CREATIVE_DIRECTION__SITING_HYPOTHESIS",
+    "coordinate_type": "ABSTRACT_ATLAS_SKETCH_NOT_METRIC",
+    "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+    "public_gate": {
+      "id": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+      "name": "Neutral Littoral Causeway Gate",
+      "abstract_position": [
+        68.5,
+        13.5
+      ],
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "owner_character_id": null,
+      "division_id": null,
+      "type": "seasonal_public_approach",
+      "status": "CANDIDATE_NOT_LOC",
+      "important": "No ownership or security command delegated to nearby LLC Storm City"
+    },
+    "league_island": {
+      "id": "CAND-POST-CHAMPIONSHIP-ISLAND",
+      "name": "Championship Island",
+      "abstract_position": [
+        73.8,
+        10.5
+      ],
+      "zone_id": "REG-INNER-SEA-LITTORAL",
+      "private_owner_id": null,
+      "government": "LEAGUE_NEUTRAL_EVENTS_AUTHORITY_CANDIDATE",
+      "arena_orientations": "SIX_FIXED_ROUND_VENUES_IN_SITE_NETWORK__ROTATION_AND_TRUE_NORTH_UNVERIFIED"
+    },
+    "tentative_crossing": {
+      "id": "CAND-POST-MONUMENTAL-CAUSEWAY",
+      "name": "Championship Causeway",
+      "abstract_path": [
+        [
+          68.5,
+          13.5
+        ],
+        [
+          69.5,
+          12.7
+        ],
+        [
+          70.6,
+          12
+        ],
+        [
+          71.8,
+          11.5
+        ]
+      ],
+      "water_crossing": "HYPOTHESIZED_SHALLOW_SHELTERED_BAY_NO_BATHYMETRIC_PROOF",
+      "structural_loads": null,
+      "actual_length_m": null,
+      "engineering": "STORM_SURGE_AND_FOUNDATION_SURVEY_REQUIRED"
+    },
+    "proposed_links": [
+      {
+        "id": "CAND-ROUTE-LEAGUE-TO-NEUTRAL-PORT-APPROACH",
+        "from": "LOC-LEAGUE-CHAMBER",
+        "to": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+        "status": "PROPOSED_REGIONAL_PUBLIC_LINK_NEEDS_SOURCED_ROAD_CORRIDOR"
+      },
+      {
+        "id": "CAND-ROUTE-CHAMPIONSHIP-CAUSEWAY",
+        "from": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+        "to": "CAND-POST-CHAMPIONSHIP-ISLAND",
+        "status": "PROPOSED_MONUMENTAL_FIXED_CROSSING"
+      },
+      {
+        "id": "CAND-ROUTE-ISLAND-RELIEF-FERRY",
+        "from": "CAND-POST-CHAMPIONSHIP-ISLAND",
+        "to": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+        "status": "CONTINGENCY_ROUTE_SURVEY_REQUIRED"
+      }
+    ],
+    "live_world_mutations": 0,
+    "release": "HOLD_NEUTRAL_ACCESS_HYDROLOGY_TECH_AND_ATLAS_PROMOTION"
+  },
   "spatial_os": {
     "status": "CANDIDATE_SCHEMATIC_NOT_GEOGRAPHIC_ENGINEERING_OR_PHYSICS_CERTIFICATION",
     "coordinate_space": "CURRENT_ATLAS_PREVIEW_DISPLAY_PIXELS",

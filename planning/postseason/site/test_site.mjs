@@ -86,6 +86,8 @@ test('Searchable challenges and historic scar registry are present',()=>{
 });
 test('Physical staging controls are fully sourced and require both actor lanes',()=>{
  assert.ok(html.includes('renderStagingPreview'));
+ assert.ok(html.includes('data-history-state'));
+ assert.ok(html.includes('atlas-year-label'));
  assert.ok(html.includes("'class':'venue-terrain'"));
  assert.ok(html.includes('Play all stages'));
  assert.ok(html.includes('Rig interlock: '));
@@ -93,6 +95,13 @@ test('Physical staging controls are fully sourced and require both actor lanes',
  assert.ok(model.spatial.scene_packets.every(p=>p.stage_axes.length===3));
  assert.ok(model.spatial.scene_packets.every(p=>p.stage_axes.every(x=>x.personally_performed)));
  assert.ok(model.spatial.scene_packets.every(p=>p.route_access.includes('contender')&&p.route_access.includes('broadcast')));
+});
+test('Neutral Atlas candidate is distinct from owner-linked active port and absent from active world release',()=>{
+ assert.equal(model.atlasSiting.hypothesis.public_mainland_gate.owner_character_id,null);
+ assert.equal(model.atlasSiting.hypothesis.island_centre.private_owner_id,null);
+ assert.equal(model.atlasSiting.hypothesis.planned_links.length,3);
+ assert.ok(model.atlasSiting.approval_checks.length>=6);
+ assert.ok(model.atlasSiting.status.startsWith('UNPROMOTED'));
 });
 test('Client code parses without external JS imports',()=>{
  const all=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)];
