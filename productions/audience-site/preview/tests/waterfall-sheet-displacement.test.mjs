@@ -85,9 +85,9 @@ test('higher-density Temple sheet resolves both inherited fold harmonics without
  assert.ok(geo.parameters.widthSegments>=20);
  assert.ok(boundary.length>100,'all four sheet edges have physical vertices');
  const shader=fall.material.vertexShader;
- assert.match(shader,/uv\\.x\\*29\\./);
- assert.match(shader,/uv\\.x\\*17\\./);
- assert.match(shader,/sideHold\\*endHold\\*folds/);
+ assert.ok(shader.includes('uv.x*29.'),'first high-frequency fold harmonic preserved');
+ assert.ok(shader.includes('uv.x*17.'),'second fold harmonic preserved');
+ assert.ok(shader.includes('sideHold*endHold*folds'),'fixed edges still modulate folds');
  assert.equal(a.water.filter(w=>w.kind==='waterfall').length,1);
  a.tick(1.2,{globalCalm:true,storm:0});
  a.tick(5.6,{globalCalm:true,storm:0});
