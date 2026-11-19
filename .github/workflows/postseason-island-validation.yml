@@ -77,3 +77,5 @@ jobs:
         run: node planning/postseason/build_interview_ii_visual_storyboards.mjs --check
       - name: Check eleven Last Field finale rewrites agree with ceremonial draws
         run: node planning/postseason/build_last_field_finales_interview_ii.mjs --check
+      - name: Reject bad autonomous screenplay outcomes and unauthorized world physics
+        run: node planning/postseason/test_local_model_draft_audit.mjs
