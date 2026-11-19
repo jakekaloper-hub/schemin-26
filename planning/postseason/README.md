@@ -92,3 +92,28 @@ node planning/postseason/site/build_site.mjs --check
 ### Atlas reconciliation hold (read-only)
 
 `ATLAS_LAST_FIELD_SUPERSESSION_PACKET_V1.json` compares the current Central Basin Last Field candidate against the Founder-directed Inner Sea Littoral championship island. It names the six actual spatial and institutional gates and deliberately performs **zero** active World Engine location/route writes. Generate/check: `node planning/postseason/build_atlas_supersession_packet.mjs --check`.
+
+
+## Founder Interview II — 2026-11-19
+
+Founder Interview II supersedes previous fictional challenge assignments without changing verified historical scores, champions or seeds. Primary authority: [decision register](FOUNDER_INTERVIEW_II_DECISION_REGISTER_2026_11_19.md).
+
+**Controlling creative rules:** A source-independent ceremonial draw chooses the challenge; Inklings creates a three-stage personally performed contest for both opposing characters. Physical confrontation can be bruising, frightening and gladiatorial but may not kill a principal. **Every one of the 56 historic contests leaves an enduring material/terrain trace** while dangerous defects are repaired or preserved in a protected archive; the Last Field retains its original foundations and gates. History grows more sophisticated, while Losers' Beach stays a simple seasonal reflection/resort district.
+
+**Actual implemented files:** \`draw_championship_trials.mjs\` and \`HISTORICAL_CEREMONIAL_DRAW_2015_2025.proposal.json\` (56 reproducible retrospective draws); \`build_permanent_impact_ledger.mjs\` (56 persistent venue traces and 11 years of cumulative memory); \`build_owner_body_continuity.mjs\` (112 fictional personal effects); \`build_interview_ii_scene_contracts.mjs\` (168 direct-character stage scripts); \`build_interview_ii_visual_storyboards.mjs\` (672 camera/shot contracts); \`build_last_field_finales_interview_ii.mjs\` (11 revised draw-aligned finale stories). All are candidate fiction, **not proof that the historic ESPN matchups were conducted in those locations**.
+
+**Creative pilot:** \`INKLINGS_2025_LAST_FIELD_SCREENPLAY_PILOT_V1.md\` is a more fully written original 2025 final screenplay using Quarry Ambush and the verified source result. An offline interactive island preview now exposes the draws, old venue traces, solo character actions and camera plan.
+
+**Bounded local autonomy:** \`run_inklings_local_scene_writer.cjs\` calls a local Ollama model through the existing Bullpen-compatible provider; it appends official winners deterministically. \`audit_local_inklings_drafts.mjs\` rejects source-winner contradictions, fake stage scores, undocumented world powers/tech, unsafe historic stadium collapse, and poorly developed prose. Eleven synthetic adversarial tests guard those boundaries. **All four actual generated screenplay pilots in this pass failed advanced QA and remain unreleased.** See [QA receipt](INTERVIEW_II_LOCAL_MODEL_QA_RECEIPT_2026_11_19.md).
+
+To verify Interview II contracts without model/network access:
+
+\`\`\`sh
+node planning/postseason/test_founder_interview_ii.mjs
+node planning/postseason/test_2026_ceremonial_draw_gates.mjs
+node planning/postseason/test_local_model_draft_audit.mjs
+node planning/postseason/run_postseason_island_pipeline.mjs --check
+node planning/postseason/site/build_site.mjs --check
+\`\`\`
+
+These scripts cannot promote the proposed island into \`world/data\`, resolve the previous Central Basin Last Field candidate, validate actual coastline or building loads, install unapproved broadcast tech, or publish the 2026 title result. Canon and independently authorized publication gates remain active.
