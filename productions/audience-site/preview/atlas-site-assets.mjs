@@ -646,10 +646,38 @@ gl_FragColor=vec4(base*vShade,1.);
   return ground;
  }
 
+ // A single, static surface replaces ten coarse band rings on the two existing
+ // barbershop poles. This is candidate signage detail, not a source-history claim.
+ function arsenalBarberPoleHelices(g){
+  const positions=[],colors=[],indices=[],steps=100,radius=.119;
+  for(const x of [-2.2,2.2]){
+   const offset=positions.length/3;
+   for(let i=0;i<=steps;i++){
+    const t=i/steps,angle=-Math.PI/2+Math.PI*10*t,centerY=.435+1.83*t;
+    const px=x+radius*Math.cos(angle),pz=3+radius*Math.sin(angle);
+    for(const y of [centerY-.08,centerY+.08]){
+     positions.push(px,y,pz);
+     const shade=.93+.055*Math.cos(angle+(y-centerY)*3);
+     colors.push(.66*shade,.115*shade,.15*shade);
+    }
+   }
+   for(let i=0;i<steps;i++){
+    const j=offset+i*2;
+    indices.push(j,j+1,j+2,j+1,j+3,j+2);
+   }
+  }
+  const geo=new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+  geo.setIndex(indices);
+  geo.computeVertexNormals();
+  return mesh(g,geo,mat('#ffffff','',{roughness:.86,vertexColors:true,side:THREE.DoubleSide}),0,0,0,'Arsenal barber-pole helical bands · candidate');
+ }
+
  // A definition returns one representative object for each upstream landmark.
  const definitions={
   'LOC-TRADE-JEDI-MOUNTAIN-BASE'(g){const ridge=tradeJediHighRidge(g);for(let i=0;i<3;i++)box(g,0,1.9+i*.27,0,9-i*1.3,.35,6-i*.8,M.stone);const pavilionStart=g.children.length;const view=pavilion(g,0,-.7,5.2,3.4,3.7,M.slate);for(const part of g.children.slice(pavilionStart))part.position.y+=2.1;for(const dx of [-2.6,2.6]){beam(g,[dx,.3,-2.4],[dx,5.8,-2.4],.15,M.stone);flag(g,dx,2.4,-2.5,M.blue);}steps(g,0,4.5,2.7,10,.24);for(const x of [-5,5])conifer(g,x,-2,.8);desk(g,0,2.7,0,3,M.stone);return [ridge,view];},
-  'LOC-ARSENAL-BARBERSHOP'(g){box(g,0,0,0,8,.35,6,M.stone);const shell=hall(g,0,-1,6,3.4,3.2,M.light,M.red);box(g,0,.35,1.2,5.4,2.8,.13,M.timber,'Open shop backdrop');const awning=roof(g,0,2.75,2.05,6.4,2.2,.6,M.red);for(const dx of [-2.6,2.6])cyl(g,dx,.3,2.9,.08,.11,2.45,M.ivory,7);cyl(g,0,.4,1.9,.35,.6,.6,M.black);const chair=box(g,0,1.0,1.9,1.25,.27,1.2,M.red,'Barber chair');box(g,0,1.24,1.45,1.25,1.1,.23,M.red);for(const x of [-.8,.8])box(g,x,1.1,1.9,.14,.5,1.2,M.gold);box(g,0,.72,2.85,.8,.14,.4,M.black);for(const x of [-2.2,2.2]){const pole=cyl(g,x,.35,3,.1,.1,2,M.ivory,8);for(let i=0;i<5;i++)cyl(g,x,.4+i*.35,3,.115,.115,.16,M.red,8);pole.name='Shop stripe';}return [chair,awning];},
+  'LOC-ARSENAL-BARBERSHOP'(g){box(g,0,0,0,8,.35,6,M.stone);const shell=hall(g,0,-1,6,3.4,3.2,M.light,M.red);box(g,0,.35,1.2,5.4,2.8,.13,M.timber,'Open shop backdrop');const awning=roof(g,0,2.75,2.05,6.4,2.2,.6,M.red);for(const dx of [-2.6,2.6])cyl(g,dx,.3,2.9,.08,.11,2.45,M.ivory,7);cyl(g,0,.4,1.9,.35,.6,.6,M.black);const chair=box(g,0,1.0,1.9,1.25,.27,1.2,M.red,'Barber chair');box(g,0,1.24,1.45,1.25,1.1,.23,M.red);for(const x of [-.8,.8])box(g,x,1.1,1.9,.14,.5,1.2,M.gold);box(g,0,.72,2.85,.8,.14,.4,M.black);for(const x of [-2.2,2.2])cyl(g,x,.35,3,.1,.1,2,M.ivory,8,'Shop stripe');arsenalBarberPoleHelices(g);return [chair,awning];},
   'LOC-STORM-BOWL'(g){const field=cyl(g,0,0,0,6.6,6.9,.45,M.sand,36,'Weather-exposed venue');for(let i=0;i<20;i++){const a=i*Math.PI*2/20;if(a>1.1&&a<2.0)continue;const x=Math.cos(a)*6.3,z=Math.sin(a)*6.3;stormBowlSeat(g,x,z,a,i);rock(g,x*1.13,.35,z*1.13,.8,.7,.8,M.dark);}const counter=desk(g,1,.45,7.6,4);pavilion(g,1,7.6,4.6,2.4,2.7,M.blue);for(const x of [-4,4])flag(g,x,.4,-5.4,M.blue);return [field,counter];},
   'LOC-LLC-BOARDROOM'(g){box(g,0,0,0,10,.55,7.5,M.slate);const chamber=hall(g,0,-1.6,8.8,3.6,4.6,M.light,M.slate);for(const x of [-4.2,4.2])cyl(g,x,.55,1.6,.27,.34,3.8,M.stone);const table=desk(g,0,.55,1.45,4.4,M.dark);ledger(g,-1.1,1.85,1.4);ledger(g,.8,1.85,1.4);const ledgers=box(g,-3.6,.55,.4,.7,2.4,1.7,M.timber,'Ledger cabinet');for(let i=0;i<5;i++)box(g,-3.6,1+i*.32,.95,.55,.19,.7,i%2?M.red:M.ivory);const overlook=box(g,0,.65,4.2,10,.2,1.8,M.stone,'Market overlook');for(let i=0;i<9;i++)box(g,-4+i, .85,4.9,.12,.8,.12,M.gold);box(g,0,1.6,4.9,8.3,.1,.1,M.gold);steps(g,0,5.6,3,4,.14);return [chamber,ledgers,overlook];},
   'LOC-RED-RUINS'(g){const terrace=box(g,0,0,0,12,.55,10,M.dark,'Ruined jungle terrace');for(let i=0;i<3;i++)box(g,0,.5+i*.3,-i*.5,11-i*.8,.35,8-i*.7,M.stone);for(const x of [-4,0,4])arch(g,x,1.45,-2.5,1.45,.45,.9);redRuinsArchCreepers(g);for(const [x,z,h]of [[-5,2,2.9],[4.7,2.4,2],[2,-4,4],[-2.7,-4,2.2]]){cyl(g,x,.5,z,.43,.52,h,M.stone,9);rock(g,x+.4,.6,z+.7,.75,.45,.7);}const banners=flag(g,-4.8,.7,3.2,M.red,true);flag(g,4.8,.7,3.2,M.red,true);steps(g,0,5.4,3.5,6,.25);for(const [x,z]of [[-6,-3],[5.8,-3.6],[-5.9,3.8]])tree(g,x,z,1.15);return [terrace,banners];},
