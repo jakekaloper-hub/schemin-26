@@ -122,7 +122,7 @@ The announcers fall silent.
 
 The challenge opens in an enclosed gravel-and-stone simulation. Both contestants must navigate separated but equivalent approaches and claim a protected marker. Dummy rock and breakaway scenery are designed to fall *away* from both competitors.
 
-ObiWan enters quickly, taking the narrower direct path. His shoulder is stiff, but he chooses precision over speed. He places his own hand on the first standard.
+ObiWan Jacoby enters quickly, taking the narrower direct path. His shoulder is stiff, but he chooses precision over speed. He places his own hand on the first standard.
 
 The Immortal refuses the direct route. He moves through a wider sequence of barricades, reading ObiWan's path through the rig's open central space.
 
@@ -156,7 +156,7 @@ The screen briefly shows the former champion's 2024 final gate—but only as arc
 
 The apparatus opens onto a sloped causeway of stone-faced blocks, joined over deep catch nets. The blocks have handholds and protected side rails. The central standard may be captured only after a contestant negotiates the crossing personally.
 
-ObiWan accelerates, avoiding the highest section to spare his shoulder. He pivots at a narrow corner, slips, and catches himself with his free hand. The motion leaves a bruise beneath his protective garment. His hand stays on the rail.
+ObiWan Jacoby accelerates, avoiding the highest section to spare his shoulder. He pivots at a narrow corner, slips, and catches himself with his free hand. The motion leaves a bruise beneath his protective garment. His hand stays on the rail.
 
 The Immortal climbs the more difficult upper route. His palm strains. He pauses—but refuses to call for a substitute.
 
@@ -194,7 +194,7 @@ A set of expendable barricades unlocks from the stage-rig floor. The last standa
 
 The contestants are winded. The Last Field itself is not harmed.
 
-ObiWan moves first. He tries a direct approach around the left rig. A controlled burst of stage smoke obscures the empty space behind him. The audience roars, but the smoke's exit route is clear and away from the protected memorial sightline.
+ObiWan Jacoby moves first. He tries a direct approach around the left rig. A controlled burst of stage smoke obscures the empty space behind him. The audience roars, but the smoke's exit route is clear and away from the protected memorial sightline.
 
 The Immortal steps through the other passage. His sore knee makes his landing awkward. He has to choose between a quick leap and a slower, more secure step.
 
