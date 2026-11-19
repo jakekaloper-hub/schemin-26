@@ -85,6 +85,7 @@ test('Searchable challenges and historic scar registry are present',()=>{
 });
 test('Physical staging controls are fully sourced and require both actor lanes',()=>{
  assert.ok(html.includes('renderStagingPreview'));
+ assert.ok(html.includes('class:'venue-terrain''));
  assert.ok(html.includes('Play all stages'));
  assert.ok(html.includes('aria-pressed'));
  assert.ok(model.spatial.scene_packets.every(p=>p.stage_axes.length===3));

@@ -208,6 +208,27 @@ svg('rect',{x:0,y:0,width:600,height:360,fill:'#172a2c'},s);
 svg('ellipse',{cx:300,cy:180,rx:288,ry:172,fill:'#293630',stroke:'#c6b482','stroke-width':2},s);
 svg('ellipse',{cx:300,cy:180,rx:241,ry:148,fill:'#284a45',stroke:'#65847a','stroke-width':1.5},s);
 svg('ellipse',{cx:300,cy:180,rx:206,ry:126,fill:'#24403e',stroke:'#9cb4a3','stroke-dasharray':'7 9','stroke-width':2},s);
+var terrain=svg('g',{'class':'venue-terrain','data-venue':source.site},s);
+if(source.site==='CAND-POST-IRON-QUARRY'){
+ [180,197,214].forEach(function(rad){svg('path',{d:'M '+(300-rad)+' 170 Q 300 '+(170-rad*.45)+' '+(300+rad)+' 170',fill:'none',stroke:'#bca47b','stroke-opacity':.35,'stroke-width':3},terrain);});
+ svg('path',{d:'M115 275 L153 292 L179 264 M421 264 L453 292 L483 275',fill:'none',stroke:'#bcb0a1','stroke-width':5,'stroke-opacity':.55},terrain);
+}else if(source.site==='CAND-POST-SALTWIND'){
+ for(var w=0;w<8;w++)svg('path',{d:'M '+(117+w*43)+' 120 l 36 -28',fill:'none',stroke:'#b9d5ce','stroke-width':2,'stroke-opacity':.45,'stroke-linecap':'round'},terrain);
+ svg('path',{d:'M95 270 Q160 240 211 267 M393 267 Q460 245 508 270',fill:'none',stroke:'#afbbbc','stroke-width':3},terrain);
+}else if(source.site==='CAND-POST-BREAKWATER'){
+ svg('rect',{x:107,y:117,width:42,height:140,rx:8,fill:'#27616b','fill-opacity':.78},terrain);
+ svg('rect',{x:450,y:117,width:42,height:140,rx:8,fill:'#27616b','fill-opacity':.78},terrain);
+ for(var kx=0;kx<4;kx++){svg('path',{d:'M'+(111+kx*7)+' 132 q 12 12 0 24',stroke:'#78b5ba',fill:'none','stroke-opacity':.45},terrain);}
+}else if(source.site==='CAND-POST-CROWN-STAIR'){
+ for(var sy=96;sy<291;sy+=22)svg('line',{x1:143,y1:sy,x2:457,y2:sy,stroke:'#cab899','stroke-width':6,'stroke-opacity':.26},terrain);
+}else if(source.site==='CAND-POST-GROVE'){
+ [[130,120],[470,120],[112,233],[488,233],[190,288],[414,287]].forEach(function(pos){svg('circle',{cx:pos[0],cy:pos[1],r:13,fill:'#355b48',stroke:'#739575','stroke-width':2},terrain);svg('circle',{cx:pos[0],cy:pos[1],r:4,fill:'#a0b47c'},terrain);});
+}else if(source.site==='CAND-POST-LAST-FIELD'){
+ svg('path',{d:'M121 148 h35 v69 h-35 z M444 148 h35 v69 h-35 z',stroke:'#cfb889',fill:'#625e4a','stroke-width':3},terrain);
+ svg('ellipse',{cx:300,cy:183,rx:180,ry:104,fill:'none',stroke:'#e7ca89','stroke-width':3,'stroke-opacity':.6},terrain);
+ svg('text',{x:300,y:62,fill:'#e0c997','text-anchor':'middle','font-size':10,'letter-spacing':2},terrain).textContent='ORIGINAL CHAMPIONSHIP GATES';
+}
+
 for(var k=0;k<3;k++){
  var y=102+k*79;
  svg('line',{x1:105,y1:y,x2:496,y2:y,stroke:'#b0ba9a','stroke-opacity':.32,'stroke-dasharray':'4 8'},s);
