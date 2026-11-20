@@ -31,6 +31,7 @@ jobs:
           python governance/execution-control/pr_reconciliation.py --output /tmp/operational-pr-inventory.json
           echo '## Operational PR inventory (metadata-only; no merge certification)' >> "$GITHUB_STEP_SUMMARY"
           python -c "import json; d=json.load(open('/tmp/operational-pr-inventory.json')); print('\n'.join(f'- {k}: {v}' for k,v in d['counts'].items()))" >> "$GITHUB_STEP_SUMMARY"
+          python -c "import json; b=json.load(open('/tmp/operational-pr-inventory.json'))['branch_visibility']; print('- Remote branch refs: {}'.format(b['branch_count'])); print('- Refs not heads/bases of open PRs: {}'.format(b['without_open_pr_head_or_base_count'])); print('- Untracked refs are not proof of unique unmerged commits or readiness')" >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         with:
           name: operational-pr-inventory
