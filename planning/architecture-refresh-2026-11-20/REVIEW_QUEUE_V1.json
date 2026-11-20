@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0.0",
+  "issue": "https://github.com/jakekaloper-hub/schemin-26/issues/340",
+  "purpose": "Derived assignment docket only; independent model workers, test results and human consultations not yet executed.",
+  "phase_two_interpretation": "Review the existing Staff maturity/adapter lifecycle; no additional Director hierarchy or recursive Staff dispatch presumed.",
+  "directors": [
+    {
+      "id": "the_closer",
+      "focus": "Reconcile the cross-OS findings, preserve gate order, resolve competing owners",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_setup_man",
+      "focus": "Durable job execution, adapters, workflows, CI, branch protection",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_scout",
+      "focus": "Source/ESPN freshness, analytics/provenance and data contract migration",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_umpire",
+      "focus": "Independently challenge every completion and release assertion",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_beat_writer",
+      "focus": "Weekly Memo/Novel continuity, narrative fact/fiction boundary",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_groundskeeper",
+      "focus": "Plans, phases, queues, operations and lifecycle cleanup",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_gm",
+      "focus": "Viewer requirements, user outcomes, acceptance and UX",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_pitching_coach",
+      "focus": "Agent/model/skills compatibility and evaluation",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_warden",
+      "focus": "Security, secrets, least privilege and vendor dependency risk",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_commissioner",
+      "focus": "League-facing usability, commissioner/member rights and accuracy",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_analyst",
+      "focus": "Coverage metrics, regression designs and health evidence",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_librarian",
+      "focus": "Path inventory, institutional memory, evidence/version/source index",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_agent",
+      "focus": "Distribution and discoverability only after approved publication",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_bookkeeper",
+      "focus": "Zero incremental spend and tool budget",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_commissioner_general",
+      "focus": "Licensing, attribution, privacy and obligations for repo reuse",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_clubhouse_manager",
+      "focus": "46 Staff lifecycle/passport and Phase Two boundaries",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_scout_master",
+      "focus": "Potential partner/capability-source usefulness without unapproved integrations",
+      "participation": "ASSIGNED_NOT_RUN"
+    },
+    {
+      "id": "the_architect",
+      "focus": "Subsystem architecture, stable IDs, state machine and tests",
+      "participation": "ASSIGNED_NOT_RUN"
+    }
+  ],
+  "domain_workstreams": [
+    {
+      "path": ".github",
+      "priority": "P0",
+      "lead": "the_setup_man",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "CI, branch protection, workflow run provenance, deployment preview",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "archive",
+      "priority": "P2",
+      "lead": "the_librarian",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "archival links, supersession isolation, version lookup",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "bullpen",
+      "priority": "P1",
+      "lead": "the_closer",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "cross-project handoff evidence, review vs real worker action",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "bullpen-runtime",
+      "priority": "P0",
+      "lead": "the_setup_man",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "worker/artifact adapters, role routing, fail-closed job gates",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "canon",
+      "priority": "P0",
+      "lead": "the_umpire",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "12 principal identities, source byte/hash binding, rendering C1/T15/T16",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "chronicles",
+      "priority": "P2",
+      "lead": "the_beat_writer",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "historical origin, immutable publication, not current authority",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "data",
+      "priority": "P1",
+      "lead": "the_scout",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "snapshot status, source freshness, evidence/provenance",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "data-gateway",
+      "priority": "P0",
+      "lead": "the_scout",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "ESPN 1417621 source/freshness, Monte Carlo walk-forward gating, adapters",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "docs",
+      "priority": "P2",
+      "lead": "the_librarian",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "entrypoints, authority and version drift",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "governance",
+      "priority": "P0",
+      "lead": "the_umpire",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "cross-OS contracts, execution task registry, independent release gates",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "living-novel",
+      "priority": "P1",
+      "lead": "the_beat_writer",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "12-POV history, causal continuity, author council, reader experience",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "memo-os",
+      "priority": "P1",
+      "lead": "the_beat_writer",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "V5.5 vs V5.6, issue truth, 12-member production and copy QA",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "mercer",
+      "priority": "P1",
+      "lead": "the_analyst",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "front-office isolation, pick ownership, current roster projections",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "planning",
+      "priority": "P1",
+      "lead": "the_groundskeeper",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "draft program retention, PR dependencies, task reconciliation",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "productions",
+      "priority": "P1",
+      "lead": "the_gm",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "observer site, spatial candidate artwork, mobile/3D hardware readiness",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "prompts",
+      "priority": "P2",
+      "lead": "the_pitching_coach",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "prompt versions, command compilation, safety and truth",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "schemas",
+      "priority": "P1",
+      "lead": "the_architect",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "contract evolution, validation, negative cases",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "skills",
+      "priority": "P1",
+      "lead": "the_pitching_coach",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "skills implemented vs registered and callable, host portability",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "tests",
+      "priority": "P1",
+      "lead": "the_architect",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "test coverage by minor component, CI exact-head evidence",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    },
+    {
+      "path": "world",
+      "priority": "P0",
+      "lead": "the_architect",
+      "staff_route": "Bullpen canonical staff assignments selected by Director; no staff autonomous call asserted",
+      "reviewer": "the_umpire",
+      "focus": "World Engine 1.1 / Universe 1.2 / Atlas V2, World Evolution chronology, routes",
+      "stage": "QUEUED",
+      "complete": false,
+      "proof_required": [
+        "current source and version",
+        "all child-folder dispositions",
+        "runtime or content evidence",
+        "negative tests where executable",
+        "security/cost/source boundaries",
+        "independent Umpire",
+        "release/canon owner gates"
+      ]
+    }
+  ],
+  "consultant_lenses": [
+    {
+      "id": "jeff_lunsford",
+      "perspective": "product/business",
+      "mode": "MODELED_PUBLISHED_METHOD_NOT_HUMAN"
+    },
+    {
+      "id": "john_ezzell",
+      "perspective": "enterprise integration and migration",
+      "mode": "MODELED_PUBLISHED_METHOD_NOT_HUMAN"
+    },
+    {
+      "id": "tim_veil",
+      "perspective": "engineering benchmarks and test viability",
+      "mode": "MODELED_PUBLISHED_METHOD_NOT_HUMAN"
+    }
+  ]
+}
