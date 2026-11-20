@@ -92,3 +92,7 @@ The owning Directors/independent Umpire must:
 - Active-world total still 23; existing legacy candidates still 48; new candidate registrations still 40, of which four island overlap suspects are held as duplicates. Editorial review covers 111 existing/new standard LOC/CAND dossiers **plus** 44 proposed Island handles (155 IDs/handles; distinct registries and authority classes).
 - Source metadata discrepancy: Island `edge_count=41` while observed edge list =45. No invented route ID or metric coordinate has been written into `world/data/routes.json`.
 - The 2026 island finale, 2026 contestants, real-person multi-decade ownership, Farrell memorial date and Last Field legal migration remain unknown or unapproved.
+
+## Post-summit source correction (2026-11-20)
+
+The original 41-vs-45 Island edge-count warning above is historical. The latest draft Playoff Island PR #322 corrected the metadata to **45 declared / 45 actual** and strengthened its source tests. The cross-Atlas branch pinned that exact 23-node/45-edge graph and passed a source/inspector consistency validator plus 15 adversarial circulation tests on the connected Mac. This resolves only the source bookkeeping discrepancy. Island coastline, causeway, Last Field supersession, human-owner continuity, and public/canon release are still held.
