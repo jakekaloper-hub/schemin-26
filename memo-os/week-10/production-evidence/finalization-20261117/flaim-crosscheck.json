@@ -1,0 +1,87 @@
+{
+  "captured_at_utc": "2026-11-17T16:30:05.606450+00:00",
+  "kind": "Normalized observation readback, not raw connector bytes",
+  "scores": {
+    "7": 93.7,
+    "5": 156.67,
+    "2": 147.82,
+    "9": 189.08,
+    "6": 82.78,
+    "11": 146.22,
+    "10": 113.62,
+    "3": 179.29,
+    "12": 127.67,
+    "8": 208.76,
+    "1": 166.53,
+    "4": 203.96
+  },
+  "provider_winners": [
+    "AWAY",
+    "AWAY",
+    "AWAY",
+    "AWAY",
+    "AWAY",
+    "AWAY"
+  ],
+  "official_seed_order": [
+    3,
+    9,
+    5,
+    8,
+    12,
+    11,
+    2,
+    7,
+    4,
+    1,
+    6,
+    10
+  ],
+  "points_for": {
+    "3": 1599.99,
+    "9": 1450.03,
+    "5": 1411.82,
+    "8": 1451.95,
+    "12": 1452.15,
+    "11": 1356.62,
+    "2": 1404.51,
+    "7": 1384.79,
+    "4": 1449.25,
+    "1": 1384.51,
+    "6": 1279.46,
+    "10": 1181.35
+  },
+  "week11_pairs": [
+    [
+      3,
+      9
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      12,
+      4
+    ]
+  ],
+  "transaction_counts": {
+    "complete": 29,
+    "failed": 7,
+    "pending": 3,
+    "canceled": 2
+  },
+  "corroboration": "All asserted observations match captured ESPN payloads; transaction counts separately match fresh Flaim week10/count100 response."
+}

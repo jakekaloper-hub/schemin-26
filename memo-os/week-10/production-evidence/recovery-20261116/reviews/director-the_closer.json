@@ -1,0 +1,46 @@
+{
+  "kind": "director",
+  "id": "the_closer",
+  "name": "The Closer",
+  "domain": "synthesis",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:09:22.837Z",
+  "finished_at": "2026-11-16T20:09:58.264Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which depicts the Opening Drive briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose.\",\n      \"required_fix\": \"Change the page title to 'OPENING DRIVE' to match the visual content.\"\n    },\n    {\n      \"page_ids\": [\"W10-P09\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'The Place That Answered Once' does not match the visual content, which depicts the Forgotten Court with a RIGHT-WALL mounted backboard, red ivy, worn hard court, ruin/waterfall skyline.\",\n      \"required_fix\": \"Change the page title to 'FORGOTTEN COURT' to match the visual content.\"\n    },\n    {\n      \"page_ids\": [\"W10-P17\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'Cancún Is Calling' does not match the visual content, which depicts the Mud Dogs vs Slob on my Dobb scenario.\",\n      \"required_fix\": \"Change the page title to 'MUD DOGS VS SLOB ON MY DOBB' to match the visual content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P02"
+        ],
+        "severity": "major",
+        "observation": "The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which depicts the Opening Drive briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose.",
+        "required_fix": "Change the page title to 'OPENING DRIVE' to match the visual content."
+      },
+      {
+        "page_ids": [
+          "W10-P09"
+        ],
+        "severity": "major",
+        "observation": "The page title 'The Place That Answered Once' does not match the visual content, which depicts the Forgotten Court with a RIGHT-WALL mounted backboard, red ivy, worn hard court, ruin/waterfall skyline.",
+        "required_fix": "Change the page title to 'FORGOTTEN COURT' to match the visual content."
+      },
+      {
+        "page_ids": [
+          "W10-P17"
+        ],
+        "severity": "major",
+        "observation": "The page title 'Cancún Is Calling' does not match the visual content, which depicts the Mud Dogs vs Slob on my Dobb scenario.",
+        "required_fix": "Change the page title to 'MUD DOGS VS SLOB ON MY DOBB' to match the visual content."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

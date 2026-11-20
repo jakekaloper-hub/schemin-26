@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_warden",
+  "name": "The Warden",
+  "domain": "security",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:13:11.739Z",
+  "finished_at": "2026-11-16T20:13:31.820Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P13\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'He Heard You' includes a reference to 'Seven Deadly Chins' which is not a canonical identity in the provided list of identities.\",\n      \"required_fix\": \"Replace 'Seven Deadly Chins' with a canonical identity from the provided list.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 3,
+  "actual_input_sha256": "2ce0f89810fb57f4c779a57d6ba45f1d76f6f74830d747d5f7c39ee402c442e8",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P13"
+        ],
+        "severity": "major",
+        "observation": "The copy for 'He Heard You' includes a reference to 'Seven Deadly Chins' which is not a canonical identity in the provided list of identities.",
+        "required_fix": "Replace 'Seven Deadly Chins' with a canonical identity from the provided list."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

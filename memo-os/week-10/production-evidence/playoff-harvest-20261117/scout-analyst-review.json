@@ -1,0 +1,121 @@
+{
+  "schema_version": "schemin.playoff_domain_review_public_receipt.v1",
+  "review_id": "week10_scout_analyst_review_2026-11-17",
+  "receipt_kind": "COMPACT_PUBLIC_REVIEW_RECEIPT",
+  "created_at_utc": "2026-11-17T17:39:53.080348+00:00",
+  "original_review": {
+    "filename": "scout_analyst_review.json",
+    "sha256": "31ab8cbea7e38fde766a924bfe550e6806fe02af1207593be28dedf6f1a34873",
+    "storage": "Protected review artifact outside public repository"
+  },
+  "reviewed_full_source": {
+    "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+    "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "storage": "Protected artifact outside public repository",
+    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source."
+  },
+  "league_id": 1417621,
+  "season": 2026,
+  "through_week": 10,
+  "source_snapshots": {
+    "canonical_memo_facts": {
+      "source_ref": "S-CANONICAL-FACTS",
+      "captured_at_utc": "2026-11-17T16:30:05.606450+00:00",
+      "scope": "W10_FINAL"
+    },
+    "espn_harvest": {
+      "source_ref": "S-ESPN-HARVEST",
+      "as_of_utc": "2026-11-17T16:59:00Z",
+      "as_of_local": "2026-11-17 11:59 a.m. EST",
+      "scope": "FINAL_THROUGH_WEEK10; WEEK11_UNDECIDED"
+    },
+    "vendor_harvest": {
+      "source_ref": "S-HARVEST",
+      "session_completed_at_utc": "2026-11-17T17:09:28.361Z",
+      "session_completed_local": "2026-11-17 12:09:28 p.m. EST",
+      "scope": "HYPOTHETICAL_W11_TO_W14"
+    }
+  },
+  "performed_by": "Executed bounded host-agent Scout/Analyst review; no external Director acknowledgement or real-person approval is claimed.",
+  "overall_disposition": "ACCEPT_CANDIDATES_WITH_REQUIRED_QUALIFIERS_AND_SOURCE_FIXES; independent Umpire and Memo gates remain pending.",
+  "validation_summary": {
+    "original_domain_witness_replay_count": 60,
+    "original_domain_qualification_mismatches": 0,
+    "finalized_standings_reconciled": 12,
+    "vendor_captures_checked": 20,
+    "hypothetical_scenarios": 18,
+    "baseline_captures": 2,
+    "subsequent_integrated_witness_entries_replayed": 61,
+    "subsequent_integrated_qualification_set_mismatches": 0,
+    "subsequent_review_authority": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json"
+  },
+  "claim_dispositions": {
+    "all_12_alive_none_clinched": {
+      "classification": "EXACT_EXISTENCE_WITNESSES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "Existence witnesses are valid tie-free completions even when the wider possibility space permits ties. Do not expand this to a forecast or a Week 11 clinching statement."
+    },
+    "mud_only_w11_loss_eliminates": {
+      "classification": "EXACT_RECORD_PROOF_AND_EXISTENCE_COUNTEREXAMPLES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "The loss-elimination counting proof remains valid with future ties. The different statement that Mud must win all four is accepted only for the no-future-ties scenario scope."
+    },
+    "nine_wins_sufficient": {
+      "classification": "EXACT_ENUMERATION_CONDITIONAL",
+      "disposition": "QUALIFY_NO_FUTURE_TIES",
+      "proof_scope": "Future tied games were not enumerated. Preserve this condition unless independent review extends the proof."
+    },
+    "eight_wins_can_miss": {
+      "classification": "EXACT_COUNTEREXAMPLES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "These tie-free counterexamples remain valid existence claims when ties are possible."
+    },
+    "dk_two_named_wins_clinch_burgers": {
+      "classification": "EXACT_RECORD_BOUND",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "Future ties elsewhere cannot raise those opponents above the stated maxima. The two named DK outcomes must be wins."
+    },
+    "obi_winout_plus_extra_dk_loss": {
+      "classification": "EXACT_HEAD_TO_HEAD_ROUTE",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "The named wins and additional DK loss are required. Future ties in other games do not weaken this sufficient route."
+    },
+    "red_winout_wings_title": {
+      "classification": "EXACT_HEAD_TO_HEAD_ROUTE",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "Red must win all four. Future ties elsewhere do not invalidate this sufficient route."
+    },
+    "mud_division_and_wildcard_paths": {
+      "classification": "EXACT_EXISTENCE_WITNESSES",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "Subject to accepted rules, source finality and independent proof/copy acceptance."
+    },
+    "vendor_w11_estimates": {
+      "classification": "PROBABILISTIC_VENDOR",
+      "disposition": "ACCEPT_AS_ATTRIBUTED_DATED_ESTIMATES",
+      "proof_scope": "Subject to accepted rules, source finality and independent proof/copy acceptance."
+    },
+    "vendor_100_is_not_clinch": {
+      "classification": "EXACT_COUNTEREXAMPLE_VERSUS_VENDOR_ESTIMATE",
+      "disposition": "ACCEPT_WITH_RULE_ASSUMPTIONS",
+      "proof_scope": "Subject to accepted rules, source finality and independent proof/copy acceptance."
+    }
+  },
+  "scope_corrections": [
+    "Any further Mud loss eliminates; a required 4–0 finish must retain no-future-ties scope.",
+    "Nine-win public wording conservatively retains no-future-ties scope.",
+    "A valid LLC 8–6 miss counterexample is retained; the unsuccessful search trial is omitted.",
+    "ESPN source cutoff and vendor capture time are separate.",
+    "Run 1 is the selected baseline; restored baseline changes are sampling variation.",
+    "League-specific structure uses accepted league evidence; the platform help page supplies default tiebreak semantics only."
+  ],
+  "selected_pages": [
+    "W10-P28",
+    "W10-P30",
+    "W10-P31"
+  ],
+  "acceptance_boundary": "Vendor estimates and independently verified exact claims use the FFHUB_INTAKE_CONTRACT and native Memo source/proof path. They are not released or relabeled by the descriptive-only playoff_context_adapter.",
+  "production_acceptance_pointer": "../production-evidence/playoff-harvest-20261117/umpire-final-review.json",
+  "artwork_generation_allowed": false,
+  "publication_approved": false
+}

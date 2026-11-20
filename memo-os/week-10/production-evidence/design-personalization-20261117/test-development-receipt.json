@@ -1,0 +1,7 @@
+{
+  "initial_expected_failures": "Missing per-page composition and personalization workspace, original P22 name-substitution defect, and missing active-pointer header.",
+  "implementation_failure": "The first reconciler run tried to copy composition into omitted optional P32 through the legacy departments loop; an included-order guard preserves P32 untouched.",
+  "additional_test_correction": "Storycard beats use ordered matchup membership, not a page_id field. The added mirror test was changed to use the actual existing schema.",
+  "final_tests": "tests-after.txt",
+  "final_scope": "34 local tests; no rendered-page acceptance"
+}

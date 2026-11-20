@@ -1,0 +1,87 @@
+test_all_manifest_hashes_match_current_requests (test_final_results.FinalResults.test_all_manifest_hashes_match_current_requests) ... ok
+test_all_six_official_winners_and_final_scores (test_final_results.FinalResults.test_all_six_official_winners_and_final_scores) ... FAIL
+test_distinct_final_and_current_roster_snapshots (test_final_results.FinalResults.test_distinct_final_and_current_roster_snapshots) ... ERROR
+test_every_request_declares_final_week10_not_final_week11 (test_final_results.FinalResults.test_every_request_declares_final_week10_not_final_week11) ... FAIL
+test_no_outdated_pending_claims_in_reader_copy (test_final_results.FinalResults.test_no_outdated_pending_claims_in_reader_copy) ... FAIL
+test_official_records_and_seeds_through_ten (test_final_results.FinalResults.test_official_records_and_seeds_through_ten) ... FAIL
+test_scoreboard_and_six_finale_receipts (test_final_results.FinalResults.test_scoreboard_and_six_finale_receipts) ... FAIL
+test_scoring_form_uses_final_pf_once (test_final_results.FinalResults.test_scoring_form_uses_final_pf_once) ... FAIL
+
+======================================================================
+ERROR: test_distinct_final_and_current_roster_snapshots (test_final_results.FinalResults.test_distinct_final_and_current_roster_snapshots)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 41, in test_distinct_final_and_current_roster_snapshots
+    x=load('final-league-snapshot.json');self.assertEqual(x['week10_roster_entry_count'],224);self.assertEqual(x['current_roster_entry_count'],222)
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 7, in load
+    def load(n):return json.loads((P/n).read_text())
+                                  ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/final-league-snapshot.json'
+
+======================================================================
+FAIL: test_all_six_official_winners_and_final_scores (test_final_results.FinalResults.test_all_six_official_winners_and_final_scores)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 13, in test_all_six_official_winners_and_final_scores
+    self.assertEqual(g['provider_winner'],'AWAY');self.assertEqual(g['final_winner'],g['away']);self.assertEqual(g['scope'],'W10_FINAL')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'UNDECIDED' != 'AWAY'
+- UNDECIDED
++ AWAY
+
+
+======================================================================
+FAIL: test_every_request_declares_final_week10_not_final_week11 (test_final_results.FinalResults.test_every_request_declares_final_week10_not_final_week11)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 31, in test_every_request_declares_final_week10_not_final_week11
+    self.assertTrue(q['sports_policy']['official_winner_decided'],pid)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : W10-P01
+
+======================================================================
+FAIL: test_no_outdated_pending_claims_in_reader_copy (test_final_results.FinalResults.test_no_outdated_pending_claims_in_reader_copy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 27, in test_no_outdated_pending_claims_in_reader_copy
+    for s in banned:self.assertNotIn(s.lower(),body,pid+': '+s)
+                    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'the the llc' unexpectedly found in '{"headline": "the ceiling breaks", "deck": "week 10 • two scores beyond 200", "body": "his majesty’s blood reaches 208.76. the llc reaches 203.96. the commonwealth’s first two 200-point scores of this season arrive beneath a sky growing harder to ignore.", "callouts": [{"label": "his majesty’s blood", "value": "208.76 · current"}, {"label": "the the llc", "value": "203.96 · current"}], "rows": [], "department_heading": "schemin ’26 · week 10"}' : W10-P01: THE The LLC
+
+======================================================================
+FAIL: test_official_records_and_seeds_through_ten (test_final_results.FinalResults.test_official_records_and_seeds_through_ten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 17, in test_official_records_and_seeds_through_ten
+    r=t['post_week10_official_record'];self.assertIsNotNone(r);self.assertEqual(r['w']+r['l']+r['t'],10);self.assertIsNotNone(t['post_week10_official_seed'])
+                                       ~~~~~~~~~~~~~~~~~~~~^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_scoreboard_and_six_finale_receipts (test_final_results.FinalResults.test_scoreboard_and_six_finale_receipts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 20, in test_scoreboard_and_six_finale_receipts
+    self.assertTrue(all(r['status']=='FINAL' for r in self.pages['W10-P04']['draft_copy']['rows']))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_scoring_form_uses_final_pf_once (test_final_results.FinalResults.test_scoring_form_uses_final_pf_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 36, in test_scoring_form_uses_final_pf_once
+    rows=self.f.get('scoring_form',{}).get('rows',[]);self.assertEqual(len(rows),12)
+                                                      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0 != 12
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.102s
+
+FAILED (failures=6, errors=1)

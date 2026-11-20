@@ -1,0 +1,43 @@
+{
+  "schema_version": "schemin.week10_harvest_execution.v1",
+  "completed_at_utc": "2026-11-17T17:46:10.917475+00:00",
+  "scope": "EXISTING_WEEK10_PREPRODUCTION_PLAYOFF_INTEGRATION",
+  "status": "COMPLETE_INDEPENDENTLY_REVIEWED",
+  "owning_pull_request": "https://github.com/jakekaloper-hub/schemin-26/pull/315",
+  "bullpen_mission": "https://github.com/jakekaloper-hub/bullpen/issues/154",
+  "baseline_commit": "0343047b23b37a814340cafbcc7f830ebfe91919",
+  "selected_pages": [
+    "W10-P28",
+    "W10-P30",
+    "W10-P31"
+  ],
+  "source_receipt_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+  "copy_plan_sha256": "f5926c4d8eea61b1b296e7422251860d9b7370115343037d136dcddd074b3585",
+  "consumption_sha256": "85a5e4bdef9b455051321dde22df5c1d552c3dbbf8a3d9b599dd3da430b7d87f",
+  "review_sha256": {
+    "scout-analyst-review.json": "359603cb8ca614fb1182fb63e34bfc9a733d29e2b75e364f04dbcd46ae31446d",
+    "memo-editorial-review.json": "e0980abbe830d0ef00f8b2cde6c991a12772819d61797bb64472af87201b5fae",
+    "umpire-final-review.json": "34df8149a676dc4e90c64993170fe5ea52383873d8fb0a54bc12e968bd2d45db"
+  },
+  "validation": {
+    "tests_passed": 49,
+    "test_output_sha256": "3a791efec15c724a9454b7852c5081e00f7e4a94e5b06a878434ebf7053b4fc4",
+    "witness_entries_replayed": 61,
+    "qualifier_mismatches": 0,
+    "vendor_captures_reviewed": 20,
+    "team_povs_reviewed": 12,
+    "reference_assets_verified": 52,
+    "unselected_requests_unchanged": 31,
+    "all_scenes_and_design_preserved": 34,
+    "diff_check": "PASS"
+  },
+  "production_gate": {
+    "backend_source_ready": true,
+    "image_generation_authorized": false,
+    "image_generation_executed": false,
+    "publication_approved": false
+  },
+  "authority": "Bullpen domain leadership; executed host-agent reviews and root implementation. No external human approval claimed.",
+  "publication_parent_commit": "3d80fc2a5944e45e1c250b1f42f0130f3f04ba20",
+  "concurrency_resolution": "Preserved the later design-review documentation and added regression by rebasing cleanly. Its source, copy and render artifacts are identical to the reviewed baseline."
+}

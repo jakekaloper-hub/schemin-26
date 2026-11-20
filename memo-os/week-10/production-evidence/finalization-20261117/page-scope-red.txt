@@ -1,0 +1,15 @@
+test_render_prompts_are_page_scoped_not_whole_roster_dumps (test_final_results.FinalResults.test_render_prompts_are_page_scoped_not_whole_roster_dumps) ... FAIL
+
+======================================================================
+FAIL: test_render_prompts_are_page_scoped_not_whole_roster_dumps (test_final_results.FinalResults.test_render_prompts_are_page_scoped_not_whole_roster_dumps)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_final_results.py", line 75, in test_render_prompts_are_page_scoped_not_whole_roster_dumps
+    self.assertTrue(all('snapshot_value' not in x for x in request['sports_policy']['refresh_fields']),pid)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : W10-P01
+
+----------------------------------------------------------------------
+Ran 1 test in 0.032s
+
+FAILED (failures=1)

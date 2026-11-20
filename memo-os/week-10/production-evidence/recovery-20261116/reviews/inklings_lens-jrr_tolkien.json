@@ -1,0 +1,33 @@
+{
+  "kind": "inklings_lens",
+  "id": "jrr_tolkien",
+  "name": "J.R.R. Tolkien — Secondary World, Mythic Depth & Historical Texture",
+  "domain": "J.R.R. Tolkien published-method/scholarship lens",
+  "dossier": "living-novel/consultants/author-council/advisors/JRR_TOLKIEN_CONSULTANT_DOSSIER_V1.md",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:16:41.856Z",
+  "finished_at": "2026-11-16T20:17:00.859Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The scorelines on page W10-P04 are inconsistent with the actual scores provided in the deep_page_sample. The scores on the page do not match the scores in the deep_page_sample, which could lead to confusion and misinformation.\",\n      \"required_fix\": \"Update the scorelines on page W10-P04 to match the scores provided in the deep_page_sample.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 1,
+  "actual_input_sha256": "119cad320e6123eb2ed3a791412167f58ef24c700af1e113166ec6075218f176",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P04"
+        ],
+        "severity": "major",
+        "observation": "The scorelines on page W10-P04 are inconsistent with the actual scores provided in the deep_page_sample. The scores on the page do not match the scores in the deep_page_sample, which could lead to confusion and misinformation.",
+        "required_fix": "Update the scorelines on page W10-P04 to match the scores provided in the deep_page_sample."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

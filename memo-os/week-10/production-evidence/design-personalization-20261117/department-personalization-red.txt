@@ -1,0 +1,182 @@
+test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) ... 
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P01') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P02') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P03') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P04') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P11') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P18') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P34') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P25') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P26') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P27') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P28') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P29') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P30') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P31') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P35') ... FAIL
+  test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P33') ... FAIL
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P01')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P01', 'focus': 'Make the two 200-point per[512 chars]nt.'}
+Diff is 1603 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P02')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P02', 'focus': 'Let the opening connect th[518 chars]nt.'}
+Diff is 1608 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P03')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P03', 'focus': 'Address the league as peop[501 chars]nt.'}
+Diff is 1663 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P04')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P04', 'focus': 'Make the six exact results[442 chars]nt.'}
+Diff is 1648 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P11')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P11', 'focus': 'Give the audience a breath[478 chars]nt.'}
+Diff is 1546 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P18')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P18', 'focus': 'Explain which managers ben[504 chars]nt.'}
+Diff is 1715 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P34')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P34', 'focus': 'Make consequences useful t[490 chars]nt.'}
+Diff is 1701 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P25')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves [623 chars]ts.'} != {'page_id': 'W10-P25', 'focus': 'Present practical preparati[482 chars]nt.'}
+Diff is 1645 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P26')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves [623 chars]ts.'} != {'page_id': 'W10-P26', 'focus': 'Let the actual transaction [493 chars]nt.'}
+Diff is 1766 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P27')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves [623 chars]ts.'} != {'page_id': 'W10-P27', 'focus': 'Show why equal records stil[465 chars]nt.'}
+Diff is 1713 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P28')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves [623 chars]ts.'} != {'page_id': 'W10-P28', 'focus': 'Make the three division sit[446 chars]nt.'}
+Diff is 1722 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P29')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves [623 chars]ts.'} != {'page_id': 'W10-P29', 'focus': 'Explain scoring form as a d[452 chars]nt.'}
+Diff is 1611 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P30')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P30', 'focus': 'Make remaining possibility[481 chars]nt.'}
+Diff is 1572 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P31')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P31', 'focus': 'Answer why every Week 11 f[528 chars]nt.'}
+Diff is 1738 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P35')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P35', 'focus': 'Turn the two contenders’ k[521 chars]nt.'}
+Diff is 1612 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_personalization_does_not_leak_between_director_and_department_pages (test_composition_personalization.CompositionPersonalization.test_personalization_does_not_leak_between_director_and_department_pages) (page='W10-P33')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_composition_personalization.py", line 82, in test_personalization_does_not_leak_between_director_and_department_pages
+    self.assertEqual(entry['personalization_direction'],self.pages[entry['page_id']]['personalization_direction'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'page_id': 'W10-P24', 'focus': 'Holding the arch preserves[624 chars]ts.'} != {'page_id': 'W10-P33', 'focus': 'End on the delivery winner[508 chars]nt.'}
+Diff is 1584 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.063s
+
+FAILED (failures=16)

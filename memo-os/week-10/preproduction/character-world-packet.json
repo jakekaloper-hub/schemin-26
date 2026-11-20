@@ -1,0 +1,1517 @@
+{
+  "title": "Week 10 preproduction character and travel reference packet",
+  "as_of": "2026-11-16",
+  "repository_commit": "a24656366b73d1ef8ec98cf405d2337194bd2b97",
+  "scope": "Draft preproduction; all12 crop bytes and SHA256 checked, root visually reviewed contact sheet; Chili Oct22 original screenshot independently recovered and viewed. No new render or renderer attachment performed.",
+  "characters": [
+    {
+      "character_id": "CHAR-JAKE-KALOPER",
+      "owner": "Jake Kaloper",
+      "current_display_name": "ObiWan Jacoby",
+      "home_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "sha256_declared": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+        "git_blob_sha": "84d48cd52be96f2fd5f4f58e0cecad1a3d70c496",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-JAKE-KALOPER.png",
+          "sha256_actual": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            405
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-JAKE-KALOPER/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+        "head_face": "Light hair, human face, serious gaze",
+        "silhouette": "Upright human with cloak, luminous green sword and adjacent golden retriever",
+        "palette": [
+          "olive",
+          "brown",
+          "green blade glow",
+          "golden fur"
+        ],
+        "recognizable_props": [
+          "green energy sword",
+          "golden retriever companion"
+        ],
+        "negative_rules": [
+          "championship belt",
+          "changing golden retriever into mount",
+          "changing blade away from green"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+        "historical_primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "bytes": 320465,
+          "dimensions": [
+            362,
+            405
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-JAKE-KALOPER",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-WILSON-LOOK",
+      "owner": "Wilson Look",
+      "current_display_name": "D0nkey K0ng",
+      "home_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "sha256_declared": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+        "git_blob_sha": "ca4ff2796530d72a02a714528262d640414e7225",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-WILSON-LOOK",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-WILSON-LOOK.png",
+          "sha256_actual": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            405
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        },
+        "coverage_limit": "The approved crop does not expose every lower limb. Four-legged integrated anatomy comes from the active character packet; full-body generation and independent output QA remain necessary."
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+        "head_face": "Black-furred roaring gorilla",
+        "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+        "palette": [
+          "black fur",
+          "red armor cloth",
+          "antique gold",
+          "dark equine coat"
+        ],
+        "recognizable_props": [
+          "large war axe",
+          "red-and-gold cannon heraldry"
+        ],
+        "negative_rules": [
+          "bipedal-only gorilla",
+          "gorilla rider on separate horse",
+          "human torso",
+          "missing lower pair of legs"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+        "historical_primary_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "bytes": 336378,
+          "dimensions": [
+            362,
+            405
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-WILSON-LOOK",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "owner": "Phillip Pitts",
+      "current_display_name": "Three Dreaded Snake",
+      "home_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "sha256_declared": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+        "git_blob_sha": "214366eb2a7152d9241d9fa414c3d79e4aa3c7d0",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-PHILLIP-PITTS.png",
+          "sha256_actual": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            405
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-PHILLIP-PITTS/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+        "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+        "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+        "palette": [
+          "bronze scales",
+          "moss green",
+          "dark leather"
+        ],
+        "recognizable_props": [
+          "blade weapons",
+          "layered leather/metal armor"
+        ],
+        "negative_rules": [
+          "single-headed snake",
+          "three separate creatures",
+          "restoring long pre-haircut dreads"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+        "historical_primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "bytes": 331140,
+          "dimensions": [
+            362,
+            405
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "owner": "Austin Byars",
+      "current_display_name": "His Majesty's Blood",
+      "home_location_id": "LOC-BELT-KEEPER-KEEP",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "sha256_declared": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+        "git_blob_sha": "a97f54ba3ac177b601b3c1b7b6dc635caece5627",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-AUSTIN-BYARS.png",
+          "sha256_actual": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            405
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-AUSTIN-BYARS/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+        "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+        "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+        "palette": [
+          "black iron",
+          "crimson",
+          "deep burgundy",
+          "antique gold",
+          "red eye glow"
+        ],
+        "recognizable_props": [
+          "downward-held ornate sword",
+          "large circular gold chest ornament",
+          "tattered crimson-black cloak"
+        ],
+        "negative_rules": [
+          "unhooded bearded king",
+          "vampire mascot",
+          "crown as head replacement",
+          "removing red eyes",
+          "assigning championship belt to ObiWan"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+        "historical_primary_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": {
+        "artifact_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+        "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+        "scope": "COMMISSIONER_APPROVED_HOOD_RED_EYES_DARK_ARMOR_CRIMSON_CLOAK_VISUAL_ONLY",
+        "championship_belt_status": "BELT_KEEPER_CANON_PRESERVED__DO_NOT_INFER_BELT_TRANSFER"
+      },
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+          "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+          "bytes": 409157,
+          "dimensions": [
+            344,
+            410
+          ],
+          "media_type": "image/png",
+          "role": "current_appearance_override",
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "decoded_in_preflight": true
+        },
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "bytes": 328843,
+          "dimensions": [
+            362,
+            405
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "owner": "Brandon Pryor",
+      "current_display_name": "The Chili Cheesers",
+      "home_location_id": "LOC-CHILI-STABLE",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "sha256_declared": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+        "git_blob_sha": "0393eea5139393b9d06610344523d96cf144adb1",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-BRANDON-PRYOR.png",
+          "sha256_actual": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            290
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-BRANDON-PRYOR.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-BRANDON-PRYOR/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+        "head_face": "Weathered male outlaw face beneath brown cowboy hat",
+        "silhouette": "Long poncho or cape, pistol hand, separate dark equine companion",
+        "palette": [
+          "rust red",
+          "brown leather",
+          "warm orange",
+          "black horse coat"
+        ],
+        "recognizable_props": [
+          "western revolver",
+          "The Dark Horse",
+          "flame-like shawl"
+        ],
+        "negative_rules": [
+          "horse fused to human",
+          "generic town sheriff supersession",
+          "loss of The Dark Horse"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+        "historical_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": {
+        "schema_version": "1.0",
+        "character_id": "CHAR-BRANDON-PRYOR",
+        "owner": "Brandon Pryor",
+        "team": "Chili Cheesers",
+        "identity": "The Chili Outlaw",
+        "approval_date": "2026-10-22",
+        "approval_source": "Explicit Commissioner correction in Schemin '26 conversation",
+        "status": "COMMISSIONER_APPROVED_APPEARANCE__REFERENCE_BINARY_INGESTION_PENDING",
+        "current_preferred_presentation": true,
+        "primary_september_source_supersession": false,
+        "image_reference": {
+          "filename": "chili_cheesers_the_chili_outlaw.png",
+          "sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+          "canonical_target_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+          "binary_ingested_to_repository": false,
+          "git_blob_sha": null,
+          "renderer_mount_verified": false
+        },
+        "original_reference_image": {
+          "filename": "Screenshot 2026-10-22 at 13.24.14.png",
+          "sha256": "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10",
+          "role": "COMMISSIONER_SUPPLIED_ORIGINAL_VISUAL_CORRECTION"
+        },
+        "visual_lock": {
+          "anatomy": "Adult rugged human cowboy outlaw, not anthropomorphic; The Dark Horse is a distinct four-legged black horse companion",
+          "face": "Dark beard and moustache, medium-length dark windswept hair, black sunglasses, weathered features",
+          "hat": "Weathered black-brown Western cowboy hat with red chili pepper and brass-metal ornamentation",
+          "outfit": "Long deep crimson and rust red leather outlaw coat or cape, red neckerchief, black tactical-western shirt, red cartridges across chest, leather gloves, dark scarred trousers and rugged black boots",
+          "equipment": "Western revolver, black-leather holster, prominent CHILI OUTLAW belt buckle",
+          "color_palette": [
+            "deep crimson",
+            "burnt orange",
+            "weathered black leather",
+            "brass",
+            "warm gunmetal"
+          ],
+          "companion": "The Dark Horse: separate black horse, optionally beside or behind Brandon in group scenes",
+          "cinematography": "Low-angle heroic western framing with warm sunset backlight, dramatic smoke and dust; camera/framing may vary by scene",
+          "forbidden": [
+            "generic sheriff substitution",
+            "clean-shaven cowboy",
+            "human-horse fusion or centaur",
+            "changing the Dark Horse to another animal",
+            "swapping Brandon's face or costume with another principal character",
+            "treating the poster lettering or exact pose as mandatory in every scene"
+          ]
+        },
+        "authority": {
+          "legacy_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+          "legacy_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+          "approval_scope": "Appearance and visual continuity for future Chili Cheesers productions",
+          "generation_eligible": false,
+          "next_gate": "Ingest the exact approved PNG bytes, verify SHA-256 and Git blob, reconcile resolver precedence, prove renderer reference attachment and independent visual QA"
+        }
+      },
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "oct22_original_recovered": {
+        "filename": "Screenshot 2026-10-22 at 13.24.14.png",
+        "library_file_id": "libfile_5c84971362508191b1c38adb96a824f0",
+        "url": "https://chatgpt.com/library?file_id=libfile_5c84971362508191b1c38adb96a824f0&account_id=personal",
+        "sha256": "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10",
+        "hash_matches_correction_record": true,
+        "visual_review": "Root viewed original screenshot and confirmed sunglasses, chili ornamented hat, beard, crimson long coat, bandolier and CHILI OUTLAW buckle.",
+        "provenance": "Existing commissioner appearance correction source, not a newly created reference or substitute generated image.",
+        "local_path": "/workspace/scratch/162404e483ef/w10prep_sources/Schemin '26/Screenshot 2026-10-22 at 13.24.14.png"
+      },
+      "current_override_binding": {
+        "repo_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22_LOCAL_COPY.png",
+        "sha256": "32ac64dc72aced3707fedd6fd63343b479c13194c6b965384a9b42b5dcb01021",
+        "source_library_file_id": "libfile_5c84971362508191b1c38adb96a824f0",
+        "original_declared_sha256": "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10",
+        "matches_original_declared_bytes": false,
+        "source_comparison": "Both authenticated Library image and local copy opened and visually compared in this session: same sunglasses, chili-decorated hat, dark beard, long crimson coat, cartridge bandolier and CHILI OUTLAW buckle. Local encoding/byte identity differs; preserve both hashes.",
+        "approval_scope": "Existing October 22 appearance, not a new character design"
+      },
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22_LOCAL_COPY.png",
+          "sha256": "32ac64dc72aced3707fedd6fd63343b479c13194c6b965384a9b42b5dcb01021",
+          "bytes": 1321970,
+          "dimensions": [
+            528,
+            1110
+          ],
+          "media_type": "image/png",
+          "role": "current_appearance_override",
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "decoded_in_preflight": true
+        },
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "bytes": 230390,
+          "dimensions": [
+            362,
+            290
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "owner": "Jordan Hollingshead",
+      "current_display_name": "Slob on my Dobb",
+      "home_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "sha256_declared": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+        "git_blob_sha": "6c61e84daaef41650eae5cf0eaa0b19621860911",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "sha256_actual": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            290
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-JORDAN-HOLLINGSHEAD/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+        "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+        "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+        "palette": [
+          "mud brown",
+          "denim blue",
+          "pale skin",
+          "steel"
+        ],
+        "recognizable_props": [
+          "oversized SLOB keg",
+          "backward baseball cap",
+          "grimy overalls"
+        ],
+        "negative_rules": [
+          "duck head",
+          "executive suit identity",
+          "slender body substitute"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+        "historical_primary_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "bytes": 237136,
+          "dimensions": [
+            362,
+            290
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-ZACH-WILSON",
+      "owner": "Zach Wilson",
+      "current_display_name": "Dr. Duckhook",
+      "home_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "sha256_declared": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+        "git_blob_sha": "e22aff79deb3a99cf4dd394994c593019025a666",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-ZACH-WILSON",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-ZACH-WILSON.png",
+          "sha256_actual": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            290
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-ZACH-WILSON/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+        "head_face": "Orange broad bill; white feathers; green golf cap",
+        "silhouette": "Green country-club sweater vest, golfer stance, club resting on shoulder",
+        "palette": [
+          "white feathers",
+          "green vest",
+          "orange bill",
+          "ivory shirt"
+        ],
+        "recognizable_props": [
+          "golf driver",
+          "golf bag and clubs",
+          "country-club attire"
+        ],
+        "negative_rules": [
+          "full ordinary human head",
+          "missing duck bill",
+          "golf-club identity omitted"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+        "historical_primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "bytes": 225523,
+          "dimensions": [
+            362,
+            290
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-ZACH-WILSON",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "owner": "Kevin Zeek",
+      "current_display_name": "Red Leopards",
+      "home_location_id": "LOC-RED-RUINS",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "sha256_declared": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+        "git_blob_sha": "be12c8429633fb0a97c23418ecd20f4b9782150e",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-KEVIN-ZEEK.png",
+          "sha256_actual": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            290
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-KEVIN-ZEEK/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Red spotted anthropomorphic predatory leopard-warrior",
+        "head_face": "Leopard muzzle, bright red coat with dark spots and open snarling mouth",
+        "silhouette": "Crouched powerful feline humanoid with spotted limbs, leather/metal armor and spear",
+        "palette": [
+          "red fur",
+          "black spots",
+          "dark armor"
+        ],
+        "recognizable_props": [
+          "spear or lance",
+          "leather shoulder armor"
+        ],
+        "negative_rules": [
+          "human-faced warrior",
+          "plain golden cat without red spots",
+          "canine head"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+        "historical_primary_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "bytes": 245679,
+          "dimensions": [
+            362,
+            290
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "owner": "Bobby Mitchell",
+      "current_display_name": "Mud Dogs",
+      "home_location_id": "LOC-MUD-DOGS-SWAMP",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+        "sha256_declared": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+        "git_blob_sha": "52820b4656164a6363c5bad451ff47b312c4ae1e",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-BOBBY-MITCHELL.png",
+          "sha256_actual": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            391
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-BOBBY-MITCHELL/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Large mud- and moss-caked feral four-legged swamp hound",
+        "head_face": "Wide canine jaws with snarling fangs; wet matted fur",
+        "silhouette": "Low-running quadruped, hanging swamp moss and thick neck",
+        "palette": [
+          "peat brown",
+          "olive mud",
+          "moss green",
+          "bone white fangs"
+        ],
+        "recognizable_props": [
+          "mud",
+          "swamp-moss fur",
+          "metal chain/collar"
+        ],
+        "negative_rules": [
+          "humanoid brawler replacing swamp dog",
+          "clean show-dog appearance",
+          "leopard spots"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+        "historical_primary_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "bytes": 324719,
+          "dimensions": [
+            362,
+            391
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "owner": "Ben Whipple",
+      "current_display_name": "Seven Deadly Chins",
+      "home_location_id": "LOC-CHINS-ROAD-COMMONS",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+        "sha256_declared": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+        "git_blob_sha": "89719bde79083cc6d4ab29dfaa68f49fde7a64ab",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-BEN-WHIPPLE.png",
+          "sha256_actual": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            391
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-BEN-WHIPPLE.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-BEN-WHIPPLE/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+        "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+        "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+        "palette": [
+          "off-white tank",
+          "denim blue",
+          "truck red",
+          "steel"
+        ],
+        "recognizable_props": [
+          "trucker cap",
+          "metal striking tool",
+          "big-rig association"
+        ],
+        "negative_rules": [
+          "slim athletic substitute",
+          "animal-headed characterization",
+          "executive suit"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+        "historical_primary_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "bytes": 313601,
+          "dimensions": [
+            362,
+            391
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-DAVID-BABB",
+      "owner": "David Babb",
+      "current_display_name": "The LLC",
+      "home_location_id": "LOC-LLC-BOARDROOM",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "sha256_declared": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+        "git_blob_sha": "e977045d5698ffba5136601397fa0cd3dbf5f3c2",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-DAVID-BABB",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-DAVID-BABB.png",
+          "sha256_actual": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            391
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-DAVID-BABB.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-DAVID-BABB/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+        "head_face": "Human head with short dark hair and dark sunglasses",
+        "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+        "palette": [
+          "black suit",
+          "white shirt",
+          "red tie",
+          "gold accessories"
+        ],
+        "recognizable_props": [
+          "cigar",
+          "executive leather chair",
+          "briefcase",
+          "wealth/financial desk accents"
+        ],
+        "negative_rules": [
+          "gorilla centaur",
+          "monster body",
+          "leopard head"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+        "historical_primary_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "bytes": 280004,
+          "dimensions": [
+            362,
+            391
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-DAVID-BABB",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    },
+    {
+      "character_id": "CHAR-MANNING-WELTY",
+      "owner": "Manning Welty",
+      "current_display_name": "El Niño",
+      "home_location_id": "LOC-STORM-BOWL",
+      "presentation_asset": {
+        "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+        "github_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+        "raw_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+        "sha256_declared": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+        "git_blob_sha": "ef9dc3a72909f58c9c5a50067963204f4a82e00b",
+        "repository_path_exists": true,
+        "byte_hash_recomputed": true,
+        "class": "DERIVED_APPROVED_LINEUP_CROP",
+        "approval": "Commissioner approved visual presentation October18 2026, not automatic primarysource or renderbinding approval",
+        "byte_receipt": {
+          "character_id": "CHAR-MANNING-WELTY",
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "local_path": "/workspace/scratch/162404e483ef/w10prep_review/references/CHAR-MANNING-WELTY.png",
+          "sha256_actual": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "matches_declared": true,
+          "dimensions": [
+            362,
+            391
+          ],
+          "inspection": "Contact sheet visually reviewed by root, 2026-11-16; current presentation and stated identity constraints compared. No generated output exists."
+        }
+      },
+      "appearance_packet_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+      "manifest_url": "https://github.com/jakekaloper-hub/schemin-26/blob/a24656366b73d1ef8ec98cf405d2337194bd2b97/canon/characters/CHAR-MANNING-WELTY/REFERENCE_MANIFEST.yaml",
+      "assertions": {
+        "subject_morphology": "Long-haired muscular human storm / ocean elemental",
+        "head_face": "Long windblown dark hair and beard; intense expression",
+        "silhouette": "Bare upper torso, swirling electric blue water at one flank and orange fiery light at the other",
+        "palette": [
+          "electric blue",
+          "orange fire",
+          "deep storm gray",
+          "dark hair"
+        ],
+        "recognizable_props": [
+          "blue water/sea effects",
+          "lightning",
+          "orange heat light",
+          "glowing chest emblem"
+        ],
+        "negative_rules": [
+          "literal storm cloud replacing humanoid body",
+          "additional magical limbs",
+          "assuming numerical physics from graphic"
+        ]
+      },
+      "primary_source": {
+        "historical_primary_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+        "historical_primary_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+        "historical_primary_approval_unchanged": true,
+        "renderer_mounted_byte_receipt_present": false,
+        "c1_generated_output_acceptance_present": false
+      },
+      "latest_override": null,
+      "render_status": "SOURCE_IMAGES_DECODED_AND_BOUND_TO_PAGE_INPUTS; NEW_RASTER_NOT_GENERATED",
+      "effective_reference_images": [
+        {
+          "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "bytes": 322217,
+          "dimensions": [
+            362,
+            391
+          ],
+          "media_type": "image/png",
+          "role": "approved_lineup_crop",
+          "character_id": "CHAR-MANNING-WELTY",
+          "decoded_in_preflight": true
+        }
+      ],
+      "current_recovery": {
+        "checked_at_utc": "2026-11-17T18:04:29.377411+00:00",
+        "crop_hash_matches": true,
+        "source_pixels_visually_inspected": true,
+        "actual_generation_executed": false
+      }
+    }
+  ],
+  "routes": [
+    {
+      "name": "DK to Chili",
+      "nodes": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-DK-MUD-HILL",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-CHILI-STABLE"
+      ],
+      "edges": [
+        "ROUTE-DK-HIGHLAND-LINK",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-JACKSON-LEVEE",
+        "ROUTE-WESTERN-RANGE"
+      ],
+      "active_for_pass3": false,
+      "status": "ARCHIVED_PRIOR_VENUE_CANDIDATE"
+    },
+    {
+      "name": "Chili to neutral",
+      "nodes": [
+        "LOC-CHILI-STABLE",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-DK-MUD-HILL",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-COMPACT-NEUTRAL-GROUNDS"
+      ],
+      "edges": [
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-JACKSON-LEVEE",
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "active_for_pass3": false,
+      "status": "ARCHIVED_PRIOR_VENUE_CANDIDATE"
+    },
+    {
+      "name": "DK to neutral",
+      "nodes": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-COMPACT-NEUTRAL-GROUNDS"
+      ],
+      "edges": [
+        "ROUTE-DK-HIGHLAND-LINK",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "active_for_pass3": false,
+      "status": "ARCHIVED_PRIOR_VENUE_CANDIDATE"
+    },
+    {
+      "name": "El Niño to Red",
+      "nodes": [
+        "LOC-STORM-BOWL",
+        "LOC-LLC-STORM-CITY",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-RED-RUINS"
+      ],
+      "edges": [
+        "ROUTE-STORM-COAST",
+        "ROUTE-PORT-BASIN-CONNECTOR",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "active_for_pass3": true
+    },
+    {
+      "name": "Chins to TDS",
+      "nodes": [
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-CHILI-STABLE",
+        "LOC-TDS-CHILI-SHARED-MARCH",
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "edges": [
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-TDS-CHILI-SHARED-MARCH",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "active_for_pass3": true
+    },
+    {
+      "name": "Slob to Mud",
+      "nodes": [
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-DK-MUD-HILL",
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "edges": [
+        "ROUTE-HEARTHROAD",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "active_for_pass3": true
+    },
+    {
+      "name": "HMB to Duck",
+      "nodes": [
+        "LOC-BELT-KEEPER-KEEP",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-DK-MUD-HILL",
+        "LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "edges": [
+        "ROUTE-BLACK-CLIFF",
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "active_for_pass3": true
+    },
+    {
+      "name": "LLC to Obi",
+      "nodes": [
+        "LOC-LLC-BOARDROOM",
+        "LOC-LLC-STORM-CITY",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "edges": [
+        "ROUTE-INNER-SEA-QUAY",
+        "ROUTE-PORT-BASIN-CONNECTOR",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "active_for_pass3": true
+    },
+    {
+      "name": "Chili to DK rodeo",
+      "nodes": [
+        "LOC-CHILI-STABLE",
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-DK-MUD-HILL",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "edges": [
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-JACKSON-LEVEE",
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "active_for_pass3": true,
+      "status": "REGISTERED_REGIONAL_SPINE; LOCAL_RODEO_APPROACH_PROPOSED"
+    },
+    {
+      "name": "Red field to Forgotten Court",
+      "nodes": [
+        "LOC-RED-RUINS",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-LEAGUE-CHAMBER",
+        "SET-W10-FORGOTTEN-COURT-REVISIT"
+      ],
+      "edges": [
+        "ROUTE-RAIN-ESCARPMENT",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "PROPOSED-LOCAL-COURT-SPUR"
+      ],
+      "active_for_pass3": true,
+      "status": "REGIONAL_SPINE_REGISTERED; COURT_SPUR_UNREGISTERED_PROPOSAL",
+      "elapsed_time_caption_required": true
+    },
+    {
+      "name": "DK to Week11 bridge preview",
+      "nodes": [
+        "LOC-DK-HIGHLAND-STRONGHOLD",
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "edges": [
+        "ROUTE-DK-HIGHLAND-LINK",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-HEARTHROAD"
+      ],
+      "active_for_pass3": true,
+      "status": "WEEK11_PREVIEW_PROPOSAL"
+    },
+    {
+      "name": "HMB to Week11 bridge preview",
+      "nodes": [
+        "LOC-BELT-KEEPER-KEEP",
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-BRIDGE-MOUNTAIN-LAKE"
+      ],
+      "edges": [
+        "ROUTE-BLACK-CLIFF",
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "active_for_pass3": true,
+      "status": "WEEK11_PREVIEW_PROPOSAL; DIFFERENT_TIME_FROM_WEEK10_LLC_ATTACK"
+    }
+  ],
+  "sources": [
+    "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+    "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+    "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+    "living-novel/os/geography/world_travel_graph_v1.json"
+  ],
+  "pass3_set_register": [
+    {
+      "set_id": "SET-W10-DK-RODEO-GROUNDS",
+      "parent_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "parent_status": "INTERPRETIVE_CANON",
+      "set_status": "PROPOSED_REUSABLE_CHILD_SET",
+      "region_id": "REG-UPPER-VALLEYS",
+      "name": "Arsenal Rodeo Grounds",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
+      "parent_location_id": "LOC-RED-RUINS",
+      "parent_status": "PERMANENT_CANON",
+      "set_status": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION",
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+      "parent_location_id": null,
+      "parent_status": "NO_REGISTERED_LOCATION_ID_FOUND",
+      "set_status": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+      "region_id": "REG-CENTRAL-BASIN",
+      "region_basis": "Explicit Week7 P08–10 caption",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "parent_status": "PERMANENT_CANON",
+      "set_status": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "formal_atlas_promotion": false
+    },
+    {
+      "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+      "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+      "parent_status": "PERMANENT_CANON",
+      "set_status": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-SCORING-COURT",
+      "working_name": "League Chamber scoring courtyard",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-COURIER-ARRIVALS",
+      "working_name": "League Archive courier court",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-MAP-THRESHOLD",
+      "working_name": "League Chamber map wall and threshold",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "set_id": "SET-W10-COMPACT-PUBLIC-BOARD",
+      "working_name": "Compact Neutral Grounds public result approach",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "set_id": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+      "working_name": "Upper Basin Connector near the mountain-lake approach",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-SCORING-HALL",
+      "working_name": "League Archive scoring hall",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+      "working_name": "League Chamber outer loggia",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+      "working_name": "League Archive courier intake desk",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-STANDINGS-HALL",
+      "working_name": "League Archive record hall",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-DIVISION-TERRACE",
+      "working_name": "League Chamber public terrace",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "set_id": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+      "working_name": "Mountain-lake overlook",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "set_id": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+      "working_name": "Alpine Wager Route, above the existing base camp",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "set_id": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+      "working_name": "League Chamber outward-facing fixture terrace",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "set_id": "SET-W10-OPTIONAL-BOOK-SHELF",
+      "working_name": "Temple household Book shelf, only if a new Book item is supplied",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "set_id": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+      "working_name": "Slob Foothill Camp tailgate-yard approach",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "set_id": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+      "working_name": "League Archive late dispatch alcove",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    },
+    {
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "set_id": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+      "working_name": "Bridge at the Mountain Lake, opposing approaches",
+      "status": "PROPOSED_LOCAL_STAGING_WITHIN_REGISTERED_PARENT",
+      "formal_atlas_promotion": false
+    }
+  ],
+  "creative_revision": {
+    "revision": "WHOLE_ISSUE_PASS_03",
+    "status": "BRAINSTORMING_PASS_3",
+    "controlling_source": "whole-issue-pass-03.md",
+    "structured_source": "whole-issue-pass-03.json",
+    "selected_detail_approval": false,
+    "new_art_generated": false,
+    "accepted_changes": [
+      "DK pursues Chili at a proposed rodeo inside DK homeland",
+      "Red sandbags the reused soccer field, then revisits the separate Central Basin basketball court",
+      "Chins jackhammers the temple courtyard and turns up music beneath TDS balcony",
+      "Slob completes a beer shipment through the swamp without a fight",
+      "All supporting departments receive revised copy, site, light, source and continuity passes"
+    ],
+    "sports_status": "All six Week10 outcomes still UNDECIDED; current-leads-hold forecasts remain conditional",
+    "supersedes": [
+      "Compact arena as M01 venue",
+      "Chili-first lasso and axe-block reversal",
+      "Barrel/air-horn noise routine",
+      "Dry-only generic Red terrace ending",
+      "Mud attack/keg-shield fight",
+      "Generic supporting-page location placeholders"
+    ]
+  }
+}

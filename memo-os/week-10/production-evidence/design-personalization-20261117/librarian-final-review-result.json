@@ -1,0 +1,43 @@
+{
+  "scope": "Six narrower retries after initial template-echo replies were not accepted as substantive review",
+  "results": [
+    {
+      "kind": "director",
+      "id": "the_librarian",
+      "ids": [
+        "W10-P08",
+        "W10-P09",
+        "W10-P22"
+      ],
+      "q": "Which explicit continuity boundary most needs protection when accepting new personal notes? Red fire on P22 is a color phrase, not the character Red Leopards.",
+      "status": "failed",
+      "error": "Missing substantive page_ids",
+      "started_at": "2026-11-17T17:21:55.410Z",
+      "finished_at": "2026-11-17T17:21:58.435Z"
+    }
+  ],
+  "events": [
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 3013,
+        "responseLength": 159,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 3015
+      }
+    ]
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_librarian",
+      "messageLength": 3013,
+      "responseLength": 159,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 3015
+    }
+  ]
+}

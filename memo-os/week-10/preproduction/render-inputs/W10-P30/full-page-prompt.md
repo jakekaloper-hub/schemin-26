@@ -1,0 +1,268 @@
+One individual 1080×1920 grayscale integrated illustrated memo folio: complete supplied headline, department heading, deck, narration and source-qualified lettering in the exact intended final composition. No annotation cards, miniature scene summaries, detached document exports, or generated six-up grids.
+
+Image authority is explicit: current_appearance_override controls current face and costume; approved_lineup_crop supplies canonical identity; published_memo_precedent supplies only its stated layout/geometry application and never replaces current character anatomy or current scores. Follow the actual published memo references: one continuous cinematic world, prominent editorial hierarchy, slender ornament where appropriate, full narrative typography inside deliberate atmospheric reading space, and scene-led differences between departments. Grayscale affects palette, not the amount of copy, character identity, panel proportions, camera or final-page geometry.
+
+SCENE-LED DESIGN RULES
+- One complete 1080x1920 portrait folio may contain multiple deliberate camera views. The current visual_storytelling shot contract controls the sequence; a complete artwork is not limited to one shot.
+- Preserve published typographic identity and department recognition; vary placement and scale with scene function.
+- No default header/image/bottom-paragraph stack; typography and image are composed together.
+- Keep complete source copy; compose space around it rather than cutting words to fit.
+- Long prose is editorial typography, not implausibly engraved on tiny props.
+- Use short in-world lettering only where physically plausible. Exact names, data, scores and tables are deterministically typeset, straight and legible.
+- Identical department_heading and deck are displayed once; source fields are not interpreted as a command to repeat the same matchup line twice.
+- Characters and props may cross decoration but never essential letters or data.
+- Test full native page at 390px phone width; reflow the page rather than shrink the copy below readable scale.
+- Canonical identity, appearance overrides, established geometry and verified final sports facts take precedence over composition novelty.
+- All new personal quotes, jokes, anecdotes and factual claims require source/Founder input; an AI suggestion is not accepted canon.
+
+SEQUENTIAL VISUAL STORYTELLING
+- One complete 1080x1920 folio is the output artifact, not a rule requiring one camera view. Multiple shots/POV areas within that folio are explicitly authorized working direction.
+- Use a visual sequence only when the additional view reveals new information: intention, cause, response or consequence. Do not pad with duplicate crops of the same pose.
+- Distinguish simultaneous opposing POV from chronological action. Temporal cuts must not read as cloned characters or objects in one continuous space.
+- Each action folio has a dominant image; subsidiary views earn their space. Avoid identical grids, mandatory equal splits and three strips on every page.
+- Canon and exact factual lettering outrank novelty. Use each character’s current reference assets in every shot, preserve morphology, costume, companions and named location geometry.
+- Preserve full publication copy once and in source order. Distribute it deliberately through the visual reading path; no additional mandatory caption below each image, no extra invented dialogue.
+- A quiet master image and a level documentary table are intentional storytelling choices. Do not panelize every supporting page or turn Opening Drive into six miniature matchup posters.
+- Match meaningful objects, material states and weather between pages. Editorial visual echoes do not prove physical adjacency, contemporaneity or character travel.
+- Inspect each native folio and 390px reading proof for POV legibility, coherent cause, readable text and exact score before visual acceptance. Tests verify instructions only, never artistic success.
+The visual_storytelling shot plan defines all within-page views. Existing camera/foreground fields describe the anchor scene, not a ban on supplementary or opposing views. Do not copy old paragraph-strip placement from a precedent.
+
+PAGE W10-P30 · READING POSITION 31
+
+IDENTITY INPUTS
+[]
+
+SCENE AND CONTINUITY
+{
+  "camera_and_composition": "Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing.",
+  "foreground": "Base-camp ropes, worn steps and a freshly secured Week11marker.",
+  "midground": "A narrowing path with later markers receding naturally.",
+  "background": "Northern Spine elevation in cold cloud; no owner crowned on the summit.",
+  "image_tells": "Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing. Base-camp ropes, worn steps and a freshly secured Week11marker. A narrowing path with later markers receding naturally. Northern Spine elevation in cold cloud; no owner crowned on the summit.",
+  "encounter": {
+    "venue_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+    "set_id": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+    "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+    "division_context": "League-wide; divisions are overlays",
+    "route_required": false,
+    "world_state_in": "Existing place with selective wear and maintenance",
+    "persistent_landmarks": [
+      "Alpine Wager Route, above the existing base camp"
+    ],
+    "provisional_location": true,
+    "formal_atlas_promotion": false
+  },
+  "continuity_in": [
+    "LOC-RED-SLOB-ALPINE-ROUTE",
+    "Existing Commonwealth use and inherited approved weather state"
+  ],
+  "continuity_out": [
+    "Publish the conditional premise with the survival claim. Saved constructive witnesses establish possibility, never odds or likelihood."
+  ],
+  "forbidden_mutations": [
+    "Unsupported present-tense clinch/elimination claims, or future elimination claims without their stated Week 10 condition",
+    "Invented playoff probabilities",
+    "Permanent abandonment or property transfer"
+  ],
+  "composition_direction": {
+    "page_id": "W10-P30",
+    "family": "scenic_transition",
+    "dominant_action": "Four remaining games narrow the route to seven berths.",
+    "reading_path": "Depth provides sequential anticipation without crowning anyone at the summit.",
+    "heading_treatment": "Title integrates into open cloud space; do not turn route signs into the whole page.",
+    "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One expansive route image. The supplied qualification conditions and seven-berth note remain exact; no odds, winners at the summit or fake branches on a geographic map.",
+    "protected_subjects": "Existing route, no new territory, current survival proof distinct from odds.",
+    "data_treatment": "Exact seven-berth explanation and loss-elimination qualification; no invented probability or clinched crown.",
+    "personalization_note_ref": "personalization-pass-20261117.json#W10-P30",
+    "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+    "shot_structure": "single_depth_playoff_road",
+    "time_logic": "ONE_CONTINUOUS_MOMENT"
+  },
+  "personalization_direction": {
+    "page_id": "W10-P30",
+    "focus": "Make remaining possibility visible without pretending every route is equally likely.",
+    "performance": "Let the climb carry the time sequence. Keep explanatory text level in calm spaces and the harsh specific condition near the relevant note.",
+    "narration_job": "Keep seven berths, four games and the verified Mud Dogs next-loss condition.",
+    "source_refs": [
+      "issue-previs.json#W10-P30",
+      "playoff-witnesses-final.json"
+    ],
+    "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+  },
+  "visual_storytelling": {
+    "page_id": "W10-P30",
+    "structure": "single_depth_playoff_road",
+    "time_logic": "ONE_CONTINUOUS_MOMENT",
+    "visual_question": "What remains between the teams and the seven places?",
+    "shots": [
+      {
+        "role": "dominant",
+        "pov_owner_ids": [],
+        "camera": "Upward alpine path with four already specified week markers in depth",
+        "action": "The visible climb narrows through the remaining regular-season rounds.",
+        "new_information": "Depth provides sequential anticipation without crowning anyone at the summit.",
+        "time_relation": "same moment",
+        "id": "W10-P30-V01"
+      }
+    ],
+    "layout_direction": "One expansive route image. The supplied qualification conditions and seven-berth note remain exact; no odds, winners at the summit or fake branches on a geographic map.",
+    "dominant_view": "W10-P30-V01",
+    "copy_flow": {
+      "source": "issue-previs.json#W10-P30/draft_copy",
+      "body_ranges": [
+        {
+          "start": 0,
+          "end": 287,
+          "anchor": "one continuous readable atmospheric field beside the main visual information"
+        }
+      ],
+      "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+      "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+      "proposed_extra_words": []
+    },
+    "continuity": {
+      "source_encounter_unchanged": true,
+      "landmarks": [
+        "Alpine Wager Route, above the existing base camp"
+      ],
+      "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+    },
+    "page_turn_out": "The nearest marker becomes the immediate six Week11 decisions.",
+    "grammar_references": [],
+    "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+  }
+}
+
+EXACT FULL PUBLICATION COPY
+{
+  "headline": "FOUR MORE AFTER THIS",
+  "deck": "Seven places. The route narrows.",
+  "body": "All twelve teams still have a route, and none has clinched. Four games remain: one crossover, then three divisional rounds. Nine wins guarantees a berth; eight alone does not. A 6–8 finish can give Mud Dogs either a Burgers title or a shared place. Record scenarios assume no tied games.",
+  "callouts": [
+    {
+      "heading": "SEVEN BERTHS",
+      "body": "Three division winners and four shared places."
+    },
+    {
+      "heading": "MUD DOGS’ NEXT TEST",
+      "body": "A Week 11 loss to Seven Deadly Chins eliminates Mud Dogs. Winning keeps a narrow, help-dependent route alive."
+    }
+  ],
+  "rows": [],
+  "department_heading": "THE PLAYOFF ROAD"
+}
+
+FACT POLICY
+{
+  "official_winner_decided": true,
+  "source_capture_scope": "W10_PROVIDER_FINAL",
+  "unresolved_numerals": "BLANK_RESERVED_FIELDS",
+  "source_backed_current_values": "Week10 values are FINAL at the source capture; Week11 forecasts and medical availability retain explicit future/uncertain qualifiers.",
+  "result_dependent_art": "Provider-final holding branch selected; preserve approved physical choreography.",
+  "week11_outcomes_decided": false,
+  "refresh_fields": [
+    {
+      "selector": "/rules",
+      "artifact": "facts.json",
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "a0f2e4aee2d91b582481355a265df833b20a771cf1a2bee6a64b31e6630837af",
+      "value_location": "facts.json#/rules",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "selector": "/pass3/playoffs",
+      "artifact": "facts.json",
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "17db08166f95414a1dedcd6dfbe1dc548ab0f43fb9ff8d009bcfa4036fbc402c",
+      "value_location": "facts.json#/pass3/playoffs",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "selector": "/pass3/remaining_schedule",
+      "artifact": "facts.json",
+      "policy": "Exact source-bound value. Week10 final; future availability/fixtures retain their own timestamp and scope.",
+      "source_capture_utc": "2026-11-17T16:53:25.527402+00:00",
+      "snapshot_sha256": "e0f5bbd5e8fa9f916c58e24673779bb948a1d2ecc18e418ed89d708722f504a9",
+      "value_location": "facts.json#/pass3/remaining_schedule",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/all_12_alive_none_clinched",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+      "snapshot_sha256": "064b573b99234c9fdc003c8a13c3a29ef07e735dd2ac03d1afa320e701475c90",
+      "value_location": "playoff-harvest.json#/claims/all_12_alive_none_clinched",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/nine_wins_sufficient",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+      "snapshot_sha256": "842b84104d197e463fad715d7eb439dee7298e97ebccb7f72f6dece6c6683437",
+      "value_location": "playoff-harvest.json#/claims/nine_wins_sufficient",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/eight_wins_can_miss",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+      "snapshot_sha256": "de70eeac2327d39f1c1347b2dc479357f3c84d37a25107d6fd33395e5d98a203",
+      "value_location": "playoff-harvest.json#/claims/eight_wins_can_miss",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/mud_only_w11_loss_eliminates",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+      "snapshot_sha256": "c33ef7befe2ae6bdfad4a55a3e1dd767cc03a75498655c58c789453b64134a11",
+      "value_location": "playoff-harvest.json#/claims/mud_only_w11_loss_eliminates",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    },
+    {
+      "artifact": "playoff-harvest.json",
+      "selector": "/claims/mud_division_and_wildcard_paths",
+      "policy": "Accepted claim with its stated assumptions. Mathematical possibility is distinct from dated vendor estimates; hypothetical scores are not predictions.",
+      "source_bundle_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+      "snapshot_sha256": "6e1c31bc6e0f092dd14972ad41a8eee51e43c1211a0c07c33a3ddd8f533f796f",
+      "value_location": "playoff-harvest.json#/claims/mud_division_and_wildcard_paths",
+      "source_scope": "See source field scope; exact visible values are already in publication_copy"
+    }
+  ],
+  "source_fact_bundle_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+  "playoff_harvest": {
+    "artifact": "playoff-harvest.json",
+    "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+    "claim_ids": [
+      "all_12_alive_none_clinched",
+      "nine_wins_sufficient",
+      "eight_wins_can_miss",
+      "mud_only_w11_loss_eliminates",
+      "mud_division_and_wildcard_paths"
+    ],
+    "copy_authority": "playoff-harvest-copy.json",
+    "interpretation": "Preserve every visible condition and TheFFHub attribution. Vendor 0%/100% is not mathematical elimination/clinch. The record scenarios on P30 exclude tied future games; a further Mud Dogs loss eliminates under either scope."
+  }
+}
+
+REFERENCE IMAGES
+[
+  {
+    "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p31.jpg",
+    "sha256": "6aeda862bec1346ac2283072a128fe23ca0570cbc0299b20d21c8d703774e86a",
+    "bytes": 499312,
+    "dimensions": [
+      910,
+      1707
+    ],
+    "media_type": "image/jpeg",
+    "role": "published_memo_precedent",
+    "decoded_in_preflight": true,
+    "application": "Editorial hierarchy, character treatment and visual integration; do not transplant an unrelated venue or old sports values."
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "scope": "Six narrower retries after initial template-echo replies were not accepted as substantive review",
+  "results": [
+    {
+      "kind": "director",
+      "id": "the_architect",
+      "ids": [
+        "W10-P01",
+        "W10-P05",
+        "W10-P31"
+      ],
+      "q": "Does the proposed reading path actually differ by page purpose? Identify one specific retained design and one concrete improvement or tradeoff.",
+      "status": "returned_specific_json",
+      "structured": {
+        "page_ids": "W10-P01,W10-P05,W10-P31",
+        "keep": "The Chili Cheesers runs for the exit as D0nkey K0ng closes.",
+        "improve": "Introduce a brief, humorous caption beneath the chase scene to reinforce the rivalry's intensity.",
+        "boundary": "The layout and flow of the chase scene must remain unchanged."
+      },
+      "response": "{\n  \"page_ids\": \"W10-P01,W10-P05,W10-P31\",\n  \"keep\": \"The Chili Cheesers runs for the exit as D0nkey K0ng closes.\",\n  \"improve\": \"Introduce a brief, humorous caption beneath the chase scene to reinforce the rivalry's intensity.\",\n  \"boundary\": \"The layout and flow of the chase scene must remain unchanged.\"\n}",
+      "model": "qwen2.5-coder:7b",
+      "input_sha256": "1b03f4df77e527aa5ce3247cb7439b7da11889a727b2a7265a0dd85db8eaaa9c",
+      "started_at": "2026-11-17T17:20:22.808Z",
+      "finished_at": "2026-11-17T17:20:33.077Z",
+      "actual_image_pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "id": "the_beat_writer",
+      "ids": [
+        "W10-P07",
+        "W10-P10",
+        "W10-P17"
+      ],
+      "q": "How can the three losing-character aftermaths avoid feeling identical? Base your recommendation on their current actions, without adding an invented personal incident.",
+      "status": "returned_specific_json",
+      "structured": {
+        "page_ids": "W10-P07,W10-P10,W10-P17",
+        "keep": "Public embarrassment replaces the chase.",
+        "improve": "Emphasize the unique challenges each character faces post-loss.",
+        "boundary": "Exact FINAL winner/loser names, scores, and football-context text remain readable and subordinate to the payoff."
+      },
+      "response": "{\n  \"page_ids\": \"W10-P07,W10-P10,W10-P17\",\n  \"keep\": \"Public embarrassment replaces the chase.\",\n  \"improve\": \"Emphasize the unique challenges each character faces post-loss.\",\n  \"boundary\": \"Exact FINAL winner/loser names, scores, and football-context text remain readable and subordinate to the payoff.\"\n}",
+      "model": "qwen2.5-coder:7b",
+      "input_sha256": "1257aadf86dbf3e20f92efe7639dbaf21618345eb24a86b8390949e669838aec",
+      "started_at": "2026-11-17T17:20:33.081Z",
+      "finished_at": "2026-11-17T17:20:43.860Z",
+      "actual_image_pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "id": "the_librarian",
+      "ids": [
+        "W10-P08",
+        "W10-P09",
+        "W10-P22"
+      ],
+      "q": "Which explicit continuity boundary most needs protection when accepting new personal notes? Red fire on P22 is a color phrase, not the character Red Leopards.",
+      "status": "failed",
+      "error": "Missing substantive page_ids",
+      "started_at": "2026-11-17T17:20:43.867Z",
+      "finished_at": "2026-11-17T17:20:52.923Z"
+    },
+    {
+      "kind": "director",
+      "id": "the_umpire",
+      "ids": [
+        "W10-P27",
+        "W10-P29",
+        "W10-P31"
+      ],
+      "q": "What exact acceptance test keeps the differentiated data pages useful? The numbers and complete copy already remain source-controlled.",
+      "status": "returned_specific_json",
+      "structured": {
+        "page_ids": "W10-P27,W10-P29,W10-P31",
+        "keep": "Complete explanatory copy beside or above the table in clear hall atmosphere, not a redundant lower caption.",
+        "improve": "Ensure the editorial reading area adjacent to fixtures/stake entries is concise and does not overlap with fixture-only illustrations.",
+        "boundary": "All twelve teams, official order, through-ten scope and provider tiebreak distinction must remain fixed."
+      },
+      "response": "{\n  \"page_ids\": \"W10-P27,W10-P29,W10-P31\",\n  \"keep\": \"Complete explanatory copy beside or above the table in clear hall atmosphere, not a redundant lower caption.\",\n  \"improve\": \"Ensure the editorial reading area adjacent to fixtures/stake entries is concise and does not overlap with fixture-only illustrations.\",\n  \"boundary\": \"All twelve teams, official order, through-ten scope and provider tiebreak distinction must remain fixed.\"\n}",
+      "model": "qwen2.5-coder:7b",
+      "input_sha256": "c1fd3be71ffa83779e6123d6ea9b4ba62e0a3b66b9bec480008871d7c1655dce",
+      "started_at": "2026-11-17T17:20:52.925Z",
+      "finished_at": "2026-11-17T17:21:02.557Z",
+      "actual_image_pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_methodology",
+      "id": "editing_and_composition",
+      "ids": [
+        "W10-P12",
+        "W10-P13",
+        "W10-P14"
+      ],
+      "q": "How should the three temple pages change angle and text placement while preserving vertical geography and noise causality?",
+      "status": "returned_specific_json",
+      "structured": {
+        "page_ids": "W10-P12,W10-P13,W10-P14",
+        "keep": "The calm wall between the levels; the child and partner remain protected/offscreen; one body with three heads, visitor below, family inside, established hole and speaker shelf; complete prose occupies a still side-wall or shaded rail area; the climax is the chosen racket, not decorative lettering; keep exact FINAL result and context visible without obscuring rubble continuity.",
+        "improve": "Consider a subtle diagonal shadow to enhance the narrative's mood without detracting from the visual geography.",
+        "boundary": "Vertical geography and noise causality must remain intact."
+      },
+      "response": "{\n  \"page_ids\": \"W10-P12,W10-P13,W10-P14\",\n  \"keep\": \"The calm wall between the levels; the child and partner remain protected/offscreen; one body with three heads, visitor below, family inside, established hole and speaker shelf; complete prose occupies a still side-wall or shaded rail area; the climax is the chosen racket, not decorative lettering; keep exact FINAL result and context visible without obscuring rubble continuity.\",\n  \"improve\": \"Consider a subtle diagonal shadow to enhance the narrative's mood without detracting from the visual geography.\",\n  \"boundary\": \"Vertical geography and noise causality must remain intact.\"\n}",
+      "model": "qwen2.5-coder:7b",
+      "input_sha256": "67c7f070ae5c8842b7a5d8c2a892fd9597e0f2f9b0eb4ef20b20b1fdd647867e",
+      "started_at": "2026-11-17T17:21:02.569Z",
+      "finished_at": "2026-11-17T17:21:11.132Z",
+      "actual_image_pixels_supplied": false,
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_methodology",
+      "id": "ensemble_pacing_and_world_continuity",
+      "ids": [
+        "W10-P19",
+        "W10-P20",
+        "W10-P21"
+      ],
+      "q": "What personal detail should Jake decide for the birthday arc, and what must not be invented or displaced by that detail?",
+      "status": "returned_specific_json",
+      "structured": {
+        "page_ids": "W10-P19,W10-P20,W10-P21",
+        "keep": "200 BURGER",
+        "improve": "Maintain clear separation between cake and burger for impact.",
+        "boundary": "No invented age, no sword duel, no collapsed furniture."
+      },
+      "response": "{\n  \"page_ids\": \"W10-P19,W10-P20,W10-P21\",\n  \"keep\": \"200 BURGER\",\n  \"improve\": \"Maintain clear separation between cake and burger for impact.\",\n  \"boundary\": \"No invented age, no sword duel, no collapsed furniture.\"\n}",
+      "model": "qwen2.5-coder:7b",
+      "input_sha256": "9fd697724d5aa8385f5fd7e34053748fae4076385ce6e6f28498a5181e1a1321",
+      "started_at": "2026-11-17T17:21:11.137Z",
+      "finished_at": "2026-11-17T17:21:16.054Z",
+      "actual_image_pixels_supplied": false,
+      "real_person_participation": false
+    }
+  ],
+  "events": [
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_architect",
+        "messageLength": 2918,
+        "responseLength": 309,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 10260
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_beat_writer",
+        "messageLength": 3373,
+        "responseLength": 307,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 10777
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_librarian",
+        "messageLength": 3013,
+        "responseLength": 159,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 9055
+      }
+    ],
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_umpire",
+        "messageLength": 2488,
+        "responseLength": 437,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 9631
+      }
+    ]
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_architect",
+      "messageLength": 2918,
+      "responseLength": 309,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 10260
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_beat_writer",
+      "messageLength": 3373,
+      "responseLength": 307,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 10777
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_librarian",
+      "messageLength": 3013,
+      "responseLength": 159,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 9055
+    },
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_umpire",
+      "messageLength": 2488,
+      "responseLength": 437,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 9631
+    }
+  ]
+}

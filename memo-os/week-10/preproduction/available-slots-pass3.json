@@ -1,0 +1,328 @@
+{
+  "schema": "schemin.week11.required-slot-availability.v1",
+  "captured_at_utc": "2026-11-17T16:46:33.639452+00:00",
+  "league_id": "1417621",
+  "season": 2026,
+  "purpose": "Read-only memo-planning availability shortlist for seven uncovered required Week11 slots; no acquisition or allocation recommendation, bid or roster change.",
+  "required_slots": [
+    {
+      "team_id": 1,
+      "team": "ObiWan Jacoby",
+      "position": "D/ST",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "position": "TE",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 7,
+      "team": "The Chili Cheesers",
+      "position": "K",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 9,
+      "team": "El Niño",
+      "position": "TE",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "position": "D/ST",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "position": "D/ST",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "position": "K",
+      "uncovered_count": 1
+    }
+  ],
+  "excluded_week11_bye_clubs": [
+    "ATL",
+    "CLE",
+    "GB",
+    "LAR",
+    "NE",
+    "SEA"
+  ],
+  "coverage": {
+    "TE": 15,
+    "K": 15,
+    "DST": 14,
+    "inventory_complete_claim": false,
+    "ordering": "Provider ESPN-wide roster-rate ordering; not Week11 projections."
+  },
+  "shortlist": {
+    "TE": [
+      {
+        "id": "3117256",
+        "name": "Dalton Schultz",
+        "team": "HOU",
+        "position": "TE",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 8.94,
+        "seasonPoints": 80.5
+      },
+      {
+        "id": "4430802",
+        "name": "Darnell Washington",
+        "team": "PIT",
+        "position": "TE",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 7.1,
+        "seasonPoints": 63.9
+      },
+      {
+        "id": "4808766",
+        "name": "Mason Taylor",
+        "team": "NYJ",
+        "position": "TE",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 6.59,
+        "seasonPoints": 52.7
+      },
+      {
+        "id": "4243331",
+        "name": "Cade Otton",
+        "team": "TB",
+        "position": "TE",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 4.9,
+        "seasonPoints": 44.1
+      }
+    ],
+    "K": [
+      {
+        "id": "17372",
+        "name": "Chris Boswell",
+        "team": "PIT",
+        "position": "K",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 9.67,
+        "seasonPoints": 87
+      },
+      {
+        "id": "4689936",
+        "name": "Jake Bates",
+        "team": "DET",
+        "position": "K",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 9.44,
+        "seasonPoints": 85
+      },
+      {
+        "id": "4362081",
+        "name": "Cameron Dicker",
+        "team": "LAC",
+        "position": "K",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 8.11,
+        "seasonPoints": 73
+      },
+      {
+        "id": "3150744",
+        "name": "Chase McLaughlin",
+        "team": "TB",
+        "position": "K",
+        "injuryStatus": "Active",
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 11,
+        "seasonPoints": 99
+      }
+    ],
+    "DST": [
+      {
+        "id": "-16003",
+        "name": "Bears D/ST",
+        "team": "CHI",
+        "position": "D/ST",
+        "injuryStatus": null,
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 11.52,
+        "seasonPoints": 103.7
+      },
+      {
+        "id": "-16004",
+        "name": "Bengals D/ST",
+        "team": "CIN",
+        "position": "D/ST",
+        "injuryStatus": null,
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 10.56,
+        "seasonPoints": 95
+      },
+      {
+        "id": "-16028",
+        "name": "Commanders D/ST",
+        "team": "WSH",
+        "position": "D/ST",
+        "injuryStatus": null,
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 8.4,
+        "seasonPoints": 75.6
+      },
+      {
+        "id": "-16021",
+        "name": "Eagles D/ST",
+        "team": "PHI",
+        "position": "D/ST",
+        "injuryStatus": null,
+        "acquisitionState": "waivers",
+        "waiverClearsAt": "2026-11-18T08:00:00.000Z",
+        "pointsPerGame": 5.39,
+        "seasonPoints": 48.5
+      }
+    ]
+  },
+  "excluded_returned_entries": {
+    "TE": [
+      {
+        "id": "4242355",
+        "name": "Jake Ferguson",
+        "team": "DAL",
+        "reasons": [
+          "provider injury designation Out"
+        ]
+      },
+      {
+        "id": "4576297",
+        "name": "AJ Barner",
+        "team": "SEA",
+        "reasons": [
+          "Week11 bye"
+        ]
+      },
+      {
+        "id": "4831959",
+        "name": "Eli Raridon",
+        "team": "NE",
+        "reasons": [
+          "Week11 bye"
+        ]
+      },
+      {
+        "id": "4242557",
+        "name": "Colby Parkinson",
+        "team": "LAR",
+        "reasons": [
+          "Week11 bye"
+        ]
+      }
+    ],
+    "K": [
+      {
+        "id": "4697745",
+        "name": "Tyler Loop",
+        "team": "BAL",
+        "reasons": [
+          "provider injury designation IR"
+        ]
+      },
+      {
+        "id": "4574716",
+        "name": "Harrison Mevis",
+        "team": null,
+        "reasons": [
+          "provider club not reported"
+        ]
+      },
+      {
+        "id": "4869461",
+        "name": "Trey Smack",
+        "team": "GB",
+        "reasons": [
+          "Week11 bye"
+        ]
+      },
+      {
+        "id": "10621",
+        "name": "Nick Folk",
+        "team": null,
+        "reasons": [
+          "provider club not reported"
+        ]
+      },
+      {
+        "id": "4258620",
+        "name": "Andre Szmyt",
+        "team": "CLE",
+        "reasons": [
+          "Week11 bye"
+        ],
+        "current_acquisition_state": "waivers",
+        "waiverClearsAt": "2026-11-19T08:00:00.000Z"
+      }
+    ],
+    "DST": [
+      {
+        "id": "-16009",
+        "name": "Packers D/ST",
+        "team": "GB",
+        "reasons": [
+          "Week11 bye"
+        ]
+      },
+      {
+        "id": "-16017",
+        "name": "Patriots D/ST",
+        "team": "NE",
+        "reasons": [
+          "Week11 bye"
+        ]
+      },
+      {
+        "id": "-16001",
+        "name": "Falcons D/ST",
+        "team": "ATL",
+        "reasons": [
+          "Week11 bye"
+        ]
+      }
+    ]
+  },
+  "availability_limits": [
+    "This is a bounded live planning subset from15TE,15K and14DST rows, not the entire player inventory.",
+    "All twelve retained candidates are now on waivers; no immediate add is promised.",
+    "Reported clearance2026-11-18T08:00Z is03:00EST, not a guaranteed successful acquisition.",
+    "Candidate IDs are absent from all222 current roster entries.",
+    "Provider Active is not medical clearance; uncertain health is checked against dated reporting.",
+    "Season points and points-per-game are actual league-scored season values, not Week11 projections.",
+    "No player is allocated to multiple teams and no claim, bid or roster action was performed."
+  ],
+  "source_file": "../production-evidence/finalization-20261117/availability-readback.json",
+  "bye_source": {
+    "url": "https://www.nfl.com/schedules/2026/by-week/week-11",
+    "support": "ATL,CLE,GB,LAR,NE,SEA Week11 byes",
+    "sports_news_source_id": "S16",
+    "sports_news_file": "w10_pass3_sports_news.json"
+  }
+}

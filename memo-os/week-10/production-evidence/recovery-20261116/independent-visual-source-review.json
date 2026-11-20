@@ -1,0 +1,32 @@
+{
+  "model": "gemma3:4b",
+  "role": "independent source/preflight counter-review, not a real named human",
+  "started_at_utc": "2026-11-16T20:24:32.599724+00:00",
+  "finished_at_utc": "2026-11-16T20:24:45.552525+00:00",
+  "input_text": "Inspect these two EXISTING published reference images. First is the actual canonical 12-character contact sheet; second is the official Week9 Opening Drive. Describe only what you see. Return JSON with keys character_identity_checks (gorilla_centaur_not_human_rider, red_leopard_not_human, duck_not_human, snake_multiple_heads, executive_suit), opening_drive_visual_language, inappropriate_replacements_to_reject. This is source inspection, NOT acceptance of nonexistent Week10 artwork.",
+  "input_sha256": "bb708bd795e15c26a07edd92713b9fcd5fa7c57e8fbb593e50cad37ab9430b25",
+  "actual_image_payloads": [
+    {
+      "path": "canonical-reference-contact.jpg",
+      "sha256": "7cf7e83569e444ea95cb499328aef3c17900ab1f6a106ca86729de05fe730400"
+    },
+    {
+      "path": "precedent-w09-p02.jpg",
+      "sha256": "5f6bdaa453c340723073b74517390c5f5570dec451b5980edce1e655b087a459"
+    }
+  ],
+  "response": {
+    "character_identity_checks": {
+      "gorilla_centaur_not_human_rider": false,
+      "red_leopard_not_human": false,
+      "duck_not_human": false,
+      "snake_multiple_heads": true,
+      "executive_suit": true
+    },
+    "opening_drive_visual_language": "The images depict a stylized, somewhat gothic, promotional poster for 'Schemin'26 Week 9 - Opening Drive'. The visual style is characterized by ornate borders, heraldic imagery (shields, crests, banners), and a focus on individual character portraits within a grand, almost theatrical setting. The color palette is dominated by reds, golds, and dark browns. The text emphasizes a 'Seven Teams. One Record.' theme and highlights the end of the regular season.",
+    "inappropriate_replacements_to_reject": []
+  },
+  "new_art_created": false,
+  "acceptance": "ADVISORY_REJECTED_INACCURATE_IDENTITY_CLASSIFICATIONS",
+  "source_pixel_root_review": "Actual canonical images visually inspected by the primary reviewer; model misclassifications do not override source anatomy."
+}

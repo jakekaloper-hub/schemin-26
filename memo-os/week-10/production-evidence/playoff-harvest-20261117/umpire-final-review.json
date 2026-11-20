@@ -1,0 +1,166 @@
+{
+  "schema_version": "schemin.umpire_integration_review.v1",
+  "review_id": "W10-PLAYOFF-HARVEST-UMPIRE-FINAL-20261117",
+  "reviewed_at_utc": "2026-11-17T17:45:28.382209+00:00",
+  "reviewer": {
+    "host_agent": "/root/exact_scenario_math",
+    "review_lens": "Umpire / independent acceptance",
+    "execution": "Actual independent host-subagent source, math, diff, file and regression review",
+    "external_director_or_human_approval": false,
+    "artwork_approval": false
+  },
+  "decision": "PASS_SCOPED_PREPRODUCTION_INTEGRATION",
+  "baseline_commit": "0343047b23b37a814340cafbcc7f830ebfe91919",
+  "scope": "Existing Week 10 package: selected copy changes in W10-P28, W10-P30 and W10-P31, scoped synchronization, source/proof intake, consumption receipt and preserved production pause.",
+  "protected_full_source": {
+    "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+    "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "reviewed": true,
+    "raw_payload_or_private_locator_in_this_review": false
+  },
+  "reviewed_artifacts": {
+    "public_claim_receipt": {
+      "path": "memo-os/week-10/preproduction/playoff-harvest.json",
+      "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722"
+    },
+    "copy_authority": {
+      "path": "memo-os/week-10/preproduction/playoff-harvest-copy.json",
+      "sha256": "f5926c4d8eea61b1b296e7422251860d9b7370115343037d136dcddd074b3585"
+    },
+    "synchronizer": {
+      "path": "memo-os/week-10/preproduction/integrate_playoff_harvest.py",
+      "sha256": "eec1ed9108c7135c83ee78df86520f54fd5ef71db52b7976034488f33d565722"
+    },
+    "consumption_receipt": {
+      "path": "memo-os/week-10/preproduction/playoff-harvest-consumption.json",
+      "sha256": "85a5e4bdef9b455051321dde22df5c1d552c3dbbf8a3d9b599dd3da430b7d87f"
+    },
+    "manifest": {
+      "path": "memo-os/week-10/preproduction/render-inputs/manifest.json",
+      "sha256": "85098a8823796202496b2a2a3dd99f4235e5d872fca4b4d341cc089865480ee4"
+    },
+    "canonical_facts": {
+      "path": "memo-os/week-10/preproduction/facts.json",
+      "sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
+    }
+  },
+  "source_and_math_checks": {
+    "status": "PASS",
+    "league_id": 1417621,
+    "season": 2026,
+    "through_week": 10,
+    "completed_game_ledger_rows_reconciled_to_final_records_points_for_and_against": 60,
+    "remaining_fixture_count": 24,
+    "team_povs_checked": 12,
+    "stored_binary_witness_entries_replayed": 60,
+    "official_tie_witness_entries_replayed": 1,
+    "total_witness_entries_replayed": 61,
+    "qualification_set_mismatches": 0,
+    "entry_count_interpretation": "Retained entries, not unique schedules, forecasts or probabilities.",
+    "final_protected_proof_payloads_match_independently_replayed_calculations": true,
+    "vendor_raw_capture_tables_reconciled": 20,
+    "all_team_own_win_and_own_loss_source_pairs_checked": 12,
+    "published_two_team_estimates_match_opposite_result_runs": true,
+    "protected_claim_anchors_resolved": 30,
+    "protected_proof_sections_resolved": 8,
+    "selected_vendor_run_pointers_resolved": 2,
+    "public_claim_explanations_match_protected_source": true
+  },
+  "copy_scope_checks": {
+    "status": "PASS",
+    "visible_record_scenario_no_ties_qualifier_retained": true,
+    "mud_loss_elimination_distinguished_from_win_all_four_requirement": true,
+    "mud_official_tie_counterexample_retained_in_protected_evidence": true,
+    "zero_or_hundred_percent_vendor_output_not_used_as_mathematical_proof": true,
+    "vendor_callout_has_date_attribution_trial_count_fixed_result_scope_and_exclusions": true,
+    "division_clinch_claims_retain_named_outcomes": true,
+    "copy_within_existing_body_word_budgets": true
+  },
+  "integration_and_preservation_checks": {
+    "status": "PASS",
+    "selected_pages": [
+      "W10-P28",
+      "W10-P30",
+      "W10-P31"
+    ],
+    "unselected_request_files_byte_identical_to_baseline": 31,
+    "unselected_source_pages_structurally_identical_to_baseline": 31,
+    "all_scenes_cast_geography_composition_and_personalization_preserved": 34,
+    "all_reference_lists_and_reference_ingress_receipts_preserved": 34,
+    "unique_existing_reference_images_decoded_dimensions_and_hashes_verified": 52,
+    "full_source_copy_brief_folio_storycard_prompt_request_chains_verified": 3,
+    "manifest_request_hashes_verified": 34,
+    "finalized_facts_director_sequences_landscape_bible_and_personalization_pass_byte_identical": true,
+    "reading_order_and_six_sheet_grouping_preserved": true,
+    "optional_W10_P32_remains_omitted": true,
+    "consumption_dispositions_and_copy_pointer_hash_request_hash_bindings_verified": 6,
+    "artifact_aware_claim_locations_verified": true,
+    "synchronization_idempotence_and_stale_source_rejection_verified": true,
+    "legacy_reconciler_reapply_hook_reviewed": true
+  },
+  "regression_evidence": {
+    "complete_suite": {
+      "tests": 48,
+      "result": "PASS",
+      "receipt": "memo-os/week-10/production-evidence/playoff-harvest-20261117/tests.txt",
+      "receipt_sha256": "e7f0cbe3885c285e2ef625c7c3bbccafe7eda4a2bd84c3921de73924f2a8d6f0",
+      "observation": "Read the completed full-suite receipt including the composition/personalization regressions."
+    },
+    "independent_final_run": {
+      "tests": 10,
+      "result": "PASS",
+      "selection": "All nine playoff-harvest regressions plus the all-page actual-reference-byte regression. This rerun includes the prior failed gates and the added consumption-receipt test."
+    },
+    "initial_failures_resolved": [
+      "Concurrent checkout initially lacked43existing reference files; all52unique references are now present, decoded and hash-verified.",
+      "The public-payload regression was narrowed to reject raw private payloads and private locators while allowing scrubbed source-hash metadata.",
+      "Witness count metadata now states60binary entries plus1official-tie entry."
+    ]
+  },
+  "publication_boundary": {
+    "full_source_protected_and_public_receipt_contains_only_scoped_claim_material": true,
+    "no_raw_proof_payload_or_private_library_locator_in_this_review": true,
+    "separate_vendor_and_exact_proof_intake_not_descriptive_adapter_promotion": true,
+    "PNG_production_authorized": false,
+    "new_art_generated": false,
+    "publication_approved": false,
+    "merge_approved_by_this_review": false,
+    "acceptance": "Accepts this implemented preproduction integration and its evidence. It does not approve unseen artwork or authorize PNG execution, publication, or a merge."
+  },
+  "blockers": [],
+  "final_note": "Review completed against the latest concurrent design baseline. The source and copy are integrated into actual existing render inputs; the later design and personalization work is preserved.",
+  "concurrency_addenda": [
+    {
+      "reviewed_at_utc": "2026-11-17T17:52:06.218573+00:00",
+      "decision": "PASS_CONCURRENT_BASELINE_PRESERVATION",
+      "previous_reviewed_baseline": "0343047b23b37a814340cafbcc7f830ebfe91919",
+      "new_reviewed_baseline": "3d80fc2a5944e45e1c250b1f42f0130f3f04ba20",
+      "upstream_changed_paths": 22,
+      "upstream_change_scope": "Design/personality review evidence, one review helper and one new personalization regression. No operative source, page, scene, copy or render-request changes.",
+      "prior_reviewed_artifact_hashes_all_unchanged": true,
+      "prior_source_math_and_copy_acceptance_remains_valid": true,
+      "all34_scene_and_reference_pairs_preserved_against_new_baseline": true,
+      "all31_unselected_requests_byte_identical_to_new_baseline": true,
+      "new_personalization_regression_preserved_and_independently_passed": true,
+      "existing_reference_images_present_and_hash_verified": 52,
+      "regression_evidence": {
+        "full_suite_tests": 49,
+        "result": "PASS",
+        "receipt": "memo-os/week-10/production-evidence/playoff-harvest-20261117/tests.txt",
+        "receipt_sha256": "3a791efec15c724a9454b7852c5081e00f7e4a94e5b06a878434ebf7053b4fc4",
+        "independent_new_regression_tests": 1,
+        "independent_new_regression_result": "PASS",
+        "supersedes_prior_complete_suite_receipt": true
+      },
+      "resolved_checkout_condition": "The rebase removed local reference hydration. It was restored; all52reference hashes and the completed49-test suite now pass.",
+      "proof_replay_repeated": false,
+      "proof_replay_reason": "No proof payload or substantive source changed; all previously reviewed artifact hashes remain exact.",
+      "PNG_production_authorized": false,
+      "publication_approved": false,
+      "blockers": []
+    }
+  ],
+  "effective_baseline_commit": "3d80fc2a5944e45e1c250b1f42f0130f3f04ba20",
+  "effective_complete_suite_tests": 49,
+  "effective_decision": "PASS_SCOPED_PREPRODUCTION_INTEGRATION"
+}

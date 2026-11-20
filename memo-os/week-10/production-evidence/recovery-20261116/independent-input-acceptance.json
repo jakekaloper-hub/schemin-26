@@ -1,0 +1,45 @@
+{
+  "model": "gemma3:4b",
+  "checked_at_utc": "2026-11-16T20:27:30.842018+00:00",
+  "role": "independent input-readiness counter-check; not real-person approval or raster acceptance",
+  "verified_inputs": {
+    "task": "pre-generation source and contract audit only",
+    "artwork_files_generated_this_run": 0,
+    "grayscale_page_request_files": 34,
+    "contact_sheet_allocations": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      4
+    ],
+    "all_character_crop_hashes_verified": 12,
+    "real_reference_image_occurrences_decoded": 110,
+    "full_copy_and_nested_mirrors_equal": true,
+    "cover_two_canonical_characters_required": true,
+    "opening_drive_published_table_map_banner_format": true,
+    "red_locations_distinct_and_source_verified": true,
+    "actor_anatomy_constraints_preserved": true,
+    "actual_ai_role_consultations": 38,
+    "consultation_findings_adjudicated_against_sources": 44,
+    "actionable_input_findings_open": 0,
+    "regression_tests_passed": 12,
+    "sports_scores_fresh_and_provisional": true,
+    "all_six_provider_winners": "UNDECIDED",
+    "new_artworks_approved": false,
+    "final_publication_authorized": false
+  },
+  "prompt": "You are an independent preflight auditor. The following are VERIFIED EXECUTION RECEIPTS, not plans or images. Decide ONLY whether the input-preparation task is complete enough to begin user-requested individual grayscale folio proof generation. Do not claim any art has been generated; ARTWORK COUNT IS ZERO. Subsequent inspection of future generated output is a later stage, not an undone input-preparation task. ESPN finality is required for publication, not for provisional grayscale proofs. Return JSON exactly with: input_preparation_complete(boolean), ready_for_requested_grayscale_generation(boolean), artworks_created(integer), artworks_approved(boolean), final_publication_authorized(boolean), input_contradictions(array), reason(string). Do not add invented facts.\n{\"task\": \"pre-generation source and contract audit only\", \"artwork_files_generated_this_run\": 0, \"grayscale_page_request_files\": 34, \"contact_sheet_allocations\": [6, 6, 6, 6, 6, 4], \"all_character_crop_hashes_verified\": 12, \"real_reference_image_occurrences_decoded\": 110, \"full_copy_and_nested_mirrors_equal\": true, \"cover_two_canonical_characters_required\": true, \"opening_drive_published_table_map_banner_format\": true, \"red_locations_distinct_and_source_verified\": true, \"actor_anatomy_constraints_preserved\": true, \"actual_ai_role_consultations\": 38, \"consultation_findings_adjudicated_against_sources\": 44, \"actionable_input_findings_open\": 0, \"regression_tests_passed\": 12, \"sports_scores_fresh_and_provisional\": true, \"all_six_provider_winners\": \"UNDECIDED\", \"new_artworks_approved\": false, \"final_publication_authorized\": false}",
+  "prompt_sha256": "f1067448ca4630c3943277a48eb651cb57dc4b1e880f75996384ab41e900c264",
+  "response": {
+    "input_preparation_complete": true,
+    "ready_for_requested_grayscale_generation": true,
+    "artworks_created": 0,
+    "artworks_approved": false,
+    "final_publication_authorized": false,
+    "input_contradictions": [],
+    "reason": "All verification checks have passed, including character crops, reference images, and mirror checks. While no artwork has been created, the input preparation is complete and sufficient to proceed with grayscale generation requests."
+  },
+  "machine_checked_scope": true
+}

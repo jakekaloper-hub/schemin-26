@@ -1,0 +1,1018 @@
+{
+  "reviewed_at_utc": "2026-11-17T16:57:39.916878+00:00",
+  "reviewer": "Primary executing assistant, source-adjudication pass",
+  "findings_adjudicated": 37,
+  "disposition_counts": {
+    "REJECTED_INVENTED_PAIRING": 1,
+    "REJECTED_UNSUPPORTED_SEED_ASSERTION": 1,
+    "DECLINED_STYLE_CHANGE": 5,
+    "REJECTED_CONTRADICTED_BY_ROSTER": 1,
+    "REJECTED_REVERSED_WINNER": 2,
+    "REJECTED_FALSE_CONTRADICTION": 1,
+    "REJECTED_WRONG_WEEK": 3,
+    "NO_FINDING_ON_FINAL_DELTA": 1,
+    "REJECTED_TRIO_MISREAD": 1,
+    "REJECTED_HOME_AWAY_CONFUSION": 1,
+    "DECLINED_STYLE_ONLY": 1,
+    "REJECTED_WRONG_MATCHUP": 2,
+    "REJECTED_CANON_BREAK": 2,
+    "REJECTED_UNSUPPORTED_INFERENCE": 1,
+    "REJECTED_WRONG_OWNER_AND_NEWS": 1,
+    "ALREADY_SATISFIED": 8,
+    "REJECTED_PROVIDER_CONTRADICTION": 2,
+    "REJECTED_HEADING_MISREAD": 1,
+    "REJECTED_INVALID_MATHEMATICS": 1,
+    "REJECTED_INVALID_STANDINGS_ASSERTION": 1,
+    "ADAPTED_SCOPE_CLARIFICATION_ONLY": 1
+  },
+  "findings": [
+    {
+      "kind": "director",
+      "role_id": "the_agent",
+      "role_name": "The Agent",
+      "primary_review_sheet": 1,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P04"
+          ],
+          "severity": "major",
+          "observation": "The Week 10 results table incorrectly lists 'His Majesty's Blood' as the winner against 'The LLC' with 208.76 points, while the actual final score was 'The LLC' with 203.96 points.",
+          "required_fix": "Correct the score for 'The LLC' to 203.96 points."
+        }
+      ],
+      "disposition": "REJECTED_INVENTED_PAIRING",
+      "source_based_reason": "His Majesty’s Blood beat Dr. Duckhook; The LLC beat ObiWan Jacoby. The dual200cover does not create a head-to-head meeting.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_agent.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_analyst",
+      "role_name": "The Analyst",
+      "primary_review_sheet": 5,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P27"
+          ],
+          "severity": "minor",
+          "observation": "The seed order does not match the actual standings.",
+          "required_fix": "Update the seed order to reflect the actual standings."
+        }
+      ],
+      "disposition": "REJECTED_UNSUPPORTED_SEED_ASSERTION",
+      "source_based_reason": "All12 rendered standing rows are asserted equal to provider playoffSeed order; equal6–4records do not imply sorting by points alone.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_analyst.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_architect",
+      "role_name": "The Architect",
+      "primary_review_sheet": 6,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P30"
+          ],
+          "severity": "major",
+          "observation": "The headline 'FOUR MORE AFTER THIS' does not accurately reflect the content of the page, which discusses the playoff road and the possibility of Mud Dogs winning Burgers.",
+          "required_fix": "Change the headline to 'FOUR MORE GAMES AFTER THIS' to accurately reflect the content."
+        }
+      ],
+      "disposition": "DECLINED_STYLE_CHANGE",
+      "source_based_reason": "Four remaining games is correct. The approved headline need not be replaced merely to restate body text.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_architect.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_beat_writer",
+      "role_name": "The Beat Writer",
+      "primary_review_sheet": 5,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P25"
+          ],
+          "severity": "major",
+          "observation": "The continuity section states 'Seven positions across six teams; Seven Deadly Chins needs both specialist slots. Current starters are not presumed to be the submitted Week11 lineup.' However, the specialistNeeds data shows Seven Deadly Chins only needs one specialist slot.",
+          "required_fix": "Update the continuity section to reflect the actual specialist needs data."
+        }
+      ],
+      "disposition": "REJECTED_CONTRADICTED_BY_ROSTER",
+      "source_based_reason": "The current specialist-needs inventory contains both D/ST and K for Seven Deadly Chins, totaling seven slots across six teams.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_beat_writer.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_bookkeeper",
+      "role_name": "The Bookkeeper",
+      "primary_review_sheet": 2,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P10"
+          ],
+          "severity": "major",
+          "observation": "The result section for Red Leopards vs El Niño incorrectly states El Niño as the winner with a margin of 41.26, while the actual result shows Red Leopards as the winner with a margin of 41.26.",
+          "required_fix": "Correct the result section to reflect Red Leopards as the winner with a margin of 41.26."
+        }
+      ],
+      "disposition": "REJECTED_REVERSED_WINNER",
+      "source_based_reason": "The official result is El Niño189.08 over Red Leopards147.82, margin41.26.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_bookkeeper.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_closer",
+      "role_name": "The Closer",
+      "primary_review_sheet": 1,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P02"
+          ],
+          "severity": "major",
+          "observation": "The camera description for W10-P02 does not match the actual content. The description mentions a briefing table composition, but the actual content is a full-page grayscale memo folio with integrated prose.",
+          "required_fix": "Update the camera description for W10-P02 to reflect the actual content of the page."
+        }
+      ],
+      "disposition": "REJECTED_FALSE_CONTRADICTION",
+      "source_based_reason": "A briefing-table scene and a full-page integrated folio are compatible; published Week9p2 is the actual controlling visual precedent.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_closer.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_clubhouse_manager",
+      "role_name": "The Clubhouse Manager",
+      "primary_review_sheet": 4,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P21"
+          ],
+          "severity": "major",
+          "observation": "The final result is incorrectly displayed as a 'FINAL' game, but the game is actually a 'WEEK11' game.",
+          "required_fix": "Correct the game result to reflect it as a 'WEEK11' game."
+        }
+      ],
+      "disposition": "REJECTED_WRONG_WEEK",
+      "source_based_reason": "P21 is the completed Week10 birthday matchup. The Week11 opponents are distinct and verified separately.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_clubhouse_manager.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_commissioner",
+      "role_name": "The Commissioner",
+      "primary_review_sheet": 4,
+      "returned_findings": [],
+      "disposition": "NO_FINDING_ON_FINAL_DELTA",
+      "source_based_reason": "The valid retry returned no findings on current final-source P21/P31 copy, including the user’s Week11 implications. The original truncated response is retained.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_commissioner.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_commissioner_general",
+      "role_name": "The Commissioner General",
+      "primary_review_sheet": 3,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P18"
+          ],
+          "severity": "minor",
+          "observation": "The player statistics in the 'WHY THE BOARD MOVED' section include an incorrect score for Joe Burrow, who is listed with 103.66 points, but his actual points are 103.66.",
+          "required_fix": "Correct the player statistics to reflect the actual points scored by Joe Burrow."
+        }
+      ],
+      "disposition": "REJECTED_TRIO_MISREAD",
+      "source_based_reason": "103.66 is the sum of Joe Burrow43.26, Isaiah Likely30.70 and Parker Washington29.70, explicitly described as a trio, not Burrow alone.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_commissioner_general.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_gm",
+      "role_name": "The GM",
+      "primary_review_sheet": 1,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P04"
+          ],
+          "severity": "major",
+          "observation": "The Week 10 scoreboard page incorrectly lists 'The Chili Cheesers' as the home team against 'D0nkey K0ng' in the first game, but the actual game result shows 'D0nkey K0ng' as the winner with 156.67 points.",
+          "required_fix": "Correct the home and away team labels on page W10-P04 to reflect the actual game result."
+        }
+      ],
+      "disposition": "REJECTED_HOME_AWAY_CONFUSION",
+      "source_based_reason": "Provider home/away is not winner/loser: The Chili Cheesers is home93.70 and D0nkey K0ng away156.67. Fictional rodeo hosting is a separate founder-directed location.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_gm.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_groundskeeper",
+      "role_name": "The Groundskeeper",
+      "primary_review_sheet": 6,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P30"
+          ],
+          "severity": "minor",
+          "observation": "The phrase 'Saved constructive witnesses establish possibility, never odds or likelihood.' could be more concise and direct.",
+          "required_fix": "Replace with 'Saved constructive witnesses establish possibility. No odds or likelihood.'"
+        }
+      ],
+      "disposition": "DECLINED_STYLE_ONLY",
+      "source_based_reason": "The backstage witness limitation already distinguishes possibility from probability. No reader-facing factual defect was identified.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_groundskeeper.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_librarian",
+      "role_name": "The Librarian",
+      "primary_review_sheet": 6,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P30"
+          ],
+          "severity": "major",
+          "observation": "The headline 'FOUR MORE AFTER THIS' does not accurately reflect the content, which discusses the remaining games and their implications for the playoff route.",
+          "required_fix": "Change the headline to 'THE NEXT SIX' to match the content."
+        }
+      ],
+      "disposition": "DECLINED_STYLE_CHANGE",
+      "source_based_reason": "The approved playoff-page headline refers to four remaining regular-season games. Renaming it The Next Six would duplicate a different department and change intent.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_librarian.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_pitching_coach",
+      "role_name": "The Pitching Coach",
+      "primary_review_sheet": 2,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P10"
+          ],
+          "severity": "major",
+          "observation": "The result section for 'Red Leopards vs El Niño' incorrectly states the winner as 'El Niño' with a margin of 41.26, but the actual game result shows 'Red Leopards' as the winner with a margin of 41.26.",
+          "required_fix": "Correct the result section to reflect 'Red Leopards' as the winner with a margin of 41.26."
+        }
+      ],
+      "disposition": "REJECTED_REVERSED_WINNER",
+      "source_based_reason": "ESPN winnerAWAY and scores189.08–147.82 establish El Niño over Red Leopards. Do not reverse the result.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_pitching_coach.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_scout",
+      "role_name": "The Scout",
+      "primary_review_sheet": 3,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P14"
+          ],
+          "severity": "major",
+          "observation": "Incorrect final score in the body copy (146.22 vs 146.22, should be 189.08)",
+          "required_fix": "Correct the final score in the body copy to 189.08"
+        }
+      ],
+      "disposition": "REJECTED_WRONG_MATCHUP",
+      "source_based_reason": "P14 is Seven Deadly Chins146.22 versus Three Dreaded Snake82.78.189.08 belongs to El Niño in the separate P10 matchup.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_scout.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_scout_master",
+      "role_name": "The Scout Master",
+      "primary_review_sheet": 5,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P24"
+          ],
+          "severity": "minor",
+          "observation": "The copy references a 'destroyed emplacement' and 'surviving battery' that are not present in the visual content.",
+          "required_fix": "Remove references to destroyed emplacements and surviving batteries in the copy."
+        }
+      ],
+      "disposition": "REJECTED_CANON_BREAK",
+      "source_based_reason": "Destroyed and surviving Imperial batteries are explicit required scene elements. No generated pixels exist from which to claim their absence.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_scout_master.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_setup_man",
+      "role_name": "The Setup Man",
+      "primary_review_sheet": 2,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P07"
+          ],
+          "severity": "major",
+          "observation": "The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the camera shows a wet rope and mud progression with a visible handwork hat beside D0nkey K0ng, implying a property transfer.",
+          "required_fix": "Remove the handwork hat from the camera view to match the continuity text."
+        }
+      ],
+      "disposition": "REJECTED_UNSUPPORTED_INFERENCE",
+      "source_based_reason": "P07 places The Chili Cheesers hat beside the restrained outlaw. It is not a transfer of property to D0nkey K0ng.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_setup_man.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_umpire",
+      "role_name": "The Umpire",
+      "primary_review_sheet": 4,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P21"
+          ],
+          "severity": "major",
+          "observation": "The page incorrectly states that Dr. Duckhook’s Puka Nacua cannot return before Week 15, which contradicts the actual injury report indicating he is out for the season.",
+          "required_fix": "Correct the page to reflect the actual injury status of Dr. Duckhook’s Puka Nacua."
+        }
+      ],
+      "disposition": "REJECTED_WRONG_OWNER_AND_NEWS",
+      "source_based_reason": "Puka Nacua belongs to ObiWan Jacoby, not Dr. Duckhook. Official Rams source says earliestWeek15 eligibility, not a confirmed season-ending loss.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_umpire.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "director",
+      "role_id": "the_warden",
+      "role_name": "The Warden",
+      "primary_review_sheet": 3,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P14"
+          ],
+          "severity": "major",
+          "observation": "The body copy for 'W10-P14' contains a factual error. The score for Seven Deadly Chins is listed as 146.22, but the actual score is 146.22. This discrepancy is likely a typo and should be corrected to 146.22.",
+          "required_fix": "Correct the score for Seven Deadly Chins to 146.22."
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "The suggested value146.22 equals the existing exact score; no mismatch exists.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/director-the_warden.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "brandon_sanderson",
+      "role_name": "Brandon Sanderson — Fantasy Systems, Rules, Costs, Promises/Payoffs & Reader Legibility",
+      "primary_review_sheet": 1,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P04"
+          ],
+          "severity": "critical",
+          "observation": "The Chili Cheesers vs D0nkey K0ng is listed as a Week 10 outcome, but the actual Week 10 results do not include this game.",
+          "required_fix": "Remove the Chili Cheesers vs D0nkey K0ng from the Week 10 results."
+        }
+      ],
+      "disposition": "REJECTED_PROVIDER_CONTRADICTION",
+      "source_based_reason": "The Chili Cheesers versus D0nkey K0ng is explicitly present in the provider Week10 schedule; it must not be removed.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-brandon_sanderson.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "cs_lewis",
+      "role_name": "C. S. Lewis — Moral Imagination, Mythic Wonder & Ethical Consequence",
+      "primary_review_sheet": 2,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P10"
+          ],
+          "severity": "major",
+          "observation": "The result section for Red Leopards vs El Niño incorrectly states that Red Leopards won with a score of 147.82 to 189.08, which contradicts the actual result of El Niño winning with a score of 189.08 to 147.82.",
+          "required_fix": "Correct the result section to reflect El Niño's win with a score of 189.08 to 147.82."
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "The current P10 result already reads El Niño189.08 over Red Leopards147.82.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-cs_lewis.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "george_rr_martin",
+      "role_name": "George R.R. Martin — Ensemble Causality, Multi-POV & Long-Form Epic Architecture",
+      "primary_review_sheet": 3,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P14"
+          ],
+          "severity": "major",
+          "observation": "The deck 'No Quiet Hours' does not accurately reflect the content of the body, which describes a battle between Three Dreaded Snake and Seven Deadly Chins.",
+          "required_fix": "Change the deck to 'Three Dreaded Snake vs Seven Deadly Chins'"
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "No Quiet Hours is the headline; the deck already says Three Dreaded Snake versus Seven Deadly Chins.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-george_rr_martin.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "jk_rowling",
+      "role_name": "J.K. Rowling — Long-Horizon Series Architecture, Mystery, Setup/Payoff & Accessible World Entry",
+      "primary_review_sheet": 4,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P21"
+          ],
+          "severity": "major",
+          "observation": "The payoff scene incorrectly shows the untouched double-decker burger in the box, which contradicts the established narrative that the burger was destroyed.",
+          "required_fix": "Remove the untouched double-decker burger from the box in the payoff scene."
+        }
+      ],
+      "disposition": "REJECTED_CANON_BREAK",
+      "source_based_reason": "The burger remains untouched in its open box; the separate cake hits Dr. Duckhook. A destroyed burger contradicts the founder-directed prop continuity.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-jk_rowling.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "joe_abercrombie",
+      "role_name": "Joe Abercrombie — Tight POV, Distinct Character Voice, Human-Scale Epic Action & Ruthless Revision",
+      "primary_review_sheet": 2,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P10"
+          ],
+          "severity": "major",
+          "observation": "The result of the game between Red Leopards and El Niño is incorrect. The result states that El Niño won with a score of 189.08 to 147.82, but the department heading indicates that Red Leopards won.",
+          "required_fix": "Correct the result in the result section to reflect the correct winner and score."
+        }
+      ],
+      "disposition": "REJECTED_HEADING_MISREAD",
+      "source_based_reason": "A matchup department heading names participants, not the winner. The explicit result correctly selects El Niño.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-joe_abercrombie.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "john_grisham",
+      "role_name": "John Grisham — Propulsion, Chapter Discipline, Outline Pressure & Adult Readability",
+      "primary_review_sheet": 5,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P27"
+          ],
+          "severity": "major",
+          "observation": "The standings table shows teams with 6-4 records, which is not possible since there are only 12 teams and only 11 possible unique records (6-4, 5-5, 4-6, 3-7, 2-8, 1-9, 0-10).",
+          "required_fix": "Correct the standings table to reflect the actual possible records for 12 teams."
+        }
+      ],
+      "disposition": "REJECTED_INVALID_MATHEMATICS",
+      "source_based_reason": "Multiple teams can share the same record. The league has60wins/60losses after60completed games, including six6–4teams.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-john_grisham.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "jrr_tolkien",
+      "role_name": "J.R.R. Tolkien — Secondary World, Mythic Depth & Historical Texture",
+      "primary_review_sheet": 1,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P01"
+          ],
+          "severity": "critical",
+          "observation": "The continuity statement does not accurately reflect the cover editorial synthesis. The cover shows both characters dominating without implying a shared encounter, alliance, crown or belt transfer.",
+          "required_fix": "Revise the continuity statement to accurately reflect the cover's visual and narrative intent."
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "The cover explicitly uses separate editorial story territories and prohibits an invented meeting, alliance or title transfer.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-jrr_tolkien.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "inklings_lens",
+      "role_id": "ursula_k_le_guin",
+      "role_name": "Ursula K. Le Guin — POV, Narrative Distance, Voice, Language & Cultural Interior",
+      "primary_review_sheet": 6,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P30"
+          ],
+          "severity": "major",
+          "observation": "The headline 'FOUR MORE AFTER THIS' does not match the content, which discusses the playoff route and elimination possibilities.",
+          "required_fix": "Change the headline to 'SEVEN BERTHS' or 'MUD DOGS’ NEXT TEST' to reflect the content."
+        }
+      ],
+      "disposition": "DECLINED_STYLE_CHANGE",
+      "source_based_reason": "Four More After This is the approved four-games-left playoff headline, not a factual contradiction.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/inklings_lens-ursula_k_le_guin.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "character_vfx",
+      "role_name": "Joe Letteri",
+      "primary_review_sheet": 5,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P27"
+          ],
+          "severity": "major",
+          "observation": "The standings table shows teams with 6-4 records, which is not possible given the provided seed order and point totals.",
+          "required_fix": "Correct the standings table to reflect the actual seed order and point totals."
+        }
+      ],
+      "disposition": "REJECTED_INVALID_STANDINGS_ASSERTION",
+      "source_based_reason": "Provider standings confirm six6–4teams and the exact rendered seed order. Points totals are not sole seeding authority.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-character_vfx.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "color_finishing",
+      "role_name": "Jill Bogdanowicz",
+      "primary_review_sheet": 6,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P30"
+          ],
+          "severity": "major",
+          "observation": "The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy indicates a potential error in the headline.",
+          "required_fix": "Update the headline to 'ONE CROSSOVER AND THREE DIVISIONAL ROUNDS REMAIN' to match the body text."
+        }
+      ],
+      "disposition": "DECLINED_STYLE_CHANGE",
+      "source_based_reason": "One crossover plus three divisional games equals four remaining games; no numerical discrepancy exists.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-color_finishing.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "costume",
+      "role_name": "Ngila Dickson",
+      "primary_review_sheet": 6,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P30"
+          ],
+          "severity": "major",
+          "observation": "The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy is confusing and potentially misleading.",
+          "required_fix": "Clarify the number of games remaining in the body text to match the headline."
+        }
+      ],
+      "disposition": "DECLINED_STYLE_CHANGE",
+      "source_based_reason": "Four remaining games is explicit in the body and consistent with the headline; no costume or source defect was identified.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-costume.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "editing",
+      "role_name": "Thelma Schoonmaker",
+      "primary_review_sheet": 1,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P04"
+          ],
+          "severity": "major",
+          "observation": "The Chili Cheesers vs D0nkey K0ng game is incorrectly listed as a Week 10 outcome, but the game is actually scheduled for Week 11.",
+          "required_fix": "Correct the game listing to reflect it as a Week 11 outcome."
+        }
+      ],
+      "disposition": "REJECTED_WRONG_WEEK",
+      "source_based_reason": "The Chili Cheesers versus D0nkey K0ng is Week10. Week11 places The Chili Cheesers at ObiWan Jacoby and His Majesty’s Blood at D0nkey K0ng.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-editing.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "environment_design",
+      "role_name": "Dylan Cole",
+      "primary_review_sheet": 4,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P21"
+          ],
+          "severity": "critical",
+          "observation": "The continuity rule states that the untouched double-decker burger should remain in its open box to the side, but the camera shows the burger being lifted and placed on Dr. Duckhook's face.",
+          "required_fix": "Ensure the burger remains in its open box to the side, untouched, as per the continuity rule."
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "P21camera explicitly lifts the separate cake and retains the untouched burger in its box. The claimed reverse staging is absent.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-environment_design.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "performance",
+      "role_name": "Andy Serkis",
+      "primary_review_sheet": 1,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P04"
+          ],
+          "severity": "major",
+          "observation": "The Chili Cheesers vs D0nkey K0ng game is incorrectly listed as a Week 10 outcome, but it is actually a Week 11 game.",
+          "required_fix": "Correct the game listing to reflect it as a Week 11 game."
+        }
+      ],
+      "disposition": "REJECTED_WRONG_WEEK",
+      "source_based_reason": "The official Week10 matchup remains The Chili Cheesers versus D0nkey K0ng; it is not a Week11 fixture.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-performance.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "pose_silhouette",
+      "role_name": "James Baxter",
+      "primary_review_sheet": 3,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P14"
+          ],
+          "severity": "critical",
+          "observation": "The result in W10-P14 contradicts the final facts provided. The final facts state that Seven Deadly Chins won with 146.22 points, while the page shows Slob on my Dobb as the winner with 179.29 points.",
+          "required_fix": "Correct the result in W10-P14 to reflect the final facts: Seven Deadly Chins 146.22, Slob on my Dobb 179.29."
+        }
+      ],
+      "disposition": "REJECTED_WRONG_MATCHUP",
+      "source_based_reason": "P14contains Seven Deadly Chins146.22 versus Three Dreaded Snake82.78. Slob on my Dobb179.29 belongs to P17.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-pose_silhouette.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "production_design",
+      "role_name": "Doug Chiang",
+      "primary_review_sheet": 3,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P14"
+          ],
+          "severity": "major",
+          "observation": "The result in W10-P14 incorrectly states that Seven Deadly Chins won the game with 146.22 points, while the actual score was 146.22 to 82.78.",
+          "required_fix": "Correct the result to reflect the actual score of 146.22 to 82.78."
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "P14 already contains both exact scores146.22–82.78 and the correct winning name.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-production_design.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "sound_motion",
+      "role_name": "Randy Thom",
+      "primary_review_sheet": 2,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P10"
+          ],
+          "severity": "major",
+          "observation": "The result of the game between Red Leopards and El Niño is incorrect. The result states El Niño won with 189.08 points, but the actual score was 116.32 to 97.96.",
+          "required_fix": "Correct the result to reflect the actual score of 116.32 to 97.96, with El Niño as the loser."
+        }
+      ],
+      "disposition": "ADAPTED_SCOPE_CLARIFICATION_ONLY",
+      "source_based_reason": "The proposed winner/score substitution was false:116.32–97.96 is historical, not Week10. The prose now explicitly says2022semifinal to make the distinction harder to misread.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-sound_motion.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "stunt_blocking",
+      "role_name": "Rob Alonzo",
+      "primary_review_sheet": 2,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P10"
+          ],
+          "severity": "major",
+          "observation": "The result of the match between Red Leopards and El Niño is incorrectly stated as a loss for Red Leopards, when in fact El Niño won.",
+          "required_fix": "Change the result to 'FINAL', 'winner': 'El Niño', 'winner_points': '189.08', 'loser': 'Red Leopards', 'loser_points': '147.82', 'winner_record': '6–4', 'loser_record': '5–5', 'margin': '41.26'"
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "The requested P10FINAL winner/score/margin object exactly matches the existing data.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-stunt_blocking.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "unit_stills",
+      "role_name": "Frank Masi",
+      "primary_review_sheet": 4,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P21"
+          ],
+          "severity": "major",
+          "observation": "The continuity rule states that the untouched double-decker burger should remain in its open box to the side, but the camera shows the burger being lifted and placed on Dr. Duckhook's face.",
+          "required_fix": "Ensure the camera shows the untouched double-decker burger remaining in its open box to the side, with the cake being lifted and placed on Dr. Duckhook's face."
+        }
+      ],
+      "disposition": "ALREADY_SATISFIED",
+      "source_based_reason": "The exact camera already says cake-to-face, burger untouched to the side; no prop change is needed.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-unit_stills.json",
+      "real_person_participation": false
+    },
+    {
+      "kind": "production_lens",
+      "role_id": "vfx_pipeline",
+      "role_name": "John Knoll",
+      "primary_review_sheet": 5,
+      "returned_findings": [
+        {
+          "page_ids": [
+            "W10-P27"
+          ],
+          "severity": "critical",
+          "observation": "The standings table shows 'Slob on my Dobb' as the first seed with 1599.99 points, but the seedOrder array shows 'Slob on my Dobb' as the 6th seed.",
+          "required_fix": "Update the standings table to reflect the correct seed order from the seedOrder array."
+        }
+      ],
+      "disposition": "REJECTED_PROVIDER_CONTRADICTION",
+      "source_based_reason": "Slob on my Dobb is official seed1, not6, in both direct ESPN and connected Flaim standings.",
+      "source_authority": [
+        "final-league-snapshot.json",
+        "issue-previs.json",
+        "character-world-packet.json",
+        "playoff-witnesses-final.json"
+      ],
+      "raw_response": "reviews/production_lens-vfx_pipeline.json",
+      "real_person_participation": false
+    }
+  ],
+  "unsupported_advice_adopted": false,
+  "actual_raster_approval_claimed": false,
+  "input_stage_open_findings": 0,
+  "additional_primary_fixes": [
+    "Whole-roster snapshot dumps removed from image prompts while preserving hashed source bindings",
+    "Idempotent availability exclusions",
+    "User Week11 stakes integrated with constructive loss-survival counterexamples",
+    "Explicit2022historical score label"
+  ]
+}

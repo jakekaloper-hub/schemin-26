@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_commissioner_general",
+  "name": "The Commissioner General",
+  "domain": "legal",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:15:17.408Z",
+  "finished_at": "2026-11-16T20:15:37.422Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The performance table on W10-P18 incorrectly lists Isaiah Likely as a TE (Tight End) instead of a WR (Wide Receiver).\",\n      \"required_fix\": \"Correct Isaiah Likely's position to WR in the performance table.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 3,
+  "actual_input_sha256": "c3cb53382f51d3cca7c83be6a5e6aec8147e643c28e2206c5bf98184e3734ef7",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P18"
+        ],
+        "severity": "major",
+        "observation": "The performance table on W10-P18 incorrectly lists Isaiah Likely as a TE (Tight End) instead of a WR (Wide Receiver).",
+        "required_fix": "Correct Isaiah Likely's position to WR in the performance table."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

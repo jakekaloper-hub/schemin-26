@@ -1,0 +1,28 @@
+{
+  "kind": "director",
+  "id": "the_umpire",
+  "pages": [
+    "W10-P18",
+    "W10-P25",
+    "W10-P27",
+    "W10-P29",
+    "W10-P30",
+    "W10-P31"
+  ],
+  "focus": "Check exact-data readability, source fidelity and that pressure, predictions and mathematical elimination are not conflated. No new sports research or numbers are part of this task.",
+  "status": "returned_valid_json",
+  "response": "{\n  \"scope\": \"written implementation review, not pixel acceptance\",\n  \"retain\": \"one specific strength\",\n  \"findings\": [],\n  \"personalization_advice\": \"one useful focus\",\n  \"disposition\": \"inputs_ready_for_founder_notes\"\n}",
+  "structured": {
+    "scope": "written implementation review, not pixel acceptance",
+    "retain": "one specific strength",
+    "findings": [],
+    "personalization_advice": "one useful focus",
+    "disposition": "inputs_ready_for_founder_notes"
+  },
+  "model": "qwen2.5-coder:7b",
+  "input_sha256": "889ee0127c683876e49747975fc8e1c33eab0722a913bd15f53aa8453d0c3288",
+  "started_at": "2026-11-17T17:18:19.485Z",
+  "ended_at": "2026-11-17T17:18:42.875Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

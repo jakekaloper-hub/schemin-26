@@ -1,0 +1,250 @@
+{
+  "command": "python -B reconcile_render_inputs.py",
+  "scope": "Isolated copy of the active Week 10 worktree and its canon reference bytes; 34 source-folio rebuild; no artwork. Hashes apply only to this captured copy.",
+  "folio_count": 34,
+  "source_image_occurrences": 134,
+  "manifest_sha256": "61ae7c653a0062e65142d20efa3207dc07dbaff604247735380ddd47828a79be",
+  "rebuilt_manifest_sha256": "61ae7c653a0062e65142d20efa3207dc07dbaff604247735380ddd47828a79be",
+  "ffhub_consumption_sha256": "5b9aceef6e463f4fa16ce1b25a1e7739c37081bf21a20dd42e834112cd23f893",
+  "rebuilt_ffhub_consumption_sha256": "5b9aceef6e463f4fa16ce1b25a1e7739c37081bf21a20dd42e834112cd23f893",
+  "per_folio": [
+    {
+      "page_id": "W10-P01",
+      "source_request_sha256": "ea6d4de55282dea210c7f776bd22efc8a8df6f5d19022efee78f66c18d5a8a3b",
+      "rebuilt_request_sha256": "ea6d4de55282dea210c7f776bd22efc8a8df6f5d19022efee78f66c18d5a8a3b",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P02",
+      "source_request_sha256": "ada26b2c25a58853b06ddacfa74c6151ec0a7ad9b94e1e831769cb8b211cb83f",
+      "rebuilt_request_sha256": "ada26b2c25a58853b06ddacfa74c6151ec0a7ad9b94e1e831769cb8b211cb83f",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P03",
+      "source_request_sha256": "bcf1e15bd03785ebff252e193f39eb32984e1c85a18f66b44d08a65e6004dfe4",
+      "rebuilt_request_sha256": "bcf1e15bd03785ebff252e193f39eb32984e1c85a18f66b44d08a65e6004dfe4",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P04",
+      "source_request_sha256": "b1c73cfca029d5fa9594990acef6b8820075bb1c981b12464ade0bb97aa77599",
+      "rebuilt_request_sha256": "b1c73cfca029d5fa9594990acef6b8820075bb1c981b12464ade0bb97aa77599",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P05",
+      "source_request_sha256": "eae4b1d7b3f452bc5eb53429acc5f4614cc71f19d8d1c01e58590ddac995c2ca",
+      "rebuilt_request_sha256": "eae4b1d7b3f452bc5eb53429acc5f4614cc71f19d8d1c01e58590ddac995c2ca",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P06",
+      "source_request_sha256": "3434c9211b0872d997fcb7ed3f76b488108c031a440f8e7fa33881148d18f16a",
+      "rebuilt_request_sha256": "3434c9211b0872d997fcb7ed3f76b488108c031a440f8e7fa33881148d18f16a",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P07",
+      "source_request_sha256": "12cb1e465039a822e1df4ab76b505dd421bcb0bed746ebfbb89928cd58f34168",
+      "rebuilt_request_sha256": "12cb1e465039a822e1df4ab76b505dd421bcb0bed746ebfbb89928cd58f34168",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P08",
+      "source_request_sha256": "f6aeb23f1ba9e5f9381071b11b36aa31818ddad84dfb1f39d2fa1f092b4b9da7",
+      "rebuilt_request_sha256": "f6aeb23f1ba9e5f9381071b11b36aa31818ddad84dfb1f39d2fa1f092b4b9da7",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P09",
+      "source_request_sha256": "f6c0881e2728cfd6f2fd00065f62c661dd64095218c439fe782f9dff91f9ffa9",
+      "rebuilt_request_sha256": "f6c0881e2728cfd6f2fd00065f62c661dd64095218c439fe782f9dff91f9ffa9",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P10",
+      "source_request_sha256": "10e31165bedaf5058241d587334fb176c4c96938f7d4ba7253620037f66eb1e7",
+      "rebuilt_request_sha256": "10e31165bedaf5058241d587334fb176c4c96938f7d4ba7253620037f66eb1e7",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P11",
+      "source_request_sha256": "cc965b5d16b80d78d6f30783e8380119f9afac58e028b822e309f63a13fb7a01",
+      "rebuilt_request_sha256": "cc965b5d16b80d78d6f30783e8380119f9afac58e028b822e309f63a13fb7a01",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P12",
+      "source_request_sha256": "4466bd9cc3d5c3fc6b33fd16dfd746e4480033e34f04ba1c43e0332f48830c75",
+      "rebuilt_request_sha256": "4466bd9cc3d5c3fc6b33fd16dfd746e4480033e34f04ba1c43e0332f48830c75",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P13",
+      "source_request_sha256": "6d37354cda48fc7501c774175a955c000746a17303154f723b9e1ffeee516915",
+      "rebuilt_request_sha256": "6d37354cda48fc7501c774175a955c000746a17303154f723b9e1ffeee516915",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P14",
+      "source_request_sha256": "4d69a283253533aec8b49450bdfe9a847ed5ed7f996f4c217a0ace04a9b2163e",
+      "rebuilt_request_sha256": "4d69a283253533aec8b49450bdfe9a847ed5ed7f996f4c217a0ace04a9b2163e",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P15",
+      "source_request_sha256": "a54e6da54566725b5a93c6871c21f865dc4bf835b3a0d6a9a5a092008ada2b48",
+      "rebuilt_request_sha256": "a54e6da54566725b5a93c6871c21f865dc4bf835b3a0d6a9a5a092008ada2b48",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P16",
+      "source_request_sha256": "9a22aa0b5f5133dff03301ca3fcac97330189e3a1a32a6738ab24184b2c293db",
+      "rebuilt_request_sha256": "9a22aa0b5f5133dff03301ca3fcac97330189e3a1a32a6738ab24184b2c293db",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P17",
+      "source_request_sha256": "c371eec65bd14f0db001746ffbe9b49b0d1f2971799c565a995cfc115f283076",
+      "rebuilt_request_sha256": "c371eec65bd14f0db001746ffbe9b49b0d1f2971799c565a995cfc115f283076",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P18",
+      "source_request_sha256": "be9b60025227be7e929a94109f49b68b773cb43cb2c6be39bd4679e32a42fdba",
+      "rebuilt_request_sha256": "be9b60025227be7e929a94109f49b68b773cb43cb2c6be39bd4679e32a42fdba",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P19",
+      "source_request_sha256": "e196221643b69c9ac156dec644654adb8635ee7937dcef01c2442dc908cc8ed3",
+      "rebuilt_request_sha256": "e196221643b69c9ac156dec644654adb8635ee7937dcef01c2442dc908cc8ed3",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P20",
+      "source_request_sha256": "3d36a3a363ae1938439a8272a820ca15d62558a17619bbb18afc4b0b45ae03b1",
+      "rebuilt_request_sha256": "3d36a3a363ae1938439a8272a820ca15d62558a17619bbb18afc4b0b45ae03b1",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P21",
+      "source_request_sha256": "f626a18cd2e9b0c808b01c8b736ae6cfa80a1f8c42cca0c89c2d96bd3f3b4498",
+      "rebuilt_request_sha256": "f626a18cd2e9b0c808b01c8b736ae6cfa80a1f8c42cca0c89c2d96bd3f3b4498",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P22",
+      "source_request_sha256": "fa3a08b7b6ea224d606fcfc566f3cdde1d83dafd3f1239f58916c7f6868b2f4c",
+      "rebuilt_request_sha256": "fa3a08b7b6ea224d606fcfc566f3cdde1d83dafd3f1239f58916c7f6868b2f4c",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P23",
+      "source_request_sha256": "5d37525d46a4dd44a7db57879300affe591d80ed9c1800436d1802acbba425f4",
+      "rebuilt_request_sha256": "5d37525d46a4dd44a7db57879300affe591d80ed9c1800436d1802acbba425f4",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P24",
+      "source_request_sha256": "138908a3c6fe4100a070d5b987184c35ffe0ea968a0d580c51a61dbae53da959",
+      "rebuilt_request_sha256": "138908a3c6fe4100a070d5b987184c35ffe0ea968a0d580c51a61dbae53da959",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P25",
+      "source_request_sha256": "c5301d74712f02a336c8434bf806b74690ce6800c00b8a5849eb27502322cd3d",
+      "rebuilt_request_sha256": "c5301d74712f02a336c8434bf806b74690ce6800c00b8a5849eb27502322cd3d",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P26",
+      "source_request_sha256": "67db2d20668e88395696df3c1fcba8a617f8def53a64b24c2964c74f36e727e2",
+      "rebuilt_request_sha256": "67db2d20668e88395696df3c1fcba8a617f8def53a64b24c2964c74f36e727e2",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P27",
+      "source_request_sha256": "2f6e36d03939286036d8fc68f21b45a423fbb18fab87cb285161cf27515e5f5a",
+      "rebuilt_request_sha256": "2f6e36d03939286036d8fc68f21b45a423fbb18fab87cb285161cf27515e5f5a",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P28",
+      "source_request_sha256": "3dd44a304b7c36e0099d1dafd14b023801b5a05b6e1398ae534a1fa102a3034d",
+      "rebuilt_request_sha256": "3dd44a304b7c36e0099d1dafd14b023801b5a05b6e1398ae534a1fa102a3034d",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P29",
+      "source_request_sha256": "7077e953718720adb469964dc2c4e1cfb9fcdbbb778930ad26c7103872109dfa",
+      "rebuilt_request_sha256": "7077e953718720adb469964dc2c4e1cfb9fcdbbb778930ad26c7103872109dfa",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P30",
+      "source_request_sha256": "8534b0f12c79c02f620a38a5dd81aa5f6809fb715d9391e32b5416d679c1e32d",
+      "rebuilt_request_sha256": "8534b0f12c79c02f620a38a5dd81aa5f6809fb715d9391e32b5416d679c1e32d",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P31",
+      "source_request_sha256": "e3f9fbac653fefb210fd27535b3d7a2daa2eb1d37e6ea454663ca2d6526f985f",
+      "rebuilt_request_sha256": "e3f9fbac653fefb210fd27535b3d7a2daa2eb1d37e6ea454663ca2d6526f985f",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P33",
+      "source_request_sha256": "07046b0eb0631f63d0083d248bb3c46a61b490dfadd16a837392fdd064030e56",
+      "rebuilt_request_sha256": "07046b0eb0631f63d0083d248bb3c46a61b490dfadd16a837392fdd064030e56",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P34",
+      "source_request_sha256": "df77d5835021b85c0285a1006f94537272a59b5e8887d6973821992862582696",
+      "rebuilt_request_sha256": "df77d5835021b85c0285a1006f94537272a59b5e8887d6973821992862582696",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    },
+    {
+      "page_id": "W10-P35",
+      "source_request_sha256": "64d166aff1065cf8597b155acfe54f0362645858a90af0c55fc2cf41f10a84da",
+      "rebuilt_request_sha256": "64d166aff1065cf8597b155acfe54f0362645858a90af0c55fc2cf41f10a84da",
+      "prompt_matches": true,
+      "ingress_receipt_matches": true
+    }
+  ]
+}

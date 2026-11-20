@@ -1,0 +1,86 @@
+{
+  "checked_at_utc": "2026-11-16T20:25:21.893437+00:00",
+  "method": "Exact official/primary or dated wire sources reopened through web tools in this session; fresh roster ownership corroborated by ESPN/Flaim. Concise source-derived status summaries only.",
+  "facts": [
+    {
+      "player": "Drake Maye",
+      "status": "reported_extended_absence_not_confirmed_season_ending",
+      "source_event_publication_date": "2026-11-16",
+      "url": "https://www.reuters.com/sports/report-patriots-fear-qb-drake-maye-has-broken-ankle--flm-2026-11-16/",
+      "supported_copy_limit": "Current report describes feared fracture and possible season-ending absence; further evaluation remains pending."
+    },
+    {
+      "player": "A.J. Brown",
+      "status": "confirmed_game_exit_hamstring_return_uncertain",
+      "source_event_publication_date": "2026-11-15",
+      "url": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-week-10-loss-to-the-lions-in-munich",
+      "supported_copy_limit": "Official team account confirms hamstring exit; do not label season-ending."
+    },
+    {
+      "player": "Woody Marks",
+      "status": "confirmed_sunday_concussion_week11_status_not_final",
+      "source_event_publication_date": "2026-11-15",
+      "url": "https://amp.nfl.com/news/notable-injuries-news-sunday-week-10-games-2026",
+      "supported_copy_limit": "League roundup confirms concussion and Sunday non-return. Thursday availability remains a separate decision."
+    },
+    {
+      "player": "Brock Bowers",
+      "status": "reported_day_to_day_further_testing",
+      "source_event_publication_date": "2026-11-16",
+      "url": "https://www.reuters.com/sports/report-raiders-te-brock-bowers-avoids-major-ankle-injury--flm-2026-11-16/",
+      "supported_copy_limit": "Ankle injury reportedly not major; day-to-day status is not guaranteed Week11 participation."
+    },
+    {
+      "player": "Aidan Hutchinson",
+      "status": "reported_season_ending_acl_indirect_dst_exposure",
+      "source_event_publication_date": "2026-11-16",
+      "url": "https://www.nfl.com/news/lions-aidan-hutchinson-out-for-2026-season-torn-acl",
+      "supported_copy_limit": "NFL Network reports season-ending ACL injury; further testing may assess additional damage. League ownership exposure is Lions D/ST, not individual-defender scoring."
+    },
+    {
+      "player": "Michael Wilson",
+      "status": "official_season_ending_old_injury",
+      "source_event_publication_date": "2026-11-09",
+      "url": "https://www.azcardinals.com/news/michael-wilson-sidelined-for-season-with-neck-injury",
+      "supported_copy_limit": "Official team report confirms season-ending neck injury from November8; not a new Week10 Sunday injury."
+    },
+    {
+      "player": "Puka Nacua",
+      "status": "official_ir_week15_earliest_eligibility_not_clearance",
+      "source_event_publication_date": "2026-11-13",
+      "url": "https://www.therams.com/news/mcvay-rams-placed-puka-nacua-on-ir-because-they-needed-the-roster-spot-week-10-2026-cardinals",
+      "supported_copy_limit": "Official Rams account expressly identifies Week15 as earliest eligible IR return; eligibility is not medical clearance."
+    },
+    {
+      "player": "Lamar Jackson",
+      "status": "official_existing_ir_no_fixed_return_date",
+      "source_event_publication_date": "2026-11-13",
+      "url": "https://www.baltimoreravens.com/news/lamar-jackson-injury-jesse-minter-ravens-statement-timeline-broken-dislocated-thumb",
+      "supported_copy_limit": "Official account describes prolonged recovery after thumb injury; do not promise a return date."
+    },
+    {
+      "player": "Ladd McConkey",
+      "status": "official_out_monday_week11_unresolved",
+      "source_event_publication_date": "2026-11-15",
+      "url": "https://www.chargers.com/news/chargers-vs-ravens-injury-report-ladd-mcconkey-daiyan-henley-2026",
+      "supported_copy_limit": "Official Chargers downgrade establishes Monday absence, not a final Week11 designation."
+    },
+    {
+      "player": "Drake London",
+      "status": "official_concussion_evaluation_not_diagnosis",
+      "source_event_publication_date": "2026-11-15",
+      "url": "https://www.atlantafalcons.com/news/game-breakdown-what-happened-in-falcons-vs-chiefs",
+      "supported_copy_limit": "Official game account reports evaluation and non-return; do not convert evaluation into a confirmed diagnosis."
+    },
+    {
+      "player": "TreVeyon Henderson",
+      "status": "official_ir_not_automatically_season_ending",
+      "source_event_publication_date": "2026-11-14",
+      "url": "https://www.patriots.com/news/patriots-activate-fb-reggie-gilliam-and-ol-greg-van-roten-to-the-53-man-roster-from-injured-reserve-announce-additional-roster-moves",
+      "supported_copy_limit": "Official transaction confirms injured reserve; not proof of season-ending absence."
+    }
+  ],
+  "fresh_roster_reference": "fresh-sports-audit.json",
+  "copy_policy": "Preserve reported versus confirmed distinctions, injury date versus report date, NFL IR eligibility versus clearance, and direct versus D/ST exposure. Recheck future practice and final designations at publication rather than forecast a diagnosis.",
+  "current_copy_disposition": "W10-P34 source-qualified claims corroborated; no unsupported escalation."
+}

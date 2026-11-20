@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_agent",
+  "name": "The Agent",
+  "domain": "marketing",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:41:01.966Z",
+  "finished_at": "2026-11-17T16:41:22.496Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 results table incorrectly lists 'His Majesty's Blood' as the winner against 'The LLC' with 208.76 points, while the actual final score was 'The LLC' with 203.96 points.\",\n      \"required_fix\": \"Correct the score for 'The LLC' to 203.96 points.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 1,
+  "actual_input_sha256": "cb235317696122e960a1b5902bf62f67622bfeb9b4dafab68865d79f90455de2",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P04"
+        ],
+        "severity": "major",
+        "observation": "The Week 10 results table incorrectly lists 'His Majesty's Blood' as the winner against 'The LLC' with 208.76 points, while the actual final score was 'The LLC' with 203.96 points.",
+        "required_fix": "Correct the score for 'The LLC' to 203.96 points."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

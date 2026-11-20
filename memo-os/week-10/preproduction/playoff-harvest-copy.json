@@ -1,0 +1,123 @@
+{
+  "schema_version": "schemin.playoff_harvest_copy.v1",
+  "authority": "Bullpen domain workflow; executed host-assistant Beat Writer review, source/Analyst review and independent Umpire review. No external human approval claimed.",
+  "review_source": "../production-evidence/playoff-harvest-20261117/memo-editorial-review.json",
+  "baseline_commit": "0343047b23b37a814340cafbcc7f830ebfe91919",
+  "purpose": "Scoped changes within the existing Week 10 issue; all scene and fixture decisions preserved.",
+  "pages": {
+    "W10-P28": {
+      "publication_copy": {
+        "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+        "deck": "The same results change three separate races",
+        "body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+        "callouts": [
+          {
+            "label": "BURGERS",
+            "heading": "D0nkey K0ng has separation",
+            "body": "D0nkey K0ng is 6–4; ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8. Beating ObiWan Jacoby in Week 12 and Three Dreaded Snake in Week 13 secures D0nkey K0ng’s division title."
+          },
+          {
+            "label": "PIZZA",
+            "heading": "Three leaders on the same step",
+            "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins are all 6–4. The LLC’s 203.96 victory lifts its record to 4–6, with the divisional return still ahead."
+          },
+          {
+            "label": "WINGS",
+            "heading": "The cushion has narrowed",
+            "body": "Dr. Duckhook and Slob on my Dobb are 6–4; Red Leopards and The Chili Cheesers are 5–5. Red Leopards went 3–0 in the first divisional pass; winning all four remaining games secures Wings."
+          }
+        ],
+        "rows": [],
+        "department_heading": "STATE OF THE REALM"
+      },
+      "claim_ids": [
+        "dk_two_named_wins_clinch_burgers",
+        "red_winout_wings_title"
+      ]
+    },
+    "W10-P30": {
+      "publication_copy": {
+        "headline": "FOUR MORE AFTER THIS",
+        "deck": "Seven places. The route narrows.",
+        "body": "All twelve teams still have a route, and none has clinched. Four games remain: one crossover, then three divisional rounds. Nine wins guarantees a berth; eight alone does not. A 6–8 finish can give Mud Dogs either a Burgers title or a shared place. Record scenarios assume no tied games.",
+        "callouts": [
+          {
+            "heading": "SEVEN BERTHS",
+            "body": "Three division winners and four shared places."
+          },
+          {
+            "heading": "MUD DOGS’ NEXT TEST",
+            "body": "A Week 11 loss to Seven Deadly Chins eliminates Mud Dogs. Winning keeps a narrow, help-dependent route alive."
+          }
+        ],
+        "rows": [],
+        "department_heading": "THE PLAYOFF ROAD"
+      },
+      "claim_ids": [
+        "all_12_alive_none_clinched",
+        "nine_wins_sufficient",
+        "eight_wins_can_miss",
+        "mud_only_w11_loss_eliminates",
+        "mud_division_and_wildcard_paths"
+      ]
+    },
+    "W10-P31": {
+      "publication_copy": {
+        "headline": "THE NEXT SIX",
+        "deck": "Week 11 • Head-to-head stakes before the divisional finish",
+        "body": "Four 6–4 contenders meet in two top-seed contests. The two 4–6 hosts need to close ground on the 5–5 visitors; The LLC needs recovery against Dr. Duckhook. These are not automatic eliminators. Only Mud Dogs is eliminated by a Week 11 loss. Head-to-head can decide ties; three divisional rounds follow.",
+        "callouts": [
+          {
+            "heading": "BUBBLE SWING · THEFFHUB",
+            "body": "Nov. 17, 2026. Each team’s playoff estimate after its Week 11 win / loss: ObiWan Jacoby 52% / 13%; The Chili Cheesers 58% / 21%. Other games simulated; 10,000 runs from season scores, excluding projections and NFL byes."
+          }
+        ],
+        "rows": [
+          {
+            "away_team": "El Niño",
+            "home_team": "Slob on my Dobb",
+            "display": "El Niño at Slob on my Dobb",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "Red Leopards",
+            "home_team": "Three Dreaded Snake",
+            "display": "Red Leopards at Three Dreaded Snake",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "Seven Deadly Chins",
+            "home_team": "Mud Dogs",
+            "display": "Seven Deadly Chins at Mud Dogs",
+            "implication": "6–4 vs 2–8 • A loss eliminates Mud Dogs"
+          },
+          {
+            "away_team": "The Chili Cheesers",
+            "home_team": "ObiWan Jacoby",
+            "display": "The Chili Cheesers at ObiWan Jacoby",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "His Majesty's Blood",
+            "home_team": "D0nkey K0ng",
+            "display": "His Majesty's Blood at D0nkey K0ng",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "The LLC",
+            "home_team": "Dr. Duckhook",
+            "display": "The LLC at Dr. Duckhook",
+            "implication": "4–6 vs 6–4 • Recovery versus top-seed contention"
+          }
+        ],
+        "department_heading": "THE NEXT SIX"
+      },
+      "claim_ids": [
+        "mud_only_w11_loss_eliminates",
+        "w11_obi_chili_vendor_split"
+      ]
+    }
+  },
+  "original_editorial_review_commit": "14b1ad0c56752c7f0ee965843963b0e0de03184f",
+  "concurrent_work_preserved": "Scene-led design/personalization and merged FFHub handoff, including the P22 color-word correction."
+}

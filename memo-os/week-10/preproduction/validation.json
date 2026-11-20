@@ -1,0 +1,53 @@
+{
+  "status": "BACKEND_FINAL_RESULTS_READY_FOR_GENERATION",
+  "checked_at_utc": "2026-11-17T16:48:18.510980+00:00",
+  "scope": "34 operative full-folio inputs across six sheets. Not rendered-pixel acceptance.",
+  "checks": [
+    {
+      "check": "Week10 provider finality",
+      "pass": true,
+      "detail": "6/6 official outcomes;12scores and12standings corroborated by Flaim and direct ESPN."
+    },
+    {
+      "check": "Final narrative and result propagation",
+      "pass": true,
+      "detail": "Six payoff pages contain exact FINAL receipts; scoreboard and official postWeek10 standings refreshed; all34full-copy mirrors regenerated."
+    },
+    {
+      "check": "Canonical images and published precedent",
+      "pass": true,
+      "detail": "Existing verified12character crops, current overrides and110reference-image occurrences retained and decoded; published Opening Drive table/map/banner remains controlling."
+    },
+    {
+      "check": "Distinct scoring/current roster snapshots",
+      "pass": true,
+      "detail": "224Week10 scoring entries versus222currentWeek11 entries; ownership/lineup changes propagated."
+    },
+    {
+      "check": "Playoff math",
+      "pass": true,
+      "detail": "25replayed qualification/nonqualification witnesses; all12alive and noneclinched; nextMudDogs loss eliminates."
+    },
+    {
+      "check": "User Week11 implications",
+      "pass": true,
+      "detail": "W10-P31 / reading32 / Sheet6 updated from user screenshots; five explicit counterexamples prevent unsupported automatic-elimination labels."
+    },
+    {
+      "check": "No fabricated artwork acceptance",
+      "pass": true,
+      "detail": "No new art generated, no merge or publication. Future output review is not a backend blocker."
+    }
+  ],
+  "test_receipt": "../production-evidence/finalization-20261117/tests-green.txt",
+  "current_manifest": "render-inputs/manifest.json",
+  "no_blanket_preproduction_hold": true,
+  "ai_role_review": {
+    "responses": 38,
+    "source_disposition": "../production-evidence/finalization-20261117/review-disposition.json",
+    "unsupported_advice_applied": false
+  },
+  "tests_passed": 26,
+  "max_render_prompt_characters": 19837,
+  "completion_receipt": "../production-evidence/finalization-20261117/FINALIZATION_RECEIPT.json"
+}

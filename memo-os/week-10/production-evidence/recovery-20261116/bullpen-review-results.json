@@ -1,0 +1,1273 @@
+{
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "expected": 38,
+  "returned": 38,
+  "results": [
+    {
+      "kind": "director",
+      "id": "the_closer",
+      "name": "The Closer",
+      "domain": "synthesis",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:09:22.837Z",
+      "finished_at": "2026-11-16T20:09:58.264Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which depicts the Opening Drive briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose.\",\n      \"required_fix\": \"Change the page title to 'OPENING DRIVE' to match the visual content.\"\n    },\n    {\n      \"page_ids\": [\"W10-P09\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'The Place That Answered Once' does not match the visual content, which depicts the Forgotten Court with a RIGHT-WALL mounted backboard, red ivy, worn hard court, ruin/waterfall skyline.\",\n      \"required_fix\": \"Change the page title to 'FORGOTTEN COURT' to match the visual content.\"\n    },\n    {\n      \"page_ids\": [\"W10-P17\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'Cancún Is Calling' does not match the visual content, which depicts the Mud Dogs vs Slob on my Dobb scenario.\",\n      \"required_fix\": \"Change the page title to 'MUD DOGS VS SLOB ON MY DOBB' to match the visual content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P02"
+            ],
+            "severity": "major",
+            "observation": "The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which depicts the Opening Drive briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose.",
+            "required_fix": "Change the page title to 'OPENING DRIVE' to match the visual content."
+          },
+          {
+            "page_ids": [
+              "W10-P09"
+            ],
+            "severity": "major",
+            "observation": "The page title 'The Place That Answered Once' does not match the visual content, which depicts the Forgotten Court with a RIGHT-WALL mounted backboard, red ivy, worn hard court, ruin/waterfall skyline.",
+            "required_fix": "Change the page title to 'FORGOTTEN COURT' to match the visual content."
+          },
+          {
+            "page_ids": [
+              "W10-P17"
+            ],
+            "severity": "major",
+            "observation": "The page title 'Cancún Is Calling' does not match the visual content, which depicts the Mud Dogs vs Slob on my Dobb scenario.",
+            "required_fix": "Change the page title to 'MUD DOGS VS SLOB ON MY DOBB' to match the visual content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_setup_man",
+      "name": "The Setup Man",
+      "domain": "infrastructure",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:09:58.274Z",
+      "finished_at": "2026-11-16T20:10:33.223Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'ROOM ABOVE TWO HUNDRED' does not match the content, which discusses the pressure reaching everyone and the two teams crossing two hundred. The content should be updated to reflect the actual story.\",\n      \"required_fix\": \"Update the headline to 'The Pressure Reaches Everyone' and adjust the body text to focus on the pressure and the two teams crossing two hundred.\"\n    },\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'That Cold Again' does not match the content, which describes the broken hoop and the emotional consequence. The content should be updated to reflect the actual story.\",\n      \"required_fix\": \"Update the headline to 'The Hoop Hangs Wrong' and adjust the body text to focus on the broken hoop and the emotional consequence.\"\n    },\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'WHY THE BOARD MOVED' does not match the content, which discusses the current contributions and the possibility of Monday changing the board. The content should be updated to reflect the actual story.\",\n      \"required_fix\": \"Update the headline to 'The Current Contributions' and adjust the body text to focus on the current contributions and the possibility of Monday changing the board.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P02"
+            ],
+            "severity": "major",
+            "observation": "The headline 'ROOM ABOVE TWO HUNDRED' does not match the content, which discusses the pressure reaching everyone and the two teams crossing two hundred. The content should be updated to reflect the actual story.",
+            "required_fix": "Update the headline to 'The Pressure Reaches Everyone' and adjust the body text to focus on the pressure and the two teams crossing two hundred."
+          },
+          {
+            "page_ids": [
+              "W10-P10"
+            ],
+            "severity": "major",
+            "observation": "The headline 'That Cold Again' does not match the content, which describes the broken hoop and the emotional consequence. The content should be updated to reflect the actual story.",
+            "required_fix": "Update the headline to 'The Hoop Hangs Wrong' and adjust the body text to focus on the broken hoop and the emotional consequence."
+          },
+          {
+            "page_ids": [
+              "W10-P18"
+            ],
+            "severity": "major",
+            "observation": "The headline 'WHY THE BOARD MOVED' does not match the content, which discusses the current contributions and the possibility of Monday changing the board. The content should be updated to reflect the actual story.",
+            "required_fix": "Update the headline to 'The Current Contributions' and adjust the body text to focus on the current contributions and the possibility of Monday changing the board."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_scout",
+      "name": "The Scout",
+      "domain": "data_quality",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:10:33.226Z",
+      "finished_at": "2026-11-16T20:11:06.181Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P01\"],\n      \"severity\": \"major\",\n      \"observation\": \"The title 'THE CEILING BREAKS' does not match the actual content, which is an editorial cover featuring His Majesty's Blood and The LLC. The title should be updated to reflect the actual content.\",\n      \"required_fix\": \"Update the title to 'EDITORIAL COVER: HIS MAJESTY'S BLOOD AND THE LLC'\"\n    },\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The title 'ROOM ABOVE TWO HUNDRED' does not match the actual content, which is an editorial briefing-table composition. The title should be updated to 'EDITORIAL BRIEFING-TABLE'\",\n      \"required_fix\": \"Update the title to 'EDITORIAL BRIEFING-TABLE'\"\n    },\n    {\n      \"page_ids\": [\"W10-P03\"],\n      \"severity\": \"major\",\n      \"observation\": \"The title 'KEEP THE WHOLE LEAGUE IN VIEW' does not match the actual content, which is an eye-level three-quarter institutional interior. The title should be updated to 'INSTITUTIONAL INTERIOR'\",\n      \"required_fix\": \"Update the title to 'INSTITUTIONAL INTERIOR'\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P01"
+            ],
+            "severity": "major",
+            "observation": "The title 'THE CEILING BREAKS' does not match the actual content, which is an editorial cover featuring His Majesty's Blood and The LLC. The title should be updated to reflect the actual content.",
+            "required_fix": "Update the title to 'EDITORIAL COVER: HIS MAJESTY'S BLOOD AND THE LLC'"
+          },
+          {
+            "page_ids": [
+              "W10-P02"
+            ],
+            "severity": "major",
+            "observation": "The title 'ROOM ABOVE TWO HUNDRED' does not match the actual content, which is an editorial briefing-table composition. The title should be updated to 'EDITORIAL BRIEFING-TABLE'",
+            "required_fix": "Update the title to 'EDITORIAL BRIEFING-TABLE'"
+          },
+          {
+            "page_ids": [
+              "W10-P03"
+            ],
+            "severity": "major",
+            "observation": "The title 'KEEP THE WHOLE LEAGUE IN VIEW' does not match the actual content, which is an eye-level three-quarter institutional interior. The title should be updated to 'INSTITUTIONAL INTERIOR'",
+            "required_fix": "Update the title to 'INSTITUTIONAL INTERIOR'"
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_umpire",
+      "name": "The Umpire",
+      "domain": "governance",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:11:22.311Z",
+      "finished_at": "2026-11-16T20:11:45.606Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P20\"],\n      \"severity\": \"major\",\n      \"observation\": \"The 200 Burger is described as a double-decker hamburger, but the camera view does not show any evidence of this. The burger remains intact in the box, and no additional details are provided.\",\n      \"required_fix\": \"Update the camera view to show the actual 200 Burger, including any additional layers or features.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "34cbdb1a22560fc874f9368455e92dc00a6ef36252c6e8aba82d0a95f16d8232",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P20"
+            ],
+            "severity": "major",
+            "observation": "The 200 Burger is described as a double-decker hamburger, but the camera view does not show any evidence of this. The burger remains intact in the box, and no additional details are provided.",
+            "required_fix": "Update the camera view to show the actual 200 Burger, including any additional layers or features."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_beat_writer",
+      "name": "The Beat Writer",
+      "domain": "narrative",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:11:45.609Z",
+      "finished_at": "2026-11-16T20:12:09.963Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P24\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'Unlimited Firepower' includes a reference to 'the remaining guns converge' which is not supported by the visual content. The image shows ObiWan Jacoby yielding the exposed approach under sustained fire, but there is no indication of multiple guns converging.\",\n      \"required_fix\": \"Remove the reference to 'the remaining guns converge' from the copy for 'Unlimited Firepower'.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "26c5ec44cf0b4b96626cdb0ae6d5bad2b9fc94cd5c13cfd46486d53ad9d73c0c",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P24"
+            ],
+            "severity": "major",
+            "observation": "The copy for 'Unlimited Firepower' includes a reference to 'the remaining guns converge' which is not supported by the visual content. The image shows ObiWan Jacoby yielding the exposed approach under sustained fire, but there is no indication of multiple guns converging.",
+            "required_fix": "Remove the reference to 'the remaining guns converge' from the copy for 'Unlimited Firepower'."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_groundskeeper",
+      "name": "The Groundskeeper",
+      "domain": "operations",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:12:09.966Z",
+      "finished_at": "2026-11-16T20:12:29.101Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'FOUR MORE AFTER THIS' lacks specific details about the Mud Dogs' divisional route and their chances of winning the Burgers division.\",\n      \"required_fix\": \"Add detailed information about the Mud Dogs' divisional route and their chances of winning the Burgers division.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "d221620a595a67f786dfb799acd24c2988e22610a5579ea01805cf122b8fc688",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The copy for 'FOUR MORE AFTER THIS' lacks specific details about the Mud Dogs' divisional route and their chances of winning the Burgers division.",
+            "required_fix": "Add detailed information about the Mud Dogs' divisional route and their chances of winning the Burgers division."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_gm",
+      "name": "The GM",
+      "domain": "product",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:12:29.104Z",
+      "finished_at": "2026-11-16T20:12:50.430Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 Board page contains a list of provisional scores without any indication of ESPN finality. This could lead to confusion and incorrect reporting.\",\n      \"required_fix\": \"Add a clear statement indicating that the scores are provisional and subject to ESPN finality.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "bbeaff7bebd7dfda71ef84fa6ca994352bb8fe4dfe703e104b4ea71281255ec6",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Week 10 Board page contains a list of provisional scores without any indication of ESPN finality. This could lead to confusion and incorrect reporting.",
+            "required_fix": "Add a clear statement indicating that the scores are provisional and subject to ESPN finality."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_pitching_coach",
+      "name": "The Pitching Coach",
+      "domain": "ai_strategy",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:12:50.434Z",
+      "finished_at": "2026-11-16T20:13:11.737Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P08\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity between the camera description and the body copy does not match. The camera description mentions 'hands and sandbag foreground, pitch and arch in depth,' but the body copy describes 'The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red to believe the last sandbag had solved it.' This discrepancy suggests that the camera description may need to be updated to reflect the actual content of the page.\",\n      \"required_fix\": \"Update the camera description to accurately reflect the content of the page.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "974cbd3dc590c2e0b1207307eee26399b4a74a62a10cb982fa23510212fad13e",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P08"
+            ],
+            "severity": "major",
+            "observation": "The continuity between the camera description and the body copy does not match. The camera description mentions 'hands and sandbag foreground, pitch and arch in depth,' but the body copy describes 'The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red to believe the last sandbag had solved it.' This discrepancy suggests that the camera description may need to be updated to reflect the actual content of the page.",
+            "required_fix": "Update the camera description to accurately reflect the content of the page."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_warden",
+      "name": "The Warden",
+      "domain": "security",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:13:11.739Z",
+      "finished_at": "2026-11-16T20:13:31.820Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P13\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'He Heard You' includes a reference to 'Seven Deadly Chins' which is not a canonical identity in the provided list of identities.\",\n      \"required_fix\": \"Replace 'Seven Deadly Chins' with a canonical identity from the provided list.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "2ce0f89810fb57f4c779a57d6ba45f1d76f6f74830d747d5f7c39ee402c442e8",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P13"
+            ],
+            "severity": "major",
+            "observation": "The copy for 'He Heard You' includes a reference to 'Seven Deadly Chins' which is not a canonical identity in the provided list of identities.",
+            "required_fix": "Replace 'Seven Deadly Chins' with a canonical identity from the provided list."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_commissioner",
+      "name": "The Commissioner",
+      "domain": "commissioner_success",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:13:31.824Z",
+      "finished_at": "2026-11-16T20:13:52.061Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P20\"],\n      \"severity\": \"major\",\n      \"observation\": \"The 200 Burger is described as a double-decker hamburger, but the visual observation indicates it is a single-layer burger.\",\n      \"required_fix\": \"Correct the description of the 200 Burger to match the visual observation.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "afcf72ebf2b9e63584c752d6deb2915759cbd24547b53f1d9f0bf3568b8ebb71",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P20"
+            ],
+            "severity": "major",
+            "observation": "The 200 Burger is described as a double-decker hamburger, but the visual observation indicates it is a single-layer burger.",
+            "required_fix": "Correct the description of the 200 Burger to match the visual observation."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_analyst",
+      "name": "The Analyst",
+      "domain": "analytics",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:13:52.065Z",
+      "finished_at": "2026-11-16T20:14:16.061Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose.\",\n      \"required_fix\": \"Change the page title to 'OPENING DRIVE' to match the visual content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "259ec3513f73bf7a1a3b8be0d3c7729132a8ff068de46ec8190ce5a6a262222b",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P02"
+            ],
+            "severity": "major",
+            "observation": "The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose.",
+            "required_fix": "Change the page title to 'OPENING DRIVE' to match the visual content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_librarian",
+      "name": "The Librarian",
+      "domain": "knowledge",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:14:16.065Z",
+      "finished_at": "2026-11-16T20:14:35.586Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'FOUR MORE AFTER THIS' lacks specific details about the Mud Dogs' divisional route and the exact set of results needed for a win.\",\n      \"required_fix\": \"Add specific details about the Mud Dogs' divisional route and the exact set of results needed for a win.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "645a129c55cbdf274a24be119d06dfab28f673a41ba9e0de9c796f2441160d84",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The copy for 'FOUR MORE AFTER THIS' lacks specific details about the Mud Dogs' divisional route and the exact set of results needed for a win.",
+            "required_fix": "Add specific details about the Mud Dogs' divisional route and the exact set of results needed for a win."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_agent",
+      "name": "The Agent",
+      "domain": "marketing",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:14:35.588Z",
+      "finished_at": "2026-11-16T20:14:57.932Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 Board page incorrectly lists the status of all six results as 'PROVISIONAL' instead of 'FINAL'. This is a critical error as it misrepresents the current state of the game results.\",\n      \"required_fix\": \"Update the status of all six results to 'FINAL'.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "77aa536c767283e4dc5db7109d06da8072a38ccd16762c2af682f976ce18db8a",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Week 10 Board page incorrectly lists the status of all six results as 'PROVISIONAL' instead of 'FINAL'. This is a critical error as it misrepresents the current state of the game results.",
+            "required_fix": "Update the status of all six results to 'FINAL'."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_bookkeeper",
+      "name": "The Bookkeeper",
+      "domain": "finance",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:14:57.934Z",
+      "finished_at": "2026-11-16T20:15:17.406Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P07\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity between the wet rope and mud progression and the absence of property or Belt transfer is unclear and may require clarification or correction.\",\n      \"required_fix\": \"Clarify or correct the continuity between the wet rope and mud progression and the absence of property or Belt transfer.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "3da160c351710d0857d63855e500af84f839276701a7ca3caf71f83fc364ba43",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P07"
+            ],
+            "severity": "major",
+            "observation": "The continuity between the wet rope and mud progression and the absence of property or Belt transfer is unclear and may require clarification or correction.",
+            "required_fix": "Clarify or correct the continuity between the wet rope and mud progression and the absence of property or Belt transfer."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_commissioner_general",
+      "name": "The Commissioner General",
+      "domain": "legal",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:15:17.408Z",
+      "finished_at": "2026-11-16T20:15:37.422Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The performance table on W10-P18 incorrectly lists Isaiah Likely as a TE (Tight End) instead of a WR (Wide Receiver).\",\n      \"required_fix\": \"Correct Isaiah Likely's position to WR in the performance table.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "c3cb53382f51d3cca7c83be6a5e6aec8147e643c28e2206c5bf98184e3734ef7",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P18"
+            ],
+            "severity": "major",
+            "observation": "The performance table on W10-P18 incorrectly lists Isaiah Likely as a TE (Tight End) instead of a WR (Wide Receiver).",
+            "required_fix": "Correct Isaiah Likely's position to WR in the performance table."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_clubhouse_manager",
+      "name": "The Clubhouse Manager",
+      "domain": "human_resources",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:15:37.425Z",
+      "finished_at": "2026-11-16T20:15:58.576Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P21\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'Many Unhappy Returns' incorrectly states that The Chili Cheesers made His Majesty's Blood the dish at a public cookout last week, which is not supported by the evidence provided.\",\n      \"required_fix\": \"Correct the copy to reflect that The Chili Cheesers made His Majesty's Blood the dish at a public cookout this week.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "eb1433f96642f8992ce2a895629c47905cae5c60f0709f78c18634ee33a13ab4",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P21"
+            ],
+            "severity": "major",
+            "observation": "The copy for 'Many Unhappy Returns' incorrectly states that The Chili Cheesers made His Majesty's Blood the dish at a public cookout last week, which is not supported by the evidence provided.",
+            "required_fix": "Correct the copy to reflect that The Chili Cheesers made His Majesty's Blood the dish at a public cookout this week."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_scout_master",
+      "name": "The Scout Master",
+      "domain": "sales",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:15:58.580Z",
+      "finished_at": "2026-11-16T20:16:22.404Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose.\",\n      \"required_fix\": \"Change the page title to 'OPENING DRIVE' to match the visual content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "1036945e25228bc72e138222c6bb3fed6ad6aec9d3cb1cf6b2679f899305470e",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P02"
+            ],
+            "severity": "major",
+            "observation": "The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose.",
+            "required_fix": "Change the page title to 'OPENING DRIVE' to match the visual content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_architect",
+      "name": "The Architect",
+      "domain": "engineering_craft",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:16:22.407Z",
+      "finished_at": "2026-11-16T20:16:41.851Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P01\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'THE CEILING BREAKS' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with substantial integrated prose.\",\n      \"required_fix\": \"Update the page title to reflect the actual visual content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "9a9ab71876fdfe0f773a178d721ee2654defe2cc03054c03edbdee68bd78012e",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P01"
+            ],
+            "severity": "major",
+            "observation": "The page title 'THE CEILING BREAKS' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with substantial integrated prose.",
+            "required_fix": "Update the page title to reflect the actual visual content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "jrr_tolkien",
+      "name": "J.R.R. Tolkien — Secondary World, Mythic Depth & Historical Texture",
+      "domain": "J.R.R. Tolkien published-method/scholarship lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JRR_TOLKIEN_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:16:41.856Z",
+      "finished_at": "2026-11-16T20:17:00.859Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The scorelines on page W10-P04 are inconsistent with the actual scores provided in the deep_page_sample. The scores on the page do not match the scores in the deep_page_sample, which could lead to confusion and misinformation.\",\n      \"required_fix\": \"Update the scorelines on page W10-P04 to match the scores provided in the deep_page_sample.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "119cad320e6123eb2ed3a791412167f58ef24c700af1e113166ec6075218f176",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The scorelines on page W10-P04 are inconsistent with the actual scores provided in the deep_page_sample. The scores on the page do not match the scores in the deep_page_sample, which could lead to confusion and misinformation.",
+            "required_fix": "Update the scorelines on page W10-P04 to match the scores provided in the deep_page_sample."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "cs_lewis",
+      "name": "C. S. Lewis — Moral Imagination, Mythic Wonder & Ethical Consequence",
+      "domain": "C. S. Lewis published-method and literary scholarship lens",
+      "dossier": "living-novel/consultants/author-council/CS_LEWIS_METHODOLOGY_PROFILE.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:17:00.863Z",
+      "finished_at": "2026-11-16T20:17:16.650Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P07\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the image shows a dry rope and no mud progression.\",\n      \"required_fix\": \"Correct the continuity to reflect the actual scene: 'Dry rope and mud progression; no property or Belt transfer'\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "83f637a79ab76158cea9ccf39e27f93bc29ab318af48c483315fbab609e867fa",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P07"
+            ],
+            "severity": "critical",
+            "observation": "The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the image shows a dry rope and no mud progression.",
+            "required_fix": "Correct the continuity to reflect the actual scene: 'Dry rope and mud progression; no property or Belt transfer'"
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "george_rr_martin",
+      "name": "George R.R. Martin — Ensemble Causality, Multi-POV & Long-Form Epic Architecture",
+      "domain": "George R.R. Martin published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/GEORGE_RR_MARTIN_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:17:16.657Z",
+      "finished_at": "2026-11-16T20:17:33.345Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The performance table on W10-P18 incorrectly lists Patrick Mahomes as playing for the Seven Deadly Chins, when he is actually playing for the Red Leopards.\",\n      \"required_fix\": \"Correct Patrick Mahomes' team affiliation to Red Leopards.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "059bc0c2ffb8f1240d12d5a9f3f4ffa3f2767371dfab091964a6dbb002d131ab",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P18"
+            ],
+            "severity": "major",
+            "observation": "The performance table on W10-P18 incorrectly lists Patrick Mahomes as playing for the Seven Deadly Chins, when he is actually playing for the Red Leopards.",
+            "required_fix": "Correct Patrick Mahomes' team affiliation to Red Leopards."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "jk_rowling",
+      "name": "J.K. Rowling — Long-Horizon Series Architecture, Mystery, Setup/Payoff & Accessible World Entry",
+      "domain": "J.K. Rowling published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JK_ROWLING_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:17:33.350Z",
+      "finished_at": "2026-11-16T20:17:49.805Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P21\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity requires the cake to be lifted with candles cleared before the frosting can coat the orange bill and vest.\",\n      \"required_fix\": \"Ensure the cake is lifted with candles cleared before the frosting reaction is shown.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "7545a75d090f63f73fb5c234344d5241d73641b8ed26bdbc59b05ed1c3faebf5",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P21"
+            ],
+            "severity": "major",
+            "observation": "The continuity requires the cake to be lifted with candles cleared before the frosting can coat the orange bill and vest.",
+            "required_fix": "Ensure the cake is lifted with candles cleared before the frosting reaction is shown."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "john_grisham",
+      "name": "John Grisham — Propulsion, Chapter Discipline, Outline Pressure & Adult Readability",
+      "domain": "John Grisham published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JOHN_GRISHAM_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:17:49.808Z",
+      "finished_at": "2026-11-16T20:18:10.571Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P24\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'Unlimited Firepower' does not match the body content, which discusses ObiWan Jacoby's position against The LLC. The headline should be corrected to reflect the actual content.\",\n      \"required_fix\": \"Change the headline from 'Unlimited Firepower' to 'ObiWan Jacoby vs The LLC'\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "7b460370de88be744a7f4f2481636bc0b31e4bbb353ddd7905e5796ea4fa05a1",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P24"
+            ],
+            "severity": "major",
+            "observation": "The headline 'Unlimited Firepower' does not match the body content, which discusses ObiWan Jacoby's position against The LLC. The headline should be corrected to reflect the actual content.",
+            "required_fix": "Change the headline from 'Unlimited Firepower' to 'ObiWan Jacoby vs The LLC'"
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "ursula_k_le_guin",
+      "name": "Ursula K. Le Guin — POV, Narrative Distance, Voice, Language & Cultural Interior",
+      "domain": "Ursula K. Le Guin published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/URSULA_K_LE_GUIN_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:18:10.573Z",
+      "finished_at": "2026-11-16T20:18:26.541Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The page title 'FOUR MORE AFTER THIS' does not match the content, which discusses the current standings and potential routes for Mud Dogs to win the Burgers division.\",\n      \"required_fix\": \"Change the page title to 'MUD DOGS' or 'MUD DOGS' to accurately reflect the content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "2c6e31170a1abf608052537a28c696b6e54a639c494a13869eb4905e0e40a381",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "critical",
+            "observation": "The page title 'FOUR MORE AFTER THIS' does not match the content, which discusses the current standings and potential routes for Mud Dogs to win the Burgers division.",
+            "required_fix": "Change the page title to 'MUD DOGS' or 'MUD DOGS' to accurately reflect the content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "brandon_sanderson",
+      "name": "Brandon Sanderson — Fantasy Systems, Rules, Costs, Promises/Payoffs & Reader Legibility",
+      "domain": "Brandon Sanderson published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/BRANDON_SANDERSON_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:18:26.544Z",
+      "finished_at": "2026-11-16T20:18:45.331Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 BOARD page incorrectly displays the final scores for the games, which are not yet finalized. The scores are marked as 'PROVISIONAL' and should not be shown as final until the ESPN finality is confirmed.\",\n      \"required_fix\": \"Remove the final scores and status from the Week 10 BOARD page until the ESPN finality is confirmed.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "0c61173f53c27d3f2bc086fc7a77f7ed32e4434655f70bb73c3f01fec90b4fb4",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Week 10 BOARD page incorrectly displays the final scores for the games, which are not yet finalized. The scores are marked as 'PROVISIONAL' and should not be shown as final until the ESPN finality is confirmed.",
+            "required_fix": "Remove the final scores and status from the Week 10 BOARD page until the ESPN finality is confirmed."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "joe_abercrombie",
+      "name": "Joe Abercrombie — Tight POV, Distinct Character Voice, Human-Scale Epic Action & Ruthless Revision",
+      "domain": "Joe Abercrombie published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JOE_ABERCROMBIE_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:18:45.336Z",
+      "finished_at": "2026-11-16T20:19:01.371Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P07\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity states 'wet rope and mud progression; no property or Belt transfer', but the image shows a dry rope and no mud progression.\",\n      \"required_fix\": \"Correct the continuity to reflect the actual scene, which shows a dry rope and no mud progression.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "11b0bfda73fbf203f2a0d5de8be0db04d8bd8f544f556689adfcd68cca977aab",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P07"
+            ],
+            "severity": "major",
+            "observation": "The continuity states 'wet rope and mud progression; no property or Belt transfer', but the image shows a dry rope and no mud progression.",
+            "required_fix": "Correct the continuity to reflect the actual scene, which shows a dry rope and no mud progression."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "production_design",
+      "name": "Doug Chiang",
+      "domain": "production_design",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:19:01.374Z",
+      "finished_at": "2026-11-16T20:19:17.595Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The performance table on W10-P18 incorrectly lists Patrick Mahomes as playing for Seven Deadly Chins, when he is actually playing for The Chili Cheesers.\",\n      \"required_fix\": \"Correct Patrick Mahomes' team affiliation to The Chili Cheesers.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "899bed901f2a2fe0fc83b7c396c3e79453c2204210ba4d52f35f2588f641428c",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P18"
+            ],
+            "severity": "major",
+            "observation": "The performance table on W10-P18 incorrectly lists Patrick Mahomes as playing for Seven Deadly Chins, when he is actually playing for The Chili Cheesers.",
+            "required_fix": "Correct Patrick Mahomes' team affiliation to The Chili Cheesers."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "environment_design",
+      "name": "Dylan Cole",
+      "domain": "environment_design",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:19:17.598Z",
+      "finished_at": "2026-11-16T20:19:34.173Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P20\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy states 'The 200 Burger' but the image shows a generic burger, not a 200 BURGER as described in the copy.\",\n      \"required_fix\": \"Replace the generic burger with a 200 BURGER as described in the copy.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "f486e484fe9571144551f5a2c07419574b12d12d2032ce441918c681bfbaefb8",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P20"
+            ],
+            "severity": "major",
+            "observation": "The copy states 'The 200 Burger' but the image shows a generic burger, not a 200 BURGER as described in the copy.",
+            "required_fix": "Replace the generic burger with a 200 BURGER as described in the copy."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "character_vfx",
+      "name": "Joe Letteri",
+      "domain": "character_vfx",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:19:34.175Z",
+      "finished_at": "2026-11-16T20:19:53.829Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P24\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity statement for W10-P24 incorrectly states that the final sports outcome remains unposted, which is not accurate as the ESPN winners are UNDECIDED and not yet posted.\",\n      \"required_fix\": \"Update the continuity statement to reflect that the ESPN winners are UNDECIDED and not yet posted.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "a6b3b286ec06305e7cb10868d38a948b052805ab0aa6eb5d887c3e3be75ea862",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P24"
+            ],
+            "severity": "major",
+            "observation": "The continuity statement for W10-P24 incorrectly states that the final sports outcome remains unposted, which is not accurate as the ESPN winners are UNDECIDED and not yet posted.",
+            "required_fix": "Update the continuity statement to reflect that the ESPN winners are UNDECIDED and not yet posted."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "costume",
+      "name": "Ngila Dickson",
+      "domain": "costume",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:19:53.835Z",
+      "finished_at": "2026-11-16T20:20:09.342Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'FOUR MORE AFTER THIS' does not match the actual content, which discusses the route narrowing and the remaining games in the season.\",\n      \"required_fix\": \"Change the page title to 'SEVEN BERTHS' or 'THE ROUTE NARROWS' to accurately reflect the content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "7146e5ad1160968a5e7318b08f32aa9afcadfe6dd2796f1c2b31ef149522e22f",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The page title 'FOUR MORE AFTER THIS' does not match the actual content, which discusses the route narrowing and the remaining games in the season.",
+            "required_fix": "Change the page title to 'SEVEN BERTHS' or 'THE ROUTE NARROWS' to accurately reflect the content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "performance",
+      "name": "Andy Serkis",
+      "domain": "performance",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:20:09.343Z",
+      "finished_at": "2026-11-16T20:20:29.339Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The camera description for W10-P02 does not match the actual content. The description mentions a 'perspective Commonwealth map' and 'established banners and meaningful scene props under warm lamps,' but the actual content shows a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose, not a bridge-travel picture.\",\n      \"required_fix\": \"Update the camera description for W10-P02 to accurately reflect the actual content, which is a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "d32b079820db4bff263c451e31e0604b1b7d859674cdbce8f5e70666d045280d",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P02"
+            ],
+            "severity": "major",
+            "observation": "The camera description for W10-P02 does not match the actual content. The description mentions a 'perspective Commonwealth map' and 'established banners and meaningful scene props under warm lamps,' but the actual content shows a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose, not a bridge-travel picture.",
+            "required_fix": "Update the camera description for W10-P02 to accurately reflect the actual content, which is a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "stunt_blocking",
+      "name": "Rob Alonzo",
+      "domain": "stunt_blocking",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:20:29.341Z",
+      "finished_at": "2026-11-16T20:20:45.955Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P07\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the visual observation shows a briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose, not bridge-travel picture.\",\n      \"required_fix\": \"Correct the continuity to match the visual observation, describing the briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "21aae9fe54bafcc86b8e281a8dc606de427822991a371970136feb5704de55d2",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P07"
+            ],
+            "severity": "critical",
+            "observation": "The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the visual observation shows a briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose, not bridge-travel picture.",
+            "required_fix": "Correct the continuity to match the visual observation, describing the briefing table/map/banners/sealed folio with dominant OPENING DRIVE and substantial integrated prose."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "pose_silhouette",
+      "name": "James Baxter",
+      "domain": "pose_silhouette",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:20:45.959Z",
+      "finished_at": "2026-11-16T20:21:02.412Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'WHY THE BOARD MOVED' does not match the content, which is a performance summary. The title should be changed to reflect the actual content.\",\n      \"required_fix\": \"Change the page title from 'WHY THE BOARD MOVED' to 'CURRENT PERFORMANCE STANDINGS'\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "671ed48a7552b7c583f80da87bccfaf985e47495276723343432c2605374ffaf",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P18"
+            ],
+            "severity": "major",
+            "observation": "The page title 'WHY THE BOARD MOVED' does not match the content, which is a performance summary. The title should be changed to reflect the actual content.",
+            "required_fix": "Change the page title from 'WHY THE BOARD MOVED' to 'CURRENT PERFORMANCE STANDINGS'"
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "unit_stills",
+      "name": "Frank Masi",
+      "domain": "unit_stills",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:21:02.415Z",
+      "finished_at": "2026-11-16T20:21:18.644Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P20\"],\n      \"severity\": \"major\",\n      \"observation\": \"The copy for 'The 200 Burger' specifies that the cake remains on the sideboard, but the visual observation shows the cake being lifted with candles cleared.\",\n      \"required_fix\": \"Ensure the visual representation matches the written copy. The cake should remain on the sideboard.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "3d81099c09b6156658b103535faedc334030aa22a7ef9419b7bbf04305f295d9",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P20"
+            ],
+            "severity": "major",
+            "observation": "The copy for 'The 200 Burger' specifies that the cake remains on the sideboard, but the visual observation shows the cake being lifted with candles cleared.",
+            "required_fix": "Ensure the visual representation matches the written copy. The cake should remain on the sideboard."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "vfx_pipeline",
+      "name": "John Knoll",
+      "domain": "vfx_pipeline",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:21:18.646Z",
+      "finished_at": "2026-11-16T20:21:37.773Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P24\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity states that the final sports outcome remains unposted, but the headline and body text imply a definitive outcome.\",\n      \"required_fix\": \"Revise the headline and body text to accurately reflect the unposted status of the final sports outcome.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "7239845e2848674ae849b6296bc0e81ca0c935121482d25e290870bb28385ec5",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P24"
+            ],
+            "severity": "major",
+            "observation": "The continuity states that the final sports outcome remains unposted, but the headline and body text imply a definitive outcome.",
+            "required_fix": "Revise the headline and body text to accurately reflect the unposted status of the final sports outcome."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "color_finishing",
+      "name": "Jill Bogdanowicz",
+      "domain": "color_finishing",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:21:37.776Z",
+      "finished_at": "2026-11-16T20:21:53.279Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'FOUR MORE AFTER THIS' does not match the content, which discusses the current standings and potential routes for Mud Dogs to win the Burgers division.\",\n      \"required_fix\": \"Change the page title to 'MUD DOGS' or 'MUD DOGS' to accurately reflect the content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "02e153f40810c2e4de4d8dcd612d56e85189960d437193211fe2040ebe306156",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The page title 'FOUR MORE AFTER THIS' does not match the content, which discusses the current standings and potential routes for Mud Dogs to win the Burgers division.",
+            "required_fix": "Change the page title to 'MUD DOGS' or 'MUD DOGS' to accurately reflect the content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "editing",
+      "name": "Thelma Schoonmaker",
+      "domain": "editing",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:21:53.283Z",
+      "finished_at": "2026-11-16T20:22:10.519Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 Board page incorrectly displays the status of the games as 'PROVISIONAL' instead of 'FINAL' for the ESPN winners.\",\n      \"required_fix\": \"Change the status of the ESPN winners' games to 'FINAL'.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "02c7d48d0462ee3f8e6c732e2a50c524b8d43ae417a18f180377ec798cbf8e01",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Week 10 Board page incorrectly displays the status of the games as 'PROVISIONAL' instead of 'FINAL' for the ESPN winners.",
+            "required_fix": "Change the status of the ESPN winners' games to 'FINAL'."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "sound_motion",
+      "name": "Randy Thom",
+      "domain": "sound_motion",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+      "started_at": "2026-11-16T20:22:10.522Z",
+      "finished_at": "2026-11-16T20:22:26.773Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P07\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the visual observation indicates that the scene is set in a red ruin with a waterfall skyline, which contradicts the continuity description.\",\n      \"required_fix\": \"Update the continuity to reflect the actual visual elements present in the scene.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "a0eb77752efb80863b551d807c989061821fbec87924531bc4df891e7558d158",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P07"
+            ],
+            "severity": "critical",
+            "observation": "The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the visual observation indicates that the scene is set in a red ruin with a waterfall skyline, which contradicts the continuity description.",
+            "required_fix": "Update the continuity to reflect the actual visual elements present in the scene."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    }
+  ]
+}

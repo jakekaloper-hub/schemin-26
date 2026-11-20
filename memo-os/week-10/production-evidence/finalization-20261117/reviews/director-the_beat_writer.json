@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_beat_writer",
+  "name": "The Beat Writer",
+  "domain": "narrative",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:37:53.338Z",
+  "finished_at": "2026-11-17T16:38:26.549Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P25\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity section states 'Seven positions across six teams; Seven Deadly Chins needs both specialist slots. Current starters are not presumed to be the submitted Week11 lineup.' However, the specialistNeeds data shows Seven Deadly Chins only needs one specialist slot.\",\n      \"required_fix\": \"Update the continuity section to reflect the actual specialist needs data.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 5,
+  "actual_input_sha256": "5f145cde035379325ee4c9593610800851243721a0ac8fe71199e7f83f1de651",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P25"
+        ],
+        "severity": "major",
+        "observation": "The continuity section states 'Seven positions across six teams; Seven Deadly Chins needs both specialist slots. Current starters are not presumed to be the submitted Week11 lineup.' However, the specialistNeeds data shows Seven Deadly Chins only needs one specialist slot.",
+        "required_fix": "Update the continuity section to reflect the actual specialist needs data."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

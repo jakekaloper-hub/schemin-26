@@ -1,0 +1,1235 @@
+{
+  "expected": 38,
+  "returned": 38,
+  "response_validated": 38,
+  "model": "qwen2.5-coder:7b",
+  "provider": "Authorized local Ollama through installed Bullpen consultation runtime",
+  "role_counts": {
+    "director": 18,
+    "inklings_lens": 8,
+    "production_lens": 12
+  },
+  "results": [
+    {
+      "kind": "director",
+      "id": "the_agent",
+      "name": "The Agent",
+      "domain": "marketing",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:41:01.966Z",
+      "finished_at": "2026-11-17T16:41:22.496Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 results table incorrectly lists 'His Majesty's Blood' as the winner against 'The LLC' with 208.76 points, while the actual final score was 'The LLC' with 203.96 points.\",\n      \"required_fix\": \"Correct the score for 'The LLC' to 203.96 points.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "cb235317696122e960a1b5902bf62f67622bfeb9b4dafab68865d79f90455de2",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Week 10 results table incorrectly lists 'His Majesty's Blood' as the winner against 'The LLC' with 208.76 points, while the actual final score was 'The LLC' with 203.96 points.",
+            "required_fix": "Correct the score for 'The LLC' to 203.96 points."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_analyst",
+      "name": "The Analyst",
+      "domain": "analytics",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:40:24.274Z",
+      "finished_at": "2026-11-17T16:40:44.965Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P27\"],\n      \"severity\": \"minor\",\n      \"observation\": \"The seed order does not match the actual standings.\",\n      \"required_fix\": \"Update the seed order to reflect the actual standings.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "277b3bb7dccb99d4953c0c23a2a237b6c81341e743d923a77bbda6c0a78fad8b",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P27"
+            ],
+            "severity": "minor",
+            "observation": "The seed order does not match the actual standings.",
+            "required_fix": "Update the seed order to reflect the actual standings."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_architect",
+      "name": "The Architect",
+      "domain": "engineering_craft",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:42:41.485Z",
+      "finished_at": "2026-11-17T16:42:57.770Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'FOUR MORE AFTER THIS' does not accurately reflect the content of the page, which discusses the playoff road and the possibility of Mud Dogs winning Burgers.\",\n      \"required_fix\": \"Change the headline to 'FOUR MORE GAMES AFTER THIS' to accurately reflect the content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "d29012ed6f89011bec47d194d8a0bb5e78ae18ddc81defc03a539edf2561b35c",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The headline 'FOUR MORE AFTER THIS' does not accurately reflect the content of the page, which discusses the playoff road and the possibility of Mud Dogs winning Burgers.",
+            "required_fix": "Change the headline to 'FOUR MORE GAMES AFTER THIS' to accurately reflect the content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_beat_writer",
+      "name": "The Beat Writer",
+      "domain": "narrative",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:37:53.338Z",
+      "finished_at": "2026-11-17T16:38:26.549Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P25\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity section states 'Seven positions across six teams; Seven Deadly Chins needs both specialist slots. Current starters are not presumed to be the submitted Week11 lineup.' However, the specialistNeeds data shows Seven Deadly Chins only needs one specialist slot.\",\n      \"required_fix\": \"Update the continuity section to reflect the actual specialist needs data.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "5f145cde035379325ee4c9593610800851243721a0ac8fe71199e7f83f1de651",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P25"
+            ],
+            "severity": "major",
+            "observation": "The continuity section states 'Seven positions across six teams; Seven Deadly Chins needs both specialist slots. Current starters are not presumed to be the submitted Week11 lineup.' However, the specialistNeeds data shows Seven Deadly Chins only needs one specialist slot.",
+            "required_fix": "Update the continuity section to reflect the actual specialist needs data."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_bookkeeper",
+      "name": "The Bookkeeper",
+      "domain": "finance",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:41:22.499Z",
+      "finished_at": "2026-11-17T16:41:42.416Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The result section for Red Leopards vs El Niño incorrectly states El Niño as the winner with a margin of 41.26, while the actual result shows Red Leopards as the winner with a margin of 41.26.\",\n      \"required_fix\": \"Correct the result section to reflect Red Leopards as the winner with a margin of 41.26.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "e7f8cdc68199f0b0c4a8f910358e584dfb6fe6e8d5cdefedfda2ed296c03240b",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P10"
+            ],
+            "severity": "major",
+            "observation": "The result section for Red Leopards vs El Niño incorrectly states El Niño as the winner with a margin of 41.26, while the actual result shows Red Leopards as the winner with a margin of 41.26.",
+            "required_fix": "Correct the result section to reflect Red Leopards as the winner with a margin of 41.26."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_closer",
+      "name": "The Closer",
+      "domain": "synthesis",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:35:50.446Z",
+      "finished_at": "2026-11-17T16:36:26.001Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The camera description for W10-P02 does not match the actual content. The description mentions a briefing table composition, but the actual content is a full-page grayscale memo folio with integrated prose.\",\n      \"required_fix\": \"Update the camera description for W10-P02 to reflect the actual content of the page.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "e8d44845074c64d82848d256d3feb29d928b08f607645af1f19ab14a27cc17e3",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P02"
+            ],
+            "severity": "major",
+            "observation": "The camera description for W10-P02 does not match the actual content. The description mentions a briefing table composition, but the actual content is a full-page grayscale memo folio with integrated prose.",
+            "required_fix": "Update the camera description for W10-P02 to reflect the actual content of the page."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_clubhouse_manager",
+      "name": "The Clubhouse Manager",
+      "domain": "human_resources",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:42:01.900Z",
+      "finished_at": "2026-11-17T16:42:19.939Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P21\"],\n      \"severity\": \"major\",\n      \"observation\": \"The final result is incorrectly displayed as a 'FINAL' game, but the game is actually a 'WEEK11' game.\",\n      \"required_fix\": \"Correct the game result to reflect it as a 'WEEK11' game.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "9ecb4ff8c8111c44463629e7ed912cf9eb983901a20bee0382951e74be32a7b3",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P21"
+            ],
+            "severity": "major",
+            "observation": "The final result is incorrectly displayed as a 'FINAL' game, but the game is actually a 'WEEK11' game.",
+            "required_fix": "Correct the game result to reflect it as a 'WEEK11' game."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_commissioner",
+      "name": "The Commissioner",
+      "domain": "commissioner_success",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:40:03.846Z",
+      "finished_at": "2026-11-17T16:40:24.270Z",
+      "response": "{\n  \"scope\": \"final-source delta review\",\n  \"findings\": [],\n  \"preflight_disposition\": \"ready_for_grayscale_proof\",\n  \"limit\": \"No generated artwork exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "28a860f7a37ab9b9b8963ac11d66d1d0266f29d6a3e7d2b6a18998926bd0292a",
+      "real_person_participation": false,
+      "validation_error": null,
+      "structured": {
+        "scope": "final-source delta review",
+        "findings": [],
+        "preflight_disposition": "ready_for_grayscale_proof",
+        "limit": "No generated artwork exists"
+      },
+      "response_validated": true,
+      "retried_at": "2026-11-17T16:52:50.695Z",
+      "retry_input": "commissioner-final-delta-input.json",
+      "original_invalid_preserved": "commissioner-invalid-first-response.json",
+      "includes_user_week11_addition": true
+    },
+    {
+      "kind": "director",
+      "id": "the_commissioner_general",
+      "name": "The Commissioner General",
+      "domain": "legal",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:41:42.420Z",
+      "finished_at": "2026-11-17T16:42:01.896Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"minor\",\n      \"observation\": \"The player statistics in the 'WHY THE BOARD MOVED' section include an incorrect score for Joe Burrow, who is listed with 103.66 points, but his actual points are 103.66.\",\n      \"required_fix\": \"Correct the player statistics to reflect the actual points scored by Joe Burrow.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "1033013a3743cbd5a60c30eacc6058d1cd89d54bd5ce29f21729d985f2d0c3f6",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P18"
+            ],
+            "severity": "minor",
+            "observation": "The player statistics in the 'WHY THE BOARD MOVED' section include an incorrect score for Joe Burrow, who is listed with 103.66 points, but his actual points are 103.66.",
+            "required_fix": "Correct the player statistics to reflect the actual points scored by Joe Burrow."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_gm",
+      "name": "The GM",
+      "domain": "product",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:39:02.133Z",
+      "finished_at": "2026-11-17T16:39:22.962Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 scoreboard page incorrectly lists 'The Chili Cheesers' as the home team against 'D0nkey K0ng' in the first game, but the actual game result shows 'D0nkey K0ng' as the winner with 156.67 points.\",\n      \"required_fix\": \"Correct the home and away team labels on page W10-P04 to reflect the actual game result.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "88da9c7972cd461d3ce0bb7698d4d052957b88ce1c3eae40fe2ddb98854c63e8",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Week 10 scoreboard page incorrectly lists 'The Chili Cheesers' as the home team against 'D0nkey K0ng' in the first game, but the actual game result shows 'D0nkey K0ng' as the winner with 156.67 points.",
+            "required_fix": "Correct the home and away team labels on page W10-P04 to reflect the actual game result."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_groundskeeper",
+      "name": "The Groundskeeper",
+      "domain": "operations",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:38:49.137Z",
+      "finished_at": "2026-11-17T16:39:02.129Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"minor\",\n      \"observation\": \"The phrase 'Saved constructive witnesses establish possibility, never odds or likelihood.' could be more concise and direct.\",\n      \"required_fix\": \"Replace with 'Saved constructive witnesses establish possibility. No odds or likelihood.'\"\n    }\n  ],\n  \"preflight_disposition\": \"ready_for_grayscale_proof\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "ab90f6ec6e6d3672aad901c4916b7b36577b91162af5f5f27c57abb914c0eb20",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "minor",
+            "observation": "The phrase 'Saved constructive witnesses establish possibility, never odds or likelihood.' could be more concise and direct.",
+            "required_fix": "Replace with 'Saved constructive witnesses establish possibility. No odds or likelihood.'"
+          }
+        ],
+        "preflight_disposition": "ready_for_grayscale_proof",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_librarian",
+      "name": "The Librarian",
+      "domain": "knowledge",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:40:44.971Z",
+      "finished_at": "2026-11-17T16:41:01.963Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'FOUR MORE AFTER THIS' does not accurately reflect the content, which discusses the remaining games and their implications for the playoff route.\",\n      \"required_fix\": \"Change the headline to 'THE NEXT SIX' to match the content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "65ff267136f61498c132d5a694668bc2746baa47fed66fc27b091e4136379403",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The headline 'FOUR MORE AFTER THIS' does not accurately reflect the content, which discusses the remaining games and their implications for the playoff route.",
+            "required_fix": "Change the headline to 'THE NEXT SIX' to match the content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_pitching_coach",
+      "name": "The Pitching Coach",
+      "domain": "ai_strategy",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:39:22.972Z",
+      "finished_at": "2026-11-17T16:39:43.378Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The result section for 'Red Leopards vs El Niño' incorrectly states the winner as 'El Niño' with a margin of 41.26, but the actual game result shows 'Red Leopards' as the winner with a margin of 41.26.\",\n      \"required_fix\": \"Correct the result section to reflect 'Red Leopards' as the winner with a margin of 41.26.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "b376cb3a27943a620066fe3de6548056119f2c46bd0bf32e422dbaf353a6de27",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P10"
+            ],
+            "severity": "major",
+            "observation": "The result section for 'Red Leopards vs El Niño' incorrectly states the winner as 'El Niño' with a margin of 41.26, but the actual game result shows 'Red Leopards' as the winner with a margin of 41.26.",
+            "required_fix": "Correct the result section to reflect 'Red Leopards' as the winner with a margin of 41.26."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_scout",
+      "name": "The Scout",
+      "domain": "data_quality",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:36:55.150Z",
+      "finished_at": "2026-11-17T16:37:23.663Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P14\"],\n      \"severity\": \"major\",\n      \"observation\": \"Incorrect final score in the body copy (146.22 vs 146.22, should be 189.08)\",\n      \"required_fix\": \"Correct the final score in the body copy to 189.08\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "1acce26b8f88588bb385cf89191cd1303a091a85a7748d438f58ca0123535a17",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P14"
+            ],
+            "severity": "major",
+            "observation": "Incorrect final score in the body copy (146.22 vs 146.22, should be 189.08)",
+            "required_fix": "Correct the final score in the body copy to 189.08"
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_scout_master",
+      "name": "The Scout Master",
+      "domain": "sales",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:42:19.945Z",
+      "finished_at": "2026-11-17T16:42:41.479Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P24\"],\n      \"severity\": \"minor\",\n      \"observation\": \"The copy references a 'destroyed emplacement' and 'surviving battery' that are not present in the visual content.\",\n      \"required_fix\": \"Remove references to destroyed emplacements and surviving batteries in the copy.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "5c83128c32171a3c4875b1ec8b351a2182c90a2f7be4d96a6632883ad7f317a2",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P24"
+            ],
+            "severity": "minor",
+            "observation": "The copy references a 'destroyed emplacement' and 'surviving battery' that are not present in the visual content.",
+            "required_fix": "Remove references to destroyed emplacements and surviving batteries in the copy."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_setup_man",
+      "name": "The Setup Man",
+      "domain": "infrastructure",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:36:26.009Z",
+      "finished_at": "2026-11-17T16:36:55.142Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P07\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the camera shows a wet rope and mud progression with a visible handwork hat beside D0nkey K0ng, implying a property transfer.\",\n      \"required_fix\": \"Remove the handwork hat from the camera view to match the continuity text.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "1624d26a2b6e6f47ac814116a37e94e3c414a6725e8e62621ffe8f6d7a233b84",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P07"
+            ],
+            "severity": "major",
+            "observation": "The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the camera shows a wet rope and mud progression with a visible handwork hat beside D0nkey K0ng, implying a property transfer.",
+            "required_fix": "Remove the handwork hat from the camera view to match the continuity text."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_umpire",
+      "name": "The Umpire",
+      "domain": "governance",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:37:23.667Z",
+      "finished_at": "2026-11-17T16:37:53.332Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P21\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page incorrectly states that Dr. Duckhook’s Puka Nacua cannot return before Week 15, which contradicts the actual injury report indicating he is out for the season.\",\n      \"required_fix\": \"Correct the page to reflect the actual injury status of Dr. Duckhook’s Puka Nacua.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "4d8f27f6c97578e034d134ca0706cc09ff60f9d9dcb279776ad8b3e90de42175",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P21"
+            ],
+            "severity": "major",
+            "observation": "The page incorrectly states that Dr. Duckhook’s Puka Nacua cannot return before Week 15, which contradicts the actual injury report indicating he is out for the season.",
+            "required_fix": "Correct the page to reflect the actual injury status of Dr. Duckhook’s Puka Nacua."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "director",
+      "id": "the_warden",
+      "name": "The Warden",
+      "domain": "security",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:39:43.384Z",
+      "finished_at": "2026-11-17T16:40:03.843Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P14\"],\n      \"severity\": \"major\",\n      \"observation\": \"The body copy for 'W10-P14' contains a factual error. The score for Seven Deadly Chins is listed as 146.22, but the actual score is 146.22. This discrepancy is likely a typo and should be corrected to 146.22.\",\n      \"required_fix\": \"Correct the score for Seven Deadly Chins to 146.22.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "7953487ef6cd889e332b1cbb1a07f2ffc93ac7199d53644a89abce3726ca5ce4",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P14"
+            ],
+            "severity": "major",
+            "observation": "The body copy for 'W10-P14' contains a factual error. The score for Seven Deadly Chins is listed as 146.22, but the actual score is 146.22. This discrepancy is likely a typo and should be corrected to 146.22.",
+            "required_fix": "Correct the score for Seven Deadly Chins to 146.22."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "brandon_sanderson",
+      "name": "Brandon Sanderson — Fantasy Systems, Rules, Costs, Promises/Payoffs & Reader Legibility",
+      "domain": "Brandon Sanderson published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/BRANDON_SANDERSON_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:44:37.111Z",
+      "finished_at": "2026-11-17T16:44:53.776Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The Chili Cheesers vs D0nkey K0ng is listed as a Week 10 outcome, but the actual Week 10 results do not include this game.\",\n      \"required_fix\": \"Remove the Chili Cheesers vs D0nkey K0ng from the Week 10 results.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "d4f6834ec610c061b7246e8da7765ba21dcca501fe9cb5dc1b091b0ba1793c44",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "critical",
+            "observation": "The Chili Cheesers vs D0nkey K0ng is listed as a Week 10 outcome, but the actual Week 10 results do not include this game.",
+            "required_fix": "Remove the Chili Cheesers vs D0nkey K0ng from the Week 10 results."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "cs_lewis",
+      "name": "C. S. Lewis — Moral Imagination, Mythic Wonder & Ethical Consequence",
+      "domain": "C. S. Lewis published-method and literary scholarship lens",
+      "dossier": "living-novel/consultants/author-council/CS_LEWIS_METHODOLOGY_PROFILE.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:43:12.468Z",
+      "finished_at": "2026-11-17T16:43:29.072Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The result section for Red Leopards vs El Niño incorrectly states that Red Leopards won with a score of 147.82 to 189.08, which contradicts the actual result of El Niño winning with a score of 189.08 to 147.82.\",\n      \"required_fix\": \"Correct the result section to reflect El Niño's win with a score of 189.08 to 147.82.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "a6322161180c07ad932568ac76dc7a461a1c8a294c4d4c6dfb877f88cb299d14",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P10"
+            ],
+            "severity": "major",
+            "observation": "The result section for Red Leopards vs El Niño incorrectly states that Red Leopards won with a score of 147.82 to 189.08, which contradicts the actual result of El Niño winning with a score of 189.08 to 147.82.",
+            "required_fix": "Correct the result section to reflect El Niño's win with a score of 189.08 to 147.82."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "george_rr_martin",
+      "name": "George R.R. Martin — Ensemble Causality, Multi-POV & Long-Form Epic Architecture",
+      "domain": "George R.R. Martin published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/GEORGE_RR_MARTIN_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:43:29.075Z",
+      "finished_at": "2026-11-17T16:43:44.461Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P14\"],\n      \"severity\": \"major\",\n      \"observation\": \"The deck 'No Quiet Hours' does not accurately reflect the content of the body, which describes a battle between Three Dreaded Snake and Seven Deadly Chins.\",\n      \"required_fix\": \"Change the deck to 'Three Dreaded Snake vs Seven Deadly Chins'\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "46e91a3474139beb749691f4d7da2b0fd66438dccefb91a8234549a9ff4d3bd8",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P14"
+            ],
+            "severity": "major",
+            "observation": "The deck 'No Quiet Hours' does not accurately reflect the content of the body, which describes a battle between Three Dreaded Snake and Seven Deadly Chins.",
+            "required_fix": "Change the deck to 'Three Dreaded Snake vs Seven Deadly Chins'"
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "jk_rowling",
+      "name": "J.K. Rowling — Long-Horizon Series Architecture, Mystery, Setup/Payoff & Accessible World Entry",
+      "domain": "J.K. Rowling published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JK_ROWLING_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:43:44.471Z",
+      "finished_at": "2026-11-17T16:43:59.893Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P21\"],\n      \"severity\": \"major\",\n      \"observation\": \"The payoff scene incorrectly shows the untouched double-decker burger in the box, which contradicts the established narrative that the burger was destroyed.\",\n      \"required_fix\": \"Remove the untouched double-decker burger from the box in the payoff scene.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "8c433095d8a2739b7e57fe1aa798deb87fcb16e25efd2121630eed36e155495b",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P21"
+            ],
+            "severity": "major",
+            "observation": "The payoff scene incorrectly shows the untouched double-decker burger in the box, which contradicts the established narrative that the burger was destroyed.",
+            "required_fix": "Remove the untouched double-decker burger from the box in the payoff scene."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "joe_abercrombie",
+      "name": "Joe Abercrombie — Tight POV, Distinct Character Voice, Human-Scale Epic Action & Ruthless Revision",
+      "domain": "Joe Abercrombie published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JOE_ABERCROMBIE_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:44:53.781Z",
+      "finished_at": "2026-11-17T16:45:10.097Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The result of the game between Red Leopards and El Niño is incorrect. The result states that El Niño won with a score of 189.08 to 147.82, but the department heading indicates that Red Leopards won.\",\n      \"required_fix\": \"Correct the result in the result section to reflect the correct winner and score.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "30b17d03da3a28165022f213f06fe503f8f9c719dda9f85ad1f6493e28ba37cb",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P10"
+            ],
+            "severity": "major",
+            "observation": "The result of the game between Red Leopards and El Niño is incorrect. The result states that El Niño won with a score of 189.08 to 147.82, but the department heading indicates that Red Leopards won.",
+            "required_fix": "Correct the result in the result section to reflect the correct winner and score."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "john_grisham",
+      "name": "John Grisham — Propulsion, Chapter Discipline, Outline Pressure & Adult Readability",
+      "domain": "John Grisham published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JOHN_GRISHAM_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:43:59.903Z",
+      "finished_at": "2026-11-17T16:44:21.450Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P27\"],\n      \"severity\": \"major\",\n      \"observation\": \"The standings table shows teams with 6-4 records, which is not possible since there are only 12 teams and only 11 possible unique records (6-4, 5-5, 4-6, 3-7, 2-8, 1-9, 0-10).\",\n      \"required_fix\": \"Correct the standings table to reflect the actual possible records for 12 teams.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "85d0cfb21139f948228f378fa18bb41004e68db948bf2104a59f289530d9b470",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P27"
+            ],
+            "severity": "major",
+            "observation": "The standings table shows teams with 6-4 records, which is not possible since there are only 12 teams and only 11 possible unique records (6-4, 5-5, 4-6, 3-7, 2-8, 1-9, 0-10).",
+            "required_fix": "Correct the standings table to reflect the actual possible records for 12 teams."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "jrr_tolkien",
+      "name": "J.R.R. Tolkien — Secondary World, Mythic Depth & Historical Texture",
+      "domain": "J.R.R. Tolkien published-method/scholarship lens",
+      "dossier": "living-novel/consultants/author-council/advisors/JRR_TOLKIEN_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:42:57.777Z",
+      "finished_at": "2026-11-17T16:43:12.462Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P01\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The continuity statement does not accurately reflect the cover editorial synthesis. The cover shows both characters dominating without implying a shared encounter, alliance, crown or belt transfer.\",\n      \"required_fix\": \"Revise the continuity statement to accurately reflect the cover's visual and narrative intent.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "ad54ec57988dc968ee0282e1c41bd9bb0e0b8f29a82d62dd9b8d1d5c9f11ba07",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P01"
+            ],
+            "severity": "critical",
+            "observation": "The continuity statement does not accurately reflect the cover editorial synthesis. The cover shows both characters dominating without implying a shared encounter, alliance, crown or belt transfer.",
+            "required_fix": "Revise the continuity statement to accurately reflect the cover's visual and narrative intent."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "inklings_lens",
+      "id": "ursula_k_le_guin",
+      "name": "Ursula K. Le Guin — POV, Narrative Distance, Voice, Language & Cultural Interior",
+      "domain": "Ursula K. Le Guin published-method lens",
+      "dossier": "living-novel/consultants/author-council/advisors/URSULA_K_LE_GUIN_CONSULTANT_DOSSIER_V1.md",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:44:21.458Z",
+      "finished_at": "2026-11-17T16:44:37.095Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'FOUR MORE AFTER THIS' does not match the content, which discusses the playoff route and elimination possibilities.\",\n      \"required_fix\": \"Change the headline to 'SEVEN BERTHS' or 'MUD DOGS’ NEXT TEST' to reflect the content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "864ff05e1a0a89b569efa2808838f0e62d5a07dae534f04ee66de56c971787db",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The headline 'FOUR MORE AFTER THIS' does not match the content, which discusses the playoff route and elimination possibilities.",
+            "required_fix": "Change the headline to 'SEVEN BERTHS' or 'MUD DOGS’ NEXT TEST' to reflect the content."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "character_vfx",
+      "name": "Joe Letteri",
+      "domain": "character_vfx",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:45:40.925Z",
+      "finished_at": "2026-11-17T16:45:57.985Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P27\"],\n      \"severity\": \"major\",\n      \"observation\": \"The standings table shows teams with 6-4 records, which is not possible given the provided seed order and point totals.\",\n      \"required_fix\": \"Correct the standings table to reflect the actual seed order and point totals.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "81208ef869cdcb459e0351e842142c7c6a44747b75066e2b03ae4cb42290d7af",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P27"
+            ],
+            "severity": "major",
+            "observation": "The standings table shows teams with 6-4 records, which is not possible given the provided seed order and point totals.",
+            "required_fix": "Correct the standings table to reflect the actual seed order and point totals."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "color_finishing",
+      "name": "Jill Bogdanowicz",
+      "domain": "color_finishing",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:47:35.414Z",
+      "finished_at": "2026-11-17T16:47:48.857Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy indicates a potential error in the headline.\",\n      \"required_fix\": \"Update the headline to 'ONE CROSSOVER AND THREE DIVISIONAL ROUNDS REMAIN' to match the body text.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "5b57bc8d709f4730562ecf679429471a62a1a8b08f3029cf924ef815bd8f19ba",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy indicates a potential error in the headline.",
+            "required_fix": "Update the headline to 'ONE CROSSOVER AND THREE DIVISIONAL ROUNDS REMAIN' to match the body text."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "costume",
+      "name": "Ngila Dickson",
+      "domain": "costume",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:45:57.996Z",
+      "finished_at": "2026-11-17T16:46:11.503Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy is confusing and potentially misleading.\",\n      \"required_fix\": \"Clarify the number of games remaining in the body text to match the headline.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 6,
+      "actual_input_sha256": "6c0094b425561afb25a84c6e9428dec9f5b8c7028aed9c94ca24687da33c8cae",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P30"
+            ],
+            "severity": "major",
+            "observation": "The headline 'FOUR MORE AFTER THIS' suggests a specific number of games remaining, but the body text states 'Four games remain: one crossover, then three divisional rounds.' This discrepancy is confusing and potentially misleading.",
+            "required_fix": "Clarify the number of games remaining in the body text to match the headline."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "editing",
+      "name": "Thelma Schoonmaker",
+      "domain": "editing",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:47:48.865Z",
+      "finished_at": "2026-11-17T16:48:03.908Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Chili Cheesers vs D0nkey K0ng game is incorrectly listed as a Week 10 outcome, but the game is actually scheduled for Week 11.\",\n      \"required_fix\": \"Correct the game listing to reflect it as a Week 11 outcome.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "9a01d645cb17102e9a0fa5eb4037f805e66be9998ec981a5f37cf91838f55c26",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Chili Cheesers vs D0nkey K0ng game is incorrectly listed as a Week 10 outcome, but the game is actually scheduled for Week 11.",
+            "required_fix": "Correct the game listing to reflect it as a Week 11 outcome."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "environment_design",
+      "name": "Dylan Cole",
+      "domain": "environment_design",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:45:25.877Z",
+      "finished_at": "2026-11-17T16:45:40.916Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P21\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The continuity rule states that the untouched double-decker burger should remain in its open box to the side, but the camera shows the burger being lifted and placed on Dr. Duckhook's face.\",\n      \"required_fix\": \"Ensure the burger remains in its open box to the side, untouched, as per the continuity rule.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "182b608d12d1867ca7802a693efc17db38cb39e947bbc43186f0c1d78a83c81a",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P21"
+            ],
+            "severity": "critical",
+            "observation": "The continuity rule states that the untouched double-decker burger should remain in its open box to the side, but the camera shows the burger being lifted and placed on Dr. Duckhook's face.",
+            "required_fix": "Ensure the burger remains in its open box to the side, untouched, as per the continuity rule."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "performance",
+      "name": "Andy Serkis",
+      "domain": "performance",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:46:11.508Z",
+      "finished_at": "2026-11-17T16:46:26.774Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Chili Cheesers vs D0nkey K0ng game is incorrectly listed as a Week 10 outcome, but it is actually a Week 11 game.\",\n      \"required_fix\": \"Correct the game listing to reflect it as a Week 11 game.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 1,
+      "actual_input_sha256": "3b4a6033521a42cdc19fb501a0fd6ff205a805a84af34e1682c46507940257a3",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P04"
+            ],
+            "severity": "major",
+            "observation": "The Chili Cheesers vs D0nkey K0ng game is incorrectly listed as a Week 10 outcome, but it is actually a Week 11 game.",
+            "required_fix": "Correct the game listing to reflect it as a Week 11 game."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "pose_silhouette",
+      "name": "James Baxter",
+      "domain": "pose_silhouette",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:46:44.153Z",
+      "finished_at": "2026-11-17T16:47:01.046Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P14\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The result in W10-P14 contradicts the final facts provided. The final facts state that Seven Deadly Chins won with 146.22 points, while the page shows Slob on my Dobb as the winner with 179.29 points.\",\n      \"required_fix\": \"Correct the result in W10-P14 to reflect the final facts: Seven Deadly Chins 146.22, Slob on my Dobb 179.29.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "4d7befb985ae3111a6e4e9c5182a53f0b48fc0e18487207dfc5e160d20594bcd",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P14"
+            ],
+            "severity": "critical",
+            "observation": "The result in W10-P14 contradicts the final facts provided. The final facts state that Seven Deadly Chins won with 146.22 points, while the page shows Slob on my Dobb as the winner with 179.29 points.",
+            "required_fix": "Correct the result in W10-P14 to reflect the final facts: Seven Deadly Chins 146.22, Slob on my Dobb 179.29."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "production_design",
+      "name": "Doug Chiang",
+      "domain": "production_design",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:45:10.101Z",
+      "finished_at": "2026-11-17T16:45:25.860Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P14\"],\n      \"severity\": \"major\",\n      \"observation\": \"The result in W10-P14 incorrectly states that Seven Deadly Chins won the game with 146.22 points, while the actual score was 146.22 to 82.78.\",\n      \"required_fix\": \"Correct the result to reflect the actual score of 146.22 to 82.78.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 3,
+      "actual_input_sha256": "8e59e865f62c0045c2a6b6be745bdf11147755bfda740a0963c7f38f91257e1c",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P14"
+            ],
+            "severity": "major",
+            "observation": "The result in W10-P14 incorrectly states that Seven Deadly Chins won the game with 146.22 points, while the actual score was 146.22 to 82.78.",
+            "required_fix": "Correct the result to reflect the actual score of 146.22 to 82.78."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "sound_motion",
+      "name": "Randy Thom",
+      "domain": "sound_motion",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:48:03.912Z",
+      "finished_at": "2026-11-17T16:48:19.255Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The result of the game between Red Leopards and El Niño is incorrect. The result states El Niño won with 189.08 points, but the actual score was 116.32 to 97.96.\",\n      \"required_fix\": \"Correct the result to reflect the actual score of 116.32 to 97.96, with El Niño as the loser.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "ef81370ee3e221c50e324281bb1cc2c296279b2611ef5a50cfc8c2bbbfcefa9b",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P10"
+            ],
+            "severity": "major",
+            "observation": "The result of the game between Red Leopards and El Niño is incorrect. The result states El Niño won with 189.08 points, but the actual score was 116.32 to 97.96.",
+            "required_fix": "Correct the result to reflect the actual score of 116.32 to 97.96, with El Niño as the loser."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "stunt_blocking",
+      "name": "Rob Alonzo",
+      "domain": "stunt_blocking",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:46:26.779Z",
+      "finished_at": "2026-11-17T16:46:44.145Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The result of the match between Red Leopards and El Niño is incorrectly stated as a loss for Red Leopards, when in fact El Niño won.\",\n      \"required_fix\": \"Change the result to 'FINAL', 'winner': 'El Niño', 'winner_points': '189.08', 'loser': 'Red Leopards', 'loser_points': '147.82', 'winner_record': '6–4', 'loser_record': '5–5', 'margin': '41.26'\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 2,
+      "actual_input_sha256": "4ae589089175097eea6db036d70955346a90b2e08ca37e4cfb2509a259af8bc4",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P10"
+            ],
+            "severity": "major",
+            "observation": "The result of the match between Red Leopards and El Niño is incorrectly stated as a loss for Red Leopards, when in fact El Niño won.",
+            "required_fix": "Change the result to 'FINAL', 'winner': 'El Niño', 'winner_points': '189.08', 'loser': 'Red Leopards', 'loser_points': '147.82', 'winner_record': '6–4', 'loser_record': '5–5', 'margin': '41.26'"
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "unit_stills",
+      "name": "Frank Masi",
+      "domain": "unit_stills",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:47:01.068Z",
+      "finished_at": "2026-11-17T16:47:16.673Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P21\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity rule states that the untouched double-decker burger should remain in its open box to the side, but the camera shows the burger being lifted and placed on Dr. Duckhook's face.\",\n      \"required_fix\": \"Ensure the camera shows the untouched double-decker burger remaining in its open box to the side, with the cake being lifted and placed on Dr. Duckhook's face.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 4,
+      "actual_input_sha256": "dabd0b18dbf4b3970451ab1fa87e3bb8692f49eea948e45c4073f747a3adfe81",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P21"
+            ],
+            "severity": "major",
+            "observation": "The continuity rule states that the untouched double-decker burger should remain in its open box to the side, but the camera shows the burger being lifted and placed on Dr. Duckhook's face.",
+            "required_fix": "Ensure the camera shows the untouched double-decker burger remaining in its open box to the side, with the cake being lifted and placed on Dr. Duckhook's face."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    },
+    {
+      "kind": "production_lens",
+      "id": "vfx_pipeline",
+      "name": "John Knoll",
+      "domain": "vfx_pipeline",
+      "status": "returned",
+      "model": "qwen2.5-coder:7b",
+      "provider": "Ollama on authorized local Mac via Bullpen runtime",
+      "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+      "started_at": "2026-11-17T16:47:16.712Z",
+      "finished_at": "2026-11-17T16:47:35.407Z",
+      "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P27\"],\n      \"severity\": \"critical\",\n      \"observation\": \"The standings table shows 'Slob on my Dobb' as the first seed with 1599.99 points, but the seedOrder array shows 'Slob on my Dobb' as the 6th seed.\",\n      \"required_fix\": \"Update the standings table to reflect the correct seed order from the seedOrder array.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+      "primary_review_sheet": 5,
+      "actual_input_sha256": "824a95fd8fc89ddfedb0006197b12b6d3635c0e62f342e9ffabb8c14180c0a23",
+      "real_person_participation": false,
+      "structured": {
+        "scope": "pre-render written/source audit",
+        "findings": [
+          {
+            "page_ids": [
+              "W10-P27"
+            ],
+            "severity": "critical",
+            "observation": "The standings table shows 'Slob on my Dobb' as the first seed with 1599.99 points, but the seedOrder array shows 'Slob on my Dobb' as the 6th seed.",
+            "required_fix": "Update the standings table to reflect the correct seed order from the seedOrder array."
+          }
+        ],
+        "preflight_disposition": "repair",
+        "limit": "no rendered output exists"
+      },
+      "response_validated": true
+    }
+  ],
+  "participation_limit": "AI-role and published-methodology consultations, not the actual named people. Responses are critiques, not an approval vote."
+}

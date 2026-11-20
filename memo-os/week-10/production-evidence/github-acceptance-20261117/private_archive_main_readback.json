@@ -1,0 +1,45 @@
+{
+  "schema_version": "bullpen.private_archive_main_readback.v1",
+  "reviewer": {
+    "host_agent": "/root/playoff_rules_audit",
+    "lens": "Librarian independent remote postmerge readback"
+  },
+  "decision": "PASS_MERGED_MAIN_RETENTION",
+  "observed_at_utc": "2026-11-17 18:13:43 UTC",
+  "prior_premerge_receipt_sha256": "5871c98c329dd8f7621b0205284f7b8c9da13b4802d75aefd045e92d4d6686ce",
+  "pull_request": 155,
+  "pull_request_state": "closed",
+  "pull_request_merged": true,
+  "merged_at_utc": "2026-11-17T18:13:05Z",
+  "merge_commit_sha": "f740977ed4c16a33f291f10969d004bc8ed39edc",
+  "current_main_commit_sha": "f740977ed4c16a33f291f10969d004bc8ed39edc",
+  "source_commit_sha": "ff61dcf65ba87bedd6b28677e34ff93da260c928",
+  "source_commit_is_direct_parent_of_main": true,
+  "main_parent_shas": [
+    "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "ff61dcf65ba87bedd6b28677e34ff93da260c928"
+  ],
+  "source_git_blob_sha1": "37d0b636fec7bcb566450a2af33893344440fa07",
+  "source_blob_unchanged_from_independently_rehashed_premerge_version": true,
+  "source_sha256_carried_forward": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+  "source_utf8_bytes_carried_forward": 664111,
+  "manifest_git_blob_sha1": "a7792fd69c2349e2a85012d6f5a83181f713ad1d",
+  "readme_git_blob_sha1": "cf5101a7d343ea32c495ac9dcbaba864ca662df2",
+  "manifest_and_readme_unchanged": true,
+  "readback_ref": "main",
+  "rehash_repeated": false,
+  "rehash_reason": "Main source blob exactly matches the independently fetched and SHA256-verified premerge Git blob; the reviewed source commit is a direct parent of main.",
+  "retention_acceptance_review_observed": {
+    "state": "COMMENTED",
+    "submitted_at_utc": "2026-11-17T18:12:59Z",
+    "scope": "Normal repository merge of the three pinned archive files",
+    "independent_librarian_and_umpire_acceptance_recorded": true,
+    "hosted_ci_nonexecution_disposition_recorded": true,
+    "external_human_approval_claimed": false
+  },
+  "png_generation_authorized": false,
+  "artwork_approved": false,
+  "publication_approved": false,
+  "effective_decision": "PASS_PRIVATE_ARCHIVE_MERGED_AND_REMOTE_MAIN_VERIFIED",
+  "effective_remaining_action": "Private GitHub retention is complete. Broader Schemin preproduction acceptance remains separately scoped."
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "director",
+  "id": "the_architect",
+  "pages": [
+    "W10-P01",
+    "W10-P02",
+    "W10-P05",
+    "W10-P24",
+    "W10-P31"
+  ],
+  "focus": "Check that page-specific reading paths are materially distinct yet preserve a consistent identity. Do not call instructions proof of pixel fit.",
+  "status": "returned_valid_json",
+  "response": "{\n  \"scope\": \"written implementation review, not pixel acceptance\",\n  \"retain\": \"one specific strength\",\n  \"findings\": [],\n  \"personalization_advice\": \"one useful focus\",\n  \"disposition\": \"inputs_ready_for_founder_notes\"\n}",
+  "structured": {
+    "scope": "written implementation review, not pixel acceptance",
+    "retain": "one specific strength",
+    "findings": [],
+    "personalization_advice": "one useful focus",
+    "disposition": "inputs_ready_for_founder_notes"
+  },
+  "model": "qwen2.5-coder:7b",
+  "input_sha256": "f7e3ae237bf62b4f333a88b691aa0e497fd6b69d7f468446a0d3e00257e75d52",
+  "started_at": "2026-11-17T17:17:08.337Z",
+  "ended_at": "2026-11-17T17:17:34.579Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}
