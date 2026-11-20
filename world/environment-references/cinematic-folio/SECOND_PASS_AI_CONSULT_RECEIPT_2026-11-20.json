@@ -1,0 +1,198 @@
+{
+  "schema": "schemin.folio_second_pass_ai_consult_v1",
+  "status": "LOCAL_MODEL_CONSULTATIONS_NOT_HUMAN_DIRECTOR_APPROVAL",
+  "source_commit": "daa20ae954903d269d96d5f014f746b08f04f4b6",
+  "utc": "2026-11-20T20:10:02.073Z",
+  "model": "gemma3:4b",
+  "intent_command": "strengthen",
+  "route_summaries": {
+    "architecture": {
+      "primary": "the_architect",
+      "secondary": [
+        "the_warden"
+      ],
+      "counterweight_plan": {
+        "primary": "the_architect",
+        "activated": true,
+        "edge": "modular, test-driven engineering quality",
+        "failure_mode": "engineering elegance becoming an objective independent of business value",
+        "counterweights": [
+          "the_setup_man",
+          "the_gm"
+        ],
+        "trigger_reasons": [
+          "forced",
+          "material_trigger:implement",
+          "material_trigger:audit",
+          "material_trigger:security"
+        ],
+        "challenge_questions": [
+          "What observed failure justifies this complexity or refactor?",
+          "What future work is actually blocked?",
+          "What is the cost of leaving this debt alone?"
+        ],
+        "preflight": [
+          "state observed pain, incident history, blocked work, maintenance burden, remediation cost, and cost of inaction"
+        ],
+        "during": [
+          "use the smallest structural intervention that resolves the identified problem"
+        ],
+        "postflight": [
+          "verify complexity reduction, incidents prevented, development velocity, and regressions"
+        ],
+        "tension": {
+          "id": "quality_complexity",
+          "name": "Complexity Warrant",
+          "principle": "No material complexity increase without an identified failure, opportunity, or measurable quality gain."
+        }
+      }
+    },
+    "provenance": {
+      "primary": "the_librarian",
+      "secondary": [
+        "the_architect",
+        "the_umpire"
+      ],
+      "counterweight_plan": {
+        "primary": "the_librarian",
+        "activated": true,
+        "edge": "canonical knowledge and provenance",
+        "failure_mode": "documentation accumulation and protection of obsolete canonical structure",
+        "counterweights": [
+          "the_clubhouse_manager",
+          "the_closer"
+        ],
+        "trigger_reasons": [
+          "forced",
+          "material_trigger:audit"
+        ],
+        "challenge_questions": [
+          "Does an authoritative artifact already exist?",
+          "Who will use this and when?",
+          "What does this supersede and when can it retire?"
+        ],
+        "preflight": [
+          "search existing canon before creating a new authoritative artifact"
+        ],
+        "during": [
+          "extend authoritative sources instead of duplicating them where possible"
+        ],
+        "postflight": [
+          "retire or supersede displaced material and record lifecycle metadata"
+        ],
+        "tension": {
+          "id": "story_truth",
+          "name": "Claim Provenance",
+          "principle": "Every meaningful factual claim must know where it came from."
+        }
+      }
+    },
+    "creative": {
+      "primary": "the_beat_writer",
+      "secondary": [
+        "the_gm"
+      ],
+      "counterweight_plan": {
+        "primary": "the_beat_writer",
+        "activated": true,
+        "edge": "truth-preserving narrative quality",
+        "failure_mode": "narrative coherence becoming stronger than evidentiary truth",
+        "counterweights": [
+          "the_scout",
+          "the_librarian"
+        ],
+        "trigger_reasons": [
+          "forced",
+          "profile_trigger:historical"
+        ],
+        "challenge_questions": [
+          "What is the verified event spine?",
+          "Which statements are interpretation rather than fact?",
+          "Did creative framing alter causality or history?"
+        ],
+        "preflight": [
+          "build the fact spine before prose"
+        ],
+        "during": [
+          "keep creative framing subordinate to the event spine"
+        ],
+        "postflight": [
+          "reconcile narrative claims against evidence and provenance"
+        ],
+        "tension": {
+          "id": "story_truth",
+          "name": "Claim Provenance",
+          "principle": "Every meaningful factual claim must know where it came from."
+        }
+      }
+    }
+  },
+  "directors": [
+    {
+      "directorSlug": "the_architect",
+      "response": "PR337 presents several immediate concerns. The reliance on `source_sha256` and the inclusion of PR bridge files within the URL builder raises the highest probability of broken links, particularly given the lack of explicit verification. This warrants immediate investigation.\n\n**Defect 1:**  The use of `linkToSource` with a `source_sha256` without a defined validation process introduces a risk of utilizing outdated or corrupted data. The current reliance on SHA256 offers no guarantees of data integrity.\n\n**Defect 2:** The presence of 199 exact IDs across PR324+PR325, with a concordance PR339, suggests potential duplication or inconsistencies in data structures. This requires a granular audit of duplicate entries and their corresponding relationships.\n\n**Test:**  Implement a regression test focused on the map functionality – specifically, verifying the accuracy and consistency of the 23 active locations and 18 mainland routes against the `world-state` source.\n\n**Recommendation:** Prioritize establishing deterministic data sources and a robust validation pipeline for the `source_sha256` system. Begin with a simple checksum validation of the `world.json` file against a known good version.",
+      "error": null
+    },
+    {
+      "directorSlug": "the_librarian",
+      "response": "Assessment: The Folio Studio site/app.js codebase, stemming from PR337, presents several key concerns warranting focused review.\n\nDefect 1: Source-Link Integrity – `linkToSource` utilizes a derived `world.json` with a source SHA of `daa20ae`. This represents a potential point of divergence from the authoritative `world-state source dated end_of_week_3_2026`. Verification of this relationship and the stability of the `daa20ae` hash is paramount. Tool Receipt: Confirmation via The Scout’s data quality report verifying the source’s integrity.\n\nDefect 2: Draft Provenance – The inclusion of draft PR322 alongside the current PR337 necessitates auditing for lineage and potential conflicts. Determining whether PR322 informs PR337, or is superseded, is critical. Tool Receipt: The Umpire’s governance review ensuring classification of these PRs in the knowledge architecture.\n\nTest: Prior Python 13 unit tests+browser smoke passed. Confirm continuing viability of these tests against the current `daa20ae` derived state. Tool Receipt: The Analyst’s metrics report validating test execution.\n\nRecommendation: Initiate a detailed provenance assessment of all referenced PRs, specifically mapping the relationship between PR322, PR337, and the authoritative `end_of",
+      "error": null
+    },
+    {
+      "directorSlug": "the_setup_man",
+      "response": "Assessment: The folio site/app.js application presents a complex runtime architecture reliant on several PR branches. The reliance on `source_sha256` within `linkToSource` introduces a key vulnerability: divergence from the established `main` branch could trigger unexpected behavior due to the inclusion of PR bridge files.\n\nStrongest Defect: Potential broken links due to inconsistencies between the `source_sha256` and the actual state of the PR branches. Specifically, the inclusion of PR337’s files within the build process, coupled with the absence of a robust validation mechanism for source SHA256 consistency, creates a significant risk.\n\nSupporting Evidence: The description explicitly states “Possible broken links” and highlights the inclusion of PR bridge files.\n\nTest: The existing Python 13 unit tests and browser smoke tests provide a baseline but do not explicitly account for source divergence scenarios. \n\nRecommendation: Implement a CI pipeline step to validate the hash of the `source_sha256` against a checksum of the integrated PR branches before triggering the build process. This action directly addresses the identified vulnerability.\n",
+      "error": null
+    },
+    {
+      "directorSlug": "the_beat_writer",
+      "response": "Assessment: The Folio Studio codebase, specifically `site/app.js`, presents notable risks regarding reader comprehension and potential operational instability. The reliance on a dated world-state source (“end_of_week_3_2026”) coupled with a potentially unstable URL builder linked to PR337 introduces significant uncertainty.\n\nEvidence: The documented “possible broken links” within the URL builder, coupled with the dependence on PR bridge files exclusive to this branch, suggests a fragile data integration strategy. The lack of a current world-state source necessitates a heightened risk assessment. \n\nDefect 1 (Source-Bounded): The outdated world-state (“end_of_week_3_2026”) undermines the fidelity of location and era representation, directly impacting the 12 POVs identified for review. \n\nDefect 2 (Test): Prior Python 13 unit tests + browser smoke tests, while passing, do not account for changes introduced in PR337, creating a false sense of stability.\n\nRecommendation: Immediately establish a process for synchronizing the world-state source with the latest available canonical identifier (source_sha256). The Setup Man should evaluate the URL builder architecture and integration dependencies.",
+      "error": null
+    },
+    {
+      "directorSlug": "the_umpire",
+      "response": "PR337 – Folio Studio site/app.js – Initial Assessment\n\nDefect 1: Source URL Builder – Potential Broken Links. The `linkToSource` function utilizes a derived world.json based on SHA256, including folio and PR bridge files residing exclusively on PR337. Independent verification of this source derivation and the resulting URL integrity is required.\n\nDefect 2: Unresolved Last Field Proposals. Two physical Last Field proposals remain unresolved. The source document, `world-state` dated end_of_week_3_2026, does not contain any reference to these proposals. Confirmation of their existence and current status is needed.\n\nTest: Python 13 Unit Tests – Prior passes are insufficient. The assertion of “Passed” requires verification against the current state of PR337.\n\nRecommendation: Implement automated monitoring of the `linkToSource` function with defined thresholds for response time and URL validity.",
+      "error": null
+    },
+    {
+      "directorSlug": "the_closer",
+      "response": "Okay.\n\nThe current state indicates a significant dependency on PR337 for the Folio Studio application’s core world-state. Given the provided context, my assessment is focused on risk mitigation around the source integration.\n\n**Defect 1:** Potential Broken Links – The `linkToSource` function, relying on source_sha256 and potentially including folio and PR bridge files, presents an elevated risk of broken links given the dependencies on PR337. *Tool Receipt: Network diagnostic scan – validate all URLs referenced by `linkToSource` against the current world.json.*\n\n**Defect 2:** Unresolved Last Field Proposals – Two physical Last Field proposals remain unresolved. *Tool Receipt: Request confirmation from the GM (Chief Product Officer) regarding priority and potential impact on the active work.*\n\n**Test:** Prior Python 13 unit tests + browser smoke passed. *Tool Receipt: Confirm test suite execution logs.*\n\n**Recommendation:** Prioritize implementation of the application, focusing on minimizing further planning cycles. *Tool Receipt: Execute a dry run of the application against the current world.json to identify immediate usability issues.*\n",
+      "error": null
+    }
+  ],
+  "production": {
+    "role": "Visual Direction Lead",
+    "lens": "Dylan Cole environment-design published-method reference ONLY",
+    "response": "Okay, here’s a production analysis focusing on environment-design principles, based on the provided information:\n\nThis Folio Studio project (PR337) centers heavily on precise, reusable environment design. The primary focus is leveraging the existing 23 environment references – locations and mainland routes – to maintain continuity across scenes. The “Island 23” node/edge system represents a core spatial element requiring careful consideration alongside the 9 venues. \n\nKey elements driving this direction are the 199 exact IDs (concordance PR339) and the derived world.json, suggesting a strong emphasis on establishing a consistent, data-driven world. The reliance on PR bridge files, alongside the dated world-state (end_of_week_3_2026), introduces potential fragility—specifically regarding the linkToSource functionality. \n\nThe goal is meticulous code/UI adjustment, avoiding generated content, prioritizing visual orientation and reuse of existing assets.  The unresolved Last Field proposals highlight the need for focused refinement within this constrained scope."
+  },
+  "inklings": {
+    "role": "Inklings editorial function",
+    "lenses": [
+      "Ursula K. Le Guin method",
+      "Brandon Sanderson method",
+      "J.R.R. Tolkien method"
+    ],
+    "response": "Repo PR337 presents a fundamentally disjointed reader experience centered around dispersed information. Navigation is hampered by the core conflict between the established Mainland (12 homelands, 18 routes) and the nascent Island development (23 nodes, 9 venues). The reliance on “PR bridge files” – clearly unstable given the noted potential for broken links – exacerbates this. \n\nThe user’s journey likely oscillates between understanding the documented, historical context of the twelve homelands and engaging with the evolving, draft architecture of the Island. This necessitates an unnecessary cognitive load. \n\n**Specific UI/Data Fixes:** \n\n1.  **Unified Timeline Navigation:** Implement a visual timeline clearly demarcating eras and highlighting critical relationships between Mainland and Island developments (linking directly to relevant PR files via IDs).\n2.  **Contextual Linking:** Introduce immediate, clickable links within the 3 divisions data, connecting each home to its relevant location and past/present iterations within the broader Mainland network. \n\nThe reliance on IDs across multiple PR files introduces an administrative burden, obscuring the underlying data logic."
+  },
+  "actual_director_model_responses": 9,
+  "errors": 0,
+  "activated_counterweight_reviews": {
+    "status": "LOCAL_AI_ROLE_INVOCATION_NOT_HUMAN_SIGNATURE",
+    "records": [
+      {
+        "directorSlug": "the_gm",
+        "response": "The current state, with 23 active LOC, 12 homes, 18 routes, 7 regions, and the unmerged Island, represents significant architectural complexity. A code-only second pass focusing solely on source link fixes and timeline additions presents potential for increased overhead without a clearly defined user-centric outcome.\n\n**Recommendation:** Proceed with the source link fix and Island timeline addition *only if* those changes contribute directly to measurable user behavior. We should prioritize the smallest test that can falsify the product assumption regarding the impact of these changes.\n\n**Test:** Implement the source link fixes and timeline addition for a single, high-impact route (identified through the Analyst’s metrics – *pending confirmation from the Analyst*). Monitor user adoption and completion rates on that route for one week. A statistically significant decline in completion rates, coupled with increased error rates, would indicate the changes are introducing friction and should be reverted. Conversely, a maintained or increased completion rate would suggest the changes are minimally disruptive and warrant further investigation with a broader scope.\n\nThis test focuses on a concrete, measurable outcome – route completion – and allows us to",
+        "error": null
+      },
+      {
+        "directorSlug": "the_clubhouse_manager",
+        "response": "Based on the provided data for PR337, I assess a significant risk of duplicate source material and potential inconsistencies within the Island development. The 199-code draft concordance and unmerged 23-node/45-edge Island structure suggest a complex and potentially redundant knowledge base.\n\n**Recommendation:**\n\nI recommend maintaining the Folio index as a derived source, specifically for the purpose of this Island's development. A fully canonized Folio index at this stage introduces unacceptable risk of conflicting information and requires a significantly higher investment in reconciliation efforts.\n\n**Justification:**\n\nThe high LOC count and number of routes (18) indicate potentially intricate relationships between data sources. Converting the Folio index to canon without thorough validation risks introducing discrepancies that could negatively impact the Island’s integrity and increase operational complexity. \n\n**Test:**\n\nTo validate this recommendation, I require the Scout to perform a data lineage analysis of the 23-node/45-edge Island. Specifically, the Scout should identify all sources contributing to the Island's content and assess the degree of overlap and redundancy with the existing Fol",
+        "error": null
+      },
+      {
+        "directorSlug": "the_scout",
+        "response": "Unavailable. Do not invent live state.\n",
+        "error": null
+      }
+    ]
+  }
+}

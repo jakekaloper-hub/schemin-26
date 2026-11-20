@@ -105,6 +105,16 @@ class FolioTests(unittest.TestCase):
         self.assertIsNone(next(n for n in island["nodes"] if n["id"]=="CAUSEWAY_RIDGE")["coordinates"])
         self.assertFalse(island["main_world_mutated"])
 
+    def test_island_historical_venue_timeline_never_claims_mainline_canon(self):
+        years=DATA["cross_pr"]["island"]["annual_proposed_site_program"]
+        self.assertEqual([x["year"] for x in years],list(range(2015,2026)))
+        venue_ids={v["id"] for v in DATA["cross_pr"]["island"]["venues"]}
+        for season in years:
+            self.assertTrue(set(season["site_ids"]).issubset(venue_ids))
+            self.assertNotEqual(season["site_chronology_truth"],"verified")
+            self.assertIn("historical_event_truth",season)
+        self.assertFalse(any(x["year"]>=2026 for x in years))
+
     def test_copy_no_character_gallery_bytes(self):
         self.assertEqual(DATA["cross_pr"]["character_library"]["count"],12)
         self.assertFalse(any("canon/characters/assets" in str(p) for p in SITE.rglob("*")))

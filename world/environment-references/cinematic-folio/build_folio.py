@@ -106,6 +106,13 @@ def build():
     match(len(nodes) == 23, "Island node identifier duplication")
     match(all(x["from"] in nodes and x["to"] in nodes for x in bridge["island"]["edges"]), "Island edge endpoint unknown")
     match(len(bridge["island"]["venues"]) == 9, "Island round-venue count drift")
+    annual = bridge["island"]["annual_proposed_site_program"]
+    match(len(annual) == 11 and [x["year"] for x in annual] == list(range(2015, 2026)),
+          "Island year/period source drift")
+    venue_ids = {v["id"] for v in bridge["island"]["venues"]}
+    for year in annual:
+        match(set(year["site_ids"]).issubset(venue_ids), "Island venue not source-known in "+str(year["year"]))
+        match(year["site_chronology_truth"] != "verified", "Proposed venue history misrepresented")
     match(len(set(x["id"] for x in bridge["proposals"])) == 199, "Repeated proposal code")
     # Source-pin the *inputs* and the exact bytes of the approved structural refs.
     source_receipts = {k: {"path": v, "sha256": sha(ROOT / v)} for k,v in INPUTS.items()}

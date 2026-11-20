@@ -51,7 +51,17 @@ const proposalFiltered=await evaluate('(()=>{document.querySelector("[data-view=
 assert.equal(proposalFiltered,44);
 const islandLines=await evaluate('(()=>{document.querySelector("[data-view=island]").click();const a=document.querySelectorAll("#island-stage .island-line").length;const i=document.querySelector("#all-island-edges");i.checked=true;i.dispatchEvent(new Event("change",{bubbles:true}));return [a,document.querySelectorAll("#island-stage .island-line").length];})()');
 assert.equal(islandLines[1],45);
+const seasonCounts=await evaluate('(()=>{const select=document.querySelector("#island-era");const before=document.querySelectorAll("#island-years .season-card").length;select.value="2020";select.dispatchEvent(new Event("change",{bubbles:true}));const one=document.querySelectorAll("#island-years .season-card").length;const year=document.querySelector("#island-years .season-card h3")?.textContent;select.value="all";select.dispatchEvent(new Event("change",{bubbles:true}));return [before,one,year];})()');
+assert.deepEqual(seasonCounts,[11,1,"2020"]);
+const sourceLinks=await evaluate('(()=>{document.querySelector("[data-view=sources]").click();const a=Array.from(document.querySelectorAll("#source-list a"));return {folio:a.find(x=>x.textContent.includes("LOC_FOLIO_MANIFEST"))?.href,island:a.find(x=>x.textContent.includes("ISLAND_CAUSEWAY_TOPOLOGY"))?.href,main:a.find(x=>x.textContent.includes("world/data/locations.json"))?.href};})()');
+assert(sourceLinks.folio.includes("/blob/feat/commonwealth-cinematic-loc-folio-20261120/world/environment-references/cinematic-folio/"),"Draft folio linked under wrong branch");
+assert(sourceLinks.island.includes("/blob/b32ecbc46e82133f7197fc8802a85e6b59abc44a/planning/postseason/"),"Island source not pinned to PR322 exact commit");
+assert(sourceLinks.main.includes("/blob/main/world/data/locations.json"),"Main location source not linked to authoritative main");
+await send("Emulation.setDeviceMetricsOverride",{width:390,height:844,deviceScaleFactor:2,mobile:true});
+await new Promise(r=>setTimeout(r,350));
+const mobile=await evaluate('({width:window.innerWidth,scrollWidth:document.documentElement.scrollWidth,view:document.querySelector(".view.is-visible")?.id})');
+assert(mobile.scrollWidth<=mobile.width+2,"Unexpected 390px viewport horizontal overflow: "+JSON.stringify(mobile));
 assert.equal(exceptions.length,0,"Browser exceptions: "+exceptions.join("; "));
-console.log("PASS Browser DOM navigation, filters, character/LOC inventories, Island 45 links",JSON.stringify({screens,filtered,proposalFiltered,islandLines}));
+console.log("PASS Browser navigation, source-bound links, 11-year Island timeline, 390px responsive layout",JSON.stringify({screens,filtered,proposalFiltered,islandLines,seasonCounts,mobile}));
 socket.close();
 await fetch(http+"/json/close/"+page.id).catch(()=>{});

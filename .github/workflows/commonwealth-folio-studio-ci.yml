@@ -35,6 +35,21 @@ jobs:
         run: python3 -m unittest discover -s world/environment-references/cinematic-folio/tests -p 'test_*.py' -v
       - name: Validate browser JavaScript syntax
         run: node --check world/environment-references/cinematic-folio/site/app.js
+      - name: Test actual browser navigation, source links, Island years and mobile layout
+        run: |
+          set -eu
+          python3 -m http.server 8893 --bind 127.0.0.1 --directory world/environment-references/cinematic-folio/site >/tmp/folio-http.log 2>&1 &
+          SERVER_PID=$!
+          CHROME="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          "$CHROME" --headless=new --no-sandbox --disable-gpu --disable-extensions --disable-background-networking --remote-debugging-port=9229 '--remote-allow-origins=*' --user-data-dir=/tmp/folio-chrome-qa about:blank >/tmp/folio-chrome.log 2>&1 &
+          CHROME_PID=$!
+          trap 'kill "$SERVER_PID" "$CHROME_PID" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 25); do
+            if curl -fsS http://127.0.0.1:9229/json/version >/dev/null 2>&1; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:8893/data/world.json >/dev/null
+          FOLIO_DEVTOOLS_HTTP=http://127.0.0.1:9229 FOLIO_LOCAL_URL=http://127.0.0.1:8893/index.html node world/environment-references/cinematic-folio/tests/browser_smoke.mjs
       - name: Assert no generated cinematic raster files were committed
         run: |
           if find world/environment-references/cinematic-folio -type f \( -name '*.png' -o -name '*.jpg' -o -name '*.webp' \) | grep -q .; then

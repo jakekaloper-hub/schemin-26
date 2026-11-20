@@ -62,7 +62,7 @@ function link(text,url) {
 }
 function linkToSource(path,ref="main"){
   const encoded=path.split("/").map(encodeURIComponent).join("/");
-  return "https://github.com/jakekaloper-hub/schemin-26/blob/"+encodeURIComponent(ref)+"/"+encoded;
+  return "https://github.com/jakekaloper-hub/schemin-26/blob/"+ref.split("/").map(encodeURIComponent).join("/")+"/"+encoded;
 }
 function tagList(parent,arr) {
   const c=el("div","tag-list");
@@ -99,7 +99,7 @@ function selectView(name){
   if(name==="atlas")renderWorldMap();
   if(name==="locations")renderLocationList();
   if(name==="proposals")renderProposalList();
-  if(name==="island")renderIslandMap();
+  if(name==="island"){renderIslandMap();renderIslandYears();}
 }
 function populateSelect(selector,items){
   const target=byId(selector);
@@ -254,7 +254,10 @@ function renderLocationList(){
     body.append(el("div","tag-list"));
     body.lastChild.append(chip(loc.owner_home?"HOME BASE":"SHARED / NEUTRAL"));
     b.append(body);
-    b.addEventListener("click",()=>{selectedLocation=loc.id;renderLocationDetail();});
+    b.addEventListener("click",()=>{
+      selectedLocation=loc.id;renderLocationDetail();
+      byId("location-detail").scrollIntoView({block:"start",behavior:"smooth"});
+    });
     mount.append(b);
   }
   byId("loc-empty").hidden=all.length>0;
@@ -375,6 +378,22 @@ function renderIslandInspector(){
     linkToSource("planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
     "b32ecbc46e82133f7197fc8802a85e6b59abc44a")));
 }
+function renderIslandYears(){
+  const mount=byId("island-years");clear(mount);
+  const years=DATA.cross_pr.island.annual_proposed_site_program;
+  const filter=byId("island-era").value;
+  const venueNames=new Map(DATA.cross_pr.island.venues.map(v=>[v.id,v.name]));
+  for(const season of years){
+    if(filter!=="all"&&String(season.year)!==filter)continue;
+    const article=el("article","season-card");
+    article.append(el("div","eyebrow",season.era.replaceAll("_"," ")));
+    article.append(el("h3","",season.year));
+    article.append(chip("VENUE STORY: PROPOSAL","warn"));
+    article.append(el("p","",season.site_ids.map(id=>venueNames.get(id)||id).join(" • ")));
+    article.append(el("p","source-status","Competition source: "+season.historical_event_truth+"; Island siting: "+season.site_chronology_truth+"."));
+    mount.append(article);
+  }
+}
 function renderVenues(){
   const target=byId("venue-grid");clear(target);
   for(const v of DATA.cross_pr.island.venues){
@@ -415,14 +434,16 @@ function renderSources(){
   for(const [key,s] of Object.entries(DATA.source_sha256)){
     const item=el("div","source-row");
     item.append(el("strong","",key.replaceAll("_"," ").toUpperCase()));
-    item.append(link(s.path+" ↗",linkToSource(s.path)));
+    const ref=s.path.startsWith("world/environment-references/cinematic-folio/")
+      ? "feat/commonwealth-cinematic-loc-folio-20261120" : "main";
+    item.append(link(s.path+" ↗",linkToSource(s.path,ref)));
     item.append(el("code","", "sha256 "+s.sha256));
     mount.append(item);
   }
   for(const [key,s] of Object.entries(DATA.cross_pr.source_pins)){
     const item=el("div","source-row");
     item.append(el("strong","",key.replaceAll("_"," ").toUpperCase()+" · UNMERGED PR #"+s.pr));
-    item.append(link(s.path+" ↗",s.url));
+    item.append(link(s.path+" ↗",linkToSource(s.path,s.commit)));
     item.append(el("code","",s.commit+" · sha256 "+s.sha256_bytes));
     mount.append(item);
   }
@@ -439,6 +460,7 @@ async function boot(){
     populateSelect("atlas-div",DATA.divisions.map(d=>({label:d.name,value:d.id})));
     populateSelect("atlas-region",DATA.regions.map(d=>({label:d.name,value:d.id})));
     populateSelect("loc-region",DATA.regions.map(d=>({label:d.name,value:d.id})));
+    populateSelect("island-era",DATA.cross_pr.island.annual_proposed_site_program.map(s=>({label:String(s.year),value:String(s.year)})));
     document.querySelectorAll(".nav-tab").forEach(button=>button.addEventListener("click",()=>selectView(button.dataset.view)));
     byId("atlas-div").addEventListener("change",e=>{focusedDivision=e.target.value;renderWorldMap();});
     byId("atlas-region").addEventListener("change",e=>{selectedAtlasRegion=e.target.value;renderWorldMap();});
@@ -447,7 +469,8 @@ async function boot(){
     byId("proposal-search").addEventListener("input",renderProposalList);
     byId("proposal-scope").addEventListener("change",renderProposalList);
     byId("all-island-edges").addEventListener("change",renderIslandMap);
-    renderWorldMap();renderRegions();renderDivisions();renderLocationList();renderVenues();renderIslandMap();renderProposalList();renderSources();
+    byId("island-era").addEventListener("change",renderIslandYears);
+    renderWorldMap();renderRegions();renderDivisions();renderLocationList();renderVenues();renderIslandMap();renderIslandYears();renderProposalList();renderSources();
     selectView("atlas");
   }catch(error){
     const e=byId("error");e.hidden=false;

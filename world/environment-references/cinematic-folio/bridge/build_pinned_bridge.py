@@ -98,6 +98,12 @@ def main():
                         "round_assignment": x.get("round_assignment"), "categories": x.get("categories")}
                        for x in sites["sites"]],
             "historical_season_count": len(sites["annual"]),
+            "annual_proposed_site_program": [
+                {"year": y["year"], "era": y["era"], "site_ids": y["site_ids"],
+                 "round_counts": y["round_counts"], "historical_event_truth": y["historical_event_truth"],
+                 "site_chronology_truth": y["site_chronology_truth"],
+                 "media_hardware_state": y["media_hardware_state"]}
+                for y in sites["annual"]],
             "source_reported_edge_count": topo.get("checks",{}).get("edge_count"),
             "actual_edge_count": len(topo["edges"]),
             "holds": topo.get("holds",[]),
