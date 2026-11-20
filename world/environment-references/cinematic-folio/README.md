@@ -1,6 +1,8 @@
 # Commonwealth Cinematic Location Folio — Production Entry Point
 
 **Status:** DRAFT / NONCANON PREPRODUCTION / NO APPROVED CINEMATIC MASTERS
+
+**STOP-PRODUCTION VISUAL QA HOLD (2026-11-20):** Three actual image attempts failed review, including two hallucinated infographic/atlas posters. The manifest has been corrected to `SOURCE_INDEX_ONLY` (23/23), not `SOURCE_PACK_READY`. **Do not generate another image or declare any cinematic master without first satisfying the corrective per-site source/hydration and prompt gates.** See [the visual audit](AUDIT_VISUAL_FAILURE_AND_STOP_GATE_2026-11-20.md). No automatic canon promotion or candidate image registration.
 **Commissioned:** 2026-11-20
 **Asset class:** hyper-realistic geographic and architectural PNG reference plates
 **Original source:** Founder-provided four 1672×941 16:9 aerial landscapes, including Championship Island, Central River Basin, mountain lake/uplands and western-to-southern wetlands. The image files exist in the originating conversation, **not** yet as durable repo assets.
