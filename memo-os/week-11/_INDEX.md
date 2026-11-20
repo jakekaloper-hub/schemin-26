@@ -26,6 +26,10 @@
 
 **Cross-branch governance warning:** draft PR #313 starts from an older Memo OS control-index state (its root `memo-os/_INDEX.md` still points to Week9), whereas current `main` points to Week10. Use **current main control documents** for global authority and [this Week11 index](./_INDEX.md) for the source-qualified live week. Do not overwrite or merge the older root index without a current-main rebase/reconciliation. Week10 PR #315 retains independent unfinished preproduction.
 
+## Independent red-team audit — November 20
+- [Independent audit and negative-control evidence](INDEPENDENT_RED_TEAM_AUDIT_2026-11-20.md) — exposes **35/35 false-green** when a real starter score and Founder G01 text are falsified in a disposable test root; documents zero PR reviews, failed Netlify checks, fifth-versus-sixth Pittsy house-board classification gap, stale PR ancestry and corrected validation scope.
+- **Audit disposition:** Founder interview and story outlines remain usable for EARLY BRAINSTORM; existing `validate_creative_intake.py` is **STRUCTURAL ONLY / SEMANTIC ACCEPTANCE HOLD** until source-value and negative-control assertions reject manipulated records. Do not promote a prior 35/35 to independent creative Fact Lock, Story Lock or Umpire clearance.
+
 ## Next uncompleted workflow
 Append Sunday November 22 dated scoring updates; recompute only evidence-dependent story candidates. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
 
