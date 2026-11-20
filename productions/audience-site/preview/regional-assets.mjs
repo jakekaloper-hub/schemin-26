@@ -940,7 +940,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Inward-only bark recesses replace seven-sided struts without inventing roots.
     const av=new THREE.Vector3(...a),bv=new THREE.Vector3(...b);
     const direction=bv.clone().sub(av),length=direction.length();
-    const geometry=new THREE.CylinderGeometry(r*.62,r,length,14,6);
+    const geometry=new THREE.CylinderGeometry(r*.62,r,length,18,6);
     geometry.name='Candidate Mud Dogs contoured buttress root';
     const p=geometry.getAttribute('position');
     for(let j=0;j<p.count;j++){
