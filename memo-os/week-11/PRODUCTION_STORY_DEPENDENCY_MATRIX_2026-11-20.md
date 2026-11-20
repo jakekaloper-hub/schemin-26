@@ -70,7 +70,7 @@ Each dossier has an **entering state**, a **Founder-owned dramatic mechanism**, 
 
 ## Postseason analytics source boundary
 - Latest **retrieved/reviewed** raw source in the audited context: archived November 17 `Schemin_26_Week_10_Reviewed_Playoff_Harvest.json` cited by `../week-10/playoff-context/README.md`; contains all twelve team POVs, source hashes, and exact mathematical witness conditions.
-- A **November 18 TheFFHub run/percentages was mentioned in conversation**, but its exact source/parameters and capture bytes were **not retrieved and validated in this audit**. Any November 18 odds must remain `NOT_REVERIFIED`, not promoted on remembered quotations alone. A publisher may use separately accepted November 17 vendor results with explicit date and conditional methodology.
+- **November 18 source recovery supersession (later on November 20):** the original five FFHub UI-capture JSON files were recovered from the authorized Mac and retained with exact SHA256 hashes in private Bullpen [PR #158](https://github.com/jakekaloper-hub/bullpen/pull/158). **12/12 baseline/win/loss percentage rows agree** between original run and summary, with 10,000 Monte Carlo simulations per run. See [FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md). The *old* `NOT_REVERIFIED` retrieval status is superseded for source discovery, but **vendor calibration and independent Umpire editorial acceptance remain pending**. These are through-Week-10 pre-Week-11 estimates, not current final forecasts.
 - After MNF refresh league final/standings/transactions, and re-run playoff scenarios from validated source and correct league rules; attribution separates vendor simulations, exact exhaustive witnesses, and official ESPN statuses.
 
 ## Temporal gates
@@ -83,6 +83,6 @@ Each dossier has an **entering state**, a **Founder-owned dramatic mechanism**, 
 ## Explicit unresolved risks
 - Approved environment image bytes for bridge and Duckhook's specific non-golf venue; no image authorization.
 - No authenticated external person or independent Umpire signoff yet.
-- Exact November18 FFHub input and dated scenario provenance not independently retraced.
+- November18 FFHub original UI capture recovered and source values cross-checked; independent vendor-calibration/Umpire review and post-Week11 re-run remain open.
 - Pittsy's Book venue dual-location conflict and any changing injury/line-up/posted-board state.
 - Need explicit source-to-published-Week10 scene mapping, not an assumption all 34 preproduction folios have already been released.
