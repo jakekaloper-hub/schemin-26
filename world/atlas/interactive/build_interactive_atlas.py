@@ -10,18 +10,40 @@ OUT=ROOT/"world"/"atlas"/"interactive"/"SCHEMIN_ATLAS_INTERACTIVE.html"
 
 def load(p): return json.loads(p.read_text())
 
+def select_frozen_candidates(source_candidates, frozen_ids):
+    """Fail closed on duplicate/missing names, never activate newer proposals.
+
+    Returns items in the original Phase-4 catalog order.  This is a display
+    contract only; it cannot publish a CAND-* record as a live LOC-* site.
+    """
+    if not isinstance(frozen_ids,list) or len(frozen_ids)!=48 or len(set(frozen_ids))!=48:
+        raise ValueError("Frozen Phase-4 candidate snapshot must have 48 distinct IDs")
+    if any(not isinstance(cid,str) or not cid.startswith("CAND-") for cid in frozen_ids):
+        raise ValueError("Frozen Phase-4 list contains a non-candidate ID")
+    by_id={}
+    for item in source_candidates:
+        cid=item.get("id")
+        if cid in by_id:
+            raise ValueError(f"Duplicate candidate ID in active source: {cid}")
+        by_id[cid]=item
+    missing=[cid for cid in frozen_ids if cid not in by_id]
+    if missing:
+        raise ValueError("Frozen editorial candidates missing from source registry: "+", ".join(missing))
+    return [by_id[cid] for cid in frozen_ids]
+
 def main():
     zones=load(DATA/"physical_zones.json")["regions"]
     locs=load(DATA/"locations.json")["locations"]
     routes=load(DATA/"routes.json")["routes"]
     divs=load(DATA/"divisions.json")["divisions"]
     state=load(DATA/"current_world_state.json")
-    # Existing Phase 4 published-facing/editorial artifact is frozen to the 48
-    # pre-summit candidates; new research proposals live in the separate
-    # three-depth summit registry until independent release/activation gates.
+    # Existing Phase 4 publication is an exact, explicit ID allowlist.
+    # Do NOT filter by provenance string: that is editable metadata and a
+    # missing provenance tag would silently leak an unapproved new candidate.
+    # Current World Engine candidates remain a separate authoritative store.
     source_candidates=load(DATA/"atlas_location_candidates.json")["candidates"]
-    candidates=[c for c in source_candidates if
-                "Founder location-expansion directive 2026-11-20" not in c.get("source_provenance", [])]
+    legacy=load(ROOT/"world"/"atlas"/"interactive"/"FROZEN_EDITORIAL_CANDIDATE_IDS_V1.json")
+    candidates=select_frozen_candidates(source_candidates, legacy["candidate_ids"])
     refs=load(LCP/"LOCATION_REFERENCE_REGISTRY.json")["locations"]
     handles=load(LCP/"PARENT_SUBLOCATION_REGISTRY.json")["handles"]
     refmap={x["location_id"]:x for x in refs}
