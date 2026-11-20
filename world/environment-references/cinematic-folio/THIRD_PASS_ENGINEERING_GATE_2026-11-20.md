@@ -60,6 +60,12 @@ node --check world/environment-references/cinematic-folio/site/app.js
 
 The CI workflow also runs real headless Chrome navigation, keyboard, all-tab mobile-width, export and source-provenance tests using the existing `browser_smoke.mjs`. The local preview requires no user action and was used only for automated validation, not for a deployed site.
 
+## Hosted-CI reliability correction
+
+The first GitHub Actions run for the third-pass commit passed the deterministic compiler, 22 Folio Python tests, and JavaScript syntax. Its real-browser test **failed before reaching application code**, because hosted Chrome did not expose the DevTools HTTP endpoint at 127.0.0.1:9229 (ECONNREFUSED). This was not a passing CI run.
+
+The browser workflow now starts Chrome with safer hosted-Linux flags including `--disable-dev-shm-usage` and `--no-first-run`, verifies Chrome readiness explicitly, retries once with a fresh isolated profile, prints startup logs on failure, and bounds the Node browser test duration. The app's local real-browser test already passed. Do not mark the hosted browser job PASS unless its new exact-commit workflow run completes successfully.
+
 ## Review gate and next real dependency
 
 **Backend and frontend changes:** source-bound implementation and local checks complete; exact-commit CI acceptance is recorded separately after pushing.
