@@ -30,9 +30,6 @@ This is a one-time domain/risk disposition for the **24** non-main branch names 
 | `world/universe-ontology-travel-v2-2026-09-29` | 9 ahead / 1,689 behind; 7 files | Older travel/ontology; no unsafe overwrites |
 | `world/universe-os-v1-2-2026-09-30` | 6 ahead / 1,633 behind; 6 files | Historical Universe exports; verify archival rather than promotion |
 | `world/universe-os-v1-2-atlas-control-2026-10-01` | 59 ahead / 1,632 behind; 59 files | **P1 supersession review**; older control-plane implementation |
-| `world/universe-os-v1-2-atlas-control-2026-10-01` (duplicate table key guard) | See preceding row | No additional second branch; counted once |
-
-**Count note:** The last duplicate key guard is documentary only and **not** a 25th branch. The actual 24 source names appear in the 24 unique rows above.
 
 ## Assigned next gates
 
