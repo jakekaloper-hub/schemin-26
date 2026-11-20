@@ -1614,6 +1614,1898 @@
         "Commissioner Atlas Phase 1 directive 2026-09-30",
         "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
       ]
+    },
+    {
+      "id": "CAND-RIDGE-SIGNAL-OBSERVATORY",
+      "working_name": "Ridge Signal Observatory",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Ridge Signal Observatory; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Lookout duty shared by civilian guides and mountain couriers",
+        "A counterpoint to 2024 team-slot title and 2025 runner-up memory; neither event occurred here"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Existing Upper Valleys high ridge, not a new mountain",
+        "Layer 2: Lookout duty shared by civilian guides and mountain couriers",
+        "Layer 3: A counterpoint to 2024 team-slot title and 2025 runner-up memory; neither event occurred here",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-MOUNTAIN-BASE-COURIER-STEPS",
+      "working_name": "Mountain Base Courier Steps",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Mountain Base Courier Steps; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Dispatch stair linking war-room visitors and civilian messengers",
+        "Draft-capital and trade messages can pass here; no trade was historically recorded here"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Steep approach off the established Eastern Ascent",
+        "Layer 2: Dispatch stair linking war-room visitors and civilian messengers",
+        "Layer 3: Draft-capital and trade messages can pass here; no trade was historically recorded here",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-EASTERN-ASCENT-REPAIR-TERRACE",
+      "working_name": "Eastern Ascent Repair Terrace",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Eastern Ascent Repair Terrace; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Wagonwright and farrier labor servicing mountain journeys",
+        "Travel delays become material, not conveniently teleported playoff arrivals"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Stable bench cut alongside an existing upland access road",
+        "Layer 2: Wagonwright and farrier labor servicing mountain journeys",
+        "Layer 3: Travel delays become material, not conveniently teleported playoff arrivals",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
+      "working_name": "Red Escarpment Sentinel Walk",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Red Escarpment Sentinel Walk; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Patrol path used by scouts, couriers and maintenance crews",
+        "Slot 2's 2022 13-1 regular season and 2022–23 third places are pressure, not site battles"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-RED-RUINS"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Rain-cut stone shelf near documented ruins and escarpment",
+        "Layer 2: Patrol path used by scouts, couriers and maintenance crews",
+        "Layer 3: Slot 2's 2022 13-1 regular season and 2022–23 third places are pressure, not site battles",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-RUINS-CANOPY-CISTERN",
+      "working_name": "Ruins Canopy Cistern",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Ruins Canopy Cistern; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Water distribution to nearby ordinary inhabitants",
+        "Requires drought/repair accounting; no ancient owner is asserted"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-RED-RUINS"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Rain-harvesting stone within the established jungle ruins",
+        "Layer 2: Water distribution to nearby ordinary inhabitants",
+        "Layer 3: Requires drought/repair accounting; no ancient owner is asserted",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-PREDATOR-TERRACE-APPROACH",
+      "working_name": "Predator Terrace Approach",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Predator Terrace Approach; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Public-facing threshold separating visitors from restricted domain",
+        "May frame Red Leopards' 2026 home continuity without inventing territorial conquest"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-RED-RUINS"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Raised access slope under the existing ruin terrace",
+        "Layer 2: Public-facing threshold separating visitors from restricted domain",
+        "Layer 3: May frame Red Leopards' 2026 home continuity without inventing territorial conquest",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-FOOTHILL-WAGON-REST",
+      "working_name": "Foothill Wagon Rest",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Foothill Wagon Rest; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Camp cooks, teamsters and service workers operate the rest",
+        "Slot 3's verified 2019 championship is a slot record, not proof this camp existed in 2019"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Roadside compacted earth adjoining Slob's active camp and Hearthroad",
+        "Layer 2: Camp cooks, teamsters and service workers operate the rest",
+        "Layer 3: Slot 3's verified 2019 championship is a slot record, not proof this camp existed in 2019",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-ROUGH-PRACTICE-COMMONS",
+      "working_name": "Rough Practice Commons",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Rough Practice Commons; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Training commons with repair and first-aid routines",
+        "Recurring defeat/win reactions can persist as ordinary practice changes, not magic scars"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Drainable grass and packed ground at the foothill camp edge",
+        "Layer 2: Training commons with repair and first-aid routines",
+        "Layer 3: Recurring defeat/win reactions can persist as ordinary practice changes, not magic scars",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-HEARTHROAD-TOLL-SHELTER",
+      "working_name": "Hearthroad Toll Shelter",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Hearthroad Toll Shelter; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Carters check route passability and settle modest charges",
+        "2019 team-slot title cannot retroactively prove control of this shelter"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-SLOB-FOOTHILL-CAMP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Shelter on the active Hearthroad approach, not a new road",
+        "Layer 2: Carters check route passability and settle modest charges",
+        "Layer 3: 2019 team-slot title cannot retroactively prove control of this shelter",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-LLC-CONTRACT-REGISTRY-ANNEX",
+      "working_name": "LLC Contract Registry Annex",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs LLC Contract Registry Annex; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Copyists reconcile cargo contracts and damages",
+        "Week 2 intrusion at the adjacent boardroom requires controlled custody of surviving records"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-LLC-BOARDROOM"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Stone annex in the recorded Inner Sea mercantile district",
+        "Layer 2: Copyists reconcile cargo contracts and damages",
+        "Layer 3: Week 2 intrusion at the adjacent boardroom requires controlled custody of surviving records",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-STORM-BARRIER-INSPECTION-YARD",
+      "working_name": "Storm Barrier Inspection Yard",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Storm Barrier Inspection Yard; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Laborers inspect gates, drains and coastal reinforcement",
+        "Week 3 El Niño storm memory persists; repair status must not be silently reset"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-LLC-BOARDROOM"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Service yard beside the already recorded port-city protection works",
+        "Layer 2: Laborers inspect gates, drains and coastal reinforcement",
+        "Layer 3: Week 3 El Niño storm memory persists; repair status must not be silently reset",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-INNER-SEA-CARGO-WEIGHCOURT",
+      "working_name": "Inner Sea Cargo Weighcourt",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "COMMERCIAL_LEISURE",
+      "likely_physical_zone_ids": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Inner Sea Cargo Weighcourt; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Merchants, stevedores and auditors determine tax/weight disputes",
+        "Slot 4 third-place finish in 2021 does not establish historical construction here"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-LLC-BOARDROOM"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Quay-edge paved weighing station on the known Inner Sea route",
+        "Layer 2: Merchants, stevedores and auditors determine tax/weight disputes",
+        "Layer 3: Slot 4 third-place finish in 2021 does not establish historical construction here",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-HIGHLAND-CAVALRY-EXERCISE-COURT",
+      "working_name": "Highland Cavalry Exercise Court",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Highland Cavalry Exercise Court; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Equine-bodied peopled-kind can train without a rider/mount fiction",
+        "Slot 5's 2021 title is historical competition, not a war fought in this courtyard"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Firm drained ground below the established centaur stronghold",
+        "Layer 2: Equine-bodied peopled-kind can train without a rider/mount fiction",
+        "Layer 3: Slot 5's 2021 title is historical competition, not a war fought in this courtyard",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-ARSENAL-GUILD-TOOLHOUSE",
+      "working_name": "Arsenal Guild Toolhouse",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Arsenal Guild Toolhouse; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Craft labor and repair of tools, wagons and ordinary fixtures",
+        "Arsenal Barbershop Week 2 memory remains at the separate canon shop ID"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Work shed serving both Highland Link and the existing barbershop quarter",
+        "Layer 2: Craft labor and repair of tools, wagons and ordinary fixtures",
+        "Layer 3: Arsenal Barbershop Week 2 memory remains at the separate canon shop ID",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-MIRE-HILL-CUSTODIAL-OUTPOST",
+      "working_name": "Mire Hill Custodial Outpost",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "BATTLE_SCAR_REMNANT",
+      "likely_physical_zone_ids": [
+        "REG-UPPER-VALLEYS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Mire Hill Custodial Outpost; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Custodians manage debris removal and marker safety",
+        "Week 3 scar and the below-summit standard remain immutable until evidence of change"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Temporary foothold near established Mire Hill, not atop its unclaimed summit",
+        "Layer 2: Custodians manage debris removal and marker safety",
+        "Layer 3: Week 3 scar and the below-summit standard remain immutable until evidence of change",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-TEMPLE-LOWER-FERRY-LANDING",
+      "working_name": "Temple Lower Ferry Landing",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Temple Lower Ferry Landing; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Wetland guides and ferrymen carry supplies to temple approaches",
+        "The 2025 semifinal defeat of Three Dreaded Snake is slot-level record, not a battle here"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Sheltered landing below the documented waterfall escarpment",
+        "Layer 2: Wetland guides and ferrymen carry supplies to temple approaches",
+        "Layer 3: The 2025 semifinal defeat of Three Dreaded Snake is slot-level record, not a battle here",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-WATERFALL-SCRIBE-ALCOVE",
+      "working_name": "Waterfall Scribe Alcove",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Waterfall Scribe Alcove; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Scribes preserve ceremonial records and community testimony",
+        "Temples' current evidence starts from active world canon; no pre-2015 prophecy"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Dry sheltered recess of existing temple stone",
+        "Layer 2: Scribes preserve ceremonial records and community testimony",
+        "Layer 3: Temples' current evidence starts from active world canon; no pre-2015 prophecy",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-SHARED-MARCH-CUSTOMS-HEARTH",
+      "working_name": "Shared March Customs Hearth",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Shared March Customs Hearth; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Both communities use the hearth despite separate League divisions",
+        "Do not split residents by Burgers/Wings or replace TDS with three bodies"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Raised platform on the already documented TDS–Chili shared corridor",
+        "Layer 2: Both communities use the hearth despite separate League divisions",
+        "Layer 3: Do not split residents by Burgers/Wings or replace TDS with three bodies",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-DARK-HORSE-DRY-SEASON-WELL",
+      "working_name": "Dark Horse Dry Season Well",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Dark Horse Dry Season Well; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Herders and travelers ration scarce water",
+        "No connection to a specific old gunslinger-era owner is assumed"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-CHILI-STABLE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Groundwater point at the existing Western Tablelands stable",
+        "Layer 2: Herders and travelers ration scarce water",
+        "Layer 3: No connection to a specific old gunslinger-era owner is assumed",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
+      "working_name": "Western Range Outrider Fold",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Western Range Outrider Fold; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Stable hands and outriders exchange mount news and route conditions",
+        "2025 Chili team-name debut is recorded; earlier Team 7 names are slot history only"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-CHILI-STABLE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Low windbreak beside the existing Western Range Road",
+        "Layer 2: Stable hands and outriders exchange mount news and route conditions",
+        "Layer 3: 2025 Chili team-name debut is recorded; earlier Team 7 names are slot history only",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-SHARED-MARCH-SIGNAL-POST",
+      "working_name": "Shared March Signal Post",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-WESTERN-TABLELANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Shared March Signal Post; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Two communities share warning signals and trade-road updates",
+        "The TDS–Chili cohabitation law survives rivalry and changed division standings"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-CHILI-STABLE"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Low prominence near the already mapped joint settlement corridor",
+        "Layer 2: Two communities share warning signals and trade-road updates",
+        "Layer 3: The TDS–Chili cohabitation law survives rivalry and changed division standings",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-BLACK-CLIFF-RAIN-GAUGE",
+      "working_name": "Black Cliff Rain Gauge",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Black Cliff Rain Gauge; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Road watchers document closures and coastal weather",
+        "The Belt cannot transfer because of a weather spectacle; only verified title rules govern"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-BELT-KEEPER-KEEP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Protected stone observation point on existing Black Cliff road",
+        "Layer 2: Road watchers document closures and coastal weather",
+        "Layer 3: The Belt cannot transfer because of a weather spectacle; only verified title rules govern",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-KEEPER-S-INVENTORY-ANTECHAMBER",
+      "working_name": "Keeper's Inventory Antechamber",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Keeper's Inventory Antechamber; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Attendants audit custody of ceremonial effects",
+        "Slot 8 won in 2016, 2018, 2025 under differing names; human owner attribution is unresolved"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-BELT-KEEPER-KEEP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Dry chamber within the established provisional Rune Keep",
+        "Layer 2: Attendants audit custody of ceremonial effects",
+        "Layer 3: Slot 8 won in 2016, 2018, 2025 under differing names; human owner attribution is unresolved",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-CLIFFSIDE-CIVILIAN-REFUGE",
+      "working_name": "Cliffside Civilian Refuge",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Cliffside Civilian Refuge; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Ordinary households can shelter during coastal weather",
+        "Title-holder geography is not sovereignty; this is not a royal province"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-BELT-KEEPER-KEEP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Wind-sheltered occupied ledge near the keep's known route",
+        "Layer 2: Ordinary households can shelter during coastal weather",
+        "Layer 3: Title-holder geography is not sovereignty; this is not a royal province",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-STORM-BOWL-LEEWARD-STANDS",
+      "working_name": "Storm Bowl Leeward Stands",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Storm Bowl Leeward Stands; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Ushers and maintenance workers manage safe use",
+        "Week 2 event memory is real in world canon; 2022 title belongs to team-slot evidence"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-STORM-BOWL"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Repaired spectator tier sheltered from the known storm-facing venue",
+        "Layer 2: Ushers and maintenance workers manage safe use",
+        "Layer 3: Week 2 event memory is real in world canon; 2022 title belongs to team-slot evidence",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-COASTAL-WEATHER-REGISTER-HOUSE",
+      "working_name": "Coastal Weather Register House",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Coastal Weather Register House; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Weather clerks track conditions without controlling El Niño",
+        "El Niño weather embodiment remains one canonical mode; no automatic new magic system"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-STORM-BOWL"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Stone observation office near existing storm road",
+        "Layer 2: Weather clerks track conditions without controlling El Niño",
+        "Layer 3: El Niño weather embodiment remains one canonical mode; no automatic new magic system",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
+      "working_name": "Tide Shelter Maintenance Shed",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Tide Shelter Maintenance Shed; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Boatwrights and route wardens maintain shelters",
+        "Coastal closures must propagate during story-state weather rather than reset for convenience"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-STORM-BOWL"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Service shed on already known storm-coast transport corridor",
+        "Layer 2: Boatwrights and route wardens maintain shelters",
+        "Layer 3: Coastal closures must propagate during story-state weather rather than reset for convenience",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-CYPRESS-STILT-STOREHOUSE",
+      "working_name": "Cypress Stilt Storehouse",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Cypress Stilt Storehouse; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Wetland households preserve dry goods above seasonal water",
+        "Mud Dogs Week 2/3 historical results remain competitive events unless mapped separately"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Raised timber platform within the documented Southern Wetlands",
+        "Layer 2: Wetland households preserve dry goods above seasonal water",
+        "Layer 3: Mud Dogs Week 2/3 historical results remain competitive events unless mapped separately",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
+      "working_name": "Delta Causeway Ferry Stage",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "TRANSIT_NODE",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Delta Causeway Ferry Stage; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Guides handle cargo transfers when the causeway is impassable",
+        "Seasonal flooding changes access; no invented prior championship for current owner"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Short wet crossing beside the existing Delta Causeway alignment",
+        "Layer 2: Guides handle cargo transfers when the causeway is impassable",
+        "Layer 3: Seasonal flooding changes access; no invented prior championship for current owner",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-SILTBANK-GATHERING-RISE",
+      "working_name": "Siltbank Gathering Rise",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-BURGERS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Siltbank Gathering Rise; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Ordinary residents hold community meetings above flood level",
+        "2020 team-slot championship belongs to Where Mahomies at?, not proof of a Mud Dogs festival"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-MUD-DOGS-SWAMP"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Natural raised patch near the established swamp channels",
+        "Layer 2: Ordinary residents hold community meetings above flood level",
+        "Layer 3: 2020 team-slot championship belongs to Where Mahomies at?, not proof of a Mud Dogs festival",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
+      "working_name": "Road Commons Public Steps",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Road Commons Public Steps; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Residents post market notices and organize traveler disputes",
+        "Slot 11 reached 2023 runner-up under Arm Chair GM; identity cannot be projected onto this site"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-CHINS-ROAD-COMMONS"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Packed stone frontage at Seven Chins' Central Basin commons",
+        "Layer 2: Residents post market notices and organize traveler disputes",
+        "Layer 3: Slot 11 reached 2023 runner-up under Arm Chair GM; identity cannot be projected onto this site",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-BASIN-CARAVAN-REPAIR-BAY",
+      "working_name": "Basin Caravan Repair Bay",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Basin Caravan Repair Bay; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Menders repair carts, straps and wheels in a shared public workspace",
+        "2026 road traffic is a plausible use, not historical proof of 2015 occupation"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-CHINS-ROAD-COMMONS"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Covered workbench adjacent to known market road",
+        "Layer 2: Menders repair carts, straps and wheels in a shared public workspace",
+        "Layer 3: 2026 road traffic is a plausible use, not historical proof of 2015 occupation",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-PEOPLE-S-HALL-STORAGE-GALLERY",
+      "working_name": "People's Hall Storage Gallery",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [
+        "DIV-PIZZA"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs People's Hall Storage Gallery; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Cooperative supplies and emergency reserves serve noncombatants",
+        "A public championship metaphor never conveys a Belt or title without verified outcome"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-CHINS-ROAD-COMMONS"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Dry storage under the recorded road hall",
+        "Layer 2: Cooperative supplies and emergency reserves serve noncombatants",
+        "Layer 3: A public championship metaphor never conveys a Belt or title without verified outcome",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-JACKSON-LEVEE-KEEPER-S-LODGE",
+      "working_name": "Jackson Levee Keeper's Lodge",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Jackson Levee Keeper's Lodge; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Levee wardens monitor access and flooding",
+        "Week 3 chili contamination belongs to the club, not automatically the lodge"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Service lodge attached to the documented Jackson Levee approach",
+        "Layer 2: Levee wardens monitor access and flooding",
+        "Layer 3: Week 3 chili contamination belongs to the club, not automatically the lodge",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-COUNTRY-CLUB-GROUNDSKEEPERS-SHED",
+      "working_name": "Country Club Groundskeepers' Shed",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Country Club Groundskeepers' Shed; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Groundskeepers repair turf, bridges and contaminated equipment",
+        "Cleanup after the Week 3 chili incident must be shown before immaculate scenery"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Maintenance shelter within the established golf estate",
+        "Layer 2: Groundskeepers repair turf, bridges and contaminated equipment",
+        "Layer 3: Cleanup after the Week 3 chili incident must be shown before immaculate scenery",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-WATER-HAZARD-REED-WALK",
+      "working_name": "Water Hazard Reed Walk",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "OWNER_SUBLOCATION",
+      "likely_physical_zone_ids": [
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "division_affinity_ids": [
+        "DIV-WINGS"
+      ],
+      "event_eligibility": [
+        "NON_MATCHUP",
+        "NOVEL_INTERLUDE"
+      ],
+      "activation_trigger": "A provenance-backed scene specifically needs Water Hazard Reed Walk; reuse check, parent-route confirmation, World/Atlas QA and Umpire acceptance",
+      "story_functions": [
+        "Caddies and groundskeepers manage passage and drainage",
+        "Dr. Duckhook lost a 2025 semifinal by 0.40 as team-slot outcome, not at this hazard"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": false,
+      "related_active_location_ids": [
+        "LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "prerequisites": [
+        "Source-backed scene requires this sublocation",
+        "Verify parent location identity, material terrain and access path",
+        "Verify no existing site or generic subscene can serve same function",
+        "Pass historical owner-slot separation audit"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Raised footpath beside the documented club water hazards",
+        "Layer 2: Caddies and groundskeepers manage passage and drainage",
+        "Layer 3: Dr. Duckhook lost a 2025 semifinal by 0.40 as team-slot outcome, not at this hazard",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-OUTER-LANDING",
+      "working_name": "Playoff Island Outer Landing",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "PLAYOFF_NEUTRAL",
+      "likely_physical_zone_ids": [],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "PLAYOFF",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Independent source verification of Playoff Island geography, neutral access and specific postseason event; Umpire promotion gate",
+      "story_functions": [
+        "Potential neutral arrival and inspections, only after island source validation",
+        "2015–25 champions do not establish that finals took place here"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "Confirm independent Playoff Island Atlas location list and topology",
+        "Validate neutral travel to the island and continuity with all three existing atlas views",
+        "Do not claim a historic playoff encounter happened on this site"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Island/coast location unverified; no coordinates or route authorized",
+        "Layer 2: Potential neutral arrival and inspections, only after island source validation",
+        "Layer 3: 2015–25 champions do not establish that finals took place here",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-NEUTRAL-ASSEMBLY-COURT",
+      "working_name": "Playoff Island Neutral Assembly Court",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "PLAYOFF_NEUTRAL",
+      "likely_physical_zone_ids": [],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "PLAYOFF",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Independent source verification of Playoff Island geography, neutral access and specific postseason event; Umpire promotion gate",
+      "story_functions": [
+        "Potential civic staging away from any owner's territorial control",
+        "Historical championship outcomes may be displayed in an archive, never treated as island battles"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "Confirm independent Playoff Island Atlas location list and topology",
+        "Validate neutral travel to the island and continuity with all three existing atlas views",
+        "Do not claim a historic playoff encounter happened on this site"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: No landform promoted until Playoff Island Atlas source is authenticated",
+        "Layer 2: Potential civic staging away from any owner's territorial control",
+        "Layer 3: Historical championship outcomes may be displayed in an archive, never treated as island battles",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-WEATHER-REFUGE",
+      "working_name": "Playoff Island Weather Refuge",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "PLAYOFF_NEUTRAL",
+      "likely_physical_zone_ids": [],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "PLAYOFF",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Independent source verification of Playoff Island geography, neutral access and specific postseason event; Umpire promotion gate",
+      "story_functions": [
+        "Potential safe refuge for traveling spectator populations",
+        "No elimination or title change can be attributed to weather without verified match results"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "Confirm independent Playoff Island Atlas location list and topology",
+        "Validate neutral travel to the island and continuity with all three existing atlas views",
+        "Do not claim a historic playoff encounter happened on this site"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Exposure class and shoreline remain unknown pending map source",
+        "Layer 2: Potential safe refuge for traveling spectator populations",
+        "Layer 3: No elimination or title change can be attributed to weather without verified match results",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-LEGACY-GALLERY",
+      "working_name": "Playoff Island Legacy Gallery",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "PLAYOFF_NEUTRAL",
+      "likely_physical_zone_ids": [],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "PLAYOFF",
+        "NON_MATCHUP"
+      ],
+      "activation_trigger": "Independent source verification of Playoff Island geography, neutral access and specific postseason event; Umpire promotion gate",
+      "story_functions": [
+        "Potential separation of Belt custodianship from Michael Farrell Trophy history",
+        "2015–2025 title ledger may be exhibited with slot/ownership disclaimers"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": false,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "Confirm independent Playoff Island Atlas location list and topology",
+        "Validate neutral travel to the island and continuity with all three existing atlas views",
+        "Do not claim a historic playoff encounter happened on this site"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Three-depth summit dossier pending external independent Director/Umpire signoff",
+        "Layer 1: Unplaced institutional concept, not a fabricated championship stadium",
+        "Layer 2: Potential separation of Belt custodianship from Michael Farrell Trophy history",
+        "Layer 3: 2015–2025 title ledger may be exhibited with slot/ownership disclaimers",
+        "No real historical match assigned to fictional site without venue evidence"
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Founder location-expansion directive 2026-11-20",
+        "world/data/locations.json",
+        "world/data/owner_domains.json",
+        "living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json"
+      ]
     }
   ]
 }
