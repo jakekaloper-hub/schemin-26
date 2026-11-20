@@ -1394,6 +1394,36 @@ export function buildRegionalAssets(THREE, bindings, height) {
       navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function jacksonEntranceDoor(g,doorMaterial){
+    // Relief on the ONE existing Jackson clubhouse entrance box. Four bounded
+    // inward panels preserve the door silhouette, reverse, sides and footprint.
+    // Decorative candidate only: not a navigable door, repaired scene or canon.
+    const w=.9,h=1.9,d=.05;
+    const geo=new THREE.BoxGeometry(w,h,d,48,48,1);
+    geo.name='Candidate Jackson inward-recessed entrance-door panels';
+    const p=geo.getAttribute('position');
+    for(let i=0;i<p.count;i++){
+      const x=p.getX(i),y=p.getY(i),z=p.getZ(i);
+      if(Math.abs(z-d/2)>1e-6||Math.abs(x)>=w/2-1e-6||
+        Math.abs(y)>=h/2-1e-6)continue; // back, sides and entire original rim
+      let inset=0;
+      for(const cx of [-.22,.22])for(const cy of [-.47,.47]){
+        const inside=Math.min(.166-Math.abs(x-cx),.371-Math.abs(y-cy));
+        if(inside<=0)continue;
+        const t=Math.min(1,inside/.047);
+        inset=Math.max(inset,.018*t*t*(3-2*t));
+      }
+      if(inset>0)p.setZ(i,z-inset);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,doorMaterial,0,.4+h/2,2.14);
+    o.name='Candidate Jackson recessed clubhouse entrance door';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      estateDoorPart:'panel-relief',sourceLandmark:'clubhouse',
+      originalDimensions:[w,h,d],originalPerimeterPreserved:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -1434,7 +1464,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     hip(0,2.95,0,8.8,1.6,5.2);hip(-5,2.35,.1,2.7,1.1,4.2);hip(5,2.35,.1,2.7,1.1,4.2);
     box(g,0,.12,3,9,.25,2.4,edge);for(let x=-4;x<=4;x+=1.34)cyl(g,x,.37,3.6,.13,.16,2.3,cream,8);box(g,0,2.65,3.1,9.4,.25,2.5,cream);hip(0,2.9,3.1,9.6,.75,2.7);
     for(let x=-3;x<=3;x+=1.5){jacksonWindowGlass(g,x,glass);box(g,x-.38,.78,2.16,.12,1.23,.06,roof);box(g,x+.38,.78,2.16,.12,1.23,.06,roof);}
-    box(g,0,.4,2.14,.9,1.9,.05,roof);for(let i=0;i<3;i++)box(g,0,-.05+i*.1,4.8-i*.34,3,.1,.4,edge);
+    jacksonEntranceDoor(g,roof);for(let i=0;i<3;i++)box(g,0,-.05+i*.1,4.8-i*.34,3,.1,.4,edge);
     // Candidate course massing does not certify a pristine post-contamination state.
     for(let i=0;i<3;i++){
       const o=mesh(g,estateSculptedCourseGrass(i),grass,-4+i*4,.02,7.5+(i%2));
