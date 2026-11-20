@@ -14,10 +14,10 @@ import unittest
 
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from validate_creative_intake import validate, W11, FOUND, MATRIX, SRC, REF, SYN, INDEX
+from validate_creative_intake import validate, W11, FOUND, MATRIX, SRC, REF, SYN, INDEX, RECOVERY
 
 SOURCE = pathlib.Path("memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-20.json")
-FILES = [FOUND, MATRIX, SRC, REF, SYN, INDEX, SOURCE]
+FILES = [FOUND, MATRIX, SRC, REF, SYN, INDEX, SOURCE, RECOVERY]
 
 class Week11IntakeAdversarialTests(unittest.TestCase):
     def setUp(self):
@@ -74,6 +74,11 @@ class Week11IntakeAdversarialTests(unittest.TestCase):
 
     def test_rejects_changed_espn_points_in_source_receipt(self):
         self.edit(SRC, '"points": 29.06', '"points": 99.06')
+        self.assertEqual(self.gate(), 1)
+
+    def test_rejects_misquoted_november18_ffhub_odds(self):
+        self.edit(RECOVERY, "| ObiWan Jacoby | 32.45 | 52.89 | 12.77 |",
+                  "| ObiWan Jacoby | 32.45 | 99.99 | 12.77 |")
         self.assertEqual(self.gate(), 1)
 
 if __name__ == "__main__":
