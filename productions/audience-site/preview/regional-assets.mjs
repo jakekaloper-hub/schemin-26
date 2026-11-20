@@ -1158,7 +1158,39 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
     box(g,0,-.15,0,12,.3,9,stone);box(g,0,.15,0,8,2.8,4.2,cream);box(g,-5,.15,.1,2.2,2.2,3.6,brick);box(g,5,.15,.1,2.2,2.2,3.6,brick);
-    const hip=(x,y,z,w,h,d)=>{const geo=new THREE.CylinderGeometry(0,1,h,4);geo.rotateY(Math.PI/4);const o=mesh(g,geo,roof,x,y+h/2,z);o.scale.set(w/Math.SQRT2,1,d/Math.SQRT2);};
+    let roofIndex=0;
+    const hip=(x,y,z,w,h,d)=>{
+      // Recess courses INTO only the four EXISTING square-pyramid hip roofs.
+      // Subdivision follows the original square profile: four roof silhouettes,
+      // their tips, eaves, materials, transforms and static draw budget remain.
+      const index=roofIndex++,geo=new THREE.CylinderGeometry(0,1,h,32,24);
+      const p=geo.getAttribute('position');
+      for(let k=0;k<p.count;k++){
+        const px=p.getX(k),py=p.getY(k),pz=p.getZ(k),radius=Math.hypot(px,pz);
+        if(radius<1e-8)continue;
+        const angle=Math.atan2(px,pz);
+        // The previous four-side cone had corners at 0,90,180,270 degrees.
+        // Its straight facets have a radial limit of 1 at each corner and
+        // 1/sqrt(2) at the midpoint, before the inherited 45-degree rotation.
+        const squareProfile=1/(Math.SQRT2*Math.max(
+          Math.abs(Math.cos(angle+Math.PI/4)),Math.abs(Math.sin(angle+Math.PI/4))));
+        const fraction=Math.max(0,Math.min(1,(h/2-py)/h));
+        const endHold=Math.pow(Math.sin(Math.PI*fraction),2);
+        const course=Math.pow(.5+.5*Math.cos(fraction*Math.PI*16+index*.11),8);
+        const joint=Math.pow(.5+.5*Math.sin(angle*15.5-index*.29),10);
+        const inset=endHold*(.027*course+.009*joint);
+        p.setXYZ(k,px*squareProfile*(1-inset),py,pz*squareProfile*(1-inset));
+      }
+      p.needsUpdate=true;geo.rotateY(Math.PI/4);
+      geo.name='Candidate Jackson recessed hip-roof courses';
+      geo.computeVertexNormals();geo.computeBoundingSphere();
+      const o=mesh(g,geo,roof,x,y+h/2,z);
+      o.scale.set(w/Math.SQRT2,1,d/Math.SQRT2);
+      o.name='Candidate Jackson recessed hip roof';
+      o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',estateRoofPart:'hip-course',
+        originalRoofIndex:index,originalRoofDimensions:[w,h,d],sourceLandmark:'clubhouse',
+        navigable:false,routeIds:[],principalCharacters:[]};
+    };
     hip(0,2.95,0,8.8,1.6,5.2);hip(-5,2.35,.1,2.7,1.1,4.2);hip(5,2.35,.1,2.7,1.1,4.2);
     box(g,0,.12,3,9,.25,2.4,edge);for(let x=-4;x<=4;x+=1.34)cyl(g,x,.37,3.6,.13,.16,2.3,cream,8);box(g,0,2.65,3.1,9.4,.25,2.5,cream);hip(0,2.9,3.1,9.6,.75,2.7);
     for(let x=-3;x<=3;x+=1.5){box(g,x,.85,2.12,.55,1.05,.04,glass);box(g,x-.38,.78,2.16,.12,1.23,.06,roof);box(g,x+.38,.78,2.16,.12,1.23,.06,roof);}
