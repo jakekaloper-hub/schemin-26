@@ -557,10 +557,41 @@ export function buildRegionalAssets(THREE, bindings, height) {
       navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function templeSteppedTier(g,j){
+    // Sculpt only the four EXISTING Temple raised-stone foundation tiers.
+    // Local candidate flagstone joints are physically recessed into their tops:
+    // no perimeter/volume growth, new route, archaeology, or cleanup assertion.
+    const width=9-j*1.1,thickness=.58,depth=7-j*.75;
+    const geo=new THREE.BoxGeometry(width,thickness,depth,32,1,24);
+    geo.name='Candidate Temple inward-seamed stepped tier';
+    const p=geo.getAttribute('position');
+    for(let i=0;i<p.count;i++){
+      const x=p.getX(i),y=p.getY(i),z=p.getZ(i);
+      // The exterior tier rim, vertical faces and bottom retain original positions.
+      if(y<thickness/2-1e-6||Math.abs(x)>=width/2-1e-6||Math.abs(z)>=depth/2-1e-6)continue;
+      const across=(x+width/2)*8/width,along=(z+depth/2)*6/depth;
+      const row=Math.max(0,Math.min(5,Math.floor(along+1e-6)));
+      const stagger=(row%2)*.5;
+      const seamAcross=Math.abs(across+stagger-Math.round(across+stagger));
+      const seamAlong=Math.abs(along-Math.round(along));
+      const jointAcross=Math.max(0,1-seamAcross/.28);
+      const jointAlong=Math.max(0,1-seamAlong/.28);
+      const grain=.5+.5*Math.sin(x*9.3+j*.71)*Math.cos(z*8.1-j*.53);
+      const recess=Math.min(.050,.029*jointAcross+.025*jointAlong+.006*grain);
+      p.setY(i,y-recess);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,j%2?edge:stone,1,j*.58+thickness/2,-.8);
+    o.name='Candidate Temple seamed stepped tier';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'temple stone',
+      originalTierIndex:j,originalDimensions:[width,thickness,depth],
+      originalPerimeterPreserved:true,navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
     templeCliff(g,-6,3,-3,4,6,3,mat('#677163'),0);templeCliff(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'),1);templeCliff(g,-5,1,-5,4,4,3.6,mat('#596955'),2);
-    for(let j=0;j<4;j++)box(g,1,j*.58,-.8,9-j*1.1,.58,7-j*.75,j%2?edge:stone);
+    for(let j=0;j<4;j++)templeSteppedTier(g,j);
     for(let j=0;j<9;j++)templeStoneTread(g,j);
     box(g,1,2.3,-1,5.2,2.8,3.6,dark);
     for(let i=-2;i<=2;i++){templeFlutedPillar(g,i);box(g,1+i*1.05,5.34,1.1,.7,.22,.65,edge);}
