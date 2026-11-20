@@ -34,3 +34,9 @@ Consultant review is limited to modeled-method lenses of Jeff Lunsford, John Ezz
 6. Promote version and update active canonical execution tasks **only after** demonstrated runtime/release acceptance.
 
 No new paid service, secrets, canon state mutation, merge, public deployment or false PASS in this draft.
+
+## All-minor-component triage — source-path heuristic, not QA
+`MINOR_COMPONENT_TRIAGE_V1.json` assigns **all 492 tracked directories** a primary Director, evidence gate and initial **heuristic** triage: 213 P0, 177 P1, 102 P2. This is a broad risk-screening queue, **not 213 verified defects**; each priority must be calibrated by source inspection and tests. The triage also records entrypoint and test-file candidates, not proof of test execution.
+
+## First isolated World Evolution hardening candidate
+Code on this draft branch now rejects malformed request shapes, non-Boolean approval/release flags, stale chronological state transactions, duplicate event IDs in one request, and event-week mismatch. World Engine CI was extended to run 13 new adversarial tests. `WORLD_HARDENING_TEST_RECEIPT_2026_11_20.md` records **10 existing + 13 new tests PASS**, One World Model PASS and derived inventory checks PASS on an isolated Mac checkout. The test receipt predates the CI workflow edit; **exact-head CI, independent reviewer and release evidence/approval authentication remain open**. No canonical world-state event was applied.
