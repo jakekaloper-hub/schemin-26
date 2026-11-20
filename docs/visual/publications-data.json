@@ -1,0 +1,121 @@
+{
+  "role": "derived_release_identity_index",
+  "authority_warning": "This manifest indexes publication identity and relationships only. Project Control Registry, release evidence, publication gates, manuscript gates, canon, world, and data sources remain authoritative.",
+  "publications": [
+    {
+      "publication_id": "memo.2026.week-02",
+      "family": "weekly_memo",
+      "season": 2026,
+      "title": "Pro Schemin Week 2 Memo",
+      "release_state": "RELEASED",
+      "publication_date": "2026-09-23",
+      "canonical_artifact": "Week 2 memo.pdf",
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "docs/governance/SOURCE_OF_TRUTH.md",
+        "docs/publications/WEEK_2_OFFICIAL_PUBLICATION_RECOVERY_RECEIPT_V1.md"
+      ],
+      "release_receipt_refs": [
+        "docs/publications/WEEK_2_OFFICIAL_PUBLICATION_RECOVERY_RECEIPT_V1.md"
+      ]
+    },
+    {
+      "publication_id": "memo.2026.week-03",
+      "family": "weekly_memo",
+      "season": 2026,
+      "title": "Pro Schemin Week 3 Memo",
+      "release_state": "RELEASED",
+      "publication_date": null,
+      "canonical_artifact": "Pro_Schemin_Week_3_Memo_Final.pdf",
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md",
+        "world/qa/WEEK3_RELEASE_ARTIFACT_RECONCILIATION.md"
+      ],
+      "release_receipt_refs": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md",
+        "world/qa/WEEK3_RELEASE_ARTIFACT_RECONCILIATION.md"
+      ]
+    },
+    {
+      "publication_id": "memo.2026.week-04",
+      "family": "weekly_memo",
+      "season": 2026,
+      "title": "Pro Schemin Week 4 Memo",
+      "release_state": "BLOCKED",
+      "publication_date": null,
+      "canonical_artifact": null,
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "memo-os/week-4/_INDEX.md",
+        "memo-os/week-4/WEEK_4_RELEASE_GATE_V1.md"
+      ],
+      "release_receipt_refs": []
+    },
+    {
+      "publication_id": "novel.2026.prologue",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Prologue",
+      "release_state": "CANON_CLOSED",
+      "publication_date": "2026-09-27",
+      "canonical_artifact": "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+      "authority_refs": [
+        "living-novel/qa/PROLOGUE_FINAL_PUBLICATION_GATE.md",
+        "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/PROLOGUE_FINAL_PUBLICATION_GATE.md"
+      ]
+    },
+    {
+      "publication_id": "novel.2026.chapter-01",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Chapter I \u2014 The First Answer",
+      "release_state": "CANON_CLOSED",
+      "publication_date": null,
+      "canonical_artifact": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "authority_refs": [
+        "living-novel/qa/CHAPTER_01_FINAL_GATE.md",
+        "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/CHAPTER_01_FINAL_GATE.md"
+      ]
+    },
+    {
+      "publication_id": "novel.2026.chapter-02",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Chapter II \u2014 What Comes Back",
+      "release_state": "CANON_CLOSED",
+      "publication_date": null,
+      "canonical_artifact": "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+      "authority_refs": [
+        "living-novel/qa/CHAPTER_02_FINAL_GATE.md",
+        "living-novel/consultants/author-council/engagements/NOVEL-AUTHOR-CONSULT-2026-10-01-001/00_EVIDENCE_FREEZE.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/CHAPTER_02_FINAL_GATE.md"
+      ]
+    },
+    {
+      "publication_id": "novel.2026.chapter-03",
+      "family": "living_novel",
+      "season": 2026,
+      "title": "Chapter III \u2014 The Hill Is Not the Kingdom",
+      "release_state": "CANON_CLOSED",
+      "publication_date": "2026-10-01",
+      "canonical_artifact": "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md",
+      "authority_refs": [
+        "PROJECT_CONTROL_REGISTRY.md",
+        "living-novel/qa/CHAPTER_03_FINAL_CANON_GATE_V1.md",
+        "living-novel/qa/CHAPTER_03_CANON_PROPOSAL_V1.md"
+      ],
+      "release_receipt_refs": [
+        "living-novel/qa/CHAPTER_03_CANON_RELEASE_RECEIPT_V1.md"
+      ]
+    }
+  ]
+}

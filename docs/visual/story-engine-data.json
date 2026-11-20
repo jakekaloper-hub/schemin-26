@@ -1,0 +1,127 @@
+{
+  "warning": "Architecture stages are not proof that any one event completed the entire pipeline.",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Verified league event",
+      "source": "data-gateway/SCHEMIN_26_ESPN_INGESTION_RELIABILITY_PATCH_v1.0.md",
+      "lane": "Truth",
+      "description": "League events must be fact-locked."
+    },
+    {
+      "number": 2,
+      "title": "Freshness evidence",
+      "source": "schemas/freshness.schema.json",
+      "lane": "Truth",
+      "description": "Evidence freshness qualifies claims."
+    },
+    {
+      "number": 3,
+      "title": "Character consequence",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "lane": "Canon",
+      "description": "Owner IDs and visual presentation stay fixed; renderer hold remains."
+    },
+    {
+      "number": 4,
+      "title": "Geographic translation",
+      "source": "world/data/locations.json",
+      "lane": "World",
+      "description": "Venues and physical geography resolve from the World Engine."
+    },
+    {
+      "number": 5,
+      "title": "Story architecture",
+      "source": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "lane": "Production",
+      "description": "Creative interpretations depend on verified evidence."
+    },
+    {
+      "number": 6,
+      "title": "Weekly Memo",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "lane": "Publication",
+      "description": "Memo releases retain explicit status."
+    },
+    {
+      "number": 7,
+      "title": "Living Novel",
+      "source": "living-novel/NOVEL_OS.md",
+      "lane": "Production",
+      "description": "Novel continuity uses the same world."
+    },
+    {
+      "number": 8,
+      "title": "Visual production",
+      "source": "canon/characters/T12_VISUAL_CONSUMER_ROUTING_CONTRACT.md",
+      "lane": "Production",
+      "description": "Character rendering requires reference binding and QA."
+    },
+    {
+      "number": 9,
+      "title": "World evolution",
+      "source": "world/data/world_state_events.json",
+      "lane": "World",
+      "description": "Recorded consequences have explicit classification."
+    },
+    {
+      "number": 10,
+      "title": "Future continuity",
+      "source": "world/data/current_world_state.json",
+      "lane": "World",
+      "description": "The last approved world-state snapshot persists."
+    }
+  ],
+  "memos": [
+    {
+      "id": "memo.2026.week-02",
+      "status": "RELEASED"
+    },
+    {
+      "id": "memo.2026.week-03",
+      "status": "RELEASED"
+    },
+    {
+      "id": "memo.2026.week-04",
+      "status": "BLOCKED"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-W2-LLC-INTRUSION",
+      "week": 2,
+      "classification": "NARRATIVE_INTERPRETATION"
+    },
+    {
+      "id": "EVT-W3-BRIDGE",
+      "week": 3,
+      "classification": "WORLD_CANON"
+    },
+    {
+      "id": "EVT-W3-MIRE-HILL",
+      "week": 3,
+      "classification": "WORLD_CANON"
+    },
+    {
+      "id": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "week": 3,
+      "classification": "WORLD_CANON"
+    },
+    {
+      "id": "EVT-W3-ALPINE-WAGER",
+      "week": 3,
+      "classification": "WORLD_CANON"
+    },
+    {
+      "id": "EVT-W3-SPEEDWAY",
+      "week": 3,
+      "classification": "WORLD_CANON"
+    },
+    {
+      "id": "EVT-W3-LLC-STORM",
+      "week": 3,
+      "classification": "WORLD_CANON"
+    }
+  ],
+  "world_state_as_of": "end_of_week_3_2026"
+}

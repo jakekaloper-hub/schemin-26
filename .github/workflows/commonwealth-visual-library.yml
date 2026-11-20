@@ -1,0 +1,28 @@
+name: Commonwealth Visual Library Integrity
+on:
+  pull_request:
+    paths:
+      - "docs/visual/**"
+      - "canon/characters/APPROVED_LINEUP_2026_10_18.json"
+      - "canon/characters/assets/lineups/2026-10-18-crops/**"
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate character registry and source image integrity
+        run: python3 docs/visual/verify_assets.py
+      - name: Confirm review-only deployment classification
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          registry = json.loads(Path("docs/visual/manifest.json").read_text())
+          assert registry["assets"], "No visual assets"
+          assert all(a["visibility"] == "internal" for a in registry["assets"])
+          assert all("HOLD" in a["approval"] for a in registry["assets"])
+          print("PASS: private, hold-classified source registry")
+          PY

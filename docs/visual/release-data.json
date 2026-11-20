@@ -1,0 +1,42 @@
+{
+  "role": "derived evidence inspection, not approval",
+  "systems": [
+    {
+      "id": "weekly-memo-v5.5",
+      "state": "ACTIVE",
+      "anchor": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "receipt_id": "MEMO-V55-SANDBOX-CLOSEOUT-20261002",
+      "anchor_exists": true
+    },
+    {
+      "id": "weekly-memo-v5.6",
+      "state": "RELEASE_CANDIDATE_NOT_ACTIVE",
+      "anchor": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_6_PUBLICATION_INTEGRITY_PATCH.md",
+      "receipt_id": "MEMO-V56-BLOCK-F6DF090",
+      "anchor_exists": false
+    },
+    {
+      "id": "character-generation-enforcement",
+      "state": "ACTIVE_SAFETY_BOUNDARY",
+      "anchor": "canon/_INDEX.md",
+      "receipt_id": "CHAR-R5-OUTLIER-CLOSEOUT-20261002",
+      "anchor_exists": true
+    },
+    {
+      "id": "character-production",
+      "state": "BLOCKED",
+      "anchor": "canon/_INDEX.md",
+      "receipt_id": "CHAR-PRODUCTION-BLOCK-1DDB5BE",
+      "anchor_exists": true
+    },
+    {
+      "id": "universe-os-v1.2",
+      "state": "RELEASED_ACTIVE",
+      "anchor": "world/UNIVERSE_OS_V1_2_RELEASE_RECEIPT.md",
+      "receipt_id": "UNIVERSE-V12-RELEASE-ADDF45F",
+      "anchor_exists": true
+    }
+  ],
+  "receipt_count": 11,
+  "source": "governance/release-evidence/registry.json"
+}

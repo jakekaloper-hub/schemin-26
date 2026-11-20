@@ -1,0 +1,716 @@
+{
+  "version": 1,
+  "scope": "explicit-source-relationships",
+  "warning": "This graph preserves explicit references only. No inferred event-to-publication or league causality.",
+  "nodes": [
+    {
+      "id": "memo.2026.week-02",
+      "type": "publication",
+      "title": "Pro Schemin Week 2 Memo",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "status": "RELEASED"
+    },
+    {
+      "id": "memo.2026.week-03",
+      "type": "publication",
+      "title": "Pro Schemin Week 3 Memo",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "status": "RELEASED"
+    },
+    {
+      "id": "memo.2026.week-04",
+      "type": "publication",
+      "title": "Pro Schemin Week 4 Memo",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "novel.2026.prologue",
+      "type": "publication",
+      "title": "Prologue",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "status": "CANON_CLOSED"
+    },
+    {
+      "id": "novel.2026.chapter-01",
+      "type": "publication",
+      "title": "Chapter I \u2014 The First Answer",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "status": "CANON_CLOSED"
+    },
+    {
+      "id": "novel.2026.chapter-02",
+      "type": "publication",
+      "title": "Chapter II \u2014 What Comes Back",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "status": "CANON_CLOSED"
+    },
+    {
+      "id": "novel.2026.chapter-03",
+      "type": "publication",
+      "title": "Chapter III \u2014 The Hill Is Not the Kingdom",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "status": "CANON_CLOSED"
+    },
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "type": "location",
+      "title": "Trade Jedi Mountain Base",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "type": "location",
+      "title": "Mud Dogs Swamp",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "type": "location",
+      "title": "Country Club of Jackson",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "type": "location",
+      "title": "Arsenal Barbershop",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-STORM-BOWL",
+      "type": "location",
+      "title": "Storm Bowl",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-LLC-BOARDROOM",
+      "type": "location",
+      "title": "LLC Mercantile Boardroom",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "type": "location",
+      "title": "Red Leopard Ruins",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "type": "location",
+      "title": "Podium Shadow Waterfall Temple",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-CHILI-STABLE",
+      "type": "location",
+      "title": "Chili Outlaw Stable",
+      "source": "world/data/locations.json",
+      "status": "PERMANENT_CANON"
+    },
+    {
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "type": "location",
+      "title": "Belt Keeper Rune Keep",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "type": "location",
+      "title": "Slob Foothill Camp",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "type": "location",
+      "title": "People's Champ Road Commons",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "type": "location",
+      "title": "League Chamber",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-PITTSYS-BOOK",
+      "type": "location",
+      "title": "Pittsy's Book",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "type": "location",
+      "title": "Bridge at the Mountain Lake",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-DK-MUD-HILL",
+      "type": "location",
+      "title": "Mire Hill Battlefield",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "type": "location",
+      "title": "Alpine Wager Route",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "type": "location",
+      "title": "Southern Speedway",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-LLC-STORM-CITY",
+      "type": "location",
+      "title": "LLC Port City Storm District",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "type": "location",
+      "title": "D0nkey K0ng Highland Stronghold",
+      "source": "world/data/locations.json",
+      "status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "type": "location",
+      "title": "TDS\u2013Chili Shared March",
+      "source": "world/data/locations.json",
+      "status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "type": "location",
+      "title": "Compact Neutral Grounds",
+      "source": "world/data/locations.json",
+      "status": "PROVISIONAL_CANON"
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "type": "location",
+      "title": "League Archive",
+      "source": "world/data/locations.json",
+      "status": "INTERPRETIVE_CANON"
+    },
+    {
+      "id": "CHAR-JAKE-KALOPER",
+      "type": "character",
+      "title": "ObiWan Jacoby",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-WILSON-LOOK",
+      "type": "character",
+      "title": "D0nkey K0ng",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-PHILLIP-PITTS",
+      "type": "character",
+      "title": "Three Dreaded Snake",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-AUSTIN-BYARS",
+      "type": "character",
+      "title": "His Majesty's Blood",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-BRANDON-PRYOR",
+      "type": "character",
+      "title": "Chili Cheesers",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "type": "character",
+      "title": "Slob on my Dobb",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-ZACH-WILSON",
+      "type": "character",
+      "title": "Dr. Duckhook",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-KEVIN-ZEEK",
+      "type": "character",
+      "title": "Red Leopards",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-BOBBY-MITCHELL",
+      "type": "character",
+      "title": "Mud Dogs",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-BEN-WHIPPLE",
+      "type": "character",
+      "title": "Seven Deadly Chins",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-DAVID-BABB",
+      "type": "character",
+      "title": "The LLC",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "CHAR-MANNING-WELTY",
+      "type": "character",
+      "title": "El Ni\u00f1o",
+      "source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "status": "LINEUP_APPROVED_RENDERER_QA_HOLD"
+    },
+    {
+      "id": "EVT-W2-LLC-INTRUSION",
+      "type": "event",
+      "title": "EVT-W2-LLC-INTRUSION",
+      "source": "world/data/world_state_events.json",
+      "status": "NARRATIVE_INTERPRETATION",
+      "week": 2,
+      "continuity": [
+        "intrusion/destruction history",
+        "future reuse may show repair or scars"
+      ]
+    },
+    {
+      "id": "EVT-W3-BRIDGE",
+      "type": "event",
+      "title": "EVT-W3-BRIDGE",
+      "source": "world/data/world_state_events.json",
+      "status": "WORLD_CANON",
+      "week": 3,
+      "continuity": [
+        "remembered decision landmark",
+        "no physical destruction required"
+      ]
+    },
+    {
+      "id": "EVT-W3-MIRE-HILL",
+      "type": "event",
+      "title": "EVT-W3-MIRE-HILL",
+      "source": "world/data/world_state_events.json",
+      "status": "WORLD_CANON",
+      "week": 3,
+      "continuity": [
+        "scarred hill",
+        "yield memory",
+        "discarded standards/debris may persist until cleanup"
+      ]
+    },
+    {
+      "id": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "type": "event",
+      "title": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "source": "world/data/world_state_events.json",
+      "status": "WORLD_CANON",
+      "week": 3,
+      "continuity": [
+        "chili contamination/humiliation history",
+        "cleanup required before pristine reset"
+      ]
+    },
+    {
+      "id": "EVT-W3-ALPINE-WAGER",
+      "type": "event",
+      "title": "EVT-W3-ALPINE-WAGER",
+      "source": "world/data/world_state_events.json",
+      "status": "WORLD_CANON",
+      "week": 3,
+      "continuity": [
+        "wager/summit receipt landmark"
+      ]
+    },
+    {
+      "id": "EVT-W3-SPEEDWAY",
+      "type": "event",
+      "title": "EVT-W3-SPEEDWAY",
+      "source": "world/data/world_state_events.json",
+      "status": "WORLD_CANON",
+      "week": 3,
+      "continuity": [
+        "HMB/Chins survival-race history"
+      ]
+    },
+    {
+      "id": "EVT-W3-LLC-STORM",
+      "type": "event",
+      "title": "EVT-W3-LLC-STORM",
+      "source": "world/data/world_state_events.json",
+      "status": "WORLD_CANON",
+      "week": 3,
+      "continuity": [
+        "major weather event remembered",
+        "storm-protection works become continuity object"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "EVT-W2-LLC-INTRUSION",
+      "to": "LOC-LLC-BOARDROOM",
+      "relation": "RECORDED_AT",
+      "source": "world/data/world_state_events.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "EVT-W3-BRIDGE",
+      "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "relation": "RECORDED_AT",
+      "source": "world/data/world_state_events.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "EVT-W3-MIRE-HILL",
+      "to": "LOC-DK-MUD-HILL",
+      "relation": "RECORDED_AT",
+      "source": "world/data/world_state_events.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "to": "LOC-COUNTRY-CLUB-JACKSON",
+      "relation": "RECORDED_AT",
+      "source": "world/data/world_state_events.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "EVT-W3-ALPINE-WAGER",
+      "to": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "relation": "RECORDED_AT",
+      "source": "world/data/world_state_events.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "EVT-W3-SPEEDWAY",
+      "to": "LOC-SOUTHERN-SPEEDWAY",
+      "relation": "RECORDED_AT",
+      "source": "world/data/world_state_events.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "EVT-W3-LLC-STORM",
+      "to": "LOC-LLC-STORM-CITY",
+      "relation": "RECORDED_AT",
+      "source": "world/data/world_state_events.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "to": "CHAR-JAKE-KALOPER",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-MUD-DOGS-SWAMP",
+      "to": "CHAR-BOBBY-MITCHELL",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-COUNTRY-CLUB-JACKSON",
+      "to": "CHAR-ZACH-WILSON",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-ARSENAL-BARBERSHOP",
+      "to": "CHAR-WILSON-LOOK",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-STORM-BOWL",
+      "to": "CHAR-MANNING-WELTY",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-LLC-BOARDROOM",
+      "to": "CHAR-DAVID-BABB",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-RED-RUINS",
+      "to": "CHAR-KEVIN-ZEEK",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-TDS-WATERFALL-TEMPLE",
+      "to": "CHAR-PHILLIP-PITTS",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-CHILI-STABLE",
+      "to": "CHAR-BRANDON-PRYOR",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-BELT-KEEPER-KEEP",
+      "to": "CHAR-AUSTIN-BYARS",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-SLOB-FOOTHILL-CAMP",
+      "to": "CHAR-JORDAN-HOLLINGSHEAD",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-CHINS-ROAD-COMMONS",
+      "to": "CHAR-BEN-WHIPPLE",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-PITTSYS-BOOK",
+      "to": "CHAR-PHILLIP-PITTS",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-LLC-STORM-CITY",
+      "to": "CHAR-DAVID-BABB",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "to": "CHAR-WILSON-LOOK",
+      "relation": "OWNER_DOMAIN_ID",
+      "source": "world/data/locations.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "memo.2026.week-02",
+      "to": "memo.2026.week-03",
+      "relation": "precedes",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "memo.2026.week-02",
+      "to": "novel.2026.chapter-02",
+      "relation": "interprets_same_source_interval",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "memo.2026.week-03",
+      "to": "memo.2026.week-02",
+      "relation": "follows",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "memo.2026.week-03",
+      "to": "memo.2026.week-04",
+      "relation": "precedes",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "memo.2026.week-03",
+      "to": "novel.2026.chapter-03",
+      "relation": "interprets_same_source_interval",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "memo.2026.week-04",
+      "to": "memo.2026.week-03",
+      "relation": "follows",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.prologue",
+      "to": "novel.2026.chapter-01",
+      "relation": "precedes",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.chapter-01",
+      "to": "novel.2026.prologue",
+      "relation": "follows",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.chapter-01",
+      "to": "novel.2026.chapter-02",
+      "relation": "precedes",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.chapter-02",
+      "to": "novel.2026.chapter-01",
+      "relation": "follows",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.chapter-02",
+      "to": "memo.2026.week-02",
+      "relation": "interprets_same_source_interval",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.chapter-02",
+      "to": "novel.2026.chapter-03",
+      "relation": "precedes",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.chapter-03",
+      "to": "novel.2026.chapter-02",
+      "relation": "follows",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    },
+    {
+      "from": "novel.2026.chapter-03",
+      "to": "memo.2026.week-03",
+      "relation": "interprets_same_source_interval",
+      "source": "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+      "classification": "EXPLICIT_REFERENCE"
+    }
+  ],
+  "unresolved": [
+    {
+      "event": "EVT-W2-LLC-INTRUSION",
+      "relation": "SPECIFIC_LEAGUE_FACT_TO_EVENT",
+      "reason": "No explicit audited event-level league fact edge in these registries."
+    },
+    {
+      "event": "EVT-W2-LLC-INTRUSION",
+      "relation": "SPECIFIC_MEMO_PAGE_OR_NOVEL_PASSAGE",
+      "reason": "Shared week and document provenance do not establish direct depiction or causal relation."
+    },
+    {
+      "event": "EVT-W3-BRIDGE",
+      "relation": "SPECIFIC_LEAGUE_FACT_TO_EVENT",
+      "reason": "No explicit audited event-level league fact edge in these registries."
+    },
+    {
+      "event": "EVT-W3-BRIDGE",
+      "relation": "SPECIFIC_MEMO_PAGE_OR_NOVEL_PASSAGE",
+      "reason": "Shared week and document provenance do not establish direct depiction or causal relation."
+    },
+    {
+      "event": "EVT-W3-MIRE-HILL",
+      "relation": "SPECIFIC_LEAGUE_FACT_TO_EVENT",
+      "reason": "No explicit audited event-level league fact edge in these registries."
+    },
+    {
+      "event": "EVT-W3-MIRE-HILL",
+      "relation": "SPECIFIC_MEMO_PAGE_OR_NOVEL_PASSAGE",
+      "reason": "Shared week and document provenance do not establish direct depiction or causal relation."
+    },
+    {
+      "event": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "relation": "SPECIFIC_LEAGUE_FACT_TO_EVENT",
+      "reason": "No explicit audited event-level league fact edge in these registries."
+    },
+    {
+      "event": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "relation": "SPECIFIC_MEMO_PAGE_OR_NOVEL_PASSAGE",
+      "reason": "Shared week and document provenance do not establish direct depiction or causal relation."
+    },
+    {
+      "event": "EVT-W3-ALPINE-WAGER",
+      "relation": "SPECIFIC_LEAGUE_FACT_TO_EVENT",
+      "reason": "No explicit audited event-level league fact edge in these registries."
+    },
+    {
+      "event": "EVT-W3-ALPINE-WAGER",
+      "relation": "SPECIFIC_MEMO_PAGE_OR_NOVEL_PASSAGE",
+      "reason": "Shared week and document provenance do not establish direct depiction or causal relation."
+    },
+    {
+      "event": "EVT-W3-SPEEDWAY",
+      "relation": "SPECIFIC_LEAGUE_FACT_TO_EVENT",
+      "reason": "No explicit audited event-level league fact edge in these registries."
+    },
+    {
+      "event": "EVT-W3-SPEEDWAY",
+      "relation": "SPECIFIC_MEMO_PAGE_OR_NOVEL_PASSAGE",
+      "reason": "Shared week and document provenance do not establish direct depiction or causal relation."
+    },
+    {
+      "event": "EVT-W3-LLC-STORM",
+      "relation": "SPECIFIC_LEAGUE_FACT_TO_EVENT",
+      "reason": "No explicit audited event-level league fact edge in these registries."
+    },
+    {
+      "event": "EVT-W3-LLC-STORM",
+      "relation": "SPECIFIC_MEMO_PAGE_OR_NOVEL_PASSAGE",
+      "reason": "Shared week and document provenance do not establish direct depiction or causal relation."
+    }
+  ],
+  "source_files": [
+    "governance/publication-manifest/PUBLICATION_MANIFEST_V1.json",
+    "world/data/world_state_events.json",
+    "world/data/locations.json",
+    "canon/characters/APPROVED_LINEUP_2026_10_18.json"
+  ]
+}
