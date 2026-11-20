@@ -8,6 +8,10 @@ Schemin ’26 is a persistent fantasy-sports storytelling and publication univer
 
 The governing rule is simple: these are not separate creative projects. They are different publication surfaces over **one persistent fictional reality**.
 
+## Repository checkup: main, draft branches and release gates
+
+The accepted code baseline is [`main`](https://github.com/jakekaloper-hub/schemin-26/tree/main); proposed work is discoverable in the [live pull-request list](https://github.com/jakekaloper-hub/schemin-26/pulls?q=is%3Apr+is%3Aopen), including stacked drafts. To audit both safely, read the [2026-11-20 Bullpen branch-to-main reconciliation](docs/governance/REPOSITORY_VISIBILITY_2026_11_20.md) and the [daily read-only PR/branch report](https://github.com/jakekaloper-hub/schemin-26/actions/workflows/operational-convergence-inventory.yml). No draft, HOLD, candidate or failed-CI branch should be auto-merged; accepted code still requires separate canon/publication release gates. [Main protection remains tracked as P0 #330](https://github.com/jakekaloper-hub/schemin-26/issues/330).
+
 ## Current weekly memo continuation
 
 For current memo work, follow [Memo OS](memo-os/_INDEX.md) -> active issue index -> Founder context/continuation record before planning or rendering. Historical status snapshots below do not override that current route.
