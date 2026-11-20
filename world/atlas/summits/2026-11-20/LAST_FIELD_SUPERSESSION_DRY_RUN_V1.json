@@ -1,0 +1,168 @@
+{
+  "schema": "schemin.atlas.last_field_versioned_change_preview.v1",
+  "created": "2026-11-20",
+  "status": "VALIDATABLE_DRY_RUN__NO_CANDIDATE_REGISTRY_UPDATE__NO_WORLD_PROMOTION",
+  "source_pins": {
+    "main_candidate_registry": {
+      "path": "world/data/atlas_location_candidates.json",
+      "ref": "feat/atlas-location-summit-20261120",
+      "blob_sha": "1b0f31c775e312609da2f2a22ac1510b0db5acc6"
+    },
+    "existing_locations": {
+      "path": "world/data/locations.json",
+      "ref": "feat/atlas-location-summit-20261120",
+      "blob_sha": "35215b0e4151148c70f37ed8e7d493268187ac23"
+    },
+    "existing_routes": {
+      "path": "world/data/routes.json",
+      "ref": "feat/atlas-location-summit-20261120",
+      "blob_sha": "da418245708c1f9d2128775df0ce7d26e7eeaa18"
+    },
+    "island_supersession": {
+      "path": "planning/postseason/ATLAS_LAST_FIELD_SUPERSESSION_PACKET_V1.json",
+      "ref": "feat/postseason-island-historical-foundation-20261118",
+      "blob_sha": "945072f8effa1c43b3afcb2a99d9141091f62a72"
+    },
+    "island_siting": {
+      "path": "planning/postseason/ATLAS_NEUTRAL_CAUSEWAY_SITING_HYPOTHESIS_V1.proposal.json",
+      "ref": "feat/postseason-island-historical-foundation-20261118",
+      "blob_sha": "a50005a00c2a7d8f53ada99f1f9c981d86c47da3"
+    },
+    "island_topology": {
+      "path": "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+      "ref": "feat/postseason-island-historical-foundation-20261118",
+      "blob_sha": "2edc3efcb8e50dba35f851a0a861c785680bffad"
+    }
+  },
+  "single_venue_identity": {
+    "governing_candidate_id": "CAND-CHAMP-LAST-FIELD",
+    "proposed_island_stage_id": "CAND-POST-LAST-FIELD",
+    "proposed_topology_node_id": "LAST_FIELD",
+    "identity_policy": "ONE_LAST_FIELD_NOT_SEPARATE_CONTINENTAL_AND_ISLAND_CHAMPIONSHIPS",
+    "cross_reference_status": "PROPOSED_UNTIL_VERSIONED_APPROVAL"
+  },
+  "dry_run_change": {
+    "target_store": "world/data/atlas_location_candidates.json",
+    "target_record_id": "CAND-CHAMP-LAST-FIELD",
+    "before": {
+      "id": "CAND-CHAMP-LAST-FIELD",
+      "working_name": "The Last Field",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "CHAMPIONSHIP_ONLY",
+      "likely_physical_zone_ids": [
+        "REG-CENTRAL-BASIN"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "CHAMPIONSHIP"
+      ],
+      "activation_trigger": "Actual championship encounter exists and finalists are verified",
+      "story_functions": [
+        "championship ceremony",
+        "season culmination",
+        "neutral spectacle"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": true,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "neutral route access for both finalists",
+        "no participant-specific decoration before finalists known"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Do not publish as a matchup venue before the championship."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md"
+      ]
+    },
+    "intended_after_only_if_approved": {
+      "id": "CAND-CHAMP-LAST-FIELD",
+      "working_name": "The Last Field",
+      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
+      "location_class": "CHAMPIONSHIP_ONLY",
+      "likely_physical_zone_ids": [
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "division_affinity_ids": [],
+      "event_eligibility": [
+        "CHAMPIONSHIP"
+      ],
+      "activation_trigger": "Actual championship encounter exists and finalists are verified",
+      "story_functions": [
+        "championship ceremony",
+        "season culmination",
+        "neutral spectacle"
+      ],
+      "technology_translation": "NATIVE_PREMODERN",
+      "championship_only": true,
+      "rare_use": true,
+      "related_active_location_ids": [],
+      "prerequisites": [
+        "neutral route access for both finalists",
+        "no participant-specific decoration before finalists known"
+      ],
+      "inspiration": null,
+      "canon_notes": [
+        "Do not publish as a matchup venue before the championship.",
+        "PROPOSED historic Central Basin → Inner Sea change, not yet authorized; existing source retained until explicit acceptance.",
+        "One physical Last Field; draft island stage CAND-POST-LAST-FIELD cannot become a parallel venue; modern-tech exception separately gated."
+      ],
+      "rejection_reason": null,
+      "source_provenance": [
+        "Commissioner Atlas Phase 1 directive 2026-09-30",
+        "world/atlas/phase-1/MODERNITY_LAYER_CANDIDATE_REGISTRY_V1.md",
+        "PR322/ATLAS_LAST_FIELD_SUPERSESSION_PACKET_V1.json (PROPOSED FUTURE SUPERSESSION ONLY)"
+      ]
+    },
+    "changed_business_fields": [
+      "likely_physical_zone_ids",
+      "source_provenance",
+      "canon_notes"
+    ],
+    "live_world_file_writes": [],
+    "media_file_writes": [],
+    "current_frozen_status": "FUTURE_UNLOCK_CANDIDATE",
+    "rollback": "Restore exact before record from source blob and retain supersession audit history"
+  },
+  "island_neutrality": {
+    "region": "REG-INNER-SEA-LITTORAL",
+    "candidate_public_gate": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+    "public_gate_owner": null,
+    "existing_LLC_Storm_City_is_reference_only": true,
+    "actual_coastal_survey": "UNVERIFIED",
+    "actual_road_survey": "UNVERIFIED",
+    "metric_coordinates": null,
+    "bridge_length_m": null,
+    "foundation_and_storm_loads": "UNVERIFIED",
+    "access_graph": {
+      "nodes": 23,
+      "edges": 45,
+      "status": "PROPOSED_ONLY"
+    }
+  },
+  "release_requirements": [
+    "Founder formally accepts versioned candidate-zone supersession, with old Central Basin reference archived",
+    "Atlas/World confirm neutral public gate/site, route/causeway and safe public emergency modes",
+    "World technology authority ratifies island scoped broadcast/electrical exception or substitute analogue",
+    "Independent Umpire evaluates character, historic-bracket, memorial, and image/landscape source facts",
+    "Current 2026 postseason finalists and result supplied by locked data before the championship is depicted",
+    "Reviewer explicitly approves any candidate lifecycle move and LOC materialization; no automatic activation"
+  ],
+  "preserved_protections": [
+    "Losers Beach retains existing nonqualifier/elimination admission and emergency route",
+    "Farrell sanctuary and nine dormant heritage locations stay protected",
+    "No island or region becomes an LLC or other current character's sovereign property",
+    "Historic 2015-2025 physical venue staging remains original fictional treatment, not ESPN fact"
+  ],
+  "executed_changes": {
+    "candidate_store_mutated": false,
+    "active_locations_mutated": false,
+    "active_routes_mutated": false,
+    "public_release": false
+  }
+}
