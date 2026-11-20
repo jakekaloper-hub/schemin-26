@@ -1006,6 +1006,31 @@ export function buildRegionalAssets(THREE, bindings, height) {
       navigable:false,routeIds:[],principalCharacters:[]};
     return lobe;
   }
+  function sculptMudDogsHangingVegetation(g,x,y,z,verticalSpan,standIndex,strandIndex){
+    // Replace only each of the 28 inherited five-sided hanging foliage cones.
+    // More local faces permit inward relief: no new strand, transform or silhouette.
+    const originalRadius=.085;
+    const geo=new THREE.ConeGeometry(originalRadius,verticalSpan,16,8);
+    geo.name='Candidate Mud Dogs folded hanging vegetation';
+    const p=geo.getAttribute('position');
+    for(let j=0;j<p.count;j++){
+      const xx=p.getX(j),yy=p.getY(j),zz=p.getZ(j);
+      if(Math.hypot(xx,zz)<1e-8)continue;
+      const along=Math.max(0,Math.min(1,yy/verticalSpan+.5));
+      const endHold=Math.pow(Math.sin(Math.PI*along),2);
+      const angle=Math.atan2(zz,xx);
+      const crease=Math.pow(.5+.5*Math.sin(angle*5+standIndex*.33+strandIndex*.51+yy*7.3),2);
+      const inset=.19*crease*endHold;
+      p.setXYZ(j,xx*(1-inset),yy,zz*(1-inset));
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,moss,x,y,z);
+    o.name='Candidate Mud Dogs folded hanging vegetation';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceEnvironment:['cypress-like wetlands'],originalRadiusEnvelopePreserved:true,
+      originalVerticalSpan:verticalSpan,navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
@@ -1037,7 +1062,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       for(let k=0;k<2;k++){
         const b=k*Math.PI+i*.29;
         mark(branch(g,[x,y+h-.6,z],[x+Math.cos(b)*.72,y+h+.28,z+Math.sin(b)*.72],.11),'upper-branch');
-        const t=mesh(g,new THREE.ConeGeometry(.085,.65+(i%3)*.12,5),moss,x+Math.cos(b)*.74,y+h-.18,z+Math.sin(b)*.74);
+        const t=sculptMudDogsHangingVegetation(g,
+          x+Math.cos(b)*.74,y+h-.18,z+Math.sin(b)*.74,
+          .65+(i%3)*.12,i,k);
         t.rotation.z=(k?-.12:.12);mark(t,'hanging-vegetation');
       }
     }
