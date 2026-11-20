@@ -80,8 +80,19 @@ class LocationControlPlaneTests(unittest.TestCase):
         self.assertFalse(any(x["location_id"].startswith("CAND-") for x in reg["cards"]))
 
     def test_phase2_does_not_mutate_candidate_count(self):
+        """Phase 2 retains its original 48 candidate IDs despite later expansions.
+
+        New editorial candidates remain outside active World and location cards.
+        The original 48 entries are preserved; their count is not the total cap.
+        """
         c=self.load("world/data/atlas_location_candidates.json")
-        self.assertEqual(len(c["candidates"]),48)
+        old=[x for x in c["candidates"] if
+             "Founder location-expansion directive 2026-11-20" not in x.get("source_provenance", [])]
+        self.assertEqual(len(old),48)
+        self.assertEqual(len({x["id"] for x in c["candidates"]}),len(c["candidates"]))
+        reg=self.load("world/location-control-plane/registries/LOCATION_CARD_REGISTRY.json")
+        self.assertEqual(reg["count"],23)
+        self.assertFalse(any(x["location_id"].startswith("CAND-") for x in reg["cards"]))
 
     def test_reference_registry_explicit(self):
         r=self.load("world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json")
