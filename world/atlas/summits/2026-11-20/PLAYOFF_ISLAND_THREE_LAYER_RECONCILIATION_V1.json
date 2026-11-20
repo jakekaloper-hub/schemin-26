@@ -1,0 +1,3447 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-20",
+  "status": "EDITORIAL_SOURCE_CROSSWALK_NOT_CANON",
+  "source_pr": 322,
+  "source_branch": "feat/postseason-island-historical-foundation-20261118",
+  "source_sha": "558504e268246409b505ad94868e7ccfef76d088",
+  "counts": {
+    "total_island_handles": 44,
+    "postseason_arena_sites": 9,
+    "topology_nodes": 23,
+    "dormant_heritage_sites": 9,
+    "siting_candidates": 3,
+    "edges": 45,
+    "historical_matches": 56,
+    "proposed_physical_traces": 56,
+    "historical_seasons": 11
+  },
+  "known_source_defect": {
+    "description": "Stale internal edge_count metadata",
+    "recorded": 41,
+    "actual": 45
+  },
+  "championship_identity_conflict": {
+    "existing_candidate": "CAND-CHAMP-LAST-FIELD",
+    "new_proposed_arena": "CAND-POST-LAST-FIELD",
+    "network_node": "LAST_FIELD",
+    "approval": "Explicit versioned zone supersession required; cannot promote both"
+  },
+  "annual_stadium_status": [
+    {
+      "year": 2015,
+      "venue_ids": [
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        2,
+        5,
+        8,
+        12
+      ],
+      "bye_slots": [],
+      "champion_slot": 12,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2016,
+      "venue_ids": [
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        1,
+        7,
+        8,
+        12
+      ],
+      "bye_slots": [],
+      "champion_slot": 8,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2017,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        2,
+        6,
+        7,
+        9,
+        11,
+        12
+      ],
+      "bye_slots": [
+        11,
+        12
+      ],
+      "champion_slot": 12,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2018,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        4,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "bye_slots": [
+        9,
+        4
+      ],
+      "champion_slot": 8,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2019,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        3,
+        4,
+        5,
+        7,
+        11,
+        12
+      ],
+      "bye_slots": [
+        5,
+        4
+      ],
+      "champion_slot": 3,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2020,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        1,
+        2,
+        8,
+        9,
+        10,
+        12
+      ],
+      "bye_slots": [
+        8,
+        1
+      ],
+      "champion_slot": 10,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2021,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "bye_slots": [
+        5
+      ],
+      "champion_slot": 5,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2022,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        12
+      ],
+      "bye_slots": [
+        2
+      ],
+      "champion_slot": 9,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2023,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "bye_slots": [
+        9
+      ],
+      "champion_slot": 12,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2024,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        12
+      ],
+      "bye_slots": [
+        8
+      ],
+      "champion_slot": 1,
+      "venue_truth": "PROPOSED"
+    },
+    {
+      "year": 2025,
+      "venue_ids": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER",
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE",
+        "CAND-POST-LAST-FIELD"
+      ],
+      "entrant_slots": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12
+      ],
+      "bye_slots": [
+        1
+      ],
+      "champion_slot": 8,
+      "venue_truth": "PROPOSED"
+    }
+  ],
+  "three_depth_records": [
+    {
+      "id": "CAND-POST-LAST-FIELD",
+      "name": "Last Field",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "central_upland",
+        "morphology": "fixed stone championship oval on central rock upland",
+        "infrastructure": [
+          "twin finalist gates",
+          "central certification dais",
+          "public stands",
+          "champion procession",
+          "capped suite arcades",
+          "independent memorial approach"
+        ],
+        "risks": [
+          "Final Field Central Basin vs island unresolved",
+          "Farrell name chronology unverified"
+        ],
+        "alias": "LAST_FIELD",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "FINAL_ONLY",
+        "functions": [
+          "CHAMPIONSHIP_ONLY"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": 2015,
+        "proposed_years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "fixture_ids": [
+          "HIST-POST-2015-FINAL-1",
+          "HIST-POST-2016-FINAL-1",
+          "HIST-POST-2017-FINAL-1",
+          "HIST-POST-2018-FINAL-1",
+          "HIST-POST-2019-FINAL-1",
+          "HIST-POST-2020-FINAL-1",
+          "HIST-POST-2021-FINAL-1",
+          "HIST-POST-2022-FINAL-1",
+          "HIST-POST-2023-FINAL-1",
+          "HIST-POST-2024-FINAL-1",
+          "HIST-POST-2025-FINAL-1"
+        ],
+        "fixture_winner_slots": [
+          {
+            "year": 2015,
+            "id": "HIST-POST-2015-FINAL-1",
+            "winner": 12
+          },
+          {
+            "year": 2016,
+            "id": "HIST-POST-2016-FINAL-1",
+            "winner": 8
+          },
+          {
+            "year": 2017,
+            "id": "HIST-POST-2017-FINAL-1",
+            "winner": 12
+          },
+          {
+            "year": 2018,
+            "id": "HIST-POST-2018-FINAL-1",
+            "winner": 8
+          },
+          {
+            "year": 2019,
+            "id": "HIST-POST-2019-FINAL-1",
+            "winner": 3
+          },
+          {
+            "year": 2020,
+            "id": "HIST-POST-2020-FINAL-1",
+            "winner": 10
+          },
+          {
+            "year": 2021,
+            "id": "HIST-POST-2021-FINAL-1",
+            "winner": 5
+          },
+          {
+            "year": 2022,
+            "id": "HIST-POST-2022-FINAL-1",
+            "winner": 9
+          },
+          {
+            "year": 2023,
+            "id": "HIST-POST-2023-FINAL-1",
+            "winner": 12
+          },
+          {
+            "year": 2024,
+            "id": "HIST-POST-2024-FINAL-1",
+            "winner": 1
+          },
+          {
+            "year": 2025,
+            "id": "HIST-POST-2025-FINAL-1",
+            "winner": 8
+          }
+        ],
+        "historic_proposal_trace_ids": [
+          "TRACE-HIST-POST-2015-FINAL-1",
+          "TRACE-HIST-POST-2016-FINAL-1",
+          "TRACE-HIST-POST-2017-FINAL-1",
+          "TRACE-HIST-POST-2018-FINAL-1",
+          "TRACE-HIST-POST-2019-FINAL-1",
+          "TRACE-HIST-POST-2020-FINAL-1",
+          "TRACE-HIST-POST-2021-FINAL-1",
+          "TRACE-HIST-POST-2022-FINAL-1",
+          "TRACE-HIST-POST-2023-FINAL-1",
+          "TRACE-HIST-POST-2024-FINAL-1",
+          "TRACE-HIST-POST-2025-FINAL-1"
+        ],
+        "physical_effects": [
+          {
+            "id": "TRACE-HIST-POST-2015-FINAL-1",
+            "mark": "documented crack in expendable test rig",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2016-FINAL-1",
+            "mark": "recessed impact abrasion",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2017-FINAL-1",
+            "mark": "embedded arrow-score marks preserved in protected plate",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2018-FINAL-1",
+            "mark": "cleared but preserved scuff in original competition surface",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2019-FINAL-1",
+            "mark": "controlled pyrotechnic soot",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2020-FINAL-1",
+            "mark": "repaired stone-lifting edge",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2021-FINAL-1",
+            "mark": "historic skid-stripe in retained turn pavement",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2022-FINAL-1",
+            "mark": "backstop puncture sequence",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2023-FINAL-1",
+            "mark": "recessed impact abrasion",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2024-FINAL-1",
+            "mark": "documented crack in expendable test rig",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2025-FINAL-1",
+            "mark": "controlled pyrotechnic soot",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          }
+        ],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-OLD-RING",
+      "name": "Old Ring",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "inner_quarry",
+        "morphology": "oldest shallow stone competition circle, close spectator banks",
+        "infrastructure": [
+          "outer crowd bank",
+          "low seating",
+          "stone gate",
+          "accessible heritage path"
+        ],
+        "risks": [
+          "retired venue not reusable without current maintenance proof"
+        ],
+        "alias": "HERITAGE-OLD-RING",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "RETIRED_EXHIBITION_HERITAGE",
+        "functions": [
+          "HERITAGE_NON_BRACKET"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": null,
+        "proposed_years": [],
+        "fixture_ids": [],
+        "fixture_winner_slots": [],
+        "historic_proposal_trace_ids": [],
+        "physical_effects": [],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-IRON-QUARRY",
+      "name": "Iron Quarry",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "inland_quarry",
+        "morphology": "stone quarry bowl with vertical terraces and marked approach lanes",
+        "infrastructure": [
+          "terraces",
+          "covered arbiters' platform",
+          "controlled course lanes",
+          "pit safety"
+        ],
+        "risks": [
+          "rockfall control",
+          "water drainage"
+        ],
+        "alias": "IRON_QUARRY",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "QUARTERFINAL_ONLY",
+        "functions": [
+          "QUARTERFINAL"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": 2017,
+        "proposed_years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "fixture_ids": [
+          "HIST-POST-2017-QF-1",
+          "HIST-POST-2018-QF-1",
+          "HIST-POST-2019-QF-1",
+          "HIST-POST-2020-QF-1",
+          "HIST-POST-2021-QF-1",
+          "HIST-POST-2022-QF-1",
+          "HIST-POST-2023-QF-1",
+          "HIST-POST-2024-QF-1",
+          "HIST-POST-2025-QF-1"
+        ],
+        "fixture_winner_slots": [
+          {
+            "year": 2017,
+            "id": "HIST-POST-2017-QF-1",
+            "winner": 7
+          },
+          {
+            "year": 2018,
+            "id": "HIST-POST-2018-QF-1",
+            "winner": 8
+          },
+          {
+            "year": 2019,
+            "id": "HIST-POST-2019-QF-1",
+            "winner": 7
+          },
+          {
+            "year": 2020,
+            "id": "HIST-POST-2020-QF-1",
+            "winner": 2
+          },
+          {
+            "year": 2021,
+            "id": "HIST-POST-2021-QF-1",
+            "winner": 2
+          },
+          {
+            "year": 2022,
+            "id": "HIST-POST-2022-QF-1",
+            "winner": 9
+          },
+          {
+            "year": 2023,
+            "id": "HIST-POST-2023-QF-1",
+            "winner": 11
+          },
+          {
+            "year": 2024,
+            "id": "HIST-POST-2024-QF-1",
+            "winner": 9
+          },
+          {
+            "year": 2025,
+            "id": "HIST-POST-2025-QF-1",
+            "winner": 6
+          }
+        ],
+        "historic_proposal_trace_ids": [
+          "TRACE-HIST-POST-2017-QF-1",
+          "TRACE-HIST-POST-2018-QF-1",
+          "TRACE-HIST-POST-2019-QF-1",
+          "TRACE-HIST-POST-2020-QF-1",
+          "TRACE-HIST-POST-2021-QF-1",
+          "TRACE-HIST-POST-2022-QF-1",
+          "TRACE-HIST-POST-2023-QF-1",
+          "TRACE-HIST-POST-2024-QF-1",
+          "TRACE-HIST-POST-2025-QF-1"
+        ],
+        "physical_effects": [
+          {
+            "id": "TRACE-HIST-POST-2017-QF-1",
+            "mark": "abrasion at protected ladder",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2018-QF-1",
+            "mark": "replaced multi-sport marker",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2019-QF-1",
+            "mark": "cleared but preserved scuff in original competition surface",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2020-QF-1",
+            "mark": "replacement rope anchor plate",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2021-QF-1",
+            "mark": "scuff from original burden-station foundation",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2022-QF-1",
+            "mark": "scored stone ring",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2023-QF-1",
+            "mark": "backstop puncture sequence",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2024-QF-1",
+            "mark": "mixed apparatus foundation line",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2025-QF-1",
+            "mark": "recessed impact abrasion",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          }
+        ],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-VETERANS-YARD",
+      "name": "Veterans' Yard",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "western_fold",
+        "morphology": "smaller inland ancestral training square with worn terraces",
+        "infrastructure": [
+          "low walls",
+          "repairable gates",
+          "covered benches"
+        ],
+        "risks": [
+          "seasonal restoration"
+        ],
+        "alias": "HERITAGE-VETERANS-YARD",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "RETIRED_EXHIBITION_HERITAGE",
+        "functions": [
+          "HERITAGE_NON_BRACKET"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": null,
+        "proposed_years": [],
+        "fixture_ids": [],
+        "fixture_winner_slots": [],
+        "historic_proposal_trace_ids": [],
+        "physical_effects": [],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-SALTWIND",
+      "name": "Saltwind Steps",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "eastern_cliff",
+        "morphology": "elevated limestone steps on windward sea-facing cliff",
+        "infrastructure": [
+          "windward lookout",
+          "stepped spectator seats",
+          "weather instruments",
+          "safety traverse"
+        ],
+        "risks": [
+          "coastal crosswind",
+          "storm closures"
+        ],
+        "alias": "SALTWIND_STEPS",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "QUARTERFINAL_ONLY",
+        "functions": [
+          "QUARTERFINAL"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": 2017,
+        "proposed_years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "fixture_ids": [
+          "HIST-POST-2017-QF-2",
+          "HIST-POST-2018-QF-2",
+          "HIST-POST-2019-QF-2",
+          "HIST-POST-2020-QF-2",
+          "HIST-POST-2021-QF-2",
+          "HIST-POST-2022-QF-2",
+          "HIST-POST-2023-QF-2",
+          "HIST-POST-2024-QF-2",
+          "HIST-POST-2025-QF-2"
+        ],
+        "fixture_winner_slots": [
+          {
+            "year": 2017,
+            "id": "HIST-POST-2017-QF-2",
+            "winner": 9
+          },
+          {
+            "year": 2018,
+            "id": "HIST-POST-2018-QF-2",
+            "winner": 12
+          },
+          {
+            "year": 2019,
+            "id": "HIST-POST-2019-QF-2",
+            "winner": 3
+          },
+          {
+            "year": 2020,
+            "id": "HIST-POST-2020-QF-2",
+            "winner": 10
+          },
+          {
+            "year": 2021,
+            "id": "HIST-POST-2021-QF-2",
+            "winner": 4
+          },
+          {
+            "year": 2022,
+            "id": "HIST-POST-2022-QF-2",
+            "winner": 3
+          },
+          {
+            "year": 2023,
+            "id": "HIST-POST-2023-QF-2",
+            "winner": 12
+          },
+          {
+            "year": 2024,
+            "id": "HIST-POST-2024-QF-2",
+            "winner": 1
+          },
+          {
+            "year": 2025,
+            "id": "HIST-POST-2025-QF-2",
+            "winner": 8
+          }
+        ],
+        "historic_proposal_trace_ids": [
+          "TRACE-HIST-POST-2017-QF-2",
+          "TRACE-HIST-POST-2018-QF-2",
+          "TRACE-HIST-POST-2019-QF-2",
+          "TRACE-HIST-POST-2020-QF-2",
+          "TRACE-HIST-POST-2021-QF-2",
+          "TRACE-HIST-POST-2022-QF-2",
+          "TRACE-HIST-POST-2023-QF-2",
+          "TRACE-HIST-POST-2024-QF-2",
+          "TRACE-HIST-POST-2025-QF-2"
+        ],
+        "physical_effects": [
+          {
+            "id": "TRACE-HIST-POST-2017-QF-2",
+            "mark": "painted impact board retained in museum",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2018-QF-2",
+            "mark": "historic skid-stripe in retained turn pavement",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2019-QF-2",
+            "mark": "scored mechanical puzzle slot",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2020-QF-2",
+            "mark": "sealed watercourse erosion groove",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2021-QF-2",
+            "mark": "keyplate chisel mark",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2022-QF-2",
+            "mark": "replaced goal anchoring",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2023-QF-2",
+            "mark": "recessed impact abrasion",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2024-QF-2",
+            "mark": "documented crack in expendable test rig",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2025-QF-2",
+            "mark": "replaced multi-sport marker",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          }
+        ],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-BREAKWATER",
+      "name": "Breakwater Grounds",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "harbor",
+        "morphology": "tidal-controlled seawall court near protected harbor",
+        "infrastructure": [
+          "sea wall",
+          "elevated galleries",
+          "marked sheltered lanes",
+          "dry emergency route"
+        ],
+        "risks": [
+          "tidal access",
+          "storm surge"
+        ],
+        "alias": "BREAKWATER_GROUNDS",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "QUARTERFINAL_ONLY",
+        "functions": [
+          "QUARTERFINAL"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": 2021,
+        "proposed_years": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "fixture_ids": [
+          "HIST-POST-2021-QF-3",
+          "HIST-POST-2022-QF-3",
+          "HIST-POST-2023-QF-3",
+          "HIST-POST-2024-QF-3",
+          "HIST-POST-2025-QF-3"
+        ],
+        "fixture_winner_slots": [
+          {
+            "year": 2021,
+            "id": "HIST-POST-2021-QF-3",
+            "winner": 8
+          },
+          {
+            "year": 2022,
+            "id": "HIST-POST-2022-QF-3",
+            "winner": 10
+          },
+          {
+            "year": 2023,
+            "id": "HIST-POST-2023-QF-3",
+            "winner": 2
+          },
+          {
+            "year": 2024,
+            "id": "HIST-POST-2024-QF-3",
+            "winner": 2
+          },
+          {
+            "year": 2025,
+            "id": "HIST-POST-2025-QF-3",
+            "winner": 12
+          }
+        ],
+        "historic_proposal_trace_ids": [
+          "TRACE-HIST-POST-2021-QF-3",
+          "TRACE-HIST-POST-2022-QF-3",
+          "TRACE-HIST-POST-2023-QF-3",
+          "TRACE-HIST-POST-2024-QF-3",
+          "TRACE-HIST-POST-2025-QF-3"
+        ],
+        "physical_effects": [
+          {
+            "id": "TRACE-HIST-POST-2021-QF-3",
+            "mark": "replaced goal anchoring",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2022-QF-3",
+            "mark": "sealed strategic board move on underfloor archival panel",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2023-QF-3",
+            "mark": "replacement rope anchor plate",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2024-QF-3",
+            "mark": "sealed strategic board move on underfloor archival panel",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2025-QF-3",
+            "mark": "replacement rope anchor plate",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          }
+        ],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-CROWN-STAIR",
+      "name": "Crown Stair",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "central_upland",
+        "morphology": "monumental competition court with ceremonial ascending steps",
+        "infrastructure": [
+          "grandstands",
+          "separate competitor tunnel",
+          "herald chamber",
+          "public approach"
+        ],
+        "risks": [
+          "large-scale crowd access"
+        ],
+        "alias": "CROWN_STAIR",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "SEMIFINAL_ONLY",
+        "functions": [
+          "SEMIFINAL"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": 2015,
+        "proposed_years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "fixture_ids": [
+          "HIST-POST-2015-SF-1",
+          "HIST-POST-2016-SF-1",
+          "HIST-POST-2017-SF-1",
+          "HIST-POST-2018-SF-1",
+          "HIST-POST-2019-SF-1",
+          "HIST-POST-2020-SF-1",
+          "HIST-POST-2021-SF-1",
+          "HIST-POST-2022-SF-1",
+          "HIST-POST-2023-SF-1",
+          "HIST-POST-2024-SF-1",
+          "HIST-POST-2025-SF-1"
+        ],
+        "fixture_winner_slots": [
+          {
+            "year": 2015,
+            "id": "HIST-POST-2015-SF-1",
+            "winner": 12
+          },
+          {
+            "year": 2016,
+            "id": "HIST-POST-2016-SF-1",
+            "winner": 8
+          },
+          {
+            "year": 2017,
+            "id": "HIST-POST-2017-SF-1",
+            "winner": 7
+          },
+          {
+            "year": 2018,
+            "id": "HIST-POST-2018-SF-1",
+            "winner": 8
+          },
+          {
+            "year": 2019,
+            "id": "HIST-POST-2019-SF-1",
+            "winner": 5
+          },
+          {
+            "year": 2020,
+            "id": "HIST-POST-2020-SF-1",
+            "winner": 8
+          },
+          {
+            "year": 2021,
+            "id": "HIST-POST-2021-SF-1",
+            "winner": 5
+          },
+          {
+            "year": 2022,
+            "id": "HIST-POST-2022-SF-1",
+            "winner": 9
+          },
+          {
+            "year": 2023,
+            "id": "HIST-POST-2023-SF-1",
+            "winner": 11
+          },
+          {
+            "year": 2024,
+            "id": "HIST-POST-2024-SF-1",
+            "winner": 8
+          },
+          {
+            "year": 2025,
+            "id": "HIST-POST-2025-SF-1",
+            "winner": 1
+          }
+        ],
+        "historic_proposal_trace_ids": [
+          "TRACE-HIST-POST-2015-SF-1",
+          "TRACE-HIST-POST-2016-SF-1",
+          "TRACE-HIST-POST-2017-SF-1",
+          "TRACE-HIST-POST-2018-SF-1",
+          "TRACE-HIST-POST-2019-SF-1",
+          "TRACE-HIST-POST-2020-SF-1",
+          "TRACE-HIST-POST-2021-SF-1",
+          "TRACE-HIST-POST-2022-SF-1",
+          "TRACE-HIST-POST-2023-SF-1",
+          "TRACE-HIST-POST-2024-SF-1",
+          "TRACE-HIST-POST-2025-SF-1"
+        ],
+        "physical_effects": [
+          {
+            "id": "TRACE-HIST-POST-2015-SF-1",
+            "mark": "sealed track groove",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2016-SF-1",
+            "mark": "etched ceremony table surface",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2017-SF-1",
+            "mark": "controlled pyrotechnic soot",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2018-SF-1",
+            "mark": "documented crack in expendable test rig",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2019-SF-1",
+            "mark": "restored load-test slot",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2020-SF-1",
+            "mark": "sealed strategic board move on underfloor archival panel",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2021-SF-1",
+            "mark": "cleared but preserved scuff in original competition surface",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2022-SF-1",
+            "mark": "engineered support repair line",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2023-SF-1",
+            "mark": "repaired stone-lifting edge",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2024-SF-1",
+            "mark": "dismantled stage-breach segment",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2025-SF-1",
+            "mark": "painted impact board retained in museum",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          }
+        ],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-GROVE",
+      "name": "Grove of Standards",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "sheltered_grove",
+        "morphology": "forest-shaded tournament amphitheater with persistent markers",
+        "infrastructure": [
+          "protected natural stands",
+          "tree buffer",
+          "standard markers",
+          "crowd ring path"
+        ],
+        "risks": [
+          "tree damage",
+          "fire and storm safety"
+        ],
+        "alias": "GROVE_STANDARDS",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "SEMIFINAL_ONLY",
+        "functions": [
+          "SEMIFINAL"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": 2015,
+        "proposed_years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "fixture_ids": [
+          "HIST-POST-2015-SF-2",
+          "HIST-POST-2016-SF-2",
+          "HIST-POST-2017-SF-2",
+          "HIST-POST-2018-SF-2",
+          "HIST-POST-2019-SF-2",
+          "HIST-POST-2020-SF-2",
+          "HIST-POST-2021-SF-2",
+          "HIST-POST-2022-SF-2",
+          "HIST-POST-2023-SF-2",
+          "HIST-POST-2024-SF-2",
+          "HIST-POST-2025-SF-2"
+        ],
+        "fixture_winner_slots": [
+          {
+            "year": 2015,
+            "id": "HIST-POST-2015-SF-2",
+            "winner": 8
+          },
+          {
+            "year": 2016,
+            "id": "HIST-POST-2016-SF-2",
+            "winner": 7
+          },
+          {
+            "year": 2017,
+            "id": "HIST-POST-2017-SF-2",
+            "winner": 12
+          },
+          {
+            "year": 2018,
+            "id": "HIST-POST-2018-SF-2",
+            "winner": 12
+          },
+          {
+            "year": 2019,
+            "id": "HIST-POST-2019-SF-2",
+            "winner": 3
+          },
+          {
+            "year": 2020,
+            "id": "HIST-POST-2020-SF-2",
+            "winner": 10
+          },
+          {
+            "year": 2021,
+            "id": "HIST-POST-2021-SF-2",
+            "winner": 8
+          },
+          {
+            "year": 2022,
+            "id": "HIST-POST-2022-SF-2",
+            "winner": 10
+          },
+          {
+            "year": 2023,
+            "id": "HIST-POST-2023-SF-2",
+            "winner": 12
+          },
+          {
+            "year": 2024,
+            "id": "HIST-POST-2024-SF-2",
+            "winner": 1
+          },
+          {
+            "year": 2025,
+            "id": "HIST-POST-2025-SF-2",
+            "winner": 8
+          }
+        ],
+        "historic_proposal_trace_ids": [
+          "TRACE-HIST-POST-2015-SF-2",
+          "TRACE-HIST-POST-2016-SF-2",
+          "TRACE-HIST-POST-2017-SF-2",
+          "TRACE-HIST-POST-2018-SF-2",
+          "TRACE-HIST-POST-2019-SF-2",
+          "TRACE-HIST-POST-2020-SF-2",
+          "TRACE-HIST-POST-2021-SF-2",
+          "TRACE-HIST-POST-2022-SF-2",
+          "TRACE-HIST-POST-2023-SF-2",
+          "TRACE-HIST-POST-2024-SF-2",
+          "TRACE-HIST-POST-2025-SF-2"
+        ],
+        "physical_effects": [
+          {
+            "id": "TRACE-HIST-POST-2015-SF-2",
+            "mark": "dismantled stage-breach segment",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2016-SF-2",
+            "mark": "controlled pyrotechnic soot",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2017-SF-2",
+            "mark": "restored protective wall chipped during controlled contact",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2018-SF-2",
+            "mark": "mixed apparatus foundation line",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2019-SF-2",
+            "mark": "replacement rope anchor plate",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2020-SF-2",
+            "mark": "court boundary indentation",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2021-SF-2",
+            "mark": "replaced multi-sport marker",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2022-SF-2",
+            "mark": "restored load-test slot",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2023-SF-2",
+            "mark": "painted impact board retained in museum",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2024-SF-2",
+            "mark": "repaired stone-lifting edge",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          },
+          {
+            "id": "TRACE-HIST-POST-2025-SF-2",
+            "mark": "replaced multi-sport marker",
+            "repair": "SAFE_REPAIR_WITH_VISIBLE_MARK_OR_ARCHIVED_ORIGINAL_PART"
+          }
+        ],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-CAUSEWAY",
+      "name": "Causeway Trial",
+      "kind": "POSTSEASON_ARENA",
+      "status": "UNPROMOTED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "southern_tide",
+        "morphology": "raised shore-crossing stone route with tidal checkpoint spans",
+        "infrastructure": [
+          "raised spans",
+          "guarded endpoints",
+          "tidal shelters",
+          "rescue landing"
+        ],
+        "risks": [
+          "tides",
+          "evacuation",
+          "unverified historic competition before 2022"
+        ],
+        "alias": "HERITAGE-CAUSEWAY-TRIAL",
+        "measured_geometry": "NONE"
+      },
+      "layer2": {
+        "round": "HERITAGE_CAUSEWAY_NOT_BRACKET_MATCH",
+        "functions": [
+          "HERITAGE_NON_BRACKET"
+        ],
+        "civic_roles": "Contenders, custodians, referees, spectators, security and medics only as role permits",
+        "access": "Seasonal; public, contestant and rescue paths separated",
+        "technology": "Island-only modernization exception pending"
+      },
+      "layer3": {
+        "first_proposed_year": null,
+        "proposed_years": [],
+        "fixture_ids": [],
+        "fixture_winner_slots": [],
+        "historic_proposal_trace_ids": [],
+        "physical_effects": [],
+        "verified_venue_status": "NOT_VERIFIED_BY_ESPN",
+        "historical_owner_identity": "UNVERIFIED"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+        "planning/postseason/ISLAND_PERMANENT_IMPACT_LEDGER_2015_2025.proposal.json",
+        "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "MAINLAND_PUBLIC_LITTORAL",
+      "name": "Mainland public landing",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "mainland",
+        "connected_nodes": [
+          "CAUSEWAY_OUTER_GATE"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-001"
+        ],
+        "travel_modes": [
+          [
+            "public",
+            "service",
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "public",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAUSEWAY_OUTER_GATE",
+      "name": "Mainland causeway gatehouse",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "causeway",
+        "connected_nodes": [
+          "MAINLAND_PUBLIC_LITTORAL",
+          "CAUSEWAY_RIDGE"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-001",
+          "CAND-ISL-EDGE-002"
+        ],
+        "travel_modes": [
+          [
+            "public",
+            "service",
+            "emergency"
+          ],
+          [
+            "public",
+            "service",
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "security",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CAUSEWAY_RIDGE",
+      "name": "Monumental causeway spine",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "causeway",
+        "connected_nodes": [
+          "CAUSEWAY_OUTER_GATE",
+          "ISLAND_ENTRY_CHECK"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-002",
+          "CAND-ISL-EDGE-003"
+        ],
+        "travel_modes": [
+          [
+            "public",
+            "service",
+            "emergency"
+          ],
+          [
+            "public",
+            "service",
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "shared",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "ISLAND_ENTRY_CHECK",
+      "name": "Island entry screening and rescue interchange",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_north",
+        "connected_nodes": [
+          "CAUSEWAY_RIDGE",
+          "HARBOR_RELIEF",
+          "BROADCAST_HQ",
+          "TAILGATE_COMMONS",
+          "CONTENDER_FORTRESS"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-003",
+          "CAND-ISL-EDGE-004",
+          "CAND-ISL-EDGE-005",
+          "CAND-ISL-EDGE-006",
+          "CAND-ISL-EDGE-026"
+        ],
+        "travel_modes": [
+          [
+            "public",
+            "service",
+            "emergency"
+          ],
+          [
+            "service",
+            "emergency"
+          ],
+          [
+            "media",
+            "service"
+          ],
+          [
+            "public"
+          ],
+          [
+            "contender",
+            "security"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "security",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "HARBOR_RELIEF",
+      "name": "Emergency harbor and ferry dock",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_north",
+        "connected_nodes": [
+          "ISLAND_ENTRY_CHECK",
+          "EMERGENCY_PIER"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-004",
+          "CAND-ISL-EDGE-035"
+        ],
+        "travel_modes": [
+          [
+            "service",
+            "emergency"
+          ],
+          [
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "service",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "BROADCAST_HQ",
+      "name": "Broadcast control and commentary headquarters",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_north",
+        "connected_nodes": [
+          "ISLAND_ENTRY_CHECK",
+          "UTILITY_PLANT",
+          "LAST_FIELD",
+          "CROWN_STAIR",
+          "GROVE_STANDARDS",
+          "IRON_QUARRY",
+          "SALTWIND_STEPS",
+          "BREAKWATER_GROUNDS"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-005",
+          "CAND-ISL-EDGE-027",
+          "CAND-ISL-EDGE-036",
+          "CAND-ISL-EDGE-037",
+          "CAND-ISL-EDGE-038",
+          "CAND-ISL-EDGE-039",
+          "CAND-ISL-EDGE-040",
+          "CAND-ISL-EDGE-041"
+        ],
+        "travel_modes": [
+          [
+            "media",
+            "service"
+          ],
+          [
+            "service",
+            "media"
+          ],
+          [
+            "media"
+          ],
+          [
+            "media"
+          ],
+          [
+            "media"
+          ],
+          [
+            "media"
+          ],
+          [
+            "media"
+          ],
+          [
+            "media"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "media",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "TAILGATE_COMMONS",
+      "name": "Outer spectator tailgate grounds",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_west",
+        "connected_nodes": [
+          "ISLAND_ENTRY_CHECK",
+          "LOSERS_BEACH",
+          "IRON_QUARRY",
+          "SALTWIND_STEPS",
+          "BREAKWATER_GROUNDS",
+          "CROWN_STAIR",
+          "GROVE_STANDARDS",
+          "CHAMPIONS_WALK",
+          "EMERGENCY_PIER"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-006",
+          "CAND-ISL-EDGE-007",
+          "CAND-ISL-EDGE-009",
+          "CAND-ISL-EDGE-010",
+          "CAND-ISL-EDGE-011",
+          "CAND-ISL-EDGE-012",
+          "CAND-ISL-EDGE-013",
+          "CAND-ISL-EDGE-014",
+          "CAND-ISL-EDGE-044"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "spectator",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "LOSERS_BEACH",
+      "name": "Losers' Beach settlement",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_west",
+        "connected_nodes": [
+          "TAILGATE_COMMONS",
+          "BEACH_PAVILIONS",
+          "CONTENDER_FORTRESS",
+          "EMERGENCY_PIER"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-007",
+          "CAND-ISL-EDGE-008",
+          "CAND-ISL-EDGE-042",
+          "CAND-ISL-EDGE-043"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "public",
+            "emergency"
+          ],
+          [
+            "post_elimination",
+            "security"
+          ],
+          [
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "seasonal_lodging",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Nonqualifiers/eliminated competitors gather in temporary beach lodgings; not sovereign and not a contest venue"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [
+          {
+            "year": 2015,
+            "opening_nonqualifier_count": 8,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              2,
+              5,
+              8,
+              12
+            ]
+          },
+          {
+            "year": 2016,
+            "opening_nonqualifier_count": 8,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              1,
+              7,
+              8,
+              12
+            ]
+          },
+          {
+            "year": 2017,
+            "opening_nonqualifier_count": 6,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              2,
+              6,
+              7,
+              9,
+              11,
+              12
+            ]
+          },
+          {
+            "year": 2018,
+            "opening_nonqualifier_count": 6,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              4,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          {
+            "year": 2019,
+            "opening_nonqualifier_count": 6,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              3,
+              4,
+              5,
+              7,
+              11,
+              12
+            ]
+          },
+          {
+            "year": 2020,
+            "opening_nonqualifier_count": 6,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              1,
+              2,
+              8,
+              9,
+              10,
+              12
+            ]
+          },
+          {
+            "year": 2021,
+            "opening_nonqualifier_count": 5,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              1,
+              2,
+              4,
+              5,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "year": 2022,
+            "opening_nonqualifier_count": 5,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              1,
+              2,
+              3,
+              8,
+              9,
+              10,
+              12
+            ]
+          },
+          {
+            "year": 2023,
+            "opening_nonqualifier_count": 5,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              2,
+              4,
+              5,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          {
+            "year": 2024,
+            "opening_nonqualifier_count": 5,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              1,
+              2,
+              3,
+              4,
+              8,
+              9,
+              12
+            ]
+          },
+          {
+            "year": 2025,
+            "opening_nonqualifier_count": 5,
+            "postfinal_nonchampion_count": 11,
+            "qualifier_slot_ids": [
+              1,
+              5,
+              6,
+              7,
+              8,
+              11,
+              12
+            ]
+          }
+        ],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "BEACH_PAVILIONS",
+      "name": "Veteran beach pavilions and tavern streets",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_west",
+        "connected_nodes": [
+          "LOSERS_BEACH"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-008"
+        ],
+        "travel_modes": [
+          [
+            "public",
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "seasonal_lodging",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "IRON_QUARRY",
+      "name": "Iron Quarry QF stadium",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_west",
+        "connected_nodes": [
+          "TAILGATE_COMMONS",
+          "CONTENDER_FORTRESS",
+          "UTILITY_PLANT",
+          "BROADCAST_HQ"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-009",
+          "CAND-ISL-EDGE-020",
+          "CAND-ISL-EDGE-029",
+          "CAND-ISL-EDGE-039"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "service"
+          ],
+          [
+            "media"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "quarterfinal",
+        "arena_candidate_id": "CAND-POST-IRON-QUARRY",
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [
+          "HIST-POST-2017-QF-1",
+          "HIST-POST-2018-QF-1",
+          "HIST-POST-2019-QF-1",
+          "HIST-POST-2020-QF-1",
+          "HIST-POST-2021-QF-1",
+          "HIST-POST-2022-QF-1",
+          "HIST-POST-2023-QF-1",
+          "HIST-POST-2024-QF-1",
+          "HIST-POST-2025-QF-1"
+        ],
+        "proposed_traces": [
+          "TRACE-HIST-POST-2017-QF-1",
+          "TRACE-HIST-POST-2018-QF-1",
+          "TRACE-HIST-POST-2019-QF-1",
+          "TRACE-HIST-POST-2020-QF-1",
+          "TRACE-HIST-POST-2021-QF-1",
+          "TRACE-HIST-POST-2022-QF-1",
+          "TRACE-HIST-POST-2023-QF-1",
+          "TRACE-HIST-POST-2024-QF-1",
+          "TRACE-HIST-POST-2025-QF-1"
+        ],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "SALTWIND_STEPS",
+      "name": "Saltwind Steps QF stadium",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_east",
+        "connected_nodes": [
+          "TAILGATE_COMMONS",
+          "CONTENDER_FORTRESS",
+          "UTILITY_PLANT",
+          "BROADCAST_HQ"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-010",
+          "CAND-ISL-EDGE-021",
+          "CAND-ISL-EDGE-030",
+          "CAND-ISL-EDGE-040"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "service"
+          ],
+          [
+            "media"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "quarterfinal",
+        "arena_candidate_id": "CAND-POST-SALTWIND",
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [
+          "HIST-POST-2017-QF-2",
+          "HIST-POST-2018-QF-2",
+          "HIST-POST-2019-QF-2",
+          "HIST-POST-2020-QF-2",
+          "HIST-POST-2021-QF-2",
+          "HIST-POST-2022-QF-2",
+          "HIST-POST-2023-QF-2",
+          "HIST-POST-2024-QF-2",
+          "HIST-POST-2025-QF-2"
+        ],
+        "proposed_traces": [
+          "TRACE-HIST-POST-2017-QF-2",
+          "TRACE-HIST-POST-2018-QF-2",
+          "TRACE-HIST-POST-2019-QF-2",
+          "TRACE-HIST-POST-2020-QF-2",
+          "TRACE-HIST-POST-2021-QF-2",
+          "TRACE-HIST-POST-2022-QF-2",
+          "TRACE-HIST-POST-2023-QF-2",
+          "TRACE-HIST-POST-2024-QF-2",
+          "TRACE-HIST-POST-2025-QF-2"
+        ],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "BREAKWATER_GROUNDS",
+      "name": "Breakwater Grounds QF stadium",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_south",
+        "connected_nodes": [
+          "TAILGATE_COMMONS",
+          "CONTENDER_FORTRESS",
+          "UTILITY_PLANT",
+          "BROADCAST_HQ"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-011",
+          "CAND-ISL-EDGE-022",
+          "CAND-ISL-EDGE-031",
+          "CAND-ISL-EDGE-041"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "service"
+          ],
+          [
+            "media"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "quarterfinal",
+        "arena_candidate_id": "CAND-POST-BREAKWATER",
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [
+          "HIST-POST-2021-QF-3",
+          "HIST-POST-2022-QF-3",
+          "HIST-POST-2023-QF-3",
+          "HIST-POST-2024-QF-3",
+          "HIST-POST-2025-QF-3"
+        ],
+        "proposed_traces": [
+          "TRACE-HIST-POST-2021-QF-3",
+          "TRACE-HIST-POST-2022-QF-3",
+          "TRACE-HIST-POST-2023-QF-3",
+          "TRACE-HIST-POST-2024-QF-3",
+          "TRACE-HIST-POST-2025-QF-3"
+        ],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CONTENDER_FORTRESS",
+      "name": "Fortress contenders' residence",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_central",
+        "connected_nodes": [
+          "BYE_HOUSE",
+          "IRON_QUARRY",
+          "SALTWIND_STEPS",
+          "BREAKWATER_GROUNDS",
+          "CROWN_STAIR",
+          "GROVE_STANDARDS",
+          "LAST_FIELD",
+          "ISLAND_ENTRY_CHECK",
+          "LOSERS_BEACH"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-019",
+          "CAND-ISL-EDGE-020",
+          "CAND-ISL-EDGE-021",
+          "CAND-ISL-EDGE-022",
+          "CAND-ISL-EDGE-023",
+          "CAND-ISL-EDGE-024",
+          "CAND-ISL-EDGE-025",
+          "CAND-ISL-EDGE-026",
+          "CAND-ISL-EDGE-042"
+        ],
+        "travel_modes": [
+          [
+            "contender"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "contender",
+            "security"
+          ],
+          [
+            "post_elimination",
+            "security"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "contestant",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "BYE_HOUSE",
+      "name": "Protected bye residence",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_central",
+        "connected_nodes": [
+          "CONTENDER_FORTRESS"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-019"
+        ],
+        "travel_modes": [
+          [
+            "contender"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "contestant",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CROWN_STAIR",
+      "name": "Crown Stair semifinal stadium",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_north",
+        "connected_nodes": [
+          "TAILGATE_COMMONS",
+          "CONTENDER_FORTRESS",
+          "UTILITY_PLANT",
+          "BROADCAST_HQ"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-012",
+          "CAND-ISL-EDGE-023",
+          "CAND-ISL-EDGE-032",
+          "CAND-ISL-EDGE-037"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "service"
+          ],
+          [
+            "media"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "semifinal",
+        "arena_candidate_id": "CAND-POST-CROWN-STAIR",
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [
+          "HIST-POST-2015-SF-1",
+          "HIST-POST-2016-SF-1",
+          "HIST-POST-2017-SF-1",
+          "HIST-POST-2018-SF-1",
+          "HIST-POST-2019-SF-1",
+          "HIST-POST-2020-SF-1",
+          "HIST-POST-2021-SF-1",
+          "HIST-POST-2022-SF-1",
+          "HIST-POST-2023-SF-1",
+          "HIST-POST-2024-SF-1",
+          "HIST-POST-2025-SF-1"
+        ],
+        "proposed_traces": [
+          "TRACE-HIST-POST-2015-SF-1",
+          "TRACE-HIST-POST-2016-SF-1",
+          "TRACE-HIST-POST-2017-SF-1",
+          "TRACE-HIST-POST-2018-SF-1",
+          "TRACE-HIST-POST-2019-SF-1",
+          "TRACE-HIST-POST-2020-SF-1",
+          "TRACE-HIST-POST-2021-SF-1",
+          "TRACE-HIST-POST-2022-SF-1",
+          "TRACE-HIST-POST-2023-SF-1",
+          "TRACE-HIST-POST-2024-SF-1",
+          "TRACE-HIST-POST-2025-SF-1"
+        ],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "GROVE_STANDARDS",
+      "name": "Grove of Standards semifinal stadium",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_central",
+        "connected_nodes": [
+          "TAILGATE_COMMONS",
+          "CONTENDER_FORTRESS",
+          "UTILITY_PLANT",
+          "BROADCAST_HQ"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-013",
+          "CAND-ISL-EDGE-024",
+          "CAND-ISL-EDGE-033",
+          "CAND-ISL-EDGE-038"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "service"
+          ],
+          [
+            "media"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "semifinal",
+        "arena_candidate_id": "CAND-POST-GROVE",
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [
+          "HIST-POST-2015-SF-2",
+          "HIST-POST-2016-SF-2",
+          "HIST-POST-2017-SF-2",
+          "HIST-POST-2018-SF-2",
+          "HIST-POST-2019-SF-2",
+          "HIST-POST-2020-SF-2",
+          "HIST-POST-2021-SF-2",
+          "HIST-POST-2022-SF-2",
+          "HIST-POST-2023-SF-2",
+          "HIST-POST-2024-SF-2",
+          "HIST-POST-2025-SF-2"
+        ],
+        "proposed_traces": [
+          "TRACE-HIST-POST-2015-SF-2",
+          "TRACE-HIST-POST-2016-SF-2",
+          "TRACE-HIST-POST-2017-SF-2",
+          "TRACE-HIST-POST-2018-SF-2",
+          "TRACE-HIST-POST-2019-SF-2",
+          "TRACE-HIST-POST-2020-SF-2",
+          "TRACE-HIST-POST-2021-SF-2",
+          "TRACE-HIST-POST-2022-SF-2",
+          "TRACE-HIST-POST-2023-SF-2",
+          "TRACE-HIST-POST-2024-SF-2",
+          "TRACE-HIST-POST-2025-SF-2"
+        ],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "CHAMPIONS_WALK",
+      "name": "Champions' Walk memorial axis",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_central",
+        "connected_nodes": [
+          "TAILGATE_COMMONS",
+          "MUSEUM_TROPHY_HALL",
+          "LAST_FIELD"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-014",
+          "CAND-ISL-EDGE-015",
+          "CAND-ISL-EDGE-017"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "public"
+          ],
+          [
+            "public"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "public_history",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "FARRELL_SANCTUARY",
+      "name": "Protected Michael Farrell memorial precinct",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_central",
+        "connected_nodes": [
+          "MUSEUM_TROPHY_HALL"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-016"
+        ],
+        "travel_modes": [
+          [
+            "memorial_public"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "memorial",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Memorial history protected; no invented biography"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "MUSEUM_TROPHY_HALL",
+      "name": "Championship museum and trophy gallery",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_central",
+        "connected_nodes": [
+          "CHAMPIONS_WALK",
+          "FARRELL_SANCTUARY"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-015",
+          "CAND-ISL-EDGE-016"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "memorial_public"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "public_history",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "LAST_FIELD",
+      "name": "Last Field championship stadium",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_upland",
+        "connected_nodes": [
+          "CHAMPIONS_WALK",
+          "LAST_FIELD_SUITES",
+          "CONTENDER_FORTRESS",
+          "UTILITY_PLANT",
+          "BROADCAST_HQ",
+          "EMERGENCY_PIER"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-017",
+          "CAND-ISL-EDGE-018",
+          "CAND-ISL-EDGE-025",
+          "CAND-ISL-EDGE-028",
+          "CAND-ISL-EDGE-036",
+          "CAND-ISL-EDGE-045"
+        ],
+        "travel_modes": [
+          [
+            "public"
+          ],
+          [
+            "private_guest",
+            "media"
+          ],
+          [
+            "contender"
+          ],
+          [
+            "service"
+          ],
+          [
+            "media"
+          ],
+          [
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "final",
+        "arena_candidate_id": "CAND-POST-LAST-FIELD",
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [
+          "HIST-POST-2015-FINAL-1",
+          "HIST-POST-2016-FINAL-1",
+          "HIST-POST-2017-FINAL-1",
+          "HIST-POST-2018-FINAL-1",
+          "HIST-POST-2019-FINAL-1",
+          "HIST-POST-2020-FINAL-1",
+          "HIST-POST-2021-FINAL-1",
+          "HIST-POST-2022-FINAL-1",
+          "HIST-POST-2023-FINAL-1",
+          "HIST-POST-2024-FINAL-1",
+          "HIST-POST-2025-FINAL-1"
+        ],
+        "proposed_traces": [
+          "TRACE-HIST-POST-2015-FINAL-1",
+          "TRACE-HIST-POST-2016-FINAL-1",
+          "TRACE-HIST-POST-2017-FINAL-1",
+          "TRACE-HIST-POST-2018-FINAL-1",
+          "TRACE-HIST-POST-2019-FINAL-1",
+          "TRACE-HIST-POST-2020-FINAL-1",
+          "TRACE-HIST-POST-2021-FINAL-1",
+          "TRACE-HIST-POST-2022-FINAL-1",
+          "TRACE-HIST-POST-2023-FINAL-1",
+          "TRACE-HIST-POST-2024-FINAL-1",
+          "TRACE-HIST-POST-2025-FINAL-1"
+        ],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "LAST_FIELD_SUITES",
+      "name": "Championship private suites and press balconies",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_upland",
+        "connected_nodes": [
+          "LAST_FIELD"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-018"
+        ],
+        "travel_modes": [
+          [
+            "private_guest",
+            "media"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "hospitality",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "UTILITY_PLANT",
+      "name": "Water, energy, waste, maintenance and standby generation",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_south",
+        "connected_nodes": [
+          "BROADCAST_HQ",
+          "LAST_FIELD",
+          "IRON_QUARRY",
+          "SALTWIND_STEPS",
+          "BREAKWATER_GROUNDS",
+          "CROWN_STAIR",
+          "GROVE_STANDARDS",
+          "EMERGENCY_PIER"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-027",
+          "CAND-ISL-EDGE-028",
+          "CAND-ISL-EDGE-029",
+          "CAND-ISL-EDGE-030",
+          "CAND-ISL-EDGE-031",
+          "CAND-ISL-EDGE-032",
+          "CAND-ISL-EDGE-033",
+          "CAND-ISL-EDGE-034"
+        ],
+        "travel_modes": [
+          [
+            "service",
+            "media"
+          ],
+          [
+            "service"
+          ],
+          [
+            "service"
+          ],
+          [
+            "service"
+          ],
+          [
+            "service"
+          ],
+          [
+            "service"
+          ],
+          [
+            "service"
+          ],
+          [
+            "service",
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "service",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "EMERGENCY_PIER",
+      "name": "South coast emergency evacuation pier",
+      "kind": "ISLAND_TOPOLOGY_NODE",
+      "status": "PROPOSED_ONLY",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "zone": "island_south",
+        "connected_nodes": [
+          "UTILITY_PLANT",
+          "HARBOR_RELIEF",
+          "LOSERS_BEACH",
+          "TAILGATE_COMMONS",
+          "LAST_FIELD"
+        ],
+        "edge_ids": [
+          "CAND-ISL-EDGE-034",
+          "CAND-ISL-EDGE-035",
+          "CAND-ISL-EDGE-043",
+          "CAND-ISL-EDGE-044",
+          "CAND-ISL-EDGE-045"
+        ],
+        "travel_modes": [
+          [
+            "service",
+            "emergency"
+          ],
+          [
+            "emergency"
+          ],
+          [
+            "emergency"
+          ],
+          [
+            "emergency"
+          ],
+          [
+            "emergency"
+          ]
+        ],
+        "metric_geometry": "NOT_VERIFIED"
+      },
+      "layer2": {
+        "function": "service",
+        "arena_candidate_id": null,
+        "access": "Use only source permitted edge-modes; seasonal island not free-travel country",
+        "special_civil_rule": "Normal seasonal operations and protected role access"
+      },
+      "layer3": {
+        "source_fixture_ids": [],
+        "proposed_traces": [],
+        "historical_beach_years": [],
+        "history_status": "FICTIONAL_SITE_DESIGN; VERIFIED_ESPN_TEAM_SLOTS_ONLY",
+        "owner_specific_historical_tenure": "UNVERIFIED",
+        "year2026": "RESULTS_UNSET"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+        "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-OLD-RING",
+      "name": "The Old Ring",
+      "kind": "DORMANT_HERITAGE",
+      "status": "STAFF_CLOSED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "lower weathered stone circle",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "DORMANT_OLDER_ARENA",
+        "building_function": "An obsolete ring and benches, preserved as a visible memory of an earlier manner of trial; no verified League playoff is assigned here under Founder round law.",
+        "access_controls": "STAFF_CLOSED",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-VETERANS-YARD",
+      "name": "Veterans' Yard",
+      "kind": "DORMANT_HERITAGE",
+      "status": "STAFF_CLOSED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "small enclosed practice courtyard",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "RETIRED_TRAINING_GROUND",
+        "building_function": "Cracked old practice markers and an overgrown spectator bank are preserved instead of polished into a new final venue.",
+        "access_controls": "STAFF_CLOSED",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-CAUSEWAY-TRIAL",
+      "name": "Abandoned Tide Causeway Trial",
+      "kind": "DORMANT_HERITAGE",
+      "status": "BARRIER_LOCKED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "isolated old tidal piers",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "DORMANT_OBSTACLE_STRUCTURE",
+        "building_function": "An unsafe training route lies beside—not replacing—the monumental current causeway; it is a background ruin, not a public passage.",
+        "access_controls": "BARRIER_LOCKED",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-POWDER-BERM",
+      "name": "The Powder Berm",
+      "kind": "DORMANT_HERITAGE",
+      "status": "PERMIT_REQUIRED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "scraped rock berm behind a closed tactical yard",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "BLAST_EFFORT_HISTORY",
+        "building_function": "Darkened gravel, blast panels and dismantled smoke-effect frames suggest staged explosive spectacles. No precise historic detonation is asserted without approved state event.",
+        "access_controls": "PERMIT_REQUIRED",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-FLOODED-MAZE",
+      "name": "The Sunken Course",
+      "kind": "DORMANT_HERITAGE",
+      "status": "ACCESS_PROHIBITED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "flooded masonry labyrinth on low island edge",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "WATER_COURSE_REMNANT",
+        "building_function": "A retired challenge maze with standing brackish water and plants reclaiming its former lanes; no contestant casually enters it.",
+        "access_controls": "ACCESS_PROHIBITED",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-FALLEN-GALLERY",
+      "name": "The Fallen Gallery",
+      "kind": "DORMANT_HERITAGE",
+      "status": "MASONRY_SURVEY_HOLD",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "rock ledge with collapsed roof timbers",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "SPECTATOR_RUIN",
+        "building_function": "An old viewing structure awaiting survey and preservation, with all ticket routes diverted around it.",
+        "access_controls": "MASONRY_SURVEY_HOLD",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-RUSTED-OVAL",
+      "name": "Rusted Oval",
+      "kind": "DORMANT_HERITAGE",
+      "status": "CLOSED_TEST_RING",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "gravel racing circuit beyond current arena fence",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "RETIRED_RACE_TRACK",
+        "building_function": "Rust-stained barriers and stripped-out engines recall a changing taste for wheeled speed without pretending dirt bikes existed in 2015.",
+        "access_controls": "CLOSED_TEST_RING",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-ARCHERY-CRESCENT",
+      "name": "The Silent Crescent",
+      "kind": "DORMANT_HERITAGE",
+      "status": "RANGE_CLOSED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "shuttered stone arrow range",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "RETIRED_TARGET_RANGE",
+        "building_function": "Broken-but-locked target mounts sit behind a collapsed protective retaining wall, not freely accessible among spectators.",
+        "access_controls": "RANGE_CLOSED",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "HERITAGE-PAINTBALL-FORT",
+      "name": "The Empty Fort",
+      "kind": "DORMANT_HERITAGE",
+      "status": "CLOSED_UNTIL_REFURBISHED",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "terrain": "weathered mock-fort walls behind an inspection fence",
+        "access": "not safely reopened; route survey required"
+      },
+      "layer2": {
+        "use": "RETIRED_TACTICAL_SET",
+        "building_function": "A defunct nonlethal war-game set retains splattered panels and abandoned ramparts. Its date and original use remain fictional candidates.",
+        "access_controls": "CLOSED_UNTIL_REFURBISHED",
+        "round_eligibility": "NONE_UNDER_FOUNDER_V2"
+      },
+      "layer3": {
+        "actual_espn_events": "NONE_SITE_AUTHENTICATED",
+        "proposed_traces": [],
+        "repair_state": "Must remain maintained or fenced",
+        "owner_lineage": "UNKNOWN"
+      },
+      "sources": [
+        "planning/postseason/ISLAND_MATERIAL_MEMORY_2015_2025_V1.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+      "name": "Neutral Littoral Causeway Gate",
+      "kind": "NEUTRAL_SITING_HYPOTHESIS",
+      "status": "NOT_LOC",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "abstract_layout": [
+          68.5,
+          13.5
+        ],
+        "actual_scale": "UNKNOWN",
+        "design_detail": {
+          "id": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+          "name": "Neutral Littoral Causeway Gate",
+          "abstract_position": [
+            68.5,
+            13.5
+          ],
+          "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+          "owner_character_id": null,
+          "division_id": null,
+          "type": "seasonal_public_approach",
+          "status": "CANDIDATE_NOT_LOC",
+          "important": "No ownership or security command delegated to nearby LLC Storm City"
+        }
+      },
+      "layer2": {
+        "role": "public_mainland_gate",
+        "governance": "neutral League route not LLC property",
+        "visitor_season": "postseason only"
+      },
+      "layer3": {
+        "year2015_history": "Unverified material construction history",
+        "year2026_result": "NOT_LOCKED",
+        "world_state": "UNPROMOTED"
+      },
+      "sources": [
+        "planning/postseason/ATLAS_NEUTRAL_CAUSEWAY_SITING_HYPOTHESIS_V1.proposal.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-MONUMENTAL-CAUSEWAY",
+      "name": "Championship Causeway",
+      "kind": "NEUTRAL_SITING_HYPOTHESIS",
+      "status": "NOT_LOC",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "abstract_layout": [
+          [
+            68.5,
+            13.5
+          ],
+          [
+            69.5,
+            12.7
+          ],
+          [
+            70.6,
+            12
+          ],
+          [
+            71.8,
+            11.5
+          ]
+        ],
+        "actual_scale": "UNKNOWN",
+        "design_detail": {
+          "id": "CAND-POST-MONUMENTAL-CAUSEWAY",
+          "name": "Championship Causeway",
+          "abstract_path": [
+            [
+              68.5,
+              13.5
+            ],
+            [
+              69.5,
+              12.7
+            ],
+            [
+              70.6,
+              12
+            ],
+            [
+              71.8,
+              11.5
+            ]
+          ],
+          "water_crossing": "HYPOTHESIZED_SHALLOW_SHELTERED_BAY_NO_BATHYMETRIC_PROOF",
+          "structural_loads": null,
+          "actual_length_m": null,
+          "engineering": "STORM_SURGE_AND_FOUNDATION_SURVEY_REQUIRED"
+        }
+      },
+      "layer2": {
+        "role": "causeway_crossing",
+        "governance": "neutral League route not LLC property",
+        "visitor_season": "postseason only"
+      },
+      "layer3": {
+        "year2015_history": "Unverified material construction history",
+        "year2026_result": "NOT_LOCKED",
+        "world_state": "UNPROMOTED"
+      },
+      "sources": [
+        "planning/postseason/ATLAS_NEUTRAL_CAUSEWAY_SITING_HYPOTHESIS_V1.proposal.json"
+      ]
+    },
+    {
+      "id": "CAND-POST-CHAMPIONSHIP-ISLAND",
+      "name": "Championship Island",
+      "kind": "NEUTRAL_SITING_HYPOTHESIS",
+      "status": "NOT_LOC",
+      "editorial_discoverable": true,
+      "layer1": {
+        "region": "REG-INNER-SEA-LITTORAL",
+        "abstract_layout": [
+          73.8,
+          10.5
+        ],
+        "actual_scale": "UNKNOWN",
+        "design_detail": {
+          "id": "CAND-POST-CHAMPIONSHIP-ISLAND",
+          "name": "Championship Island",
+          "abstract_position": [
+            73.8,
+            10.5
+          ],
+          "zone_id": "REG-INNER-SEA-LITTORAL",
+          "private_owner_id": null,
+          "government": "LEAGUE_NEUTRAL_EVENTS_AUTHORITY_CANDIDATE",
+          "arena_orientations": "SIX_FIXED_ROUND_VENUES_IN_SITE_NETWORK__ROTATION_AND_TRUE_NORTH_UNVERIFIED"
+        }
+      },
+      "layer2": {
+        "role": "island_centre",
+        "governance": "neutral League route not LLC property",
+        "visitor_season": "postseason only"
+      },
+      "layer3": {
+        "year2015_history": "Unverified material construction history",
+        "year2026_result": "NOT_LOCKED",
+        "world_state": "UNPROMOTED"
+      },
+      "sources": [
+        "planning/postseason/ATLAS_NEUTRAL_CAUSEWAY_SITING_HYPOTHESIS_V1.proposal.json"
+      ]
+    }
+  ],
+  "scope": "Editorial inspection only; no live location/route, 2026 results or protected memorial dates mutated"
+}
