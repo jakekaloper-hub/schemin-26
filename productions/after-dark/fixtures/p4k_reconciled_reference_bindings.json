@@ -1,0 +1,157 @@
+{
+  "schema": "after-dark.p4i.v1",
+  "status": "NONCANON_PREPRODUCTION",
+  "reference_results": {
+    "babb_primary": {
+      "expected": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+      "observed": null,
+      "verified": false
+    },
+    "babb_supplementary": {
+      "expected": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+      "observed": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+      "verified": true,
+      "may_supersede_primary": false
+    },
+    "host": {
+      "identity_lock": "PENDING_REVIEW",
+      "source": "P4A candidate brief"
+    },
+    "manager": {
+      "identity_lock": "PENDING_REVIEW",
+      "source": "P4A candidate brief"
+    }
+  },
+  "studio": {
+    "candidate_id": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+    "region": "REG-CENTRAL-BASIN",
+    "exact_site": "UNKNOWN",
+    "horizon": "UNKNOWN",
+    "arrival_connector": "UNKNOWN",
+    "status": "FUTURE_UNLOCK_CANDIDATE"
+  },
+  "proposed_guest_movement": {
+    "origin": "UNKNOWN",
+    "destination": "CAND-AFTER-DARK-BROADCAST-HOUSE",
+    "arrival_timing": "UNKNOWN",
+    "approved_route": false,
+    "exit_destination": "UNKNOWN",
+    "canon_promotion": false
+  },
+  "pages": [
+    {
+      "page": 1,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "script_line_matches": 3,
+      "babb_on_stage": false,
+      "babb_reference": "NOT_SHOWN",
+      "host_reference": "CANDIDATE_NOT_LOCKED",
+      "manager_reference": "CANDIDATE_NOT_LOCKED",
+      "studio_reference": "CANDIDATE_NO_HORIZON",
+      "final_render_authorized": false
+    },
+    {
+      "page": 2,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "script_line_matches": 5,
+      "babb_on_stage": true,
+      "babb_reference": "PRIMARY_REQUIRED",
+      "host_reference": "CANDIDATE_NOT_LOCKED",
+      "manager_reference": "CANDIDATE_NOT_LOCKED",
+      "studio_reference": "CANDIDATE_NO_HORIZON",
+      "final_render_authorized": false,
+      "alternate_reference_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "alternate_reference_authority": "HASH_VERIFIED_NOT_ACTIVE_PRIMARY"
+    },
+    {
+      "page": 3,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "script_line_matches": 6,
+      "babb_on_stage": true,
+      "babb_reference": "PRIMARY_REQUIRED",
+      "host_reference": "CANDIDATE_NOT_LOCKED",
+      "manager_reference": "CANDIDATE_NOT_LOCKED",
+      "studio_reference": "CANDIDATE_NO_HORIZON",
+      "final_render_authorized": false,
+      "alternate_reference_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "alternate_reference_authority": "HASH_VERIFIED_NOT_ACTIVE_PRIMARY"
+    },
+    {
+      "page": 4,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "script_line_matches": 4,
+      "babb_on_stage": true,
+      "babb_reference": "PRIMARY_REQUIRED",
+      "host_reference": "CANDIDATE_NOT_LOCKED",
+      "manager_reference": "CANDIDATE_NOT_LOCKED",
+      "studio_reference": "CANDIDATE_NO_HORIZON",
+      "final_render_authorized": false,
+      "alternate_reference_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "alternate_reference_authority": "HASH_VERIFIED_NOT_ACTIVE_PRIMARY"
+    },
+    {
+      "page": 5,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "script_line_matches": 5,
+      "babb_on_stage": true,
+      "babb_reference": "PRIMARY_REQUIRED",
+      "host_reference": "CANDIDATE_NOT_LOCKED",
+      "manager_reference": "CANDIDATE_NOT_LOCKED",
+      "studio_reference": "CANDIDATE_NO_HORIZON",
+      "final_render_authorized": false,
+      "alternate_reference_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "alternate_reference_authority": "HASH_VERIFIED_NOT_ACTIVE_PRIMARY"
+    },
+    {
+      "page": 6,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "script_line_matches": 6,
+      "babb_on_stage": true,
+      "babb_reference": "PRIMARY_REQUIRED",
+      "host_reference": "CANDIDATE_NOT_LOCKED",
+      "manager_reference": "CANDIDATE_NOT_LOCKED",
+      "studio_reference": "CANDIDATE_NO_HORIZON",
+      "final_render_authorized": false,
+      "alternate_reference_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+      "alternate_reference_authority": "HASH_VERIFIED_NOT_ACTIVE_PRIMARY"
+    }
+  ],
+  "gates": {
+    "script_copy": "PASS_29_OF_29",
+    "primary_babb": "BLOCKED_MISSING_OR_HASH_MISMATCH",
+    "supplementary_crop": "PASS_NONPRIMARY",
+    "host": "BLOCKED",
+    "manager": "BLOCKED",
+    "arrival_exit": "BLOCKED",
+    "studio": "BLOCKED",
+    "final_cinematic_generation": "BLOCKED",
+    "alternate_babb_asset": "PASS_EXACT_REPOSITORY_BYTES",
+    "canonical_primary_supersession": "HOLD"
+  },
+  "verified_alternate_babb_reference": {
+    "path": "canon/characters/assets/CHAR-DAVID-BABB/primary/COMMISSIONER_2026-10-12.png",
+    "sha256": "33e70a9208b47692d9d883707236a2b3a670629e0cb3b3f84c61eacff20fea37",
+    "repository_bytes_verified": true,
+    "source": "memo-os/week-5/production-evidence/WEEK_5_CHARACTER_SOURCE_ASSET_RECEIPTS_2026-10-13.json",
+    "identity_use": "CONTROLLED_VISUAL_CANDIDATE",
+    "active_primary_supersession": false
+  }
+}
