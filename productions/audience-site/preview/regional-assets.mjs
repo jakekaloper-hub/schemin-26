@@ -620,6 +620,37 @@ export function buildRegionalAssets(THREE, bindings, height) {
       navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+
+  function templeEntranceDoor(g){
+    // Existing entrance object only. Four shallow illustrated panels are not
+    // evidence of historic joinery, a new entrance or an Atlas route.
+    const w=1.25,h=2.3,d=.15;
+    const geo=new THREE.BoxGeometry(w,h,d,40,48,1);
+    geo.name='Candidate Temple inward-carved entrance door geometry';
+    const p=geo.getAttribute('position');
+    for(let i=0;i<p.count;i++){
+      const x=p.getX(i),y=p.getY(i),z=p.getZ(i);
+      if(Math.abs(z-d/2)>1e-6||Math.abs(x)>=w/2-1e-6||Math.abs(y)>=h/2-1e-6)
+        continue; // back, sides, cap, corners and original perimeter stay untouched
+      let inset=0;
+      for(const cx of [-.28,.28])for(const cy of [-.54,.54]){
+        const inside=Math.min(.205-Math.abs(x-cx),.38-Math.abs(y-cy));
+        if(inside<=0)continue;
+        const t=Math.min(1,inside/.045);
+        const eased=t*t*(3-2*t);
+        inset=Math.max(inset,.027*eased);
+      }
+      if(inset>0)p.setZ(i,z-inset);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,mat('#263c35'),1,2.32+h/2,1.02);
+    o.name='Candidate Temple recessed entrance door panels';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceLandmark:'temple stone',originalDimensions:[w,h,d],
+      originalPerimeterPreserved:true,staticRelief:true,navigable:false,
+      routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
     templeCliff(g,-6,3,-3,4,6,3,mat('#677163'),0);templeCliff(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'),1);templeCliff(g,-5,1,-5,4,4,3.6,mat('#596955'),2);
@@ -628,7 +659,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     templeEntranceHallWall(g);
     for(let i=-2;i<=2;i++){templeFlutedPillar(g,i);box(g,1+i*1.05,5.34,1.1,.7,.22,.65,edge);}
     box(g,1,5.5,-.1,6.7,.4,5,edge);box(g,1,5.9,-.1,6.1,.32,4.5,stone);box(g,1,6.22,-.1,5.2,.3,3.9,dark);
-    box(g,1,2.32,1.02,1.25,2.3,.15,mat('#263c35'));
+    templeEntranceDoor(g);
     for(let i=0;i<15;i++)box(g,-2.1+i*.44,5.52,2.43,.16,.25,.15,dark);
     for(let i=0;i<12;i++){const a=i*2.399;rock(g,Math.cos(a)*(5+i%3),.3,Math.sin(a)*(4+i%2),.7,.45,.6,i%3?stone:moss);}
     pool(g,'river',-5.8,7.2,-1.5,2.2,2.6,'#458c7d');waterfall(g,-5.8,7.2,1.8,2.15,6.9);pool(g,'pool',-5.8,.30,3,3.8,2.8,'#3b8c7e');waterfallMist(g,-5.8,7.2,1.8,6.9);
