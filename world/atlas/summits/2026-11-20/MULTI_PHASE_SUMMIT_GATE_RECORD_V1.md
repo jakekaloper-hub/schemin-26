@@ -1,7 +1,7 @@
 
 # Schemin’ ’26 — Multi-Phase Commonwealth Location Summit / Gate Record
 **Date:** 2026-11-20  
-**Status:** REPOSITORY EXECUTION RECEIPT; AUTHENTICATED DIRECTOR BOARD + INDEPENDENT UMPire NOT YET PERFORMED  
+**Status:** REPOSITORY EXECUTION RECEIPT; AUTHENTICATED DIRECTOR BOARD + INDEPENDENT UMPIRE NOT YET PERFORMED  
 **Working branch:** `feat/atlas-location-summit-20261120`  
 **Repository source:** [schemin-26](https://github.com/jakekaloper-hub/schemin-26)
 
@@ -11,7 +11,7 @@
 - Indexed **111 location dossiers** with at least three explicit depths per ID: **1. physical/arrival, 2. lived society/institution, 3. historical evolution/playoff pressure**.
 - Incorporated 11 completed league seasons (2015–2025) from the recorded title succession ledger and 7 location-bound world-memory events.
 - Reviewed `world/data/routes.json`, `owner_domains.json`, `domain_profiles.json`, `world_memory.json`, `location_relationship_graph.json` and Novel OS temporal boundaries.
-- The separate **Playoff Island Atlas** authoritative location list was not located in the inspected source tree. The four candidate subfeatures are *unplaced design hypotheses*, **not** a claim an island exists in Commonwealth geography.
+- The Playoff Island development source was located after the initial base-branch scan in **draft PR #322** (`planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json`); a concurrent 44-handle three-depth source crosswalk is now at `PLAYOFF_ISLAND_THREE_LAYER_RECONCILIATION_V1.json`. It contains 9 proposed postseason arena sites, 23 topology nodes, 9 dormant heritage sites and 3 siting hypotheses, with 56 historically sourced fixtures. All proposed Island geometry, event dramatization and historic physical scars remain **unpromoted and subject to Umpire review**. Four new Island CAND proposals overlap existing island handle concepts; all four are explicitly held pending duplicate/sublocation reconciliation.
 - Playoff outcomes cannot cause automatic topological changes. No historical team slot is assumed to establish a past owner; venue location is **unverified** for all 2015–2025 finals.
 
 ## Repository action actually performed
@@ -34,7 +34,7 @@ This is a **scripted, repository-evidence desk review**, not minutes from 18 act
 
 ### Phase I — Depth 1: structural and geographic archaeology
 **Librarian/Scout/Atlas/Architect check:** canonical ID, site status, geography, material identity, site type, road access, river/coast causality, neighbor consistency, collision with current routes and other proposed uses.
-**Finding:** all 23 active locations retain their source-assigned zones; 36 proposals are attached to the twelve owner storylines; after counterweight review Mire Hill uses neutral parent LOC-DK-MUD-HILL and TDS–Chili shared-March sites inherit their joint corridor (not an owner annexation). Four Playoff Island concepts have **no authorized physical coordinate, jurisdiction, shoreline or path**.
+**Finding:** all 23 active locations retain their source-assigned zones; 36 proposals are attached to the twelve owner storylines; after counterweight review Mire Hill uses neutral parent LOC-DK-MUD-HILL and TDS–Chili shared-March sites inherit their joint corridor (not an owner annexation). Four new Island concepts have **no independently approved physical coordinate, jurisdiction, shoreline or path**; draft PR #322 supplies an unapproved siting hypothesis and 44 source-bound handles to reconcile.
 **Decision:** ACCEPT candidate registration / HOLD all new active-world promotion.
 
 ### Phase II — Depth 2: civilization and film-production functionality
@@ -60,7 +60,7 @@ This is a **scripted, repository-evidence desk review**, not minutes from 18 act
 | ACCEPT to source-bound 3-depth register | Existing 23 `LOC-*` | Existing status, memory and route record untouched | Librarian / World |
 | ADAPT as private research-visible | 48 preexisting `CAND-*` | Respect legacy activation triggers, rare-use, hold/reject class | Atlas |
 | HOLD release/promotion | All 40 + any old locked candidates | Independent source and canon acceptance missing | Umpire |
-| HOLD island cartography | Four Playoff Island `CAND-*` | No verified dedicated Island registry/shoreline/travel network | Atlas |
+| HOLD island cartography + duplicates | Four new Island `CAND-*`, 44 PR #322 handles | Source PR #322 found but remains draft; proposed four overlaps need reconciliation; shoreline, route and Last Field authority not promoted | Atlas |
 | REJECT automatic retroactive site history | 2015–2025 | Slot outcomes do not establish human owner or venue | Historian |
 | HOLD active website mutations | Commonwealth observer | Existing draft PR #314 and its no-release boundary remain intact | Site maintainers |
 
@@ -73,15 +73,22 @@ This is a **scripted, repository-evidence desk review**, not minutes from 18 act
 - **Historical source years:** 11 (2015–2025) and no completed 2026 champion: PASS.
 - **Independent craft approval:** NOT RUN.
 - **Historic venue verification 2015–2025:** NOT AVAILABLE.
-- **Runtime/CI new regression suite:** PENDING.
+- **Runtime/CI new regression suite:** Atlas summit CI passed (run 44793170465). World Engine CI and merge gate initially failed due to preexisting hardcoded 48-candidate total assertion; adapted test to check the original-48 invariant without capping future proposed geography. Latest CI status must be checked.
 - **Commonwealth live-site integration:** NOT DONE.
-- **Playoff Island full atlas inventory:** BLOCKED — missing authoritative site source.
+- **Playoff Island source inventory:** 44 handles, three layers each, now inspectable via draft PR #322 reconciliation; no accepted canonical `LOC`/route or final island shoreline. Legacy `CAND-CHAMP-LAST-FIELD` Central Basin vs island `CAND-POST-LAST-FIELD` Inner Sea Littoral must be resolved explicitly, not merged silently.
 - **Full novel-scale multi-million-line manuscript audit:** NOT VERIFIED; repository pointers consulted but no completed line-by-line reading is claimed.
 
 ## Next release gate
 The owning Directors/independent Umpire must:
 1. Review every `level_1/2/3` object, register dissent with source references; run existing world/canon/novel tests.
-2. Ground the 4 Playoff Island hypotheses in the actual island atlas or discard them without loss of legacy locations.
+2. Reconcile four duplicate-risk island hypotheses against 44 Playoff Island handles in draft PR #322, resolve Last Field's conflicting Central Basin/Inner Sea proposals, validate 45 actual island topology edges against stale metadata (41), preserve dormant heritage, and only then consider Island canon.
 3. Select proven event-triggered candidates for formal `CAND → LOC` transactions, with route, state and backlink writes as one auditable change.
 4. Rebuild the observer privately and inspect site-specific environmental art before any public activation.
 5. Keep 23 established `LOC` IDs stable throughout.
+
+## Playoff Island evidence reconciliation addendum
+- Found source: draft [Postseason Island foundation PR #322](https://github.com/jakekaloper-hub/schemin-26/pull/322); its 56 2015–2025 matchups are competitive historical facts, while 56 proposed physical traces and 168 three-stage dramatizations remain fictional suggestions.
+- The source crosswalk created during this review contains 44 separate *editorial handles*: nine arena IDs, 23 topology node IDs, nine dormant heritage IDs and three siting candidate IDs. These are not 44 additional canonical LOC records, and internal node IDs do not automatically convert into new place IDs.
+- Active-world total still 23; existing legacy candidates still 48; new candidate registrations still 40, of which four island overlap suspects are held as duplicates. Editorial review covers 111 existing/new standard LOC/CAND dossiers **plus** 44 proposed Island handles (155 IDs/handles; distinct registries and authority classes).
+- Source metadata discrepancy: Island `edge_count=41` while observed edge list =45. No invented route ID or metric coordinate has been written into `world/data/routes.json`.
+- The 2026 island finale, 2026 contestants, real-person multi-decade ownership, Farrell memorial date and Last Field legal migration remain unknown or unapproved.
