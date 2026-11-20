@@ -31,6 +31,10 @@ jobs:
         run: python3 world/atlas/summits/2026-11-20/validate_location_summit.py
       - name: Check independent cross-Atlas handle counts and Last Field hold
         run: python3 world/atlas/summits/2026-11-20/test_atlas_summit.py
+      - name: Validate pinned Playoff Island source with 23 nodes and 45 edges
+        run: python3 world/atlas/summits/2026-11-20/validate_island_topology_pin.py
+      - name: Reject island topology corruption and unsafe Losers Beach access
+        run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_island_topology_pin.py' -v
       - name: Validate 132 slot-season playoff states and 56 mirrored results
         run: python3 world/atlas/summits/2026-11-20/postseason_lineage_gates.py
       - name: Adversarial postseason lineage mutation tests
