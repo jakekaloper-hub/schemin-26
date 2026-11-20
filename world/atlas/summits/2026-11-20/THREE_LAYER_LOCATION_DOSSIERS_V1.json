@@ -6464,14 +6464,12 @@
       "active_loc_id": null,
       "level_1_physical_and_arrival": {
         "zone_hypotheses": [
-          "REG-UPPER-VALLEYS"
+          "REG-CENTRAL-BASIN"
         ],
         "existing_parent_ids": [
-          "LOC-DK-HIGHLAND-STRONGHOLD"
+          "LOC-DK-MUD-HILL"
         ],
-        "possible_parent_route_ids": [
-          "ROUTE-DK-HIGHLAND-LINK"
-        ],
+        "possible_parent_route_ids": [],
         "physical_causality": "Temporary foothold near established Mire Hill, not atop its unclaimed summit",
         "unresolved_geometry": "No new authoritative coordinates; do not treat render proxies or island footprint as base geography.",
         "proof_gate": [
@@ -6491,10 +6489,8 @@
           "Custodians manage debris removal and marker safety",
           "Week 3 scar and the below-summit standard remain immutable until evidence of change"
         ],
-        "civil_life_design": "Custodians manage debris removal and marker safety",
-        "division_presence_ids": [
-          "DIV-BURGERS"
-        ],
+        "civil_life_design": "Custodians manage debris removal and marker safety | CHALLENGE FIX: Neutral custodial service near Mire Hill; not an annexation by D0nkey K0ng and not at the unclaimed summit.",
+        "division_presence_ids": [],
         "technology_translation": "NATIVE_PREMODERN",
         "exception_guards": {
           "rare_use": false,
@@ -6671,14 +6667,12 @@
       "active_loc_id": null,
       "level_1_physical_and_arrival": {
         "zone_hypotheses": [
-          "REG-SOUTHERN-WETLANDS"
+          "REG-WESTERN-TABLELANDS"
         ],
         "existing_parent_ids": [
-          "LOC-TDS-WATERFALL-TEMPLE"
+          "LOC-TDS-CHILI-SHARED-MARCH"
         ],
-        "possible_parent_route_ids": [
-          "ROUTE-FALLS-PATH"
-        ],
+        "possible_parent_route_ids": [],
         "physical_causality": "Raised platform on the already documented TDS–Chili shared corridor",
         "unresolved_geometry": "No new authoritative coordinates; do not treat render proxies or island footprint as base geography.",
         "proof_gate": [
@@ -6698,9 +6692,10 @@
           "Both communities use the hearth despite separate League divisions",
           "Do not split residents by Burgers/Wings or replace TDS with three bodies"
         ],
-        "civil_life_design": "Both communities use the hearth despite separate League divisions",
+        "civil_life_design": "Both communities use the hearth despite separate League divisions | CHALLENGE FIX: Hearth for shared goods/wayfarers, not an international customs border; dual Division presence remains lawful.",
         "division_presence_ids": [
-          "DIV-BURGERS"
+          "DIV-BURGERS",
+          "DIV-WINGS"
         ],
         "technology_translation": "NATIVE_PREMODERN",
         "exception_guards": {
@@ -6881,11 +6876,10 @@
           "REG-WESTERN-TABLELANDS"
         ],
         "existing_parent_ids": [
+          "LOC-TDS-CHILI-SHARED-MARCH",
           "LOC-CHILI-STABLE"
         ],
-        "possible_parent_route_ids": [
-          "ROUTE-WESTERN-RANGE"
-        ],
+        "possible_parent_route_ids": [],
         "physical_causality": "Low prominence near the already mapped joint settlement corridor",
         "unresolved_geometry": "No new authoritative coordinates; do not treat render proxies or island footprint as base geography.",
         "proof_gate": [
@@ -6905,8 +6899,9 @@
           "Two communities share warning signals and trade-road updates",
           "The TDS–Chili cohabitation law survives rivalry and changed division standings"
         ],
-        "civil_life_design": "Two communities share warning signals and trade-road updates",
+        "civil_life_design": "Two communities share warning signals and trade-road updates | CHALLENGE FIX: Shared corridor signal rather than exclusive Chili territory; respects joint habitation.",
         "division_presence_ids": [
+          "DIV-BURGERS",
           "DIV-WINGS"
         ],
         "technology_translation": "NATIVE_PREMODERN",
