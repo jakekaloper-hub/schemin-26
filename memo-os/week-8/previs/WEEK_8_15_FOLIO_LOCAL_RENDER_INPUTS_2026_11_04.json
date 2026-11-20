@@ -1,0 +1,708 @@
+{
+  "schema": "SCHEMIN_WEEK8_EXISTING_FOLIO_RENDER_INPUTS_V1",
+  "origin": "EXISTING_MEMO_OS_NOT_NEW_SYSTEM",
+  "source_branch": "week8-storyboard-dependency-gate-20261102",
+  "source_packet": "memo-os/week-8/previs/WEEK_8_29_COMPOSITION_PACKETS_2026-11-02.json",
+  "source_manuscript": "memo-os/week-8/WEEK_8_SESSION_E_29_SCENE_MANUSCRIPT_DRAFT_2026-11-03.md",
+  "source_review": "memo-os/week-8/WEEK_8_CINEMATIC_RESET_SIX_MATCHUPS_15_FOLIO_REVIEW_2026_11_04.md",
+  "visual_source": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+  "source_integrity": "12/12_APPROVED_LINEUP_CROPS_SHA256_MATCHED_LOCAL",
+  "render_authorization": "NOT_GRANTED; NEED_REAL_IMAGE_ATTACHMENT_AND_SCENE_QA",
+  "priority": "FIRST_PROOF_FOLIO_01_LAST_LIGHT",
+  "all_earlier_week8_renders": "REJECTED",
+  "total_folios": 15,
+  "total_source_compositions": 29,
+  "folios": [
+    {
+      "folio": 1,
+      "title": "Tracks at Dusk",
+      "packet_ids": [
+        "W08-10-01",
+        "W08-10-02"
+      ],
+      "story": "The Last Light",
+      "atlas_parent_id": "LOC-MUD-DOGS-SWAMP",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Last Light; physical setting LOC-MUD-DOGS-SWAMP / proposed Blackwater Cut; Sunset orange fades into natural blue-black twilight; preserve readable faces and action. Open with a water-level discovery of the navigable cypress swamp. The enormous mud-caked chain-draped canine exactly matching the approved October 18 Mud Dogs source image: dark mud-brown visible coat, original wide muzzle and heavy chains, with no invented neon recoloring emerges from wet reeds and then actively investigates snapped reeds and tracks. Farther ahead, the real anthropomorphic white Duckhook golfer keeps moving on a separate raised firm bank. No face-to-face pose, no improvised cabin or map. Camera: wide low waterline, readable trail-to-bank geography. Source-action choreography: W08-10-01: Hunter / hunted overture; action: Mud Dogs erupts from the reeds on the near rise; Duckhook advances across a separate firm bank while scouting a distant cypress opening. W08-10-02: The disturbed trail; action: Mud Dogs sniffs snapped reeds and wet tracks, vaults fallen trunk, and charges after Duckhook, who stays moving toward the clearing. Character identity must be conditioned from verified attached source images: Mud Dogs: massive mud-caked beast with the exact face, body, fur appearance and heavy chains of the attached approved October 18 crop; Dr. Duckhook: white anthropomorphic duck golfer in the exact green cap and green sweater vest shown in the approved October 18 crop, carrying his actual golf equipment; preserve the underlying canonical driver-arm concept only where a current approved reference supports its visible geometry. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_manifest": "canon/characters/CHAR-BOBBY-MITCHELL/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "expected_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "locally_verified_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_manifest": "canon/characters/CHAR-ZACH-WILSON/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "expected_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "locally_verified_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL",
+      "visual_alignment_note": "The approved Oct. 18 crop actually depicts Mud Dogs covered by dark earthy mud and chained; Duckhook visibly wears a green cap and green vest. Render must follow attached source likeness instead of conflicting generic text descriptions. This observation does not supersede owner-specific primary identity authority."
+    },
+    {
+      "folio": 2,
+      "title": "The Narrowing Channel",
+      "packet_ids": [
+        "W08-10-03",
+        "W08-10-04"
+      ],
+      "story": "The Last Light",
+      "atlas_parent_id": "LOC-MUD-DOGS-SWAMP",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Last Light; physical setting LOC-MUD-DOGS-SWAMP / proposed Blackwater Cut; Sunset orange fades into natural blue-black twilight; preserve readable faces and action. Strict rear three-quarter camera behind the white duck golfer: his documented driver-arm sends a real ball forward into the clearly open distant cypress fairway gap. Mud Dogs charges immediately BEHIND on the same physical bank; golfer pivots aside, beast overruns and hits the muddy bank. Keep the visible action and direction unequivocal. Aftermath may sit in one restrained editorial inset, not a second animal or golfer. Camera: rear of golfer facing fairway, beast behind, low sunset sidelight. Source-action choreography: W08-10-03: The narrowing channel; action: Duckhook swings golf-driver arm at ball toward a visibly open distant fairway while Mud Dogs charges immediately BEHIND him on same spatial axis. W08-10-04: Last-light confrontation; action: Golf ball sails through opening, Duckhook pivots out of beast's charge, Mud Dogs crashes into muddy bank, Duckhook walks toward landed ball; 174.06–100.88. Character identity must be conditioned from verified attached source images: Mud Dogs: massive mud-caked beast with the exact face, body, fur appearance and heavy chains of the attached approved October 18 crop; Dr. Duckhook: white anthropomorphic duck golfer in the exact green cap and green sweater vest shown in the approved October 18 crop, carrying his actual golf equipment; preserve the underlying canonical driver-arm concept only where a current approved reference supports its visible geometry. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. After independent factual certification, reserve exact score receipt: Dr. Duckhook 174.06 / Mud Dogs 100.88. No early result on preceding pages. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_manifest": "canon/characters/CHAR-BOBBY-MITCHELL/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "expected_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "locally_verified_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_manifest": "canon/characters/CHAR-ZACH-WILSON/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "expected_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "locally_verified_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL",
+      "visual_alignment_note": "The approved Oct. 18 crop actually depicts Mud Dogs covered by dark earthy mud and chained; Duckhook visibly wears a green cap and green vest. Render must follow attached source likeness instead of conflicting generic text descriptions. This observation does not supersede owner-specific primary identity authority."
+    },
+    {
+      "folio": 3,
+      "title": "Predator and Intruder",
+      "packet_ids": [
+        "W08-02-01",
+        "W08-02-02"
+      ],
+      "story": "Hostile Ground",
+      "atlas_parent_id": "LOC-RED-RUINS",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene Hostile Ground; physical setting LOC-RED-RUINS / proposed Stormward Galleries; Wet slate skies, localized lightning and muted natural reflected light; silhouettes remain readable. Immersive storm coast: giant red-black-rosetted feline warrior with tribal armor leaps down from an upper walkable ruined terrace, claws out, while well-groomed human LLC in dark suit and sunglasses ducks and dives into the lower flooded stone arch with briefcase. Reveal both upper and lower routes physically joining a single exit; never a human lord instead of the Leopard or a cloaked generic intruder. Camera: descending wide from ruin tower toward physically connected lower arch, sea spray. Source-action choreography: W08-02-01: Predator / intruder overture; action: Red Leopard springs from high ruin toward LLC, who ducks a claw strike and sprints into arch with briefcase. W08-02-02: Coastal infiltration; action: Leopard bounds along upper ledge while LLC slides along flooded lower passage, briefcase first through narrow arch. Character identity must be conditioned from verified attached source images: Red Leopards: rosetted red feline warrior with claws and armor; The LLC: human suited corporate raider, sunglasses, briefcase. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_manifest": "canon/characters/CHAR-KEVIN-ZEEK/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "expected_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "locally_verified_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_manifest": "canon/characters/CHAR-DAVID-BABB/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "expected_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "locally_verified_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 4,
+      "title": "The Narrow Escape",
+      "packet_ids": [
+        "W08-02-03",
+        "W08-02-04"
+      ],
+      "story": "Hostile Ground",
+      "atlas_parent_id": "LOC-RED-RUINS",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene Hostile Ground; physical setting LOC-RED-RUINS / proposed Stormward Galleries; Wet slate skies, localized lightning and muted natural reflected light; silhouettes remain readable. In SAME rain-slick ruin, predatory claw catches LLC's leather briefcase rather than his chest, man skids below second swipe, recovers case, then slips through the SAME narrow coastal gate. Wide low near-collision, storm beyond. Narrow +2.78 result feels like a near miss, not territorial conquest or rubble-destroying duel. Camera: low three-quarter at wet terrace, visible gate in depth. Source-action choreography: W08-02-03: Reversal in the ruins; action: Red Leopard blocks LLC at terrace; briefcase intercepts first claw swipe; LLC skids beneath second strike into narrow opening. W08-02-04: Exposed-height confrontation; action: Leopard lunges at exit, LLC crosses gate barely clear and escapes 138.58–135.80. Character identity must be conditioned from verified attached source images: Red Leopards: rosetted red feline warrior with claws and armor; The LLC: human suited corporate raider, sunglasses, briefcase. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. After independent factual certification, reserve exact score receipt: The LLC 138.58 / Red Leopards 135.80. No early result on preceding pages. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_manifest": "canon/characters/CHAR-KEVIN-ZEEK/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "expected_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "locally_verified_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_manifest": "canon/characters/CHAR-DAVID-BABB/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "expected_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "locally_verified_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 5,
+      "title": "Lightning at the Rail",
+      "packet_ids": [
+        "W08-01-01",
+        "W08-01-02"
+      ],
+      "story": "The Storm That Wouldn't Leave",
+      "atlas_parent_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Storm That Wouldn't Leave; physical setting LOC-TRADE-JEDI-MOUNTAIN-BASE / proposed High-Ridge Stormworks; Natural high-altitude overcast, fog thinning around ridge edges, readable storm interior. Hooded earth-robed ObiWan (no Belt) catches windblown map case, ignites green blade beside lightning-struck mountain railing. Awning fills like a sail, taut rope drags him on slick terrace as water runs DOWN the staircase and door slams behind him. Humanoid blue-eyed elemental El Niño with storm staff ascends from lower ridge; drama with physical-comedy specificity. Camera: valley-to-upper terrace angle preserving downhill runoff and rope tension. Source-action choreography: W08-01-01: Order / storm overture; action: Lightning strikes railing; ObiWan snatches blown map case, draws green blade and runs toward elemental climbing ridge. W08-01-02: First failed defense; action: Wind fills awning, rope drags ObiWan across slick terrace, rain pours onto stairs and door traps him outside. Character identity must be conditioned from verified attached source images: ObiWan Jacoby: hooded earth-toned Trade Jedi, green blade, never the Belt; El Niño: humanoid blue-eyed storm elemental with staff. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_manifest": "canon/characters/CHAR-JAKE-KALOPER/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "expected_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "locally_verified_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_manifest": "canon/characters/CHAR-MANNING-WELTY/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "expected_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "locally_verified_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 6,
+      "title": "A Mountain Turned Against Him",
+      "packet_ids": [
+        "W08-01-03",
+        "W08-01-04"
+      ],
+      "story": "The Storm That Wouldn't Leave",
+      "atlas_parent_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Storm That Wouldn't Leave; physical setting LOC-TRADE-JEDI-MOUNTAIN-BASE / proposed High-Ridge Stormworks; Natural high-altitude overcast, fog thinning around ridge edges, readable storm interior. On SAME elevated wet steps, humanoid electric elemental slams rain across landing. Green-bladed ObiWan rolls, catches real parapet, leaps to safety, then slices tangled canopy ropes; the freed fabric whips around the same watchpost. Show readable cause-effect and gravity, not Jedi cutting intangible rain or miracle damage. Camera: low staircase angle uphill; blue/green light contrast and coherent watchpost. Source-action choreography: W08-01-03: The mountain siege; action: El Niño slams high terrace with spray; ObiWan rolls, leaps and catches parapet while energy blade fails to cut rain. W08-01-04: Escalating setbacks; action: ObiWan slides beneath spray and cuts tangled canopy ropes; wind hurls canvas across watch post as elemental anticipates his next charge. Character identity must be conditioned from verified attached source images: ObiWan Jacoby: hooded earth-toned Trade Jedi, green blade, never the Belt; El Niño: humanoid blue-eyed storm elemental with staff. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_manifest": "canon/characters/CHAR-JAKE-KALOPER/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "expected_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "locally_verified_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_manifest": "canon/characters/CHAR-MANNING-WELTY/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "expected_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "locally_verified_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 7,
+      "title": "The Weather Has the Last Word",
+      "packet_ids": [
+        "W08-01-05"
+      ],
+      "story": "The Storm That Wouldn't Leave",
+      "atlas_parent_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Storm That Wouldn't Leave; physical setting LOC-TRADE-JEDI-MOUNTAIN-BASE / proposed High-Ridge Stormworks; Natural high-altitude overcast, fog thinning around ridge edges, readable storm interior. Final blue elemental burst passes intact mountain parapet; storm victor travels down far slope. Foreground approved ObiWan stands soaked but alive with lowered green blade, no championship Belt, while one wet battle plan slaps his chest. The joke is earnest exhaustion, not destroyed fortress. Camera: high-ridge wide aftermath from beside intact parapet and distant departing storm. Source-action choreography: W08-01-05: The final passage; action: Final elemental storm burst pins ObiWan behind parapet; El Niño departs victorious 164.38–142.30 while Jedi stands soaked but intact. Character identity must be conditioned from verified attached source images: ObiWan Jacoby: hooded earth-toned Trade Jedi, green blade, never the Belt; El Niño: humanoid blue-eyed storm elemental with staff. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. After independent factual certification, reserve exact score receipt: El Niño 164.38 / ObiWan Jacoby 142.30. No early result on preceding pages. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_manifest": "canon/characters/CHAR-JAKE-KALOPER/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "expected_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "locally_verified_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_manifest": "canon/characters/CHAR-MANNING-WELTY/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "expected_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "locally_verified_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 8,
+      "title": "The Charge",
+      "packet_ids": [
+        "W08-05-01",
+        "W08-05-02"
+      ],
+      "story": "The Fallen Giant",
+      "atlas_parent_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Fallen Giant; physical setting LOC-DK-HIGHLAND-STRONGHOLD / proposed Highland Killing Ground; Overcast autumn daylight and low drifting fog; preserve body anatomy and battlefield spatial clarity. ONE integrated black-gorilla-upper ARSENAL CENTAUR with FOUR anatomically coherent equine legs and red Arsenal armor charges from highland stronghold gate wielding double axe. HUMAN bearded Chins in white tank and trucker cap plants hammer, deflects axe shaft while skidding on gravel. Separate raccoon retreats safely onto wall. No bipedal gorilla, separate mount, horse-headed centaur or Nintendo figure. Camera: very low stronghold approach-to-training-court panorama; four hoof points visible. Source-action choreography: W08-05-01: Challenger / giant overture; action: Four-hoof Arsenal Centaur charges from highland gate, axe lifted; human heavyset Chins plants hammer in path, raccoon escapes to wall. W08-05-02: Highland battlefield; action: Centaur axe blasts gravel from ground; Chins rolls beneath sweep, collides hammer against axe shaft and skids under four-hoof pressure. Character identity must be conditioned from verified attached source images: Arsenal Centaur: ONE gorilla-equine centaur with four hooves, Arsenal-red armor, axe [HARD IMAGE HOLD]; Seven Deadly Chins: bearded HUMAN hammer bruiser, separate raccoon. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_manifest": "canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "expected_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "locally_verified_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": "FOUR_HOOFED_RECONCILIATION_PENDING"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_manifest": "canon/characters/CHAR-BEN-WHIPPLE/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "expected_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "locally_verified_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 9,
+      "title": "The Turning Radius",
+      "packet_ids": [
+        "W08-05-03",
+        "W08-05-04"
+      ],
+      "story": "The Fallen Giant",
+      "atlas_parent_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Fallen Giant; physical setting LOC-DK-HIGHLAND-STRONGHOLD / proposed Highland Killing Ground; Overcast autumn daylight and low drifting fog; preserve body anatomy and battlefield spatial clarity. On SAME training court, full four-hoof charge passes human Chins. He dives laterally and deflects axe haft with hammer, exploiting the giant's turning circle to force a single backward recovery stride; raccoon remains off-axis on same wall. Physics of mass, momentum and weapon leverage must be legible without superhuman stops. Camera: lateral 3/4 with visible equine hind and forelegs, court and gravel anchors. Source-action choreography: W08-05-03: First collision; action: Full four-hoof charge; Chins dives aside, hammer strikes armored flank and axe shaft as Centaur skids into turn. W08-05-04: Momentum reversal; action: Chins feints to exploit giant turning radius, slams hammer into axe haft, Centaur must take a backward step. Character identity must be conditioned from verified attached source images: Arsenal Centaur: ONE gorilla-equine centaur with four hooves, Arsenal-red armor, axe [HARD IMAGE HOLD]; Seven Deadly Chins: bearded HUMAN hammer bruiser, separate raccoon. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_manifest": "canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "expected_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "locally_verified_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": "FOUR_HOOFED_RECONCILIATION_PENDING"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_manifest": "canon/characters/CHAR-BEN-WHIPPLE/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "expected_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "locally_verified_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 10,
+      "title": "The Giant Yields",
+      "packet_ids": [
+        "W08-05-05"
+      ],
+      "story": "The Fallen Giant",
+      "atlas_parent_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Fallen Giant; physical setting LOC-DK-HIGHLAND-STRONGHOLD / proposed Highland Killing Ground; Overcast autumn daylight and low drifting fog; preserve body anatomy and battlefield spatial clarity. The HUMAN Chins owns center court after redirecting the final axe rush; hammer planted, forty-ounce bottle and separate raccoon restored. One integrated FOUR-HOOFED gorilla-centaur remains alive and impressive but takes one backward step. No coronation, army, injuries or second creature. Camera: grounded central court victory framing, stronghold gate same axis. Source-action choreography: W08-05-05: Final stand; action: Final axe rush diverted by Chins hammer; Centaur retreats one stride; Chins takes center, bottle and raccoon reunited, wins 166.44–92.75. Character identity must be conditioned from verified attached source images: Arsenal Centaur: ONE gorilla-equine centaur with four hooves, Arsenal-red armor, axe [HARD IMAGE HOLD]; Seven Deadly Chins: bearded HUMAN hammer bruiser, separate raccoon. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. After independent factual certification, reserve exact score receipt: Seven Deadly Chins 166.44 / D0nkey K0ng 92.75. No early result on preceding pages. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_manifest": "canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "expected_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "locally_verified_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": "FOUR_HOOFED_RECONCILIATION_PENDING"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_manifest": "canon/characters/CHAR-BEN-WHIPPLE/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "expected_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "locally_verified_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 11,
+      "title": "No Ceremony in the Camp",
+      "packet_ids": [
+        "W08-03-01",
+        "W08-03-02"
+      ],
+      "story": "The Weight of a Crown",
+      "atlas_parent_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Weight of a Crown; physical setting LOC-SLOB-FOOTHILL-CAMP / proposed Foothill Yard; Cool autumn fog with practical fire or lantern light only where plausible. Within rough lived-in foothill Slob camp (NOT royal court), enormous horned shaggy football-armored beast Slob crashes metal bat into wooden post, lunges at pale red-eyed hooded black-armored HMB. Champion parries with dark rune sword and keeps championship Belt visibly at his waist; separate pit bull moves to perimeter. Camera: human-height camp path tracking into timber yard, dramatic weapon collision. Source-action choreography: W08-03-01: Champion / contender overture; action: Slob swings metal bat into timber post, surges at HMB; rune sword intercepts blow, sparks fly, Belt retained. W08-03-02: The challenge; action: Slob sweeps bat low; HMB leaps, swords clashes, both crash into loose timber and recover footing. Character identity must be conditioned from verified attached source images: Slob: huge shaggy horned armored beast, bat and separate pit bull; HMB: pale red-eyed hooded immortal in black armor, sword and champion's Belt. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_manifest": "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "expected_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "locally_verified_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_manifest": "canon/characters/CHAR-AUSTIN-BYARS/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "expected_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "locally_verified_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 12,
+      "title": "Four Point Thirty-Six",
+      "packet_ids": [
+        "W08-03-03",
+        "W08-03-04"
+      ],
+      "story": "The Weight of a Crown",
+      "atlas_parent_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Weight of a Crown; physical setting LOC-SLOB-FOOTHILL-CAMP / proposed Foothill Yard; Cool autumn fog with practical fire or lantern light only where plausible. Same yard, Slob's bat presses HMB to one knee, sword catches blow. Immortal champion pivots within final swing and stops rune blade short of Slob's shoulder: close, exhausting and nonlethal. Belt remains HMB's, pit bull at camp edge; no theatrical coronation, no injury canon. Camera: tight low near-miss clash by unchanged timber pile; natural autumn light. Source-action choreography: W08-03-03: Ceremonial confidence breaks; action: Slob hammers HMB onto knee, bat and rune sword grind together, champion rolls free and counterattacks. W08-03-04: The reckoning; action: Slob charges; HMB twists inside bat swing and checks blade near shoulder, barely wins 162.62–158.26. Character identity must be conditioned from verified attached source images: Slob: huge shaggy horned armored beast, bat and separate pit bull; HMB: pale red-eyed hooded immortal in black armor, sword and champion's Belt. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. After independent factual certification, reserve exact score receipt: His Majesty's Blood 162.62 / Slob on my Dobb 158.26. No early result on preceding pages. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_manifest": "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "expected_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "locally_verified_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_manifest": "canon/characters/CHAR-AUSTIN-BYARS/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "expected_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "locally_verified_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 13,
+      "title": "Two Arrivals, One Memory",
+      "packet_ids": [
+        "W08-06-01",
+        "W08-06-02",
+        "W08-06-03"
+      ],
+      "story": "The Place We Once Knew",
+      "atlas_parent_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Place We Once Knew; physical setting LOC-TDS-CHILI-SHARED-MARCH, neutral-site approval not granted; Oxford memory ONLY; Autumn haze with low sidelight; Oxford memory warmer and intimate, then colder Shared March air. Shared March crossing candidate: ONE reptilian humanoid Serpent with exactly THREE distinct heads converges from water steps; separate rugged human Chili Outlaw in dark sunglasses, deep crimson coat, decorated weathered Western hat and bandolier wheels his distinct black Dark Horse from stable road. Wagon bar swings down and Chili ducks. Include one small, distinctly framed warm historical Oxford Kappa Sigma corner-bedroom MEMORY showing human-era roommates, no fabricated exact floor plan; Oxford is not an Atlas room. Camera: environmental wide with converging routes and restrained discrete memory insert. Source-action choreography: W08-06-01: Two arrivals — shared POV; action: TDS runs into crossing with three distinct serpent heads on one humanoid body; Chili wheels Dark Horse sharply, duster and pepper bandolier flying. W08-06-02: Oxford corner bedroom — memory only; action: One brief Oxford Kappa Sigma corner-bedroom memory flashes between clattering hoofbeats and a slammed door. W08-06-03: Architectural match cut — Oxford to Shared March; action: Wagon bar swings into road; Chili ducks beneath while riding Dark Horse as TDS vaults water steps and pursues. Character identity must be conditioned from verified attached source images: TDS: one reptilian humanoid body, three serpent heads; Chili Outlaw: rugged bearded dark-sunglasses crimson Western outlaw with separate black Dark Horse [OCT22 IMAGE HOLD]. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_manifest": "canon/characters/CHAR-PHILLIP-PITTS/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "expected_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "locally_verified_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_manifest": "canon/characters/CHAR-BRANDON-PRYOR/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "expected_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "locally_verified_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": "OCT22_APPROVED_IMAGE_MISSING"
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 14,
+      "title": "Old Tricks at the Wagon",
+      "packet_ids": [
+        "W08-06-04",
+        "W08-06-05"
+      ],
+      "story": "The Place We Once Knew",
+      "atlas_parent_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Place We Once Knew; physical setting LOC-TDS-CHILI-SHARED-MARCH, neutral-site approval not granted; Oxford memory ONLY; Autumn haze with low sidelight; Oxford memory warmer and intimate, then colder Shared March air. On SAME wagon road, Chili dismounts Dark Horse and pushes steam from iron cooking pot, vaults wheel, kicks down canvas, feints by slippery water steps; ONE Serpent body with THREE heads anticipates via three sightlines and blocks path with scaled hand. No separate three snakes, horse fusion, shootout or invented settlement inhabitants. Camera: low moving wagon-wheel and river-step track; steam with real sightlines. Source-action choreography: W08-06-04: The shared settlement; action: Chili dismounts behind wagon, pushes steam from iron chili pot across road and vaults wheel; TDS charges through steam tracking three sightlines. W08-06-05: The first strike; action: Chili kicks down wagon cover and springs from concealment; TDS anticipates feint, scaled hand blocks path at slippery steps. Character identity must be conditioned from verified attached source images: TDS: one reptilian humanoid body, three serpent heads; Chili Outlaw: rugged bearded dark-sunglasses crimson Western outlaw with separate black Dark Horse [OCT22 IMAGE HOLD]. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. Do not expose score or victor yet. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_manifest": "canon/characters/CHAR-PHILLIP-PITTS/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "expected_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "locally_verified_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_manifest": "canon/characters/CHAR-BRANDON-PRYOR/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "expected_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "locally_verified_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": "OCT22_APPROVED_IMAGE_MISSING"
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    },
+    {
+      "folio": 15,
+      "title": "The Crossing Held",
+      "packet_ids": [
+        "W08-06-06",
+        "W08-06-07"
+      ],
+      "story": "The Place We Once Knew",
+      "atlas_parent_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "canvas": [
+        1080,
+        1920
+      ],
+      "image_prompt": "CINEMATIC INTERIOR PNG, 1080 × 1920, portrait 9:16, existing Week 7 premium editorial craft. Scene The Place We Once Knew; physical setting LOC-TDS-CHILI-SHARED-MARCH, neutral-site approval not granted; Oxford memory ONLY; Autumn haze with low sidelight; Oxford memory warmer and intimate, then colder Shared March air. Dark Horse races on high road; human Chili catches stirrup and turns sharply as the single three-headed Serpent cuts across a physically shorter center route to intercept. Then Serpent holds central steps while Chili rides safely out; old friendship unresolved, no invented permanent world changes or harm to horse. Camera: moving side-rear to wide aftermath, crossing step center and hillside exit. Source-action choreography: W08-06-06: Familiarity fails; action: Dark Horse rushes along upper approach; Chili jumps onto stirrup as TDS cuts shorter route to intercept and force sharp final turn. W08-06-07: Conditional final meeting; action: Chili races out of crossing on Dark Horse after losing position to TDS; serpent holds center after 136.53–123.51 victory. Character identity must be conditioned from verified attached source images: TDS: one reptilian humanoid body, three serpent heads; Chili Outlaw: rugged bearded dark-sunglasses crimson Western outlaw with separate black Dark Horse [OCT22 IMAGE HOLD]. Characters and physical space obey continuity; do not clone the same figure to depict multiple beats in one frame. Use a primary decisive still plus subtle cinematic temporal inset ONLY if physically necessary. Compact header candidate, generous cinematic upper/middle image, reserve clean lower text zone. After independent factual certification, reserve exact score receipt: Three Dreaded Snake 136.53 / Chili Cheesers 123.51. No early result on preceding pages. Never generate unverified text, generic stand-ins, permanent world changes or previously rejected Week 8 compositions.",
+      "characters": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_manifest": "canon/characters/CHAR-PHILLIP-PITTS/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "expected_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "locally_verified_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": null
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_manifest": "canon/characters/CHAR-BRANDON-PRYOR/REFERENCE_MANIFEST.yaml",
+          "approved_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "expected_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "locally_verified_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "local_source_present": true,
+          "kind": "COMMISSIONER_APPROVED_OCT18_SUPPLEMENTARY",
+          "renderer_attachment_id": null,
+          "renderer_attachment_proven": false,
+          "active_visual_conflict": "OCT22_APPROVED_IMAGE_MISSING"
+        }
+      ],
+      "asset_status": "LOCAL_REFERENCE_BYTES_VERIFIED; PROVIDER_NOT_ATTACHED",
+      "output_status": "NOT_RENDERED",
+      "publisher_acceptance": false,
+      "exact_copy_status": "CANDIDATE_NOT_LOCKED",
+      "atlas_production_gate": "PROVISIONAL"
+    }
+  ]
+}
