@@ -80,3 +80,16 @@ No fixed pages, required rigid scene count, recycled one-template look, or compu
 - **Publication:** `WEEK11_CANDIDATE`; no cover thesis approval, final story board, page count, PNG, PDF, Umpire certification or official release. No independent human specialist/consultant approvals claimed by this text.
 
 **Next creative deliverable after Sunday/Monday scores:** a six-branch **outcome-sensitive story decision matrix** (win/loss, player causality, POV change, retained locations, world impact) and only then a complete-issue previs. Keep raw Founder answers immutable and append clarifications rather than rewriting the questionnaire. Week 10 working assets and publication status remain untouched.
+
+
+## VI. Integration correction — Week 11 official house board and already-active productions
+
+**Pittsy's Book is not an optional invented sidebar.** Existing [Week 11 Issue #323](https://github.com/jakekaloper-hub/schemin-26/issues/323) preserves a Commissioner-supplied Nov 19 official house board with three posted matchups: **El Niño–Slob, HMB–DK, LLC–Duckhook**. It explicitly keeps **Red–TDS and Chili–ObiWan OFF BOARD** pending House updates and availability evidence. Use exact lines, prices and restrictions only from that issue's source and any later verified House release. Do not fabricate bets, settlements or an unposted Chili–ObiWan line. Its scene setting still has an unresolved historical `LOC-PITTSYS-BOOK` vs Waterfall Temple geography problem; preserve as a blocker, not a new canon decision.
+
+**The Road to Seven [Issue #319](https://github.com/jakekaloper-hub/schemin-26/issues/319) is a distinct Founder-authorized seven-PNG side project.** Do not silently merge its seven portrait pairs, fixed output count or visual layout into this organically scoped Week 11 memo. Week 11 can discuss seven postseason honors without duplicating that production.
+
+**Six-result decision branches and temporal carry-forward:** See [PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md) for each matchup's entering Week 10 environment, verified current sports context, provisional action, win/loss/tie-or-unknown branches, retained-world consequences, Week 12 return and the Sports Desk/Pittsy's Book/Island dependencies. That file is not a locked page-by-page previs.
+
+**Data clock:** The November 17 protected FFHub review is identified in the Week 10 research handoff. Any reference to a separate November 18 vendor run/estimate is **not independently reverified** here and must not be represented as a new source-approved receipt.
+
+**Tim Veil lens / supervisory boundary:** A documented published-method advisor is not a human reviewer or independent Umpire; source provenance, regression checking and existing-domain counterweights are required before any future acceptance claim. See the separate quality-audit receipt. No actual Tim Veil human attendance, signed approval or final creative Director signoff is claimed.
