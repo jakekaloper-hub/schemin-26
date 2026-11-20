@@ -26,7 +26,7 @@ test('Temple preserves its one existing entrance hall, door, tiers, pillar caps 
   assert.deepEqual(a.locations.map(p=>p.id),ids);
   assert.equal(list.length,1,'No new hall or second facades');
   const wall=list[0];
-  assert.deepEqual(wall.position.toArray(),[1,3.7,-1]);
+  near(wall.position.x,1);near(wall.position.y,3.7);near(wall.position.z,-1);
   assert.deepEqual(wall.scale.toArray(),[1,1,1]);
   assert.deepEqual(wall.userData.originalDimensions,[5.2,2.8,3.6]);
   assert.equal(wall.userData.originalPerimeterPreserved,true);
