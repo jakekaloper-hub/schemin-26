@@ -327,6 +327,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec3 pondNormal=pondCrossSize>.00001?pondCross/pondCrossSize:vec3(0.,1.,0.);
       float pondRelief=clamp((1.-clamp(abs(pondNormal.y),0.,1.))*18.,0.,.34);
       vec3 pondLight=vec3(.08,.12,.10)*pondRelief*bank;
+      // Bounded grazing-view response to the EXISTING physically displaced pond.
+      // Candidate reflected-sky tint only; not a new light, water or weather source.
+      vec3 pondEye=normalize(cameraPosition-vWorld);
+      float pondGrazing=pow(1.-clamp(abs(dot(pondNormal,pondEye)),0.,1.),2.);
+      float pondReflectMix=(.035+.19*pondGrazing)*bank;
+      pondTint=mix(pondTint,vec3(.40,.52,.48),pondReflectMix);
       // Narrow broken contact light follows the same two candidate masonry
       // arch bases, with the SAME local transforms as the physical wavelets.
       // No new light source, waterbody, current, shoreline or climate input.
