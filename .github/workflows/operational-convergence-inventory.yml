@@ -5,6 +5,10 @@ on:
       - "skills/schemin-pdf-bytes/**"
       - "governance/execution-control/pr_reconciliation.py"
       - "governance/execution-control/test_pr_reconciliation.py"
+      - "living-novel/os/qa/check_execution_drift.py"
+      - "living-novel/os/qa/test_execution_drift.py"
+      - "living-novel/whole-book/_INDEX.md"
+      - "governance/execution-control/TASK_REGISTRY_V1.json"
       - ".github/workflows/operational-convergence-inventory.yml"
   workflow_dispatch:
   schedule:
@@ -24,6 +28,21 @@ jobs:
         run: python -m unittest discover -s skills/schemin-pdf-bytes/tests -p 'test_*.py' -v
       - name: Test read-only inventory classification
         run: python -m unittest -v governance/execution-control/test_pr_reconciliation.py
+      - name: Test read-only Novel state discrepancy detector
+        run: python -m unittest discover -s living-novel/os/qa -p 'test_execution_drift.py' -v
+      - name: Report Novel and Execution Control drift (advisory; no state change)
+        run: |
+          python living-novel/os/qa/check_execution_drift.py > /tmp/novel-execution-drift.json
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d=json.load(open('/tmp/novel-execution-drift.json'))
+          print('## Novel / Execution Control discrepancy scan (advisory only)')
+          print('- Status:', d['status'])
+          print('- Review findings:', len(d.get('findings',[])))
+          for f in d.get('findings',[]):
+              print('- {}: {} (source: {})'.format(f['task'],f['result'],f.get('source','unavailable')))
+          print('- No task, fact, canon, or publication state changed')
+          PY
       - name: Query GitHub and record disposition candidates
         env:
           GH_TOKEN: ${{ github.token }}
@@ -35,5 +54,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: operational-pr-inventory
-          path: /tmp/operational-pr-inventory.json
+          path: |
+            /tmp/operational-pr-inventory.json
+            /tmp/novel-execution-drift.json
           retention-days: 30
