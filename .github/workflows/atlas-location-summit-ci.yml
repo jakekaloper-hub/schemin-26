@@ -8,11 +8,15 @@ on:
       - 'world/data/world_memory.json'
       - 'living-novel/history/**'
       - 'world/atlas/summits/**'
+      - 'world/atlas/interactive/**'
+      - 'world/location-control-plane/registries/**'
       - '.github/workflows/atlas-location-summit-ci.yml'
   push:
     paths:
       - 'world/data/atlas_location_candidates.json'
       - 'world/atlas/summits/**'
+      - 'world/atlas/interactive/**'
+      - '.github/workflows/atlas-location-summit-ci.yml'
 jobs:
   atlas-summit:
     runs-on: ubuntu-latest
@@ -23,5 +27,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate canonical and candidate atlases
+      - name: Check 155 typed source handles and untouched canonical world
         run: python3 world/atlas/summits/2026-11-20/validate_location_summit.py
+      - name: Check independent cross-Atlas handle counts and Last Field hold
+        run: python3 world/atlas/summits/2026-11-20/test_atlas_summit.py
+      - name: Validate 132 slot-season playoff states and 56 mirrored results
+        run: python3 world/atlas/summits/2026-11-20/postseason_lineage_gates.py
+      - name: Adversarial postseason lineage mutation tests
+        run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_postseason_lineage_gates.py' -v
+      - name: Preserve frozen Phase 4 Atlas catalog and routes
+        run: python3 -m unittest discover -s world/atlas/interactive -p 'test_interactive_atlas.py' -v
