@@ -939,6 +939,58 @@
       ],
       "supersedes": [],
       "superseded_by": null
+    },
+    {
+      "project": "Schemin 26",
+      "program": "Commonwealth Audience Website",
+      "roadmap": "Ten-Day Execution Summit",
+      "phase": "Public first edition",
+      "workstream": "Website delivery",
+      "owner": "the_architect",
+      "reviewer": "the_umpire",
+      "priority": "P1",
+      "source_authority": "docs/superpowers/plans/2026-10-22-schemin-audience-website.md",
+      "dependencies": [],
+      "blocked_by": [],
+      "blocks": [],
+      "supersedes": [],
+      "created_at": "2026-10-22",
+      "started_at": "2026-10-22",
+      "completed_at": null,
+      "superseded_by": null,
+      "task_id": "SITE-AUDIENCE-001",
+      "title": "Deliver the connected read-only Commonwealth audience website",
+      "status": "VERIFYING",
+      "acceptance_criteria": [
+        "Public viewing without edit authority",
+        "Canonical atlas and twelve identities",
+        "Readable memo archive and archival manuscript reader",
+        "Independent engineering review and founder experience review recorded separately"
+      ],
+      "evidence": [
+        {
+          "type": "implementation",
+          "ref": "productions/audience-site/README.md",
+          "status": "PASS"
+        },
+        {
+          "type": "execution_receipt",
+          "ref": "planning/audience-site/EXECUTION_LEDGER.md",
+          "status": "PASS"
+        },
+        {
+          "type": "deployment",
+          "ref": "https://schemin-commonwealth.jakekaloper.chatgpt.site",
+          "status": "PASS",
+          "note": "Terminal succeeded deployment appgdep_6ada6d691004819191637b02d7e16cb7"
+        }
+      ],
+      "next_action": "Review the deployed first edition for founder experience acceptance; complete PR CI before mainline merge. Raster memo textual accessibility and rollback rehearsal remain explicit limitations.",
+      "aliases": [
+        "audience website",
+        "Commonwealth website",
+        "public site"
+      ]
     }
   ],
   "history": []
