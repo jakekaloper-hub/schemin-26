@@ -16,7 +16,17 @@ class Phase4Tests(unittest.TestCase):
   self.assertEqual(len(self.load("world/data/physical_zones.json")["regions"]),7)
   self.assertEqual(len(self.load("world/data/locations.json")["locations"]),23)
   self.assertEqual(len(self.load("world/data/routes.json")["routes"]),18)
-  self.assertEqual(len(self.load("world/data/atlas_location_candidates.json")["candidates"]),48)
+  editorial=self.load("world/data/atlas_location_candidates.json")["candidates"]
+  legacy=[x for x in editorial if "Founder location-expansion directive 2026-11-20" not in x.get("source_provenance",[])]
+  self.assertEqual(len(legacy),48)
+  self.assertGreaterEqual(len(editorial),len(legacy))
+ def test_unapproved_expansion_is_excluded_from_existing_atlas_snapshot(self):
+  current=OUT.read_text()
+  self.assertNotIn("CAND-PLAYOFF-ISLAND-OUTER-LANDING",current)
+  self.assertNotIn("CAND-MIRE-HILL-CUSTODIAL-OUTPOST",current)
+  # Source candidate expansion is intentionally maintained in separate
+  # private editorial dossiers rather than silently changing the old map.
+
  def test_output_deterministic(self):
   before=OUT.read_text() if OUT.exists() else ""
   m.main(); after=OUT.read_text()
