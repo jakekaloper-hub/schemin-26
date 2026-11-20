@@ -37,7 +37,7 @@ class Phase4Tests(unittest.TestCase):
   with self.assertRaisesRegex(ValueError,"snapshot"):
    m.select_frozen_candidates(editorial,frozen[:-1]+[frozen[0]])
   with self.assertRaisesRegex(ValueError,"missing"):
-   m.select_frozen_candidates(editorial[:-1],frozen)
+   m.select_frozen_candidates([x for x in editorial if x["id"] != frozen[0]],frozen)
   with self.assertRaisesRegex(ValueError,"Duplicate"):
    m.select_frozen_candidates(editorial+[editorial[0]],frozen)
 
