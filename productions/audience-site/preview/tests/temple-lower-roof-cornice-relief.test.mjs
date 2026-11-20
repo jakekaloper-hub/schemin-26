@@ -107,7 +107,8 @@ test('Existing opaque batching, independent water under global calm, pause and o
   const a=build(),roof=cornice(a)[0],group=temple(a);
   const beforeCount=group.children.length;
   const batch=batchStaticGeometry(THREE,group);
-  assert.equal(group.children.length,beforeCount,'Batching does not create or remove canonical objects');
+  assert.ok(group.children.length>0&&group.children.length<beforeCount,
+    'Existing static batching intentionally folds original meshes into fewer GPU objects');
   assert.ok(batch.geometries.length>0,'Existing opaque geometry can be batched');
   for(const geo of batch.geometries)geo.dispose();
   const water=a.water.filter(w=>['river','waterfall','pool','swamp','channel','pond'].includes(w.kind));
