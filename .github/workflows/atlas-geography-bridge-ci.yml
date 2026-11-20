@@ -1,0 +1,24 @@
+name: Atlas Geography Board & Photo Handoff Gate
+on:
+  pull_request:
+    paths:
+      - 'planning/atlas-geography-gate/**'
+      - '.github/workflows/atlas-geography-bridge-ci.yml'
+  push:
+    paths:
+      - 'planning/atlas-geography-gate/**'
+      - '.github/workflows/atlas-geography-bridge-ci.yml'
+jobs:
+  validate-readonly-bridge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate 155-vs-147 Atlas candidate concordance and 23-location photo source handoff
+        run: python3 planning/atlas-geography-gate/verify_board_bridge.py
+      - name: Reject accidental promotion, phantom images, and candidate collisions
+        run: python3 -m unittest discover -s planning/atlas-geography-gate -p 'test_*.py' -v
