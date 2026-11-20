@@ -43,7 +43,7 @@ The current founder-v2 island topology has **45 edge objects**, but its summary 
 
 ## Test contract
 
-Repeatable Python gate: `python3 world/atlas/summits/2026-11-20/test_atlas_summit.py`. This source checkout has not been executed through that Python command in this operation; the values above reflect the separately executed equivalent JSON assertions.
+Repeatable Python gate: `python3 world/atlas/summits/2026-11-20/test_atlas_summit.py`. The Python command was **executed successfully** on the connected Mac in a fresh isolated sparse checkout at source commit `edb335df313b1046c2f71d88db1f8cda002b1440` (2026-11-20): `test_atlas_summit.py` returned `PASS_WITH_UPSTREAM_HOLD`, **exit 0**. The independent, more comprehensive repository validator `validate_location_summit.py` was also run against the same checkout and returned `PASS_STRUCTURAL_ONLY`, **exit 0**, including 132 slot-season records, 33 podium checks, and 155 total dossiers/handles. These are structural assertions, not a third-party Umpire signoff.
 
 ## Identity control
 
