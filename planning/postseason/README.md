@@ -6,7 +6,7 @@
 
 - Eleven historical seasons; 56 verified championship-bracket fixtures and 67 annual playoff entries.
 - A fixed-round arena model: three quarterfinal sites in the modern seven-team format, two semifinal sites, one permanent championship site.
-- The island's proposed 23-node / 41-link causeway and precinct network.
+- The island's proposed 23-node / 45-link causeway and precinct network.
 - A deterministic Inklings production compiler that emits **56 scenario cards / 168 multi-stage creative beats**.
 - A cross-OS preproduction exporter for Memo OS, Novel OS, Atlas, Commonwealth site preview and future 2026 postseason context.
 - Positive and negative validation plus [GitHub Actions](../../.github/workflows/postseason-island-validation.yml) on changes to this folder.
