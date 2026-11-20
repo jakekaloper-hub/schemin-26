@@ -1,0 +1,95 @@
+name: Championship Island preproduction validation
+
+on:
+  pull_request:
+    paths:
+      - 'planning/postseason/**'
+      - '.github/workflows/postseason-island-validation.yml'
+  push:
+    branches:
+      - 'feat/postseason-island-historical-foundation-20261118'
+    paths:
+      - 'planning/postseason/**'
+      - '.github/workflows/postseason-island-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-and-creative-preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate original Inklings producer
+        run: node planning/postseason/test_postseason_inklings_packets.mjs
+      - name: Validate cross-OS source, island, fixed arenas, and negative cases
+        run: node planning/postseason/test_postseason_cross_os_preflight.mjs
+      - name: Verify all committed generated previews match their authoritative draft inputs
+        run: node planning/postseason/run_postseason_island_pipeline.mjs --check
+      - name: Validate verified historical facts and founder V2 supersession
+        run: node planning/postseason/test_postseason_founder_v2_integrity.mjs
+      - name: Validate dedicated public, contender, broadcast and emergency routes
+        run: node planning/postseason/test_island_circulation.mjs
+      - name: Verify interactive island preview stays source-consistent
+        run: node planning/postseason/site/build_site.mjs --check
+      - name: Check interactive exhibit accessibility and release safeguards
+        run: node planning/postseason/site/test_site.mjs
+      - name: Verify eleven distinct professional broadcast eras
+        run: node planning/postseason/test_broadcast_history.mjs
+      - name: Verify every Inklings intervention and eleven final scripts
+        run: node planning/postseason/test_inklings_interventions.mjs
+      - name: Verify 2026 synthetic qualification and certified tournament transitions
+        run: node planning/postseason/test_tournament_runtime.mjs
+      - name: Ensure curated 120-seed library has not drifted
+        run: node planning/postseason/build_obstacle_lexicon.mjs --check
+      - name: Verify 56 historical source-bound challenge alternatives
+        run: node planning/postseason/build_historical_obstacle_options.mjs --check
+      - name: Verify year-specific island physical scars and ruin history
+        run: node planning/postseason/build_island_material_memory.mjs --check
+      - name: Test all obstacle affordances, era limits, and weather closures
+        run: node planning/postseason/test_obstacle_physical_engine.mjs
+      - name: Check transparent 18-Director / 3-advisor summit simulation
+        run: node planning/postseason/test_summit_integrity.mjs
+      - name: Recompute 100-point evidence rubric without canon promotion
+        run: node planning/postseason/score_summit_readiness.mjs --check
+      - name: Verify Founder island supersession without editing canonical Atlas
+        run: node planning/postseason/build_atlas_supersession_packet.mjs --check
+      - name: Validate Founder Interview II immutable score, draw, solo performance and permanent damage
+        run: node planning/postseason/test_founder_interview_ii.mjs
+      - name: Reject invented 2026 ceremonial draws before verified source locks
+        run: node planning/postseason/test_2026_ceremonial_draw_gates.mjs
+      - name: Check immutable historical ceremonial selections
+        run: node planning/postseason/draw_championship_trials.mjs --check
+      - name: Verify every encounter preserves a repairable permanent terrain trace
+        run: node planning/postseason/build_permanent_impact_ledger.mjs --check
+      - name: Check all 168 personally performed narrative challenge stages
+        run: node planning/postseason/build_interview_ii_scene_contracts.mjs --check
+      - name: Check 112 nonlethal fictional personal condition effects
+        run: node planning/postseason/build_owner_body_continuity.mjs --check
+      - name: Check 672 cinema previsualization camera contracts
+        run: node planning/postseason/build_interview_ii_visual_storyboards.mjs --check
+      - name: Check eleven Last Field finale rewrites agree with ceremonial draws
+        run: node planning/postseason/build_last_field_finales_interview_ii.mjs --check
+      - name: Reject bad autonomous screenplay outcomes and unauthorized world physics
+        run: node planning/postseason/test_local_model_draft_audit.mjs
+      - name: Recompile normalized Atlas stage geometry without world mutation
+        run: node planning/postseason/build_island_spatial_stage_engine.mjs --check
+      - name: Verify all historical personal movement positions and isolated crew access
+        run: node planning/postseason/test_island_spatial_stage_engine.mjs
+      - name: Adversarial quality-test 2018 and 2022 longform screenplay pilots
+        run: node planning/postseason/test_scene_quality_gate.cjs
+      - name: Check protected archery/clockwork rig event sequences
+        run: node planning/postseason/stage_rig_interlocks.mjs --check
+      - name: Reject unsafe stage rig transitions and surrogate performers
+        run: node planning/postseason/test_stage_rig_interlocks.mjs
+      - name: Verify neutral offshore siting against current Atlas source
+        run: node planning/postseason/build_neutral_causeway_siting.mjs --check
+      - name: Reject owner-controlled causeway or active world mutation
+        run: node planning/postseason/test_neutral_causeway_siting.mjs

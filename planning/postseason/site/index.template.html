@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Championship Island · Commonwealth Atlas Preview</title>
+<meta name="description" content="An evidence-grounded interactive postseason island preview covering eleven Schemin' championship seasons, 56 encounters and the unplayed 2026 tournament.">
+<style>
+:root{color-scheme:dark;--bg:#101a1c;--panel:#172327;--panel2:#1b2b2f;--sand:#bda579;--gold:#d7bd80;--cream:#efe8d8;--muted:#a2b1b0;--line:#354747;--sea:#21444c;--danger:#e2a487;--good:#b3d3b1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 70% -15%,#2e3d39 0,transparent 45%),var(--bg);color:var(--cream);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}button,select{font:inherit}button{cursor:pointer}
+a{color:var(--gold)}.skip{position:absolute;top:-100px;left:0;background:var(--gold);color:#101a1c;padding:10px;z-index:20}.skip:focus{top:0}
+.site-top{border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;padding:17px clamp(18px,4vw,54px);gap:14px;background:#10191bdf;position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}
+.monogram{font-family:Georgia,serif;font-size:24px;letter-spacing:.07em}.monogram small{display:block;font:9px system-ui,sans-serif;letter-spacing:.25em;color:var(--muted)}.site-nav{display:flex;flex-wrap:wrap;gap:6px}.site-nav a{padding:9px 12px;text-decoration:none;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}.site-nav a:hover,.site-nav a:focus{color:var(--cream);background:#263439}
+.hero{min-height:500px;padding:85px clamp(22px,8vw,116px) 50px;display:flex;align-items:center;position:relative;overflow:hidden;isolation:isolate;border-bottom:1px solid var(--line)}
+.hero:before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(ellipse at 65% 30%,#69726738,transparent 33%),linear-gradient(125deg,#101a1c 23%,#283d3d 65%,#101a1c 100%)}.hero:after{content:"";position:absolute;left:42%;top:-65%;width:58%;height:160%;border:1px solid #bdaa7355;border-radius:50%;z-index:-1;box-shadow:0 0 0 55px #bdaa7309,0 0 0 108px #bdaa7306;transform:rotate(-17deg)}
+.kicker{text-transform:uppercase;letter-spacing:.23em;color:var(--gold);font-size:11px;font-weight:700}.hero h1{font:clamp(48px,9vw,115px)/.97 Georgia,serif;letter-spacing:-.055em;max-width:820px;margin:18px 0 30px}.hero h1 span{display:block;color:var(--gold)}.lede{font-size:clamp(17px,2.5vw,21px);color:#c7d0c9;max-width:670px;margin-bottom:29px}.hero-tags{display:flex;gap:12px;flex-wrap:wrap}.hero-tags span{border:1px solid #59635b;padding:9px 14px;border-radius:40px;font-size:11px;letter-spacing:.08em;text-transform:uppercase}.hero-note{font-size:11px;color:var(--muted);max-width:650px;margin-top:30px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}.stat{padding:27px 25px;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{display:block;font:clamp(30px,5vw,54px) Georgia,serif;color:var(--gold)}.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+main{max-width:1500px;margin:auto}.section{padding:65px clamp(18px,4vw,54px);border-bottom:1px solid var(--line)}.section-heading{display:flex;align-items:end;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:30px}.section h2{font:clamp(33px,4.5vw,56px)/1.06 Georgia,serif;letter-spacing:-.035em;margin:10px 0}.section-intro{max-width:720px;color:var(--muted);font-size:15px}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.panel{background:linear-gradient(145deg,#1b2a2c,#121f22);border:1px solid var(--line);border-radius:12px;overflow:hidden}.map-grid{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(300px,.85fr);gap:15px}.map-frame{min-height:530px;position:relative;background:radial-gradient(ellipse at 52% 40%,#2b555c,#19353c 62%,#14282e)}.map-frame svg{width:100%;height:auto;display:block}.map-stamp{position:absolute;left:20px;bottom:19px;font-size:10px;letter-spacing:.1em;background:#0e2028dd;padding:10px 13px;color:#d9c7a7;border:1px solid #54717a}.map-node{cursor:pointer;outline:none}.map-node:focus circle,.map-node:hover circle,.map-node.active circle{fill:#e8c787;stroke:white;stroke-width:3}.map-node text{font-size:12px;fill:#f6edda;paint-order:stroke;stroke:#17262b;stroke-width:4;stroke-linejoin:round;font-weight:650;pointer-events:none}
+.abstract-atlas-review{margin-top:20px}.abstract-atlas-review>summary{padding:17px 23px;cursor:pointer;color:var(--gold);font-size:13px;font-weight:650;letter-spacing:.04em}.abstract-atlas-body{padding:12px 22px 22px;display:grid;grid-template-columns:1.55fr 1fr;gap:17px}.abstract-atlas-body svg{width:100%;height:auto;border:1px solid #435950;border-radius:8px;background:#12272d}.abstract-atlas-notes p{color:var(--muted);font-size:13px}.map-detail{padding:27px;min-height:510px;display:flex;flex-direction:column}.map-detail h3{font:30px Georgia,serif;margin:12px 0}.map-detail .type{color:var(--gold);letter-spacing:.13em;text-transform:uppercase;font-size:11px}.map-detail p{color:#c4d2cd}.map-detail small{display:block;color:var(--muted);margin-top:12px}.map-lore{margin-top:auto;padding-top:25px}.legend{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;color:var(--muted);font-size:12px}.legend b{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}.year-control{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.year-control select{border:1px solid #75857b;background:#132327;color:var(--cream);border-radius:6px;padding:13px 40px 13px 13px}.era-name{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.chronicle{display:grid;grid-template-columns:235px 1fr;gap:17px}.timeline{display:grid;gap:4px;align-content:start}.year-btn{display:flex;justify-content:space-between;gap:10px;border:1px solid transparent;background:#1b282b;color:var(--muted);padding:13px 16px;text-align:left;border-radius:6px}.year-btn strong{color:var(--cream);font:18px Georgia,serif}.year-btn:hover,.year-btn:focus,.year-btn[aria-current="true"]{border-color:var(--gold);background:#303b36;color:var(--cream)}.year-btn[aria-current="true"] strong{color:var(--gold)}
+.year-main{display:grid;gap:14px}.year-hero{padding:28px 30px;display:grid;grid-template-columns:1.6fr 1fr;gap:20px}.year-hero h3{font:37px Georgia,serif;margin:12px 0}.year-hero .champion{color:var(--gold);font:25px Georgia,serif}.year-hero p{color:var(--muted);margin:10px 0}.year-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.minor-stat{border:1px solid #3c504d;border-radius:8px;padding:16px}.minor-stat strong{display:block;font:26px Georgia,serif;color:var(--cream)}.minor-stat span{font-size:11px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.round-section{padding:20px 25px}.round-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px}.round-title h4{margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.14em;color:var(--gold)}.round-title span{color:var(--muted);font-size:12px}.fixtures{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px}.fixture{border:1px solid #425653;background:#202f31;border-radius:7px;color:var(--cream);padding:16px;text-align:left;transition:border-color .1s}.fixture:hover,.fixture:focus{border-color:var(--gold)}.fixture .arena{font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}.side{display:flex;justify-content:space-between;gap:10px;margin:7px 0;font-size:13px}.side.win{font-weight:750;color:#f4e5be}.side b{font-variant-numeric:tabular-nums}.fixtures .fixture small{display:block;color:var(--muted);margin-top:12px}
+.scene-panel{padding:28px}.scene-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}.scene-header h3{font:29px Georgia,serif;margin:8px 0 18px}.stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.stage{padding:16px;border:1px solid #3b514f;background:#15282b;border-radius:7px}.stage .number{display:block;font:27px Georgia,serif;color:var(--gold)}.stage strong{display:block;text-transform:uppercase;letter-spacing:.09em;font-size:11px;margin:8px 0;color:var(--cream)}.stage p{color:#bfcdca;font-size:13px}.scene-summary{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:17px;margin-top:20px}
+.staging-preview{padding:25px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(210px,.85fr);gap:18px;border-color:#647569}.staging-preview h4{font:26px Georgia,serif;margin:8px 0}.staging-graphics{min-height:280px;background:radial-gradient(ellipse at 50% 50%,#324b45,#152528);border:1px solid #425b55;border-radius:9px;overflow:hidden}.staging-graphics svg{width:100%;height:auto;display:block}.staging-controls{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.stage-control{background:#192b2d;border:1px solid #50665e;border-radius:5px;padding:9px 12px;color:#f0e8d7;cursor:pointer;font-size:12px}.stage-control[aria-pressed="true"]{background:#544b36;border-color:#d2b67d}.stage-control:hover,.stage-control:focus-visible{border-color:#e0c98a}.staging-side p{color:#bac9c2;font-size:13px}.staging-side .primary{color:#e7cd93;font-weight:650}.previs-participant{transition:transform .85s ease-in-out}@media(prefers-reduced-motion:reduce){.previs-participant{transition:none}}
+.finale-panel{padding:30px 32px;border-color:#73654b}.finale-panel h3{font:36px Georgia,serif;margin:12px 0 5px}.finale-panel .theme{color:var(--gold);font-size:12px;letter-spacing:.08em}.finale-prose{max-width:850px}.finale-prose p{font:16px/1.85 Georgia,serif;color:#d8d8ca;margin:19px 0}.finale-foot{padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.finale-foot strong{color:var(--gold)}
+.venue-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.venue{padding:23px;min-height:205px;display:flex;flex-direction:column;gap:12px}.venue h3{margin:0;font:26px Georgia,serif}.venue .use{font-size:11px;letter-spacing:.1em;color:var(--gold);text-transform:uppercase}.venue p{color:var(--muted);font-size:13px;margin:0}.venue .small{margin-top:auto;color:#8fa9a5;font-size:12px}.venue.highlight{border-color:var(--gold)}
+.challenge-filters{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:16px}.challenge-filters label{font-size:12px;color:var(--muted)}.challenge-filters select,.challenge-filters input{background:#15282b;border:1px solid #637a70;color:var(--cream);padding:12px;border-radius:5px;min-width:170px}.challenge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}.challenge-btn{background:#1c292c;border:1px solid #3d524d;padding:16px;color:var(--cream);text-align:left;cursor:pointer;min-height:120px;border-radius:8px}.challenge-btn:hover,.challenge-btn:focus{border-color:var(--gold)}.challenge-btn strong{display:block;font:21px Georgia,serif;margin:7px 0}.challenge-btn small{color:var(--gold);text-transform:uppercase;letter-spacing:.06em}.challenge-btn p{font-size:12px;color:var(--muted)}.trial-detail h3{font:29px Georgia,serif}.trial-detail .stage-grid{margin-top:12px}.beach-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:15px}.beach-hero{padding:32px;min-height:310px;background:linear-gradient(155deg,#36392c,#172c30 72%)}.beach-hero h3{font:38px Georgia,serif;margin:15px 0}.beach-hero p{font-size:16px;color:#c8d4cc}.beach-aside{padding:30px}.beach-aside h3{font:27px Georgia,serif;margin:8px 0 15px}.beach-aside p{color:var(--muted)}.beach-progression{display:grid;grid-template-columns:repeat(4,1fr);margin-top:25px;gap:8px}.beach-progression div{background:#172727;border:1px solid #49615b;border-radius:6px;padding:12px}.beach-progression strong{font:26px Georgia,serif;display:block;color:var(--gold)}.beach-progression span{font-size:10px;color:var(--muted);text-transform:uppercase}
+.memorial{display:grid;grid-template-columns:1.1fr 1fr;gap:16px}.memorial .intro{padding:32px}.memorial .intro h3{font:37px Georgia,serif;margin:12px 0}.memorial .intro p{color:var(--muted)}.roll{padding:27px}.champ-list{display:grid;gap:8px;margin-top:22px}.champ-row{display:flex;gap:16px;padding:8px 0;border-bottom:1px solid #324644}.champ-row .year{color:var(--gold);font-variant-numeric:tabular-nums;font-size:12px;width:42px;flex-shrink:0}.champ-row .winner{font-size:13px}
+.future{padding:37px;background:linear-gradient(135deg,#263e3d,#151e21)}.future h3{font:43px Georgia,serif;margin:10px 0}.future-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:25px}.future-round{border:1px solid #56746d;padding:19px;border-radius:7px}.future-round h4{font-size:12px;color:var(--gold);margin:0 0 13px;text-transform:uppercase;letter-spacing:.11em}.future-round p{font-size:13px;color:var(--muted)}
+.source{font-size:12px;color:var(--muted);padding:25px clamp(18px,4vw,54px);border-top:1px solid var(--line)}.source strong{color:var(--cream)}.source code{color:var(--gold)}.focusable:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #e2c97e;outline-offset:2px}
+@media(max-width:1050px){.map-grid,.chronicle,.beach-grid,.memorial,.abstract-atlas-body{grid-template-columns:1fr}.timeline{grid-template-columns:repeat(6,1fr)}.year-btn{display:block;text-align:center;padding:12px 4px}.year-btn span{display:none}.map-detail{min-height:240px}}
+@media(max-width:700px){.site-top{position:relative;align-items:flex-start}.site-nav{justify-content:flex-end}.site-nav a{padding:5px;font-size:10px}.hero{min-height:390px;padding-top:50px}.hero:after{left:5%}.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border:0}.stat{padding:18px}.section{padding-top:44px;padding-bottom:44px}.year-hero,.stage-grid,.venue-grid,.challenge-grid,.future-grid,.staging-preview{grid-template-columns:1fr}.timeline{grid-template-columns:repeat(4,1fr)}.map-frame{min-height:250px}.beach-progression{grid-template-columns:repeat(2,1fr)}.memorial .intro{padding:22px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<a class="skip" href="#atlas">Skip to island</a>
+<header class="site-top"><div class="monogram">SCHEMIN' 26<small>COMMONWEALTH / CHAMPIONSHIP ARCHIVE</small></div><nav class="site-nav" aria-label="Page sections"><a href="#atlas">Island</a><a href="#history">History</a><a href="#grounds">Grounds</a><a href="#challenges">Challenges</a><a href="#ruins">Ruins</a><a href="#beach">Beach</a><a href="#memorial">Legacy</a><a href="#future">2026</a></nav></header>
+<section class="hero"><div><div class="kicker">The Twelfth Gathering · 2026 · World previsualization</div><h1>One island.<span>One survivor.</span></h1><div class="lede">Eleven championships have been decided at the same final ground. The twelfth is unwritten. Behind the fortress gates, the Commonwealth remembers every contender who crossed the causeway hoping to leave with the Belt.</div><div class="hero-tags"><span>Three quarterfinal trials</span><span>Two semifinals</span><span>One Last Field</span></div><p class="hero-note">Fictional Championship Island concept. Historic matchup results are sourced to ESPN/Flaim; island sites, stage choreography and geography are unpromoted Schemin' creative proposals.</p></div></section>
+<div class="stats" aria-label="Historical tournament facts"><div class="stat"><strong>11</strong><span>Completed years</span></div><div class="stat"><strong>56</strong><span>Title-path encounters</span></div><div class="stat"><strong>67</strong><span>Annual qualifiers</span></div><div class="stat"><strong>01</strong><span>Fixed championship ground</span></div></div>
+<main>
+<section id="atlas" class="section"><div class="section-heading"><div><div class="eyebrow">01 / Physical world</div><h2>The Precinct</h2><div class="section-intro">A seasonally occupied fortress island linked to the mainland by a monumental causeway. Every route and venue shown is provisional, schematic and not a measured Atlas coordinate.</div></div><div class="eyebrow" id="atlas-year-label">2015–2025 historical site evolution · 23 nodes · 45 proposed links</div></div><div class="map-grid"><div class="panel map-frame" id="map" role="group" aria-label="Interactive schematic championship island map"><div class="map-stamp">SCHEMATIC ONLY · NOT GIS OR ACTIVE CANON</div></div><aside class="panel map-detail" id="map-detail" aria-live="polite"><div class="type">Choose a landmark</div><h3>Championship Island</h3><p>Choose any marker on the island to inspect its role and proposed history.</p></aside></div><div class="legend"><span><b style="background:#e1c17a"></b>Title grounds</span><span><b style="background:#99c9c4"></b>Other precinct sites</span><span><b style="background:#c8a37b"></b>Heritage and hospitality</span></div>
+<details class="panel abstract-atlas-review" id="atlas-siting-review"><summary>Inspect proposed neutral causeway on existing Atlas coordinate plane</summary><div class="abstract-atlas-body"><div id="abstract-atlas-viz" aria-label="Abstract Inner Sea Littoral siting proposal"></div><div class="abstract-atlas-notes"><div class="eyebrow">Candidate geography only</div><p>All positions are illustrative World Atlas sketch coordinates, not surveyed coastline, physical distance or an approved route.</p><p>Existing LLC Storm City is shown for regional orientation. The championship precinct remains neutral and does not acquire LLC ownership.</p><p>Existing Central Basin Last Field candidate remains unchanged pending the governed supersession decision.</p><p id="siting-holds"></p></div></div></details></section>
+<section id="history" class="section"><div class="section-heading"><div><div class="eyebrow">02 / Season archive</div><h2>Eleven roads to the final</h2><div class="section-intro">Every recorded championship-bracket fixture from 2015–2025 is preserved. Select a season, then an encounter to view the three-part Inklings physical treatment.</div></div><div class="year-control"><label for="season-picker" class="eyebrow">Season</label><select id="season-picker"></select></div></div><div class="chronicle"><div id="timeline" class="timeline" aria-label="Choose historical season"></div><div class="year-main" id="year-main" aria-live="polite"></div></div></section>
+<section id="grounds" class="section"><div class="section-heading"><div><div class="eyebrow">03 / Fixed competition infrastructure</div><h2>Every round has a home</h2><div class="section-intro">A venue may gain new screens, stone repairs or spectator suites over time, but its assigned tournament round is permanent. Historic unused grounds remain visible instead of becoming interchangeable battlegrounds.</div></div></div><div class="venue-grid" id="venue-list"></div></section>
+<section id="challenges" class="section"><div class="section-heading"><div><div class="eyebrow">04 / Original championship possibilities</div><h2>The Trial Library</h2><div class="section-intro">Twelve competition families and 120 curated physical concepts. Every option has three phases and must pass the selected arena's terrain, risk and historical-era constraints. These are story possibilities, not games ESPN recorded.</div></div><div class="challenge-filters"><label for="family-picker">Competition family</label><select id="family-picker"><option value="">All families</option></select><label for="challenge-search">Find a challenge</label><input type="search" id="challenge-search" placeholder="Archery, sumo, kart, chess..." autocomplete="off" /></div></div><div id="challenge-count" class="eyebrow" aria-live="polite"></div><div id="challenge-list" class="challenge-grid"></div><div class="panel scene-panel" id="challenge-detail" aria-live="polite"></div></section>
+<section id="ruins" class="section"><div class="section-heading"><div><div class="eyebrow">05 / Terrain remembers</div><h2>Ruins & remains</h2><div class="section-intro">The maintained Last Field rises beyond areas that have been closed, flooded, repaired or abandoned. These nine proposed remnants are worldbuilding candidates, not independently verified historic battles.</div></div></div><div class="venue-grid" id="ruins-list"></div></section>
+<section id="beach" class="section"><div class="section-heading"><div><div class="eyebrow">04 / Life beyond contention</div><h2>Losers' Beach</h2><div class="section-intro">A beautiful place to be, and the one place every contender hopes to avoid. The beach grows more crowded as the championship field contracts.</div></div></div><div class="beach-grid"><div class="panel beach-hero"><div class="eyebrow">The shoreward descent</div><h3>Eleven lose.<br>One survives.</h3><p>Returning beach veterans know the cabanas, the bartenders and the best views of the Last Field. None of those advantages changes the fact that their season ended.</p></div><div class="panel beach-aside"><div class="eyebrow">Historical season selected</div><h3 id="beach-label">Loading</h3><p>Nonqualifiers begin on the beach. Eliminated competitors arrive after each certified round. The losing finalist joins them once the ceremony is over.</p><div class="beach-progression" id="beach-counts"></div></div></div></section>
+<section id="memorial" class="section"><div class="section-heading"><div><div class="eyebrow">05 / Championship succession</div><h2>The weight of the years</h2></div></div><div class="memorial"><article class="panel intro"><div class="eyebrow">The Last Field / Champions' Walk</div><h3>The Belt and the Michael Farrell Trophy</h3><p>The Belt recognizes the reigning competitive champion. The trophy carries the league's memorial tribute to former member Michael Farrell. The remembrance is dignified and separate from the rivalries and celebrations nearby.</p><p>The source archive does not establish the precise date the trophy acquired its memorial name, nor authorize invented details of Michael Farrell's life or death.</p><p>Within this proposed fictional world, every completed championship ends at the same Last Field. The original gates and stone orientation persist beneath the later broadcasting galleries.</p></article><aside class="panel roll"><div class="eyebrow">Official championship record · 2015–2025</div><div id="champ-list" class="champ-list"></div></aside></div></section>
+<section id="future" class="section"><div class="future panel"><div class="eyebrow">06 / The 12th Gathering</div><h3>2026 is not decided.</h3><p class="section-intro">Seven qualifiers will reach the island after the fourteen-week regular season. Seed #1 earns a first-round bye; three separate quarterfinals lead into two semifinals and one final. The public record does not yet identify the 2026 champion.</p><div class="future-grid"><div class="future-round"><h4>Week 15 / Quarterfinals</h4><p>Iron Quarry · Saltwind Steps · Breakwater Grounds<br>Three opponents survive.<br>First seed remains in the Bye House.</p></div><div class="future-round"><h4>Week 16 / Semifinals</h4><p>Crown Stair · Grove of Standards<br>Four contenders enter, two survive.<br>Losers' Beach gains two more.</p></div><div class="future-round"><h4>Week 17 / Championship</h4><p>The Last Field<br>Two finalist gates. One official champion.<br>Memorial and award ceremony.</p></div></div></div></section>
+</main><footer class="source"><strong>Sources and release:</strong> 2015–2025 scores, qualifiers and bracket advancement: ESPN league 1457621, accessed through Flaim historical snapshots and preserved in the Schemin repository. Arena assignments and scenes: Founder V2 draft fiction. No real coordinates are asserted. This preview is not the deployed Commonwealth Atlas. No 2026 winner is asserted. <code>PR #322 · UNPROMOTED</code></footer>
+<script id="island-data" type="application/json">__ISLAND_DATA__</script>
+<script>
+(function(){
+'use strict';
+var data=JSON.parse(document.getElementById('island-data').textContent);
+var svgNS='http://www.w3.org/2000/svg';
+var selectedYear=2025, selectedFixture=null, selectedNode='LAST_FIELD',selectedChallenge=null,stagingTimer=null;
+var byYear={},byVenue={};
+data.cards.forEach(function(c){(byYear[c.season]||(byYear[c.season]=[])).push(c);(byVenue[c.venue.name]||(byVenue[c.venue.name]=[])).push(c);});
+var nodeSiteKeys={IRON_QUARRY:'CAND-POST-IRON-QUARRY',SALTWIND_STEPS:'CAND-POST-SALTWIND',BREAKWATER_GROUNDS:'CAND-POST-BREAKWATER',CROWN_STAIR:'CAND-POST-CROWN-STAIR',GROVE_STANDARDS:'CAND-POST-GROVE',LAST_FIELD:'CAND-POST-LAST-FIELD'};
+var arenaNames={'CAND-POST-LAST-FIELD':'The Last Field','CAND-POST-IRON-QUARRY':'The Iron Quarry','CAND-POST-SALTWIND':'Saltwind Steps','CAND-POST-BREAKWATER':'Breakwater Grounds','CAND-POST-CROWN-STAIR':'Crown Stair','CAND-POST-GROVE':'Grove of Standards'};
+var physical={
+MAINLAND_PUBLIC_LITTORAL:[72,302],CAUSEWAY_OUTER_GATE:[161,302],CAUSEWAY_RIDGE:[273,302],ISLAND_ENTRY_CHECK:[398,305],HARBOR_RELIEF:[383,212],BROADCAST_HQ:[451,200],TAILGATE_COMMONS:[490,342],LOSERS_BEACH:[381,437],BEACH_PAVILIONS:[340,512],IRON_QUARRY:[516,474],SALTWIND_STEPS:[753,240],BREAKWATER_GROUNDS:[686,508],CONTENDER_FORTRESS:[610,306],BYE_HOUSE:[635,245],CROWN_STAIR:[563,169],GROVE_STANDARDS:[683,375],CHAMPIONS_WALK:[744,315],FARRELL_SANCTUARY:[797,392],MUSEUM_TROPHY_HALL:[807,332],LAST_FIELD:[843,248],LAST_FIELD_SUITES:[886,188],UTILITY_PLANT:[774,529],EMERGENCY_PIER:[851,555]
+};
+var nodeInfo={
+LAST_FIELD:'One fixed championship ground in every proposed island-era reconstruction. A historic twin-gated final stadium, later wrapped in camera galleries, ceremony suites, a museum and the memorial axis.',
+CROWN_STAIR:'The first permanent semifinal stage: a high-capacity monumental trial ground reserved for survivors approaching the championship.',
+GROVE_STANDARDS:'The second permanent semifinal ground: a sheltered ceremonial arena built around standards and disputed approach lines.',
+IRON_QUARRY:'The rugged quarry arena assigned permanently to the opening elimination round; stone benches and stratified scars chronicle returning tournaments.',
+SALTWIND_STEPS:'A cliff-side quarterfinal stadium with controlled wind exposure, high terraces and strict weather safety.',
+BREAKWATER_GROUNDS:'A seaward quarterfinal ground; protected watercourses, tide barriers and spectator structures distinguish its trials.',
+LOSERS_BEACH:'An enduring bittersweet village where unsuccessful contenders watch the championship unfold. Returning regulars are culturally familiar, never favored in scoring.',
+CAUSEWAY_RIDGE:'Monumental main connection to the mainland; the structural span and shore geometry await Atlas engineering approval.',
+FARRELL_SANCTUARY:'Protected and dignified Michael Farrell remembrance inside the Last Field precinct. No invented life story, death details or naming date.',
+CONTENDER_FORTRESS:'The secure seasonal housing complex for qualified contestants, including preparation courts and retinue access routes.',
+BROADCAST_HQ:'The proposed professional multi-camera commentary and island event control desk, subject to world-technology reconciliation.',
+CHAMPIONS_WALK:'The historical approach that preserves one championship inscription after another and leads toward the final stadium.',
+MUSEUM_TROPHY_HALL:'A championship history exhibit and trophy-holding institution, respecting the distinct historical meaning of the Belt and memorial trophy.'
+};
+function el(tag,klass,text){var n=document.createElement(tag);if(klass)n.className=klass;if(text!==undefined)n.textContent=String(text);return n;}
+function push(parent,child){parent.appendChild(child);return child;}
+function clear(n){while(n.firstChild)n.removeChild(n.firstChild);}
+function svg(tag,props,parent){var n=document.createElementNS(svgNS,tag);Object.keys(props).forEach(function(k){n.setAttribute(k,props[k]);});if(parent)parent.appendChild(n);return n;}
+function seasonLabel(y){return y<=2016?'The Four · Founding Era':y<=2020?'The Six · Expansion Era':'The Seven · Modern Era';}
+function winners(c){var v=c.verified;return v.home.team_slot===v.winner_slot?v.home:v.away;}
+function oldF(y){return byYear[y].filter(function(c){return c.round==='FINAL';})[0];}
+function renderMap(){
+var frame=document.getElementById('map');var prior=frame.querySelector('svg');if(prior)prior.remove();
+var s=svg('svg',{viewBox:'0 0 980 650',role:'img','aria-label':'Schematic island with causeway, beach, training quarters, fixed arenas and championship field'});frame.appendChild(s);
+svg('path',{d:'M355 100 C435 36 580 69 689 87 C791 114 897 139 924 265 C958 403 911 538 842 575 C726 617 591 581 498 572 C393 550 315 488 322 377 C321 267 305 170 355 100Z',fill:'#65766b',stroke:'#d5c18e','stroke-width':4},s);
+svg('path',{d:'M381 133 Q515 97 694 111 T907 303 Q898 477 790 555 Q688 585 542 546 Q455 507 370 399 Q342 277 381 133Z',fill:'#263d36',stroke:'#536b5e','stroke-width':2},s);
+svg('path',{d:'M330 394 Q402 398 449 433 Q454 492 399 545 L328 506Z',fill:'#bea77b',stroke:'#e2d0a4','stroke-width':2},s);
+svg('path',{d:'M80 292 L390 292 L390 312 L80 312Z',fill:'#baad88',stroke:'#e7dfc3','stroke-width':2},s);
+svg('path',{d:'M42 231 L93 224 L93 395 L42 392Z',fill:'#5a6054',stroke:'#ddca9a','stroke-width':1.5},s);
+svg('path',{d:'M540 145L645 185L692 285L674 343L604 372L511 315Z',fill:'#45524b',stroke:'#85967e','stroke-width':1.5},s);
+svg('path',{d:'M765 179L865 214L899 308L815 351L748 301Z',fill:'#5a6958',stroke:'#899479','stroke-width':1.5},s);
+svg('text',{x:31,y:208,fill:'#d4d0b4','font-size':15,'font-family':'Georgia'},s).textContent='MAINLAND';
+svg('text',{x:367,y:625,fill:'#d9d3b9','font-size':15,'font-family':'Georgia','letter-spacing':'3'},s).textContent='THE INNER SEA';
+data.topology.edges.forEach(function(e){
+var a=physical[e.from],b=physical[e.to];if(!a||!b)return;
+svg('line',{x1:a[0],y1:a[1],x2:b[0],y2:b[1],stroke:'#d0d1a6','stroke-width':e.modes.indexOf('public')>-1?2:1,'stroke-opacity':e.modes.indexOf('public')>-1?.47:.2,'stroke-dasharray':e.modes.indexOf('public')>-1?'':'4 6'},s);
+});
+var labels={LAST_FIELD:'LAST FIELD',CROWN_STAIR:'CROWN STAIR',GROVE_STANDARDS:'THE GROVE',IRON_QUARRY:'IRON QUARRY',SALTWIND_STEPS:'SALTWIND',BREAKWATER_GROUNDS:'BREAKWATER',LOSERS_BEACH:'LOSERS BEACH',CAUSEWAY_RIDGE:'THE CAUSEWAY',CONTENDER_FORTRESS:'CONTENDERS',BROADCAST_HQ:'BROADCAST',CHAMPIONS_WALK:'CHAMPIONS WALK',FARRELL_SANCTUARY:'MEMORIAL'};
+data.topology.nodes.forEach(function(node){
+var p=physical[node.id];if(!p)return;
+var historicSite=nodeSiteKeys[node.id];
+var founded=historicSite?data.sites.sites.find(function(v){return v.id===historicSite;}):null;
+var openYear=founded&&founded.first_proposed_appearance!==null?founded.first_proposed_appearance:2015;
+var notBuiltYet=!!founded&&selectedYear<openYear;
+var venueUsage=data.sites.annual.find(function(y){return y.year===selectedYear;});
+var activeThisYear=!!historicSite&&!!venueUsage&&venueUsage.site_ids.includes(historicSite);
+var g=svg('g',{'class':'map-node'+(selectedNode===node.id?' active':'')+(notBuiltYet?' planned-future':''),
+ tabindex:'0',role:'button','aria-label':node.name+(notBuiltYet?' (not yet an active competition stadium in '+selectedYear+')':activeThisYear?' (active in '+selectedYear+')':''),'data-node':node.id,
+ 'data-history-state':notBuiltYet?'NOT_BUILT':activeThisYear?'ACTIVE':'SUPPORT_OR_DORMANT'},s);
+if(notBuiltYet)g.setAttribute('opacity','.32');
+var title=svg('title',{},g);title.textContent=node.name;
+svg('circle',{cx:p[0],cy:p[1],r:labels[node.id]?8:5,fill:node.use==='final'||node.use==='quarterfinal'||node.use==='semifinal'?'#e0bc76':'#9cc9ba',stroke:'#162827','stroke-width':2},g);
+if(labels[node.id]){var t=svg('text',{x:p[0],y:p[1]-17,'text-anchor':'middle'},g);t.textContent=labels[node.id];}
+g.addEventListener('click',function(){selectedNode=node.id;renderMap();renderMapDetail();});
+g.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();selectedNode=node.id;renderMap();renderMapDetail();}});
+});
+}
+function renderMapDetail(){
+var d=document.getElementById('map-detail');clear(d);
+var node=data.topology.nodes.find(function(x){return x.id===selectedNode;});if(!node)return;
+push(d,el('div','type',node.use.replaceAll('_',' ')));
+push(d,el('h3','',node.name));
+push(d,el('p','',nodeInfo[node.id]||'A proposed functional node in the Championship Island precinct. Exact location and structure remain subject to Atlas site governance.'));
+var venue=data.sites.sites.find(function(x){return x.id && arenaNames[x.id] && (node.name.toLowerCase().includes(arenaNames[x.id].toLowerCase().replace('the ',''))||arenaNames[x.id].toLowerCase().includes(node.name.toLowerCase().replace(' stadium','')));});
+if(venue)push(d,el('small','',venue.fixtures_count+' fictional historical encounter allocations · round: '+venue.round_assignment.replaceAll('_',' ')));
+var siteId=nodeSiteKeys[selectedNode];
+if(siteId){
+ var founded=data.sites.sites.find(function(x){return x.id===siteId;});
+ var annualSite=data.sites.annual.find(function(x){return x.year===selectedYear;});
+ var annualMemory=data.impacts.annual_states.find(function(x){return x.year===selectedYear;});
+ var memory=annualMemory?.site_views.find(function(x){return x.site_id===siteId;});
+ var active=annualSite?.site_ids.includes(siteId);
+ push(d,el('p','', 'Year '+selectedYear+': '+(selectedYear<(founded?.first_proposed_appearance||2015)?'Site not yet opened for competition':active?'Designated event grounds operational':'Dormant or under seasonal maintenance')+'.'));
+ push(d,el('p','', 'Permanent traces accumulated: '+(memory?.permanent_count||0)+'. These are proposed in-world material memories and have been safely repaired or archived.'));
+}
+push(d,el('small','', 'World status: proposed island / coordinates unverified'));
+var bottom=push(d,el('div','map-lore'));
+push(bottom,el('div','eyebrow','Linked world history'));
+push(bottom,el('p','', 'Every approved location must eventually inherit governed routes, physical terrain, weather, spectator flows and persistent yearly state.'));
+}
+function renderAtlasSitingReview(){
+var x=data.atlasSiting.hypothesis,parent=document.getElementById('abstract-atlas-viz');
+if(!x||!parent)return;
+clear(parent);
+var s=svg('svg',{viewBox:'0 0 720 420',role:'img','aria-label':'Abstract proposed region-level island and neutral bridge candidate, not geographic shoreline map'},parent);
+var toX=function(v){return 52+(v-55)/45*616};
+var toY=function(v){return 362-v/25*292};
+svg('rect',{x:52,y:70,width:616,height:292,fill:'#1b414a',stroke:'#92b7b1','stroke-width':1.2},s);
+for(var i=55;i<=100;i+=9)svg('line',{x1:toX(i),y1:70,x2:toX(i),y2:362,stroke:'#89aaa5','stroke-opacity':.15},s);
+for(var j=0;j<=25;j+=5)svg('line',{x1:52,y1:toY(j),x2:668,y2:toY(j),stroke:'#89aaa5','stroke-opacity':.15},s);
+var title=svg('text',{x:360,y:45,'text-anchor':'middle',fill:'#e2c78f','font-size':18,'font-family':'Georgia'},s);title.textContent='Inner Sea Littoral · Abstract Atlas preview';
+var pts=x.candidate_outer_envelope,poly=[pts.western_edge,pts.northern_ridge,pts.eastern_seawall,pts.southern_harbor];
+svg('polygon',{points:poly.map(p=>toX(p[0])+','+toY(p[1])).join(' '),fill:'#526956','fill-opacity':.9,stroke:'#e6ca91','stroke-width':2},s);
+svg('polyline',{points:x.causeway_crossing.abstract_path.map(p=>toX(p[0])+','+toY(p[1])).join(' '),fill:'none',stroke:'#edd8a2','stroke-width':7,'stroke-linecap':'round','stroke-linejoin':'round'},s);
+function point(p,label,color,dx,dy){
+svg('circle',{cx:toX(p[0]),cy:toY(p[1]),r:6.3,fill:color,stroke:'#fff1c8','stroke-width':1.5},s);
+var txt=svg('text',{x:toX(p[0])+(dx||0),y:toY(p[1])+(dy||-14),'text-anchor':'middle',fill:'#f0e6d6','font-size':11,'paint-order':'stroke',stroke:'#183238','stroke-width':3},s);
+txt.textContent=label;
+}
+point(x.public_mainland_gate.abstract_position,'Neutral mainland gate','#ddb979',-36,-18);
+point(x.island_centre.abstract_position,'Island precinct','#e1c789',7,20);
+point([83,20],'Existing LLC Storm City (owner-linked)','#b6a2a4',-35,-16);
+for(const [k,p] of Object.entries(x.landmark_sites)){
+ if(!/FIELD|QUARRY|SALTWIND|BREAKWATER|STAIR|GROVE/.test(k))continue;
+ point(p,k.replace('CAND_POST_','').replaceAll('_',' '),'#a9d6cb',0,-9);
+}
+var f=svg('text',{x:360,y:396,'text-anchor':'middle',fill:'#afc5c1','font-size':11},s);
+f.textContent='UNSURVEYED — no real coastline, distances or legal ownership boundary asserted';
+document.getElementById('siting-holds').textContent=data.atlasSiting.approval_checks.length+' Atlas and governance checks remain open before any LOC or causeway route is activated.';
+}
+function selectedSeason(y){selectedYear=y;selectedFixture=null;document.getElementById('season-picker').value=String(y);document.getElementById('atlas-year-label').textContent='Viewing '+y+' historical island state · 23 planned nodes · 45 access links';renderMap();renderMapDetail();renderHistory();renderBeach();renderVenues();}
+function renderHistory(){
+var timeline=document.getElementById('timeline');clear(timeline);
+data.cardsAnnual.forEach(function(a){
+var btn=el('button','year-btn');btn.type='button';btn.setAttribute('aria-current',a.season===selectedYear?'true':'false');push(btn,el('strong','',a.season));push(btn,el('span','',a.contender_berths+' contenders'));btn.addEventListener('click',function(){selectedSeason(a.season);});push(timeline,btn);
+});
+var main=document.getElementById('year-main');clear(main);
+var fin=oldF(selectedYear),win=winners(fin),annual=data.cardsAnnual.find(function(x){return x.season===selectedYear;});
+var hero=push(main,el('div','year-hero panel'));var intro=push(hero,el('div'));push(intro,el('div','eyebrow',selectedYear+' · '+seasonLabel(selectedYear)));push(intro,el('h3','', 'The '+selectedYear+' Gathering'));push(intro,el('div','eyebrow','Recorded champion'));push(intro,el('div','champion',win.name));
+push(intro,el('p','',annual.world_state));
+var impactYear=data.impacts.annual_states.find(function(y){return y.year===selectedYear;});
+if(impactYear)push(intro,el('p','',impactYear.cumulative_traces_at_close+' persistent venue markings accumulated from 2015 through '+selectedYear+'. Each has a safe restored or archived state.'));
+
+var mediaState=data.broadcast.years.find(function(x){return x.year===selectedYear;});
+if(mediaState){
+ push(intro,el('div','eyebrow','Broadcast heritage · '+mediaState.era_status.replaceAll('_',' ')));
+ push(intro,el('p','',mediaState.coverage_heritage_proposal));
+}
+var stats=push(hero,el('div','year-stats'));
+[[annual.contender_berths,'Entrants'],[annual.bye_slots.length,'Byes'],[annual.card_ids.length,'Title-path matches'],[12-annual.contender_berths,'Initial beach guests']].forEach(function(s){var m=push(stats,el('div','minor-stat'));push(m,el('strong','',s[0]));push(m,el('span','',s[1]));});
+var rounds=[['QF','Quarterfinals'],['SF','Semifinals'],['FINAL','The Championship']];
+rounds.forEach(function(pair){
+var matches=byYear[selectedYear].filter(function(c){return c.round===pair[0];});
+if(!matches.length)return;
+var sect=push(main,el('div','round-section panel'));var heading=push(sect,el('div','round-title'));push(heading,el('h4','',pair[1]));push(heading,el('span','',matches.length+' verified encounter'+(matches.length!==1?'s':'')));
+var grid=push(sect,el('div','fixtures'));
+matches.forEach(function(c){var b=push(grid,el('button','fixture'));b.type='button';b.setAttribute('aria-label','Inspect '+c.verified.home.name+' versus '+c.verified.away.name);
+push(b,el('div','arena',c.venue.name));[c.verified.home,c.verified.away].forEach(function(side){var line=push(b,el('div','side'+(side.team_slot===c.verified.winner_slot?' win':'')));push(line,el('span','',side.name));push(line,el('b','',side.points.toFixed(2)));});push(b,el('small','', 'VIEW THREE-STAGE ENCOUNTER'));b.addEventListener('click',function(){selectedFixture=c;renderSelectedScene(main);});});
+});
+selectedFixture=selectedFixture||byYear[selectedYear][0];renderSelectedScene(main);renderFinale(main);
+}
+function renderSelectedScene(main){
+var old=main.querySelector('.scene-panel');if(old)old.remove();if(!selectedFixture)return;
+var c=selectedFixture;var d=push(main,el('section','scene-panel panel'));d.setAttribute('aria-label','Selected three-stage encounter');
+var head=push(d,el('div','scene-header'));push(head,el('div','eyebrow',c.round+' / '+c.venue.name+' / '+c.season));push(head,el('div','eyebrow','Fictional choreography · verified winner'));
+push(d,el('h3','',c.verified.home.name+' vs '+c.verified.away.name));
+var revision=data.soloScenes.cards.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+var selectedDraw=data.ceremonial.ceremonies.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+if(selectedDraw)push(d,el('p','eyebrow','CEREMONIAL DRAW · '+(revision?revision.draw.name:selectedDraw.selected_obstacle_id)+' · retrospective fiction'));
+var grid=push(d,el('div','stage-grid'));
+(revision?revision.acts:c.beat_sequence).forEach(function(st){
+ var card=push(grid,el('div','stage'));
+ push(card,el('span','number','0'+(st.number||st.n)));
+ push(card,el('strong','',st.label||st.stage_label||'physical challenge'));
+ push(card,el('p','',st.scene_text||st.action));
+});
+var foot=push(d,el('div','scene-summary'));
+push(foot,el('strong','', 'Official survivor: '+winners(c).name+'. '));
+push(foot,document.createTextNode(c.storyroom.camp_effect));
+push(foot,el('p','', 'SPECTATOR CUTAWAY: '+c.storyroom.spectator_cutaway));
+push(foot,el('p','', 'HERITAGE: '+c.storyroom.heritage_consequence));
+var lasting=data.impacts.traces.find(function(t){return t.fixture_id===c.verified_fixture_id;});
+if(lasting) {
+ push(foot,el('p','', 'PERMANENT ISLAND TRACE: '+lasting.impact.material_consequence+'. After safe repair the original mark or piece remains identifiable in the record.'));
+ push(foot,el('p','', 'MAINTAINED SINCE: '+lasting.year+'. The Last Field keeps its founding gates and foundation intact.'));
+}
+var body=data.bodyEffects.games.find(function(g){return g.fixture_id===c.verified_fixture_id;});
+if(body)push(foot,el('p','', 'PERSONAL PHYSICAL CONSEQUENCES (FICTION): '+body.team_slot_health_fiction.map(function(x){return x.franchise_name+': '+x.in_contest_personal_effect;}).join(' · ')));
+
+var option=data.bindings.proposals.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+if(option) {
+ var idea=push(foot,el('p',''));
+ push(idea,el('strong','', 'ALTERNATE INKLINGS OBSTACLE: '));
+ push(idea,document.createTextNode(option.scenario+' — '+option.family+'. '+option.physical_contract.terrain+'. Proposed only; source results remain unchanged.'));
+}
+var shotplan=data.storyboard.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+if(shotplan){
+var deck=push(foot,el('details','shot-deck'));var caption=push(deck,el('summary','',shotplan.shots.length+'-shot cinematic previsualization plan'));caption.setAttribute('aria-label','Open visual sequence camera plan');
+shotplan.shots.forEach(function(sh){push(deck,el('p','',sh.id.split('-').slice(-1)[0]+' · '+sh.beat.replaceAll('_',' ')+' / '+sh.lens.replaceAll('_',' ')+': '+sh.visual));});
+}
+push(foot,el('p','', 'The individual physical actions, visual shot plans, and spectator responses are fictional Inklings preproduction. Official ESPN history determines the scores and winner.'));
+renderStagingPreview(main,c);
+
+}
+function renderStagingPreview(main,c){
+if(stagingTimer!==null){clearTimeout(stagingTimer);stagingTimer=null;}
+var existing=main.querySelector('.staging-preview');if(existing)existing.remove();
+var source=data.spatial.scene_packets.find(function(x){return x.fixture_id===c.verified_fixture_id;});if(!source)return;
+var wrap=push(main,el('section','staging-preview panel'));wrap.setAttribute('aria-label','Interactive schematic three-phase spatial contest preview');
+var left=push(wrap,el('div'));
+push(left,el('div','eyebrow','Atlas × Inklings / interactive previsualization'));
+push(left,el('h4','',c.venue.name+' · '+c.round));
+var board=push(left,el('div','staging-graphics'));
+var s=svg('svg',{viewBox:'0 0 600 360',role:'img','aria-label':'Three-phase schematic playing surface showing both solo contestants advancing from separate entries'});
+board.appendChild(s);
+svg('rect',{x:0,y:0,width:600,height:360,fill:'#172a2c'},s);
+svg('ellipse',{cx:300,cy:180,rx:288,ry:172,fill:'#293630',stroke:'#c6b482','stroke-width':2},s);
+svg('ellipse',{cx:300,cy:180,rx:241,ry:148,fill:'#284a45',stroke:'#65847a','stroke-width':1.5},s);
+svg('ellipse',{cx:300,cy:180,rx:206,ry:126,fill:'#24403e',stroke:'#9cb4a3','stroke-dasharray':'7 9','stroke-width':2},s);
+var terrain=svg('g',{'class':'venue-terrain','data-venue':source.site},s);
+if(source.site==='CAND-POST-IRON-QUARRY'){
+ [180,197,214].forEach(function(rad){svg('path',{d:'M '+(300-rad)+' 170 Q 300 '+(170-rad*.45)+' '+(300+rad)+' 170',fill:'none',stroke:'#bca47b','stroke-opacity':.35,'stroke-width':3},terrain);});
+ svg('path',{d:'M115 275 L153 292 L179 264 M421 264 L453 292 L483 275',fill:'none',stroke:'#bcb0a1','stroke-width':5,'stroke-opacity':.55},terrain);
+}else if(source.site==='CAND-POST-SALTWIND'){
+ for(var w=0;w<8;w++)svg('path',{d:'M '+(117+w*43)+' 120 l 36 -28',fill:'none',stroke:'#b9d5ce','stroke-width':2,'stroke-opacity':.45,'stroke-linecap':'round'},terrain);
+ svg('path',{d:'M95 270 Q160 240 211 267 M393 267 Q460 245 508 270',fill:'none',stroke:'#afbbbc','stroke-width':3},terrain);
+}else if(source.site==='CAND-POST-BREAKWATER'){
+ svg('rect',{x:107,y:117,width:42,height:140,rx:8,fill:'#27616b','fill-opacity':.78},terrain);
+ svg('rect',{x:450,y:117,width:42,height:140,rx:8,fill:'#27616b','fill-opacity':.78},terrain);
+ for(var kx=0;kx<4;kx++){svg('path',{d:'M'+(111+kx*7)+' 132 q 12 12 0 24',stroke:'#78b5ba',fill:'none','stroke-opacity':.45},terrain);}
+}else if(source.site==='CAND-POST-CROWN-STAIR'){
+ for(var sy=96;sy<291;sy+=22)svg('line',{x1:143,y1:sy,x2:457,y2:sy,stroke:'#cab899','stroke-width':6,'stroke-opacity':.26},terrain);
+}else if(source.site==='CAND-POST-GROVE'){
+ [[130,120],[470,120],[112,233],[488,233],[190,288],[414,287]].forEach(function(pos){svg('circle',{cx:pos[0],cy:pos[1],r:13,fill:'#355b48',stroke:'#739575','stroke-width':2},terrain);svg('circle',{cx:pos[0],cy:pos[1],r:4,fill:'#a0b47c'},terrain);});
+}else if(source.site==='CAND-POST-LAST-FIELD'){
+ svg('path',{d:'M121 148 h35 v69 h-35 z M444 148 h35 v69 h-35 z',stroke:'#cfb889',fill:'#625e4a','stroke-width':3},terrain);
+ svg('ellipse',{cx:300,cy:183,rx:180,ry:104,fill:'none',stroke:'#e7ca89','stroke-width':3,'stroke-opacity':.6},terrain);
+ svg('text',{x:300,y:62,fill:'#e0c997','text-anchor':'middle','font-size':10,'letter-spacing':2},terrain).textContent='ORIGINAL CHAMPIONSHIP GATES';
+}
+
+for(var k=0;k<3;k++){
+ var y=102+k*79;
+ svg('line',{x1:105,y1:y,x2:496,y2:y,stroke:'#b0ba9a','stroke-opacity':.32,'stroke-dasharray':'4 8'},s);
+ var t=svg('text',{x:302,y:y-11,'text-anchor':'middle',fill:'#d5ccad','font-size':11,'letter-spacing':'2'},s);t.textContent='PHASE '+(k+1);
+}
+svg('text',{x:60,y:193,fill:'#e0bd89','font-size':12,'font-family':'Georgia'},s).textContent='A GATE';
+svg('text',{x:492,y:193,fill:'#9dcfc7','font-size':12,'font-family':'Georgia'},s).textContent='B GATE';
+var scar=svg('g',{},s);
+svg('circle',{cx:300,cy:306,r:10,fill:'#c49a6b',stroke:'#fcdf99','stroke-width':2},scar);
+svg('text',{x:300,y:334,fill:'#cbb79a','text-anchor':'middle','font-size':10},scar).textContent='HERITAGE TRACE';
+function mark(label,fill){
+ var g=svg('g',{class:'previs-participant',role:'img','aria-label':label},s);
+ g.style.transform='translate(300px,180px)';
+ svg('circle',{cx:0,cy:0,r:18,fill:fill,stroke:'#fff0c8','stroke-width':2.2},g);
+ var tx=svg('text',{x:0,y:5,'text-anchor':'middle',fill:'#172323','font-size':15,'font-weight':'bold'},g);tx.textContent=label;
+ return g;
+}
+var a=mark('A','#e3bd7a'),b=mark('B','#95cfc7');
+var controls=push(left,el('div','staging-controls')),buttons=[];
+var aside=push(wrap,el('aside','staging-side'));
+push(aside,el('div','eyebrow','Direct owner-character performance'));
+push(aside,el('p','primary','A: '+c.verified.home.name));
+push(aside,el('p','primary','B: '+c.verified.away.name));
+var label=push(aside,el('div','eyebrow','Phase 1'));
+var desc=push(aside,el('p','',source.stage_axes[0].A_action+'. The other contender personally counters the same trial.'));
+push(aside,el('p','', 'Terrain: '+source.terrain.ground+'. ' +source.terrain.slope+'. Broadcast and spectator movement remain on separate planned routes.'));
+push(aside,el('p','', 'This is non-metric motion previsualization, not an actual physics simulation, a game result, a GIS map or an approved safety plan.'));
+var rig=data.rigs.find(function(x){return x.fixture_id===c.verified_fixture_id;});
+if(rig){
+ push(aside,el('p','primary','Rig interlock: '+rig.type.replaceAll('_',' ')));
+ push(aside,el('p','', 'Audited sequence: '+rig.staging_events+' procedural events across three phases. '+rig.scale+'. This does not certify real-world mechanical forces or choose a winner.'));
+}
+function showStage(i){
+ var st=source.stage_axes[i],scale=136;
+ a.style.transform='translate('+(300+st.A[0]*scale)+'px,'+(180+st.A[1]*scale)+'px)';
+ b.style.transform='translate('+(300+st.B[0]*scale)+'px,'+(180+st.B[1]*scale)+'px)';
+ label.textContent='Phase '+(i+1)+' · '+st.name;
+ desc.textContent='A: '+st.A_action+'. B: '+st.B_action+'. Both act personally. No winner can be inferred from the drawn pathway.';
+ buttons.forEach(function(btn,j){btn.setAttribute('aria-pressed',j===i?'true':'false')});
+}
+for(var i=0;i<3;i++){(function(idx){var btn=push(controls,el('button','stage-control','Phase '+(idx+1)));btn.type='button';btn.setAttribute('aria-pressed','false');btn.addEventListener('click',function(){if(stagingTimer!==null){clearTimeout(stagingTimer);stagingTimer=null;}showStage(idx)});buttons.push(btn);})(i);}
+var play=push(controls,el('button','stage-control','Play all stages'));play.type='button';
+play.addEventListener('click',function(){
+ if(stagingTimer!==null){clearTimeout(stagingTimer);stagingTimer=null;}
+ var motion=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ showStage(0);
+ if(motion)return;
+ function next(i){
+  if(i>2){stagingTimer=null;return;}
+  stagingTimer=setTimeout(function(){showStage(i);next(i+1);},1200);
+ }
+ next(1);
+});
+showStage(0);
+}
+function renderFinale(main){
+var scene=data.finales.find(function(x){return x.year===selectedYear;});if(!scene)return;
+var article=push(main,el('article','panel finale-panel'));article.setAttribute('aria-label','Original annual championship finale treatment');
+push(article,el('div','eyebrow','Inklings / annual Last Field scene / original fiction'));
+push(article,el('h3','',scene.title));
+push(article,el('div','theme',scene.angle));
+if(scene.ceremonial_draw)push(article,el('p','eyebrow','2026-11-19 Founder Interview II / retrospective ceremonial draw: '+scene.ceremonial_draw.name));
+var prose=push(article,el('div','finale-prose'));
+scene.prose.forEach(function(p){push(prose,el('p','',p));});
+var foot=push(article,el('div','finale-foot'));
+push(foot,el('strong','', 'Broadcast: '));push(foot,document.createTextNode(scene.broadcast));
+push(foot,el('p','', 'Beach consequence: '+scene.beach));
+push(foot,el('p','', 'Historical scores are verified. Physical actions, island atmosphere, and fictional commentary are proposed literary treatments, not documentary facts.'));
+}
+function renderVenues(){
+var target=document.getElementById('venue-list');clear(target);
+var order=['QUARTERFINAL_ONLY','SEMIFINAL_ONLY','FINAL_ONLY','RETIRED_EXHIBITION_HERITAGE','HERITAGE_CAUSEWAY_NOT_BRACKET_MATCH'];
+data.sites.sites.slice().sort(function(a,b){return order.indexOf(a.round_assignment)-order.indexOf(b.round_assignment);}).forEach(function(v){
+var panel=push(target,el('article','panel venue'+(v.usage_years.indexOf(selectedYear)>-1?' highlight':'')));push(panel,el('div','use',v.round_assignment.replaceAll('_',' ')));push(panel,el('h3','',v.name));push(panel,el('p','',v.morphology+'. '+v.heritage));push(panel,el('div','small',v.fixtures_count+' proposed historical contest'+(v.fixtures_count!==1?'s':'')+' · '+(v.usage_years.indexOf(selectedYear)>-1?'USED IN '+selectedYear:'NOT USED IN '+selectedYear)));
+});
+}
+function renderChallenges(){
+var picker=document.getElementById('family-picker'),query=document.getElementById('challenge-search');
+data.obstacles.families.forEach(function(f){var option=el('option','',f.label);option.value=f.slug;push(picker,option);});
+var counter=document.getElementById('challenge-count'),list=document.getElementById('challenge-list');
+function refresh(){
+clear(list);var term=query.value.toLowerCase().trim();
+var filtered=data.obstacles.obstacles.filter(function(o){return (!picker.value||o.family===picker.value)&&(!term||(o.name+' '+o.family+' '+o.hook).toLowerCase().includes(term));});
+counter.textContent=filtered.length+' of 120 challenge seeds · Select one to inspect its three stages';
+filtered.slice(0,60).forEach(function(o){var btn=push(list,el('button','challenge-btn'));btn.type='button';push(btn,el('small','',o.family+' / since '+o.earliest_year));push(btn,el('strong','',o.name));push(btn,el('p','',o.hook));btn.addEventListener('click',function(){selectedChallenge=o.id;renderChallengeDetail(o);});});
+if(filtered.length>60)push(list,el('p','', '60 shown. Narrow your family or search to see the remainder.'));
+if(filtered.length===0)push(list,el('p','', 'No matches. Search another sport or competition form.'));
+}
+picker.addEventListener('change',refresh);query.addEventListener('input',refresh);
+refresh();renderChallengeDetail(data.obstacles.obstacles[0]);
+}
+function renderChallengeDetail(o){
+var d=document.getElementById('challenge-detail');clear(d);d.classList.add('trial-detail');
+push(d,el('div','eyebrow','Inklings / candidate physical contest'));
+push(d,el('h3','',o.name));
+push(d,el('p','', 'Risk category: '+o.risk_class+' · First era allowed: '+o.earliest_year+' · Physical needs: '+o.needs.join(', ')));
+var grid=push(d,el('div','stage-grid'));
+o.three_phase.forEach(function(st){var block=push(grid,el('div','stage'));push(block,el('span','number','0'+st.n));push(block,el('strong','',st.beat));push(block,el('p','',st.objective+' '+st.unique_action));});
+var fit=push(d,el('div','scene-summary'));
+push(fit,el('div','eyebrow','Physical & spatial challenge lab'));
+var form=push(fit,el('div','challenge-filters'));
+push(form,el('label','','Arena'));var venue=push(form,el('select'));venue.id='trial-venue';
+Object.keys(data.physicsProfiles).forEach(function(id){var opt=el('option','',id.replace('CAND-POST-','').replaceAll('-',' '));opt.value=id;push(venue,opt);});
+push(form,el('label','','Era'));var era=push(form,el('select'));era.id='trial-year';
+[2015,2017,2021,2026].forEach(function(year){var opt=el('option','',year);opt.value=year;push(era,opt);});era.value='2026';
+push(form,el('label','','Conditions'));var weather=push(form,el('select'));weather.id='trial-conditions';
+['FAIR','STORM','STORM_SURGE','FIRE_ALERT'].forEach(function(x){var opt=el('option','',x.replaceAll('_',' '));opt.value=x;push(weather,opt);});
+var feedback=push(fit,el('p'));feedback.id='trial-fit';feedback.setAttribute('aria-live','polite');
+var safety=push(fit,el('p'));safety.id='trial-controls';safety.style.fontSize='12px';
+function update(){
+var v=data.physicsProfiles[venue.value],y=Number(era.value),conditions=weather.value;var reasons=[];
+
+if(y<v.first_playoff_year)reasons.push('Arena not active in selected era');
+if(y<o.earliest_year)reasons.push('Challenge technology not introduced yet');
+o.needs.forEach(function(need){if(v.capacities.indexOf(need)<0)reasons.push('Missing venue affordance: '+need);});
+if(v.weather==='wind_exposed'&&conditions==='STORM')reasons.push('Exposed cliff closed in storm');
+if(v.weather==='tide_sensitive'&&conditions==='STORM_SURGE')reasons.push('Unsafe harbor tide');
+if(v.weather==='tree_canopy'&&conditions==='FIRE_ALERT'&&['TACTICAL','PROJECTILE'].includes(o.risk_class))reasons.push('Grove fire-risk closure');
+feedback.textContent=reasons.length?'NOT FEASIBLE — '+reasons.join('; '):'ELIGIBLE CANDIDATE — Arena provides the required physical space for this scenario. Still not a published match or safety certification.';
+safety.textContent='Required risk controls: '+(data.riskControls[o.risk_class]||[]).join(' · ')+'. No winner can be inferred from this preview.';
+}
+[venue,era,weather].forEach(function(x){x.addEventListener('change',update);});update();
+}
+function renderRuins(){
+var list=document.getElementById('ruins-list');clear(list);
+data.material.perimeter_ruins.forEach(function(r){var card=push(list,el('article','venue panel'));push(card,el('div','use',r.state.replaceAll('_',' ')));push(card,el('h3','',r.name));push(card,el('p','',r.narrative));push(card,el('div','small','', 'Candidate heritage · '+r.use.replaceAll('_',' ')));});
+}
+function renderBeach(){
+var a=data.cardsAnnual.find(function(x){return x.season===selectedYear;});
+document.getElementById('beach-label').textContent=selectedYear+' · '+seasonLabel(selectedYear);
+var g=document.getElementById('beach-counts');clear(g);
+[['Arrival',a.beginning_beach_population],['After opening eliminations',a.after_first_elimination_beach_population],['Before final',a.before_final_beach_population],['After final',a.post_final_nonchampion_population]].forEach(function(k){var item=push(g,el('div'));push(item,el('strong','',k[1]));push(item,el('span','',k[0]));});
+}
+function renderChampions(){
+var target=document.getElementById('champ-list');clear(target);
+data.cardsAnnual.forEach(function(a){
+var card=byYear[a.season].find(function(c){return c.round==='FINAL';});
+var row=push(target,el('div','champ-row'));push(row,el('span','year',a.season));push(row,el('span','winner',winners(card).name));
+});
+}
+var picker=document.getElementById('season-picker');
+data.cardsAnnual.forEach(function(a){var o=el('option','',a.season+' — '+winners(oldF(a.season)).name);o.value=a.season;push(picker,o);});
+picker.addEventListener('change',function(){selectedSeason(Number(picker.value));});
+renderMap();renderMapDetail();renderAtlasSitingReview();renderChampions();renderChallenges();renderRuins();selectedSeason(2025);
+})();
+</script></body></html>

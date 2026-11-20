@@ -1,0 +1,4218 @@
+{
+  "schema": "schemin.postseason.inklings_remaining_story_production_queue.v1",
+  "status": "FOUNDER_AUTHORIZED_50_UNFINISHED_FIXTURE_EDITORIAL_ASSIGNMENTS",
+  "source": "HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json",
+  "existing_audited_longform": [
+    "HIST-POST-2015-FINAL-1",
+    "HIST-POST-2018-QF-1",
+    "HIST-POST-2020-SF-1",
+    "HIST-POST-2022-SF-1",
+    "HIST-POST-2025-SF-2",
+    "HIST-POST-2025-FINAL-1"
+  ],
+  "census": {
+    "historical_fixtures": 56,
+    "audited_screenplay_pilots": 6,
+    "remaining_unwritten_pilots": 50,
+    "by_year": {
+      "2015": 2,
+      "2016": 3,
+      "2017": 5,
+      "2018": 4,
+      "2019": 5,
+      "2020": 4,
+      "2021": 6,
+      "2022": 5,
+      "2023": 6,
+      "2024": 6,
+      "2025": 4
+    }
+  },
+  "method": "Prioritize championship title stakes, exceptional verified margins, founding history, and year diversity. Priority does not affect source result, obstacle draw, or bracket.",
+  "next_five": [
+    {
+      "fixture_id": "HIST-POST-2020-FINAL-1",
+      "year": 2020,
+      "round": "FINAL",
+      "draw": "Balance of Twelve",
+      "priority": 65
+    },
+    {
+      "fixture_id": "HIST-POST-2018-FINAL-1",
+      "year": 2018,
+      "round": "FINAL",
+      "draw": "Floodline Soccer",
+      "priority": 43
+    },
+    {
+      "fixture_id": "HIST-POST-2017-QF-1",
+      "year": 2017,
+      "round": "QF",
+      "draw": "Cave Crawl Trial",
+      "priority": 38
+    },
+    {
+      "fixture_id": "HIST-POST-2023-FINAL-1",
+      "year": 2023,
+      "round": "FINAL",
+      "draw": "Crown Wrestling Ladder",
+      "priority": 38
+    },
+    {
+      "fixture_id": "HIST-POST-2024-FINAL-1",
+      "year": 2024,
+      "round": "FINAL",
+      "draw": "Trebuchet Target",
+      "priority": 38
+    }
+  ],
+  "queue": [
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2020-FINAL-1",
+      "fixture_id": "HIST-POST-2020-FINAL-1",
+      "year": 2020,
+      "round": "FINAL",
+      "scene_title_candidate": "The Grinch × Where Mahomies at? — Balance of Twelve",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2020-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "The Grinch",
+          "points": 188.44
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 189.19
+        },
+        "winner_slot": 10,
+        "certified_winner_name": "Where Mahomies at?",
+        "scoring_period": "16",
+        "fingerprint": "f57886c62d61a4dd5adec8b30ed7c2e4b697caf02299e82ee6396e1c8cbb371c"
+      },
+      "draw": {
+        "id": "OBST-10-08",
+        "name": "Balance of Twelve",
+        "category": "endurance",
+        "ticket": "2be1f3e710159e4a2422d4305389665371b298faad3baeb4352ab8d33d2d718c"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "sealed stage-rig foundation",
+        "permanent_scar": "TRACE-HIST-POST-2020-FINAL-1"
+      },
+      "priority": 65,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH",
+        "ONE_POINT_OR_LESS_CERTIFICATION"
+      ],
+      "verified_margin": 0.75,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2018-FINAL-1",
+      "fixture_id": "HIST-POST-2018-FINAL-1",
+      "year": 2018,
+      "round": "FINAL",
+      "scene_title_candidate": "Kardiac Kids × Christopher Columbus — Floodline Soccer",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2018-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "Kardiac Kids",
+          "points": 160.69
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Christopher Columbus",
+          "points": 153.26
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "Kardiac Kids",
+        "scoring_period": "16",
+        "fingerprint": "bcb352772a3179cb1c52ec6546c3ddb05a53ff9053e9b2083666e1041261ec25"
+      },
+      "draw": {
+        "id": "OBST-04-02",
+        "name": "Floodline Soccer",
+        "category": "sports",
+        "ticket": "f5f9c004028783ef8d3798579098ca95764b59bde8c3fa5ac538bd821d17a1ea"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "original western gate threshold",
+        "permanent_scar": "TRACE-HIST-POST-2018-FINAL-1"
+      },
+      "priority": 43,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH",
+        "TEN_POINT_TENSION"
+      ],
+      "verified_margin": 7.43,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2017-QF-1",
+      "fixture_id": "HIST-POST-2017-QF-1",
+      "year": 2017,
+      "round": "QF",
+      "scene_title_candidate": "Scrub Nation × The Gunslingers — Cave Crawl Trial",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2017-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 6,
+          "name": "Scrub Nation",
+          "points": 103.94
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "The Gunslingers",
+          "points": 104.2
+        },
+        "winner_slot": 7,
+        "certified_winner_name": "The Gunslingers",
+        "scoring_period": "14",
+        "fingerprint": "8e9f2f676c38318397c310a98add674c54fad6f6908989ac6e90f8bbdb81020e"
+      },
+      "draw": {
+        "id": "OBST-08-07",
+        "name": "Cave Crawl Trial",
+        "category": "traverse",
+        "ticket": "fc35a678afc62dceed1274e53fbfe3c5826fa2c8634165c2d48807aed6a5c109"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "stone marshal platform",
+        "permanent_scar": "TRACE-HIST-POST-2017-QF-1"
+      },
+      "priority": 38,
+      "priority_factors": [
+        "ONE_POINT_OR_LESS_CERTIFICATION"
+      ],
+      "verified_margin": 0.26,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2023-FINAL-1",
+      "fixture_id": "HIST-POST-2023-FINAL-1",
+      "year": 2023,
+      "round": "FINAL",
+      "scene_title_candidate": "Arm Chair GM × Eggs Benedict — Crown Wrestling Ladder",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2023-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 11,
+          "name": "Arm Chair GM",
+          "points": 140.76
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Eggs Benedict",
+          "points": 192.88
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "Eggs Benedict",
+        "scoring_period": "17",
+        "fingerprint": "6014d4628fbf888c693d608d87c037063522c829b5d3ff10f664792cb4415d61"
+      },
+      "draw": {
+        "id": "OBST-01-06",
+        "name": "Crown Wrestling Ladder",
+        "category": "combat",
+        "ticket": "f507fde108cbca66d4d39f23a049086a77ce4fcd3c508c04fd7d4ddae0d98d95"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "original western gate threshold",
+        "permanent_scar": "TRACE-HIST-POST-2023-FINAL-1"
+      },
+      "priority": 38,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 52.12,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2024-FINAL-1",
+      "fixture_id": "HIST-POST-2024-FINAL-1",
+      "year": 2024,
+      "round": "FINAL",
+      "scene_title_candidate": "The King × ObiWan Jacoby — Trebuchet Target",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2024-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "The King",
+          "points": 161.68
+        },
+        "away": {
+          "team_slot": 1,
+          "name": "ObiWan Jacoby",
+          "points": 187.52
+        },
+        "winner_slot": 1,
+        "certified_winner_name": "ObiWan Jacoby",
+        "scoring_period": "17",
+        "fingerprint": "265f190ee4c8b3b669174d052e7e0465622352bbbce7bc83a59669a566a4a1ba"
+      },
+      "draw": {
+        "id": "OBST-07-01",
+        "name": "Trebuchet Target",
+        "category": "engineering",
+        "ticket": "a39c72b96f2b9c45dbf432e09bc5d589090218b63fd5294272520b2846dfd9ca"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "historic northern perimeter stone",
+        "permanent_scar": "TRACE-HIST-POST-2024-FINAL-1"
+      },
+      "priority": 38,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 25.84,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2022-SF-2",
+      "fixture_id": "HIST-POST-2022-SF-2",
+      "year": 2022,
+      "round": "SF",
+      "scene_title_candidate": "Small Dak Energy × Where Mahomies at? — Bridge Over Void",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2022-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 3,
+          "name": "Small Dak Energy",
+          "points": 116.55
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 120.08
+        },
+        "winner_slot": 10,
+        "certified_winner_name": "Where Mahomies at?",
+        "scoring_period": "16",
+        "fingerprint": "7973c3b1a75645a9001993e979ee6b44ae8e9ab7f7c2c33d72231ec754089196"
+      },
+      "draw": {
+        "id": "OBST-07-02",
+        "name": "Bridge Over Void",
+        "category": "engineering",
+        "ticket": "e5ec9ed53e108be00631215904a9455d8a95872fbbdf48875328f46d0987d475"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "forest-edge boundary",
+        "permanent_scar": "TRACE-HIST-POST-2022-SF-2"
+      },
+      "priority": 36,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "TIGHT_FIVE_POINT_CONTEST"
+      ],
+      "verified_margin": 3.53,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2016-FINAL-1",
+      "fixture_id": "HIST-POST-2016-FINAL-1",
+      "year": 2016,
+      "round": "FINAL",
+      "scene_title_candidate": "Austin's Hyena's × The Gunslingers — Twin Staff Balance",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2016-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "Austin's Hyena's",
+          "points": 217.7
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "The Gunslingers",
+          "points": 206.88
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "Austin's Hyena's",
+        "scoring_period": "16-17",
+        "fingerprint": "fb5cab164c7f54add69c3313a01d7e624789ba37b71822253869c71296afd0b7"
+      },
+      "draw": {
+        "id": "OBST-01-04",
+        "name": "Twin Staff Balance",
+        "category": "combat",
+        "ticket": "0cc145710dee955258621c84dd5c9014733877955ca7dda678aa372bf5684250"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "sealed stage-rig foundation",
+        "permanent_scar": "TRACE-HIST-POST-2016-FINAL-1"
+      },
+      "priority": 35,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH"
+      ],
+      "verified_margin": 10.82,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2017-FINAL-1",
+      "fixture_id": "HIST-POST-2017-FINAL-1",
+      "year": 2017,
+      "round": "FINAL",
+      "scene_title_candidate": "The Fournecators × The Gunslingers — Slingstone Spiral",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2017-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 12,
+          "name": "The Fournecators",
+          "points": 144.2
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "The Gunslingers",
+          "points": 80.42
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "The Fournecators",
+        "scoring_period": "16",
+        "fingerprint": "0d37291ec5c5eb33d1296c253377315332aa25b339936b241aeb6a0eaf3e00cd"
+      },
+      "draw": {
+        "id": "OBST-02-04",
+        "name": "Slingstone Spiral",
+        "category": "marksmanship",
+        "ticket": "431e933850e2fafdf7d3bbbf24bc5c9b23ab2af9a56dba5e1a17767d6766abe6"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "sealed stage-rig foundation",
+        "permanent_scar": "TRACE-HIST-POST-2017-FINAL-1"
+      },
+      "priority": 35,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH"
+      ],
+      "verified_margin": 63.78,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2019-FINAL-1",
+      "fixture_id": "HIST-POST-2019-FINAL-1",
+      "year": 2019,
+      "round": "FINAL",
+      "scene_title_candidate": "Make Amarica Great Again × Please, Please, Please, please — Three Bridges",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2019-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 5,
+          "name": "Make Amarica Great Again",
+          "points": 113.46
+        },
+        "away": {
+          "team_slot": 3,
+          "name": "Please, Please, Please, please",
+          "points": 158.3
+        },
+        "winner_slot": 3,
+        "certified_winner_name": "Please, Please, Please, please",
+        "scoring_period": "16",
+        "fingerprint": "c7a8659e5a5dc6732fb5f6f09ac642ad26acb311f0bec06c9b5a14d7eaa6b660"
+      },
+      "draw": {
+        "id": "OBST-05-03",
+        "name": "Three Bridges",
+        "category": "tactical",
+        "ticket": "116459441929b9f1896f7410d7fe34c174703eecbee60e3c5dfd7dfb2c8aae25"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "championship oval outer ring",
+        "permanent_scar": "TRACE-HIST-POST-2019-FINAL-1"
+      },
+      "priority": 35,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH"
+      ],
+      "verified_margin": 44.84,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2021-FINAL-1",
+      "fixture_id": "HIST-POST-2021-FINAL-1",
+      "year": 2021,
+      "round": "FINAL",
+      "scene_title_candidate": "Dewars White Label × The Third Coming — Stone Kart Derby",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2021-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 5,
+          "name": "Dewars White Label",
+          "points": 178.06
+        },
+        "away": {
+          "team_slot": 8,
+          "name": "The Third Coming",
+          "points": 96.58
+        },
+        "winner_slot": 5,
+        "certified_winner_name": "Dewars White Label",
+        "scoring_period": "17",
+        "fingerprint": "f6f200e71ca0cff2dbdef8fc9529160113f3c3e66242d7d3d9a4c65c741b53df"
+      },
+      "draw": {
+        "id": "OBST-03-03",
+        "name": "Stone Kart Derby",
+        "category": "racing",
+        "ticket": "23fe482473b46a0c137bc047bed7e995aa9867f86c943238222770210ab608a5"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "original western gate threshold",
+        "permanent_scar": "TRACE-HIST-POST-2021-FINAL-1"
+      },
+      "priority": 35,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH"
+      ],
+      "verified_margin": 81.48,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2022-FINAL-1",
+      "fixture_id": "HIST-POST-2022-FINAL-1",
+      "year": 2022,
+      "round": "FINAL",
+      "scene_title_candidate": "El Niño × Where Mahomies at? — Moving Bullseye",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2022-FINAL-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 9,
+          "name": "El Niño",
+          "points": 111.56
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 78.3
+        },
+        "winner_slot": 9,
+        "certified_winner_name": "El Niño",
+        "scoring_period": "17",
+        "fingerprint": "f61b03ce5f1a890cc6ecff87fe4770b842e58c52285e61db6fa807d855bcd6b5"
+      },
+      "draw": {
+        "id": "OBST-02-10",
+        "name": "Moving Bullseye",
+        "category": "marksmanship",
+        "ticket": "9192c688c0f05d3867f22555f6ab062cb0075a0fa2e1a1294585f75667ff5162"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-LAST-FIELD",
+        "round_fixed": true,
+        "physical_anchor": "historic northern perimeter stone",
+        "permanent_scar": "TRACE-HIST-POST-2022-FINAL-1"
+      },
+      "priority": 35,
+      "priority_factors": [
+        "CHAMPIONSHIP_TITLE_PATH"
+      ],
+      "verified_margin": 33.26,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2024-SF-2",
+      "fixture_id": "HIST-POST-2024-SF-2",
+      "year": 2024,
+      "round": "SF",
+      "scene_title_candidate": "ObiWan Jacoby × Red Leopards — Warship Tug",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2024-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 1,
+          "name": "ObiWan Jacoby",
+          "points": 185.54
+        },
+        "away": {
+          "team_slot": 2,
+          "name": "Red Leopards",
+          "points": 177.78
+        },
+        "winner_slot": 1,
+        "certified_winner_name": "ObiWan Jacoby",
+        "scoring_period": "16",
+        "fingerprint": "c48f07eb2d280a848d566003454e91cbe571071034583f5c927fc3ecabf5509f"
+      },
+      "draw": {
+        "id": "OBST-10-03",
+        "name": "Warship Tug",
+        "category": "endurance",
+        "ticket": "58f0b57ab4d7b0bb89fc4da3e46781685f6e892ccc1d179014ff590c84064366"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "stone spectator path",
+        "permanent_scar": "TRACE-HIST-POST-2024-SF-2"
+      },
+      "priority": 29,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "TEN_POINT_TENSION",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 7.76,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2015-SF-1",
+      "fixture_id": "HIST-POST-2015-SF-1",
+      "year": 2015,
+      "round": "SF",
+      "scene_title_candidate": "Here, Ok I took L's × Discount Belichick — Sled Drag Dash",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2015-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 5,
+          "name": "Here, Ok I took L's",
+          "points": 199.5
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Discount Belichick",
+          "points": 268.5
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "Discount Belichick",
+        "scoring_period": "14-15",
+        "fingerprint": "997b3c03aa085177a7ff32579ec69082fd197ba44d8562070894e53cbc33643a"
+      },
+      "draw": {
+        "id": "OBST-03-06",
+        "name": "Sled Drag Dash",
+        "category": "racing",
+        "ticket": "24d45439c3eb07d5e3878d4b70450fd7454bec897b7c5bde9108c4318b49994e"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "upper scoring landing",
+        "permanent_scar": "TRACE-HIST-POST-2015-SF-1"
+      },
+      "priority": 28,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "FOUNDING_YEAR"
+      ],
+      "verified_margin": 69,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2015-SF-2",
+      "fixture_id": "HIST-POST-2015-SF-2",
+      "year": 2015,
+      "round": "SF",
+      "scene_title_candidate": "Austin's Hyena's × Hook, Line, and Zeeker — Signal Tower Contest",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2015-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "Austin's Hyena's",
+          "points": 182.5
+        },
+        "away": {
+          "team_slot": 2,
+          "name": "Hook, Line, and Zeeker",
+          "points": 163
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "Austin's Hyena's",
+        "scoring_period": "14-15",
+        "fingerprint": "55f4a1fcfde0a139ed1994d5df86907bf10edfc62a318abc30e9bbd36182fa23"
+      },
+      "draw": {
+        "id": "OBST-05-06",
+        "name": "Signal Tower Contest",
+        "category": "tactical",
+        "ticket": "f7189fdbaccc94cabd1c5e117700e8ed8d114df20071f9934577a1e281b41943"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "forest-edge boundary",
+        "permanent_scar": "TRACE-HIST-POST-2015-SF-2"
+      },
+      "priority": 28,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "FOUNDING_YEAR"
+      ],
+      "verified_margin": 19.5,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2016-SF-2",
+      "fixture_id": "HIST-POST-2016-SF-2",
+      "year": 2016,
+      "round": "SF",
+      "scene_title_candidate": "Scruffy Looking Nerf Herders × The Gunslingers — Signal Tower Contest",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2016-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 1,
+          "name": "Scruffy Looking Nerf Herders",
+          "points": 204.84
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "The Gunslingers",
+          "points": 214.02
+        },
+        "winner_slot": 7,
+        "certified_winner_name": "The Gunslingers",
+        "scoring_period": "14-15",
+        "fingerprint": "d85bc84b631859cbf9a29ca396118e211c4d63fcade2846be404d970d2ec1ae9"
+      },
+      "draw": {
+        "id": "OBST-05-06",
+        "name": "Signal Tower Contest",
+        "category": "tactical",
+        "ticket": "dcc07d4f1c722df6847e42bfa9ce12a3e05a477c3053dba68a872e38ab266bfa"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "outer standard court",
+        "permanent_scar": "TRACE-HIST-POST-2016-SF-2"
+      },
+      "priority": 26,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "TEN_POINT_TENSION"
+      ],
+      "verified_margin": 9.18,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2019-QF-2",
+      "fixture_id": "HIST-POST-2019-QF-2",
+      "year": 2019,
+      "round": "QF",
+      "scene_title_candidate": "Convicts and Company × Please, Please, Please, please — Memory Wall",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2019-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 12,
+          "name": "Convicts and Company",
+          "points": 124.54
+        },
+        "away": {
+          "team_slot": 3,
+          "name": "Please, Please, Please, please",
+          "points": 128.54
+        },
+        "winner_slot": 3,
+        "certified_winner_name": "Please, Please, Please, please",
+        "scoring_period": "14",
+        "fingerprint": "a93cdb2d8a0bea2634890288e541faa559ae86d5a3336d0fc3510e75c105f52b"
+      },
+      "draw": {
+        "id": "OBST-11-09",
+        "name": "Memory Wall",
+        "category": "puzzles",
+        "ticket": "afff0ba52602f38986f47de4ca5231f1bf747806bf03eca5bfd76e166df83771"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "protected finish terrace",
+        "permanent_scar": "TRACE-HIST-POST-2019-QF-2"
+      },
+      "priority": 26,
+      "priority_factors": [
+        "TIGHT_FIVE_POINT_CONTEST"
+      ],
+      "verified_margin": 4,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2023-SF-1",
+      "fixture_id": "HIST-POST-2023-SF-1",
+      "year": 2023,
+      "round": "SF",
+      "scene_title_candidate": "El Niño × Arm Chair GM — Long Loop",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2023-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 9,
+          "name": "El Niño",
+          "points": 148.24
+        },
+        "away": {
+          "team_slot": 11,
+          "name": "Arm Chair GM",
+          "points": 159.52
+        },
+        "winner_slot": 11,
+        "certified_winner_name": "Arm Chair GM",
+        "scoring_period": "16",
+        "fingerprint": "e865b61e286d88e925a7d4bb1161964669fa9016504727e1bac880cbd76cf1ff"
+      },
+      "draw": {
+        "id": "OBST-10-09",
+        "name": "Long Loop",
+        "category": "endurance",
+        "ticket": "093ec639591b1016d60f8c537cfc60531db02d6fcbd62cb6cb9df031902d5ba9"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "upper scoring landing",
+        "permanent_scar": "TRACE-HIST-POST-2023-SF-1"
+      },
+      "priority": 21,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 11.28,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2023-SF-2",
+      "fixture_id": "HIST-POST-2023-SF-2",
+      "year": 2023,
+      "round": "SF",
+      "scene_title_candidate": "Red Leopards × Eggs Benedict — Signal Tower Contest",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2023-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 2,
+          "name": "Red Leopards",
+          "points": 149.84
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Eggs Benedict",
+          "points": 214.52
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "Eggs Benedict",
+        "scoring_period": "16",
+        "fingerprint": "1bf5ce2155a1ba4b3cd12a5bba5d3b51f7aca4c16d35e5bbe14ea7923ef05204"
+      },
+      "draw": {
+        "id": "OBST-05-06",
+        "name": "Signal Tower Contest",
+        "category": "tactical",
+        "ticket": "e555b9ee9b30a13cea218ee576658635f0fba5b383179b47331f8dd8f649ee25"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "stone spectator path",
+        "permanent_scar": "TRACE-HIST-POST-2023-SF-2"
+      },
+      "priority": 21,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 64.68,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2024-SF-1",
+      "fixture_id": "HIST-POST-2024-SF-1",
+      "year": 2024,
+      "round": "SF",
+      "scene_title_candidate": "The King × El Niño — Ruined Bastion",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2024-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "The King",
+          "points": 226.28
+        },
+        "away": {
+          "team_slot": 9,
+          "name": "El Niño",
+          "points": 166.04
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "The King",
+        "scoring_period": "16",
+        "fingerprint": "21a23669ec40bcbb6fd81400012e694b113caabe2e417b9101ebbcbce584de4b"
+      },
+      "draw": {
+        "id": "OBST-05-10",
+        "name": "Ruined Bastion",
+        "category": "tactical",
+        "ticket": "2316bedbd37080154d54c5a7994e5aed31b0448030a0b7b0141bdf4ebd767a4b"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "upper scoring landing",
+        "permanent_scar": "TRACE-HIST-POST-2024-SF-1"
+      },
+      "priority": 21,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 60.24,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2025-SF-1",
+      "fixture_id": "HIST-POST-2025-SF-1",
+      "year": 2025,
+      "round": "SF",
+      "scene_title_candidate": "ObiWan Jacoby × Three Dreaded Snake — Banner Fort Siege",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2025-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 1,
+          "name": "ObiWan Jacoby",
+          "points": 174.38
+        },
+        "away": {
+          "team_slot": 6,
+          "name": "Three Dreaded Snake",
+          "points": 153.2
+        },
+        "winner_slot": 1,
+        "certified_winner_name": "ObiWan Jacoby",
+        "scoring_period": "16",
+        "fingerprint": "49745cfc263a5cbd59639596540ed016799c63d70ba20f9cb42f994cd77c8c8e"
+      },
+      "draw": {
+        "id": "OBST-05-02",
+        "name": "Banner Fort Siege",
+        "category": "tactical",
+        "ticket": "58597a0a09f1318582a61af339bfe8df6c173df4ecd189023f423972245fc852"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "upper scoring landing",
+        "permanent_scar": "TRACE-HIST-POST-2025-SF-1"
+      },
+      "priority": 21,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 21.18,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2024-QF-2",
+      "fixture_id": "HIST-POST-2024-QF-2",
+      "year": 2024,
+      "round": "QF",
+      "scene_title_candidate": "ObiWan Jacoby × Dr. Duckhook — Tower of Counterweights",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2024-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 1,
+          "name": "ObiWan Jacoby",
+          "points": 235.16
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Dr. Duckhook",
+          "points": 227.24
+        },
+        "winner_slot": 1,
+        "certified_winner_name": "ObiWan Jacoby",
+        "scoring_period": "15",
+        "fingerprint": "fccfc59082dfc066159397217fe7f4a8bfef2d46a511f1bd63932e8ce8161cd4"
+      },
+      "draw": {
+        "id": "OBST-07-03",
+        "name": "Tower of Counterweights",
+        "category": "engineering",
+        "ticket": "dd5df5bfabc586e635dc3aa95e7bc9f3533a575863a38f7d6480feac918c9008"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "windward parapet",
+        "permanent_scar": "TRACE-HIST-POST-2024-QF-2"
+      },
+      "priority": 19,
+      "priority_factors": [
+        "TEN_POINT_TENSION",
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 7.92,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2016-SF-1",
+      "fixture_id": "HIST-POST-2016-SF-1",
+      "year": 2016,
+      "round": "SF",
+      "scene_title_candidate": "Austin's Hyena's × The Real Austin's Hyenas — Giant Chess Conquest",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2016-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "Austin's Hyena's",
+          "points": 220.06
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "The Real Austin's Hyenas",
+          "points": 195.22
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "Austin's Hyena's",
+        "scoring_period": "14-15",
+        "fingerprint": "4c2f0b6e182b53b503543de89c603db2ed6e0032abb530b06dc840983414cda6"
+      },
+      "draw": {
+        "id": "OBST-06-02",
+        "name": "Giant Chess Conquest",
+        "category": "board",
+        "ticket": "cd78b5322a9b437c3fb08a9dab94418c6604d3a04d2a81182301ed2aa3b3d0ad"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "upper scoring landing",
+        "permanent_scar": "TRACE-HIST-POST-2016-SF-1"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 24.84,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2017-SF-1",
+      "fixture_id": "HIST-POST-2017-SF-1",
+      "year": 2017,
+      "round": "SF",
+      "scene_title_candidate": "I'M HERE SO I WON'T GET FINED × The Gunslingers — Banner Fort Siege",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2017-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 11,
+          "name": "I'M HERE SO I WON'T GET FINED",
+          "points": 100.04
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "The Gunslingers",
+          "points": 124.08
+        },
+        "winner_slot": 7,
+        "certified_winner_name": "The Gunslingers",
+        "scoring_period": "15",
+        "fingerprint": "8443c7b7497b4fe18616a6f930393e8eea9d30ea932a818530c0858179f14393"
+      },
+      "draw": {
+        "id": "OBST-05-02",
+        "name": "Banner Fort Siege",
+        "category": "tactical",
+        "ticket": "e80e41eeb14211413538f210ef51697b989797d9b4519247fd598d362597a693"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "protected judge platform",
+        "permanent_scar": "TRACE-HIST-POST-2017-SF-1"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 24.04,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2017-SF-2",
+      "fixture_id": "HIST-POST-2017-SF-2",
+      "year": 2017,
+      "round": "SF",
+      "scene_title_candidate": "The Fournecators × All ACL Squad — Twin Staff Balance",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2017-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 12,
+          "name": "The Fournecators",
+          "points": 127.94
+        },
+        "away": {
+          "team_slot": 9,
+          "name": "All ACL Squad",
+          "points": 115.68
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "The Fournecators",
+        "scoring_period": "15",
+        "fingerprint": "946e122885ca46db377ee1683ce7667987b69ab41b8a56af337896382b74013d"
+      },
+      "draw": {
+        "id": "OBST-01-04",
+        "name": "Twin Staff Balance",
+        "category": "combat",
+        "ticket": "ad0c0326c9e712d91c6d9d3f7da53a96e54a7955559e9261419f093b5fa006a3"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "forest-edge boundary",
+        "permanent_scar": "TRACE-HIST-POST-2017-SF-2"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 12.26,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2018-SF-1",
+      "fixture_id": "HIST-POST-2018-SF-1",
+      "year": 2018,
+      "round": "SF",
+      "scene_title_candidate": "It Ertz When I Pee × Kardiac Kids — Pulley Labyrinth",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2018-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 9,
+          "name": "It Ertz When I Pee",
+          "points": 117.73
+        },
+        "away": {
+          "team_slot": 8,
+          "name": "Kardiac Kids",
+          "points": 157.9
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "Kardiac Kids",
+        "scoring_period": "15",
+        "fingerprint": "00a025d15d8c50453f31afd108938b8b10088c39f33c9044ef5d10057302c1d7"
+      },
+      "draw": {
+        "id": "OBST-07-05",
+        "name": "Pulley Labyrinth",
+        "category": "engineering",
+        "ticket": "56341c3d801b769b4ced7cf02ada130db53a480d19697da4fe52207c3141f99e"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "protected judge platform",
+        "permanent_scar": "TRACE-HIST-POST-2018-SF-1"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 40.17,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2018-SF-2",
+      "fixture_id": "HIST-POST-2018-SF-2",
+      "year": 2018,
+      "round": "SF",
+      "scene_title_candidate": "$20 Grahams × Christopher Columbus — Stone and Strategy",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2018-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 4,
+          "name": "$20 Grahams",
+          "points": 107.91
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Christopher Columbus",
+          "points": 171.12
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "Christopher Columbus",
+        "scoring_period": "15",
+        "fingerprint": "e3eadb93a7bc3d247b1f63525f1664dd3d1c914acbf59746f2534b02ace051a3"
+      },
+      "draw": {
+        "id": "OBST-12-05",
+        "name": "Stone and Strategy",
+        "category": "hybrid",
+        "ticket": "a31ad7565e91e0318cdd3199095bb643ef472be93fa02e78872d4be22f43f627"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "stone spectator path",
+        "permanent_scar": "TRACE-HIST-POST-2018-SF-2"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 63.21,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2019-SF-1",
+      "fixture_id": "HIST-POST-2019-SF-1",
+      "year": 2019,
+      "round": "SF",
+      "scene_title_candidate": "Make Amarica Great Again × Gunslinger Nation — Catapult Repair",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2019-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 5,
+          "name": "Make Amarica Great Again",
+          "points": 176.22
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "Gunslinger Nation",
+          "points": 139.19
+        },
+        "winner_slot": 5,
+        "certified_winner_name": "Make Amarica Great Again",
+        "scoring_period": "15",
+        "fingerprint": "9b89f0555675ef2f12501e8f72a52e3daee2f438c2fb57e8a19a6f6e2ad59632"
+      },
+      "draw": {
+        "id": "OBST-07-10",
+        "name": "Catapult Repair",
+        "category": "engineering",
+        "ticket": "ed4b659f19d06e26785e4d14d191435884270ced25e8b500c51581f2ecad7a55"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "protected judge platform",
+        "permanent_scar": "TRACE-HIST-POST-2019-SF-1"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 37.03,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2019-SF-2",
+      "fixture_id": "HIST-POST-2019-SF-2",
+      "year": 2019,
+      "round": "SF",
+      "scene_title_candidate": "Mr. Kenyan Drake Killed Me × Please, Please, Please, please — Stone Maze Ascent",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2019-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 4,
+          "name": "Mr. Kenyan Drake Killed Me",
+          "points": 172.84
+        },
+        "away": {
+          "team_slot": 3,
+          "name": "Please, Please, Please, please",
+          "points": 208.97
+        },
+        "winner_slot": 3,
+        "certified_winner_name": "Please, Please, Please, please",
+        "scoring_period": "15",
+        "fingerprint": "4b695e40d055758186be6de1d44d25cbb4d0a9ac675809df0cf53983975eb820"
+      },
+      "draw": {
+        "id": "OBST-08-05",
+        "name": "Stone Maze Ascent",
+        "category": "traverse",
+        "ticket": "2ae34514d172bfe6c2d55fbcb1d392981a7cd56ba0db4428a3485bb278f872e9"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "sheltered marker terrace",
+        "permanent_scar": "TRACE-HIST-POST-2019-SF-2"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 36.13,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2020-SF-2",
+      "fixture_id": "HIST-POST-2020-SF-2",
+      "year": 2020,
+      "round": "SF",
+      "scene_title_candidate": "Obi-Wan Jacoby × Where Mahomies at? — Banner Rugby",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2020-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 1,
+          "name": "Obi-Wan Jacoby",
+          "points": 149.46
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 170.21
+        },
+        "winner_slot": 10,
+        "certified_winner_name": "Where Mahomies at?",
+        "scoring_period": "15",
+        "fingerprint": "b67ef99147b901b33531165a614b3b36d8b650d69f7b376d08a1d3559476886c"
+      },
+      "draw": {
+        "id": "OBST-04-10",
+        "name": "Banner Rugby",
+        "category": "sports",
+        "ticket": "2f0a6b4254bcc6ee0fe40225dbeb36d4d668ab7402d9addff55cdd7a61ee28d0"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "forest-edge boundary",
+        "permanent_scar": "TRACE-HIST-POST-2020-SF-2"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 20.75,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2021-SF-1",
+      "fixture_id": "HIST-POST-2021-SF-1",
+      "year": 2021,
+      "round": "SF",
+      "scene_title_candidate": "Dewars White Label × Red Leopards — Croquet Siege",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2021-SF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 5,
+          "name": "Dewars White Label",
+          "points": 151.98
+        },
+        "away": {
+          "team_slot": 2,
+          "name": "Red Leopards",
+          "points": 103.12
+        },
+        "winner_slot": 5,
+        "certified_winner_name": "Dewars White Label",
+        "scoring_period": "16",
+        "fingerprint": "d2ebb0c771efd6b6b0499b6a0550560abba7f4f62de7f65ea43b14c935eba8bd"
+      },
+      "draw": {
+        "id": "OBST-04-09",
+        "name": "Croquet Siege",
+        "category": "sports",
+        "ticket": "08fe46365f150d83864c0105f0167c4b5e476daa7545478bb0032bd0be134ae3"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-CROWN-STAIR",
+        "round_fixed": true,
+        "physical_anchor": "protected judge platform",
+        "permanent_scar": "TRACE-HIST-POST-2021-SF-1"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 48.86,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2021-SF-2",
+      "fixture_id": "HIST-POST-2021-SF-2",
+      "year": 2021,
+      "round": "SF",
+      "scene_title_candidate": "The Third Coming × B.A.B.B. LLC — Three Trials of Crown",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2021-SF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "The Third Coming",
+          "points": 173.04
+        },
+        "away": {
+          "team_slot": 4,
+          "name": "B.A.B.B. LLC",
+          "points": 146.84
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "The Third Coming",
+        "scoring_period": "16",
+        "fingerprint": "023bf80c6955e7113e1468cf3b48730e5ea0c32c2a8915244b378867d7acb365"
+      },
+      "draw": {
+        "id": "OBST-12-06",
+        "name": "Three Trials of Crown",
+        "category": "hybrid",
+        "ticket": "a6a0c6324c22a3f89797d7002c619c7f0e8e4970d695089f183b8fb3baf4cf7b"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-GROVE",
+        "round_fixed": true,
+        "physical_anchor": "sheltered marker terrace",
+        "permanent_scar": "TRACE-HIST-POST-2021-SF-2"
+      },
+      "priority": 18,
+      "priority_factors": [
+        "FINAL_GATE_ON_THE_LINE"
+      ],
+      "verified_margin": 26.2,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2017-QF-2",
+      "fixture_id": "HIST-POST-2017-QF-2",
+      "year": 2017,
+      "round": "QF",
+      "scene_title_candidate": "All ACL Squad × Hook, Line, and Zeeker — Signal Tower Contest",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2017-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 9,
+          "name": "All ACL Squad",
+          "points": 136.84
+        },
+        "away": {
+          "team_slot": 2,
+          "name": "Hook, Line, and Zeeker",
+          "points": 127.64
+        },
+        "winner_slot": 9,
+        "certified_winner_name": "All ACL Squad",
+        "scoring_period": "14",
+        "fingerprint": "650906f626373b296b83f865a5371fdac1102c9c283f184afd172eaa5ccd55b6"
+      },
+      "draw": {
+        "id": "OBST-05-06",
+        "name": "Signal Tower Contest",
+        "category": "tactical",
+        "ticket": "5baf2c4fd930d71b298b88794d66907e7946e33657b21847dde221a0c105b51c"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "upper course turnout",
+        "permanent_scar": "TRACE-HIST-POST-2017-QF-2"
+      },
+      "priority": 16,
+      "priority_factors": [
+        "TEN_POINT_TENSION"
+      ],
+      "verified_margin": 9.2,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2021-QF-2",
+      "fixture_id": "HIST-POST-2021-QF-2",
+      "year": 2021,
+      "round": "QF",
+      "scene_title_candidate": "B.A.B.B. LLC × Obi-Wan Jacoby — Mechanical Riddle",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2021-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 4,
+          "name": "B.A.B.B. LLC",
+          "points": 90.64
+        },
+        "away": {
+          "team_slot": 1,
+          "name": "Obi-Wan Jacoby",
+          "points": 82.2
+        },
+        "winner_slot": 4,
+        "certified_winner_name": "B.A.B.B. LLC",
+        "scoring_period": "15",
+        "fingerprint": "515f406398a7b6e6c02081df73c402c83321973ad8b0812bd7be52594610b333"
+      },
+      "draw": {
+        "id": "OBST-11-06",
+        "name": "Mechanical Riddle",
+        "category": "puzzles",
+        "ticket": "5cb7d1527e51366de385397a2b780adb915620364e5f07194ce96df04598ffd1"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "protected finish terrace",
+        "permanent_scar": "TRACE-HIST-POST-2021-QF-2"
+      },
+      "priority": 16,
+      "priority_factors": [
+        "TEN_POINT_TENSION"
+      ],
+      "verified_margin": 8.44,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2023-QF-1",
+      "fixture_id": "HIST-POST-2023-QF-1",
+      "year": 2023,
+      "round": "QF",
+      "scene_title_candidate": "Benedict Coomhersnatch × Arm Chair GM — Archers Split",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2023-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 5,
+          "name": "Benedict Coomhersnatch",
+          "points": 92.4
+        },
+        "away": {
+          "team_slot": 11,
+          "name": "Arm Chair GM",
+          "points": 148.32
+        },
+        "winner_slot": 11,
+        "certified_winner_name": "Arm Chair GM",
+        "scoring_period": "15",
+        "fingerprint": "6158f3c8785b042543943bba869da0568fdc1da95cae55678ae7aa83275d97a4"
+      },
+      "draw": {
+        "id": "OBST-02-05",
+        "name": "Archers Split",
+        "category": "marksmanship",
+        "ticket": "ca387423d52521d38b01266a115bfce59369446c9230352994fcd71a779695c6"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "protected impact wall",
+        "permanent_scar": "TRACE-HIST-POST-2023-QF-1"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 55.92,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2023-QF-2",
+      "fixture_id": "HIST-POST-2023-QF-2",
+      "year": 2023,
+      "round": "QF",
+      "scene_title_candidate": "Mixon it up for a week × Eggs Benedict — Shield Gate Capture",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2023-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 10,
+          "name": "Mixon it up for a week",
+          "points": 114.86
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Eggs Benedict",
+          "points": 160.12
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "Eggs Benedict",
+        "scoring_period": "15",
+        "fingerprint": "d59819b26d8b0c56fac8f6ad54429327407c7d5f90f9a633533ec0fb7a657ef0"
+      },
+      "draw": {
+        "id": "OBST-01-09",
+        "name": "Shield Gate Capture",
+        "category": "combat",
+        "ticket": "329cb1a00aff7653e480f9e37458ea89c6e67645df9581e69b899ffc23385b56"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "southern windscreen foundations",
+        "permanent_scar": "TRACE-HIST-POST-2023-QF-2"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 45.26,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2023-QF-3",
+      "fixture_id": "HIST-POST-2023-QF-3",
+      "year": 2023,
+      "round": "QF",
+      "scene_title_candidate": "Red Leopards × The LLC — Rope Bridge Duel",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2023-QF-3",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 2,
+          "name": "Red Leopards",
+          "points": 149.38
+        },
+        "away": {
+          "team_slot": 4,
+          "name": "The LLC",
+          "points": 117.91
+        },
+        "winner_slot": 2,
+        "certified_winner_name": "Red Leopards",
+        "scoring_period": "15",
+        "fingerprint": "819c3567d4eb658f6f77e52fe88aa86647aad9633c28e0d427c52b12163b6cf3"
+      },
+      "draw": {
+        "id": "OBST-08-01",
+        "name": "Rope Bridge Duel",
+        "category": "traverse",
+        "ticket": "98756a1b6aa34cdd78baf918e5455ee724712929f64f1046f774a3b8d9b2e032"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-BREAKWATER",
+        "round_fixed": true,
+        "physical_anchor": "dry rescue access",
+        "permanent_scar": "TRACE-HIST-POST-2023-QF-3"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 31.47,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2024-QF-1",
+      "fixture_id": "HIST-POST-2024-QF-1",
+      "year": 2024,
+      "round": "QF",
+      "scene_title_candidate": "El Niño × Slob on my Dobb — Last Standard",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2024-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 9,
+          "name": "El Niño",
+          "points": 175.6
+        },
+        "away": {
+          "team_slot": 3,
+          "name": "Slob on my Dobb",
+          "points": 137.82
+        },
+        "winner_slot": 9,
+        "certified_winner_name": "El Niño",
+        "scoring_period": "15",
+        "fingerprint": "e8fc0af35cd9283265ce89326208271a77271dfbd9e184bf810d2a4e961ff888"
+      },
+      "draw": {
+        "id": "OBST-12-10",
+        "name": "Last Standard",
+        "category": "hybrid",
+        "ticket": "8fcf3826fdab5372383146cacebff0f1ad4d5b4a95d85e5f662fb4ab1c9ad9b0"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "lower quarry shelf",
+        "permanent_scar": "TRACE-HIST-POST-2024-QF-1"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 37.78,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2024-QF-3",
+      "fixture_id": "HIST-POST-2024-QF-3",
+      "year": 2024,
+      "round": "QF",
+      "scene_title_candidate": "The LLC × Red Leopards — Last Hand Poker",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2024-QF-3",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 4,
+          "name": "The LLC",
+          "points": 95.96
+        },
+        "away": {
+          "team_slot": 2,
+          "name": "Red Leopards",
+          "points": 146.3
+        },
+        "winner_slot": 2,
+        "certified_winner_name": "Red Leopards",
+        "scoring_period": "15",
+        "fingerprint": "317b5bc1aa6f184f5e2bffe4fb9ed06ba41cc5536a955290ef5f0136cc945a68"
+      },
+      "draw": {
+        "id": "OBST-06-01",
+        "name": "Last Hand Poker",
+        "category": "board",
+        "ticket": "528cd776b9601d08ddd0c7f6fb3dfb1798065c7b7b95984e4df9c677fdd9b820"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-BREAKWATER",
+        "round_fixed": true,
+        "physical_anchor": "seawall inner lane",
+        "permanent_scar": "TRACE-HIST-POST-2024-QF-3"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 50.34,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2025-QF-1",
+      "fixture_id": "HIST-POST-2025-QF-1",
+      "year": 2025,
+      "round": "QF",
+      "scene_title_candidate": "Three Dreaded Snake × Baker Moore Purdy — Shield and Blade",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2025-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 6,
+          "name": "Three Dreaded Snake",
+          "points": 127.98
+        },
+        "away": {
+          "team_slot": 5,
+          "name": "Baker Moore Purdy",
+          "points": 116.68
+        },
+        "winner_slot": 6,
+        "certified_winner_name": "Three Dreaded Snake",
+        "scoring_period": "15",
+        "fingerprint": "38feaa61a79304cf8f55d078d016d6d568f3d69936b95d8e2426d49bc1f0ddb7"
+      },
+      "draw": {
+        "id": "OBST-01-02",
+        "name": "Shield and Blade",
+        "category": "combat",
+        "ticket": "7acb8866a98fe026c22fc47a54df9a8a86ff94cfdfc8729d3424b313f96e5d4b"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "lower quarry shelf",
+        "permanent_scar": "TRACE-HIST-POST-2025-QF-1"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 11.3,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2025-QF-2",
+      "fixture_id": "HIST-POST-2025-QF-2",
+      "year": 2025,
+      "round": "QF",
+      "scene_title_candidate": "The Chili Cheesers × The Immortal — Chess and Capture",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2025-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 7,
+          "name": "The Chili Cheesers",
+          "points": 147.34
+        },
+        "away": {
+          "team_slot": 8,
+          "name": "The Immortal",
+          "points": 185.6
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "The Immortal",
+        "scoring_period": "15",
+        "fingerprint": "d459e5efb6046ffdca6b1b9ab87cb94567d4b69b878f17ff862b0a5a77584dcb"
+      },
+      "draw": {
+        "id": "OBST-12-02",
+        "name": "Chess and Capture",
+        "category": "hybrid",
+        "ticket": "dff4138513e7789e21b1176629256ff602a48091018278fa396c62b7fd9e636f"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "southern windscreen foundations",
+        "permanent_scar": "TRACE-HIST-POST-2025-QF-2"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 38.26,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2025-QF-3",
+      "fixture_id": "HIST-POST-2025-QF-3",
+      "year": 2025,
+      "round": "QF",
+      "scene_title_candidate": "Dr. Duckhook × Seven Deadly Chins — Stone Maze Ascent",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2025-QF-3",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 12,
+          "name": "Dr. Duckhook",
+          "points": 171.8
+        },
+        "away": {
+          "team_slot": 11,
+          "name": "Seven Deadly Chins",
+          "points": 112.9
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "Dr. Duckhook",
+        "scoring_period": "15",
+        "fingerprint": "6cf7832663ab267418316f3755cb40aa07e691568799d50876bed70ba860c5da"
+      },
+      "draw": {
+        "id": "OBST-08-05",
+        "name": "Stone Maze Ascent",
+        "category": "traverse",
+        "ticket": "dd8c473bc8c9f1dea3d4b8f4925d519dd526c3c1aa51484f6374df5e82392d75"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-BREAKWATER",
+        "round_fixed": true,
+        "physical_anchor": "north harbor steps",
+        "permanent_scar": "TRACE-HIST-POST-2025-QF-3"
+      },
+      "priority": 11,
+      "priority_factors": [
+        "CONTEMPORARY_WORLD_STATE"
+      ],
+      "verified_margin": 58.9,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2018-QF-2",
+      "fixture_id": "HIST-POST-2018-QF-2",
+      "year": 2018,
+      "round": "QF",
+      "scene_title_candidate": "Highland Park Rushees × Christopher Columbus — Stair Sprint Trial",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2018-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 10,
+          "name": "Highland Park Rushees",
+          "points": 147.38
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Christopher Columbus",
+          "points": 177.8
+        },
+        "winner_slot": 12,
+        "certified_winner_name": "Christopher Columbus",
+        "scoring_period": "14",
+        "fingerprint": "e044b0b6076c8d9cc8485d8c03dbcfded1a3e625686303a65626e0943057f096"
+      },
+      "draw": {
+        "id": "OBST-03-08",
+        "name": "Stair Sprint Trial",
+        "category": "racing",
+        "ticket": "59cf6eccc7db38d9922190451f17d876b3ef6ff3b7fec15d7cb58f6603e16090"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "southern windscreen foundations",
+        "permanent_scar": "TRACE-HIST-POST-2018-QF-2"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 30.42,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2019-QF-1",
+      "fixture_id": "HIST-POST-2019-QF-1",
+      "year": 2019,
+      "round": "QF",
+      "scene_title_candidate": "Gunslinger Nation × Kevin's Mom's House — Floodline Soccer",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2019-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 7,
+          "name": "Gunslinger Nation",
+          "points": 131.1
+        },
+        "away": {
+          "team_slot": 11,
+          "name": "Kevin's Mom's House",
+          "points": 111.9
+        },
+        "winner_slot": 7,
+        "certified_winner_name": "Gunslinger Nation",
+        "scoring_period": "14",
+        "fingerprint": "1f7272634a2fdc3ad86d9224553c8499572fee752467f1685dce567c83895c73"
+      },
+      "draw": {
+        "id": "OBST-04-02",
+        "name": "Floodline Soccer",
+        "category": "sports",
+        "ticket": "d4db50a4dcb532f36536a3f9048f9a3fffa66df75157cec84abe5992fb5f6bbb"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "lower quarry shelf",
+        "permanent_scar": "TRACE-HIST-POST-2019-QF-1"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 19.2,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2020-QF-1",
+      "fixture_id": "HIST-POST-2020-QF-1",
+      "year": 2020,
+      "round": "QF",
+      "scene_title_candidate": "Red Leopards × Dos Gatos — Rope Bridge Duel",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2020-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 2,
+          "name": "Red Leopards",
+          "points": 182.72
+        },
+        "away": {
+          "team_slot": 9,
+          "name": "Dos Gatos",
+          "points": 136.48
+        },
+        "winner_slot": 2,
+        "certified_winner_name": "Red Leopards",
+        "scoring_period": "14",
+        "fingerprint": "d1711650f088737ba5aa6eeb058bb1534c386191211543f7b0ce5f579ea791d7"
+      },
+      "draw": {
+        "id": "OBST-08-01",
+        "name": "Rope Bridge Duel",
+        "category": "traverse",
+        "ticket": "527bfa4936090b36eff211e0286ee012601f53513c00129db54b4c9cbfb9fbea"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "western quarry ramp",
+        "permanent_scar": "TRACE-HIST-POST-2020-QF-1"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 46.24,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2020-QF-2",
+      "fixture_id": "HIST-POST-2020-QF-2",
+      "year": 2020,
+      "round": "QF",
+      "scene_title_candidate": "Where Mahomies at? × Guild of Dunces — Tidal Marker Recovery",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2020-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 130.22
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Guild of Dunces",
+          "points": 94.24
+        },
+        "winner_slot": 10,
+        "certified_winner_name": "Where Mahomies at?",
+        "scoring_period": "14",
+        "fingerprint": "02686b609ddec23855a4cf95cfa11cc6cb2624bd58200155946d6c92c8e6cdb4"
+      },
+      "draw": {
+        "id": "OBST-09-08",
+        "name": "Tidal Marker Recovery",
+        "category": "aquatic",
+        "ticket": "6517ed7c3308210d94d6a76efa21f0373047a90c77c06ee7c3ac204a32ee847a"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "protected finish terrace",
+        "permanent_scar": "TRACE-HIST-POST-2020-QF-2"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 35.98,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2021-QF-1",
+      "fixture_id": "HIST-POST-2021-QF-1",
+      "year": 2021,
+      "round": "QF",
+      "scene_title_candidate": "Dos Gatos × Red Leopards — Long Loop",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2021-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 9,
+          "name": "Dos Gatos",
+          "points": 79.46
+        },
+        "away": {
+          "team_slot": 2,
+          "name": "Red Leopards",
+          "points": 109.24
+        },
+        "winner_slot": 2,
+        "certified_winner_name": "Red Leopards",
+        "scoring_period": "15",
+        "fingerprint": "27b5f8f3b875daadb80c6a9cce04e3a8548af6fc88820520656952bec07fd5f7"
+      },
+      "draw": {
+        "id": "OBST-10-09",
+        "name": "Long Loop",
+        "category": "endurance",
+        "ticket": "948c45d4cb0a2cd0617c6dde3f6eba9dec82b53f3e2589ecf301515d0bdc1af5"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "lower quarry shelf",
+        "permanent_scar": "TRACE-HIST-POST-2021-QF-1"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 29.78,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2021-QF-3",
+      "fixture_id": "HIST-POST-2021-QF-3",
+      "year": 2021,
+      "round": "QF",
+      "scene_title_candidate": "The Third Coming × Where Mahomies at? — Banner Rugby",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2021-QF-3",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "The Third Coming",
+          "points": 125.06
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 108.15
+        },
+        "winner_slot": 8,
+        "certified_winner_name": "The Third Coming",
+        "scoring_period": "15",
+        "fingerprint": "50d7fa7188912ed8cf13afed134d706f225776171cbc07a47bfefac849f8eba2"
+      },
+      "draw": {
+        "id": "OBST-04-10",
+        "name": "Banner Rugby",
+        "category": "sports",
+        "ticket": "b69007fc9078d02c42223db431c2b20551abe53cffd2e7cfeb744d535c0961a5"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-BREAKWATER",
+        "round_fixed": true,
+        "physical_anchor": "seawall inner lane",
+        "permanent_scar": "TRACE-HIST-POST-2021-QF-3"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 16.91,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2022-QF-1",
+      "fixture_id": "HIST-POST-2022-QF-1",
+      "year": 2022,
+      "round": "QF",
+      "scene_title_candidate": "Javonte's InferNO Knee × El Niño — Hammerfall Grapple",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2022-QF-1",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 12,
+          "name": "Javonte's InferNO Knee",
+          "points": 119.48
+        },
+        "away": {
+          "team_slot": 9,
+          "name": "El Niño",
+          "points": 132.7
+        },
+        "winner_slot": 9,
+        "certified_winner_name": "El Niño",
+        "scoring_period": "15",
+        "fingerprint": "9d5f8b0f1442b3614d7b65e632ddd76b43b545d5106da2c1a28b03fe5ab6c155"
+      },
+      "draw": {
+        "id": "OBST-01-07",
+        "name": "Hammerfall Grapple",
+        "category": "combat",
+        "ticket": "8ce45445f579c6df30089eddab4e49abab9545564b9ab68895011aa22a2e8d06"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-IRON-QUARRY",
+        "round_fixed": true,
+        "physical_anchor": "western quarry ramp",
+        "permanent_scar": "TRACE-HIST-POST-2022-QF-1"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 13.22,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2022-QF-2",
+      "fixture_id": "HIST-POST-2022-QF-2",
+      "year": 2022,
+      "round": "QF",
+      "scene_title_candidate": "Obi-Wan Jacoby × Small Dak Energy — Croquet Siege",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2022-QF-2",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 1,
+          "name": "Obi-Wan Jacoby",
+          "points": 135.14
+        },
+        "away": {
+          "team_slot": 3,
+          "name": "Small Dak Energy",
+          "points": 150.74
+        },
+        "winner_slot": 3,
+        "certified_winner_name": "Small Dak Energy",
+        "scoring_period": "15",
+        "fingerprint": "79388242606e674dcf020caa8498b3015235e9b9f69384f3d03ebea66ece7bf4"
+      },
+      "draw": {
+        "id": "OBST-04-09",
+        "name": "Croquet Siege",
+        "category": "sports",
+        "ticket": "af6dedff824e7710f125721b266d37690248613e0afb22c0f63872ffc5417885"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-SALTWIND",
+        "round_fixed": true,
+        "physical_anchor": "protected finish terrace",
+        "permanent_scar": "TRACE-HIST-POST-2022-QF-2"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 15.6,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    },
+    {
+      "id": "INKLINGS-ASSIGN-HIST-POST-2022-QF-3",
+      "fixture_id": "HIST-POST-2022-QF-3",
+      "year": 2022,
+      "round": "QF",
+      "scene_title_candidate": "The Second Coming × Where Mahomies at? — Nine Kings Checkers",
+      "source_locked": {
+        "fixture_id": "HIST-POST-2022-QF-3",
+        "league_id": "1417621",
+        "home": {
+          "team_slot": 8,
+          "name": "The Second Coming",
+          "points": 122.23
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 162.26
+        },
+        "winner_slot": 10,
+        "certified_winner_name": "Where Mahomies at?",
+        "scoring_period": "15",
+        "fingerprint": "149842b3c407731fd934cdf81f20b4f50bf9339a98b5b6594aff9c78bda09d20"
+      },
+      "draw": {
+        "id": "OBST-06-09",
+        "name": "Nine Kings Checkers",
+        "category": "board",
+        "ticket": "bea20018b02c221e9c7c5cd5a1f0e69527c8d71e674aa9539795d2796ff86766"
+      },
+      "venue": {
+        "candidate_id": "CAND-POST-BREAKWATER",
+        "round_fixed": true,
+        "physical_anchor": "north harbor steps",
+        "permanent_scar": "TRACE-HIST-POST-2022-QF-3"
+      },
+      "priority": 8,
+      "priority_factors": [],
+      "verified_margin": 40.03,
+      "required_script": {
+        "words_target": [
+          1200,
+          2200
+        ],
+        "components": [
+          "actual round context",
+          "existing venue architecture and earlier material memory",
+          "ceremonial drawn challenge with legible objective",
+          "three causally linked stages",
+          "both named principal personas personally perform all stages",
+          "at least one opponent countermove and one differentiated personal strategy per phase",
+          "professional year-appropriate spectator account",
+          "source-certified final result",
+          "safe but permanent physical trace / remediation / later World continuity",
+          "shoreward elimination or championship postlude"
+        ],
+        "prohibitions": [
+          "human owner identity inferred from historic team slot",
+          "fatal main POV injury",
+          "unapproved contemporary technology before arrival era",
+          "fantasy score converted from fictional objective",
+          "unverified historical Michael Farrell naming",
+          "active Atlas location write",
+          "invented 2026 postseason result"
+        ]
+      },
+      "workflow": {
+        "stage": "QUEUED_EDITORIAL",
+        "model_drafting_permitted": true,
+        "model_output_acceptance": "NEVER_AUTOMATIC_CANON",
+        "deterministic_source_gate": "scene_quality_gate.cjs",
+        "quality_followup": [
+          "Beat Writer creative editor",
+          "Architect physical/era check",
+          "Scout source provenance",
+          "independent Umpire",
+          "character canon references"
+        ],
+        "publication": "HOLD"
+      }
+    }
+  ]
+}

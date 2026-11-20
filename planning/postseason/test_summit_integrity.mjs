@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+const p=path.dirname(fileURLToPath(import.meta.url));
+const summit=fs.readFileSync(path.join(p,'SUMMIT_2026_11_19_18_DIRECTORS_12_ANGLES_V1.md'),'utf8');
+const record=JSON.parse(fs.readFileSync(path.join(p,'SIMULATED_CONSULTENGINE_18_DIRECTORS_3_ADVISORS_RECEIPT.json'),'utf8'));
+const names=['The Closer','The Setup Man','The Scout','The Umpire','The Beat Writer','The Groundskeeper','The GM','The Pitching Coach','The Warden','The Commissioner','The Analyst','The Librarian','The Agent','The Bookkeeper','The Commissioner General','The Clubhouse Manager','The Scout Master','The Architect'];
+assert.equal(record.board.director_count,18);
+assert.equal(record.board.participants.length,18);
+assert.equal(new Set(record.board.participants.map(x=>x.slug)).size,18);
+assert.equal(record.consultants.length,3);
+assert.deepEqual(new Set(record.consultants.map(x=>x.slug)),new Set(['jeff_lunsford','john_ezzell','tim_veil']));
+assert.ok(record.consultants.every(x=>x.humanVerified===false));
+assert.equal(record.telemetry.calls.director_consult,18);
+assert.equal(record.telemetry.calls.external_advisor_lens,3);
+assert.equal(record.telemetry.calls.board_synthesis,1);
+assert.match(record.disclaimer,/scripted deterministic response provider/);
+assert.ok(!record.approval.includes('CANON_APPROVED'));
+for(const n of names)assert.ok(summit.includes('| '+n+' |'),'Missing board department '+n);
+for(let i=1;i<=12;i++)assert.ok(summit.includes('### '+String(i).padStart(2,'0')+'. '),'Missing summit angle '+i);
+assert.ok(summit.includes('Summit conclusion'));
+console.log(JSON.stringify({status:'PASS',directors:18,angles:12,consultants:3,mode:'DISCLOSED_SCRIPTED_SIMULATION_NOT_INDEPENDENT_MODEL_REASONING'}));

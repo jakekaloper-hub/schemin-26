@@ -1,0 +1,62 @@
+{
+  "schema": "schemin.postseason.last_field_atlas_supersession_packet.v1",
+  "status": "FOUNDER_CREATIVE_DIRECTION_APPROVED__GEOGRAPHY_PROMOTION_HELD",
+  "current": {
+    "candidate_id": "CAND-CHAMP-LAST-FIELD",
+    "zone_ids": [
+      "REG-CENTRAL-BASIN"
+    ],
+    "status": "FUTURE_UNLOCK_CANDIDATE",
+    "technology": "NATIVE_PREMODERN",
+    "activation": "Actual championship encounter exists and finalists are verified"
+  },
+  "proposed": {
+    "candidate_id": "CAND-CHAMP-LAST-FIELD",
+    "zone_ids": [
+      "REG-INNER-SEA-LITTORAL"
+    ],
+    "function": "Same physically fixed Last Field, but within a causeway-connected championship-only offshore precinct since the earliest reconstructed 2015 fiction",
+    "new_active_location_id": null,
+    "coordinates": null,
+    "route_id": null,
+    "modern_media": "ISLAND_EXCEPTION_PENDING_WORLD_TECH",
+    "event_eligibility": [
+      "CHAMPIONSHIP"
+    ],
+    "public_launch": "BLOCKED_UNTIL_SOURCE_LOCK"
+  },
+  "plausibility": {
+    "actual_region": "Inner Sea Littoral",
+    "terrain": [
+      "warm ports",
+      "islands",
+      "sheltered bays",
+      "coastal terraces"
+    ],
+    "adjacencies": [
+      "REG-CENTRAL-BASIN",
+      "REG-SOUTHERN-WETLANDS",
+      "REG-EASTERN-STORM-COAST"
+    ],
+    "related_canon_active_littoral_location": "LOC-LLC-STORM-CITY",
+    "anchor_warning": "LLC Storm City is owner-linked. DO NOT turn that owner domain into private control of the neutral championship causeway.",
+    "island_route_links": 45,
+    "island_nodes": 23,
+    "exact_mainland_anchor": "UNRESOLVED_NEUTRAL_PUBLIC_CORRIDOR"
+  },
+  "no_mutation": {
+    "live_locations": 23,
+    "live_routes": 18,
+    "location_writeback": false,
+    "route_writeback": false
+  },
+  "required_gates": [
+    "Choose specific existing neutral mainland route or propose governed publicly neutral new location",
+    "Resolve island location coordinates/topology in abstract map bounds without treating abstract coordinates as real meters",
+    "Confirm storm surge, causeway structural loads, utility corridors and emergency access",
+    "Version and supersede old Central Basin candidate explicitly; do not delete audit provenance",
+    "Confirm island camera/screen modern-tech exception independently of global world technology",
+    "Preserve 2026 championship-only reveal restriction and protected Michael Farrell memorial"
+  ],
+  "fact_boundary": "Physical island and 2015–2025 venue use are original secondary-world fiction, not externally verified venue records."
+}

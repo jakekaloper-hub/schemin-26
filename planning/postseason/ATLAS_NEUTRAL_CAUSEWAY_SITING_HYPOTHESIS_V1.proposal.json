@@ -1,0 +1,173 @@
+{
+  "schema": "schemin.postseason.architect_candidate_siting.v1",
+  "status": "UNPROMOTED_FOUNDER_APPROVED_CREATIVE_DIRECTION__SITING_HYPOTHESIS",
+  "proof": {
+    "physical_region_id": "REG-INNER-SEA-LITTORAL",
+    "region_source": "world/data/physical_zones.json",
+    "historic_last_field_candidate": "CAND-CHAMP-LAST-FIELD",
+    "historic_last_field_zone": "REG-CENTRAL-BASIN",
+    "present_day_active_location_count": 23,
+    "present_day_active_route_count": 18,
+    "coordinates_class": "FICTIONAL_NORMALIZED_ATLAS_ABSTRACT_SKETCH",
+    "metric_geography": false,
+    "layout_source_sha256": "8b3289b1f423dabb6c9f131a30b4b09527100bdb0ad29587e7224bcf1215eb73"
+  },
+  "hypothesis": {
+    "public_mainland_gate": {
+      "id": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+      "name": "Neutral Littoral Causeway Gate",
+      "abstract_position": [
+        68.5,
+        13.5
+      ],
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "owner_character_id": null,
+      "division_id": null,
+      "type": "seasonal_public_approach",
+      "status": "CANDIDATE_NOT_LOC",
+      "important": "No ownership or security command delegated to nearby LLC Storm City"
+    },
+    "causeway_crossing": {
+      "id": "CAND-POST-MONUMENTAL-CAUSEWAY",
+      "name": "Championship Causeway",
+      "abstract_path": [
+        [
+          68.5,
+          13.5
+        ],
+        [
+          69.5,
+          12.7
+        ],
+        [
+          70.6,
+          12
+        ],
+        [
+          71.8,
+          11.5
+        ]
+      ],
+      "water_crossing": "HYPOTHESIZED_SHALLOW_SHELTERED_BAY_NO_BATHYMETRIC_PROOF",
+      "structural_loads": null,
+      "actual_length_m": null,
+      "engineering": "STORM_SURGE_AND_FOUNDATION_SURVEY_REQUIRED"
+    },
+    "island_centre": {
+      "id": "CAND-POST-CHAMPIONSHIP-ISLAND",
+      "name": "Championship Island",
+      "abstract_position": [
+        73.8,
+        10.5
+      ],
+      "zone_id": "REG-INNER-SEA-LITTORAL",
+      "private_owner_id": null,
+      "government": "LEAGUE_NEUTRAL_EVENTS_AUTHORITY_CANDIDATE",
+      "arena_orientations": "SIX_FIXED_ROUND_VENUES_IN_SITE_NETWORK__ROTATION_AND_TRUE_NORTH_UNVERIFIED"
+    },
+    "candidate_outer_envelope": {
+      "western_edge": [
+        71.9,
+        9.9
+      ],
+      "northern_ridge": [
+        74.3,
+        12.8
+      ],
+      "eastern_seawall": [
+        76.1,
+        10
+      ],
+      "southern_harbor": [
+        73.4,
+        8.3
+      ],
+      "shape": "ILLUSTRATIVE_POLYGON_NOT_SURVEYED_CADASTRE",
+      "water_or_coastline_surveyed": false
+    },
+    "landmark_sites": {
+      "CAND_POST_LAST_FIELD": [
+        74.9,
+        11.2
+      ],
+      "CAND_POST_CROWN_STAIR": [
+        73.6,
+        12.1
+      ],
+      "CAND_POST_GROVE_STANDARDS": [
+        74.2,
+        10.5
+      ],
+      "CAND_POST_IRON_QUARRY": [
+        72.5,
+        10.2
+      ],
+      "CAND_POST_SALTWIND": [
+        75.6,
+        11.1
+      ],
+      "CAND_POST_BREAKWATER": [
+        74.8,
+        8.9
+      ],
+      "LOSERS_BEACH": [
+        72.2,
+        9.3
+      ],
+      "CAUSEWAY_GATE": [
+        71.9,
+        11.5
+      ],
+      "PUBLIC_COMMONS": [
+        72.5,
+        10.9
+      ],
+      "BROADCAST_HQ": [
+        73,
+        11.8
+      ],
+      "CONTENDERS_FORTRESS": [
+        73.9,
+        11
+      ]
+    },
+    "existing_nearby_owner_domain": {
+      "id": "LOC-LLC-STORM-CITY",
+      "owner_character_id": "CHAR-DAVID-BABB",
+      "use": "PORT_ORIENTATION_REFERENCE_ONLY_NOT_LEAGUE_AUTHORITY"
+    },
+    "planned_links": [
+      {
+        "id": "CAND-ROUTE-LEAGUE-TO-NEUTRAL-PORT-APPROACH",
+        "from": "LOC-LEAGUE-CHAMBER",
+        "to": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+        "status": "PROPOSED_REGIONAL_PUBLIC_LINK_NEEDS_SOURCED_ROAD_CORRIDOR"
+      },
+      {
+        "id": "CAND-ROUTE-CHAMPIONSHIP-CAUSEWAY",
+        "from": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+        "to": "CAND-POST-CHAMPIONSHIP-ISLAND",
+        "status": "PROPOSED_MONUMENTAL_FIXED_CROSSING"
+      },
+      {
+        "id": "CAND-ROUTE-ISLAND-RELIEF-FERRY",
+        "from": "CAND-POST-CHAMPIONSHIP-ISLAND",
+        "to": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+        "status": "CONTINGENCY_ROUTE_SURVEY_REQUIRED"
+      }
+    ]
+  },
+  "approval_checks": [
+    "Authoritative mapping: Are these abstract points really mainland coast, island rock and sheltered navigable water? Current atlas only confirms general region and terrain.",
+    "World neutral authority: confirm League ownership, public roads and independent admission without LLC property rights",
+    "Last Field candidate superset: formally version old Central Basin prospect to island location before promoting LOC- IDs",
+    "Flood/storm: coastline/tide, rubble, bridge footing, slipway, refuge, and spectator closure procedures",
+    "Founding chronology 2015: bridge and permanent Last Field must already exist in original fictional 2015 edition; modern cameras/screens added only in later eras",
+    "Technological exception: venue-specific modern electricity, screens and camera distribution requires controlled World/Tech rule decision",
+    "Keep the 2015–25 physical scenery fiction separate from recorded ESPN sports evidence",
+    "Human owner / memorial sources must not be inferred from nearby place names"
+  ],
+  "world_writes": [],
+  "live_site_updates": [],
+  "canon_promotion": false
+}

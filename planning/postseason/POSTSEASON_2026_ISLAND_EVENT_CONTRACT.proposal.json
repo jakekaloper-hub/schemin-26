@@ -1,0 +1,244 @@
+{
+  "schema": "schemin.postseason_island_event_contract.founder_v2",
+  "status": "DESIGN_CONTRACT_NOT_RELEASED",
+  "season": 2026,
+  "source_of_truth": {
+    "league": "ESPN:football:1417621",
+    "sporting_settings": "canon/league.json plus refreshed provider playoff settings",
+    "source_gate": "LOCK_POSTWEEK_14_BEFORE_BINDINGS",
+    "world": "world/data/ and venue location promotion",
+    "historic_context": "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.proposal.json"
+  },
+  "schedule": {
+    "regular_season_ends_after_week": 14,
+    "rounds": [
+      {
+        "key": "QUARTERFINAL",
+        "week": 15,
+        "fixture_count": 3,
+        "bye_count": 1
+      },
+      {
+        "key": "SEMIFINAL",
+        "week": 16,
+        "fixture_count": 2,
+        "bye_count": 0
+      },
+      {
+        "key": "CHAMPIONSHIP",
+        "week": 17,
+        "fixture_count": 1,
+        "bye_count": 0
+      }
+    ],
+    "qualification_count": 7,
+    "first_round_bye_seed": 1,
+    "reseed": false,
+    "verified_individual_round_outcomes": false
+  },
+  "bracket_state_machine": {
+    "states": [
+      "NOT_QUALIFIED",
+      "QUALIFIED",
+      "BYE_ADVANCED",
+      "IN_CONTEST",
+      "ADVANCED",
+      "ELIMINATED_QF",
+      "ELIMINATED_SF",
+      "RUNNER_UP",
+      "CHAMPION"
+    ],
+    "transitions": [
+      [
+        "QUALIFIED",
+        "IN_CONTEST"
+      ],
+      [
+        "QUALIFIED",
+        "BYE_ADVANCED"
+      ],
+      [
+        "BYE_ADVANCED",
+        "IN_CONTEST"
+      ],
+      [
+        "IN_CONTEST",
+        "ADVANCED"
+      ],
+      [
+        "IN_CONTEST",
+        "ELIMINATED_QF"
+      ],
+      [
+        "IN_CONTEST",
+        "ELIMINATED_SF"
+      ],
+      [
+        "IN_CONTEST",
+        "RUNNER_UP"
+      ],
+      [
+        "IN_CONTEST",
+        "CHAMPION"
+      ],
+      [
+        "ADVANCED",
+        "IN_CONTEST"
+      ]
+    ],
+    "preconditions": [
+      "Each transition requires exact official fixture/bye and certified result evidence",
+      "No championship winner before provider settles all final games",
+      "No unrelated event changes another matchup's score"
+    ],
+    "prohibited": [
+      "combat death as elimination",
+      "provisional or random winners",
+      "future pre-written opponent identities",
+      "automatic effect on another contest's provider outcome"
+    ],
+    "place_admission_rule": "NOT_QUALIFIED permits Losers' Beach assignment only after official Week14 exclusion; no bracket state transition to a nonexistent BEACH_INITIAL state."
+  },
+  "island_zones": {
+    "contenders_quarter": {
+      "entry_requires": "official qualification",
+      "current_occupancy": "unknown until result lock",
+      "exit": "certified elimination or postfinal release",
+      "rights": "seasonal temporary assignment"
+    },
+    "bye_house": {
+      "entry_requires": "official seed1 first-round bye",
+      "status": "no fictitious QF performance",
+      "exit": "semifinal appearance"
+    },
+    "losers_beach": {
+      "entry_requires": "official nonqualification or loss",
+      "as_of_week14_population": 5,
+      "after_qf_population": 8,
+      "after_sf_population": 10,
+      "after_final_population": 11,
+      "note": "counts conditional on standard seven-team single-elimination format; do not assign team identities before certified results"
+    },
+    "last_field": {
+      "event_class": "CHAMPIONSHIP_ONLY",
+      "active_status": "LOCKED_PENDING_CANON_PROMOTION_AND_FINALIST_VERIFICATION",
+      "max_competitors": 2,
+      "mandatory_remembrance": "Michael Farrell Trophy protected memorial doctrine"
+    }
+  },
+  "venue_assignment": {
+    "rounds": {
+      "QUARTERFINAL": [
+        "CAND-POST-IRON-QUARRY",
+        "CAND-POST-SALTWIND",
+        "CAND-POST-BREAKWATER"
+      ],
+      "SEMIFINAL": [
+        "CAND-POST-CROWN-STAIR",
+        "CAND-POST-GROVE"
+      ],
+      "CHAMPIONSHIP": [
+        "CAND-POST-LAST-FIELD"
+      ]
+    },
+    "round_assignment_policy": "Permanent designated round arenas; never rotate QF venue into semifinal, or semifinal into final. Assign actual opposing teams after ESPN lock with neutral logistics. Historical bracket-v2 uses identical round-class rule.",
+    "source_priority": [
+      "official opponents and seeds",
+      "official bracket finality",
+      "fixed authorized round venue",
+      "approved neutral safety and island site access",
+      "multi-stage challenge production and independent QA"
+    ],
+    "hold": "Fixed slots are DESIGN CANDIDATES, not presently active LOCs. No live staging until Atlas approval."
+  },
+  "media_rhythm": {
+    "pre_match": [
+      "professional_studio_live_intro",
+      "camera_establishing_footage",
+      "opponent_entering_stats",
+      "archival_prior_champions",
+      "live_screen_and_commentary_setup"
+    ],
+    "in_match": [
+      "opening_physical_trial",
+      "midround_opponent_counterplay",
+      "third_stage_decisive_confrontation",
+      "official_scoring_data_overlay",
+      "live_commentary"
+    ],
+    "post_match": [
+      "provider_final_lock_before_certification",
+      "winner_advances",
+      "survivor_housing_updated",
+      "loser_shoreward_descent",
+      "losers_beach_broadcast",
+      "championship_bracket_update"
+    ],
+    "in_world_technology": "Modern island cameras, wired score feeds, large live screens, commentary, studios and electrical distribution approved as Founder F08 DESIGN DIRECTION; global Commonwealth distribution and exact energy supply need separate World/Tech acceptance.",
+    "one_way_evidence": "Live commentary may state partial status, but only provider result lock certifies winner. No broadcaster determines game outcomes."
+  },
+  "data_packet_required_fields": [
+    "season",
+    "round",
+    "week",
+    "provider",
+    "league_id",
+    "snapshot_id",
+    "fixture_id",
+    "home_team_id",
+    "away_team_id",
+    "home_score",
+    "away_score",
+    "winner_team_id",
+    "result_status",
+    "venue_loc_or_candidate",
+    "encounter_form",
+    "scene_continuity_in",
+    "scene_continuity_out",
+    "render_release_gate"
+  ],
+  "delivery_channels": [
+    "memo-os",
+    "living-novel",
+    "world/atlas",
+    "commonwealth-site",
+    "visual-production"
+  ],
+  "holds": [
+    "2026 source not locked",
+    "event venues not promoted in live Atlas",
+    "physical island site and routes not verified",
+    "Last Field Central Basin island conflict pending approval",
+    "memorial founding chronology unresolved",
+    "historical owner identities incomplete",
+    "Causeway route/hydrology needs promoted Atlas validation",
+    "Modern cameras/screens require World/Tech canon exception reconciled with existing global limitations",
+    "End-to-end Inklings independent agent/workers not proven active",
+    "Final art and publication require separate quality gates"
+  ],
+  "authority": "planning/postseason/FOUNDER_CHAMPIONSHIP_ISLAND_DECISIONS_2026-11-18.md",
+  "design_handoff": "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+  "visual_environment": {
+    "theme": "RUGGED_FORTIFIED_SURVIVAL_WITH_MODERN_STAGE_INFRASTRUCTURE",
+    "approach": "MONUMENTAL_MAINLAND_CAUSEWAY",
+    "resort": "PHASED_LUXURY_SPORTING_EXPANSION_2015_2025",
+    "last_field": "PERMANENT_FINAL_STADIUM_WITH_CHAMPIONS_WALK_TROPHY_HALL_FARRELL_SANCTUARY",
+    "losers_beach": "SEASONAL_BITTERSWEET_BEACH_VILLAGE",
+    "survivor_ethos": "Every contestant prefers advancement over beach comforts; no principal fatalities."
+  },
+  "inklings_role": {
+    "production_unit": "INKLINGS_POSTSEASON_STORYROOM",
+    "status": "FOUNDER_AUTHORIZED_PROJECT_PRODUCTION_FUNCTION_NOT_INDEPENDENT_AGENTS_INVOCATION",
+    "artifacts": [
+      "challenge_sequence_packs",
+      "two_contender_POV_script",
+      "arena_camera_storyboard",
+      "announcer_and_studio_script",
+      "contender_and_beach_consequence",
+      "world_continuity_handoff"
+    ],
+    "owner": "Beat Writer / Novel and Memo creative authority",
+    "handoff": "Atlas site IDs → source facts → script → counterweight challenge → independent Umpire → visual production",
+    "human_author_status": "published-method lenses only; not live participation"
+  }
+}

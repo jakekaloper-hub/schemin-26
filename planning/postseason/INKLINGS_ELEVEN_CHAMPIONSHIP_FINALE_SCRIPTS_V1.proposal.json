@@ -1,0 +1,335 @@
+{
+  "schema": "schemin.inklings.championship_finale_scripts.v1",
+  "status": "ORIGINAL_LITERARY_PREPRODUCTION_NOT_CANON",
+  "history_source": "planning/postseason/HISTORICAL_POSTSEASON_ENCOUNTERS_2015_2025.founder_v2.json",
+  "founder_direction": "planning/postseason/FOUNDER_CHAMPIONSHIP_ISLAND_DECISIONS_2026-11-18.md",
+  "guardrails": [
+    "No historical human-owner name without independent proof",
+    "No invented physical history claimed as ESPN fact",
+    "No backdated Farrell trophy naming",
+    "The same Last Field in every proposed annual fiction",
+    "Every final after official score certification",
+    "No 2026 finalist or winner"
+  ],
+  "scenes": [
+    {
+      "year": 2015,
+      "title": "The First Name in Stone",
+      "angle": "The origin of a public institution",
+      "prose": [
+        "The last light had not yet reached the bottom of the old amphitheater when the two gates opened. There were no glittering arrays of screens, no procession of former champions, no century of names to call. The terraces were carved from the island's rock, and anyone near the rail could hear the judges calling the stages. Across the water the causeway still appeared unfinished, more a work of necessity than a monument.",
+        "Austin's Hyena's entered one gate and Discount Belichick the other. Their endurance trial proceeded in three visible passages: an opening circuit across the uneven ground, a central set of burdened stations, and a closing approach watched from the highest benches. The first exchanges did not supply a champion. Each contender had to answer what the other had achieved before the officials allowed the final movement to proceed.",
+        "The final certified result was Discount Belichick 211.50, Austin's Hyena's 187.00. The island's first recoverable champion remained on the field while the defeated finalist stepped toward the sea-facing exit. A custodian who had spent the morning cleaning the old arch now faced a different task: preserving the place where the first name would be kept. From the beach below, those who had missed the postseason could see that all the labor of the regular year had led to one man standing there."
+      ],
+      "broadcast": "The founding ceremony is witnessed by in-person heralds and a primitive central record table; no modern screens or historic Farrell-naming claim.",
+      "beach": "Eight nonqualifiers inhabit basic temporary shelters; the losing finalist descends after official certification.",
+      "verified": {
+        "home": {
+          "team_slot": 8,
+          "name": "Austin's Hyena's",
+          "points": 187
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Discount Belichick",
+          "points": 211.5
+        },
+        "winner_slot": 12,
+        "fixture_id": "HIST-POST-2015-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2016,
+      "title": "The Right to Return",
+      "angle": "A repeated venue becomes an institution",
+      "prose": [
+        "The new season arrived with people who already knew where to sit. Some had learned which gate cast the longest shadow in late afternoon; others knew the quickest route from the causeway to the beach, which was knowledge no contender wished to claim as a specialty. A second championship at the same ground did more than repeat the first. It made the architecture a witness.",
+        "Austin's Hyena's faced The Gunslingers across a carefully measured tactical field. The opening passage tested control of three raised standards. In the second, The Gunslingers recovered territory that appeared secure, pressing the defending lines toward the old western arch. By the final passage, each side had exhausted its cleanest option; what remained was the ability to adapt under the gaze of a crowd that remembered the disappointment of the prior year.",
+        "At 217.70–206.88, Austin's Hyena's prevailed. No official could confer a win on reputation alone, and no spectator could argue that the runner-up had failed to contest the field. The final ceremony took place against the same stonework that had watched the first. A new annual inscription followed the old one. For the people on the shore below, a second name proved that the championship precinct would not be a one-year curiosity."
+      ],
+      "broadcast": "A dedicated herald at each semifinal and a central certified result exchange support the final; no retroactive electronic display.",
+      "beach": "The first beach regulars begin recognizing the annual lodgings, but every one of them would abandon that familiarity for a finalist gate.",
+      "verified": {
+        "home": {
+          "team_slot": 8,
+          "name": "Austin's Hyena's",
+          "points": 217.7
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "The Gunslingers",
+          "points": 206.88
+        },
+        "winner_slot": 8,
+        "fixture_id": "HIST-POST-2016-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2017,
+      "title": "Six Roads, One Last Field",
+      "angle": "Expansion makes qualification a process, not an arrival",
+      "prose": [
+        "The great difference was audible long before the final. Six contenders had come to the island, and the roads around the stadium carried the noise of trials staged at new permanent grounds. Two powers had rested through the opening round. Two had survived it. By the time the final gates opened, the larger crowd knew which standards had fallen at the quarry and which had endured the windward steps.",
+        "The Fournecators entered opposite The Gunslingers. An endurance course had been prepared in three sections, each visible from the permanent terraces and each progressively narrower. The Gunslingers pressed hard in the opening passage, seeking an early foothold that might force the other side to hurry. The middle stretch exposed the cost of that effort. In the final passage The Fournecators continued to answer the course with a steadiness the challengers could not match.",
+        "At the official result—144.20 against 80.42—the difference was decisive. It was not an argument for a deadlier contest or a supernatural reward. It was the record of one competitor outperforming another under the same rules. Above the beach, the newest spectator terraces filled with cheers. Below them, ten unsuccessful title seekers had to decide whether to watch the end of the ceremony or turn away."
+      ],
+      "broadcast": "The venue's announcing and bracket reporting expand with the six-team field, still using physically plausible period-specific systems.",
+      "beach": "Six begin on the beach; two quarterfinal casualties and two semifinal casualties join them before the final.",
+      "verified": {
+        "home": {
+          "team_slot": 12,
+          "name": "The Fournecators",
+          "points": 144.2
+        },
+        "away": {
+          "team_slot": 7,
+          "name": "The Gunslingers",
+          "points": 80.42
+        },
+        "winner_slot": 12,
+        "fixture_id": "HIST-POST-2017-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2018,
+      "title": "The Narrow Way",
+      "angle": "A champion can depend on the smallest earlier survival",
+      "prose": [
+        "On the morning of the championship the island newspapers spoke less of the finalists than of a tenth of a point. Kardiac Kids had survived the opening round 114.37–114.27. That narrow passage through the quarry had become an argument along every path to the Last Field: how could the difference between elimination and another chance be so small? The island's old walls made no reply.",
+        "Christopher Columbus met Kardiac Kids under the unaltered final arch. The duel was arranged in three bouts of controlled technique. In the first, neither finalist yielded the central ground. In the second, the initiative moved back and forth as each learned the shape of the other's defense. The third was not a violent killing stroke but a decisive contest of precision, fought before officials who had become painfully aware of how exact their records needed to be.",
+        "Kardiac Kids prevailed 160.69–153.26. The champion's name entered the rolls; Christopher Columbus descended in the wake of a defeat that had come only at the final threshold. On the beach, an old storyteller would have preferred an easier explanation. There was none. The tournament had offered Kardiac Kids an opportunity to survive by a tenth of a point, and the final had allowed the same contender to earn the title."
+      ],
+      "broadcast": "Public result boards and a careful record desk preserve the distinction between dramatic staging and precise verified scores.",
+      "beach": "The 0.10-point opening-round survival becomes a repeated coastal argument, not a new outcome.",
+      "verified": {
+        "home": {
+          "team_slot": 8,
+          "name": "Kardiac Kids",
+          "points": 160.69
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Christopher Columbus",
+          "points": 153.26
+        },
+        "winner_slot": 8,
+        "fixture_id": "HIST-POST-2018-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2019,
+      "title": "The Name on the Banners",
+      "angle": "Public rebranding atop an unchanged championship ground",
+      "prose": [
+        "New banners had gone up at the causeway gate. The public name now read Pro Schemin' Football League; the men who maintained the old stadium continued to call its doors by the same names. Fresh paint on a sign could not make the weathered stairs younger. Perhaps that was why the crowd liked the contrast. The competition had changed its name and continued to ask the same question.",
+        "Make Amarica Great Again stood against Please, Please, Please, please in the final. Officials had selected a staged sporting test in which three successive scoring stations forced each side to display a different strength. The opening station rewarded discipline; the middle station punished hesitation; the last required execution under a widening chorus from the galleries. Both contenders answered in turn. The audience could see the struggle without pretending the names or colors explained its outcome.",
+        "The certified final was 158.30–113.46 for Please, Please, Please, please. Its last approach was strong enough to leave no dispute in the official record. A new inscription was cut into the same ceremonial axis as the four previous years. In the seasonal taverns, supporters celebrated the changed name as if it had always belonged here. The old champion stones simply held the new one in their company."
+      ],
+      "broadcast": "Proposed broadcast branding becomes more consistent, but global video distribution remains a world-technology hold.",
+      "beach": "Returning competitors hear the changed league name from the shoreline, where qualification remains the more important distinction.",
+      "verified": {
+        "home": {
+          "team_slot": 5,
+          "name": "Make Amarica Great Again",
+          "points": 113.46
+        },
+        "away": {
+          "team_slot": 3,
+          "name": "Please, Please, Please, please",
+          "points": 158.3
+        },
+        "winner_slot": 3,
+        "fixture_id": "HIST-POST-2019-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2020,
+      "title": "Seventy-Five Hundredths",
+      "angle": "An island waits to learn which man is champion",
+      "prose": [
+        "The final did not feel close because a narrator called it close. It felt close because neither side could put the question away. Across the stadium, people held their places as the last sequence unfolded. Beyond the outer wall, viewers in the beach quarter gathered near the posted reports, waiting for a confirmation no rumor could supply.",
+        "The Grinch and Where Mahomies at? met in a controlled duel of three phases. The first established neither side as a clear master of the ground. The second brought a counter that threatened to end the trial early, only for the other contender to find a way back across the marked boundary. By the third phase, small differences in the officials' measures mattered more than any flourish. The upper terraces grew strangely quiet while the record office reviewed the closing totals.",
+        "Where Mahomies at? stood at 189.19. The Grinch stood at 188.44. The difference was 0.75, and the certification belonged to the former. Only after the result was secure did the field announcement break the silence. Across the island a winner's standard rose; on the coastal path the losing finalist moved toward a place that had been waiting for all but one of them. This was what the last ground was for: not to reward a reputation, but to answer the final question exactly."
+      ],
+      "broadcast": "Live commentator pauses until an authorized official declares the tiny margin; premature victory is prohibited.",
+      "beach": "A premature celebration on the beach may be fictional drama, but the certified scoreboard must remain 189.19–188.44.",
+      "verified": {
+        "home": {
+          "team_slot": 8,
+          "name": "The Grinch",
+          "points": 188.44
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 189.19
+        },
+        "winner_slot": 10,
+        "fixture_id": "HIST-POST-2020-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2021,
+      "title": "The Seventh Standard",
+      "angle": "A new tournament size changes the island's rhythm",
+      "prose": [
+        "Seven standards had stood above the arrival court at the opening of the Gathering. The number changed everything outside the final arena: a third quarterfinal stadium, a fuller broadcast operation, an additional secure residence, and a beach village where five nonqualifiers waited for three more to join them. The Last Field's original gates were unchanged, but what reached them had grown larger.",
+        "Dewars White Label and The Third Coming entered for the final. Three successive sporting challenges lay across the ancient field, each designed to make a different form of mastery visible. The Third Coming attacked the early stations directly. Dewars White Label responded with the consistency that had carried its campaign. By the final station, the difference between an attempted reversal and a successful one was plain even to the supporters whose allegiances made them unwilling to acknowledge it.",
+        "The official totals—178.06 to 96.58—gave Dewars White Label the championship. Above the stadium the new professional broadcast galleries carried the report; at the old stone axis the record keepers entered another champion. The island's first full seven-team tournament had produced a result as definitive as any earlier, and the beaches received the same number of unsuccessful competitors as always: eleven."
+      ],
+      "broadcast": "Three quarterfinal crews and a centralized desk permit a genuinely coordinated championship-event presentation.",
+      "beach": "Five original nonqualifiers, three quarterfinal casualties, two semifinal casualties and the runner-up form eleven unsuccessful competitors.",
+      "verified": {
+        "home": {
+          "team_slot": 5,
+          "name": "Dewars White Label",
+          "points": 178.06
+        },
+        "away": {
+          "team_slot": 8,
+          "name": "The Third Coming",
+          "points": 96.58
+        },
+        "winner_slot": 5,
+        "fixture_id": "HIST-POST-2021-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2022,
+      "title": "The Season and the Trial",
+      "angle": "A seventh-place regular-season record need not predict champion eligibility",
+      "prose": [
+        "All week the island's galleries had argued about a man who was no longer among the finalists. Red Leopards had arrived 13–1, taken the highest seed's bye, and lost in the semifinal to El Niño. The best regular-season record could not purchase a place on the last field. Down at the shoreline the story had become a spectacle of its own, equal parts disbelief and pleasure among those who had lost much earlier.",
+        "El Niño and Where Mahomies at? faced a three-phase endurance trial on the fixed ground. The stone stations were not tuned to either contender's mythology. Both began with the same course, the same visible rules, and the same opportunity to change tactics. At the second passage Where Mahomies at? sought the quicker route and forced El Niño to respond. At the third, the advantage became irreversible through performance rather than by a sudden change in the weather or an invented disaster.",
+        "The official final read El Niño 111.56, Where Mahomies at? 78.30. The champion had completed the regular season 7–7, a fact the island's growing archive would preserve beside the much longer story of surviving elimination. From the beach, defeated favorites watched the title pass to a contender whose prior record had promised far less. The island had not contradicted the league's rules. It had demonstrated them."
+      ],
+      "broadcast": "Historical presentation contrasts 13–1 Red Leopards' semifinal elimination with El Niño's verified 7–7 championship; no supernatural weather-driven scoring.",
+      "beach": "The top seed's semifinal descent gives the beach a bitter, unavoidable view of the difference between dominating a season and winning the title.",
+      "verified": {
+        "home": {
+          "team_slot": 9,
+          "name": "El Niño",
+          "points": 111.56
+        },
+        "away": {
+          "team_slot": 10,
+          "name": "Where Mahomies at?",
+          "points": 78.3
+        },
+        "winner_slot": 9,
+        "fixture_id": "HIST-POST-2022-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2023,
+      "title": "The Sixth Seed's Passage",
+      "angle": "The championship gates admit the qualified survivor, not the apparent favorite",
+      "prose": [
+        "The giant broadcast screens showed two contenders whose paths had surprised the early crowds. Arm Chair GM had survived its side of the bracket. Eggs Benedict, seeded sixth, had beaten three separate challenges to reach the same old stadium. The Last Field did not care which arrival had been expected; the gates opened only to those whose official records showed they had earned entry.",
+        "The final challenge was an engineering contest across three prepared stages. Both sides received identical permitted material and were asked to demonstrate control rather than destruction. Arm Chair GM organized the early work with discipline, forcing Eggs Benedict to rethink the route. In the second stage, Eggs Benedict found a more efficient method of reinforcing the central span; by the third, the advantage in the official contest was sufficient that the spectators could see the outcome taking shape before its formal certification.",
+        "Eggs Benedict won 192.88–140.76. From the private galleries to the crowded public terraces, people saw a sixth seed leave the final field with the year's championship. The island's museum received another name, and the last spectators on the causeway debated whether the result was unexpected or merely another reminder that the postseason had always existed to defeat expectations."
+      ],
+      "broadcast": "Professional image coverage emphasizes separate physical phases and exact result certification; all invented stage materials remain noncanon.",
+      "beach": "El Niño's top-seed semifinal exit and the sixth seed's eventual title become rival stories told by returning beach regulars.",
+      "verified": {
+        "home": {
+          "team_slot": 11,
+          "name": "Arm Chair GM",
+          "points": 140.76
+        },
+        "away": {
+          "team_slot": 12,
+          "name": "Eggs Benedict",
+          "points": 192.88
+        },
+        "winner_slot": 12,
+        "fixture_id": "HIST-POST-2023-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2024,
+      "title": "The Third Gate",
+      "angle": "Winning from the opening round rather than from a bye",
+      "prose": [
+        "ObiWan Jacoby had come through the quarterfinals and the semifinals to stand under the final arch. Against Dr. Duckhook the quarterfinal had finished 235.16–227.24. Against Red Leopards the semifinal had finished 185.54–177.78. Those were the verified steps of the path; the island's cameras could show the accumulated effort without turning a team-slot history into a personal biography unsupported by the archive.",
+        "The King waited across the field, having entered the tournament from the top seed's bye and advanced from the Crown Stair. The final was a controlled duel. The opening passage tested patience and positioning in the central oval. The second made both rivals abandon their initial plan. The third concentrated everything the weeks had earned into one final contest of execution, with no one permitted to claim the Belt on the basis of a better seed.",
+        "ObiWan prevailed, 187.52–161.68. For the first time in the recoverable league record, the ObiWan Jacoby name belonged beside the champion's stone. Spectators in the upper suites could see the result ceremony; down at Losers' Beach, defeated opponents had to watch the same field they had imagined entering. The old final venue absorbed a new memory without moving an inch."
+      ],
+      "broadcast": "Championship coverage can feature the same identifying arch and sightlines that later return in the 2025 reversal.",
+      "beach": "The finalists' differing routes—one with a bye, one through three wins—are a major production motif, not invented extra matches.",
+      "verified": {
+        "home": {
+          "team_slot": 8,
+          "name": "The King",
+          "points": 161.68
+        },
+        "away": {
+          "team_slot": 1,
+          "name": "ObiWan Jacoby",
+          "points": 187.52
+        },
+        "winner_slot": 1,
+        "fixture_id": "HIST-POST-2024-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    },
+    {
+      "year": 2025,
+      "title": "The Gates Remember",
+      "angle": "A champion returns and the island refuses to guarantee the same ending",
+      "prose": [
+        "When ObiWan Jacoby returned as the top seed, the island remembered its previous ceremony. More importantly, it remembered the ground. The twin gates, their angles against the sea, the old stone of the central circle—all were exactly where they had been. New lights and camera platforms had grown above them. No one arriving along the causeway could mistake the modern spectacle for a new stadium.",
+        "The Immortal's path had been stranger. The first-round trial ended with The Chili Cheesers defeated; then, at the Grove of Standards, Dr. Duckhook had pushed The Immortal to a 152.20–151.80 semifinal. Four tenths of a point had opened one finalist gate. The last confrontation was an endurance trial, with both finalists asked to answer three escalating passages in the arena where ObiWan had won the year before. In the opening stage the old champion sought the familiarity of the ground. In the second, The Immortal countered by imposing a different tempo. At the last station, the result became beyond recovery.",
+        "The Immortal prevailed 161.07–109.56. The Belt passed to the new champion and the Michael Farrell Trophy's protected remembrance remained integral to the ceremony. The defeated former champion could not ask the stonework to remember him more kindly than the score would allow. Across the beach, eleven unsuccessful title seekers watched the same gates close. Then the island's season ended. The old ground would remain ready for a twelfth final whose participants were not yet known."
+      ],
+      "broadcast": "Contemporary camera/screen treatment is allowed only as draft island-specific world technology, with the 0.40 semifinal result explicitly verified.",
+      "beach": "Even a returning prior champion joins the unsuccessful eleven after official certification; former glory yields no competitive exemption.",
+      "verified": {
+        "home": {
+          "team_slot": 1,
+          "name": "ObiWan Jacoby",
+          "points": 109.56
+        },
+        "away": {
+          "team_slot": 8,
+          "name": "The Immortal",
+          "points": 161.07
+        },
+        "winner_slot": 8,
+        "fixture_id": "HIST-POST-2025-FINAL-1",
+        "score_source": "ESPN_FLAIM_HISTORY"
+      },
+      "source_status": "FICTIONAL_STAGE_AND_LITERARY_ART_DIRECTION_ONLY",
+      "venue_id": "CAND-POST-LAST-FIELD"
+    }
+  ]
+}
