@@ -241,5 +241,27 @@
   },
   "revision_warnings": [
     "week8 has modified prior events: 1"
-  ]
+  ],
+  "historical_row_metadata_classification": {
+    "week": 8,
+    "provider_event_id": {
+      "kind": "string",
+      "value": "84396da6-d484-4885-9a42-8eca60d92933"
+    },
+    "field": "players_dropped[0].team",
+    "previous": "GB",
+    "current": "FA",
+    "unchanged_fields": [
+      "espn_event_id",
+      "transaction_id",
+      "status",
+      "date",
+      "team_ids",
+      "players_added",
+      "players_dropped[0].id"
+    ],
+    "conclusion": "Provider's current player-team affiliation metadata changed on an October 28 historic transaction, not a new acquisition, drop, waiver outcome, or transaction event. Preserve both snapshots; do not rewrite past event's historical team as if true at event time.",
+    "scope": "PLAYER_AFFILIATION_METADATA_ONLY",
+    "require_steward_review": true
+  }
 }
