@@ -54,3 +54,14 @@
 | Independent Umpire / formal release | HOLD | Independent red-team source/visual acceptance, PDF audit and publication receipt |
 
 **Promotion decision:** **Early live Story Room and source-reference stage pass**. **Do not Story Lock, Page Lock, issue a final artifact, merge PR #313, claim real Tim Veil personal signoff, or open the postseason island.** Existing Week10 PR #315 remains separate.
+
+
+## Post-receipt CI verification — latest documentation head
+At `b976f5987922f14bdf74060b2a98bec1466dcae5`, GitHub reported `source-intake-integrity`, `memo-authority`, `authority-regression`, `gate` and both `test` jobs **SUCCESS**. Three separately reported Netlify `scheminnovel` checks (Redirect rules, Header rules, Pages changed) were **FAILURE**.
+
+Read-only examination of Netlify deploy `6b009b2124dd562489c40b4b` returned the specific error:
+> Failed during stage 'building site': Deploy directory 'novel/book' does not exist
+
+GitHub content lookups confirmed `novel/book` is absent on current `main` and on this memo branch, while `living-novel` exists. **This is a novel-site publish-directory configuration/dependency failure, not evidence that the Week11 source-value assertions failed.** The Netlify site was **not** reconfigured here; its owning deployment workflow must reconcile the expected publish directory before any claim of fully green repository check status. All CI observations are tied to their exact checked commit, not future commits.
+
+**Gate separation:** SOURCE-INTAKE CI = PASS; Atlas route topology = PASS; Netlify novel preview = FAIL/OTHER DOMAIN; formal PR review and broader deployment acceptance = HOLD.
