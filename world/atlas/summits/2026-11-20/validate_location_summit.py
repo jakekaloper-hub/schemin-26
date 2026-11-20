@@ -29,6 +29,7 @@ def validate() -> dict:
     dossier = json.loads((HERE / "THREE_LAYER_LOCATION_DOSSIERS_V1.json").read_text())
     review = json.loads((HERE / "STRUCTURAL_REVIEW_MANIFEST_V1.json").read_text())
     year_matrix = json.loads((HERE / "SEASON_BY_SEASON_SLOT_GEO_IMPACT_MATRIX_V1.json").read_text())
+    island = json.loads((HERE / "PLAYOFF_ISLAND_THREE_LAYER_RECONCILIATION_V1.json").read_text())
 
     ids = [x["id"] for x in active] + [x["id"] for x in candidates]
     require(len(active) == 23, "active LOC baseline changed")
@@ -84,6 +85,31 @@ def validate() -> dict:
     require(len(island_ids) == 4, "missing four island source-gated candidates")
     require(all(not x["likely_physical_zone_ids"] and x.get("rare_use") for x in island_ids),
             "unknown island must not acquire invented zone or open ordinary venue use")
+    require(all(x["lifecycle_status"] == "HOLD_FOR_LATER_EVIDENCE" for x in island_ids),
+            "duplicate-risk island candidates prematurely activated")
+
+    # Island source PR #322 is an independent editorial atlas with stable handles,
+    # not 44 new LOC locations or proof of real-playoff venue geography.
+    island_records = island["three_depth_records"]
+    require(len(island_records) == 44 and len({x["id"] for x in island_records}) == 44,
+            "island source handle count/identity drift")
+    require(not ({x["id"] for x in island_records} & set(ids)),
+            "island handles must not be silently duplicated as canonical LOC/CAND IDs")
+    for x in island_records:
+        require(all(isinstance(x.get(depth), dict) and x[depth]
+                    for depth in ("layer1", "layer2", "layer3")),
+                f"island three-depth record missing: {x['id']}")
+        require(x.get("status") in ("UNPROMOTED", "EDITORIAL_ONLY", "DORMANT_HERITAGE") or
+                x.get("kind") == "ISLAND_TOPOLOGY_NODE",
+                f"unexpected island promotion: {x['id']}")
+    require(island["counts"]["historical_matches"] == 56, "island historical fixture count mismatch")
+    require(island["counts"]["dormant_heritage_sites"] == 9, "dormant island heritage lost")
+    require(island["counts"]["edges"] == 45, "island source edge-list count drift")
+    require(island["known_source_defect"]["actual"] == 45 and
+            island["known_source_defect"]["recorded"] == 41,
+            "island edge-count source defect must remain flagged, not silently 'fixed'")
+    require(island["championship_identity_conflict"]["approval"].startswith("Explicit"),
+            "Last Field conflicting locations must require explicit review")
     require(next(x for x in candidates if x["id"] == "CAND-CHAMP-LAST-FIELD")["championship_only"],
             "last-field championship-only lock lost")
     require(next(x for x in candidates if x["id"] == "CAND-STOCKCAR-SPEEDWAY")["lifecycle_status"] == "REJECTED_FOR_DRIFT",
@@ -112,6 +138,7 @@ def validate() -> dict:
     return {"status": "PASS_STRUCTURAL_ONLY", "active": len(active), "legacy_candidates": vintage["PREEXISTING"],
             "new_candidates": vintage["NEW_2026_11_20"], "dossiers": len(current)+len(proposed),
             "owner_slots": len(yrs), "historic_slot_years": len(yrs)*11, "podium_checks": len(source_history)*3,
+            "island_source_handles": len(island_records), "total_dossiers_and_island_handles": len(current)+len(proposed)+len(island_records),
             "island_source_gate": "HOLD", "umpire": "PENDING"}
 
 if __name__ == "__main__":
