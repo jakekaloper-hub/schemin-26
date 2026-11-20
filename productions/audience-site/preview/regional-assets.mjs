@@ -1365,6 +1365,35 @@ export function buildRegionalAssets(THREE, bindings, height) {
       sourceLandmark:'clubhouse',navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function jacksonWindowGlass(g,x,glass){
+    // Physically recess only the fronts of five EXISTING clubhouse windows.
+    // The double-panel glazing is illustrative, not approved Jackson architecture
+    // or evidence that the unresolved Week 3 cleanup has occurred.
+    const w=.55,h=1.05,d=.04,geo=new THREE.BoxGeometry(w,h,d,24,32,1);
+    geo.name='Candidate Jackson inward-recessed clubhouse glazing';
+    const p=geo.getAttribute('position');
+    for(let i=0;i<p.count;i++){
+      const px=p.getX(i),py=p.getY(i),pz=p.getZ(i);
+      if(Math.abs(pz-d/2)>1e-6||Math.abs(px)>=w/2-1e-6||
+        Math.abs(py)>=h/2-1e-6)continue; // entire back, sides and rim preserved
+      let inset=0;
+      for(const center of [-.138,.138]){
+        const inside=Math.min(.109-Math.abs(px-center),.432-Math.abs(py));
+        if(inside<=0)continue;
+        const t=Math.min(1,inside/.055);
+        inset=Math.max(inset,.014*t*t*(3-2*t));
+      }
+      if(inset>0)p.setZ(i,pz-inset);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,glass,x,.85+h/2,2.12);
+    o.name='Candidate Jackson recessed clubhouse glazing';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      estateWindowPart:'glazing-relief',sourceLandmark:'clubhouse',
+      originalDimensions:[w,h,d],originalPerimeterPreserved:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -1404,7 +1433,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     };
     hip(0,2.95,0,8.8,1.6,5.2);hip(-5,2.35,.1,2.7,1.1,4.2);hip(5,2.35,.1,2.7,1.1,4.2);
     box(g,0,.12,3,9,.25,2.4,edge);for(let x=-4;x<=4;x+=1.34)cyl(g,x,.37,3.6,.13,.16,2.3,cream,8);box(g,0,2.65,3.1,9.4,.25,2.5,cream);hip(0,2.9,3.1,9.6,.75,2.7);
-    for(let x=-3;x<=3;x+=1.5){box(g,x,.85,2.12,.55,1.05,.04,glass);box(g,x-.38,.78,2.16,.12,1.23,.06,roof);box(g,x+.38,.78,2.16,.12,1.23,.06,roof);}
+    for(let x=-3;x<=3;x+=1.5){jacksonWindowGlass(g,x,glass);box(g,x-.38,.78,2.16,.12,1.23,.06,roof);box(g,x+.38,.78,2.16,.12,1.23,.06,roof);}
     box(g,0,.4,2.14,.9,1.9,.05,roof);for(let i=0;i<3;i++)box(g,0,-.05+i*.1,4.8-i*.34,3,.1,.4,edge);
     // Candidate course massing does not certify a pristine post-contamination state.
     for(let i=0;i<3;i++){
