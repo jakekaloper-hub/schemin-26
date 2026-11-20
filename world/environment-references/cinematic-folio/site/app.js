@@ -4,6 +4,7 @@
  * The 23 site diagrams are copied APPROVED STRUCTURAL SVG bytes, not art masters.
  */
 let DATA = null;
+let PACKETS = null;
 let selectedLocation = "LOC-LEAGUE-CHAMBER";
 let selectedIslandNode = "MAINLAND_PUBLIC_LITTORAL";
 let selectedAtlasRegion = "all";
@@ -26,7 +27,9 @@ const descriptions = {
     "The Founder-directed Island is source-pinned from draft PR #322: a proposed mainland causeway, independent arena precincts and The Last Field."],
   proposals: ["05 / EDITORIAL ATLAS", "The rest of the proposed world.",
     "Compare every unique identifier from unmerged geography PRs #324 and #325 without upgrading proposals into physical-world canon."],
-  sources: ["06 / PROVENANCE", "Proof before pictures.",
+  production: ["06 / SOURCE PACKETS", "Production starts with source evidence.",
+    "Thirty governed location-and-region briefs in machine-readable form. No renderer has been invoked and no photographic reference is approved."],
+  sources: ["07 / PROVENANCE", "Proof before pictures.",
     "Exact source paths, source checksums, draft branches, structural approvals and production status remain inspectable before rendering begins."]
 };
 function el(tag, className, text) {
@@ -99,6 +102,7 @@ function selectView(name){
   if(name==="atlas")renderWorldMap();
   if(name==="locations")renderLocationList();
   if(name==="proposals")renderProposalList();
+  if(name==="production")renderProductionList();
   if(name==="island"){renderIslandMap();renderIslandYears();}
 }
 function populateSelect(selector,items){
@@ -152,14 +156,19 @@ function renderWorldMap(){
   }
   for(const loc of DATA.locations){
     const [x,y]=pt(loc.abstract_position), active=locationHighlight(loc);
-    const g=svg("g",{role:"button",tabindex:"0","aria-label":loc.name+"; "+loc.id,style:active?"":"opacity:.24"});
+    const g=svg("g",{role:"button",tabindex:"0","data-location-id":loc.id,"aria-label":loc.name+"; "+loc.id,style:active?"":"opacity:.24"});
     const circle=svg("circle",{cx:x,cy:y,r:selectedLocation===loc.id?8:6.4,
         class:"map-pin"+(loc.owner_home?" owner":""),
         fill:C[loc.division_id]||C[loc.membership_overlays[0]]||C.neutral});
     g.append(circle);
     const label=svg("text",{x:x+9,y:y-8,class:"map-pin-label"+(active?"":" dim")},loc.name);
     g.append(label);
-    const activate=()=>{selectedLocation=loc.id;renderWorldMap();renderInspector(byId("atlas-inspector"),loc);};
+    const activate=()=>{
+      selectedLocation=loc.id;renderWorldMap();
+      const replacement=Array.from(byId("world-map").querySelectorAll("[data-location-id]"))
+        .find(x=>x.getAttribute("data-location-id")===loc.id);
+      replacement?.focus({preventScroll:true});
+    };
     g.addEventListener("click",activate);
     g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();activate();}});
     canvas.append(g);
@@ -261,6 +270,12 @@ function renderLocationList(){
     mount.append(b);
   }
   byId("loc-empty").hidden=all.length>0;
+  if(!all.length){
+    clear(byId("location-detail"));
+    byId("location-detail").append(el("p","muted","No visible location matches the current filter."));
+    return;
+  }
+  if(!all.some(loc=>loc.id===selectedLocation))selectedLocation=all[0].id;
   renderLocationDetail();
 }
 function renderLocationDetail(){
@@ -340,13 +355,18 @@ function renderIslandMap(){
   }
   for(const node of island.nodes){
     const p=positions[node.id];
-    const g=svg("g",{role:"button",tabindex:"0","aria-label":node.name});
+    const g=svg("g",{role:"button",tabindex:"0","data-island-node":node.id,"aria-label":node.name});
     const cir=svg("circle",{cx:p[0],cy:p[1],r:node.id===selectedIslandNode?14:10,
       class:"island-node"+(node.id===selectedIslandNode?" selected":"")});
     g.append(cir);
     const short=node.name.length>23?node.name.slice(0,23)+"…":node.name;
     g.append(svg("text",{x:p[0]+12,y:p[1]+4,class:"island-label"},short));
-    const activate=()=>{selectedIslandNode=node.id;renderIslandMap();renderIslandInspector();};
+    const activate=()=>{
+      selectedIslandNode=node.id;renderIslandMap();
+      const replacement=Array.from(byId("island-stage").querySelectorAll("[data-island-node]"))
+        .find(x=>x.getAttribute("data-island-node")===node.id);
+      replacement?.focus({preventScroll:true});
+    };
     g.addEventListener("click",activate);
     g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();activate();}});
     stage.append(g);
@@ -429,6 +449,90 @@ function renderProposalList(){
     mount.append(box);
   }
 }
+function renderProductionList(){
+  const mount=byId("packet-list");clear(mount);
+  if(!PACKETS)return;
+  const search=byId("packet-search").value.toLowerCase().trim();
+  const region=byId("packet-region").value;
+  const visible=PACKETS.locations.filter(p=>
+    (region==="all"||p.region_id===region)&&
+    (!search||[p.location_id,p.name,...p.landmarks].some(x=>String(x).toLowerCase().includes(search))));
+  for(const packet of visible){
+    const b=el("button","packet-card");
+    b.type="button";
+    b.setAttribute("aria-label","Inspect production packet for "+packet.name);
+    b.append(el("span","loc-code",packet.location_id));
+    b.append(el("strong","",packet.name));
+    b.append(el("span","packet-sub",regionLabel(packet.region_id)));
+    b.append(chip("SOURCE INDEX ONLY","warn"));
+    b.addEventListener("click",()=>{
+      selectedLocation=packet.location_id;
+      renderPacketInspector();
+      const panel=byId("packet-inspector");
+      panel.setAttribute("tabindex","-1");
+      panel.focus({preventScroll:true});
+      panel.scrollIntoView({block:"start",behavior:"smooth"});
+    });
+    mount.append(b);
+  }
+  byId("packet-empty").hidden=visible.length>0;
+  if(!visible.length){
+    clear(byId("packet-inspector"));
+    byId("packet-inspector").append(el("p","muted","No production packet matches the current filter."));
+    return;
+  }
+  if(!visible.some(p=>p.location_id===selectedLocation))selectedLocation=visible[0].location_id;
+  renderPacketInspector();
+}
+function renderPacketInspector(){
+  const mount=byId("packet-inspector");clear(mount);
+  const packet=PACKETS?.locations.find(x=>x.location_id===selectedLocation);
+  if(!packet){mount.append(el("p","muted","Choose a location packet."));return;}
+  const header=el("div","panel-head wrap");
+  const title=el("div");
+  title.append(el("div","eyebrow",packet.packet_id));
+  title.append(el("h2","",packet.name));
+  header.append(title,chip("NO RENDER PERMISSION","warn"));
+  mount.append(header);
+  const facts=el("dl","detail-facts");
+  labeled(facts,"Authority",packet.authority);
+  labeled(facts,"Physical zone",regionLabel(packet.region_id));
+  labeled(facts,"Current state cutoff",packet.current_state_as_of);
+  labeled(facts,"Approved cinematic asset","None");
+  mount.append(facts);
+  const cards=el("div","detail-col");
+  cards.append(sectionBox("Canonical landmarks",packet.landmarks));
+  cards.append(sectionBox("Access and terrain",[
+    "Approach routes: "+(packet.access_route_ids.join(", ")||"Unspecified"),
+    "Terrain: "+packet.physical_terrain.join(", "),
+    "Climate: "+packet.climate.join(", ")]));
+  cards.append(sectionBox("Visual prohibitions",packet.prohibited_inventions));
+  cards.append(sectionBox("Next required quality gates",packet.required_quality_controls));
+  mount.append(cards);
+  const refs=el("div","detail-col");
+  refs.append(link("Source Location Card ↗",linkToSource(packet.source_location_card)));
+  refs.append(link("Existing structural reference ↗",linkToSource(packet.structural_reference_uri)));
+  mount.append(refs);
+  mount.append(el("p","muted","Proposed output destination is an indexing target, not an existing or approved PNG: "+packet.proposed_output_path));
+}
+function renderProductionRegions(){
+  const mount=byId("packet-regions");clear(mount);
+  for(const packet of PACKETS.regions){
+    const b=el("button","region-card");
+    b.type="button";
+    b.append(el("div","eyebrow",packet.region_id));
+    b.append(el("h3","",packet.name));
+    b.append(el("p","",packet.physical_terrain.join(" · ")));
+    b.append(el("p","",packet.location_ids.length+" existing LOC IDs · RENDER BLOCKED"));
+    b.addEventListener("click",()=>{
+      byId("packet-region").value=packet.region_id;
+      byId("packet-search").value="";
+      renderProductionList();
+      byId("packet-list").scrollIntoView({block:"start",behavior:"smooth"});
+    });
+    mount.append(b);
+  }
+}
 function renderSources(){
   const mount=byId("source-list");clear(mount);
   for(const [key,s] of Object.entries(DATA.source_sha256)){
@@ -450,27 +554,40 @@ function renderSources(){
 }
 async function boot(){
   try{
-    const response=await fetch("./data/world.json",{cache:"no-store"});
-    if(!response.ok)throw Error("Unable to read compiled world data, HTTP "+response.status);
-    DATA=await response.json();
+    const [response,packetsResponse]=await Promise.all([
+      fetch("./data/world.json",{cache:"no-store"}),
+      fetch("./data/production_packets.json",{cache:"no-store"})
+    ]);
+    if(!response.ok||!packetsResponse.ok)
+      throw Error("Unable to read compiled source data (world="+response.status+", packets="+packetsResponse.status+")");
+    [DATA,PACKETS]=await Promise.all([response.json(),packetsResponse.json()]);
     if(DATA.stats.locations!==23 || DATA.stats.homelands!==12 || DATA.stats.island_nodes_proposed!==23)
-      throw Error("Dataset fails basic UI invariants");
+      throw Error("World dataset fails basic UI invariants");
+    if(PACKETS.locations.length!==DATA.stats.locations ||
+       PACKETS.regions.length!==DATA.stats.regions ||
+       PACKETS.status!=="CODE_ONLY_SOURCE_INDEX_NO_IMAGE_GENERATION" ||
+       PACKETS.governance.output_is_image!==false ||
+       PACKETS.locations.some(p=>p.render_permitted || p.approved_cinematic_uri))
+      throw Error("Production packet authority/permission contract failed");
     byId("current-state-label").textContent="World state: "+DATA.world_state_as_of;
     countMetrics();
     populateSelect("atlas-div",DATA.divisions.map(d=>({label:d.name,value:d.id})));
     populateSelect("atlas-region",DATA.regions.map(d=>({label:d.name,value:d.id})));
     populateSelect("loc-region",DATA.regions.map(d=>({label:d.name,value:d.id})));
+    populateSelect("packet-region",DATA.regions.map(d=>({label:d.name,value:d.id})));
     populateSelect("island-era",DATA.cross_pr.island.annual_proposed_site_program.map(s=>({label:String(s.year),value:String(s.year)})));
     document.querySelectorAll(".nav-tab").forEach(button=>button.addEventListener("click",()=>selectView(button.dataset.view)));
     byId("atlas-div").addEventListener("change",e=>{focusedDivision=e.target.value;renderWorldMap();});
     byId("atlas-region").addEventListener("change",e=>{selectedAtlasRegion=e.target.value;renderWorldMap();});
     byId("loc-search").addEventListener("input",renderLocationList);
     byId("loc-region").addEventListener("change",renderLocationList);
+    byId("packet-search").addEventListener("input",renderProductionList);
+    byId("packet-region").addEventListener("change",renderProductionList);
     byId("proposal-search").addEventListener("input",renderProposalList);
     byId("proposal-scope").addEventListener("change",renderProposalList);
     byId("all-island-edges").addEventListener("change",renderIslandMap);
     byId("island-era").addEventListener("change",renderIslandYears);
-    renderWorldMap();renderRegions();renderDivisions();renderLocationList();renderVenues();renderIslandMap();renderIslandYears();renderProposalList();renderSources();
+    renderWorldMap();renderRegions();renderDivisions();renderLocationList();renderVenues();renderIslandMap();renderIslandYears();renderProposalList();renderProductionList();renderProductionRegions();renderSources();
     selectView("atlas");
   }catch(error){
     const e=byId("error");e.hidden=false;

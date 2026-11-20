@@ -2,6 +2,8 @@
 
 **Status:** DRAFT / CODE-ONLY FOLIO STUDIO IMPLEMENTED / NO APPROVED CINEMATIC MASTERS
 
+**THIRD-PASS SENIOR ENGINEERING GATE (2026-11-20):** [Implementation, failure-mode analysis and real test evidence](THIRD_PASS_ENGINEERING_GATE_2026-11-20.md). The builder now compiles a static, read-only [30-entry production packet contract](site/data/production_packets.json), with source-card/structural SHA receipts, no render permission, and an interactive seventh **Production Packets** view. Keyboard-focus retention, filter-to-inspector consistency, source-path validation, same-origin CSP and all-view 390px layout tests are included. The user does not need to open a local development machine to inspect the GitHub changes.
+
 **SECOND-PASS CODE AND EDITORIAL REVIEW (2026-11-20):** [Review, counterweight, production-method, Inklings and implementation receipt](SECOND_PASS_REVIEW_AND_EXECUTION_2026-11-20.md). Source Evidence links now honor main vs Folio branch vs pinned PR files; the Island carries an evidence-labeled 2015–2025 season viewer; Chrome browser smoke covers actual source links, timelines and a 390px viewport. No new image assets were created.
 
 **CODE-ONLY IMPLEMENTATION (2026-11-20):** The source-bound compiler, standalone responsive Folio Studio interface, exact-source draft Island causeway preview, 199-code cross-PR geography concordance, and checksummed 23 approved structural SVG copies are implemented. These are **reused structural references, not new generated pictures**. See [implementation and test receipt](CODE_ONLY_IMPLEMENTATION_2026-11-20.md). Open the local preview by running the repository-root command:

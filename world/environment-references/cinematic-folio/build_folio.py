@@ -9,13 +9,14 @@ import argparse
 import hashlib
 import json
 import shutil
-from collections import Counter
 from pathlib import Path
+from production_packets import compile_packets
 
 FOLIO = Path(__file__).resolve().parent
 ROOT = FOLIO.parents[2]
 SITE = FOLIO / "site"
 DATA = SITE / "data" / "world.json"
+PACKETS = SITE / "data" / "production_packets.json"
 STRUCT = SITE / "assets" / "structural"
 
 INPUTS = {
@@ -131,7 +132,6 @@ def build():
     for loc in locs:
         identity = loc["id"]
         dom = domain_by_id.get(identity)
-        refs_data = ref_by_id[identity]
         visible_route_ids = [x["id"] for x in routes if identity in (
             [x["from"],x["to"]] + x.get("via_location_ids", []) +
             ([x["via_location_id"]] if x.get("via_location_id") else []))]
@@ -217,8 +217,14 @@ def main():
     args = ap.parse_args()
     world,structural = build()
     expected = serialize(world)
+    expected_packets = serialize(compile_packets(world, ROOT))
     if args.check:
         match(DATA.is_file() and DATA.read_text() == expected, "Data JSON not reproducible")
+        match(PACKETS.is_file() and PACKETS.read_text() == expected_packets,
+              "Production packets not reproducible")
+        match({p.name for p in STRUCT.glob("*.svg")} ==
+              {Path(r["local_path"]).name for r in structural.values()},
+              "Structural SVG bundle contains stale or missing references")
         for ref in structural.values():
             dest = SITE / ref["local_path"]
             match(dest.is_file() and sha(dest) == ref["sha256"], "Structural asset drift: "+ref["source_path"])
@@ -227,8 +233,9 @@ def main():
     DATA.parent.mkdir(parents=True, exist_ok=True)
     STRUCT.mkdir(parents=True, exist_ok=True)
     DATA.write_text(expected)
+    PACKETS.write_text(expected_packets)
     for ref in structural.values():
         shutil.copyfile(ROOT / ref["source_path"], SITE / ref["local_path"])
-    print("WROTE",DATA,"and 23 PRE-EXISTING approved structural diagrams (NO new images)")
+    print("WROTE",DATA,PACKETS,"and 23 PRE-EXISTING approved structural diagrams (NO new images)")
 if __name__ == "__main__":
     main()

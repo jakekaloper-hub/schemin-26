@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
   <title>Commonwealth Folio Studio · Schemin ’26</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
@@ -30,6 +31,7 @@
       <button type="button" class="nav-tab" data-view="locations">Location Folio</button>
       <button type="button" class="nav-tab" data-view="island">Postseason Island</button>
       <button type="button" class="nav-tab" data-view="proposals">Draft Geography</button>
+      <button type="button" class="nav-tab" data-view="production">Production Packets</button>
       <button type="button" class="nav-tab" data-view="sources">Source Evidence</button>
     </nav>
     <main id="content">
@@ -100,6 +102,29 @@
             <div class="toolbar"><label class="sr-only" for="proposal-search">Search draft records</label><input id="proposal-search" type="search" placeholder="Search proposal IDs…"><label class="sr-only" for="proposal-scope">Filter proposal source</label><select id="proposal-scope"><option value="all">All 199 handles</option><option value="324">In PR #324</option><option value="325">In PR #325</option><option value="only324">PR #324 only</option><option value="only325">PR #325 only</option><option value="unmerged">Unmerged proposals only</option></select></div></div>
           <p class="muted compact" id="proposal-summary"></p>
           <div id="proposal-list" class="proposal-list"></div>
+        </div>
+      </section>
+      <section id="view-production" class="view" aria-label="Read-only production preparation packets">
+        <div class="note warning"><strong>SOURCE PACKETS ONLY / NO RENDERING AUTHORIZED.</strong> These are deterministic metadata contracts grounded in existing Atlas records, not a gallery of artwork or approved visual masters. All outputs remain candidates requiring source, visual, and rights review.</div>
+        <div class="panel">
+          <div class="panel-head wrap">
+            <div><div class="eyebrow">30 SOURCE-BOUND ESTABLISHING REQUESTS</div><h2>Production packet register</h2></div>
+            <a class="source-link" href="./data/production_packets.json" download="schemin-26-production-packets.json">Download machine-readable packets ↗</a>
+          </div>
+          <p class="muted compact">23 active location IDs and seven physical-region establishing requirements. Every candidate is paired with its source card, structural reference digest, route restrictions, recorded history and explicit no-render gate.</p>
+          <div class="toolbar">
+            <label class="sr-only" for="packet-search">Search production packets</label>
+            <input id="packet-search" type="search" placeholder="Search location or LOC ID…" autocomplete="off">
+            <label class="sr-only" for="packet-region">Filter production region</label>
+            <select id="packet-region"><option value="all">All regions</option></select>
+          </div>
+          <div id="packet-list" class="packet-grid" aria-label="Location production packets"></div>
+          <p id="packet-empty" class="empty" hidden>No source packets match these filters.</p>
+        </div>
+        <div class="panel section-below" id="packet-inspector" aria-live="polite"></div>
+        <div class="panel section-below">
+          <div class="panel-head"><div><div class="eyebrow">PHYSICAL GEOGRAPHY</div><h2>Seven regional establishing packets</h2></div></div>
+          <div id="packet-regions" class="region-grid"></div>
         </div>
       </section>
       <section id="view-sources" class="view" aria-label="Source provenance and production readiness">

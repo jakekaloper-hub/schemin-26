@@ -129,8 +129,8 @@ class FolioTests(unittest.TestCase):
     def test_frontend_structure_and_offline(self):
         html=(SITE/"index.html").read_text()
         js=(SITE/"app.js").read_text()
-        self.assertEqual(html.count('class="view"'),5)
-        for name in ("atlas","divisions","locations","island","proposals","sources"):
+        self.assertEqual(html.count('class="view"'),6)
+        for name in ("atlas","divisions","locations","island","proposals","production","sources"):
             self.assertIn('data-view="'+name+'"',html)
             self.assertIn('id="view-'+name+'"',html)
         self.assertIn('DOMContentLoaded',js)
@@ -140,6 +140,11 @@ class FolioTests(unittest.TestCase):
         self.assertNotIn("generateImage",js)
         self.assertNotIn("openai.com",html+js)
         self.assertNotIn("cdn.",html+js)
+        self.assertIn("production_packets.json",js)
+        self.assertIn('http-equiv="Content-Security-Policy"',html)
+        self.assertIn("connect-src 'self'",html)
+        self.assertIn("data-location-id",js)
+        self.assertIn("data-island-node",js)
 
     def test_compilation_reproducible(self):
         result=subprocess.run([sys.executable,str(FOLIO/"build_folio.py"),"--check"],
