@@ -5,7 +5,7 @@ Dry-run by default. Only verified, approved Class A state/history changes may be
 Candidate promotion is planned but never automatically applied here.
 """
 from __future__ import annotations
-import argparse, copy, json
+import argparse, copy, json, re
 from pathlib import Path
 from typing import Any
 
@@ -40,10 +40,28 @@ def validate_request(req: dict[str,Any], payloads: dict[str,Any] | None=None) ->
     event_ids={x["id"] for x in p["events"]["events"]}
     txn_ids={x["transaction_id"] for x in p["ledger"]["transactions"]}
 
-    required=["transaction_id","week","season","source_release","release_verified","operations","approvals"]
+    required=["schema_version","transaction_id","week","season","source_release","release_verified","operations","approvals"]
     for key in required:
         if key not in req:
             findings.append(finding("MISSING_FIELD","FATAL",key))
+    if findings:
+        return _plan(req,findings,False,False,[],[],[],[])
+    if req["schema_version"]!="1.0":
+        findings.append(finding("SCHEMA_VERSION_INVALID","FATAL",str(req["schema_version"])))
+    if not isinstance(req["transaction_id"],str) or re.fullmatch(r"TXN-[A-Z0-9-]+",req["transaction_id"]) is None:
+        findings.append(finding("TRANSACTION_ID_INVALID","FATAL",str(req["transaction_id"])))
+    if type(req["week"]) is not int or not 1<=req["week"]<=30:
+        findings.append(finding("WEEK_INVALID","FATAL",str(req["week"])))
+    if type(req["season"]) is not int or req["season"]<2026:
+        findings.append(finding("SEASON_INVALID","FATAL",str(req["season"])))
+    if not isinstance(req["source_release"],str) or not req["source_release"]:
+        findings.append(finding("SOURCE_RELEASE_INVALID","FATAL",str(req["source_release"])))
+    if type(req["release_verified"]) is not bool:
+        findings.append(finding("RELEASE_VERIFIED_NOT_BOOLEAN","FATAL",str(req["release_verified"])))
+    if not isinstance(req["operations"],list):
+        findings.append(finding("OPERATIONS_NOT_LIST","FATAL",str(type(req["operations"]))))
+    if not isinstance(req["approvals"],dict) or any(type(req["approvals"].get(k)) is not bool for k in ("umpire","closer","commissioner")):
+        findings.append(finding("APPROVALS_NOT_EXPLICIT_BOOLEAN","FATAL","umpire/closer/commissioner"))
     if findings:
         return _plan(req,findings,False,False,[],[],[],[])
 
@@ -52,6 +70,11 @@ def validate_request(req: dict[str,Any], payloads: dict[str,Any] | None=None) ->
     if not req["source_release"]:
         findings.append(finding("MISSING_SOURCE_RELEASE","FATAL","source_release"))
     approvals=req.get("approvals",{})
+    prior=re.fullmatch(r"end_of_week_(\\d+)_(\\d+)",str(p["state"].get("as_of","")))
+    if prior is None:
+        findings.append(finding("CURRENT_STATE_CLOCK_INVALID","FATAL",str(p["state"].get("as_of"))))
+    prior_clock=(int(prior.group(2)),int(prior.group(1))) if prior else None
+    seen_event_ids=set(event_ids)
     state_ops=[]
     candidate_evidence=[]
     promotion_plans=[]
@@ -61,8 +84,15 @@ def validate_request(req: dict[str,Any], payloads: dict[str,Any] | None=None) ->
         typ=op.get("op")
         if typ=="APPEND_WORLD_STATE_EVENT":
             e=op.get("event",{})
-            if e.get("id") in event_ids:
-                findings.append(finding("DUPLICATE_EVENT_ID","FATAL",str(e.get("id"))))
+            eid=e.get("id")
+            if not isinstance(eid,str) or not eid:
+                findings.append(finding("EVENT_ID_INVALID","FATAL",str(eid)))
+            elif eid in seen_event_ids:
+                findings.append(finding("DUPLICATE_EVENT_ID","FATAL",str(eid)))
+            else:
+                seen_event_ids.add(eid)
+            if e.get("week") != req["week"]:
+                findings.append(finding("EVENT_WEEK_MISMATCH","FATAL",str(eid)))
             if e.get("location_id") not in loc_ids:
                 findings.append(finding("UNKNOWN_LOCATION","FATAL",str(e.get("location_id"))))
             if not e.get("source_provenance"):
@@ -86,7 +116,7 @@ def validate_request(req: dict[str,Any], payloads: dict[str,Any] | None=None) ->
             if not c:
                 findings.append(finding("UNKNOWN_CANDIDATE","FATAL",str(cid)))
                 continue
-            ready=bool(approvals.get("umpire") and approvals.get("closer") and approvals.get("commissioner"))
+            ready=bool(approvals.get("umpire") is True and approvals.get("closer") is True and approvals.get("commissioner") is True)
             reasons=[]
             if not ready: reasons.append("TRIPLE_APPROVAL_REQUIRED")
             proposed=op.get("proposed_location",{})
@@ -113,11 +143,13 @@ def validate_request(req: dict[str,Any], payloads: dict[str,Any] | None=None) ->
         else:
             findings.append(finding("UNKNOWN_OPERATION","FATAL",str(typ)))
 
-    if state_ops and not req.get("release_verified"):
+    if state_ops and req.get("release_verified") is not True:
         findings.append(finding("UNVERIFIED_RELEASE","FATAL","state/history mutation requires verified release evidence"))
+    if state_ops and prior_clock is not None and (req["season"],req["week"])<prior_clock:
+        findings.append(finding("STATE_CHRONOLOGY_REGRESSION","FATAL",str(p["state"].get("as_of"))))
 
     fatal=any(x["severity"]=="FATAL" for x in findings)
-    state_apply_allowed=bool(state_ops and not fatal and req.get("release_verified") and approvals.get("umpire") and approvals.get("closer"))
+    state_apply_allowed=bool(state_ops and not fatal and req.get("release_verified") is True and approvals.get("umpire") is True and approvals.get("closer") is True)
     rebuild=[]
     if state_ops:
         rebuild += [
