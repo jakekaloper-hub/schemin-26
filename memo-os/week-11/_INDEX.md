@@ -21,7 +21,10 @@
 ### Tim Veil-method audit integration — November 20
 - [Six-matchup outcome-dependent story matrix](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md) — dated entering states; W10-P35/P33 source continuity; dual hypothetical endings; seven sporting candidate events; Pittsy's Book Issue #323 and separate Road to Seven Issue #319; November18 FFHub source hold.
 - [Deterministic creative intake regression](validate_creative_intake.py) — executable check of 58 answers, all six cases, conditional sports paths, geography, recorded source boundaries, index completeness. Test results alone do not supply independent Umpire acceptance, source Fact Lock or visual QA.
-- Tim Veil modeled adviser is a **published-method analytical lens**, not a human session or approval. See the upcoming dated audit receipt and its explicit independent-review hold.
+- [Tim Veil published-method audit and repair receipt](TIM_VEIL_METHOD_AUDIT_AND_REPAIR_2026-11-20.md) — actual existing Bullpen advisor-lens invocation with no human endorsement, source-checked methodology, fixed four tie/undecided branches, reproducible 35/35 text regression, current branch/index divergence and release holds.
+
+
+**Cross-branch governance warning:** draft PR #313 starts from an older Memo OS control-index state (its root `memo-os/_INDEX.md` still points to Week9), whereas current `main` points to Week10. Use **current main control documents** for global authority and [this Week11 index](./_INDEX.md) for the source-qualified live week. Do not overwrite or merge the older root index without a current-main rebase/reconciliation. Week10 PR #315 retains independent unfinished preproduction.
 
 ## Next uncompleted workflow
 Append Sunday November 22 dated scoring updates; recompute only evidence-dependent story candidates. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
