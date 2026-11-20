@@ -129,6 +129,18 @@ export function buildRegionalAssets(THREE, bindings, height) {
             float pondA=sin(length((pondP-vec2(-.19,.08))*vec2(1.,1.25))*33.-uTime*2.4);
             float pondB=sin(length((pondP-vec2(.25,-.18))*vec2(1.2,1.))*25.-uTime*1.75);
             p.z+=(.012*pondA+.007*pondB)*pondHold;
+            // Two existing illustrated Week 9 bridge facades meet this same pond:
+            // candidate local x=-.88,+.71, inherited pond radius x=3.8 and z=2.3.
+            // Their subtle contact wavelets do not infer actual bridge foundations.
+            vec2 bridgeA=vec2(-.88/3.8,0.);
+            vec2 bridgeB=vec2(.71/3.8,0.);
+            float bridgeDistA=length((pondP-bridgeA)*vec2(1.,1.28));
+            float bridgeDistB=length((pondP-bridgeB)*vec2(1.,1.28));
+            float bridgeHoldA=1.-smoothstep(.08,.39,bridgeDistA);
+            float bridgeHoldB=1.-smoothstep(.08,.39,bridgeDistB);
+            float bridgePulseA=sin(bridgeDistA*37.-uTime*2.05);
+            float bridgePulseB=sin(bridgeDistB*33.-uTime*1.82+1.2);
+            p.z+=.0035*(bridgePulseA*bridgeHoldA+bridgePulseB*bridgeHoldB)*pondHold;
           }
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
@@ -315,7 +327,21 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec3 pondNormal=pondCrossSize>.00001?pondCross/pondCrossSize:vec3(0.,1.,0.);
       float pondRelief=clamp((1.-clamp(abs(pondNormal.y),0.,1.))*18.,0.,.34);
       vec3 pondLight=vec3(.08,.12,.10)*pondRelief*bank;
-      gl_FragColor=vec4(pondTint+vec3(.09,.13,.11)*ripple+pondLight,.88);
+      // Narrow broken contact light follows the same two candidate masonry
+      // arch bases, with the SAME local transforms as the physical wavelets.
+      // No new light source, waterbody, current, shoreline or weather control.
+      vec2 bridgeA=vec2(-.88/3.8,0.);
+      vec2 bridgeB=vec2(.71/3.8,0.);
+      float bridgeDistA=length((p-bridgeA)*vec2(1.,1.28));
+      float bridgeDistB=length((p-bridgeB)*vec2(1.,1.28));
+      float bridgeCrestA=(1.-smoothstep(.08,.43,bridgeDistA))
+        *pow(max(sin(bridgeDistA*37.-uTime*2.05),0.),10.);
+      float bridgeCrestB=(1.-smoothstep(.08,.43,bridgeDistB))
+        *pow(max(sin(bridgeDistB*33.-uTime*1.82+1.2),0.),10.);
+      float bridgeBreak=.5+.5*sin(p.y*27.+uTime*.68+p.x*11.);
+      float bridgeContact=clamp((bridgeCrestA+bridgeCrestB)*bridgeBreak*bank,0.,1.);
+      vec3 pondBridgeLight=vec3(.042,.061,.052)*bridgeContact;
+      gl_FragColor=vec4(clamp(pondTint+vec3(.09,.13,.11)*ripple+pondLight+pondBridgeLight,0.,1.),.88);
       }else if(uPlunge>.5){
       // Small moving eddies beneath the EXISTING Temple plunge; not a new waterbody.
       vec2 p=(vUv-vec2(.5))*2.;
