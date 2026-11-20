@@ -30,6 +30,13 @@
 - [Independent audit and negative-control evidence](INDEPENDENT_RED_TEAM_AUDIT_2026-11-20.md) — exposes **35/35 false-green** when a real starter score and Founder G01 text are falsified in a disposable test root; documents zero PR reviews, failed Netlify checks, fifth-versus-sixth Pittsy house-board classification gap, stale PR ancestry and corrected validation scope.
 - **Audit disposition:** Founder interview and story outlines remain usable for EARLY BRAINSTORM; existing `validate_creative_intake.py` is **STRUCTURAL ONLY / SEMANTIC ACCEPTANCE HOLD** until source-value and negative-control assertions reject manipulated records. Do not promote a prior 35/35 to independent creative Fact Lock, Story Lock or Umpire clearance.
 
+## Next Gates execution — November 20
+- [Execution receipt, test results, CI and holds](NEXT_GATES_EXECUTION_RECEIPT_2026-11-20.md) — **33/33 value-bound integrity checks, 8/8 tests (1 clean + 7 mutation), 7/7 proposed Atlas route chains**, source/visual holds and scope-qualified CI result.
+- [Pinned normalized 58-answer source](FOUNDER_NORMALIZED_REFERENCE_2026-11-20.json) and [dated six-game ESPN/Flaim fixture](WEEK11_TEST_SOURCE_RECEIPT_2026-11-20.json). Values trace to the existing normalized Commissioner source and November20 provider-normalized capture, not a claim of original chat or ESPN HTTP byte-level attestation.
+- [Strengthened creative-source validator](validate_creative_intake.py) with [adversarial tests](test_validate_creative_intake.py), and [Atlas preflight script](validate_atlas_routes.py). These run under [Week 11 source CI](../../.github/workflows/memo-week11-source-gate.yml), reporting successful status at patch commit `9615ffc6`.
+- **Pittsy coverage:** Chins–Mud Dogs is `HOUSE_BOARD_STATUS_UNSPECIFIED`, not off-board or posted; do not infer a sixth official line.
+- **Promotion:** early Story Room evidence checks PASS; original literal text, independent Steward/Umpire, Nov18 FFHub, Duckhook venue, Pittsy/Playoff Island Atlas and post-MNF final publication gates remain **HOLD**.
+
 ## Next uncompleted workflow
 Append Sunday November 22 dated scoring updates; recompute only evidence-dependent story candidates. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
 
