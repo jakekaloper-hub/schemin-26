@@ -1,0 +1,863 @@
+{
+  "schema": "schemin.atlas.pr324_325_semantic_triage.v1",
+  "date": "2026-11-20",
+  "status": "COMPLETE_PRELIMINARY_DESK_TRIAGE_NOT_INDEPENDENT_UMPIRE",
+  "source": {
+    "pr324": {
+      "path": "world/data/atlas_location_candidates.json",
+      "blob_sha": "1b0f31c775e312609da2f2a22ac1510b0db5acc6"
+    },
+    "pr325": {
+      "path": "planning/atlas-expansion/ATLAS_EXPANSION_44_CANDIDATES_V1.json",
+      "blob_sha": "ca02120cbec8ad4eae9d985081e9c6ed38a29cab"
+    }
+  },
+  "method": "All 44 proposed physical/civil/historical descriptions inspected. Similar role with existing candidate is classified as a proposed SUBFEATURE; distinct service is not proof of a distinct cadastral site. Comparators are editorial references only. Not an ID alias, not a LOC creation, not a production/public approval.",
+  "treatment_counts": {
+    "REVIEW_AS_DISTINCT_CIVIC_FUNCTION": 10,
+    "CONSOLIDATE_AS_SUBFEATURE": 21,
+    "CROSS_PARENT_CONFLICT_REVIEW": 3,
+    "HOLD_PLACEMENT_OR_SAFETY": 6,
+    "ISLAND_NODE_SUBFEATURE_HOLD": 4
+  },
+  "total_reviewed": 44,
+  "proposed_live_location_count": 0,
+  "rows": [
+    {
+      "pr325_candidate_id": "CAND-XP-JEDI-RIDGE-CISTERN",
+      "pr325_name": "Trade Jedi Ridge Cistern",
+      "anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "source_physical": "Ridge-fed covered cistern below the existing mountain overlook; outflow goes downhill without cutting a new road.",
+      "source_civil": "Water-keepers and hillside workers make mountain supply plausible; regional water rights remain separate from Jedi authority.",
+      "source_temporal": "Useful for source-safe wartime shortages, but neither 2015 construction nor any trade/injury story is fact.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Water storage serves a different physical and public-water function than lookout, courier stairs or wagon repairs; catchment and water rights not established.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-JEDI-ASCENT-SIGNAL-HOUSE",
+      "pr325_name": "Eastern Ascent Signal House",
+      "anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "source_physical": "Low stone hut above an existing ascent switchback, with surveyed visibility required toward the bridge.",
+      "source_civil": "Neutral couriers relay road closures and merchant arrivals; the Jedi cannot monopolize rescue signals.",
+      "source_temporal": "Slot-1 history includes 2024 championship and 2025 defeat; neither proves an old tower.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-RIDGE-SIGNAL-OBSERVATORY",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Both propose a ridge warning and courier lookout; decide whether switchback signal hut is part of the observatory's signalling chain before assigning a second site.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-JEDI-NEGOTIATORS-TERRACE",
+      "pr325_name": "Trade Jedi Negotiators' Terrace",
+      "anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "source_physical": "Sheltered terrace set back from exposed ridge with arrival via the documented Eastern Ascent.",
+      "source_civil": "An open trade petition space for local residents and visiting merchants, not a sovereign parliament.",
+      "source_temporal": "Any historic bargain staged here requires verified transaction evidence; no invented preseason deals.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": "CAND-EASTERN-ASCENT-REPAIR-TERRACE",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "A petition/trade gathering space differs from a repair workshop despite terrace wording; confirm footprints, access and nonsovereign civic authority.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-RED-RUIN-WATCH",
+      "pr325_name": "Leopard Ruins Rainwatch",
+      "anchor": "LOC-RED-RUINS",
+      "source_physical": "Drained escarpment lookout built around existing ruined stone; stabilize slope against rain.",
+      "source_civil": "Stone keepers, growers and travelers share a warning point in the forest settlement network.",
+      "source_temporal": "The 2022 slot-2 13–1 postseason loss may inspire an interpretive relief, never an asserted historical tower visit.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "The proposed warning lookout may be one protected escarpment patrol station rather than a new independent site.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-RED-SALVAGE-WALK",
+      "pr325_name": "Red Ruins Salvage Walk",
+      "anchor": "LOC-RED-RUINS",
+      "source_physical": "Stabilized trail through fallen blocks tied to Rain Escarpment Road, not a floating jungle causeway.",
+      "source_civil": "Salvagers debate reusable stone versus protected old masonry while clearing safe pedestrian paths.",
+      "source_temporal": "A staged ruin collapse would need its own provenance; 2026 site use does not prove 2015 existence.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Both reuse a safe trail through unstable ruins; retain salvage and masonry protection as functional attributes, not duplicated roads.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-RED-RAIN-ORCHARD",
+      "pr325_name": "Leopard Rain Terrace Orchard",
+      "anchor": "LOC-RED-RUINS",
+      "source_physical": "Contour-planted high bench near wet escarpment on sound ground; erosion must be managed.",
+      "source_civil": "Orchard families and water carriers add ordinary food economy beyond predator banners.",
+      "source_temporal": "Slot-2 playoff entries are verified by team ID, but orchard deeds cannot be projected to any historical owner.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": "CAND-RUINS-CANOPY-CISTERN",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Growing food on a stable contour is distinct from water distribution; assess water use, erosion, existing communities and ownership.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-SLOB-COOKFIRE-GROUND",
+      "pr325_name": "Foothill Cookfire Ground",
+      "anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "source_physical": "Drained roadside fire court beside the moving camp's documented Hearthroad approach.",
+      "source_civil": "Provisioners and travelers share transient meals without creating an immovable town or permanent stadium.",
+      "source_temporal": "Camp encampments may shift annually; do not assert that the same tents stood from 2015 onward.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-FOOTHILL-WAGON-REST",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Rest-stop food provision and shared camp cooking are overlapping civic functions; one temporary rest area can contain the fire court.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-SLOB-GEAR-YARD",
+      "pr325_name": "Foothill Repair Yard",
+      "anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "source_physical": "Covered wagon and gear repair lean-to on hard ground clear of storm runoff.",
+      "source_civil": "Stitchers, smiths, handlers and mobile crews sustain ordinary foothill camp logistics.",
+      "source_temporal": "A slot-3 title in 2019 is sporting record; it does not prove present ownership of the yard then.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-FOOTHILL-WAGON-REST",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "The temporary camp's gear and wagon servicing can share the established wagon-rest footprint; only distinguish if route and labor evidence demands.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-SLOB-HEARTHROAD-STOP",
+      "pr325_name": "Foothill Ridge Shelter",
+      "anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "source_physical": "Stone-roofed waypoint on existing Hearthroad; seasonal snow limits northern approaches.",
+      "source_civil": "Wayfinders pass travel warnings to road users without silently reopening blocked passes.",
+      "source_temporal": "Published 2026 journeys may later anchor scenes; no decade-old personal residency is verified.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-HEARTHROAD-TOLL-SHELTER",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Existing Hearthroad waypoint/toll infrastructure already functions as a warning and rest stop; preserve seasonal pass restrictions.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-LLC-QUAY-REPAIR-LEDGER",
+      "pr325_name": "LLC Quay Repair Ledger House",
+      "anchor": "LOC-LLC-STORM-CITY",
+      "source_physical": "Weatherproof record annex behind port storm shutters with access via Inner Sea Quay.",
+      "source_civil": "Dockworkers, repair clerks and insurers record work and costs outside executive chambers.",
+      "source_temporal": "Proposed continuity response to 2026 storm history; do not invent a completed repair.",
+      "editorial_treatment": "CROSS_PARENT_CONFLICT_REVIEW",
+      "comparison_candidate_id": "CAND-LLC-CONTRACT-REGISTRY-ANNEX",
+      "comparison_scope": "CROSS_PARENT_OR_NON_MATCHING_ANCHOR",
+      "evidence_rationale": "An LLC Storm City repair ledger may overlap the boardroom's contract registry annex despite different parent IDs; compare document custody and quay access.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-LLC-STORM-BARRIER-WALK",
+      "pr325_name": "Storm City Barrier Walk",
+      "anchor": "LOC-LLC-STORM-CITY",
+      "source_physical": "Raised inspection footpath along existing storm barriers, pending tidal and structural surveys.",
+      "source_civil": "Inspectors and public maintenance crews hold merchants accountable for hazard defenses.",
+      "source_temporal": "Existing storm memory persists even if this candidate reinforcement is later approved.",
+      "editorial_treatment": "CROSS_PARENT_CONFLICT_REVIEW",
+      "comparison_candidate_id": "CAND-STORM-BARRIER-INSPECTION-YARD",
+      "comparison_scope": "CROSS_PARENT_OR_NON_MATCHING_ANCHOR",
+      "evidence_rationale": "Storm barrier footpath in Storm City and inspection yard at LLC Boardroom may be contiguous parts of the same coastal works.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-LLC-CUSTOMS-FLOOR",
+      "pr325_name": "Inner Sea Customs Floor",
+      "anchor": "LOC-LLC-BOARDROOM",
+      "source_physical": "Quay-facing public inspection floor beneath mercantile headquarters, not a duplicate boardroom.",
+      "source_civil": "Ship agents and contract stewards make port commerce legible as a civic institution.",
+      "source_temporal": "Slot-4 postseason history cannot prove the same owner held coastal contracts in earlier years.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-INNER-SEA-CARGO-WEIGHCOURT",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Public cargo inspection, customs disputes and weighed cargo share a likely same civic facility; formal differentiation requires source.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-DK-HIGHLAND-CRESCENT",
+      "pr325_name": "D0nkey K0ng Highland Crescent",
+      "anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "source_physical": "Stone-bounded turning court on stable highland grades sized for one four-legged gorilla-centaur.",
+      "source_civil": "Local martial residents gather without reducing Wilson to a biped or separate horse and rider.",
+      "source_temporal": "Current morphology controls 2026; historical uniform/name eras require year-specific references.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-HIGHLAND-CAVALRY-EXERCISE-COURT",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "A four-legged gorilla-centaur turning crescent is plausible as the entrance zone of the existing equine-bodied exercise court.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-DK-ARSENAL-STONE-WELL",
+      "pr325_name": "Arsenal Market Stone Well",
+      "anchor": "LOC-ARSENAL-BARBERSHOP",
+      "source_physical": "Protected well near the market's Hearthroad junction, separated from cutting stations.",
+      "source_civil": "Barbers, porters and caravans maintain public water rights and a local rumor network.",
+      "source_temporal": "Week 2 barbershop humiliation is verified memory; the well itself was not its proven setting.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Community potable water by the market barbershop differs from the stronghold training courts; public rights and source feasibility required.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-DK-HIGHLAND-TRAINING-WALL",
+      "pr325_name": "Highland Training Wall",
+      "anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "source_physical": "Reinforced practice wall with grade-safe four-legged access and fall protection.",
+      "source_civil": "Apprentices, masons and trainers sustain the highland settlement without new principal POVs.",
+      "source_temporal": "Slot-5 2021 title under a different team name does not prove the current character trained here.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-HIGHLAND-CAVALRY-EXERCISE-COURT",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "A practice wall and four-legged training layout are component facilities of the existing Highland exercise court.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-TDS-CASCADE-FERRY",
+      "pr325_name": "Three Dreaded Cascade Ferry Landing",
+      "anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "source_physical": "Safe loading platform in a calm reach below the waterfall, not a ferry up a vertical fall.",
+      "source_civil": "Watermen and temple visitors support the three-headed principal's domain as a lived place.",
+      "source_temporal": "The 2025 slot-6 playoff qualification cannot certify an older dock or owner lease.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-TEMPLE-LOWER-FERRY-LANDING",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Both specify a loading landing in navigable calm water below the waterfall; prohibit implausible vertical ferry route.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-TDS-IRRIGATION-CUT",
+      "pr325_name": "Podium Shadow Irrigation Cut",
+      "anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "source_physical": "Gravity-fed water channel with terrace spillways and documented downstream relationship required.",
+      "source_civil": "Growers and temple water custodians bargain over planting water and shared repairs.",
+      "source_temporal": "Later flood or drought scenes need route/watershed state records; no founding date is verified.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Gravity-fed irrigation and grower agreements require their own environmental crosswalk; no equivalent in the two current TDS temple proposals.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-TDS-MARCH-MEDIATION-YARD",
+      "pr325_name": "Shared March Mediation Yard",
+      "anchor": "LOC-TDS-CHILI-SHARED-MARCH",
+      "source_physical": "Elevated trade yard beside the known shared crossing; reachable from both populations.",
+      "source_civil": "TDS and Chili coexist across Division overlays; neither owns the other's civil access.",
+      "source_temporal": "Slot-6 and slot-7 postseason records are separate and cannot be fused into one 11-year family history.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-SHARED-MARCH-CUSTOMS-HEARTH",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Shared civics and trade mediation may be conducted within the mixed-community customs quarter; both divisions retain equal access.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-CHILI-WEST-RANGE-WELL",
+      "pr325_name": "Western Range Deep Well",
+      "anchor": "LOC-CHILI-STABLE",
+      "source_physical": "Rock-lined water source on the long exposed Western Range Road; yield is unmeasured.",
+      "source_civil": "Stablehands, caravan families and herders negotiate sustainable water rights.",
+      "source_temporal": "No 2015–2025 personal water deed may be inferred from historical Gunslinger slot names.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-DARK-HORSE-DRY-SEASON-WELL",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "These are likely one dry-season water source in Chili's Western Range, not two wells without evidence.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-CHILI-DARK-HORSE-CORRAL",
+      "pr325_name": "Dark Horse Rest Corral",
+      "anchor": "LOC-CHILI-STABLE",
+      "source_physical": "Sheltered dry-footed corral apart from the stable's main event courtyard.",
+      "source_civil": "Caretakers, animal trainers and visitors maintain the Dark Horse's practical daily ecology.",
+      "source_temporal": "Do not invent the Dark Horse's historic injuries, races or prior owners.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Animal shelter/corral may differ from a riders' message fold, but both remain subordinate to the approved stable.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-CHILI-RANGE-GRAZING-POST",
+      "pr325_name": "Chili Range Grazing Post",
+      "anchor": "LOC-CHILI-STABLE",
+      "source_physical": "Low frontier watch post at a credible grazing-to-caravan junction.",
+      "source_civil": "Herder councils manage shared seasonal passage rather than an absolute Chili monarchy.",
+      "source_temporal": "Slot-7 earlier Gunslingers-era finals are team-slot sports facts, not ownership deeds.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "An outrider fold can also serve the grazing watch/post; only promote an independent structure if different travel evidence appears.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-HMB-BLACKCLIFF-WATCH",
+      "pr325_name": "Belt Keeper Black Cliff Watch",
+      "anchor": "LOC-BELT-KEEPER-KEEP",
+      "source_physical": "Sheltered stone watch near cliff road with marked storm closures and sound foundations.",
+      "source_civil": "Road wardens serve travelers; the Belt represents competitive supremacy, not sovereignty.",
+      "source_temporal": "Slot-8 titles in 2016, 2018 and 2025 do not certify one person's dynasty.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-BLACK-CLIFF-RAIN-GAUGE",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "A storm road watch and rain gauge share observation and closure duties; maintain Belt distinction from territorial sovereignty.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-HMB-KEEP-AQUEDUCT",
+      "pr325_name": "Rune Keep Ridge Aqueduct",
+      "anchor": "LOC-BELT-KEEPER-KEEP",
+      "source_physical": "Storm-protected hillside conduit that needs surveyed gradient and catchment.",
+      "source_civil": "Masons, water engineers and keep suppliers support ordinary occupation.",
+      "source_temporal": "Old repairs can be proposed for period scenes but no construction date is recoverable from the sports record.",
+      "editorial_treatment": "HOLD_PLACEMENT_OR_SAFETY",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "The aqueduct could support ordinary life, but source lacks hydrology, slope and verified catchment; no independent LOC placement yet.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-HMB-HERALD-VAULT",
+      "pr325_name": "Belt Keeper Herald Vault",
+      "anchor": "LOC-BELT-KEEPER-KEEP",
+      "source_physical": "Document vault inside the existing keep walls, distinct from neutral League archives.",
+      "source_civil": "Heralds conserve notices and current Belt custody; the Michael Farrell Trophy remains separately governed.",
+      "source_temporal": "Keep the 2026 Belt with the Belt Keeper; do not rewrite 2015–2025 ownership based on a shared team slot.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-KEEPER-S-INVENTORY-ANTECHAMBER",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "A herald/document vault may be an internal adjoining chamber of the existing keeper inventory facility; keep Michael Farrell memorial separate.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-ELNINO-STORM-SHELTER-DOCK",
+      "pr325_name": "Storm Bowl Shelter Dock",
+      "anchor": "LOC-STORM-BOWL",
+      "source_physical": "Storm-closure landing at the exposed coast, requiring breakwater and seasonal wave review.",
+      "source_civil": "Rescue crews serve all residents independent of El Niño's possible weather manifestation.",
+      "source_temporal": "The slot-9 2022 championship is real; an old weather miracle or pier founding is not established.",
+      "editorial_treatment": "HOLD_PLACEMENT_OR_SAFETY",
+      "comparison_candidate_id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Storm shelter landing is not the same as a maintenance shed, but evacuation route and wave protection require location study before asserting a new quay.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-ELNINO-WIND-OBSERVATORY",
+      "pr325_name": "Storm Bowl Wind Observatory",
+      "anchor": "LOC-STORM-BOWL",
+      "source_physical": "Observation post on firm coastal rock clear of arena evacuation approaches.",
+      "source_civil": "Forecasters issue ordinary storm notices without automatically invoking embodied El Niño.",
+      "source_temporal": "Any modern devices require a dated technology model; no 2015 electronic observatory is assumed.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-COASTAL-WEATHER-REGISTER-HOUSE",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Cliffside weather observations can be part of ordinary weather-clerk operations; avoid conflating them with El Niño's supernatural override.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-ELNINO-COASTAL-SHELTER-WARD",
+      "pr325_name": "Eastern Coast Shelter Ward",
+      "anchor": "LOC-STORM-BOWL",
+      "source_physical": "High-ground refuge beyond likely storm surge, with unresolved road carrying capacity.",
+      "source_civil": "Displaced residents, cooks and repair crews create actual civic consequences of bad weather.",
+      "source_temporal": "Proposed refuge cannot be used to invent historic disasters or erase the 2026 storm state's uncertainty.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "High-ground refuge for displaced residents is distinct from repair shed; surge boundary and road capacity remain uncertain.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-MUD-RAISED-GRANARY",
+      "pr325_name": "Mud Dogs Raised Granary",
+      "anchor": "LOC-MUD-DOGS-SWAMP",
+      "source_physical": "Raised food store with flood-through undercroft on verified swamp high ground.",
+      "source_civil": "Boatmen, farmers and families protect stores during seasonal flooding.",
+      "source_temporal": "Slot-10's 2020 champion under Where Mahomies at? is sports history, not proof Bobby owned a 2020 granary.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-CYPRESS-STILT-STOREHOUSE",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Elevated food/granary storage mirrors the existing flood-safe stilt storehouse in the swamp community.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-MUD-DELTA-PILOT-STATION",
+      "pr325_name": "Delta Causeway Pilot Station",
+      "anchor": "LOC-MUD-DOGS-SWAMP",
+      "source_physical": "Elevated river-channel signal at a hardbank near existing Delta Causeway.",
+      "source_civil": "Pilots, ferrymen and repairers guide visitors around flooded paths.",
+      "source_temporal": "Site-specific 2026 swamp memories persist; no new signal retroactively enters published imagery.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Pilots and boat transfer along the same flood-affected causeway may share a single staffed landing.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-MUD-TIDEMARK-BEACON",
+      "pr325_name": "Swamp Tidemark Beacon",
+      "anchor": "LOC-MUD-DOGS-SWAMP",
+      "source_physical": "Marked high-water pole on stable bank tied to credible flood warnings.",
+      "source_civil": "Local residents track rising water and coordinate travel restrictions.",
+      "source_temporal": "Do not invent a pattern of past catastrophic floods without season-dated historical records.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "A flood-mark and warning beacon differs from ferry staging; still needs real hydrological observation and safety rules.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-CHINS-TRAVELER-BAKERY",
+      "pr325_name": "Chins Commons Travelers' Oven",
+      "anchor": "LOC-CHINS-ROAD-COMMONS",
+      "source_physical": "Covered oven placed outside Basin Market Road traffic and drainage courses.",
+      "source_civil": "Bakers, vendors and resting merchants support a functioning commoner's economy.",
+      "source_temporal": "The slot-11 2023 finalist was Arm Chair GM, not proof Ben operated a bakery then.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "An ordinary bakery/oven provides food economy rather than market announcements or wagon repairs; use existing public-road access.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-CHINS-BASIN-ARBITER-COURT",
+      "pr325_name": "Road Commons Dispute Court",
+      "anchor": "LOC-CHINS-ROAD-COMMONS",
+      "source_physical": "Roadside arbitration shelter physically distinct from League Chamber.",
+      "source_civil": "Local market mediators resolve trade and access issues without writing League title rules.",
+      "source_temporal": "Any historic legal dispute is fictional unless a dated manuscript and canon approval support it.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Trade mediation can happen at the established public market steps; retain League Chamber's separate political authority.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-CHINS-ROADSIDE-STORY-WALL",
+      "pr325_name": "People's Champ Story Wall",
+      "anchor": "LOC-CHINS-ROAD-COMMONS",
+      "source_physical": "Weather-sealed communal tablet wall within commons sightlines.",
+      "source_civil": "Residents record rumor, notices and jokes with uncertain reports labelled as such.",
+      "source_temporal": "Past results may appear in archival tablets with real year-specific team names, never invented owners.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Communal notice board and story wall are an installation of public steps, not automatically an independent settlement.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-DUCKHOOK-JACKSON-SLUICE",
+      "pr325_name": "Jackson Estate Drainage Sluice",
+      "anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "source_physical": "Controlled drainage outlet connecting club hazards to the Southern Wetlands water system.",
+      "source_civil": "Groundskeepers and neighboring water users share inspection and cleanup duties.",
+      "source_temporal": "Week 3 chili contamination remains visible or explicitly cleaned; a new sluice alone cannot erase it.",
+      "editorial_treatment": "HOLD_PLACEMENT_OR_SAFETY",
+      "comparison_candidate_id": "CAND-WATER-HAZARD-REED-WALK",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "New drainage outlet may connect an existing water hazard, but must demonstrate hydrology and preserve documented cleanup contamination state.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-DUCKHOOK-GROUNDSKEEPERS-LODGE",
+      "pr325_name": "Jackson Groundskeepers' Lodge",
+      "anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "source_physical": "Service lodge behind clubhouse vistas and away from flood exposure.",
+      "source_civil": "Cooks, caddies and maintenance workers give the club credible ordinary inhabitants.",
+      "source_temporal": "Slot-12's ten qualifications and three titles cannot be attributed to Zach across all eleven years.",
+      "editorial_treatment": "CONSOLIDATE_AS_SUBFEATURE",
+      "comparison_candidate_id": "CAND-COUNTRY-CLUB-GROUNDSKEEPERS-SHED",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Existing service/groundskeeper facility probably accommodates storage and workers; distinguish lodging only if evidence supports a separate footprint.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-DUCKHOOK-RIVERSIDE-PRACTICE-GREEN",
+      "pr325_name": "Riverside Practice Green",
+      "anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "source_physical": "Short-game terrace on firm levee ground with safe access from estate roads.",
+      "source_civil": "Instructors and golfers contribute sporting habits without making every contest a golf parody.",
+      "source_temporal": "Preserve known Week 3 contamination memory if the practice site appears in nearby views.",
+      "editorial_treatment": "REVIEW_AS_DISTINCT_CIVIC_FUNCTION",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Practice green is plausible within the existing country club, but does not become a new geographic property absent approved course geometry.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-BASIN-RECORD-FORD",
+      "pr325_name": "Basin Record Ford",
+      "anchor": "LOC-LEAGUE-ARCHIVE",
+      "source_physical": "Seasonally passable crossing near Archive junction; never assert a new bridge without survey.",
+      "source_civil": "Neutral record couriers use the ford to move ledgers under controlled provenance.",
+      "source_temporal": "2019 League renaming may be recorded in paperwork, but does not prove the ford existed.",
+      "editorial_treatment": "HOLD_PLACEMENT_OR_SAFETY",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "A new river ford near the League Archive changes circulation; require evidence for banks, seasonal flow and connection without inventing an active route.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-WETLAND-LEVEE-PUMP-HOUSE",
+      "pr325_name": "Wetland Levee Pump House",
+      "anchor": "LOC-DK-MUD-HILL",
+      "source_physical": "Raised drainage maintenance house whose works must not reshape scarred Mire Hill.",
+      "source_civil": "Neutral levee workers service flood channels outside any victor's sovereignty.",
+      "source_temporal": "Mire Hill summit remains unclaimed and Wilson's standard below summit; repairs are not yet verified.",
+      "editorial_treatment": "HOLD_PLACEMENT_OR_SAFETY",
+      "comparison_candidate_id": "CAND-MIRE-HILL-CUSTODIAL-OUTPOST",
+      "comparison_scope": "SAME_PARENT",
+      "evidence_rationale": "Pump infrastructure is not the same task as custodial stewardship, but may disturb protected Mire Hill drainage/scar and unclaimed summit.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-NORTHERN-PASS-RESCUE-SHELTER",
+      "pr325_name": "Northern Pass Rescue Shelter",
+      "anchor": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "source_physical": "Snow-resistant refuge off Northern Pass and unreachable when that pass is closed.",
+      "source_civil": "Wayfinders and supply teams support honest high-mountain expedition logistics.",
+      "source_temporal": "2026 Alpine Wager Route receipt history is separate; shelter service years unknown.",
+      "editorial_treatment": "HOLD_PLACEMENT_OR_SAFETY",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Emergency refuge on the Northern Pass cannot imply an open travel route while the pass is seasonally closed.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-INNER-SEA-NEUTRAL-MOORING",
+      "pr325_name": "Inner Sea Public Mooring",
+      "anchor": "LOC-LLC-STORM-CITY",
+      "source_physical": "Conceptual neutral public quay separate from LLC-owned warehouses; actual coastline anchor unresolved.",
+      "source_civil": "A civic harbor board could preserve equal postseason access without granting LLC home advantage.",
+      "source_temporal": "Island causeway connection requires neutrality, route and hydrology approval first.",
+      "editorial_treatment": "CROSS_PARENT_CONFLICT_REVIEW",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Neutral public harbor may overlap existing PR322 causeway-gate/public littoral siting; LLC's nearby domain cannot confer League sovereignty.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-ISLAND-TIDAL-GAUGE",
+      "pr325_name": "Island Tidal Gauge Court",
+      "anchor": "POST-NODE:HARBOR_RELIEF",
+      "source_physical": "Protected tide measurement recess at island relief harbor; true water levels not surveyed.",
+      "source_civil": "Marine safety staff can synchronize ferry and causeway closures without a new event arena.",
+      "source_temporal": "2015–2025 island use is fictional candidate history; no verified commissioning date.",
+      "editorial_treatment": "ISLAND_NODE_SUBFEATURE_HOLD",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Proposed Harbor Relief node can host a tide gauge; technology, water levels and operational timing are not verified.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-ISLAND-QUARRY-REPAIR-GALLERY",
+      "pr325_name": "Island Quarry Repair Gallery",
+      "anchor": "POST-NODE:IRON_QUARRY",
+      "source_physical": "Protected tool/stone gallery beside the quarry outside rockfall audience paths.",
+      "source_civil": "Conservators archive retired equipment and repaired fixture scars with date labels.",
+      "source_temporal": "Proposed 2017–2025 quarry contests may leave traces; actual historical winners are source-locked.",
+      "editorial_treatment": "ISLAND_NODE_SUBFEATURE_HOLD",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Tool and stone repair space is a support feature of the proposed Iron Quarry stage, not an independent new stadium.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-ISLAND-SOUTH-REPAIR-CACHE",
+      "pr325_name": "Island South Rescue Repair Cache",
+      "anchor": "POST-NODE:EMERGENCY_PIER",
+      "source_physical": "Storm-sheltered maintenance storage adjoining the proposed emergency pier.",
+      "source_civil": "Seasonal crews maintain rescue boats and equipment rather than a second elaborate resort.",
+      "source_temporal": "Historic build/repair years remain candidate fiction; active island maps not mutated.",
+      "editorial_treatment": "ISLAND_NODE_SUBFEATURE_HOLD",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Storage at Emergency Pier is an emergency maintenance feature; do not create new protected-public traversal.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    },
+    {
+      "pr325_candidate_id": "CAND-XP-ISLAND-UPLAND-RAIN-RETENTION",
+      "pr325_name": "Island Upland Rain Retention Court",
+      "anchor": "POST-NODE:LAST_FIELD",
+      "source_physical": "Rain collection and drainage aligned around, not through, permanent Last Field foundations.",
+      "source_civil": "Groundskeepers protect access to the final arena and memorial axis.",
+      "source_temporal": "No unapproved retcon to 2015 technology, fixed final venue orientation or Farrell memorial.",
+      "editorial_treatment": "ISLAND_NODE_SUBFEATURE_HOLD",
+      "comparison_candidate_id": null,
+      "comparison_scope": "NO_SPECIFIC_COMPARATOR",
+      "evidence_rationale": "Drainage beside the Last Field is infrastructure subordinate to the championship-only venue, with no claim of approved hydrology.",
+      "required_next_proof": [
+        "Compare site footprint and function using both source descriptions",
+        "Confirm proposed civic use does not invent 2015-2025 location tenure",
+        "Preserve 2026 source and private/closed-site access restrictions"
+      ],
+      "human_canon_approval": false,
+      "publication_allowed": false
+    }
+  ]
+}
