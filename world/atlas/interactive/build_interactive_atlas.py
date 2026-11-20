@@ -16,7 +16,12 @@ def main():
     routes=load(DATA/"routes.json")["routes"]
     divs=load(DATA/"divisions.json")["divisions"]
     state=load(DATA/"current_world_state.json")
-    candidates=load(DATA/"atlas_location_candidates.json")["candidates"]
+    # Existing Phase 4 published-facing/editorial artifact is frozen to the 48
+    # pre-summit candidates; new research proposals live in the separate
+    # three-depth summit registry until independent release/activation gates.
+    source_candidates=load(DATA/"atlas_location_candidates.json")["candidates"]
+    candidates=[c for c in source_candidates if
+                "Founder location-expansion directive 2026-11-20" not in c.get("source_provenance", [])]
     refs=load(LCP/"LOCATION_REFERENCE_REGISTRY.json")["locations"]
     handles=load(LCP/"PARENT_SUBLOCATION_REGISTRY.json")["handles"]
     refmap={x["location_id"]:x for x in refs}
