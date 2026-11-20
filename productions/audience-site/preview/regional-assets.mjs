@@ -328,7 +328,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float pondRelief=clamp((1.-clamp(abs(pondNormal.y),0.,1.))*18.,0.,.34);
       vec3 pondLight=vec3(.08,.12,.10)*pondRelief*bank;
       // Bounded grazing-view response to the EXISTING physically displaced pond.
-      // Candidate reflected-sky tint only; not a new light, water or weather source.
+      // Candidate reflected-sky tint only; not a new light, climate signal or water source.
       vec3 pondEye=normalize(cameraPosition-vWorld);
       float pondGrazing=pow(1.-clamp(abs(dot(pondNormal,pondEye)),0.,1.),2.);
       float pondReflectMix=(.035+.19*pondGrazing)*bank;
