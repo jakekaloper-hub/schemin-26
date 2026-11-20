@@ -450,9 +450,15 @@ export function buildRegionalAssets(THREE, bindings, height) {
         void main(){
           float age=fract(aPhase+uTime*(.105+.048*aDrift.y));
           vec3 p=position;
-          p.x+=aDrift.x*age*.42+sin(uTime*.31+aPhase*35.)*.10;
-          p.y+=age*(.55+.65*aDrift.y);
-          p.z+=aDrift.z*age*.28;
+          // Existing plunge spray follows a small rise-and-fall arc instead of
+          // rising forever. All motion is local to the existing emitter.
+          // Driven only by inherited uTime; no additional input or object.
+          float launch=age*(.95+.35*aDrift.y);
+          float fall=age*age*(.90+.20*aDrift.y);
+          p.x+=aDrift.x*age*(.12+.34*age)
+            +sin(uTime*.31+aPhase*35.)*.08*age;
+          p.y+=launch-fall;
+          p.z+=aDrift.z*age*(.10+.32*age);
           vec4 view=modelViewMatrix*vec4(p,1.);
           gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22);
           gl_Position=projectionMatrix*view;
