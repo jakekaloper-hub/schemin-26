@@ -469,9 +469,34 @@ export function buildRegionalAssets(THREE, bindings, height) {
       staticRelief:true,navigable:false,routeIds:[],principalCharacters:[]};
     return tread;
   }
+  function templeCliff(g,x,y,z,sx,sy,sz,m,index){
+    // Sculpt ONLY the three existing Temple cliff rocks. Retain each original
+    // transform, material and enclosing unit-sphere footprint (inward cuts only).
+    // Bedding is illustrative relief, not a geological or new-landmark claim.
+    const geo=new THREE.IcosahedronGeometry(1,4);
+    geo.name='Candidate Temple cliff strata geometry';
+    const p=geo.getAttribute('position');
+    for(let i=0;i<p.count;i++){
+      const px=p.getX(i),py=p.getY(i),pz=p.getZ(i);
+      const bedding=(py+.08*Math.sin(px*5.+pz*2.3+index*.4))*22.;
+      const seam=Math.pow(Math.max(0,Math.cos(bedding)),10);
+      const chipped=.5+.5*Math.sin(px*11.7+py*8.9+pz*13.5+index*1.5);
+      const inset=.009+.048*seam+.013*chipped;
+      const radius=1-inset;
+      p.setXYZ(i,px*radius,py*radius,pz*radius);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,m,x,y,z);
+    o.scale.set(sx,sy,sz);o.rotation.set(.19+x*.07,z*.16,.1);
+    o.name='Candidate Temple cliff strata relief';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'waterfall',
+      originalDimensions:[sx,sy,sz],originalCliffIndex:index,
+      staticRelief:true,navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
-    rock(g,-6,3,-3,4,6,3,mat('#677163'));rock(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'));rock(g,-5,1,-5,4,4,3.6,mat('#596955'));
+    templeCliff(g,-6,3,-3,4,6,3,mat('#677163'),0);templeCliff(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'),1);templeCliff(g,-5,1,-5,4,4,3.6,mat('#596955'),2);
     for(let j=0;j<4;j++)box(g,1,j*.58,-.8,9-j*1.1,.58,7-j*.75,j%2?edge:stone);
     for(let j=0;j<9;j++)templeStoneTread(g,j);
     box(g,1,2.3,-1,5.2,2.8,3.6,dark);
