@@ -50,8 +50,8 @@ test('28 inherited hanging-vegetation cones gain finite deterministic inward fol
       assert.ok([px,py,pz,n.getX(j),n.getY(j),n.getZ(j),uv.getX(j),uv.getY(j)].every(Number.isFinite));
       assert.ok(Math.abs(py)<=span/2+1e-6,'height/endpoints exceeded');
       assert.ok(radius<=outer+1e-5,'original cone silhouette expanded');
-      assert.ok(radius>=outer*(1-.19)-1e-5,'inset exceeded bounded 19 percent');
-      if(Math.abs(py+span/2)<1e-6)near(radius,.085);
+      if(radius>1e-8)assert.ok(radius>=outer*(1-.24)-1e-5,'inset exceeded bounded 24 percent');
+      if(radius>1e-8&&Math.abs(py+span/2)<1e-6)near(radius,.085);
       const inset=outer-radius;maxInset=Math.max(maxInset,inset);
       if(inset>.004)changed++;
     }

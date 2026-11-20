@@ -1020,7 +1020,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       const endHold=Math.pow(Math.sin(Math.PI*along),2);
       const angle=Math.atan2(zz,xx);
       const crease=Math.pow(.5+.5*Math.sin(angle*5+standIndex*.33+strandIndex*.51+yy*7.3),2);
-      const inset=.19*crease*endHold;
+      const inset=.24*crease*endHold;
       p.setXYZ(j,xx*(1-inset),yy,zz*(1-inset));
     }
     p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
