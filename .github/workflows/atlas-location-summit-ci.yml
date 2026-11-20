@@ -1,0 +1,27 @@
+name: Atlas location summit CI
+on:
+  pull_request:
+    paths:
+      - 'world/data/locations.json'
+      - 'world/data/atlas_location_candidates.json'
+      - 'world/data/owner_domains.json'
+      - 'world/data/world_memory.json'
+      - 'living-novel/history/**'
+      - 'world/atlas/summits/**'
+      - '.github/workflows/atlas-location-summit-ci.yml'
+  push:
+    paths:
+      - 'world/data/atlas_location_candidates.json'
+      - 'world/atlas/summits/**'
+jobs:
+  atlas-summit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate canonical and candidate atlases
+        run: python3 world/atlas/summits/2026-11-20/validate_location_summit.py
