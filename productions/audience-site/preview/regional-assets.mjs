@@ -1424,6 +1424,36 @@ export function buildRegionalAssets(THREE, bindings, height) {
       navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function jacksonEntranceStep(g,i,stepMaterial){
+    // Sculpt ONLY the three inherited entry step boxes. The shallow top-joint
+    // and riser scores push inward; no added object, route or repaired-scene claim.
+    const w=3,h=.1,d=.4,geo=new THREE.BoxGeometry(w,h,d,48,8,24);
+    const p=geo.getAttribute('position');
+    for(let k=0;k<p.count;k++){
+      const x=p.getX(k),y=p.getY(k),z=p.getZ(k);
+      const innerX=Math.abs(x)<w/2-1e-6;
+      const joint=Math.max(0,1-Math.abs(Math.abs(x)-.5)/.125);
+      if(innerX&&Math.abs(y-h/2)<1e-6&&Math.abs(z)<d/2-1e-6){
+        const edgeScore=Math.max(0,1-Math.abs(z-.108)/.058);
+        const inset=Math.min(.012,.010*joint*joint
+          +.005*edgeScore*edgeScore*(1-.3*joint));
+        if(inset>0)p.setY(k,y-inset);
+      }else if(innerX&&Math.abs(z-d/2)<1e-6&&Math.abs(y)<h/2-1e-6){
+        const riserScore=Math.max(0,1-Math.abs(y+.0125)/.021);
+        const inset=Math.min(.009,.006*joint*joint+.005*riserScore*riserScore);
+        if(inset>0)p.setZ(k,z-inset);
+      }
+    }
+    p.needsUpdate=true;geo.name='Candidate Jackson entrance step incised stone';
+    geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,stepMaterial,0,-.05+i*.1+h/2,4.8-i*.34);
+    o.name='Candidate Jackson recessed entrance step';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      estateStepPart:'joint-relief',originalStepIndex:i,
+      originalDimensions:[w,h,d],originalPerimeterPreserved:true,
+      sourceLandmark:'clubhouse',navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -1464,7 +1494,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     hip(0,2.95,0,8.8,1.6,5.2);hip(-5,2.35,.1,2.7,1.1,4.2);hip(5,2.35,.1,2.7,1.1,4.2);
     box(g,0,.12,3,9,.25,2.4,edge);for(let x=-4;x<=4;x+=1.34)cyl(g,x,.37,3.6,.13,.16,2.3,cream,8);box(g,0,2.65,3.1,9.4,.25,2.5,cream);hip(0,2.9,3.1,9.6,.75,2.7);
     for(let x=-3;x<=3;x+=1.5){jacksonWindowGlass(g,x,glass);box(g,x-.38,.78,2.16,.12,1.23,.06,roof);box(g,x+.38,.78,2.16,.12,1.23,.06,roof);}
-    jacksonEntranceDoor(g,roof);for(let i=0;i<3;i++)box(g,0,-.05+i*.1,4.8-i*.34,3,.1,.4,edge);
+    jacksonEntranceDoor(g,roof);for(let i=0;i<3;i++)jacksonEntranceStep(g,i,edge);
     // Candidate course massing does not certify a pristine post-contamination state.
     for(let i=0;i<3;i++){
       const o=mesh(g,estateSculptedCourseGrass(i),grass,-4+i*4,.02,7.5+(i%2));
