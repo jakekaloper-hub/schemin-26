@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""Fail-closed validation of the 2026-11-20 additive Atlas candidate summit.
+
+This checks evidence structure, not artistic quality or independent canon approval.
+"""
+from __future__ import annotations
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[4]
+HERE = Path(__file__).resolve().parent
+
+def load(path: str):
+    return json.loads((ROOT / path).read_text(encoding="utf-8"))
+
+def require(condition: bool, explanation: str):
+    if not condition:
+        raise AssertionError(explanation)
+
+def validate() -> dict:
+    active = load("world/data/locations.json")["locations"]
+    candidates = load("world/data/atlas_location_candidates.json")["candidates"]
+    routes = load("world/data/routes.json")["routes"]
+    owner_domains = load("world/data/owner_domains.json")["domains"]
+    zones = load("world/data/physical_zones.json")["regions"]
+    world_events = load("world/data/world_memory.json")["events"]
+    source_history = load("living-novel/history/CHAMPIONSHIP_SUCCESSION_MACHINE_INDEX_2015_2026.json")["seasons"]
+    dossier = json.loads((HERE / "THREE_LAYER_LOCATION_DOSSIERS_V1.json").read_text())
+    review = json.loads((HERE / "STRUCTURAL_REVIEW_MANIFEST_V1.json").read_text())
+    year_matrix = json.loads((HERE / "SEASON_BY_SEASON_SLOT_GEO_IMPACT_MATRIX_V1.json").read_text())
+
+    ids = [x["id"] for x in active] + [x["id"] for x in candidates]
+    require(len(active) == 23, "active LOC baseline changed")
+    require(len(candidates) == 88, "candidate registry is not original 48 plus 40")
+    require(len(ids) == len(set(ids)), "duplicate registry location ID")
+    require(len(world_events) >= 7, "world event source unexpectedly truncated")
+    current = [x for x in dossier["active_location_three_layer_dossiers"]]
+    proposed = dossier["existing_and_new_candidate_three_layer_dossiers"]
+    require(len(current) == 23 and len(proposed) == 88, "dossier coverage does not match registries")
+    require({x["location_id"] for x in current} == {x["id"] for x in active}, "live ID missing from dossier")
+    require({x["location_id"] for x in proposed} == {x["id"] for x in candidates}, "candidate ID missing from dossier")
+
+    required_levels = ("level_1_physical_and_arrival", "level_2_lived_civilization_and_institution",
+                       "level_3_memory_evolution_and_playoffs")
+    for item in current + proposed:
+        for key in required_levels:
+            require(isinstance(item.get(key), dict) and len(item[key]) >= 5,
+                    f"three-depth structure absent: {item['location_id']} {key}")
+        require(item["location_id"] in review["location_checks"],
+                f"missing per-location phase review: {item['location_id']}")
+        require(review["location_checks"][item["location_id"]]["independent_umpire"] == "PENDING",
+                f"unverified independent approval: {item['location_id']}")
+
+    active_ids = {x["id"] for x in active}
+    zone_ids = {x["id"] for x in zones}
+    owner_ids = {x["character_id"] for x in owner_domains}
+    route_ids = {x["id"] for x in routes}
+    for x in active:
+        require(x["physical_zone_id"] in zone_ids, f"bad active physical zone: {x['id']}")
+        require(all(r in route_ids for r in x["access_route_ids"]), f"unknown active route: {x['id']}")
+        require(x.get("owner_character_id") is None or x["owner_character_id"] in owner_ids,
+                f"bad active owner: {x['id']}")
+    for x in candidates:
+        require(x["id"].startswith("CAND-"), f"invalid candidate ID {x['id']}")
+        require(x["lifecycle_status"] != "APPROVED_ACTIVE_CANON", f"unauthorized promotion: {x['id']}")
+        require(not x.get("promoted_location_id"), f"unauthorized LOC backlink: {x['id']}")
+        require(all(z in zone_ids for z in x["likely_physical_zone_ids"]),
+                f"candidate has unknown physical zone: {x['id']}")
+        require(all(p in active_ids for p in x.get("related_active_location_ids", [])),
+                f"candidate parent location missing: {x['id']}")
+        require(x.get("technology_translation") in ("NATIVE_PREMODERN", "FUNCTIONAL_ANALOGUE",
+                 "REQUIRES_TECH_UNLOCK", "REJECTED_TECH_DRIFT"), f"invalid tech classification: {x['id']}")
+
+    vintage = Counter(x["candidate_vintage"] for x in proposed)
+    require(vintage == {"PREEXISTING": 48, "NEW_2026_11_20": 40}, "legacy candidate removed or added mix wrong")
+    new = [x for x in proposed if x["candidate_vintage"] == "NEW_2026_11_20"]
+    count_by_storyline = Counter(x["storyline_owner_character_id"] for x in new)
+    require(len(owner_domains) == 12, "twelve-domain baseline mismatch")
+    require(all(count_by_storyline[x["character_id"]] == 3 for x in owner_domains),
+            "each current owner storyline must have exactly three proposed sublocations")
+    require(count_by_storyline[None] == 4, "four unplaced island proposals missing")
+    island_ids = [x for x in candidates if x["id"].startswith("CAND-PLAYOFF-ISLAND-")]
+    require(len(island_ids) == 4, "missing four island source-gated candidates")
+    require(all(not x["likely_physical_zone_ids"] and x.get("rare_use") for x in island_ids),
+            "unknown island must not acquire invented zone or open ordinary venue use")
+    require(next(x for x in candidates if x["id"] == "CAND-CHAMP-LAST-FIELD")["championship_only"],
+            "last-field championship-only lock lost")
+    require(next(x for x in candidates if x["id"] == "CAND-STOCKCAR-SPEEDWAY")["lifecycle_status"] == "REJECTED_FOR_DRIFT",
+            "modern-stockcar drift guard lost")
+    require(next(x for x in candidates if x["id"] == "CAND-MIRE-HILL-CUSTODIAL-OUTPOST")["likely_physical_zone_ids"] == ["REG-CENTRAL-BASIN"],
+            "Mire Hill neutral basin drift")
+    require(next(x for x in candidates if x["id"] == "CAND-SHARED-MARCH-CUSTOMS-HEARTH")["related_active_location_ids"] == ["LOC-TDS-CHILI-SHARED-MARCH"],
+            "shared-March cross-Division inheritance drift")
+
+    yrs = year_matrix["slots"]
+    require(len(yrs) == 12 and len(source_history) == 11, "history cardinality mismatch")
+    require({y["season"] for x in yrs for y in x["year_by_year"]} == set(range(2015, 2026)),
+            "history missing a year")
+    require(all(len(x["year_by_year"]) == 11 for x in yrs), "history not eleven years per slot")
+    require(all(y["physical_location_status"] == "NO_2015_2025_EVENT_VENUE_ATTESTED"
+                and y["historical_owner_person_identity"] == "NOT_VERIFIED_FROM_PROVIDER"
+                for x in yrs for y in x["year_by_year"]), "unverified venue/owner silently promoted")
+    for season in source_history:
+        for finish in ("champion", "runner_up", "third"):
+            podium = season[finish]
+            row = yrs[podium["team_slot"]-1]["year_by_year"][season["season"]-2015]
+            require(row["verified_team_name_from_slot_lineage"] == podium["team_name"] and
+                    row["postseason_podium_status"] == finish,
+                    f"team lineage/podium mismatch in {season['season']} {finish}")
+    require(year_matrix["result_counts"]["source_mismatches"] == 0, "unresolved historical name mismatch")
+    return {"status": "PASS_STRUCTURAL_ONLY", "active": len(active), "legacy_candidates": vintage["PREEXISTING"],
+            "new_candidates": vintage["NEW_2026_11_20"], "dossiers": len(current)+len(proposed),
+            "owner_slots": len(yrs), "historic_slot_years": len(yrs)*11, "podium_checks": len(source_history)*3,
+            "island_source_gate": "HOLD", "umpire": "PENDING"}
+
+if __name__ == "__main__":
+    print(json.dumps(validate(), sort_keys=True))
