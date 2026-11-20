@@ -329,7 +329,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec3 pondLight=vec3(.08,.12,.10)*pondRelief*bank;
       // Narrow broken contact light follows the same two candidate masonry
       // arch bases, with the SAME local transforms as the physical wavelets.
-      // No new light source, waterbody, current, shoreline or weather control.
+      // No new light source, waterbody, current, shoreline or climate input.
       vec2 bridgeA=vec2(-.88/3.8,0.);
       vec2 bridgeB=vec2(.71/3.8,0.);
       float bridgeDistA=length((p-bridgeA)*vec2(1.,1.28));

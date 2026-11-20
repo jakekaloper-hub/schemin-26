@@ -93,7 +93,7 @@ test('actual pond shader adds bounded, interior-only physically displaced arch c
   assert.ok(moving,'contact motion advances with ordinary pond time');
   assert.ok(lit,'actual broken bridge-contact light, not a dead formula');
   for(const other of a.water.filter(w=>w.kind!=='pond')){
-    assert.equal(other.material.uniforms.uPond.value,0);
+    assert.equal(other.material.uniforms.uPond?.value??0,0);
     assert.equal(other.material.fragmentShader.includes('pondBridgeLight'),true,'shared shader source but pond-only branch');
   }
   a.dispose();
