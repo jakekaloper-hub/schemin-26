@@ -935,6 +935,33 @@ export function buildRegionalAssets(THREE, bindings, height) {
       ambientClock:'ORDINARY_ENVIRONMENT',illustrativeMaxHorizontalDrift:.1,drawBudgetDelta:1};
     return o;
   }
+  function wetlandButtressRoot(g,a,b,r,standIndex,rootIndex){
+    // The 56 EXISTING root arms keep identical endpoints, radial limits and material.
+    // Inward-only bark recesses replace seven-sided struts without inventing roots.
+    const av=new THREE.Vector3(...a),bv=new THREE.Vector3(...b);
+    const direction=bv.clone().sub(av),length=direction.length();
+    const geometry=new THREE.CylinderGeometry(r*.62,r,length,14,6);
+    geometry.name='Candidate Mud Dogs contoured buttress root';
+    const p=geometry.getAttribute('position');
+    for(let j=0;j<p.count;j++){
+      const xx=p.getX(j),yy=p.getY(j),zz=p.getZ(j);
+      if(Math.hypot(xx,zz)<.000001)continue; // Cap centers remain fixed.
+      const vertical=yy/length+.5;
+      const endHold=Math.pow(Math.sin(vertical*Math.PI),2);
+      const angle=Math.atan2(zz,xx);
+      const groove=Math.pow(.5+.5*Math.cos(angle*7+standIndex*.29+rootIndex*.43),3);
+      const inset=.105*groove*endHold;
+      p.setXYZ(j,xx*(1-inset),yy,zz*(1-inset));
+    }
+    p.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    const o=mesh(g,geometry,trunk,...av.clone().add(bv).multiplyScalar(.5).toArray());
+    o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),direction.normalize());
+    o.name='Candidate Mud Dogs contoured buttress root';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['cypress-like wetlands'],
+      originalEndpointsPreserved:true,originalRadiusEnvelopePreserved:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function cypressTrunk(g,x,y,z,h,standIndex){
     // Sculpt ONLY the existing 14 candidate Mud Dogs tree cylinders.
     // Keep the same height and .20 top/.45 base radius envelope, with no new mesh
@@ -977,7 +1004,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       mark(cypressTrunk(g,x,y,z,h,i),'trunk');
       for(let k=0;k<4;k++){
         const b=k*Math.PI/2+i*.31,reach=.85+(i%3)*.15;
-        mark(branch(g,[x,y+.67,z],[x+Math.cos(b)*reach,y+.045,z+Math.sin(b)*reach],.11,trunk),'buttress-root');
+        mark(wetlandButtressRoot(g,[x,y+.67,z],[x+Math.cos(b)*reach,y+.045,z+Math.sin(b)*reach],.11,i,k),'buttress-root');
       }
       for(let j=0;j<4;j++){
         const width=(1.42-j*.24)*(i%3===1?.87:i%3===2?1.09:1);
