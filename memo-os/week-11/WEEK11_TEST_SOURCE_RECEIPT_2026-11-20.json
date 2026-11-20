@@ -1,0 +1,113 @@
+{
+  "schema": "schemin.memo.week11.test_source_fixture.v1",
+  "scope": "PROVISIONAL_CAPTURE_NO_FACT_LOCK",
+  "league_id": 1417621,
+  "season": 2026,
+  "week": 11,
+  "source_utc": "2026-11-20T14:08:38.169Z",
+  "source_path": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-20.json",
+  "source_git_blob_sha": "74e270ade3760d412c9c848d0e1508cddb036400",
+  "source_kind": "ESPN via Flaim provider-normalized; NOT original ESPN HTTP",
+  "matchups": [
+    {
+      "home_id": 3,
+      "home_name": "Slob on my Dobb",
+      "home_current_points": 0,
+      "away_id": 9,
+      "away_name": "El Niño",
+      "away_current_points": 22.8,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_id": 6,
+      "home_name": "Three Dreaded Snake",
+      "home_current_points": 2.1,
+      "away_id": 2,
+      "away_name": "Red Leopards",
+      "away_current_points": 3,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_id": 10,
+      "home_name": "Mud Dogs",
+      "home_current_points": 0,
+      "away_id": 11,
+      "away_name": "Seven Deadly Chins",
+      "away_current_points": 5.7,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_id": 1,
+      "home_name": "ObiWan Jacoby",
+      "home_current_points": 0,
+      "away_id": 7,
+      "away_name": "The Chili Cheesers ",
+      "away_current_points": 19,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_id": 5,
+      "home_name": "D0nkey K0ng",
+      "home_current_points": 3.3,
+      "away_id": 8,
+      "away_name": "His Majesty's Blood",
+      "away_current_points": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "home_id": 12,
+      "home_name": "Dr. Duckhook",
+      "home_current_points": 29.06,
+      "away_id": 4,
+      "away_name": "The LLC",
+      "away_current_points": 7.8,
+      "winner": "UNDECIDED"
+    }
+  ],
+  "scored_starters_secondary_flaim_detail": [
+    {
+      "team_id": 12,
+      "player": "C.J. Stroud",
+      "points": 29.06,
+      "slot": "QB",
+      "started": true
+    },
+    {
+      "team_id": 4,
+      "player": "Jonathan Taylor",
+      "points": 7.8,
+      "slot": "RB",
+      "started": true
+    },
+    {
+      "team_id": 7,
+      "player": "David Montgomery",
+      "points": 19,
+      "slot": "RB",
+      "started": true
+    }
+  ],
+  "secondary_detail_provenance": "Authenticated Flaim/ESPN Week11 per-player detail reread 2026-11-20, normalized to 2 decimals. No independent original HTTP provenance.",
+  "pittsys_board": {
+    "reference": "https://github.com/jakekaloper-hub/schemin-26/issues/323",
+    "source_date": "2026-11-19",
+    "classification": "COMMISSIONER_SUPPLIED_OFFICIAL_BOARD_NOT_INDEPENDENT_PROVIDER_BETTING_FEED",
+    "posted": [
+      "3-9",
+      "5-8",
+      "12-4"
+    ],
+    "off_board": [
+      "6-2",
+      "1-7"
+    ],
+    "unspecified": [
+      "10-11"
+    ],
+    "no_invented_sixth_line": true
+  },
+  "ffhub_nov18": {
+    "status": "NOT_REVERIFIED",
+    "note": "Nov17 protected reviewed harvest is established, but exact 2026-11-18 vendor run not independently retrieved; don't upgrade to accepted odds."
+  }
+}
