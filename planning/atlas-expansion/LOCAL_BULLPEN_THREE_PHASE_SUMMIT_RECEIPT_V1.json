@@ -1,0 +1,297 @@
+{
+  "status": "LOCAL_OLLAMA_DIRECTOR_PERSONAS__NOT_HUMAN_PARTICIPATION",
+  "date": "2026-11-20",
+  "source_file": "ATLAS_THREE_LAYER_DOSSIERS_V1.json",
+  "record_count": 147,
+  "new_count": 44,
+  "model": "gemma3:4b",
+  "phases": [
+    {
+      "id": "I_EVIDENCE_REGISTRY",
+      "directors_requested": [
+        "the_scout",
+        "the_librarian",
+        "the_umpire",
+        "the_architect"
+      ],
+      "elapsed_ms": 56327,
+      "responses": [
+        {
+          "director": "the_scout",
+          "response": "Okay. Let’s assess the SCHEMIN 26 ATLAS audit.\n\n**Initial Assessment:** The scope – 147 three-layer records, encompassing 23 active LOC and 48 candidate IDs – presents significant complexity. The inclusion of “Playoff Island nodes” and “island venue IDs” introduces another layer of potential variability demanding careful scrutiny.\n\n**Uncertainty & Current State:**\n\n*   **Data Freshness:** We have no information regarding the *current* freshness of this data. The \"historic 2015-25\" timeframe necessitates understanding the data's age relative to the *current* context.\n*   **Candidate ID Verification:** The 48 candidate IDs – including rejected – require validation of their continued relevance and accuracy. We must identify the source of this list and understand the criteria for rejection.\n*   **Historical Data – Playoff Years:** The 67 playoff entry-years present a large dataset for lineage tracing and potential inconsistencies. The 2026 lack of a verified winner requires immediate investigation.\n*   **Conflict Identification:** The “Existing Last Field Central Basin candidate conflicts with drafted island Last Field” is a critical point needing detailed analysis – specifically, which systems created these conflicting entries and the reasoning behind the drafts.\n\n**Domain-Specific Findings & Proposed Hard Gates (Pre-Verification):**\n\nGiven my domain of data quality and source freshness, I propose the following hard gates *pending confirmation of source provenance and data freshness*:\n\n1.  **LOC Source Validation (Gate 1):**  We need to independently verify the source of the 23 active LOC. Is this a single, authoritative source? What is the",
+          "error": null
+        },
+        {
+          "director": "the_librarian",
+          "response": "Okay. Let’s assess the SCHEMIN 26 ATLAS data regarding the 147 three-layer records.\n\nMy initial assessment is that the data presents a significant number of potential inconsistencies requiring focused scrutiny. The scale – 147 records, including the identified node types – necessitates a rigorous examination of provenance and structural integrity.\n\nHere’s a breakdown of concerns and recommended next steps, maintaining a conservative approach:\n\n**Key Concerns & Observations:**\n\n1.  **Record Count & Candidate IDs:** The 147 records combined with 48 pre-existing candidate IDs, including rejected ones, demonstrates a high volume of potentially overlapping or redundant data. The inclusion of “Playoff Island nodes” and “island venue IDs” adds further complexity to the dataset.\n\n2.  **Historical Data – 2015-25:** The historical data regarding playoff entries, bracket games, and champions (67 entries, 56 games, 11 champions) offers a critical timeframe for analysis. However, the statement that “Historic 2015-25: 67 playoff entry-years, 56 bracket games, 11 champions” must be qualified by the need to independently verify the *source* of this data and its relationship to the 147 three-layer records. Correlating this historical data with individual record entries is a priority.\n\n3.  **2026 Data & Conflicts:** The fact that there’s “2026 no verified winner” is immediately concerning.  This absence of a verifiable outcome necessitates thorough investigation into how this record was created within the ATLAS. The mention of a \"conflict\" with the",
+          "error": null
+        },
+        {
+          "director": "the_umpire",
+          "response": "Let’s assess the SCHEMIN 26 ATLAS data concerning the 147 three-layer records.\n\n**Preliminary Assessment:** The volume of data – 147 records across multiple layers – presents a significant complexity. The overlap between candidate IDs, island nodes, and venue IDs requires careful scrutiny.\n\n**Specific Questions & Required Evidence:**\n\n1.  **Verification of Record Completeness:**  We need to confirm that each of the 147 records has a documented objective and current phase.  *What evidence demonstrates the completion of documentation for *every* record?*\n\n2.  **LOC Validation:** The 23 active LOC (presumably Locations of Control) require validation. *Can we review the criteria defining an \"active\" LOC?*  *What evidence confirms their current status and operational context within the ATLAS?*\n\n3.  **Candidate ID Reconciliation:** The 48 candidate IDs – including rejected – must be reconciled against the 147 records. *What process was used to generate and track these IDs?* *Is there a documented mapping between candidate IDs and the records they represent?*\n\n4.  **Playoff Island Node Verification:** The 23 Playoff Island nodes need independent verification of their existence and connectivity. *Is there a defined schema for the ‘Playoff Island’ data structure?* *What controls are in place to validate these nodes against the ATLAS?*\n\n5.  **Venue ID Consistency:** The 9 separate venue IDs require validation against the atlas structure. *Are these IDs consistently mapped and referenced across records and graph objects?*\n\n6.  **CAND-XP Review:** The 44 new, unapproved CAND",
+          "error": null
+        },
+        {
+          "director": "the_architect",
+          "response": "Okay. Let’s begin.\n\nMy initial assessment of the SCHEMIN 26 ATLAS audit is focused on the structural integrity and consistency of the data. The volume of information – 147 records, 23 active LOC, and the associated ID variations – presents potential for significant complexity and, frankly, risk.\n\nHere’s a breakdown of my concerns based on the provided details, separated by domain:\n\n**1. Module Boundaries & Dependency Health (Primary Concern):**\n\n*   The presence of 48 pre-existing candidate IDs, including rejected ones, combined with 44 new, unapproved CAND-XP entries, immediately raises questions about module boundaries.  It's critical to understand *why* so many IDs exist and how they're related. Without clear definitions of what constitutes a “candidate” and a rigorous mapping exercise, we risk introducing unnecessary coupling and dependencies.\n*   The \"Playoff Island nodes\" and \"island venue IDs\" – 23 and 9 respectively – require careful scrutiny.  Are these truly independent modules, or are they tightly bound to the core record structure?\n\n**2. Architecture Fitness Tests:**\n\n*   The statement that the island graph has 45 edge objects but embedded count 41 indicates a potential anomaly. This discrepancy needs immediate investigation. Fitness tests should be applied to assess the graph’s readability, maintainability, and the potential for cascading failures if the embedded count wasn't accurately represented.\n\n**3. Implementation & Pre-Merge Quality:**\n\n*   The assertion that \"Historic slot != past human owner\" is a critical invariant.  I require confirmation of the tooling and process used to maintain this invariant. The",
+          "error": null
+        }
+      ],
+      "synthesis": "Okay. Let’s synthesize.\n\nThe independent director submissions highlight a significant volume of data with clear, documented inconsistencies and potential sources of risk. The core issues revolve around data lineage, validation, and the relationships between the various record types – particularly the candidate IDs and the island-related elements. There's a clear need for a comprehensive audit of the data’s provenance and a rigorous reconciliation process. The discrepancy between the edge count and the embedded count is a non-trivial anomaly demanding immediate investigation.\n\n**Recommendation: Immediate Gate – Traceability & Mapping (Gate 2)**\n\nGiven the complexity and identified vulnerabilities, I recommend establishing a hard gate requiring demonstrable traceability and mapping *before* any further analysis or potential modification of the SCHEMIN 26 ATLAS data. \n\n**Specific Requirements for Gate 2:**\n\n1.  **Source Provenance Audit (Primary Focus):** The Scout and Librarian should collaborate to conduct a full audit of *every* record (all 147) and identify its originating source. This includes documenting the data creation process, the individuals involved, and the system(s) used to generate the data. Documentation should be timestamped and versioned.\n\n2.  **Candidate ID Mapping Exercise:** The Scout and Umpire should jointly perform a comprehensive mapping exercise. This involves creating a detailed table linking each candidate ID to its corresponding record in the ATLAS. This mapping must include the criteria used to determine whether an ID is “active” or “rejected.” A revised definition of \"candidate\" needs to be established. The rationale behind the rejection criteria needs to be clearly documented.\n\n3.  **Island Graph Validation:** The Architect and Scout must independently verify the island graph data. This"
+    },
+    {
+      "id": "II_PHYSICAL_CIVIC_AND_NOVEL",
+      "directors_requested": [
+        "the_architect",
+        "the_groundskeeper",
+        "the_beat_writer",
+        "the_clubhouse_manager"
+      ],
+      "elapsed_ms": 52599,
+      "responses": [
+        {
+          "director": "the_architect",
+          "response": "Okay. Let’s begin.\n\nMy initial assessment focuses on the structural integrity and potential risks associated with integrating this “SCHEMIN ATLAS” data. The volume of detail – 147 IDs, three depth layers, and new site proposals – demands a rigorous approach to module boundaries and dependency health. \n\n**Specifically, I’m prioritizing the following concerns:**\n\n1.  **Depth Layer Coupling:** The three depth layers (physical/access, civil/ecology/economy, historical memory) represent significant potential for entanglement. The integration points must be explicitly defined with immutable invariants. We need to determine the granularity of data exchange – what information needs to be shared, and at what level of detail – to minimize coupling.  I want to understand the data models for each layer; are they aligned on key concepts like ‘location,’ ‘resource,’ or ‘historical significance’?\n\n2.  **New Site Proposals – Volume & Owner Domains:** 44 new site ideas, with the distribution outlined (36 sublocations, 3 per 12 owner domains, plus 8 neutral/service sites), introduces a high degree of complexity.  My immediate question is: *How is the ownership structure being enforced?* It’s critical to understand the governance process around these sites and ensure that changes align with the documented domain assignments. The proposed 3 sublocations per owner domain needs a deeper review – are there potential conflicts arising from this structure?\n\n3.  **Chapter III & IV Anomalies:** The noted discrepancies regarding Mire Hill and Obi mountain house require immediate investigation. These represent potential data inconsistencies that could significantly impact the accuracy of the ATLAS. The description of labor already repairing Mire Hill is concerning – this needs to be",
+          "error": null
+        },
+        {
+          "director": "the_groundskeeper",
+          "response": "Okay. Let’s assess the SCHEMIN Atlas data review.\n\nMy initial assessment, focusing on operational implications, is centered around the need for rigorous validation across several domains. The volume of data – 147 IDs, 44 new site ideas – presents inherent complexity, and the layered approach (physical/access, civil/ecology/economy, historical memory) demands careful orchestration.\n\n**Operational Concerns & Required Investigations:**\n\n1.  **Execution Tracing & Service Health (My Primary Domain):** The existing Chapter structure (III & IV) introduces points of potential inconsistency. Specifically, the discrepancy between Mire Hill summit and Wilson standard lower requires immediate investigation into the root cause of the variation. A thorough runbook review is needed to document recovery pathways for data discrepancies within this layer. We must establish clear owner responsibility and documented process for resolving divergent viewpoints on this type of location data, including tracking the labor allocation for the Wilson standard repair.\n\n2.  **Delivery Reliability & Incident Response:**  The introduction of 44 new site ideas, particularly the grouping of 36 sublocations, significantly increases the potential for operational incidents.  I need to understand the proposed process for validating the feasibility of these new sites – specifically, what constitutes “ready” for inclusion and what triggers escalation.  We need to ensure robust monitoring is established *before* any rollout to detect overburdening or dependencies failing.\n\n3.  **Latency & Operational Resilience:** The combination of historical memory (Chapter III & IV) with physical location data heightens the risk of latency impacts.  I require further data on the intended query patterns and potential performance bottlenecks associated with accessing this combined dataset.  We need to evaluate how this affects overall system resilience",
+          "error": null
+        },
+        {
+          "director": "the_beat_writer",
+          "response": "Okay, let's structure an assessment of the SCHEMIN ATLAS data based on the provided context and my designated domain.\n\n**Assessment: Narrative Quality and Clarity - Initial Review**\n\nMy primary concern is the coherence and clarity of the presented information regarding the ATLAS, specifically the depth layers and site details. Initial observation suggests a complex, potentially fragmented, narrative emerging from these disparate data points. There are notable areas of uncertainty that require further validation and structural refinement.\n\n**Key Observations & Concerns (with Levels of Confidence - Low, Medium, High):**\n\n1.  **Depth Layer Alignment (Medium Confidence):** The layering of physical/access, civil/ecology/economy, and historical memory across 147 IDs requires careful scrutiny. The documentation lacks explicit articulation of *how* these layers intersect. We need to understand the relationships, potential conflicts, and data dependencies within each layer. For example, a 'physical/access' designation for a site should clearly relate to the ‘civil/ecology/economy’ and ‘historical memory’ contexts to avoid ambiguity.\n\n2.  **New Site Proposals (Low Confidence):** The 44 new site proposals – including the 36 sublocations – introduce significant complexity. The distribution across the 12 owner domains (3 per domain) *could* represent a strategic allocation, but the rationale is absent.  The inclusion of 8 neutral/service sites requires justification: are these planned hubs, or simply logistical necessities? Without context, this feels like an arbitrary cluster of additions.\n\n3.  **Chapter Specific Anomalies (High Confidence):** The references to Chapter III and IV ('Mire Hill,' 'Wilson standard lower,' 'Obi mountain house') present",
+          "error": null
+        },
+        {
+          "director": "the_clubhouse_manager",
+          "response": "Okay, let’s assess the SCHEMIN Atlas data.\n\n**Initial Assessment:** The volume of data – 147 IDs, three depth layers, and 44 new site proposals – presents a significant organizational load. My primary concern, operating under the lens of organizational health and role clarity, is to ensure existing resources can adequately support this expansion without introducing unforeseen bottlenecks or discrepancies.\n\n**Layer-Specific Review & Initial Questions:**\n\n1.  **Physical/Access Layer (147 IDs):** We need immediate clarification on data completion across these 147 IDs. What is the current status of the 'physical/access' data entry for each? Specifically, I require a breakdown of the number of IDs with complete data, incomplete data, and data requiring verification. Are there obvious gaps in coverage across the seven natural regions?\n\n2.  **Civil/Ecology/Economy Layer (147 IDs + 44 Proposals):** The introduction of 44 new proposals – including the 36 sublocations – warrants a thorough initial screening. The potential impact on ecology and economic viability needs immediate scrutiny. I require a risk assessment on the proposed sites, especially considering the reported “seven natural regions”. What specific ecological factors and economic considerations are currently implicated within these proposals? \n\n3.  **Historical Memory Layer (147 IDs):** Chapter III and IV present conflicting narratives. The discrepancy regarding the Mire Hill summit and Obi mountain house necessitates clarification. We need to document the source and verification status of both accounts – the “Mire Hill summit unclaimed” versus \"Wilson standard lower, labor already repairs”. Determining the original source of the Obi mountain house’s architectural changes (stone original,",
+          "error": null
+        }
+      ],
+      "synthesis": "Okay, let's synthesize this initial assessment.\n\n**Overall Assessment:** The SCHEMIN Atlas data presents a high degree of complexity and potential risk. The sheer volume of information – 147 IDs, three depth layers, and 44 new site proposals – combined with identified data inconsistencies (Mire Hill, Obi Mountain House) creates significant operational and governance hurdles. The existing data layering, while conceptually sound, appears under-defined, leading to ambiguity and potential for conflicting interpretations. The 12-owner domain distribution, particularly the 3 sublocations per domain, introduces a system ripe for potential contention. Without robust oversight and clearly defined dependencies, the ATLAS risks becoming an unreliable source of truth.\n\n**Key Concerns & Prioritized Action Items (with Primary Director Responsibility):**\n\n1.  **Data Integrity & Inconsistency Resolution (The Umpire):** *Priority 1 - Immediate Action.* The discrepancies between the Mire Hill and Obi Mountain House records represent a critical immediate risk. The Umpire needs to commission a rapid investigation into the source of these discrepancies—a formal audit of the original documentation and any subsequent revisions—and establish a clear protocol for resolving conflicting information.  *Evidence Required:* Original source documentation for both locations, documentation of labor assignments, and a revised consensus narrative. \n\n2.  **Data Layering & Dependency Mapping (The Architect):** *Priority 2 - Medium Term Action.* The Architect must immediately initiate a review of the data models across the three depth layers. Specifically, they need to establish explicit, immutable invariants for data exchange and clearly define the granularity of information sharing.  A formal mapping exercise to visualize data dependencies and potential coupling points would be critical. *Evidence Required:*"
+    },
+    {
+      "id": "III_POSTSEASON_PRODUCTION_GATE",
+      "directors_requested": [
+        "the_umpire",
+        "the_librarian",
+        "the_beat_writer",
+        "the_closer"
+      ],
+      "elapsed_ms": 48720,
+      "responses": [
+        {
+          "director": "the_umpire",
+          "response": "Regarding the SCHEMIN 26: Playoff Island proposal, my assessment focuses on governance and policy enforcement.\n\nThe current state presents significant uncertainty. The reliance on a “fictional reconstruction” with a bracket result truth introduces a critical point of divergence from established evidence standards. Specifically, the declaration of “11 years of material evolution” requires verifiable documentation – what constitutes “evolution” and how is that measured?\n\nI require executable evidence demonstrating the methodology for reconstructing the 2015-25 history.  What specific data sources are being utilized, and what controls are in place to validate the reconstruction against the “bracket result truth”?\n\nFurthermore, the proposed sublocations – tidal gauge, quarry repair gallery, south rescue cache, upland rainwater – necessitate a review against our established domain-specific standards.  Approval of these additions requires demonstrated adherence to our evidence standards and compliance protocols, including clear definitions of data ownership and access controls.\n\nI will accept a minimum effective control: a documented process for validating the reconstructed timeline, coupled with a clear articulation of the criteria for approving the proposed sublocations.  I require a status update on the 147 dossiers and 44 new candidates, detailing the evidence supporting their inclusion and the controls in place to prevent false-completion.\n\nI recommend a hold pending receipt of this information.  The potential for misinterpretation and deviations from established procedures necessitates a cautious approach.\n",
+          "error": null
+        },
+        {
+          "director": "the_librarian",
+          "response": "Okay. Let’s assess the SCHEMIN 26: Playoff Island project context.\n\nMy initial assessment centers on the inherent complexity arising from a fictional reconstruction built upon a real-world bracket outcome. The longevity – 11 years of evolution and a projected ongoing timeline to 2026 – introduces significant challenges for maintaining verifiable provenance.\n\nSpecifically, I observe the following requiring immediate scrutiny:\n\n1.  **Canonical Knowledge & Source Tracking:** We have 147 dossiers and 44 new candidates. Without a rigorously enforced methodology for tracking the *origin* of this data—specifically, how each piece relates to the established 2015-25 historical narrative—the risk of undocumented divergence is high. The defined “permanent round arenas” versus “permanent Last Field” creates a potential for semantic drift, demanding clear demarcation and justification for any deviations.\n\n2.  **Data Freshness & Supersession:** The 11-year evolution suggests a potential for ‘staleness’. While the core bracket result remains a verifiable truth, the contextual information layered *around* that truth is subject to interpretation and potentially outdated. Documentation freshness is a key concern.\n\n3.  **Island Location Integrity:** The proposed new sublocations – tidal gauge, quarry repair gallery, etc. – require immediate evaluation for existing documentation or any previously identified historical artifacts that might be affected. The recommendation regarding the \"mainland connection and Farrell memorial chronology\" is a critical point for the Setup Man and the Commissioner General. Unapproved elements have the potential to dilute the established canon.\n\n4. **Uncertainty Regarding 2026:** The unknown state of matters after Week 14 necessitates a conservative approach.",
+          "error": null
+        },
+        {
+          "director": "the_beat_writer",
+          "response": "Okay. Let’s assess the core narrative coherence and clarity of this “SCHEMIN 26 PLAYOFF ISLAND” project.\n\n**Initial Assessment:** The foundation here is a complex, evolving reconstruction of a fictional history. The blend of bracket results (truthful data) with a generated island timeline creates inherent tension. The scale – 11 years of evolution, 56 traces, and the defined arena structures - suggests a significant investment of resources. However, the reported “hold/pass” recommendation and the request for hardening priorities indicate potential instability in the underlying narrative framework.\n\n**Key Concerns & Questions (Within My Domain):**\n\n1.  **Narrative Integrity:** The stated goal of \"truth-preserving\" is crucial. How rigorously is the fictional history being validated against the bracket data *throughout* this 11-year evolution? Are there documented processes for reconciling divergent timelines or introducing new fictional elements without compromising the core factual foundation of the bracket results? The risk here is a narrative drifting from verifiable truth, leaning into speculative interpretation.\n\n2.  **Dossier Review Quality:** A review of 147 dossiers and 44 new candidates demands careful scrutiny. My concern is the potential for confirmation bias. Are the dossiers truly evaluating the *narrative* implications of each addition – how it fits within the broader constructed history and impacts the established arenas – or are they solely focused on data accuracy?\n\n3.  **Arena Definition & Impact:** The permanent round arenas and the “Last Field” final structure are interesting. However, the description is vague regarding their *effect* on the narrative. Do the arena locations inherently influence the events of the timeline? If so, this needs explicit definition",
+          "error": null
+        },
+        {
+          "director": "the_closer",
+          "response": "Okay. Let’s frame this.\n\nMy assessment centers on the operational readiness of the SCHEMIN 26 *Playoff Island* project given the provided context. The core challenge is balancing the ambitious historical reconstruction with the inherent uncertainties surrounding a 11-year evolving simulation, particularly with an unknown outcome in 2026.\n\n**Key Observations & Uncertainty:**\n\n*   **Historical Reconstruction Risk:** The reliance on a fictional reconstruction of 2015-25 history introduces significant decision risk. While anchoring to the bracket result is a useful constraint, the interpretation and validation of the *historical* component are critical. The “permanent Last Field” and “permanent round arenas” create zones of particular sensitivity; deviations in those areas, particularly given the evolving simulation, could lead to substantial downstream inconsistencies.\n*   **Material Evolution & Data Volume:** 56 lasting traces and 11 years of material evolution imply a potentially very large and complex data set. The current state reporting of “147 dossiers and 44 new candidates” requires immediate scrutiny to determine the overall data governance posture. The existing technology exception – \"mainland connection and Farrell memorial chronology\" – needs rigorous review against established protocols.\n*   **2026 Uncertainty:** The lack of information beyond Week 14 in 2026 is a substantial constraint. This demands we prioritize decisions and investments now that mitigate against the greatest potential impact of that unknown factor.\n\n**Recommendation - Initial Action Required:**\n\nI recommend a cautious approach prioritizing a “hold” alongside immediate hardening of priorities. Specifically:\n\n1.  **Dossier Review (Priority 1):** Initiate a rapid assessment of the 14",
+          "error": null
+        }
+      ],
+      "synthesis": "Okay. Let’s synthesize.\n\nThe core tension here is a persistent divergence between a defined “truth” – the bracket result – and a process of constructing a historical narrative around it. The established Directors are rightly focusing on the potential for inconsistencies and a lack of robust governance around the evolving information set. The Librarian and Umpire’s concerns regarding provenance and control are particularly salient, and the Beat Writer's worries about narrative drift are a critical risk. The Scout’s existing focus on data quality should be expanded to explicitly include narrative coherence. \n\n**Current State Assessment:**\n\n*   **High Risk:** The project is operating with a high degree of uncertainty, compounded by the complexity of the fictional reconstruction. The 11-year evolution timeline and the unknown 2026 outcome significantly exacerbate the risk.\n*   **Process Lapses:** The current process lacks sufficient emphasis on validating the historical narrative against the core bracket truth. The “dossier review” needs a structured framework to ensure it isn't simply a confirmation exercise.\n*   **Domain Fragmentation:** There’s a risk of competing priorities emerging across domains – the Setup Man focused on runtime architecture, the GM on product strategy, and the Beat Writer on narrative clarity – without a clear overarching decision-routing mechanism.\n\n**Recommended Action - Immediate Steps:**\n\n1.  **Prioritize Narrative Validation Framework (Umpire & Beat Writer Collaboration - Priority 1):**  I propose an immediate mandate for developing a formalized process to validate the reconstructed history against the bracket result. This process *must* include clearly defined criteria for divergence and a documented mechanism for resolving conflicts. The Umpire will lead the governance framework, while the Beat Writer"
+    }
+  ],
+  "calls": [
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1150,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1500
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1152,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1502
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1157,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1507
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1145,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1495
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "board_synthesis",
+      "tokens": {
+        "prompt_tokens": 2586,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 2936
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1145,
+        "prompt_tokens_details": {
+          "cached_tokens": 644
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1495
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1140,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1490
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1150,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1500
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1126,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1476
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "board_synthesis",
+      "tokens": {
+        "prompt_tokens": 2576,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 2926
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1142,
+        "prompt_tokens_details": {
+          "cached_tokens": 639
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1492
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1135,
+        "prompt_tokens_details": {
+          "cached_tokens": 632
+        },
+        "completion_tokens": 290,
+        "total_tokens": 1425
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1148,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1498
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "director_consult",
+      "tokens": {
+        "prompt_tokens": 1128,
+        "prompt_tokens_details": {
+          "cached_tokens": 613
+        },
+        "completion_tokens": 350,
+        "total_tokens": 1478
+      },
+      "model": "gemma3:4b"
+    },
+    {
+      "purpose": "board_synthesis",
+      "tokens": {
+        "prompt_tokens": 2515,
+        "prompt_tokens_details": {
+          "cached_tokens": 635
+        },
+        "completion_tokens": 350,
+        "total_tokens": 2865
+      },
+      "model": "gemma3:4b"
+    }
+  ],
+  "review_caveats": [
+    "Real local Ollama model invocations through Bullpen ConsultEngine, using configured director personas. Not humans, not independent experts, not authenticated human approvals.",
+    "Director prompts were bounded source summaries, not a full semantic read of every 550KB dossier. Opinions are provisional hypotheses and may contain false positives.",
+    "Automated source-locked tests, manuscript evidence and Founder/Atlas/Umpire release governance have higher authority than any model response.",
+    "Inklings' Beat Writer persona contributed production lens, but a separate independently authorized full literary desk signoff is outstanding."
+  ]
+}
