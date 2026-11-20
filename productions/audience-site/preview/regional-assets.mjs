@@ -985,6 +985,37 @@ export function buildRegionalAssets(THREE, bindings, height) {
     wetlandFloatingFoliage(g);
     branch(g,[-5,.5,1],[0,.8,4],.32,trunk);
   }
+  function estateSculptedCourseGrass(index){
+    // The THREE existing Jackson course discs retain their elliptical outlines
+    // and positions. Only their interior gains bounded candidate turf relief.
+    // The Week 3 contamination/cleanup state is NOT resolved by this sculpt.
+    const segments=30,rings=7,pos=[0,0,0],uv=[.5,.5],indices=[];
+    for(let ring=1;ring<=rings;ring++){
+      const radius=ring/rings;
+      for(let k=0;k<segments;k++){
+        const angle=k*Math.PI*2/segments,x=radius*Math.cos(angle),y=radius*Math.sin(angle);
+        const hold=(1-radius*radius)*(1-radius*radius);
+        const z=(.028*Math.sin(x*2.9+index*.41)+.015*Math.cos(y*3.7-index*.59))*hold;
+        pos.push(x,y,z);
+        uv.push(.5+.5*x,.5+.5*y);
+      }
+    }
+    for(let k=0;k<segments;k++)indices.push(0,1+k,1+(k+1)%segments);
+    for(let ring=1;ring<rings;ring++)for(let k=0;k<segments;k++){
+      const next=(k+1)%segments;
+      const a=1+(ring-1)*segments+k,b=1+(ring-1)*segments+next;
+      const c=1+ring*segments+k,d=1+ring*segments+next;
+      indices.push(a,c,d,a,d,b);
+    }
+    const geometry=new THREE.BufferGeometry();
+    geometry.name='Candidate Jackson bounded golf-ground relief';
+    geometry.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
+    geometry.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
+    geometry.setIndex(indices);
+    geometry.computeVertexNormals();
+    geometry.computeBoundingSphere();
+    return geometry;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -995,7 +1026,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
     for(let x=-3;x<=3;x+=1.5){box(g,x,.85,2.12,.55,1.05,.04,glass);box(g,x-.38,.78,2.16,.12,1.23,.06,roof);box(g,x+.38,.78,2.16,.12,1.23,.06,roof);}
     box(g,0,.4,2.14,.9,1.9,.05,roof);for(let i=0;i<3;i++)box(g,0,-.05+i*.1,4.8-i*.34,3,.1,.4,edge);
     // Candidate course massing does not certify a pristine post-contamination state.
-    for(let i=0;i<3;i++){const o=mesh(g,new THREE.CircleGeometry(1,30),grass,-4+i*4,.02,7.5+(i%2));o.rotation.x=-Math.PI/2;o.scale.set(2.7,1.8,1);o.castShadow=false;}
+    for(let i=0;i<3;i++){
+      const o=mesh(g,estateSculptedCourseGrass(i),grass,-4+i*4,.02,7.5+(i%2));
+      o.name='Candidate Jackson sculpted course grass';
+      o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'golf grounds',
+        originalDiscRadius:1,originalSegments:30,originalGreenIndex:i,
+        navigable:false,routeIds:[],principalCharacters:[]};
+      o.rotation.x=-Math.PI/2;o.scale.set(2.7,1.8,1);o.castShadow=false;
+    }
     for(const[x,z]of[[-6,6],[3,9]]){const o=mesh(g,new THREE.CircleGeometry(1,20),sand,x,.03,z);o.rotation.x=-Math.PI/2;o.scale.set(1.3,.6,1);o.castShadow=false;}
     pool(g,'pond',7,.06,6,3.8,2.3,'#458f83');
     // Historical visual reference: Week 9 Country Club folios 05–08 show warm
