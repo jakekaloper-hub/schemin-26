@@ -1,0 +1,1210 @@
+{
+  "schema_version": "1.0",
+  "issued": "2026-11-20",
+  "title": "Schemin 26 All-Director Tim Veil Method-Lens Brainstorm",
+  "advisory_mode": "PUBLISHED_METHOD_LENS; no human consultation, no direct quotes or endorsement",
+  "consultation_plan": "18 separate modeled ConsultEngine sessions with questions grouped by canonical Director charter; answers remain advisory and not accepted engineering requirements.",
+  "evidence": [
+    "schemin-26 PR #343 architecture audit and 2,687-file/492-folder inventory",
+    "bullpen PR #161 private Staff dossier",
+    "bullpen docs/advisors/TIM_VEIL_ADVISORY_LENS_V1.md",
+    "bullpen research/advisors/TIM_VEIL_18_DIRECTOR_OPPORTUNITY_REVIEW_V1.md",
+    "schemin-26 world/evolution/engine/world_evolution.py",
+    "schemin-26 issue #332 integration gate"
+  ],
+  "directors": [
+    {
+      "director": "the_closer",
+      "count": 12,
+      "questions": [
+        {
+          "id": "CLOSER-Q01",
+          "text": "Which three modernization changes should outrank a World Engine version bump, and on what verifiable basis?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q02",
+          "text": "How would you separate tactical World Evolution repair from a multi-year Commonwealth simulation strategy?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q03",
+          "text": "Which architectural activities should be cancelled because they reproduce already active capabilities?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q04",
+          "text": "What measurable condition proves that the 20-domain audit improved actual weekly production?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q05",
+          "text": "Would you organize modernization by 18 Director departments, by cross-OS workflows, or by defect severity?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q06",
+          "text": "How should the Closer break conflicts between the World, Memo, Novel, and Character authorities?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q07",
+          "text": "Where should an independently challenged decision record live without creating another control plane?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q08",
+          "text": "How would you stage PR #343 against existing draft chains without broad-merge risk?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q09",
+          "text": "Which P0 blockers must close before the Commonwealth observer can be publicly promoted?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q10",
+          "text": "What is the minimum reversible pilot that would demonstrate a newer World Engine is justified?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q11",
+          "text": "How should the project decide to buy, build, or defer a capability under zero incremental spend?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLOSER-Q12",
+          "text": "Which evidence would make you recommend stopping this modernization and returning to content production?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_setup_man",
+      "count": 12,
+      "questions": [
+        {
+          "id": "SETUP-MAN-Q01",
+          "text": "How would you replace request-supplied release_verified booleans with actual immutable evidence checks?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q02",
+          "text": "Where should authenticated Umpire and Closer approvals be verified before an APPLY call?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q03",
+          "text": "How would you build an idempotent, crash-resumable World Evolution transaction?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q04",
+          "text": "Should weekly world updates be event-sourced, snapshot-driven, or use a hybrid, and why?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q05",
+          "text": "How should failed dependent Atlas/Memo/Novel rebuilds be rolled back or safely retried?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q06",
+          "text": "How do we prevent two simultaneous weekly transactions from writing contradictory world clocks?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q07",
+          "text": "What is the safest migration of PR #343 into current main amid unrelated stacked feature branches?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q08",
+          "text": "Which exact-head CI checks should become required GitHub ruleset gates?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q09",
+          "text": "How would you instrument real worker invocation receipts in Bullpen Runtime V1 without vendor lock-in?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q10",
+          "text": "Which disaster-recovery exercise should prove that published history survives a failed site deploy?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q11",
+          "text": "How do we validate browser 3D fallback without confusing Canvas compatibility with GPU acceptance?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SETUP-MAN-Q12",
+          "text": "What single operational runbook would let a new maintainer diagnose failed weekly world hydration?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_scout",
+      "count": 12,
+      "questions": [
+        {
+          "id": "SCOUT-Q01",
+          "text": "What source hierarchy should govern ESPN records, Flaim snapshots, FFHub scenarios, and narrative consequences?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q02",
+          "text": "How do we certify that a Week 4–11 world-event candidate comes from a genuinely released source?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q03",
+          "text": "Which schema would preserve source timestamp, observed timestamp, and model inference separately?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q04",
+          "text": "How should conflicting historical 2015–2025 owner/team-slot aliases be represented without fabrication?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q05",
+          "text": "What would you change in the Playoff Context walk-forward comparison after the observed model failure?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q06",
+          "text": "How can a confidence model distinguish measured forecast skill from descriptive scenario storytelling?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q07",
+          "text": "What synthetic test fixtures would expose wrong team, owner, season, and division joins?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q08",
+          "text": "How do we safely ingest 56 postseason head-to-head facts without adopting fictional scene beats as evidence?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q09",
+          "text": "What freshness service-level expectations are justified for the weekly Memo versus the static Atlas?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q10",
+          "text": "How should the new 44 Atlas candidate descriptions be checked against 23 active location anchors?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q11",
+          "text": "Which public benchmark patterns from Bloviate improve schema-aware fixture generation without code import?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-Q12",
+          "text": "What would make you refuse to certify a league-derived event despite a plausible visual story?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_umpire",
+      "count": 12,
+      "questions": [
+        {
+          "id": "UMPIRE-Q01",
+          "text": "Which tests must fail if a developer changes a release flag without supplying an authoritative receipt?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q02",
+          "text": "How should we prove an Umpire model response is separate from the producing worker?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q03",
+          "text": "How can approval authenticity be evaluated when the current engine only checks boolean fields?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q04",
+          "text": "What negative tests should block a candidate location from entering active geography prematurely?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q05",
+          "text": "How should the 492-folder triage be sampled for independent audit without claiming full testing?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q06",
+          "text": "What evidence would justify World Engine V1.2 as RELEASED rather than simply CANDIDATE?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q07",
+          "text": "Which gates should protect character reference identity, source bytes, and renderer subject binding?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q08",
+          "text": "How would you detect history laundering across fictional trial descriptions and ESPN outcomes?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q09",
+          "text": "What should happen when a PR is green but main branch remains unprotected or reviewerless?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q10",
+          "text": "Which adversarial test could uncover same-week contradictory state changes in World Evolution?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q11",
+          "text": "How would you isolate an external AI advisory hallucination before it reaches canonical docs?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "UMPIRE-Q12",
+          "text": "Which unreviewed assumption in our current PR #343 would you challenge first?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_beat_writer",
+      "count": 12,
+      "questions": [
+        {
+          "id": "BEAT-WRITER-Q01",
+          "text": "How should World Memory represent a location scar differently from a dramatic metaphor?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q02",
+          "text": "What evidence should connect the Week 2 official Memo to its immutable world consequences?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q03",
+          "text": "How would you reconcile the Living Novel's 12 POVs with newer Week 10/11 artwork without retroactive canon changes?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q04",
+          "text": "What narrative event taxonomy makes the weekly Chronicle useful to both novelist and Atlas renderer?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q05",
+          "text": "How should a neutral playoff location feel historically significant without asserting nonexistent real landmarks?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q06",
+          "text": "How would you preserve 2015–2025 match facts while varying 56 fictional arena scenes?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q07",
+          "text": "What tools should prove characters never teleport between separated encounters?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q08",
+          "text": "Which current prose continuity problems suggest the World Engine needs a better temporal query API?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q09",
+          "text": "How should a Story Production Graph verify causal dependencies before generating dramatic dialogue?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q10",
+          "text": "Where should quoted character dialogue end and narrator interpretation begin in a source-linked packet?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q11",
+          "text": "How can we make World Engine context artist-friendly without dumping unnecessary schema fields into prompts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BEAT-WRITER-Q12",
+          "text": "What should remain human-edited rather than automated in an epic long-form novel workflow?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_groundskeeper",
+      "count": 12,
+      "questions": [
+        {
+          "id": "GROUNDSKEEPER-Q01",
+          "text": "Which health metrics expose a stagnant Week 3 world state while weekly production advances?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q02",
+          "text": "What practical dashboard can surface 20 domains and 492 nested components without becoming unreadable?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q03",
+          "text": "How would you schedule dry-run audits without mutating canonical state or incurring new fees?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q04",
+          "text": "Which stage of the weekly workflow is the most useful failure-injection point?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q05",
+          "text": "How should failed Staff adapter calls be retried without declaring phantom work completed?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q06",
+          "text": "What can BenchBase-style repeatable workloads teach us about real system reliability tests?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q07",
+          "text": "How would you collect before-and-after runtime, recovery, and error metrics on the connected Mac?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q08",
+          "text": "Which paths should be cleaned up first: stale plans, retired aliases, or duplicate documentation?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q09",
+          "text": "What is the safest way to recover abandoned branches without discarding unmerged evidence?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q10",
+          "text": "How should a pipeline distinguish DEGRADED from BLOCKED, HELD, and NOT_APPLICABLE?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q11",
+          "text": "Which backups would protect approved character reference hashes and world ledgers?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GROUNDSKEEPER-Q12",
+          "text": "What operational proof should follow a site deployment before the incident is closed?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_gm",
+      "count": 12,
+      "questions": [
+        {
+          "id": "GM-Q01",
+          "text": "Which user-facing Commonwealth experience would make modernization worthwhile within this season?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q02",
+          "text": "Would you prioritize chronology, navigation, environment detail, or character interactivity first?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q03",
+          "text": "How should 23 active locations be distinguished visually from 147 proposed dossier records?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q04",
+          "text": "What minimum acceptance criteria should a new fan encounter in a location pass?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q05",
+          "text": "How should the site transition from the regular season to Playoff Island without spoiling results?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q06",
+          "text": "What is the best experience when WebGL2 or media assets are unavailable on a phone?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q07",
+          "text": "How could the Memo, Novel, and Observer share one audience entry point without merging authority?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q08",
+          "text": "Which visitor features would you deliberately omit to preserve read-only canonical safety?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q09",
+          "text": "What research would validate whether fans prefer cinematic episodes or explorable geography?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q10",
+          "text": "How should the publisher present speculative scenes versus verified historical match results?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q11",
+          "text": "What is the cleanest fallback when a player identity or location relationship remains unresolved?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "GM-Q12",
+          "text": "How should we measure whether this cross-OS work eliminates actual user friction?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_pitching_coach",
+      "count": 12,
+      "questions": [
+        {
+          "id": "PITCHING-COACH-Q01",
+          "text": "How should modeled Tim Veil advice be visibly distinguished from verified human consultation?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q02",
+          "text": "What independent model-worker receipts are needed before declaring that all 18 Directors consulted?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q03",
+          "text": "How can a single ConsultEngine call cover 12 questions while proving which questions were answered?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q04",
+          "text": "What model quality benchmark would be appropriate for 12 separate technical domains?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q05",
+          "text": "Should Staff capabilities be exposed through tools, adapters, or prompt-only workflows?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q06",
+          "text": "How would you keep one model from certifying its own narrative and engineering output?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q07",
+          "text": "What structured response schema makes recommendations testable and source-linked?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q08",
+          "text": "How should synthetic data enter Monte Carlo and World Evolution testing without poisoning real facts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q09",
+          "text": "What is the minimal locally runnable provider adapter that respects the no-extra-spend rule?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q10",
+          "text": "How can we compare Qwen, remote models, and deterministic validators fairly using fixed cases?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q11",
+          "text": "What should the workflow do when an advisor output is blank, malformed, or unsupported?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "PITCHING-COACH-Q12",
+          "text": "Which LLM tasks should be replaced outright by deterministic code?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_warden",
+      "count": 12,
+      "questions": [
+        {
+          "id": "WARDEN-Q01",
+          "text": "What are the highest-risk trust boundaries between GitHub, connected Mac, Ollama, and public observer?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q02",
+          "text": "How should the engine ensure model-generated approval strings never become authorized signoffs?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q03",
+          "text": "Which file-level license checks are required before copying code from Tim Veil repositories?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q04",
+          "text": "Should archived public repositories be excluded from production dependencies by default?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q05",
+          "text": "How would you protect Bullpen private Staff data while publishing public Schemin review evidence?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q06",
+          "text": "What secrets might leak through local model prompts, trace logs, or exported CI receipts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q07",
+          "text": "How should untrusted public repository README instructions be isolated from task authority?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q08",
+          "text": "Which branch permission changes should precede any merge of World Evolution code?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q09",
+          "text": "How would you implement revocable model/provider credentials with minimum access?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q10",
+          "text": "What threat scenarios exist for prompt injection in 18-Director question packets?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q11",
+          "text": "What protection should a read-only spectator site have against exposing unpublished artwork?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "WARDEN-Q12",
+          "text": "Which failure should trigger a security HOLD despite green unit tests?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_commissioner",
+      "count": 12,
+      "questions": [
+        {
+          "id": "COMMISSIONER-Q01",
+          "text": "How would a league Commissioner know that Memo results and fictional world events remain clearly separated?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q02",
+          "text": "Which source facts should appear next to playoff odds so fans can judge uncertainty?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q03",
+          "text": "What happens to standings, bracket, and world narratives when ESPN corrections arrive late?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q04",
+          "text": "Should a commissioner be able to override an event venue, and what approval receipt would be required?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q05",
+          "text": "How would you make weekly production reliable without asking the Founder to mediate internal Staff debates?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q06",
+          "text": "Which parts of a candidate Playoff Island can be previewed safely before full canon acceptance?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q07",
+          "text": "How should seven playoff qualifiers be distinguished from historical seasonal format changes?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q08",
+          "text": "What release artifact should prove a published Memo is identical to the final approved file?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q09",
+          "text": "How should franchise/team slots be displayed when human owner identity is unverified?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q10",
+          "text": "What reader-facing language would make one canon and many story perspectives understandable?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q11",
+          "text": "Which automated safeguards would have prevented a wrong-character or wrong-division Memo page?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-Q12",
+          "text": "What direct evidence would persuade the league to use the upgraded World Engine?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_analyst",
+      "count": 12,
+      "questions": [
+        {
+          "id": "ANALYST-Q01",
+          "text": "What numerical baseline should precede any claim that modernization improved quality?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q02",
+          "text": "How do we distinguish a 492-folder inventory from a verified 492-folder functional audit?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q03",
+          "text": "What acceptance sampling method would reveal high-risk untested leaf components?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q04",
+          "text": "How should a Monte Carlo model be evaluated when its walk-forward performance loses to baseline?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q05",
+          "text": "What scorecards could compare evidence integrity, render fidelity, and narrative usefulness?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q06",
+          "text": "Which minimum reproducible benchmark should measure World Evolution validation overhead?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q07",
+          "text": "How should uncertainty intervals be reported for playoff forecasts and simulation models?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q08",
+          "text": "What metrics would show that 18×12 modeled advisory questions led to implemented fixes?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q09",
+          "text": "How would you calculate false-approval and false-canon-promotion rates with adversarial fixtures?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q10",
+          "text": "Which data lineage metrics expose downstream rebuild drift between Memo, Novel, and Atlas?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q11",
+          "text": "How should we audit local-model claims against deterministic source checks?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ANALYST-Q12",
+          "text": "What stopping rule would prevent a 216-question summit from becoming unproductive overhead?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_librarian",
+      "count": 12,
+      "questions": [
+        {
+          "id": "LIBRARIAN-Q01",
+          "text": "Where should the one authoritative matrix of 20 domains and their subdirectory owners reside?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q02",
+          "text": "How should draft PR candidate content be indexed without being mistaken for merged main authority?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q03",
+          "text": "What version records need revision when World Engine V1.1 operates beneath Universe V1.2?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q04",
+          "text": "How can we trace every post-Week-3 world event back to a released source and file hash?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q05",
+          "text": "Which historical 2015–2025 identities must stay classified as franchise-slot rather than human-owner evidence?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q06",
+          "text": "How should the new 147 dossier descriptions be crosswalked against 23 active locations and 48 earlier candidates?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q07",
+          "text": "What source policy should govern the official Week 2 Memo versus later benchmark revisions?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q08",
+          "text": "How can outdated character canon language be found without deleting historical receipts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q09",
+          "text": "What are the minimum provenance fields for an imported public repository engineering pattern?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q10",
+          "text": "How would you store 216 advisory questions and responses without creating a second canon source?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q11",
+          "text": "Which orphaned documentation paths are worth preserving despite obsolete version labels?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "LIBRARIAN-Q12",
+          "text": "What retrieval test would prove the latest approved world state is not confused with a draft?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_agent",
+      "count": 12,
+      "questions": [
+        {
+          "id": "AGENT-Q01",
+          "text": "What can be publicly claimed about World Engine readiness without overstating its version?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q02",
+          "text": "How would you describe 23 active and 124 proposed sites without suggesting they are all visitable?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q03",
+          "text": "What demonstration would communicate the Commonwealth's persistent-world advantage to new readers?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q04",
+          "text": "How should a cinematic launch teaser distinguish produced footage from storyboard concepts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q05",
+          "text": "Which messages about Tim Veil must be prohibited absent documented human participation?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q06",
+          "text": "What proof should accompany a public claim of 18 Directors and 46 Staff capabilities?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q07",
+          "text": "How could a source-bound location page make the fictional Commonwealth accessible to fantasy fans?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q08",
+          "text": "Which content distribution formats would validate interest without a paid campaign?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q09",
+          "text": "What public artifact should show that a weekly storyline changed the world without spoiling the outcome?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q10",
+          "text": "How would you handle unreleased league characters and copyrighted reference imagery in promotion?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q11",
+          "text": "What user feedback should guide the visual direction before major renderer investment?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "AGENT-Q12",
+          "text": "Which marketing ideas would you reject as premature given current holds?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_bookkeeper",
+      "count": 12,
+      "questions": [
+        {
+          "id": "BOOKKEEPER-Q01",
+          "text": "What is the full operational cost of maintaining a live World Engine beyond a version upgrade?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q02",
+          "text": "Where are current unpriced model calls, CI minutes, and local compute costs hidden?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q03",
+          "text": "How should a zero-incremental-spend constraint shape the build-versus-buy decision?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q04",
+          "text": "Which production change offers the largest value per engineering hour?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q05",
+          "text": "How could a deterministic world-event replay reduce the cost of regenerating artwork?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q06",
+          "text": "Which public dependency additions would create hidden hosting or maintenance obligations?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q07",
+          "text": "How should we budget QA effort across 213 P0-triaged directories without assuming all are defects?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q08",
+          "text": "What is the least expensive way to test 18 Director question sessions with genuine receipts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q09",
+          "text": "How should hardware acceleration and GPU browser verification be costed before adoption?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q10",
+          "text": "Should archived data and media assets have retention tiers, and with what loss-risk checks?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q11",
+          "text": "Which experiment should be cancelled if its quality gain cannot be measured?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "BOOKKEEPER-Q12",
+          "text": "What cost evidence should be required before approving any vendor-based cinematic pipeline?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_commissioner_general",
+      "count": 12,
+      "questions": [
+        {
+          "id": "COMMISSIONER-GENERAL-Q01",
+          "text": "Which MIT or Apache license conditions matter if we borrow a source-code snippet instead of studying patterns?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q02",
+          "text": "How do fork attribution duties differ for BenchBase versus upstream CMU-DB work?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q03",
+          "text": "What rights problems arise from archived repositories with missing root LICENSE files?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q04",
+          "text": "How should a modeled named consultant be disclosed to prevent implied personal endorsement?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q05",
+          "text": "What permissions would be needed before contacting Tim Veil directly with project materials?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q06",
+          "text": "How should fictional representations of real league members be governed in shared media?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q07",
+          "text": "What publication rights should attach to soundtrack, logos, and external visual source assets?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q08",
+          "text": "How should unpublished private artwork remain separated from public site and CI artifacts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q09",
+          "text": "What legal and governance boundaries constrain scraping fantasy provider or social data?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q10",
+          "text": "How should model outputs be documented as analysis rather than expert quotations?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q11",
+          "text": "What third-party package inventory should accompany any imported donor code?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "COMMISSIONER-GENERAL-Q12",
+          "text": "Which licensing or privacy hold should block a proposed integration immediately?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_clubhouse_manager",
+      "count": 12,
+      "questions": [
+        {
+          "id": "CLUBHOUSE-MANAGER-Q01",
+          "text": "How would you objectively reassess the 15 CORE_PORTABLE Staff before assigning them new duties?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q02",
+          "text": "Which of 24 PROJECT_ADAPTER Staff are relevant to Schemin and which should remain dormant?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q03",
+          "text": "How do we avoid reviving the six MERGE_CANDIDATE Staff as duplicate autonomous agents?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q04",
+          "text": "Should the single REFERENCE_ONLY CultureAuditStaff be activated, or preserved only as doctrine?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q05",
+          "text": "What exactly would a Phase Two Staff maturity tier mean under Host→Director→Staff?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q06",
+          "text": "Which role-specific tests establish that a Staff member can work across projects safely?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q07",
+          "text": "How would you document training data, source authority, scope and forbidden actions for each Staff?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q08",
+          "text": "What behavior indicates a Director is delegating beyond its authorized domain?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q09",
+          "text": "How should future source drift invalidate a Staff capability passport?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q10",
+          "text": "How can 18 Directors debate in parallel without presenting synthetic consensus as independent experts?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q11",
+          "text": "What minimum proof permits a Staff promotion from shadow to active execution?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "CLUBHOUSE-MANAGER-Q12",
+          "text": "Which staff responsibilities should be merged to simplify the operating roster?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_scout_master",
+      "count": 12,
+      "questions": [
+        {
+          "id": "SCOUT-MASTER-Q01",
+          "text": "Which technical capability is most likely to create a sustainable partner use case rather than just a demo?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q02",
+          "text": "What would we show a potential league commissioner to prove the product solves a real workflow?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q03",
+          "text": "How would you evaluate free open-source donor projects without implying affiliation or partnership?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q04",
+          "text": "Which evidence should qualify a project for broader rollout to other fantasy leagues?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q05",
+          "text": "What interoperability choices could lower adoption friction for ESPN, Sleeper, or Yahoo users?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q06",
+          "text": "Would a reusable world-memory API or an interactive cinematic viewer have a clearer business opportunity?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q07",
+          "text": "How should pricing or usage ideas be evaluated before any paid infrastructure is introduced?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q08",
+          "text": "What would an early adopter pilot measure besides subjective visual excitement?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q09",
+          "text": "How do we prevent unverified technical claims from entering external proposals?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q10",
+          "text": "How should external reviewer feedback be recorded without turning it into canon approval?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q11",
+          "text": "What technical demonstrations would justify a partnership conversation with a development studio?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "SCOUT-MASTER-Q12",
+          "text": "Which commercialization route should be deferred until rights, QA, and world continuity are stable?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    },
+    {
+      "director": "the_architect",
+      "count": 12,
+      "questions": [
+        {
+          "id": "ARCHITECT-Q01",
+          "text": "Should World Engine V1.2 introduce a typed temporal query facade or revise V1.1 in place?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q02",
+          "text": "What invariant should prevent live world state from rolling backward while allowing legitimate historical corrections?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q03",
+          "text": "Would an append-only event ledger plus materialized views better support 2015–2026 continuity?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q04",
+          "text": "How would you version source world packets consumed by Memo, Novel, Observer, and Playoff Island?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q05",
+          "text": "Where do World Engine, Universe OS, Atlas V2, and Location Control Plane boundaries currently overlap?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q06",
+          "text": "What minimum transaction API should replace unsafe request-supplied release and approval flags?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q07",
+          "text": "How do you guarantee one canonical location ID across 23 active sites and draft expansion nodes?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q08",
+          "text": "How should proposed offshore Last Field supersession be staged without relocating existing canon?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q09",
+          "text": "What dependency graph should drive deterministic fanout rebuilds and stale-artifact detection?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q10",
+          "text": "How can we compare WebGL2 and Canvas fallback outputs for real audience quality?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q11",
+          "text": "What acceptance framework would justify importing any Tim Veil engineering pattern into Schemin?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        },
+        {
+          "id": "ARCHITECT-Q12",
+          "text": "Which architectural seams should be simplified before adding new agents, frameworks, or simulation engines?",
+          "status": "QUESTION_AUTHORED_NOT_HUMAN_ASKED"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "directors": 18,
+    "questions_per_director": 12,
+    "total": 216
+  }
+}
