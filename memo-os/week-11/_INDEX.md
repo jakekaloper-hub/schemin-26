@@ -37,6 +37,13 @@
 - **Pittsy coverage:** Chins–Mud Dogs is `HOUSE_BOARD_STATUS_UNSPECIFIED`, not off-board or posted; do not infer a sixth official line.
 - **Promotion:** early Story Room evidence checks PASS; original literal text, independent Steward/Umpire, Nov18 FFHub, Duckhook venue, Pittsy/Playoff Island Atlas and post-MNF final publication gates remain **HOLD**.
 
+## Bullpen production and Inklings source recovery — November 20
+- [November 18 TheFFHub recovered source receipt](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md) — 12 team baselines and Week11 win/loss hypotheses match source; five original JSON files retained privately under [Bullpen PR #158](https://github.com/jakekaloper-hub/bullpen/pull/158). This supersedes the earlier Nov18 **source missing** status but not model calibration, independent review, or post-MNF refresh.
+- Actual Bullpen existing ConsultEngine invoked seven model-Director roles and a bounded Inklings craft workshop. The original, explicitly **non-human** output and source-adjudication (including rejected hallucinations) are retained in the protected Bullpen PR #158; [current source/review briefing](BULLPEN_PRODUCTION_INKLINGS_BLOCKER_REVIEW_2026-11-20.md).
+- Postseason Island source exists in [proposal PR #322](https://github.com/jakekaloper-hub/schemin-26/pull/322) and Atlas expansions [#324](https://github.com/jakekaloper-hub/schemin-26/pull/324) / [#325](https://github.com/jakekaloper-hub/schemin-26/pull/325). DRAFT, no actual Week11 island arrival, new LOC promotion or horizon-visibility proof.
+- Existing Pittsy's Book Week4 Founder source requires TDS Waterfall home, but Central Basin World Engine still conflicts; route the canonical map changes through active Atlas summit [#327](https://github.com/jakekaloper-hub/schemin-26/issues/327), never edit only a derived map card.
+- Duckhook alternative venue: [proposed Groundskeepers' Lodge](https://github.com/jakekaloper-hub/schemin-26/blob/feat/atlas-three-layer-147-sites-20261120/planning/atlas-expansion/ATLAS_EXPANSION_44_CANDIDATES_V1.json) is new *unapproved* candidate under established Jackson parent, **not** a historically verified 11-year-old location. Use the established clubhouse/terrace for interim staging without repeating Week10 dining hall or inventing a new building.
+
 ## Next uncompleted workflow
 Append Sunday November 22 dated scoring updates; recompute only evidence-dependent story candidates. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
 
