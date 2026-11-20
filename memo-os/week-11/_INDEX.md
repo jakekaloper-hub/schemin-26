@@ -5,6 +5,14 @@
 **Opened:** 2026-11-20  
 **Home:** Existing draft PR #313, branch memo-v52rc-20261115-intake; no independent memo release or OS promotion.
 
+## CURRENT RESUME — Bullpen source recovery and production blocker closeout
+- **Read first:** [Bullpen blocker-resolution closeout](BULLPEN_BLOCKER_RESOLUTION_CLOSEOUT_2026-11-20.md) and [modeled production/Inklings source-adjudication](BULLPEN_PRODUCTION_INKLINGS_BLOCKER_REVIEW_2026-11-20.md). These supersede the earlier Nov18 source-unavailable and uninvolved Bullpen assumptions; the historic dated audits remain accurate as of their original run and unedited.
+- **November18 source recovered:** [12-team FFHub conditional evidence](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md), exact five raw JSON files/hashes and seven-role modeled Bullpen/Inklings review in protected draft [Bullpen PR #158](https://github.com/jakekaloper-hub/bullpen/pull/158). Dated UI-capture source integrity passes; not vendor calibration or independent acceptance. Private PR general verify workflow remains failed before reported job steps.
+- **After source recovery:** `validate_creative_intake.py` now checks dated Nov18 values (34/34 locally passed); `test_validate_creative_intake.py` includes new negative mutation for fabricated Nov18 odds (9/9 locally passed). The old 33/33 and Nov18 NOT_REVERIFIED markers refer to earlier checkpoints.
+- **Location owner:** Pittsy physical Book source conflict is explicitly assigned to existing Atlas summit [#327](https://github.com/jakekaloper-hub/schemin-26/issues/327) and [PR #324](https://github.com/jakekaloper-hub/schemin-26/pull/324) with full World-source migration test contract; no silent old Book geography promotion.
+- **Playoff Island:** existing draft [PR #322](https://github.com/jakekaloper-hub/schemin-26/pull/322) and expanded Atlas [#324](https://github.com/jakekaloper-hub/schemin-26/pull/324)/[#325](https://github.com/jakekaloper-hub/schemin-26/pull/325) control prospective infrastructure, not a live pre-Week15 site.
+- **Status:** `EARLY_STORY_ROOM_SOURCE_DISCOVERY_PASS / ORIGINAL_MODEL_INDEPENDENCE_HOLD / WORLD_CANON_HOLD / FUTURE_ESPN_FINAL_PENDING / NO_PAGE_OR_RELEASE_LOCK`.
+
 ## Open the latest dated receipt
 - [Thursday opening-cycle intake](THURSDAY_OPENING_INTAKE_2026-11-20.md) — source-qualified NFL Week 11 schedule, Thursday final, six ESPN partial pairings, started/benched player distinction, standings context, story leads and next-gate plan.
 - [PR #313](https://github.com/jakekaloper-hub/schemin-26/pull/313) — existing typed data intake, transaction lineage, governance HOLD; use its dated November 20 normalized data, not earlier 0–0 records.
