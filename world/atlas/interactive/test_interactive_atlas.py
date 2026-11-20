@@ -17,9 +17,30 @@ class Phase4Tests(unittest.TestCase):
   self.assertEqual(len(self.load("world/data/locations.json")["locations"]),23)
   self.assertEqual(len(self.load("world/data/routes.json")["routes"]),18)
   editorial=self.load("world/data/atlas_location_candidates.json")["candidates"]
-  legacy=[x for x in editorial if "Founder location-expansion directive 2026-11-20" not in x.get("source_provenance",[])]
+  frozen=self.load("world/atlas/interactive/FROZEN_EDITORIAL_CANDIDATE_IDS_V1.json")["candidate_ids"]
+  legacy=m.select_frozen_candidates(editorial,frozen)
+  self.assertEqual(len(frozen),len(legacy))
   self.assertEqual(len(legacy),48)
   self.assertGreaterEqual(len(editorial),len(legacy))
+  self.assertEqual([x["id"] for x in legacy],frozen)
+ def test_untrusted_new_candidate_with_forged_legacy_provenance_is_not_displayed(self):
+  editorial=self.load("world/data/atlas_location_candidates.json")["candidates"]
+  frozen=self.load("world/atlas/interactive/FROZEN_EDITORIAL_CANDIDATE_IDS_V1.json")["candidate_ids"]
+  forged={"id":"CAND-FORGED-POSTSEASON-LOCATION","working_name":"Unapproved venue","source_provenance":[]}
+  limited=m.select_frozen_candidates(editorial+[forged],frozen)
+  self.assertEqual([x["id"] for x in limited],frozen)
+  self.assertNotIn(forged["id"],[x["id"] for x in limited])
+
+ def test_phase4_allowlist_fail_closed_on_missing_or_duplicate_id(self):
+  editorial=self.load("world/data/atlas_location_candidates.json")["candidates"]
+  frozen=self.load("world/atlas/interactive/FROZEN_EDITORIAL_CANDIDATE_IDS_V1.json")["candidate_ids"]
+  with self.assertRaisesRegex(ValueError,"snapshot"):
+   m.select_frozen_candidates(editorial,frozen[:-1]+[frozen[0]])
+  with self.assertRaisesRegex(ValueError,"missing"):
+   m.select_frozen_candidates(editorial[:-1],frozen)
+  with self.assertRaisesRegex(ValueError,"Duplicate"):
+   m.select_frozen_candidates(editorial+[editorial[0]],frozen)
+
  def test_unapproved_expansion_is_excluded_from_existing_atlas_snapshot(self):
   current=OUT.read_text()
   self.assertNotIn("CAND-PLAYOFF-ISLAND-OUTER-LANDING",current)
