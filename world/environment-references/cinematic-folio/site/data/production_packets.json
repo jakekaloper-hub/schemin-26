@@ -1,0 +1,2416 @@
+{
+  "governance": {
+    "candidate_paths_are_NOT_existing_assets": true,
+    "cinematic_approval_count": 0,
+    "generative_prompts_included": false,
+    "output_is_image": false,
+    "state_is_review_only": true
+  },
+  "historical_event_candidates": [
+    {
+      "asset_uri": null,
+      "classification": "NARRATIVE_INTERPRETATION",
+      "continuity_out": [
+        "intrusion/destruction history",
+        "future reuse may show repair or scars"
+      ],
+      "evidence_path": "world/data/world_state_events.json",
+      "render_permitted": false,
+      "review_status": "SOURCE_EVIDENCE_ONLY",
+      "source_event_id": "EVT-W2-LLC-INTRUSION",
+      "source_location_id": "LOC-LLC-BOARDROOM",
+      "source_week": 2
+    },
+    {
+      "asset_uri": null,
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "remembered decision landmark",
+        "no physical destruction required"
+      ],
+      "evidence_path": "world/data/world_state_events.json",
+      "render_permitted": false,
+      "review_status": "SOURCE_EVIDENCE_ONLY",
+      "source_event_id": "EVT-W3-BRIDGE",
+      "source_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "source_week": 3
+    },
+    {
+      "asset_uri": null,
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "scarred hill",
+        "yield memory",
+        "discarded standards/debris may persist until cleanup"
+      ],
+      "evidence_path": "world/data/world_state_events.json",
+      "render_permitted": false,
+      "review_status": "SOURCE_EVIDENCE_ONLY",
+      "source_event_id": "EVT-W3-MIRE-HILL",
+      "source_location_id": "LOC-DK-MUD-HILL",
+      "source_week": 3
+    },
+    {
+      "asset_uri": null,
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "chili contamination/humiliation history",
+        "cleanup required before pristine reset"
+      ],
+      "evidence_path": "world/data/world_state_events.json",
+      "render_permitted": false,
+      "review_status": "SOURCE_EVIDENCE_ONLY",
+      "source_event_id": "EVT-W3-COUNTRY-CLUB-CHILI",
+      "source_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "source_week": 3
+    },
+    {
+      "asset_uri": null,
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "wager/summit receipt landmark"
+      ],
+      "evidence_path": "world/data/world_state_events.json",
+      "render_permitted": false,
+      "review_status": "SOURCE_EVIDENCE_ONLY",
+      "source_event_id": "EVT-W3-ALPINE-WAGER",
+      "source_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "source_week": 3
+    },
+    {
+      "asset_uri": null,
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "HMB/Chins survival-race history"
+      ],
+      "evidence_path": "world/data/world_state_events.json",
+      "render_permitted": false,
+      "review_status": "SOURCE_EVIDENCE_ONLY",
+      "source_event_id": "EVT-W3-SPEEDWAY",
+      "source_location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "source_week": 3
+    },
+    {
+      "asset_uri": null,
+      "classification": "WORLD_CANON",
+      "continuity_out": [
+        "major weather event remembered",
+        "storm-protection works become continuity object"
+      ],
+      "evidence_path": "world/data/world_state_events.json",
+      "render_permitted": false,
+      "review_status": "SOURCE_EVIDENCE_ONLY",
+      "source_event_id": "EVT-W3-LLC-STORM",
+      "source_location_id": "LOC-LLC-STORM-CITY",
+      "source_week": 3
+    }
+  ],
+  "island": {
+    "authority": "UNMERGED_PR_322_PROPOSAL",
+    "main_world_mutated": false,
+    "next_gate": "POSTSEASON_ATLAS_SUPERSESSION_AND_SURVEY_REVIEW",
+    "node_ids": [
+      "MAINLAND_PUBLIC_LITTORAL",
+      "CAUSEWAY_OUTER_GATE",
+      "CAUSEWAY_RIDGE",
+      "ISLAND_ENTRY_CHECK",
+      "HARBOR_RELIEF",
+      "BROADCAST_HQ",
+      "TAILGATE_COMMONS",
+      "LOSERS_BEACH",
+      "BEACH_PAVILIONS",
+      "IRON_QUARRY",
+      "SALTWIND_STEPS",
+      "BREAKWATER_GROUNDS",
+      "CONTENDER_FORTRESS",
+      "BYE_HOUSE",
+      "CROWN_STAIR",
+      "GROVE_STANDARDS",
+      "CHAMPIONS_WALK",
+      "FARRELL_SANCTUARY",
+      "MUSEUM_TROPHY_HALL",
+      "LAST_FIELD",
+      "LAST_FIELD_SUITES",
+      "UTILITY_PLANT",
+      "EMERGENCY_PIER"
+    ],
+    "render_permitted": false,
+    "source_commit": "b32ecbc46e82133f7197fc8802a85e6b59abc44a",
+    "unresolved": "Previous Central Basin championship candidate vs proposed Inner Sea offshore Last Field; mainland causeway anchor unselected.",
+    "venue_ids": [
+      "CAND-POST-LAST-FIELD",
+      "CAND-POST-OLD-RING",
+      "CAND-POST-IRON-QUARRY",
+      "CAND-POST-VETERANS-YARD",
+      "CAND-POST-SALTWIND",
+      "CAND-POST-BREAKWATER",
+      "CAND-POST-CROWN-STAIR",
+      "CAND-POST-GROVE",
+      "CAND-POST-CAUSEWAY"
+    ]
+  },
+  "location_packet_count": 23,
+  "locations": [
+    {
+      "access_route_ids": [
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "seasonal rain"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-BURGERS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-JAKE-KALOPER",
+      "home_team": "ObiWan Jacoby",
+      "landmarks": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "movement": [
+        "horse roads",
+        "ridge routes",
+        "market-town connectors"
+      ],
+      "name": "Trade Jedi Mountain Base",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-TRADE-JEDI-MOUNTAIN-BASE::ESTABLISHING",
+      "physical_terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-UPPER-VALLEYS",
+      "related_route_ids": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "c06bebacc988d9774a9379590bfb36403eef33a5088ed8324e3d3c8226cdf310",
+      "source_location_card": "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "385bc318d1dbdac94fc9adc17499fa8abee1e577bf03964dba61101132116ac4",
+      "structural_reference_uri": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "snow",
+            "ice",
+            "pass closure"
+          ],
+          "id": "WX-NORTHERN-WINTER",
+          "role": "PROPAGATION_ZONE",
+          "rule": "elevation controls severity"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "warm",
+        "humid",
+        "seasonal flooding"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-BURGERS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-BOBBY-MITCHELL",
+      "home_team": "Mud Dogs",
+      "landmarks": [
+        "mud channels",
+        "raised ground"
+      ],
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "movement": [
+        "boats",
+        "causeways",
+        "raised roads",
+        "specialized wetland travel"
+      ],
+      "name": "Mud Dogs Swamp",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-MUD-DOGS-SWAMP::ESTABLISHING",
+      "physical_terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "related_route_ids": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-FALLS-PATH"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "84fecfef374f34005beda99ff294fe8ad6d898c186fc689db043e862e14ee4cc",
+      "source_location_card": "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "bb4f660226bb7ff18041baa9a14923f89204c3becca4b8c4c5b5c70935a34fdf",
+      "structural_reference_uri": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "warm",
+        "humid",
+        "seasonal flooding"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [
+        "Week 3 chili contamination/humiliation history",
+        "cleanup status unresolved"
+      ],
+      "division_overlays": [
+        "DIV-WINGS"
+      ],
+      "historical_event_ids": [
+        "EVT-W3-COUNTRY-CLUB-CHILI"
+      ],
+      "home_character_id": "CHAR-ZACH-WILSON",
+      "home_team": "Dr. Duckhook",
+      "landmarks": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "movement": [
+        "boats",
+        "causeways",
+        "raised roads",
+        "specialized wetland travel"
+      ],
+      "name": "Country Club of Jackson",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-COUNTRY-CLUB-JACKSON::ESTABLISHING",
+      "physical_terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "related_route_ids": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "5d683e52d8a7844d8fecbb61a6d01b2fc80668183abdf8bbe2588d43f78b7c92",
+      "source_location_card": "world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "ccad42b60c523a9a50c4f86082e9afcbf80c342cfdf4e53c5e7c8f87bca6b251",
+      "structural_reference_uri": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "seasonal rain"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-BURGERS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "barber chair",
+        "Arsenal-red owner history"
+      ],
+      "location_id": "LOC-ARSENAL-BARBERSHOP",
+      "movement": [
+        "horse roads",
+        "ridge routes",
+        "market-town connectors"
+      ],
+      "name": "Arsenal Barbershop",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-ARSENAL-BARBERSHOP::ESTABLISHING",
+      "physical_terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-UPPER-VALLEYS",
+      "related_route_ids": [
+        "ROUTE-HEARTHROAD",
+        "ROUTE-NORTHERN-PASS",
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "acbba5d33339b1e90cf55cfc7085a619eb99179cfb74c7fd42614efe21e9d4b3",
+      "source_location_card": "world/location-control-plane/locations/LOC-ARSENAL-BARBERSHOP/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "af8044814302f72c6b1f7c3988e108c702dc201d423aee27485ddbb897336fd0",
+      "structural_reference_uri": "world/environment-references/plates/LOC-ARSENAL-BARBERSHOP/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "snow",
+            "ice",
+            "pass closure"
+          ],
+          "id": "WX-NORTHERN-WINTER",
+          "role": "PROPAGATION_ZONE",
+          "rule": "elevation controls severity"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-STORM-COAST"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "wet",
+        "violent coastal storms",
+        "high rainfall"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-PIZZA"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-MANNING-WELTY",
+      "home_team": "El Niño",
+      "landmarks": [
+        "weather-exposed venue",
+        "service counter"
+      ],
+      "location_id": "LOC-STORM-BOWL",
+      "movement": [
+        "forest roads",
+        "coastal navigation",
+        "weather disruption"
+      ],
+      "name": "Storm Bowl",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-STORM-BOWL::ESTABLISHING",
+      "physical_terrain": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "related_route_ids": [
+        "ROUTE-STORM-COAST"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "50ca9b021dc0c0e5bc3e9855cc30a596fb8e1d62ae1304d94c9af0cdb0c97a72",
+      "source_location_card": "world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "8b05c5586d6de09759db9cb9d1d5a9d250106d2f358f26c39c1cb491cae91c92",
+      "structural_reference_uri": "world/environment-references/plates/LOC-STORM-BOWL/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "SOURCE_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "maritime",
+        "warm",
+        "storm spillover"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [
+        "Week 2 intrusion/destruction history retained",
+        "repair state not fully specified"
+      ],
+      "division_overlays": [
+        "DIV-PIZZA"
+      ],
+      "historical_event_ids": [
+        "EVT-W2-LLC-INTRUSION"
+      ],
+      "home_character_id": "CHAR-DAVID-BABB",
+      "home_team": "The LLC",
+      "landmarks": [
+        "executive chamber",
+        "ledgers",
+        "market overlook"
+      ],
+      "location_id": "LOC-LLC-BOARDROOM",
+      "movement": [
+        "sea lanes",
+        "port roads",
+        "coastal trade"
+      ],
+      "name": "LLC Mercantile Boardroom",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-LLC-BOARDROOM::ESTABLISHING",
+      "physical_terrain": [
+        "warm ports",
+        "islands",
+        "sheltered bays",
+        "coastal terraces"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-INNER-SEA-LITTORAL",
+      "related_route_ids": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "7bbe51cbe2ec522ec6507633f9e67e9b3294888c579c5a80d542d520de25928f",
+      "source_location_card": "world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "f43c6fc9a05f4e209f4c19b8f984ab1c4c798297e67543c0cc79adb323e1a449",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "SOURCE_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "PROPAGATION_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "wet",
+        "violent coastal storms",
+        "high rainfall"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-WINGS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-KEVIN-ZEEK",
+      "home_team": "Red Leopards",
+      "landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "location_id": "LOC-RED-RUINS",
+      "movement": [
+        "forest roads",
+        "coastal navigation",
+        "weather disruption"
+      ],
+      "name": "Red Leopard Ruins",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-RED-RUINS::ESTABLISHING",
+      "physical_terrain": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "related_route_ids": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "7b74097630d015ee780782bcce2002db34940e528809113e0df4c357cbbd1284",
+      "source_location_card": "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "2597395da72a87952e9ec00a7495137b0d1a91c6fa868a074908f793d067968e",
+      "structural_reference_uri": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "SOURCE_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-FALLS-PATH"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "warm",
+        "humid",
+        "seasonal flooding"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-BURGERS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-PHILLIP-PITTS",
+      "home_team": "Three Dreaded Snake",
+      "landmarks": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "movement": [
+        "boats",
+        "causeways",
+        "raised roads",
+        "specialized wetland travel"
+      ],
+      "name": "Podium Shadow Waterfall Temple",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-TDS-WATERFALL-TEMPLE::ESTABLISHING",
+      "physical_terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "related_route_ids": [
+        "ROUTE-FALLS-PATH",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "603f71b6f022b6fc89e2b8998adbf0791b7117066a9a4bc6790a499f04f81c10",
+      "source_location_card": "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "e28e517f4568e94f522fa49832fcc95d097e8a976916b9a8adbf678e8e92fb0f",
+      "structural_reference_uri": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-WESTERN-RANGE"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "drier",
+        "rain-shadow influence",
+        "large temperature swings"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-WINGS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-BRANDON-PRYOR",
+      "home_team": "Chili Cheesers",
+      "landmarks": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure"
+      ],
+      "location_id": "LOC-CHILI-STABLE",
+      "movement": [
+        "long overland routes",
+        "mounted travel",
+        "dispersed settlements"
+      ],
+      "name": "Chili Outlaw Stable",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-CHILI-STABLE::ESTABLISHING",
+      "physical_terrain": [
+        "open grassland",
+        "broken stone ridges",
+        "dry frontier"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-WESTERN-TABLELANDS",
+      "related_route_ids": [
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "467ddddd030b46fd751ab180d0409efe235d1ab83a0edc8c7a8c8d23cd76700c",
+      "source_location_card": "world/location-control-plane/locations/LOC-CHILI-STABLE/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "78c12f377fcce3ea28a8fab1ee9c6551de144cd13ef1ec34ca17f0c4e36083ad",
+      "structural_reference_uri": "world/environment-references/plates/LOC-CHILI-STABLE/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "dust",
+            "heat",
+            "water scarcity"
+          ],
+          "id": "WX-WESTERN-DRY",
+          "role": "SOURCE_ZONE",
+          "rule": "rain-shadow tendency, not permanent drought"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "wet",
+        "violent coastal storms",
+        "high rainfall"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-PIZZA"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-AUSTIN-BYARS",
+      "home_team": "His Majesty's Blood",
+      "landmarks": [
+        "dark keep",
+        "championship hall"
+      ],
+      "location_id": "LOC-BELT-KEEPER-KEEP",
+      "movement": [
+        "forest roads",
+        "coastal navigation",
+        "weather disruption"
+      ],
+      "name": "Belt Keeper Rune Keep",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-BELT-KEEPER-KEEP::ESTABLISHING",
+      "physical_terrain": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "related_route_ids": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "397f7dc00df9b9b21eed0d2a784f69f0a70171ee66959c8b53edb8eef916792f",
+      "source_location_card": "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "326f4bfe719642c75d7462d8a1edfff2606a37197a00bb735f06721424b21edf",
+      "structural_reference_uri": "world/environment-references/plates/LOC-BELT-KEEPER-KEEP/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "SOURCE_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "seasonal rain"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-WINGS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "home_team": "Slob on my Dobb",
+      "landmarks": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "movement": [
+        "horse roads",
+        "ridge routes",
+        "market-town connectors"
+      ],
+      "name": "Slob Foothill Camp",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-SLOB-FOOTHILL-CAMP::ESTABLISHING",
+      "physical_terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-UPPER-VALLEYS",
+      "related_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "82c5b8b37768bf1267a2b809f012df83ec3386396563a84cfbb74aa5bbf984fe",
+      "source_location_card": "world/location-control-plane/locations/LOC-SLOB-FOOTHILL-CAMP/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "3f77ac19bc501153f60f02ce77624d1a33bc1a1d4a36f924857c93ec37ea491c",
+      "structural_reference_uri": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "snow",
+            "ice",
+            "pass closure"
+          ],
+          "id": "WX-NORTHERN-WINTER",
+          "role": "PROPAGATION_ZONE",
+          "rule": "elevation controls severity"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-PIZZA"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-BEN-WHIPPLE",
+      "home_team": "Seven Deadly Chins",
+      "landmarks": [
+        "roadside hall",
+        "BBQ yard",
+        "caravan court"
+      ],
+      "location_id": "LOC-CHINS-ROAD-COMMONS",
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "People's Champ Road Commons",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-CHINS-ROAD-COMMONS::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-CENTRAL-BASIN",
+      "related_route_ids": [
+        "ROUTE-JACKSON-LEVEE",
+        "ROUTE-WESTERN-RANGE",
+        "ROUTE-BASIN-MARKET"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "cc2746ad1ad81e7f656c82bf28fb0607b5d4ff70abb48a893c804ff1b8ba2187",
+      "source_location_card": "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "4739cb499c82903d9a1580915960b60ceae9ae57ea9a380dd84f8470abff0053",
+      "structural_reference_uri": "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [],
+      "historical_event_ids": [],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "records desk",
+        "map wall"
+      ],
+      "location_id": "LOC-LEAGUE-CHAMBER",
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "League Chamber",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-LEAGUE-CHAMBER::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-CENTRAL-BASIN",
+      "related_route_ids": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-COMPACT-GROUNDS",
+        "ROUTE-UPPER-BASIN-CONNECTOR",
+        "ROUTE-PORT-BASIN-CONNECTOR",
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "54dea38ead7662dfe7dbf3b36e0118f27f1b1ff729c56d640ad32a7d43e8282e",
+      "source_location_card": "world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "90454ae21c882d34a41384468e6916f83c2334df4ab59a107544264fc7f58f28",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LEAGUE-CHAMBER/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [],
+      "historical_event_ids": [],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "ledger boards",
+        "settlement desk"
+      ],
+      "location_id": "LOC-PITTSYS-BOOK",
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "Pittsy's Book",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-PITTSYS-BOOK::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-CENTRAL-BASIN",
+      "related_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "1833245e58776fc53c8975e13b755f7afdf25b8d6bf4b14816d96214f678065d",
+      "source_location_card": "world/location-control-plane/locations/LOC-PITTSYS-BOOK/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "4e97dd49df7bf13623d5b8efa32168a5020316ecb6343c845e212fff33d88221",
+      "structural_reference_uri": "world/environment-references/plates/LOC-PITTSYS-BOOK/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-HEARTHROAD"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "seasonal rain"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [
+        "Week 3 decision landmark",
+        "structurally intact unless later evidence changes it"
+      ],
+      "division_overlays": [
+        "DIV-BURGERS"
+      ],
+      "historical_event_ids": [
+        "EVT-W3-BRIDGE"
+      ],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "stone bridge",
+        "lake",
+        "jump point"
+      ],
+      "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "movement": [
+        "horse roads",
+        "ridge routes",
+        "market-town connectors"
+      ],
+      "name": "Bridge at the Mountain Lake",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-BRIDGE-MOUNTAIN-LAKE::ESTABLISHING",
+      "physical_terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-UPPER-VALLEYS",
+      "related_route_ids": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-HEARTHROAD",
+        "ROUTE-RAIN-ESCARPMENT",
+        "ROUTE-UPPER-BASIN-CONNECTOR"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "cfb0921c54cd4d7f8d7ef05583b943be04688810641e99aafd0a5abc455c980e",
+      "source_location_card": "world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "d5ac24c22de8db15004f97b223669832806a737ba1b0c27c418759985b409406",
+      "structural_reference_uri": "world/environment-references/plates/LOC-BRIDGE-MOUNTAIN-LAKE/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "snow",
+            "ice",
+            "pass closure"
+          ],
+          "id": "WX-NORTHERN-WINTER",
+          "role": "PROPAGATION_ZONE",
+          "rule": "elevation controls severity"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [
+        "battlefield scar and yield memory",
+        "cleanup/custodial work continues after the Week 3 Encounter",
+        "Wilson/D0nkey K0ng standard placed below summit; summit remains unclaimed and no sovereignty or territorial transfer"
+      ],
+      "division_overlays": [
+        "DIV-BURGERS"
+      ],
+      "historical_event_ids": [
+        "EVT-W3-MIRE-HILL"
+      ],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "hill",
+        "mire",
+        "battle standards"
+      ],
+      "location_id": "LOC-DK-MUD-HILL",
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "Mire Hill Battlefield",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-DK-MUD-HILL::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-CENTRAL-BASIN",
+      "related_route_ids": [
+        "ROUTE-DELTA-CAUSEWAY",
+        "ROUTE-BASIN-MARKET"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "a0a40745fc1bd80958ab7e598bd12c17cfa35abc0c76a9b34d3947c224a32574",
+      "source_location_card": "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "f47f6393beee19148da96d34bfc2d11306cba059e55e045d5d4440f455c7f282",
+      "structural_reference_uri": "world/environment-references/plates/LOC-DK-MUD-HILL/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-NORTHERN-PASS"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "cold winters",
+        "snow at elevation",
+        "headwater precipitation"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [
+        "wager/summit landmark"
+      ],
+      "division_overlays": [
+        "DIV-WINGS"
+      ],
+      "historical_event_ids": [
+        "EVT-W3-ALPINE-WAGER"
+      ],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "summit",
+        "base camp",
+        "wager marker"
+      ],
+      "location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "movement": [
+        "passes constrain travel",
+        "winter closures possible",
+        "mounts and foot travel dominate"
+      ],
+      "name": "Alpine Wager Route",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-RED-SLOB-ALPINE-ROUTE::ESTABLISHING",
+      "physical_terrain": [
+        "high mountains",
+        "narrow passes",
+        "rock ridges"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-NORTHERN-SPINE",
+      "related_route_ids": [
+        "ROUTE-NORTHERN-PASS"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "f2d14dac9bd57347b5202c7607cbcc37ad74ea6408e3068286f1fdab578abb8e",
+      "source_location_card": "world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "1ad9eca7ca8646aba679599048ffc0d6c8b147ad1869d36ff437159e407433e0",
+      "structural_reference_uri": "world/environment-references/plates/LOC-RED-SLOB-ALPINE-ROUTE/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "snow",
+            "ice",
+            "pass closure"
+          ],
+          "id": "WX-NORTHERN-WINTER",
+          "role": "SOURCE_ZONE",
+          "rule": "elevation controls severity"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [
+        "Week 3 survival-race history"
+      ],
+      "division_overlays": [
+        "DIV-PIZZA"
+      ],
+      "historical_event_ids": [
+        "EVT-W3-SPEEDWAY"
+      ],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "oval/race course",
+        "grandstand"
+      ],
+      "location_id": "LOC-SOUTHERN-SPEEDWAY",
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "Southern Speedway",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-SOUTHERN-SPEEDWAY::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-CENTRAL-BASIN",
+      "related_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "7e67182a04a6f96b7ba0bdc53ee426417d95d1eb51366e59bfaa35e27efdf728",
+      "source_location_card": "world/location-control-plane/locations/LOC-SOUTHERN-SPEEDWAY/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "ba7c2ff5a71bf10228eaf52d297a0a46ac00966f3089f2981851d2418da4acfb",
+      "structural_reference_uri": "world/environment-references/plates/LOC-SOUTHERN-SPEEDWAY/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-INNER-SEA-QUAY",
+        "ROUTE-STORM-COAST"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "maritime",
+        "warm",
+        "storm spillover"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [
+        "Week 3 weather-event history",
+        "storm-protection continuity"
+      ],
+      "division_overlays": [
+        "DIV-PIZZA"
+      ],
+      "historical_event_ids": [
+        "EVT-W3-LLC-STORM"
+      ],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "mercantile towers",
+        "storm barriers"
+      ],
+      "location_id": "LOC-LLC-STORM-CITY",
+      "movement": [
+        "sea lanes",
+        "port roads",
+        "coastal trade"
+      ],
+      "name": "LLC Port City Storm District",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-LLC-STORM-CITY::ESTABLISHING",
+      "physical_terrain": [
+        "warm ports",
+        "islands",
+        "sheltered bays",
+        "coastal terraces"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-INNER-SEA-LITTORAL",
+      "related_route_ids": [
+        "ROUTE-STORM-COAST",
+        "ROUTE-INNER-SEA-QUAY",
+        "ROUTE-PORT-BASIN-CONNECTOR"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "c55eb9aa14e6ac4e7dccb6c1725ea93e51abf49121796adec2ee66b878582452",
+      "source_location_card": "world/location-control-plane/locations/LOC-LLC-STORM-CITY/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "4dc6636cfac69055cee868d945fea78040bb7573517c8dddfe682abf6d18fbb9",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LLC-STORM-CITY/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "SOURCE_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "PROPAGATION_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "seasonal rain"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-BURGERS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": "CHAR-WILSON-LOOK",
+      "home_team": "D0nkey K0ng",
+      "landmarks": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "movement": [
+        "horse roads",
+        "ridge routes",
+        "market-town connectors"
+      ],
+      "name": "D0nkey K0ng Highland Stronghold",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-DK-HIGHLAND-STRONGHOLD::ESTABLISHING",
+      "physical_terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-UPPER-VALLEYS",
+      "related_route_ids": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "d1821b63c5516ca69b0697974b814e3d99f56131d030a27fe8a2f146edd3eb13",
+      "source_location_card": "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "742c27a362ccdc6b89dec32cdb5c847ade16394cc10773a35dcf422e9087d0eb",
+      "structural_reference_uri": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "snow",
+            "ice",
+            "pass closure"
+          ],
+          "id": "WX-NORTHERN-WINTER",
+          "role": "PROPAGATION_ZONE",
+          "rule": "elevation controls severity"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "drier",
+        "rain-shadow influence",
+        "large temperature swings"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [
+        "DIV-BURGERS",
+        "DIV-WINGS"
+      ],
+      "historical_event_ids": [],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "mixed caravan settlement",
+        "watercourse crossing",
+        "stable-and-market quarter"
+      ],
+      "location_id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "movement": [
+        "long overland routes",
+        "mounted travel",
+        "dispersed settlements"
+      ],
+      "name": "TDS–Chili Shared March",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-TDS-CHILI-SHARED-MARCH::ESTABLISHING",
+      "physical_terrain": [
+        "open grassland",
+        "broken stone ridges",
+        "dry frontier"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-WESTERN-TABLELANDS",
+      "related_route_ids": [
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "7a55315137603808cf511b029bbb8aadb3b27137ea8cc367acf430307d4c71e6",
+      "source_location_card": "world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "ce7b8b1209b28483a4eec4517d605e6cd6d443d4ce585b7ecc35b68375b86ade",
+      "structural_reference_uri": "world/environment-references/plates/LOC-TDS-CHILI-SHARED-MARCH/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "dust",
+            "heat",
+            "water scarcity"
+          ],
+          "id": "WX-WESTERN-DRY",
+          "role": "SOURCE_ZONE",
+          "rule": "rain-shadow tendency, not permanent drought"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [],
+      "historical_event_ids": [],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "open ceremonial field",
+        "arbiter pavilion",
+        "arrival roads"
+      ],
+      "location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "Compact Neutral Grounds",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-COMPACT-NEUTRAL-GROUNDS::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-CENTRAL-BASIN",
+      "related_route_ids": [
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "2ec93af39c7b6c9dd15c1c48e8645c862ddc24293bd5af91055f5b312c6fe5ec",
+      "source_location_card": "world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "35f9d191482cef05ac29f1e8ef54cfb8eb053d6385a9c680126ed7d3fd2516e3",
+      "structural_reference_uri": "world/environment-references/plates/LOC-COMPACT-NEUTRAL-GROUNDS/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    },
+    {
+      "access_route_ids": [
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "approved_cinematic_uri": null,
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "current_state_as_of": "end_of_week_3_2026",
+      "current_world_state": [],
+      "division_overlays": [],
+      "historical_event_ids": [],
+      "home_character_id": null,
+      "home_team": null,
+      "landmarks": [
+        "record halls",
+        "ledger vaults",
+        "courier court"
+      ],
+      "location_id": "LOC-LEAGUE-ARCHIVE",
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "League Archive",
+      "next_gate": "EVIDENCE_HYDRATION_AND_VISUAL_ART_DIRECTION",
+      "packet_id": "FOLIO::LOC-LEAGUE-ARCHIVE::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "prohibited_inventions": [
+        "Do not move location to another physical zone.",
+        "Do not convert Division overlay into physical geography.",
+        "Do not erase unresolved current world state.",
+        "Do not create new permanent landmarks from generated scenery.",
+        "Do not infer character body identity from location theme."
+      ],
+      "proposed_output_path": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/CANDIDATE_MASTER_16x9.png",
+      "region_id": "REG-CENTRAL-BASIN",
+      "related_route_ids": [
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "render_permitted": false,
+      "required_quality_controls": [
+        "CANON_LOCATION_ID_AND_REGION_LOCK",
+        "PHYSICAL_ROUTE_AND_HYDROLOGY_CHECK",
+        "TEMPORAL_STATE_AND_HISTORICAL_SOURCE_CHECK",
+        "APPROVED_REFERENCE_BYTE_BINDING",
+        "INDEPENDENT_PIXEL_AND_RIGHTS_REVIEW_BEFORE_PROMOTION"
+      ],
+      "source_card_sha256": "69f0e2f9df1987aa72b1455e7284bed146bf76ecf34cf24617ad428ef412ab19",
+      "source_location_card": "world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json",
+      "status": "SOURCE_INDEX_ONLY",
+      "structural_reference_sha256": "8572d6d65217bd7bedf211a92bb613d58fe203f42fecdefa3de43a6ef8165cc6",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LEAGUE-ARCHIVE/STRUCTURAL_PLATE.svg",
+      "weather_relationships": [
+        {
+          "effects": [
+            "coastal surge",
+            "heavy rain",
+            "wind",
+            "road washout"
+          ],
+          "id": "WX-EASTERN-STORM",
+          "role": "PROPAGATION_ZONE",
+          "rule": "major event must record downstream/adjacent effects"
+        },
+        {
+          "effects": [
+            "high river",
+            "mud",
+            "causeway closure"
+          ],
+          "id": "WX-SOUTHERN-FLOOD",
+          "role": "SOURCE_ZONE",
+          "rule": "flooding follows watershed; not arbitrary backdrop"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "candidates": {
+      "path": "world/data/atlas_location_candidates.json",
+      "sha256": "7c18a40fe9e2d51dac49690e5aa8fe774bb64695ff975594d729587438b93803"
+    },
+    "divisions": {
+      "path": "world/data/divisions.json",
+      "sha256": "8871a7e965a200044de8e4682ff11ec01b4ee059ed6156a56aab0cd30fb52a51"
+    },
+    "domains": {
+      "path": "world/data/owner_domains.json",
+      "sha256": "3ba574467cba40eb16a75faa0d2a668e96ca46cca5dc85987f304c3760a0a659"
+    },
+    "events": {
+      "path": "world/data/world_state_events.json",
+      "sha256": "6612d7c965bf804770b5b60edfa35a381573128f069c4472bf2b7ec168c5aafa"
+    },
+    "folio": {
+      "path": "world/environment-references/cinematic-folio/LOC_FOLIO_MANIFEST.proposal.json",
+      "sha256": "4afa1d7c32a9699547e9a6c64bccb9a34fc6b2c1151d566e827d9b2e1d152a3e"
+    },
+    "locations": {
+      "path": "world/data/locations.json",
+      "sha256": "4dcfe5756ad0cc58b8ba9f3f9e1b0cab77de5b057af9d55afa382490a291e074"
+    },
+    "pr_bridge": {
+      "path": "world/environment-references/cinematic-folio/bridge/DRAFT_SOURCE_BRIDGE.proposal.json",
+      "sha256": "061825e2bd840d2413dddc2866667388efc99a1906aa04ad015c4c8cc27569d7"
+    },
+    "references": {
+      "path": "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json",
+      "sha256": "a7796850867e8743fe799b201988199e0c95b6a8adbd999e43f807cd8b6a40d6"
+    },
+    "regions": {
+      "path": "world/data/physical_zones.json",
+      "sha256": "89734f7171039f4a14614d93e1a9aaf666c05f8951d39ad42732d01aba7433bc"
+    },
+    "routes": {
+      "path": "world/data/routes.json",
+      "sha256": "fe2b3ce9670062095908fa03ee6f8f4a77990d3e66dad0bd67230036f452c40c"
+    },
+    "settlements": {
+      "path": "world/data/settlements.json",
+      "sha256": "8b5a02e500de6246533ed874c3f2a577c5dccb3630bf6e70e444bc0b17a83fdf"
+    },
+    "states": {
+      "path": "world/data/current_world_state.json",
+      "sha256": "85ffc3e00dd7d40f2aaf43b24b65907df2add1f08d45861549fd638f8fbc1471"
+    }
+  },
+  "region_packet_count": 7,
+  "regions": [
+    {
+      "adjacent_region_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-WESTERN-TABLELANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "cold winters",
+        "snow at elevation",
+        "headwater precipitation"
+      ],
+      "geography_warning": "Abstract regional bounds; no surveyed shoreline, distance, or sovereign boundary.",
+      "location_ids": [
+        "LOC-RED-SLOB-ALPINE-ROUTE"
+      ],
+      "movement": [
+        "passes constrain travel",
+        "winter closures possible",
+        "mounts and foot travel dominate"
+      ],
+      "name": "Northern Spine",
+      "next_gate": "GEOGRAPHIC_CONTEXT_AND_PHOTOGRAPHIC_STYLE_BRIEF",
+      "packet_id": "FOLIO::REG-NORTHERN-SPINE::ESTABLISHING",
+      "physical_terrain": [
+        "high mountains",
+        "narrow passes",
+        "rock ridges"
+      ],
+      "region_id": "REG-NORTHERN-SPINE",
+      "render_permitted": false,
+      "source_region_path": "world/data/physical_zones.json",
+      "status": "SOURCE_INDEX_ONLY"
+    },
+    {
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-CENTRAL-BASIN",
+        "REG-WESTERN-TABLELANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "seasonal rain"
+      ],
+      "geography_warning": "Abstract regional bounds; no surveyed shoreline, distance, or sovereign boundary.",
+      "location_ids": [
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "LOC-ARSENAL-BARBERSHOP",
+        "LOC-SLOB-FOOTHILL-CAMP",
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-DK-HIGHLAND-STRONGHOLD"
+      ],
+      "movement": [
+        "horse roads",
+        "ridge routes",
+        "market-town connectors"
+      ],
+      "name": "Upper Valleys and Foothills",
+      "next_gate": "GEOGRAPHIC_CONTEXT_AND_PHOTOGRAPHIC_STYLE_BRIEF",
+      "packet_id": "FOLIO::REG-UPPER-VALLEYS::ESTABLISHING",
+      "physical_terrain": [
+        "rolling uplands",
+        "mixed forest",
+        "pasture",
+        "defensible ridges"
+      ],
+      "region_id": "REG-UPPER-VALLEYS",
+      "render_permitted": false,
+      "source_region_path": "world/data/physical_zones.json",
+      "status": "SOURCE_INDEX_ONLY"
+    },
+    {
+      "adjacent_region_ids": [
+        "REG-UPPER-VALLEYS",
+        "REG-WESTERN-TABLELANDS",
+        "REG-SOUTHERN-WETLANDS",
+        "REG-EASTERN-STORM-COAST",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "temperate",
+        "flood-cycle influence"
+      ],
+      "geography_warning": "Abstract regional bounds; no surveyed shoreline, distance, or sovereign boundary.",
+      "location_ids": [
+        "LOC-CHINS-ROAD-COMMONS",
+        "LOC-LEAGUE-CHAMBER",
+        "LOC-PITTSYS-BOOK",
+        "LOC-DK-MUD-HILL",
+        "LOC-SOUTHERN-SPEEDWAY",
+        "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "LOC-LEAGUE-ARCHIVE"
+      ],
+      "movement": [
+        "navigable rivers",
+        "major roads",
+        "bridges and toll points"
+      ],
+      "name": "Central River Basin",
+      "next_gate": "GEOGRAPHIC_CONTEXT_AND_PHOTOGRAPHIC_STYLE_BRIEF",
+      "packet_id": "FOLIO::REG-CENTRAL-BASIN::ESTABLISHING",
+      "physical_terrain": [
+        "broad river valleys",
+        "fertile lowlands",
+        "bridge corridors"
+      ],
+      "region_id": "REG-CENTRAL-BASIN",
+      "render_permitted": false,
+      "source_region_path": "world/data/physical_zones.json",
+      "status": "SOURCE_INDEX_ONLY"
+    },
+    {
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS"
+      ],
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "drier",
+        "rain-shadow influence",
+        "large temperature swings"
+      ],
+      "geography_warning": "Abstract regional bounds; no surveyed shoreline, distance, or sovereign boundary.",
+      "location_ids": [
+        "LOC-CHILI-STABLE",
+        "LOC-TDS-CHILI-SHARED-MARCH"
+      ],
+      "movement": [
+        "long overland routes",
+        "mounted travel",
+        "dispersed settlements"
+      ],
+      "name": "Western Tablelands",
+      "next_gate": "GEOGRAPHIC_CONTEXT_AND_PHOTOGRAPHIC_STYLE_BRIEF",
+      "packet_id": "FOLIO::REG-WESTERN-TABLELANDS::ESTABLISHING",
+      "physical_terrain": [
+        "open grassland",
+        "broken stone ridges",
+        "dry frontier"
+      ],
+      "region_id": "REG-WESTERN-TABLELANDS",
+      "render_permitted": false,
+      "source_region_path": "world/data/physical_zones.json",
+      "status": "SOURCE_INDEX_ONLY"
+    },
+    {
+      "adjacent_region_ids": [
+        "REG-NORTHERN-SPINE",
+        "REG-UPPER-VALLEYS",
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "wet",
+        "violent coastal storms",
+        "high rainfall"
+      ],
+      "geography_warning": "Abstract regional bounds; no surveyed shoreline, distance, or sovereign boundary.",
+      "location_ids": [
+        "LOC-STORM-BOWL",
+        "LOC-RED-RUINS",
+        "LOC-BELT-KEEPER-KEEP"
+      ],
+      "movement": [
+        "forest roads",
+        "coastal navigation",
+        "weather disruption"
+      ],
+      "name": "Eastern Forest and Storm Coast",
+      "next_gate": "GEOGRAPHIC_CONTEXT_AND_PHOTOGRAPHIC_STYLE_BRIEF",
+      "packet_id": "FOLIO::REG-EASTERN-STORM-COAST::ESTABLISHING",
+      "physical_terrain": [
+        "dense forest",
+        "rocky approaches",
+        "storm-exposed coast"
+      ],
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "render_permitted": false,
+      "source_region_path": "world/data/physical_zones.json",
+      "status": "SOURCE_INDEX_ONLY"
+    },
+    {
+      "adjacent_region_ids": [
+        "REG-WESTERN-TABLELANDS",
+        "REG-CENTRAL-BASIN",
+        "REG-INNER-SEA-LITTORAL"
+      ],
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "warm",
+        "humid",
+        "seasonal flooding"
+      ],
+      "geography_warning": "Abstract regional bounds; no surveyed shoreline, distance, or sovereign boundary.",
+      "location_ids": [
+        "LOC-MUD-DOGS-SWAMP",
+        "LOC-COUNTRY-CLUB-JACKSON",
+        "LOC-TDS-WATERFALL-TEMPLE"
+      ],
+      "movement": [
+        "boats",
+        "causeways",
+        "raised roads",
+        "specialized wetland travel"
+      ],
+      "name": "Southern Wetlands and Delta",
+      "next_gate": "GEOGRAPHIC_CONTEXT_AND_PHOTOGRAPHIC_STYLE_BRIEF",
+      "packet_id": "FOLIO::REG-SOUTHERN-WETLANDS::ESTABLISHING",
+      "physical_terrain": [
+        "slow rivers",
+        "cypress-like wetlands",
+        "mudflats",
+        "raised ground"
+      ],
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "render_permitted": false,
+      "source_region_path": "world/data/physical_zones.json",
+      "status": "SOURCE_INDEX_ONLY"
+    },
+    {
+      "adjacent_region_ids": [
+        "REG-CENTRAL-BASIN",
+        "REG-SOUTHERN-WETLANDS",
+        "REG-EASTERN-STORM-COAST"
+      ],
+      "authority": "MAIN_WORLD_ENGINE",
+      "climate": [
+        "maritime",
+        "warm",
+        "storm spillover"
+      ],
+      "geography_warning": "Abstract regional bounds; no surveyed shoreline, distance, or sovereign boundary.",
+      "location_ids": [
+        "LOC-LLC-BOARDROOM",
+        "LOC-LLC-STORM-CITY"
+      ],
+      "movement": [
+        "sea lanes",
+        "port roads",
+        "coastal trade"
+      ],
+      "name": "Inner Sea Littoral",
+      "next_gate": "GEOGRAPHIC_CONTEXT_AND_PHOTOGRAPHIC_STYLE_BRIEF",
+      "packet_id": "FOLIO::REG-INNER-SEA-LITTORAL::ESTABLISHING",
+      "physical_terrain": [
+        "warm ports",
+        "islands",
+        "sheltered bays",
+        "coastal terraces"
+      ],
+      "region_id": "REG-INNER-SEA-LITTORAL",
+      "render_permitted": false,
+      "source_region_path": "world/data/physical_zones.json",
+      "status": "SOURCE_INDEX_ONLY"
+    }
+  ],
+  "schema": "schemin.cinematic_folio.production_packets.v1",
+  "source_world_state_cutoff": "end_of_week_3_2026",
+  "status": "CODE_ONLY_SOURCE_INDEX_NO_IMAGE_GENERATION"
+}

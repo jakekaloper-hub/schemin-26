@@ -1,0 +1,3916 @@
+{
+  "schema": "schemin.cinematic_folio.cross_pr_preview.v1",
+  "status": "SOURCE_PINNED_READONLY_PROPOSAL_NOT_MAIN_CANON",
+  "sources": {
+    "postseason_topology": {
+      "pr": 322,
+      "commit": "b32ecbc46e82133f7197fc8802a85e6b59abc44a",
+      "path": "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+      "sha256_bytes": "d9e749d0e17601039d1a21611e445941459d65dd3af2cdc23dba2f3a813b7799",
+      "authority": "UNMERGED_DRAFT_SOURCE",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/pull/322"
+    },
+    "postseason_venues": {
+      "pr": 322,
+      "commit": "b32ecbc46e82133f7197fc8802a85e6b59abc44a",
+      "path": "planning/postseason/ISLAND_SITE_EVOLUTION_2015_2025.founder_v2.json",
+      "sha256_bytes": "c4a09bafa42f237b8842ce61d0f3c3595eb8d36ac646a9923d564b3f50b1c68b",
+      "authority": "UNMERGED_DRAFT_SOURCE",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/pull/322"
+    },
+    "pr324_atlas": {
+      "pr": 324,
+      "commit": "8b7ee0f8e5ed8f57c7efb88c4dff15601e883323",
+      "path": "world/atlas/summits/2026-11-20/THREE_LAYER_LOCATION_DOSSIERS_V1.json",
+      "sha256_bytes": "9d5a31f6359daf8e792ae7e87a5e0cbc8d2020cd4c5fd503dd5d7fc45f35e1ff",
+      "authority": "UNMERGED_DRAFT_SOURCE",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/pull/324"
+    },
+    "pr324_island": {
+      "pr": 324,
+      "commit": "8b7ee0f8e5ed8f57c7efb88c4dff15601e883323",
+      "path": "world/atlas/summits/2026-11-20/PLAYOFF_ISLAND_THREE_LAYER_RECONCILIATION_V1.json",
+      "sha256_bytes": "a89480e3d9e9b49d55c85cc7c3797fe572ab0cdaa1572bd039e2c19df56e0f10",
+      "authority": "UNMERGED_DRAFT_SOURCE",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/pull/324"
+    },
+    "pr325_atlas": {
+      "pr": 325,
+      "commit": "b7bee20d0fc49aa8c04426545fb25de16eee09c2",
+      "path": "planning/atlas-expansion/ATLAS_THREE_LAYER_DOSSIERS_V1.json",
+      "sha256_bytes": "193f594109caca4a135fa656a17960a6accf48ded840f7ebadde3a814a78cff8",
+      "authority": "UNMERGED_DRAFT_SOURCE",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/pull/325"
+    },
+    "pr339_concordance": {
+      "pr": 339,
+      "commit": "ea0b84624b034edceed836890aabe965bf5be3ab",
+      "path": "planning/atlas-geography-gate/CROSS_BRANCH_LOCATION_CONCORDANCE_V1.json",
+      "sha256_bytes": "1fb272911440e64768583d342ab61f926eec7aca869475808828f6fcf516de15",
+      "authority": "UNMERGED_DRAFT_SOURCE",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/pull/339"
+    },
+    "pr253_character_library": {
+      "pr": 253,
+      "commit": "1e0089170ee6d4ac9cd829ad1f10a70472147904",
+      "path": "docs/visual/manifest.json",
+      "sha256_bytes": "45edcf6ed24d80c2e62578908656e473cfecf8bae5ae112983f031ba8f7e97ac",
+      "authority": "UNMERGED_DRAFT_SOURCE",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/pull/253"
+    }
+  },
+  "concordance": {
+    "pr324_ids": 155,
+    "pr325_ids": 147,
+    "shared_ids": 103,
+    "pr324_only_ids": 52,
+    "pr325_only_ids": 44,
+    "union_ids": 199,
+    "note": "199 coded source handles; NOT 199 proven places or active LOCs."
+  },
+  "proposals": [
+    {
+      "id": "BEACH_PAVILIONS",
+      "name": "Veteran beach pavilions and tavern streets",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "BREAKWATER_GROUNDS",
+      "name": "Breakwater Grounds QF stadium",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "BROADCAST_HQ",
+      "name": "Broadcast control and commentary headquarters",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "BYE_HOUSE",
+      "name": "Protected bye residence",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-ARSENAL-GUILD-TOOLHOUSE",
+      "name": "Arsenal Guild Toolhouse",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-BASIN-CARAVAN-REPAIR-BAY",
+      "name": "Basin Caravan Repair Bay",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-BATTING-YARD",
+      "name": "The Batting Yard",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-BLACK-APRON-WARD",
+      "name": "Black Apron Butcher Ward",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-BLACK-CLIFF-RAIN-GAUGE",
+      "name": "Black Cliff Rain Gauge",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-BLACKWATER-GAMING-BARGE",
+      "name": "Blackwater Gaming Barge",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-BOXSTACK-WHARF",
+      "name": "Boxstack Wharf",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-CARAVAN-COMMONS",
+      "name": "Caravan Commons",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-CATTLE-CROWN-STOCKYARDS",
+      "name": "Cattle Crown Stockyards",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-CHAMP-LAST-FIELD",
+      "name": "The Last Field",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-CLIFFSIDE-CIVILIAN-REFUGE",
+      "name": "Cliffside Civilian Refuge",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-COASTAL-WEATHER-REGISTER-HOUSE",
+      "name": "Coastal Weather Register House",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-COIN-HALL",
+      "name": "Coin Hall of Mechanical Games",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-COUNTRY-CLUB-GROUNDSKEEPERS-SHED",
+      "name": "Country Club Groundskeepers' Shed",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-CREAMERY-MILE",
+      "name": "Creamery Mile",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-CROOKED-GREEN",
+      "name": "The Crooked Green",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-CYPRESS-STILT-STOREHOUSE",
+      "name": "Cypress Stilt Storehouse",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-DARK-HORSE-DRY-SEASON-WELL",
+      "name": "Dark Horse Dry Season Well",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
+      "name": "Delta Causeway Ferry Stage",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-DYE-WAR-FIELDS",
+      "name": "Dye War Fields",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-EASTERN-ASCENT-REPAIR-TERRACE",
+      "name": "Eastern Ascent Repair Terrace",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-FOOTHILL-WAGON-REST",
+      "name": "Foothill Wagon Rest",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-GOLDEN-HEARTH",
+      "name": "Golden Hearth Roadhouse",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-GRAND-COACH-RIVER-DEPOT",
+      "name": "Grand Coach & River Depot",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-GRAND-COURIER-EXCHANGE",
+      "name": "Grand Courier Exchange",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-HEARTHROAD-TOLL-SHELTER",
+      "name": "Hearthroad Toll Shelter",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-HIGHLAND-CAVALRY-EXERCISE-COURT",
+      "name": "Highland Cavalry Exercise Court",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-INNER-SEA-CARGO-WEIGHCOURT",
+      "name": "Inner Sea Cargo Weighcourt",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-INNER-SEA-MARINA",
+      "name": "Inner Sea Marina",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-IRON-HEAP-SALVAGE",
+      "name": "Iron Heap Salvage",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-JACKSON-LEVEE-KEEPER-S-LODGE",
+      "name": "Jackson Levee Keeper's Lodge",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-KEEPER-S-INVENTORY-ANTECHAMBER",
+      "name": "Keeper's Inventory Antechamber",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-LANTERN-HOUSE",
+      "name": "Lantern House Gaming Palace",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-LEAGUE-INFIRMARY",
+      "name": "League Infirmary",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-LITERAL-FASTFOOD-CORP",
+      "name": "Literal Modern Fast-Food Corporate Chain",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": null,
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-LLC-CONTRACT-REGISTRY-ANNEX",
+      "name": "LLC Contract Registry Annex",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-LOST-BET-WALL",
+      "name": "The Lost Bet Wall",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-LOST-FOUND",
+      "name": "The Lost & Found",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-MAGNOLIA-ATHLETIC-CLUB",
+      "name": "Magnolia Athletic Club",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-MAGNOLIA-COLLEGIUM",
+      "name": "Magnolia Collegium & Grove",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-MIDNIGHT-HEARTH",
+      "name": "Midnight Hearth",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-MIRE-HILL-CUSTODIAL-OUTPOST",
+      "name": "Mire Hill Custodial Outpost",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-MOUNTAIN-BASE-COURIER-STEPS",
+      "name": "Mountain Base Courier Steps",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-NEUTRAL-BLACKWATER",
+      "name": "Blackwater Amphitheater",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-NEUTRAL-GRAND-FAIR",
+      "name": "Grand Fairgrounds",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-NEUTRAL-QUARRY-BOWL",
+      "name": "The Quarry Bowl",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-NORTHERN-SPINE",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-NEUTRAL-RIVERGATE",
+      "name": "Rivergate Grounds",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-NEUTRAL-STORMGLASS",
+      "name": "Stormglass Grounds",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-NINEPINS-HALL",
+      "name": "Ninepins Hall",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-OLD-LEDGER-CEMETERY",
+      "name": "Old Ledger Cemetery",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-OVENMASTERS-SQUARE",
+      "name": "Ovenmasters' Square",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-PEOPLE-S-HALL-STORAGE-GALLERY",
+      "name": "People's Hall Storage Gallery",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-LEGACY-GALLERY",
+      "name": "Playoff Island Legacy Gallery",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": null,
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-NEUTRAL-ASSEMBLY-COURT",
+      "name": "Playoff Island Neutral Assembly Court",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": null,
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-OUTER-LANDING",
+      "name": "Playoff Island Outer Landing",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": null,
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-PLAYOFF-ISLAND-WEATHER-REFUGE",
+      "name": "Playoff Island Weather Refuge",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": null,
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-BREAKWATER",
+      "name": "Breakwater Grounds",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-CAUSEWAY",
+      "name": "Causeway Trial",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-CHAMPIONSHIP-ISLAND",
+      "name": "Championship Island",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "NEUTRAL_SITING_HYPOTHESIS"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-CROWN-STAIR",
+      "name": "Crown Stair",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-GROVE",
+      "name": "Grove of Standards",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-IRON-QUARRY",
+      "name": "Iron Quarry",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-LAST-FIELD",
+      "name": "Last Field",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-MONUMENTAL-CAUSEWAY",
+      "name": "Championship Causeway",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "NEUTRAL_SITING_HYPOTHESIS"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-NEUTRAL-PUBLIC-LITTORAL-GATE",
+      "name": "Neutral Littoral Causeway Gate",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "NEUTRAL_SITING_HYPOTHESIS"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-OLD-RING",
+      "name": "Old Ring",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-SALTWIND",
+      "name": "Saltwind Steps",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-POST-VETERANS-YARD",
+      "name": "Veterans' Yard",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "POSTSEASON_ARENA",
+        "POSTSEASON_ISLAND_SITE_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-PREDATOR-TERRACE-APPROACH",
+      "name": "Predator Terrace Approach",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RAG-RELIC-EXCHANGE",
+      "name": "Rag & Relic Exchange",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RECLAIMERS-FORGE",
+      "name": "Reclaimer's Forge",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RECOVERY-BEACH",
+      "name": "Recovery Beach",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RECOVERY-HOUSE",
+      "name": "Recovery House & Baths",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
+      "name": "Red Escarpment Sentinel Walk",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RED-FRYHOUSE",
+      "name": "The Red Fryhouse",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RED-TILE-PIE-HALL",
+      "name": "Red Tile Pie Hall",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RIDGE-SIGNAL-OBSERVATORY",
+      "name": "Ridge Signal Observatory",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
+      "name": "Road Commons Public Steps",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-ROOSTER-FAIRGROUNDS",
+      "name": "Rooster Fairgrounds",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-ROUGH-PRACTICE-COMMONS",
+      "name": "Rough Practice Commons",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-RUINS-CANOPY-CISTERN",
+      "name": "Ruins Canopy Cistern",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-SAUCE-EXCHANGE",
+      "name": "Sauce Exchange",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-SHARED-MARCH-CUSTOMS-HEARTH",
+      "name": "Shared March Customs Hearth",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-SHARED-MARCH-SIGNAL-POST",
+      "name": "Shared March Signal Post",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-SILTBANK-GATHERING-RISE",
+      "name": "Siltbank Gathering Rise",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-SKYPORT-LITERAL",
+      "name": "Literal Aircraft Skyport",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": null,
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-SMOKEHOUSE-TURN",
+      "name": "Smokehouse Turn",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-STICKBIRD-ROW",
+      "name": "Stickbird Row",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-STOCKCAR-SPEEDWAY",
+      "name": "Modern Stock-Car Speedway",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-STORM-BARRIER-INSPECTION-YARD",
+      "name": "Storm Barrier Inspection Yard",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-STORM-BOWL-LEEWARD-STANDS",
+      "name": "Storm Bowl Leeward Stands",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-TEMPLE-LOWER-FERRY-LANDING",
+      "name": "Temple Lower Ferry Landing",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-THREE-OVEN-MARKET",
+      "name": "Three-Oven Market",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
+      "name": "Tide Shelter Maintenance Shed",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-TWIN-TILE-COURIERS",
+      "name": "Twin-Tile Courier Guild",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-WATER-HAZARD-REED-WALK",
+      "name": "Water Hazard Reed Walk",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-WATERFALL-SCRIBE-ALCOVE",
+      "name": "Waterfall Scribe Alcove",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-WEST-RANGE-DOUBLE-STACK",
+      "name": "West Range Double-Stack",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
+      "name": "Western Range Outrider Fold",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-WRONG-TURN",
+      "name": "The Wrong Turn",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "PR324_EDITORIAL_CAND",
+        "EDITORIAL_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-BASIN-RECORD-FORD",
+      "name": "Basin Record Ford",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": "LOC-LEAGUE-ARCHIVE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-CHILI-DARK-HORSE-CORRAL",
+      "name": "Dark Horse Rest Corral",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": "LOC-CHILI-STABLE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-CHILI-RANGE-GRAZING-POST",
+      "name": "Chili Range Grazing Post",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": "LOC-CHILI-STABLE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-CHILI-WEST-RANGE-WELL",
+      "name": "Western Range Deep Well",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": "LOC-CHILI-STABLE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-CHINS-BASIN-ARBITER-COURT",
+      "name": "Road Commons Dispute Court",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": "LOC-CHINS-ROAD-COMMONS",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-CHINS-ROADSIDE-STORY-WALL",
+      "name": "People's Champ Story Wall",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": "LOC-CHINS-ROAD-COMMONS",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-CHINS-TRAVELER-BAKERY",
+      "name": "Chins Commons Travelers' Oven",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": "LOC-CHINS-ROAD-COMMONS",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-DK-ARSENAL-STONE-WELL",
+      "name": "Arsenal Market Stone Well",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-ARSENAL-BARBERSHOP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-DK-HIGHLAND-CRESCENT",
+      "name": "D0nkey K0ng Highland Crescent",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-DK-HIGHLAND-TRAINING-WALL",
+      "name": "Highland Training Wall",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-DUCKHOOK-GROUNDSKEEPERS-LODGE",
+      "name": "Jackson Groundskeepers' Lodge",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-DUCKHOOK-JACKSON-SLUICE",
+      "name": "Jackson Estate Drainage Sluice",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-DUCKHOOK-RIVERSIDE-PRACTICE-GREEN",
+      "name": "Riverside Practice Green",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-ELNINO-COASTAL-SHELTER-WARD",
+      "name": "Eastern Coast Shelter Ward",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-STORM-BOWL",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-ELNINO-STORM-SHELTER-DOCK",
+      "name": "Storm Bowl Shelter Dock",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-STORM-BOWL",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-ELNINO-WIND-OBSERVATORY",
+      "name": "Storm Bowl Wind Observatory",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-STORM-BOWL",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-HMB-BLACKCLIFF-WATCH",
+      "name": "Belt Keeper Black Cliff Watch",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-BELT-KEEPER-KEEP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-HMB-HERALD-VAULT",
+      "name": "Belt Keeper Herald Vault",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-BELT-KEEPER-KEEP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-HMB-KEEP-AQUEDUCT",
+      "name": "Rune Keep Ridge Aqueduct",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-BELT-KEEPER-KEEP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-INNER-SEA-NEUTRAL-MOORING",
+      "name": "Inner Sea Public Mooring",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "LOC-LLC-STORM-CITY",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-ISLAND-QUARRY-REPAIR-GALLERY",
+      "name": "Island Quarry Repair Gallery",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "POST-NODE:IRON_QUARRY",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-ISLAND-SOUTH-REPAIR-CACHE",
+      "name": "Island South Rescue Repair Cache",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "POST-NODE:EMERGENCY_PIER",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-ISLAND-TIDAL-GAUGE",
+      "name": "Island Tidal Gauge Court",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "POST-NODE:HARBOR_RELIEF",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-ISLAND-UPLAND-RAIN-RETENTION",
+      "name": "Island Upland Rain Retention Court",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "POST-NODE:LAST_FIELD",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-JEDI-ASCENT-SIGNAL-HOUSE",
+      "name": "Eastern Ascent Signal House",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-JEDI-NEGOTIATORS-TERRACE",
+      "name": "Trade Jedi Negotiators' Terrace",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-JEDI-RIDGE-CISTERN",
+      "name": "Trade Jedi Ridge Cistern",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-LLC-CUSTOMS-FLOOR",
+      "name": "Inner Sea Customs Floor",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "LOC-LLC-BOARDROOM",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-LLC-QUAY-REPAIR-LEDGER",
+      "name": "LLC Quay Repair Ledger House",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "LOC-LLC-STORM-CITY",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-LLC-STORM-BARRIER-WALK",
+      "name": "Storm City Barrier Walk",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": "LOC-LLC-STORM-CITY",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-MUD-DELTA-PILOT-STATION",
+      "name": "Delta Causeway Pilot Station",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-MUD-DOGS-SWAMP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-MUD-RAISED-GRANARY",
+      "name": "Mud Dogs Raised Granary",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-MUD-DOGS-SWAMP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-MUD-TIDEMARK-BEACON",
+      "name": "Swamp Tidemark Beacon",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-MUD-DOGS-SWAMP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-NORTHERN-PASS-RESCUE-SHELTER",
+      "name": "Northern Pass Rescue Shelter",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-NORTHERN-SPINE",
+      "anchor": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-RED-RAIN-ORCHARD",
+      "name": "Leopard Rain Terrace Orchard",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-RED-RUINS",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-RED-RUIN-WATCH",
+      "name": "Leopard Ruins Rainwatch",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-RED-RUINS",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-RED-SALVAGE-WALK",
+      "name": "Red Ruins Salvage Walk",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": "LOC-RED-RUINS",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-SLOB-COOKFIRE-GROUND",
+      "name": "Foothill Cookfire Ground",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-SLOB-GEAR-YARD",
+      "name": "Foothill Repair Yard",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-SLOB-HEARTHROAD-STOP",
+      "name": "Foothill Ridge Shelter",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-TDS-CASCADE-FERRY",
+      "name": "Three Dreaded Cascade Ferry Landing",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-TDS-IRRIGATION-CUT",
+      "name": "Podium Shadow Irrigation Cut",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-TDS-MARCH-MEDIATION-YARD",
+      "name": "Shared March Mediation Yard",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": "LOC-TDS-CHILI-SHARED-MARCH",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAND-XP-WETLAND-LEVEE-PUMP-HOUSE",
+      "name": "Wetland Levee Pump House",
+      "source_prs": [
+        325
+      ],
+      "namespaces": [
+        "NEW_EXPANSION_CAND"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": "LOC-DK-MUD-HILL",
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAUSEWAY_OUTER_GATE",
+      "name": "Mainland causeway gatehouse",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CAUSEWAY_RIDGE",
+      "name": "Monumental causeway spine",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CHAMPIONS_WALK",
+      "name": "Champions' Walk memorial axis",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CONTENDER_FORTRESS",
+      "name": "Fortress contenders' residence",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "CROWN_STAIR",
+      "name": "Crown Stair semifinal stadium",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "EMERGENCY_PIER",
+      "name": "South coast emergency evacuation pier",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "FARRELL_SANCTUARY",
+      "name": "Protected Michael Farrell memorial precinct",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "GROVE_STANDARDS",
+      "name": "Grove of Standards semifinal stadium",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HARBOR_RELIEF",
+      "name": "Emergency harbor and ferry dock",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-ARCHERY-CRESCENT",
+      "name": "The Silent Crescent",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-CAUSEWAY-TRIAL",
+      "name": "Abandoned Tide Causeway Trial",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-FALLEN-GALLERY",
+      "name": "The Fallen Gallery",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-FLOODED-MAZE",
+      "name": "The Sunken Course",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-OLD-RING",
+      "name": "The Old Ring",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-PAINTBALL-FORT",
+      "name": "The Empty Fort",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-POWDER-BERM",
+      "name": "The Powder Berm",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-RUSTED-OVAL",
+      "name": "Rusted Oval",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "HERITAGE-VETERANS-YARD",
+      "name": "Veterans' Yard",
+      "source_prs": [
+        324
+      ],
+      "namespaces": [
+        "DORMANT_HERITAGE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "IRON_QUARRY",
+      "name": "Iron Quarry QF stadium",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "ISLAND_ENTRY_CHECK",
+      "name": "Island entry screening and rescue interchange",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LAST_FIELD",
+      "name": "Last Field championship stadium",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LAST_FIELD_SUITES",
+      "name": "Championship private suites and press balconies",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "name": "Arsenal Barbershop",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "name": "Belt Keeper Rune Keep",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "name": "Bridge at the Mountain Lake",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-CHILI-STABLE",
+      "name": "Chili Outlaw Stable",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "name": "People's Champ Road Commons",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "name": "Compact Neutral Grounds",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Country Club of Jackson",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "D0nkey K0ng Highland Stronghold",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-DK-MUD-HILL",
+      "name": "Mire Hill Battlefield",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "name": "League Archive",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-LEAGUE-CHAMBER",
+      "name": "League Chamber",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-LLC-BOARDROOM",
+      "name": "LLC Mercantile Boardroom",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-LLC-STORM-CITY",
+      "name": "LLC Port City Storm District",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Mud Dogs Swamp",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-PITTSYS-BOOK",
+      "name": "Pittsy's Book",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-RED-RUINS",
+      "name": "Red Leopard Ruins",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "name": "Alpine Wager Route",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-NORTHERN-SPINE",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Slob Foothill Camp",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "name": "Southern Speedway",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-CENTRAL-BASIN",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-STORM-BOWL",
+      "name": "Storm Bowl",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-EASTERN-STORM-COAST",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "name": "TDS–Chili Shared March",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-WESTERN-TABLELANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Podium Shadow Waterfall Temple",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-SOUTHERN-WETLANDS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "Trade Jedi Mountain Base",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "MAIN_ACTIVE_LOC",
+        "ACTIVE_LOC"
+      ],
+      "zone_hypothesis": "REG-UPPER-VALLEYS",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "LOSERS_BEACH",
+      "name": "Losers' Beach settlement",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "MAINLAND_PUBLIC_LITTORAL",
+      "name": "Mainland public landing",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "MUSEUM_TROPHY_HALL",
+      "name": "Championship museum and trophy gallery",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "SALTWIND_STEPS",
+      "name": "Saltwind Steps QF stadium",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "TAILGATE_COMMONS",
+      "name": "Outer spectator tailgate grounds",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    },
+    {
+      "id": "UTILITY_PLANT",
+      "name": "Water, energy, waste, maintenance and standby generation",
+      "source_prs": [
+        324,
+        325
+      ],
+      "namespaces": [
+        "ISLAND_TOPOLOGY_NODE",
+        "POSTSEASON_TOPOLOGY_NODE"
+      ],
+      "zone_hypothesis": "REG-INNER-SEA-LITTORAL",
+      "anchor": null,
+      "production_access": "DRAFT_ONLY_NO_CANON_PROMOTION"
+    }
+  ],
+  "island": {
+    "status": "CANDIDATE_NOT_REAL_COORDINATES_OR_ACTIVE_ROUTES",
+    "geographic_affiliation": "Inner Sea Littoral outer map (proposal; exact mainland anchor unselected)",
+    "physical_law": "No invented distances, geometry, shore bearings, meters or open-sea span. All paths are conceptual connectivity until surveyed and checked against seven-zone world data.",
+    "nodes": [
+      {
+        "id": "MAINLAND_PUBLIC_LITTORAL",
+        "name": "Mainland public landing",
+        "zone": "mainland",
+        "use": "public",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "CAUSEWAY_OUTER_GATE",
+        "name": "Mainland causeway gatehouse",
+        "zone": "causeway",
+        "use": "security",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "CAUSEWAY_RIDGE",
+        "name": "Monumental causeway spine",
+        "zone": "causeway",
+        "use": "shared",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "ISLAND_ENTRY_CHECK",
+        "name": "Island entry screening and rescue interchange",
+        "zone": "island_north",
+        "use": "security",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "HARBOR_RELIEF",
+        "name": "Emergency harbor and ferry dock",
+        "zone": "island_north",
+        "use": "service",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "BROADCAST_HQ",
+        "name": "Broadcast control and commentary headquarters",
+        "zone": "island_north",
+        "use": "media",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "TAILGATE_COMMONS",
+        "name": "Outer spectator tailgate grounds",
+        "zone": "island_west",
+        "use": "spectator",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "LOSERS_BEACH",
+        "name": "Losers' Beach settlement",
+        "zone": "island_west",
+        "use": "seasonal_lodging",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "BEACH_PAVILIONS",
+        "name": "Veteran beach pavilions and tavern streets",
+        "zone": "island_west",
+        "use": "seasonal_lodging",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "IRON_QUARRY",
+        "name": "Iron Quarry QF stadium",
+        "zone": "island_west",
+        "use": "quarterfinal",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "SALTWIND_STEPS",
+        "name": "Saltwind Steps QF stadium",
+        "zone": "island_east",
+        "use": "quarterfinal",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "BREAKWATER_GROUNDS",
+        "name": "Breakwater Grounds QF stadium",
+        "zone": "island_south",
+        "use": "quarterfinal",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "CONTENDER_FORTRESS",
+        "name": "Fortress contenders' residence",
+        "zone": "island_central",
+        "use": "contestant",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "BYE_HOUSE",
+        "name": "Protected bye residence",
+        "zone": "island_central",
+        "use": "contestant",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "CROWN_STAIR",
+        "name": "Crown Stair semifinal stadium",
+        "zone": "island_north",
+        "use": "semifinal",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "GROVE_STANDARDS",
+        "name": "Grove of Standards semifinal stadium",
+        "zone": "island_central",
+        "use": "semifinal",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "CHAMPIONS_WALK",
+        "name": "Champions' Walk memorial axis",
+        "zone": "island_central",
+        "use": "public_history",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "FARRELL_SANCTUARY",
+        "name": "Protected Michael Farrell memorial precinct",
+        "zone": "island_central",
+        "use": "memorial",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "MUSEUM_TROPHY_HALL",
+        "name": "Championship museum and trophy gallery",
+        "zone": "island_central",
+        "use": "public_history",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "LAST_FIELD",
+        "name": "Last Field championship stadium",
+        "zone": "island_upland",
+        "use": "final",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "LAST_FIELD_SUITES",
+        "name": "Championship private suites and press balconies",
+        "zone": "island_upland",
+        "use": "hospitality",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "UTILITY_PLANT",
+        "name": "Water, energy, waste, maintenance and standby generation",
+        "zone": "island_south",
+        "use": "service",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      },
+      {
+        "id": "EMERGENCY_PIER",
+        "name": "South coast emergency evacuation pier",
+        "zone": "island_south",
+        "use": "service",
+        "status": "PROPOSED_ONLY",
+        "coordinates": null
+      }
+    ],
+    "edges": [
+      {
+        "id": "CAND-ISL-EDGE-001",
+        "from": "MAINLAND_PUBLIC_LITTORAL",
+        "to": "CAUSEWAY_OUTER_GATE",
+        "modes": [
+          "public",
+          "service",
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-002",
+        "from": "CAUSEWAY_OUTER_GATE",
+        "to": "CAUSEWAY_RIDGE",
+        "modes": [
+          "public",
+          "service",
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-003",
+        "from": "CAUSEWAY_RIDGE",
+        "to": "ISLAND_ENTRY_CHECK",
+        "modes": [
+          "public",
+          "service",
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-004",
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "HARBOR_RELIEF",
+        "modes": [
+          "service",
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-005",
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "BROADCAST_HQ",
+        "modes": [
+          "media",
+          "service"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-006",
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "TAILGATE_COMMONS",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-007",
+        "from": "TAILGATE_COMMONS",
+        "to": "LOSERS_BEACH",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-008",
+        "from": "LOSERS_BEACH",
+        "to": "BEACH_PAVILIONS",
+        "modes": [
+          "public",
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-009",
+        "from": "TAILGATE_COMMONS",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-010",
+        "from": "TAILGATE_COMMONS",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-011",
+        "from": "TAILGATE_COMMONS",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-012",
+        "from": "TAILGATE_COMMONS",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-013",
+        "from": "TAILGATE_COMMONS",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-014",
+        "from": "TAILGATE_COMMONS",
+        "to": "CHAMPIONS_WALK",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-015",
+        "from": "CHAMPIONS_WALK",
+        "to": "MUSEUM_TROPHY_HALL",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-016",
+        "from": "MUSEUM_TROPHY_HALL",
+        "to": "FARRELL_SANCTUARY",
+        "modes": [
+          "memorial_public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-017",
+        "from": "CHAMPIONS_WALK",
+        "to": "LAST_FIELD",
+        "modes": [
+          "public"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-018",
+        "from": "LAST_FIELD",
+        "to": "LAST_FIELD_SUITES",
+        "modes": [
+          "private_guest",
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-019",
+        "from": "CONTENDER_FORTRESS",
+        "to": "BYE_HOUSE",
+        "modes": [
+          "contender"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-020",
+        "from": "CONTENDER_FORTRESS",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "contender"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-021",
+        "from": "CONTENDER_FORTRESS",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "contender"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-022",
+        "from": "CONTENDER_FORTRESS",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "contender"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-023",
+        "from": "CONTENDER_FORTRESS",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "contender"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-024",
+        "from": "CONTENDER_FORTRESS",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "contender"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-025",
+        "from": "CONTENDER_FORTRESS",
+        "to": "LAST_FIELD",
+        "modes": [
+          "contender"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-026",
+        "from": "ISLAND_ENTRY_CHECK",
+        "to": "CONTENDER_FORTRESS",
+        "modes": [
+          "contender",
+          "security"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-027",
+        "from": "UTILITY_PLANT",
+        "to": "BROADCAST_HQ",
+        "modes": [
+          "service",
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-028",
+        "from": "UTILITY_PLANT",
+        "to": "LAST_FIELD",
+        "modes": [
+          "service"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-029",
+        "from": "UTILITY_PLANT",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "service"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-030",
+        "from": "UTILITY_PLANT",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "service"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-031",
+        "from": "UTILITY_PLANT",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "service"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-032",
+        "from": "UTILITY_PLANT",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "service"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-033",
+        "from": "UTILITY_PLANT",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "service"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-034",
+        "from": "UTILITY_PLANT",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "service",
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-035",
+        "from": "HARBOR_RELIEF",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-036",
+        "from": "BROADCAST_HQ",
+        "to": "LAST_FIELD",
+        "modes": [
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-037",
+        "from": "BROADCAST_HQ",
+        "to": "CROWN_STAIR",
+        "modes": [
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-038",
+        "from": "BROADCAST_HQ",
+        "to": "GROVE_STANDARDS",
+        "modes": [
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-039",
+        "from": "BROADCAST_HQ",
+        "to": "IRON_QUARRY",
+        "modes": [
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-040",
+        "from": "BROADCAST_HQ",
+        "to": "SALTWIND_STEPS",
+        "modes": [
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-041",
+        "from": "BROADCAST_HQ",
+        "to": "BREAKWATER_GROUNDS",
+        "modes": [
+          "media"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-042",
+        "from": "CONTENDER_FORTRESS",
+        "to": "LOSERS_BEACH",
+        "modes": [
+          "post_elimination",
+          "security"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-043",
+        "from": "LOSERS_BEACH",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-044",
+        "from": "TAILGATE_COMMONS",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "id": "CAND-ISL-EDGE-045",
+        "from": "LAST_FIELD",
+        "to": "EMERGENCY_PIER",
+        "modes": [
+          "emergency"
+        ],
+        "status": "PLANNING_ONLY"
+      }
+    ],
+    "venues": [
+      {
+        "id": "CAND-POST-LAST-FIELD",
+        "name": "Last Field",
+        "zone": "central_upland",
+        "morphology": "fixed stone championship oval on central rock upland",
+        "round_assignment": "FINAL_ONLY",
+        "categories": [
+          "CHAMPIONSHIP_ONLY"
+        ]
+      },
+      {
+        "id": "CAND-POST-OLD-RING",
+        "name": "Old Ring",
+        "zone": "inner_quarry",
+        "morphology": "oldest shallow stone competition circle, close spectator banks",
+        "round_assignment": "RETIRED_EXHIBITION_HERITAGE",
+        "categories": [
+          "HERITAGE_NON_BRACKET"
+        ]
+      },
+      {
+        "id": "CAND-POST-IRON-QUARRY",
+        "name": "Iron Quarry",
+        "zone": "inland_quarry",
+        "morphology": "stone quarry bowl with vertical terraces and marked approach lanes",
+        "round_assignment": "QUARTERFINAL_ONLY",
+        "categories": [
+          "QUARTERFINAL"
+        ]
+      },
+      {
+        "id": "CAND-POST-VETERANS-YARD",
+        "name": "Veterans' Yard",
+        "zone": "western_fold",
+        "morphology": "smaller inland ancestral training square with worn terraces",
+        "round_assignment": "RETIRED_EXHIBITION_HERITAGE",
+        "categories": [
+          "HERITAGE_NON_BRACKET"
+        ]
+      },
+      {
+        "id": "CAND-POST-SALTWIND",
+        "name": "Saltwind Steps",
+        "zone": "eastern_cliff",
+        "morphology": "elevated limestone steps on windward sea-facing cliff",
+        "round_assignment": "QUARTERFINAL_ONLY",
+        "categories": [
+          "QUARTERFINAL"
+        ]
+      },
+      {
+        "id": "CAND-POST-BREAKWATER",
+        "name": "Breakwater Grounds",
+        "zone": "harbor",
+        "morphology": "tidal-controlled seawall court near protected harbor",
+        "round_assignment": "QUARTERFINAL_ONLY",
+        "categories": [
+          "QUARTERFINAL"
+        ]
+      },
+      {
+        "id": "CAND-POST-CROWN-STAIR",
+        "name": "Crown Stair",
+        "zone": "central_upland",
+        "morphology": "monumental competition court with ceremonial ascending steps",
+        "round_assignment": "SEMIFINAL_ONLY",
+        "categories": [
+          "SEMIFINAL"
+        ]
+      },
+      {
+        "id": "CAND-POST-GROVE",
+        "name": "Grove of Standards",
+        "zone": "sheltered_grove",
+        "morphology": "forest-shaded tournament amphitheater with persistent markers",
+        "round_assignment": "SEMIFINAL_ONLY",
+        "categories": [
+          "SEMIFINAL"
+        ]
+      },
+      {
+        "id": "CAND-POST-CAUSEWAY",
+        "name": "Causeway Trial",
+        "zone": "southern_tide",
+        "morphology": "raised shore-crossing stone route with tidal checkpoint spans",
+        "round_assignment": "HERITAGE_CAUSEWAY_NOT_BRACKET_MATCH",
+        "categories": [
+          "HERITAGE_NON_BRACKET"
+        ]
+      }
+    ],
+    "historical_season_count": 11,
+    "annual_proposed_site_program": [
+      {
+        "year": 2015,
+        "era": "FOUNDING_FOUR_TEAM",
+        "site_ids": [
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 0,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2016,
+        "era": "FOUNDING_FOUR_TEAM",
+        "site_ids": [
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 0,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2017,
+        "era": "EXPANDED_SIX_TEAM",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 2,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2018,
+        "era": "EXPANDED_SIX_TEAM",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 2,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2019,
+        "era": "EXPANDED_SIX_TEAM",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 2,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2020,
+        "era": "EXPANDED_SIX_TEAM",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 2,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2021,
+        "era": "SEVEN_TEAM_MODERN",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-BREAKWATER",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 3,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2022,
+        "era": "SEVEN_TEAM_MODERN",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-BREAKWATER",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 3,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2023,
+        "era": "SEVEN_TEAM_MODERN",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-BREAKWATER",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 3,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2024,
+        "era": "SEVEN_TEAM_MODERN",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-BREAKWATER",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 3,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      },
+      {
+        "year": 2025,
+        "era": "SEVEN_TEAM_MODERN",
+        "site_ids": [
+          "CAND-POST-IRON-QUARRY",
+          "CAND-POST-SALTWIND",
+          "CAND-POST-BREAKWATER",
+          "CAND-POST-CROWN-STAIR",
+          "CAND-POST-GROVE",
+          "CAND-POST-LAST-FIELD"
+        ],
+        "round_counts": {
+          "quarterfinals": 3,
+          "semifinals": 2,
+          "championships": 1
+        },
+        "historical_event_truth": "verified",
+        "site_chronology_truth": "FOUNDER_ROUND_DESIGNATED_DRAFT",
+        "media_hardware_state": "UNVERIFIED_FICTIONAL_ERA_PROPOSAL"
+      }
+    ],
+    "source_reported_edge_count": 45,
+    "actual_edge_count": 45,
+    "holds": [
+      "mainland crossing anchor and exact island placement unknown",
+      "causeway load/hydrology/weather engineering not verified",
+      "power source and network reach outside island unresolved",
+      "Last Field Central Basin earlier proposal not yet formally superseded",
+      "all IDs candidate not permanent LOC/ROUTE"
+    ],
+    "unresolved": "Previous Central Basin championship candidate vs proposed Inner Sea offshore Last Field; mainland causeway anchor unselected.",
+    "main_world_mutated": false
+  },
+  "character_reference_library": {
+    "source_pr": 253,
+    "status": "INTERNAL_REVIEW_RENDERER_QA_HOLD",
+    "approved_environment_pngs": 0,
+    "assets": [
+      {
+        "id": "CHAR-JAKE-KALOPER",
+        "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "team": "ObiWan Jacoby",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "expected_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-WILSON-LOOK",
+        "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "team": "D0nkey K0ng",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "expected_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-PHILLIP-PITTS",
+        "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "team": "Three Dreaded Snake",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "expected_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-AUSTIN-BYARS",
+        "location_id": "LOC-BELT-KEEPER-KEEP",
+        "team": "His Majesty's Blood",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "expected_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-BRANDON-PRYOR",
+        "location_id": "LOC-CHILI-STABLE",
+        "team": "Chili Cheesers",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "expected_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-JORDAN-HOLLINGSHEAD",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "team": "Slob on my Dobb",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "expected_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-ZACH-WILSON",
+        "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "team": "Dr. Duckhook",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "expected_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-KEVIN-ZEEK",
+        "location_id": "LOC-RED-RUINS",
+        "team": "Red Leopards",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "expected_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-BOBBY-MITCHELL",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "team": "Mud Dogs",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+        "expected_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-BEN-WHIPPLE",
+        "location_id": "LOC-CHINS-ROAD-COMMONS",
+        "team": "Seven Deadly Chins",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+        "expected_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-DAVID-BABB",
+        "location_id": "LOC-LLC-BOARDROOM",
+        "team": "The LLC",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "expected_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      },
+      {
+        "id": "CHAR-MANNING-WELTY",
+        "location_id": "LOC-STORM-BOWL",
+        "team": "El Niño",
+        "source_asset_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+        "expected_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+        "approval": "LINEUP_APPROVED_RENDERER_QA_HOLD",
+        "visibility": "internal"
+      }
+    ]
+  },
+  "observer_preview": {
+    "pr": 314,
+    "commit": "cd5814904fba3bb0d6f51490b30eb854684ffdd8",
+    "scope": "23 location environment model candidates in Commonwealth audience-site viewer",
+    "approval": "CANDIDATE_NOT_APPROVED",
+    "published_or_live_location_assertion": false
+  }
+}
