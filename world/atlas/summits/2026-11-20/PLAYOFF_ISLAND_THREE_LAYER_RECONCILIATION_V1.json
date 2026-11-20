@@ -4,7 +4,7 @@
   "status": "EDITORIAL_SOURCE_CROSSWALK_NOT_CANON",
   "source_pr": 322,
   "source_branch": "feat/postseason-island-historical-foundation-20261118",
-  "source_sha": "558504e268246409b505ad94868e7ccfef76d088",
+  "source_sha": "c3f08207e6a0be1cde32e0eca9bb9ccf7f56e420",
   "counts": {
     "total_island_handles": 44,
     "postseason_arena_sites": 9,
@@ -17,9 +17,14 @@
     "historical_seasons": 11
   },
   "known_source_defect": {
-    "description": "Stale internal edge_count metadata",
-    "recorded": 41,
-    "actual": 45
+    "description": "Previously stale declared link count in PR #322; source metadata repaired",
+    "previously_declared": 41,
+    "recorded": 45,
+    "actual": 45,
+    "status": "RESOLVED_IN_UPSTREAM_PR_322",
+    "source_path": "planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json",
+    "source_blob_sha": "2edc3efcb8e50dba35f851a0a861c785680bffad",
+    "resolution": "23-node / 45-link source and source tests consistent; editorial geography remains unpromoted"
   },
   "championship_identity_conflict": {
     "existing_candidate": "CAND-CHAMP-LAST-FIELD",
@@ -3443,5 +3448,7 @@
       ]
     }
   ],
-  "scope": "Editorial inspection only; no live location/route, 2026 results or protected memorial dates mutated"
+  "scope": "Editorial inspection only; no live location/route, 2026 results or protected memorial dates mutated",
+  "source_topology_blob_sha": "2edc3efcb8e50dba35f851a0a861c785680bffad",
+  "pinned_topology_path": "world/atlas/summits/2026-11-20/ISLAND_TOPOLOGY_PINNED_SOURCE_V1.json"
 }
