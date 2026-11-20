@@ -99,8 +99,16 @@ def validate() -> dict:
         require(all(isinstance(x.get(depth), dict) and x[depth]
                     for depth in ("layer1", "layer2", "layer3")),
                 f"island three-depth record missing: {x['id']}")
-        require(x.get("status") in ("UNPROMOTED", "EDITORIAL_ONLY", "DORMANT_HERITAGE") or
-                x.get("kind") == "ISLAND_TOPOLOGY_NODE",
+        statuses_by_class = {
+            "POSTSEASON_ARENA": {"UNPROMOTED"},
+            "ISLAND_TOPOLOGY_NODE": {"PROPOSED_ONLY"},
+            "DORMANT_HERITAGE": {"STAFF_CLOSED", "BARRIER_LOCKED", "PERMIT_REQUIRED",
+                                 "ACCESS_PROHIBITED", "MASONRY_SURVEY_HOLD",
+                                 "CLOSED_TEST_RING", "RANGE_CLOSED",
+                                 "CLOSED_UNTIL_REFURBISHED"},
+            "NEUTRAL_SITING_HYPOTHESIS": {"NOT_LOC"},
+        }
+        require(x.get("status") in statuses_by_class.get(x.get("kind"), set()),
                 f"unexpected island promotion: {x['id']}")
     require(island["counts"]["historical_matches"] == 56, "island historical fixture count mismatch")
     require(island["counts"]["dormant_heritage_sites"] == 9, "dormant island heritage lost")
