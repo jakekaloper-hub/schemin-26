@@ -180,7 +180,7 @@ def validate(root: Path, quiet=False):
               bool(segment and segment.group(1).count("**If ") == 3
                    and re.search(r"\*\*If (?:tie|tie/undecided|tie/unknown)", segment.group(1))))
     check("no fixed page count and no final approval",
-          "no folio counts" in matrix and "NOT PAGE OR STORY LOCK" in matrix)
+          "no folio counts" in matrix and "NO PAGE OR STORY LOCK" in matrix)
     check("index links to all governing input files",
           all(x in index for x in
               (FOUND.name, SYN.name, MATRIX.name,
