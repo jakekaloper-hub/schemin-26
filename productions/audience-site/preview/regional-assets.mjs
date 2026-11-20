@@ -420,8 +420,32 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const geometry=kind==='swamp'||kind==='channel'?wetlandWaterDisk():kind==='river'?wetlandWaterDisk('Candidate Temple upstream river surface'):kind==='pool'?wetlandWaterDisk('Candidate Temple plunge pool surface',40):kind==='pond'?wetlandWaterDisk('Candidate Country Club pond surface',40):new THREE.CircleGeometry(1,40);
     const o=mesh(g,geometry,m,x,y,z);o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.renderOrder=2;water.push({kind,material:m,mesh:o});return o;
   }
+  function templeFallingSheetGeometry(width,drop){
+    // Contour ONLY the inherited Waterfall Temple sheet. The original entire
+    // perimeter (including crest and landing) stays fixed. Interior depth
+    // varies modestly without extra water meshes, routes or hydrology claims.
+    const geometry=new THREE.PlaneGeometry(width,drop,24,32);
+    geometry.name='Candidate Temple contoured waterfall sheet geometry';
+    const position=geometry.getAttribute('position'),uv=geometry.getAttribute('uv');
+    for(let i=0;i<position.count;i++){
+      const u=uv.getX(i),v=uv.getY(i);
+      const sideHold=Math.pow(Math.sin(Math.PI*u),2);
+      const endHold=Math.pow(Math.sin(Math.PI*v),2);
+      const trough=Math.pow(Math.sin(u*15.5+v*8.3),2);
+      const depth=sideHold*endHold*(.078+.085*(.55+.45*trough));
+      position.setZ(i,Math.min(.17,Math.max(0,depth)));
+    }
+    position.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    return geometry;
+  }
   function waterfall(g,x,y,z,width,drop){
-    const m=waterMaterial('waterfall','#67aaa0'),o=mesh(g,new THREE.PlaneGeometry(width,drop,24,32),m,x,y-drop/2,z);o.castShadow=false;o.renderOrder=2;water.push({kind:'waterfall',material:m,mesh:o});
+    const m=waterMaterial('waterfall','#67aaa0');
+    const o=mesh(g,templeFallingSheetGeometry(width,drop),m,x,y-drop/2,z);
+    o.name='Candidate Temple contoured animated waterfall sheet';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'waterfall',
+      originalDimensions:[width,drop],originalPerimeterPreserved:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    o.castShadow=false;o.renderOrder=2;water.push({kind:'waterfall',material:m,mesh:o});
     // Moving landing ripples, not frozen metallic-looking torus props.
     // Candidate local detail only: no claim about actual approved hydrology geometry.
     for(let i=0;i<4;i++){
