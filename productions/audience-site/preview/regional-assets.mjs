@@ -494,13 +494,38 @@ export function buildRegionalAssets(THREE, bindings, height) {
       staticRelief:true,navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function templeFlutedPillar(g,i){
+    // Existing five Temple shafts only: original stone material, location,
+    // height, capitals and enclosing radii. Scenic sculpting, not new canon.
+    const h=3.1,top=.23,base=.29;
+    const geometry=new THREE.CylinderGeometry(top,base,h,32,8);
+    geometry.name='Candidate Temple fluted stone pillar geometry';
+    const position=geometry.getAttribute('position');
+    for(let j=0;j<position.count;j++){
+      const x=position.getX(j),y=position.getY(j),z=position.getZ(j);
+      // Preserve both original end rings and caps without modification.
+      if(Math.abs(y)>=h/2-.000001)continue;
+      const angle=Math.atan2(z,x);
+      const flute=Math.pow(.5+.5*Math.cos(angle*8+i*.15),6);
+      const endHold=Math.pow(Math.sin(Math.PI*(y/h+.5)),2);
+      const depth=.046*flute*endHold*(.82+.18*(.5+.5*Math.sin(y*7+i)));
+      position.setXYZ(j,x*(1-depth),y,z*(1-depth));
+    }
+    position.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    const o=mesh(g,geometry,stone,1+i*1.05,2.3+h/2,1.1);
+    o.name='Candidate Temple fluted stone pillar';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'temple stone',
+      originalDimensions:[top,base,h],originalPillarIndex:i,staticRelief:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
     templeCliff(g,-6,3,-3,4,6,3,mat('#677163'),0);templeCliff(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'),1);templeCliff(g,-5,1,-5,4,4,3.6,mat('#596955'),2);
     for(let j=0;j<4;j++)box(g,1,j*.58,-.8,9-j*1.1,.58,7-j*.75,j%2?edge:stone);
     for(let j=0;j<9;j++)templeStoneTread(g,j);
     box(g,1,2.3,-1,5.2,2.8,3.6,dark);
-    for(let i=-2;i<=2;i++){cyl(g,1+i*1.05,2.3,1.1,.23,.29,3.1,stone,8);box(g,1+i*1.05,5.34,1.1,.7,.22,.65,edge);}
+    for(let i=-2;i<=2;i++){templeFlutedPillar(g,i);box(g,1+i*1.05,5.34,1.1,.7,.22,.65,edge);}
     box(g,1,5.5,-.1,6.7,.4,5,edge);box(g,1,5.9,-.1,6.1,.32,4.5,stone);box(g,1,6.22,-.1,5.2,.3,3.9,dark);
     box(g,1,2.32,1.02,1.25,2.3,.15,mat('#263c35'));
     for(let i=0;i<15;i++)box(g,-2.1+i*.44,5.52,2.43,.16,.25,.15,dark);
