@@ -1,0 +1,44 @@
+name: Commonwealth Folio Studio — source and nonpromotion gates
+on:
+  pull_request:
+    paths:
+      - "world/environment-references/cinematic-folio/**"
+      - "world/environment-references/plates/**"
+      - "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json"
+      - "world/location-control-plane/locations/**"
+      - "world/data/locations.json"
+      - "world/data/divisions.json"
+      - "world/data/owner_domains.json"
+      - "world/data/routes.json"
+      - "world/data/physical_zones.json"
+      - "world/data/atlas_location_candidates.json"
+      - "world/data/current_world_state.json"
+      - "world/data/world_state_events.json"
+  workflow_dispatch:
+jobs:
+  offline-folio:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Reproduce derived source data and pre-existing approved SVG bytes
+        run: python3 world/environment-references/cinematic-folio/build_folio.py --check
+      - name: Run source, branch-authority and image-nonpromotion regression tests
+        run: python3 -m unittest discover -s world/environment-references/cinematic-folio/tests -p 'test_*.py' -v
+      - name: Validate browser JavaScript syntax
+        run: node --check world/environment-references/cinematic-folio/site/app.js
+      - name: Assert no generated cinematic raster files were committed
+        run: |
+          if find world/environment-references/cinematic-folio -type f \( -name '*.png' -o -name '*.jpg' -o -name '*.webp' \) | grep -q .; then
+            echo "::error::Code-only Folio branch contains generated raster imagery"
+            exit 1
+          fi
+          echo "PASS — code-only assets, no generated PNG/JPEG/WebP"

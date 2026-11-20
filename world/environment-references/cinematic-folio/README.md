@@ -1,6 +1,13 @@
 # Commonwealth Cinematic Location Folio — Production Entry Point
 
-**Status:** DRAFT / NONCANON PREPRODUCTION / NO APPROVED CINEMATIC MASTERS
+**Status:** DRAFT / CODE-ONLY FOLIO STUDIO IMPLEMENTED / NO APPROVED CINEMATIC MASTERS
+
+**CODE-ONLY IMPLEMENTATION (2026-11-20):** The source-bound compiler, standalone responsive Folio Studio interface, exact-source draft Island causeway preview, 199-code cross-PR geography concordance, and checksummed 23 approved structural SVG copies are implemented. These are **reused structural references, not new generated pictures**. See [implementation and test receipt](CODE_ONLY_IMPLEMENTATION_2026-11-20.md). Open the local preview by running the repository-root command:
+
+    python3 world/environment-references/cinematic-folio/build_folio.py --check
+    python3 -m http.server 8891 --bind 127.0.0.1 --directory world/environment-references/cinematic-folio/site
+
+The frontend has six searchable/interactive sections and represents the actual 3×4 divisions, 12 homes, 23 main locations, seven regions and 18 mainland routes. Separate draft overlays read the 23-node/45-edge postseason causeway and PR #324/#325/#339 proposal concordance. **No code path produces artwork, merges drafts or promotes cinematic-reference authority.**
 
 **STOP-PRODUCTION VISUAL QA HOLD (2026-11-20):** Three actual image attempts failed review, including two hallucinated infographic/atlas posters. The manifest has been corrected to `SOURCE_INDEX_ONLY` (23/23), not `SOURCE_PACK_READY`. **Do not generate another image or declare any cinematic master without first satisfying the corrective per-site source/hydration and prompt gates.** See [the visual audit](AUDIT_VISUAL_FAILURE_AND_STOP_GATE_2026-11-20.md). No automatic canon promotion or candidate image registration.
 **Commissioned:** 2026-11-20
@@ -42,7 +49,7 @@ Do not generate 23 pictures and call them final without reviewing individual spa
 
 ## Folio state machine
 
-`SOURCE_PACK_READY → ART_BRIEF_READY → CANDIDATE_RENDER → VISUAL_QA_HOLD → APPROVED_CINEMATIC_REFERENCE`
+`SOURCE_INDEX_ONLY → SOURCE_PACKET_READY → ART_BRIEF_READY → CANDIDATE_RENDER → VISUAL_QA_HOLD → APPROVED_CINEMATIC_REFERENCE`
 
 On a QA failure: revise and rerender only the affected candidate. Store hashes, source IDs, technical prompt or camera brief, date, generator/model name if available, change reason, previous master/variant relationship, review signatures and exact asset dimensions. Keep `MISSING_APPROVED_CINEMATIC_REFERENCE` until an independent image-based acceptance and reference-register update actually happens.
 

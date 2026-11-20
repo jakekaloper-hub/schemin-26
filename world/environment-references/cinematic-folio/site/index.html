@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Commonwealth Folio Studio · Schemin ’26</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to folio content</a>
+  <div class="shell">
+    <header class="masthead">
+      <div class="identity">
+        <span class="crest" aria-hidden="true">✦</span>
+        <div><div class="brand">SCHEMIN <span>’26</span></div>
+        <div class="brand-sub">THE COMMONWEALTH · CINEMATIC FOLIO STUDIO</div></div>
+      </div>
+      <div class="header-meta">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>CODE-ONLY / NO IMAGE GENERATION</span>
+        <span class="divider-v"></span>
+        <a href="https://github.com/jakekaloper-hub/schemin-26/pull/337" target="_blank" rel="noopener noreferrer">Draft PR #337 ↗</a>
+      </div>
+    </header>
+    <nav class="nav" aria-label="Folio sections">
+      <button type="button" class="nav-tab active" data-view="atlas" aria-current="page">World Atlas</button>
+      <button type="button" class="nav-tab" data-view="divisions">Three Divisions</button>
+      <button type="button" class="nav-tab" data-view="locations">Location Folio</button>
+      <button type="button" class="nav-tab" data-view="island">Postseason Island</button>
+      <button type="button" class="nav-tab" data-view="proposals">Draft Geography</button>
+      <button type="button" class="nav-tab" data-view="sources">Source Evidence</button>
+    </nav>
+    <main id="content">
+      <section class="intro">
+        <div><div class="eyebrow" id="section-eyebrow">01 / THE COMMONWEALTH</div>
+        <h1 id="view-title">One league. One connected world.</h1>
+        <p id="view-description">Three division affiliations, twelve inhabited homelands, seven causal regions, and one mainland travel network. Postseason Island remains a separate, source-pinned draft.</p></div>
+        <div class="intro-right">
+          <strong>WORLD ENGINE V1.1</strong>
+          <span id="current-state-label">Source state: loading…</span>
+          <span>Abstract coordinates · not survey geometry</span>
+        </div>
+      </section>
+      <section id="metrics" class="metrics" aria-label="World coverage statistics"></section>
+      <section id="view-atlas" class="view is-visible" aria-label="World Atlas">
+        <div class="workarea">
+          <div class="panel mainpanel">
+            <div class="panel-head">
+              <div><div class="eyebrow">GOVERNED MAINLAND</div><h2>Location and route network</h2></div>
+              <div class="toolbar"><label class="tiny-label" for="atlas-div">Division focus</label>
+                <select id="atlas-div"><option value="all">All divisions</option></select><label class="sr-only" for="atlas-region">Region focus</label><select id="atlas-region"><option value="all">All regions</option></select></div>
+            </div>
+            <p class="muted compact">Schematic projection of the registered Atlas positions. Region boxes and paths indicate relationships only; distances, coastlines and sovereignty are not represented.</p>
+            <div id="world-map" class="map-stage" role="group" aria-label="Schematic mainland location network"></div>
+            <div class="map-legend"><span><i class="legend-line"></i> Existing road / travel route</span><span><i class="legend-point"></i> Active LOC identifier</span><span><i class="legend-region"></i> Physical zone extent (approximate)</span></div>
+          </div>
+          <aside class="panel inspector" id="atlas-inspector" aria-live="polite"></aside>
+        </div>
+        <div class="panel section-below"><div class="panel-head"><div><div class="eyebrow">CAUSAL PHYSICAL GEOGRAPHY</div><h2>Seven established regions</h2></div></div><div class="region-grid" id="region-grid"></div></div>
+      </section>
+      <section id="view-divisions" class="view" aria-label="Division and homeland records">
+        <p class="note">Divisions are nonexclusive League jurisdictions. Home settlements are not segregated by species, and each owner’s environment is distinct.</p>
+        <div id="division-grid" class="division-grid"></div>
+      </section>
+      <section id="view-locations" class="view" aria-label="Cinematic location folio">
+        <div class="panel">
+          <div class="panel-head wrap"><div><div class="eyebrow">23 REUSABLE LOCATION IDS</div><h2>Structural-reference library</h2></div>
+            <div class="toolbar">
+              <label class="sr-only" for="loc-search">Search location names or codes</label>
+              <input id="loc-search" type="search" placeholder="Search name, LOC ID or landmark…" autocomplete="off">
+              <label class="sr-only" for="loc-region">Filter region</label>
+              <select id="loc-region"><option value="all">All seven regions</option></select>
+            </div>
+          </div>
+          <p class="muted compact">Pre-existing approved structural SVGs are displayed below. No cinematic PNG masters are approved or included. Select a location for its source card, terrain, routes, owner and dated continuity.</p>
+          <div id="location-list" class="site-grid"></div>
+          <p id="loc-empty" class="empty" hidden>No LOC records match these filters.</p>
+        </div>
+        <div class="panel section-below" id="location-detail" aria-live="polite"></div>
+      </section>
+      <section id="view-island" class="view" aria-label="Draft postseason island">
+        <div class="note warning"><strong>PROPOSED, NOT MAINLINE CANON.</strong> The 2015–2025 postseason venue reconstruction, offshore geography, mainland causeway and Last Field relocation are present in unmerged PR #322. Bridge engineering, exact mainland anchor and Last Field supersession remain open.</div>
+        <div class="workarea">
+          <div class="panel mainpanel">
+            <div class="panel-head wrap"><div><div class="eyebrow">POSTSEASON / SOURCE-PINNED DRAFT</div><h2>The causeway and island precinct</h2></div><label class="toggle"><input type="checkbox" id="all-island-edges"> Show all 45 internal links</label></div>
+            <p class="muted compact">A <strong>topology diagram</strong>, not an approved map or coastline. Every connection is read from the proposed 23-node, 45-edge causeway graph. Public / contender / service paths remain differentiated by source permissions.</p>
+            <div id="island-stage" class="island-stage"></div>
+          </div>
+          <aside class="panel inspector" id="island-inspector" aria-live="polite"></aside>
+        </div>
+        <div class="panel section-below"><div class="panel-head"><div><div class="eyebrow">ARENA CONSTITUTION / WORKING LOCATIONS</div><h2>Nine postseason venue candidates</h2></div></div><div id="venue-grid" class="venue-grid"></div></div>
+      </section>
+      <section id="view-proposals" class="view" aria-label="Cross branch draft geography concordance">
+        <div class="note warning"><strong>EDITORIAL-ONLY.</strong> The 199 exact source identifiers are a union of two open PR catalogs, not 199 physical places. No candidate automatically becomes an active location. Conflicting proposals remain distinct until adjudicated.</div>
+        <div class="panel">
+          <div class="panel-head wrap"><div><div class="eyebrow">PR #324 × PR #325 · CONCORDANCE #339</div><h2>Cross-PR identifier registry</h2></div>
+            <div class="toolbar"><label class="sr-only" for="proposal-search">Search draft records</label><input id="proposal-search" type="search" placeholder="Search proposal IDs…"><label class="sr-only" for="proposal-scope">Filter proposal source</label><select id="proposal-scope"><option value="all">All 199 handles</option><option value="324">In PR #324</option><option value="325">In PR #325</option><option value="only324">PR #324 only</option><option value="only325">PR #325 only</option><option value="unmerged">Unmerged proposals only</option></select></div></div>
+          <p class="muted compact" id="proposal-summary"></p>
+          <div id="proposal-list" class="proposal-list"></div>
+        </div>
+      </section>
+      <section id="view-sources" class="view" aria-label="Source provenance and production readiness">
+        <div class="workarea">
+          <div class="panel mainpanel"><div class="panel-head"><div><div class="eyebrow">IMMUTABLE INPUTS</div><h2>Source and repository evidence</h2></div></div><div id="source-list" class="source-list"></div></div>
+          <aside class="panel inspector" id="source-inspector"><div class="eyebrow">PRODUCTION POLICY</div><h2>Approval remains gated</h2><p>All structural diagrams were copied unchanged from approved Atlas environment-reference bytes. This frontend never generates art, infers new character identities, assigns island coordinates, or promotes editorial site proposals.</p><p>The active 2026 snapshot available in main is through the end of Week 3. Later-world changes require separate documented evidence.</p></aside>
+        </div>
+      </section>
+    </main>
+    <footer><span>SCHEMIN ’26 · COMMONWEALTH FOLIO</span><span>Built from existing source IDs and draft-branch evidence · no images generated or published</span></footer>
+  </div>
+  <div id="error" role="alert" hidden></div>
+</body>
+</html>
