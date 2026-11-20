@@ -476,7 +476,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geo.computeBoundingSphere();geometries.add(geo);
     const m=new THREE.ShaderMaterial({
       uniforms:{uTime:{value:0}},transparent:true,depthWrite:false,blending:THREE.NormalBlending,
-      vertexShader:`uniform float uTime;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;
+      vertexShader:`uniform float uTime;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;varying float vViewFade;
         void main(){
           float age=fract(aPhase+uTime*(.105+.048*aDrift.y));
           vec3 p=position;
@@ -493,12 +493,19 @@ export function buildRegionalAssets(THREE, bindings, height) {
           gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22);
           gl_Position=projectionMatrix*view;
           vOpacity=pow(max(sin(age*3.14159265),0.),.75)*(.50+.38*aDrift.y);
+          // Mist stays locally animated; modest camera-depth extinction is optical only.
+          vViewFade=1.-.25*smoothstep(7.,85.,-view.z);
         }`,
-      fragmentShader:`varying float vOpacity;
+      fragmentShader:`varying float vOpacity;varying float vViewFade;
         void main(){
           float radial=length(gl_PointCoord-vec2(.5));
+          // Soft finite spray core with a faint depth-scattered brighter center.
+          // No extra particle, fragment loop, texture, weather, or light input.
+          float core=1.-smoothstep(.02,.30,radial);
           float feather=1.-smoothstep(.08,.49,radial);
-          gl_FragColor=vec4(.75,.85,.78,feather*vOpacity*.22);
+          vec3 scatter=mix(vec3(.68,.82,.78),vec3(.91,.96,.88),core*.42);
+          float alpha=feather*vOpacity*(.16+.07*core)*vViewFade;
+          gl_FragColor=vec4(scatter,alpha);
         }`
     });
     materials.set('candidate-temple-plunge-mist',m);ambientMotion.push(m);
