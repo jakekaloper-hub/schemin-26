@@ -20,13 +20,21 @@ test('falling Temple sheet preserves original position, dimensions, and fixed bo
  assert.equal(mesh.renderOrder,2);assert.equal(material.uniforms.uFall.value,1);
  assert.equal(geo.getAttribute('position').count,25*33);
  const uv=geo.getAttribute('uv'),pos=geo.getAttribute('position');
- let perimeter=0,interior=0;
+ let perimeter=0,interior=0,folded=0;
  for(let i=0;i<uv.count;i++){
-   assert.equal(pos.getZ(i),0,'source waterfall plane unchanged before shader displacement');
-   if([0,1].some(n=>Math.abs(uv.getX(i)-n)<1e-6||Math.abs(uv.getY(i)-n)<1e-6))perimeter++;
-   else interior++;
+   const depth=pos.getZ(i);
+   assert.ok(Number.isFinite(depth)&&depth>=-1e-6&&depth<=.17001,
+     'candidate rest contour is bounded, finite and cannot expand the inherited sheet');
+   if([0,1].some(n=>Math.abs(uv.getX(i)-n)<1e-6||Math.abs(uv.getY(i)-n)<1e-6)){
+     assert.ok(Math.abs(depth)<1e-6,'source crest, landing and both side boundaries immovable');
+     perimeter++;
+   }else{
+     interior++;
+     if(depth>.04)folded++;
+   }
  }
- assert.ok(perimeter>0&&interior>0,'sheet includes fixed edge and animated interior vertices');
+ assert.ok(perimeter>100&&interior>0,'sheet has physical border and animated interior vertices');
+ assert.ok(folded>200,'candidate rest geometry provides true interior depth contour');
  a.dispose();
 });
 
@@ -71,12 +79,20 @@ test('higher-density Temple sheet resolves both inherited fold harmonics without
  const before=JSON.stringify(bindings),a=create(),fall=a.water.find(w=>w.kind==='waterfall'),geo=fall.mesh.geometry;
  const uv=geo.getAttribute('uv'),p=geo.getAttribute('position');
  const samplesX=new Set(),samplesY=new Set(),boundary=[];
+ let contouredInterior=0;
  for(let i=0;i<uv.count;i++){
-  const u=uv.getX(i),v=uv.getY(i);
+  const u=uv.getX(i),v=uv.getY(i),depth=p.getZ(i);
   samplesX.add(u.toFixed(6));samplesY.add(v.toFixed(6));
-  if(u<1e-6||u>1-1e-6||v<1e-6||v>1-1e-6)boundary.push(i);
-  assert.equal(p.getZ(i),0,'unanimated rest surface unchanged');
+  const isBoundary=u<1e-6||u>1-1e-6||v<1e-6||v>1-1e-6;
+  if(isBoundary){
+   boundary.push(i);
+   assert.ok(Math.abs(depth)<1e-6,'animated and resting waterfall have pinned borders');
+  }else{
+   assert.ok(depth>=-1e-6&&depth<=.17001,'rest contour remains within bounded sheet');
+   if(depth>.04)contouredInterior++;
+  }
  }
+ assert.ok(contouredInterior>200,'physical resting contour augments (not replaces) animated folds');
  assert.equal(samplesX.size,25);assert.equal(samplesY.size,33);
  assert.equal(geo.index.count,24*32*6);
  assert.ok(geo.getAttribute('position').count<900,'bounded one-sheet mobile vertex budget');
