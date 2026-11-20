@@ -19,6 +19,7 @@ SRC = W11 / "WEEK11_TEST_SOURCE_RECEIPT_2026-11-20.json"
 SYN = W11 / "FOUNDER_STORY_ROOM_SYNTHESIS_2026-11-20.md"
 MATRIX = W11 / "PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md"
 INDEX = W11 / "_INDEX.md"
+RECOVERY = W11 / "FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md"
 EXPECTED_GIT_BLOBS = {
     str(REF): "638395e239946c186a33a602f3338bba449abb6c",
     str(SRC): "a2ffc1c8bfee329e2dd68d6c838914e9974667e3",
@@ -29,6 +30,22 @@ ALIASES = {1: "ObiWan", 2: "Red Leopards", 3: "Slob", 4: "LLC",
            5: "DK", 6: "Three Dreaded Snake", 7: "Chili", 8: "HMB",
            9: "El Niño", 10: "Mud Dogs", 11: "Seven Deadly Chins",
            12: "Duckhook"}
+
+
+NOV18_EXPECTED = {
+    "Slob on my Dobb": ("98.48", "99.74", "95.89"),
+    "D0nkey K0ng": ("93.31", "98.66", "88.55"),
+    "His Majesty's Blood": ("87.62", "95.17", "80.10"),
+    "Dr. Duckhook": ("87.55", "96.40", "78.90"),
+    "El Niño": ("87.10", "96.88", "83.92"),
+    "Seven Deadly Chins": ("82.16", "88.24", "61.25"),
+    "Red Leopards": ("50.14", "64.81", "27.21"),
+    "The Chili Cheesers": ("38.16", "58.81", "20.68"),
+    "The LLC": ("33.41", "51.78", "15.61"),
+    "ObiWan Jacoby": ("32.45", "52.89", "12.77"),
+    "Three Dreaded Snake": ("9.61", "22.76", "2.36"),
+    "Mud Dogs": ("0.01", "0.07", "0.00"),
+}
 
 def git_blob_sha(content: bytes):
     return hashlib.sha1(b"blob " + str(len(content)).encode() + b"\0" + content).hexdigest()
@@ -53,7 +70,7 @@ def validate(root: Path, quiet=False):
     def check(name, ok, detail=""):
         checks.append((name, bool(ok), detail))
 
-    required = (FOUND, REF, SRC, SYN, MATRIX, INDEX,
+    required = (FOUND, REF, SRC, SYN, MATRIX, INDEX, RECOVERY,
                 Path("memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-20.json"))
     missing = [str(p) for p in required if not (root / p).is_file()]
     if missing:
@@ -61,8 +78,8 @@ def validate(root: Path, quiet=False):
         return 1
 
     raw = {p: (root / p).read_bytes() for p in required}
-    founder, synthesis, matrix, index = [raw[p].decode("utf-8")
-                                        for p in (FOUND, SYN, MATRIX, INDEX)]
+    founder, synthesis, matrix, index, recovery = [raw[p].decode("utf-8")
+                                        for p in (FOUND, SYN, MATRIX, INDEX, RECOVERY)]
     reference, fixture = [json.loads(raw[p]) for p in (REF, SRC)]
     provider = json.loads(raw[Path(fixture["source_path"])])
 
@@ -167,9 +184,18 @@ def validate(root: Path, quiet=False):
           house["unspecified"] == ["10-11"]
           and "HOUSE_BOARD_STATUS_UNSPECIFIED" in matrix
           and "not OFF BOARD" in matrix)
-    check("Nov18 FFHub unverified in live copy",
-          "NOT_REVERIFIED" in matrix
-          and "November 18" in matrix)
+    check("Nov18 recovered private source and still provisional",
+          "November 18 source recovery supersession" in matrix
+          and "FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md" in matrix
+          and "12/12" in recovery and "Bullpen" in recovery
+          and "VENDOR_CALIBRATION_NOT_PROVEN" in recovery)
+    table = {}
+    for name, baseline, win, loss in re.findall(
+            r"^\| ([^|]+) \| ([\d.]+) \| ([\d.]+) \| ([\d.]+) \|$",
+            recovery, re.MULTILINE):
+        table[name.strip()] = (baseline, win, loss)
+    check("Nov18 all 12 dated conditional numbers match independently checked source",
+          table == NOV18_EXPECTED, f"{len(table)}/12 rows")
     check("separate Road to Seven project",
           "Issue #319" in matrix and "separate isolated seven-PNG special" in matrix)
 
