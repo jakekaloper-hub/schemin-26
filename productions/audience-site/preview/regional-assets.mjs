@@ -1154,10 +1154,42 @@ export function buildRegionalAssets(THREE, bindings, height) {
       originalCrownEnvelopePreserved:true,navigable:false,routeIds:[],principalCharacters:[]};
     return crown;
   }
+  function jacksonBrickWing(g,x,z,index,brick){
+    // Physical mortar recesses on ONLY the two inherited Jackson brick-wing boxes.
+    // Preserve all original centers, envelope edges, material, mesh count and footprint.
+    // These candidate courses do not assert approved masonry or completed Week 3 cleanup.
+    const w=2.2,h=2.2,d=3.6,geo=new THREE.BoxGeometry(w,h,d,32,24,16);
+    const p=geo.getAttribute('position');
+    for(let k=0;k<p.count;k++){
+      const px=p.getX(k),py=p.getY(k),pz=p.getZ(k);
+      if(Math.abs(py)>=h/2-1e-5)continue;
+      // Shared BoxGeometry perimeter vertices must not split or change silhouette.
+      const facade=Math.abs(Math.abs(pz)-d/2)<1e-5&&Math.abs(px)<w/2-1e-5;
+      const flank=Math.abs(Math.abs(px)-w/2)<1e-5&&Math.abs(pz)<d/2-1e-5;
+      if(!facade&&!flank)continue;
+      const along=facade?px:pz,span=facade?w:d;
+      const courses=(py+h/2)*6/h;
+      const row=Math.max(0,Math.min(5,Math.floor(courses+1e-6)));
+      const horizontal=Math.max(0,1-Math.abs(courses-Math.round(courses))/.23);
+      const bricks=(along+span/2)*4/span+(row%2)*.5;
+      const vertical=Math.max(0,1-Math.abs(bricks-Math.round(bricks))/.18);
+      const inset=Math.min(.025,.017*horizontal+.009*vertical*(1-.5*horizontal));
+      if(facade)p.setZ(k,pz-Math.sign(pz)*inset);
+      else p.setX(k,px-Math.sign(px)*inset);
+    }
+    p.needsUpdate=true;geo.name='Candidate Jackson inward-recessed brick-wing mortar';
+    geo.computeVertexNormals();geo.computeBoundingSphere();
+    const o=mesh(g,geo,brick,x,.15+h/2,z);
+    o.name='Candidate Jackson recessed masonry wing';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',estateWingPart:'mortar-relief',
+      originalWingIndex:index,originalWingDimensions:[w,h,d],
+      sourceLandmark:'clubhouse',navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
-    box(g,0,-.15,0,12,.3,9,stone);box(g,0,.15,0,8,2.8,4.2,cream);box(g,-5,.15,.1,2.2,2.2,3.6,brick);box(g,5,.15,.1,2.2,2.2,3.6,brick);
+    box(g,0,-.15,0,12,.3,9,stone);box(g,0,.15,0,8,2.8,4.2,cream);jacksonBrickWing(g,-5,.1,0,brick);jacksonBrickWing(g,5,.1,1,brick);
     let roofIndex=0;
     const hip=(x,y,z,w,h,d)=>{
       // Recess courses INTO only the four EXISTING square-pyramid hip roofs.
