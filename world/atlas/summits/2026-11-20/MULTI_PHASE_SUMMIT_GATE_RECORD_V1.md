@@ -15,7 +15,7 @@
 - Playoff outcomes cannot cause automatic topological changes. No historical team slot is assumed to establish a past owner; venue location is **unverified** for all 2015–2025 finals.
 
 ## Repository action actually performed
-1. Added 40 new `CAND-*` records to the existing canonical **candidate** registry. Distribution: **three sublocation/transport design proposals per current owner domain** (36), plus **four unplaced Playoff Island concepts** (4).
+1. Added 40 new `CAND-*` records to the existing canonical **candidate** registry. Distribution: **three sublocation/transport design proposals per current owner storyline, with cross-domain/neutral parent correction** (36), plus **four unplaced Playoff Island concepts** (4).
 2. Preserved and processed all **48** existing candidate IDs, including held/rejected/ambient; older candidates were not deleted, renamed, promoted, or made eligible for the wrong event class.
 3. Authored detailed machine-readable source/review dossiers for all 23 live locations and all 88 candidates at `world/atlas/summits/2026-11-20/THREE_LAYER_LOCATION_DOSSIERS_V1.json`.
 4. Left `world/data/locations.json`, `routes.json`, `current_world_state.json`, the renderer and live site unchanged.
@@ -34,7 +34,7 @@ This is a **scripted, repository-evidence desk review**, not minutes from 18 act
 
 ### Phase I — Depth 1: structural and geographic archaeology
 **Librarian/Scout/Atlas/Architect check:** canonical ID, site status, geography, material identity, site type, road access, river/coast causality, neighbor consistency, collision with current routes and other proposed uses.
-**Finding:** all 23 active locations retain their source-assigned zones; 36 new owner sublocations inherit the current domain parent rather than postulating new nations. Four Playoff Island concepts have **no authorized physical coordinate, jurisdiction, shoreline or path**.
+**Finding:** all 23 active locations retain their source-assigned zones; 36 proposals are attached to the twelve owner storylines; after counterweight review Mire Hill uses neutral parent LOC-DK-MUD-HILL and TDS–Chili shared-March sites inherit their joint corridor (not an owner annexation). Four Playoff Island concepts have **no authorized physical coordinate, jurisdiction, shoreline or path**.
 **Decision:** ACCEPT candidate registration / HOLD all new active-world promotion.
 
 ### Phase II — Depth 2: civilization and film-production functionality
