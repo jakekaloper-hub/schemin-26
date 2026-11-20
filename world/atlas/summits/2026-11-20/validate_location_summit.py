@@ -73,6 +73,73 @@ def validate() -> dict:
         require(x.get("technology_translation") in ("NATIVE_PREMODERN", "FUNCTIONAL_ANALOGUE",
                  "REQUIRES_TECH_UNLOCK", "REJECTED_TECH_DRIFT"), f"invalid tech classification: {x['id']}")
 
+    # The three layers must contain source-grounded content, not merely
+    # nonempty boilerplate dictionaries. This is still editorial QA, not a
+    # fictional-world construction permit.
+    active_dossiers = {x["location_id"]: x for x in current}
+    candidate_dossiers = {x["location_id"]: x for x in proposed}
+    zone_by_id = {x["id"]: x for x in zones}
+    route_by_id = {x["id"]: x for x in routes}
+    for item in active:
+        packet = active_dossiers[item["id"]]
+        physical = packet["level_1_physical_and_arrival"]
+        society = packet["level_2_lived_civilization_and_institution"]
+        history = packet["level_3_memory_evolution_and_playoffs"]
+        region = physical["region_grounding"]
+        require(len(region) == 1 and region[0]["region_id"] == item["physical_zone_id"],
+                f"active zone grounding changed: {item['id']}")
+        require(region[0]["terrain_options"] == zone_by_id[item["physical_zone_id"]]["environment"]["terrain"],
+                f"active terrain source drift: {item['id']}")
+        require({r["route"] for r in physical["movement_bottlenecks"]} == set(item["access_route_ids"]),
+                f"active access route dossier drift: {item['id']}")
+        require(all(r["constraints"] == route_by_id[r["route"]].get("constraints", [])
+                    for r in physical["movement_bottlenecks"]),
+                f"active route constraints drift: {item['id']}")
+        require(len(society["ordinary_life_development_gate"]) >= 3,
+                f"no ordinary-life causal test: {item['id']}")
+        source_events = {e["event_id"] for e in world_events if e["location"] == item["id"]}
+        require({e["event_id"] for e in history["source_world_memory_evidence"]} == source_events,
+                f"source world-event memory omitted or invented: {item['id']}")
+        require("never automatically" in history["championship_side_effect_rule"],
+                f"playoff win misattributed to territorial power: {item['id']}")
+
+    for item in candidates:
+        packet = candidate_dossiers[item["id"]]
+        physical = packet["level_1_physical_and_arrival"]
+        society = packet["level_2_lived_civilization_and_institution"]
+        history = packet["level_3_memory_evolution_and_playoffs"]
+        zones_for_item = physical["regional_constraints_from_governing_atlas"]
+        require([z["region_id"] for z in zones_for_item] == item["likely_physical_zone_ids"],
+                f"candidate geographic hypothesis diverges from source: {item['id']}")
+        require(all(z["terrain_options"] == zone_by_id[z["region_id"]]["environment"]["terrain"]
+                    and z["movement_constraints"] == zone_by_id[z["region_id"]]["environment"]["movement"]
+                    for z in zones_for_item), f"candidate terrain/movement source drift: {item['id']}")
+        require(len(physical["material_support_and_logistics_to_prove"]) >= 3,
+                f"candidate lacks physical support obligations: {item['id']}")
+        require(len(society["civilian_roles_to_verify"]) >= 3,
+                f"candidate lacks ordinary inhabitant design: {item['id']}")
+        require(society["historical_civil_population"].startswith("UNVERIFIED"),
+                f"unverified old settlement silently asserted: {item['id']}")
+        require(history["historical_construction_window"].startswith("NOT_ASSIGNED"),
+                f"unverified 2015–2025 construction canonized: {item['id']}")
+        require(history["venue_use_not_proven_by_historical_scores"] is True,
+                f"ESPN sports result falsely used as venue evidence: {item['id']}")
+        status = history["eligibility_source_status"]
+        require(status["source_lifecycle"] == item["lifecycle_status"]
+                and status["event_eligibility"] == item["event_eligibility"],
+                f"candidate venue eligibility/lifecycle drift: {item['id']}")
+        require(all(x["inheritance"] == "CONTEXT_ONLY_NOT_SUBLOCATION_EVENT"
+                    and x["parent"] in item.get("related_active_location_ids", [])
+                    for x in history["parent_world_memory_references"]),
+                f"candidate inherited parent memory as new event: {item['id']}")
+
+    frozen_ids = load("world/atlas/interactive/FROZEN_EDITORIAL_CANDIDATE_IDS_V1.json")["candidate_ids"]
+    require(len(frozen_ids) == len(set(frozen_ids)) == 48, "Phase4 editorial snapshot mutated")
+    require(set(frozen_ids).issubset({x["id"] for x in candidates}), "Frozen Phase4 candidate missing")
+    require(not any("Founder location-expansion directive 2026-11-20"
+                    in next(x for x in candidates if x["id"] == name).get("source_provenance", [])
+                    for name in frozen_ids), "New site leaked into frozen legacy catalog")
+
     vintage = Counter(x["candidate_vintage"] for x in proposed)
     require(vintage == {"PREEXISTING": 48, "NEW_2026_11_20": 40}, "legacy candidate removed or added mix wrong")
     new = [x for x in proposed if x["candidate_vintage"] == "NEW_2026_11_20"]
