@@ -28,12 +28,12 @@ jobs:
       - name: Test repository inventory semantics
         run: python -m unittest discover -s governance/repository-health -p 'test_*.py' -v
 
-  refresh-ledger:
+  propose-ledger-update:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     needs: verify
     permissions:
       contents: write
-      pull-requests: read
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -43,16 +43,45 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Refresh complete GitHub branch and PR inventory
+      - name: Generate a complete metadata-only inventory
         env:
           GH_TOKEN: ${{ github.token }}
         run: python governance/repository-health/visibility.py --repo "$GITHUB_REPOSITORY"
-      - name: Commit only derived status ledger to main
+      - name: Propose changes through a reviewable draft PR (never push main)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
+          ledger='governance/repository-health/BRANCH_VISIBILITY_LEDGER.md'
+          if git diff --quiet -- "$ledger"; then
+            echo 'No ledger changes detected; no PR needed.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          candidate=$(mktemp)
+          trap 'rm -f "$candidate"' EXIT
+          cp "$ledger" "$candidate"
+          existing=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --json headRefName --jq '[.[] | select(.headRefName | startswith("automation/repository-visibility-"))] | .[0].headRefName // ""')
+          if [ -n "$existing" ]; then
+            branch="$existing"
+            git fetch origin "refs/heads/$branch:refs/remotes/origin/$branch"
+            git switch -c "$branch" "origin/$branch"
+          else
+            branch="automation/repository-visibility-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
+            git switch -c "$branch"
+          fi
+          cp "$candidate" "$ledger"
+          git add -- "$ledger"
+          if git diff --cached --quiet; then
+            echo 'Existing draft already has current inventory.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- governance/repository-health/BRANCH_VISIBILITY_LEDGER.md
-          if ! git diff --cached --quiet; then
-            git commit -m 'chore(governance): refresh repository visibility ledger [skip ci]'
-            git push origin HEAD:main
+          git commit -m 'chore(governance): propose refreshed repository ledger'
+          git push origin "HEAD:refs/heads/$branch"
+          if [ -z "$existing" ]; then
+            gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$branch" --draft \
+              --title 'chore(governance): review refreshed branch visibility ledger' \
+              --body 'Automated read-only GitHub inventory update. No code, canon or publication changes. Requires independent review and exact-head checks before merging. Created by the Repository Visibility Ledger workflow. See issue #332.'
           fi
+          echo "Draft branch proposed: $branch (no direct main push)." >> "$GITHUB_STEP_SUMMARY"
