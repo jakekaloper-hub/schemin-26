@@ -72,13 +72,14 @@ def check():
     assert island["counts"]["historical_matches"] == island["counts"]["proposed_physical_traces"] == 56
 
     edge = island["known_source_defect"]
-    assert edge["recorded"] == 41 and edge["actual"] == 45, "Preserve and flag upstream stale count until PR #322 is fixed"
+    assert edge["recorded"] == edge["actual"] == 45
+    assert edge["status"] == "RESOLVED_IN_UPSTREAM_PR_322", "Upstream source count regression"
     assert island["championship_identity_conflict"]["existing_candidate"] == "CAND-CHAMP-LAST-FIELD"
     assert island["championship_identity_conflict"]["new_proposed_arena"] == "CAND-POST-LAST-FIELD"
     assert all(row["year"] in range(2015, 2026) for row in island["annual_stadium_status"])
     assert len(island["annual_stadium_status"]) == 11
 
-    return {"status": "PASS_WITH_UPSTREAM_HOLD", "live_locations": 23, "live_routes": 18, "older_candidates": 48, "new_proposals": 40, "held_duplicate_proposals": 4, "new_nonduplicate_proposals": 36, "island_handles": 44, "total_handles": 155, "historical_matches_source_bound": 56, "source_defect": "PR322 edge_count 41 -> actual 45", "canonical_promotions": 0}
+    return {"status": "PASS_STRUCTURAL_SOURCE_RECONCILED", "live_locations": 23, "live_routes": 18, "older_candidates": 48, "new_proposals": 40, "held_duplicate_proposals": 4, "new_nonduplicate_proposals": 36, "island_handles": 44, "total_handles": 155, "historical_matches_source_bound": 56, "source_defect": "PR322 edge_count now 45/45, while canon siting remains held", "canonical_promotions": 0}
 
 
 if __name__ == "__main__":
