@@ -296,7 +296,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float grazingGain=.035+.21*pow(1.-viewIncidence,2.);
       contactTint=mix(contactTint,vec3(.31,.41,.37),grazingGain);
        // Reflections fade toward overhead cameras and the existing bank.
-       // Illustrative canopy optics only; no canon lighting or weather claim.
+       // Illustrative canopy optics only; no canon lighting or climate assertion.
        float trunkView=smoothstep(.22,.80,1.-viewIncidence);
        float trunkMirrorMix=clamp(trunkReflection*.20*trunkView*bankFade,0.,.20);
        contactTint=mix(contactTint,vec3(.11,.19,.17),trunkMirrorMix);
