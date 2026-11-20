@@ -1,0 +1,951 @@
+{
+  "schema": "schemin.cinematic_location_folio.proposal.v1",
+  "status": "PREPRODUCTION_DRAFT_NO_APPROVED_CINEMATIC_IMAGES",
+  "date": "2026-11-20",
+  "authority": {
+    "geography": "world/data/locations.json",
+    "location_cards": "world/location-control-plane/locations/LOC-*/CARD.json",
+    "structural_reference_registry": "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json",
+    "visual_authority": "world/environment-references/ENVIRONMENT_REFERENCE_AUTHORITY_V2.md",
+    "not_owner": "planning/postseason (PR #322) draft island must stay separate"
+  },
+  "scope": {
+    "active_locations": 23,
+    "regions": 7,
+    "editorial_candidate_count": 48,
+    "approved_cinematic_count": 0,
+    "project_asset_format": "image/png",
+    "base_aspect_ratio": "16:9",
+    "provided_visual_reference_dimensions_px": [
+      1672,
+      941
+    ]
+  },
+  "reference_samples": {
+    "origin": "2026-11-20 conversation attachments",
+    "bytes_in_repo": false,
+    "assets": [
+      "Stormlit Championship Island(2).png",
+      "image(20261120-191530).png",
+      "image(20261120-191530-1).png",
+      "image(20261120-191530-2).png"
+    ],
+    "role": "style/scale benchmark only; no location-canon promotion"
+  },
+  "status_vocabulary": [
+    "UNPLANNED",
+    "SOURCE_PACK_READY",
+    "ART_BRIEF_READY",
+    "CANDIDATE_RENDER",
+    "VISUAL_QA_HOLD",
+    "APPROVED_CINEMATIC_REFERENCE",
+    "SUPERSEDED_HISTORICAL_REFERENCE"
+  ],
+  "location_folios": [
+    {
+      "index": 1,
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "canonical_name": "Trade Jedi Mountain Base",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_base",
+      "known_landmarks": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-EASTERN-ASCENT"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 2,
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "canonical_name": "Mud Dogs Swamp",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_domain",
+      "known_landmarks": [
+        "mud channels",
+        "raised ground"
+      ],
+      "current_state": [
+        "Week 2 and Week 3 history remembered"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 3,
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "canonical_name": "Country Club of Jackson",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "club_estate",
+      "known_landmarks": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "current_state": [
+        "Week 3 chili contamination is historical memory; cleanup state required before pristine reset"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-JACKSON-LEVEE"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 4,
+      "id": "LOC-ARSENAL-BARBERSHOP",
+      "canonical_name": "Arsenal Barbershop",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "market_town_shop",
+      "known_landmarks": [
+        "barber chair",
+        "Arsenal-red owner history"
+      ],
+      "current_state": [
+        "Week 2 humiliation site",
+        "owner body redesign does not alter site history"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-ARSENAL-BARBERSHOP/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-ARSENAL-BARBERSHOP/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 5,
+      "id": "LOC-STORM-BOWL",
+      "canonical_name": "Storm Bowl",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_venue",
+      "known_landmarks": [
+        "weather-exposed venue",
+        "service counter"
+      ],
+      "current_state": [
+        "Week 2 event memory",
+        "El Niño may manifest as embodied Weather System or explicitly resolved atmospheric disaster"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-STORM-COAST"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-STORM-BOWL/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 6,
+      "id": "LOC-LLC-BOARDROOM",
+      "canonical_name": "LLC Mercantile Boardroom",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_headquarters",
+      "known_landmarks": [
+        "executive chamber",
+        "ledgers",
+        "market overlook"
+      ],
+      "current_state": [
+        "Week 2 intrusion/destruction remembered",
+        "repair/scar continuity permitted"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 7,
+      "id": "LOC-RED-RUINS",
+      "canonical_name": "Red Leopard Ruins",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_domain",
+      "known_landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 8,
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "canonical_name": "Podium Shadow Waterfall Temple",
+      "physical_zone_id": "REG-SOUTHERN-WETLANDS",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_domain",
+      "known_landmarks": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "current_state": [
+        "current owner anatomy = one body, three serpent heads",
+        "cross-divisional coexistence with Chili is canon"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-FALLS-PATH"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 9,
+      "id": "LOC-CHILI-STABLE",
+      "canonical_name": "Chili Outlaw Stable",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "canon_status": "PERMANENT_CANON",
+      "location_type": "owner_base",
+      "known_landmarks": [
+        "stable",
+        "pit smoke",
+        "Dark Horse enclosure"
+      ],
+      "current_state": [
+        "operational",
+        "cross-divisional coexistence with TDS is canon"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-WESTERN-RANGE"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-CHILI-STABLE/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-CHILI-STABLE/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 10,
+      "id": "LOC-BELT-KEEPER-KEEP",
+      "canonical_name": "Belt Keeper Rune Keep",
+      "physical_zone_id": "REG-EASTERN-STORM-COAST",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "owner_base",
+      "known_landmarks": [
+        "dark keep",
+        "championship hall"
+      ],
+      "current_state": [
+        "Belt remains with Belt Keeper"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-BLACK-CLIFF"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-BELT-KEEPER-KEEP/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 11,
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "canonical_name": "Slob Foothill Camp",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "owner_base",
+      "known_landmarks": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-SLOB-FOOTHILL-CAMP/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 12,
+      "id": "LOC-CHINS-ROAD-COMMONS",
+      "canonical_name": "People's Champ Road Commons",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "owner_base",
+      "known_landmarks": [
+        "roadside hall",
+        "BBQ yard",
+        "caravan court"
+      ],
+      "current_state": [
+        "operational"
+      ],
+      "source_provenance": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 13,
+      "id": "LOC-LEAGUE-CHAMBER",
+      "canonical_name": "League Chamber",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "league_institution",
+      "known_landmarks": [
+        "records desk",
+        "map wall"
+      ],
+      "current_state": [
+        "neutral institutional space"
+      ],
+      "source_provenance": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LEAGUE-CHAMBER/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 14,
+      "id": "LOC-PITTSYS-BOOK",
+      "canonical_name": "Pittsy's Book",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "league_commercial_institution",
+      "known_landmarks": [
+        "ledger boards",
+        "settlement desk"
+      ],
+      "current_state": [
+        "recurring bookmaking function"
+      ],
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md",
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-PITTSYS-BOOK/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-PITTSYS-BOOK/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 15,
+      "id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "canonical_name": "Bridge at the Mountain Lake",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_landmark",
+      "known_landmarks": [
+        "stone bridge",
+        "lake",
+        "jump point"
+      ],
+      "current_state": [
+        "Week 3 ObiWan/TDS decision landmark"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-EASTERN-ASCENT",
+        "ROUTE-HEARTHROAD"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-BRIDGE-MOUNTAIN-LAKE/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 16,
+      "id": "LOC-DK-MUD-HILL",
+      "canonical_name": "Mire Hill Battlefield",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_site",
+      "known_landmarks": [
+        "hill",
+        "mire",
+        "battle standards"
+      ],
+      "current_state": [
+        "Week 3 battlefield scar",
+        "Mud Dogs yield memory"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET",
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-DK-MUD-HILL/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 17,
+      "id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "canonical_name": "Alpine Wager Route",
+      "physical_zone_id": "REG-NORTHERN-SPINE",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_route",
+      "known_landmarks": [
+        "summit",
+        "base camp",
+        "wager marker"
+      ],
+      "current_state": [
+        "Week 3 wager landmark"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-NORTHERN-PASS"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-RED-SLOB-ALPINE-ROUTE/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 18,
+      "id": "LOC-SOUTHERN-SPEEDWAY",
+      "canonical_name": "Southern Speedway",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "encounter_venue",
+      "known_landmarks": [
+        "oval/race course",
+        "grandstand"
+      ],
+      "current_state": [
+        "Week 3 HMB/Chins survival-race history"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-BASIN-MARKET"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-SOUTHERN-SPEEDWAY/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-SOUTHERN-SPEEDWAY/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 19,
+      "id": "LOC-LLC-STORM-CITY",
+      "canonical_name": "LLC Port City Storm District",
+      "physical_zone_id": "REG-INNER-SEA-LITTORAL",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "city_district",
+      "known_landmarks": [
+        "mercantile towers",
+        "storm barriers"
+      ],
+      "current_state": [
+        "Week 3 El Niño weather-event history"
+      ],
+      "source_provenance": [
+        "memo-os/week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-INNER-SEA-QUAY",
+        "ROUTE-STORM-COAST"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-LLC-STORM-CITY/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LLC-STORM-CITY/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 20,
+      "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "canonical_name": "D0nkey K0ng Highland Stronghold",
+      "physical_zone_id": "REG-UPPER-VALLEYS",
+      "canon_status": "INTERPRETIVE_CANON",
+      "location_type": "owner_base",
+      "known_landmarks": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "current_state": [
+        "current principal identity = Arsenal Gorilla Centaur Warrior (one gorilla upper body; four-legged equine lower body)",
+        "peopled-kind home society"
+      ],
+      "source_provenance": [
+        "canon/characters/CHARACTER_REGISTRY.yaml",
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 21,
+      "id": "LOC-TDS-CHILI-SHARED-MARCH",
+      "canonical_name": "TDS–Chili Shared March",
+      "physical_zone_id": "REG-WESTERN-TABLELANDS",
+      "canon_status": "INTERPRETIVE_CANON",
+      "location_type": "shared_cross_division_settlement_corridor",
+      "known_landmarks": [
+        "mixed caravan settlement",
+        "watercourse crossing",
+        "stable-and-market quarter"
+      ],
+      "current_state": [
+        "TDS and Chili coexist here regardless of League division"
+      ],
+      "source_provenance": [
+        "bullpen/UNIVERSE_GEOGRAPHY_ONTOLOGY_BOARD_2026-09-29.md",
+        "world/civilization/INHABITANT_ONTOLOGY_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-TDS-CHILI-SHARED-MARCH"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-TDS-CHILI-SHARED-MARCH/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 22,
+      "id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "canonical_name": "Compact Neutral Grounds",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "canon_status": "PROVISIONAL_CANON",
+      "location_type": "neutral_encounter_ground",
+      "known_landmarks": [
+        "open ceremonial field",
+        "arbiter pavilion",
+        "arrival roads"
+      ],
+      "current_state": [
+        "neutral major-Encounter venue"
+      ],
+      "source_provenance": [
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md",
+        "world/encounters/ENCOUNTER_VENUE_RESOLVER_V1.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-COMPACT-GROUNDS"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-COMPACT-NEUTRAL-GROUNDS/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    },
+    {
+      "index": 23,
+      "id": "LOC-LEAGUE-ARCHIVE",
+      "canonical_name": "League Archive",
+      "physical_zone_id": "REG-CENTRAL-BASIN",
+      "canon_status": "INTERPRETIVE_CANON",
+      "location_type": "neutral_institution",
+      "known_landmarks": [
+        "record halls",
+        "ledger vaults",
+        "courier court"
+      ],
+      "current_state": [
+        "neutral records institution"
+      ],
+      "source_provenance": [
+        "world/SCHEMIN_WORLD_BIBLE_ARCHIVE_AND_RECORDS_V1.md",
+        "living-novel/world/INSTITUTIONS_AND_CHAMPIONSHIP.md"
+      ],
+      "access_route_ids": [
+        "ROUTE-ARCHIVE-CHAMBER"
+      ],
+      "source_card": "world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json",
+      "structural_reference_uri": "world/environment-references/plates/LOC-LEAGUE-ARCHIVE/STRUCTURAL_PLATE.svg",
+      "requested_render_states": {
+        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "site_detail_16x9": "UNPLANNED",
+        "historical_era_variants": "EVIDENCE_GATED",
+        "weather_or_season_variants": "EVIDENCE_GATED",
+        "future_state_variants": "EVIDENCE_GATED"
+      },
+      "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "approved_cinematic_reference_uri": null,
+      "target_paths": {
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/MASTER_16x9.png",
+        "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/PLATE.json",
+        "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/history/"
+      },
+      "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
+    }
+  ]
+}
