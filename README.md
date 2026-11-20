@@ -12,6 +12,10 @@ The governing rule is simple: these are not separate creative projects. They are
 
 For current memo work, follow [Memo OS](memo-os/_INDEX.md) -> active issue index -> Founder context/continuation record before planning or rendering. Historical status snapshots below do not override that current route.
 
+## Repository checkups — main and unfinished work
+
+The [live branch/PR visibility ledger](governance/repository-health/BRANCH_VISIBILITY_LEDGER.md) lists every GitHub branch and open pull request, including drafts, stacked dependencies, unlinked branches and release-review status. The [repository-health workflow](.github/workflows/repository-visibility.yml) refreshes this derived metadata daily or on demand. **Visibility is not promotion:** only approved, validated work is merged into `main`; source and publication gates remain binding.
+
 ## Start here
 
 For substantial project work, read in this order:
