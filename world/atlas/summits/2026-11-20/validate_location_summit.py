@@ -180,9 +180,9 @@ def validate() -> dict:
     require(island["counts"]["historical_matches"] == 56, "island historical fixture count mismatch")
     require(island["counts"]["dormant_heritage_sites"] == 9, "dormant island heritage lost")
     require(island["counts"]["edges"] == 45, "island source edge-list count drift")
-    require(island["known_source_defect"]["actual"] == 45 and
-            island["known_source_defect"]["recorded"] == 41,
-            "island edge-count source defect must remain flagged, not silently 'fixed'")
+    require(island["known_source_defect"]["actual"] == island["known_source_defect"]["recorded"] == 45 and
+            island["known_source_defect"]["status"] == "RESOLVED_IN_UPSTREAM_PR_322",
+            "island source count is not reconciled with the repaired 45-edge PR #322")
     require(island["championship_identity_conflict"]["approval"].startswith("Explicit"),
             "Last Field conflicting locations must require explicit review")
     require(next(x for x in candidates if x["id"] == "CAND-CHAMP-LAST-FIELD")["championship_only"],
