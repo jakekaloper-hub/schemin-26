@@ -30,7 +30,7 @@ def load(path):
 
 def git_blob(path):
     data = path.read_bytes()
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + bytes([0]) + data).hexdigest()
 
 
 def verify_local(triage, dryrun, handoff, candidates, locations, routes, zones, topology):
