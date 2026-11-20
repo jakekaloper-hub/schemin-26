@@ -18,6 +18,11 @@
 
 **Editorial working state:** FOUNDER_CONTEXT_RECORDED / STORY_CANDIDATE / WEEK11_FINAL_OUTCOMES_UNRESOLVED / NOT_PREVIS / NOT_PAGE_LOCK / NOT_ART / NOT_RELEASED.
 
+### Tim Veil-method audit integration — November 20
+- [Six-matchup outcome-dependent story matrix](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md) — dated entering states; W10-P35/P33 source continuity; dual hypothetical endings; seven sporting candidate events; Pittsy's Book Issue #323 and separate Road to Seven Issue #319; November18 FFHub source hold.
+- [Deterministic creative intake regression](validate_creative_intake.py) — executable check of 58 answers, all six cases, conditional sports paths, geography, recorded source boundaries, index completeness. Test results alone do not supply independent Umpire acceptance, source Fact Lock or visual QA.
+- Tim Veil modeled adviser is a **published-method analytical lens**, not a human session or approval. See the upcoming dated audit receipt and its explicit independent-review hold.
+
 ## Next uncompleted workflow
 Append Sunday November 22 dated scoring updates; recompute only evidence-dependent story candidates. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
 
