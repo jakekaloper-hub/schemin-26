@@ -1,0 +1,374 @@
+{
+  "schema": "schemin26.truth_plane_row_diff.v1",
+  "run_id": "S26-MEMO-W10-20261114",
+  "trace_id": "TRACE-S26-MEMO-20261114-1417621",
+  "work_key": "league=1417621/season=2026/week=10/observation=2026-11-14/source=flaim-espn",
+  "observation_date": "2026-11-14",
+  "league_id": "1417621",
+  "season": 2026,
+  "compared_to": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-13.json",
+  "typed_key": "espn_event_id.kind+':'+espn_event_id.value",
+  "transaction_rows": {
+    "week8": {
+      "prior": 32,
+      "current": 32,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "source": "mTransactions2",
+      "truncated": false,
+      "limitations": {
+        "structured_details_incomplete": true
+      },
+      "window": {
+        "mode": "explicit_week",
+        "unit": "matchup_period",
+        "requested_week": 8,
+        "normalization": "none",
+        "weeks": [
+          8
+        ],
+        "provider_scoring_period_ids": [
+          8
+        ],
+        "start_date": null,
+        "end_date": null,
+        "date_bounds_kind": "unavailable",
+        "timezone": "America/New_York",
+        "returned_rows": 32
+      }
+    },
+    "week9": {
+      "prior": 42,
+      "current": 42,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "source": "mTransactions2",
+      "truncated": false,
+      "limitations": {
+        "structured_details_incomplete": true
+      },
+      "window": {
+        "mode": "explicit_week",
+        "unit": "matchup_period",
+        "requested_week": 9,
+        "normalization": "none",
+        "weeks": [
+          9
+        ],
+        "provider_scoring_period_ids": [
+          9
+        ],
+        "start_date": null,
+        "end_date": null,
+        "date_bounds_kind": "unavailable",
+        "timezone": "America/New_York",
+        "returned_rows": 42
+      }
+    },
+    "week10": {
+      "prior": 37,
+      "current": 39,
+      "added": [
+        {
+          "transaction_id": "720df030-566a-4138-a669-51d24ab935f9",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "720df030-566a-4138-a669-51d24ab935f9"
+          },
+          "espn_related_event_id": {
+            "kind": "string",
+            "value": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760"
+          },
+          "type": "waiver",
+          "status": "complete",
+          "timestamp": 1794647278972,
+          "timestamp_source": "processDate",
+          "date": "2026-11-14",
+          "week": 10,
+          "provider_scoring_period_id": 10,
+          "team_ids": [
+            "1"
+          ],
+          "players_added": [
+            {
+              "id": "2973405",
+              "name": "Kalif Raymond",
+              "position": "WR",
+              "team": "CHI"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4361432",
+              "name": "Romeo Doubs",
+              "position": "WR",
+              "team": "NE"
+            }
+          ],
+          "faab_bid": 1
+        },
+        {
+          "transaction_id": "12c36132-6551-4628-b8d6-0463eac7c686",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "12c36132-6551-4628-b8d6-0463eac7c686"
+          },
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1794608523547,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-13",
+          "week": 10,
+          "provider_scoring_period_id": 10,
+          "team_ids": [
+            "11"
+          ],
+          "players_added": [
+            {
+              "id": "4431268",
+              "name": "Chimere Dike",
+              "position": "WR",
+              "team": "TEN"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4600981",
+              "name": "Pat Bryant",
+              "position": "WR",
+              "team": "DEN"
+            }
+          ],
+          "faab_bid": 0
+        }
+      ],
+      "removed": [],
+      "modified": [
+        {
+          "before": {
+            "transaction_id": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1794532661284,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-12",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "2973405",
+                "name": "Kalif Raymond",
+                "position": "WR",
+                "team": "CHI"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4361432",
+                "name": "Romeo Doubs",
+                "position": "WR",
+                "team": "NE"
+              }
+            ],
+            "faab_bid": 1,
+            "claim_outcome": {
+              "status": "unknown"
+            }
+          },
+          "after": {
+            "transaction_id": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760",
+            "espn_event_id": {
+              "kind": "string",
+              "value": "a2ca7e2a-7d12-4cc7-ba5d-1000ff892760"
+            },
+            "type": "waiver",
+            "status": "pending",
+            "timestamp": 1794532661284,
+            "timestamp_source": "proposedDate",
+            "date": "2026-11-12",
+            "week": 10,
+            "provider_scoring_period_id": 10,
+            "team_ids": [
+              "1"
+            ],
+            "players_added": [
+              {
+                "id": "2973405",
+                "name": "Kalif Raymond",
+                "position": "WR",
+                "team": "CHI"
+              }
+            ],
+            "players_dropped": [
+              {
+                "id": "4361432",
+                "name": "Romeo Doubs",
+                "position": "WR",
+                "team": "NE"
+              }
+            ],
+            "faab_bid": 1,
+            "claim_outcome": {
+              "status": "complete",
+              "outcome_event_id": {
+                "kind": "string",
+                "value": "720df030-566a-4138-a669-51d24ab935f9"
+              }
+            }
+          }
+        }
+      ],
+      "source": "mTransactions2",
+      "truncated": false,
+      "limitations": {},
+      "window": {
+        "mode": "explicit_week",
+        "unit": "matchup_period",
+        "requested_week": 10,
+        "normalization": "none",
+        "weeks": [
+          10
+        ],
+        "provider_scoring_period_ids": [
+          10
+        ],
+        "start_date": null,
+        "end_date": null,
+        "date_bounds_kind": "unavailable",
+        "timezone": "America/New_York",
+        "returned_rows": 39
+      }
+    }
+  },
+  "preliminary_checks": [
+    {
+      "check": "week8_provider_ids_typed",
+      "pass": true,
+      "details": 32
+    },
+    {
+      "check": "week8_provider_ids_unique",
+      "pass": true
+    },
+    {
+      "check": "week8_structured_nontruncated",
+      "pass": true
+    },
+    {
+      "check": "week9_provider_ids_typed",
+      "pass": true,
+      "details": 42
+    },
+    {
+      "check": "week9_provider_ids_unique",
+      "pass": true
+    },
+    {
+      "check": "week9_structured_nontruncated",
+      "pass": true
+    },
+    {
+      "check": "week10_provider_ids_typed",
+      "pass": true,
+      "details": 39
+    },
+    {
+      "check": "week10_provider_ids_unique",
+      "pass": true
+    },
+    {
+      "check": "week10_structured_nontruncated",
+      "pass": true
+    },
+    {
+      "check": "week9_six_pairings",
+      "pass": true
+    },
+    {
+      "check": "week9_twelve_distinct_teams",
+      "pass": true
+    },
+    {
+      "check": "week10_six_pairings",
+      "pass": true
+    },
+    {
+      "check": "week10_twelve_distinct_teams",
+      "pass": true
+    },
+    {
+      "check": "week11_six_pairings",
+      "pass": true
+    },
+    {
+      "check": "week11_twelve_distinct_teams",
+      "pass": true
+    },
+    {
+      "check": "standings_twelve_unique",
+      "pass": true
+    },
+    {
+      "check": "week9_provider_final",
+      "pass": true
+    },
+    {
+      "check": "week10_provider_undecided",
+      "pass": true
+    },
+    {
+      "check": "week9_outcomes_unchanged",
+      "pass": true
+    },
+    {
+      "check": "week10_current_scores_unchanged",
+      "pass": true
+    },
+    {
+      "check": "standings_record_seed_unchanged",
+      "pass": true
+    },
+    {
+      "check": "prior_event_rows_preserved",
+      "pass": true
+    },
+    {
+      "check": "week10_typed_new_rows_exactly_two",
+      "pass": true
+    },
+    {
+      "check": "week10_exact_one_historical_claim_enrichment",
+      "pass": true
+    },
+    {
+      "check": "week10_claim_outcome_terminal_links",
+      "pass": true,
+      "details": 3
+    },
+    {
+      "check": "gateway_manifest_correct_league",
+      "pass": true
+    },
+    {
+      "check": "mercer_firewall_for_intake",
+      "pass": true,
+      "details": "No external Mercer task or artifact used; does not attest to unexamined other artifacts"
+    }
+  ],
+  "week10_status_counts": {
+    "complete": 27,
+    "failed": 7,
+    "pending": 3,
+    "canceled": 2
+  },
+  "qualification": "Two new event rows versus November 13 (one executed November 13), one historical pending record enriched with exact linked completed outcome. Historical PENDING is not active queue. Preliminary normalized provider data; not independent Steward certification."
+}
