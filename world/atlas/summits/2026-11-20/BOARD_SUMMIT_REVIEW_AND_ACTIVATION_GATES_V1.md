@@ -116,7 +116,7 @@ On the connected Mac, the actual Bullpen `compileIntent('/bullpen mission ...')`
 
 ## Phase 6 — Hardening defects and disposition
 
-1. **SOURCE DEFECT — PR #322:** `ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json` contains **45** actual edges but embeds `checks.edge_count: 41`. Rebuild metadata from source and rerun topology checks. Comment on upstream PR #322: `7047540118`.
+1. **SOURCE DEFECT — RESOLVED IN PR #322:** Earlier source had 45 actual edges but `checks.edge_count: 41`. The updated upstream source now declares **45/45**, and its exact 23-node/45-edge graph is pinned in the summit for source parity validation. This is only a metadata fix, **not** an approved bridge or live World Engine route. Earlier upstream review comment: `7047540118`.
 2. **BLOCKING IDENTITY — Last Field:** Existing `CAND-CHAMP-LAST-FIELD` points to Central Basin. Founder Island `CAND-POST-LAST-FIELD` and topology `LAST_FIELD` represent one intended venue in Inner Sea Littoral. Explicit *versioned supersession* is necessary; no two permanent Last Fields.
 3. **BLOCKING TOPOLOGY:** Abstract causeway coordinates are an illustration; validated public mainland access, tide, foundation loads and emergency routes are missing.
 4. **BLOCKING TECHNOLOGY:** Modern broadcast/screen/power is intended for the island but not automatically lawful elsewhere in Commonwealth canon.
