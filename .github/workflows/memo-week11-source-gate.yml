@@ -29,3 +29,5 @@ jobs:
         run: python3 memo-os/week-11/validate_creative_intake.py
       - name: Must reject corrupted Founder, player-score and House inputs
         run: python3 -m unittest discover -s memo-os/week-11 -p 'test_validate_creative_intake.py' -v
+      - name: Run Week 11 Atlas route and venue identity preflight
+        run: python3 memo-os/week-11/validate_atlas_routes.py
