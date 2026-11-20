@@ -43,6 +43,10 @@ The new matrix transfers existing PR #322 source-labeled Flaim/ESPN brackets and
 
 All 2015–2025 podium facts, 2026 unresolved results, 2026 current character canon, and seven source World Memory event anchors retain their respective evidence classes.
 
+## 4A. Continuation addendum — source discrepancy resolved and pinned
+
+The ISSUE-05 historical finding above was correct at the time of the original V2 audit, but it has since been repaired on Playoff Island PR #322: the live island topology now declares **45 edges, matching its 45 edge records and 23 nodes** (Git blob `2edc3efcb8e50dba35f851a0a861c785680bffad`). PR #324 now contains an exact read-only source snapshot and validates each source node, per-node edge list, road mode, and protected admission. The new 15-case adversarial island test suite passed locally. ISSUE-05 may therefore be closed as a **data-source metadata defect**; the separate geographic engineering, Last Field identity and independent approval gates remain blocked. No proposed route was added to the 18 active routes.
+
 ## 5. Release gate / next domain tasks
 
 **PASS for structural accuracy and reversible editorial design**. Every one of the **155** source handles has source-bound three-layer coverage; the 36 nonduplicative proposed sublocations can undergo supervised canon review, while four speculative duplicate island concepts remain explicitly held.
