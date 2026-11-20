@@ -1,6 +1,6 @@
 {
   "schema": "schemin.cinematic_location_folio.proposal.v1",
-  "status": "PREPRODUCTION_DRAFT_NO_APPROVED_CINEMATIC_IMAGES",
+  "status": "PREPRODUCTION_SOURCE_INDEX_ONLY_VISUAL_QA_HOLD",
   "date": "2026-11-20",
   "authority": {
     "geography": "world/data/locations.json",
@@ -33,6 +33,7 @@
     "role": "style/scale benchmark only; no location-canon promotion"
   },
   "status_vocabulary": [
+    "SOURCE_INDEX_ONLY",
     "UNPLANNED",
     "SOURCE_PACK_READY",
     "ART_BRIEF_READY",
@@ -65,7 +66,7 @@
       "source_card": "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -74,7 +75,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/history/"
       },
@@ -104,7 +105,7 @@
       "source_card": "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -113,7 +114,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-MUD-DOGS-SWAMP/history/"
       },
@@ -144,7 +145,7 @@
       "source_card": "world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -153,7 +154,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-COUNTRY-CLUB-JACKSON/history/"
       },
@@ -183,7 +184,7 @@
       "source_card": "world/location-control-plane/locations/LOC-ARSENAL-BARBERSHOP/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-ARSENAL-BARBERSHOP/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -192,7 +193,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-ARSENAL-BARBERSHOP/history/"
       },
@@ -222,7 +223,7 @@
       "source_card": "world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-STORM-BOWL/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -231,7 +232,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-STORM-BOWL/history/"
       },
@@ -263,7 +264,7 @@
       "source_card": "world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -272,7 +273,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LLC-BOARDROOM/history/"
       },
@@ -301,7 +302,7 @@
       "source_card": "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -310,7 +311,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-RED-RUINS/history/"
       },
@@ -341,7 +342,7 @@
       "source_card": "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -350,7 +351,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-TDS-WATERFALL-TEMPLE/history/"
       },
@@ -381,7 +382,7 @@
       "source_card": "world/location-control-plane/locations/LOC-CHILI-STABLE/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-CHILI-STABLE/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -390,7 +391,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-CHILI-STABLE/history/"
       },
@@ -420,7 +421,7 @@
       "source_card": "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-BELT-KEEPER-KEEP/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -429,7 +430,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-BELT-KEEPER-KEEP/history/"
       },
@@ -458,7 +459,7 @@
       "source_card": "world/location-control-plane/locations/LOC-SLOB-FOOTHILL-CAMP/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -467,7 +468,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-SLOB-FOOTHILL-CAMP/history/"
       },
@@ -497,7 +498,7 @@
       "source_card": "world/location-control-plane/locations/LOC-CHINS-ROAD-COMMONS/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -506,7 +507,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-CHINS-ROAD-COMMONS/history/"
       },
@@ -535,7 +536,7 @@
       "source_card": "world/location-control-plane/locations/LOC-LEAGUE-CHAMBER/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-LEAGUE-CHAMBER/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -544,7 +545,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-CHAMBER/history/"
       },
@@ -574,7 +575,7 @@
       "source_card": "world/location-control-plane/locations/LOC-PITTSYS-BOOK/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-PITTSYS-BOOK/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -583,7 +584,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-PITTSYS-BOOK/history/"
       },
@@ -614,7 +615,7 @@
       "source_card": "world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-BRIDGE-MOUNTAIN-LAKE/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -623,7 +624,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-BRIDGE-MOUNTAIN-LAKE/history/"
       },
@@ -655,7 +656,7 @@
       "source_card": "world/location-control-plane/locations/LOC-DK-MUD-HILL/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-DK-MUD-HILL/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -664,7 +665,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-DK-MUD-HILL/history/"
       },
@@ -694,7 +695,7 @@
       "source_card": "world/location-control-plane/locations/LOC-RED-SLOB-ALPINE-ROUTE/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-RED-SLOB-ALPINE-ROUTE/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -703,7 +704,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-RED-SLOB-ALPINE-ROUTE/history/"
       },
@@ -732,7 +733,7 @@
       "source_card": "world/location-control-plane/locations/LOC-SOUTHERN-SPEEDWAY/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-SOUTHERN-SPEEDWAY/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -741,7 +742,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-SOUTHERN-SPEEDWAY/history/"
       },
@@ -771,7 +772,7 @@
       "source_card": "world/location-control-plane/locations/LOC-LLC-STORM-CITY/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-LLC-STORM-CITY/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -780,7 +781,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LLC-STORM-CITY/history/"
       },
@@ -812,7 +813,7 @@
       "source_card": "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -821,7 +822,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-DK-HIGHLAND-STRONGHOLD/history/"
       },
@@ -852,7 +853,7 @@
       "source_card": "world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-TDS-CHILI-SHARED-MARCH/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -861,7 +862,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-TDS-CHILI-SHARED-MARCH/history/"
       },
@@ -892,7 +893,7 @@
       "source_card": "world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-COMPACT-NEUTRAL-GROUNDS/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -901,7 +902,7 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-COMPACT-NEUTRAL-GROUNDS/history/"
       },
@@ -932,7 +933,7 @@
       "source_card": "world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json",
       "structural_reference_uri": "world/environment-references/plates/LOC-LEAGUE-ARCHIVE/STRUCTURAL_PLATE.svg",
       "requested_render_states": {
-        "establishing_master_16x9": "SOURCE_PACK_READY",
+        "establishing_master_16x9": "SOURCE_INDEX_ONLY",
         "site_detail_16x9": "UNPLANNED",
         "historical_era_variants": "EVIDENCE_GATED",
         "weather_or_season_variants": "EVIDENCE_GATED",
@@ -941,11 +942,19 @@
       "cinematic_reference_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
       "approved_cinematic_reference_uri": null,
       "target_paths": {
-        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/MASTER_16x9.png",
+        "render_master": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/CANDIDATE_MASTER_16x9.png",
         "reference_metadata": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/PLATE.json",
         "historical_variants": "world/environment-references/cinematic-folio/plates/LOC-LEAGUE-ARCHIVE/history/"
       },
       "production_note": "No exact architecture/material/lighting invented as canon; bind render request to current world packet and location-specific evidence."
     }
-  ]
+  ],
+  "visual_audit_hold": {
+    "status": "FAIL_STOP_RENDER_EXPANSION",
+    "date": "2026-11-20",
+    "reason": "Three preceding generated images failed image-specific and/or canon-fidelity review; two poster/atlas hallucinations, one unverified chamber architecture.",
+    "audit_path": "world/environment-references/cinematic-folio/AUDIT_VISUAL_FAILURE_AND_STOP_GATE_2026-11-20.md",
+    "images_committed_or_approved": false,
+    "next_required_gate": "Source-card hydration and independent review of one LOC-bound environmental-only render brief before generating a candidate"
+  }
 }
