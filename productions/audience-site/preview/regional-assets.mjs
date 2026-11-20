@@ -338,6 +338,24 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float impactFoam=impactCrest*impactBreakup*impactField;
       vec3 plungeTint=uColor+vec3(.10,.14,.12)*(ring*.55+foam*.45)*boundary
         +vec3(.10,.15,.13)*impactFoam*boundary;
+      // Optics follow the existing physically displaced receiving pool, not climate.
+      vec3 plungeFace=cross(dFdx(vWorld),dFdy(vWorld));
+      float plungeFaceSize=length(plungeFace);
+      vec3 plungeNormal=plungeFaceSize>.00001?plungeFace/plungeFaceSize:vec3(0.,1.,0.);
+      float plungeSlope=clamp((1.-clamp(abs(plungeNormal.y),0.,1.))*15.,0.,.34);
+      vec3 plungeEye=normalize(cameraPosition-vWorld);
+      float plungeGrazing=pow(1.-clamp(abs(dot(plungeNormal,plungeEye)),0.,1.),2.);
+      float plungeFacet=plungeSlope*(.35+.65*plungeGrazing)*boundary;
+      // Narrow, broken wake light follows the already-modeled waterfall impact.
+      // Rim and bank remain dark; no new water mesh or hydrological path.
+      vec2 wakeUv=(vUv-impactUv)*vec2(2.,2.2);
+      float wakeSpoke=pow(max(sin(atan(wakeUv.y,wakeUv.x)*6.+impactRadius*28.-uTime*1.64),0.),12.);
+      float wakeBreak=.5+.5*sin(impactRadius*37.-uTime*2.28+vUv.x*19.);
+      float wakeField=smoothstep(.20,.34,impactRadius)
+        *(1.-smoothstep(.59,.76,impactRadius))*boundary;
+      float wakeGlint=wakeSpoke*sqrt(wakeBreak)*wakeField;
+      plungeTint=clamp(plungeTint+vec3(.062,.088,.074)*plungeFacet
+        +vec3(.042,.063,.052)*wakeGlint,0.,1.);
       gl_FragColor=vec4(plungeTint,.88);
       }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
     materials.set('water-'+water.length,m);return m;
