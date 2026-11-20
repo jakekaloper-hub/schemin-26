@@ -66,8 +66,17 @@ class EnvironmentReferencePhase3Tests(unittest.TestCase):
             self.assertEqual(actual,expected,loc["id"])
 
     def test_candidate_store_unchanged(self):
+        """Phase 3 does not convert old candidates into active World locations.
+
+        Future additions are permitted; they may not rewrite the original
+        48-record editorial candidate foundation or structural references.
+        """
         c=self.load("world/data/atlas_location_candidates.json")
-        self.assertEqual(len(c["candidates"]),48)
+        original=[x for x in c["candidates"] if
+                  "Founder location-expansion directive 2026-11-20" not in x.get("source_provenance", [])]
+        self.assertEqual(len(original),48)
+        self.assertEqual(len({x["id"] for x in c["candidates"]}),len(c["candidates"]))
+        self.assertTrue(all(x["lifecycle_status"]!="APPROVED_ACTIVE_CANON" for x in c["candidates"]))
 
 if __name__=="__main__":
     unittest.main(verbosity=2)

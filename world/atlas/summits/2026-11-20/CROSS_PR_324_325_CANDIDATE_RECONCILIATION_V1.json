@@ -1,0 +1,889 @@
+{
+  "schema": "schemin.atlas.cross_pr_candidate_equivalence_triage.v1",
+  "created": "2026-11-20",
+  "status": "SOURCE_READBACK_VERIFIED__IDENTITY_REVIEW_PENDING__NO_LOCATION_ACTIVATION",
+  "source_a": {
+    "pr": 324,
+    "path": "world/data/atlas_location_candidates.json",
+    "blob_sha": "1b0f31c775e312609da2f2a22ac1510b0db5acc6",
+    "candidate_count": 40
+  },
+  "source_b": {
+    "pr": 325,
+    "path": "planning/atlas-expansion/ATLAS_EXPANSION_44_CANDIDATES_V1.json",
+    "blob_sha": "ca02120cbec8ad4eae9d985081e9c6ed38a29cab",
+    "candidate_count": 44
+  },
+  "counts": {
+    "pr324_new": 40,
+    "pr325_new": 44,
+    "exact_id_overlap": 0,
+    "pr325_entries_with_pr324_same_approved_parent": 34,
+    "pr325_entries_other_or_island": 10,
+    "reviewed_equivalences": 0,
+    "approved_new_site_count": 0
+  },
+  "method": "Same approved parent is a collision-risk screen, NOT a claim of same physical site; unique strings and different branches do NOT prove 84 unique sites. Next review must read both physical/civic/temporal layers for every shared anchor; compare distinct civic functions, location footprint, travel, staffing, source provenance and required legal authority. Record one-to-one, one-to-many or unrelated decision with reasons before migration.",
+  "source_dependencies": [
+    "PR322 Island source 23 topology + 45 edges; 9 arena site IDs + 9 dormant heritage + 3 siting hypotheses",
+    "PR324 155 heterogeneous handles includes 23 LOC + 88 CAND +44 island handles",
+    "PR325 147 heterogeneous handles includes 23 LOC +48 legacy CAND +32 island handle subset +44 new proposals",
+    "Never sum the 155 and 147 counts, as the underlying sources overlap"
+  ],
+  "rows": [
+    {
+      "pr325_id": "CAND-XP-JEDI-RIDGE-CISTERN",
+      "pr325_name": "Trade Jedi Ridge Cistern",
+      "pr325_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "pr325_team_slot": 1,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-RIDGE-SIGNAL-OBSERVATORY",
+          "name": "Ridge Signal Observatory"
+        },
+        {
+          "id": "CAND-MOUNTAIN-BASE-COURIER-STEPS",
+          "name": "Mountain Base Courier Steps"
+        },
+        {
+          "id": "CAND-EASTERN-ASCENT-REPAIR-TERRACE",
+          "name": "Eastern Ascent Repair Terrace"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-JEDI-ASCENT-SIGNAL-HOUSE",
+      "pr325_name": "Eastern Ascent Signal House",
+      "pr325_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "pr325_team_slot": 1,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-RIDGE-SIGNAL-OBSERVATORY",
+          "name": "Ridge Signal Observatory"
+        },
+        {
+          "id": "CAND-MOUNTAIN-BASE-COURIER-STEPS",
+          "name": "Mountain Base Courier Steps"
+        },
+        {
+          "id": "CAND-EASTERN-ASCENT-REPAIR-TERRACE",
+          "name": "Eastern Ascent Repair Terrace"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-JEDI-NEGOTIATORS-TERRACE",
+      "pr325_name": "Trade Jedi Negotiators' Terrace",
+      "pr325_anchor": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "pr325_team_slot": 1,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-RIDGE-SIGNAL-OBSERVATORY",
+          "name": "Ridge Signal Observatory"
+        },
+        {
+          "id": "CAND-MOUNTAIN-BASE-COURIER-STEPS",
+          "name": "Mountain Base Courier Steps"
+        },
+        {
+          "id": "CAND-EASTERN-ASCENT-REPAIR-TERRACE",
+          "name": "Eastern Ascent Repair Terrace"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-RED-RUIN-WATCH",
+      "pr325_name": "Leopard Ruins Rainwatch",
+      "pr325_anchor": "LOC-RED-RUINS",
+      "pr325_team_slot": 2,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
+          "name": "Red Escarpment Sentinel Walk"
+        },
+        {
+          "id": "CAND-RUINS-CANOPY-CISTERN",
+          "name": "Ruins Canopy Cistern"
+        },
+        {
+          "id": "CAND-PREDATOR-TERRACE-APPROACH",
+          "name": "Predator Terrace Approach"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-RED-SALVAGE-WALK",
+      "pr325_name": "Red Ruins Salvage Walk",
+      "pr325_anchor": "LOC-RED-RUINS",
+      "pr325_team_slot": 2,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
+          "name": "Red Escarpment Sentinel Walk"
+        },
+        {
+          "id": "CAND-RUINS-CANOPY-CISTERN",
+          "name": "Ruins Canopy Cistern"
+        },
+        {
+          "id": "CAND-PREDATOR-TERRACE-APPROACH",
+          "name": "Predator Terrace Approach"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-RED-RAIN-ORCHARD",
+      "pr325_name": "Leopard Rain Terrace Orchard",
+      "pr325_anchor": "LOC-RED-RUINS",
+      "pr325_team_slot": 2,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
+          "name": "Red Escarpment Sentinel Walk"
+        },
+        {
+          "id": "CAND-RUINS-CANOPY-CISTERN",
+          "name": "Ruins Canopy Cistern"
+        },
+        {
+          "id": "CAND-PREDATOR-TERRACE-APPROACH",
+          "name": "Predator Terrace Approach"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-SLOB-COOKFIRE-GROUND",
+      "pr325_name": "Foothill Cookfire Ground",
+      "pr325_anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "pr325_team_slot": 3,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-FOOTHILL-WAGON-REST",
+          "name": "Foothill Wagon Rest"
+        },
+        {
+          "id": "CAND-ROUGH-PRACTICE-COMMONS",
+          "name": "Rough Practice Commons"
+        },
+        {
+          "id": "CAND-HEARTHROAD-TOLL-SHELTER",
+          "name": "Hearthroad Toll Shelter"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-SLOB-GEAR-YARD",
+      "pr325_name": "Foothill Repair Yard",
+      "pr325_anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "pr325_team_slot": 3,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-FOOTHILL-WAGON-REST",
+          "name": "Foothill Wagon Rest"
+        },
+        {
+          "id": "CAND-ROUGH-PRACTICE-COMMONS",
+          "name": "Rough Practice Commons"
+        },
+        {
+          "id": "CAND-HEARTHROAD-TOLL-SHELTER",
+          "name": "Hearthroad Toll Shelter"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-SLOB-HEARTHROAD-STOP",
+      "pr325_name": "Foothill Ridge Shelter",
+      "pr325_anchor": "LOC-SLOB-FOOTHILL-CAMP",
+      "pr325_team_slot": 3,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-FOOTHILL-WAGON-REST",
+          "name": "Foothill Wagon Rest"
+        },
+        {
+          "id": "CAND-ROUGH-PRACTICE-COMMONS",
+          "name": "Rough Practice Commons"
+        },
+        {
+          "id": "CAND-HEARTHROAD-TOLL-SHELTER",
+          "name": "Hearthroad Toll Shelter"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-LLC-QUAY-REPAIR-LEDGER",
+      "pr325_name": "LLC Quay Repair Ledger House",
+      "pr325_anchor": "LOC-LLC-STORM-CITY",
+      "pr325_team_slot": 4,
+      "pr324_same_anchor_options": [],
+      "relation_class": "NO_SAME_PARENT__NETWORK_OR_OTHER_SITE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-LLC-STORM-BARRIER-WALK",
+      "pr325_name": "Storm City Barrier Walk",
+      "pr325_anchor": "LOC-LLC-STORM-CITY",
+      "pr325_team_slot": 4,
+      "pr324_same_anchor_options": [],
+      "relation_class": "NO_SAME_PARENT__NETWORK_OR_OTHER_SITE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-LLC-CUSTOMS-FLOOR",
+      "pr325_name": "Inner Sea Customs Floor",
+      "pr325_anchor": "LOC-LLC-BOARDROOM",
+      "pr325_team_slot": 4,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-LLC-CONTRACT-REGISTRY-ANNEX",
+          "name": "LLC Contract Registry Annex"
+        },
+        {
+          "id": "CAND-STORM-BARRIER-INSPECTION-YARD",
+          "name": "Storm Barrier Inspection Yard"
+        },
+        {
+          "id": "CAND-INNER-SEA-CARGO-WEIGHCOURT",
+          "name": "Inner Sea Cargo Weighcourt"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-DK-HIGHLAND-CRESCENT",
+      "pr325_name": "D0nkey K0ng Highland Crescent",
+      "pr325_anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "pr325_team_slot": 5,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-HIGHLAND-CAVALRY-EXERCISE-COURT",
+          "name": "Highland Cavalry Exercise Court"
+        },
+        {
+          "id": "CAND-ARSENAL-GUILD-TOOLHOUSE",
+          "name": "Arsenal Guild Toolhouse"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-DK-ARSENAL-STONE-WELL",
+      "pr325_name": "Arsenal Market Stone Well",
+      "pr325_anchor": "LOC-ARSENAL-BARBERSHOP",
+      "pr325_team_slot": 5,
+      "pr324_same_anchor_options": [],
+      "relation_class": "NO_SAME_PARENT__NETWORK_OR_OTHER_SITE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-DK-HIGHLAND-TRAINING-WALL",
+      "pr325_name": "Highland Training Wall",
+      "pr325_anchor": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "pr325_team_slot": 5,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-HIGHLAND-CAVALRY-EXERCISE-COURT",
+          "name": "Highland Cavalry Exercise Court"
+        },
+        {
+          "id": "CAND-ARSENAL-GUILD-TOOLHOUSE",
+          "name": "Arsenal Guild Toolhouse"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-TDS-CASCADE-FERRY",
+      "pr325_name": "Three Dreaded Cascade Ferry Landing",
+      "pr325_anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "pr325_team_slot": 6,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-TEMPLE-LOWER-FERRY-LANDING",
+          "name": "Temple Lower Ferry Landing"
+        },
+        {
+          "id": "CAND-WATERFALL-SCRIBE-ALCOVE",
+          "name": "Waterfall Scribe Alcove"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-TDS-IRRIGATION-CUT",
+      "pr325_name": "Podium Shadow Irrigation Cut",
+      "pr325_anchor": "LOC-TDS-WATERFALL-TEMPLE",
+      "pr325_team_slot": 6,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-TEMPLE-LOWER-FERRY-LANDING",
+          "name": "Temple Lower Ferry Landing"
+        },
+        {
+          "id": "CAND-WATERFALL-SCRIBE-ALCOVE",
+          "name": "Waterfall Scribe Alcove"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-TDS-MARCH-MEDIATION-YARD",
+      "pr325_name": "Shared March Mediation Yard",
+      "pr325_anchor": "LOC-TDS-CHILI-SHARED-MARCH",
+      "pr325_team_slot": 6,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-SHARED-MARCH-CUSTOMS-HEARTH",
+          "name": "Shared March Customs Hearth"
+        },
+        {
+          "id": "CAND-SHARED-MARCH-SIGNAL-POST",
+          "name": "Shared March Signal Post"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-CHILI-WEST-RANGE-WELL",
+      "pr325_name": "Western Range Deep Well",
+      "pr325_anchor": "LOC-CHILI-STABLE",
+      "pr325_team_slot": 7,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-DARK-HORSE-DRY-SEASON-WELL",
+          "name": "Dark Horse Dry Season Well"
+        },
+        {
+          "id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
+          "name": "Western Range Outrider Fold"
+        },
+        {
+          "id": "CAND-SHARED-MARCH-SIGNAL-POST",
+          "name": "Shared March Signal Post"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-CHILI-DARK-HORSE-CORRAL",
+      "pr325_name": "Dark Horse Rest Corral",
+      "pr325_anchor": "LOC-CHILI-STABLE",
+      "pr325_team_slot": 7,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-DARK-HORSE-DRY-SEASON-WELL",
+          "name": "Dark Horse Dry Season Well"
+        },
+        {
+          "id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
+          "name": "Western Range Outrider Fold"
+        },
+        {
+          "id": "CAND-SHARED-MARCH-SIGNAL-POST",
+          "name": "Shared March Signal Post"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-CHILI-RANGE-GRAZING-POST",
+      "pr325_name": "Chili Range Grazing Post",
+      "pr325_anchor": "LOC-CHILI-STABLE",
+      "pr325_team_slot": 7,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-DARK-HORSE-DRY-SEASON-WELL",
+          "name": "Dark Horse Dry Season Well"
+        },
+        {
+          "id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
+          "name": "Western Range Outrider Fold"
+        },
+        {
+          "id": "CAND-SHARED-MARCH-SIGNAL-POST",
+          "name": "Shared March Signal Post"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-HMB-BLACKCLIFF-WATCH",
+      "pr325_name": "Belt Keeper Black Cliff Watch",
+      "pr325_anchor": "LOC-BELT-KEEPER-KEEP",
+      "pr325_team_slot": 8,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-BLACK-CLIFF-RAIN-GAUGE",
+          "name": "Black Cliff Rain Gauge"
+        },
+        {
+          "id": "CAND-KEEPER-S-INVENTORY-ANTECHAMBER",
+          "name": "Keeper's Inventory Antechamber"
+        },
+        {
+          "id": "CAND-CLIFFSIDE-CIVILIAN-REFUGE",
+          "name": "Cliffside Civilian Refuge"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-HMB-KEEP-AQUEDUCT",
+      "pr325_name": "Rune Keep Ridge Aqueduct",
+      "pr325_anchor": "LOC-BELT-KEEPER-KEEP",
+      "pr325_team_slot": 8,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-BLACK-CLIFF-RAIN-GAUGE",
+          "name": "Black Cliff Rain Gauge"
+        },
+        {
+          "id": "CAND-KEEPER-S-INVENTORY-ANTECHAMBER",
+          "name": "Keeper's Inventory Antechamber"
+        },
+        {
+          "id": "CAND-CLIFFSIDE-CIVILIAN-REFUGE",
+          "name": "Cliffside Civilian Refuge"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-HMB-HERALD-VAULT",
+      "pr325_name": "Belt Keeper Herald Vault",
+      "pr325_anchor": "LOC-BELT-KEEPER-KEEP",
+      "pr325_team_slot": 8,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-BLACK-CLIFF-RAIN-GAUGE",
+          "name": "Black Cliff Rain Gauge"
+        },
+        {
+          "id": "CAND-KEEPER-S-INVENTORY-ANTECHAMBER",
+          "name": "Keeper's Inventory Antechamber"
+        },
+        {
+          "id": "CAND-CLIFFSIDE-CIVILIAN-REFUGE",
+          "name": "Cliffside Civilian Refuge"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-ELNINO-STORM-SHELTER-DOCK",
+      "pr325_name": "Storm Bowl Shelter Dock",
+      "pr325_anchor": "LOC-STORM-BOWL",
+      "pr325_team_slot": 9,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-STORM-BOWL-LEEWARD-STANDS",
+          "name": "Storm Bowl Leeward Stands"
+        },
+        {
+          "id": "CAND-COASTAL-WEATHER-REGISTER-HOUSE",
+          "name": "Coastal Weather Register House"
+        },
+        {
+          "id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
+          "name": "Tide Shelter Maintenance Shed"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-ELNINO-WIND-OBSERVATORY",
+      "pr325_name": "Storm Bowl Wind Observatory",
+      "pr325_anchor": "LOC-STORM-BOWL",
+      "pr325_team_slot": 9,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-STORM-BOWL-LEEWARD-STANDS",
+          "name": "Storm Bowl Leeward Stands"
+        },
+        {
+          "id": "CAND-COASTAL-WEATHER-REGISTER-HOUSE",
+          "name": "Coastal Weather Register House"
+        },
+        {
+          "id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
+          "name": "Tide Shelter Maintenance Shed"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-ELNINO-COASTAL-SHELTER-WARD",
+      "pr325_name": "Eastern Coast Shelter Ward",
+      "pr325_anchor": "LOC-STORM-BOWL",
+      "pr325_team_slot": 9,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-STORM-BOWL-LEEWARD-STANDS",
+          "name": "Storm Bowl Leeward Stands"
+        },
+        {
+          "id": "CAND-COASTAL-WEATHER-REGISTER-HOUSE",
+          "name": "Coastal Weather Register House"
+        },
+        {
+          "id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
+          "name": "Tide Shelter Maintenance Shed"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-MUD-RAISED-GRANARY",
+      "pr325_name": "Mud Dogs Raised Granary",
+      "pr325_anchor": "LOC-MUD-DOGS-SWAMP",
+      "pr325_team_slot": 10,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-CYPRESS-STILT-STOREHOUSE",
+          "name": "Cypress Stilt Storehouse"
+        },
+        {
+          "id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
+          "name": "Delta Causeway Ferry Stage"
+        },
+        {
+          "id": "CAND-SILTBANK-GATHERING-RISE",
+          "name": "Siltbank Gathering Rise"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-MUD-DELTA-PILOT-STATION",
+      "pr325_name": "Delta Causeway Pilot Station",
+      "pr325_anchor": "LOC-MUD-DOGS-SWAMP",
+      "pr325_team_slot": 10,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-CYPRESS-STILT-STOREHOUSE",
+          "name": "Cypress Stilt Storehouse"
+        },
+        {
+          "id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
+          "name": "Delta Causeway Ferry Stage"
+        },
+        {
+          "id": "CAND-SILTBANK-GATHERING-RISE",
+          "name": "Siltbank Gathering Rise"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-MUD-TIDEMARK-BEACON",
+      "pr325_name": "Swamp Tidemark Beacon",
+      "pr325_anchor": "LOC-MUD-DOGS-SWAMP",
+      "pr325_team_slot": 10,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-CYPRESS-STILT-STOREHOUSE",
+          "name": "Cypress Stilt Storehouse"
+        },
+        {
+          "id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
+          "name": "Delta Causeway Ferry Stage"
+        },
+        {
+          "id": "CAND-SILTBANK-GATHERING-RISE",
+          "name": "Siltbank Gathering Rise"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-CHINS-TRAVELER-BAKERY",
+      "pr325_name": "Chins Commons Travelers' Oven",
+      "pr325_anchor": "LOC-CHINS-ROAD-COMMONS",
+      "pr325_team_slot": 11,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
+          "name": "Road Commons Public Steps"
+        },
+        {
+          "id": "CAND-BASIN-CARAVAN-REPAIR-BAY",
+          "name": "Basin Caravan Repair Bay"
+        },
+        {
+          "id": "CAND-PEOPLE-S-HALL-STORAGE-GALLERY",
+          "name": "People's Hall Storage Gallery"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-CHINS-BASIN-ARBITER-COURT",
+      "pr325_name": "Road Commons Dispute Court",
+      "pr325_anchor": "LOC-CHINS-ROAD-COMMONS",
+      "pr325_team_slot": 11,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
+          "name": "Road Commons Public Steps"
+        },
+        {
+          "id": "CAND-BASIN-CARAVAN-REPAIR-BAY",
+          "name": "Basin Caravan Repair Bay"
+        },
+        {
+          "id": "CAND-PEOPLE-S-HALL-STORAGE-GALLERY",
+          "name": "People's Hall Storage Gallery"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-CHINS-ROADSIDE-STORY-WALL",
+      "pr325_name": "People's Champ Story Wall",
+      "pr325_anchor": "LOC-CHINS-ROAD-COMMONS",
+      "pr325_team_slot": 11,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
+          "name": "Road Commons Public Steps"
+        },
+        {
+          "id": "CAND-BASIN-CARAVAN-REPAIR-BAY",
+          "name": "Basin Caravan Repair Bay"
+        },
+        {
+          "id": "CAND-PEOPLE-S-HALL-STORAGE-GALLERY",
+          "name": "People's Hall Storage Gallery"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-DUCKHOOK-JACKSON-SLUICE",
+      "pr325_name": "Jackson Estate Drainage Sluice",
+      "pr325_anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "pr325_team_slot": 12,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-JACKSON-LEVEE-KEEPER-S-LODGE",
+          "name": "Jackson Levee Keeper's Lodge"
+        },
+        {
+          "id": "CAND-COUNTRY-CLUB-GROUNDSKEEPERS-SHED",
+          "name": "Country Club Groundskeepers' Shed"
+        },
+        {
+          "id": "CAND-WATER-HAZARD-REED-WALK",
+          "name": "Water Hazard Reed Walk"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-DUCKHOOK-GROUNDSKEEPERS-LODGE",
+      "pr325_name": "Jackson Groundskeepers' Lodge",
+      "pr325_anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "pr325_team_slot": 12,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-JACKSON-LEVEE-KEEPER-S-LODGE",
+          "name": "Jackson Levee Keeper's Lodge"
+        },
+        {
+          "id": "CAND-COUNTRY-CLUB-GROUNDSKEEPERS-SHED",
+          "name": "Country Club Groundskeepers' Shed"
+        },
+        {
+          "id": "CAND-WATER-HAZARD-REED-WALK",
+          "name": "Water Hazard Reed Walk"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-DUCKHOOK-RIVERSIDE-PRACTICE-GREEN",
+      "pr325_name": "Riverside Practice Green",
+      "pr325_anchor": "LOC-COUNTRY-CLUB-JACKSON",
+      "pr325_team_slot": 12,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-JACKSON-LEVEE-KEEPER-S-LODGE",
+          "name": "Jackson Levee Keeper's Lodge"
+        },
+        {
+          "id": "CAND-COUNTRY-CLUB-GROUNDSKEEPERS-SHED",
+          "name": "Country Club Groundskeepers' Shed"
+        },
+        {
+          "id": "CAND-WATER-HAZARD-REED-WALK",
+          "name": "Water Hazard Reed Walk"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-BASIN-RECORD-FORD",
+      "pr325_name": "Basin Record Ford",
+      "pr325_anchor": "LOC-LEAGUE-ARCHIVE",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [],
+      "relation_class": "NO_SAME_PARENT__NETWORK_OR_OTHER_SITE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-WETLAND-LEVEE-PUMP-HOUSE",
+      "pr325_name": "Wetland Levee Pump House",
+      "pr325_anchor": "LOC-DK-MUD-HILL",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [
+        {
+          "id": "CAND-MIRE-HILL-CUSTODIAL-OUTPOST",
+          "name": "Mire Hill Custodial Outpost"
+        }
+      ],
+      "relation_class": "SHARED_ACTIVE_SITE__SEMANTIC_RECONCILIATION_REQUIRED",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-NORTHERN-PASS-RESCUE-SHELTER",
+      "pr325_name": "Northern Pass Rescue Shelter",
+      "pr325_anchor": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [],
+      "relation_class": "NO_SAME_PARENT__NETWORK_OR_OTHER_SITE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-INNER-SEA-NEUTRAL-MOORING",
+      "pr325_name": "Inner Sea Public Mooring",
+      "pr325_anchor": "LOC-LLC-STORM-CITY",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [],
+      "relation_class": "NO_SAME_PARENT__NETWORK_OR_OTHER_SITE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-ISLAND-TIDAL-GAUGE",
+      "pr325_name": "Island Tidal Gauge Court",
+      "pr325_anchor": "POST-NODE:HARBOR_RELIEF",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [],
+      "relation_class": "UPSTREAM_ISLAND_TOPOLOGY_REUSE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-ISLAND-QUARRY-REPAIR-GALLERY",
+      "pr325_name": "Island Quarry Repair Gallery",
+      "pr325_anchor": "POST-NODE:IRON_QUARRY",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [],
+      "relation_class": "UPSTREAM_ISLAND_TOPOLOGY_REUSE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-ISLAND-SOUTH-REPAIR-CACHE",
+      "pr325_name": "Island South Rescue Repair Cache",
+      "pr325_anchor": "POST-NODE:EMERGENCY_PIER",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [],
+      "relation_class": "UPSTREAM_ISLAND_TOPOLOGY_REUSE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    },
+    {
+      "pr325_id": "CAND-XP-ISLAND-UPLAND-RAIN-RETENTION",
+      "pr325_name": "Island Upland Rain Retention Court",
+      "pr325_anchor": "POST-NODE:LAST_FIELD",
+      "pr325_team_slot": null,
+      "pr324_same_anchor_options": [],
+      "relation_class": "UPSTREAM_ISLAND_TOPOLOGY_REUSE_CHECK",
+      "equivalence_status": "UNDECIDED_NOT_DISTINCT_NOT_DUPLICATE",
+      "canon_promotion_allowed": false
+    }
+  ]
+}

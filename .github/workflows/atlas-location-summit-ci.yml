@@ -1,0 +1,49 @@
+name: Atlas location summit CI
+on:
+  pull_request:
+    paths:
+      - 'world/data/locations.json'
+      - 'world/data/atlas_location_candidates.json'
+      - 'world/data/owner_domains.json'
+      - 'world/data/world_memory.json'
+      - 'living-novel/history/**'
+      - 'world/atlas/summits/**'
+      - 'world/atlas/interactive/**'
+      - 'world/location-control-plane/registries/**'
+      - '.github/workflows/atlas-location-summit-ci.yml'
+  push:
+    paths:
+      - 'world/data/atlas_location_candidates.json'
+      - 'world/atlas/summits/**'
+      - 'world/atlas/interactive/**'
+      - '.github/workflows/atlas-location-summit-ci.yml'
+jobs:
+  atlas-summit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check 155 typed source handles and untouched canonical world
+        run: python3 world/atlas/summits/2026-11-20/validate_location_summit.py
+      - name: Check independent cross-Atlas handle counts and Last Field hold
+        run: python3 world/atlas/summits/2026-11-20/test_atlas_summit.py
+      - name: Validate pinned Playoff Island source with 23 nodes and 45 edges
+        run: python3 world/atlas/summits/2026-11-20/validate_island_topology_pin.py
+      - name: Reject island topology corruption and unsafe Losers Beach access
+        run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_island_topology_pin.py' -v
+      - name: Validate 132 slot-season playoff states and 56 mirrored results
+        run: python3 world/atlas/summits/2026-11-20/postseason_lineage_gates.py
+      - name: Adversarial postseason lineage mutation tests
+        run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_postseason_lineage_gates.py' -v
+      - name: Reject duplicate cross-PR proposal promotions and unsafe photo-library bridge
+        run: python3 world/atlas/summits/2026-11-20/validate_cross_pr_photo_handoff.py
+      - name: "Validate board scope: 44 semantic decisions, Last Field dry run, PR337 folio links"
+        run: python3 world/atlas/summits/2026-11-20/validate_board_execution.py
+      - name: Mutate preproduction approvals and ensure all fail closed
+        run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_board_execution.py' -v
+      - name: Preserve frozen Phase 4 Atlas catalog and routes
+        run: python3 -m unittest discover -s world/atlas/interactive -p 'test_interactive_atlas.py' -v
