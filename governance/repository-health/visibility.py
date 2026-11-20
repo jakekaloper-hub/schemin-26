@@ -37,7 +37,7 @@ def pages(repo: str, endpoint: str, token: str | None = None) -> list[dict]:
 
 
 def clean(value) -> str:
-    return str(value).replace("|", " / ").replace("\r", " ").replace("\n", " ").strip()
+    return re.sub(r"\s+", " ", str(value).replace("|", " / ")).strip()
 
 
 def local_pr(pr: dict, repo: str) -> bool:
