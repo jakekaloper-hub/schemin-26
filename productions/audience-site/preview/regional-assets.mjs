@@ -1097,6 +1097,30 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geometry.computeBoundingSphere();
     return geometry;
   }
+  function sculptJacksonAutumnGroveCrown(crown,treeIndex,lobeIndex){
+    // Recess only the EXISTING folio-referenced crowns; never enlarge their original silhouette.
+    // Illustrative leaf-cluster relief is not a permanent-season or botanical canon assertion.
+    const geometry=crown.geometry,p=geometry.getAttribute('position');
+    for(let k=0;k<p.count;k++){
+      const x=p.getX(k),y=p.getY(k),z=p.getZ(k),radius=Math.hypot(x,y,z);
+      if(radius<1e-8)continue;
+      const azimuth=Math.atan2(z,x);
+      const wave=.72*Math.sin(azimuth*8.5+treeIndex*.61+lobeIndex*.37)
+        +.28*Math.cos(y*9.2+treeIndex*.27-lobeIndex*.44);
+      const scallop=Math.pow(.5+.5*wave,2);
+      const midCrown=1-Math.pow(Math.abs(y)/radius,4);
+      const inset=.082*(.26+.74*midCrown)*scallop;
+      p.setXYZ(k,x*(1-inset),y*(1-inset),z*(1-inset));
+    }
+    p.needsUpdate=true;
+    geometry.name='Candidate Jackson inward-scalloped autumn crown';
+    geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    crown.name='Candidate Jackson inward-scalloped autumn crown';
+    crown.userData={...crown.userData,visualAuthority:'CANDIDATE_NOT_APPROVED',
+      historicalReference:'W09-COUNTRY-CLUB-FOLIOS-05-08',
+      originalCrownEnvelopePreserved:true,navigable:false,routeIds:[],principalCharacters:[]};
+    return crown;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -1152,12 +1176,16 @@ export function buildRegionalAssets(THREE, bindings, height) {
       for(let k=0;k<lobes;k++){
         const a=(k/lobes)*Math.PI*2+i*.34;
         const dx=Math.cos(a)*.66*scale,dz=Math.sin(a)*.63*scale;
-        const crown=rock(g,x+dx,y+h+(.46+(k%2)*.30)*scale,z+dz,
-          (1.08+(k%3)*.12)*scale,(.85+(k%2)*.17)*scale,(.94+(k%2)*.14)*scale,amber[(i+k)%amber.length]);
-        crown.userData={estateTreePart:'crown',estateTree:i};
+        const crown=sculptJacksonAutumnGroveCrown(
+          rock(g,x+dx,y+h+(.46+(k%2)*.30)*scale,z+dz,
+            (1.08+(k%3)*.12)*scale,(.85+(k%2)*.17)*scale,(.94+(k%2)*.14)*scale,amber[(i+k)%amber.length]),
+          i,k);
+        crown.userData={...crown.userData,estateTreePart:'crown',estateTree:i};
       }
-      const high=rock(g,x,y+h+1.05*scale,z,1.10*scale,.85*scale,1.0*scale,amber[(i+2)%amber.length]);
-      high.userData={estateTreePart:'crown',estateTree:i};
+      const high=sculptJacksonAutumnGroveCrown(
+        rock(g,x,y+h+1.05*scale,z,1.10*scale,.85*scale,1.0*scale,amber[(i+2)%amber.length]),
+        i,lobes);
+      high.userData={...high.userData,estateTreePart:'crown',estateTree:i};
     });
     for(let i=0;i<3;i++){cyl(g,-4+i*4,.08,7.5+(i%2),.024,.024,1,cream,5);const f=mesh(g,new THREE.PlaneGeometry(.45,.25),mat('#b86f43'),-3.78+i*4,.95,7.5+(i%2));f.material.side=THREE.DoubleSide;}
     box(g,0,0,6,1.4,.025,.5,mat('#806f4c'));
