@@ -269,521 +269,1347 @@
     {
       "candidate_id": "CAND-RIDGE-SIGNAL-OBSERVATORY",
       "working_name": "Ridge Signal Observatory",
-      "team_slot_2026": null,
+      "team_slot_2026": 1,
       "physical_parent_ids": [
         "LOC-TRADE-JEDI-MOUNTAIN-BASE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-JEDI-ASCENT-SIGNAL-HOUSE",
+          "title": "Eastern Ascent Signal House",
+          "shared_anchor": true,
+          "term_overlap": [
+            "signal"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-JEDI-RIDGE-CISTERN",
+          "title": "Trade Jedi Ridge Cistern",
+          "shared_anchor": true,
+          "term_overlap": [
+            "ridge"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-JEDI-NEGOTIATORS-TERRACE",
+          "title": "Trade Jedi Negotiators' Terrace",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-MOUNTAIN-BASE-COURIER-STEPS",
       "working_name": "Mountain Base Courier Steps",
-      "team_slot_2026": null,
+      "team_slot_2026": 1,
       "physical_parent_ids": [
         "LOC-TRADE-JEDI-MOUNTAIN-BASE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-JEDI-ASCENT-SIGNAL-HOUSE",
+          "title": "Eastern Ascent Signal House",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-JEDI-NEGOTIATORS-TERRACE",
+          "title": "Trade Jedi Negotiators' Terrace",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-JEDI-RIDGE-CISTERN",
+          "title": "Trade Jedi Ridge Cistern",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-EASTERN-ASCENT-REPAIR-TERRACE",
       "working_name": "Eastern Ascent Repair Terrace",
-      "team_slot_2026": null,
+      "team_slot_2026": 1,
       "physical_parent_ids": [
         "LOC-TRADE-JEDI-MOUNTAIN-BASE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
       "possible_equivalents": [
         {
-          "id": "CAND-XP-ISLAND-QUARRY-REPAIR-GALLERY",
-          "title": "Island Quarry Repair Gallery",
-          "score": 3,
+          "id": "CAND-XP-JEDI-ASCENT-SIGNAL-HOUSE",
+          "title": "Eastern Ascent Signal House",
+          "shared_anchor": true,
           "term_overlap": [
-            "repair"
+            "ascent"
           ],
-          "shared_anchor": false
+          "review_score": 5
         },
         {
-          "id": "CAND-XP-ISLAND-SOUTH-REPAIR-CACHE",
-          "title": "Island South Rescue Repair Cache",
-          "score": 3,
+          "id": "CAND-XP-JEDI-NEGOTIATORS-TERRACE",
+          "title": "Trade Jedi Negotiators' Terrace",
+          "shared_anchor": true,
           "term_overlap": [
-            "repair"
+            "terrace"
           ],
-          "shared_anchor": false
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-JEDI-RIDGE-CISTERN",
+          "title": "Trade Jedi Ridge Cistern",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
         }
       ],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-RED-ESCARPMENT-SENTINEL-WALK",
       "working_name": "Red Escarpment Sentinel Walk",
-      "team_slot_2026": null,
+      "team_slot_2026": 2,
       "physical_parent_ids": [
         "LOC-RED-RUINS"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-RED-SALVAGE-WALK",
+          "title": "Red Ruins Salvage Walk",
+          "shared_anchor": true,
+          "term_overlap": [
+            "red",
+            "walk"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-RED-RAIN-ORCHARD",
+          "title": "Leopard Rain Terrace Orchard",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-RED-RUIN-WATCH",
+          "title": "Leopard Ruins Rainwatch",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-RUINS-CANOPY-CISTERN",
       "working_name": "Ruins Canopy Cistern",
-      "team_slot_2026": null,
+      "team_slot_2026": 2,
       "physical_parent_ids": [
         "LOC-RED-RUINS"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-RED-RUIN-WATCH",
+          "title": "Leopard Ruins Rainwatch",
+          "shared_anchor": true,
+          "term_overlap": [
+            "ruins"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-RED-SALVAGE-WALK",
+          "title": "Red Ruins Salvage Walk",
+          "shared_anchor": true,
+          "term_overlap": [
+            "ruins"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-RED-RAIN-ORCHARD",
+          "title": "Leopard Rain Terrace Orchard",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-PREDATOR-TERRACE-APPROACH",
       "working_name": "Predator Terrace Approach",
-      "team_slot_2026": null,
+      "team_slot_2026": 2,
       "physical_parent_ids": [
         "LOC-RED-RUINS"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-RED-RAIN-ORCHARD",
+          "title": "Leopard Rain Terrace Orchard",
+          "shared_anchor": true,
+          "term_overlap": [
+            "terrace"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-RED-RUIN-WATCH",
+          "title": "Leopard Ruins Rainwatch",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-RED-SALVAGE-WALK",
+          "title": "Red Ruins Salvage Walk",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-FOOTHILL-WAGON-REST",
       "working_name": "Foothill Wagon Rest",
-      "team_slot_2026": null,
+      "team_slot_2026": 3,
       "physical_parent_ids": [
         "LOC-SLOB-FOOTHILL-CAMP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-SLOB-COOKFIRE-GROUND",
+          "title": "Foothill Cookfire Ground",
+          "shared_anchor": true,
+          "term_overlap": [
+            "foothill"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-SLOB-GEAR-YARD",
+          "title": "Foothill Repair Yard",
+          "shared_anchor": true,
+          "term_overlap": [
+            "foothill"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-SLOB-HEARTHROAD-STOP",
+          "title": "Foothill Ridge Shelter",
+          "shared_anchor": true,
+          "term_overlap": [
+            "foothill"
+          ],
+          "review_score": 5
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-ROUGH-PRACTICE-COMMONS",
       "working_name": "Rough Practice Commons",
-      "team_slot_2026": null,
+      "team_slot_2026": 3,
       "physical_parent_ids": [
         "LOC-SLOB-FOOTHILL-CAMP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-SLOB-COOKFIRE-GROUND",
+          "title": "Foothill Cookfire Ground",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-SLOB-GEAR-YARD",
+          "title": "Foothill Repair Yard",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-SLOB-HEARTHROAD-STOP",
+          "title": "Foothill Ridge Shelter",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-HEARTHROAD-TOLL-SHELTER",
       "working_name": "Hearthroad Toll Shelter",
-      "team_slot_2026": null,
+      "team_slot_2026": 3,
       "physical_parent_ids": [
         "LOC-SLOB-FOOTHILL-CAMP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-SLOB-HEARTHROAD-STOP",
+          "title": "Foothill Ridge Shelter",
+          "shared_anchor": true,
+          "term_overlap": [
+            "shelter"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-SLOB-COOKFIRE-GROUND",
+          "title": "Foothill Cookfire Ground",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-SLOB-GEAR-YARD",
+          "title": "Foothill Repair Yard",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-LLC-CONTRACT-REGISTRY-ANNEX",
       "working_name": "LLC Contract Registry Annex",
-      "team_slot_2026": null,
+      "team_slot_2026": 4,
       "physical_parent_ids": [
         "LOC-LLC-BOARDROOM"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-LLC-QUAY-REPAIR-LEDGER",
+          "title": "LLC Quay Repair Ledger House",
+          "shared_anchor": false,
+          "term_overlap": [
+            "llc"
+          ],
+          "review_score": 3
+        },
+        {
+          "id": "CAND-XP-LLC-CUSTOMS-FLOOR",
+          "title": "Inner Sea Customs Floor",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-LLC-STORM-BARRIER-WALK",
+          "title": "Storm City Barrier Walk",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-STORM-BARRIER-INSPECTION-YARD",
       "working_name": "Storm Barrier Inspection Yard",
-      "team_slot_2026": null,
+      "team_slot_2026": 4,
       "physical_parent_ids": [
         "LOC-LLC-BOARDROOM"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-LLC-STORM-BARRIER-WALK",
+          "title": "Storm City Barrier Walk",
+          "shared_anchor": false,
+          "term_overlap": [
+            "storm",
+            "barrier"
+          ],
+          "review_score": 6
+        },
+        {
+          "id": "CAND-XP-LLC-CUSTOMS-FLOOR",
+          "title": "Inner Sea Customs Floor",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-LLC-QUAY-REPAIR-LEDGER",
+          "title": "LLC Quay Repair Ledger House",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-INNER-SEA-CARGO-WEIGHCOURT",
       "working_name": "Inner Sea Cargo Weighcourt",
-      "team_slot_2026": null,
+      "team_slot_2026": 4,
       "physical_parent_ids": [
         "LOC-LLC-BOARDROOM"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-LLC-CUSTOMS-FLOOR",
+          "title": "Inner Sea Customs Floor",
+          "shared_anchor": true,
+          "term_overlap": [
+            "inner",
+            "sea"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-LLC-QUAY-REPAIR-LEDGER",
+          "title": "LLC Quay Repair Ledger House",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        },
+        {
+          "id": "CAND-XP-LLC-STORM-BARRIER-WALK",
+          "title": "Storm City Barrier Walk",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-HIGHLAND-CAVALRY-EXERCISE-COURT",
       "working_name": "Highland Cavalry Exercise Court",
-      "team_slot_2026": null,
+      "team_slot_2026": 5,
       "physical_parent_ids": [
         "LOC-DK-HIGHLAND-STRONGHOLD"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
       "possible_equivalents": [
         {
-          "id": "CAND-XP-ISLAND-TIDAL-GAUGE",
-          "title": "Island Tidal Gauge Court",
-          "score": 3,
-          "term_overlap": [
-            "court"
-          ],
-          "shared_anchor": false
+          "id": "CAND-XP-DK-HIGHLAND-CRESCENT",
+          "title": "D0nkey K0ng Highland Crescent",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
         },
         {
-          "id": "CAND-XP-ISLAND-UPLAND-RAIN-RETENTION",
-          "title": "Island Upland Rain Retention Court",
-          "score": 3,
-          "term_overlap": [
-            "court"
-          ],
-          "shared_anchor": false
+          "id": "CAND-XP-DK-HIGHLAND-TRAINING-WALL",
+          "title": "Highland Training Wall",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-DK-ARSENAL-STONE-WELL",
+          "title": "Arsenal Market Stone Well",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
         }
       ],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-ARSENAL-GUILD-TOOLHOUSE",
       "working_name": "Arsenal Guild Toolhouse",
-      "team_slot_2026": null,
+      "team_slot_2026": 5,
       "physical_parent_ids": [
         "LOC-DK-HIGHLAND-STRONGHOLD"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-DK-ARSENAL-STONE-WELL",
+          "title": "Arsenal Market Stone Well",
+          "shared_anchor": false,
+          "term_overlap": [
+            "arsenal"
+          ],
+          "review_score": 3
+        },
+        {
+          "id": "CAND-XP-DK-HIGHLAND-CRESCENT",
+          "title": "D0nkey K0ng Highland Crescent",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-DK-HIGHLAND-TRAINING-WALL",
+          "title": "Highland Training Wall",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-MIRE-HILL-CUSTODIAL-OUTPOST",
       "working_name": "Mire Hill Custodial Outpost",
-      "team_slot_2026": null,
+      "team_slot_2026": 5,
       "physical_parent_ids": [
         "LOC-DK-MUD-HILL"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-DK-ARSENAL-STONE-WELL",
+          "title": "Arsenal Market Stone Well",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        },
+        {
+          "id": "CAND-XP-DK-HIGHLAND-CRESCENT",
+          "title": "D0nkey K0ng Highland Crescent",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        },
+        {
+          "id": "CAND-XP-DK-HIGHLAND-TRAINING-WALL",
+          "title": "Highland Training Wall",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-TEMPLE-LOWER-FERRY-LANDING",
       "working_name": "Temple Lower Ferry Landing",
-      "team_slot_2026": null,
+      "team_slot_2026": 6,
       "physical_parent_ids": [
         "LOC-TDS-WATERFALL-TEMPLE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-TDS-CASCADE-FERRY",
+          "title": "Three Dreaded Cascade Ferry Landing",
+          "shared_anchor": true,
+          "term_overlap": [
+            "ferry",
+            "landing"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-TDS-IRRIGATION-CUT",
+          "title": "Podium Shadow Irrigation Cut",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-TDS-MARCH-MEDIATION-YARD",
+          "title": "Shared March Mediation Yard",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-WATERFALL-SCRIBE-ALCOVE",
       "working_name": "Waterfall Scribe Alcove",
-      "team_slot_2026": null,
+      "team_slot_2026": 6,
       "physical_parent_ids": [
         "LOC-TDS-WATERFALL-TEMPLE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-TDS-CASCADE-FERRY",
+          "title": "Three Dreaded Cascade Ferry Landing",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-TDS-IRRIGATION-CUT",
+          "title": "Podium Shadow Irrigation Cut",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-TDS-MARCH-MEDIATION-YARD",
+          "title": "Shared March Mediation Yard",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-SHARED-MARCH-CUSTOMS-HEARTH",
       "working_name": "Shared March Customs Hearth",
-      "team_slot_2026": null,
+      "team_slot_2026": 6,
       "physical_parent_ids": [
         "LOC-TDS-CHILI-SHARED-MARCH"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-TDS-MARCH-MEDIATION-YARD",
+          "title": "Shared March Mediation Yard",
+          "shared_anchor": true,
+          "term_overlap": [
+            "march"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-TDS-CASCADE-FERRY",
+          "title": "Three Dreaded Cascade Ferry Landing",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        },
+        {
+          "id": "CAND-XP-TDS-IRRIGATION-CUT",
+          "title": "Podium Shadow Irrigation Cut",
+          "shared_anchor": false,
+          "term_overlap": [],
+          "review_score": 0
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-DARK-HORSE-DRY-SEASON-WELL",
       "working_name": "Dark Horse Dry Season Well",
-      "team_slot_2026": null,
+      "team_slot_2026": 7,
       "physical_parent_ids": [
         "LOC-CHILI-STABLE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-CHILI-DARK-HORSE-CORRAL",
+          "title": "Dark Horse Rest Corral",
+          "shared_anchor": true,
+          "term_overlap": [
+            "dark",
+            "horse"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-CHILI-WEST-RANGE-WELL",
+          "title": "Western Range Deep Well",
+          "shared_anchor": true,
+          "term_overlap": [
+            "well"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-CHILI-RANGE-GRAZING-POST",
+          "title": "Chili Range Grazing Post",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-WESTERN-RANGE-OUTRIDER-FOLD",
       "working_name": "Western Range Outrider Fold",
-      "team_slot_2026": null,
+      "team_slot_2026": 7,
       "physical_parent_ids": [
         "LOC-CHILI-STABLE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-CHILI-RANGE-GRAZING-POST",
+          "title": "Chili Range Grazing Post",
+          "shared_anchor": true,
+          "term_overlap": [
+            "range"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-CHILI-WEST-RANGE-WELL",
+          "title": "Western Range Deep Well",
+          "shared_anchor": true,
+          "term_overlap": [
+            "range"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-CHILI-DARK-HORSE-CORRAL",
+          "title": "Dark Horse Rest Corral",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-SHARED-MARCH-SIGNAL-POST",
       "working_name": "Shared March Signal Post",
-      "team_slot_2026": null,
+      "team_slot_2026": 7,
       "physical_parent_ids": [
         "LOC-TDS-CHILI-SHARED-MARCH",
         "LOC-CHILI-STABLE"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-CHILI-RANGE-GRAZING-POST",
+          "title": "Chili Range Grazing Post",
+          "shared_anchor": true,
+          "term_overlap": [
+            "post"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-CHILI-DARK-HORSE-CORRAL",
+          "title": "Dark Horse Rest Corral",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-CHILI-WEST-RANGE-WELL",
+          "title": "Western Range Deep Well",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-BLACK-CLIFF-RAIN-GAUGE",
       "working_name": "Black Cliff Rain Gauge",
-      "team_slot_2026": null,
+      "team_slot_2026": 8,
       "physical_parent_ids": [
         "LOC-BELT-KEEPER-KEEP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
       "possible_equivalents": [
         {
-          "id": "CAND-XP-ISLAND-TIDAL-GAUGE",
-          "title": "Island Tidal Gauge Court",
-          "score": 3,
+          "id": "CAND-XP-HMB-BLACKCLIFF-WATCH",
+          "title": "Belt Keeper Black Cliff Watch",
+          "shared_anchor": true,
           "term_overlap": [
-            "gauge"
+            "black",
+            "cliff"
           ],
-          "shared_anchor": false
+          "review_score": 8
         },
         {
-          "id": "CAND-XP-ISLAND-UPLAND-RAIN-RETENTION",
-          "title": "Island Upland Rain Retention Court",
-          "score": 3,
-          "term_overlap": [
-            "rain"
-          ],
-          "shared_anchor": false
+          "id": "CAND-XP-HMB-HERALD-VAULT",
+          "title": "Belt Keeper Herald Vault",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-HMB-KEEP-AQUEDUCT",
+          "title": "Rune Keep Ridge Aqueduct",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
         }
       ],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-KEEPER-S-INVENTORY-ANTECHAMBER",
       "working_name": "Keeper's Inventory Antechamber",
-      "team_slot_2026": null,
+      "team_slot_2026": 8,
       "physical_parent_ids": [
         "LOC-BELT-KEEPER-KEEP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-HMB-BLACKCLIFF-WATCH",
+          "title": "Belt Keeper Black Cliff Watch",
+          "shared_anchor": true,
+          "term_overlap": [
+            "keeper"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-HMB-HERALD-VAULT",
+          "title": "Belt Keeper Herald Vault",
+          "shared_anchor": true,
+          "term_overlap": [
+            "keeper"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-HMB-KEEP-AQUEDUCT",
+          "title": "Rune Keep Ridge Aqueduct",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-CLIFFSIDE-CIVILIAN-REFUGE",
       "working_name": "Cliffside Civilian Refuge",
-      "team_slot_2026": null,
+      "team_slot_2026": 8,
       "physical_parent_ids": [
         "LOC-BELT-KEEPER-KEEP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-HMB-BLACKCLIFF-WATCH",
+          "title": "Belt Keeper Black Cliff Watch",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-HMB-HERALD-VAULT",
+          "title": "Belt Keeper Herald Vault",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-HMB-KEEP-AQUEDUCT",
+          "title": "Rune Keep Ridge Aqueduct",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-STORM-BOWL-LEEWARD-STANDS",
       "working_name": "Storm Bowl Leeward Stands",
-      "team_slot_2026": null,
+      "team_slot_2026": 9,
       "physical_parent_ids": [
         "LOC-STORM-BOWL"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-ELNINO-STORM-SHELTER-DOCK",
+          "title": "Storm Bowl Shelter Dock",
+          "shared_anchor": true,
+          "term_overlap": [
+            "storm",
+            "bowl"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-ELNINO-WIND-OBSERVATORY",
+          "title": "Storm Bowl Wind Observatory",
+          "shared_anchor": true,
+          "term_overlap": [
+            "storm",
+            "bowl"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-ELNINO-COASTAL-SHELTER-WARD",
+          "title": "Eastern Coast Shelter Ward",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-COASTAL-WEATHER-REGISTER-HOUSE",
       "working_name": "Coastal Weather Register House",
-      "team_slot_2026": null,
+      "team_slot_2026": 9,
       "physical_parent_ids": [
         "LOC-STORM-BOWL"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-ELNINO-COASTAL-SHELTER-WARD",
+          "title": "Eastern Coast Shelter Ward",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-ELNINO-STORM-SHELTER-DOCK",
+          "title": "Storm Bowl Shelter Dock",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-ELNINO-WIND-OBSERVATORY",
+          "title": "Storm Bowl Wind Observatory",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-TIDE-SHELTER-MAINTENANCE-SHED",
       "working_name": "Tide Shelter Maintenance Shed",
-      "team_slot_2026": null,
+      "team_slot_2026": 9,
       "physical_parent_ids": [
         "LOC-STORM-BOWL"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-ELNINO-COASTAL-SHELTER-WARD",
+          "title": "Eastern Coast Shelter Ward",
+          "shared_anchor": true,
+          "term_overlap": [
+            "shelter"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-ELNINO-STORM-SHELTER-DOCK",
+          "title": "Storm Bowl Shelter Dock",
+          "shared_anchor": true,
+          "term_overlap": [
+            "shelter"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-ELNINO-WIND-OBSERVATORY",
+          "title": "Storm Bowl Wind Observatory",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-CYPRESS-STILT-STOREHOUSE",
       "working_name": "Cypress Stilt Storehouse",
-      "team_slot_2026": null,
+      "team_slot_2026": 10,
       "physical_parent_ids": [
         "LOC-MUD-DOGS-SWAMP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-MUD-DELTA-PILOT-STATION",
+          "title": "Delta Causeway Pilot Station",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-MUD-RAISED-GRANARY",
+          "title": "Mud Dogs Raised Granary",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-MUD-TIDEMARK-BEACON",
+          "title": "Swamp Tidemark Beacon",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-DELTA-CAUSEWAY-FERRY-STAGE",
       "working_name": "Delta Causeway Ferry Stage",
-      "team_slot_2026": null,
+      "team_slot_2026": 10,
       "physical_parent_ids": [
         "LOC-MUD-DOGS-SWAMP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-MUD-DELTA-PILOT-STATION",
+          "title": "Delta Causeway Pilot Station",
+          "shared_anchor": true,
+          "term_overlap": [
+            "delta",
+            "causeway"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-MUD-RAISED-GRANARY",
+          "title": "Mud Dogs Raised Granary",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-MUD-TIDEMARK-BEACON",
+          "title": "Swamp Tidemark Beacon",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-SILTBANK-GATHERING-RISE",
       "working_name": "Siltbank Gathering Rise",
-      "team_slot_2026": null,
+      "team_slot_2026": 10,
       "physical_parent_ids": [
         "LOC-MUD-DOGS-SWAMP"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-MUD-DELTA-PILOT-STATION",
+          "title": "Delta Causeway Pilot Station",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-MUD-RAISED-GRANARY",
+          "title": "Mud Dogs Raised Granary",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-MUD-TIDEMARK-BEACON",
+          "title": "Swamp Tidemark Beacon",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-ROAD-COMMONS-PUBLIC-STEPS",
       "working_name": "Road Commons Public Steps",
-      "team_slot_2026": null,
+      "team_slot_2026": 11,
       "physical_parent_ids": [
         "LOC-CHINS-ROAD-COMMONS"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-CHINS-BASIN-ARBITER-COURT",
+          "title": "Road Commons Dispute Court",
+          "shared_anchor": true,
+          "term_overlap": [
+            "commons"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-CHINS-TRAVELER-BAKERY",
+          "title": "Chins Commons Travelers' Oven",
+          "shared_anchor": true,
+          "term_overlap": [
+            "commons"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-CHINS-ROADSIDE-STORY-WALL",
+          "title": "People's Champ Story Wall",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-BASIN-CARAVAN-REPAIR-BAY",
       "working_name": "Basin Caravan Repair Bay",
-      "team_slot_2026": null,
+      "team_slot_2026": 11,
       "physical_parent_ids": [
         "LOC-CHINS-ROAD-COMMONS"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
       "possible_equivalents": [
         {
-          "id": "CAND-XP-ISLAND-QUARRY-REPAIR-GALLERY",
-          "title": "Island Quarry Repair Gallery",
-          "score": 3,
-          "term_overlap": [
-            "repair"
-          ],
-          "shared_anchor": false
+          "id": "CAND-XP-CHINS-BASIN-ARBITER-COURT",
+          "title": "Road Commons Dispute Court",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
         },
         {
-          "id": "CAND-XP-ISLAND-SOUTH-REPAIR-CACHE",
-          "title": "Island South Rescue Repair Cache",
-          "score": 3,
-          "term_overlap": [
-            "repair"
-          ],
-          "shared_anchor": false
+          "id": "CAND-XP-CHINS-ROADSIDE-STORY-WALL",
+          "title": "People's Champ Story Wall",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-CHINS-TRAVELER-BAKERY",
+          "title": "Chins Commons Travelers' Oven",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
         }
       ],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-PEOPLE-S-HALL-STORAGE-GALLERY",
       "working_name": "People's Hall Storage Gallery",
-      "team_slot_2026": null,
+      "team_slot_2026": 11,
       "physical_parent_ids": [
         "LOC-CHINS-ROAD-COMMONS"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
       "possible_equivalents": [
         {
-          "id": "CAND-XP-ISLAND-QUARRY-REPAIR-GALLERY",
-          "title": "Island Quarry Repair Gallery",
-          "score": 3,
+          "id": "CAND-XP-CHINS-ROADSIDE-STORY-WALL",
+          "title": "People's Champ Story Wall",
+          "shared_anchor": true,
           "term_overlap": [
-            "gallery"
+            "people"
           ],
-          "shared_anchor": false
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-CHINS-BASIN-ARBITER-COURT",
+          "title": "Road Commons Dispute Court",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-CHINS-TRAVELER-BAKERY",
+          "title": "Chins Commons Travelers' Oven",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
         }
       ],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-JACKSON-LEVEE-KEEPER-S-LODGE",
       "working_name": "Jackson Levee Keeper's Lodge",
-      "team_slot_2026": null,
+      "team_slot_2026": 12,
       "physical_parent_ids": [
         "LOC-COUNTRY-CLUB-JACKSON"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-DUCKHOOK-GROUNDSKEEPERS-LODGE",
+          "title": "Jackson Groundskeepers' Lodge",
+          "shared_anchor": true,
+          "term_overlap": [
+            "jackson",
+            "lodge"
+          ],
+          "review_score": 8
+        },
+        {
+          "id": "CAND-XP-DUCKHOOK-JACKSON-SLUICE",
+          "title": "Jackson Estate Drainage Sluice",
+          "shared_anchor": true,
+          "term_overlap": [
+            "jackson"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-DUCKHOOK-RIVERSIDE-PRACTICE-GREEN",
+          "title": "Riverside Practice Green",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-COUNTRY-CLUB-GROUNDSKEEPERS-SHED",
       "working_name": "Country Club Groundskeepers' Shed",
-      "team_slot_2026": null,
+      "team_slot_2026": 12,
       "physical_parent_ids": [
         "LOC-COUNTRY-CLUB-JACKSON"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-DUCKHOOK-GROUNDSKEEPERS-LODGE",
+          "title": "Jackson Groundskeepers' Lodge",
+          "shared_anchor": true,
+          "term_overlap": [
+            "groundskeepers"
+          ],
+          "review_score": 5
+        },
+        {
+          "id": "CAND-XP-DUCKHOOK-JACKSON-SLUICE",
+          "title": "Jackson Estate Drainage Sluice",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-DUCKHOOK-RIVERSIDE-PRACTICE-GREEN",
+          "title": "Riverside Practice Green",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-WATER-HAZARD-REED-WALK",
       "working_name": "Water Hazard Reed Walk",
-      "team_slot_2026": null,
+      "team_slot_2026": 12,
       "physical_parent_ids": [
         "LOC-COUNTRY-CLUB-JACKSON"
       ],
       "status": "FUTURE_UNLOCK_CANDIDATE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "SAME_2026_FRANCHISE_POSSIBLE_OVERLAP_NOT_SAME_PLACE_PROOF",
+      "possible_equivalents": [
+        {
+          "id": "CAND-XP-DUCKHOOK-GROUNDSKEEPERS-LODGE",
+          "title": "Jackson Groundskeepers' Lodge",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-DUCKHOOK-JACKSON-SLUICE",
+          "title": "Jackson Estate Drainage Sluice",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        },
+        {
+          "id": "CAND-XP-DUCKHOOK-RIVERSIDE-PRACTICE-GREEN",
+          "title": "Riverside Practice Green",
+          "shared_anchor": true,
+          "term_overlap": [],
+          "review_score": 2
+        }
+      ],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": []
     },
     {
       "candidate_id": "CAND-PLAYOFF-ISLAND-OUTER-LANDING",
@@ -791,9 +1617,14 @@
       "team_slot_2026": null,
       "physical_parent_ids": [],
       "status": "HOLD_FOR_LATER_EVIDENCE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
+      "comparison_scope": "ISLAND_SOURCE_NODE_REUSE_REVIEW_NO_PARALLEL_VENUE",
       "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": [
+        "MAINLAND_PUBLIC_LITTORAL",
+        "ISLAND_ENTRY_CHECK",
+        "HARBOR_RELIEF"
+      ]
     },
     {
       "candidate_id": "CAND-PLAYOFF-ISLAND-NEUTRAL-ASSEMBLY-COURT",
@@ -801,28 +1632,13 @@
       "team_slot_2026": null,
       "physical_parent_ids": [],
       "status": "HOLD_FOR_LATER_EVIDENCE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [
-        {
-          "id": "CAND-XP-ISLAND-TIDAL-GAUGE",
-          "title": "Island Tidal Gauge Court",
-          "score": 3,
-          "term_overlap": [
-            "court"
-          ],
-          "shared_anchor": false
-        },
-        {
-          "id": "CAND-XP-ISLAND-UPLAND-RAIN-RETENTION",
-          "title": "Island Upland Rain Retention Court",
-          "score": 3,
-          "term_overlap": [
-            "court"
-          ],
-          "shared_anchor": false
-        }
-      ],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "ISLAND_SOURCE_NODE_REUSE_REVIEW_NO_PARALLEL_VENUE",
+      "possible_equivalents": [],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": [
+        "TAILGATE_COMMONS",
+        "CHAMPIONS_WALK"
+      ]
     },
     {
       "candidate_id": "CAND-PLAYOFF-ISLAND-WEATHER-REFUGE",
@@ -830,9 +1646,13 @@
       "team_slot_2026": null,
       "physical_parent_ids": [],
       "status": "HOLD_FOR_LATER_EVIDENCE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
+      "comparison_scope": "ISLAND_SOURCE_NODE_REUSE_REVIEW_NO_PARALLEL_VENUE",
       "possible_equivalents": [],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": [
+        "HARBOR_RELIEF",
+        "EMERGENCY_PIER"
+      ]
     },
     {
       "candidate_id": "CAND-PLAYOFF-ISLAND-LEGACY-GALLERY",
@@ -840,22 +1660,16 @@
       "team_slot_2026": null,
       "physical_parent_ids": [],
       "status": "HOLD_FOR_LATER_EVIDENCE",
-      "comparison_scope": "ISLAND_SOURCE_NODE_AND_NEUTRAL_REUSE_REVIEW",
-      "possible_equivalents": [
-        {
-          "id": "CAND-XP-ISLAND-QUARRY-REPAIR-GALLERY",
-          "title": "Island Quarry Repair Gallery",
-          "score": 3,
-          "term_overlap": [
-            "gallery"
-          ],
-          "shared_anchor": false
-        }
-      ],
-      "decision": "NEEDS_EDITORIAL_ADJUDICATION_NO_AUTOMATIC_ALIAS_OR_LOC_PROMOTION"
+      "comparison_scope": "ISLAND_SOURCE_NODE_REUSE_REVIEW_NO_PARALLEL_VENUE",
+      "possible_equivalents": [],
+      "decision": "MANUAL_ADJUDICATION_REQUIRED_NOT_CANON",
+      "existing_island_node_reuse_targets": [
+        "MUSEUM_TROPHY_HALL",
+        "CHAMPIONS_WALK"
+      ]
     }
   ],
-  "high_risk_name_and_scope_overlap_count": 7,
+  "high_risk_name_and_scope_overlap_count": 25,
   "review_principles": [
     "Do not concatenate 40 and 44 new suggestions as 84 approved locations",
     "Retain original authoritative IDs, statuses, owner and era boundaries",
@@ -864,5 +1678,10 @@
     "Four PR324 Island ideas are held until compared with PR322 topology, not promoted",
     "No figure here creates or activates an LOC or ROAD route, and 2026 results remain unresolved"
   ],
-  "next_gate": "Editor/Atlas adjudicates each possible duplicate, records KEEP_AS_SUBLOCATION, MERGE_ALIAS_TO_EXISTING, QUARANTINE, REJECT or NEEDS_SOURCE; Umpire independent gate prior to canon."
+  "next_gate": "Editor/Atlas adjudicates each possible duplicate, records KEEP_AS_SUBLOCATION, MERGE_ALIAS_TO_EXISTING, QUARANTINE, REJECT or NEEDS_SOURCE; Umpire independent gate prior to canon.",
+  "validation_notes": [
+    "Team-slot joins are derived from PR324 dossier storyline_owner_character_id and main owner_domains.json, NOT guessed from source candidate registries (whose records omit owner field)",
+    "Island proposals are reconciled to existing PR322 node handles, NOT unrelated generic same-word candidate names",
+    "Reviewer suggestion list is complete same-team comparison (3 per team); no automatic equivalence"
+  ]
 }
