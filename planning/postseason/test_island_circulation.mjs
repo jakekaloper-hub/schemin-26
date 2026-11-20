@@ -24,6 +24,7 @@ function route(start,end,mode,graph=edges){
 }
 test('23 unique spatial nodes and 45 route segments',()=>{
   assert.equal(t.nodes.length,23);assert.equal(names.size,23);assert.equal(edges.length,45);
+  assert.equal(t.checks.node_count,t.nodes.length);assert.equal(t.checks.edge_count,edges.length);
   assert.ok(edges.every(e=>names.has(e.from)&&names.has(e.to)&&e.status==='PLANNING_ONLY'));
   assert.ok(t.nodes.every(n=>n.coordinates===null && n.status==='PROPOSED_ONLY'));
 });
