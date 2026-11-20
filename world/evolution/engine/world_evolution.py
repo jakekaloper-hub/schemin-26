@@ -70,7 +70,7 @@ def validate_request(req: dict[str,Any], payloads: dict[str,Any] | None=None) ->
     if not req["source_release"]:
         findings.append(finding("MISSING_SOURCE_RELEASE","FATAL","source_release"))
     approvals=req.get("approvals",{})
-    prior=re.fullmatch(r"end_of_week_(\\d+)_(\\d+)",str(p["state"].get("as_of","")))
+    prior=re.fullmatch(r"end_of_week_(\d+)_(\d+)",str(p["state"].get("as_of","")))
     if prior is None:
         findings.append(finding("CURRENT_STATE_CLOCK_INVALID","FATAL",str(p["state"].get("as_of"))))
     prior_clock=(int(prior.group(2)),int(prior.group(1))) if prior else None
