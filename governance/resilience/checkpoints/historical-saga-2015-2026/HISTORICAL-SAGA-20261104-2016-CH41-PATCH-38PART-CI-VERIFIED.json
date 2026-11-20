@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-04",
+  "type": "EXACT_COMMIT_CI_VERIFIED_PRODUCTION_CHECKPOINT",
+  "scope": "2016 Chapter XLI V2 — The Marks at the Crossroads / The Price of a Patch of Ground",
+  "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/243",
+  "branch": "novel/historical-epic-2015-2026",
+  "tested_production_commit": "d7bfb8ba0bf33d685f6c3e6d445e628aae416d73",
+  "source_mains": {
+    "schemin": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "source_blobs": {
+    "original_chapter": "4526f2c278167c43630aa10732f10e47a8fb1ef1",
+    "new_scene": "5c4cc7c8153b695aa486ae9668a4dc855c592f47",
+    "revised_chapter": "293ff9d63debad3fff7686fa23bdfabb597965d8",
+    "prior_reader": "e74d3edd1ac8606f350f41270f1ca8fb7b65c03f",
+    "assembled_reader": "aa1137b33f35e02828296b6c671fade5b51f5044",
+    "retained_2016_matchups": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "literary_output": {
+    "new_scene_words_including_heading": 2059,
+    "revised_chapter_source_words_including_metadata": 10090,
+    "reader_parts": 38,
+    "total_component_source_words_including_metadata": 287553,
+    "prior_components_preserved": 37,
+    "prior_original_chapter_movements_preserved": 6
+  },
+  "test_evidence": {
+    "github_novel_os_job_id": 126413702866,
+    "full_historical_suite": {
+      "count": 1610,
+      "conclusion": "PASS",
+      "observed_log": "Ran 1610 tests in 5.639s — OK"
+    },
+    "dedicated_chapter_specific_tests": {
+      "count": 20,
+      "conclusion": "PASS"
+    },
+    "initial_failed_run": {
+      "run_id": 41781324447,
+      "cause": "two test count assertions were off by one due to JS whitespace counting, no prose changed"
+    },
+    "required_workflows": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 41781451886,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41781451727,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41781451739,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41781451724,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "approval_gates": {
+    "historical_manager_slot": "NOT_AUTHENTICATED",
+    "independent_authors_council": "NOT_RECEIVED",
+    "historical_librarian": "NOT_RECEIVED",
+    "period_character_canon": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "independent_umpire": "NOT_RECEIVED",
+    "founder_release": "NOT_RECEIVED"
+  },
+  "status": {
+    "draft": true,
+    "merged": false,
+    "canon_promotion": false,
+    "publication": false
+  },
+  "next": "Continue Chapter XLII, The Stage Beneath the Short Awning, with source-bound Jake-limited fictional narrative, avoid repeated camp bargaining; no inferred 2016 score or owner slot.",
+  "caveat": "All CI outcomes apply to tested production commit d7bfb8ba..., not to this later checkpoint-only commit."
+}

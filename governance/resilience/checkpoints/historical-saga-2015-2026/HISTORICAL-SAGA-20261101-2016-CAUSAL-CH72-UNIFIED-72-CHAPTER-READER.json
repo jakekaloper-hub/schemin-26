@@ -1,0 +1,123 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2016-CAUSAL-CH72-UNIFIED-72-CHAPTER-READER",
+  "date_utc": "2026-11-01",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE",
+  "repo": "jakekaloper-hub/schemin-26",
+  "bullpen_repo": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state": "OPEN_DRAFT",
+  "resumed_from_commit": "2e108c1788c0b06a90eca567d89b9a4bfd9c7b40",
+  "chapter_commit": "1078e920d3909bb36d7e0ea1dc4a7430a2932dab",
+  "authority": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js"
+  },
+  "issue_reviewed": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "pr_reviewed": {
+    "188": "MERGED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "output": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_PIT_WITHOUT_A_FLOOR_CHAPTER_72_NONCANON.md",
+      "blob_sha": "4cd6a0785a57cdae14f21a1a1a0c7011c324c716",
+      "words_including_handoff": 5616,
+      "movements": 6
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_72_NONCANON.md",
+      "blob_sha": "8f1dda21ac4962143ba3291cef4d60769197d62f",
+      "source_chapters": 72,
+      "source_words_including_handoffs": 401919,
+      "previous_reader_sha": "d27c708fbd7b44730ae8d424a709c2eb15f3bed7",
+      "prior_71_wrappers_byte_identical": true
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_full_72_reader.py",
+      "cases": 22
+    },
+    "ci_file": ".github/workflows/novel-os-ci.yml",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_72_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "technical": {
+    "precommit_wrapper_count": 72,
+    "precommit_manifest_count": 72,
+    "source_chapter_blob_verified_from_github": true,
+    "new_test_status": "PASS_22_OF_22_ON_OBSERVED_HEAD",
+    "github_actions": [
+      {
+        "id": 41358007988,
+        "name": "Cross-Domain Authority CI",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358007988"
+      },
+      {
+        "id": 41358007848,
+        "name": "Bullpen Runtime CI",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358007848"
+      },
+      {
+        "id": 41358008039,
+        "name": "Repository Merge Gate",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358008039"
+      },
+      {
+        "id": 41358007853,
+        "name": "Novel OS CI",
+        "conclusion": "success",
+        "status": "completed",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41358007853"
+      }
+    ],
+    "verified_commit": "410eee74d99c5ae06fbae04d2ac1a177920c5b87",
+    "workflow_72_reader_named_step": "SUCCESS"
+  },
+  "review": {
+    "independent_pr_reviews_at_start": 0,
+    "independent_author_acceptance": false,
+    "independent_umpire_acceptance": false,
+    "independent_request_pr_comment": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6564926187",
+    "independent_request_submitted": true
+  },
+  "story": {
+    "conditional_survivor_returns": 1,
+    "conditional_unlocated_travelers": 6,
+    "novel_change": "A sawpit collapse injures a worker, stops local timber output, and sends Jake home with a roof-measurement tool, not replacement wood.",
+    "historical_facts_added": 0,
+    "structural_defect": "72 Jake-limited historical chapters, 2016 owner crosswalk unauthenticated",
+    "atlas_hold": true
+  },
+  "gates": {
+    "noncanon": true,
+    "merge": false,
+    "canon_promotion": false,
+    "publication": false,
+    "founder_acceptance": false,
+    "independent_umpire": false
+  },
+  "next": [
+    "On resumed run, refresh latest main/PR #243 and run exact-head CI for any newer checkpoint-only commit. This checkpoint's observed CI applied to 410eee74d99c5ae06fbae04d2ac1a177920c5b87.",
+    "Submit independent Authors Council/Librarian/Atlas/Character Canon/Umpire challenge with scope of Chapter LXXII and POV imbalance; do not mislabel a comment as review.",
+    "Prioritize 2016 historical account-owner authentication before extending Jake-only sequence indefinitely.",
+    "If writing continues, avoid repetitive repair/ledger/property motifs and keep unsupported survivor return conditional.",
+    "Do not merge, deploy, canon-promote, spend externally, or claim review without evidence."
+  ]
+}

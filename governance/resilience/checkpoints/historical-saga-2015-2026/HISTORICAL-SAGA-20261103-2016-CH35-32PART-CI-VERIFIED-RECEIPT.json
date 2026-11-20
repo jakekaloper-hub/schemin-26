@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-03",
+  "release": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "exact_tested_commit": "a393481b4e8da0c1d193eff91818a7ad9b8f757e",
+  "source_commit": "28844a53d00a84095b7bc3fa647c8f04a6c0edbd",
+  "draft_pr": 243,
+  "manuscript": {
+    "scene_new_words": 2082,
+    "revised_chapter_source_words": 9201,
+    "reader_parts": 32,
+    "reader_component_words": 233239,
+    "prior_parts_preserved": 31
+  },
+  "tests": {
+    "suite": "test_2016_causal_chapter_thirty_five_roof_due_reader.py",
+    "passed": 19,
+    "total": 19,
+    "job_id": 126280853611,
+    "observed_log": "Ran 19 tests in 0.109s; all 19 ok"
+  },
+  "workflows": [
+    {
+      "name": "Novel OS CI",
+      "run": 41740617482,
+      "result": "success"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run": 41740617536,
+      "result": "success"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run": 41740617591,
+      "result": "success"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run": 41740617603,
+      "result": "success"
+    }
+  ],
+  "correction": "Initial content commit had incorrect test Git blob delimiter; tested head fixed test helper and wired dedicated workflow without revising prose.",
+  "independent_review": {
+    "authors": "NOT_RECEIVED",
+    "librarian": "NOT_RECEIVED",
+    "character": "NOT_RECEIVED",
+    "atlas": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder": "NOT_AUTHORIZED",
+    "schemin_pr_comment": 6618304724,
+    "bullpen_issue_comment": 6618305219
+  },
+  "open_gates": [
+    "2016 owner-scoring slot unauthenticated",
+    "Mael, second horse, freight, cart retrieval unknown",
+    "Pell return does not establish liability",
+    "Mev to Esi letter delivery unconfirmed",
+    "stoneworks kiln closed",
+    "rented room following nights undecided",
+    "no new wages or settlement"
+  ],
+  "next": "Chapter XXXVI: The Ash at Fara's Door — source-grounded draft-only continuation; preserve first 32 reader parts and protected hard canon.",
+  "caveat": "Workflow results only for exact_tested_commit; this receipt-only commit is not represented as tested or independently reviewed."
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-03",
+  "mission": "COMMONWEALTH_2016_CAUSAL_DEVELOPMENTAL_READER",
+  "status": "NONCANON_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "pr": 243,
+  "branch": "novel/historical-epic-2015-2026",
+  "parent_commit": "41a221f655effb1a9a39e2e934a611a2e7240bd0",
+  "original_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HOUSE_MADE_FROM_A_ROAD_CHAPTER_40_NONCANON.md",
+    "blob": "d5a4e6778c705b5f3e655071e04a67892ef22b95"
+  },
+  "new_scene": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_DONKEY_AND_THE_BROKEN_MEASURE_CH40_V2_NONCANON.md",
+    "blob": "daf67c6c6e871e6ad327a61685468019238b23e6",
+    "narrative_words": 2524
+  },
+  "integrated_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HOUSE_MADE_FROM_A_ROAD_THE_DONKEY_AND_THE_BROKEN_MEASURE_CH40_V2_NONCANON.md",
+    "blob": "5b7410cb55007b42bed9f2cdcb9fdb0111e5a964",
+    "source_words": 9258,
+    "source_movements": 7
+  },
+  "reader": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_40_THIRTY_SEVEN_PARTS_DONKEY_MEASURE_NONCANON.md",
+    "blob": "e74d3edd1ac8606f350f41270f1ca8fb7b65c03f",
+    "parts": 37,
+    "component_words": 277463,
+    "prior_components_preserved_author_side": true
+  },
+  "qa": {
+    "file": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_donkey_reader.py",
+    "defined_tests": 18,
+    "executed": false,
+    "ci": "PENDING"
+  },
+  "independent_authors_council": "NOT_RECEIVED",
+  "independent_umpire": "NOT_RECEIVED",
+  "historical_owner_slot": "UNAUTHENTICATED",
+  "founder_release_approval": "NOT_RECEIVED",
+  "merge": false,
+  "publication": false,
+  "next": "Inspect exact-commit CI and independent review, then Chapter XLI — The Marks at the Crossroads, preserving false public-lodging rumor and independently chosen apprentice employment; advance to 38 parts without fabricated ESPN events."
+}

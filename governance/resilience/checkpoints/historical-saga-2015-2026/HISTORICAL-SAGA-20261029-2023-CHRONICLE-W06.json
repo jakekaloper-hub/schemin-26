@@ -1,0 +1,119 @@
+{
+  "schema_version": "commonwealth-novel-production-checkpoint-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W06",
+  "status": "NONCANON_TECHNICAL_VERIFIED_INDEPENDENT_EDITORIAL_HOLD",
+  "mission": "Commonwealth historical novel production: 2023 Chronicle continuation",
+  "project": "Schemin '26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "2023-week-6-six-matchup-chronicle",
+  "owner": "Bullpen Closer + novel production; independent Umpire not accepted",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "timestamp_utc": "2026-10-29",
+  "repositories": {
+    "novel": "jakekaloper-hub/schemin-26",
+    "bullpen": "jakekaloper-hub/bullpen"
+  },
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "input_fingerprints": {
+    "schemin_main": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "prior_head": "43a8f6aff787e01a70e8f1a329e633d212cdc444",
+    "source_matchups_git_blob": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "prior_week5_git_blob": "6ee34372a9c9b36e141b5a0513ac28bb161b0170",
+    "authority_matrix_git_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "prior_checkpoint_git_blob": "524962e474b456b1e1b89a05df8c902c9ae748a7"
+  },
+  "outputs": {
+    "living-novel/historical-chronicle/seasons/2023/weeks/W06.md": "87f8ee0b654d5e259af06e672996c58db85b81b0",
+    "living-novel/historical-chronicle/seasons/2023/weeks/W06_SOURCE_QA_RECEIPT.md": "343ff1fee347b261e63d5f185f67f98bb8a1e71f",
+    "living-novel/historical-chronicle/qa/test_2023_sixth_week.py": "e2639a58d495062dc96f6fe73610f4d1b9f9b962",
+    "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json": "a2d8384cd34491cec109bb118978c5ad35a0e81e",
+    ".github/workflows/novel-os-ci.yml": "3a695d488656573bb8de09aca499e749f6b93a8c",
+    "living-novel/historical-chronicle/qa/test_2023_third_week.py": "b6e99104ffef3c321589a04cdec504e27bbde7b8",
+    "living-novel/historical-chronicle/qa/test_2023_fourth_week.py": "d1e2f140c21e7ec121ee0ae2c97acbca063495d5",
+    "living-novel/historical-chronicle/qa/test_2023_fifth_week.py": "2766fd8f9568300b51f499b933aa54f1136ef8c1"
+  },
+  "evidence_references": {
+    "manuscript": "living-novel/historical-chronicle/seasons/2023/weeks/W06.md",
+    "qa": "living-novel/historical-chronicle/seasons/2023/weeks/W06_SOURCE_QA_RECEIPT.md",
+    "test": "living-novel/historical-chronicle/qa/test_2023_sixth_week.py",
+    "continuity": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json",
+    "workflow": ".github/workflows/novel-os-ci.yml"
+  },
+  "literary_output": {
+    "title": "The Hour No Boat Crossed",
+    "words_including_metadata": 5811,
+    "scenes": 6,
+    "pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "fictional_events_not_sport_facts": true
+  },
+  "coverage": {
+    "year": 2023,
+    "regular_season_weeks_written": 6,
+    "regular_season_pairings_written": 36,
+    "regular_season_pairings_total": 84,
+    "postseason": "NOT_DRAFTED",
+    "historical_owner_joins": "UNAUTHENTICATED"
+  },
+  "ci": {
+    "status": "SUCCESS_AT_TESTED_CODE_COMMIT",
+    "exact_tested_commit": "2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7",
+    "observed_failure": {
+      "commit": "97342e1c7e849158129c5a6957ab467735d11a16",
+      "novel_os_workflow": 40859676343,
+      "root_cause": "stale Week 4 cutoff expectation",
+      "repair_commit": "2b9e2c26e2061bdcdf2fe5abefc7aca25d78f4e7"
+    },
+    "verified_runs": {
+      "Novel OS CI": {
+        "id": 40859837525,
+        "conclusion": "success",
+        "named_week6_step": "success"
+      },
+      "Cross-Domain Authority CI": {
+        "id": 40859837515,
+        "conclusion": "success"
+      },
+      "Bullpen Runtime CI": {
+        "id": 40859837460,
+        "conclusion": "success"
+      },
+      "Repository Merge Gate": {
+        "id": 40859837472,
+        "conclusion": "success"
+      }
+    },
+    "warning": "Do not transfer green verdict from 2b9e code commit to later metadata commit; re-read final exact-head workflows."
+  },
+  "review": {
+    "independent_editor": "NOT_RECEIVED",
+    "umpire": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merge": "HOLD",
+    "publish": "HOLD",
+    "request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6494520555"
+  },
+  "invalidation_triggers": [
+    "archival source blob changed",
+    "Week 5 predecessor bytes changed",
+    "POV canon updated",
+    "main hard-canon source changed",
+    "new independent objection or Atlas decision",
+    "CI failure at actual commit"
+  ],
+  "next": [
+    "Observe exact final metadata/checkpoint SHA workflows and named Week 6 regression; repair if failure.",
+    "Seek genuinely independent literary/Atlas/Umpire decision; absent acceptance keep draft HOLD.",
+    "Write 2023 Week 7 from six pinned archival fixtures as new noncanonical prose, with different dramatic stakes and no future knowledge.",
+    "Never merge, release or auto-promote drafts without Founder approval."
+  ],
+  "protected_manuscripts_verified_against_main": {
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  }
+}

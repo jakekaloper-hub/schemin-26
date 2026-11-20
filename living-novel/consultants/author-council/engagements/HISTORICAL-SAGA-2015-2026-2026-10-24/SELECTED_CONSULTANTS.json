@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "status": "FROZEN",
+  "engagement_id": "HISTORICAL-SAGA-2015-2026-2026-10-24",
+  "evidence_cutoff": {
+    "commit_sha": "8fcb77191955f413fe970154d47632770f923055",
+    "temporal_cutoff": "2015\u20132025 completed historical seasons; 2026 only event-specific verified source cutoffs, not the observation date 2026-10-24"
+  },
+  "decision_question": "How can existing prose become a causal multi-book epic with traceable every-contest coverage, without inventing historical identity or treating proposed fiction as canon?",
+  "consultation_type": "FULL_COUNCIL",
+  "selection_mode": "FULL_COUNCIL_TRIGGER",
+  "panel": "full_seven",
+  "selected_consultants": [
+    "jrr_tolkien",
+    "george_rr_martin",
+    "jk_rowling",
+    "john_grisham",
+    "ursula_k_le_guin",
+    "brandon_sanderson",
+    "joe_abercrombie"
+  ],
+  "selection_reason": "Cross-cutting or explicit full-council request.",
+  "independence": {
+    "same_internal_evidence": true,
+    "cross_reading_before_lock": false,
+    "source_provenance_required": true
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "purpose": "diagnostic"
+    },
+    {
+      "round": 2,
+      "purpose": "deep_dive_after_implementation"
+    },
+    {
+      "round": 3,
+      "purpose": "adversarial_re_review"
+    },
+    {
+      "round": 4,
+      "purpose": "final_synthesis"
+    }
+  ],
+  "execution_disclosure": {
+    "mode": "SIMULATED_PUBLISHED_METHOD_REVIEW",
+    "critic": "council subagent, separate from manuscript production agents",
+    "isolated_seven_reviewers": false,
+    "authenticated_directors_or_authors": false,
+    "round_1": "SEVEN_METHOD_MEMOS_SINGLE_CRITIC",
+    "rounds_2_to_4": "PENDING_IMPLEMENTED_MANUSCRIPT",
+    "independence_limit": "Router independence fields describe required protocol, not proof of seven isolated reads. This one critic applied seven lenses separately; independent-seat acceptance remains unmet."
+  }
+}

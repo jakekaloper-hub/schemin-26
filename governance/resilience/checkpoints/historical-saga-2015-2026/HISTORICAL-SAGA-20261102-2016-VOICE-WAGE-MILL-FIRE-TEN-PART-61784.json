@@ -1,0 +1,115 @@
+{
+  "schema": "CommonwealthHistoricalSagaProductionCheckpoint.v1",
+  "date_local": "2026-11-02",
+  "run_label": "2016-CH12-V2-FREIGHT-WAGE-CH13-SOURCE-EXACT-TEN-PART-61784",
+  "repository": "jakekaloper-hub/schemin-26",
+  "coordinator": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "status": "NONCANON / SOURCE-EXACT READING ASSEMBLED / ALL FOUR TESTED CI WORKFLOWS PASS / INDEPENDENT EDITORIAL-HISTORICAL-CHARACTER-ATLAS-UMPIRE HOLD / FOUNDER-ONLY RELEASE",
+  "resumed_from": {
+    "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2016-EIGHT-PART-SOUND-FACE-48813-READER.json",
+    "previous_checkpoint_blob": "d4e4e0a30f1539a7ae4c3e4952d3c0add2dba0ce",
+    "prior_8_part_source_words": 48813,
+    "prior_8_part_blob": "737789cff129d4bf5409c8ba5d1fc1ab85cfdb26",
+    "main_source_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "main_project_registry_blob": "23bb20df8a4fbcd0805e84df749bdd231f38ee83",
+    "main_causal_architecture_blob": "346b5883d41dc6551115a514d0dd9c87c385d60d",
+    "main_task_registry_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command_control_blob": "cccf90a3cadac802767988ceab8f44453aa86819",
+    "bullpen_runtime_lifecycle_blob": "710caca4e4a01c934bdc53f22229acced48a2d78",
+    "issues_checked": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs_checked": [
+      188,
+      243,
+      252,
+      261,
+      264
+    ],
+    "bullpen_issue_reviewer_handoff": 117
+  },
+  "literary_output": {
+    "revised_chapter_12": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_PRICE_OF_A_VOICE_WAGE_THAT_DID_NOT_SETTLE_CH12_V2_NONCANON.md",
+    "revised_chapter_12_blob": "1d606748bfd719aecf7234136f71c4f48c222d0b",
+    "revised_chapter_12_source_words_incl_metadata": 7810,
+    "original_chapter_12_blob_unchanged": "722cc9318e744d7ab8fdae5fdd4fb0af775d1745",
+    "new_prose_scene_words": 1562,
+    "v2_scene_summary": "Jake returns to disputed market, accepts separately paid freight labor, interrupts a load to speak to a ticket buyer, corrects his witness limitation, and carries one earned coin home as partial contribution; no refund guarantee or settlement.",
+    "nine_part_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_12_NINE_PARTS_VOICE_WAGE_AND_UNPAID_DEBTS_NONCANON.md",
+    "nine_part_reader_blob": "964ec5e886b51d2671d4cc4080e6588604b32a92",
+    "nine_part_words_incl_source_metadata": 56623,
+    "ten_part_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_13_TEN_PARTS_FIRE_AND_UNSETTLED_WORK_NONCANON.md",
+    "ten_part_reader_blob": "1c965faaaf143d8a29ce83d3608922c469ab5cb0",
+    "ten_part_words_incl_source_metadata": 61784,
+    "ten_part_narrative_parts": 10,
+    "represented_original_chapter_positions": "I–XIII",
+    "original_chapter_13_source_exact_blob": "f238e02a331467db03060f66ff711b65f5a92d04",
+    "old_source_bodies_preserved": true,
+    "retained_72_chapter_original_untouched": true,
+    "pov": "fictional Jake Kaloper / CHAR-JAKE-KALOPER limited; no additional owner POV",
+    "historical_result_sources_not_expanded": true
+  },
+  "tests": {
+    "tested_commit": "5cbad90da7b6c38d820242b1c93828f6ddbe7901",
+    "nine_part_module": "living-novel/historical-chronicle/qa/test_2016_nine_part_voice_wage_reader.py",
+    "nine_part_new_tests_passed": 14,
+    "ten_part_module": "living-novel/historical-chronicle/qa/test_2016_ten_part_fire_reader.py",
+    "ten_part_new_tests_passed": 12,
+    "proof": "Novel OS CI job 125729063220 decoded logs: Ran 14 tests ... OK; Ran 12 tests ... OK",
+    "workflow_pull_request": {
+      "Novel OS CI": {
+        "run_id": 41578985237,
+        "conclusion": "success"
+      },
+      "Cross-Domain Authority CI": {
+        "run_id": 41578985235,
+        "conclusion": "success"
+      },
+      "Bullpen Runtime CI": {
+        "run_id": 41578985378,
+        "conclusion": "success"
+      },
+      "Repository Merge Gate": {
+        "run_id": 41578985228,
+        "conclusion": "success"
+      }
+    },
+    "protected_main_files_match_branch_git_blob": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "review": {
+    "independent_pr_reviews_observed": 0,
+    "schemin_pr_comment_id": 6595568837,
+    "bullpen_issue_117_comment_id": 6595569379,
+    "authors_council": "REQUESTED / NOT RECEIVED",
+    "historical_librarian": "REQUESTED / NOT RECEIVED",
+    "character_period_atlas": "REQUESTED / NOT RECEIVED",
+    "umpire": "REQUESTED / NOT RECEIVED",
+    "founder_canon_publication": "NOT OBTAINED"
+  },
+  "historical_holds": [
+    "2016 team slot 8 Austin's Hyena's and team slot 12 The Real Austin's Hyenas are not the same account; names do not authenticate human owners.",
+    "No 2016 named-owner POV reassignment without historical account join plus period character existence.",
+    "All mill, market, freight, fire, wage and character acts are proposed secondary-world fiction; no source-evidenced real-world mill fire.",
+    "2016 postseason facts may not be treated as fictional character foreknowledge before relevant date.",
+    "Refunds remain incomplete; one small freight wage does not settle prior supplier invoice, old wages, or Jake's pledge."
+  ],
+  "next": [
+    "Read original Chapter XIV, test fire aftermath and timing; author a causally consequential noncanon revision if the source skips real costs.",
+    "Optionally assemble eleven-part 2016 edition with source-pinned first ten bodies and exact original/revised XIV, then run test evidence on an exact commit.",
+    "Check for independently submitted review on PR #243 and address substantive objections; do not self-certify Umpire acceptance.",
+    "Continue Jake-limited POV until authenticated period owner joins; protect main 2026 hard manuscript and Founder-only publication."
+  ],
+  "no_merge_no_publication_no_canon_promotion": true,
+  "note": "This checkpoint commit is newer than tested commit 5cbad90d; all-green workflow evidence is for that exact prior commit, not proof that this checkpoint commit has been tested."
+}

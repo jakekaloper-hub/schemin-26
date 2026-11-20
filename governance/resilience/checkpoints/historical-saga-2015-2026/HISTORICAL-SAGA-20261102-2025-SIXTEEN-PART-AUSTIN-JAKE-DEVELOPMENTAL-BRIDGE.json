@@ -1,0 +1,131 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-SIXTEEN-PART-AUSTIN-JAKE-DEVELOPMENTAL-BRIDGE",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "date_utc": "2026-11-02",
+  "status": "DRAFT_NONCANON_TECHNICAL_CODE_PASS_INDEPENDENT_EDITORIAL_HOLD",
+  "repositories": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "source_control": {
+    "schemin_main_observed": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_observed": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "production_branch": "novel/historical-epic-2015-2026",
+    "pr": 243,
+    "pr_state": "OPEN_DRAFT",
+    "baseline_previous_commit": "ee8a0a0470bb932aa740aa66a847b62ba5fcdce0",
+    "chapter_commit": "5a301740f03a7916be4e9d9773c608272a3adea3",
+    "reader_commit": "259814dd2623ec5484840feea68e3332cb0a99db",
+    "tests_commit": "589840deb44000e2074e4ec40606d57b7a533804",
+    "ci_integration_commit": "5975c706d80583d6d889d0682ed525551bc56d40",
+    "producer_qa_commit": "038a96904b9af4b66d92e576c0b8db816d92345f",
+    "latest_branch_sha_after_checkpoint": "READ_BRANCH_HEAD_NEXT_RUN"
+  },
+  "authority": [
+    "SCHEMIN_26_PROJECT_MISSION.md",
+    "PROJECT_CONTROL_REGISTRY.md",
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "living-novel/historical-chronicle/INDEX.md",
+    "governance/execution-control/TASK_REGISTRY_V1.json",
+    "jakekaloper-hub/bullpen/BULLPEN.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "jakekaloper-hub/bullpen/knowledge/EXECUTION_CONTROL_REGISTRY_V1.json"
+  ],
+  "issues_reconciled": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_reconciled": {
+    "188": "MERGED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "selected_task": "2025_DEVELOPMENTAL_CROSS_CHARACTER_RIVALRY_BRIDGE_AND_SOURCE_EXACT_ASSEMBLY",
+  "literary_output": {
+    "title": "The Name Beneath the Gold",
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_NAME_BENEATH_THE_GOLD_AUSTIN_JAKE_2025_NONCANON.md",
+    "git_blob": "3c920a249aebb8f9b244d5e70027843a00708dad",
+    "source_words_including_metadata": 5417,
+    "narrative_words": 4955,
+    "movements": 6,
+    "only_principal_povs": [
+      "CHAR-JAKE-KALOPER",
+      "CHAR-AUSTIN-BYARS"
+    ],
+    "placement": "INSERT_AS_PART_3_AFTER_PRIOR_AUSTIN_AND_JAKE_PRIVATE_POST_FINAL_OPENINGS",
+    "turning_point": "Both champion and former champion stop a false historical inscription; public perception worsens, patronage is forfeited, rivalry remains",
+    "all_scaffolding_and_private_motives": "PROPOSED_FICTION_NOT_ESPN",
+    "independent_editorial_accepted": false
+  },
+  "manuscript": {
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_SIXTEEN_PARTS_DEVELOPMENTAL_NONCANON.md",
+    "blob": "1910482c32d4c02c3b0f2b7f70a517c64e6a6abd",
+    "parts": 16,
+    "unique_principal_owners": 12,
+    "source_words_including_metadata": 81549,
+    "original_prior_fifteen_wrappers_byte_exact": true,
+    "prior_fifteen_part_edition_unchanged_blob": "df42a31981d0017de410eaac3fb83f64454fed38",
+    "status": "SELECTIVE_DEVELOPMENTAL_INSERTION_NOT_FULL_LINE_EDIT"
+  },
+  "tests": {
+    "path": "living-novel/historical-chronicle/qa/test_2025_sixteen_part_developmental_bridge.py",
+    "case_count": 26,
+    "ci_workflow": ".github/workflows/novel-os-ci.yml",
+    "observed_code_sha": "5975c706d80583d6d889d0682ed525551bc56d40",
+    "novel_os_ci": {
+      "run_id": 41456136894,
+      "job_id": 125313171543,
+      "conclusion": "success",
+      "new_tests": "26/26 OK"
+    },
+    "cross_domain": {
+      "run_id": 41456136818,
+      "conclusion": "success"
+    },
+    "bullpen_runtime": {
+      "run_id": 41456136802,
+      "conclusion": "success"
+    },
+    "merge_gate": {
+      "run_id": 41456136808,
+      "conclusion": "success"
+    },
+    "qa_commit_ci": "RECHECK_REQUIRED",
+    "checkpoint_commit_ci": "RECHECK_REQUIRED"
+  },
+  "producer_qa_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_NAME_BENEATH_THE_GOLD_SOURCE_EDITORIAL_QA_2026-11-02.md",
+  "review_request": {
+    "pr": 243,
+    "comment_id": 6578839565,
+    "state": "REQUESTED_ONLY_INDEPENDENT_ACCEPTANCE_NOT_ESTABLISHED"
+  },
+  "historical_truth": "2024 final ObiWan Jacoby 187.52-The King 161.68; 2025 semi The Immortal 152.20-Dr. Duckhook 151.80; 2025 final The Immortal 161.07-ObiWan Jacoby 109.56; human manager accounts unknown",
+  "no_main_hard_canon_or_protected_prologue_chapters_1_3_changed": true,
+  "separate_2016_72_jake_limited_reader_unchanged": true,
+  "canon_promoted": false,
+  "merged": false,
+  "published": false,
+  "deployed": false,
+  "holds": [
+    "Independent literary Author Council and Umpire acceptance unavailable",
+    "Historical human manager account/period owner binding unauthenticated",
+    "Period Atlas and invented Hall of Names economics unapproved",
+    "Predecessor 15-part anthology still has gaps and repetitive introspection",
+    "2016 72 consecutive Jake-limited chapters require source-grounded reconstruction",
+    "Founder-only canon, merger/publication gates remain closed"
+  ],
+  "next": [
+    "Recheck exact checkpoint SHA and CI results; never carry forward only earlier passing runs",
+    "Obtain actual independent attributed literary, Character, Historical Librarian, Atlas and Umpire review; PR comment is request only",
+    "Line-level compress and edit 2025 Parts 1–3 as a coherent opening, using existing source chapters without changing protected 2026 manuscript",
+    "Develop causally coherent non-kitchen cross-character events and map Atlas locations only after permission",
+    "Reconcile 2016 owner bindings and repair one-POV monopoly without fabricating period history"
+  ]
+}

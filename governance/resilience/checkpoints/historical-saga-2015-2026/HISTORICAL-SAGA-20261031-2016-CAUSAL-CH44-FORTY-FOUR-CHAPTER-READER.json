@@ -1,0 +1,99 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "date_utc": "2026-10-31",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "02c7b34c8375bf84871170e7405e5445db7f30cc",
+  "resumed_from_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261031-2016-CAUSAL-CH43-FORTY-THREE-CHAPTER-READER.json",
+  "main_at_intake": "40b4ff8a4ab5f15bd8e986329472b31494cc09c0",
+  "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "authority_sources": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_session": "living-novel/os/SESSION_CONTEXT.md",
+    "pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "bullpen": "runtime/commandRegistry.js; runtime/lifecycleEngine.js",
+    "historical_evidence": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "historical_evidence_git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "reconciled_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "reconciled_prs": {
+    "188": "MERGED_CLOSED",
+    "243": "DRAFT_OPEN",
+    "252": "DRAFT_OPEN",
+    "261": "DRAFT_OPEN",
+    "264": "DRAFT_OPEN"
+  },
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_FLOOR_THAT_COULD_BE_LIFTED_CHAPTER_44_NONCANON.md",
+    "chapter_blob": "e3250efd8dbc4df8a1dceba6b663d1f45159aaf3",
+    "chapter_words_including_editorial": 5857,
+    "movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_44_NONCANON.md",
+    "reader_blob": "e83303d18e0485a4cc811d7ac9c12b42f28a58be",
+    "reader_words_including_manifest_and_notes": 259086,
+    "assembled_source_components": 44,
+    "previous_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_43_NONCANON.md",
+    "previous_reader_blob": "fead5b8dd40f2410e7b919b441737704c2311e53",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_four_reader.py",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_44_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  },
+  "checks": {
+    "in_memory_js_assembly": "PASS_MANIFEST_AND_BODY_MATCH_44",
+    "python_tests": "NOT_RUN_AT_CHECKPOINT_CREATION",
+    "github_actions": "PENDING_EXACT_COMMIT_READBACK",
+    "independent_author_review": "NOT_RECEIVED"
+  },
+  "continuity": {
+    "entering": "Jake deliberately signed a false second-horse witness statement for eight coins, confessed and attached a correction; Orrel's packet departed, actual reception unknown. Pell/Mael/Ina trust damaged. Sela with Nella and Tam outdoors; Hessa's six privately sheltered twenty-one nights.",
+    "turn": "Local rumor of the fictive northbound horse intrudes into an offered cart repair job; Pell refuses it and earns no wage. Sela contracts Meric for removable camp floor with Eren's frame boards; authorizes exactly four of Jake's coins as materials advance; independent parties choose work and terms.",
+    "exit": "Pell's lost opportunity unresolved. Four false-witness coins no longer with Jake, four remain; neither restitution nor shelter debt paid. Camp floor portable, occupancy not authorized or stable. Orrel packet unknown, second horse/freight unresolved.",
+    "open_loops": [
+      "Original false testimony and correction ultimate distribution",
+      "Pell lost offered work, Mael and Ina trust remains ruptured",
+      "Four coins still with Jake, four advanced for Sela materials, final pins cost unresolved",
+      "Sela, Nella, Tam at uncertified outdoor camp with liftable floor",
+      "Hessa's six in bounded twenty-one-night private room; eight who departed and Hessa's missing sister unlocated",
+      "Earlier Sela net-mender name collision unresolved",
+      "Meric independent paid work and Eren red-sky speculative art withheld",
+      "Ina wet dye and trough suspended and two dry orders outstanding",
+      "Mael/Pell second horse, freight and cart absent; carrier liability unresolved",
+      "Distant fire, ash source, downstream water unknown",
+      "Fara inherited awning permanently shortened",
+      "Jake shelter debt, Esi letter receipt and escaped bird unresolved",
+      "Kiln passage closed",
+      "2016 owner lineage and eleven other historical principal POV identities unauthenticated"
+    ]
+  },
+  "protected_main": [
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+  ],
+  "gates": {
+    "historical_owner_auth": "NOT_ACCEPTED",
+    "period_atlas_character": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "next": [
+    "Read exact-final-commit GitHub Actions for four required workflows and test counts; repair real failures without false green.",
+    "Obtain genuine independent Authors Council, Librarian, period Character Canon, Atlas and Umpire review; requests are not acceptances.",
+    "Choose Chapter XLV or higher-priority correction on current source and branch; preserve stronger independent character arcs, avoid repeated repair disputes.",
+    "Reconcile Sela net-mender vs displaced mother only from source, no invented owner identities.",
+    "Preserve protected hard-manuscript Prologue/Chapters I-III and retain 2016 archive."
+  ]
+}

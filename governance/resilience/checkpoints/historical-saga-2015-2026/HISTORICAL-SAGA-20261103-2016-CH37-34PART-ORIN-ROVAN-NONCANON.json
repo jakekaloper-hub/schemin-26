@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-03",
+  "workstream": "COMMONWEALTH_HISTORICAL_SAGA_2016",
+  "status": "NONCANON_EDITORIAL_HOLD",
+  "draft_pr": 243,
+  "resumed_from_head": "db3f0940086b5ff330826f67359c2c72432489a2",
+  "original_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COMPANY_THAT_CAME_APART_CHAPTER_37_NONCANON.md",
+    "blob": "92aba7618d9d7a5ba88758be48084ded30eca4ba"
+  },
+  "standalone_scene": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_EMPTY_PLACE_AT_THE_SECOND_TABLE_CH37_INTERLUDE_V2_NONCANON.md",
+    "blob": "f64925f00534f9e736ac65c6d5ebb9b95334eb8a",
+    "words": 2162
+  },
+  "revised_chapter": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_COMPANY_THAT_CAME_APART_THE_EMPTY_PLACE_AT_SECOND_TABLE_CH37_V2_NONCANON.md",
+    "blob": "655d437756306ee5386b7d8fa4b825ebb5f33ab5",
+    "source_words": 8709
+  },
+  "reading_copy": {
+    "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_37_THIRTY_FOUR_PARTS_EMPTY_SECOND_TABLE_NONCANON.md",
+    "blob": "63d9fcbc3f5fb76438882ca26b5da8b8f821a575",
+    "parts": 34,
+    "source_component_words": 250940,
+    "previous_reader_blob": "d3aaf9f6577934a4d360ededcc2426509fb2c6e3",
+    "previous_parts_preserved": 33
+  },
+  "continuity": {
+    "adult_departing_driver": "Rovan",
+    "child_staying": "Orin",
+    "eight_leave_six_remain": true,
+    "infant_stays": true,
+    "awning_permanently_shortened": true,
+    "downstream_spot_check": "Chapters XXXVIII, XL, XLI and XLII retain young Orin with the six; adult departing driver in V2 is Rovan. Broader named-entity/period acceptance remains open."
+  },
+  "checks": {
+    "js_assembly": "PASS_AUTHOR_SIDE",
+    "python_test": "20/20 dedicated Chapter XXXVII V2 tests PASS in GitHub Actions job logs, Ran 20 tests in 0.133s OK",
+    "python_test_job_id": 126330146662,
+    "protected_main_match": "EXACT_GIT_BLOB_EQUAL for protected Prologue, Chapters I-III and G01 2016 archive",
+    "github_actions": [
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41755381966,
+        "conclusion": "success",
+        "status": "completed"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41755381959,
+        "conclusion": "success",
+        "status": "completed"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41755382011,
+        "conclusion": "success",
+        "status": "completed"
+      },
+      {
+        "name": "Novel OS CI",
+        "run_id": 41755381998,
+        "conclusion": "success",
+        "status": "completed"
+      }
+    ],
+    "independent_umpire": "NOT_RECEIVED"
+  },
+  "protected": {
+    "prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "ch1": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "ch2": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "ch3": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "historical_evidence_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+  "blockers": [
+    "2016 manager/account authentication",
+    "independent Authors Council",
+    "historical Librarian",
+    "Character Canon",
+    "period Atlas",
+    "independent Umpire",
+    "Founder-only canon/publication approval"
+  ],
+  "next": "Chapter XXXVIII — The Hand That Cut the Leather. Resume after the Chapter XXXVII V2 34-part reader with 250940 component source words; preserve previous 34 bodies and the Rovan vs child Orin distinction; Mael returns within this existing original chapter, no retroactive invented facts. Author Room / period provenance / Umpire / Founder-only holds persist.",
+  "caveat": "All four workflows and 20 tests succeeded at exact_tested_commit only. This checkpoint-only subsequent commit is not independently demonstrated by those earlier workflow runs. No independent review or historical owner authentication.",
+  "exact_tested_commit": "09e353555f6ce680de298801cd84bc94913dc946",
+  "review_requested": {
+    "pr243_comment_id": 6620161610,
+    "bullpen_issue117_comment_id": 6620162059,
+    "received": "NONE_VERIFIED"
+  }
+}

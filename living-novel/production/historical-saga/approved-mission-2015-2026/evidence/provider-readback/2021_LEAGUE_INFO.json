@@ -1,0 +1,285 @@
+{
+  "capture_time_utc": "2026-10-24 04:34:07 UTC",
+  "tool": "flaim_fantasy_get_league_info",
+  "arguments": {
+    "league_id": "1417621",
+    "platform": "espn",
+    "season_year": 2021,
+    "sport": "football"
+  },
+  "capture_kind": "EXACT_STRUCTURED_TOOL_RESULT_SERIALIZED_AS_JSON_NOT_RAW_ESPN_RESPONSE_BYTES",
+  "result": {
+    "success": true,
+    "data": {
+      "id": 1417621,
+      "name": "Pro Schemin' Football League",
+      "size": 12,
+      "status": {
+        "activatedDate": 1622667123683,
+        "createdAsLeagueType": 0,
+        "currentLeagueType": 0,
+        "currentMatchupPeriod": 17,
+        "finalScoringPeriod": 17,
+        "firstScoringPeriod": 1,
+        "isActive": true,
+        "isExpired": false,
+        "isFull": true,
+        "isPlayoffMatchupEdited": false,
+        "isToBeDeleted": false,
+        "isViewable": true,
+        "isWaiverOrderEdited": false,
+        "latestScoringPeriod": 19,
+        "previousSeasons": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "standingsUpdateDate": 1641812693524,
+        "teamsJoined": 12,
+        "transactionScoringPeriod": 19,
+        "waiverLastExecutionDate": 1642063914879,
+        "waiverProcessStatus": {
+          "2021-08-30T07:12:24.752+00:00": 2,
+          "2021-08-31T07:00:50.019+00:00": 2,
+          "2021-09-15T07:32:50.853+00:00": 9,
+          "2021-09-16T08:11:45.616+00:00": 2,
+          "2021-09-22T08:03:42.992+00:00": 6,
+          "2021-09-23T08:04:19.014+00:00": 1,
+          "2021-09-29T07:28:09.059+00:00": 5,
+          "2021-09-30T07:57:47.431+00:00": 1,
+          "2021-10-03T07:42:55.259+00:00": 0,
+          "2021-10-06T07:40:18.229+00:00": 10,
+          "2021-10-07T08:05:47.311+00:00": 3,
+          "2021-10-08T08:16:00.814+00:00": 1,
+          "2021-10-13T08:33:27.552+00:00": 6,
+          "2021-10-14T07:25:08.707+00:00": 2,
+          "2021-10-20T08:07:10.057+00:00": 10,
+          "2021-10-21T08:25:29.216+00:00": 2,
+          "2021-10-22T08:48:46.076+00:00": 2,
+          "2021-10-27T08:31:05.285+00:00": 10,
+          "2021-10-28T07:20:55.269+00:00": 1,
+          "2021-10-29T07:11:54.064+00:00": 2,
+          "2021-10-30T07:18:35.290+00:00": 1,
+          "2021-11-03T08:48:06.005+00:00": 8,
+          "2021-11-04T08:31:04.248+00:00": 0,
+          "2021-11-05T08:30:45.430+00:00": 1,
+          "2021-11-10T08:48:55.211+00:00": 5,
+          "2021-11-12T08:25:49.567+00:00": 1,
+          "2021-11-17T09:16:52.344+00:00": 8,
+          "2021-11-18T09:40:14.175+00:00": 1,
+          "2021-11-20T09:32:13.963+00:00": 1,
+          "2021-11-24T09:24:17.772+00:00": 5,
+          "2021-12-01T09:45:54.887+00:00": 5,
+          "2021-12-08T09:54:59.806+00:00": 9,
+          "2021-12-15T08:37:22.983+00:00": 5,
+          "2021-12-18T09:05:55.070+00:00": 1,
+          "2021-12-23T09:46:18.296+00:00": 2,
+          "2021-12-25T08:31:29.802+00:00": 1,
+          "2021-12-29T08:55:49.194+00:00": 1
+        }
+      },
+      "scoringPeriodId": 19,
+      "currentMatchupPeriod": 17,
+      "seasonId": 2021,
+      "segmentId": 0,
+      "teams": [
+        {
+          "teamId": 1,
+          "teamName": "Obi-Wan  Jacoby",
+          "abbrev": "Jake"
+        },
+        {
+          "teamId": 2,
+          "teamName": "Red Leopards",
+          "abbrev": "ZEEK"
+        },
+        {
+          "teamId": 3,
+          "teamName": "Jacktown Hollisquad",
+          "abbrev": "HQ"
+        },
+        {
+          "teamId": 4,
+          "teamName": "B.A.B.B.  LLC",
+          "abbrev": "BABB"
+        },
+        {
+          "teamId": 5,
+          "teamName": "Dewars White Label",
+          "abbrev": "SCOT"
+        },
+        {
+          "teamId": 6,
+          "teamName": "Foolio Jones",
+          "abbrev": "RIP"
+        },
+        {
+          "teamId": 7,
+          "teamName": "King of the Hill",
+          "abbrev": "BP3"
+        },
+        {
+          "teamId": 8,
+          "teamName": "The Third Coming",
+          "abbrev": "2x"
+        },
+        {
+          "teamId": 9,
+          "teamName": "Dos Gatos",
+          "abbrev": "GATO"
+        },
+        {
+          "teamId": 10,
+          "teamName": "Where Mahomies at?",
+          "abbrev": "BM"
+        },
+        {
+          "teamId": 11,
+          "teamName": "Kevin's Mom's House",
+          "abbrev": "SCHR"
+        },
+        {
+          "teamId": 12,
+          "teamName": "The  Disappointments",
+          "abbrev": "Lose"
+        }
+      ],
+      "scoringSettings": {
+        "type": "H2H_POINTS",
+        "matchupPeriods": {
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ],
+          "4": [
+            4
+          ],
+          "5": [
+            5
+          ],
+          "6": [
+            6
+          ],
+          "7": [
+            7
+          ],
+          "8": [
+            8
+          ],
+          "9": [
+            9
+          ],
+          "10": [
+            10
+          ],
+          "11": [
+            11
+          ],
+          "12": [
+            12
+          ],
+          "13": [
+            13
+          ],
+          "14": [
+            14
+          ],
+          "15": [
+            15
+          ],
+          "16": [
+            16
+          ],
+          "17": [
+            17
+          ]
+        },
+        "matchupTieRule": "SLOT_POINTS",
+        "matchupTieRuleBy": 20,
+        "playoffMatchupTieRule": "NONE",
+        "playoffMatchupTieRuleBy": 0,
+        "homeTeamBonus": 0,
+        "playoffHomeTeamBonus": 0
+      },
+      "roster": {
+        "lineupSlotCounts": {
+          "0": 1,
+          "1": 0,
+          "2": 2,
+          "3": 0,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 7,
+          "21": 2,
+          "22": 0,
+          "23": 1,
+          "24": 0
+        },
+        "positionLimits": {
+          "0": 0,
+          "1": 2,
+          "2": 6,
+          "3": 8,
+          "4": 4,
+          "5": 2,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 2,
+          "10": 2,
+          "11": 2,
+          "12": 2,
+          "13": 2,
+          "14": 0,
+          "15": 0,
+          "16": 2,
+          "17": -1
+        }
+      },
+      "schedule": {
+        "playoffSeedingRule": "H2H_RECORD",
+        "playoffMatchupPeriodLength": 1
+      },
+      "keeperSettings": {
+        "keeperCount": 0,
+        "keeperCountFuture": 2,
+        "keeperOrderType": "TRADITIONAL",
+        "keeperDeadlineDate": "2021-08-22T09:00:00.000Z"
+      },
+      "isKeeperLeague": false,
+      "draftSettings": {
+        "type": "SNAKE",
+        "auctionBudget": 200,
+        "pickTradingEnabled": true
+      },
+      "tradeSettings": {
+        "revisionHours": 24,
+        "vetoVotesRequired": 0,
+        "allowOutOfUniverse": false,
+        "max": -1
+      }
+    }
+  }
+}

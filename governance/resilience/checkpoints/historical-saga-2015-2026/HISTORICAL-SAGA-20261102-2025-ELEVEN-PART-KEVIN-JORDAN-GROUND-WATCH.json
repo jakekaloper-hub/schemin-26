@@ -1,0 +1,151 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-ELEVEN-PART-KEVIN-JORDAN-GROUND-WATCH",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "DRAFT_NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "authority": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_lifecycle": [
+      "BULLPEN.md",
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/lifecycleEngine.js"
+    ],
+    "reviewed_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "reviewed_prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT",
+      "264": "OPEN_DRAFT",
+      "272": "OPEN"
+    }
+  },
+  "previous_branch_checkpoint": "18aed31768a3c993dd9a1841fff7410c3d37d921",
+  "literary_output": {
+    "title": "The Watch at Ground Level",
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATCH_AT_GROUND_LEVEL_KEVIN_JORDAN_2025_DEVELOPMENTAL_NONCANON.md",
+    "git_blob": "e822af02abd44ecb0ec8a4d739a717f79bbc170b",
+    "words_including_metadata": 5222,
+    "character_ids": [
+      "CHAR-KEVIN-ZEEK",
+      "CHAR-JORDAN-HOLLINGSHEAD"
+    ],
+    "movements": [
+      "Kevin",
+      "Jordan",
+      "Kevin",
+      "Jordan",
+      "Kevin",
+      "Jordan"
+    ],
+    "historical_manager_account_association": "UNKNOWN / NOT AUTHENTICATED",
+    "historical_sports_anchors": [
+      "2025 team slot 2 Red Leopards 6-8 rank 11",
+      "2025 team slot 3 Slob on my Dobb 4-10 rank 8"
+    ],
+    "causal_result": "Kevin dismantles watch floor to provide one small kitchen hearth for one night, Jordan's feast damages wagon and failed ground-signal experiment strands traffic, one damaged wagon later passes limited daylight inspection, second wagon remains for Wilson, Jordan's separate two-hour labor debt still unpaid."
+  },
+  "reader": {
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_WATCH_GROUND_LEVEL_NONCANON.md",
+    "git_blob": "3eb4a3c424ba243dc0cb10c81dcf82a7695c6a7e",
+    "parts": 11,
+    "registered_current_owner_character_povs": 12,
+    "source_words_including_metadata": 59000,
+    "previous_reader_blob": "0510c40d3e33d1dde6720e8196ca87f23afd5bbf",
+    "previous_parts": 12,
+    "previous_source_words": 66528,
+    "retained_wrapper_byte_exact_count": 10,
+    "net_source_word_reduction": 7528,
+    "old_chapters_preserved": [
+      "THE_WATCH_THAT_WENT_DARK_KEVIN_2025_NONCANON.md",
+      "THE_BELL_BELOW_THE_FLOOR_JORDAN_2025_NONCANON.md"
+    ]
+  },
+  "technical": {
+    "tests_path": "living-novel/historical-chronicle/qa/test_2025_eleven_part_watch_ground_level.py",
+    "cases_defined": 28,
+    "workflow_path": ".github/workflows/novel-os-ci.yml",
+    "first_observed_failure": {
+      "run_id": 41493042451,
+      "step": "Verify 2025 eleven-part Kevin–Jordan ground-level developmental manuscript (noncanon)",
+      "status": "FAILURE",
+      "note": "Three prose-unchanged literal wording/capitalization false negatives identified by direct source comparison and repaired; source chapter and assembled reader not modified."
+    },
+    "repaired_code_commit": "79dba9952067fcb7cb779c3a93c08afc3c962fec",
+    "workflow_readback_at_checkpoint": [
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41493417203,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Novel OS CI",
+        "id": 41493416926,
+        "status": "in_progress",
+        "conclusion": null
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41493416867,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41493416889,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "full_novel_os_success": "PENDING_EXACT_REPAIRED_SHA_VERIFICATION",
+    "test_step_success": "PENDING_EXACT_REPAIRED_SHA_VERIFICATION"
+  },
+  "editorial": {
+    "producer_self_assessment": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATCH_AT_GROUND_LEVEL_EDITORIAL_SOURCE_QA_2026-11-02.md",
+    "independent_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6583985245",
+    "independent_reviews_submitted_observed": 0,
+    "status": "HOLD",
+    "risks": [
+      "Kevin/Jordan voice convergence",
+      "loss of 7528 words in compressed version",
+      "physical realism of watch/roads/signals",
+      "2025 historical manager lineage",
+      "period Character Canon and Atlas geography"
+    ]
+  },
+  "preservation": {
+    "protected_2026_prologue_chapters_1_2_3": "GITHUB_BLOB_EQUAL_TO_MAIN_VERIFIED_2026_11_02",
+    "original_kevin_and_jordan": "UNCHANGED_BRANCH_BLOBS",
+    "separate_2016_72_chapter_reader": "PRESERVED_BLOB_8f1dda21ac4962143ba3291cef4d60769197d62f; POV imbalance remains"
+  },
+  "holds": [
+    "HISTORICAL_MANAGER_ACCOUNT_IDS",
+    "PERIOD_CHARACTER_CANON",
+    "PERIOD_ATLAS_GEOGRAPHY",
+    "INDEPENDENT_AUTHORS_COUNCIL",
+    "INDEPENDENT_UMPIRE",
+    "FOUNDER_CANON_AND_PUBLICATION"
+  ],
+  "merge": "NOT_ATTEMPTED",
+  "publication": "NOT_ATTEMPTED",
+  "external_spend": "NONE",
+  "next": [
+    "Read exact repaired commit GitHub Novel OS CI and final 28-case test step; repair any observed failure without changing prose unnecessarily.",
+    "Obtain genuine independent Authors Council/Historical Librarian/Character/Atlas/Umpire review; request/comment is not approval.",
+    "Developmentally assess Kevin/Jordan voice differentiation and 7528-word compaction loss, then strengthen downstream Wilson and Jake causality.",
+    "Investigate 2016 72-Jake-limited POV distribution only using authenticated historical manager account identities.",
+    "Preserve protected hard-canon 2026 opening and Founder-only promotion gate."
+  ]
+}

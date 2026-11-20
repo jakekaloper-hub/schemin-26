@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "status": "IN_PROGRESS_NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "scope": "Commonwealth Historical Saga — 2016 causal novel Chapters III–IV on existing draft PR #243",
+  "date_local": "2026-10-29",
+  "repository": "jakekaloper-hub/schemin-26",
+  "canonical_branch": "main",
+  "working_branch": "novel/historical-epic-2015-2026",
+  "pull_request": 243,
+  "predecessor_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261029-2016-CAUSAL-CHAPTERS-01-02.json",
+  "resumed_existing": true,
+  "latest_content_commit_before_checkpoint": "b347e621844181ee5705fbee86ced7c5e41cba4c",
+  "mandate": {
+    "historical_scope": "2015–2026 evolving; source-bounded",
+    "exclusive_pov": "12 canonical PRINCIPAL_CHARACTER owner fantasies; one proposed Jake interior POV in this 2016 artifact",
+    "protected_2026_files_unmodified": true,
+    "no_merge": true,
+    "no_auto_canon": true,
+    "no_publication": true,
+    "no_financial_spend": true
+  },
+  "literary_output": {
+    "new_component_words_including_headers_notes": 8472,
+    "chapter_three": {
+      "title": "The Work of Unturned Things",
+      "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_WORK_OF_UNTURNED_THINGS_CHAPTER_03_NONCANON.md",
+      "words": 4495,
+      "git_blob": "f9bf0721c989d30bfd09189388b93293ba3a8ce0",
+      "archival_anchors": [
+        "2016 W8 slot 1 85.90 vs Team Hollingshead 59.28 — win"
+      ],
+      "narrative_actions": [
+        "singer refuses unauthorized print",
+        "seamstress agrees separately on repair",
+        "borrowed three-night canvas returned",
+        "worker secures independent inspection terms",
+        "wheel safety lift halted"
+      ],
+      "chronology_repair": "W9 122.10–97.32 slot-one defeat explicitly omitted from day-scene; previous premature notice corrected in commit 4fa190692081f8618607b8624fde3b26cf5a9865"
+    },
+    "chapter_four": {
+      "title": "What the Wall Kept",
+      "file": "living-novel/historical-chronicle/seasons/2016/causal-novel/WHAT_THE_WALL_KEPT_CHAPTER_04_NONCANON.md",
+      "words": 3977,
+      "git_blob": "8994f9e443a6313dee217dfd5f92aedeff7bd88c",
+      "archival_anchors": [
+        "2016 W10 slot 1 82.12 vs Pittsy's Rhino's 125.84 — loss",
+        "2016 W11 The Real Austin's Hyenas ID12 114.72 vs slot1 100.10 — loss"
+      ],
+      "narrative_actions": [
+        "east door removed without certified safety",
+        "woman declines to give key to private chest",
+        "unbuilt carpenter's reaching frame",
+        "unsworn worker wage witness remains unresolved",
+        "different storeroom water damage prompts food move",
+        "new separate short-term market awning loan"
+      ]
+    },
+    "exact_source_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_04_NONCANON.md",
+    "assembled_reader_whitespace_words": 17022,
+    "exact_four_component_words": 16746,
+    "source_component_blobs": [
+      "d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "756126cb4e151a0bd78ece39ab59a4c54ef2aa43",
+      "f9bf0721c989d30bfd09189388b93293ba3a8ce0",
+      "8994f9e443a6313dee217dfd5f92aedeff7bd88c"
+    ],
+    "prior_2016_full_chronicle_preserved": "living-novel/historical-chronicle/seasons/2016/READING_COPY_FULL_SEASON_NONCANON.md"
+  },
+  "source_evidence": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "evidence_kind": "RETAINED_FLAIM_ESPN_TRANSCRIPTION_NOT_FRESH_UPSTREAM_VERIFICATION",
+    "historical_owner_binding": "NOT_PROVIDER_AUTHENTICATED",
+    "historical_score_anchor_count": 3,
+    "other_matches": "PRESERVED_IN_ARCHIVE_AND_CHRONICLE_OFF_PAGE"
+  },
+  "verification": {
+    "new_unittest_methods": 20,
+    "tests": [
+      "living-novel/historical-chronicle/qa/test_2016_causal_chapter_three_reader.py",
+      "living-novel/historical-chronicle/qa/test_2016_causal_chapter_four_reader.py"
+    ],
+    "ci_entrypoint": ".github/workflows/novel-os-ci.yml",
+    "status_at_checkpoint_creation": "RECHECK_EXACT_FINAL_HEAD; DO_NOT_ASSUME_SUCCESS",
+    "protected_2026_main_and_draft_blob_pairs": {
+      "PROLOGUE_DRAFT_V1": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "protected_comparison_status": "BYTE_IDENTICAL_AUTHENTICATED_GITHUB_READBACK",
+    "pr_243_independent_review_count_at_last_check": 0,
+    "reviewer_clearance": "NOT_RECEIVED",
+    "external_director_runtime": "NOT_VERIFIED"
+  },
+  "source_qa_receipts": [
+    "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_03_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_04_SOURCE_EDITORIAL_QA_RECEIPT.md"
+  ],
+  "unresolved": {
+    "historical_2016_slot_one_owner": "UNKNOWN",
+    "proposed_2016_atlas_lodging_roads_wheel": "FICTION_ONLY_NOT_APPROVED",
+    "old_2016_pilot_three_wins_then_loss_drift": "REQUIRES_RECONCILIATION_WITH_G01",
+    "unresolved_fiction": [
+      "supplier accepted-material invoice unpaid",
+      "east room unsafe and private chest unretrieved",
+      "unknown missing claimant and unopened sealed message",
+      "worker prior timber wages unverified",
+      "different storeroom unsafe; grain relocated temporarily",
+      "temporary market awning must be returned"
+    ],
+    "independent_author_council_approval": false,
+    "character_era_approval": false,
+    "atlas_era_approval": false,
+    "umpire_approval": false,
+    "founder_canon_and_publication_approval": false
+  },
+  "continuation": {
+    "first": "Check final-head Novel OS CI, Cross-Domain Authority CI, Bullpen Runtime CI, Repository Merge Gate; diagnose actual failures without false green",
+    "next_literary": "Continue cause-first novel with more world and independent character agency; source-bind any selected later event to G01 before writing score or owner identity",
+    "next_history": "Correct old noncanonical 2016 pilot's incorrect Week2/3 result narrative via versioned errata, not unreviewed replacement",
+    "next_review": "Request real independent Authors Council, Atlas, Character and Umpire acceptance; do not simulate",
+    "release_law": "DRAFT_ONLY; never merge/promote/publish without Founder-only acceptance"
+  }
+}

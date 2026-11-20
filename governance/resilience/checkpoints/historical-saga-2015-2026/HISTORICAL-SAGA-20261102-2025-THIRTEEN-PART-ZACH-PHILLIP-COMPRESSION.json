@@ -1,0 +1,143 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-THIRTEEN-PART-ZACH-PHILLIP-COMPRESSION",
+  "project": "schemin-26 Commonwealth Novel",
+  "workflow": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "date_utc": "2026-11-02",
+  "stage": "2025_DEVELOPMENTAL_COMPRESSION_MIDDLE_ZACH_PHILLIP",
+  "state": "DRAFT_NONCANON_CODE_CI_PASS_AT_PRECHECKPOINT_SHA_INDEPENDENT_EDITORIAL_HOLD",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "authority": {
+    "schemin_main_observed": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_observed": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullp_runtime": [
+      "BULLPEN.md",
+      "docs/COMMAND_SYSTEM_V2.md",
+      "runtime/lifecycleEngine.js"
+    ],
+    "inspected_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "inspected_prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT",
+      "264": "OPEN_DRAFT"
+    },
+    "historical_account_owner_mapping": "UNKNOWN_NOT_AUTHENTICATED"
+  },
+  "prior_branch_commit": "cec20a19920c504dacfb4a0a9facb7770e0342eb",
+  "literary_output": {
+    "title": "The Water Under the Boards",
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATER_UNDER_THE_BOARDS_ZACH_PHILLIP_2025_DEVELOPMENTAL_NONCANON.md",
+    "blob": "dfec5b800b468081805058f33e65f35da49e57bb",
+    "source_words_including_metadata": 5162,
+    "story_before_source_notes_words": 4796,
+    "movements": [
+      "Zach",
+      "Phillip",
+      "Zach",
+      "Phillip",
+      "Zach",
+      "Phillip"
+    ],
+    "viewpoints": [
+      "CHAR-ZACH-WILSON",
+      "CHAR-PHILLIP-PITTS"
+    ],
+    "new_causal_spine": "An unapproved shared stream-edge exhibition green and rented theater hall suffer a flooding emergency; Zach and Phillip abandon green and stage to free obstructed drainage, evacuate people, and carry debts, damage and uncertainty.",
+    "facts_source": "living-novel/history/HISTORICAL_PRESSURE_LEDGER.md and 2025 standings; 2025 The Immortal 152.20-151.80 Dr. Duckhook; Three Dreaded Snake third overall.",
+    "world_physical_events": "PROPOSED_FICTION_NOT_ATLAS_CANON",
+    "human_historical_identity_authentication": false
+  },
+  "assembled_reader": {
+    "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_THIRTEEN_PARTS_DUAL_COMPRESSION_NONCANON.md",
+    "blob": "fe6e4056c951323aba19b302c67897bda96d59b9",
+    "parts": 13,
+    "registered_unique_principals": 12,
+    "source_words_including_metadata": 70117,
+    "replaces_reading_order_only": [
+      "THE_COURSE_BENEATH_THE_COURSE_ZACH_2025_NONCANON.md",
+      "THE_MASKS_THAT_REMAINED_PHILLIP_2025_NONCANON.md"
+    ],
+    "former_reader_blob": "7d9ca508d925493723478d02e0afc97d2276bdd9",
+    "former_reader_words": 75042,
+    "source_words_reduction": 4925,
+    "previous_wrapped_source_bodies_byte_exact": 12,
+    "independent_authenticated_source_reconciliation": "13 of 13 GitHub source blobs and wrapper bodies matched via fetch_file before checkpoint; total 70117",
+    "original_zach_blob_unchanged": "112b3890173cbf11879b139bff966cdff83884d4",
+    "original_phillip_blob_unchanged": "f96832d3bd23840d2fb1853d17940ac54774531d",
+    "separate_2016_72_chapter_reader": "UNCHANGED_72_JAKE_LIMITED_POV_ISSUE_REMAINS"
+  },
+  "technical": {
+    "regression_path": "living-novel/historical-chronicle/qa/test_2025_thirteen_part_dual_compression.py",
+    "regression_blob": "d9d3c8c51d48fc5fb3c349c5f90995f7d7f08b51",
+    "test_cases": 24,
+    "ci_workflow": ".github/workflows/novel-os-ci.yml",
+    "ci_workflow_blob": "57e98329ec3476f128da7c58c13284e7a48259f2",
+    "initial_failure": {
+      "commit": "036d9684e5ede6948b30a9acb5be1a1b1424e84a",
+      "run_id": 41474768685,
+      "issue": "One false overly restrictive literal test assertion; 23 other cases passed; no prose changed in correction."
+    },
+    "tested_sha": "f12cf97e40d777428dbd37afc726824658a55750",
+    "exact_tested_sha_ci": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 41475079148,
+        "job_id": 125378381056,
+        "conclusion": "SUCCESS",
+        "new_suite_log": "Ran 24 tests in 0.042s — OK"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41475079139,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41475079170,
+        "conclusion": "SUCCESS"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41475079166,
+        "conclusion": "SUCCESS"
+      }
+    ],
+    "checkpoint_sha_ci": "RECHECK_REQUIRED_AFTER_CHECKPOINT_WRITE"
+  },
+  "editorial": {
+    "self_assessment_path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_WATER_UNDER_THE_BOARDS_EDITORIAL_SOURCE_QA_2026-11-02.md",
+    "self_assessment_blob": "5c538e9a47ca841141ebf6b8cb1d7ff97ff39998",
+    "independent_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6581491969",
+    "submitted_independent_reviews_observed": 0,
+    "gate": "HOLD_NOT_YET_ACCEPTED"
+  },
+  "holds": {
+    "protected_2026_prologue_chapters_1_to_3": "UNCHANGED_VERIFIED_BY_24_CASE_SUITE",
+    "historical_manager_identity": "HOLD",
+    "character_canon_period_morphology": "HOLD",
+    "atlas_and_hydrology_physical_plausibility": "HOLD",
+    "independent_authors_council": "HOLD",
+    "independent_umpire": "HOLD",
+    "founder_canon_approval": "HOLD",
+    "merge": "NOT_ATTEMPTED",
+    "publish": "NOT_ATTEMPTED",
+    "external_spend": "NONE"
+  },
+  "next": [
+    "Verify final checkpoint commit Actions workflow conclusions, never inherit prior SHA success uncritically.",
+    "Obtain an actual independently identifiable literary, historical, character, Atlas and Umpire review; GitHub request/comment does not establish approval.",
+    "Developmentally integrate later 2025 novel arcs with material cross-character causality; avoid append-only anthology chapters.",
+    "Audit 2016 72 limited-Jake POV passages against period-specific authenticated historical team/owner maps before owner POV revisions.",
+    "Do not promote proposed physical geography, historic manager identity, or manuscript to canon without authorized review."
+  ]
+}

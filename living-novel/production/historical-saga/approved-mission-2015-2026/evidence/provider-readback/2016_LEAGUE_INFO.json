@@ -1,0 +1,274 @@
+{
+  "capture_time_utc": "2026-10-24 04:34:07 UTC",
+  "tool": "flaim_fantasy_get_league_info",
+  "arguments": {
+    "league_id": "1417621",
+    "platform": "espn",
+    "season_year": 2016,
+    "sport": "football"
+  },
+  "capture_kind": "EXACT_STRUCTURED_TOOL_RESULT_SERIALIZED_AS_JSON_NOT_RAW_ESPN_RESPONSE_BYTES",
+  "result": {
+    "success": true,
+    "data": {
+      "id": 1417621,
+      "name": "The League of Thrones",
+      "size": 12,
+      "status": {
+        "activatedDate": 1746539492438,
+        "createdAsLeagueType": 0,
+        "currentLeagueType": 0,
+        "currentMatchupPeriod": 15,
+        "finalScoringPeriod": 17,
+        "firstScoringPeriod": 1,
+        "isActive": true,
+        "isExpired": false,
+        "isFull": true,
+        "isPlayoffMatchupEdited": false,
+        "isToBeDeleted": false,
+        "isViewable": true,
+        "isWaiverOrderEdited": false,
+        "latestScoringPeriod": 19,
+        "previousSeasons": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "standingsUpdateDate": 1767600696151,
+        "teamsJoined": 12,
+        "transactionScoringPeriod": 18,
+        "waiverLastExecutionDate": 1767774314735,
+        "waiverProcessStatus": {
+          "2025-08-25T07:11:53.593+00:00": 2,
+          "2025-09-10T07:47:25.653+00:00": 7,
+          "2025-09-17T07:17:13.932+00:00": 4,
+          "2025-09-19T07:30:07.617+00:00": 1,
+          "2025-09-24T07:25:20.646+00:00": 11,
+          "2025-09-25T07:32:57.777+00:00": 2,
+          "2025-09-27T07:58:44.085+00:00": 1,
+          "2025-10-01T07:02:06.648+00:00": 5,
+          "2025-10-02T08:05:24.882+00:00": 1,
+          "2025-10-03T07:32:49.182+00:00": 2,
+          "2025-10-04T07:54:38.479+00:00": 1,
+          "2025-10-08T07:32:53.540+00:00": 7,
+          "2025-10-10T07:38:17.074+00:00": 1,
+          "2025-10-15T07:34:38.584+00:00": 3,
+          "2025-10-22T08:01:36.707+00:00": 7,
+          "2025-10-29T08:10:22.014+00:00": 7,
+          "2025-10-30T08:03:43.786+00:00": 1,
+          "2025-11-02T09:23:32.787+00:00": 1,
+          "2025-11-05T08:11:22.282+00:00": 7,
+          "2025-11-12T08:58:23.218+00:00": 4,
+          "2025-11-14T08:20:57.470+00:00": 1,
+          "2025-11-19T09:20:55.223+00:00": 5,
+          "2025-11-20T09:33:23.893+00:00": 2,
+          "2025-11-26T08:16:41.560+00:00": 6,
+          "2025-12-03T08:45:56.708+00:00": 5,
+          "2025-12-10T09:13:27.803+00:00": 7,
+          "2025-12-17T08:03:39.471+00:00": 3,
+          "2025-12-24T08:18:24.816+00:00": 2
+        }
+      },
+      "scoringPeriodId": 17,
+      "currentMatchupPeriod": 15,
+      "seasonId": 2016,
+      "segmentId": 0,
+      "teams": [
+        {
+          "teamId": 1,
+          "teamName": "Scruffy Looking Nerf Herders ",
+          "abbrev": "Jake"
+        },
+        {
+          "teamId": 2,
+          "teamName": "Hook, Line, and Zeeker",
+          "abbrev": "ZEEK"
+        },
+        {
+          "teamId": 3,
+          "teamName": "Kunt Liquors",
+          "abbrev": "ODDO"
+        },
+        {
+          "teamId": 4,
+          "teamName": "Bavid Dabbs",
+          "abbrev": "BABB"
+        },
+        {
+          "teamId": 5,
+          "teamName": "Here, Ok I took L's",
+          "abbrev": "SHEL"
+        },
+        {
+          "teamId": 6,
+          "teamName": "Pittsy's Rhino's",
+          "abbrev": "TANK"
+        },
+        {
+          "teamId": 7,
+          "teamName": "The Gunslingers",
+          "abbrev": "BP3"
+        },
+        {
+          "teamId": 8,
+          "teamName": "Austin's Hyena's",
+          "abbrev": "HYA"
+        },
+        {
+          "teamId": 9,
+          "teamName": "All ACL Squad",
+          "abbrev": "ACL"
+        },
+        {
+          "teamId": 10,
+          "teamName": "Team Hollingshead",
+          "abbrev": "HOLL"
+        },
+        {
+          "teamId": 11,
+          "teamName": "I'M HERE SO I WON'T GET FINED",
+          "abbrev": "SCHR"
+        },
+        {
+          "teamId": 12,
+          "teamName": "The Real Austin's Hyenas",
+          "abbrev": "Z"
+        }
+      ],
+      "scoringSettings": {
+        "type": "H2H_POINTS",
+        "matchupPeriods": {
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ],
+          "4": [
+            4
+          ],
+          "5": [
+            5
+          ],
+          "6": [
+            6
+          ],
+          "7": [
+            7
+          ],
+          "8": [
+            8
+          ],
+          "9": [
+            9
+          ],
+          "10": [
+            10
+          ],
+          "11": [
+            11
+          ],
+          "12": [
+            12
+          ],
+          "13": [
+            13
+          ],
+          "14": [
+            14,
+            15
+          ],
+          "15": [
+            16,
+            17
+          ]
+        },
+        "matchupTieRule": "NONE",
+        "matchupTieRuleBy": 0,
+        "playoffMatchupTieRule": "NONE",
+        "playoffMatchupTieRuleBy": 0,
+        "homeTeamBonus": 0,
+        "playoffHomeTeamBonus": 0
+      },
+      "roster": {
+        "lineupSlotCounts": {
+          "0": 1,
+          "1": 0,
+          "2": 2,
+          "3": 0,
+          "4": 2,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 7,
+          "21": 0,
+          "22": 0,
+          "23": 1
+        },
+        "positionLimits": {
+          "0": 0,
+          "1": 4,
+          "2": 8,
+          "3": 8,
+          "4": 3,
+          "5": 3,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": -1,
+          "10": -1,
+          "11": -1,
+          "12": -1,
+          "13": -1,
+          "14": 0,
+          "15": 0,
+          "16": 3
+        }
+      },
+      "schedule": {
+        "playoffSeedingRule": "TOTAL_POINTS_SCORED",
+        "playoffMatchupPeriodLength": 2
+      },
+      "keeperSettings": {
+        "keeperCount": 0,
+        "keeperCountFuture": 0,
+        "keeperOrderType": "TRADITIONAL"
+      },
+      "isKeeperLeague": false,
+      "draftSettings": {
+        "type": "SNAKE",
+        "auctionBudget": 200,
+        "pickTradingEnabled": false
+      },
+      "tradeSettings": {
+        "deadlineDate": "2016-11-23T09:00:00.000Z",
+        "revisionHours": 48,
+        "vetoVotesRequired": 6,
+        "allowOutOfUniverse": false,
+        "max": -1
+      }
+    }
+  }
+}

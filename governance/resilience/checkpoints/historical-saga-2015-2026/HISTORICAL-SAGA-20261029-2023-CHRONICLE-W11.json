@@ -1,0 +1,65 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W11",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "stage": "2023_WEEK_11_NONCANON_MANUSCRIPT_REGRESSION_PENDING_EXACT_HEAD_CI",
+  "input": {
+    "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "preceding_pr_head": "3664b484af15001842ee6b0699fa45ba6888f6d9",
+    "week10_manuscript_sha": "18d43a58d240646322ab0245f82d688bc535a125",
+    "archive_blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "authority_matrix_sha": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+  },
+  "literary": {
+    "title": "The Orchard That Refused a Name",
+    "manuscript": "living-novel/historical-chronicle/seasons/2023/weeks/W11.md",
+    "manuscript_blob_sha": "2aca8a3f578ba5e73451ea648488c4711979558a",
+    "words_including_metadata": 5755,
+    "scene_count": 6,
+    "pov": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "status": "NONCANON_HISTORICAL_ATLAS_HOLD"
+  },
+  "coverage": {
+    "weeks": 11,
+    "source_anchored_fixtures_with_narrative": 66,
+    "total_regular_season_fixtures": 84,
+    "remaining_regular_fixtures": 18,
+    "postseason": "UNDRAFTED"
+  },
+  "code": {
+    "new_regression": "living-novel/historical-chronicle/qa/test_2023_eleventh_week.py",
+    "previous_compatibility_tests_updated": "W03-W10",
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "receipt": "living-novel/historical-chronicle/seasons/2023/weeks/W11_SOURCE_QA_RECEIPT.md",
+    "continuity": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json"
+  },
+  "evidence_state": {
+    "self_checked_story_scores": true,
+    "all_source_fields_from_archived_week11": true,
+    "GitHub_CI": "SUCCESS_AT_OBSERVED_TESTED_HEAD_9c4d263b",
+    "independent_editorial": "NOT_OBTAINED",
+    "atlas": "UNAPPROVED",
+    "umpire": "NOT_ACCEPTED",
+    "founder": "NOT_APPROVED",
+    "merge": "HOLD",
+    "publication": "HOLD",
+    "authenticated_bullpen_session": "NOT_OBSERVED",
+    "workflow_runs": {
+      "novel_os_ci": 40903403735,
+      "cross_domain_authority": 40903403744,
+      "bullpen_runtime": 40903403947,
+      "repository_merge_gate": 40903403736
+    },
+    "independent_review": "NOT_OBTAINED",
+    "caveat": "Technical approval at exact 9c4d263b; no canon/Atlas/editorial/Umpire approval. This checkpoint metadata updated in later commit."
+  },
+  "next": [
+    "Read exact PR #243 head; confirm all workflows, fix actual CI failures and update receipt accurately.",
+    "Request independent author, Atlas and Umpire challenge. Do not interpret a self-review as independent acceptance.",
+    "Write the six 2023 Week 12 archive fixtures with distinct fiction, preserving all protected hard canon and prior manuscripts."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "CommonwealthHistoricalSagaProductionCheckpoint.v1",
+  "date": "2026-11-02",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "coordinator": "jakekaloper-hub/bullpen",
+  "previous_checkpoint": "HISTORICAL-SAGA-20261102-2016-CLOTH-LOCK-16039-THREE-PART-READER.json",
+  "literary_output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_CLOTH_AND_THE_LOCK_2016_CH03_04_CONSOLIDATED_NONCANON.md",
+    "chapter_blob": "ccf74ae267e3ffd9ae679c2744c11198e07b7293",
+    "chapter_source_words": 7742,
+    "new_bridge_words": 991,
+    "reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_06_FOUR_PARTS_ROOF_CLOTH_GRAIN_PRINT_NONCANON.md",
+    "reader_blob": "2448e7e1f6a03e1459bc53b0b4be0d418e1e0af7",
+    "reader_parts": 4,
+    "original_chapters_spanned": 6,
+    "source_words_including_metadata": 20342,
+    "original_six_source_words": 25782,
+    "source_word_reduction": 5440,
+    "prior_three_part_reader": "READING_COPY_2016_CAUSAL_CH01_05_THREE_PARTS_ROOF_CLOTH_GRAIN_NONCANON.md@09d5ddd8980cdb12c5641d96914771a10e890477",
+    "source_exacts": [
+      [
+        "THE_ROOF_AND_THE_UNCLAIMED_BOWL_2016_CH01_02_CONSOLIDATED_NONCANON.md",
+        "011a098cdd760cd820e9fc818ae24097375d3c8e",
+        3564
+      ],
+      [
+        "THE_CLOTH_AND_THE_LOCK_2016_CH03_04_CONSOLIDATED_NONCANON.md",
+        "ccf74ae267e3ffd9ae679c2744c11198e07b7293",
+        7742
+      ],
+      [
+        "THE_WEIGHT_OF_DRY_GRAIN_CHAPTER_05_NONCANON.md",
+        "40d12860e93d9393b18d7771c427061c82e46c8c",
+        4733
+      ],
+      [
+        "THE_SILENCE_IN_THE_SECOND_PRINTING_CHAPTER_06_NONCANON.md",
+        "4e3d655895847e9910b7e8c69349fb2b09c94b4b",
+        4303
+      ]
+    ]
+  },
+  "tests_and_ci": [
+    {
+      "exact_commit": "90c3665958ff7a52ac39136f1e14cbff4f7e4933",
+      "tests": "16/16 PASS",
+      "novel_os_run": 41567503547,
+      "other_workflows": "3/3 SUCCESS"
+    },
+    {
+      "exact_commit": "123e17dec05332a8799b8bb46b46701555178514",
+      "tests": "10/10 PASS",
+      "novel_os_run": 41568044293,
+      "novel_os_job": 125694191447,
+      "other_workflows": "3/3 SUCCESS"
+    }
+  ],
+  "protected_2026": "Prologue and Chapters I–III matched current main by four checked Git blobs; no edits to protected files in this run.",
+  "independent_review": "NOT_OBSERVED; requested on PR #243 comments 6594072604 and 6594130757; producer-side editorial file is not independent acceptance.",
+  "remaining_history_gate": "2016 team-owner account IDs insufficient to distribute 72 Jake-limited chapters to other canonical POVs; Austin-named historical slots 8 and 12 are distinct.",
+  "release": "NONCANON / NO MERGE / NO PUBLICATION / NO CANON PROMOTION / FOUNDER-ONLY / NO NEW SPEND",
+  "next": [
+    "Independently evaluate singer's refused verse through the later printed broadside without inventing owner POVs.",
+    "Continue source-safe Chapter VII consolidation into the 2016 partial reader; original 72 chapters remain intact.",
+    "Obtain period Character Canon/Atlas, independent literary/Umpire and Founder-only approvals before any release."
+  ]
+}

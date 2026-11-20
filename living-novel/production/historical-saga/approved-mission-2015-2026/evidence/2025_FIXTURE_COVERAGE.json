@@ -1,0 +1,4473 @@
+{
+  "season": 2025,
+  "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+  "returned_rows": 105,
+  "distinct_source_entries": 105,
+  "duplicate_display_rows": 0,
+  "observed_paired_contests": 99,
+  "regular_season_contests": 84,
+  "postseason_contests": 15,
+  "unpaired_rows": 6,
+  "postseason_tiers_paired": {
+    "WINNERS_BRACKET": 6,
+    "LOSERS_CONSOLATION_LADDER": 6,
+    "WINNERS_CONSOLATION_LADDER": 3
+  },
+  "regular_scoring_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "postseason_scoring_weeks": [
+    15,
+    16,
+    17
+  ],
+  "denominator_scope": "OBSERVED_PAIRED_SOURCE_CONTESTS; full historical schedule completeness not independently certified",
+  "accepted_literary_coverage": 0,
+  "coverage_status": "UNACCEPTED_NOT_UNWRITTEN",
+  "missing_data": [
+    "Historical owner binding",
+    "Historical division and venue binding",
+    "Raw provider bytes not supplied by these transcriptions",
+    "Independent schedule/bracket completeness reconciliation"
+  ],
+  "title_outcome": {
+    "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2015_2025_FLAIM_VERIFIED_CHAMPIONSHIP_ROUNDS.json",
+    "source_sha256": "21af60795d2431dbe5a7b971e7ef0d7d6515a61451420db18986f00329c69e2e",
+    "record": {
+      "season": 2025,
+      "final_scoring_week": 17,
+      "winner_team_id": 8,
+      "winner_team_name": "The Immortal",
+      "winner_points": 161.07,
+      "runnerup_team_id": 1,
+      "runnerup_team_name": "ObiWan Jacoby",
+      "runnerup_points": 109.56
+    },
+    "meaning": "Historical team label and slot only; not verified present-owner title"
+  },
+  "events": [
+    {
+      "event_id": "ESPN1417621-2025-P01-E001",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 143.28,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 135.52,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P01-E002",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 145.75,
+      "away_id": 12,
+      "away": "Dr. Duckhook",
+      "away_score": 129.42,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P01-E003",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 138.71,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 114.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P01-E004",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 8,
+      "home": "The Immortal",
+      "home_score": 117.57,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 130.02,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P01-E005",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 129.72,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 156.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P01-E006",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 1,
+          "source_pointer": "/weeks/0/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        1
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 1,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 113.58,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 126.57,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P02-E007",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 118.24,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 121.44,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P02-E008",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 131.7,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 173.68,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P02-E009",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 140.5,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 166.58,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P02-E010",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 158.03,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 140.7,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P02-E011",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 123.98,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 133.3,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P02-E012",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 2,
+          "source_pointer": "/weeks/1/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        2
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 2,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 91.62,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 211.49,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P03-E013",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 135.66,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 173.84,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P03-E014",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 139.29,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 146.72,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P03-E015",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 136.02,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 123.72,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P03-E016",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 189.72,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 172,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P03-E017",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 119.41,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 88.94,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P03-E018",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 3,
+          "source_pointer": "/weeks/2/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        3
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 3,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 106.62,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 124.77,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P04-E019",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 158.08,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 150.08,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P04-E020",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 185.82,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 167.46,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P04-E021",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 149.33,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 154.3,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P04-E022",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 149.06,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 119.26,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P04-E023",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 213.8,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 121.42,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P04-E024",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 4,
+          "source_pointer": "/weeks/3/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        4
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 4,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 147.4,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 172.45,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P05-E025",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 135.55,
+      "away_id": 10,
+      "away": "Mud Dogs",
+      "away_score": 156.84,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P05-E026",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 163.26,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 103.42,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P05-E027",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 132.7,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 153.12,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P05-E028",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 152.46,
+      "away_id": 6,
+      "away": "Three Dreaded Snake",
+      "away_score": 160.12,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P05-E029",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 168.42,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 83.58,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P05-E030",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 5,
+          "source_pointer": "/weeks/4/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        5
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 5,
+      "home_id": 8,
+      "home": "The Immortal",
+      "home_score": 139.72,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 159.54,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P06-E031",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 112.8,
+      "away_id": 6,
+      "away": "Three Dreaded Snake",
+      "away_score": 133.78,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P06-E032",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 212.74,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 146.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P06-E033",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 106.23,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 146.16,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P06-E034",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 128.82,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 146.54,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P06-E035",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 11,
+      "home": "Seven Deadly Chins",
+      "home_score": 121.66,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 125.19,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P06-E036",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 6,
+          "source_pointer": "/weeks/5/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        6
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 6,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 109.77,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 108.54,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P07-E037",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 129.81,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 138.46,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P07-E038",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 90.12,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 141.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P07-E039",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 179.24,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 138.14,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P07-E040",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 173.58,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 152.81,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P07-E041",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 103.54,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 181.98,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P07-E042",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 7,
+          "source_pointer": "/weeks/6/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        7
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 7,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 120.81,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 191.2,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P08-E043",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 139.56,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 111.23,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P08-E044",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 100.45,
+      "away_id": 10,
+      "away": "Mud Dogs",
+      "away_score": 163.26,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P08-E045",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 7,
+      "home": "The Chili Cheesers ",
+      "home_score": 150.27,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 171.86,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P08-E046",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 98.34,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 126.62,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P08-E047",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 8,
+      "home": "The Immortal",
+      "home_score": 132.1,
+      "away_id": 12,
+      "away": "Dr. Duckhook",
+      "away_score": 201.23,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P08-E048",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 8,
+          "source_pointer": "/weeks/7/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        8
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 8,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 170.43,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 150.12,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P09-E049",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 149.06,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 167.54,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P09-E050",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 179.68,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 111.42,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P09-E051",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 190.2,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 141.06,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P09-E052",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 112.3,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 136,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P09-E053",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 139.97,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 95.04,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P09-E054",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 9,
+          "source_pointer": "/weeks/8/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        9
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 9,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 156.4,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 117.05,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P10-E055",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 135.42,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 149.8,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P10-E056",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 140.3,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 180.72,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P10-E057",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 103.87,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 147.12,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P10-E058",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 7,
+      "home": "The Chili Cheesers ",
+      "home_score": 116.48,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 111.14,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P10-E059",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 134.99,
+      "away_id": 10,
+      "away": "Mud Dogs",
+      "away_score": 143.05,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P10-E060",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 10,
+          "source_pointer": "/weeks/9/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        10
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 10,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 227.6,
+      "away_id": 6,
+      "away": "Three Dreaded Snake",
+      "away_score": 131.9,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P11-E061",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 8,
+      "home": "The Immortal",
+      "home_score": 147.86,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 145.83,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P11-E062",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 132.22,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 139.22,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P11-E063",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 136.92,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 114.06,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P11-E064",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 97.6,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 126.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P11-E065",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 116.05,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 78.64,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P11-E066",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 11,
+          "source_pointer": "/weeks/10/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        11
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 11,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 97.24,
+      "away_id": 12,
+      "away": "Dr. Duckhook",
+      "away_score": 211.14,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P12-E067",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 11,
+      "home": "Seven Deadly Chins",
+      "home_score": 139.24,
+      "away_id": 12,
+      "away": "Dr. Duckhook",
+      "away_score": 200.56,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P12-E068",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 141.53,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 151.86,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P12-E069",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 149.12,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 136.96,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P12-E070",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 163.66,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 106.24,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P12-E071",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 97.72,
+      "away_id": 7,
+      "away": "The Chili Cheesers ",
+      "away_score": 140.46,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P12-E072",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 12,
+          "source_pointer": "/weeks/11/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        12
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 12,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 91.68,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 116.92,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P13-E073",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 123.29,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 122.64,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P13-E074",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 7,
+      "home": "The Chili Cheesers ",
+      "home_score": 118.3,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 137.52,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P13-E075",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 139.86,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 169,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P13-E076",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 78.44,
+      "away_id": 12,
+      "away": "Dr. Duckhook",
+      "away_score": 157.78,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P13-E077",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 135.32,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 142.62,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P13-E078",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 13,
+          "source_pointer": "/weeks/12/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        13
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 13,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 139.14,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 144.34,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P14-E079",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 140.64,
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "away_score": 140.74,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P14-E080",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 139.3,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 170.06,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P14-E081",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 11,
+      "home": "Seven Deadly Chins",
+      "home_score": 90.7,
+      "away_id": 6,
+      "away": "Three Dreaded Snake",
+      "away_score": 139.84,
+      "winner": "AWAY",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P14-E082",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 7,
+      "home": "The Chili Cheesers ",
+      "home_score": 155.29,
+      "away_id": 10,
+      "away": "Mud Dogs",
+      "away_score": 134.25,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P14-E083",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 183.39,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 110.51,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P14-E084",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "REGULAR_SEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 14,
+          "source_pointer": "/weeks/13/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        14
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 14,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 132.32,
+      "away_id": 12,
+      "away": "Dr. Duckhook",
+      "away_score": 128.82,
+      "winner": "HOME",
+      "tier": "NONE",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P15-E085",
+      "season": 2025,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 151.22,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P15-E086",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 6,
+      "home": "Three Dreaded Snake",
+      "home_score": 127.98,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 116.68,
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P15-E087",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 7,
+      "home": "The Chili Cheesers ",
+      "home_score": 147.34,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 185.6,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P15-E088",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 171.8,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 112.9,
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P15-E089",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 160.31,
+      "away_id": 2,
+      "away": "Red Leopards",
+      "away_score": 167.3,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P15-E090",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "home_score": 160.56,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 158.02,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P15-E091",
+      "season": 2025,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 15,
+          "source_pointer": "/weeks/14/matchups/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        15
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 15,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 147.2,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E092",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 174.38,
+      "away_id": 6,
+      "away": "Three Dreaded Snake",
+      "away_score": 153.2,
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E093",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 151.8,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 152.2,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E094",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 7,
+      "home": "The Chili Cheesers ",
+      "home_score": 128.72,
+      "away_id": 5,
+      "away": "Baker Moore Purdy",
+      "away_score": 144.3,
+      "winner": "AWAY",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E095",
+      "season": 2025,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 11,
+      "home": "Seven Deadly Chins",
+      "home_score": 164.9,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E096",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 127.04,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 134.92,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E097",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 149.76,
+      "away_id": 9,
+      "away": "El Niño",
+      "away_score": 137.5,
+      "winner": "HOME",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P16-E098",
+      "season": 2025,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 16,
+          "source_pointer": "/weeks/15/matchups/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        16
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 16,
+      "home_id": 4,
+      "home": "The LLC",
+      "home_score": 113.65,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E099",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/0"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 1,
+      "home": "ObiWan Jacoby",
+      "home_score": 109.56,
+      "away_id": 8,
+      "away": "The Immortal",
+      "away_score": 161.07,
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E100",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/1"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 12,
+      "home": "Dr. Duckhook",
+      "home_score": 136.54,
+      "away_id": 6,
+      "away": "Three Dreaded Snake",
+      "away_score": 175.6,
+      "winner": "AWAY",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E101",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/2"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 5,
+      "home": "Baker Moore Purdy",
+      "home_score": 208.94,
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "away_score": 149.47,
+      "winner": "HOME",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E102",
+      "season": 2025,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/3"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 7,
+      "home": "The Chili Cheesers ",
+      "home_score": 134.73,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "WINNERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E103",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/4"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "home_score": 97.13,
+      "away_id": 3,
+      "away": "Slob on my Dobb",
+      "away_score": 100.28,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E104",
+      "season": 2025,
+      "kind": "PAIRED_CONTEST",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/5"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 2,
+      "home": "Red Leopards",
+      "home_score": 79.55,
+      "away_id": 4,
+      "away": "The LLC",
+      "away_score": 136.18,
+      "winner": "AWAY",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": null,
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    },
+    {
+      "event_id": "ESPN1417621-2025-P17-E105",
+      "season": 2025,
+      "kind": "UNPAIRED_PROVIDER_ROW",
+      "phase": "POSTSEASON",
+      "source_path": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "source_sha256": "88d8dc23fc8c88a16014546d8f026019b74f6b2c7d5e6aec91ae8e71ebefcf79",
+      "evidence_kind": "REPOSITORY_PROVIDER_TRANSCRIPTION_NOT_RAW_PROVIDER_BYTES",
+      "observations": [
+        {
+          "scoring_week": 17,
+          "source_pointer": "/weeks/16/matchups/6"
+        }
+      ],
+      "observed_scoring_weeks": [
+        17
+      ],
+      "aggregate_repeated": false,
+      "conflicting_observations": false,
+      "period": 17,
+      "home_id": 9,
+      "home": "El Niño",
+      "home_score": 124.5,
+      "away_id": null,
+      "away": null,
+      "away_score": null,
+      "winner": "UNDECIDED",
+      "tier": "LOSERS_CONSOLATION_LADDER",
+      "event_id_authority": "MISSION_GENERATED_JOIN_KEY_NOT_PROVIDER_FIXTURE_ID",
+      "result_qualification": "PRESERVE_SOURCE_WINNER",
+      "owner_time_binding": {
+        "status": "UNKNOWN",
+        "source": "living-novel/history/OWNER_LINEAGE.md",
+        "rule": "Team slot or label is not owner identity; no historical principal POV attribution licensed."
+      },
+      "unpaired_status": "NO_OPPONENT_IN_SOURCE_BYE_CANDIDATE_NOT_A_PLAYED_CONTEST",
+      "literary_coverage": {
+        "status": "UNACCEPTED",
+        "accepted_locations": [],
+        "existing_candidates": []
+      }
+    }
+  ]
+}

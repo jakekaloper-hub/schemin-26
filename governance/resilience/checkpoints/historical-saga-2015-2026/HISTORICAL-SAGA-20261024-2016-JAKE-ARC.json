@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261024-2016-JAKE-ARC",
+  "project": "schemin-26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "BOUNDED_2016_JAKE_EVENTS_EXHAUSTED_DRAFT_REVIEWED",
+  "owner": "Novel production task",
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "completed_at": "2026-10-24T05:54:48.917670+00:00",
+  "input_fingerprints": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/2016_FIXTURE_COVERAGE.json",
+      "digest_algo": "sha256",
+      "digest": "4b8b22e1fab6dee9c1cf43452186429118d250e21c791b57a2dd13f026bf811e"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/evidence/owner-extraction-audit/FLAIM_CONNECTED_ACCOUNT_CONTINUITY.md",
+      "digest_algo": "sha256",
+      "digest": "f7746a9765b83dddc5d42d17788799d95971853b9b0bda2624085dafcf3bb219"
+    },
+    {
+      "path": "canon/characters/CHARACTER_REGISTRY.yaml",
+      "digest_algo": "sha256",
+      "digest": "972947f50831b31e0a7e89538da38a907f4dbf8578d2a16e4cc210baeeacfd48"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/THE_MEASURE_OF_REPAIR_NONCANON.md",
+      "digest_algo": "sha256",
+      "digest": "f8e69f686e9986c9349c26fd7a16de3d5da07d5929bf9cd9ab13b6aaf006f648"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2016-jake-arc/SCENE_REGISTER.json",
+      "digest_algo": "sha256",
+      "digest": "bdf8cfcdf23885fe62771cbfd1efbdde3581feb973ab7851a312ce8654f35a67"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/2016_JAKE_ARC_INDEPENDENT_REVIEW.md",
+      "digest_algo": "sha256",
+      "digest": "a79d06dd60fbb7fb041b0f1caafc194bc98a5654ca5079ae3a5d7887bd4e18ca"
+    }
+  ],
+  "evidence": [
+    "living-novel/consultants/author-council/engagements/HISTORICAL-SAGA-2015-2026-2026-10-24/historical-supplement/2016_JAKE_ARC_RECONCILIATION.md",
+    "living-novel/production/historical-saga/approved-mission-2015-2026/review/2016_JAKE_ARC_CHECK.json"
+  ],
+  "invalidation_triggers": [
+    "Changes to user-attested identity, Flaim continuity, 2016 team-1 events, scene register or prose require re-review."
+  ]
+}

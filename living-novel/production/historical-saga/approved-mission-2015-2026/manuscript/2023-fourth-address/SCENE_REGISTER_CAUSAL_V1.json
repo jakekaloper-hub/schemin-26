@@ -1,0 +1,431 @@
+{
+  "schema_version": "commonwealth-novel-historical-causal-register-v1",
+  "title": "The Fourth Address",
+  "season": 2023,
+  "version": "V1",
+  "status": "DRAFT_NONCANON_REVIEW_HOLD",
+  "manuscript_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2023-fourth-address/THE_FOURTH_ADDRESS_CAUSAL_READING_V1_NONCANON.md",
+  "manuscript_git_blob": "7a2685600671434bb10289765d4a8093ddb6072f",
+  "word_count_including_frontmatter": 4806,
+  "sports_evidence_path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+  "sports_evidence_git_blob": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+  "championship_source_path": "living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json",
+  "championship_source_git_blob": "79190778ebac9859fb3d560e824f014c793010ae",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "owner_lineage_git_blob": "be68b2b2c836592ed872e32b6216af238a0cd64c",
+  "primary_pov_ids": [
+    "CHAR-JAKE-KALOPER"
+  ],
+  "owner_association": "USER_ATTESTED_CONNECTED_ACCOUNT_SLOT_1_LITERARY_CANDIDATE_NOT_AUTHENTICATED_HUMAN_OWNER",
+  "other_historical_team_owner_binding": "UNKNOWN_DO_NOT_PROJECT_2026_OWNER_IDS",
+  "historical_venue_status": "PROPOSED_UNAPPROVED",
+  "historical_transaction_status": "NO_REAL_LEAGUE_TRANSACTIONS_CLAIMED",
+  "source_week_record_count": 105,
+  "source_week_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "scoring_periods_known": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "foreground_source_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "background_unforegrounded_weeks": [],
+  "scene_counts": {
+    "connected_movements": 4,
+    "team1_score_pair_anchors": 17,
+    "additional_nonteam1_verified_event_anchors": 6
+  },
+  "championship": {
+    "season": 2023,
+    "final_scoring_week": 17,
+    "winner_team_id": 12,
+    "winner_team_name": "Eggs Benedict",
+    "winner_points": 192.88,
+    "runnerup_team_id": 11,
+    "runnerup_team_name": "Arm Chair GM",
+    "runnerup_points": 140.76
+  },
+  "scenes": [
+    {
+      "scene_id": "2023-FOURTH-ADDRESS-01",
+      "heading": "The Name on the Outside",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 4",
+      "foreground_source_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_score_anchors": [
+        {
+          "week": 1,
+          "team_1_points": "113.02",
+          "opponent_slot": 3,
+          "opponent_name": "The KING of the Octagon Village",
+          "opponent_points": "190.74",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": false
+        },
+        {
+          "week": 2,
+          "team_1_points": "113.35",
+          "opponent_slot": 10,
+          "opponent_name": "Mixon it up for a week",
+          "opponent_points": "127.86",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": true
+        },
+        {
+          "week": 3,
+          "team_1_points": "183.46",
+          "opponent_slot": 2,
+          "opponent_name": "Red Leopards",
+          "opponent_points": "184.75",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": true
+        },
+        {
+          "week": 4,
+          "team_1_points": "103.24",
+          "opponent_slot": 7,
+          "opponent_name": "The Blew Waffle's",
+          "opponent_points": "160.64",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": true
+        }
+      ],
+      "fictional_consequence": "The first four defeats coincide with a disputed Gallery renewal packet addressed only to Benedict; Tavi and Jake obtain a provisional custody receipt.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 1203
+    },
+    {
+      "scene_id": "2023-FOURTH-ADDRESS-02",
+      "heading": "The Keeper of Seven Days",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 7",
+      "foreground_source_weeks": [
+        5,
+        6,
+        7
+      ],
+      "source_score_anchors": [
+        {
+          "week": 5,
+          "team_1_points": "182.48",
+          "opponent_slot": 6,
+          "opponent_name": "Two Dreaded Snake",
+          "opponent_points": "129.42",
+          "outcome": "WIN",
+          "tier": "NONE",
+          "team1_home": true
+        },
+        {
+          "week": 6,
+          "team_1_points": "132.20",
+          "opponent_slot": 12,
+          "opponent_name": "Eggs Benedict ",
+          "opponent_points": "130.02",
+          "outcome": "WIN",
+          "tier": "NONE",
+          "team1_home": true
+        },
+        {
+          "week": 7,
+          "team_1_points": "124.53",
+          "opponent_slot": 8,
+          "opponent_name": "Benedict Arnold",
+          "opponent_points": "102.04",
+          "outcome": "WIN",
+          "tier": "NONE",
+          "team1_home": true
+        }
+      ],
+      "fictional_consequence": "After three source-certified Team 1 wins, Tavi locates the sender's identification; Lenna asserts her right to a hearing and assigns Jake real physical work.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 1231
+    },
+    {
+      "scene_id": "2023-FOURTH-ADDRESS-03",
+      "heading": "The Person Who Was There",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 14",
+      "foreground_source_weeks": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "source_score_anchors": [
+        {
+          "week": 8,
+          "team_1_points": "142.10",
+          "opponent_slot": 9,
+          "opponent_name": "El Niño",
+          "opponent_points": "205.16",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": true
+        },
+        {
+          "week": 9,
+          "team_1_points": "137.40",
+          "opponent_slot": 11,
+          "opponent_name": "Arm Chair GM",
+          "opponent_points": "144.12",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": false
+        },
+        {
+          "week": 10,
+          "team_1_points": "143.09",
+          "opponent_slot": 4,
+          "opponent_name": "The LLC",
+          "opponent_points": "176.96",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": false
+        },
+        {
+          "week": 11,
+          "team_1_points": "160.79",
+          "opponent_slot": 3,
+          "opponent_name": "The KING of the Octagon Village",
+          "opponent_points": "119.98",
+          "outcome": "WIN",
+          "tier": "NONE",
+          "team1_home": false
+        },
+        {
+          "week": 12,
+          "team_1_points": "123.16",
+          "opponent_slot": 5,
+          "opponent_name": "Benedict Coomhersnatch",
+          "opponent_points": "152.72",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": false
+        },
+        {
+          "week": 13,
+          "team_1_points": "144.76",
+          "opponent_slot": 7,
+          "opponent_name": "The Blew Waffle's",
+          "opponent_points": "143.72",
+          "outcome": "WIN",
+          "tier": "NONE",
+          "team1_home": true
+        },
+        {
+          "week": 14,
+          "team_1_points": "135.12",
+          "opponent_slot": 9,
+          "opponent_name": "El Niño",
+          "opponent_points": "161.98",
+          "outcome": "LOSS",
+          "tier": "NONE",
+          "team1_home": true
+        }
+      ],
+      "fictional_consequence": "Three defeats, a rebound and the 1.04-point Week 13 victory do not determine civic standing; in the hearing Jake refuses a false custody claim, and Lenna obtains a provisional petition receipt.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 1270
+    },
+    {
+      "scene_id": "2023-FOURTH-ADDRESS-04",
+      "heading": "The Other Kind of Victory",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "story_time_cutoff": "after certification of Week 17 championship",
+      "foreground_source_weeks": [
+        15,
+        16,
+        17
+      ],
+      "source_score_anchors": [
+        {
+          "week": 15,
+          "team_1_points": "137.98",
+          "opponent_slot": 8,
+          "opponent_name": "Benedict Arnold",
+          "opponent_points": "131.86",
+          "outcome": "WIN",
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "team1_home": true
+        },
+        {
+          "week": 16,
+          "team_1_points": "129.70",
+          "opponent_slot": 3,
+          "opponent_name": "The KING of the Octagon Village",
+          "opponent_points": "181.20",
+          "outcome": "LOSS",
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "team1_home": false
+        },
+        {
+          "week": 17,
+          "team_1_points": "169.60",
+          "opponent_slot": 8,
+          "opponent_name": "Benedict Arnold",
+          "opponent_points": "155.28",
+          "outcome": "WIN",
+          "tier": "LOSERS_CONSOLATION_LADDER",
+          "team1_home": true
+        }
+      ],
+      "fictional_consequence": "Jake's Weeks 15-17 encounters remain in the losers' consolation ladder; Eggs Benedict wins the independent title; a temporary thirty-night fictional civic order leaves continuing obligations.",
+      "historical_venue_status": "PROPOSED_UNAPPROVED",
+      "passage_words": 888
+    }
+  ],
+  "additional_verified_event_anchors": [
+    {
+      "week": 1,
+      "home_team_id": 9,
+      "away_team_id": 7,
+      "home_team_name": "El Niño",
+      "away_team_name": "The Blew Waffle's",
+      "home_points": "178.70",
+      "away_points": "86.86",
+      "winner": "HOME",
+      "tier": "NONE"
+    },
+    {
+      "week": 2,
+      "home_team_id": 2,
+      "away_team_id": 8,
+      "home_team_name": "Red Leopards",
+      "away_team_name": "Benedict Arnold",
+      "home_points": "157.80",
+      "away_points": "137.14",
+      "winner": "HOME",
+      "tier": "NONE"
+    },
+    {
+      "week": 14,
+      "home_team_id": 11,
+      "away_team_id": 2,
+      "home_team_name": "Arm Chair GM",
+      "away_team_name": "Red Leopards",
+      "home_points": "165.36",
+      "away_points": "136.44",
+      "winner": "HOME",
+      "tier": "NONE"
+    },
+    {
+      "week": 15,
+      "home_team_id": 2,
+      "away_team_id": 4,
+      "home_team_name": "Red Leopards",
+      "away_team_name": "The LLC",
+      "home_points": "149.38",
+      "away_points": "117.91",
+      "winner": "HOME",
+      "tier": "WINNERS_BRACKET"
+    },
+    {
+      "week": 16,
+      "home_team_id": 2,
+      "away_team_id": 12,
+      "home_team_name": "Red Leopards",
+      "away_team_name": "Eggs Benedict ",
+      "home_points": "149.84",
+      "away_points": "214.52",
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET"
+    },
+    {
+      "week": 17,
+      "home_team_id": 11,
+      "away_team_id": 12,
+      "home_team_name": "Arm Chair GM",
+      "away_team_name": "Eggs Benedict ",
+      "home_points": "140.76",
+      "away_points": "192.88",
+      "winner": "AWAY",
+      "tier": "WINNERS_BRACKET"
+    }
+  ],
+  "source_caveats": [
+    "Archived Flaim extract does not include raw ESPN payload SHA or verified historical human ownerName/teamOwners",
+    "Postseason weeks contain both bracket and unpaired rows: an UNDECIDED unpaired row is not a scored head-to-head win",
+    "Fictional Gallery renewal and its laws are invented and Atlas-unapproved",
+    "2023 team names named Benedict do not establish a shared real human owner or family connection",
+    "No verified draft grades, real trades, injuries or transaction causes asserted"
+  ],
+  "source_gaps": [
+    "Historical Team 1 human owner remains user-attested candidate only",
+    "No year-2023 approved Atlas packet for Night Registry or Gallery",
+    "Independent literary/Umpire review missing",
+    "Full six-matchup-by-week Chronicle not supplied by this selective chapter"
+  ],
+  "omitted_event_ledger": "All 105 archived weekly rows retained upstream. 17 Team 1 row anchors and 6 other source fixture anchors are included; 82 remaining records are offstage, not erased or transformed into claimed fiction.",
+  "notes": "Only Jake is the proposed principal limited POV; Tavi, Lenna, the deputy and other invented civilians have dialogue/agency without a separate internal POV. The four Benedict banner collision is an authorial juxtaposition of source names, not historical kinship. El Niño is not personified. No 2024 knowledge appears before its season.",
+  "full_history_claim": false,
+  "independent_editorial_acceptance": false,
+  "independent_umpire_acceptance": false,
+  "founder_canon_promotion": false,
+  "canonical_merge": false,
+  "publication_authorized": false
+}

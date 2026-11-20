@@ -1,0 +1,143 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-ELEVEN-VOICE-WILSON-ROAD",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "repos": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "observed_main": {
+    "schemin": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "reconciliation": {
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": [
+      188,
+      243,
+      252,
+      261,
+      264
+    ],
+    "current_pr": 243,
+    "branch": "novel/historical-epic-2015-2026",
+    "draft": true,
+    "merged": false,
+    "previous_head": "0de13b9b1e2cf57fe06a887ef890b17aad888333",
+    "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261102-2025-TEN-VOICE-JORDAN-BELL.json"
+  },
+  "selected_task": "Eleventh distinct 2025 historical owner-character viewpoint with source-bound league facts and material road-watch consequences of Jordan/Kevin chapters; repair inherited recorded two-hour Jordan wage obligation without inventing toll rights or structural safety.",
+  "source_constraints": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "canon/characters/CHARACTER_REGISTRY.yaml",
+    "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "canon/characters/CHAR-WILSON-LOOK/PACKAGE.md",
+    "living-novel/characters/05_WILSON_LOOK.md",
+    "living-novel/historical-chronicle/evidence/2025_FLAIM_TEAM_SLOT_AND_PODIUM_READBACK_2026-11-01_REVIEW_ONLY.md",
+    "jakekaloper-hub/bullpen/BULLPEN.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  ],
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_NO_BANNER_COULD_OWN_WILSON_2025_NONCANON.md",
+    "chapter_git_blob": "b737814a6049175ad15ea354cd6e2f44e449f75b",
+    "chapter_words_including_metadata": 5594,
+    "movements": 6,
+    "reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_ELEVEN_VOICES_NONCANON.md",
+    "reader_git_blob": "d3cd39a5ffc79bd7d728f35615c1bc155718d161",
+    "source_count": 11,
+    "original_source_words_including_metadata": 54263,
+    "prior_reader_git_blob": "ddb10bd2e028410a3240f09fcfcc1a00bd04c314",
+    "regression": "living-novel/historical-chronicle/qa/test_2025_eleven_voices_reader.py",
+    "new_regression_count": 30,
+    "editorial_qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_NO_BANNER_COULD_OWN_WILSON_EDITORIAL_SOURCE_QA_2026-11-02.md",
+    "workflow": ".github/workflows/novel-os-ci.yml"
+  },
+  "historical_truth": {
+    "league_id": 1417621,
+    "season": 2025,
+    "team_slot": 5,
+    "team": "Baker Moore Purdy",
+    "regular_record": "9-5",
+    "final_rank": 5,
+    "postseason": "eliminated",
+    "human_manager_id": "UNKNOWN",
+    "character": "CHAR-WILSON-LOOK",
+    "owner_binding": "PROVISIONAL_FICTIONAL_ASSOCIATION",
+    "period_body": "PROPOSED_NONCANON"
+  },
+  "fiction_state": {
+    "input": "Kevin watch floor absent, Jordan rain relay failed, second wagon stalled, Jordan follower wages 2 hours outstanding, Ossa watch wages outstanding, unproven toll, unidentified three figures.",
+    "consequences": [
+      "Wilson's ceremonial traveling platform dismantled for temporary road bearing supports",
+      "first hand-sledge trial fails; revised one-wagon crossing succeeds under consent and inspection, later brace cracks, no general safe-route claim",
+      "Jordan's own documented two hours of wages paid through hinge sale and purse, witnessed; no transfer of debt to Wilson",
+      "Wilson's own workers paid and equipment transport altered; the first removed watch floor is not restored"
+    ],
+    "unresolved": [
+      "Kevin's watch structural restoration",
+      "Ossa's watch-related wages",
+      "Disputed road toll authority",
+      "Cracked temporary bearing mat and longer-term road repair",
+      "Unidentified three figures",
+      "Kitchen fuel, wage/governance and supplier obligations",
+      "Historical human manager-owner binding for 2025",
+      "2016 72 consecutive Jake-limited chapters"
+    ]
+  },
+  "observed_testing": {
+    "initial_ci_commit": "675f6ac8b1e7efa60b220f5a6855c84534067353",
+    "initial_novel_os_run": 41416029255,
+    "initial_novel_os": "FAIL: 29/30 pass, one over-literal wording assertion expected not rather than never; manuscript text remained correct",
+    "test_only_repair_commit": "97d4256263950b0c114e5705dd910e5a3dbf46d7",
+    "post_repair_exact_sha_workflows": {
+      "novel_os": {
+        "run": 41416287590,
+        "conclusion": "SUCCESS",
+        "new_tests": "30/30 PASS confirmed in GitHub Actions job logs"
+      },
+      "cross_domain": {
+        "run": 41416287370,
+        "conclusion": "SUCCESS"
+      },
+      "bullpen_runtime": {
+        "run": 41416287485,
+        "conclusion": "SUCCESS"
+      },
+      "merge_gate": {
+        "run": 41416287539,
+        "conclusion": "SUCCESS"
+      }
+    },
+    "post_repair_editorial_commit": "ecfa546a1b793a094236a1de076e2bbac52287c7",
+    "final_checkpoint_commit_ci": "PENDING_EXACT_HEAD_INSPECTION",
+    "protection_assertions": "Passed at repaired source-preserving SHA",
+    "review_request_comment_id": 6573006302,
+    "independent_acceptance": "NOT_RECEIVED"
+  },
+  "review_holds": [
+    "Historical manager ID unknown",
+    "Historical period-specific anatomy and equipment not independently certified",
+    "Physical road engineering, Atlas and legal authority fictional only",
+    "Independent literary, librarian, Character/Atlas, Umpire acceptance not received",
+    "Founder-only canon, merge and publication gates closed"
+  ],
+  "no_merge": true,
+  "no_canon_promotion": true,
+  "no_publication": true,
+  "next": [
+    "Inspect exact checkpoint SHA and all four required workflows; diagnose observed failures, not just assumptions.",
+    "Check whether any actual independent reviews were submitted to PR #243; request-comment alone is no approval.",
+    "Next owner-character literary candidate Manning Welty / El Niño: elemental weather POV only, strictly no humanization, no invented 2025 manager linkage or meteorological fact.",
+    "After twelve-voice breadth, address structural coherence and 2016 seventy-two Jake-only chapters via validated noncanonical owner views and independently editorial challenge.",
+    "Preserve all four hard 2026 opening chapter blobs and prior 2025 readers."
+  ]
+}

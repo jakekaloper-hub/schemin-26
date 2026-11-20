@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-04",
+  "kind": "HISTORICAL_SAGA_2016_CH44_V2_PRODUCTION_PENDING_CI",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "base_head": "026b194163d3d2cdf441d69282c6ecc001dc2002",
+  "original_source_blob": "e3250efd8dbc4df8a1dceba6b663d1f45159aaf3",
+  "prior_reader_blob": "0519fc6ef7f81787acb2a239fc9072c5dfb62beb",
+  "literary_output": {
+    "title": "The Floor That Could Be Lifted — The Boot at the Threshold",
+    "scene_words": 2364,
+    "revised_chapter_source_words_incl_metadata": 8545,
+    "reader_parts": 41,
+    "reader_component_source_words_incl_metadata": 316215,
+    "preceding_parts_preserved": 40
+  },
+  "new_blobs": {
+    "scene": "cfff217578f1504f203d4161ebe7cb3e9387828f",
+    "revised": "d450ee2b725201f6d1660613b5880450f63c62d6",
+    "reader": "b8ea32a932cfeeebc0f5f359ed90eed0a776918d",
+    "tests": "da04de65602935caa9e78fbd5ea6d688dae048bf",
+    "editorial": "cd98ba53d5dce3bbbdffc7538e0ef1802576a3cb"
+  },
+  "checks_local": {
+    "original_movement_text_byte_preserved": true,
+    "inserted_scene_occurrences": 1,
+    "seven_movement_headings": true,
+    "manifest_rows": 41,
+    "source_exact_reader_41_embed_markers": true,
+    "ci_status": "NOT_YET_OBSERVED",
+    "independent_umpire": "NOT_OBSERVED"
+  },
+  "restrictions": {
+    "protected_2026_chapters_unmodified_in_tree": true,
+    "historical_evidence_unmodified_in_tree": true,
+    "owner_2016_authenticated": false,
+    "period_atlas_approved": false,
+    "author_council_accepted": false,
+    "independent_umpire_accepted": false,
+    "founder_publication_approved": false,
+    "canon_promoted": false,
+    "merged": false
+  },
+  "next": "Observe exact-production-commit Novel OS / Bullpen / Authority / Merge Gate CI; correct failures with evidence if needed. Request independent reviewer and Umpire review on PR #243 and Bullpen issue #117. Then Chapter XLV (The Road That Would Not Wait), preserving musician Veyra's arrival and Sela's family autonomy."
+}

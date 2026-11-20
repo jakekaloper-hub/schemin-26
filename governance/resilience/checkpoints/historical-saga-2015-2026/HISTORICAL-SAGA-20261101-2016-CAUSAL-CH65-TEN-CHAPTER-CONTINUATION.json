@@ -1,0 +1,118 @@
+{
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "date_utc": "2026-11-01",
+  "status": "CHAPTER_65_TECHNICALLY_VERIFIED_NONCANON_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "previous_checkpoint_commit": "52c13fc32264c7e79e7eaa291bd47c3d8e89bdd9",
+  "authority": {
+    "schemin_main_sha_read": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_sha_read": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "session_router": "living-novel/os/SESSION_CONTEXT.md",
+    "architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "pre_prose": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "pov_registry": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "issues_open": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT",
+      "264": "OPEN_DRAFT",
+      "267": "OPEN_DRAFT"
+    },
+    "owner_binding": "NOT_PROVIDER_AUTHENTICATED",
+    "POV_migration": "P0_UNRESOLVED"
+  },
+  "literary": {
+    "chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROAD_WITH_NO_WHEELS_CHAPTER_65_NONCANON.md",
+    "chapter_blob_sha": "7cba39c259874917a6b31ded8ca0bde7d2c07b5e",
+    "chapter_whitespace_words": 5098,
+    "scene_body_words": 4766,
+    "movements": 6,
+    "title": "The Road with No Wheels",
+    "continuation_reader": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_56_65_NONCANON.md",
+    "reader_blob_sha": "e5c128ef7c7a9a2c4348de7846727a099c12ba7f",
+    "reader_whitespace_words": 52100,
+    "reader_scope": "TEN SOURCE-EXACT CHAPTERS LVI–LXV; NOT A 65-CHAPTER MONOLITH",
+    "predecessor_reader_blob_sha": "35876dc97fac32ca33984ead06f618dedc5cbedf",
+    "first_55_reader_blob_sha": "a21bbcbc7268e6523378097aa60d62e1c85bed35",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_65_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "qa_blob_sha": "35dbbf054700984a4f031d96828c00e2dd6f2716",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_sixty_five_reader.py",
+    "test_blob_sha": "46644ae5f9eab7c90c300ac2cafdf5c092f3a7fe",
+    "new_regression_tests": 36
+  },
+  "evidence": {
+    "tested_branch_commit": "b01096269051d444f2a25bfc934b84347a81e858",
+    "novel_os_ci": {
+      "run": 41317624929,
+      "job": 124880927938,
+      "status": "SUCCESS",
+      "log": "Ran 1213 tests in 4.596s",
+      "test_glob": "test_2016_causal_chapter*reader.py"
+    },
+    "cross_domain_ci": {
+      "run": 41317624881,
+      "status": "SUCCESS"
+    },
+    "bullpen_runtime_ci": {
+      "run": 41317624888,
+      "status": "SUCCESS"
+    },
+    "merge_gate_ci": {
+      "run": 41317624865,
+      "status": "SUCCESS"
+    },
+    "four_workflows_on_tested_commit": "PASS",
+    "test_source_exact": "PASS_VIA_PINNED_ASSERTIONS_AND_CI",
+    "compare_base": "52c13fc32264c7e79e7eaa291bd47c3d8e89bdd9",
+    "compare_head": "b01096269051d444f2a25bfc934b84347a81e858",
+    "compare_four_added_no_modified_deleted": "VERIFIED",
+    "independent_review_request_comment_id": 6559470116,
+    "independent_reviews_submitted": 0,
+    "checkpoint_commit_ci": "PENDING_EXACT_HEAD_CHECK",
+    "external_netlify": "NOT_RECHECKED"
+  },
+  "causal_state": {
+    "entry": "Dovan has an injured leg; Hessa remains absent; seven missing; cart without collar, Fara trough untrusted, Ilyen warning uncertain, Nella completed avowed fiction and Jake owes Meric a peg.",
+    "action": "Dovan attempts a short voluntary walk to Fara; obstruction forces negotiation rather than forced assistance. He later asks Tovin for an arm on his own terms. Ilyen tests spoken warning for listener comprehension but has not delivered it outside settlement.",
+    "exit": "Dovan returns and chooses next-day rest; no medical clearance, reunion, search success, forgiven misconduct, cart release, accurate distant route or league outcome created. Jake continues peg work."
+  },
+  "protections": {
+    "exclusive_proposed_pov": "CHAR-JAKE-KALOPER",
+    "consecutive_Jake_limited_2016_chapters": 65,
+    "other_2016_owners": "UNAUTHENTICATED_NO_NEW_INTERIOR_POV",
+    "protected_2026_blobs": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "archived_2016_evidence_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "independent_umpire": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "historical_atlas_character_approval": "NOT_ACCEPTED",
+    "founder_canon": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "next": [
+    "Read back four workflows at THIS checkpoint commit; tested branch commit has four successes and 1213/1213 causal-reader tests.",
+    "Request substantive independent Authors Council, Historical Librarian, Character, Atlas, Umpire evaluation of actual Chapter LXV; PR comment is a request only, not acceptance.",
+    "Prioritize historical 2016 owner-to-principal-character binding and 65-Jake-chapter structural correction; do not guess missing authenticated mappings or allow other principal interior viewpoints.",
+    "If still blocked on bindings, produce Chapter LXVI with a materially different consequential dramatic spine; avoid repeated consent, cart, property, performance or ash-water arcs.",
+    "Preserve original 55-chapter manuscript, all prior individual chapters and protected 2026 Prologue through III unchanged. Keep draft PR #243 unmerged and noncanonical."
+  ]
+}

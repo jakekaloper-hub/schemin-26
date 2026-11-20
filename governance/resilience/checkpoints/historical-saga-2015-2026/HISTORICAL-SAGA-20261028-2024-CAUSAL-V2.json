@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "checkpoint_id": "HISTORICAL-SAGA-20261028-2024-CAUSAL-V2",
+  "date_utc": "2026-10-28",
+  "project": "Schemin '26",
+  "repo": "jakekaloper-hub/schemin-26",
+  "counterpart_repo": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "status": "PARTIAL_COMPLETION_CONTINUE",
+  "prior_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261028-2025-DUCKHOOK-V3.json",
+  "task_authority": [
+    "#210",
+    "#211",
+    "#214",
+    "#215",
+    "#219"
+  ],
+  "resolved_control_law": {
+    "main_source_matrix_sha": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "main_task_registry_sha": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "main_historical_event_sha": "9ac3eb65a621399d2cd4bf6600c11680a87ebb20",
+    "bullpen_command_sha": "cccf90a3cadac802767988ceab8f44453aa86819",
+    "bullpen_lifecycle_sha": "710caca4e4a01c934bdc53f22229acced48a2d78"
+  },
+  "decision": "Continue source-cleared 2024 Jake/title fictional aftermath in existing draft PR #243, rather than expanding disputed 2022 Kevin event POV or upgrading 2025 four-owner collection to accepted chapter; 2025 V2 and V3 preserved.",
+  "literary_output": {
+    "new_story": "The Names Not on the Receipt",
+    "new_story_words": 2440,
+    "new_story_blob_sha": "796acbf89c155a0ae989d6afbcd3e26942c2a588",
+    "new_story_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_NAMES_NOT_ON_THE_RECEIPT_NONCANON.md",
+    "new_story_kind": "original_noncanonical_fiction",
+    "new_causal_reader": "The Door After the Crown — 2024 Causal Reading Candidate V2",
+    "combined_words_including_frontmatter": 4684,
+    "combined_blob_sha": "8afbe2504ff46084edccd9d18ab68338164675db",
+    "combined_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/THE_DOOR_AFTER_THE_CROWN_CAUSAL_READING_CANDIDATE_V2_NONCANON.md",
+    "five_scenes": true,
+    "principal_povs": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "original_2024_four_scene_bodies_retained": true
+  },
+  "updated_metadata": {
+    "scene_register_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/SCENE_REGISTER_V2.json",
+    "scene_register_blob_sha": "ec813ea20f052be6d529c250ccdd86857d3402a3",
+    "test_path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2024_title_v2.py",
+    "test_blob_sha": "b417b689995c3e4e9f6b2a543dee0d1880aaa2dd",
+    "review_receipt_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2024-title/TITLE_V2_SOURCE_EDITORIAL_AND_QA_RECEIPT_2026_10_28.md"
+  },
+  "source_scope": {
+    "season": 2024,
+    "source_event_id": "HIST-2024-CHAMPIONSHIP-1",
+    "certified_result": "ObiWan Jacoby 187.52 vs The King 161.68",
+    "fictional_owner_association": "Jake licensed through hard-canon manuscript",
+    "historical_human_owner_identity": "UNKNOWN",
+    "historical_venue": "PROPOSED_UNAPPROVED",
+    "source_type": "historical_repository_provider_transcription_not_new_raw_ESPN_refetch"
+  },
+  "tests": {
+    "exact_code_head": "04c6b1a5f2c17eceeaa989979618c997d3dcaaf7",
+    "novel_os": {
+      "run_id": 40788466658,
+      "job_id": 123167450484,
+      "conclusion": "success",
+      "explicit_2024_validator_step": "success",
+      "test_cases_declared": 8
+    },
+    "cross_domain": {
+      "run_id": 40788466680,
+      "conclusion": "success"
+    },
+    "bullpen_runtime": {
+      "run_id": 40788466739,
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "run_id": 40788466718,
+      "conclusion": "success"
+    },
+    "scope_note": "All workflow statuses observed for code head before later documentary/checkpoint commits; no untested SHA called green."
+  },
+  "protected_main_match": {
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "review": {
+    "independent_review_status": "REQUESTED_NOT_ACCEPTED",
+    "pr_comment_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6483557674",
+    "observed_pr_review_submissions": 0,
+    "self_editorial_risks": [
+      "Invented property/ceremonial inventory remains proposed, not real-world fact.",
+      "Repeated thematic explanation / doors motif may require line edit.",
+      "Sorel 2024-to-2025 continuity is unapproved connective fiction.",
+      "Historical LOC-LEAGUE-CHAMBER acceptance unproven."
+    ]
+  },
+  "release_gates": {
+    "canon_promotion": "FOUNDER_ONLY_HOLD",
+    "merge": "NO",
+    "publication": "NO",
+    "independent_umpire": "NO_ACCEPTANCE",
+    "atlas_historical_venue": "HOLD",
+    "external_financial_consequence": "NONE"
+  },
+  "next_actions": [
+    "Read PR #243 fresh and independent review status; address concrete review findings if received.",
+    "Perform independent scene-level counterreading of 2024 V2, reduce explanatory repetition and verify Sorel/Teren staging without violating source facts.",
+    "Keep 2025 V3 four-POV manuscript a reading collection; 2025 V2 three-POV candidate remains available. Do not silently promote or collapse them.",
+    "If V2 2024 literary review is blocked, advance another source-cleared principal POV writing lane and stage substantial fiction rather than additional plans.",
+    "Preserve protected main prose; no automatic merge or owner approvals."
+  ]
+}

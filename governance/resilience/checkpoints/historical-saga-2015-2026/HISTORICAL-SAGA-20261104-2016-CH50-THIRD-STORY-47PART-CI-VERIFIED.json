@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "date": "2026-11-04",
+  "mission": "Commonwealth Novel Production / standing Founder-authorized Bullpen mandate",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "main_at_intake": "7cd546eaca96ac48f1b47ce3fb94342fb13c0fd1",
+  "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "prior_verified_production_sha": "5a8bb440f99f66f9869f088ff682aad02c14bc9f",
+  "prior_checkpoint_sha": "65526549ff1b2288df535490d42a813644642840",
+  "verified_production_sha": "d9d0cdb354431b6762a415c1fc9695f785688df4",
+  "author_qa_receipt_commit": "b935319989f6ab40356177aeb7faea159c2bf41e",
+  "literary": {
+    "chapter_number": 50,
+    "title": "The Night Below the Room — The Third Story",
+    "original_filename": "THE_NIGHT_BELOW_THE_ROOM_CHAPTER_50_NONCANON.md",
+    "original_git_blob": "920d3fda6c9f366d9c56e45745b8db117c8e3fa8",
+    "original_source_words_including_notes": 5637,
+    "scene_filename": "THE_NIGHT_BELOW_THE_ROOM_THE_THIRD_STORY_CH50_V2_SCENE_NONCANON.md",
+    "scene_git_blob": "5e5eccb5234e4aae1e276579dac1dbf8487dd227",
+    "new_original_scene_words": 2376,
+    "revised_filename": "THE_NIGHT_BELOW_THE_ROOM_THE_THIRD_STORY_CH50_V2_NONCANON.md",
+    "revised_git_blob": "94e81f9b84a6300a40d108935d26e25f2f5acfac",
+    "revised_source_words_including_notes": 8347,
+    "original_six_movement_bodies_preserved": true,
+    "pov": "proposed fictional Jake sole limited interior; historical owner binding not provider-authenticated",
+    "source_consistency_repair": "Removed same-afternoon Meric inspection in draft; original Chapter L requires first-light next-day return.",
+    "historical_scores_or_owner_identities_invented": false
+  },
+  "manuscript": {
+    "parts": 47,
+    "coverage": "I–L",
+    "component_source_words_including_notes": 363606,
+    "preceding_46_components_preserved": true,
+    "builder": "living-novel/historical-chronicle/qa/build_2016_causal_47_part_third_story_reader.py",
+    "full_reader_committed_to_git": false,
+    "regenerable_from_source": true,
+    "artifact_name": "commonwealth-2016-47part-third-story-developmental-reader-noncanon",
+    "artifact_id": 13332268024,
+    "artifact_size_bytes": 737036,
+    "artifact_expires_at": "2026-11-11T14:40:10Z",
+    "artifact_workflow_run_id": 41849747916
+  },
+  "tests": {
+    "suite": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_fifty_third_story_v2_reader.py",
+    "dedicated_tests_pass": 22,
+    "failed": 0,
+    "protected_2026_prologue_chapters_I_III_locked_by_git_blob": true,
+    "historical_2016_archive_locked_by_git_blob": true,
+    "preceding_46_part_source_exact": true,
+    "reader_47_part_source_exact": true,
+    "github_ci_log": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41849747916"
+  },
+  "workflows": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41849747916,
+      "event": "push",
+      "head_sha": "d9d0cdb354431b6762a415c1fc9695f785688df4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41849767065,
+      "event": "pull_request",
+      "head_sha": "d9d0cdb354431b6762a415c1fc9695f785688df4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41849747501,
+      "event": "push",
+      "head_sha": "d9d0cdb354431b6762a415c1fc9695f785688df4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41849767022,
+      "event": "pull_request",
+      "head_sha": "d9d0cdb354431b6762a415c1fc9695f785688df4",
+      "conclusion": "success"
+    }
+  ],
+  "independent_reviews": {
+    "submitted_pr_reviews_at_verification": 0,
+    "authors_council": "NOT_RECEIVED",
+    "historian": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "character_canon": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder_release": "NOT_RECEIVED",
+    "review_requested_pr_comment_id": 6633559346,
+    "review_requested_bullpen_issue_117_comment_id": 6633560469
+  },
+  "gates": {
+    "historical_2016_manager_account_authentication": "INCOMPLETE",
+    "period_atlas_locations": "UNAPPROVED FICTION",
+    "pov_owners_12_exclusive": true,
+    "consecutive_jake_centered_historical_chapters": "ARCHITECTURAL_REVIEW_REQUIRED",
+    "external_financial_or_irreversible_actions": "NONE AUTHORIZED"
+  },
+  "release": {
+    "noncanon": true,
+    "draft_pr": true,
+    "merged": false,
+    "canon_promoted": false,
+    "published": false
+  },
+  "next": "Resume existing PR #243 at current exact head; reread current main, source matrix, durable state and any actual independent review. Priority: Chapter LI What the Six Could Not Carry, six travelers reunite before first light after stair collapse; two will depart again, damaged shared cart remains jointly owned, Ina can offer only a costly second lower-floor night. Source original WHAT_THE_SIX_COULD_NOT_CARRY_CHAPTER_51_NONCANON.md Git blob 6a431144823bc64973f0b57ee5d05f7f1f20cc25. Preserve original movements and add substantial noncanon fiction; source-exact 48-part reader. Do not invent 2016 score/owner evidence, factual kinship, period geography, qualified medical diagnosis or unapproved POV.",
+  "checkpoint_note": "All four required CI success claims apply only to the exact verified production commit d9d0cdb...; subsequent receipt/checkpoint commits must be read back and tested separately before claiming same-SHA success. Independent editorial acceptance remains pending."
+}

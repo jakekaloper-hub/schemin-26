@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "task_title": "Commonwealth Novel Autonomous End-to-End Production",
+  "checkpoint_id": "HISTORICAL-SAGA-20261028-2025-PITTS-V2",
+  "date_utc": "2026-10-28",
+  "project": "Schemin '26",
+  "execution_result": "NONCANON_MANUSCRIPT_PRODUCED_AND_ASSEMBLED_WITH_LOCAL_READBACK_CHECKS",
+  "repo": "jakekaloper-hub/schemin-26",
+  "counterpart_repo": "jakekaloper-hub/bullpen",
+  "bullpen_command": "mission/resume/execute/test/audit/handoff",
+  "active_pr": 243,
+  "branch": "novel/historical-epic-2015-2026",
+  "resume_existing": true,
+  "write_commit_before_checkpoint": "82204d289cb76ed031f7e552f48bada5a7606321",
+  "source_authorities": [
+    {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "ref": "main",
+      "git_blob_sha": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    {
+      "path": "governance/execution-control/TASK_REGISTRY_V1.json",
+      "ref": "main",
+      "git_blob_sha": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+      "note": "Registered Novel-NEXT-002 stale/blocked by MEMO-W4-002; this historical literary lane is not registered as a completed task."
+    },
+    {
+      "path": "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+      "ref": "main",
+      "git_blob_sha": "9ac3eb65a621399d2cd4bf6600c11680a87ebb20",
+      "raw_provider_refetch_this_run": false
+    },
+    {
+      "path": "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+      "ref": "main",
+      "git_blob_sha": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "protected": true
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY.md",
+      "ref": "novel/historical-epic-2015-2026",
+      "git_blob_sha": "df32636688a4af75c9df3368610c49b0acba24ae",
+      "modified": false
+    }
+  ],
+  "outputs": [
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_STANDARD_HE_WOULD_NOT_BURN_PITTS_NONCANON.md",
+      "git_blob_sha": "e8b5da26602fca24d2d52c20c9a38fd1a838dc16",
+      "whitespace_words": 2780,
+      "type": "new_history_fiction",
+      "status": "NONCANON"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/THE_PLACE_LEFT_EMPTY_EXPANDED_V2_NONCANON.md",
+      "git_blob_sha": "bcacc25f638e114f922075846fe4220b8cfd09a7",
+      "whitespace_words": 7288,
+      "scenes": 8,
+      "principal_pov_order": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-JAKE-KALOPER",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-JAKE-KALOPER",
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "status": "NONCANON"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/PITTS_V2_SOURCE_EDITORIAL_AND_QA_RECEIPT_2026_10_28.md",
+      "status": "SELF_AUDIT_NOT_INDEPENDENT"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2025_reckoning_v2.py",
+      "git_blob_sha": "b448419746edc3e7a4f3c5f329e747e55baf64c8",
+      "type": "focused_repository_regression",
+      "status": "COMMITTED_NOT_YET_EXECUTION_VERIFIED"
+    },
+    {
+      "path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/PITTS_V2_EXACT_CODE_HEAD_GITHUB_CI_READBACK_2026_10_28.md",
+      "type": "exact_code_head_ci_readback",
+      "status": "GITHUB_ACTIONS_VERIFIED_SUCCESS_WITH_NETLIFY_HOLD"
+    }
+  ],
+  "technical_checks": {
+    "type": "deterministic_GitHub_connector_readback",
+    "count": 13,
+    "passed": 13,
+    "local_executable_tests_run": false,
+    "independent_umpire_accepted": false,
+    "previous_original_seven_scene_bodies_exact": true,
+    "all_three_historical_2025_postseason_results_matched": true,
+    "no_protected_manuscript_changes_to_original": true,
+    "caveat": "This is not GitHub Actions CI; a strict phrase-based disclaimer test was corrected and rerun against explicit venue wording."
+  },
+  "source_event_ids": [
+    "HIST-2025-SEMIFINAL-1",
+    "HIST-2025-SEMIFINAL-2",
+    "HIST-2025-CHAMPIONSHIP-1"
+  ],
+  "binding_scope": "hard_fiction_character_association; raw_historical_human_owner_fields_UNKNOWN",
+  "historical_venue": "PROPOSED_UNAPPROVED",
+  "founder_only_gates": [
+    "any canon replacement",
+    "public release",
+    "irreversible change",
+    "financial commitment"
+  ],
+  "independent_review": "NOT_YET_ACCEPTED",
+  "state": "PARTIAL_COMPLETION_CONTINUE",
+  "next_actions": [
+    "Independent Umpire/editorial and historical-Atlas acceptance remain HOLD despite seven focused tests and four successful code-head workflows; failed Netlify preview requires separate handling.",
+    "Request independent Umpire/editorial assessment of PR #243 eight-scene V2, including Phill 2023 burden/2025 temporal placement.",
+    "Add a scoped versioned scene register and eligible dedicated validation without loosening existing Jake/Austin historical source gate.",
+    "If an independent review finds new Pitts scene slows final sequence, split as a separate companion piece; preserve source-bound original 2025 chapter.",
+    "Continue source-cleared historical prose, not wholesale owner inferences, and independently verify any new event details before admitting them."
+  ],
+  "active_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "related_prs": [
+    188,
+    220,
+    243,
+    252,
+    261,
+    264
+  ],
+  "no_canon_promotion": true,
+  "no_merge": true,
+  "no_publication": true,
+  "no_personified_elemental_pov": true,
+  "test_contract": {
+    "status": "VERIFIED_SUCCESS_ON_EXACT_CODE_HEAD",
+    "test_path": "living-novel/production/historical-saga/approved-mission-2015-2026/review/test_2025_reckoning_v2.py",
+    "test_git_blob_sha": "b448419746edc3e7a4f3c5f329e747e55baf64c8",
+    "workflow_path": ".github/workflows/novel-os-ci.yml",
+    "workflow_git_blob_sha": "bfd6ebe5aa186343fdd8c60e138cfaa5faaa4141",
+    "test_invocation": "python -m unittest discover -s living-novel/production/historical-saga/approved-mission-2015-2026/review -p 'test_2025_reckoning_v2.py' -v",
+    "observed_command_result": "7 tests OK in GitHub Actions job 123118056908 at code head 9b2660c548ad145ab86a9bfcce21e2ba918cc9d9",
+    "last_source_code_head": "9b2660c548ad145ab86a9bfcce21e2ba918cc9d9",
+    "scope": "Seven targeted unittest cases; canonical source comparison, exact scene preservation, owner and story-time guards. No independent literary or Umpire review.",
+    "exact_tested_head": "9b2660c548ad145ab86a9bfcce21e2ba918cc9d9",
+    "github_actions": {
+      "novel_os_ci": {
+        "run_id": 40773908274,
+        "job_id": 123118056908,
+        "status": "completed",
+        "conclusion": "success",
+        "named_step": "Validate 2025 historical Pitts eight-scene candidate (noncanon)",
+        "test_count": 7,
+        "result": "OK"
+      },
+      "cross_domain_authority_ci": {
+        "run_id": 40773908071,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "run_id": 40773908130,
+        "conclusion": "success"
+      },
+      "bullpen_runtime_ci": {
+        "run_id": 40773907959,
+        "conclusion": "success"
+      }
+    },
+    "release_preview_status": {
+      "context": "netlify/scheminnovel/deploy-preview",
+      "state": "failure",
+      "at_code_head": "9b2660c548ad145ab86a9bfcce21e2ba918cc9d9"
+    },
+    "ci_receipt_path": "living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2025-reckoning/PITTS_V2_EXACT_CODE_HEAD_GITHUB_CI_READBACK_2026_10_28.md",
+    "ci_caveat": "These are exact code-head CI outcomes; later documentation/checkpoint commits were not separately claimed as tested. No independent editorial/Umpire acceptance."
+  }
+}

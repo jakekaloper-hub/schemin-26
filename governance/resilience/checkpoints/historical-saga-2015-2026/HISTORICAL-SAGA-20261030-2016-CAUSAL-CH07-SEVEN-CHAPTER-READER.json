@@ -1,0 +1,174 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH07-SEVEN-CHAPTER-READER",
+  "version": "1.0",
+  "project": "Commonwealth Novel / Schemin '26",
+  "workflow": "historical-saga-2015-2026",
+  "stage": "2016 causal Chapter VII and seven-chapter source-exact noncanon reader",
+  "timestamp": "2026-10-30 America/New_York (specific commit times in GitHub)",
+  "status": "NONCANON_DRAFT_TECHNICALLY_VERIFIED_AT_TESTED_HEAD_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "owner": "Founder-authorized GitHub draft operator; independent authenticated Bullpen Director sessions NOT VERIFIED",
+  "reviewer": "Authors Council / Character / Atlas / Librarian / independent Umpire requested, NOT accepted",
+  "predecessor": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261029-2016-CAUSAL-CH05-06-SIX-CHAPTER-READER.json",
+  "source_authority": {
+    "project_mission": "SCHEMIN_26_PROJECT_MISSION.md",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md",
+    "novel_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "causal": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "POV": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md, supersession notice; twelve_owner_rewrite_gate.py controls",
+    "task_state": "governance/execution-control/TASK_REGISTRY_V1.json (novel task statuses may be stale; PR #261 unmerged)",
+    "bullpen_command": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "related_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "other_prs_reconciled": [
+      188,
+      252,
+      261
+    ]
+  },
+  "source_fingerprints": {
+    "historical_2016_G01_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "six_chapter_previous_reader_blob": "21f750ebfce30f3f8b80e1ef326a47e84598a9d2",
+    "chapter_07_blob": "419e7f6775d0205cf1b49dba5629500245ac59a8",
+    "previous_chapter_blobs": [
+      "d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "756126cb4e151a0bd78ece39ab59a4c54ef2aa43",
+      "f9bf0721c989d30bfd09189388b93293ba3a8ce0",
+      "8994f9e443a6313dee217dfd5f92aedeff7bd88c",
+      "40d12860e93d9393b18d7771c427061c82e46c8c",
+      "4e3d655895847e9910b7e8c69349fb2b09c94b4b"
+    ],
+    "protected_2026_main_equals_branch": {
+      "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "outputs": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_YARD_WHERE_THE_WHEEL_STOOD_STILL_CHAPTER_07_NONCANON.md",
+      "words": 4989,
+      "git_blob": "419e7f6775d0205cf1b49dba5629500245ac59a8"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_07_NONCANON.md",
+      "words_including_metadata": 31170,
+      "components": 7,
+      "source_exact_test": "PASS at tested commit"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_07_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "status": "author self challenge not independent review"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_seven_reader.py",
+      "test_methods": 11
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "change": "new explicit Chapter VII validation step"
+    }
+  ],
+  "verification": {
+    "exact_tested_content_commit": "487f43c31d0d7dad95259f156ed5a2d9f95e5cd1",
+    "observed_pull_request_workflow_runs": {
+      "Novel_OS_CI": {
+        "id": 41003915059,
+        "status": "completed",
+        "conclusion": "success",
+        "tests_added": 11
+      },
+      "Cross_Domain_Authority_CI": {
+        "id": 41003915032,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      "Bullpen_Runtime_CI": {
+        "id": 41003914999,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      "Repository_Merge_Gate": {
+        "id": 41003915052,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    },
+    "observed_initial_failures": [
+      {
+        "id": 41003717254,
+        "status": "failure",
+        "reason": "test phrase expected lowercase `the singer` but manuscript uses sentence-initial `The singer`; test corrected only"
+      },
+      {
+        "id": 41003834077,
+        "status": "failure",
+        "reason": "test phrase expected `the private chest` but manuscript says `her private chest`; test corrected only"
+      }
+    ],
+    "protected_main_branch_blob_comparisons": "MATCH for all 4 hard-canon manuscripts",
+    "historical_provider_freshness": "retained archival source, not live ESPN; human slot-to-owner mapping unverified",
+    "independent_review_submissions_observed": 0,
+    "checkpoint_inclusive_commit_ci": "PENDING_RECHECK_NOT_CLAIMED"
+  },
+  "independent_review_request": {
+    "comment_id": 6515104009,
+    "url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6515104009",
+    "status": "REQUESTED_NOT_ACCEPTED"
+  },
+  "fictional_story_state": {
+    "wheel": "UNFINISHED_AND_UNTURNED",
+    "borrowed_shed": "RECLAIMED_BY_OWNER",
+    "suspect_grain": "SEPARATED_NOT_CERTIFIED_FIT",
+    "bridge": "UNSAFE_UNREPAIRED_FICTIONAL",
+    "cart": "LEFT_AT_CROSSING",
+    "worker_old_timber_wages": "UNPAID",
+    "worker_new_employment": "INDEPENDENT_NEGOTIATION",
+    "singer": "DESTINATION_UNKNOWN",
+    "missing_claimant": "UNKNOWN",
+    "sealed_message": "UNOPENED",
+    "private_chest": "UNRETRIEVED",
+    "unsafe_rooms": "CLOSED",
+    "supplier_invoice": "UNPAID"
+  },
+  "holds": [
+    "historic slot one to human Jake NOT_PROVIDER_AUTHENTICATED",
+    "period Character Canon",
+    "Atlas geography and material culture",
+    "real independent Authors Council",
+    "real Librarian source concurrence",
+    "independent Umpire",
+    "Founder-only canon/publishing",
+    "no automatic merge"
+  ],
+  "invalidation_triggers": [
+    "G01 blob changes or upstream provider contradicts archive",
+    "any source chapter blob changes or assembly mismatch",
+    "new period Character/Atlas ruling",
+    "hard canon 2026 blob changes",
+    "independent editorial objection",
+    "Founder gate decision"
+  ],
+  "release": {
+    "merge": false,
+    "canon": false,
+    "publication": false,
+    "financial_or_external_spend": false
+  },
+  "continuation": {
+    "first": "Verify all mandatory workflows at exact checkpoint-inclusive head after this commit; if failing, repair, never claim inherited PASS",
+    "next": "Develop substantial causal Chapter VIII around consequential independent characters and material follow-through; source week is evidence, not chapter mandate",
+    "parallel": "Locate and formally version old noncanon 2016 pilot W02/W03 result erratum: W01 95.62-85.64 victory, W02 102.42-85.38 victory, W03 163.14-106.80 victory, W04 88.28-127.52 loss. Never silently rewrite accepted materials",
+    "review": "Seek actual written literary, Character, Atlas, Librarian and Umpire assessments; a GitHub comment is not an authenticated Director meeting",
+    "status": "DRAFT ONLY / NO MERGE / NO CANON / NO PUBLICATION"
+  }
+}

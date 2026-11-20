@@ -1,0 +1,173 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH11-ELEVEN-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "status": "NONCANON_DRAFT_EDITORIAL_HOLD",
+  "mission": "Founder-authorized Commonwealth literary production, authenticated GitHub artifacts, no authenticated Bullpen director or independent author session claimed",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "base": "main",
+  "source_readback": {
+    "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "current_task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_registry": "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "bullpen_lifecycle": "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "related_prs": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT_2026_NONCANON"
+    }
+  },
+  "previous_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261030-2016-CAUSAL-CH09-NINE-CHAPTER-READER.json",
+  "source_fingerprints": {
+    "archive_2016": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "chapter_10": "88bb693c735c4e999ecb6db396dabe71a85a768c",
+    "reader_10": "d1b8c25977afc8f44124da62b5f5da30c1527d38",
+    "new_chapter_11": "94c81b98a9dc9d308a8d2d4801e7482a1a170f74",
+    "reader_11": "f98525bd9611879a0750abd913746ecc90e7a7c6",
+    "protected_2026_main_equals_pr_branch_4_of_4": {
+      "PROLOGUE_DRAFT_V1": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    }
+  },
+  "outputs": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_HOUSE_BEYOND_THE_MARKER_CHAPTER_11_NONCANON.md",
+      "words_including_notes": 5490,
+      "movements": 5,
+      "git_blob": "94c81b98a9dc9d308a8d2d4801e7482a1a170f74"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_11_NONCANON.md",
+      "words_including_metadata": 51940,
+      "source_exact_chapters": 11,
+      "git_blob": "f98525bd9611879a0750abd913746ecc90e7a7c6"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_11_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "review": "WRITER_SELF_CHALLENGE_ONLY"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_10_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "review": "WRITER_SELF_CHALLENGE_AND_VERIFIED_BROKEN_TEST_REPAIR"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_eleven_reader.py",
+      "tests": 12
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "change": "named test module step"
+    }
+  ],
+  "historical_caveat": "ESPN/Flaim 2016 archive is retained transcription, not live verification; human Jake/2016 scoring slot one unverified; invented period geographic/kinship details are NONCANON",
+  "literary_causality": {
+    "entering": "Chapter X insufficient earnings/partial pledge, old woman's injured wrist and shelter bread-making; Week 13 archival notice; no postseason knowledge",
+    "departure": "elderly bread-maker voluntarily goes home with daughter and grandson, taking her own bench",
+    "protagonist_error": "Jake demands permission for somebody else's property/movement, missing their external attachments",
+    "irreversible_consequence": "bread-maker departs; shelter residents and Jake must reorganize life without her; return not promised",
+    "single_interior_pov": "fictional Jake / CHAR-JAKE-KALOPER only"
+  },
+  "verification": {
+    "initial_ch10_failure": {
+      "commit": "8661fa1e7cac189aeb71102b0b82b7aee8f4c693",
+      "novel_ci_run": 41020811890,
+      "reason": "test expected exact negation phrasing absent despite semantically explicit negative sentence; test corrected without manuscript change",
+      "repair_commit": "3393494ee8b74f726c0276d5e616b77fef11f0c9"
+    },
+    "ch10_four_workflows_pass_commit": "2a1379eba88227d4387f40b066d8a3c2aecc5592",
+    "initial_ch11_failure": {
+      "commit": "8f67bb6833c988b1fef08ed3714a037117ec8f4c",
+      "novel_ci_run": 41022472318,
+      "reason": "protected Chapter II blob SHA typo in regression source; exact main and PR blob equal; test pin repaired without changing canon or fiction",
+      "repair_commit": "1a8fb4e6328469f2e4c01b13d80b0f5d20218778"
+    },
+    "observed_success_pre_checkpoint_commit": "1a8fb4e6328469f2e4c01b13d80b0f5d20218778",
+    "exact_commit_ci": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 41022579089,
+        "status": "completed",
+        "conclusion": "success",
+        "chapter_xi_named_step": "success",
+        "new_tests": 12
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41022578891,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41022578937,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41022578966,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "protected_2026_main_comparison": "PASS 4/4 by direct authenticated GitHub SHA equality",
+    "source_exact_reader": "PASS 11/11 by GitHub Action regression checking source files and read-copy sections",
+    "independent_reviews_observed": 0,
+    "checkpoint_inclusive_exact_head_ci": "TO_BE_READ_BACK_NOT_CLAIMED"
+  },
+  "review_request": {
+    "pr_comment_id": 6517706759,
+    "independent_editorial_character_atlas_librarian_umpire": "REQUESTED_NO_ACCEPTANCE"
+  },
+  "continuity_holds": {
+    "missing_claimant": "UNIDENTIFIED",
+    "sealed_message": "UNOPENED",
+    "private_east_chest": "UNRETRIEVED",
+    "east_rooms": "CLOSED",
+    "singer_destination": "UNKNOWN",
+    "great_wheel": "UNFINISHED_UNTURNED",
+    "daughter_trial": "UNPROVEN_UNSIGNED",
+    "unsafe_lower_crossing": "UNREPAIRED",
+    "stranded_crossing_cart": "UNRECOVERED",
+    "suspect_grain": "UNCERTIFIED_NOT_CONSUMED",
+    "old_wages": "UNPAID",
+    "supplier_invoice": "UNPAID",
+    "jake_pledge": "PARTIAL_UNPAID",
+    "old_woman": "VOLUNTARY_DEPARTURE_RETURN_UNPROMISED"
+  },
+  "blocked": [
+    "2016 human historical owner-to-scoring-slot authenticated binding",
+    "period-specific Character Canon and Atlas review",
+    "independent Authors Council, Librarian, Umpire acceptance",
+    "Founder-only final canon/publication"
+  ],
+  "next": [
+    "Read exact checkpoint-inclusive CI results and identify any failure",
+    "Continue 2016 causal Chapter XII with an exterior political/civilizational stake and genuine dramatic friction; avoid a ledger/ethics repetition",
+    "Preserve source exact reader and ten previous causal chapters",
+    "Maintain 12-owner exclusive interior POV, no postseason foreknowledge or invented ESPN facts",
+    "Request actual independent review; do not claim approval without verdict",
+    "Hold merge, canon promotion and publication"
+  ],
+  "release": {
+    "merged": false,
+    "canonical": false,
+    "published": false,
+    "money_spent_external": false
+  }
+}

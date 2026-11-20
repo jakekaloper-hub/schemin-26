@@ -1,0 +1,61 @@
+{
+  "schema": "commonwealth_historical_saga_verified_run_receipt_v1",
+  "observed_utc_date": "2026-11-03",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pull_request": 243,
+  "verified_production_commit": "ccd8630c0cebb2add68299e31c6bd32397a398fa",
+  "production_commit_is_existing_pr_head_at_review": true,
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "literary": {
+    "new_scene": "The lower water path",
+    "new_scene_words_including_heading": 1571,
+    "revised_chapter_words_including_metadata": 7930,
+    "reader_parts": 21,
+    "causal_chapter_positions": "I–XXIV",
+    "component_source_words_including_metadata": 144561
+  },
+  "proof": {
+    "novel_os_ci": {
+      "run_id": 41647078318,
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41647078318",
+      "status": "completed",
+      "conclusion": "success",
+      "job_id": 125955120522,
+      "dedicated_step": "Verify 2016 Chapter XXIV V2 and twenty-one-part source-exact reader (noncanon)",
+      "dedicated_step_conclusion": "success",
+      "dedicated_regression_tests": "12/12 passed (job log observed)"
+    },
+    "cross_domain_authority_ci": {
+      "run_id": 41647078229,
+      "conclusion": "success"
+    },
+    "bullpen_runtime_ci": {
+      "run_id": 41647078371,
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "run_id": 41647078520,
+      "conclusion": "success"
+    },
+    "hard_canon": "Git blob equality pinned by dedicated test; no modification of protected 2026 Prologue or Chapters I–III",
+    "historical_archive": "G01 2016 source blob SHA pin passed; no league fact added"
+  },
+  "review": {
+    "schemin_pr_243_comment_id": 6605475977,
+    "bullpen_issue_117_comment_id": 6605476897,
+    "independent_pr_reviews_at_observation": 0,
+    "authors_council": "REQUESTED_NOT_RECEIVED",
+    "historical_librarian": "REQUESTED_NOT_RECEIVED",
+    "period_atlas": "REQUESTED_NOT_RECEIVED",
+    "character_canon": "REQUESTED_NOT_RECEIVED",
+    "umpire": "REQUESTED_NOT_RECEIVED",
+    "founder_release": "NOT_AUTHORIZED"
+  },
+  "disclaimers": [
+    "CI confirms technical invariants, not literary quality, owner authentication or historical truth.",
+    "This receipt itself is a new commit and must not inherit the tested production commit's workflow status.",
+    "No merge, public release, deployment or canon promotion authorized."
+  ],
+  "next": "Continue Chapter XXV (The Mile Beyond the Weigh-Stones) after source receipt inspection, explicitly reconcile shelter water detour, actual departure and first stoneworks unpaid hours; preserve previous twenty-one parts and the twelve-owner viewpoint law."
+}

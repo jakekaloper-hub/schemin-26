@@ -1,0 +1,133 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W04-PARTIAL-READER",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "produced_on": "2026-10-29",
+  "continued_from": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W02-W03",
+  "stage": "2016_WEEK_04_NONCANON_DRAFT_AND_PARTIAL_READER_EXACT_HEAD_CI_VERIFIED_EDITORIAL_HOLD",
+  "authority": {
+    "schemin_main_at_intake": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_session": "living-novel/os/SESSION_CONTEXT.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_registry": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "governing_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "historical": 243,
+      "merged_prior": 188,
+      "creative_candidate": 252,
+      "drift_candidate": 261
+    }
+  },
+  "archive": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "source_label": "Flaim ESPN 1417621",
+    "year": 2016,
+    "week": 4,
+    "new_regular_fixtures": 6,
+    "completed_draft_fixtures_weeks_1_to_4": 24,
+    "expected_regular_fixtures": 78,
+    "unverified_human_identity": true,
+    "upstream_provider_raw_snapshot": "UNAVAILABLE"
+  },
+  "literary": {
+    "new_draft": {
+      "path": "living-novel/historical-chronicle/seasons/2016/weeks/W04.md",
+      "git_blob": "c04700fe674489a5e0aac8f73ce4ddae9ba564eb",
+      "title": "The Portion That Was Missing",
+      "whitespace_words_including_headers_metadata": 5186,
+      "fixture_movements": 6,
+      "only_proposed_pov": "CHAR-JAKE-KALOPER"
+    },
+    "partial_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/READING_COPY_PROLOGUE_W01_W04_PARTIAL_NONCANON.md",
+      "whitespace_words_including_assembly_metadata": 14860,
+      "components": [
+        "PROLOGUE.md",
+        "weeks/W01.md",
+        "weeks/W02.md",
+        "weeks/W03.md",
+        "weeks/W04.md"
+      ],
+      "exact_source_component_content_verified_in_connector": true,
+      "status": "PARTIAL_NOT_COMPLETE_2016_SEASON"
+    },
+    "qa_receipt": "living-novel/historical-chronicle/seasons/2016/W04_SOURCE_QA_RECEIPT.md",
+    "carry_forward_fiction_only": [
+      "conditionally approved beam with crack-seal",
+      "accepted timber-material invoice measured, unpaid",
+      "volunteer labor and admissions names ledger separate from competitive standing",
+      "witnessed lower grain count, quarantined damaged sack",
+      "fictional Jake future provision portion deferred",
+      "named empty bowl unclaimed",
+      "witnessed recount date established"
+    ],
+    "merge_canon_publication": false
+  },
+  "verification": {
+    "exact_CI_tested_head": "ec6c824f47bda2cca96335004a02e3fdae7635a8",
+    "workflow_runs": {
+      "novel_os_ci": {
+        "id": 40941300536,
+        "conclusion": "success",
+        "named_steps": {
+          "Validate 2016 fourth six-match Chronicle installment (noncanon)": "success",
+          "Validate 2016 partial source-exact reading copy (noncanon)": "success"
+        }
+      },
+      "cross_domain_authority_ci": {
+        "id": 40941300568,
+        "conclusion": "success"
+      },
+      "bullpen_runtime_ci": {
+        "id": 40941300566,
+        "conclusion": "success"
+      },
+      "repository_merge_gate": {
+        "id": 40941300518,
+        "conclusion": "success"
+      }
+    },
+    "new_regression_tests": 21,
+    "technical_suites": [
+      "living-novel/historical-chronicle/qa/test_2016_fourth_week.py",
+      "living-novel/historical-chronicle/qa/test_2016_partial_reader.py"
+    ],
+    "prior_week_2_and_3_blobs_unchanged": true,
+    "protected_hard_manuscript_blobs_equal_to_main": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "technical_preflight": "All six exact source-score annotation strings matched archived rows; all five partial reader bodies matched their source files after intentional trailing-newline normalization.",
+    "note": "Checkpoint-only commit occurs after tested commit; verify the resulting exact latest PR HEAD CI before claiming that latest HEAD itself passed."
+  },
+  "gates": {
+    "historical_human_owner_authentication": "HOLD",
+    "character_period_canon": "HOLD",
+    "atlas_spatial_clearance": "HOLD",
+    "independent_authors_council": "NO_REVIEW_RECEIVED",
+    "independent_umpire": "NO_REVIEW_RECEIVED",
+    "founder_canon_promotion": "HOLD",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Reload PR 243 exact current head, current main, independent reviews and workflow receipts; never assume this checkpoint remains latest.",
+    "Continue 2016 Week 5 with the retained Flaim/ESPN year- and week-specific archive, under single proposed Twelve-owner POV and explicit era-local knowledge.",
+    "Maintain separate W02-W04 fictional continuity without falsely making any shelter place or historical owner link canon; no future outcome spoilers.",
+    "Update the 2016 partial source-exact reading copy after the next completed week; do not mislabel as season complete.",
+    "Seek actual independent authors/Atlas/Umpire acceptance; no simulated author council can close an approval gate."
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2025-FOUR-VOICE-PHILLIP-MASKS",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "canonical_repositories": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state": "OPEN_DRAFT_NONCANON",
+  "source_heads": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "resumed_previous_pr_head": "bae227d7a24c121a537110fd9d7162b972fddad2",
+    "last_verified_code_sha": "694b159c86b18da5e8c2c5671561920420426f8e",
+    "editorial_qa_commit": "536991eccb4276011d88482c6044d10ea8fd4645"
+  },
+  "read_authorities": [
+    "PROJECT_CONTROL_REGISTRY.md",
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/whole-book/CHARACTER_POV_TEMPORAL_STATE_MATRIX_V1.md",
+    "living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md",
+    "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md (SUPERSEDED archival, active 12-owner rule in notice)",
+    "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+    "living-novel/characters/06_PHILLIP_PITTS.md",
+    "world/history/2025/2025_FACT_LEDGER.md",
+    "living-novel/history/PLAYOFF_MATCHUP_EVIDENCE_2022_2025.json",
+    "governance/execution-control/TASK_REGISTRY_V1.json",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/docs/TASK_ORIENTATION_V1.md",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  ],
+  "reviewed_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "reviewed_prs": {
+    "188": "CLOSED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "selection": "Highest-priority unblocked substantial fiction: expand distinct canonical-owner historical POV rather than adding to 72-chapter Jake-only 2016 lane. Anchor Phillip in 2025 certified semifinal/podium and older 2023 record; owner-account unknown.",
+  "outputs": {
+    "new_chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_MASKS_THAT_REMAINED_PHILLIP_2025_NONCANON.md",
+    "new_chapter_git_blob": "f96832d3bd23840d2fb1853d17940ac54774531d",
+    "new_chapter_source_words_including_metadata": 4777,
+    "new_chapter_movements": 6,
+    "principal_pov": "CHAR-PHILLIP-PITTS",
+    "new_reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_FOUR_VOICES_NONCANON.md",
+    "new_reader_git_blob": "d51c78949c6461b78e62f1e408bafd0c3812f793",
+    "source_exact_parts": 4,
+    "four_principal_povs": [
+      "CHAR-AUSTIN-BYARS",
+      "CHAR-JAKE-KALOPER",
+      "CHAR-ZACH-WILSON",
+      "CHAR-PHILLIP-PITTS"
+    ],
+    "sum_component_source_words": 16071,
+    "technical_test": "living-novel/historical-chronicle/qa/test_2025_four_voices_reader.py",
+    "new_tests": 24,
+    "ci_workflow": ".github/workflows/novel-os-ci.yml",
+    "author_side_qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_MASKS_THAT_REMAINED_EDITORIAL_SOURCE_QA_2026-11-01.md"
+  },
+  "evidence_boundaries": {
+    "historical_semifinal": "ObiWan Jacoby 174.38 beats Three Dreaded Snake 153.20, archived HIST-2025-SEMIFINAL-1",
+    "historical_final": "The Immortal 161.07 beats ObiWan Jacoby 109.56, archived HIST-2025-CHAMPIONSHIP-1",
+    "podium": "Three Dreaded Snake finalRank 3, archived 2025_FACT_LEDGER",
+    "dossier": "Phillip 2023 1-13; 2025 10-4",
+    "historical_human_owner_account": "UNKNOWN",
+    "live_flaim_refetch_performed": false,
+    "temporary_stage_and_all_supporting_incidents": "PROPOSED_UNAPPROVED",
+    "no_2026_result_knowledge": true
+  },
+  "verified": {
+    "scope": "GitHub Actions at exact code SHA 694b159c86b18da5e8c2c5671561920420426f8e. Reverify later checkpoint SHA separately.",
+    "tests": "24_OF_24_PASS_OBSERVED_GITHUB_JOB_LOGS",
+    "new_reader_source_exact": true,
+    "previous_2025_three_voice_preserved": true,
+    "previous_2016_72_chapter_reader_preserved": true,
+    "protected_2026_prologue_chapters_i_iii_git_blobs_preserved": true,
+    "workflows": [
+      {
+        "name": "Novel OS CI",
+        "id": 41373534366,
+        "conclusion": "success"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41373534391,
+        "conclusion": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41373534420,
+        "conclusion": "success"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41373534324,
+        "conclusion": "success"
+      }
+    ]
+  },
+  "holds": {
+    "draft_noncanon": true,
+    "independent_editorial_acceptance": false,
+    "historical_owner_identity_authenticated": false,
+    "period_correct_atlas_clearance": false,
+    "independent_umpire_accepted": false,
+    "founder_canon_approval": false,
+    "merge": false,
+    "publication": false,
+    "2016_twelve_owner_structure_reconciled": false
+  },
+  "next": [
+    "Check current main and branch head; reverify checkpoint SHA Actions, comments and PR reviews.",
+    "Secure actual independent Authors Council/Librarian/Character/Atlas/Umpire critique; a review request is not acceptance.",
+    "Resolve historical 2025 human-owner account IDs and season-specific aliases from authentic sources if available.",
+    "Do not extend 2016 single-owner sequence; reconcile its 72-chapter Jake-only structural defect.",
+    "Continue substantial noncanonical fiction from verified events, respecting Founder/Umpire/canon gates."
+  ]
+}

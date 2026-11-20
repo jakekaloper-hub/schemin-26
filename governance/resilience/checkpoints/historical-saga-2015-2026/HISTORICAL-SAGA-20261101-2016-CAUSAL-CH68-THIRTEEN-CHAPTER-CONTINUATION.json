@@ -1,0 +1,136 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2016-CAUSAL-CH68-THIRTEEN-CHAPTER-CONTINUATION",
+  "project": "Schemin '26 Living Novel",
+  "workflow": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_HISTORICAL_SAGA",
+  "date_utc": "2026-11-01",
+  "status": "CHAPTER_68_TECHNICALLY_VERIFIED_NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "bullpen_repo": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "previous_checkpoint_commit": "2c8eca6ee8ef89a9a3e8f2627e0e6c0b066020d8",
+  "source_authority": {
+    "schemin_main_sha_read": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_sha_read": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_lifecycle_registry": "runtime/lifecycleEngine.js",
+    "allowed_pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "inspected_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "inspected_prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "files_added": [
+    {
+      "role": "narrative",
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_LINE_ON_THE_GATE_CHAPTER_68_NONCANON.md",
+      "blob_sha": "f57ab546164fd08b0c7dab946a651656e07b2e99",
+      "words": 3805,
+      "narrative_words": 3389,
+      "movements": 6
+    },
+    {
+      "role": "assembled_reader",
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_56_68_NONCANON.md",
+      "blob_sha": "e3e4edca68f02a81c7fc982f7a9b36f1b264aaf6",
+      "words": 65602,
+      "wrapped_chapters": 13
+    },
+    {
+      "role": "author_side_QA",
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_68_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "blob_sha": "118d12f1343a2ed9774fc9e0a028a262b3330284"
+    },
+    {
+      "role": "regression",
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_sixty_eight_reader.py",
+      "blob_sha": "aafe472eab13b20596e9f007f63b215c9bfebbe3",
+      "new_tests": 35
+    }
+  ],
+  "input_fingerprints": {
+    "previous_reader": "b245e52e66807de2c44ede6aa863728387e18459",
+    "preserved_55_reader": "a21bbcbc7268e6523378097aa60d62e1c85bed35",
+    "historical_2016_archive": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "preceding_chapter": "bf20178df8402b14e827b3364dd38618ce675c82",
+    "protected_prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "protected_chapters_I_III": [
+      "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    ]
+  },
+  "observed_execution": {
+    "predecessor_commit": "2c8eca6ee8ef89a9a3e8f2627e0e6c0b066020d8",
+    "first_chapter_commit": "861937b8cd6b61307d8b476c067fe08ae5348898",
+    "reader_commit": "257dfb2ad77c15222dbf06221882e41a034269d6",
+    "author_side_QA_commit": "ef8f2ed21d98aef5dad4c1cd9f69661425b3cabb",
+    "initial_test_commit": "b188f6c6fd07318fffadaec5a057c8dea6b95216",
+    "test_regex_repair_commit": "fd41423a886313832c82785fc0ac2fcd7d4d22c8",
+    "final_test_repair_commit": "ae884d6d2017bd7c7cc44b78521c82ca5cc6fef5",
+    "predecessor_test_suite": 1273,
+    "new_test_cases": 35,
+    "observed_successful_test_suite": 1308,
+    "tested_commit_sha": "ae884d6d2017bd7c7cc44b78521c82ca5cc6fef5",
+    "tested_novel_workflow_run": 41333102198,
+    "tested_novel_workflow_conclusion": "success",
+    "log_test_count_from_successful_job_run_41333098159": 1308,
+    "cross_domain_workflow": {
+      "run": 41333102381,
+      "conclusion": "success"
+    },
+    "bullpen_runtime_workflow": {
+      "run": 41333102190,
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "run": 41333102296,
+      "conclusion": "success"
+    },
+    "initially_failing_workflow": 41332988776,
+    "initial_failure_explanation": "Three incorrect test assertions (overescaped regexes and case mismatch) fixed; no prose modified.",
+    "review_comment_id": 6561586177,
+    "submitted_independent_PR_reviews_at_last_read": 0,
+    "checkpoint_commit_exact_head_ci": "PENDING_POST_CHECKPOINT_VERIFY",
+    "external_Netlify_preview": "NOT_RECHECKED"
+  },
+  "literary": {
+    "chapter_title": "The Line on the Gate",
+    "conditional_dependency": "Unapproved Chapter LXVII survivor return; reject or revise both if that event is not accepted",
+    "fictional_state": "One of original seven returned alive in candidate Chapter LXVII; six remain unlocated, including the father's son. A miscopied charcoal route is retracted and the search group does not depart.",
+    "result_of_scene": "The maker owns the mistake, Hessa retains only an attributed copy of the inaccurate image, father hears a bounded memory predating the separation, survivor requests a quiet night, no map or rescue authorization.",
+    "structural_defect": "68 CONSECUTIVE JAKE-LIMITED HISTORICAL CHAPTERS; NOT TWELVE-POV COMPLIANT",
+    "factual_guard": "No 2016 ESPN result, owner identity, point total or historical event invented.",
+    "open_loops": "Six unknown travelers; father son absent; cart collar/ownership; Neris/Dovan injury; Neris/Aven estrangement; Esi roof and debt; Fara trough; reed rack; Nella frame; Meric timber."
+  },
+  "release_gates": {
+    "canon": false,
+    "merged": false,
+    "published": false,
+    "founder_approval": false,
+    "independent_authors_council": false,
+    "independent_umpire": false,
+    "atlas_approved": false,
+    "authenticated_historical_2016_owner_bindings": false
+  },
+  "next_run": {
+    "first": "Read both repo mains, PR #243 exact current head, previous checkpoint, independent reviews, test/CI on latest commit. Do not restart or overwrite active branch work.",
+    "second": "Resolve or explicitly carry the editorial challenge to Chapter LXVII's coincidental survivor return; LXVIII is derivative and noncanonical.",
+    "third": "Continue year-correct 2016 owner-character authentication and 12-POV balancing; no invented team bindings.",
+    "fourth": "If no independent gate can close, prioritize substantial reversible fiction and/or assembling full I–LXVIII manuscript while preserving source-exact chapters. Do not substitute planning.",
+    "never": "No protected Prologue/Chapters I–III modifications, scores or owner inventions, unreviewed merges, canon promotion, publication, or fake independent approval."
+  }
+}

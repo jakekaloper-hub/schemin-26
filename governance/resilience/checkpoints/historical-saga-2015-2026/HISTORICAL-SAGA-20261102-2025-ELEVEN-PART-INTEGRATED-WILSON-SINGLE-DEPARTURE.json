@@ -1,0 +1,135 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-ELEVEN-PART-INTEGRATED-WILSON-SINGLE-DEPARTURE",
+  "project": "schemin-26",
+  "workflow": "commonwealth-novel-historical-saga-2015-2026",
+  "stage": "2025 Wilson developmental integration, source-exact reader and independent-review request",
+  "owner": "the_closer / novel production (authenticated GitHub actions; no simulated director attendance)",
+  "authority": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/SESSION_CONTEXT.md",
+    "living-novel/os/TASK_CONTEXT_MATRIX_V1.json",
+    "governance/execution-control/TASK_REGISTRY_V1.json",
+    "jakekaloper-hub/bullpen/runtime/commandRegistry.js",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  ],
+  "input_fingerprints": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "previous_checkpoint_branch_head": "f7717224736611f1eb183e05e98edebd39534fbf",
+    "previous_reader_git_blob": "df153f16717f77b7b9c760441c331a7445786c99",
+    "original_road_chapter_git_blob": "b737814a6049175ad15ea354cd6e2f44e449f75b",
+    "original_dispatch_bridge_git_blob": "dcddddd05ed4b4b151b11b856fbc01e77aa58dc6",
+    "separate_2016_reading_git_blob": "8f1dda21ac4962143ba3291cef4d60769197d62f"
+  },
+  "output_artifact_digests": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_THAT_SPOKE_IN_TWO_VOICES_WILSON_2025_INTEGRATED_NONCANON.md",
+      "git_blob_sha": "bdaac1446d87c9ce0e738f6f9bbd632397152251",
+      "source_words": 10332,
+      "word_count_includes_metadata": true,
+      "newly_written_movement_words": 1632
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWELVE_VOICES_ELEVEN_PARTS_INTEGRATED_WILSON_NONCANON.md",
+      "git_blob_sha": "22f438a91aba72f391ae4ec7be5cae3c375230ce",
+      "parts": 11,
+      "canonical_owner_character_povs": 12,
+      "source_words": 63738,
+      "retained_source_wrappers_byte_exact": 10
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2025_integrated_wilson_one_departure.py",
+      "git_blob_sha": "79babc22662c85b0585e9c0cfe9fb4930118e733",
+      "tests_defined": 25
+    },
+    {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "git_blob_sha": "217d2d8d25d380abdf4eda148fa8d0fb940229f2",
+      "step": "Verify 2025 Wilson single-departure eleven-part developmental reader (noncanon)"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_ROAD_THAT_SPOKE_IN_TWO_VOICES_EDITORIAL_SOURCE_QA_2026-11-02.md",
+      "git_blob_sha": "2e109ccaf029294f24f6894a1eb704fcb86d70b6"
+    }
+  ],
+  "evidence_references": {
+    "latest_code_and_ci_trigger_commit": "08cdd362516d1b28865f24d2408a19a2d899f883",
+    "producer_review_receipt_commit": "1cc69b322ee840613575ee5f0a275c39cb337ae7",
+    "new_test_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126940",
+    "cross_domain_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126982",
+    "bullpen_runtime_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126998",
+    "merge_gate_workflow_run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41513126983",
+    "source_exact_readback": "10/10 retained wrapper texts identical to earlier reading; Wilson source Git blob and new reader pinned by authenticated GitHub reads",
+    "protected_blob_readback": "PROLOGUE_DRAFT_V1.md + CHAPTER_01 + CHAPTER_02 + CHAPTER_03 compared Git blob SHA equal on main and production branch",
+    "independent_review_request_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6586763298",
+    "separate_actual_independent_review_submissions_observed": 0,
+    "qa_wording_repair_commits": [
+      "c3bb0bf85c80158c250541c35de640952a110b18",
+      "72ed6b5c370495a6f86a642aaa2f590b70755d23",
+      "08cdd362516d1b28865f24d2408a19a2d899f883"
+    ],
+    "producer_static_assertion_audit": "20/20 simple literal-source membership assertions present at 08cdd36; this is NOT Python unittest execution",
+    "authenticated_regression_job_id": 125509747179,
+    "authenticated_regression_job_log_result": "25/25 passing, 2026-11-02T19:47:20Z; exact code SHA 08cdd362516d1b28865f24d2408a19a2d899f883"
+  },
+  "technical_last_observed": {
+    "code_sha": "08cdd362516d1b28865f24d2408a19a2d899f883",
+    "novel_os_ci": {
+      "id": 41513126940,
+      "status": "completed",
+      "conclusion": "success",
+      "new_25_test_step": "completed/success",
+      "regression_tests_passed": 25,
+      "regression_test_log": "Ran 25 tests in 0.034s / OK"
+    },
+    "cross_domain": {
+      "id": 41513126982,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "bullpen_runtime": {
+      "id": 41513126998,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "id": 41513126983,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "note": "All four workflows and exact 25-test step confirmed success on code SHA 08cdd36. This checkpoint-only commit will have no distinct CI proof; do not call its code tested independently."
+  },
+  "historical_and_editorial_hold": [
+    "2025 Baker Moore Purdy team slot 9-5/fifth does not authenticate human manager-Wilson link",
+    "2016 dual Hyenas manager-account collision and 72 Jake-limited chapters remain unresolved and unchanged",
+    "Independent Authors Council and independent Umpire review have not submitted acceptances",
+    "Period Character Canon, Atlas/World physical and economic plausibility approval absent",
+    "Founder-only canon/publication/financial gates remain closed"
+  ],
+  "preservation": {
+    "original_road_and_bridge_source": "PRESERVED",
+    "previous_twelve_part_reader": "PRESERVED",
+    "other_ten_source_wrappers": "BYTE_EXACT",
+    "protected_2026_prologue_chapters_I_II_III": "BLOB_EXACT_AGAINST_MAIN",
+    "no_new_historical_espn_facts": true,
+    "no_canon_promotion": true,
+    "no_merge": true,
+    "no_publication": true,
+    "no_external_spend": true
+  },
+  "invalidation_triggers": [
+    "Novel OS governing source-matrix or current Character Canon changes",
+    "Changed or missing any source/output blob listed above",
+    "New authenticated historical owner-account evidence conflicts with provisional fictional binding",
+    "Material historical source correction or Atlas physical-geography conflict",
+    "CI test failure, independent reviewer finding, or Founder-authorized change"
+  ],
+  "next": [
+    "Request and obtain genuine independent Authors Council/period Character/Atlas/Umpire review, not simulated acceptance; PR #243 remains open draft.",
+    "Developmentally edit integrated Wilson chapter (10,332 source words) for length, epistemic distance, independent driver agency, and distinct martial voice, retaining authenticated test and historical boundaries.",
+    "Continue 2016 manager-account source investigation; two similarly named Austin Hyenas team slots are distinct and cannot be collapsed without historical account IDs.",
+    "No merge, Founder-only canon promotion or publication absent their approval gates."
+  ],
+  "status": "DRAFT_NONCANON_TECHNICAL_PASS_AT_CODE_SHA_INDEPENDENT_EDITORIAL_HOLD",
+  "date_utc": "2026-11-02"
+}

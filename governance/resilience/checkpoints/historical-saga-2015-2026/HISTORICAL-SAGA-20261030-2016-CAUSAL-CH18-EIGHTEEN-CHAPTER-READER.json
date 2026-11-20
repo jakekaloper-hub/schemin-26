@@ -1,0 +1,155 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH18-EIGHTEEN-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "status": "NONCANON_DRAFT_INDEPENDENT_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumed_from": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH17-SEVENTEEN-CHAPTER-READER",
+  "state_readback": {
+    "schemin_main_at_intake": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+    "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_source_authority_matrix": {
+      "path": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+      "blob": "67fcd669dc7b43393f2d15e93545301961dd81e4"
+    },
+    "bullpen_command_registry": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "bullpen_task_state": "knowledge/EXECUTION_CONTROL_REGISTRY_V1.json",
+    "schemin_task_state": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "issues_inspected": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs_inspected": {
+      "188": "MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT_SEPARATE_CHAPTER_I"
+    },
+    "prior_2016_archive": {
+      "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+      "human_owner_binding": "NOT_PROVIDER_AUTHENTICATED"
+    }
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_RIVER_KEPT_NO_PLACE_CHAPTER_18_NONCANON.md",
+      "git_blob": "899ac5eba4e4bb212652ed31baae08c0636631b8",
+      "whitespace_words_including_handoff": 5141,
+      "commit": "324d06cd84c53c7a53403d7582c5c2d30dcf94af"
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_18_NONCANON.md",
+      "git_blob": "78560d0a2775a66340570d8382bbb90ae5992a22",
+      "whitespace_words_including_metadata": 91731,
+      "chapters": 18,
+      "commit": "57cd809acc51a0f23b37a8b6204fafc11dd303fc"
+    },
+    "new_python_tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_eighteen_reader.py",
+      "new_methods": 12,
+      "commit": "12c79f7bb75b68d1aadae8a091bf63ac47387792",
+      "execution": "PASS: 12/12 on connected Mac at exact tested head 3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "ci_enrollment": false,
+      "tested_commit": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "final_file_blob": "66abf304858e872dbeec7ec985bd305207e19906",
+      "test_assertion_fix_commit": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58"
+    },
+    "qa_receipt": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_18_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "commit": "b9e4c9e1dc918b963eed9d6321356f5ad283ca6a"
+    }
+  },
+  "checks": {
+    "source_exact": {
+      "status": "PASS",
+      "components": 18,
+      "manifest_rows": 18,
+      "sha_matches": 18,
+      "word_matches": 18,
+      "embedded_text_matches": 18
+    },
+    "prior_17": {
+      "status": "PASS",
+      "prior_source_blobs_unchanged": 17,
+      "prior_reader_blob": "7ba3cf83ff59d187929a71861c1d053abbb05140"
+    },
+    "protected_2026": "PASS four Git blobs identical in current main and draft",
+    "archive": "PASS archived 2016 Git blob unchanged",
+    "executed_python_prior": {
+      "status": "PASS",
+      "ran": 170,
+      "failures": 0,
+      "run_context": "Connected Mac isolated sparse checkout /tmp/commonwealth-novel-2016-20261030",
+      "exact_checked_head": "57cd809acc51a0f23b37a8b6204fafc11dd303fc",
+      "note": "Includes previous Chapter XV 13 and Chapter XVII 11 once-unverified tests, not new Chapter XVIII test"
+    },
+    "new_python": {
+      "status": "PASS",
+      "methods": 12,
+      "failures": 0,
+      "exact_tested_head": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "runner": "connected Mac /tmp/commonwealth-novel-2016-20261030",
+      "duration": "0.017s",
+      "ci_enrollment": false
+    },
+    "github_ci": "EXACT_CURRENT_HEAD_CHECK_REQUIRED",
+    "independent_author_review": "NOT_OBSERVED",
+    "independent_umpire": "NOT_OBSERVED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false,
+    "executed_python_full_suite": {
+      "status": "PASS",
+      "ran": 182,
+      "failures": 0,
+      "exact_tested_head": "3acfcb1f58fbe65ebb3bf8429c2abe11dab0fe58",
+      "command": "python3 -m unittest discover -s living-novel/historical-chronicle/qa -p 'test_2016_causal_chapter*reader.py' -q",
+      "duration": "0.091s",
+      "runner": "isolated connected Mac sparse checkout"
+    }
+  },
+  "narrative": {
+    "sole_interior": "fictional CHAR-JAKE-KALOPER / PRINCIPAL_CHARACTER",
+    "time": "2016 fictional second upriver workday after Chapter XVII; no future league knowledge",
+    "dramatic_question": "Accept secure upriver work or return to address the unresolved shelter obligations?",
+    "turn": "Seasonal job genuinely offered and considered; Jake chooses downstream passage; accepts a two-day wage and starts inland on foot",
+    "new_secondary_world_proposals": [
+      "stoneworks naming rite",
+      "Aren seasonal night-watch offer",
+      "Eren's recorded names and future qualification",
+      "lower landing inventory and wage receipt"
+    ],
+    "unresolved": [
+      "Mara note delivery unconfirmed",
+      "shelter pledge and debts unsettled",
+      "Jake still traveling inland, not home",
+      "earlier daughter commission and mill fire unrepaired",
+      "great wheel unturned",
+      "lower crossing/cart and separate bridge unresolved",
+      "all existing prior open loops and future source outcomes not resolved"
+    ]
+  },
+  "blockers": [
+    "Historical 2016 real-owner/slot attribution unauthenticated",
+    "Period-correct Atlas and fictional economic/material culture clearance",
+    "Independent Authors Council / Librarian / Character Canon acceptance not observed",
+    "Independent Umpire review not observed",
+    "Founder-only canon, merge and publication approval withheld",
+    "Historical-chronicle Python suites pass on Mac but are not yet enrolled in GitHub Novel OS CI (separate integration gate)"
+  ],
+  "next": [
+    "Check exact PR head and Actions statuses, no stale CI claim",
+    "Request independent textual redline of Chapters XV-XVIII for recurrence, workmanlike exposition and proposed river culture",
+    "Continue 2016 Chapter XIX with actual shelter reentry or a different major POV when owner-authenticated and period-canon allowed; do not invent ESPN facts",
+    "Preserve protected Prologue and Chapters I-III; maintain NONCANON, do not merge or publish",
+    "Preserve evidence of the 182-test connected Mac pass while pursuing reviewed CI enrollment only through authorized workflow controls."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2025-EIGHT-VOICE-BOBBY-WETLAND",
+  "date_utc": "2026-11-02",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "canonical_repos": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "observed_main": {
+    "schemin": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "pr": 243,
+  "branch": "novel/historical-epic-2015-2026",
+  "parent_head": "7d5472430fd070b54d7ec1af81da477739ae066f",
+  "selected_task": "Eighth 2025 canonical-character POV with distinctive nonhuman interior; connection to unresolved Ben/David/Brandon fuel supply and wetland consequence; no extra Jake-only 2016 extension",
+  "source_constraints": [
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md",
+    "canon/characters/CHARACTER_REGISTRY.yaml",
+    "canon/characters/CHAR-BOBBY-MITCHELL/PACKAGE.md",
+    "living-novel/characters/10_BOBBY_MITCHELL.md",
+    "living-novel/history/OWNER_LINEAGE.md",
+    "living-novel/historical-chronicle/evidence/2025_FLAIM_TEAM_SLOT_AND_PODIUM_READBACK_2026-11-01_REVIEW_ONLY.md",
+    "jakekaloper-hub/bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "jakekaloper-hub/bullpen/runtime/lifecycleEngine.js"
+  ],
+  "scanned_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "scanned_prs": [
+    188,
+    243,
+    252,
+    261
+  ],
+  "output": {
+    "chapter": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_BANK_THAT_KEPT_ITS_NAME_BOBBY_2025_NONCANON.md",
+    "chapter_git_blob": "80a288faa262fff2f4227240431fd9405a85c021",
+    "chapter_words_including_metadata": 5418,
+    "reader": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_EIGHT_VOICES_NONCANON.md",
+    "reader_source_count": 8,
+    "reader_source_words_including_metadata": 35919,
+    "prior_seven_reader_sha": "301a302241e7e54cf05ba1f8d154bfff1dc18007",
+    "technical_tests": "living-novel/historical-chronicle/qa/test_2025_eight_voices_reader.py",
+    "test_count": 24,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "editorial_self_qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_BANK_THAT_KEPT_ITS_NAME_BOBBY_EDITORIAL_SOURCE_QA_2026-11-02.md"
+  },
+  "source_truth": {
+    "league_id": 1417621,
+    "season": 2025,
+    "slot": 10,
+    "team": "Mud Dogs",
+    "regular_season": "6-8",
+    "final_rank": 9,
+    "postseason": "missed_playoffs",
+    "historical_manager_id": "UNKNOWN",
+    "person_binding": "PROVISIONAL_FICTIONAL_ASSOCIATION",
+    "wetland": "UNAPPROVED_FICTION"
+  },
+  "proof": {
+    "source_exact_wrappers": 8,
+    "original_seven_embedded_exact": true,
+    "chapter_git_blob_readback": true,
+    "exact_final_commit_CI": "PENDING",
+    "independent_pr_reviews_observed_before_write": 0
+  },
+  "blockers": [
+    "Historical human owner IDs not provided by ESPN provider",
+    "Independent literary/Character/Atlas/Umpire approval absent",
+    "Founder canon/publication approval withheld",
+    "2016 72-chapter Jake-only POV structural defect remains",
+    "Physical hydrology, period wetlands, kitchen legal/accounting state all provisional"
+  ],
+  "no_merge": true,
+  "no_canon_promotion": true,
+  "no_publication": true,
+  "next": [
+    "Read exact updated head and GitHub Actions statuses; inspect failures before claiming technical PASS",
+    "Request independent genuine Authors Council/Character/World/Atlas/Umpire review on PR #243; do not impersonate approvers",
+    "Investigate historical manager-owner ID only when provider records available",
+    "Continue multi-owner causal conflict toward irreversible story-world consequence; don't repeat delayed-delivery chapter",
+    "Preserve all previous seven reader/2016 manuscript and protected hard canon"
+  ]
+}

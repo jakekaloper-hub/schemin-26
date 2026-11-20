@@ -1,0 +1,24 @@
+{
+  "status": "TECHNICAL_CHECKS_PASS",
+  "scope": "Reader assembly/inventory integrity only; not literary, historical coverage, canon or publication acceptance",
+  "executed_at_utc": "2026-10-24T04:58:15.420099+00:00",
+  "command": "python -m unittest -v test_reader.py",
+  "working_directory": "/workspace/schemin-26/living-novel/production/historical-saga/approved-mission-2015-2026/reader",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_actual_prose_included_and_matches_manifest (test_reader.ReaderTests.test_actual_prose_included_and_matches_manifest) ... ok\ntest_every_original_source_matches_frozen_git_blob (test_reader.ReaderTests.test_every_original_source_matches_frozen_git_blob) ... ok\ntest_explicit_non_the_title_is_included (test_reader.ReaderTests.test_explicit_non_the_title_is_included) ... ok\ntest_explicit_partial_status_and_no_acceptance_claim (test_reader.ReaderTests.test_explicit_partial_status_and_no_acceptance_claim) ... ok\ntest_explicit_story_order_and_unknown_lane_rejection (test_reader.ReaderTests.test_explicit_story_order_and_unknown_lane_rejection) ... ok\ntest_final_reader_contains_actual_manuscript (test_reader.ReaderTests.test_final_reader_contains_actual_manuscript) ... ok\ntest_historical_disclosure_counts_only_included_text (test_reader.ReaderTests.test_historical_disclosure_counts_only_included_text) ... ok\ntest_legacy_pov_sources_not_active_reader (test_reader.ReaderTests.test_legacy_pov_sources_not_active_reader) ... ok\ntest_local_links_and_coverage_source_resolve (test_reader.ReaderTests.test_local_links_and_coverage_source_resolve) ... ok\ntest_source_html_cannot_execute (test_reader.ReaderTests.test_source_html_cannot_execute) ... ok\ntest_unique_anchors_and_resolvable_internal_links (test_reader.ReaderTests.test_unique_anchors_and_resolvable_internal_links) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.047s\n\nOK\n",
+  "reader_sha256": "aca7734635249552adb4a9d5f07dbc7e9c410ac56862954858f25f387cbb5a48",
+  "embedded_manuscript_count": 7,
+  "historical_manuscript_count": 2,
+  "preserved_source_artifact_count": 62,
+  "actual_candidate_link_counts_not_acceptance": {
+    "distinct_scenes": 35,
+    "scene_event_links": 39,
+    "distinct_events": 10,
+    "historical_scenes": 11,
+    "historical_events": 4
+  },
+  "browser_status": "BLOCKED_BROWSER_POLICY; no browser verification of final artifact claimed",
+  "candidate_event_links_sha256": "345364665f2e88d65afff7ef99fee715859be40bebe3b538025590df47e36cf3",
+  "all_season_progress_sha256": "6732485e03529be71e7bbc29e3976569883712211aaa4fa77f6b13406d7aeb36"
+}

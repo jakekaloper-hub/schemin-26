@@ -1,0 +1,164 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH15-FIFTEEN-CHAPTER-READER",
+  "version": "1.0",
+  "date": "2026-10-30",
+  "workflow": "Founder-authorized Commonwealth Novel autonomous end-to-end production",
+  "stage": "2016 causal Chapter XV and source-exact fifteen-chapter reading copy",
+  "project": "Schemin '26 Living Novel",
+  "owner": "author-production executor; independent editor and Umpire unverified",
+  "state": "NONCANON_DRAFT_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "base": "main",
+  "source_authority": {
+    "novel_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "source_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "archival_2016": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "archival_2016_git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "pov_superseding_rule": "living-novel/os/NOVEL_POV_CONSTITUTION_V1.md [only twelve owner principals permitted]",
+    "historical_human_owner_binding": "UNAUTHENTICATED"
+  },
+  "source_readback": {
+    "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "bullpen_commands": "docs/COMMAND_SYSTEM_V2.md; runtime/lifecycleEngine.js",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json [some historical statuses stale, not mutated]",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD"
+    },
+    "prior_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261030-2016-CAUSAL-CH14-FOURTEEN-CHAPTER-READER.json"
+  },
+  "input_fingerprints": {
+    "previous_chapter_git_blob": "f76ec3ae5245bccf57a8df2a3f3d76001319c68e",
+    "previous_reader_git_blob": "f106411e875c17952eb6d2f87f248f3e78b6f93d",
+    "historical_archive_git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "output_artifacts": [
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_PASSAGE_NO_ONE_COULD_SELL_CHAPTER_15_NONCANON.md",
+      "git_blob": "5bac0a5028acf452790c61ec41391660e86abb9e",
+      "words_whitespace_including_editorial": 6122,
+      "first_commit": "2f7e74d0d32c87755931ba6c2f2e9655c5a4536d"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_15_NONCANON.md",
+      "git_blob": "15edfc5fb050e00cca7b68c41061e538aa01aca7",
+      "words_whitespace_including_manifest": 74631,
+      "component_count": 15,
+      "previous_14_exact_preserved": true,
+      "first_commit": "bd7250a7a05f05a30b4b32ceb3807eadc587ef96"
+    },
+    {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_fifteen_reader.py",
+      "declared_unit_test_methods": 13,
+      "execution_status": "NOT_VERIFIED",
+      "commit": "6096768cfb59afb22bdb8f1bcb0865d411710f9a"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_15_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "commit": "046465e53329044cd2691c9bb304a5262de214c1",
+      "review": "SELF_CHALLENGE_ONLY"
+    }
+  ],
+  "protected_hard_2026": {
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "verification": {
+    "authenticated_github_readback": "PASS: 15/15 component Git SHA match and content-exact; 14/14 previous embedded chapter segments byte-identical; historical archive pinned",
+    "protected_hard_canon": "PASS: four pinned blobs directly compared on candidate branch",
+    "python_chapter_xv_tests": "NOT_RUN_OR_UNVERIFIED",
+    "ci_workflow_modification": "BLOCKED_BY_TOOL_SAFETY_CONTROLS; NO_CHANGE",
+    "mac_local_terminal": "TRANSIENT DEVICE_TIMEOUT; no verified execution",
+    "ci_at_test_file_commit": {
+      "sha": "6096768cfb59afb22bdb8f1bcb0865d411710f9a",
+      "novel_os": {
+        "id": 41049172104,
+        "conclusion": "SUCCESS"
+      },
+      "bullpen_runtime": {
+        "id": 41049172051,
+        "conclusion": "SUCCESS"
+      },
+      "cross_domain": {
+        "id": 41049172378,
+        "conclusion": "SUCCESS"
+      },
+      "repository_merge_gate": {
+        "id": 41049171887,
+        "conclusion": "SUCCESS"
+      },
+      "caveat": "The new 13 tests are not yet wired into existing CI; these green results are not test execution evidence."
+    },
+    "independent_editorial": "NOT_OBSERVED",
+    "independent_umpire": "NOT_OBSERVED",
+    "merge": false,
+    "canon_promoted": false,
+    "published": false,
+    "external_payment": false,
+    "final_checkpoint_commit_ci": "PENDING_CHECK"
+  },
+  "narrative_state": {
+    "pov": "Only fictional Jake, CHAR-JAKE-KALOPER, principal character; historical scoring-slot authentication unresolved",
+    "story_time": "After fictional Chapter XIV, after retained Week 13 notice, before any 2016 postseason character foreknowledge",
+    "chapter_job": "External Commonwealth trade/civilization stakes, distinct from recurring shelter and mill",
+    "causal_result": "Orchard route not granted, limited first freight passage crosses by boat, seed sample awaiting inspection, Jake paid minor fictional day wage and stays at quay overnight",
+    "world_events": "ALL_PROPOSED_NONCANON"
+  },
+  "continuity_holds": {
+    "lower_crossing": "UNSAFE",
+    "stranded_cart": "UNRECOVERED",
+    "new_bridge": "PROPOSED_FICTIONAL_DAMAGED",
+    "new_seed": "SAMPLED_NOT_ACCEPTED_OR_CONSUMED_SEPARATE_FROM_SHELTER_GRAIN",
+    "great_wheel": "UNFINISHED_UNTURNED",
+    "daughter_trial": "UNSIGNED_UNPROVEN",
+    "mill": "DAMAGED",
+    "burned_worker": "RECOVERY_UNKNOWN",
+    "supplier_invoice": "UNPAID",
+    "old_wages": "UNPAID",
+    "jake_pledge": "PARTIAL_UNPAID",
+    "sealed_message": "UNOPENED",
+    "east_chest": "INACCESSIBLE",
+    "false_summons_origin": "UNKNOWN",
+    "missing_claimant": "UNKNOWN",
+    "singer_destination": "UNKNOWN",
+    "ticket_refunds": "PARTIAL_DISPUTED",
+    "old_breadmaker": "VOLUNTARILY_DEPARTED"
+  },
+  "blocking_gates": [
+    "Historical human owner/team binding",
+    "Period Character and Atlas clearance for 2016 proposed setting and institutions",
+    "New Python test execution/dedicated CI enrollment; current workflow edit blocked",
+    "Independent Authors Council/Librarian/Umpire review",
+    "Founder-only canon or publication approval"
+  ],
+  "invalidation_triggers": [
+    "Change to 2016 archived historical facts or human owner binding",
+    "Change to twelve-owner POV law",
+    "Change to prior Chapter XIV or fourteen chapter reader fingerprints",
+    "Independent review rejecting fictional geography/seasonality/character legality",
+    "Unapproved alteration to hard 2026 manuscript canon",
+    "Any missing output artifact or changed expected Git blob"
+  ],
+  "next": [
+    "Post review request and verify no acceptance is implied",
+    "Confirm final exact checkpoint commit existing workflow runs, note that Chapter XV new tests are not invoked",
+    "Run 13 new Python tests via approved execution path when available; do not evade workflow safety controls",
+    "Seek period Atlas/Character and independent editorial challenge to repetitive rights/consent themes",
+    "Continue substantive noncanon Chapters XVI+ only from revised continuity with no invented ESPN results"
+  ]
+}

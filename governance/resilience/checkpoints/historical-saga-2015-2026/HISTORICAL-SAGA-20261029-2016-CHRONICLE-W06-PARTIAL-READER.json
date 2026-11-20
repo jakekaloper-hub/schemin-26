@@ -1,0 +1,92 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W06-PARTIAL-READER",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "date": "2026-10-29",
+  "continued_from": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W04-W05-PARTIAL-READER",
+  "stage": "2016_REGULAR_W06_SOURCE_EXACT_CI_VERIFIED_EDITORIAL_HOLD",
+  "authority": {
+    "schemin_main": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_session": "living-novel/os/SESSION_CONTEXT.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_commands": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": [
+      188,
+      243,
+      252,
+      261
+    ]
+  },
+  "archival_evidence": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "git_blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "season": 2016,
+    "week": 6,
+    "fixture_count": 6,
+    "competitive_coverage_current": "36 / 78",
+    "verified_against_archive_not_live_espn": true,
+    "historical_owner_binding": "NOT_PROVIDER_AUTHENTICATED"
+  },
+  "literary_output": {
+    "path": "living-novel/historical-chronicle/seasons/2016/weeks/W06.md",
+    "git_blob": "6d16b7aca6b337c54d5e96f2f6849b0e6c48bd83",
+    "whitespace_words_including_metadata": 5850,
+    "scenes": 6,
+    "title": "The Measure of an Empty Place",
+    "reader_path": "living-novel/historical-chronicle/seasons/2016/READING_COPY_PROLOGUE_W01_W06_PARTIAL_NONCANON.md",
+    "reader_components": 7,
+    "not_full_season": true,
+    "not_causal_novel": true,
+    "prior_week_blob": "bab0fe58cd46e77950d59fe0359a92efb78bd1ae"
+  },
+  "verification": {
+    "self_checked_fixture_lines": 6,
+    "self_checked_word_floor": true,
+    "ci_status": "SUCCESS_AT_REPAIRED_CODE_HEAD",
+    "independent_literary_review": "NOT_RECEIVED",
+    "independent_umpire": "NOT_RECEIVED",
+    "protected_canon": "test_exists_CI_PENDING",
+    "current_final_head": "W07_COMMIT_FOLLOWS_W06_CI_PASS",
+    "successful_code_head": "42cd2c59a3118fcb9e3b1f206c875f7679dc174b",
+    "ci_runs": {
+      "novel_os_ci": 40950195428,
+      "cross_domain_authority_ci": 40950195579,
+      "bullpen_runtime_ci": 40950195389,
+      "repository_merge_gate": 40950195861
+    },
+    "observed_test_failure": {
+      "failed_run": 40950074048,
+      "failed_case": "test_continuity_no_free_resolution",
+      "issue": "assertion searched for 'invoice remains unpaid' while manuscript states 'accepted-material claim remains unpaid'",
+      "repair_commit": "42cd2c59a3118fcb9e3b1f206c875f7679dc174b",
+      "manuscript_unchanged": true
+    }
+  },
+  "gates": {
+    "human_owner": "HOLD",
+    "period_character": "HOLD",
+    "historical_atlas": "HOLD",
+    "independent_literary": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder_canon": "HOLD",
+    "merge": "HOLD",
+    "publication": "HOLD"
+  },
+  "next": [
+    "Read exact final branch head and GitHub workflow results; repair any CI failure before claiming technical verification.",
+    "Draft 2016 W07 from pinned archival period 7, without inventing physical locations, owner genealogy or later competitive knowledge.",
+    "Assemble a source-exact W01-W07 reader with prior components left byte-identical.",
+    "Seek independent review from a real authenticated person/system; do not self-certify or merge."
+  ]
+}

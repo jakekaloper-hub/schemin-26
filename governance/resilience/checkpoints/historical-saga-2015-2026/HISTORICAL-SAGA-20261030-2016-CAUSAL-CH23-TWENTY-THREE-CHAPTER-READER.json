@@ -1,0 +1,162 @@
+{
+  "id": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH23-TWENTY-THREE-CHAPTER-READER",
+  "date": "2026-10-30",
+  "state": "DRAFT_WRITTEN_ASSEMBLED_SOURCE_VERIFIED_CI_257_PASS_AT_REPAIRED_TEST_SHA_INDEPENDENT_EDITORIAL_HOLD",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "resumes": "HISTORICAL-SAGA-20261030-2016-CAUSAL-CH22-TWENTY-TWO-CHAPTER-READER",
+  "reference_source": {
+    "schemin_main_sha": "ec941811d6334d70015ec97b2ac68a2d8a26eec6",
+    "bullpen_main_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "source_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "novel_canon_protocol": "living-novel/os/NOVEL_OS_CANON_PROTOCOL_V1.md",
+    "bullpen_command_registry": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "novel_tasks": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_tasks": "knowledge/EXECUTION_CONTROL_REGISTRY_V1.json",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT_HOLD",
+      "261": "OPEN_DRAFT_HOLD",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "artifacts": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROOM_BEYOND_THE_THRESHOLD_CHAPTER_23_NONCANON.md",
+      "git_blob": "d30c325ab05acf462693067e427bce9b069e0325",
+      "words_including_notes": 5510,
+      "movements": 5
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_23_NONCANON.md",
+      "git_blob": "cef21bdf82699e31b1fed5d3e439957d7d5ec939",
+      "whitespace_words_including_manifest": 122220,
+      "component_count": 23,
+      "prior_reader_blob": "58f1dedfee156a0e581956f3b91b5a0d653053a2"
+    },
+    "test": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_twenty_three_reader.py",
+      "git_blob_after_repair": "7b41de76ec160d810c5602c1c793855ee7ec5bbd",
+      "new_test_methods": 15
+    },
+    "self_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_23_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "git_blob": "44e091e1b9950ec8952ed47c17336c369dacf36b"
+    }
+  },
+  "verification": {
+    "prior_ch22_full_reader_exact_commit": "6aea8838cb92e12c21babc9776dfea7f9d7d41ee",
+    "prior_ch22_novel_os_test_count": 242,
+    "prior_ch22_four_ci": "PASS",
+    "new_ch23_source_and_reader": "DIRECT_GITHUB_READBACK_MATCH_CH23_BLOB_AND_23_SOURCE_MARKERS; PREVIOUS_22_COMPONENTS_UNCHANGED_IN_ASSEMBLER",
+    "protected_2026_main_vs_branch": {
+      "status": "BLOB_EQUAL_FRESH",
+      "prologue": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "ch1": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "ch2": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "ch3": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "archive_2016": {
+      "status": "BLOB_EQUAL_FRESH",
+      "blob": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+    },
+    "observed_ci_failure": {
+      "workflow": "Novel OS CI",
+      "run": 41117378148,
+      "total_tests": 257,
+      "failed": 2,
+      "reason": "two text literal assertions did not match unchanged chapter; test-only repairs"
+    },
+    "second_observed_failure": {
+      "workflow": "Novel OS CI",
+      "run": 41117466281,
+      "status": "FAILURE_BEFORE_TWO_LITERAL_REPAIR"
+    },
+    "repair_commit": "2d70195c3d7636044f285a6b80647c4919297e49",
+    "repair_ci_observed": {
+      "workflow": "Novel OS CI",
+      "run": 41117687076,
+      "status": "SUCCESS_ON_REPAIRED_TEST_SHA",
+      "other_three_workflows": "SUCCESS_ON_SAME_SHA"
+    },
+    "exact_final_head_ci": "TO_BE_CHECKED_AFTER_THIS_CHECKPOINT_COMMIT",
+    "independent_author_review": "REQUESTED_NOT_ACCEPTED",
+    "independent_umpire": "REQUESTED_NOT_ACCEPTED",
+    "merged": false,
+    "canon_promoted": false,
+    "published": false,
+    "observed_ci_failure_2": {
+      "workflow": "Novel OS CI",
+      "run": 41117540329,
+      "total_tests": 257,
+      "failed": 1,
+      "reason": "remaining test-only literal mismatch, repaired"
+    },
+    "final_repaired_test_commit": "dfcfe55192ae47e16e99360bf0f3aaf226b031fa",
+    "ci_at_repaired_test_commit": {
+      "novel_os": {
+        "run": 41117687076,
+        "conclusion": "SUCCESS",
+        "test_count": 257,
+        "failed": 0
+      },
+      "cross_domain": {
+        "run": 41117687180,
+        "conclusion": "SUCCESS"
+      },
+      "repository_merge_gate": {
+        "run": 41117687131,
+        "conclusion": "SUCCESS"
+      },
+      "bullpen_runtime": {
+        "run": 41117687228,
+        "conclusion": "SUCCESS"
+      }
+    },
+    "independent_review_request": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6532032003"
+  },
+  "narrative": {
+    "principal_pov": "fictional CHAR-JAKE-KALOPER only; 2016 owner-slot not authenticated",
+    "actual_change": "Public notice posted by Esi/Tern. A purported private record causes Sola to leave. Residents consider privacy screens and agree to one night of voluntary gate watch. Stranger presents ambiguous clog; Sola's situation and book thief remain unknown.",
+    "open_loops": [
+      "Sola destination/condition not established",
+      "clog custody uncertain",
+      "ledger contents and culprit unknown",
+      "suspected cover still held at west store",
+      "Esi replacement ledger still unbound",
+      "Mara away with Senn",
+      "Len injured eye",
+      "unsafe east boundary/chest still closed",
+      "missing claimant original/file and separate sealed message still private",
+      "supplier debt, Jake pledge, work commission and singer refunds unsettled",
+      "upriver seasonal offer unresolved"
+    ],
+    "historical_boundary": "No new ESPN facts, scoring results, owner identity, matchups or postseason claim"
+  },
+  "blocking_gates": [
+    "authenticated 2016 historical owner binding",
+    "period-correct Character and Atlas approval",
+    "independent Authors Council critique",
+    "independent Umpire acceptance",
+    "Founder-only canon, merge/publication decision",
+    "exact final-head green CI"
+  ],
+  "next": [
+    "Read all four workflows on the exact checkpoint head; if Novel OS CI fails, inspect real logs and repair, never cite previous SHA as final-head proof.",
+    "Repair observed failing tests only from evidence; do not rewrite fiction to satisfy a mistaken string literal.",
+    "Submit real independent author/Atlas/Character/Umpire review request; self-review is not acceptance.",
+    "Advance Chapter XXIV as substantial noncanonical causal fiction with Sola/communal protection consequences but avoid presuming an attack or revealing an unverified ledger thief.",
+    "Do not auto-promote canon, merge, publish, invent ESPN facts or add a nonowner interior POV."
+  ]
+}

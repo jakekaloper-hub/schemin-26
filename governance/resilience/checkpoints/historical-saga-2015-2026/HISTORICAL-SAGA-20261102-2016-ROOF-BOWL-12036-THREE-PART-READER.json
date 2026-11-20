@@ -1,0 +1,157 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261102-2016-ROOF-BOWL-12036-THREE-PART-READER",
+  "date_local": "2026-11-02",
+  "program": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_COMMONWEALTH_NOVEL",
+  "state": "NONCANON_SOURCE_PINNED_THREE_PART_PILOT_COMMITTED_AND_TESTED_INDEPENDENT_EDITORIAL_HOLD",
+  "repositories": [
+    "jakekaloper-hub/schemin-26",
+    "jakekaloper-hub/bullpen"
+  ],
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state": "OPEN_DRAFT_NOT_MERGED",
+  "resumes": "HISTORICAL-SAGA-20261102-2025-MEASURED-SERVICE-V5-65940-READER.json",
+  "main_readback": {
+    "schemin": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "authority": {
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md@67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "project_control": "PROJECT_CONTROL_REGISTRY.md@23bb20df8a4fbcd0805e84df749bdd231f38ee83",
+    "novel_book": "living-novel/os/NOVEL_BOOK_ARCHITECTURE_V2.md@9e67ee263848773deeec990fcca4ec8428d40c28",
+    "causal": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md@346b5883d41dc6551115a514d0dd9c87c385d60d",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json@5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md@cccf90a3cadac802767988ceab8f44453aa86819",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js@710caca4e4a01c934bdc53f22229acced48a2d78"
+  },
+  "issue_refs": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "pr_refs": [
+    188,
+    243,
+    252,
+    261,
+    264
+  ],
+  "literary": {
+    "new_chapter": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ROOF_AND_THE_UNCLAIMED_BOWL_2016_CH01_02_CONSOLIDATED_NONCANON.md",
+    "new_chapter_blob": "011a098cdd760cd820e9fc818ae24097375d3c8e",
+    "source_words_including_metadata": 3564,
+    "principal_interior": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "new_narrative_movements": 4,
+    "preserved_original_chapters": [
+      "THE_DEBT_BEFORE_THE_DOOR_CHAPTER_01_NONCANON.md@d93505009d7dda7acc010ce1a6e5ec2bacf65ec2",
+      "THE_NAMES_BEYOND_THE_WALL_CHAPTER_02_NONCANON.md@756126cb4e151a0bd78ece39ab59a4c54ef2aa43"
+    ],
+    "reading": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_2016_CAUSAL_CH01_04_THREE_PARTS_ROOF_AND_BOWL_CONSOLIDATION_NONCANON.md",
+    "reading_blob": "f1b85135caa3c06a8d26424a8bc7705578a5157d",
+    "reading_parts": 3,
+    "original_chapters_covered": 4,
+    "reading_sources": [
+      {
+        "part": 1,
+        "words": 3564,
+        "blob": "011a098cdd760cd820e9fc818ae24097375d3c8e"
+      },
+      {
+        "part": 2,
+        "words": 4495,
+        "blob": "f9bf0721c989d30bfd09189388b93293ba3a8ce0"
+      },
+      {
+        "part": 3,
+        "words": 3977,
+        "blob": "8994f9e443a6313dee217dfd5f92aedeff7bd88c"
+      }
+    ],
+    "source_words_including_metadata_total": 12036,
+    "prior_4_source_words_total": 16746,
+    "source_word_reduction": 4710,
+    "unmodified_full_72_chapter_reader": true,
+    "material_consequences": [
+      "east quarter unsafe and remains closed",
+      "accepted-material personal guarantee remains unpaid",
+      "missing claimant remains unknown and private",
+      "three-night canvas loan consented to by twelve borrowers; two choose other exits",
+      "canvas return due on third morning before source Chapter III",
+      "no approved permanent settlement or Atlas route"
+    ],
+    "editorial": "living-novel/historical-chronicle/seasons/2016/causal-novel/EDITORIAL_QA_2016_ROOF_AND_BOWL_THREE_PART_PILOT_2026_11_02.md@4c1e1b0fa0d8773e8de9cf5614adce1cb6596718"
+  },
+  "technical": {
+    "test_file": "living-novel/historical-chronicle/qa/test_2016_roof_bowl_three_part_reader.py",
+    "tests": 14,
+    "test_result": "PASS_EXACT_TESTED_COMMITS",
+    "test_assertion_repair": "81add2797c845fd37c0aca66e608730fd30fc103",
+    "first_failed_commit": "01adc4f216d0876fa9dc66d8b297fd70f808a67f",
+    "first_failed_run": 41560928080,
+    "first_failure": "one test expecting '12036 source words' omitted manifest's 'including metadata'; prose unchanged",
+    "verified_green_commit": "37dbb8056487fea6fe475664eccbcb4422186226",
+    "actions": [
+      {
+        "name": "Novel OS CI",
+        "run": 41561237936,
+        "result": "SUCCESS",
+        "new_test_step": "SUCCESS"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run": 41561238005,
+        "result": "SUCCESS"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run": 41561237909,
+        "result": "SUCCESS"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run": 41561237883,
+        "result": "SUCCESS"
+      }
+    ],
+    "new_tests_log": "job 125671777851 at earlier corrected commit 81add279, 'Ran 14 tests in 0.010s; OK'; same new step SUCCESS at 37db8056"
+  },
+  "protected_2026_blobs_equal_main_branch": {
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "historical_evidence": {
+    "2016": [
+      "two similar Austin-named historical teams are different slots",
+      "human manager IDs for non-Jake owners not authenticated",
+      "slot1 Jake association is fictional and must not be represented as verified personal history"
+    ],
+    "2025": "V5 65,940-source-word eleven-part manuscript retained untouched in this run; not promoted",
+    "full_2016": "72-chapter Jake-limited reader untouched; POV reassignments not performed"
+  },
+  "independent_review": {
+    "pr_review_count_at_start": 0,
+    "request_comment_id": 6593150019,
+    "submitted_independent_review": "NOT_OBSERVED",
+    "editorial_acceptance": "NOT_OBTAINED"
+  },
+  "release_hold": [
+    "NO_MERGE",
+    "NO_PUBLICATION",
+    "NO_CANON_PROMOTION",
+    "NO_EXTERNAL_SPEND",
+    "NO_SIMULATED_INDEPENDENT_REVIEW",
+    "NO_UNVERIFIED_ESPN_MANAGER_JOINS"
+  ],
+  "next": [
+    "Independently assess the new first-movement compression for calendar/character plausibility and lost texture",
+    "If literary concerns are resolvable, produce a source-grounded 2016 Chapter III–IV consolidation candidate with source-exact reading, without guessed owner IDs",
+    "Challenge 2016 72-Jake POV structural imbalance against actual historical-account IDs; retain prior manuscript as source",
+    "Obtain independent period Character Canon, Atlas, Historical Librarian and Umpire review before any Founder-only acceptance"
+  ]
+}

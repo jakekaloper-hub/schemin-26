@@ -1,0 +1,129 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2016-CHRONICLE-W02-W03",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "produced_on": "2026-10-29",
+  "governance": {
+    "schemin_main_at_intake": "1c77ae21ef34bf325b93fe0964d4b7ccd6e9e32d",
+    "bullpen_main_at_intake": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "prs": {
+      "historical": 243,
+      "closed_merged_188": 188,
+      "creative_candidate": 252,
+      "drift_audit": 261
+    }
+  },
+  "continued_from": "HISTORICAL-SAGA-20261029-2023-FULL-SEASON-POSTSEASON",
+  "stage": "2016_REGULAR_WEEK_2_AND_3_NONCANON_FICTION_DRAFTED_CI_VERIFIED_EDITORIAL_HOLD",
+  "archive": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+    "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "source": "Flaim ESPN 1417621",
+    "raw_upstream_provider_sha": "UNAVAILABLE",
+    "historical_human_owners": "NOT_PROVIDER_AUTHENTICATED",
+    "weeks": [
+      2,
+      3
+    ],
+    "fixture_records_this_run": 12,
+    "annual_regular_season_fixtures_expected": 78,
+    "season_2016_covered_by_draft_prose_including_older_week_1": 18,
+    "accepted_canonical_fixture_fiction": 0
+  },
+  "literary": {
+    "components": [
+      {
+        "path": "living-novel/historical-chronicle/seasons/2016/weeks/W02.md",
+        "git_blob_sha": "a2c179164dc529a34d92479b1c8a93f37acb10dd",
+        "title": "The Names That Would Not Buy Bread",
+        "words_including_metadata": 4343,
+        "scenes": 6
+      },
+      {
+        "path": "living-novel/historical-chronicle/seasons/2016/weeks/W03.md",
+        "git_blob_sha": "f515d2e46486f599906fd43cb98232585427ba0c",
+        "title": "The Joint That Held",
+        "words_including_metadata": 4026,
+        "scenes": 6
+      }
+    ],
+    "total_words_including_metadata": 8369,
+    "qa_receipt": "living-novel/historical-chronicle/seasons/2016/W02_W03_SOURCE_QA_RECEIPT.md",
+    "only_proposed_principal_pov": "CHAR-JAKE-KALOPER",
+    "character_binding": "AUTHOR_ROOM_PROPOSAL_NOT_HISTORICAL_OWNER_AUTHENTICATION",
+    "atlas_locations": "FICTION_ONLY_NOT_APPROVED",
+    "fictional_causal_state_out": {
+      "provisional_unnamed_shelter": "east structural beam repaired conditionally",
+      "promise": "fictional Jake's future supply share pledged under witnessed account",
+      "open_loops": [
+        "payment outstanding",
+        "volunteer labor credits and admission register unfinished",
+        "firewood insufficient",
+        "future inspection",
+        "historical identity not authenticated"
+      ]
+    },
+    "no_merge_no_canon_no_publication": true
+  },
+  "verification": {
+    "workflows_tested_sha": "92cf67e772f941494721ed1771afe5b2a6ec0909",
+    "novel_os_ci": {
+      "id": 40933588192,
+      "conclusion": "success",
+      "week_2_step": "success",
+      "week_3_step": "success"
+    },
+    "cross_domain_authority_ci": {
+      "id": 40933588113,
+      "conclusion": "success"
+    },
+    "bullpen_runtime_ci": {
+      "id": 40933588183,
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "id": 40933588103,
+      "conclusion": "success"
+    },
+    "regression_new_test_cases": 28,
+    "suites": [
+      "living-novel/historical-chronicle/qa/test_2016_second_week.py",
+      "living-novel/historical-chronicle/qa/test_2016_third_week.py"
+    ],
+    "protected_hard_manuscript_blobs_identical_to_main": {
+      "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+      "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+      "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+      "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+    },
+    "caution": "A later QA/checkpoint-only commit requires a fresh CI run if claiming exact final HEAD green; a run on the earlier tested SHA does not automatically certify it."
+  },
+  "gates": {
+    "independent_author_council": "NO_REVIEW_RECEIVED",
+    "independent_umpire": "NO_REVIEW_RECEIVED",
+    "historical_owner_authentication": "HOLD",
+    "historical_atlas_clearance": "HOLD",
+    "founder_canon_promotion": "HOLD",
+    "public_release": "HOLD",
+    "merge": "HOLD"
+  },
+  "next": [
+    "Reload exact draft PR 243 branch head, current main, source authority and new review/CI evidence; do not assume this saved SHA remains HEAD.",
+    "Advance 2016 Week 4's six primary-source results to substantial fiction, preserving the provisional Week 2-3 fictional pressure; never fabricate independent owner viewpoints or treat allegorical shelter geography as accepted Atlas.",
+    "Alternatively prioritize causality-first literary editing of an existing assembled 2023 Chronicle component once owner/Atlas evidence permits; neither historical week is automatically a novel chapter.",
+    "Keep independently drafted literary issues and creative integration PRs 252/261 separate, and preserve hard-canon Prologue/Chapters I-III byte-for-byte.",
+    "Request actual independent human/editorial and Umpire review; no self-review can discharge their gates."
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2016-CAUSAL-CH67-TWELVE-CHAPTER-CONTINUATION",
+  "project": "Schemin '26 Living Novel",
+  "workflow": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE_HISTORICAL_SAGA",
+  "date_utc": "2026-11-01",
+  "status": "CHAPTER_67_TECHNICALLY_VERIFIED_NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "previous_checkpoint_commit": "28e78a836f423c829d563bc32536e402da21791f",
+  "source_authority": {
+    "schemin_main_sha_read": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main_sha_read": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "novel_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_matrix_blob_sha": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+    "session": "living-novel/os/SESSION_CONTEXT.md",
+    "causal_architecture": "living-novel/os/NOVEL_CAUSAL_CHAPTER_ARCHITECTURE_V1.md",
+    "preprose_gate": "living-novel/os/templates/MINIMUM_PRE_PROSE_GATE_V1.md",
+    "pov_register": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command": "runtime/commandRegistry.js",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js",
+    "inspected_issues": [
+      210,
+      211,
+      214,
+      215,
+      219
+    ],
+    "inspected_prs": {
+      "188": "CLOSED_MERGED",
+      "243": "OPEN_DRAFT",
+      "252": "OPEN_DRAFT",
+      "261": "OPEN_DRAFT",
+      "264": "OPEN_DRAFT"
+    }
+  },
+  "input_fingerprints": {
+    "predecessor_reader_blob_sha": "8abc9a463f5d0d2eb36b7862af15afce3c435df6",
+    "prior_first_55_reader_blob_sha": "a21bbcbc7268e6523378097aa60d62e1c85bed35",
+    "historical_2016_archive_blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+    "predecessor_chapter_blob_sha": "ce5e0f1274ebcd7e2d2f4056886c608a969f63c2"
+  },
+  "output_digests": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ONE_WHO_WALKED_IN_CHAPTER_67_NONCANON.md",
+      "sha": "bf20178df8402b14e827b3364dd38618ce675c82",
+      "words": 4767
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_56_67_NONCANON.md",
+      "sha": "b245e52e66807de2c44ede6aa863728387e18459",
+      "words": 61763
+    },
+    "qa": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_67_SOURCE_EDITORIAL_QA_RECEIPT.md",
+      "sha": "68c97b082e58bc9d62fa09a3693c557e875f6b21",
+      "words": 1054
+    },
+    "tests": {
+      "path": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_sixty_seven_reader.py",
+      "sha": "8113d8bf789498065a8b78a1bda5ea584a7f6a20",
+      "words": 521
+    }
+  },
+  "literary": {
+    "chapter_title": "The One Who Walked In",
+    "chapter_number": 67,
+    "chapter_whitespace_words": 4767,
+    "narrative_words": 4336,
+    "movements": 6,
+    "twelve_chapter_continuation_whitespace_words": 61763,
+    "assembled_range": "LVI–LXVII",
+    "chapter_exclusive_pov": "PROPOSED FICTIONAL JAKE ONLY; other 2016 owner bindings unauthenticated",
+    "structural_defect": "67 CONSECUTIVE JAKE-LIMITED HISTORICAL CHAPTERS",
+    "fictional_proposed_turn": "Ilyen's unnamed brother physically returns alive the day after Hessa comes back from a search that found no identifiable person. One of seven fictional absences closes; six remain unlocated; no confirmed death, reliable route or reunion for the other six.",
+    "other_credits": "Esi's leaking roof seam only small-water spot-tested, not storm-certified",
+    "sources_no_invention": "All verified ESPN/Flaim 2016 results remain in archival history unchanged, no owner-to-team association invented.",
+    "unresolved": "The father's son among the six; six-owner cart collar at buyer, cart disabled; Dovan/Neris injuries; Aven/Neris estrangement; reed livelihood; Fara trough; Esi debt and roof; Nella's pegs; Meric timber."
+  },
+  "evidence": {
+    "tested_commit_sha": "b42152b24efa600c0f8ce3841236a2faa929f093",
+    "pre_checkpoint_test_command": "python -m unittest discover -s living-novel/historical-chronicle/qa -p \"test_2016_causal_chapter*reader.py\" -q",
+    "exact_ci_log": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41327640488",
+    "verified_test_count": 1273,
+    "new_tests": 30,
+    "novel_ci": {
+      "run": 41327640488,
+      "job": 124910840045,
+      "conclusion": "success",
+      "test_log": "Ran 1273 tests in 4.461s; OK"
+    },
+    "cross_domain": {
+      "run": 41327640625,
+      "conclusion": "success"
+    },
+    "bullpen_runtime": {
+      "run": 41327640508,
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "run": 41327640482,
+      "conclusion": "success"
+    },
+    "independent_review_request_comment_id": 6560840165,
+    "independent_pr_reviews_received": 0,
+    "checkpoint_commit_exact_head_ci": "PENDING_CHECK_AFTER_THIS_FILE",
+    "external_netlify_preview": "NOT VERIFIED; not part of core test success"
+  },
+  "protected_canon": {
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "release_gates": {
+    "canon": false,
+    "merged": false,
+    "published": false,
+    "founder_approval": false,
+    "independent_authors_council": false,
+    "independent_umpire": false,
+    "authenticated_historical_owner_alignment": false,
+    "atlas_review": false
+  },
+  "next_run": {
+    "first": "Read main SHA, current branch PR #243 head, exact checkpoint CI and any independent PR reviews; do not overwrite active changes.",
+    "second": "Independently interrogate the large survivor-return choice and perform structural owner-POV reconciliation with verified 2016 historical identities; no invented owner bindings.",
+    "third": "If review gate remains, continue substantial reversible noncanonical 2016 fiction only after checking the new count of SIX unlocated, not seven.",
+    "never": "Never promote draft prose, alter protected Prologue/I–III, invent ESPN results, or claim editorial approval from this checkpoint."
+  }
+}

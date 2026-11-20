@@ -1,0 +1,166 @@
+{
+  "schema_version": "commonwealth-novel-production-v1",
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W01-W02",
+  "state": "IN_PROGRESS_DRAFT_NONCANON_LITERARY_REVIEW_HOLD",
+  "recorded_local_date": "2026-10-29",
+  "mission": "Founder-authorized Commonwealth Novel autonomous source-grounded historical prose production and continuing Novel OS",
+  "repository": "jakekaloper-hub/schemin-26",
+  "control_repository": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "primary_pr": 243,
+  "active_issues": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "related_prs": {
+    "188": "MERGED_PREPRODUCTION_SOURCE",
+    "252": "DRAFT_CREATIVE_ADAPTER_NOT_MERGED",
+    "261": "DRAFT_EXECUTION_STATE_CHECKER_NOT_MERGED",
+    "264": "DRAFT_CHAPTER_I_ALTERNATIVE_NOT_MERGED"
+  },
+  "main_baseline_sha": "76c3f614c9eae70ead304c3f4cda7b44a95907e7",
+  "bullpen_main_baseline_sha": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+  "source_authority_matrix_blob": "67fcd669dc7b43393f2d15e93545301961dd81e4",
+  "durable_task_registry_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+  "historical_source": {
+    "path": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+    "sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "source": "Flaim ESPN 1417621 archived extract",
+    "historical_owner_mapping": "UNKNOWN",
+    "raw_espn_sha": "UNAVAILABLE"
+  },
+  "literary_output": {
+    "year": 2023,
+    "track": "HISTORICAL_CHRONICLE_SEPARATE_FROM_CAUSAL_SAGA",
+    "prologue": {
+      "path": "living-novel/historical-chronicle/seasons/2023/PROLOGUE.md",
+      "sha": "c127791a84098674e81846f995cf5b28fd68d122",
+      "regex_words": 1222
+    },
+    "week1": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W01.md",
+      "sha": "6eecc4d982ad429cfb47e6143270647ebde52aff",
+      "regex_words": 3602,
+      "matchup_passages": 6
+    },
+    "week2": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W02.md",
+      "sha": "06fc6514ca46e7e73b8c0473515f4b2657fdb75a",
+      "regex_words": 3072,
+      "matchup_passages": 6
+    },
+    "total_regex_words_including_frontmatter": 7896,
+    "source_matchup_coverage": {
+      "weeks": [
+        1,
+        2
+      ],
+      "matchups_covered": 12,
+      "regular_season_matchups_total": 84,
+      "regular_season_weeks_total": 14,
+      "postseason_covered": false
+    },
+    "principal_pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "pov_status": "PROPOSED_USER_ATTESTED_TEAM1_NOT_AUTHENTICATED_OWNER",
+    "other_human_owner_attribution": "NOT_CLAIMED",
+    "proposed_world_material": "ONE UNMAPPED CIVIC AWNING/REPAIR SETTING, WORKERS, TOOLS, IMAGINED WEATHER; ALL FICTION",
+    "other_2023_causal_manuscript_status": "SEPARATELY_PRESERVED_UNMODIFIED"
+  },
+  "artifact_receipts": {
+    "week1_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W01_SOURCE_QA_RECEIPT.md",
+      "sha": "cb3f98c335367e38144a9360ee914a3903b31a92"
+    },
+    "week2_qa": {
+      "path": "living-novel/historical-chronicle/seasons/2023/weeks/W02_SOURCE_QA_RECEIPT.md",
+      "sha": "a503a72cf0d15f334bd2b5ed4da0ff33145046c3"
+    },
+    "continuity": {
+      "path": "living-novel/historical-chronicle/seasons/2023/CONTINUITY.json",
+      "sha": "0d917a2e2b0000cefae965b009952a79e451f05b"
+    },
+    "week1_test": {
+      "path": "living-novel/historical-chronicle/qa/test_2023_opening_week.py",
+      "sha": "e630d29fc87435458b79e663cdba2bdf97a5fd0b"
+    },
+    "week2_test": {
+      "path": "living-novel/historical-chronicle/qa/test_2023_second_week.py",
+      "sha": "c80f101ce669c1629dd5cda3273ad7b3f7729026"
+    },
+    "workflow": {
+      "path": ".github/workflows/novel-os-ci.yml",
+      "sha": "bf0b7beec06c7e16c64fdd798d30bd2f206bc466"
+    }
+  },
+  "protected_main_blob_verification": {
+    "method": "Authenticated GitHub main-vs-PR branch blob comparison plus 2023 Week1 CI guard",
+    "PROLOGUE_DRAFT_V1.md": "5ef240b31a67cf1a3b6c6d8ee723bf39fc7dfaf0",
+    "CHAPTER_01_THE_FIRST_ANSWER.md": "26a17f05eb0565e7648c29add03ee9580ec933c3",
+    "CHAPTER_02_WHAT_COMES_BACK.md": "30fcf23a3eb8872fa0fb4dff029fe30044141121",
+    "CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md": "49e1fd1c20c61e4cf77a22489b7ec3eb3f6656cc"
+  },
+  "observed_ci": {
+    "tested_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d",
+    "novel_os": {
+      "run_id": 40831031518,
+      "conclusion": "success",
+      "week1_suite_tests": 7,
+      "week2_suite_tests": 7,
+      "named_steps_verified": true
+    },
+    "cross_domain": {
+      "run_id": 40831031606,
+      "conclusion": "success"
+    },
+    "bullpen_runtime": {
+      "run_id": 40831031495,
+      "conclusion": "success"
+    },
+    "repository_merge_gate": {
+      "run_id": 40831031612,
+      "conclusion": "success"
+    },
+    "observed_initial_test_error": {
+      "sha": "5db8717278a1c82b5b17c8f85e79ec21a4eb4f24",
+      "run_id": 40830935809,
+      "cause": "Overly exact assertion on Fourth Address title article; scoreboard assertions passed",
+      "repaired_commit": "09955de652ec4d583eb9b79b73136f6b84f6740d"
+    },
+    "caveat": "Subsequent documentation-only branch changes not represented as passing without own observed CI; CI does not imply Umpire signoff."
+  },
+  "independent_review": {
+    "github_review_submissions_at_start": 0,
+    "review_request_comment_id": 6489933259,
+    "status": "COMMENT_REQUEST_POSTED_NO_ACCEPTANCE_RECEIVED",
+    "requested_craft_challenges": [
+      "six encounters compressed into one awning",
+      "repeated repair/record metaphors across recent years",
+      "historical POV/owner temporal association",
+      "2023 time-correct geography and Gallery compatibility",
+      "El Niño storm / TDS banner continuity"
+    ]
+  },
+  "holds": {
+    "historical_owner_authentication": "UNVERIFIED",
+    "physical_world_atlas": "PROPOSED_UNAPPROVED",
+    "independent_author_council": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "founder_canon_promotion": "NOT_AUTHORIZED",
+    "publication": "NOT_AUTHORIZED",
+    "pr_status": "DRAFT_UNMERGED"
+  },
+  "next_authorized_work": [
+    "First check PR #243 reviews and exact-head CI for genuine findings; fix reproducible defects.",
+    "Write 2023 Week 3 six independently archived contest narratives using the verified G01 weekly rows and different social/physical pressures; no imagined owner identities or venues.",
+    "Keep Week1+2 manuscripts separate from The Fourth Address causal V1, and avoid repeating one-awning-six-announcements structure without independent developmental challenge.",
+    "Continue subsequent verified weeks and postseason until season complete; no canon/publish without independent and Founder gates."
+  ],
+  "branch_head_before_checkpoint": "0245cec501369045c001063328a62883154c24be",
+  "merge_performed": false,
+  "publication_performed": false
+}

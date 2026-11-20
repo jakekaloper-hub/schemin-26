@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-04",
+  "type": "EXACT_COMMIT_CI_VERIFIED_PRODUCTION_RECEIPT",
+  "scope": "2016 Chapter XLII V2 — The Stage Beneath the Short Awning: The Part That Made No Sound",
+  "repository": "jakekaloper-hub/schemin-26",
+  "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/243",
+  "branch": "novel/historical-epic-2015-2026",
+  "tested_production_commit": "0e99c86956a10d1e4db381a8f73582a6b432094a",
+  "previous_commit": "a98886ba86de3fb3470d9f55973054b3f42570fd",
+  "artifacts": {
+    "scene": "255d0bec68aee083c8e83d9e411d77f413022bd7",
+    "revised_chapter": "163cecc205c244cf0b3f1f4b69fa47409c536846",
+    "prior_38_part_reader": "aa1137b33f35e02828296b6c671fade5b51f5044",
+    "assembled_39_part_reader": "6b4fb8e8fc939d55553953480879380b9ba6d3a8",
+    "python_regressions": "576a7a46118ded7467e1dbd575de677b44229d60",
+    "author_side_editorial_receipt": "70a505290e00288dc9bd75650ecc12aede26fa70"
+  },
+  "counts": {
+    "new_fiction_words_including_heading": 2264,
+    "chapter_source_words_including_metadata": 10693,
+    "source_component_words_including_metadata": 298246,
+    "assembled_parts": 39,
+    "previous_parts_preserved": 38,
+    "original_chapter_movements_preserved": 6
+  },
+  "evidence": {
+    "required_workflows": [
+      {
+        "name": "Novel OS CI",
+        "run_id": 41787079197,
+        "status": "completed",
+        "conclusion": "success",
+        "log_link": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41787079197"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "run_id": 41787079144,
+        "status": "completed",
+        "conclusion": "success",
+        "log_link": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41787079144"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "run_id": 41787079136,
+        "status": "completed",
+        "conclusion": "success",
+        "log_link": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41787079136"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "run_id": 41787079139,
+        "status": "completed",
+        "conclusion": "success",
+        "log_link": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41787079139"
+      }
+    ],
+    "novel_os_job_id": 126431560888,
+    "novel_os_log_observed": "Ran 1630 tests in 4.818s — OK; 20 additional tests included in historical suite via test_2016_causal_chapter*reader.py discovery compared with previous 1610-test production receipt; no separate test invocation represented.",
+    "exact_commit_workflow_verification": "FOUR_SUCCESS",
+    "source_exact_reader_composition": "PRE_COMMIT_JS_STRING_CHECK_PASS",
+    "four_hardcanon_blobs": "REGRESSION_CHECK_SUCCESS",
+    "historical_2016_evidence_archive": "REGRESSION_CHECK_SUCCESS",
+    "independent_authors_council_verdict": "NOT_RECEIVED",
+    "independent_umpire_verdict": "NOT_RECEIVED",
+    "review_requests": {
+      "schemin_pr_243_comment_id": 6624447247,
+      "bullpen_issue_117_comment_id": 6624447794
+    }
+  },
+  "gates": {
+    "historical_owner_slot": "UNAUTHENTICATED",
+    "period_character_canon": "NOT_RECEIVED",
+    "historical_librarian": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "authors_council": "NOT_RECEIVED",
+    "independent_umpire": "NOT_RECEIVED",
+    "founder_canon_release": "NOT_RECEIVED",
+    "merged": false,
+    "published": false,
+    "canon_promoted": false
+  },
+  "next": "Resume Chapter XLIII The Name He Sold from its existing original source. Preserve Jake's accepted eight coins and knowingly false written eyewitness account, attached correction still unaccepted, and continued missing freight/second horse. Prevent prior-POV leakage and no unsupported ESPN or period Atlas facts. If no new eligible prose, obtain independent editorial review evidence. Never merge automatically.",
+  "caveat": "Successful workflows above apply only to tested production commit 0e99c869..., not this later receipt-only commit."
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "commonwealth-historical-saga-production-checkpoint-v1",
+  "status": "NONCANON_INDEPENDENT_EDITORIAL_HOLD",
+  "timestamp_utc": "2026-10-31T08:38:30.740Z",
+  "mission": "BULLPEN PERMANENT EXECUTIVE MANDATE — COMMONWEALTH NOVEL AUTONOMOUS END-TO-END PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "organizational_authority": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_number": 243,
+  "resumed_from_head": "e9948e60190d569e7cb2fa0328b65c694436beab",
+  "prose_commit": "5af5c37d7f1ccfaa64462b8bb3dbcef77f5191a5",
+  "resumed_from_checkpoint": "governance/resilience/checkpoints/historical-saga-2015-2026/HISTORICAL-SAGA-20261031-2016-CAUSAL-CH35-THIRTY-FIVE-CHAPTER-READER.json",
+  "authorities": {
+    "source_matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "novel_directive": "living-novel/MASTER_DIRECTIVE.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "pov": "canon/characters/TWELVE_CHARACTER_NARRATIVE_POV_REGISTER_V1.md",
+    "bullpen": "BULLPEN.md; docs/COMMAND_SYSTEM_V2.md; runtime/lifecycleEngine.js",
+    "history": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json"
+  },
+  "issues_reconciled": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "prs_reconciled": {
+    "188": "MERGED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "literary_output": {
+    "chapter": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_ASH_AT_FARAS_DOOR_CHAPTER_36_NONCANON.md",
+      "git_blob": "7a893b228e9c0bf21504c837b216763080ec6e09",
+      "whitespace_words_including_notes": 6619,
+      "movements": 6
+    },
+    "reader": {
+      "path": "living-novel/historical-chronicle/seasons/2016/causal-novel/READING_COPY_CAUSAL_CHAPTERS_01_36_NONCANON.md",
+      "git_blob": "32d4dd8868a558e1a7a774fb8d3730c4b7129160",
+      "whitespace_words_including_notes": 204373,
+      "source_components": 36
+    },
+    "previous_reader_blob": "75deb978aa788747bf6beaf32e8a2fd6ea530c05",
+    "qa": "living-novel/historical-chronicle/seasons/2016/causal-novel/CHAPTER_36_SOURCE_EDITORIAL_QA_RECEIPT.md",
+    "tests": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_six_reader.py"
+  },
+  "observed_in_memory": {
+    "chapter_and_reader_blob_created": true,
+    "new_section_source_exact": true,
+    "chapter_boundary_count": 36,
+    "all_prior_35_sections_inherited_unchanged": true,
+    "python_tests": "PENDING",
+    "remote_ci": "PENDING"
+  },
+  "protected_main": [
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md",
+    "living-novel/manuscript/CHAPTER_01_THE_FIRST_ANSWER.md",
+    "living-novel/manuscript/CHAPTER_02_WHAT_COMES_BACK.md",
+    "living-novel/manuscript/CHAPTER_03_THE_HILL_IS_NOT_THE_KINGDOM.md"
+  ],
+  "review_gates": {
+    "historical_owner_auth": "NOT_ACCEPTED",
+    "period_atlas_character": "NOT_ACCEPTED",
+    "authors_council": "NOT_ACCEPTED",
+    "independent_umpire": "NOT_ACCEPTED",
+    "founder_promotion": "NOT_AUTHORIZED",
+    "merged": false,
+    "published": false
+  },
+  "continuity": {
+    "entering": "Pell returned, freight missing, Fara's gate open and canvas intact; Jake missed work and has old debts.",
+    "turn": "Fourteen noncanonical fictional travelers shelter amid airborne ash; ember ruins Fara's family canvas; Hessa chooses to wait; Jake is assigned cleaning but no recorded wage.",
+    "exit": "Travelers safe through observed morning only, fire origin unknown, Fara awning damaged; path and shelter future unresolved; kiln shut; Pell still injured; no certified new wage.",
+    "new_open_loops": [
+      "Fara's damaged inherited awning",
+      "Hessa's sister and travelers' next passage",
+      "Cause of distant ash/fire unidentified",
+      "Escaped bird not recovered"
+    ],
+    "old_open_loops": [
+      "Driver Mael, second horse, freight/cart unknown",
+      "Mare recovery unknown",
+      "Shelter debts outstanding",
+      "Mev-to-Esi letter receipt unknown",
+      "Lysa/Corin and household conflict unresolved",
+      "Historic 2016 ownership unidentified"
+    ]
+  },
+  "next": [
+    "Attach blobs to existing draft branch and verify exact Git SHA and CI; independent reviewers/Umpire only if authenticated.",
+    "Draft Chapter XXXVII with a consequential resolution to the ash-induced displacement rather than repeating rescue patterns.",
+    "Do not merge, publish, canonize, alter hard canon or fabricate 2016 ESPN outcomes."
+  ]
+}

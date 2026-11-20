@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-04",
+  "kind": "EXACT_COMMIT_CI_VERIFIED_NONCANON_CH47_44_PART_PRODUCTION",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "verified_production_commit": "7810c8dc61d64f3636bd0607cd093788209ad80d",
+  "governing_main_seen": {
+    "schemin_26": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "governing_authorities": [
+    "SCHEMIN_26_PROJECT_MISSION.md",
+    "PROJECT_CONTROL_REGISTRY.md",
+    "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen/BULLPEN.md",
+    "bullpen/docs/COMMAND_SYSTEM_V2.md",
+    "bullpen/runtime/lifecycleEngine.js",
+    "Schemin #210 #211 #214 #215 #219; PR #188 closed, #252 #261 draft, #243 active; Bullpen #117"
+  ],
+  "literary": {
+    "chapter": "The Bell That Had No Owner — The Oven Without a Bell (Chapter XLVII V2)",
+    "new_original_fiction_words": 2237,
+    "revised_chapter_words_including_metadata": 7939,
+    "old_chapter_words_including_metadata": 5696,
+    "old_chapter_blob": "c1bb3b86aa6f789d59fe2688600c10563496d5a5",
+    "new_chapter_blob": "47d7f0839ad61f28d5d2191640ba2ad622f4a8a7",
+    "scene_blob": "2856cc939b8903fc8f4abda5830d6c2718ab673d",
+    "original_movements_preserved_source_exact": 6,
+    "revised_movements": 7,
+    "limited_interior_pov": "proposed fictional Jake only (owner-to-scoring-slot not authenticated)",
+    "geography_and_actions": "secondary-world fiction, not certified Atlas/verified league history",
+    "scene_path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_BELL_THAT_HAD_NO_OWNER_THE_OVEN_WITHOUT_A_BELL_CH47_V2_SCENE_NONCANON.md",
+    "chapter_path": "living-novel/historical-chronicle/seasons/2016/causal-novel/THE_BELL_THAT_HAD_NO_OWNER_THE_OVEN_WITHOUT_A_BELL_CH47_V2_NONCANON.md"
+  },
+  "manuscript": {
+    "builder": "living-novel/historical-chronicle/qa/build_2016_causal_44_part_oven_reader.py",
+    "source_exact_components": 44,
+    "previous_components_preserved": 43,
+    "component_source_words_including_metadata": 339262,
+    "artifact_name": "commonwealth-2016-44part-oven-developmental-reader-noncanon",
+    "artifact_id": 13317411235,
+    "artifact_run_id": 41822082566,
+    "artifact_zip_bytes": 687723,
+    "artifact_expires": "2026-11-11T11:35:33Z",
+    "full_reader_committed_to_repo": false
+  },
+  "tests": {
+    "observed_initial_failure": "two regex movement assertions incorrectly double-escaped on commit 6443aef8; repaired before exact-commit test pass",
+    "dedicated_new_tests": 20,
+    "all_historical_regressions_passed": 1738,
+    "standalone_new_test_passed": 20,
+    "all_tests_in_exact_SHA_job_logs": true,
+    "protected_canon_remains_unchanged": true,
+    "reviewer_test_claims": false
+  },
+  "workflows": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41822082566,
+      "conclusion": "success",
+      "head_sha": "7810c8dc61d64f3636bd0607cd093788209ad80d"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41822082370,
+      "conclusion": "success",
+      "head_sha": "7810c8dc61d64f3636bd0607cd093788209ad80d"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41822082264,
+      "conclusion": "success",
+      "head_sha": "7810c8dc61d64f3636bd0607cd093788209ad80d"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41822082294,
+      "conclusion": "success",
+      "head_sha": "7810c8dc61d64f3636bd0607cd093788209ad80d"
+    }
+  ],
+  "reviews": {
+    "independent_submitted_pr_reviews_last_checked": 0,
+    "authors_council": "NOT_RECEIVED",
+    "historical_librarian": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "character_canon": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "founder": "NOT_RECEIVED"
+  },
+  "editorial_challenges": [
+    "Fara and Pell may be too neatly principled or a parable of consent",
+    "Repeated evidence-recordkeeping motif",
+    "Flue/soot/oven repair technique needs material plausibility review",
+    "Returning customer's order and unknown boy may be too convenient",
+    "Confirm Chapter XLVIII flour-wagon rope scene follows lost account, smaller loaves and uncertain oven capacity without invented facts",
+    "All 2016 secondary geographies and owner bind remain fictional/unapproved"
+  ],
+  "release": {
+    "noncanon": true,
+    "draft_pr": true,
+    "merged": false,
+    "published": false,
+    "canon_promoted": false,
+    "independent_umpire_accepted": false,
+    "founder_release_approved": false
+  },
+  "next": "Resume active PR #243 after this checkpoint, read fresh main and branch heads; develop Chapter XLVIII — The Morning of Small Loaves — with noncanonical substantial fiction that causally follows Garran's unauthorized rope, delayed flour, Fara's weakened bakery trade, Pell's lantern and 2016 evidence/POV restrictions. Build 45-part reader and add regression coverage; do not merge or publish.",
+  "caveat": "Four PASS workflows apply only to verified production commit 7810c8d...; later checkpoint-only commit must be treated as unverified until its own CI completes."
+}

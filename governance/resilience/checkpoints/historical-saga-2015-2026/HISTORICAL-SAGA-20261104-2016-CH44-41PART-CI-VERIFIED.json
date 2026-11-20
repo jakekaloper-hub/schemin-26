@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-04",
+  "kind": "EXACT_COMMIT_CI_VERIFIED_RECEIPT",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr_url": "https://github.com/jakekaloper-hub/schemin-26/pull/243",
+  "tested_commit": "a2d829743ada557d681c857944e2f73e075e0580",
+  "production_commit": "fe2cb5b5132540ac445f485a0713a0f10b1f4703",
+  "literary_output": {
+    "title": "The Floor That Could Be Lifted — The Boot at the Threshold",
+    "new_fiction_words": 2364,
+    "chapter_source_words_incl_metadata": 8545,
+    "assembled_reader_parts": 41,
+    "reader_component_source_words_incl_metadata": 316215,
+    "preceding_parts_preserved": 40
+  },
+  "source_blobs": {
+    "original": "e3250efd8dbc4df8a1dceba6b663d1f45159aaf3",
+    "scene": "cfff217578f1504f203d4161ebe7cb3e9387828f",
+    "revised": "d450ee2b725201f6d1660613b5880450f63c62d6",
+    "reader": "b8ea32a932cfeeebc0f5f359ed90eed0a776918d",
+    "tests_corrected": "6c820507e4a5289691bb837772d84bfd16fb6ec7"
+  },
+  "checks": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41800949732,
+      "head_sha": "a2d829743ada557d681c857944e2f73e075e0580",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41800949732"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41800949669,
+      "head_sha": "a2d829743ada557d681c857944e2f73e075e0580",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41800949669"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41800949681,
+      "head_sha": "a2d829743ada557d681c857944e2f73e075e0580",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41800949681"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41800949781,
+      "head_sha": "a2d829743ada557d681c857944e2f73e075e0580",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41800949781"
+    }
+  ],
+  "novel_os_job_id": 126476262606,
+  "novel_os_log_observed": "Ran 1670 tests in 5.118s — OK, including 20 new Chapter XLIV V2 assertions; previous Chapter XLIII run had 1650.",
+  "preservation_readback": {
+    "protected_main_prologue_and_chapters_I_to_III_git_blobs_equal": true,
+    "historical_2016_fixtures_blob_equal": true,
+    "preceding_reader_embeds_byte_identical": 40,
+    "reader_parts": 41,
+    "new_chapter_embedded_source_exact": true
+  },
+  "independent_review": {
+    "schemin_PR_243_request_comment_id": 6626452146,
+    "bullpen_issue_117_request_comment_id": 6626452860,
+    "authors_council": "NOT_RECEIVED",
+    "umpire": "NOT_RECEIVED",
+    "historical_owner_binding": "UNAUTHENTICATED",
+    "period_atlas": "NOT_APPROVED"
+  },
+  "release": {
+    "merged": false,
+    "published": false,
+    "canon_promoted": false,
+    "founder_release_approval": false
+  },
+  "next": "Chapter XLV — The Road That Would Not Wait; continue noncanonical fiction from itinerant musicians Veyra, Berrit, Sol; protect Sela and children's agency, Pell work rupture, freight account uncertainty, hard-canon and historical evidence.",
+  "caveat": "Workflow and test results apply only to the exact tested_commit. Later receipt-only commit does not inherit exact-commit verification. No independent editorial acceptance claimed."
+}

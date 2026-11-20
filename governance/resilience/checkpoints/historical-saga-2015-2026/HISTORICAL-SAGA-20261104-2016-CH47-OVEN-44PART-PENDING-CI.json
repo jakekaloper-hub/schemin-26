@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-04",
+  "kind": "NONCANON_CH47_V2_44_PART_PRODUCTION_PENDING_CI",
+  "repo": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "parent_commit": "d7dbb10b8d538a90b0a7a9bd7ce97bb119c11deb",
+  "governing_main_seen": {
+    "schemin_26": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "pr": 243,
+  "source_authority": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+  "literature": {
+    "chapter": "THE_BELL_THAT_HAD_NO_OWNER_THE_OVEN_WITHOUT_A_BELL_CH47_V2_NONCANON.md",
+    "scene": "THE_BELL_THAT_HAD_NO_OWNER_THE_OVEN_WITHOUT_A_BELL_CH47_V2_SCENE_NONCANON.md",
+    "new_scene_words": 2237,
+    "revised_chapter_words": 7939,
+    "prior_component_words": 331323,
+    "new_total_component_words": 339262,
+    "prior_components": 43,
+    "total_components": 44,
+    "source_blob_original_ch47": "c1bb3b86aa6f789d59fe2688600c10563496d5a5",
+    "source_blob_new_ch47": "47d7f0839ad61f28d5d2191640ba2ad622f4a8a7",
+    "scene_blob": "2856cc939b8903fc8f4abda5830d6c2718ab673d"
+  },
+  "verification": {
+    "structural_preflight": "pass: scene once; insertion point and protected preexisting source unchanged",
+    "ci": "PENDING_NEW_COMMIT",
+    "independent_review": "NOT_RECEIVED",
+    "founder": "NOT_RECEIVED"
+  },
+  "gates": [
+    "unverified 2016 owner/slot association",
+    "period Atlas/Character Canon",
+    "independent Authors Council/Umpire",
+    "Founder canon/publishing approval"
+  ],
+  "next": "Inspect exact SHA Novel OS CI and all required workflows, diagnose actual failure. Reconcile Chapter XLVIII The Sound Beyond the Fence from authoritative source; preserve Fara's removed clapper and nonbinding watch split."
+}

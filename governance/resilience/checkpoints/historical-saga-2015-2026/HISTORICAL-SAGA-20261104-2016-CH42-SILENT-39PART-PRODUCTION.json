@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-04",
+  "kind": "PRODUCTION_UNVERIFIED_CI_PENDING",
+  "scope": "2016 Chapter XLII V2 — The Part That Made No Sound",
+  "repository": "jakekaloper-hub/schemin-26",
+  "pr": 243,
+  "branch": "novel/historical-epic-2015-2026",
+  "parent_head": "a98886ba86de3fb3470d9f55973054b3f42570fd",
+  "source_mains": {
+    "schemin": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "artifact_blobs": {
+    "original_ch42": "6294ffee1d478a493091a532451cdbb9f867f917",
+    "scene": "255d0bec68aee083c8e83d9e411d77f413022bd7",
+    "revised_ch42": "163cecc205c244cf0b3f1f4b69fa47409c536846",
+    "previous_reader": "aa1137b33f35e02828296b6c671fade5b51f5044",
+    "assembled_39_part_reader": "6b4fb8e8fc939d55553953480879380b9ba6d3a8",
+    "author_side_qa": "70a505290e00288dc9bd75650ecc12aede26fa70",
+    "test_source": "576a7a46118ded7467e1dbd575de677b44229d60",
+    "retained_2016_matchups": "6dbec1fe2537139f3a97c6a78250e2bae082a518"
+  },
+  "counts": {
+    "new_scene_words": 2264,
+    "chapter_source_words": 10693,
+    "reader_parts": 39,
+    "component_source_words": 298246,
+    "prior_parts_unchanged": 38,
+    "original_six_movements_preserved": 6
+  },
+  "checks": {
+    "javascript_source_exact_old_movements": "PASS_LOCAL_COMPOSITION_CHECK",
+    "javascript_previous_reader_prefix": "PASS_LOCAL_COMPOSITION_CHECK",
+    "regression_tests": "NOT_YET_RUN",
+    "novel_os_ci": "NOT_YET_RUN",
+    "four_required_workflows": "NOT_YET_VERIFIED",
+    "independent_review": "NOT_RECEIVED"
+  },
+  "gates": {
+    "historical_manager": "UNAUTHENTICATED",
+    "authors_council": "PENDING",
+    "librarian": "PENDING",
+    "period_character_canon": "PENDING",
+    "atlas": "PENDING",
+    "independent_umpire": "PENDING",
+    "founder_release": "CLOSED",
+    "merge": false,
+    "canon_promotion": false,
+    "publication": false
+  },
+  "next": "Verify exact commit CI and new test 20/20; request independent review; continue Chapter XLIII noncanon work once gate permits, do not promote/cite historical owner slots."
+}

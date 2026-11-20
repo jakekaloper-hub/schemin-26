@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "type": "EXACT_COMMIT_CI_VERIFICATION_RECEIPT",
+  "scope": "2016 Chapter XL V2 — The House Made from a Road / The Donkey and the Broken Measure",
+  "tested_commit": "3a6e1efc02c28ab3e5fa7b4ec54f5863f20ec27f",
+  "pr": "https://github.com/jakekaloper-hub/schemin-26/pull/243",
+  "workflow_results": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41774171200,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41774171200"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41774171221,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41774171221"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41774171201,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41774171201"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41774171183,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41774171183"
+    }
+  ],
+  "novel_os_test_job_id": 126390520953,
+  "novel_os_full_reader_chain_step": {
+    "name": "Validate full 2016 causal manuscript reader chain (noncanon, source-exact)",
+    "conclusion": "success"
+  },
+  "chapter_forty_specific_test_assertions": 18,
+  "test_report_observed": "Ran 18 tests in 0.120s — OK (Novel OS CI job logs)",
+  "reported_component_wordcount_incl_metadata": 277463,
+  "new_scene_narrative_words": 2524,
+  "seven_movement_chapter_source_words": 9258,
+  "developmental_reader_parts": 37,
+  "independent_review": "NOT_RECEIVED",
+  "independent_umpire": "NOT_RECEIVED",
+  "historical_owner_slot": "NOT_AUTHENTICATED",
+  "founder_approval": "NOT_RECEIVED",
+  "merge": false,
+  "canon_promotion": false,
+  "publication": false,
+  "next": "Continue Chapter XLI The Marks at the Crossroads. Preserve original ending's carter false public-lodging rumor, apprentice right to make an independent work decision, and six-person 21-night private arrangement. New fiction only with an authorized owner POV. No asserted 2016 league facts.",
+  "caveat": "All workflow conclusions apply to exact tested commit 3a6e1efc..., not to this subsequent checkpoint-only write."
+}

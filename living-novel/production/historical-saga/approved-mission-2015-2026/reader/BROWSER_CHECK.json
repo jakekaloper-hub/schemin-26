@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED_BROWSER_POLICY",
+  "action": "Chromium page.goto local draft reader file URL",
+  "target": "file:///workspace/schemin-26/living-novel/production/historical-saga/approved-mission-2015-2026/reader/index.html",
+  "reason": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+  "outcome": "Denied at navigation; no rendered reader, viewport or anchor-navigation result",
+  "attempted_command": "python check_browser.py",
+  "exit_code": 1,
+  "reader_sha256_at_attempt": "93cbd7e80969b627d0536713ea8ccab7791594ddb273b74e52eb32ca7a306fc0",
+  "completed_independent_of_browser": "Eight Python technical tests passed with actual manuscript embedded; source hashes, HTML escaping, internal links and partial status checked.",
+  "retry_status": "Not retried; no alternative scheme or server used to bypass managed browser policy."
+}

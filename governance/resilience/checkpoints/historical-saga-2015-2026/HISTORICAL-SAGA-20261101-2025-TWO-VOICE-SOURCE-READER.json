@@ -1,0 +1,161 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261101-2025-TWO-VOICE-SOURCE-READER",
+  "date_utc": "2026-11-01",
+  "mission": "BULLPEN_PERMANENT_EXECUTIVE_MANDATE",
+  "repo": "jakekaloper-hub/schemin-26",
+  "bullpen_repo": "jakekaloper-hub/bullpen",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "pr_state": "OPEN_DRAFT",
+  "resumed_from_commit": "b4c2cf701c89041bf3865a3a1a0b7eb26200f72a",
+  "authority": {
+    "schemin_main": "e989c4436ecbd7f6ba9db1362d6e8bd186ebaf80",
+    "bullpen_main": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+    "matrix": "living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md",
+    "character": "living-novel/characters/09_AUSTIN_BYARS.md",
+    "hard_opening": "living-novel/narrative/STATE_OF_THE_REALM_2026_OPENING.md",
+    "task_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "bullpen_command": "docs/COMMAND_SYSTEM_V2.md",
+    "bullpen_lifecycle": "runtime/lifecycleEngine.js"
+  },
+  "issue_reviewed": [
+    210,
+    211,
+    214,
+    215,
+    219
+  ],
+  "pr_reviewed": {
+    "188": "MERGED",
+    "243": "OPEN_DRAFT",
+    "252": "OPEN_DRAFT",
+    "261": "OPEN_DRAFT"
+  },
+  "selection_reason": "2016 historical owner-account crosswalk blocked after 72 Jake-limited chapters; new distinct Austin POV placed in 2025 where 2026 hard opening already recognizes him as 2025 Belt Keeper, preserving historical ESPN owner-account uncertainty.",
+  "source_truth": {
+    "connected_provider": "Flaim/ESPN 1417621 2025 historical get_league_info, get_standings, get_matchups weeks 16 and 17",
+    "semifinal": {
+      "season": 2025,
+      "week": 16,
+      "winner_team_id": 8,
+      "winner_name": "The Immortal",
+      "winner_score": 152.2,
+      "loser_team_id": 12,
+      "loser_name": "Dr. Duckhook",
+      "loser_score": 151.8
+    },
+    "final": {
+      "season": 2025,
+      "week": 17,
+      "winner_team_id": 8,
+      "winner_name": "The Immortal",
+      "winner_score": 161.07,
+      "loser_team_id": 1,
+      "loser_name": "ObiWan Jacoby",
+      "loser_score": 109.56
+    },
+    "season_outcome": {
+      "team8_final_rank": 1,
+      "team8_championship_won": true,
+      "team1_final_rank": 2,
+      "confidence": "explicit"
+    },
+    "historical_owner_name": "NOT_RETURNED",
+    "historical_owner_account_id": "NOT_RETURNED",
+    "owner_pov_basis": "2026 hard opening canon recognizes Austin Byars/The Belt Keeper as 2025 champion; independent historical account mapping still on HOLD",
+    "invented_espn_facts": 0
+  },
+  "literary_output": {
+    "chapter": {
+      "title": "The Narrowest Door",
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_NARROWEST_DOOR_AUSTIN_2025_NONCANON.md",
+      "git_blob": "ae5d50aca6c1ac4da20fb8ead28554baa5e70613",
+      "source_words_including_handoff": 5001,
+      "movements": 6,
+      "sole_principal": "CHAR-AUSTIN-BYARS"
+    },
+    "paired_existing_pilot": {
+      "title": "The Year That Returned the Question",
+      "path": "living-novel/production/historical-saga/R53/HISTORICAL_2025_OBIWAN_NONCANON_PILOT.md",
+      "git_blob": "9737fa9b9832de847ee504ed9b87d5e2c404e481",
+      "source_words": 983,
+      "principal": "CHAR-JAKE-KALOPER"
+    },
+    "two_voice_reader": {
+      "path": "living-novel/historical-chronicle/seasons/2025/causal-novel/READING_COPY_2025_TWO_VOICES_NONCANON.md",
+      "git_blob": "3d82eb3a17c23154bee5c6fd4bde601c19fd372b",
+      "source_parts": 2,
+      "combined_source_words_including_handoffs": 5984,
+      "source_exact": true
+    },
+    "editorial_self_qa": "living-novel/historical-chronicle/seasons/2025/causal-novel/THE_NARROWEST_DOOR_EDITORIAL_EVIDENCE_QA_2026-11-01.md",
+    "regression": "living-novel/historical-chronicle/qa/test_2025_two_voices_reader.py",
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "protected_2026_opening_modified": false,
+    "older_2016_72_chapter_reader_modified": false
+  },
+  "technical": {
+    "last_source_tested_commit": "873a195bb62e1636a974855a3cb787a6de6cbc9b",
+    "new_tests": 20,
+    "new_tests_result": "PASS_20_OF_20_OBSERVED_GITHUB_ACTIONS",
+    "observed_workflows": [
+      {
+        "name": "Novel OS CI",
+        "id": 41363503402,
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41363503402",
+        "named_two_voice_step": "success"
+      },
+      {
+        "name": "Cross-Domain Authority CI",
+        "id": 41363503343,
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41363503343"
+      },
+      {
+        "name": "Bullpen Runtime CI",
+        "id": 41363503313,
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41363503313"
+      },
+      {
+        "name": "Repository Merge Gate",
+        "id": 41363503338,
+        "conclusion": "success",
+        "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41363503338"
+      }
+    ],
+    "observed_red_failure": "Novel OS CI 41363413817 failed test_15 by matching 'Edrin' in author-side exclusion handoff, not in the narrative itself. Repaired by scanning prose before handoff in commit 873a195bb62e1636a974855a3cb787a6de6cbc9b.",
+    "checkpoint_commit_ci_note": "This newly added checkpoint commit is subsequent to the observed successful code commit. Recheck exact checkpoint commit if required; do not call it passed solely from predecessor's CI."
+  },
+  "review": {
+    "request_comment": "https://github.com/jakekaloper-hub/schemin-26/pull/243#issuecomment-6565666615",
+    "review_request_submitted": true,
+    "authenticated_independent_acceptance": false,
+    "umpire_signoff": false,
+    "founder_canon_acceptance": false
+  },
+  "blocked": {
+    "historical_2016_account_owner_ids_missing": true,
+    "unresolved_2016_jake_only_chapters": 72,
+    "period_correct_atlas_clearance": false,
+    "independent_author_review": false,
+    "independent_umpire": false,
+    "survivor_return_chapter_67_fictional_conditional": true
+  },
+  "gates": {
+    "noncanon": true,
+    "merge": false,
+    "canon_promotion": false,
+    "publication": false,
+    "founder_approval": false,
+    "independent_umpire": false
+  },
+  "next": [
+    "Fetch current main, exact PR head, current 2025 two-voice reader sources and tests; verify exact post-checkpoint workflow results separately.",
+    "Use evidence-backed 2025 owner POV and explicitly unresolved historical manager-account mapping; do not generalize Austin's identity to 2016 team 8.",
+    "Await genuine independent Author/Librarian/Atlas/Character/Umpire signoff; reader and all chapters remain NONCANON.",
+    "Prioritize alternative year/owner grounded POV chapters, or authenticated ESPN 2016 owner-account IDs, rather than Chapter 73 Jake-only continuation.",
+    "Never rewrite protected 2026 Prologue/Chapters I–III, merge draft PR, promote to canon, publish, or claim simulated board acceptance."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "checkpoint_id": "HISTORICAL-SAGA-20261029-2023-CHRONICLE-W13",
+  "project": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "stage": "2023_WEEK_13_NONCANON_MANUSCRIPT_QA_PENDING_CI",
+  "input": {
+    "previous_head": "45969dcd8dd1be2d954fe85a4cf9787282857d44",
+    "source_blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+    "previous_W12_blob_sha": "4b2d1c9b4abb08f043d8ff9aecf56c0ab82ce418"
+  },
+  "literary": {
+    "title": "The Room Beyond the Map",
+    "path": "living-novel/historical-chronicle/seasons/2023/weeks/W13.md",
+    "blob_sha": "819d069735c2f1f72effcd92bc8049fe87fde3df",
+    "words_including_metadata": 5290,
+    "scenes": 6,
+    "owner_pov_ids": [
+      "CHAR-JAKE-KALOPER"
+    ],
+    "status": "NONCANON_PROPOSED_FICTION"
+  },
+  "coverage": {
+    "weeks_drafted": 13,
+    "source_grounded_matchups": 78,
+    "regular_season_matchups": 84,
+    "remaining_regular_season_fixtures": 6,
+    "postseason": "NOT_DRAFTED"
+  },
+  "validation": {
+    "regression": "living-novel/historical-chronicle/qa/test_2023_thirteenth_week.py",
+    "regression_cases_defined": 13,
+    "workflow": ".github/workflows/novel-os-ci.yml",
+    "observed_ci": "PENDING_ACTUAL_READBACK",
+    "independent_umpire": "NOT_OBTAINED",
+    "Atlas": "UNAPPROVED",
+    "founder": "NOT_APPROVED",
+    "publication": "HOLD",
+    "merge": "HOLD"
+  },
+  "next": [
+    "Read exact PR 243 head and all four GitHub Actions results; inspect named Week 13 suite and repair any real failure.",
+    "Do not claim technical green before observed execution or literary Umpire acceptance.",
+    "Produce Week 14 six score-pinned noncanonical encounters and keep protected canon byte-identical.",
+    "Locate independent provider-authenticated owner lineage and genuine historical Atlas review; mark unknown when absent."
+  ]
+}

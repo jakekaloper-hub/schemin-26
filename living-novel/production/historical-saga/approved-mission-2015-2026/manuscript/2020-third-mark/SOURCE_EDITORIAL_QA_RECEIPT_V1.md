@@ -1,0 +1,33 @@
+# 2020 / The Third Mark — source, editorial and validation receipt
+
+**Disposition: NONCANON / REVIEW HOLD / NOT PUBLISHED.** Produced 2026-10-28 in existing historical-saga PR #243. This is a **3821-word** connected four-movement literary chapter, not a season-by-season game recap. The protected hard-canon Prologue and Chapters I–III were not edited.
+
+**Primary artifact:** [The Third Mark](https://github.com/jakekaloper-hub/schemin-26/blob/novel/historical-epic-2015-2026/living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/THE_THIRD_MARK_CAUSAL_READING_V1_NONCANON.md); [scene/source registry](https://github.com/jakekaloper-hub/schemin-26/blob/novel/historical-epic-2015-2026/living-novel/production/historical-saga/approved-mission-2015-2026/manuscript/2020-third-mark/SCENE_REGISTER_CAUSAL_V1.json). Exclusive proposed Jake / Obi-Wan Jacoby principal POV. Connected-account/team-slot-1 historical association is **user-attested for literary development only**; primary 2020 provider records lack human-owner identity fields. All other historical team names are **slots, not owner identities**.
+
+## Source and chronology receipts
+
+- `living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json`, Git blob `be865764154825b5ba6a635a6ef5562d26dbbbcb`: Flaim/ESPN **repository transcription**, not raw ESPN bytes. Team-1 selected periods: W1 **144.08–129.30** WIN, W2 **160.40–147.86** WIN, W3 **173.84–148.86** WIN; W4–6 defeats **139.12–179.98**, **97.47–113.79**, **117.88–131.20**; W7 win vs slot 10 **155.68–122.10**; W9 **133.50–134.74** loss; W10 **149.11–150.33** loss; W13 **199.30–105.04** win; W14 **123.72** is **UNPAIRED with opponent absent and winner UNDECIDED**, *not a played victory*; W15 semifinal **149.46–170.21** loss to slot 10; W16 **155.50–115.22** win over slot 2.
+- `living-novel/production/full-rewrite-2026/G04_HISTORICAL_SEASON_STORY_ROOM_PACKETS.json`: 2020 championship slot 10 (*Where Mahomies at?*) **189.19** to slot 8 (*The Grinch*) **188.44**, a **0.75** difference, certified only after Week 16. `living-novel/history/CHAMPIONSHIP_SUCCESSION.md`: the Grinch led the regular season **12-1** but finished runner-up. No historical current-owner mapping is inferred.
+- `living-novel/whole-book/WHOLE_BOOK_SOURCE_AUTHORITY_MATRIX_V1.md` plus `living-novel/history/OWNER_LINEAGE.md` constrain sources; all venue, glassmaker, apprentices, market economy, local disputes, dialogues and decisions are **invented proposed secondary-world narrative**, with **no Atlas ID or canon approval**.
+- Four movements: **Three Clear Panes** (complicity in selling certainty), **The Pane That Would Not Come Out** (predictive collapse and commercial accountability), **The Unpaired Square** (leadership is not a title; a blank cannot be a win), **What the Third Place Measured** (semifinal defeat, legitimate third place and close final). Thirteen source periods are foregrounded and three (8, 11, 12) are left in the background; no full-season coverage claim.
+
+## Critical editorial assessment — self-review only
+
+**HOLD:** Sera's independent craft-and-income motive may still resemble the more authoritative Neris in the 2019 chapter; an outside editor should check distinction and agency. **HOLD:** forecast-vs-record exposition repeats in the third movement and may need compression. **HOLD:** Jake's third place competes for attention against the Grinch's exceptional 12–1 season and the 0.75-point championship. **HOLD:** civic and economic consequences are entirely fictional, so Atlas/world sanction remains required. **HOLD:** source has no independently authenticated human-owner mapping; connection to Jake is a user-attested development premise, not ESPN fact.
+
+A new **nine-case** deterministic regression is committed at `review/test_2020_third_mark_v1.py`, and its invocation has been added to Novel OS CI. Before GitHub Actions readback, test status is **PENDING**, not PASS. No independent Author Council or Umpire reviewer has accepted this manuscript, and no Founder approval for canon promotion or publication exists. A PR comment requesting review does not constitute review.
+
+**Next:** Read exact-head GitHub CI results, fix failures, confirm the protected blob invariants, request independent adversarial literary assessment, then resume the next source-cleared historical or 2026 narrative lane without a new OS.
+
+## Actual CI and corrective feedback (2026-10-28, 22:4x ET)
+
+GitHub Actions at exact tested code head `0e12b76649415b573e4fd72ec2015fad507f033d` reported:
+
+- [Novel OS CI #40808163167](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808163167): **SUCCESS**; named **2020 third-place causal reading V1** step succeeded, **9 cases**.
+- [Cross-Domain Authority CI #40808162328](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808162328): **SUCCESS**.
+- [Bullpen Runtime CI #40808162311](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808162311): **SUCCESS**.
+- [Repository Merge Gate #40808162321](https://github.com/jakekaloper-hub/schemin-26/actions/runs/40808162321): **SUCCESS**.
+
+**Observed failure and correction:** First executions exposed two test/registry mistakes, not a source change: (1) a test demanded the notation `12–1` where the manuscript correctly wrote *twelve victories and one defeat*; (2) `G01_2020_FULL_WEEKLY_MATCHUPS.json` includes an **empty Week 17 container** with zero matchups; the scene register initially counted it as a team-1 scoring period. The register now records Weeks **1–16** as observed and explicitly flags Week 17 as an empty source container. The new regression verifies the empty week and prohibits its conversion to a fabricated result. The succeeding CI run follows these repairs. Technical validation is not independent literary approval.
+
+A later governance/checkpoint-only commit may have a different head SHA; verify its actual runs separately rather than transplanting these results to an untested head.

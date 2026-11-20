@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-03",
+  "type": "EXACT_COMMIT_CI_VERIFICATION_RECEIPT",
+  "tested_production_commit": "286055ddb60a54d01996010cd5a3ccf133f8fd80",
+  "workflow_results": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41768167370,
+      "status": "completed",
+      "conclusion": "success",
+      "run_url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41768167370"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41768167410,
+      "status": "completed",
+      "conclusion": "success",
+      "run_url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41768167410"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41768167369,
+      "status": "completed",
+      "conclusion": "success",
+      "run_url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41768167369"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41768167372,
+      "status": "completed",
+      "conclusion": "success",
+      "run_url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41768167372"
+    }
+  ],
+  "chapter": "2016 causal Chapter XXXIX V2 — The Street That Turned Blue / The White Cloth at the Corner",
+  "literary_output_new_words": 2746,
+  "revised_chapter_source_words": 9164,
+  "developmental_reader_parts": 36,
+  "source_component_words_incl_metadata": 268205,
+  "dedicated_test_job_id": 126371355382,
+  "dedicated_test_result": "Ran 18 tests in 0.125s — OK",
+  "test_source": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_thirty_nine_white_cloth_v2_reader.py",
+  "protected_2026_manuscript_tests": "PASS_AT_TESTED_COMMIT",
+  "historical_2016_archive_tests": "PASS_AT_TESTED_COMMIT",
+  "previous_reading_copy_35_parts_tests": "PASS_AT_TESTED_COMMIT",
+  "independent_review": "NOT_RECEIVED",
+  "independent_umpire": "NOT_RECEIVED",
+  "historical_owner_slot": "NOT_AUTHENTICATED",
+  "founder_canon_publication_approval": "NOT_RECEIVED",
+  "current_research_branch": "novel/historical-epic-2015-2026",
+  "canon_promotion": false,
+  "merge": false,
+  "publication": false,
+  "next": "Continue Chapter XL The House Made from a Road; verify chronologies and authorship, preserve Chapter XXXIX temporary white sheet removal, jars still unfilled and only extra morning for six; extend to 37 parts. No fabricated ESPN facts.",
+  "scope_caveat": "Successes apply only to exact tested production commit above; this receipt file is a later checkpoint-only commit and has not been verified by these workflow results."
+}

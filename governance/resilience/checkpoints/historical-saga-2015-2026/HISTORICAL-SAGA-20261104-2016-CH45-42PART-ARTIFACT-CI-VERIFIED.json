@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-04",
+  "kind": "EXACT_COMMIT_CI_VERIFIED_DEVELOPMENTAL_MANUSCRIPT_CHECKPOINT",
+  "repository": "jakekaloper-hub/schemin-26",
+  "branch": "novel/historical-epic-2015-2026",
+  "pr": 243,
+  "verified_production_commit": "8ed231255ac71ffe5704040e182fd2341eb6885f",
+  "governing_main_seen": {
+    "schemin_26": "e0858b8bc27db2bb095e0e03483b5c98e5809052",
+    "bullpen": "86889a59efb0e7dcdc37eef639981944dc77ed67"
+  },
+  "literary_output": {
+    "title": "The Road That Would Not Wait — The Measure of an Empty Bowl",
+    "new_fiction_words": 2428,
+    "revised_chapter_words_including_metadata": 7275,
+    "original_chapter_words_including_metadata": 4664,
+    "original_movement_bodies_preserved": 6,
+    "revised_movement_count": 7,
+    "principal_limited_interior_pov": "fictional Jake; 2016 scoring-slot owner association unverified"
+  },
+  "source_blobs": {
+    "original_45": "8c36678412071e935fd6b7bf0c469a04386f6588",
+    "new_scene": "e5651840d264b5383d4412aaada474b976a11e86",
+    "revised_45": "60a1dfaa6e327e4cfa28aa70b4b222929ee751b8",
+    "prior_44_v2": "d450ee2b725201f6d1660613b5880450f63c62d6",
+    "adjacent_two_chapter_reader": "ccd1368e95b2168aa0c8eb5913b98bd6ba854cf6",
+    "prior_41_component_reader": "b8ea32a932cfeeebc0f5f359ed90eed0a776918d"
+  },
+  "assembly": {
+    "full_component_count": 42,
+    "component_source_words_including_metadata": 323490,
+    "prior_41_components_preserved_source_exact": true,
+    "part_42_exact": true,
+    "assembled_in_GitHub_Actions": true,
+    "full_42_part_file_committed_to_git": false,
+    "full_42_part_file_available_as_workflow_artifact": true,
+    "artifact_id": 13311263102,
+    "artifact_name": "commonwealth-2016-42part-developmental-reader-noncanon",
+    "artifact_archive_bytes": 655556,
+    "artifact_run_id": 41809434294,
+    "artifact_url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41809434294",
+    "retention_days": 7,
+    "smaller_2_chapter_reader_committed": true,
+    "source_assembly_script": "living-novel/historical-chronicle/qa/build_2016_causal_42_part_bowl_reader.py"
+  },
+  "tests": {
+    "new_test_file": "living-novel/historical-chronicle/qa/test_2016_causal_chapter_forty_five_bowl_v2_reader.py",
+    "new_tests": 24,
+    "historical_suite_passed": 1694,
+    "log_verified": true,
+    "observed_failures_repaired": [
+      "first source builder incorrectly required legacy 41-reader terminal marker",
+      "new negative test had to target an actual component marker",
+      "new scene contained one prohibited supporting-knowledge assertion; prose corrected and all source SHA pinning refreshed"
+    ],
+    "none_pending_at_verified_commit": true
+  },
+  "exact_commit_workflows": [
+    {
+      "name": "Novel OS CI",
+      "run_id": 41809434294,
+      "head_sha": "8ed231255ac71ffe5704040e182fd2341eb6885f",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41809434294"
+    },
+    {
+      "name": "Cross-Domain Authority CI",
+      "run_id": 41809442540,
+      "head_sha": "8ed231255ac71ffe5704040e182fd2341eb6885f",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41809442540"
+    },
+    {
+      "name": "Bullpen Runtime CI",
+      "run_id": 41809442246,
+      "head_sha": "8ed231255ac71ffe5704040e182fd2341eb6885f",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41809442246"
+    },
+    {
+      "name": "Repository Merge Gate",
+      "run_id": 41809442238,
+      "head_sha": "8ed231255ac71ffe5704040e182fd2341eb6885f",
+      "conclusion": "success",
+      "url": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/41809442238"
+    }
+  ],
+  "review": {
+    "umpire": "NOT_RECEIVED",
+    "authors_council": "NOT_RECEIVED",
+    "historical_librarian": "NOT_RECEIVED",
+    "character_canon": "NOT_RECEIVED",
+    "period_atlas": "NOT_RECEIVED",
+    "historical_2016_owner_authentication": "NOT_CONFIRMED",
+    "adversarial_author_side_questions": [
+      "Does a second transactional scene repeat existing money/ledger motifs too closely?",
+      "Does the musician's paid-work negotiation and Berrit's stiff hand earn their narrative duration?",
+      "Is the bowl scene's uncertain testimony echo with Jake's false account too neatly thematic?",
+      "Do Sela and Nella remain fully independent of the visitor's invitation?",
+      "Are stage economics, fire limits and courtyard relationships materially plausible?"
+    ]
+  },
+  "release": {
+    "noncanon": true,
+    "draft_pr": true,
+    "merged": false,
+    "published": false,
+    "canon_promoted": false,
+    "founder_only_approval": false
+  },
+  "next": "Chapter XLVI — The Distance Between Two Gates; preserve staged voluntary music, the troupe's departure without a confirmed route, Eren's door possession, Sela/Nella/Tam family choice, the four remaining Orrel coins, Pell's lost opportunity, 21-night Hessa arrangement, unverified 2016 owner associations, no supporting-character interior POV. Rebuild 43-part candidate through same exact-source artifact mechanism only after actual new fiction and regression testing.",
+  "caveat": "All 4 CI successes and 1694 tests apply to verified production commit 8ed23125 only. This checkpoint-only later commit cannot inherit CI verification. A submitted review request is not independent review. DO NOT MERGE, PROMOTE OR PUBLISH."
+}
