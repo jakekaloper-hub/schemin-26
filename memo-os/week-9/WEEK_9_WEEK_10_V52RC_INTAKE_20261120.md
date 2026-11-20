@@ -11,6 +11,7 @@
 
 ## Observed provider data (not fact-locked)
 - Week 8 32→32 (+0/-0/~1); Week 9 42→42 (+0/-0/~0); Week 10 41→41 (+0/-0/~0); Week 11 37→40 (+3/-0/~0). No prior transaction rows deleted; 1 typed historical changes to previously observed rows.
+- **Targeted Week 8 metadata correction:** one previously observed October 28 event has `players_dropped[0].team` changed from `GB` to `FA` for Pierre Strong Jr. (same player ID and transaction ID). This is a change in provider-supplied player affiliation on a historical event, **not a newly executed transaction or altered roster move**; preserve both before/after sources for Steward review. Do not retroactively claim the player was a free agent on October 28.
 - Week 11 rows: 40, canceled 5, complete 29, failed 6. Added **3 newly observed provider rows**, listed below. A canceled request is not a completed acquisition.
 - 2026-11-19: Dr. Duckhook — CANCELED waiver; add Germie Bernard; drop Myles Price; FAAB $0
 - 2026-11-19: The Chili Cheesers  — COMPLETE add; add Cam Ward; drop Bryce Young; FAAB $0
