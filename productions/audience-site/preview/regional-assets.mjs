@@ -198,6 +198,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       // canopy-tone patches onto the EXISTING swamp disc. Water-fragmented shade
       // is only scenic rendering; it is not measured light, wind or new ecology.
       float canopyShade=0.;
+       // Five inherited root-wake stations produce candidate, broken dark
+       // reflections on this SAME water surface. Other waters have zero sites.
+       float trunkReflection=0.;
       for(int i=0;i<5;i++){
         if(float(i)>=uRootSiteCount)break;
         vec2 delta=(vUv-uRootSites[i])*vec2(21.,16.4);
@@ -210,6 +213,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float wateryBreakup=.5+.5*sin(delta.x*3.8-uTime*.27)
                            *sin(delta.y*4.4+uTime*.21);
         canopyShade=max(canopyShade,canopyFade*(.66+.34*wateryBreakup));
+         // The inherited tree locations, not invented mirror anchors, drive
+         // slender reflections broken by ordinary local water time.
+         float mirrorAcross=abs(delta.x+.12*sin(delta.y*1.3-uTime*.21));
+         float mirrorAlong=abs(delta.y);
+         float mirrorStreak=(1.-smoothstep(.12,.58,mirrorAcross))
+           *(1.-smoothstep(.60,2.10,mirrorAlong));
+         float mirrorBreakup=.55+.45*sin(delta.y*10.+uTime*.51+delta.x*4.);
+         trunkReflection=max(trunkReflection,mirrorStreak*mirrorBreakup);
       }
       float bankFade=1.-smoothstep(.78,.99,length((vUv-vec2(.5))*2.));
       // Water contact wakes follow the EXISTING twelve drifting foliage discs.
@@ -284,6 +295,11 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float viewIncidence=clamp(abs(viewToEye.y),0.,1.);
       float grazingGain=.035+.21*pow(1.-viewIncidence,2.);
       contactTint=mix(contactTint,vec3(.31,.41,.37),grazingGain);
+       // Reflections fade toward overhead cameras and the existing bank.
+       // Illustrative canopy optics only; no canon lighting or weather claim.
+       float trunkView=smoothstep(.22,.80,1.-viewIncidence);
+       float trunkMirrorMix=clamp(trunkReflection*.20*trunkView*bankFade,0.,.20);
+       contactTint=mix(contactTint,vec3(.11,.19,.17),trunkMirrorMix);
       // Existing moving surface now contributes restrained geometry-derived light.
       // Local relief does not interpret source climate, topology or light authority.
       // Use world-space derivatives of the *displaced* vertices; sign-independent
