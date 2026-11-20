@@ -31,7 +31,9 @@
     "new_candidate_ids": 40,
     "total_records": 111,
     "known_world_memory_events": 7,
-    "completed_historical_seasons": 11
+    "completed_historical_seasons": 11,
+    "new_candidate_held_duplicates": 4,
+    "new_candidate_eligible_for_future_scene_review": 36
   },
   "active_location_three_layer_dossiers": [
     {
@@ -7972,8 +7974,8 @@
       "name": "Playoff Island Outer Landing",
       "registry": "CANDIDATE_STORE",
       "candidate_vintage": "NEW_2026_11_20",
-      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
-      "editorial_discovery_status": "RARE_NEUTRAL_EDITORIAL_ONLY",
+      "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
+      "editorial_discovery_status": "DUPLICATE_CROSS_ATLAS_HOLD",
       "active_loc_id": null,
       "level_1_physical_and_arrival": {
         "zone_hypotheses": [],
@@ -8018,7 +8020,16 @@
           "Director canon and editorial acceptance",
           "independent Umpire gate",
           "explicit LOC transaction with backlink; never auto-promote"
-        ]
+        ],
+        "supersession_assessment": {
+          "source_branch": "feat/postseason-island-historical-foundation-20261118",
+          "existing_node_ids": [
+            "MAINLAND_PUBLIC_LITTORAL",
+            "ISLAND_ENTRY_CHECK",
+            "HARBOR_RELIEF"
+          ],
+          "ruling": "Do not generate parallel island location; use existing Playoff Island ID or require an explicit new placement approval"
+        }
       },
       "source_provenance": [
         "Founder location-expansion directive 2026-11-20",
@@ -8032,8 +8043,8 @@
       "name": "Playoff Island Neutral Assembly Court",
       "registry": "CANDIDATE_STORE",
       "candidate_vintage": "NEW_2026_11_20",
-      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
-      "editorial_discovery_status": "RARE_NEUTRAL_EDITORIAL_ONLY",
+      "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
+      "editorial_discovery_status": "DUPLICATE_CROSS_ATLAS_HOLD",
       "active_loc_id": null,
       "level_1_physical_and_arrival": {
         "zone_hypotheses": [],
@@ -8078,7 +8089,15 @@
           "Director canon and editorial acceptance",
           "independent Umpire gate",
           "explicit LOC transaction with backlink; never auto-promote"
-        ]
+        ],
+        "supersession_assessment": {
+          "source_branch": "feat/postseason-island-historical-foundation-20261118",
+          "existing_node_ids": [
+            "TAILGATE_COMMONS",
+            "CHAMPIONS_WALK"
+          ],
+          "ruling": "Do not generate parallel island location; use existing Playoff Island ID or require an explicit new placement approval"
+        }
       },
       "source_provenance": [
         "Founder location-expansion directive 2026-11-20",
@@ -8092,8 +8111,8 @@
       "name": "Playoff Island Weather Refuge",
       "registry": "CANDIDATE_STORE",
       "candidate_vintage": "NEW_2026_11_20",
-      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
-      "editorial_discovery_status": "RARE_NEUTRAL_EDITORIAL_ONLY",
+      "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
+      "editorial_discovery_status": "DUPLICATE_CROSS_ATLAS_HOLD",
       "active_loc_id": null,
       "level_1_physical_and_arrival": {
         "zone_hypotheses": [],
@@ -8138,7 +8157,16 @@
           "Director canon and editorial acceptance",
           "independent Umpire gate",
           "explicit LOC transaction with backlink; never auto-promote"
-        ]
+        ],
+        "supersession_assessment": {
+          "source_branch": "feat/postseason-island-historical-foundation-20261118",
+          "existing_node_ids": [
+            "HARBOR_RELIEF",
+            "EMERGENCY_PIER",
+            "UTILITY_PLANT"
+          ],
+          "ruling": "Do not generate parallel island location; use existing Playoff Island ID or require an explicit new placement approval"
+        }
       },
       "source_provenance": [
         "Founder location-expansion directive 2026-11-20",
@@ -8152,8 +8180,8 @@
       "name": "Playoff Island Legacy Gallery",
       "registry": "CANDIDATE_STORE",
       "candidate_vintage": "NEW_2026_11_20",
-      "lifecycle_status": "FUTURE_UNLOCK_CANDIDATE",
-      "editorial_discovery_status": "RARE_NEUTRAL_EDITORIAL_ONLY",
+      "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
+      "editorial_discovery_status": "DUPLICATE_CROSS_ATLAS_HOLD",
       "active_loc_id": null,
       "level_1_physical_and_arrival": {
         "zone_hypotheses": [],
@@ -8198,7 +8226,16 @@
           "Director canon and editorial acceptance",
           "independent Umpire gate",
           "explicit LOC transaction with backlink; never auto-promote"
-        ]
+        ],
+        "supersession_assessment": {
+          "source_branch": "feat/postseason-island-historical-foundation-20261118",
+          "existing_node_ids": [
+            "MUSEUM_TROPHY_HALL",
+            "CHAMPIONS_WALK",
+            "FARRELL_SANCTUARY"
+          ],
+          "ruling": "Do not generate parallel island location; use existing Playoff Island ID or require an explicit new placement approval"
+        }
       },
       "source_provenance": [
         "Founder location-expansion directive 2026-11-20",
