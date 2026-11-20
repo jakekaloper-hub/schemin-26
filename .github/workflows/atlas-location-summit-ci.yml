@@ -39,5 +39,7 @@ jobs:
         run: python3 world/atlas/summits/2026-11-20/postseason_lineage_gates.py
       - name: Adversarial postseason lineage mutation tests
         run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_postseason_lineage_gates.py' -v
+      - name: Reject duplicate cross-PR proposal promotions and unsafe photo-library bridge
+        run: python3 world/atlas/summits/2026-11-20/validate_cross_pr_photo_handoff.py
       - name: Preserve frozen Phase 4 Atlas catalog and routes
         run: python3 -m unittest discover -s world/atlas/interactive -p 'test_interactive_atlas.py' -v
