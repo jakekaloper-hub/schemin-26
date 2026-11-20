@@ -168,6 +168,15 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float endFade=smoothstep(.025,.16,vUv.y)*(1.-smoothstep(.86,.985,vUv.y));
         float threadLight=foamThread*brokenThread*sideFade*endFade;
         fallTint=clamp(fallTint+vec3(.055,.071,.061)*threadLight,0.,1.);
+        // Candidate sky glint follows the ACTUAL folded sheet normal and the
+        // spectator camera, with foam-dependent intensity and edge suppression.
+        // It adds no texture, water layer, new lighting source or climate input.
+        vec3 skyKey=normalize(vec3(.19,.32,.93));
+        vec3 halfRay=normalize(eyeRay+skyKey);
+        float glancingSpecular=pow(clamp(abs(dot(sheetNormal,halfRay)),0.,1.),24.);
+        float specularInterior=smoothstep(.03,.18,vUv.x)*(1.-smoothstep(.82,.97,vUv.x));
+        float sprayGlint=glancingSpecular*(.48+.52*foam)*specularInterior;
+        fallTint=clamp(fallTint+vec3(.085,.11,.092)*sprayGlint,0.,1.);
         gl_FragColor=vec4(fallTint,.88);
       }else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
