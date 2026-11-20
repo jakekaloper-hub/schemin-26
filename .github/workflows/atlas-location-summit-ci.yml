@@ -41,5 +41,9 @@ jobs:
         run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_postseason_lineage_gates.py' -v
       - name: Reject duplicate cross-PR proposal promotions and unsafe photo-library bridge
         run: python3 world/atlas/summits/2026-11-20/validate_cross_pr_photo_handoff.py
+      - name: Validate executed board scope: all 44 semantic decisions, Last Field dry run, PR337 folio links
+        run: python3 world/atlas/summits/2026-11-20/validate_board_execution.py
+      - name: Mutate preproduction approvals and ensure all fail closed
+        run: python3 -m unittest discover -s world/atlas/summits/2026-11-20 -p 'test_board_execution.py' -v
       - name: Preserve frozen Phase 4 Atlas catalog and routes
         run: python3 -m unittest discover -s world/atlas/interactive -p 'test_interactive_atlas.py' -v
