@@ -985,6 +985,27 @@ export function buildRegionalAssets(THREE, bindings, height) {
       sourceEnvironment:['cypress-like wetlands'],originalRadiusEnvelopePreserved:true};
     return o;
   }
+  function sculptMudDogsCanopyLobe(lobe,standIndex,lobeIndex){
+    // Inward-only physical relief on the 56 EXISTING candidate crown meshes.
+    // Their transforms, enclosing radii, materials and triangle counts stay fixed.
+    const geo=lobe.geometry,p=geo.getAttribute('position');
+    for(let k=0;k<p.count;k++){
+      const x=p.getX(k),y=p.getY(k),z=p.getZ(k),radius=Math.hypot(x,y,z);
+      if(radius<.000001)continue;
+      const azimuth=Math.atan2(z,x);
+      const belt=Math.sqrt(Math.max(0,1-y*y/(radius*radius)));
+      const grain=Math.sin(azimuth*7+standIndex*.41+lobeIndex*.67+y*4.2);
+      const fold=Math.pow(.5+.5*grain,2);
+      const inset=.086*(.28+.72*belt)*fold;
+      p.setXYZ(k,x*(1-inset),y*(1-inset),z*(1-inset));
+    }
+    p.needsUpdate=true;geo.name='Candidate Mud Dogs inward-scalloped canopy lobe';
+    geo.computeVertexNormals();geo.computeBoundingSphere();
+    lobe.userData={...lobe.userData,visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceEnvironment:['cypress-like wetlands'],originalLobeEnvelopePreserved:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return lobe;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
@@ -1010,7 +1031,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
         const width=(1.42-j*.24)*(i%3===1?.87:i%3===2?1.09:1);
         const rise=(.92-j*.09)*(i%3===1?1.17:.95);
         const drift=Math.sin(i*1.7+j*1.3)*.24;
-        mark(rock(g,x+drift,y+h+.24+j*.44,z+Math.cos(i+j*2.1)*.23,width,rise,width*.82,j%3===0?leafDark:j%2?leafLight:leaf),'canopy-lobe');
+        const lobe=rock(g,x+drift,y+h+.24+j*.44,z+Math.cos(i+j*2.1)*.23,width,rise,width*.82,j%3===0?leafDark:j%2?leafLight:leaf);
+        mark(sculptMudDogsCanopyLobe(lobe,i,j),'canopy-lobe');
       }
       for(let k=0;k<2;k++){
         const b=k*Math.PI+i*.29;
