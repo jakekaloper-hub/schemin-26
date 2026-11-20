@@ -444,11 +444,36 @@ export function buildRegionalAssets(THREE, bindings, height) {
     o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'waterfall',navigable:false,routeIds:[]};
     o.frustumCulled=false;o.renderOrder=4;g.add(o);
   }
+  function templeStoneTread(g,j){
+    // Sculpt ONLY the nine pre-existing Temple stair treads, not their footprint,
+    // elevation, materials, circulation, chronology or any Atlas topology.
+    const width=2.8,thickness=.24,depth=.55;
+    const geometry=new THREE.BoxGeometry(width,thickness,depth,28,1,8);
+    geometry.name='Candidate Temple recessed stone stair tread';
+    const position=geometry.getAttribute('position');
+    for(let i=0;i<position.count;i++){
+      const x=position.getX(i),y=position.getY(i),z=position.getZ(i);
+      // All top/perimeter edges and the complete bottom remain identical.
+      if(y<thickness/2-.000001||Math.abs(x)>=width/2-.000001||Math.abs(z)>=depth/2-.000001)continue;
+      const seamDistance=Math.min(Math.abs(x+.9),Math.abs(x),Math.abs(x-.9));
+      const joint=Math.max(0,1.-seamDistance/.12);
+      const mineralWear=.0035*(.5+.5*Math.sin(x*19.1+j*1.7)*Math.sin(z*23.8-j*.93));
+      position.setY(i,y-Math.min(.026,.021*joint+mineralWear));
+    }
+    position.needsUpdate=true;
+    geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    const tread=mesh(g,geometry,j%2?stone:edge,1,j*.24+thickness/2,5.3-j*.43);
+    tread.name='Candidate Temple stone tread relief';
+    tread.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'temple stone',
+      originalDimensions:[width,thickness,depth],originalStepIndex:j,
+      staticRelief:true,navigable:false,routeIds:[],principalCharacters:[]};
+    return tread;
+  }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
     rock(g,-6,3,-3,4,6,3,mat('#677163'));rock(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'));rock(g,-5,1,-5,4,4,3.6,mat('#596955'));
     for(let j=0;j<4;j++)box(g,1,j*.58,-.8,9-j*1.1,.58,7-j*.75,j%2?edge:stone);
-    for(let j=0;j<9;j++)box(g,1,j*.24,5.3-j*.43,2.8,.24,.55,j%2?stone:edge);
+    for(let j=0;j<9;j++)templeStoneTread(g,j);
     box(g,1,2.3,-1,5.2,2.8,3.6,dark);
     for(let i=-2;i<=2;i++){cyl(g,1+i*1.05,2.3,1.1,.23,.29,3.1,stone,8);box(g,1+i*1.05,5.34,1.1,.7,.22,.65,edge);}
     box(g,1,5.5,-.1,6.7,.4,5,edge);box(g,1,5.9,-.1,6.1,.32,4.5,stone);box(g,1,6.22,-.1,5.2,.3,3.9,dark);
