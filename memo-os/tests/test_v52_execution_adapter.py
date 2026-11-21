@@ -14,8 +14,10 @@ def handoff(task_id="CHAR-PORT-002"):
     return p
 
 class IntegratedCollaborationTests(unittest.TestCase):
-    def test_real_registry_validated_assignment(self):
-        self.assertEqual(adapter.evaluate_assignment("CHAR-PORT-002", handoff())["status"], "READY")
+    def test_claimed_validation_without_trusted_receipt_is_blocked(self):
+        verdict = adapter.evaluate_assignment("CHAR-PORT-002", handoff())
+        self.assertEqual(verdict["status"], "BLOCKED")
+        self.assertEqual(verdict["reason"], "MISSING_STEWARD_RECEIPT")
     def test_missing_provenance_blocked(self):
         h = handoff(); h.pop("source_snapshot")
         self.assertEqual(adapter.evaluate_assignment("CHAR-PORT-002", h)["reason"], "MISSING_PROVENANCE")

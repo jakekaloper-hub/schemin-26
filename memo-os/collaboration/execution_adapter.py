@@ -17,6 +17,7 @@ def _load(path, name):
 
 ec = _load(ROOT / "governance/execution-control/validate_execution_control.py", "execution_control")
 contract = _load(ROOT / "memo-os/collaboration/v52_contract.py", "v52_contract")
+receipt = _load(ROOT / "memo-os/collaboration/steward_receipt.py", "steward_receipt")
 
 def evaluate_assignment(task_id: str, handoff: dict, registry: dict | None = None) -> dict:
     data = registry if registry is not None else ec.load_registry()
@@ -36,6 +37,7 @@ def evaluate_assignment(task_id: str, handoff: dict, registry: dict | None = Non
     result = contract.handoff(handoff)
     if result != "VALID":
         return {"status": "BLOCKED", "reason": result}
-    if not contract.acknowledged(handoff.get("ack_state")):
-        return {"status": "BLOCKED", "reason": "ACK_MISSING"}
-    return {"status": "READY", "reason": "VALIDATED", "task_id": task_id}
+    signed_result = receipt.verify(handoff)
+    if signed_result != "VALID":
+        return {"status": "BLOCKED", "reason": signed_result}
+    return {"status": "READY", "reason": "SIGNED_STEWARD_VALIDATED", "task_id": task_id}
