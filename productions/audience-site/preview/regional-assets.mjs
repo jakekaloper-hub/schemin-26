@@ -391,6 +391,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float pondGrazing=pow(1.-clamp(abs(dot(pondNormal,pondEye)),0.,1.),2.);
       float pondReflectMix=(.035+.19*pondGrazing)*bank;
       pondTint=mix(pondTint,vec3(.40,.52,.48),pondReflectMix);
+      // Soft, local contact occlusion under the inherited NON-NAVIGABLE
+      // Week 9 stone-arch bridge deck. Both axes reuse its existing pond-local
+      // placement/footprint; this changes neither bridge nor water geometry.
+      // Small broken tones follow ordinary water time, not climatic conditions.
+      float bridgeDeckShadow=(1.-smoothstep(.14,.27,abs(p.x)))
+        *(1.-smoothstep(.62,.96,abs(p.y)))*bank;
+      float bridgeShadowDapple=.90+.10*(.5+.5*sin(p.y*27.-uTime*.59+p.x*13.));
+      pondTint*=1.-.17*bridgeDeckShadow*bridgeShadowDapple;
       // Narrow broken contact light follows the same two candidate masonry
       // arch bases, with the SAME local transforms as the physical wavelets.
       // No new light source, waterbody, current, shoreline or climate input.
