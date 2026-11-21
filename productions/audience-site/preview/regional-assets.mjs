@@ -33,6 +33,13 @@ export function buildRegionalAssets(THREE, bindings, height) {
             float folds=sin(uv.x*17.-uTime*2.2+uv.y*7.8)
               +.38*sin(uv.x*29.+uTime*1.45-uv.y*9.3);
             p.z+=.10*sideHold*endHold*folds;
+            // Source-bounded sheet shear: two downstream flow harmonics move
+            // ONLY interior vertices laterally. Its original crest, landing,
+            // and both side edges stay fixed, and it runs on ordinary water
+            // time even when El Niño suppresses regional storm weather.
+            float lateralCurrent=sin(uv.y*12.6-uTime*2.35+uv.x*5.4)
+              +.34*sin(uv.y*24.1-uTime*3.9-uv.x*8.1);
+            p.x+=.019*sideHold*sideHold*endHold*lateralCurrent;
           }
           if(uWetland>.5){
             // Animated surface relief, NOT a storm or revised current/topology claim.
