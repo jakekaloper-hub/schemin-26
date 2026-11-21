@@ -563,7 +563,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geo.computeBoundingSphere();geometries.add(geo);
     const m=new THREE.ShaderMaterial({
       uniforms:{uTime:{value:0}},transparent:true,depthWrite:false,blending:THREE.NormalBlending,
-      vertexShader:`uniform float uTime;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;varying float vViewFade;
+      vertexShader:`uniform float uTime;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;varying float vViewFade;varying vec2 vSprayAxis;
         void main(){
           float age=fract(aPhase+uTime*(.105+.048*aDrift.y));
           vec3 p=position;
@@ -576,6 +576,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
             +sin(uTime*.31+aPhase*35.)*.08*age;
           p.y+=launch-fall;
           p.z+=aDrift.z*age*(.10+.32*age);
+          // Orient existing soft mist sprites along the ballistic droplet's
+          // view-projected trajectory. This changes optics only, not travel,
+          // point count, draw calls, weather input or the original emitter.
+          vec3 tangent=vec3(aDrift.x*(.12+.68*age),
+            (.95+.35*aDrift.y)-2.*age*(.90+.20*aDrift.y),
+            aDrift.z*(.10+.64*age));
+          vec2 screenTangent=(modelViewMatrix*vec4(tangent,0.)).xy;
+          vSprayAxis=length(screenTangent)>.0001?normalize(screenTangent):vec2(0.,1.);
           vec4 view=modelViewMatrix*vec4(p,1.);
           gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22);
           gl_Position=projectionMatrix*view;
@@ -583,9 +591,16 @@ export function buildRegionalAssets(THREE, bindings, height) {
           // Mist stays locally animated; modest camera-depth extinction is optical only.
           vViewFade=1.-.25*smoothstep(7.,85.,-view.z);
         }`,
-      fragmentShader:`varying float vOpacity;varying float vViewFade;
+      fragmentShader:`varying float vOpacity;varying float vViewFade;varying vec2 vSprayAxis;
         void main(){
-          float radial=length(gl_PointCoord-vec2(.5));
+          // Feather a restrained, velocity-oriented droplet within the SAME
+          // original point square. The .98 longitudinal scale guarantees
+          // its alpha reaches zero at every square boundary; the 1.45
+          // transverse scale adds motion character without a new sprite.
+          vec2 drop=gl_PointCoord-vec2(.5);
+          vec2 transverse=vec2(-vSprayAxis.y,vSprayAxis.x);
+          float radial=length(vec2(dot(drop,vSprayAxis)*.98,
+            dot(drop,transverse)*1.45));
           // Soft finite spray core with a faint depth-scattered brighter center.
           // No extra particle, fragment loop, texture, weather, or light input.
           float core=1.-smoothstep(.02,.30,radial);
