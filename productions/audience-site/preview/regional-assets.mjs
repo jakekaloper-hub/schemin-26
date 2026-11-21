@@ -367,7 +367,17 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float bank=1.-smoothstep(.68,.95,length(p));
       float ripple=(wave1*.6+wave2*.4)*bank;
       float micro=.5+.5*sin(p.x*7.3+sin(p.y*8.2+uTime*.17));
-      vec3 pondTint=mix(uColor*.98,uColor*1.02,micro);
+      // Scenic deep-center to bank-tone transition on the ORIGINAL pond disc.
+      // This does not assert pond bathymetry, a new waterline or repaired history.
+      // Subtle variation uses the ordinary water clock, not regional climate.
+      float shoreRadius=length(p);
+      float shoreBand=smoothstep(.43,.96,shoreRadius);
+      float shoreGrain=.5+.5*sin(p.x*17.3+uTime*.14)
+        *sin(p.y*15.1-uTime*.11);
+      float shoreMix=clamp(shoreBand*(.91+.09*shoreGrain),0.,1.);
+      vec3 pondTint=mix(uColor*vec3(.80,.86,.90),
+        uColor*vec3(1.17,1.12,.91),shoreMix);
+      pondTint*=.98+.04*micro;
       // Low-intensity view response derives from the SAME displaced pond surface.
       // No new light source, current, shoreline or second water body.
       vec3 pondCross=cross(dFdx(vWorld),dFdy(vWorld));
