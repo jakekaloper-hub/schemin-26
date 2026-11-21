@@ -26,6 +26,15 @@ const scratch=mkdtempSync(join(tmpdir(),'commonwealth-webgl2-smoke-'));
 const pending=new Map(),runtimeExceptions=[],consoleErrors=[],externalRequests=[];
 let child,ws,nextId=0;
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
+/** CDP samples and DOM clicks straddle animation frames: compare the view, not raw float JSON. */
+function assertHistoricalViewRestored(before,after){
+ const b=[...before.target,before.distance,before.yaw,before.pitch];
+ const a=[...after.target,after.distance,after.yaw,after.pitch];
+ const tolerance=[.002,.002,.002,.002,.00002,.00002];
+ assert.equal(b.length,6,'Invalid source camera');assert.equal(a.length,6,'Invalid return camera');
+ for(let i=0;i<6;i++)assert.ok(Number.isFinite(a[i])&&Number.isFinite(b[i])&&Math.abs(a[i]-b[i])<=tolerance[i],
+  'Return changed historical camera at component '+i+': '+b[i]+' -> '+a[i]);
+}
 async function until(check,label,timeout=45000){
  const deadline=Date.now()+timeout;
  while(Date.now()<deadline){const value=await check();if(value)return value;await delay(180);}
@@ -104,7 +113,7 @@ async function main(){
  assert.equal(await evaluate('document.querySelector("#placeName").textContent'),'Country Club of Jackson');
  assert.equal(await evaluate('document.querySelector("#openHistory").hidden'),false,'Jackson history unreachable');
  if(captureDir){await delay(1800);await captureCandidate('02-country-club-jackson.png','LOC-COUNTRY-CLUB-JACKSON');}
- const beforeHistory=await evaluate('JSON.stringify(__observerDebug.camera())');
+ const beforeHistory=await evaluate('__observerDebug.camera()');
  await click('#openHistory');
  assert.equal(await evaluate('document.querySelector("#historyDialog").open'),true);
  assert.ok(await evaluate('document.querySelectorAll("#historyEntries article").length')>0,'No location-exact source history');
@@ -112,7 +121,7 @@ async function main(){
  assert.equal((await snapshot()).stats.waterTime,frozen.stats.waterTime,'Historical reader advanced water');
  await click('#historyBack');
  assert.equal(await evaluate('document.querySelector("#historyDialog").open'),false);
- assert.equal(await evaluate('JSON.stringify(__observerDebug.camera())'),beforeHistory,'Return changed historical camera');
+ assertHistoricalViewRestored(beforeHistory,await evaluate('__observerDebug.camera()'));
  await click('#inspectorWorld');
  assert.equal(await evaluate('document.querySelector("#inspector").hidden'),true);
  if(captureDir){
