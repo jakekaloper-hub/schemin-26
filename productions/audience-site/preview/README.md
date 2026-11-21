@@ -53,6 +53,26 @@ and authority checks remain in their existing workflows. The renderer-evidence
 workflow additionally builds the combined site twice, verifies byte-stable observer
 HTML, and rejects private-image payloads or source-revision/date substitution.
 
+## Optional real-WebGL2 first-frame and spectator-journey smoke
+
+This extra regression catches browser-only Three.js/GLSL initialization failures
+that source-level Node tests cannot detect. On a local machine with **Node 22+**
+and installed Chrome (set `CHROME_BIN` if not in the macOS or Linux default
+location), first build the **unpublished**, source-only observer as above, then:
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs /tmp/commonwealth-preview/observer.html
+```
+
+The script uses the built-in Node WebSocket with Chrome DevTools Protocol and
+isolated temporary Chrome profile; it installs no browser dependency. It fails
+closed on Canvas fallback, zero WebGL2 frames, missing Atlas sites, shader/runtime
+errors, unexpected external requests, broken Jackson source-history return,
+incorrect synthetic global calm, frozen ordinary water, or broken explicit pause.
+It prints a single machine-readable `WEBGL2_JOURNEY_SMOKE_PASS` result with the
+observed GPU. This is **opt-in device evidence**, not a GitHub Actions GPU test,
+Founder-approved art, live-weather proof, public release, or hardware benchmark.
+
 ## Honest boundaries
 
 The regional assets remain visualization candidates. The source's recorded
