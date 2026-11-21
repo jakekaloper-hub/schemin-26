@@ -5,6 +5,37 @@
 **Opened:** 2026-11-20  
 **Home:** Existing draft PR #313, branch memo-v52rc-20261115-intake; no independent memo release or OS promotion.
 
+## November 21 Founder direction for Weeks 11 and 12
+
+**Week 11 uses a GTA VI release-week visual shell across every Memo product. Week 12 uses Thanksgiving.** “One Last Crossing” remains the Week 11 working story. The league shares one last interdivisional weekend before three divisional rounds. Rockstar released GTA VI on November 19 ([launch announcement](https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available)).
+
+### Issue-wide art direction
+
+Use hyper-realistic Commonwealth photography with the visual energy of GTA VI key art. Give each frame one strong foreground silhouette and a readable location in depth. Use warm coral highlights and deep violet shadows in the issue lettering, with a narrow aqua accent for navigation. Motivate scene color with actual sun, lamps, headlights or storm light. Keep team colors, skin, fur, armor and weather locally credible. Use bold condensed display lettering for heads, quiet high-contrast text for manuscript and tabular digits for data. The Schemin’ ’26 masthead, twelve approved likenesses and existing Atlas plates anchor the issue.
+
+| Product | Direction for the next layout |
+|---|---|
+| Cover and Opening Drive | Build a release-poster composition around the league-wide consequence that emerges after finals. Let the opening prose explain why this crossing matters. Save the strongest full-bleed bridge viewpoint for the feature. |
+| Commissioner’s Note, investigations and Schemin’ After Dark | Give the Note a distinct editorial byline. Use desk lamps, case photographs or a marked-up clipping for investigations. For the preseason clause, identify the proposed trade, who would have carried the risk, and why ObiWan blames the intervention. Attribute that argument to him. Keep the official reason for the missing line visible. |
+| Sports Desk, standings, rankings, playoffs and transactions | Use a local-broadcast lower third and an opaque text field. Typeset all six results, all twelve ranks and any movement from verified sources. Label model date and conditional outcomes. ObiWan’s November 18 estimates were 32.45% baseline, 52.89% with a win and 12.77% with a loss. Keep the separate Road to Seven special in its own edition. |
+| Pittsy’s Book | Stage one occupied counter with a physical letterboard. Compose three posted games and two shuttered markets from [the official House board](https://github.com/jakekaloper-hub/schemin-26/issues/323). Chins–Mud has no stated market status. Set prices, restrictions and dialogue in a typeset pass. The Nov 19 concepts measure 1199×1312 and 941×1672. Recompose for the native master and resolve the Book’s location before the establishing shot. |
+| Week 12 previews, Final Word and derivatives | Carry the Week 11 lettering through the closing page, social crops, thumbnails, PDF and any motion titles. Use the six scheduled divisional fixtures on the preview. A warm window or setting table can foreshadow Thanksgiving. Switch the full shell at the Week 12 issue boundary. |
+
+### Six distinct matchup treatments
+
+| Matchup | Week 11 composition |
+|---|---|
+| HMB at D0nkey K0ng · Game of the Week | Start wide across the intact Mountain Lake Bridge, then reverse between DK’s near approach and HMB’s far pier. Let the long empty deck and DK’s first deliberate provocation carry the tension. Preserve DK’s four-legged silhouette and HMB’s belt. |
+| Slob and El Niño | Frame the advancing front from Slob’s cargo shelter. Headlights catching rain, secured beer and the visible Hearthroad make the threat to a working delivery route legible. |
+| ObiWan and Chili | Stage the public spectacle at the scarred mountain approach. A close reaction after the bravado reveals ObiWan’s playoff fear. Keep the green blade, Chili’s rodeo aftermath and the small OFF BOARD detail. |
+| Red Leopards at Three Dreaded Snake | Frame the outdoor contest laterally along the property edge so readers can judge the action. Use temporary markers, the approved event once selected, and the temple outskirts. Keep the household outside the scene. |
+| Seven Deadly Chins at Mud Dogs | Begin low at the old swamp racing ruts. A wide comic setup gives way to a close view of Mud defending his last path. Reserve the Cancún payoff for verified elimination. |
+| Dr. Duckhook and The LLC | Use a restrained two-shot and increasingly revealing reaction shots for the personal comedy. Develop the close-ups now. An identifying wide shot depends on verification of the requested non-golf site. |
+
+**Production check.** In each page brief, specify the existing character/location reference, the scene’s light source, the family of titles or data labels, and the crop’s focal point. Proof actual 1080×1920 masters at 390 px wide. Read odds, names, scores and dialogue against source text after compositing. Final scores, cover outcome, independent visual review and publication stay under the existing gates.
+
+**Week 12 handoff.** Thanksgiving is the Founder-selected visual theme for the first divisional return. Carry forward verified Week 11 consequences and existing geography. Leave Week 12 scenes, results and cover selection to its own production cycle.
+
 ## CURRENT RESUME — Bullpen source recovery and production blocker closeout
 - **Read first:** [Bullpen blocker-resolution closeout](BULLPEN_BLOCKER_RESOLUTION_CLOSEOUT_2026-11-20.md) and [modeled production/Inklings source-adjudication](BULLPEN_PRODUCTION_INKLINGS_BLOCKER_REVIEW_2026-11-20.md). These supersede the earlier Nov18 source-unavailable and uninvolved Bullpen assumptions; the historic dated audits remain accurate as of their original run and unedited.
 - **November18 source recovered:** [12-team FFHub conditional evidence](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md), exact five raw JSON files/hashes and seven-role modeled Bullpen/Inklings review in protected draft [Bullpen PR #158](https://github.com/jakekaloper-hub/bullpen/pull/158). Dated UI-capture source integrity passes; not vendor calibration or independent acceptance. Private PR general verify workflow remains failed before reported job steps.
