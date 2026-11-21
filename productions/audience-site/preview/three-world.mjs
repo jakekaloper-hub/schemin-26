@@ -99,6 +99,37 @@ export function createTerrainSurfaceNormalTexture(THREE,size=128,tileWorldUnits=
  texture.anisotropy=4;texture.needsUpdate=true;
  return texture;
 }
+/** Damp ground contact around the existing Mud Dogs water footprint.
+ * A read-only optical vertex tint on terrain triangles only: not a shoreline,
+ * water simulation, terrain displacement, hydrology, or canonical state.
+ * Existing swamp disc radii (10.5 × 8.2) provide the bounded visual scale.
+ */
+export function wetlandGroundContactWeight(x,z,anchor){
+ if(!Array.isArray(anchor)||anchor.length!==3||![x,z,...anchor].every(Number.isFinite))throw Error('INVALID_WETLAND_CONTACT_ANCHOR');
+ const r=Math.hypot((x-anchor[0])/10.5,(z-anchor[2])/8.2);
+ const t=Math.max(0,Math.min(1,(1.65-r)/.95));
+ return t*t*(3-2*t);
+}
+export function applyWetlandGroundContact(geometry,anchor,terrainVertexCount){
+ const position=geometry?.getAttribute?.('position'),color=geometry?.getAttribute?.('color');
+ if(!position||!color||position.count!==color.count||!Number.isInteger(terrainVertexCount)||terrainVertexCount<=0||terrainVertexCount>position.count)throw Error('INVALID_WETLAND_CONTACT_GEOMETRY');
+ // Validate source anchor even on a hypothetical mesh entirely outside the region.
+ wetlandGroundContactWeight(0,0,anchor);
+ let tinted=0;
+ for(let i=0;i<terrainVertexCount;i++){
+  const x=position.getX(i),z=position.getZ(i);
+  const weight=wetlandGroundContactWeight(x,z,anchor);
+  if(weight===0)continue;
+  // Small deterministic variation avoids a hard circular, uniform color decal.
+  const variation=.87+.13*Math.sin(x*.6+z*.23)*Math.cos(x*.3-z*.5);
+  const contact=weight*variation;
+  color.setXYZ(i,color.getX(i)*(1-.33*contact),color.getY(i)*(1-.22*contact),color.getZ(i)*(1-.21*contact));
+  tinted++;
+ }
+ if(tinted){if(color.data)color.data.needsUpdate=true;else color.needsUpdate=true;}
+ return tinted;
+}
+
 /** Shallow-water optical mask derived ONLY from existing terrain height.
  * Disposable, read-only lighting cue for the original water plane:
  * not hydrological topology, an Atlas river edit, or a canonical shoreline.
@@ -290,10 +321,14 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const quality=rendererQuality(canvas.clientWidth||1280,globalThis.devicePixelRatio||1);
  sun.shadow.mapSize.set(quality.shadowSize,quality.shadowSize);Object.assign(sun.shadow.camera,{left:-140,right:140,top:140,bottom:-140,near:1,far:420});sun.shadow.bias=-.00035;sun.shadow.normalBias=.1;scene.add(sun);scene.add(sun.target);
  const specialIds=['LOC-TDS-WATERFALL-TEMPLE','LOC-MUD-DOGS-SWAMP','LOC-COUNTRY-CLUB-JACKSON',...(buildAtlasSiteAssets?atlasSiteIds:[])];
- const {mesh,water:oldWater,height}=buildWorldGeometry(bindings,160,2600,{skipLandmarkIds:specialIds});
+ const terrainGrid=160;
+ const {mesh,water:oldWater,height}=buildWorldGeometry(bindings,terrainGrid,2600,{skipLandmarkIds:specialIds});
  const geometry=new THREE.BufferGeometry(),interleaved=new THREE.InterleavedBuffer(new Float32Array(mesh.values),9);
  const color=new THREE.Color();for(let i=0;i<interleaved.array.length;i+=9){color.setRGB(interleaved.array[i+6],interleaved.array[i+7],interleaved.array[i+8],THREE.SRGBColorSpace);interleaved.array[i+6]=color.r;interleaved.array[i+7]=color.g;interleaved.array[i+8]=color.b;}
- geometry.setAttribute('position',new THREE.InterleavedBufferAttribute(interleaved,3,0));geometry.setAttribute('normal',new THREE.InterleavedBufferAttribute(interleaved,3,3));geometry.setAttribute('color',new THREE.InterleavedBufferAttribute(interleaved,3,6));geometry.computeBoundingSphere();
+ geometry.setAttribute('position',new THREE.InterleavedBufferAttribute(interleaved,3,0));geometry.setAttribute('normal',new THREE.InterleavedBufferAttribute(interleaved,3,3));geometry.setAttribute('color',new THREE.InterleavedBufferAttribute(interleaved,3,6));
+ const swampBinding=bindings.find(b=>b.id==='LOC-MUD-DOGS-SWAMP');
+ if(swampBinding)applyWetlandGroundContact(geometry,swampBinding.anchor,terrainGrid*terrainGrid*6);
+ geometry.computeBoundingSphere();
  applyTerrainPlanarUVs(THREE,geometry);
  const terrainTexture=createTerrainSurfaceTexture(THREE);
  const terrainNormalTexture=createTerrainSurfaceNormalTexture(THREE);
