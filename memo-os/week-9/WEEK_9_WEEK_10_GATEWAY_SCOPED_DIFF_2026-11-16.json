@@ -1,0 +1,532 @@
+{
+  "schema": "schemin26.gateway_scoped_diff.v1",
+  "run_id": "S26-MEMO-W10-20261116",
+  "trace_id": "TRACE-S26-MEMO-20261116-1417621",
+  "work_key": "league=1417621/season=2026/week=10/observation=2026-11-16/source=flaim-espn",
+  "comparison": "non_atomic_semantic_comparison",
+  "sources": {
+    "a": {
+      "name": "authenticated ESPN via Flaim",
+      "observation_date": "2026-11-16",
+      "type": "adapter_normalized"
+    },
+    "b": {
+      "branch": "data/live",
+      "path": "data/snapshots/1417621/latest.json",
+      "blob_sha": "c5b0bdc6c88b7b48a8046866503d22117022f7c5",
+      "manifest_sha": "30f31bd912dc04113572a947a2bd94464d5c13ab",
+      "fetched_at": "2026-11-16T07:47:04.287766+00:00",
+      "stale_at_capture": false,
+      "source": "espn-lm-api-reads",
+      "original_wire_bytes_and_headers_verified": false,
+      "snapshot_type": "parsed_gateway_json_not_native_http"
+    }
+  },
+  "per_week": {
+    "week9": {
+      "count": 6,
+      "pairings_matched": 6,
+      "winner_states_matched": 6,
+      "current_scores_matched": 6,
+      "rows": [
+        {
+          "home_team": "Mud Dogs",
+          "away_team": "El Niño",
+          "home_team_id": 10,
+          "away_team_id": 9,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            84.2,
+            125.54
+          ],
+          "gateway_points": [
+            84.2,
+            125.54
+          ],
+          "provider_winner": "AWAY"
+        },
+        {
+          "home_team": "Dr. Duckhook",
+          "away_team": "ObiWan Jacoby",
+          "home_team_id": 12,
+          "away_team_id": 1,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            166.56,
+            144.46
+          ],
+          "gateway_points": [
+            166.56,
+            144.46
+          ],
+          "provider_winner": "HOME"
+        },
+        {
+          "home_team": "Red Leopards",
+          "away_team": "Seven Deadly Chins",
+          "home_team_id": 2,
+          "away_team_id": 11,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            118.58,
+            112.18
+          ],
+          "gateway_points": [
+            118.58,
+            112.18
+          ],
+          "provider_winner": "HOME"
+        },
+        {
+          "home_team": "The Chili Cheesers ",
+          "away_team": "His Majesty's Blood",
+          "home_team_id": 7,
+          "away_team_id": 8,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            152.84,
+            135.08
+          ],
+          "gateway_points": [
+            152.84,
+            135.08
+          ],
+          "provider_winner": "HOME"
+        },
+        {
+          "home_team": "D0nkey K0ng",
+          "away_team": "The LLC",
+          "home_team_id": 5,
+          "away_team_id": 4,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            158.7,
+            129.89
+          ],
+          "gateway_points": [
+            158.7,
+            129.89
+          ],
+          "provider_winner": "HOME"
+        },
+        {
+          "home_team": "Slob on my Dobb",
+          "away_team": "Three Dreaded Snake",
+          "home_team_id": 3,
+          "away_team_id": 6,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            165.66,
+            159.56
+          ],
+          "gateway_points": [
+            165.66,
+            159.56
+          ],
+          "provider_winner": "HOME"
+        }
+      ]
+    },
+    "week10": {
+      "count": 6,
+      "pairings_matched": 6,
+      "winner_states_matched": 6,
+      "current_scores_matched": 6,
+      "rows": [
+        {
+          "home_team": "The Chili Cheesers ",
+          "away_team": "D0nkey K0ng",
+          "home_team_id": 7,
+          "away_team_id": 5,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            93.7,
+            156.67
+          ],
+          "gateway_points": [
+            93.7,
+            156.67
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "Red Leopards",
+          "away_team": "El Niño",
+          "home_team_id": 2,
+          "away_team_id": 9,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            136.42,
+            189.08
+          ],
+          "gateway_points": [
+            136.42,
+            189.08
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "Three Dreaded Snake",
+          "away_team": "Seven Deadly Chins",
+          "home_team_id": 6,
+          "away_team_id": 11,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            75.78,
+            146.22
+          ],
+          "gateway_points": [
+            75.78,
+            146.22
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "Mud Dogs",
+          "away_team": "Slob on my Dobb",
+          "home_team_id": 10,
+          "away_team_id": 3,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            113.62,
+            179.29
+          ],
+          "gateway_points": [
+            113.62,
+            179.29
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "Dr. Duckhook",
+          "away_team": "His Majesty's Blood",
+          "home_team_id": 12,
+          "away_team_id": 8,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            127.67,
+            208.76
+          ],
+          "gateway_points": [
+            127.67,
+            208.76
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "ObiWan Jacoby",
+          "away_team": "The LLC",
+          "home_team_id": 1,
+          "away_team_id": 4,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            130.33,
+            203.96
+          ],
+          "gateway_points": [
+            130.33,
+            203.96
+          ],
+          "provider_winner": "UNDECIDED"
+        }
+      ]
+    },
+    "week11": {
+      "count": 6,
+      "pairings_matched": 6,
+      "winner_states_matched": 6,
+      "current_scores_matched": 6,
+      "rows": [
+        {
+          "home_team": "Slob on my Dobb",
+          "away_team": "El Niño",
+          "home_team_id": 3,
+          "away_team_id": 9,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            0,
+            0
+          ],
+          "gateway_points": [
+            0,
+            0
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "Three Dreaded Snake",
+          "away_team": "Red Leopards",
+          "home_team_id": 6,
+          "away_team_id": 2,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            0,
+            0
+          ],
+          "gateway_points": [
+            0,
+            0
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "Mud Dogs",
+          "away_team": "Seven Deadly Chins",
+          "home_team_id": 10,
+          "away_team_id": 11,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            0,
+            0
+          ],
+          "gateway_points": [
+            0,
+            0
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "ObiWan Jacoby",
+          "away_team": "The Chili Cheesers ",
+          "home_team_id": 1,
+          "away_team_id": 7,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            0,
+            0
+          ],
+          "gateway_points": [
+            0,
+            0
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "D0nkey K0ng",
+          "away_team": "His Majesty's Blood",
+          "home_team_id": 5,
+          "away_team_id": 8,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            0,
+            0
+          ],
+          "gateway_points": [
+            0,
+            0
+          ],
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "home_team": "Dr. Duckhook",
+          "away_team": "The LLC",
+          "home_team_id": 12,
+          "away_team_id": 4,
+          "matchup_present": true,
+          "winner_match": true,
+          "points_match": true,
+          "source_points": [
+            0,
+            0
+          ],
+          "gateway_points": [
+            0,
+            0
+          ],
+          "provider_winner": "UNDECIDED"
+        }
+      ]
+    }
+  },
+  "standings": {
+    "total": 12,
+    "matched": 12,
+    "rows": [
+      {
+        "team_id": 12,
+        "team_name": "Dr. Duckhook",
+        "seed": 1,
+        "record": [
+          6,
+          3,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 9,
+        "team_name": "El Niño",
+        "seed": 2,
+        "record": [
+          5,
+          4,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 5,
+        "team_name": "D0nkey K0ng",
+        "seed": 3,
+        "record": [
+          5,
+          4,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 2,
+        "team_name": "Red Leopards",
+        "seed": 4,
+        "record": [
+          5,
+          4,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 8,
+        "team_name": "His Majesty's Blood",
+        "seed": 5,
+        "record": [
+          5,
+          4,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 11,
+        "team_name": "Seven Deadly Chins",
+        "seed": 6,
+        "record": [
+          5,
+          4,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 3,
+        "team_name": "Slob on my Dobb",
+        "seed": 7,
+        "record": [
+          5,
+          4,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 7,
+        "team_name": "The Chili Cheesers ",
+        "seed": 8,
+        "record": [
+          5,
+          4,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 1,
+        "team_name": "ObiWan Jacoby",
+        "seed": 9,
+        "record": [
+          4,
+          5,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 6,
+        "team_name": "Three Dreaded Snake",
+        "seed": 10,
+        "record": [
+          4,
+          5,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 4,
+        "team_name": "The LLC",
+        "seed": 11,
+        "record": [
+          3,
+          6,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      },
+      {
+        "team_id": 10,
+        "team_name": "Mud Dogs",
+        "seed": 12,
+        "record": [
+          2,
+          7,
+          0
+        ],
+        "gateway_match": true,
+        "prior_match": true
+      }
+    ]
+  },
+  "scope": {
+    "synchronous_capture": false,
+    "authenticated_steward_ack": false,
+    "native_http_wire_headers_verified": false,
+    "raw_parsed_json_retrieved": true
+  },
+  "qualification": "Parsed gateway 07:47 UTC and later Flaim reads agree on schedule, states, current score and seeds; cannot prove simultaneous freshness or source wire provenance."
+}
