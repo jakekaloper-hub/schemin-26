@@ -1,0 +1,422 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P06",
+  "page_title": "THE LONG ROAD",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "maritime mercantile boardroom vs mountain base; two independent canonical geographies",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Doug Chiang",
+        "Frank Masi",
+        "Jill Bogdanowicz",
+        "Thelma Schoonmaker"
+      ],
+      "time": "lamp-lit mercantile dusk / mountain cloud daylight",
+      "left": {
+        "key": "existing brass lantern practical across ledger",
+        "fill": "blue harbor window, low-level room bounce",
+        "rim": "soft interior warm edge only",
+        "air": "faint coastal haze seen out window"
+      },
+      "right": {
+        "key": "cool open sky from high-altitude base",
+        "fill": "warm rock reflected fill",
+        "rim": "slight sunlight edge, small locally motivated green saber spill",
+        "air": "light mountain mist behind body, not in text"
+      },
+      "text_safe": "dark uncluttered ledger panel and separate mountain stone/sky zone",
+      "forbidden": "Belt on ObiWan, large fluorescent saber glow, new LLC destruction",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Frank Masi",
+      "Jill Bogdanowicz",
+      "Thelma Schoonmaker"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "The LLC",
+      "seed": 9,
+      "record": "4-6",
+      "narrative_headline": "A Contract With Chance",
+      "narrative_body": "From the mercantile boardroom, The LLC reads an unfinished ledger, its margins crowded with matches no one can yet control. Duckhook is first; three Pizza rivals follow. Even four victories and an eight-win finish cannot legally guarantee admission in every possible season.",
+      "narrative_full_word_count": 66,
+      "playoff_probability": "33.4%",
+      "if_w11_win": "51.8%",
+      "if_w11_loss": "15.6%",
+      "future_fork": {
+        "week": 14,
+        "opponent": "El Niño",
+        "if_win": "51.90%",
+        "if_loss": "16.01%",
+        "public_caption": "W14 VS EL NIÑO"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-DAVID-BABB",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340"
+      },
+      "atlas_asset": {
+        "id": "LOC-LLC-BOARDROOM",
+        "card": "world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json",
+        "plate": "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "existing brass lantern practical across ledger",
+        "fill": "blue harbor window, low-level room bounce",
+        "rim": "soft interior warm edge only",
+        "air": "faint coastal haze seen out window"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "ObiWan Jacoby",
+      "seed": 10,
+      "record": "4-6",
+      "narrative_headline": "The Mountain Still Has a Path",
+      "narrative_body": "At the Trade Jedi mountain base, ObiWan studies a sequence of roads: Chili, D0nkey K0ng, Mud Dogs, Snake. The next four weeks ask almost everything of him. A sweep, plus one additional DK defeat away from their direct rematch, can force a Burgers title.",
+      "narrative_full_word_count": 64,
+      "playoff_probability": "32.5%",
+      "if_w11_win": "52.9%",
+      "if_w11_loss": "12.8%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "D0nkey K0ng",
+        "if_win": "51.36%",
+        "if_loss": "16.03%",
+        "public_caption": "W12 VS D0NKEY K0NG"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-JAKE-KALOPER",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8"
+      },
+      "atlas_asset": {
+        "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "card": "world/location-control-plane/locations/LOC-TRADE-JEDI-MOUNTAIN-BASE/CARD.json",
+        "plate": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "cool open sky from high-altitude base",
+        "fill": "warm rock reflected fill",
+        "rim": "slight sunlight edge, small locally motivated green saber spill",
+        "air": "light mountain mist behind body, not in text"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  },
+  "staging": {
+    "source_path": "productions/road-to-seven-2026/folios/RT7-P06/STAGING.json",
+    "shot_camera": "50mm seated desk/ledger interior left, 35mm mountain lookout low perspective right, balanced similar subject size",
+    "editorial_seam": "Editorial graphic transition from harbor-window rain reflection to mountain air; different horizons, no direct line of sight",
+    "sound_implied": "quiet ledger pages, harbor shutter / mountain cloth and footstep with dog pads",
+    "global_weather_motif": "El Niño's atmospheric motif follows Atlas climate causality; not every storm is El Niño",
+    "world_state_age_warning": "Latest loaded persistent world-state source is Week 3; no direct Week 10 El Niño global storm event was established. This is proposed cinematic staging, not a source-verified new physical event.",
+    "studio_workflow": [
+      {
+        "lens": "Doug Chiang",
+        "assignment": "Production-design scale hierarchy, anchor architecture, shape language for symbolic cover, Highland keep and boardroom/mountain split",
+        "direct_page": true
+      },
+      {
+        "lens": "Dylan Cole",
+        "assignment": "Atlas-aware geography/biome design; separate Eastern coast, Upper Valleys, Western dry range and Southern Wetlands",
+        "direct_page": false
+      },
+      {
+        "lens": "Joe Letteri",
+        "assignment": "Character-specific morphology and weather-light interaction; verify Niño human elemental, DK centaur, spotted Red and three heads",
+        "direct_page": false
+      },
+      {
+        "lens": "Ngila Dickson",
+        "assignment": "Costume continuity from approved Oct 18 image delta; fabric wetness and period materials without redesign",
+        "direct_page": true
+      },
+      {
+        "lens": "Andy Serkis",
+        "assignment": "Express physical emotional intentions through gaze/weight/gesture; distinct POVs, no declared game outcome",
+        "direct_page": false
+      },
+      {
+        "lens": "Rob Alonzo",
+        "assignment": "Grounded contact points and action axes; swords/axes/clubs/tack must respect anatomy and set safety",
+        "direct_page": true
+      },
+      {
+        "lens": "James Baxter",
+        "assignment": "Readable silhouette and separate emotion at phone scale; confirm no species morphing",
+        "direct_page": false
+      },
+      {
+        "lens": "Frank Masi",
+        "assignment": "Lens height, frame depth and decisive still moment on every folio; no repetitive generic hero-pose",
+        "direct_page": true
+      },
+      {
+        "lens": "John Knoll",
+        "assignment": "Two-location composite seam, lighting/plate passes, exact source-bound render inputs, deterministic typography pipeline",
+        "direct_page": true
+      },
+      {
+        "lens": "Jill Bogdanowicz",
+        "assignment": "Color and exposure management; atmosphere/light continuity WITHOUT imposing identical storms in each region",
+        "direct_page": true
+      },
+      {
+        "lens": "Thelma Schoonmaker",
+        "assignment": "Seven-page editorial sequence and visual rhythm; action direction and story-pacing escalates to final survival stakes",
+        "direct_page": true
+      },
+      {
+        "lens": "Randy Thom",
+        "assignment": "Sound-implied visual cues: water roar, cloth flutter, axe impact risk, gravel scrape, horse tack, marsh sucking; no audio generation",
+        "direct_page": true
+      }
+    ],
+    "cast_staging": [
+      {
+        "side": "left",
+        "team": "The LLC",
+        "seed": 9,
+        "character_id": "CHAR-DAVID-BABB",
+        "location_id": "LOC-LLC-BOARDROOM",
+        "physical_zone": "REG-INNER-SEA-LITTORAL",
+        "terrain": [
+          "warm ports",
+          "islands",
+          "sheltered bays",
+          "coastal terraces"
+        ],
+        "physical_set": "Executive chamber, trade ledgers, harbor market overlook; remember Week2 damage/repair unknown, never pristine reset",
+        "anchor_landmarks": [
+          "executive chamber",
+          "ledgers",
+          "market overlook"
+        ],
+        "pose_action": "The LLC sits in executive chair marking a ledger, cigar held away from paper, expensive suit sleeves and red tie recognizable; not crowned",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+          "head_face": "Human head with short dark hair and dark sunglasses",
+          "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+          "palette": [
+            "black suit",
+            "white shirt",
+            "red tie",
+            "gold accessories"
+          ],
+          "recognizable_props": [
+            "cigar",
+            "executive leather chair",
+            "briefcase",
+            "wealth/financial desk accents"
+          ],
+          "negative_rules": [
+            "gorilla centaur",
+            "monster body",
+            "leopard head"
+          ]
+        },
+        "shoot_costume_dressing": "Well-groomed human executive, dark tailored suit, RED tie, dark sunglasses, gold accents, cigar/briefcase and chair",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "reference_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          },
+          {
+            "id": "WX-SOUTHERN-FLOOD",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "high river",
+              "mud",
+              "causeway closure"
+            ],
+            "rule": "flooding follows watershed; not arbitrary backdrop"
+          }
+        ],
+        "weather_role": "EAST_STORM_SOURCE_LOCAL",
+        "weather_exposure": "Harbor storm-glow through window, possible moisture on glass; no new roof blowout or flooding, old Week3 storm memory belongs Storm City history",
+        "el_nino_attribution": "CLIMATE_ELIGIBLE_ATTRIBUTION_UNPROVEN",
+        "el_nino_note": "Local eastern/Inner Sea storm pattern eligible; not enough evidence to call its current storm El Niño",
+        "entering_world_state": [
+          "Week 2 intrusion/destruction history retained",
+          "repair state not fully specified"
+        ],
+        "motived_lighting": {
+          "key": "existing brass lantern practical across ledger",
+          "fill": "blue harbor window, low-level room bounce",
+          "rim": "soft interior warm edge only",
+          "air": "faint coastal haze seen out window"
+        },
+        "blocking_restrictions": [
+          "gorilla centaur",
+          "monster body",
+          "leopard head",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      },
+      {
+        "side": "right",
+        "team": "ObiWan Jacoby",
+        "seed": 10,
+        "character_id": "CHAR-JAKE-KALOPER",
+        "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "physical_zone": "REG-UPPER-VALLEYS",
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "physical_set": "Trade Jedi Mountain Base high ridge and war-room overlook, no new ceremonial Belt pedestal",
+        "anchor_landmarks": [
+          "high ridge",
+          "war-room overlook"
+        ],
+        "pose_action": "ObiWan stands on high-ridge war-room overlook with green energy blade angled low pointing toward next road, golden retriever alongside near stone steps",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+          "head_face": "Light hair, human face, serious gaze",
+          "silhouette": "Upright human with cloak, luminous green sword and adjacent golden retriever",
+          "palette": [
+            "olive",
+            "brown",
+            "green blade glow",
+            "golden fur"
+          ],
+          "recognizable_props": [
+            "green energy sword",
+            "golden retriever companion"
+          ],
+          "negative_rules": [
+            "championship belt",
+            "changing golden retriever into mount",
+            "changing blade away from green"
+          ]
+        },
+        "shoot_costume_dressing": "Blond human strategist in earth-tone robes, green energy sword, GOLDEN RETRIEVER companion; Belt expressly forbidden",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "reference_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          },
+          {
+            "id": "WX-NORTHERN-WINTER",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "snow",
+              "ice",
+              "pass closure"
+            ],
+            "rule": "elevation controls severity"
+          }
+        ],
+        "weather_role": "EAST_PROPAGATION_POSSIBLE",
+        "weather_exposure": "Windswept mountain clouds and distant eastern storm bank beyond intervening ridges only if visibility supports it; not guaranteed see Storm Bowl",
+        "el_nino_attribution": "DOWNSTREAM_PROPAGATION_NOT_CONFIRMED",
+        "el_nino_note": "Allow sky-pressure motif but not a specific storm event, flooding or travel closure without recorded propagation",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "cool open sky from high-altitude base",
+          "fill": "warm rock reflected fill",
+          "rim": "slight sunlight edge, small locally motivated green saber spill",
+          "air": "light mountain mist behind body, not in text"
+        },
+        "blocking_restrictions": [
+          "championship belt",
+          "changing golden retriever into mount",
+          "changing blade away from green",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      }
+    ],
+    "cover_staging": null
+  }
+}

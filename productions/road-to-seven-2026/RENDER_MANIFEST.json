@@ -1,0 +1,70 @@
+{
+  "compiler_version": "road7-staging-v2",
+  "pages": [
+    {
+      "page": "RT7-P01",
+      "path": "productions/road-to-seven-2026/folios/RT7-P01/RENDER_INPUT.json",
+      "characters": 0,
+      "copy_fragments": 1
+    },
+    {
+      "page": "RT7-P02",
+      "path": "productions/road-to-seven-2026/folios/RT7-P02/RENDER_INPUT.json",
+      "characters": 2,
+      "copy_fragments": 2
+    },
+    {
+      "page": "RT7-P03",
+      "path": "productions/road-to-seven-2026/folios/RT7-P03/RENDER_INPUT.json",
+      "characters": 2,
+      "copy_fragments": 2
+    },
+    {
+      "page": "RT7-P04",
+      "path": "productions/road-to-seven-2026/folios/RT7-P04/RENDER_INPUT.json",
+      "characters": 2,
+      "copy_fragments": 2
+    },
+    {
+      "page": "RT7-P05",
+      "path": "productions/road-to-seven-2026/folios/RT7-P05/RENDER_INPUT.json",
+      "characters": 2,
+      "copy_fragments": 2
+    },
+    {
+      "page": "RT7-P06",
+      "path": "productions/road-to-seven-2026/folios/RT7-P06/RENDER_INPUT.json",
+      "characters": 2,
+      "copy_fragments": 2
+    },
+    {
+      "page": "RT7-P07",
+      "path": "productions/road-to-seven-2026/folios/RT7-P07/RENDER_INPUT.json",
+      "characters": 2,
+      "copy_fragments": 2
+    }
+  ],
+  "scene_shas": [
+    "06c1212081691bb7f71bdd1c751cda3877c4f2b13b1f2bce83e3472b18245d5b",
+    "49b963dae4b8c25d7a2900dedaca2fbf33b04bbf88ddc95c1ec12f0a7129139b",
+    "3451ec5dabeab22b48604a0d2ddf4c8433810a2d2323b2409e11e05c439e2627",
+    "f3de5be6bd03bc0858a7ff71595654fd6699579bc8c8917ade059d57566b4518",
+    "6bb3520c7bfbf4df24279ae0e09c4ceabc590f5975fd8d3a9419ce8844284be5",
+    "065eedcee19cb64b662208743e80e860826f17bd826dc71097af57d2a00cc392",
+    "676652300a2f092d406edfbc10176599362c7ee8ab3663e14c116990f0c70def"
+  ],
+  "staging_manifest_sha256": "63a243b642b6da065cf01dac3003bd3d50d016334e724c5ffa41e740e35b126e",
+  "staging_shas": [
+    "98544bf682d4298147ed42f7d4eb18bf050b1af4be92198299201f05c5422e40",
+    "4f8d376a2cfb27c9e8b44907addf367370ce2c77d6bd40fbb1a62639a5f19a40",
+    "eb8dafdb0b26edbe91d97b61071a430855fdf4ddde55011d8f63209289a39d70",
+    "cf645b0ea030d7c6a63a92c0373876c525ef35cb62cf85f3c119c08f94073579",
+    "2fadd7d202ff9cde9cd998fb2186de3824386283a13a74fe3ca8911a7274a8da",
+    "26282567efa59d7c1e0c19c793b207aab9c46ad56279b9131b9cb7daba7fc6ec",
+    "57270b17425dde85a6309208d746d64c44efa62bfa452892b2b9fee8ef294add"
+  ],
+  "manuscript_sha256": "d474702a7212df19d2e09f7062aff5232a139a611ce951b5514c75b102cb50ef",
+  "vendor_summary_sha256": "66471469d2c67d3793a611cf45a435d2faea27a583e86d3f03961ecfa4eee9bf",
+  "future_summary_sha256": "e7d5f530e2fa5ed65812eb0f6f455abd34af2c3938616690e0b71c8ddbf747ee",
+  "warning": "A complete render manifest is NOT proof that final pixels exist or passed art QA"
+}

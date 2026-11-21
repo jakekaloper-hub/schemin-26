@@ -1,0 +1,174 @@
+{
+  "schema_version": "schemin.road_to_seven_scene.v1",
+  "id": "RT7-P03",
+  "title": "THE PURSUIT",
+  "edition": "The Road to Seven",
+  "artifact": {
+    "format": "PNG",
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "page_count": 1,
+    "output_file": "RT7-P03.png"
+  },
+  "state": "SOURCE_AND_ASSET_BOUND_SCENE_CONTRACT__NO_PNG_GENERATED",
+  "commissioner_locks": [
+    "official_W10_seed_pairing",
+    "two_equal_character_worlds",
+    "epic_heroic_individual_POV",
+    "canon_safe_atlas",
+    "no_unplayed_results",
+    "FFHub_vendor_estimates_separate_from_exact_status"
+  ],
+  "camera": "low-angle Highland stronghold vs storm-cliff keep; both characters full anatomy, command without coronation",
+  "character_panels": [
+    {
+      "side": "left",
+      "team_id": 5,
+      "team": "D0nkey K0ng",
+      "official_week10_seed": 3,
+      "week10_record": "6-4",
+      "owner": "Wilson Look",
+      "character_id": "CHAR-WILSON-LOOK",
+      "approved_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+      "approved_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+      "appearance_manifest_path": "canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+      "appearance_delta_path": "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+      "atlas_location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "atlas_card_path": "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json",
+      "atlas_structural_plate_path": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg",
+      "ffhub_asof": "2026-11-18T16:45:12.354Z",
+      "ffhub_baseline_pct": 93.31,
+      "ffhub_w11_win_pct": 98.66,
+      "ffhub_w11_loss_pct": 88.55,
+      "ffhub_w11_opponent": "His Majesty's Blood",
+      "selected_future_forks": [
+        {
+          "week": 12,
+          "against": "ObiWan Jacoby",
+          "if_win_pct": 99.48,
+          "if_loss_pct": 86
+        },
+        {
+          "week": 13,
+          "against": "Three Dreaded Snake",
+          "if_win_pct": 97.96,
+          "if_loss_pct": 84.96
+        },
+        {
+          "week": 14,
+          "against": "Mud Dogs",
+          "if_win_pct": 95.93,
+          "if_loss_pct": 82.11
+        }
+      ],
+      "rendered_likeness_qa": "NOT_RUN"
+    },
+    {
+      "side": "right",
+      "team_id": 8,
+      "team": "His Majesty's Blood",
+      "official_week10_seed": 4,
+      "week10_record": "6-4",
+      "owner": "Austin Byars",
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "approved_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+      "approved_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+      "appearance_manifest_path": "canon/characters/CHAR-AUSTIN-BYARS/REFERENCE_MANIFEST.yaml",
+      "appearance_delta_path": "canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json",
+      "atlas_location_id": "LOC-BELT-KEEPER-KEEP",
+      "atlas_card_path": "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json",
+      "atlas_structural_plate_path": "world/environment-references/plates/LOC-BELT-KEEPER-KEEP/STRUCTURAL_PLATE.svg",
+      "ffhub_asof": "2026-11-18T16:45:12.354Z",
+      "ffhub_baseline_pct": 87.62,
+      "ffhub_w11_win_pct": 95.17,
+      "ffhub_w11_loss_pct": 80.1,
+      "ffhub_w11_opponent": "D0nkey K0ng",
+      "selected_future_forks": [
+        {
+          "week": 13,
+          "against": "El Niño",
+          "if_win_pct": 96.22,
+          "if_loss_pct": 80.29
+        }
+      ],
+      "rendered_likeness_qa": "NOT_RUN"
+    }
+  ],
+  "scene_authority": {
+    "full_page_contract": "productions/road-to-seven-2026/folios/RT7-P03/PAGE_PACKET.md",
+    "data_sources": [
+      "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+      "productions/road-to-seven-2026/evidence/FFHUB_FUTURE_FORKS_2026-11-18.json",
+      "productions/road-to-seven-2026/evidence/FLAIM_CURRENT_ROSTERS_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/FLAIM_W12_W14_PROVISIONAL_PROJECTIONS.md",
+      "productions/road-to-seven-2026/evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md"
+    ]
+  },
+  "typography_rule": "One seed/record and one dated FFHub baseline and one selected future hinge per panel; full analysis stays backstage; verify at 390px mobile display.",
+  "privacy_rule": "Do not copy the private 611KB vendor raw payload into Git.",
+  "visual_safety": {
+    "reference_crop_sha_verified": true,
+    "atlas_card_exists": true,
+    "structural_plate_exists": true,
+    "approved_environment_pixel_binding": "TO_REVIEW",
+    "generated_visual_QA": "NOT_RUN",
+    "umpire_release": "NOT_SIGNED"
+  },
+  "visual_studio": {
+    "owning_role": "Schemin Narrative Art Director / Visual Direction Lead",
+    "production_lenses_are": "PUBLISHED_METHOD_REFERENCE_ONLY_NOT_HUMAN_CONSULTATIONS",
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Joe Letteri",
+      "Ngila Dickson",
+      "Rob Alonzo"
+    ],
+    "source_document": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md",
+    "skill_methods": [
+      "creative-production/produce:styles",
+      "creative-production/produce:shots",
+      "creative-production/produce:source-preservation",
+      "creative-production/produce:exact-content"
+    ]
+  },
+  "lighting_contract": {
+    "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+    "lead": [
+      "Doug Chiang",
+      "Joe Letteri",
+      "Ngila Dickson",
+      "Rob Alonzo"
+    ],
+    "time": "late golden hour / storm-break contrast",
+    "left": {
+      "key": "warm low sun across gorilla-centaur four-legged form",
+      "fill": "cool reflected Highland stone",
+      "rim": "thin golden fur edge",
+      "air": "sparse dust revealing hoof/leg shadows"
+    },
+    "right": {
+      "key": "cool cloud break at keep",
+      "fill": "warm hearth bounced light",
+      "rim": "narrow natural storm edge, eye glow cannot illuminate entire keep",
+      "air": "light sea mist near ramparts"
+    },
+    "text_safe": "unlit limestone inset away from Belt and fur highlights",
+    "forbidden": "biped DK, wrong number of legs, Belt on ObiWan, glowing eyes as spotlight",
+    "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+  },
+  "writing_contract": {
+    "owner": "Schemin Beat Writer / Inklings advisory lenses",
+    "copy_path": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+    "not_human_author_consultation": true,
+    "review_status": "WRITTEN_CANDIDATE_NOT_APPROVED"
+  },
+  "release_qa": {
+    "created_at": "2026-11-18",
+    "stage": "PREPRODUCTION_ONLY",
+    "visual_raster": "NOT_GENERATED",
+    "source_qa": "PASS",
+    "independent_umpire_visual": "NOT_RUN"
+  }
+}

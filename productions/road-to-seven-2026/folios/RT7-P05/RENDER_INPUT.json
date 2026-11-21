@@ -1,0 +1,394 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P05",
+  "page_title": "THE SEVENTH GATE",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "jungle ruins and predator banners facing stable frontier; qualification cut line metaphorical",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Dylan Cole",
+        "Rob Alonzo",
+        "Frank Masi",
+        "Jill Bogdanowicz"
+      ],
+      "time": "forest canopy / stable late-day",
+      "left": {
+        "key": "spotted filtered amber canopy shafts",
+        "fill": "low-contrast forest green stone bounce",
+        "rim": "edge on red leopard spots and armor",
+        "air": "humid forest depth, preserved terrace scar"
+      },
+      "right": {
+        "key": "low oblique sunlight through barn entrance",
+        "fill": "earth and timber bounce to lift hat-shadowed facial planes",
+        "rim": "bronze western dust edge",
+        "air": "dry track dust; no physical adjacency"
+      },
+      "text_safe": "two separately dark, low-detail name/record zones, not on changing specular highlights",
+      "forbidden": "actual Week 13 result depicted, new stone damage, character without black hat",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Dylan Cole",
+      "Rob Alonzo",
+      "Frank Masi",
+      "Jill Bogdanowicz"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "Red Leopards",
+      "seed": 7,
+      "record": "5-5",
+      "narrative_headline": "Keeper of a Narrow Opening",
+      "narrative_body": "Between ruined stones and predator banners, Red Leopards watches the narrow way into the seventh position. Five victories place him just inside the gate, but the threshold belongs to no one yet. Three Dreaded Snake approaches first. Duckhook follows, then Chili arrives for the consequential Week 13 rematch.",
+      "narrative_full_word_count": 67,
+      "playoff_probability": "50.1%",
+      "if_w11_win": "64.8%",
+      "if_w11_loss": "27.2%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "The Chili Cheesers",
+        "if_win": "70.21%",
+        "if_loss": "30.71%",
+        "public_caption": "W13 VS THE CHILI CHEESERS"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-KEVIN-ZEEK",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b"
+      },
+      "atlas_asset": {
+        "id": "LOC-RED-RUINS",
+        "card": "world/location-control-plane/locations/LOC-RED-RUINS/CARD.json",
+        "plate": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "spotted filtered amber canopy shafts",
+        "fill": "low-contrast forest green stone bounce",
+        "rim": "edge on red leopard spots and armor",
+        "air": "humid forest depth, preserved terrace scar"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "The Chili Cheesers",
+      "seed": 8,
+      "record": "5-5",
+      "narrative_headline": "One Step Beyond the Line",
+      "narrative_body": "The stable gate swings open onto dusty track. Chili holds the eighth seed and refuses to confuse standing outside with being defeated. ObiWan arrives before the three Wings rematches; Red waits in Week 13, when one result could swing both playoff paths.",
+      "narrative_full_word_count": 65,
+      "playoff_probability": "38.2%",
+      "if_w11_win": "58.8%",
+      "if_w11_loss": "20.7%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "Red Leopards",
+        "if_win": "57.36%",
+        "if_loss": "21.57%",
+        "public_caption": "W13 VS RED LEOPARDS"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-BRANDON-PRYOR",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+      },
+      "atlas_asset": {
+        "id": "LOC-CHILI-STABLE",
+        "card": "world/location-control-plane/locations/LOC-CHILI-STABLE/CARD.json",
+        "plate": "world/environment-references/plates/LOC-CHILI-STABLE/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "low oblique sunlight through barn entrance",
+        "fill": "earth and timber bounce to lift hat-shadowed facial planes",
+        "rim": "bronze western dust edge",
+        "air": "dry track dust; no physical adjacency"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  },
+  "staging": {
+    "source_path": "productions/road-to-seven-2026/folios/RT7-P05/STAGING.json",
+    "shot_camera": "40mm crouched predatory view through old ruin stones left; 50mm stable doorway profile with horse depth right",
+    "editorial_seam": "A graphic diagonal seventh-place threshold separates humid dark green rainforest from hot dry stable amber, not a physical border",
+    "sound_implied": "spear leather creak, dripping leaves / horse tack jingles and stable boards",
+    "global_weather_motif": "El Niño's atmospheric motif follows Atlas climate causality; not every storm is El Niño",
+    "world_state_age_warning": "Latest loaded persistent world-state source is Week 3; no direct Week 10 El Niño global storm event was established. This is proposed cinematic staging, not a source-verified new physical event.",
+    "studio_workflow": [
+      {
+        "lens": "Doug Chiang",
+        "assignment": "Production-design scale hierarchy, anchor architecture, shape language for symbolic cover, Highland keep and boardroom/mountain split",
+        "direct_page": false
+      },
+      {
+        "lens": "Dylan Cole",
+        "assignment": "Atlas-aware geography/biome design; separate Eastern coast, Upper Valleys, Western dry range and Southern Wetlands",
+        "direct_page": true
+      },
+      {
+        "lens": "Joe Letteri",
+        "assignment": "Character-specific morphology and weather-light interaction; verify Niño human elemental, DK centaur, spotted Red and three heads",
+        "direct_page": true
+      },
+      {
+        "lens": "Ngila Dickson",
+        "assignment": "Costume continuity from approved Oct 18 image delta; fabric wetness and period materials without redesign",
+        "direct_page": true
+      },
+      {
+        "lens": "Andy Serkis",
+        "assignment": "Express physical emotional intentions through gaze/weight/gesture; distinct POVs, no declared game outcome",
+        "direct_page": true
+      },
+      {
+        "lens": "Rob Alonzo",
+        "assignment": "Grounded contact points and action axes; swords/axes/clubs/tack must respect anatomy and set safety",
+        "direct_page": true
+      },
+      {
+        "lens": "James Baxter",
+        "assignment": "Readable silhouette and separate emotion at phone scale; confirm no species morphing",
+        "direct_page": true
+      },
+      {
+        "lens": "Frank Masi",
+        "assignment": "Lens height, frame depth and decisive still moment on every folio; no repetitive generic hero-pose",
+        "direct_page": true
+      },
+      {
+        "lens": "John Knoll",
+        "assignment": "Two-location composite seam, lighting/plate passes, exact source-bound render inputs, deterministic typography pipeline",
+        "direct_page": true
+      },
+      {
+        "lens": "Jill Bogdanowicz",
+        "assignment": "Color and exposure management; atmosphere/light continuity WITHOUT imposing identical storms in each region",
+        "direct_page": true
+      },
+      {
+        "lens": "Thelma Schoonmaker",
+        "assignment": "Seven-page editorial sequence and visual rhythm; action direction and story-pacing escalates to final survival stakes",
+        "direct_page": true
+      },
+      {
+        "lens": "Randy Thom",
+        "assignment": "Sound-implied visual cues: water roar, cloth flutter, axe impact risk, gravel scrape, horse tack, marsh sucking; no audio generation",
+        "direct_page": true
+      }
+    ],
+    "cast_staging": [
+      {
+        "side": "left",
+        "team": "Red Leopards",
+        "seed": 7,
+        "character_id": "CHAR-KEVIN-ZEEK",
+        "location_id": "LOC-RED-RUINS",
+        "physical_zone": "REG-EASTERN-STORM-COAST",
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "physical_set": "Established jungle ruins and predator banners; preserve old stone and terrace without inventing new destruction/repair",
+        "anchor_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "pose_action": "Red Leopards crouches on a known jungle ruin approach, spear pointed DOWN as a guarded line, eyes scanning routes; not physically fighting Chili yet",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Red spotted anthropomorphic predatory leopard-warrior",
+          "head_face": "Leopard muzzle, bright red coat with dark spots and open snarling mouth",
+          "silhouette": "Crouched powerful feline humanoid with spotted limbs, leather/metal armor and spear",
+          "palette": [
+            "red fur",
+            "black spots",
+            "dark armor"
+          ],
+          "recognizable_props": [
+            "spear or lance",
+            "leather shoulder armor"
+          ],
+          "negative_rules": [
+            "human-faced warrior",
+            "plain golden cat without red spots",
+            "canine head"
+          ]
+        },
+        "shoot_costume_dressing": "Red coat with black spots, actual feline muzzle, leather/metal shoulder armor and spear, no human face or plain gold cat",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "reference_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          }
+        ],
+        "weather_role": "EAST_STORM_SOURCE_LOCAL",
+        "weather_exposure": "Localized wet leaf sheen, wind shifting predator banners and heavy cloud at Eastern Forest/Storm Coast; plausible regional weather, attribution to Niño unproven",
+        "el_nino_attribution": "CLIMATE_ELIGIBLE_ATTRIBUTION_UNPROVEN",
+        "el_nino_note": "Local eastern/Inner Sea storm pattern eligible; not enough evidence to call its current storm El Niño",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "spotted filtered amber canopy shafts",
+          "fill": "low-contrast forest green stone bounce",
+          "rim": "edge on red leopard spots and armor",
+          "air": "humid forest depth, preserved terrace scar"
+        },
+        "blocking_restrictions": [
+          "human-faced warrior",
+          "plain golden cat without red spots",
+          "canine head",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      },
+      {
+        "side": "right",
+        "team": "The Chili Cheesers",
+        "seed": 8,
+        "character_id": "CHAR-BRANDON-PRYOR",
+        "location_id": "LOC-CHILI-STABLE",
+        "physical_zone": "REG-WESTERN-TABLELANDS",
+        "terrain": [
+          "open grassland",
+          "broken stone ridges",
+          "dry frontier"
+        ],
+        "physical_set": "Real Chili stable, Dark Horse enclosure and pit smoke; never magical neighboring Red ruins",
+        "anchor_landmarks": [
+          "stable",
+          "pit smoke",
+          "Dark Horse enclosure"
+        ],
+        "pose_action": "Chili puts one hand on the Dark Horse's tack outside stable, other on gate latch, turning toward a dusty road where Red will wait in W13",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+          "head_face": "Weathered male outlaw face beneath brown cowboy hat",
+          "silhouette": "Long poncho or cape, pistol hand, separate dark equine companion",
+          "palette": [
+            "rust red",
+            "brown leather",
+            "warm orange",
+            "black horse coat"
+          ],
+          "recognizable_props": [
+            "western revolver",
+            "The Dark Horse",
+            "flame-like shawl"
+          ],
+          "negative_rules": [
+            "horse fused to human",
+            "generic town sheriff supersession",
+            "loss of The Dark Horse"
+          ]
+        },
+        "shoot_costume_dressing": "Human outlaw, BROWN cowboy hat, rust/red-orange shawl, western leather, Dark Horse as SEPARATE companion; not a generic sheriff",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "reference_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+        "weather_relationships": [
+          {
+            "id": "WX-WESTERN-DRY",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "dust",
+              "heat",
+              "water scarcity"
+            ],
+            "rule": "rain-shadow tendency, not permanent drought"
+          }
+        ],
+        "weather_role": "WESTERN_DRY_RAIN_SHADOW",
+        "weather_exposure": "Golden dry light, slow pit smoke and windborne dust. A faint distant far-east cloud is only an atmospheric hint; no rain or Niño flood here",
+        "el_nino_attribution": "WESTERN_RAIN_SHADOW",
+        "el_nino_note": "Preserve Western Tablelands dust/heat tendency; no coast-wide rain forced into Chili Stable",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "low oblique sunlight through barn entrance",
+          "fill": "earth and timber bounce to lift hat-shadowed facial planes",
+          "rim": "bronze western dust edge",
+          "air": "dry track dust; no physical adjacency"
+        },
+        "blocking_restrictions": [
+          "horse fused to human",
+          "generic town sheriff supersession",
+          "loss of The Dark Horse",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      }
+    ],
+    "cover_staging": null
+  }
+}

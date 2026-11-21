@@ -1,0 +1,96 @@
+# THE ROAD TO SEVEN — isolated Schemin ’26 special edition
+
+**Commissioner-approved format:** Seven complete 1080×1920 cinematic PNGs, one cover followed by six split-screen pages, featuring each of the twelve canonical 2026 characters exactly once across the six interior pages. The pairings are locked to official Week 10 ESPN seed ranks, NOT vendor probability order.
+
+**Source cutoff:** Final Week 10 (2026-11-17), entering Week 11. No Week 11 outcome has been decided or insinuated. **Status:** SOURCE-POPULATED PRODUCTION PACKET / NO PNG OUTPUT / INDEPENDENT VISUAL APPROVAL PENDING.
+
+## Full scenario and production depth — November 18
+
+The project now holds **223 actual current roster entries**, six live Week 11 ESPN matchup projections, 18 provisional Week 12–14 projected matchups, **16 live Week 11 FFHub conditional runs** plus baseline, **20 new Week 12–14 future-fork runs**, dated sportsbook/official NFL reporting, and 12 approved character image crops SHA-verified against the canonical lineup. All **seven PAGE_PACKET.md** files also have **scene.json** contracts with source, asset and location bindings. The art is not generated.
+
+**New evidence:** [12-team forecast stress test](evidence/TWELVE_TEAM_FORECAST_STRESS_TEST_2026-11-18.md) · [future forks](evidence/FFHUB_FUTURE_FORKS_2026-11-18.md) · [all current rosters](evidence/FLAIM_CURRENT_ROSTERS_2026-11-18.md) · [Week11 projections](evidence/FLAIM_ESPN_WEEK11_PROJECTIONS_2026-11-18.md) · [future ESPN projections](evidence/FLAIM_W12_W14_PROVISIONAL_PROJECTIONS.md) · [injury exposure](evidence/FLAIM_WEEK11_STARTER_AVAILABILITY_EXPOSURE.md) · [NFL odds/news](evidence/NFL_WEEK11_NEWS_AND_MARKET_CONTEXT_2026-11-18.md) · [Bullpen execution receipt](BULLPEN_FORWARD_FORECAST_EXECUTION_RECEIPT.md) · [source + asset QA test](tools/verify_source_coverage.py).
+
+## Studio ownership, Inklings and external-method review
+
+- [Visual Studio Lighting Bible](reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md): seven cinema compositions with in-world motivated light, key/fill/rim, atmospheric physics, page-specific filmed-method lenses, camera blocking and typography safe zones.
+- [Inklings Twelve-POV manuscript](reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md): all twelve characters have distinct epic passages, plus cover deck; author-council names are published-method lenses, not actual participating people.
+- [Bullpen and Tim Veil lens reconciliation](reviews/BULLPEN_TIM_VEIL_RECONCILIATION_2026-11-18.md): canonical ConsultEngine invoked with public-method Tim Veil lens and modeled Umpire/Closer Director review; unreliable generated claims quarantined and rejected; factual amendments verified with current source QA.
+- All 7 [scene.json](folios/RT7-P01/scene.json) contracts have a baked lighting contract, chosen art-method bench, Inklings source and per-character canon+Atlas bindings. Six paired folios have source-locked **November 18 on-image FFHub data**; historical November 17 figures remain in research passages, not publication lettering.
+- Final generated PNG pixel checks, human subject-to-image likeness confirmation, actual 390px mobile legibility and independent publication QA have not been performed. No raster release approval has been claimed.
+
+## Renderer-ready production handoff (independently testable)
+
+The seven \`folios/RT7-P0x/RENDER_INPUT.json\` files are now **compiled production inputs**, not merely page ideas. The deterministic compiler \`tools/compile_render_inputs.py\` assembles the approved character crop/hash/Atlas plate, frozen Week 10 rank and record, Nov 18 FFHub odds, a selected future hinge, the individually matched Inklings manuscript paragraph, and baked-in page lighting into one file per folio. The companion \`RENDER_MANIFEST.json\` pins source and scene hashes.
+
+Run from the repository root:
+
+\`\`\`sh
+python3 productions/road-to-seven-2026/tools/compile_render_inputs.py --dry-run
+python3 productions/road-to-seven-2026/tools/verify_source_coverage.py
+\`\`\`
+
+**Strict fail-closed:** The dry-run recalculates all seven render inputs and refuses source, character, team, mathematical value, narrative, or future-fork drift. If an authoritative input changes, re-run the compiler without \`--dry-run\`, independently review the new rendered-copy selection, and recheck before artwork. The image operator must **never** generate numbers or labels within AI artwork: render the cinematic scenes separately, then overlay deterministic source text. The 1080×1920 and 390-px phone proof, scene pixels, lighting, crop/identity recognition, and Umpire release are **NOT YET VERIFIED**.
+
+## Twelve-role Film Studio and El Niño Weather System Stage
+
+The requested film-production staging is now authored and compiler-bound, not simply a brainstorm:
+
+- [Studio Call Sheets](STUDIO_CALL_SHEETS.md): all 12 existing specialist-method profiles have practical assignments, with individual character staging, sets, costumes, camera/lens positions, motivated lighting, and page-by-page climate.
+- [Staging Manifest](STAGING_MANIFEST.json) and each folio's STAGING.json: seven source-bound film staging contracts, twelve character panels, studio-method assignments, and the separated symbolic versus physically plausible weather influences.
+- [Staging compiler](tools/build_staging.py) and [Call-sheet compiler](tools/write_call_sheets.py): compare against authoritative October 18 character deltas, Atlas location cards, current World State record, weather-regions system and the 12-method filmcraft registry.
+- [Render compiler](tools/compile_render_inputs.py): embeds each scene's staged camera, lighting, set, character poses and weather role, and hashes the staging source so a later edit cannot silently bypass the gate.
+
+**El Niño truth constraint:** His direct embodied manifestation is at Storm Bowl. Eastern storm/Inner Sea weather is climatically plausible but cannot be presumed caused by El Niño; Upper Valleys and Central Basin show only conditional atmospheric hints. Southern Wetlands' river mist comes from an independent watershed, and Chili's Western Tablelands remains dry. The current persistent World State JSON is dated end of Week 3, so a specific verified Week 10 pan-Commonwealth El Niño disaster cannot be asserted. The seven-page pressure motif is cinematic and noncanonical.
+
+**Current visual priority:** October 18 approved DK gorilla-centaur is four-legged, but an older conflicting bipedal primary remains unsuperseded, so final identity/renderer approval is not complete. Chili wears a **brown hat** and The Dark Horse is a distinct companion; Mud Dogs is a low four-legged mossy swamp hound; Snake has three heads and the post-haircut form.
+
+**Evidence:** Source-and-staging QA passes zero errors. A deliberately incorrect Chili global-storm stage was detected and rejected, then original staged source was restored. No final PNGs or pixel-level likeness audits have occurred.
+
+## Page folio index
+| Folio | Title | Character pairing |
+|---|---|---|
+| [RT7-P01](folios/RT7-P01/PAGE_PACKET.md) | THE ROAD TO SEVEN | Cover, symbolic routes |
+| [RT7-P02](folios/RT7-P02/PAGE_PACKET.md) | THE SUMMIT | #1 Slob on my Dobb × #2 El Niño |
+| [RT7-P03](folios/RT7-P03/PAGE_PACKET.md) | THE PURSUIT | #3 D0nkey K0ng × #4 His Majesty's Blood |
+| [RT7-P04](folios/RT7-P04/PAGE_PACKET.md) | THE THRESHOLD | #5 Dr. Duckhook × #6 Seven Deadly Chins |
+| [RT7-P05](folios/RT7-P05/PAGE_PACKET.md) | THE SEVENTH GATE | #7 Red Leopards × #8 The Chili Cheesers |
+| [RT7-P06](folios/RT7-P06/PAGE_PACKET.md) | THE LONG ROAD | #9 The LLC × #10 ObiWan Jacoby |
+| [RT7-P07](folios/RT7-P07/PAGE_PACKET.md) | AGAINST THE IMPOSSIBLE | #11 Three Dreaded Snake × #12 Mud Dogs |
+
+## Governing sources and workstreams
+- [Original FFHub research recovery and verification](SOURCE_RECOVERY_AND_SCENARIO_QA.md)
+- [November 18 fresh FFHub UI revalidation — 16 conditional scenarios](evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md)
+- [Machine-readable fresh 12-team probability summary](evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json)
+- [Bullpen Core routing and counterweight receipt](BULLPEN_ROUTING_AND_COUNTERWEIGHT_RECEIPT.md)
+- [Reproducible FFHub packet validator](tools/verify_ffhub_packet.py) — run locally against protected JSON; do not commit raw input
+- [Founder's five decisions + domain execution command](BULLPEN_MASTER_EXECUTION_DIRECTIVE.md)
+- [Prior storyboard and Inklings scene outline](INKLINGS_STORYBOARD_CANDIDATE.md)
+- [Twelve source-grounded dossier summaries](W10_TWELVE_TEAM_DOSSIERS.md)
+- [Original seven-folio planning packet](SEVEN_FOLIO_PRODUCTION_PACKET.md) — now superseded for detailed page source text by each linked folio above
+- [Production preflight](PREPRODUCTION.md)
+- [GitHub issue #319](https://github.com/jakekaloper-hub/schemin-26/issues/319)
+
+## Source custody
+Original raw 18-experiment/20-run JSON and preface MD were recovered from authorized ChatGPT Library; exact hashes and citations are in the QA report. **Do not commit the protected raw packet publicly.** Its complete raw rows and 2^24 enumeration remain backstage evidence. Page contracts carry the selected attributable estimates only.
+
+## Domain review sequencing
+- Scout: official Week 10 fact cutoff, division rules and matchup schedule.
+- Analyst/CAO: recheck numerical claims and exact witness scope, no false elimination from sampled zero.
+- Librarian: custody, SHA, source hierarchy.
+- Inklings/Beat Writer: individually polish twelve substantive heroic perspectives against pre-existing character canon; no new permanent world state.
+- Atlas/Character Continuity: verify named home cards, physical landmarks, approved crop identity and unresolved visual asset binds.
+- Creative/Memo Editor: design all seven integrated full-bleed spreads at 1080×1920, mobile typography proof, reference pixel binding.
+- Groundskeeper: page/asset source manifest, deterministic render inputs.
+- Umpire: independent audit of actual selected copy, characters, artwork and final outputs.
+- Closer: coordinate verdict and handoff to Founder; no implied auto-approval.
+
+## Current live-vendor evidence
+Fresh Nov 18 UI runs selected every Week 11 game outcome plus four four-game win-out paths. All six paired folios include an attributed Nov 18 revalidation appendix; the original Nov 17 numbers are retained without silent replacement. Raw UI capture files are preserved in the authorized local archival folder and identified by SHA-256 in the revalidation report. The standalone edition remains fixed to finalized Week 10 and does not incorporate unplayed Week 11 outcomes.
+
+## Current gates
+- **PASS (source-consistency execution):** historical source recovered, raw probability matrix validated, all 12 teams and six pairings bound, seven individual page briefs committed.
+- **PREPRODUCTION COPY COMPLETE, RASTER UNTESTED:** specific literary candidates exist for all twelve, with page-specific photographic/lighting directions and an evidence-backed model-review reconciliation. Final image overlay/readability still requires actual raster QA.
+- **NOT RUN:** actual seven PNG generations, renderer-specific subject attachment proof, generated-image typography inspection, independent Umpire visual sign-off, Founder publication approval. Character reference crop bytes and SHA matches are already proven 12/12.
+- **NOT NECESSARY FOR SAME CUTOFF:** additional stochastic site run solely to reproduce Nov 17 baseline. Re-run FFHub only when question, settings, or source cutoff changes, and label any new samples with their own receipt.
+
+No fan-facing PDF or website is part of this authorized first release. Seven PNGs remain the controlling output.

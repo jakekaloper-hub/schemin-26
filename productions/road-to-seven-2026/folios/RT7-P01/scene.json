@@ -1,0 +1,88 @@
+{
+  "schema_version": "schemin.road_to_seven_scene.v1",
+  "id": "RT7-P01",
+  "title": "THE ROAD TO SEVEN",
+  "edition": "The Road to Seven",
+  "artifact": {
+    "format": "PNG",
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "page_count": 1,
+    "output_file": "RT7-P01.png"
+  },
+  "state": "SOURCE_AND_ASSET_BOUND_COVER_CONTRACT__NO_PNG_GENERATED",
+  "cover": {
+    "headline": "THE ROAD TO SEVEN",
+    "subtitle": "Twelve Contenders. Seven Berths. One Commonwealth.",
+    "microcopy": "All twelve remain mathematically alive. None has clinched. Four weeks to decide seven berths.",
+    "symbols": {
+      "seven_gates": "symbolic playoff berths, not a new permanent location",
+      "twelve_roads": "represent twelve independently located character homelands; not a canonically adjacent route"
+    },
+    "camera": "sweeping epic high-angle travel line toward seven symbolic sunlit gateways, full-bleed landscape montage, 9:16 cinematic scale",
+    "on_image_limit": "title, subtitle, 12 contenders / seven berths / four weeks, one short cinematic sentence; no odds or injury data"
+  },
+  "character_panels": [],
+  "scene_authority": {
+    "full_page_contract": "productions/road-to-seven-2026/folios/RT7-P01/PAGE_PACKET.md",
+    "data_sources": [
+      "productions/road-to-seven-2026/evidence/FFHUB_LIVE_REVALIDATION_2026-11-18.md",
+      "productions/road-to-seven-2026/evidence/TWELVE_TEAM_FORECAST_STRESS_TEST_2026-11-18.md"
+    ]
+  },
+  "safety": {
+    "no_new_permanent_atlas_geography": true,
+    "no_unplayed_results": true,
+    "no_claim_any_team_clinched": true,
+    "rendered_visual_QA": "NOT_RUN",
+    "umpire_release": "NOT_SIGNED"
+  },
+  "visual_studio": {
+    "owning_role": "Schemin Narrative Art Director / Visual Direction Lead",
+    "production_lenses_are": "PUBLISHED_METHOD_REFERENCE_ONLY_NOT_HUMAN_CONSULTATIONS",
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Dylan Cole",
+      "Frank Masi",
+      "Jill Bogdanowicz"
+    ],
+    "source_document": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md",
+    "skill_methods": [
+      "creative-production/produce:styles",
+      "creative-production/produce:shots",
+      "creative-production/produce:source-preservation",
+      "creative-production/produce:exact-content"
+    ]
+  },
+  "lighting_contract": {
+    "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+    "lead": [
+      "Doug Chiang",
+      "Dylan Cole",
+      "Frank Masi",
+      "Jill Bogdanowicz"
+    ],
+    "time": "sunrise",
+    "key": "low distant golden horizon; sun appears from behind seven symbolic gateways",
+    "fill": "cool sky and subtle earth-bounce foreground",
+    "rim": "natural warm edge only on distant terrain",
+    "air": "regional haze with separately legible biome silhouettes, no new roads implied",
+    "text_safe": "upper center low-detail open sky; low glow behind text",
+    "forbidden": "new permanent shrine or gate, false geography, overexposed headline",
+    "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+  },
+  "writing_contract": {
+    "owner": "Schemin Beat Writer / Inklings advisory lenses",
+    "copy_path": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+    "not_human_author_consultation": true,
+    "review_status": "WRITTEN_CANDIDATE_NOT_APPROVED"
+  },
+  "release_qa": {
+    "created_at": "2026-11-18",
+    "stage": "PREPRODUCTION_ONLY",
+    "visual_raster": "NOT_GENERATED",
+    "source_qa": "PASS",
+    "independent_umpire_visual": "NOT_RUN"
+  }
+}

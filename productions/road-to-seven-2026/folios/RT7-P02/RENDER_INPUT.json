@@ -1,0 +1,408 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P02",
+  "page_title": "THE SUMMIT",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "wide elevated foothill camp versus storm-bowl horizon; cinematic dual-chapter montage, never physically adjacent",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Dylan Cole",
+        "Frank Masi",
+        "James Baxter",
+        "Jill Bogdanowicz"
+      ],
+      "time": "late afternoon versus storm daylight",
+      "left": {
+        "key": "warm low foothill sun side-front",
+        "fill": "tan earth reflection",
+        "rim": "cool back-ridge outline",
+        "air": "dry dust from known training ground"
+      },
+      "right": {
+        "key": "diffuse silver front-right cloud break",
+        "fill": "blue-grey wet ground",
+        "rim": "restrained storm fringe from behind",
+        "air": "water spray in Storm Bowl, no catastrophic lightning"
+      },
+      "text_safe": "shadowed natural stone and open sky, two separate halves",
+      "forbidden": "both worlds lit by same artificial beam; Niño rendered as generic human",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Dylan Cole",
+      "Frank Masi",
+      "James Baxter",
+      "Jill Bogdanowicz"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "Slob on my Dobb",
+      "seed": 1,
+      "record": "6-4",
+      "narrative_headline": "The Weight of the Summit",
+      "narrative_body": "Slob plants his boots beside the rough training ground, where the foothill camp has seen confidence become embarrassment before. At six wins he owns the first seed, not the first gate. El Niño waits immediately; three divisional rematches follow.",
+      "narrative_full_word_count": 64,
+      "playoff_probability": "98.5%",
+      "if_w11_win": "99.7%",
+      "if_w11_loss": "95.9%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "Dr. Duckhook",
+        "if_win": "99.76%",
+        "if_loss": "95.95%",
+        "public_caption": "W13 VS DR. DUCKHOOK"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-JORDAN-HOLLINGSHEAD",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515"
+      },
+      "atlas_asset": {
+        "id": "LOC-SLOB-FOOTHILL-CAMP",
+        "card": "world/location-control-plane/locations/LOC-SLOB-FOOTHILL-CAMP/CARD.json",
+        "plate": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "warm low foothill sun side-front",
+        "fill": "tan earth reflection",
+        "rim": "cool back-ridge outline",
+        "air": "dry dust from known training ground"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "El Niño",
+      "seed": 2,
+      "record": "6-4",
+      "narrative_headline": "Thunder Without a Verdict",
+      "narrative_body": "Wind bends the rain across the Storm Bowl. El Niño can answer it without letting it dictate the score. Slob stands ahead of him and also directly across the Week 11 field; then come three Pizza rivals, each carrying a history of unfinished encounters. A perfect sky is not required.",
+      "narrative_full_word_count": 68,
+      "playoff_probability": "87.1%",
+      "if_w11_win": "96.9%",
+      "if_w11_loss": "83.9%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "Seven Deadly Chins",
+        "if_win": "96.37%",
+        "if_loss": "74.54%",
+        "public_caption": "W12 VS SEVEN DEADLY CHINS"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-MANNING-WELTY",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+        "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04"
+      },
+      "atlas_asset": {
+        "id": "LOC-STORM-BOWL",
+        "card": "world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json",
+        "plate": "world/environment-references/plates/LOC-STORM-BOWL/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "diffuse silver front-right cloud break",
+        "fill": "blue-grey wet ground",
+        "rim": "restrained storm fringe from behind",
+        "air": "water spray in Storm Bowl, no catastrophic lightning"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  },
+  "staging": {
+    "source_path": "productions/road-to-seven-2026/folios/RT7-P02/STAGING.json",
+    "shot_camera": "36mm full-height diagonal editorial diptych, medium-low Slob and wide 3/4 Niño; each face readable; separate distant horizons",
+    "editorial_seam": "Cloud-gap diptych joined only by graphic pressure isobar; distinct Upper Valleys and Eastern Storm Coast",
+    "sound_implied": "keg metal scrape against training dirt / shoreline spray and thunder muted over Storm Bowl",
+    "global_weather_motif": "El Niño's atmospheric motif follows Atlas climate causality; not every storm is El Niño",
+    "world_state_age_warning": "Latest loaded persistent world-state source is Week 3; no direct Week 10 El Niño global storm event was established. This is proposed cinematic staging, not a source-verified new physical event.",
+    "studio_workflow": [
+      {
+        "lens": "Doug Chiang",
+        "assignment": "Production-design scale hierarchy, anchor architecture, shape language for symbolic cover, Highland keep and boardroom/mountain split",
+        "direct_page": false
+      },
+      {
+        "lens": "Dylan Cole",
+        "assignment": "Atlas-aware geography/biome design; separate Eastern coast, Upper Valleys, Western dry range and Southern Wetlands",
+        "direct_page": true
+      },
+      {
+        "lens": "Joe Letteri",
+        "assignment": "Character-specific morphology and weather-light interaction; verify Niño human elemental, DK centaur, spotted Red and three heads",
+        "direct_page": true
+      },
+      {
+        "lens": "Ngila Dickson",
+        "assignment": "Costume continuity from approved Oct 18 image delta; fabric wetness and period materials without redesign",
+        "direct_page": true
+      },
+      {
+        "lens": "Andy Serkis",
+        "assignment": "Express physical emotional intentions through gaze/weight/gesture; distinct POVs, no declared game outcome",
+        "direct_page": true
+      },
+      {
+        "lens": "Rob Alonzo",
+        "assignment": "Grounded contact points and action axes; swords/axes/clubs/tack must respect anatomy and set safety",
+        "direct_page": false
+      },
+      {
+        "lens": "James Baxter",
+        "assignment": "Readable silhouette and separate emotion at phone scale; confirm no species morphing",
+        "direct_page": true
+      },
+      {
+        "lens": "Frank Masi",
+        "assignment": "Lens height, frame depth and decisive still moment on every folio; no repetitive generic hero-pose",
+        "direct_page": true
+      },
+      {
+        "lens": "John Knoll",
+        "assignment": "Two-location composite seam, lighting/plate passes, exact source-bound render inputs, deterministic typography pipeline",
+        "direct_page": true
+      },
+      {
+        "lens": "Jill Bogdanowicz",
+        "assignment": "Color and exposure management; atmosphere/light continuity WITHOUT imposing identical storms in each region",
+        "direct_page": true
+      },
+      {
+        "lens": "Thelma Schoonmaker",
+        "assignment": "Seven-page editorial sequence and visual rhythm; action direction and story-pacing escalates to final survival stakes",
+        "direct_page": true
+      },
+      {
+        "lens": "Randy Thom",
+        "assignment": "Sound-implied visual cues: water roar, cloth flutter, axe impact risk, gravel scrape, horse tack, marsh sucking; no audio generation",
+        "direct_page": true
+      }
+    ],
+    "cast_staging": [
+      {
+        "side": "left",
+        "team": "Slob on my Dobb",
+        "seed": 1,
+        "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+        "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "physical_zone": "REG-UPPER-VALLEYS",
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "physical_set": "Tailgate yard + rough training ground; original timber/metal gear, no new tower",
+        "anchor_landmarks": [
+          "tailgate yard",
+          "rough training ground"
+        ],
+        "pose_action": "Slob grips an oversized SLOB keg as a weight at the rough training ground, one boot planted in the dirt; studies a marked six-week route on training slate",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+          "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+          "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+          "palette": [
+            "mud brown",
+            "denim blue",
+            "pale skin",
+            "steel"
+          ],
+          "recognizable_props": [
+            "oversized SLOB keg",
+            "backward baseball cap",
+            "grimy overalls"
+          ],
+          "negative_rules": [
+            "duck head",
+            "executive suit identity",
+            "slender body substitute"
+          ]
+        },
+        "shoot_costume_dressing": "Work overalls, backward cap, bare shoulders, beard and huge keg; do not substitute generic knight armor",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "reference_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          },
+          {
+            "id": "WX-NORTHERN-WINTER",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "snow",
+              "ice",
+              "pass closure"
+            ],
+            "rule": "elevation controls severity"
+          }
+        ],
+        "weather_role": "EAST_PROPAGATION_POSSIBLE",
+        "weather_exposure": "Possible distant coast-sourced high cloud behind northern foothills; light breeze moves canvas, NO proven storm arrival or road damage",
+        "el_nino_attribution": "DOWNSTREAM_PROPAGATION_NOT_CONFIRMED",
+        "el_nino_note": "Allow sky-pressure motif but not a specific storm event, flooding or travel closure without recorded propagation",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "warm low foothill sun side-front",
+          "fill": "tan earth reflection",
+          "rim": "cool back-ridge outline",
+          "air": "dry dust from known training ground"
+        },
+        "blocking_restrictions": [
+          "duck head",
+          "executive suit identity",
+          "slender body substitute",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      },
+      {
+        "side": "right",
+        "team": "El Niño",
+        "seed": 2,
+        "character_id": "CHAR-MANNING-WELTY",
+        "location_id": "LOC-STORM-BOWL",
+        "physical_zone": "REG-EASTERN-STORM-COAST",
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "physical_set": "Weather-exposed venue and service counter remain visible against rocky coast",
+        "anchor_landmarks": [
+          "weather-exposed venue",
+          "service counter"
+        ],
+        "pose_action": "El Niño stands embodied at weather-exposed Storm Bowl service counter; one arm braces against sea spray, the other gathers controlled water/light; no lightning strike on opposing characters",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Long-haired muscular human storm / ocean elemental",
+          "head_face": "Long windblown dark hair and beard; intense expression",
+          "silhouette": "Bare upper torso, swirling electric blue water at one flank and orange fiery light at the other",
+          "palette": [
+            "electric blue",
+            "orange fire",
+            "deep storm gray",
+            "dark hair"
+          ],
+          "recognizable_props": [
+            "blue water/sea effects",
+            "lightning",
+            "orange heat light",
+            "glowing chest emblem"
+          ],
+          "negative_rules": [
+            "literal storm cloud replacing humanoid body",
+            "additional magical limbs",
+            "assuming numerical physics from graphic"
+          ]
+        },
+        "shoot_costume_dressing": "Long dark hair and beard, bare muscular torso, blue water flank, orange thermal flank and chest emblem, not a faceless cloud",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+        "reference_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          }
+        ],
+        "weather_role": "EMBODIED_AT_STORM_BOWL",
+        "weather_exposure": "Direct visible embodied weather system contained to his own source venue; cloud pressure and spray respond locally, not across all biomes",
+        "el_nino_attribution": "EMBODIED_APPROVED",
+        "el_nino_note": "El Niño visible as the singular elemental; local atmosphere explicitly sourced to him within the scene, no permanent new weather event",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "diffuse silver front-right cloud break",
+          "fill": "blue-grey wet ground",
+          "rim": "restrained storm fringe from behind",
+          "air": "water spray in Storm Bowl, no catastrophic lightning"
+        },
+        "blocking_restrictions": [
+          "literal storm cloud replacing humanoid body",
+          "additional magical limbs",
+          "assuming numerical physics from graphic",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      }
+    ],
+    "cover_staging": null
+  }
+}

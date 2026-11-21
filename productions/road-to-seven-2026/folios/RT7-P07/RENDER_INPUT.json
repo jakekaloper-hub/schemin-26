@@ -1,0 +1,395 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P07",
+  "page_title": "AGAINST THE IMPOSSIBLE",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "waterfall temple with one-bodied three-headed serpent vs swamp raised ground; no new world mutation",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Dylan Cole",
+        "Joe Letteri",
+        "Andy Serkis",
+        "Frank Masi"
+      ],
+      "time": "diffuse falls / wetland first light",
+      "left": {
+        "key": "cool diffuse waterfall-canopy daylight",
+        "fill": "wet silver temple stone and water reflection on all THREE heads",
+        "rim": "faint rim across one three-headed anatomy",
+        "air": "localized water spray reveals background waterfall"
+      },
+      "right": {
+        "key": "sliver of low dawn sunlight through existing tree cover",
+        "fill": "subtle reflected swamp water illuminating chain/torso",
+        "rim": "one warm edge separating grotesque blue/orange silhouette from reeds",
+        "air": "realistic mist over mud channels, not glowing miracle"
+      },
+      "text_safe": "unobscured dark temple stone and dark swamp land away from reflective water",
+      "forbidden": "three separate snake bodies, cute dog, new swamp canal, magical guarantee of survival",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Dylan Cole",
+      "Joe Letteri",
+      "Andy Serkis",
+      "Frank Masi"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "Three Dreaded Snake",
+      "seed": 11,
+      "record": "4-6",
+      "narrative_headline": "Three Heads, One Remaining Road",
+      "narrative_body": "At the Waterfall Temple, three heads survey three different turns in the same unsettled distance. The single body must take one path. Red Leopards awaits first; then Mud, DK and ObiWan will each have a say in the Burgers race.",
+      "narrative_full_word_count": 70,
+      "playoff_probability": "9.6%",
+      "if_w11_win": "22.8%",
+      "if_w11_loss": "2.4%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "D0nkey K0ng",
+        "if_win": "19.25%",
+        "if_loss": "4.93%",
+        "public_caption": "W13 VS D0NKEY K0NG"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-PHILLIP-PITTS",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+      },
+      "atlas_asset": {
+        "id": "LOC-TDS-WATERFALL-TEMPLE",
+        "card": "world/location-control-plane/locations/LOC-TDS-WATERFALL-TEMPLE/CARD.json",
+        "plate": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "cool diffuse waterfall-canopy daylight",
+        "fill": "wet silver temple stone and water reflection on all THREE heads",
+        "rim": "faint rim across one three-headed anatomy",
+        "air": "localized water spray reveals background waterfall"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "Mud Dogs",
+      "seed": 12,
+      "record": "2-8",
+      "narrative_headline": "Four Steps Across the Marsh",
+      "narrative_body": "Mud Dogs moves across raised swamp ground while water gathers in the tracks behind him. Two wins have left no spare step. Lose to Seven Deadly Chins and the race is mathematically over; win, then beat Snake, ObiWan and DK, and a narrow route could remain with outside help.",
+      "narrative_full_word_count": 68,
+      "playoff_probability": "0.01%",
+      "if_w11_win": "0.07%",
+      "if_w11_loss": "0.00%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "Three Dreaded Snake",
+        "if_win": "0.07%",
+        "if_loss": "0.00%",
+        "public_caption": "W12 VS THREE DREADED SNAKE"
+      },
+      "math_scope_note": "Must win all four. Outside help required. Week 11 loss = mathematical elimination.",
+      "character_asset": {
+        "id": "CHAR-BOBBY-MITCHELL",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+        "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736"
+      },
+      "atlas_asset": {
+        "id": "LOC-MUD-DOGS-SWAMP",
+        "card": "world/location-control-plane/locations/LOC-MUD-DOGS-SWAMP/CARD.json",
+        "plate": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "sliver of low dawn sunlight through existing tree cover",
+        "fill": "subtle reflected swamp water illuminating chain/torso",
+        "rim": "one warm edge separating grotesque blue/orange silhouette from reeds",
+        "air": "realistic mist over mud channels, not glowing miracle"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  },
+  "staging": {
+    "source_path": "productions/road-to-seven-2026/folios/RT7-P07/STAGING.json",
+    "shot_camera": "48mm wet stone eye-level on three-headed Snake left, low 32mm grounded swamp quadruped full-body shot on right",
+    "editorial_seam": "Two southern wetlands scene plates connected visually by haze, never by a canonically continuous waterway",
+    "sound_implied": "three breath rhythms and waterfall / sloshing mud, taut chain and one labored step",
+    "global_weather_motif": "El Niño's atmospheric motif follows Atlas climate causality; not every storm is El Niño",
+    "world_state_age_warning": "Latest loaded persistent world-state source is Week 3; no direct Week 10 El Niño global storm event was established. This is proposed cinematic staging, not a source-verified new physical event.",
+    "studio_workflow": [
+      {
+        "lens": "Doug Chiang",
+        "assignment": "Production-design scale hierarchy, anchor architecture, shape language for symbolic cover, Highland keep and boardroom/mountain split",
+        "direct_page": false
+      },
+      {
+        "lens": "Dylan Cole",
+        "assignment": "Atlas-aware geography/biome design; separate Eastern coast, Upper Valleys, Western dry range and Southern Wetlands",
+        "direct_page": true
+      },
+      {
+        "lens": "Joe Letteri",
+        "assignment": "Character-specific morphology and weather-light interaction; verify Niño human elemental, DK centaur, spotted Red and three heads",
+        "direct_page": true
+      },
+      {
+        "lens": "Ngila Dickson",
+        "assignment": "Costume continuity from approved Oct 18 image delta; fabric wetness and period materials without redesign",
+        "direct_page": false
+      },
+      {
+        "lens": "Andy Serkis",
+        "assignment": "Express physical emotional intentions through gaze/weight/gesture; distinct POVs, no declared game outcome",
+        "direct_page": true
+      },
+      {
+        "lens": "Rob Alonzo",
+        "assignment": "Grounded contact points and action axes; swords/axes/clubs/tack must respect anatomy and set safety",
+        "direct_page": true
+      },
+      {
+        "lens": "James Baxter",
+        "assignment": "Readable silhouette and separate emotion at phone scale; confirm no species morphing",
+        "direct_page": true
+      },
+      {
+        "lens": "Frank Masi",
+        "assignment": "Lens height, frame depth and decisive still moment on every folio; no repetitive generic hero-pose",
+        "direct_page": true
+      },
+      {
+        "lens": "John Knoll",
+        "assignment": "Two-location composite seam, lighting/plate passes, exact source-bound render inputs, deterministic typography pipeline",
+        "direct_page": true
+      },
+      {
+        "lens": "Jill Bogdanowicz",
+        "assignment": "Color and exposure management; atmosphere/light continuity WITHOUT imposing identical storms in each region",
+        "direct_page": true
+      },
+      {
+        "lens": "Thelma Schoonmaker",
+        "assignment": "Seven-page editorial sequence and visual rhythm; action direction and story-pacing escalates to final survival stakes",
+        "direct_page": true
+      },
+      {
+        "lens": "Randy Thom",
+        "assignment": "Sound-implied visual cues: water roar, cloth flutter, axe impact risk, gravel scrape, horse tack, marsh sucking; no audio generation",
+        "direct_page": true
+      }
+    ],
+    "cast_staging": [
+      {
+        "side": "left",
+        "team": "Three Dreaded Snake",
+        "seed": 11,
+        "character_id": "CHAR-PHILLIP-PITTS",
+        "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "physical_zone": "REG-SOUTHERN-WETLANDS",
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "physical_set": "Podium Shadow Waterfall Temple waterfall/temple stone/dense vegetation; no new shrine, family event or building collapse",
+        "anchor_landmarks": [
+          "waterfall",
+          "temple stone",
+          "dense vegetation"
+        ],
+        "pose_action": "One armored humanoid torso and exactly THREE living snake heads look in distinct directions while body moves DOWN one established temple step; post-haircut heads",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+          "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+          "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+          "palette": [
+            "bronze scales",
+            "moss green",
+            "dark leather"
+          ],
+          "recognizable_props": [
+            "blade weapons",
+            "layered leather/metal armor"
+          ],
+          "negative_rules": [
+            "single-headed snake",
+            "three separate creatures",
+            "restoring long pre-haircut dreads"
+          ]
+        },
+        "shoot_costume_dressing": "Three serpent heads on one reptilian armored HUMANOID torso, bronze scales/moss/dark leather, weapons below; do not restore pre-haircut long dreads",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "reference_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+        "weather_relationships": [
+          {
+            "id": "WX-SOUTHERN-FLOOD",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "high river",
+              "mud",
+              "causeway closure"
+            ],
+            "rule": "flooding follows watershed; not arbitrary backdrop"
+          }
+        ],
+        "weather_role": "INDEPENDENT_SOUTHERN_HYDROLOGY",
+        "weather_exposure": "Warm wetland humidity, waterfall spray and watershed-fed water level; evidence does NOT identify these as an El Niño event",
+        "el_nino_attribution": "SEPARATE_WATERSHED",
+        "el_nino_note": "Southern Wetlands humidity, river water and swamp mist are local/hydrological until a separate evidence event exists",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "cool diffuse waterfall-canopy daylight",
+          "fill": "wet silver temple stone and water reflection on all THREE heads",
+          "rim": "faint rim across one three-headed anatomy",
+          "air": "localized water spray reveals background waterfall"
+        },
+        "blocking_restrictions": [
+          "single-headed snake",
+          "three separate creatures",
+          "restoring long pre-haircut dreads",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      },
+      {
+        "side": "right",
+        "team": "Mud Dogs",
+        "seed": 12,
+        "character_id": "CHAR-BOBBY-MITCHELL",
+        "location_id": "LOC-MUD-DOGS-SWAMP",
+        "physical_zone": "REG-SOUTHERN-WETLANDS",
+        "terrain": [
+          "slow rivers",
+          "cypress-like wetlands",
+          "mudflats",
+          "raised ground"
+        ],
+        "physical_set": "Established Mud Dogs swamp mud channels and raised ground, not a tropical shoreline or generic arena",
+        "anchor_landmarks": [
+          "mud channels",
+          "raised ground"
+        ],
+        "pose_action": "Mud Dogs takes one heavy FOUR-LEGGED step from mud channel onto raised ground, chains dragging, all four paws and snarling low hound silhouette visible",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Large mud- and moss-caked feral four-legged swamp hound",
+          "head_face": "Wide canine jaws with snarling fangs; wet matted fur",
+          "silhouette": "Low-running quadruped, hanging swamp moss and thick neck",
+          "palette": [
+            "peat brown",
+            "olive mud",
+            "moss green",
+            "bone white fangs"
+          ],
+          "recognizable_props": [
+            "mud",
+            "swamp-moss fur",
+            "metal chain/collar"
+          ],
+          "negative_rules": [
+            "humanoid brawler replacing swamp dog",
+            "clean show-dog appearance",
+            "leopard spots"
+          ]
+        },
+        "shoot_costume_dressing": "Quadrupedal feral swamp-hound, matted moss/mud coat, collar/chain and fangs; NO humanoid anatomy or clean household dog",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+        "reference_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+        "weather_relationships": [
+          {
+            "id": "WX-SOUTHERN-FLOOD",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "high river",
+              "mud",
+              "causeway closure"
+            ],
+            "rule": "flooding follows watershed; not arbitrary backdrop"
+          }
+        ],
+        "weather_role": "INDEPENDENT_SOUTHERN_HYDROLOGY",
+        "weather_exposure": "Muddy shallow channel reflections and near-ground humid mist from Southern Wetlands; no unsourced flood/road washout attributed to Niño",
+        "el_nino_attribution": "SEPARATE_WATERSHED",
+        "el_nino_note": "Southern Wetlands humidity, river water and swamp mist are local/hydrological until a separate evidence event exists",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "sliver of low dawn sunlight through existing tree cover",
+          "fill": "subtle reflected swamp water illuminating chain/torso",
+          "rim": "one warm edge separating grotesque blue/orange silhouette from reeds",
+          "air": "realistic mist over mud channels, not glowing miracle"
+        },
+        "blocking_restrictions": [
+          "humanoid brawler replacing swamp dog",
+          "clean show-dog appearance",
+          "leopard spots",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      }
+    ],
+    "cover_staging": null
+  }
+}

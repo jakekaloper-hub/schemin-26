@@ -1,0 +1,79 @@
+{
+  "schema": "schemin.road7.staging_manifest.v1",
+  "specialists": 12,
+  "staged_pages": 7,
+  "current_world_state_cutoff": "end_of_week_3_2026",
+  "world_engine_authority": "v1.1",
+  "staging": [
+    {
+      "page": "RT7-P01",
+      "staging_path": "productions/road-to-seven-2026/folios/RT7-P01/STAGING.json",
+      "location_count": 0,
+      "weather_roles": [],
+      "sha256": "98544bf682d4298147ed42f7d4eb18bf050b1af4be92198299201f05c5422e40"
+    },
+    {
+      "page": "RT7-P02",
+      "staging_path": "productions/road-to-seven-2026/folios/RT7-P02/STAGING.json",
+      "location_count": 2,
+      "weather_roles": [
+        "EAST_PROPAGATION_POSSIBLE",
+        "EMBODIED_AT_STORM_BOWL"
+      ],
+      "sha256": "4f8d376a2cfb27c9e8b44907addf367370ce2c77d6bd40fbb1a62639a5f19a40"
+    },
+    {
+      "page": "RT7-P03",
+      "staging_path": "productions/road-to-seven-2026/folios/RT7-P03/STAGING.json",
+      "location_count": 2,
+      "weather_roles": [
+        "EAST_PROPAGATION_POSSIBLE",
+        "EAST_STORM_SOURCE_LOCAL"
+      ],
+      "sha256": "eb8dafdb0b26edbe91d97b61071a430855fdf4ddde55011d8f63209289a39d70"
+    },
+    {
+      "page": "RT7-P04",
+      "staging_path": "productions/road-to-seven-2026/folios/RT7-P04/STAGING.json",
+      "location_count": 2,
+      "weather_roles": [
+        "INDEPENDENT_SOUTHERN_HYDROLOGY",
+        "CENTRAL_BASIN_PROPAGATION_POSSIBLE"
+      ],
+      "sha256": "cf645b0ea030d7c6a63a92c0373876c525ef35cb62cf85f3c119c08f94073579"
+    },
+    {
+      "page": "RT7-P05",
+      "staging_path": "productions/road-to-seven-2026/folios/RT7-P05/STAGING.json",
+      "location_count": 2,
+      "weather_roles": [
+        "EAST_STORM_SOURCE_LOCAL",
+        "WESTERN_DRY_RAIN_SHADOW"
+      ],
+      "sha256": "2fadd7d202ff9cde9cd998fb2186de3824386283a13a74fe3ca8911a7274a8da"
+    },
+    {
+      "page": "RT7-P06",
+      "staging_path": "productions/road-to-seven-2026/folios/RT7-P06/STAGING.json",
+      "location_count": 2,
+      "weather_roles": [
+        "EAST_STORM_SOURCE_LOCAL",
+        "EAST_PROPAGATION_POSSIBLE"
+      ],
+      "sha256": "26282567efa59d7c1e0c19c793b207aab9c46ad56279b9131b9cb7daba7fc6ec"
+    },
+    {
+      "page": "RT7-P07",
+      "staging_path": "productions/road-to-seven-2026/folios/RT7-P07/STAGING.json",
+      "location_count": 2,
+      "weather_roles": [
+        "INDEPENDENT_SOUTHERN_HYDROLOGY",
+        "INDEPENDENT_SOUTHERN_HYDROLOGY"
+      ],
+      "sha256": "57270b17425dde85a6309208d746d64c44efa62bfa452892b2b9fee8ef294add"
+    }
+  ],
+  "no_new_weather_event_asserted": true,
+  "no_personal_credits_or_endorsements": true,
+  "no_pngs_generated": true
+}

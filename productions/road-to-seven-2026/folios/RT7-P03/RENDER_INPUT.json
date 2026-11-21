@@ -1,0 +1,414 @@
+{
+  "schema": "schemin.road_to_seven.render_job.v1",
+  "state": "ART_DIRECTION_READY_NOT_RENDERED",
+  "page_id": "RT7-P03",
+  "page_title": "THE PURSUIT",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG",
+    "aspect": "9:16"
+  },
+  "layout": {
+    "heading": {
+      "top": 42,
+      "bottom": 175,
+      "left": 50,
+      "right": 1030
+    },
+    "cinema": {
+      "top": 185,
+      "bottom": 1280,
+      "left": 42,
+      "right": 1038
+    },
+    "copy_left": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 52,
+      "right": 523
+    },
+    "copy_right": {
+      "top": 1290,
+      "bottom": 1872,
+      "left": 557,
+      "right": 1028
+    },
+    "margin_px": 48,
+    "mobile_test_width_px": 390,
+    "minimum_mobile_body_font_px": 11,
+    "design_note": "full-resolution typography, contrast tested at 390 px; exact overlays separate from scene raster"
+  },
+  "fixed_time_cutoff": "W10 final, as of 2026-11-17",
+  "vendor_capture": "FFHub November 18, 2026, 10,000 simulations",
+  "numbers_source": "productions/road-to-seven-2026/evidence/FFHUB_LIVE_W11_2026-11-18_SUMMARY.json",
+  "writing_source": "productions/road-to-seven-2026/reviews/INKLINGS_TWELVE_POV_EDITORIAL_COPY.md",
+  "lighting_and_camera": {
+    "camera": "low-angle Highland stronghold vs storm-cliff keep; both characters full anatomy, command without coronation",
+    "lighting": {
+      "method": "BAKED_IN_MOTIVATED_LIGHTING_BEFORE_RENDERING",
+      "lead": [
+        "Doug Chiang",
+        "Joe Letteri",
+        "Ngila Dickson",
+        "Rob Alonzo"
+      ],
+      "time": "late golden hour / storm-break contrast",
+      "left": {
+        "key": "warm low sun across gorilla-centaur four-legged form",
+        "fill": "cool reflected Highland stone",
+        "rim": "thin golden fur edge",
+        "air": "sparse dust revealing hoof/leg shadows"
+      },
+      "right": {
+        "key": "cool cloud break at keep",
+        "fill": "warm hearth bounced light",
+        "rim": "narrow natural storm edge, eye glow cannot illuminate entire keep",
+        "air": "light sea mist near ramparts"
+      },
+      "text_safe": "unlit limestone inset away from Belt and fur highlights",
+      "forbidden": "biped DK, wrong number of legs, Belt on ObiWan, glowing eyes as spotlight",
+      "light_consistency_qa": "Each subject must be legible in grayscale with plausible source, fill, rim, atmosphere; typography overlays deterministic; actual full-resolution generated-image QA required."
+    },
+    "specialist_lenses": [
+      "Doug Chiang",
+      "Joe Letteri",
+      "Ngila Dickson",
+      "Rob Alonzo"
+    ],
+    "directions_source": "productions/road-to-seven-2026/reviews/VISUAL_STUDIO_LIGHTING_BIBLE.md"
+  },
+  "image_generation_policy": {
+    "background": "canon-safe cinematic scenes and motivated lighting",
+    "forbidden_in_generated_raster": "No generated team names, record numbers, source percentages or readable copy",
+    "exact_overlay": "Separate deterministic typography pass after rendering",
+    "must_preserve_identity": "each canonical character crop SHA and Atlas structural plate"
+  },
+  "overlays": [
+    {
+      "kind": "character_pov",
+      "side": "left",
+      "team": "D0nkey K0ng",
+      "seed": 3,
+      "record": "6-4",
+      "narrative_headline": "The Highland Gatekeeper",
+      "narrative_body": "The stronghold hears the scrape of stone beneath D0nkey K0ng's four planted legs. His Majesty's Blood approaches, but the more exact challenge waits beyond: ObiWan in Week 12 and Snake in Week 13. Defeat both and the Burgers crown is his under the retained rules, regardless of the other games.",
+      "narrative_full_word_count": 66,
+      "playoff_probability": "93.3%",
+      "if_w11_win": "98.7%",
+      "if_w11_loss": "88.6%",
+      "future_fork": {
+        "week": 12,
+        "opponent": "ObiWan Jacoby",
+        "if_win": "99.48%",
+        "if_loss": "86.00%",
+        "public_caption": "W12 VS OBIWAN JACOBY"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-WILSON-LOOK",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+      },
+      "atlas_asset": {
+        "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "card": "world/location-control-plane/locations/LOC-DK-HIGHLAND-STRONGHOLD/CARD.json",
+        "plate": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "warm low sun across gorilla-centaur four-legged form",
+        "fill": "cool reflected Highland stone",
+        "rim": "thin golden fur edge",
+        "air": "sparse dust revealing hoof/leg shadows"
+      }
+    },
+    {
+      "kind": "character_pov",
+      "side": "right",
+      "team": "His Majesty's Blood",
+      "seed": 4,
+      "record": "6-4",
+      "narrative_headline": "The Belt Is Not the Gate",
+      "narrative_body": "Under a hood and beneath the iron of his keep, His Majesty's Blood guards the Belt already earned. The postseason, however, has offered him no such possession. D0nkey K0ng comes first, then all three remaining Pizza opponents. Three more victories would guarantee a berth.",
+      "narrative_full_word_count": 66,
+      "playoff_probability": "87.6%",
+      "if_w11_win": "95.2%",
+      "if_w11_loss": "80.1%",
+      "future_fork": {
+        "week": 13,
+        "opponent": "El Niño",
+        "if_win": "96.22%",
+        "if_loss": "80.29%",
+        "public_caption": "W13 VS EL NIÑO"
+      },
+      "math_scope_note": "Still alive after a Week 11 loss; no berth clinched at Week 10.",
+      "character_asset": {
+        "id": "CHAR-AUSTIN-BYARS",
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3"
+      },
+      "atlas_asset": {
+        "id": "LOC-BELT-KEEPER-KEEP",
+        "card": "world/location-control-plane/locations/LOC-BELT-KEEPER-KEEP/CARD.json",
+        "plate": "world/environment-references/plates/LOC-BELT-KEEPER-KEEP/STRUCTURAL_PLATE.svg"
+      },
+      "lighting": {
+        "key": "cool cloud break at keep",
+        "fill": "warm hearth bounced light",
+        "rim": "narrow natural storm edge, eye glow cannot illuminate entire keep",
+        "air": "light sea mist near ramparts"
+      }
+    }
+  ],
+  "review": {
+    "visual_render": "NOT_RUN",
+    "identity_pixel_qa": "NOT_RUN",
+    "text_readability_390px": "NOT_RUN",
+    "independent_umpire": "NOT_SIGNED"
+  },
+  "staging": {
+    "source_path": "productions/road-to-seven-2026/folios/RT7-P03/STAGING.json",
+    "shot_camera": "28mm low near-training-court horse-body wide on left; 50mm upward keep threshold close-medium on right; do not crop DK hind legs",
+    "editorial_seam": "Two architectural thresholds in separate zones with matched stone visual direction, no fantasy bridge across long geography",
+    "sound_implied": "four hoof impacts and axe strap / wet cloak and distant coastal gale",
+    "global_weather_motif": "El Niño's atmospheric motif follows Atlas climate causality; not every storm is El Niño",
+    "world_state_age_warning": "Latest loaded persistent world-state source is Week 3; no direct Week 10 El Niño global storm event was established. This is proposed cinematic staging, not a source-verified new physical event.",
+    "studio_workflow": [
+      {
+        "lens": "Doug Chiang",
+        "assignment": "Production-design scale hierarchy, anchor architecture, shape language for symbolic cover, Highland keep and boardroom/mountain split",
+        "direct_page": true
+      },
+      {
+        "lens": "Dylan Cole",
+        "assignment": "Atlas-aware geography/biome design; separate Eastern coast, Upper Valleys, Western dry range and Southern Wetlands",
+        "direct_page": false
+      },
+      {
+        "lens": "Joe Letteri",
+        "assignment": "Character-specific morphology and weather-light interaction; verify Niño human elemental, DK centaur, spotted Red and three heads",
+        "direct_page": true
+      },
+      {
+        "lens": "Ngila Dickson",
+        "assignment": "Costume continuity from approved Oct 18 image delta; fabric wetness and period materials without redesign",
+        "direct_page": true
+      },
+      {
+        "lens": "Andy Serkis",
+        "assignment": "Express physical emotional intentions through gaze/weight/gesture; distinct POVs, no declared game outcome",
+        "direct_page": false
+      },
+      {
+        "lens": "Rob Alonzo",
+        "assignment": "Grounded contact points and action axes; swords/axes/clubs/tack must respect anatomy and set safety",
+        "direct_page": true
+      },
+      {
+        "lens": "James Baxter",
+        "assignment": "Readable silhouette and separate emotion at phone scale; confirm no species morphing",
+        "direct_page": false
+      },
+      {
+        "lens": "Frank Masi",
+        "assignment": "Lens height, frame depth and decisive still moment on every folio; no repetitive generic hero-pose",
+        "direct_page": true
+      },
+      {
+        "lens": "John Knoll",
+        "assignment": "Two-location composite seam, lighting/plate passes, exact source-bound render inputs, deterministic typography pipeline",
+        "direct_page": true
+      },
+      {
+        "lens": "Jill Bogdanowicz",
+        "assignment": "Color and exposure management; atmosphere/light continuity WITHOUT imposing identical storms in each region",
+        "direct_page": true
+      },
+      {
+        "lens": "Thelma Schoonmaker",
+        "assignment": "Seven-page editorial sequence and visual rhythm; action direction and story-pacing escalates to final survival stakes",
+        "direct_page": true
+      },
+      {
+        "lens": "Randy Thom",
+        "assignment": "Sound-implied visual cues: water roar, cloth flutter, axe impact risk, gravel scrape, horse tack, marsh sucking; no audio generation",
+        "direct_page": true
+      }
+    ],
+    "cast_staging": [
+      {
+        "side": "left",
+        "team": "D0nkey K0ng",
+        "seed": 3,
+        "character_id": "CHAR-WILSON-LOOK",
+        "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "physical_zone": "REG-UPPER-VALLEYS",
+        "terrain": [
+          "rolling uplands",
+          "mixed forest",
+          "pasture",
+          "defensible ridges"
+        ],
+        "physical_set": "Actual highland stronghold, existing training court and road approach, no invented victory dais",
+        "anchor_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "pose_action": "D0nkey K0ng plants all four equine limbs on Highland training court, cannon heraldry and axe held low, stepping toward road approach",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+          "head_face": "Black-furred roaring gorilla",
+          "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+          "palette": [
+            "black fur",
+            "red armor cloth",
+            "antique gold",
+            "dark equine coat"
+          ],
+          "recognizable_props": [
+            "large war axe",
+            "red-and-gold cannon heraldry"
+          ],
+          "negative_rules": [
+            "bipedal-only gorilla",
+            "gorilla rider on separate horse",
+            "human torso",
+            "missing lower pair of legs"
+          ]
+        },
+        "shoot_costume_dressing": "ONE fused gorilla-centaur, broad black-fur upper body and four equine legs, red/gold Arsenal war cloth and big axe; no horse rider",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "reference_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          },
+          {
+            "id": "WX-NORTHERN-WINTER",
+            "role": "PROPAGATION_ZONE",
+            "effects": [
+              "snow",
+              "ice",
+              "pass closure"
+            ],
+            "rule": "elevation controls severity"
+          }
+        ],
+        "weather_role": "EAST_PROPAGATION_POSSIBLE",
+        "weather_exposure": "Thin distant passing clouds and ridge-edge wind; no northern blizzard, no event-specific coastal flood",
+        "el_nino_attribution": "DOWNSTREAM_PROPAGATION_NOT_CONFIRMED",
+        "el_nino_note": "Allow sky-pressure motif but not a specific storm event, flooding or travel closure without recorded propagation",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "warm low sun across gorilla-centaur four-legged form",
+          "fill": "cool reflected Highland stone",
+          "rim": "thin golden fur edge",
+          "air": "sparse dust revealing hoof/leg shadows"
+        },
+        "blocking_restrictions": [
+          "bipedal-only gorilla",
+          "gorilla rider on separate horse",
+          "human torso",
+          "missing lower pair of legs",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      },
+      {
+        "side": "right",
+        "team": "His Majesty's Blood",
+        "seed": 4,
+        "character_id": "CHAR-AUSTIN-BYARS",
+        "location_id": "LOC-BELT-KEEPER-KEEP",
+        "physical_zone": "REG-EASTERN-STORM-COAST",
+        "terrain": [
+          "dense forest",
+          "rocky approaches",
+          "storm-exposed coast"
+        ],
+        "physical_set": "Existing dark keep/championship hall entrance; weather-sheltered stone threshold",
+        "anchor_landmarks": [
+          "dark keep",
+          "championship hall"
+        ],
+        "pose_action": "HMB guards the established dark keep threshold, ornate sword tip down, chest medallion visible; Belt remains rightful artifact, no raising it in victory",
+        "performance_intent": "Personal response to mathematically possible playoff path; no future result implied",
+        "approved_costume_visual": {
+          "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+          "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+          "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+          "palette": [
+            "black iron",
+            "crimson",
+            "deep burgundy",
+            "antique gold",
+            "red eye glow"
+          ],
+          "recognizable_props": [
+            "downward-held ornate sword",
+            "large circular gold chest ornament",
+            "tattered crimson-black cloak"
+          ],
+          "negative_rules": [
+            "unhooded bearded king",
+            "vampire mascot",
+            "crown as head replacement",
+            "removing red eyes",
+            "assigning championship belt to ObiWan"
+          ]
+        },
+        "shoot_costume_dressing": "Hood obscures face except two red eye glows, segmented black iron, crimson-black cloak, gold chest ornament and downward ornate sword",
+        "costume_not_new_canon": true,
+        "reference_image": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "reference_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+        "weather_relationships": [
+          {
+            "id": "WX-EASTERN-STORM",
+            "role": "SOURCE_ZONE",
+            "effects": [
+              "coastal surge",
+              "heavy rain",
+              "wind",
+              "road washout"
+            ],
+            "rule": "major event must record downstream/adjacent effects"
+          }
+        ],
+        "weather_role": "EAST_STORM_SOURCE_LOCAL",
+        "weather_exposure": "Wind whips cloak on storm-exposed Eastern Coast, dim moisture/spray on parapet; storm is physically possible, not automatically El Niño",
+        "el_nino_attribution": "CLIMATE_ELIGIBLE_ATTRIBUTION_UNPROVEN",
+        "el_nino_note": "Local eastern/Inner Sea storm pattern eligible; not enough evidence to call its current storm El Niño",
+        "entering_world_state": [],
+        "motived_lighting": {
+          "key": "cool cloud break at keep",
+          "fill": "warm hearth bounced light",
+          "rim": "narrow natural storm edge, eye glow cannot illuminate entire keep",
+          "air": "light sea mist near ramparts"
+        },
+        "blocking_restrictions": [
+          "unhooded bearded king",
+          "vampire mascot",
+          "crown as head replacement",
+          "removing red eyes",
+          "assigning championship belt to ObiWan",
+          "Neither team is eliminated or clinched after Week 10",
+          "No new permanent terrain/location mutation",
+          "Do not imply split-screen worlds physically touch"
+        ]
+      }
+    ],
+    "cover_staging": null
+  }
+}
