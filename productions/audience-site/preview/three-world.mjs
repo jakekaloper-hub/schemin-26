@@ -47,12 +47,17 @@ export function createBaseWaterMaterial(THREE){
    varying vec3 vP;varying vec3 vWaveNormal;
    #include <fog_pars_fragment>
    void main(){
-    float w=sin(vP.x*1.7+sin(vP.z*.7)+uTime*.65)*sin(vP.z*2.1-uTime*.41);
-    float s=pow(max(w,0.),9.);
+    float opticalPhaseA=vP.x*1.7+sin(vP.z*.7)+uTime*.65;
+    float opticalPhaseB=vP.z*2.1-uTime*.41;
+    float w=sin(opticalPhaseA)*sin(opticalPhaseB);
+    // Suppress subpixel glitter without slowing the physical water beneath it.
+    float opticalPixelSpan=max(fwidth(opticalPhaseA),fwidth(opticalPhaseB));
+    float fineDetailFade=1.-smoothstep(.5,2.,opticalPixelSpan);
+    float s=pow(max(w,0.),9.)*fineDetailFade;
     vec3 col=mix(vec3(.065,.24,.235),vec3(.18,.42,.38),.5+.5*sin(vP.x*.014+vP.z*.012));
     col+=vec3(.23,.3,.24)*s*.45;
     // Small optical normals add fine water sheen without extra geometry/draws.
-    vec3 n=normalize(vWaveNormal+vec3(.021*cos(vP.x*.71+uTime*.49),0.,.024*sin(vP.z*.63-uTime*.38)));
+    vec3 n=normalize(vWaveNormal+fineDetailFade*vec3(.021*cos(vP.x*.71+uTime*.49),0.,.024*sin(vP.z*.63-uTime*.38)));
     vec3 viewDir=normalize(cameraPosition-vP);
     vec3 sunDir=normalize(vec3(-.6,.9,.36));
     float fresnel=pow(1.-max(dot(n,viewDir),0.),3.);
