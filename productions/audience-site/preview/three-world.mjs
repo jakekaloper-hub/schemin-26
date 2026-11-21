@@ -22,12 +22,14 @@ export function siteViewFrames(THREE,locations){
 /** View-responsive optics for the already animated base water plane.
  * The original wave heights and water boundary stay fixed; analytic slopes
  * make light respond to the same physical displacement on ordinary water time.
+ * Reuse the scene's existing Three.js fog to align distant water with terrain.
  * This is candidate rendering only, never an Atlas hydrology claim.
  */
 export function createBaseWaterMaterial(THREE){
  return new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uStrength:{value:1},uStorm:{value:0}},
   vertexShader:`uniform float uTime;
    varying vec3 vP;varying vec3 vWaveNormal;
+   #include <fog_pars_vertex>
    void main(){
     vec3 p=position;
     float phaseX=p.x*.17+uTime*.6;
@@ -37,10 +39,13 @@ export function createBaseWaterMaterial(THREE){
     vec3 localNormal=normalize(vec3(-.07*.17*cos(phaseX),-.05*.21*cos(phaseY),1.));
     vWaveNormal=normalize(mat3(modelMatrix)*localNormal);
     vP=(modelMatrix*vec4(p,1.)).xyz;
-    gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+    vec4 mvPosition=modelViewMatrix*vec4(p,1.);
+    gl_Position=projectionMatrix*mvPosition;
+    #include <fog_vertex>
    }`,
   fragmentShader:`uniform float uTime;uniform float uStrength;uniform float uStorm;
    varying vec3 vP;varying vec3 vWaveNormal;
+   #include <fog_pars_fragment>
    void main(){
     float w=sin(vP.x*1.7+sin(vP.z*.7)+uTime*.65)*sin(vP.z*2.1-uTime*.41);
     float s=pow(max(w,0.),9.);
@@ -58,7 +63,8 @@ export function createBaseWaterMaterial(THREE){
     gl_FragColor=vec4(col,1.);
     #include <tonemapping_fragment>
     #include <colorspace_fragment>
-   }`,side:THREE.DoubleSide});
+    #include <fog_fragment>
+   }`,side:THREE.DoubleSide,fog:true});
 }
 export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeometry,buildRegionalAssets,buildAtlasSiteAssets=null,atlasSiteIds=[],onContextLost=()=>{}}={}){
  if(!THREE||typeof buildWorldGeometry!=='function'||typeof buildRegionalAssets!=='function')throw Error('RENDERER_DEPENDENCY_REQUIRED');
