@@ -99,15 +99,46 @@ export function createTerrainSurfaceNormalTexture(THREE,size=128,tileWorldUnits=
  texture.anisotropy=4;texture.needsUpdate=true;
  return texture;
 }
+/** Shallow-water optical mask derived ONLY from existing terrain height.
+ * Disposable, read-only lighting cue for the original water plane:
+ * not hydrological topology, an Atlas river edit, or a canonical shoreline.
+ */
+export function shorelineOpticalStrength(height,x,z,waterLevel=-.4){
+ if(typeof height!=='function'||![x,z,waterLevel].every(Number.isFinite))throw Error('INVALID_SHORELINE_SAMPLE');
+ const elevation=height(x,z);
+ if(!Number.isFinite(elevation))throw Error('INVALID_SHORELINE_HEIGHT');
+ const depth=waterLevel-elevation;
+ return depth>0?Math.max(0,1-depth/1.6):0;
+}
+export function createWaterShorelineTexture(THREE,height,size=256){
+ if(!Number.isInteger(size)||size<32||size>512||(size&(size-1)))throw Error('INVALID_SHORELINE_TEXTURE_SIZE');
+ if(typeof height!=='function')throw Error('INVALID_SHORELINE_HEIGHT_PROVIDER');
+ const rgba=new Uint8Array(size*size*4);
+ for(let z=0;z<size;z++)for(let x=0;x<size;x++){
+  const worldX=-110+(x+.5)*220/size,worldZ=-110+(z+.5)*220/size;
+  const shore=shorelineOpticalStrength(height,worldX,worldZ);
+  const i=(z*size+x)*4;
+  rgba[i]=Math.round(255*shore);rgba[i+1]=0;rgba[i+2]=0;rgba[i+3]=255;
+ }
+ const texture=new THREE.DataTexture(rgba,size,size,THREE.RGBAFormat);
+ texture.wrapS=THREE.ClampToEdgeWrapping;texture.wrapT=THREE.ClampToEdgeWrapping;
+ texture.minFilter=THREE.LinearFilter;texture.magFilter=THREE.LinearFilter;
+ texture.generateMipmaps=false;texture.colorSpace=THREE.NoColorSpace;texture.needsUpdate=true;
+ texture.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',provenance:'existing-terrain-height',status:'OPTICAL_ONLY'};
+ return texture;
+}
+
 /** View-responsive optics for the already animated base water plane.
  * The original wave heights and water boundary stay fixed; analytic slopes
  * make light respond to the same physical displacement on ordinary water time.
  * Reuse the scene's existing Three.js fog to align distant water with terrain.
  * This is candidate rendering only, never an Atlas hydrology claim.
  */
-export function createBaseWaterMaterial(THREE){
- // Three's fog refresh path requires the engine's fog uniforms when fog:true.
- return new THREE.ShaderMaterial({uniforms:THREE.UniformsUtils.merge([THREE.UniformsLib.fog,{uTime:{value:0},uStrength:{value:1},uStorm:{value:0}}]),
+export function createBaseWaterMaterial(THREE,shorelineTexture=null){
+ // Fog uses native engine uniforms; the sampler retains its texture identity.
+ const uniforms=THREE.UniformsUtils.merge([THREE.UniformsLib.fog,{uTime:{value:0},uStrength:{value:1},uStorm:{value:0}}]);
+ uniforms.uShoreMask={value:shorelineTexture};
+ return new THREE.ShaderMaterial({uniforms,
   vertexShader:`uniform float uTime;
    varying vec3 vP;varying vec3 vWaveNormal;
    #include <fog_pars_vertex>
@@ -125,6 +156,7 @@ export function createBaseWaterMaterial(THREE){
     #include <fog_vertex>
    }`,
   fragmentShader:`uniform float uTime;uniform float uStrength;uniform float uStorm;
+   uniform sampler2D uShoreMask;
    varying vec3 vP;varying vec3 vWaveNormal;
    #include <fog_pars_fragment>
    void main(){
@@ -145,6 +177,13 @@ export function createBaseWaterMaterial(THREE){
     float glint=pow(max(dot(reflect(-sunDir,n),viewDir),0.),64.);
     col=mix(col,vec3(.36,.47,.47),(.10+.27*fresnel));
     col+=vec3(.38,.34,.21)*glint*.35;
+    // Existing terrain determines shallows; normal uTime drives highlights.
+    vec2 shoreUV=(vP.xz+vec2(110.))/220.;
+    float within=step(0.,shoreUV.x)*step(shoreUV.x,1.)*step(0.,shoreUV.y)*step(shoreUV.y,1.);
+    float shallows=texture2D(uShoreMask,clamp(shoreUV,0.,1.)).r*within;
+    float breaking=pow(max(sin(vP.x*3.1+uTime*.8)*sin(vP.z*2.8-uTime*.71),0.),6.)*fineDetailFade;
+    col=mix(col,vec3(.22,.4,.35),shallows*.28);
+    col+=vec3(.33,.31,.24)*shallows*breaking*.25;
     col*=.45+.55*uStrength;
     gl_FragColor=vec4(col,1.);
     #include <tonemapping_fragment>
@@ -217,7 +256,8 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const siteIds=siteLocations.map(l=>l.id);if(new Set(siteIds).size!==siteIds.length)throw Error('DUPLICATE_RENDERED_SITE');
  const framesBySite=siteViewFrames(THREE,siteLocations);
  const batches=siteLocations.flatMap(l=>batchStaticGeometry(THREE,l.group).geometries);
- const oceanMaterial=createBaseWaterMaterial(THREE);
+ const shorelineTexture=createWaterShorelineTexture(THREE,height);
+ const oceanMaterial=createBaseWaterMaterial(THREE,shorelineTexture);
  const oceanGeo=new THREE.PlaneGeometry(800,800,70,70),ocean=new THREE.Mesh(oceanGeo,oceanMaterial);ocean.rotation.x=-Math.PI/2;ocean.position.y=-.4;ocean.name='Moving base water';scene.add(ocean);
  let disposed=false,prepared=false,lastSignature='',lastShadowKey='',frames=0,lastTime=0,lastWidth=0,lastHeight=0;
  const debugExt=context.getExtension('WEBGL_debug_renderer_info');
@@ -248,7 +288,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const lost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',lost);
  return {prepare,render,project,pick,height,stats,siteView(id){return framesBySite[id]?structuredClone(framesBySite[id]):null;},
   loseContext(){renderer.forceContextLoss();},
-  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();terrainNormalTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();sky.geometry.dispose();sky.material.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
+  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();terrainNormalTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();shorelineTexture.dispose();sky.geometry.dispose();sky.material.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
  };
 }
 

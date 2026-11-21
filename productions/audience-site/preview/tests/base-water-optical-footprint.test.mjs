@@ -40,7 +40,7 @@ test('base water band-limits only its fine optics using WebGL2 fragment footprin
  const v=material.vertexShader,f=material.fragmentShader;
  assert.equal(material.fog,true);
  assert.equal(material.side,THREE.DoubleSide);
- assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uStorm','uStrength','uTime']);
+ assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uShoreMask','uStorm','uStrength','uTime']);
  assert.match(f,/float opticalPhaseA=vP\.x\*1\.7\+sin\(vP\.z\*\.7\)\+uTime\*\.65/);
  assert.match(f,/float opticalPhaseB=vP\.z\*2\.1-uTime\*\.41/);
  assert.match(f,/max\(fwidth\(opticalPhaseA\),fwidth\(opticalPhaseB\)\)/);
@@ -52,7 +52,8 @@ test('base water band-limits only its fine optics using WebGL2 fragment footprin
  assert.match(f,/#include <fog_fragment>/);
  assert.match(source,/new THREE\.PlaneGeometry\(800,800,70,70\)/);
  assert.match(source,/ocean\.rotation\.x=-Math\.PI\/2;ocean\.position\.y=-\.4/);
- assert.doesNotMatch(v+f,/sampler2D|texture2D|discard/);
+ assert.match(f,/texture2D\(uShoreMask,clamp\(shoreUV,0\.,1\.\)\)/);
+ assert.doesNotMatch(v+f,/discard/);
  let count=0;material.addEventListener('dispose',()=>count++);material.dispose();assert.equal(count,1);
 });
 

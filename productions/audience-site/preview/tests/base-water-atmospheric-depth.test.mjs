@@ -18,7 +18,7 @@ test('existing base water participates in world atmospheric fog without new draw
  const material=createBaseWaterMaterial(THREE);
  assert.equal(material.fog,true);
  assert.equal(material.side,THREE.DoubleSide);
- assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uStorm','uStrength','uTime']);
+ assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uShoreMask','uStorm','uStrength','uTime']);
  assert.match(source,/new THREE\.FogExp2\('#bed1cf',\.0018\)/);
  assert.match(source,/new THREE\.PlaneGeometry\(800,800,70,70\)/);
  assert.match(source,/ocean\.rotation\.x=-Math\.PI\/2;ocean\.position\.y=-\.4/);

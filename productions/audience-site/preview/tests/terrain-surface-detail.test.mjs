@@ -53,7 +53,7 @@ test('surface detail only extends existing terrain PBR; animated water and sourc
  assert.match(source,/new THREE\.MeshStandardMaterial\(\{map:terrainTexture,normalMap:terrainNormalTexture,normalScale:new THREE\.Vector2\(\.7,\.7\),vertexColors:true,roughness:\.93,side:THREE\.DoubleSide\}\)/);
  assert.match(source,/terrainMaterial\.dispose\(\);terrainTexture\.dispose\(\);terrainNormalTexture\.dispose\(\);/);
  assert.match(source,/const specialIds=\['LOC-TDS-WATERFALL-TEMPLE','LOC-MUD-DOGS-SWAMP','LOC-COUNTRY-CLUB-JACKSON'/);
- assert.match(source,/const oceanMaterial=createBaseWaterMaterial\(THREE\);/);
+ assert.match(source,/const oceanMaterial=createBaseWaterMaterial\(THREE,shorelineTexture\);/);
  assert.match(source,/new THREE\.PlaneGeometry\(800,800,70,70\)/);
  assert.match(source,/if\(!paused\)lastTime=time;regional\.tick\(lastTime,\{paused\}\)/);
  assert.match(source,/oceanMaterial\.uniforms\.uTime\.value=lastTime/);

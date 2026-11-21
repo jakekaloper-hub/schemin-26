@@ -21,15 +21,16 @@ function viewFresnel(normal,view){
 test('base water retains its one-plane physical displacement, material budget and lifecycle',()=>{
  const material=createBaseWaterMaterial(THREE);
  assert.ok(material.isShaderMaterial);
- assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uStorm','uStrength','uTime']);
+ assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uShoreMask','uStorm','uStrength','uTime']);
  assert.equal(material.side,THREE.DoubleSide);
  assert.deepEqual([material.uniforms.uTime.value,material.uniforms.uStrength.value,material.uniforms.uStorm.value],[0,1,0]);
  for(const token of ['p.z+=sin(phaseX)*.07+sin(phaseY)*.05','vec3 localNormal=normalize','mat3(modelMatrix)*localNormal','vWaveNormal','cameraPosition-vP','reflect(-sunDir,n)','fresnel','<tonemapping_fragment>','<colorspace_fragment>'])
   assert.ok(material.vertexShader.includes(token)||material.fragmentShader.includes(token),token);
- assert.match(source,/const oceanMaterial=createBaseWaterMaterial\(THREE\);/);
+ assert.match(source,/const oceanMaterial=createBaseWaterMaterial\(THREE,shorelineTexture\);/);
  assert.match(source,/new THREE\.PlaneGeometry\(800,800,70,70\)/);
  assert.match(source,/ocean\.rotation\.x=-Math\.PI\/2;ocean\.position\.y=-\.4/);
- assert.ok(!/texture2D|sampler2D|uniform sampler|discard/.test(material.vertexShader+material.fragmentShader));
+ assert.match(material.fragmentShader,/texture2D\(uShoreMask,clamp\(shoreUV,0\.,1\.\)\)/);
+ assert.doesNotMatch(material.vertexShader+material.fragmentShader,/discard/);
  let disposed=0;material.addEventListener('dispose',()=>disposed++);
  material.dispose();assert.equal(disposed,1);
 });

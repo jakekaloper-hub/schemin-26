@@ -55,7 +55,7 @@ test('one existing terrain mesh receives relief without rewriting geography, old
  assert.match(source,/normalMap:terrainNormalTexture,normalScale:new THREE\.Vector2\(\.7,\.7\)/);
  assert.match(source,/terrainMaterial\.dispose\(\);terrainTexture\.dispose\(\);terrainNormalTexture\.dispose\(\)/);
  assert.match(source,/applyTerrainPlanarUVs\(THREE,geometry\);/);
- assert.match(source,/const oceanMaterial=createBaseWaterMaterial\(THREE\);/);
+ assert.match(source,/const oceanMaterial=createBaseWaterMaterial\(THREE,shorelineTexture\);/);
  assert.match(source,/if\(!paused\)lastTime=time;regional\.tick\(lastTime,\{paused\}\)/);
  assert.doesNotMatch(createTerrainSurfaceNormalTexture.toString(),/Math\.random|fetch\(|Date\.now|uStorm|worldState|canonical/);
  const albedo=createTerrainSurfaceTexture(THREE);
