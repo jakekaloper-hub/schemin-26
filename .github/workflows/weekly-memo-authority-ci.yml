@@ -48,6 +48,8 @@ jobs:
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_approval_wording.py' -v
       - name: Verify Week9 new-thread PNG inputs and current source routing
         run: python -m unittest discover -s memo-os/tests -p 'test_week9_png_thread_handoff.py' -v
+      - name: Audit Week 10 completed-PDF crosswalk without promoting release
+        run: python -m unittest discover -s memo-os/week-10/production-evidence/completed-pdf-20261121 -p test_completed_pdf_receipt.py -v
       - name: Validate publication manifest
         run: python governance/publication-manifest/validate_publication_manifest.py
       - name: Test deterministic Memo resolver
