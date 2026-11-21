@@ -152,6 +152,41 @@ export function createBaseWaterMaterial(THREE){
     #include <fog_fragment>
    }`,side:THREE.DoubleSide,fog:true});
 }
+/** Sky-only candidate: one camera-centered sphere and no weather/canon producer.
+ * The existing fog color owns the horizon; light strength only controls the
+ * optical gradient and sun halo. No cloud/storm or world-state inference.
+ */
+export function createAtmosphericSky(THREE){
+ const geometry=new THREE.SphereGeometry(1,24,12);
+ const material=new THREE.ShaderMaterial({
+  uniforms:{uHorizon:{value:new THREE.Color('#bed1cf')},uStrength:{value:1}},
+  vertexShader:`varying vec3 vSkyDirection;
+   void main(){
+    vSkyDirection=position;
+    gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);
+   }`,
+  fragmentShader:`uniform vec3 uHorizon;uniform float uStrength;
+   varying vec3 vSkyDirection;
+   void main(){
+    vec3 ray=normalize(vSkyDirection);
+    float upper=smoothstep(.015,.72,max(ray.y,0.));
+    float light=clamp(uStrength,0.,1.);
+    vec3 zenith=mix(vec3(.23,.35,.43),vec3(.28,.43,.53),light);
+    vec3 col=mix(uHorizon,zenith,.72*upper);
+    // The candidate solar halo follows the existing directional-light vector.
+    float halo=pow(max(dot(ray,normalize(vec3(-95.,150.,60.))),0.),22.);
+    col+=vec3(.55,.42,.24)*halo*(.08+.13*light)*upper;
+    gl_FragColor=vec4(col,1.);
+    #include <colorspace_fragment>
+   }`,
+  side:THREE.BackSide,depthTest:false,depthWrite:false,fog:false,toneMapped:false
+ });
+ const sky=new THREE.Mesh(geometry,material);
+ sky.name='Source-neutral atmosphere · candidate';
+ sky.scale.setScalar(1000);sky.renderOrder=-1000;sky.frustumCulled=false;
+ sky.userData={visualAuthority:'CANDIDATE_NOT_APPROVED'};
+ return sky;
+}
 export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeometry,buildRegionalAssets,buildAtlasSiteAssets=null,atlasSiteIds=[],onContextLost=()=>{}}={}){
  if(!THREE||typeof buildWorldGeometry!=='function'||typeof buildRegionalAssets!=='function')throw Error('RENDERER_DEPENDENCY_REQUIRED');
  const context=canvas.getContext('webgl2',{alpha:false,antialias:true,powerPreference:'low-power'});
@@ -161,6 +196,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.shadowMap.autoUpdate=false;
  const scene=new THREE.Scene();scene.background=new THREE.Color('#bed1cf');scene.fog=new THREE.FogExp2('#bed1cf',.0018);
  const camera=new THREE.PerspectiveCamera(41.25,1,.2,1900);
+ const sky=createAtmosphericSky(THREE);scene.add(sky);
  const hemisphere=new THREE.HemisphereLight('#e3ecdf','#657256',1.4);scene.add(hemisphere);
  const sun=new THREE.DirectionalLight('#ffe7b3',2.5);sun.position.set(-95,150,60);sun.castShadow=true;
  const quality=rendererQuality(canvas.clientWidth||1280,globalThis.devicePixelRatio||1);
@@ -189,7 +225,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  function setCamera(c){
   const w=Math.max(1,canvas.clientWidth),h=Math.max(1,canvas.clientHeight),aspect=w/h,fit=Math.max(1,1.25/aspect),d=c.distance*(c.distance>100?fit:Math.min(fit,1.25)),t=c.target;
   if(w!==lastWidth||h!==lastHeight){const q=rendererQuality(w,globalThis.devicePixelRatio||1);renderer.setPixelRatio(q.pixelRatio);renderer.setSize(w,h,false);camera.aspect=aspect;camera.updateProjectionMatrix();lastWidth=w;lastHeight=h;}
-  camera.position.set(t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*d,t[1]+Math.sin(c.pitch)*d,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*d);camera.lookAt(...t);camera.updateMatrixWorld(true);
+  camera.position.set(t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*d,t[1]+Math.sin(c.pitch)*d,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*d);camera.lookAt(...t);camera.updateMatrixWorld(true);sky.position.copy(camera.position);
  }
  async function prepare(c){setCamera(c);await renderer.compileAsync(scene,camera);renderer.shadowMap.needsUpdate=true;prepared=true;stats.prepared=true;}
  function render(c,time,{strength=1,storm=0,paused=false}={}){
@@ -204,7 +240,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
    sun.shadow.camera.updateProjectionMatrix();renderer.shadowMap.needsUpdate=true;
    lastShadowKey=shadowKey;stats.shadowRefreshes++;
   }
-  sun.intensity=.35+strength*2.15;hemisphere.intensity=.45+strength*.95;scene.background.setRGB(.39+strength*.11,.49+strength*.14,.50+strength*.14);scene.fog.color.copy(scene.background);
+  sun.intensity=.35+strength*2.15;hemisphere.intensity=.45+strength*.95;scene.background.setRGB(.39+strength*.11,.49+strength*.14,.50+strength*.14);scene.fog.color.copy(scene.background);sky.material.uniforms.uHorizon.value.copy(scene.fog.color);sky.material.uniforms.uStrength.value=strength;
   renderer.render(scene,camera);stats.frames=++frames;stats.waterTime=lastTime;stats.triangles=renderer.info.render.triangles;stats.drawCalls=renderer.info.render.calls;stats.memory={...renderer.info.memory};
  }
  function project(p){if(disposed)return null;const v=new THREE.Vector3(...p).project(camera);if(v.z<-1||v.z>1)return null;return {x:(v.x*.5+.5)*canvas.clientWidth,y:(.5-v.y*.5)*canvas.clientHeight,depth:v.z};}
@@ -212,7 +248,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const lost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',lost);
  return {prepare,render,project,pick,height,stats,siteView(id){return framesBySite[id]?structuredClone(framesBySite[id]):null;},
   loseContext(){renderer.forceContextLoss();},
-  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();terrainNormalTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
+  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();terrainNormalTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();sky.geometry.dispose();sky.material.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
  };
 }
 
