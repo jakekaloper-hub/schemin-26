@@ -142,6 +142,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
             float plungeWave=sin(plungeRadius*29.-uTime*1.75+sin(uv.x*13.)*.23);
             float plungeCross=sin((uv.x*16.-uv.y*12.)+uTime*.88);
             p.z+=(.017*plungeWave+.006*plungeCross)*plungeHold;
+            // Physical crest at the SAME existing Temple impact UV as its
+            // receiving-water foam. Animate only pool interior vertices;
+            // shore/footprint stay pinned and storm calm does not freeze water.
+            float impactDistance=length((uv-vec2(.5,.554))*vec2(2.,2.2));
+            float impactFalloff=1.-smoothstep(.13,.52,impactDistance);
+            float impactCrest=pow(max(sin(impactDistance*34.-uTime*2.8
+              +sin(uv.x*19.+uTime*.3)*.28),0.),3.);
+            p.z+=.010*impactCrest*impactFalloff*plungeHold;
           }
           if(uPond>.5){
             // Existing Country Club Jackson pond; keep the inherited circular bank fixed.
