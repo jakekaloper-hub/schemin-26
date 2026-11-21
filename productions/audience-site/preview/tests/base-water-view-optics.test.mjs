@@ -21,7 +21,7 @@ function viewFresnel(normal,view){
 test('base water retains its one-plane physical displacement, material budget and lifecycle',()=>{
  const material=createBaseWaterMaterial(THREE);
  assert.ok(material.isShaderMaterial);
- assert.deepEqual(Object.keys(material.uniforms).sort(),['uStorm','uStrength','uTime']);
+ assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uStorm','uStrength','uTime']);
  assert.equal(material.side,THREE.DoubleSide);
  assert.deepEqual([material.uniforms.uTime.value,material.uniforms.uStrength.value,material.uniforms.uStorm.value],[0,1,0]);
  for(const token of ['p.z+=sin(phaseX)*.07+sin(phaseY)*.05','vec3 localNormal=normalize','mat3(modelMatrix)*localNormal','vWaveNormal','cameraPosition-vP','reflect(-sunDir,n)','fresnel','<tonemapping_fragment>','<colorspace_fragment>'])

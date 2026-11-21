@@ -26,7 +26,8 @@ export function siteViewFrames(THREE,locations){
  * This is candidate rendering only, never an Atlas hydrology claim.
  */
 export function createBaseWaterMaterial(THREE){
- return new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uStrength:{value:1},uStorm:{value:0}},
+ // Three's fog refresh path requires the engine's fog uniforms when fog:true.
+ return new THREE.ShaderMaterial({uniforms:THREE.UniformsUtils.merge([THREE.UniformsLib.fog,{uTime:{value:0},uStrength:{value:1},uStorm:{value:0}}]),
   vertexShader:`uniform float uTime;
    varying vec3 vP;varying vec3 vWaveNormal;
    #include <fog_pars_vertex>

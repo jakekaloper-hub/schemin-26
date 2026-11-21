@@ -18,7 +18,7 @@ test('existing base water participates in world atmospheric fog without new draw
  const material=createBaseWaterMaterial(THREE);
  assert.equal(material.fog,true);
  assert.equal(material.side,THREE.DoubleSide);
- assert.deepEqual(Object.keys(material.uniforms).sort(),['uStorm','uStrength','uTime']);
+ assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uStorm','uStrength','uTime']);
  assert.match(source,/new THREE\.FogExp2\('#bed1cf',\.0018\)/);
  assert.match(source,/new THREE\.PlaneGeometry\(800,800,70,70\)/);
  assert.match(source,/ocean\.rotation\.x=-Math\.PI\/2;ocean\.position\.y=-\.4/);
@@ -29,6 +29,22 @@ test('existing base water participates in world atmospheric fog without new draw
  assert.doesNotMatch(material.vertexShader+material.fragmentShader,/uniform (?:vec3 fogColor|float fogDensity)/);
  assert.match(source,/scene\.fog\.color\.copy\(scene\.background\)/);
  material.dispose();
+});
+
+test('native pinned-Three fog uniforms are complete and isolated between water materials',()=>{
+ const first=createBaseWaterMaterial(THREE),second=createBaseWaterMaterial(THREE);
+ assert.deepEqual(Object.keys(THREE.UniformsLib.fog).sort(),['fogColor','fogDensity','fogFar','fogNear']);
+ for(const name of Object.keys(THREE.UniformsLib.fog)){
+  assert.ok(first.uniforms[name]&&second.uniforms[name],name);
+  assert.notStrictEqual(first.uniforms[name],second.uniforms[name],name+' isolated uniform object');
+ }
+ assert.notStrictEqual(first.uniforms.fogColor.value,second.uniforms.fogColor.value);
+ first.uniforms.fogDensity.value=density;first.uniforms.fogColor.value.copy(new THREE.Color('#bed1cf'));
+ assert.equal(first.uniforms.fogDensity.value,density);
+ assert.notEqual(second.uniforms.fogDensity.value,density);
+ assert.equal(first.uniforms.uTime.value,0);
+ assert.equal(first.uniforms.uStorm.value,0);
+ first.dispose();second.dispose();
 });
 
 test('pinned Three fog uses actual displaced model-view depth, fading distant water into scene haze',()=>{

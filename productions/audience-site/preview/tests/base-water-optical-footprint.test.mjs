@@ -40,7 +40,7 @@ test('base water band-limits only its fine optics using WebGL2 fragment footprin
  const v=material.vertexShader,f=material.fragmentShader;
  assert.equal(material.fog,true);
  assert.equal(material.side,THREE.DoubleSide);
- assert.deepEqual(Object.keys(material.uniforms).sort(),['uStorm','uStrength','uTime']);
+ assert.deepEqual(Object.keys(material.uniforms).sort(),['fogColor','fogDensity','fogFar','fogNear','uStorm','uStrength','uTime']);
  assert.match(f,/float opticalPhaseA=vP\.x\*1\.7\+sin\(vP\.z\*\.7\)\+uTime\*\.65/);
  assert.match(f,/float opticalPhaseB=vP\.z\*2\.1-uTime\*\.41/);
  assert.match(f,/max\(fwidth\(opticalPhaseA\),fwidth\(opticalPhaseB\)\)/);

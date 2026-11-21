@@ -583,7 +583,8 @@ float bend=sin(uTime*.73+aPhase)+.3*sin(uTime*1.21+aPhase*1.73);
 p.x+=pow(rise,1.7)*.16*bend;
 p.z+=pow(rise,1.6)*.035*sin(uTime*.51+aPhase*1.31);
 vRise=rise;vShade=.7+.3*(.5+.5*sin(aPhase+uTime*.18));
-gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);`,
+gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+}`,
    fragmentShader:`varying float vRise;varying float vShade;
 void main(){vec3 base=mix(vec3(.18,.24,.12),vec3(.39,.49,.21),vRise);
 gl_FragColor=vec4(base*vShade,1.);
