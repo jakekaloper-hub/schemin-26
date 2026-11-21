@@ -1321,6 +1321,37 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geometry.computeBoundingSphere();
     return geometry;
   }
+  function estateRecessedSand(index){
+    // Only the TWO inherited Jackson sand discs. Keep 20 boundary points,
+    // their material, footprint and transforms: illustrative shallow relief only.
+    // It neither adds a bunker nor implies Week 3 contamination was cleaned.
+    const segments=20,rings=8,pos=[0,0,-.024],uv=[.5,.5],indices=[];
+    for(let ring=1;ring<=rings;ring++){
+      const radius=ring/rings,hold=(1-radius)*(1-radius);
+      for(let k=0;k<segments;k++){
+        const angle=k*Math.PI*2/segments;
+        const x=radius*Math.cos(angle),y=radius*Math.sin(angle);
+        const grain=.0035*Math.pow(Math.sin(angle*5+radius*24+index*.77),2)
+          *radius*(1-radius);
+        pos.push(x,y,-(.024*hold+grain));
+        uv.push(.5+.5*x,.5+.5*y);
+      }
+    }
+    for(let k=0;k<segments;k++)indices.push(0,1+k,1+(k+1)%segments);
+    for(let ring=1;ring<rings;ring++)for(let k=0;k<segments;k++){
+      const next=(k+1)%segments;
+      const a=1+(ring-1)*segments+k,b=1+(ring-1)*segments+next;
+      const c=1+ring*segments+k,d=1+ring*segments+next;
+      indices.push(a,c,d,a,d,b);
+    }
+    const geometry=new THREE.CircleGeometry(1,segments);
+    geometry.name='Candidate Jackson recessed sand surface';
+    geometry.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
+    geometry.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
+    geometry.setIndex(indices);
+    geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    return geometry;
+  }
   function sculptJacksonAutumnGroveCrown(crown,treeIndex,lobeIndex){
     // Recess only the EXISTING folio-referenced crowns; never enlarge their original silhouette.
     // Illustrative leaf-cluster relief is not a permanent-season or botanical canon assertion.
@@ -1549,7 +1580,15 @@ export function buildRegionalAssets(THREE, bindings, height) {
         navigable:false,routeIds:[],principalCharacters:[]};
       o.rotation.x=-Math.PI/2;o.scale.set(2.7,1.8,1);o.castShadow=false;
     }
-    for(const[x,z]of[[-6,6],[3,9]]){const o=mesh(g,new THREE.CircleGeometry(1,20),sand,x,.03,z);o.rotation.x=-Math.PI/2;o.scale.set(1.3,.6,1);o.castShadow=false;}
+    for(const [index,[x,z]] of [[-6,6],[3,9]].entries()){
+      const o=mesh(g,estateRecessedSand(index),sand,x,.03,z);
+      o.name='Candidate Jackson recessed sand surface';
+      o.userData={estateSandPart:'recessed-original-disc',originalRadius:1,
+        originalSegments:20,originalCoordinates:[x,z],
+        visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'golf grounds',
+        navigable:false,routeIds:[],principalCharacters:[]};
+      o.rotation.x=-Math.PI/2;o.scale.set(1.3,.6,1);o.castShadow=false;
+    }
     pool(g,'pond',7,.06,6,3.8,2.3,'#458f83');
     // Historical visual reference: Week 9 Country Club folios 05–08 show warm
     // autumn vegetation, waterfront masonry and a distant clubhouse. The forms
