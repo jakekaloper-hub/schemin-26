@@ -64,6 +64,22 @@ export function buildRegionalAssets(THREE, bindings, height) {
                 *(1.-smoothstep(.75,.98,channelDistance));
               p.z+=.009*sin(channelPhase)*channelShear*shoreHold;
             }
+            // Mud Dogs bank-contact water physically laps against the EXISTING
+            // circular shoreline. Only this swamp has rooted stand sites;
+            // all edge vertices and the separate channel remain stationary.
+            // Ordinary uTime is independent of El Niño's weather calm.
+            if(uRootSiteCount>.5){
+              vec2 bankPoint=(uv-vec2(.5))*2.;
+              float lapRadius=length(bankPoint);
+              float lapAngle=atan(bankPoint.y,bankPoint.x);
+              float lapBand=smoothstep(.76,.84,lapRadius)
+                *(1.-smoothstep(.94,.99,lapRadius));
+              float lapPhase=lapRadius*55.-uTime*2.15-1.7
+                +.43*sin(lapAngle*7.+uTime*.27);
+              float lapBreak=.55+.45*sin(lapAngle*11.-uTime*.43);
+              float lapCrest=pow(max(sin(lapPhase),0.),3.);
+              p.z+=.010*lapBand*lapBreak*lapCrest;
+            }
             // Root ripples physically affect only the existing swamp mesh.
             // Reuse the five tree-wake sites, phase and perimeter fade; no added surface.
             if(uRootSiteCount>.5){
