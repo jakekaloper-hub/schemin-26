@@ -73,6 +73,34 @@ It prints a single machine-readable `WEBGL2_JOURNEY_SMOKE_PASS` result with the
 observed GPU. This is **opt-in device evidence**, not a GitHub Actions GPU test,
 Founder-approved art, live-weather proof, public release, or hardware benchmark.
 
+## Opt-in GPU candidate captures for visual inspection
+
+After the unchanged offline observer build, add `--capture-dir` with a **new,
+nonexistent** local directory to the physical-GPU smoke command:
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs \
+  /tmp/commonwealth-preview/observer.html \
+  --capture-dir /tmp/commonwealth-private-candidate-captures
+```
+
+Only after all first-frame, source-history/return, calm-water and explicit-pause
+assertions pass does this emit four PNGs: unlabeled world and the three
+**source-defined Southern Wetlands** site views (Jackson, Podium Shadow Waterfall
+Temple and Mud Dogs Swamp). The JSON manifest records source revision, observed
+physical GPU, location IDs, PNG pixel dimensions and SHA-256. Existing output
+directories fail closed; evidence is never overwritten. Captures reproduce
+*observed frames*, not deterministic water phases; do not compare PNG hashes
+across reruns as a visual regression oracle.
+
+An inspectable four-view **source-only** GPU sample is retained at
+`evidence/gpu-southern-wetlands-20261121/`; its manifest pins the pre-change
+observer source snapshot and per-image hashes. No image is wired into the site.
+
+The screenshots are private, read-only **CANDIDATE_NOT_APPROVED** hardware
+inspection evidence, not final artwork, independent art acceptance, canonical
+geography, live weather, a published site, or publication authorization.
+
 ## Honest boundaries
 
 The regional assets remain visualization candidates. The source's recorded

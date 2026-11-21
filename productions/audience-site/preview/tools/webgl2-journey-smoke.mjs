@@ -4,12 +4,19 @@
  * Usage: node tools/webgl2-journey-smoke.mjs /absolute/path/to/observer.html
  */
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import {spawn} from 'node:child_process';
-import {existsSync,mkdtempSync,readFileSync,rmSync} from 'node:fs';
+import {existsSync,mkdirSync,mkdtempSync,readFileSync,rmSync,writeFileSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join,resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 
+const captureOption=process.argv.indexOf('--capture-dir');
+assert.ok(captureOption<0||(captureOption===3&&process.argv.length===5),
+ 'Optional capture argument: --capture-dir /new/private/evidence/directory');
+const captureDir=captureOption<0?null:resolve(process.argv[4]);
+if(captureDir)assert.ok(!existsSync(captureDir),'CAPTURE_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const captured=[];
 const observer=resolve(process.argv[2]||'');
 assert.ok(process.argv[2]&&existsSync(observer),'Usage: node webgl2-journey-smoke.mjs /path/to/observer.html');
 const chrome=process.env.CHROME_BIN||(process.platform==='darwin'
@@ -45,6 +52,21 @@ async function evaluate(expression){
  return r.result?.value;
 }
 const snapshot=()=>evaluate('(()=>({state:__observerDebug.state(),stats:__observerDebug.stats(),places:__observerDebug.bindings().length,sourceUnchanged:__observerDebug.sourceUnchanged(),fallback:!document.querySelector("#fallback").hidden,gpu:__observerDebug.stats()?.gpuRenderer||"UNAVAILABLE"}))()');
+async function captureCandidate(file,placeId){
+ if(!captureDir)return;
+ const s=await snapshot();
+ assert.equal(s.stats.renderer,'three-webgl2','Visual evidence requires real WebGL2');
+ assert.ok(s.stats.frames>0&&s.sourceUnchanged&&!s.fallback,'Invalid candidate capture state');
+ assert.equal(await evaluate('document.querySelector("#inspector").hidden'),placeId===null);
+ if(placeId)assert.equal(await evaluate('__observerDebug.state().locationId'),placeId);
+ // Screenshots are raw evidence of the actual offline canvas, not approved artwork.
+ const {data}=await cdp('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
+ const bytes=Buffer.from(data,'base64');
+ assert.equal(bytes.subarray(0,8).toString('hex'),'89504e470d0a1a0a','Browser returned invalid PNG');
+ const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);
+ assert.ok(width>=1000&&height>=600,'Candidate capture has unexpected viewport');
+ captured.push({file,placeId,frames:s.stats.frames,bytes,width,height});
+}
 const click=selector=>evaluate('(()=>{const n=document.querySelector('+JSON.stringify(selector)+');if(!n||n.hidden||n.disabled)throw Error("MISSING_CONTROL: "+'+JSON.stringify(selector)+');n.click();return true})()');
 async function main(){
  child=spawn(chrome,[
@@ -71,6 +93,7 @@ async function main(){
  assert.doesNotMatch(first.gpu,/SwiftShader|Software Rasterizer|llvmpipe/i,'Software rendering is not physical GPU evidence');
  if(first.state.phase==='REVEALING')await click('#skipReveal');
  await until(async()=>{const s=await snapshot();return s?.state?.phase==='EXPLORING'&&s.stats.frames>1&&s;},'exploration readiness',12000);
+ if(captureDir){await delay(1450);await captureCandidate('01-unlabeled-world.png',null);}
  // Start with real moving water; the history freeze must not pass trivially on a paused host.
  if(await evaluate('document.querySelector("#motionToggle").getAttribute("aria-pressed")')==='true')await click('#motionToggle');
  const moving=await snapshot();
@@ -80,6 +103,7 @@ async function main(){
  await click('[data-place="LOC-COUNTRY-CLUB-JACKSON"]');
  assert.equal(await evaluate('document.querySelector("#placeName").textContent'),'Country Club of Jackson');
  assert.equal(await evaluate('document.querySelector("#openHistory").hidden'),false,'Jackson history unreachable');
+ if(captureDir){await delay(1800);await captureCandidate('02-country-club-jackson.png','LOC-COUNTRY-CLUB-JACKSON');}
  const beforeHistory=await evaluate('JSON.stringify(__observerDebug.camera())');
  await click('#openHistory');
  assert.equal(await evaluate('document.querySelector("#historyDialog").open'),true);
@@ -91,6 +115,19 @@ async function main(){
  assert.equal(await evaluate('JSON.stringify(__observerDebug.camera())'),beforeHistory,'Return changed historical camera');
  await click('#inspectorWorld');
  assert.equal(await evaluate('document.querySelector("#inspector").hidden'),true);
+ if(captureDir){
+  for(const [id,file,title] of [
+   ['LOC-TDS-WATERFALL-TEMPLE','03-waterfall-temple.png','Podium Shadow Waterfall Temple'],
+   ['LOC-MUD-DOGS-SWAMP','04-mud-dogs-swamp.png','Mud Dogs Swamp']
+  ]){
+   await click('#placesToggle');
+   await click('[data-place="'+id+'"]');
+   assert.equal(await evaluate('document.querySelector("#placeName").textContent'),title);
+   await delay(1800);
+   await captureCandidate(file,id);
+   await click('#inspectorWorld');
+  }
+ }
  await click('#infoToggle');await click('#demoLoss');
  const calm=await evaluate('__observerDebug.weather()');
  assert.equal(calm.status,'GLOBAL_CALM','Verified loss did not calm the world');
@@ -106,13 +143,26 @@ async function main(){
  const errors=[...runtimeExceptions,...consoleErrors].filter(x=>!/favicon\.ico/.test(x));
  assert.deepEqual(errors,[],'Browser/GLSL errors: '+errors.join(' | '));
  assert.deepEqual(externalRequests,[],'External network requests from offline observer');
+ if(captureDir){
+  assert.equal(captured.length,4,'Missing candidate scene coverage');
+  mkdirSync(captureDir,{recursive:true});
+  for(const capture of captured)writeFileSync(join(captureDir,capture.file),capture.bytes,{flag:'wx'});
+  const manifest={
+   status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
+   renderer:first.stats.renderer,gpu:first.gpu,
+   sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
+   sourcesUnchanged:true,captures:captured.map(({file,placeId,frames,bytes,width,height})=>({file,placeId,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
+  };
+  writeFileSync(join(captureDir,'manifest.json'),JSON.stringify(manifest,null,2)+'\n',{flag:'wx'});
+ }
  console.log(JSON.stringify({
   result:'WEBGL2_JOURNEY_SMOKE_PASS',
   sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
   renderer:first.stats.renderer,gpu:first.gpu,frames:b.stats.frames,places:first.places,
   jacksonHistory:await evaluate('__observerHistoryDebug.entries("LOC-COUNTRY-CLUB-JACKSON").length'),
   weather:calm.status,ordinaryWaterAdvanced:true,historicalPause:true,explicitPause:true,sourceUnchanged:true,
-  browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length
+  browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
+  candidateCaptures:captured.map(c=>c.file)
  }));
 }
 try{await main();}
