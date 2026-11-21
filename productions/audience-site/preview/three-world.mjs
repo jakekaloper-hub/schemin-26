@@ -226,6 +226,55 @@ export function createAtmosphericSky(THREE){
  sky.userData={visualAuthority:'CANDIDATE_NOT_APPROVED'};
  return sky;
 }
+/** A source-identified, local water-haze candidate over the existing Mud Dogs
+ * swamp disc. This is illustrative optical depth, not a storm, weather event,
+ * water boundary, resident, or geographic source record. No external texture.
+ */
+export function createWetlandWaterHaze(THREE){
+ const count=96,positions=new Float32Array(count*3),phases=new Float32Array(count);
+ for(let i=0;i<count;i++){
+  const a=i*2.399963229728653,r=Math.sqrt((i+.5)/count)*.84;
+  positions[3*i]=10.5*r*Math.cos(a);
+  positions[3*i+1]=.28+.07*(i%7)+.035*Math.sin(i*1.37);
+  positions[3*i+2]=8.2*r*Math.sin(a);
+  phases[i]=i*.79;
+ }
+ const geometry=new THREE.BufferGeometry();
+ geometry.setAttribute('position',new THREE.BufferAttribute(positions,3));
+ geometry.setAttribute('aPhase',new THREE.BufferAttribute(phases,1));
+ geometry.computeBoundingSphere();
+ const material=new THREE.ShaderMaterial({
+  uniforms:{uTime:{value:0}},
+  transparent:true,depthTest:true,depthWrite:false,fog:false,
+  vertexShader:`uniform float uTime;attribute float aPhase;varying float vOpacity;
+   void main(){
+    vec3 p=position;
+    // Small bounded optical drift on ordinary independent animation time.
+    p.x+=.23*sin(uTime*.19+aPhase);
+    p.z+=.19*cos(uTime*.17+aPhase*1.3);
+    p.y+=.035*sin(uTime*.29+aPhase);
+    vec4 mvPosition=modelViewMatrix*vec4(p,1.);
+    gl_Position=projectionMatrix*mvPosition;
+    gl_PointSize=clamp(2600./max(1.,-mvPosition.z),2.,64.);
+    vOpacity=.13+.055*(.5+.5*sin(uTime*.21+aPhase));
+   }`,
+  fragmentShader:`varying float vOpacity;
+   void main(){
+    vec2 p=(gl_PointCoord*2.-1.)*vec2(1.,2.1);
+    float r=length(p);
+    float halo=exp(-4.0*r*r)*(1.-smoothstep(.72,1.,r));
+    gl_FragColor=vec4(vec3(.69,.80,.73),vOpacity*halo);
+    #include <tonemapping_fragment>
+    #include <colorspace_fragment>
+   }`
+ });
+ const points=new THREE.Points(geometry,material);
+ points.name='Mud Dogs water-haze · optical candidate';
+ points.renderOrder=3;
+ points.frustumCulled=false;
+ points.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',locationId:'LOC-MUD-DOGS-SWAMP',sourceEnvironment:['existing swamp water disc'],waterAndWeatherAuthority:'NONE',navigable:false};
+ return points;
+}
 export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeometry,buildRegionalAssets,buildAtlasSiteAssets=null,atlasSiteIds=[],onContextLost=()=>{}}={}){
  if(!THREE||typeof buildWorldGeometry!=='function'||typeof buildRegionalAssets!=='function')throw Error('RENDERER_DEPENDENCY_REQUIRED');
  const context=canvas.getContext('webgl2',{alpha:false,antialias:true,powerPreference:'low-power'});
@@ -256,6 +305,9 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const siteIds=siteLocations.map(l=>l.id);if(new Set(siteIds).size!==siteIds.length)throw Error('DUPLICATE_RENDERED_SITE');
  const framesBySite=siteViewFrames(THREE,siteLocations);
  const batches=siteLocations.flatMap(l=>batchStaticGeometry(THREE,l.group).geometries);
+ const swampSite=regional.locations.find(l=>l.id==='LOC-MUD-DOGS-SWAMP');
+ const swampHaze=swampSite?createWetlandWaterHaze(THREE):null;
+ if(swampHaze)swampSite.group.add(swampHaze);
  const shorelineTexture=createWaterShorelineTexture(THREE,height);
  const oceanMaterial=createBaseWaterMaterial(THREE,shorelineTexture);
  const oceanGeo=new THREE.PlaneGeometry(800,800,70,70),ocean=new THREE.Mesh(oceanGeo,oceanMaterial);ocean.rotation.x=-Math.PI/2;ocean.position.y=-.4;ocean.name='Moving base water';scene.add(ocean);
@@ -272,7 +324,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
   if(disposed||context.isContextLost())return;
   if(!Number.isFinite(time)||!Number.isFinite(strength))throw Error('INVALID_RENDER_TIME');
   const signature=JSON.stringify([c,paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight]);if(signature===lastSignature)return;lastSignature=signature;setCamera(c);
-  if(!paused)lastTime=time;regional.tick(lastTime,{paused});atlasSites?.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
+  if(!paused)lastTime=time;regional.tick(lastTime,{paused});atlasSites?.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;if(swampHaze)swampHaze.material.uniforms.uTime.value=lastTime;oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
   const {span,key:shadowKey}=shadowCoverage(c);
   if(shadowKey!==lastShadowKey){
    sun.position.set(c.target[0]-95,150,c.target[2]+60);sun.target.position.set(c.target[0],0,c.target[2]);
@@ -288,7 +340,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const lost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',lost);
  return {prepare,render,project,pick,height,stats,siteView(id){return framesBySite[id]?structuredClone(framesBySite[id]):null;},
   loseContext(){renderer.forceContextLoss();},
-  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();terrainNormalTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();shorelineTexture.dispose();sky.geometry.dispose();sky.material.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
+  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();terrainNormalTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();shorelineTexture.dispose();if(swampHaze){swampHaze.geometry.dispose();swampHaze.material.dispose();}sky.geometry.dispose();sky.material.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
  };
 }
 
