@@ -372,6 +372,18 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float bridgeBreak=.5+.5*sin(p.y*27.+uTime*.68+p.x*11.);
       float bridgeContact=clamp((bridgeCrestA+bridgeCrestB)*bridgeBreak*bank,0.,1.);
       vec3 pondBridgeLight=vec3(.042,.061,.052)*bridgeContact;
+      // Broken mirror tones follow ONLY the two existing illustrated bridge faces.
+      // The inherited pond bank, sky reflection and ordinary ripple clock remain.
+      float bridgeMirrorA=1.-smoothstep(.012,.089,
+        abs(p.x-bridgeA.x+.012*sin(p.y*27.-uTime*.46)));
+      float bridgeMirrorB=1.-smoothstep(.012,.089,
+        abs(p.x-bridgeB.x+.012*sin(p.y*24.-uTime*.39+1.3)));
+      float bridgeMirrorLength=1.-smoothstep(.38,.83,abs(p.y));
+      float bridgeMirrorBreak=.48+.52*(.5+.5*sin(p.y*42.-uTime*.84+p.x*12.));
+      float bridgeMirrorGrazing=smoothstep(.02,.5,pondGrazing);
+      float bridgeMirrorMix=clamp(max(bridgeMirrorA,bridgeMirrorB)
+        *bridgeMirrorLength*bridgeMirrorBreak*bridgeMirrorGrazing*bank*.17,0.,.17);
+      pondTint=mix(pondTint,vec3(.17,.23,.20),bridgeMirrorMix);
       gl_FragColor=vec4(clamp(pondTint+vec3(.09,.13,.11)*ripple+pondLight+pondBridgeLight,0.,1.),.88);
       }else if(uPlunge>.5){
       // Small moving eddies beneath the EXISTING Temple plunge; not a new waterbody.
