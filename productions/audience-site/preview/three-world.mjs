@@ -65,6 +65,40 @@ export function applyTerrainPlanarUVs(THREE,geometry,tileWorldUnits=64){
  geometry.setAttribute('uv',new THREE.BufferAttribute(uv,2));
  return geometry;
 }
+/** Small, tile-periodic physical-light response on the EXISTING ground.
+ * Tangent-space normals derive from deterministic, source-independent noise.
+ * No geographic displacement or source/canon data is introduced.
+ */
+function terrainMicroHeight(u,v){
+ return 2.0*(.32*periodicTerrainNoise(u,v,8)+.46*periodicTerrainNoise(u,v,24)+.22*periodicTerrainNoise(u,v,48));
+}
+export function terrainSurfaceNormal(u,v,size=128,tileWorldUnits=64){
+ if(![u,v,tileWorldUnits].every(Number.isFinite)||!Number.isInteger(size)||size<32||size>512||tileWorldUnits<=0)throw Error('INVALID_TERRAIN_NORMAL_SAMPLE');
+ const step=1/size;
+ const dx=(terrainMicroHeight(u+step,v)-terrainMicroHeight(u-step,v))/(2*step*tileWorldUnits);
+ const dz=(terrainMicroHeight(u,v+step)-terrainMicroHeight(u,v-step))/(2*step*tileWorldUnits);
+ const length=Math.hypot(dx,dz,1);
+ return [-dx/length,-dz/length,1/length];
+}
+export function createTerrainSurfaceNormalTexture(THREE,size=128,tileWorldUnits=64){
+ if(!Number.isInteger(size)||size<32||size>512||(size&(size-1)))throw Error('INVALID_TERRAIN_TEXTURE_SIZE');
+ if(!Number.isFinite(tileWorldUnits)||tileWorldUnits<=0)throw Error('INVALID_TERRAIN_TILE_SIZE');
+ const rgba=new Uint8Array(size*size*4);
+ for(let y=0;y<size;y++)for(let x=0;x<size;x++){
+  const n=terrainSurfaceNormal((x+.5)/size,(y+.5)/size,size,tileWorldUnits);
+  const i=(y*size+x)*4;
+  rgba[i]=Math.round(127.5*(n[0]+1));
+  rgba[i+1]=Math.round(127.5*(n[1]+1));
+  rgba[i+2]=Math.round(127.5*(n[2]+1));
+  rgba[i+3]=255;
+ }
+ const texture=new THREE.DataTexture(rgba,size,size,THREE.RGBAFormat);
+ texture.wrapS=THREE.RepeatWrapping;texture.wrapT=THREE.RepeatWrapping;
+ texture.minFilter=THREE.LinearMipmapLinearFilter;texture.magFilter=THREE.LinearFilter;
+ texture.generateMipmaps=true;texture.colorSpace=THREE.NoColorSpace;
+ texture.anisotropy=4;texture.needsUpdate=true;
+ return texture;
+}
 /** View-responsive optics for the already animated base water plane.
  * The original wave heights and water boundary stay fixed; analytic slopes
  * make light respond to the same physical displacement on ordinary water time.
@@ -138,7 +172,8 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  geometry.setAttribute('position',new THREE.InterleavedBufferAttribute(interleaved,3,0));geometry.setAttribute('normal',new THREE.InterleavedBufferAttribute(interleaved,3,3));geometry.setAttribute('color',new THREE.InterleavedBufferAttribute(interleaved,3,6));geometry.computeBoundingSphere();
  applyTerrainPlanarUVs(THREE,geometry);
  const terrainTexture=createTerrainSurfaceTexture(THREE);
- const terrainMaterial=new THREE.MeshStandardMaterial({map:terrainTexture,vertexColors:true,roughness:.93,side:THREE.DoubleSide});
+ const terrainNormalTexture=createTerrainSurfaceNormalTexture(THREE);
+ const terrainMaterial=new THREE.MeshStandardMaterial({map:terrainTexture,normalMap:terrainNormalTexture,normalScale:new THREE.Vector2(.7,.7),vertexColors:true,roughness:.93,side:THREE.DoubleSide});
  const terrain=new THREE.Mesh(geometry,terrainMaterial);terrain.castShadow=true;terrain.receiveShadow=true;terrain.name='Atlas-aligned provisional terrain';scene.add(terrain);mesh.values=null;oldWater.values=null;
  const regional=buildRegionalAssets(THREE,bindings,height);scene.add(regional.root);
  const atlasSites=buildAtlasSiteAssets?buildAtlasSiteAssets(THREE,bindings,height):null;if(atlasSites)scene.add(atlasSites.root);
@@ -177,7 +212,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const lost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',lost);
  return {prepare,render,project,pick,height,stats,siteView(id){return framesBySite[id]?structuredClone(framesBySite[id]):null;},
   loseContext(){renderer.forceContextLoss();},
-  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
+  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();terrainNormalTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
  };
 }
 
