@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemin://story-production-graph/scene_v1",
+  "title": "Schemin Scene Contract V1 Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "scene_id",
+    "event_id",
+    "encounter_id",
+    "scene_role",
+    "authority",
+    "cast",
+    "location",
+    "continuity",
+    "narrative",
+    "visual",
+    "state_delta",
+    "outputs",
+    "qa"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SCN-"
+    },
+    "event_id": {
+      "type": "string",
+      "pattern": "^EVT-"
+    },
+    "encounter_id": {
+      "type": "string",
+      "pattern": "^ENC-"
+    },
+    "scene_role": {
+      "enum": [
+        "SETUP",
+        "ESCALATION",
+        "TURN",
+        "RESOLUTION",
+        "EPILOGUE",
+        "EDITORIAL"
+      ]
+    },
+    "branch": {
+      "enum": [
+        "COMMON",
+        "HOME_WIN",
+        "AWAY_WIN",
+        "SETTLED",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "required": [
+        "character_authority",
+        "world_authority",
+        "source_receipts"
+      ],
+      "properties": {
+        "character_authority": {
+          "type": "string"
+        },
+        "world_authority": {
+          "type": "string"
+        },
+        "source_receipts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "cast": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "character_id",
+          "role"
+        ],
+        "properties": {
+          "character_id": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "POV",
+              "PRIMARY",
+              "SECONDARY",
+              "BACKGROUND"
+            ]
+          },
+          "reference_receipts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "required": [
+        "location_id",
+        "entering_state_receipt"
+      ],
+      "properties": {
+        "location_id": {
+          "type": "string"
+        },
+        "entering_state_receipt": {
+          "type": "string"
+        },
+        "persistent_anchors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "continuity": {
+      "type": "object",
+      "required": [
+        "in",
+        "out"
+      ],
+      "properties": {
+        "in": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "out": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "narrative": {
+      "type": "object",
+      "required": [
+        "objective",
+        "action_beats"
+      ],
+      "properties": {
+        "objective": {
+          "type": "string"
+        },
+        "emotional_objective": {
+          "type": "string"
+        },
+        "action_beats": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "dialogue": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "speaker_id",
+              "text"
+            ],
+            "properties": {
+              "speaker_id": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "visual": {
+      "type": "object",
+      "required": [
+        "camera",
+        "foreground",
+        "midground",
+        "background"
+      ],
+      "properties": {
+        "camera": {
+          "type": "string"
+        },
+        "blocking": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "foreground": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "midground": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "background": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lighting": {
+          "type": "string"
+        },
+        "weather": {
+          "type": "string"
+        },
+        "time_of_day": {
+          "type": "string"
+        }
+      }
+    },
+    "sound": {
+      "type": "object",
+      "properties": {
+        "soundscape": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "music_cue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "voice_cues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "state_delta": {
+      "type": "object",
+      "required": [
+        "persistent",
+        "ephemeral"
+      ],
+      "properties": {
+        "persistent": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ephemeral": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "PNG",
+          "PDF_PAGE",
+          "MOTION",
+          "AUDIO",
+          "WEB",
+          "TIMELINE",
+          "NOVEL_CONTEXT"
+        ]
+      }
+    },
+    "qa": {
+      "type": "object",
+      "required": [
+        "required_gates",
+        "publication_state"
+      ],
+      "properties": {
+        "required_gates": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "publication_state": {
+          "enum": [
+            "PLANNED",
+            "RENDER_ELIGIBLE",
+            "RENDERED",
+            "QA_PENDING",
+            "ACCEPTED",
+            "REJECTED"
+          ]
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "source_mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_beat_ids",
+        "source_classifications",
+        "branch_variants"
+      ],
+      "properties": {
+        "source_beat_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_classifications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "branch_variants": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "COMMON",
+              "HOME_WIN",
+              "AWAY_WIN"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

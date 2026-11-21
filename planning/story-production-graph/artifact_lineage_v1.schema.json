@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemin://story-production-graph/artifact_lineage_v1",
+  "title": "Schemin Artifact Lineage Receipt V1 Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "artifact_id",
+    "job_id",
+    "surface",
+    "source_snapshot",
+    "event_ids",
+    "scene_ids",
+    "authority_receipts",
+    "renderer",
+    "artifact",
+    "qa",
+    "publication"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "artifact_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "job_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "surface": {
+      "enum": [
+        "PNG",
+        "PDF",
+        "MOTION",
+        "AUDIO",
+        "WEB",
+        "TIMELINE",
+        "NOVEL_CONTEXT"
+      ]
+    },
+    "source_snapshot": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^EVT-"
+      }
+    },
+    "scene_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^SCN-"
+      }
+    },
+    "authority_receipts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "renderer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "profile",
+        "execution_status"
+      ],
+      "properties": {
+        "profile": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "execution_status": {
+          "enum": [
+            "NOT_EXECUTED",
+            "EXECUTED",
+            "FAILED"
+          ]
+        },
+        "execution_receipt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PLANNED",
+            "CREATED",
+            "VERIFIED",
+            "REJECTED"
+          ]
+        },
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "gates"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "NOT_RUN",
+            "PASS",
+            "FAIL"
+          ]
+        },
+        "gates": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "receipt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "publication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "authority_mutation_allowed"
+      ],
+      "properties": {
+        "state": {
+          "enum": [
+            "UNPUBLISHED",
+            "CANDIDATE",
+            "ACCEPTED",
+            "REJECTED"
+          ]
+        },
+        "authority_mutation_allowed": {
+          "const": false
+        }
+      }
+    }
+  }
+}

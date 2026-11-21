@@ -1,0 +1,285 @@
+{
+  "authority": "READ_ONLY_CONSUMER_PROJECTION",
+  "memo_issues": [
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": null,
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W01-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W01-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "PARTIAL_VISUAL_READBACK_IDENTITY_UNCONFIRMED",
+      "encounter_count": 0,
+      "event_count": 0,
+      "issue_id": "MEMO-2026-W01",
+      "publication_state": "AUTHORITY_UNRESOLVED_PARTIAL_READBACK",
+      "scene_count": 0,
+      "scene_ids": [],
+      "source_class": "EXTERNAL_PUBLICATION_PARTIAL_READBACK",
+      "week": 1
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": "Week 2 memo.pdf",
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W02-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W02-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "IDENTITY_RECOVERED_BINARY_EXTERNAL",
+      "encounter_count": 0,
+      "event_count": 0,
+      "issue_id": "MEMO-2026-W02",
+      "publication_state": "RELEASED",
+      "scene_count": 0,
+      "scene_ids": [],
+      "source_class": "EXTERNAL_CANONICAL_PUBLICATION",
+      "week": 2
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": "Pro_Schemin_Week_3_Memo_Final.pdf",
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W03-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W03-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "FACT_LOCK_AND_PAGE_REGISTER_AVAILABLE",
+      "encounter_count": 0,
+      "event_count": 6,
+      "issue_id": "MEMO-2026-W03",
+      "publication_state": "RELEASED",
+      "scene_count": 0,
+      "scene_ids": [],
+      "source_class": "REPO_NATIVE_MEMO_OS",
+      "week": 3
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": null,
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W04-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W04-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "STORY_AUTHORITY_WITH_PUBLICATION_HOLD",
+      "encounter_count": 0,
+      "event_count": 6,
+      "issue_id": "MEMO-2026-W04",
+      "publication_state": "BLOCKED",
+      "scene_count": 0,
+      "scene_ids": [],
+      "source_class": "REPO_NATIVE_MEMO_OS",
+      "week": 4
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": null,
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W05-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W05-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "FULL_PAGE_MANIFEST_AND_FINAL_RESULT_LOCK_AVAILABLE",
+      "encounter_count": 6,
+      "event_count": 6,
+      "issue_id": "MEMO-2026-W05",
+      "publication_state": "NOT_PROVEN_RELEASED",
+      "scene_count": 24,
+      "scene_ids": [
+        "SCN-2026-W05-P004",
+        "SCN-2026-W05-P005",
+        "SCN-2026-W05-P006",
+        "SCN-2026-W05-P007",
+        "SCN-2026-W05-P008",
+        "SCN-2026-W05-P009",
+        "SCN-2026-W05-P010",
+        "SCN-2026-W05-P011",
+        "SCN-2026-W05-P012",
+        "SCN-2026-W05-P013",
+        "SCN-2026-W05-P014",
+        "SCN-2026-W05-P015",
+        "SCN-2026-W05-P016",
+        "SCN-2026-W05-P017",
+        "SCN-2026-W05-P018",
+        "SCN-2026-W05-P019",
+        "SCN-2026-W05-P020",
+        "SCN-2026-W05-P021",
+        "SCN-2026-W05-P022",
+        "SCN-2026-W05-P023",
+        "SCN-2026-W05-P024",
+        "SCN-2026-W05-P025",
+        "SCN-2026-W05-P026",
+        "SCN-2026-W05-P027"
+      ],
+      "source_class": "REPO_NATIVE_MEMO_OS",
+      "week": 5
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": null,
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W06-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W06-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "SIX_SPATIAL_ENCOUNTERS_AND_CORROBORATED_RESULTS",
+      "encounter_count": 6,
+      "event_count": 6,
+      "issue_id": "MEMO-2026-W06",
+      "publication_state": "PRODUCTION_CANDIDATE",
+      "scene_count": 6,
+      "scene_ids": [
+        "SCN-2026-W06-M01-SPATIAL",
+        "SCN-2026-W06-M02-SPATIAL",
+        "SCN-2026-W06-M03-SPATIAL",
+        "SCN-2026-W06-M04-SPATIAL",
+        "SCN-2026-W06-M05-SPATIAL",
+        "SCN-2026-W06-M06-SPATIAL"
+      ],
+      "source_class": "REPO_NATIVE_MEMO_OS",
+      "week": 6
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": null,
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W07-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W07-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "CORROBORATED_RESULTS_NO_FULL_SCENE_REGISTER",
+      "encounter_count": 0,
+      "event_count": 6,
+      "issue_id": "MEMO-2026-W07",
+      "publication_state": "HOLD",
+      "scene_count": 0,
+      "scene_ids": [],
+      "source_class": "REPO_NATIVE_EVIDENCE_FIRST",
+      "week": 7
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": null,
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W08-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W08-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "FINAL_PROVIDER_RESULTS_NO_FULL_SCENE_REGISTER",
+      "encounter_count": 0,
+      "event_count": 6,
+      "issue_id": "MEMO-2026-W08",
+      "publication_state": "HOLD",
+      "scene_count": 0,
+      "scene_ids": [],
+      "source_class": "REPO_NATIVE_EVIDENCE_FIRST",
+      "week": 8
+    },
+    {
+      "binary_in_repo": false,
+      "canonical_artifact": null,
+      "consumer_jobs": [
+        {
+          "job_id": "JOB-MEMO-2026-W09-TIMELINE",
+          "status": "BLOCKED",
+          "surface": "TIMELINE"
+        },
+        {
+          "job_id": "JOB-MEMO-2026-W09-WEB",
+          "status": "BLOCKED",
+          "surface": "WEB"
+        }
+      ],
+      "coverage_state": "FULL_STORYBOARD_AND_PAGE_CONTRACT_AVAILABLE",
+      "encounter_count": 6,
+      "event_count": 6,
+      "issue_id": "MEMO-2026-W09",
+      "publication_state": "HOLD",
+      "scene_count": 19,
+      "scene_ids": [
+        "SCN-2026-W09-M01-W09-P05",
+        "SCN-2026-W09-M01-W09-P06",
+        "SCN-2026-W09-M01-W09-P07",
+        "SCN-2026-W09-M01-W09-P31",
+        "SCN-2026-W09-M02-W09-P09",
+        "SCN-2026-W09-M02-W09-P10",
+        "SCN-2026-W09-M02-W09-P32",
+        "SCN-2026-W09-M03-W09-P12",
+        "SCN-2026-W09-M03-W09-P13",
+        "SCN-2026-W09-M03-W09-P33",
+        "SCN-2026-W09-M04-W09-P14",
+        "SCN-2026-W09-M04-W09-P15",
+        "SCN-2026-W09-M04-W09-P34",
+        "SCN-2026-W09-M05-W09-P17",
+        "SCN-2026-W09-M05-W09-P18",
+        "SCN-2026-W09-M05-W09-P35",
+        "SCN-2026-W09-M06-W09-P20",
+        "SCN-2026-W09-M06-W09-P21",
+        "SCN-2026-W09-M06-W09-P36"
+      ],
+      "source_class": "REPO_NATIVE_MEMO_OS",
+      "week": 9
+    }
+  ],
+  "schema_version": "1.0",
+  "season": 2026,
+  "source_fingerprint_sha256": "4d0895c2399c61e401aa506dee23d78158e51a7614e8de62541960801ab3728d"
+}

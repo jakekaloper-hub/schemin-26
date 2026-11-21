@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemin://story-production-graph/compiler_manifest_v1",
+  "title": "Schemin Production Compiler Manifest V1 Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "build_id",
+    "source_snapshot",
+    "source_fingerprint_sha256",
+    "inputs",
+    "jobs",
+    "artifacts",
+    "invalidation",
+    "publication"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "build_id": {
+      "type": "string"
+    },
+    "source_snapshot": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "object",
+      "required": [
+        "event_ids",
+        "scene_ids"
+      ],
+      "properties": {
+        "event_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scene_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "chronicle_projection_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "memo_issue_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^MEMO-2026-W\\d{2}$"
+          }
+        }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "job_id",
+          "surface",
+          "depends_on",
+          "status"
+        ],
+        "properties": {
+          "job_id": {
+            "type": "string"
+          },
+          "surface": {
+            "enum": [
+              "PNG",
+              "PDF",
+              "MOTION",
+              "AUDIO",
+              "WEB",
+              "TIMELINE",
+              "NOVEL_CONTEXT"
+            ]
+          },
+          "depends_on": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "render_profile": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "enum": [
+              "PLANNED",
+              "BLOCKED",
+              "READY",
+              "BUILT",
+              "QA_PENDING",
+              "ACCEPTED",
+              "FAILED"
+            ]
+          }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "artifact_id",
+          "job_id",
+          "lineage",
+          "qa_status"
+        ],
+        "properties": {
+          "artifact_id": {
+            "type": "string"
+          },
+          "job_id": {
+            "type": "string"
+          },
+          "lineage": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "qa_status": {
+            "enum": [
+              "NOT_RUN",
+              "PASS",
+              "FAIL"
+            ]
+          }
+        }
+      }
+    },
+    "invalidation": {
+      "type": "object",
+      "required": [
+        "dependency_edges"
+      ],
+      "properties": {
+        "dependency_edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "upstream",
+              "downstream",
+              "dependency_class"
+            ],
+            "properties": {
+              "upstream": {
+                "type": "string"
+              },
+              "downstream": {
+                "type": "string"
+              },
+              "dependency_class": {
+                "enum": [
+                  "BASE",
+                  "RESULT",
+                  "CHARACTER",
+                  "LOCATION",
+                  "COPY",
+                  "AUDIO",
+                  "PRESENTATION"
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "publication": {
+      "type": "object",
+      "required": [
+        "authority_mutation_allowed",
+        "auto_publish_allowed"
+      ],
+      "properties": {
+        "authority_mutation_allowed": {
+          "const": false
+        },
+        "auto_publish_allowed": {
+          "const": false
+        }
+      }
+    },
+    "source_fingerprint_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}
