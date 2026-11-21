@@ -1,0 +1,386 @@
+{
+  "schema": "schemin.memo.completed_pdf_reconciliation.v1",
+  "created_utc": "2026-11-21T18:12:53.245537+00:00",
+  "scope": "FACTUAL_SOURCE_TO_COMPLETED_ARTIFACT_RECONCILIATION_ONLY",
+  "authority": "Commissioner-supplied finished PDF and existing Week 10 PR #315 source; no automated release promotion",
+  "artifact": {
+    "filename": "Schemin-26-Week-10-Memo.pdf",
+    "sha256": "520fa19c5881623c74c5052d36ba09fefbc793592917e523ec9f4114cf84f2b2",
+    "byte_length": 106403159,
+    "physical_page_count": 35,
+    "pdf_format": "PDF 1.4",
+    "content_type": "35 rendered image-backed pages; no selectable PDF text",
+    "verified_mounted_upload": true,
+    "verified_local_mac_copy": true,
+    "local_mac_copy_identity": "SHA256 MATCH; local Downloads copy",
+    "bytes_embedded_in_public_repo": false
+  },
+  "source_preproduction": {
+    "repository": "jakekaloper-hub/schemin-26",
+    "pull_request": 315,
+    "branch": "memo-week10-preproduction-20261116",
+    "verified_head_sha": "abac5a4dc0983608bb1eacdfe0d8ea32d809e9a5",
+    "manifest_path": "memo-os/week-10/preproduction/render-inputs/manifest.json",
+    "manifest_sha256": "61ae7c653a0062e65142d20efa3207dc07dbaff604247735380ddd47828a79be",
+    "manifest_folio_count": 34,
+    "manifest_art_generated_at_preproduction": false,
+    "manifest_publication_approved_at_preproduction": false,
+    "historical_stage": "GRAYSCALE_FOLIO_PROOF_INPUTS",
+    "do_not_rewrite_historical_manifest": true
+  },
+  "edition_delta": {
+    "explanation": "The finished 35-page PDF incorporates a single later Commissioner edition page not present in the 34-source-folio preproduction manifest.",
+    "added_page": {
+      "pdf_physical_page": 34,
+      "name": "Pittsy's Book",
+      "section": "Waterfall district; family comes first",
+      "source_folio_in_original_manifest": false
+    },
+    "last_original_source_folio": {
+      "source_page_id": "W10-P33",
+      "source_reading_position": 34,
+      "pdf_physical_page": 35,
+      "visible_printed_folio_number": 34,
+      "title": "THE WEATHER IS COMING HOME"
+    },
+    "earlier_33_source_positions_retained": true,
+    "physical_page_count_equation": "34 source folios + 1 later interlude = 35 PDF physical pages"
+  },
+  "page_crosswalk": [
+    {
+      "source_page_id": "W10-P01",
+      "source_reading_position": 1,
+      "pdf_physical_page": 1,
+      "source_title": "THE CEILING BREAKS",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P02",
+      "source_reading_position": 2,
+      "pdf_physical_page": 2,
+      "source_title": "ROOM ABOVE TWO HUNDRED",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P03",
+      "source_reading_position": 3,
+      "pdf_physical_page": 3,
+      "source_title": "KEEP THE WHOLE LEAGUE IN VIEW",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P04",
+      "source_reading_position": 4,
+      "pdf_physical_page": 4,
+      "source_title": "THE WEEK 10 BOARD",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P05",
+      "source_reading_position": 5,
+      "pdf_physical_page": 5,
+      "source_title": "Everybody Gets a View",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P06",
+      "source_reading_position": 6,
+      "pdf_physical_page": 6,
+      "source_title": "The Ring Runs Out",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P07",
+      "source_reading_position": 7,
+      "pdf_physical_page": 7,
+      "source_title": "No Private Exit",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P08",
+      "source_reading_position": 8,
+      "pdf_physical_page": 8,
+      "source_title": "One More Bag",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P09",
+      "source_reading_position": 9,
+      "pdf_physical_page": 9,
+      "source_title": "The Place That Answered Once",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P10",
+      "source_reading_position": 10,
+      "pdf_physical_page": 10,
+      "source_title": "That Cold Again",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P11",
+      "source_reading_position": 11,
+      "pdf_physical_page": 11,
+      "source_title": "THE ROADS BETWEEN",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P12",
+      "source_reading_position": 12,
+      "pdf_physical_page": 12,
+      "source_title": "Just as the House Settles",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P13",
+      "source_reading_position": 13,
+      "pdf_physical_page": 13,
+      "source_title": "He Heard You",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P14",
+      "source_reading_position": 14,
+      "pdf_physical_page": 14,
+      "source_title": "No Quiet Hours",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P15",
+      "source_reading_position": 15,
+      "pdf_physical_page": 15,
+      "source_title": "The Swamp Declares a Blockade",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P16",
+      "source_reading_position": 16,
+      "pdf_physical_page": 16,
+      "source_title": "Same Speed",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P17",
+      "source_reading_position": 17,
+      "pdf_physical_page": 17,
+      "source_title": "Cancún Is Calling",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P18",
+      "source_reading_position": 18,
+      "pdf_physical_page": 18,
+      "source_title": "WHY THE BOARD MOVED",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P34",
+      "source_reading_position": 19,
+      "pdf_physical_page": 19,
+      "source_title": "THE COST OF SUNDAY",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P19",
+      "source_reading_position": 20,
+      "pdf_physical_page": 20,
+      "source_title": "A Very Generous Guest",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P20",
+      "source_reading_position": 21,
+      "pdf_physical_page": 21,
+      "source_title": "The 200 Burger",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P21",
+      "source_reading_position": 22,
+      "pdf_physical_page": 22,
+      "source_title": "Many Unhappy Returns",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P22",
+      "source_reading_position": 23,
+      "pdf_physical_page": 23,
+      "source_title": "The Empire Opens Fire",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P23",
+      "source_reading_position": 24,
+      "pdf_physical_page": 24,
+      "source_title": "The Price of Quiet",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P24",
+      "source_reading_position": 25,
+      "pdf_physical_page": 25,
+      "source_title": "Unlimited Firepower",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P25",
+      "source_reading_position": 26,
+      "pdf_physical_page": 26,
+      "source_title": "THE NEXT STARTING SHEET",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P26",
+      "source_reading_position": 27,
+      "pdf_physical_page": 27,
+      "source_title": "MOVES THAT REACHED THE ROSTER",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P27",
+      "source_reading_position": 28,
+      "pdf_physical_page": 28,
+      "source_title": "TWELVE TEAMS. TEN POSTED RESULTS.",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P28",
+      "source_reading_position": 29,
+      "pdf_physical_page": 29,
+      "source_title": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P29",
+      "source_reading_position": 30,
+      "pdf_physical_page": 30,
+      "source_title": "THE TWELVE — SCORING FORM",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P30",
+      "source_reading_position": 31,
+      "pdf_physical_page": 31,
+      "source_title": "FOUR MORE AFTER THIS",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P31",
+      "source_reading_position": 32,
+      "pdf_physical_page": 32,
+      "source_title": "THE NEXT SIX",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": "W10-P35",
+      "source_reading_position": 33,
+      "pdf_physical_page": 33,
+      "source_title": "THE CROSSING NARROWS",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    },
+    {
+      "source_page_id": null,
+      "source_reading_position": null,
+      "pdf_physical_page": 34,
+      "source_title": "PITTSY'S BOOK",
+      "relationship": "COMMISSIONER_EDITION_ADDED_PAGE_NOT_IN_PREPRODUCTION_MANIFEST",
+      "exact_pixel_and_copy_match": "NOT_APPLICABLE"
+    },
+    {
+      "source_page_id": "W10-P33",
+      "source_reading_position": 34,
+      "pdf_physical_page": 35,
+      "source_title": "THE WEATHER IS COMING HOME",
+      "relationship": "SECTION_AND_READING_ORDER_VISUAL_CHECK",
+      "exact_pixel_and_copy_match": "NOT_CERTIFIED"
+    }
+  ],
+  "selected_checks": [
+    {
+      "pdf_page": 4,
+      "reference": "week-10/production-evidence/finalization-20261117/FINALIZATION_REPORT.md",
+      "kind": "SIX_FINAL_RESULTS",
+      "verdict": "SIX_OF_SIX_SCORES_MATCH"
+    },
+    {
+      "pdf_page": 29,
+      "source_page_id": "W10-P28",
+      "kind": "DIVISION_HEADLINE_AND_THREE_DIVISIONS",
+      "verdict": "SPOT_CHECK_MATCH"
+    },
+    {
+      "pdf_page": 31,
+      "source_page_id": "W10-P30",
+      "kind": "PLAYOFF_ROAD_SEVEN_BERTHS_AND_DIVISION_SPLIT",
+      "verdict": "SPOT_CHECK_MATCH"
+    },
+    {
+      "pdf_page": 32,
+      "source_page_id": "W10-P31",
+      "kind": "W11_FIXTURES_AND_ATTRIBUTED_THEFFHUB_ESTIMATES",
+      "verdict": "SPOT_CHECK_MATCH"
+    },
+    {
+      "pdf_page": 34,
+      "kind": "ADDED_PITTSYS_BOOK",
+      "verdict": "PRESENT_NOT_IN_SOURCE_MANIFEST"
+    },
+    {
+      "pdf_page": 35,
+      "source_page_id": "W10-P33",
+      "kind": "FINAL_WORD",
+      "verdict": "SPOT_CHECK_MATCH"
+    }
+  ],
+  "status": {
+    "finished_assembled_artifact": "VERIFIED",
+    "source_page_order_crosswalk": "VERIFIED_VISUAL_STRUCTURE",
+    "selected_score_and_copy_spot_checks": "PASS",
+    "all_35_pages_full_copy_character_pixel_qa": "NOT_CERTIFIED",
+    "source_image_bytes_to_pdf_image_bytes": "NOT_ESTABLISHED",
+    "league_distribution_date_and_channel": "NOT_VERIFIED",
+    "publication_manifest_release": "NOT_PROMOTED",
+    "commissioner_describes_as_official": true,
+    "fresh_authenticated_steward_and_canon_release_signoff": "NOT_ESTABLISHED",
+    "current_benchmark": "UNCHANGED"
+  },
+  "promotion_requirements": [
+    "Capture actual Commissioner-distribution/release acceptance evidence and its date/channel when available",
+    "Run owning release-auditor and independent Umpire checks on exact finished artifact and source lineage before RELEASED status",
+    "Update existing Publication Manifest and owning release evidence only after authentic release proof",
+    "Keep the original PDF immutable; do not regenerate, re-edit, or commit private image bytes to public repo"
+  ]
+}
