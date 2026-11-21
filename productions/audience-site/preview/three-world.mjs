@@ -19,6 +19,52 @@ export function shadowCoverage(c){
 export function siteViewFrames(THREE,locations){
  const result={};for(const l of locations){l.group.updateMatrixWorld(true);const bounds=new THREE.Box3().setFromObject(l.group),sphere=bounds.getBoundingSphere(new THREE.Sphere());if(!Number.isFinite(sphere.radius)||sphere.radius<=0)continue;result[l.id]={target:[l.group.position.x,sphere.center.y,l.group.position.z],distance:Math.max(12,Math.min(80,sphere.radius*3.0+2))};}return result;
 }
+/** Procedural albedo on the existing atlas-aligned ground mesh.
+ * Repeating world-space detail breaks broad flat-color patches without adding
+ * landscape geometry, external imagery, new source locations, or render passes.
+ * All material choices remain CANDIDATE_NOT_APPROVED.
+ */
+function periodicTerrainNoise(u,v,frequency){
+ const x=u*frequency,y=v*frequency,ix=Math.floor(x),iy=Math.floor(y);
+ const sx=x-ix,sy=y-iy,tx=sx*sx*(3-2*sx),ty=sy*sy*(3-2*sy);
+ const sample=(a,b)=>{
+  const hX=((a%frequency)+frequency)%frequency,hY=((b%frequency)+frequency)%frequency;
+  let h=Math.imul(hX+17,374761393)^Math.imul(hY+31,668265263)^Math.imul(frequency+7,2246822519);
+  h=Math.imul(h^(h>>>13),1274126177);
+  return ((h^(h>>>16))>>>0)/4294967295;
+ };
+ const a=sample(ix,iy)*(1-tx)+sample(ix+1,iy)*tx;
+ const b=sample(ix,iy+1)*(1-tx)+sample(ix+1,iy+1)*tx;
+ return a*(1-ty)+b*ty;
+}
+export function createTerrainSurfaceTexture(THREE,size=128){
+ if(!Number.isInteger(size)||size<32||size>512||(size&(size-1)))throw Error('INVALID_TERRAIN_TEXTURE_SIZE');
+ const rgba=new Uint8Array(size*size*4);
+ for(let y=0;y<size;y++)for(let x=0;x<size;x++){
+  const u=(x+.5)/size,v=(y+.5)/size;
+  const broad=periodicTerrainNoise(u,v,4),medium=periodicTerrainNoise(u,v,16),fine=periodicTerrainNoise(u,v,48);
+  const tone=.54*broad+.33*medium+.13*fine,soil=Math.max(0,(broad-.56)/.44);
+  const base=.84+.24*tone;
+  const i=(y*size+x)*4;
+  rgba[i]=Math.round(255*Math.min(1,base+.025*soil));
+  rgba[i+1]=Math.round(255*Math.min(1,base-.025*soil));
+  rgba[i+2]=Math.round(255*Math.min(1,base-.055*soil));
+  rgba[i+3]=255;
+ }
+ const texture=new THREE.DataTexture(rgba,size,size,THREE.RGBAFormat);
+ texture.wrapS=THREE.RepeatWrapping;texture.wrapT=THREE.RepeatWrapping;
+ texture.minFilter=THREE.LinearMipmapLinearFilter;texture.magFilter=THREE.LinearFilter;
+ texture.generateMipmaps=true;texture.colorSpace=THREE.SRGBColorSpace;
+ texture.anisotropy=4;texture.needsUpdate=true;
+ return texture;
+}
+export function applyTerrainPlanarUVs(THREE,geometry,tileWorldUnits=64){
+ if(!Number.isFinite(tileWorldUnits)||tileWorldUnits<=0)throw Error('INVALID_TERRAIN_TILE_SIZE');
+ const position=geometry.getAttribute('position'),uv=new Float32Array(position.count*2);
+ for(let i=0;i<position.count;i++){uv[i*2]=position.getX(i)/tileWorldUnits;uv[i*2+1]=position.getZ(i)/tileWorldUnits;}
+ geometry.setAttribute('uv',new THREE.BufferAttribute(uv,2));
+ return geometry;
+}
 /** View-responsive optics for the already animated base water plane.
  * The original wave heights and water boundary stay fixed; analytic slopes
  * make light respond to the same physical displacement on ordinary water time.
@@ -90,7 +136,9 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const geometry=new THREE.BufferGeometry(),interleaved=new THREE.InterleavedBuffer(new Float32Array(mesh.values),9);
  const color=new THREE.Color();for(let i=0;i<interleaved.array.length;i+=9){color.setRGB(interleaved.array[i+6],interleaved.array[i+7],interleaved.array[i+8],THREE.SRGBColorSpace);interleaved.array[i+6]=color.r;interleaved.array[i+7]=color.g;interleaved.array[i+8]=color.b;}
  geometry.setAttribute('position',new THREE.InterleavedBufferAttribute(interleaved,3,0));geometry.setAttribute('normal',new THREE.InterleavedBufferAttribute(interleaved,3,3));geometry.setAttribute('color',new THREE.InterleavedBufferAttribute(interleaved,3,6));geometry.computeBoundingSphere();
- const terrainMaterial=new THREE.MeshStandardMaterial({vertexColors:true,roughness:.93,side:THREE.DoubleSide});
+ applyTerrainPlanarUVs(THREE,geometry);
+ const terrainTexture=createTerrainSurfaceTexture(THREE);
+ const terrainMaterial=new THREE.MeshStandardMaterial({map:terrainTexture,vertexColors:true,roughness:.93,side:THREE.DoubleSide});
  const terrain=new THREE.Mesh(geometry,terrainMaterial);terrain.castShadow=true;terrain.receiveShadow=true;terrain.name='Atlas-aligned provisional terrain';scene.add(terrain);mesh.values=null;oldWater.values=null;
  const regional=buildRegionalAssets(THREE,bindings,height);scene.add(regional.root);
  const atlasSites=buildAtlasSiteAssets?buildAtlasSiteAssets(THREE,bindings,height):null;if(atlasSites)scene.add(atlasSites.root);
@@ -129,7 +177,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const lost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',lost);
  return {prepare,render,project,pick,height,stats,siteView(id){return framesBySite[id]?structuredClone(framesBySite[id]):null;},
   loseContext(){renderer.forceContextLoss();},
-  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();oceanGeo.dispose();oceanMaterial.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
+  dispose(){if(disposed)return;disposed=true;canvas.removeEventListener('webglcontextlost',lost);regional.dispose();atlasSites?.dispose();for(const g of batches)g.dispose();geometry.dispose();terrainMaterial.dispose();terrainTexture.dispose();oceanGeo.dispose();oceanMaterial.dispose();sun.shadow.map?.dispose();renderer.dispose();scene.clear();stats.disposed=true;}
  };
 }
 
