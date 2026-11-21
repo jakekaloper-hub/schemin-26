@@ -1,0 +1,1589 @@
+{
+  "schema_version": "1.0",
+  "stage": "PASS_4_LANDSCAPE_SPEC_CANDIDATE",
+  "source": "narrative-pass-04-inklings-tim-gate.md",
+  "output": "single full-bleed 1080x1920 integrated cinematic PNG per page",
+  "approval": "PENDING_FOUNDER_ATLAS_AND_VISUAL",
+  "sets": [
+    {
+      "id": "SET-W10-DK-RODEO-GROUNDS",
+      "parent": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "name": "Arsenal Rodeo Grounds",
+      "purpose": "working Highland training and livestock ring reused for public rodeo",
+      "camera": [
+        "low rail-wide with uphill galleries and service gate",
+        "tracking diagonal across Chili's escape lane",
+        "low public wide center-ring aftermath"
+      ],
+      "age": "worn timber rails, repaired gate hinges, mixed-age boards, polished stone seating and reused livestock pens",
+      "light": "overcast blue-grey sky plus sheltered amber gallery lanterns",
+      "weather": "upland rainfall, churned local earth, no coastal surge",
+      "in": "DK owns lasso; Chili hat on head; Dark Horse separate",
+      "out": "Chili hogtied, hat beside him; rope path and four centaur hooves readable",
+      "risk": "never return to Compact neutral ring or Chili-owned lasso",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "uphill tiered stone galleries",
+        "oval packed-earth ring with timber rails",
+        "service gate rear-left",
+        "separate horse holding rail outside active ring"
+      ],
+      "source_page_id": "W10-P05"
+    },
+    {
+      "id": "SET-W10-RED-SOCCER-OVERFLOW",
+      "parent": "LOC-RED-RUINS",
+      "name": "Red's River-Edge Soccer Terrace",
+      "purpose": "reused Week9 soccer terrace with proposed nearby rising river",
+      "camera": [
+        "pitch edge and low water line",
+        "Red hands on sandbags against existing goal/ruts",
+        "downstream wide with rising but gentle overflow"
+      ],
+      "age": "older masonry repairs under fresh Week9 wreckage; goal and narrow exit from prior art",
+      "light": "cold diffuse storm light, crimson banner color anchor",
+      "weather": "coastal heavy rain and slowly increasing river water, no instant tidal wall",
+      "in": "Week9 damaged goal; river bank proposal must be spatially verified",
+      "out": "wet sandbags and flooded low pitch remain after Red departs",
+      "risk": "do not pretend basketball court adjoins eastern ruins",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "Week 9 stepped grass soccer terrace",
+        "stone approach arch on near-left",
+        "small far goal now damaged, net displaced",
+        "narrow stone exit and trapped truck position from Week 9",
+        "old tire ruts; shallow overflow uses low edge"
+      ],
+      "source_page_id": "W10-P08"
+    },
+    {
+      "id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+      "parent": null,
+      "name": "The Forgotten Court",
+      "purpose": "reuse Week7 basketball court exactly, geographically separate from eastern soccer terrace",
+      "camera": [
+        "establish recognizable wall and basket",
+        "gust-lifted branch above hoop",
+        "fallen limb and broken rim with Red seated in disbelief"
+      ],
+      "age": "old court wall, familiar basket, weathered markings, pre-existing court scars from prior illustration",
+      "light": "storm-filtered inland daylight, cool reflections",
+      "weather": "inland gust strong enough to break limb, not coastal river flood",
+      "in": "explicit later travel/cut from Red ruins",
+      "out": "limb remains on basket, rim broken; Red's previous sandbag mud may remain",
+      "risk": "source visual must be inspected before camera lock",
+      "source_location_ref": {
+        "type": "PUBLISHED_ARTWORK_SET",
+        "week": 7,
+        "physical_pages": [
+          8,
+          9,
+          10
+        ],
+        "name": "The Forgotten Court",
+        "region_id": "REG-CENTRAL-BASIN",
+        "permanent_atlas_id": null,
+        "exact_visual_reference_recovered": true
+      },
+      "persistent_landmarks": [
+        "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+        "red-leaf ivy along right wall",
+        "wet hard court and worn lines",
+        "ascending stone tiers, ruined towers and distant waterfalls",
+        "same right-side basket and lens axis; no freestanding hoop pole"
+      ],
+      "source_page_id": "W10-P09"
+    },
+    {
+      "id": "SET-W10-TDS-TEMPLE-COURTYARD",
+      "parent": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "Waterfall Temple Courtyard and Balcony",
+      "purpose": "working household courtyard beneath occupied upper-floor family rooms",
+      "camera": [
+        "courtyard wide jackhammer and balcony",
+        "reverse low from Chins to three heads above",
+        "rubble-level shot showing worsening hole and music"
+      ],
+      "age": "smooth old stair centers, repaired gutter, drain groove, swept threshold, patched balcony balustrade",
+      "light": "waterfall bounce and cool cloud, warm nursery threshold lantern",
+      "weather": "wet leaves and mild gusts; Chins' equipment—not weather—causes the noise",
+      "in": "newborn and partner inside, TDS at balcony; jackhammer cable/power consistent",
+      "out": "progressively removed concrete, no magically repaired paving",
+      "risk": "no child outdoors, no Chins truck teleported from Week9",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "patched concrete courtyard over older stone",
+        "upper balcony and protected family doorway",
+        "waterfall, drain and planted margin",
+        "raised dry compressor/speaker shelf"
+      ],
+      "source_page_id": "W10-P12"
+    },
+    {
+      "id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+      "parent": "LOC-MUD-DOGS-SWAMP",
+      "name": "Swamp Raised Delivery Strip",
+      "purpose": "old service route capable of carrying commercial beer flatbed despite saturated swamp",
+      "camera": [
+        "wide swamp gate, firm strip and incoming flatbed",
+        "driver-side parallel pass with Mud on soft shoulder",
+        "long road view as tail lamps disappear"
+      ],
+      "age": "maintained raised causeway, rut scars from Week9 racing, weathered entrance sign, old loading marker",
+      "light": "soft canopy grey with amber breaks and truck practicals",
+      "weather": "delayed runoff, pooled ruts, firm elevated road still navigable",
+      "in": "Mud blocks sign but not physically colliding with truck",
+      "out": "intact beer cargo delivered, Cancun postcard taunt, empty road",
+      "risk": "no attack scene or claimed official elimination",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "weathered swamp entrance marker",
+        "raised stone/gravel service strip",
+        "lower waterlogged racing ruts",
+        "empty local seating and vegetated channel"
+      ],
+      "source_page_id": "W10-P15"
+    },
+    {
+      "id": "SET-W10-JACKSON-BANQUET",
+      "parent": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "Jackson Birthday Dining Hall",
+      "purpose": "established club banquet hall with kitchen service and birthday guests",
+      "camera": [
+        "wide door entry with decorated hall",
+        "table-level giant double decker 200 Burger reveal",
+        "unobstructed cake contact and Duck reaction"
+      ],
+      "age": "worn parquet traffic path, repaired brass, upholstered older dining chairs, familiar service doors",
+      "light": "warm chandelier and candles vs cool rain-beaded tall windows",
+      "weather": "storm outside only; sheltered party remains warm",
+      "in": "HMB wrapped gift, separate cake on sideboard, belt on HMB",
+      "out": "burger untouched in open box, cake frosting on Duck face and green vest",
+      "risk": "no sword duel, rail fall, cake-table collapse",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "clubhouse dining hall",
+        "proposed tall windows facing maintained grounds",
+        "proposed service doorway and sideboard",
+        "proposed birthday chair and gift-table axis"
+      ],
+      "source_page_id": "W10-P19"
+    },
+    {
+      "id": "SET-W10-OBI-RIDGE-GATE",
+      "parent": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "Mountain Ridge Gate and Field Throne Room",
+      "purpose": "Temporary throne arrangement on the command shelf at the Trade Jedi Mountain Base.",
+      "camera": [
+        "One establishing strip names the causeway, command shelf and home arch. The deflection gets the dominant frame.",
+        "Use a descending diagonal from the vacated chair to a two-shot of both men looking home. Isolate the lit blade crossing the seam.",
+        "Hold the raised hand and the battery origin within a single readable sightline. Use white space for the silhouette and preserve the dark outline of the arch."
+      ],
+      "age": "repaired parapet, rubbed rail, supply scuffs, lantern soot and worn gate threshold",
+      "light": "Warm arch lantern, green blade, orange smoke from the first wreck and branching white battery discharge.",
+      "weather": "cross-ridge wind pushes smoke same direction each page",
+      "in": "Two batteries, occupied leather chair, lit blade and sheltered retriever.",
+      "out": "Lightning consumes the silhouette. The LLC wins; the home and its defender carry forward alive.",
+      "risk": "Preserve one wreck and one surviving battery; the lightning is commanded by the suited executive.",
+      "source_location_ref": null,
+      "persistent_landmarks": [
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam"
+      ],
+      "source_page_id": "W10-P22"
+    }
+  ],
+  "department_landscapes": [
+    {
+      "page_id": "W10-P01",
+      "site": "SET-W10-DUAL-200-EDITORIAL-COVER",
+      "action": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners. His Majesty's Blood: hooded concealed face, two luminous eyes, dark segmented armor, gold chest medallion, ragged cloak, championship belt retained; wrapped birthday gift as the sequence callback. The LLC: exact short-haired sunglasses-wearing human executive in dark tailored suit and tie, cigar, leather chair; stepped field throne dais above a distant battery as a subordinate story cue, never a replacement character costume. An editorial blend of Jackson hall warmth and the separate mountain-gate storm. Architecture remains subordinate to the two canonical figures. No literal roof break or invented common battlefield.",
+      "camera": "Low, dramatic two-subject editorial cover: canonical His Majesty's Blood standing with the controlled gift-bearing posture from the Jackson birthday sequence; canonical The LLC seated in his leather command chair with cigar and dark suit on the ridge’s field throne dais. Two coherent atmospheric story territories share one full-bleed composition without implying a physical meeting. The title and complete cover prose occupy deliberately quiet shadow; both characters dominate, not two empty banners.",
+      "light": "warm doorway and clouded public arch",
+      "parent_location_id": null,
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P01",
+      "composition_direction": {
+        "page_id": "W10-P01",
+        "family": "character_cover",
+        "dominant_action": "Two canonical 200-point performers, each in his own story atmosphere.",
+        "reading_path": "The first 200-point performance has a social, teasing signature. → The other performance expresses controlled force, not the same victory pose.",
+        "heading_treatment": "Let the title inhabit clear upper storm-space rather than a separate masthead card; retain both names near their own score.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One cover with two distinct story territories joined by weather and tonal atmosphere; not a literal meeting or two equal portrait cards. Keep both exact named scores by their own subject.",
+        "protected_subjects": "Both actual identities, His Majesty's Blood's belt and gift, The LLC's suit/chair/cigar; no new shared location.",
+        "data_treatment": "Two exact named score callouts aligned and level; no generic 200 belt inscription.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P01",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "editorial_double_exposure",
+        "time_logic": "EDITORIAL_JUXTAPOSITION_NOT_A_MEETING"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P01",
+        "focus": "Make the two 200-point performances personally different, not two generic conquerors.",
+        "performance": "His Majesty’s Blood’s gift and The LLC’s command chair supply two distinct character signatures in one editorial cover. Do not convert the title into a literal roof breaking.",
+        "narration_job": "Retain both canonical characters and their separate Week 10 story contexts.",
+        "source_refs": [
+          "issue-previs.json#W10-P01",
+          "facts.json#/history_200"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P01",
+        "structure": "editorial_double_exposure",
+        "time_logic": "EDITORIAL_JUXTAPOSITION_NOT_A_MEETING",
+        "visual_question": "How did two very different characters break 200?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [
+              "CHAR-AUSTIN-BYARS"
+            ],
+            "camera": "Low three-quarter standing champion, gift presentation scale",
+            "action": "His Majesty’s Blood holds the wrapped gift in the established birthday context.",
+            "new_information": "The first 200-point performance has a social, teasing signature.",
+            "time_relation": "same moment",
+            "id": "W10-P01-V01"
+          },
+          {
+            "role": "counterpoint",
+            "pov_owner_ids": [
+              "CHAR-DAVID-BABB"
+            ],
+            "camera": "Medium seated executive, command-chair eyeline",
+            "action": "The LLC sits with cigar above the steps of his field throne room.",
+            "new_information": "The other performance expresses controlled force, not the same victory pose.",
+            "time_relation": "same moment",
+            "id": "W10-P01-V02"
+          }
+        ],
+        "layout_direction": "One cover with two distinct story territories joined by weather and tonal atmosphere; not a literal meeting or two equal portrait cards. Keep both exact named scores by their own subject.",
+        "dominant_view": "W10-P01-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P01/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 167,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "Jackson birthday atmosphere",
+            "Mountain assault command position"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The shared sky yields to the Opening Drive briefing; no cover event is asserted as a real meeting.",
+        "grammar_references": [
+          {
+            "week": 9,
+            "physical_page": 17,
+            "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p17.jpg",
+            "sha256": "d3b0e784bb6a6bb3f971d65b3dda060021e75c184a734969e93d2b11d75beef6",
+            "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+          }
+        ],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P02",
+      "site": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
+      "action": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions. Sealed Week 10 dispatch folio on the worn briefing table; lasso coil, sandbag tie, a paving fragment, beer delivery slip and two separate story tokens for the birthday and field throne room. Props are editorial symbols, not evidence of travel. Established Commonwealth map and canonical team-banner visual language from the published Opening Drive references. No newly invented map geography or collection of generic figures. League Chamber records and map room, existing neutral institutional space, windows with approaching weather and warm practical lamps.",
+      "camera": "Editorial briefing-table composition matching the published Weeks 7–9 Opening Drive: a perspective Commonwealth map, sealed Week 10 folio, established banners and meaningful scene props under warm lamps. OPENING DRIVE is the dominant department heading; Room Above Two Hundred is the story subheading. Full narration is integrated into two calm dark atmospheric reading zones, not replaced by captions.",
+      "light": "morning cloud advancing from eastern horizon",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P02",
+      "composition_direction": {
+        "page_id": "W10-P02",
+        "family": "institutional_briefing",
+        "dominant_action": "The briefing table gathers the six stories before the reader enters them.",
+        "reading_path": "A common world frames six different consequences without six miniature posters.",
+        "heading_treatment": "OPENING DRIVE stays prominent and recognizable; its subheading shares the institutional scene instead of adding a second title strip.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Keep the recognizable published Opening Drive as one inhabited composition. Foreground objects and distant banners guide the eye; full narration lives around—not below a detached picture of—the table.",
+        "protected_subjects": "Published table/map/banner identity, all symbolic props as symbols only; no new geography or principal cast.",
+        "data_treatment": "No scores invented on maps or props; any supplied labels are exact, typography remains level.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P02",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "inhabited_briefing_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P02",
+        "focus": "Let the opening connect the issue’s shared pressure without replaying every payoff.",
+        "performance": "Use the already specified scene props as connective clues. The table should lead into the six events rather than look like a fixture list pasted over a landscape.",
+        "narration_job": "Keep the published briefing table, map, banner and folio language and full current narration.",
+        "source_refs": [
+          "issue-previs.json#W10-P02",
+          "issue-previs.json#W10-P02"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P02",
+        "structure": "inhabited_briefing_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "How do six episodes belong to one week?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Over-table oblique with strong near-to-far depth",
+            "action": "A sealed folio, mapped routes and the already specified lasso/paving/delivery/gift/field-throne symbols gather in the briefing space.",
+            "new_information": "A common world frames six different consequences without six miniature posters.",
+            "time_relation": "same moment",
+            "id": "W10-P02-V01"
+          }
+        ],
+        "layout_direction": "Keep the recognizable published Opening Drive as one inhabited composition. Foreground objects and distant banners guide the eye; full narration lives around—not below a detached picture of—the table.",
+        "dominant_view": "W10-P02-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P02/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 610,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "records desk",
+            "map wall",
+            "published Opening Drive table and banner language"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "Move from the week’s shared pressure to the commissioner’s human consequences.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P03",
+      "site": "SET-W10-CHAMBER-MAP-THRESHOLD",
+      "action": "Eye-level three-quarter institutional interior; opened door and map wall establish the wider world. Weather-marked dispatches on the established records desk. A neutral attendant securing the door, leaving room for the commissioner’s authored address. Existing map wall and high window; divisions remain league overlays.",
+      "camera": "Eye-level three-quarter institutional interior; opened door and map wall establish the wider world.",
+      "light": "interior amber against cool basin",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P03",
+      "composition_direction": {
+        "page_id": "W10-P03",
+        "family": "institutional_briefing",
+        "dominant_action": "A commissioner address about consequences and the league's shared stakes.",
+        "reading_path": "An ordinary action makes the civic space feel inhabited while the address carries the argument.",
+        "heading_treatment": "FROM THE COMMISSIONER functions as a restrained running heading; the main statement sits beside the scene, not stacked above it.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A calm full scene with asymmetrical reading space; no invented commissioner portrait or reaction montage.",
+        "protected_subjects": "No invented commissioner portrait or attributed personal quote; retain neutral attendants only as already specified.",
+        "data_treatment": "No added rankings or numerical callouts beyond supplied copy.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P03",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "civic_breathing_page",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P03",
+        "focus": "Address the league as people who will remember the week, not as a production-system report.",
+        "performance": "Let the shared birthday, broken hoop and passing truck examples carry the voice. Keep the institutional scene restrained and the entire address readable.",
+        "narration_job": "Keep the distinction between fictional consequences and the actual standings.",
+        "source_refs": [
+          "issue-previs.json#W10-P03",
+          "issue-previs.json#W10-P03"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P03",
+        "structure": "civic_breathing_page",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "What remains after scores are posted?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Eye-level desk-to-threshold interior",
+            "action": "An attendant secures the weather-marked door beside the records desk.",
+            "new_information": "An ordinary action makes the civic space feel inhabited while the address carries the argument.",
+            "time_relation": "same moment",
+            "id": "W10-P03-V01"
+          }
+        ],
+        "layout_direction": "A calm full scene with asymmetrical reading space; no invented commissioner portrait or reaction montage.",
+        "dominant_view": "W10-P03-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P03/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 693,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Chamber map wall and threshold"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The address yields to the neutral record of all six results.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P04",
+      "site": "SET-W10-COMPACT-PUBLIC-BOARD",
+      "action": "Broad landscape across the open ceremonial field toward the existing arbiter pavilion; exact scores inhabit a temporary, scene-lit result standard. Wind-tensioned ropes and worn public approach. Readers gathered at the common result standard, not a rodeo crowd. Pavilion and arrival roads under a passing cloud band.",
+      "camera": "Broad landscape across the open ceremonial field toward the existing arbiter pavilion; exact scores inhabit a temporary, scene-lit result standard.",
+      "light": "overcast plus fixed public lamps",
+      "parent_location_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P04",
+      "composition_direction": {
+        "page_id": "W10-P04",
+        "family": "record_intelligence",
+        "dominant_action": "Six completed contests become a public, exact scoreboard.",
+        "reading_path": "All twelve teams are accounted for without making six fictional aftermath pictures.",
+        "heading_treatment": "SCOREBOARD is concise; avoid a giant second banner taking room from the six pairings.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. The single scoreboard surface is the visual information, not a backdrop for another caption. Preserve all rows, hierarchy and exact digits.",
+        "protected_subjects": "All twelve full team names and six exact pairings; pavilion remains separate from the rodeo.",
+        "data_treatment": "Six level readable rows, two decimal scores and FINAL qualifiers; no perspective-distorted or image-invented lettering.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P04",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "documentary_results_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P04",
+        "focus": "Make the six exact results the neutral reference point for the stories.",
+        "performance": "Use consistent winning/losing emphasis and generous row spacing, not an enlarged favorite matchup that hides another result.",
+        "narration_job": "Keep all six pairings, full names and final figures in their current order.",
+        "source_refs": [
+          "issue-previs.json#W10-P04",
+          "facts.json#/games"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P04",
+        "structure": "documentary_results_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "What actually happened before the issue dramatizes it?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Level result standard in deep arbiter-pavilion setting",
+            "action": "Readers consult the six exact completed results.",
+            "new_information": "All twelve teams are accounted for without making six fictional aftermath pictures.",
+            "time_relation": "same moment",
+            "id": "W10-P04-V01"
+          }
+        ],
+        "layout_direction": "The single scoreboard surface is the visual information, not a backdrop for another caption. Preserve all rows, hierarchy and exact digits.",
+        "dominant_view": "W10-P04-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P04/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 198,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "Compact Neutral Grounds public result approach"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "Cut from the public result standard to the public rodeo galleries.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P11",
+      "site": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+      "action": "High oblique along the known connector approaching the stone bridge, with road, water and weather in successive depths. Old parapet repairs and leaves caught in a drain. Ordinary travelers tightening covers and a steady lake surface rippled by gusts. Cloud layers on the eastern horizon; no unsupported view of the Jedi base or Red Leopards’ actual field.",
+      "camera": "High oblique along the known connector approaching the stone bridge, with road, water and weather in successive depths.",
+      "light": "graded sky front",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P11",
+      "composition_direction": {
+        "page_id": "W10-P11",
+        "family": "scenic_transition",
+        "dominant_action": "One weather front reaches different parts of the Commonwealth.",
+        "reading_path": "Exposure produces water effects here, not everywhere. → The shared road is the editorial anchor for the transition. → Wetland consequences lag behind exposed ground.",
+        "heading_treatment": "A light-touch title inhabits the sky rather than a boxed masthead.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Three flowing landscape windows separated by unmistakable editorial boundaries; no fake continuous map or new borders. The bridge remains the anchor setting; coastal and wetland windows are documented regional comparisons.",
+        "protected_subjects": "Established bridge and regional distinctions; no claim all six actual venues are visible or adjacent.",
+        "data_treatment": "No invented regional values, routes or odds.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P11",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "regional_weather_overture",
+        "time_logic": "EDITORIAL_REGIONAL_VIEWS_NOT_ADJACENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P11",
+        "focus": "Give the audience a breath and show that one world receives different weather.",
+        "performance": "Use coast, inland wind and delayed wetland runoff as spatial continuity. Reduce the title’s dominance so the landscape, not another poster frame, supplies the transition.",
+        "narration_job": "Keep the established regional sequence and routes.",
+        "source_refs": [
+          "issue-previs.json#W10-P11",
+          "issue-previs.json#W10-P11"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P11",
+        "structure": "regional_weather_overture",
+        "time_logic": "EDITORIAL_REGIONAL_VIEWS_NOT_ADJACENT",
+        "visual_question": "How does one front affect different parts of the Commonwealth?",
+        "shots": [
+          {
+            "role": "regional",
+            "pov_owner_ids": [],
+            "camera": "Low coastal retaining-edge detail",
+            "action": "Runoff follows existing damage at the already established coast.",
+            "new_information": "Exposure produces water effects here, not everywhere.",
+            "time_relation": "regional comparison; no single moment claimed",
+            "id": "W10-P11-V01"
+          },
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "High oblique at the current bridge connector",
+            "action": "Travelers tighten covers beneath inland gusts and early lamps.",
+            "new_information": "The shared road is the editorial anchor for the transition.",
+            "time_relation": "regional comparison",
+            "id": "W10-P11-V02"
+          },
+          {
+            "role": "regional",
+            "pov_owner_ids": [],
+            "camera": "Low wetland-channel detail without principal cast",
+            "action": "Later runoff moves through familiar southern channels.",
+            "new_information": "Wetland consequences lag behind exposed ground.",
+            "time_relation": "later runoff explicitly not simultaneous",
+            "id": "W10-P11-V03"
+          }
+        ],
+        "layout_direction": "Three flowing landscape windows separated by unmistakable editorial boundaries; no fake continuous map or new borders. The bridge remains the anchor setting; coastal and wetland windows are documented regional comparisons.",
+        "dominant_view": "W10-P11-V02",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P11/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 174,
+              "anchor": "opening perspective or clear adjacent atmosphere"
+            },
+            {
+              "start": 174,
+              "end": 321,
+              "anchor": "main action or consequence reading zone"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "Upper Basin Connector near the mountain-lake approach"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The storm’s noise yields to the temple’s waterfall, then a man-made interruption.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P18",
+      "site": "SET-W10-ARCHIVE-SCORING-HALL",
+      "action": "Deep oblique across an old scoring desk toward open record-hall arches; exact concise performance lettering follows the open illustrated air and existing ledger surface. A clerk’s scoring tools and rain-spotted folios. One long desk with six restrained leader inscriptions integrated into the artwork. Receding shelves and a courtyard lamp; keep the art continuous behind copy.",
+      "camera": "Deep oblique across an old scoring desk toward open record-hall arches; exact concise performance lettering follows the open illustrated air and existing ledger surface.",
+      "light": "cloud daylight and brass lamps",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P18",
+      "composition_direction": {
+        "page_id": "W10-P18",
+        "family": "record_intelligence",
+        "dominant_action": "Individual performances explain the final board.",
+        "reading_path": "The statistical distinctions—not invented athlete portraits—provide the new information.",
+        "heading_treatment": "SPORTS DESK is the department; a restrained main headline leaves room for exact information.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Keep one main information composition. Differentiate starter production, aggregate trios, bench observation and late response by editorial hierarchy, not fictional replays or tiny panels.",
+        "protected_subjects": "No borrowed principal character, no added bench points; preserve starter/bench distinction.",
+        "data_treatment": "Exactly six leader entries and full team/player names; all values, trio sums and Monday figures copied from current source.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P18",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "documentary_performance_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P18",
+        "focus": "Explain which managers benefited from actual player contributions without hindsight shaming.",
+        "performance": "Let the final Monday contribution give ObiWan Jacoby’s resistance factual context; distinguish strong scoring in defeat from a failed effort.",
+        "narration_job": "Keep the six category leaders, the two three-player totals and the non-scoring bench distinction.",
+        "source_refs": [
+          "issue-previs.json#W10-P18",
+          "facts.json#/derived"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P18",
+        "structure": "documentary_performance_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "Which real contributions explain the apparent spectacle?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Oblique scoring desk with level, readable records",
+            "action": "A clerk works beside the six source-bound leaders and the already supplied performance narrative.",
+            "new_information": "The statistical distinctions—not invented athlete portraits—provide the new information.",
+            "time_relation": "same moment",
+            "id": "W10-P18-V01"
+          }
+        ],
+        "layout_direction": "Keep one main information composition. Differentiate starter production, aggregate trios, bench observation and late response by editorial hierarchy, not fictional replays or tiny panels.",
+        "dominant_view": "W10-P18-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P18/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 435,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Archive scoring hall"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The scored-performance folio yields to a newly arrived availability report.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P34",
+      "site": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+      "action": "Deep late-working archive scene; a courier places fresh reports beside an older retained ledger. Dated dispatches and wet cloak edge; no invented medical imagery. Attendant reading under a fixed lamp, separate current and carry-forward documents visible as physical objects. Old shelves, window rattled by the front, another steady lamp farther in.",
+      "camera": "Deep late-working archive scene; a courier places fresh reports beside an older retained ledger.",
+      "light": "natural clerestory and warm task lights",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P34",
+      "composition_direction": {
+        "page_id": "W10-P34",
+        "family": "record_intelligence",
+        "dominant_action": "Availability separates Sunday's consequences from the next lineup.",
+        "reading_path": "New reporting has an arrival and a date; it is not a dramatized medical scene. → Current and carry-forward information remain distinct while the complete qualified copy stays readable.",
+        "heading_treatment": "Use a quiet editorial title above the report reading area; no action-style alarm masthead.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A restrained documentary detail opens into the reading master. No injured-body vignette, invented diagnosis or certainty beyond the exact supplied copy.",
+        "protected_subjects": "Reported versus confirmed statuses, old injury dates and indirect defense exposure; no invented patient imagery.",
+        "data_treatment": "Do not convert source qualifiers to diagnoses or promises; preserve all exact dates and eligibility conditions.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P34",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "current_report_and_retained_record",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P34",
+        "focus": "Make consequences useful to the affected managers without making injuries a joke.",
+        "performance": "Differentiate newly reported issues from retained absences with typography and dispatch grouping rather than a dramatic medical illustration.",
+        "narration_job": "Keep the exact dates, qualified diagnoses, indirect D/ST exposure and current roster joins.",
+        "source_refs": [
+          "issue-previs.json#W10-P34",
+          "sports-news-pass3.json"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P34",
+        "structure": "current_report_and_retained_record",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON",
+        "visual_question": "Which report changes the next decision, and which is carried forward?",
+        "shots": [
+          {
+            "role": "detail",
+            "pov_owner_ids": [],
+            "camera": "Close rain-marked dispatch beside an older ledger",
+            "action": "A courier places the fresh dated reports on the existing desk.",
+            "new_information": "New reporting has an arrival and a date; it is not a dramatized medical scene.",
+            "time_relation": "same moment",
+            "id": "W10-P34-V01"
+          },
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Wider fixed-lamp reading scene with two document groups",
+            "action": "An attendant compares current reports with retained notes.",
+            "new_information": "Current and carry-forward information remain distinct while the complete qualified copy stays readable.",
+            "time_relation": "same moment",
+            "id": "W10-P34-V02"
+          }
+        ],
+        "layout_direction": "A restrained documentary detail opens into the reading master. No injured-body vignette, invented diagnosis or certainty beyond the exact supplied copy.",
+        "dominant_view": "W10-P34-V02",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P34/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 297,
+              "anchor": "opening perspective or clear adjacent atmosphere"
+            },
+            {
+              "start": 297,
+              "end": 611,
+              "anchor": "main action or consequence reading zone"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Archive late dispatch alcove"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "Shift from restrained public reporting to the warm, personal birthday interior.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P25",
+      "site": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+      "action": "Wide view along an inhabited open loggia, equipment hooks and the road in depth; seven short needs are lettered in the continuous atmosphere. Packed traveling equipment and empty hooks with team emblems. Covered roster station under old columns; it is ordinary logistics, not a new infirmary. Cold open route with steady lamps and sheltered working people.",
+      "camera": "Wide view along an inhabited open loggia, equipment hooks and the road in depth; seven short needs are lettered in the continuous atmosphere.",
+      "light": "wet canvas and lanterns",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P25",
+      "composition_direction": {
+        "page_id": "W10-P25",
+        "family": "record_intelligence",
+        "dominant_action": "The next lineup has specific gaps rather than generic crisis.",
+        "reading_path": "Absence is a practical logistical fact, not a diagnosis. → The list explains the visual absence without implying completed acquisitions.",
+        "heading_treatment": "Reserve Watch remains a small department identity; the roster purpose sets the visual hierarchy.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A small observational detail and one main readable roster composition; do not break seven needs into seven tiny illustrated cards.",
+        "protected_subjects": "Six teams/seven positions; no fabricated completed move, diagnosis or selected future starter.",
+        "data_treatment": "Preserve complete team names and exact specialist needs; do not angle or warp the list.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P25",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "logistics_detail_and_records_master",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P25",
+        "focus": "Present practical preparation, not blame for a still-editable future lineup.",
+        "performance": "Organize each team and its need as one readable unit in the loggia. Show absence through logistics and empty hooks, not invented injured character bodies.",
+        "narration_job": "Keep the current seven uncovered specialist positions across six teams.",
+        "source_refs": [
+          "issue-previs.json#W10-P25",
+          "facts.json#/pass3/readiness"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P25",
+        "structure": "logistics_detail_and_records_master",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON",
+        "visual_question": "Where are the actual gaps before the next round?",
+        "shots": [
+          {
+            "role": "detail",
+            "pov_owner_ids": [],
+            "camera": "Close empty equipment hooks and packed kit",
+            "action": "The already specified unused hooks contrast with ready traveling equipment.",
+            "new_information": "Absence is a practical logistical fact, not a diagnosis.",
+            "time_relation": "same moment",
+            "id": "W10-P25-V01"
+          },
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Wide inhabited loggia with level needs list",
+            "action": "The seven required specialist gaps across six teams remain exactly readable.",
+            "new_information": "The list explains the visual absence without implying completed acquisitions.",
+            "time_relation": "same moment",
+            "id": "W10-P25-V02"
+          }
+        ],
+        "layout_direction": "A small observational detail and one main readable roster composition; do not break seven needs into seven tiny illustrated cards.",
+        "dominant_view": "W10-P25-V02",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P25/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 141,
+              "anchor": "opening perspective or clear adjacent atmosphere"
+            },
+            {
+              "start": 141,
+              "end": 336,
+              "anchor": "main action or consequence reading zone"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Chamber outer loggia"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "Unfilled needs lead to the distinction between completed moves and proposals.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P26",
+      "site": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+      "action": "Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf. Completed ledger and weather-dark satchel. Ordinary stamped intake process and distinct shelves. Courtyard arrival path; no invented league trading hall.",
+      "camera": "Close three-quarter intake scene with a deep courier arch behind; a clerk places one completed transaction folio into a worn shelf.",
+      "light": "late afternoon practicals",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P26",
+      "composition_direction": {
+        "page_id": "W10-P26",
+        "family": "record_intelligence",
+        "dominant_action": "Completed moves form a sequence of roster consequences.",
+        "reading_path": "The threshold between requested and recorded is an ordinary visible action. → Chronology and receiving rosters—not invented manager motives—carry the story.",
+        "heading_treatment": "One restrained transaction heading; trails lead instead of another giant board.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Use a documentary action detail, then the main archive composition. The four supplied narratives remain complete and exact, not four invented cinematic events.",
+        "protected_subjects": "Lifecycle status, correct add/drop chronology, FAAB versus money and post-deadline distinction.",
+        "data_treatment": "All 29-count, dates, bids, player/team names and callout bodies exact; no new trade recommendation.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P26",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "record_arrival_and_transaction_trails",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P26",
+        "focus": "Let the actual transaction trail reveal human choices without inventing intent.",
+        "performance": "The Mason trail, Brian Thomas Jr. move and receiver claims should remain distinct chronological stories; make the source order clear inside one intake scene.",
+        "narration_job": "Keep the completed-event window, exact FAAB, dates and owner changes.",
+        "source_refs": [
+          "issue-previs.json#W10-P26",
+          "facts.json#/completed_transactions"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P26",
+        "structure": "record_arrival_and_transaction_trails",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON",
+        "visual_question": "What reached a roster rather than remaining a request?",
+        "shots": [
+          {
+            "role": "detail",
+            "pov_owner_ids": [],
+            "camera": "Close clerk’s hand placing a completed folio",
+            "action": "A completed transaction joins the worn archive shelf.",
+            "new_information": "The threshold between requested and recorded is an ordinary visible action.",
+            "time_relation": "same moment",
+            "id": "W10-P26-V01"
+          },
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Three-quarter intake master with four level narrative trails",
+            "action": "The four existing source-backed move stories share one readable record scene.",
+            "new_information": "Chronology and receiving rosters—not invented manager motives—carry the story.",
+            "time_relation": "same moment",
+            "id": "W10-P26-V02"
+          }
+        ],
+        "layout_direction": "Use a documentary action detail, then the main archive composition. The four supplied narratives remain complete and exact, not four invented cinematic events.",
+        "dominant_view": "W10-P26-V02",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P26/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 157,
+              "anchor": "opening perspective or clear adjacent atmosphere"
+            },
+            {
+              "start": 157,
+              "end": 320,
+              "anchor": "main action or consequence reading zone"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Archive courier intake desk"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "Completed moves yield to the actual official table.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P27",
+      "site": "SET-W10-ARCHIVE-STANDINGS-HALL",
+      "action": "Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present. Worn ledger edge and clerk’s hand turning a page. Twelve compact official entries, correct order, no invented post-Week10seeds. Receding hall, high windows and warm record lamps.",
+      "camera": "Deep record-hall view with the twelve entries integrated into an existing long record surface and surrounding shadow; architecture remains spatially present.",
+      "light": "diffuse window light",
+      "parent_location_id": "LOC-LEAGUE-ARCHIVE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P27",
+      "composition_direction": {
+        "page_id": "W10-P27",
+        "family": "record_intelligence",
+        "dominant_action": "The posted table distinguishes equal records from equal seeds.",
+        "reading_path": "The six-team cluster and cutoff are visible without turning points order into seeds.",
+        "heading_treatment": "A compact standing headline leaves room for all twelve entries.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One confident information master; do not fracture the standings into panels, crop out teams or duplicate it as a lower paragraph-card illustration.",
+        "protected_subjects": "All twelve teams, official order, through-ten scope and provider tiebreak distinction.",
+        "data_treatment": "Deterministic seed/record/points columns; no generative numbers or points-only resorting.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P27",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "single_official_table_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P27",
+        "focus": "Show why equal records still feel different to different owners.",
+        "performance": "Emphasize the six-team 6–4 cluster and the cutoff without moving rows or turning points-for order into seeding. Keep the hall secondary to comparison.",
+        "narration_job": "Preserve all twelve official rows and the posted seed order.",
+        "source_refs": [
+          "issue-previs.json#W10-P27",
+          "final-league-snapshot.json#/standings"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P27",
+        "structure": "single_official_table_master",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "What does the official order say that equal records do not?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Deep hall with one level twelve-row record",
+            "action": "The viewer reads all twelve exact entries in provider order.",
+            "new_information": "The six-team cluster and cutoff are visible without turning points order into seeds.",
+            "time_relation": "same moment",
+            "id": "W10-P27-V01"
+          }
+        ],
+        "layout_direction": "One confident information master; do not fracture the standings into panels, crop out teams or duplicate it as a lower paragraph-card illustration.",
+        "dominant_view": "W10-P27-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P27/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 302,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Archive record hall"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The league table opens into three different divisional pressures.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P28",
+      "site": "SET-W10-CHAMBER-DIVISION-TERRACE",
+      "action": "Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution. Rain-dark paving and repaired banner sockets. Burgers, Pizza and Wings emblems on temporary league standards. Continuous inhabited landscape under graded cloud, not three isolated national maps.",
+      "camera": "Wide terrace view beneath three league banners; Central Basin landscape extends behind the public institution.",
+      "light": "storm gaps and road lanterns",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P28",
+      "composition_direction": {
+        "page_id": "W10-P28",
+        "family": "record_intelligence",
+        "dominant_action": "The same record produces different pressure in three divisions.",
+        "reading_path": "The divisions are competitive groupings, not new geographic nations.",
+        "heading_treatment": "Let the three group labels establish hierarchy; avoid a fourth competing grand title.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One scene with three coordinated information regions, not three separate realms or disconnected photo panels. Keep the full intro and three exact callouts.",
+        "protected_subjects": "Divisions are league groupings, not geographical borders or new food kingdoms.",
+        "data_treatment": "Exact final records and all source callouts; no clinch or elimination claim added.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P28",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "single_shared_terrace_three_pressures",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P28",
+        "focus": "Make the three division situations distinct without inventing three countries.",
+        "performance": "Let the three standards share one terrace, with each pressure paragraph adjacent to its correct emblem in a level editorial plane.",
+        "narration_job": "Retain Burgers, Pizza and Wings membership and current records.",
+        "source_refs": [
+          "issue-previs.json#W10-P28",
+          "facts.json#/divisions"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P28",
+        "structure": "single_shared_terrace_three_pressures",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "How does the same record create different divisional pressure?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Wide public terrace with three existing league standards",
+            "action": "Burgers, Pizza and Wings share the institution and landscape while their supplied summaries remain distinct.",
+            "new_information": "The divisions are competitive groupings, not new geographic nations.",
+            "time_relation": "same moment",
+            "id": "W10-P28-V01"
+          }
+        ],
+        "layout_direction": "One scene with three coordinated information regions, not three separate realms or disconnected photo panels. Keep the full intro and three exact callouts.",
+        "dominant_view": "W10-P28-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P28/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 237,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Chamber public terrace"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The reader moves from race position to a different question: scoring form.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P29",
+      "site": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+      "action": "Landscape-dominant view from a worn lakeside approach, bridge receding diagonally; twelve compact ranked names sit in coherent open sky/reflected shadow, not report boxes. Weathered approach stones and a maintained lamp bracket. Stone bridge, rippled lake and small travelers. Layered upper-valley cloud; enough clear atmosphere for the complete ranking.",
+      "camera": "Landscape-dominant view from a worn lakeside approach, bridge receding diagonally; twelve compact ranked names sit in coherent open sky/reflected shadow, not report boxes.",
+      "light": "soft overhead and stone bounce",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P29",
+      "composition_direction": {
+        "page_id": "W10-P29",
+        "family": "record_intelligence",
+        "dominant_action": "Scoring form ranks production, not playoff entitlement.",
+        "reading_path": "The different order is explicitly an editorial scoring measure.",
+        "heading_treatment": "SCORING FORM and the disclosed method are concise and clear, not another billboard photograph.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Retain a calm single image and a complete comparative table. No invented probabilities or in-world tournament finish implied by rank.",
+        "protected_subjects": "Ranked order distinct from official seeds; no weather or injury edits to the formula.",
+        "data_treatment": "All twelve index values exact; 70/30 method displayed once, level and readable.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P29",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "single_scoring_form_landscape",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P29",
+        "focus": "Explain scoring form as a different lens from the official standings.",
+        "performance": "Use the lake/bridge landscape as a calm counterpoint; make the method visible before the reader mistakes the order for playoff seeds.",
+        "narration_job": "Keep all twelve rows, final input scope and the unchanged 70/30 formula.",
+        "source_refs": [
+          "issue-previs.json#W10-P29",
+          "facts.json#/scoring_form"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P29",
+        "structure": "single_scoring_form_landscape",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "Who is producing points, independently of official seeding?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Bridge/lake landscape with level ranking in clear atmosphere",
+            "action": "The twelve exact scoring-form entries sit beside the visible unchanged 70/30 method.",
+            "new_information": "The different order is explicitly an editorial scoring measure.",
+            "time_relation": "same moment",
+            "id": "W10-P29-V01"
+          }
+        ],
+        "layout_direction": "Retain a calm single image and a complete comparative table. No invented probabilities or in-world tournament finish implied by rank.",
+        "dominant_view": "W10-P29-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P29/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 323,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "Mountain-lake overlook"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The ranking yields to routes that remain possible, not to a forecast.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P30",
+      "site": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+      "action": "Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing. Base-camp ropes, worn steps and a freshly secured Week11marker. A narrowing path with later markers receding naturally. Northern Spine elevation in cold cloud; no owner crowned on the summit.",
+      "camera": "Wide upward landscape along an existing old climb, temporary Week11–14 route markers placed as editorial event dressing.",
+      "light": "cloud break and fixed campfires",
+      "parent_location_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P30",
+      "composition_direction": {
+        "page_id": "W10-P30",
+        "family": "scenic_transition",
+        "dominant_action": "Four remaining games narrow the route to seven berths.",
+        "reading_path": "Depth provides sequential anticipation without crowning anyone at the summit.",
+        "heading_treatment": "Title integrates into open cloud space; do not turn route signs into the whole page.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One expansive route image. The supplied qualification conditions and seven-berth note remain exact; no odds, winners at the summit or fake branches on a geographic map.",
+        "protected_subjects": "Existing route, no new territory, current survival proof distinct from odds.",
+        "data_treatment": "Exact seven-berth explanation and loss-elimination qualification; no invented probability or clinched crown.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P30",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "single_depth_playoff_road",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P30",
+        "focus": "Make remaining possibility visible without pretending every route is equally likely.",
+        "performance": "Let the climb carry the time sequence. Keep explanatory text level in calm spaces and the harsh specific condition near the relevant note.",
+        "narration_job": "Keep seven berths, four games and the verified Mud Dogs next-loss condition.",
+        "source_refs": [
+          "issue-previs.json#W10-P30",
+          "playoff-witnesses-final.json"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P30",
+        "structure": "single_depth_playoff_road",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "What remains between the teams and the seven places?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Upward alpine path with four already specified week markers in depth",
+            "action": "The visible climb narrows through the remaining regular-season rounds.",
+            "new_information": "Depth provides sequential anticipation without crowning anyone at the summit.",
+            "time_relation": "same moment",
+            "id": "W10-P30-V01"
+          }
+        ],
+        "layout_direction": "One expansive route image. The supplied qualification conditions and seven-berth note remain exact; no odds, winners at the summit or fake branches on a geographic map.",
+        "dominant_view": "W10-P30-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P30/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 287,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "Alpine Wager Route, above the existing base camp"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "The nearest marker becomes the immediate six Week11 decisions.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P31",
+      "site": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+      "action": "Broad terrace facing outward routes, six concise pairings integrated with temporary traveling standards. Six route dispatch ribbons secured beneath the colonnade. Ordinary preparations for the next round. A continuous road vista and advancing weather, not six separate postcard panels.",
+      "camera": "Broad terrace facing outward routes, six concise pairings integrated with temporary traveling standards.",
+      "light": "early dusk",
+      "parent_location_id": "LOC-LEAGUE-CHAMBER",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P31",
+      "composition_direction": {
+        "page_id": "W10-P31",
+        "family": "fixture_dispatch",
+        "dominant_action": "Each of six next fixtures carries a different stake.",
+        "reading_path": "The fixture list represents imminent commitments, not anonymous decoration. → Top-seed races, bubble pressure and the verified loss-elimination condition are visibly distinct.",
+        "heading_treatment": "THE NEXT SIX is a concise department/title rendered once; the head-to-head deck remains prominent.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches. The existing dated TheFFHub win/loss comparison and its full simulation qualifiers are a readable source callout beside the relevant fixture, not a new predicted-result illustration. Keep the dispatch detail subordinate so all six fixtures and the full source note fit.",
+        "protected_subjects": "All six fixtures, correct home/away, source distinction between pressure and mathematical elimination.",
+        "data_treatment": "Level exact names, records and implication text; no shorthand or falsely guaranteed top seed; three divisional rounds note stays explicit.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P31",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "dispatch_intent_and_outward_master",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P31",
+        "focus": "Answer why every Week 11 fixture matters, not just who plays.",
+        "performance": "Attach each stake immediately to its fixture. Give head-to-head and the three divisional rounds one clear closing place; avoid a duplicated summary beneath a large list.",
+        "narration_job": "Keep all six away-at-home pairings and their checked implication fields.",
+        "source_refs": [
+          "issue-previs.json#W10-P31",
+          "production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P31",
+        "structure": "dispatch_intent_and_outward_master",
+        "time_logic": "EDITORIAL_DOCUMENTARY_COMPARISON",
+        "visual_question": "Why do these six next fixtures matter?",
+        "shots": [
+          {
+            "role": "detail",
+            "pov_owner_ids": [],
+            "camera": "Close secured route-dispatch ribbons under the existing colonnade",
+            "action": "The next round’s six assignments await departure.",
+            "new_information": "The fixture list represents imminent commitments, not anonymous decoration.",
+            "time_relation": "same moment",
+            "id": "W10-P31-V01"
+          },
+          {
+            "role": "dominant",
+            "pov_owner_ids": [],
+            "camera": "Broad outward terrace with readable fixture/stakes pairs",
+            "action": "Each complete away-at-home fixture sits immediately with its existing implication.",
+            "new_information": "Top-seed races, bubble pressure and the verified loss-elimination condition are visibly distinct.",
+            "time_relation": "same moment",
+            "id": "W10-P31-V02"
+          }
+        ],
+        "layout_direction": "Small dispatch detail plus one principal outward-looking composition. All six fixtures stay in order; head-to-head and the three divisional rounds occupy a clear closing reading point. No six miniature predicted matches. The existing dated TheFFHub win/loss comparison and its full simulation qualifiers are a readable source callout beside the relevant fixture, not a new predicted-result illustration. Keep the dispatch detail subordinate so all six fixtures and the full source note fit.",
+        "dominant_view": "W10-P31-V02",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P31/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 156,
+              "anchor": "opening perspective or clear adjacent atmosphere"
+            },
+            {
+              "start": 156,
+              "end": 301,
+              "anchor": "main action or consequence reading zone"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "League Chamber outward-facing fixture terrace"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "Move from the six fixtures to a deliberately spacious two-contender preview.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P35",
+      "site": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+      "action": "Wide oblique along the old bridge deck; D0nkey K0ng near approach, His Majesty's Blood beyond the opposite pier, empty stone between them. D0nkey K0ng’s complete four-legged centaur form and old repaired parapet. A visible stretch of unoccupied bridge deck; no first strike. His Majesty's Blood’s hooded arrival, lake beneath arches and advancing upper-valley cloud.",
+      "camera": "Wide oblique along the old bridge deck; D0nkey K0ng near approach, His Majesty's Blood beyond the opposite pier, empty stone between them.",
+      "light": "cold twilight and gate lamps",
+      "parent_location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P35",
+      "composition_direction": {
+        "page_id": "W10-P35",
+        "family": "character_cover",
+        "dominant_action": "Two 6–4 contenders approach a crossing without striking.",
+        "reading_path": "Distance and shared geometry are explicit before the perspective cuts. → The host-side expectation is a viewpoint, not a declared outcome. → The visitor sees the same unresolved encounter from the other end.",
+        "heading_treatment": "Compact preview heading in quiet upper sky; no oversized banner across the unoccupied span.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. A thin location overture and two unequal opposing viewpoints. Match parapets, piers and eyelines. No first strike, winner, shared trophy or future damage.",
+        "protected_subjects": "Integrated four-hooved gorilla-centaur, hooded champion, established bridge; no fight, result or title transfer.",
+        "data_treatment": "Historical 2025 receipt stays distinguished from future Week 11; exact current availability language retained.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P35",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "rhythm_variant": "opposing_arrivals_and_unoccupied_bridge",
+        "shot_structure": "bridge_establish_and_opposed_pov",
+        "time_logic": "SIMULTANEOUS_SAME_LOCATION"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P35",
+        "focus": "Turn the two contenders’ known history into anticipation, not an early result.",
+        "performance": "Let posture and distance carry the rivalry; the older 179.68–111.42 receipt remains explicitly historical and the present 6–4 records distinct.",
+        "narration_job": "Keep His Majesty’s Blood and the four-legged D0nkey K0ng on opposing bridge approaches with open space between them.",
+        "source_refs": [
+          "issue-previs.json#W10-P35",
+          "facts.json#/pass3/week11_gotw"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P35",
+        "structure": "bridge_establish_and_opposed_pov",
+        "time_logic": "SIMULTANEOUS_SAME_LOCATION",
+        "visual_question": "What tension exists before either contender acts?",
+        "shots": [
+          {
+            "role": "establishing",
+            "pov_owner_ids": [],
+            "camera": "Wide oblique of the established bridge with a long empty span",
+            "action": "D0nkey K0ng and His Majesty’s Blood occupy opposite approaches.",
+            "new_information": "Distance and shared geometry are explicit before the perspective cuts.",
+            "time_relation": "same moment",
+            "id": "W10-P35-V01"
+          },
+          {
+            "role": "dominant",
+            "pov_owner_ids": [
+              "CHAR-WILSON-LOOK"
+            ],
+            "camera": "Close third-person from the centaur’s near approach",
+            "action": "D0nkey K0ng looks across unoccupied stone; keep enough of his integrated anatomy visible.",
+            "new_information": "The host-side expectation is a viewpoint, not a declared outcome.",
+            "time_relation": "same moment",
+            "id": "W10-P35-V02"
+          },
+          {
+            "role": "opposed_pov",
+            "pov_owner_ids": [
+              "CHAR-AUSTIN-BYARS"
+            ],
+            "camera": "Reverse over the champion’s shoulder along the same span",
+            "action": "His Majesty’s Blood regards the centaur beyond the opposite pier.",
+            "new_information": "The visitor sees the same unresolved encounter from the other end.",
+            "time_relation": "same moment",
+            "id": "W10-P35-V03"
+          }
+        ],
+        "layout_direction": "A thin location overture and two unequal opposing viewpoints. Match parapets, piers and eyelines. No first strike, winner, shared trophy or future damage.",
+        "dominant_view": "W10-P35-V02",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P35/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 199,
+              "anchor": "opening perspective or clear adjacent atmosphere"
+            },
+            {
+              "start": 199,
+              "end": 392,
+              "anchor": "main action or consequence reading zone"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "Bridge at the Mountain Lake, opposing approaches"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "Cut from poised rivalry to the quiet camp preparing for another visitor.",
+        "grammar_references": [
+          {
+            "week": 9,
+            "physical_page": 12,
+            "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p12.jpg",
+            "sha256": "839e380eaa9d11b657fc3b554c4a5f057bf75a9187390015678c12adb2f218cd",
+            "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+          },
+          {
+            "week": 9,
+            "physical_page": 17,
+            "repo_path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p17.jpg",
+            "sha256": "d3b0e784bb6a6bb3f971d65b3dda060021e75c184a734969e93d2b11d75beef6",
+            "application": "SHOT GRAMMAR ONLY: viewpoint relation, time progression and hierarchy. Do not import this source character, costume, location, score, border or paragraph placement."
+          }
+        ],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    },
+    {
+      "page_id": "W10-P33",
+      "site": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+      "action": "Wide view outward from the existing tailgate shelter toward the Hearthroad and dark foothill cloud. Secured kegs, tightened canvas and worn tailgate-yard paving. Slob on my Dobb watches from his established shelter, calm but preparing. Only Slob is physically depicted; El Niño is foreshadowed by the incoming weather, not an unbound extra figure. Upper-valley front above the route; no claim that it has already grown because of a future win.",
+      "camera": "Wide view outward from the existing tailgate shelter toward the Hearthroad and dark foothill cloud.",
+      "light": "evening lamps replacing morning light",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "source_location_ref": null,
+      "source_page_contract": "issue-previs.json#W10-P33",
+      "composition_direction": {
+        "page_id": "W10-P33",
+        "family": "quiet_aftermath",
+        "dominant_action": "An ordinary delivery gives way to preparation for incoming weather.",
+        "reading_path": "The ordinary cargo links to his delivery, but his own home now faces the next test.",
+        "heading_treatment": "THE FINAL WORD is restrained; closing title belongs in the distant cloud or canopy shadow, not another poster band.",
+        "narration_placement": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts. One lingering full scene after the split preview. Only Slob is physically present; El Niño is implied by the supplied weather/schedule, never an extra unbound figure or guaranteed future win.",
+        "protected_subjects": "Only Slob on my Dobb physically present; El Niño implied by weather, current costume not older horned variation.",
+        "data_treatment": "No invented future winner, new storm territory or falsely completed Week 11 lineup.",
+        "personalization_note_ref": "personalization-pass-20261117.json#W10-P33",
+        "scope": "Sequential shot/layout direction within the approved existing fictional event. No new publication copy, private anecdote, statistic, cast or permanent geography.",
+        "shot_structure": "single_quiet_return_of_weather",
+        "time_logic": "ONE_CONTINUOUS_MOMENT"
+      },
+      "personalization_direction": {
+        "page_id": "W10-P33",
+        "focus": "End on the delivery winner preparing to become next week’s host.",
+        "performance": "Use calm preparation as the contrast to the noisy issue. The weather previews El Niño; the final paragraph should land in the shelter’s light, not another detached black box.",
+        "narration_job": "Keep Slob on my Dobb at the known foothill shelter with secured kegs and incoming weather.",
+        "source_refs": [
+          "issue-previs.json#W10-P33",
+          "issue-previs.json#W10-P33"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      },
+      "visual_storytelling": {
+        "page_id": "W10-P33",
+        "structure": "single_quiet_return_of_weather",
+        "time_logic": "ONE_CONTINUOUS_MOMENT",
+        "visual_question": "How does the same front change a confident winner’s next concern?",
+        "shots": [
+          {
+            "role": "dominant",
+            "pov_owner_ids": [
+              "CHAR-JORDAN-HOLLINGSHEAD"
+            ],
+            "camera": "Wide from under the established camp canopy toward Hearthroad and cloud",
+            "action": "Slob on my Dobb stands with secured kegs and lamplight while the existing front approaches.",
+            "new_information": "The ordinary cargo links to his delivery, but his own home now faces the next test.",
+            "time_relation": "same moment",
+            "id": "W10-P33-V01"
+          }
+        ],
+        "layout_direction": "One lingering full scene after the split preview. Only Slob is physically present; El Niño is implied by the supplied weather/schedule, never an extra unbound figure or guaranteed future win.",
+        "dominant_view": "W10-P33-V01",
+        "copy_flow": {
+          "source": "issue-previs.json#W10-P33/draft_copy",
+          "body_ranges": [
+            {
+              "start": 0,
+              "end": 345,
+              "anchor": "one continuous readable atmospheric field beside the main visual information"
+            }
+          ],
+          "all_other_copy_fields": "Retain every existing heading, deck, callout, result, football-context line and table row once. Coalesce identical heading/deck only as already permitted.",
+          "flow_rule": "The body ranges are exact contiguous slices in source order, not extra captions per shot. Compose clear space at readable size; no automatic bottom box, rotated text or silent cuts.",
+          "proposed_extra_words": []
+        },
+        "continuity": {
+          "source_encounter_unchanged": true,
+          "landmarks": [
+            "Slob Foothill Camp tailgate-yard approach"
+          ],
+          "rule": "Reverse angles are intentional and physically compatible. Repeated appearance means the same character seen in separate shots, never a clone inside one continuous view. Existing prop/damage state persists."
+        },
+        "page_turn_out": "End on preparation and incoming weather; no forced cliffhanger explosion.",
+        "grammar_references": [],
+        "approval_scope": "Applied working shot direction requested by Jake; no generated-pixel or publication approval."
+      }
+    }
+  ],
+  "continuity_policy": [
+    "Every set has a practical source of light and evidence of maintenance and earlier wear.",
+    "Atlas names are proposed child sites until authority promotes them.",
+    "Match previous actual artwork before fixing basketball/soccer geometry.",
+    "Keep Niño front spatially and temporally graded, not identical weather everywhere.",
+    "One image depicts one decisive moment; narration supplements rather than captions obvious action.",
+    "No new character look or title/belt changes without approved reference.",
+    "Source finality and legibility gates remain blocking."
+  ]
+}

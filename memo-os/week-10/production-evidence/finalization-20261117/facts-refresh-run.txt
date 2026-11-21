@@ -1,0 +1,168 @@
+{
+  "final_games": 6,
+  "standings_through": 10,
+  "scoring_roster": 224,
+  "current_roster": 222,
+  "specialist_needs": [
+    {
+      "team_id": 1,
+      "team": "ObiWan Jacoby",
+      "position": "D/ST",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "position": "TE",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 7,
+      "team": "The Chili Cheesers",
+      "position": "K",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 9,
+      "team": "El Niño",
+      "position": "TE",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "position": "D/ST",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "position": "D/ST",
+      "uncovered_count": 1
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "position": "K",
+      "uncovered_count": 1
+    }
+  ],
+  "form": [
+    [
+      "T03",
+      159.999,
+      165.7863,
+      165.79
+    ],
+    [
+      "T08",
+      145.195,
+      164.2645,
+      164.26
+    ],
+    [
+      "T04",
+      144.925,
+      162.6355,
+      162.64
+    ],
+    [
+      "T09",
+      145.003,
+      158.2261,
+      158.23
+    ],
+    [
+      "T01",
+      138.451,
+      146.8747,
+      146.87
+    ],
+    [
+      "T05",
+      141.182,
+      145.8284,
+      145.83
+    ],
+    [
+      "T02",
+      140.451,
+      142.6617,
+      142.66
+    ],
+    [
+      "T12",
+      145.215,
+      139.9515,
+      139.95
+    ],
+    [
+      "T11",
+      135.662,
+      138.8294,
+      138.83
+    ],
+    [
+      "T07",
+      138.479,
+      125.0453,
+      125.05
+    ],
+    [
+      "T10",
+      118.135,
+      116.7805,
+      116.78
+    ],
+    [
+      "T06",
+      127.946,
+      114.3962,
+      114.4
+    ]
+  ],
+  "roster_delta": {
+    "removed": [
+      {
+        "team_id": 11,
+        "team_name": "Seven Deadly Chins",
+        "player_id": 4258620,
+        "name": "Andre Szmyt",
+        "position": "K",
+        "lineup_slot_id": 17,
+        "lineup_slot": "K",
+        "eligible_slot_ids": [
+          17,
+          20,
+          21
+        ],
+        "pro_team_id": 5,
+        "pro_team": "CLE",
+        "injury_status": "ACTIVE",
+        "last_news_date": 1794886502000
+      },
+      {
+        "team_id": 12,
+        "team_name": "Dr. Duckhook",
+        "player_id": 4360238,
+        "name": "Dameon Pierce",
+        "position": "RB",
+        "lineup_slot_id": 21,
+        "lineup_slot": "IR",
+        "eligible_slot_ids": [
+          2,
+          3,
+          23,
+          7,
+          20,
+          21
+        ],
+        "pro_team_id": 21,
+        "pro_team": "PHI",
+        "injury_status": "QUESTIONABLE",
+        "last_news_date": 1794011892000
+      }
+    ],
+    "added": []
+  }
+}

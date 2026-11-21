@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_setup_man",
+  "name": "The Setup Man",
+  "domain": "infrastructure",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:36:26.009Z",
+  "finished_at": "2026-11-17T16:36:55.142Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P07\"],\n      \"severity\": \"major\",\n      \"observation\": \"The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the camera shows a wet rope and mud progression with a visible handwork hat beside D0nkey K0ng, implying a property transfer.\",\n      \"required_fix\": \"Remove the handwork hat from the camera view to match the continuity text.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 2,
+  "actual_input_sha256": "1624d26a2b6e6f47ac814116a37e94e3c414a6725e8e62621ffe8f6d7a233b84",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P07"
+        ],
+        "severity": "major",
+        "observation": "The continuity states 'Wet rope and mud progression; no property or Belt transfer', but the camera shows a wet rope and mud progression with a visible handwork hat beside D0nkey K0ng, implying a property transfer.",
+        "required_fix": "Remove the handwork hat from the camera view to match the continuity text."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

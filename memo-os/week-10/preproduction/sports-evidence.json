@@ -1,0 +1,2922 @@
+{
+  "captured_at_utc": "2026-11-16T11:42:11.062Z",
+  "league": {
+    "platform": "espn",
+    "leagueId": "1417621",
+    "seasonYear": 2026
+  },
+  "source": "Flaim provider-normalized responses",
+  "original_sha256": "ead448c37e62c1377f2001c0e8852bbe9855c9c62eeead077e72fc8e7d9911c6",
+  "extraction": "Exact field-preserving subset of normalized provider responses. Removed unneeded NFL season statistics, ownership percentages, keeper and acquisition metadata. No scores or identity values recalculated.",
+  "weeks": [
+    {
+      "matchupPeriod": 1,
+      "matchups": [
+        {
+          "matchupPeriodId": 1,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 125.36,
+            "currentPoints": 125.36
+          },
+          "away": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 120.86,
+            "currentPoints": 120.86
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 1,
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 147.32,
+            "currentPoints": 147.32
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 145.82,
+            "currentPoints": 145.82
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 1,
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 142.7,
+            "currentPoints": 142.7
+          },
+          "away": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 134.96,
+            "currentPoints": 134.96
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 1,
+          "home": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 131.26,
+            "currentPoints": 131.26
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 141.7,
+            "currentPoints": 141.7
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 1,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 198,
+            "currentPoints": 198
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 122.01,
+            "currentPoints": 122.01
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 1,
+          "home": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 144.42,
+            "currentPoints": 144.42
+          },
+          "away": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 175.56,
+            "currentPoints": 175.56
+          },
+          "winner": "AWAY"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 2,
+      "matchups": [
+        {
+          "matchupPeriodId": 2,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 130.84,
+            "currentPoints": 130.84
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 122.91,
+            "currentPoints": 122.91
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 2,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 95.87,
+            "currentPoints": 95.87
+          },
+          "away": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 165.78,
+            "currentPoints": 165.78
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 2,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 194.92,
+            "currentPoints": 194.92
+          },
+          "away": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 122.97,
+            "currentPoints": 122.97
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 2,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 100.9,
+            "currentPoints": 100.9
+          },
+          "away": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 191.9,
+            "currentPoints": 191.9
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 2,
+          "home": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 131.06,
+            "currentPoints": 131.06
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 113.52,
+            "currentPoints": 113.52
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 2,
+          "home": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 135.38,
+            "currentPoints": 135.38
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 125.88,
+            "currentPoints": 125.88
+          },
+          "winner": "HOME"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 3,
+      "matchups": [
+        {
+          "matchupPeriodId": 3,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 114.5,
+            "currentPoints": 114.5
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 136.73,
+            "currentPoints": 136.73
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 3,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 126.86,
+            "currentPoints": 126.86
+          },
+          "away": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 172.48,
+            "currentPoints": 172.48
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 3,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 132.19,
+            "currentPoints": 132.19
+          },
+          "away": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 126.16,
+            "currentPoints": 126.16
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 3,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 141.86,
+            "currentPoints": 141.86
+          },
+          "away": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 158.44,
+            "currentPoints": 158.44
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 3,
+          "home": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 125.54,
+            "currentPoints": 125.54
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 136,
+            "currentPoints": 136
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 3,
+          "home": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 114.62,
+            "currentPoints": 114.62
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 147.43,
+            "currentPoints": 147.43
+          },
+          "winner": "AWAY"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 4,
+      "matchups": [
+        {
+          "matchupPeriodId": 4,
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 139.67,
+            "currentPoints": 139.67
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 157.33,
+            "currentPoints": 157.33
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 4,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 126.98,
+            "currentPoints": 126.98
+          },
+          "away": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 149.84,
+            "currentPoints": 149.84
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 4,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 164.08,
+            "currentPoints": 164.08
+          },
+          "away": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 128.36,
+            "currentPoints": 128.36
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 4,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 190.72,
+            "currentPoints": 190.72
+          },
+          "away": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 139.96,
+            "currentPoints": 139.96
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 4,
+          "home": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 138.87,
+            "currentPoints": 138.87
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 177.32,
+            "currentPoints": 177.32
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 4,
+          "home": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 170.62,
+            "currentPoints": 170.62
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 106.2,
+            "currentPoints": 106.2
+          },
+          "winner": "HOME"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 5,
+      "matchups": [
+        {
+          "matchupPeriodId": 5,
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 184.91,
+            "currentPoints": 184.91
+          },
+          "away": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 141.44,
+            "currentPoints": 141.44
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 5,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 183.53,
+            "currentPoints": 183.53
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 156.7,
+            "currentPoints": 156.7
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 5,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 110.42,
+            "currentPoints": 110.42
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 154.42,
+            "currentPoints": 154.42
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 5,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 134.7,
+            "currentPoints": 134.7
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 170.46,
+            "currentPoints": 170.46
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 5,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 85.34,
+            "currentPoints": 85.34
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 113.45,
+            "currentPoints": 113.45
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 5,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 127.09,
+            "currentPoints": 127.09
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 193.73,
+            "currentPoints": 193.73
+          },
+          "winner": "AWAY"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 6,
+      "matchups": [
+        {
+          "matchupPeriodId": 6,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 108.08,
+            "currentPoints": 108.08
+          },
+          "away": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 118.96,
+            "currentPoints": 118.96
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 6,
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 132.4,
+            "currentPoints": 132.4
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 119.86,
+            "currentPoints": 119.86
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 6,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 143.7,
+            "currentPoints": 143.7
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 123.38,
+            "currentPoints": 123.38
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 6,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 125.24,
+            "currentPoints": 125.24
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 131.78,
+            "currentPoints": 131.78
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 6,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 136.8,
+            "currentPoints": 136.8
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 136.92,
+            "currentPoints": 136.92
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 6,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 138.06,
+            "currentPoints": 138.06
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 137.69,
+            "currentPoints": 137.69
+          },
+          "winner": "HOME"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 7,
+      "matchups": [
+        {
+          "matchupPeriodId": 7,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 141.42,
+            "currentPoints": 141.42
+          },
+          "away": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 141.74,
+            "currentPoints": 141.74
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 7,
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 122.67,
+            "currentPoints": 122.67
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 133.75,
+            "currentPoints": 133.75
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 7,
+          "home": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 94.75,
+            "currentPoints": 94.75
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 116.6,
+            "currentPoints": 116.6
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 7,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 108.72,
+            "currentPoints": 108.72
+          },
+          "away": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 134.92,
+            "currentPoints": 134.92
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 7,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 148.53,
+            "currentPoints": 148.53
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 137.02,
+            "currentPoints": 137.02
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 7,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 155.92,
+            "currentPoints": 155.92
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 111.21,
+            "currentPoints": 111.21
+          },
+          "winner": "HOME"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 8,
+      "matchups": [
+        {
+          "matchupPeriodId": 8,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 100.88,
+            "currentPoints": 100.88
+          },
+          "away": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 174.06,
+            "currentPoints": 174.06
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 8,
+          "home": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 142.3,
+            "currentPoints": 142.3
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 164.38,
+            "currentPoints": 164.38
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 8,
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 92.75,
+            "currentPoints": 92.75
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 166.44,
+            "currentPoints": 166.44
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 8,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 136.53,
+            "currentPoints": 136.53
+          },
+          "away": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 123.51,
+            "currentPoints": 123.51
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 8,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 158.26,
+            "currentPoints": 158.26
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 162.62,
+            "currentPoints": 162.62
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 8,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 135.8,
+            "currentPoints": 135.8
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 138.58,
+            "currentPoints": 138.58
+          },
+          "winner": "AWAY"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 9,
+      "matchups": [
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 84.2,
+            "currentPoints": 84.2
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 125.54,
+            "currentPoints": 125.54
+          },
+          "winner": "AWAY"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 166.56,
+            "currentPoints": 166.56
+          },
+          "away": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 144.46,
+            "currentPoints": 144.46
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 118.58,
+            "currentPoints": 118.58
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 112.18,
+            "currentPoints": 112.18
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 152.84,
+            "currentPoints": 152.84
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 135.08,
+            "currentPoints": 135.08
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 158.7,
+            "currentPoints": 158.7
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 129.89,
+            "currentPoints": 129.89
+          },
+          "winner": "HOME"
+        },
+        {
+          "matchupPeriodId": 9,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 165.66,
+            "currentPoints": 165.66
+          },
+          "away": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 159.56,
+            "currentPoints": 159.56
+          },
+          "winner": "HOME"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 10,
+      "matchups": [
+        {
+          "matchupPeriodId": 10,
+          "home": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 0,
+            "currentPoints": 93.7
+          },
+          "away": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 0,
+            "currentPoints": 156.67
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 10,
+          "home": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 0,
+            "currentPoints": 136.42
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 0,
+            "currentPoints": 189.08
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 10,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 0,
+            "currentPoints": 75.78
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 0,
+            "currentPoints": 146.22
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 10,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 0,
+            "currentPoints": 113.62
+          },
+          "away": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 0,
+            "currentPoints": 179.29
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 10,
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 0,
+            "currentPoints": 127.67
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 0,
+            "currentPoints": 208.76
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 10,
+          "home": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 0,
+            "currentPoints": 130.33
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 0,
+            "currentPoints": 203.96
+          },
+          "winner": "UNDECIDED"
+        }
+      ]
+    },
+    {
+      "matchupPeriod": 11,
+      "matchups": [
+        {
+          "matchupPeriodId": 11,
+          "home": {
+            "teamId": 3,
+            "teamName": "Slob on my Dobb",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "away": {
+            "teamId": 9,
+            "teamName": "El Niño",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 11,
+          "home": {
+            "teamId": 6,
+            "teamName": "Three Dreaded Snake",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "away": {
+            "teamId": 2,
+            "teamName": "Red Leopards",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 11,
+          "home": {
+            "teamId": 10,
+            "teamName": "Mud Dogs",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "away": {
+            "teamId": 11,
+            "teamName": "Seven Deadly Chins",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 11,
+          "home": {
+            "teamId": 1,
+            "teamName": "ObiWan Jacoby",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "away": {
+            "teamId": 7,
+            "teamName": "The Chili Cheesers ",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 11,
+          "home": {
+            "teamId": 5,
+            "teamName": "D0nkey K0ng",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "away": {
+            "teamId": 8,
+            "teamName": "His Majesty's Blood",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "winner": "UNDECIDED"
+        },
+        {
+          "matchupPeriodId": 11,
+          "home": {
+            "teamId": 12,
+            "teamName": "Dr. Duckhook",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "away": {
+            "teamId": 4,
+            "teamName": "The LLC",
+            "totalPoints": 0,
+            "currentPoints": 0
+          },
+          "winner": "UNDECIDED"
+        }
+      ]
+    }
+  ],
+  "rosters": [
+    {
+      "teamId": 1,
+      "teamName": "ObiWan Jacoby",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 3043078,
+          "name": "Derrick Henry",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "BAL"
+        },
+        {
+          "playerId": 4567048,
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 4372016,
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN"
+        },
+        {
+          "playerId": 4608686,
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI"
+        },
+        {
+          "playerId": 4426515,
+          "name": "Puka Nacua",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": 12483,
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": 3116365,
+          "name": "Mark Andrews",
+          "position": "TE",
+          "lineupSlot": "FLEX",
+          "proTeam": "BAL"
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": -16014,
+          "name": "Rams D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": 4428331,
+          "name": "Rashee Rice",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 4360310,
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": 3055899,
+          "name": "Harrison Butker",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "WSH"
+        },
+        {
+          "playerId": 3116164,
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "CIN"
+        },
+        {
+          "playerId": 2991662,
+          "name": "Mack Hollins",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 4682648,
+          "name": "Malachi Fields",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 2573401,
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": 2973405,
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI"
+        },
+        {
+          "playerId": 4427728,
+          "name": "Bam Knight",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "ARI"
+        }
+      ]
+    },
+    {
+      "teamId": 2,
+      "teamName": "Red Leopards",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CIN"
+        },
+        {
+          "playerId": 4241478,
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "PHI"
+        },
+        {
+          "playerId": 4429615,
+          "name": "Zay Flowers",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BAL"
+        },
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "BAL"
+        },
+        {
+          "playerId": 3916148,
+          "name": "Tony Pollard",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "TEN"
+        },
+        {
+          "playerId": 4038815,
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT"
+        },
+        {
+          "playerId": 4688813,
+          "name": "Josh Downs",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 4385690,
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 4426385,
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "SEA"
+        },
+        {
+          "playerId": 4430737,
+          "name": "Kyren Williams",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": 5083315,
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ"
+        },
+        {
+          "playerId": 4569559,
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 4571557,
+          "name": "Spencer Shrader",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "IND"
+        },
+        {
+          "playerId": 4361411,
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT"
+        },
+        {
+          "playerId": 4695883,
+          "name": "Jalen Coker",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CAR"
+        },
+        {
+          "playerId": 4433970,
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 3930086,
+          "name": "Dawson Knox",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 3924327,
+          "name": "Drew Lock",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "SEA"
+        },
+        {
+          "playerId": -16011,
+          "name": "Colts D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "IND"
+        }
+      ]
+    },
+    {
+      "teamId": 3,
+      "teamName": "Slob on my Dobb",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 3117251,
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DAL"
+        },
+        {
+          "playerId": 3918298,
+          "name": "Josh Allen",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 4685472,
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CAR"
+        },
+        {
+          "playerId": 4432710,
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 5083076,
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "CLE"
+        },
+        {
+          "playerId": 4047365,
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": 4032473,
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "SEA"
+        },
+        {
+          "playerId": -16007,
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN"
+        },
+        {
+          "playerId": 4596448,
+          "name": "Bucky Irving",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "TB"
+        },
+        {
+          "playerId": 4597500,
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ"
+        },
+        {
+          "playerId": 4567104,
+          "name": "Will Reichard",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "MIN"
+        },
+        {
+          "playerId": 4431299,
+          "name": "Rome Odunze",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI"
+        },
+        {
+          "playerId": 4723820,
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ"
+        },
+        {
+          "playerId": -16002,
+          "name": "Bills D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 4040761,
+          "name": "Devin Singletary",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 4426502,
+          "name": "Drake London",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "ATL"
+        },
+        {
+          "playerId": 4819231,
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": 4360569,
+          "name": "Jordan Mason",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "MIN"
+        }
+      ]
+    },
+    {
+      "teamId": 4,
+      "teamName": "The LLC",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4242335,
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "IND"
+        },
+        {
+          "playerId": 4685382,
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC"
+        },
+        {
+          "playerId": 4239996,
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 4569618,
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "NYJ"
+        },
+        {
+          "playerId": 3915416,
+          "name": "DJ Moore",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 4432620,
+          "name": "Parker Washington",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": 4678008,
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "CAR"
+        },
+        {
+          "playerId": 4360761,
+          "name": "Michael Wilson",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "ARI"
+        },
+        {
+          "playerId": 3915511,
+          "name": "Joe Burrow",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "CIN"
+        },
+        {
+          "playerId": 4241985,
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN"
+        },
+        {
+          "playerId": 4723086,
+          "name": "Colston Loveland",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI"
+        },
+        {
+          "playerId": 4361050,
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 4569603,
+          "name": "Malik Washington",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "MIA"
+        },
+        {
+          "playerId": 4880281,
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 4036378,
+          "name": "Jordan Love",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": -16029,
+          "name": "Panthers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "CAR"
+        },
+        {
+          "playerId": 4427095,
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 4685702,
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CLE"
+        },
+        {
+          "playerId": 3124679,
+          "name": "Jason Sanders",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "NYJ"
+        }
+      ]
+    },
+    {
+      "teamId": 5,
+      "teamName": "D0nkey K0ng",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4430807,
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "ATL"
+        },
+        {
+          "playerId": 4361307,
+          "name": "Trey McBride",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "ARI"
+        },
+        {
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": 4427366,
+          "name": "Breece Hall",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "NYJ"
+        },
+        {
+          "playerId": 2577417,
+          "name": "Dak Prescott",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "DAL"
+        },
+        {
+          "playerId": 4047650,
+          "name": "DK Metcalf",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "PIT"
+        },
+        {
+          "playerId": 3953687,
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "DAL"
+        },
+        {
+          "playerId": 4360078,
+          "name": "Alec Pierce",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "IND"
+        },
+        {
+          "playerId": 3121023,
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI"
+        },
+        {
+          "playerId": -16034,
+          "name": "Texans D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 4685415,
+          "name": "Travis Hunter",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": -16012,
+          "name": "Chiefs D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 4430191,
+          "name": "Skyy Moore",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": 4429023,
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": 4384852,
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN"
+        },
+        {
+          "playerId": 4686422,
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": 4361409,
+          "name": "Jahan Dotson",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL"
+        },
+        {
+          "playerId": 4832800,
+          "name": "Denzel Boston",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CLE"
+        }
+      ]
+    },
+    {
+      "teamId": 6,
+      "teamName": "Three Dreaded Snake",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4870795,
+          "name": "Makai Lemon",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI"
+        },
+        {
+          "playerId": 4361579,
+          "name": "Javonte Williams",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "DAL"
+        },
+        {
+          "playerId": 4431611,
+          "name": "Caleb Williams",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI"
+        },
+        {
+          "playerId": 4036133,
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "MIN"
+        },
+        {
+          "playerId": 4360689,
+          "name": "Tyler Shough",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 4685278,
+          "name": "Luther Burden III",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI"
+        },
+        {
+          "playerId": 4569587,
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "TEN"
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "FA"
+        },
+        {
+          "playerId": -16025,
+          "name": "49ers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": 4047646,
+          "name": "A.J. Brown",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 4882093,
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": 4870653,
+          "name": "KC Concepcion",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "CLE"
+        },
+        {
+          "playerId": 4612826,
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC"
+        },
+        {
+          "playerId": 5082424,
+          "name": "Dominic Zvada",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 3128429,
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN"
+        },
+        {
+          "playerId": 4569682,
+          "name": "Audric Estime",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 2576925,
+          "name": "Darren Waller",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "CAR"
+        },
+        {
+          "playerId": 4360797,
+          "name": "Tutu Atwell",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": -16033,
+          "name": "Ravens D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "BAL"
+        }
+      ]
+    },
+    {
+      "teamId": 7,
+      "teamName": "The Chili Cheesers ",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 1
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DET"
+        },
+        {
+          "playerId": 4595348,
+          "name": "Malik Nabers",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 4696981,
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 4035538,
+          "name": "David Montgomery",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": 4248528,
+          "name": "Christian Watson",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": 4360248,
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL"
+        },
+        {
+          "playerId": 4432665,
+          "name": "Brock Bowers",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "LV"
+        },
+        {
+          "playerId": 3116165,
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TB"
+        },
+        {
+          "playerId": -16023,
+          "name": "Steelers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "PIT"
+        },
+        {
+          "playerId": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "SEA"
+        },
+        {
+          "playerId": 3046439,
+          "name": "Hunter Henry",
+          "position": "TE",
+          "lineupSlot": "FLEX",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 4429086,
+          "name": "Michael Mayer",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "LV"
+        },
+        {
+          "playerId": 4569371,
+          "name": "Isaiah Williams",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ"
+        },
+        {
+          "playerId": 4685720,
+          "name": "Bryce Young",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "CAR"
+        },
+        {
+          "playerId": 5081397,
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CLE"
+        },
+        {
+          "playerId": 4568490,
+          "name": "RJ Harvey",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "DEN"
+        },
+        {
+          "playerId": -16019,
+          "name": "Giants D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "NYG"
+        },
+        {
+          "playerId": 4241555,
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI"
+        }
+      ]
+    },
+    {
+      "teamId": 8,
+      "teamName": "His Majesty's Blood",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4430878,
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SEA"
+        },
+        {
+          "playerId": 4426388,
+          "name": "Jameson Williams",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "DET"
+        },
+        {
+          "playerId": 4241416,
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "CAR"
+        },
+        {
+          "playerId": 4871023,
+          "name": "Carnell Tate",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "TEN"
+        },
+        {
+          "playerId": 4697815,
+          "name": "Rachaad White",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "WSH"
+        },
+        {
+          "playerId": 4362619,
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": 4430539,
+          "name": "Brenton Strange",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": -16016,
+          "name": "Vikings D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "MIN"
+        },
+        {
+          "playerId": 5083754,
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DAL"
+        },
+        {
+          "playerId": 3042519,
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "MIN"
+        },
+        {
+          "playerId": 4360423,
+          "name": "Michael Penix Jr.",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL"
+        },
+        {
+          "playerId": 4702555,
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "DEN"
+        },
+        {
+          "playerId": 4570037,
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "lineupSlot": "IR",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": 5081432,
+          "name": "Antonio Williams",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH"
+        },
+        {
+          "playerId": 4686361,
+          "name": "Cam Little",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": 4683062,
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": -16008,
+          "name": "Lions D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "DET"
+        },
+        {
+          "playerId": 4361741,
+          "name": "Brock Purdy",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": 4710855,
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "LAR"
+        }
+      ]
+    },
+    {
+      "teamId": 9,
+      "teamName": "El Niño",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 1
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4379399,
+          "name": "James Cook III",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 4362238,
+          "name": "Chase Brown",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN"
+        },
+        {
+          "playerId": 4426354,
+          "name": "George Pickens",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "DAL"
+        },
+        {
+          "playerId": 4239993,
+          "name": "Tee Higgins",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "CIN"
+        },
+        {
+          "playerId": 16737,
+          "name": "Mike Evans",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": 4040715,
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI"
+        },
+        {
+          "playerId": 4572680,
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": 2976212,
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "WSH"
+        },
+        {
+          "playerId": 4429025,
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC"
+        },
+        {
+          "playerId": 4258173,
+          "name": "Nico Collins",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": 4428718,
+          "name": "Tre Tucker",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LV"
+        },
+        {
+          "playerId": 2971573,
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": 4686612,
+          "name": "Tre' Harris",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "LAC"
+        },
+        {
+          "playerId": 4832955,
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 3122840,
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "CLE"
+        },
+        {
+          "playerId": 14880,
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "MIN"
+        },
+        {
+          "playerId": 4363538,
+          "name": "Chad Ryland",
+          "position": "K",
+          "lineupSlot": "Bench",
+          "proTeam": "ARI"
+        },
+        {
+          "playerId": -16018,
+          "name": "Saints D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "NO"
+        }
+      ]
+    },
+    {
+      "teamId": 10,
+      "teamName": "Mud Dogs",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 0
+        }
+      },
+      "roster": [
+        {
+          "playerId": 3929630,
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "PHI"
+        },
+        {
+          "playerId": 4890973,
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "LV"
+        },
+        {
+          "playerId": 4430027,
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "DET"
+        },
+        {
+          "playerId": 4426348,
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH"
+        },
+        {
+          "playerId": 4035687,
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "PIT"
+        },
+        {
+          "playerId": 4371733,
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "TB"
+        },
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "position": "TE",
+          "lineupSlot": "WR/TE",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": 3916433,
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": 3046779,
+          "name": "Jared Goff",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "DET"
+        },
+        {
+          "playerId": 4429059,
+          "name": "Woody Marks",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": 4241474,
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "ATL"
+        },
+        {
+          "playerId": 4360939,
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "BAL"
+        },
+        {
+          "playerId": 3116389,
+          "name": "Samaje Perine",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "CIN"
+        },
+        {
+          "playerId": 15818,
+          "name": "Keenan Allen",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": 4249087,
+          "name": "Matt Gay",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "LV"
+        },
+        {
+          "playerId": 4567156,
+          "name": "Treylon Burks",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH"
+        },
+        {
+          "playerId": -16005,
+          "name": "Browns D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "CLE"
+        }
+      ]
+    },
+    {
+      "teamId": 11,
+      "teamName": "Seven Deadly Chins",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4262921,
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "MIN"
+        },
+        {
+          "playerId": 4870808,
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "ARI"
+        },
+        {
+          "playerId": 4259545,
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "CHI"
+        },
+        {
+          "playerId": 4569987,
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "PIT"
+        },
+        {
+          "playerId": 4567750,
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TB"
+        },
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 4431459,
+          "name": "Tyler Warren",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "IND"
+        },
+        {
+          "playerId": 4429096,
+          "name": "Blake Corum",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "LAR"
+        },
+        {
+          "playerId": -16026,
+          "name": "Seahawks D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "SEA"
+        },
+        {
+          "playerId": 4373626,
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "ARI"
+        },
+        {
+          "playerId": 4685247,
+          "name": "Braelon Allen",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NYJ"
+        },
+        {
+          "playerId": 4685261,
+          "name": "Germie Bernard",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "PIT"
+        },
+        {
+          "playerId": 4869645,
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "MIA"
+        },
+        {
+          "playerId": 4360635,
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "WSH"
+        },
+        {
+          "playerId": 4837248,
+          "name": "Fernando Mendoza",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "LV"
+        },
+        {
+          "playerId": 4366031,
+          "name": "Tank Dell",
+          "position": "WR",
+          "lineupSlot": "FLEX",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": 4258620,
+          "name": "Andre Szmyt",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "CLE"
+        },
+        {
+          "playerId": 4710714,
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": 4431268,
+          "name": "Chimere Dike",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "TEN"
+        }
+      ]
+    },
+    {
+      "teamId": 12,
+      "teamName": "Dr. Duckhook",
+      "snapshot": {
+        "type": "current"
+      },
+      "homeFacts": {
+        "playoffTeamCount": 7,
+        "tradeDeadline": 1794420000000,
+        "openStarterSlots": [],
+        "irSlots": {
+          "total": 2,
+          "used": 2
+        }
+      },
+      "roster": [
+        {
+          "playerId": 4429795,
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "DET"
+        },
+        {
+          "playerId": 4569173,
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 4701936,
+          "name": "Matthew Golden",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "GB"
+        },
+        {
+          "playerId": 4429205,
+          "name": "Jordan Addison",
+          "position": "WR",
+          "lineupSlot": "IR",
+          "proTeam": "MIN"
+        },
+        {
+          "playerId": 4373678,
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "lineupSlot": "WR/TE",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 4431452,
+          "name": "Drake Maye",
+          "position": "QB",
+          "lineupSlot": "QB",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 4711533,
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "lineupSlot": "RB",
+          "proTeam": "MIA"
+        },
+        {
+          "playerId": 4361370,
+          "name": "Chris Olave",
+          "position": "WR",
+          "lineupSlot": "WR",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 4685512,
+          "name": "Jadarian Price",
+          "position": "RB",
+          "lineupSlot": "FLEX",
+          "proTeam": "SEA"
+        },
+        {
+          "playerId": 4360238,
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "lineupSlot": "IR",
+          "proTeam": "PHI"
+        },
+        {
+          "playerId": 4696044,
+          "name": "Kaelon Black",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "SF"
+        },
+        {
+          "playerId": -16030,
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "lineupSlot": "D/ST",
+          "proTeam": "JAX"
+        },
+        {
+          "playerId": 3917232,
+          "name": "Tyler Bass",
+          "position": "K",
+          "lineupSlot": "K",
+          "proTeam": "BUF"
+        },
+        {
+          "playerId": 3929645,
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "lineupSlot": "Bench",
+          "proTeam": "NO"
+        },
+        {
+          "playerId": 4432577,
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "lineupSlot": "Bench",
+          "proTeam": "HOU"
+        },
+        {
+          "playerId": -16027,
+          "name": "Buccaneers D/ST",
+          "position": "D/ST",
+          "lineupSlot": "Bench",
+          "proTeam": "TB"
+        },
+        {
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "position": "TE",
+          "lineupSlot": "TE",
+          "proTeam": "KC"
+        },
+        {
+          "playerId": 4431431,
+          "name": "Corey Kiner",
+          "position": "RB",
+          "lineupSlot": "Bench",
+          "proTeam": "NE"
+        },
+        {
+          "playerId": 4432773,
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "lineupSlot": "Bench",
+          "proTeam": "JAX"
+        }
+      ]
+    }
+  ],
+  "schedule_sources": [
+    {
+      "url": "https://www.baltimoreravens.com/game-day/2026/reg-week10/chargers-at-ravens/",
+      "ref": "turn1view0",
+      "fact": "Los Angeles Chargers at Baltimore Ravens, Nov16 2026, 8:15 PM EST, M&T Bank Stadium."
+    },
+    {
+      "url": "https://www.baltimoreravens.com/schedule/2026/",
+      "ref": "turn1view1",
+      "fact": "Week10 is Mon11/16 8:15PM EST; opponent Chargers; M&T Bank Stadium."
+    }
+  ]
+}

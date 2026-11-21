@@ -1,0 +1,24 @@
+{
+  "kind": "production_methodology",
+  "id": "editing_and_composition",
+  "ids": [
+    "W10-P12",
+    "W10-P13",
+    "W10-P14"
+  ],
+  "q": "How should the three temple pages change angle and text placement while preserving vertical geography and noise causality?",
+  "status": "returned_specific_json",
+  "structured": {
+    "page_ids": "W10-P12,W10-P13,W10-P14",
+    "keep": "The calm wall between the levels; the child and partner remain protected/offscreen; one body with three heads, visitor below, family inside, established hole and speaker shelf; complete prose occupies a still side-wall or shaded rail area; the climax is the chosen racket, not decorative lettering; keep exact FINAL result and context visible without obscuring rubble continuity.",
+    "improve": "Consider a subtle diagonal shadow to enhance the narrative's mood without detracting from the visual geography.",
+    "boundary": "Vertical geography and noise causality must remain intact."
+  },
+  "response": "{\n  \"page_ids\": \"W10-P12,W10-P13,W10-P14\",\n  \"keep\": \"The calm wall between the levels; the child and partner remain protected/offscreen; one body with three heads, visitor below, family inside, established hole and speaker shelf; complete prose occupies a still side-wall or shaded rail area; the climax is the chosen racket, not decorative lettering; keep exact FINAL result and context visible without obscuring rubble continuity.\",\n  \"improve\": \"Consider a subtle diagonal shadow to enhance the narrative's mood without detracting from the visual geography.\",\n  \"boundary\": \"Vertical geography and noise causality must remain intact.\"\n}",
+  "model": "qwen2.5-coder:7b",
+  "input_sha256": "67c7f070ae5c8842b7a5d8c2a892fd9597e0f2f9b0eb4ef20b20b1fdd647867e",
+  "started_at": "2026-11-17T17:21:02.569Z",
+  "finished_at": "2026-11-17T17:21:11.132Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "director",
+  "id": "the_setup_man",
+  "name": "The Setup Man",
+  "domain": "infrastructure",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:09:58.274Z",
+  "finished_at": "2026-11-16T20:10:33.223Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'ROOM ABOVE TWO HUNDRED' does not match the content, which discusses the pressure reaching everyone and the two teams crossing two hundred. The content should be updated to reflect the actual story.\",\n      \"required_fix\": \"Update the headline to 'The Pressure Reaches Everyone' and adjust the body text to focus on the pressure and the two teams crossing two hundred.\"\n    },\n    {\n      \"page_ids\": [\"W10-P10\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'That Cold Again' does not match the content, which describes the broken hoop and the emotional consequence. The content should be updated to reflect the actual story.\",\n      \"required_fix\": \"Update the headline to 'The Hoop Hangs Wrong' and adjust the body text to focus on the broken hoop and the emotional consequence.\"\n    },\n    {\n      \"page_ids\": [\"W10-P18\"],\n      \"severity\": \"major\",\n      \"observation\": \"The headline 'WHY THE BOARD MOVED' does not match the content, which discusses the current contributions and the possibility of Monday changing the board. The content should be updated to reflect the actual story.\",\n      \"required_fix\": \"Update the headline to 'The Current Contributions' and adjust the body text to focus on the current contributions and the possibility of Monday changing the board.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P02"
+        ],
+        "severity": "major",
+        "observation": "The headline 'ROOM ABOVE TWO HUNDRED' does not match the content, which discusses the pressure reaching everyone and the two teams crossing two hundred. The content should be updated to reflect the actual story.",
+        "required_fix": "Update the headline to 'The Pressure Reaches Everyone' and adjust the body text to focus on the pressure and the two teams crossing two hundred."
+      },
+      {
+        "page_ids": [
+          "W10-P10"
+        ],
+        "severity": "major",
+        "observation": "The headline 'That Cold Again' does not match the content, which describes the broken hoop and the emotional consequence. The content should be updated to reflect the actual story.",
+        "required_fix": "Update the headline to 'The Hoop Hangs Wrong' and adjust the body text to focus on the broken hoop and the emotional consequence."
+      },
+      {
+        "page_ids": [
+          "W10-P18"
+        ],
+        "severity": "major",
+        "observation": "The headline 'WHY THE BOARD MOVED' does not match the content, which discusses the current contributions and the possibility of Monday changing the board. The content should be updated to reflect the actual story.",
+        "required_fix": "Update the headline to 'The Current Contributions' and adjust the body text to focus on the current contributions and the possibility of Monday changing the board."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

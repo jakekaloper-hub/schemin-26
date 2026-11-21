@@ -1,0 +1,212 @@
+{
+  "schema_version": "bullpen.week10.final_archive_delta_review.v1",
+  "review_id": "S26-W10-UMPIRE-FINAL-ARCHIVE-DELTA-20261117",
+  "reviewed_at_utc": "2026-11-17T18:17:02.083751+00:00",
+  "reviewer": {
+    "host_agent": "/root/exact_scenario_math",
+    "role": "Independent Umpire acceptance lead",
+    "actual_review": true,
+    "external_human_or_director_approval_claimed": false
+  },
+  "decision": "APPROVE_FINAL_ARCHIVE_METADATA_DELTA_FOR_NORMAL_MERGE",
+  "reviewed_parent_commit": "ce407052b910352b707647e0271897ae9355a925",
+  "reviewed_working_tree_scope": "Sixteen tracked metadata/hash-mirror files plus nine existing acceptance evidence files; final review receipt is added after this bounded readback.",
+  "reviewed_file_bindings": [
+    {
+      "path": "memo-os/week-10/playoff-context/README.md",
+      "bytes": 7521,
+      "sha256": "4d0d2854d458dbc542e45b4c43806211c86bb3eeb729daa20234271f0ed5636f"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/README.md",
+      "bytes": 5963,
+      "sha256": "2c85eeac9e781d22307f47004e94d06c8a02331dad6fda6b9243ab494e9c38fe"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/illustrated-page-briefs.json",
+      "bytes": 2796912,
+      "sha256": "6549a18b5e31baba5a9d01d15d61633ef970ad783f3043ddf07197e0a549d08c"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/illustrated-page-briefs.md",
+      "bytes": 652636,
+      "sha256": "219934e1f06af3947a0713e0c0aa4ea7b73a3f690f3930d607eaa5ff038943ba"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/issue-previs.json",
+      "bytes": 6148398,
+      "sha256": "5ba4973f155884dcd96b7f1d73147d3c48ef46b34d5bff47abfd0b05e09bae98"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/playoff-harvest-consumption.json",
+      "bytes": 5564,
+      "sha256": "5b9aceef6e463f4fa16ce1b25a1e7739c37081bf21a20dd42e834112cd23f893"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/playoff-harvest.json",
+      "bytes": 51885,
+      "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/render-inputs/W10-P28/full-page-prompt.md",
+      "bytes": 16007,
+      "sha256": "1d6fc7fc46f89113e17e7d1e87083d9520e6a27dfb8087af74cb6fde601ce076"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/render-inputs/W10-P28/request.json",
+      "bytes": 30217,
+      "sha256": "3dd44a304b7c36e0099d1dafd14b023801b5a05b6e1398ae534a1fa102a3034d"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/render-inputs/W10-P30/full-page-prompt.md",
+      "bytes": 17708,
+      "sha256": "c374e46e1290bdeffbf48485ccba69731da38a22aa85f12ad727bd4faaae22c7"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/render-inputs/W10-P30/request.json",
+      "bytes": 33758,
+      "sha256": "8534b0f12c79c02f620a38a5dd81aa5f6809fb715d9391e32b5416d679c1e32d"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/render-inputs/W10-P31/full-page-prompt.md",
+      "bytes": 18525,
+      "sha256": "c7e0a4bb6696188258f109532020404961ae41c99d30d7f3d267afa2d215ea9e"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/render-inputs/W10-P31/request.json",
+      "bytes": 35512,
+      "sha256": "e3f9fbac653fefb210fd27535b3d7a2daa2eb1d37e6ea454663ca2d6526f985f"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/render-inputs/manifest.json",
+      "bytes": 19880,
+      "sha256": "f22fb84cc1a1a4e123fb2a4be56de7da749e256cef1c94247ad93481f701c9db"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/storyboard-folio-plan-pass5.json",
+      "bytes": 455902,
+      "sha256": "71ddedb47084f86bddc70f17ed5f66fd91ac3240b180bbf1ac5e2d0f6ab78eb3"
+    },
+    {
+      "path": "memo-os/week-10/preproduction/storycards.json",
+      "bytes": 558506,
+      "sha256": "987f561deac4c942f2d56fca4561260c0fce54be45dd6e6de7278a2579bd50d0"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/README.md",
+      "bytes": 4473,
+      "sha256": "4c1ae1e400d57e08c5133959f36f9d62d41f91e443591ff99542033cc1fe1273"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/archive-binding-preservation.json",
+      "bytes": 2198,
+      "sha256": "14a24ccf0572ca6f5af040983b411f24c50c1e751b3d1bc611dbd8a7067c016d"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/final-57-tests.txt",
+      "bytes": 8792,
+      "sha256": "97c0873d58313e31a8b038475858476778c59ba2d41f2ce33b63d8242ce4ea63"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/preproduction-acceptance.json",
+      "bytes": 5927,
+      "sha256": "72d3021b11a073c7618c4841f4d48843f85e4d95c8d478e90adbcfac5f2df8ce"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/private_archive_main_readback.json",
+      "bytes": 2299,
+      "sha256": "699607d365ccf471e36e7fc4824b6bde48e0bf6e76610577839a4e53b6807629"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/private_archive_retention_approval.json",
+      "bytes": 6748,
+      "sha256": "5871c98c329dd8f7621b0205284f7b8c9da13b4802d75aefd045e92d4d6686ce"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/umpire-pr315-57tests.txt",
+      "bytes": 8792,
+      "sha256": "4a1d649bdfc69ea92153323db04a2a22d1632bc53482df0731551b3c2ef1d76d"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/umpire_pr315_preproduction_approval.json",
+      "bytes": 12779,
+      "sha256": "16769dcd32092669cf0d428c621fb4db9726519480882b91d430fc8368bcdb34"
+    },
+    {
+      "path": "memo-os/week-10/production-evidence/github-acceptance-20261117/week10_final_memo_approval.json",
+      "bytes": 8209,
+      "sha256": "a23e430c5d5788d8e36afdb13289a63a43b59ccb24e468c094933aef3c8503aa"
+    }
+  ],
+  "archive": {
+    "repository": "jakekaloper-hub/bullpen",
+    "visibility": "private",
+    "pull_request": 155,
+    "merged_commit": "f740977ed4c16a33f291f10969d004bc8ed39edc",
+    "path": "projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+    "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "utf8_bytes": 664111,
+    "git_blob_sha1": "37d0b636fec7bcb566450a2af33893344440fa07",
+    "independent_merged_main_readback": "memo-os/week-10/production-evidence/github-acceptance-20261117/private_archive_main_readback.json",
+    "readback_attribution": "Librarian /root/playoff_rules_audit; Umpire independently matched receipt hash and all public locator consumers."
+  },
+  "source_receipt_before_sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722",
+  "source_receipt_after_sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+  "independent_checks": {
+    "acceptance_public_hash_bindings": true,
+    "acceptance_review_receipt_hash_bindings": true,
+    "source_archive_fields_match_all_consumers": true,
+    "archive_main_readback_matches_locator": true,
+    "manifest_all_34_request_hashes": true,
+    "png_pause_remains": true,
+    "source_claims_rules_scenarios_unchanged": true,
+    "all_11_claimed_hash_only_mirrors_verified": true,
+    "final_57_test_output_green": true,
+    "prior_umpire_copy_exact": true
+  },
+  "preservation": {
+    "unselected_requests_byte_identical": 31,
+    "selected_requests_source_hash_only": [
+      "W10-P28",
+      "W10-P30",
+      "W10-P31"
+    ],
+    "all_34_request_payloads_equal_after_source_hash_normalization": true,
+    "all_publication_copy_unchanged": true,
+    "all_authored_shot_plans_unchanged": true,
+    "facts_and_final_snapshot_unchanged": true,
+    "accepted_claims_rules_vendor_scenarios_and_witness_index_unchanged": true,
+    "current_references_independently_exist_and_hash_match": 56,
+    "reading_order_cast_encounters_and_scene_data_unchanged": true
+  },
+  "verification": {
+    "current_full_suite_tests": 57,
+    "current_full_suite_result": "PASS",
+    "current_suite_elapsed_seconds": 7.51,
+    "current_suite_receipt": "memo-os/week-10/production-evidence/github-acceptance-20261117/final-57-tests.txt",
+    "current_suite_receipt_sha256": "97c0873d58313e31a8b038475858476778c59ba2d41f2ce33b63d8242ce4ea63",
+    "review_method": "Read completed current suite output and independently validated the changed metadata, preserved bytes, reference hashes and source/request/review bindings. No repeat of the math replay or full suite was needed.",
+    "math_replayed_again": false,
+    "test_suite_repeated_by_this_delta_review": false
+  },
+  "review_receipts_truthful": {
+    "host_agent_reviews_identified": true,
+    "private_source_retention_complete": true,
+    "public_merge_status_delegated_to_actual_PR_record": true,
+    "old_integration_only_acceptance_retained_as_history": true,
+    "no_private_library_locator_or_raw_proof_payload_added": true
+  },
+  "user_steering": {
+    "netlify": "Left aside under latest user direction. No further investigation, configuration action or status change performed in this review."
+  },
+  "approval_boundaries": {
+    "commit_reviewed_metadata_and_receipts": true,
+    "normal_expected_head_merge_of_PR315": true,
+    "admin_bypass_or_branch_control_changes": false,
+    "png_generation_authorized": false,
+    "artwork_pixel_approved": false,
+    "reader_publication_approved": false
+  },
+  "blockers": [],
+  "final_note": "The exact archived source is now discoverable through immutable private GitHub pointers. The public receipt and all selected source-hash consumers are synchronized; accepted production content is unchanged. Proceed with normal expected-head repository publication/merge and actual merge readback."
+}

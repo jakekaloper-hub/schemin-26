@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_groundskeeper",
+  "name": "The Groundskeeper",
+  "domain": "operations",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "7559d3d07211a27dae9065a72012c6ff1e3a2046c48336ed1ea92b7de0873129",
+  "started_at": "2026-11-17T16:38:49.137Z",
+  "finished_at": "2026-11-17T16:39:02.129Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P30\"],\n      \"severity\": \"minor\",\n      \"observation\": \"The phrase 'Saved constructive witnesses establish possibility, never odds or likelihood.' could be more concise and direct.\",\n      \"required_fix\": \"Replace with 'Saved constructive witnesses establish possibility. No odds or likelihood.'\"\n    }\n  ],\n  \"preflight_disposition\": \"ready_for_grayscale_proof\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 6,
+  "actual_input_sha256": "ab90f6ec6e6d3672aad901c4916b7b36577b91162af5f5f27c57abb914c0eb20",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P30"
+        ],
+        "severity": "minor",
+        "observation": "The phrase 'Saved constructive witnesses establish possibility, never odds or likelihood.' could be more concise and direct.",
+        "required_fix": "Replace with 'Saved constructive witnesses establish possibility. No odds or likelihood.'"
+      }
+    ],
+    "preflight_disposition": "ready_for_grayscale_proof",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

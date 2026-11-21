@@ -1,0 +1,237 @@
+{
+  "schema_version": "bullpen.week10_preproduction_acceptance.v1",
+  "review_id": "S26-W10-UMPIRE-PREPRODUCTION-APPROVAL-20261117",
+  "reviewed_at_utc": "2026-11-17T18:12:36.752Z",
+  "reviewer": {
+    "host_agent": "/root/exact_scenario_math",
+    "role": "Independent Umpire acceptance lead",
+    "actual_review": true,
+    "external_human_or_director_approval": false,
+    "github_review_submitted_as_human": false
+  },
+  "decision": "APPROVE_PREPRODUCTION_MERGE",
+  "scope": "Accept the current Week10 source, narrative, composition/personalization, sequential shot plans, renderer inputs, reviewed playoff integration and private source retention for normal repository merge. Actual PNG execution, artwork acceptance and reader publication remain paused.",
+  "authorization_context": "The user's renewed request to call upon Bullpen to finish and approve the work authorizes archive completion and preproduction acceptance. This review supersedes the earlier integration-only merge boundary for the present reviewed scope.",
+  "public_pr": {
+    "repository": "jakekaloper-hub/schemin-26",
+    "number": 315,
+    "url": "https://github.com/jakekaloper-hub/schemin-26/pull/315",
+    "reviewed_head": "ce407052b910352b707647e0271897ae9355a925",
+    "main_at_review": "5a6af79107a122b36299e6c34aec86c7d764b501",
+    "preproduction_tree": "50d3a5c089dd96e72bb31cd0f12edebb4c6430cd",
+    "locally_exercised_head": "8092b6b2e28a1eb7f739d3afda204f3dea5c3b3d",
+    "local_and_reviewed_preproduction_trees_identical": true,
+    "ce_change_scope": "Merged existing main PR317 analytics audit repairs through PR318; eleven code/document/test paths, zero operative Week10 preproduction changes.",
+    "reviews_observed_at_initial_read": 0,
+    "unresolved_review_threads_observed_at_initial_read": 0
+  },
+  "artifact_bindings": {
+    "canonical_facts": {
+      "path": "memo-os/week-10/preproduction/facts.json",
+      "sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84"
+    },
+    "final_snapshot": {
+      "path": "memo-os/week-10/preproduction/final-league-snapshot.json",
+      "sha256": "0d27dd9b022df3906793832d2eb213f17bc6ce9140cea0ccbb18a91080a400cf"
+    },
+    "public_harvest_receipt": {
+      "path": "memo-os/week-10/preproduction/playoff-harvest.json",
+      "sha256": "0e173d496a03400c5cc15e734764c1d37f404e9380dd2cbe5088b622b845d722"
+    },
+    "accepted_playoff_copy": {
+      "path": "memo-os/week-10/preproduction/playoff-harvest-copy.json",
+      "sha256": "f5926c4d8eea61b1b296e7422251860d9b7370115343037d136dcddd074b3585"
+    },
+    "current_consumption_receipt": {
+      "path": "memo-os/week-10/preproduction/playoff-harvest-consumption.json",
+      "sha256": "921e85b93b2d428019164f585d3d7efba00c724740fb952927a399373c298c1e"
+    },
+    "visual_storytelling": {
+      "path": "memo-os/week-10/preproduction/visual-storytelling-pass-20261117.json",
+      "sha256": "cef15ce88dbb4a5180cc0e63c35297856d1e2d792527e37a5f85d52a732b69ec"
+    },
+    "request_manifest": {
+      "path": "memo-os/week-10/preproduction/render-inputs/manifest.json",
+      "sha256": "f1288005b3917581057985a4ecda731d96d64cd6ae998ce9f58ea32ac48769f4"
+    },
+    "current_reconciler": {
+      "path": "memo-os/week-10/preproduction/reconcile_render_inputs.py",
+      "sha256": "050e5e0be981fa5e8cf66df649b9a06c65b6eba8d8e023a4b05af12c56fe6377"
+    }
+  },
+  "source_math_acceptance": {
+    "prior_independent_review": "memo-os/week-10/production-evidence/playoff-harvest-20261117/umpire-final-review.json",
+    "protected_source_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "previously_replayed_entries": 61,
+    "binary_entries": 60,
+    "official_tie_entries": 1,
+    "qualification_mismatches": 0,
+    "vendor_captures_checked": 20,
+    "team_povs_checked": 12,
+    "replay_repeated": false,
+    "reason": "Full protected source, finalized facts and accepted selected copy remain byte-identical; no new mathematical evidence or forecast is being introduced.",
+    "claim_scope": "Visible record scenarios exclude future ties; any Mud loss elimination is distinguished from the binary win-all-four condition. Monte Carlo zeroes/hundreds are not mathematical proof."
+  },
+  "full_preproduction_acceptance": {
+    "status": "PASS",
+    "included_folios": 34,
+    "stored_copy_cast_and_encounter_contracts_preserved": 35,
+    "sheet_page_counts": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      4
+    ],
+    "optional_W10_P32_omitted": true,
+    "exact_publication_copy_preserved_from_6ece": true,
+    "final_facts_and_snapshot_preserved": true,
+    "current_scenes_reviewed_as_updated_not_falsely_claimed_unchanged": 34,
+    "shot_beats": 66,
+    "multiview_folios": 22,
+    "single_view_folios": 12,
+    "complete_body_ranges_cover_each_original_body_once_in_order": true,
+    "copy_brief_folio_storycard_director_landscape_request_mirrors_verified": true,
+    "canonical_character_and_geography_authority_preserved": true,
+    "character_world_packet_delta": "Twelve recovery checked_at timestamps only; no identity or canon changes.",
+    "reference_review": {
+      "distinct_current_images": 56,
+      "actual_files_exist": true,
+      "sha256_verified": true,
+      "decode_and_dimensions_verified": true,
+      "removed_existing_references": 0,
+      "existing_reference_byte_changes": 0,
+      "added_grammar_references_explicitly_limited": true,
+      "existing_location_reference_roles_and_applications_retained": true
+    },
+    "renderer_and_reapply_hook_reviewed": true,
+    "all_current_manifest_request_hashes_and_consumption_bindings_verified": true,
+    "new_actual_production_art_created": false,
+    "external_human_art_approval_claimed": false
+  },
+  "regression_evidence": {
+    "independent_current_full_suite": {
+      "tests": 57,
+      "result": "PASS",
+      "elapsed_seconds": 5.653,
+      "command": "python3 -B -m unittest -v test_final_results test_render_contracts test_sheet_assembly test_playoff_harvest test_composition_personalization test_visual_storytelling",
+      "working_directory": "memo-os/week-10/preproduction",
+      "receipt_filename": "umpire-pr315-57tests.txt"
+    },
+    "public_current_head_ci": {
+      "head": "ce407052b910352b707647e0271897ae9355a925",
+      "successful_check_runs": 9,
+      "failed_netlify_check_runs": 3,
+      "source_url": "https://api.github.com/repos/jakekaloper-hub/schemin-26/commits/ce407052b910352b707647e0271897ae9355a925/check-runs",
+      "required_repository_gate": "PASS",
+      "character_lock": "PASS",
+      "memo_authority": "PASS",
+      "analytics_model_and_consumers": "PASS",
+      "cross_domain_authority": "PASS",
+      "bullpen_runtime": "PASS",
+      "snapshot_contract": "PASS"
+    }
+  },
+  "editorial_review": {
+    "independent_host_agent": "/root/memo_playoff_context",
+    "reported_decision": "APPROVE_PREPRODUCTION_MERGE",
+    "reported_scope": "All34 authored shot plans, six causal sequences, source adjudication and latest merged entrypoint.",
+    "mandatory_editorial_blockers": 0,
+    "pixel_approval": false
+  },
+  "private_archive_acceptance": {
+    "decision": "APPROVE_SCOPED_PRIVATE_ARCHIVE_MERGE",
+    "repository": "jakekaloper-hub/bullpen",
+    "visibility_verified": "private",
+    "pull_request": 155,
+    "reviewed_head": "ff61dcf65ba87bedd6b28677e34ff93da260c928",
+    "source_path": "projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+    "source_utf8_bytes": 664111,
+    "source_sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "source_git_blob": "37d0b636fec7bcb566450a2af33893344440fa07",
+    "retention_scope": "Exact immutable full source plus README and retention manifest; three archive data/document files only.",
+    "independent_retention_review_filename": "private_archive_retention_approval.json",
+    "independent_retention_review_sha256": "5871c98c329dd8f7621b0205284f7b8c9da13b4802d75aefd045e92d4d6686ce",
+    "remote_integrity_readback_by": "/root/playoff_rules_audit (Librarian/Scout)",
+    "remote_hash_and_byte_count_independently_computed": true,
+    "preserves_all_12_povs_20_captures_61_proofs": true,
+    "raw_private_source_not_added_to_public_repo": true
+  },
+  "ci_dispositions": [
+    {
+      "system": "Netlify scheminnovel preview on public PR315",
+      "observed_result": "FAIL",
+      "deploy_id": "6afc981f9bd822904b8ae28a",
+      "head": "ce407052b910352b707647e0271897ae9355a925",
+      "source_url": "https://app.netlify.com/projects/scheminnovel/deploys/6afc981f9bd822904b8ae28a",
+      "exact_error": "Failed during stage 'building site': Deploy directory 'novel/book' does not exist",
+      "published_at": null,
+      "classification": "EXISTING_UNRELATED_NONREQUIRED_SITE_CONFIGURATION_FAILURE",
+      "evidence": "The same error was independently read for6ece,8092 andce. The novel app tree is outside PR315's changed scope; the missing path and same failure are recorded in open issue174.",
+      "known_issue": "https://github.com/jakekaloper-hub/schemin-26/issues/174",
+      "governance_source": "living-novel/production/week-04-05/BULLPEN_REMAINING_GATES_MASTER_EXECUTION_PLAN_2026-10-14.md",
+      "governance_disposition": "The established plan permits explicitly unrelated/nonrequired preview disposition for planning work after diagnosis; legitimate site repair belongs to a separately scoped website publication task.",
+      "branch_control_evidence": {
+        "endpoint": "https://api.github.com/repos/jakekaloper-hub/schemin-26/branches/main",
+        "protected": false,
+        "enforcement_level": "off",
+        "required_contexts": [],
+        "required_checks": [],
+        "rulesets_endpoint": "https://api.github.com/repos/jakekaloper-hub/schemin-26/rulesets",
+        "rulesets": []
+      },
+      "merge_blocker_for_this_scope": false,
+      "host_configuration_changed": false,
+      "placeholder_directory_added": false,
+      "status_changed_or_falsified": false
+    },
+    {
+      "system": "Private Bullpen PR155 verify workflow",
+      "observed_result": "FAIL_BEFORE_EXECUTABLE_STEPS",
+      "classification": "HOSTED_WORKFLOW_NONEXECUTION_ALSO_OBSERVED_AT_CURRENT_MAIN_SHA",
+      "claim_class": "Evidence-based inference; underlying billing, capacity or service cause unverified.",
+      "current_run": 44144332042,
+      "current_job": 134255289646,
+      "current_runner_id": 0,
+      "current_steps": 0,
+      "comparison_run": 40457034325,
+      "comparison_job": 122032649099,
+      "comparison_commit": "86889a59efb0e7dcdc37eef639981944dc77ed67",
+      "comparison_runner_id": 0,
+      "comparison_steps": 0,
+      "logs_for_both": "404 BlobNotFound",
+      "workflow_bytes_identical_to_main": true,
+      "changed_files_only_archive_data_and_docs": true,
+      "independent_umpire_disposition": "Accept the independently hash-verified three-file archive for normal merge. The observed hosted failure is retained as unavailable validation; it supplies neither a passing npm result nor evidence of an archive-caused code failure. No workflow/runtime repair or bypass is justified by this archive-only change.",
+      "branch_control_evidence": {
+        "protected": false,
+        "enforcement_level": "off",
+        "required_contexts": [],
+        "rulesets_readback": "403 plan limitation; no rulesets waiver inferred"
+      },
+      "npm_verify_pass_claimed": false,
+      "merge_blocker_for_this_archive_scope": false,
+      "normal_github_merge_enforcement_required": true,
+      "admin_bypass_approved": false
+    }
+  ],
+  "approval_boundaries": {
+    "preproduction_repository_merge_approved": true,
+    "private_archive_merge_approved": true,
+    "mark_draft_ready_for_normal_merge_approved": true,
+    "github_self_approval_or_external_human_impersonation_approved": false,
+    "png_execution_authorized": false,
+    "artwork_pixel_acceptance": false,
+    "reader_publication_approved": false,
+    "hosting_or_branch_protection_changes_approved": false,
+    "new_optional_founder_personalization_required_as_input_gate": false
+  },
+  "blockers": [],
+  "normal_completion_actions": [
+    "Commit the immutable private archive locator/checksum and these actual review receipts without changing approved source/copy/shot data.",
+    "Verify the metadata-only receipt/index delta and use GitHub's ordinary merge operation with the exact expected head, preserving existing enforcement.",
+    "Read back merged archive/source checksums and current public production pointers; retain the explicit PNG/publication pause."
+  ],
+  "final_note": "Preproduction inputs and retention are accepted. The two external CI failures are explicitly diagnosed and recorded, not marked successful or bypassed. No additional speculative gate is imposed."
+}

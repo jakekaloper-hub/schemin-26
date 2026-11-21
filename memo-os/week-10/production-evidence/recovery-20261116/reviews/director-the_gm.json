@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_gm",
+  "name": "The GM",
+  "domain": "product",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:12:29.104Z",
+  "finished_at": "2026-11-16T20:12:50.430Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P04\"],\n      \"severity\": \"major\",\n      \"observation\": \"The Week 10 Board page contains a list of provisional scores without any indication of ESPN finality. This could lead to confusion and incorrect reporting.\",\n      \"required_fix\": \"Add a clear statement indicating that the scores are provisional and subject to ESPN finality.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 1,
+  "actual_input_sha256": "bbeaff7bebd7dfda71ef84fa6ca994352bb8fe4dfe703e104b4ea71281255ec6",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P04"
+        ],
+        "severity": "major",
+        "observation": "The Week 10 Board page contains a list of provisional scores without any indication of ESPN finality. This could lead to confusion and incorrect reporting.",
+        "required_fix": "Add a clear statement indicating that the scores are provisional and subject to ESPN finality."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

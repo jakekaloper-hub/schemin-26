@@ -1,0 +1,94 @@
+test_actual_prompts_and_principal_mirrors_consume_shots (test_visual_storytelling.VisualStorytelling.test_actual_prompts_and_principal_mirrors_consume_shots) ... FAIL
+test_all_34_folios_have_shot_direction (test_visual_storytelling.VisualStorytelling.test_all_34_folios_have_shot_direction) ... FAIL
+test_all_remaining_consumers_match (test_visual_storytelling.VisualStorytelling.test_all_remaining_consumers_match) ... FAIL
+test_every_matchup_has_a_pov_opening_and_causal_escalation (test_visual_storytelling.VisualStorytelling.test_every_matchup_has_a_pov_opening_and_causal_escalation) ... FAIL
+test_full_body_flows_once_in_unchanged_order (test_visual_storytelling.VisualStorytelling.test_full_body_flows_once_in_unchanged_order) ... FAIL
+test_hero_rest_pages_and_canon_specific_guardrails (test_visual_storytelling.VisualStorytelling.test_hero_rest_pages_and_canon_specific_guardrails) ... FAIL
+test_no_new_copy_or_facts_cast_or_location_changes (test_visual_storytelling.VisualStorytelling.test_no_new_copy_or_facts_cast_or_location_changes) ... ok
+test_shots_are_intelligible_and_bound_to_canonical_cast (test_visual_storytelling.VisualStorytelling.test_shots_are_intelligible_and_bound_to_canonical_cast) ... FAIL
+
+======================================================================
+FAIL: test_actual_prompts_and_principal_mirrors_consume_shots (test_visual_storytelling.VisualStorytelling.test_actual_prompts_and_principal_mirrors_consume_shots)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 46, in test_actual_prompts_and_principal_mirrors_consume_shots
+    for p in self.registry()['pages']:
+             ~~~~~~~~~~~~~^^
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 12, in registry
+    p=P/'visual-storytelling-pass-20261117.json';self.assertTrue(p.is_file(),'Missing sequential visual-storytelling contract');return read(p)
+                                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Missing sequential visual-storytelling contract
+
+======================================================================
+FAIL: test_all_34_folios_have_shot_direction (test_visual_storytelling.VisualStorytelling.test_all_34_folios_have_shot_direction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 14, in test_all_34_folios_have_shot_direction
+    d=self.registry();self.assertEqual([x['page_id'] for x in d['pages']],self.order);self.assertNotIn('W10-P32',[x['page_id'] for x in d['pages']])
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 12, in registry
+    p=P/'visual-storytelling-pass-20261117.json';self.assertTrue(p.is_file(),'Missing sequential visual-storytelling contract');return read(p)
+                                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Missing sequential visual-storytelling contract
+
+======================================================================
+FAIL: test_all_remaining_consumers_match (test_visual_storytelling.VisualStorytelling.test_all_remaining_consumers_match)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 54, in test_all_remaining_consumers_match
+    self.registry();cards=read(P/'storycards.json')
+    ~~~~~~~~~~~~~^^
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 12, in registry
+    p=P/'visual-storytelling-pass-20261117.json';self.assertTrue(p.is_file(),'Missing sequential visual-storytelling contract');return read(p)
+                                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Missing sequential visual-storytelling contract
+
+======================================================================
+FAIL: test_every_matchup_has_a_pov_opening_and_causal_escalation (test_visual_storytelling.VisualStorytelling.test_every_matchup_has_a_pov_opening_and_causal_escalation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 24, in test_every_matchup_has_a_pov_opening_and_causal_escalation
+    d=self.registry();ps={p['page_id']:p for p in d['pages']}
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 12, in registry
+    p=P/'visual-storytelling-pass-20261117.json';self.assertTrue(p.is_file(),'Missing sequential visual-storytelling contract');return read(p)
+                                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Missing sequential visual-storytelling contract
+
+======================================================================
+FAIL: test_full_body_flows_once_in_unchanged_order (test_visual_storytelling.VisualStorytelling.test_full_body_flows_once_in_unchanged_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 39, in test_full_body_flows_once_in_unchanged_order
+    for p in self.registry()['pages']:
+             ~~~~~~~~~~~~~^^
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 12, in registry
+    p=P/'visual-storytelling-pass-20261117.json';self.assertTrue(p.is_file(),'Missing sequential visual-storytelling contract');return read(p)
+                                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Missing sequential visual-storytelling contract
+
+======================================================================
+FAIL: test_hero_rest_pages_and_canon_specific_guardrails (test_visual_storytelling.VisualStorytelling.test_hero_rest_pages_and_canon_specific_guardrails)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 64, in test_hero_rest_pages_and_canon_specific_guardrails
+    d=self.registry();p={x['page_id']:x for x in d['pages']}
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 12, in registry
+    p=P/'visual-storytelling-pass-20261117.json';self.assertTrue(p.is_file(),'Missing sequential visual-storytelling contract');return read(p)
+                                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Missing sequential visual-storytelling contract
+
+======================================================================
+FAIL: test_shots_are_intelligible_and_bound_to_canonical_cast (test_visual_storytelling.VisualStorytelling.test_shots_are_intelligible_and_bound_to_canonical_cast)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 17, in test_shots_are_intelligible_and_bound_to_canonical_cast
+    for p in self.registry()['pages']:
+             ~~~~~~~~~~~~~^^
+  File "/Users/jakekaloper/Developer/ai/week10-six-sheet-recovery-20261116/memo-os/week-10/preproduction/test_visual_storytelling.py", line 12, in registry
+    p=P/'visual-storytelling-pass-20261117.json';self.assertTrue(p.is_file(),'Missing sequential visual-storytelling contract');return read(p)
+                                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Missing sequential visual-storytelling contract
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.040s
+
+FAILED (failures=7)

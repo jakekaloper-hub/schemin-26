@@ -1,0 +1,32 @@
+{
+  "kind": "director",
+  "id": "the_analyst",
+  "name": "The Analyst",
+  "domain": "analytics",
+  "status": "returned",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Ollama on authorized local Mac via Bullpen runtime",
+  "evidence_sha256": "a68ef456639f06e36970942f9122661db6411eb8d2802d75b6cfde537ebb7744",
+  "started_at": "2026-11-16T20:13:52.065Z",
+  "finished_at": "2026-11-16T20:14:16.061Z",
+  "response": "{\n  \"scope\": \"pre-render written/source audit\",\n  \"findings\": [\n    {\n      \"page_ids\": [\"W10-P02\"],\n      \"severity\": \"major\",\n      \"observation\": \"The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose.\",\n      \"required_fix\": \"Change the page title to 'OPENING DRIVE' to match the visual content.\"\n    }\n  ],\n  \"preflight_disposition\": \"repair\",\n  \"limit\": \"no rendered output exists\"\n}",
+  "primary_review_sheet": 5,
+  "actual_input_sha256": "259ec3513f73bf7a1a3b8be0d3c7729132a8ff068de46ec8190ce5a6a262222b",
+  "real_person_participation": false,
+  "structured": {
+    "scope": "pre-render written/source audit",
+    "findings": [
+      {
+        "page_ids": [
+          "W10-P02"
+        ],
+        "severity": "major",
+        "observation": "The page title 'ROOM ABOVE TWO HUNDRED' does not match the visual content, which appears to be a briefing table/map/banners/sealed folio with dominant 'OPENING DRIVE' and substantial integrated prose.",
+        "required_fix": "Change the page title to 'OPENING DRIVE' to match the visual content."
+      }
+    ],
+    "preflight_disposition": "repair",
+    "limit": "no rendered output exists"
+  },
+  "response_validated": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "editing_and_composition",
+  "kind": "production_methodology",
+  "status": "returned",
+  "scope": "Three-beat rhythm and readable staging",
+  "structured": {
+    "scope": "written input review",
+    "keep": "one concrete source-backed strength",
+    "findings": [],
+    "optional_refinement": "none",
+    "limits": "text only; no pixel acceptance"
+  },
+  "response": "{\n  \"scope\": \"written input review\",\n  \"keep\": \"one concrete source-backed strength\",\n  \"findings\": [],\n  \"optional_refinement\": \"none\",\n  \"limits\": \"text only; no pixel acceptance\"\n}",
+  "model": "qwen2.5-coder:7b",
+  "provider": "Installed Bullpen runtime with authorized local Ollama",
+  "input_sha256": "e76f29ae9833958563b8c26156abf80152576d45e8c148780f820c38df695fe5",
+  "started_at": "2026-11-17T17:28:34.752Z",
+  "finished_at": "2026-11-17T17:28:40.139Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

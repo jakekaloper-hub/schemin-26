@@ -1,0 +1,4089 @@
+{
+  "commit": "3d80fc2a5944e45e1c250b1f42f0130f3f04ba20",
+  "facts_sha256": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+  "order": [
+    "W10-P01",
+    "W10-P02",
+    "W10-P03",
+    "W10-P04",
+    "W10-P05",
+    "W10-P06",
+    "W10-P07",
+    "W10-P08",
+    "W10-P09",
+    "W10-P10",
+    "W10-P11",
+    "W10-P12",
+    "W10-P13",
+    "W10-P14",
+    "W10-P15",
+    "W10-P16",
+    "W10-P17",
+    "W10-P18",
+    "W10-P34",
+    "W10-P19",
+    "W10-P20",
+    "W10-P21",
+    "W10-P22",
+    "W10-P23",
+    "W10-P24",
+    "W10-P25",
+    "W10-P26",
+    "W10-P27",
+    "W10-P28",
+    "W10-P29",
+    "W10-P30",
+    "W10-P31",
+    "W10-P35",
+    "W10-P33"
+  ],
+  "pages": {
+    "W10-P01": {
+      "copy": {
+        "headline": "THE CEILING BREAKS",
+        "deck": "Week 10 • Two scores beyond 200",
+        "body": "His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. The Commonwealth’s first two 200-point scores of this season arrive beneath a sky growing harder to ignore.",
+        "callouts": [
+          {
+            "label": "HIS MAJESTY’S BLOOD",
+            "value": "208.76 · FINAL"
+          },
+          {
+            "label": "THE LLC",
+            "value": "203.96 · FINAL"
+          }
+        ],
+        "rows": [],
+        "department_heading": "SCHEMIN ’26 · WEEK 10"
+      },
+      "cast": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "set_id": "SET-W10-DUAL-200-EDITORIAL-COVER",
+        "venue_type": "EDITORIAL_DUAL_LOCATION_COVER_NOT_LITERAL_MEETING",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Jackson birthday atmosphere",
+          "Mountain assault command position"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "location_refs": [
+          "LOC-COUNTRY-CLUB-JACKSON",
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        ],
+        "unregistered_parent_explained": true
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "display_name": "His Majesty's Blood",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+              "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+              "bytes": 409157,
+              "dimensions": [
+                344,
+                410
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+              "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+              "bytes": 328843,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+            "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+            "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+            "palette": [
+              "black iron",
+              "crimson",
+              "deep burgundy",
+              "antique gold",
+              "red eye glow"
+            ],
+            "recognizable_props": [
+              "downward-held ornate sword",
+              "large circular gold chest ornament",
+              "tattered crimson-black cloak"
+            ],
+            "negative_rules": [
+              "unhooded bearded king",
+              "vampire mascot",
+              "crown as head replacement",
+              "removing red eyes",
+              "assigning championship belt to ObiWan"
+            ]
+          },
+          "override": {
+            "artifact_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "scope": "COMMISSIONER_APPROVED_HOOD_RED_EYES_DARK_ARMOR_CRIMSON_CLOAK_VISUAL_ONLY",
+            "championship_belt_status": "BELT_KEEPER_CANON_PRESERVED__DO_NOT_INFER_BELT_TRANSFER"
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "display_name": "The LLC",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+              "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+              "bytes": 280004,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-DAVID-BABB",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+            "head_face": "Human head with short dark hair and dark sunglasses",
+            "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+            "palette": [
+              "black suit",
+              "white shirt",
+              "red tie",
+              "gold accessories"
+            ],
+            "recognizable_props": [
+              "cigar",
+              "executive leather chair",
+              "briefcase",
+              "wealth/financial desk accents"
+            ],
+            "negative_rules": [
+              "gorilla centaur",
+              "monster body",
+              "leopard head"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P02": {
+      "copy": {
+        "headline": "ROOM ABOVE TWO HUNDRED",
+        "deck": "The week the pressure reached everyone",
+        "body": "By Sunday night, the Commonwealth had learned that a number could become a weapon without anyone lifting a blade. Two teams had crossed two hundred. One sent a hamburger to a birthday party; another brought an army to a mountain gate. A centaur was chasing an outlaw through Highland mud. In the eastern ruins, a river quietly made a mockery of Red Leopards’ sandbags, while a second gust carried the same storm's reach to a court farther inland. Seven Deadly Chins found the one household that needed quiet and arrived with a jackhammer. Slob on my Dobb made a beer delivery through a swamp whose owner could no longer command the road. The front belonged to El Niño; the humiliations belonged to the men who chose them. With four regular-season games now remaining, the question was no longer simply who won. It was what each result would leave behind.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "OPENING DRIVE"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
+        "venue_type": "EDITORIAL_STAGING_IN_REGISTERED_LEAGUE_INSTITUTION",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "records desk",
+          "map wall",
+          "published Opening Drive table and banner language"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P03": {
+      "copy": {
+        "headline": "KEEP THE WHOLE LEAGUE IN VIEW",
+        "deck": "Commissioner’s note • After Week 10",
+        "body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. The numbers have settled, and six teams now share 6–4 records. The next week will ask each of us what we have left to field.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "FROM THE COMMISSIONER"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-MAP-THRESHOLD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber map wall and threshold"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P04": {
+      "copy": {
+        "headline": "THE WEEK 10 BOARD",
+        "deck": "Final Week 10 results • All six outcomes posted",
+        "body": "Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.",
+        "callouts": [],
+        "rows": [
+          {
+            "home_team": "The Chili Cheesers",
+            "home_points": "93.70",
+            "away_team": "D0nkey K0ng",
+            "away_points": "156.67",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Red Leopards",
+            "home_points": "147.82",
+            "away_team": "El Niño",
+            "away_points": "189.08",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Three Dreaded Snake",
+            "home_points": "82.78",
+            "away_team": "Seven Deadly Chins",
+            "away_points": "146.22",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Mud Dogs",
+            "home_points": "113.62",
+            "away_team": "Slob on my Dobb",
+            "away_points": "179.29",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Dr. Duckhook",
+            "home_points": "127.67",
+            "away_team": "His Majesty's Blood",
+            "away_points": "208.76",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "ObiWan Jacoby",
+            "home_points": "166.53",
+            "away_team": "The LLC",
+            "away_points": "203.96",
+            "status": "FINAL"
+          }
+        ],
+        "department_heading": "SCOREBOARD"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "set_id": "SET-W10-COMPACT-PUBLIC-BOARD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Compact Neutral Grounds public result approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P05": {
+      "copy": {
+        "headline": "Everybody Gets a View",
+        "deck": "The Chili Cheesers vs D0nkey K0ng",
+        "body": "The Chili Cheesers has always understood the value of a crowd. At last week's cookout he chose the victim, the serving and the moment everyone laughed. Now he circles the Arsenal's Highland ring with the crowd above him, searching for an exit while the four-legged centaur closes behind, lasso turning overhead. Every open gate seems to belong to D0nkey K0ng. The same storm that wet the rails has made the ground a poor place to sprint in expensive boots.",
+        "department_heading": "The Chili Cheesers vs D0nkey K0ng"
+      },
+      "cast": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "owner": "Brandon Pryor",
+          "display_name": "The Chili Cheesers",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22_LOCAL_COPY.png",
+              "sha256": "32ac64dc72aced3707fedd6fd63343b479c13194c6b965384a9b42b5dcb01021",
+              "bytes": 1321970,
+              "dimensions": [
+                528,
+                1110
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-BRANDON-PRYOR",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+              "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+              "bytes": 230390,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BRANDON-PRYOR",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+            "head_face": "Weathered male outlaw face beneath brown cowboy hat",
+            "silhouette": "Long poncho or cape, pistol hand, separate dark equine companion",
+            "palette": [
+              "rust red",
+              "brown leather",
+              "warm orange",
+              "black horse coat"
+            ],
+            "recognizable_props": [
+              "western revolver",
+              "The Dark Horse",
+              "flame-like shawl"
+            ],
+            "negative_rules": [
+              "horse fused to human",
+              "generic town sheriff supersession",
+              "loss of The Dark Horse"
+            ]
+          },
+          "override": {
+            "schema_version": "1.0",
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "owner": "Brandon Pryor",
+            "team": "Chili Cheesers",
+            "identity": "The Chili Outlaw",
+            "approval_date": "2026-10-22",
+            "approval_source": "Explicit Commissioner correction in Schemin '26 conversation",
+            "status": "COMMISSIONER_APPROVED_APPEARANCE__REFERENCE_BINARY_INGESTION_PENDING",
+            "current_preferred_presentation": true,
+            "primary_september_source_supersession": false,
+            "image_reference": {
+              "filename": "chili_cheesers_the_chili_outlaw.png",
+              "sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "canonical_target_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "binary_ingested_to_repository": false,
+              "git_blob_sha": null,
+              "renderer_mount_verified": false
+            },
+            "original_reference_image": {
+              "filename": "Screenshot 2026-10-22 at 13.24.14.png",
+              "sha256": "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10",
+              "role": "COMMISSIONER_SUPPLIED_ORIGINAL_VISUAL_CORRECTION"
+            },
+            "visual_lock": {
+              "anatomy": "Adult rugged human cowboy outlaw, not anthropomorphic; The Dark Horse is a distinct four-legged black horse companion",
+              "face": "Dark beard and moustache, medium-length dark windswept hair, black sunglasses, weathered features",
+              "hat": "Weathered black-brown Western cowboy hat with red chili pepper and brass-metal ornamentation",
+              "outfit": "Long deep crimson and rust red leather outlaw coat or cape, red neckerchief, black tactical-western shirt, red cartridges across chest, leather gloves, dark scarred trousers and rugged black boots",
+              "equipment": "Western revolver, black-leather holster, prominent CHILI OUTLAW belt buckle",
+              "color_palette": [
+                "deep crimson",
+                "burnt orange",
+                "weathered black leather",
+                "brass",
+                "warm gunmetal"
+              ],
+              "companion": "The Dark Horse: separate black horse, optionally beside or behind Brandon in group scenes",
+              "cinematography": "Low-angle heroic western framing with warm sunset backlight, dramatic smoke and dust; camera/framing may vary by scene",
+              "forbidden": [
+                "generic sheriff substitution",
+                "clean-shaven cowboy",
+                "human-horse fusion or centaur",
+                "changing the Dark Horse to another animal",
+                "swapping Brandon's face or costume with another principal character",
+                "treating the poster lettering or exact pose as mandatory in every scene"
+              ]
+            },
+            "authority": {
+              "legacy_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+              "legacy_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+              "approval_scope": "Appearance and visual continuity for future Chili Cheesers productions",
+              "generation_eligible": false,
+              "next_gate": "Ingest the exact approved PNG bytes, verify SHA-256 and Git blob, reconcile resolver precedence, prove renderer reference attachment and independent visual QA"
+            }
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "owner": "Wilson Look",
+          "display_name": "D0nkey K0ng",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+              "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+              "bytes": 336378,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-WILSON-LOOK",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+            "head_face": "Black-furred roaring gorilla",
+            "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+            "palette": [
+              "black fur",
+              "red armor cloth",
+              "antique gold",
+              "dark equine coat"
+            ],
+            "recognizable_props": [
+              "large war axe",
+              "red-and-gold cannon heraldry"
+            ],
+            "negative_rules": [
+              "bipedal-only gorilla",
+              "gorilla rider on separate horse",
+              "human torso",
+              "missing lower pair of legs"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P06": {
+      "copy": {
+        "headline": "The Ring Runs Out",
+        "deck": "The Chili Cheesers vs D0nkey K0ng",
+        "body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers’ own decision to flee have done the work.",
+        "department_heading": "The Chili Cheesers vs D0nkey K0ng"
+      },
+      "cast": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "owner": "Brandon Pryor",
+          "display_name": "The Chili Cheesers",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22_LOCAL_COPY.png",
+              "sha256": "32ac64dc72aced3707fedd6fd63343b479c13194c6b965384a9b42b5dcb01021",
+              "bytes": 1321970,
+              "dimensions": [
+                528,
+                1110
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-BRANDON-PRYOR",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+              "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+              "bytes": 230390,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BRANDON-PRYOR",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+            "head_face": "Weathered male outlaw face beneath brown cowboy hat",
+            "silhouette": "Long poncho or cape, pistol hand, separate dark equine companion",
+            "palette": [
+              "rust red",
+              "brown leather",
+              "warm orange",
+              "black horse coat"
+            ],
+            "recognizable_props": [
+              "western revolver",
+              "The Dark Horse",
+              "flame-like shawl"
+            ],
+            "negative_rules": [
+              "horse fused to human",
+              "generic town sheriff supersession",
+              "loss of The Dark Horse"
+            ]
+          },
+          "override": {
+            "schema_version": "1.0",
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "owner": "Brandon Pryor",
+            "team": "Chili Cheesers",
+            "identity": "The Chili Outlaw",
+            "approval_date": "2026-10-22",
+            "approval_source": "Explicit Commissioner correction in Schemin '26 conversation",
+            "status": "COMMISSIONER_APPROVED_APPEARANCE__REFERENCE_BINARY_INGESTION_PENDING",
+            "current_preferred_presentation": true,
+            "primary_september_source_supersession": false,
+            "image_reference": {
+              "filename": "chili_cheesers_the_chili_outlaw.png",
+              "sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "canonical_target_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "binary_ingested_to_repository": false,
+              "git_blob_sha": null,
+              "renderer_mount_verified": false
+            },
+            "original_reference_image": {
+              "filename": "Screenshot 2026-10-22 at 13.24.14.png",
+              "sha256": "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10",
+              "role": "COMMISSIONER_SUPPLIED_ORIGINAL_VISUAL_CORRECTION"
+            },
+            "visual_lock": {
+              "anatomy": "Adult rugged human cowboy outlaw, not anthropomorphic; The Dark Horse is a distinct four-legged black horse companion",
+              "face": "Dark beard and moustache, medium-length dark windswept hair, black sunglasses, weathered features",
+              "hat": "Weathered black-brown Western cowboy hat with red chili pepper and brass-metal ornamentation",
+              "outfit": "Long deep crimson and rust red leather outlaw coat or cape, red neckerchief, black tactical-western shirt, red cartridges across chest, leather gloves, dark scarred trousers and rugged black boots",
+              "equipment": "Western revolver, black-leather holster, prominent CHILI OUTLAW belt buckle",
+              "color_palette": [
+                "deep crimson",
+                "burnt orange",
+                "weathered black leather",
+                "brass",
+                "warm gunmetal"
+              ],
+              "companion": "The Dark Horse: separate black horse, optionally beside or behind Brandon in group scenes",
+              "cinematography": "Low-angle heroic western framing with warm sunset backlight, dramatic smoke and dust; camera/framing may vary by scene",
+              "forbidden": [
+                "generic sheriff substitution",
+                "clean-shaven cowboy",
+                "human-horse fusion or centaur",
+                "changing the Dark Horse to another animal",
+                "swapping Brandon's face or costume with another principal character",
+                "treating the poster lettering or exact pose as mandatory in every scene"
+              ]
+            },
+            "authority": {
+              "legacy_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+              "legacy_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+              "approval_scope": "Appearance and visual continuity for future Chili Cheesers productions",
+              "generation_eligible": false,
+              "next_gate": "Ingest the exact approved PNG bytes, verify SHA-256 and Git blob, reconcile resolver precedence, prove renderer reference attachment and independent visual QA"
+            }
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "owner": "Wilson Look",
+          "display_name": "D0nkey K0ng",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+              "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+              "bytes": 336378,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-WILSON-LOOK",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+            "head_face": "Black-furred roaring gorilla",
+            "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+            "palette": [
+              "black fur",
+              "red armor cloth",
+              "antique gold",
+              "dark equine coat"
+            ],
+            "recognizable_props": [
+              "large war axe",
+              "red-and-gold cannon heraldry"
+            ],
+            "negative_rules": [
+              "bipedal-only gorilla",
+              "gorilla rider on separate horse",
+              "human torso",
+              "missing lower pair of legs"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P07": {
+      "copy": {
+        "headline": "No Private Exit",
+        "deck": "The Chili Cheesers vs D0nkey K0ng",
+        "body": "D0nkey K0ng finishes the binding in the center ring, with all four hooves planted and the rope's path plain to see. The Chili Cheesers lies hogtied, hat just out of reach, looking back at the entrance where he had expected to be the attraction. Last week he had served humiliation to a champion. This week the Commonwealth has found a new course for the menu.",
+        "department_heading": "The Chili Cheesers vs D0nkey K0ng",
+        "result": {
+          "status": "FINAL",
+          "winner": "D0nkey K0ng",
+          "winner_points": "156.67",
+          "loser": "The Chili Cheesers",
+          "loser_points": "93.70",
+          "winner_record": "6–4",
+          "loser_record": "5–5",
+          "margin": "62.97",
+          "source": "SFINAL"
+        },
+        "football_context": "Dak Prescott 45.82; Cam Skattebo 29.00; Amon-Ra St. Brown 27.80; Bryce Young 8.20."
+      },
+      "cast": [
+        "CHAR-BRANDON-PRYOR",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "region_id": "REG-UPPER-VALLEYS",
+        "provider_home_team_id": 7,
+        "provider_away_team_id": 5,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chili to DK rodeo"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Chili public cookout win over HMB, no repeated chili-dump payoff",
+            "D0nkey four-legged arena victory over The LLC"
+          ],
+          "identity_locks": [
+            "Chili Oct22 bearded sunglasses/redcoat correction",
+            "The Dark Horse is separate from Chili",
+            "D0nkey is ONE gorilla-centaur body with FOUR legs"
+          ],
+          "no_claims": [
+            "No injured horse",
+            "No stolen mount",
+            "No new neutral settlement",
+            "No final score before provider closure"
+          ],
+          "pass3_in": [
+            "Preserve provider home/away separately",
+            "DK one body with four equine legs",
+            "Chili is tied character, not Red",
+            "No fantasy main-cast crowd teleportation",
+            "Rope catch precedes deliberate stopped binding",
+            "No title transfer inferred"
+          ],
+          "pass3_out": [
+            "DK rope in motion; hat still worn",
+            "Rope caught; Chili down; hat displaced",
+            "Wet rope and mud progression; no property or Belt transfer"
+          ]
+        },
+        "persistent_landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "owner": "Brandon Pryor",
+          "display_name": "The Chili Cheesers",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22_LOCAL_COPY.png",
+              "sha256": "32ac64dc72aced3707fedd6fd63343b479c13194c6b965384a9b42b5dcb01021",
+              "bytes": 1321970,
+              "dimensions": [
+                528,
+                1110
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-BRANDON-PRYOR",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+              "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+              "bytes": 230390,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BRANDON-PRYOR",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Cowboy outlaw human with western hat, red-orange shawl and dark horse beside him",
+            "head_face": "Weathered male outlaw face beneath brown cowboy hat",
+            "silhouette": "Long poncho or cape, pistol hand, separate dark equine companion",
+            "palette": [
+              "rust red",
+              "brown leather",
+              "warm orange",
+              "black horse coat"
+            ],
+            "recognizable_props": [
+              "western revolver",
+              "The Dark Horse",
+              "flame-like shawl"
+            ],
+            "negative_rules": [
+              "horse fused to human",
+              "generic town sheriff supersession",
+              "loss of The Dark Horse"
+            ]
+          },
+          "override": {
+            "schema_version": "1.0",
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "owner": "Brandon Pryor",
+            "team": "Chili Cheesers",
+            "identity": "The Chili Outlaw",
+            "approval_date": "2026-10-22",
+            "approval_source": "Explicit Commissioner correction in Schemin '26 conversation",
+            "status": "COMMISSIONER_APPROVED_APPEARANCE__REFERENCE_BINARY_INGESTION_PENDING",
+            "current_preferred_presentation": true,
+            "primary_september_source_supersession": false,
+            "image_reference": {
+              "filename": "chili_cheesers_the_chili_outlaw.png",
+              "sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "canonical_target_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "binary_ingested_to_repository": false,
+              "git_blob_sha": null,
+              "renderer_mount_verified": false
+            },
+            "original_reference_image": {
+              "filename": "Screenshot 2026-10-22 at 13.24.14.png",
+              "sha256": "dd961918a7707e276dcd9e9fe515fef9ae64e2ff0223f1c75a18da70d3b70e10",
+              "role": "COMMISSIONER_SUPPLIED_ORIGINAL_VISUAL_CORRECTION"
+            },
+            "visual_lock": {
+              "anatomy": "Adult rugged human cowboy outlaw, not anthropomorphic; The Dark Horse is a distinct four-legged black horse companion",
+              "face": "Dark beard and moustache, medium-length dark windswept hair, black sunglasses, weathered features",
+              "hat": "Weathered black-brown Western cowboy hat with red chili pepper and brass-metal ornamentation",
+              "outfit": "Long deep crimson and rust red leather outlaw coat or cape, red neckerchief, black tactical-western shirt, red cartridges across chest, leather gloves, dark scarred trousers and rugged black boots",
+              "equipment": "Western revolver, black-leather holster, prominent CHILI OUTLAW belt buckle",
+              "color_palette": [
+                "deep crimson",
+                "burnt orange",
+                "weathered black leather",
+                "brass",
+                "warm gunmetal"
+              ],
+              "companion": "The Dark Horse: separate black horse, optionally beside or behind Brandon in group scenes",
+              "cinematography": "Low-angle heroic western framing with warm sunset backlight, dramatic smoke and dust; camera/framing may vary by scene",
+              "forbidden": [
+                "generic sheriff substitution",
+                "clean-shaven cowboy",
+                "human-horse fusion or centaur",
+                "changing the Dark Horse to another animal",
+                "swapping Brandon's face or costume with another principal character",
+                "treating the poster lettering or exact pose as mandatory in every scene"
+              ]
+            },
+            "authority": {
+              "legacy_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+              "legacy_primary_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+              "approval_scope": "Appearance and visual continuity for future Chili Cheesers productions",
+              "generation_eligible": false,
+              "next_gate": "Ingest the exact approved PNG bytes, verify SHA-256 and Git blob, reconcile resolver precedence, prove renderer reference attachment and independent visual QA"
+            }
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "owner": "Wilson Look",
+          "display_name": "D0nkey K0ng",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+              "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+              "bytes": 336378,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-WILSON-LOOK",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+            "head_face": "Black-furred roaring gorilla",
+            "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+            "palette": [
+              "black fur",
+              "red armor cloth",
+              "antique gold",
+              "dark equine coat"
+            ],
+            "recognizable_props": [
+              "large war axe",
+              "red-and-gold cannon heraldry"
+            ],
+            "negative_rules": [
+              "bipedal-only gorilla",
+              "gorilla rider on separate horse",
+              "human torso",
+              "missing lower pair of legs"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P08": {
+      "copy": {
+        "headline": "One More Bag",
+        "deck": "Red Leopards vs El Niño",
+        "body": "The river did not arrive as a wall. It climbed a little, found a gap, and waited for Red Leopards to believe the last sandbag had solved it. The old goal leaned over a pitch still carrying last week's damage. Red Leopards shifted another bag into place. The water went around it. In 2022, he had beaten El Niño twice and carried thirteen wins into the semifinal. It was not the strength of the old season he remembered now, but how little of it had mattered on the night it ended.",
+        "department_heading": "Red Leopards vs El Niño"
+      },
+      "cast": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
+        "venue_type": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION",
+        "region_id": "REG-EASTERN-STORM-COAST",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 9 stepped grass soccer terrace",
+          "stone approach arch on near-left",
+          "small far goal now damaged, net displaced",
+          "narrow stone exit and trapped truck position from Week 9",
+          "old tire ruts; shallow overflow uses low edge"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "owner": "Kevin Zeek",
+          "display_name": "Red Leopards",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+              "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+              "bytes": 245679,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-KEVIN-ZEEK",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Red spotted anthropomorphic predatory leopard-warrior",
+            "head_face": "Leopard muzzle, bright red coat with dark spots and open snarling mouth",
+            "silhouette": "Crouched powerful feline humanoid with spotted limbs, leather/metal armor and spear",
+            "palette": [
+              "red fur",
+              "black spots",
+              "dark armor"
+            ],
+            "recognizable_props": [
+              "spear or lance",
+              "leather shoulder armor"
+            ],
+            "negative_rules": [
+              "human-faced warrior",
+              "plain golden cat without red spots",
+              "canine head"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "owner": "Manning Welty",
+          "display_name": "El Niño",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+              "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+              "bytes": 322217,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-MANNING-WELTY",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Long-haired muscular human storm / ocean elemental",
+            "head_face": "Long windblown dark hair and beard; intense expression",
+            "silhouette": "Bare upper torso, swirling electric blue water at one flank and orange fiery light at the other",
+            "palette": [
+              "electric blue",
+              "orange fire",
+              "deep storm gray",
+              "dark hair"
+            ],
+            "recognizable_props": [
+              "blue water/sea effects",
+              "lightning",
+              "orange heat light",
+              "glowing chest emblem"
+            ],
+            "negative_rules": [
+              "literal storm cloud replacing humanoid body",
+              "additional magical limbs",
+              "assuming numerical physics from graphic"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P09": {
+      "copy": {
+        "headline": "The Place That Answered Once",
+        "deck": "Red Leopards vs El Niño",
+        "body": "Later, in the Central Basin, Red Leopards reaches the old basketball court, a place associated with a different recent victory. The same expanding front has arrived by a different road. A gust twists the branches above the familiar rim. He has barely looked up when the old limb comes down across the backboard. One storm, two places, and no time to make either one safe.",
+        "department_heading": "Red Leopards vs El Niño"
+      },
+      "cast": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "region_id": "REG-CENTRAL-BASIN",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": true,
+        "source_location_ref": {
+          "type": "PUBLISHED_ARTWORK_SET",
+          "week": 7,
+          "physical_pages": [
+            8,
+            9,
+            10
+          ],
+          "name": "The Forgotten Court",
+          "region_id": "REG-CENTRAL-BASIN",
+          "permanent_atlas_id": null,
+          "exact_visual_reference_recovered": true
+        }
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "owner": "Kevin Zeek",
+          "display_name": "Red Leopards",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+              "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+              "bytes": 245679,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-KEVIN-ZEEK",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Red spotted anthropomorphic predatory leopard-warrior",
+            "head_face": "Leopard muzzle, bright red coat with dark spots and open snarling mouth",
+            "silhouette": "Crouched powerful feline humanoid with spotted limbs, leather/metal armor and spear",
+            "palette": [
+              "red fur",
+              "black spots",
+              "dark armor"
+            ],
+            "recognizable_props": [
+              "spear or lance",
+              "leather shoulder armor"
+            ],
+            "negative_rules": [
+              "human-faced warrior",
+              "plain golden cat without red spots",
+              "canine head"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "owner": "Manning Welty",
+          "display_name": "El Niño",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+              "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+              "bytes": 322217,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-MANNING-WELTY",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Long-haired muscular human storm / ocean elemental",
+            "head_face": "Long windblown dark hair and beard; intense expression",
+            "silhouette": "Bare upper torso, swirling electric blue water at one flank and orange fiery light at the other",
+            "palette": [
+              "electric blue",
+              "orange fire",
+              "deep storm gray",
+              "dark hair"
+            ],
+            "recognizable_props": [
+              "blue water/sea effects",
+              "lightning",
+              "orange heat light",
+              "glowing chest emblem"
+            ],
+            "negative_rules": [
+              "literal storm cloud replacing humanoid body",
+              "additional magical limbs",
+              "assuming numerical physics from graphic"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P10": {
+      "copy": {
+        "headline": "That Cold Again",
+        "deck": "Red Leopards vs El Niño",
+        "body": "The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs across the rain-swept court, and the 2022 semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.",
+        "department_heading": "Red Leopards vs El Niño",
+        "result": {
+          "status": "FINAL",
+          "winner": "El Niño",
+          "winner_points": "189.08",
+          "loser": "Red Leopards",
+          "loser_points": "147.82",
+          "winner_record": "6–4",
+          "loser_record": "5–5",
+          "margin": "41.26",
+          "source": "SFINAL"
+        },
+        "football_context": "Emmett Johnson 38.30; Chase Brown 29.30; James Cook III 26.50; Ja'Marr Chase 36.10."
+      },
+      "cast": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-MANNING-WELTY"
+      ],
+      "encounter": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "region_id": "REG-CENTRAL-BASIN",
+        "provider_home_team_id": 2,
+        "provider_away_team_id": 9,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Red field to Forgotten Court"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Actual Week9 terrace damage and trapped Chins truck confirmed by root PDF review"
+          ],
+          "identity_locks": [
+            "Red spotted feline, armor, claws/spear",
+            "El Niño approved humanoid elemental silhouette"
+          ],
+          "no_claims": [
+            "No restored pristine field",
+            "No unverified truck rescue",
+            "No world-wide flood",
+            "No permanent ruin collapse"
+          ],
+          "pass3_in": [
+            "Hoop stays right wall mounted before branch hit",
+            "Keep soccer goal damage and ruts",
+            "Truck recovery unresolved",
+            "Separate regions with elapsed-time/location bridge",
+            "Shallow field overflow only",
+            "Niño remains embodied",
+            "Despair not playoff elimination",
+            "2022 dialogue is newly authored fictional dialogue, not archive quote"
+          ],
+          "pass3_out": [
+            "Sandbags wet, water shallow, old damage retained",
+            "Explicit elapsed-time move to Central Basin; falling branch",
+            "Broken hoop and emotional consequence proposed; river and court remain separate"
+          ]
+        },
+        "persistent_landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": true,
+        "source_location_ref": {
+          "type": "PUBLISHED_ARTWORK_SET",
+          "week": 7,
+          "physical_pages": [
+            8,
+            9,
+            10
+          ],
+          "name": "The Forgotten Court",
+          "region_id": "REG-CENTRAL-BASIN",
+          "permanent_atlas_id": null,
+          "exact_visual_reference_recovered": true
+        }
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "owner": "Kevin Zeek",
+          "display_name": "Red Leopards",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+              "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+              "bytes": 245679,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-KEVIN-ZEEK",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Red spotted anthropomorphic predatory leopard-warrior",
+            "head_face": "Leopard muzzle, bright red coat with dark spots and open snarling mouth",
+            "silhouette": "Crouched powerful feline humanoid with spotted limbs, leather/metal armor and spear",
+            "palette": [
+              "red fur",
+              "black spots",
+              "dark armor"
+            ],
+            "recognizable_props": [
+              "spear or lance",
+              "leather shoulder armor"
+            ],
+            "negative_rules": [
+              "human-faced warrior",
+              "plain golden cat without red spots",
+              "canine head"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "owner": "Manning Welty",
+          "display_name": "El Niño",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+              "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+              "bytes": 322217,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-MANNING-WELTY",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Long-haired muscular human storm / ocean elemental",
+            "head_face": "Long windblown dark hair and beard; intense expression",
+            "silhouette": "Bare upper torso, swirling electric blue water at one flank and orange fiery light at the other",
+            "palette": [
+              "electric blue",
+              "orange fire",
+              "deep storm gray",
+              "dark hair"
+            ],
+            "recognizable_props": [
+              "blue water/sea effects",
+              "lightning",
+              "orange heat light",
+              "glowing chest emblem"
+            ],
+            "negative_rules": [
+              "literal storm cloud replacing humanoid body",
+              "additional magical limbs",
+              "assuming numerical physics from graphic"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P11": {
+      "copy": {
+        "headline": "THE ROADS BETWEEN",
+        "deck": "The same front, different ground",
+        "body": "On the exposed coast, water finds the old damage. Farther inland, gusts take the trees and banners. In the southern wetlands, runoff arrives later through familiar channels. Up here, travelers tighten their covers and the lamps come on early. The Commonwealth has not changed places. The weather has reached more of them.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "THE COMMONWEALTH"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Upper Basin Connector near the mountain-lake approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P12": {
+      "copy": {
+        "headline": "Just as the House Settles",
+        "deck": "Three Dreaded Snake vs Seven Deadly Chins",
+        "body": "There had been a time when the temple's waterfall was the loudest thing the family heard. Now a jackhammer bites the courtyard paving, sending pale chips against steps worn smooth over years. Behind the upstairs door the newborn starts crying. Three Dreaded Snake's partner calls for help. Three heads reach the balcony at once, none of them prepared for the sight of Seven Deadly Chins enjoying himself below.",
+        "department_heading": "Three Dreaded Snake vs Seven Deadly Chins"
+      },
+      "cast": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "owner": "Phillip Pitts",
+          "display_name": "Three Dreaded Snake",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+              "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+              "bytes": 331140,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-PHILLIP-PITTS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+            "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+            "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+            "palette": [
+              "bronze scales",
+              "moss green",
+              "dark leather"
+            ],
+            "recognizable_props": [
+              "blade weapons",
+              "layered leather/metal armor"
+            ],
+            "negative_rules": [
+              "single-headed snake",
+              "three separate creatures",
+              "restoring long pre-haircut dreads"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "owner": "Ben Whipple",
+          "display_name": "Seven Deadly Chins",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+              "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+              "bytes": 313601,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BEN-WHIPPLE",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+            "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+            "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+            "palette": [
+              "off-white tank",
+              "denim blue",
+              "truck red",
+              "steel"
+            ],
+            "recognizable_props": [
+              "trucker cap",
+              "metal striking tool",
+              "big-rig association"
+            ],
+            "negative_rules": [
+              "slim athletic substitute",
+              "animal-headed characterization",
+              "executive suit"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P13": {
+      "copy": {
+        "headline": "He Heard You",
+        "deck": "Three Dreaded Snake vs Seven Deadly Chins",
+        "body": "Three Dreaded Snake shouts down to stop. Seven Deadly Chins lets the hammer go quiet long enough to look up. For one hopeful breath the waterfall fills the court again. Three Dreaded Snake turns toward the crying child. Then Seven Deadly Chins laughs, turns the music higher and plants the bit in the next square of paving. The insult is not that he could not hear. It is that he listened and chose the encore.",
+        "department_heading": "Three Dreaded Snake vs Seven Deadly Chins"
+      },
+      "cast": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "owner": "Phillip Pitts",
+          "display_name": "Three Dreaded Snake",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+              "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+              "bytes": 331140,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-PHILLIP-PITTS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+            "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+            "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+            "palette": [
+              "bronze scales",
+              "moss green",
+              "dark leather"
+            ],
+            "recognizable_props": [
+              "blade weapons",
+              "layered leather/metal armor"
+            ],
+            "negative_rules": [
+              "single-headed snake",
+              "three separate creatures",
+              "restoring long pre-haircut dreads"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "owner": "Ben Whipple",
+          "display_name": "Seven Deadly Chins",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+              "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+              "bytes": 313601,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BEN-WHIPPLE",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+            "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+            "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+            "palette": [
+              "off-white tank",
+              "denim blue",
+              "truck red",
+              "steel"
+            ],
+            "recognizable_props": [
+              "trucker cap",
+              "metal striking tool",
+              "big-rig association"
+            ],
+            "negative_rules": [
+              "slim athletic substitute",
+              "animal-headed characterization",
+              "executive suit"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P14": {
+      "copy": {
+        "headline": "No Quiet Hours",
+        "deck": "Three Dreaded Snake vs Seven Deadly Chins",
+        "body": "Broken concrete lies in a widening crescent around the same jackhammer. Seven Deadly Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season Three Dreaded Snake beat Seven Deadly Chins twice. This week Seven Deadly Chins has discovered a form of revenge that needs neither a trophy nor permission.",
+        "department_heading": "Three Dreaded Snake vs Seven Deadly Chins",
+        "result": {
+          "status": "FINAL",
+          "winner": "Seven Deadly Chins",
+          "winner_points": "146.22",
+          "loser": "Three Dreaded Snake",
+          "loser_points": "82.78",
+          "winner_record": "6–4",
+          "loser_record": "4–6",
+          "margin": "63.44",
+          "source": "SFINAL"
+        },
+        "football_context": "Patrick Mahomes 48.62; Blake Corum 23.60; Bhayshul Tuten 22.90."
+      },
+      "cast": [
+        "CHAR-PHILLIP-PITTS",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 6,
+        "provider_away_team_id": 11,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Chins to TDS"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "TDS paintball loss and family welcome",
+            "Chins truck trapped at Red ruins in actualWeek9"
+          ],
+          "identity_locks": [
+            "Exactly three heads, one reptilian humanoid body",
+            "No pre-haircut long dreads",
+            "Chins heavyset human, cap, dirty clothing and hammer"
+          ],
+          "no_claims": [
+            "No baby/family in danger",
+            "No Pittsy reopening",
+            "No truck restoration",
+            "No temple destruction"
+          ],
+          "pass3_in": [
+            "TDS exactly three heads one body",
+            "Chins on courtyard below",
+            "Family contextual/offscreen; no invented spouse identity",
+            "Actual requested jackhammer and music",
+            "Compressor/hose/speaker coherent",
+            "Concrete patch grows consistently",
+            "No thunder competing at comic payoff",
+            "No assumed Book reopening"
+          ],
+          "pass3_out": [
+            "Baby awake; family upset; first concrete damage",
+            "Chins knowingly refuses the request; music louder",
+            "Same expanded hole; family frustration unresolved; no Book reopening"
+          ]
+        },
+        "persistent_landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "owner": "Phillip Pitts",
+          "display_name": "Three Dreaded Snake",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+              "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+              "bytes": 331140,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-PHILLIP-PITTS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Reptilian humanoid with THREE live serpent head-and-neck projections",
+            "head_face": "Exactly three snake heads, mouths and tongues independently visible",
+            "silhouette": "Three serpent necks over an armored humanoid torso; weapons carried below",
+            "palette": [
+              "bronze scales",
+              "moss green",
+              "dark leather"
+            ],
+            "recognizable_props": [
+              "blade weapons",
+              "layered leather/metal armor"
+            ],
+            "negative_rules": [
+              "single-headed snake",
+              "three separate creatures",
+              "restoring long pre-haircut dreads"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "owner": "Ben Whipple",
+          "display_name": "Seven Deadly Chins",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+              "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+              "bytes": 313601,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BEN-WHIPPLE",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Very heavyset trucker / blue-collar human brawler with folded neck and overalls",
+            "head_face": "Human face with prominent multiple chin folds, dark glasses and red trucker cap",
+            "silhouette": "Broad heavy torso in dirty tank/overalls, large blunt tool, big-rig backdrop",
+            "palette": [
+              "off-white tank",
+              "denim blue",
+              "truck red",
+              "steel"
+            ],
+            "recognizable_props": [
+              "trucker cap",
+              "metal striking tool",
+              "big-rig association"
+            ],
+            "negative_rules": [
+              "slim athletic substitute",
+              "animal-headed characterization",
+              "executive suit"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P15": {
+      "copy": {
+        "headline": "The Swamp Declares a Blockade",
+        "deck": "Mud Dogs vs Slob on my Dobb",
+        "body": "Mud Dogs plants himself beside the old swamp entrance marker, blocking the raised service strip with the confidence of a landlord. Beyond him comes a long flatbed of beer, driven by Slob on my Dobb with the ease of a man on a familiar delivery run. The swamp is wet, the old racing ruts are full, and the cargo straps are tight. Mud Dogs barks a warning. Slob on my Dobb checks the mirror.",
+        "department_heading": "Mud Dogs vs Slob on my Dobb"
+      },
+      "cast": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "owner": "Bobby Mitchell",
+          "display_name": "Mud Dogs",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+              "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+              "bytes": 324719,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BOBBY-MITCHELL",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Large mud- and moss-caked feral four-legged swamp hound",
+            "head_face": "Wide canine jaws with snarling fangs; wet matted fur",
+            "silhouette": "Low-running quadruped, hanging swamp moss and thick neck",
+            "palette": [
+              "peat brown",
+              "olive mud",
+              "moss green",
+              "bone white fangs"
+            ],
+            "recognizable_props": [
+              "mud",
+              "swamp-moss fur",
+              "metal chain/collar"
+            ],
+            "negative_rules": [
+              "humanoid brawler replacing swamp dog",
+              "clean show-dog appearance",
+              "leopard spots"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "owner": "Jordan Hollingshead",
+          "display_name": "Slob on my Dobb",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+              "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+              "bytes": 237136,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+            "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+            "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+            "palette": [
+              "mud brown",
+              "denim blue",
+              "pale skin",
+              "steel"
+            ],
+            "recognizable_props": [
+              "oversized SLOB keg",
+              "backward baseball cap",
+              "grimy overalls"
+            ],
+            "negative_rules": [
+              "duck head",
+              "executive suit identity",
+              "slender body substitute"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P16": {
+      "copy": {
+        "headline": "Same Speed",
+        "deck": "Mud Dogs vs Slob on my Dobb",
+        "body": "The truck does not stop. Slob on my Dobb does not even make a show of defiance. He keeps the wheels on the firm strip, guides the kegs around the bend and rolls past at ordinary speed. Mud Dogs follows on the soft shoulder, barking harder as the trailer grows longer and less interested in him. The joke is not that Slob on my Dobb has conquered the swamp. It is that the swamp has ceased to inconvenience his schedule.",
+        "department_heading": "Mud Dogs vs Slob on my Dobb"
+      },
+      "cast": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "owner": "Bobby Mitchell",
+          "display_name": "Mud Dogs",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+              "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+              "bytes": 324719,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BOBBY-MITCHELL",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Large mud- and moss-caked feral four-legged swamp hound",
+            "head_face": "Wide canine jaws with snarling fangs; wet matted fur",
+            "silhouette": "Low-running quadruped, hanging swamp moss and thick neck",
+            "palette": [
+              "peat brown",
+              "olive mud",
+              "moss green",
+              "bone white fangs"
+            ],
+            "recognizable_props": [
+              "mud",
+              "swamp-moss fur",
+              "metal chain/collar"
+            ],
+            "negative_rules": [
+              "humanoid brawler replacing swamp dog",
+              "clean show-dog appearance",
+              "leopard spots"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "owner": "Jordan Hollingshead",
+          "display_name": "Slob on my Dobb",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+              "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+              "bytes": 237136,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+            "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+            "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+            "palette": [
+              "mud brown",
+              "denim blue",
+              "pale skin",
+              "steel"
+            ],
+            "recognizable_props": [
+              "oversized SLOB keg",
+              "backward baseball cap",
+              "grimy overalls"
+            ],
+            "negative_rules": [
+              "duck head",
+              "executive suit identity",
+              "slender body substitute"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P17": {
+      "copy": {
+        "headline": "Cancún Is Calling",
+        "deck": "Mud Dogs vs Slob on my Dobb",
+        "body": "The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: at 2–8, a narrow division-title route still exists. Another loss closes it. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.",
+        "department_heading": "Mud Dogs vs Slob on my Dobb",
+        "result": {
+          "status": "FINAL",
+          "winner": "Slob on my Dobb",
+          "winner_points": "179.29",
+          "loser": "Mud Dogs",
+          "loser_points": "113.62",
+          "winner_record": "6–4",
+          "loser_record": "2–8",
+          "margin": "65.67",
+          "source": "SFINAL"
+        },
+        "football_context": "Christian McCaffrey 52.60; Josh Allen 26.84; CeeDee Lamb 20.20; Jared Goff 29.52."
+      },
+      "cast": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "provider_home_team_id": 10,
+        "provider_away_team_id": 3,
+        "venue_decision": "LATEST_FOUNDER_DIRECTION_WITH_PROPOSED_LOCAL_STAGING",
+        "route_required": true,
+        "route_names": [
+          "Slob to Mud"
+        ],
+        "world_state_in": {
+          "week9_in": [
+            "Mud Dogs rig bogged and shortcut flooded",
+            "Slob's successful paintball change of angle"
+          ],
+          "identity_locks": [
+            "MudDogs feral quadruped no human hands",
+            "Slob current massive human/overalls/backwardcap/keg"
+          ],
+          "no_claims": [
+            "No magic rig recovery",
+            "No permanent swamp alteration",
+            "No severe animal injury",
+            "No extra head/limb"
+          ],
+          "pass3_in": [
+            "High-clearance flatbed active vehicle proposal",
+            "Kegs/crates securely strapped",
+            "Raised strip supports heavy load",
+            "Existing failed low racing lane remains",
+            "Slob unaffected at routine pace",
+            "No truck or cargo contact with hound",
+            "Cancun is conditional joke until audited",
+            "No permanent conquest or title transfer"
+          ],
+          "pass3_out": [
+            "Truck and correct firm route established",
+            "No collision, struggle, flying keg or seized territory",
+            "Delivery succeeds; humiliation and conditional vacation threat, no elimination claim"
+          ]
+        },
+        "persistent_landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false,
+        "unregistered_parent_explained": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "owner": "Bobby Mitchell",
+          "display_name": "Mud Dogs",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+              "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+              "bytes": 324719,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-BOBBY-MITCHELL",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Large mud- and moss-caked feral four-legged swamp hound",
+            "head_face": "Wide canine jaws with snarling fangs; wet matted fur",
+            "silhouette": "Low-running quadruped, hanging swamp moss and thick neck",
+            "palette": [
+              "peat brown",
+              "olive mud",
+              "moss green",
+              "bone white fangs"
+            ],
+            "recognizable_props": [
+              "mud",
+              "swamp-moss fur",
+              "metal chain/collar"
+            ],
+            "negative_rules": [
+              "humanoid brawler replacing swamp dog",
+              "clean show-dog appearance",
+              "leopard spots"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "owner": "Jordan Hollingshead",
+          "display_name": "Slob on my Dobb",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+              "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+              "bytes": 237136,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+            "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+            "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+            "palette": [
+              "mud brown",
+              "denim blue",
+              "pale skin",
+              "steel"
+            ],
+            "recognizable_props": [
+              "oversized SLOB keg",
+              "backward baseball cap",
+              "grimy overalls"
+            ],
+            "negative_rules": [
+              "duck head",
+              "executive suit identity",
+              "slender body substitute"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P18": {
+      "copy": {
+        "headline": "WHY THE BOARD MOVED",
+        "deck": "The points behind the spectacle",
+        "body": "Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.",
+        "callouts": [],
+        "rows": [
+          {
+            "category": "RB / overall starter lead",
+            "player": "Christian McCaffrey",
+            "team": "Slob on my Dobb",
+            "points": "52.60"
+          },
+          {
+            "category": "QB",
+            "player": "Patrick Mahomes",
+            "team": "Seven Deadly Chins",
+            "points": "48.62"
+          },
+          {
+            "category": "WR",
+            "player": "Ja’Marr Chase",
+            "team": "Red Leopards",
+            "points": "36.10"
+          },
+          {
+            "category": "TE",
+            "player": "Isaiah Likely",
+            "team": "The LLC",
+            "points": "30.70"
+          },
+          {
+            "category": "D/ST",
+            "player": "Vikings D/ST",
+            "team": "His Majesty’s Blood",
+            "points": "26.00"
+          },
+          {
+            "category": "K",
+            "player": "Cam Little",
+            "team": "His Majesty’s Blood",
+            "points": "19.00"
+          }
+        ],
+        "department_heading": "SPORTS DESK"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-SCORING-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive scoring hall"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P19": {
+      "copy": {
+        "headline": "A Very Generous Guest",
+        "deck": "Dr. Duckhook vs His Majesty's Blood",
+        "body": "The dining hall in Jackson is full enough that the guests must turn sideways between the streamers and the cakes. Dr. Duckhook is the birthday boy, a host in his own kingdom of polished tables and familiar club service. His Majesty's Blood arrives beneath the storm-dark windows carrying an enormous present, belt visible and sword irrelevant. Last year Dr. Duckhook came within four tenths of stopping this rival's championship path. Tonight he opens the door to him.",
+        "department_heading": "Dr. Duckhook vs His Majesty's Blood"
+      },
+      "cast": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "owner": "Zach Wilson",
+          "display_name": "Dr. Duckhook",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+              "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+              "bytes": 225523,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-ZACH-WILSON",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+            "head_face": "Orange broad bill; white feathers; green golf cap",
+            "silhouette": "Green country-club sweater vest, golfer stance, club resting on shoulder",
+            "palette": [
+              "white feathers",
+              "green vest",
+              "orange bill",
+              "ivory shirt"
+            ],
+            "recognizable_props": [
+              "golf driver",
+              "golf bag and clubs",
+              "country-club attire"
+            ],
+            "negative_rules": [
+              "full ordinary human head",
+              "missing duck bill",
+              "golf-club identity omitted"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "display_name": "His Majesty's Blood",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+              "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+              "bytes": 409157,
+              "dimensions": [
+                344,
+                410
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+              "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+              "bytes": 328843,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+            "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+            "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+            "palette": [
+              "black iron",
+              "crimson",
+              "deep burgundy",
+              "antique gold",
+              "red eye glow"
+            ],
+            "recognizable_props": [
+              "downward-held ornate sword",
+              "large circular gold chest ornament",
+              "tattered crimson-black cloak"
+            ],
+            "negative_rules": [
+              "unhooded bearded king",
+              "vampire mascot",
+              "crown as head replacement",
+              "removing red eyes",
+              "assigning championship belt to ObiWan"
+            ]
+          },
+          "override": {
+            "artifact_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "scope": "COMMISSIONER_APPROVED_HOOD_RED_EYES_DARK_ARMOR_CRIMSON_CLOAK_VISUAL_ONLY",
+            "championship_belt_status": "BELT_KEEPER_CANON_PRESERVED__DO_NOT_INFER_BELT_TRANSFER"
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P20": {
+      "copy": {
+        "headline": "The 200 Burger",
+        "deck": "Dr. Duckhook vs His Majesty's Blood",
+        "body": "Dr. Duckhook pulls the ribbon, raises the lid and discovers a double-decker hamburger big enough to have a title: 200 BURGER. For a moment he tries to smile like a gracious host. Then the guests understand what the number means. His Majesty's Blood has given him a celebration he can neither refuse nor explain away. The separate birthday cake waits on the sideboard.",
+        "department_heading": "Dr. Duckhook vs His Majesty's Blood"
+      },
+      "cast": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "owner": "Zach Wilson",
+          "display_name": "Dr. Duckhook",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+              "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+              "bytes": 225523,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-ZACH-WILSON",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+            "head_face": "Orange broad bill; white feathers; green golf cap",
+            "silhouette": "Green country-club sweater vest, golfer stance, club resting on shoulder",
+            "palette": [
+              "white feathers",
+              "green vest",
+              "orange bill",
+              "ivory shirt"
+            ],
+            "recognizable_props": [
+              "golf driver",
+              "golf bag and clubs",
+              "country-club attire"
+            ],
+            "negative_rules": [
+              "full ordinary human head",
+              "missing duck bill",
+              "golf-club identity omitted"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "display_name": "His Majesty's Blood",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+              "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+              "bytes": 409157,
+              "dimensions": [
+                344,
+                410
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+              "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+              "bytes": 328843,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+            "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+            "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+            "palette": [
+              "black iron",
+              "crimson",
+              "deep burgundy",
+              "antique gold",
+              "red eye glow"
+            ],
+            "recognizable_props": [
+              "downward-held ornate sword",
+              "large circular gold chest ornament",
+              "tattered crimson-black cloak"
+            ],
+            "negative_rules": [
+              "unhooded bearded king",
+              "vampire mascot",
+              "crown as head replacement",
+              "removing red eyes",
+              "assigning championship belt to ObiWan"
+            ]
+          },
+          "override": {
+            "artifact_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "scope": "COMMISSIONER_APPROVED_HOOD_RED_EYES_DARK_ARMOR_CRIMSON_CLOAK_VISUAL_ONLY",
+            "championship_belt_status": "BELT_KEEPER_CANON_PRESERVED__DO_NOT_INFER_BELT_TRANSFER"
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P21": {
+      "copy": {
+        "headline": "Many Unhappy Returns",
+        "deck": "Dr. Duckhook vs His Majesty's Blood",
+        "body": "His Majesty's Blood presses that cake squarely into Dr. Duckhook's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week The Chili Cheesers made His Majesty's Blood the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.",
+        "department_heading": "Dr. Duckhook vs His Majesty's Blood",
+        "result": {
+          "status": "FINAL",
+          "winner": "His Majesty's Blood",
+          "winner_points": "208.76",
+          "loser": "Dr. Duckhook",
+          "loser_points": "127.67",
+          "winner_record": "6–4",
+          "loser_record": "6–4",
+          "margin": "81.09",
+          "source": "SFINAL"
+        },
+        "football_context": "Brock Purdy 42.86; Chuba Hubbard 36.90; Jaxon Smith-Njigba 34.10; Vikings D/ST 26.00."
+      },
+      "cast": [
+        "CHAR-ZACH-WILSON",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "encounter": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Wings home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "HMB to Duck"
+        ],
+        "world_state_in": [
+          "Duckhook controlled finish against ObiWan and five-win entering streak",
+          "HMB public chili humiliation, belt retained"
+        ],
+        "persistent_landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "large indoor birthday gathering with anonymous guests",
+          "abundant streamers, ribbons and multiple birthday cakes without age numerals",
+          "large wrapped gift box carried in by HMB then set on a stable table",
+          "giant double-decker hamburger with a clear 200 BURGER flag inside the box",
+          "a separate birthday cake established on the sideboard, with candles cleared before the face-smear",
+          "Duckhook’s golf bag and driver stored by his chair or the entrance",
+          "HMB’s retained belt, hood, red eyes, black armor and crimson cloak; sword secured and unused"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_INTERIOR_SUBSITE_PROPOSED",
+        "subsite": "Proposed indoor Banquet Hall",
+        "set_id": "SET-W10-JACKSON-BANQUET"
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "owner": "Zach Wilson",
+          "display_name": "Dr. Duckhook",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+              "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+              "bytes": 225523,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-ZACH-WILSON",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "White-feathered duck head on upright anthropomorphic golfer torso",
+            "head_face": "Orange broad bill; white feathers; green golf cap",
+            "silhouette": "Green country-club sweater vest, golfer stance, club resting on shoulder",
+            "palette": [
+              "white feathers",
+              "green vest",
+              "orange bill",
+              "ivory shirt"
+            ],
+            "recognizable_props": [
+              "golf driver",
+              "golf bag and clubs",
+              "country-club attire"
+            ],
+            "negative_rules": [
+              "full ordinary human head",
+              "missing duck bill",
+              "golf-club identity omitted"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "display_name": "His Majesty's Blood",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+              "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+              "bytes": 409157,
+              "dimensions": [
+                344,
+                410
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+              "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+              "bytes": 328843,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+            "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+            "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+            "palette": [
+              "black iron",
+              "crimson",
+              "deep burgundy",
+              "antique gold",
+              "red eye glow"
+            ],
+            "recognizable_props": [
+              "downward-held ornate sword",
+              "large circular gold chest ornament",
+              "tattered crimson-black cloak"
+            ],
+            "negative_rules": [
+              "unhooded bearded king",
+              "vampire mascot",
+              "crown as head replacement",
+              "removing red eyes",
+              "assigning championship belt to ObiWan"
+            ]
+          },
+          "override": {
+            "artifact_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "scope": "COMMISSIONER_APPROVED_HOOD_RED_EYES_DARK_ARMOR_CRIMSON_CLOAK_VISUAL_ONLY",
+            "championship_belt_status": "BELT_KEEPER_CANON_PRESERVED__DO_NOT_INFER_BELT_TRANSFER"
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P22": {
+      "copy": {
+        "headline": "The Empire Opens Fire",
+        "deck": "ObiWan Jacoby vs The LLC",
+        "body": "The LLC had beaten ObiWan Jacoby by eight tenths of a point in 2024. A margin that narrow teaches a rival to fear one last play. This time the executive has brought an army. Red fire crosses the mountain causeway, and ObiWan Jacoby answers with a green blade, destroying the first battery. The home gate is behind him, warm and small against the cold storm.",
+        "department_heading": "ObiWan Jacoby vs The LLC"
+      },
+      "cast": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "owner": "Jake Kaloper",
+          "display_name": "ObiWan Jacoby",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+              "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+              "bytes": 320465,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-JAKE-KALOPER",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+            "head_face": "Light hair, human face, serious gaze",
+            "silhouette": "Upright human with cloak, luminous green sword and adjacent golden retriever",
+            "palette": [
+              "olive",
+              "brown",
+              "green blade glow",
+              "golden fur"
+            ],
+            "recognizable_props": [
+              "green energy sword",
+              "golden retriever companion"
+            ],
+            "negative_rules": [
+              "championship belt",
+              "changing golden retriever into mount",
+              "changing blade away from green"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "display_name": "The LLC",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+              "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+              "bytes": 280004,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-DAVID-BABB",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+            "head_face": "Human head with short dark hair and dark sunglasses",
+            "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+            "palette": [
+              "black suit",
+              "white shirt",
+              "red tie",
+              "gold accessories"
+            ],
+            "recognizable_props": [
+              "cigar",
+              "executive leather chair",
+              "briefcase",
+              "wealth/financial desk accents"
+            ],
+            "negative_rules": [
+              "gorilla centaur",
+              "monster body",
+              "leopard head"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P23": {
+      "copy": {
+        "headline": "Two Ways Through",
+        "deck": "ObiWan Jacoby vs The LLC",
+        "body": "ObiWan Jacoby takes the ridge because it is the path an army would overlook and because he refuses to let the first success be his last. For a moment the second advance works. The LLC does not need to move from the command shelf to answer. One gesture brings the surviving battery around. The battle is not quiet; neither is the courage required to keep going.",
+        "department_heading": "ObiWan Jacoby vs The LLC"
+      },
+      "cast": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "owner": "Jake Kaloper",
+          "display_name": "ObiWan Jacoby",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+              "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+              "bytes": 320465,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-JAKE-KALOPER",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+            "head_face": "Light hair, human face, serious gaze",
+            "silhouette": "Upright human with cloak, luminous green sword and adjacent golden retriever",
+            "palette": [
+              "olive",
+              "brown",
+              "green blade glow",
+              "golden fur"
+            ],
+            "recognizable_props": [
+              "green energy sword",
+              "golden retriever companion"
+            ],
+            "negative_rules": [
+              "championship belt",
+              "changing golden retriever into mount",
+              "changing blade away from green"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "display_name": "The LLC",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+              "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+              "bytes": 280004,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-DAVID-BABB",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+            "head_face": "Human head with short dark hair and dark sunglasses",
+            "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+            "palette": [
+              "black suit",
+              "white shirt",
+              "red tie",
+              "gold accessories"
+            ],
+            "recognizable_props": [
+              "cigar",
+              "executive leather chair",
+              "briefcase",
+              "wealth/financial desk accents"
+            ],
+            "negative_rules": [
+              "gorilla centaur",
+              "monster body",
+              "leopard head"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P24": {
+      "copy": {
+        "headline": "Unlimited Firepower",
+        "deck": "ObiWan Jacoby vs The LLC",
+        "body": "ObiWan Jacoby holds the inner arch as the remaining guns converge. Smoke from the destroyed emplacement blows in the same direction as the flags; the one surviving battery still fires. He has made two choices, earned two real moments, and still faces an enemy whose resources outlast them. The LLC’s 203.96 withstands the late response. ObiWan Jacoby reaches 166.53, but the gap remains 37.43. The defense is heroic. The result belongs to the visitor.",
+        "department_heading": "ObiWan Jacoby vs The LLC",
+        "result": {
+          "status": "FINAL",
+          "winner": "The LLC",
+          "winner_points": "203.96",
+          "loser": "ObiWan Jacoby",
+          "loser_points": "166.53",
+          "winner_record": "4–6",
+          "loser_record": "4–6",
+          "margin": "37.43",
+          "source": "SFINAL"
+        },
+        "football_context": "Joe Burrow 43.26; Isaiah Likely 30.70; Parker Washington 29.70; Trevor Lawrence 34.18."
+      },
+      "cast": [
+        "CHAR-JAKE-KALOPER",
+        "CHAR-DAVID-BABB"
+      ],
+      "encounter": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "venue_type": "verified home domain / proposed scene",
+        "division_context": "Burgers home team vs Pizza away team",
+        "route_required": true,
+        "route_names": [
+          "LLC to Obi"
+        ],
+        "world_state_in": [
+          "ObiWan golf defeat and four-loss entering streak",
+          "The LLC arena loss; preserve action geography but reject wrong printedWeek9 score"
+        ],
+        "persistent_landmarks": [
+          "fixed mountain ridge",
+          "outer causeway",
+          "inner stone arch",
+          "existing mountain-base silhouette"
+        ],
+        "provisional_location": false,
+        "temporary_scene_props": [
+          "temporary Imperial assault formation",
+          "two visible battery emplacements",
+          "armored command platform",
+          "ObiWan’s green blade",
+          "ridge causeway and stone arch",
+          "golden retriever in sheltered inner approach"
+        ],
+        "venue_decision": "HOME_DOMAIN_RESOLVED_SCENE_DRAFT",
+        "set_id": "SET-W10-OBI-RIDGE-GATE"
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "owner": "Jake Kaloper",
+          "display_name": "ObiWan Jacoby",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+              "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+              "bytes": 320465,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-JAKE-KALOPER",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Youthful blond human field strategist, earth-toned layered robe and jacket",
+            "head_face": "Light hair, human face, serious gaze",
+            "silhouette": "Upright human with cloak, luminous green sword and adjacent golden retriever",
+            "palette": [
+              "olive",
+              "brown",
+              "green blade glow",
+              "golden fur"
+            ],
+            "recognizable_props": [
+              "green energy sword",
+              "golden retriever companion"
+            ],
+            "negative_rules": [
+              "championship belt",
+              "changing golden retriever into mount",
+              "changing blade away from green"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "display_name": "The LLC",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+              "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+              "bytes": 280004,
+              "dimensions": [
+                362,
+                391
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-DAVID-BABB",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Well-groomed seated human corporate executive in dark tailored suit",
+            "head_face": "Human head with short dark hair and dark sunglasses",
+            "silhouette": "Dark tailored suit, bright red tie, seated leather chair, cigar",
+            "palette": [
+              "black suit",
+              "white shirt",
+              "red tie",
+              "gold accessories"
+            ],
+            "recognizable_props": [
+              "cigar",
+              "executive leather chair",
+              "briefcase",
+              "wealth/financial desk accents"
+            ],
+            "negative_rules": [
+              "gorilla centaur",
+              "monster body",
+              "leopard head"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P25": {
+      "copy": {
+        "headline": "THE NEXT STARTING SHEET",
+        "deck": "Week 11 • Seven uncovered required positions",
+        "body": "Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.",
+        "callouts": [],
+        "rows": [
+          {
+            "team": "ObiWan Jacoby",
+            "need": "D/ST"
+          },
+          {
+            "team": "Slob on my Dobb",
+            "need": "TE"
+          },
+          {
+            "team": "The Chili Cheesers",
+            "need": "K"
+          },
+          {
+            "team": "El Niño",
+            "need": "TE"
+          },
+          {
+            "team": "Mud Dogs",
+            "need": "D/ST"
+          },
+          {
+            "team": "Seven Deadly Chins",
+            "need": "D/ST + K"
+          }
+        ],
+        "department_heading": "RESERVE WATCH"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber outer loggia"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P26": {
+      "copy": {
+        "headline": "MOVES THAT REACHED THE ROSTER",
+        "deck": "Completed Week 10 activity • All bids shown are FAAB",
+        "body": "The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.",
+        "callouts": [
+          {
+            "heading": "A two-day Mason trail",
+            "body": "Dr. Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob on my Dobb added Mason the next day, dropping Chris Brooks."
+          },
+          {
+            "heading": "A familiar name changes shelves",
+            "body": "Seven Deadly Chins dropped Brian Thomas Jr. on November 10; Dr. Duckhook added him November 15."
+          },
+          {
+            "heading": "ObiWan works the receiver file",
+            "body": "ObiWan Jacoby completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
+          },
+          {
+            "heading": "The defense that closed the week",
+            "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense supplied 7.00 on Monday; Three Dreaded Snake finished with 82.78."
+          }
+        ],
+        "rows": [],
+        "department_heading": "TRANSACTIONS"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive courier intake desk"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P27": {
+      "copy": {
+        "headline": "TWELVE TEAMS. TEN POSTED RESULTS.",
+        "deck": "Official standings after Week 10",
+        "body": "Six teams share 6–4 records, with Slob on my Dobb first in the provider’s seeding and first in total points. Red Leopards and The Chili Cheesers follow at 5–5. Equal records do not mean interchangeable seeds: the order below preserves ESPN’s posted table, including the division and tiebreak structure.",
+        "callouts": [],
+        "rows": [
+          {
+            "seed": 1,
+            "team": "Slob on my Dobb",
+            "record": "6–4",
+            "points_for": "1599.99"
+          },
+          {
+            "seed": 2,
+            "team": "El Niño",
+            "record": "6–4",
+            "points_for": "1450.03"
+          },
+          {
+            "seed": 3,
+            "team": "D0nkey K0ng",
+            "record": "6–4",
+            "points_for": "1411.82"
+          },
+          {
+            "seed": 4,
+            "team": "His Majesty's Blood",
+            "record": "6–4",
+            "points_for": "1451.95"
+          },
+          {
+            "seed": 5,
+            "team": "Dr. Duckhook",
+            "record": "6–4",
+            "points_for": "1452.15"
+          },
+          {
+            "seed": 6,
+            "team": "Seven Deadly Chins",
+            "record": "6–4",
+            "points_for": "1356.62"
+          },
+          {
+            "seed": 7,
+            "team": "Red Leopards",
+            "record": "5–5",
+            "points_for": "1404.51"
+          },
+          {
+            "seed": 8,
+            "team": "The Chili Cheesers",
+            "record": "5–5",
+            "points_for": "1384.79"
+          },
+          {
+            "seed": 9,
+            "team": "The LLC",
+            "record": "4–6",
+            "points_for": "1449.25"
+          },
+          {
+            "seed": 10,
+            "team": "ObiWan Jacoby",
+            "record": "4–6",
+            "points_for": "1384.51"
+          },
+          {
+            "seed": 11,
+            "team": "Three Dreaded Snake",
+            "record": "4–6",
+            "points_for": "1279.46"
+          },
+          {
+            "seed": 12,
+            "team": "Mud Dogs",
+            "record": "2–8",
+            "points_for": "1181.35"
+          }
+        ],
+        "department_heading": "STANDINGS"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-STANDINGS-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive record hall"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P28": {
+      "copy": {
+        "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+        "deck": "The same results change three separate races",
+        "body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+        "callouts": [
+          {
+            "label": "BURGERS",
+            "heading": "D0nkey K0ng has separation",
+            "body": "D0nkey K0ng stands at 6–4. ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8 and must win out to preserve a route."
+          },
+          {
+            "label": "PIZZA",
+            "heading": "Three leaders on the same step",
+            "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins are all 6–4. The LLC’s 203.96 victory lifts its record to 4–6, with the divisional return still ahead."
+          },
+          {
+            "label": "WINGS",
+            "heading": "The cushion has narrowed",
+            "body": "Dr. Duckhook and Slob on my Dobb are 6–4. Red Leopards and The Chili Cheesers are both 5–5. One crossover remains before the four meet division rivals again."
+          }
+        ],
+        "rows": [],
+        "department_heading": "STATE OF THE REALM"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-DIVISION-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber public terrace"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P29": {
+      "copy": {
+        "headline": "THE TWELVE — SCORING FORM",
+        "deck": "Final Week 10 scoring index • Not playoff seeding",
+        "body": "Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
+        "callouts": [],
+        "rows": [
+          {
+            "rank": 1,
+            "team": "Slob on my Dobb",
+            "index": "165.79"
+          },
+          {
+            "rank": 2,
+            "team": "His Majesty's Blood",
+            "index": "164.26"
+          },
+          {
+            "rank": 3,
+            "team": "The LLC",
+            "index": "162.64"
+          },
+          {
+            "rank": 4,
+            "team": "El Niño",
+            "index": "158.23"
+          },
+          {
+            "rank": 5,
+            "team": "ObiWan Jacoby",
+            "index": "146.87"
+          },
+          {
+            "rank": 6,
+            "team": "D0nkey K0ng",
+            "index": "145.83"
+          },
+          {
+            "rank": 7,
+            "team": "Red Leopards",
+            "index": "142.66"
+          },
+          {
+            "rank": 8,
+            "team": "Dr. Duckhook",
+            "index": "139.95"
+          },
+          {
+            "rank": 9,
+            "team": "Seven Deadly Chins",
+            "index": "138.83"
+          },
+          {
+            "rank": 10,
+            "team": "The Chili Cheesers",
+            "index": "125.05"
+          },
+          {
+            "rank": 11,
+            "team": "Mud Dogs",
+            "index": "116.78"
+          },
+          {
+            "rank": 12,
+            "team": "Three Dreaded Snake",
+            "index": "114.40"
+          }
+        ],
+        "department_heading": "SCORING FORM"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Mountain-lake overlook"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P30": {
+      "copy": {
+        "headline": "FOUR MORE AFTER THIS",
+        "deck": "Seven places. The route narrows.",
+        "body": "All twelve teams still have a route, and none has clinched. At 2–8, Mud Dogs can still win Burgers at 6–8 through a specific set of results. A further loss eliminates that possibility and the remaining shared-place route. Four games remain: one crossover, then three divisional rounds.",
+        "callouts": [
+          {
+            "heading": "SEVEN BERTHS",
+            "body": "Three division winners and four shared places."
+          },
+          {
+            "heading": "MUD DOGS’ NEXT TEST",
+            "body": "A Week 11 loss to Seven Deadly Chins eliminates Mud Dogs. Winning keeps a narrow, help-dependent route alive."
+          }
+        ],
+        "rows": [],
+        "department_heading": "THE PLAYOFF ROAD"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+        "set_id": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Alpine Wager Route, above the existing base camp"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P31": {
+      "copy": {
+        "headline": "THE NEXT SIX",
+        "deck": "Week 11 • Head-to-head stakes before the divisional finish",
+        "body": "His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.",
+        "callouts": [],
+        "rows": [
+          {
+            "away_team": "El Niño",
+            "home_team": "Slob on my Dobb",
+            "display": "El Niño at Slob on my Dobb",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "Red Leopards",
+            "home_team": "Three Dreaded Snake",
+            "display": "Red Leopards at Three Dreaded Snake",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "Seven Deadly Chins",
+            "home_team": "Mud Dogs",
+            "display": "Seven Deadly Chins at Mud Dogs",
+            "implication": "6–4 vs 2–8 • A loss eliminates Mud Dogs"
+          },
+          {
+            "away_team": "The Chili Cheesers",
+            "home_team": "ObiWan Jacoby",
+            "display": "The Chili Cheesers at ObiWan Jacoby",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "His Majesty's Blood",
+            "home_team": "D0nkey K0ng",
+            "display": "His Majesty's Blood at D0nkey K0ng",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "The LLC",
+            "home_team": "Dr. Duckhook",
+            "display": "The LLC at Dr. Duckhook",
+            "implication": "4–6 vs 6–4 • Recovery versus top-seed contention"
+          }
+        ],
+        "department_heading": "THE NEXT SIX"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Chamber outward-facing fixture terrace"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P32": {
+      "copy": {
+        "headline": "FROM PITTSY’S BOOK",
+        "deck": "Week 10 betting notice",
+        "body": "No Week 10 betting notice has been confirmed for this edition. Any posted lines, house terms and settlement belong to Pittsy’s own ledger. This issue carries no new prices or payout claim.",
+        "callouts": [],
+        "rows": []
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-OPTIONAL-BOOK-SHELF",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Temple household Book shelf, only if a new Book item is supplied"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P33": {
+      "copy": {
+        "headline": "THE WEATHER IS COMING HOME",
+        "deck": "Storm Watch • El Niño at Slob on my Dobb",
+        "body": "Slob on my Dobb’s delivery passed through the swamp without trouble. Next week the schedule brings El Niño to Slob on my Dobb. The league’s scoring leader has a different problem to prepare for, and both teams need a tight end before that meeting. After this comes the divisional finish. The next round begins with the work done between Sundays.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "THE FINAL WORD"
+      },
+      "cast": [
+        "CHAR-JORDAN-HOLLINGSHEAD"
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "set_id": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Slob Foothill Camp tailgate-yard approach"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "owner": "Jordan Hollingshead",
+          "display_name": "Slob on my Dobb",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+              "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+              "bytes": 237136,
+              "dimensions": [
+                362,
+                290
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Massive heavyset, bare-shouldered human berserker in work overalls and backward cap",
+            "head_face": "Unkempt dark hair and beard with loud, open-mouthed expression",
+            "silhouette": "Wide hulking torso, overalls, oversized metal keg",
+            "palette": [
+              "mud brown",
+              "denim blue",
+              "pale skin",
+              "steel"
+            ],
+            "recognizable_props": [
+              "oversized SLOB keg",
+              "backward baseball cap",
+              "grimy overalls"
+            ],
+            "negative_rules": [
+              "duck head",
+              "executive suit identity",
+              "slender body substitute"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    },
+    "W10-P34": {
+      "copy": {
+        "headline": "THE COST OF SUNDAY",
+        "deck": "Sports Desk • Availability changes the next move",
+        "body": "Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s confirmed season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "INJURY REPORT"
+      },
+      "cast": [],
+      "encounter": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "League Archive late dispatch alcove"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": []
+    },
+    "W10-P35": {
+      "copy": {
+        "headline": "THE CROSSING NARROWS",
+        "deck": "Week 11 preview • His Majesty’s Blood at D0nkey K0ng",
+        "body": "Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "WEEK 11 · GAME OF THE WEEK"
+      },
+      "cast": [
+        "CHAR-AUSTIN-BYARS",
+        "CHAR-WILSON-LOOK"
+      ],
+      "encounter": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "division_context": "League-wide; divisions are overlays",
+        "route_required": false,
+        "world_state_in": "Existing place with selective wear and maintenance",
+        "persistent_landmarks": [
+          "Bridge at the Mountain Lake, opposing approaches"
+        ],
+        "provisional_location": true,
+        "formal_atlas_promotion": false
+      },
+      "reference_assets": [
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "display_name": "His Majesty's Blood",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+              "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+              "bytes": 409157,
+              "dimensions": [
+                344,
+                410
+              ],
+              "media_type": "image/png",
+              "role": "current_appearance_override",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            },
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+              "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+              "bytes": 328843,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-AUSTIN-BYARS",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "Towering concealed dark armored champion; hooded head in shadow, glowing red eyes",
+            "head_face": "Fully shadowed hooded face with two glowing red eyes; NOT an exposed generic human face",
+            "silhouette": "Black segmented armor, sweeping ragged crimson-black cloak, gold circular chest ornament, sword pointed downward",
+            "palette": [
+              "black iron",
+              "crimson",
+              "deep burgundy",
+              "antique gold",
+              "red eye glow"
+            ],
+            "recognizable_props": [
+              "downward-held ornate sword",
+              "large circular gold chest ornament",
+              "tattered crimson-black cloak"
+            ],
+            "negative_rules": [
+              "unhooded bearded king",
+              "vampire mascot",
+              "crown as head replacement",
+              "removing red eyes",
+              "assigning championship belt to ObiWan"
+            ]
+          },
+          "override": {
+            "artifact_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "scope": "COMMISSIONER_APPROVED_HOOD_RED_EYES_DARK_ARMOR_CRIMSON_CLOAK_VISUAL_ONLY",
+            "championship_belt_status": "BELT_KEEPER_CANON_PRESERVED__DO_NOT_INFER_BELT_TRANSFER"
+          },
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        },
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "owner": "Wilson Look",
+          "display_name": "D0nkey K0ng",
+          "images": [
+            {
+              "repo_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+              "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+              "bytes": 336378,
+              "dimensions": [
+                362,
+                405
+              ],
+              "media_type": "image/png",
+              "role": "approved_lineup_crop",
+              "character_id": "CHAR-WILSON-LOOK",
+              "decoded_in_preflight": true
+            }
+          ],
+          "appearance": {
+            "subject_morphology": "ONE integrated Arsenal gorilla-centaur, gorilla head and upper torso fused to equine four-legged lower body",
+            "head_face": "Black-furred roaring gorilla",
+            "silhouette": "Broad ape shoulders over horse-bodied centaur; giant axe; red-and-gold Arsenal-inspired war cloth",
+            "palette": [
+              "black fur",
+              "red armor cloth",
+              "antique gold",
+              "dark equine coat"
+            ],
+            "recognizable_props": [
+              "large war axe",
+              "red-and-gold cannon heraldry"
+            ],
+            "negative_rules": [
+              "bipedal-only gorilla",
+              "gorilla rider on separate horse",
+              "human torso",
+              "missing lower pair of legs"
+            ]
+          },
+          "override": null,
+          "reference_pixels_loaded_in_preflight": true,
+          "generation_output_not_yet_created": true
+        }
+      ]
+    }
+  }
+}

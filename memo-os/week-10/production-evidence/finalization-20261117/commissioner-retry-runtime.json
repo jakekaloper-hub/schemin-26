@@ -1,0 +1,26 @@
+{
+  "events": [
+    [
+      "BULLPEN_CONSULTATION",
+      {
+        "source": "bullpen/runtime/consultEngine",
+        "director": "the_commissioner",
+        "messageLength": 4952,
+        "responseLength": 158,
+        "model": "qwen2.5-coder:7b",
+        "latencyMs": 11210
+      }
+    ]
+  ],
+  "traces": [
+    {
+      "type": "director_consult",
+      "source": "bullpen/runtime/consultEngine",
+      "director": "the_commissioner",
+      "messageLength": 4952,
+      "responseLength": 158,
+      "model": "qwen2.5-coder:7b",
+      "latencyMs": 11210
+    }
+  ]
+}

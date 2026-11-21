@@ -1,0 +1,118 @@
+{
+  "schema_version": "schemin.week10.preproduction_acceptance.v1",
+  "decision": "APPROVED_PREPRODUCTION_READY_FOR_NORMAL_MERGE",
+  "recorded_at_utc": "2026-11-17T18:15:41.504408+00:00",
+  "authority": "Bullpen leads Schemin Week 10 production; source, editorial and independent acceptance reviews executed by host AI agents using Bullpen roles.",
+  "external_human_director_approval_claimed": false,
+  "user_authorization": "Complete and approve the existing Week 10 workflow and GitHub retention; latest steering leaves Netlify aside.",
+  "repository": "jakekaloper-hub/schemin-26",
+  "pull_request": 315,
+  "reviewed_parent_commit": "ce407052b910352b707647e0271897ae9355a925",
+  "merge_status_authority": "https://github.com/jakekaloper-hub/schemin-26/pull/315",
+  "scope": {
+    "included_folios": 34,
+    "visual_beats": 66,
+    "sheet_counts": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      4
+    ],
+    "optional_W10_P32_omitted": true,
+    "playoff_selected_pages": [
+      "W10-P28",
+      "W10-P30",
+      "W10-P31"
+    ],
+    "existing_canonical_facts_copy_cast_shot_plans_preserved": true
+  },
+  "review_decisions": {
+    "Librarian_Scout": "PASS_PRIVATE_ARCHIVE_INTEGRITY_AND_SCOPE",
+    "Memo_Beat_Writer": "APPROVE_PREPRODUCTION_REPOSITORY_MERGE",
+    "Umpire": "APPROVE_PREPRODUCTION_MERGE",
+    "final_archive_binding_delta_review": "umpire-final-archive-delta-review.json"
+  },
+  "protected_archive": {
+    "filename": "Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+    "sha256": "9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d",
+    "storage": "Private GitHub repository jakekaloper-hub/bullpen; immutable reviewed source archive",
+    "scope": "Complete reviewed source with raw vendor captures, finalized source observations, team POVs, complete witnesses and enumeration source.",
+    "github": {
+      "repository": "jakekaloper-hub/bullpen",
+      "visibility": "private",
+      "commit": "f740977ed4c16a33f291f10969d004bc8ed39edc",
+      "source_commit": "ff61dcf65ba87bedd6b28677e34ff93da260c928",
+      "path": "projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "url": "https://github.com/jakekaloper-hub/bullpen/blob/f740977ed4c16a33f291f10969d004bc8ed39edc/projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json",
+      "pull_request": 155,
+      "pull_request_url": "https://github.com/jakekaloper-hub/bullpen/pull/155",
+      "git_blob_sha1": "37d0b636fec7bcb566450a2af33893344440fa07",
+      "utf8_bytes": 664111,
+      "retention_manifest_path": "projects/schemin-26/evidence/week-10-20261117/RETENTION_MANIFEST.json",
+      "merged_to_main": true
+    }
+  },
+  "public_bindings": {
+    "facts.json": "7dce5bf6a801aad2d757f8ce05fc8672765ec261886a34733659103344e7ba84",
+    "final-league-snapshot.json": "0d27dd9b022df3906793832d2eb213f17bc6ce9140cea0ccbb18a91080a400cf",
+    "playoff-harvest.json": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+    "playoff-harvest-copy.json": "f5926c4d8eea61b1b296e7422251860d9b7370115343037d136dcddd074b3585",
+    "playoff-harvest-consumption.json": "5b9aceef6e463f4fa16ce1b25a1e7739c37081bf21a20dd42e834112cd23f893",
+    "visual-storytelling-pass-20261117.json": "cef15ce88dbb4a5180cc0e63c35297856d1e2d792527e37a5f85d52a732b69ec",
+    "render-inputs/manifest.json": "f22fb84cc1a1a4e123fb2a4be56de7da749e256cef1c94247ad93481f701c9db"
+  },
+  "verification": {
+    "final_suite_tests": 57,
+    "final_suite_result": "PASS",
+    "current_reference_images": 56,
+    "independent_baseline_suite_result": "57 PASS",
+    "retained_witnesses_previously_replayed": 61,
+    "prior_witness_mismatches": 0,
+    "raw_vendor_captures_verified": 20,
+    "team_povs_verified": 12,
+    "hash_only_selected_request_changes": 3,
+    "unselected_requests_byte_identical": 31,
+    "source_math_repeated": false
+  },
+  "review_receipts": {
+    "private_archive_retention_approval.json": {
+      "path": "private_archive_retention_approval.json",
+      "sha256": "5871c98c329dd8f7621b0205284f7b8c9da13b4802d75aefd045e92d4d6686ce"
+    },
+    "private_archive_main_readback.json": {
+      "path": "private_archive_main_readback.json",
+      "sha256": "699607d365ccf471e36e7fc4824b6bde48e0bf6e76610577839a4e53b6807629"
+    },
+    "week10_final_memo_approval.json": {
+      "path": "week10_final_memo_approval.json",
+      "sha256": "a23e430c5d5788d8e36afdb13289a63a43b59ccb24e468c094933aef3c8503aa"
+    },
+    "umpire_pr315_preproduction_approval.json": {
+      "path": "umpire_pr315_preproduction_approval.json",
+      "sha256": "16769dcd32092669cf0d428c621fb4db9726519480882b91d430fc8368bcdb34"
+    },
+    "archive-binding-preservation.json": {
+      "path": "archive-binding-preservation.json",
+      "sha256": "14a24ccf0572ca6f5af040983b411f24c50c1e751b3d1bc611dbd8a7067c016d"
+    },
+    "final-57-tests.txt": {
+      "path": "final-57-tests.txt",
+      "sha256": "97c0873d58313e31a8b038475858476778c59ba2d41f2ce33b63d8242ce4ea63"
+    },
+    "umpire-pr315-57tests.txt": {
+      "path": "umpire-pr315-57tests.txt",
+      "sha256": "4a1d649bdfc69ea92153323db04a2a22d1632bc53482df0731551b3c2ef1d76d"
+    }
+  },
+  "ci_disposition": "See the Umpire receipt for observed external failures. Latest user direction leaves Netlify aside. No external check was relabeled as passing; no hosting, workflow, branch-control or protection change was made. Normal GitHub expected-head merge enforcement remains applicable.",
+  "approval_boundaries": {
+    "repository_preproduction_approved": true,
+    "private_archive_merged": true,
+    "png_generation_authorized": false,
+    "artwork_pixel_approved": false,
+    "reader_publication_approved": false
+  },
+  "remaining_production_stage": "PNG execution remains paused. When Jake resumes it, Bullpen leads individual folio generation and review of actual images before artwork/publication approval."
+}

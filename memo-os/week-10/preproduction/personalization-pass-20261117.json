@@ -1,0 +1,1643 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+  "source_commit": "14b1ad0c56752c7f0ee965843963b0e0de03184f",
+  "source_authority": "issue-previs.json and synchronized issue-draft.md; earlier personalization-review.md is historical only.",
+  "mode": "Completed source-grounded editorial pass. Jake may add further notes one matchup or department at a time; optional additions are not a completion gate.",
+  "design_implementation": "design-review-20261117/composition-directions.json",
+  "intake_policy": [
+    "User notes are recorded verbatim with stable page IDs before editing.",
+    "Separate sourced real context, approved fictional staging and new proposed details.",
+    "No new personal quote, age, family fact, rivalry incident or private motivation is fabricated.",
+    "Preserve finalized sports data and causal continuity. A proposed personalization remains unapproved until Jake accepts it.",
+    "Accepted notes are propagated into existing issue draft, storycards, director pages, briefs and requests; do not start another issue draft.",
+    "Keep all files and receipts on the existing GitHub PR branch."
+  ],
+  "matchups": [
+    {
+      "matchup_id": "W10-M01",
+      "full_matchup_name": "The Chili Cheesers vs D0nkey K0ng",
+      "page_ids": [
+        "W10-P05",
+        "W10-P06",
+        "W10-P07"
+      ],
+      "reading_positions": [
+        5,
+        6,
+        7
+      ],
+      "current_summary": "The showman mocks the centaur and provokes his pursuit, torso catch, deliberate hogtie in D0nkey K0ng's Highland ring.",
+      "personalization_focus_proposal": "The Chili Cheesers' crowd-awareness versus D0nkey K0ng's controlled confidence; preserve the reversal from last week's cookout without adding an invented personal incident.",
+      "founder_question": "What specific reaction or joke would make The Chili Cheesers' public embarrassment feel most like this rivalry?",
+      "continuity_locks": [
+        "D0nkey K0ng owns the lasso throughout and is one four-legged gorilla-centaur.",
+        "The Dark Horse stays separate. Rope catch and slipping boot precede visible manual binding.",
+        "Hat ends beside the outlaw; exact final result and football context unchanged."
+      ],
+      "source_refs": [
+        "issue-draft.md#W10-P05",
+        "issue-draft.md#W10-P06",
+        "issue-draft.md#W10-P07"
+      ],
+      "page_titles": [
+        "Everybody Gets a View",
+        "The Ring Runs Out",
+        "No Private Exit"
+      ],
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "retain": "The cookout-to-rodeo reversal and D0nkey K0ng’s physical control already make this personal; keep the existing pursuit, catch and manual binding.",
+        "strengthen": "Track The Chili Cheesers’ attention from the spectators to the service gate to the spectators again. Contrast that need for an audience with D0nkey K0ng’s economical, unhurried control. Three beats should feel like one public reversal, not three interchangeable action posters.",
+        "avoid": "No generic gunfight, lasso ownership swap, championship stakes for the 2025 consolation result, extra personal incident or audience made of teleported principal characters.",
+        "theme": "The showman loses control of the audience.",
+        "source_basis": [
+          "facts.json#/historical_context/W10-G01",
+          "personalization-intake.md#Latest Pass3 direction",
+          "issue-previs.json#W10-P05–W10-P07"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "candidate_line": {
+        "text": "The crowd had not changed its appetite. Only its subject.",
+        "status": "OPTIONAL_EDITORIAL_ALTERNATIVE_NOT_INSERTED",
+        "attributed_real_quote": false,
+        "purpose": "A possible later copy refinement, not additional text to render now."
+      },
+      "beat_directions": [
+        {
+          "page_id": "W10-P05",
+          "focus": "Chili’s second imitation provokes D0nkey K0ng. His bow becomes a turn toward the service gate.",
+          "performance": "Show the outlaw copying the four-hoofed stance, the centaur’s reaction and his hand drawing the rope before Chili bolts for the service gate.",
+          "narration_job": "Narration provides the remembered cookout reversal; the picture supplies the pursuit, without adding a second joke beneath it.",
+          "source_refs": [
+            "issue-previs.json#W10-P05",
+            "facts.json#/historical_context/W10-G01",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P05–W10-P07"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P06",
+          "focus": "Loss of footing is also loss of control over the spectacle.",
+          "performance": "The torso catch, continuous rope and sliding boot are the decisive visual information. Witness reaction is secondary, not a separate reaction panel.",
+          "narration_job": "The paragraph supplies irony about the crowd’s changed reaction; do not repeat a literal description as an extra caption.",
+          "source_refs": [
+            "issue-previs.json#W10-P06",
+            "facts.json#/historical_context/W10-G01",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P05–W10-P07"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P07",
+          "focus": "Public humiliation, not personal injury, is the payoff.",
+          "performance": "Leave the hat just beyond the tied outlaw and keep his look toward the entrance/crowd legible. D0nkey K0ng’s four hooves and manual rope work remain visible.",
+          "narration_job": "Let the menu reversal close the episode; the exact final receipt is factual, not a championship proclamation.",
+          "source_refs": [
+            "issue-previs.json#W10-P07",
+            "facts.json#/historical_context/W10-G01",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P05–W10-P07"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        }
+      ],
+      "prior_performance_note_draft": {
+        "W10-P05": {
+          "focus": "Show The Chili Cheesers actively searching the service gate, with D0nkey K0ng concentrating on the lasso rather than performing for the crowd.",
+          "source_refs": [
+            "issue-draft.md#W10-P05",
+            "director-sequences.json#W10-P05",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "D0nkey K0ng owns the lasso throughout and is one four-legged gorilla-centaur.",
+            "The Dark Horse stays separate. Rope catch and slipping boot precede visible manual binding.",
+            "Hat ends beside the outlaw; exact final result and football context unchanged."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P06": {
+          "focus": "The slipping boot and change in The Chili Cheesers' expression make the loss of control readable; D0nkey K0ng has not needed his axe.",
+          "source_refs": [
+            "issue-draft.md#W10-P06",
+            "director-sequences.json#W10-P06",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "D0nkey K0ng owns the lasso throughout and is one four-legged gorilla-centaur.",
+            "The Dark Horse stays separate. Rope catch and slipping boot precede visible manual binding.",
+            "Hat ends beside the outlaw; exact final result and football context unchanged."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P07": {
+          "focus": "Keep The Chili Cheesers' face visible beside the fallen hat. D0nkey K0ng finishes visible handwork calmly; the crowd is the humiliation, not an added assault.",
+          "source_refs": [
+            "issue-draft.md#W10-P07",
+            "director-sequences.json#W10-P07",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "D0nkey K0ng owns the lasso throughout and is one four-legged gorilla-centaur.",
+            "The Dark Horse stays separate. Rope catch and slipping boot precede visible manual binding.",
+            "Hat ends beside the outlaw; exact final result and football context unchanged."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        }
+      }
+    },
+    {
+      "matchup_id": "W10-M02",
+      "full_matchup_name": "Red Leopards vs El Niño",
+      "page_ids": [
+        "W10-P08",
+        "W10-P09",
+        "W10-P10"
+      ],
+      "reading_positions": [
+        8,
+        9,
+        10
+      ],
+      "current_summary": "El Niño’s storm rolls in. Red’s sandbags fail on the terrace. Later, trees fall on the inland route and a tree limb breaks the Forgotten Court hoop.",
+      "personalization_focus_proposal": "Pride in repair and growing recognition of El Niño; the sourced 2022 semifinal makes the memory personal, not a generic storm defeat.",
+      "founder_question": "How should Red Leopards' final reaction feel after both places fail him?",
+      "continuity_locks": [
+        "Two real locations separated by travel; no newly adjoining court.",
+        "The soccer goal, ruts and court right-wall backboard retain established geometry.",
+        "El Niño is embodied; source-backed history is not a new flashback or current elimination."
+      ],
+      "source_refs": [
+        "issue-draft.md#W10-P08",
+        "issue-draft.md#W10-P09",
+        "issue-draft.md#W10-P10"
+      ],
+      "page_titles": [
+        "One More Bag",
+        "The Place That Answered Once",
+        "That Cold Again"
+      ],
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "retain": "Red Leopards actively tries to preserve something before the defeat. Keep the Week 9 soccer damage and the separate, later Forgotten Court.",
+        "strengthen": "Make the sandbag placement deliberate rather than helpless. Let the court arrival begin with recognition before the branch falls. End on the choice to repair again, distinct from Chili’s public humiliation and Mud Dogs’ ignored authority.",
+        "avoid": "No new basketball match, merged venues, invented historical weather, ghostly cloud face, or assertion that the present defeat eliminates Red Leopards.",
+        "theme": "A proud caretaker recognizes an old opponent in new damage.",
+        "source_basis": [
+          "facts.json#/historical_context/W10-G02",
+          "personalization-intake.md#Latest Pass3 direction",
+          "issue-previs.json#W10-P08–W10-P10"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "candidate_line": {
+        "text": "He had come looking for somewhere that still remembered him winning.",
+        "status": "OPTIONAL_EDITORIAL_ALTERNATIVE_NOT_INSERTED",
+        "attributed_real_quote": false,
+        "purpose": "A possible later copy refinement, not additional text to render now."
+      },
+      "beat_directions": [
+        {
+          "page_id": "W10-P08",
+          "focus": "Repair is an assertion of pride, not passive suffering.",
+          "performance": "Show the front rolling in before Red’s hands lower an actual sandbag as water follows the old rut around its end. Maintain the damaged goal and distant embodied El Niño.",
+          "narration_job": "The 2022 memory explains why the gesture matters; do not illustrate a fabricated 2022 storm flashback.",
+          "source_refs": [
+            "issue-previs.json#W10-P08",
+            "facts.json#/historical_context/W10-G02",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P08–W10-P10"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P09",
+          "focus": "The familiar court offers recognition immediately before another loss.",
+          "performance": "Use Red’s eyeline to show trees falling along the inland approach, then a separate tree toppling and its limb breaking the court hoop. Keep the right-wall backboard.",
+          "narration_job": "The travel sentence and recognition do the emotional work; no new geography lecture or additional basketball contest.",
+          "source_refs": [
+            "issue-previs.json#W10-P09",
+            "facts.json#/historical_context/W10-G02",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P08–W10-P10"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P10",
+          "focus": "Quiet recognition is different from surrender.",
+          "performance": "Hold the seated figure beneath the broken hoop with mud still on him; El Niño remains physically across the court. Preserve open reflection around the figure.",
+          "narration_job": "The exact old semifinal and current non-elimination distinction remain. End on repair and persistence, not a fake season-ending verdict.",
+          "source_refs": [
+            "issue-previs.json#W10-P10",
+            "facts.json#/historical_context/W10-G02",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P08–W10-P10"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        }
+      ],
+      "prior_performance_note_draft": {
+        "W10-P08": {
+          "focus": "Hands press the bag into the low edge while Red Leopards watches the shallow water find its way around; effort rather than posing leads.",
+          "source_refs": [
+            "issue-draft.md#W10-P08",
+            "director-sequences.json#W10-P08",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Two real locations separated by travel; no newly adjoining court.",
+            "The soccer goal, ruts and court right-wall backboard retain established geometry.",
+            "El Niño is embodied; source-backed history is not a new flashback or current elimination."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P09": {
+          "focus": "Red Leopards arrives in a different place and follows the branch toward the familiar right-wall hoop; the change of place must precede recognition.",
+          "source_refs": [
+            "issue-draft.md#W10-P09",
+            "director-sequences.json#W10-P09",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Two real locations separated by travel; no newly adjoining court.",
+            "The soccer goal, ruts and court right-wall backboard retain established geometry.",
+            "El Niño is embodied; source-backed history is not a new flashback or current elimination."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P10": {
+          "focus": "The seated posture carries exhaustion and recurring disappointment, not surrender of the territory; preserve wet sandbag mud and the embodied El Niño across the court.",
+          "source_refs": [
+            "issue-draft.md#W10-P10",
+            "director-sequences.json#W10-P10",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Two real locations separated by travel; no newly adjoining court.",
+            "The soccer goal, ruts and court right-wall backboard retain established geometry.",
+            "El Niño is embodied; source-backed history is not a new flashback or current elimination."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        }
+      }
+    },
+    {
+      "matchup_id": "W10-M03",
+      "full_matchup_name": "Three Dreaded Snake vs Seven Deadly Chins",
+      "page_ids": [
+        "W10-P12",
+        "W10-P13",
+        "W10-P14"
+      ],
+      "reading_positions": [
+        12,
+        13,
+        14
+      ],
+      "current_summary": "A jackhammer wakes the household, a pause briefly offers hope, and Seven Deadly Chins knowingly turns the music up and resumes.",
+      "personalization_focus_proposal": "Different reactions among three heads on one body, and the visitor's deliberate indifference; any specific music or dialogue is a candidate until Jake supplies or approves it.",
+      "founder_question": "What is the most personal comic detail you want in Seven Deadly Chins' refusal to be quiet?",
+      "continuity_locks": [
+        "Baby and partner stay protected inside; no invented spouse likeness.",
+        "The joke targets the adult visitor, not the newborn, and never explains fantasy results through parenting.",
+        "Same tool, speaker and growing concrete patch; no magical repair or entire temple collapse."
+      ],
+      "source_refs": [
+        "issue-draft.md#W10-P12",
+        "issue-draft.md#W10-P13",
+        "issue-draft.md#W10-P14"
+      ],
+      "page_titles": [
+        "Just as the House Settles",
+        "He Heard You",
+        "No Quiet Hours"
+      ],
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "retain": "New-baby context, the jackhammer, the deliberate pause and the louder restart are the approved comic mechanism.",
+        "strengthen": "Stage three readable phases: alarm, one hopeful breath, then knowingly renewed noise. The heads can divide attention among courtyard, protected doorway and listening without becoming three bodies. Make Chins’ acknowledgement unmistakable before his indifference.",
+        "avoid": "No new spouse likeness, baby danger, attributed real quote, invented song choice, family neglect explaining football results, or complete temple collapse.",
+        "theme": "One father, three reactions, and a visitor who understands perfectly.",
+        "source_basis": [
+          "facts.json#/personal_context/TDS_new_baby",
+          "facts.json#/historical_context/W10-G03",
+          "personalization-intake.md#Latest Pass3 direction",
+          "issue-previs.json#W10-P12–W10-P14"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "candidate_line": {
+        "text": "For one second, three heads believed the same promise.",
+        "status": "OPTIONAL_EDITORIAL_ALTERNATIVE_NOT_INSERTED",
+        "attributed_real_quote": false,
+        "purpose": "A possible later copy refinement, not additional text to render now."
+      },
+      "beat_directions": [
+        {
+          "page_id": "W10-P12",
+          "focus": "An ordinary settling household is interrupted by an unnecessary visitor.",
+          "performance": "Show the tool below and exactly three heads arriving at the balcony above. Keep the family inside and the first paving damage localized.",
+          "narration_job": "The prose establishes why the normal waterfall was bearable and the new sound is not; no diagnosis or private family facts.",
+          "source_refs": [
+            "issue-previs.json#W10-P12",
+            "facts.json#/personal_context/TDS_new_baby",
+            "facts.json#/historical_context/W10-G03",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P12–W10-P14"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P13",
+          "focus": "Acknowledgement followed by refusal is the whole joke.",
+          "performance": "In the balcony reverse angle, make eye contact and the hand at the music control visible; the paused tool remains below. One head can turn back toward the protected doorway.",
+          "narration_job": "Preserve the one hopeful breath before the encore. Do not add a speech balloon or second comedy line that interrupts the timing.",
+          "source_refs": [
+            "issue-previs.json#W10-P13",
+            "facts.json#/personal_context/TDS_new_baby",
+            "facts.json#/historical_context/W10-G03",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P12–W10-P14"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P14",
+          "focus": "Delighted adult indifference meets exhausted adult frustration.",
+          "performance": "Return to the low courtyard view and enlarge only the same rubble patch. Seven Deadly Chins operates the tool with coherent hands; the speaker and compressor stay dry.",
+          "narration_job": "The prior two defeats explain the reversal; the baby is context, never the target, cause of the fantasy result or proof of neglect.",
+          "source_refs": [
+            "issue-previs.json#W10-P14",
+            "facts.json#/personal_context/TDS_new_baby",
+            "facts.json#/historical_context/W10-G03",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P12–W10-P14"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        }
+      ],
+      "prior_performance_note_draft": {
+        "W10-P12": {
+          "focus": "The first jackhammer bite pulls Three Dreaded Snake's attention between courtyard and protected doorway; Seven Deadly Chins is visibly enjoying ordinary tool operation.",
+          "source_refs": [
+            "issue-draft.md#W10-P12",
+            "director-sequences.json#W10-P12",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Baby and partner stay protected inside; no invented spouse likeness.",
+            "The joke targets the adult visitor, not the newborn, and never explains fantasy results through parenting.",
+            "Same tool, speaker and growing concrete patch; no magical repair or entire temple collapse."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P13": {
+          "focus": "Make eye contact and the speaker adjustment clear: the refusal is conscious. Three heads remain attached to one body and the visitor remains below.",
+          "source_refs": [
+            "issue-draft.md#W10-P13",
+            "director-sequences.json#W10-P13",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Baby and partner stay protected inside; no invented spouse likeness.",
+            "The joke targets the adult visitor, not the newborn, and never explains fantasy results through parenting.",
+            "Same tool, speaker and growing concrete patch; no magical repair or entire temple collapse."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P14": {
+          "focus": "The same concrete patch grows while Seven Deadly Chins grins toward the balcony; the household frustration escalates without introducing a new fight or danger.",
+          "source_refs": [
+            "issue-draft.md#W10-P14",
+            "director-sequences.json#W10-P14",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Baby and partner stay protected inside; no invented spouse likeness.",
+            "The joke targets the adult visitor, not the newborn, and never explains fantasy results through parenting.",
+            "Same tool, speaker and growing concrete patch; no magical repair or entire temple collapse."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        }
+      }
+    },
+    {
+      "matchup_id": "W10-M04",
+      "full_matchup_name": "Mud Dogs vs Slob on my Dobb",
+      "page_ids": [
+        "W10-P15",
+        "W10-P16",
+        "W10-P17"
+      ],
+      "reading_positions": [
+        15,
+        16,
+        17
+      ],
+      "current_summary": "Mud Dogs tries to assert authority at the entrance, but Slob on my Dobb completes his beer delivery at normal speed and leaves him with the silence.",
+      "personalization_focus_proposal": "Understatement: Slob on my Dobb does not need to acknowledge the threat. Mud Dogs' diminishing authority and the small Cancún taunt carry the humor.",
+      "founder_question": "What small driver or hound reaction would make the delivery's indifference land better?",
+      "continuity_locks": [
+        "Mud Dogs remains a quadruped; Slob on my Dobb remains the massive human driver.",
+        "Cargo stays intact on the raised firm road; no collision, fighting, thrown keg or animal harm.",
+        "Cancún is a taunt; current survival and next-loss claims follow the verified packet."
+      ],
+      "source_refs": [
+        "issue-draft.md#W10-P15",
+        "issue-draft.md#W10-P16",
+        "issue-draft.md#W10-P17"
+      ],
+      "page_titles": [
+        "The Swamp Declares a Blockade",
+        "Same Speed",
+        "Cancún Is Calling"
+      ],
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "retain": "An uninterrupted delivery on the firm raised strip is funnier and more distinctive than a physical fight.",
+        "strengthen": "Give Mud Dogs a visibly asserted boundary, then let the truck pass at the same ordinary pace. Slob on my Dobb’s calm mirror check and lack of celebration contrast with the hound’s growing effort. The empty route, not a victory pose, delivers the ending.",
+        "avoid": "No animal injury, collision, flying keg, throne, captured swamp, unloaded cargo appearing too early, or real travel booking disguised as the Cancún joke.",
+        "theme": "Territorial bluster meets somebody who is merely doing his job.",
+        "source_basis": [
+          "facts.json#/historical_context/W10-G04",
+          "personalization-intake.md#Latest Pass3 direction",
+          "issue-previs.json#W10-P15–W10-P17"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "candidate_line": {
+        "text": "Their 2025 losers-consolation meeting had turned on 3.15 points. This time Slob on my Dobb never needed to stop.",
+        "status": "OPTIONAL_EDITORIAL_ALTERNATIVE_NOT_INSERTED",
+        "attributed_real_quote": false,
+        "purpose": "A possible later copy refinement, not additional text to render now."
+      },
+      "beat_directions": [
+        {
+          "page_id": "W10-P15",
+          "focus": "The hound believes his entrance marker still carries authority.",
+          "performance": "Keep all four paws on the low safe margin, with the truck approaching on the clearly higher, usable strip. The marker provides the territorial claim without blocking the truck physically.",
+          "narration_job": "The landlord comparison is fictional characterization; do not infer real ownership disputes or add a new confrontation.",
+          "source_refs": [
+            "issue-previs.json#W10-P15",
+            "facts.json#/historical_context/W10-G04",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P15–W10-P17"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P16",
+          "focus": "Indifference is stronger than a celebratory taunt.",
+          "performance": "Slob on my Dobb keeps an ordinary driving posture above the hound. Show the wheels on firm ground and the secure cargo; no wheel or load touches the animal.",
+          "narration_job": "Keep the schedule-versus-conquest distinction. A quiet driver and a louder hound should communicate the imbalance without explanatory extra labels.",
+          "source_refs": [
+            "issue-previs.json#W10-P16",
+            "facts.json#/historical_context/W10-G04",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P15–W10-P17"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P17",
+          "focus": "The losing character is left with the silence, not expelled from his home.",
+          "performance": "Make Mud Dogs small beneath his own sign as the loaded truck recedes. The Cancún card stays a small gag, not the page’s dominant destination.",
+          "narration_job": "Use the already verified current survival and next-loss boundary. No plane ticket, elimination stamp or fictional permanent abandonment.",
+          "source_refs": [
+            "issue-previs.json#W10-P17",
+            "facts.json#/historical_context/W10-G04",
+            "personalization-intake.md#Latest Pass3 direction",
+            "issue-previs.json#W10-P15–W10-P17"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        }
+      ],
+      "prior_performance_note_draft": {
+        "W10-P15": {
+          "focus": "Mud Dogs plants four paws at the marker with confidence; Slob on my Dobb checks a mirror like a working driver, not a charging attacker.",
+          "source_refs": [
+            "issue-draft.md#W10-P15",
+            "director-sequences.json#W10-P15",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Mud Dogs remains a quadruped; Slob on my Dobb remains the massive human driver.",
+            "Cargo stays intact on the raised firm road; no collision, fighting, thrown keg or animal harm.",
+            "Cancún is a taunt; current survival and next-loss claims follow the verified packet."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P16": {
+          "focus": "The driver's calm posture and secure cargo make his indifference readable as Mud Dogs barks on the lower shoulder.",
+          "source_refs": [
+            "issue-draft.md#W10-P16",
+            "director-sequences.json#W10-P16",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Mud Dogs remains a quadruped; Slob on my Dobb remains the massive human driver.",
+            "Cargo stays intact on the raised firm road; no collision, fighting, thrown keg or animal harm.",
+            "Cancún is a taunt; current survival and next-loss claims follow the verified packet."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P17": {
+          "focus": "Make the remaining hound small against his sign and the receding road; the loose Cancún card is a taunt, not an official elimination notice.",
+          "source_refs": [
+            "issue-draft.md#W10-P17",
+            "director-sequences.json#W10-P17",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Mud Dogs remains a quadruped; Slob on my Dobb remains the massive human driver.",
+            "Cargo stays intact on the raised firm road; no collision, fighting, thrown keg or animal harm.",
+            "Cancún is a taunt; current survival and next-loss claims follow the verified packet."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        }
+      }
+    },
+    {
+      "matchup_id": "W10-M05",
+      "full_matchup_name": "Dr. Duckhook vs His Majesty's Blood",
+      "page_ids": [
+        "W10-P19",
+        "W10-P20",
+        "W10-P21"
+      ],
+      "reading_positions": [
+        20,
+        21,
+        22
+      ],
+      "current_summary": "An apparently generous birthday guest reveals an enormous 200 Burger, then presses a separate cake into the host's face while guests watch.",
+      "personalization_focus_proposal": "Social performance: Dr. Duckhook's attempt to remain gracious, His Majesty's Blood's controlled trolling and the delayed crowd reaction. The birthday must cause the joke.",
+      "founder_question": "Which moment should carry the biggest laugh: the gift reveal, Dr. Duckhook's response, or the cake payoff?",
+      "continuity_locks": [
+        "Indoor Jackson dining hall, fixed sightlines and separate burger and cake.",
+        "No invented age, real named guests or attributed toast.",
+        "His Majesty's Blood keeps the belt; sword unused; candles removed before cake contact."
+      ],
+      "source_refs": [
+        "issue-draft.md#W10-P19",
+        "issue-draft.md#W10-P20",
+        "issue-draft.md#W10-P21"
+      ],
+      "page_titles": [
+        "A Very Generous Guest",
+        "The 200 Burger",
+        "Many Unhappy Returns"
+      ],
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "retain": "The indoor birthday gathering, the oversized wrapped gift, the 200 Burger and the separate cake are the scene’s personal engine.",
+        "strengthen": "Delay the social reaction: welcome first, strained host’s smile at the reveal, then witnesses recognizing the insult. His Majesty’s Blood trolls through controlled posture rather than a weapon. The cake contact is the payoff; the intact burger keeps the original joke visible.",
+        "avoid": "No invented age, named real guests, fake toast, literal historical party flashback, sword duel, collapsed table or replacement of the burger by the cake.",
+        "theme": "A gracious host discovers that the gift is the insult.",
+        "source_basis": [
+          "facts.json#/personal_context/Duckhook_birthday",
+          "facts.json#/historical_context/W10-G05",
+          "personalization-intake.md#His Majesty",
+          "issue-previs.json#W10-P19–W10-P21"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "candidate_line": {
+        "text": "Dr. Duckhook kept the host’s smile until he understood the flag.",
+        "status": "OPTIONAL_EDITORIAL_ALTERNATIVE_NOT_INSERTED",
+        "attributed_real_quote": false,
+        "purpose": "A possible later copy refinement, not additional text to render now."
+      },
+      "beat_directions": [
+        {
+          "page_id": "W10-P19",
+          "focus": "The host welcomes the very rival tied to the old four-tenths semifinal wound.",
+          "performance": "Let Dr. Duckhook’s welcoming posture and the apparently generous box establish the social expectation. His Majesty's Blood’s face stays concealed; express restraint through posture, not an invented smile.",
+          "narration_job": "The 0.40 historical callback gives hesitation meaning; it is a football memory, not evidence of a real-life grudge or invented speech.",
+          "source_refs": [
+            "issue-previs.json#W10-P19",
+            "facts.json#/personal_context/Duckhook_birthday",
+            "facts.json#/historical_context/W10-G05",
+            "personalization-intake.md#His Majesty",
+            "issue-previs.json#W10-P19–W10-P21"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P20",
+          "focus": "A gift becomes a public scoring joke one beat after it is opened.",
+          "performance": "Show the delayed change in the bill/eyes and the guests’ dawning response. The exact 200 BURGER flag belongs to the double-decker hamburger; the cake remains separate.",
+          "narration_job": "Preserve the gracious-host tension. Do not call 200 an exact final score or add an invented birthday age.",
+          "source_refs": [
+            "issue-previs.json#W10-P20",
+            "facts.json#/personal_context/Duckhook_birthday",
+            "facts.json#/historical_context/W10-G05",
+            "personalization-intake.md#His Majesty",
+            "issue-previs.json#W10-P19–W10-P21"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P21",
+          "focus": "The birthday occasion determines the humiliation.",
+          "performance": "Show gloved hands, soft cake contact, a still-recognizable bill and vest, and the untouched burger. Candles are removed; the table and guests retain their positions.",
+          "narration_job": "The Week 9 cookout callback connects humiliation passed onward, not a new championship or belt transfer.",
+          "source_refs": [
+            "issue-previs.json#W10-P21",
+            "facts.json#/personal_context/Duckhook_birthday",
+            "facts.json#/historical_context/W10-G05",
+            "personalization-intake.md#His Majesty",
+            "issue-previs.json#W10-P19–W10-P21"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        }
+      ],
+      "prior_performance_note_draft": {
+        "W10-P19": {
+          "focus": "Show Dr. Duckhook genuinely welcoming the wrapped gift; His Majesty's Blood's contained posture makes the apparent generosity plausible.",
+          "source_refs": [
+            "issue-draft.md#W10-P19",
+            "director-sequences.json#W10-P19",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Indoor Jackson dining hall, fixed sightlines and separate burger and cake.",
+            "No invented age, real named guests or attributed toast.",
+            "His Majesty's Blood keeps the belt; sword unused; candles removed before cake contact."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P20": {
+          "focus": "Give Dr. Duckhook's attempt at a gracious smile time to read while guests realize the milestone joke. The separate cake remains visibly untouched.",
+          "source_refs": [
+            "issue-draft.md#W10-P20",
+            "director-sequences.json#W10-P20",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Indoor Jackson dining hall, fixed sightlines and separate burger and cake.",
+            "No invented age, real named guests or attributed toast.",
+            "His Majesty's Blood keeps the belt; sword unused; candles removed before cake contact."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P21": {
+          "focus": "Read the deliberate gloved hands and cake contact first, then the birthday host's bill and vest under frosting; the burger stays intact in the open box.",
+          "source_refs": [
+            "issue-draft.md#W10-P21",
+            "director-sequences.json#W10-P21",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "Indoor Jackson dining hall, fixed sightlines and separate burger and cake.",
+            "No invented age, real named guests or attributed toast.",
+            "His Majesty's Blood keeps the belt; sword unused; candles removed before cake contact."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        }
+      }
+    },
+    {
+      "matchup_id": "W10-M06",
+      "full_matchup_name": "ObiWan Jacoby vs The LLC",
+      "page_ids": [
+        "W10-P22",
+        "W10-P23",
+        "W10-P24"
+      ],
+      "reading_positions": [
+        23,
+        24,
+        25
+      ],
+      "current_summary": "ObiWan Jacoby disables the first battery. The LLC rises from the chair, descends to stand beside him, offers protection for surrender, then circles to face him after he refuses. A hand signal releases the surviving battery’s lightning across the field throne room.",
+      "personalization_focus_proposal": "A view of the home arch makes surrender tempting. The lit blade answers.",
+      "founder_question": "Will he trade the blade for the safety of his home?",
+      "continuity_locks": [
+        "mountain causeway below the command shelf",
+        "inner home arch and sheltered golden retriever",
+        "upper ridge steps to temporary field throne room",
+        "leather command chair above the floor seam",
+        "Lightning consumes the silhouette. The LLC wins; the home and its defender carry forward alive."
+      ],
+      "source_refs": [
+        "issue-draft.md#W10-P22",
+        "issue-draft.md#W10-P23",
+        "issue-draft.md#W10-P24"
+      ],
+      "page_titles": [
+        "The Empire Opens Fire",
+        "The Price of Quiet",
+        "Unlimited Firepower"
+      ],
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "retain": "Canonical suited executive, green blade and home arch.",
+        "strengthen": "ObiWan Jacoby disables the first battery. The LLC rises from the chair, descends to stand beside him, offers protection for surrender, then circles to face him after he refuses. A hand signal releases the surviving battery’s lightning across the field throne room.",
+        "avoid": "No duplicate battery, permanent death, transfer of the home or unearned change to the playoff picture.",
+        "theme": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+        "source_basis": [
+          "facts.json#/historical_context/W10-G06",
+          "personalization-intake.md#ObiWan",
+          "issue-previs.json#W10-P22–W10-P24"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "candidate_line": {
+        "text": "The chair stayed empty while the terms were offered.",
+        "status": "OPTIONAL_EDITORIAL_ALTERNATIVE_NOT_INSERTED",
+        "attributed_real_quote": false,
+        "purpose": "A possible later copy refinement, not additional text to render now."
+      },
+      "beat_directions": [
+        {
+          "page_id": "W10-P22",
+          "focus": "A real tactical success earns ObiWan Jacoby an audience.",
+          "performance": "The separate golden retriever remains in shelter while ObiWan Jacoby takes his lit blade onto the causeway. The suited LLC sits in the leather chair; both batteries, the steps and the arch are visible on one axis. ObiWan Jacoby deflects the shot and disables the first battery. The LLC rises above its smoke.",
+          "narration_job": "A real tactical success earns ObiWan Jacoby an audience.",
+          "source_refs": [
+            "issue-previs.json#W10-P22",
+            "facts.json#/historical_context/W10-G06",
+            "personalization-intake.md#ObiWan",
+            "issue-previs.json#W10-P22–W10-P24"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P23",
+          "focus": "A view of the home arch makes surrender tempting. The lit blade answers.",
+          "performance": "ObiWan Jacoby climbs to the field throne room while The LLC descends from the chair. The LLC indicates the illuminated arch, then the empty stone before his chair. The surviving battery is visible below. ObiWan Jacoby crosses the floor seam, his blade still lit. The LLC starts to circle into his sightline.",
+          "narration_job": "A view of the home arch makes surrender tempting. The lit blade answers.",
+          "source_refs": [
+            "issue-previs.json#W10-P23",
+            "facts.json#/historical_context/W10-G06",
+            "personalization-intake.md#ObiWan",
+            "issue-previs.json#W10-P22–W10-P24"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        },
+        {
+          "page_id": "W10-P24",
+          "focus": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+          "performance": "The LLC completes his turn to face ObiWan Jacoby, raises a hand, and the surviving battery sends branching lightning across the field throne room. His opponent’s silhouette disappears in the light. The empty chair, smoking first battery and arch lamp remain visible. The retriever stays sheltered.",
+          "narration_job": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+          "source_refs": [
+            "issue-previs.json#W10-P24",
+            "facts.json#/historical_context/W10-G06",
+            "personalization-intake.md#ObiWan",
+            "issue-previs.json#W10-P22–W10-P24"
+          ],
+          "scope": "Interpretation of the supplied fictional staging; not new real-world personal facts."
+        }
+      ],
+      "prior_performance_note_draft": {
+        "W10-P22": {
+          "focus": "A real tactical success earns ObiWan Jacoby an audience.",
+          "source_refs": [
+            "issue-draft.md#W10-P22",
+            "director-sequences.json#W10-P22",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "mountain causeway below the command shelf",
+            "inner home arch and sheltered golden retriever",
+            "upper ridge steps to temporary field throne room",
+            "leather command chair above the floor seam",
+            "Lightning consumes the silhouette. The LLC wins; the home and its defender carry forward alive."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P23": {
+          "focus": "A view of the home arch makes surrender tempting. The lit blade answers.",
+          "source_refs": [
+            "issue-draft.md#W10-P23",
+            "director-sequences.json#W10-P23",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "mountain causeway below the command shelf",
+            "inner home arch and sheltered golden retriever",
+            "upper ridge steps to temporary field throne room",
+            "leather command chair above the floor seam",
+            "Lightning consumes the silhouette. The LLC wins; the home and its defender carry forward alive."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        },
+        "W10-P24": {
+          "focus": "The LLC wins the encounter after ObiWan Jacoby freely refuses the price.",
+          "source_refs": [
+            "issue-draft.md#W10-P24",
+            "director-sequences.json#W10-P24",
+            "character-world-packet.json"
+          ],
+          "bounds": [
+            "mountain causeway below the command shelf",
+            "inner home arch and sheltered golden retriever",
+            "upper ridge steps to temporary field throne room",
+            "leather command chair above the floor seam",
+            "Lightning consumes the silhouette. The LLC wins; the home and its defender carry forward alive."
+          ],
+          "new_personal_claims": false,
+          "mode": "Source-grounded performance emphasis; no new event or anecdote."
+        }
+      }
+    }
+  ],
+  "supporting_pages": [
+    {
+      "page_id": "W10-P01",
+      "reading_position": 1,
+      "title": "THE CEILING BREAKS",
+      "topic": "Cover emphasis",
+      "editorial_note": "Make both 200-point characters unmistakable in their own story presentations, not a new meeting.",
+      "founder_question": "Which character or story cue should lead the cover emotionally?",
+      "source_ref": "issue-draft.md#W10-P01",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Make the two 200-point performances personally different, not two generic conquerors.",
+        "retain": "Retain both canonical characters and their separate Week 10 story contexts.",
+        "strengthen": "His Majesty’s Blood’s gift and The LLC’s command chair supply two distinct character signatures in one editorial cover. Do not convert the title into a literal roof breaking.",
+        "avoid": "No invented meeting, 200-inscribed title belt, or replacement identity.",
+        "source_basis": [
+          "issue-previs.json#W10-P01",
+          "facts.json#/history_200"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Make both 200-point characters unmistakable in their own story presentations, not a new meeting. Emphasize: Two canonical 200-point performers, each in his own story atmosphere.",
+        "source_refs": [
+          "issue-draft.md#W10-P01",
+          "design-review-20261117/composition-directions.json#W10-P01"
+        ],
+        "bounds": [
+          "Both actual identities, His Majesty's Blood's belt and gift, The LLC's suit/chair/cigar; no new shared location.",
+          "Two exact named score callouts aligned and level; no generic 200 belt inscription."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P01",
+        "focus": "Make the two 200-point performances personally different, not two generic conquerors.",
+        "performance": "His Majesty’s Blood’s gift and The LLC’s command chair supply two distinct character signatures in one editorial cover. Do not convert the title into a literal roof breaking.",
+        "narration_job": "Retain both canonical characters and their separate Week 10 story contexts.",
+        "source_refs": [
+          "issue-previs.json#W10-P01",
+          "facts.json#/history_200"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P02",
+      "reading_position": 2,
+      "title": "ROOM ABOVE TWO HUNDRED",
+      "topic": "Opening Drive voice",
+      "editorial_note": "Keep the established briefing-table identity while deciding the issue's opening emphasis and voice.",
+      "founder_question": "What is the one feeling the Opening Drive should leave before the matchups begin?",
+      "source_ref": "issue-draft.md#W10-P02",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Let the opening connect the issue’s shared pressure without replaying every payoff.",
+        "retain": "Keep the published briefing table, map, banner and folio language and full current narration.",
+        "strengthen": "Use the already specified scene props as connective clues. The table should lead into the six events rather than look like a fixture list pasted over a landscape.",
+        "avoid": "No new map borders, scene teleportation, duplicated opening headline or silent prose cuts.",
+        "source_basis": [
+          "issue-previs.json#W10-P02",
+          "issue-previs.json#W10-P02"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Keep the established briefing-table identity while deciding the issue's opening emphasis and voice. Emphasize: The briefing table gathers the six stories before the reader enters them.",
+        "source_refs": [
+          "issue-draft.md#W10-P02",
+          "design-review-20261117/composition-directions.json#W10-P02"
+        ],
+        "bounds": [
+          "Published table/map/banner identity, all symbolic props as symbols only; no new geography or principal cast.",
+          "No scores invented on maps or props; any supplied labels are exact, typography remains level."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P02",
+        "focus": "Let the opening connect the issue’s shared pressure without replaying every payoff.",
+        "performance": "Use the already specified scene props as connective clues. The table should lead into the six events rather than look like a fixture list pasted over a landscape.",
+        "narration_job": "Keep the published briefing table, map, banner and folio language and full current narration.",
+        "source_refs": [
+          "issue-previs.json#W10-P02",
+          "issue-previs.json#W10-P02"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P03",
+      "reading_position": 3,
+      "title": "KEEP THE WHOLE LEAGUE IN VIEW",
+      "topic": "Commissioner voice",
+      "editorial_note": "Keep the distinction between fictional consequences and official standings; do not invent a narrator portrait.",
+      "founder_question": "What commissioner message or league sentiment do you most want to say in your own voice?",
+      "source_ref": "issue-draft.md#W10-P03",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Address the league as people who will remember the week, not as a production-system report.",
+        "retain": "Keep the distinction between fictional consequences and the actual standings.",
+        "strengthen": "Let the shared birthday, broken hoop and passing truck examples carry the voice. Keep the institutional scene restrained and the entire address readable.",
+        "avoid": "No invented commissioner portrait, real quote, or claims that story outcomes change league rules.",
+        "source_basis": [
+          "issue-previs.json#W10-P03",
+          "issue-previs.json#W10-P03"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Keep the distinction between fictional consequences and official standings; do not invent a narrator portrait. Emphasize: A commissioner address about consequences and the league's shared stakes.",
+        "source_refs": [
+          "issue-draft.md#W10-P03",
+          "design-review-20261117/composition-directions.json#W10-P03"
+        ],
+        "bounds": [
+          "No invented commissioner portrait or attributed personal quote; retain neutral attendants only as already specified.",
+          "No added rankings or numerical callouts beyond supplied copy."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P03",
+        "focus": "Address the league as people who will remember the week, not as a production-system report.",
+        "performance": "Let the shared birthday, broken hoop and passing truck examples carry the voice. Keep the institutional scene restrained and the entire address readable.",
+        "narration_job": "Keep the distinction between fictional consequences and the actual standings.",
+        "source_refs": [
+          "issue-previs.json#W10-P03",
+          "issue-previs.json#W10-P03"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P04",
+      "reading_position": 4,
+      "title": "THE WEEK 10 BOARD",
+      "topic": "Scoreboard hierarchy",
+      "editorial_note": "Keep all six exact results and full names; personal emphasis must not change or hide another result.",
+      "founder_question": "Which result deserves the visual emphasis without distorting the scoreboard?",
+      "source_ref": "issue-draft.md#W10-P04",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Make the six exact results the neutral reference point for the stories.",
+        "retain": "Keep all six pairings, full names and final figures in their current order.",
+        "strengthen": "Use consistent winning/losing emphasis and generous row spacing, not an enlarged favorite matchup that hides another result.",
+        "avoid": "No re-sorting pairings, obsolete live scores or ornate perspective distorting digits.",
+        "source_basis": [
+          "issue-previs.json#W10-P04",
+          "facts.json#/games"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Keep all six exact results and full names; personal emphasis must not change or hide another result. Emphasize: Six completed contests become a public, exact scoreboard.",
+        "source_refs": [
+          "issue-draft.md#W10-P04",
+          "design-review-20261117/composition-directions.json#W10-P04"
+        ],
+        "bounds": [
+          "All twelve full team names and six exact pairings; pavilion remains separate from the rodeo.",
+          "Six level readable rows, two decimal scores and FINAL qualifiers; no perspective-distorted or image-invented lettering."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P04",
+        "focus": "Make the six exact results the neutral reference point for the stories.",
+        "performance": "Use consistent winning/losing emphasis and generous row spacing, not an enlarged favorite matchup that hides another result.",
+        "narration_job": "Keep all six pairings, full names and final figures in their current order.",
+        "source_refs": [
+          "issue-previs.json#W10-P04",
+          "facts.json#/games"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P11",
+      "reading_position": 11,
+      "title": "THE ROADS BETWEEN",
+      "topic": "World transition",
+      "editorial_note": "Use the regionally varied weather and established routes as a breath between sequences.",
+      "founder_question": "What should this world interlude make the reader notice or feel?",
+      "source_ref": "issue-draft.md#W10-P11",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Give the audience a breath and show that one world receives different weather.",
+        "retain": "Keep the established regional sequence and routes.",
+        "strengthen": "Use coast, inland wind and delayed wetland runoff as spatial continuity. Reduce the title’s dominance so the landscape, not another poster frame, supplies the transition.",
+        "avoid": "No new geography, literal division borders, or principal-character cameos.",
+        "source_basis": [
+          "issue-previs.json#W10-P11",
+          "issue-previs.json#W10-P11"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Use the regionally varied weather and established routes as a breath between sequences. Emphasize: One weather front reaches different parts of the Commonwealth.",
+        "source_refs": [
+          "issue-draft.md#W10-P11",
+          "design-review-20261117/composition-directions.json#W10-P11"
+        ],
+        "bounds": [
+          "Established bridge and regional distinctions; no claim all six actual venues are visible or adjacent.",
+          "No invented regional values, routes or odds."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P11",
+        "focus": "Give the audience a breath and show that one world receives different weather.",
+        "performance": "Use coast, inland wind and delayed wetland runoff as spatial continuity. Reduce the title’s dominance so the landscape, not another poster frame, supplies the transition.",
+        "narration_job": "Keep the established regional sequence and routes.",
+        "source_refs": [
+          "issue-previs.json#W10-P11",
+          "issue-previs.json#W10-P11"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P18",
+      "reading_position": 18,
+      "title": "WHY THE BOARD MOVED",
+      "topic": "Performance explanation",
+      "editorial_note": "Keep the source-backed leaders, Monday contribution and bench distinction; add no unsupported motive.",
+      "founder_question": "Which performance deserves more context or a sharper league-specific observation?",
+      "source_ref": "issue-draft.md#W10-P18",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Explain which managers benefited from actual player contributions without hindsight shaming.",
+        "retain": "Keep the six category leaders, the two three-player totals and the non-scoring bench distinction.",
+        "strengthen": "Let the final Monday contribution give ObiWan Jacoby’s resistance factual context; distinguish strong scoring in defeat from a failed effort.",
+        "avoid": "No bench points added to a score, optimal-lineup claims or inferred manager motives.",
+        "source_basis": [
+          "issue-previs.json#W10-P18",
+          "facts.json#/derived"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Keep the source-backed leaders, Monday contribution and bench distinction; add no unsupported motive. Emphasize: Individual performances explain the final board.",
+        "source_refs": [
+          "issue-draft.md#W10-P18",
+          "design-review-20261117/composition-directions.json#W10-P18"
+        ],
+        "bounds": [
+          "No borrowed principal character, no added bench points; preserve starter/bench distinction.",
+          "Exactly six leader entries and full team/player names; all values, trio sums and Monday figures copied from current source."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P18",
+        "focus": "Explain which managers benefited from actual player contributions without hindsight shaming.",
+        "performance": "Let the final Monday contribution give ObiWan Jacoby’s resistance factual context; distinguish strong scoring in defeat from a failed effort.",
+        "narration_job": "Keep the six category leaders, the two three-player totals and the non-scoring bench distinction.",
+        "source_refs": [
+          "issue-previs.json#W10-P18",
+          "facts.json#/derived"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P34",
+      "reading_position": 19,
+      "title": "THE COST OF SUNDAY",
+      "topic": "Injury consequences",
+      "editorial_note": "Preserve dates and reported/confirmed distinctions; no speculative medical escalation.",
+      "founder_question": "Which roster consequence should receive the clearest practical emphasis?",
+      "source_ref": "issue-draft.md#W10-P34",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Make consequences useful to the affected managers without making injuries a joke.",
+        "retain": "Keep the exact dates, qualified diagnoses, indirect D/ST exposure and current roster joins.",
+        "strengthen": "Differentiate newly reported issues from retained absences with typography and dispatch grouping rather than a dramatic medical illustration.",
+        "avoid": "No upgraded diagnosis, guaranteed return, medical joke, or personal-health inference about an owner.",
+        "source_basis": [
+          "issue-previs.json#W10-P34",
+          "sports-news-pass3.json"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Preserve dates and reported/confirmed distinctions; no speculative medical escalation. Emphasize: Availability separates Sunday's consequences from the next lineup.",
+        "source_refs": [
+          "issue-draft.md#W10-P34",
+          "design-review-20261117/composition-directions.json#W10-P34"
+        ],
+        "bounds": [
+          "Reported versus confirmed statuses, old injury dates and indirect defense exposure; no invented patient imagery.",
+          "Do not convert source qualifiers to diagnoses or promises; preserve all exact dates and eligibility conditions."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P34",
+        "focus": "Make consequences useful to the affected managers without making injuries a joke.",
+        "performance": "Differentiate newly reported issues from retained absences with typography and dispatch grouping rather than a dramatic medical illustration.",
+        "narration_job": "Keep the exact dates, qualified diagnoses, indirect D/ST exposure and current roster joins.",
+        "source_refs": [
+          "issue-previs.json#W10-P34",
+          "sports-news-pass3.json"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P25",
+      "reading_position": 26,
+      "title": "THE NEXT STARTING SHEET",
+      "topic": "Reserve needs",
+      "editorial_note": "Keep current specialist gaps and timestamped roster scope separate from assumed future moves.",
+      "founder_question": "Which preparation problem feels most important to call out to the league?",
+      "source_ref": "issue-draft.md#W10-P25",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Present practical preparation, not blame for a still-editable future lineup.",
+        "retain": "Keep the current seven uncovered specialist positions across six teams.",
+        "strengthen": "Organize each team and its need as one readable unit in the loggia. Show absence through logistics and empty hooks, not invented injured character bodies.",
+        "avoid": "No assumed acquisition, player assignment, finished Week 11 lineup or stale Monday starter replay.",
+        "source_basis": [
+          "issue-previs.json#W10-P25",
+          "facts.json#/pass3/readiness"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Keep current specialist gaps and timestamped roster scope separate from assumed future moves. Emphasize: The next lineup has specific gaps rather than generic crisis.",
+        "source_refs": [
+          "issue-draft.md#W10-P25",
+          "design-review-20261117/composition-directions.json#W10-P25"
+        ],
+        "bounds": [
+          "Six teams/seven positions; no fabricated completed move, diagnosis or selected future starter.",
+          "Preserve complete team names and exact specialist needs; do not angle or warp the list."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P25",
+        "focus": "Present practical preparation, not blame for a still-editable future lineup.",
+        "performance": "Organize each team and its need as one readable unit in the loggia. Show absence through logistics and empty hooks, not invented injured character bodies.",
+        "narration_job": "Keep the current seven uncovered specialist positions across six teams.",
+        "source_refs": [
+          "issue-previs.json#W10-P25",
+          "facts.json#/pass3/readiness"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P26",
+      "reading_position": 27,
+      "title": "MOVES THAT REACHED THE ROSTER",
+      "topic": "Transaction stories",
+      "editorial_note": "Use completed moves and exact FAAB/chronology; do not invent why a manager acted.",
+      "founder_question": "Is there a sourced league reaction or context behind these moves that should be included?",
+      "source_ref": "issue-draft.md#W10-P26",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Let the actual transaction trail reveal human choices without inventing intent.",
+        "retain": "Keep the completed-event window, exact FAAB, dates and owner changes.",
+        "strengthen": "The Mason trail, Brian Thomas Jr. move and receiver claims should remain distinct chronological stories; make the source order clear inside one intake scene.",
+        "avoid": "No failed claim called a completed move, add/drop called a trade, or invented reason for an owner’s action.",
+        "source_basis": [
+          "issue-previs.json#W10-P26",
+          "facts.json#/completed_transactions"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Use completed moves and exact FAAB/chronology; do not invent why a manager acted. Emphasize: Completed moves form a sequence of roster consequences.",
+        "source_refs": [
+          "issue-draft.md#W10-P26",
+          "design-review-20261117/composition-directions.json#W10-P26"
+        ],
+        "bounds": [
+          "Lifecycle status, correct add/drop chronology, FAAB versus money and post-deadline distinction.",
+          "All 29-count, dates, bids, player/team names and callout bodies exact; no new trade recommendation."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P26",
+        "focus": "Let the actual transaction trail reveal human choices without inventing intent.",
+        "performance": "The Mason trail, Brian Thomas Jr. move and receiver claims should remain distinct chronological stories; make the source order clear inside one intake scene.",
+        "narration_job": "Keep the completed-event window, exact FAAB, dates and owner changes.",
+        "source_refs": [
+          "issue-previs.json#W10-P26",
+          "facts.json#/completed_transactions"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P27",
+      "reading_position": 28,
+      "title": "TWELVE TEAMS. TEN POSTED RESULTS.",
+      "topic": "Standings story",
+      "editorial_note": "Official provider order stays fixed; use voice and emphasis rather than rearranging seeds.",
+      "founder_question": "What is the strongest league-wide takeaway from the posted standings?",
+      "source_ref": "issue-draft.md#W10-P27",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Show why equal records still feel different to different owners.",
+        "retain": "Preserve all twelve official rows and the posted seed order.",
+        "strengthen": "Emphasize the six-team 6–4 cluster and the cutoff without moving rows or turning points-for order into seeding. Keep the hall secondary to comparison.",
+        "avoid": "No creative seed reorder, invented tiebreak rule or visual omission of bottom teams.",
+        "source_basis": [
+          "issue-previs.json#W10-P27",
+          "final-league-snapshot.json#/standings"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Official provider order stays fixed; use voice and emphasis rather than rearranging seeds. Emphasize: The posted table distinguishes equal records from equal seeds.",
+        "source_refs": [
+          "issue-draft.md#W10-P27",
+          "design-review-20261117/composition-directions.json#W10-P27"
+        ],
+        "bounds": [
+          "All twelve teams, official order, through-ten scope and provider tiebreak distinction.",
+          "Deterministic seed/record/points columns; no generative numbers or points-only resorting."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P27",
+        "focus": "Show why equal records still feel different to different owners.",
+        "performance": "Emphasize the six-team 6–4 cluster and the cutoff without moving rows or turning points-for order into seeding. Keep the hall secondary to comparison.",
+        "narration_job": "Preserve all twelve official rows and the posted seed order.",
+        "source_refs": [
+          "issue-previs.json#W10-P27",
+          "final-league-snapshot.json#/standings"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P28",
+      "reading_position": 29,
+      "title": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+      "topic": "Division pressures",
+      "editorial_note": "Keep Burgers, Pizza and Wings as league divisions, not literal world borders.",
+      "founder_question": "What distinct personality or tension should each division summary express?",
+      "source_ref": "issue-draft.md#W10-P28",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Make the three division situations distinct without inventing three countries.",
+        "retain": "Retain Burgers, Pizza and Wings membership and current records.",
+        "strengthen": "Let the three standards share one terrace, with each pressure paragraph adjacent to its correct emblem in a level editorial plane.",
+        "avoid": "No literal borders, new titles or implied automatic playoff qualification.",
+        "source_basis": [
+          "issue-previs.json#W10-P28",
+          "facts.json#/divisions"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Keep Burgers, Pizza and Wings as league divisions, not literal world borders. Emphasize: The same record produces different pressure in three divisions.",
+        "source_refs": [
+          "issue-draft.md#W10-P28",
+          "design-review-20261117/composition-directions.json#W10-P28"
+        ],
+        "bounds": [
+          "Divisions are league groupings, not geographical borders or new food kingdoms.",
+          "Exact final records and all source callouts; no clinch or elimination claim added."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P28",
+        "focus": "Make the three division situations distinct without inventing three countries.",
+        "performance": "Let the three standards share one terrace, with each pressure paragraph adjacent to its correct emblem in a level editorial plane.",
+        "narration_job": "Retain Burgers, Pizza and Wings membership and current records.",
+        "source_refs": [
+          "issue-previs.json#W10-P28",
+          "facts.json#/divisions"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P29",
+      "reading_position": 30,
+      "title": "THE TWELVE — SCORING FORM",
+      "topic": "Scoring-form interpretation",
+      "editorial_note": "Preserve the existing 70/30 method and distinguish scoring form from official seeding.",
+      "founder_question": "Which contrast between record and scoring deserves a useful short observation?",
+      "source_ref": "issue-draft.md#W10-P29",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Explain scoring form as a different lens from the official standings.",
+        "retain": "Keep all twelve rows, final input scope and the unchanged 70/30 formula.",
+        "strengthen": "Use the lake/bridge landscape as a calm counterpoint; make the method visible before the reader mistakes the order for playoff seeds.",
+        "avoid": "No stealth injury adjustment, invented probability or changed weight.",
+        "source_basis": [
+          "issue-previs.json#W10-P29",
+          "facts.json#/scoring_form"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Preserve the existing 70/30 method and distinguish scoring form from official seeding. Emphasize: Scoring form ranks production, not playoff entitlement.",
+        "source_refs": [
+          "issue-draft.md#W10-P29",
+          "design-review-20261117/composition-directions.json#W10-P29"
+        ],
+        "bounds": [
+          "Ranked order distinct from official seeds; no weather or injury edits to the formula.",
+          "All twelve index values exact; 70/30 method displayed once, level and readable."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P29",
+        "focus": "Explain scoring form as a different lens from the official standings.",
+        "performance": "Use the lake/bridge landscape as a calm counterpoint; make the method visible before the reader mistakes the order for playoff seeds.",
+        "narration_job": "Keep all twelve rows, final input scope and the unchanged 70/30 formula.",
+        "source_refs": [
+          "issue-previs.json#W10-P29",
+          "facts.json#/scoring_form"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P30",
+      "reading_position": 31,
+      "title": "FOUR MORE AFTER THIS",
+      "topic": "Playoff road",
+      "editorial_note": "Use existing qualification witnesses and exact elimination conditions, never invented odds.",
+      "founder_question": "Which team's route needs the most understandable explanation?",
+      "source_ref": "issue-draft.md#W10-P30",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Make remaining possibility visible without pretending every route is equally likely.",
+        "retain": "Keep seven berths, four games and the verified Mud Dogs next-loss condition.",
+        "strengthen": "Let the climb carry the time sequence. Keep explanatory text level in calm spaces and the harsh specific condition near the relevant note.",
+        "avoid": "No invented odds, automatic clinches, or promoting a mathematical witness into a prediction.",
+        "source_basis": [
+          "issue-previs.json#W10-P30",
+          "playoff-witnesses-final.json"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Use existing qualification witnesses and exact elimination conditions, never invented odds. Emphasize: Four remaining games narrow the route to seven berths.",
+        "source_refs": [
+          "issue-draft.md#W10-P30",
+          "design-review-20261117/composition-directions.json#W10-P30"
+        ],
+        "bounds": [
+          "Existing route, no new territory, current survival proof distinct from odds.",
+          "Exact seven-berth explanation and loss-elimination qualification; no invented probability or clinched crown."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P30",
+        "focus": "Make remaining possibility visible without pretending every route is equally likely.",
+        "performance": "Let the climb carry the time sequence. Keep explanatory text level in calm spaces and the harsh specific condition near the relevant note.",
+        "narration_job": "Keep seven berths, four games and the verified Mud Dogs next-loss condition.",
+        "source_refs": [
+          "issue-previs.json#W10-P30",
+          "playoff-witnesses-final.json"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P31",
+      "reading_position": 32,
+      "title": "THE NEXT SIX",
+      "topic": "The Next Six: fixture and stakes",
+      "editorial_note": "Retain Jake's supplied Week 11 framing, six full fixtures, head-to-head importance and three divisional rounds; keep pressure distinct from proven elimination.",
+      "founder_question": "What tone should lead the Week 11 dispatch: opportunity at the top or urgency below?",
+      "source_ref": "issue-draft.md#W10-P31",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Answer why every Week 11 fixture matters, not just who plays.",
+        "retain": "Keep all six away-at-home pairings and their checked implication fields.",
+        "strengthen": "Attach each stake immediately to its fixture. Give head-to-head and the three divisional rounds one clear closing place; avoid a duplicated summary beneath a large list.",
+        "avoid": "No automatic-elimination label for The LLC or other bubble teams when a qualifying counterexample exists; do not omit Mud Dogs.",
+        "source_basis": [
+          "issue-previs.json#W10-P31",
+          "production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Retain Jake's supplied Week 11 framing, six full fixtures, head-to-head importance and three divisional rounds; keep pressure distinct from proven elimination. Emphasize: Each of six next fixtures carries a different stake.",
+        "source_refs": [
+          "issue-draft.md#W10-P31",
+          "design-review-20261117/composition-directions.json#W10-P31"
+        ],
+        "bounds": [
+          "All six fixtures, correct home/away, source distinction between pressure and mathematical elimination.",
+          "Level exact names, records and implication text; no shorthand or falsely guaranteed top seed; three divisional rounds note stays explicit."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P31",
+        "focus": "Answer why every Week 11 fixture matters, not just who plays.",
+        "performance": "Attach each stake immediately to its fixture. Give head-to-head and the three divisional rounds one clear closing place; avoid a duplicated summary beneath a large list.",
+        "narration_job": "Keep all six away-at-home pairings and their checked implication fields.",
+        "source_refs": [
+          "issue-previs.json#W10-P31",
+          "production-evidence/finalization-20261117/USER_WEEK11_FOLIO_ADDITION.md"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P35",
+      "reading_position": 33,
+      "title": "THE CROSSING NARROWS",
+      "topic": "Week 11 featured preview",
+      "editorial_note": "Both canonical contenders remain separated on the established bridge; historic score is not a future prediction.",
+      "founder_question": "What rivalry detail should give His Majesty's Blood at D0nkey K0ng its extra edge?",
+      "source_ref": "issue-draft.md#W10-P35",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "Turn the two contenders’ known history into anticipation, not an early result.",
+        "retain": "Keep His Majesty’s Blood and the four-legged D0nkey K0ng on opposing bridge approaches with open space between them.",
+        "strengthen": "Let posture and distance carry the rivalry; the older 179.68–111.42 receipt remains explicitly historical and the present 6–4 records distinct.",
+        "avoid": "No first strike, future winner, title transfer, wrong centaur anatomy or old score presented as Week 11.",
+        "source_basis": [
+          "issue-previs.json#W10-P35",
+          "facts.json#/pass3/week11_gotw"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Both canonical contenders remain separated on the established bridge; historic score is not a future prediction. Emphasize: Two 6–4 contenders approach a crossing without striking.",
+        "source_refs": [
+          "issue-draft.md#W10-P35",
+          "design-review-20261117/composition-directions.json#W10-P35"
+        ],
+        "bounds": [
+          "Integrated four-hooved gorilla-centaur, hooded champion, established bridge; no fight, result or title transfer.",
+          "Historical 2025 receipt stays distinguished from future Week 11; exact current availability language retained."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P35",
+        "focus": "Turn the two contenders’ known history into anticipation, not an early result.",
+        "performance": "Let posture and distance carry the rivalry; the older 179.68–111.42 receipt remains explicitly historical and the present 6–4 records distinct.",
+        "narration_job": "Keep His Majesty’s Blood and the four-legged D0nkey K0ng on opposing bridge approaches with open space between them.",
+        "source_refs": [
+          "issue-previs.json#W10-P35",
+          "facts.json#/pass3/week11_gotw"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    },
+    {
+      "page_id": "W10-P33",
+      "reading_position": 34,
+      "title": "THE WEATHER IS COMING HOME",
+      "topic": "Final Word landing",
+      "editorial_note": "Keep Slob on my Dobb at his camp and El Niño implied by coming weather, not a second on-page character.",
+      "founder_question": "What final line or feeling should readers carry into Week 11?",
+      "source_ref": "issue-draft.md#W10-P33",
+      "status": "SOURCE_GROUNDED_EDITORIAL_PASS_COMPLETE",
+      "founder_notes": [],
+      "approved_new_copy": false,
+      "editorial_assessment": {
+        "theme": "End on the delivery winner preparing to become next week’s host.",
+        "retain": "Keep Slob on my Dobb at the known foothill shelter with secured kegs and incoming weather.",
+        "strengthen": "Use calm preparation as the contrast to the noisy issue. The weather previews El Niño; the final paragraph should land in the shelter’s light, not another detached black box.",
+        "avoid": "No unbound second character, finished future game or assertion that a future win caused the present storm.",
+        "source_basis": [
+          "issue-previs.json#W10-P33",
+          "issue-previs.json#W10-P33"
+        ]
+      },
+      "founder_note_status": "OPTIONAL_ADDITIONS_NOT_REQUIRED_TO_COMPLETE_PASS",
+      "page_performance_note": {
+        "focus": "Keep Slob on my Dobb at his camp and El Niño implied by coming weather, not a second on-page character. Emphasize: An ordinary delivery gives way to preparation for incoming weather.",
+        "source_refs": [
+          "issue-draft.md#W10-P33",
+          "design-review-20261117/composition-directions.json#W10-P33"
+        ],
+        "bounds": [
+          "Only Slob on my Dobb physically present; El Niño implied by weather, current costume not older horned variation.",
+          "No invented future winner, new storm territory or falsely completed Week 11 lineup."
+        ],
+        "new_personal_claims": false,
+        "mode": "Source-grounded department emphasis; optional Founder additions remain separate."
+      },
+      "render_direction": {
+        "page_id": "W10-P33",
+        "focus": "End on the delivery winner preparing to become next week’s host.",
+        "performance": "Use calm preparation as the contrast to the noisy issue. The weather previews El Niño; the final paragraph should land in the shelter’s light, not another detached black box.",
+        "narration_job": "Keep Slob on my Dobb at the known foothill shelter with secured kegs and incoming weather.",
+        "source_refs": [
+          "issue-previs.json#W10-P33",
+          "issue-previs.json#W10-P33"
+        ],
+        "scope": "Supporting editorial emphasis; do not add unsupplied factual or personal content."
+      }
+    }
+  ],
+  "new_art_generated": false,
+  "editorial_scope": "Completed source-based retain/strengthen/avoid pass and page performance notes. New anecdotes/quotes and optional candidate narration are not approved or inserted.",
+  "scope": "Performance, narrative emphasis and composition of existing fictional scenes. No new personal incidents, real quotes, scores or locations; approved reader copy retained.",
+  "completion_criteria": [
+    "Six matchup-specific assessments and eighteen applied beat directions",
+    "Sixteen supporting-page editorial notes applied to current inputs",
+    "Optional candidate narration kept outside publication_copy",
+    "Preserve all factual, identity and geography bindings"
+  ]
+}

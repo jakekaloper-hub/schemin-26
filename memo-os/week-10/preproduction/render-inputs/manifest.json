@@ -1,0 +1,628 @@
+{
+  "source_finality": "W10_PROVIDER_FINAL",
+  "backend_ready": true,
+  "visual_storytelling_source": "visual-storytelling-pass-20261117.json",
+  "creative_stage": "SEQUENTIAL_VISUAL_STORYTELLING_INPUTS_READY",
+  "composition_direction_source": "design-review-20261117/composition-directions.json",
+  "personalization_source": "personalization-pass-20261117.json",
+  "stage": "GRAYSCALE_FOLIO_PROOF_INPUTS",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "page_count": 34,
+  "sheets": 6,
+  "sheet_layout": [
+    3,
+    2
+  ],
+  "sheet_page_counts": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    4
+  ],
+  "empty_final_slots": [
+    5,
+    6
+  ],
+  "pages": [
+    {
+      "page_id": "W10-P01",
+      "reading_position": 1,
+      "sheet": 1,
+      "slot": 1,
+      "title": "THE CEILING BREAKS",
+      "composition_family": "character_cover",
+      "visual_structure": "editorial_double_exposure",
+      "visual_beat_count": 2,
+      "characters": [
+        "His Majesty's Blood",
+        "The LLC"
+      ],
+      "request": "render-inputs/W10-P01/request.json",
+      "reference_count": 7,
+      "copy_words": 26,
+      "request_sha256": "ea6d4de55282dea210c7f776bd22efc8a8df6f5d19022efee78f66c18d5a8a3b"
+    },
+    {
+      "page_id": "W10-P02",
+      "reading_position": 2,
+      "sheet": 1,
+      "slot": 2,
+      "title": "ROOM ABOVE TWO HUNDRED",
+      "composition_family": "institutional_briefing",
+      "visual_structure": "inhabited_briefing_master",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P02/request.json",
+      "reference_count": 3,
+      "copy_words": 110,
+      "request_sha256": "ada26b2c25a58853b06ddacfa74c6151ec0a7ad9b94e1e831769cb8b211cb83f"
+    },
+    {
+      "page_id": "W10-P03",
+      "reading_position": 3,
+      "sheet": 1,
+      "slot": 3,
+      "title": "KEEP THE WHOLE LEAGUE IN VIEW",
+      "composition_family": "institutional_briefing",
+      "visual_structure": "civic_breathing_page",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P03/request.json",
+      "reference_count": 2,
+      "copy_words": 127,
+      "request_sha256": "bcf1e15bd03785ebff252e193f39eb32984e1c85a18f66b44d08a65e6004dfe4"
+    },
+    {
+      "page_id": "W10-P04",
+      "reading_position": 4,
+      "sheet": 1,
+      "slot": 4,
+      "title": "THE WEEK 10 BOARD",
+      "composition_family": "record_intelligence",
+      "visual_structure": "documentary_results_master",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P04/request.json",
+      "reference_count": 2,
+      "copy_words": 35,
+      "request_sha256": "b1c73cfca029d5fa9594990acef6b8820075bb1c981b12464ade0bb97aa77599"
+    },
+    {
+      "page_id": "W10-P05",
+      "reading_position": 5,
+      "sheet": 1,
+      "slot": 5,
+      "title": "Everybody Gets a View",
+      "composition_family": "kinetic_action",
+      "visual_structure": "establishing_strip_and_opposed_pov",
+      "visual_beat_count": 3,
+      "characters": [
+        "The Chili Cheesers",
+        "D0nkey K0ng"
+      ],
+      "request": "render-inputs/W10-P05/request.json",
+      "reference_count": 7,
+      "copy_words": 74,
+      "request_sha256": "eae4b1d7b3f452bc5eb53429acc5f4614cc71f19d8d1c01e58590ddac995c2ca"
+    },
+    {
+      "page_id": "W10-P06",
+      "reading_position": 6,
+      "sheet": 1,
+      "slot": 6,
+      "title": "The Ring Runs Out",
+      "composition_family": "kinetic_action",
+      "visual_structure": "causal_three_beat_action",
+      "visual_beat_count": 3,
+      "characters": [
+        "The Chili Cheesers",
+        "D0nkey K0ng"
+      ],
+      "request": "render-inputs/W10-P06/request.json",
+      "reference_count": 7,
+      "copy_words": 73,
+      "request_sha256": "3434c9211b0872d997fcb7ed3f76b488108c031a440f8e7fa33881148d18f16a"
+    },
+    {
+      "page_id": "W10-P07",
+      "reading_position": 7,
+      "sheet": 2,
+      "slot": 1,
+      "title": "No Private Exit",
+      "composition_family": "quiet_aftermath",
+      "visual_structure": "payoff_master_and_reaction_detail",
+      "visual_beat_count": 2,
+      "characters": [
+        "The Chili Cheesers",
+        "D0nkey K0ng"
+      ],
+      "request": "render-inputs/W10-P07/request.json",
+      "reference_count": 6,
+      "copy_words": 65,
+      "request_sha256": "12cb1e465039a822e1df4ab76b505dd421bcb0bed746ebfbb89928cd58f34168"
+    },
+    {
+      "page_id": "W10-P08",
+      "reading_position": 8,
+      "sheet": 2,
+      "slot": 2,
+      "title": "One More Bag",
+      "composition_family": "kinetic_action",
+      "visual_structure": "repair_opposition_and_detail",
+      "visual_beat_count": 3,
+      "characters": [
+        "Red Leopards",
+        "El Niño"
+      ],
+      "request": "render-inputs/W10-P08/request.json",
+      "reference_count": 5,
+      "copy_words": 71,
+      "request_sha256": "f6aeb23f1ba9e5f9381071b11b36aa31818ddad84dfb1f39d2fa1f092b4b9da7"
+    },
+    {
+      "page_id": "W10-P09",
+      "reading_position": 9,
+      "sheet": 2,
+      "slot": 3,
+      "title": "The Place That Answered Once",
+      "composition_family": "vertical_conflict",
+      "visual_structure": "arrival_then_impact",
+      "visual_beat_count": 2,
+      "characters": [
+        "Red Leopards",
+        "El Niño"
+      ],
+      "request": "render-inputs/W10-P09/request.json",
+      "reference_count": 5,
+      "copy_words": 73,
+      "request_sha256": "f6c0881e2728cfd6f2fd00065f62c661dd64095218c439fe782f9dff91f9ffa9"
+    },
+    {
+      "page_id": "W10-P10",
+      "reading_position": 10,
+      "sheet": 2,
+      "slot": 4,
+      "title": "That Cold Again",
+      "composition_family": "quiet_aftermath",
+      "visual_structure": "aftermath_and_opposing_look",
+      "visual_beat_count": 2,
+      "characters": [
+        "Red Leopards",
+        "El Niño"
+      ],
+      "request": "render-inputs/W10-P10/request.json",
+      "reference_count": 5,
+      "copy_words": 76,
+      "request_sha256": "10e31165bedaf5058241d587334fb176c4c96938f7d4ba7253620037f66eb1e7"
+    },
+    {
+      "page_id": "W10-P11",
+      "reading_position": 11,
+      "sheet": 2,
+      "slot": 5,
+      "title": "THE ROADS BETWEEN",
+      "composition_family": "scenic_transition",
+      "visual_structure": "regional_weather_overture",
+      "visual_beat_count": 3,
+      "characters": [],
+      "request": "render-inputs/W10-P11/request.json",
+      "reference_count": 2,
+      "copy_words": 52,
+      "request_sha256": "cc965b5d16b80d78d6f30783e8380119f9afac58e028b822e309f63a13fb7a01"
+    },
+    {
+      "page_id": "W10-P12",
+      "reading_position": 12,
+      "sheet": 2,
+      "slot": 6,
+      "title": "Just as the House Settles",
+      "composition_family": "vertical_conflict",
+      "visual_structure": "vertical_opposed_pov_overture",
+      "visual_beat_count": 2,
+      "characters": [
+        "Three Dreaded Snake",
+        "Seven Deadly Chins"
+      ],
+      "request": "render-inputs/W10-P12/request.json",
+      "reference_count": 5,
+      "copy_words": 68,
+      "request_sha256": "4466bd9cc3d5c3fc6b33fd16dfd746e4480033e34f04ba1c43e0332f48830c75"
+    },
+    {
+      "page_id": "W10-P13",
+      "reading_position": 13,
+      "sheet": 3,
+      "slot": 1,
+      "title": "He Heard You",
+      "composition_family": "vertical_conflict",
+      "visual_structure": "pause_hope_choice_sequence",
+      "visual_beat_count": 3,
+      "characters": [
+        "Three Dreaded Snake",
+        "Seven Deadly Chins"
+      ],
+      "request": "render-inputs/W10-P13/request.json",
+      "reference_count": 5,
+      "copy_words": 75,
+      "request_sha256": "6d37354cda48fc7501c774175a955c000746a17303154f723b9e1ffeee516915"
+    },
+    {
+      "page_id": "W10-P14",
+      "reading_position": 14,
+      "sheet": 3,
+      "slot": 2,
+      "title": "No Quiet Hours",
+      "composition_family": "vertical_conflict",
+      "visual_structure": "single_climactic_vertical_master",
+      "visual_beat_count": 1,
+      "characters": [
+        "Three Dreaded Snake",
+        "Seven Deadly Chins"
+      ],
+      "request": "render-inputs/W10-P14/request.json",
+      "reference_count": 4,
+      "copy_words": 78,
+      "request_sha256": "4d69a283253533aec8b49450bdfe9a847ed5ed7f996f4c217a0ace04a9b2163e"
+    },
+    {
+      "page_id": "W10-P15",
+      "reading_position": 15,
+      "sheet": 3,
+      "slot": 3,
+      "title": "The Swamp Declares a Blockade",
+      "composition_family": "kinetic_action",
+      "visual_structure": "low_high_opposed_pov",
+      "visual_beat_count": 2,
+      "characters": [
+        "Mud Dogs",
+        "Slob on my Dobb"
+      ],
+      "request": "render-inputs/W10-P15/request.json",
+      "reference_count": 6,
+      "copy_words": 74,
+      "request_sha256": "a54e6da54566725b5a93c6871c21f865dc4bf835b3a0d6a9a5a092008ada2b48"
+    },
+    {
+      "page_id": "W10-P16",
+      "reading_position": 16,
+      "sheet": 3,
+      "slot": 4,
+      "title": "Same Speed",
+      "composition_family": "kinetic_action",
+      "visual_structure": "routine_pass_three_beat",
+      "visual_beat_count": 3,
+      "characters": [
+        "Mud Dogs",
+        "Slob on my Dobb"
+      ],
+      "request": "render-inputs/W10-P16/request.json",
+      "reference_count": 5,
+      "copy_words": 80,
+      "request_sha256": "9a22aa0b5f5133dff03301ca3fcac97330189e3a1a32a6738ab24184b2c293db"
+    },
+    {
+      "page_id": "W10-P17",
+      "reading_position": 17,
+      "sheet": 3,
+      "slot": 5,
+      "title": "Cancún Is Calling",
+      "composition_family": "quiet_aftermath",
+      "visual_structure": "single_receding_aftermath",
+      "visual_beat_count": 1,
+      "characters": [
+        "Mud Dogs",
+        "Slob on my Dobb"
+      ],
+      "request": "render-inputs/W10-P17/request.json",
+      "reference_count": 4,
+      "copy_words": 71,
+      "request_sha256": "c371eec65bd14f0db001746ffbe9b49b0d1f2971799c565a995cfc115f283076"
+    },
+    {
+      "page_id": "W10-P18",
+      "reading_position": 18,
+      "sheet": 3,
+      "slot": 6,
+      "title": "WHY THE BOARD MOVED",
+      "composition_family": "record_intelligence",
+      "visual_structure": "documentary_performance_master",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P18/request.json",
+      "reference_count": 1,
+      "copy_words": 70,
+      "request_sha256": "be9b60025227be7e929a94109f49b68b773cb43cb2c6be39bd4679e32a42fdba"
+    },
+    {
+      "page_id": "W10-P34",
+      "reading_position": 19,
+      "sheet": 4,
+      "slot": 1,
+      "title": "THE COST OF SUNDAY",
+      "composition_family": "record_intelligence",
+      "visual_structure": "current_report_and_retained_record",
+      "visual_beat_count": 2,
+      "characters": [],
+      "request": "render-inputs/W10-P34/request.json",
+      "reference_count": 2,
+      "copy_words": 93,
+      "request_sha256": "df77d5835021b85c0285a1006f94537272a59b5e8887d6973821992862582696"
+    },
+    {
+      "page_id": "W10-P19",
+      "reading_position": 20,
+      "sheet": 4,
+      "slot": 2,
+      "title": "A Very Generous Guest",
+      "composition_family": "institutional_briefing",
+      "visual_structure": "host_guest_pov_overture",
+      "visual_beat_count": 2,
+      "characters": [
+        "Dr. Duckhook",
+        "His Majesty's Blood"
+      ],
+      "request": "render-inputs/W10-P19/request.json",
+      "reference_count": 6,
+      "copy_words": 77,
+      "request_sha256": "e196221643b69c9ac156dec644654adb8635ee7937dcef01c2442dc908cc8ed3"
+    },
+    {
+      "page_id": "W10-P20",
+      "reading_position": 21,
+      "sheet": 4,
+      "slot": 3,
+      "title": "The 200 Burger",
+      "composition_family": "character_cover",
+      "visual_structure": "opening_reveal_reaction",
+      "visual_beat_count": 3,
+      "characters": [
+        "Dr. Duckhook",
+        "His Majesty's Blood"
+      ],
+      "request": "render-inputs/W10-P20/request.json",
+      "reference_count": 7,
+      "copy_words": 63,
+      "request_sha256": "3d36a3a363ae1938439a8272a820ca15d62558a17619bbb18afc4b0b45ae03b1"
+    },
+    {
+      "page_id": "W10-P21",
+      "reading_position": 22,
+      "sheet": 4,
+      "slot": 4,
+      "title": "Many Unhappy Returns",
+      "composition_family": "kinetic_action",
+      "visual_structure": "single_contact_payoff",
+      "visual_beat_count": 1,
+      "characters": [
+        "Dr. Duckhook",
+        "His Majesty's Blood"
+      ],
+      "request": "render-inputs/W10-P21/request.json",
+      "reference_count": 6,
+      "copy_words": 69,
+      "request_sha256": "f626a18cd2e9b0c808b01c8b736ae6cfa80a1f8c42cca0c89c2d96bd3f3b4498"
+    },
+    {
+      "page_id": "W10-P22",
+      "reading_position": 23,
+      "sheet": 4,
+      "slot": 5,
+      "title": "The Empire Opens Fire",
+      "composition_family": "kinetic_action",
+      "visual_structure": "opposed_forces_then_first_counter",
+      "visual_beat_count": 3,
+      "characters": [
+        "ObiWan Jacoby",
+        "The LLC"
+      ],
+      "request": "render-inputs/W10-P22/request.json",
+      "reference_count": 6,
+      "copy_words": 75,
+      "request_sha256": "fa3a08b7b6ea224d606fcfc566f3cdde1d83dafd3f1239f58916c7f6868b2f4c"
+    },
+    {
+      "page_id": "W10-P23",
+      "reading_position": 24,
+      "sheet": 4,
+      "slot": 6,
+      "title": "The Price of Quiet",
+      "composition_family": "kinetic_action",
+      "visual_structure": "counterattack_command_response",
+      "visual_beat_count": 3,
+      "characters": [
+        "ObiWan Jacoby",
+        "The LLC"
+      ],
+      "request": "render-inputs/W10-P23/request.json",
+      "reference_count": 5,
+      "copy_words": 70,
+      "request_sha256": "5d37525d46a4dd44a7db57879300affe591d80ed9c1800436d1802acbba425f4"
+    },
+    {
+      "page_id": "W10-P24",
+      "reading_position": 25,
+      "sheet": 5,
+      "slot": 1,
+      "title": "Unlimited Firepower",
+      "composition_family": "kinetic_action",
+      "visual_structure": "resistance_and_command_counterview",
+      "visual_beat_count": 2,
+      "characters": [
+        "ObiWan Jacoby",
+        "The LLC"
+      ],
+      "request": "render-inputs/W10-P24/request.json",
+      "reference_count": 4,
+      "copy_words": 71,
+      "request_sha256": "138908a3c6fe4100a070d5b987184c35ffe0ea968a0d580c51a61dbae53da959"
+    },
+    {
+      "page_id": "W10-P25",
+      "reading_position": 26,
+      "sheet": 5,
+      "slot": 2,
+      "title": "THE NEXT STARTING SHEET",
+      "composition_family": "record_intelligence",
+      "visual_structure": "logistics_detail_and_records_master",
+      "visual_beat_count": 2,
+      "characters": [],
+      "request": "render-inputs/W10-P25/request.json",
+      "reference_count": 1,
+      "copy_words": 51,
+      "request_sha256": "c5301d74712f02a336c8434bf806b74690ce6800c00b8a5849eb27502322cd3d"
+    },
+    {
+      "page_id": "W10-P26",
+      "reading_position": 27,
+      "sheet": 5,
+      "slot": 3,
+      "title": "MOVES THAT REACHED THE ROSTER",
+      "composition_family": "record_intelligence",
+      "visual_structure": "record_arrival_and_transaction_trails",
+      "visual_beat_count": 2,
+      "characters": [],
+      "request": "render-inputs/W10-P26/request.json",
+      "reference_count": 1,
+      "copy_words": 47,
+      "request_sha256": "67db2d20668e88395696df3c1fcba8a617f8def53a64b24c2964c74f36e727e2"
+    },
+    {
+      "page_id": "W10-P27",
+      "reading_position": 28,
+      "sheet": 5,
+      "slot": 4,
+      "title": "TWELVE TEAMS. TEN POSTED RESULTS.",
+      "composition_family": "record_intelligence",
+      "visual_structure": "single_official_table_master",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P27/request.json",
+      "reference_count": 1,
+      "copy_words": 49,
+      "request_sha256": "2f6e36d03939286036d8fc68f21b45a423fbb18fab87cb285161cf27515e5f5a"
+    },
+    {
+      "page_id": "W10-P28",
+      "reading_position": 29,
+      "sheet": 5,
+      "slot": 5,
+      "title": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+      "composition_family": "record_intelligence",
+      "visual_structure": "single_shared_terrace_three_pressures",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P28/request.json",
+      "reference_count": 1,
+      "copy_words": 38,
+      "request_sha256": "3dd44a304b7c36e0099d1dafd14b023801b5a05b6e1398ae534a1fa102a3034d"
+    },
+    {
+      "page_id": "W10-P29",
+      "reading_position": 30,
+      "sheet": 5,
+      "slot": 6,
+      "title": "THE TWELVE — SCORING FORM",
+      "composition_family": "record_intelligence",
+      "visual_structure": "single_scoring_form_landscape",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P29/request.json",
+      "reference_count": 1,
+      "copy_words": 55,
+      "request_sha256": "7077e953718720adb469964dc2c4e1cfb9fcdbbb778930ad26c7103872109dfa"
+    },
+    {
+      "page_id": "W10-P30",
+      "reading_position": 31,
+      "sheet": 6,
+      "slot": 1,
+      "title": "FOUR MORE AFTER THIS",
+      "composition_family": "scenic_transition",
+      "visual_structure": "single_depth_playoff_road",
+      "visual_beat_count": 1,
+      "characters": [],
+      "request": "render-inputs/W10-P30/request.json",
+      "reference_count": 1,
+      "copy_words": 50,
+      "request_sha256": "8534b0f12c79c02f620a38a5dd81aa5f6809fb715d9391e32b5416d679c1e32d"
+    },
+    {
+      "page_id": "W10-P31",
+      "reading_position": 32,
+      "sheet": 6,
+      "slot": 2,
+      "title": "THE NEXT SIX",
+      "composition_family": "fixture_dispatch",
+      "visual_structure": "dispatch_intent_and_outward_master",
+      "visual_beat_count": 2,
+      "characters": [],
+      "request": "render-inputs/W10-P31/request.json",
+      "reference_count": 1,
+      "copy_words": 50,
+      "request_sha256": "e3f9fbac653fefb210fd27535b3d7a2daa2eb1d37e6ea454663ca2d6526f985f"
+    },
+    {
+      "page_id": "W10-P35",
+      "reading_position": 33,
+      "sheet": 6,
+      "slot": 3,
+      "title": "THE CROSSING NARROWS",
+      "composition_family": "character_cover",
+      "visual_structure": "bridge_establish_and_opposed_pov",
+      "visual_beat_count": 3,
+      "characters": [
+        "His Majesty's Blood",
+        "D0nkey K0ng"
+      ],
+      "request": "render-inputs/W10-P35/request.json",
+      "reference_count": 7,
+      "copy_words": 62,
+      "request_sha256": "64d166aff1065cf8597b155acfe54f0362645858a90af0c55fc2cf41f10a84da"
+    },
+    {
+      "page_id": "W10-P33",
+      "reading_position": 34,
+      "sheet": 6,
+      "slot": 4,
+      "title": "THE WEATHER IS COMING HOME",
+      "composition_family": "quiet_aftermath",
+      "visual_structure": "single_quiet_return_of_weather",
+      "visual_beat_count": 1,
+      "characters": [
+        "Slob on my Dobb"
+      ],
+      "request": "render-inputs/W10-P33/request.json",
+      "reference_count": 3,
+      "copy_words": 60,
+      "request_sha256": "07046b0eb0631f63d0083d248bb3c46a61b490dfadd16a837392fdd064030e56"
+    }
+  ],
+  "source_images_resolved": true,
+  "new_art_generated": false,
+  "publication_approved": false,
+  "production_gate": {
+    "status": "PREPRODUCTION_REVIEW_PNG_PAUSED",
+    "authority": "Latest user direction: finalize backend and frontend before PNG production; Bullpen leads the existing Week 10 workflow.",
+    "backend_source_ready": true,
+    "image_generation_authorized": false,
+    "image_generation_executed": false,
+    "publication_approved": false,
+    "next_stage": "Bullpen-led review of the existing 34-folio production package; PNG execution remains paused."
+  },
+  "playoff_harvest": {
+    "artifact": "playoff-harvest.json",
+    "sha256": "0186d6818c2c51d019e02f5c54205f914f83e392b62ae5d6885acce8196e1d83",
+    "selected_pages": [
+      "W10-P28",
+      "W10-P30",
+      "W10-P31"
+    ],
+    "copy_authority": "playoff-harvest-copy.json",
+    "consumption_receipt": "playoff-harvest-consumption.json"
+  }
+}

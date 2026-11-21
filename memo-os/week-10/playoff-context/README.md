@@ -1,8 +1,10 @@
 # Week 10 analytics and FFHub production handoff
 
-**Current production:** PR #315 finalized the existing 34 full-folio inputs at
-`14b1ad0c56752c7f0ee965843963b0e0de03184f`. Start with its
-[production entrypoint](https://github.com/jakekaloper-hub/schemin-26/blob/14b1ad0c56752c7f0ee965843963b0e0de03184f/memo-os/week-10/preproduction/README.md). The earlier analytics audit
+**Current production:** the final-results and design/personalization work in
+PR #315 is preserved. The reviewed harvest is now selected on P28/P30/P31;
+Bullpen preproduction acceptance is complete; PNG production remains paused. Start with the current
+[production entrypoint](../preproduction/README.md) and
+[execution report](../production-evidence/playoff-harvest-20261117/EXECUTION_REPORT.md). The earlier analytics audit
 of `96bf06f` is historical; its stale-copy findings do not describe this newer
 production source. Artwork and publication still follow existing Memo authority.
 
@@ -16,29 +18,30 @@ OS, with their different methods and acceptance boundaries retained.
 |---|---|
 | `Schemin_26_Week_10_Playoff_Briefing.md` | The recent FFHub research briefing, recovered intact. Editorial reference for the existing playoff and next-week pages. |
 | `Schemin_26_Week_10_Playoff_Scenarios.json` | Actual raw vendor tables: 18 named scenarios, initial/restored baselines; accepted-source observations and separately calculated mathematical witnesses. Schema `schemin.playoff_scenario_packet.v1`. |
+| `Schemin_26_Week_10_Reviewed_Playoff_Harvest.json` | Reviewed protected source for this integration: all twelve POVs, all twenty captures, sixty retained binary witness entries plus one official-tie example. Exact checksum is in `preproduction/playoff-harvest.json`. It corrects the unqualified Mud must-win-out wording and omits the unsuccessful LLC search trial. |
 | `Schemin_26_Week_10_Analytics_Checkpoint.zip` | Protected handoff checkpoint: recovered evidence, independent review, source/copy bindings, retained Schemin input/rules/diagnostic/report/packet and a hash manifest. Repository code remains in Git. |
 | `MEMO_ANALYTICS_PACKET.json` under the checkpoint's `schemin/production-review/` | Dated Schemin descriptive candidate checkpoint based on the earlier previs. It is historical review evidence, not the current production manuscript or a permanent fresh input. |
 | `preproduction/playoff-witnesses-final.json` | The production branch's independently checked exact-proof path, paired with final league facts. Its existing acceptance is separate from the Schemin forecast model. |
 
-The protected source artifacts are retained outside the public repository.
-Retrieve them by these exact names and verify the checkpoint manifest before
-reuse. No private storage locator or authenticated payload is required in Git.
+The complete reviewed source is now retained in [private Bullpen GitHub](https://github.com/jakekaloper-hub/bullpen/blob/f740977ed4c16a33f291f10969d004bc8ed39edc/projects/schemin-26/evidence/week-10-20261117/Schemin_26_Week_10_Reviewed_Playoff_Harvest.json), merged through [Bullpen PR #155](https://github.com/jakekaloper-hub/bullpen/pull/155). It is exactly 664,111 bytes, SHA256 `9ec5f9c634326a68dab579051ba199fc766c16b21bde32e17aef4cf7dc7e3b1d`. The public `preproduction/playoff-harvest.json` receipt binds that immutable repository, commit and path. Its complete twelve POVs, twenty captures and sixty-one witness entries are available to authorized Bullpen reviewers. Earlier briefing/checkpoint artifacts remain historical supporting evidence under their exact names; the private reviewed archive is the complete accepted source for this integration. See [retention and independent acceptance](../production-evidence/github-acceptance-20261117/README.md).
 
 ## How this supports the current pages
 
 | Existing page | Evidence use |
 |---|---|
 | P27 — standings | Accepted final official standings; FFHub's displayed ranking never replaces provider seeds. |
-| P28 — divisions | Accepted division membership and remaining divisional fixtures. |
+| P28 — divisions | `SELECTED_CHANGE`: D0nkey K0ng's two named wins secure Burgers; Red Leopards winning all four secures Wings. Existing banner composition is retained. |
 | P29 — scoring form | Preserve the existing disclosed 70/30 descriptive formula. It is independent of vendor odds and the Schemin scoring model. |
-| P30 — playoff road | The recovered exact-witness research supports the existing qualification-status and next-loss wording; bind it to the current copy and production proof. |
-| P31 — next six | Match scenario premises and verified loss-survival/elimination evidence to the actual next-week fixtures and current stakes copy. |
+| P30 — playoff road | `SELECTED_CHANGE`: all twelve alive/none clinched; nine wins safe, eight not automatic; Mud can qualify through a division or shared berth. Visible record scenarios exclude tied future games; any further Mud loss eliminates. |
+| P31 — next six | `SELECTED_CHANGE`: preserve all six fixtures and stakes; add the dated, attributed ObiWan/Chili win-or-loss estimates from the two selected vendor runs. |
 | P35 — GOTW preview | Supporting schedule/record context only. Existing selection, history, character work and lineup sourcing remain editorial/provider decisions. |
 
-The independent recovery review records actual copy pointers and hashes. A
+The integration's [`playoff-harvest-consumption.json`](../preproduction/playoff-harvest-consumption.json) records actual copy pointers and hashes,
+protected/public source checksums and current render-request hashes. A
 matching existing statement is `SUPPORTS_EXISTING_COPY`; it does not require a
-new page or a prose rewrite. Vendor percentages remain available as labeled
-research, unselected for the current production copy. The harvest does not
+new page or a prose rewrite. P31 now selects one paired vendor callout:
+ObiWan 52% with a Week 11 win / 13% with a loss; Chili 58% / 21%.
+Other vendor values remain research. The harvest does not
 establish vendor calibration. Schemin's separate forecast hold does not decide
 whether another model is valid.
 
@@ -77,7 +80,9 @@ mirrors; Librarian preserves provenance; independent Umpire checks the actual
 selected copy and requests. GM/Closer coordinates the handoff. The Founder
 retains artwork and publication authority.
 
-Continue the existing individual-folio production sequence. Do not restart
+Bullpen-led preproduction review is complete and repository retention is approved; PNG execution remains paused under
+the latest user direction. When that stage resumes, use the existing
+individual-folio sequence. Do not restart
 source recovery or re-run an already answered scenario merely to demonstrate
 activity. Reopen affected bindings only when source facts, selected wording or
 the relevant assumptions change. Future weekly intake follows

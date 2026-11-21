@@ -1,0 +1,48 @@
+{
+  "review_type": "Primary source-based adjudication of recorded AI-role advice",
+  "generic_batch": "All six schema-echo responses are rejected as non-substantive; returned JSON is not approval.",
+  "narrow_followup_count": 6,
+  "rulings": [
+    {
+      "role": "the_architect",
+      "retain": "Aftermath visibility: tied outlaw, hat, four hooves and rope handwork.",
+      "reject": "The reply conflates chase and catch in one sentence; keep P05 pursuit, P06 torso catch, P07 binding. Existing choices repeated by the reply are not new implemented improvements.",
+      "action": "No source change; three-beat continuity is already explicit."
+    },
+    {
+      "role": "the_librarian",
+      "retain": "No adjacent court added to the soccer terrace.",
+      "reject": "Any suggestion that the whole three-page arc occupies one site: P08 soccer terrace and P09/P10 Forgotten Court are distinct established locations.",
+      "action": "Retain explicit travel and separate location contracts."
+    },
+    {
+      "role": "the_beat_writer",
+      "retain": "Eye contact and the hand at the music control make the deliberate refusal legible in P13.",
+      "reject": "The reply places paving damage on the balcony and reverses adult reactions. Damage is in the courtyard below; Chins is indifferent and TDS is frustrated.",
+      "action": "No input change; the current direction already gives the correct location and roles."
+    },
+    {
+      "role": "editing_and_composition",
+      "retain": "Wide arrival, table-height reveal and close contact; burger and cake stay separate.",
+      "reject": "The response is truncated and overstates the cake as the P19 focal point. The wrapped gift/arrival dominates P19; the cake is only established on the sideboard.",
+      "action": "Retain only supported completed observations; no approval inferred from a truncated response."
+    },
+    {
+      "role": "the_umpire",
+      "retain": "Official seeds, disclosed scoring-form method, and exact fixture/stakes adjacency remain distinct and readable.",
+      "reject": "No new claim of visual legibility from text-only review.",
+      "action": "Retain deterministic source/copy tests and require actual phone-scale review during generation."
+    },
+    {
+      "role": "ensemble_pacing_and_world_continuity",
+      "retain": "Competent resistance is distinct from victory and from the quiet camp ending.",
+      "reject": "The reply transfers camp shelter-light language to the final battle and blurs plural emplacements. P24 has one wreck and one firing battery; the camp belongs only to P33.",
+      "action": "Keep P24 kinetic under-fire direction and P33 quiet aftermath; no scenery transfer."
+    }
+  ],
+  "blocking_source_defects_identified_in_current_inputs": 0,
+  "editorial_pass_complete": true,
+  "new_founder_notes_supplied": false,
+  "additional_founder_notes_required_to_complete_pass": false,
+  "pixel_acceptance_claimed": false
+}

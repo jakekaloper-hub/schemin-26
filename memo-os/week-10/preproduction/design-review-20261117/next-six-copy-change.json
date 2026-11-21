@@ -1,0 +1,106 @@
+{
+  "page_id": "W10-P31",
+  "reading_position": 32,
+  "sheet": 6,
+  "before": {
+    "headline": "THE NEXT SIX",
+    "deck": "Week 11 • Head-to-head now. Divisions next.",
+    "body": "His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.",
+    "callouts": [],
+    "rows": [
+      {
+        "away_team": "El Niño",
+        "home_team": "Slob on my Dobb",
+        "display": "El Niño at Slob on my Dobb",
+        "implication": "6–4 vs 6–4 • Top-seed race"
+      },
+      {
+        "away_team": "Red Leopards",
+        "home_team": "Three Dreaded Snake",
+        "display": "Red Leopards at Three Dreaded Snake",
+        "implication": "5–5 vs 4–6 • Bubble leverage"
+      },
+      {
+        "away_team": "Seven Deadly Chins",
+        "home_team": "Mud Dogs",
+        "display": "Seven Deadly Chins at Mud Dogs",
+        "implication": "6–4 vs 2–8 • A loss eliminates Mud Dogs"
+      },
+      {
+        "away_team": "The Chili Cheesers",
+        "home_team": "ObiWan Jacoby",
+        "display": "The Chili Cheesers at ObiWan Jacoby",
+        "implication": "5–5 vs 4–6 • Bubble leverage"
+      },
+      {
+        "away_team": "His Majesty's Blood",
+        "home_team": "D0nkey K0ng",
+        "display": "His Majesty's Blood at D0nkey K0ng",
+        "implication": "6–4 vs 6–4 • Top-seed race"
+      },
+      {
+        "away_team": "The LLC",
+        "home_team": "Dr. Duckhook",
+        "display": "The LLC at Dr. Duckhook",
+        "implication": "4–6 vs 6–4 • Recovery versus top-seed contention"
+      }
+    ],
+    "department_heading": "THE NEXT SIX"
+  },
+  "after": {
+    "headline": "THE NEXT SIX",
+    "deck": "Week 11 • Head-to-head stakes before the divisional finish",
+    "body": "His Majesty’s Blood at D0nkey K0ng and El Niño at Slob on my Dobb pair four 6–4 contenders in the top-seed race. Red Leopards at Three Dreaded Snake and The Chili Cheesers at ObiWan Jacoby are bubble swings, with the 4–6 hosts needing to stop losing ground. The LLC visits Dr. Duckhook: recovery pressure for the visitor, top-seed contention for the host. Those are pressure games, not automatic eliminators. A loss to Seven Deadly Chins does eliminate Mud Dogs. Head-to-head can decide ties; three divisional rounds follow.",
+    "callouts": [],
+    "rows": [
+      {
+        "away_team": "El Niño",
+        "home_team": "Slob on my Dobb",
+        "display": "El Niño at Slob on my Dobb",
+        "implication": "6–4 vs 6–4 • Top-seed race"
+      },
+      {
+        "away_team": "Red Leopards",
+        "home_team": "Three Dreaded Snake",
+        "display": "Red Leopards at Three Dreaded Snake",
+        "implication": "5–5 vs 4–6 • Bubble leverage"
+      },
+      {
+        "away_team": "Seven Deadly Chins",
+        "home_team": "Mud Dogs",
+        "display": "Seven Deadly Chins at Mud Dogs",
+        "implication": "6–4 vs 2–8 • A loss eliminates Mud Dogs"
+      },
+      {
+        "away_team": "The Chili Cheesers",
+        "home_team": "ObiWan Jacoby",
+        "display": "The Chili Cheesers at ObiWan Jacoby",
+        "implication": "5–5 vs 4–6 • Bubble leverage"
+      },
+      {
+        "away_team": "His Majesty's Blood",
+        "home_team": "D0nkey K0ng",
+        "display": "His Majesty's Blood at D0nkey K0ng",
+        "implication": "6–4 vs 6–4 • Top-seed race"
+      },
+      {
+        "away_team": "The LLC",
+        "home_team": "Dr. Duckhook",
+        "display": "The LLC at Dr. Duckhook",
+        "implication": "4–6 vs 6–4 • Recovery versus top-seed contention"
+      }
+    ],
+    "department_heading": "THE NEXT SIX"
+  },
+  "source": {
+    "artifact": "design-review-20261117/week11-implications-source.json",
+    "classification": "USER_SUPPLIED_EDITORIAL_STAKES",
+    "inferences_recorded": true,
+    "definitive_llc_elimination_claim_not_promoted": true,
+    "sixth_fixture_source": "Existing league schedule and playoff-witnesses-final.json, not the screenshot",
+    "layout_direction_status": "PROPOSED_REVIEW_NOT_GENERATED",
+    "reader_copy_policy": "Use the independently checked fixture implication field; preserve possible/definitive source assertions in the source ledger, not as unsupported elimination verdicts."
+  },
+  "note": "Original narrative retained; only the deck, brief source-qualified stakes and divisional-close note were added. No layout approval or mathematical elimination verdict is inferred.",
+  "reconciliation_note": "The finalization pass already added checked implication fields. Duplicate stakes fields and a repeated divisional-close sentence were removed; the screenshot is retained as source context, while official math controls reader-facing elimination wording."
+}

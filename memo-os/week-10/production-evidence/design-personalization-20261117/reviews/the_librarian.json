@@ -1,0 +1,27 @@
+{
+  "kind": "director",
+  "id": "the_librarian",
+  "pages": [
+    "W10-P08",
+    "W10-P09",
+    "W10-P12",
+    "W10-P22",
+    "W10-P33"
+  ],
+  "focus": "Check canon/authority boundaries and archived-personalization separation. Red fire is the original color phrase, not another participant. Preserve source references.",
+  "status": "returned_valid_json",
+  "response": "{\n  \"scope\": \"written implementation review, not pixel acceptance\",\n  \"retain\": \"one specific strength\",\n  \"findings\": [],\n  \"personalization_advice\": \"one useful focus\",\n  \"disposition\": \"inputs_ready_for_founder_notes\"\n}",
+  "structured": {
+    "scope": "written implementation review, not pixel acceptance",
+    "retain": "one specific strength",
+    "findings": [],
+    "personalization_advice": "one useful focus",
+    "disposition": "inputs_ready_for_founder_notes"
+  },
+  "model": "qwen2.5-coder:7b",
+  "input_sha256": "e677674b581b35e57ce71ccf4e7c15ff63713889cf1107d1ca0894b7cec77dd3",
+  "started_at": "2026-11-17T17:17:57.266Z",
+  "ended_at": "2026-11-17T17:18:19.483Z",
+  "actual_image_pixels_supplied": false,
+  "real_person_participation": false
+}

@@ -1,0 +1,6616 @@
+{
+  "scope": "CONDITIONAL: all current Week10 leaders win with current live scores; official results remainUNDECIDED.",
+  "method": "Constructive schedule-consistent qualification and non-qualification witnesses for every team; no simulated odds and no frequencies reported. Equal-schedule H2H first, then PF, then division record, then PA. Published Week9 rule: three automatic division berths plus four shared berths. A deterministic final fallback was never material to Mud proof.",
+  "sources": [
+    "current-league-pass3.json",
+    "w10_preproduction/sports-evidence.json",
+    "w10prep_review/w9_detail_29.png",
+    "w10prep_review/w9_detail_31.png",
+    "https://support.espn.com/hc/en-us/articles/47190901074708-H2H-Points-League-Playoff-Seeding-Tiebreakers"
+  ],
+  "mud_division_witness": {
+    "winners": [
+      {
+        "week": 11,
+        "home_team_id": 3,
+        "away_team_id": 9,
+        "winner_team_id": 3
+      },
+      {
+        "week": 11,
+        "home_team_id": 6,
+        "away_team_id": 2,
+        "winner_team_id": 2
+      },
+      {
+        "week": 11,
+        "home_team_id": 10,
+        "away_team_id": 11,
+        "winner_team_id": 10
+      },
+      {
+        "week": 11,
+        "home_team_id": 1,
+        "away_team_id": 7,
+        "winner_team_id": 1
+      },
+      {
+        "week": 11,
+        "home_team_id": 5,
+        "away_team_id": 8,
+        "winner_team_id": 8
+      },
+      {
+        "week": 11,
+        "home_team_id": 12,
+        "away_team_id": 4,
+        "winner_team_id": 12
+      },
+      {
+        "week": 12,
+        "home_team_id": 5,
+        "away_team_id": 1,
+        "winner_team_id": 1
+      },
+      {
+        "week": 12,
+        "home_team_id": 10,
+        "away_team_id": 6,
+        "winner_team_id": 10
+      },
+      {
+        "week": 12,
+        "home_team_id": 2,
+        "away_team_id": 12,
+        "winner_team_id": 2
+      },
+      {
+        "week": 12,
+        "home_team_id": 3,
+        "away_team_id": 7,
+        "winner_team_id": 3
+      },
+      {
+        "week": 12,
+        "home_team_id": 4,
+        "away_team_id": 8,
+        "winner_team_id": 4
+      },
+      {
+        "week": 12,
+        "home_team_id": 9,
+        "away_team_id": 11,
+        "winner_team_id": 9
+      },
+      {
+        "week": 13,
+        "home_team_id": 10,
+        "away_team_id": 1,
+        "winner_team_id": 10
+      },
+      {
+        "week": 13,
+        "home_team_id": 6,
+        "away_team_id": 5,
+        "winner_team_id": 6
+      },
+      {
+        "week": 13,
+        "home_team_id": 3,
+        "away_team_id": 12,
+        "winner_team_id": 3
+      },
+      {
+        "week": 13,
+        "home_team_id": 7,
+        "away_team_id": 2,
+        "winner_team_id": 7
+      },
+      {
+        "week": 13,
+        "home_team_id": 9,
+        "away_team_id": 8,
+        "winner_team_id": 9
+      },
+      {
+        "week": 13,
+        "home_team_id": 11,
+        "away_team_id": 4,
+        "winner_team_id": 11
+      },
+      {
+        "week": 14,
+        "home_team_id": 6,
+        "away_team_id": 1,
+        "winner_team_id": 6
+      },
+      {
+        "week": 14,
+        "home_team_id": 10,
+        "away_team_id": 5,
+        "winner_team_id": 10
+      },
+      {
+        "week": 14,
+        "home_team_id": 7,
+        "away_team_id": 12,
+        "winner_team_id": 7
+      },
+      {
+        "week": 14,
+        "home_team_id": 3,
+        "away_team_id": 2,
+        "winner_team_id": 3
+      },
+      {
+        "week": 14,
+        "home_team_id": 11,
+        "away_team_id": 8,
+        "winner_team_id": 11
+      },
+      {
+        "week": 14,
+        "home_team_id": 9,
+        "away_team_id": 4,
+        "winner_team_id": 9
+      }
+    ],
+    "final_records": {
+      "12": {
+        "team": "Dr. Duckhook",
+        "wins": 7,
+        "losses": 7,
+        "pf": 1902.15,
+        "pa": 2043.83,
+        "division_wins": 0
+      },
+      "9": {
+        "team": "El Niño",
+        "wins": 9,
+        "losses": 5,
+        "pf": 2000.03,
+        "pa": 1794.23,
+        "division_wins": 5
+      },
+      "5": {
+        "team": "D0nkey K0ng",
+        "wins": 6,
+        "losses": 8,
+        "pf": 1811.82,
+        "pa": 1931.79,
+        "division_wins": 2
+      },
+      "2": {
+        "team": "Red Leopards",
+        "wins": 7,
+        "losses": 7,
+        "pf": 1893.11,
+        "pa": 1846.72,
+        "division_wins": 4
+      },
+      "8": {
+        "team": "His Majesty's Blood",
+        "wins": 7,
+        "losses": 7,
+        "pf": 1901.95,
+        "pa": 1896.61,
+        "division_wins": 2
+      },
+      "11": {
+        "team": "Seven Deadly Chins",
+        "wins": 8,
+        "losses": 6,
+        "pf": 1856.62,
+        "pa": 1721.62,
+        "division_wins": 3
+      },
+      "3": {
+        "team": "Slob on my Dobb",
+        "wins": 10,
+        "losses": 4,
+        "pf": 2199.99,
+        "pa": 1804.92,
+        "division_wins": 5
+      },
+      "7": {
+        "team": "The Chili Cheesers",
+        "wins": 7,
+        "losses": 7,
+        "pf": 1884.79,
+        "pa": 1956.27,
+        "division_wins": 3
+      },
+      "1": {
+        "team": "ObiWan Jacoby",
+        "wins": 6,
+        "losses": 8,
+        "pf": 1848.31,
+        "pa": 1921.89,
+        "division_wins": 3
+      },
+      "6": {
+        "team": "Three Dreaded Snake",
+        "wins": 6,
+        "losses": 8,
+        "pf": 1772.46,
+        "pa": 1902.18,
+        "division_wins": 3
+      },
+      "4": {
+        "team": "The LLC",
+        "wins": 5,
+        "losses": 9,
+        "pf": 1899.25,
+        "pa": 2021.22,
+        "division_wins": 2
+      },
+      "10": {
+        "team": "Mud Dogs",
+        "wins": 6,
+        "losses": 8,
+        "pf": 1781.35,
+        "pa": 1910.55,
+        "division_wins": 4
+      }
+    },
+    "division_winners": {
+      "Burgers": 10,
+      "Pizza": 9,
+      "Wings": 3
+    },
+    "qualified_team_ids": [
+      10,
+      9,
+      3,
+      11,
+      12,
+      8,
+      2
+    ],
+    "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+  },
+  "team_status": {
+    "1": {
+      "name": "ObiWan Jacoby",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 5
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2002.15,
+            "pa": 1943.83,
+            "division_wins": 2
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 3
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1951.95,
+            "pa": 1846.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1806.62,
+            "pa": 1771.62,
+            "division_wins": 1
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 8,
+            "losses": 6,
+            "pf": 2099.99,
+            "pa": 1904.92,
+            "division_wins": 3
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1948.31,
+            "pa": 1821.89,
+            "division_wins": 5
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1722.46,
+            "pa": 1952.18,
+            "division_wins": 2
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1999.25,
+            "pa": 1921.22,
+            "division_wins": 4
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 1,
+          "Pizza": 8,
+          "Wings": 12
+        },
+        "qualified_team_ids": [
+          1,
+          8,
+          12,
+          5,
+          3,
+          4,
+          9
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "2": {
+      "name": "Red Leopards",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 6
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1843.11,
+            "pa": 1896.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2001.95,
+            "pa": 1796.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 2
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1822.46,
+            "pa": 1852.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 8,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          8,
+          3,
+          11,
+          12,
+          6,
+          7
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "3": {
+      "name": "Slob on my Dobb",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 9
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 5
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 6
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 2
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1950.03,
+            "pa": 1844.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1961.82,
+            "pa": 1781.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1943.11,
+            "pa": 1796.72,
+            "division_wins": 5
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1951.95,
+            "pa": 1846.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1999.99,
+            "pa": 2004.92,
+            "division_wins": 2
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1898.31,
+            "pa": 1871.89,
+            "division_wins": 4
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1722.46,
+            "pa": 1952.18,
+            "division_wins": 2
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1949.25,
+            "pa": 1971.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 4,
+            "losses": 10,
+            "pf": 1681.35,
+            "pa": 2010.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 9,
+          "Wings": 12
+        },
+        "qualified_team_ids": [
+          5,
+          9,
+          12,
+          8,
+          2,
+          11,
+          1
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "4": {
+      "name": "The LLC",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 9
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 6
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 4
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1961.82,
+            "pa": 1781.79,
+            "division_wins": 5
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 5
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 8,
+            "losses": 6,
+            "pf": 2099.99,
+            "pa": 1904.92,
+            "division_wins": 4
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 2
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1722.46,
+            "pa": 1952.18,
+            "division_wins": 1
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1999.25,
+            "pa": 1921.22,
+            "division_wins": 3
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 4,
+            "losses": 10,
+            "pf": 1681.35,
+            "pa": 2010.55,
+            "division_wins": 3
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          9,
+          3,
+          11,
+          4,
+          12,
+          8
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "5": {
+      "name": "D0nkey K0ng",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 6
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1843.11,
+            "pa": 1896.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2001.95,
+            "pa": 1796.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 2
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1822.46,
+            "pa": 1852.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 8,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          8,
+          3,
+          11,
+          12,
+          6,
+          7
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "6": {
+      "name": "Three Dreaded Snake",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 6
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1843.11,
+            "pa": 1896.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2001.95,
+            "pa": 1796.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 2
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1822.46,
+            "pa": 1852.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 8,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          8,
+          3,
+          11,
+          12,
+          6,
+          7
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "7": {
+      "name": "The Chili Cheesers",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 6
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1843.11,
+            "pa": 1896.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2001.95,
+            "pa": 1796.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 2
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1822.46,
+            "pa": 1852.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 8,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          8,
+          3,
+          11,
+          12,
+          6,
+          7
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "8": {
+      "name": "His Majesty's Blood",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 9
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 5
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 6
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 2
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 4
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 3
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1851.95,
+            "pa": 1946.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2149.99,
+            "pa": 1854.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1834.79,
+            "pa": 2006.27,
+            "division_wins": 1
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 4
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1999.25,
+            "pa": 1921.22,
+            "division_wins": 3
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          9,
+          3,
+          11,
+          12,
+          4,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "9": {
+      "name": "El Niño",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 6
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1843.11,
+            "pa": 1896.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2001.95,
+            "pa": 1796.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 2
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1822.46,
+            "pa": 1852.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 8,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          8,
+          3,
+          11,
+          12,
+          6,
+          7
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "10": {
+      "name": "Mud Dogs",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 6
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1952.15,
+            "pa": 1993.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1843.11,
+            "pa": 1896.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2001.95,
+            "pa": 1796.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 2
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1822.46,
+            "pa": 1852.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 8,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          5,
+          8,
+          3,
+          11,
+          12,
+          6,
+          7
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "11": {
+      "name": "Seven Deadly Chins",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 5
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2002.15,
+            "pa": 1943.83,
+            "division_wins": 2
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1900.03,
+            "pa": 1894.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 3
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1951.95,
+            "pa": 1846.61,
+            "division_wins": 4
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1806.62,
+            "pa": 1771.62,
+            "division_wins": 1
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 8,
+            "losses": 6,
+            "pf": 2099.99,
+            "pa": 1904.92,
+            "division_wins": 3
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1948.31,
+            "pa": 1821.89,
+            "division_wins": 5
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1722.46,
+            "pa": 1952.18,
+            "division_wins": 2
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1999.25,
+            "pa": 1921.22,
+            "division_wins": 4
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 3,
+            "losses": 11,
+            "pf": 1631.35,
+            "pa": 2060.55,
+            "division_wins": 2
+          }
+        },
+        "division_winners": {
+          "Burgers": 1,
+          "Pizza": 8,
+          "Wings": 12
+        },
+        "qualified_team_ids": [
+          1,
+          8,
+          12,
+          5,
+          3,
+          4,
+          9
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    },
+    "12": {
+      "name": "Dr. Duckhook",
+      "clinched": false,
+      "eliminated": false,
+      "status": "alive, not clinched (conditional Week10 baseline)",
+      "qualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 3
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 10
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 12
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 1
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 3
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 6
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 3
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 9
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 0
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 9,
+            "losses": 5,
+            "pf": 2000.03,
+            "pa": 1794.23,
+            "division_wins": 5
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1811.82,
+            "pa": 1931.79,
+            "division_wins": 2
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1901.95,
+            "pa": 1896.61,
+            "division_wins": 2
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1856.62,
+            "pa": 1721.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2199.99,
+            "pa": 1804.92,
+            "division_wins": 5
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1884.79,
+            "pa": 1956.27,
+            "division_wins": 3
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1848.31,
+            "pa": 1921.89,
+            "division_wins": 3
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1772.46,
+            "pa": 1902.18,
+            "division_wins": 3
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 2
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 6,
+            "losses": 8,
+            "pf": 1781.35,
+            "pa": 1910.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 10,
+          "Pizza": 9,
+          "Wings": 3
+        },
+        "qualified_team_ids": [
+          10,
+          9,
+          3,
+          11,
+          12,
+          8,
+          2
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      },
+      "nonqualification_witness": {
+        "winners": [
+          {
+            "week": 11,
+            "home_team_id": 3,
+            "away_team_id": 9,
+            "winner_team_id": 9
+          },
+          {
+            "week": 11,
+            "home_team_id": 6,
+            "away_team_id": 2,
+            "winner_team_id": 2
+          },
+          {
+            "week": 11,
+            "home_team_id": 10,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 11,
+            "home_team_id": 1,
+            "away_team_id": 7,
+            "winner_team_id": 1
+          },
+          {
+            "week": 11,
+            "home_team_id": 5,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 11,
+            "home_team_id": 12,
+            "away_team_id": 4,
+            "winner_team_id": 4
+          },
+          {
+            "week": 12,
+            "home_team_id": 5,
+            "away_team_id": 1,
+            "winner_team_id": 5
+          },
+          {
+            "week": 12,
+            "home_team_id": 10,
+            "away_team_id": 6,
+            "winner_team_id": 10
+          },
+          {
+            "week": 12,
+            "home_team_id": 2,
+            "away_team_id": 12,
+            "winner_team_id": 2
+          },
+          {
+            "week": 12,
+            "home_team_id": 3,
+            "away_team_id": 7,
+            "winner_team_id": 7
+          },
+          {
+            "week": 12,
+            "home_team_id": 4,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 12,
+            "home_team_id": 9,
+            "away_team_id": 11,
+            "winner_team_id": 11
+          },
+          {
+            "week": 13,
+            "home_team_id": 10,
+            "away_team_id": 1,
+            "winner_team_id": 10
+          },
+          {
+            "week": 13,
+            "home_team_id": 6,
+            "away_team_id": 5,
+            "winner_team_id": 5
+          },
+          {
+            "week": 13,
+            "home_team_id": 3,
+            "away_team_id": 12,
+            "winner_team_id": 12
+          },
+          {
+            "week": 13,
+            "home_team_id": 7,
+            "away_team_id": 2,
+            "winner_team_id": 7
+          },
+          {
+            "week": 13,
+            "home_team_id": 9,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 13,
+            "home_team_id": 11,
+            "away_team_id": 4,
+            "winner_team_id": 11
+          },
+          {
+            "week": 14,
+            "home_team_id": 6,
+            "away_team_id": 1,
+            "winner_team_id": 6
+          },
+          {
+            "week": 14,
+            "home_team_id": 10,
+            "away_team_id": 5,
+            "winner_team_id": 10
+          },
+          {
+            "week": 14,
+            "home_team_id": 7,
+            "away_team_id": 12,
+            "winner_team_id": 7
+          },
+          {
+            "week": 14,
+            "home_team_id": 3,
+            "away_team_id": 2,
+            "winner_team_id": 3
+          },
+          {
+            "week": 14,
+            "home_team_id": 11,
+            "away_team_id": 8,
+            "winner_team_id": 8
+          },
+          {
+            "week": 14,
+            "home_team_id": 9,
+            "away_team_id": 4,
+            "winner_team_id": 9
+          }
+        ],
+        "final_records": {
+          "12": {
+            "team": "Dr. Duckhook",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1902.15,
+            "pa": 2043.83,
+            "division_wins": 1
+          },
+          "9": {
+            "team": "El Niño",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1950.03,
+            "pa": 1844.23,
+            "division_wins": 3
+          },
+          "5": {
+            "team": "D0nkey K0ng",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1911.82,
+            "pa": 1831.79,
+            "division_wins": 4
+          },
+          "2": {
+            "team": "Red Leopards",
+            "wins": 7,
+            "losses": 7,
+            "pf": 1893.11,
+            "pa": 1846.72,
+            "division_wins": 4
+          },
+          "8": {
+            "team": "His Majesty's Blood",
+            "wins": 10,
+            "losses": 4,
+            "pf": 2051.95,
+            "pa": 1746.61,
+            "division_wins": 5
+          },
+          "11": {
+            "team": "Seven Deadly Chins",
+            "wins": 9,
+            "losses": 5,
+            "pf": 1906.62,
+            "pa": 1671.62,
+            "division_wins": 3
+          },
+          "3": {
+            "team": "Slob on my Dobb",
+            "wins": 7,
+            "losses": 7,
+            "pf": 2049.99,
+            "pa": 1954.92,
+            "division_wins": 3
+          },
+          "7": {
+            "team": "The Chili Cheesers",
+            "wins": 8,
+            "losses": 6,
+            "pf": 1934.79,
+            "pa": 1906.27,
+            "division_wins": 4
+          },
+          "1": {
+            "team": "ObiWan Jacoby",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1798.31,
+            "pa": 1971.89,
+            "division_wins": 2
+          },
+          "6": {
+            "team": "Three Dreaded Snake",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1722.46,
+            "pa": 1952.18,
+            "division_wins": 2
+          },
+          "4": {
+            "team": "The LLC",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1899.25,
+            "pa": 2021.22,
+            "division_wins": 1
+          },
+          "10": {
+            "team": "Mud Dogs",
+            "wins": 5,
+            "losses": 9,
+            "pf": 1731.35,
+            "pa": 1960.55,
+            "division_wins": 4
+          }
+        },
+        "division_winners": {
+          "Burgers": 5,
+          "Pizza": 8,
+          "Wings": 7
+        },
+        "qualified_team_ids": [
+          5,
+          8,
+          7,
+          11,
+          9,
+          2,
+          3
+        ],
+        "illustrative_score_rule": "Each remaining winner scores150, loser100 solely to complete the arithmetic; these are possibility witnesses, never predictions or odds."
+      }
+    }
+  },
+  "limitations": [
+    "Week10 is not final; rerun if a lead flips or a correction changes a result.",
+    "This proves existence of paths; it does not estimate their likelihood.",
+    "No unreported commissioner override was assumed.",
+    "Fresh provider madePlayoffs fields are null, not elimination or clinching flags."
+  ]
+}
