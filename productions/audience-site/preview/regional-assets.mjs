@@ -1466,6 +1466,39 @@ export function buildRegionalAssets(THREE, bindings, height) {
       sourceLandmark:'clubhouse',navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function jacksonPorchColumn(g,x,columnMaterial){
+    // Six INHERITED octagonal porch supports, one mesh each. The original eight
+    // corner rays, caps, taper and exterior polygon remain fixed. Only shallow
+    // recessed vertical stone flutes between the original eight faces are new.
+    const top=.13,bottom=.16,h=2.3,sides=8,seg=sides*8;
+    const geo=new THREE.CylinderGeometry(top,bottom,h,seg,12);
+    const p=geo.getAttribute('position'),sector=Math.PI*2/sides;
+    for(let i=0;i<p.count;i++){
+      const px=p.getX(i),py=p.getY(i),pz=p.getZ(i),radius=Math.hypot(px,pz);
+      if(radius<1e-8)continue;
+      const angle=Math.atan2(px,pz);
+      let offset=angle%sector;
+      if(offset>sector/2)offset-=sector;
+      if(offset<-sector/2)offset+=sector;
+      // Exact radial intersection with the original 8-sided cylinder hull.
+      const octagon=Math.cos(sector/2)/Math.cos(sector/2-Math.abs(offset));
+      const axial=Math.pow(Math.sin(Math.PI*(py+h/2)/h),2);
+      const flute=Math.pow(Math.max(0,-Math.cos(sides*angle)),4);
+      const recess=.068*flute*axial;
+      const scale=octagon*(1-recess);
+      p.setXYZ(i,px*scale,py,pz*scale);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    geo.name='Candidate Jackson porch inward-fluted octagonal shaft';
+    const o=mesh(g,geo,columnMaterial,x,.37+h/2,3.6);
+    o.name='Candidate Jackson fluted porch support';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      sourceLandmark:'clubhouse',estatePorchPart:'shaft-fluting',
+      originalDimensions:[top,bottom,h],originalSides:sides,
+      originalPerimeterPreserved:true,navigable:false,routeIds:[],
+      principalCharacters:[]};
+    return o;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -1504,7 +1537,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
         navigable:false,routeIds:[],principalCharacters:[]};
     };
     hip(0,2.95,0,8.8,1.6,5.2);hip(-5,2.35,.1,2.7,1.1,4.2);hip(5,2.35,.1,2.7,1.1,4.2);
-    box(g,0,.12,3,9,.25,2.4,edge);for(let x=-4;x<=4;x+=1.34)cyl(g,x,.37,3.6,.13,.16,2.3,cream,8);box(g,0,2.65,3.1,9.4,.25,2.5,cream);hip(0,2.9,3.1,9.6,.75,2.7);
+    box(g,0,.12,3,9,.25,2.4,edge);for(let x=-4;x<=4;x+=1.34)jacksonPorchColumn(g,x,cream);box(g,0,2.65,3.1,9.4,.25,2.5,cream);hip(0,2.9,3.1,9.6,.75,2.7);
     for(let x=-3;x<=3;x+=1.5){jacksonWindowGlass(g,x,glass);box(g,x-.38,.78,2.16,.12,1.23,.06,roof);box(g,x+.38,.78,2.16,.12,1.23,.06,roof);}
     jacksonEntranceDoor(g,roof);for(let i=0;i<3;i++)jacksonEntranceStep(g,i,edge);
     // Candidate course massing does not certify a pristine post-contamination state.
