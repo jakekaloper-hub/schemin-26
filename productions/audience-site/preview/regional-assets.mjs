@@ -1595,6 +1595,76 @@ export function buildRegionalAssets(THREE, bindings, height) {
       principalCharacters:[]};
     return o;
   }
+  function jacksonArchStoneRelief(geometry,archShape){
+    // Carve ONLY the two inherited Week 9 arch facade surfaces. Subdivide
+    // their existing triangles; keep the original shape contour, extruded
+    // thickness, side walls, material and mesh/draw-call count untouched.
+    const position=geometry.getAttribute('position');
+    const uv=geometry.getAttribute('uv');
+    const normal=geometry.getAttribute('normal');
+    const outline=archShape.getPoints(64).map(p=>new THREE.Vector2(-p.x,p.y));
+    const sculpted=[],mapped=[];
+    const steps=5;
+    const smooth=(a,b,v)=>{
+      const t=Math.max(0,Math.min(1,(v-a)/(b-a)));
+      return t*t*(3-2*t);
+    };
+    const distanceToOutline=(z,y)=>{
+      let nearest=Infinity;
+      for(let i=0;i<outline.length;i++){
+        const a=outline[i],b=outline[(i+1)%outline.length];
+        const dx=b.x-a.x,dy=b.y-a.y,den=dx*dx+dy*dy;
+        const t=den>0?Math.max(0,Math.min(1,((z-a.x)*dx+(y-a.y)*dy)/den)):0;
+        nearest=Math.min(nearest,Math.hypot(z-a.x-t*dx,y-a.y-t*dy));
+      }
+      return nearest;
+    };
+    const point=(tri,u,v,facade)=>{
+      const w=1-u-v;
+      const a=tri*3,b=a+1,c=a+2;
+      const x=w*position.getX(a)+u*position.getX(b)+v*position.getX(c);
+      const y=w*position.getY(a)+u*position.getY(b)+v*position.getY(c);
+      const z=w*position.getZ(a)+u*position.getZ(b)+v*position.getZ(c);
+      const tx=w*uv.getX(a)+u*uv.getX(b)+v*uv.getX(c);
+      const ty=w*uv.getY(a)+u*uv.getY(b)+v*uv.getY(c);
+      if(!facade)return [x,y,z,tx,ty];
+      const borderHold=smooth(.001,.13,distanceToOutline(z,y));
+      const course=Math.pow(Math.max(0,Math.cos(y*17.8+.17*Math.sin(z*3.4))),14);
+      const voussoir=Math.pow(Math.max(0,Math.cos(Math.atan2(z,y+.65)*15.)),18)
+        *smooth(.04,.38,y);
+      const stoneJoint=Math.min(.013,borderHold*(.009*course+.006*voussoir));
+      // Facade normal points away from the extrusion; move only inward.
+      return [x-Math.sign(normal.getX(a))*stoneJoint,y,z,tx,ty];
+    };
+    const append=(v)=>{sculpted.push(v[0],v[1],v[2]);mapped.push(v[3],v[4]);};
+    for(let tri=0;tri<position.count/3;tri++){
+      const facade=Math.abs(normal.getX(tri*3))>.99;
+      if(!facade){
+        append(point(tri,0,0,false));
+        append(point(tri,1,0,false));
+        append(point(tri,0,1,false));
+        continue;
+      }
+      for(let i=0;i<steps;i++)for(let j=0;j<steps-i;j++){
+        const a=point(tri,i/steps,j/steps,true);
+        const b=point(tri,(i+1)/steps,j/steps,true);
+        const c=point(tri,i/steps,(j+1)/steps,true);
+        append(a);append(b);append(c);
+        if(i+j<steps-1){
+          const d=point(tri,(i+1)/steps,(j+1)/steps,true);
+          append(b);append(d);append(c);
+        }
+      }
+    }
+    geometry.setIndex(null);
+    geometry.clearGroups(); // Both original extruded material groups use shared stone.
+    geometry.setAttribute('position',new THREE.Float32BufferAttribute(sculpted,3));
+    geometry.setAttribute('uv',new THREE.Float32BufferAttribute(mapped,2));
+    geometry.deleteAttribute('normal');
+    geometry.computeVertexNormals();geometry.computeBoundingBox();geometry.computeBoundingSphere();
+    geometry.name='Candidate Jackson inward-jointed original stone arch';
+    return geometry;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -1671,8 +1741,11 @@ export function buildRegionalAssets(THREE, bindings, height) {
     for(const side of [-.88,.71]){
       const archGeo=new THREE.ExtrudeGeometry(shape,{depth:.17,steps:1,bevelEnabled:false,curveSegments:16});
       archGeo.rotateY(Math.PI/2);
+      jacksonArchStoneRelief(archGeo,shape);
       const face=mesh(bridge,archGeo,stone,side,0,0);
-      face.userData={bridgePart:'stone-arch'};
+      face.userData={bridgePart:'stone-arch',stoneDetail:'inward-jointed-original-facade',
+        visualAuthority:'CANDIDATE_NOT_APPROVED',navigable:false,routeIds:[],
+        principalCharacters:[]};
       box(bridge,side+.07,1.48,0,.26,.15,5.42,edge);
       for(const z of [-2.26,-1.13,0,1.13,2.26])cyl(bridge,side+.07,1.64,z,.105,.13,.50,stone,7);
       box(bridge,side+.07,2.14,0,.22,.14,5.30,edge);
