@@ -487,10 +487,37 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Candidate local detail only: no claim about actual approved hydrology geometry.
     for(let i=0;i<4;i++){
       const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uPhase:{value:i/4}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-        vertexShader:`uniform float uTime;uniform float uPhase;varying float vFade;void main(){float progress=fract(uTime*.19+uPhase);vec3 p=position;p.xy*=.55+progress*2.65;vFade=pow(1.-progress,1.5);gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);}`,
-        fragmentShader:`varying float vFade;void main(){gl_FragColor=vec4(.75,.95,.83,.43*vFade);}`});
+        // Each EXISTING expanding landing ring now carries a shallow 3D crest.
+        // Keep the original inner/outer radii and XY expansion; subdivide only
+        // its interior so age-fading vertical relief can rise above the pool.
+        // This is water contact motion, not El Niño storm/weather animation.
+        vertexShader:`uniform float uTime;uniform float uPhase;
+          varying float vFade;varying float vCrest;varying float vFoam;
+          void main(){
+            float progress=fract(uTime*.19+uPhase);
+            float radial=clamp((length(position.xy)-.89)/.11,0.,1.);
+            float crest=sin(radial*3.14159265);
+            float azimuth=atan(position.y,position.x);
+            float pulse=.70+.30*sin(azimuth*7.-uTime*.42+uPhase*6.2831853);
+            vec3 p=position;
+            p.xy*=.55+progress*2.65;
+            p.z+=.033*crest*pulse*pow(1.-progress,1.6);
+            vCrest=crest;
+            vFoam=.5+.5*sin(azimuth*9.-uTime*.56+uPhase*6.2831853);
+            vFade=pow(1.-progress,1.5);
+            gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
+          }`,
+        // Broken, feathered foam instead of a continuous uniform luminous hoop.
+        fragmentShader:`varying float vFade;varying float vCrest;varying float vFoam;
+          void main(){
+            float broken=.30+.70*pow(vFoam,1.5);
+            float feather=.24+.76*vCrest;
+            float alpha=.43*vFade*broken*feather;
+            vec3 tint=vec3(.72,.91,.82)+vec3(.055,.045,.035)*vCrest*vFoam;
+            gl_FragColor=vec4(tint,alpha);
+          }`});
       materials.set('landing-ripple-'+i,m);
-      const ring=mesh(g,new THREE.RingGeometry(.89,1,48),m,x,y-drop+.10+i*.008,z+.9);
+      const ring=mesh(g,new THREE.RingGeometry(.89,1,48,4),m,x,y-drop+.10+i*.008,z+.9);
       ring.rotation.x=-Math.PI/2;ring.castShadow=false;ring.receiveShadow=false;ring.renderOrder=3;
       water.push({kind:'landing-ripple',material:m,mesh:ring});
     }
