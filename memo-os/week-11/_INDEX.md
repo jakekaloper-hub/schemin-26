@@ -9,6 +9,8 @@
 
 **Week 11 uses a GTA VI release-week visual shell across every Memo product. Week 12 uses Thanksgiving.** “One Last Crossing” remains the Week 11 working story. The league shares one last interdivisional weekend before three divisional rounds. Rockstar released GTA VI on November 19 ([launch announcement](https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available)).
 
+[Production and Inklings review of the visual interview](FOUNDER_VISUAL_INTERVIEW_PRODUCTION_REVIEW_2026-11-21.md) · Six matchup treatments, past-issue references, the divisional return and the postseason through the 2026 championship.
+
 ### Issue-wide art direction
 
 Every page, including the cover, looks photographed. Use the same signature pink, purple and aqua grade in every scene. Give every matchup full GTA VI release-week set dressing at its established Commonwealth venue. Draw from all four selected cues: sunset pink and tangerine skies with deep violet shadows, headlights on wet roads and neon reflected in glass, trailer-style angles and lifelike close-ups, and bold title lettering with sharply framed character portraits. Choose practical sources appropriate to the venue and time of day. Preserve the twelve approved likenesses, team identifiers and Atlas geography.
