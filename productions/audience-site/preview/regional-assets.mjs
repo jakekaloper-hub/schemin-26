@@ -1675,6 +1675,35 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geometry.name='Candidate Jackson inward-jointed original stone arch';
     return geometry;
   }
+  function jacksonBridgeDeck(g,deckMaterial){
+    // The ONE inherited Week 9 stone-arch bridge deck keeps its original
+    // rectangular hull and material. Shallow transverse tread joints are
+    // recessed into its top face; they imply no new route or approved design.
+    const w=1.80,h=.19,d=5.48,joints=13;
+    const geo=new THREE.BoxGeometry(w,h,d,8,2,joints*4);
+    const p=geo.getAttribute('position'),pitch=d/joints;
+    for(let i=0;i<p.count;i++){
+      const x=p.getX(i),y=p.getY(i),z=p.getZ(i);
+      if(Math.abs(y-h/2)>1e-6||Math.abs(x)>=w/2-1e-6||
+        Math.abs(z)>=d/2-1e-6)continue; // side walls and entire original rim
+      const course=(z+d/2)/pitch;
+      const nearestJoint=Math.abs(course-Math.round(course));
+      const groove=Math.pow(Math.max(0,1-nearestJoint/.27),2);
+      const xHold=Math.min(1,Math.max(0,(w/2-Math.abs(x))/.16));
+      const zHold=Math.min(1,Math.max(0,(d/2-Math.abs(z))/.14));
+      const inset=.013*groove*xHold*zHold;
+      if(inset>1e-7)p.setY(i,y-inset);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingBox();
+    geo.computeBoundingSphere();geo.name='Candidate Jackson bridge inset tread joints';
+    const o=mesh(g,geo,deckMaterial,0,1.47+h/2,0);
+    o.name='Candidate Jackson bridge deck surface';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
+      bridgePart:'deck',sourceLandmark:'Week 9 pond-side stone arch',
+      originalDimensions:[w,h,d],originalPerimeterPreserved:true,
+      treadJointCount:joints-1,navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function estate(g){
     const cream=mat('#e4d8b3'),brick=mat('#997856'),roof=mat('#45605b'),glass=mat('#385953',.30),grass=mat('#648c43'),sand=mat('#c7ad76');
     const ground=cyl(g,0,-1.6,2,11.8,12.6,1.6,moss,48);ground.scale.z=1.15;ground.name='Candidate raised estate ground';
@@ -1760,7 +1789,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       for(const z of [-2.26,-1.13,0,1.13,2.26])cyl(bridge,side+.07,1.64,z,.105,.13,.50,stone,7);
       box(bridge,side+.07,2.14,0,.22,.14,5.30,edge);
     }
-    box(bridge,0,1.47,0,1.80,.19,5.48,mat('#997856'));
+    jacksonBridgeDeck(bridge,mat('#997856'));
     // Irregular tree crowns echo the historical folio's autumn grove, without
     // asserting permanent season, tree species, or exact tree coordinates.
     const amber=[mat('#b77d39'),mat('#d1a052'),mat('#ad5937'),mat('#934d35'),mat('#a6a04b')];
