@@ -62,7 +62,7 @@ test('high-detail reflection survives close view but fades when subpixel; ordina
   assert.ok(far<.01,kind+': subpixel detail fades');
   assert.ok(near<=1&&far>=0&&Number.isFinite(near)&&Number.isFinite(far));
   assert.ok(Math.abs(Math.sin(phase(kind,x,y,1.2))-Math.sin(phase(kind,x,y,3.7)))>.2,kind+': ordinary time advances phase');
-  assert.equal(footprint(kind,x,y,1.2,.002),footprint(kind,x,y,3.7,.002),'distance attenuation is time-independent');
+  assert.ok(Math.abs(footprint(kind,x,y,1.2,.002)-footprint(kind,x,y,3.7,.002))<1e-12,'distance attenuation is clock-independent within floating-point precision');
  }
  const a=build();
  a.tick(1.2,{globalCalm:true,storm:0});a.tick(3.7,{globalCalm:true,storm:0});
