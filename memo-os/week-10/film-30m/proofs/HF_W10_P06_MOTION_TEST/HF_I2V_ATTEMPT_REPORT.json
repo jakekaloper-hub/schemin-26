@@ -1,0 +1,72 @@
+{
+  "schema": "schemin.week10.hf_video_generation_attempt.v1",
+  "date": "2026-11-22",
+  "status": "BLOCKED_BY_CONNECTED_HF_ACCOUNT_ZEROGPU_QUOTA",
+  "source_repo": "jakekaloper-hub/schemin-26",
+  "pull_request": 347,
+  "input": {
+    "source_folio": "W10-P06",
+    "image_path": "W10-P06-source-art-16x9.jpg",
+    "image_sha256": "f13752515cbe44e508ddd3acfc0a747e586fe4dd35a6465eab0b5dee3093fc7a",
+    "source_png_sha256": "c03c9a8da2a6881c38d7a9eb02c4814cc302f4c2027f1dca842a6a3ca8de3eb6",
+    "url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/feat/week10-30min-film-storyboard-20261122/memo-os/week-10/film-30m/proofs/HF_W10_P06_MOTION_TEST/W10-P06-source-art-16x9.jpg",
+    "public_http_status_checked": 200,
+    "image_bytes": 239123
+  },
+  "extra_reference": {
+    "source_folio": "W10-P05",
+    "file": "W10-P05-alternative-establishing-frame.jpg",
+    "sha256": "8723c68fe02873fb8ed1022e9ccccdd13c4f75ee77cbac3e1cdb835b8a5a8964",
+    "status": "CANDIDATE_NOT_SUBMITTED_TO_MODEL"
+  },
+  "model_workflow": "Hugging Face connected plugin dynamic_space",
+  "attempts": [
+    {
+      "space": "zerogpu-aoti/wan2-2-fp8da-aoti-faster",
+      "tool": "wan2_2_fp8da_aoti_faster_generate_video",
+      "parameters": {
+        "input_image": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/feat/week10-30min-film-storyboard-20261122/memo-os/week-10/film-30m/proofs/HF_W10_P06_MOTION_TEST/W10-P06-source-art-16x9.jpg",
+        "prompt": "A real continuous 3.5-second cinematic live-action action shot faithful to the provided frame. In the rain-soaked Highland rodeo arena, a massive armored four-hoofed gorilla centaur in dark fur and burgundy-and-gold armor braces with all FOUR hooves planted, steadily pulling a long lasso taut. The captured bearded cowboy outlaw in black hat and deep red duster, sunglasses and leather gear loses his boot footing and physically slides through wet mud along the visible rope line. Rope stays secured across the cowboy CHEST and upper torso, never around neck; the centaur remains in background at far end and cowboy stays foreground. Both subjects exhibit independent anatomical movement, cloth flapping in wind, realistic mud splashes from sliding boots, wet glossy ground, spectators reacting naturally, rain falling and lanterns flickering. Steady low tracking camera, realistic weight, inertia, contact physics, continuity of positions, single unbroken cinematic shot; preserve established fantasy character designs, armor, locations and lighting. No appearance morph, extra limbs, teleporting, rope switching hands, static zoom or 2D pan. Do not generate new words or subtitles.",
+        "duration_seconds": 3.5,
+        "guidance_scale": 1,
+        "guidance_scale_2": 1,
+        "negative_prompt": "flat 2D slideshow, static zoom, wrong anatomy, extra limbs, neck rope, wrong identities, broken physical continuity, moving captions",
+        "randomize_seed": false,
+        "seed": 261106,
+        "steps": 4
+      },
+      "outcome": "REJECTED_BEFORE_GENERATION",
+      "error": "ZeroGPU quota exceeded: You have exceeded your ZeroGPU runs limit. Subscribe to Hugging Face PRO to get 40 min of ZeroGPU quota a day"
+    },
+    {
+      "space": "mcp-tools/wan-2-2-first-last-frame",
+      "tool": "wan_2_2_first_last_frame_generate_video",
+      "parameters": {
+        "start_image_pil": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/feat/week10-30min-film-storyboard-20261122/memo-os/week-10/film-30m/proofs/HF_W10_P06_MOTION_TEST/W10-P06-source-art-16x9.jpg",
+        "end_image_pil": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/feat/week10-30min-film-storyboard-20261122/memo-os/week-10/film-30m/proofs/HF_W10_P06_MOTION_TEST/W10-P06-source-art-16x9.jpg",
+        "prompt": "Animate natural centaur bracing and cowboy slipping, rain and splashes moving naturally. Preserve source character identity, 4 hooves, upper-torso rope, single geography; no new text, no panning only.",
+        "duration_seconds": 2.1,
+        "steps": 4,
+        "guidance_scale": 1,
+        "guidance_scale_2": 1,
+        "randomize_seed": false,
+        "seed": 261107
+      },
+      "outcome": "REJECTED_BEFORE_GENERATION",
+      "error": "ZeroGPU quota exceeded: You have exceeded your ZeroGPU runs limit. Subscribe to Hugging Face PRO to get 40 min of ZeroGPU quota a day"
+    }
+  ],
+  "output_video": null,
+  "successful_frames": 0,
+  "quality_test": "NOT_PERFORMED_NO_GENERATED_VIDEO",
+  "billing": "No paid Hugging Face job was initiated",
+  "requirements_for_next_run": [
+    "ZeroGPU quota must be available or user must explicitly authorize a paid render; do not bypass quota",
+    "Generate a short authentic moving subject shot using the frozen input and prompt, not an editorial image pan",
+    "Verify independent physical body movement, rope-on-torso geometry, four legs and consistent canonical character identity",
+    "Only after video succeeds, create temporary ADR/Foley/sound design and submit for Bullpen Umpire independent film QA",
+    "Keep input, output and render receipt in Schemin GitHub PR and account for storage and rights"
+  ],
+  "source_visual_caution": "Original memo artwork contains overlay text and multiple visual panels. Movie production may require a clean canon-attached frame before approved character-motion animation.",
+  "release_state": "NO_VIDEO_DELIVERABLE_NO_FILM_RELEASE_APPROVAL"
+}
