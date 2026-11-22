@@ -21,7 +21,33 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  const locations=[],water=[],motion=[],geometries=new Set(),materials=new Set(),textures=new Set();let disposed=false;
  function texture(kind){const n=64,bytes=new Uint8Array(n*n*4);for(let y=0;y<n;y++)for(let x=0;x<n;x++){const hash=((x*73856093)^(y*19349663))>>>0;let v=215+(hash%29);if(kind==='stone'&&(y%16<1||(x+(Math.floor(y/16)%2)*16)%32<1))v=140;else if(kind==='wood')v-=Math.pow(.5+.5*Math.sin(x*.73+Math.sin(y*.13)),4)*55;const i=(y*n+x)*4;bytes[i]=bytes[i+1]=bytes[i+2]=v;bytes[i+3]=255;}const t=new THREE.DataTexture(bytes,n,n);t.colorSpace=THREE.SRGBColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;t.generateMipmaps=true;t.minFilter=THREE.LinearMipmapLinearFilter;t.magFilter=THREE.LinearFilter;t.needsUpdate=true;textures.add(t);return t;}
  const stoneMap=texture('stone'),woodMap=texture('wood');
- function mat(color,kind='',extra={}){const m=new THREE.MeshStandardMaterial({color,roughness:.88,map:kind==='stone'?stoneMap:kind==='wood'?woodMap:null,...extra});materials.add(m);return m;}
+ // Architectural micro-normals are derived from the already existing 64px
+ // illustrative stone/wood albedo. They change only physical light response,
+ // never mesh positions, stone courses, site anchors or source state.
+ function normalTexture(albedo){
+  const {data,width,height}=albedo.image,rgba=new Uint8Array(data.length);
+  const sample=(x,y)=>data[((((y+height)%height)*width)+((x+width)%width))*4]/255;
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){
+   const dx=(sample(x+1,y)-sample(x-1,y)),dy=(sample(x,y+1)-sample(x,y-1));
+   const nx=-dx,ny=-dy,inv=1/Math.hypot(nx,ny,1),i=(y*width+x)*4;
+   rgba[i]=Math.round(127.5*(1+nx*inv));
+   rgba[i+1]=Math.round(127.5*(1+ny*inv));
+   rgba[i+2]=Math.round(127.5*(1+inv));
+   rgba[i+3]=255;
+  }
+  const t=new THREE.DataTexture(rgba,width,height,THREE.RGBAFormat);
+  t.colorSpace=THREE.NoColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;
+  t.generateMipmaps=true;t.minFilter=THREE.LinearMipmapLinearFilter;
+  t.magFilter=THREE.LinearFilter;t.needsUpdate=true;textures.add(t);return t;
+ }
+ const stoneNormal=normalTexture(stoneMap),woodNormal=normalTexture(woodMap);
+ function mat(color,kind='',extra={}){
+  const normalMap=kind==='stone'?stoneNormal:kind==='wood'?woodNormal:null;
+  const m=new THREE.MeshStandardMaterial({
+   color,roughness:.88,map:kind==='stone'?stoneMap:kind==='wood'?woodMap:null,
+   ...(normalMap?{normalMap,normalScale:new THREE.Vector2(.6,.6)}:{}),...extra
+  });materials.add(m);return m;
+ }
  const M={stone:mat('#c3bda5','stone'),light:mat('#e5d5ae','stone'),dark:mat('#444b58','stone'),slate:mat('#55626c','stone'),sand:mat('#bca176'),wood:mat('#785738','wood'),timber:mat('#4d3528','wood'),red:mat('#a82f38'),gold:mat('#bd9745','',{metalness:.25}),green:mat('#537746'),deepGreen:mat('#275647'),paleGreen:mat('#91a365'),earth:mat('#75634c'),ivory:mat('#e5d8b9'),blue:mat('#2c6a7e'),canvas:mat('#9d7860'),roof:mat('#665957','stone'),snow:mat('#d8e2dc'),glass:mat('#78a4a5','',{roughness:.25}),black:mat('#293336')};
  function mesh(g,geo,m,x=0,y=0,z=0,name=''){geometries.add(geo);const o=new THREE.Mesh(geo,m);o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;o.name=name;g.add(o);return o;}
  const box=(g,x,y,z,w,h,d,m,name='')=>mesh(g,new THREE.BoxGeometry(w,h,d),m,x,y+h/2,z,name);
