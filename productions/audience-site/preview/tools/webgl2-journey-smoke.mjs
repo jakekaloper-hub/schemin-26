@@ -6,6 +6,7 @@
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {verifyTemporalSceneSequence,verifyWetlandsTemporalSequences,WETLAND_TEMPORAL_SITES} from './temporal-evidence.mjs';
+import {atlasViewPlan,verifyAtlasCandidateCaptures,atlasContactSheetHtml} from './atlas-view-evidence.mjs';
 import {spawn} from 'node:child_process';
 import {existsSync,mkdirSync,mkdtempSync,readFileSync,rmSync,writeFileSync} from 'node:fs';
 import {tmpdir} from 'node:os';
@@ -15,17 +16,21 @@ import {pathToFileURL} from 'node:url';
 const captureOption=process.argv.indexOf('--capture-dir');
 const temporalOption=process.argv.indexOf('--temporal-dir');
 const wetlandsOption=process.argv.indexOf('--wetlands-temporal-dir');
-const options=[captureOption,temporalOption,wetlandsOption].filter(index=>index>=0);
+const atlasOption=process.argv.indexOf('--atlas-views-dir');
+const options=[captureOption,temporalOption,wetlandsOption,atlasOption].filter(index=>index>=0);
 assert.ok((options.length===0&&process.argv.length===3)
  ||(options.length===1&&options[0]===3&&process.argv.length===5),
- 'Optional capture argument: --capture-dir, --temporal-dir or --wetlands-temporal-dir /new/private/evidence/directory');
+ 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir or --atlas-views-dir /new/private/evidence/directory');
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
 const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 const wetlandsDir=wetlandsOption<0?null:resolve(process.argv[4]);
+const atlasDir=atlasOption<0?null:resolve(process.argv[4]);
 if(captureDir)assert.ok(!existsSync(captureDir),'CAPTURE_DIRECTORY_EXISTS: refusal to overwrite evidence');
 if(temporalDir)assert.ok(!existsSync(temporalDir),'TEMPORAL_DIRECTORY_EXISTS: refusal to overwrite evidence');
 if(wetlandsDir)assert.ok(!existsSync(wetlandsDir),'WETLANDS_DIRECTORY_EXISTS: refusal to overwrite evidence');
-const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[];
+if(atlasDir)assert.ok(!existsSync(atlasDir),'ATLAS_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[],atlasCaptures=[];
+let atlasPlan=null;
 const observer=resolve(process.argv[2]||'');
 assert.ok(process.argv[2]&&existsSync(observer),'Usage: node webgl2-journey-smoke.mjs /path/to/observer.html');
 const chrome=process.env.CHROME_BIN||(process.platform==='darwin'
@@ -70,8 +75,8 @@ async function evaluate(expression){
  return r.result?.value;
 }
 const snapshot=()=>evaluate('(()=>({state:__observerDebug.state(),stats:__observerDebug.stats(),places:__observerDebug.bindings().length,sourceUnchanged:__observerDebug.sourceUnchanged(),fallback:!document.querySelector("#fallback").hidden,gpu:__observerDebug.stats()?.gpuRenderer||"UNAVAILABLE"}))()');
-async function captureCandidate(file,placeId){
- if(!captureDir)return;
+async function captureCandidate(file,placeId,sink=captured){
+ if(!captureDir&&!atlasDir)return;
  const s=await snapshot();
  assert.equal(s.stats.renderer,'three-webgl2','Visual evidence requires real WebGL2');
  assert.ok(s.stats.frames>0&&s.sourceUnchanged&&!s.fallback,'Invalid candidate capture state');
@@ -83,7 +88,7 @@ async function captureCandidate(file,placeId){
  assert.equal(bytes.subarray(0,8).toString('hex'),'89504e470d0a1a0a','Browser returned invalid PNG');
  const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);
  assert.ok(width>=1000&&height>=600,'Candidate capture has unexpected viewport');
- captured.push({file,placeId,frames:s.stats.frames,bytes,width,height});
+ sink.push({file,placeId,frames:s.stats.frames,bytes,width,height,camera:await evaluate('__observerDebug.camera()')});
 }
 async function captureTemporalFrame(file,waterTime,motionState,placeId='LOC-TDS-WATERFALL-TEMPLE',sink=temporalCaptures){
  assert.ok(['MOVING','PAUSED'].includes(motionState),'Unsupported temporal capture state');
@@ -169,6 +174,21 @@ async function main(){
  if(await evaluate('document.querySelector("#motionToggle").getAttribute("aria-pressed")')==='true')await click('#motionToggle');
  const a=await snapshot();
  const b=await until(async()=>{const next=await snapshot();return next.stats.waterTime>a.stats.waterTime?next:null;},'ordinary water continued during global weather calm',12000);
+ if(atlasDir){
+  // Candidate contact sheet: capture every existing Atlas site, never create or unlock a site.
+  // Source bindings, no-login journey, verified calm and ordinary water remain authoritative.
+  atlasPlan=atlasViewPlan(await evaluate('__observerDebug.bindings()'));
+  for(const place of atlasPlan){
+   await click('#placesToggle');
+   await click('[data-place="'+place.placeId+'"]');
+   assert.equal(await evaluate('document.querySelector("#placeName").textContent'),place.name,'Source place title drift');
+   await delay(1900);
+   await captureCandidate(place.file,place.placeId,atlasCaptures);
+   await click('#inspectorWorld');
+  }
+  verifyAtlasCandidateCaptures(atlasPlan,atlasCaptures);
+  assert.equal((await snapshot()).sourceUnchanged,true,'Atlas-wide capture mutated source');
+ }
  if(temporalDir){
   // Evidence-only: inspect two real Temple frames under global calm from the same settled viewpoint.
   await click('#placesToggle');
@@ -262,6 +282,27 @@ async function main(){
     ({file,placeId,waterTime,motionState,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
   },null,2)+'\n',{flag:'wx'});
  }
+ if(atlasDir){
+  // Emit nothing unless all 23 physical-GPU frames and source IDs validate.
+  const coverage=verifyAtlasCandidateCaptures(atlasPlan,atlasCaptures);
+  assert.equal((await snapshot()).sourceUnchanged,true,'Source changed before Atlas evidence emission');
+  const sourceRevision=await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision');
+  const stateAsOf=await evaluate('JSON.parse(document.querySelector("#catalog").textContent).stateAsOf');
+  mkdirSync(atlasDir,{recursive:true});
+  for(const shot of atlasCaptures)writeFileSync(join(atlasDir,shot.file),shot.bytes,{flag:'wx'});
+  writeFileSync(join(atlasDir,'manifest.json'),JSON.stringify({
+   status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
+   evidenceType:'PHYSICAL_GPU_SOURCE_ATLAS_23_PLACE_STILLS_NOT_ART_ACCEPTANCE_OR_WATER_PIXEL_PROOF',
+   sourceRevision,stateAsOf,renderer:first.stats.renderer,gpu:first.gpu,
+   syntheticScenario:'verified El Nino loss to GLOBAL_CALM',weatherStatus:calm.status,
+   originalHistoryJourneyPassed:true,ordinaryWaterAdvanced:true,sourceUnchanged:true,coverage,
+   captures:atlasCaptures.map(({file,placeId,frames,bytes,width,height,camera})=>
+    ({file,placeId,frames,bytes:bytes.length,width,height,camera,sha256:createHash('sha256').update(bytes).digest('hex')}))
+  },null,2)+'\n',{flag:'wx'});
+  writeFileSync(join(atlasDir,'inspection.html'),
+   atlasContactSheetHtml(atlasPlan,{sourceRevision,stateAsOf,gpu:first.gpu,renderer:first.stats.renderer}),
+   {flag:'wx'});
+ }
  if(captureDir){
   assert.equal(captured.length,4,'Missing candidate scene coverage');
   mkdirSync(captureDir,{recursive:true});
@@ -281,7 +322,7 @@ async function main(){
   jacksonHistory:await evaluate('__observerHistoryDebug.entries("LOC-COUNTRY-CLUB-JACKSON").length'),
   weather:calm.status,ordinaryWaterAdvanced:true,historicalPause:true,explicitPause:true,sourceUnchanged:true,
   browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
-  candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file),wetlandsTemporalCaptures:wetlandTemporalCaptures.map(c=>c.file)
+  candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file),wetlandsTemporalCaptures:wetlandTemporalCaptures.map(c=>c.file),atlasViewCaptures:atlasCaptures.map(c=>c.file)
  }));
 }
 try{await main();}

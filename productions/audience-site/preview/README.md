@@ -155,6 +155,27 @@ moving pixels are *not* proof of isolated water-pixel movement. The gate does no
 produce images on a non-GPU host, change the audience site, certify artistic
 acceptance, merge or publish anything.
 
+## Optional physical-WebGL2 contact sheet of all 23 Atlas places
+
+On an authorized Chrome/real-GPU device, after building the unchanged **unpublished,
+source-only** observer, this separate opt-in mode captures one candidate frame for
+each current, source-bound place. It runs the original no-login Jackson history/return,
+23-place, synthetic El Niño loss→global-calm, moving ordinary-water and explicit-pause
+journey gates first:
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs \
+  /tmp/commonwealth-preview/observer.html \
+  --atlas-views-dir /tmp/commonwealth-atlas-23-candidate
+```
+
+The destination must not already exist. On success it contains 23 original physical
+GPU PNGs, SHA-256/source-revision/GPU/camera manifest, and a static offline
+`inspection.html` contact sheet with every existing place and no remote assets.
+Unknown IDs, missing/duplicate frames, identical scene bytes, missing GPU or source
+drift fail closed before evidence is written. This does not change location geometry,
+enable visits/unlocks, prove individual water pixels, or approve cinematic art.
+
 ## Honest boundaries
 
 The regional assets remain visualization candidates. The source's recorded
