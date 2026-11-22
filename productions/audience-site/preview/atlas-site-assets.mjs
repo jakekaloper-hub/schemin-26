@@ -401,7 +401,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
   const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0},uMire:{value:kind==='mire'?1:0},uLakeGlint:{value:kind==='mountain lake'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;
+   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;
     void main(){
      vUv=uv;vec3 p=position;
      float radius=length(position.xy);
@@ -412,6 +412,8 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      p.z+=uAmplitude*interior*(.72*waveA+.28*waveB);
      // Candidate crossing-only riffle; its local axis is not canonical hydrology.
      float crossingWave=sin(position.y*18.8-uTime*2.1+sin(position.x*5.)*.55);
+     // Optical crests follow the SAME phase as actual crossing-wave displacement.
+     vCrossCrest=uCrossing*interior*smoothstep(.38,.90,crossingWave);
      p.z+=uCrossing*uAmplitude*.34*interior*crossingWave;
      // Lake-only candidate bridge-contact wave at the two modeled arch ends.
      // These are presentation geometry coordinates, not surveyed hydrology.
@@ -432,7 +434,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vWorld=(modelMatrix*vec4(p,1.)).xyz;
      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
     }`,
-   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;
+   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;
     void main(){
      float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
      float line=pow(max(sin(vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7),0.),17.);
@@ -454,6 +456,11 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
        lakeGlint=(1.-smoothstep(.58,.95,length((vUv-.5)*2.)))*pow(max(dot(reflect(-lakeSun,lakeNormal),eyeRay),0.),12.);
      }
      float crossingSheen=uCrossing*pow(max(sin(vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55),0.),18.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
+     // Fixed illustrative key light, not a live solar/wind/weather feed.
+     vec3 crossingKey=normalize(vec3(.43,.74,.51));
+     vec3 crossingNormal=faceNormal.y<0.?-faceNormal:faceNormal;
+     float crossingSpark=pow(max(dot(reflect(-crossingKey,crossingNormal),eyeRay),0.),10.);
+     float crossingCrest=vCrossCrest*(.35+.65*crossingSpark);
      float bridgeR=min(length((vUv-.5)*2.-vec2(-.39,0.)),length((vUv-.5)*2.-vec2(.39,0.)));
      float bridgeSheen=uBridge*exp(-bridgeR*10.)*pow(max(sin(bridgeR*34.-uTime*1.7),0.),8.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
      vec2 barrierXY=(vUv-.5)*2.;
@@ -471,6 +478,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float mireShallow=uMire*mireRim*mirePatch*(1.-.7*grazing);
      vec3 c=clamp(uColor+vec3(.09,.15,.14)*line*gap+viewTint,0.,1.);
      c=clamp(c+vec3(.035,.065,.06)*crossingSheen,0.,1.);
+     c=clamp(c+vec3(.032,.048,.045)*crossingCrest,0.,1.);
      c=clamp(c+vec3(.055,.09,.08)*bridgeSheen,0.,1.);
      c=clamp(c+vec3(.13,.18,.17)*lakeGlint,0.,1.);
      c=clamp(c+vec3(.045,.075,.074)*barrierSheen,0.,1.);
