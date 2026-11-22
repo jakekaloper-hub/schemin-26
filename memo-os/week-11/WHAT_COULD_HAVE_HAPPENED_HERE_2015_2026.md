@@ -133,6 +133,12 @@ Across eleven completed seasons, the six pairs of franchise slots met **79 times
 
 [Historical season table and provider extracts](SIX_SITE_INKLINGS_LOCATION_INTERVIEWS_2026-11-22.md#historical-method-and-season-register) · [Week 3 released-edition manifest](../week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md) · [Week 10 finished-edition and Founder handoffs](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md) · [World Memory events](../../world/data/world_memory.json) · [World state](../../world/data/current_world_state.json) · [Six exact features](sets/location-bindings.json)
 
+### PNG continuity readback
+
+For artwork, start with the native PNG. Use the compiled PDF to locate the page as the audience received it. In the native *The Crossing Narrows*, the two rivals stand at opposite approaches to a continuous stone span. *The Weather Is Coming Home* shows Jordan fastening a cover over the cargo, a truck on the wet road and the dark front beyond. The PNG itself carries **34** in the footer. It appears on physical page **35** of the compiled PDF. Those are different identifiers for the same closing image. In both inspected Week 3 *Swim of Shame* variants Jake and the retriever are in the boat while Snake swims. Their compositions and type differ. Use the release manifest to name the published pages; the PNGs alone do not establish which variant was distributed.
+
+[Week 11 native scene-board readback, including Brandon’s Week 10 hat and Jake’s mountain approach](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#brandon-pryors-wolf-brand-chili-scene)
+
 ### System coverage and decisions
 
 The scan starts at production revision `35e1fec`. It inventories **2,707 tracked files in 20 top-level directories and 492 directories at all depths**, plus root files. It searches 2,542 text files for all six exact feature handles and their parent IDs, indexes 161 other files by path, and excludes the four Mercer files from content search. The [directory-by-directory receipt](sets/six-site-source-coverage.csv) includes zero-hit directories. Each count describes files directly in that directory. A parent-ID match can be a route, template or test. The story findings above come from reading the matched authorities and checking named scenes in the published-memo records.

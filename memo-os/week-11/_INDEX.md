@@ -31,7 +31,7 @@
 
 [Six-site cross-OS history and evidence](WHAT_COULD_HAVE_HAPPENED_HERE_2015_2026.md#what-the-other-systems-add) · 79 regular-season meetings, six exact Atlas features and the published scenes that can be placed there.
 
-[Brandon Pryor’s Wolf Brand Chili scene](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#brandon-pryors-wolf-brand-chili-scene) · Inklings dialogue, full-body coverage and both result branches for ObiWan–Chili.
+[Native PNG scene board](sets/Schemin-W11-G03-Wolf-Brand-Chili.png) · [Brandon Pryor’s Wolf Brand Chili scene](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#brandon-pryors-wolf-brand-chili-scene) · Inklings dialogue, full-body coverage and both result branches for ObiWan–Chili.
 
 [Six sites, 120 Inklings location answers](SIX_SITE_INKLINGS_LOCATION_INTERVIEWS_2026-11-22.md) · Decisions for each set, with a 2015–2025 history register and Week 11 result branches.
 
