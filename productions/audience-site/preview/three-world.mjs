@@ -287,7 +287,12 @@ export function createWetlandWaterHaze(THREE){
     vec4 mvPosition=modelViewMatrix*vec4(p,1.);
     gl_Position=projectionMatrix*mvPosition;
     gl_PointSize=clamp(2600./max(1.,-mvPosition.z),2.,64.);
-    vOpacity=.13+.055*(.5+.5*sin(uTime*.21+aPhase));
+    // Optical extinction: avoid near-camera sprites and distant world-view fog.
+    // This is independent of weather and does not change the source footprint.
+    float viewDepth=max(0.,-mvPosition.z);
+    float nearVisibility=smoothstep(4.,14.,viewDepth);
+    float farVisibility=1.-smoothstep(95.,165.,viewDepth);
+    vOpacity=(.13+.055*(.5+.5*sin(uTime*.21+aPhase)))*nearVisibility*farVisibility;
    }`,
   fragmentShader:`varying float vOpacity;
    void main(){
