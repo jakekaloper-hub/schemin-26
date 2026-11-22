@@ -17,6 +17,8 @@
 
 [Full Week 11 board meeting](GTA_VI_FULL_COUNCIL_BOARD_2026-11-21.md) · Fifteen discussion points per seat across the Inklings, production bench and five attending Bullpen directors, with peer exchanges and storyboard comparisons.
 
+[Twelve characters in six Week 11 scenes](TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md) · The November 22 Inklings pass develops both opponents in every matchup, with photographed scene ideas, possible endings, Week 12 opponents and a 3:09 p.m. ET ESPN/Flaim score check.
+
 ### Issue-wide art direction
 
 Every page, including the cover, looks photographed. Use the same signature pink, purple and aqua grade in every scene. Give every matchup full GTA VI release-week set dressing at its established Commonwealth venue. Draw from all four selected cues: sunset pink and tangerine skies with deep violet shadows, headlights on wet roads and neon reflected in glass, trailer-style angles and lifelike close-ups, and bold title lettering with sharply framed character portraits. Choose practical sources appropriate to the venue and time of day. Preserve the twelve approved likenesses, team identifiers and Atlas geography.
