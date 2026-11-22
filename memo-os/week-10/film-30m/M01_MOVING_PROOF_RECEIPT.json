@@ -1,0 +1,82 @@
+{
+  "schema": "schemin.week10.movie_proof_receipt.v1",
+  "id": "SCHEMIN-W10-M01-42SEC-STUNT-PREVIZ-20261122",
+  "status": "MEDIA_EXISTS_NONCANONICAL_QA_ONLY",
+  "source_stages": [
+    "W10-P05",
+    "W10-P06",
+    "W10-P07"
+  ],
+  "source_actual_beats": 8,
+  "source_shot_plan_count": 19,
+  "original_scene_duration_seconds": 179,
+  "proof_compressed_duration_seconds": 42,
+  "video": {
+    "relative_path": "proofs/M01_RODEO_STUNT_PREVIS/W10_M01_Rodeo_Blocking_Proof_with_TEMP_DX.mp4",
+    "bytes": 1895499,
+    "sha256": "4e3cef86de9730526286704b2069536208dce63325918945ee4021920f821f8a",
+    "pixels": "960x540",
+    "fps": 12,
+    "tracks": "one video and one mixed AAC audio"
+  },
+  "post_audio_stems": {
+    "DX_TEMP": {
+      "path": "proofs/M01_RODEO_STUNT_PREVIS/W10_M01_DX_TEMP_48k24.wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "duration_seconds": 42.0,
+      "bytes": 6048102,
+      "sha256": "d687028774ebd973088641027a1c0086ed3c1496294564f89cecd505f341f048"
+    },
+    "VO_TEMP": {
+      "path": "proofs/M01_RODEO_STUNT_PREVIS/W10_M01_VO_TEMP_48k24.wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "duration_seconds": 42.0,
+      "bytes": 6048102,
+      "sha256": "0892fae4f8dc30c3a1dcf8cf1143744ab9e6c4acc867dda16a91ea0f3b24e45f"
+    },
+    "FX": {
+      "path": "proofs/M01_RODEO_STUNT_PREVIS/W10_M01_FX_48k24.wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "duration_seconds": 42.0,
+      "bytes": 6048102,
+      "sha256": "53f03cea1622b00a70e76ecf6c6a6e9c6c286963c24e25692d205c3fa553fa63"
+    },
+    "AMB": {
+      "path": "proofs/M01_RODEO_STUNT_PREVIS/W10_M01_AMB_48k24.wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "duration_seconds": 42.0,
+      "bytes": 6048102,
+      "sha256": "5b512385d82d1b85d141be965e0b7ecfc4c13af25c8e04f46216831b26c38d3e"
+    },
+    "MX": {
+      "path": "proofs/M01_RODEO_STUNT_PREVIS/W10_M01_MX_48k24.wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "duration_seconds": 42.0,
+      "bytes": 6048102,
+      "sha256": "92126f44c9426ddf29741624329905aa558c611798cb9150e9f7f46fbaeaa109"
+    }
+  },
+  "script_source": "SCREENPLAY_CANDIDATE_V1.json",
+  "project_source": "memo-os/week-10/preproduction/render-inputs",
+  "render_technology": "Local PIL/NumPy 2D actor proxies + imageio-ffmpeg and macOS system TEMP voices; original procedural Foley/music",
+  "external_compute_charges": 0,
+  "local_model_weights_downloaded_for_this_proof": false,
+  "QA": {
+    "source_gate_orientation": "CORRECTED_LEFT_SCREEN",
+    "four_legged_silhouette": "SCHEMATIC_SUPPORTED_NOT_CHARACTER_QA",
+    "rope_torso_route": "SCHEMATIC_SUPPORTED_NOT_STUNT_QA",
+    "manual_knot": "NOT_ACCURATELY_RIGGED_HOLD",
+    "full_canon_character_likeness": "HOLD",
+    "lip_synced_dialogue": "NOT_TESTED",
+    "editable_5_audio_buses": "PASS_TECHNICAL",
+    "scene_duration_coverage": "42_SECOND_TEST_NOT_179_SECOND_FULL_M01",
+    "photorealistic_film": "NO",
+    "umpire": "PENDING",
+    "release": "HOLD"
+  }
+}

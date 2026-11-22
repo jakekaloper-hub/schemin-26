@@ -47,3 +47,13 @@ The isolated Week 10 bridge proof in the Mac desktop folder `Week_10_Film_Proof_
 - `validate_board.py` — reproducible integrity check
 
 **Owner/authority:** Beat Writer + Memo OS proposes; Bullpen router and counterweights, Atlas/Character, independent Umpire, Closer and Founder must approve appropriate gates. No exact real-person consult, release or storyboard sign-off is implied.
+## November 22 continuation — executed screenplay and moving proof
+
+- **Screenplay:** `SCREENPLAY_CANDIDATE_V1.md` and `.json`: 34 scenes, exact original 30-minute picture clock, 24 provisional fictional (not real league owner) dialogue lines, film VO and 186 shot directions. Source publication copy is preserved in the JSON. Script requires independent editorial and performance approvals.
+- **Actual local 20-lens reviews:** `LOCAL_MODEL_20_LENS_INPUT.json`, `LOCAL_MODEL_20_LENS_RAW.jsonl`, `LOCAL_MODEL_20_LENS_RECONCILIATION.json`, `SCREENPLAY_REVIEW_DECISIONS.md`. Twenty actual local Qwen3 inference calls used eight registered Inklings method domains and twelve filmmaking method domains, **without contacting those real individuals**. Editorial counterweight rejected unsupported new canon; the Umpire is still pending.
+- **Visual M01 motion:** `proofs/M01_RODEO_STUNT_PREVIS/W10_M01_Rodeo_Blocking_Proof_with_TEMP_DX.mp4` (42s at 960×540, 12fps, 2D schematic only) and frame 22 check. No claim of cinematic or canonical character likeness. A corrected rear-left gate and a demonstrable torso lasso path were visually checked; manual tying/physics remains a HOLD.
+- **Sound post:** Five independently exported 48kHz/24-bit PCM stems (DX, VO, FX, AMB, MX), temporary local system TTS auditions, original procedural ambient and effects. Stem WAVs and raw takes are kept in the local Mac review package, not in Git. `M01_MOVING_PROOF_RECEIPT.json` holds SHA-256 and media probes.
+- **Source data:** `FILM_GRAPHICS_SOURCE_V1.json` preserves 15 fact-heavy pages' publication copy for future native typography, not generated as an image.
+- **Proof:** `NEXT_PHASE_STATIC_QA.json` and `NEXT_PHASE_EXECUTION_REPORT.md`. Bullpen's canonical command router really ran and produced `BULLPEN_MISSION_ROUTING_V1.json`, but independent Director/worker, Umpire and real human consultant signoff has **not** occurred.
+
+This is a completed *preproduction continuation*, **not a finished 30-minute motion picture**. Source 34-folio memo, record results, and reader publication states remain untouched.
