@@ -469,7 +469,12 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float interior=1.-smoothstep(.58,.95,radius);
      float waveA=sin(position.x*12.7-uTime*1.18+sin(position.y*7.5)*.45);
      float waveB=sin(position.y*10.2+uTime*.74+position.x*3.);
+     // Source-bound Mountain Lake only: a slower oblique swell changes the
+     // actual interior mesh, not a detached painted normal or weather effect.
+     // Convex blending keeps the original 0.03 maximum and fixed perimeter.
      p.z+=uAmplitude*interior*(.72*waveA+.28*waveB);
+     float lakeSwell=sin(position.x*5.25+position.y*3.35-uTime*.53+sin(position.y*1.8)*.16);
+     p.z+=uBridge*uAmplitude*interior*.22*(lakeSwell-(.72*waveA+.28*waveB));
      // Candidate crossing-only riffle; its local axis is not canonical hydrology.
      float crossingWave=sin(position.y*18.8-uTime*2.1+sin(position.x*5.)*.55);
      // Optical crests follow the SAME phase as actual crossing-wave displacement.
