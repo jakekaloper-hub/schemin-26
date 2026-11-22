@@ -1,6 +1,11 @@
 /** Native WebGL spatial study. All relief/building shapes are explicitly unapproved massing.
  * No libraries, network, live data, world writes or character generation. */
 const TAU=Math.PI*2;
+/** Secondary native-WebGL water uses the observer's ordinary clock, not weather. */
+export function nextWaterPhase(previous,time,paused=false){
+ if(!Number.isFinite(previous)||!Number.isFinite(time))throw Error('INVALID_WATER_PHASE');
+ return paused?previous:time;
+}
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 const mix=(a,b,t)=>a+(b-a)*t;
 const norm=v=>{const l=Math.hypot(...v)||1;return v.map(n=>n/l);};
@@ -97,10 +102,10 @@ export function createWorldRenderer(canvas,bindings,{onContextLost=()=>{}}={}){
  const lightVP=multiply(ortho(-165,165,-165,165,1,600),lookAt([-150,230,90],[0,0,0]));
  function bind(p,m){gl.bindBuffer(gl.ARRAY_BUFFER,m.buffer);attrs(p).forEach((a,i)=>{if(a>=0){gl.enableVertexAttribArray(a);gl.vertexAttribPointer(a,3,gl.FLOAT,false,36,i*12);}});}
  gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);gl.viewport(0,0,1536,1536);gl.clearColor(1,1,1,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(S);gl.uniformMatrix4fv(gl.getUniformLocation(S,'uVP'),false,lightVP);bind(S,terrain);gl.drawArrays(gl.TRIANGLES,0,terrain.count);gl.bindFramebuffer(gl.FRAMEBUFFER,null);
- let vp,eye,disposed=false;const contextLost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',contextLost);
- function render(c,time,{strength=1,storm=0,paused=false}={}){if(disposed||gl.isContextLost())return;const ratio=Math.min(devicePixelRatio||1,1.6),w=Math.floor(canvas.clientWidth*ratio),h=Math.floor(canvas.clientHeight*ratio);if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}gl.viewport(0,0,w,h);
+ let vp,eye,disposed=false,waterTime=0;const contextLost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',contextLost);
+ function render(c,time,{strength=1,storm=0,paused=false}={}){if(disposed||gl.isContextLost())return;waterTime=nextWaterPhase(waterTime,time,paused);const ratio=Math.min(devicePixelRatio||1,1.6),w=Math.floor(canvas.clientWidth*ratio),h=Math.floor(canvas.clientHeight*ratio);if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}gl.viewport(0,0,w,h);
   const aspect=w/h,fit=Math.max(1,1.25/aspect),distance=c.distance*(c.distance>100?fit:Math.min(fit,1.25)),t=c.target;eye=[t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*distance,t[1]+Math.sin(c.pitch)*distance,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*distance];vp=multiply(perspective(.72,w/h,.2,1900),lookAt(eye,t));
-  const sky=[.63,.72,.72].map(v=>v*(.58+.42*strength));gl.clearColor(...sky,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(P);gl.uniformMatrix4fv(loc.uVP,false,vp);gl.uniformMatrix4fv(loc.uLightVP,false,lightVP);gl.uniform3fv(loc.uEye,eye);gl.uniform3fv(loc.uSun,[-.6,.9,.36]);gl.uniform3fv(loc.uSky,sky);gl.uniform1f(loc.uStrength,strength);gl.uniform1f(loc.uTime,paused?0:time);gl.uniform1f(loc.uStorm,storm);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,shadowTex);gl.uniform1i(loc.uShadow,0);gl.uniform1f(loc.uWater,0);bind(P,terrain);gl.drawArrays(gl.TRIANGLES,0,terrain.count);gl.uniform1f(loc.uWater,1);bind(P,ocean);gl.drawArrays(gl.TRIANGLES,0,ocean.count);
+  const sky=[.63,.72,.72].map(v=>v*(.58+.42*strength));gl.clearColor(...sky,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(P);gl.uniformMatrix4fv(loc.uVP,false,vp);gl.uniformMatrix4fv(loc.uLightVP,false,lightVP);gl.uniform3fv(loc.uEye,eye);gl.uniform3fv(loc.uSun,[-.6,.9,.36]);gl.uniform3fv(loc.uSky,sky);gl.uniform1f(loc.uStrength,strength);gl.uniform1f(loc.uTime,waterTime);gl.uniform1f(loc.uStorm,storm);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,shadowTex);gl.uniform1i(loc.uShadow,0);gl.uniform1f(loc.uWater,0);bind(P,terrain);gl.drawArrays(gl.TRIANGLES,0,terrain.count);gl.uniform1f(loc.uWater,1);bind(P,ocean);gl.drawArrays(gl.TRIANGLES,0,ocean.count);
  }
  function project(p){if(!vp)return null;const v=[...p,1],o=[0,0,0,0];for(let r=0;r<4;r++)for(let c=0;c<4;c++)o[r]+=vp[c*4+r]*v[c];if(o[3]<=0)return null;return {x:(o[0]/o[3]*.5+.5)*canvas.clientWidth,y:(-.5*o[1]/o[3]+.5)*canvas.clientHeight,depth:o[2]/o[3]};}
  function pick(x,y){let best=null,dist=30;for(const p of bindings){const q=project(p.renderAnchor);if(!q||q.depth>1)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<dist){dist=d;best=p;}}return best;}
