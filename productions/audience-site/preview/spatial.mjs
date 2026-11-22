@@ -20,7 +20,7 @@ export function illustrativeLight(hour){if(!Number.isFinite(hour)||hour<0||hour>
 export function previewMetadata(c){return {sourceRevision:c.sourceRevision,sourceStateAsOf:c.stateAsOf,publicationAuthorized:false,visualAcceptance:'NOT_REVIEWED',weatherSource:'NOT_CONNECTED',geometry:'PROCEDURAL_SPATIAL_STUDY_NOT_CANONICAL_GEOMETRY',inhabitants:'NOT_IMPLEMENTED'};}
 
 /** Source-anchor-only regional view; never filters or repositions Atlas places. */
-export function regionalOverviewCamera(bindings,zoneId,aspect=16/9){
+export function regionOverviewCamera(bindings,zoneId,aspect=16/9){
   if(!Array.isArray(bindings)||typeof zoneId!=='string'||!zoneId||!Number.isFinite(aspect)||aspect<=0)throw Error('INVALID_REGIONAL_VIEW');
   const points=bindings.filter(p=>p.zoneId===zoneId);
   if(!points.length)throw Error('UNKNOWN_REGION');
