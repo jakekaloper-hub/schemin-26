@@ -1,0 +1,34 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "PHYSICAL_GPU_TEMPORAL_SCENE_FRAMES_NOT_ISOLATED_WATER_PIXEL_PROOF",
+  "syntheticScenario": "verified El Nino loss to GLOBAL_CALM",
+  "weatherStatus": "GLOBAL_CALM",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "sourceRevision": "402e49864fa39a4bdac4ff4dbb46d8704f2c81b9",
+  "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+  "cameraViewHeld": true,
+  "ordinaryWaterAdvanced": true,
+  "sourceUnchanged": true,
+  "captures": [
+    {
+      "file": "01-temple-global-calm.png",
+      "waterTime": 5.898199999904647,
+      "frames": 357,
+      "bytes": 694223,
+      "width": 1440,
+      "height": 813,
+      "sha256": "72580e4b7d4ae15f06d112518047bb4ffae9ee6b114b59eef562cdd2afe9dfc0"
+    },
+    {
+      "file": "02-temple-global-calm.png",
+      "waterTime": 7.114799999904663,
+      "frames": 429,
+      "bytes": 694134,
+      "width": 1440,
+      "height": 813,
+      "sha256": "b1baf78b15b83704fb04a3e7e68af2a854172190c9a39392a652ce3a7803e1e5"
+    }
+  ]
+}

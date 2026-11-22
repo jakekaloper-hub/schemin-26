@@ -101,6 +101,32 @@ The screenshots are private, read-only **CANDIDATE_NOT_APPROVED** hardware
 inspection evidence, not final artwork, independent art acceptance, canonical
 geography, live weather, a published site, or publication authorization.
 
+## Optional physical-GPU waterfall temporal evidence
+
+For a separate, **new** output directory (never overwrites existing evidence),
+the same standalone smoke also supports a mutually exclusive temporal mode:
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs \
+  /tmp/commonwealth-preview/observer.html \
+  --temporal-dir /tmp/commonwealth-temple-global-calm-frames
+```
+
+This retains the standard first-frame, 23-site, Jackson history/return,
+source-integrity, synthetic El Niño global-calm and explicit-pause checks. It
+then revisits the **existing** Podium Shadow Waterfall Temple source location
+and captures two hardware-WebGL2 PNG frames from a settled, consistent camera
+approximately one second apart while ordinary water time advances despite
+global weather calm. Its source-revision-pinned manifest records individual
+frame hashes, water times, actual GPU and source location.
+
+The screenshots demonstrate **observed scene-frame differences**, not an
+isolated pixel-level proof that only waterfall water changed; other candidate
+scene animation may contribute. Synthetic calm is not a live weather reading.
+This mode is optional engineering/art inspection evidence only, does not
+change the observer's runtime, and does not confer Founder art acceptance,
+performance certification, publication or deployment.
+
 ## Honest boundaries
 
 The regional assets remain visualization candidates. The source's recorded

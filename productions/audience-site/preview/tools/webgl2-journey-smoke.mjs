@@ -12,11 +12,15 @@ import {join,resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 
 const captureOption=process.argv.indexOf('--capture-dir');
-assert.ok(captureOption<0||(captureOption===3&&process.argv.length===5),
- 'Optional capture argument: --capture-dir /new/private/evidence/directory');
+const temporalOption=process.argv.indexOf('--temporal-dir');
+assert.ok((captureOption<0&&temporalOption<0&&process.argv.length===3)
+ ||(process.argv.length===5&&((captureOption===3&&temporalOption<0)||(temporalOption===3&&captureOption<0))),
+ 'Optional capture argument: --capture-dir or --temporal-dir /new/private/evidence/directory');
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
+const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 if(captureDir)assert.ok(!existsSync(captureDir),'CAPTURE_DIRECTORY_EXISTS: refusal to overwrite evidence');
-const captured=[];
+if(temporalDir)assert.ok(!existsSync(temporalDir),'TEMPORAL_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const captured=[],temporalCaptures=[];
 const observer=resolve(process.argv[2]||'');
 assert.ok(process.argv[2]&&existsSync(observer),'Usage: node webgl2-journey-smoke.mjs /path/to/observer.html');
 const chrome=process.env.CHROME_BIN||(process.platform==='darwin'
@@ -76,6 +80,18 @@ async function captureCandidate(file,placeId){
  assert.ok(width>=1000&&height>=600,'Candidate capture has unexpected viewport');
  captured.push({file,placeId,frames:s.stats.frames,bytes,width,height});
 }
+async function captureTemporalFrame(file,waterTime){
+ const s=await snapshot();
+ assert.equal(s.stats.renderer,'three-webgl2','Temporal evidence requires physical WebGL2');
+ assert.equal(s.state.locationId,'LOC-TDS-WATERFALL-TEMPLE','Temporal evidence changed source site');
+ assert.ok(s.stats.frames>0&&s.sourceUnchanged&&!s.fallback,'Invalid temporal capture');
+ const {data}=await cdp('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
+ const bytes=Buffer.from(data,'base64');
+ assert.equal(bytes.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+ const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);
+ assert.ok(width>=1000&&height>=600,'Unexpected temporal screenshot dimensions');
+ temporalCaptures.push({file,waterTime,frames:s.stats.frames,bytes,width,height});
+}
 const click=selector=>evaluate('(()=>{const n=document.querySelector('+JSON.stringify(selector)+');if(!n||n.hidden||n.disabled)throw Error("MISSING_CONTROL: "+'+JSON.stringify(selector)+');n.click();return true})()');
 async function main(){
  child=spawn(chrome,[
@@ -112,7 +128,9 @@ async function main(){
  await click('[data-place="LOC-COUNTRY-CLUB-JACKSON"]');
  assert.equal(await evaluate('document.querySelector("#placeName").textContent'),'Country Club of Jackson');
  assert.equal(await evaluate('document.querySelector("#openHistory").hidden'),false,'Jackson history unreachable');
- if(captureDir){await delay(1800);await captureCandidate('02-country-club-jackson.png','LOC-COUNTRY-CLUB-JACKSON');}
+ // Let the place-flight camera settle before saving/restoring its historical viewpoint.
+ await delay(2300);
+ if(captureDir)await captureCandidate('02-country-club-jackson.png','LOC-COUNTRY-CLUB-JACKSON');
  const beforeHistory=await evaluate('__observerDebug.camera()');
  await click('#openHistory');
  assert.equal(await evaluate('document.querySelector("#historyDialog").open'),true);
@@ -145,6 +163,25 @@ async function main(){
  if(await evaluate('document.querySelector("#motionToggle").getAttribute("aria-pressed")')==='true')await click('#motionToggle');
  const a=await snapshot();
  const b=await until(async()=>{const next=await snapshot();return next.stats.waterTime>a.stats.waterTime?next:null;},'ordinary water continued during global weather calm',12000);
+ if(temporalDir){
+  // Evidence-only: inspect two real Temple frames under global calm from the same settled viewpoint.
+  await click('#placesToggle');
+  await click('[data-place="LOC-TDS-WATERFALL-TEMPLE"]');
+  assert.equal(await evaluate('document.querySelector("#placeName").textContent'),'Podium Shadow Waterfall Temple');
+  await delay(3200);
+  const cameraBefore=await evaluate('__observerDebug.camera()');
+  const t0=(await snapshot()).stats.waterTime;
+  await captureTemporalFrame('01-temple-global-calm.png',t0);
+  await delay(1000);
+  const t1=(await snapshot()).stats.waterTime;
+  assert.ok(t1>t0+.2,'Real water time did not advance between physical GPU frames');
+  await captureTemporalFrame('02-temple-global-calm.png',t1);
+  assertHistoricalViewRestored(cameraBefore,await evaluate('__observerDebug.camera()'));
+  assert.notEqual(createHash('sha256').update(temporalCaptures[0].bytes).digest('hex'),
+   createHash('sha256').update(temporalCaptures[1].bytes).digest('hex'),
+   'GPU scene frames unexpectedly byte-identical during ordinary motion');
+  await click('#inspectorWorld');
+ }
  await click('#motionToggle');
  const stopped=await snapshot();await delay(600);
  assert.equal((await snapshot()).stats.waterTime,stopped.stats.waterTime,'Explicit pause did not freeze water');
@@ -152,6 +189,22 @@ async function main(){
  const errors=[...runtimeExceptions,...consoleErrors].filter(x=>!/favicon\.ico/.test(x));
  assert.deepEqual(errors,[],'Browser/GLSL errors: '+errors.join(' | '));
  assert.deepEqual(externalRequests,[],'External network requests from offline observer');
+ if(temporalDir){
+  assert.equal(temporalCaptures.length,2,'Missing Waterfall Temple temporal coverage');
+  mkdirSync(temporalDir,{recursive:true});
+  for(const shot of temporalCaptures)writeFileSync(join(temporalDir,shot.file),shot.bytes,{flag:'wx'});
+  writeFileSync(join(temporalDir,'manifest.json'),JSON.stringify({
+   status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
+   evidenceType:'PHYSICAL_GPU_TEMPORAL_SCENE_FRAMES_NOT_ISOLATED_WATER_PIXEL_PROOF',
+   syntheticScenario:'verified El Nino loss to GLOBAL_CALM',
+   weatherStatus:calm.status,renderer:first.stats.renderer,gpu:first.gpu,
+   sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
+   placeId:'LOC-TDS-WATERFALL-TEMPLE',cameraViewHeld:true,
+   ordinaryWaterAdvanced:true,sourceUnchanged:true,
+   captures:temporalCaptures.map(({file,waterTime,frames,bytes,width,height})=>
+    ({file,waterTime,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
+  },null,2)+'\n',{flag:'wx'});
+ }
  if(captureDir){
   assert.equal(captured.length,4,'Missing candidate scene coverage');
   mkdirSync(captureDir,{recursive:true});
@@ -171,7 +224,7 @@ async function main(){
   jacksonHistory:await evaluate('__observerHistoryDebug.entries("LOC-COUNTRY-CLUB-JACKSON").length'),
   weather:calm.status,ordinaryWaterAdvanced:true,historicalPause:true,explicitPause:true,sourceUnchanged:true,
   browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
-  candidateCaptures:captured.map(c=>c.file)
+  candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file)
  }));
 }
 try{await main();}
