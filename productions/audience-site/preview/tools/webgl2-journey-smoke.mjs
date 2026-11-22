@@ -5,6 +5,7 @@
  */
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
+import {verifyTemporalSceneSequence} from './temporal-evidence.mjs';
 import {spawn} from 'node:child_process';
 import {existsSync,mkdirSync,mkdtempSync,readFileSync,rmSync,writeFileSync} from 'node:fs';
 import {tmpdir} from 'node:os';
@@ -80,7 +81,8 @@ async function captureCandidate(file,placeId){
  assert.ok(width>=1000&&height>=600,'Candidate capture has unexpected viewport');
  captured.push({file,placeId,frames:s.stats.frames,bytes,width,height});
 }
-async function captureTemporalFrame(file,waterTime){
+async function captureTemporalFrame(file,waterTime,motionState){
+ assert.ok(['MOVING','PAUSED'].includes(motionState),'Unsupported temporal capture state');
  const s=await snapshot();
  assert.equal(s.stats.renderer,'three-webgl2','Temporal evidence requires physical WebGL2');
  assert.equal(s.state.locationId,'LOC-TDS-WATERFALL-TEMPLE','Temporal evidence changed source site');
@@ -90,7 +92,7 @@ async function captureTemporalFrame(file,waterTime){
  assert.equal(bytes.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
  const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);
  assert.ok(width>=1000&&height>=600,'Unexpected temporal screenshot dimensions');
- temporalCaptures.push({file,waterTime,frames:s.stats.frames,bytes,width,height});
+ temporalCaptures.push({file,waterTime,motionState,frames:s.stats.frames,bytes,width,height});
 }
 const click=selector=>evaluate('(()=>{const n=document.querySelector('+JSON.stringify(selector)+');if(!n||n.hidden||n.disabled)throw Error("MISSING_CONTROL: "+'+JSON.stringify(selector)+');n.click();return true})()');
 async function main(){
@@ -171,38 +173,43 @@ async function main(){
   await delay(3200);
   const cameraBefore=await evaluate('__observerDebug.camera()');
   const t0=(await snapshot()).stats.waterTime;
-  await captureTemporalFrame('01-temple-global-calm.png',t0);
+  await captureTemporalFrame('01-temple-global-calm.png',t0,'MOVING');
   await delay(1000);
   const t1=(await snapshot()).stats.waterTime;
   assert.ok(t1>t0+.2,'Real water time did not advance between physical GPU frames');
-  await captureTemporalFrame('02-temple-global-calm.png',t1);
+  await captureTemporalFrame('02-temple-global-calm.png',t1,'MOVING');
   assertHistoricalViewRestored(cameraBefore,await evaluate('__observerDebug.camera()'));
-  assert.notEqual(createHash('sha256').update(temporalCaptures[0].bytes).digest('hex'),
-   createHash('sha256').update(temporalCaptures[1].bytes).digest('hex'),
-   'GPU scene frames unexpectedly byte-identical during ordinary motion');
-  await click('#inspectorWorld');
  }
  await click('#motionToggle');
  const stopped=await snapshot();await delay(600);
  assert.equal((await snapshot()).stats.waterTime,stopped.stats.waterTime,'Explicit pause did not freeze water');
+ if(temporalDir){
+  // An unchanged water clock alone cannot establish visual freeze. Retain actual GPU pixels.
+  await captureTemporalFrame('03-temple-paused-a.png',stopped.stats.waterTime,'PAUSED');
+  await delay(750);
+  assert.equal((await snapshot()).stats.waterTime,stopped.stats.waterTime,'Water advanced between paused GPU frames');
+  await captureTemporalFrame('04-temple-paused-b.png',stopped.stats.waterTime,'PAUSED');
+  verifyTemporalSceneSequence(temporalCaptures);
+  await click('#inspectorWorld');
+ }
  assert.equal((await snapshot()).sourceUnchanged,true,'Canonical source mutated during journey');
  const errors=[...runtimeExceptions,...consoleErrors].filter(x=>!/favicon\.ico/.test(x));
  assert.deepEqual(errors,[],'Browser/GLSL errors: '+errors.join(' | '));
  assert.deepEqual(externalRequests,[],'External network requests from offline observer');
  if(temporalDir){
-  assert.equal(temporalCaptures.length,2,'Missing Waterfall Temple temporal coverage');
+  assert.equal(temporalCaptures.length,4,'Missing moving/paused Waterfall Temple temporal coverage');
   mkdirSync(temporalDir,{recursive:true});
   for(const shot of temporalCaptures)writeFileSync(join(temporalDir,shot.file),shot.bytes,{flag:'wx'});
   writeFileSync(join(temporalDir,'manifest.json'),JSON.stringify({
    status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
-   evidenceType:'PHYSICAL_GPU_TEMPORAL_SCENE_FRAMES_NOT_ISOLATED_WATER_PIXEL_PROOF',
+   evidenceType:'PHYSICAL_GPU_MOVING_AND_PAUSED_SCENE_FRAMES_NOT_ISOLATED_WATER_PIXEL_PROOF',
    syntheticScenario:'verified El Nino loss to GLOBAL_CALM',
    weatherStatus:calm.status,renderer:first.stats.renderer,gpu:first.gpu,
    sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
    placeId:'LOC-TDS-WATERFALL-TEMPLE',cameraViewHeld:true,
-   ordinaryWaterAdvanced:true,sourceUnchanged:true,
-   captures:temporalCaptures.map(({file,waterTime,frames,bytes,width,height})=>
-    ({file,waterTime,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
+   ordinaryWaterAdvanced:true,pausedSceneHashesEqual:true,sourceUnchanged:true,
+   captures:temporalCaptures.map(({file,waterTime,motionState,frames,bytes,width,height})=>
+    ({file,waterTime,motionState,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
   },null,2)+'\n',{flag:'wx'});
  }
  if(captureDir){

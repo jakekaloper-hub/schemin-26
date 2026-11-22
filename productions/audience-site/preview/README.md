@@ -115,14 +115,19 @@ node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs \
 This retains the standard first-frame, 23-site, Jackson history/return,
 source-integrity, synthetic El Niño global-calm and explicit-pause checks. It
 then revisits the **existing** Podium Shadow Waterfall Temple source location
-and captures two hardware-WebGL2 PNG frames from a settled, consistent camera
-approximately one second apart while ordinary water time advances despite
-global weather calm. Its source-revision-pinned manifest records individual
-frame hashes, water times, actual GPU and source location.
+and captures two moving hardware-WebGL2 PNG frames from a settled, consistent
+camera approximately one second apart while ordinary water time advances despite
+global weather calm. It then captures two more frames at that same Temple view
+after the explicit pause control, requiring identical whole-scene PNG hashes
+and unchanged water time. A changed paused scene fails closed: no evidence is
+written. The source-revision-pinned manifest records each frame's phase,
+hash, water time, actual GPU and source location.
 
-The screenshots demonstrate **observed scene-frame differences**, not an
-isolated pixel-level proof that only waterfall water changed; other candidate
-scene animation may contribute. Synthetic calm is not a live weather reading.
+This establishes **moving-scene vs paused-scene visual behavior on one GPU**,
+not isolated pixel-level proof that only waterfall water changed; other
+candidate animation may contribute to moving frames. Identical paused full-
+viewport screenshots are an exact local observation, not a cross-device
+pixel-stability guarantee. Synthetic calm is not a live weather reading.
 This mode is optional engineering/art inspection evidence only, does not
 change the observer's runtime, and does not confer Founder art acceptance,
 performance certification, publication or deployment.
