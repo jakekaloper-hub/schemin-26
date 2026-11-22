@@ -13,6 +13,7 @@ The user's authorized Mac was searched by **exact source filename** against the 
 - A fresh ChatGPT Library image-metadata listing found **12/12** original named records. An authorized original-byte materialization request for one of the eight still returned `This Project file does not have an authorized raw-byte materialization path.` Metadata presence is **not** binary custody; no authorization boundary was bypassed.
 - The four matching originals were copied into a *local-only*, user-controlled, private character-source vault. Their repository-relative canonical paths are retained *inside the vault*, not this public repository.
 - A new independent process ran the existing `canon/characters/runtime/primary_source_audit.py` over the private vault: **4 PRIMARY_BYTES_VERIFIED, 8 SOURCE_BYTES_REQUIRED, 0 PRIMARY_BYTES_MISMATCH**.
+- A separate disposable-copy audit verified that **one-byte corruption and cross-character file substitution both produce `GENERATION_BLOCKED`**. The original four private source files were freshly rehashed before and after and remained unchanged; the private receipt is retained in the local vault. This proves the **4/12** fail-closed custody test only, not complete twelve-source recovery.
 - The private vault retains a local receipt with exact SHA-256s; binaries and absolute user paths were intentionally excluded from this public candidate.
 
 ## Unchanged non-negotiable gates
