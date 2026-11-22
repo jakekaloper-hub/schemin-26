@@ -1,0 +1,197 @@
+{
+  "schema": "schemin.week10.model_review_triage.v1",
+  "date": "2026-11-22",
+  "method": "Actual local Qwen3-8B independent per-discipline model responses → source-backed assistant editorial triage",
+  "real_person_participation": false,
+  "bullpen_director_execution": "Core router was run; no independent director model workers or authenticated Umpire signoff claimed",
+  "umpire": "PENDING",
+  "status": "CANDIDATE_WITH_HELD_PRODUCTION_GATES",
+  "counts": {
+    "HOLD": 6,
+    "REJECT": 5,
+    "ACCEPT": 5,
+    "ADAPT": 4
+  },
+  "record": [
+    {
+      "lens": "Doug Chiang",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "HOLD",
+      "reason": "Source contract already distinguishes first disabled battery. Actual red-energy deflection and throne look need a rendered set test.",
+      "next_test_or_implementation": "P22/P24 VFX causal diagram and two battery identifiers before approval.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P22/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Dylan Cole",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "REJECT",
+      "reason": "Model incorrectly says mountain lake is unsourced. P11 source venue LOC-BRIDGE-MOUNTAIN-LAKE and Upper Basin Connector already allow mountain-lake description.",
+      "next_test_or_implementation": "Retain source geography; prohibit a newly invented separate location.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P11/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Joe Letteri",
+      "actual_model_decision": "ACCEPT",
+      "editorial_verdict": "HOLD",
+      "reason": "Model voted ACCEPT but no actual three-head rig or character pixels were inspected.",
+      "next_test_or_implementation": "One body with exactly three heads, one frame-by-frame continuity receipt.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P12/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Ngila Dickson",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ACCEPT",
+      "reason": "Wet costume/mud from Storm Coast to later court is a valid existing source constraint.",
+      "next_test_or_implementation": "Attach Red's canonical appearance and verify mud progression across P08–P10.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P10/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Andy Serkis",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ADAPT",
+      "reason": "Wounded pride supported by DK reaction, but invented psychological motives should not be canonized.",
+      "next_test_or_implementation": "Use an averted gaze or tension in actor candidate, no new official quote or injury.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P07/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Rob Alonzo",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "HOLD",
+      "reason": "Torso catch and slipping boot are required; schematic rope reel cannot certify physical body mechanics or manual tie.",
+      "next_test_or_implementation": "Rig and three-shot motion test: no neck, rope continuity, skid before manual knot.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P06/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "James Baxter",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ACCEPT",
+      "reason": "Truck/hound geometry and raised road separation are source-locked already.",
+      "next_test_or_implementation": "Maintain both silhouettes and visible distance in P15–P17.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P15/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Frank Masi",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ADAPT",
+      "reason": "Warm birthday room and consistent guest-host eyeline are sound camera suggestions, but no shot pixels exist.",
+      "next_test_or_implementation": "Master lens/eyeline placement and light references before P19 render.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P19/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "John Knoll",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "HOLD",
+      "reason": "A VFX simulation and edit-ready passes for the surviving battery do not exist.",
+      "next_test_or_implementation": "Previs first disabled battery then charged second and finger-to-lightning path.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Jill Bogdanowicz",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ADAPT",
+      "reason": "Specific left/right hoop impact and temporal later-court logic is source-supported.",
+      "next_test_or_implementation": "Keep right-wall backboard, later inland light and branch trajectory consistent.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P09/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Thelma Schoonmaker",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "REJECT",
+      "reason": "Model suggests an extra exaggerated gesture; new comic business risks overriding the exact approved speaker-volume choice.",
+      "next_test_or_implementation": "Keep original pause / hopeful glance / existing speaker turn; test genuine silence.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P13/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "Randy Thom",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "HOLD",
+      "reason": "Five local M01 audio buses now exist; the source P13–P14 temple scene does not yet have validated separate stems or soundtrack clearance.",
+      "next_test_or_implementation": "Produce independent waterfall, speaker, compressor and drill layers before mixing P13–P14.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P14/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "jrr_tolkien",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "REJECT",
+      "reason": "Model misidentified mountain lake as a new invention. The documented setting already includes LOC-BRIDGE-MOUNTAIN-LAKE.",
+      "next_test_or_implementation": "Retain established connector and regional timing, no invented route.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P11/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "cs_lewis",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "REJECT",
+      "reason": "A proposed golden retriever reward is unsupported by P23 source and contradicts the no-new-canon constraint.",
+      "next_test_or_implementation": "Keep existing blade/arch bargain and refusal; add no reward or dog.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P23/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "george_rr_martin",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ACCEPT",
+      "reason": "Source already requires all six results and twelve teams represented by accurate board.",
+      "next_test_or_implementation": "Use film graphics source extract for official figures, do not invent missing outcomes.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P04/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "jk_rowling",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ACCEPT",
+      "reason": "200-point significance already appears in P01; visual callback to 200 Burger in P20 can be achieved without new dialogue.",
+      "next_test_or_implementation": "Motif: P01 exact scores → P20 box / burger reveal → P21 separate cake.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P20/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "john_grisham",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ADAPT",
+      "reason": "Data pages risk crowding. Model's advice to structure official type is sound when not changing values.",
+      "next_test_or_implementation": "Use native graphic payload plus restrained editorial hierarchy; audience read-time QA pending.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P27/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "ursula_k_le_guin",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "ACCEPT",
+      "reason": "Civic voice benefits from material consequences and the original published source already names broken hoop and delivery road.",
+      "next_test_or_implementation": "Preserve anonymous labor at records desk and source P03 emotion.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P03/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "brandon_sanderson",
+      "actual_model_decision": "HOLD",
+      "editorial_verdict": "HOLD",
+      "reason": "Model correctly flags untested VFX, battery relation and arch lamp.",
+      "next_test_or_implementation": "Do not release P22–P24 lightning until energy geometry and exposure are checked.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    },
+    {
+      "lens": "joe_abercrombie",
+      "actual_model_decision": "ADAPT",
+      "editorial_verdict": "REJECT",
+      "reason": "Model suggests cracked basketball not in canon. Red's bent rim and loose net are existing grounded props.",
+      "next_test_or_implementation": "Use source broken hoop, carried mud and fingers on loose net; no new ball.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P10/request.json",
+      "status": "SOURCE-GROUNDED_DESK_TRIAGE_NOT_FINAL_DIRECTOR_APPROVAL"
+    }
+  ]
+}

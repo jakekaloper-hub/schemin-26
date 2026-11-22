@@ -1,0 +1,1968 @@
+{
+  "schema": "schemin.week10.screenplay.v1",
+  "stage": "WORKING_FILM_SCRIPT_NOT_LOCKED",
+  "source_storyboard": "film_storyboard_v1.json",
+  "runtime_seconds": 1800,
+  "source_pages": 34,
+  "source_beat_count": 66,
+  "fictional_dialogue_policy": "These are proposed in-world fictional dramatizations, not statements by real league owners; review before use.",
+  "scene_scripts": [
+    {
+      "scene_id": "W10F-SC01",
+      "source_folio": "W10-P01",
+      "start": "00:00:00",
+      "end": "00:00:36",
+      "duration_sec": 36,
+      "location": {
+        "venue_id": null,
+        "set_id": "SET-W10-DUAL-200-EDITORIAL-COVER",
+        "venue_type": "EDITORIAL_DUAL_LOCATION_COVER_NOT_LITERAL_MEETING",
+        "provisional": true,
+        "landmarks": [
+          "Jackson birthday atmosphere",
+          "Mountain field throne room on the command shelf"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Two performances broke a ceiling that had stood all season: His Majesty's Blood at 208.76, and The LLC at 203.96.",
+      "camera_action_direction": "Hold the champion in Jackson birthday light and the executive in his mountain command position. Two differently lit territories, no physical meeting.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. The Commonwealth’s first two 200-point scores of this season arrive beneath a sky growing harder to ignore.",
+      "source_publication_copy": {
+        "headline": "THE CEILING BREAKS",
+        "deck": "Week 10 • Two scores beyond 200",
+        "body": "His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. The Commonwealth’s first two 200-point scores of this season arrive beneath a sky growing harder to ignore.",
+        "callouts": [
+          {
+            "label": "HIS MAJESTY’S BLOOD",
+            "value": "208.76 · FINAL"
+          },
+          {
+            "label": "THE LLC",
+            "value": "203.96 · FINAL"
+          }
+        ],
+        "rows": [],
+        "department_heading": "SCHEMIN ’26 · WEEK 10"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P01/request.json",
+      "source_sha256": "ea6d4de55282dea210c7f776bd22efc8a8df6f5d19022efee78f66c18d5a8a3b",
+      "counts": {
+        "vo_words": 22,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 36,
+        "vo_time_at_145wpm": 9.1,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC02",
+      "source_folio": "W10-P02",
+      "start": "00:00:36",
+      "end": "00:01:42",
+      "duration_sec": 66,
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-OPENING-DRIVE-BRIEFING-TABLE",
+        "venue_type": "EDITORIAL_STAGING_IN_REGISTERED_LEAGUE_INSTITUTION",
+        "provisional": true,
+        "landmarks": [
+          "records desk",
+          "map wall",
+          "published Opening Drive table and banner language"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Six separate confrontations, one Commonwealth, and four games still to come. The record says what happened. The roads tell us what it cost.",
+      "camera_action_direction": "Travel a sealed folio, winding route markers, and recognizable props with one continuous oblique table move. Stop on the empty space waiting for Week Eleven.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Two teams crossed two hundred by Sunday night. One brought a hamburger to a birthday party. The other left his chair and offered a man a bargain on his own mountain. In the Highlands, an outlaw got his laugh, copied a centaur’s stance for a second one, and gave the centaur a reason to chase him. In the east, El Niño’s rain found a way past Red Leopards’ sandbags. Inland, trees were already coming down. Seven Deadly Chins arrived with a jackhammer just as a household settled. Slob on my Dobb kept a delivery appointment in a swamp. Four regular-season games remain. Who has to live with what happened here?",
+      "source_publication_copy": {
+        "headline": "ROOM ABOVE TWO HUNDRED",
+        "deck": "The week the pressure reached everyone",
+        "body": "Two teams crossed two hundred by Sunday night. One brought a hamburger to a birthday party. The other left his chair and offered a man a bargain on his own mountain. In the Highlands, an outlaw got his laugh, copied a centaur’s stance for a second one, and gave the centaur a reason to chase him. In the east, El Niño’s rain found a way past Red Leopards’ sandbags. Inland, trees were already coming down. Seven Deadly Chins arrived with a jackhammer just as a household settled. Slob on my Dobb kept a delivery appointment in a swamp. Four regular-season games remain. Who has to live with what happened here?",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "OPENING DRIVE"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P02/request.json",
+      "source_sha256": "ada26b2c25a58853b06ddacfa74c6151ec0a7ad9b94e1e831769cb8b211cb83f",
+      "counts": {
+        "vo_words": 23,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 66,
+        "vo_time_at_145wpm": 9.52,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC03",
+      "source_folio": "W10-P03",
+      "start": "00:01:42",
+      "end": "00:02:48",
+      "duration_sec": 66,
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-MAP-THRESHOLD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Chamber map wall and threshold"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The standings will be entered once. A fallen hoop stays fallen. A truck passes the same empty road every week. The people in this world have to live with both truths.",
+      "camera_action_direction": "An anonymous official seals the weather-worn door. Keep civic labor ordinary, no commissioner portrait, no unverified speech.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. The numbers have settled, and six teams now share 6–4 records. The next week will ask each of us what we have left to field.",
+      "source_publication_copy": {
+        "headline": "KEEP THE WHOLE LEAGUE IN VIEW",
+        "deck": "Commissioner’s note • After Week 10",
+        "body": "There is a difference between being beaten and having to live with the evidence. A score is entered once. A birthday photograph is shown forever. A broken hoop stays broken until someone fixes it. The owner of a swamp still has to watch the next truck drive through. That is the Commonwealth we have spent seasons building, and it is why this league is more than six boxes on a scoreboard. But our stories do not outrank the standings. Nobody is going to Cancún by mathematical decree until the last route is closed. Nobody is healed because a reserve slot looks full. The numbers have settled, and six teams now share 6–4 records. The next week will ask each of us what we have left to field.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "FROM THE COMMISSIONER"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P03/request.json",
+      "source_sha256": "bcf1e15bd03785ebff252e193f39eb32984e1c85a18f66b44d08a65e6004dfe4",
+      "counts": {
+        "vo_words": 31,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 66,
+        "vo_time_at_145wpm": 12.83,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC04",
+      "source_folio": "W10-P04",
+      "start": "00:02:48",
+      "end": "00:03:16",
+      "duration_sec": 28,
+      "location": {
+        "venue_id": "LOC-COMPACT-NEUTRAL-GROUNDS",
+        "set_id": "SET-W10-COMPACT-PUBLIC-BOARD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "Compact Neutral Grounds public result approach"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "All six games have final scores. These are completed results, not predictions. There are six teams at six wins and four losses.",
+      "camera_action_direction": "Neutral official board in the records pavilion. The correct six games and figures are native typeset from the locked source, never generated as pixels.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.",
+      "source_publication_copy": {
+        "headline": "THE WEEK 10 BOARD",
+        "deck": "Final Week 10 results • All six outcomes posted",
+        "body": "Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.",
+        "callouts": [],
+        "rows": [
+          {
+            "home_team": "The Chili Cheesers",
+            "home_points": "93.70",
+            "away_team": "D0nkey K0ng",
+            "away_points": "156.67",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Red Leopards",
+            "home_points": "147.82",
+            "away_team": "El Niño",
+            "away_points": "189.08",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Three Dreaded Snake",
+            "home_points": "82.78",
+            "away_team": "Seven Deadly Chins",
+            "away_points": "146.22",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Mud Dogs",
+            "home_points": "113.62",
+            "away_team": "Slob on my Dobb",
+            "away_points": "179.29",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Dr. Duckhook",
+            "home_points": "127.67",
+            "away_team": "His Majesty's Blood",
+            "away_points": "208.76",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "ObiWan Jacoby",
+            "home_points": "166.53",
+            "away_team": "The LLC",
+            "away_points": "203.96",
+            "status": "FINAL"
+          }
+        ],
+        "department_heading": "SCOREBOARD"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P04/request.json",
+      "source_sha256": "b1c73cfca029d5fa9594990acef6b8820075bb1c981b12464ade0bb97aa77599",
+      "counts": {
+        "vo_words": 22,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 28,
+        "vo_time_at_145wpm": 9.1,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC05",
+      "source_folio": "W10-P05",
+      "start": "00:03:16",
+      "end": "00:04:17",
+      "duration_sec": 61,
+      "location": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "provisional": true,
+        "landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The outlaw gets his laugh from the Highland gallery. Then he repeats the centaur's four-hoofed stance. A second laugh proves one too many.",
+      "camera_action_direction": "A wide fixes wet rail, galleries, D0nkey K0ng and rear-left service gate. Chili imitates and bows; the centaur stiffens and brings the already-owned lasso off his shoulder.",
+      "dialogue_proposal": [
+        {
+          "speaker": "THE CHILI CHEESERS",
+          "text": "Four hooves, and not one of them knows how to dance.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "D0NKEY K0NG",
+          "text": "That was your second chance.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "Last week The Chili Cheesers had a whole cookout laughing at His Majesty’s Blood. At the Highland rail he gets the same laugh by copying D0nkey K0ng’s four-hoofed stance. He does it again, lower this time, and bows to the gallery. The centaur stops dead. By the time the outlaw straightens, the rope is off D0nkey K0ng’s shoulder. The service gate is still open. The Chili Cheesers makes for it in his good boots.",
+      "source_publication_copy": {
+        "headline": "Everybody Gets a View",
+        "deck": "The Chili Cheesers vs D0nkey K0ng",
+        "body": "Last week The Chili Cheesers had a whole cookout laughing at His Majesty’s Blood. At the Highland rail he gets the same laugh by copying D0nkey K0ng’s four-hoofed stance. He does it again, lower this time, and bows to the gallery. The centaur stops dead. By the time the outlaw straightens, the rope is off D0nkey K0ng’s shoulder. The service gate is still open. The Chili Cheesers makes for it in his good boots.",
+        "department_heading": "The Chili Cheesers vs D0nkey K0ng"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P05/request.json",
+      "source_sha256": "eae4b1d7b3f452bc5eb53429acc5f4614cc71f19d8d1c01e58590ddac995c2ca",
+      "counts": {
+        "vo_words": 23,
+        "candidate_dialogue_words": 16,
+        "allocated_picture_seconds": 61,
+        "vo_time_at_145wpm": 9.52,
+        "dialogue_time_at_135wpm": 7.11
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC06",
+      "source_folio": "W10-P06",
+      "start": "00:04:17",
+      "end": "00:05:18",
+      "duration_sec": 61,
+      "location": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "provisional": true,
+        "landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The gate is still open. The rope reaches him first. The outlaw's own momentum turns capture into a skid through the groove he made himself.",
+      "camera_action_direction": "One legible sequence: loop approaches torso, rope closes around upper arms/torso—not neck—boots skid, D0nkey braces on four hooves. No instant tying, no axed rope.",
+      "dialogue_proposal": [
+        {
+          "speaker": "THE CHILI CHEESERS",
+          "text": "I was only leaving!",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "D0NKEY K0NG",
+          "text": "Then stop running.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers’ own decision to flee have done the work.",
+      "source_publication_copy": {
+        "headline": "The Ring Runs Out",
+        "deck": "The Chili Cheesers vs D0nkey K0ng",
+        "body": "The Chili Cheesers cuts hard for the service gate. The lasso reaches him before he reaches it. He keeps running for a fraction too long, turning the capture into a skid through the muddy groove he made himself. The crowd's reaction is no longer the sound he came to produce. D0nkey K0ng has not needed the axe. The rope, the arena and The Chili Cheesers’ own decision to flee have done the work.",
+        "department_heading": "The Chili Cheesers vs D0nkey K0ng"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P06/request.json",
+      "source_sha256": "3434c9211b0872d997fcb7ed3f76b488108c031a440f8e7fa33881148d18f16a",
+      "counts": {
+        "vo_words": 25,
+        "candidate_dialogue_words": 7,
+        "allocated_picture_seconds": 61,
+        "vo_time_at_145wpm": 10.34,
+        "dialogue_time_at_135wpm": 3.11
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC07",
+      "source_folio": "W10-P07",
+      "start": "00:05:18",
+      "end": "00:06:15",
+      "duration_sec": 57,
+      "location": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "set_id": "SET-W10-DK-RODEO-GROUNDS",
+        "venue_type": "PROPOSED_REUSABLE_CHILD_SET",
+        "provisional": true,
+        "landmarks": [
+          "uphill tiered stone galleries",
+          "oval packed-earth ring with timber rails",
+          "service gate rear-left",
+          "separate horse holding rail outside active ring"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The centaur finishes the knot by hand. The hat lies beyond reach. The gallery sees the man who wanted to be its main attraction.",
+      "camera_action_direction": "Hold after physical work is complete. Audience faces remain anonymous; Chili's face is visible above mud and he looks toward the entrance. All four of DK's hooves remain planted.",
+      "dialogue_proposal": [
+        {
+          "speaker": "THE CHILI CHEESERS",
+          "text": "They're still watching?",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "D0NKEY K0NG",
+          "text": "You asked for an audience.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "D0nkey K0ng finishes the binding in the center ring, with all four hooves planted and the rope's path plain to see. The Chili Cheesers lies hogtied, hat just out of reach, looking back at the entrance where he had expected to be the attraction. Last week he had served humiliation to a champion. This week the Commonwealth has found a new course for the menu.",
+      "source_publication_copy": {
+        "headline": "No Private Exit",
+        "deck": "The Chili Cheesers vs D0nkey K0ng",
+        "body": "D0nkey K0ng finishes the binding in the center ring, with all four hooves planted and the rope's path plain to see. The Chili Cheesers lies hogtied, hat just out of reach, looking back at the entrance where he had expected to be the attraction. Last week he had served humiliation to a champion. This week the Commonwealth has found a new course for the menu.",
+        "department_heading": "The Chili Cheesers vs D0nkey K0ng",
+        "result": {
+          "status": "FINAL",
+          "winner": "D0nkey K0ng",
+          "winner_points": "156.67",
+          "loser": "The Chili Cheesers",
+          "loser_points": "93.70",
+          "winner_record": "6–4",
+          "loser_record": "5–5",
+          "margin": "62.97",
+          "source": "SFINAL"
+        },
+        "football_context": "Dak Prescott 45.82; Cam Skattebo 29.00; Amon-Ra St. Brown 27.80; Bryce Young 8.20."
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P07/request.json",
+      "source_sha256": "12cb1e465039a822e1df4ab76b505dd421bcb0bed746ebfbb89928cd58f34168",
+      "counts": {
+        "vo_words": 24,
+        "candidate_dialogue_words": 8,
+        "allocated_picture_seconds": 57,
+        "vo_time_at_145wpm": 9.93,
+        "dialogue_time_at_135wpm": 3.56
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC08",
+      "source_folio": "W10-P08",
+      "start": "00:06:15",
+      "end": "00:07:15",
+      "duration_sec": 60,
+      "location": {
+        "venue_id": "LOC-RED-RUINS",
+        "set_id": "SET-W10-RED-SOCCER-OVERFLOW",
+        "venue_type": "REUSED_ILLUSTRATED_FIELD_WITH_PROPOSED_LOCAL_RIVER_CONNECTION",
+        "provisional": true,
+        "landmarks": [
+          "Week 9 stepped grass soccer terrace",
+          "stone approach arch on near-left",
+          "small far goal now damaged, net displaced",
+          "narrow stone exit and trapped truck position from Week 9",
+          "old tire ruts; shallow overflow uses low edge"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Red tries one more sandbag beside the battered goal. The storm watches. Water doesn't need to break the wall; it knows an old rut.",
+      "camera_action_direction": "Sandbag handling is slow and material. The runoff follows the established tire rut around the end of the line. El Niño is embodied at the far side of the same field, not a face in the clouds.",
+      "dialogue_proposal": [
+        {
+          "speaker": "RED LEOPARDS",
+          "text": "Hold. Just hold.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "Red Leopards sees El Niño’s storm roll over the eastern terrace. He stacks sandbags beside the damaged goal. For a moment the line holds. Then a thread of brown water comes out behind his boot. It has followed last week’s tire rut around the end of the line. In 2022 he had beaten El Niño twice and carried thirteen wins into the semifinal. He remembers how fast that advantage went, too.",
+      "source_publication_copy": {
+        "headline": "One More Bag",
+        "deck": "Red Leopards vs El Niño",
+        "body": "Red Leopards sees El Niño’s storm roll over the eastern terrace. He stacks sandbags beside the damaged goal. For a moment the line holds. Then a thread of brown water comes out behind his boot. It has followed last week’s tire rut around the end of the line. In 2022 he had beaten El Niño twice and carried thirteen wins into the semifinal. He remembers how fast that advantage went, too.",
+        "department_heading": "Red Leopards vs El Niño"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P08/request.json",
+      "source_sha256": "f6aeb23f1ba9e5f9381071b11b36aa31818ddad84dfb1f39d2fa1f092b4b9da7",
+      "counts": {
+        "vo_words": 24,
+        "candidate_dialogue_words": 3,
+        "allocated_picture_seconds": 60,
+        "vo_time_at_145wpm": 9.93,
+        "dialogue_time_at_135wpm": 1.33
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC09",
+      "source_folio": "W10-P09",
+      "start": "00:07:15",
+      "end": "00:08:16",
+      "duration_sec": 61,
+      "location": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "provisional": true,
+        "landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Later, far inland, Red reaches the Forgotten Court. One tree has already fallen across the road. A second comes down above the old right-wall hoop.",
+      "camera_action_direction": "Travel is indicated by cut and carried mud, never proximity. Frame the familiar hoop intact for one breath, then one heavy branch strikes the right-wall backboard.",
+      "dialogue_proposal": [
+        {
+          "speaker": "RED LEOPARDS",
+          "text": "Not this place.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "Later, on the road inland to the Forgotten Court in the Central Basin, Red Leopards climbs over a fallen trunk. Farther up the slope another tree tips, roots and all. From the court entrance he sees the gaps they left across his territory. For a second the familiar hoop is still there on the right-hand wall. Then the tree above it goes over. One heavy limb catches the backboard on its way down.",
+      "source_publication_copy": {
+        "headline": "The Place That Answered Once",
+        "deck": "Red Leopards vs El Niño",
+        "body": "Later, on the road inland to the Forgotten Court in the Central Basin, Red Leopards climbs over a fallen trunk. Farther up the slope another tree tips, roots and all. From the court entrance he sees the gaps they left across his territory. For a second the familiar hoop is still there on the right-hand wall. Then the tree above it goes over. One heavy limb catches the backboard on its way down.",
+        "department_heading": "Red Leopards vs El Niño"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P09/request.json",
+      "source_sha256": "f6c0881e2728cfd6f2fd00065f62c661dd64095218c439fe782f9dff91f9ffa9",
+      "counts": {
+        "vo_words": 25,
+        "candidate_dialogue_words": 3,
+        "allocated_picture_seconds": 61,
+        "vo_time_at_145wpm": 10.34,
+        "dialogue_time_at_135wpm": 1.33
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC10",
+      "source_folio": "W10-P10",
+      "start": "00:08:16",
+      "end": "00:09:18",
+      "duration_sec": 62,
+      "location": {
+        "venue_id": null,
+        "set_id": "SET-W10-FORGOTTEN-COURT-REVISIT",
+        "venue_type": "EXISTING_DELIVERED_ARTWORK_REUSE; ATLAS_REGISTRATION_PENDING",
+        "provisional": true,
+        "landmarks": [
+          "Week 7 rectangular weathered backboard bracketed to the RIGHT stone wall",
+          "red-leaf ivy along right wall",
+          "wet hard court and worn lines",
+          "ascending stone tiers, ruined towers and distant waterfalls",
+          "same right-side basket and lens axis; no freestanding hoop pole"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "In 2022 the advantage vanished in a semifinal. The rim hangs wrong again today. But Red isn't out of this season; there is still another repair to decide whether to make.",
+      "camera_action_direction": "Let his fingers touch the loose net beneath the hoop. El Niño laughs from across the same cold rain-swept court. Keep the 2022 record verbal, never fabricate a flashback reenactment.",
+      "dialogue_proposal": [
+        {
+          "speaker": "RED LEOPARDS",
+          "text": "I could fix it.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs across the rain-swept court, and the 2022 semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.",
+      "source_publication_copy": {
+        "headline": "That Cold Again",
+        "deck": "Red Leopards vs El Niño",
+        "body": "The hoop hangs wrong. Red Leopards sits beneath it with the mud of his failed sandbag line still on him. El Niño laughs across the rain-swept court, and the 2022 semifinal comes back in full: 116.32 to 97.96, a 13–1 favorite sent home, and El Niño eventually lifting that season's title. Red Leopards is not eliminated today. That is almost the cruelest part. He still has to decide whether to get up and repair another thing.",
+        "department_heading": "Red Leopards vs El Niño",
+        "result": {
+          "status": "FINAL",
+          "winner": "El Niño",
+          "winner_points": "189.08",
+          "loser": "Red Leopards",
+          "loser_points": "147.82",
+          "winner_record": "6–4",
+          "loser_record": "5–5",
+          "margin": "41.26",
+          "source": "SFINAL"
+        },
+        "football_context": "Emmett Johnson 38.30; Chase Brown 29.30; James Cook III 26.50; Ja'Marr Chase 36.10."
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P10/request.json",
+      "source_sha256": "10e31165bedaf5058241d587334fb176c4c96938f7d4ba7253620037f66eb1e7",
+      "counts": {
+        "vo_words": 31,
+        "candidate_dialogue_words": 4,
+        "allocated_picture_seconds": 62,
+        "vo_time_at_145wpm": 12.83,
+        "dialogue_time_at_135wpm": 1.78
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC11",
+      "source_folio": "W10-P11",
+      "start": "00:09:18",
+      "end": "00:10:04",
+      "duration_sec": 46,
+      "location": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-UPPER-BASIN-WEATHER-VIEW",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "Upper Basin Connector near the mountain-lake approach"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "One front. Different consequences. Coast water, inland wind, wetland runoff later. At the mountain lake, the lamps are lit early.",
+      "camera_action_direction": "Three regional exposures in editorial sequence, never a single continuous location. Use the established bridge to orient the audience. Localized wind ripples road fabric.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "On the exposed coast, water finds the old damage. Farther inland, gusts take the trees and banners. In the southern wetlands, runoff arrives later through familiar channels. Up here, travelers tighten their covers and the lamps come on early. The Commonwealth has not changed places. The weather has reached more of them.",
+      "source_publication_copy": {
+        "headline": "THE ROADS BETWEEN",
+        "deck": "The same front, different ground",
+        "body": "On the exposed coast, water finds the old damage. Farther inland, gusts take the trees and banners. In the southern wetlands, runoff arrives later through familiar channels. Up here, travelers tighten their covers and the lamps come on early. The Commonwealth has not changed places. The weather has reached more of them.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "THE COMMONWEALTH"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P11/request.json",
+      "source_sha256": "cc965b5d16b80d78d6f30783e8380119f9afac58e028b822e309f63a13fb7a01",
+      "counts": {
+        "vo_words": 20,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 46,
+        "vo_time_at_145wpm": 8.28,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC12",
+      "source_folio": "W10-P12",
+      "start": "00:10:04",
+      "end": "00:11:03",
+      "duration_sec": 59,
+      "location": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "provisional": true,
+        "landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "There was a time when the waterfall was the loudest thing a family heard. Not tonight.",
+      "camera_action_direction": "Jackhammer in the paving layer, compressor and hose below; a newborn cries offscreen, then three heads share one body at the balcony rail. Keep the upstairs room offscreen.",
+      "dialogue_proposal": [
+        {
+          "speaker": "PARTNER (O.S.)",
+          "text": "Can you come here? Please.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "THREE DREADED SNAKE",
+          "text": "What is that noise?",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "There had been a time when the temple's waterfall was the loudest thing the family heard. Now a jackhammer bites the courtyard paving, sending pale chips against steps worn smooth over years. Behind the upstairs door the newborn starts crying. Three Dreaded Snake's partner calls for help. Three heads reach the balcony at once, none of them prepared for the sight of Seven Deadly Chins enjoying himself below.",
+      "source_publication_copy": {
+        "headline": "Just as the House Settles",
+        "deck": "Three Dreaded Snake vs Seven Deadly Chins",
+        "body": "There had been a time when the temple's waterfall was the loudest thing the family heard. Now a jackhammer bites the courtyard paving, sending pale chips against steps worn smooth over years. Behind the upstairs door the newborn starts crying. Three Dreaded Snake's partner calls for help. Three heads reach the balcony at once, none of them prepared for the sight of Seven Deadly Chins enjoying himself below.",
+        "department_heading": "Three Dreaded Snake vs Seven Deadly Chins"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P12/request.json",
+      "source_sha256": "4466bd9cc3d5c3fc6b33fd16dfd746e4480033e34f04ba1c43e0332f48830c75",
+      "counts": {
+        "vo_words": 16,
+        "candidate_dialogue_words": 9,
+        "allocated_picture_seconds": 59,
+        "vo_time_at_145wpm": 6.62,
+        "dialogue_time_at_135wpm": 4.0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC13",
+      "source_folio": "W10-P13",
+      "start": "00:11:03",
+      "end": "00:12:05",
+      "duration_sec": 62,
+      "location": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "provisional": true,
+        "landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The machine stops. For a moment the waterfall is all anyone hears. Seven Deadly Chins has listened—and chooses the music instead.",
+      "camera_action_direction": "Stage a genuine silent interval. One hand releases jackhammer, then raises speaker volume while tool is down. TDS looks toward the protected doorway before sound recommences.",
+      "dialogue_proposal": [
+        {
+          "speaker": "THREE DREADED SNAKE",
+          "text": "Enough! There's a child trying to sleep!",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "SEVEN DEADLY CHINS",
+          "text": "I heard you.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "Three Dreaded Snake shouts down to stop. Seven Deadly Chins lets the hammer go quiet long enough to look up. For one hopeful breath the waterfall fills the court again. Three Dreaded Snake turns toward the crying child. Then Seven Deadly Chins laughs, turns the music higher and plants the bit in the next square of paving. The insult is not that he could not hear. It is that he listened and chose the encore.",
+      "source_publication_copy": {
+        "headline": "He Heard You",
+        "deck": "Three Dreaded Snake vs Seven Deadly Chins",
+        "body": "Three Dreaded Snake shouts down to stop. Seven Deadly Chins lets the hammer go quiet long enough to look up. For one hopeful breath the waterfall fills the court again. Three Dreaded Snake turns toward the crying child. Then Seven Deadly Chins laughs, turns the music higher and plants the bit in the next square of paving. The insult is not that he could not hear. It is that he listened and chose the encore.",
+        "department_heading": "Three Dreaded Snake vs Seven Deadly Chins"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P13/request.json",
+      "source_sha256": "6d37354cda48fc7501c774175a955c000746a17303154f723b9e1ffeee516915",
+      "counts": {
+        "vo_words": 22,
+        "candidate_dialogue_words": 10,
+        "allocated_picture_seconds": 62,
+        "vo_time_at_145wpm": 9.1,
+        "dialogue_time_at_135wpm": 4.44
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC14",
+      "source_folio": "W10-P14",
+      "start": "00:12:05",
+      "end": "00:13:08",
+      "duration_sec": 63,
+      "location": {
+        "venue_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "set_id": "SET-W10-TDS-TEMPLE-COURTYARD",
+        "venue_type": "PROPOSED_HOUSEHOLD_COURTYARD_AND_BALCONY",
+        "provisional": true,
+        "landmarks": [
+          "patched concrete courtyard over older stone",
+          "upper balcony and protected family doorway",
+          "waterfall, drain and planted margin",
+          "raised dry compressor/speaker shelf"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The circle of broken paving grows. The father gets louder. So does the music. The jackhammer begins the same damage all over again.",
+      "camera_action_direction": "One big vertical payoff. Same patch, same operator, same balcony. Three furious heads on one torso, Chins with both hands returning to the tool. No arbitrary temple collapse.",
+      "dialogue_proposal": [
+        {
+          "speaker": "THREE DREADED SNAKE",
+          "text": "You heard every word.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "SEVEN DEADLY CHINS",
+          "text": "Every single one.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "Broken concrete lies in a widening crescent around the same jackhammer. Seven Deadly Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season Three Dreaded Snake beat Seven Deadly Chins twice. This week Seven Deadly Chins has discovered a form of revenge that needs neither a trophy nor permission.",
+      "source_publication_copy": {
+        "headline": "No Quiet Hours",
+        "deck": "Three Dreaded Snake vs Seven Deadly Chins",
+        "body": "Broken concrete lies in a widening crescent around the same jackhammer. Seven Deadly Chins dances badly to his own music, delighted by an audience of three furious heads. Upstairs, the father has a crying baby and an angry partner; downstairs, his visitor has a fresh piece of ground to destroy. Last season Three Dreaded Snake beat Seven Deadly Chins twice. This week Seven Deadly Chins has discovered a form of revenge that needs neither a trophy nor permission.",
+        "department_heading": "Three Dreaded Snake vs Seven Deadly Chins",
+        "result": {
+          "status": "FINAL",
+          "winner": "Seven Deadly Chins",
+          "winner_points": "146.22",
+          "loser": "Three Dreaded Snake",
+          "loser_points": "82.78",
+          "winner_record": "6–4",
+          "loser_record": "4–6",
+          "margin": "63.44",
+          "source": "SFINAL"
+        },
+        "football_context": "Patrick Mahomes 48.62; Blake Corum 23.60; Bhayshul Tuten 22.90."
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P14/request.json",
+      "source_sha256": "4d69a283253533aec8b49450bdfe9a847ed5ed7f996f4c217a0ace04a9b2163e",
+      "counts": {
+        "vo_words": 23,
+        "candidate_dialogue_words": 7,
+        "allocated_picture_seconds": 63,
+        "vo_time_at_145wpm": 9.52,
+        "dialogue_time_at_135wpm": 3.11
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC15",
+      "source_folio": "W10-P15",
+      "start": "00:13:08",
+      "end": "00:14:07",
+      "duration_sec": 59,
+      "location": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "provisional": true,
+        "landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Mud Dogs holds the swamp entrance like a border. The truck is carrying beer; its driver is just making another delivery.",
+      "camera_action_direction": "Stay low in the hound POV. Driver checks the mirror, cargo straps remain tight, raised service strip and soft shoulder remain distinct. Bark communicates territorial claim.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Mud Dogs plants himself beside the old swamp entrance marker, blocking the raised service strip with the confidence of a landlord. Beyond him comes a long flatbed of beer, driven by Slob on my Dobb with the ease of a man on a familiar delivery run. The swamp is wet, the old racing ruts are full, and the cargo straps are tight. Mud Dogs barks a warning. Slob on my Dobb checks the mirror.",
+      "source_publication_copy": {
+        "headline": "The Swamp Declares a Blockade",
+        "deck": "Mud Dogs vs Slob on my Dobb",
+        "body": "Mud Dogs plants himself beside the old swamp entrance marker, blocking the raised service strip with the confidence of a landlord. Beyond him comes a long flatbed of beer, driven by Slob on my Dobb with the ease of a man on a familiar delivery run. The swamp is wet, the old racing ruts are full, and the cargo straps are tight. Mud Dogs barks a warning. Slob on my Dobb checks the mirror.",
+        "department_heading": "Mud Dogs vs Slob on my Dobb"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P15/request.json",
+      "source_sha256": "a54e6da54566725b5a93c6871c21f865dc4bf835b3a0d6a9a5a092008ada2b48",
+      "counts": {
+        "vo_words": 21,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 59,
+        "vo_time_at_145wpm": 8.69,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC16",
+      "source_folio": "W10-P16",
+      "start": "00:14:07",
+      "end": "00:15:09",
+      "duration_sec": 62,
+      "location": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "provisional": true,
+        "landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "He doesn't stop. He doesn't race. The truck continues at precisely the speed of an ordinary appointment.",
+      "camera_action_direction": "Mirror check, steady truck on firm raised road, barking hound on soft shoulder, loaded trailer receding without loss. No collision, no thrown keg and no violent confrontation.",
+      "dialogue_proposal": [
+        {
+          "speaker": "SLOB ON MY DOBB (MUTTER)",
+          "text": "Road's clear.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "The truck does not stop. Slob on my Dobb does not even make a show of defiance. He keeps the wheels on the firm strip, guides the kegs around the bend and rolls past at ordinary speed. Mud Dogs follows on the soft shoulder, barking harder as the trailer grows longer and less interested in him. The joke is not that Slob on my Dobb has conquered the swamp. It is that the swamp has ceased to inconvenience his schedule.",
+      "source_publication_copy": {
+        "headline": "Same Speed",
+        "deck": "Mud Dogs vs Slob on my Dobb",
+        "body": "The truck does not stop. Slob on my Dobb does not even make a show of defiance. He keeps the wheels on the firm strip, guides the kegs around the bend and rolls past at ordinary speed. Mud Dogs follows on the soft shoulder, barking harder as the trailer grows longer and less interested in him. The joke is not that Slob on my Dobb has conquered the swamp. It is that the swamp has ceased to inconvenience his schedule.",
+        "department_heading": "Mud Dogs vs Slob on my Dobb"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P16/request.json",
+      "source_sha256": "9a22aa0b5f5133dff03301ca3fcac97330189e3a1a32a6738ab24184b2c293db",
+      "counts": {
+        "vo_words": 17,
+        "candidate_dialogue_words": 2,
+        "allocated_picture_seconds": 62,
+        "vo_time_at_145wpm": 7.03,
+        "dialogue_time_at_135wpm": 0.89
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC17",
+      "source_folio": "W10-P17",
+      "start": "00:15:09",
+      "end": "00:16:07",
+      "duration_sec": 58,
+      "location": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "set_id": "SET-W10-MUD-SWAMP-DELIVERY-PASS",
+        "venue_type": "PROPOSED_RAISED_SERVICE_STRIP_WITHIN_EXISTING_GROUND",
+        "provisional": true,
+        "landmarks": [
+          "weathered swamp entrance marker",
+          "raised stone/gravel service strip",
+          "lower waterlogged racing ruts",
+          "empty local seating and vegetated channel"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The tail lamp disappears. The road is quiet. The postcard is a taunt—not an elimination ticket. Mud Dogs still has a narrow route.",
+      "camera_action_direction": "Hold on empty wetland path and flooded racing scars, Cancún card fluttering against sign. Do not stamp playoff elimination or show fabricated escape flight.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: at 2–8, a narrow division-title route still exists. Another loss closes it. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.",
+      "source_publication_copy": {
+        "headline": "Cancún Is Calling",
+        "deck": "Mud Dogs vs Slob on my Dobb",
+        "body": "The last tail lamp disappears into reeds. Mud Dogs stands under his own sign beside empty stands and flooded racing scars, watching a postcard for Cancún flutter against the post. It is a taunt, not a ticket: at 2–8, a narrow division-title route still exists. Another loss closes it. For now, Slob on my Dobb has delivered the beer, and Mud Dogs has been left with the silence after a truck.",
+        "department_heading": "Mud Dogs vs Slob on my Dobb",
+        "result": {
+          "status": "FINAL",
+          "winner": "Slob on my Dobb",
+          "winner_points": "179.29",
+          "loser": "Mud Dogs",
+          "loser_points": "113.62",
+          "winner_record": "6–4",
+          "loser_record": "2–8",
+          "margin": "65.67",
+          "source": "SFINAL"
+        },
+        "football_context": "Christian McCaffrey 52.60; Josh Allen 26.84; CeeDee Lamb 20.20; Jared Goff 29.52."
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P17/request.json",
+      "source_sha256": "c371eec65bd14f0db001746ffbe9b49b0d1f2971799c565a995cfc115f283076",
+      "counts": {
+        "vo_words": 24,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 58,
+        "vo_time_at_145wpm": 9.93,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC18",
+      "source_folio": "W10-P18",
+      "start": "00:16:07",
+      "end": "00:16:52",
+      "duration_sec": 45,
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-SCORING-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Archive scoring hall"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "There are numbers behind the stories. McCaffrey gave Slob 52.60. Three players combined for 113.86 for His Majesty's Blood, and three more combined for 103.66 for The LLC; Gibbs brought Dr. Duckhook 47.40. El Niño won with Pickens on the bench. The Monday comeback still left ObiWan 37.43 short.",
+      "camera_action_direction": "Type every numerical receipt from the source. Avoid false player action footage; use document surfaces and accurate score overlays, not generated words.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.",
+      "source_publication_copy": {
+        "headline": "WHY THE BOARD MOVED",
+        "deck": "The points behind the spectacle",
+        "body": "Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.",
+        "callouts": [],
+        "rows": [
+          {
+            "category": "RB / overall starter lead",
+            "player": "Christian McCaffrey",
+            "team": "Slob on my Dobb",
+            "points": "52.60"
+          },
+          {
+            "category": "QB",
+            "player": "Patrick Mahomes",
+            "team": "Seven Deadly Chins",
+            "points": "48.62"
+          },
+          {
+            "category": "WR",
+            "player": "Ja’Marr Chase",
+            "team": "Red Leopards",
+            "points": "36.10"
+          },
+          {
+            "category": "TE",
+            "player": "Isaiah Likely",
+            "team": "The LLC",
+            "points": "30.70"
+          },
+          {
+            "category": "D/ST",
+            "player": "Vikings D/ST",
+            "team": "His Majesty’s Blood",
+            "points": "26.00"
+          },
+          {
+            "category": "K",
+            "player": "Cam Little",
+            "team": "His Majesty’s Blood",
+            "points": "19.00"
+          }
+        ],
+        "department_heading": "SPORTS DESK"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P18/request.json",
+      "source_sha256": "be9b60025227be7e929a94109f49b68b773cb43cb2c6be39bd4679e32a42fdba",
+      "counts": {
+        "vo_words": 54,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 45,
+        "vo_time_at_145wpm": 22.34,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC19",
+      "source_folio": "W10-P34",
+      "start": "00:16:52",
+      "end": "00:17:46",
+      "duration_sec": 54,
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-INJURY-DISPATCH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Archive late dispatch alcove"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Sunday's fantasy totals are not proof that players are healthy, returning, or ruled out beyond the verified reports. The record carries the medical uncertainty into Week Eleven.",
+      "camera_action_direction": "Editorial montage of authentic roster lines and medically qualified reporting: source text remains adjacent and fully reviewable. No reenactment of diagnosis or injury.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s confirmed season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.",
+      "source_publication_copy": {
+        "headline": "THE COST OF SUNDAY",
+        "deck": "Sports Desk • Availability changes the next move",
+        "body": "Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s confirmed season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "INJURY REPORT"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P34/request.json",
+      "source_sha256": "df77d5835021b85c0285a1006f94537272a59b5e8887d6973821992862582696",
+      "counts": {
+        "vo_words": 27,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 54,
+        "vo_time_at_145wpm": 11.17,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC20",
+      "source_folio": "W10-P19",
+      "start": "00:17:46",
+      "end": "00:18:46",
+      "duration_sec": 60,
+      "location": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "set_id": "SET-W10-JACKSON-BANQUET",
+        "venue_type": "verified home domain / proposed scene",
+        "provisional": false,
+        "landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "atlas_promotion": null
+      },
+      "narrator_film_candidate": "At Jackson, the birthday boy receives the guest who nearly lost his title path to him last season. The room is warm; the windows are darkening.",
+      "camera_action_direction": "Existing Jackson hall geography. Dr Duckhook turns sideways among guests; HMB keeps his approved armor, concealed eyes, cloak and belt, holding a wrapped object. No fabricated team speeches.",
+      "dialogue_proposal": [
+        {
+          "speaker": "DR. DUCKHOOK",
+          "text": "You didn't come empty-handed.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "HIS MAJESTY'S BLOOD",
+          "text": "I remembered the occasion.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "The dining hall in Jackson is full enough that the guests must turn sideways between the streamers and the cakes. Dr. Duckhook is the birthday boy, a host in his own kingdom of polished tables and familiar club service. His Majesty's Blood arrives beneath the storm-dark windows carrying an enormous present, belt visible and sword irrelevant. Last year Dr. Duckhook came within four tenths of stopping this rival's championship path. Tonight he opens the door to him.",
+      "source_publication_copy": {
+        "headline": "A Very Generous Guest",
+        "deck": "Dr. Duckhook vs His Majesty's Blood",
+        "body": "The dining hall in Jackson is full enough that the guests must turn sideways between the streamers and the cakes. Dr. Duckhook is the birthday boy, a host in his own kingdom of polished tables and familiar club service. His Majesty's Blood arrives beneath the storm-dark windows carrying an enormous present, belt visible and sword irrelevant. Last year Dr. Duckhook came within four tenths of stopping this rival's championship path. Tonight he opens the door to him.",
+        "department_heading": "Dr. Duckhook vs His Majesty's Blood"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P19/request.json",
+      "source_sha256": "e196221643b69c9ac156dec644654adb8635ee7937dcef01c2442dc908cc8ed3",
+      "counts": {
+        "vo_words": 26,
+        "candidate_dialogue_words": 8,
+        "allocated_picture_seconds": 60,
+        "vo_time_at_145wpm": 10.76,
+        "dialogue_time_at_135wpm": 3.56
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC21",
+      "source_folio": "W10-P20",
+      "start": "00:18:46",
+      "end": "00:19:41",
+      "duration_sec": 55,
+      "location": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "set_id": "SET-W10-JACKSON-BANQUET",
+        "venue_type": "verified home domain / proposed scene",
+        "provisional": false,
+        "landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "atlas_promotion": null
+      },
+      "narrator_film_candidate": "The ribbon comes away. The box opens. The 200 Burger is understood before anyone needs to explain the number.",
+      "camera_action_direction": "Box lid first, host's glance second, nearby guests' reaction third. Preserve the untouched separate cake on the sideboard.",
+      "dialogue_proposal": [
+        {
+          "speaker": "DR. DUCKHOOK",
+          "text": "That is a very large burger.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "HIS MAJESTY'S BLOOD",
+          "text": "Two hundred reasons to celebrate.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "Dr. Duckhook pulls the ribbon, raises the lid and discovers a double-decker hamburger big enough to have a title: 200 BURGER. For a moment he tries to smile like a gracious host. Then the guests understand what the number means. His Majesty's Blood has given him a celebration he can neither refuse nor explain away. The separate birthday cake waits on the sideboard.",
+      "source_publication_copy": {
+        "headline": "The 200 Burger",
+        "deck": "Dr. Duckhook vs His Majesty's Blood",
+        "body": "Dr. Duckhook pulls the ribbon, raises the lid and discovers a double-decker hamburger big enough to have a title: 200 BURGER. For a moment he tries to smile like a gracious host. Then the guests understand what the number means. His Majesty's Blood has given him a celebration he can neither refuse nor explain away. The separate birthday cake waits on the sideboard.",
+        "department_heading": "Dr. Duckhook vs His Majesty's Blood"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P20/request.json",
+      "source_sha256": "3d36a3a363ae1938439a8272a820ca15d62558a17619bbb18afc4b0b45ae03b1",
+      "counts": {
+        "vo_words": 19,
+        "candidate_dialogue_words": 11,
+        "allocated_picture_seconds": 55,
+        "vo_time_at_145wpm": 7.86,
+        "dialogue_time_at_135wpm": 4.89
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC22",
+      "source_folio": "W10-P21",
+      "start": "00:19:41",
+      "end": "00:20:38",
+      "duration_sec": 57,
+      "location": {
+        "venue_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "set_id": "SET-W10-JACKSON-BANQUET",
+        "venue_type": "verified home domain / proposed scene",
+        "provisional": false,
+        "landmarks": [
+          "clubhouse dining hall",
+          "proposed tall windows facing maintained grounds",
+          "proposed service doorway and sideboard",
+          "proposed birthday chair and gift-table axis"
+        ],
+        "atlas_promotion": null
+      },
+      "narrator_film_candidate": "And then the other cake is no longer on the sideboard. The room does not know whether to cheer or wince.",
+      "camera_action_direction": "Separate single cake-face contact. Frosting on Duckhook's orange bill and green vest; the huge burger remains untouched. Realistic cake weight, no injury.",
+      "dialogue_proposal": [
+        {
+          "speaker": "DR. DUCKHOOK (MUFFLED)",
+          "text": "Happy birthday to me.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "His Majesty's Blood presses that cake squarely into Dr. Duckhook's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week The Chili Cheesers made His Majesty's Blood the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.",
+      "source_publication_copy": {
+        "headline": "Many Unhappy Returns",
+        "deck": "Dr. Duckhook vs His Majesty's Blood",
+        "body": "His Majesty's Blood presses that cake squarely into Dr. Duckhook's face. Frosting coats the orange bill and the front of the green vest while the warm dining hall erupts. The burger remains magnificent in its box, untouched. Last week The Chili Cheesers made His Majesty's Blood the dish at a public cookout. This week the champion has found a new place setting, and the birthday boy is wearing dessert.",
+        "department_heading": "Dr. Duckhook vs His Majesty's Blood",
+        "result": {
+          "status": "FINAL",
+          "winner": "His Majesty's Blood",
+          "winner_points": "208.76",
+          "loser": "Dr. Duckhook",
+          "loser_points": "127.67",
+          "winner_record": "6–4",
+          "loser_record": "6–4",
+          "margin": "81.09",
+          "source": "SFINAL"
+        },
+        "football_context": "Brock Purdy 42.86; Chuba Hubbard 36.90; Jaxon Smith-Njigba 34.10; Vikings D/ST 26.00."
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P21/request.json",
+      "source_sha256": "f626a18cd2e9b0c808b01c8b736ae6cfa80a1f8c42cca0c89c2d96bd3f3b4498",
+      "counts": {
+        "vo_words": 21,
+        "candidate_dialogue_words": 4,
+        "allocated_picture_seconds": 57,
+        "vo_time_at_145wpm": 8.69,
+        "dialogue_time_at_135wpm": 1.78
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC23",
+      "source_folio": "W10-P22",
+      "start": "00:20:38",
+      "end": "00:21:46",
+      "duration_sec": 68,
+      "location": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "set_id": "SET-W10-OBI-RIDGE-GATE",
+        "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
+        "provisional": false,
+        "landmarks": [
+          "mountain causeway below the command shelf",
+          "inner home arch and sheltered golden retriever",
+          "upper ridge steps to temporary field throne room",
+          "leather command chair above the floor seam"
+        ],
+        "atlas_promotion": null
+      },
+      "narrator_film_candidate": "Their earlier meeting came down to eight tenths of a point. This time ObiWan finds the first battery, turns its red fire with a green blade, and watches it fail.",
+      "camera_action_direction": "Frame original mountain causeway, first battery and distant lamp; its destructive failure precedes the executive leaving the chair. The home arch stays lit.",
+      "dialogue_proposal": [
+        {
+          "speaker": "OBIWAN JACOBY",
+          "text": "One down.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "In 2024, eight tenths of a point settled their meeting in The LLC’s favor. ObiWan Jacoby remembers what a single opening is worth. Red fire crosses his mountain causeway. He turns it back with the green blade and the first battery folds into its own smoke. Above it, the man in the leather chair rises. The steps to his field throne room stand open. Behind ObiWan Jacoby, the lamp in the home arch still burns.",
+      "source_publication_copy": {
+        "headline": "The Empire Opens Fire",
+        "deck": "ObiWan Jacoby vs The LLC",
+        "body": "In 2024, eight tenths of a point settled their meeting in The LLC’s favor. ObiWan Jacoby remembers what a single opening is worth. Red fire crosses his mountain causeway. He turns it back with the green blade and the first battery folds into its own smoke. Above it, the man in the leather chair rises. The steps to his field throne room stand open. Behind ObiWan Jacoby, the lamp in the home arch still burns.",
+        "department_heading": "ObiWan Jacoby vs The LLC"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P22/request.json",
+      "source_sha256": "fa3a08b7b6ea224d606fcfc566f3cdde1d83dafd3f1239f58916c7f6868b2f4c",
+      "counts": {
+        "vo_words": 30,
+        "candidate_dialogue_words": 2,
+        "allocated_picture_seconds": 68,
+        "vo_time_at_145wpm": 12.41,
+        "dialogue_time_at_135wpm": 0.89
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC24",
+      "source_folio": "W10-P23",
+      "start": "00:21:46",
+      "end": "00:22:51",
+      "duration_sec": 65,
+      "location": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "set_id": "SET-W10-OBI-RIDGE-GATE",
+        "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
+        "provisional": false,
+        "landmarks": [
+          "mountain causeway below the command shelf",
+          "inner home arch and sheltered golden retriever",
+          "upper ridge steps to temporary field throne room",
+          "leather command chair above the floor seam"
+        ],
+        "atlas_promotion": null
+      },
+      "narrator_film_candidate": "The LLC leaves the chair. For an impossible moment the offer is almost reasonable: surrender the blade, and the lit arch will be spared. The defender looks back—and refuses.",
+      "camera_action_direction": "Chair creak, steps descended, two figures stand shoulder-to-shoulder then LLC circles. Pause for the temptation and look toward the lit home arch. No blow or battery discharge yet.",
+      "dialogue_proposal": [
+        {
+          "speaker": "THE LLC",
+          "text": "Lay down the blade. The arch stays lit.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        },
+        {
+          "speaker": "OBIWAN JACOBY",
+          "text": "That light isn't yours to bargain with.",
+          "status": "FICTIONAL_DRAFT_NOT_REAL_OWNER_QUOTE"
+        }
+      ],
+      "source_unchanged_body": "The LLC comes down the steps to meet him. For a moment the two stand shoulder to shoulder. From here the warm arch looks almost small enough to cover with a hand. Lay the blade down before the chair, the executive offers, and the arch will be spared. ObiWan Jacoby looks back once. Then he steps across the last seam in the stone. The blade goes with him, still green.",
+      "source_publication_copy": {
+        "headline": "The Price of Quiet",
+        "deck": "ObiWan Jacoby vs The LLC",
+        "body": "The LLC comes down the steps to meet him. For a moment the two stand shoulder to shoulder. From here the warm arch looks almost small enough to cover with a hand. Lay the blade down before the chair, the executive offers, and the arch will be spared. ObiWan Jacoby looks back once. Then he steps across the last seam in the stone. The blade goes with him, still green.",
+        "department_heading": "ObiWan Jacoby vs The LLC"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P23/request.json",
+      "source_sha256": "5d37525d46a4dd44a7db57879300affe591d80ed9c1800436d1802acbba425f4",
+      "counts": {
+        "vo_words": 30,
+        "candidate_dialogue_words": 15,
+        "allocated_picture_seconds": 65,
+        "vo_time_at_145wpm": 12.41,
+        "dialogue_time_at_135wpm": 6.67
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC25",
+      "source_folio": "W10-P24",
+      "start": "00:22:51",
+      "end": "00:23:57",
+      "duration_sec": 66,
+      "location": {
+        "venue_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "set_id": "SET-W10-OBI-RIDGE-GATE",
+        "venue_type": "Field throne room on the existing command shelf at the mountain ridge gate",
+        "provisional": false,
+        "landmarks": [
+          "mountain causeway below the command shelf",
+          "inner home arch and sheltered golden retriever",
+          "upper ridge steps to temporary field throne room",
+          "leather command chair above the floor seam"
+        ],
+        "atlas_promotion": null
+      },
+      "narrator_film_candidate": "The hand goes up. The surviving battery turns. The flash catches the blade and empties the field of shadow. The arch lamp stays lit. The final difference was 37.43.",
+      "camera_action_direction": "The second battery fires after hand signal. The first is already disabled. Second lightning branch lights empty chair; no coronation, no erased home arch, no result reversal.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "The LLC walks around until ObiWan Jacoby can see his face. Then he lifts his hand. Below the steps the surviving battery turns. The first white branch catches the green blade, the second lights the empty chair, and the flash swallows the defender’s silhouette. The arch lamp still burns. Derrick Henry and Mark Andrews supplied 36.20 on Monday. ObiWan Jacoby reached 166.53. The LLC held at 203.96, a margin of 37.43.",
+      "source_publication_copy": {
+        "headline": "Unlimited Firepower",
+        "deck": "ObiWan Jacoby vs The LLC",
+        "body": "The LLC walks around until ObiWan Jacoby can see his face. Then he lifts his hand. Below the steps the surviving battery turns. The first white branch catches the green blade, the second lights the empty chair, and the flash swallows the defender’s silhouette. The arch lamp still burns. Derrick Henry and Mark Andrews supplied 36.20 on Monday. ObiWan Jacoby reached 166.53. The LLC held at 203.96, a margin of 37.43.",
+        "department_heading": "ObiWan Jacoby vs The LLC",
+        "result": {
+          "status": "FINAL",
+          "winner": "The LLC",
+          "winner_points": "203.96",
+          "loser": "ObiWan Jacoby",
+          "loser_points": "166.53",
+          "winner_record": "4–6",
+          "loser_record": "4–6",
+          "margin": "37.43",
+          "source": "SFINAL"
+        },
+        "football_context": "Joe Burrow 43.26; Isaiah Likely 30.70; Parker Washington 29.70; Trevor Lawrence 34.18."
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "source_sha256": "138908a3c6fe4100a070d5b987184c35ffe0ea968a0d580c51a61dbae53da959",
+      "counts": {
+        "vo_words": 30,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 66,
+        "vo_time_at_145wpm": 12.41,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC26",
+      "source_folio": "W10-P25",
+      "start": "00:23:57",
+      "end": "00:24:35",
+      "duration_sec": 38,
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-RESERVE-LOGGIA",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Chamber outer loggia"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Six NFL clubs are on bye. The refreshed fantasy rosters still leave seven specialist positions uncovered across six teams; reserve slots are not medical clearance.",
+      "camera_action_direction": "Read exact unfilled specialist slots as source-matched minimal graphic highlights. No imaginary player portraits, acquisitions, injury confirmations or roster moves.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.",
+      "source_publication_copy": {
+        "headline": "THE NEXT STARTING SHEET",
+        "deck": "Week 11 • Seven uncovered required positions",
+        "body": "Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.",
+        "callouts": [],
+        "rows": [
+          {
+            "team": "ObiWan Jacoby",
+            "need": "D/ST"
+          },
+          {
+            "team": "Slob on my Dobb",
+            "need": "TE"
+          },
+          {
+            "team": "The Chili Cheesers",
+            "need": "K"
+          },
+          {
+            "team": "El Niño",
+            "need": "TE"
+          },
+          {
+            "team": "Mud Dogs",
+            "need": "D/ST"
+          },
+          {
+            "team": "Seven Deadly Chins",
+            "need": "D/ST + K"
+          }
+        ],
+        "department_heading": "RESERVE WATCH"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P25/request.json",
+      "source_sha256": "c5301d74712f02a336c8434bf806b74690ce6800c00b8a5849eb27502322cd3d",
+      "counts": {
+        "vo_words": 25,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 38,
+        "vo_time_at_145wpm": 10.34,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC27",
+      "source_folio": "W10-P26",
+      "start": "00:24:35",
+      "end": "00:25:11",
+      "duration_sec": 36,
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-TRANSACTION-INTAKE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Archive courier intake desk"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Twenty-nine completed transactions belong to the Week Ten record. Pending requests are not completed moves. After the trade deadline the question is available depth.",
+      "camera_action_direction": "Exact official transaction categories and timestamps remain a legible hand-entered editorial matrix, not a rendered hologram of fictional trades.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.",
+      "source_publication_copy": {
+        "headline": "MOVES THAT REACHED THE ROSTER",
+        "deck": "Completed Week 10 activity • All bids shown are FAAB",
+        "body": "The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.",
+        "callouts": [
+          {
+            "heading": "A two-day Mason trail",
+            "body": "Dr. Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob on my Dobb added Mason the next day, dropping Chris Brooks."
+          },
+          {
+            "heading": "A familiar name changes shelves",
+            "body": "Seven Deadly Chins dropped Brian Thomas Jr. on November 10; Dr. Duckhook added him November 15."
+          },
+          {
+            "heading": "ObiWan works the receiver file",
+            "body": "ObiWan Jacoby completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
+          },
+          {
+            "heading": "The defense that closed the week",
+            "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense supplied 7.00 on Monday; Three Dreaded Snake finished with 82.78."
+          }
+        ],
+        "rows": [],
+        "department_heading": "TRANSACTIONS"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P26/request.json",
+      "source_sha256": "67db2d20668e88395696df3c1fcba8a617f8def53a64b24c2964c74f36e727e2",
+      "counts": {
+        "vo_words": 24,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 36,
+        "vo_time_at_145wpm": 9.93,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC28",
+      "source_folio": "W10-P27",
+      "start": "00:25:11",
+      "end": "00:25:48",
+      "duration_sec": 37,
+      "location": {
+        "venue_id": "LOC-LEAGUE-ARCHIVE",
+        "set_id": "SET-W10-ARCHIVE-STANDINGS-HALL",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Archive record hall"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Six teams are six and four. Yet equal records don't mean equal seeding. Slob on my Dobb leads the official standings and total points.",
+      "camera_action_direction": "Deep civic standings ledger with native typeset twelve-name table, brief character emblems only from approved source. Hold enough to read without an enormous AI-generated number wall.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Six teams share 6–4 records, with Slob on my Dobb first in the provider’s seeding and first in total points. Red Leopards and The Chili Cheesers follow at 5–5. Equal records do not mean interchangeable seeds: the order below preserves ESPN’s posted table, including the division and tiebreak structure.",
+      "source_publication_copy": {
+        "headline": "TWELVE TEAMS. TEN POSTED RESULTS.",
+        "deck": "Official standings after Week 10",
+        "body": "Six teams share 6–4 records, with Slob on my Dobb first in the provider’s seeding and first in total points. Red Leopards and The Chili Cheesers follow at 5–5. Equal records do not mean interchangeable seeds: the order below preserves ESPN’s posted table, including the division and tiebreak structure.",
+        "callouts": [],
+        "rows": [
+          {
+            "seed": 1,
+            "team": "Slob on my Dobb",
+            "record": "6–4",
+            "points_for": "1599.99"
+          },
+          {
+            "seed": 2,
+            "team": "El Niño",
+            "record": "6–4",
+            "points_for": "1450.03"
+          },
+          {
+            "seed": 3,
+            "team": "D0nkey K0ng",
+            "record": "6–4",
+            "points_for": "1411.82"
+          },
+          {
+            "seed": 4,
+            "team": "His Majesty's Blood",
+            "record": "6–4",
+            "points_for": "1451.95"
+          },
+          {
+            "seed": 5,
+            "team": "Dr. Duckhook",
+            "record": "6–4",
+            "points_for": "1452.15"
+          },
+          {
+            "seed": 6,
+            "team": "Seven Deadly Chins",
+            "record": "6–4",
+            "points_for": "1356.62"
+          },
+          {
+            "seed": 7,
+            "team": "Red Leopards",
+            "record": "5–5",
+            "points_for": "1404.51"
+          },
+          {
+            "seed": 8,
+            "team": "The Chili Cheesers",
+            "record": "5–5",
+            "points_for": "1384.79"
+          },
+          {
+            "seed": 9,
+            "team": "The LLC",
+            "record": "4–6",
+            "points_for": "1449.25"
+          },
+          {
+            "seed": 10,
+            "team": "ObiWan Jacoby",
+            "record": "4–6",
+            "points_for": "1384.51"
+          },
+          {
+            "seed": 11,
+            "team": "Three Dreaded Snake",
+            "record": "4–6",
+            "points_for": "1279.46"
+          },
+          {
+            "seed": 12,
+            "team": "Mud Dogs",
+            "record": "2–8",
+            "points_for": "1181.35"
+          }
+        ],
+        "department_heading": "STANDINGS"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P27/request.json",
+      "source_sha256": "2f6e36d03939286036d8fc68f21b45a423fbb18fab87cb285161cf27515e5f5a",
+      "counts": {
+        "vo_words": 24,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 37,
+        "vo_time_at_145wpm": 9.93,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC29",
+      "source_folio": "W10-P28",
+      "start": "00:25:48",
+      "end": "00:26:20",
+      "duration_sec": 32,
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-DIVISION-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Chamber public terrace"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Pizza has three six-win teams. Wings has two. Burgers has one. The same record now carries different weight in each division.",
+      "camera_action_direction": "One slow pan from each known division marker to its factual member records. Map geography only from Atlas, division labels are competitive overlays rather than regional boundaries.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+      "source_publication_copy": {
+        "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+        "deck": "The same results change three separate races",
+        "body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+        "callouts": [
+          {
+            "label": "BURGERS",
+            "heading": "D0nkey K0ng has separation",
+            "body": "D0nkey K0ng is 6–4; ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8. Beating ObiWan Jacoby in Week 12 and Three Dreaded Snake in Week 13 secures D0nkey K0ng’s division title."
+          },
+          {
+            "label": "PIZZA",
+            "heading": "Three leaders on the same step",
+            "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins are all 6–4. The LLC’s 203.96 victory lifts its record to 4–6, with the divisional return still ahead."
+          },
+          {
+            "label": "WINGS",
+            "heading": "The cushion has narrowed",
+            "body": "Dr. Duckhook and Slob on my Dobb are 6–4; Red Leopards and The Chili Cheesers are 5–5. Red Leopards went 3–0 in the first divisional pass; winning all four remaining games secures Wings."
+          }
+        ],
+        "rows": [],
+        "department_heading": "STATE OF THE REALM"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P28/request.json",
+      "source_sha256": "3dd44a304b7c36e0099d1dafd14b023801b5a05b6e1398ae534a1fa102a3034d",
+      "counts": {
+        "vo_words": 21,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 32,
+        "vo_time_at_145wpm": 8.69,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC30",
+      "source_folio": "W10-P29",
+      "start": "00:26:20",
+      "end": "00:26:59",
+      "duration_sec": 39,
+      "location": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W10-LAKE-SCORING-FORM-OVERLOOK",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "Mountain-lake overlook"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The scoring-form index is a receipt, not a forecast: seventy percent season production and thirty percent Week Ten performance.",
+      "camera_action_direction": "Accurate source-driven 70/30 diagram on an in-world ledger. Avoid fake odds and changing the formula after publication.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
+      "source_publication_copy": {
+        "headline": "THE TWELVE — SCORING FORM",
+        "deck": "Final Week 10 scoring index • Not playoff seeding",
+        "body": "Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
+        "callouts": [],
+        "rows": [
+          {
+            "rank": 1,
+            "team": "Slob on my Dobb",
+            "index": "165.79"
+          },
+          {
+            "rank": 2,
+            "team": "His Majesty's Blood",
+            "index": "164.26"
+          },
+          {
+            "rank": 3,
+            "team": "The LLC",
+            "index": "162.64"
+          },
+          {
+            "rank": 4,
+            "team": "El Niño",
+            "index": "158.23"
+          },
+          {
+            "rank": 5,
+            "team": "ObiWan Jacoby",
+            "index": "146.87"
+          },
+          {
+            "rank": 6,
+            "team": "D0nkey K0ng",
+            "index": "145.83"
+          },
+          {
+            "rank": 7,
+            "team": "Red Leopards",
+            "index": "142.66"
+          },
+          {
+            "rank": 8,
+            "team": "Dr. Duckhook",
+            "index": "139.95"
+          },
+          {
+            "rank": 9,
+            "team": "Seven Deadly Chins",
+            "index": "138.83"
+          },
+          {
+            "rank": 10,
+            "team": "The Chili Cheesers",
+            "index": "125.05"
+          },
+          {
+            "rank": 11,
+            "team": "Mud Dogs",
+            "index": "116.78"
+          },
+          {
+            "rank": 12,
+            "team": "Three Dreaded Snake",
+            "index": "114.40"
+          }
+        ],
+        "department_heading": "SCORING FORM"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P29/request.json",
+      "source_sha256": "7077e953718720adb469964dc2c4e1cfb9fcdbbb778930ad26c7103872109dfa",
+      "counts": {
+        "vo_words": 19,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 39,
+        "vo_time_at_145wpm": 7.86,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC31",
+      "source_folio": "W10-P30",
+      "start": "00:26:59",
+      "end": "00:27:36",
+      "duration_sec": 37,
+      "location": {
+        "venue_id": "LOC-RED-SLOB-ALPINE-ROUTE",
+        "set_id": "SET-W10-ALPINE-REGULAR-SEASON-ROAD",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "Alpine Wager Route, above the existing base camp"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "Four games remain. All twelve still have a route, nobody has clinched, and a nine-win finish guarantees entry. An eight-win season alone may not.",
+      "camera_action_direction": "Year clock over protected division schedule; do not illustrate determined playoff outcomes or eliminate Mud Dogs early.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "All twelve teams still have a route, and none has clinched. Four games remain: one crossover, then three divisional rounds. Nine wins guarantees a berth; eight alone does not. A 6–8 finish can give Mud Dogs either a Burgers title or a shared place. Record scenarios assume no tied games.",
+      "source_publication_copy": {
+        "headline": "FOUR MORE AFTER THIS",
+        "deck": "Seven places. The route narrows.",
+        "body": "All twelve teams still have a route, and none has clinched. Four games remain: one crossover, then three divisional rounds. Nine wins guarantees a berth; eight alone does not. A 6–8 finish can give Mud Dogs either a Burgers title or a shared place. Record scenarios assume no tied games.",
+        "callouts": [
+          {
+            "heading": "SEVEN BERTHS",
+            "body": "Three division winners and four shared places."
+          },
+          {
+            "heading": "MUD DOGS’ NEXT TEST",
+            "body": "A Week 11 loss to Seven Deadly Chins eliminates Mud Dogs. Winning keeps a narrow, help-dependent route alive."
+          }
+        ],
+        "rows": [],
+        "department_heading": "THE PLAYOFF ROAD"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P30/request.json",
+      "source_sha256": "8534b0f12c79c02f620a38a5dd81aa5f6809fb715d9391e32b5416d679c1e32d",
+      "counts": {
+        "vo_words": 24,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 37,
+        "vo_time_at_145wpm": 9.93,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC32",
+      "source_folio": "W10-P31",
+      "start": "00:27:36",
+      "end": "00:28:13",
+      "duration_sec": 37,
+      "location": {
+        "venue_id": "LOC-LEAGUE-CHAMBER",
+        "set_id": "SET-W10-CHAMBER-NEXT-SIX-TERRACE",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "League Chamber outward-facing fixture terrace"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The next six are unfinished stories. A single crossover remains before the three divisional rounds. Only Mud Dogs is eliminated by losing Week Eleven.",
+      "camera_action_direction": "Map tomorrow's fixtures as crossed paths without pretending next week's games have occurred. Keep their unresolved result markers blank.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Four 6–4 contenders meet in two top-seed contests. The two 4–6 hosts need to close ground on the 5–5 visitors; The LLC needs recovery against Dr. Duckhook. These are not automatic eliminators. Only Mud Dogs is eliminated by a Week 11 loss. Head-to-head can decide ties; three divisional rounds follow.",
+      "source_publication_copy": {
+        "headline": "THE NEXT SIX",
+        "deck": "Week 11 • Head-to-head stakes before the divisional finish",
+        "body": "Four 6–4 contenders meet in two top-seed contests. The two 4–6 hosts need to close ground on the 5–5 visitors; The LLC needs recovery against Dr. Duckhook. These are not automatic eliminators. Only Mud Dogs is eliminated by a Week 11 loss. Head-to-head can decide ties; three divisional rounds follow.",
+        "callouts": [
+          {
+            "heading": "BUBBLE SWING · THEFFHUB",
+            "body": "Nov. 17, 2026. Each team’s playoff estimate after its Week 11 win / loss: ObiWan Jacoby 52% / 13%; The Chili Cheesers 58% / 21%. Other games simulated; 10,000 runs from season scores, excluding projections and NFL byes."
+          }
+        ],
+        "rows": [
+          {
+            "away_team": "El Niño",
+            "home_team": "Slob on my Dobb",
+            "display": "El Niño at Slob on my Dobb",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "Red Leopards",
+            "home_team": "Three Dreaded Snake",
+            "display": "Red Leopards at Three Dreaded Snake",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "Seven Deadly Chins",
+            "home_team": "Mud Dogs",
+            "display": "Seven Deadly Chins at Mud Dogs",
+            "implication": "6–4 vs 2–8 • A loss eliminates Mud Dogs"
+          },
+          {
+            "away_team": "The Chili Cheesers",
+            "home_team": "ObiWan Jacoby",
+            "display": "The Chili Cheesers at ObiWan Jacoby",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "His Majesty's Blood",
+            "home_team": "D0nkey K0ng",
+            "display": "His Majesty's Blood at D0nkey K0ng",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "The LLC",
+            "home_team": "Dr. Duckhook",
+            "display": "The LLC at Dr. Duckhook",
+            "implication": "4–6 vs 6–4 • Recovery versus top-seed contention"
+          }
+        ],
+        "department_heading": "THE NEXT SIX"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P31/request.json",
+      "source_sha256": "e3f9fbac653fefb210fd27535b3d7a2daa2eb1d37e6ea454663ca2d6526f985f",
+      "counts": {
+        "vo_words": 24,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 37,
+        "vo_time_at_145wpm": 9.93,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC33",
+      "source_folio": "W10-P35",
+      "start": "00:28:13",
+      "end": "00:29:11",
+      "duration_sec": 58,
+      "location": {
+        "venue_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "set_id": "SET-W11-MOUNTAIN-LAKE-BRIDGE-MUSTER",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "Bridge at the Mountain Lake, opposing approaches"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "At the bridge, two six-and-four contenders occupy opposite approaches. Nothing crosses the stone yet, but both know what the next meeting means.",
+      "camera_action_direction": "Open shot establishes unoccupied bridge span. DK stands on one approach and HMB opposite; eyelines lock to same pier. Do not show first blow or winner. No new belt or crown.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.",
+      "source_publication_copy": {
+        "headline": "THE CROSSING NARROWS",
+        "deck": "Week 11 preview • His Majesty’s Blood at D0nkey K0ng",
+        "body": "Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "WEEK 11 · GAME OF THE WEEK"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P35/request.json",
+      "source_sha256": "64d166aff1065cf8597b155acfe54f0362645858a90af0c55fc2cf41f10a84da",
+      "counts": {
+        "vo_words": 22,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 58,
+        "vo_time_at_145wpm": 9.1,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    },
+    {
+      "scene_id": "W10F-SC34",
+      "source_folio": "W10-P33",
+      "start": "00:29:11",
+      "end": "00:30:00",
+      "duration_sec": 49,
+      "location": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "set_id": "SET-W11-SLOB-TAILGATE-STORM-APPROACH",
+        "venue_type": "Editorial department within existing Atlas parent; local staging proposed",
+        "provisional": true,
+        "landmarks": [
+          "Slob Foothill Camp tailgate-yard approach"
+        ],
+        "atlas_promotion": false
+      },
+      "narrator_film_candidate": "The weather has not finished moving. Slob's cargo passed unhindered. Next week El Niño comes to his place; both teams still have work between Sundays.",
+      "camera_action_direction": "Return to wetland camp, distant ordinary maintenance and tangible weather. No new encounter, no future victory, no climate discontinuity; finish on unresolved camp light.",
+      "dialogue_proposal": [],
+      "source_unchanged_body": "Slob on my Dobb’s delivery passed through the swamp without trouble. Next week the schedule brings El Niño to Slob on my Dobb. The league’s scoring leader has a different problem to prepare for, and both teams need a tight end before that meeting. After this comes the divisional finish. The next round begins with the work done between Sundays.",
+      "source_publication_copy": {
+        "headline": "THE WEATHER IS COMING HOME",
+        "deck": "Storm Watch • El Niño at Slob on my Dobb",
+        "body": "Slob on my Dobb’s delivery passed through the swamp without trouble. Next week the schedule brings El Niño to Slob on my Dobb. The league’s scoring leader has a different problem to prepare for, and both teams need a tight end before that meeting. After this comes the divisional finish. The next round begins with the work done between Sundays.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "THE FINAL WORD"
+      },
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P33/request.json",
+      "source_sha256": "07046b0eb0631f63d0083d248bb3c46a61b490dfadd16a837392fdd064030e56",
+      "counts": {
+        "vo_words": 25,
+        "candidate_dialogue_words": 0,
+        "allocated_picture_seconds": 49,
+        "vo_time_at_145wpm": 10.34,
+        "dialogue_time_at_135wpm": 0
+      },
+      "image_appearance_status": "REQUIRES_PER_SHOT_CANON_QA",
+      "voice_status": "NOT_CAST",
+      "script_status": "CANDIDATE"
+    }
+  ]
+}

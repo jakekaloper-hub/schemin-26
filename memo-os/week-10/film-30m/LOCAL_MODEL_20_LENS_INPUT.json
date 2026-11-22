@@ -1,0 +1,210 @@
+{
+  "assignment_id": "S26-W10-FILM-LIVE-LOCAL-MODEL-DISCIPLINE-20261122",
+  "production": "memo-os",
+  "evidence_sha": "61ae7c653a0062e65142d20efa3207dc07dbaff604247735380ddd47828a79be",
+  "decision_question": "Can the proposed Week 10 film screenplay and 42-second M01 stunt proof be advanced without violating source truth, physical blocking and soundtrack requirements?",
+  "synthesis": "Keep independent source-level storyline, distinguish sports fact VO from fictional in-world lines, hold expensive action/character/VFX approval until actual pixel/sound QA, use the simplest existing runtime and preserve the original memo.",
+  "findings": [
+    {
+      "id": "W10-SCRIPT-MODEL-01",
+      "advisor": "Doug Chiang",
+      "observation": "The scene lacks clarity on the interaction between the 'first battery' and the 'green blade' in terms of visual and mechanical simulation, which is critical for the action sequence.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P22/request.json",
+      "proposal": "Implement a visual simulation test to confirm the feasibility of the green blade deflecting the red fire from the battery, ensuring the battery folds into smoke as described.",
+      "decision": "ADAPT",
+      "rationale": "The visual and mechanical interaction between the green blade and the battery is essential for the scene's authenticity and action clarity. Without a simulation test, the scene's visual impact and narrative coherence may be compromised.",
+      "acceptance_test": "A simulation test confirming the green blade can deflect the red fire and cause the battery to fold into smoke, with the LLC rising above the smoke."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-02",
+      "advisor": "Dylan Cole",
+      "observation": "The film_vo_candidate introduces a new location (mountain lake) not mentioned in the source text, which may misrepresent the spatial differentiation of storm regions.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P11/request.json",
+      "proposal": "Replace the mention of 'mountain lake' with 'upper basin' to maintain consistency with the source text and the set_id 'SET-W10-UPPER-BASIN-WEATHER-VIEW'.",
+      "decision": "ADAPT",
+      "rationale": "The source text and set_id refer to 'upper basin' rather than 'mountain lake', which is a specific location in the Atlas parent. Introducing 'mountain lake' could confuse the spatial differentiation of storm regions and misalign with the set's intended location.",
+      "acceptance_test": "Verify that the revised film_vo_candidate uses 'upper basin' instead of 'mountain lake' and that the spatial differentiation of storm regions remains consistent with the source text and set_id."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-03",
+      "advisor": "Joe Letteri",
+      "observation": "The scene requires the simultaneous appearance of three heads on one body (Three Dreaded Snake) and Seven Deadly Chins below, with specific environmental elements like a jackhammer and a newborn's cry. The visual and audio elements must align with the time logic of simultaneous action.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P12/request.json",
+      "proposal": "Implement a visual test to confirm the simultaneous appearance of Three Dreaded Snake's three heads and Seven Deadly Chins on the courtyard, ensuring the jackhammer and newborn cry are synchronized with the action.",
+      "decision": "ACCEPT",
+      "rationale": "The scene's visual and audio elements are critical to the narrative and must be tested for synchronization and realism. The simultaneous action and environmental cues are essential for the scene's impact.",
+      "acceptance_test": "Verify that the three heads appear on the balcony and Seven Deadly Chins is visible below at the same time, with the jackhammer and newborn cry synchronized in the audio track."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-04",
+      "advisor": "Ngila Dickson",
+      "observation": "The hoop's position and the mud on Red Leopards' fingers suggest a continuity issue between the 2022 semifinal and the current scene, as the hoop is described as 'hanging wrong' in both instances, but the mud and damage are not clearly linked to the same set or time period.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P10/request.json",
+      "proposal": "Ensure costume continuity by matching the mud and damage on Red Leopards' attire to the same set and time period, and verify that the hoop's position is consistent with the set's existing artwork.",
+      "decision": "ADAPT",
+      "rationale": "The mud and damage on Red Leopards' fingers and the hoop's position are key visual elements that must align with the set's existing artwork and time period to maintain costume and set continuity.",
+      "acceptance_test": "Verify that the mud and damage on Red Leopards' attire and the hoop's position are consistent with the set's existing artwork and time period."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-05",
+      "advisor": "Andy Serkis",
+      "observation": "The scene emphasizes D0nkey K0ng's pride and the Chili Cheesers' humiliation, but the emotional nuance of wounded pride is underdeveloped.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P07/request.json",
+      "proposal": "Enhance the visual and auditory cues to reflect D0nkey K0ng's internal conflict through subtle body language and ambient sound design.",
+      "decision": "ADAPT",
+      "rationale": "The current scene lacks the emotional depth needed to fully convey the wounded pride, which is central to the character's arc. Adding visual and auditory cues will make the emotion more palpable.",
+      "acceptance_test": "Verify that the adapted scene includes subtle body language (e.g., averted gaze, clenched jaw) and ambient sound (e.g., distant crowd murmurs, low tension music) that reflect internal conflict."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-06",
+      "advisor": "Rob Alonzo",
+      "observation": "The rope is described as catching the outlaw before he reaches the gate, but the action of the rope closing around the torso is not clearly linked to the physical mechanics of a sliding boot or manual knot after a fall.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P06/request.json",
+      "proposal": "Implement a test to verify the rope's interaction with the sliding boot and the manual knot after the fall, ensuring the rope closes around the torso without affecting the neck and that the manual knot is applied correctly post-fall.",
+      "decision": "ADAPT",
+      "rationale": "The current description lacks clarity on the physical mechanics of the rope's interaction with the sliding boot and the manual knot. A test is needed to ensure the stunt mechanics are feasible and safe.",
+      "acceptance_test": "Verify that the rope closes around the torso without affecting the neck, and that the manual knot is applied correctly after the fall, with the sliding boot mechanics properly integrated."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-07",
+      "advisor": "James Baxter",
+      "observation": "The scene's visual clarity is compromised by the ambiguity of the 'dog and truck separated' silhouette, which could mislead the audience about the spatial relationship between Mud Dogs and the flatbed truck.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P15/request.json",
+      "proposal": "Implement a clear visual separation between Mud Dogs and the truck in the storyboard, using distinct framing and positioning to emphasize their physical distance.",
+      "decision": "ADAPT",
+      "rationale": "The character silhouette ambiguity risks confusing the audience about the spatial dynamics, which is critical for conveying the tension and narrative context of the scene.",
+      "acceptance_test": "Verify that the storyboard visually distinguishes Mud Dogs from the truck with clear framing and positioning, ensuring the audience understands their separation."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-08",
+      "advisor": "Frank Masi",
+      "observation": "The scene lacks clear eyeline continuity between Dr. Duckhook and His Majesty's Blood, which could disrupt the visual flow and narrative clarity.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P19/request.json",
+      "proposal": "Implement a practical warm birthday light setup to enhance eyeline continuity and ensure the characters' interactions are visually coherent.",
+      "decision": "ADAPT",
+      "rationale": "Warm birthday lighting can help establish a clear visual axis between the characters, ensuring their eyelines are aligned for better storytelling and audience engagement.",
+      "acceptance_test": "Verify that the lighting setup in the storyboard maintains eyeline continuity between Dr. Duckhook and His Majesty's Blood during their interaction."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-09",
+      "advisor": "John Knoll",
+      "observation": "The scene contains a mix of visual and narrative elements, but the VFX chain for the 'surviving battery' and 'hand signal' is not clearly defined or tested. The 'first disabled battery' and 'second surviving battery' are mentioned in the source text but not fully realized in the storyboard or film_vo_candidate.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "proposal": "Implement a test to verify the VFX chain for the 'surviving battery' and 'hand signal' to ensure they align with the narrative and visual description.",
+      "decision": "ADAPT",
+      "rationale": "The VFX chain for the 'surviving battery' and 'hand signal' is critical to the scene's visual storytelling and needs to be tested to ensure it aligns with the source text and storyboard. Without this, the scene risks being visually inconsistent or unclear.",
+      "acceptance_test": "Verify that the 'surviving battery' and 'hand signal' are rendered correctly in the VFX pipeline, matching the source text and storyboard description, and that the lighting and effects align with the 'arch lamp' and 'empty chair' elements."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-10",
+      "advisor": "Jill Bogdanowicz",
+      "observation": "The scene's visual and temporal logic is at risk due to the ambiguity of the hoop's position relative to the falling limb and the tree's fall sequence.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P09/request.json",
+      "proposal": "Clarify the sequence of events and the hoop's position relative to the falling limb to ensure visual consistency and avoid confusion in the film's temporal exposure.",
+      "decision": "ADAPT",
+      "rationale": "The hoop's position and the limb's impact are critical to the scene's visual and narrative clarity. Without a clear sequence, the film's temporal exposure and visual coherence may be compromised.",
+      "acceptance_test": "Verify that the hoop's position is visually consistent with the limb's impact and that the sequence of events is clearly defined in the storyboard and script."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-11",
+      "advisor": "Thelma Schoonmaker",
+      "observation": "The scene's emotional core lies in the contrast between the child's vulnerability and Seven Deadly Chins' callousness, but the current dialogue and visual beats lack a clear comic choice that would heighten the irony.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P13/request.json",
+      "proposal": "Introduce a specific comic choice in the visual beat where Seven Deadly Chins reacts to the child's cry, such as a exaggerated physical gesture or a visual gag that underscores his indifference.",
+      "decision": "ADAPT",
+      "rationale": "The scene benefits from a visual comic choice that would enhance the irony and emotional contrast without altering the core narrative or violating the constraints. This would improve the scene's pacing and humor without requiring additional rights or model outputs.",
+      "acceptance_test": "Verify that the visual beat includes a clear, exaggerated physical reaction from Seven Deadly Chins that underscores his callousness and aligns with the established tone and constraints."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-12",
+      "advisor": "Randy Thom",
+      "observation": "The scene's audio and visual elements are in conflict with the sound discipline requirements, particularly regarding the independent compressor, waterfall, and speaker/drill stems.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P14/request.json",
+      "proposal": "Implement a test to ensure the compressor and speaker are coherent with the drill stems and waterfall, and that the sound design does not overpower the visual elements.",
+      "decision": "ADAPT",
+      "rationale": "The scene's audio and visual elements need to be aligned with the sound discipline to avoid quality risks. The compressor and speaker must be coherent with the drill stems and waterfall to maintain the intended sound design.",
+      "acceptance_test": "Verify that the compressor and speaker are coherent with the drill stems and waterfall, and that the sound design does not overpower the visual elements."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-13",
+      "advisor": "jrr_tolkien",
+      "observation": "The film_vo_candidate introduces a new location 'mountain lake' not present in the source_beats, which may misrepresent the geography and disrupt the lived-in world topology.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P11/request.json",
+      "proposal": "Replace 'mountain lake' with 'Upper Basin Connector near the mountain-lake approach' to maintain consistency with the source_beats and site landmarks.",
+      "decision": "ADAPT",
+      "rationale": "The source_beats and site information specify 'Upper Basin Connector near the mountain-lake approach' as the location, which is more precise and aligns with the historical materiality and topology of the world.",
+      "acceptance_test": "Verify that the revised film_vo_candidate reflects the exact location from the source_beats and site landmarks without introducing new or untested geographical elements."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-14",
+      "advisor": "cs_lewis",
+      "observation": "The scene presents a moral choice between surrendering a symbolic blade and preserving an illuminated arch, with ObiWan Jacoby refusing to comply.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P23/request.json",
+      "proposal": "Introduce a test where ObiWan Jacoby must choose between a tangible reward (e.g., a golden retriever) and the symbolic arch, to highlight the cost of his moral stance.",
+      "decision": "ADAPT",
+      "rationale": "This test reinforces the moral choice theme by forcing a tangible trade-off, which aligns with the existing narrative of temptation and cost. It also maintains the symbolic weight of the arch and the blade.",
+      "acceptance_test": "Verify that the golden retriever is a non-negotiable element in the scene and that the arch remains a symbolic, unattainable prize."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-15",
+      "advisor": "george_rr_martin",
+      "observation": "The scene lacks visual and auditory elements to convey the final scores effectively, which could confuse viewers unfamiliar with the context.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P04/request.json",
+      "proposal": "Add a visual scoreboard with the six final scores and a narrator's voiceover confirming the results.",
+      "decision": "ADAPT",
+      "rationale": "The current scene is text-heavy and lacks engagement for a visual medium. Adding a scoreboard and voiceover will enhance clarity and immersion.",
+      "acceptance_test": "Verify that the visual scoreboard is clearly visible and the voiceover accurately reflects the source text."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-16",
+      "advisor": "jk_rowling",
+      "observation": "The scene lacks a clear payoff for the 200 Burger's significance, and the delayed prop reveal may confuse the audience about its role in the narrative.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P20/request.json",
+      "proposal": "Introduce a visual or auditory cue that ties the 200 Burger to a prior setup, such as a recurring motif or a character's earlier comment about the number 200.",
+      "decision": "ADAPT",
+      "rationale": "The 200 Burger is a key prop that needs to be tied to a setup for the payoff to be effective. Without a clear connection, the audience may not grasp its importance.",
+      "acceptance_test": "Verify that the 200 Burger's significance is clarified through a visual or auditory cue that references a prior setup, ensuring the payoff is clear and impactful."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-17",
+      "advisor": "john_grisham",
+      "observation": "The scene's primary challenge is conveying complex data (team records, seeding, tiebreaks) in a visually engaging and narratively clear manner within a short time frame.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P27/request.json",
+      "proposal": "Implement a visual hierarchy with dynamic text overlays and subtle animations to guide the viewer through the data, ensuring clarity without overwhelming.",
+      "decision": "ADAPT",
+      "rationale": "The scene requires a balance between information density and narrative flow. Visual hierarchy and animation can enhance comprehension without sacrificing the documentary data's integrity.",
+      "acceptance_test": "Test the visual hierarchy and animation with a focus group to ensure the data is understood within the 37-second window without confusion or distraction."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-18",
+      "advisor": "ursula_k_le_guin",
+      "observation": "The film_vo_candidate lacks the emotional weight and thematic depth of the source text, particularly in its treatment of the 'Commonwealth' and the long-term consequences of the league's state.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P03/request.json",
+      "proposal": "Revise the film_vo_candidate to emphasize the permanence of the league's struggles and the emotional toll on its members, aligning more closely with the source text's tone and message.",
+      "decision": "ADAPT",
+      "rationale": "The source text conveys a deeper sense of loss and responsibility, which the current film_vo_candidate fails to capture. Adapting the voice-over to reflect this nuance will better serve the narrative and thematic goals of the scene.",
+      "acceptance_test": "The revised film_vo_candidate should include references to the lasting impact of the league's state, such as the 'broken hoop' and the 'truck passing the same empty road,' to ensure alignment with the source text's emotional and thematic core."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-19",
+      "advisor": "brandon_sanderson",
+      "observation": "The scene's visual and audio elements are not fully tested, particularly the lighting effects and the interaction between the surviving battery and the arch lamp. The film is unrendered, and the rights and appearance status are not approved for model output.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "proposal": "Hold the scene until the lighting effects and visual elements are tested and approved for model output.",
+      "decision": "HOLD",
+      "rationale": "The film is unrendered, and the rights and appearance status are not approved for model output. The visual and audio elements, including the lighting effects and the interaction between the surviving battery and the arch lamp, have not been tested.",
+      "acceptance_test": "Confirm that the lighting effects and visual elements are tested and approved for model output."
+    },
+    {
+      "id": "W10-SCRIPT-MODEL-20",
+      "advisor": "joe_abercrombie",
+      "observation": "The scene's emotional weight relies on ambiguity and unresolved tension, but the dialogue and visual cues lack a clear emotional arc or decision point for the audience.",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P10/request.json",
+      "proposal": "Introduce a visual metaphor (e.g., a cracked basketball or a broken net) to symbolize the internal conflict and decision-making process of Red Leopards.",
+      "decision": "ADAPT",
+      "rationale": "The current scene lacks a clear emotional anchor for the audience. Adding a visual metaphor will help convey the internal struggle and decision-making process without relying solely on dialogue.",
+      "acceptance_test": "Does the visual metaphor enhance the emotional ambiguity and decision-making tension without contradicting the source beats or forbidden changes?"
+    }
+  ],
+  "provenance": "Actual isolated Qwen3:8b local inference calls using twenty published-method *lenses*, not direct consultation with any named person."
+}

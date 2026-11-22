@@ -1,0 +1,634 @@
+{
+  "schema": "schemin.week10.film_graphics_source.v1",
+  "state": "SOURCE_LOCKED_NOT_RENDERED",
+  "source_storyboard": "film_storyboard_v1.json",
+  "source_storyboard_sha256": "a17b2f85bcc6c1dd7664c94279312e04cde87e4bdeb32265fcb6f64ccdbeca0f",
+  "native_typography_only": true,
+  "cues": [
+    {
+      "page_id": "W10-P01",
+      "scene_id": "W10F-SC01",
+      "in": "00:00:00",
+      "out": "00:00:36",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P01/request.json",
+      "source_sha256": "ea6d4de55282dea210c7f776bd22efc8a8df6f5d19022efee78f66c18d5a8a3b",
+      "locked_publication_copy": {
+        "headline": "THE CEILING BREAKS",
+        "deck": "Week 10 • Two scores beyond 200",
+        "body": "His Majesty’s Blood reaches 208.76. The LLC reaches 203.96. The Commonwealth’s first two 200-point scores of this season arrive beneath a sky growing harder to ignore.",
+        "callouts": [
+          {
+            "label": "HIS MAJESTY’S BLOOD",
+            "value": "208.76 · FINAL"
+          },
+          {
+            "label": "THE LLC",
+            "value": "203.96 · FINAL"
+          }
+        ],
+        "rows": [],
+        "department_heading": "SCHEMIN ’26 · WEEK 10"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P04",
+      "scene_id": "W10F-SC04",
+      "in": "00:02:48",
+      "out": "00:03:16",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P04/request.json",
+      "source_sha256": "b1c73cfca029d5fa9594990acef6b8820075bb1c981b12464ade0bb97aa77599",
+      "locked_publication_copy": {
+        "headline": "THE WEEK 10 BOARD",
+        "deck": "Final Week 10 results • All six outcomes posted",
+        "body": "Monday night is complete, and all six Week 10 outcomes are official. His Majesty’s Blood and The LLC clear two hundred; six teams finish the week at 6–4. These are the final scores, not projections.",
+        "callouts": [],
+        "rows": [
+          {
+            "home_team": "The Chili Cheesers",
+            "home_points": "93.70",
+            "away_team": "D0nkey K0ng",
+            "away_points": "156.67",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Red Leopards",
+            "home_points": "147.82",
+            "away_team": "El Niño",
+            "away_points": "189.08",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Three Dreaded Snake",
+            "home_points": "82.78",
+            "away_team": "Seven Deadly Chins",
+            "away_points": "146.22",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Mud Dogs",
+            "home_points": "113.62",
+            "away_team": "Slob on my Dobb",
+            "away_points": "179.29",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "Dr. Duckhook",
+            "home_points": "127.67",
+            "away_team": "His Majesty's Blood",
+            "away_points": "208.76",
+            "status": "FINAL"
+          },
+          {
+            "home_team": "ObiWan Jacoby",
+            "home_points": "166.53",
+            "away_team": "The LLC",
+            "away_points": "203.96",
+            "status": "FINAL"
+          }
+        ],
+        "department_heading": "SCOREBOARD"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P18",
+      "scene_id": "W10F-SC18",
+      "in": "00:16:07",
+      "out": "00:16:52",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P18/request.json",
+      "source_sha256": "be9b60025227be7e929a94109f49b68b773cb43cb2c6be39bd4679e32a42fdba",
+      "locked_publication_copy": {
+        "headline": "WHY THE BOARD MOVED",
+        "deck": "The points behind the spectacle",
+        "body": "Christian McCaffrey’s 52.60 powers Slob on my Dobb. His Majesty’s Blood receives 113.86 from Brock Purdy, Chuba Hubbard and Jaxon Smith-Njigba; The LLC gets 103.66 from Joe Burrow, Isaiah Likely and Parker Washington. Jahmyr Gibbs answers with 47.40 for Dr. Duckhook. El Niño wins with George Pickens’ 44.50 unused on the bench. Derrick Henry and Mark Andrews add 36.20 on Monday, but ObiWan Jacoby still finishes 37.43 behind The LLC.",
+        "callouts": [],
+        "rows": [
+          {
+            "category": "RB / overall starter lead",
+            "player": "Christian McCaffrey",
+            "team": "Slob on my Dobb",
+            "points": "52.60"
+          },
+          {
+            "category": "QB",
+            "player": "Patrick Mahomes",
+            "team": "Seven Deadly Chins",
+            "points": "48.62"
+          },
+          {
+            "category": "WR",
+            "player": "Ja’Marr Chase",
+            "team": "Red Leopards",
+            "points": "36.10"
+          },
+          {
+            "category": "TE",
+            "player": "Isaiah Likely",
+            "team": "The LLC",
+            "points": "30.70"
+          },
+          {
+            "category": "D/ST",
+            "player": "Vikings D/ST",
+            "team": "His Majesty’s Blood",
+            "points": "26.00"
+          },
+          {
+            "category": "K",
+            "player": "Cam Little",
+            "team": "His Majesty’s Blood",
+            "points": "19.00"
+          }
+        ],
+        "department_heading": "SPORTS DESK"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P34",
+      "scene_id": "W10F-SC19",
+      "in": "00:16:52",
+      "out": "00:17:46",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P34/request.json",
+      "source_sha256": "df77d5835021b85c0285a1006f94537272a59b5e8887d6973821992862582696",
+      "locked_publication_copy": {
+        "headline": "THE COST OF SUNDAY",
+        "deck": "Sports Desk • Availability changes the next move",
+        "body": "Dr. Duckhook’s Drake Maye faces an extended absence, but New England has not confirmed a season-ending outcome. Mud Dogs’ Woody Marks missed Monday’s practice with a concussion ahead of Thursday. The Chili Cheesers awaits Brock Bowers’ day-to-day ankle decision. Three Dreaded Snake monitors A.J. Brown’s hamstring exit. Aidan Hutchinson’s confirmed season-ending ACL loss affects His Majesty’s Blood through Lions D/ST. The LLC’s Michael Wilson is out for the season from his November 8 neck injury. ObiWan Jacoby’s Puka Nacua cannot return before Week 15; Red Leopards’ Lamar Jackson has no fixed return date.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "INJURY REPORT"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P20",
+      "scene_id": "W10F-SC21",
+      "in": "00:18:46",
+      "out": "00:19:41",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P20/request.json",
+      "source_sha256": "3d36a3a363ae1938439a8272a820ca15d62558a17619bbb18afc4b0b45ae03b1",
+      "locked_publication_copy": {
+        "headline": "The 200 Burger",
+        "deck": "Dr. Duckhook vs His Majesty's Blood",
+        "body": "Dr. Duckhook pulls the ribbon, raises the lid and discovers a double-decker hamburger big enough to have a title: 200 BURGER. For a moment he tries to smile like a gracious host. Then the guests understand what the number means. His Majesty's Blood has given him a celebration he can neither refuse nor explain away. The separate birthday cake waits on the sideboard.",
+        "department_heading": "Dr. Duckhook vs His Majesty's Blood"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P24",
+      "scene_id": "W10F-SC25",
+      "in": "00:22:51",
+      "out": "00:23:57",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "source_sha256": "138908a3c6fe4100a070d5b987184c35ffe0ea968a0d580c51a61dbae53da959",
+      "locked_publication_copy": {
+        "headline": "Unlimited Firepower",
+        "deck": "ObiWan Jacoby vs The LLC",
+        "body": "The LLC walks around until ObiWan Jacoby can see his face. Then he lifts his hand. Below the steps the surviving battery turns. The first white branch catches the green blade, the second lights the empty chair, and the flash swallows the defender’s silhouette. The arch lamp still burns. Derrick Henry and Mark Andrews supplied 36.20 on Monday. ObiWan Jacoby reached 166.53. The LLC held at 203.96, a margin of 37.43.",
+        "department_heading": "ObiWan Jacoby vs The LLC",
+        "result": {
+          "status": "FINAL",
+          "winner": "The LLC",
+          "winner_points": "203.96",
+          "loser": "ObiWan Jacoby",
+          "loser_points": "166.53",
+          "winner_record": "4–6",
+          "loser_record": "4–6",
+          "margin": "37.43",
+          "source": "SFINAL"
+        },
+        "football_context": "Joe Burrow 43.26; Isaiah Likely 30.70; Parker Washington 29.70; Trevor Lawrence 34.18."
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P25",
+      "scene_id": "W10F-SC26",
+      "in": "00:23:57",
+      "out": "00:24:35",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P25/request.json",
+      "source_sha256": "c5301d74712f02a336c8434bf806b74690ce6800c00b8a5849eb27502322cd3d",
+      "locked_publication_copy": {
+        "headline": "THE NEXT STARTING SHEET",
+        "deck": "Week 11 • Seven uncovered required positions",
+        "body": "Six NFL clubs are on bye. The refreshed rosters still leave six Schemin teams without owned coverage at seven required specialist positions. Managers have already moved other bye-week players; these are the gaps that remain, not a replay of Monday’s starting lineups. Fantasy reserve placement remains separate from an injury diagnosis.",
+        "callouts": [],
+        "rows": [
+          {
+            "team": "ObiWan Jacoby",
+            "need": "D/ST"
+          },
+          {
+            "team": "Slob on my Dobb",
+            "need": "TE"
+          },
+          {
+            "team": "The Chili Cheesers",
+            "need": "K"
+          },
+          {
+            "team": "El Niño",
+            "need": "TE"
+          },
+          {
+            "team": "Mud Dogs",
+            "need": "D/ST"
+          },
+          {
+            "team": "Seven Deadly Chins",
+            "need": "D/ST + K"
+          }
+        ],
+        "department_heading": "RESERVE WATCH"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P26",
+      "scene_id": "W10F-SC27",
+      "in": "00:24:35",
+      "out": "00:25:11",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P26/request.json",
+      "source_sha256": "67db2d20668e88395696df3c1fcba8a617f8def53a64b24c2964c74f36e727e2",
+      "locked_publication_copy": {
+        "headline": "MOVES THAT REACHED THE ROSTER",
+        "deck": "Completed Week 10 activity • All bids shown are FAAB",
+        "body": "The Week 10 window contains 29 completed transactions. Pending and unsuccessful requests do not become completed moves just because they appear in the feed. With the configured trade deadline already passed, the next coverage questions concern owned depth and available-player claims. No new acquisition is assumed here.",
+        "callouts": [
+          {
+            "heading": "A two-day Mason trail",
+            "body": "Dr. Duckhook’s $35 FAAB claim for Corey Kiner released Jordan Mason on November 11. Slob on my Dobb added Mason the next day, dropping Chris Brooks."
+          },
+          {
+            "heading": "A familiar name changes shelves",
+            "body": "Seven Deadly Chins dropped Brian Thomas Jr. on November 10; Dr. Duckhook added him November 15."
+          },
+          {
+            "heading": "ObiWan works the receiver file",
+            "body": "ObiWan Jacoby completed claims for Mack Hollins ($27 FAAB), Malachi Fields ($11 FAAB) and Kalif Raymond ($1 FAAB)."
+          },
+          {
+            "heading": "The defense that closed the week",
+            "body": "Three Dreaded Snake added Ravens D/ST for Bengals D/ST on November 11. Baltimore’s defense supplied 7.00 on Monday; Three Dreaded Snake finished with 82.78."
+          }
+        ],
+        "rows": [],
+        "department_heading": "TRANSACTIONS"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P27",
+      "scene_id": "W10F-SC28",
+      "in": "00:25:11",
+      "out": "00:25:48",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P27/request.json",
+      "source_sha256": "2f6e36d03939286036d8fc68f21b45a423fbb18fab87cb285161cf27515e5f5a",
+      "locked_publication_copy": {
+        "headline": "TWELVE TEAMS. TEN POSTED RESULTS.",
+        "deck": "Official standings after Week 10",
+        "body": "Six teams share 6–4 records, with Slob on my Dobb first in the provider’s seeding and first in total points. Red Leopards and The Chili Cheesers follow at 5–5. Equal records do not mean interchangeable seeds: the order below preserves ESPN’s posted table, including the division and tiebreak structure.",
+        "callouts": [],
+        "rows": [
+          {
+            "seed": 1,
+            "team": "Slob on my Dobb",
+            "record": "6–4",
+            "points_for": "1599.99"
+          },
+          {
+            "seed": 2,
+            "team": "El Niño",
+            "record": "6–4",
+            "points_for": "1450.03"
+          },
+          {
+            "seed": 3,
+            "team": "D0nkey K0ng",
+            "record": "6–4",
+            "points_for": "1411.82"
+          },
+          {
+            "seed": 4,
+            "team": "His Majesty's Blood",
+            "record": "6–4",
+            "points_for": "1451.95"
+          },
+          {
+            "seed": 5,
+            "team": "Dr. Duckhook",
+            "record": "6–4",
+            "points_for": "1452.15"
+          },
+          {
+            "seed": 6,
+            "team": "Seven Deadly Chins",
+            "record": "6–4",
+            "points_for": "1356.62"
+          },
+          {
+            "seed": 7,
+            "team": "Red Leopards",
+            "record": "5–5",
+            "points_for": "1404.51"
+          },
+          {
+            "seed": 8,
+            "team": "The Chili Cheesers",
+            "record": "5–5",
+            "points_for": "1384.79"
+          },
+          {
+            "seed": 9,
+            "team": "The LLC",
+            "record": "4–6",
+            "points_for": "1449.25"
+          },
+          {
+            "seed": 10,
+            "team": "ObiWan Jacoby",
+            "record": "4–6",
+            "points_for": "1384.51"
+          },
+          {
+            "seed": 11,
+            "team": "Three Dreaded Snake",
+            "record": "4–6",
+            "points_for": "1279.46"
+          },
+          {
+            "seed": 12,
+            "team": "Mud Dogs",
+            "record": "2–8",
+            "points_for": "1181.35"
+          }
+        ],
+        "department_heading": "STANDINGS"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P28",
+      "scene_id": "W10F-SC29",
+      "in": "00:25:48",
+      "out": "00:26:20",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P28/request.json",
+      "source_sha256": "3dd44a304b7c36e0099d1dafd14b023801b5a05b6e1398ae534a1fa102a3034d",
+      "locked_publication_copy": {
+        "headline": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+        "deck": "The same results change three separate races",
+        "body": "Six teams now share 6–4 records. Pizza contains three of them; Wings two; Burgers one. The same record creates different pressure in each division. Week 11 is the final crossover before Weeks 12–14 bring division opponents back together.",
+        "callouts": [
+          {
+            "label": "BURGERS",
+            "heading": "D0nkey K0ng has separation",
+            "body": "D0nkey K0ng is 6–4; ObiWan Jacoby and Three Dreaded Snake are 4–6; Mud Dogs is 2–8. Beating ObiWan Jacoby in Week 12 and Three Dreaded Snake in Week 13 secures D0nkey K0ng’s division title."
+          },
+          {
+            "label": "PIZZA",
+            "heading": "Three leaders on the same step",
+            "body": "El Niño, His Majesty’s Blood and Seven Deadly Chins are all 6–4. The LLC’s 203.96 victory lifts its record to 4–6, with the divisional return still ahead."
+          },
+          {
+            "label": "WINGS",
+            "heading": "The cushion has narrowed",
+            "body": "Dr. Duckhook and Slob on my Dobb are 6–4; Red Leopards and The Chili Cheesers are 5–5. Red Leopards went 3–0 in the first divisional pass; winning all four remaining games secures Wings."
+          }
+        ],
+        "rows": [],
+        "department_heading": "STATE OF THE REALM"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P29",
+      "scene_id": "W10F-SC30",
+      "in": "00:26:20",
+      "out": "00:26:59",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P29/request.json",
+      "source_sha256": "7077e953718720adb469964dc2c4e1cfb9fcdbbb778930ad26c7103872109dfa",
+      "locked_publication_copy": {
+        "headline": "THE TWELVE — SCORING FORM",
+        "deck": "Final Week 10 scoring index • Not playoff seeding",
+        "body": "Slob on my Dobb leads the final scoring-form index, followed by His Majesty’s Blood and The LLC. The established formula weights season points per game through ten games at 70% and Week 10 at 30%. It measures points already produced. Week 11 injuries and byes belong beside the outlook, not hidden inside a changed formula.",
+        "callouts": [],
+        "rows": [
+          {
+            "rank": 1,
+            "team": "Slob on my Dobb",
+            "index": "165.79"
+          },
+          {
+            "rank": 2,
+            "team": "His Majesty's Blood",
+            "index": "164.26"
+          },
+          {
+            "rank": 3,
+            "team": "The LLC",
+            "index": "162.64"
+          },
+          {
+            "rank": 4,
+            "team": "El Niño",
+            "index": "158.23"
+          },
+          {
+            "rank": 5,
+            "team": "ObiWan Jacoby",
+            "index": "146.87"
+          },
+          {
+            "rank": 6,
+            "team": "D0nkey K0ng",
+            "index": "145.83"
+          },
+          {
+            "rank": 7,
+            "team": "Red Leopards",
+            "index": "142.66"
+          },
+          {
+            "rank": 8,
+            "team": "Dr. Duckhook",
+            "index": "139.95"
+          },
+          {
+            "rank": 9,
+            "team": "Seven Deadly Chins",
+            "index": "138.83"
+          },
+          {
+            "rank": 10,
+            "team": "The Chili Cheesers",
+            "index": "125.05"
+          },
+          {
+            "rank": 11,
+            "team": "Mud Dogs",
+            "index": "116.78"
+          },
+          {
+            "rank": 12,
+            "team": "Three Dreaded Snake",
+            "index": "114.40"
+          }
+        ],
+        "department_heading": "SCORING FORM"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P30",
+      "scene_id": "W10F-SC31",
+      "in": "00:26:59",
+      "out": "00:27:36",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P30/request.json",
+      "source_sha256": "8534b0f12c79c02f620a38a5dd81aa5f6809fb715d9391e32b5416d679c1e32d",
+      "locked_publication_copy": {
+        "headline": "FOUR MORE AFTER THIS",
+        "deck": "Seven places. The route narrows.",
+        "body": "All twelve teams still have a route, and none has clinched. Four games remain: one crossover, then three divisional rounds. Nine wins guarantees a berth; eight alone does not. A 6–8 finish can give Mud Dogs either a Burgers title or a shared place. Record scenarios assume no tied games.",
+        "callouts": [
+          {
+            "heading": "SEVEN BERTHS",
+            "body": "Three division winners and four shared places."
+          },
+          {
+            "heading": "MUD DOGS’ NEXT TEST",
+            "body": "A Week 11 loss to Seven Deadly Chins eliminates Mud Dogs. Winning keeps a narrow, help-dependent route alive."
+          }
+        ],
+        "rows": [],
+        "department_heading": "THE PLAYOFF ROAD"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P31",
+      "scene_id": "W10F-SC32",
+      "in": "00:27:36",
+      "out": "00:28:13",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P31/request.json",
+      "source_sha256": "e3f9fbac653fefb210fd27535b3d7a2daa2eb1d37e6ea454663ca2d6526f985f",
+      "locked_publication_copy": {
+        "headline": "THE NEXT SIX",
+        "deck": "Week 11 • Head-to-head stakes before the divisional finish",
+        "body": "Four 6–4 contenders meet in two top-seed contests. The two 4–6 hosts need to close ground on the 5–5 visitors; The LLC needs recovery against Dr. Duckhook. These are not automatic eliminators. Only Mud Dogs is eliminated by a Week 11 loss. Head-to-head can decide ties; three divisional rounds follow.",
+        "callouts": [
+          {
+            "heading": "BUBBLE SWING · THEFFHUB",
+            "body": "Nov. 17, 2026. Each team’s playoff estimate after its Week 11 win / loss: ObiWan Jacoby 52% / 13%; The Chili Cheesers 58% / 21%. Other games simulated; 10,000 runs from season scores, excluding projections and NFL byes."
+          }
+        ],
+        "rows": [
+          {
+            "away_team": "El Niño",
+            "home_team": "Slob on my Dobb",
+            "display": "El Niño at Slob on my Dobb",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "Red Leopards",
+            "home_team": "Three Dreaded Snake",
+            "display": "Red Leopards at Three Dreaded Snake",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "Seven Deadly Chins",
+            "home_team": "Mud Dogs",
+            "display": "Seven Deadly Chins at Mud Dogs",
+            "implication": "6–4 vs 2–8 • A loss eliminates Mud Dogs"
+          },
+          {
+            "away_team": "The Chili Cheesers",
+            "home_team": "ObiWan Jacoby",
+            "display": "The Chili Cheesers at ObiWan Jacoby",
+            "implication": "5–5 vs 4–6 • Bubble leverage"
+          },
+          {
+            "away_team": "His Majesty's Blood",
+            "home_team": "D0nkey K0ng",
+            "display": "His Majesty's Blood at D0nkey K0ng",
+            "implication": "6–4 vs 6–4 • Top-seed race"
+          },
+          {
+            "away_team": "The LLC",
+            "home_team": "Dr. Duckhook",
+            "display": "The LLC at Dr. Duckhook",
+            "implication": "4–6 vs 6–4 • Recovery versus top-seed contention"
+          }
+        ],
+        "department_heading": "THE NEXT SIX"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P35",
+      "scene_id": "W10F-SC33",
+      "in": "00:28:13",
+      "out": "00:29:11",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P35/request.json",
+      "source_sha256": "64d166aff1065cf8597b155acfe54f0362645858a90af0c55fc2cf41f10a84da",
+      "locked_publication_copy": {
+        "headline": "THE CROSSING NARROWS",
+        "deck": "Week 11 preview • His Majesty’s Blood at D0nkey K0ng",
+        "body": "Two commanding Sundays lead toward the same crossing, with both teams now 6–4. In their verified 2025 Week 9 meeting, D0nkey K0ng’s franchise won 179.68–111.42. That memory gives this visit an edge. His Majesty’s Blood has already moved its bye-week starters; D0nkey K0ng’s current lineup still shows Bijan Robinson and Denzel Boston on byes. One more test comes before division games return.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "WEEK 11 · GAME OF THE WEEK"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    },
+    {
+      "page_id": "W10-P33",
+      "scene_id": "W10F-SC34",
+      "in": "00:29:11",
+      "out": "00:30:00",
+      "source_request": "memo-os/week-10/preproduction/render-inputs/W10-P33/request.json",
+      "source_sha256": "07046b0eb0631f63d0083d248bb3c46a61b490dfadd16a837392fdd064030e56",
+      "locked_publication_copy": {
+        "headline": "THE WEATHER IS COMING HOME",
+        "deck": "Storm Watch • El Niño at Slob on my Dobb",
+        "body": "Slob on my Dobb’s delivery passed through the swamp without trouble. Next week the schedule brings El Niño to Slob on my Dobb. The league’s scoring leader has a different problem to prepare for, and both teams need a tight end before that meeting. After this comes the divisional finish. The next round begins with the work done between Sundays.",
+        "callouts": [],
+        "rows": [],
+        "department_heading": "THE FINAL WORD"
+      },
+      "render_method": "native vector/editorial typography only",
+      "render_status": "NOT_RENDERED",
+      "rights_and_data_gate": "Exact numbers, qualifiers and rows require editorial signoff"
+    }
+  ]
+}
