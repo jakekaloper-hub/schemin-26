@@ -73,6 +73,20 @@
       "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
     },
     {
+      "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "executive office",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
       "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::GOLF-GROUNDS",
       "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
       "name": "golf grounds",

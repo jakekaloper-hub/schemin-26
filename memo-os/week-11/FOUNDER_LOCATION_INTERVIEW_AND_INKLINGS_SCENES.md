@@ -1,0 +1,91 @@
+# One Last Crossing · Where the six stories happen
+
+Week 11 • Founder location interview and Inklings writing workshop • November 22, 2026
+
+Jake selected where the first five encounters take place. For the sixth he selected Dr. Duckhook’s executive office and the reason for the meeting. David Babb comes to buy the golf course for The LLC’s investment portfolio. Zach Wilson refuses his offers. Jake asked the Inklings to develop the scene before choosing the spot where Zach delivers his final answer. Dialogue, props and cuts below are proposed manuscript. The Week 11 football outcomes still control the sporting endings.
+
+Three modeled workshop desks developed this pass. The first tested whose decision changes each scene, the second wrote the Jackson negotiation, and the third tested whether the place and its people remain recognizable across cuts. Their editorial choices below build on the [previous individual council notes](SIX_LOCATION_SUMMIT_SEAT_NOTES_2026-11-22.md), [six venue dossiers](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md) and [Week 10 physical page crosswalk](https://github.com/jakekaloper-hub/schemin-26/blob/51834dd03d8ccd182e11ca41fab71481a42afa7d/memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json).
+
+## D0nkey K0ng and His Majesty’s Blood · Midspan
+
+**Founder choice.** An intense, carefully choreographed duel at the midpoint of the narrow Mountain Lake Bridge. Lake visible on both sides. Wilson Look is the brute fighter. Austin Byars carries himself with the composure of a samurai. Keep their established bodies, clothing and belt.
+
+**Opening.** Start where physical page 33 left them, facing each other from opposite ends. Get to midspan in the first sequence. The deck looks long in the establishing photograph. Seen across its width, with water on either side of the four-legged Arsenal centaur, it looks startlingly small. Wilson makes the first deliberate move onto the center stones. Austin gives his cloak a moment to settle. Wilson had expected him to hurry.
+
+**The turn.** Let Wilson enjoy the noise he draws out of the bridge. Then give Austin a sustained close-up. The noise dies, the two are still at midspan, and Austin has held Wilson’s attention for the whole silence. In the next wide, the duel is fully underway. Preserve the position of the repaired parapet from shot to shot so that a change in rhythm reads as character. A sweep of violet on the stone and aqua water at both edges can sell the height without an explanatory caption.
+
+**After the result.** If Wilson wins, the expressive beat is his departure. He can leave without waiting for the champion to acknowledge him. If Austin wins, hold on Wilson through the moment he realizes Austin has chosen when the encounter ends. If tied or unsettled, return to the same midpoint with both figures still on the span. Bridge ownership and the championship belt have separate histories.
+
+## Slob on my Dobb and El Niño · Inside the cab at Hearthroad
+
+**Founder choice.** Jordan Hollingshead is in the truck cab at the edge of Hearthroad, watching the rut fill. Physical page 35 placed the beer under shelter. Open through the windshield and keep any visible cargo consistent with that handoff.
+
+**Opening.** The wiper gives Jordan one clear look at a rut he has driven past often enough to stop noticing. On the next sweep he can see water moving across it. He puts his hand on the radio. Before he speaks, Manning Welty asks through the partly open window, “What time did you tell them?” Jordan answers automatically. Then he hears himself name a time he may already have missed.
+
+**The turn.** In the reverse, Manning watches the truck’s stationary wheels. It matters to him that the man who drove through last week’s blockade has stopped of his own accord. Back inside the cab, the dashboard lights Jordan’s knuckles amber. Outside, a pink tail lamp breaks apart in the violet water. The audience should be able to tell where the rain is going and why Jordan is still sitting there.
+
+**After the result.** If Jordan wins, let him make the call that gets the delivery through and show what arriving cost him. If Manning wins, Jordan still acts responsibly. His last line can be the honest delay he radios to his customer. If tied, leave the promised time spoken and the departure unresolved.
+
+## ObiWan Jacoby and The Chili Cheesers · Foot of the Eastern Ascent
+
+**Founder choice.** Jake Kaloper and Brandon Pryor meet at the foot of the Eastern Ascent with the spectators above them. Jake’s later press interview has its own mountain shack setup.
+
+**Opening.** A cheer comes down from the rise. Brandon tips the hat he could not reach at the end of last week’s rodeo. Jake looks up at the same instant. Each thinks the cheer might be for him. The first photograph from ground level makes the spectators look imposing. The reverse from the rise shows how little those people can actually see of Brandon’s expression.
+
+**The turn.** Give Jake the public laugh he wanted. When he looks up for another, Brandon keeps watching him. Try letting Brandon say, quietly enough that only Jake can hear, “I was down here last week, too.” Stage the stylized confrontation in the ground they now share. The green light belongs to Jake’s defensive saber. A spectator checking for the absent House line provides the small background joke. The proposed preseason protection and Jake’s accusations get space later under the lamp at the shack.
+
+**After the result.** A Jake win earns an instant of visible relief before the boasting starts again. A Brandon win earns him the choice to put on his hat and walk away while the crowd is still calling. A tie leaves the two men with a better understanding of what it costs to be watched. A loss alone does not mathematically eliminate Jake.
+
+## Red Leopards and Three Dreaded Snake · The break in the vegetation
+
+**Founder choice.** Kevin Zeek meets Phillip Pitts at the break in the vegetation near the falls, on Phillip’s outer property line. The sport remains open.
+
+**Opening.** Kevin calls his greeting from the path. The water swallows the last few words. Phillip waits until Kevin comes through the leaves. For the second attempt Kevin has to use his ordinary voice. That loss of a grand entrance costs him a little of the easy victory he was expecting. Frame the break low enough to glimpse the falls behind it. The host, visitor and temporary marker should all be visible without showing the household courtyard.
+
+**The turn.** Phillip gives Kevin first choice of sides. Now Kevin has to inspect the ground he has just implied is beneath his concern. Try that beat in two sports. In a short boundary race the vegetation briefly hides the apparent leader, making Kevin’s look at the reappearance meaningful. In tug-of-war the same wide can hold both faces when the bravado slips. Produce a clean location proof with the marker alone until the sport is chosen.
+
+**After the result.** A Kevin win lets him look to Phillip for the acknowledgment he assumed was automatic. A Phillip win lets Kevin recognize the finish first and costs the host nothing to be gracious. A tie keeps both men in view at the same temporary mark. None of the endings gives away anybody’s land.
+
+## Mud Dogs and Seven Deadly Chins · The Gators & Dawgs sign
+
+**Founder choice.** Ben Whipple first has to trust Bobby Mitchell at the old Gators & Dawgs sign, exactly where the departing truck left Bobby on physical page 17.
+
+**Opening.** Come in at vehicle-window height from Ben’s side. He already has a line ready about anybody who needs directions in his own swamp. Then show what he saw only as a sign. Bobby has a sleeve against the bottom edge, clearing enough mud for a visitor to read it. Ben lets the remark go. Match the sign’s face, spelling, support and placement to the finished plate.
+
+**The turn.** Where Ben sees a straight approach, Bobby sees soft footing. Bobby has every reason to take the advantage and every right to leave Ben to figure it out. He gives him a warning anyway. Shoot Ben going back to look from the same low angle that made Bobby look abandoned last week. One man chose fairness. The other had to be willing to look foolish in order to accept it. A thin pink reflection in the puddle can pick out the letters while the churned bank still reads brown.
+
+**After the result.** If Bobby wins, give Ben a real question about where he lost time. If Ben wins, let Bobby finish speaking before the competition or the verified-elimination Cancún coda takes the page. If tied, the sign remains where it was and the math needs another look. The nature of the contest can stay open while this exchange goes to storyboard.
+
+## Dr. Duckhook and The LLC · The executive office at Jackson
+
+**Founder choice.** The meeting is inside Dr. Duckhook’s executive office in the Country Club of Jackson clubhouse. David wants to buy the golf course and add it to The LLC’s portfolio. Zach refuses every offer. That refusal holds through a win, loss or tie. The final spot in the office remains an editorial choice for comparison.
+
+![Cutaway of the proposed shooting set with course-facing window, executive desk, offer folder, guest chair and office door](sets/jackson-executive-office/office-study.webp)
+
+[Editable 3D office set with three cameras](sets/jackson-executive-office/jackson-executive-office.glb) · [Atlas parent and office handle](../../world/location-control-plane/locations/LOC-COUNTRY-CLUB-JACKSON/CARD.json)
+
+**What changes when David comes in.** In Week 10, David left his chair, went up Jake’s mountain and put up 203.96. Here he takes the visitor’s chair. Zach was made the punch line at his own birthday. This week somebody has to wait until he’s finished speaking. Let the ordinary business of the club carry on beyond the door through the entire conversation. The course means work, habits and people to one man. To the other it is a property valuable enough to want.
+
+**First offer.** David lays his folder down and waits for Zach to open it. Zach puts his pen back in its holder. Try this exchange before revealing any paperwork.
+
+> **David:** “I’d like to buy the course.”
+>
+> **Zach:** “I heard you. What made you think I’d sell it?”
+>
+> **David:** “I figured you’d at least look.”
+>
+> **Zach:** “I look at it every morning.”
+
+**Why he tries again.** David takes the answer seriously enough to change the offer, but he has misheard the objection. He proposes acquiring the course while keeping Zach in charge of day-to-day operations. That concession sounds generous to David. To Zach it turns his own job into something a visitor has the power to give him. Have David open the folder himself this time. Zach needs only one question.
+
+> **David:** “You’d still run the place.”
+>
+> **Zach:** “Who do I call when I want to change the locks?”
+
+Give David time to consider the truthful answer. An offer price would let the audience argue about the number and miss the change in their relationship. A Week 10 clipping can sit folded in his folio. Pull it from the scene if it competes with the unsigned offer.
+
+**Three photographs for the last no.** At the **desk**, Zach closes the folder and leaves David’s chair where it is. “No. You can stay for coffee, though.” Hold on David deciding whether to sit. At the **window**, catch David looking at the course through Zach’s reflection. Zach turns back toward his guest before answering, with the unsigned offer still on the desk. At the **door**, Zach hands David the folder as a member of staff waits to speak with him. The public cost of the failed pitch lands on David. The room’s preferred first proof is the desk because Zach gets to refuse the acquisition without dismissing the person. Jake has not selected that ending.
+
+**Look and outcome.** The office lamp motivates a warm pool of light on the offer. Cool window light can hold the far side of David’s face, with the common violet in the shadows. Keep the club’s visible environment consistent with its Atlas plate. In a Zach win, he can turn back to club business while David considers the coffee. In a David win, Zach can congratulate him on the game. Let David wait one hopeful beat for a change of mind and hear only the congratulations. In a tie, both leave with the sporting question open and the ownership question answered. Keep the course in Zach’s hands in every version.
+
+**Three-layer set record.** The registered parent is `LOC-COUNTRY-CLUB-JACKSON`. The office sits within the existing clubhouse and uses `SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE`. Physical access inherits the club’s Jackson Levee context. The desk, guest chair, door and proposed course-facing window are local set geometry. Socially, this is where Zach receives staff and visitors and can decline an unsolicited buyer. Historically, the Founder identified this as the longstanding venue requested in the eleven-year brief. Its exact construction year, renovations, finishes and past meetings have no dated source. The 3D model is a cutaway for testing eyelines and coverage. It has no surveyed dimensions or approved photographic likeness.

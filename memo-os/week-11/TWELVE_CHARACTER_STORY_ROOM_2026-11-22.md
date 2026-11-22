@@ -1,5 +1,7 @@
 # One Last Crossing · Twelve characters in six Week 11 scenes
 
+**Later Founder staging choices.** This is the earlier 3:09 p.m. workshop. For the six selected sets, Wilson and Austin’s midspan duel and Zach’s refusal to sell the golf course, use the [expanded Inklings scene treatments](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md).
+
 Sunday, November 22, 2026 · Week 11 memo preproduction
 
 This is the final interdivisional weekend before Weeks 12–14. Three modeled Inklings workshops developed two encounters apiece from the earlier full-council review. The carry-in identifies established material. The new gestures, lines and endings are draft proposals. The league is the collective point of view. Each opponent makes a choice the other can see.

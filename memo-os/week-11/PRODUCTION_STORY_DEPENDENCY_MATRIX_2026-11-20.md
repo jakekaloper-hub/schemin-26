@@ -3,6 +3,8 @@
 **Prepared:** 2026-11-20 ET, from exact checked-in 58-response intake, W10-P35/W10-P33 source packets, Nov20 ESPN snapshot, source-controlled FFHub through W10, and existing official Pittsy's Book issue #323.  
 **Scope:** one existing Memo OS V5.5 issue; not a parallel series, published story, approved storyboard, revised Week 10, final script, art commission or source of new canon.
 
+**November 22 update.** The Founder identified the Jackson executive office, specified the acquisition pitch and refused sale, and selected five other exact staging positions. Use the [new scene and set record](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md) for these points. The dated source checks below describe the November 20 state.
+
 ## Current sports evidence — source versus story
 As of the Friday November 20 ESPN/Flaim observation (approx. noon ET), ALL six winner states are UNDECIDED. The following pairs are current **starter points** (home–away, preliminary): Slob 0.00–El Niño 22.80; Three Dreaded Snake 2.10–Red Leopards 3.00; Mud Dogs 0.00–Seven Deadly Chins 5.70; ObiWan 0.00–Chili 19.00; DK 3.30–HMB 0.00; Duckhook 29.06–LLC 7.80. Do not use ESPN `totalPoints` for a live matchup, force future winners, or include benched Texans D/ST 23.8 in DK's starting team total. This snapshot must be replaced by dated Sunday and post-MNF source receipts before result narration.
 

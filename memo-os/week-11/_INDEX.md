@@ -23,6 +23,8 @@
 
 [Matchup location-ID selections](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md#week-11-location-selections-from-the-november-20-brainstorm) · Current working sets, the competing brainstorm IDs and the terrain view for each parent.
 
+[Founder’s six location choices and expanded Inklings scenes](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md) · Includes the executive-office set, draft dialogue, visual sequences and result branches.
+
 ### Issue-wide art direction
 
 Every page, including the cover, looks photographed. Use the same signature pink, purple and aqua grade in every scene. Give every matchup full GTA VI release-week set dressing at its established Commonwealth venue. Draw from all four selected cues: sunset pink and tangerine skies with deep violet shadows, headlights on wet roads and neon reflected in glass, trailer-style angles and lifelike close-ups, and bold title lettering with sharply framed character portraits. Choose practical sources appropriate to the venue and time of day. Preserve the twelve approved likenesses, team identifiers and Atlas geography.
@@ -41,12 +43,12 @@ The Founder left the interior action/dialogue layout (Q6) and preferred targets 
 
 | Matchup | Week 11 composition |
 |---|---|
-| HMB at D0nkey K0ng · Game of the Week | Start wide across the intact Mountain Lake Bridge, then reverse between DK’s near approach and HMB’s far pier. Let the long empty deck and DK’s first deliberate provocation carry the tension. Preserve DK’s four-legged silhouette and HMB’s belt. |
-| Slob and El Niño | Frame the advancing front from Slob’s cargo shelter. Headlights catching rain, secured beer and the visible Hearthroad make the threat to a working delivery route legible. |
-| ObiWan and Chili | Stage the public spectacle at the scarred mountain approach. A close reaction after the bravado reveals ObiWan’s playoff fear. Keep the green blade, Chili’s rodeo aftermath and the small OFF BOARD detail. |
-| Red Leopards at Three Dreaded Snake | Frame the outdoor contest laterally along the property edge so readers can judge the action. Use temporary markers, the approved event once selected, and the temple outskirts. Keep the household outside the scene. |
-| Seven Deadly Chins at Mud Dogs | Begin low at the old swamp racing ruts. A wide comic setup gives way to a close view of Mud defending his last path. Reserve the Cancún payoff for verified elimination. |
-| Dr. Duckhook and The LLC | Use a restrained two-shot and increasingly revealing reaction shots for the personal comedy. Develop the close-ups now. An identifying wide shot depends on verification of the requested non-golf site. |
+| D0nkey K0ng / His Majesty’s Blood | Narrow Mountain Lake Bridge, at midspan, lake visible on both sides. Wilson’s brute force and Austin’s samurai-like composure define the duel. |
+| Slob on my Dobb / El Niño | Inside Jordan’s truck cab at the edge of Hearthroad, looking out at the filling rut. The prior cargo shelter remains the Week 10 handoff. |
+| ObiWan Jacoby / The Chili Cheesers | At the foot of the Eastern Ascent, with the spectators above Jake and Brandon. After Dark uses the separate shack. |
+| Red Leopards / Three Dreaded Snake | At the vegetation break near the falls on Phillip’s outer property line. The sport remains open. |
+| Mud Dogs / Seven Deadly Chins | At the old Gators & Dawgs sign where Week 10 left Bobby. Ben’s choice to trust him begins there. |
+| Dr. Duckhook / The LLC | Inside Zach’s executive office in the Jackson clubhouse. David proposes buying the course for The LLC’s portfolio. Zach refuses every offer. Compare desk, window and door for the final refusal. |
 
 **Production check.** In each page brief, specify the existing character/location reference, the venue’s release-week set dressing, the light source for the shared pink/purple/aqua grade, the family of titles or data labels, and the crop’s focal point. Proof actual 1080×1920 masters at 390 px wide. Read odds, names, scores and dialogue against source text after compositing. Final scores, cover outcome, independent visual review and publication stay under the existing gates.
 
@@ -90,14 +92,14 @@ The Founder left the interior action/dialogue layout (Q6) and preferred targets 
 - [Pinned normalized 58-answer source](FOUNDER_NORMALIZED_REFERENCE_2026-11-20.json) and [dated six-game ESPN/Flaim fixture](WEEK11_TEST_SOURCE_RECEIPT_2026-11-20.json). Values trace to the existing normalized Commissioner source and November20 provider-normalized capture, not a claim of original chat or ESPN HTTP byte-level attestation.
 - [Strengthened creative-source validator](validate_creative_intake.py) with [adversarial tests](test_validate_creative_intake.py), and [Atlas preflight script](validate_atlas_routes.py). These run under [Week 11 source CI](../../.github/workflows/memo-week11-source-gate.yml), reporting successful status at patch commit `9615ffc6`.
 - **Pittsy coverage:** Chins–Mud Dogs is `HOUSE_BOARD_STATUS_UNSPECIFIED`, not off-board or posted; do not infer a sixth official line.
-- **Promotion:** early Story Room evidence checks PASS; original literal text, independent Steward/Umpire, Nov18 FFHub, Duckhook venue, Pittsy/Playoff Island Atlas and post-MNF final publication gates remain **HOLD**.
+- **Promotion:** early Story Room evidence checks PASS; original literal text, independent Steward/Umpire, Nov18 FFHub, final office art, Pittsy/Playoff Island Atlas and post-MNF final publication gates remain **HOLD**.
 
 ## Bullpen production and Inklings source recovery — November 20
 - [November 18 TheFFHub recovered source receipt](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md) — 12 team baselines and Week11 win/loss hypotheses match source; five original JSON files retained privately under [Bullpen PR #158](https://github.com/jakekaloper-hub/bullpen/pull/158). This supersedes the earlier Nov18 **source missing** status but not model calibration, independent review, or post-MNF refresh.
 - Actual Bullpen existing ConsultEngine invoked seven model-Director roles and a bounded Inklings craft workshop. The original, explicitly **non-human** output and source-adjudication (including rejected hallucinations) are retained in the protected Bullpen PR #158; [current source/review briefing](BULLPEN_PRODUCTION_INKLINGS_BLOCKER_REVIEW_2026-11-20.md).
 - Postseason Island source exists in [proposal PR #322](https://github.com/jakekaloper-hub/schemin-26/pull/322) and Atlas expansions [#324](https://github.com/jakekaloper-hub/schemin-26/pull/324) / [#325](https://github.com/jakekaloper-hub/schemin-26/pull/325). DRAFT, no actual Week11 island arrival, new LOC promotion or horizon-visibility proof.
 - Existing Pittsy's Book Week4 Founder source requires TDS Waterfall home, but Central Basin World Engine still conflicts; route the canonical map changes through active Atlas summit [#327](https://github.com/jakekaloper-hub/schemin-26/issues/327), never edit only a derived map card.
-- Duckhook alternative venue: [proposed Groundskeepers' Lodge](https://github.com/jakekaloper-hub/schemin-26/blob/feat/atlas-three-layer-147-sites-20261120/planning/atlas-expansion/ATLAS_EXPANSION_44_CANDIDATES_V1.json) is new *unapproved* candidate under established Jackson parent, **not** a historically verified 11-year-old location. Use the established clubhouse/terrace for interim staging without repeating Week10 dining hall or inventing a new building.
+- Duckhook’s office is the Founder-selected interior under the Jackson clubhouse. [Office set and workshop](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#dr-duckhook-and-the-llc--the-executive-office-at-jackson).
 
 ## Next uncompleted workflow
 Append Sunday November 22 dated scoring updates; recompute only evidence-dependent story candidates. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
