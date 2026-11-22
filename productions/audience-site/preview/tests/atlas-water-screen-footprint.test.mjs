@@ -43,7 +43,8 @@ test('derivative footprint attenuates only painted moving streaks, not the physi
    'float line=pow(max(sin(linePhase),0.),17.)*(1.-smoothstep(.35,1.15,lineFootprint));',
    'float crossingPhase=vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55;',
    'float crossingFootprint=fwidth(crossingPhase);',
-   'float crossingSheen=uCrossing*pow(max(sin(crossingPhase),0.),18.)*(1.-smoothstep(.35,1.15,crossingFootprint))'])
+   'float crossingSheen=uCrossing*pow(max(sin(vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55),0.),18.)',
+   'crossingSheen*=1.-smoothstep(.35,1.15,crossingFootprint);'])
     assert.ok(fs.includes(term),term);
   assert.ok(vs.includes('p.z+=uAmplitude*interior*(.72*waveA+.28*waveB);'),'physical water displacement preserved');
   assert.ok(vs.includes('p.z+=uCrossing*uAmplitude*.34*interior*crossingWave;'),'crossing displacement preserved');

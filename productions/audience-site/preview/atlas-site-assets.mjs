@@ -461,7 +461,8 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      // The Shared March's moving streaks retain their phase but fade below one pixel.
      float crossingPhase=vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55;
      float crossingFootprint=fwidth(crossingPhase);
-     float crossingSheen=uCrossing*pow(max(sin(crossingPhase),0.),18.)*(1.-smoothstep(.35,1.15,crossingFootprint))*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
+     float crossingSheen=uCrossing*pow(max(sin(vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55),0.),18.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
+     crossingSheen*=1.-smoothstep(.35,1.15,crossingFootprint);
      // Fixed illustrative key light, not a live solar/wind/weather feed.
      vec3 crossingKey=normalize(vec3(.43,.74,.51));
      vec3 crossingNormal=faceNormal.y<0.?-faceNormal:faceNormal;
