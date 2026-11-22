@@ -401,7 +401,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
   const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0},uMire:{value:kind==='mire'?1:0},uLakeGlint:{value:kind==='mountain lake'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;
+   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;varying float vBridgeCrest;
     void main(){
      vUv=uv;vec3 p=position;
      float radius=length(position.xy);
@@ -419,6 +419,8 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      // These are presentation geometry coordinates, not surveyed hydrology.
      float bridgeR=min(length(position.xy-vec2(-.39,0.)),length(position.xy-vec2(.39,0.)));
      float bridgeWave=exp(-bridgeR*8.)*sin(bridgeR*24.-uTime*1.7);
+     // Same displaced bridge-contact phase, with no new river or clock.
+     vBridgeCrest=uBridge*interior*exp(-bridgeR*8.)*smoothstep(.40,.90,bridgeWave);
      p.z+=uBridge*uAmplitude*.16*interior*bridgeWave;
      // Candidate storm-barrier contact: modeled shape, not surveyed hydrology.
      float barrierAxis=abs(position.y+.016);
@@ -437,7 +439,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vWorld=(modelMatrix*vec4(p,1.)).xyz;
      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
     }`,
-   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;
+   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;varying float vBridgeCrest;
     void main(){
      float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
      // Screen-footprint attenuation of subpixel painted water streaks: no change to waves.
@@ -472,7 +474,16 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float crossingSpark=pow(max(dot(reflect(-crossingKey,crossingNormal),eyeRay),0.),10.);
      float crossingCrest=vCrossCrest*(.35+.65*crossingSpark);
      float bridgeR=min(length((vUv-.5)*2.-vec2(-.39,0.)),length((vUv-.5)*2.-vec2(.39,0.)));
-     float bridgeSheen=uBridge*exp(-bridgeR*10.)*pow(max(sin(bridgeR*34.-uTime*1.7),0.),8.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
+     float bridgeSheen=uBridge*exp(-bridgeR*10.)*pow(max(sin(bridgeR*24.-uTime*1.7),0.),8.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
+     // Candidate lake bridge sheen derives from its displaced water normal.
+     // The fixed key is illustrative, not real weather, geography or sunlight.
+     float bridgeCrest=0.;
+     if(uBridge>.5){
+       vec3 bridgeNormal=faceNormal.y<0.?-faceNormal:faceNormal;
+       vec3 bridgeKey=normalize(vec3(.47,.80,.34));
+       float bridgeReflect=pow(max(dot(reflect(-bridgeKey,bridgeNormal),eyeRay),0.),10.);
+       bridgeCrest=vBridgeCrest*(.40+.60*bridgeReflect);
+     }
      vec2 barrierXY=(vUv-.5)*2.;
      float barrierAxis=abs(barrierXY.y+.016);
      float barrierSpan=smoothstep(-.85,-.62,barrierXY.x)*(1.-smoothstep(.45,.65,barrierXY.x));
@@ -499,6 +510,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      c=clamp(c+vec3(.035,.065,.06)*crossingSheen,0.,1.);
      c=clamp(c+vec3(.032,.048,.045)*crossingCrest,0.,1.);
      c=clamp(c+vec3(.055,.09,.08)*bridgeSheen,0.,1.);
+     c=clamp(c+vec3(.025,.046,.044)*bridgeCrest,0.,1.);
      c=clamp(c+vec3(.13,.18,.17)*lakeGlint,0.,1.);
      c=clamp(c+vec3(.045,.075,.074)*barrierSheen,0.,1.);
      c=clamp(c+vec3(.028,.046,.045)*barrierCrest,0.,1.);
