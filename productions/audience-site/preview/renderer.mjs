@@ -18,6 +18,11 @@ function lookAt(eye,target,up=[0,1,0]){const z=norm(sub(eye,target)),x=norm(cros
 function ortho(l,r,b,t,n,f){return new Float32Array([2/(r-l),0,0,0,0,2/(t-b),0,0,0,0,-2/(f-n),0,-(r+l)/(r-l),-(t+b)/(t-b),-(f+n)/(f-n),1]);}
 function rng(seed){return ()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
 const hash=(x,y)=>{const v=Math.sin(x*127.1+y*311.7)*43758.5453;return v-Math.floor(v);};
+/** Low-cost illustrative movement of existing fallback-water highlights, never geography. */
+export function waterSheenDrift(index,ordinaryTime){
+ if(!Number.isInteger(index)||index<0||!Number.isFinite(ordinaryTime))throw Error('INVALID_WATER_SHEEN_PHASE');
+ return Math.sin(ordinaryTime*.75+hash(index,13)*TAU)*.65;
+}
 function noise(x,y){const a=Math.floor(x),b=Math.floor(y),tx=x-a,ty=y-b,s=tx*tx*(3-2*tx),t=ty*ty*(3-2*ty);return mix(mix(hash(a,b),hash(a+1,b),s),mix(hash(a,b+1),hash(a+1,b+1),s),t);}
 const fbm=(x,z)=>noise(x,z)*.58+noise(x*2.03,z*2.03)*.28+noise(x*4.13,z*4.13)*.14;
 const gauss=(x,z,cx,cz,sx,sz)=>Math.exp(-((x-cx)**2/(sx*sx)+(z-cz)**2/(sz*sz)));
@@ -120,14 +125,20 @@ function createSoftwareRenderer(canvas,bindings,{onContextLost}){
  for(let i=0;i<values.length;i+=27){const pts=[values.slice(i,i+3),values.slice(i+9,i+12),values.slice(i+18,i+21)];if(pts.every(p=>p[1]<-.35))continue;const normal=values.slice(i+3,i+6),col=values.slice(i+6,i+9);const sun=norm([-.6,.9,.36]);const diffuse=Math.max(0,dot(normal,sun));let shade=.72+diffuse*.43;const center=pts[0].map((_,j)=>(pts[0][j]+pts[1][j]+pts[2][j])/3);for(let d=4;d<24;d+=5){if(height(center[0]+sun[0]*d,center[2]+sun[2]*d)>center[1]+sun[1]*d+1){shade*=.74;break;}}triangles.push({pts,col:col.map(v=>v*shade),center});}
  mesh.values=null;let eye,view,vp,width=0,heightPx=0,signature='',lastWater=0,disposed=false,drawCount=0;
  const project=p=>{if(!vp)return null;const v=[...p,1],o=[0,0,0,0];for(let r=0;r<4;r++)for(let c=0;c<4;c++)o[r]+=vp[c*4+r]*v[c];if(o[3]<=.1)return null;return {x:(o[0]/o[3]*.5+.5)*width,y:(-.5*o[1]/o[3]+.5)*heightPx,depth:o[2]/o[3],distance:o[3]};};
- function render(c,time,{strength=1,storm=0,paused=false}={}){if(disposed)return;const w=canvas.clientWidth,h=canvas.clientHeight;const current=JSON.stringify([w,h,c.target.map(x=>Math.round(x*20)/20),Math.round(c.distance*20),Math.round(c.yaw*500),Math.round(c.pitch*500),Math.round(strength*100),storm]);if(signature===current)return;signature=current;drawCount++;
+ function render(c,time,{strength=1,storm=0,paused=false}={}){if(disposed)return;
+   lastWater=nextWaterPhase(lastWater,time,paused);
+   // At most eight fallback redraws/sec for ordinary water; explicit pause holds exact pixels.
+   const waterFrame=Math.floor(lastWater*8)/8;
+   const w=canvas.clientWidth,h=canvas.clientHeight;const current=JSON.stringify([w,h,c.target.map(x=>Math.round(x*20)/20),Math.round(c.distance*20),Math.round(c.yaw*500),Math.round(c.pitch*500),Math.round(strength*100),storm,waterFrame]);if(signature===current)return;signature=current;drawCount++;
   width=w;heightPx=h;const ratio=Math.min(devicePixelRatio||1,1.5);if(canvas.width!==Math.floor(w*ratio)||canvas.height!==Math.floor(h*ratio)){canvas.width=w*ratio;canvas.height=h*ratio;}ctx.setTransform(ratio,0,0,ratio,0,0);
   const aspect=w/h,fit=Math.max(1,1.25/aspect),distance=c.distance*(c.distance>100?fit:Math.min(fit,1.25)),t=c.target;eye=[t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*distance,t[1]+Math.sin(c.pitch)*distance,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*distance];view=lookAt(eye,t);vp=multiply(perspective(.72,aspect,.2,1900),view);
   const grad=ctx.createLinearGradient(0,0,0,h);grad.addColorStop(0,`rgb(${Math.round(126*strength+20)},${Math.round(153*strength+20)},${Math.round(155*strength+20)})`);grad.addColorStop(.5,`rgb(${Math.round(48*strength+20)},${Math.round(103*strength+15)},${Math.round(109*strength+15)})`);grad.addColorStop(1,`rgb(${Math.round(22*strength+14)},${Math.round(65*strength+14)},${Math.round(72*strength+14)})`);ctx.fillStyle=grad;ctx.fillRect(0,0,w,h);
   const ordered=[];for(const tri of triangles){const p=tri.pts.map(project);if(p.some(x=>!x))continue;if(p.every(x=>x.x<0)||p.every(x=>x.x>w)||p.every(x=>x.y<0)||p.every(x=>x.y>h))continue;ordered.push({tri,p,d:p.reduce((s,x)=>s+x.distance,0)/3});}ordered.sort((a,b)=>b.d-a.d);
   for(const {tri,p,d}of ordered){const fog=clamp((d-distance*.65)/400,0,.28);let dark=1;if(storm){if(tri.center[0]>36)dark=.65;if(storm>=2&&tri.center[2]>40)dark=.67;if(storm>=3&&Math.abs(tri.center[0])<44&&Math.abs(tri.center[2])<32)dark=.7;}const col=tri.col.map((v,i)=>Math.round(clamp(Math.pow(mix(v*(.7+.3*strength)*dark,[.59,.69,.64][i],fog),.84)*255,0,255)));ctx.fillStyle=`rgb(${col.join(',')})`;ctx.strokeStyle=ctx.fillStyle;ctx.lineWidth=.55;ctx.beginPath();ctx.moveTo(p[0].x,p[0].y);ctx.lineTo(p[1].x,p[1].y);ctx.lineTo(p[2].x,p[2].y);ctx.closePath();ctx.fill();ctx.stroke();}
   // Restrained water sheen: illustrative non-weather surface lighting.
-  ctx.strokeStyle=`rgba(216,219,190,${.08*strength})`;ctx.lineWidth=.6;for(let i=0;i<110;i++){const x=(hash(i,7)*250)-125,z=hash(i,11)*170+35;if(height(x,z)>-.3)continue;const a=project([x,-.3,z]),b=project([x+1+hash(i,1)*2,-.3,z]);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
+  // Gentle time-dependent surface glints on existing river samples. No new water geometry.
+   ctx.strokeStyle=`rgba(216,219,190,${.08*strength})`;ctx.lineWidth=.6;
+   for(let i=0;i<110;i++){const bankX=(hash(i,7)*250)-125,z=hash(i,11)*170+35;if(height(bankX,z)>-.3)continue;const x=bankX+waterSheenDrift(i,waterFrame);const a=project([x,-.3,z]),b=project([x+1+hash(i,1)*2,-.3,z]);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
  }
  function pick(x,y){let best=null,dist=30;for(const p of bindings){const q=project(p.renderAnchor);if(!q||q.depth>1)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<dist){dist=d;best=p;}}return best;}
  return {render,project,pick,height,stats:{triangles:triangles.length,locations:bindings.length,renderer:'canvas2d-spatial-fallback',geometry:'PROCEDURAL_MASSING_NOT_APPROVED_ART'},loseContext(){onContextLost();},dispose(){disposed=true;}};
