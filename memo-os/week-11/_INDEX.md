@@ -29,6 +29,8 @@
 
 [Twelve seasons on six sets](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#twelve-seasons-on-six-sets) · Photographic detail study, local routines and Week 10 landmarks for the six matchup pages.
 
+[Inklings answers to all twelve owner cards](INKLINGS_OWNER_INTERVIEW_ANSWERS_2026-11-22.md) · Six first-person draft responses per owner, checked against the Week 11 lineups. Use these wherever an owner answer is missing.
+
 [Owner victory notes for the bridge and falls](OWNER_VICTORY_CODAS_2026-11-22.md) · Austin Byars’s jester request, Kevin Zeek’s Florida python-hunter portrait and the conditions for using each ending.
 
 ### Issue-wide art direction
