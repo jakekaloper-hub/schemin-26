@@ -437,7 +437,10 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
    fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;
     void main(){
      float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
-     float line=pow(max(sin(vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7),0.),17.);
+     // Screen-footprint attenuation of subpixel painted water streaks: no change to waves.
+     float linePhase=vUv.x*52.+sin(vUv.y*19.)*.9-uTime*.7;
+     float lineFootprint=fwidth(linePhase);
+     float line=pow(max(sin(linePhase),0.),17.)*(1.-smoothstep(.35,1.15,lineFootprint));
      float gap=smoothstep(.2,.85,.5+.5*sin(vUv.y*32.+uTime*.24));
      // Read the actual moving mesh's world-space facing; no static painted normal.
      vec3 faceCross=cross(dFdx(vWorld),dFdy(vWorld));
@@ -455,7 +458,10 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
        vec3 lakeSun=normalize(vec3(.43,.79,.37));
        lakeGlint=(1.-smoothstep(.58,.95,length((vUv-.5)*2.)))*pow(max(dot(reflect(-lakeSun,lakeNormal),eyeRay),0.),12.);
      }
-     float crossingSheen=uCrossing*pow(max(sin(vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55),0.),18.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
+     // The Shared March's moving streaks retain their phase but fade below one pixel.
+     float crossingPhase=vUv.y*72.-uTime*2.1+sin(vUv.x*16.)*.55;
+     float crossingFootprint=fwidth(crossingPhase);
+     float crossingSheen=uCrossing*pow(max(sin(crossingPhase),0.),18.)*(1.-smoothstep(.35,1.15,crossingFootprint))*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
      // Fixed illustrative key light, not a live solar/wind/weather feed.
      vec3 crossingKey=normalize(vec3(.43,.74,.51));
      vec3 crossingNormal=faceNormal.y<0.?-faceNormal:faceNormal;
