@@ -75,35 +75,39 @@ The new repairs, errands, key and background performers are proposed set dressin
 
 **Founder choice.** Jake Kaloper and Brandon Pryor meet at the foot of the Eastern Ascent with the spectators above them. Jake’s later press interview has its own mountain shack setup.
 
-**Opening.** A cheer comes down from the rise. Brandon tips the hat he could not reach at the end of last week’s rodeo. Jake looks up at the same instant. Each thinks the cheer might be for him. The first photograph from ground level makes the spectators look imposing. The reverse from the rise shows how little those people can actually see of Brandon’s expression.
-
-**The turn.** Give Jake the public laugh he wanted. When he looks up for another, Brandon keeps watching him. Try letting Brandon say, quietly enough that only Jake can hear, “I was down here last week, too.” Stage the stylized confrontation in the ground they now share. The green light belongs to Jake’s defensive saber. A spectator checking for the absent House line provides the small background joke. The proposed preseason protection and Jake’s accusations get space later under the lamp at the shack.
-
-**After the result.** A Jake win earns an instant of visible relief before the boasting starts again. A Brandon win earns him the choice to put on his hat and walk away while the crowd is still calling. A tie leaves the two men with a better understanding of what it costs to be watched. A loss alone does not mathematically eliminate Jake.
-
 ### Brandon Pryor’s Wolf Brand Chili scene
 
-Brandon asked for Wolf Brand Chili all over ObiWan Jacoby’s head and body in this matchup. Play it after Jake earns the first laugh, before the official result. The dialogue and the choice of No Beans are the Inklings’ and production’s interpretation of his request.
+[Native PNG · three-frame dunk tank study](sets/Schemin-W11-G03-Wolf-Brand-Dunk-Tank.png)
 
-The porter clears the turn. Jake has just made the uphill crowd laugh about Brandon’s rodeo hat. He looks back for a second laugh. Brandon lays the hat crown-up on a dry stone. Beside it sits an empty red **WOLF BRAND CHILI** can, its blue **NO BEANS** band facing the path. Jake spots the camp pot.
+**Inklings board meeting, November 22.** Jake’s new pitch puts ObiWan on the carnival seat, Brandon at the throwing line, and Wolf Brand Chili inside the tank. The booth is in town for the afternoon at the foot of the Eastern Ascent. The crowd stands uphill, with room for the porter to get through. The following exchange is proposed character dialogue.
 
-**Jake** — “You bring enough for everybody?”
+| Reader | Question at the table | Decision for the scene |
+|---|---|---|
+| Inklings, dialogue | Why would Jake get on that seat? | He volunteers and asks for the microphone. He thinks the crowd has come to see Brandon miss. Keep “D5” in Jake’s heckle as supplied. His school and playing record are unverified. |
+| Production, visual continuity | How can the audience see Jake’s face inside a tank of opaque chili? | Establish the target beside the seat. Cut on one clean hit. After Jake surfaces, put the last camera just inside the rim, level with his eyes. Chili clings to his hair and clothes. |
+| Sports Desk | Whose judgment is it that the season is over? | In the loss ending it is Jake’s. His quiet line can carry the whole final frame. An official elimination caption requires the other results and tiebreakers to close his remaining paths. |
 
-**Brandon** — “I counted one.”
+**The pitch.** The porter clears the turn. Jake climbs onto the seat while the operator is still setting the last ball on the counter. From up here he can see everybody who laughed at Brandon when he lost his hat at the rodeo. Brandon, wearing that same hat, turns the ball once in his hand. A red Wolf Brand Chili can stands on the tank ledge. The blue No Beans band follows the earlier prop selection.
 
-Brandon tips the pot. Chili lands in Jake’s blond hair, folds over both shoulders and runs down his jacket and robes to his boots. Stay on the two of them as Jake wipes one eye. His sleeve leaves a fresh streak across his cheek. He holds out a hand toward the only clean thing within reach.
+**Jake** *(into the carnival mic)* — “Brandon played D5 quarterback in Texas, folks. Safest place to stand is right behind the target.”
 
-**Jake** — “Hand me the hat.”
+Up on the bank, a man pulls his hat down over his eyes. That gets the laugh Jake wanted. He leans over the edge to give Brandon one more.
 
-Brandon slides it six inches farther away. This time the laugh comes from the people close enough to see his hand.
+**Jake** — “Want me to run a slant?”
 
-[Open the inspected 1080 × 1920 scene board](sets/Schemin-W11-G03-Wolf-Brand-Chili.png)
+**Brandon** — “Sit tight.”
 
-**Native PNG review.** The Week 10 *No Private Exit* PNG shows Brandon in the mud, his black hat with a red band lying just beyond his reach. That distance gives his six-inch movement a history readers can see. *The Price of Quiet* PNG shows Jake’s earth-tone layers and green blade at the snowy home approach. Keep that location distinct from the turn where the porter passes. The Week 11 six-site PNG study shows the working footpath in its upper-right panel. The 1080 × 1920 owner-interview PNGs put Jake and Brandon together below the audience. The new board uses the two Week 10 image crops and the supplied can detail. It is a production manuscript board. The completed Week 11 pour still needs its own illustrated frame and visual review.
+One throw. The ball hits the painted circle. The seat drops out from under Jake. Chili goes over the rim, and the microphone gives one wet pop. The man on the bank tips his hat to Brandon.
 
-**Production coverage.** Give the label one readable insert while the can is still clean. A full pot and the emptied tins account for the quantity. Use the red can and stacked white wordmark from Brandon’s reference. The left-hand 15 oz No Beans can is the selected prop. Composite the lettering and check it at 390 px. For the pour, hold a foot-of-the-ascent wide with the spectators above both men, then a reverse that shows the back of Jake’s robes and both boots. Keep the chili reddish brown with recognizable food texture, Jake’s eyes readable, and his retriever clear. Carry the same chili streaks through the public ending. The green saber belongs to the established duel. The missing House line remains a background beat.
+**From inside the tank.** Jake comes up with chili in his blond hair, down the back of his collar and thick on both sleeves. One hand finds the ladder. A moment ago he could see the whole crowd. From here he can see the rungs and a few pairs of boots. He wipes an eye with his sleeve and makes the mess worse. Brandon comes round to the ladder, expecting a comeback.
 
-**Result and aftermath.** If Jake wins, let his shoulders drop in relief before he faces the bank in soaked robes. If Brandon wins, he retrieves the clean hat, puts it on and walks out below the crowd. A tie reopens the footpath for the next porter. The pending-score layout can hold on the approach and first laugh. Reserve the reporter, clipping and proposed clause for the later shack interview. This is a Week 11 wardrobe condition at the public encounter. The [Week 9 cookout](../week-9/Week_9_Approval_Review_Full_Names.md#19-who-gets-served) used a wheeled vat and ladle salute. Here Brandon gets the last laugh by moving his hat.
+**Jake** *(only Brandon can hear)* — “I thought we were going back.”
+
+Brandon takes off his hat. He stays beside the tank. Give the last frame to Jake.
+
+**Result branches.** Brandon earns the crowd’s laugh with his throw. The matchup result determines what the two men say at the ladder. Hold the last line for a confirmed loss or clearly label it a proposed loss ending. In the win branch, someone calls the score from uphill. Jake waits for them to say it again before he takes the next rung. A tie or pending score can close on the wet microphone and the two men at the ladder. If official standings later eliminate ObiWan, the Sports Desk can state that separately. The November 18 conditional simulation gave ObiWan 12.77% with a Week 11 loss and 52.89% with a win. The schedule proof distinguishes ObiWan from Mud Dogs. [Conditional model](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md) · [Week 11 elimination conditions](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md)
+
+**Production readback.** The native PNG gives the setup, impact and Jake’s face inside the rim in three frames. His hand on the ladder lets the audience read his disappointment. Before a final folio, composite the exact can label from the supplied reference and set dialogue from the manuscript. The proof is 941 × 1672. The final folio uses 1080 × 1920. Keep the absent House line in its own editorial beat and the later After Dark interview at the shack. The earlier [hand-poured pot board](sets/Schemin-W11-G03-Wolf-Brand-Chili.png) records the first pitch. This tank sequence is the current story-room recommendation.
 
 ## Red Leopards and Three Dreaded Snake · The break in the vegetation
 
