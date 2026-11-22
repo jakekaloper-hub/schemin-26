@@ -1,0 +1,122 @@
+# One Last Crossing · Six matchups at the Atlas table
+
+Week 11 memo • November 22, 2026 • Writing, location scouting and set design
+
+The bridge and Hearthroad have enough story and geography for a first storyboard. The mountain duel needs Brandon’s point of view in the middle of the action. The temple needs a sporting event worth watching. The swamp needs a competition that could only take place there. Jackson has its two actors and its scene, but its requested eleven-year venue has yet to be identified. These are editorial recommendations for the Week 11 draft.
+
+The controlling brief is still the [58-answer story interview](FOUNDER_CREATIVE_INTERVIEW_58_RESPONSES_2026-11-20.md), the [visual interview and back-issue review](FOUNDER_VISUAL_INTERVIEW_PRODUCTION_REVIEW_2026-11-21.md), and the [twelve-character story room](TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md). The Story Room’s 3:09 p.m. score remains a dated observation. [Individual summit notes for all six locations](SIX_LOCATION_SUMMIT_SEAT_NOTES_2026-11-22.md).
+
+## Pass one · What each of the twelve brings out of Week 10
+
+All six visiting teams won. The table pairs the ESPN final with the closing action in the assembled 35-page issue. The last two columns give each owner’s possible reading of what happened. Those readings are editorial interpretations. Page numbers here are physical PDF pages.
+
+| Week 10 result | Pages and visible evidence | Winner’s point of view afterward | Opponent’s point of view afterward |
+|---|---|---|---|
+| D0nkey K0ng 156.67, The Chili Cheesers 93.70 | 5–7. At the rodeo, the rope holds and Brandon’s hat is beyond his reach. | Wilson Look learned he could let somebody else put on a show and still decide how it ended. He can afford the first courtesy on the bridge. | Brandon Pryor remembers where his hat landed and how many people saw it. Put him in front of a crowd again and let him decide where to look. |
+| El Niño 189.08, Red Leopards 147.82 | 8–10. The rain passes the defenses and Kevin is left sitting at the damaged court. | Manning Welty watched his rival’s second refuge fail. At Hearthroad he should know something about the water that Jordan does not yet know. | Kevin Zeek defended his ground twice and lost it twice. Checking the finish on Phillip’s property lets him seek certainty on somebody else’s ground. |
+| Seven Deadly Chins 146.22, Three Dreaded Snake 82.78 | 12–14. Phillip looks down from above the work. Ben’s interruption has made quiet at the temple impossible. | Ben Whipple leaves knowing noise can make him the center of another owner’s scene. In the swamp that stops working when Bobby gives his attention to the course. | Phillip Pitts remembers the cost of letting a visitor set the terms. Invite Kevin to compete at the edge where Phillip can be fair and still protect his home. |
+| Slob on my Dobb 179.29, Mud Dogs 113.62 | 15–17. The delivery leaves. Bobby is still beneath the Gators & Dawgs sign with the Cancún taunt. | Jordan Hollingshead kept his delivery promise by carrying on at ordinary speed. The new question is whether doing the same thing in rising water would be careless. | Bobby Mitchell knows what it feels like to be left under that sign. Giving Ben a fair warning there lets Bobby choose what the place means this time. |
+| His Majesty’s Blood 208.76, Dr. Duckhook 127.67 | 20–22. The 200 Burger and the birthday cake are separate props. Austin presses the cake into the host’s face. | Austin Byars controlled the meal, the timing and the laugh. A rival who politely gives him the initiative may be the first person to wrong-foot him. | Zach Wilson already lived through the public laugh. Let him start the next one and see whether David has the courage to finish it. |
+| The LLC 203.96, ObiWan Jacoby 166.53 | 23–25. David leaves his chair. Jake defends the approach with the green saber. The warm home lamp and retriever survive the confrontation. | David Babb showed up in person and scored 203.96, yet he left 4–6. His folded clipping lets the audience discover which number he’d rather discuss. | Jake Kaloper put up 166.53 on his own ground and still saw it breached. His public swagger against Brandon is easier to understand once the audience has seen that cost. |
+
+The delivered preview of the intact bridge is **physical page 33, source W10-P35**. Pittsy’s Book occupies physical page 34. The sheltered cargo and approaching storm close the PDF on **physical page 35, source W10-P33**. Match those two photographs in that order when constructing the opening frames. [Completed-edition crosswalk](https://github.com/jakekaloper-hub/schemin-26/blob/51834dd03d8ccd182e11ca41fab71481a42afa7d/memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json) · [Week 10 manuscript](https://github.com/jakekaloper-hub/schemin-26/blob/memo-week10-preproduction-20261116/memo-os/week-10/preproduction/issue-draft.md) · [ESPN Week 10](https://fantasy.espn.com/football/league/scoreboard?leagueId=1417621&seasonId=2026&matchupPeriodId=10)
+
+## Pass two · Where TheFFHub actually has these teams
+
+A fresh retrieval of the league’s Playoff Odds page on November 22 returned all twelve teams, ten completed games apiece, Weeks 11–14 available to simulate, ESPN and a head-to-head tiebreaker. The site uses 10,000 simulations based on season scoring average and standard deviation and excludes player projections and byes. I checked that every team’s displayed total equals the sum of its first seven finishing-position percentages. All twelve totals add to 700%, representing seven berths. The Sunday sample and November 18 baseline differ by at most 0.45 percentage points.
+
+The two right-hand columns come from the separately preserved November 18 forced-outcome runs. Both captures use results through Week 10. A Sunday touchdown changes the live ESPN score. These numbers describe the race entering the games. [TheFFHub league page](https://theffhub.com/PlayoffTool?site=espn&leagueId=1417621&userId=&s2=&swid=) · [November 18 scenario evidence and limits](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md)
+
+| Team | Nov 22 playoff chance | Nov 18 if it wins W11 | Nov 18 if it loses W11 |
+|---|---:|---:|---:|
+| Slob on my Dobb | 98.64% | 99.74% | 95.89% |
+| D0nkey K0ng | 93.04% | 98.66% | 88.55% |
+| His Majesty's Blood | 87.97% | 95.17% | 80.10% |
+| Dr. Duckhook | 87.44% | 96.40% | 78.90% |
+| El Niño | 86.75% | 96.88% | 83.92% |
+| Seven Deadly Chins | 82.61% | 88.24% | 61.25% |
+| Red Leopards | 50.57% | 64.81% | 27.21% |
+| The Chili Cheesers | 37.71% | 58.81% | 20.68% |
+| The LLC | 33.22% | 51.78% | 15.61% |
+| ObiWan Jacoby | 32.29% | 52.89% | 12.77% |
+| Three Dreaded Snake | 9.72% | 22.76% | 2.36% |
+| Mud Dogs | 0.04% | 0.07% | 0.00% |
+
+Two teams make particularly good newspaper neighbors. Kevin enters at 50.57% and Phillip at 9.72%. Put their numbers next to a starting line the host has made visibly fair. At the mountain Jake’s older win/loss scenarios are 40.12 percentage points apart, Brandon’s 38.13. Their mutual annoyance at the absent line makes sense for both. Bobby’s 0.04% leaves room for his act of generosity to cost something. The separate schedule proof makes a confirmed Week 11 loss eliminating for Mud Dogs.
+
+ESPN/Flaim still showed six undecided fixtures on the approximately 3:23 p.m. ET read. Sunday’s leading teams in that snapshot were D0nkey K0ng 85.64–64.00, Slob 104.56–97.50, The Chili Cheesers 89.31–26.90, Three Dreaded Snake 61.02–56.60, Seven Deadly Chins 87.56–47.74 and Dr. Duckhook 108.36–46.20. Choose the cover after the official results. [ESPN Week 11](https://fantasy.espn.com/football/league/scoreboard?leagueId=1417621&seasonId=2026&matchupPeriodId=11) · [Schedule proof and story conditions](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md)
+
+## Pass three · Can the Atlas support each camera position?
+
+**Six of six parent venues have active LOC IDs and entries at three depths.** The bridge and camp are provisional canon in the active registry. The other four parents are permanent canon. The three-depth dossiers are an editorial review layer. The authoritative world-state snapshot is still end of Week 3. For Weeks 8–10, match the actual issue plates and label the week of the change. A proposed place to stand a camera can belong to a registered venue without acquiring a new location ID.
+
+L1 answers how the ground, water and route work. L2 identifies who uses the place, what they do there, and who can enter. L3 identifies what happened there and which mark or habit could survive it. The project has 23 approved structural SVGs and zero approved photographic environment masters. The latest observer check produced four provisional GPU views apiece for the temple, swamp and Jackson. Use them to check terrain and water. Use completed memo plates for character staging and inherited damage. [Active locations](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/world/data/locations.json) · [Routes](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/world/data/routes.json) · [Three-depth dossiers](https://github.com/jakekaloper-hub/schemin-26/blob/14e1a449c35fa74aea4a15fe53df8b0b33ae8fb0/world/atlas/summits/2026-11-20/THREE_LAYER_LOCATION_DOSSIERS_V1.json) · [Folio Studio](https://github.com/jakekaloper-hub/schemin-26/pull/337) · [Twelve Wetlands views](https://github.com/jakekaloper-hub/schemin-26/pull/314#issuecomment-7083702154)
+
+### 1. Mountain Lake Bridge · D0nkey K0ng and His Majesty’s Blood
+
+**Location and angle.** `LOC-BRIDGE-MOUNTAIN-LAKE`, provisional, Upper Valleys. Use the near approach with the whole deck visible. The alternative is the far-pier reverse, looking back across the lake using the same parapet repair as an orientation mark. The Eastern Ascent links Jake’s base to the bridge. Hearthroad reaches the bridge from the Arsenal Barbershop via Slob’s camp. The eastern ridgeline can be visible. An uninterrupted view of Jake’s home requires its own proof.
+
+**Three layers on screen.** L1 gives the viewer both banks and room to pass. L2 gives the empty road a purpose. People use this crossing, so Wilson stepping aside is a recognizable courtesy. L3 gives that courtesy teeth. Week 3 established this as a place where a decision mattered, and the physical Week 10 page puts these two rivals on opposite approaches with the deck intact.
+
+**Board decision.** Advance the wide and a single reverse. Wilson makes the invitation. Austin starts to touch the belt, sees Wilson watching, and decides whether he will cross on those terms. Use natural sky and lake reflections. Try one removable launch-week notice at the approach only if the plate can carry it. Drop it if it looks like Wilson put up a checkpoint. The photograph earns its place when a reader can see why an open lane is a challenge. Preserve the unawarded belt and neutral bridge through either ending.
+
+### 2. Foothill camp and Hearthroad · Slob on my Dobb and El Niño
+
+**Location and angle.** `LOC-SLOB-FOOTHILL-CAMP`, provisional, Upper Valleys. A is the sheltered tailgate yard with the beer in the foreground. B is the rough training-ground edge looking toward the working road. Hearthroad actually passes through camp. The additional named repair yard or road shelter is a candidate. The established yard already supplies both sightlines.
+
+**Three layers on screen.** L1 shows dry cargo and runoff crossing lower ground in the same photograph. L2 supplies the promise behind the shipment. Let a delivery slip, tied where the driver can read it, give Jordan a reason to leave. L3 begins exactly where physical Week 10 page 35 ended, at shelter after Jordan got past Bobby’s sign. The eastern weather front can reach this uphill route without putting the whole Commonwealth underwater.
+
+**Board decision.** Advance after strengthening Manning’s action. Mere silence makes him a bystander. Try a direct exchange. Manning looks uphill and asks Jordan when he promised the load. Jordan answers without looking up. The sound of two bottle rims touching stops him as the first headlight reflection breaks across the rut. If Jordan wins, let the delivery choice earn it. If Manning wins, let the beer stay dry and the promise come due. Keep the public copy grounded in the road and these two men.
+
+### 3. The mountain approach · ObiWan Jacoby and The Chili Cheesers
+
+**Location and angle.** `LOC-TRADE-JEDI-MOUNTAIN-BASE`, permanent, Upper Valleys. A is the high ridge and damaged approach. B uses the war-room overlook to orient the reverse. The Eastern Ascent has steep grades and weather exposure. Jake’s shack is an established After Dark direction within the domain. Its precise placement and a separate permanent shack ID remain unverified. Stage its tighter interview independently.
+
+**Three layers on screen.** L1 gives the crowd, combatants and surviving approach a shared piece of ground. L2 asks who can watch and who gets a voice. The missing House line means something because both rivals wanted this audience. L3 carries Brandon’s hat and the rodeo laughter into Jake’s damaged home ground. Reuse the amber lamp or retriever only where the delivered plate places it. Keep Pittsy’s shuttered **Book** in its own scene. At the mountain, a spectator’s phone or a copy of the notice can carry the news without relocating the business.
+
+**Board decision.** Rewrite the middle from Brandon’s position. Let Jake land a real joke and turn to collect a second laugh. Brandon catches him searching the crowd. Now Brandon can decide who gets his attention before Jake’s green saber enters the action. Try the shared glance in the crowd’s phone glass. The public scene earns the quiet cut to Jake, hood up, clipped unlit saber, at the shack. Keep the proposed clause and his accusation attributed in After Dark. The House’s stated injury/lineup rationale belongs alongside it.
+
+### 4. Waterfall Temple outskirts · Red Leopards and Three Dreaded Snake
+
+**Location and angle.** `LOC-TDS-WATERFALL-TEMPLE`, permanent, Southern Wetlands. A is the stone-and-vegetation edge of the host property. B faces outward along Falls Path toward the swamp. High water and the waterfall escarpment limit staging. The dossier and GPU views support the area. The exact surveyed boundary and a competition course have no separate active LOC. The temple–Chili Shared March is a different connection. Kevin’s travel from the ruins does not establish a direct shortcut.
+
+**Three layers on screen.** L1 gives the reader one continuous line with both markers in sight. L2 makes Phillip’s hospitality part of the rules. He sets the mark where Kevin has an equal view. L3 lets Kevin’s flood-damaged court and Phillip’s interrupted household explain their conduct. The camera can stay outside, with the house entirely off screen.
+
+**Board decision.** Storyboard the steeplechase first and tug-of-war as a genuine alternative. In the first, Kevin inspects the far mark as though he owns the course. When he returns to the start, Phillip gives him the choice of sides. In the second, that choice and their pride have to read in one still. Two removable marks suffice for either trial. Choose the event which lets a newcomer judge the result without a caption. The game confers bragging rights. It has no bearing on ownership of the ground.
+
+### 5. Mud Dogs’ swamp · Mud Dogs and Seven Deadly Chins
+
+**Location and angle.** `LOC-MUD-DOGS-SWAMP`, permanent, Southern Wetlands. A puts Bobby on raised ground at the old sign. B drops to his eye level beside a mud channel. Delta Causeway links the swamp to Jackson via DK Mud Hill, with soft ground and seasonal flooding. A plausible regional approach from Chins Road Commons runs through Jackson on the levee and then toward the causeway. Truck access on every segment is unverified. Frame the truck on ground that can support it and avoid claiming a measured journey.
+
+**Three layers on screen.** L1 shows the difference between a dry-looking rut and a firm lip. L2 gives Bobby knowledge worth sharing. L3 uses the same sign under which he was left in Week 10. It has a stronger claim on the reader’s memory than a newly invented finish arch. Preserve any existing sign face and orientation established by the plate.
+
+**Board decision.** Retain Bobby giving Ben the warning he himself needed. Revise the empty-case relay before treating it as the event. Try a simple course around the existing rut where Ben’s straightforward line costs him footing and Bobby’s less obvious route makes sense. An empty case can mark the start as residue from last week’s delivery. If the old sign is fixed, Bobby wipes it clean or points out the footing instead of physically turning it. In the end, give Bobby the first opportunity to speak. The Cancún joke needs a confirmed eliminating loss. Ben’s decision to go back and listen works under either result.
+
+### 6. Jackson · Dr. Duckhook and The LLC
+
+**Location and angle.** `LOC-COUNTRY-CLUB-JACKSON`, permanent, Southern Wetlands. We can place both men inside Zach’s domain. A tight clubhouse service-side two-shot or a reverse toward the wetland treeline are provisional studies. Jackson Levee links the club to Chins Road Commons. The existing clubhouse and its grounds are registered. The Groundskeepers’ Lodge and proposed Jackson sluice remain candidates. Neither certifies the specific non-golf site the Founder remembers being there for eleven years.
+
+**Three layers on screen.** L1 offers a practical lamp, two seats and a consistent eyeline while the site is verified. L2 asks where staff or members would actually use this space between major events. Week 5’s Jackson page already puts groundskeepers moving behind the hedges. A worker returning tools off camera is a specific, sourced kind of presence to give this scene. [Week 5 Jackson page packet](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/memo-os/week-5/pages/P017-duck-dk-setup/PAGE_PACKET.md) L3 records the Week 3 chili incident and the need to establish cleanup before showing a pristine room, plus the Week 10 birthday. Jackson’s dossier names 2026 as its earliest demonstrated site memory. The franchise’s 2015–2025 finishes do not establish this room’s age. Repeating the cake, dining table or golf course would take the characters backward.
+
+**Board decision.** Advance the performances and hold the identifying wide. Zach chooses to tell the cake story. David unfolds 203.96 and then has to say 4–6. Try one version where he slides the clipping toward Zach so the rest of the room cannot see it. For the exact requested site, the open evidence is a named historical source or Founder identification tied to Jackson, its ordinary use, and a compatible site/route reference. A sign reading “established 2015” would manufacture the very evidence the scene needs.
+
+## Pass four · Does the world feel twelve seasons old?
+
+**Mainland.** A reader ought to recognize a place by how someone uses it. A generic layer of rust and neon would age every location identically. At the bridge, the same repaired stone orients a traveler. On Hearthroad, the delivery slip stays dry because Jordan knows where to put it. At the temple, a visitor waits outdoors because Phillip remembers the cost of letting someone into the courtyard. At the swamp, Ben can follow a sign Bobby once stood under alone. The test is to remove the team labels and see whether the action still identifies the place.
+
+Give the GTA VI treatment a different local source in each scene. Use lake light on Wilson, a truck lamp on the runoff, phone glass at Jake’s, reflected spray at Phillip’s, taillight on broken mud at Bobby’s, and an ordinary warm lamp on Zach and David. Keep a common pink, violet and aqua finish across the products. The RDR2 reference is a direction for how labor, weather, terrain and memory coexist. A plain dry surface belongs in a realistic world where the rain has yet to reach it. The inhabited world extends beyond twelve owners, while the story’s twelve principal viewpoints stay intact. Try a delivery hand signaling uphill and a temple worker lifting a temporary marker after the contest. Each has a reason to be there even when the principals are gone. [Rockstar’s account of interdependent wildlife in Red Dead Redemption 2](https://www.rockstargames.com/reddeadredemption2/features/wildlife)
+
+**Postseason Island and Losers’ Beach.** The proposed island includes the beach village. There are eleven completed seasons of real bracket evidence from 2015–2025, 56 fixtures and eleven finals. The 2026 season is the twelfth. The archive tells us who reached a round. The proposed Grove of Standards and its repaired surfaces are a designer’s reconstruction. A historic score alone cannot put a named owner inside that fictional venue or put a date on a scar.
+
+Two concrete sets to test for future rounds:
+
+- **Losers’ Beach.** Use the proposed public walk from Tailgate Commons to Losers’ Beach and the pavilions. At quiet hours, try a caretaker replacing one loose slat while a pair of regulars stop to hear the arena. When the crowd comes, show how service and emergency access still work. The Founder’s design makes the beach a modest place to watch, rest and feel the cost of missing the competition. Keep the story’s bittersweet social life here.
+- **The championship approach.** Trial one camera on public access and another at a finalist gate. Let the competitors and the people maintaining the arena use different paths. On Last Field, try a repaired seam with an archived repair record once that history is supported. The final-site identifiers, Inner Sea departure and mainland causeway alignment are still under review. Distances, direct sightlines and exact historical visits await that work. No Week 11 character crosses early.
+
+The mainland expansion has 103 shared identifiers across two drafts and a union of 199 handles. That count includes competing proposals. The existing structural and cinematic reference work and the Week 10 photographs are the starting material for the six sets. [Geography board and photo handoff](https://github.com/jakekaloper-hub/schemin-26/pull/339) · [Atlas acceptance summit](https://github.com/jakekaloper-hub/schemin-26/issues/327) · [Postseason history receipt](https://github.com/jakekaloper-hub/schemin-26/blob/b32ecbc46e82133f7197fc8802a85e6b59abc44a/planning/postseason/POSTSEASON_ISLAND_HISTORICAL_VERIFICATION_RECEIPT.md) · [Island routes](https://github.com/jakekaloper-hub/schemin-26/blob/b32ecbc46e82133f7197fc8802a85e6b59abc44a/planning/postseason/ISLAND_CAUSEWAY_TOPOLOGY.founder_v2.json) · [Founder’s island interview](https://github.com/jakekaloper-hub/schemin-26/blob/b32ecbc46e82133f7197fc8802a85e6b59abc44a/planning/postseason/FOUNDER_INTERVIEW_II_DECISION_REGISTER_2026_11_19.md)
+
+## What the latest memos ask of this one
+
+Week 9’s Last Putt gave the reader time to recognize a decisive instant. Week 10’s rodeo, swamp sign, birthday and home lamp made the consequences legible in a second image. The bridge and delivery already meet that writing standard. At the mountain, Brandon deserves the second image. At the boundary, the reader needs to understand the event well enough to judge Kevin’s confidence for themselves. In the swamp, keep the warning and replace a race that could work in any parking lot. At Jackson the dialogue passes that test, while the requested historical location remains open. The specific interior layout and chief target of additional satire remain open under the visual interview.
+
+Pittsy remains a separate siting question. The active `LOC-PITTSYS-BOOK` still points to the Central Basin, while the Founder’s Waterfall Temple direction and physical Week 10 page 34 establish the editorial conflict. Jake and Brandon can see the notice on a phone. The team should resolve the store’s home through the existing same-ID Atlas review before an identifying master. For the mobile Book, put the posted lines first. For the Sports Desk, keep the large number, date and evidence together. The Game of the Week stays on the bridge, the eventual cover can come from any game, and Thanksgiving first appears in Week 12. [November 20 siting review](BULLPEN_PRODUCTION_INKLINGS_BLOCKER_REVIEW_2026-11-20.md) · [Visual interview](FOUNDER_VISUAL_INTERVIEW_PRODUCTION_REVIEW_2026-11-21.md)
