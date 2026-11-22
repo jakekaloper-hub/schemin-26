@@ -77,14 +77,14 @@ The new repairs, errands, key and background performers are proposed set dressin
 
 ### Brandon Pryor’s Wolf Brand Chili scene
 
-[Native PNG · three-frame dunk tank study](sets/Schemin-W11-G03-Wolf-Brand-Dunk-Tank.png)
+[Native PNG · four-frame dunk tank study](sets/Schemin-W11-G03-Wolf-Brand-Dunk-Tank.png)
 
 **Inklings board meeting, November 22.** Jake’s new pitch puts ObiWan on the carnival seat, Brandon at the throwing line, and Wolf Brand Chili inside the tank. The booth is in town for the afternoon at the foot of the Eastern Ascent. The crowd stands uphill, with room for the porter to get through. The following exchange is proposed character dialogue.
 
 | Reader | Question at the table | Decision for the scene |
 |---|---|---|
 | Inklings, dialogue | Why would Jake get on that seat? | He volunteers and asks for the microphone. He thinks the crowd has come to see Brandon miss. Keep “D5” in Jake’s heckle as supplied. His school and playing record are unverified. |
-| Production, visual continuity | How can the audience see Jake’s face inside a tank of opaque chili? | Establish the target beside the seat. Cut on one clean hit. After Jake surfaces, put the last camera just inside the rim, level with his eyes. Chili clings to his hair and clothes. |
+| Production, visual continuity | How can the audience see Jake’s face inside a tank of opaque chili? | Establish the target beside the seat. Cut on one clean hit. See Jake fully submerged through the viewing window. When he surfaces, move the camera just inside the rim, level with his eyes. Chili clings to his hair and clothes. |
 | Sports Desk | Whose judgment is it that the season is over? | In the loss ending it is Jake’s. His quiet line can carry the whole final frame. An official elimination caption requires the other results and tiebreakers to close his remaining paths. |
 
 **The pitch.** The porter clears the turn. Jake climbs onto the seat while the operator is still setting the last ball on the counter. From up here he can see everybody who laughed at Brandon when he lost his hat at the rodeo. Brandon, wearing that same hat, turns the ball once in his hand. A red Wolf Brand Chili can stands on the tank ledge. The blue No Beans band follows the earlier prop selection.
@@ -99,7 +99,9 @@ Up on the bank, a man pulls his hat down over his eyes. That gets the laugh Jake
 
 One throw. The ball hits the painted circle. The seat drops out from under Jake. Chili goes over the rim, and the microphone gives one wet pop. The man on the bank tips his hat to Brandon.
 
-**From inside the tank.** Jake comes up with chili in his blond hair, down the back of his collar and thick on both sleeves. One hand finds the ladder. A moment ago he could see the whole crowd. From here he can see the rungs and a few pairs of boots. He wipes an eye with his sleeve and makes the mess worse. Brandon comes round to the ladder, expecting a comeback.
+**Below the surface.** The carnival noise drops to a muffled thud. Through the tank window, Jake drifts into view with his cheeks puffed, his eyes closed and one palm against the pane. A few bubbles rise past his temple. The chili rolls back across the glass as he pushes up. Hold the frame without dialogue.
+
+**Back at the surface.** Jake comes up with chili in his blond hair, down the back of his collar and thick on both sleeves. One hand finds the ladder. A moment ago he could see the whole crowd. From here he can see the rungs and a few pairs of boots. He wipes an eye with his sleeve and makes the mess worse. Brandon comes round to the ladder, expecting a comeback.
 
 **Jake** *(only Brandon can hear)* — “I thought we were going back.”
 
@@ -107,7 +109,7 @@ Brandon takes off his hat. He stays beside the tank. Give the last frame to Jake
 
 **Result branches.** Brandon earns the crowd’s laugh with his throw. The matchup result determines what the two men say at the ladder. Hold the last line for a confirmed loss or clearly label it a proposed loss ending. In the win branch, someone calls the score from uphill. Jake waits for them to say it again before he takes the next rung. A tie or pending score can close on the wet microphone and the two men at the ladder. If official standings later eliminate ObiWan, the Sports Desk can state that separately. The November 18 conditional simulation gave ObiWan 12.77% with a Week 11 loss and 52.89% with a win. The schedule proof distinguishes ObiWan from Mud Dogs. [Conditional model](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md) · [Week 11 elimination conditions](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md)
 
-**Production readback.** The native PNG gives the setup, impact and Jake’s face inside the rim in three frames. His hand on the ladder lets the audience read his disappointment. Before a final folio, composite the exact can label from the supplied reference and set dialogue from the manuscript. The proof is 941 × 1672. The final folio uses 1080 × 1920. Keep the absent House line in its own editorial beat and the later After Dark interview at the shack. The earlier [hand-poured pot board](sets/Schemin-W11-G03-Wolf-Brand-Chili.png) records the first pitch. This tank sequence is the current story-room recommendation.
+**Production readback.** The native PNG shows the setup, the hit, Jake fully submerged behind the viewing window, and his return to the ladder. All four beats read in the 390 px phone preview. His hand on the ladder lets the audience read his disappointment. Before a final folio, composite the exact can label from the supplied reference and set dialogue from the manuscript. The proof is 941 × 1672. The final folio uses 1080 × 1920. Keep the absent House line in its own editorial beat and the later After Dark interview at the shack. The earlier [hand-poured pot board](sets/Schemin-W11-G03-Wolf-Brand-Chili.png) records the first pitch. This tank sequence is the current story-room recommendation.
 
 ## Red Leopards and Three Dreaded Snake · The break in the vegetation
 
