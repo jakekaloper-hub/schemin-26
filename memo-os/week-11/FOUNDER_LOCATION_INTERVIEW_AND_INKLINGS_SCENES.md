@@ -21,6 +21,28 @@ All six sites use the existing Atlas location and sublocation resolver. The fixe
 
 The full address follows `SUB::<parent venue>::<feature>`. Use the existing stone bridge with midspan specified in the scene record. The executive office also has its own 3D study. The four other feature addresses are newly registered in this pass.
 
+## Twelve seasons on six sets
+
+Jake wants the places to feel as thoroughly inhabited as the world in *Red Dead Redemption 2*. The Commonwealth is playing its twelfth season. For Week 11, let the reader catch someone using each place in a way a first-time visitor would miss. Photograph that little piece of local knowledge in the pink, violet and aqua light of the GTA VI issue.
+
+![Six proposed production details. Above, wheel-worn bridge stones, runoff seen from a truck cab and a hollow worn into a mountain path. Below, cut stems at the falls, a replacement board in the swamp stands and a club key beside the buyer’s folio.](sets/twelve-seasons-location-study.webp)
+
+Read the study across each row. The six photographs are AI-generated art-direction proposals. Use them for materials, light and scale. Take the bridge’s width and lamp spacing from physical page 33, the swamp entrance from page 17, and the Jackson room layout from the office model. In the bridge master both lake edges must show. At the swamp gate the pictured insert is framed low enough to study the stands. The identifying wide must include the arched overhead board. [Finished Week 10 PDF receipt and physical-page crosswalk](https://github.com/jakekaloper-hub/schemin-26/blob/51834dd03d8ccd182e11ca41fab71481a42afa7d/memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json)
+
+**Mountain Lake Bridge.** Two wheel tracks polish the intact center stones. One reset stone catches the lantern because its face is still rough. Before Wilson and Austin meet, a carter waits back at the approach. A wheel rattles briefly across that stone after the duel. Keep the same lantern beside it in the reverse. When Wilson fills the travelers’ usual line and Austin holds his place, even a reader who has never seen these two understands what everyone is waiting for.
+
+**Hearthroad.** The road crew has packed pale gravel into the shoulder. The first white chip Jordan sees moving across the rut tells him the patch is washing out again. The audience learns the depth of the water by watching that chip. Jordan catches the curling delivery slip under the visor without taking his eyes off the windshield. Manning has been watching the water uphill. When Jordan turns back to the radio, stay at the windshield for one more sweep. Another chip goes. Match the sheltered kegs and canvas on physical page 35.
+
+**Foot of the Eastern Ascent.** There’s a hollow in the path where people climbing with a load take the shorter inside turn. When a porter approaches, the uphill spectators open a gap without breaking off their conversation. Brandon, looking up at the crowd that laughed at him last week, mistakes the movement for a better view of himself. Then the parcel goes through. Let him have that private laugh. The damp path catches a low stripe of sky behind his hat. The residents close ranks again while Jake is still playing to them. Place any battle damage only where the Week 10 image supports the sightline.
+
+**Waterfall Temple boundary.** The oldest clipped stems have gone grey. This week’s pale cuts are all on the path side, just wide enough for a person carrying something. A local with a basket pauses on the one dry stone to shift the load, then carries on. From farther back Kevin’s greeting disappears under the falls. When Phillip makes room for him on that stone, they can finally hear each other. Shoot toward the spray, with the visitors’ path visible and the household off camera. The opening works for either sport. Give the drying stone and the continued drip their own beat after the competitors leave.
+
+**Gators & Dawgs sign.** The finished page 17 has empty raised stands on the left, flooded racing scars below, and a weathered overhead board reading **THE SWAMP DECLARES A BLOCKADE**. The small Cancún card hangs on the right post. Keep all four in their original relationship. Try one pale replacement plank low in the stands, where it would be stepped on first. Ben’s headlights catch a bright wet streak below it. Bobby walks the narrow, dull strip alongside the water and waits for Ben to notice where his paws stayed dry. Ben kills the high beams to see what Bobby sees. The postcard can still flutter when the truck goes quiet.
+
+**Jackson executive office.** Staff borrow a course key from a brass hook beside the desk. The finish has worn through directly below it. In the minute before David opens his folio, a groundskeeper returns the key. Zach acknowledges the return without interrupting David. The visitor politely moves his folder to clear the usual landing place. On his second offer, let his eyes go back to that hook when Zach asks who would control the locks. The clean edge of the folio catches the lamp. The grass crew goes on working outside. That beat plays at the desk, window or door and gives David a genuine reason to reconsider what he is asking Zach to sell.
+
+The new repairs, errands, key and background performers are proposed set dressing. The finished Week 10 edition supplies the older pictured conditions. Individual objects have no assigned founding year. For a return visit, carry forward the surface that survives the scene and update the moving part, such as the gravel after rain or the key when it is signed out. Keep the same visible detail in a close shot, its reverse and any phone crop that uses it.
+
 ## D0nkey K0ng and His Majesty’s Blood · Midspan
 
 **Founder choice.** An intense, carefully choreographed duel at the midpoint of the narrow Mountain Lake Bridge. Lake visible on both sides. Wilson Look is the brute fighter. Austin Byars carries himself with the composure of a samurai. Keep their established bodies, clothing and belt.
@@ -65,7 +87,7 @@ The full address follows `SUB::<parent venue>::<feature>`. Use the existing ston
 
 **Founder choice.** Ben Whipple first has to trust Bobby Mitchell at the old Gators & Dawgs sign, exactly where the departing truck left Bobby on physical page 17.
 
-**Opening.** Come in at vehicle-window height from Ben’s side. He already has a line ready about anybody who needs directions in his own swamp. Then show what he saw only as a sign. Bobby has a sleeve against the bottom edge, clearing enough mud for a visitor to read it. Ben lets the remark go. Match the sign’s face, spelling, support and placement to the finished plate.
+**Opening.** Come in at vehicle-window height from Ben’s side. He already has a line ready about anybody who needs directions in his own swamp. The overhead letters catch his headlights. Below them, Bobby has stopped on the last patch of firm ground. One paw is still dry. Ben looks down from the sign and lets the remark go. Match the arch, right-hand postcard and left-hand stands to physical page 17.
 
 **The turn.** Where Ben sees a straight approach, Bobby sees soft footing. Bobby has every reason to take the advantage and every right to leave Ben to figure it out. He gives him a warning anyway. Shoot Ben going back to look from the same low angle that made Bobby look abandoned last week. One man chose fairness. The other had to be willing to look foolish in order to accept it. A thin pink reflection in the puddle can pick out the letters while the churned bank still reads brown.
 
@@ -81,7 +103,7 @@ The full address follows `SUB::<parent venue>::<feature>`. Use the existing ston
 
 **What changes when David comes in.** In Week 10, David left his chair, went up Jake’s mountain and put up 203.96. Here he takes the visitor’s chair. Zach was made the punch line at his own birthday. This week somebody has to wait until he’s finished speaking. Let the ordinary business of the club carry on beyond the door through the entire conversation. The course means work, habits and people to one man. To the other it is a property valuable enough to want.
 
-**First offer.** David lays his folder down and waits for Zach to open it. Zach puts his pen back in its holder. Try this exchange before revealing any paperwork.
+**First offer.** David lays his folder down and waits for Zach to open it. A groundskeeper returns the key. David shifts his folder out of the way and Zach gives the groundskeeper a nod. Try this exchange before revealing any paperwork.
 
 > **David:** “I’d like to buy the course.”
 >
