@@ -401,7 +401,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
   const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0},uMire:{value:kind==='mire'?1:0},uLakeGlint:{value:kind==='mountain lake'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;
+   vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;
     void main(){
      vUv=uv;vec3 p=position;
      float radius=length(position.xy);
@@ -425,6 +425,9 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float barrierSpan=smoothstep(-.85,-.62,position.x)*(1.-smoothstep(.45,.65,position.x));
      float barrierBand=exp(-barrierAxis*13.)*barrierSpan;
      float barrierWave=sin(barrierAxis*26.-uTime*1.35+position.x*3.1);
+     // Port-only contact light follows the same physically displaced wavefront.
+     // This is optical illustration, not a new quay, weather or water-state assertion.
+     vBarrierCrest=uBarrier*interior*barrierBand*smoothstep(.40,.90,barrierWave);
      p.z+=uBarrier*uAmplitude*.20*interior*barrierBand*barrierWave;
      // Candidate-only, slow silt eddies on the original Mire Hill water mesh.
      float mireR=length(position.xy-vec2(.12,-.08));
@@ -434,7 +437,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vWorld=(modelMatrix*vec4(p,1.)).xyz;
      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
     }`,
-   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;
+   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;
     void main(){
      float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
      // Screen-footprint attenuation of subpixel painted water streaks: no change to waves.
@@ -474,6 +477,15 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      float barrierAxis=abs(barrierXY.y+.016);
      float barrierSpan=smoothstep(-.85,-.62,barrierXY.x)*(1.-smoothstep(.45,.65,barrierXY.x));
      float barrierSheen=uBarrier*exp(-barrierAxis*13.)*barrierSpan*pow(max(sin(barrierAxis*26.-uTime*1.35+barrierXY.x*3.1),0.),8.)*(1.-smoothstep(.58,.95,length(barrierXY)));
+     // A restrained quay-contact crest reflects an illustrative fixed key,
+     // reading the actual displaced surface normal; global calm is not a water stop.
+     float barrierCrest=0.;
+     if(uBarrier>.5){
+       vec3 barrierNormal=faceNormal.y<0.?-faceNormal:faceNormal;
+       vec3 barrierKey=normalize(vec3(.35,.84,.42));
+       float barrierReflect=pow(max(dot(reflect(-barrierKey,barrierNormal),eyeRay),0.),12.);
+       barrierCrest=vBarrierCrest*(.35+.65*barrierReflect);
+     }
      // Source-exact mire tint follows moving vertex eddy phase, never historical state.
      vec2 mireXY=(vUv-.5)*2.;
      float mireR=length(mireXY-vec2(.12,-.08));
@@ -489,6 +501,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      c=clamp(c+vec3(.055,.09,.08)*bridgeSheen,0.,1.);
      c=clamp(c+vec3(.13,.18,.17)*lakeGlint,0.,1.);
      c=clamp(c+vec3(.045,.075,.074)*barrierSheen,0.,1.);
+     c=clamp(c+vec3(.028,.046,.045)*barrierCrest,0.,1.);
      c=clamp(c+vec3(.052,.034,-.008)*mireSilt,0.,1.);
      c=mix(c,vec3(.31,.29,.22),.17*mireShallow);
      gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
