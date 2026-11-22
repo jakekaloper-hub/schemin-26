@@ -51,7 +51,11 @@ The new repairs, errands, key and background performers are proposed set dressin
 
 **The turn.** Let Wilson enjoy the noise he draws out of the bridge. Then give Austin a sustained close-up. The noise dies, the two are still at midspan, and Austin has held Wilson’s attention for the whole silence. In the next wide, the duel is fully underway. Preserve the position of the repaired parapet from shot to shot so that a change in rhythm reads as character. A sweep of violet on the stone and aqua water at both edges can sell the height without an explanatory caption.
 
-**After the result.** If Wilson wins, the expressive beat is his departure. He can leave without waiting for the champion to acknowledge him. If Austin wins, hold on Wilson through the moment he realizes Austin has chosen when the encounter ends. If tied or unsettled, return to the same midpoint with both figures still on the span. Bridge ownership and the championship belt have separate histories.
+**If His Majesty’s Blood wins · The first joke.** Give the end of the duel its own photograph. The carter at the approach is still waiting. Only now does Austin reach beneath his cloak and unfold a three-point cap. It fits Wilson. He had it made big enough. “You’re my jester. Announce me.” Wilson lets one brass bell ring before he puts it on. He turns his broad shoulders toward the cart, gives the driver the most formal bow a gorilla-centaur can manage, and calls, “Good news. His Majesty says you can use your bridge again.” The driver looks to Austin for confirmation. That is what finally makes Austin laugh. He steps aside. The wheel rattles over the reset stone.
+
+**Photograph.** Frame Wilson wearing the cap and still plainly in his Arsenal colors. Austin and his belt are visible beside him, the same deck lantern just behind them. The carter is the audience for Wilson’s first performance. The bells catch warm light against violet water. The appointment applies to this Week 11 scene. A return to court in a later issue is an open story decision.
+
+**Other results.** If Wilson wins, he leaves the bridge without waiting for Austin to acknowledge him. In a tie or pending result, both hold midspan, with the lake visible on either side. Keep the cap packed for those versions. [Owner notes and Bullpen workshop](OWNER_VICTORY_CODAS_2026-11-22.md)
 
 ## Slob on my Dobb and El Niño · Inside the cab at Hearthroad
 
@@ -81,7 +85,11 @@ The new repairs, errands, key and background performers are proposed set dressin
 
 **The turn.** Phillip gives Kevin first choice of sides. Now Kevin has to inspect the ground he has just implied is beneath his concern. Try that beat in two sports. In a short boundary race the vegetation briefly hides the apparent leader, making Kevin’s look at the reappearance meaningful. In tug-of-war the same wide can hold both faces when the bravado slips. Produce a clean location proof with the marker alone until the sport is chosen.
 
-**After the result.** A Kevin win lets him look to Phillip for the acknowledgment he assumed was automatic. A Phillip win lets Kevin recognize the finish first and costs the host nothing to be gracious. A tie keeps both men in view at the same temporary mark. None of the endings gives away anybody’s land.
+**If Red Leopards wins · The hat he packed.** Show the finish of the chosen sport first. At Phillip’s outer boundary, Kevin unrolls a dry bag, puts a sun-faded Florida python-hunter cap between his spotted ears and pulls on a mesh field vest over his armor. A little headlamp rides the brim. The brim takes its first drop of spray while Phillip is looking at it. Phillip takes in the outfit. “When did you pack that?” Kevin turns the brim square to the camera. “Tuesday.” After a beat, he makes room for Phillip on the dry stone. Phillip steps in beside him on his own terms.
+
+**Photograph.** It looks like a sportsman’s victory portrait. The red muzzle and black rosettes read before the field vest. Give the cap patch a small Florida outline and a coiled-python emblem. Set the host and visitor side by side with all three of Phillip’s heads visible on his one armored body. The damp finish marker and spray place the picture at the Commonwealth falls. The fun is discovering Kevin packed an entire outfit on the assumption he would win.
+
+**Other results.** If Phillip wins, Kevin recognizes the finish first and Phillip gives him the choice of the dry footing for the walk back. A tie or pending result holds both at the marker. Kevin’s bag stays shut. The sport is still open, as is the choice among three winning photographs in the [owner notes and Bullpen workshop](OWNER_VICTORY_CODAS_2026-11-22.md).
 
 ## Mud Dogs and Seven Deadly Chins · The Gators & Dawgs sign
 
