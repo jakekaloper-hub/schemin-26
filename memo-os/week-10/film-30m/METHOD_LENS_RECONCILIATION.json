@@ -1,0 +1,219 @@
+{
+  "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "authority": "ADVISORY_ONLY",
+  "assignment_id": "SCHEMIN-W10-FILM-INKLINGS-BENCH-20261122",
+  "production": "memo-os",
+  "evidence_sha": "61ae7c653a0062e65142d20efa3207dc07dbaff604247735380ddd47828a79be",
+  "decision_question": "How can all 34 source folios become a 30-minute film without changing source results, geography, character identity or release gates?",
+  "selected_advisors": [
+    "Andy Serkis",
+    "Doug Chiang",
+    "Dylan Cole",
+    "Frank Masi",
+    "James Baxter",
+    "Jill Bogdanowicz",
+    "Joe Letteri",
+    "John Knoll",
+    "Ngila Dickson",
+    "Randy Thom",
+    "Rob Alonzo",
+    "Thelma Schoonmaker",
+    "brandon_sanderson",
+    "cs_lewis",
+    "george_rr_martin",
+    "jk_rowling",
+    "joe_abercrombie",
+    "john_grisham",
+    "jrr_tolkien",
+    "ursula_k_le_guin"
+  ],
+  "synthesis": "One 30-minute Commonwealth film preserves the source's six causal matchups, score provenance, varied world weather, emotional choices and physical blocking. Emphasize geography-first staging, long-form continuity, separate sound stems and editorial rhythm; no automatic canon promotion.",
+  "accepted": [
+    {
+      "id": "W10-FILM-REVIEW-01",
+      "advisor": "Doug Chiang",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P22/request.json",
+      "observation": "The field throne is an established place and its chair/battery/steps control blocking.",
+      "proposal": "Build one shared dimensional set plate across P22-P24, with reusable stair and battery anchors; reject unrelated throne-room changes.",
+      "decision": "ACCEPT",
+      "rationale": "A reusable set layout prevents jump cuts from altering what surrender means."
+    },
+    {
+      "id": "W10-FILM-REVIEW-02",
+      "advisor": "Dylan Cole",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P11/request.json",
+      "observation": "One storm presents regional differences; coast, bridge and wetland are not adjacent.",
+      "proposal": "Maintain three distinct weather looks with explicit editorial time transition; use bridge master for orientation.",
+      "decision": "ACCEPT",
+      "rationale": "Visual cohesion without fictional instant travel."
+    },
+    {
+      "id": "W10-FILM-REVIEW-03",
+      "advisor": "Joe Letteri",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P12/request.json",
+      "observation": "Three Dreaded Snake has exactly three heads on one body; other characters retain their species locks.",
+      "proposal": "Preapprove silhouette, rig topology and motion tests for nonhuman characters before all ensemble frames.",
+      "decision": "ACCEPT",
+      "rationale": "Long-form animation magnifies identity drift."
+    },
+    {
+      "id": "W10-FILM-REVIEW-04",
+      "advisor": "Ngila Dickson",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P08/request.json",
+      "observation": "Red carries wet mud from field into later Forgotten Court, across separated locations.",
+      "proposal": "Keep tracked costume wetness, surface mud and material wear per character/time; recheck after edits.",
+      "decision": "ACCEPT",
+      "rationale": "Weather and travel effects must persist without cloning character assets."
+    },
+    {
+      "id": "W10-FILM-REVIEW-05",
+      "advisor": "Andy Serkis",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P07/request.json",
+      "observation": "Humiliation is public and reactive; the captured outlaw is not an injured generic victim.",
+      "proposal": "Hold gaze toward galleries after the secure manual binding, with physically readable body language.",
+      "decision": "ADAPT",
+      "rationale": "Performance delivers emotional stakes without inventing an injury or dialogue."
+    },
+    {
+      "id": "W10-FILM-REVIEW-07",
+      "advisor": "James Baxter",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P15/request.json",
+      "observation": "A hound on soft shoulder, truck on raised strip, driver in cab establish opposed scales.",
+      "proposal": "Design legible silhouettes from both POVs; maintain truck/tire/animal separation throughout.",
+      "decision": "ACCEPT",
+      "rationale": "Readable silhouette communicates a blockade that is never an actual collision."
+    },
+    {
+      "id": "W10-FILM-REVIEW-08",
+      "advisor": "Frank Masi",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P19/request.json",
+      "observation": "Birthday reveal relies on distinct guest, host and wrapped prop in a coherent room.",
+      "proposal": "Lock lens/eyelines and one spatial master before coverage; preserve subject scale and birthday light.",
+      "decision": "ADAPT",
+      "rationale": "Shot continuity beats disconnected posed hero portraits."
+    },
+    {
+      "id": "W10-FILM-REVIEW-10",
+      "advisor": "Jill Bogdanowicz",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P10/request.json",
+      "observation": "The Storm Coast terrace and Central Basin court occupy different exposures.",
+      "proposal": "Create separate scoped color palettes anchored to regional conditions; keep readable faces.",
+      "decision": "ADAPT",
+      "rationale": "One blanket storm LUT falsely merges geography."
+    },
+    {
+      "id": "W10-FILM-REVIEW-11",
+      "advisor": "Thelma Schoonmaker",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P13/request.json",
+      "observation": "Pause, hope, deliberate volume increase and resumed drilling form an ordered comic choice.",
+      "proposal": "Reserve real silent screen time before the purposeful escalation, with reaction footage serving causality.",
+      "decision": "ACCEPT",
+      "rationale": "A nonstop jackhammer montage would erase the joke."
+    },
+    {
+      "id": "W10-FILM-REVIEW-13",
+      "advisor": "jrr_tolkien",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P11/request.json",
+      "observation": "The Commonwealth changes unevenly under one regional front.",
+      "proposal": "Use ordinary infrastructure wear and continued roads to sell world history without a map-dump.",
+      "decision": "ADAPT",
+      "rationale": "Inhabited world depth should be legible from material consequences."
+    },
+    {
+      "id": "W10-FILM-REVIEW-14",
+      "advisor": "cs_lewis",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P23/request.json",
+      "observation": "Refused protection for surrender creates a meaningful choice.",
+      "proposal": "Allow silence and facial/body hesitation at the refusal, not merely a spectacle countdown.",
+      "decision": "ADAPT",
+      "rationale": "Moral imagination is expressed through actual costs and temptation."
+    },
+    {
+      "id": "W10-FILM-REVIEW-15",
+      "advisor": "george_rr_martin",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P04/request.json",
+      "observation": "The league has six matchups and twelve distinct lives; results cannot erase the losers.",
+      "proposal": "Cross-check each story's two subjects and distinct aftermath against the official board.",
+      "decision": "ACCEPT",
+      "rationale": "Ensemble integrity and causal pressure prevent winner-only mythologizing."
+    },
+    {
+      "id": "W10-FILM-REVIEW-16",
+      "advisor": "jk_rowling",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P20/request.json",
+      "observation": "Opening a burger gift is separate from the later cake impact.",
+      "proposal": "Protect three distinct beats: invitation, box reveal and delayed cake consequence.",
+      "decision": "ACCEPT",
+      "rationale": "Setup and payoff work only if reveal and physical joke are temporally distinct."
+    },
+    {
+      "id": "W10-FILM-REVIEW-17",
+      "advisor": "john_grisham",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P27/request.json",
+      "observation": "Public sports-data folios must remain readable without stalling the movie.",
+      "proposal": "Use economical graphic inserts and a clear spoken transition into the next dramatic scene.",
+      "decision": "ADAPT",
+      "rationale": "Information should propel the story instead of becoming a spreadsheet slideshow."
+    },
+    {
+      "id": "W10-FILM-REVIEW-18",
+      "advisor": "ursula_k_le_guin",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P03/request.json",
+      "observation": "The civic address is an inhabited institution, not a commissioner portrait reveal.",
+      "proposal": "Show restrained ordinary work and read exact supplied copy; preserve a separate institutional voice.",
+      "decision": "ACCEPT",
+      "rationale": "Voice/culture emerge from labor and lived place."
+    },
+    {
+      "id": "W10-FILM-REVIEW-19",
+      "advisor": "brandon_sanderson",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "observation": "Lightning is a surviving battery consequence, not unmotivated magic.",
+      "proposal": "Diagram the first disabled battery, remaining charge path, controlling gesture and field effects before VFX.",
+      "decision": "ACCEPT",
+      "rationale": "Hard spatial mechanics create causality and readable costs."
+    },
+    {
+      "id": "W10-FILM-REVIEW-20",
+      "advisor": "joe_abercrombie",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P10/request.json",
+      "observation": "The bent rim and mud carry an intimate loss beyond team statistics.",
+      "proposal": "Stay in the ruined court long enough to register fingers on the loose net and accumulated exhaustion.",
+      "decision": "ADAPT",
+      "rationale": "Human-scale consequences prevent hollow grandeur."
+    }
+  ],
+  "dissent": [
+    {
+      "id": "W10-FILM-REVIEW-06",
+      "advisor": "Rob Alonzo",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P06/request.json",
+      "observation": "The lasso closes around torso/upper arms, never neck; skid causes fall before manual tie.",
+      "proposal": "Use three causal movement setups and stunt-safe geometry references before any AI motion render.",
+      "decision": "HOLD",
+      "rationale": "The source explicitly prevents instant knots and hazardous neck catches."
+    },
+    {
+      "id": "W10-FILM-REVIEW-09",
+      "advisor": "John Knoll",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P24/request.json",
+      "observation": "Lightning moves from the surviving battery after the chair-side refusal and hand signal.",
+      "proposal": "Maintain shot-linked VFX source versions, seeds, output hashes, masks, negative constraints and editable sound stems.",
+      "decision": "HOLD",
+      "rationale": "A fully baked one-pass clip is not compositable source authority."
+    },
+    {
+      "id": "W10-FILM-REVIEW-12",
+      "advisor": "Randy Thom",
+      "source_anchor": "memo-os/week-10/preproduction/render-inputs/W10-P14/request.json",
+      "observation": "The household waterfall, courtyard machinery and speaker form layered acoustic sources.",
+      "proposal": "Produce separate compressor, jackhammer, waterfall and music stems; withhold identifiable licensed song cues.",
+      "decision": "HOLD",
+      "rationale": "Sound is a story mechanism requiring editability and clearance."
+    }
+  ],
+  "canon_promoted": false,
+  "umpire": "PENDING",
+  "execution_note": "Validation/reconciliation executed against repository code. Creative findings are modeled using documented published-method domains, NOT independently performed human consultant reviews, board votes or real agent consultations.",
+  "review_mode": "SIMULATED_SINGLE_AUTHOR_METHOD_LENS_ANALYSIS_NOT_EXTERNAL_PARTICIPATION"
+}
