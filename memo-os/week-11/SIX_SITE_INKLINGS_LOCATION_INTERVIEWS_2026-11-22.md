@@ -102,7 +102,7 @@ After the nearly fatal blow sends the loser into the lake, give the winner one d
 
 **Sources for this site**
 
-[Upper Valleys bridge card and access](../../world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json) · [2025 weekly ledger, Week 9, and franchise context](../../living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json) · [Week 11 matchup history and source-folio mapping](TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md) · [2026 Week 3, page 6 bridge composition](../week-3/WEEK_3_23_PAGE_COMPOSITION_BRIEF_REGISTER_V1.md) · [Finished Week 10 edition, physical page crosswalk](https://github.com/jakekaloper-hub/schemin-26/blob/51834dd03d8ccd182e11ca41fab71481a42afa7d/memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json) · [Venue scouting, routes and current selection](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md) · [Founder’s last strike and winner branches](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md) · [Inklings answers for Wilson Look and Austin Byars](INKLINGS_OWNER_INTERVIEW_ANSWERS_2026-11-22.md)
+[Upper Valleys bridge card and access](../../world/location-control-plane/locations/LOC-BRIDGE-MOUNTAIN-LAKE/CARD.json) · [2025 weekly ledger, Week 9, and franchise context](../../living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json) · [Week 11 matchup history and source-folio mapping](TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md) · [Released Week 3, physical pp. 3–4, The Bridge and The Swim of Shame](../week-3/post-production/WEEK_3_RELEASE_FORENSICS_MANIFEST_V1.md) · [Finished Week 10 edition, physical page crosswalk](https://github.com/jakekaloper-hub/schemin-26/blob/51834dd03d8ccd182e11ca41fab71481a42afa7d/memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json) · [Venue scouting, routes and current selection](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md) · [Founder’s last strike and winner branches](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md) · [Inklings answers for Wilson Look and Austin Byars](INKLINGS_OWNER_INTERVIEW_ANSWERS_2026-11-22.md)
 
 ## Hearthroad rut
 
@@ -598,13 +598,13 @@ End the office sequence on the return-to-door camera. David takes the unsigned o
 
 The eleven completed seasons contain 1,117 returned scoreboard rows and eleven verified championship rounds. Early playoff weeks can repeat a multiweek total. The table counts regular-season meetings between each pair of current franchise slot IDs, once per matchup period. It cannot identify who managed either team then or where the fictional game took place.
 
-The 2017 weekly regular-season extract has team names but omits numeric IDs. Its six cells are left open. The separate finals ledger does identify the 2017 finalists. The ongoing 2026 season supplies the scene continuity and sits outside the table.
+The 2017 weekly file records team names. The same season’s four roster extracts record those exact strings beside franchise IDs at Weeks 1 and 14. All 12 names match one ID each across both snapshots, including original spaces and punctuation. All 78 regular-season fixtures join on both sides. Each Week 11 franchise pairing met once that year. The ongoing 2026 season supplies scene continuity. [Roster slots 1–3](../../living-novel/production/full-rewrite-2026/evidence/G01_2017_ROSTER_SLOTS_1_3.json) · [4–6](../../living-novel/production/full-rewrite-2026/evidence/G01_2017_ROSTER_SLOTS_4_6.json) · [7–9](../../living-novel/production/full-rewrite-2026/evidence/G01_2017_ROSTER_SLOTS_7_9.json) · [10–12](../../living-novel/production/full-rewrite-2026/evidence/G01_2017_ROSTER_SLOTS_10_12.json)
 
 | Season | Rows | Bridge | Road | Ascent | Falls | Swamp | Office |
 |---|---|---|---|---|---|---|---|
 | 2015 | 102 | 1 | 1 | 2 | 2 | 2 | 1 |
 | 2016 | 102 | 1 | 1 | 2 | 2 | 2 | 1 |
-| 2017 | 97 | — | — | — | — | — | — |
+| 2017 | 97 | 1 | 1 | 1 | 1 | 1 | 1 |
 | 2018 | 97 | 1 | 1 | 2 | 1 | 1 | 1 |
 | 2019 | 97 | 1 | 2 | 1 | 1 | 1 | 1 |
 | 2020 | 97 | 1 | 1 | 1 | 1 | 1 | 1 |
@@ -613,6 +613,9 @@ The 2017 weekly regular-season extract has team names but omits numeric IDs. Its
 | 2023 | 105 | 1 | 2 | 2 | 1 | 1 | 1 |
 | 2024 | 105 | 1 | 1 | 2 | 1 | 1 | 2 |
 | 2025 | 105 | 1 | 2 | 1 | 1 | 1 | 1 |
+| **2015–2025 total** | **1,117** | **11** | **14** | **16** | **13** | **13** | **12** |
+
+The six pairings account for **79 regular-season meetings**. The 1,117 source rows include postseason and repeated multiweek totals.
 
 **How the longer record shaped the room**
 

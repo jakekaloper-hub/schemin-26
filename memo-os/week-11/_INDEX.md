@@ -29,6 +29,10 @@
 
 [Twelve seasons on six sets](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#twelve-seasons-on-six-sets) · Photographic detail study, local routines and Week 10 landmarks for the six matchup pages.
 
+[Six-site cross-OS history and evidence](WHAT_COULD_HAVE_HAPPENED_HERE_2015_2026.md#what-the-other-systems-add) · 79 regular-season meetings, six exact Atlas features and the published scenes that can be placed there.
+
+[Brandon Pryor’s Wolf Brand Chili scene](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#brandon-pryors-wolf-brand-chili-scene) · Inklings dialogue, full-body coverage and both result branches for ObiWan–Chili.
+
 [Six sites, 120 Inklings location answers](SIX_SITE_INKLINGS_LOCATION_INTERVIEWS_2026-11-22.md) · Decisions for each set, with a 2015–2025 history register and Week 11 result branches.
 
 [What could have happened here, 2015–2026?](WHAT_COULD_HAVE_HAPPENED_HERE_2015_2026.md) · Four answered questions per site trace how workers, neighbors and visitors could have shaped the six Week 11 scenes. Each history includes its Atlas and memo anchors and a supplemental Novel OS reading.

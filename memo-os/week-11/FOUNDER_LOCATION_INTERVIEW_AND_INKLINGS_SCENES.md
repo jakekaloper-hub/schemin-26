@@ -81,6 +81,26 @@ The new repairs, errands, key and background performers are proposed set dressin
 
 **After the result.** A Jake win earns an instant of visible relief before the boasting starts again. A Brandon win earns him the choice to put on his hat and walk away while the crowd is still calling. A tie leaves the two men with a better understanding of what it costs to be watched. A loss alone does not mathematically eliminate Jake.
 
+### Brandon Pryor’s Wolf Brand Chili scene
+
+Brandon asked for Wolf Brand Chili all over ObiWan Jacoby’s head and body in this matchup. Play it after Jake earns the first laugh, before the official result. The dialogue and the choice of No Beans are the Inklings’ and production’s interpretation of his request.
+
+The porter clears the turn. Jake has just made the uphill crowd laugh about Brandon’s rodeo hat. He looks back for a second laugh. Brandon lays the hat crown-up on a dry stone. Beside it sits an empty red **WOLF BRAND CHILI** can, its blue **NO BEANS** band facing the path. Jake spots the camp pot.
+
+**Jake** — “You bring enough for everybody?”
+
+**Brandon** — “I counted one.”
+
+Brandon tips the pot. Chili lands in Jake’s blond hair, folds over both shoulders and runs down his jacket and robes to his boots. Stay on the two of them as Jake wipes one eye. His sleeve leaves a fresh streak across his cheek. He holds out a hand toward the only clean thing within reach.
+
+**Jake** — “Hand me the hat.”
+
+Brandon slides it six inches farther away. This time the laugh comes from the people close enough to see his hand.
+
+**Production coverage.** Give the label one readable insert while the can is still clean. A full pot and the emptied tins account for the quantity. Use the red can and stacked white wordmark from Brandon’s reference. The left-hand 15 oz No Beans can is the selected prop. Composite the lettering and check it at 390 px. For the pour, hold a foot-of-the-ascent wide with the spectators above both men, then a reverse that shows the back of Jake’s robes and both boots. Keep the chili reddish brown with recognizable food texture, Jake’s eyes readable, and his retriever clear. Carry the same chili streaks through the public ending. The green saber belongs to the established duel. The missing House line remains a background beat.
+
+**Result and aftermath.** If Jake wins, let his shoulders drop in relief before he faces the bank in soaked robes. If Brandon wins, he retrieves the clean hat, puts it on and walks out below the crowd. A tie reopens the footpath for the next porter. The pending-score layout can hold on the approach and first laugh. Reserve the reporter, clipping and proposed clause for the later shack interview. This is a Week 11 wardrobe condition at the public encounter. The [Week 9 cookout](../week-9/Week_9_Approval_Review_Full_Names.md#19-who-gets-served) used a wheeled vat and ladle salute. Here Brandon gets the last laugh by moving his hat.
+
 ## Red Leopards and Three Dreaded Snake · The break in the vegetation
 
 **Founder choice.** Kevin Zeek meets Phillip Pitts at the break in the vegetation near the falls, on Phillip’s outer property line. The sport remains open.
