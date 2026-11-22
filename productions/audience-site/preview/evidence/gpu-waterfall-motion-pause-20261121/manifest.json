@@ -1,0 +1,57 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "PHYSICAL_GPU_MOVING_AND_PAUSED_SCENE_FRAMES_NOT_ISOLATED_WATER_PIXEL_PROOF",
+  "syntheticScenario": "verified El Nino loss to GLOBAL_CALM",
+  "weatherStatus": "GLOBAL_CALM",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "sourceRevision": "1bb6f58935e610edd1c828a1996790cc3aa29e68",
+  "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+  "cameraViewHeld": true,
+  "ordinaryWaterAdvanced": true,
+  "pausedSceneHashesEqual": true,
+  "sourceUnchanged": true,
+  "captures": [
+    {
+      "file": "01-temple-global-calm.png",
+      "waterTime": 5.891799999904653,
+      "motionState": "MOVING",
+      "frames": 356,
+      "bytes": 694088,
+      "width": 1440,
+      "height": 813,
+      "sha256": "af85a0d0ba809513f95a20508496d3d754dde4d6c1dae1e3aa990a23f4ef93b8"
+    },
+    {
+      "file": "02-temple-global-calm.png",
+      "waterTime": 7.091699999904667,
+      "motionState": "MOVING",
+      "frames": 429,
+      "bytes": 694085,
+      "width": 1440,
+      "height": 813,
+      "sha256": "6773ff6dcef23b4357b075154061576b190b081260bfac67c6e8501ff7d57604"
+    },
+    {
+      "file": "03-temple-paused-a.png",
+      "waterTime": 7.308399999904669,
+      "motionState": "PAUSED",
+      "frames": 442,
+      "bytes": 694565,
+      "width": 1440,
+      "height": 813,
+      "sha256": "d5459900d1e24f328157dba33c284c95d3375b5aa38f470196d983dd2c438fd3"
+    },
+    {
+      "file": "04-temple-paused-b.png",
+      "waterTime": 7.308399999904669,
+      "motionState": "PAUSED",
+      "frames": 442,
+      "bytes": 694565,
+      "width": 1440,
+      "height": 813,
+      "sha256": "d5459900d1e24f328157dba33c284c95d3375b5aa38f470196d983dd2c438fd3"
+    }
+  ]
+}
