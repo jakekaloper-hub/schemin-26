@@ -19,7 +19,41 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
  const seen=new Set();for(const b of bindings){if(!b||seen.has(b.id))throw Error('DUPLICATE_LOCATION');seen.add(b.id);if(!Array.isArray(b.anchor)||b.anchor.length!==3||!b.anchor.every(Number.isFinite))throw Error('INVALID_SITE_ANCHOR');}
  const root=new THREE.Group();root.name='Current Atlas sites · candidate visualizations';
  const locations=[],water=[],motion=[],geometries=new Set(),materials=new Set(),textures=new Set();let disposed=false;
- function texture(kind){const n=64,bytes=new Uint8Array(n*n*4);for(let y=0;y<n;y++)for(let x=0;x<n;x++){const hash=((x*73856093)^(y*19349663))>>>0;let v=215+(hash%29);if(kind==='stone'&&(y%16<1||(x+(Math.floor(y/16)%2)*16)%32<1))v=140;else if(kind==='wood')v-=Math.pow(.5+.5*Math.sin(x*.73+Math.sin(y*.13)),4)*55;const i=(y*n+x)*4;bytes[i]=bytes[i+1]=bytes[i+2]=v;bytes[i+3]=255;}const t=new THREE.DataTexture(bytes,n,n);t.colorSpace=THREE.SRGBColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;t.generateMipmaps=true;t.minFilter=THREE.LinearMipmapLinearFilter;t.magFilter=THREE.LinearFilter;t.needsUpdate=true;textures.add(t);return t;}
+ function texture(kind){
+  // Small, tileable illustration-only reflectance. Unlike per-pixel white noise,
+  // periodic low-frequency stone weathering and longitudinal wood fibres retain
+  // coherent surface detail when magnified by the existing 3D material sampler.
+  // No site, architectural condition, historical wear or canon is inferred.
+  const n=64,bytes=new Uint8Array(n*n*4),tau=2*Math.PI;
+  const wave=(u,v,a,b,phase=0)=>Math.sin(tau*(a*u+b*v)+phase);
+  for(let y=0;y<n;y++)for(let x=0;x<n;x++){
+   const u=x/n,v=y/n;
+   const broad=wave(u,v,3,2,.35)*wave(u,v,1,3,.8);
+   const fleck=wave(u,v,7,-5,.1)*wave(u,v,5,4,.7);
+   let shade;
+   if(kind==='stone'){
+    // Existing course and stagger proportions are only micro-texture UV detail,
+    // not a proposed structural joint, damage event or surveyed stonework.
+    const course=Math.floor(y/16),stagger=course%2?16:0;
+    const mortar=y%16<2||(x+stagger)%32<2;
+    const block=Math.floor((x+stagger)/32)+course*3;
+    shade=mortar?146+5*broad:215+((block*31)%13-6)*.6+11*broad+4*fleck;
+   }else{
+    // Longitudinal wood grain: bounded cyclic warp avoids hard repeat seams.
+    const warp=.035*wave(u,v,0,2,.5)+.012*wave(u,v,0,5,.2);
+    const rings=wave(u+warp,v,4,0,.25);
+    const pores=wave(u+warp*.6,v,13,0,.4);
+    shade=200+19*rings+6*pores+2*broad;
+   }
+   const i=(y*n+x)*4,c=Math.max(0,Math.min(255,Math.round(shade)));
+   bytes[i]=bytes[i+1]=bytes[i+2]=c;bytes[i+3]=255;
+  }
+  const t=new THREE.DataTexture(bytes,n,n);
+  t.colorSpace=THREE.SRGBColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;
+  t.generateMipmaps=true;t.minFilter=THREE.LinearMipmapLinearFilter;
+  t.magFilter=THREE.LinearFilter;t.needsUpdate=true;textures.add(t);
+  return t;
+ }
  const stoneMap=texture('stone'),woodMap=texture('wood');
  // Architectural micro-normals are derived from the already existing 64px
  // illustrative stone/wood albedo. They change only physical light response,
