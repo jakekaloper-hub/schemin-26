@@ -97,7 +97,8 @@
   "persistent_landmarks": [
     "waterfall",
     "temple stone",
-    "dense vegetation"
+    "dense vegetation",
+    "falls vegetation break"
   ],
   "addressable_feature_handles": [
     {
@@ -130,6 +131,19 @@
       "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::DENSE-VEGETATION",
       "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
       "name": "dense vegetation",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "falls vegetation break",
       "handle_class": "PERSISTENT_FEATURE_HANDLE",
       "inherits": [
         "physical_zone",
@@ -228,7 +242,8 @@
     "Do not infer character body identity from location theme."
   ],
   "source_provenance": [
-    "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+    "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+    "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
   ],
   "generated_from": [
     "world/data/locations.json",

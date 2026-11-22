@@ -6,6 +6,21 @@ Jake selected where the first five encounters take place. For the sixth he selec
 
 Three modeled workshop desks developed this pass. The first tested whose decision changes each scene, the second wrote the Jackson negotiation, and the third tested whether the place and its people remain recognizable across cuts. Their editorial choices below build on the [previous individual council notes](SIX_LOCATION_SUMMIT_SEAT_NOTES_2026-11-22.md), [six venue dossiers](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md) and [Week 10 physical page crosswalk](https://github.com/jakekaloper-hub/schemin-26/blob/51834dd03d8ccd182e11ca41fab71481a42afa7d/memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json).
 
+## Atlas addresses for production
+
+All six sites use the existing Atlas location and sublocation resolver. The fixed landmark anchors the scene. The truck cab, spectators and temporary sporting equipment belong to the Week 11 staging. [Six scene records and three-layer notes](sets/location-bindings.json)
+
+| Matchup | Parent venue | Feature within that venue |
+|---|---|---|
+| W11-G01 | `LOC-BRIDGE-MOUNTAIN-LAKE` | `STONE-BRIDGE` |
+| W11-G02 | `LOC-SLOB-FOOTHILL-CAMP` | `HEARTHROAD-RUT` |
+| W11-G03 | `LOC-TRADE-JEDI-MOUNTAIN-BASE` | `FOOT-OF-THE-EASTERN-ASCENT` |
+| W11-G04 | `LOC-TDS-WATERFALL-TEMPLE` | `FALLS-VEGETATION-BREAK` |
+| W11-G05 | `LOC-MUD-DOGS-SWAMP` | `GATORS-DAWGS-SIGN` |
+| W11-G06 | `LOC-COUNTRY-CLUB-JACKSON` | `EXECUTIVE-OFFICE` |
+
+The full address follows `SUB::<parent venue>::<feature>`. Use the existing stone bridge with midspan specified in the scene record. The executive office also has its own 3D study. The four other feature addresses are newly registered in this pass.
+
 ## D0nkey K0ng and His Majesty’s Blood · Midspan
 
 **Founder choice.** An intense, carefully choreographed duel at the midpoint of the narrow Mountain Lake Bridge. Lake visible on both sides. Wilson Look is the brute fighter. Austin Byars carries himself with the composure of a samurai. Keep their established bodies, clothing and belt.

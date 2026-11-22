@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Week11 story-room Atlas route and venue-preflight check (not visual approval).
 
-No permanent LOC state, route, jurisdiction or environmental reference is changed.
-Checks current source map topology; weather/rights/renderer/venue sublocations stay held.
+Checks route topology and the six selected sublocations against their Atlas parents.
 """
 import hashlib
 import json
@@ -56,6 +55,28 @@ def trace(graph, origin, destination):
                 queue.append((next_location, [*history, (route_id, next_location)]))
     return None
 
+def check_scene_sites(root):
+    weekly = root / "memo-os/week-11/sets/location-bindings.json"
+    scenes = json.loads(weekly.read_text())["matchups"]
+    control = root / "world/location-control-plane"
+    registry = json.loads((control / "registries/PARENT_SUBLOCATION_REGISTRY.json").read_text())
+    by_handle = {row["handle_id"]: row for row in registry["handles"]}
+    expected_venues = {venue for _, _, venue in JOURNEYS}
+    if len(scenes) != 6 or {row["location_id"] for row in scenes} != expected_venues:
+        print("FAIL: expected six Week 11 scenes covering all six venues")
+        return False
+    for scene in scenes:
+        venue, handle = scene["location_id"], scene["sublocation_handle"]
+        registered = by_handle.get(handle)
+        card = json.loads((control / "locations" / venue / "CARD.json").read_text())
+        if not registered or registered["parent_location_id"] != venue or not any(
+            row["handle_id"] == handle for row in card["addressable_feature_handles"]
+        ):
+            print("FAIL", scene["matchup"], "unresolved site", handle)
+            return False
+        print("PASS", scene["matchup"], handle)
+    return True
+
 def main(root=REPO):
     data = (root / "world/data/routes.json").read_bytes()
     if blob_sha(data) != EXPECTED_ROUTE_BLOB:
@@ -79,7 +100,9 @@ def main(root=REPO):
             print("FAIL", id_, "location identity/canon/zone changed")
             return 1
     print(f"ROUTE_GATE: {passed}/{len(JOURNEYS)} connected (topology only)")
-    print("VENUE_HOLD: bridge is provisional; Duckhook non-golf 11-year site unverified")
+    if not check_scene_sites(root):
+        return 1
+    print("SITE_GATE: 6/6 selected sites resolve; bridge parent retains provisional status")
     print("PITTSYS_HOLD: Central Basin Book record conflicts with Commissioner TDS-waterfall placement")
     print("VISUAL_HOLD: Atlas environment bytes/canon, dynamic weather and property rights unapproved")
     return 0 if passed == len(JOURNEYS) else 1

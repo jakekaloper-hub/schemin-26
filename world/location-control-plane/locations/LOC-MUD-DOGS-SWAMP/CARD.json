@@ -97,7 +97,8 @@
   ],
   "persistent_landmarks": [
     "mud channels",
-    "raised ground"
+    "raised ground",
+    "Gators & Dawgs sign"
   ],
   "addressable_feature_handles": [
     {
@@ -117,6 +118,19 @@
       "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
       "parent_location_id": "LOC-MUD-DOGS-SWAMP",
       "name": "raised ground",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+      "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Gators & Dawgs sign",
       "handle_class": "PERSISTENT_FEATURE_HANDLE",
       "inherits": [
         "physical_zone",
@@ -214,7 +228,8 @@
   ],
   "source_provenance": [
     "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
-    "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+    "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
+    "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
   ],
   "generated_from": [
     "world/data/locations.json",

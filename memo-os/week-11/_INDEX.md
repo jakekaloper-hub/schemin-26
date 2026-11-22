@@ -25,6 +25,8 @@
 
 [Founder’s six location choices and expanded Inklings scenes](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md) · Includes the executive-office set, draft dialogue, visual sequences and result branches.
 
+[Six resolved Atlas set addresses](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#atlas-addresses-for-production) · [Week 11 scene bindings](sets/location-bindings.json) supply physical, civic and continuity notes for each location.
+
 ### Issue-wide art direction
 
 Every page, including the cover, looks photographed. Use the same signature pink, purple and aqua grade in every scene. Give every matchup full GTA VI release-week set dressing at its established Commonwealth venue. Draw from all four selected cues: sunset pink and tangerine skies with deep violet shadows, headlights on wet roads and neon reflected in glass, trailer-style angles and lifelike close-ups, and bold title lettering with sharply framed character portraits. Choose practical sources appropriate to the venue and time of day. Preserve the twelve approved likenesses, team identifiers and Atlas geography.
