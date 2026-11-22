@@ -1,0 +1,128 @@
+{
+  "schema": "schemin26.truth_plane_row_diff.v1",
+  "run_id": "S26-MEMO-W11-20261122",
+  "trace_id": "TRACE-S26-MEMO-20261122-1417621",
+  "work_key": "league=1417621/season=2026/week=11/observation=2026-11-22/source=flaim-espn",
+  "observation_date": "2026-11-22",
+  "league_id": "1417621",
+  "season": 2026,
+  "compared_to": {
+    "path": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-21.json",
+    "pr": 313,
+    "review_state": "DRAFT"
+  },
+  "typed_key": "espn_event_id.kind+':'+espn_event_id.value",
+  "transaction_rows": {
+    "week8": {
+      "previous_count": 32,
+      "current_count": 32,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 32
+    },
+    "week9": {
+      "previous_count": 42,
+      "current_count": 42,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 42
+    },
+    "week10": {
+      "previous_count": 41,
+      "current_count": 41,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 41
+    },
+    "week11": {
+      "previous_count": 42,
+      "current_count": 43,
+      "added": [
+        {
+          "transaction_id": "d617f8ce-be11-4f43-a416-962b314a716f",
+          "espn_event_id": {
+            "kind": "string",
+            "value": "d617f8ce-be11-4f43-a416-962b314a716f"
+          },
+          "type": "add",
+          "status": "complete",
+          "timestamp": 1795286780701,
+          "timestamp_source": "proposedDate",
+          "date": "2026-11-21",
+          "week": 11,
+          "provider_scoring_period_id": 11,
+          "team_ids": [
+            "12"
+          ],
+          "players_added": [
+            {
+              "id": "4710714",
+              "name": "De'Zhaun Stribling",
+              "position": "WR",
+              "team": "SF"
+            }
+          ],
+          "players_dropped": [
+            {
+              "id": "4685720",
+              "name": "Bryce Young",
+              "position": "QB",
+              "team": "CAR"
+            }
+          ],
+          "faab_bid": 0
+        }
+      ],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 42
+    }
+  },
+  "matchups": {
+    "week9": {
+      "pairing_change": false,
+      "score_or_winner_change": false,
+      "projection_change": false
+    },
+    "week10": {
+      "pairing_change": false,
+      "score_or_winner_change": false,
+      "projection_change": false
+    },
+    "week11": {
+      "pairing_change": false,
+      "score_or_winner_change": false,
+      "projection_change": true
+    }
+  },
+  "competitive_standings_diffs": [],
+  "standings_metadata_diffs": [
+    "Dr. Duckhook",
+    "Seven Deadly Chins"
+  ],
+  "status_distribution_week11": {
+    "complete": 32,
+    "canceled": 5,
+    "failed": 6
+  },
+  "preliminary_checks": {
+    "passed": 70,
+    "failed": [],
+    "checks": 70
+  },
+  "source_limitations": {
+    "week8": {
+      "structured_details_incomplete": true
+    },
+    "week9": {
+      "structured_details_incomplete": true
+    },
+    "week10": {},
+    "week11": {}
+  },
+  "revision_warnings": [],
+  "score_update_classification": "NO_CURRENT_POINT_OR_WINNER_CHANGE"
+}
