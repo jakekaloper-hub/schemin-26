@@ -473,6 +473,16 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vec3 crossingNormal=faceNormal.y<0.?-faceNormal:faceNormal;
      float crossingSpark=pow(max(dot(reflect(-crossingKey,crossingNormal),eyeRay),0.),10.);
      float crossingCrest=vCrossCrest*(.35+.65*crossingSpark);
+     // Shared March only: ordinary moving bank-waterline glints follow the
+     // SAME existing crossing ripple phase, with subpixel attenuation.
+     // Bank edges are illustrative inside the original disk, not new topology.
+     vec2 bankXY=(vUv-.5)*2.;
+     float bankY=abs(bankXY.y);
+     float bankBand=smoothstep(.55,.67,bankY)*(1.-smoothstep(.76,.87,bankY));
+     float bankInterior=1.-smoothstep(.78,.93,length(bankXY));
+     float bankPhase=bankXY.y*18.8-uTime*2.1+sin(bankXY.x*5.)*.55;
+     float bankFootprint=fwidth(bankPhase);
+     float bankWake=uCrossing*bankBand*bankInterior*pow(max(sin(bankPhase),0.),4.)*(1.-smoothstep(.35,1.15,bankFootprint));
      float bridgeR=min(length((vUv-.5)*2.-vec2(-.39,0.)),length((vUv-.5)*2.-vec2(.39,0.)));
      float bridgeSheen=uBridge*exp(-bridgeR*10.)*pow(max(sin(bridgeR*24.-uTime*1.7),0.),8.)*(1.-smoothstep(.58,.95,length((vUv-.5)*2.)));
      // Candidate lake bridge sheen derives from its displaced water normal.
@@ -509,6 +519,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vec3 c=clamp(uColor+vec3(.09,.15,.14)*line*gap+viewTint,0.,1.);
      c=clamp(c+vec3(.035,.065,.06)*crossingSheen,0.,1.);
      c=clamp(c+vec3(.032,.048,.045)*crossingCrest,0.,1.);
+     c=clamp(c+vec3(.035,.051,.041)*bankWake,0.,1.);
      c=clamp(c+vec3(.055,.09,.08)*bridgeSheen,0.,1.);
      c=clamp(c+vec3(.025,.046,.044)*bridgeCrest,0.,1.);
      c=clamp(c+vec3(.13,.18,.17)*lakeGlint,0.,1.);
