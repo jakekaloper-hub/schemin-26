@@ -4,21 +4,25 @@ Week 11 owner notes relayed by Jake on November 22. Austin Byars wants D0nkey K0
 
 At 5:24 p.m. ET on November 22, ESPN via Flaim returned `UNDECIDED` for both Week 11 matchups in league 1417621. Select each ending independently when ESPN posts its winner. The cap belongs to the bridge scene after the duel. The hunter costume belongs at the falls after the sporting finish. [League scoreboard](https://fantasy.espn.com/football/league/scoreboard?leagueId=1417621&seasonId=2026&matchupPeriodId=11)
 
-## Inklings story room
+## Founder revision · The lake ends the bridge duel
 
-The modeled Inklings desks tested who gets the first laugh, who gets the last look, and whether the reader could follow each beat coming straight from Week 10. Both recommended scenes are in the [working manuscript](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md). These alternatives give the editor a choice of emphasis.
+The subsequent direction gives the last strike and its near-fatal fall to either verified winner. In the His Majesty’s Blood version, Austin names Wilson his jester from the parapet once Wilson surfaces. He drops the cap to Wilson and they depart separately. In the D0nkey K0ng version, Wilson waits for evidence Austin survived, then leaves while Austin swims away. Use the [revised bridge manuscript](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#the-last-strike-at-mountain-lake) for staging and the last photograph. The on-deck jester performances below record the earlier workshop and have been superseded. The Red Leopards options remain current.
+
+## Original Inklings story room
+
+The modeled Inklings desks tested who gets the first laugh, who gets the last look, and whether the reader could follow each beat coming straight from Week 10. These were the candidates before the Founder specified the fall. The [working manuscript](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md) carries the current staging for both games.
 
 | Ending | Candidate | What the reader gets |
 |---|---|---|
-| His Majesty’s Blood wins | **The road announcement** · preferred | Austin makes Wilson his jester. Wilson uses his first royal announcement to tell the waiting carter he may use his own bridge again. Cut to the driver waiting for Austin to actually move. The gag pays off the traffic held at the approach. |
-| His Majesty’s Blood wins | **Terms of employment** · quieter | Wilson accepts the cap and feels the weight of its single loudest bell. “What’s it pay?” Austin answers, dead serious, “So far? A hat.” Wilson puts it on, looks down at the fit and laughs first. Favor this version if the page has room for only the two rivals. |
+| His Majesty’s Blood wins | **The road announcement** · superseded | Austin makes Wilson his jester. Wilson uses his first royal announcement to tell the waiting carter he may use his own bridge again. Cut to the driver waiting for Austin to actually move. The gag pays off the traffic held at the approach. |
+| His Majesty’s Blood wins | **Terms of employment** · superseded | Wilson accepts the cap and feels the weight of its single loudest bell. “What’s it pay?” Austin answers, dead serious, “So far? A hat.” Wilson puts it on, looks down at the fit and laughs first. Favor this version if the page has room for only the two rivals. |
 | Red Leopards wins | **The dry cap** · preferred | Phillip spots the bone-dry cap in the falls spray. “When did you pack that?” “Tuesday.” One insert of the dry brim pays off Kevin’s expectation of an easy win. Hold their shared portrait long enough to see Phillip work out what the answer means. |
 | Red Leopards wins | **One good picture** · visual comedy | Kevin, dressed for the Florida python hunt, props his phone on the rolled bag. The timer fires. Each of Phillip’s three heads is looking in a different direction. Kevin checks the photo. “Can I get one where everybody’s looking?” Phillip studies it. “I like this one.” The host gets a say in the portrait he appears in. |
 | Red Leopards wins | **A tip for each head** · silent | Kevin tips his field hat to the head that acknowledges him. The other two wait. He catches on and solemnly tips the hat twice more. Finish wide enough to see the third tip returned with the smallest nod. Use this if the sports page already carries a lot of dialogue. |
 
 The dry cap works with either temple sport under consideration. The marker, footing and finish establish the actual contest on Phillip’s outer property line. His household stays off camera. The field portrait lets Kevin indulge his boast while Phillip remains recognizable as the host. At the bridge, the carter from the lived-in set study gives Wilson an audience without bringing in a royal court. Austin’s wish becomes visible in Week 11. The duration of the appointment beyond this issue is open.
 
-## Twelve production disciplines
+## Original twelve production disciplines
 
 These are modeled craft contributions using the project’s production bench. [Specialist bench](../cinematography/PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json) · [Inklings and editorial registry](../../living-novel/consultants/ADVISOR_REGISTRY_V1.json)
 
@@ -39,7 +43,7 @@ These are modeled craft contributions using the project’s production bench. [S
 
 Use [Wilson’s](../../canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json), [Austin’s](../../canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json), [Kevin’s](../../canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json) and [Phillip’s](../../canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json) current appearance records. Austin stays hooded, red-eyed and belted. Florida is the wardrobe reference. The [six Atlas bindings](sets/location-bindings.json) place the camera in the Commonwealth.
 
-## Bullpen board decision
+## Bullpen board decision before the lake revision
 
 The Week 11 owner docket went through the Bullpen’s `/bullpen board` command and `conveneBoardMeeting`. The meeting ran November 22 from 5:24:47 to 5:25:43 p.m. ET. All six selected AI director seats returned replies. The Closer also synthesized the board. The run completed with seven traces and zero seat errors. The director board favored the ceremonial bridge portrait and Kevin’s feline profile against the falls. The story and production desks supplied the dialogue, costume and alternate shots above.
 

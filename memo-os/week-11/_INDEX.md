@@ -49,7 +49,7 @@ The Founder left the interior action/dialogue layout (Q6) and preferred targets 
 
 | Matchup | Week 11 composition |
 |---|---|
-| D0nkey K0ng / His Majesty’s Blood | Narrow Mountain Lake Bridge, at midspan, lake visible on both sides. Wilson’s brute force and Austin’s samurai-like composure define the duel. |
+| D0nkey K0ng / His Majesty’s Blood | Narrow Mountain Lake Bridge, at midspan, lake visible on both sides. Wilson’s brute force meets Austin’s samurai-like composure. The winner’s [near-fatal final strike](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#the-last-strike-at-mountain-lake) sends the loser into the lake. Their separation closes the story. |
 | Slob on my Dobb / El Niño | Inside Jordan’s truck cab at the edge of Hearthroad, looking out at the filling rut. The prior cargo shelter remains the Week 10 handoff. |
 | ObiWan Jacoby / The Chili Cheesers | At the foot of the Eastern Ascent, with the spectators above Jake and Brandon. After Dark uses the separate shack. |
 | Red Leopards / Three Dreaded Snake | At the vegetation break near the falls on Phillip’s outer property line. The sport remains open. |

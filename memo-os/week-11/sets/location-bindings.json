@@ -17,16 +17,24 @@
       "set_dressing": {
         "study_panel": "upper left",
         "surface": "Wheel-polished intact center stones with a slightly rougher reset stone beside a working lantern.",
-        "local_routine": "A carter waits at the approach and resumes the crossing when the two clear it.",
+        "local_routine": "A carter waits at the approach, watches the fall and waits for the loser to surface.",
         "camera_continuity": "Keep the lamp and reset stone together in the reverse. Both lake edges must clear the figures in the midspan master."
       },
       "owner_victory_coda": {
         "team": "His Majesty’s Blood",
         "character_id": "CHAR-AUSTIN-BYARS",
         "trigger": "Confirmed ESPN Week 11 win over D0nkey K0ng",
-        "sequence": "After the duel at midspan Austin appoints Wilson his jester. Wilson puts on the cap and announces the reopened road to the waiting carter.",
+        "sequence": "Austin’s nearly fatal final strike sends Wilson off the bridge into the lake. Once Wilson surfaces, Austin drops him the cap and names him jester from the parapet. Wilson takes it and makes for shore as Austin walks away.",
         "on_other_result": "Keep the cap packed. Use the Wilson-win or unresolved bridge ending.",
         "brief": "memo-os/week-11/OWNER_VICTORY_CODAS_2026-11-22.md"
+      },
+      "duel_finish": {
+        "source": "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#the-last-strike-at-mountain-lake",
+        "final_water_handle": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::LAKE",
+        "verified_winner": "A violent, nearly fatal final strike drives the loser off the intact bridge and into the lake. The winner stays on deck as the loser surfaces alive and makes for shore. Their separation closes the storyline.",
+        "if_wilson_wins": "Wilson sends Austin into the lake and waits until he hears him cough. Austin keeps his belt.",
+        "if_austin_wins": "Austin sends Wilson into the lake. Apply the jester appointment across the distance.",
+        "pending_or_tied": "Hold at midspan with both on the bridge."
       }
     },
     {
