@@ -260,7 +260,7 @@ async function main(){
    cameraViewHeld:true,ordinaryWaterAdvanced:true,pausedSceneHashesEqual:true,sourceUnchanged:true,
    sites,captures:wetlandTemporalCaptures.map(({file,placeId,waterTime,motionState,frames,bytes,width,height})=>
     ({file,placeId,waterTime,motionState,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
-  },null,2)+'\\n',{flag:'wx'});
+  },null,2)+'\n',{flag:'wx'});
  }
  if(captureDir){
   assert.equal(captured.length,4,'Missing candidate scene coverage');
