@@ -132,6 +132,29 @@ This mode is optional engineering/art inspection evidence only, does not
 change the observer's runtime, and does not confer Founder art acceptance,
 performance certification, publication or deployment.
 
+## Optional three-place Southern Wetlands physical-GPU temporal gate
+
+When an authorized physical-WebGL2 Chrome device is available, run the existing
+**unpublished** source-only observer through all three recorded Southern Wetlands
+sites, without modifying any geometry or weather source:
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs \\
+  /tmp/commonwealth-preview/observer.html \\
+  --wetlands-temporal-dir /tmp/commonwealth-wetlands-temporal-candidate
+```
+
+This distinct mode refuses existing directories and is mutually exclusive with
+`--capture-dir` and `--temporal-dir`. It verifies the normal 23-place, history,
+no-external-request and El Niño loss→synthetic GLOBAL_CALM journey before creating
+**12 PNG frames**: moving and explicitly paused pairs from each existing Jackson
+water-hazard, Waterfall Temple and Mud Dogs Swamp view. Source-exact Atlas IDs,
+observed GPU, unchanged viewpoint, animation times, viewport dimensions, source
+revision and per-file SHA-256 are retained in a read-only manifest. Full-scene
+moving pixels are *not* proof of isolated water-pixel movement. The gate does not
+produce images on a non-GPU host, change the audience site, certify artistic
+acceptance, merge or publish anything.
+
 ## Honest boundaries
 
 The regional assets remain visualization candidates. The source's recorded
