@@ -464,12 +464,18 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vec2 mireXY=(vUv-.5)*2.;
      float mireR=length(mireXY-vec2(.12,-.08));
      float mireSilt=uMire*exp(-mireR*3.2)*(.5+.5*sin(mireR*17.-uTime*.81+mireXY.x*4.8-mireXY.y*3.1))*(1.-smoothstep(.58,.95,length(mireXY)));
+     // Source-exact Mire Hill: thin shallow-water pigment at the EXISTING disk edge.
+     // The view term suppresses sediment at grazing angles; no depth or bank claim.
+     float mireRim=smoothstep(.62,.86,length(mireXY))*(1.-smoothstep(.91,.975,length(mireXY)));
+     float mirePatch=clamp(.72+.28*sin(mireXY.x*22.+sin(mireXY.y*13.)*1.2)*sin(mireXY.y*19.),0.,1.);
+     float mireShallow=uMire*mireRim*mirePatch*(1.-.7*grazing);
      vec3 c=clamp(uColor+vec3(.09,.15,.14)*line*gap+viewTint,0.,1.);
      c=clamp(c+vec3(.035,.065,.06)*crossingSheen,0.,1.);
      c=clamp(c+vec3(.055,.09,.08)*bridgeSheen,0.,1.);
      c=clamp(c+vec3(.13,.18,.17)*lakeGlint,0.,1.);
      c=clamp(c+vec3(.045,.075,.074)*barrierSheen,0.,1.);
      c=clamp(c+vec3(.052,.034,-.008)*mireSilt,0.,1.);
+     c=mix(c,vec3(.31,.29,.22),.17*mireShallow);
      gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
   const o=mesh(g,existingWaterDisk(),material,x,y,z,'Moving '+kind+' candidate');o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.receiveShadow=false;water.push({mesh:o,material,kind});return o;
  }
