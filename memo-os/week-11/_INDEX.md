@@ -21,6 +21,8 @@
 
 [Six-matchup Atlas summit](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md) · All twelve Week 10 exits, the November 22 TheFFHub baseline and a three-layer location check for every scene. [Individual board notes by matchup](SIX_LOCATION_SUMMIT_SEAT_NOTES_2026-11-22.md) cover the Inklings, production specialists and eighteen directors.
 
+[Matchup location-ID selections](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md#week-11-location-selections-from-the-november-20-brainstorm) · Current working sets, the competing brainstorm IDs and the terrain view for each parent.
+
 ### Issue-wide art direction
 
 Every page, including the cover, looks photographed. Use the same signature pink, purple and aqua grade in every scene. Give every matchup full GTA VI release-week set dressing at its established Commonwealth venue. Draw from all four selected cues: sunset pink and tangerine skies with deep violet shadows, headlights on wet roads and neon reflected in glass, trailer-style angles and lifelike close-ups, and bold title lettering with sharply framed character portraits. Choose practical sources appropriate to the venue and time of day. Preserve the twelve approved likenesses, team identifiers and Atlas geography.
