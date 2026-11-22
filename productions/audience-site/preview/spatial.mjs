@@ -18,3 +18,34 @@ export function modeCamera(mode,target=[0,0,0]){
 export function locationCamera(bindings,id){const p=bindings.find(p=>p.id===id);if(!p)throw new Error('UNKNOWN_LOCATION');return {...modeCamera('GROUND',p.anchor),distance:30,pitch:.65};}
 export function illustrativeLight(hour){if(!Number.isFinite(hour)||hour<0||hour>=24)throw new Error('INVALID_HOUR');const day=Math.max(0,Math.sin((hour-6)/12*Math.PI));return {strength:.32+day*.68,direction:[-.65,.25+day*.9,.25],solarModel:'ILLUSTRATIVE_NOT_ASTRONOMICAL'};}
 export function previewMetadata(c){return {sourceRevision:c.sourceRevision,sourceStateAsOf:c.stateAsOf,publicationAuthorized:false,visualAcceptance:'NOT_REVIEWED',weatherSource:'NOT_CONNECTED',geometry:'PROCEDURAL_SPATIAL_STUDY_NOT_CANONICAL_GEOMETRY',inhabitants:'NOT_IMPLEMENTED'};}
+
+/** Source-anchor-only regional view; never filters or repositions Atlas places. */
+export function regionalOverviewCamera(bindings,zoneId,aspect=16/9){
+  if(!Array.isArray(bindings)||typeof zoneId!=='string'||!zoneId||!Number.isFinite(aspect)||aspect<=0)throw Error('INVALID_REGIONAL_VIEW');
+  const points=bindings.filter(p=>p.zoneId===zoneId);
+  if(!points.length)throw Error('UNKNOWN_REGION');
+  if(points.some(p=>!Array.isArray(p.anchor)||p.anchor.length!==3||!p.anchor.every(Number.isFinite)))throw Error('INVALID_REGIONAL_ANCHOR');
+  const xs=points.map(p=>p.anchor[0]),zs=points.map(p=>p.anchor[2]);
+  const target=[(Math.min(...xs)+Math.max(...xs))/2,4,(Math.min(...zs)+Math.max(...zs))/2],yaw=.15,pitch=.88;
+  const right=[Math.cos(yaw),0,-Math.sin(yaw)];
+  const up=[-Math.sin(yaw)*Math.sin(pitch),Math.cos(pitch),-Math.cos(yaw)*Math.sin(pitch)];
+  const approach=[Math.sin(yaw)*Math.cos(pitch),Math.sin(pitch),Math.cos(yaw)*Math.cos(pitch)];
+  const dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+  let horizontal=0,vertical=0,depth=0;
+  for(const p of points){
+    const offset=p.anchor.map((v,i)=>v-target[i]);
+    horizontal=Math.max(horizontal,Math.abs(dot(offset,right)));
+    vertical=Math.max(vertical,Math.abs(dot(offset,up)));
+    depth=Math.max(depth,Math.abs(dot(offset,approach)));
+  }
+  // Match the existing Three/fallback 41.25-degree perspective and responsive
+  // camera fit. Margins cover candidate structures, not new physical topology.
+  const halfFov=Math.tan(41.25*Math.PI/360);
+  const required=Math.max((horizontal+16)/(halfFov*aspect),(vertical+12)/halfFov)+depth+10;
+  const widthFit=Math.max(1,1.25/aspect),nearFit=Math.min(widthFit,1.25);
+  // Both existing renderers switch fit at distance >100; invert that exact
+  // rule so portrait views never crop the inherited anchor envelope.
+  const distance=required<=100*nearFit?required/nearFit:Math.max(100.01,required/widthFit);
+  if(!Number.isFinite(distance)||distance>280)throw Error('REGION_OUTSIDE_CAMERA_BUDGET');
+  return {target,distance:Math.max(12,distance),yaw,pitch};
+}

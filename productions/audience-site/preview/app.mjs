@@ -1,7 +1,7 @@
 /* Mount the source foundation into a private, offline observer preview. */
 const {createObserver,transitionObserver}=ObserverWorld;
 const {observerClock,resolveObserverWeather}=ObserverWeather;
-const {spatialBindings,defaultCamera,cameraStep,modeCamera,locationCamera,illustrativeLight,previewMetadata}=Spatial;
+const {spatialBindings,defaultCamera,cameraStep,modeCamera,locationCamera,regionOverviewCamera,illustrativeLight,previewMetadata}=Spatial;
 const createWorldRenderer=(canvas,bindings,options)=>{
  if(THREE){try{return ThreeWorldRenderer.createThreeWorldRenderer(THREE,canvas,bindings,{...options,buildWorldGeometry:WorldRenderer.buildWorldGeometry,buildRegionalAssets:RegionalAssets.buildRegionalAssets,buildAtlasSiteAssets:AtlasSites.buildAtlasSiteAssets,atlasSiteIds:AtlasSites.supportedAtlasSiteIds()});}catch(e){if(e.message!=='WEBGL2_UNAVAILABLE')throw e;}}
  return WorldRenderer.createWorldRenderer(canvas,bindings,options);
@@ -108,7 +108,14 @@ $('#infoToggle').onclick=()=>{const open=$('#infoPanel').hidden;escapePanels();$
 $('#inspectorClose').onclick=closeInspector;$('#inspectSource').onclick=()=>{$('#infoPanel').hidden=false;$('#inspector').hidden=true;$('#infoClose').focus({preventScroll:true});};
 $('#placeSearch').oninput=e=>{for(const b of $('#placeList').children)b.hidden=!b.textContent.toLowerCase().includes(e.target.value.toLowerCase());};
 $('#returnWorld').onclick=wholeWorld;$('#inspectorWorld').onclick=wholeWorld;
-$('#wetlandsView').onclick=()=>{if(!canControl())return;const p=bindings.filter(x=>x.zoneId==='REG-SOUTHERN-WETLANDS');if(!p.length)return;selected=null;escapePanels();target={target:[p.reduce((s,x)=>s+x.anchor[0],0)/p.length,4,p.reduce((s,x)=>s+x.anchor[2],0)/p.length],distance:105,pitch:.88,yaw:.15};if(paused)camera=structuredClone(target);};
+$('#wetlandsView').onclick=()=>{
+ if(!canControl())return;
+ const fromInspector=$('#inspector').contains(document.activeElement);
+ const overview=regionOverviewCamera(bindings,'REG-SOUTHERN-WETLANDS',canvas.clientWidth/Math.max(1,canvas.clientHeight));
+ dispatch({type:'world_view'});selected=null;escapePanels();target=overview;
+ if(paused)camera=structuredClone(target);
+ if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});
+};
 for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>{if(state.phase!=='EXPLORING')return;dispatch({type:'camera',mode:b.dataset.view});target=modeCamera(b.dataset.view,selected?.renderAnchor||[0,0,0]);if(!selected&&b.dataset.view==='AERIAL')target=defaultCamera();for(const x of document.querySelectorAll('[data-view]'))x.classList.toggle('active',x===b);if(paused)camera=structuredClone(target);};
 function setPaused(v){paused=v;$('#motionToggle').setAttribute('aria-pressed',String(paused));$('#motionToggle').textContent=paused?'▷':'Ⅱ';$('#motionToggle').setAttribute('aria-label',paused?'Resume environmental motion':'Pause environmental motion');if(paused)camera=structuredClone(target);}
 $('#motionToggle').onclick=()=>setPaused(!paused);setPaused(paused);
