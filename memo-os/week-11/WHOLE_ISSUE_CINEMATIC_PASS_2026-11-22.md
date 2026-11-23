@@ -45,7 +45,12 @@ The November 20 Founder interview supplies all 58 responses. The November 21 vis
 
 At the November 22 3:05 p.m. ET player read, all six results were open. Keep the actual scores as typeset reporting. Use the following verified player details to determine where to return to the story after the final rather than writing the fictional action as sports evidence.
 
+**Week 11 shared weather source:** [November 23 El Niño Commonwealth weather-continuity pass](preproduction/WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md) traces the original Week 10 storm to all six scenes and supporting folios. It is a proposed regional atmosphere/storytelling overlay; only approved `ATMOSPHERIC_MANIFESTATION` may be directly named as El Niño beyond the embodied scene, and Tuesday results must select any winner-specific commentary. This does not add pages or alter source weather physics.
+
 ## G01 · Mountain Lake Bridge | His Majesty’s Blood at D0nkey K0ng
+
+**Week 11 regional-weather overlay (November 23).** Carry Week 10's **weaker Upper Valleys outer-band weather** onto the same bridge in a restrained way: a cart cover rattles, Austin's crimson cloak tugs toward the lake, a small trickle follows the repaired parapet. Wilson still chooses provocative courtesy and Austin still recognizes the waiting carter. Neither falling fighter is blown into the lake by a convenient lightning strike; the duel and verified winner govern that action. This is a proposed depiction of the same broader front, not a claim Manning is physically at the bridge.
+
 
 **Football cut.** Texans D/ST had 23.80 on DK’s bench and his starting Chiefs had 15.90. If the final gap matters, return to Wilson watching someone else make use of the lane he opened.
 
@@ -66,6 +71,9 @@ At the November 22 3:05 p.m. ET player read, all six results were open. Keep the
 **Board decision.** Give the carter the listening shot. A close-up of the winner celebrating there would hide the instant the fight frightens its victor. At phone size, check the four-legged silhouette, separate shoreward wake, hood or Arsenal colors, belt continuity and the same midspan lantern across reverses. The Founder’s revised lake ending supersedes the earlier on-deck jester routine. The spoken lines are character copy.
 
 ## G02 · Hearthroad | El Niño at Slob on my Dobb — The last safe shoulder
+
+**Week 11 regional-weather overlay (November 23).** This pairing is the **primary direct weather confrontation** within an issue whose other five locations respond differently to the inherited Week 10 front. Manning's local physical perspective remains at Jordan's Hearthroad window. His Week 11 victory, if official, would support a *stronger editorial reading* of his Commonwealth momentum but cannot alone certify new storm-event state or a truck-capable Delta Causeway.
+
 
 **Founder November 23 disaster continuation; operative Inklings/Production branch.** Keep Week 10's covered kegs and release-week photographic color, the established Hearthroad cab opening, the promised taproom delivery at six and Manning Welty's face at Jordan Hollingshead's window. The new continuation, if supported by route review, takes the truck toward the **Southern Wetlands on a later delivery/return leg**; the potential peril is a loaded truck with rear wheels hanging over a **washed-out raised swamp-road shoulder** under wind and flooding, not a newly invented mountain cliff or permanently destroyed road.
 
@@ -89,6 +97,9 @@ At the November 22 3:05 p.m. ET player read, all six results were open. Keep the
 **Inklings source:** TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md#hearthroad--the-last-safe-shoulder. **Folio instructions:** preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-12.
 
 ## G03 · The Chili Cheesers and ObiWan Jacoby at the foot of the Eastern Ascent
+
+**Week 11 regional-weather overlay (November 23).** The same weaker Upper Valleys gust may flutter Pittsy's posted **OFF BOARD** notice and make Brandon hold the **Week 10 recovered hat** more securely; a passing cloud shadow can change the crowd's lighting. This is atmospheric continuity, not a second gimmick. Brandon's ONE throw, not wind or a storm, causes the Wolf Brand Chili dunk; Jake's quiet ladder reaction and playoff reality remain separately evidence-gated. Do not duplicate an embodied El Niño above the carnival.
+
 
 **Football cut.** Ward, Montgomery and Steelers D/ST had delivered 55.00 for The Chili Cheesers. Follow Lawrence, Waddle and Chargers D/ST for ObiWan Jacoby before choosing the line at the ladder.
 
@@ -120,6 +131,9 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 
 ## G04 · Red Leopards at Three Dreaded Snake | First choice
 
+**Week 11 regional-weather overlay (November 23).** Kevin arrives after **Week 10's storm damage** to his eastern soccer terrace and later Central Basin Forgotten Court. His attention to the waterfall-boundary finish line is now personal: he has seen seemingly controlled ground fail. Recent rain and falls spray make Phillip's existing **dry stone** valuable, but no new catastrophic flood destroys his household or hands the contest to a protagonist. If the short race is chosen, the first-palm rule and conditional Florida outfit remain the causality.
+
+
 **Football cut.** Javonte Williams and Caleb Williams totaled 39.22 for Snake. Check how Red’s Nix and Chase answered before choosing the finish and whether the bag opens.
 
 **Week 10 carryover.** On physical pp. 8–10 the rain got through Kevin Zeek’s defenses and left him sitting at his damaged court. On pp. 12–14 Ben Whipple’s jackhammer cost Phillip Pitts the quiet of his temple. That gives both men a reason to study a single finish marker at the outer property line. Kevin wants to know exactly where a contest ends. Phillip wants to choose where a guest may begin.
@@ -134,6 +148,9 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 **Other cuts.** Phillip wins · Kevin calls it first. “Yours.” Phillip lets him choose the dry route home. Tie · both reach the cloth together, the bag stays rolled and the desk recalculates the standings. Pending · freeze one stride before the marker, bag still shut. The race and photograph are storyboard options. The November 19 House sheet puts this matchup off board.
 
 ## G05 · Seven Deadly Chins at Mud Dogs | The wrong way to paradise
+
+**Week 11 regional-weather overlay (November 23).** Week 10's Southern Wetlands had wet old racing ruts while the raised freight strip stayed usable. **Delayed downstream runoff** now makes Bobby's false path glimmer deceptively from Ben's truck, while Bobby's dry paw exposes a genuine safe strip. Weather heightens the chance Ben will trust the lie; **Bobby deliberately gives wrong directions** rather than the weather inventing his choice or changing an ESPN score. Keep the existing sign and right-hand Cancún card; no permanent swamp road closure or literal route to Playoff Island.
+
 
 **Governing November 23 Founder cut.** This replaces the prior G05 fair-footrace, truthful warning and helpful-return scene. Retain historical workshops as unselected studies; do not mirror their obsolete contest actions in operative generation requests. Bobby Mitchell's private message is **not a direct quotation for publication**. Its meaning is a difficult season, offseason reckoning, the specter of Losers Beach, and restrained satisfaction if he damages Ben Whipple's playoff hopes.
 
@@ -157,6 +174,9 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 **Read next.** Inklings: TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md. Founder staged treatment: FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md. F19–F20: preproduction/OPEN_BOARD_PAGE_REHEARSAL.md. Status: PREPRODUCTION / UNDECIDED / NO ART LOCK.
 
 ## G06 · The second sheet
+
+**Week 11 regional-weather overlay (November 23).** At Jackson, unlike the exposed coast, wet windows and the groundskeeper returning a rain-damp **working course key** are enough. The weather highlights why Zach values daily stewardship of an operating property while David's purchase offer treats it as an acquisition. Warm desk light and the unchanged brass hook stay the visual center. Nothing about the weather creates, cancels or changes the Founder-directed LLC board action; only the coffee coda branches after a confirmed football result.
+
 
 **The LLC at Dr. Duckhook · Country Club of Jackson, executive office.** Week 10 sent David Babb home with a 203.96–166.53 road win over ObiWan Jacoby. Zach Wilson spent his birthday at Jackson losing 208.76–127.67 to His Majesty’s Blood. Now David is the guest again. He arrives with an offer he expects Zach to take seriously. Zach has made a series of calls David never saw coming.
 
