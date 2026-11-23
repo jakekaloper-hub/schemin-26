@@ -58,13 +58,14 @@ test('Canvas2D fallback retains the 120 water glints, including during synthetic
  assert.equal(x.calls.clips,0);
 });
 
-test('bounded storm overlay remains independent from WebGL water ownership',()=>{
+test('bounded regional storm optics reproject 110 existing-world drop columns without duplicating WebGL water glints',()=>{
  const x=instrument('three-webgl2',1);
  x.drawAmbient(12);
  assert.equal(x.calls.ellipses,0);
- assert.equal(x.calls.clips,1);
+ assert.equal(x.calls.clips,0,'world-projected rain no longer clips an unoccluded screen polygon');
+ assert.equal(x.calls.height,110,'each drop samples its existing terrain elevation once');
+ assert.equal(x.calls.projection,220,'both 3D endpoints of 110 rain strokes project through the world camera');
  assert.equal(x.calls.strokes,110);
- assert.equal(x.calls.projection,4);
 });
 
 test('weather demonstration, ordinary water time, and physical shader remain unchanged',()=>{
