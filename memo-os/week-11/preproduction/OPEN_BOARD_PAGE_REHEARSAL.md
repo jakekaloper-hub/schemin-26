@@ -1,5 +1,9 @@
 # One Last Crossing · Week 11 page-turn rehearsal
 
+**Twelve production-disciplines’ visual direction:** [all 35 folio leads and QA](W11_12_PRODUCTION_LEADS_VISUAL_OWNERSHIP_2026-11-23.md) · [page-by-page blocking/lens/light/source directives](W11_ALL_35_VISUAL_DIRECTOR_SHOT_SPECS_2026-11-23.md) · [six portable illustrated storyboard previews](visual-previs/README.md). All remain PREPRODUCTION; no final weekly results or independent PNG approval.
+
+**Twelve-production visual director pass:** [All 35 shots, exactly one visual lead per folio](W11_12_PRODUCTION_LEADS_VISUAL_OWNERSHIP_2026-11-23.md) · [art direction and 390px QA by folio](W11_ALL_35_VISUAL_DIRECTOR_SHOT_SPECS_2026-11-23.md). Existing individual F01–F35 briefs, their tldraw positions and all image studies remain intact. The 35 candidate base compositions can advance now; final score/winner overlays and source/character/site gates still await verified evidence.
+
 **Actual Week 11 tldraw salvage (November 23):** [Verified 35-folio board page and 28 updated storyline/review cards](W11_PRE_MNF_SALVAGE_TLDRAW_HANDOFF_2026-11-23.md). This link is a local visual-planning source; native final 1080×1920 PNGs, exact source mounts, and Tuesday winner branches remain separate required gates.
 
 **November 23 full Bullpen/Inklings/Production summit:** [all 35 folios, six source-filtered panels and 420 questions](SUMMIT_18_DIRECTORS_46_STAFF_8_INKLINGS_12_PRODUCTION_2026-11-23.md) · [all 84 role questions](SUMMIT_84_ROLE_420_QUESTION_ROLLCALL_2026-11-23.md). Retain existing individual page commissions as operative; summit decisions are editorial reinforcement, not automatic render or Fact Lock.
