@@ -42,7 +42,8 @@ test('native WebGL render path sends held ordinary time, not zero, to its existi
  assert.doesNotMatch(source,/gl\.uniform1f\(loc\.uTime,paused\?0:time\)/);
  assert.match(source,/if\(uWater>\.5\)p\.y\+=sin\(p\.x\*\.21\+uTime\*\.55\)/);
  assert.match(source,/if\(uWater>\.5\)\{float slopeX=/);
- assert.match(source,/n=normalize\(vec3\(-slopeX,1\.,-slopeZ\)\)/);
+ assert.match(source,/currentSlope=riverSlope\(vWorld\.x,vWorld\.z,uTime\)/);
+ assert.match(source,/n=normalize\(vec3\(-slopeX-currentSlope\.x,1\.,-slopeZ-currentSlope\.y\)\)/);
  // This fix affects only native fallback; the source-bound Three and regional assets stay untouched.
  assert.doesNotMatch(source,/fetch\(|writeWorldState|publishObserver|createPrincipalCharacter/);
 });

@@ -10,7 +10,7 @@ test('current only moves ordinary water inside existing illustrative river troug
   const ripple=riverCurrentRipple(riverX(z)+off,z,t);
   assert.ok(Number.isFinite(ripple));
   assert.ok(Math.abs(ripple)<=.05500000001);
-  if(z<=-54)assert.equal(ripple,0);
+  if(z<=-54)assert.ok(ripple===0,'Mathematical zero may be +0 or -0');
  }
  assert.ok(Math.abs(riverCurrentRipple(riverX(25),25,0)-riverCurrentRipple(riverX(25),25,1))>.01);
  assert.ok(Math.abs(riverCurrentRipple(riverX(30)+30,30,2))<1e-10);

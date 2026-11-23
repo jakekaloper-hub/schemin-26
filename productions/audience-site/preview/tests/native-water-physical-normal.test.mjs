@@ -1,25 +1,27 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {nextWaterPhase} from '../renderer.mjs';
+import {nextWaterPhase,riverCurrentRipple,riverCurrentSlope} from '../renderer.mjs';
 
 const source=readFileSync(new URL('../renderer.mjs',import.meta.url),'utf8');
 const vertex=source.split('const VS=\x60')[1]?.split('\x60;')[0];
 const fragment=source.split('const FS=\x60')[1]?.split('\x60;')[0];
-const height=(x,z,time)=>.11*Math.sin(x*.21+time*.55)+.07*Math.sin(z*.31+time*.34);
+const height=(x,z,time)=>.11*Math.sin(x*.21+time*.55)+.07*Math.sin(z*.31+time*.34)+riverCurrentRipple(x,z,time);
 function normal(x,z,time){
- const sx=.11*.21*Math.cos(x*.21+time*.55);
- const sz=.07*.31*Math.cos(z*.31+time*.34);
+ const [rx,rz]=riverCurrentSlope(x,z,time);
+ const sx=.11*.21*Math.cos(x*.21+time*.55)+rx;
+ const sz=.07*.31*Math.cos(z*.31+time*.34)+rz;
  const magnitude=Math.hypot(sx,1,sz);
  return [-sx/magnitude,1/magnitude,-sz/magnitude];
 }
 
 test('secondary native WebGL water surface normal shares both original vertex-wave phases and coefficients',()=>{
  assert.ok(vertex&&fragment,'Original shader sources are present');
- assert.ok(vertex.includes('if(uWater>.5)p.y+=sin(p.x*.21+uTime*.55)*.11+sin(p.z*.31+uTime*.34)*.07;'));
+ assert.ok(vertex.includes('if(uWater>.5)p.y+=sin(p.x*.21+uTime*.55)*.11+sin(p.z*.31+uTime*.34)*.07+riverCurrent(p.x,p.z,uTime);'));
  assert.ok(fragment.includes('float slopeX=.11*.21*cos(vWorld.x*.21+uTime*.55);'));
  assert.ok(fragment.includes('float slopeZ=.07*.31*cos(vWorld.z*.31+uTime*.34);'));
- assert.ok(fragment.includes('n=normalize(vec3(-slopeX,1.,-slopeZ));'));
+ assert.ok(fragment.includes('vec2 currentSlope=riverSlope(vWorld.x,vWorld.z,uTime);'));
+ assert.ok(fragment.includes('n=normalize(vec3(-slopeX-currentSlope.x,1.,-slopeZ-currentSlope.y));'));
  assert.ok(!fragment.includes('sin(vWorld.x*.31+uTime*.55)*.12'),'Old unrelated optical normal must be removed');
  assert.ok(fragment.includes('dot(view,n)')&&fragment.includes('reflect(-normalize(uSun),n)'),'Fresnel and sparkle share the physical normal');
 });
