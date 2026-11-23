@@ -353,7 +353,7 @@ A Red Leopards win opens the bag. A Three Dreaded Snake win gives Kevin the conc
 - **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 80/20, up to 32 body words.
 - **Evidence.** Official finish before choosing the Florida outfit.
 - **Phone proof.** No costume reveal or cut inside the private courtyard in a pending cut.
-- **Turn.** Pick a side → **The dry stone** → One clean paw.
+- **Turn.** Pick a side → **The dry stone** → The wrong turn.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f18) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-18) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-18) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f18)
 
@@ -398,7 +398,7 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 > “The LLC buys Jackson. You’d still run the place.” David shifted his offer so the groundskeeper could hang up the key. When the door shut, Zach pushed the offer back unsigned. “Jackson stays here. There’s something else you ought to read.”
 
 - **Place and cast.** Jackson executive office. Zach Wilson / Dr. Duckhook and David Babb / The LLC.
-- **Lettering and turn.** 76/24 art/type, 42 body words available. Keep the offer unsigned. End with David’s thumb poised under a second sheet. Back at the post → **The visitor’s chair** → The second sheet.
+- **Lettering and turn.** 76/24 art/type, 42 body words available. Keep the offer unsigned. End with David’s thumb poised under a second sheet. The road that comes back → **The visitor’s chair** → The second sheet.
 - **Phone proof.** Make the key return readable without forcing the reader to decipher a contract.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Study 08, original desk blocking](board-png/08-stay-for-coffee.png) · [Owner revision and shots](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · Week 10 original PNGs 20, 21 and 24 · [F21 blocking and lettering](lettering/W11-F21-The-Visitors-Chair.png) · [390 px phone proof](lettering/W11-F21-The-Visitors-Chair-390.png) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-21) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-21) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f21)
