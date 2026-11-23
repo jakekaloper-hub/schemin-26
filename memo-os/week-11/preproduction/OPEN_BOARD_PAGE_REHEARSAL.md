@@ -1,5 +1,7 @@
 # One Last Crossing · Week 11 page-turn rehearsal
 
+[November 23 source-adjudicated six-game Inklings summit](INKLINGS_FULL_ISSUE_PERSONALIZATION_SUMMIT_2026-11-23.md) · [local consultation and release-boundary receipt](INKLINGS_FULL_ISSUE_SUMMIT_RECEIPT_2026-11-23.json) · [controlled F12/F13/F14/F21/F22 instruction-digest reconciliation](INKLINGS_SUMMIT_FOLIO_DIGEST_RECONCILIATION_2026-11-23.json). All thirty-five folio IDs remain fixed; new screenplay notes are proposed and winner-specific action awaits final ESPN.
+
 The existing fifteen working studies are now arranged into a **proposed 35-page reading sequence**. F01–F35 identify positions for this rehearsal. No final page count, page lock or outcome is implied. The first six editorial ranks turn into the second six before the reader sees the official standings. The bridge anchors the matchups. The House counter sits immediately before the Final Word, preserving the Week 10 insert placement.
 
 [Open the editable rehearsal](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-start) · [Existing issue manuscript](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md) · [Founder’s issue movement](../FOUNDER_STORY_ROOM_SYNTHESIS_2026-11-20.md) · [Memo OS complete-issue previs](https://github.com/jakekaloper-hub/schemin-26/blob/417057a43a37a60844afb632ed07084dce68dec5/memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md)
