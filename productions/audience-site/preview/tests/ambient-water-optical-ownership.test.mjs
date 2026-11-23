@@ -22,7 +22,7 @@ function instrument(rendererName,demo=null){
   height(){calls.height++;return -1;},
   project(){calls.projection++;return {x:100,y:100,depth:.5};}
  };
- const context={ambient,ambientCtx,renderer,innerWidth:640,innerHeight:360,
+ const context={ambient,ambientCtx,renderer,canvas:{clientWidth:640,clientHeight:360},camera:{target:[0,0,0],distance:30,yaw:0,pitch:.65},innerWidth:640,innerHeight:360,
   window:{devicePixelRatio:1},demo,
   weather:{affectedZoneIds:['REG-EASTERN-STORM-COAST']}};
  const {drawAmbient,needsAmbientFallbackGlints}=vm.runInNewContext(
@@ -63,7 +63,7 @@ test('bounded regional storm optics reproject 110 existing-world drop columns wi
  x.drawAmbient(12);
  assert.equal(x.calls.ellipses,0);
  assert.equal(x.calls.clips,0,'world-projected rain no longer clips an unoccluded screen polygon');
- assert.equal(x.calls.height,110,'each drop samples its existing terrain elevation once');
+ assert.ok(x.calls.height>110,'each drop samples both the original ground point and bounded terrain sightlines');
  assert.equal(x.calls.projection,220,'both 3D endpoints of 110 rain strokes project through the world camera');
  assert.equal(x.calls.strokes,110);
 });

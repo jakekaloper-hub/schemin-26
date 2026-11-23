@@ -224,15 +224,39 @@ function needsAmbientFallbackGlints(rendererName){
  * motion is independent of the result-driven weather demonstration.
  * The 110-drop per-zone budget is intentionally invariant across renderers.
  */
-function projectedStormRain(bounds,phase,heightAt,project,count=110){
- if(!Array.isArray(bounds)||bounds.length!==4||bounds.some(v=>!Number.isFinite(v))||bounds[0]>=bounds[2]||bounds[1]>=bounds[3]||!Number.isFinite(phase)||typeof heightAt!=='function'||typeof project!=='function'||!Number.isInteger(count)||count<0||count>110)throw Error('INVALID_STORM_RAIN_SAMPLE');
+/** Observer-camera eye is identical to the existing Three/native/Canvas viewport fit.
+ * Terrain-only rain visibility must never invent a new camera, terrain or weather fact. */
+function stormCameraEye(c,width,height){
+ if(!c||!Array.isArray(c.target)||c.target.length!==3||![...c.target,c.distance,c.yaw,c.pitch,width,height].every(Number.isFinite)||width<=0||height<=0||c.distance<=0)throw Error('INVALID_STORM_CAMERA');
+ const fit=Math.max(1,1.25/(width/height));
+ const d=c.distance*(c.distance>100?fit:Math.min(fit,1.25)),t=c.target;
+ return [t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*d,t[1]+Math.sin(c.pitch)*d,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*d];
+}
+/** Bounded terrain line-of-sight samples, not a GPU depth test or building mask.
+ * Only the already-rendered source-derived terrain footprint can block overlay rain. */
+function stormTerrainVisible(eye,point,heightAt){
+ if(!Array.isArray(eye)||!Array.isArray(point)||eye.length!==3||point.length!==3||![...eye,...point].every(Number.isFinite)||typeof heightAt!=='function')throw Error('INVALID_STORM_RAY');
+ const dx=point[0]-eye[0],dy=point[1]-eye[1],dz=point[2]-eye[2];
+ const steps=Math.min(8,Math.max(2,Math.ceil(Math.hypot(dx,dz)/20)));
+ for(let i=1;i<steps;i++){
+  const f=i/steps,x=eye[0]+dx*f,z=eye[2]+dz*f;
+  if(Math.abs(x)>110||Math.abs(z)>110)continue;
+  const h=heightAt(x,z);
+  if(!Number.isFinite(h)||h>eye[1]+dy*f+.35)return false;
+ }
+ return true;
+}
+function projectedStormRain(bounds,phase,heightAt,project,count=110,eye=null){
+ if(!Array.isArray(bounds)||bounds.length!==4||bounds.some(v=>!Number.isFinite(v))||bounds[0]>=bounds[2]||bounds[1]>=bounds[3]||!Number.isFinite(phase)||typeof heightAt!=='function'||typeof project!=='function'||!Number.isInteger(count)||count<0||count>110||(eye!==null&&(!Array.isArray(eye)||eye.length!==3||!eye.every(Number.isFinite))))throw Error('INVALID_STORM_RAIN_SAMPLE');
  const frac=v=>v-Math.floor(v),[x1,y1,x2,y2]=bounds,segments=[];
  for(let i=0;i<count;i++){
   const u=frac(Math.sin((i+1)*127.1)*43758.5453),v=frac(Math.sin((i+1)*311.7)*21431.517);
   const x=(x1+(x2-x1)*u-50)*2,z=(50-(y1+(y2-y1)*v))*2;
   const ground=heightAt(x,z);if(!Number.isFinite(ground))continue;
   const rise=2+14*frac((i+1)*.61803398875-phase*.23);
-  const a=project([x-.22,ground+rise+1.4,z+.1]),b=project([x,ground+rise,z]);
+  const top=[x-.22,ground+rise+1.4,z+.1],bottom=[x,ground+rise,z];
+  if(eye&&(!stormTerrainVisible(eye,top,heightAt)||!stormTerrainVisible(eye,bottom,heightAt)))continue;
+  const a=project(top),b=project(bottom);
   if(!a||!b||![a.x,a.y,a.depth,b.x,b.y,b.depth].every(Number.isFinite)||a.depth< -1||a.depth>1||b.depth< -1||b.depth>1)continue;
   segments.push({a,b});
  }
@@ -246,11 +270,12 @@ function drawAmbient(t){
  if(needsAmbientFallbackGlints(renderer.stats?.renderer))for(let i=0;i<120;i++){const x=Math.sin(i*42.31)*125,z=Math.cos(i*19.27)*130;if(renderer.height(x,z)>-.3)continue;const p=renderer.project([x,-.15,z]);if(!p)continue;const alpha=(.08+.08*Math.sin(t*.65+i))*.6;ambientCtx.strokeStyle=`rgba(220,230,212,${alpha})`;ambientCtx.lineWidth=.8;ambientCtx.beginPath();ambientCtx.ellipse(p.x,p.y,3+2*Math.sin(t*.3+i),.6,0,0,Math.PI*2);ambientCtx.stroke();}
  // Synthetic storm presence is a bounded optical cue, not a weather feed.
  // World-space drops follow existing source-zone rectangles and the 3D camera;
- // this lightweight overlay does not have terrain/building depth occlusion.
+ // bounded terrain line-of-sight rejects obscured drops; buildings are not depth-tested.
+ const rainEye=demo>0?stormCameraEye(camera,Math.max(1,canvas.clientWidth||w),Math.max(1,canvas.clientHeight||h)):null;
  if(demo>0)for(const id of weather.affectedZoneIds){
   const bounds=zoneBounds[id];if(!bounds)continue;
   ambientCtx.strokeStyle='rgba(205,222,222,.24)';ambientCtx.lineWidth=.72;
-  for(const {a,b} of projectedStormRain(bounds,t,(x,z)=>renderer.height(x,z),point=>renderer.project(point))){
+  for(const {a,b} of projectedStormRain(bounds,t,(x,z)=>renderer.height(x,z),point=>renderer.project(point),110,rainEye)){
    ambientCtx.beginPath();ambientCtx.moveTo(a.x,a.y);ambientCtx.lineTo(b.x,b.y);ambientCtx.stroke();
   }
  }
