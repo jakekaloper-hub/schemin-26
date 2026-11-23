@@ -1,0 +1,255 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "purpose": "PHYSICAL_GPU_FIXED_CAMERA_WATER_FOCUSED_REGION_RGB_DIFFERENCES_NOT_WATER_ONLY_SEGMENTATION",
+  "sourceRevision": "0736e071e4fcd3c70deea60e565293ccfde2230b",
+  "captureManifest": "../gpu-wetlands-exact-0736e071-20261123/manifest.json",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "syntheticScenario": "verified El Nino loss to GLOBAL_CALM",
+  "weatherStatus": "GLOBAL_CALM",
+  "ordinaryWaterAdvanced": true,
+  "notes": "Fixed-camera physical-GPU moving frames show color changes in preselected water-focused regions while nearby control terrain/masonry samples remain pixel-identical; explicit pause is pixel-identical. Motion is bounded evidence of the displayed water-area optics, not exclusive water-pixel attribution, independent art approval, or real weather.",
+  "sites": [
+    {
+      "slug": "temple",
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "waterRegion": [
+        620,
+        340,
+        34,
+        145
+      ],
+      "stableControlRegion": [
+        705,
+        350,
+        100,
+        70
+      ],
+      "moving": {
+        "rect": [
+          620,
+          340,
+          34,
+          145
+        ],
+        "changed": 33,
+        "total": 4930,
+        "fraction": 0.006693711967545639,
+        "meanAbsoluteDelta": 0.4766734279918864,
+        "peakDelta": 21
+      },
+      "staticControl": {
+        "rect": [
+          705,
+          350,
+          100,
+          70
+        ],
+        "changed": 0,
+        "total": 7000,
+        "fraction": 0,
+        "meanAbsoluteDelta": 0,
+        "peakDelta": 0
+      },
+      "paused": {
+        "rect": [
+          620,
+          340,
+          34,
+          145
+        ],
+        "changed": 0,
+        "total": 4930,
+        "fraction": 0,
+        "meanAbsoluteDelta": 0,
+        "peakDelta": 0
+      },
+      "originalFiles": [
+        {
+          "file": "temple-01-moving.png",
+          "sha256": "4f9086c2c7c0d5172becefbdc4282e9d20ded62306f31e5e7e78e6cbede3ddf2"
+        },
+        {
+          "file": "temple-02-moving.png",
+          "sha256": "f2b745f28b147931cc91757f9d0fb7a8c43f83577d886487dc43dfb8c9179f59"
+        },
+        {
+          "file": "temple-03-paused-a.png",
+          "sha256": "eedd44aff3f65fc68150d54e6c4a767f91bd28001453096a989591c1c4f668bb"
+        },
+        {
+          "file": "temple-04-paused-b.png",
+          "sha256": "eedd44aff3f65fc68150d54e6c4a767f91bd28001453096a989591c1c4f668bb"
+        }
+      ],
+      "derivedFile": "temple-water-region-rgb-difference.png",
+      "derivedSha256": "edea62ff3855381baefc66d01f1da92b0f5dc2e2db39a74ae632b58c8e08ed42",
+      "derivedBytes": 841,
+      "derivedDimensions": [
+        34,
+        145
+      ]
+    },
+    {
+      "slug": "jackson",
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "waterRegion": [
+        665,
+        118,
+        65,
+        130
+      ],
+      "stableControlRegion": [
+        632,
+        400,
+        120,
+        68
+      ],
+      "moving": {
+        "rect": [
+          665,
+          118,
+          65,
+          130
+        ],
+        "changed": 114,
+        "total": 8450,
+        "fraction": 0.01349112426035503,
+        "meanAbsoluteDelta": 0.5460355029585796,
+        "peakDelta": 69.33333333333333
+      },
+      "staticControl": {
+        "rect": [
+          632,
+          400,
+          120,
+          68
+        ],
+        "changed": 0,
+        "total": 8160,
+        "fraction": 0,
+        "meanAbsoluteDelta": 0,
+        "peakDelta": 0
+      },
+      "paused": {
+        "rect": [
+          665,
+          118,
+          65,
+          130
+        ],
+        "changed": 0,
+        "total": 8450,
+        "fraction": 0,
+        "meanAbsoluteDelta": 0,
+        "peakDelta": 0
+      },
+      "originalFiles": [
+        {
+          "file": "jackson-01-moving.png",
+          "sha256": "304e9e21be51bfb56eef9362275c0500905ec1e8acd0cc585f7d890168451a2c"
+        },
+        {
+          "file": "jackson-02-moving.png",
+          "sha256": "80caaf75824186cdb2b860285f13505727e9c1236274956d9274c3584970e04a"
+        },
+        {
+          "file": "jackson-03-paused-a.png",
+          "sha256": "564832fe29113ec7cc1dd9178ef1831d5e829fdffe3f30144ecf687d235876e2"
+        },
+        {
+          "file": "jackson-04-paused-b.png",
+          "sha256": "564832fe29113ec7cc1dd9178ef1831d5e829fdffe3f30144ecf687d235876e2"
+        }
+      ],
+      "derivedFile": "jackson-water-region-rgb-difference.png",
+      "derivedSha256": "ebf9d2e85ee1f7d80dc85532a6fa43bca87f2bedb88d15eef2b243ce4b240bad",
+      "derivedBytes": 1217,
+      "derivedDimensions": [
+        65,
+        130
+      ]
+    },
+    {
+      "slug": "mud-dogs",
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "waterRegion": [
+        690,
+        560,
+        180,
+        55
+      ],
+      "stableControlRegion": [
+        200,
+        490,
+        170,
+        110
+      ],
+      "moving": {
+        "rect": [
+          690,
+          560,
+          180,
+          55
+        ],
+        "changed": 311,
+        "total": 9900,
+        "fraction": 0.031414141414141415,
+        "meanAbsoluteDelta": 1.1406734006734027,
+        "peakDelta": 73.66666666666667
+      },
+      "staticControl": {
+        "rect": [
+          200,
+          490,
+          170,
+          110
+        ],
+        "changed": 0,
+        "total": 18700,
+        "fraction": 0,
+        "meanAbsoluteDelta": 0,
+        "peakDelta": 0
+      },
+      "paused": {
+        "rect": [
+          690,
+          560,
+          180,
+          55
+        ],
+        "changed": 0,
+        "total": 9900,
+        "fraction": 0,
+        "meanAbsoluteDelta": 0,
+        "peakDelta": 0
+      },
+      "originalFiles": [
+        {
+          "file": "mud-dogs-01-moving.png",
+          "sha256": "c4e646ef8db5993a5c5a8efbfea49306f0946e9996387a16695ebe8974efa225"
+        },
+        {
+          "file": "mud-dogs-02-moving.png",
+          "sha256": "7ddad60151bef1ab4078ab5c1be9c4d14243697880a24f853c37b5058436dd70"
+        },
+        {
+          "file": "mud-dogs-03-paused-a.png",
+          "sha256": "4d9b4d64f1e02292591296a9b4ea2488ad5e2e0df740f2ab556d36dd80e16a79"
+        },
+        {
+          "file": "mud-dogs-04-paused-b.png",
+          "sha256": "4d9b4d64f1e02292591296a9b4ea2488ad5e2e0df740f2ab556d36dd80e16a79"
+        }
+      ],
+      "derivedFile": "mud-dogs-water-region-rgb-difference.png",
+      "derivedSha256": "033745c7c5c07eb54627035d4ccf74c359f3bb81172c0ef7f75d6cb54a78a376",
+      "derivedBytes": 2197,
+      "derivedDimensions": [
+        180,
+        55
+      ]
+    }
+  ]
+}
