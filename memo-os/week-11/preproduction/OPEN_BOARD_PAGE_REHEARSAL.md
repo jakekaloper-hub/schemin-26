@@ -371,6 +371,7 @@ Ben switches off the engine to listen. “From the truck it did.”
 - **Evidence.** Week 10 physical 17, old sign, same parked truck.
 - **Phone proof.** The groove and the warning paw must read together.
 - **Turn.** The dry stone → **One clean paw** → Back at the post.
+- **November 23 Bobby owner interpretation (not public quotation).** Keep the clean-paw fairness and established flooded rut. Stage Ben's playoff confidence against Bobby's worn sign and empty stands; the setup signals a would-be spoiler, not an already-decided result. Do not add victory or elimination text here. Inklings/production brief: [G05 working book](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g05--seven-deadly-chins-at-mud-dogs--the-dry-paw).
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f19) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-19) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-19) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f19)
 
@@ -388,6 +389,8 @@ The result selects the return. Bobby turns the card only after a confirmed loss 
 - **Evidence.** Official result and eligibility before the Cancún coda. The loop remains provisional.
 - **Phone proof.** Use the right post. Preserve the dry side of the card.
 - **Turn.** One clean paw → **Back at the post** → The visitor’s chair.
+- **November 23 conditional payoff.** If ESPN confirms a Mud Dogs win, Bobby gets a restrained, reflective close while Ben absorbs a real playoff-impacting setback; visibly preserve the empty stands, tracks and right-hand Cancún card as the unresolved offseason shadow. If Chins wins, preserve Bobby's dignity; any explicit Mud playoff elimination/Losers' Beach coda needs independent standings proof. Tie/pending retains a neutral cut. Copy must be newly authored for the characters rather than quoting Bobby's private text; use full team names, official final margin and Tuesday's validated 12-team TheFFHub sweep where relevant.
+- **Supporting-folio routing (selective, not a redraw request).** After official decision and source lock, check F04, F07, F23–F24, F28–F30 and F32–F33 for actual G05 facts/implications and only update affected copy, figures or images. Cover selection prioritizes the strongest cinematic character moment across all six matches; Week 12 Game of the Week prioritizes highest verified playoff stakes. Preserve the 35-page native PNG plan.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f20) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-20) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-20) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f20)
 
