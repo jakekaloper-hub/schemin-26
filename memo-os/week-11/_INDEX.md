@@ -10,6 +10,10 @@
 
 [The second sheet · owner-directed Jackson rewrite](WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [F21–F22 on the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Current Sunday source ledger](preproduction/SUNDAY_2024_ET_SOURCE.json)
 
+[Sunday reader copy](preproduction/SUNDAY_READER_COPY.md) · Opening Drive, proposed Commissioner’s Note, twelve team-specific arguments and Week 12 feature auditions. [Jackson](preproduction/lettering/W11-F22-The-Second-Sheet.png) · [Week 12 fixtures](preproduction/lettering/F32-The-Next-Six-type.png) · [Pittsy’s posted board](preproduction/lettering/F34-Pittsys-Book-type.png)
+
+[Six-pair reference check](preproduction/WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json) · All twelve registered original JPEGs recovered and verified. The active resolver rejects Wilson Look’s retired bipedal image. Six structural sites resolve. Approved cinematic venue plates and provider-bound final references remain open.
+
 **Issue:** Pro Schemin' 2026, ESPN matchup period 11  
 **State:** LIVE INTAKE / PREPRODUCTION / PUBLICATION HOLD  
 **Opened:** 2026-11-20  

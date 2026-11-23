@@ -74,7 +74,7 @@ Name the consequence for a second team. Audition the bridge against the stronges
 
 **Opening Drive.** Look across the open register from Bobby’s seat toward Jordan’s. Light the two rows differently.
 
-Six teams entered 6–4. A loss could close the door on the 2–8 Mud Dogs. Add what actually followed.
+Six teams entered 6–4. A loss could close the door on the 2–8 Mud Dogs. Add what actually followed. [Opening Drive draft](SUNDAY_READER_COPY.md#f02--the-bottom-of-the-register)
 
 - **Place and cast.** League Chamber register. Bobby Mitchell and Jordan Hollingshead if pictured.
 - **Continuity.** Preserve the archival scale and the two contrasting seats.
@@ -91,7 +91,7 @@ Six teams entered 6–4. A loss could close the door on the 2–8 Mud Dogs. Add 
 
 **A signed judgment.** Paper close to lens, a working hand at the desk, lamp behind the signature.
 
-Give the Commissioner one judgment about what division rivals owe each other. Keep this voice on this page.
+Give the Commissioner one judgment about what division rivals owe each other. Keep this voice on this page. [Proposed Commissioner’s Note for review](SUNDAY_READER_COPY.md#f03--commissioners-note)
 
 - **Place and cast.** Commissioner’s desk, close composition. Commissioner’s signed note; resolve portrait only if shown.
 - **Continuity.** A signed address; the Commissioner persona is confined to this department.
@@ -125,7 +125,7 @@ Tell the reader this was the last interdivisional week. Set team names, totals a
 
 **The editor makes a case.** Portrait at the edge of each of six numbered lines, current record beside its football reason.
 
-Make six distinct arguments. Movement is change since the Week 7 editorial rankings.
+Make six distinct arguments. Movement is change since the Week 7 editorial rankings. [Twelve short football arguments with the comparator](SUNDAY_READER_COPY.md#f05f06--the-twelve)
 
 - **Place and cast.** Editorial portrait register. All twelve active owner packets; assign each once after ranking.
 - **Continuity.** Editorial movement since Week 7. No portrait reuse from a winner cut.
@@ -584,7 +584,7 @@ The reporter asks why the missing line felt personal. Jake attributes the propos
 
 **Give every team a destination.** Three division headings, two visitor-to-host lines under each, one road leaving the page.
 
-Name all six verified Week 12 fixtures and who hosts. Give one open question to each division.
+Name all six verified Week 12 fixtures and who hosts. Give one open question to each division. [Native lettering proof](lettering/F32-The-Next-Six-type.png) · [390 px](lettering/F32-The-Next-Six-type-390.png) · [Alternate preview questions](SUNDAY_READER_COPY.md#f32--the-next-six)
 
 - **Place and cast.** Divisional road register. Teams named in type.
 - **Continuity.** Use visitor-to-host direction on every row.
@@ -601,7 +601,7 @@ Name all six verified Week 12 fixtures and who hosts. Give one open question to 
 
 **Make the reader want the next issue.** Compare two candidate venues. Use one ordinary local action that the reader will recognize next week.
 
-Choose the fixture whose Week 11 consequence gives both sides something to do.
+Choose the fixture whose Week 11 consequence gives both sides something to do. [Two written feature auditions](SUNDAY_READER_COPY.md#f33--two-feature-auditions)
 
 - **Place and cast.** Selected Week 12 site. Both owners of the matchup ultimately selected.
 - **Continuity.** Compare alternatives before assigning the feature.
@@ -618,7 +618,7 @@ Choose the fixture whose Week 11 consequence gives both sides something to do.
 
 **What the House actually offered.** Close across the physical counter. Three priced games in front, three heads on one body behind, two shutters closed.
 
-Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the sixth matchup’s status unstated.
+Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the sixth matchup’s status unstated. [Native House lettering proof](lettering/F34-Pittsys-Book-type.png) · [390 px](lettering/F34-Pittsys-Book-type-390.png)
 
 - **Place and cast.** Pittsy’s counter; wider geography open. Phillip Pitts / Three Dreaded Snake.
 - **Continuity.** One post-haircut reptilian body, three heads. The establishing site is unresolved.
@@ -645,6 +645,14 @@ Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the s
 - **Turn.** Pittsy’s Book → **They know the way home** → Back of issue.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f35) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35.
+
+## Sunday production checks
+
+- **Reader copy.** F02 and F03 have complete opening drafts. Each of the twelve editorial rank candidates has an entering record, a Week 7 comparator and a dated football reason. F33 has alternative leads ready for the final feature decision. [Copy desk](SUNDAY_READER_COPY.md)
+- **Art and letters.** Production inspected native and 390 px proofs for [Jackson](lettering/W11-F22-The-Second-Sheet-390.png), [the six Week 12 fixtures](lettering/F32-The-Next-Six-type-390.png) and [Pittsy’s board](lettering/F34-Pittsys-Book-type-390.png). F32 used six matching ESPN/Flaim home–away rows. F34 was read against issue #323, including the printed prices, two holds, restrictions and cap.
+- **Reference recovery.** Twelve original JPEG hashes and twelve October lineup crops checked. Eleven originals passed the identity-source router. Wilson Look’s older original conflicts with his current four-legged form. Keep the active DK reference. The six venues have structural plans. A final character render still needs the matching provider-bound inputs, a cinematic venue reference and likeness review. [Reference receipt](WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json)
+- **Workflow.** All 34 scoped creative-intake checks and nine regression tests passed. All seven travel routes and six selected sites resolved. The current-main schedule validator accepted the six draft fixture rows against the pinned Sunday capture, rejected a swapped visitor/host and returned the expected missing final-raster-review error in a release-mode dry run.
+- **Separate repository check.** Weekly Memo Authority CI also checks Week 9. Its map test compares the historical Week 9 P30 location hash with the current World location file. The same step failed on the incoming draft and after the Jackson revision. The Week 11 source check passed. [Incoming run](https://github.com/jakekaloper-hub/schemin-26/actions/runs/45090645890) · [Jackson revision run](https://github.com/jakekaloper-hub/schemin-26/actions/runs/45095027910)
 
 ## Checks after Monday football
 

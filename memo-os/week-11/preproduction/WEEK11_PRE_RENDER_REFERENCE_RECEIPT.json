@@ -1,0 +1,539 @@
+{
+  "issue": "Week 11 · One Last Crossing",
+  "season": 2026,
+  "week": 11,
+  "state": "PREPRODUCTION_REFERENCE_CHECK",
+  "observed_eastern": "2026-11-22",
+  "repository": "jakekaloper-hub/schemin-26",
+  "issue_source_revision": "c39bf88e1ee5d55408c908679217ae57f7dd144d",
+  "governing_main_revision": "db559bc97ef105c981f1f3d346a2e5332a8b6c93",
+  "paths_relative_to": "issue_source_revision unless an explicit revision is supplied",
+  "sources": {
+    "governance": {
+      "path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "git_blob": "a8e9bb3b79457ecbce2cc2a95b4cdf703c792243"
+    },
+    "scene_bindings": {
+      "path": "memo-os/week-11/sets/location-bindings.json",
+      "git_blob": "b437bf2239f8f3723c95241b52dec1286e0bf2a8"
+    },
+    "character_identity_register": {
+      "path": "canon/characters/reference_sources_v1.json",
+      "git_blob": "d82119c4e18459f622fae321e290fafecfe0ffd7"
+    },
+    "current_appearance_lineup": {
+      "path": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "git_blob": "d445249cfd2a52bd1da83a1795cf73bcae220dbc"
+    },
+    "source_visual_authority": {
+      "path": "canon/characters/VISUAL_REFERENCE_AUTHORITY_V1.json",
+      "git_blob": "144b3633fda2835ddb8da9b556ed960c415cf245"
+    },
+    "location_reference_registry": {
+      "path": "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json",
+      "git_blob": "7f2ca7804a8d89cbbae0d93052c5db942da43205"
+    },
+    "feature_registry": {
+      "path": "world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json",
+      "git_blob": "6153cb6975bc074f49da23a11a9c2f371d2266d4"
+    }
+  },
+  "scope": "Registered originals were materialized privately and checked for JPEG signature, byte count and SHA-256 in a staging copy. Expected primary paths name the registered destinations; ten originals are absent from this issue tree; Austin and Phillip have matching tracked files. A local match establishes source integrity. Each final render still needs the individual inputs and actual provider binding receipts, generated-identity inspection, and an approved cinematic venue plate.",
+  "matchups": [
+    {
+      "id": "W11-G01",
+      "rehearsal_folios": [
+        9,
+        10,
+        11
+      ],
+      "venue": {
+        "parent_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "feature": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "structural_plate": {
+          "path": "world/environment-references/plates/LOC-BRIDGE-MOUNTAIN-LAKE/STRUCTURAL_PLATE.svg",
+          "git_blob": "790879e666af06fb436b9fab739f095affb211d0"
+        },
+        "cinematic_plate": "MISSING_APPROVED_CINEMATIC_REFERENCE"
+      },
+      "cast": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "owner": "Wilson Look",
+          "team": "D0nkey K0ng",
+          "package_version": "2.1",
+          "package": {
+            "path": "canon/characters/CHAR-WILSON-LOOK/PACKAGE.md",
+            "git_blob": "d9a221beef46e36b3b57455406d95b70b34bc249"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-WILSON-LOOK.json",
+            "git_blob": "2a2527908b0a9fdb496da7267f725c619a0223df"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "git_blob": "ca4ff2796530d72a02a714528262d640414e7225",
+            "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 810974,
+            "staged_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+          }
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "owner": "Austin Byars",
+          "team": "His Majesty's Blood",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-AUSTIN-BYARS/PACKAGE.md",
+            "git_blob": "ef97dad3094f2c251bc483742be4d1506ee9e1b4"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-AUSTIN-BYARS.json",
+            "git_blob": "86e32646ef9149ae7791010f0fb4a643e9a414d0"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "git_blob": "a97f54ba3ac177b601b3c1b7b6dc635caece5627",
+            "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+            "present_in_issue_tree": true,
+            "staged_bytes": 238145,
+            "staged_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        }
+      ],
+      "continuity": "Wilson has one gorilla upper body and four equine legs. His recovered historical primary is blocked by the visual-authority router. Austin keeps the black segmented armor, crimson-black cloak and gold belt. His cap is conditional on a verified win.",
+      "provider_subject_bindings": 0,
+      "generated_identity_QA": "PENDING",
+      "correction": {
+        "path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+        "git_blob": "40f43b2720411c9762d12c8991d4319893e96f0f",
+        "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade"
+      }
+    },
+    {
+      "id": "W11-G02",
+      "rehearsal_folios": [
+        12,
+        13
+      ],
+      "venue": {
+        "parent_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "feature": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+        "structural_plate": {
+          "path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+          "git_blob": "33edd4acab6b11e6ea138f62e18abd6f8f622215"
+        },
+        "cinematic_plate": "MISSING_APPROVED_CINEMATIC_REFERENCE"
+      },
+      "cast": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "owner": "Jordan Hollingshead",
+          "team": "Slob on my Dobb",
+          "package_version": "1.1",
+          "package": {
+            "path": "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/PACKAGE.md",
+            "git_blob": "c6f1e8d4d1902c1a50d96f072095da924c3ec8d7"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-JORDAN-HOLLINGSHEAD.json",
+            "git_blob": "3bf97bc76197b2740f8d99401b2f01c9f4b69699"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+            "git_blob": "6c61e84daaef41650eae5cf0eaa0b19621860911",
+            "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 481355,
+            "staged_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "owner": "Manning Welty",
+          "team": "El Niño",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-MANNING-WELTY/PACKAGE.md",
+            "git_blob": "a3f80f9e968528dd86ba6b4fb3400be42c13c8f2"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-MANNING-WELTY.json",
+            "git_blob": "70449c3cf62cae4ef4b7e0077887702f35d15668"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+            "git_blob": "ef9dc3a72909f58c9c5a50067963204f4a82e00b",
+            "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 520546,
+            "staged_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        }
+      ],
+      "continuity": "Jordan and Manning speak in the Memo. In the Living Novel the storm is observed through Jordan or the taproom operator.",
+      "provider_subject_bindings": 0,
+      "generated_identity_QA": "PENDING"
+    },
+    {
+      "id": "W11-G03",
+      "rehearsal_folios": [
+        14,
+        15,
+        16
+      ],
+      "venue": {
+        "parent_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "feature": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "structural_plate": {
+          "path": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
+          "git_blob": "3205b0a451620f07e792622492f7487be206dd3e"
+        },
+        "cinematic_plate": "MISSING_APPROVED_CINEMATIC_REFERENCE"
+      },
+      "cast": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "owner": "Jake Kaloper",
+          "team": "ObiWan Jacoby",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-JAKE-KALOPER/PACKAGE.md",
+            "git_blob": "cd1967c889b82f2b0763cedd80490803927e8009"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-JAKE-KALOPER.json",
+            "git_blob": "c4c2401c0b3596f99813c32b84ead86f67a2c613"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "git_blob": "84d48cd52be96f2fd5f4f58e0cecad1a3d70c496",
+            "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 765962,
+            "staged_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "owner": "Brandon Pryor",
+          "team": "The Chili Cheesers",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-BRANDON-PRYOR/PACKAGE.md",
+            "git_blob": "55c7aef14000e564d0ba42f73f6f49f75c2323d4"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-BRANDON-PRYOR.json",
+            "git_blob": "f662d5c76b16c38142ed3110489be343797e8450"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+            "git_blob": "0393eea5139393b9d06610344523d96cf144adb1",
+            "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 767855,
+            "staged_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        }
+      ],
+      "continuity": "Use Brandon’s Oct. 22 preferred outlaw appearance over his Oct. 18 baseline. Jake has no championship belt. Head to both boots for the ladder shot. The shack is a separate set.",
+      "provider_subject_bindings": 0,
+      "generated_identity_QA": "PENDING",
+      "correction": {
+        "manifest": {
+          "path": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+          "git_blob": "06f038a2051ec21918c6b3dae668b73718dc506b"
+        },
+        "approval_date": "2026-10-22",
+        "preferred_presentation": true,
+        "local_image_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+        "requested_repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+        "present_in_issue_tree": false,
+        "render_mount": "UNVERIFIED"
+      }
+    },
+    {
+      "id": "W11-G04",
+      "rehearsal_folios": [
+        17,
+        18
+      ],
+      "venue": {
+        "parent_id": "LOC-TDS-WATERFALL-TEMPLE",
+        "feature": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+        "structural_plate": {
+          "path": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+          "git_blob": "4137e0806f51d47068b40e53c30005a43f1c8b70"
+        },
+        "cinematic_plate": "MISSING_APPROVED_CINEMATIC_REFERENCE"
+      },
+      "cast": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "owner": "Phillip Pitts",
+          "team": "Three Dreaded Snake",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-PHILLIP-PITTS/PACKAGE.md",
+            "git_blob": "311651af1583d38f27fbf8a5d75df23c27ad8d97"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-PHILLIP-PITTS.json",
+            "git_blob": "cc04dfd0126dfacc06a5a9bed376ea3b4f00651b"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+            "git_blob": "214366eb2a7152d9241d9fa414c3d79e4aa3c7d0",
+            "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+            "present_in_issue_tree": true,
+            "staged_bytes": 200005,
+            "staged_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "owner": "Kevin Zeek",
+          "team": "Red Leopards",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-KEVIN-ZEEK/PACKAGE.md",
+            "git_blob": "965f3859b32b9f60acf6bd03a2d459081d418215"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-KEVIN-ZEEK.json",
+            "git_blob": "c2a45d3e2f36ee01c0a077eecb171092f56871a3"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+            "git_blob": "be12c8429633fb0a97c23418ecd20f4b9782150e",
+            "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 474768,
+            "staged_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        }
+      ],
+      "continuity": "Phillip has one post-haircut body and three serpent heads. Kevin’s Florida python-hunter outfit belongs only to his owner-specified victory photograph.",
+      "provider_subject_bindings": 0,
+      "generated_identity_QA": "PENDING"
+    },
+    {
+      "id": "W11-G05",
+      "rehearsal_folios": [
+        19,
+        20
+      ],
+      "venue": {
+        "parent_id": "LOC-MUD-DOGS-SWAMP",
+        "feature": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+        "structural_plate": {
+          "path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+          "git_blob": "a658c0e1719f48bf3dbc9e0a9310b03467baa1fc"
+        },
+        "cinematic_plate": "MISSING_APPROVED_CINEMATIC_REFERENCE"
+      },
+      "cast": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "owner": "Bobby Mitchell",
+          "team": "Mud Dogs",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-BOBBY-MITCHELL/PACKAGE.md",
+            "git_blob": "6aafc3e92260ec58b72bcdc937683100ee9e705e"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-BOBBY-MITCHELL.json",
+            "git_blob": "364ea0d76928d3a37f7de3b7a6aefe55736131b9"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+            "git_blob": "52820b4656164a6363c5bad451ff47b312c4ae1e",
+            "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 558760,
+            "staged_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "owner": "Ben Whipple",
+          "team": "Seven Deadly Chins",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-BEN-WHIPPLE/PACKAGE.md",
+            "git_blob": "0d6c3089ba5a63aaa008eb13547733372c961b95"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-BEN-WHIPPLE.json",
+            "git_blob": "1af8efee54fde297daac8d1179d18dc8c23fec83"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+            "git_blob": "89719bde79083cc6d4ab29dfaa68f49fde7a64ab",
+            "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 468673,
+            "staged_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        }
+      ],
+      "continuity": "Preserve Bobby’s established canine form and Ben’s current owner-specific presentation through both directions at the sign.",
+      "provider_subject_bindings": 0,
+      "generated_identity_QA": "PENDING"
+    },
+    {
+      "id": "W11-G06",
+      "rehearsal_folios": [
+        21,
+        22
+      ],
+      "venue": {
+        "parent_id": "LOC-COUNTRY-CLUB-JACKSON",
+        "feature": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+        "structural_plate": {
+          "path": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+          "git_blob": "77fb4ca4430539f4ba66f323bac30861e7cfc6a6"
+        },
+        "cinematic_plate": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "blocking_studies": [
+          {
+            "path": "memo-os/week-11/sets/jackson-executive-office/office-study.webp",
+            "git_blob": "2b3bd0fa8a5eff78f3751e028089cf7422e08199"
+          },
+          {
+            "path": "memo-os/week-11/sets/jackson-executive-office/jackson-executive-office.glb",
+            "git_blob": "404b13f94edf290035dcefa8e02617aea666efb7"
+          }
+        ]
+      },
+      "cast": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "owner": "Zach Wilson",
+          "team": "Dr. Duckhook",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-ZACH-WILSON/PACKAGE.md",
+            "git_blob": "ab4e849a595e1a4c0236150c134db4bfa91eddc1"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-ZACH-WILSON.json",
+            "git_blob": "c7f0f900646c03bb3fe7dbbdd84e1a78a2fb7fbf"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+            "git_blob": "e22aff79deb3a99cf4dd394994c593019025a666",
+            "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 508338,
+            "staged_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "owner": "David Babb",
+          "team": "The LLC",
+          "package_version": "1.0",
+          "package": {
+            "path": "canon/characters/CHAR-DAVID-BABB/PACKAGE.md",
+            "git_blob": "82b4dce20d2c2dd26c4b3d03b837c9ab03eb4b99"
+          },
+          "appearance": {
+            "path": "canon/characters/lineup_2026_10_18/CHAR-DAVID-BABB.json",
+            "git_blob": "de7449b04540c522223b63afcb61a4c8694ff757"
+          },
+          "lineup_crop": {
+            "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+            "git_blob": "e977045d5698ffba5136601397fa0cd3dbf5f3c2",
+            "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340"
+          },
+          "registered_primary": {
+            "expected_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+            "present_in_issue_tree": false,
+            "staged_bytes": 413410,
+            "staged_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+            "integrity": "PRIMARY_BYTES_VERIFIED",
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        }
+      ],
+      "continuity": "Zach remains the white-feathered duck golfer. Preserve the driver-arm continuity from the active T04 specification. David keeps his human executive silhouette, dark suit, red tie and sunglasses. Jackson is Zach’s clubhouse. David’s LLC homeland is a different location. The proxy-fight changes the fictional officeholders, while both team-to-owner bindings persist.",
+      "provider_subject_bindings": 0,
+      "generated_identity_QA": "PENDING"
+    }
+  ],
+  "verified_counts": {
+    "local_primary_jpeg_size_signature_sha256": 12,
+    "original_primary_paths_present_in_issue_tree": 2,
+    "identity_router_accepted_originals": 11,
+    "identity_router_visual_conflicts": 1,
+    "owner_crops_and_appearance_records": 12,
+    "rehearsal_pairs": 6,
+    "resolved_structural_features": 6,
+    "approved_cinematic_venue_plates": 0,
+    "provider_bound_pairs_in_this_pass": 0
+  },
+  "subsequent_scene_revision": {
+    "commit": "e1b5ba9eec2e68a7882ff811ed62b319026f0fa2",
+    "scene_bindings_git_blob": "426cebc145b025e315dc7b63f6ae4d1dc8860068",
+    "change": "G06 desk blocking and corporate action revised after owner input; all six parent locations, features and character pairs match the source revision. The office WebP and GLB did not change."
+  }
+}
