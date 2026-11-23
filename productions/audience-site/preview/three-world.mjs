@@ -275,7 +275,7 @@ export function createWetlandWaterHaze(THREE){
  geometry.setAttribute('aPhase',new THREE.BufferAttribute(phases,1));
  geometry.computeBoundingSphere();
  const material=new THREE.ShaderMaterial({
-  uniforms:{uTime:{value:0}},
+  uniforms:{uTime:{value:0},uLightLevel:{value:1}},
   transparent:true,depthTest:true,depthWrite:false,fog:false,
   vertexShader:`uniform float uTime;attribute float aPhase;varying float vOpacity;
    void main(){
@@ -294,12 +294,15 @@ export function createWetlandWaterHaze(THREE){
     float farVisibility=1.-smoothstep(95.,165.,viewDepth);
     vOpacity=(.13+.055*(.5+.5*sin(uTime*.21+aPhase)))*nearVisibility*farVisibility;
    }`,
-  fragmentShader:`varying float vOpacity;
+  fragmentShader:`uniform float uLightLevel;varying float vOpacity;
    void main(){
     vec2 p=(gl_PointCoord*2.-1.)*vec2(1.,2.1);
     float r=length(p);
     float halo=exp(-4.0*r*r)*(1.-smoothstep(.72,1.,r));
-    gl_FragColor=vec4(vec3(.69,.80,.73),vOpacity*halo);
+    // Same shared-clock light as the terrain and sky; opacity and drift are unchanged.
+    float light=clamp(uLightLevel,0.,1.);
+    vec3 radiance=vec3(.69,.80,.73)*mix(.30,1.,light);
+    gl_FragColor=vec4(radiance,vOpacity*halo);
     #include <tonemapping_fragment>
     #include <colorspace_fragment>
    }`
@@ -364,7 +367,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
   if(disposed||context.isContextLost())return;
   if(!Number.isFinite(time)||!Number.isFinite(strength))throw Error('INVALID_RENDER_TIME');
   const signature=JSON.stringify([c,paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight]);if(signature===lastSignature)return;lastSignature=signature;setCamera(c);
-  if(!paused)lastTime=time;regional.tick(lastTime,{paused});atlasSites?.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;if(swampHaze)swampHaze.material.uniforms.uTime.value=lastTime;oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
+  if(!paused)lastTime=time;regional.tick(lastTime,{paused});atlasSites?.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;if(swampHaze){swampHaze.material.uniforms.uTime.value=lastTime;swampHaze.material.uniforms.uLightLevel.value=strength;}oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
   const {span,key:shadowKey}=shadowCoverage(c);
   if(shadowKey!==lastShadowKey){
    sun.position.set(c.target[0]-95,150,c.target[2]+60);sun.target.position.set(c.target[0],0,c.target[2]);

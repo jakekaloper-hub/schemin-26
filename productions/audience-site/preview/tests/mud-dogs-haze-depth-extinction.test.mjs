@@ -17,7 +17,7 @@ test('Mud Dogs source-anchored haze attenuates with camera depth, not weather',(
   assert.equal(haze.userData.visualAuthority,'CANDIDATE_NOT_APPROVED');
   assert.equal(haze.userData.waterAndWeatherAuthority,'NONE');
   assert.equal(haze.geometry.getAttribute('position').count,96);
-  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime']);
+  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime','uLightLevel']);
   const s=haze.material.vertexShader;
   assert.match(s,/gl_PointSize=clamp\(2600\.\/max\(1\.,-mvPosition\.z\),2\.,64\.\)/);
   assert.match(s,/float viewDepth=max\(0\.,-mvPosition\.z\)/);
@@ -46,6 +46,22 @@ test('depth envelope preserves close local view and ordinary haze animation',()=
   haze.material.uniforms.uTime.value=18.5;
   assert.equal(haze.material.uniforms.uTime.value,18.5);
   assert.deepEqual(Array.from(haze.geometry.getAttribute('position').array),before);
-  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime']);
+  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime','uLightLevel']);
+ }finally{haze.geometry.dispose();haze.material.dispose();}
+});
+
+test('Mud Dogs haze receives shared-clock radiance only, independent of drift and optical density',()=>{
+ const haze=createWetlandWaterHaze(THREE);
+ try{
+  const {uniforms,vertexShader,fragmentShader}=haze.material;
+  assert.equal(uniforms.uLightLevel.value,1);
+  assert.doesNotMatch(vertexShader,/uLightLevel/);
+  assert.match(fragmentShader,/float light=clamp\(uLightLevel,0\.,1\.\)/);
+  assert.match(fragmentShader,/vec3 radiance=vec3\(\.69,\.80,\.73\)\*mix\(\.30,1\.,light\)/);
+  assert.match(fragmentShader,/gl_FragColor=vec4\(radiance,vOpacity\*halo\)/);
+  assert.doesNotMatch(fragmentShader,/uStorm|uGlobalCalm|uWeather/);
+  uniforms.uTime.value=12;
+  uniforms.uLightLevel.value=.2;
+  assert.equal(uniforms.uTime.value,12);
  }finally{haze.geometry.dispose();haze.material.dispose();}
 });

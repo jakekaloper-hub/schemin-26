@@ -27,7 +27,7 @@ test('Mud Dogs water-haze is one deterministic, source-identified bounded non-ac
   assert.ok(y>=.20&&y<.80,'mist remains close to the already modeled water');
  }
  assert.equal(a.material.uniforms.uTime.value,0);
- assert.equal(Object.keys(a.material.uniforms).join(','),'uTime');
+ assert.equal(Object.keys(a.material.uniforms).join(','),'uTime,uLightLevel');
  assert.equal(a.material.transparent,true);
  assert.equal(a.material.depthWrite,false);
  assert.equal(a.material.depthTest,true);
@@ -49,7 +49,8 @@ test('swamp haze attaches only to the source-identified regional site and preser
  assert.match(source,/if\(swampHaze\)\{swampHaze\.geometry\.dispose\(\);swampHaze\.material\.dispose\(\);\}/);
  assert.match(source,/regional\.tick\(lastTime,\{paused\}\);atlasSites\?\.tick\(lastTime,\{paused\}\)/);
  assert.match(source,/if\(!paused\)lastTime=time/);
- assert.match(source,/if\(swampHaze\)swampHaze\.material\.uniforms\.uTime\.value=lastTime/);
+ assert.match(source,/if\(swampHaze\)\{swampHaze\.material\.uniforms\.uTime\.value=lastTime/);
+ assert.match(source,/swampHaze\.material\.uniforms\.uLightLevel\.value=strength/);
  assert.match(source,/oceanMaterial\.uniforms\.uTime\.value=lastTime/);
  assert.doesNotMatch(source,/swampHaze\.material\.uniforms\.uStorm/);
  const water=createBaseWaterMaterial(THREE);assert.equal(water.uniforms.uTime.value,0);water.dispose();
