@@ -1,0 +1,1635 @@
+{
+  "league_id": 1417621,
+  "year": 2026,
+  "week": 11,
+  "source": "ESPN via Flaim, checked independently against public ESPN scoring-period 11 scoreboard and matchup-score views",
+  "collection_utc": {
+    "summary": "2026-11-23T00:19:14.233Z",
+    "player_detail": "2026-11-23T00:19:25.801Z",
+    "direct_score_check": "2026-11-23T00:19:42Z",
+    "rosters_completed_before": "2026-11-23T00:20:54.820Z"
+  },
+  "status": "LIVE_UNDECIDED",
+  "weekly_normalizer": "data-gateway/weekly_matchup_receipt.py (current main)",
+  "settings": {
+    "regular_season_matchup_periods": 14,
+    "playoff_teams": 7,
+    "playoff_seeding_rule": "H2H_RECORD"
+  },
+  "matchups": [
+    {
+      "slot": "G01",
+      "winner": "UNDECIDED",
+      "away": {
+        "team_id": 8,
+        "name": "His Majesty's Blood",
+        "score_1505_et": 62.4,
+        "current_points": 120.6,
+        "provider_projection": 164.71,
+        "starter_sum": 120.6,
+        "roster_size": 18,
+        "starters": [
+          {
+            "player_id": "4426388",
+            "name": "Jameson Williams",
+            "points": 21.3
+          },
+          {
+            "player_id": "4241416",
+            "name": "Chuba Hubbard",
+            "points": 29.7
+          },
+          {
+            "player_id": "4871023",
+            "name": "Carnell Tate",
+            "points": 15.8
+          },
+          {
+            "player_id": "4430539",
+            "name": "Brenton Strange",
+            "points": 4.6
+          },
+          {
+            "player_id": "-16016",
+            "name": "Vikings D/ST",
+            "points": 0
+          },
+          {
+            "player_id": "5083754",
+            "name": "Ryan Flournoy",
+            "points": 2.1
+          },
+          {
+            "player_id": "3042519",
+            "name": "Aaron Jones Sr.",
+            "points": 0
+          },
+          {
+            "player_id": "4702555",
+            "name": "Jonah Coleman",
+            "points": 37.1
+          },
+          {
+            "player_id": "4686361",
+            "name": "Cam Little",
+            "points": 10
+          },
+          {
+            "player_id": "4361741",
+            "name": "Brock Purdy",
+            "points": 0
+          }
+        ]
+      },
+      "home": {
+        "team_id": 5,
+        "name": "D0nkey K0ng",
+        "score_1505_et": 71.5,
+        "current_points": 120.8,
+        "provider_projection": 131.43,
+        "starter_sum": 120.8,
+        "roster_size": 19,
+        "starters": [
+          {
+            "player_id": "4361307",
+            "name": "Trey McBride",
+            "points": 14.9
+          },
+          {
+            "player_id": "4427366",
+            "name": "Breece Hall",
+            "points": 21
+          },
+          {
+            "player_id": "2577417",
+            "name": "Dak Prescott",
+            "points": 45.3
+          },
+          {
+            "player_id": "4047650",
+            "name": "DK Metcalf",
+            "points": 1.2
+          },
+          {
+            "player_id": "3953687",
+            "name": "Brandon Aubrey",
+            "points": 10
+          },
+          {
+            "player_id": "3121023",
+            "name": "Dallas Goedert",
+            "points": 4.8
+          },
+          {
+            "player_id": "3054850",
+            "name": "Alvin Kamara",
+            "points": 7.3
+          },
+          {
+            "player_id": "-16012",
+            "name": "Chiefs D/ST",
+            "points": 13
+          },
+          {
+            "player_id": "4384852",
+            "name": "Dohnte Meyers",
+            "points": 0
+          },
+          {
+            "player_id": "4686422",
+            "name": "Xavier Hutchinson",
+            "points": 3.3
+          }
+        ]
+      },
+      "editorial_read": "DK’s lead was 0.20. Dak Prescott scored 45.30. HMB’s Jonah Coleman and Chuba Hubbard combined for 66.80. Kansas City D/ST had 13.00 to Houston’s 23.80 on DK’s bench. The 10.80 gap remains a lineup question until the final margin is known."
+    },
+    {
+      "slot": "G02",
+      "winner": "UNDECIDED",
+      "away": {
+        "team_id": 9,
+        "name": "El Niño",
+        "score_1505_et": 89.5,
+        "current_points": 105.6,
+        "provider_projection": 158.34,
+        "starter_sum": 105.6,
+        "roster_size": 18,
+        "starters": [
+          {
+            "player_id": "4379399",
+            "name": "James Cook III",
+            "points": 19.4
+          },
+          {
+            "player_id": "4362238",
+            "name": "Chase Brown",
+            "points": 0
+          },
+          {
+            "player_id": "4426354",
+            "name": "George Pickens",
+            "points": 24.9
+          },
+          {
+            "player_id": "4239993",
+            "name": "Tee Higgins",
+            "points": 0
+          },
+          {
+            "player_id": "4258173",
+            "name": "Nico Collins",
+            "points": 16.8
+          },
+          {
+            "player_id": "2971573",
+            "name": "Ka'imi Fairbairn",
+            "points": 6
+          },
+          {
+            "player_id": "4832955",
+            "name": "Emmett Johnson",
+            "points": 27.6
+          },
+          {
+            "player_id": "14880",
+            "name": "Kirk Cousins",
+            "points": 0
+          },
+          {
+            "player_id": "-16018",
+            "name": "Saints D/ST",
+            "points": 10.9
+          },
+          {
+            "player_id": "3929645",
+            "name": "Juwan Johnson",
+            "points": 0
+          }
+        ]
+      },
+      "home": {
+        "team_id": 3,
+        "name": "Slob on my Dobb",
+        "score_1505_et": 84.32,
+        "current_points": 118.46,
+        "provider_projection": 150.28,
+        "starter_sum": 118.46,
+        "roster_size": 19,
+        "starters": [
+          {
+            "player_id": "3117251",
+            "name": "Christian McCaffrey",
+            "points": 0
+          },
+          {
+            "player_id": "4241389",
+            "name": "CeeDee Lamb",
+            "points": 31.2
+          },
+          {
+            "player_id": "3918298",
+            "name": "Josh Allen",
+            "points": 15.16
+          },
+          {
+            "player_id": "4685472",
+            "name": "Tetairoa McMillan",
+            "points": 19.1
+          },
+          {
+            "player_id": "4596448",
+            "name": "Bucky Irving",
+            "points": 20.8
+          },
+          {
+            "player_id": "4597500",
+            "name": "Adonai Mitchell",
+            "points": 5
+          },
+          {
+            "player_id": "4567104",
+            "name": "Will Reichard",
+            "points": 0
+          },
+          {
+            "player_id": "4431299",
+            "name": "Rome Odunze",
+            "points": 8.5
+          },
+          {
+            "player_id": "-16002",
+            "name": "Bills D/ST",
+            "points": 16.9
+          },
+          {
+            "player_id": "4243331",
+            "name": "Cade Otton",
+            "points": 1.8
+          }
+        ]
+      },
+      "editorial_read": "Slob now led after trailing by 5.18 at 3:05. CeeDee Lamb had 31.20. El Niño’s Emmett Johnson had 27.60. McCaffrey, Brown and Higgins each had zero at the evening reading."
+    },
+    {
+      "slot": "G03",
+      "winner": "UNDECIDED",
+      "away": {
+        "team_id": 7,
+        "name": "The Chili Cheesers",
+        "score_1505_et": 84.9,
+        "current_points": 130.12,
+        "provider_projection": 136.41,
+        "starter_sum": 130.12,
+        "roster_size": 18,
+        "starters": [
+          {
+            "player_id": "4374302",
+            "name": "Amon-Ra St. Brown",
+            "points": 14.7
+          },
+          {
+            "player_id": "4595348",
+            "name": "Malik Nabers",
+            "points": 16.7
+          },
+          {
+            "player_id": "4696981",
+            "name": "Cam Skattebo",
+            "points": 5.6
+          },
+          {
+            "player_id": "4035538",
+            "name": "David Montgomery",
+            "points": 19
+          },
+          {
+            "player_id": "-16023",
+            "name": "Steelers D/ST",
+            "points": 11.1
+          },
+          {
+            "player_id": "4429086",
+            "name": "Michael Mayer",
+            "points": 1.4
+          },
+          {
+            "player_id": "4682745",
+            "name": "Jaylen Wright",
+            "points": 5.45
+          },
+          {
+            "player_id": "4362081",
+            "name": "Cameron Dicker",
+            "points": 8
+          },
+          {
+            "player_id": "4431268",
+            "name": "Chimere Dike",
+            "points": 19.75
+          },
+          {
+            "player_id": "4688380",
+            "name": "Cam Ward",
+            "points": 28.42
+          }
+        ]
+      },
+      "home": {
+        "team_id": 1,
+        "name": "ObiWan Jacoby",
+        "score_1505_et": 25.4,
+        "current_points": 60.16,
+        "provider_projection": 79.4,
+        "starter_sum": 60.16,
+        "roster_size": 19,
+        "starters": [
+          {
+            "player_id": "3043078",
+            "name": "Derrick Henry",
+            "points": 20.4
+          },
+          {
+            "player_id": "4372016",
+            "name": "Jaylen Waddle",
+            "points": 9.1
+          },
+          {
+            "player_id": "4608686",
+            "name": "Kyle Monangai",
+            "points": 2.6
+          },
+          {
+            "player_id": "3116365",
+            "name": "Mark Andrews",
+            "points": 3.4
+          },
+          {
+            "player_id": "3126486",
+            "name": "Deebo Samuel Sr.",
+            "points": 0
+          },
+          {
+            "player_id": "4428331",
+            "name": "Rashee Rice",
+            "points": 11.3
+          },
+          {
+            "player_id": "4360310",
+            "name": "Trevor Lawrence",
+            "points": 3.16
+          },
+          {
+            "player_id": "2973405",
+            "name": "Kalif Raymond",
+            "points": 2.4
+          },
+          {
+            "player_id": "-16024",
+            "name": "Chargers D/ST",
+            "points": 4.8
+          },
+          {
+            "player_id": "3150744",
+            "name": "Chase McLaughlin",
+            "points": 3
+          }
+        ]
+      },
+      "editorial_read": "Chili led by 69.96. Cam Ward advanced to 28.42, Montgomery had 19.00 and Steelers D/ST 11.10, a combined 58.52. ObiWan’s Lawrence, Waddle and Chargers D/ST totaled 17.06. The ladder reaction remains conditional."
+    },
+    {
+      "slot": "G04",
+      "winner": "UNDECIDED",
+      "away": {
+        "team_id": 2,
+        "name": "Red Leopards",
+        "score_1505_et": 53.4,
+        "current_points": 83.7,
+        "provider_projection": 120.8,
+        "starter_sum": 83.7,
+        "roster_size": 18,
+        "starters": [
+          {
+            "player_id": "4362628",
+            "name": "Ja'Marr Chase",
+            "points": 0
+          },
+          {
+            "player_id": "4241478",
+            "name": "DeVonta Smith",
+            "points": 9.1
+          },
+          {
+            "player_id": "4429615",
+            "name": "Zay Flowers",
+            "points": 16.5
+          },
+          {
+            "player_id": "3916148",
+            "name": "Tony Pollard",
+            "points": 14.1
+          },
+          {
+            "player_id": "4038815",
+            "name": "Rico Dowdle",
+            "points": 7.9
+          },
+          {
+            "player_id": "4688813",
+            "name": "Josh Downs",
+            "points": 9.9
+          },
+          {
+            "player_id": "4571557",
+            "name": "Spencer Shrader",
+            "points": 3
+          },
+          {
+            "player_id": "4361411",
+            "name": "Pat Freiermuth",
+            "points": 9.1
+          },
+          {
+            "player_id": "-16004",
+            "name": "Bengals D/ST",
+            "points": 0
+          },
+          {
+            "player_id": "4426338",
+            "name": "Bo Nix",
+            "points": 14.1
+          }
+        ]
+      },
+      "home": {
+        "team_id": 6,
+        "name": "Three Dreaded Snake",
+        "score_1505_et": 53.02,
+        "current_points": 93.54,
+        "provider_projection": 117.83,
+        "starter_sum": 93.54,
+        "roster_size": 19,
+        "starters": [
+          {
+            "player_id": "4870795",
+            "name": "Makai Lemon",
+            "points": 1.3
+          },
+          {
+            "player_id": "4361579",
+            "name": "Javonte Williams",
+            "points": 25.9
+          },
+          {
+            "player_id": "4431611",
+            "name": "Caleb Williams",
+            "points": 18.74
+          },
+          {
+            "player_id": "4036133",
+            "name": "T.J. Hockenson",
+            "points": 0
+          },
+          {
+            "player_id": "4685278",
+            "name": "Luther Burden III",
+            "points": 3.4
+          },
+          {
+            "player_id": "-16025",
+            "name": "49ers D/ST",
+            "points": 0
+          },
+          {
+            "player_id": "4882093",
+            "name": "Bhayshul Tuten",
+            "points": 8.4
+          },
+          {
+            "player_id": "4612826",
+            "name": "Ladd McConkey",
+            "points": 20.7
+          },
+          {
+            "player_id": "17372",
+            "name": "Chris Boswell",
+            "points": 13
+          },
+          {
+            "player_id": "3117256",
+            "name": "Dalton Schultz",
+            "points": 2.1
+          }
+        ]
+      },
+      "editorial_read": "Snake moved from a 0.38 deficit to a 9.84 lead. Javonte Williams and Caleb Williams totaled 44.64. Ladd McConkey had 20.70. A verified winner still governs the Florida portrait."
+    },
+    {
+      "slot": "G05",
+      "winner": "UNDECIDED",
+      "away": {
+        "team_id": 11,
+        "name": "Seven Deadly Chins",
+        "score_1505_et": 77.48,
+        "current_points": 93.26,
+        "provider_projection": 123.82,
+        "starter_sum": 93.26,
+        "roster_size": 19,
+        "starters": [
+          {
+            "player_id": "4262921",
+            "name": "Justin Jefferson",
+            "points": 0
+          },
+          {
+            "player_id": "4259545",
+            "name": "D'Andre Swift",
+            "points": 13.2
+          },
+          {
+            "player_id": "4569987",
+            "name": "Jaylen Warren",
+            "points": 5.8
+          },
+          {
+            "player_id": "4567750",
+            "name": "Emeka Egbuka",
+            "points": 3.8
+          },
+          {
+            "player_id": "3139477",
+            "name": "Patrick Mahomes",
+            "points": 31.96
+          },
+          {
+            "player_id": "4869645",
+            "name": "Caleb Douglas",
+            "points": 5
+          },
+          {
+            "player_id": "4360635",
+            "name": "Chig Okonkwo",
+            "points": 0
+          },
+          {
+            "player_id": "4366031",
+            "name": "Tank Dell",
+            "points": 5.7
+          },
+          {
+            "player_id": "-16003",
+            "name": "Bears D/ST",
+            "points": 20.8
+          },
+          {
+            "player_id": "17427",
+            "name": "Cairo Santos",
+            "points": 7
+          }
+        ]
+      },
+      "home": {
+        "team_id": 10,
+        "name": "Mud Dogs",
+        "score_1505_et": 47.02,
+        "current_points": 103.86,
+        "provider_projection": 137.3,
+        "starter_sum": 103.86,
+        "roster_size": 18,
+        "starters": [
+          {
+            "player_id": "3929630",
+            "name": "Saquon Barkley",
+            "points": 15.2
+          },
+          {
+            "player_id": "4890973",
+            "name": "Ashton Jeanty",
+            "points": 31
+          },
+          {
+            "player_id": "4430027",
+            "name": "Sam LaPorta",
+            "points": 9.2
+          },
+          {
+            "player_id": "3040151",
+            "name": "George Kittle",
+            "points": 0
+          },
+          {
+            "player_id": "3916433",
+            "name": "Jakobi Meyers",
+            "points": 5.6
+          },
+          {
+            "player_id": "3046779",
+            "name": "Jared Goff",
+            "points": 26.86
+          },
+          {
+            "player_id": "3116389",
+            "name": "Samaje Perine",
+            "points": 0
+          },
+          {
+            "player_id": "15818",
+            "name": "Keenan Allen",
+            "points": 0
+          },
+          {
+            "player_id": "4249087",
+            "name": "Matt Gay",
+            "points": 5
+          },
+          {
+            "player_id": "-16020",
+            "name": "Jets D/ST",
+            "points": 11
+          }
+        ]
+      },
+      "editorial_read": "Mud turned a 30.46 deficit into a 10.60 lead. Ashton Jeanty had 31.00 and Jared Goff 26.86. Mahomes and Bears D/ST totaled 52.76 for Chins. Keep Bobby’s postcard on its post while the result is open."
+    },
+    {
+      "slot": "G06",
+      "winner": "UNDECIDED",
+      "away": {
+        "team_id": 4,
+        "name": "The LLC",
+        "score_1505_et": 45.2,
+        "current_points": 95.8,
+        "provider_projection": 130.44,
+        "starter_sum": 95.8,
+        "roster_size": 19,
+        "starters": [
+          {
+            "player_id": "4242335",
+            "name": "Jonathan Taylor",
+            "points": 7.8
+          },
+          {
+            "player_id": "4685382",
+            "name": "Omarion Hampton",
+            "points": 11.7
+          },
+          {
+            "player_id": "4569618",
+            "name": "Garrett Wilson",
+            "points": 6.9
+          },
+          {
+            "player_id": "3915416",
+            "name": "DJ Moore",
+            "points": 23.1
+          },
+          {
+            "player_id": "4432620",
+            "name": "Parker Washington",
+            "points": 12.6
+          },
+          {
+            "player_id": "3915511",
+            "name": "Joe Burrow",
+            "points": 0
+          },
+          {
+            "player_id": "4723086",
+            "name": "Colston Loveland",
+            "points": 11.9
+          },
+          {
+            "player_id": "4361050",
+            "name": "Isaiah Likely",
+            "points": 4.5
+          },
+          {
+            "player_id": "-16029",
+            "name": "Panthers D/ST",
+            "points": 6.3
+          },
+          {
+            "player_id": "3124679",
+            "name": "Jason Sanders",
+            "points": 11
+          }
+        ]
+      },
+      "home": {
+        "team_id": 12,
+        "name": "Dr. Duckhook",
+        "score_1505_et": 93.06,
+        "current_points": 162.76,
+        "provider_projection": 174.06,
+        "starter_sum": 162.76,
+        "roster_size": 19,
+        "starters": [
+          {
+            "player_id": "4429795",
+            "name": "Jahmyr Gibbs",
+            "points": 30.1
+          },
+          {
+            "player_id": "4373678",
+            "name": "Khalil Shakir",
+            "points": 16.5
+          },
+          {
+            "player_id": "4711533",
+            "name": "Ollie Gordon II",
+            "points": 9.8
+          },
+          {
+            "player_id": "4361370",
+            "name": "Chris Olave",
+            "points": 20.2
+          },
+          {
+            "player_id": "-16030",
+            "name": "Jaguars D/ST",
+            "points": 8
+          },
+          {
+            "player_id": "3917232",
+            "name": "Tyler Bass",
+            "points": 18
+          },
+          {
+            "player_id": "4432577",
+            "name": "C.J. Stroud",
+            "points": 29.06
+          },
+          {
+            "player_id": "15847",
+            "name": "Travis Kelce",
+            "points": 25.4
+          },
+          {
+            "player_id": "4430656",
+            "name": "Myles Price",
+            "points": 0
+          },
+          {
+            "player_id": "4883647",
+            "name": "Elic Ayomanor",
+            "points": 5.7
+          }
+        ]
+      },
+      "editorial_read": "Duckhook led by 66.96. Jahmyr Gibbs had 30.10, Stroud 29.06 and Kelce 25.40. Omarion Hampton had 11.70 for LLC, with Burrow still on zero. The sale remains refused under every ending."
+    }
+  ],
+  "week12_schedule": [
+    {
+      "away_id": 1,
+      "away": "ObiWan Jacoby",
+      "home_id": 5,
+      "home": "D0nkey K0ng",
+      "status": "UNDECIDED"
+    },
+    {
+      "away_id": 6,
+      "away": "Three Dreaded Snake",
+      "home_id": 10,
+      "home": "Mud Dogs",
+      "status": "UNDECIDED"
+    },
+    {
+      "away_id": 12,
+      "away": "Dr. Duckhook",
+      "home_id": 2,
+      "home": "Red Leopards",
+      "status": "UNDECIDED"
+    },
+    {
+      "away_id": 7,
+      "away": "The Chili Cheesers",
+      "home_id": 3,
+      "home": "Slob on my Dobb",
+      "status": "UNDECIDED"
+    },
+    {
+      "away_id": 8,
+      "away": "His Majesty's Blood",
+      "home_id": 4,
+      "home": "The LLC",
+      "status": "UNDECIDED"
+    },
+    {
+      "away_id": 11,
+      "away": "Seven Deadly Chins",
+      "home_id": 9,
+      "home": "El Niño",
+      "status": "UNDECIDED"
+    }
+  ],
+  "through_week10_standings": [
+    {
+      "teamId": 3,
+      "name": "Slob on my Dobb",
+      "rank": 1,
+      "record": [
+        6,
+        4,
+        0
+      ],
+      "pointsFor": 1599.99
+    },
+    {
+      "teamId": 9,
+      "name": "El Niño",
+      "rank": 2,
+      "record": [
+        6,
+        4,
+        0
+      ],
+      "pointsFor": 1450.03
+    },
+    {
+      "teamId": 5,
+      "name": "D0nkey K0ng",
+      "rank": 3,
+      "record": [
+        6,
+        4,
+        0
+      ],
+      "pointsFor": 1411.82
+    },
+    {
+      "teamId": 8,
+      "name": "His Majesty's Blood",
+      "rank": 4,
+      "record": [
+        6,
+        4,
+        0
+      ],
+      "pointsFor": 1451.95
+    },
+    {
+      "teamId": 12,
+      "name": "Dr. Duckhook",
+      "rank": 5,
+      "record": [
+        6,
+        4,
+        0
+      ],
+      "pointsFor": 1452.15
+    },
+    {
+      "teamId": 11,
+      "name": "Seven Deadly Chins",
+      "rank": 6,
+      "record": [
+        6,
+        4,
+        0
+      ],
+      "pointsFor": 1356.62
+    },
+    {
+      "teamId": 2,
+      "name": "Red Leopards",
+      "rank": 7,
+      "record": [
+        5,
+        5,
+        0
+      ],
+      "pointsFor": 1404.51
+    },
+    {
+      "teamId": 7,
+      "name": "The Chili Cheesers",
+      "rank": 8,
+      "record": [
+        5,
+        5,
+        0
+      ],
+      "pointsFor": 1384.79
+    },
+    {
+      "teamId": 4,
+      "name": "The LLC",
+      "rank": 9,
+      "record": [
+        4,
+        6,
+        0
+      ],
+      "pointsFor": 1449.25
+    },
+    {
+      "teamId": 1,
+      "name": "ObiWan Jacoby",
+      "rank": 10,
+      "record": [
+        4,
+        6,
+        0
+      ],
+      "pointsFor": 1384.51
+    },
+    {
+      "teamId": 6,
+      "name": "Three Dreaded Snake",
+      "rank": 11,
+      "record": [
+        4,
+        6,
+        0
+      ],
+      "pointsFor": 1279.46
+    },
+    {
+      "teamId": 10,
+      "name": "Mud Dogs",
+      "rank": 12,
+      "record": [
+        2,
+        8,
+        0
+      ],
+      "pointsFor": 1181.35
+    }
+  ],
+  "transaction_window": {
+    "window": {
+      "mode": "explicit_week",
+      "unit": "matchup_period",
+      "requested_week": 11,
+      "normalization": "none",
+      "weeks": [
+        11
+      ],
+      "provider_scoring_period_ids": [
+        11
+      ],
+      "start_date": null,
+      "end_date": null,
+      "date_bounds_kind": "unavailable",
+      "timezone": "America/New_York",
+      "returned_rows": 43
+    },
+    "truncated": false,
+    "by_status": {
+      "complete": 32,
+      "canceled": 5,
+      "failed": 6
+    },
+    "ward": {
+      "id": "0e356561-3554-4f12-b6a7-f1e29b9b67fd",
+      "date": "2026-11-19",
+      "teams": [
+        "7"
+      ],
+      "added": [
+        "Cam Ward"
+      ],
+      "dropped": [
+        "Bryce Young"
+      ]
+    }
+  },
+  "checks": {
+    "teams": 12,
+    "rosters": 12,
+    "starters": 120,
+    "starter_sums_match": 12,
+    "roster_starter_sets_match": 12,
+    "direct_espn_live_totals_match": 12,
+    "week12_home_away_pairs_match": 6
+  },
+  "scope": "Provider observation only. Current standings still cover ten completed games. The Week 11 matchup period is open.",
+  "model_rerun": {
+    "schema": "schemin.week11.sanitized_house_model_board.v1",
+    "league_id": 1417621,
+    "season": 2026,
+    "through_week": 10,
+    "fresh_display_time_et": "2026-11-22T19:20:58-05:00",
+    "comparison": "all 12 current teams; percentage of trials finishing in top seven",
+    "simulation_count_per_run": 10000,
+    "columns": [
+      "team",
+      "baseline_pct",
+      "conditional_on_week11_win_pct",
+      "conditional_on_week11_loss_pct"
+    ],
+    "method": "TheFFHub hosted Playoff Odds UI; ESPN selected, Head to Head selected; season scoring averages and standard deviations, player projections and byes excluded. Prior ten-game standings were still shown and Weeks 11–14 remained selectable. Twelve conditional runs each set one result. Data integrity checked independently of vendor calibration.",
+    "raw_sha256": "d7899191a5e74473340e2ef745ad066debfc26cdb98ce6d8540a63967e0e9df5",
+    "start": "2026-11-23T00:20:58.340Z",
+    "end": "2026-11-23T00:21:12.503Z",
+    "checked_tables": 13,
+    "rows_checked": 156,
+    "rows": [
+      [
+        "Slob on my Dobb",
+        98.67,
+        99.84,
+        96.32
+      ],
+      [
+        "D0nkey K0ng",
+        92.43,
+        98.91,
+        88.57
+      ],
+      [
+        "El Niño",
+        87.68,
+        96.76,
+        83.51
+      ],
+      [
+        "His Majesty's Blood",
+        87.57,
+        95.51,
+        79.18
+      ],
+      [
+        "Dr. Duckhook",
+        87.03,
+        96.76,
+        79.11
+      ],
+      [
+        "Seven Deadly Chins",
+        81.81,
+        88.67,
+        61.23
+      ],
+      [
+        "Red Leopards",
+        50.39,
+        64.44,
+        26.86
+      ],
+      [
+        "The Chili Cheesers",
+        38.46,
+        56.78,
+        20.99
+      ],
+      [
+        "The LLC",
+        34.1,
+        52.27,
+        15.88
+      ],
+      [
+        "ObiWan Jacoby",
+        31.99,
+        52.21,
+        12.93
+      ],
+      [
+        "Three Dreaded Snake",
+        9.87,
+        22.57,
+        2.23
+      ],
+      [
+        "Mud Dogs",
+        0,
+        0.08,
+        0
+      ]
+    ]
+  },
+  "independent_league_check": {
+    "detailsvalidation": {
+      "provider": "flaim",
+      "platform": "espn",
+      "league_id": 1417621,
+      "season_year": 2026,
+      "week": 11,
+      "captured_at": "2026-11-23T00:19:25.801000+00:00",
+      "age_seconds": 134,
+      "stale": false,
+      "freshness_slo_seconds": 3600,
+      "authority": "PROVIDER_OBSERVATION_NOT_FACT_LOCK",
+      "end_to_end_live_certified": false
+    },
+    "scores_matched": 12,
+    "week12validation": {
+      "provider": "flaim",
+      "platform": "espn",
+      "league_id": 1417621,
+      "season_year": 2026,
+      "week": 12,
+      "captured_at": "2026-11-23T00:20:54.820000+00:00",
+      "age_seconds": 45,
+      "stale": false,
+      "freshness_slo_seconds": 3600,
+      "authority": "PROVIDER_OBSERVATION_NOT_FACT_LOCK",
+      "end_to_end_live_certified": false
+    },
+    "week12_fixture_winner_matched": 6,
+    "starter_counts": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "architecture": {
+    "scope": "Read-only architectural review, with Week 11 fixture tested against both data trees. The expectation on main is measured explicitly, not inferred from issue results.",
+    "branches": {
+      "governing_main": "db559bc97ef105c981f1f3d346a2e5332a8b6c93",
+      "week11_candidate": "e60a22ba6c255fa12d205b50c659f122d05c4e94"
+    },
+    "methods": [
+      "world/location-control-plane/compiler/location_control_plane.py",
+      "world/location-control-plane/adapters/memo_adapter.py",
+      "world/location-control-plane/adapters/novel_adapter.py",
+      "canon/characters/runtime/reference_authority.py",
+      "living-novel/os/adapters/hydrated_author_memory.py",
+      "world/evolution/engine/world_evolution.py",
+      "memo-os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md",
+      "living-novel/os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md",
+      "governance/validate_project_mission.py"
+    ],
+    "source_hashes": {
+      "main": {
+        "world/location-control-plane/compiler/location_control_plane.py": "feca2aaf72b34bc902992ccc45e62cde44db083d",
+        "world/location-control-plane/adapters/memo_adapter.py": "9c6772d954fb540db76ec31676ed1c547ead1518",
+        "world/location-control-plane/adapters/novel_adapter.py": "1e2596f1cc57ef55d1d041f4cdab49ad2741f5b0",
+        "canon/characters/runtime/reference_authority.py": "d625ad79592dcdb0d740b4e3e7e80bb5d6114e5f",
+        "living-novel/os/adapters/hydrated_author_memory.py": "63ef57567d9aa3a0c31e1c2a0e7e3cc6af01a29b",
+        "world/evolution/engine/world_evolution.py": "877f350cc7eb47925b7b413df374dc63b8544400",
+        "memo-os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md": "bfc454791cd1fbc2cf95ceada7fadddcfc4c620b",
+        "living-novel/os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md": "ff1a9859ac8427709dd19afc8b8c5094e429c3d8",
+        "governance/validate_project_mission.py": "7b52a31194f5dd65c259dca10b7c11f77524ec52",
+        "world/data/world_memory.json": "4350b7050d539dd59285267eeda2bebf1c23269d",
+        "world/data/current_world_state.json": "8705635c49d6bf7130ddd859c2d25c187b93b2a7",
+        "world/evolution/WORLD_EVOLUTION_LEDGER.json": "d377f715578dac016b8cb6e826299517616f888c",
+        "world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json": "a7afb6d6885fe385a78b645f461dfda1887783f9",
+        "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json": "7f2ca7804a8d89cbbae0d93052c5db942da43205",
+        "world/data/routes.json": "da418245708c1f9d2128775df0ce7d26e7eeaa18"
+      },
+      "candidate": {
+        "world/location-control-plane/compiler/location_control_plane.py": "feca2aaf72b34bc902992ccc45e62cde44db083d",
+        "world/location-control-plane/adapters/memo_adapter.py": "9c6772d954fb540db76ec31676ed1c547ead1518",
+        "world/location-control-plane/adapters/novel_adapter.py": "1e2596f1cc57ef55d1d041f4cdab49ad2741f5b0",
+        "canon/characters/runtime/reference_authority.py": "d625ad79592dcdb0d740b4e3e7e80bb5d6114e5f",
+        "living-novel/os/adapters/hydrated_author_memory.py": "63ef57567d9aa3a0c31e1c2a0e7e3cc6af01a29b",
+        "world/evolution/engine/world_evolution.py": "877f350cc7eb47925b7b413df374dc63b8544400",
+        "memo-os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md": "bfc454791cd1fbc2cf95ceada7fadddcfc4c620b",
+        "living-novel/os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md": "ff1a9859ac8427709dd19afc8b8c5094e429c3d8",
+        "governance/validate_project_mission.py": "7b52a31194f5dd65c259dca10b7c11f77524ec52",
+        "world/data/world_memory.json": "4350b7050d539dd59285267eeda2bebf1c23269d",
+        "world/data/current_world_state.json": "8705635c49d6bf7130ddd859c2d25c187b93b2a7",
+        "world/evolution/WORLD_EVOLUTION_LEDGER.json": "d377f715578dac016b8cb6e826299517616f888c",
+        "world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json": "6153cb6975bc074f49da23a11a9c2f371d2266d4",
+        "world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json": "7f2ca7804a8d89cbbae0d93052c5db942da43205",
+        "world/data/routes.json": "da418245708c1f9d2128775df0ce7d26e7eeaa18"
+      }
+    },
+    "main": {
+      "mission": "PASS",
+      "visitor_routes_connected": 7,
+      "visitor_routes_count": 7,
+      "available_features": 1,
+      "six_parent_regions_by_four_consumers": 24,
+      "memo_semantic_packets": 1,
+      "novel_semantic_packets": 1,
+      "structural_parent_registrations": 6,
+      "registered_cinematic_candidate_paths": 0,
+      "approved_cinematic_parents": 0,
+      "pittsys_siting": {
+        "parent": "REG-CENTRAL-BASIN",
+        "owner_direction": "Waterfall district",
+        "state": "UNRESOLVED"
+      },
+      "structural_byte_replay": {
+        "total": 23,
+        "matching": 23,
+        "drift": []
+      }
+    },
+    "candidate": {
+      "mission": "PASS",
+      "visitor_routes_connected": 7,
+      "visitor_routes_count": 7,
+      "available_features": 6,
+      "six_parent_regions_by_four_consumers": 24,
+      "memo_semantic_packets": 6,
+      "novel_semantic_packets": 6,
+      "structural_parent_registrations": 6,
+      "registered_cinematic_candidate_paths": 0,
+      "approved_cinematic_parents": 0,
+      "pittsys_siting": {
+        "parent": "REG-CENTRAL-BASIN",
+        "owner_direction": "Waterfall district",
+        "state": "UNRESOLVED"
+      },
+      "structural_byte_replay": {
+        "total": 23,
+        "matching": 18,
+        "drift": [
+          {
+            "location": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+            "path": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
+            "tracked_blob_sha": "b70765fba89144192585a5c769c5b876fc5ecfe5",
+            "expected_blob_sha": "3205b0a451620f07e792622492f7487be206dd3e",
+            "expected_bytes": 2227
+          },
+          {
+            "location": "LOC-MUD-DOGS-SWAMP",
+            "path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+            "tracked_blob_sha": "c495e243746e1eaa3429ad1d453c5eb93ac3d476",
+            "expected_blob_sha": "a658c0e1719f48bf3dbc9e0a9310b03467baa1fc",
+            "expected_bytes": 2238
+          },
+          {
+            "location": "LOC-COUNTRY-CLUB-JACKSON",
+            "path": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+            "tracked_blob_sha": "4aaa9019fa3ec04c8eda177daf7c7d28374e7ebb",
+            "expected_blob_sha": "77fb4ca4430539f4ba66f323bac30861e7cfc6a6",
+            "expected_bytes": 2299
+          },
+          {
+            "location": "LOC-TDS-WATERFALL-TEMPLE",
+            "path": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+            "tracked_blob_sha": "29a22a23b7a9a8b3bd577991413feccd37745780",
+            "expected_blob_sha": "4137e0806f51d47068b40e53c30005a43f1c8b70",
+            "expected_bytes": 2342
+          },
+          {
+            "location": "LOC-SLOB-FOOTHILL-CAMP",
+            "path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+            "tracked_blob_sha": "ec5c44429c50a59062b506134110784df8ebbfe2",
+            "expected_blob_sha": "33edd4acab6b11e6ea138f62e18abd6f8f622215",
+            "expected_bytes": 2206
+          }
+        ]
+      }
+    },
+    "coverage": [
+      {
+        "matchup": "W11-G01",
+        "parent": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "feature": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "canon_status": "PROVISIONAL_CANON",
+        "region": "REG-UPPER-VALLEYS",
+        "main_feature": "CURRENT_FEATURE_HANDLE_RESOLVED",
+        "candidate_feature": "CURRENT_FEATURE_HANDLE_RESOLVED",
+        "issue_cinematic_result": {
+          "status": "HUMAN_REVIEW_REQUIRED",
+          "blockers": [
+            "MISSING_APPROVED_CINEMATIC_REFERENCE"
+          ],
+          "reason": null
+        },
+        "main_cinematic_parent": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "novel_only_constraint": []
+      },
+      {
+        "matchup": "W11-G02",
+        "parent": "LOC-SLOB-FOOTHILL-CAMP",
+        "feature": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+        "canon_status": "PROVISIONAL_CANON",
+        "region": "REG-UPPER-VALLEYS",
+        "main_feature": "HUMAN_REVIEW_REQUIRED",
+        "candidate_feature": "CURRENT_FEATURE_HANDLE_RESOLVED",
+        "issue_cinematic_result": {
+          "status": "HUMAN_REVIEW_REQUIRED",
+          "blockers": [
+            "MISSING_APPROVED_CINEMATIC_REFERENCE"
+          ],
+          "reason": null
+        },
+        "main_cinematic_parent": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "novel_only_constraint": [
+          "Living Novel El Niño overlay: atmospheric/mobile storm; no interior POV or dialogue."
+        ]
+      },
+      {
+        "matchup": "W11-G03",
+        "parent": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "feature": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "canon_status": "PERMANENT_CANON",
+        "region": "REG-UPPER-VALLEYS",
+        "main_feature": "HUMAN_REVIEW_REQUIRED",
+        "candidate_feature": "CURRENT_FEATURE_HANDLE_RESOLVED",
+        "issue_cinematic_result": {
+          "status": "HUMAN_REVIEW_REQUIRED",
+          "blockers": [
+            "MISSING_APPROVED_CINEMATIC_REFERENCE"
+          ],
+          "reason": null
+        },
+        "main_cinematic_parent": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "novel_only_constraint": []
+      },
+      {
+        "matchup": "W11-G04",
+        "parent": "LOC-TDS-WATERFALL-TEMPLE",
+        "feature": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+        "canon_status": "PERMANENT_CANON",
+        "region": "REG-SOUTHERN-WETLANDS",
+        "main_feature": "HUMAN_REVIEW_REQUIRED",
+        "candidate_feature": "CURRENT_FEATURE_HANDLE_RESOLVED",
+        "issue_cinematic_result": {
+          "status": "HUMAN_REVIEW_REQUIRED",
+          "blockers": [
+            "MISSING_APPROVED_CINEMATIC_REFERENCE"
+          ],
+          "reason": null
+        },
+        "main_cinematic_parent": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "novel_only_constraint": []
+      },
+      {
+        "matchup": "W11-G05",
+        "parent": "LOC-MUD-DOGS-SWAMP",
+        "feature": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+        "canon_status": "PERMANENT_CANON",
+        "region": "REG-SOUTHERN-WETLANDS",
+        "main_feature": "HUMAN_REVIEW_REQUIRED",
+        "candidate_feature": "CURRENT_FEATURE_HANDLE_RESOLVED",
+        "issue_cinematic_result": {
+          "status": "HUMAN_REVIEW_REQUIRED",
+          "blockers": [
+            "MISSING_APPROVED_CINEMATIC_REFERENCE"
+          ],
+          "reason": null
+        },
+        "main_cinematic_parent": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "novel_only_constraint": []
+      },
+      {
+        "matchup": "W11-G06",
+        "parent": "LOC-COUNTRY-CLUB-JACKSON",
+        "feature": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+        "canon_status": "PERMANENT_CANON",
+        "region": "REG-SOUTHERN-WETLANDS",
+        "main_feature": "HUMAN_REVIEW_REQUIRED",
+        "candidate_feature": "CURRENT_FEATURE_HANDLE_RESOLVED",
+        "issue_cinematic_result": {
+          "status": "HUMAN_REVIEW_REQUIRED",
+          "blockers": [
+            "MISSING_APPROVED_CINEMATIC_REFERENCE"
+          ],
+          "reason": null
+        },
+        "main_cinematic_parent": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "novel_only_constraint": []
+      }
+    ],
+    "character_and_author": {
+      "distinct_characters": 12,
+      "verified_lineup_crops": 12,
+      "character_render_permitted": false,
+      "C1_passed_pairs": 0,
+      "T15": [
+        "HOLD"
+      ],
+      "T16": [
+        "HOLD"
+      ],
+      "successful_read_only_contexts": 12,
+      "as_of": [
+        2026,
+        11
+      ],
+      "latest_archive_season": 2025,
+      "public_historical_fixtures_available_per_character": [
+        1117
+      ],
+      "historical_personal_attributions_without_owner_crosswalk": 0,
+      "persistent_bullpen_memory_connected_by_this_adapter": false
+    },
+    "evolution": {
+      "world_memory_event_count": 7,
+      "memory_matches_six_parents": [
+        "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "LOC-COUNTRY-CLUB-JACKSON"
+      ],
+      "w11_world_memory_event_count": 0,
+      "world_state_event_count": 7,
+      "evolution_transactions": 0,
+      "story_promises": 0,
+      "world_state_as_of": "end_of_week_3_2026",
+      "mode": "VALIDATE_ONLY",
+      "dry_run_status": "FATAL",
+      "dry_run_valid": false,
+      "dry_run_state_apply_allowed": false,
+      "dry_run_findings": [
+        "UNVERIFIED_RELEASE"
+      ]
+    },
+    "baseline_tests": {
+      "main": {
+        "governance/validate_project_mission.py": {
+          "exit_code": 0,
+          "tests": null,
+          "last_line": [
+            "PASS: Schemin '26 canonical project mission"
+          ]
+        },
+        "world/environment-references/test_environment_references.py": {
+          "exit_code": 0,
+          "tests": 9,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "world/location-control-plane/qa/test_location_control_plane.py": {
+          "exit_code": 0,
+          "tests": 15,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "world/evolution/qa/test_world_evolution.py": {
+          "exit_code": 0,
+          "tests": 10,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "world/evolution/qa/test_world_reconstruction.py": {
+          "exit_code": 0,
+          "tests": 8,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "living-novel/os/qa/test_story_continuity_context.py": {
+          "exit_code": 0,
+          "tests": 4,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "canon/characters/tests/test_approved_lineup_2026_10_18.py": {
+          "exit_code": 0,
+          "tests": 4,
+          "last_line": [
+            "OK"
+          ]
+        }
+      },
+      "issue": {
+        "governance/validate_project_mission.py": {
+          "exit_code": 0,
+          "tests": null,
+          "last_line": [
+            "PASS: Schemin '26 canonical project mission"
+          ]
+        },
+        "world/environment-references/test_environment_references.py": {
+          "exit_code": 1,
+          "tests": 9,
+          "last_line": [
+            "FAILED (failures=1)"
+          ]
+        },
+        "world/location-control-plane/qa/test_location_control_plane.py": {
+          "exit_code": 0,
+          "tests": 15,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "world/evolution/qa/test_world_evolution.py": {
+          "exit_code": 0,
+          "tests": 10,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "world/evolution/qa/test_world_reconstruction.py": {
+          "exit_code": 0,
+          "tests": 8,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "living-novel/os/qa/test_story_continuity_context.py": {
+          "exit_code": 0,
+          "tests": 4,
+          "last_line": [
+            "OK"
+          ]
+        },
+        "canon/characters/tests/test_approved_lineup_2026_10_18.py": {
+          "exit_code": 0,
+          "tests": 4,
+          "last_line": [
+            "OK"
+          ]
+        }
+      }
+    },
+    "red_team": {
+      "input": "Unpublished Week 11 draft, valid-shaped hypothetical APPEND_WORLD_STATE_EVENT with no approvals. Called validate_request only.",
+      "result": "UNVERIFIED_RELEASE",
+      "state_apply_allowed": false,
+      "actual_world_writes": 0
+    },
+    "scratch_regeneration": {
+      "changed_svg_count": 5,
+      "all_23_byte_replay": 23,
+      "environment_suite": "9/9 passed",
+      "repo_modified_by_this_check": false,
+      "cinematic_status_changed": false,
+      "candidate_paths_under": "world/environment-references/plates/",
+      "route_recheck": {
+        "exit_code": 0,
+        "connected_journeys": 7,
+        "registered_issue_scene_handles": 6
+      },
+      "differing_lines": [
+        {
+          "path": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+          "line": 10,
+          "kind": "single structural SVG LANDMARKS text node expanded from already-tracked site data"
+        },
+        {
+          "path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+          "line": 10,
+          "kind": "single structural SVG LANDMARKS text node expanded from already-tracked site data"
+        },
+        {
+          "path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+          "line": 10,
+          "kind": "single structural SVG LANDMARKS text node expanded from already-tracked site data"
+        },
+        {
+          "path": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+          "line": 10,
+          "kind": "single structural SVG LANDMARKS text node expanded from already-tracked site data"
+        },
+        {
+          "path": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
+          "line": 10,
+          "kind": "single structural SVG LANDMARKS text node expanded from already-tracked site data"
+        }
+      ],
+      "only_files_in_patch": [
+        "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+        "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+        "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+        "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+        "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg"
+      ],
+      "all_selected_suites_after": {
+        "governance/validate_project_mission.py": {
+          "exit_code": 0,
+          "tests": null
+        },
+        "world/environment-references/test_environment_references.py": {
+          "exit_code": 0,
+          "tests": 9
+        },
+        "world/location-control-plane/qa/test_location_control_plane.py": {
+          "exit_code": 0,
+          "tests": 15
+        },
+        "world/evolution/qa/test_world_evolution.py": {
+          "exit_code": 0,
+          "tests": 10
+        },
+        "world/evolution/qa/test_world_reconstruction.py": {
+          "exit_code": 0,
+          "tests": 8
+        },
+        "living-novel/os/qa/test_story_continuity_context.py": {
+          "exit_code": 0,
+          "tests": 4
+        },
+        "canon/characters/tests/test_approved_lineup_2026_10_18.py": {
+          "exit_code": 0,
+          "tests": 4
+        }
+      }
+    }
+  },
+  "house": {
+    "issue": 323,
+    "three_posted": true,
+    "two_offboard": true,
+    "unstated": "Seven Deadly Chins at Mud Dogs",
+    "updates_found": 0
+  },
+  "followup": {
+    "next_checkpoint": "2026-11-24T00:30:00-05:00",
+    "regular_cycle": "daily 09:00 America/New_York",
+    "purpose": "Refresh official Week 11 scores, select evidence-supported story consequences and continue the existing draft."
+  }
+}

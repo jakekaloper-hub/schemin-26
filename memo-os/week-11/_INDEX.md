@@ -1,5 +1,9 @@
 # Week 11 — initial production index
 
+[Current evening refresh and next production checkpoint](EVENING_LAYER_REFRESH_2026-11-22.md) · Six live scores corroborated by ESPN, 120 checked starters, a fresh playoff-model run and Atlas/Novel validation. [Refresh receipt](EVENING_LAYER_RECEIPT_2026-11-22.json).
+
+[Weekly Memo north-star board decision](NORTH_STAR_BOARD_2026-11-22.md) · Corrected scene directions, distinct rankings, six future-story handoffs and the [two-sitting review receipt](NORTH_STAR_BOARD_RECEIPT_2026-11-22.json).
+
 [Full-issue cinematic and editorial working book](WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md) · Six matchup treatments, departments from cover to Final Word, the editable tldraw room and [all 35 native Week 10 PNG references](WEEK10_NATIVE_PNG_REFERENCE_MAP.json).
 
 **Issue:** Pro Schemin' 2026, ESPN matchup period 11  
