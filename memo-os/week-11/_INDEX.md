@@ -1,5 +1,7 @@
 # Week 11 — initial production index
 
+[Full-issue cinematic and editorial working book](WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md) · Six matchup treatments, departments from cover to Final Word, the editable tldraw room and [all 35 native Week 10 PNG references](WEEK10_NATIVE_PNG_REFERENCE_MAP.json).
+
 **Issue:** Pro Schemin' 2026, ESPN matchup period 11  
 **State:** LIVE INTAKE / PREPRODUCTION / PUBLICATION HOLD  
 **Opened:** 2026-11-20  
