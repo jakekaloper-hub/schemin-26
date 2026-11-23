@@ -6,10 +6,10 @@ export function spatialBindings(catalog){
  const seen=new Set();return catalog.locations.map(p=>{if(!/^LOC-/.test(p.id)||seen.has(p.id))throw new Error('INVALID_OR_DUPLICATE_LOCATION');seen.add(p.id);return {...structuredClone(p),anchor:atlasToScene(p.position),visible:true};});
 }
 export function defaultCamera(){return {target:[0,0,0],distance:280,yaw:-.23,pitch:.78};}
-/** Keep source-bound camera flights on the nearest equivalent orientation.
- * A visitor may orbit beyond 2π; raw yaw easing would spin back through every
- * earlier revolution when selecting another site or returning to the world.
- * This is a read-only view transform, not an Atlas coordinate change.
+/** Rebase a navigation destination onto the nearest equivalent yaw.
+ * This is applied ONLY on a place/world/view transition, never to user drag:
+ * an intentional multi-turn orbit must not have its pointer movement discarded.
+ * A source-bound view transform does not alter place coordinates or identity.
  */
 export function shortestCameraYawArc(from,to){
  if(!Number.isFinite(from)||!Number.isFinite(to))throw Error('INVALID_CAMERA_YAW');
@@ -17,16 +17,12 @@ export function shortestCameraYawArc(from,to){
  const arc=((raw+Math.PI)%turn+turn)%turn-Math.PI;
  return arc===-Math.PI&&raw>0?Math.PI:arc;
 }
-export function easeObserverCamera(current,desired,seconds){
+export function nearestObserverViewYaw(current,desired){
  const valid=c=>c&&Array.isArray(c.target)&&c.target.length===3&&
   [c.distance,c.pitch,c.yaw,...c.target].every(Number.isFinite);
- if(!valid(current)||!valid(desired)||!Number.isFinite(seconds)||seconds<0)throw Error('INVALID_CAMERA_EASING');
- const f=1-Math.exp(-seconds*6);
- return {...current,
-  distance:current.distance+(desired.distance-current.distance)*f,
-  pitch:current.pitch+(desired.pitch-current.pitch)*f,
-  yaw:current.yaw+shortestCameraYawArc(current.yaw,desired.yaw)*f,
-  target:current.target.map((v,i)=>v+(desired.target[i]-v)*f)};
+ if(!valid(current)||!valid(desired))throw Error('INVALID_CAMERA_VIEW');
+ const difference=desired.yaw-current.yaw;
+ return {...desired,yaw:Math.abs(difference)<=Math.PI?desired.yaw:current.yaw+shortestCameraYawArc(current.yaw,desired.yaw),target:[...desired.target]};
 }
 export function cameraStep(c,{zoom=0,pitch=0,yaw=0,panX=0,panZ=0,inputOwner='WORLD'}={}){
  if(inputOwner!=='WORLD')return structuredClone(c);

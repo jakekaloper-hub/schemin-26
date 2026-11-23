@@ -1,7 +1,7 @@
 /* Mount the source foundation into a private, offline observer preview. */
 const {createObserver,transitionObserver}=ObserverWorld;
 const {observerClock,resolveObserverWeather}=ObserverWeather;
-const {spatialBindings,defaultCamera,cameraStep,modeCamera,locationCamera,regionOverviewCamera,easeObserverCamera,illustrativeLight,previewMetadata}=Spatial;
+const {spatialBindings,defaultCamera,cameraStep,modeCamera,locationCamera,regionOverviewCamera,nearestObserverViewYaw,illustrativeLight,previewMetadata}=Spatial;
 const createWorldRenderer=(canvas,bindings,options)=>{
  if(THREE){try{return ThreeWorldRenderer.createThreeWorldRenderer(THREE,canvas,bindings,{...options,buildWorldGeometry:WorldRenderer.buildWorldGeometry,buildRegionalAssets:RegionalAssets.buildRegionalAssets,buildAtlasSiteAssets:AtlasSites.buildAtlasSiteAssets,atlasSiteIds:AtlasSites.supportedAtlasSiteIds()});}catch(e){if(e.message!=='WEBGL2_UNAVAILABLE')throw e;}}
  return WorldRenderer.createWorldRenderer(canvas,bindings,options);
@@ -87,7 +87,7 @@ function select(id){
  escapePanels();
  target=locationCamera(bindings,id);
  target.target[1]=renderer?renderer.height(target.target[0],target.target[2]):0;
- const framing=renderer?.siteView?.(id);if(framing)target={...target,...framing};
+ const framing=renderer?.siteView?.(id);if(framing)target={...target,...framing};target=nearestObserverViewYaw(camera,target);
  $('#placeRegion').textContent=selected.zoneId.replace(/^REG-/,'').replaceAll('-',' ');
  $('#placeName').textContent=selected.name;
  $('#landmarks').textContent=selected.landmarks.join(' · ');
@@ -101,7 +101,7 @@ function closeInspector(){
  $('#inspector').hidden=true;
  (inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});
 }
-function wholeWorld(){if(state.phase!=='EXPLORING')return;const fromInspector=$('#inspector').contains(document.activeElement);dispatch({type:'world_view'});selected=null;target=defaultCamera();escapePanels();if(paused)camera=structuredClone(target);if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});}
+function wholeWorld(){if(state.phase!=='EXPLORING')return;const fromInspector=$('#inspector').contains(document.activeElement);dispatch({type:'world_view'});selected=null;target=nearestObserverViewYaw(camera,defaultCamera());escapePanels();if(paused)camera=structuredClone(target);if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});}
 $('#placesToggle').onclick=()=>{const open=$('#placesPanel').hidden;escapePanels();$('#placesPanel').hidden=!open;$('#placesToggle').setAttribute('aria-expanded',String(open));if(open)$('#placeSearch').focus();};
 $('#placesClose').onclick=()=>{escapePanels();$('#placesToggle').focus();};
 $('#infoToggle').onclick=()=>{const open=$('#infoPanel').hidden;escapePanels();$('#infoPanel').hidden=!open;};$('#infoClose').onclick=()=>{escapePanels();$('#infoToggle').focus();};
@@ -112,11 +112,11 @@ $('#wetlandsView').onclick=()=>{
  if(!canControl())return;
  const fromInspector=$('#inspector').contains(document.activeElement);
  const overview=regionOverviewCamera(bindings,'REG-SOUTHERN-WETLANDS',canvas.clientWidth/Math.max(1,canvas.clientHeight));
- dispatch({type:'world_view'});selected=null;escapePanels();target=overview;
+ dispatch({type:'world_view'});selected=null;escapePanels();target=nearestObserverViewYaw(camera,overview);
  if(paused)camera=structuredClone(target);
  if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});
 };
-for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>{if(state.phase!=='EXPLORING')return;dispatch({type:'camera',mode:b.dataset.view});target=modeCamera(b.dataset.view,selected?.renderAnchor||[0,0,0]);if(!selected&&b.dataset.view==='AERIAL')target=defaultCamera();for(const x of document.querySelectorAll('[data-view]'))x.classList.toggle('active',x===b);if(paused)camera=structuredClone(target);};
+for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>{if(state.phase!=='EXPLORING')return;dispatch({type:'camera',mode:b.dataset.view});target=modeCamera(b.dataset.view,selected?.renderAnchor||[0,0,0]);if(!selected&&b.dataset.view==='AERIAL')target=defaultCamera();target=nearestObserverViewYaw(camera,target);for(const x of document.querySelectorAll('[data-view]'))x.classList.toggle('active',x===b);if(paused)camera=structuredClone(target);};
 function setPaused(v){paused=v;$('#motionToggle').setAttribute('aria-pressed',String(paused));$('#motionToggle').textContent=paused?'▷':'Ⅱ';$('#motionToggle').setAttribute('aria-label',paused?'Resume environmental motion':'Pause environmental motion');if(paused)camera=structuredClone(target);}
 $('#motionToggle').onclick=()=>setPaused(!paused);setPaused(paused);
 function syntheticWeather(wins){const now=new Date(),checked=new Date(now.getTime()-60000),until=new Date(now.getTime()+3600000);const matches=wins===0?[{week:9,season:2026,completion:'FINAL',evidenceStatus:'VERIFIED',outcome:'LOSS'}]:Array.from({length:wins+1},(_,i)=>({week:9-i,season:2026,completion:'FINAL',evidenceStatus:'VERIFIED',outcome:i<wins?'WIN':'LOSS'}));return resolveObserverWeather({mode:'LIVE',now:now.toISOString(),weatherRegions:catalog.weatherRegions,resultEvidence:{characterId:'CHAR-MANNING-WELTY',season:2026,latestCompletedWeek:9,sourceReceipts:['SYNTHETIC_PREVIEW_FIXTURE_NOT_LEAGUE_DATA'],checkedAt:checked.toISOString(),validUntil:until.toISOString(),matches}});}
@@ -230,7 +230,7 @@ function drawAmbient(t){
 
 function draw(t){frameId=requestAnimationFrame(draw);if(!renderer)return;if(memorySession||historySession){lastTime=t;return;}const dt=Math.min(.05,(t-lastTime)/1000||.016);lastTime=t;if(!paused&&!document.hidden)animationTime+=dt;
  if(state.phase==='REVEALING'){const elapsed=(t-revealStart)/2200,f=clamp01(elapsed),s=f*f*(3-2*f);camera={...target,distance:280-(280-target.distance)*s,pitch:1.18-(1.18-target.pitch)*s,yaw:-.11+(.11+target.yaw)*s,target:[...target.target]};if(f===1){dispatch({type:'reveal_finished'});finishReveal();}}
- else if(state.phase==='EXPLORING'&&!paused){camera=easeObserverCamera(camera,target,dt);}
+ else if(state.phase==='EXPLORING'&&!paused){const f=1-Math.exp(-dt*6);for(const k of ['distance','pitch','yaw'])camera[k]+=(target[k]-camera[k])*f;camera.target=camera.target.map((v,i)=>v+(target.target[i]-v)*f);}
  const clock=observerClock(new Date().toISOString()),light=illustrativeLight(clock.hour+clock.minute/60);renderer.render(camera,animationTime,{strength:light.strength,storm:demo||0,paused});drawAmbient(animationTime);
  if(state.phase==='EXPLORING'&&t-revealStart>11000)$('#hint').style.opacity='0';
 }

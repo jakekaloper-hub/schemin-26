@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {nearestObserverViewYaw} from '../spatial.mjs';
 import {historyForLocation,openPlaceHistory,closePlaceHistory} from '../place-history.mjs';
 const host=readFileSync(new URL('../app.mjs',import.meta.url),'utf8');
 const start=host.indexOf('function select(id){');
@@ -29,13 +30,13 @@ function setup(fromIndex){
  }};
  const before=JSON.stringify(catalog),updates=[];
  const init=new Function('$','document','bindings','catalog','canvas','dispatch','escapePanels',
-   'locationCamera','renderer','updateMemoryEntry','updateHistoryEntry',
-   "let state={phase:'EXPLORING',inputOwner:'WORLD'},selected=null,target=null,camera=null,paused=false,inspectionReturnFocus=canvas;\n"+inspection+
+   'locationCamera','renderer','updateMemoryEntry','updateHistoryEntry','nearestObserverViewYaw',
+   "let state={phase:'EXPLORING',inputOwner:'WORLD'},selected=null,target=null,camera={target:[0,0,0],distance:280,yaw:0,pitch:.78},paused=false,inspectionReturnFocus=canvas;\n"+inspection+
    "\nreturn {select,closeInspector,snapshot:()=>({selected,target,inspectionReturnFocus})};");
  const app=init($,doc,bindings,catalog,canvas,action=>actions.push(action),
    ()=>{node('#placesPanel').hidden=true;node('#inspector').hidden=true;},
    (places,id)=>({target:[...places.find(x=>x.id===id).anchor],distance:30,yaw:0,pitch:.65}),
-   {height:()=>0,siteView:()=>null},()=>updates.push('memory'),()=>updates.push('history'));
+   {height:()=>0,siteView:()=>null},()=>updates.push('memory'),()=>updates.push('history'),nearestObserverViewYaw);
  return {$,app,doc,bindings,catalog,before,calls,actions,updates,canvas};
 }
 test('index→source place→historical record→exact viewpoint return does not lose focus or mutate canon',()=>{
