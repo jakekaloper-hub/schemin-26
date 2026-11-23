@@ -41,8 +41,30 @@ test('twelve arch-rooted creeper strands carry finite deterministic physical lea
  const a=build(),o=get(a).creepers,b=build(),copy=get(b).creepers;
  const geo=o.geometry,pos=geo.getAttribute('position'),color=geo.getAttribute('color');
  assert.equal(geo.type,'BufferGeometry');
- assert.equal(pos.count,408,'12 strands: eight pairs, six leaf triangles each');
- assert.equal(color.count,408);assert.equal(geo.index.count,720);
+ assert.equal(pos.count,552,'12 anchored strands and 72 five-vertex lamina');
+ assert.equal(color.count,552);assert.equal(geo.index.count,1368);
+ // Every original leaflet is one physically bent, four-facet lamina. Check
+ // convex midrib geometry, nondegenerate faces and original stem attachment.
+ for(let leaf=0;leaf<72;leaf++){
+  // Each strand serializes its 16 stem vertices then six five-point leaves.
+  const strand=Math.floor(leaf/6),local=leaf%6;
+  const base=strand*46+16+local*5;
+  const [root,upper,tip,lower,mid]=Array.from({length:5},(_,i)=>
+    new THREE.Vector3(pos.getX(base+i),pos.getY(base+i),pos.getZ(base+i)));
+  assert.ok(mid.z>Math.max(root.z,upper.z,tip.z,lower.z)+.015,
+    'midrib must rise above every leaf edge');
+  assert.ok(tip.distanceTo(root)>.10&&tip.distanceTo(root)<.18,
+    'keep each leaflet within its original footprint');
+  for(let facet=0;facet<4;facet++){
+   // Each strand has 42 stem indices followed by 72 leaflet indices.
+   const start=strand*114+42+local*12+facet*3;
+   const ids=Array.from(geo.index.array.slice(start,start+3));
+   assert.equal(new Set(ids).size,3,'nondegenerate triangle indices');
+   const [a,b,c]=ids.map(i=>new THREE.Vector3(pos.getX(i),pos.getY(i),pos.getZ(i)));
+   assert.ok(b.clone().sub(a).cross(c.clone().sub(a)).length()>1e-6,
+     'every physical leaflet facet must have positive area');
+  }
+ }
  assert.equal(o.material.isMeshStandardMaterial,true);
  assert.equal(o.material.vertexColors,true);
  assert.equal(o.material.side,THREE.DoubleSide);

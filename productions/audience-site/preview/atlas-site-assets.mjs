@@ -154,15 +154,21 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
     for(const side of [-1,1])vertex(p.x+side*half,p.y,p.z,[.20*shade,.39*shade,.15*shade]);
     if(j){const a=start+(j-1)*2,b=a+1,c=a+2,d=c+1;indices.push(a,b,c,b,d,c);}
    }
-   // Leaflets remain inside the original terrace envelope: no new trees/sites.
+   // The original 72 leaves gain curved, light-catching lamina rather than
+   // 72 camera-flat triangles. One batched mesh, original arch-mounted stems,
+   // unchanged terrace envelope: illustrative detail, not a flora/canon claim.
    for(const k of [2,4,6]){
     const p=curve(k/7),s=.87+.09*Math.sin(phase+k),c=[.22*s,.48*s,.18*s];
     for(const side of [-1,1]){
      const a=positions.length/3,reach=side*(.13+.015*((arch+strand+k)%3));
-     vertex(p.x,p.y,p.z+.008,c);
-     vertex(p.x+reach,p.y+.06,p.z+.021,c);
-     vertex(p.x+reach*.78,p.y-.075,p.z+.025,c);
-     indices.push(a,a+1,a+2);
+     // Four restrained edge points and a lifted midrib catch physically
+     // different light directions without adding a geometry layer.
+     vertex(p.x,p.y,p.z+.008,c); // stem attachment
+     vertex(p.x+reach*.55,p.y+.060,p.z+.016,c); // upper edge
+     vertex(p.x+reach,p.y+.012,p.z+.009,c); // original span tip
+     vertex(p.x+reach*.55,p.y-.070,p.z+.016,c); // lower edge
+     vertex(p.x+reach*.51,p.y+.002,p.z+.040,c); // convex midrib
+     indices.push(a+4,a,a+1,a+4,a+1,a+2,a+4,a+2,a+3,a+4,a+3,a);
     }
    }
   }
