@@ -63,6 +63,9 @@ The new repairs, errands, key and background performers are proposed set dressin
 
 ## Slob on my Dobb and El Niño · Hearthroad cab to a conditional swamp return
 
+**Founder November 23 weather/cargo override — use over prior all-kegs-protected staging.** The same canvas-covered beer trailer from Week 10 is struck broadside by severe weather on the proposed later swamp approach. A **secondary restraint loosens during the journey**, two heavy kegs **tumble off the side of the trailer** and roll into the flooded roadside, while the primary secured cargo stays on the truck. The axle threatens a washed embankment and Jordan brakes and radios his six-o'clock customer. This loss of some cargo is a visible weather beat **in all football result branches**, not an automatic El Niño fantasy victory: in an El Niño-win cut, the truck is precariously stopped and delivery suffers; in a Slob-win cut, Jordan prevents worse damage and arranges recovery of the fallen kegs. Pending leaves rescue/delivery undecided. Show gravity, ratchet geometry, falling barrel trajectory and retained cargo; no roadside casualties or magical airborne kegs. The swamp truck-access route remains `ATLAS_VEHICLE_ACCESS_HOLD`.
+
+
 **Founder choice preserved.** Jordan Hollingshead begins inside the truck cab at Hearthroad by Slob Foothill Camp, with beer still under the Week 10 canvas, a promised six o'clock taproom delivery and Manning Welty watching from his window. The November 23 Founder direction adds a conditional **later leg through the swamp**, with a potential trucking near-accident if El Niño wins / Slob on my Dobb loses.
 
 **Setting and route safety.** The first shot uses SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT. The existing Atlas route chain can conceptually connect Hearthroad to the Southern Wetlands via Mountain Lake Bridge, Upper Basin Connector, League Chamber, Basin Market/Mire Hill and Delta Causeway. Do not treat it as an established loaded-truck route: Delta Causeway records foot/mount/wetland, **not** truck clearance. The previously pictured Week 10 truck near Mud Dogs' blockade gives a local visual reference for a swamp access road. The widened F13 hazard is provisional and must not create a second official G02 set or permanent navigable road without approved Atlas evidence.
@@ -74,6 +77,9 @@ The new repairs, errands, key and background performers are proposed set dressin
 **Production in two existing pages.** F12 = the open promise, window dialogue and runoff evidence. F13 = weather-motivated, later swamp-access hazard only with verified truck access, then radio admission / conditional relief. Keep initial same Hearthroad geometry and six named set landmarks; distinguish temporal travel from a jump cut. Integrate the scene into the 1080×1920 world with plausible lighting, suspension, rain direction, truck model and 390px proof rather than a separate poster. The Week 12 story gets Slob hosting The Chili Cheesers and El Niño hosting Seven Deadly Chins, with Tuesday's sports truth governing any further playoff claims.
 
 ## ObiWan Jacoby and The Chili Cheesers · Foot of the Eastern Ascent
+
+**Founder November 23 rainy carnival visual overlay.** The public foot of Eastern Ascent is **visibly raining** as well as gusty: wet banners, rain streaming through carnival lamps, damp on the red Wolf Brand Chili can, puddled bootprints, spectators huddled under jackets, and droplets clinging to Brandon Pryor's recovered rodeo hat. The OFF BOARD notice is wet but legible. Jake's voluntarily chosen dunk tank still contains **thick Wolf Brand Chili, not rainwater**, Brandon hits his target with **one genuinely accurate throw** independent of weather, and the fully submerged/whole-body ladder reveal remains readable. Do not relocate the private After Dark shack or imply official playoff elimination.
+
 
 **Founder choice.** Jake Kaloper and Brandon Pryor meet at the foot of the Eastern Ascent with the spectators above them. Jake’s later press interview has its own mountain shack setup.
 
@@ -125,6 +131,9 @@ Brandon takes off his hat. He stays beside the tank. Give the last frame to Jake
 
 ## Red Leopards and Three Dreaded Snake · The break in the vegetation
 
+**Founder November 23 intense jungle weather overlay.** The visitor-side waterfall boundary is under **heavy rain and saturated jungle conditions**, with wind-driven broad leaves, mud churned into the existing two approaches, brown rivulets and recognizable slippery tracks. The **raised dry finish stone** remains the one safely usable point and the first-palm rule can become more compelling. Kevin Zeek checks his footing because of Week 10 El Niño storm damage at his separate sites; Phillip Pitts protects the family courtyard off camera while maintaining one body with exactly three heads. No new permanent flood-destroyed temple or weather-selected win; the Florida python-hunter costume is still an official Red Leopards win-only coda.
+
+
 **Founder choice.** Kevin Zeek meets Phillip Pitts at the break in the vegetation near the falls, on Phillip’s outer property line. The sport remains open.
 
 **Opening.** Kevin calls his greeting from the path. The water swallows the last few words. Phillip waits until Kevin comes through the leaves. For the second attempt Kevin has to use his ordinary voice. That loss of a grand entrance costs him a little of the easy victory he was expecting. Frame the break low enough to glimpse the falls behind it. The host, visitor and temporary marker should all be visible without showing the household courtyard.
@@ -139,6 +148,9 @@ Brandon takes off his hat. He stays beside the tank. Give the last frame to Jake
 
 ## Mud Dogs and Seven Deadly Chins · The Gators & Dawgs sign
 
+**Founder November 23 exceptional swamp high-water overlay.** Southern Wetlands floodwater is now **well above normal water lines** in this temporary Week 11 weather scenario, close to the lower supports of the original Gators & Dawgs sign and the bases of the empty stands on frame LEFT. Water hides the wheel scars Ben Whipple expects to use, and floating reeds/branches make the wrong turn unpredictable and hazardous. The right-post Cancún card survives **above water**; Bobby's provisional outpost and his one clean paw remain on surviving elevated ground. **He still deliberately points Ben into the more flooded wrong track**, and Ben can recognize looping landmarks/retreat without inventing a new physical route to Playoff Island. Do not turn this atmospheric condition into official league elimination, a permanent swamp shutdown or actual World hydrology update.
+
+
 **Founder revision (November 23).** The operative action is no longer Bobby Mitchell guiding Ben Whipple safely or staging a fair swamp race. Bobby intentionally gives Ben **bad directions** through Mud Dogs' swamp toward the Playoff Island he hopes to reach. This supersedes the earlier helpful route and fair-play staging; those notes remain as superseded workshop history only.
 
 **Arrivals at the existing site.** Frame a humble outpost/cabin on the edge of the established sign as *provisional, reversible staging*, not an approved new permanent address. Bobby looks at the Week 10 Cancún postcard on the RIGHT post, with empty stands LEFT and original flooded ruts below. This calls up the possible Losers Beach future he wants to reject, not a literal view or confirmed journey to an existing beach. After defeating Three Dreaded Snake in Week 10, Seven Deadly Chins arrives confident and asks where he should travel to keep his hopes for Playoff Island alive.
@@ -152,6 +164,11 @@ Brandon takes off his hat. He stays beside the tank. Give the last frame to Jake
 **Release logic.** Only post-Monday official ESPN winner state, Tuesday full twelve-team TheFFHub validation and independent qualifications justify a Mud spoilage claim, a Chins playoff consequence or Mud elimination. Win/loss/tie/pending select the ending's strength; do not let fiction invent a sporting result.
 
 ## Dr. Duckhook and The LLC · The executive office at Jackson
+
+**Latest Founder November 23 authority — more severe weather and deeper company betrayal.** Keep the long-established Country Club of Jackson office, the **two distinct documents**, Zach's refusal to sell the course and the existing LLC board action. David Babb enters after his Week 10 road victory feeling **confident that his investors will help The LLC buy Jackson**. Behind the scenes, Dr. Duckhook has discreetly corresponded with The LLC's executive board, and some board members have **asked him to become its head**. The effective board-action sheet removes Babb as corporate CEO and names Duckhook CEO and chairman. David discovers his investor confidence was misplaced, erupts in **visibly personal fury**, and sharply rises from the guest chair with his unused pen striking the desk. Zach keeps calm and owns Jackson; Babb still owns/represents the **fantasy** team The LLC. The entire **clubhouse exterior** is under extremely strong wind and rain, bending trees, runoff over steps, outdoor staff securing fixtures, but the interior remains dry, lit and intact. The groundskeeper returns the rain-damp key and **leaves before the private board conversation**. The storm outside mirrors Babb's rage, not the cause of the corporate vote.
+
+**Fictional Inklings dialogue audition (not actual owner/board-member quotes):** David: “After last week, my investors wanted Jackson.” Zach: “Then ask them who they wanted running The LLC.” David: “You went to my board?” Zach: “Some of them came to me. I made the calls.” David: “You think you can take my company and keep your club?” Zach: “Jackson was never yours.” Typeset select lines across F21/F22 only as legibility permits; no added investor cameos, investment terms, share counts or vote tally. Official Week 11 football results still select the **coffee coda only**. [Full new studio treatment](preproduction/STORM_ESCALATION_AND_JACKSON_BOARDROOM_INKLINGS_PASS_2026-11-23.md).
+
 
 **Founder choice.** The meeting is inside Dr. Duckhook’s executive office in the Country Club of Jackson clubhouse. David wants to buy the golf course and add it to The LLC’s portfolio. Zach refuses every offer. That refusal holds through a win, loss or tie. The final spot in the office remains an editorial choice for comparison.
 
