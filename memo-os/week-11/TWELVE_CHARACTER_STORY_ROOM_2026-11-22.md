@@ -55,6 +55,9 @@ After 208.76 last week, Austin has grown accustomed to people making room. At fi
 
 ## Hearthroad · The last safe shoulder
 
+**November 23 Inklings storm-cargo adjustment (governing addendum).** Week 10's primary beer cargo had been cinched under canvas. Now a *secondary restraint* works loose under a violent crosswind on the proposed later wetland access, and **two heavy kegs tumble from Jordan's trailer** into roadside runoff. Jordan must stop, secure his remaining load and tell the taproom the truth. The spill is a weather event in each branch; a verified El Niño win turns it into a partially lost/late delivery while a Slob on my Dobb win permits Jordan to recover or account for the kegs and complete a safe delivery. Unresolved means no confirmed recovery/delivery. The scene's tragedy/comedy lives in the physical cargo and his promise, not inventing an entirely destroyed business or an approved Delta Causeway vehicle route.
+
+
 *Week 11 G02 · Founder November 23 storm-disaster revision · Inklings proposed dramaturgy, not accepted new Atlas geography.*
 
 **Already preserved.** Week 10 physical page 35 left Jordan Hollingshead's beer kegs strapped under canvas by the Slob Foothill Camp. His promised delivery to the taproom at six, the radio, visor slip and Manning Welty asking about that promise remain established G02 story material. Both teams came off Week 10 wins; their Week 11 result remains unverified until ESPN reports a decided winner.
@@ -101,6 +104,9 @@ These are three **modeled editorial readings of the existing manuscript**, not r
 **Editorial verdict:** scene causality and both result branches are ready for conditional storyboard study; loaded-truck wetland location, actual 1080×1920 final raster and final fantasy winner remain HOLD.
 
 ## ObiWan’s mountain · Two men looking for the same audience
+
+**November 23 Inklings rain-layer adjustment.** The humiliating Wolf Brand Chili carnival confrontation now happens in **clearly falling upland rain and gusts**. Brandon's recovered black hat beads with rain and Pittsy's OFF BOARD paper flutters wetly; Jake volunteers for the dunk and Brandon's *one accurate throw* causes it, not a lucky weather push. The thick chili and drenching rain are separate materials. Jake emerges rain-soaked and chili-covered from head to **both boots**, confronted by the man rather than the crowd he wanted to impress. No final outcome or elimination is invented.
+
 
 *Week 10 mountain and rodeo · Founder O01–O06 · November 19 After Dark and House notes · ESPN-verified 2023 Week 13 meeting.*
 
@@ -152,7 +158,12 @@ On the Book page Phillip decides what goes on the board. At home he has a harder
 
 **Week 12.** Red hosts Duckhook. TDS visits Mud. The host/visitor reversal gives Phillip a specific attitude to carry into the swamp.
 
+**November 23 G04 Inklings weather case:** At the established falls vegetation break, heavy rain and muddy jungle approaches make Kevin/Phillip choose footing. Keep raised dry finish stone, one body with three heads, privacy and result-gated outfit.
+
 ## Mud Dogs’ swamp · The wrong way to paradise
+
+**November 23 Inklings exceptional-flood overlay.** The high water has gone beyond the usual swamp marks: the original Gators & Dawgs sign's lower supports and empty left stands reference the **new temporary floodline**, with old grooves submerged and reeds floating above them. Bobby's one clean paw and proposed outpost remain elevated; the right-hand Cancún postcard is still in place above water. Ben's decision to trust Bobby is more consequential precisely because Bobby **knowingly** offers bad directions in dangerous floodwater. Preserve his uneasy satisfaction and the distinction between hypothetical Losers Beach and verified sporting elimination.
+
 
 *November 23 Founder revision; Inklings preproduction story; supersedes the previous fair-race / truthful-warning G05 treatment.*
 
@@ -177,6 +188,9 @@ On the Book page Phillip decides what goes on the board. At home he has a harder
 **Week 12 handoff.** Seven Deadly Chins at El Niño; Three Dreaded Snake at Mud Dogs. The Tuesday TheFFHub twelve-team and ESPN qualification refresh will set the intensity of Ben's fear; it cannot preselect Week 12's Game of the Week or turn an undecided game into a fictional final.
 
 ## Duckhook’s territory · Who needs the laugh more?
+
+**Latest November 23 Inklings owner-control revision — supersedes earlier generic real-estate scene while keeping its physical office.** Babb comes into the **Country Club of Jackson executive office** as a confident investor-backed buyer, using last week's 203.96-point victory to justify thinking his next win will be a Jackson acquisition. Zach's birthday humiliation has made him quieter, not weaker: behind the scenes he spoke discreetly with The LLC board; some members had **asked him to lead**. David's attempted acquisition offer is refused, and the separate corporate board-action sheet appoints Zach CEO/chairman and removes David as CEO. David becomes **furious**—chair jolts, pen strikes the desk—but the office stays dry and sound inside a ferocious exterior storm of bent trees, wet windows and outdoor staff saving equipment. Only Babb and Zach know the private conversation; the key-return groundskeeper already left. Zach does **not** resign, David remains The LLC *fantasy representative*, and football winner changes the coffee coda only. See [latest Founder script](preproduction/STORM_ESCALATION_AND_JACKSON_BOARDROOM_INKLINGS_PASS_2026-11-23.md).
+
 
 *Week 10 birthday and mountain result · Founder D01–D06 · November 20 Atlas and Inklings review.*
 
