@@ -196,7 +196,22 @@ canvas.addEventListener('pointercancel',e=>{
 });
 canvas.addEventListener('pointerleave',()=>$('#tooltip').hidden=true);
 canvas.addEventListener('wheel',e=>{if(!canControl())return;e.preventDefault();target=cameraStep(target,{zoom:e.deltaY*.07});if(paused)camera=structuredClone(target);$('#tooltip').hidden=true;},{passive:false});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){escapePanels();canvas.focus();return;}if(/INPUT|TEXTAREA/.test(e.target.tagName)||!canControl())return;const action={ArrowLeft:{panX:-3},ArrowRight:{panX:3},ArrowUp:{panZ:-3},ArrowDown:{panZ:3},'+':{zoom:-10},'=':{zoom:-10},'-':{zoom:10}}[e.key];if(action){e.preventDefault();target=cameraStep(target,action);if(paused)camera=structuredClone(target);}});
+function handleWorldKey(e){
+ // A recorded-history or memory dialog (and graphics fallback) owns its own keys.
+ if(e.defaultPrevented||!canControl())return;
+ if(e.key==='Escape'){
+  const opener=!$('#placesPanel').hidden?$('#placesToggle'):!$('#infoPanel').hidden?$('#infoToggle'):!$('#inspector').hidden?inspectionReturnFocus:null;
+  if(!opener)return;
+  e.preventDefault();escapePanels();
+  (opener.isConnected?opener:canvas).focus({preventScroll:true});return;
+ }
+ // Keep search, native controls and assistive keyboard navigation independent.
+ if(e.target!==canvas&&e.target!==document.body)return;
+ if(e.altKey||e.ctrlKey||e.metaKey)return;
+ const action={ArrowLeft:{panX:-3},ArrowRight:{panX:3},ArrowUp:{panZ:-3},ArrowDown:{panZ:3},'+':{zoom:-10},'=':{zoom:-10},'-':{zoom:10}}[e.key];
+ if(action){e.preventDefault();target=cameraStep(target,action);if(paused)camera=structuredClone(target);}
+}
+document.addEventListener('keydown',handleWorldKey);
 
 const ambient=$('#ambient'),ambientCtx=ambient.getContext('2d');
 /* Keep fine atmospheric details sharp on high-density viewports while all
