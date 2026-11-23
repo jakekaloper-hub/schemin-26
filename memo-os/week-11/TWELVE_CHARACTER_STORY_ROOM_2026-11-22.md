@@ -129,35 +129,29 @@ On the Book page Phillip decides what goes on the board. At home he has a harder
 
 **Week 12.** Red hosts Duckhook. TDS visits Mud. The host/visitor reversal gives Phillip a specific attitude to carry into the swamp.
 
-## Mud Dogs’ swamp · The man who turns the sign around
+## Mud Dogs’ swamp · The wrong way to paradise
 
-*Prior swamp ruts, sign and delivery · Week 10 courtyard · Founder M01–M06 · November 17 elimination proof.*
+*November 23 Founder revision; Inklings preproduction story; supersedes the previous fair-race / truthful-warning G05 treatment.*
 
-**Already in the memo.** Mud’s swamp still bears racing ruts, a sign, and traces of Slob’s delivery. Chins arrives confident after last week at the waterfall courtyard. The event can look ridiculous from the road and matter a great deal on the ground. It is Bobby’s final stand on familiar ground. Ben enters overconfident. Let the absurd competition acquire a real cost.
+**Sporting setup.** Seven Deadly Chins enters after defeating Three Dreaded Snake 146.22–82.78 in Week 10, at 6–4 and pursuing a postseason place. Mud Dogs enters 2–8 after losing 113.62–179.29 to Slob on my Dobb. Week 11 remains officially undecided as of Monday's cited intake. Ben Whipple has three divisional contests after this one to shape his playoff hopes. Bobby Mitchell contemplates the prospect of Losers Beach and a hard offseason. The Commissioner's paraphrase of Bobby's private text informs an emotionally restrained spoiler impulse, **not** direct dialogue to print.
 
-### Mud Dogs / Bobby Mitchell
+**New choice, new moral tension.** In the earlier rehearsal Bobby revealed the safe route and treated Ben fairly. **Retire that action, the marker-turn, the swamp sprint and the helpful warning** as selected G05 story beats. Bobby now **uses his local knowledge to deceive Ben**. The clean paw is still the visual sign of knowledge: it stays dry because Bobby knows the firm lip, while the path he recommends is soft and misleading. Ben's decision to trust an opponent gives the scene risk, irony and responsibility on both sides.
 
-Bobby sees an old course marker facing the wrong way and turns it so his opponent can read it. He could use every advantage, but this is his ground and he wants a fair race on it. The comic problem is that Chins is posing for the start while the host is still fixing it. The serious one is that this might be the race that closes Bobby’s path to the playoffs. Jared Goff, Saquon Barkley and Sam LaPorta accounted for every one of his 47.02 live points. Seven zero-scoring starting slots made a 33.82-point deficit look more decisive than ESPN’s 3.01-point projected gap.
+### The five Inklings beats
 
-### Seven Deadly Chins / Ben Whipple
+1. **Two future destinations.** From an outpost/cabin *proposed as reversible set dressing* beside the established Gators & Dawgs sign, Bobby studies Week 10's Cancún postcard on the right post and the empty stands to the left. It suggests Losers Beach in his imagination; the real beach is not literally visible. Ben's truck approaches, its lights crossing the unchanged lettering and swamp rut.
+2. **A hopeful arrival.** Ben is carrying momentum from Week 10 and asks, in fictional dialogue, “Which way to Playoff Island?” His destination is a hoped-for postseason, not a physically confirmed nearby road. He needs Bobby's local wayfinding knowledge.
+3. **The deliberate wrong turn.** From Ben's high truck window, the flooded trail looks navigable. From Bobby's lower point of view, his clean paw stays on the firm strip while he points toward the false one. Suggested fictional lines, not owner quotations: Bobby: “Follow the easy-looking ground. It opens up.” Ben: “And that's the way through?” Bobby: “Looks like it from here.” Ben leaves believing him.
+4. **Ben sees the mistake.** Along the track, repeating wheel scars, reeds and a familiar sign silhouette make the directions suspect. Ben is confused, then afraid the journey and Week 12–14 games may all have to go his way. No new route to an island is asserted; use the existing rut and a plausible local loop, with Atlas authority checking continuity.
+5. **A smirk with a cost.** The truck lights disappear. Bobby smirks from his outpost, then looks back at the Cancún postcard. He has hurt a rival's confidence, but has not repaired his own team or escaped the offseason soul-searching he expects.
 
-Ben expects the truck to be the entrance everyone watches. Let him finish the pose and discover Bobby is busy. Ben can hurry on or walk back and read the sign. Give him that second choice and show him using the host’s knowledge. Patrick Mahomes and Bears D/ST supplied 42.24 of his 80.84. He also has something to protect at 6–4.
+**Ending selects only after the actual game is DECIDED.** Mud Dogs official win: Bobby's quiet trick echoes a meaningful spoiler result, while Ben remains mathematically alive unless standings/tiebreak proof says otherwise. Seven Deadly Chins win: Ben escapes the deception; the sporting metaphor cannot claim Mud's victory. Official tie / pending: Ben remains in the maze and Bobby's smile has no proven competitive payoff. No Losers Beach trip or postseason elimination is declared from owner sentiment or sampled 0%.
 
-**A line to try**
+**Production translation.** Use two existing narrative folios. F19 = Bobby's outpost/postcard, Ben's arrival and asked-for directions, the intentionally incorrect gesture. F20 = Ben discovering the false path, a readable environment reversal, Bobby's smirk/postcard coda. Maintain both approved character looks and the sign/stadium/postcard axis from Week 10 physical page 17; 1080×1920 integrated illustration, 390px typography review. Keep a single coherent visual world, not a set of info panels.
 
-> Bobby turned the sign toward Ben. The second time past it, Ben slowed enough to read it.
+**Canon/location limit.** Existing site SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN remains the only set anchor. The cabin is a proposed small weathered outpost within that view, pending Atlas/visual acceptance. Show the beach/island through a map, postcard or thought—not a fabricated sightline, mapped coordinates, physical crossing, new location ID or official world state. Nothing here automatically creates a World or Novel fact.
 
-**The photograph.** Take the first frame from truck height so Ben seems to own the whole event. Drop to Bobby’s eye level. A reflected taillight in the familiar rut draws attention to what the driver can miss.
-
-**Write the ending from the result.** If Mud wins, let Ben ask where he lost time and let Bobby answer without gloating. The season continues. If Chins wins and elimination is verified, give Bobby the last word on his own course before the Cancún postcard joke. A tie needs fresh playoff math. The House has supplied no market status for this game.
-
-**What to compare in storyboard.** For the first proof, try a swamp delivery relay. Each contestant carries one empty case around the old sign and back to the truck. The truck makes a magnificent entrance for a race finished on foot. A timing board clipped to its tailgate catches the red from its lamps. Test the wide from truck height, then one view from Bobby’s eye level. The course/marker business is a proposed use of the established sign. It must work with the chosen event and remain readable with the punch line removed.
-
-**Week 12.** Mud hosts TDS. Chins visits El Niño. No Week 11 trip to Losers’ Beach.
-
-**November 23 owner-source interpretation — Inklings addendum, not verbatim testimony.** The Commissioner relayed Bobby Mitchell's own view of this potential upset: a difficult Mud Dogs season calls for serious offseason soul-searching; if Bobby beats Seven Deadly Chins, the satisfaction lies in affecting Ben Whipple's postseason chances, not in claiming the season has been redeemed. Use this as private creative direction and **do not reproduce or attribute the owner's text as a quotation**. In the fiction, Bobby can be dry, self-aware and unexpectedly generous; Ben remains a capable contender whose threatened playoff position deserves a credible reaction. A spoiler win should feel meaningful to the whole league, but the word *eliminated* and any Losers' Beach trip require independent qualification proof. Bobby's own future is uncertain until the sports desk settles it.
-
-**Inklings editorial choices to test, without committing new dialogue.** (1) The same clean paw that guides Ben across the rut also exposes why Ben's easy-looking route was dangerous. (2) In a Bobby-win ending, withhold a boast: Bobby studies his own broken stands and sign before acknowledging how much Ben had at stake. (3) Let Ben's pause at the postcard or standings notice, rather than a speech, register the playoff damage. (4) Bobby-win, Ben-win and official-tie cuts retain the same fixed sign, tracks, right-hand Cancún card and two-character agency. (5) Once decided, the revised Sports Desk supplies any mathematically supported seed/qualification statement; the Inklings supply the emotion, not fabricated sports facts. These are proposed **novel/scene-method directions**, not authenticated consultations or final character dialogue.
+**Week 12 handoff.** Seven Deadly Chins at El Niño; Three Dreaded Snake at Mud Dogs. The Tuesday TheFFHub twelve-team and ESPN qualification refresh will set the intensity of Ben's fear; it cannot preselect Week 12's Game of the Week or turn an undecided game into a fictional final.
 
 ## Duckhook’s territory · Who needs the laugh more?
 
