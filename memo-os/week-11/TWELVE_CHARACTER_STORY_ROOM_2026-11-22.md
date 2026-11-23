@@ -155,6 +155,10 @@ Ben expects the truck to be the entrance everyone watches. Let him finish the po
 
 **Week 12.** Mud hosts TDS. Chins visits El Niño. No Week 11 trip to Losers’ Beach.
 
+**November 23 owner-source interpretation — Inklings addendum, not verbatim testimony.** The Commissioner relayed Bobby Mitchell's own view of this potential upset: a difficult Mud Dogs season calls for serious offseason soul-searching; if Bobby beats Seven Deadly Chins, the satisfaction lies in affecting Ben Whipple's postseason chances, not in claiming the season has been redeemed. Use this as private creative direction and **do not reproduce or attribute the owner's text as a quotation**. In the fiction, Bobby can be dry, self-aware and unexpectedly generous; Ben remains a capable contender whose threatened playoff position deserves a credible reaction. A spoiler win should feel meaningful to the whole league, but the word *eliminated* and any Losers' Beach trip require independent qualification proof. Bobby's own future is uncertain until the sports desk settles it.
+
+**Inklings editorial choices to test, without committing new dialogue.** (1) The same clean paw that guides Ben across the rut also exposes why Ben's easy-looking route was dangerous. (2) In a Bobby-win ending, withhold a boast: Bobby studies his own broken stands and sign before acknowledging how much Ben had at stake. (3) Let Ben's pause at the postcard or standings notice, rather than a speech, register the playoff damage. (4) Bobby-win, Ben-win and official-tie cuts retain the same fixed sign, tracks, right-hand Cancún card and two-character agency. (5) Once decided, the revised Sports Desk supplies any mathematically supported seed/qualification statement; the Inklings supply the emotion, not fabricated sports facts. These are proposed **novel/scene-method directions**, not authenticated consultations or final character dialogue.
+
 ## Duckhook’s territory · Who needs the laugh more?
 
 *Week 10 birthday and mountain result · Founder D01–D06 · November 20 Atlas and Inklings review.*
