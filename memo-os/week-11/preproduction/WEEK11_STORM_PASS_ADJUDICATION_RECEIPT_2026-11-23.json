@@ -1,0 +1,124 @@
+{
+  "schema": "schemin.week11.weather_crossstory_adjudication.v1",
+  "date_eastern": "2026-11-23",
+  "repository": "jakekaloper-hub/schemin-26",
+  "working_branch": "memo-v52rc-20261115-intake",
+  "source_authority": {
+    "week10_head": "13b8bcfcbc3673a2e97d598ccebb70464c20e945",
+    "week10_branch": "memo-week10-preproduction-20261116",
+    "week10_verified_result": "El Niño 189.08 vs Red Leopards 147.82",
+    "week10_scenes": [
+      "W10-P05–P07 upland rodeo outer-band weather",
+      "W10-P08–P10 Red eastern terrace -> geographically distinct later Central Basin court",
+      "W10-P15–P17 passable raised service strip by Mud Dogs swamp",
+      "W10-P33/physical35 Slob beer shelter and approaching Hearthroad weather"
+    ],
+    "world_sources": [
+      "world/PRO_SCHEMIN_WORLD_BIBLE_V1.md §§7,12",
+      "world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md",
+      "world/atlas/ATLAS_V1.md"
+    ],
+    "weather_rules": [
+      "region/watershed propagation",
+      "ordinary storms do not automatically imply El Niño",
+      "EMBODIED and ATMOSPHERIC_MANIFESTATION are separate from AMBIGUOUS",
+      "explicit event/weather authority required for direct El Niño attribution outside G02",
+      "no assumed same scene clock time",
+      "no permanent World event on a proposed memoir"
+    ]
+  },
+  "local_execution": {
+    "device": "Jakes-MacBook-Pro.local",
+    "private_bullpen_checkout": "915dd2d",
+    "model": "local Ollama qwen2.5-coder:7b",
+    "raw_lens_transcript": "/tmp/schemin_w11_weather_crossstory_20261123.json",
+    "raw_transcript_committed": false,
+    "inklings_lens_count": 8,
+    "inklings_lenses": [
+      "J.R.R. Tolkien",
+      "C. S. Lewis",
+      "George R.R. Martin",
+      "J.K. Rowling",
+      "John Grisham",
+      "Ursula K. Le Guin",
+      "Brandon Sanderson",
+      "Joe Abercrombie"
+    ],
+    "bullpen_runtime": "createConsultEngine().conveneBoardMeeting()",
+    "modeled_director_slugs": [
+      "the_beat_writer",
+      "the_librarian",
+      "the_scout",
+      "the_umpire"
+    ],
+    "bullpen_model_replies": 4,
+    "model_invocation_errors": 0,
+    "independent_human_attendance": false,
+    "outside_film_staff_attendance": false,
+    "independent_umpire_acceptance": false,
+    "model_text_is_fact_certification": false
+  },
+  "editorial_adjudication": {
+    "accepted": [
+      "regional background based on Week10 coast/upland/inland/wetland exposures",
+      "the scene owner's existing choice stays dramatic cause in every matchup",
+      "subtle Upper Valleys wind G01 G03, restrained natural spray G04, delayed wetlands runoff G05, rain-wet course key G06",
+      "G02 remains direct primary El Niño weather confrontation and conditional later truck access",
+      "opening/roads/final word can frame weather as thematic connector but facts modules remain independent"
+    ],
+    "rejected": [
+      "new fog/tornado hitting all six sites",
+      "new minor injuries, storm-induced collisions or breakage beyond source",
+      "championship outcomes or fantasy points caused by weather",
+      "false assertion that ESPN/Flaim or TheFFHub verifies meteorological causation or World-Atlas event authority",
+      "Bobby's deliberate false directions replaced by accidental confusion in fog",
+      "El Niño embodied at all six locations without a time/spatial state receipt",
+      "premature El Niño Week11 winner and permanent route destruction",
+      "rain/flood causing unapproved Jackson corporate actions or uprooting Phillip's temple"
+    ],
+    "notes": "Several model submissions hallucinated extra injuries, weather-linked scores, route closures or erroneous source authorities. All are rejected. This source-grounded editorial overlay was authored as a separate adjudication rather than copying any fabricated model consensus."
+  },
+  "files": {
+    "main": "memo-os/week-11/preproduction/WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md",
+    "whole_issue": "memo-os/week-11/WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md",
+    "folio_rehearsal": "memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md",
+    "modified_scene_ids": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ],
+    "new_weather_lines_added_to_existing_folios": [
+      "F02",
+      "F08",
+      "F09",
+      "F15",
+      "F17",
+      "F19",
+      "F20",
+      "F35"
+    ],
+    "existing_source_hash_locked_folios_unchanged": [
+      "F12",
+      "F13",
+      "F14",
+      "F21",
+      "F22"
+    ],
+    "whole_issue_weather_matrix": "F01–F35"
+  },
+  "boundary": {
+    "week11_matchup_results": "UNDECIDED_AT_LAST_VERIFIED_CAPTURE",
+    "el_nino_stronger_atmosphere": "CONDITIONAL_EDITORIAL_STYLE_ONLY",
+    "atmospheric_manifestation": "NOT_NEWLY_AUTHORIZED",
+    "new_world_state_applied": false,
+    "new_atlas_route_created": false,
+    "character_renderer_mounts_verified": false,
+    "final_native_pngs_verified": false,
+    "publication": "HOLD",
+    "tuesday_action": "Independent ESPN final and Data Steward Fact Lock; full 12-team TheFFHub sweep only for sporting/playoff claims; owner-selected result branches; existing PNG/World approval gates",
+    "local_tests": "PENDING_AFTER_REPO_WRITES"
+  }
+}
