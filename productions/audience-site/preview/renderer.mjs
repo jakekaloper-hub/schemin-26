@@ -74,6 +74,21 @@ const SV=`attribute vec3 aPosition;uniform mat4 uVP;void main(){gl_Position=uVP*
 const SF=`precision highp float;void main(){vec4 enc=fract(gl_FragCoord.z*vec4(256.*256.*256.,256.*256.,256.,1.));enc-=enc.xxyz*vec4(0.,1./256.,1./256.,1./256.);gl_FragColor=enc;}`;
 function program(gl,v,f){const build=(type,s)=>{const x=gl.createShader(type);gl.shaderSource(x,s);gl.compileShader(x);if(!gl.getShaderParameter(x,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(x));return x;};const p=gl.createProgram();gl.attachShader(p,build(gl.VERTEX_SHADER,v));gl.attachShader(p,build(gl.FRAGMENT_SHADER,f));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(p));return p;}
 
+/** Fail closed if the existing native-WebGL shadow target is unbound or incomplete.
+ * Verification occurs once after the existing attachments, before the depth draw.
+ */
+export function assertShadowFramebufferReady(gl,framebuffer){
+ if(!gl||!framebuffer||typeof gl.getParameter!=='function'||typeof gl.checkFramebufferStatus!=='function')throw Error('INVALID_SHADOW_TARGET');
+ if(gl.getParameter(gl.FRAMEBUFFER_BINDING)!==framebuffer){
+  gl.bindFramebuffer(gl.FRAMEBUFFER,null);
+  throw Error('SHADOW_FRAMEBUFFER_NOT_BOUND');
+ }
+ if(gl.checkFramebufferStatus(gl.FRAMEBUFFER)!==gl.FRAMEBUFFER_COMPLETE){
+  gl.bindFramebuffer(gl.FRAMEBUFFER,null);
+  throw Error('SHADOW_FRAMEBUFFER_INCOMPLETE');
+ }
+}
+
 export function buildWorldGeometry(bindings,grid=200,treeCount=4300,{skipLandmarkIds=[]}={}){
  const rand=rng(20261115),mesh=new MeshBuilder(),water=new MeshBuilder();
  function height(x,z){let h=rawHeight(x,z);for(const p of bindings){const d=Math.hypot(x-p.anchor[0],z-p.anchor[2]);if(d<3.2)h=mix(h,Math.max(2.6,rawHeight(p.anchor[0],p.anchor[2])),Math.pow(1-d/3.2,.6));}return h;}
@@ -127,7 +142,7 @@ export function createWorldRenderer(canvas,bindings,{onContextLost=()=>{}}={}){
  const terrain=upload(mesh),ocean=upload(water);mesh.values=null;water.values=null;
  const attrs=p=>['aPosition','aNormal','aColor'].map(n=>gl.getAttribLocation(p,n));const loc=Object.fromEntries(['uVP','uLightVP','uEye','uSun','uSky','uStrength','uTime','uWater','uStorm','uNight','uShadow'].map(n=>[n,gl.getUniformLocation(P,n)]));
  const shadowTex=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,shadowTex);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,1536,1536,0,gl.RGBA,gl.UNSIGNED_BYTE,null);for(const [a,b]of[[gl.TEXTURE_MIN_FILTER,gl.NEAREST],[gl.TEXTURE_MAG_FILTER,gl.NEAREST],[gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE],[gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE]])gl.texParameteri(gl.TEXTURE_2D,a,b);
- const depth=gl.createRenderbuffer();gl.bindRenderbuffer(gl.RENDERBUFFER,depth);gl.renderbufferStorage(gl.RENDERBUFFER,gl.DEPTH_COMPONENT16,1536,1536);const fb=gl.createFramebuffer();gl.bindFramebuffer(gl.FRAMEBUFFER,fb);gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.COLOR_ATTACHMENT0,gl.TEXTURE_2D,shadowTex,0);gl.framebufferRenderbuffer(gl.FRAMEBUFFER,gl.DEPTH_ATTACHMENT,gl.RENDERBUFFER,depth);
+ const depth=gl.createRenderbuffer();gl.bindRenderbuffer(gl.RENDERBUFFER,depth);gl.renderbufferStorage(gl.RENDERBUFFER,gl.DEPTH_COMPONENT16,1536,1536);const fb=gl.createFramebuffer();gl.bindFramebuffer(gl.FRAMEBUFFER,fb);gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.COLOR_ATTACHMENT0,gl.TEXTURE_2D,shadowTex,0);gl.framebufferRenderbuffer(gl.FRAMEBUFFER,gl.DEPTH_ATTACHMENT,gl.RENDERBUFFER,depth);assertShadowFramebufferReady(gl,fb);
  const lightVP=multiply(ortho(-165,165,-165,165,1,600),lookAt([-150,230,90],[0,0,0]));
  function bind(p,m){gl.bindBuffer(gl.ARRAY_BUFFER,m.buffer);attrs(p).forEach((a,i)=>{if(a>=0){gl.enableVertexAttribArray(a);gl.vertexAttribPointer(a,3,gl.FLOAT,false,36,i*12);}});}
  gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);gl.viewport(0,0,1536,1536);gl.clearColor(1,1,1,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(S);gl.uniformMatrix4fv(gl.getUniformLocation(S,'uVP'),false,lightVP);bind(S,terrain);gl.drawArrays(gl.TRIANGLES,0,terrain.count);gl.bindFramebuffer(gl.FRAMEBUFFER,null);
