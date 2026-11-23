@@ -1,5 +1,7 @@
 # Week 11 — initial production index
 
+[Editable Week 11 page-turn rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md) · Proposed 35-page reading sequence, all 15 native study PNGs, six matchup reference panels and the Sunday 7:40 p.m. Eastern score check.
+
 [Current evening refresh and next production checkpoint](EVENING_LAYER_REFRESH_2026-11-22.md) · Six live scores corroborated by ESPN, 120 checked starters, a fresh playoff-model run and Atlas/Novel validation. [Refresh receipt](EVENING_LAYER_RECEIPT_2026-11-22.json).
 
 [Weekly Memo north-star board decision](NORTH_STAR_BOARD_2026-11-22.md) · Corrected scene directions, distinct rankings, six future-story handoffs and the [two-sitting review receipt](NORTH_STAR_BOARD_RECEIPT_2026-11-22.json).
