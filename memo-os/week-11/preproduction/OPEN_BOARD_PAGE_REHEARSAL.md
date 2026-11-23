@@ -242,16 +242,15 @@ One final score selects the cap or the cough. In a tie or pending cut, both rema
 
 ### F12 · Six. I told her six.
 
-**A promise in the cab.** Delivery slip below the visor, Jordan in the mirror, runoff beyond the glass. Manning comes to the window.
+**The promised arrival time becomes a weather decision.** In the cab beside Slob Foothill Camp's familiar Hearthroad rut, Jordan Hollingshead sees a slip marked SIX beneath the visor. The beer remains under canvas from Week 10 physical page 35. Manning Welty looks through the driver's window as the first pale gravel chip moves downslope in runoff.
 
-A taproom expects the kegs at six. Manning asks what hour Jordan promised. Let Jordan’s “Six. I told her six.” carry the cut from the clock to the radio.
+Manning: “What time did you tell them?” Jordan: “Six. I told her six.” His hand leaves the lever for the radio. The following wetland journey is a later **conditional return leg**, not a simultaneous view or a new road.
 
-- **Place and cast.** SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT. Jordan Hollingshead, Manning Welty.
-- **Continuity.** Track the rut, slip, canvas and radio. Manning speaks in the Memo. In the Novel, Jordan feels the weather and hears the operator on his radio.
-- **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 77/23, up to 40 body words.
-- **Evidence.** Week 10 shelter reference and the dated delivery promise in the manuscript.
-- **Phone proof.** Make the slip and the two speakers legible.
-- **Turn.** The carter listens → **Six. I told her six.** → The radio call.
+- **Place and cast.** SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT, Jordan Hollingshead and Manning Welty; no third new talking character.
+- **Continuity.** Road slope, headlight and wiper arc; same beer canvas, strap, radio and red opener. Manning's action/words belong to the Memo; any Novel adaptation remains Jordan-led.
+- **Lettering.** Proposed art/type 77/23, 40 body words; full team names and factual scores only after ESPN decides. “Six. I told her six” is existing drafted character dialogue, not testimony.
+- **Visual QA.** A camera through the windshield should show the runoff's direction and first risk. Manning's visible reaction must be to the ground, not magical access to future distant truck damage.
+- **Turn.** The carter listens → **Six. I told her six.** → The radio call. The last image motivates rather than resolves the next page.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f12) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-12) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-12) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f12)
 
@@ -259,16 +258,17 @@ A taproom expects the kegs at six. Manning asks what hour Jordan promised. Let J
 
 ### F13 · The radio call
 
-**Jordan owns the answer.** Radio near Jordan’s hand, face at the window, canvas-covered kegs behind. Keep the rut flowing the same way.
+**A later hazardous wetland approach; conditional on Atlas access review.** After an understandable travel ellipsis from Hearthroad toward the Southern Wetlands, Jordan's beer truck approaches the visually established Mud Dogs swamp access. The Week 10 truck-at-blockade scene provides a matching vehicle precedent. The Delta Causeway route is not yet verified for truck clearance: do not place a loaded truck on an invented causeway bridge, mountain cliff or through-road without confirming an accessible local segment.
 
-Give the operator the words she heard. A final result chooses the late delivery or missed promise.
+If El Niño wins, use a cinematic three-quarter view of the truck braked at an eroding **raised wetland embankment**, one rear axle partially unsupported and wheels hanging above brown runoff. The cab is still on safe enough ground to stop; the beer remains cinched and the route isn't destroyed. Jordan's radio call admits an honest delay. If Slob on my Dobb wins, the driver notices the danger early, recovers a safe position and continues the delivery without promising an impossible exact time. Tie or pending: hold at the decision before the wheel-over-edge payoff.
 
-- **Place and cast.** SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT. Jordan Hollingshead, Manning Welty.
-- **Continuity.** Track the rut, slip, canvas and radio. Manning speaks in the Memo. In the Novel, Jordan feels the weather and hears the operator on his radio.
-- **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 74/26, up to 42 body words.
-- **Evidence.** Final score and radio ending. Jordan owns the Novel viewpoint. The operator can report the promised hour and the arrival she witnessed.
-- **Phone proof.** Read who speaks before reading the score.
+- **Source locations.** Primary G02 set remains SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT. Conditional F13 route-extension reference LOC-MUD-DOGS-SWAMP / ROUTE-DELTA-CAUSEWAY requires approved local vehicle-access and chronology receipts; this is not a new canonical sublocation.
+- **Two viewpoints.** Jordan sees the wheel/embankment from the driver side and chooses safety. Manning remains seen at the original Hearthroad departure: his weather perspective is a time-matched causal cut, not sudden presence in the swamp.
+- **Continuity.** Wet slip edge, red-cord opener, tarp ties and kegs match F12/Week 10. Maintain rainfall direction and axle geometry. No complete rollover, cargo destruction, route collapse or invented casualties.
+- **Lettering.** Proposed art/type 74/26, up to 42 words. Label only the official final and verified consequence after the post-MNF source locks.
+- **Phone proof.** The unsupported wheel, still-supported cab, Jordan's hand on radio, and promised time must each be readable at 390px; a generic storm poster is a rejection.
 - **Turn.** Six. I told her six. → **The radio call** → Off the board.
+- **Tuesday gate.** Full ESPN/Flaim decision and 12-team TheFFHub sweep determine the emotional victory/loss coda and supporting-page factual implications, not the road geometry or physical hazard.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f13) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-13) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-13) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f13)
 
