@@ -177,58 +177,152 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 
 **Read next.** Inklings: TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md. Founder staged treatment: FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md. F19–F20: preproduction/OPEN_BOARD_PAGE_REHEARSAL.md. Status: PREPRODUCTION / UNDECIDED / NO ART LOCK.
 
-## G06 · The second sheet — The board was already speaking
+## G06 · The second sheet
 
-**November 23 Founder revision · Inklings source-controlled scene.** Preserve the existing Jackson corporate coup and two-page F21/F22 action while **amplifying both the storm outside and David Babb's personal betrayal**. David arrives with a confidence born of his 203.96-point Week 10 victory over ObiWan Jacoby and *his belief* that The LLC's investors will support putting the Country Club of Jackson into the corporate portfolio. Zach Wilson, humiliated at his own Week 10 birthday, has been **discreetly corresponding with members of The LLC's executive board**. Some asked Zach to take leadership; the **effective board action** replacing Babb as CEO with Dr. Duckhook as CEO and chairman is still the Founder-directed fiction in all four football-result cuts. The user supplied narrative motive, not real-world investor evidence, an authenticated legal filing or a vote tally.
+**Controlling November 23 Founder weather and investor betrayal revision.** The severe storm batters the OUTSIDE of the Country Club of Jackson clubhouse—sheets of wind-driven rain, trees bowed over the course, exterior attendants securing patio furniture and runoff over steps—while the interior executive office and its two papers remain dry and intact. David Babb arrives convinced his investors will back his plan to add Jackson to The LLC portfolio after last week's win. He learns **Zach Wilson has quietly been working with The LLC's own executive board, some of whose members asked Zach to take leadership**. Their effective board-action paper still removes David as company CEO and appoints Dr. Duckhook as CEO and chairman; David's furious reaction is now a required private performance. This corporate turn is fixed Founder fiction regardless of football result; the fantasy franchise stays with Babb. [Expanded source-controlled Inklings/camera treatment](preproduction/STORM_ESCALATION_AND_JACKSON_BOARDROOM_INKLINGS_PASS_2026-11-23.md).
 
-**Weather exterior, stable interior.** A severe squall is visibly battering the entire *exterior* of the long-established Jackson clubhouse: sheets of wind-driven rain sweep the course-facing windows; trees bend in the grounds; runoff streams across steps; staff secure outdoor chairs or temporary shutters beyond the glass. These people are background labor, **not additional owner protagonists**. Indoors, a warm lamp illuminates a dry, intact executive desk, guest chair, brass key hook, two documents and cups. The weather may rattle glass and momentarily wash the windows with reflection but **does not damage the building, dictate the board decision or make Zach magically aware of all regional storms**. Only explicit World-governed manifestation could make it a named personal attack by El Niño.
 
-**Week 10 character entry.** Babb's road win over ObiWan Jacoby gave him an outwardly plausible reason to trust his judgment. He mistakes confidence from winning in one domain for investors' loyalty in another. Zach has remembered that Jackson operates daily because ordinary grounds staff show up through rain and return their course keys. His refusal to sell doesn't need to be loud. The more severe the storm outside, the quieter his refusal can feel.
+**The LLC at Dr. Duckhook · Country Club of Jackson, executive office.** Week 10 sent David Babb home with a 203.96–166.53 road win over ObiWan Jacoby. Zach Wilson spent his birthday at Jackson losing 208.76–127.67 to His Majesty’s Blood. David enters as an assured buyer who believes The LLC investors will finance acquisition of the club. Zach is the quiet host who has privately spoken to the very LLC board members David assumed would support him. The wind and outdoor downpour press at the glass as the concealed leadership shift reaches David's desk.
 
-### F21 · Investor confidence, the key and the offer
+**F21 · The visitor’s chair**
 
-**One continuous office composition:** Begin at David's generous, secure guest-chair perspective. Rain batters the large club window as he lays down an unsigned acquisition offer. His pen hovers over the place where he expects Zach's acceptance.
+> “After last week, I told my investors Jackson was next,” David said. Beyond the window, the wind nearly flattened the patio trees. A rain-wet groundskeeper returned the ordinary course key. Once the worker left, Zach pushed the purchase offer back unsigned. “Before you buy my place, you should know who's running yours.”
 
-> **David** *(fictional script audition)*: “After last week, my investors wanted to know what came next. I told them Jackson.”
+Shoot from David’s chair. The paper he brought has an empty signature line. He takes his pen with him when he draws his hand back. Zach slides a single sheet across the grain of the desk, face down. Turn the page on David putting his thumb under its corner.
 
-A rain-wet groundskeeper returns the same used course key to its brass hook and exits. This is **the last thing that worker witnesses**. David believes the offer would let Zach keep managing the course. Zach declines **without signing** and quietly returns the paper. David's confidence produces a momentary delay before he recognizes he has received an entirely different document.
+**F22 · The second sheet**
 
-> **Zach:** “Before you ask me to sell my place, maybe ask who's running yours.”
-
-As the office door closes, Zach slides **the second sheet face down**. The rain outside strengthens; the papers stay dry. Turn the folio at the second sheet's corner under David's thumb. **No extra shareholding documents, new investor names, board members on camera or invented figure for the bid.**
-
-### F22 · The furious discovery
-
-The private paperwork stays in a readable, physically legible insert.
+> Dr. Duckhook had led the proxy fight that seated a new board at The LLC. David read its first decision twice.
 
 | THE LLC · BOARD ACTION |
 |---|
 | David Babb removed as CEO. |
 | Dr. Duckhook appointed CEO and chairman. |
 
-David reads it twice. He recognizes that the people he thought would finance Jackson have been privately speaking with Zach. No fabricated vote tally is needed: the action itself supplies the result, with dialogue giving the betrayal context.
+> “You went to my board?” David asked.\
+> “Some of them came to me. I made the calls,” Zach answered.
 
-> **David:** “You went to my board?”
->
-> **Zach:** “Some of them came to me. I made the calls.”
->
-> **David:** “You think you can take my company and keep your club?”
->
-> **Zach:** “You never had Jackson.”
+David turns the sheet face down, the same way Zach handed it to him. A second cup lands on the bare wood. From the doorway, the groundskeeper could have seen who kept the Jackson key. Only the two people at the desk heard the question about the calls.
 
-**Physical fury, not destruction:** David finally **stands sharply from the guest chair**, nearly knocking it back; the pen he had brought for Zach's signature strikes the desk beside the untouched corporate notice. His face and trembling hand register betrayal and loss. A wind-driven sheet of rain hits the window at the same moment, making the studio seem to shake **without weather causing the corporate result or an unapproved permanent breakage**. Zach remains steady, deliberately sets the notice square, and looks past David toward the people securing the country club outside. He owns the moment without a victory speech. The corporate CEO/chairman decision remains even if David's fantasy team officially wins.
+**David's furious reversal and the weather outside.** David recognizes that the investors he believed would help him buy Jackson have been in Zach's private conversations. He rises abruptly; the guest chair kicks backward a few inches, and his unused pen hits the desk beside the intact officer notice. The storm hits the window at the same instant, but the office stays sound and the papers do not scatter. Zach calmly squares the board action, facing David's anger without a victory speech. David's fury isn't a win/loss branch and the weather didn't cause the corporate coup. Only the two owners hear this conversation; the groundskeeper is already out. **Proposed fictional follow-through:** David: “You think you can take my company and keep your club?” Zach: “Jackson was never yours.” These are written character lines, not owner quotes.
 
-**Existing football coda (no change of corporate outcome):**
-- Dr. Duckhook officially wins: David reins in his anger and accepts a cup of black coffee only after reading the notice.
-- The LLC officially wins: Zach congratulates David on the fantasy result without reconsidering the course or board.
-- Official tie: Zach pours two cups under the continuing rain.
-- Still undecided or under stat correction: stop at the second sheet and the sound of one cup on the desk; no elected sporting winner.
+**Prop across the turn.** Babb draws his unused pen back with the unsigned offer on F21. He still has it in hand while he reads the officer notice on F22. Hold the names and both offices long enough to read before the coffee coda. [Week 6 Blackwater manuscript precedent](../week-6/WEEK_6_FULL_EDITORIAL_MANUSCRIPT_REVIEW_DRAFT.md#L116-L127)
 
-**Witness/World/typography gates.** Only Zach and David hear the board-member conversation. The groundskeeper has left. Babb is **still The LLC's fantasy owner/representative**, even though he loses the fictional company CEO role. Jackson remains Zach's course and the office remains physically intact. Preserve `SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE`, established 3D office blocking, physical two-sheet contrast and native 1080×1920/390px CEO-and-chairman typography. Avoid implying actual real-world corporate filings, votes, lawsuits or additional on-page LLC characters. The storm must be visible, not a pure dark background.
+**Production decision.** Jake relayed the Duckhook owner’s requested outcome and gave the room latitude to move the scene. The Inklings and production readers chose Jackson over a shareholder meeting. Here the man who offers Zach a job must read who has just taken his own. The desk, hook and guest chair already exist in the [Jackson set](sets/jackson-executive-office/office-study.webp). Use the door camera for the groundskeeper’s exit, then the desk camera for the notice and Babb’s reaction. Let the paper and cup supply the sound. The lamp and window supply the warm and cool edges. Give the notice its own typeset insert at phone width. Keep the former Study 08 as a blocking reference. The decision affects leadership of the fictional company. David continues to represent The LLC in the league. Five Bullpen director roles reviewed this owner revision. The room kept the key and witness boundary. The owner’s instruction settled the Umpire’s objection to the takeover. [Workshop decision and provenance](preproduction/JACKSON_WORKSHOP_RECEIPT.json)
 
-**Scene meaning:** David comes to tell Zach what the future of Jackson will be; he leaves knowing he misunderstood his own future at The LLC. His anger gives the former birthday punch line an earned reversal, not an unexplained, easy trick.
+| ESPN result | Last beat after Babb reads the same decision |
+|---|---|
+| Dr. Duckhook wins | David draws his chair back in. “I take mine black.” Zach reaches for the pot. |
+| The LLC wins | Zach puts the cup within David’s reach. “Hell of a game, David.” Let David decide whether to look up. |
+| Official tie | Zach fills the cups in turn. David makes room for his without uncovering the notice. |
+| Pending or under correction | Hold on the sound of the cup. End the scene there. |
 
-**Source chain:** [Founder updated G06 brief](preproduction/STORM_ESCALATION_AND_JACKSON_BOARDROOM_INKLINGS_PASS_2026-11-23.md) · [registered Jackson set](sets/jackson-executive-office/office-study.webp) · [F21/F22 operative page rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-21) · [preexisting source workshop](preproduction/JACKSON_WORKSHOP_RECEIPT.json). This revision is authored, but not independently approved final raster or authenticated human professional feedback.
+**Sports Desk · Sunday, 8:24 p.m. ET.** The LLC 102.50 at Dr. Duckhook 162.76, undecided. C.J. Stroud and Travis Kelce supplied 54.46 for Zach. DJ Moore and Parker Washington supplied 42.40 for David. The desk will recheck both lineups and the final margin for F24. The vote on F22 predates the coffee coda.
+
+[Native lettering proof from the Jackson desk camera](preproduction/lettering/W11-F22-The-Second-Sheet.png) · [390 px phone proof](preproduction/lettering/W11-F22-The-Second-Sheet-390.png)
+
+**Week 12.** Zach visits Red Leopards. His Majesty’s Blood visits David’s team, The LLC. If this issue is released, Babb can remember the second reading and Zach’s answer. No one at either next venue can quote their conversation without a route by which they learned it. Current Atlas and Novel records await the existing release handoff.
+
+## The rest of the issue
+
+**One Last Crossing** is the working title. Week 11 is the last interdivisional round. Weeks 12–14 belong to the divisions. The bridge is the Week 11 Game of the Week. A different matchup can earn the cover. These are proposed treatments and sample lines for the board. All folio references below give the physical reading position of the completed Week 10 edition, followed by its source ID where available.
+
+### The front of the book
+
+| Department and Week 10 reference | Proposed scene and sample reader copy | Evidence before final lettering |
+|---|---|---|
+| Cover · p. 1, P01, *The Ceiling Breaks* | Find the instant one person understands what happened to another team. Audition DK and HMB on opposing approaches and the strongest competing result from any venue. Look for one readable gesture and one sign that people use this place. Working cover line, **One Last Crossing**. | Write the result-specific cover line after all six finals. Match the selected action to its venue plate and character reference. Show the cover without type at group-chat size and ask what just happened. |
+| Opening Drive · p. 2, P02, *Room Above Two Hundred* | In the Chamber, the Mud Dogs’ 2–8 entry and Slob’s 6–4 entry are visible across the same open register. Open on the different stakes at those two seats. “Six teams came in at 6–4. Mud Dogs came in at 2–8 with something none of the six had to carry. One loss would end their run.” Follow with the specific result promised by the cover and its consequence for a second team. | Reconcile the entering records to the Week 10 final standings, the elimination sentence to the November 17 schedule proof, and the retrospective to Week 11 finals. |
+| Commissioner’s Note · p. 3, P03, *Keep the Whole League in View* | One signed note at the office desk. Keep the room quiet around a direct address. Suggested authored copy, “When I read the standings this week, I started at the bottom. A season looks different to the person who needs a Sunday just to get another one.” Give one institutional judgment about what rivals owe each other when division play returns. | Check the established office design before a wide view. Keep the Commissioner’s voice within this signed department. Attribute an opinion as opinion. |
+| Week 11 scoreboard · p. 4, P04, *The Week 10 Board* | Set six results together, straight on, over an inhabited results board. Spell the teams out. The score and status have first read. “This was the last time this regular season that everybody played outside their division.” | Reconcile six ESPN winner/status fields to six pairs of final totals, ten starters per side and team IDs. Preserve ties or pending states. Archive the observation time. |
+| Around the Commonwealth · p. 11, P11, *The Roads Between* | Let a page turn travel on one established sightline. At Hearthroad a driver watches a wheel rut fill. Cut to the mountain-lake approach, where two figures still have to decide who goes first. “Jordan could measure the weather in a wheel rut. Up at the bridge, the question was whether anybody would take a step.” | Check each approach against its own Atlas plate and Week 10 p. 35/P33 and p. 33/P35 respectively. The cut establishes two places without inventing a connecting journey or simultaneous weather. |
+
+### The football investigation
+
+Carry one sourced football cause into each matchup, then use the standalone Sports Desk to answer a different question. What did the six sets of starter decisions change for the other teams in the race? On the desk, a photographed newspaper lies open under working light, with an editor’s pencil on one box score. Give each game a short causal sentence, its named team, its figure and a time. Put a league consequence in the lead after the result is official. Week 10 reference, p. 18/P18 *Why the Board Moved*. Trial line, **“Twelve starting lineups went in. Here is where those choices showed up on the board.”**
+
+These six leads come from the November 22, 3:05 p.m. ET ESPN/Flaim player-detail snapshot. They are reporting leads. Recalculate them from the final box scores and identify which decision actually mattered.
+
+| Matchup | What a reporter can follow |
+|---|---|
+| His Majesty’s Blood at D0nkey K0ng | DK started Chiefs D/ST, at 15.90 at the observation. The Texans scored 23.80 on DK’s bench. Use the final difference between those specific defenses and compare it with the final margin before saying what the choice cost. |
+| El Niño at Slob on my Dobb | CeeDee Lamb had 26.30 for Slob and Emmett Johnson had 23.90 for El Niño. Look at what Christian McCaffrey left El Niño’s Monday starters Chase Brown and Tee Higgins to do. |
+| The Chili Cheesers at ObiWan Jacoby | Cam Ward, David Montgomery and Steelers D/ST supplied 55.00 for Chili. Trace ObiWan’s response through Trevor Lawrence, Jaylen Waddle and Chargers D/ST once their games have played. |
+| Red Leopards at Three Dreaded Snake | Javonte Williams and Caleb Williams combined for 39.22 for Snake. Trace Red’s answer through Bo Nix and Ja’Marr Chase. Check the two players who actually started for Snake against the dated House availability concerns. |
+| Seven Deadly Chins at Mud Dogs | Mahomes and Bears D/ST supplied 38.88 for Chins. Jared Goff had 24.92 for Mud. Rashod Bateman’s 16.70 belonged to the bench. Check the eligible starting slot and finish before turning that number into a lineup story. |
+| The LLC at Dr. Duckhook | C.J. Stroud and Travis Kelce gave Duckhook 54.46. Follow Omarion Hampton and Joe Burrow across the late Sunday and Monday windows to find where LLC’s reply landed. |
+
+| Department and Week 10 reference | Proposed scene and sample reader copy | Evidence before final lettering |
+|---|---|---|
+| Availability / injury dispatch · p. 19, P34, *The Cost of Sunday* | Photograph two dated slips on the archive intake desk, Thursday’s House concern and Sunday’s active roster. “Two names on Thursday’s list made it into Snake’s starting lineup on Sunday. Bhayshul Tuten and Ladd McConkey tell you why the date on that list matters.” | Compare the dated House rationale, availability reports, Sunday active list and ESPN starter IDs. Use team or league reporting for injury and discipline, with separate dates and attribution. |
+| Starter / bench and next starting sheet · p. 26, P25, *The Next Starting Sheet* | Put the two D/ST names on opposite sides of the actual lineup sheet. Leave just enough of the bench visible to explain the choice. “Houston put 23.80 on DK’s bench. Kansas City owned the lineup slot. The difference between them is the number to watch.” Turn from that decision to one evidenced Week 12 availability or bye issue. | Use actual eligible replacements and final points. Distinguish a projected opening from a submitted Week 12 starter. |
+| Transactions · p. 27, P26, *Moves That Reached the Roster* | On November 19 Chili added Cam Ward and dropped Bryce Young. By the Sunday 3:05 p.m. ET snapshot, Ward had scored 20.30 in Chili’s starting lineup. The November 22 extract had 32 completed, six failed and five canceled entries. Reader heading, **Who Made It Onto the Roster?** If the refreshed window is empty, say “No completed moves in this reporting window,” with both dates printed. | Query the week’s completed activity and reconcile transaction ID, timestamp, owner, affected player and add/drop or trade legs with roster history. Keep the proposed preseason clause in After Dark. |
+| League standings · p. 28, P27, *Twelve Teams. Ten Posted Results.* | Put twelve rows at reader height on the archive register and mark the seventh-place boundary lightly. “Slob and Chins both came in at 6–4. The standings put one first and the other sixth.” | Use ESPN’s official order, W–L–T and league tiebreak data with a through-week label. The six 6–4 clubs entering Week 11 were Slob, El Niño, DK, HMB, Duckhook and Chins. Refresh every row, including the clubs whose position holds. |
+| Division races · p. 29, P28, *Three Divisions. Different Pressures.* | Lay three four-team division sheets side by side. Give each sheet one sentence about the first divisional opponent with a chance to change it. “A win in November used to help from across the map. For the next three weeks, it comes out of a neighbor’s pocket.” | Compare Burgers, Wings and Pizza membership with the official standings. Recheck any “takes the lead” or “can pass” language against division rules and all relevant results. |
+| The Twelve / scoring form and rank movement · p. 30, P29, *The Twelve — Scoring Form* | Set the previous position beside the new one so the reader can see movement for all twelve. Pick one team whose scoring form tells a different story from its record. “The LLC entered Week 11 at 4–6. It also entered third on last week’s scoring-form list.” | The published scoring index is 70% season points per game plus 30% that week’s score. Recompute after Week 11 with eleven completed games and compare like with like. W10 order was Slob, HMB, LLC, El Niño, ObiWan, DK, Red, Duckhook, Chins, Chili, Mud Dogs, TDS. Use this baseline only for scoring form. The editorial power ranking has its own assignment in the next row. |
+| The Twelve / editorial power rankings · Founder issue-flow §IV.3 | The Sports Desk ranks all twelve after the finals. Give each team its current rank, record, one football reason and an approved portrait. Readers should be able to tell which judgment they might disagree with. | The 35-page Week 10 edition has a scoring-form index and no editorial power table. Week 9’s similarly named page uses the same scoring formula. The most recent identified editorial board is Week 7, physical page 6. For this same series, label movement **change since Week 7**. The previous standings on the native board are transcribed below. If the Desk changes the series or method, leave movement unassigned. |
+| Road to Seven / model sidebar · p. 31, P30, *Four More After This* | The clerk lays an old chart of the distant island beside the seven unassigned places. In the clerk’s telling, each empty space belongs to a future representative of the Commonwealth. A literal horizon shot needs an Atlas-confirmed observer position and line of sight. Give the league context before the clipped ObiWan example. “Three division winners get in. Four more teams earn places. Going into Sunday, twelve still had a way there.” At Jacoby’s margin, show the November 18 estimates of **32.45% baseline, 52.89% with a Week 11 win and 12.77% with a loss**. | TheFFHub used results through Week 10, 10,000 draws per scenario, and its selected head-to-head setting. The November 22 rerun gave ObiWan a 32.29% baseline with the same through-Week-10 inputs. Its calibration awaits review. Use the separate schedule proof for elimination. Refresh the twelve-team field and percentages after finals before calling any forecast current. The independent seven-PNG special keeps its own edition. |
+| After Dark / archive clipping · Week 10 pp. 18–19, P18/P34 for evidence and dispatch treatment; pp. 5–7, P05–07 for Brandon’s public rodeo memory | At the mountain shack, let a reporter open with the clipping. “These franchises finished 1.04 points apart in 2023. Where did the bet-the-house confidence come from?” Follow with “What protection did you ask for, and who would have owed what if it applied?” Jake has the hood up, hands free, saber unlit at his waist. Give the reporter a readable question and Jake room to answer. Preserve the standalone portrait feature. | The 2023 Week 13 franchise-slot result was 144.76–143.72. Historical owner identities are unverified. Attribute the proposed preseason agreement, TDS’s obligation and Austin Byars’s intervention to Jacoby’s account. Quote only verified manuscript as verbatim. Print the dated House explanation separately. The house attributed its decision to injuries and uncertainty about the lineups. |
+
+### The Twelve · published editorial comparator
+
+Week 7 physical page 6, *The Twelve, Highland Power Rankings*, is the latest comparable editorial edition the board located. Its footer compares that issue with the published Week 6 Power Rankings. Week 8’s reviewed issue has no standalone rankings, and Weeks 9 and 10 printed scoring form. For Week 11’s editorial series, calculate movement as Week 7 position minus Week 11 position and label the four-week interval. Week 11 ranks, records and short reasons still depend on the completed games and the Desk’s judgment.
+
+| W7 | Team, shown under its current name | W7 | Team, shown under its current name |
+|---:|---|---:|---|
+| 1 | Slob on my Dobb | 7 | His Majesty’s Blood |
+| 2 | D0nkey K0ng | 8 | ObiWan Jacoby |
+| 3 | The Chili Cheesers | 9 | El Niño |
+| 4 | Red Leopards | 10 | The LLC |
+| 5 | Dr. Duckhook | 11 | Three Dreaded Snake |
+| 6 | Seven Deadly Chins | 12 | Mud Dogs |
+
+Week 7 source PNG SHA-256 `50f43e01b92108410aa0cee86040fac0936d95523bc712c2d7eb6163be576272`. [Week 7 delivered-folio audit](https://github.com/jakekaloper-hub/schemin-26/blob/03cce69771931c67e462d4da7020fe2e5fc5de91/memo-os/week-8/WEEK_8_WEEK7_31_PAGE_VISUAL_AUDIT_2026-11-02.md)
+
+### Schemin’ After Dark · The shack interview
+
+A separate one-page press photograph, late at the shack. Jake’s hood is up. His green saber stays clipped and unlit at his waist. A reporter sets the November 19 sheet beside the clipping from the 2023 Week 13 meeting between these franchise slots, 144.76–143.72. Light the interview with the desk lamp. Set the following **proposed exchange** in reading order.
+
+**Reporter** — “These two franchises finished 1.04 points apart that year. How much would you have put on this one?”  
+**Jake** — “I’d have bet the house. I notice nobody gave me the chance.”  
+**Reporter** — “At the carnival, Brandon wanted to know who’d be the underdog. Pittsy’s sheet cites Bowers, Walker and Waddle. Why did you take it personally?”  
+**Jake** — “I think Snake ducked it. Back before the season, Phillip and I talked about protection if an injury or a suspension hit my side of the trade. He’d have owed me under that clause. The way I saw it, Austin stepped in and stopped the deal.”  
+**Reporter** — “So what did Phillip actually owe you this week?”  
+Jake runs his thumb along the old score. **Jake** — “Under a deal we never made? Nothing. Ask me what I wish I’d had.”
+
+The Book prints the House’s OFF BOARD notice and its lineup/injury rationale. After Dark owns Jake’s allegation. Keep the trade conditional, the wager hypothetical and any independently verified injury or discipline update in its own reporting. The character exchange is newly written.
+
+
+### The house and the turn home
+
+**Pittsy’s Book.** Week 10 p. 34, the special inserted between P35 and P33, introduced the Waterfall district’s family interlude. Return to the counter at working height. The reader sees the three posted games first and then realizes the three-headed proprietor has been listening the whole time. Keep the Schemin ’26 masthead, the Founder-requested GTA VI logo detail and the three-headed, post-haircut proprietor on one body. Use the House’s authorized line, “Sorry fellas, I know you like to rile me up, but I’m not having it today.” Keep the shot close while the Waterfall Temple / Central Basin Atlas siting conflict remains open.
+
+| November 19 House posting | Favorite | Opponent | Over / under |
+|---|---|---|---|
+| El Niño vs. Slob | Slob −13.5 (−135) | El Niño +13.5 (−125) | 303.5, −130 on each side |
+| HMB vs. DK | HMB −8.5 (−135) | DK +8.5 (−125) | 266.5, −130 on each side |
+| LLC vs. Duckhook | LLC −13.5 (−135) | Duckhook +13.5 (−125) | 295.5, −130 on each side |
+
+The House explicitly marked **The Chili Cheesers vs. ObiWan Jacoby OFF BOARD**. Its November 19 explanation cited injuries and lineup uncertainty involving Bowers, Walker and Waddle. Red Leopards vs. Three Dreaded Snake was also off board. The issue gave Chins–Mud Dogs no status. The counter carries all six restrictions, covering moneylines, parlays, player props, free plays, betting against your own team and betting the under on your own matchup. Show the $25 maximum and the injury-update/House-approval footer. Compare an independent transcription from the 390-pixel PNG against issue #323, including each sign and decimal. Use a dated House update for any subsequent price, opening or settlement.
+
+**Week 12 schedule and Game of the Week.** Week 10 p. 32/P31 *The Next Six* set up a full round. The dedicated p. 33/P35 *The Crossing Narrows* then gave one matchup a reason to turn the page. For Week 11’s close, typeset the six fixtures first, then choose the next feature on the strength of a verified Week 11 consequence. These are questions to take into that decision.
+
+| Division | Week 12 visitor → host | Question carrying out of Week 11 |
+|---|---|---|
+| Burgers | ObiWan Jacoby → D0nkey K0ng | What does Wilson carry from meeting Austin into his visit from Jake? |
+| Burgers | Three Dreaded Snake → Mud Dogs | What will the division be playing for in the swamp after Mud’s Sunday is settled? |
+| Wings | Dr. Duckhook → Red Leopards | After taking the chair at The LLC, how does Zach handle being the guest at Kevin’s place? |
+| Wings | The Chili Cheesers → Slob on my Dobb | Can Brandon’s starting lineup put the same pressure on the club that entered first? |
+| Pizza | His Majesty’s Blood → The LLC | David still hosts Austin for The LLC. Whom does Austin address first after the news from Jackson? |
+| Pizza | Seven Deadly Chins → El Niño | Which of the two clubs that opened Week 11 at 6–4 will have the standing to protect? |
+
+Reconcile home and away against the ESPN Week 12 schedule immediately before typesetting. Compare at least two plausible features after all six finals. Use the league standings, tiebreak implications and an actual point of contact between the two stories. An unresolved result can keep the feature choice open.
+
+**Final Word.** Week 10 p. 35/P33 *The Weather Is Coming Home* (visible folio 34) closed on Slob’s approaching weather. This time follow one pair of headlights turning toward a familiar divisional road. The six destinations are already on the previous page. Let this page have one quiet action and one sentence. “For three weeks now, everybody who can spoil your Sunday knows the way to your place.” Bind the route and final gesture to the selected real fixture and Atlas plate. Keep Week 11’s pink, violet and aqua in the practical lights. Week 12 owns the first Thanksgiving image. Arrival on Playoff Island follows qualification after Week 14.
+
+**Production handoff.** The authoritative review surface is the flattened portrait PNG. At native 1080 × 1920 and at 390 pixels wide, check body-copy edges and reading order, transcribe numbers and sources, and confirm that headlines, speaker and emotional action survive. Link each public fact back to its accepted observation. Propagate a correction through the scoreboard, standings, causal copy, character ending, preview, crop and subsequent PDF wherever it appears. A proof remains a proof until the native pages and final data have been reviewed.
+
+**Source trail.** Week 10 completed-folio crosswalk and source packets P01–P35; Week 11 Founder Story Room synthesis, visual interview, six-game dependency matrix, full council board, Sunday Sports Desk at 3:05 p.m. ET on November 22 and November 18 TheFFHub recovery. The issuing House is the authority on its own November 19 board. [Official House board, issue #323](https://github.com/jakekaloper-hub/schemin-26/issues/323)
 
 ## Cross-system production decisions
 
