@@ -38,7 +38,7 @@ test('Temple foam threads shade the one existing sheet, not other waters or clim
   'endFade=smoothstep(.025,.16,vUv.y)*(1.-smoothstep(.86,.985,vUv.y))',
   'threadLight=foamThread*brokenThread*sideFade*endFade',
   'fallTint=clamp(fallTint+vec3(.055,.071,.061)*threadLight,0.,1.)',
-  'gl_FragColor=vec4(fallTint,.88)'
+  'gl_FragColor=vec4(fallTint,fallingAlpha)'
  ]) assert.ok(fall.includes(fragment),fragment);
  assert.doesNotMatch(shader.slice(end),/foamThread|threadLight|threadCoordinate/);
  assert.doesNotMatch(fall,/\buStorm\b|\buWeather\b|\buRain\b|\buGlobalCalm\b/);

@@ -62,7 +62,7 @@ test('Real imported Waterfall Temple shader adds one bounded camera-dependent gl
  assert.match(fall,/specularInterior=smoothstep\(\.03,\.18,vUv\.x\)\*\(1\.-smoothstep\(\.82,\.97,vUv\.x\)\)/);
  assert.match(fall,/sprayGlint=glancingSpecular\*\(\.48\+\.52\*foam\)\*specularInterior/);
  assert.match(fall,/fallTint=clamp\(fallTint\+vec3\(\.085,\.11,\.092\)\*sprayGlint,0\.,1\.\)/);
- assert.match(fall,/gl_FragColor=vec4\(fallTint,\.88\)/,'Original sheet alpha unchanged');
+ assert.match(fall,/gl_FragColor=vec4\(fallTint,fallingAlpha\)/,'Only the waterfall sheet lateral alpha may be feathered');
  assert.doesNotMatch(shader.slice(stop),/skyKey|halfRay|glancingSpecular|sprayGlint/);
  assert.doesNotMatch(fall,/\buStorm\b|\buWeather\b|\buRain\b|\buGlobalCalm\b/);
  assert.ok(a.water.filter(x=>x.kind!=='waterfall').every(x=>(x.material.uniforms.uFall?.value??0)===0));

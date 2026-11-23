@@ -43,12 +43,12 @@ test('candidate fold shading is isolated to waterfall branch and computed from d
  assert.match(scoped,/foldFacet=clamp\(abs\(sheetNormal\.z\),0\.,1\.\)/);
  assert.match(scoped,/fallBase=mix\(uColor,vec3\(\.84,\.96,\.89\),\.27\+stripe\*\.14\+foam\*\.17\)/);
  assert.match(scoped,/fallTint=clamp\(fallBase\*\(\.945\+\.055\*foldFacet\)\+vec3\(\.08,\.10,\.08\)\*\(grazing\*\.32\),0\.,1\.\)/);
- assert.match(scoped,/gl_FragColor=vec4\(fallTint,\.88\)/);
+ assert.match(scoped,/gl_FragColor=vec4\(fallTint,fallingAlpha\)/);
  assert.doesNotMatch(fragment.slice(wetland),/faceCross|sheetNormal|fallTint/,'other existing water material branches untouched');
  assert.doesNotMatch(scoped,/\buStorm\b|\buWeather\b|\buRain\b/);
 });
 
-test('bounded fold and grazing response is nontrivial, finite, and alpha/boundary neutral',()=>{
+test('bounded fold and grazing RGB response is nontrivial, finite, and geometry neutral',()=>{
  const base=[.52,.70,.61], normalFlat=[0,0,1],normalFold=[.4,.2,.85];
  const flat=response(normalFlat,[0,0,1],base);
  const folded=response(normalFold,[0,0,1],base);
@@ -60,7 +60,7 @@ test('bounded fold and grazing response is nontrivial, finite, and alpha/boundar
    const c=response(n,eye,base);
    assert.ok(c.every(x=>Number.isFinite(x)&&x>=0&&x<=1));
   }
- assert.match(fragment,/gl_FragColor=vec4\(fallTint,\.88\)/,'same inherited opacity');
+ assert.match(fragment,/gl_FragColor=vec4\(fallTint,fallingAlpha\)/,'new alpha is confined to the waterfall lateral edge');
  assert.doesNotMatch(source,/worldMutationAllowed\s*:\s*true/);
  assert.match(source,/CANDIDATE_NOT_APPROVED/);
 });

@@ -208,7 +208,18 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float specularInterior=smoothstep(.03,.18,vUv.x)*(1.-smoothstep(.82,.97,vUv.x));
         float sprayGlint=glancingSpecular*(.48+.52*foam)*specularInterior;
         fallTint=clamp(fallTint+vec3(.085,.11,.092)*sprayGlint,0.,1.);
-        gl_FragColor=vec4(fallTint,.88);
+        // The existing sheet was a uniformly opaque rectangular billboard at
+        // lateral edges. Feather ONLY its middle-span sides in the same
+        // material: crest and landing stay unchanged, and no geometry moves.
+        // Sparse low-energy side breakup is tied to ordinary waterfall time,
+        // never climate or external conditions.
+        float lateralEdge=smoothstep(0.,.16,vUv.x)
+          *(1.-smoothstep(.84,1.,vUv.x));
+        float spanHold=smoothstep(.02,.12,vUv.y)
+          *(1.-smoothstep(.88,.98,vUv.y));
+        float edgeFlutter=.55+.45*sin(vUv.y*31.-uTime*2.1+sin(vUv.x*9.)*.65);
+        float fallingAlpha=.88*(1.-.50*(1.-lateralEdge)*spanHold*edgeFlutter);
+        gl_FragColor=vec4(fallTint,fallingAlpha);
       }else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
       vec2 wetlandUv = vUv + uFlow * uTime;
