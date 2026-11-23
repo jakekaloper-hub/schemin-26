@@ -66,7 +66,7 @@ Name the consequence for a second team. Audition the bridge against the stronges
 - **Phone proof.** The gesture must survive a group-chat thumbnail.
 - **Turn.** Front cover → **One Last Crossing** → The bottom of the register.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f01) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f01) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f01)
 
 <a id="folio-02"></a>
 
@@ -83,7 +83,7 @@ Six teams entered 6–4. A loss could close the door on the 2–8 Mud Dogs. Add 
 - **Phone proof.** Both seats and their records must be distinct.
 - **Turn.** One Last Crossing → **The bottom of the register** → Commissioner’s Note.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f02) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f02) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f02)
 
 <a id="folio-03"></a>
 
@@ -100,7 +100,7 @@ Give the Commissioner one judgment about what division rivals owe each other. Ke
 - **Phone proof.** Keep the signature out of the body column.
 - **Turn.** The bottom of the register → **Commissioner’s Note** → The Week 11 board.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f03) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f03) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f03)
 
 <a id="folio-04"></a>
 
@@ -117,7 +117,7 @@ Tell the reader this was the last interdivisional week. Set team names, totals a
 - **Phone proof.** Names, decimals and away/home pairing must survive at 390 px.
 - **Turn.** Commissioner’s Note → **The Week 11 board** → The Twelve · first six.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f04) · [Native study 02](board-png/02-two-ways-to-read-sunday.png) · Week 10 physical 4, 11.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f04) · [Native study 02](board-png/02-two-ways-to-read-sunday.png) · Week 10 physical 4, 11 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f04)
 
 <a id="folio-05"></a>
 
@@ -134,7 +134,7 @@ Make six distinct arguments. Movement is change since the Week 7 editorial ranki
 - **Phone proof.** Leave room for long team names and a signed movement value.
 - **Turn.** The Week 11 board → **The Twelve · first six** → The Twelve · second six.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f05) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f05) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f05)
 
 <a id="folio-06"></a>
 
@@ -151,7 +151,7 @@ Give the remaining teams one reason each. Explain that editorial rank and playof
 - **Phone proof.** Read rows seven through twelve without switching columns.
 - **Turn.** The Twelve · first six → **The Twelve · second six** → What seventh place means.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f06) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f06) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f06)
 
 <a id="folio-07"></a>
 
@@ -168,7 +168,7 @@ Explain any order that records alone cannot resolve. Identify the last completed
 - **Phone proof.** The seventh-place rule cannot obscure a digit.
 - **Turn.** The Twelve · second six → **What seventh place means** → The roads between.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f07) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f07) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f07)
 
 <a id="folio-08"></a>
 
@@ -185,7 +185,7 @@ Connect two separate places by sound and movement. The route is a cut between sc
 - **Phone proof.** Each location must read as a separate place.
 - **Turn.** What seventh place means → **The roads between** → After you, Austin.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f08) · [Native study 02](board-png/02-two-ways-to-read-sunday.png) · Week 10 physical 4, 11.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f08) · [Native study 02](board-png/02-two-ways-to-read-sunday.png) · Week 10 physical 4, 11 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f08)
 
 <a id="folio-09"></a>
 
@@ -202,7 +202,7 @@ Connect two separate places by sound and movement. The route is a cut between sc
 - **Phone proof.** Keep the whole four-legged silhouette and open lane.
 - **Turn.** The roads between → **After you, Austin** → He was here before us.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f09) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f09) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f09)
 
 <a id="folio-10"></a>
 
@@ -219,7 +219,7 @@ Austin gives the carter the right of way in words. Show what Wilson hears in the
 - **Phone proof.** The reverse must preserve the carter’s side and both ends of the span.
 - **Turn.** After you, Austin → **He was here before us** → The carter listens.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f10) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f10) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f10)
 
 <a id="folio-11"></a>
 
@@ -236,7 +236,7 @@ One final score selects the cap or the cough. In a tie or pending cut, both rema
 - **Phone proof.** A wake cannot stand in for an identifiable survivor.
 - **Turn.** He was here before us → **The carter listens** → Six. I told her six..
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f11) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f11) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f11)
 
 <a id="folio-12"></a>
 
@@ -244,16 +244,16 @@ One final score selects the cap or the cough. In a tie or pending cut, both rema
 
 **A promise in the cab.** Delivery slip below the visor, Jordan in the mirror, runoff beyond the glass. Manning comes to the window.
 
-A taproom expects the kegs at six. Manning asks what hour Jordan promised.
+A taproom expects the kegs at six. Manning asks what hour Jordan promised. Let Jordan’s “Six. I told her six.” carry the cut from the clock to the radio.
 
 - **Place and cast.** SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT. Jordan Hollingshead, Manning Welty.
-- **Continuity.** Track the rut, slip, canvas and radio. Manning speaks in the Memo. The Novel hears weather through Jordan or the operator.
+- **Continuity.** Track the rut, slip, canvas and radio. Manning speaks in the Memo. In the Novel, Jordan feels the weather and hears the operator on his radio.
 - **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 77/23, up to 40 body words.
 - **Evidence.** Week 10 shelter reference and the dated delivery promise in the manuscript.
 - **Phone proof.** Make the slip and the two speakers legible.
 - **Turn.** The carter listens → **Six. I told her six.** → The radio call.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f12) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f12) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f12)
 
 <a id="folio-13"></a>
 
@@ -264,19 +264,19 @@ A taproom expects the kegs at six. Manning asks what hour Jordan promised.
 Give the operator the words she heard. A final result chooses the late delivery or missed promise.
 
 - **Place and cast.** SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT. Jordan Hollingshead, Manning Welty.
-- **Continuity.** Track the rut, slip, canvas and radio. Manning speaks in the Memo. The Novel hears weather through Jordan or the operator.
+- **Continuity.** Track the rut, slip, canvas and radio. Manning speaks in the Memo. In the Novel, Jordan feels the weather and hears the operator on his radio.
 - **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 74/26, up to 42 body words.
-- **Evidence.** Final score and radio ending. Novel handoff follows Jordan or the listener.
+- **Evidence.** Final score and radio ending. Jordan owns the Novel viewpoint. The operator can report the promised hour and the arrival she witnessed.
 - **Phone proof.** Read who speaks before reading the score.
 - **Turn.** Six. I told her six. → **The radio call** → Off the board.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f13) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f13) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f13)
 
 <a id="folio-14"></a>
 
 ### F14 · Off the board
 
-**A grievance shared.** Pittsy’s sheet lies beside the mic. Brandon points to OFF BOARD. Fans pass behind Jake arguing over another game.
+**A grievance shared.** Pittsy’s sheet lies beside the mic. Brandon points to OFF BOARD. Let the reader hear fans arguing over another game before Brandon asks about his own. The fans pass behind Jake.
 
 Brandon wanted to know who was the underdog. Jake wanted that crowd arguing about them. “They’ll stop to see you miss.”
 
@@ -287,7 +287,7 @@ Brandon wanted to know who was the underdog. Jake wanted that crowd arguing abou
 - **Phone proof.** Spell out The Chili Cheesers and ObiWan Jacoby. Keep the notice and both reactions in sight.
 - **Turn.** The radio call → **Off the board** → The safest seat.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f14) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f14) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f14)
 
 <a id="folio-15"></a>
 
@@ -304,7 +304,7 @@ Jake works the carnival mic with the D5 Texas quarterback joke. Leave the underw
 - **Phone proof.** Do not let the target or a caption cover Jake’s underwater face.
 - **Turn.** Off the board → **The safest seat** → At the ladder.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f15) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f15) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f15)
 
 <a id="folio-16"></a>
 
@@ -321,7 +321,7 @@ The score chooses the quiet admission, the request to repeat it, or the held rea
 - **Phone proof.** The existing test crops the legs. Check the head and both boots in one frame.
 - **Turn.** The safest seat → **At the ladder** → Pick a side.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f16) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f16) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f16)
 
 <a id="folio-17"></a>
 
@@ -338,7 +338,7 @@ Phillip speaks first. Kevin checks the path before choosing. Keep the footrace a
 - **Phone proof.** Keep all three heads on one body and both approaches readable.
 - **Turn.** At the ladder → **Pick a side** → The dry stone.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f17) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f17) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f17)
 
 <a id="folio-18"></a>
 
@@ -355,7 +355,7 @@ A Red Leopards win opens the bag. A Three Dreaded Snake win gives Kevin the conc
 - **Phone proof.** No costume reveal or cut inside the private courtyard in a pending cut.
 - **Turn.** Pick a side → **The dry stone** → One clean paw.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f18) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f18) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f18)
 
 <a id="folio-19"></a>
 
@@ -372,7 +372,7 @@ Ben switches off the engine to listen. “From the truck it did.”
 - **Phone proof.** The groove and the warning paw must read together.
 - **Turn.** The dry stone → **One clean paw** → Back at the post.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f19) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f19) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f19)
 
 <a id="folio-20"></a>
 
@@ -389,13 +389,13 @@ The result selects the return. Bobby turns the card only after a confirmed loss 
 - **Phone proof.** Use the right post. Preserve the dry side of the card.
 - **Turn.** One clean paw → **Back at the post** → The visitor’s chair.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f20) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f20) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f20)
 
 <a id="folio-21"></a>
 
 ### F21 · The visitor’s chair
 
-**David brings the first sheet.** Frame the paper from the visitor’s chair. The groundskeeper hangs the key on its worn hook. Wait for the office door to shut.
+**David brings the first sheet.** Frame the paper from the visitor’s chair. The groundskeeper hangs the key on its worn hook. Wait for the office door to shut. Babb draws his unused pen back with the unsigned offer.
 
 > “The LLC buys Jackson. You’d still run the place.” David shifted his offer so the groundskeeper could hang up the key. When the door shut, Zach pushed the offer back unsigned. “Jackson stays here. There’s something else you ought to read.”
 
@@ -403,13 +403,13 @@ The result selects the return. Bobby turns the card only after a confirmed loss 
 - **Lettering and turn.** 76/24 art/type, 42 body words available. Keep the offer unsigned. End with David’s thumb poised under a second sheet. Back at the post → **The visitor’s chair** → The second sheet.
 - **Phone proof.** Make the key return readable without forcing the reader to decipher a contract.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Study 08, original desk blocking](board-png/08-stay-for-coffee.png) · [Owner revision and shots](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet)
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Study 08, original desk blocking](board-png/08-stay-for-coffee.png) · [Owner revision and shots](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · Week 10 original PNGs 20, 21 and 24 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f21)
 
 <a id="folio-22"></a>
 
 ### F22 · The second sheet
 
-**Babb reads the board’s decision.** Dr. Duckhook led the proxy fight that seated the new board. David reads the notice twice before he looks up.
+**Babb reads the board’s decision.** Dr. Duckhook led the proxy fight that seated the new board. David reads the notice twice before he looks up. He is still holding the pen he brought for Duckhook.
 
 > **THE LLC · BOARD ACTION**\
 > David Babb removed as CEO.\
@@ -423,7 +423,7 @@ The result selects the return. Bobby turns the card only after a confirmed loss 
 - **Score coda.** On a Duckhook win, David asks for black coffee. On an LLC win, Zach offers congratulations. On an official tie he pours twice. While pending, the cup lands in silence. The two pieces of paper tell the same story in all four cuts.
 - **Phone proof.** Preserve the full title “CEO and chairman” and David’s reaction. Keep the cup outside the text. Babb remains The LLC’s football representative in F24 and F32.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Study 08, before the owner revision](board-png/08-stay-for-coffee.png) · [Full scene and owner direction](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [Native F22 lettering study](lettering/W11-F22-The-Second-Sheet.png) · [390 px inspection copy](lettering/W11-F22-The-Second-Sheet-390.png)
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Study 08, before the owner revision](board-png/08-stay-for-coffee.png) · [Full scene and owner direction](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [Native F22 lettering study](lettering/W11-F22-The-Second-Sheet.png) · [390 px inspection copy](lettering/W11-F22-The-Second-Sheet-390.png) · Week 10 original PNGs 22, 20, 21, 24 and 25 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f22)
 
 <a id="folio-23"></a>
 
@@ -440,7 +440,7 @@ Sunday desk copy, 8:24 p.m. ET. Jonah Coleman and Chuba Hubbard had 68.00 for Hi
 - **Phone proof.** Every pair of figures needs a team label.
 - **Turn.** The second sheet → **What the starters changed** → Who could answer?.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f23) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f23) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f23)
 
 <a id="folio-24"></a>
 
@@ -457,7 +457,7 @@ Sunday desk copy, 8:24 p.m. ET. Javonte and Caleb Williams had 44.64 for Three D
 - **Phone proof.** Keep bench points out of the starter subtotal.
 - **Turn.** What the starters changed → **Who could answer?** → The cost of Sunday.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f24) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f24) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f24)
 
 <a id="folio-25"></a>
 
@@ -474,7 +474,7 @@ Explain how the original concern and the actual starter differed. Cite any medic
 - **Phone proof.** An IR slot or absence alone cannot support a diagnosis.
 - **Turn.** Who could answer? → **The cost of Sunday** → The next starting sheet.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f25) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f25) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f25)
 
 <a id="folio-26"></a>
 
@@ -491,7 +491,7 @@ Compare Kansas City and Houston D/ST. Then identify a real Week 12 decision that
 - **Phone proof.** Make the bench label as legible as the points.
 - **Turn.** The cost of Sunday → **The next starting sheet** → Who made it onto the roster?.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f26) · [Native study 10](board-png/10-who-made-the-lineup.png) · Week 10 physical 26, 27.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f26) · [Native study 10](board-png/10-who-made-the-lineup.png) · Week 10 physical 26, 27 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f26)
 
 <a id="folio-27"></a>
 
@@ -508,7 +508,7 @@ On November 19 The Chili Cheesers added Cam Ward and dropped Bryce Young. Report
 - **Phone proof.** Both legs, both dates and transaction status must read.
 - **Turn.** The next starting sheet → **Who made it onto the roster?** → Three divisions.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f27) · [Native study 10](board-png/10-who-made-the-lineup.png) · Week 10 physical 26, 27.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f27) · [Native study 10](board-png/10-who-made-the-lineup.png) · Week 10 physical 26, 27 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f27)
 
 <a id="folio-28"></a>
 
@@ -525,7 +525,7 @@ Explain how one real Week 12 result could change each race. Keep a conditional v
 - **Phone proof.** Four member rows must fit under each division heading.
 - **Turn.** Who made it onto the roster? → **Three divisions** → The Twelve · scoring form.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f28) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f28) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f28)
 
 <a id="folio-29"></a>
 
@@ -542,7 +542,7 @@ Explain the 70% season PPG / 30% current-week score formula. Compare it to Week 
 - **Phone proof.** No movement from the Week 7 editorial series in this column.
 - **Turn.** Three divisions → **The Twelve · scoring form** → Seven places.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f29) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f29) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f29)
 
 <a id="folio-30"></a>
 
@@ -559,7 +559,7 @@ Distinguish qualification math from simulated odds. Label the model date, input 
 - **Phone proof.** No pre-Week-15 island arrival. Roundoff is not elimination.
 - **Turn.** The Twelve · scoring form → **Seven places** → Under a deal we never made?.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f30) · [Native study 12](board-png/12-seven-places.png) · Week 10 physical 31, 17, 24.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f30) · [Native study 12](board-png/12-seven-places.png) · Week 10 physical 31, 17, 24 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f30)
 
 <a id="folio-31"></a>
 
@@ -576,7 +576,7 @@ The reporter asks why the missing line felt personal. Jake attributes the propos
 - **Phone proof.** Keep the two speakers and the unexecuted trade legible.
 - **Turn.** Seven places → **Under a deal we never made?** → The next six.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f31) · [Native study 14](board-png/14-under-a-deal-we-never-made.png) · Week 10 physical 23, 24, 7.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f31) · [Native study 14](board-png/14-under-a-deal-we-never-made.png) · Week 10 physical 23, 24, 7 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f31)
 
 <a id="folio-32"></a>
 
@@ -593,7 +593,7 @@ Name all six verified Week 12 fixtures and who hosts. Give one open question to 
 - **Phone proof.** Arrows must consistently point from visitor to host.
 - **Turn.** Under a deal we never made? → **The next six** → Next week’s feature.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f32) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f32) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f32)
 
 <a id="folio-33"></a>
 
@@ -610,7 +610,7 @@ Choose the fixture whose Week 11 consequence gives both sides something to do. [
 - **Phone proof.** A projected winner cannot choose the feature.
 - **Turn.** The next six → **Next week’s feature** → Pittsy’s Book.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f33) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f33) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f33)
 
 <a id="folio-34"></a>
 
@@ -627,7 +627,7 @@ Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the s
 - **Phone proof.** Transcribe every sign and decimal at phone width.
 - **Turn.** Next week’s feature → **Pittsy’s Book** → They know the way home.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f34) · [Native study 13](board-png/13-what-s-on-the-board.png) · Week 10 physical 34, 19.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f34) · [Native study 13](board-png/13-what-s-on-the-board.png) · Week 10 physical 34, 19 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f34)
 
 <a id="folio-35"></a>
 
@@ -644,7 +644,7 @@ Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the s
 - **Phone proof.** One image, one sentence. Check the final turn on a phone.
 - **Turn.** Pittsy’s Book → **They know the way home** → Back of issue.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f35) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f35) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35 · [PNG comparison and Atlas address](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f35)
 
 ## Sunday production checks
 

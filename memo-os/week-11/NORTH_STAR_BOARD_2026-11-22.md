@@ -37,7 +37,7 @@ The source challenge went back to the Beat Writer, Scout, Librarian, Umpire and 
 
 ## Evening league and architecture refresh
 
-Direct ESPN and Flaim subsequently agreed on all twelve live totals. TheFFHub reran all 13 scenarios, the issue branch received five deterministic Atlas diagram repairs, and the Novel follows Jordan or the taproom operator while El Niño registers through the weather. No Week 11 winner was posted at the check. [Evening refresh and outstanding assignments](EVENING_LAYER_REFRESH_2026-11-22.md)
+Direct ESPN and Flaim subsequently agreed on all twelve live totals. TheFFHub reran all 13 scenarios, the issue branch received five deterministic Atlas diagram repairs, and the current Novel handoff follows Jordan as the taproom operator answers his call and El Niño registers through the weather. No Week 11 winner was posted at the check. [Evening refresh and outstanding assignments](EVENING_LAYER_REFRESH_2026-11-22.md)
 
 ## What waits for the final issue
 

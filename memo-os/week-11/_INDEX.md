@@ -1,5 +1,7 @@
 # Week 11 — initial production index
 
+[35 page-by-page PNG comparisons](preproduction/WEEK11_FOLIO_OG_COMPARISON.md) · [Atlas addresses and three-layer location desk](preproduction/WEEK11_LOCATION_DESK.md) · [Board questions, meeting brief and three future decisions](preproduction/WHAT_THE_COMMONWEALTH_REMEMBERS.md) · [Open the Week 11 flatplan](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-start)
+
 [Editable Week 11 page-turn rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md) · Proposed 35-page reading sequence, all 15 native study PNGs, six matchup reference panels and the Sunday 8:24 p.m. Eastern score check.
 
 [Current evening refresh and next production checkpoint](EVENING_LAYER_REFRESH_2026-11-22.md) · Six live scores corroborated by ESPN, 120 checked starters, a fresh playoff-model run and Atlas/Novel validation. [Refresh receipt](EVENING_LAYER_RECEIPT_2026-11-22.json).
@@ -96,7 +98,7 @@ The Founder left the interior action/dialogue layout (Q6) and preferred targets 
 - [Thursday opening-cycle intake](THURSDAY_OPENING_INTAKE_2026-11-20.md) — source-qualified NFL Week 11 schedule, Thursday final, six ESPN partial pairings, started/benched player distinction, standings context, story leads and next-gate plan.
 - [PR #313](https://github.com/jakekaloper-hub/schemin-26/pull/313) — existing typed data intake, transaction lineage, governance HOLD; use its dated November 20 normalized data, not earlier 0–0 records.
 - [Memo OS authority](../_INDEX.md) — V5.5 governing preproduction, current canon/reference, Atlas, 1080×1920 page contract and independent release controls.
-- [Week 10 existing handoff](../week-10/_INDEX.md) — prior-week continuity; preserve accepted/superseded work and do not regress its current production branch.
+- [Week 10 existing handoff](https://github.com/jakekaloper-hub/schemin-26/blob/6ece345f5791d21684dedb902cb356084d84b40e/memo-os/week-10/_INDEX.md) — prior-week continuity; preserve accepted/superseded work and do not regress its current production branch.
 
 ## Founder Creative Interview and synthesis — November 20
 - [58-question Commissioner source receipt](FOUNDER_CREATIVE_INTERVIEW_58_RESPONSES_2026-11-20.md) — exact coded selections and notes across all six matchups, world, flow, personal touches and Inklings perspectives. Do not conflate creative intentions with confirmed outcomes.
