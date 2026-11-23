@@ -86,3 +86,58 @@ test('third finger, cancellation, and unavailable world input never activate spu
  assert.match(template,/two-finger drag orbits and a pinch changes distance/);
  assert.doesNotMatch(handlers,/fetch\(|publish|writeWorld|createEvent|historySession\s*=/);
 });
+
+test('release displacement prevents a fast swipe without a delivered pointermove from selecting',()=>{
+ const x=setup();
+ x.pointer('pointerdown',1,80,90);
+ x.pointer('pointerup',1,120,130);
+ assert.equal(x.calls.pick,0);
+ assert.deepEqual(x.selections,[]);
+ x.pointer('pointerdown',2,80,90);
+ x.pointer('pointerup',2,82,92);
+ assert.deepEqual(x.selections,['LOC-MUD-DOGS-SWAMP']);
+});
+
+test('lost capture cancels a tracked gesture without activating a place and allows a fresh tap',()=>{
+ const x=setup();
+ x.pointer('pointerdown',1,80,90);
+ x.pointer('lostpointercapture',1,80,90);
+ const cancelled=x.api.snapshot();
+ assert.equal(cancelled.pointerCount,0);
+ x.pointer('pointermove',1,110,130);
+ x.pointer('pointerup',1,110,130);
+ assert.deepEqual(x.api.snapshot().target,cancelled.target);
+ assert.equal(x.calls.pick,0);
+ x.pointer('pointerdown',2,80,90);
+ x.pointer('pointerup',2,80,90);
+ assert.deepEqual(x.selections,['LOC-MUD-DOGS-SWAMP']);
+});
+
+test('unknown or previously released capture loss cannot interrupt a new gesture',()=>{
+ const x=setup();
+ x.pointer('pointerdown',1,80,90);
+ x.pointer('pointerup',1,80,90);
+ x.pointer('pointerdown',2,100,100);
+ const before=x.api.snapshot();
+ x.pointer('lostpointercapture',1,80,90);
+ x.pointer('pointercancel',99,0,0);
+ assert.deepEqual(x.api.snapshot(),before);
+ x.pointer('pointermove',2,130,130);
+ assert.notDeepEqual(x.api.snapshot().target,before.target);
+ x.pointer('pointerup',2,130,130);
+ assert.equal(x.calls.pick,1);
+});
+
+test('capture loss during a pinch cannot turn the surviving finger into a tap or pan',()=>{
+ const x=setup();
+ x.pointer('pointerdown',1,80,90);
+ x.pointer('pointerdown',2,160,90);
+ x.pointer('lostpointercapture',2,160,90);
+ const before=x.api.snapshot();
+ assert.equal(before.pointerCount,1);
+ x.pointer('pointermove',1,120,130);
+ assert.deepEqual(x.api.snapshot().target,before.target);
+ x.pointer('pointerup',1,120,130);
+ assert.equal(x.calls.pick,0);
+ assert.equal(x.api.snapshot().pointerCount,0);
+});

@@ -179,7 +179,10 @@ canvas.addEventListener('pointermove',e=>{
 function up(e){
  if(!pointers.has(e.pointerId))return;
  pointers.delete(e.pointerId);
- if(!multiTouchGesture&&dragDistance<8&&canControl()){
+ // A fast release can arrive without its final pointermove. Use the
+ // down-to-up displacement as well as the accumulated delivered movement.
+ const releaseDistance=pointerStart?Math.abs(e.clientX-pointerStart.x)+Math.abs(e.clientY-pointerStart.y):Infinity;
+ if(!multiTouchGesture&&dragDistance<8&&releaseDistance<8&&canControl()){
   const p=renderer.pick(e.clientX,e.clientY);if(p)select(p.id);
  }
  if(!pointers.size){
@@ -189,11 +192,15 @@ function up(e){
  }
 }
 canvas.addEventListener('pointerup',up);
-canvas.addEventListener('pointercancel',e=>{
- pointers.delete(e.pointerId);
+function cancelPointer(e){
+ // Implicit capture loss after pointerup is normal; never reset another
+ // pointer's active gesture in response to an already released/unknown ID.
+ if(!pointers.delete(e.pointerId))return;
  pointerStart=null;pinchDistance=null;pinchCenter=null;dragDistance=99;
  multiTouchGesture=pointers.size>0;
-});
+}
+canvas.addEventListener('pointercancel',cancelPointer);
+canvas.addEventListener('lostpointercapture',cancelPointer);
 canvas.addEventListener('pointerleave',()=>$('#tooltip').hidden=true);
 canvas.addEventListener('wheel',e=>{if(!canControl())return;e.preventDefault();target=cameraStep(target,{zoom:e.deltaY*.07});if(paused)camera=structuredClone(target);$('#tooltip').hidden=true;},{passive:false});
 function handleWorldKey(e){
