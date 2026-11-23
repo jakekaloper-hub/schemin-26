@@ -293,6 +293,8 @@ If El Niño wins, use a cinematic three-quarter view of the truck braked at an e
 - **Turn.** Six. I told her six. → **The radio call** → Off the board.
 - **Tuesday gate.** Full ESPN/Flaim decision and 12-team TheFFHub sweep determine the emotional victory/loss coda and supporting-page factual implications, not the road geometry or physical hazard.
 
+- **Founder storm/cargo visual override (November 23).** A crosswind catches the Week 10 beer-trailer canvas on the *later*, route-approved wetland approach. One secondary lash loosens; **two kegs visibly tumble from the trailer** and roll in the roadside runoff. The remaining covered beer load stays secured. At the raised shoulder the rear axle is threatened; the cab/brake/radio remain physically coherent. **This spill is shared scene action regardless of the eventual football winner**; a confirmed El Niño win means a stranded, delayed shipment, a confirmed Slob on my Dobb win means Jordan controls the truck and arranges safe keg recovery. If undecided, stop without publishing the recovery or delivery time. No weightless flying kegs, victim, permanent road loss or assumed truck clearance on Delta Causeway. Compare exact Week 10 trailer/strap/cargo reference and show one actual mass-and-gravity path at 390px.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f13) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-13) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-13) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f13)
 
 <a id="folio-14"></a>
@@ -333,6 +335,8 @@ Jake works the carnival mic with the D5 Texas quarterback joke. Leave the underw
 
 - **Carnival weather test:** the inherited upland breeze can be felt in loose fabric and the OFF BOARD sheet, but Brandon's throw must land without help from the wind; Wolf Brand Chili fills the tank rather than rainwater. Keep Brandon's hat and Jake's submerged expression readable. This is atmospheric continuity, not a new dunk mechanism.
 
+- **Founder wet carnival override (November 23).** Rainfall is **clearly visible**, not just a cold wind: heavy drops traverse the lit carnival booth, puddles reflect the public footpath, Brandon's black hat is wet, and the posted OFF BOARD notice still reads. The Wolf Brand Chili tank remains filled with unmistakable thick chili **rather than rainwater**. Brandon's **one** throw hits the target by his skill, not by a lucky gust; Jake's fully submerged face and palm are legible behind the viewing window despite rain outside. Do not combine with the alternative saber duel.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f15) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-15) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-15) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f15)
 
 <a id="folio-16"></a>
@@ -351,6 +355,8 @@ The score chooses the quiet admission, the request to repeat it, or the held rea
 - **Turn.** The safest seat → **At the ladder** → Pick a side.
 
 - **Inklings summit Nov 23 — proposed personalization.** **The change in who can see whom.** Jake performed toward an entire hillside; after the dunk he can see only Brandon beside the ladder. Brandon's pause and hat removal carry his new authority but also a moment of restraint. The rejected cropped test is not the final raster: fit Jake's expression and both chili-coated boots in one believable full-length native PNG/390px frame. The loss version reflects fear, not certified elimination.
+
+- **Rain + chili identity check.** The rain continues visibly across the mountain carnival when Jake climbs out **head to both chili-coated boots**. Wet fabric is distinct from thick reddish chili clinging to hair/robe; spectators' coats and Brandon's hat maintain rain continuity. Brandon remains beside the ladder, the last quiet reaction carries the conditional score and playoff concern without a false elimination caption.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f16) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-16) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-16) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f16)
 
@@ -373,6 +379,8 @@ Phillip speaks first. Kevin checks the path before choosing. Keep the footrace a
 
 - **Red's weather memory:** Week 10 left Kevin with storm-damaged soccer terrace and inland Forgotten Court. On the outer waterfall boundary, rain-slick leaves and spray make checking the unchanged dry finish stone meaningful. Phillip's rule and the two owners' actions stay central; never flood the private courtyard as unrelated spectacle.
 
+- **Founder stronger waterfall-front revision.** Tropical-looking jungle at the **existing visitor-side waterfall break** receives heavy rainfall, thrashing broad leaves, muddy footprints and runoff trickles across the two possible race approaches. Phillip's private household stays off camera. Keep the **raised dry finish stone** physically plausible as the one sheltered/elevated foothold and three heads on the same body. Kevin checks the soaked track because of Week 10's very real storm damage to his separate territory. The race remains an audition rather than an invented official result.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f17) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-17) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-17) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f17)
 
 <a id="folio-18"></a>
@@ -392,6 +400,8 @@ A Red Leopards win opens the bag. A Three Dreaded Snake win gives Kevin the conc
 
 - **Inklings summit Nov 23 — proposed personalization.** **Personalization through the unopened bag.** Kevin's dry Florida python-hunter outfit is funny because he packed it before he knew the result. Let Phillip's three distinct head reactions register on one connected body when the bag opens, but only on a verified Red Leopards win. In a Snake win or pending cut the bag remains closed. The dry stone, finish cloth and water spray must still prove the sporting action before any victory portrait.
 
+- **Waterlogged finish/conditional wardrobe.** The contestants' mud-darkened feet, runoff and wet vegetation must carry through the reverse from F17, with the first palm on the established **comparatively dry stone** readable before any celebration. The Florida python-hunter bag stays sealed on a Snake win, tie or pending game; **only** a verified Red Leopards win opens it. No flooded family courtyard or damaged waterfall-temple canon.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f18) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-18) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-18) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f18)
 
 <a id="folio-19"></a>
@@ -409,6 +419,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 - **Turn.** The dry stone → **The wrong turn** → The road that comes back. F19 remains stable even if the result is unresolved.
 
 - **Swamp weather test:** inherited delayed Southern Wetlands runoff produces misleading reflections in Bobby's intentionally false track while his one clean paw sits on viable high ground. He still chooses deception; the storm is no substitute for owner agency. Keep right-post Cancún and left stands as Week 10 depicted.
+
+- **Founder exceptionally high water level.** Show a temporary flood mark well up the **lower Gators & Dawgs sign supports** and near the left empty-stand foundations, submerged familiar wheel scars, floating reeds and brown water. Keep the right-hand Cancún card above the flood and Bobby's small reversible outpost on safe raised ground. His clean paw is genuinely dry on an elevated strip while he *deliberately* points Ben Whipple toward the deeper misleading route. The swamp danger must read visually before the dialogue; no new permanent physical route or certified El Niño world flood.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f19) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-19) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-19) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f19)
 
@@ -428,6 +440,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 
 - **Swamp payoff weather:** Ben's headlights find rain-softened repeating ruts and the old sign; Bobby's smirk becomes darker against his dry outpost and Cancún card. Weather cannot make a playoff elimination official or close the permanent passable freight strip.
 
+- **The high-water wrong turn.** Ben's raised truck visibly encounters unnaturally high floodwater for this week's scene, sees familiar sign/rut/stand positions reflected through water and realizes Bobby's directions were intentional sabotage. Retain a source-plausible way to stop/retreat; don't depict an impossible submerged truck, a permanent road disappearance or a real Playoff Island crossing. At the outpost Bobby gives one small smirk before the above-water Cancún card reminds him of his own season. ESPN/FFHub later controls any genuine spoiler/seeding claims.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f20) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-20) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-20) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f20)
 
 <a id="folio-21"></a>
@@ -436,13 +450,15 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 
 **David brings the first sheet.** Frame the paper from the visitor’s chair. The groundskeeper hangs the key on its worn hook. Wait for the office door to shut. Babb draws his unused pen back with the unsigned offer.
 
-> “The LLC buys Jackson. You’d still run the place.” David shifted his offer so the groundskeeper could hang up the key. When the door shut, Zach pushed the offer back unsigned. “Jackson stays here. There’s something else you ought to read.”
+> “After last week, my investors wanted to know what came next. I told them Jackson,” David said. Outside, rain rattled the office window. The groundskeeper returned the key and left. Zach pushed the offer back unsigned. “Before you buy my place, ask who's running yours.”
 
 - **Place and cast.** Jackson executive office. Zach Wilson / Dr. Duckhook and David Babb / The LLC.
 - **Lettering and turn.** 76/24 art/type, 42 body words available. Keep the offer unsigned. End with David’s thumb poised under a second sheet. The road that comes back → **The visitor’s chair** → The second sheet.
 - **Phone proof.** Make the key return readable without forcing the reader to decipher a contract.
 
 - **Inklings summit Nov 23 — proposed personalization.** **Two incompatible ideas of ownership.** David's offer is about acquiring an asset and keeping the people who make the course valuable; Zach's attention stays with the returned key and its ordinary worker. Babb's unused pen is the visible limit of his confidence. Keep the brass hook, groundskeeper departure and unsigned sheet in one believable office, not a separate corporate-podium scene. The private second sheet is still unrevealed on this page.
+
+- **Founder investor-confidence + extreme clubhouse exterior (operative).** David Babb enters *because he believes his investors back a proposed Jackson acquisition after last week's victory*. Show the entire exterior through the office window under punishing gusts, driving rain, trees bent and club workers securing exterior equipment. The dry, secure executive office and lamp are a haven for his overconfidence. A groundskeeper returns a **rain-damp course key** to the existing hook and departs before the private exchange. David's unsigned course purchase offer and poised pen stay separate from Zach's *unrevealed* second sheet; no real investor identity or amount is invented.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Study 08, original desk blocking](board-png/08-stay-for-coffee.png) · [Owner revision and shots](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · Week 10 original PNGs 20, 21 and 24 · [F21 blocking and lettering](lettering/W11-F21-The-Visitors-Chair.png) · [390 px phone proof](lettering/W11-F21-The-Visitors-Chair-390.png) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-21) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-21) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f21)
 
@@ -456,8 +472,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 > David Babb removed as CEO.\
 > Dr. Duckhook appointed CEO and chairman.
 
-> “You called them yourself?”\
-> “I did.”
+> “You went to my board?”\
+> “Some of them came to me. I made the calls.”
 
 - **Place and cast.** Reverse from desk height to David’s eye level. The private exchange starts after the door shuts. The same brass key stays on its hook.
 - **Lettering and turn.** Typeset both names and titles on a single unbroken insert. Keep within the 40-word body allocation. The visitor’s chair → **The second sheet** → What the starters changed.
@@ -465,6 +481,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 - **Phone proof.** Preserve the full title “CEO and chairman” and David’s reaction. Keep the cup outside the text. Babb remains The LLC’s football representative in F24 and F32.
 
 - **Inklings summit Nov 23 — proposed personalization.** **Personal loss before fantasy score.** Babb brought a pen for Zach's signature, yet must use that hand to steady a notice removing him from his own CEO office. Zach has taken corporate control, but has neither sold Jackson nor removed Babb as The LLC fantasy representative. Hold the two documents, Babb's reaction and the key hook in continuity. Only the coffee coda varies with official Week 11 winner; the corporate notice is owner-authored story, not a score-dependent consequence.
+
+- **Founder discreet board and furious reversal (operative).** David reads the *same fixed* LLC board action, then understands that members of The LLC executive board had privately asked Zach to take charge and Zach had been calling them. Only **the two owners** hear this; David's fury is visceral: he rises fast, the chair shifts and his unused pen strikes dry wood without destroying the legally legible paper or office. Extreme rain and bent exterior trees fill the **window behind him**, but the storm did not appoint the CEO. Zach stays restrained and keeps Jackson; David stays The LLC fantasy representative. Preserve the complete “CEO and chairman” notice at 390px; coffee branch only after official winner.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Study 08, before the owner revision](board-png/08-stay-for-coffee.png) · [Full scene and owner direction](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [Native F22 lettering study](lettering/W11-F22-The-Second-Sheet.png) · [390 px inspection copy](lettering/W11-F22-The-Second-Sheet-390.png) · Week 10 original PNGs 22, 20, 21, 24 and 25 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-22) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-22) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f22)
 
