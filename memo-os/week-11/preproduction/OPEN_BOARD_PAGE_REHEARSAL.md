@@ -1,5 +1,7 @@
 # One Last Crossing · Week 11 page-turn rehearsal
 
+**Actual Week 11 tldraw salvage (November 23):** [Verified 35-folio board page and 28 updated storyline/review cards](W11_PRE_MNF_SALVAGE_TLDRAW_HANDOFF_2026-11-23.md). This link is a local visual-planning source; native final 1080×1920 PNGs, exact source mounts, and Tuesday winner branches remain separate required gates.
+
 **November 23 full Bullpen/Inklings/Production summit:** [all 35 folios, six source-filtered panels and 420 questions](SUMMIT_18_DIRECTORS_46_STAFF_8_INKLINGS_12_PRODUCTION_2026-11-23.md) · [all 84 role questions](SUMMIT_84_ROLE_420_QUESTION_ROLLCALL_2026-11-23.md). Retain existing individual page commissions as operative; summit decisions are editorial reinforcement, not automatic render or Fact Lock.
 
 **Whole-issue atmosphere owner:** [November 23 sourced Week 10 → Week 11 El Niño propagation pass](WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md) gives scene-by-scene and F01–F35 controls; the six narrative treatments contain the per-matchup applications. This is **proposed** weather staging, not an ESPN result or new Atlas/World state. F21/F22 retain their checksum-locked preproduction script; their wet-window/key overlay is in the authoritative linked scene treatment without relettering the two corporate notices.
