@@ -300,6 +300,8 @@ Reconcile home and away against the ESPN Week 12 schedule immediately before typ
 
 ## Cross-system production decisions
 
+**November 23 full-issue Inklings summit (editorially source-filtered):** [all eight modeled literary-method lenses, twelve production-reference domains and six Bullpen model Director roles](preproduction/INKLINGS_FULL_ISSUE_PERSONALIZATION_SUMMIT_2026-11-23.md) have been reconciled to Founder authority. Retained G01/G03/G04/G06 motive/action/payoff enhancements appear as **proposed notes** in [F09–11, F14–18 and F21–22](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md). G02/G05 keep their latest Founder revisions. The raw local model proposed unsupported new props and premature results; those are expressly REJECTED. This is not independent Umpire acceptance, render readiness or publication.
+
 | Project source or subsystem | What it controls in this pass |
 |---|---|
 | Weekly Memo OS and cinematography | Pair every claim with a dated source. Review the exported portrait PNG first, at full size and at 390 px. Lettering is separate from generated images. Establish the venue and the acting character before an inset narrows the frame. |
