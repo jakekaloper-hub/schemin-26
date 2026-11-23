@@ -62,7 +62,7 @@ function terrainColor(x,y,z){
 class MeshBuilder{
  constructor(){this.values=[];}
  tri(a,b,c,color,normal=null){let n=normal||norm(cross(sub(b,a),sub(c,a)));for(const p of [a,b,c])this.values.push(...p,...n,...color);}
- triSmooth(a,b,c,color,na,nb,nc){for(const [p,n] of [[a,na],[b,nb],[c,nc]])this.values.push(...p,...n,...color);}
+ triSmooth(a,b,c,colorA,na,nb,nc,colorB=colorA,colorC=colorA){for(const [p,n,color] of [[a,na,colorA],[b,nb,colorB],[c,nc,colorC]])this.values.push(...p,...n,...color);}
  quad(a,b,c,d,color){this.tri(a,b,c,color);this.tri(a,c,d,color);}
  box(x,y,z,w,h,d,color){const a=[x-w/2,y,z-d/2],b=[x+w/2,y,z-d/2],c=[x+w/2,y,z+d/2],d0=[x-w/2,y,z+d/2];const A=[a[0],y+h,a[2]],B=[b[0],y+h,b[2]],C=[c[0],y+h,c[2]],D=[d0[0],y+h,d0[2]];this.quad(A,D,C,B,color);this.quad(a,A,B,b,color);this.quad(b,B,C,c,color);this.quad(c,C,D,d0,color);this.quad(d0,D,A,a,color);}
  cone(x,y,z,r,h,color,sides=6){for(let i=0;i<sides;i++){const a=i*TAU/sides,b=(i+1)*TAU/sides;this.tri([x+Math.cos(a)*r,y,z+Math.sin(a)*r],[x,y+h,z],[x+Math.cos(b)*r,y,z+Math.sin(b)*r],color);}}
@@ -85,17 +85,15 @@ export function buildWorldGeometry(bindings,grid=200,treeCount=4300,{skipLandmar
   if(terrainVertices.has(key))return terrainVertices.get(key);
   const x=-110+ix*step,z=-110+iz*step,y=height(x,z);
   const normal=norm([height(x-.5,z)-height(x+.5,z),1,height(x,z-.5)-height(x,z+.5)]);
-  const vertex={position:[x,y,z],normal};
+  const vertex={position:[x,y,z],normal,color:terrainColor(x,y,z)};
   terrainVertices.set(key,vertex);
   return vertex;
  }
  for(let ix=0;ix<N;ix++)for(let iz=0;iz<N;iz++){
-  const x=-110+ix*step,z=-110+iz*step;
   const a=terrainVertex(ix,iz),b=terrainVertex(ix+1,iz),
    c=terrainVertex(ix+1,iz+1),d=terrainVertex(ix,iz+1);
-  const col=terrainColor(x,(a.position[1]+b.position[1]+c.position[1]+d.position[1])/4,z);
-  mesh.triSmooth(a.position,c.position,b.position,col,a.normal,c.normal,b.normal);
-  mesh.triSmooth(a.position,d.position,c.position,col,a.normal,d.normal,c.normal);
+  mesh.triSmooth(a.position,c.position,b.position,a.color,a.normal,c.normal,b.normal,c.color,b.color);
+  mesh.triSmooth(a.position,d.position,c.position,a.color,a.normal,d.normal,c.normal,d.color,c.color);
  }
  const stone=[.63,.60,.49],roof=[.23,.27,.25],gold=[.57,.43,.22],chalk=[.82,.77,.61];
  function house(x,y,z,w=2,h=1.6,d=2,color=stone){mesh.box(x,y,z,w,h,d,color);mesh.roof(x,y+h,z,w*1.1,h*.65,d*1.1,roof);}

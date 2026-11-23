@@ -57,9 +57,9 @@ test('terrain smooth shading leaves canonical footprint, existing water, and sou
 });
 
 test('native shading update introduces no new draw pass, weather authority, or water phase coupling',()=>{
- assert.match(source,/triSmooth\(a\.position,c\.position,b\.position,col,a\.normal,c\.normal,b\.normal\)/);
+ assert.match(source,/triSmooth\(a\.position,c\.position,b\.position,a\.color,a\.normal,c\.normal,b\.normal,c\.color,b\.color\)/);
  assert.match(source,/terrainVertices\.set\(key,vertex\)/);
- assert.match(source,/mesh\.triSmooth\(a\.position,d\.position,c\.position,col,a\.normal,d\.normal,c\.normal\)/);
+ assert.match(source,/mesh\.triSmooth\(a\.position,d\.position,c\.position,a\.color,a\.normal,d\.normal,c\.normal,d\.color,c\.color\)/);
  assert.match(source,/waterTime=nextWaterPhase\(waterTime,time,paused\)/);
  assert.match(source,/gl\.uniform1f\(loc\.uStorm,storm\)/);
  assert.match(source,/gl\.drawArrays\(gl\.TRIANGLES,0,terrain\.count\)/);
