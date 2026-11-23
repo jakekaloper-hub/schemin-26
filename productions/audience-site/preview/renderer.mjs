@@ -226,9 +226,9 @@ function createSoftwareRenderer(canvas,bindings,{onContextLost}){
    return [.115,.29,.31].map((base,i)=>Math.round(clamp(Math.pow(mix(base*(.72+diffuse*.4)*(.7+.3*strength)*dark,[.59,.69,.64][i],.08+fresnel*.28+fog),.84)*255,0,255)));
   })():tri.col.map((v,i)=>Math.round(clamp(Math.pow(mix(v*(.7+.3*strength)*dark,[.59,.69,.64][i],fog),.84)*255,0,255))));ctx.fillStyle=`rgb(${col.join(',')})`;ctx.strokeStyle=ctx.fillStyle;ctx.lineWidth=.55;ctx.beginPath();ctx.moveTo(p[0].x,p[0].y);ctx.lineTo(p[1].x,p[1].y);ctx.lineTo(p[2].x,p[2].y);ctx.closePath();ctx.fill();ctx.stroke();}
   // Restrained water sheen: illustrative non-weather surface lighting.
-  // Gentle time-dependent surface glints on existing river samples. No new water geometry.
+  // Existing Canvas sheen lines follow both displaced water vertices (not a fixed screen-space height).
    ctx.strokeStyle=`rgba(216,219,190,${.08*strength})`;ctx.lineWidth=.6;
-   for(let i=0;i<110;i++){const bankX=(hash(i,7)*250)-125,z=hash(i,11)*170+35;if(height(bankX,z)>-.3)continue;const x=bankX+waterSheenDrift(i,waterFrame);const a=project([x,-.3,z]),b=project([x+1+hash(i,1)*2,-.3,z]);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
+   for(let i=0;i<110;i++){const bankX=(hash(i,7)*250)-125,z=hash(i,11)*170+35;if(height(bankX,z)>-.3)continue;const x=bankX+waterSheenDrift(i,waterFrame);const endX=x+1+hash(i,1)*2;const a=project([x,-.4+canvasWaterDisplacement(x,z,waterFrame),z]),b=project([endX,-.4+canvasWaterDisplacement(endX,z,waterFrame),z]);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
  }
  function pick(x,y){let best=null,dist=30;for(const p of bindings){const q=project(p.renderAnchor);if(!q||q.depth>1)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<dist){dist=d;best=p;}}return best;}
  return {render,project,pick,height,stats:{triangles:triangles.length,waterTriangles:waterTriangles.length,locations:bindings.length,renderer:'canvas2d-spatial-fallback',geometry:'PROCEDURAL_MASSING_NOT_APPROVED_ART'},loseContext(){onContextLost();},dispose(){disposed=true;}};
