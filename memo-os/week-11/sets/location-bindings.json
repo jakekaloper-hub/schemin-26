@@ -45,14 +45,32 @@
         "CHAR-JORDAN-HOLLINGSHEAD",
         "CHAR-MANNING-WELTY"
       ],
-      "physical": "From the cab at the edge of Hearthroad, the driver can see runoff filling the familiar rut.",
+      "physical": "Opening stays at Hearthroad rut in Slob Foothill Camp. Conditional later wetland hazard is washed raised shoulder with recoverable rear wheels over the edge, not a cliff or destroyed route.",
       "civic_use": "A working delivery route puts Jordan’s promised arrival time at risk. The truck is movable set dressing.",
-      "continuity": "Week 10 physical page 35 establishes the cargo shelter and approaching storm. The Founder selected the cab and rut for Week 11.",
+      "continuity": "Week 10 physical page 35 cargo shelter, same beer truck/straps and advancing storm. November 23 Founder continuation permits conditional return through southern wetlands only if local loaded-truck access matches Week 10 truck-at-Mud-Dogs-blockade and Atlas accepts it.",
       "set_dressing": {
         "study_panel": "upper middle",
         "surface": "Compacted rut under pale shoulder gravel. A loose white chip moves as runoff cuts across it.",
-        "local_routine": "Jordan checks the moving gravel through the wiper arc and catches his slip under the visor by feel.",
-        "camera_continuity": "Track the flow direction and rising waterline between cab and exterior. The beer was under canvas on physical page 35."
+        "local_routine": "Jordan follows gravel runoff, checks the six-o'clock slip and makes a responsible delivery decision while Manning witnesses the upper-road condition. After a legible travel ellipsis, optional swamp access crisis calls for verified truck clearance.",
+        "camera_continuity": "F12 exact Hearthroad rut/slope and Week 10 canvas. F13 possible wetland embankment needs physical truck/axle geometry, a non-collapsed passable roadway and a verified source-backed local service approach. Manning never appears there without a time/route reason."
+      },
+      "conditional_wetland_return": {
+        "state": "PROPOSED_NOT_CANON",
+        "source_root_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "proposed_wetland_reference": "LOC-MUD-DOGS-SWAMP",
+        "route_id_sequence": [
+          "ROUTE-HEARTHROAD",
+          "ROUTE-UPPER-BASIN-CONNECTOR",
+          "ROUTE-BASIN-MARKET",
+          "ROUTE-DELTA-CAUSEWAY"
+        ],
+        "clearance_gate": "DELTA_CAUSEWAY_TRUCK_ACCESS_UNVERIFIED",
+        "visual_precedent": "Week 10 physical pp.15–17 Mud Dogs blockade truck approach",
+        "allowed_hazard": "Recoverable washed raised shoulder, partially unsupported rear wheels, no permanent route damage",
+        "on_el_nino_win": "Slob truck stuck precariously; radio confirms delay; cargo safe",
+        "on_slob_win": "Driver spots hazard early and secures a safe continuation or waits safely",
+        "on_undecided": "No settled accident, delivery or final score",
+        "reference_only": true
       }
     },
     {
