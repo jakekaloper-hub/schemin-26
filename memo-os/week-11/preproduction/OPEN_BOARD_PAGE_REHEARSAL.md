@@ -1,5 +1,8 @@
 # One Last Crossing · Week 11 page-turn rehearsal
 
+**Whole-issue atmosphere owner:** [November 23 sourced Week 10 → Week 11 El Niño propagation pass](WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md) gives scene-by-scene and F01–F35 controls; the six narrative treatments contain the per-matchup applications. This is **proposed** weather staging, not an ESPN result or new Atlas/World state. F21/F22 retain their checksum-locked preproduction script; their wet-window/key overlay is in the authoritative linked scene treatment without relettering the two corporate notices.
+
+
 [November 23 source-adjudicated six-game Inklings summit](INKLINGS_FULL_ISSUE_PERSONALIZATION_SUMMIT_2026-11-23.md) · [local consultation and release-boundary receipt](INKLINGS_FULL_ISSUE_SUMMIT_RECEIPT_2026-11-23.json) · [controlled F12/F13/F14/F21/F22 instruction-digest reconciliation](INKLINGS_SUMMIT_FOLIO_DIGEST_RECONCILIATION_2026-11-23.json). All thirty-five folio IDs remain fixed; new screenplay notes are proposed and winner-specific action awaits final ESPN.
 
 The existing fifteen working studies are now arranged into a **proposed 35-page reading sequence**. F01–F35 identify positions for this rehearsal. No final page count, page lock or outcome is implied. The first six editorial ranks turn into the second six before the reader sees the official standings. The bridge anchors the matchups. The House counter sits immediately before the Final Word, preserving the Week 10 insert placement.
@@ -84,6 +87,8 @@ Six teams entered 6–4. A loss could close the door on the 2–8 Mud Dogs. Add 
 - **Evidence.** Week 10 records and schedule proof. Week 11 close for the last paragraph.
 - **Phone proof.** Both seats and their records must be distinct.
 - **Turn.** One Last Crossing → **The bottom of the register** → Commissioner’s Note.
+
+- **Weather continuity — editorial:** let one dated dispatch point to a Week 10 storm that different regions experienced differently, as set in the source-backed [weather pass](WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md). Do not tell the reader that El Niño has officially won Week 11, or that every storm event is his personally controlled manifestation.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f02) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-02) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-02) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f02)
 
@@ -187,6 +192,8 @@ Connect two separate places by sound and movement. The route is a cut between sc
 - **Phone proof.** Each location must read as a separate place.
 - **Turn.** What seventh place means → **The roads between** → After you, Austin.
 
+- **Weather route shot:** this is the issue's region-to-region connector: weaker cloud/wind on Hearthroad and Mountain Lake, stronger Week 10 Storm Coast exposure already witnessed, delayed wetland runoff. Separate locations and elapsed times rather than one real-time drone map; follow [the Week 10-backed propagation matrix](WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md). No invented forecast map or travel-time number.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f08) · [Native study 02](board-png/02-two-ways-to-read-sunday.png) · Week 10 physical 4, 11 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-08) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-08) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f08)
 
 <a id="folio-09"></a>
@@ -205,6 +212,8 @@ Connect two separate places by sound and movement. The route is a cut between sc
 - **Turn.** The roads between → **After you, Austin** → He was here before us.
 
 - **Inklings summit Nov 23 — proposed personalization.** **Audience and reason.** Wilson's apparently polite lane offering is a deliberate attempt to make champion Austin accept his permission, in front of the waiting carter. Keep the ordinary wheel and four hooves as the central picture rather than invent a new trophy or bridge monument. In a 390px crop, the space between the carter and Wilson must be visible; what matters is *who owns the right of way*, not who poses more imposingly.
+
+- **Bridge weather test:** a modest upper-valley gust shifts the carter's cover and Austin's cloak around the same old lantern, keeping Wilson's four hooves on damp stone. The weather raises stakes of an ordinary public crossing; Wilson and Austin still choose their confrontation, not El Niño as an invisible third fighter.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f09) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-09) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-09) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f09)
 
@@ -316,6 +325,8 @@ Jake works the carnival mic with the D5 Texas quarterback joke. Leave the underw
 
 - **Inklings summit Nov 23 — proposed personalization.** **Brandon's owner-request payoff.** The single throw resolves a Week 10 humiliation, not an arbitrary prank. His familiar black hat is now in his control after being in the rodeo mud. Jake volunteers for the dunk seat because he expects a crowd to laugh at Brandon's D5 quarterback reputation. Use the established red Wolf Brand Chili / blue NO BEANS prop, one hit, hinged seat and underwater window; do not improvise a second throw, fictional school fact or typed fantasy result.
 
+- **Carnival weather test:** the inherited upland breeze can be felt in loose fabric and the OFF BOARD sheet, but Brandon's throw must land without help from the wind; Wolf Brand Chili fills the tank rather than rainwater. Keep Brandon's hat and Jake's submerged expression readable. This is atmospheric continuity, not a new dunk mechanism.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f15) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-15) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-15) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f15)
 
 <a id="folio-16"></a>
@@ -354,6 +365,8 @@ Phillip speaks first. Kevin checks the path before choosing. Keep the footrace a
 
 - **Inklings summit Nov 23 — proposed personalization.** **Rivalry rooted in place.** Kevin returns from a damaged personal venue and checks the finish sightline rather than blindly trusting another owner's property. Phillip, with exactly three heads on one body, sets a fair first-palm-on-dry-stone rule because he wants to control the property's boundary and avoid an argument over which head finished. The short race is a strong audition from both owner-interview drafts, but preserve the sport as a selection candidate; family and private courtyard stay off camera.
 
+- **Red's weather memory:** Week 10 left Kevin with storm-damaged soccer terrace and inland Forgotten Court. On the outer waterfall boundary, rain-slick leaves and spray make checking the unchanged dry finish stone meaningful. Phillip's rule and the two owners' actions stay central; never flood the private courtyard as unrelated spectacle.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f17) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-17) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-17) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f17)
 
 <a id="folio-18"></a>
@@ -389,6 +402,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 - **Visual QA.** One integrated eye-level staging: Bobby's truthful dry-paw tell against his wrong pointing gesture, Ben's eyes and travel question, the physical outpost and returning landmarks. Practical pink/violet/aqua reflections must obey actual light sources.
 - **Turn.** The dry stone → **The wrong turn** → The road that comes back. F19 remains stable even if the result is unresolved.
 
+- **Swamp weather test:** inherited delayed Southern Wetlands runoff produces misleading reflections in Bobby's intentionally false track while his one clean paw sits on viable high ground. He still chooses deception; the storm is no substitute for owner agency. Keep right-post Cancún and left stands as Week 10 depicted.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f19) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-19) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-19) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f19)
 
 <a id="folio-20"></a>
@@ -404,6 +419,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 - **Phone proof.** The repeated sign, truck hesitation and Bobby's subtle smile must be legible at 390px. The postcard remains on the RIGHT post.
 - **Turn.** The wrong turn → **The road that comes back** → The visitor's chair.
 - **Selective whole-issue consumption.** Review F04, F07, F23–F24, F28–F30 and F32–F33 on Tuesday only for verified G05 facts/qualification consequences. Keep cover and Week 12 Game of the Week selections open; no automatic redraw of unrelated folios.
+
+- **Swamp payoff weather:** Ben's headlights find rain-softened repeating ruts and the old sign; Bobby's smirk becomes darker against his dry outpost and Cancún card. Weather cannot make a playoff elimination official or close the permanent passable freight strip.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f20) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-20) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-20) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f20)
 
@@ -663,6 +680,8 @@ Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the s
 - **Evidence.** Selected Week 12 fixture and its Atlas route. Week 12 owns the Thanksgiving reveal.
 - **Phone proof.** One image, one sentence. Check the final turn on a phone.
 - **Turn.** Pittsy’s Book → **They know the way home** → Back of issue.
+
+- **Weather handoff, not weather climax:** the selected Week 12 divisional road can inherit regionally plausible damp pavement and headlights, echoing the Week 10 return-home picture. Do not clear every sky on a Slob win, unleash an unapproved El Niño-wide catastrophe on an El Niño win, or photograph a new island sightline.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f35) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-35) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-35) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f35)
 
