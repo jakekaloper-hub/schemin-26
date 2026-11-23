@@ -213,12 +213,18 @@ function sizeAmbientCanvas(surface,context,cssWidth,cssHeight,pixelRatio){
  context.setTransform(pw/w,0,0,ph/h,0,0);
  return [w,h];
 }
+// WebGL shaders already shade and animate their own physical water. A second
+// screen-space sheen would render above land/buildings without depth testing.
+// Keep this illustrative optical cue only for the Canvas2D compatibility path.
+function needsAmbientFallbackGlints(rendererName){
+ return rendererName==='canvas2d-spatial-fallback';
+}
 const zoneBounds={'REG-EASTERN-STORM-COAST':[68,25,100,88],'REG-INNER-SEA-LITTORAL':[55,0,100,25],'REG-CENTRAL-BASIN':[25,30,72,58],'REG-UPPER-VALLEYS':[20,55,75,78]};
 function drawAmbient(t){
  if(!ambientCtx||!renderer)return;
  const [w,h]=sizeAmbientCanvas(ambient,ambientCtx,innerWidth,innerHeight,window.devicePixelRatio);
  ambientCtx.clearRect(0,0,w,h);
- for(let i=0;i<120;i++){const x=Math.sin(i*42.31)*125,z=Math.cos(i*19.27)*130;if(renderer.height(x,z)>-.3)continue;const p=renderer.project([x,-.15,z]);if(!p)continue;const alpha=(.08+.08*Math.sin(t*.65+i))*.6;ambientCtx.strokeStyle=`rgba(220,230,212,${alpha})`;ambientCtx.lineWidth=.8;ambientCtx.beginPath();ambientCtx.ellipse(p.x,p.y,3+2*Math.sin(t*.3+i),.6,0,0,Math.PI*2);ambientCtx.stroke();}
+ if(needsAmbientFallbackGlints(renderer.stats?.renderer))for(let i=0;i<120;i++){const x=Math.sin(i*42.31)*125,z=Math.cos(i*19.27)*130;if(renderer.height(x,z)>-.3)continue;const p=renderer.project([x,-.15,z]);if(!p)continue;const alpha=(.08+.08*Math.sin(t*.65+i))*.6;ambientCtx.strokeStyle=`rgba(220,230,212,${alpha})`;ambientCtx.lineWidth=.8;ambientCtx.beginPath();ambientCtx.ellipse(p.x,p.y,3+2*Math.sin(t*.3+i),.6,0,0,Math.PI*2);ambientCtx.stroke();}
  if(demo>0)for(const id of weather.affectedZoneIds){const bounds=zoneBounds[id];if(!bounds)continue;const [x1,y1,x2,y2]=bounds;const ps=[[x1,y1],[x2,y1],[x2,y2],[x1,y2]].map(([x,y])=>renderer.project([(x-50)*2,9,(50-y)*2]));if(ps.some(p=>!p))continue;ambientCtx.save();ambientCtx.beginPath();ps.forEach((p,i)=>i?ambientCtx.lineTo(p.x,p.y):ambientCtx.moveTo(p.x,p.y));ambientCtx.closePath();ambientCtx.clip();ambientCtx.strokeStyle='rgba(205,222,222,.24)';ambientCtx.lineWidth=.65;for(let i=0;i<110;i++){const x=((i*127.3+t*12)%w+w)%w,y=((i*79.4+t*140)%h+h)%h;ambientCtx.beginPath();ambientCtx.moveTo(x,y);ambientCtx.lineTo(x-3,y+9);ambientCtx.stroke();}ambientCtx.restore();}
 }
 
