@@ -194,6 +194,21 @@ export function createWorldRenderer(canvas,bindings,{onContextLost=()=>{}}={}){
  return {render,project,pick,height,stats:{vertices:terrain.count,locations:bindings.length,renderer:'native-webgl',geometry:'PROCEDURAL_MASSING_NOT_APPROVED_ART'},loseContext(){gl.getExtension('WEBGL_lose_context')?.loseContext();},dispose(){disposed=true;canvas.removeEventListener('webglcontextlost',contextLost);gl.deleteBuffer(terrain.buffer);gl.deleteBuffer(ocean.buffer);gl.deleteTexture(shadowTex);gl.deleteRenderbuffer(depth);gl.deleteFramebuffer(fb);gl.deleteProgram(P);gl.deleteProgram(S);}};
 }
 
+/** Conservative terrain-only visibility of an existing fallback sheen segment.
+ * Sample the drifted surface and three sightlines, not a new shoreline or depth buffer.
+ * A bounded sample budget keeps this optical-only test suitable for Canvas. */
+export function canvasSheenVisible(a,b,eye,height){
+ const samples=[a,a.map((v,i)=>(v+b[i])*.5),b];
+ for(const point of samples){
+  if(height(point[0],point[2])>=point[1])return false;
+  const steps=clamp(Math.ceil(Math.hypot(eye[0]-point[0],eye[2]-point[2])/3),2,96);
+  for(let i=1;i<steps;i++){
+   const f=i/steps,x=mix(point[0],eye[0],f),y=mix(point[1],eye[1],f),z=mix(point[2],eye[2],f);
+   if(height(x,z)>y+.05)return false;
+  }
+ }
+ return true;
+}
 /** Canvas fallback uses the same source-bound 3D geometry/camera, with painter ordering.
  * It is a deliberately lower-detail renderer, not a substitute canon or a blank screen. */
 function createSoftwareRenderer(canvas,bindings,{onContextLost}){
@@ -239,7 +254,7 @@ function createSoftwareRenderer(canvas,bindings,{onContextLost}){
   // Restrained water sheen: illustrative non-weather surface lighting.
   // Existing Canvas sheen lines follow both displaced water vertices (not a fixed screen-space height).
    ctx.strokeStyle=`rgba(216,219,190,${.08*strength})`;ctx.lineWidth=.6;
-   for(let i=0;i<110;i++){const bankX=(hash(i,7)*250)-125,z=hash(i,11)*170+35;if(height(bankX,z)>-.3)continue;const x=bankX+waterSheenDrift(i,waterFrame);const endX=x+1+hash(i,1)*2;const a=project([x,-.4+canvasWaterDisplacement(x,z,waterFrame),z]),b=project([endX,-.4+canvasWaterDisplacement(endX,z,waterFrame),z]);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
+   for(let i=0;i<110;i++){const bankX=(hash(i,7)*250)-125,z=hash(i,11)*170+35;if(height(bankX,z)>-.3)continue;const x=bankX+waterSheenDrift(i,waterFrame);const endX=x+1+hash(i,1)*2;const start=[x,-.4+canvasWaterDisplacement(x,z,waterFrame),z],end=[endX,-.4+canvasWaterDisplacement(endX,z,waterFrame),z];if(!canvasSheenVisible(start,end,eye,height))continue;const a=project(start),b=project(end);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
  }
  function pick(x,y){let best=null,dist=30;for(const p of bindings){const q=project(p.renderAnchor);if(!q||q.depth>1)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<dist){dist=d;best=p;}}return best;}
  return {render,project,pick,height,stats:{triangles:triangles.length,waterTriangles:waterTriangles.length,locations:bindings.length,renderer:'canvas2d-spatial-fallback',geometry:'PROCEDURAL_MASSING_NOT_APPROVED_ART'},loseContext(){onContextLost();},dispose(){disposed=true;}};

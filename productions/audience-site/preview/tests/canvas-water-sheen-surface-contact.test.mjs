@@ -1,26 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {canvasWaterDisplacement,nextWaterPhase,waterSheenDrift} from '../renderer.mjs';
+import {canvasSheenVisible,canvasWaterDisplacement,nextWaterPhase,waterSheenDrift} from '../renderer.mjs';
 
 const source=readFileSync(new URL('../renderer.mjs',import.meta.url),'utf8');
 const sheenLine=source.split('\n').find(line=>line.includes('for(let i=0;i<110;i++){'));
 assert.ok(sheenLine,'Use the actual existing Canvas sheen loop, not a duplicate implementation');
-const drawSheen=new Function('hash','height','waterSheenDrift','canvasWaterDisplacement','waterFrame','project','ctx',sheenLine);
+const drawSheen=new Function('hash','height','waterSheenDrift','canvasWaterDisplacement','waterFrame','project','ctx','canvasSheenVisible','eye',sheenLine);
 const hash=(x,y)=>{const value=Math.sin(x*127.1+y*311.7)*43758.5453;return value-Math.floor(value);};
 
 function capture(phase,groundHeight=()=>-1){
  const points=[],strokes=[];
  const ctx={beginPath(){},moveTo(){},lineTo(){},stroke(){strokes.push(1);}};
  drawSheen(hash,groundHeight,waterSheenDrift,canvasWaterDisplacement,phase,
-  p=>{points.push([...p]);return {x:p[0],y:p[1]};},ctx);
+  p=>{points.push([...p]);return {x:p[0],y:p[1]};},ctx,canvasSheenVisible,[0,20,0]);
  return {points,strokes};
 }
 
 test('both ends of all 110 existing fallback glints follow the physically animated water surface',()=>{
  assert.match(sheenLine,/const endX=x\+1\+hash\(i,1\)\*2/);
- assert.match(sheenLine,/project\(\[x,-\.4\+canvasWaterDisplacement\(x,z,waterFrame\),z\]\)/);
- assert.match(sheenLine,/project\(\[endX,-\.4\+canvasWaterDisplacement\(endX,z,waterFrame\),z\]\)/);
+ assert.match(sheenLine,/start=\[x,-\.4\+canvasWaterDisplacement\(x,z,waterFrame\),z\]/);
+ assert.match(sheenLine,/end=\[endX,-\.4\+canvasWaterDisplacement\(endX,z,waterFrame\),z\]/);
  assert.doesNotMatch(sheenLine,/project\(\[x,-\.3,z\]\)/);
  for(const t of [.125,.625,2.375]){
   const {points,strokes}=capture(t);
@@ -60,4 +60,25 @@ test('global calm retains ordinary shimmer travel, but explicit pause fixes the 
  assert.match(source,/gl\.uniform1f\(loc\.uStorm,storm\)/);
  assert.match(source,/for\(let i=0;i<110;i\+\+\)/);
  assert.doesNotMatch(source,/fetch\(|writeWorldState|publishObserver|createPrincipalCharacter/);
+});
+
+test('drifted endpoints and segment midpoint must all remain above existing terrain',()=>{
+ const a=[0,-.4,0],b=[2,-.4,0],eye=[1,10,-30];
+ assert.equal(canvasSheenVisible(a,b,eye,()=>-1),true);
+ for(const sample of [0,1,2]){
+  assert.equal(canvasSheenVisible(a,b,eye,(x,z)=>Math.abs(x-sample)<.1&&Math.abs(z)<.1?0:-1),false);
+ }
+});
+test('intervening terrain hides sheen; a low bank or unobstructed elevated view does not',()=>{
+ const a=[0,-.4,0],b=[2,-.4,0],eye=[1,10,-30];
+ const ridge=(x,z)=>z<-12&&z>-18?8:-1;
+ assert.equal(canvasSheenVisible(a,b,eye,ridge),false);
+ assert.equal(canvasSheenVisible(a,b,[1,40,-30],ridge),true);
+ assert.equal(canvasSheenVisible(a,b,eye,(x,z)=>z<-12&&z>-18?1:-1),true);
+});
+test('terrain visibility sampling remains bounded on a very distant camera',()=>{
+ let calls=0;
+ assert.equal(canvasSheenVisible([0,-.4,0],[2,-.4,0],[1,100,-10000],()=>{calls++;return -1;}),true);
+ assert.ok(calls<=288&&calls>0);
+ assert.match(sheenLine,/if\(!canvasSheenVisible\(start,end,eye,height\)\)continue/);
 });
