@@ -53,3 +53,5 @@ The twelve production discipline names below refer to published-method reference
 - The final product is **one native 1080 × 1920 PNG per published folio**, independently inspected at native and 390px phone scale, not this landscape storyboard sheet.
 - Reproducible generator: python3 memo-os/week-11/preproduction/visual-previs/render_storyboards.py (requires system rsvg-convert; uses existing tracked native board study PNGs and local fonts, distributes no font files).
 - Current sports results, source/atlas release gates, and final page count are not determined by storyboard imagery.
+
+**Import target:** [Week 11 six-image idempotent tldraw gallery import manifest](../W11_TLDRAW_SIX_STORYBOARD_IMPORT_PLAN_2026-11-23.json) — verified source PNG bytes, exact persistent shape IDs and page ID, but **not live-import verified**. [Librarian VisualLibraryStaff specialty, Bullpen draft PR #176](https://github.com/jakekaloper-hub/bullpen/pull/176) contains the reusable skill and read-only preflight. The connected editor must actually acknowledge image/asset IDs and a readback before this becomes SAVED.
