@@ -42,3 +42,5 @@ jobs:
         run: python3 -m unittest discover -s memo-os/week-11 -p 'test_validate_*.py' -v
       - name: Check Week 11 routes and matchup cast, venue and folio assignments
         run: python3 memo-os/week-11/validate_atlas_routes.py
+      - name: Verify current Week 11 folio links and refreshed artist instructions
+        run: python3 memo-os/week-11/preproduction/validate_folio_handoff.py
