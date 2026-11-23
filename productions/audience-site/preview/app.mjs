@@ -1,7 +1,7 @@
 /* Mount the source foundation into a private, offline observer preview. */
 const {createObserver,transitionObserver}=ObserverWorld;
 const {observerClock,resolveObserverWeather}=ObserverWeather;
-const {spatialBindings,defaultCamera,cameraStep,modeCamera,locationCamera,regionOverviewCamera,illustrativeLight,previewMetadata}=Spatial;
+const {spatialBindings,defaultCamera,cameraStep,modeCamera,locationCamera,regionOverviewCamera,easeObserverCamera,illustrativeLight,previewMetadata}=Spatial;
 const createWorldRenderer=(canvas,bindings,options)=>{
  if(THREE){try{return ThreeWorldRenderer.createThreeWorldRenderer(THREE,canvas,bindings,{...options,buildWorldGeometry:WorldRenderer.buildWorldGeometry,buildRegionalAssets:RegionalAssets.buildRegionalAssets,buildAtlasSiteAssets:AtlasSites.buildAtlasSiteAssets,atlasSiteIds:AtlasSites.supportedAtlasSiteIds()});}catch(e){if(e.message!=='WEBGL2_UNAVAILABLE')throw e;}}
  return WorldRenderer.createWorldRenderer(canvas,bindings,options);
@@ -230,7 +230,7 @@ function drawAmbient(t){
 
 function draw(t){frameId=requestAnimationFrame(draw);if(!renderer)return;if(memorySession||historySession){lastTime=t;return;}const dt=Math.min(.05,(t-lastTime)/1000||.016);lastTime=t;if(!paused&&!document.hidden)animationTime+=dt;
  if(state.phase==='REVEALING'){const elapsed=(t-revealStart)/2200,f=clamp01(elapsed),s=f*f*(3-2*f);camera={...target,distance:280-(280-target.distance)*s,pitch:1.18-(1.18-target.pitch)*s,yaw:-.11+(.11+target.yaw)*s,target:[...target.target]};if(f===1){dispatch({type:'reveal_finished'});finishReveal();}}
- else if(state.phase==='EXPLORING'&&!paused){const f=1-Math.exp(-dt*6);for(const k of ['distance','pitch','yaw'])camera[k]+=(target[k]-camera[k])*f;camera.target=camera.target.map((v,i)=>v+(target.target[i]-v)*f);}
+ else if(state.phase==='EXPLORING'&&!paused){camera=easeObserverCamera(camera,target,dt);}
  const clock=observerClock(new Date().toISOString()),light=illustrativeLight(clock.hour+clock.minute/60);renderer.render(camera,animationTime,{strength:light.strength,storm:demo||0,paused});drawAmbient(animationTime);
  if(state.phase==='EXPLORING'&&t-revealStart>11000)$('#hint').style.opacity='0';
 }
