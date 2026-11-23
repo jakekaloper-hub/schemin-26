@@ -16,20 +16,23 @@ import {pathToFileURL} from 'node:url';
 const captureOption=process.argv.indexOf('--capture-dir');
 const temporalOption=process.argv.indexOf('--temporal-dir');
 const wetlandsOption=process.argv.indexOf('--wetlands-temporal-dir');
+const closeupOption=process.argv.indexOf('--wetlands-closeup-dir');
 const atlasOption=process.argv.indexOf('--atlas-views-dir');
-const options=[captureOption,temporalOption,wetlandsOption,atlasOption].filter(index=>index>=0);
+const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption].filter(index=>index>=0);
 assert.ok((options.length===0&&process.argv.length===3)
  ||(options.length===1&&options[0]===3&&process.argv.length===5),
- 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir or --atlas-views-dir /new/private/evidence/directory');
+ 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir /new/private/evidence/directory');
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
 const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 const wetlandsDir=wetlandsOption<0?null:resolve(process.argv[4]);
+const closeupDir=closeupOption<0?null:resolve(process.argv[4]);
 const atlasDir=atlasOption<0?null:resolve(process.argv[4]);
 if(captureDir)assert.ok(!existsSync(captureDir),'CAPTURE_DIRECTORY_EXISTS: refusal to overwrite evidence');
 if(temporalDir)assert.ok(!existsSync(temporalDir),'TEMPORAL_DIRECTORY_EXISTS: refusal to overwrite evidence');
 if(wetlandsDir)assert.ok(!existsSync(wetlandsDir),'WETLANDS_DIRECTORY_EXISTS: refusal to overwrite evidence');
+if(closeupDir)assert.ok(!existsSync(closeupDir),'CLOSEUP_DIRECTORY_EXISTS: refusal to overwrite evidence');
 if(atlasDir)assert.ok(!existsSync(atlasDir),'ATLAS_DIRECTORY_EXISTS: refusal to overwrite evidence');
-const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[],atlasCaptures=[];
+const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[],wetlandCloseupCaptures=[],closeupCameras=[],atlasCaptures=[];
 let atlasPlan=null;
 const observer=resolve(process.argv[2]||'');
 assert.ok(process.argv[2]&&existsSync(observer),'Usage: node webgl2-journey-smoke.mjs /path/to/observer.html');
@@ -234,6 +237,48 @@ async function main(){
   }
   verifyWetlandsTemporalSequences(wetlandTemporalCaptures);
  }
+ if(closeupDir){
+  // Opt-in closer evidence uses the spectator's real WheelEvent handler via Chrome
+  // CDP, not internal camera mutation. This is NOT isolated water-pixel attribution.
+  for(const {placeId,title,slug} of WETLAND_TEMPORAL_SITES){
+   await click('#placesToggle');
+   await click('[data-place="'+placeId+'"]');
+   assert.equal(await evaluate('document.querySelector("#placeName").textContent'),title);
+   await delay(3200);
+   const before=await evaluate('__observerDebug.camera()');
+   assert.ok(Number.isFinite(before.distance)&&before.distance>0,'Invalid source closeup camera');
+   const wheelDelta=-Math.min(440,Math.max(190,before.distance*4));
+   await cdp('Input.dispatchMouseEvent',{type:'mouseWheel',x:500,y:405,deltaX:0,deltaY:wheelDelta});
+   await delay(2800);
+   const close=await evaluate('__observerDebug.camera()');
+   assert.ok(close.distance<before.distance*.9&&close.distance>=5,
+    'Real spectator camera did not approach candidate '+placeId);
+   for(let j=0;j<3;j++)assert.ok(Math.abs(close.target[j]-before.target[j])<.02,
+    'Closeup wheel moved source location anchor '+placeId);
+   assert.ok(Math.abs(close.yaw-before.yaw)<.02&&Math.abs(close.pitch-before.pitch)<.02,
+    'Closeup wheel altered camera orientation');
+   const t0=(await snapshot()).stats.waterTime;
+   await captureTemporalFrame(slug+'-close-01-moving.png',t0,'MOVING',placeId,wetlandCloseupCaptures);
+   await delay(1050);
+   const t1=(await snapshot()).stats.waterTime;
+   assert.ok(t1>t0+.2,'Ordinary water did not advance in closeup '+placeId);
+   await captureTemporalFrame(slug+'-close-02-moving.png',t1,'MOVING',placeId,wetlandCloseupCaptures);
+   await click('#motionToggle');
+   const held=(await snapshot()).stats.waterTime;
+   await delay(650);
+   assert.equal((await snapshot()).stats.waterTime,held,'Water advanced after closeup pause');
+   await captureTemporalFrame(slug+'-close-03-paused-a.png',held,'PAUSED',placeId,wetlandCloseupCaptures);
+   await delay(750);
+   assert.equal((await snapshot()).stats.waterTime,held,'Water advanced between paused closeup frames');
+   await captureTemporalFrame(slug+'-close-04-paused-b.png',held,'PAUSED',placeId,wetlandCloseupCaptures);
+   verifyTemporalSceneSequence(wetlandCloseupCaptures.slice(-4));
+   assertHistoricalViewRestored(close,await evaluate('__observerDebug.camera()'));
+   closeupCameras.push({placeId,sourceCamera:before,observedCloseupCamera:close,wheelDelta});
+   await click('#motionToggle');
+   await click('#inspectorWorld');
+  }
+  verifyWetlandsTemporalSequences(wetlandCloseupCaptures);
+ }
  await click('#motionToggle');
  const stopped=await snapshot();await delay(600);
  assert.equal((await snapshot()).stats.waterTime,stopped.stats.waterTime,'Explicit pause did not freeze water');
@@ -282,6 +327,26 @@ async function main(){
     ({file,placeId,waterTime,motionState,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
   },null,2)+'\n',{flag:'wx'});
  }
+ if(closeupDir){
+  const sites=verifyWetlandsTemporalSequences(wetlandCloseupCaptures);
+  assert.equal(closeupCameras.length,WETLAND_TEMPORAL_SITES.length,'Missing closeup camera proof');
+  assert.equal((await snapshot()).sourceUnchanged,true,'Source changed before closeup evidence emission');
+  mkdirSync(closeupDir,{recursive:true});
+  for(const shot of wetlandCloseupCaptures)writeFileSync(join(closeupDir,shot.file),shot.bytes,{flag:'wx'});
+  writeFileSync(join(closeupDir,'manifest.json'),JSON.stringify({
+   status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
+   evidenceType:'PHYSICAL_GPU_THREE_SITE_CLOSE_PERSPECTIVE_MOVING_AND_PAUSED_WHOLE_SCENE_FRAMES_NOT_ISOLATED_WATER_PIXEL_PROOF',
+   syntheticScenario:'verified El Nino loss to GLOBAL_CALM',weatherStatus:calm.status,
+   renderer:first.stats.renderer,gpu:first.gpu,
+   sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
+   originalHistoryJourneyPassed:true,allCurrentPlacesVisible:first.places===23,
+   cameraApproachVia:'Chrome CDP mouseWheel on spectator canvas event handler',
+   cameraViewHeld:true,ordinaryWaterAdvanced:true,pausedSceneHashesEqual:true,sourceUnchanged:true,
+   sites,closeupCameras,
+   captures:wetlandCloseupCaptures.map(({file,placeId,waterTime,motionState,frames,bytes,width,height})=>
+    ({file,placeId,waterTime,motionState,frames,bytes:bytes.length,width,height,sha256:createHash('sha256').update(bytes).digest('hex')}))
+  },null,2)+'\n',{flag:'wx'});
+ }
  if(atlasDir){
   // Emit nothing unless all 23 physical-GPU frames and source IDs validate.
   const coverage=verifyAtlasCandidateCaptures(atlasPlan,atlasCaptures);
@@ -322,7 +387,7 @@ async function main(){
   jacksonHistory:await evaluate('__observerHistoryDebug.entries("LOC-COUNTRY-CLUB-JACKSON").length'),
   weather:calm.status,ordinaryWaterAdvanced:true,historicalPause:true,explicitPause:true,sourceUnchanged:true,
   browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
-  candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file),wetlandsTemporalCaptures:wetlandTemporalCaptures.map(c=>c.file),atlasViewCaptures:atlasCaptures.map(c=>c.file)
+  candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file),wetlandsTemporalCaptures:wetlandTemporalCaptures.map(c=>c.file),wetlandsCloseupCaptures:wetlandCloseupCaptures.map(c=>c.file),atlasViewCaptures:atlasCaptures.map(c=>c.file)
  }));
 }
 try{await main();}

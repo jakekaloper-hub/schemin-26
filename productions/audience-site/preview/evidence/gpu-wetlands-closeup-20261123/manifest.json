@@ -1,0 +1,242 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "PHYSICAL_GPU_THREE_SITE_CLOSE_PERSPECTIVE_MOVING_AND_PAUSED_WHOLE_SCENE_FRAMES_NOT_ISOLATED_WATER_PIXEL_PROOF",
+  "syntheticScenario": "verified El Nino loss to GLOBAL_CALM",
+  "weatherStatus": "GLOBAL_CALM",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "sourceRevision": "fb7a0091af71912e616fffb840c9deb6da1cb3b2",
+  "originalHistoryJourneyPassed": true,
+  "allCurrentPlacesVisible": true,
+  "cameraApproachVia": "Chrome CDP mouseWheel on spectator canvas event handler",
+  "cameraViewHeld": true,
+  "ordinaryWaterAdvanced": true,
+  "pausedSceneHashesEqual": true,
+  "sourceUnchanged": true,
+  "sites": [
+    {
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "movingSceneChanged": true,
+      "pausedSceneHashesEqual": true
+    },
+    {
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "movingSceneChanged": true,
+      "pausedSceneHashesEqual": true
+    },
+    {
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "movingSceneChanged": true,
+      "pausedSceneHashesEqual": true
+    }
+  ],
+  "closeupCameras": [
+    {
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "sourceCamera": {
+        "target": [
+          13.999999955068407,
+          4.998234025087479,
+          51.999999833111225
+        ],
+        "distance": 60.84177141791237,
+        "yaw": 0.11999999887671016,
+        "pitch": 0.650000000417222
+      },
+      "observedCloseupCamera": {
+        "target": [
+          13.999999999999991,
+          4.998234041128806,
+          51.999999999999964
+        ],
+        "distance": 43.80607584657335,
+        "yaw": 0.11999999999999993,
+        "pitch": 0.6500000000000006
+      },
+      "wheelDelta": -243.36708567164948
+    },
+    {
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "sourceCamera": {
+        "target": [
+          -35.99999977050326,
+          8.374296872472026,
+          42.00000004589935
+        ],
+        "distance": 51.800262747398875,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "observedCloseupCamera": {
+        "target": [
+          -35.999999999999964,
+          8.374296887967926,
+          42.000000000000036
+        ],
+        "distance": 37.29618996163954,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "wheelDelta": -207.2010509895955
+    },
+    {
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "sourceCamera": {
+        "target": [
+          -16.000000091798697,
+          6.652919851346183,
+          67.99999988066169
+        ],
+        "distance": 53.306105287235,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "observedCloseupCamera": {
+        "target": [
+          -16.000000000000018,
+          6.652919843445178,
+          67.99999999999993
+        ],
+        "distance": 38.38039620502728,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "wheelDelta": -213.22442114894
+    }
+  ],
+  "captures": [
+    {
+      "file": "jackson-close-01-moving.png",
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "waterTime": 8.729899999809296,
+      "motionState": "MOVING",
+      "frames": 527,
+      "bytes": 673514,
+      "width": 1440,
+      "height": 813,
+      "sha256": "1dd34c3ebb038411c3e33106447cdfc812609d491d48817eb87eb4d3020c1845"
+    },
+    {
+      "file": "jackson-close-02-moving.png",
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "waterTime": 9.979799999809275,
+      "motionState": "MOVING",
+      "frames": 602,
+      "bytes": 673281,
+      "width": 1440,
+      "height": 813,
+      "sha256": "f116138e6508ff70ad25c5b8beefd7fa7929476eca6fb59b3dee6888ee6abe4a"
+    },
+    {
+      "file": "jackson-close-03-paused-a.png",
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "waterTime": 10.179799999809271,
+      "motionState": "PAUSED",
+      "frames": 615,
+      "bytes": 668814,
+      "width": 1440,
+      "height": 813,
+      "sha256": "c875208fb99b605f2196c565bd804c2780b13837a3c5597194ef7314e2968f5a"
+    },
+    {
+      "file": "jackson-close-04-paused-b.png",
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "waterTime": 10.179799999809271,
+      "motionState": "PAUSED",
+      "frames": 615,
+      "bytes": 668814,
+      "width": 1440,
+      "height": 813,
+      "sha256": "c875208fb99b605f2196c565bd804c2780b13837a3c5597194ef7314e2968f5a"
+    },
+    {
+      "file": "temple-close-01-moving.png",
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "waterTime": 16.212899999809185,
+      "motionState": "MOVING",
+      "frames": 977,
+      "bytes": 718092,
+      "width": 1440,
+      "height": 813,
+      "sha256": "9cfbd9023b6dd20dce57ea52a972ac5fd3ce40d99234e1165b8e07d868945d38"
+    },
+    {
+      "file": "temple-close-02-moving.png",
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "waterTime": 17.479499999809182,
+      "motionState": "MOVING",
+      "frames": 1053,
+      "bytes": 718441,
+      "width": 1440,
+      "height": 813,
+      "sha256": "024e57f756e746ef18d1deb539f62f4b78ea7b4660461695ab7b1684f8c6ac99"
+    },
+    {
+      "file": "temple-close-03-paused-a.png",
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "waterTime": 17.679499999809174,
+      "motionState": "PAUSED",
+      "frames": 1066,
+      "bytes": 718233,
+      "width": 1440,
+      "height": 813,
+      "sha256": "a313be51c016c935d425e93cf3a52aace37079a03dd9be331d9d030cd72019f0"
+    },
+    {
+      "file": "temple-close-04-paused-b.png",
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "waterTime": 17.679499999809174,
+      "motionState": "PAUSED",
+      "frames": 1066,
+      "bytes": 718233,
+      "width": 1440,
+      "height": 813,
+      "sha256": "a313be51c016c935d425e93cf3a52aace37079a03dd9be331d9d030cd72019f0"
+    },
+    {
+      "file": "mud-dogs-close-01-moving.png",
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "waterTime": 23.712599999809058,
+      "motionState": "MOVING",
+      "frames": 1428,
+      "bytes": 795507,
+      "width": 1440,
+      "height": 813,
+      "sha256": "cdefd1bb7346c7c8ba17a6a6dfbb95babbbeb80beaa23ce91eaef12e5904f8c0"
+    },
+    {
+      "file": "mud-dogs-close-02-moving.png",
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "waterTime": 24.979199999809016,
+      "motionState": "MOVING",
+      "frames": 1504,
+      "bytes": 794791,
+      "width": 1440,
+      "height": 813,
+      "sha256": "1c0933471d61f9e7849e98103fbf4801513a9e895a8c4d918bc1721353e93ed5"
+    },
+    {
+      "file": "mud-dogs-close-03-paused-a.png",
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "waterTime": 25.212499999809005,
+      "motionState": "PAUSED",
+      "frames": 1519,
+      "bytes": 795630,
+      "width": 1440,
+      "height": 813,
+      "sha256": "4cd6bb46ed5383a97b34003311b933138824c8d9a912e46ef3751591796599cd"
+    },
+    {
+      "file": "mud-dogs-close-04-paused-b.png",
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "waterTime": 25.212499999809005,
+      "motionState": "PAUSED",
+      "frames": 1519,
+      "bytes": 795630,
+      "width": 1440,
+      "height": 813,
+      "sha256": "4cd6bb46ed5383a97b34003311b933138824c8d9a912e46ef3751591796599cd"
+    }
+  ]
+}
