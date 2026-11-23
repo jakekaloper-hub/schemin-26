@@ -1,5 +1,7 @@
 # Inklings desk · What the Commonwealth remembers
 
+**November 23 scope notice.** The six-matchup Inklings summit supersedes only the stated G02/G05 developments and reviews the remaining four for personalization without adding pages. The original dated questions remain useful where not contradicted; read [the current working book](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md) and [F01–F35 rehearsal](OPEN_BOARD_PAGE_REHEARSAL.md) for operative actions. No independent literary-artist or sports release signoff is implied.
+
 The following are twelve answered editorial questions from an AI writing desk. The character exchanges are proposed original fiction. The board can adopt the editorial decisions for development now. Release and permanent world changes have separate owners.
 
 | # | Question | Answer and production decision |
@@ -25,7 +27,7 @@ The following are twelve answered editorial questions from an AI writing desk. T
 | Hearthroad | Jordan knows what he promised. The taproom operator hears what Jordan actually says on the radio. | Put the Novel camera with Jordan. The operator can answer over the radio and record an arrival. Correct the issue draft’s alternative operator viewpoint at handoff under the current Twelve rule. The weather can enter Jordan’s scene without a Manning monologue. |
 | Eastern Ascent | Both owners read OFF BOARD. Brandon sees Jake at the ladder. | Only Jake’s principal viewpoint can supply his private underwater thought. The House can answer for its published decision. |
 | Falls boundary | Phillip can see Kevin open the dry bag only in the selected Red win and published portrait branch. | A spectator at the perimeter can report the visible finish. The source licenses no view into the private courtyard. |
-| Gators & Dawgs | Ben experiences the soft footing Bobby indicates. | Ben can use what he learned on his next visit. The postcard by itself establishes neither travel nor elimination. |
+| Gators & Dawgs | Ben initially trusts Bobby's knowingly false directions and later notices repeated ruts/sign geometry. | Ben may remember Bobby's deception at the next encounter only if the chosen Week 11 scene is released. The Cancún postcard establishes no actual Losers Beach trip; the route implies no real Playoff Island access or mathematical elimination. |
 | Jackson | Babb and Duckhook witness the private decision. The groundskeeper sees the key return and leaves. | A camera shows the unchanged brass key, unsigned course offer and effective officer notice. Only the coffee coda varies. Readers can distinguish the two outcomes with the scoreboard covered. |
 
 ### Three passages from the Week 6 manuscript
