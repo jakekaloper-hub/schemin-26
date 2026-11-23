@@ -55,3 +55,7 @@ The twelve production discipline names below refer to published-method reference
 - Current sports results, source/atlas release gates, and final page count are not determined by storyboard imagery.
 
 **Import target:** [Week 11 six-image idempotent tldraw gallery import manifest](../W11_TLDRAW_SIX_STORYBOARD_IMPORT_PLAN_2026-11-23.json) — verified source PNG bytes, exact persistent shape IDs and page ID, but **not live-import verified**. [Librarian VisualLibraryStaff specialty, Bullpen draft PR #176](https://github.com/jakekaloper-hub/bullpen/pull/176) contains the reusable skill and read-only preflight. The connected editor must actually acknowledge image/asset IDs and a readback before this becomes SAVED.
+
+### Native editable portrait blocking · November 23 closeout
+
+[35-folio framing preview](W11_35_PORTRAIT_BLOCKING_PREVIEW.png) · [editable geometry](W11_EDITABLE_PORTRAIT_BLOCKING.json) · [live editor patch](apply_w11_tldraw_visuals.js) · [six mock-editor regression tests](test_apply_w11_tldraw_visuals.js). The portrait sketches use the existing shot/production-lead register and deliberately leave game outcomes unset. They are not final memo art. The patch is restricted to the existing Week 11 page and existing 70 source/review cards; it requires a fresh editor inspection before any change. All six original storyboard PNGs were fetched from immutable source URLs and verified byte-for-byte. No actual live tldraw import or placement has been confirmed during this pass. Do not replay unknown edits without inspecting IDs.

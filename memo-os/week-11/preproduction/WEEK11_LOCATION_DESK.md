@@ -332,3 +332,5 @@ F32 can carry these six fixtures. The separate F33 auditions and F35 approach re
 - [TDS–Chili Shared March](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-site-tds-chili-shared-march) · `LOC-TDS-CHILI-SHARED-MARCH`
 - [Compact Neutral Grounds](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-site-compact-neutral-grounds) · `LOC-COMPACT-NEUTRAL-GROUNDS`
 - [League Archive](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-site-league-archive) · `LOC-LEAGUE-ARCHIVE`
+
+**November 23 closeout:** F19 and F20 current JSON titles and operative acceptance instructions now match the current rehearsal (intentional misdirection and temporary high flood). Historical comparison pack filenames, original Week 10 source records, source hashes, archived capture links and Atlas location IDs remain unchanged. Archived studies are not newly approved final art.
