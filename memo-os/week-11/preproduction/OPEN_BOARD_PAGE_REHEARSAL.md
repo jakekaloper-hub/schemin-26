@@ -215,6 +215,8 @@ Connect two separate places by sound and movement. The route is a cut between sc
 
 - **Bridge weather test:** a modest upper-valley gust shifts the carter's cover and Austin's cloak around the same old lantern, keeping Wilson's four hooves on damp stone. The weather raises stakes of an ordinary public crossing; Wilson and Austin still choose their confrontation, not El Niño as an invisible third fighter.
 
+- **Founder November 23 bridge-weather cue — pre-fall.** The stronger *local* squall drives leaves past the carter's stationary wheel. His wagon covering whips in the wind. The lake on both sides has sharp white-edged chop; the stone stays intact and publicly usable. Preserve Wilson's calculated courtesy and Austin's belt; the weather is exposure, not the cause of either owner's social choice.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f09) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-09) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-09) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f09)
 
 <a id="folio-10"></a>
@@ -234,6 +236,8 @@ Austin gives the carter the right of way in words. Show what Wilson hears in the
 
 - **Inklings summit Nov 23 — proposed personalization.** **Inklings personal turn.** Austin's hand moves instinctively toward his retained championship belt before he notices the waiting worker. His answer about the carter makes him choose civic duty over reflexive status, without giving up the belt or bridge. Wilson must visibly recognize he has been outmaneuvered by an ordinary person's need to cross. Same midspan lantern and carter-side reverse.
 
+- **Founder November 23 bridge-weather setup — traction.** A close detail shows rainwater glazing old midspan stones; Wilson's four hooves briefly adjust on the slick surface before the showdown while Austin braces into the wind and makes his original carter-right-of-way response. Stage an observable direction for the gust (cloak, leaves, carter cover all agree), with the same lantern and parapet across camera reverses. No official winner/fall before ESPN decision.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f10) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-10) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-10) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f10)
 
 <a id="folio-11"></a>
@@ -252,6 +256,8 @@ One final score selects the cap or the cough. In a tie or pending cut, both rema
 - **Turn.** He was here before us → **The carter listens** → Six. I told her six..
 
 - **Inklings summit Nov 23 — proposed personalization.** **Character payoff, after result.** Withhold the victory pose. The winner, whether Austin or Wilson, discovers the fall could have cost the other's life; the carter notices a quiet wait or question before either leaves. Make the separated deck figure and returning swimmer legible. Austin retains his belt in all endings; the jester cap exists only in the authorized Austin-win branch.
+
+- **Founder November 23 conditional HMB-win image.** ONLY if ESPN officially confirms **His Majesty's Blood defeating D0nkey K0ng**: Austin lands the final strike, Wilson's four hooves **lose purchase on rain-slick stone**, he slides over the intact bridge edge and lands in **storm-agitated Mountain Lake**. Show windblown leaves, straining cart covering, Austin's cloak, foaming whitecaps and spray **rather than invented directional river rapids**; a literal fast outflow/current requires separate Atlas hydrology confirmation. Austin and the carter wait anxiously until Wilson resurfaces ALIVE and reaches a plausible bank; only then can Austin use the existing quiet jester-cap beat. If **D0nkey K0ng wins**, preserve Austin-over-water alternate and his retained belt; tie/pending holds both midspan. At 390px the physical cause (blow + sliding hooves), same real lake and living survivor must read.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f11) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-11) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-11) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f11)
 
