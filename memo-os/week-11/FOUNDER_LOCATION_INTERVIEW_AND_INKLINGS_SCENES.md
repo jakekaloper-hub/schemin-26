@@ -87,7 +87,17 @@ The new repairs, errands, key and background performers are proposed set dressin
 | Production, visual continuity | How can the audience see Jake’s face inside a tank of opaque chili? | Establish the target beside the seat. Cut on one clean hit. See Jake fully submerged through the viewing window. When he surfaces, move the camera just inside the rim, level with his eyes. Chili clings to his hair and clothes. |
 | Sports Desk | Whose judgment is it that the season is over? | In the loss ending it is Jake’s. His quiet line can carry the whole final frame. An official elimination caption requires the other results and tiebreakers to close his remaining paths. |
 
-**The pitch.** The porter clears the turn. Jake climbs onto the seat while the operator is still setting the last ball on the counter. From up here he can see everybody who laughed at Brandon when he lost his hat at the rodeo. Brandon, wearing that same hat, turns the ball once in his hand. A red Wolf Brand Chili can stands on the tank ledge. The blue No Beans band follows the earlier prop selection.
+**Before the throw · Pittsy’s Book.** At the foot of the Eastern Ascent, Brandon Pryor stops at the carnival counter. A copy of Pittsy’s November 19 sheet is pinned beside the microphone. He finds **The Chili Cheesers vs. ObiWan Jacoby** and runs a finger across to **OFF BOARD**. He tips the page toward Jake Kaloper. Two people behind them are already arguing over one of the three games that got a line.
+
+**Brandon** — “I wanted to see which of us Pittsy made the underdog. We could’ve argued about that number the whole walk up here.”
+
+**Jake** — “Listen to those two. That could’ve been our game.” They walk past without looking up. Jake reaches for the carnival mic. “They’ll stop to see you miss.”
+
+Brandon lets the sheet fall back against the counter and picks up the ball. Jake volunteers for the hinged seat.
+
+[Founder interview, O05](FOUNDER_CREATIVE_INTERVIEW_58_RESPONSES_2026-11-20.md) · [Inklings owner interviews](INKLINGS_OWNER_INTERVIEW_ANSWERS_2026-11-22.md) · [Official November 19 House sheet](https://github.com/jakekaloper-hub/schemin-26/issues/323)
+
+**The pitch.** The porter clears the turn. Jake settles onto the hinged seat. From up here he can see everybody who laughed at Brandon when he lost his hat at the rodeo. Brandon, wearing that same hat, turns the ball once in his hand. A red Wolf Brand Chili can stands on the tank ledge. The blue No Beans band follows the earlier prop selection.
 
 **Jake** *(into the carnival mic)* — “Brandon played D5 quarterback in Texas, folks. Safest place to stand is right behind the target.”
 
@@ -109,7 +119,7 @@ Brandon takes off his hat. He stays beside the tank. Give the last frame to Jake
 
 **Result branches.** Brandon earns the crowd’s laugh with his throw. The matchup result determines what the two men say at the ladder. Hold the last line for a confirmed loss or clearly label it a proposed loss ending. In the win branch, someone calls the score from uphill. Jake waits for them to say it again before he takes the next rung. A tie or pending score can close on the wet microphone and the two men at the ladder. If official standings later eliminate ObiWan, the Sports Desk can state that separately. The November 18 conditional simulation gave ObiWan 12.77% with a Week 11 loss and 52.89% with a win. The schedule proof distinguishes ObiWan from Mud Dogs. [Conditional model](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md) · [Week 11 elimination conditions](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md)
 
-**Production readback.** The native PNG shows the setup, the hit, Jake fully submerged behind the viewing window, and his return to the ladder. All four beats read in the 390 px phone preview. His hand on the ladder lets the audience read his disappointment. Before a final folio, composite the exact can label from the supplied reference and set dialogue from the manuscript. The proof is 941 × 1672. The final folio uses 1080 × 1920. Keep the absent House line in its own editorial beat and the later After Dark interview at the shack. The earlier [hand-poured pot board](sets/Schemin-W11-G03-Wolf-Brand-Chili.png) records the first pitch. This tank sequence is the current story-room recommendation.
+**Production readback.** The native PNG shows the setup, the hit, Jake fully submerged behind the viewing window, and his return to the ladder. All four beats read in the 390 px phone preview. His hand on the ladder lets the audience read his disappointment. Before a final folio, composite the exact can label from the supplied reference and set dialogue from the manuscript. The proof is 941 × 1672. The final folio uses 1080 × 1920. Open with both men reading Pittsy’s sheet and reacting to the missing line. The later After Dark interview at the shack gives Jake room to explain his suspicion about the preseason trade. The earlier [hand-poured pot board](sets/Schemin-W11-G03-Wolf-Brand-Chili.png) records the first pitch. This tank sequence is the current story-room recommendation.
 
 ## Red Leopards and Three Dreaded Snake · The break in the vegetation
 
