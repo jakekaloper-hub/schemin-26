@@ -77,6 +77,23 @@ This is an **Inklings dialogue audition**, not final 40-word typesetting. Conden
 
 **G06 cinematography:** F21 use full-window storm silhouette as a large atmospheric source *behind* the steady desk lamp and guest chair; shoot David from the comfortable buyer's angle. F22 reverse on David with the rain-lit window behind him, his pen slipping or striking the wood, Zach and the physical **second sheet** unbroken in the foreground. Typeset CEO and chairman in one legible insert at **390px**. No generic corporate podium, third protagonist or one-page legal-form/PDF aesthetic.
 
+## Source-adjudicated Inklings-method review · November 23
+
+The connected Mac ran **eight separately prompted local-model reviews** through `ollama/qwen2.5-coder:7b`, each labeled with one of the eight registered literary-method traditions. **8/8 returned, zero invocation errors**, local-only transcript `/tmp/schemin_w11_storm_jackson_inklings_20261123.json`. The actual authors were not contacted or impersonated, and the model is **not** an independent Umpire, fact witness, studio specialist or board director. Outputs were **source-filtered**, because several responses invented corporate decisions, newly appearing investors or real-world actions.
+
+| Published-method lens | Source-supported editorial question retained | Model-origin assertions rejected |
+|---|---|---|
+| J.R.R. Tolkien · place and material continuity | What does the existing wet groundskeeper key tell us about who keeps Jackson operating through the storm? | Zach running outside to secure props, David personally returning the club key, new building history |
+| C. S. Lewis · moral tension | Can Zach resist humiliation without humiliating everybody back, even when Babb loses his temper? | Zach stepping down or David staying CEO, which contradicts the fixed Founder board action |
+| George R.R. Martin · power asymmetry | What changes when David's assumed investor loyalty meets actual board allegiance? | A literal new board meeting on stage, office demolition, unspecified newly verified legal events |
+| J.K. Rowling · setup/payoff | Can the audience remember the poised investor's pen from F21 when it hits dry wood beside the second sheet in F22? | Zach resigning, a third investor appearing, or a duplicate sale/winner |
+| John Grisham · transaction reversal | Do the unsigned property offer and separate effective company notice establish what each party actually controls? | Replacing The LLC decision with an invented “club needs a leader” settlement |
+| Ursula K. Le Guin · focal knowledge | Can we preserve groundskeeper exit and avoid revealing private calls through a background character who couldn't hear them? | Unanimous board vote claimed with no source and instantaneous Babb agreement |
+| Brandon Sanderson · systems/constraints | Does Zach remain CEO and chairman, Babb retain his fantasy team, and Jackson remain unsold through all score branches? | Zach resigns, third-party investigation, extra corporate filings or new board votes |
+| Joe Abercrombie · anger with restraint | Can David's fury feel earned when he discovers his own failed assumption, without smashing the office? | Unanimous purchase approval or new damage contradicting unsigned offer/owner direction |
+
+**Accepted editorial synthesis, not a model-certified consensus:** David's week-10 bravado motivates the purchase visit; Zach's quiet board conversations are discovered through a second document; an intact office under intense exterior rain becomes the pressure chamber; David's unused pen and shifted chair convey fury; Zach stays calm while retaining his club. Keep the corporate decision distinct from ESPN. All actual final-world, legal, provider and native PNG release controls remain outstanding.
+
 ## Whole-issue and release consumption
 
 The new weather levels should be visible in existing **F08 Roads Between**, the six narrative threads F09–F22 and an economical Opening Drive/Final Word, with atmospheric traces on sports pages only if they do not compete with legibility. Keep regional variation, plausible travel time and explicit attribution states (`AMBIGUOUS` vs `ATMOSPHERIC_MANIFESTATION`) from the World Bible. **One result never automatically upgrades a weather state.**
