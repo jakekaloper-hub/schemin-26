@@ -42,16 +42,33 @@
         "week10_source_head": "13b8bcfcbc3673a2e97d598ccebb70464c20e945",
         "week11_weather_brief": "memo-os/week-11/preproduction/WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md",
         "region_id": "REG-UPPER-VALLEYS",
-        "depiction_class": "AMBIENT_LOWER_INTENSITY",
+        "depiction_class": "UPPER_VALLEYS_LOCALLY_FUNNELED_SQUALL_PROPOSED",
         "visual_cues": [
-          "light cold wind on carter's covering and Austin's cloak",
-          "damp reset stone at lantern",
-          "trickle along repaired bridge parapet"
+          "strong but topographically local crosswind whipping leaves across existing bridge",
+          "cart covering and Austin's crimson-black cloak strain consistently into the gust",
+          "old stone deck glazed with rainwater, visible hoof traction loss",
+          "rough wind-chopped Mountain Lake, whitecaps, spray and foam below intact span"
         ],
-        "character_choice": "Weather exposes the waiting carter and heightens the voluntary duel; not an external strike deciding it.",
-        "rejection": "No storm-induced winner, destroyed bridge, bodily El Niño at bridge, or belt transfer.",
+        "character_choice": "Austin's final strike after duel plus Wilson's four hoof skid on slick stone drives the existing fall ONLY on official His Majesty's Blood victory; Wilson resurfaces alive; Austin's belt retained and carter waits.",
+        "rejection": "Do not create a river gorge or assert exact directed rapids/river discharge; source Atlas says LAKE. No weather-only win, invented climate magic, lost belt, permanent bridge destruction or fallen principal before final ESPN.",
         "attribution": "Ordinary/ambiguous regional weather unless explicit World-approved El Niño atmospheric manifestation; not automatically direct character causation",
-        "selected_after_official_result": false
+        "selected_after_official_result": false,
+        "hydrology_gate": "ATLAS_HYDROLOGY_HOLD_FOR_DIRECTIONAL_TORRENT",
+        "founder_condition": "CONFIRMED_HIS_MAJESTYS_BLOOD_WEEK11_WIN_ONLY",
+        "spatial_handles": [
+          "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+          "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::LAKE",
+          "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::JUMP-POINT"
+        ],
+        "formation": "locally concentrated exposed span gust within wider upper-valley outer-band front; not coast-equivalent storm"
+      },
+      "conditional_slick_bridge_fall": {
+        "status": "FOUNDER_PREPRODUCTION_DIRECTIVE_RESULT_GATED",
+        "on_hmb_win": "Austin strike + Wilson hoof slip on rain-dark stone causes four-legged fall into wind-roughed lake; alive survivor and carter anxious pause, then conditional cap.",
+        "on_dk_win": "Existing alternate Austin-over-water final strike; Austin belt remains, survivor alive; do not use Wilson slip result.",
+        "on_tie_or_undecided": "Weather and duel only, neither opponent falls.",
+        "river_hydrology_status": "NOT_ESTABLISHED_STORM_WAVES_ONLY_PENDING_ATLAS",
+        "permanent_terrain_change": false
       }
     },
     {
