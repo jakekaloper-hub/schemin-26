@@ -1,12 +1,14 @@
 # Week 11 — initial production index
 
-[Editable Week 11 page-turn rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md) · Proposed 35-page reading sequence, all 15 native study PNGs, six matchup reference panels and the Sunday 7:40 p.m. Eastern score check.
+[Editable Week 11 page-turn rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md) · Proposed 35-page reading sequence, all 15 native study PNGs, six matchup reference panels and the Sunday 8:24 p.m. Eastern score check.
 
 [Current evening refresh and next production checkpoint](EVENING_LAYER_REFRESH_2026-11-22.md) · Six live scores corroborated by ESPN, 120 checked starters, a fresh playoff-model run and Atlas/Novel validation. [Refresh receipt](EVENING_LAYER_RECEIPT_2026-11-22.json).
 
 [Weekly Memo north-star board decision](NORTH_STAR_BOARD_2026-11-22.md) · Corrected scene directions, distinct rankings, six future-story handoffs and the [two-sitting review receipt](NORTH_STAR_BOARD_RECEIPT_2026-11-22.json).
 
 [Full-issue cinematic and editorial working book](WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md) · Six matchup treatments, departments from cover to Final Word, the editable tldraw room and [all 35 native Week 10 PNG references](WEEK10_NATIVE_PNG_REFERENCE_MAP.json).
+
+[The second sheet · owner-directed Jackson rewrite](WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [F21–F22 on the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Current Sunday source ledger](preproduction/SUNDAY_2024_ET_SOURCE.json)
 
 **Issue:** Pro Schemin' 2026, ESPN matchup period 11  
 **State:** LIVE INTAKE / PREPRODUCTION / PUBLICATION HOLD  
@@ -72,7 +74,7 @@ The Founder left the interior action/dialogue layout (Q6) and preferred targets 
 | ObiWan Jacoby / The Chili Cheesers | At the foot of the Eastern Ascent, with the spectators above Jake and Brandon. After Dark uses the separate shack. |
 | Red Leopards / Three Dreaded Snake | At the vegetation break near the falls on Phillip’s outer property line. The sport remains open. |
 | Mud Dogs / Seven Deadly Chins | At the old Gators & Dawgs sign where Week 10 left Bobby. Ben’s choice to trust him begins there. |
-| Dr. Duckhook / The LLC | Inside Zach’s executive office in the Jackson clubhouse. David proposes buying the course for The LLC’s portfolio. Zach refuses every offer. Compare desk, window and door for the final refusal. |
+| Dr. Duckhook / The LLC | Inside Zach’s executive office in the Jackson clubhouse. Babb offers to buy Jackson. Zach returns the offer unsigned and hands him The LLC’s board action. Dr. Duckhook led the proxy fight, ousted Babb as CEO, and is now CEO and chairman. The football result selects the coffee coda. |
 
 **Production check.** In each page brief, specify the existing character/location reference, the venue’s release-week set dressing, the light source for the shared pink/purple/aqua grade, the family of titles or data labels, and the crop’s focal point. Proof actual 1080×1920 masters at 390 px wide. Read odds, names, scores and dialogue against source text after compositing. Final scores, cover outcome, independent visual review and publication stay under the existing gates.
 
@@ -126,6 +128,6 @@ The Founder left the interior action/dialogue layout (Q6) and preferred targets 
 - Duckhook’s office is the Founder-selected interior under the Jackson clubhouse. [Office set and workshop](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md#dr-duckhook-and-the-llc--the-executive-office-at-jackson).
 
 ## Next uncompleted workflow
-Append Sunday November 22 dated scoring updates; recompute only evidence-dependent story candidates. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
+Sunday 8:24 p.m. ET scoring and the owner-directed G06 rewrite are in the rehearsal. At the scheduled Monday close, refresh the six official statuses and 120 starters, select the supported endings and carry the corporate action through every G06 cut. Do not assert NFL Week 11 = completed fantasy week; do not mark any pairing final before ESPN provider resolves. Monday November 23 MNF completion is the targeted fact-refresh milestone, **not** an automatic release authorization.
 
 **Never promote this index as proof of Fact Lock, Story Lock, character reference mount, generated artwork, PDF, audit or publication.**

@@ -14,7 +14,20 @@ For character pages, resolve the owner, temporal overlay and both source binding
 
 ## Score and schedule desk
 
-ESPN league 1417621 · Sunday, November 22, **7:40 p.m. Eastern**. All six provider winner fields were UNDECIDED. The Flaim player detail for each matchup contained ten starters per side. All twelve totals agreed with the sums of those starters and the direct ESPN scoring-period 11 read. Week 12 visitor and host IDs also agreed across both sources.
+**Sunday, Nov. 22 at 8:24 p.m. Eastern.** All six matchups were UNDECIDED. Flaim’s 120 starter lines reconciled to all twelve team totals. Direct ESPN matched the twelve live totals, six statuses and six Week 12 home/away pairings. Five team totals changed since 7:40, including a 0.10 decrease for The LLC. Its cause is unconfirmed. The Week 11 transaction window still contained 32 completed, six failed and five canceled entries. [Source and starter ledger](SUNDAY_2024_ET_SOURCE.json)
+
+| Visitor | Points | Host | Points |
+|---|---:|---|---:|
+| His Majesty's Blood | 124.80 | D0nkey K0ng | 120.80 |
+| El Niño | 105.60 | Slob on my Dobb | 118.46 |
+| The Chili Cheesers | 133.52 | ObiWan Jacoby | 73.04 |
+| Red Leopards | 83.70 | Three Dreaded Snake | 94.44 |
+| Seven Deadly Chins | 93.26 | Mud Dogs | 111.76 |
+| The LLC | 102.50 | Dr. Duckhook | 162.76 |
+
+
+
+Earlier observation · ESPN league 1417621 · Sunday, November 22, **7:40 p.m. Eastern**. All six provider winner fields were UNDECIDED. The Flaim player detail for each matchup contained ten starters per side. All twelve totals agreed with the sums of those starters and the direct ESPN scoring-period 11 read. Week 12 visitor and host IDs also agreed across both sources.
 
 | Week 11 visitor | Points | Host | Points |
 |---|---:|---|---:|
@@ -382,35 +395,35 @@ The result selects the return. Bobby turns the card only after a confirmed loss 
 
 ### F21 · The visitor’s chair
 
-**David makes his offer.** From the guest chair, the folder briefly covers the key. The groundskeeper looks past it to the hook.
+**David brings the first sheet.** Frame the paper from the visitor’s chair. The groundskeeper hangs the key on its worn hook. Wait for the office door to shut.
 
-David wants the course. Zach asks who he’d have to call to change the locks.
+> “The LLC buys Jackson. You’d still run the place.” David shifted his offer so the groundskeeper could hang up the key. When the door shut, Zach pushed the offer back unsigned. “Jackson stays here. There’s something else you ought to read.”
 
-- **Place and cast.** SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE. Zach Wilson, David Babb.
-- **Continuity.** The key returns to the club and the unsigned folder stays shut. No result transfers the property.
-- **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 76/24, up to 42 body words.
-- **Evidence.** Jackson office binding, cutaway and existing owner treatment.
-- **Phone proof.** Keep the desk, key and door in the same order.
-- **Turn.** Back at the post → **The visitor’s chair** → Stay for coffee.
+- **Place and cast.** Jackson executive office. Zach Wilson / Dr. Duckhook and David Babb / The LLC.
+- **Lettering and turn.** 76/24 art/type, 42 body words available. Keep the offer unsigned. End with David’s thumb poised under a second sheet. Back at the post → **The visitor’s chair** → The second sheet.
+- **Phone proof.** Make the key return readable without forcing the reader to decipher a contract.
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Native study 08](board-png/08-stay-for-coffee.png) · Week 10 physical 20, 22, 25.
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Study 08, original desk blocking](board-png/08-stay-for-coffee.png) · [Owner revision and shots](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet)
 
 <a id="folio-22"></a>
 
-### F22 · Stay for coffee
+### F22 · The second sheet
 
-**A decision the score cannot change.** Close the unsigned folder. Hold both cups at hand level with the two men beyond them.
+**Babb reads the board’s decision.** Dr. Duckhook led the proxy fight that seated the new board. David reads the notice twice before he looks up.
 
-Zach refuses the sale in every branch. The verified winner changes who speaks over the second cup.
+> **THE LLC · BOARD ACTION**\
+> David Babb removed as CEO.\
+> Dr. Duckhook appointed CEO and chairman.
 
-- **Place and cast.** SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE. Zach Wilson, David Babb.
-- **Continuity.** The key returns to the club and the unsigned folder stays shut. No result transfers the property.
-- **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 77/23, up to 40 body words.
-- **Evidence.** Refusal fixed. Winner, tie or pending determines final dialogue.
-- **Phone proof.** The cup must not obscure the unsigned folder.
-- **Turn.** The visitor’s chair → **Stay for coffee** → What the starters changed.
+> “You called them yourself?”\
+> “I did.”
 
-[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Native study 08](board-png/08-stay-for-coffee.png) · Week 10 physical 20, 22, 25.
+- **Place and cast.** Reverse from desk height to David’s eye level. The private exchange starts after the door shuts. The same brass key stays on its hook.
+- **Lettering and turn.** Typeset both names and titles on a single unbroken insert. Keep within the 40-word body allocation. The visitor’s chair → **The second sheet** → What the starters changed.
+- **Score coda.** On a Duckhook win, David asks for black coffee. On an LLC win, Zach offers congratulations. On an official tie he pours twice. While pending, the cup lands in silence. The two pieces of paper tell the same story in all four cuts.
+- **Phone proof.** Preserve the full title “CEO and chairman” and David’s reaction. Keep the cup outside the text. Babb remains The LLC’s football representative in F24 and F32.
+
+[On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Study 08, before the owner revision](board-png/08-stay-for-coffee.png) · [Full scene and owner direction](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [Native F22 lettering study](lettering/W11-F22-The-Second-Sheet.png) · [390 px inspection copy](lettering/W11-F22-The-Second-Sheet-390.png)
 
 <a id="folio-23"></a>
 
@@ -418,14 +431,14 @@ Zach refuses the sale in every branch. The verified winner changes who speaks ov
 
 **Sports Desk · first three investigations.** An editor lays three marked-up starting sheets in a vertical reading order. Give each comparison its own baseline.
 
-Bridge defenses, Lamb against Johnson, and Ward’s pickup. Explain how each decision affected its opponent.
+Sunday desk copy, 8:24 p.m. ET. Jonah Coleman and Chuba Hubbard had 68.00 for His Majesty’s Blood. At Hearthroad, CeeDee Lamb gave Slob on my Dobb 31.20, while Emmett Johnson gave El Niño 27.60. Cam Ward and Chimere Dike had 48.17 for The Chili Cheesers. Recheck each contribution against the final margin.
 
 - **Place and cast.** Sports Desk newspaper proof. Players represented by type; no invented owner likeness.
 - **Continuity.** Read starter contribution beside the actual opponent.
 - **Lettering.** Player, team, started/bench, points and final margin. Proposed art/type 43/57, up to 85 body words.
 - **Evidence.** G01–G03 final starter details, slots, eligibility and final margins.
 - **Phone proof.** Every pair of figures needs a team label.
-- **Turn.** Stay for coffee → **What the starters changed** → Who could answer?.
+- **Turn.** The second sheet → **What the starters changed** → Who could answer?.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f23) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19.
 
@@ -435,7 +448,7 @@ Bridge defenses, Lamb against Johnson, and Ward’s pickup. Explain how each dec
 
 **Sports Desk · back three investigations.** A second desk angle follows three opposing responses down the margin of a newspaper proof.
 
-Trace the Williams starters, Mahomes and Goff, and Duckhook’s early scoring against LLC’s answer.
+Sunday desk copy, 8:24 p.m. ET. Javonte and Caleb Williams had 44.64 for Three Dreaded Snake. Goff and Jeanty gave Mud Dogs 57.86. Stroud and Kelce had 54.46 for Dr. Duckhook. DJ Moore and Parker Washington answered with 42.40 for The LLC. Add the official margins after the close.
 
 - **Place and cast.** Sports Desk newspaper proof. Players represented by type; no invented owner likeness.
 - **Continuity.** Read starter contribution beside the actual opponent.

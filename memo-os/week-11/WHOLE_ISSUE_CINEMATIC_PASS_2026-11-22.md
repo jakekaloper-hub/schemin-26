@@ -3,9 +3,11 @@
 
 November 22, 2026 · Schemin ’26 · Preproduction
 
-**Evening update.** At 7:19 p.m. ET all six scores remained live. A new 7:21 p.m. model run still used results through Week 10. The afternoon reporting below keeps its observation times. [Evening scores, lineups, standings, transactions, playoff scenarios and architecture](EVENING_LAYER_REFRESH_2026-11-22.md)
+**Sunday desk, 8:24 p.m. ET.** ESPN and Flaim agreed on twelve live totals. All six winner fields remained undecided. The new owner direction for Dr. Duckhook governs the [Jackson scene](#g06--the-second-sheet), including the company decision in every cut. [Starter and schedule evidence](preproduction/SUNDAY_2024_ET_SOURCE.json)
 
-A delivery promise, a public challenge and a course owner’s right to say no give the six games different stakes. Every pairing below gets two perspectives, a physical action a reader can follow, an ending for either winner and a place to stop while the score is open. Proposed lines are character dialogue. The G03 illustration is a generation test. A separate editorial section follows each part of the issue from the cover to the Final Word.
+**Earlier evening update.** At 7:19 p.m. ET all six scores remained live. A new 7:21 p.m. model run still used results through Week 10. The afternoon reporting below keeps its observation times. [Evening scores, lineups, standings, transactions, playoff scenarios and architecture](EVENING_LAYER_REFRESH_2026-11-22.md)
+
+A delivery promise, a public challenge and a proxy fight that cost David Babb his job give the six games different stakes. Every pairing below gets two perspectives, a physical action a reader can follow, an ending for either winner and a place to stop while the score is open. Proposed lines are character dialogue. The G03 illustration is a generation test. A separate editorial section follows each part of the issue from the cover to the Final Word.
 
 [Editable Week 11 tldraw page](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=pw11-whole-memo-22nov) · [Week 10 original PNG reference map](WEEK10_NATIVE_PNG_REFERENCE_MAP.json) · [Week 10 completed folio receipt in PR 315](https://github.com/jakekaloper-hub/schemin-26/blob/memo-week10-preproduction-20261116/memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json)
 
@@ -28,7 +30,7 @@ The November 20 Founder interview supplies all 58 responses. The November 21 vis
 | 05 | [Founder scene & owner detail · Nov 22](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md). Jake’s cockiness, Brandon’s revenge and both men’s frustration over the absent line preceded the carnival. Brandon’s Wolf Brand request developed from a hand-pour into one dunk with an underwater view. The green-blade showdown remains the earlier alternate. The public path and private shack have distinct scenes. | Test the four-beat dunk and the moment Brandon changes tone at the ladder. Preserve the House Easter egg and the unselected earlier material. |
 | 06 | [Story dependency matrix · Nov 20–22](PRODUCTION_STORY_DEPENDENCY_MATRIX_2026-11-20.md). The Founder kept the family off camera and asked for multiple sports. The matrix preserves seven options including a steeplechase and tug-of-war. Kevin’s Florida python-hunter portrait is conditional on a Red win. | A short perimeter race and dry-bag reveal are one boardable option. Keep the other sports available. |
 | 07 | [Atlas & character room · Nov 22](SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md). Week 10 leaves Bobby at the sign. The Founder wanted an absurd contest that earns a tragic or comic turn. Chins arrives overconfident. The official outcome controls any Cancún coda. | Use Bobby’s clean paw to let Ben discover the bad footing. The loop is still a candidate sport. |
-| 08 | [Jackson office & three cameras · Nov 22](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md). The later Founder location interview selects the long-established office, with Zach refusing each offer. The existing 3D study provides desk, door and window cameras, a guest chair and the key hook. David’s vulnerability and Zach’s birthday memory precede this pass. | Compare the desk ending against window and door. Coffee can survive either score. |
+| 08 | [Jackson office & three cameras · Nov 22](FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md). The later Founder location interview selects the long-established office, with Zach refusing each offer. The existing 3D study provides desk, door and window cameras, a guest chair and the key hook. David’s vulnerability and Zach’s birthday memory precede this pass. | Stage the offer at guest-eye level, the board action at desk height and the private reply after the groundskeeper leaves. The coffee coda follows the fantasy score. |
 | 09 | [Sunday Sports Desk · Nov 22](SUNDAY_SPORTS_DESK_2026-11-22_1505_ET.md). The November 19 opening and November 22 player detail are separate observations. The original mandate placed football inside each encounter and commissioned a deeper newspaper investigation. Availability evidence carries its own date. | Follow the named starter or bench decision in each game and judge it against the verified margin. |
 | 10 | [Sunday Sports Desk · Nov 22](SUNDAY_SPORTS_DESK_2026-11-22_1505_ET.md). The prior roster reporting separated starter, bench, completed move and unsuccessful claim. Chili’s completed November 19 Ward-for-Young roster move gives the Week 11 ledger a specific consequence. | Bring Ward’s Sunday 20.30 into the ledger copy and keep the two defenses in Reserve Watch. |
 | 11 | [Story Room synthesis · Nov 20](FOUNDER_STORY_ROOM_SYNTHESIS_2026-11-20.md). Entering records, division membership, the official seventh-place boundary and the Week 10 scoring-form formula each have their own authority. The Founder requested league-wide consequences after the interdivisional finale. | Put LLC’s 4–6 record beside third place in scoring form to explain the two lists. |
@@ -143,20 +145,44 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 
 **Result gate.** Use the Cancún callback only after a confirmed Bobby loss and verified playoff elimination. In that ending Bobby turns over the existing postcard himself while Ben waits. If Bobby is still alive, close on the tracks. Tie · hold paw and palm together and send the standings back to the desk. Pending · end on their return around the rut. The November 19 House sheet supplies no status or price for this game.
 
-## G06 · Dr. Duckhook receives The LLC at Jackson
+## G06 · The second sheet
 
-**Football cut.** Stroud and Kelce put up 54.46 for Duckhook. Follow Hampton and Burrow for LLC before selecting which man speaks over the coffee.
+**The LLC at Dr. Duckhook · Country Club of Jackson, executive office.** Week 10 sent David Babb home with a 203.96–166.53 road win over ObiWan Jacoby. Zach Wilson spent his birthday at Jackson losing 208.76–127.67 to His Majesty’s Blood. Now David is the guest again. He arrives with an offer he expects Zach to take seriously. Zach has made a series of calls David never saw coming.
 
-**Inklings table read.** Use Zach’s guest chair to reverse both Week 10 stories. HMB handed Zach a 208.76–127.67 birthday defeat (*A Very Generous Guest* through *Many Unhappy Returns*, physical pp. 20–22). David came to Jake’s home and won 203.96–166.53 (*The Empire Opens Fire* through *Unlimited Firepower*, pp. 23–25). Now David has to ask for something the host can refuse.
+**F21 · The visitor’s chair**
 
-| Still | Proposed action, dialogue and sound |
+> “The LLC buys Jackson. You’d still run the place.” David shifted his offer so the groundskeeper could hang up the key. When the door shut, Zach pushed the offer back unsigned. “Jackson stays here. There’s something else you ought to read.”
+
+Shoot from David’s chair. The paper he brought has an empty signature line. He takes his pen with him when he draws his hand back. Zach slides a single sheet across the grain of the desk, face down. Turn the page on David putting his thumb under its corner.
+
+**F22 · The second sheet**
+
+> Dr. Duckhook had led the proxy fight that seated a new board at The LLC. David read its first decision twice.
+
+| THE LLC · BOARD ACTION |
+|---|
+| David Babb removed as CEO. |
+| Dr. Duckhook appointed CEO and chairman. |
+
+> “You called them yourself?” David asked.\
+> “I did.”
+
+David turns the sheet face down, the same way Zach handed it to him. A second cup lands on the bare wood. From the doorway, the groundskeeper could have seen who kept the Jackson key. Only the two people at the desk heard the question about the calls.
+
+**Production decision.** Jake relayed the Duckhook owner’s requested outcome and gave the room latitude to move the scene. The Inklings and production readers chose Jackson over a shareholder meeting. Here the man who offers Zach a job must read who has just taken his own. The desk, hook and guest chair already exist in the [Jackson set](sets/jackson-executive-office/office-study.webp). Use the door camera for the groundskeeper’s exit, then the desk camera for the notice and Babb’s reaction. Let the paper and cup supply the sound. The lamp and window supply the warm and cool edges. Give the notice its own typeset insert at phone width. Keep the former Study 08 as a blocking reference. The decision affects leadership of the fictional company. David continues to represent The LLC in the league.
+
+| ESPN result | Last beat after Babb reads the same decision |
 |---|---|
-| 1 · Visitor’s side | From the visitor’s chair in the Country Club of Jackson executive office, see the grass crew through the window. Zach’s bucket hat catches the window light. David sets his briefcase by the chair. Zach catches him looking at the empty patch on the desk. “If you brought another birthday cake, it goes straight to the grounds crew.” David smiles, relieved at the invitation. |
-| 2 · An interruption | David slides his offer folder across. “I’d like to buy the course.” The groundskeeper steps in with the course key. David moves his folder to clear its usual landing place. Zach nods toward the worn brass hook beside him. The groundskeeper hangs the key and goes back to work. “What made you think I’d sell it?” Zach asks. |
-| 3 · The second offer | Reverse to David. “You’d still run the place.” He opens the folder himself. Zach asks, “Who do I call when I want to change the locks?” David looks at the hook. Outside, one mower stops so another can pass. Give him long enough to realize the truthful answer is his own name. |
-| 4 · Coffee | At desk height, Zach closes the unsigned folder. “No. You can stay for coffee, though.” Leave space in the two-shot for David to sit again. The visitor who arrived wanting a golf course must decide whether he wants ten more minutes with its owner. |
+| Dr. Duckhook wins | David draws his chair back in. “I take mine black.” Zach reaches for the pot. |
+| The LLC wins | Zach puts the cup within David’s reach. “Hell of a game, David.” Let David decide whether to look up. |
+| Official tie | Zach fills the cups in turn. David makes room for his without uncovering the notice. |
+| Pending or under correction | Hold on the sound of the cup. End the scene there. |
 
-**Outcome cut.** Zach wins — he turns toward the groundskeeper’s next question. David draws his chair in. “I take mine black.” David wins — Zach says, “Hell of a game, David.” David glances at the folder. Zach reaches past it for the second cup. Tie — the two men hear the tied score and Zach pours both coffees. Pending or under correction — end on the spoken refusal and withhold the score. No branch transfers the course. The desk is the room’s recommended proof position. Jake’s window and doorway options remain open. Week 12 sends Zach to Red and HMB to David.
+**Sports Desk · Sunday, 8:24 p.m. ET.** The LLC 102.50 at Dr. Duckhook 162.76, undecided. C.J. Stroud and Travis Kelce supplied 54.46 for Zach. DJ Moore and Parker Washington supplied 42.40 for David. The desk will recheck both lineups and the final margin for F24. The vote on F22 predates the coffee coda.
+
+[Native lettering proof from the Jackson desk camera](preproduction/lettering/W11-F22-The-Second-Sheet.png) · [390 px phone proof](preproduction/lettering/W11-F22-The-Second-Sheet-390.png)
+
+**Week 12.** Zach visits Red Leopards. His Majesty’s Blood visits David’s team, The LLC. If this issue is released, Babb can remember the second reading and Zach’s answer. No one at either next venue can quote their conversation without a route by which they learned it. Current Atlas and Novel records await the existing release handoff.
 
 ## The rest of the issue
 
@@ -246,9 +272,9 @@ The House explicitly marked **The Chili Cheesers vs. ObiWan Jacoby OFF BOARD**. 
 |---|---|---|
 | Burgers | ObiWan Jacoby → D0nkey K0ng | What does Wilson carry from meeting Austin into his visit from Jake? |
 | Burgers | Three Dreaded Snake → Mud Dogs | What will the division be playing for in the swamp after Mud’s Sunday is settled? |
-| Wings | Dr. Duckhook → Red Leopards | After hosting David at his own desk, what does Zach do when Kevin gets to play host? |
+| Wings | Dr. Duckhook → Red Leopards | After taking the chair at The LLC, how does Zach handle being the guest at Kevin’s place? |
 | Wings | The Chili Cheesers → Slob on my Dobb | Can Brandon’s starting lineup put the same pressure on the club that entered first? |
-| Pizza | His Majesty’s Blood → The LLC | What will the bridge encounter have cost HMB by the time he reaches LLC? |
+| Pizza | His Majesty’s Blood → The LLC | David still hosts Austin for The LLC. Whom does Austin address first after the news from Jackson? |
 | Pizza | Seven Deadly Chins → El Niño | Which of the two clubs that opened Week 11 at 6–4 will have the standing to protect? |
 
 Reconcile home and away against the ESPN Week 12 schedule immediately before typesetting. Compare at least two plausible features after all six finals. Use the league standings, tiebreak implications and an actual point of contact between the two stories. An unresolved result can keep the feature choice open.
@@ -264,7 +290,7 @@ Reconcile home and away against the ESPN Week 12 schedule immediately before typ
 | Project source or subsystem | What it controls in this pass |
 |---|---|
 | Weekly Memo OS and cinematography | Pair every claim with a dated source. Review the exported portrait PNG first, at full size and at 390 px. Lettering is separate from generated images. Establish the venue and the acting character before an inset narrows the frame. |
-| Living Novel OS, chronology and historical archive | The carter, delivery promise, footraces and coffee exchange are working fiction. Carry personal history by an object or a choice. The 2023 mountain clipping certifies the franchise slots and score. It does not establish the historical owners. |
+| Living Novel OS, chronology and historical archive | The carter, delivery promise, footraces and proxy notice are Week 11 story material. Carry personal history by an object or a choice. The 2023 mountain clipping certifies the franchise slots and score. It does not establish the historical owners. |
 | Character Canon and visual references | Verify both characters against the active twelve-owner reference and the date in every final shot. Wilson Look is DK, Zach Wilson is Duckhook. Four-legged DK, Austin’s retained belt, Jake’s saber position, Phillip’s three heads and the owners’ temporal costume changes survive camera reverses. |
 | World Engine, Universe Atlas and location control | Use the six existing scene addresses below. The shelter and public path can reappear. Keep the private courtyard out of the falls contest, the shack separate from the carnival, and the Jackson grounds in the club’s possession. Postseason Island and the regular-season bridge are separate. |
 | League data, Sports Desk and Pittsy’s Book | Use the 3:05 player receipt, a separately dated scenario model and the House’s own issue for their respective claims. Never settle the Book from a projection. Corrections propagate to story captions, tables, cover, playoff copy and next-week preview. |
@@ -293,7 +319,7 @@ The football column uses the observed November 22, 3:05 p.m. ET player-detail re
 | G03 · The Chili Cheesers at ObiWan Jacoby · S7 · Founder scene lines 74–113 · W10 physical 7 and 24 | Ward, Montgomery and Steelers D/ST supplied 55.00. Resolve ObiWan’s response. Brandon and Jake read the OFF BOARD notice together before the heckle, throw, underwater shot and climb up the ladder in either result. The Chili Cheesers win: Brandon stays for Jake’s quiet reaction. ObiWan Jacoby wins: Jake asks to hear the score again. | Jake visits DK. Brandon visits Slob. Brandon can remember Jake going quiet, or the request to repeat the score. The underwater pause is Jake’s private point of view. A possible elimination needs its own official standings and tiebreak proof. The crowd cannot know what Jake thought. |
 | G04 · Red at Three Dreaded Snake · S9 · Founder scene lines 114–127 · W10 physical 8–10 and 12–14 | Snake’s two Williams starters supplied 39.22. Check Red’s Nix and Chase against the final. With the proposed perimeter race selected, a Red win opens Kevin’s dry bag for the Florida python-hunter portrait. On a Snake win Kevin acknowledges Phillip’s finish. | Kevin hosts Duckhook. Phillip visits Mud. If the portrait publishes, Phillip can remember asking Kevin when he packed the dry cap. Otherwise Kevin can remember conceding the finish. Keep the sport provisional until selected and the private courtyard off camera. |
 | G05 · Chins at Mud Dogs · S11 · Founder scene lines 128–137 · W10 physical 17 | Mahomes and Bears D/ST supplied Chins 38.88. Goff supplied Mud 24.92. Check Bateman’s 16.70 against an eligible starting alternative before making a missed-opportunity claim. Mud wins: Bobby shows Ben where he lost his footing. Chins wins: Bobby credits Ben, and turns the postcard only on verified elimination. | Bobby hosts Snake. Ben visits El Niño. Ben can remember that Bobby showed him the soft ground before the result was known. A playoff elimination can enter league history after verification. The postcard alone establishes neither a trip to Cancún nor an arrival on an island. |
-| G06 · LLC at Duckhook · S12 · Founder scene from line 138 · W10 physical 20–25 | Stroud and Kelce supplied 54.46 for Zach. Check Hampton and Burrow’s answer. Zach refuses the sale in every cut. On a Duckhook win David stays and orders coffee. On an LLC win Zach congratulates him and reaches for the second cup. | Zach visits Red. David hosts HMB. David can remember whether he stayed or received congratulations after the refusal. The groundskeeper witnessed the key’s return and had already left for the later exchange. Property and keys remain with the club. |
+| G06 · LLC at Duckhook · S12 · Founder scene from line 138 · W10 physical 20–25 | Stroud and Kelce supplied 54.46 for Zach. Check Hampton and Burrow’s answer. Zach refuses the sale. His proxy fight ousts Babb as CEO. The new board installs Dr. Duckhook as CEO and chairman in every cut. Only the coffee coda follows the score. | Zach visits Red. David hosts HMB. David can remember turning the decision face down and hearing Zach own the calls. The groundskeeper witnessed the key’s return and had already left for the later exchange. Property and keys remain with the club. |
 
 On an official tie, use precisely the released tie image and its witnesses. A pending or reopened result leaves both winner-specific futures unwritten. After the native Memo release, retain the exact final folio, canonical character and venue IDs, witness and source of the football result alongside a proposed memory. The Novel can repeat a private thought only within a supported character perspective. Any change to persistent geography or world state goes through release evidence, a dry run, Umpire/Closer approval and dependent rebuilds. A scene can carry a relationship forward without a terrain mutation. [Memo handoff](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/memo-os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md) · [Novel handoff](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/living-novel/os/WEEKLY_WORLD_EVOLUTION_HANDOFF_V1.md)
 
