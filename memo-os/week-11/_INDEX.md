@@ -14,6 +14,8 @@
 
 [Week 11 · F21 at Jackson](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-21) · [Native blocking and lettering proof](preproduction/lettering/W11-F21-The-Visitors-Chair.png) · [390 px readback](preproduction/lettering/W11-F21-The-Visitors-Chair-390.png)
 
+**November 23 full Inklings summit:** [source-filtered eight-Inklings / twelve-production / six-Director council and all-six-matchup creative decisions](preproduction/INKLINGS_FULL_ISSUE_PERSONALIZATION_SUMMIT_2026-11-23.md) · [local runtime and QA rejection receipt](preproduction/INKLINGS_FULL_ISSUE_SUMMIT_RECEIPT_2026-11-23.json). Ten existing folios (F09–11, F14–18, F21–22) gained targeted owner-motive, action and visual-proof guidance, not new pages. Earlier G02/G05 changes remain authoritative. All official final-result and artwork release gates remain blocked until independently verified.
+
 [35 page-by-page PNG comparisons](preproduction/WEEK11_FOLIO_OG_COMPARISON.md) · [Atlas addresses and three-layer location desk](preproduction/WEEK11_LOCATION_DESK.md) · [Board questions, meeting brief and three future decisions](preproduction/WHAT_THE_COMMONWEALTH_REMEMBERS.md) · [Open the Week 11 flatplan](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-start)
 
 [Editable Week 11 page-turn rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md) · Proposed 35-page reading sequence, all 15 native study PNGs, six matchup reference panels and the Sunday 8:24 p.m. Eastern score check.
