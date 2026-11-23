@@ -16,6 +16,8 @@
 
 [Six-pair reference check](preproduction/WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json) · All twelve registered original JPEGs recovered and verified. The active resolver rejects Wilson Look’s retired bipedal image. Six structural sites resolve. Approved cinematic venue plates and provider-bound final references remain open.
 
+**Matchup assignment check.** Run `python3 memo-os/week-11/validate_atlas_routes.py` from the repository root before handing pages to production. Each matchup row names both teams and characters, its public feature, and its assigned folios. For ObiWan Jacoby and The Chili Cheesers, F14–F16 belong at the foot of the Eastern Ascent. F31 uses the separate private interview set. The check uses the dated fixture for identity only. [Bullpen pilot results](preproduction/SCENE_ASSIGNMENT_PILOT.json) · [Regression tests](test_validate_atlas_routes.py)
+
 **Issue:** Pro Schemin' 2026, ESPN matchup period 11  
 **State:** LIVE INTAKE / PREPRODUCTION / PUBLICATION HOLD  
 **Opened:** 2026-11-20  

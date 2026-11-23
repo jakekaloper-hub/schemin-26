@@ -5,12 +5,23 @@ on:
     paths:
       - 'memo-os/week-11/**'
       - 'memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-20.json'
+      - 'canon/characters/reference_sources_v1.json'
+      - 'world/data/owner_domains.json'
+      - 'world/data/routes.json'
+      - 'world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json'
+      - 'world/location-control-plane/locations/*/CARD.json'
       - '.github/workflows/memo-week11-source-gate.yml'
   push:
     branches: [main]
     paths:
       - 'memo-os/week-11/**'
       - 'memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-20.json'
+      - 'canon/characters/reference_sources_v1.json'
+      - 'world/data/owner_domains.json'
+      - 'world/data/routes.json'
+      - 'world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json'
+      - 'world/location-control-plane/locations/*/CARD.json'
+      - '.github/workflows/memo-week11-source-gate.yml'
   workflow_dispatch:
 
 permissions:
@@ -27,7 +38,7 @@ jobs:
           python-version: '3.12'
       - name: Source-pinned Founder and ESPN positive validation
         run: python3 memo-os/week-11/validate_creative_intake.py
-      - name: Must reject corrupted Founder, player-score and House inputs
-        run: python3 -m unittest discover -s memo-os/week-11 -p 'test_validate_creative_intake.py' -v
-      - name: Run Week 11 Atlas route and venue identity preflight
+      - name: Test Founder, scoring, House and scene binding regressions
+        run: python3 -m unittest discover -s memo-os/week-11 -p 'test_validate_*.py' -v
+      - name: Check Week 11 routes and matchup cast, venue and folio assignments
         run: python3 memo-os/week-11/validate_atlas_routes.py
