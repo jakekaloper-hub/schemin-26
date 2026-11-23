@@ -359,38 +359,33 @@ A Red Leopards win opens the bag. A Three Dreaded Snake win gives Kevin the conc
 
 <a id="folio-19"></a>
 
-### F19 · One clean paw
+### F19 · The wrong turn
 
-**Bobby gives away the safer line.** Near the truck wheel, a clean paw presses into soft ground. Empty stands left, Cancún postcard at the right post.
+**Ben asks for directions toward Playoff Island.** Frame a humble, provisional swamp outpost beside the established Gators & Dawgs sign. Bobby Mitchell stands with the worn Cancún postcard at the RIGHT post and empty stands on the LEFT. He looks at a possible Losers Beach future while Ben Whipple's truck arrives with hope from his Week 10 victory.
 
-Ben switches off the engine to listen. “From the truck it did.”
+Through the high window Ben asks, “Which way to Playoff Island?” Bobby's clean paw rests on firm ground. He points toward the flooded, deceptive track rather than the safe lip. The audience can tell Bobby knows exactly what he is doing. The old helpful-paw race is **superseded**; the paw is now a clue of knowingly withheld help.
 
-- **Place and cast.** SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN. Bobby Mitchell, Ben Whipple.
-- **Continuity.** The stands stay left and the card stays on the right post. The result alone cannot document a trip.
-- **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 79/21, up to 35 body words.
-- **Evidence.** Week 10 physical 17, old sign, same parked truck.
-- **Phone proof.** The groove and the warning paw must read together.
-- **Turn.** The dry stone → **One clean paw** → Back at the post.
-- **November 23 Bobby owner interpretation (not public quotation).** Keep the clean-paw fairness and established flooded rut. Stage Ben's playoff confidence against Bobby's worn sign and empty stands; the setup signals a would-be spoiler, not an already-decided result. Do not add victory or elimination text here. Inklings/production brief: [G05 working book](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g05--seven-deadly-chins-at-mud-dogs--the-dry-paw).
+- **Place and cast.** SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN, Bobby Mitchell and Ben Whipple only. The cabin/outpost is proposed removable scenery, NOT a new Atlas site or a confirmed physical view of Losers Beach.
+- **Continuity.** Week 10 physical p17: overhead blockade lettering, stands LEFT, Cancún card RIGHT, ruts, truck approach. No changed sign orientation, new route ID or invented island geography.
+- **Lettering.** Full team names and fictional character dialogue only; proposed art/type 79/21, up to 35 body words. No direct quote from Bobby's private text, no final score on a pending scene.
+- **Visual QA.** One integrated eye-level staging: Bobby's truthful dry-paw tell against his wrong pointing gesture, Ben's eyes and travel question, the physical outpost and returning landmarks. Practical pink/violet/aqua reflections must obey actual light sources.
+- **Turn.** The dry stone → **The wrong turn** → The road that comes back. F19 remains stable even if the result is unresolved.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f19) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-19) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-19) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f19)
 
 <a id="folio-20"></a>
 
-### F20 · Back at the post
+### F20 · The road that comes back
 
-**Who turns the postcard?.** Back at the post, frame Bobby’s paw with Ben’s palm. Keep the sign fixed through the reverse.
+**Ben discovers the directions were wrong.** His headlights track the flooded ruts and again catch something unmistakably familiar—the same physical sign/road scars from a changed approach. A small pause of brake lights shows realization and his fear for the Week 12–14 route to the playoffs. Back at the outpost, Bobby permits himself one knowing smirk, but the Cancún postcard behind him still tells the other half of the story.
 
-The result selects the return. Bobby turns the card only after a confirmed loss and elimination.
-
-- **Place and cast.** SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN. Bobby Mitchell, Ben Whipple.
-- **Continuity.** The stands stay left and the card stays on the right post. The result alone cannot document a trip.
-- **Lettering.** Full team names, attributed dialogue and verified final score when used. Proposed art/type 82/18, up to 32 body words.
-- **Evidence.** Official result and eligibility before the Cancún coda. The loop remains provisional.
-- **Phone proof.** Use the right post. Preserve the dry side of the card.
-- **Turn.** One clean paw → **Back at the post** → The visitor’s chair.
-- **November 23 conditional payoff.** If ESPN confirms a Mud Dogs win, Bobby gets a restrained, reflective close while Ben absorbs a real playoff-impacting setback; visibly preserve the empty stands, tracks and right-hand Cancún card as the unresolved offseason shadow. If Chins wins, preserve Bobby's dignity; any explicit Mud playoff elimination/Losers' Beach coda needs independent standings proof. Tie/pending retains a neutral cut. Copy must be newly authored for the characters rather than quoting Bobby's private text; use full team names, official final margin and Tuesday's validated 12-team TheFFHub sweep where relevant.
-- **Supporting-folio routing (selective, not a redraw request).** After official decision and source lock, check F04, F07, F23–F24, F28–F30 and F32–F33 for actual G05 facts/implications and only update affected copy, figures or images. Cover selection prioritizes the strongest cinematic character moment across all six matches; Week 12 Game of the Week prioritizes highest verified playoff stakes. Preserve the 35-page native PNG plan.
+- **Place and cast.** Same G05 address, same two approved character looks. Do not add a new invented marsh road or direct Playoff Island/Losers Beach panorama.
+- **Staging options for production to compare.** A single cinematic deep-focus frame from the outpost, Bobby's subtle smirk readable in the foreground with Ben's truck recognizing the loop beyond the same sign; or a purposeful illustration/page-turn from Ben's windshield looking back at the outpost, where Bobby can be seen. Avoid unrelated editorial panels, cheap split posters or a nonexistent shortcut.
+- **Conditional coda.** If ESPN confirms Mud Dogs wins: subdued spoiler satisfaction, Whipple's official playoff stakes only after Tuesday's 12-team sweep. If Chins wins: Ben eventually recovers the route; Bobby's ruse did not win the fantasy matchup. Tie/pending: unresolved journey. Neither a Losers Beach trip nor Chins elimination is assumed.
+- **Lettering.** Full team names, verified outcome/margin when cleared, proposed art/type 82/18, up to 32 body words. The original owner's text remains private and is not printed.
+- **Phone proof.** The repeated sign, truck hesitation and Bobby's subtle smile must be legible at 390px. The postcard remains on the RIGHT post.
+- **Turn.** The wrong turn → **The road that comes back** → The visitor's chair.
+- **Selective whole-issue consumption.** Review F04, F07, F23–F24, F28–F30 and F32–F33 on Tuesday only for verified G05 facts/qualification consequences. Keep cover and Week 12 Game of the Week selections open; no automatic redraw of unrelated folios.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f20) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-20) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-20) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f20)
 
