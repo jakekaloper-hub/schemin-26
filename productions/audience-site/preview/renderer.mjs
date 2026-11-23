@@ -27,7 +27,33 @@ export function waterSheenDrift(index,ordinaryTime){
  * the existing native WebGL vertex shader; no weather or source inputs apply. */
 export function canvasWaterDisplacement(x,z,ordinaryTime){
  if(![x,z,ordinaryTime].every(Number.isFinite))throw Error('INVALID_CANVAS_WATER_POSITION');
- return Math.sin(x*.21+ordinaryTime*.55)*.11+Math.sin(z*.31+ordinaryTime*.34)*.07;
+ return Math.sin(x*.21+ordinaryTime*.55)*.11+Math.sin(z*.31+ordinaryTime*.34)*.07+riverCurrentRipple(x,z,ordinaryTime);
+}
+/** Small downstream-moving ripple confined to the already-existing illustrative
+ * river trough. It is water motion, NOT weather or a new source-defined waterway.
+ * All distances, phase and falloff are bounded and deterministic.
+ */
+function riverCurrentTerms(x,z,ordinaryTime){
+ if(![x,z,ordinaryTime].every(Number.isFinite))throw Error('INVALID_RIVER_CURRENT_POSITION');
+ const riverX=7+7*Math.sin(z*.034)+3*Math.sin(z*.091);
+ const delta=x-riverX,gate=clamp((z+54)/14,0,1);
+ const phase=z*.33+x*.08-ordinaryTime*1.35;
+ const magnitude=.055*Math.exp(-(delta*delta)/24);
+ const riverSlope=7*.034*Math.cos(z*.034)+3*.091*Math.cos(z*.091);
+ return {delta,gate,phase,magnitude,riverSlope,gateSlope:z>-54&&z<-40?1/14:0};
+}
+export function riverCurrentRipple(x,z,ordinaryTime){
+ const {gate,phase,magnitude}=riverCurrentTerms(x,z,ordinaryTime);
+ return magnitude*gate*Math.sin(phase);
+}
+/** Analytic slopes match the displaced water surface for lighting. */
+export function riverCurrentSlope(x,z,ordinaryTime){
+ const {delta,gate,phase,magnitude,riverSlope,gateSlope}=riverCurrentTerms(x,z,ordinaryTime);
+ const sine=Math.sin(phase),cosine=Math.cos(phase);
+ return [
+  magnitude*gate*(.08*cosine-delta*sine/12),
+  magnitude*(gate*.33*cosine+(gateSlope+gate*delta*riverSlope/12)*sine)
+ ];
 }
 function noise(x,y){const a=Math.floor(x),b=Math.floor(y),tx=x-a,ty=y-b,s=tx*tx*(3-2*tx),t=ty*ty*(3-2*ty);return mix(mix(hash(a,b),hash(a+1,b),s),mix(hash(a,b+1),hash(a+1,b+1),s),t);}
 const fbm=(x,z)=>noise(x,z)*.58+noise(x*2.03,z*2.03)*.28+noise(x*4.13,z*4.13)*.14;
@@ -68,8 +94,8 @@ class MeshBuilder{
  cone(x,y,z,r,h,color,sides=6){for(let i=0;i<sides;i++){const a=i*TAU/sides,b=(i+1)*TAU/sides;this.tri([x+Math.cos(a)*r,y,z+Math.sin(a)*r],[x,y+h,z],[x+Math.cos(b)*r,y,z+Math.sin(b)*r],color);}}
  roof(x,y,z,w,h,d,col){const a=[x-w/2,y,z-d/2],b=[x+w/2,y,z-d/2],c=[x+w/2,y,z+d/2],dd=[x-w/2,y,z+d/2],e=[x,y+h,z-d/2],f=[x,y+h,z+d/2];this.quad(a,dd,f,e,col);this.quad(e,f,c,b,col);this.tri(a,e,b,col);this.tri(dd,c,f,col);}
 }
-const VS=`attribute vec3 aPosition;attribute vec3 aNormal;attribute vec3 aColor;uniform mat4 uVP;uniform mat4 uLightVP;uniform float uTime;uniform float uWater;varying vec3 vColor;varying vec3 vNormal;varying vec3 vWorld;varying vec4 vShadow;void main(){vec3 p=aPosition;if(uWater>.5)p.y+=sin(p.x*.21+uTime*.55)*.11+sin(p.z*.31+uTime*.34)*.07;vWorld=p;vNormal=aNormal;vColor=aColor;vShadow=uLightVP*vec4(p,1.);gl_Position=uVP*vec4(p,1.);}`;
-const FS=`precision highp float;varying vec3 vColor;varying vec3 vNormal;varying vec3 vWorld;varying vec4 vShadow;uniform sampler2D uShadow;uniform vec3 uEye;uniform vec3 uSun;uniform vec3 uSky;uniform float uStrength;uniform float uTime;uniform float uWater;uniform float uStorm;uniform float uNight;float unpack(vec4 v){return dot(v,vec4(1./(256.*256.*256.),1./(256.*256.),1./256.,1.));}float shadow(){vec3 sc=vShadow.xyz/vShadow.w*.5+.5;if(sc.x<0.||sc.y<0.||sc.x>1.||sc.y>1.)return 1.;float s=0.;for(int x=-1;x<=1;x++)for(int y=-1;y<=1;y++){float depth=unpack(texture2D(uShadow,sc.xy+vec2(float(x),float(y))/1536.));s+=sc.z-.0016>depth?.58:1.;}return s/9.;}void main(){vec3 n=normalize(vNormal);if(uWater>.5){float slopeX=.11*.21*cos(vWorld.x*.21+uTime*.55);float slopeZ=.07*.31*cos(vWorld.z*.31+uTime*.34);n=normalize(vec3(-slopeX,1.,-slopeZ));}float dif=max(0.,dot(n,normalize(uSun)));float shade=shadow();vec3 color=vColor*(.42+dif*.7*shade)*uStrength;float stormMask=0.;if(uStorm>0.5){stormMask=smoothstep(26.,46.,vWorld.x);if(uStorm>1.5)stormMask=max(stormMask,smoothstep(34.,56.,vWorld.z));if(uStorm>2.5)stormMask=max(stormMask,(1.-smoothstep(38.,58.,abs(vWorld.x)))*(1.-smoothstep(20.,40.,abs(vWorld.z))));}color*=1.-stormMask*.29;if(uWater>.5){vec3 view=normalize(uEye-vWorld);float fres=pow(1.-max(0.,dot(view,n)),3.);color=mix(color,uSky*.8,.12+fres*.34);float sparkle=pow(max(0.,dot(reflect(-normalize(uSun),n),view)),86.);color+=vec3(.9,.73,.42)*sparkle*.55*uStrength;}else{color+=vec3(.07,.05,.018)*dif*uStrength;}float dist=length(vWorld-uEye);float fog=1.-exp(-dist*.0023);color=mix(color,uSky,clamp(fog,0.,.55));color=pow(max(color,vec3(0.)),vec3(.86));gl_FragColor=vec4(color,1.);}`;
+const VS=`attribute vec3 aPosition;attribute vec3 aNormal;attribute vec3 aColor;uniform mat4 uVP;uniform mat4 uLightVP;uniform float uTime;uniform float uWater;varying vec3 vColor;varying vec3 vNormal;varying vec3 vWorld;varying vec4 vShadow;float riverCurrent(float x,float z,float t){float center=7.+7.*sin(z*.034)+3.*sin(z*.091);float d=x-center;float gate=clamp((z+54.)/14.,0.,1.);return .055*exp(-(d*d)/24.)*gate*sin(z*.33+x*.08-t*1.35);}void main(){vec3 p=aPosition;if(uWater>.5)p.y+=sin(p.x*.21+uTime*.55)*.11+sin(p.z*.31+uTime*.34)*.07+riverCurrent(p.x,p.z,uTime);vWorld=p;vNormal=aNormal;vColor=aColor;vShadow=uLightVP*vec4(p,1.);gl_Position=uVP*vec4(p,1.);}`;
+const FS=`precision highp float;varying vec3 vColor;varying vec3 vNormal;varying vec3 vWorld;varying vec4 vShadow;uniform sampler2D uShadow;uniform vec3 uEye;uniform vec3 uSun;uniform vec3 uSky;uniform float uStrength;uniform float uTime;uniform float uWater;uniform float uStorm;uniform float uNight;vec2 riverSlope(float x,float z,float t){float center=7.+7.*sin(z*.034)+3.*sin(z*.091);float d=x-center;float gate=clamp((z+54.)/14.,0.,1.);float gateSlope=(z> -54.&&z< -40.)?1./14.:0.;float centerSlope=7.*.034*cos(z*.034)+3.*.091*cos(z*.091);float magnitude=.055*exp(-(d*d)/24.);float phase=z*.33+x*.08-t*1.35;return vec2(magnitude*gate*(.08*cos(phase)-d*sin(phase)/12.),magnitude*(gate*.33*cos(phase)+(gateSlope+gate*d*centerSlope/12.)*sin(phase)));}float unpack(vec4 v){return dot(v,vec4(1./(256.*256.*256.),1./(256.*256.),1./256.,1.));}float shadow(){vec3 sc=vShadow.xyz/vShadow.w*.5+.5;if(sc.x<0.||sc.y<0.||sc.x>1.||sc.y>1.)return 1.;float s=0.;for(int x=-1;x<=1;x++)for(int y=-1;y<=1;y++){float depth=unpack(texture2D(uShadow,sc.xy+vec2(float(x),float(y))/1536.));s+=sc.z-.0016>depth?.58:1.;}return s/9.;}void main(){vec3 n=normalize(vNormal);if(uWater>.5){float slopeX=.11*.21*cos(vWorld.x*.21+uTime*.55);float slopeZ=.07*.31*cos(vWorld.z*.31+uTime*.34);vec2 currentSlope=riverSlope(vWorld.x,vWorld.z,uTime);n=normalize(vec3(-slopeX-currentSlope.x,1.,-slopeZ-currentSlope.y));}float dif=max(0.,dot(n,normalize(uSun)));float shade=shadow();vec3 color=vColor*(.42+dif*.7*shade)*uStrength;float stormMask=0.;if(uStorm>0.5){stormMask=smoothstep(26.,46.,vWorld.x);if(uStorm>1.5)stormMask=max(stormMask,smoothstep(34.,56.,vWorld.z));if(uStorm>2.5)stormMask=max(stormMask,(1.-smoothstep(38.,58.,abs(vWorld.x)))*(1.-smoothstep(20.,40.,abs(vWorld.z))));}color*=1.-stormMask*.29;if(uWater>.5){vec3 view=normalize(uEye-vWorld);float fres=pow(1.-max(0.,dot(view,n)),3.);color=mix(color,uSky*.8,.12+fres*.34);float sparkle=pow(max(0.,dot(reflect(-normalize(uSun),n),view)),86.);color+=vec3(.9,.73,.42)*sparkle*.55*uStrength;}else{color+=vec3(.07,.05,.018)*dif*uStrength;}float dist=length(vWorld-uEye);float fog=1.-exp(-dist*.0023);color=mix(color,uSky,clamp(fog,0.,.55));color=pow(max(color,vec3(0.)),vec3(.86));gl_FragColor=vec4(color,1.);}`;
 const SV=`attribute vec3 aPosition;uniform mat4 uVP;void main(){gl_Position=uVP*vec4(aPosition,1.);}`;
 const SF=`precision highp float;void main(){vec4 enc=fract(gl_FragCoord.z*vec4(256.*256.*256.,256.*256.,256.,1.));enc-=enc.xxyz*vec4(0.,1./256.,1./256.,1./256.);gl_FragColor=enc;}`;
 function program(gl,v,f){const build=(type,s)=>{const x=gl.createShader(type);gl.shaderSource(x,s);gl.compileShader(x);if(!gl.getShaderParameter(x,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(x));return x;};const p=gl.createProgram();gl.attachShader(p,build(gl.VERTEX_SHADER,v));gl.attachShader(p,build(gl.FRAGMENT_SHADER,f));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(p));return p;}
@@ -194,7 +220,7 @@ function createSoftwareRenderer(canvas,bindings,{onContextLost}){
   for(const {tri,p,d}of ordered){const fog=clamp((d-distance*.65)/400,0,.28);let dark=1;if(storm){if(tri.center[0]>36)dark=.65;if(storm>=2&&tri.center[2]>40)dark=.67;if(storm>=3&&Math.abs(tri.center[0])<44&&Math.abs(tri.center[2])<32)dark=.7;}const col=(tri.water?(()=>{
    const x=tri.center[0],z=tri.center[2];
    const slopeX=.11*.21*Math.cos(x*.21+waterFrame*.55),slopeZ=.07*.31*Math.cos(z*.31+waterFrame*.34);
-   const n=norm([-slopeX,1,-slopeZ]),sun=norm([-.6,.9,.36]);
+   const [currentX,currentZ]=riverCurrentSlope(x,z,waterFrame);const n=norm([-slopeX-currentX,1,-slopeZ-currentZ]),sun=norm([-.6,.9,.36]);
    const diffuse=Math.max(0,dot(n,sun));
    const view=norm(sub(eye,[x,-.4,z])),fresnel=Math.pow(1-Math.max(0,dot(view,n)),3);
    return [.115,.29,.31].map((base,i)=>Math.round(clamp(Math.pow(mix(base*(.72+diffuse*.4)*(.7+.3*strength)*dark,[.59,.69,.64][i],.08+fresnel*.28+fog),.84)*255,0,255)));
