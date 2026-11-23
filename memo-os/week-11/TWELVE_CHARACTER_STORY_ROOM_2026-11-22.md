@@ -51,31 +51,38 @@ After 208.76 last week, Austin has grown accustomed to people making room. At fi
 
 **Week 12.** DK hosts ObiWan. HMB visits The LLC. Carry forward what each learned about being made to act first.
 
-## Hearthroad · The delivery that might stay dry and still arrive late
+## Hearthroad · The last safe shoulder
 
-*Week 10, P33 · Founder S01–S06 · Week 2 delivery business · Week 8 environmental reveal.*
+*Week 11 G02 · Founder November 23 storm-disaster revision · Inklings proposed dramaturgy, not accepted new Atlas geography.*
 
-**Already in the memo.** W10-P33 left Slob’s beer cargo under cover at the foothill camp. The storm was coming home along Hearthroad. Begin with a business running on schedule and one route on which that schedule depends. Protect the beer business. El Niño’s storm escalates into a decision on the road. The rivalry is openly hostile.
+**Already preserved.** Week 10 physical page 35 left Jordan Hollingshead's beer kegs strapped under canvas by the Slob Foothill Camp. His promised delivery to the taproom at six, the radio, visor slip and Manning Welty asking about that promise remain established G02 story material. Both teams came off Week 10 wins; their Week 11 result remains unverified until ESPN reports a decided winner.
 
-### Slob on my Dobb / Jordan Hollingshead
+**Two physical contexts, one weather system.** The approved opening is still SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT on Hearthroad. The Commissioner now proposes a later, **conditional return leg** toward the Southern Wetlands, recalling Jordan's Week 10 truck passage by Mud Dogs' blockade. Atlas supplies the sequence Hearthroad → Mountain Lake Bridge → Upper Basin Connector → League Chamber → Basin Market Road / Mire Hill → Delta Causeway → Mud Dogs Swamp. But the route register lists the Delta Causeway for foot/mount/wetland travel, **not certified truck or wagon clearance**. Stage Jordan's swamp delivery-approach shot only against the Week 10 truck precedent or after World/Atlas accepts a vehicle-accessible service section. Do not convert a literary transit suggestion into a registered route or location event.
 
-Jordan checks a strap, settles a case, then hears the last two bottles knock together. Every case is dry. His difficult choice is whether to dispatch the load while the road is still usable or wait and risk breaking a delivery promise. Turn a headlight across the road so he can read the water at a familiar rut. CeeDee Lamb’s 29.70 and Bucky Irving’s 17.50 helped Slob recover the live lead.
+### Slob on my Dobb — Jordan Hollingshead
 
-### El Niño / Manning Welty
+His problem is not simply losing a game. Jordan built a business on reliable deliveries. At Hearthroad he sees the pale gravel chip swept across the rut, calculates the risk, hears Manning ask if the taproom expects six, and has to choose. The beer stays strapped and the truck's cab, radio, delivery slip and canvas match the existing Week 10 picture. If he is eventually beaten by El Niño, show his loaded vehicle **partially trapped on a washed, raised shoulder**: rear wheels beyond the edge, cabin still on supported ground, wind pushing at the tarp and brown water below. The threat is real but recoverable; no road collapse, death, wrecked beer business or destroyed bridge. He owns the embarrassing call to the taproom rather than pretending he has made the delivery.
 
-Manning wants Jordan to concede that the weather sets the day’s timetable. From the exposed approach, let him watch Jordan’s hands instead of the clouds. When Jordan reaches for the next strap, Manning turns to the uphill stretch already taking rain. He can leave Jordan to make the call without granting him the satisfaction of a warning. His choice brings the rivalry into the weather. Emmett Johnson’s 23.90 and George Pickens’s 21.70 had kept him close, with Chase Brown and Tee Higgins still on zero.
+### El Niño — Manning Welty
 
-**A line to try**
+Manning's victory, if verified, should feel like proving that no delivery schedule outruns weather. His viewpoint originates beside Jordan at the Hearthroad window: he watches how runoff undermines the road, senses the growing wind, and knows how much it will matter if Jordan takes the loaded truck down toward the swamp. Do **not** place him simultaneously at an unverified distant swamp viewpoint or give him impossible knowledge of the exact rear-wheel position. For the extended wetland cut he can be represented by the observable advancing weather and an earlier warning, not an ungrounded literal teleport. If Manning loses, he has still forced Jordan to change course, but the opponent outthinks the immediate hazard.
 
-> Every case was dry. Jordan counted them again. Up the grade, Manning had already turned to watch the road.
+### Proposed visual progression
 
-**The photograph.** Place the truck light where it shines across the rut. Water breaks its aqua reflection just before Jordan has to decide. Let the cases go in and out of frame with his movement so the reader feels the cost of looking away.
+1. **The promise:** Jordan's “Six. I told her six” follows the delivery slip from clock to radio; Manning stands at the window while the first gravel chip moves in the runoff.
+2. **The choice:** the truck leaves the established foothill staging (or pauses) as rain intensifies. The route toward the Southern Wetlands is a time-bridged journey, not a single continuous establishing shot.
+3. **The wetland edge:** after a legibly elapsed journey, show raised flood-prone ground and running water at the wheel line near the previously depicted Mud Dogs swamp access, with no new cliff, destroyed crossing or route ID. This image is **conditional on production verifying vehicle-access continuity**.
+4. **The crisis:** one rear axle begins hanging beyond an eroded road edge, the tarp pulls sideways in the wind and Jordan reacts before the full load follows. Use a low three-quarter shot plus inside-cab close-up, never a generic overturned-truck disaster panel.
+5. **The answer:** the result determines whether Jordan rescues the load and resumes, or stops precariously with an honest delayed-delivery radio call while Manning's point is made. Both characters remain agents, not just a driver and an anonymous storm.
 
-**Write the ending from the result.** If Slob wins, pay off the fact that he looked upstream in time. Leave the road wet. If El Niño wins, let Jordan keep the stock intact and still have to explain the delay. If tied or unresolved, keep the next delivery at the threshold. No permanent closure or stock loss is required.
+**Three conditional endings.**
+- **If El Niño wins / Slob on my Dobb loses:** keep the rear-wheel-over-edge image, cargo controlled, road recoverable, delivery delayed. Manning's weather wins the argument, but Jordan protects his workers, vehicle and beer and owns the missed promise. No literal catastrophe is entered into permanent World state.
+- **If Slob on my Dobb wins / El Niño loses:** Jordan reads the road in time, backs away from the eroded shoulder, uses a surviving route or stops safely until conditions permit departure; the kegs eventually reach the taproom, perhaps late. Manning has forced caution, not defeat.
+- **If tied, pending or ESPN remains UNDECIDED:** stop at the first unmistakable risk and the unsent radio call; no wheel-over-edge final, rescued load or forced weather victor.
 
-**What to compare in storyboard.** Put a soaked release poster on the outside of the truck and a crisp delivery slip inside it. Jordan has to look past the promised delivery time to read the road. Sound and POV desks propose the bottles and rain. Hide captions. A reader should be able to locate the first interruption, see one deliberate act by each rival, and identify what the delivery stands to lose.
+**Sound and continuity.** Keep the rattling bottle opener, wipers, tail-lamp reflection and radio answer. Rain/wind, creaking suspension, braking air and a stopped engine make the risk audible on a static 1080×1920 PNG; do not fabricate spoken lines from the taproom operator beyond words justified by issued copy. Separate the Memo's two-character direct interaction from any Living Novel passage that requires Jordan's own POV only. The weather is local and temporary. Route access, loaded-truck clearance and new roadside repairs remain editorial candidates subject to Atlas and independent production QA.
 
-**Week 12.** Slob hosts Chili. El Niño hosts Chins. A verified disruption can matter to the next visitor without making the whole Commonwealth flood.
+**Week 12.** Slob hosts The Chili Cheesers. El Niño hosts Seven Deadly Chins. Future pressure follows the decided football consequences and witnesses, not a permanent road disaster. The full twelve-team Tuesday TheFFHub refresh and official standings select any playoffs language; no automatic Game of the Week selection.
 
 ## ObiWan’s mountain · Two men looking for the same audience
 
