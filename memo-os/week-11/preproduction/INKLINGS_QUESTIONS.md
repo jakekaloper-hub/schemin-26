@@ -1,5 +1,7 @@
 # Inklings desk · What the Commonwealth remembers
 
+**November 23 inherited weather clarification:** [Week 10 → Week 11 regional weather pass](WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md) links El Niño's expanding literary presence to the owners' distinct choices across G01–G06. **Later Founder G01 amendment:** on a verified His Majesty's Blood win, Wilson's feet slip on windy rain-slick stone when Austin lands the final strike. High winds and violent lake chop heighten fear without rewriting the match or inventing a river. Distinct causality: **strike + traction loss + lake survival**. The earlier source-model objection to *unsolicited* accidents does not override this explicit Founder direction. No weather claim is treated as confirmed ESPN outcome or approved atmospheric manifestation.
+
 **November 23 scope notice.** The six-matchup Inklings summit supersedes only the stated G02/G05 developments and reviews the remaining four for personalization without adding pages. The original dated questions remain useful where not contradicted; read [the current working book](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md) and [F01–F35 rehearsal](OPEN_BOARD_PAGE_REHEARSAL.md) for operative actions. No independent literary-artist or sports release signoff is implied.
 
 The following are twelve answered editorial questions from an AI writing desk. The character exchanges are proposed original fiction. The board can adopt the editorial decisions for development now. Release and permanent world changes have separate owners.
