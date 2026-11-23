@@ -312,4 +312,7 @@ function draw(t){frameId=requestAnimationFrame(draw);if(!renderer)return;if(memo
 function clamp01(v){return Math.max(0,Math.min(1,v));}
 window.__observerDebug={state:()=>structuredClone(state),bindings:()=>structuredClone(bindings),weather:()=>structuredClone(weather),metadata:()=>structuredClone(metadata),sourceUnchanged:()=>JSON.stringify(catalog)===original,stats:()=>renderer?.stats,camera:()=>structuredClone(camera),loseContext:()=>renderer?.loseContext()};
 requestAnimationFrame(()=>requestAnimationFrame(async()=>{try{renderer=createWorldRenderer(canvas,bindings,{onContextLost:()=>showFallback('The graphics context was lost. The source Atlas is still available below.')});dispatch({type:'asset_ready',id:'geometry'});if(renderer.prepare)await renderer.prepare(camera);dispatch({type:'asset_ready',id:'renderer'});renderer.render(camera,0,{strength:1});requestAnimationFrame(()=>{dispatch({type:'asset_ready',id:'first-frame'});revealStart=performance.now();splash.classList.add('out');if(state.phase==='REVEALING'){$('#skipReveal').hidden=false;setTimeout(()=>splash.hidden=true,1200);}else finishReveal();frameId=requestAnimationFrame(draw);});}catch(e){try{dispatch({type:'asset_failed',id:'geometry'});}catch{}showFallback('3D initialization did not complete. '+String(e.message));}}));
-window.addEventListener('pagehide',()=>{cancelAnimationFrame(frameId);renderer?.dispose();});
+// A persisted pagehide freezes this document for browser back/forward navigation.
+ // Keep its one existing animation loop and renderer alive; the browser resumes them.
+window.addEventListener('pagehide',e=>{if(e.persisted)return;cancelAnimationFrame(frameId);renderer?.dispose();});
+window.addEventListener('pageshow',e=>{if(e.persisted)lastTime=performance.now();});
