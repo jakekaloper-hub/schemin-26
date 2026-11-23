@@ -202,6 +202,8 @@ Connect two separate places by sound and movement. The route is a cut between sc
 - **Phone proof.** Keep the whole four-legged silhouette and open lane.
 - **Turn.** The roads between → **After you, Austin** → He was here before us.
 
+- **Inklings summit Nov 23 — proposed personalization.** **Audience and reason.** Wilson's apparently polite lane offering is a deliberate attempt to make champion Austin accept his permission, in front of the waiting carter. Keep the ordinary wheel and four hooves as the central picture rather than invent a new trophy or bridge monument. In a 390px crop, the space between the carter and Wilson must be visible; what matters is *who owns the right of way*, not who poses more imposingly.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f09) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-09) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-09) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f09)
 
 <a id="folio-10"></a>
@@ -219,6 +221,8 @@ Austin gives the carter the right of way in words. Show what Wilson hears in the
 - **Phone proof.** The reverse must preserve the carter’s side and both ends of the span.
 - **Turn.** After you, Austin → **He was here before us** → The carter listens.
 
+- **Inklings summit Nov 23 — proposed personalization.** **Inklings personal turn.** Austin's hand moves instinctively toward his retained championship belt before he notices the waiting worker. His answer about the carter makes him choose civic duty over reflexive status, without giving up the belt or bridge. Wilson must visibly recognize he has been outmaneuvered by an ordinary person's need to cross. Same midspan lantern and carter-side reverse.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f10) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-10) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-10) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f10)
 
 <a id="folio-11"></a>
@@ -235,6 +239,8 @@ One final score selects the cap or the cough. In a tie or pending cut, both rema
 - **Evidence.** Official bridge result and independently verified football cause.
 - **Phone proof.** A wake cannot stand in for an identifiable survivor.
 - **Turn.** He was here before us → **The carter listens** → Six. I told her six..
+
+- **Inklings summit Nov 23 — proposed personalization.** **Character payoff, after result.** Withhold the victory pose. The winner, whether Austin or Wilson, discovers the fall could have cost the other's life; the carter notices a quiet wait or question before either leaves. Make the separated deck figure and returning swimmer legible. Austin retains his belt in all endings; the jester cap exists only in the authorized Austin-win branch.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f11) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-11) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-11) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f11)
 
@@ -287,6 +293,8 @@ Brandon wanted to know who was the underdog. Jake wanted that crowd arguing abou
 - **Phone proof.** Spell out The Chili Cheesers and ObiWan Jacoby. Keep the notice and both reactions in sight.
 - **Turn.** The radio call → **Off the board** → The safest seat.
 
+- **Inklings summit Nov 23 — proposed personalization.** **Why the grievance matters.** Brandon wants to know which owner Pittsy would have favored; Jake wants the passing crowd talking about *his* mountain confrontation. The OFF BOARD sheet makes each feel overlooked for different reasons. Hold both faces and the actual notice in one frame. The House's recorded injury/lineup concern is separate from Jake's later allegation; neither should be rewritten as a confirmed conspiracy.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f14) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-14) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-14) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f14)
 
 <a id="folio-15"></a>
@@ -303,6 +311,8 @@ Jake works the carnival mic with the D5 Texas quarterback joke. Leave the underw
 - **Evidence.** Wolf Brand Chili No Beans prop and underwater test. Preserve the single throw.
 - **Phone proof.** Do not let the target or a caption cover Jake’s underwater face.
 - **Turn.** Off the board → **The safest seat** → At the ladder.
+
+- **Inklings summit Nov 23 — proposed personalization.** **Brandon's owner-request payoff.** The single throw resolves a Week 10 humiliation, not an arbitrary prank. His familiar black hat is now in his control after being in the rodeo mud. Jake volunteers for the dunk seat because he expects a crowd to laugh at Brandon's D5 quarterback reputation. Use the established red Wolf Brand Chili / blue NO BEANS prop, one hit, hinged seat and underwater window; do not improvise a second throw, fictional school fact or typed fantasy result.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f15) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-15) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-15) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f15)
 
@@ -321,6 +331,8 @@ The score chooses the quiet admission, the request to repeat it, or the held rea
 - **Phone proof.** The existing test crops the legs. Check the head and both boots in one frame.
 - **Turn.** The safest seat → **At the ladder** → Pick a side.
 
+- **Inklings summit Nov 23 — proposed personalization.** **The change in who can see whom.** Jake performed toward an entire hillside; after the dunk he can see only Brandon beside the ladder. Brandon's pause and hat removal carry his new authority but also a moment of restraint. The rejected cropped test is not the final raster: fit Jake's expression and both chili-coated boots in one believable full-length native PNG/390px frame. The loss version reflects fear, not certified elimination.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f16) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-16) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-16) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f16)
 
 <a id="folio-17"></a>
@@ -338,6 +350,8 @@ Phillip speaks first. Kevin checks the path before choosing. Keep the footrace a
 - **Phone proof.** Keep all three heads on one body and both approaches readable.
 - **Turn.** At the ladder → **Pick a side** → The dry stone.
 
+- **Inklings summit Nov 23 — proposed personalization.** **Rivalry rooted in place.** Kevin returns from a damaged personal venue and checks the finish sightline rather than blindly trusting another owner's property. Phillip, with exactly three heads on one body, sets a fair first-palm-on-dry-stone rule because he wants to control the property's boundary and avoid an argument over which head finished. The short race is a strong audition from both owner-interview drafts, but preserve the sport as a selection candidate; family and private courtyard stay off camera.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f17) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-17) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-17) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f17)
 
 <a id="folio-18"></a>
@@ -354,6 +368,8 @@ A Red Leopards win opens the bag. A Three Dreaded Snake win gives Kevin the conc
 - **Evidence.** Official finish before choosing the Florida outfit.
 - **Phone proof.** No costume reveal or cut inside the private courtyard in a pending cut.
 - **Turn.** Pick a side → **The dry stone** → The wrong turn.
+
+- **Inklings summit Nov 23 — proposed personalization.** **Personalization through the unopened bag.** Kevin's dry Florida python-hunter outfit is funny because he packed it before he knew the result. Let Phillip's three distinct head reactions register on one connected body when the bag opens, but only on a verified Red Leopards win. In a Snake win or pending cut the bag remains closed. The dry stone, finish cloth and water spray must still prove the sporting action before any victory portrait.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f18) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-18) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-18) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f18)
 
@@ -401,6 +417,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 - **Lettering and turn.** 76/24 art/type, 42 body words available. Keep the offer unsigned. End with David’s thumb poised under a second sheet. The road that comes back → **The visitor’s chair** → The second sheet.
 - **Phone proof.** Make the key return readable without forcing the reader to decipher a contract.
 
+- **Inklings summit Nov 23 — proposed personalization.** **Two incompatible ideas of ownership.** David's offer is about acquiring an asset and keeping the people who make the course valuable; Zach's attention stays with the returned key and its ordinary worker. Babb's unused pen is the visible limit of his confidence. Keep the brass hook, groundskeeper departure and unsigned sheet in one believable office, not a separate corporate-podium scene. The private second sheet is still unrevealed on this page.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Study 08, original desk blocking](board-png/08-stay-for-coffee.png) · [Owner revision and shots](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · Week 10 original PNGs 20, 21 and 24 · [F21 blocking and lettering](lettering/W11-F21-The-Visitors-Chair.png) · [390 px phone proof](lettering/W11-F21-The-Visitors-Chair-390.png) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-21) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-21) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f21)
 
 <a id="folio-22"></a>
@@ -420,6 +438,8 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 - **Lettering and turn.** Typeset both names and titles on a single unbroken insert. Keep within the 40-word body allocation. The visitor’s chair → **The second sheet** → What the starters changed.
 - **Score coda.** On a Duckhook win, David asks for black coffee. On an LLC win, Zach offers congratulations. On an official tie he pours twice. While pending, the cup lands in silence. The two pieces of paper tell the same story in all four cuts.
 - **Phone proof.** Preserve the full title “CEO and chairman” and David’s reaction. Keep the cup outside the text. Babb remains The LLC’s football representative in F24 and F32.
+
+- **Inklings summit Nov 23 — proposed personalization.** **Personal loss before fantasy score.** Babb brought a pen for Zach's signature, yet must use that hand to steady a notice removing him from his own CEO office. Zach has taken corporate control, but has neither sold Jackson nor removed Babb as The LLC fantasy representative. Hold the two documents, Babb's reaction and the key hook in continuity. Only the coffee coda varies with official Week 11 winner; the corporate notice is owner-authored story, not a score-dependent consequence.
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Study 08, before the owner revision](board-png/08-stay-for-coffee.png) · [Full scene and owner direction](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [Native F22 lettering study](lettering/W11-F22-The-Second-Sheet.png) · [390 px inspection copy](lettering/W11-F22-The-Second-Sheet-390.png) · Week 10 original PNGs 22, 20, 21, 24 and 25 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-22) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-22) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f22)
 
