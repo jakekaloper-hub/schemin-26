@@ -219,13 +219,41 @@ function sizeAmbientCanvas(surface,context,cssWidth,cssHeight,pixelRatio){
 function needsAmbientFallbackGlints(rendererName){
  return rendererName==='canvas2d-spatial-fallback';
 }
+/** World-projected synthetic weather optics within EXISTING region bounds.
+ * This is not simulated hydrology or a new Atlas location; ordinary environment
+ * motion is independent of the result-driven weather demonstration.
+ * The 110-drop per-zone budget is intentionally invariant across renderers.
+ */
+function projectedStormRain(bounds,phase,heightAt,project,count=110){
+ if(!Array.isArray(bounds)||bounds.length!==4||bounds.some(v=>!Number.isFinite(v))||bounds[0]>=bounds[2]||bounds[1]>=bounds[3]||!Number.isFinite(phase)||typeof heightAt!=='function'||typeof project!=='function'||!Number.isInteger(count)||count<0||count>110)throw Error('INVALID_STORM_RAIN_SAMPLE');
+ const frac=v=>v-Math.floor(v),[x1,y1,x2,y2]=bounds,segments=[];
+ for(let i=0;i<count;i++){
+  const u=frac(Math.sin((i+1)*127.1)*43758.5453),v=frac(Math.sin((i+1)*311.7)*21431.517);
+  const x=(x1+(x2-x1)*u-50)*2,z=(50-(y1+(y2-y1)*v))*2;
+  const ground=heightAt(x,z);if(!Number.isFinite(ground))continue;
+  const rise=2+14*frac((i+1)*.61803398875-phase*.23);
+  const a=project([x-.22,ground+rise+1.4,z+.1]),b=project([x,ground+rise,z]);
+  if(!a||!b||![a.x,a.y,a.depth,b.x,b.y,b.depth].every(Number.isFinite)||a.depth< -1||a.depth>1||b.depth< -1||b.depth>1)continue;
+  segments.push({a,b});
+ }
+ return segments;
+}
 const zoneBounds={'REG-EASTERN-STORM-COAST':[68,25,100,88],'REG-INNER-SEA-LITTORAL':[55,0,100,25],'REG-CENTRAL-BASIN':[25,30,72,58],'REG-UPPER-VALLEYS':[20,55,75,78]};
 function drawAmbient(t){
  if(!ambientCtx||!renderer)return;
  const [w,h]=sizeAmbientCanvas(ambient,ambientCtx,innerWidth,innerHeight,window.devicePixelRatio);
  ambientCtx.clearRect(0,0,w,h);
  if(needsAmbientFallbackGlints(renderer.stats?.renderer))for(let i=0;i<120;i++){const x=Math.sin(i*42.31)*125,z=Math.cos(i*19.27)*130;if(renderer.height(x,z)>-.3)continue;const p=renderer.project([x,-.15,z]);if(!p)continue;const alpha=(.08+.08*Math.sin(t*.65+i))*.6;ambientCtx.strokeStyle=`rgba(220,230,212,${alpha})`;ambientCtx.lineWidth=.8;ambientCtx.beginPath();ambientCtx.ellipse(p.x,p.y,3+2*Math.sin(t*.3+i),.6,0,0,Math.PI*2);ambientCtx.stroke();}
- if(demo>0)for(const id of weather.affectedZoneIds){const bounds=zoneBounds[id];if(!bounds)continue;const [x1,y1,x2,y2]=bounds;const ps=[[x1,y1],[x2,y1],[x2,y2],[x1,y2]].map(([x,y])=>renderer.project([(x-50)*2,9,(50-y)*2]));if(ps.some(p=>!p))continue;ambientCtx.save();ambientCtx.beginPath();ps.forEach((p,i)=>i?ambientCtx.lineTo(p.x,p.y):ambientCtx.moveTo(p.x,p.y));ambientCtx.closePath();ambientCtx.clip();ambientCtx.strokeStyle='rgba(205,222,222,.24)';ambientCtx.lineWidth=.65;for(let i=0;i<110;i++){const x=((i*127.3+t*12)%w+w)%w,y=((i*79.4+t*140)%h+h)%h;ambientCtx.beginPath();ambientCtx.moveTo(x,y);ambientCtx.lineTo(x-3,y+9);ambientCtx.stroke();}ambientCtx.restore();}
+ // Synthetic storm presence is a bounded optical cue, not a weather feed.
+ // World-space drops follow existing source-zone rectangles and the 3D camera;
+ // this lightweight overlay does not have terrain/building depth occlusion.
+ if(demo>0)for(const id of weather.affectedZoneIds){
+  const bounds=zoneBounds[id];if(!bounds)continue;
+  ambientCtx.strokeStyle='rgba(205,222,222,.24)';ambientCtx.lineWidth=.72;
+  for(const {a,b} of projectedStormRain(bounds,t,(x,z)=>renderer.height(x,z),point=>renderer.project(point))){
+   ambientCtx.beginPath();ambientCtx.moveTo(a.x,a.y);ambientCtx.lineTo(b.x,b.y);ambientCtx.stroke();
+  }
+ }
 }
 
 function draw(t){frameId=requestAnimationFrame(draw);if(!renderer)return;if(memorySession||historySession){lastTime=t;return;}const dt=Math.min(.05,(t-lastTime)/1000||.016);lastTime=t;if(!paused&&!document.hidden)animationTime+=dt;
