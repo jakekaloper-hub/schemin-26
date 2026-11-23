@@ -49,6 +49,8 @@ After 208.76 last week, Austin has grown accustomed to people making room. At fi
 
 **What to compare in storyboard.** Try a temporary release-night banner tied back at the near approach. It stirs in the empty lane while both rivals stand still. Compare the W10-matched wide with a reverse on Austin’s gaze dropping from Wilson to the lane. Keep the reverse only if a reader can tell what he just understood.
 
+**November 23 Founder weather-fall override (G01, pending fact gate).** The bridge is no longer a merely damp ceremonial lane: a localized upper-valley squall whips leaves and cart covering across the narrow stone deck; Mountain Lake below looks churned, white-edged and frightening. **If His Majesty's Blood officially wins**, Austin's final strike sends Wilson back exactly as the four hooves begin to slip on the rain-glazed stones. Wilson falls off the intact bridge, resurfaces alive amid the rough water and heads toward a plausible shore while the carter and Austin wait. **If D0nkey K0ng wins**, use the separately approved Austin-over-lake branch and preserve his belt. Tie/undecided holds the combat before either fall. This honors geography by depicting wind-driven rough *lake* water, while any fixed directional rapids remain an Atlas hydrology HOLD. The old banner is an unselected prop experiment, not an additional storm signal.
+
 **Week 12.** DK hosts ObiWan. HMB visits The LLC. Carry forward what each learned about being made to act first.
 
 ## Hearthroad · The last safe shoulder
