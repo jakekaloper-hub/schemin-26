@@ -137,13 +137,17 @@ Brandon takes off his hat. He stays beside the tank. Give the last frame to Jake
 
 ## Mud Dogs and Seven Deadly Chins · The Gators & Dawgs sign
 
-**Founder choice.** Ben Whipple first has to trust Bobby Mitchell at the old Gators & Dawgs sign, exactly where the departing truck left Bobby on physical page 17.
+**Founder revision (November 23).** The operative action is no longer Bobby Mitchell guiding Ben Whipple safely or staging a fair swamp race. Bobby intentionally gives Ben **bad directions** through Mud Dogs' swamp toward the Playoff Island he hopes to reach. This supersedes the earlier helpful route and fair-play staging; those notes remain as superseded workshop history only.
 
-**Opening.** Come in at vehicle-window height from Ben’s side. He already has a line ready about anybody who needs directions in his own swamp. The overhead letters catch his headlights. Below them, Bobby has stopped on the last patch of firm ground. One paw is still dry. Ben looks down from the sign and lets the remark go. Match the arch, right-hand postcard and left-hand stands to physical page 17.
+**Arrivals at the existing site.** Frame a humble outpost/cabin on the edge of the established sign as *provisional, reversible staging*, not an approved new permanent address. Bobby looks at the Week 10 Cancún postcard on the RIGHT post, with empty stands LEFT and original flooded ruts below. This calls up the possible Losers Beach future he wants to reject, not a literal view or confirmed journey to an existing beach. After defeating Three Dreaded Snake in Week 10, Seven Deadly Chins arrives confident and asks where he should travel to keep his hopes for Playoff Island alive.
 
-**The turn.** Where Ben sees a straight approach, Bobby sees soft footing. Bobby has every reason to take the advantage and every right to leave Ben to figure it out. He gives him a warning anyway. Shoot Ben going back to look from the same low angle that made Bobby look abandoned last week. One man chose fairness. The other had to be willing to look foolish in order to accept it. A thin pink reflection in the puddle can pick out the letters while the churned bank still reads brown.
+**Blocking.** From Ben's tall truck cab, the false path looks safe. Bobby's one clean paw on the firm ground is a quiet contradictory clue. Bobby points Ben into the wet, misleading rut without admitting the danger. Ben accepts, leaves, and later sees repeating water scars/reeds and realizes the route is wrong. Use the old sign silhouette as recognizable anchor, not new, unapproved geography. Bobby stays behind at the outpost and lets a small smirk cross his face as Ben's lights disappear. He immediately returns to the postcard, an image of the season he hasn't fixed by hurting a rival.
 
-**After the result.** If Bobby wins, give Ben a real question about where he lost time. If Ben wins, let Bobby finish speaking before the competition or the verified-elimination Cancún coda takes the page. If tied, the sign remains where it was and the math needs another look. The nature of the contest can stay open while this exchange goes to storyboard.
+**Dialogical proof, fictional only.** Ben: “Which way to Playoff Island?” Bobby: “Follow the easy-looking ground. It opens up.” Ben: “You sure?” Bobby: “Looks that way from here.” These are new fictional script candidates from the artistic reading of the Owner's intent, **not his direct words**. Trim to fit F19. The absence of a long Bobby speech is deliberate.
+
+**Folio construction.** F19 covers outpost, question and misdirection. F20 follows Ben's discovery of the mistake, then Bobby's restrained satisfaction and lonely card. Match Week 10 physical p17 left/right placement, old letters, same swamp and both exact character references. Visually readable in a single scene without generic editorial cards, then check at phone width. Neither Playoff Island nor Losers Beach is added to Atlas or given a new route here.
+
+**Release logic.** Only post-Monday official ESPN winner state, Tuesday full twelve-team TheFFHub validation and independent qualifications justify a Mud spoilage claim, a Chins playoff consequence or Mud elimination. Win/loss/tie/pending select the ending's strength; do not let fiction invent a sporting result.
 
 ## Dr. Duckhook and The LLC · The executive office at Jackson
 
