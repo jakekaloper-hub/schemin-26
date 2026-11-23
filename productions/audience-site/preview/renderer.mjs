@@ -89,7 +89,8 @@ export function assertShadowFramebufferReady(gl,framebuffer){
  }
 }
 
-export function buildWorldGeometry(bindings,grid=200,treeCount=4300,{skipLandmarkIds=[]}={}){
+export function buildWorldGeometry(bindings,grid=200,treeCount=4300,{skipLandmarkIds=[],waterCellSize=16}={}){
+ if(waterCellSize!==8&&waterCellSize!==16)throw Error('INVALID_WATER_CELL_SIZE');
  const rand=rng(20261115),mesh=new MeshBuilder(),water=new MeshBuilder();
  function height(x,z){let h=rawHeight(x,z);for(const p of bindings){const d=Math.hypot(x-p.anchor[0],z-p.anchor[2]);if(d<3.2)h=mix(h,Math.max(2.6,rawHeight(p.anchor[0],p.anchor[2])),Math.pow(1-d/3.2,.6));}return h;}
  const N=grid,step=220/N,terrainVertices=new Map();
@@ -130,13 +131,16 @@ export function buildWorldGeometry(bindings,grid=200,treeCount=4300,{skipLandmar
   const c=x<-25?[.28+rand()*.07,.31+rand()*.08,.17]:[.10+rand()*.07,.24+rand()*.10,.18+rand()*.06];
   mesh.cone(x,y+h*.15,z,r,h*.85,c,5);mesh.cone(x,y+h*.42,z,r*.78,h*.72,c.map(v=>v*1.06),5);
  }
- for(let x=-320;x<320;x+=16)for(let z=-320;z<320;z+=16)water.quad([x,-.4,z],[x,-.4,z+16],[x+16,-.4,z+16],[x+16,-.4,z],[.115,.29,.31]);
+ // Increase physical wave sampling only for native WebGL. Canvas2D keeps the original
+ // 16-unit painter grid and eight-frames-per-second budget unchanged.
+ for(let x=-320;x<320;x+=waterCellSize)for(let z=-320;z<320;z+=waterCellSize)
+  water.quad([x,-.4,z],[x,-.4,z+waterCellSize],[x+waterCellSize,-.4,z+waterCellSize],[x+waterCellSize,-.4,z],[.115,.29,.31]);
 
 return {mesh,water,height};
 }
 export function createWorldRenderer(canvas,bindings,{onContextLost=()=>{}}={}){
  const gl=canvas.getContext('webgl',{antialias:true,alpha:false,preserveDrawingBuffer:true});if(!gl)return createSoftwareRenderer(canvas,bindings,{onContextLost});
- const {mesh,water,height}=buildWorldGeometry(bindings);
+ const {mesh,water,height}=buildWorldGeometry(bindings,200,4300,{waterCellSize:8});
  const P=program(gl,VS,FS),S=program(gl,SV,SF);
  const upload=m=>{const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(m.values),gl.STATIC_DRAW);return {buffer:b,count:m.values.length/9};};
  const terrain=upload(mesh),ocean=upload(water);mesh.values=null;water.values=null;
