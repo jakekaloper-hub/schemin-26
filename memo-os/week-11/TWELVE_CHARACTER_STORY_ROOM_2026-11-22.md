@@ -84,6 +84,20 @@ Manning's victory, if verified, should feel like proving that no delivery schedu
 
 **Week 12.** Slob hosts The Chili Cheesers. El Niño hosts Seven Deadly Chins. Future pressure follows the decided football consequences and witnesses, not a permanent road disaster. The full twelve-team Tuesday TheFFHub refresh and official standings select any playoffs language; no automatic Game of the Week selection.
 
+### Inklings editorial workshop — method-led critique for production
+
+These are three **modeled editorial readings of the existing manuscript**, not real-time attendance or signoff by named authors or autonomous staff.
+
+| Lens | Challenge | Operative revision / QA request |
+|---|---|---|
+| **Moral agency and consequence** | A truck disaster by itself is spectacle. What does Jordan actually decide? | Let him slow, brake and radio instead of recklessly risking the load. Losing the match means losing the promised hour, not losing his business or dignity. The wheel-over-edge peril is the visible cost of weather and a route decision. |
+| **Dueling character perspectives** | Can Manning meaningfully appear without instant travel to the swamp? | Preserve Manning's physical interaction at the Hearthroad window in F12. In F13 his point is embodied by weather worsening exactly as he predicted. If production requires a second literal Manning shot, it must occur on a vetted timeline and route, not a teleport. |
+| **World continuity and visual originality** | Does the dramatic image invent a cliff or destroy a road whose geography isn't settled? | Use a flood-eroded raised wetland shoulder and carefully framed rear-wheel overhang; confirm local truck access against Week 10 truck images. Keep the main course navigable for future Commonwealth use, preserve the beer load, and photograph the risk as one lived-in scene rather than another hero-poster layout. |
+
+**Commissioner's unresolved physical-art question for Atlas/Production:** exactly which source-approved portion of the swamp access shown in Week 10 can carry a loaded beer truck from Hearthroad via a temporally plausible journey? Treat F13's distant wetland shot as a **conditional shot candidate** until that evidence is resolved. In either final result the artistic scene cannot certify new topological connectivity.
+
+**Editorial verdict:** scene causality and both result branches are ready for conditional storyboard study; loaded-truck wetland location, actual 1080×1920 final raster and final fantasy winner remain HOLD.
+
 ## ObiWan’s mountain · Two men looking for the same audience
 
 *Week 10 mountain and rodeo · Founder O01–O06 · November 19 After Dark and House notes · ESPN-verified 2023 Week 13 meeting.*
