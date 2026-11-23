@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-23",
+  "purpose": "Explicit controlled reopening after November 23 G02 and G03/G06 editorial copy edits. Do not conflate with independent World/Week9 map-source hash incident.",
+  "trigger": "isolated Mac worktree HEAD 1f54e925: Week 11 creative and Atlas preflight passed, but preproduction/validate_folio_handoff.py failed F12: commission or printed instructions changed",
+  "method": "Recomputed exactly as existing validate_folio_handoff.py direction_digest(section,row): sha256(section body excluding [On the board] navigation, week11_direction, week11_acceptance_test joined with newline). No validator bypass or swallowed test failure.",
+  "reopened_folios": [
+    {
+      "folio": "F12",
+      "matchup": "G02",
+      "reason": "Hearthroad promise and later wetland conditional setup",
+      "old_digest": "ff685fba1cc6291359ce5b58118862b4b928656ac291ebc1e861cffec4fae654",
+      "new_digest": "41ccc0e82dca6b0c9aaff805f8229b2d7eb58444948beb44eedff3dd233392c4",
+      "old_source_revision": "8ecdd7c7e625956b74bfabaa62443210e4b1f36d",
+      "current_source_branch": "memo-v52rc-20261115-intake",
+      "kind": "EDITORIAL_INSTRUCTION_SHA256",
+      "comparison_png_sha256": "UNCHANGED",
+      "week10_original_png_sha256": "UNCHANGED"
+    },
+    {
+      "folio": "F13",
+      "matchup": "G02",
+      "reason": "Radio-to-storm return segment and source/route-access hold",
+      "old_digest": "1fe7cd5199721745e7100ff1311200373fe20f63bc5951c48d8603db8acec32c",
+      "new_digest": "c1d8a815778fbed93f368f6cd9d0cba744fccd4734e0ab6e0b183bc15a396d2e",
+      "old_source_revision": "8ecdd7c7e625956b74bfabaa62443210e4b1f36d",
+      "current_source_branch": "memo-v52rc-20261115-intake",
+      "kind": "EDITORIAL_INSTRUCTION_SHA256",
+      "comparison_png_sha256": "UNCHANGED",
+      "week10_original_png_sha256": "UNCHANGED"
+    },
+    {
+      "folio": "F14",
+      "matchup": "G03",
+      "reason": "OFF BOARD owner motive/Brandon hat black-brief note",
+      "old_digest": "8c7a802491895add93c0e14e1e1ab39f41ba8d2a753fbb0f77ea8cc8d13e4353",
+      "new_digest": "061c1e198e21af161c680945064b4e0ef492909d17e6d63736080da57e5d810a",
+      "old_source_revision": "8ecdd7c7e625956b74bfabaa62443210e4b1f36d",
+      "current_source_branch": "memo-v52rc-20261115-intake",
+      "kind": "EDITORIAL_INSTRUCTION_SHA256",
+      "comparison_png_sha256": "UNCHANGED",
+      "week10_original_png_sha256": "UNCHANGED"
+    },
+    {
+      "folio": "F21",
+      "matchup": "G06",
+      "reason": "Returning-key vs unsigned course offer nuance",
+      "old_digest": "2aaafbe1f8b499c17fba3da8d475791b74c9849de319bd6b6f9d3218eee393a5",
+      "new_digest": "6518e3bb6f9da27c1c2f337126f4f6168d3c8e0744dfb07096184c6be3674426",
+      "old_source_revision": "8ecdd7c7e625956b74bfabaa62443210e4b1f36d",
+      "current_source_branch": "memo-v52rc-20261115-intake",
+      "kind": "EDITORIAL_INSTRUCTION_SHA256",
+      "comparison_png_sha256": "UNCHANGED",
+      "week10_original_png_sha256": "UNCHANGED"
+    },
+    {
+      "folio": "F22",
+      "matchup": "G06",
+      "reason": "Second-sheet corporate notice/conditional coffee independent of football",
+      "old_digest": "08a1c9f8eed14d75e7661f2fd2b0a0c2176fe7222f4cabeb930c5a26443486bc",
+      "new_digest": "07f96276103cdb7a7a16b81e5f4af30bdfc2fc04c065c190c81c47947da2946c",
+      "old_source_revision": "8ecdd7c7e625956b74bfabaa62443210e4b1f36d",
+      "current_source_branch": "memo-v52rc-20261115-intake",
+      "kind": "EDITORIAL_INSTRUCTION_SHA256",
+      "comparison_png_sha256": "UNCHANGED",
+      "week10_original_png_sha256": "UNCHANGED"
+    }
+  ],
+  "no_changes_to": [
+    "35 stable folio IDs",
+    "private Schemin-Week-11-35-Folio-PNGs.zip",
+    "35 original Week 10 PNG hashes",
+    "original/private owner art",
+    "published league scoreboards",
+    "world/data/locations.json",
+    "Week 9 map manifest (separate unresolved issue)"
+  ],
+  "acceptance_to_verify": "After reading back branch, run python3 memo-os/week-11/preproduction/validate_folio_handoff.py; run source and atlas validations separately. Only those scripts' actual result can be reported as PASS. No independent publication approval inferred.",
+  "status": "RECALCULATED_WITH_PRIOR_HASH_AND_SOURCE_PRESERVED; MAC_RETEST_PENDING"
+}
