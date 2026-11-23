@@ -26,7 +26,12 @@ test('secondary native-WebGL terrain interpolates one identical albedo at every 
  }
  assert.equal(shared.size,(grid+1)*(grid+1),'all original grid corners remain');
  assert.ok(distinct.size>grid,'terrain albedo responds to relief and zones rather than a fixed swatch');
- assert.notDeepEqual(readVertex(mesh,0).color,readVertex(mesh,1).color,'albedo is truly per corner, not a cell constant');
+ let varyingTriangles=0;
+ for(let i=0;i<grid*grid*6;i+=3){
+  const rgb=[readVertex(mesh,i).color,readVertex(mesh,i+1).color,readVertex(mesh,i+2).color];
+  if(!rgb.every(c=>c.every((v,k)=>v===rgb[0][k])))varyingTriangles++;
+ }
+ assert.ok(varyingTriangles>grid,'many interior triangles carry interpolated albedo; uniform saturated edge sand is allowed');
 });
 
 test('terrain-color interpolation does not move source-bound places or affect physical water',()=>{
