@@ -1,0 +1,85 @@
+{
+  "folio": "F34",
+  "title": "Pittsy’s Book",
+  "classification": "INTERNAL_NATIVE_CANDIDATE",
+  "publication_approved": false,
+  "generation_intent_id": "W11-F34-COUNTER-20261124",
+  "commission": "OPEN_BOARD_PAGE_REHEARSAL.md#folio-34",
+  "production_lead": "production design",
+  "page_scope": "Across the counter only. Wider Book location unresolved.",
+  "character_packet": "canon/characters/CHAR-PHILLIP-PITTS/PACKAGE.md",
+  "generator": "OpenAI image generation, two explicit attached reference paths on the call",
+  "reference_inputs_in_order": [
+    {
+      "source_commit": "ad45e44fe12f3d4629e3ce457aa4b34f73f7ce22",
+      "source_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+      "role": "identity",
+      "subject": "CHAR-PHILLIP-PITTS",
+      "expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+      "supplied_file_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c"
+    },
+    {
+      "source_commit": "ad45e44fe12f3d4629e3ce457aa4b34f73f7ce22",
+      "source_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+      "role": "post-haircut current appearance",
+      "subject": "CHAR-PHILLIP-PITTS",
+      "expected_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+      "supplied_file_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+    }
+  ],
+  "generator_input_verification": "Both supplied files were rehashed and matched the registry. The provider returned the art file; no separately signed provider attestation was issued.",
+  "art_direction": {
+    "path": "art-direction.txt",
+    "sha256": "16e8b3fe1dfaacba55f6f3c024ed74833a505d60032db42188193007f99bddfd"
+  },
+  "photographic_source": {
+    "path": "plate.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 2480829,
+    "sha256": "bc9ccb6a96df770e713d7a0395e4f0dc2f1b83d2ef05cf746d17d2fb8bd471e8"
+  },
+  "native_and_phone": {
+    "native": {
+      "path": "F34.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 1291268,
+      "sha256": "4ed752b6a63612d8bea2e79e7dba641abbb0f53c8b834e9bee17287c882e5c82"
+    },
+    "phone": {
+      "path": "F34-390.png",
+      "dimensions": [
+        390,
+        693
+      ],
+      "bytes": 305770,
+      "sha256": "cd0df6c5f121ac9cb5c634cb32ffcfe85f52d952991314d0b8a7bae4045ec566"
+    }
+  },
+  "copy_file": "W11_READER_LETTERING_2026-11-24.md",
+  "folio_section_sha256": "700759d0ae545fad4a8b8253d271a2e86e47f5554ffb62213d7b69f4026bcba0",
+  "house_source": {
+    "path": "W11_PITTSYS_BOOK_FINAL_OWNER_LEDGER_2026-11-24.json",
+    "sha256": "9762bc255ffe477d7829a7221be1ffbcbbc9e7b3860526e4b4955d7ba44955ea",
+    "classification": "ACCEPTED_OWNER_HOUSE_POST_NOT_INDEPENDENT_TRANSACTION_VERIFICATION"
+  },
+  "checks": {
+    "phone_pixels_equal_native_downsample": true,
+    "posted_market_rows": 3,
+    "explicit_off_board_matchups": 2,
+    "sixth_matchup_status": "No designation on the dated posting",
+    "settlement_wagers": 8,
+    "settlement_staked_cents": 10650,
+    "bettor_net_cents": 2788,
+    "house_net_cents": -2788,
+    "season_house_record": "2–4",
+    "season_house_net_cents": -25201,
+    "producer_visual_readback": "Three heads share one post-haircut scaled torso. Counter, hands, slips and shutters read. Both off-board matchups, all three market totals, the $25 maximum, settlement and closing quote are visible on the phone proof."
+  },
+  "next": "Internal GM / OutputReview candidate review. Character acceptance and independent Umpire release remain open."
+}
