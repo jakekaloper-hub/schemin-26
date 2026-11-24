@@ -554,7 +554,10 @@ Chili's 49.73-point victory heightens Jake's public humiliation: Jake emerges ch
 **November 24 definitive director performance / camera lock.** [Full six-game result-selected script](W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). **Dominant image:** Full vertical ladder portrait with Jake's face and BOTH boots dripping thick chili, Brandon and his black hat at edge, rain falling. **Acting:** Dramatic joke fades into Brandon's quiet concern and Jake's playoff anxiety. **Selected authored dialogue:** “I thought we were going back.” **Hold:** Chili wins by 49.73; ObiWan model 12.88%, no clinched elimination. **Image acceptance:** Jake face & both boots simultaneously at 390px The earlier conditional branch is historical, not current publication copy.
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f16) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-16) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-16) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f16)
 
-<a id="folio-17"></a>17171717
+<a id="folio-17"></a>
+
+**Latest G04 operative revision:** Kevin Zeek stopped at the break in the vegetation. Rain had erased the easy-looking path, leaving roots slick and mud deep enough to steal a stride. Last week he had watched water undo his own defenses. He was not about to let Phillip see him hesitate. 'Race you to the dry stone.' Phillip Pitts turned all three heads toward the opening. 'You sure you want the short way?' Kevin grinned. 'I usually do.' He took the direct approach; Phillip followed the longer, firmer edge of the same visitor-side clearing. **Visual:** Low wide: Kevin chooses direct muddy approach; Phillip observes firm edge, one body three heads. No bounty costume or bag; earlier alternatives are archival.
+17171717
 
 ### F17 · Pick a side
 
@@ -587,7 +590,10 @@ Three Dreaded Snake wins 125.74–94.80 over Kevin. At waterfall jungle's outer 
 **November 24 definitive director performance / camera lock.** [Full six-game result-selected script](W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). **Dominant image:** Visitor-side waterfall jungle, deep wet mud, wind-blown leaves, two paths and dry-ish stone; Phillip ONE body THREE post-haircut heads. **Acting:** Kevin checks footing because his own Week10 venue suffered damage. **Selected authored dialogue:** “Pick a side.” **Hold:** No Pitts private courtyard, no new approved sport until source lock. **Image acceptance:** Three heads ONE torso and two approaches read The earlier conditional branch is historical, not current publication copy.
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f17) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-17) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-17) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f17)
 
-<a id="folio-18"></a>18181818
+<a id="folio-18"></a>
+
+**Latest G04 operative revision:** Kevin had the first few strides. Then the mud caught his foot and he had to steady himself against a root. Across the clearing Phillip kept moving, one head watching the ground, another tracking Kevin, the third fixed on the sheltered stone. When Kevin reached it, Phillip was already waiting. Kevin looked down at his muddy legs. 'You should see me on dry ground.' Phillip glanced at the stone beneath them. 'All three of us would love to.' Kevin laughed despite himself. The Snake had won on his own ground, 125.74 to 94.80. **Visual:** Same clearing reverse: Phillip waits on sheltered stone; muddy Kevin arrives, both visible. No bounty costume or bag; earlier alternatives are archival.
+18181818
 
 ### F18 · The dry stone
 
