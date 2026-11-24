@@ -229,23 +229,23 @@ export function createBaseWaterMaterial(THREE,shorelineTexture=null){
 export function createAtmosphericSky(THREE){
  const geometry=new THREE.SphereGeometry(1,24,12);
  const material=new THREE.ShaderMaterial({
-  uniforms:{uHorizon:{value:new THREE.Color('#bed1cf')},uStrength:{value:1}},
+  uniforms:{uHorizon:{value:new THREE.Color('#bed1cf')},uDaylight:{value:1}},
   vertexShader:`varying vec3 vSkyDirection;
    void main(){
     vSkyDirection=position;
     gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);
    }`,
-  fragmentShader:`uniform vec3 uHorizon;uniform float uStrength;
+  fragmentShader:`uniform vec3 uHorizon;uniform float uDaylight;
    varying vec3 vSkyDirection;
    void main(){
     vec3 ray=normalize(vSkyDirection);
     float upper=smoothstep(.015,.72,max(ray.y,0.));
-    float light=clamp(uStrength,0.,1.);
-    vec3 zenith=mix(vec3(.23,.35,.43),vec3(.28,.43,.53),light);
+    float light=clamp(uDaylight,0.,1.);
+    vec3 zenith=mix(vec3(.012,.025,.052),vec3(.28,.43,.53),light);
     vec3 col=mix(uHorizon,zenith,.72*upper);
     // The candidate solar halo follows the existing directional-light vector.
     float halo=pow(max(dot(ray,normalize(vec3(-95.,150.,60.))),0.),22.);
-    col+=vec3(.55,.42,.24)*halo*(.08+.13*light)*upper;
+    col+=vec3(.55,.42,.24)*halo*.21*light*upper;
     gl_FragColor=vec4(col,1.);
     #include <colorspace_fragment>
    }`,
@@ -256,6 +256,17 @@ export function createAtmosphericSky(THREE){
  sky.scale.setScalar(1000);sky.renderOrder=-1000;sky.frustumCulled=false;
  sky.userData={visualAuthority:'CANDIDATE_NOT_APPROVED'};
  return sky;
+}
+/** Use the existing illustrative clock floor (.32), not a second clock or
+ * weather input. Keep noon colors and fog/horizon continuity; only optical
+ * daylight goes to zero at night, leaving terrain and water lighting intact.
+ */
+export function applyAtmosphereLighting(sky,background,fogColor,strength){
+ const daylight=Math.max(0,Math.min(1,(strength-.32)/.68));
+ background.setRGB(.055+daylight*.445,.085+daylight*.545,.13+daylight*.51);
+ fogColor.copy(background);
+ sky.material.uniforms.uHorizon.value.copy(fogColor);
+ sky.material.uniforms.uDaylight.value=daylight;
 }
 /** A source-identified, local water-haze candidate over the existing Mud Dogs
  * swamp disc. This is illustrative optical depth, not a storm, weather event,
@@ -379,7 +390,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
    sun.shadow.camera.updateProjectionMatrix();renderer.shadowMap.needsUpdate=true;
    lastShadowKey=shadowKey;stats.shadowRefreshes++;
   }
-  sun.intensity=.35+strength*2.15;hemisphere.intensity=.45+strength*.95;scene.background.setRGB(.39+strength*.11,.49+strength*.14,.50+strength*.14);scene.fog.color.copy(scene.background);sky.material.uniforms.uHorizon.value.copy(scene.fog.color);sky.material.uniforms.uStrength.value=strength;
+  sun.intensity=.35+strength*2.15;hemisphere.intensity=.45+strength*.95;applyAtmosphereLighting(sky,scene.background,scene.fog.color,strength);
   renderer.render(scene,camera);stats.frames=++frames;stats.waterTime=lastTime;stats.triangles=renderer.info.render.triangles;stats.drawCalls=renderer.info.render.calls;stats.memory={...renderer.info.memory};
  }
  function project(p){if(disposed)return null;const v=new THREE.Vector3(...p).project(camera);if(v.z<-1||v.z>1)return null;return {x:(v.x*.5+.5)*canvas.clientWidth,y:(.5-v.y*.5)*canvas.clientHeight,depth:v.z};}

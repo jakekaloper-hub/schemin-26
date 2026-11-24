@@ -27,7 +27,7 @@ test('existing base water participates in world atmospheric fog without new draw
  assert.match(material.vertexShader,/vec4 mvPosition=modelViewMatrix\*vec4\(p,1\.\)/);
  assert.match(material.vertexShader,/gl_Position=projectionMatrix\*mvPosition/);
  assert.doesNotMatch(material.vertexShader+material.fragmentShader,/uniform (?:vec3 fogColor|float fogDensity)/);
- assert.match(source,/scene\.fog\.color\.copy\(scene\.background\)/);
+ assert.match(source,/applyAtmosphereLighting\(sky,scene\.background,scene\.fog\.color,strength\)/);assert.match(source,/fogColor\.copy\(background\)/);
  material.dispose();
 });
 
