@@ -1,0 +1,77 @@
+{
+  "schema": "schemin26.sck_typed_handoff.v52rc",
+  "run_id": "S26-MEMO-W11-20261124",
+  "trace_id": "TRACE-S26-MEMO-20261124-1417621",
+  "work_key": "league=1417621/season=2026/week=11/observation=2026-11-24/source=flaim-espn",
+  "assignment_id": "ECS-DATA-STEWARD-1417621-20261124",
+  "from": "ECS/LEAGUE_DATA_PLATFORM",
+  "to": "DATA_RELEASE_STEWARD",
+  "artifact": "memo-os/week-9/WEEK_11_PROVIDER_EVIDENCE_2026-11-24.json",
+  "artifact_blob_sha": "00fcf1863775891303c7fe75d561ed7feb52da96",
+  "artifact_version": 1,
+  "source_authority": "ESPN league 1417621 through authenticated Flaim; provider-normalized preliminary only",
+  "source_snapshot": "data/live:data/snapshots/1417621/manifest.json@d9d3e514ba3f13512ec585be128be56fbfc98d50",
+  "status": "ASSIGNED",
+  "ack_state": "ASSIGNED",
+  "receiver_identity": null,
+  "receiver_signature": null,
+  "receiver_validated_at": null,
+  "verified_facts": [
+    "Week 11 all six ESPN provider winner states decided",
+    "Week 12 all six winner states UNDECIDED",
+    "Week 11 43 structured transaction records; Week 12 first observation 1 record",
+    "59 preliminary checks recorded in evidence; five additional scoped readback comparisons passed"
+  ],
+  "interpretations": [
+    "ESPN provider-decided results are not internal FACT_LOCK",
+    "Brandon Aiyuk historical team affiliation changes in Week 9/10 are metadata revisions, not additional transactions"
+  ],
+  "assumptions": [
+    "Current roster ownership is not inferred from transaction history"
+  ],
+  "unavailable": [
+    "Original ESPN HTTP bytes and headers available to this reviewer",
+    "Complete independent parsed gateway parity; separate direct-source parity receipt covers six Week 11 scores and twelve records only",
+    "Authenticated signed Steward RECEIVED/VALIDATED receipt",
+    "Independent release QA"
+  ],
+  "unresolved": [
+    "RAW_PROVENANCE",
+    "INDEPENDENT_SEMANTIC_AND_FRESHNESS_REVIEW",
+    "SCK_ACK",
+    "CANONICAL_SNAPSHOT_LOCK",
+    "FACT_LOCK"
+  ],
+  "confidence": "provider_normalized_preliminary",
+  "qa_already_performed": [
+    "deterministic_preflight_only",
+    "fresh readback: Week 11 and 12 matchup tuples, competitive standings and full normalized Week 11 and 12 transaction rows identical to stored observations",
+    "separate direct parity receipt inspected; raw bytes not independently accessible"
+  ],
+  "prohibited_inferences": [
+    "PENDING_OR_UNKNOWN_IS_COMPLETED",
+    "LIVE_SCORE_IS_FINAL",
+    "CI_IS_STEWARD_APPROVAL",
+    "MERCER_AS_SOURCE",
+    "RC_IS_PERMANENT"
+  ],
+  "dependencies": [
+    "SOURCE_LINEAGE",
+    "INDEPENDENT_STEWARD_RECEIVER",
+    "SIGNED_VALIDATION_RECEIPT"
+  ],
+  "next_required_action": "Authenticated independent Steward must review evidence and direct-source receipt, verify original provenance, and issue signed ACK/validation or return reason code. No receiver action inferred.",
+  "next_gate": "CANONICAL_SNAPSHOT_LOCK",
+  "rejection_reason": "MISSING_AUTHENTICATED_STEWARD_ACK",
+  "required_checkpoints": [
+    "CANONICAL_SNAPSHOT_LOCK",
+    "FACT_LOCK",
+    "STORY_LOCK",
+    "CHARACTER_PACKET_LOCK",
+    "ART_LOCK",
+    "COPY_LOCK",
+    "PAGE_LOCK",
+    "RELEASE_DATA_FREEZE"
+  ],
+  "publication_state": "HOLD"
+}
