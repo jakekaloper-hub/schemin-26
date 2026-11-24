@@ -25,15 +25,14 @@ function instrument(rendererName,demo=null){
  const context={ambient,ambientCtx,renderer,canvas:{clientWidth:640,clientHeight:360},camera:{target:[0,0,0],distance:30,yaw:0,pitch:.65},innerWidth:640,innerHeight:360,
   window:{devicePixelRatio:1},demo,
   weather:{affectedZoneIds:['REG-EASTERN-STORM-COAST']}};
- const {drawAmbient,needsAmbientFallbackGlints}=vm.runInNewContext(
-  source.slice(begin,end)+'\n({drawAmbient,needsAmbientFallbackGlints})',context
+ const {drawAmbient}=vm.runInNewContext(
+  source.slice(begin,end)+'\n({drawAmbient})',context
  );
- return {calls,drawAmbient,needsAmbientFallbackGlints};
+ return {calls,drawAmbient};
 }
 
 test('Three.js water is shaded only in depth-tested WebGL, without screen-space glints',()=>{
  const x=instrument('three-webgl2',0);
- assert.equal(x.needsAmbientFallbackGlints('three-webgl2'),false);
  x.drawAmbient(12);
  assert.equal(x.calls.ellipses,0);
  assert.equal(x.calls.height,0);
@@ -48,14 +47,27 @@ test('native WebGL also keeps ownership of its existing physical water shading',
  assert.equal(x.calls.height,0);
 });
 
-test('Canvas2D fallback retains the 120 water glints, including during synthetic calm',()=>{
- const x=instrument('canvas2d-spatial-fallback',0);
- assert.equal(x.needsAmbientFallbackGlints('canvas2d-spatial-fallback'),true);
+test('Canvas2D ordinary water belongs to its surface-contact renderer even during synthetic calm',()=>{
+ for(const demo of [null,0]){
+  const x=instrument('canvas2d-spatial-fallback',demo);
+  x.drawAmbient(12);
+  assert.equal(x.calls.ellipses,0);
+  assert.equal(x.calls.height,0);
+  assert.equal(x.calls.projection,0);
+  assert.equal(x.calls.strokes,0);
+  assert.equal(x.calls.clears,1);
+ }
+ const fallback=readFileSync(new URL('../renderer.mjs',import.meta.url),'utf8');
+ assert.match(fallback,/for\(let i=0;i<110;i\+\+\)/);
+ assert.match(fallback,/canvasSheenVisible\(start,end,eye,height\)/);
+});
+
+test('Canvas2D storm overlay retains rain but never reinstates duplicate water glints',()=>{
+ const x=instrument('canvas2d-spatial-fallback',1);
  x.drawAmbient(12);
- assert.equal(x.calls.ellipses,120);
- assert.equal(x.calls.height,120);
- assert.equal(x.calls.strokes,120);
- assert.equal(x.calls.clips,0);
+ assert.equal(x.calls.ellipses,0);
+ assert.equal(x.calls.projection,220);
+ assert.equal(x.calls.strokes,110);
 });
 
 test('bounded regional storm optics reproject 110 existing-world drop columns without duplicating WebGL water glints',()=>{

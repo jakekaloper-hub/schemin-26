@@ -235,12 +235,9 @@ function sizeAmbientCanvas(surface,context,cssWidth,cssHeight,pixelRatio){
  context.setTransform(pw/w,0,0,ph/h,0,0);
  return [w,h];
 }
-// WebGL shaders already shade and animate their own physical water. A second
-// screen-space sheen would render above land/buildings without depth testing.
-// Keep this illustrative optical cue only for the Canvas2D compatibility path.
-function needsAmbientFallbackGlints(rendererName){
- return rendererName==='canvas2d-spatial-fallback';
-}
+// Every existing renderer owns its own ordinary water optics. In particular,
+// Canvas2D already draws surface-contact, terrain-masked sheen strokes; a second
+// screen-space pass would bypass those visibility checks. Ambient owns rain only.
 /** World-projected synthetic weather optics within EXISTING region bounds.
  * This is not simulated hydrology or a new Atlas location; ordinary environment
  * motion is independent of the result-driven weather demonstration.
@@ -289,7 +286,6 @@ function drawAmbient(t){
  if(!ambientCtx||!renderer)return;
  const [w,h]=sizeAmbientCanvas(ambient,ambientCtx,innerWidth,innerHeight,window.devicePixelRatio);
  ambientCtx.clearRect(0,0,w,h);
- if(needsAmbientFallbackGlints(renderer.stats?.renderer))for(let i=0;i<120;i++){const x=Math.sin(i*42.31)*125,z=Math.cos(i*19.27)*130;if(renderer.height(x,z)>-.3)continue;const p=renderer.project([x,-.15,z]);if(!p)continue;const alpha=(.08+.08*Math.sin(t*.65+i))*.6;ambientCtx.strokeStyle=`rgba(220,230,212,${alpha})`;ambientCtx.lineWidth=.8;ambientCtx.beginPath();ambientCtx.ellipse(p.x,p.y,3+2*Math.sin(t*.3+i),.6,0,0,Math.PI*2);ambientCtx.stroke();}
  // Synthetic storm presence is a bounded optical cue, not a weather feed.
  // World-space drops follow existing source-zone rectangles and the 3D camera;
  // bounded terrain line-of-sight rejects obscured drops; buildings are not depth-tested.
