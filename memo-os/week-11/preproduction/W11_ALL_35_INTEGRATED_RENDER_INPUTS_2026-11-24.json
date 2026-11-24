@@ -80,7 +80,10 @@
     "continuity": "Respect preceding and following page, exact cast, prop and geometry, game outcome and established prior-week motifs; visual style may vary by editorial purpose.",
     "candidate_approval": "Do not infer permission to generate published identity-safe canon art from symbolic storyboards or semantic descriptions. Renderer mount hashes, subject binding and Atlas approval remain actual gates.",
     "qa": "Inspect native PNG 1080x1920, deterministic print copy against exact reader, 390x693 resampling, cast identity, physical causality, World continuity, text coverage, and independent Umpire acceptance. No PASS from an aesthetic image alone.",
-    "workflow": "User directs each page. No automatic new image output before the user instructs it. Tldraw paused, no PDF assembly."
+    "workflow": "User directs each page. No automatic new image output before the user instructs it. Tldraw paused, no PDF assembly.",
+    "photographic_realism": "Make each scene convincingly photographed in a physical world BEFORE adding fantasy action and editorial typography. Material realism does not require every image to look identical.",
+    "photographic_quality_source": "memo-os/week-11/preproduction/W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+    "photographic_4k_strategy": "Final composite at 4K with vector/deterministic type; if base artwork remains 941x1672 or 1080x1920, enlargement increases pixel count but does not invent high-frequency detail. Sharpness must be judged at native effective detail and phone legibility."
   },
   "counts": {
     "total_pages": 35,
@@ -221,6 +224,22 @@
         ],
         "native_sha256": "25bdf746e914b5021c286f2d654c17ddd3c05eb25d48531d72c4c2c7973f5df8",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Authentic storm-lit bridge stone or approved alternate Chili carnival; monumental action still feels shot by a real camera, not a digital painting.",
+        "camera_lens_and_exposure": "Wide establishing 28–35mm, physically justified practical light, atmospheric rain with high-contrast subject",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -325,6 +344,22 @@
         ],
         "native_sha256": "ce95c0f95dfd253f35980a45353a8b311597f52ad74352de80b03c16017f4999",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Rain-damp records room: engraved wood grain, paper fibers, oil sheen on lamp glass, wet boot marks.",
+        "camera_lens_and_exposure": "Documentary 50mm, soft lamp falloff, distinct real shadows",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -404,6 +439,22 @@
         ],
         "native_sha256": "5f20b3208d221eb26a15b7bf57ca227111db97d80a21d6bc43bfc455d2aec91a",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Real ink absorption, folded paper fibers, hand contact, wax/metal aged honestly; signature exact.",
+        "camera_lens_and_exposure": "Macro 70mm on document, clean editorial copy separate",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -483,6 +534,22 @@
         ],
         "native_sha256": "581ff56abfc8a575c24a9a39a55e376cd388f363aeccac0f34c156720b528a1a",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Real stadium or chamber score rail surface with weathering, clerk and practical bulb reflections; exact scores typed.",
+        "camera_lens_and_exposure": "50mm restrained frontal doc photograph",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -637,6 +704,22 @@
         ],
         "native_sha256": "93c22b88d9afab4c976025065703c5b02f71390cf55b835bf783e5c941109b14",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Identity-faithful photo portrait plates embedded in the same tangible bronze register, not plastic game-character busts.",
+        "camera_lens_and_exposure": "85mm photographic portraits with directional falloff",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -783,6 +866,22 @@
         ],
         "native_sha256": "93c22b88d9afab4c976025065703c5b02f71390cf55b835bf783e5c941109b14",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Same bronze/register materials and portrait falloff as F05; seventh place visible in real-depth surface.",
+        "camera_lens_and_exposure": "Same controlled photographic portrait treatment as F05",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -864,6 +963,22 @@
         ],
         "native_sha256": "93c22b88d9afab4c976025065703c5b02f71390cf55b835bf783e5c941109b14",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "True paper/ledger grain, handheld straightedge contact shadow, clear distinction between ink and typed factual figures.",
+        "camera_lens_and_exposure": "Close 50mm archive photograph",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -943,6 +1058,22 @@
         ],
         "native_sha256": "5d2056b6b90fe2fc5f8dd78ab2aee93409f22a28671ec991e338703055216fcd",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Use today’s wet gravel/grass/puddle reference directly for material quality on Hearthroad; distinct Mountain Lake stone cart-wheel shot.",
+        "camera_lens_and_exposure": "Ground-height 35/50mm, natural depth of field, micro-droplets, no background teleported",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -1175,6 +1306,22 @@
         "no_folio_ids_on_print": true,
         "wilson_old_native_handle_blocked": true,
         "austin_character": "HOODED GLOWING RED EYES; no exposed generic face"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Retain already Founder-approved P09 composition; improve subtle physical texture if future finishing without redrawing approved figures.",
+        "camera_lens_and_exposure": "Wide stone geometry plus intimate actor close shots and motion. Do not revise approved art without instruction",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -1425,6 +1572,22 @@
         "no_folio_ids_on_print": true,
         "wilson_old_native_handle_blocked": true,
         "austin_character": "HOODED GLOWING RED EYES; no exposed generic face"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Steel blade metal scuffs, real wet stone traction, layered rain depth, cloak fabric inertia, four hoof contact.",
+        "camera_lens_and_exposure": "Fast-shutter practical action still with matched camera axis and believable motion blur",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -1657,6 +1820,22 @@
         "no_folio_ids_on_print": true,
         "wilson_old_native_handle_blocked": true,
         "austin_character": "HOODED GLOWING RED EYES; no exposed generic face"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Wetted armor with real spray and wave physics; thick whitecaps and real gravity at parapet, identifiable living head.",
+        "camera_lens_and_exposure": "Low carter POV then spray-level survivor lens; lake not river",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -1801,6 +1980,22 @@
         ],
         "native_sha256": "b3e5419ebfcaa9e95d816051f60ad894f9fefa11c03622edf6e3db3544ed9f93",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Fogged cab windshield, real dust and wet wiper scratches, dashboard worn plastic, damp delivery paper, same truck paint.",
+        "camera_lens_and_exposure": "Interior 35mm practical dash light and rainy side-window exposure",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -1945,6 +2140,22 @@
         ],
         "native_sha256": "0e0e2aefe274608baa217ca73407c757217bad6a88f74012f51d8d8c9dfe9777",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Actual vehicle scale, heavy metal barrels rolling with grounded gravity and wet reflections, readable tie geometry.",
+        "camera_lens_and_exposure": "Wide roadway 35mm with telephoto mirror detail",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -2109,6 +2320,22 @@
         ],
         "native_sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Rain-beaded rodeo hat leather, real carnival bulb reflections, paper notice curling at edges, muddy uphill spectators.",
+        "camera_lens_and_exposure": "50mm public reportage, natural facial texture",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -2273,6 +2500,22 @@
         ],
         "native_sha256": "af769d70ef6a238a2b63ff5a8ddaf428bc5c42dd8ca0e45c2d79690d0ed3e4f0",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Real glass smear, lensing through thick chili, believable splash viscosity, weather outside vs chili inside; precisely one target hit.",
+        "camera_lens_and_exposure": "High-speed action photo plus underwater/cross-glass still, no cartoon liquid",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -2436,6 +2679,22 @@
         ],
         "native_sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Sticky textured chili clings to fabric and boot leather, differing from rainfall, face to both boots in focus.",
+        "camera_lens_and_exposure": "Full-length 35mm documentary portrait",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -2580,6 +2839,22 @@
         ],
         "native_sha256": "4e431687102250a1c39e7038a6ade4e45104c4a72e2005cf9071e7163419ff7d",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Wet tropical root bark, mud adhesion to shoes, different ground firmness, real leaf translucency under rain.",
+        "camera_lens_and_exposure": "35mm ground and figure story, sheltered stone landmark",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -2724,6 +2999,22 @@
         ],
         "native_sha256": "fd0601e4884fc430922f3389f2f2dad207706dbe0f26cf6491b079a4a4cd0b0f",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Same roots and wet ground; captured high-detail mud smear and subtle runoff, Phillip one body three heads.",
+        "camera_lens_and_exposure": "50mm reverse of same camera world, credible actor surface",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -2868,6 +3159,22 @@
         ],
         "native_sha256": "425e824ec60c4fd053cc9b5e5c5e8fd16ce19ac6ce5679efc587f67c91656b62",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Brown flooded water surface, real reed edges, waterline on sign support, dry paw/flood boundary, truck window raindrops.",
+        "camera_lens_and_exposure": "Low 35mm sign-and-paw perspective",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3012,6 +3319,22 @@
         ],
         "native_sha256": "57f9e808621787e840f51990e090fc0b8acaa711f88065055a1a8cdaefb8b687",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Same sign corrosion and ruts, reflected headlight beams through humid haze, soft postcard paper edges.",
+        "camera_lens_and_exposure": "Long-lens road reflection anchored to repeated sign",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3156,6 +3479,22 @@
         ],
         "native_sha256": "70fde235a6fcdb7aa26ce4f1c65d29d7cde0ebc805612f944c02cd2367ab3431",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Wet course key, office desk wood pores, real storm through glass, restrained faces and dry paper contrast.",
+        "camera_lens_and_exposure": "50mm cinematic office daylight+warm desk practical",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3300,6 +3639,22 @@
         ],
         "native_sha256": "6b37482349e4b4efa21fd1041c33ae63d48e92a4fb8093f8be10412cdac34a65",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Tactile legal-looking fictional paper, ink and dry pen/chair contact, truly legible words without fake printed texture.",
+        "camera_lens_and_exposure": "85mm shallow-depth corporate still with sharp document plane",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3379,6 +3734,22 @@
         ],
         "native_sha256": "d7810868b992de977cb680064901e1ba3820c378cb4755a1729289309a623b9d",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Genuine desk clutter, physically separate matchup sheets and graphite marks, documentary newsroom surface.",
+        "camera_lens_and_exposure": "Over-shoulder 50mm hands/paper; data deterministically typeset",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3458,6 +3829,22 @@
         ],
         "native_sha256": "d7810868b992de977cb680064901e1ba3820c378cb4755a1729289309a623b9d",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Same newsroom surfaces, slightly reverse camera position and practical lighting, unique sheets.",
+        "camera_lens_and_exposure": "Reverse 50mm with source exact tables",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3539,6 +3926,22 @@
         ],
         "native_sha256": "155636bbbaef822f8b909e8a17eb2ac7ee20b28a0314b730e31509bbd89ae959",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Two dated real paper receipts with separate weathered surfaces; never invent doctor or medical images.",
+        "camera_lens_and_exposure": "Macro 70mm, hard clean date plane",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3618,6 +4021,22 @@
         ],
         "native_sha256": "3b2b6d6f29336104ff78ce8a8204510c5db3677b7ef5c6a74e95d400e480fd54",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Starter page and bench page at distinct physical positions, pencil, clear line spacing.",
+        "camera_lens_and_exposure": "50mm practical desk shadow",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3697,6 +4116,22 @@
         ],
         "native_sha256": "1f1137e07cb3b44c12ca9dd069944a60ce10fd24b0699893f0bf91558d8651cf",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Stamped waiver slip and ledger slot, stamp ink feathering on paper, cast shadow.",
+        "camera_lens_and_exposure": "Close overhead documentary still",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3778,6 +4213,22 @@
         ],
         "native_sha256": "40d11cd62dee55003fe038fe9dceb7c73f278d6c28415af0debd473275237364",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Three tactile cloth banners and wood/bronze archive register, true seams and folds, no cartoony map.",
+        "camera_lens_and_exposure": "50mm archive photograph, accurate lettering overlay",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3857,6 +4308,22 @@
         ],
         "native_sha256": "659fae7b9610f58d5aff739e6bcdde75ab980aad25440ff58b4644f4ed10acd5",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Real machinist metal scale with nicks and patina, shot in authentic perspective; editorial math crisp.",
+        "camera_lens_and_exposure": "Close product/documentary lens with deterministic figures",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -3938,6 +4405,22 @@
         ],
         "native_sha256": "9e734a6169f3514ac2135ffdab45ecba1688897aa33ec24e2aa3f0d945bb9f0b",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Seven actual vacant honor recesses and paper charts as objects, subtle light on material, no fantasy island hallucination.",
+        "camera_lens_and_exposure": "35mm archive still with readable probability overlay",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -4027,6 +4510,22 @@
         ],
         "native_sha256": "b0f7016637798f139088df0b538ea4512509d3abebae8a8308e9002a1ec62232",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Live night rain beyond actual shack window, lamp bounce on skin and wood, printed clipping with paper fibers.",
+        "camera_lens_and_exposure": "50mm intimate two-shot / 85mm reaction",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -4106,6 +4605,22 @@
         ],
         "native_sha256": "c0aacba69d988231e64aaa52e563ec5c214e686eec34957fb42899e6a478be3d",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Physical rail/dispatch slats, practical lantern lighting, faithful paper and paint textures; visible arrow semantics.",
+        "camera_lens_and_exposure": "Front-on archival documentary photograph with typed matchups",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -4204,6 +4719,22 @@
         ],
         "native_sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Credible Storm Bowl entrance road and terrain, lantern/headlight falloff with world approval; avoid fabricated road geography.",
+        "camera_lens_and_exposure": "28–35mm evening arrival film still",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -4297,6 +4828,22 @@
         ],
         "native_sha256": "f1a93a9de35e97658c60009f800c3d093bc172084e94bf24961dd087258d5cc9",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Real wooden counter with wet sleeve shine, physical dice/ledger microtextures, three-head source-safe Phillip.",
+        "camera_lens_and_exposure": "50mm low light interior documentary, source-safe identity",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     },
     {
@@ -4376,6 +4923,22 @@
         ],
         "native_sha256": "0e0e2aefe274608baa217ca73407c757217bad6a88f74012f51d8d8c9dfe9777",
         "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
+      },
+      "photographic_realism_contract": {
+        "source": "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json",
+        "founder_reference_sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+        "reference_use": "STYLE_SURFACE_LIGHT_LENS_NOT_GEOLOCATION",
+        "physical_reality_anchor": "Today’s wet gravel/grass road feel informs Storm Coast approach material only; one real local landmark, natural reflections.",
+        "camera_lens_and_exposure": "Ground-height 35mm, moody late dusk and headlight diffusion",
+        "mandatory_scene_cinema": "physical photo realism, tactile material weathering, region-specific real lighting; no airbrushed CGI fantasy treatment; preserve approved cast and Atlas site",
+        "finishing": "4K final composite with separate exact deterministic typography; deliver 1080x1920 and 390x693; do not equate upscaling with new scene detail",
+        "stop_on": [
+          "missing full source copy",
+          "misidentified character",
+          "wrong source location",
+          "unclear physically caused action",
+          "mismatched character dialogue"
+        ]
       }
     }
   ],
