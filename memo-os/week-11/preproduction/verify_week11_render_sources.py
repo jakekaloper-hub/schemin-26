@@ -61,14 +61,27 @@ for match in reconcile["matchups"]:
 brandon = ROOT/"canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png"
 expected = "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f"
 observed = digest(brandon) if brandon.is_file() else "MISSING"
-check("brandon_oct22_override_exact_sha256",observed==expected,
-      "expected=%s observed=%s" % (expected, observed))
+# This check is intentionally a RELEASE HOLD, not a source-assembly failure:
+# the prior Week10 local copy was found to have a DIFFERENT SHA-256, and was
+# removed from the canonical path. Human production may audition with the
+# approved Oct18 lineup crop plus Commissioner Oct22 semantic correction;
+# the exact Oct22 approved bytes are still required for canonical identity release.
+RELEASE_HOLDS = []
+if observed != expected:
+    RELEASE_HOLDS.append({
+        "gate":"BRANDON_CURRENT_OVERRIDE_EXACT_SOURCE",
+        "status":"BLOCKED",
+        "expected_sha256":expected,
+        "observed_sha256":observed,
+        "action":"Do not treat prior Week10 local-copy bytes as Oct22 approved original."
+    })
 result = {
-  "status":"SOURCE_PREFLIGHT_PASS_ONLY" if not ERRORS else "SOURCE_PREFLIGHT_FAIL",
+  "status":"WORKING_ART_SOURCE_PREFLIGHT_PASS" if not ERRORS else "WORKING_ART_SOURCE_PREFLIGHT_FAIL",
   "publication_approved":False,
   "render_bound_subjects_attested":False,
   "approved_cinematic_plates_in_current_registry":0,
   "accepted_final_png_count":0,
+  "release_holds":RELEASE_HOLDS,
   "errors":ERRORS,
   "checks":REPORTS,
 }
