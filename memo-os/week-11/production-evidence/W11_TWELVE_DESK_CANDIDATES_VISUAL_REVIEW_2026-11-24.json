@@ -1,0 +1,382 @@
+{
+  "schema": "schemin.w11.desk-proof.production-review.v1",
+  "source_commit": "ad45e44fe12f3d4629e3ce457aa4b34f73f7ce22",
+  "request_id": "W11-DESK12-c04f310bce8a",
+  "requested_by": "the_setup_man",
+  "copy_owner": "the_beat_writer",
+  "receiving_director": "the_gm",
+  "receiving_staff": "OutputReviewStaff",
+  "performed_by": "Codex delegated production visual review",
+  "scope": "Production-side reading and reproduction check of the submitted desk proofs. The receiving director, release Steward and independent Umpire retain their decisions.",
+  "inputs": {
+    "manifest": {
+      "path": "memo-os/week-11/preproduction/desk-proofs-20261124/proofs.json",
+      "sha256": "c04f310bce8a70fd4693c2f0ba364a0cc32ed8313e8f5406aa5f9de26eaa6d1d"
+    },
+    "reader_lettering": "memo-os/week-11/preproduction/W11_READER_LETTERING_2026-11-24.md",
+    "renderer": "memo-os/week-11/preproduction/desk-proofs-20261124/render.py",
+    "shot_specs": "memo-os/week-11/preproduction/W11_ALL_35_VISUAL_DIRECTOR_SHOT_SPECS_2026-11-23.json",
+    "selected_cuts": "memo-os/week-11/preproduction/W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json"
+  },
+  "checks": {
+    "unique_folios": 12,
+    "verified_png_sha256_lengths_and_dimensions": 24,
+    "matching_title_and_body_sha256": 12,
+    "native_rerender_exact_pixel_matches": 12,
+    "lanczos_phone_exact_pixel_matches": 12,
+    "native_compositions_visually_reviewed": 12,
+    "phone_pages_visually_reviewed_at_390px": 12,
+    "typesetting_corrections_requested": 0,
+    "release_acceptances_issued": 0
+  },
+  "folios": [
+    {
+      "folio": "F02",
+      "title": "The bottom of the register",
+      "lead_discipline": "production_design",
+      "source_stage": "COPY_NEEDS_EDITORIAL_SIGNOFF",
+      "lettering_sha256": "72dc98b860e7195298d110c4f9152e5c641bf9e6ea5f1d61ad809ac7a8488630",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F02.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "7c2fafa0218598cd6754cc7ec1227166178ed1c9e49ef309e1782293c75885d4",
+        "bytes": 1036443
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F02.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "1f9216df66f60900ff8a9783d2a856cf1c88245455f27935f6ba4c244964680b",
+        "bytes": 239256
+      },
+      "review_card": "shape:w11-review-f02",
+      "observed": "Two open registers and empty seats leave the Mud Dogs 3–8 and Slob 7–4 labels unobstructed. The paragraph names both owners and explains the third win.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F04",
+      "title": "The Week 11 board",
+      "lead_discipline": "vfx_pipeline",
+      "source_stage": "PROVIDER_VERIFIED_NEEDS_390PX_AND_DATA_STEWARD",
+      "lettering_sha256": "d800b19042807bb9f003553f9be8207579bb89f2f99d659542779501b939beae",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F04.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "823cf2999a198ce8bca6f99752f9546d69bd73290fac6ce026ed0225cfdae3f2",
+        "bytes": 641417
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F04.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "d206a2ab0eb64617a7175564cfc990f2870fdbacaf2291cdc1cba6c3fd94c70b",
+        "bytes": 188544
+      },
+      "review_card": "shape:w11-review-f04",
+      "observed": "Read all six visitor/home pairs and twelve two-decimal scores at 390 px. The score gutter separates 168.20 from D0nkey K0ng. Each winner is highlighted on the correct side.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F07",
+      "title": "What seventh place means",
+      "lead_discipline": "vfx_pipeline",
+      "source_stage": "PROVIDER_VERIFIED_NO_CLINCH_CLAIMS",
+      "lettering_sha256": "904db94a673851b86297ddb109248c7be2e8cabb556a132b346e804976a1382f",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F07.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "c9ccb31bcdebbb38552ed24306256bcd7148d14d6f3fd49e4a7871063abc6129",
+        "bytes": 534131
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F07.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "3ab611e5f7fafcf2edfabcbc34b4c0d09c5cbfa876c75e4aebd7e520116f2fc2",
+        "bytes": 198339
+      },
+      "review_card": "shape:w11-review-f07",
+      "observed": "All twelve seed, record and points-for rows survive reduction. Seventh-place Chili at 6–5–0 and 1,518.31 sits immediately above the red rule. The ESPN seed heading remains legible.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F23",
+      "title": "What the starters changed",
+      "lead_discipline": "vfx_pipeline",
+      "source_stage": "PLAYER_DETAILS_PROVIDER_LOCKED",
+      "lettering_sha256": "9c5b678da1df1c64d824b943ae7114fffdbd5e33b880141179445130712f82ad",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F23.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "40684ccd78c29bac1b3cf02799d247bee50ffd06cf5c8db6eeb3115d571e7135",
+        "bytes": 649999
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F23.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "1f71168b55206f99a1f8bc2285361a6eb8107bce42fc3507a60d89c76981ad9e",
+        "bytes": 208464
+      },
+      "review_card": "shape:w11-review-f23",
+      "observed": "Bridge, Hearthroad and carnival headers divide three readable reports. The 45.30 Prescott line, 4.26 game margin and 48.17 combined Chili points are attached to the correct subjects.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F24",
+      "title": "Who could answer?",
+      "lead_discipline": "vfx_pipeline",
+      "source_stage": "PLAYER_DETAILS_PROVIDER_LOCKED",
+      "lettering_sha256": "58867a7ba1b62ac15408554dc2b35186f33e94140f03797eaf190e362dc8274a",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F24.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "aa26024bac1a255e453fa1b5c19255613c6dad62ff69f960c707bad3a5ffbd78",
+        "bytes": 846760
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F24.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "83ad3c1fd54b344cd64fa1b4db975a231500820818b7b81ef00d0666f466c723",
+        "bytes": 241245
+      },
+      "review_card": "shape:w11-review-f24",
+      "observed": "Falls, swamp and Jackson are individually readable. The Jackson paragraph directly identifies Babb as the fantasy manager and attributes 30.10 and 29.06 to Duckhook starters.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F25",
+      "title": "The cost of Sunday",
+      "lead_discipline": "production_design",
+      "source_stage": "DATE_PROVENANCE_AND_EDITORIAL_QA",
+      "lettering_sha256": "387c8d7add05780f889aeeb2456122dea1d488eac910268f517b25f40af7ccb5",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F25.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "307065b4a694d6fe688ce164c3effe94db766f8b087e0e8811da4b9bf38f54c2",
+        "bytes": 924821
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F25.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "cb1103d92352473507b6834ac73bd4cd0f3049ce89c76e42cf919f9802ea5df1",
+        "bytes": 244543
+      },
+      "review_card": "shape:w11-review-f25",
+      "observed": "Dated captions distinguish the November 19 House notice from the November 24 lineup. Bowers on bench, Walker in IR and Waddle starting for 9.10 each read separately.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F26",
+      "title": "The next starting sheet",
+      "lead_discipline": "vfx_pipeline",
+      "source_stage": "ELIGIBLE_DST_COMPARISON_SOURCE_READY",
+      "lettering_sha256": "3bae0ea4f1eb5b78d3119cbe7e1f37967cdf94093660195ce48994a130f5135e",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F26.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "b25784fc3970ae951b28a996a73a496b1a0f2bc9bdc302f1fe19236e6a54dbea",
+        "bytes": 769081
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F26.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "c5e0f55789b368c101b9896680e9d91e34eaa6bd4487343403d9199d1f97471e",
+        "bytes": 208259
+      },
+      "review_card": "shape:w11-review-f26",
+      "observed": "13.00 and 23.80 have distinct starter and bench labels. The 10.80 counterfactual gain leaves a 27.65 deficit. All four numbers are clear at phone size.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F27",
+      "title": "Who made it onto the roster?",
+      "lead_discipline": "production_design",
+      "source_stage": "TRANSACTION_SOURCE_READY",
+      "lettering_sha256": "0cbb1c43c9d6df4b3eacf2ad1346e26601d8341d4635c36e2a31d6901a45d7f9",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F27.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "e10c8ff2617b3900ab78eead76f8b28934aa7e16b3de0ed0590252d91d69aadb",
+        "bytes": 788286
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F27.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "178005f97e4bb71417b54b6488b5546a6e5b9c51e248ae04a46e486be80f568d",
+        "bytes": 224387
+      },
+      "review_card": "shape:w11-review-f27",
+      "observed": "The player labels stay under the corresponding 28.42 and 19.75. The copy distinguishes the winning 31 FAAB from the failed 24 bid, and the event-status line sums to 43.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F28",
+      "title": "Three divisions",
+      "lead_discipline": "production_design",
+      "source_stage": "DIVISION_SOURCE_READY",
+      "lettering_sha256": "8ef513f7a2bb59a167b29b67c844e062a5fd4b1176f89a17b7f4b195ea39a71c",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F28.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "96e2ebef440018ed158df689ec32b9ffcc2e08e57287067e57c53154ba5b3576",
+        "bytes": 883551
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F28.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "1517632be773c1b34f9d3639e9adb12c5b7f90d12e20c1f961e56a650940aff8",
+        "bytes": 227760
+      },
+      "review_card": "shape:w11-review-f28",
+      "observed": "Each of the three named divisions has four identifiable teams. All twelve records and the zero-ties caption fit at phone size, with the three Week 12 possibilities in italic.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F29",
+      "title": "The Twelve · scoring form",
+      "lead_discipline": "vfx_pipeline",
+      "source_stage": "SCORING_INDEX_MATH_VERIFIED_PENDING_METHOD_SIGNOFF",
+      "lettering_sha256": "a0f3d604de778246d767d2b5f672deeb9f81ae0bcc8478770f38ecbbc90c2cf0",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F29.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "061d8f3f4cdd3a484d0614f3678021cee3f26e12dd303bc74036fd4e222eff5a",
+        "bytes": 488951
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F29.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "62f9f1bf13896b438294ea918acd14bb305b4c93b660438d915ba996c975fc18",
+        "bytes": 185014
+      },
+      "review_card": "shape:w11-review-f29",
+      "observed": "All twelve teams have distinct current rank, previous rank and score columns. Duckhook moves from eighth to first, and the 70/30 calculation remains visible below the last row.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F30",
+      "title": "Seven places",
+      "lead_discipline": "production_design",
+      "source_stage": "THEFFHUB_CURRENT_MODEL_CAPTURED_12_OF_12_SIMULATIONS_NOT_MATHEMATICAL_CLINCH",
+      "lettering_sha256": "98aebfe12b80f7ff773ea85194bfe4d133a245f84297a123fa9a25fcf399081e",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F30.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "e6543f10f2d251170c6fb4b3a4c74e6c7306b9cf8a7c24c7dc5ac8e3d39b19be",
+        "bytes": 609165
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F30.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "369666172a9be268b686b48a9d556f0a22de12dc72d30df0394c8bac5bed5c3b",
+        "bytes": 203477
+      },
+      "review_card": "shape:w11-review-f30",
+      "observed": "Counted seven empty recesses and twelve percentages. The 12.88% ObiWan and 0.26% Mud Dogs rows remain readable beside the conditional qualification language and simulation source.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    },
+    {
+      "folio": "F32",
+      "title": "The next six",
+      "lead_discipline": "production_design",
+      "source_stage": "W12_SCHEDULE_PROVIDER_READY",
+      "lettering_sha256": "645dd001f32d499bbdd187e1007c45cc27c2ffe166f3be002734ca24ebb5fcd7",
+      "native": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F32.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "a2377c459c11491d5718c8eea21c0c078550fb6ff347e569749fba8b0c9f5aba",
+        "bytes": 691151
+      },
+      "phone": {
+        "path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F32.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "b620aa51aae1bdc9093bf1c2b652fdb645aaf3484ba6ba4e16a49fbb45a95ae2",
+        "bytes": 192636
+      },
+      "review_card": "shape:w11-review-f32",
+      "observed": "All six arrows run from visitor to host under three division headings. Both Pizza rows read correctly, including Seven Deadly Chins visiting El Niño.",
+      "corrections": [],
+      "disposition": "ADVANCE_INTERNAL_CANDIDATE"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source": "PR313_F34_CANDIDATE_INTAKE",
+  "folio": "F34",
+  "request_id": "W11-F34-220ea5b05b1d",
+  "manifest_sha256": "220ea5b05b1dd61229ae81ff3d2524bffe90c20002ebd047e54176b1b2ca43b1",
+  "started": "2026-11-24T15:46:08.532Z",
+  "finished": "2026-11-24T15:46:31.694Z",
+  "runtime_commit": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+  "model": "qwen2.5-coder:7b",
+  "native_sha256": "4ed752b6a63612d8bea2e79e7dba641abbb0f53c8b834e9bee17287c882e5c82",
+  "phone_sha256": "cd0df6c5f121ac9cb5c634cb32ffcfe85f52d952991314d0b8a7bae4045ec566",
+  "staff": {
+    "name": "OutputReviewStaff",
+    "implementation_blob": "4b647a0c87845acebb887c797ec1ccf6f263289b",
+    "owner": "the_gm",
+    "result": {
+      "passed": true,
+      "failures": [],
+      "requirementCount": 14,
+      "evidenceCount": 1
+    }
+  },
+  "channels": [
+    {
+      "channel": "the_setup_man",
+      "message_id": 1,
+      "channel_readback_sha256": "220ea5b05b1dd61229ae81ff3d2524bffe90c20002ebd047e54176b1b2ca43b1",
+      "received_at": "2026-11-24T15:46:08.534Z",
+      "disposition": "RECEIVE_FOR_INTERNAL_REVIEW",
+      "response_sha256": "c3f2e5f39a7c1f9ad66fa91edc21fce995e962dddee7f17d477d0dead39b4b2f"
+    },
+    {
+      "channel": "the_gm",
+      "message_id": 2,
+      "channel_readback_sha256": "220ea5b05b1dd61229ae81ff3d2524bffe90c20002ebd047e54176b1b2ca43b1",
+      "received_at": "2026-11-24T15:46:22.029Z",
+      "disposition": "RECEIVE_FOR_INTERNAL_REVIEW",
+      "response_sha256": "c3f2e5f39a7c1f9ad66fa91edc21fce995e962dddee7f17d477d0dead39b4b2f"
+    }
+  ],
+  "trace_count": 2,
+  "delivery_scope": "Canonical message store with process-local memory adapter and live loopback director consults. Exact candidate-manifest bytes read back on both channels; staff inspected manifest text. Independent byte checks include native and phone dimensions, hashes and Lanczos pixel parity. The model did not view pixels.",
+  "publication_approved": false
+}
