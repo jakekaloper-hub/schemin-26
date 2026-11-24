@@ -369,19 +369,25 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const shorelineTexture=createWaterShorelineTexture(THREE,height);
  const oceanMaterial=createBaseWaterMaterial(THREE,shorelineTexture);
  const oceanGeo=new THREE.PlaneGeometry(800,800,70,70),ocean=new THREE.Mesh(oceanGeo,oceanMaterial);ocean.rotation.x=-Math.PI/2;ocean.position.y=-.4;ocean.name='Moving base water';scene.add(ocean);
- let disposed=false,prepared=false,lastSignature='',lastShadowKey='',frames=0,lastTime=0,lastWidth=0,lastHeight=0;
+ let disposed=false,prepared=false,lastSignature='',lastShadowKey='',frames=0,lastTime=0,lastWidth=0,lastHeight=0,lastPixelRatio=0;
  const debugExt=context.getExtension('WEBGL_debug_renderer_info');
  const stats={renderer:'three-webgl2',engine:'three@'+THREE.REVISION,locations:bindings.length,regionalLocations:regional.locations.length,siteLocations:siteLocations.length,siteIds:[...siteIds],genericLandmarks:bindings.filter(b=>!siteIds.includes(b.id)).length,geometry:'SOURCE_BOUND_CANDIDATE_NOT_APPROVED',gpuRenderer:debugExt?context.getParameter(debugExt.UNMASKED_RENDERER_WEBGL):'UNAVAILABLE',prepared:false,frames:0,waterTime:0,shadowRefreshes:0};
  function setCamera(c){
   const w=Math.max(1,canvas.clientWidth),h=Math.max(1,canvas.clientHeight),aspect=w/h,fit=Math.max(1,1.25/aspect),d=c.distance*(c.distance>100?fit:Math.min(fit,1.25)),t=c.target;
-  if(w!==lastWidth||h!==lastHeight){const q=rendererQuality(w,globalThis.devicePixelRatio||1);renderer.setPixelRatio(q.pixelRatio);renderer.setSize(w,h,false);camera.aspect=aspect;camera.updateProjectionMatrix();lastWidth=w;lastHeight=h;}
+  const q=rendererQuality(w,globalThis.devicePixelRatio||1);
+  if(w!==lastWidth||h!==lastHeight||q.pixelRatio!==lastPixelRatio){
+   renderer.setPixelRatio(q.pixelRatio);renderer.setSize(w,h,false);camera.aspect=aspect;camera.updateProjectionMatrix();
+   lastWidth=w;lastHeight=h;lastPixelRatio=q.pixelRatio;
+   if(templeMist)templeMist.material.uniforms.uPixelRatio.value=renderer.getPixelRatio();
+   stats.pixelRatio=renderer.getPixelRatio();
+  }
   camera.position.set(t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*d,t[1]+Math.sin(c.pitch)*d,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*d);camera.lookAt(...t);camera.updateMatrixWorld(true);sky.position.copy(camera.position);
  }
  async function prepare(c){setCamera(c);await renderer.compileAsync(scene,camera);renderer.shadowMap.needsUpdate=true;prepared=true;stats.prepared=true;}
  function render(c,time,{strength=1,storm=0,paused=false}={}){
   if(disposed||context.isContextLost())return;
   if(!Number.isFinite(time)||!Number.isFinite(strength))throw Error('INVALID_RENDER_TIME');
-  const signature=JSON.stringify([c,paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight]);if(signature===lastSignature)return;lastSignature=signature;setCamera(c);
+  const signature=JSON.stringify([c,paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight,rendererQuality(Math.max(1,canvas.clientWidth),globalThis.devicePixelRatio||1).pixelRatio]);if(signature===lastSignature)return;lastSignature=signature;setCamera(c);
   if(!paused)lastTime=time;regional.tick(lastTime,{paused});atlasSites?.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;if(swampHaze){swampHaze.material.uniforms.uTime.value=lastTime;swampHaze.material.uniforms.uLightLevel.value=strength;}oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
   if(templeMist)templeMist.material.uniforms.uLightLevel.value=strength;
   for(const w of regional.water)w.material.uniforms.uLightLevel.value=strength;

@@ -42,7 +42,7 @@ test('Existing Waterfall Temple emitter remains exactly one source-local 144-poi
  assert.equal(geo.getAttribute('position').count,144);
  assert.equal(geo.getAttribute('aPhase').count,144);
  assert.equal(geo.getAttribute('aDrift').count,144);
- assert.deepEqual(Object.keys(o.material.uniforms),['uTime','uLightLevel']);
+ assert.deepEqual(Object.keys(o.material.uniforms),['uTime','uLightLevel','uPixelRatio']);
  assert.equal(o.material.transparent,true);
  assert.equal(o.material.depthWrite,false);
  const pts=geo.getAttribute('position');

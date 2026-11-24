@@ -20,10 +20,11 @@ const closeupOption=process.argv.indexOf('--wetlands-closeup-dir');
 const atlasOption=process.argv.indexOf('--atlas-views-dir');
 const lightOption=process.argv.indexOf('--wetlands-light-dir');
 const historyOption=process.argv.indexOf('--history-sweep-dir');
+const dprCheck=process.argv.length===4&&process.argv[3]==='--dpr-check';
 const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption,lightOption,historyOption].filter(index=>index>=0);
-assert.ok((options.length===0&&process.argv.length===3)
+assert.ok((options.length===0&&(process.argv.length===3||dprCheck))
  ||(options.length===1&&options[0]===3&&process.argv.length===5),
- 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir or --history-sweep-dir /new/private/evidence/directory');
+ 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir or --history-sweep-dir /new/private/evidence/directory; or --dpr-check');
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
 const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 const wetlandsDir=wetlandsOption<0?null:resolve(process.argv[4]);
@@ -38,7 +39,7 @@ const lightDir=lightOption<0?null:resolve(process.argv[4]);
 if(lightDir)assert.ok(!existsSync(lightDir),'LIGHT_DIRECTORY_EXISTS: refusal to overwrite evidence');
 const historyDir=historyOption<0?null:resolve(process.argv[4]);
 if(historyDir)assert.ok(!existsSync(historyDir),'HISTORY_DIRECTORY_EXISTS: refusal to overwrite evidence');
-const historySweep=[];
+const historySweep=[],dprObservations=[];
 const lightCaptures=[];
 const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[],wetlandCloseupCaptures=[],closeupCameras=[],atlasCaptures=[];
 let atlasPlan=null;
@@ -378,6 +379,33 @@ async function main(){
   verifyTemporalSceneSequence(temporalCaptures);
   await click('#inspectorWorld');
  }
+ if(dprCheck){
+  // Change display density only, while ordinary motion is explicitly paused.
+  // This exposes stale backing buffers even when the CSS viewport has not resized.
+  await click('#placesToggle');
+  await click('[data-place="LOC-TDS-WATERFALL-TEMPLE"]');
+  await delay(600);
+  const camera=await evaluate('__observerDebug.camera()');
+  const dimensions=await evaluate('({width:innerWidth,height:innerHeight,cssWidth:document.querySelector("#world").clientWidth,cssHeight:document.querySelector("#world").clientHeight})');
+  const held=(await snapshot()).stats.waterTime;
+  try{
+   for(const deviceScaleFactor of [1,2,1]){
+    await cdp('Emulation.setDeviceMetricsOverride',{width:dimensions.width,height:dimensions.height,deviceScaleFactor,mobile:false});
+    const expected=Math.min(deviceScaleFactor,dimensions.cssWidth<700?1.25:1.5);
+    const observation=await until(async()=>{
+     const o=await evaluate('(()=>{const c=document.querySelector("#world"),s=__observerDebug.stats();return {cssWidth:c.clientWidth,cssHeight:c.clientHeight,bufferWidth:c.width,bufferHeight:c.height,devicePixelRatio,pixelRatio:s.pixelRatio,waterTime:s.waterTime,renderer:s.renderer};})()');
+     return o.devicePixelRatio===deviceScaleFactor&&o.pixelRatio===expected&&o.bufferWidth===Math.floor(dimensions.cssWidth*expected)&&o.bufferHeight===Math.floor(dimensions.cssHeight*expected)?o:null;
+    },'display density transition '+deviceScaleFactor,12000);
+    assert.equal(observation.cssWidth,dimensions.cssWidth);
+    assert.equal(observation.cssHeight,dimensions.cssHeight);
+    assert.equal(observation.waterTime,held,'Display density change advanced paused water');
+    assert.equal(observation.renderer,'three-webgl2');
+    assertHistoricalViewRestored(camera,await evaluate('__observerDebug.camera()'));
+    dprObservations.push(observation);
+   }
+  }finally{await cdp('Emulation.clearDeviceMetricsOverride');}
+  assert.equal(dprObservations.length,3);
+ }
  assert.equal((await snapshot()).sourceUnchanged,true,'Canonical source mutated during journey');
  const errors=[...runtimeExceptions,...consoleErrors].filter(x=>!/favicon\.ico/.test(x));
  assert.deepEqual(errors,[],'Browser/GLSL errors: '+errors.join(' | '));
@@ -503,7 +531,7 @@ async function main(){
   jacksonHistory:await evaluate('__observerHistoryDebug.entries("LOC-COUNTRY-CLUB-JACKSON").length'),
   weather:calm.status,ordinaryWaterAdvanced:true,historicalPause:true,explicitPause:true,sourceUnchanged:true,
   browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
-  candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file),wetlandsTemporalCaptures:wetlandTemporalCaptures.map(c=>c.file),wetlandsCloseupCaptures:wetlandCloseupCaptures.map(c=>c.file),atlasViewCaptures:atlasCaptures.map(c=>c.file)
+  displayDensityObservations:dprObservations,candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file),wetlandsTemporalCaptures:wetlandTemporalCaptures.map(c=>c.file),wetlandsCloseupCaptures:wetlandCloseupCaptures.map(c=>c.file),atlasViewCaptures:atlasCaptures.map(c=>c.file)
  }));
 }
 try{await main();}

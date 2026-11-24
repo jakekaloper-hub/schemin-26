@@ -73,6 +73,20 @@ It prints a single machine-readable `WEBGL2_JOURNEY_SMOKE_PASS` result with the
 observed GPU. This is **opt-in device evidence**, not a GitHub Actions GPU test,
 Founder-approved art, live-weather proof, public release, or hardware benchmark.
 
+## Optional display-density transition smoke
+
+Run the same physical-WebGL2 journey with `--dpr-check` to verify the paused
+Waterfall Temple view on a fixed CSS viewport at emulated device densities
+1 → 2 → 1. The capped backing buffer must resize 1 → 1.5 → 1 without
+moving the camera or advancing ordinary water. The result includes the
+observed device ratio, renderer ratio, CSS/backing dimensions and water time.
+This is device-density emulation on a real GPU, not physical-phone or isolated
+spray-pixel acceptance.
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs /tmp/commonwealth-preview/observer.html --dpr-check
+```
+
 ## Opt-in GPU candidate captures for visual inspection
 
 After the unchanged offline observer build, add `--capture-dir` with a **new,

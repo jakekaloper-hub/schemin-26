@@ -625,8 +625,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geo.setAttribute('aDrift',new THREE.Float32BufferAttribute(drift,3));
     geo.computeBoundingSphere();geometries.add(geo);
     const m=new THREE.ShaderMaterial({
-      uniforms:{uTime:{value:0},uLightLevel:{value:1}},transparent:true,depthWrite:false,blending:THREE.NormalBlending,
-      vertexShader:`uniform float uTime;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;varying float vViewFade;varying vec2 vSprayAxis;
+      uniforms:{uTime:{value:0},uLightLevel:{value:1},uPixelRatio:{value:1}},transparent:true,depthWrite:false,blending:THREE.NormalBlending,
+      vertexShader:`uniform float uTime;uniform float uPixelRatio;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;varying float vViewFade;varying vec2 vSprayAxis;
         void main(){
           float age=fract(aPhase+uTime*(.105+.048*aDrift.y));
           vec3 p=position;
@@ -655,7 +655,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vec2 screenTangent=viewTangent.xy+view.xy*viewTangent.z/max(.001,-view.z);
           screenTangent.y=-screenTangent.y;
           vSprayAxis=length(screenTangent)>.0001?normalize(screenTangent):vec2(0.,1.);
-          gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22);
+          // Point sizes are framebuffer pixels; preserve the original CSS footprint.
+          gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22)*uPixelRatio;
           gl_Position=projectionMatrix*view;
           vOpacity=pow(max(sin(age*3.14159265),0.),.75)*(.50+.38*aDrift.y);
           // Mist stays locally animated; modest camera-depth extinction is optical only.

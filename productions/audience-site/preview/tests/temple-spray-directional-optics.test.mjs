@@ -54,7 +54,7 @@ test('source-bound Temple mist remains one original 144-point draw with unchange
   assert.equal(g.getAttribute('position').count,144);
   assert.equal(g.getAttribute('aPhase').count,144);
   assert.equal(g.getAttribute('aDrift').count,144);
-  assert.deepEqual(Object.keys(o.material.uniforms),['uTime','uLightLevel']);
+  assert.deepEqual(Object.keys(o.material.uniforms),['uTime','uLightLevel','uPixelRatio']);
   assert.equal(o.userData.visualAuthority,'CANDIDATE_NOT_APPROVED');
   assert.equal(o.userData.navigable,false);
   assert.deepEqual(o.userData.routeIds,[]);
@@ -166,5 +166,26 @@ test('spray optical axis matches finite-differenced perspective motion including
   }
   assert.ok(count>1600);
   assert.ok(legacyMisaligned>100,'old optical axis visibly diverges in sampled direction space');
+  a.dispose();
+});
+
+test('Temple sprite footprint stays in CSS pixels at the existing capped renderer density',async()=>{
+  const {rendererQuality}=await import('../three-world.mjs');
+  const a=build(),o=mist(a),v=o.material.vertexShader;
+  assert.equal(o.material.uniforms.uPixelRatio.value,1);
+  assert.match(v,/uniform float uPixelRatio/);
+  assert.ok(v.includes('gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22)*uPixelRatio'));
+  for(const width of [390,1440])for(const dpr of [1,1.25,1.5,2,3]){
+    const ratio=rendererQuality(width,dpr).pixelRatio;
+    for(const depth of [8,12,30,90,400])for(const age of [.1,.5,.9]){
+      const css=Math.max(2.4,Math.min(25,650/Math.max(12,depth)))*(1-age*.22);
+      assert.ok(Math.abs(css*ratio/ratio-css)<1e-12);
+      assert.ok(css*ratio<=37.5);
+    }
+  }
+  const renderer=readFileSync(new URL('../three-world.mjs',import.meta.url),'utf8');
+  assert.match(renderer,/q.pixelRatio!==lastPixelRatio/);
+  assert.match(renderer,/templeMist.material.uniforms.uPixelRatio.value=renderer.getPixelRatio\(\)/);
+  assert.match(renderer,/canvas.clientHeight,rendererQuality\(Math.max\(1,canvas.clientWidth\),globalThis.devicePixelRatio\|\|1\).pixelRatio/);
   a.dispose();
 });
