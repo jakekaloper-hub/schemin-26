@@ -1,4 +1,7 @@
 # Schemin’ 26 — Week 11 Tuesday source/data/editorial production handoff
+
+**Tuesday final narrative direction completed after ESPN settlement:** The [six-game definitive cinematic director’s cut](W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md) now owns the selected prose for fourteen matchup folios, [one ready-to-stage camera/performance register](W11_FINAL_SCENE_14_FOLIO_VISUAL_PERFORMANCE_REGISTER_2026-11-24.json) isolates F09–F22 visual beats, and [Inklings/production source-adjudicated method review](W11_RESULT_LOCKED_INKLINGS_PRODUCTION_ADJUDICATION_2026-11-24.md) rejects false model contradictions. The fourteen original folio briefs each point to the definitive result scene; previously pending or alternate winner paragraphs are retained only as historical workshops. Existing scene count/page map unchanged. F01 primary cover audition bridge survival, secondary Wolf Brand Chili throw, both still image/source-gated. **No final PNG claim.**
+
 **2026-11-24 · Existing PR #313, draft / final ESPN games and House ledger SOURCE VERIFIED, final 1080×1920 folios NOT READY**
 
 ## Verified sports fact closure

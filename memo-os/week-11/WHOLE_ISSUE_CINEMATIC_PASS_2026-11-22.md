@@ -74,11 +74,16 @@ At the November 22 3:05 p.m. ET player read, all six results were open. Keep the
 **November 23 Founder five-scene storm and corporate-board refinement:** [Storm escalation / Jacksonville office Inklings brief](preproduction/STORM_ESCALATION_AND_JACKSON_BOARDROOM_INKLINGS_PASS_2026-11-23.md) supersedes the earlier *mild* G02–G06 weather descriptions while preserving each established scene. The G06 takeover is now driven by David's investor-backed confidence, quiet Zach-board collaboration, second-sheet discovery and David's fury, against severe exterior club weather. Still no official Week 11 sports result or final image lock.
 
 ## G01 · Mountain Lake Bridge | His Majesty’s Blood at D0nkey K0ng
+**Operative post-MNF G01 scene (Nov 24):** [The definitive result-selected cinematic narrative and page-by-page dialogue](preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). The six ESPN winners and corresponding story outcomes are final; below are pre-MNF workshop material and retained alternate auditions, which do **not** override this cut.
+**F09 — After you, Austin:** Carter-wheel foreground, intact bridge lantern, Wilson's four visible hooves with Austin's black armor/red cloak and Belt Keeper badge in view. **Performance:** Wilson's elaborate lane offer is not charity. Keep waiting worker's eyeline. **Fictional dialogue:** “After you, Austin.”
+**F10 — He was here before us:** Reverse over Austin toward carter and Wilson; illustrate wet traction failure before the source-locked champion strike. **Performance:** Austin chooses the ordinary worker over Wilson's demand for public deference. **Fictional dialogue:** “He was here before us.”
+**F11 — The carter listens:** From carter height show intact parapet, storm-chopped LAKE, Austin's immediate concern and recognizable Wilson resurfacing ALIVE. **Performance:** Hold on the feared silence until life returns before any possible subdued jester-cap coda.
+
 
 **November 23 Founder bridge-storm revision, superseding the earlier mild-weather shot guidance.** Upper Valleys remains downstream of the larger Week 10 front, but the **open Mountain Lake Bridge can experience a locally intense, terrain-funneled squall**: powerful crosswinds, leaves blown across the shared crossing, rain-slick worn stones, a rattling carter's cover, Austin's crimson cloak straining against the wind, and storm-agitated lake water throwing foam and spray below the span. The condition is an **editorial candidate** tied to the established `WX-EASTERN-STORM` propagation zone, not proof of an explicit El Niño `ATMOSPHERIC_MANIFESTATION` at this site. Keep the lake as the existing `SUB::LOC-BRIDGE-MOUNTAIN-LAKE::LAKE`; **do not invent a river gorge or fixed rapids**. The possibility of directional inflow/current through the opening requires separate Atlas hydrology approval. Wilson and Austin remain responsible for the duel; wet footing and wind heighten the physical risk, not decide fantasy football.
 
 
-**Football cut.** Texans D/ST had 23.80 on DK’s bench and his starting Chiefs had 15.90. If the final gap matters, return to Wilson watching someone else make use of the lane he opened.
+**Post-MNF football cut (ESPN final).** D0nkey K0ng started Chiefs D/ST for **13.00** with Texans D/ST **23.80** on the bench, a 10.80 alternative difference—not enough to reverse His Majesty’s Blood’s **38.45-point** victory. Return to Wilson watching someone else make use of the lane he opened.
 
 **Game of the Week.** Wilson Look wants the champion to thank him for permission to cross a public bridge. Austin Byars knows he could walk past. What stops him is the carter waiting to see whether he will. The person who gets the first laugh will end up listening for a stranger’s breath.
 
@@ -99,13 +104,17 @@ At the November 22 3:05 p.m. ET player read, all six results were open. Keep the
 **Board decision.** Give the carter the listening shot. A close-up of the winner celebrating there would hide the instant the fight frightens its victor. At phone size, check the four-legged silhouette, separate shoreward wake, hood or Arsenal colors, belt continuity and the same midspan lantern across reverses. The Founder’s revised lake ending supersedes the earlier on-deck jester routine. The spoken lines are character copy.
 
 ## G02 · Hearthroad | El Niño at Slob on my Dobb — The last safe shoulder
+**Operative post-MNF G02 scene (Nov 24):** [The definitive result-selected cinematic narrative and page-by-page dialogue](preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). The six ESPN winners and corresponding story outcomes are final; below are pre-MNF workshop material and retained alternate auditions, which do **not** override this cut.
+**F12 — Six. I told her six.:** Hearthroad cab and truck SAME SPEED mark, red-cord opener, six-o'clock slip and Manning at the window; rainwater gravel moves downhill. **Performance:** Jordan measures his obligation; Manning notices weather without foreknowledge of a distant spill. **Fictional dialogue:** “Six. I told her six.”
+**F13 — The radio call:** One physically plausible wide captures SECONDARY tie loosening and exactly TWO heavy beer kegs falling; rear wheel remains recoverable as Jordan brakes. **Performance:** Jordan controls the aftermath responsibly, radioing what actually happened and accounting for cargo. **Fictional dialogue:** “I've got most of it. Two came off.”
+
 
 **Week 11 regional-weather overlay (November 23).** This pairing is the **primary direct weather confrontation** within an issue whose other five locations respond differently to the inherited Week 10 front. Manning's local physical perspective remains at Jordan's Hearthroad window. His Week 11 victory, if official, would support a *stronger editorial reading* of his Commonwealth momentum but cannot alone certify new storm-event state or a truck-capable Delta Causeway.
 
 
 **Founder November 23 storm-and-cargo escalation; operative Inklings/Production branch.** Keep Week 10's covered kegs and release-week photographic color, the established Hearthroad cab opening, the promised taproom delivery at six and Manning Welty's face at Jordan Hollingshead's window. The continuation, if supported by route review, takes the loaded truck toward the **Southern Wetlands on a later delivery/return leg**. The potential peril is a heavy wind gust pulling at the tarp and **throwing two beer kegs off the trailer** as the road shoulder erodes and the rear wheels approach a washout. A secondary restraint loosens *after* Week 10's previously verified strapped shipment; the other load remains safely tied. Show real gravity, rolling steel and a road that can be recovered, not magically weightless kegs or a totally destroyed beer business.
 
-**Football and chronology.** Week 10 official finals: El Niño defeated Red Leopards 189.08–147.82; Slob on my Dobb defeated Mud Dogs 179.29–113.62. The Week 11 match remains source-UNDECIDED until verified. Recheck Week 11 player starters, margins and the ESPN winner field after Monday before selecting any triumphant/disastrous ending. A model projection is not an official win.
+**Football and chronology.** Week 10 official finals: El Niño defeated Red Leopards 189.08–147.82; Slob on my Dobb defeated Mud Dogs 179.29–113.62. **Nov 24 ESPN final: Slob on my Dobb 138.86, El Niño 134.60.** Jordan’s victory selects the recoverable-cargo outcome of the two-keg spill. The fantasy result does not certify the loaded-truck access route, an actual delivery-time guarantee, or a World-state change.
 
 **Three-layer geography.** F12 begins at SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT, the established camp road in REG-UPPER-VALLEYS. The World Atlas has a route chain via ROUTE-HEARTHROAD → LOC-BRIDGE-MOUNTAIN-LAKE → ROUTE-UPPER-BASIN-CONNECTOR → LOC-LEAGUE-CHAMBER → ROUTE-BASIN-MARKET / LOC-DK-MUD-HILL → ROUTE-DELTA-CAUSEWAY / LOC-MUD-DOGS-SWAMP. This is a **proposed geographic itinerary**, not certified through-truck navigation: Delta Causeway's recorded modes are foot, mount and wetland; full wagon/truck clearance is missing. The released Week 10 swamp truck pictures provide visual precedent for **a local supported approach near the Gators & Dawgs sign**. Production may use that pictured access with documented source identity, but cannot depict a newly asserted truck-capable bridge, exact travel time or continuous highway until Atlas verifies it. Keep F13's root G02 location and mark the swamp leg **CONDITIONAL_ATLAS_VEHICLE_ACCESS**.
 
@@ -125,11 +134,16 @@ At the November 22 3:05 p.m. ET player read, all six results were open. Keep the
 **Inklings source:** TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md#hearthroad--the-last-safe-shoulder. **Folio instructions:** preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-12.
 
 ## G03 · The Chili Cheesers and ObiWan Jacoby at the foot of the Eastern Ascent
+**Operative post-MNF G03 scene (Nov 24):** [The definitive result-selected cinematic narrative and page-by-page dialogue](preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). The six ESPN winners and corresponding story outcomes are final; below are pre-MNF workshop material and retained alternate auditions, which do **not** override this cut.
+**F14 — Off the board:** Rain-wet OFF BOARD notice legible near carnival mic, Brandon with recovered black Week10 hat and Jake demanding an audience. **Performance:** Brandon wanted an underdog line; Jake wanted the watching crowd. **Fictional dialogue:** “That could've been our game.”
+**F15 — The safest seat:** Camera on axis ball → target → hinged seat → CHILI tank; Brandon ONE throw; Jake's palm and face visible UNDER thick chili. **Performance:** Comedy turns silent inside the tank; wet rain outside is a separate material. **Fictional dialogue:** “Sit tight.”
+**F16 — At the ladder:** Full vertical ladder portrait with Jake's face and BOTH boots dripping thick chili, Brandon and his black hat at edge, rain falling. **Performance:** Dramatic joke fades into Brandon's quiet concern and Jake's playoff anxiety. **Fictional dialogue:** “I thought we were going back.”
+
 
 **November 23 Founder rain-and-gust escalation (supersedes a dry carnival).** **Visible rain now falls throughout the public Eastern Ascent carnival**: rain streaks cross headlamp beams, wet hillside spectators pull collars up, a gutter drips beside Pittsy's OFF BOARD sheet, muddy bootprints mark the path and water beads on Brandon Pryor's recovered black rodeo hat. These are real, regionally plausible upper-valley storm cues, not newly approved bodily El Niño at the scene. Brandon's **single deliberate ball throw** still hits the target unaided by wind; Jake falls into unmistakable **Wolf Brand Chili**, not rainwater, and emerges covered in chili *and* surface rainfall head to both boots. Keep the public carnival separate from the private After Dark shack.
 
 
-**Football cut.** Ward, Montgomery and Steelers D/ST had delivered 55.00 for The Chili Cheesers. Follow Lawrence, Waddle and Chargers D/ST for ObiWan Jacoby before choosing the line at the ladder.
+**Post-MNF football cut (ESPN final).** Cam Ward **28.42**, David Montgomery **19.00** and Steelers D/ST **11.10** totaled **58.52** for The Chili Cheesers. Trevor Lawrence **16.04**, Jaylen Waddle **9.10** and Chargers D/ST **4.80** were among ObiWan Jacoby’s starters. Chili won **133.52–83.79**; the line at the ladder is the confirmed losing ObiWan cut, not a proved playoff-elimination announcement.
 
 **Inklings table read.** Brandon Pryor’s personal touch pays off twice. In Week 10’s *No Private Exit* (physical p. 7), his black rodeo hat lies in the mud beyond his reach while the gallery watches. Give him the hat back for the throw. In *The Price of Quiet* (p. 24), Jake can see his retriever waiting inside the lighted doorway while he faces David outside. This week Jake looks down from the carnival seat and assumes the spectators are his. Finish at ladder height, where the only person he can see clearly is Brandon.
 
@@ -158,11 +172,15 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 
 
 ## G04 · Red Leopards at Three Dreaded Snake | First choice
+**Operative post-MNF G04 scene (Nov 24):** [The definitive result-selected cinematic narrative and page-by-page dialogue](preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). The six ESPN winners and corresponding story outcomes are final; below are pre-MNF workshop material and retained alternate auditions, which do **not** override this cut.
+**F17 — Pick a side:** Visitor-side waterfall jungle, deep wet mud, wind-blown leaves, two paths and dry-ish stone; Phillip ONE body THREE post-haircut heads. **Performance:** Kevin checks footing because his own Week10 venue suffered damage. **Fictional dialogue:** “Pick a side.”
+**F18 — The dry stone:** One first-palm finish on raised stone from established wide; Phillip reaches first and Kevin acknowledges. **Performance:** Kevin concedes without spectacle; victory-only Florida python-hunter bag stays SHUT. **Fictional dialogue:** “Yours.”
+
 
 **November 23 Founder intensified jungle-weather revision.** The waterfalls' visitor-side outer property line is **saturated by a locally stronger advancing weather band**: sustained rainfall, wind-bent broad leaves, dripping foliage, thick shoe-deep-looking *mud* at lower soil patches, trickling surface water crossing the paths and fresh tracks that prove where each competitor has stepped. Actual grade/depth is a production audition, not a World hydrographic fact. The **elevated dry finish stone** remains distinctly reachable and readable; Phillip's family courtyard is still private. Kevin's Week 10 storm wounds explain why he tests footing rather than boasting blindly. Phillip's first-palm race rule (if that sport is selected) remains the contest logic; the storm doesn't award either side a fantasy win or open Kevin's Florida outfit before verified victory.
 
 
-**Football cut.** Javonte Williams and Caleb Williams totaled 39.22 for Snake. Check how Red’s Nix and Chase answered before choosing the finish and whether the bag opens.
+**Post-MNF football cut (ESPN final).** Javonte Williams **25.90**, Ladd McConkey **20.70** and 49ers D/ST **19.80** helped Three Dreaded Snake win **125.74–94.80**. Red Leopards’ Bo Nix scored **14.10**. Phillip claims the selected finish; Kevin’s victory-only outfit bag remains closed.
 
 **Week 10 carryover.** On physical pp. 8–10 the rain got through Kevin Zeek’s defenses and left him sitting at his damaged court. On pp. 12–14 Ben Whipple’s jackhammer cost Phillip Pitts the quiet of his temple. That gives both men a reason to study a single finish marker at the outer property line. Kevin wants to know exactly where a contest ends. Phillip wants to choose where a guest may begin.
 
@@ -176,13 +194,17 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 **Other cuts.** Phillip wins · Kevin calls it first. “Yours.” Phillip lets him choose the dry route home. Tie · both reach the cloth together, the bag stays rolled and the desk recalculates the standings. Pending · freeze one stride before the marker, bag still shut. The race and photograph are storyboard options. The November 19 House sheet puts this matchup off board.
 
 ## G05 · Seven Deadly Chins at Mud Dogs | The wrong way to paradise
+**Operative post-MNF G05 scene (Nov 24):** [The definitive result-selected cinematic narrative and page-by-page dialogue](preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). The six ESPN winners and corresponding story outcomes are final; below are pre-MNF workshop material and retained alternate auditions, which do **not** override this cut.
+**F19 — The wrong turn:** Flood mark on existing Gators & Dawgs sign supports, empty stands LEFT, Cancún card RIGHT and Bobby's paw safely DRY beside high truck window. **Performance:** Bobby deliberately misdirects Ben away from the identifiable dry strip. **Fictional dialogue:** “That stretch opens up.”
+**F20 — The road that comes back:** Ben sees repeated familiar sign/ruts through flood and retreats with safe ground left; separate deep-focus Bobby's brief smirk then postcard look. **Performance:** Mud wins 151.26–117.66 but Bobby cannot evade his own season; Ben is not out of playoffs.
+
 
 **November 23 Founder extreme high-water revision.** The established Southern Wetlands swamp is **far above its normal water line**, not merely damp: dark floodwater is high on the lower supports of the original Gators & Dawgs sign, near the lower bases of empty LEFT-side stands; familiar Week 10 wheel grooves vanish under reflective brown water, reeds and fallen branches drift past Ben Whipple's truck. The RIGHT-post Cancún card stays above water and Bobby's proposed outpost stands on **isolated raised ground** with his genuinely clean paw on the last dry lip. At truck height the false route looks like a navigable sheet of water; from Bobby's view the safer ground is identifiable. His directions remain **deliberate deceit** and Ben's discovery remains possible; the weather does not itself make a matchup DECIDED or permanently destroy every corridor. This is a proposed temporary peak flood in this sublocation, not a new canonical event covering the whole Atlas.
 
 
 **Governing November 23 Founder cut.** This replaces the prior G05 fair-footrace, truthful warning and helpful-return scene. Retain historical workshops as unselected studies; do not mirror their obsolete contest actions in operative generation requests. Bobby Mitchell's private message is **not a direct quotation for publication**. Its meaning is a difficult season, offseason reckoning, the specter of Losers Beach, and restrained satisfaction if he damages Ben Whipple's playoff hopes.
 
-**Week 10 football carry-in.** Seven Deadly Chins beat Three Dreaded Snake 146.22–82.78, entering Week 11 at 6–4; Mud Dogs lost to Slob on my Dobb 113.62–179.29, entering 2–8. Ben comes from victory toward Playoff Island; Bobby looks at a possible, unwelcome offseason destination. The G05 fantasy result remains pending until ESPN winner state changes to decided and the applicable Data Steward/Fact Lock source authority accepts it.
+**Week 10 football carry-in.** Seven Deadly Chins beat Three Dreaded Snake 146.22–82.78, entering Week 11 at 6–4; Mud Dogs lost to Slob on my Dobb 113.62–179.29, entering 2–8. Ben comes from victory toward Playoff Island; Bobby looks at a possible, unwelcome offseason destination. The G05 ESPN winner is now **Mud Dogs**, **151.26–117.66**, confirmed on November 24. Independent Fact Lock and visual approval remain separate. Ben’s 6–5 Seven Deadly Chins remain ESPN’s sixth seed, with **68.87%** TheFFHub estimated playoff odds; no mathematical elimination is established.
 
 **Exact location and art memory.** Stay with SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN. Match Week 10 physical p17: THE SWAMP DECLARES A BLOCKADE lettering, empty stands LEFT, Cancún postcard on the RIGHT signpost, same flooded ruts and vehicle approach. A small rough outpost or cabin may be **staged as a provisional adjacent prop**, not a newly accepted Atlas location. Neither Losers Beach nor Playoff Island is a literal view from the swamp or an approved travel route; represent them as a postcard and Ben's worn journey chart.
 
@@ -199,9 +221,13 @@ Brandon lets the sheet fall back against the counter and picks up the ball. Jake
 
 **MMOS consumption.** Keep F04 scoreboard; F07 official cutoff; F23–F24 player causality; F28 divisions; F29 scoring form; F30 full TheFFHub twelve-team outcome scenarios; F32 Week 12 pairs; F33 next Game of the Week. Update only facts affected by accepted Week 11 results, and only route relevant evidence through the existing Librarian gates. Cover competition remains open across all six matches and prioritizes the strongest final character moment. No new canon/world state, physical island route, third character or extra folio is authorized.
 
-**Read next.** Inklings: TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md. Founder staged treatment: FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md. F19–F20: preproduction/OPEN_BOARD_PAGE_REHEARSAL.md. Status: PREPRODUCTION / UNDECIDED / NO ART LOCK.
+**Read next.** Inklings: TWELVE_CHARACTER_STORY_ROOM_2026-11-22.md. Founder staged treatment: FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md. F19–F20: preproduction/OPEN_BOARD_PAGE_REHEARSAL.md. Status: PREPRODUCTION / ESPN-W11-DECIDED / NO ART LOCK.
 
 ## G06 · The second sheet
+**Operative post-MNF G06 scene (Nov 24):** [The definitive result-selected cinematic narrative and page-by-page dialogue](preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md). The six ESPN winners and corresponding story outcomes are final; below are pre-MNF workshop material and retained alternate auditions, which do **not** override this cut.
+**F21 — The visitor’s chair:** Rain-streaked exterior Jackson window versus warm DRY office, wet course key returned BEFORE worker exits, David confident with UNSIGNED first sheet. **Performance:** Zach's withheld knowledge turns David's acquisition confidence to dread. **Fictional dialogue:** “Before you buy my place, maybe ask who's running yours.”
+**F22 — The second sheet:** Legible second LLC officer notice on dry desk, furious Babb rising/chair scraping/pen landing, calm Zach, then black-coffee coda. **Performance:** Corporate David loses CEO role, Zach becomes CEO+chairman; Babb retains fantasy LLC and Jackson remains unsold. **Fictional dialogue:** “I take mine black.”
+
 
 **Controlling November 23 Founder weather and investor betrayal revision.** The severe storm batters the OUTSIDE of the Country Club of Jackson clubhouse—sheets of wind-driven rain, trees bowed over the course, exterior attendants securing patio furniture and runoff over steps—while the interior executive office and its two papers remain dry and intact. David Babb arrives convinced his investors will back his plan to add Jackson to The LLC portfolio after last week's win. He learns **Zach Wilson has quietly been working with The LLC's own executive board, some of whose members asked Zach to take leadership**. Their effective board-action paper still removes David as company CEO and appoints Dr. Duckhook as CEO and chairman; David's furious reaction is now a required private performance. This corporate turn is fixed Founder fiction regardless of football result; the fantasy franchise stays with Babb. [Expanded source-controlled Inklings/camera treatment](preproduction/STORM_ESCALATION_AND_JACKSON_BOARDROOM_INKLINGS_PASS_2026-11-23.md).
 
@@ -216,7 +242,7 @@ Shoot from David’s chair. The paper he brought has an empty signature line. He
 
 **F22 · The second sheet**
 
-> Dr. Duckhook had led the proxy fight that seated a new board at The LLC. David read its first decision twice.
+> Dr. Duckhook had quietly coordinated with existing LLC executive-board members, some of whom asked him to take leadership. David read the board-action notice twice.
 
 | THE LLC · BOARD ACTION |
 |---|
@@ -241,7 +267,7 @@ David turns the sheet face down, the same way Zach handed it to him. A second cu
 | Official tie | Zach fills the cups in turn. David makes room for his without uncovering the notice. |
 | Pending or under correction | Hold on the sound of the cup. End the scene there. |
 
-**Sports Desk · Sunday, 8:24 p.m. ET.** The LLC 102.50 at Dr. Duckhook 162.76, undecided. C.J. Stroud and Travis Kelce supplied 54.46 for Zach. DJ Moore and Parker Washington supplied 42.40 for David. The desk will recheck both lineups and the final margin for F24. The vote on F22 predates the coffee coda.
+**Sports Desk · Tuesday, November 24, ESPN final.** Dr. Duckhook defeated The LLC **173.01–127.60**. C.J. Stroud **29.06** and Travis Kelce **25.40** supplied **54.46** for Zach; Jahmyr Gibbs added **30.10**. DJ Moore **23.10** and Parker Washington **19.30** combined for **42.40** for David. The fixed fictional CEO/chairman board action precedes the now-selected *black coffee* ending and remains independent of fantasy scoring.
 
 [Native lettering proof from the Jackson desk camera](preproduction/lettering/W11-F22-The-Second-Sheet.png) · [390 px phone proof](preproduction/lettering/W11-F22-The-Second-Sheet-390.png)
 
