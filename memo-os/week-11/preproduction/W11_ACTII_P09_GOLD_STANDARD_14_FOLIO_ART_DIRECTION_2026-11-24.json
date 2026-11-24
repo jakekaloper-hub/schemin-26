@@ -1,0 +1,571 @@
+{
+  "schema": "schemin.w11.actii.p09_gold_standard.v1",
+  "date": "2026-11-24",
+  "status": "CREATIVE_DIRECTION_REVISED__NOT_INDEPENDENT_RELEASE_APPROVAL",
+  "master": {
+    "folio": "F09",
+    "approved_composition": "After You, Austin",
+    "local_native": "Schemin26_W11_P09_FOUNDER_APPROVED_1080x1920.png",
+    "sha256": "d7feaa668376fd20fee35e6d493130e57079d9ff01f7dc8a9a1b96848df15c9f",
+    "size": [
+      1080,
+      1920
+    ],
+    "local_4k": "Schemin26_W11_P09_FOUNDER_APPROVED_4K_2160x3840.png",
+    "sha256_4k": "4be1a3277b032baff43401e3faa2794e9a7206aab9182d6654277f03005c1aa3",
+    "size4k": [
+      2160,
+      3840
+    ],
+    "assets_in_github": false,
+    "founder_approved_visual": true
+  },
+  "typography_continuity": "Issue masthead, SUBTLE italic story title below masthead, correct franchise matchup ribbon, atmospheric full environment and cinematic action layers, speaker-anchored dialogue, complete approved narration with native typography, no visible F/P numbers. Maintain identity of each scene; do not force all pages into bridge arrangement.",
+  "production_authority": "Use already recorded Bullpen role assignments, Inklings writing methods, and 12 film-production method lenses. This document is an editorial synthesis, not a fresh response from those roles or actual named film professionals.",
+  "production_review": {
+    "closer": "sequence",
+    "setup_man": "handoff",
+    "beat_writer": "dialogue and exact transcripts",
+    "librarian": "visual sources",
+    "pitching_coach": "layout diversity",
+    "gm": "candidate QA",
+    "umpire": "independent release",
+    "casting": "Character authority",
+    "world": "Atlas authority"
+  },
+  "master_format": {
+    "highres": [
+      2160,
+      3840
+    ],
+    "delivery": [
+      1080,
+      1920
+    ],
+    "mobile": [
+      390,
+      693
+    ],
+    "method": "compose art with exact text at 4K when possible; otherwise upscale with Lanczos, which adds pixels but not new visual information"
+  },
+  "matchup_map": {
+    "G01": [
+      "F09",
+      "F10",
+      "F11"
+    ],
+    "G02": [
+      "F12",
+      "F13"
+    ],
+    "G03": [
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "G04": [
+      "F17",
+      "F18"
+    ],
+    "G05": [
+      "F19",
+      "F20"
+    ],
+    "G06": [
+      "F21",
+      "F22"
+    ]
+  },
+  "folios": [
+    {
+      "id": "F09",
+      "game": "G01",
+      "title": "After You, Austin",
+      "visual_family": "Founder-approved bridge master",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F09",
+      "visual_layout": "Masthead → small gold italic After You, Austin → crimson matchup ribbon → entire bridge, cart/worker, both sides of lake → diagonal character/speaker portraits → full original parchment narration → opposing charges.",
+      "physical_and_character_continuity": "Wilson taunts at RIGHT; Austin answers at LEFT; charge on lower panel; 4 hooves and hooded red eyes.",
+      "turn_out": "The charge has NOT contacted; P10 opens at steel contact.",
+      "cast": [
+        {
+          "id": "CHAR-WILSON-LOOK",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+        },
+        {
+          "id": "CHAR-AUSTIN-BYARS",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+      "weather_and_light": "Intense local storm squall: directional crosswind, whipping crimson cape and wagon canopy, leaves, cold rain, large wind-agitated waves hitting piers, loud whitecaps/spray beneath intact span.",
+      "leader": "production_design",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "FOUNDER_APPROVED_VISUAL_COMPOSITION__SEPARATE_FINAL_QA"
+    },
+    {
+      "id": "F10",
+      "game": "G01",
+      "title": "He Was Here Before Us",
+      "visual_family": "Bridge three-phase duel",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F10",
+      "visual_layout": "Small title/ribbon matching F09; three physically sequenced kinetic layers: upper axe/sword contact, middle mass/weight pivot, dominant lower blade-counter and hoof-skid. Original reader text fitted around mechanics.",
+      "physical_and_character_continuity": "Actual weapon trajectories; one integrated four-hoof centaur; intact bridge, reset stone, same cart; Austin strikes, Wilson skids but remains on deck.",
+      "turn_out": "P11 begins with the outward momentum.",
+      "cast": [
+        {
+          "id": "CHAR-WILSON-LOOK",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+        },
+        {
+          "id": "CHAR-AUSTIN-BYARS",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+      "weather_and_light": "Intense local storm squall: directional crosswind, whipping crimson cape and wagon canopy, leaves, cold rain, large wind-agitated waves hitting piers, loud whitecaps/spray beneath intact span.",
+      "leader": "stunt_blocking",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F11",
+      "game": "G01",
+      "title": "The Carter Listens",
+      "visual_family": "Bridge fall and survivor",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F11",
+      "visual_layout": "Same masthead/title and atmosphere, dominant fall over intact parapet; secondary lake-surface frame reveals Wilson coughing alive; subdued score/closing dialogue after survival.",
+      "physical_and_character_continuity": "Lake wind waves, NOT invented directional river; correct hooded Austin, cap only AFTER survivor; exact 168.20–129.75.",
+      "turn_out": "Cut from storm to Hearthroad rain in F12.",
+      "cast": [
+        {
+          "id": "CHAR-WILSON-LOOK",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+        },
+        {
+          "id": "CHAR-AUSTIN-BYARS",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+      "weather_and_light": "Intense local storm squall: directional crosswind, whipping crimson cape and wagon canopy, leaves, cold rain, large wind-agitated waves hitting piers, loud whitecaps/spray beneath intact span.",
+      "leader": "unit_stills",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F12",
+      "game": "G02",
+      "title": "Six. I told her six.",
+      "visual_family": "Hearthroad truck promise",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F12",
+      "visual_layout": "Dramatic truck-cab master with driver Jordan, Manning at driver-side window, SIX slip under visor; detail inset wiper/gravel and radio, text in sheltered shadow/lamp space.",
+      "physical_and_character_continuity": "Visually attribute Manning’s question and Jordan’s response, not reversed; familiar SAME SPEED truck and cargo; no implied arrival.",
+      "turn_out": "F13 cuts to later cargo incident, without unsourced route.",
+      "cast": [
+        {
+          "id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-MANNING-WELTY",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+      "weather_and_light": "Upland wet wiper/gravel runoff, red opener tapping dash",
+      "leader": "environment_design",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F13",
+      "game": "G02",
+      "title": "The radio call",
+      "visual_family": "Two-keg trailer incident",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F13",
+      "visual_layout": "Large truck/axle/road wide; subtle mirror inset shows exactly TWO dropping kegs, small radio/hand reaction cut; typography inhabits roadside negative space.",
+      "physical_and_character_continuity": "Main straps stay tied; secondary lash fails; heavy kegs obey gravity; Jordan brakes before wheel tracks flood; no road confirmation beyond Atlas.",
+      "turn_out": "Return to public rain carnival next.",
+      "cast": [
+        {
+          "id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-MANNING-WELTY",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+      "weather_and_light": "Wetland rain and wind with real trailer scale, no magically airborne steel kegs",
+      "leader": "stunt_blocking",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F14",
+      "game": "G03",
+      "title": "Off the board",
+      "visual_family": "Chili carnival OFF BOARD confrontation",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F14",
+      "visual_layout": "Wet carnival tableau in crimson/warm lantern light with authentic OFF BOARD notice left, Brandon recovered black hat and Jake at microphone right; background bettors uphill; distinct character-bound quotes.",
+      "physical_and_character_continuity": "No fictional House price; correct two owners; crowd turns toward mic; no dunk yet; public carnival NOT private After Dark shack.",
+      "turn_out": "F15 single throw.",
+      "cast": [
+        {
+          "id": "CHAR-JAKE-KALOPER",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-BRANDON-PRYOR",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "weather_and_light": "Visible rain and upland gust through carnival lamps",
+      "leader": "production_design",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F15",
+      "game": "G03",
+      "title": "The safest seat",
+      "visual_family": "One-shot Wolf Brand Chili dunk",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F15",
+      "visual_layout": "Top strong ball-target-hinge action from Brandon; narrow fall/dunk transition; dominant lower tank-window shot of Jake submerged with face and palm readable; integrated sparse exact manuscript.",
+      "physical_and_character_continuity": "One accurate throw, one hit, NO BEANS red/blue can, CHILI not ordinary water; correct speaking Jake and Brandon; no weather-assisted throw.",
+      "turn_out": "F16 aftermath with same tank orientation.",
+      "cast": [
+        {
+          "id": "CHAR-JAKE-KALOPER",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-BRANDON-PRYOR",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "weather_and_light": "Rain outside in carnival light, thick chili red-brown separately lit",
+      "leader": "character_vfx",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F16",
+      "game": "G03",
+      "title": "At the ladder",
+      "visual_family": "Chili ladder aftermath",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F16",
+      "visual_layout": "Full-figure continuous side portrait of Jake head-to-BOTH-boots drenched in thick chili; Brandon at ladder with black hat; crowd recedes; quiet title/score on local reading space.",
+      "physical_and_character_continuity": "Jake NOT wearing belt; rain vs chili materials; 133.52–83.79; no playoff elimination invented.",
+      "turn_out": "F17 waterfall vegetation break.",
+      "cast": [
+        {
+          "id": "CHAR-JAKE-KALOPER",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-BRANDON-PRYOR",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "weather_and_light": "Rain highlights wet clothing while thicker chili clings to hair and robe",
+      "leader": "pose_silhouette",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F17",
+      "game": "G04",
+      "title": "Pick a side",
+      "visual_family": "Waterfall two-path challenge",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F17",
+      "visual_layout": "Jungle clearing physical wide shows muddy shortcut and firmer outer line to same sheltered finish stone; secondary head/face dialogue close only if needed, never a fake UI grid.",
+      "physical_and_character_continuity": "Kevin owns race challenge; Phillip ONE three-headed reptilian body; visitor-side boundary, rain, root and finish in continuity.",
+      "turn_out": "F18 reverse at the SAME stone.",
+      "cast": [
+        {
+          "id": "CHAR-PHILLIP-PITTS",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-KEVIN-ZEEK",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+      "weather_and_light": "Heavy jungle rain and windswept large leaves; mud tracks show grade",
+      "leader": "environment_design",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F18",
+      "game": "G04",
+      "title": "The dry stone",
+      "visual_family": "Waterfall dry-stone reversal",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F18",
+      "visual_layout": "Fixed camera reverse: Phillip already on sheltered stone, muddy Kevin arriving and laughing; lens continuity and close hands/muddy legs support a quiet punchline.",
+      "physical_and_character_continuity": "Phillip triple-head one torso; correct quote pairing; same ground paths; no hunting outfit or bag; 125.74–94.80.",
+      "turn_out": "F19 swamp outpost.",
+      "cast": [
+        {
+          "id": "CHAR-PHILLIP-PITTS",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-KEVIN-ZEEK",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+      "weather_and_light": "Rivulets and track continuity, small sheltered dry patch",
+      "leader": "costume",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F19",
+      "game": "G05",
+      "title": "The wrong turn",
+      "visual_family": "Mud Dogs misleading directions",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F19",
+      "visual_layout": "Low deep-focus from Bobby’s truly DRY clean paw to his misleading pointing paw, Ben in high truck window, Gators & Dawgs sign and rain flood; correctly attached question and answer.",
+      "physical_and_character_continuity": "Empty stands LEFT; Cancún card RIGHT; sign original; no real road to Playoff Island; visibly intentional deception.",
+      "turn_out": "F20 same sign seen from reverse.",
+      "cast": [
+        {
+          "id": "CHAR-BOBBY-MITCHELL",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-BEN-WHIPPLE",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+      "weather_and_light": "Exceptional temporary flood up sign supports, empty stands LEFT, card RIGHT above water",
+      "leader": "environment_design",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F20",
+      "game": "G05",
+      "title": "The road that comes back",
+      "visual_family": "Chins returns to the same swamp sign",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F20",
+      "visual_layout": "Reverse from Ben’s windshield showing SAME sign/ruts, safe turn in flood; distant Bobby smug reaction then postcard unease; typeset score without fake Island landscape.",
+      "physical_and_character_continuity": "Same objects/left-right geography; no Ben elimination; 151.26–117.66 and Chins still alive.",
+      "turn_out": "F21 cuts to dry warm Jackson office.",
+      "cast": [
+        {
+          "id": "CHAR-BOBBY-MITCHELL",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-BEN-WHIPPLE",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+      "weather_and_light": "Brown reflective flood and drifting reeds, safe retreat still visible",
+      "leader": "editing",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F21",
+      "game": "G06",
+      "title": "The visitor's chair",
+      "visual_family": "Jackson visitor’s chair buyout",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F21",
+      "visual_layout": "Rich wet-window/dry-lamp executive office; returned wet key/hook and groundskeeper departure; Babb confident holding UNSIGNED offer; Zach silently reverses offer and shows face-down second sheet.",
+      "physical_and_character_continuity": "Groundskeeper exits BEFORE private deal; two distinct papers; no sale; no second document reveal yet; correct David and Zach positions.",
+      "turn_out": "F22 flips the exact second sheet.",
+      "cast": [
+        {
+          "id": "CHAR-ZACH-WILSON",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-DAVID-BABB",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "weather_and_light": "Extreme outdoor wind/rain contrasted warm dry office lamp",
+      "leader": "unit_stills",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    },
+    {
+      "id": "F22",
+      "game": "G06",
+      "title": "The second sheet",
+      "visual_family": "Jackson corporate takeover notice",
+      "exact_publication_text_source": "W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json#F22",
+      "visual_layout": "Continuity reverse of same office; large legible fictional LLC BOARD ACTION foreground, Babb rising/scraped chair and pen, Zach steady; quiet coffee coda visually separated but same location.",
+      "physical_and_character_continuity": "Remove Babb as fictional corporate CEO; appoint Duckhook CEO/chairman, NOT transfer fantasy ownership; no fictional vote numbers; 173.01–127.60.",
+      "turn_out": "F23 Sports Desk analysis.",
+      "cast": [
+        {
+          "id": "CHAR-ZACH-WILSON",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        },
+        {
+          "id": "CHAR-DAVID-BABB",
+          "approved_lineup_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+        }
+      ],
+      "physical_site": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "weather_and_light": "Rain-sheets on glass behind David, indoor dry warm paper and pen",
+      "leader": "performance",
+      "controls": {
+        "masthead": "SCHEMIN’ ’26 · WEEK 11",
+        "title": "small, elegant gold italic directly below masthead, never oversized like the rejected test",
+        "ribbon": "correct complete franchise names, burgundy-and-gold slimmer than top title",
+        "narration": "preserve full reader source verbatim with deterministic high-resolution typesetting",
+        "dialogue": "quote appears immediately adjacent to its actual speaker, verify name and left/right every time",
+        "no_page_ids": true,
+        "scenic": "multiple coherent film beats, NEVER repeated generic copy-paste panel grid"
+      },
+      "status": "PRODUCTION_DESIGN_PREPARED__AWAITING_RENDER_AND_REVIEW"
+    }
+  ]
+}
