@@ -18,15 +18,20 @@ const build=()=>buildRegionalAssets(THREE,bindings,()=>2);
 const mist=a=>a.locations.find(l=>l.id===ids[0]).group.getObjectByName('Candidate waterfall plunge mist');
 const clamp=x=>Math.max(0,Math.min(1,x));
 const smooth=(a,b,x)=>{const t=clamp((x-a)/(b-a));return t*t*(3-2*t);};
-function projectedAxis(age,drift,viewYaw=0){
+// Screen axes use square pixels and the upper-left point-coordinate origin.
+function projectedAxis(age,drift,viewYaw=0,view=[0,0,-12],time=0,phase=0){
+  const rate=.105+.048*drift[1],osc=time*.31+phase*35;
   const tangent=[
-    drift[0]*(.12+.68*age),
+    drift[0]*(.12+.68*age)+.08*Math.sin(osc)+.08*age*.31*Math.cos(osc)/rate,
     (.95+.35*drift[1])-2*age*(.90+.20*drift[1]),
     drift[2]*(.10+.64*age)
   ];
-  const horizontal=tangent[0]*Math.cos(viewYaw)-tangent[2]*Math.sin(viewYaw);
-  const length=Math.hypot(horizontal,tangent[1]);
-  return length>.0001?[horizontal/length,tangent[1]/length]:[0,1];
+  const vx=tangent[0]*Math.cos(viewYaw)-tangent[2]*Math.sin(viewYaw);
+  const vz=tangent[0]*Math.sin(viewYaw)+tangent[2]*Math.cos(viewYaw);
+  const sx=vx+view[0]*vz/Math.max(.001,-view[2]);
+  const sy=-(tangent[1]+view[1]*vz/Math.max(.001,-view[2]));
+  const length=Math.hypot(sx,sy);
+  return length>.0001?[sx/length,sy/length]:[0,1];
 }
 function optical(point,axis,age,driftY,depth=12){
   const coord=[point[0]-.5,point[1]-.5];
@@ -65,7 +70,10 @@ test('imported shaders orient the existing soft droplet along projected ballisti
   const a=build(),o=mist(a),v=o.material.vertexShader,f=o.material.fragmentShader;
   for(const fragment of ['varying vec2 vSprayAxis',
     'vec3 tangent=vec3(aDrift.x*(.12+.68*age)',
-    'vec2 screenTangent=(modelViewMatrix*vec4(tangent,0.)).xy',
+    'vec3 viewTangent=(modelViewMatrix*vec4(tangent,0.)).xyz',
+    '+.08*sin(oscillation)+.08*age*.31*cos(oscillation)/ageRate',
+    'vec2 screenTangent=viewTangent.xy+view.xy*viewTangent.z/max(.001,-view.z)',
+    'screenTangent.y=-screenTangent.y',
     'vSprayAxis=length(screenTangent)>.0001?normalize(screenTangent):vec2(0.,1.)',
     'dot(drop,vSprayAxis)*.98','dot(drop,transverse)*1.45',
     'float core=1.-smoothstep(.02,.30,radial)',
@@ -121,4 +129,42 @@ test('one-draw sprite survives batching; global weather calm does not freeze spr
   assert.equal(gDisposed,1);assert.equal(mDisposed,1);
   assert.equal(JSON.stringify(atlas),beforeAtlas);
   assert.equal(JSON.stringify(bindings),beforeBindings);
+});
+
+test('spray optical axis matches finite-differenced perspective motion including drift and screen Y',()=>{
+  const a=build(),o=mist(a),drift=o.geometry.getAttribute('aDrift'),
+    phases=o.geometry.getAttribute('aPhase');
+  let count=0,legacyMisaligned=0;
+  const yaw=.61,cos=Math.cos(yaw),sin=Math.sin(yaw),eps=1e-4;
+  const rotate=([x,y,z])=>[x*cos-z*sin,y,x*sin+z*cos];
+  const project=([x,y,z])=>[x/-z,-y/-z];
+  for(let i=0;i<drift.count;i++){
+    const d=[drift.getX(i),drift.getY(i),drift.getZ(i)],phase=phases.getX(i),rate=.105+.048*d[1];
+    for(const age of [.15,.37,.65,.88]){
+      // Evaluate on either side of a known non-wrap age.
+      const time=(age-phase+1)/rate;
+      const at=t=>{
+        const ag=age+(t-time)*rate;
+        return rotate([d[0]*ag*(.12+.34*ag)+Math.sin(t*.31+phase*35)*.08*ag,
+          ag*(.95+.35*d[1])-ag*ag*(.90+.20*d[1]),d[2]*ag*(.10+.32*ag)]);
+      };
+      const pos=at(time);
+      for(const offset of [[0,0,-12],[2,3,-8],[-3,1,-10]]){
+        const view=pos.map((v,j)=>v+offset[j]);
+        const before=project(at(time-eps).map((v,j)=>v+offset[j]));
+        const after=project(at(time+eps).map((v,j)=>v+offset[j]));
+        const delta=after.map((v,j)=>v-before[j]),length=Math.hypot(...delta);
+        if(length<1e-8)continue;
+        const expected=delta.map(v=>v/length),axis=projectedAxis(age,d,yaw,view,time,phase);
+        assert.ok(Math.hypot(axis[0]-expected[0],axis[1]-expected[1])<1e-5,'projected finite-difference alignment');
+        const legacy=rotate([d[0]*(.12+.68*age),(.95+.35*d[1])-2*age*(.90+.20*d[1]),d[2]*(.10+.64*age)]);
+        const l=Math.hypot(legacy[0],legacy[1]);
+        if(l>1e-6&&Math.abs((legacy[0]*expected[0]+legacy[1]*expected[1])/l)<.9)legacyMisaligned++;
+        count++;
+      }
+    }
+  }
+  assert.ok(count>1600);
+  assert.ok(legacyMisaligned>100,'old optical axis visibly diverges in sampled direction space');
+  a.dispose();
 });

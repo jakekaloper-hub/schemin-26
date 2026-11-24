@@ -642,12 +642,19 @@ export function buildRegionalAssets(THREE, bindings, height) {
           // Orient existing soft mist sprites along the ballistic droplet's
           // view-projected trajectory. This changes optics only, not travel,
           // point count, draw calls, weather input or the original emitter.
-          vec3 tangent=vec3(aDrift.x*(.12+.68*age),
+          float ageRate=.105+.048*aDrift.y;
+          float oscillation=uTime*.31+aPhase*35.;
+          vec3 tangent=vec3(aDrift.x*(.12+.68*age)
+            +.08*sin(oscillation)+.08*age*.31*cos(oscillation)/ageRate,
             (.95+.35*aDrift.y)-2.*age*(.90+.20*aDrift.y),
             aDrift.z*(.10+.64*age));
-          vec2 screenTangent=(modelViewMatrix*vec4(tangent,0.)).xy;
-          vSprayAxis=length(screenTangent)>.0001?normalize(screenTangent):vec2(0.,1.);
           vec4 view=modelViewMatrix*vec4(p,1.);
+          vec3 viewTangent=(modelViewMatrix*vec4(tangent,0.)).xyz;
+          // Perspective derivative in square-pixel units. gl_PointCoord has
+          // an upper-left origin, unlike the camera's upward-positive Y.
+          vec2 screenTangent=viewTangent.xy+view.xy*viewTangent.z/max(.001,-view.z);
+          screenTangent.y=-screenTangent.y;
+          vSprayAxis=length(screenTangent)>.0001?normalize(screenTangent):vec2(0.,1.);
           gl_PointSize=clamp(650./max(12.,-view.z),2.4,25.)*(1.-age*.22);
           gl_Position=projectionMatrix*view;
           vOpacity=pow(max(sin(age*3.14159265),0.),.75)*(.50+.38*aDrift.y);
