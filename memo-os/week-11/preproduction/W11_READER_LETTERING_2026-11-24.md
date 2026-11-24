@@ -4,7 +4,7 @@
 
 Reader lettering for the 35-folio PNG edition. The numbered headings identify the existing folios. The text and tables beneath them go on the page. Dialogue and the After Dark interview are Commonwealth fiction. Results, starters, standings and schedules come from ESPN. TheFFHub supplies the model estimates. Pittsy’s Book supplies its posted lines and settlements.
 
-**Desk holds before publication.** The F03 text is the existing unsigned proposal. F05–F06 are the Sports Desk’s proposed editorial ranks. The Week 12 feature on F33 and the road framing on F35 await their editorial and Atlas decisions. F01 can carry its title and deck with either cover audition. Printed scoreboard footers are part of the scene folio. F34 opens on the original posting, then gives the House’s later settlement. The image approval register records each finished page separately.
+**Desk holds before publication.** The F03 text is the existing unsigned proposal. F05–F06 are the Sports Desk’s proposed editorial ranks. The Week 12 feature on F33 and the road framing on F35 await their editorial and Atlas decisions. F01 keeps the title *One Last Crossing* and the same deck in both auditions. For the bridge, the scoreline is “His Majesty’s Blood 168.20 · D0nkey K0ng 129.75.” For the chili tank, it is “The Chili Cheesers 133.52 · ObiWan Jacoby 83.79.” Set the line matching the photograph selected after native and phone review. For the cover credit use the existing issue masthead. Printed scoreboard footers are part of the scene folio. F34 opens on the original posting, then gives the House’s later settlement. The image approval register records each finished page separately.
 
 [Page commissions](OPEN_BOARD_PAGE_REHEARSAL.md) · [Long-form scene manuscript](W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md) · [ESPN ledger](W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json) · [House ledger](W11_PITTSYS_BOOK_FINAL_OWNER_LEDGER_2026-11-24.json) · [Editorial ranking desk](W11_EDITORIAL_POWER_RANKING_DRAFT_2026-11-24.json) · [Scoring form](W11_FINAL_SCORING_FORM_70_30_2026-11-24.json) · [Possible qualification paths](W11_PLAYOFF_QUALIFICATION_PATHS_2026-11-24.md) · [Twelve postseason estimates](W11_FFHUB_POST_WEEK11_ODDS_2026-11-24.json) · [Week 12 simulations](W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json)
 
@@ -90,7 +90,7 @@ On Hearthroad, a white chip of gravel moves between sweeps of a wiper. At Mounta
 
 ## F09 · After you, Austin
 
-His Majesty’s Blood at D0nkey K0ng
+Week 11 Game of the Week · His Majesty’s Blood at D0nkey K0ng
 
 Wilson made room on the wet bridge. “After you, Austin.”
 
@@ -296,6 +296,8 @@ Three divisional rounds remain. In Pizza, Babb has a visitor who would like to h
 | Pizza | Seven Deadly Chins | El Niño |
 
 ## F33 · Next week's feature
+
+Sports Desk’s Week 12 Game of the Week recommendation
 
 **Seven Deadly Chins at El Niño · both 6–5**
 

@@ -1,0 +1,79 @@
+{
+  "scope": "Two separate follow-on admissions to internal folio review after the twelve desk-page submissions. No official release or human Commissioner or Umpire approval.",
+  "observed_counts": {
+    "seeded_desk_candidates": 12,
+    "new_separate_candidates": 2,
+    "distinct_proofed_folios": 14,
+    "remaining_folios": 21,
+    "final_approved_folios": 0
+  },
+  "test": "PNG decode and SHA-256 over full files. Independently resized native color pixels compared exactly with phone proof. Tesseract single-block OCR of the body at both pixel sizes matched the reader source after case, apostrophe, punctuation and whitespace normalization. Separate production lead visually read both 390-pixel originals.",
+  "folios": [
+    {
+      "folio": "F03",
+      "candidate": "preproduction/f03-unsigned-note-candidate-20261124/candidate.json",
+      "candidate_sha256": "8667d000fe6413cba72c019943d64f11e8ef7bf0e50decc9d1da5e6999fe6ef9",
+      "native": {
+        "path": "F03.png",
+        "bytes": 2467575,
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "b5ec24e681215d5aaf16d411c6563bfc7bfaba0bcf29eff1f92e4655cad1fddc"
+      },
+      "phone": {
+        "path": "F03-390.png",
+        "bytes": 418660,
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "7147bbbc3c8434983614c601f3d1e1a0363c0e5a6fbe6eb992c202b57e40ce52"
+      },
+      "check": {
+        "original_native_and_phone_sha_bytes_dimensions_match": true,
+        "phone_pixels_equal_exact_native_lanczos_downsample": true,
+        "body_words_matched_at_native": 72,
+        "body_words_matched_at_phone": 72,
+        "body_words_in_manuscript": 72,
+        "independent_visual_readback_390": "All body text reads cleanly. Unsigned status is clearly visible. There is no signature or identifiable portrait."
+      },
+      "classification": "INTERNAL_UNSIGNED_LAYOUT_CANDIDATE",
+      "published": false
+    },
+    {
+      "folio": "F35",
+      "candidate": "preproduction/f35-final-word-candidate-20261124/candidate.json",
+      "candidate_sha256": "70d884758e61698399ca4b4618f29d4ba2ada55db9f85285d19b3f727b9e37e8",
+      "native": {
+        "path": "F35.png",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "97b12392f028175033e5788868b0bdaef8ac86559f15e0c67283a61cca7e8dfc",
+        "bytes": 2253605
+      },
+      "phone": {
+        "path": "F35-390.png",
+        "dimensions": [
+          390,
+          693
+        ],
+        "sha256": "9521314649259ac5a30ebd04f665b14b18cda3333cb30423bcea1f419a926f64",
+        "bytes": 414868
+      },
+      "check": {
+        "original_native_and_phone_sha_bytes_dimensions_match": true,
+        "phone_pixels_equal_exact_native_lanczos_downsample": true,
+        "body_words_matched_at_native": 16,
+        "body_words_matched_at_phone": 16,
+        "body_words_in_manuscript": 16,
+        "independent_visual_readback_390": "All body text reads cleanly. Tight, damp road with no unsupported people, transport, headlights or landmarks."
+      },
+      "classification": "INTERNAL_NATIVE_CANDIDATE",
+      "published": false
+    }
+  ]
+}
