@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from validate_atlas_routes import check_scene_sites
+from validate_atlas_routes import build_graph, check_scene_sites, validate_feature_approach
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -51,6 +51,27 @@ class SceneIdentityTests(unittest.TestCase):
 
     def test_native_records_pass(self):
         self.assertTrue(self.gate())
+
+    def test_feature_rejects_prior_venue_auditions_and_wrong_arrival_road(self):
+        desk = WEEK / "preproduction"
+        for name in ("W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
+                     "W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json"):
+            shutil.copyfile(ROOT / desk / name, self.root / desk / name)
+        graph = build_graph(json.loads((ROOT / "world/data/routes.json").read_text())["routes"])
+        self.assertIn("LOC-STORM-BOWL", validate_feature_approach(self.root, graph))
+        original = self.load(DESK)
+        for folio in ("F33", "F35"):
+            with self.subTest(folio=folio):
+                atlas = self.load(DESK)
+                row(atlas["folios"], "folio", folio)["candidate_location_ids"] = ["LOC-LLC-BOARDROOM"]
+                self.save(DESK, atlas)
+                with self.assertRaisesRegex(ValueError, folio):
+                    validate_feature_approach(self.root, graph)
+                self.save(DESK, original)
+        row(original["folios"], "folio", "F35")["approach"]["route_id"] = "ROUTE-DELTA-CAUSEWAY"
+        self.save(DESK, original)
+        with self.assertRaisesRegex(ValueError, "F35"):
+            validate_feature_approach(self.root, graph)
 
     def test_reordered_inputs_pass(self):
         sources = [

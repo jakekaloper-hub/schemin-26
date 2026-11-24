@@ -189,6 +189,31 @@ def check_scene_sites(root):
         print(line)
     return True
 
+
+def validate_feature_approach(root, graph):
+    desk = root / "memo-os/week-11/preproduction"
+    atlas = read_json(desk / "WEEK11_LOCATION_DESK.json")
+    sports = read_json(desk / "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json")
+    leverage = read_json(desk / "W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json")
+    feature = leverage["game_of_week"]["fixture"]
+    matching = [game for game in sports["week12"]["fixtures"]
+                if f"{game['away']['name']} at {game['home']['name']}" == feature]
+    if len(matching) != 1:
+        raise ValueError("model feature must resolve to a single scheduled Week 12 fixture")
+    game = matching[0]
+    domains = index_rows(read_json(root / "world/data/owner_domains.json")["domains"], "team_id")
+    home = domains[game["home"]["team_id"]]["primary_location_id"]
+    away = domains[game["away"]["team_id"]]["primary_location_id"]
+    pages = index_rows(atlas["folios"], "folio")
+    for folio in ("F33", "F35"):
+        if pages[folio]["candidate_location_ids"] != [home]:
+            raise ValueError(f"{folio}: current feature must point to the recommended host domain")
+    leg = pages["F35"]["approach"]
+    if (leg["to"] != home or (home, leg["route_id"]) not in graph.get(leg["from"], [])
+            or trace(graph, away, leg["from"]) is None):
+        raise ValueError("F35: proposed host approach is disconnected from the visitor or host")
+    return f"{feature} | {leg['route_id']} → {home} | topology only"
+
 def main(root=REPO):
     data = (root / "world/data/routes.json").read_bytes()
     if blob_sha(data) != EXPECTED_ROUTE_BLOB:
@@ -215,6 +240,11 @@ def main(root=REPO):
     if not check_scene_sites(root):
         return 1
     print("SITE_GATE: 6/6 fixture, cast, site and folio assignments agree; bridge parent retains provisional status")
+    try:
+        print("WEEK12_FEATURE_GATE:", validate_feature_approach(root, graph))
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        print(f"FAIL Week 12 feature approach: {exc}")
+        return 1
     print("PITTSYS_HOLD: Central Basin Book record conflicts with Commissioner TDS-waterfall placement")
     print("VISUAL_HOLD: Atlas environment bytes/canon, dynamic weather and property rights unapproved")
     print("Scope: preproduction assignments only. Renderer binding, likeness QA, final scores and release require separate evidence.")

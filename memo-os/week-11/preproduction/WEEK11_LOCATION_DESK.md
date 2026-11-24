@@ -1,6 +1,6 @@
 # One Last Crossing · Atlas location cards
 
-Week 11 production board • November 2026. This audit connects all 35 positions in the Sunday rehearsal to the active register of 23 places. [Machine-readable location and folio register](WEEK11_LOCATION_DESK.json) · [Open the Atlas desk on the flatplan](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-atlas-guide)
+Week 11 production board • November 2026. The 35 folios connect to the active register of 23 places. Tuesday’s sporting evidence updates the cover auditions and the Week 12 host approach. [Machine-readable location and folio register](WEEK11_LOCATION_DESK.json) · [Open the Atlas desk on the flatplan](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-atlas-guide)
 
 The seven visitor journeys and six Week 12 home anchors are separately indexed in the JSON. The source cut preserves the Sunday draft; live scores, later venue selection and publication require their own receipts. [Current rehearsal](OPEN_BOARD_PAGE_REHEARSAL.md) · [Original source cut](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md) · [registry](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/world/data/locations.json) · [six site summit](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/SIX_MATCHUP_ATLAS_SUMMIT_2026-11-22.md)
 
@@ -16,7 +16,7 @@ These three editorial dossier fields are distinct from the eight switchable map 
 
 | Folio | Production address | Use and evidence |
 | --- | --- | --- |
-| <a id="atlas-01"></a>[F01](OPEN_BOARD_PAGE_REHEARSAL.md#folio-01) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-01) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-01) One Last Crossing | Selection pending | Select after six official finals. Reuse the actual chosen G01–G06 set and place both rivals. |
+| <a id="atlas-01"></a>[F01](OPEN_BOARD_PAGE_REHEARSAL.md#folio-01) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-01) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-01) One Last Crossing | Bridge or Eastern Ascent | Primary cover audition: the carter waits beside Austin at the intact Mountain Lake bridge as Wilson resurfaces. Alternate: Brandon’s single throw at the Wolf Brand Chili tank. Choose after identity-bound native art and a 390-pixel proof. |
 | <a id="atlas-02"></a>[F02](OPEN_BOARD_PAGE_REHEARSAL.md#folio-02) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-02) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-02) The bottom of the register | LOC-LEAGUE-CHAMBER | Stage the register inside the League Chamber. Its registered records desk is a possible framing choice. |
 | <a id="atlas-03"></a>[F03](OPEN_BOARD_PAGE_REHEARSAL.md#folio-03) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-03) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-03) Commissioner’s Note | No physical ID assigned | Commissioner’s desk in close-up. The desk owner is established; a Chamber or office parent is unassigned. |
 | <a id="atlas-04"></a>[F04](OPEN_BOARD_PAGE_REHEARSAL.md#folio-04) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-04) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-04) The Week 11 board | No physical ID assigned | Show the inhabited results board in close framing while the exact wide site is open. |
@@ -48,9 +48,9 @@ These three editorial dossier fields are distinct from the eight switchable map 
 | <a id="atlas-30"></a>[F30](OPEN_BOARD_PAGE_REHEARSAL.md#folio-30) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-30) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-30) Seven places | LOC-LEAGUE-ARCHIVE | Keep the seven-place chart in the regular-season Commonwealth. No Island arrival, beach admission or physical championship venue. |
 | <a id="atlas-31"></a>[F31](OPEN_BOARD_PAGE_REHEARSAL.md#folio-31) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-31) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-31) Under a deal we never made? | LOC-TRADE-JEDI-MOUNTAIN-BASE | Private mountain shack selected for After Dark. Jake and the reporter can know only what the interview or public clipping gives them. No registered shack feature. |
 | <a id="atlas-32"></a>[F32](OPEN_BOARD_PAGE_REHEARSAL.md#folio-32) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-32) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-32) The next six | No physical ID assigned | Six verified Week 12 visitors and hosts. Each home anchor is a reference for a possible destination; F32 stages the schedule register. |
-| <a id="atlas-33"></a>[F33](OPEN_BOARD_PAGE_REHEARSAL.md#folio-33) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-33) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-33) Next week’s feature | Selection pending | Two written auditions: HMB at LLC and Three Dreaded Snake at Mud Dogs. Check incoming consequence, fixture and exact route before selecting. |
+| <a id="atlas-33"></a>[F33](OPEN_BOARD_PAGE_REHEARSAL.md#folio-33) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-33) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-33) Next week’s feature | Host candidate `LOC-STORM-BOWL` | Seven Deadly Chins visit El Niño. Use Storm Bowl as the evidenced home-domain candidate. Commissioner feature selection, physical venue, exact feature and cinematic plate remain open. |
 | <a id="atlas-34"></a>[F34](OPEN_BOARD_PAGE_REHEARSAL.md#folio-34) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-34) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-34) Pittsy’s Book | LOC-PITTSYS-BOOK | Use the recurring House counter. The precise counter handle is unassigned. Hold the wide while the same Book’s Central Basin machine placement and Founder’s waterfall-domain correction are reconciled. |
-| <a id="atlas-35"></a>[F35](OPEN_BOARD_PAGE_REHEARSAL.md#folio-35) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-35) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-35) They know the way home | Selection pending | Use the verified approach of the F33 host once selected. Check the departing traveler, route and final consequences. |
+| <a id="atlas-35"></a>[F35](OPEN_BOARD_PAGE_REHEARSAL.md#folio-35) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-35) · [Capture](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-35) They know the way home | Approach candidate `ROUTE-STORM-COAST` | Trace the final approach from LLC Storm City along Storm Coast Road toward Storm Bowl. A headlight shot requires evidence for motor-vehicle access and an accepted viewpoint. Until then the depiction can show the approach in close framing without specifying transport. |
 
 ## The six matchup sets
 
@@ -193,7 +193,7 @@ These paths reproduce the repository’s graph traversal. Travel time, weather, 
 | His Majesty's Blood | The LLC | LOC-LLC-BOARDROOM |
 | Seven Deadly Chins | El Niño | LOC-STORM-BOWL |
 
-F32 can carry these six fixtures. The separate F33 auditions and F35 approach require a chosen story and site. [sport](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/SUNDAY_2024_ET_SOURCE.json) · [auditions](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/SUNDAY_READER_COPY.md) · [owner domains](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/world/data/owner_domains.json)
+F32 carries these six fixtures. Tuesday’s feature recommendation is Seven Deadly Chins at El Niño. The earlier LLC and Mud Dogs auditions remain available in the Sunday draft. [sport](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/SUNDAY_2024_ET_SOURCE.json) · [auditions](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/SUNDAY_READER_COPY.md) · [owner domains](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/world/data/owner_domains.json)
 
 ## Conflicts and consequences
 
@@ -270,7 +270,19 @@ F32 can carry these six fixtures. The separate F33 auditions and F35 approach re
 
 [Current rehearsal](OPEN_BOARD_PAGE_REHEARSAL.md) · [Original source cut](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md) · [book correction](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/memo-os/week-4/PITTSYS_BOOK_WEEK_4_VISUAL_CONTINUITY_RECEIPT_2026-10-04.md) · [book conflict](https://github.com/jakekaloper-hub/schemin-26/blob/14e1a449c35fa74aea4a15fe53df8b0b33ae8fb0/world/atlas/summits/2026-11-20/PITTSYS_BOOK_FOUNDER_SUPERSESSION_RECONCILIATION_2026-11-20.md) · [card LOC-PITTSYS-BOOK](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/world/location-control-plane/locations/LOC-PITTSYS-BOOK/CARD.json)
 
-### F32 / conditional F33 • LLC host anchor
+### F33 / F35 • El Niño host approach
+
+`LOC-CHINS-ROAD-COMMONS` → `LOC-STORM-BOWL` (host domain, provisional canon).
+
+**L1.** Storm Coast Road links LLC Storm City to Storm Bowl on the Eastern Forest and Storm Coast. The host card lists foot, mount, wagon and sea access, with storm, forest washout and coastal surge constraints. A night viewpoint and motor vehicle access require separate evidence.
+
+**L2.** El Niño is the host franchise. The weather-exposed venue and service counter are registered features of Manning Welty’s domain. Access to the counter and permission to stage the Week 12 contest remain unverified.
+
+**L3.** Both clubs enter at 6–5. TheFFHub’s November 24 winner-forced runs put their combined direct qualification swing at 67.59 percentage points. Week 12 remains ahead. The sports history establishes neither a past game at this site nor travel to Playoff Island.
+
+[Final Week 11 standings and Week 12 fixture](W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json) · [Week 12 qualification simulations](W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json) · [Storm Bowl card](../../../world/location-control-plane/locations/LOC-STORM-BOWL/CARD.json) · [World route graph](../../../world/data/routes.json)
+
+### Sunday audition • LLC host anchor
 
 `LOC-LLC-BOARDROOM`
 
@@ -282,7 +294,7 @@ F32 can carry these six fixtures. The separate F33 auditions and F35 approach re
 
 [auditions](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/SUNDAY_READER_COPY.md) · [sport](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/SUNDAY_2024_ET_SOURCE.json) · [world memory](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/world/data/world_memory.json) · [history 2023](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json) · [history 2024](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json) · [history 2025](https://github.com/jakekaloper-hub/schemin-26/blob/db559bc97ef105c981f1f3d346a2e5332a8b6c93/living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json) · [cinematic](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md) · [card LOC-LLC-BOARDROOM](https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/world/location-control-plane/locations/LOC-LLC-BOARDROOM/CARD.json)
 
-### F32 / conditional F33 • Mud Dogs host anchor
+### Sunday audition • Mud Dogs host anchor
 
 `LOC-MUD-DOGS-SWAMP`
 

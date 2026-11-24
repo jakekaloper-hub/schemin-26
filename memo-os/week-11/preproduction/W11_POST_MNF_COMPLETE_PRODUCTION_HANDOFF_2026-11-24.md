@@ -6,8 +6,12 @@
 
 ## Verified sports fact closure
 - Flaim ESPN explicit refresh returned six **DECIDED** matchups, full final scores, all 12 records and playoffSeed order, six detailed starter/bench matchup packets and 43 Week 11 transaction records (32 complete, 6 failed, 5 canceled). Independently fetched the direct ESPN public mMatchupScore/mScoreboard view and confirmed all six winning sides and scores and all twelve teams’ W–L–T records exactly; this direct API view did not provide playoff seeds or season points totals.
+- A second connected Flaim/ESPN read on November 24 matched the [stored final source](W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json) on all six scores and winners, twelve records, seeds and season points for/against, all 223 lineup entries including 120 starters, and the 43 normalized transactions. All twelve starter totals reconciled to the official scores. All 18 remaining Week 12–14 fixtures also matched. Recalculation reproduced the twelve scoring-form values, the stored twelve model rows’ playoff sums, and all six Week 12 leverage totals.
+- [Qualification examples for all twelve teams](W11_PLAYOFF_QUALIFICATION_PATHS_2026-11-24.md) now show that every team has both a route into the seven and a route to miss under the current automatic seeding rules. Eleven have a strict-record qualification example. For Mud Dogs the linked six-game Burgers scorecard resolves the tied division on head-to-head and points for.
 - Week 12 all six away→home fixtures, plus Weeks 13–14 schedule, are preserved as separate ESPN source artifacts. No Week12 results assigned.
 - Week11 House data supplied by the Founder: eight wagers, 106.50 USD total, customer net +27.88, House weekly −27.88; six reported weeks, House record 2–4, season net −252.01. Calculated market settlements match ESPN totals; no payment-transaction connector read and Qwilly/QWhips alias unverified.
+
+[Print-ready reader lettering for F01–F35](W11_READER_LETTERING_2026-11-24.md) supplies the short page text and tables. The longer director’s cut remains the source for acting and image composition. The Commissioner’s draft, editorial ranking and Week 12 feature keep their listed signoffs.
 
 ## The six selected cinematic outcomes
 | Game | Official result | Selected camera/story consequence |
@@ -15,7 +19,7 @@
 | G01 | His Majesty's Blood wins, 168.20–129.75 (away–home) | Austin’s winning bridge strike → Wilson’s four-hoof skid into rough Mountain Lake; survives ALIVE. Bridge intact; Wilson primary reference HOLD. |
 | G02 | Slob on my Dobb wins, 134.60–138.86 (away–home) | Slob’s narrow victory → Jordan stabilizes trailer after two kegs fall, secures delivery and accounts for spill. Southern loaded-truck route HOLD. |
 | G03 | The Chili Cheesers wins, 133.52–83.79 (away–home) | Chili’s rout → Brandon lands one throw, Jake submerged in Wolf Brand Chili and exits head-to-both-boots; actual ObiWan playoff status not decided by fantasy result. |
-| G04 | Three Dreaded Snake wins, 94.80–125.74 (away–home) | Snake’s win → Phillip one reptile body/three heads, Kevin outfit bag remains shut; final sport/finish framing remains editorially provisional. |
+| G04 | Three Dreaded Snake wins, 94.80–125.74 (away–home) | Snake’s win → Phillip one reptile body/three heads, Kevin arrives behind Phillip, with no costume or bag in frame; final sport/finish framing remains editorially provisional. |
 | G05 | Mud Dogs wins, 117.66–151.26 (away–home) | Mud’s upset → Bobby deliberately sends Ben into misleading high flood; Ben turns back, Bobby smirks but Chins are not automatically eliminated. |
 | G06 | Dr. Duckhook wins, 127.60–173.01 (away–home) | Duckhook’s blowout → independent fixed corporate CEO/chairman takeover, Babb furious and fantasy LLC unchanged; selected black-coffee coda. |
 
@@ -33,7 +37,7 @@
 - Six locally modeled Bullpen Director roles were consulted, along with consolidated twelve production-method and eight Inklings-method reviews; named individuals did NOT actually attend. Model hallucinations that reversed the Duckhook corporate roles or named a wrong football winner were explicitly rejected. Visual specialists’ role methods guide camera/lighting/costume/physics; original canon and ESPN are authoritative.
 
 ## Remaining acceptance gates (do not duplicate previous workflows)
-- Final editorial power ranks and Commissioner’s Note voice/signature; F01 cover and F35 exact camera geography; TheFFHub statistical calibration and any mathematical clinch proof independent of estimated percentages.
+- Final editorial power ranks and Commissioner’s Note voice/signature; F01 cover and F35 exact camera geography; TheFFHub statistical calibration and independent acceptance of the remaining-schedule qualification examples.
 - Six cinematic venue photo plates remain unapproved in the inspected World registry; Wilson Look source-router is a documented conflict; G02 truck route and Pittsy Book wide landscape unresolved. Exact original character reference bytes and provider mount/subject binding required before identity-safe image production.
 - Current tldraw live editor session unconnected; earlier verified 35 production +35 review cards and 28 revisions are historical evidence, not a new readback. Six GitHub 16:9 storyboards and all 35 shot specs are still unverified as current live tldraw assets. Never create a replacement board or claim an import without asset/shape IDs.
 - No final native 1080×1920 hyper-realistic PNGs and 390px inspection, independent Umpire release acknowledgement, or current CI promotion signed. Preserve PR #313 as DRAFT and Week11 outcomes source-locked rather than published.

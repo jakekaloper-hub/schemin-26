@@ -1,4 +1,6 @@
-# Week 11 — initial production index
+# Week 11 — production index
+
+**November 24 production desk.** [Open the 35-folio manuscript, live tldraw inventory, matched briefs, Bullpen council and release evidence](production-evidence/W11_PRODUCTION_DESK_2026-11-24.md).
 
 **Nov 24 Inklings and twelve-discipline methodology check:** [source-adjudicated review of six result-locked scenes](preproduction/W11_RESULT_LOCKED_INKLINGS_PRODUCTION_ADJUDICATION_2026-11-24.md) (six bounded AI method panels, no named humans participated). The fourteen selected images remain source/visual preproduction until identity and Umpire gates pass.
 
@@ -10,9 +12,11 @@
 
 **Nov 24 official Week 11 results selected and source-linked:** [six decided ESPN games, 12 standings, six full roster/starters and 43 transactions](preproduction/W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json) · [35 result-selected folio cuts](preproduction/W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json) · [House settlement](preproduction/W11_PITTSYS_BOOK_FINAL_OWNER_LEDGER_2026-11-24.json) · [70/30 formula](preproduction/W11_FINAL_SCORING_FORM_70_30_2026-11-24.json). Result copy has been integrated into the working 35-folio rehearsal and cinematic manuscript without replacing historical studies. TheFFHub playoffs, commissioned editorial rank, independent data/visual QA and release remain gated.
 
-## November 24 post-Monday check
+## Archived November 24 check before ESPN settled the games
 
-Direct ESPN and Flaim agree on all twelve live scores. All six ESPN winner fields still read `UNDECIDED`, all twelve official total fields are zero, and the standings returned by Flaim still count ten games for every club. Each team's ten starters sums to the live figure below in both reads. Final corrections and the Week 11 table remain open.
+The following notes preserve the early read and its then-open assignments. The later [final scoreboard and standings](preproduction/W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json), [Week 12 feature review](preproduction/W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json) and [six selected scenes](preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md) supersede this section for production, including the G03 dialogue and G06 boardroom account.
+
+Direct ESPN and Flaim agreed on all twelve live scores at this earlier check. All six ESPN winner fields then read `UNDECIDED`, all twelve official totals were zero, and Flaim’s standings counted ten games for every club. Each team’s ten starters summed to the live figure below in both reads.
 
 | Scene | Away | Starter sum | Home | Starter sum |
 |---|---|---:|---|---:|

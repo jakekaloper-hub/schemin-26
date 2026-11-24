@@ -33,11 +33,30 @@ def validate(pack):
     atlas = json.loads((DESK / f"{ATLAS_DESK}.json").read_text())
     png_text = (DESK / f"{PNG_DESK}.md").read_text()
     atlas_text = (DESK / f"{ATLAS_DESK}.md").read_text()
+    selected = json.loads((DESK / "W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json").read_text())
+    lettering = (DESK / selected["reader_lettering"]).read_text()
+    reader_parts = re.split(r"^## (F\d{2}) · [^\n]+\n", lettering, flags=re.MULTILINE)
+    folios = selected["folios"]
+    if reader_parts[1::2] != [f"F{nn}" for nn in numbers] or len(folios) != len(numbers):
+        raise ValueError("Reader lettering and selection must contain 35 ordered folios")
+    reader = dict(zip(reader_parts[1::2], reader_parts[2::2], strict=True))
+    if reader["F02"].strip() != folios[1]["updated_copy"]:
+        raise ValueError("F02: Opening Drive lettering differs from the selected result")
+    source = json.loads((DESK / "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json").read_text())
+    rows = []
+    for game in source["week11"]["matchups"]:
+        away, home = game["away"], game["home"]
+        rows.append(f"| {away['name']} | {away['score']:.2f} | {home['name']} | {home['score']:.2f} |")
+    printed = [line.replace("’", "'").replace("**", "") for line in reader["F04"].splitlines() if line.startswith("| ")]
+    if sorted(printed[2:]) != sorted(rows):
+        raise ValueError("F04: printed visitor/home scores differ from the final ESPN games")
     expected_members = []
-    for nn, row, place in zip(numbers, png["folios"], atlas["folios"], strict=True):
+    for nn, row, place, cut in zip(numbers, png["folios"], atlas["folios"], folios, strict=True):
         folio = "F" + nn
-        if row["folio"] != folio or place["folio"] != folio:
+        if row["folio"] != folio or place["folio"] != folio or cut["folio"] != folio:
             raise ValueError(f"{folio}: folio IDs disagree")
+        if not (cut["updated_copy"] == row["post_mnf_selected_cut"] == place["post_mnf_selected_story_cut"]):
+            raise ValueError(f"{folio}: selected production cut differs between desks")
         rehearsal_target = f"{REHEARSAL}#folio-{nn}"
         for name, anchor, register in [(PNG_DESK, "compare", png_text), (ATLAS_DESK, "atlas", atlas_text)]:
             target = f"{name}.md#{anchor}-{nn}"

@@ -72,7 +72,10 @@
     "card_LOC-TDS-CHILI-SHARED-MARCH": "https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/world/location-control-plane/locations/LOC-TDS-CHILI-SHARED-MARCH/CARD.json",
     "card_LOC-COMPACT-NEUTRAL-GROUNDS": "https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/world/location-control-plane/locations/LOC-COMPACT-NEUTRAL-GROUNDS/CARD.json",
     "card_LOC-LEAGUE-ARCHIVE": "https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/world/location-control-plane/locations/LOC-LEAGUE-ARCHIVE/CARD.json",
-    "current_rehearsal": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md"
+    "current_rehearsal": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md",
+    "tuesday_sports": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
+    "tuesday_leverage": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json",
+    "tuesday_director_cut": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md"
   },
   "locations": [
     {
@@ -1000,7 +1003,8 @@
       "physical_zone_id": "REG-EASTERN-STORM-COAST",
       "roles": [
         "G02 traveler origin",
-        "F32 Week 12 host home anchor, venue unselected"
+        "F32 Week 12 host home anchor, venue unselected",
+        "F33/F35 recommended feature host domain, physical venue pending"
       ],
       "folios": [],
       "available_handles": [
@@ -1162,6 +1166,9 @@
         "dossiers",
         "routes",
         "world_memory"
+      ],
+      "supporting_set_cards": [
+        "F33 / F35 • El Niño host approach"
       ]
     },
     {
@@ -1722,21 +1729,23 @@
           "study_panel": "lower left",
           "surface": "Grey clipped stems, pale recent cuts on the path side and one stone that stays dry beside the spray.",
           "local_routine": "A local sets a basket against a hip on the dry stone. Phillip shares that spot so Kevin can hear him.",
-          "camera_continuity": "Look outward along the boundary. Preserve the dry side of the stone in the reverse and leave the sport open."
+          "camera_continuity": "Look outward across the visitor-side clearing. Keep the same dry stone in the reverse. The proposed race finishes here in the selected F17–F18 cut."
         },
         "owner_victory_coda": {
           "team": "Red Leopards",
           "character_id": "CHAR-KEVIN-ZEEK",
           "trigger": "Confirmed ESPN Week 11 win over Three Dreaded Snake",
           "sequence": "After the sport at the falls Kevin wears his Florida python-hunter field outfit for a victory photograph with Phillip.",
-          "on_other_result": "Keep the dry bag shut. Use the Phillip-win or unresolved boundary ending.",
-          "brief": "memo-os/week-11/OWNER_VICTORY_CODAS_2026-11-22.md"
+          "on_other_result": "Phillip wins. Stage the visitor-side dry-stone finish with no bag or costume in frame.",
+          "brief": "memo-os/week-11/OWNER_VICTORY_CODAS_2026-11-22.md",
+          "selection": "RED_WIN_ALTERNATE_ARCHIVED"
         },
         "archived_sporting_record": "13 regular-season meetings. Three Dreaded Snake beat Red Leopards 190.20–141.06 in 2025 W9.",
         "placed_evidence": "The Week 9 family welcome belongs to the temple. Week 10 disturbed the household in its courtyard. Week 11 moves the encounter to the visitors’ side of the vegetation break.",
         "inklings_application": "Point the camera outward into the spray. Kevin can share the dry stone with a carrier while the Pitts family keeps its privacy. The earlier games supply rivalry context only.",
         "historical_method": "A box score establishes a game between franchise slots. Its venue, an early custom and historical owner identity need separate sources.",
-        "scene_handle_status": "REGISTERED_ON_WEEK11_DRAFT_ONLY"
+        "scene_handle_status": "REGISTERED_ON_WEEK11_DRAFT_ONLY",
+        "selected_scene_source": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md"
       },
       "sources": [
         "card_LOC-TDS-WATERFALL-TEMPLE",
@@ -4597,28 +4606,25 @@
     {
       "folio": "F01",
       "title": "One Last Crossing",
-      "status": "GAME_DEPENDENT_COVER",
+      "status": "COVER_AUDITIONS_PENDING_VISUAL_PROOF",
       "location_ids": [],
       "selected_handle_ids": [],
       "candidate_location_ids": [
         "LOC-BRIDGE-MOUNTAIN-LAKE",
-        "LOC-SLOB-FOOTHILL-CAMP",
-        "LOC-TRADE-JEDI-MOUNTAIN-BASE",
-        "LOC-TDS-WATERFALL-TEMPLE",
-        "LOC-MUD-DOGS-SWAMP",
-        "LOC-COUNTRY-CLUB-JACKSON"
+        "LOC-TRADE-JEDI-MOUNTAIN-BASE"
       ],
       "place_and_cast": "Selected matchup venue. Both sides of the finalist encounter.",
-      "instruction": "Select after six official finals. Reuse the actual chosen G01–G06 set and place both rivals.",
+      "instruction": "Primary cover audition: the carter waits beside Austin at the intact Mountain Lake bridge as Wilson resurfaces. Alternate: Brandon’s single throw at the Wolf Brand Chili tank. Choose after identity-bound native art and a 390-pixel proof.",
       "sources": [
-        "folio"
+        "folio",
+        "tuesday_director_cut"
       ],
       "folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-01",
       "board_url": "https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f01",
       "candidate_location_note": "Existing LOC IDs shortlisted for folio selection. This field does not represent CAND namespace proposals.",
       "capture_folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-01",
-      "post_mnf_selected_story_cut": "Cover candidates: Austin's decisive bridge strike, Brandon's single chili-tank throw, or Zach's second board sheet. Official winners are known; select the strongest readable character moment after visual proof, not simply the highest point scorer.",
-      "post_mnf_source": "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
+      "post_mnf_selected_story_cut": "Primary cover audition: the carter waits beside Austin at the intact Mountain Lake bridge as Wilson resurfaces. Alternate: Brandon’s single throw at the Wolf Brand Chili tank. Choose after identity-bound native art and a 390-pixel proof.",
+      "post_mnf_source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
       "post_mnf_atlas_authority": "INHERITS_PRIOR_SITE_STATUS_NOT_PROMOTED"
     },
     {
@@ -4638,7 +4644,7 @@
       "folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-02",
       "board_url": "https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f02",
       "capture_folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-02",
-      "post_mnf_selected_story_cut": "Opening Drive: three clubs stand 7–4, four are 6–5, two 5–6, two 4–7, and Mud Dogs 3–8. Bobby's upset and Jordan's close loss frame the tension between confidence and consequence.",
+      "post_mnf_selected_story_cut": "Bobby Mitchell began the week with two wins and put up 151.26 against Seven Deadly Chins. He turned the register back to his own row and wrote in a third. Across the table, Jordan Hollingshead had beaten El Niño by 4.26 to reach seven wins. Two other clubs had seven. Bobby let the ink dry on three.",
       "post_mnf_source": "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
       "post_mnf_atlas_authority": "INHERITS_PRIOR_SITE_STATUS_NOT_PROMOTED"
     },
@@ -5338,19 +5344,20 @@
     {
       "folio": "F33",
       "title": "Next week’s feature",
-      "status": "FEATURE_SELECTION_PENDING",
+      "status": "FEATURE_RECOMMENDED_VENUE_PENDING",
       "location_ids": [],
       "selected_handle_ids": [],
       "candidate_location_ids": [
-        "LOC-LLC-BOARDROOM",
-        "LOC-MUD-DOGS-SWAMP"
+        "LOC-STORM-BOWL"
       ],
-      "place_and_cast": "Selected Week 12 site. Both owners of the matchup ultimately selected.",
-      "instruction": "Two written auditions: HMB at LLC and Three Dreaded Snake at Mud Dogs. Check incoming consequence, fixture and exact route before selecting.",
+      "place_and_cast": "Ben Whipple visits Manning Welty. Use the host domain for planning the feature.",
+      "instruction": "Seven Deadly Chins visit El Niño. Use Storm Bowl as the evidenced home-domain candidate. Commissioner feature selection, physical venue, exact feature and cinematic plate remain open.",
       "sources": [
-        "folio",
-        "auditions",
-        "sport"
+        "tuesday_sports",
+        "tuesday_leverage",
+        "owner_domains",
+        "routes",
+        "card_LOC-STORM-BOWL"
       ],
       "folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-33",
       "board_url": "https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f33",
@@ -5358,7 +5365,9 @@
       "capture_folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-33",
       "post_mnf_selected_story_cut": "Select Seven Deadly Chins at El Niño as the evidence-supported Week12 Game of the Week: both 6–5 entering divisional play. In TheFFHub's separate 10,000-draw winner-forced simulations, Chins playoff odds are 93.71% if Chins win versus 54.08% if El Niño wins; El Niño's are 97.59% if El Niño wins versus 69.63% if Chins win. Combined direct qualification-odds swing is 67.59 percentage points, biggest across six Week12 pairs. Keep the El Niño host venue, route, character reference and final Commissioner selection subject to existing review.",
       "post_mnf_source": "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
-      "post_mnf_atlas_authority": "INHERITS_PRIOR_SITE_STATUS_NOT_PROMOTED"
+      "post_mnf_atlas_authority": "HOME_DOMAIN_ONLY_VENUE_AND_CAMERA_UNSELECTED",
+      "supporting_set_card": "F33 / F35 • El Niño host approach",
+      "prior_auditions_source": "auditions"
     },
     {
       "folio": "F34",
@@ -5386,19 +5395,20 @@
     {
       "folio": "F35",
       "title": "They know the way home",
-      "status": "SELECTED_APPROACH_PENDING",
+      "status": "HOST_APPROACH_TOPOLOGY_VERIFIED_CAMERA_PENDING",
       "location_ids": [],
       "selected_handle_ids": [],
       "candidate_location_ids": [
-        "LOC-LLC-BOARDROOM",
-        "LOC-MUD-DOGS-SWAMP"
+        "LOC-STORM-BOWL"
       ],
-      "place_and_cast": "Verified approach to the selected divisional host. Only the established traveler if shown.",
-      "instruction": "Use the verified approach of the F33 host once selected. Check the departing traveler, route and final consequences.",
+      "place_and_cast": "Storm Coast Road approaching El Niño’s home domain. An identifiable traveler still requires exact likeness and transport evidence.",
+      "instruction": "Trace the final approach from LLC Storm City along Storm Coast Road toward Storm Bowl. A headlight shot requires evidence for motor-vehicle access and an accepted viewpoint. Until then the depiction can show the approach in close framing without specifying transport.",
       "sources": [
-        "folio",
-        "auditions",
-        "sport"
+        "tuesday_sports",
+        "tuesday_leverage",
+        "owner_domains",
+        "routes",
+        "card_LOC-STORM-BOWL"
       ],
       "folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-35",
       "board_url": "https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f35",
@@ -5406,7 +5416,15 @@
       "capture_folio_source": "https://github.com/jakekaloper-hub/schemin-26/blob/870d6c87a54b8fc719959d3b11f92184deef7355/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-35",
       "post_mnf_selected_story_cut": "Week12 feature audition selects Seven Deadly Chins visiting El Niño by the highest combined direct qualification-odds swing. A single pair of headlights approaches a *source-approved* Niño home road, not an invented Playoff Island causeway. End on the divisional phrase: “For three weeks now, everybody who can spoil your Sunday knows the way to your place.” Exact route/camera still Atlas HOLD pending host-site acceptance.",
       "post_mnf_source": "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
-      "post_mnf_atlas_authority": "INHERITS_PRIOR_SITE_STATUS_NOT_PROMOTED"
+      "post_mnf_atlas_authority": "HOME_DOMAIN_ONLY_VENUE_AND_CAMERA_UNSELECTED",
+      "supporting_set_card": "F33 / F35 • El Niño host approach",
+      "prior_auditions_source": "auditions",
+      "approach": {
+        "from": "LOC-LLC-STORM-CITY",
+        "route_id": "ROUTE-STORM-COAST",
+        "to": "LOC-STORM-BOWL",
+        "evidence": "REGISTRY_TOPOLOGY_ONLY"
+      }
     }
   ],
   "journeys": [
@@ -6023,7 +6041,8 @@
         "history_2025",
         "cinematic",
         "card_LOC-LLC-BOARDROOM"
-      ]
+      ],
+      "status": "SUNDAY_AUDITION_SUPERSEDED_FOR_F33_F35"
     },
     {
       "name": "F32 / conditional F33 • Mud Dogs host anchor",
@@ -6044,7 +6063,29 @@
         "history_2024",
         "histories",
         "card_LOC-MUD-DOGS-SWAMP"
-      ]
+      ],
+      "status": "SUNDAY_AUDITION_SUPERSEDED_FOR_F33_F35"
+    },
+    {
+      "name": "F33 / F35 • El Niño host approach",
+      "location_id": "LOC-STORM-BOWL",
+      "related_folios": [
+        "F33",
+        "F35"
+      ],
+      "layers": {
+        "level_1_physical_and_arrival": "Storm Coast Road links LLC Storm City to Storm Bowl on the Eastern Forest and Storm Coast. The host card lists foot, mount, wagon and sea access, with storm, forest washout and coastal surge constraints. A night viewpoint and motor vehicle access require separate evidence.",
+        "level_2_lived_civilization_and_institution": "El Niño is the host franchise. The weather-exposed venue and service counter are registered features of Manning Welty’s domain. Access to the counter and permission to stage the Week 12 contest remain unverified.",
+        "level_3_memory_evolution_and_playoffs": "Both clubs enter at 6–5. TheFFHub’s November 24 winner-forced runs put their combined direct qualification swing at 67.59 percentage points. Week 12 remains ahead. The sports history establishes neither a past game at this site nor travel to Playoff Island."
+      },
+      "sources": [
+        "tuesday_sports",
+        "tuesday_leverage",
+        "owner_domains",
+        "routes",
+        "card_LOC-STORM-BOWL"
+      ],
+      "status": "PREPRODUCTION_HOST_DOMAIN_ONLY"
     }
   ],
   "candidate_alternatives": [
