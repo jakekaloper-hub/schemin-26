@@ -361,8 +361,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
       }else if(uRiver>.5){
        // Broken light on the EXISTING upstream sheet, not a flow/topology record.
        vec2 runningUv=vUv+vec2(0.,-uTime*.023);
-       float broken=sin(runningUv.y*44.+sin(runningUv.x*11.)*1.15);
-       float runGlint=pow(max(broken,0.),11.);
+       float runCoordinate=runningUv.y*44.+sin(runningUv.x*11.)*1.15;
+       float broken=sin(runCoordinate);
+       // Resolve narrow optical crests only when their screen footprint permits.
+       // The broad physical displacement and geometry-derived light remain.
+       float runGlint=pow(max(broken,0.),11.)
+         *(1.-smoothstep(.35,1.15,fwidth(runCoordinate)));
        float riverInterior=1.-smoothstep(.72,.96,length((vUv-vec2(.5))*2.));
        // Geometry-informed, two-sided glints follow the EXISTING displaced water.
         // This changes no river boundary or authoritative physical flow.
@@ -374,7 +378,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float riverGrazing=pow(1.-clamp(abs(dot(riverNormal,riverEye)),0.,1.),2.);
         // Narrow broken foam lines move with inherited ordinary water time;
         // keep both existing water geometry and the quiet shoreline untouched.
-        float riverFoamLine=pow(max(sin(runningUv.x*42.+sin(runningUv.y*13.)*.7),0.),14.);
+        float riverFoamCoordinate=runningUv.x*42.+sin(runningUv.y*13.)*.7;
+        float riverFoamLine=pow(max(sin(riverFoamCoordinate),0.),14.)
+          *(1.-smoothstep(.35,1.15,fwidth(riverFoamCoordinate)));
         float riverFoamBreak=smoothstep(.47,.86,.5+.5*sin(runningUv.y*29.+vUv.x*6.-uTime*.72));
         float riverFoam=riverFoamLine*riverFoamBreak*riverInterior;
         vec3 riverOptics=vec3(.06,.085,.07)*riverFoam

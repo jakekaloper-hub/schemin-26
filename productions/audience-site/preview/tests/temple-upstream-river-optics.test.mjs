@@ -44,7 +44,12 @@ test('Temple upstream river optical flow stays inside one source-bounded existin
    'riverNormal=riverFaceSize>.00001?riverFace/riverFaceSize:vec3(0.,1.,0.)',
    'riverSlope=clamp((1.-clamp(abs(riverNormal.y),0.,1.))*12.,0.,.32)',
    'riverGrazing=pow(1.-clamp(abs(dot(riverNormal,riverEye)),0.,1.),2.)',
-   'riverFoamLine=pow(max(sin(runningUv.x*42.+sin(runningUv.y*13.)*.7),0.),14.)',
+   'runCoordinate=runningUv.y*44.+sin(runningUv.x*11.)*1.15',
+   'runGlint=pow(max(broken,0.),11.)',
+   '*(1.-smoothstep(.35,1.15,fwidth(runCoordinate)))',
+   'riverFoamCoordinate=runningUv.x*42.+sin(runningUv.y*13.)*.7',
+   'riverFoamLine=pow(max(sin(riverFoamCoordinate),0.),14.)',
+   '*(1.-smoothstep(.35,1.15,fwidth(riverFoamCoordinate)))',
    'riverFoamBreak=smoothstep(.47,.86,.5+.5*sin(runningUv.y*29.+vUv.x*6.-uTime*.72))',
    'riverFoam=riverFoamLine*riverFoamBreak*riverInterior',
    'gl_FragColor=vec4(clamp(uColor+vec3(.10,.15,.13)*(runGlint*riverInterior)+riverOptics,0.,1.),.88)'
@@ -92,4 +97,25 @@ test('El Nino global calm does not freeze ordinary river movement; explicit paus
  assert.equal(JSON.stringify(places),before);
  a.dispose();a.dispose();
  assert.equal(geoDisposals,1);assert.equal(matDisposals,1);
+});
+
+test('river narrow optical crests retain near detail and ordinary motion but fade at coarse footprints',()=>{
+ const coordinates=[
+  (u,v,t)=>(v-t*.023)*44+Math.sin(u*11)*1.15,
+  (u,v,t)=>u*42+Math.sin((v-t*.023)*13)*.7
+ ];
+ const attenuation=(c,u,v,t,step)=>1-smooth(.35,1.15,
+   Math.abs(c(u+step,v,t)-c(u,v,t))+Math.abs(c(u,v+step,t)-c(u,v,t)));
+ let change=0;
+ for(const c of coordinates)for(let i=8;i<33;i++)for(let j=8;j<33;j++)for(const t of [0,1.9,8]){
+  const u=i/40,v=j/40,near=attenuation(c,u,v,t,.002),far=attenuation(c,u,v,t,.05);
+  assert.ok(near>.99);
+  assert.equal(far,0);
+  change=Math.max(change,Math.abs(foam(u,v,t)*near-foam(u,v,t+.31)*attenuation(c,u,v,t+.31,.002)));
+ }
+ assert.ok(change>.1);
+ const a=build(),w=a.water.find(w=>w.kind==='river');
+ assert.ok(!w.material.vertexShader.includes('riverFoamCoordinate'));
+ assert.ok(w.material.fragmentShader.includes('riverSlope*(.45+.55*riverGrazing)*riverInterior'));
+ a.dispose();
 });
