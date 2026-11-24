@@ -108,6 +108,51 @@ if g01["character_identity"]["Wilson_Look"]["legacy_handle_state"].startswith("B
     RELEASE_HOLDS.append({"gate":"G01_WILSON_CURRENT_SOURCE_SUPERSESSION",
                           "status":"BLOCKED_FOR_FINAL_CANON",
                           "action":"Do not attach biped historical primary as four-hoof current active source."})
+# Founder-directed Week11 G01 stunt/identity regression check. This is a source
+# preflight, not evidence of a finished image or independent character approval.
+duel = load(ISSUE / "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json")
+scenes = duel["sequence"]
+g01_ids = ["F09", "F10", "F11"]
+check("g01_three_page_order", [x["folio"] for x in scenes] == g01_ids,
+      "Verbal conflict/charge, choreographed fighting, fall/survivor")
+check("g01_seven_story_frames", [len(x["frames"]) for x in scenes] == [2,3,2],
+      "2 + 3 + 2 distinct shot beats")
+austin = duel["cast"]["austin"]
+wilson = duel["cast"]["wilson"]
+for character, info in [("austin",austin),("wilson",wilson)]:
+    for alias, path_field, sha_field in [
+        ("crop","approved_lineup_crop_path","approved_lineup_crop_sha256")]:
+        target = ROOT / info[path_field]
+        actual = digest(target) if target.is_file() else "MISSING"
+        check("g01_%s_%s_verified" % (character,alias), actual==info[sha_field],
+              "%s actual_sha=%s" % (target.relative_to(ROOT),actual))
+hmbpath = ROOT/austin["approved_hmb_correction_path"]
+hmb_sha = digest(hmbpath) if hmbpath.is_file() else "MISSING"
+check("g01_austin_commissioner_oct18_correction",hmb_sha==austin["approved_hmb_correction_sha256"],
+      "approved current source must be attached for candidate render: %s" % hmb_sha)
+for item in scenes:
+    id = item["folio"]
+    folio = by_id[id]
+    reqpath = ISSUE / "render-inputs" / ("W11-P" + id[-2:]) / "request.json"
+    req = load(reqpath)
+    check("g01_reader_exact_vs_packet_"+id,
+          folio["exact_reader_publication_copy_markdown"].endswith(item["print_copy"]),
+          "G01 exact printed source copied into all-35 packet")
+    check("g01_render_request_copy_"+id,
+          req["exact_full_publication_copy"]["body"] == item["print_copy"] and
+          req["page_id"] == "W11-P" + id[-2:] and
+          len(req["performance_and_choreography"]["frames"]) == len(item["frames"]) and
+          not req.get("image_generation_executed") and not req.get("publication_approved"),
+          "Complete integrated type/script/stunt beats; image not yet generated")
+    check("g01_image_character_overrides_"+id,
+          "HOODED" in folio["active_matchup_override"]["austin_current_character"].upper()
+          and folio["active_matchup_override"]["source_binding_requirement"] if "source_binding_requirement" in folio["active_matchup_override"] else
+          folio["camera_scene_and_design"].get("source_binding_requirement","").startswith("Must visually reference"),
+          "HMB red-eyed correction must outrank generic human resemblance")
+check("g01_lake_hydrology_not_silently_changed",
+      duel["stage"]["water_handle"].endswith("::LAKE"),
+      "Raging wave effect OK; literal river requires Atlas amendment")
+
 result = {
   "status":"WORKING_ART_SOURCE_PREFLIGHT_PASS" if not ERRORS else "WORKING_ART_SOURCE_PREFLIGHT_FAIL",
   "publication_approved":False,
