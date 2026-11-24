@@ -617,8 +617,8 @@
       "title": "Pick a side",
       "scene": "G04",
       "lead": "environment_design",
-      "camera": "Visitor-side low wide; Phillip one body/three heads entirely visible",
-      "phone_test": "Three heads ONE torso and two approaches read",
+      "camera": "Low wide: Kevin chooses direct muddy approach; Phillip follows firm edge",
+      "phone_test": "Two distinct approaches, one body three heads",
       "result_dependency": "PREPRODUCE_NOW",
       "card_id": "shape:w11-os-f17",
       "review_id": "shape:w11-review-f17",
@@ -643,11 +643,19 @@
           "orange"
         ],
         [
-          "MUD / PATH",
-          10,
-          207,
-          160,
-          64,
+          "FIRM EDGE",
+          8,
+          208,
+          74,
+          45,
+          "yellow"
+        ],
+        [
+          "MUD",
+          96,
+          208,
+          74,
+          45,
           "grey"
         ]
       ]
@@ -657,9 +665,9 @@
       "title": "The dry stone",
       "scene": "G04",
       "lead": "costume",
-      "camera": "Fixed reverse continuing same muddy path and finish cloth",
-      "phone_test": "No early suit or private courtyard",
-      "result_dependency": "SELECT_AFTER_OFFICIAL_FINAL",
+      "camera": "Reverse of same clearing: Phillip waiting on sheltered stone, Kevin arrives muddy",
+      "phone_test": "Three heads, muddy Kevin, dry stone; no costume or bag",
+      "result_dependency": "ESPN_FINAL_SELECTED",
       "card_id": "shape:w11-os-f18",
       "review_id": "shape:w11-review-f18",
       "source": "https://github.com/jakekaloper-hub/schemin-26/blob/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-18",
@@ -667,7 +675,7 @@
       "reference_sha256": "12695dbd5d2a3e5593f5283b88b7c7ba507e8b2313ece1e7f33f3fd5ccb33809",
       "boxes": [
         [
-          "PHILLIP",
+          "PHILLIP / 3",
           12,
           75,
           72,
@@ -675,18 +683,18 @@
           "blue"
         ],
         [
-          "KEVIN",
-          108,
-          80,
-          60,
-          113,
+          "KEVIN / MUD",
+          100,
+          105,
+          72,
+          105,
           "orange"
         ],
         [
           "DRY STONE",
-          62,
+          8,
           210,
-          89,
+          164,
           37,
           "yellow"
         ]
@@ -1358,7 +1366,8 @@
       "folios": [
         "F17",
         "F18"
-      ]
+      ],
+      "revision_warning": "Historical storyboard only; superseded by current F17/F18 terrain rivalry. Do not import as current direction."
     },
     {
       "id": "shape:w11-production-storyboard-g05",
