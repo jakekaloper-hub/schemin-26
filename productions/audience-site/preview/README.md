@@ -87,6 +87,20 @@ spray-pixel acceptance.
 node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs /tmp/commonwealth-preview/observer.html --dpr-check
 ```
 
+For inspectable native-resolution PNG evidence, use a new destination:
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs /tmp/commonwealth-preview/observer.html --dpr-evidence-dir /tmp/temple-density-candidate
+```
+
+This captures the existing Temple at device DPR 1→2→1, at a held camera and
+water phase with an evidence-only Eastern-noon clock. The manifest records the
+actual capped renderer ratio, backing buffer, exact source revision, PNG sizes
+and SHA-256; the offline inspection sheet links the original screenshots.
+The mode refuses an existing directory and runs the normal spectator journey
+gates first. This is emulation on an observed physical GPU, not a physical-phone
+test or isolated spray-pixel/art acceptance.
+
 ## Opt-in GPU candidate captures for visual inspection
 
 After the unchanged offline observer build, add `--capture-dir` with a **new,

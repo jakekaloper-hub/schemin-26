@@ -20,11 +20,13 @@ const closeupOption=process.argv.indexOf('--wetlands-closeup-dir');
 const atlasOption=process.argv.indexOf('--atlas-views-dir');
 const lightOption=process.argv.indexOf('--wetlands-light-dir');
 const historyOption=process.argv.indexOf('--history-sweep-dir');
-const dprCheck=process.argv.length===4&&process.argv[3]==='--dpr-check';
-const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption,lightOption,historyOption].filter(index=>index>=0);
+const dprOption=process.argv.indexOf('--dpr-evidence-dir');
+const dprDir=dprOption<0?null:resolve(process.argv[4]);
+const dprCheck=(process.argv.length===4&&process.argv[3]==='--dpr-check')||Boolean(dprDir);
+const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption,lightOption,historyOption,dprOption].filter(index=>index>=0);
 assert.ok((options.length===0&&(process.argv.length===3||dprCheck))
  ||(options.length===1&&options[0]===3&&process.argv.length===5),
- 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir or --history-sweep-dir /new/private/evidence/directory; or --dpr-check');
+ 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir or --history-sweep-dir /new/private/evidence/directory; or --dpr-check or --dpr-evidence-dir /new/private/evidence/directory');
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
 const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 const wetlandsDir=wetlandsOption<0?null:resolve(process.argv[4]);
@@ -39,7 +41,9 @@ const lightDir=lightOption<0?null:resolve(process.argv[4]);
 if(lightDir)assert.ok(!existsSync(lightDir),'LIGHT_DIRECTORY_EXISTS: refusal to overwrite evidence');
 const historyDir=historyOption<0?null:resolve(process.argv[4]);
 if(historyDir)assert.ok(!existsSync(historyDir),'HISTORY_DIRECTORY_EXISTS: refusal to overwrite evidence');
-const historySweep=[],dprObservations=[];
+if(dprDir)assert.ok(!existsSync(dprDir),'DPR_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const historySweep=[],dprObservations=[],dprCaptures=[];
+let dprCamera=null;
 const lightCaptures=[];
 const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[],wetlandCloseupCaptures=[],closeupCameras=[],atlasCaptures=[];
 let atlasPlan=null;
@@ -384,10 +388,13 @@ async function main(){
   // This exposes stale backing buffers even when the CSS viewport has not resized.
   await click('#placesToggle');
   await click('[data-place="LOC-TDS-WATERFALL-TEMPLE"]');
-  await delay(600);
+  await delay(dprDir?3200:600);
   const camera=await evaluate('__observerDebug.camera()');
+  dprCamera=camera;
   const dimensions=await evaluate('({width:innerWidth,height:innerHeight,cssWidth:document.querySelector("#world").clientWidth,cssHeight:document.querySelector("#world").clientHeight})');
   const held=(await snapshot()).stats.waterTime;
+  const syntheticUtc='2026-11-24T17:00:00.000Z';
+  if(dprDir)await evaluate(`(()=>{const Native=globalThis.Date;globalThis.__dprNativeDate=Native;const fixed=Native.parse(${JSON.stringify(syntheticUtc)});globalThis.Date=class extends Native{constructor(...args){super(...(args.length?args:[fixed]));}static now(){return fixed;}};})()`);
   try{
    for(const deviceScaleFactor of [1,2,1]){
     await cdp('Emulation.setDeviceMetricsOverride',{width:dimensions.width,height:dimensions.height,deviceScaleFactor,mobile:false});
@@ -402,14 +409,54 @@ async function main(){
     assert.equal(observation.renderer,'three-webgl2');
     assertHistoricalViewRestored(camera,await evaluate('__observerDebug.camera()'));
     dprObservations.push(observation);
+    if(dprDir){
+     const frames=(await snapshot()).stats.frames;
+     await until(async()=>{const q=await snapshot();return q.stats.frames>frames?q:null;},'rendered density evidence frame',12000);
+     await delay(350);
+     assert.equal(await evaluate('new Date().toISOString()'),syntheticUtc);
+     assert.equal((await snapshot()).stats.waterTime,held);
+     assertHistoricalViewRestored(camera,await evaluate('__observerDebug.camera()'));
+     const {data}=await cdp('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
+     const bytes=Buffer.from(data,'base64');
+     assert.equal(bytes.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+     const width=bytes.readUInt32BE(16),height=bytes.readUInt32BE(20);
+     assert.equal(width,dimensions.width*deviceScaleFactor);
+     assert.equal(height,dimensions.height*deviceScaleFactor);
+     dprCaptures.push({file:'temple-'+String(dprCaptures.length+1)+'-dpr-'+deviceScaleFactor+'.png',
+      bytes,width,height,syntheticUtc,observation});
+    }
    }
-  }finally{await cdp('Emulation.clearDeviceMetricsOverride');}
+  }finally{
+   await cdp('Emulation.clearDeviceMetricsOverride');
+   if(dprDir)await evaluate('globalThis.Date=globalThis.__dprNativeDate;delete globalThis.__dprNativeDate;');
+  }
   assert.equal(dprObservations.length,3);
  }
  assert.equal((await snapshot()).sourceUnchanged,true,'Canonical source mutated during journey');
  const errors=[...runtimeExceptions,...consoleErrors].filter(x=>!/favicon\.ico/.test(x));
  assert.deepEqual(errors,[],'Browser/GLSL errors: '+errors.join(' | '));
  assert.deepEqual(externalRequests,[],'External network requests from offline observer');
+ if(dprDir){
+  assert.equal(dprCaptures.length,3);
+  mkdirSync(dprDir,{recursive:false});
+  for(const shot of dprCaptures)writeFileSync(join(dprDir,shot.file),shot.bytes,{flag:'wx'});
+  const captures=dprCaptures.map(({file,bytes,width,height,syntheticUtc,observation})=>({
+   file,width,height,syntheticUtc,observation,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')
+  }));
+  writeFileSync(join(dprDir,'manifest.json'),JSON.stringify({
+   status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
+   evidenceType:'PHYSICAL_GPU_EMULATED_DENSITY_PAUSED_TEMPLE_SCENE',
+   placeId:'LOC-TDS-WATERFALL-TEMPLE',
+   sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
+   stateAsOf:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).stateAsOf'),
+   observerSha256:createHash('sha256').update(readFileSync(observer)).digest('hex'),
+   renderer:first.stats.renderer,gpu:first.gpu,weatherStatus:calm.status,
+   camera:dprCamera,sourceUnchanged:true,ordinaryWaterAdvanced:true,explicitPause:true,
+   browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
+   captures
+  },null,2)+'\n',{flag:'wx'});
+  writeFileSync(join(dprDir,'inspection.html'), '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Temple density evidence</title><style>body{font:16px system-ui;background:#15191d;color:#eee;margin:24px}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}img{width:100%;height:auto}a{color:#addaff}figure{margin:0}</style><h1>Waterfall Temple — display-density inspection</h1><p>Same paused source location, camera and synthetic Eastern noon. Physical GPU with emulated device density; not physical-phone or isolated spray-pixel proof. Original screenshots are retained at their native pixel dimensions.</p><main>'+captures.map(c=>'<figure><a href="'+c.file+'"><img src="'+c.file+'" alt="Temple at device DPR '+c.observation.devicePixelRatio+'"></a><figcaption>Device DPR '+c.observation.devicePixelRatio+' · renderer ratio '+c.observation.pixelRatio+' · '+c.width+' × '+c.height+' pixels</figcaption></figure>').join('')+'</main><p><a href="manifest.json">Exact source and capture manifest</a></p></html>',{flag:'wx'});
+ }
  if(historyDir){
   assert.equal(historySweep.length,23);
   mkdirSync(historyDir,{recursive:false});
