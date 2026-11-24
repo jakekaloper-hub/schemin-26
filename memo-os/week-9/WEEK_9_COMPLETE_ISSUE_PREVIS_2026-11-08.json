@@ -19992,6 +19992,9 @@
           "previous_packet_blob": "307409d42ea94d86fdf8052a75fdc423205122ac",
           "candidate_location_blob": "9c2d30399a092967ec85bfb3431af9b36e06adc3",
           "compatibility_receipt": "memo-os/week-9/W09_P30_MAP_SOURCE_REBIND_CANDIDATE_2026-11-24.json",
+          "generated_html_compatibility_receipt": "memo-os/week-9/W09_P30_MAP_HTML_REBIND_CANDIDATE_2026-11-24.json",
+          "previous_html_sha256": "19f356c7b1a30288fc31e2f48ce9c410587b92e96cd31ad5f3c08ea9fb045c16",
+          "candidate_html_blob": "0a8fca51ccee922bd7d68aa8a328f7e029ec3573",
           "state": "CANDIDATE_PENDING_INDEPENDENT_ATLAS_AND_QA",
           "independent_approval": false
         },
@@ -20010,7 +20013,7 @@
           },
           {
             "path": "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
-            "sha256": "19f356c7b1a30288fc31e2f48ce9c410587b92e96cd31ad5f3c08ea9fb045c16"
+            "sha256": "b0592f2f05d19acdf68e54ab57bea780e0e17244c0fbf338b3e1786fdf13095d"
           },
           {
             "path": "world/atlas/interactive/build_interactive_atlas.py",
