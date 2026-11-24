@@ -75,6 +75,39 @@ if observed != expected:
         "observed_sha256":observed,
         "action":"Do not treat prior Week10 local-copy bytes as Oct22 approved original."
     })
+# Week 11 G01 Founder correction: detect character substitutions and loss
+# of the existing three-stage duel / fall / alive-water-surface outcome.
+g01 = load(ISSUE / "W11_G01_HMB_DK_BRIDGE_F09_F11_RESULT_LOCKED_RENDER_PACKET_2026-11-24.json")
+seq = g01["three_scene_continuity"]
+g01_ids = ["F09","F10","F11"]
+master_g01 = {page["internal_folio_id"]:page for page in render["pages"] if page["internal_folio_id"] in g01_ids}
+check("g01_beat_and_winner_locked",
+      g01["source_outcome"]["winner"] == "His Majesty's Blood" and
+      g01["source_outcome"]["away_points"] == 168.2 and
+      g01["source_outcome"]["home_points"] == 129.75 and
+      all(word in seq["middle"].lower() for word in ["austin","strike","four","skid"]) and
+      all(word in seq["ending"].lower() for word in ["wilson","lake","alive","bridge"]),
+      "Austin causes four-hoof slide; Wilson alive after lake fall; 168.20–129.75")
+for scene in g01["pages"]:
+    old = master_g01.get(scene["id"],{})
+    override = old.get("active_matchup_override",{})
+    check("g01_integrated_"+scene["id"],
+          old.get("exact_reader_publication_copy_markdown") == scene["exact_print_copy"] and
+          override.get("source", "").endswith("W11_G01_HMB_DK_BRIDGE_F09_F11_RESULT_LOCKED_RENDER_PACKET_2026-11-24.json") and
+          override.get("no_folio_ids_on_print") is True and
+          override.get("wilson_old_native_handle_blocked") is True and
+          "GLOWING RED EYES" in old.get("camera_scene_and_design",{}).get("approved_character_override",""),
+          "exact selected scene and all print/identity restrictions preserved")
+hmb = g01["character_identity"]["Austin_Byars"]
+hmb_reference = ROOT / hmb["commissioner_correction"]
+hmb_seen = digest(hmb_reference) if hmb_reference.is_file() else "MISSING"
+check("g01_hmb_approved_commissioner_visual_bytes",
+      hmb_seen == hmb["commissioner_correction_sha256"],
+      "expected=%s observed=%s" % (hmb["commissioner_correction_sha256"],hmb_seen))
+if g01["character_identity"]["Wilson_Look"]["legacy_handle_state"].startswith("BLOCKED"):
+    RELEASE_HOLDS.append({"gate":"G01_WILSON_CURRENT_SOURCE_SUPERSESSION",
+                          "status":"BLOCKED_FOR_FINAL_CANON",
+                          "action":"Do not attach biped historical primary as four-hoof current active source."})
 result = {
   "status":"WORKING_ART_SOURCE_PREFLIGHT_PASS" if not ERRORS else "WORKING_ART_SOURCE_PREFLIGHT_FAIL",
   "publication_approved":False,
