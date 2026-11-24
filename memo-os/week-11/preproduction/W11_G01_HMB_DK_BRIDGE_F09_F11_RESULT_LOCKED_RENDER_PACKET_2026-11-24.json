@@ -2,7 +2,7 @@
   "schema": "schemin.w11.g01.postrender_source_repair.v1",
   "issue": "One Last Crossing",
   "date": "2026-11-24",
-  "state": "REVISED_DIRECTOR_PACKETS__CANDIDATE_READY_ONLY__FINAL_CHARACTER_ATLAS_GATES_PENDING",
+  "state": "FOUNDER_REVISED_STUNT_FIGHT_V2__CANDIDATE_READY_ONLY__CHARACTER_ATLAS_HOLDS",
   "reason": "Founder supplied prior pregame bridge art, flagged incorrect His Majesty's Blood character and reiterated established sword/axe fight culminating in D0nkey K0ng falling into violent storm water. The existing selected Nov24 manuscript already fixed these outcomes; the dispatch lost character reference and cinematic continuity.",
   "source_authority": {
     "selected_script": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md#G01",
@@ -12,7 +12,8 @@
     "world_binding": "memo-os/week-11/sets/location-bindings.json#W11-G01",
     "visual_sources": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
     "special_character_lock": "canon/characters/CHAR-AUSTIN-BYARS/lineup_2026_10_18.json",
-    "actual_rendered_f09": "after_you_austin_stormbound_standoff.png (chat candidate; not approved)"
+    "actual_rendered_f09": "after_you_austin_stormbound_standoff.png (chat candidate; not approved)",
+    "active_stunt_source": "memo-os/week-11/preproduction/W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json"
   },
   "source_outcome": {
     "game": "W11-G01",
@@ -62,10 +63,10 @@
     "visual_authority": "Approved structural reference and historical Week10 image support candidate, but no separate independent Atlas cinematic plate accepted. Preserve this hold."
   },
   "three_scene_continuity": {
-    "beginning": "Wilson voluntarily steps aside with theatrical false courtesy while Austin notices waiting carter and protective belt; axe and sword present without clash.",
-    "middle": "Austin says the worker was already here; the duel becomes real steel-on-steel. Austin lands the strong, decisive winning strike; Wilson recoils and FOUR hooves lose purchase on wet stones and skid toward parapet. Fight, strike, slipping contact are all visible and causally ordered. No weather-only fall.",
-    "ending": "Wilson, still a gorilla-centaur, tips past the intact bridge edge, falls into violently wind-driven LAKE (NOT river) and temporarily disappears under heavy spray. Hold on worried carter and Austin. Wilson's gorilla head visibly resurfaces ALIVE, breathing and struggling to plausible bank. Austin retains Belt Keeper belt; only after the living survivor is shown can he offer the small jester cap with one bell.",
-    "cuts": "F09 setup; F10 decisive fight and four-hoof skid; F11 fall consequence and living resurfacing. Do not compress all three into an unrelated pregame card or show swimmer before the strike."
+    "beginning": "Wilson and Austin exchange clashing words across full bridge; Wilson four hooves and axe, Austin hooded glowing red eyes, belt and sword; the working carter witnesses and the two CHARGE from opposite ends, no strike yet.",
+    "middle": "Austin and Wilson fight in three weapon-continuous phases: axe/sword steel-on-steel clash, weight/pivot, then Austin's decisive armor-directed strike. Wilson turns side-on to the parapet, all FOUR hooves fight for traction and SKID toward the intact lake-side edge. No wind-only fall.",
+    "ending": "Wilson goes over the INTACT bridge into furious storm-raging Mountain LAKE water below. Austin and the carter wait in fear; Wilson resurfaces ALIVE, gorilla head breathing in lake foam, returns toward shore; the cap only follows survival.",
+    "cuts": "F09 two cinematic frames (words then charge), F10 three fight frames (first collision, pivot, strike/hoof skid), F11 two payoff frames (fall and living resurfacing) as user-directed. No generic static parley."
   },
   "on_page_rules": {
     "print_masthead": "SCHEMIN’ ’26 · WEEK 11",
@@ -93,32 +94,93 @@
     {
       "id": "F09",
       "title": "After you, Austin",
-      "purpose": "Bridge encounter and false courtesy before the fight",
-      "shot": "Low wagon-wheel foreground looking across wet bridge to Wilson giving the theatrical gap. Austin as true shadowed red-eyed armored Belt Keeper facing him and waiting ordinary carter behind. FOUR hooves, one centaur body, intact lantern and lake water on both sides.",
-      "exact_print_copy": "Week 11 Game of the Week · His Majesty’s Blood at D0nkey K0ng\n\nWilson made room on the wet bridge. “After you, Austin.”\n\nThe carter loosened his reins. For a moment he thought the courtesy might extend to him.",
-      "do_not_show": "No strike, skid, fall, character face exposure, hypothetical odds, folio numbers",
-      "qa": "Identify hood-red-eyes gold chest and belt, full Wilson four hoof count, carter/wagon/stones/water two sides and complete readable copy."
+      "purpose": "Verbal exchange across the FULL bridge leads to two opposing charges, with the cut occurring just before metal contacts.",
+      "shot": "A: An extreme-wide oblique bridge master: Wilson LEFT, Austin RIGHT, both ends, the carter behind Wilson's approach, both lake surfaces and the midspan lantern visible; words land across real distance. then B: Low ground tracking split within the SAME physical page: Wilson's four hooves pounding wet stone and raised axe on left diagonal; Austin draws the long ornate sword, the flowing crimson-black cape shearing right toward center. Their motion converges at center line but no steel contact yet.",
+      "exact_print_copy": "WEEK 11 · GAME OF THE WEEK · His Majesty’s Blood at D0nkey K0ng\n\nAcross the Mountain Lake bridge, Wilson Look planted four hooves and raised his axe. “The Belt Keeper comes to ask permission?” he called. From the far landing, Austin Byars lifted his hooded head, red eyes burning in shadow. “Not yours,” came the answer. Behind Wilson, the carter held his horse and wagon still. Wilson made a mocking path between them. “After you, Austin.” The old lantern swung, the storm tore at their cloaks, and both warriors lowered their weapons. Neither intended to surrender the crossing. They charged.",
+      "do_not_show": "No strike, skid, fall, character face exposure, hypothetical odds, folio numbers; no generic human face, no old pregame odds, no source-only static parley",
+      "qa": "Both identities, complete four-hoof silhouette and two-direction charge readable; no medieval human swordsman.; read exact expanded text at 390px",
+      "storyboard_frame_sequence_v2": [
+        {
+          "beat": "A",
+          "size": "upper 56%",
+          "shot": "An extreme-wide oblique bridge master: Wilson LEFT, Austin RIGHT, both ends, the carter behind Wilson's approach, both lake surfaces and the midspan lantern visible; words land across real distance.",
+          "performance": "Wilson mocks crown and title; Austin's red eyes remain hidden beneath the hood; the ordinary carter waits and decides not to cross."
+        },
+        {
+          "beat": "B",
+          "size": "lower 44%",
+          "shot": "Low ground tracking split within the SAME physical page: Wilson's four hooves pounding wet stone and raised axe on left diagonal; Austin draws the long ornate sword, the flowing crimson-black cape shearing right toward center. Their motion converges at center line but no steel contact yet.",
+          "performance": "Both opt into the charge, in opposite directions; speed and weight read at phone scale."
+        }
+      ],
+      "cinematic_director_packet": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json"
     },
     {
       "id": "F10",
       "title": "He was here before us",
-      "purpose": "Actual duel with strike and physically caused four-hoof loss of traction",
-      "shot": "Reverse from Austin's crimson-black cloak/sword to Wilson axe and carter. Steel makes forceful contact, Austin on firm slick stone, Wilson's integrated centaur recoils and four hooves scuff and skid toward wet parapet. Show dynamic blow, impact angle and displaced weight in one cinematic tableau.",
-      "exact_print_copy": "His Majesty’s Blood at D0nkey K0ng\n\n“He was here before us,” Austin said.\n\nWilson heard him over the rain. When their steel met, Austin held his footing. Four hooves slid toward the parapet.",
-      "do_not_show": "No falling into water yet as selected dominant beat, no generic unhooded Austin, no disconnected axe/sword or phantom hooves",
-      "qa": "Visible attacking Austin with real sword/axe contact causing Wilson's backward skid; exact hooded identity, same bridge axis, complete copy."
+      "purpose": "Professional-grade fight logic: impact -> pressure -> sidestep/pivot -> counterstrike -> visible hoof slip. Never invent airborne weapons, disconnected limbs or teleport.",
+      "shot": "C: An over-shoulder charged contact: Wilson's axe comes down on a visible arc and Austin's ornate sword meets the haft/edge in one coherent plane; shower of sparks is brief and source-motivated. then D: Tracking reverse: Wilson rotates ALL FOUR hooves on wet central stones, uses body weight to press, Austin steps laterally toward lamp/reset stone, one boot planted, cloak trails leeward. Carter and cart remain at left approach. then E: Austin moves inside the axe reach, delivers a decisive armor-thudding sword strike across Wilson's upper guard; Wilson's hind hooves cross/skid and his front hooves scramble near the intact parapet, his body still on deck at cut.",
+      "exact_print_copy": "WEEK 11 · GAME OF THE WEEK · His Majesty’s Blood at D0nkey K0ng\n\nTheir first collision rang against the lantern stones. Wilson drove his axe down; Austin caught its haft with his sword and turned aside instead of meeting the centaur’s weight head-on. Hooves hammered the narrow deck. Wilson twisted for a second cut, forcing Austin toward the parapet. “He was here before us,” Austin said, glancing at the waiting carter. He slipped inside the next swing and struck Wilson’s armored upper body. The impact shoved the huge warrior backward. His hind hooves crossed on rain-slick stone. All four feet fought for purchase as the parapet rushed toward him.",
+      "do_not_show": "No falling into water yet as selected dominant beat, no generic unhooded Austin, no disconnected axe/sword or phantom hooves; no generic human face, no old pregame odds, no source-only static parley",
+      "qa": "Three steps visually connected; weapon contact and hoof skid clear at 390px.; read exact expanded text at 390px",
+      "storyboard_frame_sequence_v2": [
+        {
+          "beat": "C",
+          "size": "upper kinetic wedge",
+          "shot": "An over-shoulder charged contact: Wilson's axe comes down on a visible arc and Austin's ornate sword meets the haft/edge in one coherent plane; shower of sparks is brief and source-motivated.",
+          "performance": "Mass and load transfer visible; black armored hooded Austin defends with his actual blade."
+        },
+        {
+          "beat": "D",
+          "size": "central large image",
+          "shot": "Tracking reverse: Wilson rotates ALL FOUR hooves on wet central stones, uses body weight to press, Austin steps laterally toward lamp/reset stone, one boot planted, cloak trails leeward. Carter and cart remain at left approach.",
+          "performance": "Combatants physically reposition without swapping places; silhouettes remain legible."
+        },
+        {
+          "beat": "E",
+          "size": "lower diagonal payoff",
+          "shot": "Austin moves inside the axe reach, delivers a decisive armor-thudding sword strike across Wilson's upper guard; Wilson's hind hooves cross/skid and his front hooves scramble near the intact parapet, his body still on deck at cut.",
+          "performance": "Austin wins because of a timed counterstrike plus wet traction, not wind magically pushing Wilson. No fall until next page."
+        }
+      ],
+      "cinematic_director_packet": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json"
     },
     {
       "id": "F11",
       "title": "The carter listens",
-      "purpose": "Consequential fall and emotional release when Wilson is alive",
-      "shot": "From the carter's position at parapet show the violent lake entry aftermath, disturbed wind-roughed water below, Austin in black segmented armor and red-eyed hood peering over; unmistakable living black gorilla head of Wilson resurfacing amid spray and foam. Preserve intact crossing. Cap appears only as quiet later beat, no comic celebration before rescue/survival.",
-      "exact_print_copy": "The carter listened until Wilson broke the surface, coughing. Only then did Austin reach for the cap. “My jester.” One wet bell clunked on the swim home.\n\nHis Majesty’s Blood 168.20 · D0nkey K0ng 129.75",
-      "do_not_show": "No corpse, drowning claim, shattered bridge, rivers/rapids, Austin in water, lost belt, incorrect or absent survivor",
-      "qa": "Wilson alive recognizable, lake not river, carter and worried Austin watching, belt retained, verified scoreboard exact."
+      "purpose": "The fall is unmistakable, then a beat of feared silence, then identifiable survivor; pride returns last.",
+      "shot": "F: From cart-height 3/4 view: Wilson in physically continuous four-hoof pose pitches over the unbroken stone parapet; axe remains plausibly in hand or follows known trajectory. The camera sees the violent lake beneath and Austin's hooded silhouette above, not an invisible attacker. then G: Waterside/low lens gives the large gorilla head emerging alive among huge whitecaps, splashes and foam with arm reaching toward plausible bank; inset of carter's still hands and Austin's red-eyed hood watching from same parapet, clear cause/space relation.",
+      "exact_print_copy": "WEEK 11 · GAME OF THE WEEK · His Majesty’s Blood at D0nkey K0ng\n\nAustin’s final blow carried through the clash. Four hooves scraped for grip; Wilson’s enormous armored body pitched over the intact parapet and vanished into the raging, storm-churned water. The carter stopped breathing. Even Austin stepped to the edge, his gold belt still fixed at his waist. Waves battered the pier. Then Wilson’s dark head broke the foam—coughing, alive. Only when the great centaur reached toward shore did Austin release the small jester’s cap. “My jester,” he said, almost without triumph. His Majesty’s Blood 168.20 · D0nkey K0ng 129.75.",
+      "do_not_show": "No corpse, drowning claim, shattered bridge, rivers/rapids, Austin in water, lost belt, incorrect or absent survivor; no generic human face, no old pregame odds, no source-only static parley",
+      "qa": "Fall and LIVING resurfacing both readable; four hooves on falling body; no duplicate Wilson or Austin per beat; exact score.; read exact expanded text at 390px",
+      "storyboard_frame_sequence_v2": [
+        {
+          "beat": "F",
+          "size": "dominant upper 65% impact frame",
+          "shot": "From cart-height 3/4 view: Wilson in physically continuous four-hoof pose pitches over the unbroken stone parapet; axe remains plausibly in hand or follows known trajectory. The camera sees the violent lake beneath and Austin's hooded silhouette above, not an invisible attacker.",
+          "performance": "Transfer from F10 skid; no bridge damage, no invented fast river gorge."
+        },
+        {
+          "beat": "G",
+          "size": "lower 35% quiet survival echo",
+          "shot": "Waterside/low lens gives the large gorilla head emerging alive among huge whitecaps, splashes and foam with arm reaching toward plausible bank; inset of carter's still hands and Austin's red-eyed hood watching from same parapet, clear cause/space relation.",
+          "performance": "Two-step reaction: witness fears the worst, relief once Wilson resurfaces. Small cap coda only after survival and not blocking his face."
+        }
+      ],
+      "cinematic_director_packet": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json"
     }
   ],
   "render_stage": "WAIT_FOR_FOUNDER_INDIVIDUAL_PAGE_REQUEST__THEN_CANDIDATE_NOT_FINAL",
   "qa_procedure": "Photographic reference identity check and no-text-drop review at native+390px, plus physical motion/cast geography, before GM and independent Umpire candidate acceptance.",
-  "source_review": "Existing Nov24 8-Inklings/12-production-method adjudication confirms winner, strand and reference hold. This revision incorporates that existing review and user correction; no new direct Director or external professional attendance is claimed."
+  "source_review": "Existing Nov24 8-Inklings/12-production-method adjudication confirms winner, strand and reference hold. This revision incorporates that existing review and user correction; no new direct Director or external professional attendance is claimed.",
+  "storyboard_v2": {
+    "source": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json",
+    "frame_counts": [
+      2,
+      3,
+      2
+    ],
+    "stunt_methods": "weapon vectors and four-hoof body mechanics; the last strike generates sideward loss of balance into parapet",
+    "status": "FOUNDER_DIRECTION_NOT_RELEASE_QA"
+  }
 }
