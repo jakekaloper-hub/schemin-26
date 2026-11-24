@@ -1,0 +1,701 @@
+{
+  "schema": "schemin.w11.post_mnf.selective.folio_overlay.v1",
+  "date": "2026-11-24",
+  "source": "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json; W11_PITTSYS_BOOK_FINAL_OWNER_LEDGER_2026-11-24.json; W11_FINAL_SCORING_FORM_70_30_2026-11-24.json",
+  "source_fact_phase": "ESPN_MATCHUP_WINNERS_DECIDED",
+  "independent_steward_fact_lock": "PENDING",
+  "source_matched_games": {
+    "G01": {
+      "away": {
+        "team_id": 8,
+        "name": "His Majesty's Blood",
+        "score": 168.2
+      },
+      "home": {
+        "team_id": 5,
+        "name": "D0nkey K0ng",
+        "score": 129.75
+      },
+      "winner": "His Majesty's Blood",
+      "margin": 38.45,
+      "total": 297.95
+    },
+    "G02": {
+      "away": {
+        "team_id": 9,
+        "name": "El Niño",
+        "score": 134.6
+      },
+      "home": {
+        "team_id": 3,
+        "name": "Slob on my Dobb",
+        "score": 138.86
+      },
+      "winner": "Slob on my Dobb",
+      "margin": 4.26,
+      "total": 273.46
+    },
+    "G03": {
+      "away": {
+        "team_id": 7,
+        "name": "The Chili Cheesers",
+        "score": 133.52
+      },
+      "home": {
+        "team_id": 1,
+        "name": "ObiWan Jacoby",
+        "score": 83.79
+      },
+      "winner": "The Chili Cheesers",
+      "margin": 49.73,
+      "total": 217.31
+    },
+    "G04": {
+      "away": {
+        "team_id": 2,
+        "name": "Red Leopards",
+        "score": 94.8
+      },
+      "home": {
+        "team_id": 6,
+        "name": "Three Dreaded Snake",
+        "score": 125.74
+      },
+      "winner": "Three Dreaded Snake",
+      "margin": 30.94,
+      "total": 220.54
+    },
+    "G05": {
+      "away": {
+        "team_id": 11,
+        "name": "Seven Deadly Chins",
+        "score": 117.66
+      },
+      "home": {
+        "team_id": 10,
+        "name": "Mud Dogs",
+        "score": 151.26
+      },
+      "winner": "Mud Dogs",
+      "margin": 33.6,
+      "total": 268.92
+    },
+    "G06": {
+      "away": {
+        "team_id": 4,
+        "name": "The LLC",
+        "score": 127.6
+      },
+      "home": {
+        "team_id": 12,
+        "name": "Dr. Duckhook",
+        "score": 173.01
+      },
+      "winner": "Dr. Duckhook",
+      "margin": 45.41,
+      "total": 300.61
+    }
+  },
+  "book_summary": {
+    "total_staked_cents": 10650,
+    "week11_house_net_cents": -2788,
+    "season_house_net_cents": -25201,
+    "house_record": "2-4"
+  },
+  "scoring_form_method": "0.70 × 2026 season fantasy PPG (after 11 completed weeks) + 0.30 × actual Week 11 fantasy score; raw points, no normalization",
+  "tldraw_page": "page:w11-whole-memo-22nov",
+  "folio_count": 35,
+  "folios": [
+    {
+      "folio": "F01",
+      "title": "One Last Crossing",
+      "game": "ISSUE",
+      "updated_copy": "Cover candidates: Austin's decisive bridge strike, Brandon's single chili-tank throw, or Zach's second board sheet. Official winners are known; select the strongest readable character moment after visual proof, not simply the highest point scorer.",
+      "source_stage": "COVER_IMAGE_AND_FINAL_390PX_QA_PENDING",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f01",
+      "review_shape_id": "shape:w11-review-f01",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F02",
+      "title": "The bottom of the register",
+      "game": "ISSUE",
+      "updated_copy": "Opening Drive: three clubs stand 7–4, four are 6–5, two 5–6, two 4–7, and Mud Dogs 3–8. Bobby's upset and Jordan's close loss frame the tension between confidence and consequence.",
+      "source_stage": "COPY_NEEDS_EDITORIAL_SIGNOFF",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f02",
+      "review_shape_id": "shape:w11-review-f02",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F03",
+      "title": "Commissioner's Note",
+      "game": "ISSUE",
+      "updated_copy": "Commissioner's signed address may acknowledge six completed contests and the divisional turn. The actual Commissioner voice and portrait remain a separate authorized byline; never manufacture his quote.",
+      "source_stage": "COMMISSIONER_SIGNOFF_PENDING",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f03",
+      "review_shape_id": "shape:w11-review-f03",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F04",
+      "title": "The Week 11 board",
+      "game": "ISSUE",
+      "updated_copy": "Publish six ESPN-final pairings with exact two-decimal scores and all twelve teams; resolve AWAY/HOME and official WINNER rather than projected values. Source label: ESPN/Flaim final 2026-11-24.",
+      "source_stage": "PROVIDER_VERIFIED_NEEDS_390PX_AND_DATA_STEWARD",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f04",
+      "review_shape_id": "shape:w11-review-f04",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F05",
+      "title": "The Twelve · first six",
+      "game": "ISSUE",
+      "updated_copy": "Editorial power rankings positions 1–6 require distinct sports-editor judgments; latest scoreboard, season records and Week 7 editorial comparator now available. Do not substitute ESPN playoff seeds or the separate raw 70/30 index.",
+      "source_stage": "EDITORIAL_ASSIGNMENT_PENDING",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f05",
+      "review_shape_id": "shape:w11-review-f05",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F06",
+      "title": "The Twelve · second six",
+      "game": "ISSUE",
+      "updated_copy": "Editorial power rankings positions 7–12 continue the facing visual scale and W7 movement basis, explaining the playoff line and upset consequences without predetermining qualification.",
+      "source_stage": "EDITORIAL_ASSIGNMENT_PENDING",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f06",
+      "review_shape_id": "shape:w11-review-f06",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F07",
+      "title": "What seventh place means",
+      "game": "ISSUE",
+      "updated_copy": "Current ESPN playoffSeed order: HMB 1, Slob 2, DK 3, Duckhook 4, El Niño 5, Chins 6, Chili 7. Next: Snake 8, Red 9, LLC 10, ObiWan 11, Mud 12. Seven berths; a seed is not a clinch.",
+      "source_stage": "PROVIDER_VERIFIED_NO_CLINCH_CLAIMS",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f07",
+      "review_shape_id": "shape:w11-review-f07",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F08",
+      "title": "The roads between",
+      "game": "ISSUE",
+      "updated_copy": "Carry the storm from Hearthroad wheel to Mountain Lake bridge wheel with distinct locations and physically consistent drainage. Six venue references remain separate cinematic-approval holds.",
+      "source_stage": "STRUCTURAL_PREVIS_CAN_PROCEED",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f08",
+      "review_shape_id": "shape:w11-review-f08",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F09",
+      "title": "After you, Austin",
+      "game": "G01",
+      "updated_copy": "HMB wins 168.20–129.75. Wilson's theatrical lane offer and waiting carter remain the opening action. Show the intact rain-slick bridge, four hooves, belt, one wind direction; no winner blow yet.",
+      "source_stage": "FINAL_SCORE_SELECTED_VISUAL_REFERENCE_HOLD",
+      "complete_event_data": {
+        "away": {
+          "team_id": 8,
+          "name": "His Majesty's Blood",
+          "score": 168.2
+        },
+        "home": {
+          "team_id": 5,
+          "name": "D0nkey K0ng",
+          "score": 129.75
+        },
+        "winner": "His Majesty's Blood",
+        "margin": 38.45,
+        "total": 297.95
+      },
+      "tldraw_shape_id": "shape:w11-os-f09",
+      "review_shape_id": "shape:w11-review-f09",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F10",
+      "title": "He was here before us",
+      "game": "G01",
+      "updated_copy": "Austin notices the ordinary carter's right of way, steadies on wet stone and lands the decisive HMB-winning strike. Wilson's hoof slide is physically caused; his Arsenal gorilla-centaur body remains ONE body with four hooves.",
+      "source_stage": "FINAL_SCORE_SELECTED_WILSON_SOURCE_HOLD",
+      "complete_event_data": {
+        "away": {
+          "team_id": 8,
+          "name": "His Majesty's Blood",
+          "score": 168.2
+        },
+        "home": {
+          "team_id": 5,
+          "name": "D0nkey K0ng",
+          "score": 129.75
+        },
+        "winner": "His Majesty's Blood",
+        "margin": 38.45,
+        "total": 297.95
+      },
+      "tldraw_shape_id": "shape:w11-os-f10",
+      "review_shape_id": "shape:w11-review-f10",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F11",
+      "title": "The carter listens",
+      "game": "G01",
+      "updated_copy": "Selected HMB-victory ending: Wilson skids off the intact bridge into rough Mountain Lake and resurfaces alive, watched by Austin and carter. NO river rapids, no death, no bridge destruction.",
+      "source_stage": "SELECTED_SURVIVOR_ENDING_WILSON_SOURCE_HOLD",
+      "complete_event_data": {
+        "away": {
+          "team_id": 8,
+          "name": "His Majesty's Blood",
+          "score": 168.2
+        },
+        "home": {
+          "team_id": 5,
+          "name": "D0nkey K0ng",
+          "score": 129.75
+        },
+        "winner": "His Majesty's Blood",
+        "margin": 38.45,
+        "total": 297.95
+      },
+      "tldraw_shape_id": "shape:w11-os-f11",
+      "review_shape_id": "shape:w11-review-f11",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F12",
+      "title": "Six. I told her six.",
+      "game": "G02",
+      "updated_copy": "Slob wins the fantasy game narrowly, 138.86–134.60. At Hearthroad the six-o'clock delivery promise and Manning's first weather pressure remain; no outcome fact teleports the truck.",
+      "source_stage": "FINAL_SCORE_SELECTED_SOURCE_STAGE_OK",
+      "complete_event_data": {
+        "away": {
+          "team_id": 9,
+          "name": "El Niño",
+          "score": 134.6
+        },
+        "home": {
+          "team_id": 3,
+          "name": "Slob on my Dobb",
+          "score": 138.86
+        },
+        "winner": "Slob on my Dobb",
+        "margin": 4.26,
+        "total": 273.46
+      },
+      "tldraw_shape_id": "shape:w11-os-f12",
+      "review_shape_id": "shape:w11-review-f12",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F13",
+      "title": "The radio call",
+      "game": "G02",
+      "updated_copy": "Selected Slob-victory recovery branch: secondary strap loosens, exactly TWO kegs fall by gravity, Jordan anticipates washed edge, stabilizes truck, calls taproom and arranges safe retrieval/accounting. Remaining beer stays secured. Loaded-truck wetland access remains Atlas HOLD.",
+      "source_stage": "FINAL_ENDING_SELECTED_TRUCK_ACCESS_HOLD",
+      "complete_event_data": {
+        "away": {
+          "team_id": 9,
+          "name": "El Niño",
+          "score": 134.6
+        },
+        "home": {
+          "team_id": 3,
+          "name": "Slob on my Dobb",
+          "score": 138.86
+        },
+        "winner": "Slob on my Dobb",
+        "margin": 4.26,
+        "total": 273.46
+      },
+      "tldraw_shape_id": "shape:w11-os-f13",
+      "review_shape_id": "shape:w11-review-f13",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F14",
+      "title": "Off the board",
+      "game": "G03",
+      "updated_copy": "Chili wins 133.52–83.79; Brandon and Jake still complain that their matchup was OFF BOARD in the House notice. Recovered black rodeo hat and rain-drenched Eastern Ascent carnival retained.",
+      "source_stage": "FINAL_SCORE_SELECTED_HOUSE_OFF_BOARD_HISTORICAL",
+      "complete_event_data": {
+        "away": {
+          "team_id": 7,
+          "name": "The Chili Cheesers",
+          "score": 133.52
+        },
+        "home": {
+          "team_id": 1,
+          "name": "ObiWan Jacoby",
+          "score": 83.79
+        },
+        "winner": "The Chili Cheesers",
+        "margin": 49.73,
+        "total": 217.31
+      },
+      "tldraw_shape_id": "shape:w11-os-f14",
+      "review_shape_id": "shape:w11-review-f14",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F15",
+      "title": "The safest seat",
+      "game": "G03",
+      "updated_copy": "Brandon lands ONE skilled throw without wind assist; willing Jake drops into thick Wolf Brand Chili NO BEANS. Show target-hinge continuity, submerged face and palm; rainfall stays outside tank.",
+      "source_stage": "RESULT_INDEPENDENT_DUNK_SELECTED",
+      "complete_event_data": {
+        "away": {
+          "team_id": 7,
+          "name": "The Chili Cheesers",
+          "score": 133.52
+        },
+        "home": {
+          "team_id": 1,
+          "name": "ObiWan Jacoby",
+          "score": 83.79
+        },
+        "winner": "The Chili Cheesers",
+        "margin": 49.73,
+        "total": 217.31
+      },
+      "tldraw_shape_id": "shape:w11-os-f15",
+      "review_shape_id": "shape:w11-review-f15",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F16",
+      "title": "At the ladder",
+      "game": "G03",
+      "updated_copy": "Chili's 49.73-point victory heightens Jake's public humiliation: Jake emerges chili-covered from hair to BOTH boots, Brandon holds his hat. ObiWan falls to 4–7; playoff elimination NOT certified.",
+      "source_stage": "FINAL_SCORE_SELECTED_NO_UNVERIFIED_ELIMINATION",
+      "complete_event_data": {
+        "away": {
+          "team_id": 7,
+          "name": "The Chili Cheesers",
+          "score": 133.52
+        },
+        "home": {
+          "team_id": 1,
+          "name": "ObiWan Jacoby",
+          "score": 83.79
+        },
+        "winner": "The Chili Cheesers",
+        "margin": 49.73,
+        "total": 217.31
+      },
+      "tldraw_shape_id": "shape:w11-os-f16",
+      "review_shape_id": "shape:w11-review-f16",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F17",
+      "title": "Pick a side",
+      "game": "G04",
+      "updated_copy": "Three Dreaded Snake wins 125.74–94.80 over Kevin. At waterfall jungle's outer visitor-side boundary, Kevin checks muddy paths; Phillip has ONE body and THREE heads. The exact sport remains an editorial staging hold.",
+      "source_stage": "FINAL_WINNER_SELECTED_SPORT_PROPOSED",
+      "complete_event_data": {
+        "away": {
+          "team_id": 2,
+          "name": "Red Leopards",
+          "score": 94.8
+        },
+        "home": {
+          "team_id": 6,
+          "name": "Three Dreaded Snake",
+          "score": 125.74
+        },
+        "winner": "Three Dreaded Snake",
+        "margin": 30.94,
+        "total": 220.54
+      },
+      "tldraw_shape_id": "shape:w11-os-f17",
+      "review_shape_id": "shape:w11-review-f17",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F18",
+      "title": "The dry stone",
+      "game": "G04",
+      "updated_copy": "Selected Snake-victory finish: Phillip gets to the relatively dry raised finish stone first. Kevin's Florida python-hunter dry bag stays SHUT; no celebratory outfit because Red lost.",
+      "source_stage": "SNAKE_WIN_BAG_CLOSED",
+      "complete_event_data": {
+        "away": {
+          "team_id": 2,
+          "name": "Red Leopards",
+          "score": 94.8
+        },
+        "home": {
+          "team_id": 6,
+          "name": "Three Dreaded Snake",
+          "score": 125.74
+        },
+        "winner": "Three Dreaded Snake",
+        "margin": 30.94,
+        "total": 220.54
+      },
+      "tldraw_shape_id": "shape:w11-os-f18",
+      "review_shape_id": "shape:w11-review-f18",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F19",
+      "title": "The wrong turn",
+      "game": "G05",
+      "updated_copy": "Mud Dogs wins 151.26–117.66. Bobby KNOWINGLY directs Ben into a misleading, extraordinarily flooded track from a truly dry raised lip; empty stands LEFT, right Cancún card above water.",
+      "source_stage": "MUD_WIN_INTENTIONAL_MISDIRECTION",
+      "complete_event_data": {
+        "away": {
+          "team_id": 11,
+          "name": "Seven Deadly Chins",
+          "score": 117.66
+        },
+        "home": {
+          "team_id": 10,
+          "name": "Mud Dogs",
+          "score": 151.26
+        },
+        "winner": "Mud Dogs",
+        "margin": 33.6,
+        "total": 268.92
+      },
+      "tldraw_shape_id": "shape:w11-os-f19",
+      "review_shape_id": "shape:w11-review-f19",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F20",
+      "title": "The road that comes back",
+      "game": "G05",
+      "updated_copy": "Ben recognizes repeated ruts and old sign, retreats safely; Bobby enjoys a brief spoiler's smirk before fearing his own Cancún postcard. Chins are 6–5, currently sixth seed, NOT officially eliminated.",
+      "source_stage": "MUD_WIN_NO_CHINS_ELIMINATION",
+      "complete_event_data": {
+        "away": {
+          "team_id": 11,
+          "name": "Seven Deadly Chins",
+          "score": 117.66
+        },
+        "home": {
+          "team_id": 10,
+          "name": "Mud Dogs",
+          "score": 151.26
+        },
+        "winner": "Mud Dogs",
+        "margin": 33.6,
+        "total": 268.92
+      },
+      "tldraw_shape_id": "shape:w11-os-f20",
+      "review_shape_id": "shape:w11-review-f20",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F21",
+      "title": "The visitor's chair",
+      "game": "G06",
+      "updated_copy": "Duckhook wins 173.01–127.60. David believes investors back his purchase of Jackson. Severe storm stays OUTSIDE dry executive office; groundskeeper returns wet key and EXITS; first purchase sheet remains unsigned.",
+      "source_stage": "FINAL_SCORE_SELECTED_FIXED_UNSOLD_CLUB",
+      "complete_event_data": {
+        "away": {
+          "team_id": 4,
+          "name": "The LLC",
+          "score": 127.6
+        },
+        "home": {
+          "team_id": 12,
+          "name": "Dr. Duckhook",
+          "score": 173.01
+        },
+        "winner": "Dr. Duckhook",
+        "margin": 45.41,
+        "total": 300.61
+      },
+      "tldraw_shape_id": "shape:w11-os-f21",
+      "review_shape_id": "shape:w11-review-f21",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F22",
+      "title": "The second sheet",
+      "game": "G06",
+      "updated_copy": "Fixed board action independent of ESPN: David Babb removed as corporate LLC CEO, Zach Duckhook appointed CEO AND chairman, after discreet board contacts. David rises furious, pen hits dry desk, Zach calm; LLC fantasy representation unchanged. Duckhook WIN coffee coda: David asks for his coffee BLACK.",
+      "source_stage": "DUCKHOOK_WIN_BLACK_COFFEE_BABB_FANTASY_OWNER_UNCHANGED",
+      "complete_event_data": {
+        "away": {
+          "team_id": 4,
+          "name": "The LLC",
+          "score": 127.6
+        },
+        "home": {
+          "team_id": 12,
+          "name": "Dr. Duckhook",
+          "score": 173.01
+        },
+        "winner": "Dr. Duckhook",
+        "margin": 45.41,
+        "total": 300.61
+      },
+      "tldraw_shape_id": "shape:w11-os-f22",
+      "review_shape_id": "shape:w11-review-f22",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F23",
+      "title": "What the starters changed",
+      "game": "ISSUE",
+      "updated_copy": "Sports Desk G01–G03: Jonah Coleman 38.30 plus Chuba Hubbard 29.70 and Purdy 28.20 for HMB; Slob CeeDee Lamb 31.20 vs El Niño Emmett Johnson 27.60; Chili Cam Ward 28.42 and Chimere Dike 19.75 helped bury ObiWan.",
+      "source_stage": "PLAYER_DETAILS_PROVIDER_LOCKED",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f23",
+      "review_shape_id": "shape:w11-review-f23",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F24",
+      "title": "Who could answer?",
+      "game": "ISSUE",
+      "updated_copy": "Sports Desk G04–G06: Snake Javonte Williams 25.90 plus Ladd McConkey 20.70; Mud Ashton Jeanty 31.00 and Jared Goff 26.86; Duckhook Gibbs 30.10, Stroud 29.06, Kelce 25.40, Olave 20.20. Confirm causal statements against exact final margins.",
+      "source_stage": "PLAYER_DETAILS_PROVIDER_LOCKED",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f24",
+      "review_shape_id": "shape:w11-review-f24",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F25",
+      "title": "The cost of Sunday",
+      "game": "ISSUE",
+      "updated_copy": "Use dated lineup/House notices separately from actual Week 11 starters and official fantasy totals. Do not infer medical diagnoses from roster, IR or availability labels.",
+      "source_stage": "DATE_PROVENANCE_AND_EDITORIAL_QA",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f25",
+      "review_shape_id": "shape:w11-review-f25",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F26",
+      "title": "The next starting sheet",
+      "game": "ISSUE",
+      "updated_copy": "DK started Chiefs D/ST for 13.00 while Texans D/ST scored 23.80 on bench (+10.80 alternative); HMB nevertheless won by 38.45. Do not portray the choice as the cause of an otherwise reversed result.",
+      "source_stage": "ELIGIBLE_DST_COMPARISON_SOURCE_READY",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f26",
+      "review_shape_id": "shape:w11-review-f26",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F27",
+      "title": "Who made it onto the roster?",
+      "game": "ISSUE",
+      "updated_copy": "Flaim Week 11 source returned 43 transactions: 32 completed, 6 failed, 5 canceled. Chili's Nov 19 Cam Ward and Chimere Dike adds yielded 28.42 and 19.75 started points; avoid counting failed waivers as acquisitions.",
+      "source_stage": "TRANSACTION_SOURCE_READY",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f27",
+      "review_shape_id": "shape:w11-review-f27",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F28",
+      "title": "Three divisions",
+      "game": "ISSUE",
+      "updated_copy": "Use verified Week 12 visiting-host pairings: Burgers ObiWan→DK and Snake→Mud; Wings Duckhook→Red and Chili→Slob; Pizza HMB→LLC and Chins→El Niño. Refresh W-L-T as recorded in ESPN after Week11.",
+      "source_stage": "DIVISION_SOURCE_READY",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f28",
+      "review_shape_id": "shape:w11-review-f28",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F29",
+      "title": "The Twelve · scoring form",
+      "game": "ISSUE",
+      "updated_copy": "Publish the separate computed 70/30 raw scoring-form table after week11: Duckhook 1, HMB 2, Slob 3, El Niño 4, LLC 5, DK 6, Chili 7, Mud 8, Chins 9, Snake 10, Red 11, ObiWan 12; compare Week10 same-method baseline.",
+      "source_stage": "SCORING_INDEX_MATH_VERIFIED_PENDING_METHOD_SIGNOFF",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f29",
+      "review_shape_id": "shape:w11-review-f29",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F30",
+      "title": "Seven places",
+      "game": "ISSUE",
+      "updated_copy": "Current seven ESPN playoff seeds are HMB, Slob, DK, Duckhook, El Niño, Chins, Chili; Snake is eighth at 5–6. This is not mathematical qualification. TheFFHub full twelve-team post-Week11 odds and exact clinch/elimination still unavailable/UNVERIFIED.",
+      "source_stage": "THEFFHUB_12_TEAM_MODEL_HOLD",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f30",
+      "review_shape_id": "shape:w11-review-f30",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F31",
+      "title": "Under a deal we never made?",
+      "game": "ISSUE",
+      "updated_copy": "Keep founder-quoted private After Dark grievance distinct from House official explanation. Insert new ObiWan Week11 loss (83.79 to 133.52) only as sourced football context, not as proof the allegation against Snake or Commissioner is factual.",
+      "source_stage": "AFTER_DARK_QUOTE_AUTHORITY",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f31",
+      "review_shape_id": "shape:w11-review-f31",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F32",
+      "title": "The next six",
+      "game": "ISSUE",
+      "updated_copy": "Week12 division starts with exact ESPN away→home fixture list (12 teams, six pairings); neither next week's scores nor Thanksgiving results are available. Validate all arrows from visitor to host.",
+      "source_stage": "W12_SCHEDULE_PROVIDER_READY",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f32",
+      "review_shape_id": "shape:w11-review-f32",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F33",
+      "title": "Next week's feature",
+      "game": "ISSUE",
+      "updated_copy": "Candidate Week12 qualification-stakes features: Chins at El Niño (both 6–5), ObiWan at DK (4–7 vs 6–5), or Duckhook at Red (7–4 vs 5–6). Select only after 12-team TheFFHub odds / scenario impact and location proof.",
+      "source_stage": "THEFFHUB_FEATURE_SELECTION_HOLD",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f33",
+      "review_shape_id": "shape:w11-review-f33",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F34",
+      "title": "Pittsy's Book",
+      "game": "ISSUE",
+      "updated_copy": "Week11 confirmed ledger: $106.50 staked, bettors +$27.88, house −$27.88; seasonal house 2–4, −$252.01. Winners Zwilson +20, Zeek +20, Byars +1.38; Kaloper −1, Qwilly −12.50. Preserve exact dated markets and season standing, print the charitable-organization punchline as owner-supplied satire.",
+      "source_stage": "BOOK_ARITHMETIC_AND_ESPN_MARKETS_PASS_WIDE_LOCATION_HOLD",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f34",
+      "review_shape_id": "shape:w11-review-f34",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    },
+    {
+      "folio": "F35",
+      "title": "They know the way home",
+      "game": "ISSUE",
+      "updated_copy": "Final Word: last three regular-season weeks are divisional. One familiar Week12 host road, quiet headlights and one line; don't imply actual Playoff Island arrival. Route/site selection remains coupled to verified F33 featured fixture.",
+      "source_stage": "W12_FEATURE_ATLAS_ROUTE_HOLD",
+      "complete_event_data": null,
+      "tldraw_shape_id": "shape:w11-os-f35",
+      "review_shape_id": "shape:w11-review-f35",
+      "publication": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+    }
+  ],
+  "holds": [
+    "THEFFHUB_FULL_12_TEAM_QUALIFICATION_SWEEP",
+    "OFFICIAL_INDEPENDENT_DATA_STEWARD_ACK",
+    "CINEMATIC_VENUE_PLATES_AND_REFERENCE_RIGHTS",
+    "WILSON_LOOK_PRIMARY_IDENTITY_CONFLICT",
+    "MUD_DOGS_LOADED_TRUCK_ROAD_CLEARANCE",
+    "PITTSYS_BOOK_WIDE_GEOGRAPHY",
+    "ALL_35_FINAL_NATIVE_1080x1920_PNG_AND_390PX_QA",
+    "INDEPENDENT_UMPIRE_AND_CI"
+  ]
+}
