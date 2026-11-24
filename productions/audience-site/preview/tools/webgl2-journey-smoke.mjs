@@ -19,10 +19,11 @@ const wetlandsOption=process.argv.indexOf('--wetlands-temporal-dir');
 const closeupOption=process.argv.indexOf('--wetlands-closeup-dir');
 const atlasOption=process.argv.indexOf('--atlas-views-dir');
 const lightOption=process.argv.indexOf('--wetlands-light-dir');
-const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption,lightOption].filter(index=>index>=0);
+const historyOption=process.argv.indexOf('--history-sweep-dir');
+const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption,lightOption,historyOption].filter(index=>index>=0);
 assert.ok((options.length===0&&process.argv.length===3)
  ||(options.length===1&&options[0]===3&&process.argv.length===5),
- 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir /new/private/evidence/directory');
+ 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir or --history-sweep-dir /new/private/evidence/directory');
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
 const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 const wetlandsDir=wetlandsOption<0?null:resolve(process.argv[4]);
@@ -35,6 +36,9 @@ if(closeupDir)assert.ok(!existsSync(closeupDir),'CLOSEUP_DIRECTORY_EXISTS: refus
 if(atlasDir)assert.ok(!existsSync(atlasDir),'ATLAS_DIRECTORY_EXISTS: refusal to overwrite evidence');
 const lightDir=lightOption<0?null:resolve(process.argv[4]);
 if(lightDir)assert.ok(!existsSync(lightDir),'LIGHT_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const historyDir=historyOption<0?null:resolve(process.argv[4]);
+if(historyDir)assert.ok(!existsSync(historyDir),'HISTORY_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const historySweep=[];
 const lightCaptures=[];
 const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[],wetlandCloseupCaptures=[],closeupCameras=[],atlasCaptures=[];
 let atlasPlan=null;
@@ -160,6 +164,54 @@ async function main(){
  assertHistoricalViewRestored(beforeHistory,await evaluate('__observerDebug.camera()'));
  await click('#inspectorWorld');
  assert.equal(await evaluate('document.querySelector("#inspector").hidden'),true);
+ if(historyDir){
+  // Compare the actual spectator UI against the embedded, immutable source catalog,
+  // including places with no exact record. Never synthesize historical entries.
+  const plan=await evaluate('(()=>{const c=JSON.parse(document.querySelector("#catalog").textContent);return c.locations.map(l=>({id:l.id,name:l.name,entries:c.history.events.filter(e=>e.locationId===l.id).map(e=>({id:e.id,heading:e.year+" · Week "+e.week+" · "+e.id}))}));})()');
+  assert.equal(plan.length,23);
+  assert.equal(new Set(plan.map(x=>x.id)).size,23);
+  for(const place of plan){
+   await click('#placesToggle');
+   await click('[data-place="'+place.id+'"]');
+   assert.equal((await snapshot()).state.locationId,place.id);
+   assert.equal(await evaluate('document.querySelector("#placeName").textContent'),place.name);
+   const available=place.entries.length>0;
+   assert.equal(await evaluate('document.querySelector("#openHistory").hidden'),!available,place.id);
+   assert.equal(await evaluate('document.querySelector("#historyAvailability").hidden'),available,place.id);
+   const row={placeId:place.id,sourceEventIds:place.entries.map(e=>e.id),historyAvailable:available};
+   if(available){
+    await delay(2300);
+    const before=await evaluate('__observerDebug.camera()');
+    const live=await snapshot();
+    await click('#openHistory');
+    assert.equal(await evaluate('document.querySelector("#historyDialog").open'),true);
+    assert.equal(await evaluate('document.querySelector("#historyPlace").textContent'),place.name);
+    assert.deepEqual(await evaluate('Array.from(document.querySelectorAll("#historyEntries article h2"),e=>e.textContent)'),place.entries.map(e=>e.heading));
+    const session=await evaluate('__observerHistoryDebug.session()');
+    assert.equal(session.locationId,place.id);
+    assert.equal(session.worldMutationAllowed,false);
+    assert.equal(session.liveWeatherAllowed,false);
+    assert.equal(session.publicationAuthorized,false);
+    const frozen=await snapshot();await delay(350);
+    const held=await snapshot();
+    assert.equal(held.stats.waterTime,frozen.stats.waterTime,place.id+' history advanced water');
+    await click('#historyBack');
+    assert.equal(await evaluate('document.querySelector("#historyDialog").open'),false);
+    assert.equal((await snapshot()).state.locationId,place.id);
+    const after=await evaluate('__observerDebug.camera()');
+    assertHistoricalViewRestored(before,after);
+    const resumed=await until(async()=>{const q=await snapshot();return q.stats.waterTime>held.stats.waterTime?q:null;},place.id+' ordinary water resumed',12000);
+    Object.assign(row,{cameraBefore:before,cameraAfter:after,waterBefore:live.stats.waterTime,waterFrozen:frozen.stats.waterTime,waterHeld:held.stats.waterTime,waterResumed:resumed.stats.waterTime,readOnly:true});
+   }else{
+    assert.equal(await evaluate('__observerHistoryDebug.session()'),null);
+    assert.match(await evaluate('document.querySelector("#historyAvailability").textContent'),/No location-exact World Memory entry/);
+   }
+   await click('#inspectorWorld');
+   assert.equal(await evaluate('document.querySelector("#inspector").hidden'),true);
+   assert.equal((await snapshot()).sourceUnchanged,true);
+   historySweep.push(row);
+  }
+ }
  if(captureDir){
   for(const [id,file,title] of [
    ['LOC-TDS-WATERFALL-TEMPLE','03-waterfall-temple.png','Podium Shadow Waterfall Temple'],
@@ -330,6 +382,21 @@ async function main(){
  const errors=[...runtimeExceptions,...consoleErrors].filter(x=>!/favicon\.ico/.test(x));
  assert.deepEqual(errors,[],'Browser/GLSL errors: '+errors.join(' | '));
  assert.deepEqual(externalRequests,[],'External network requests from offline observer');
+ if(historyDir){
+  assert.equal(historySweep.length,23);
+  mkdirSync(historyDir,{recursive:false});
+  writeFileSync(join(historyDir,'manifest.json'),JSON.stringify({
+   status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
+   evidenceType:'PHYSICAL_GPU_SOURCE_BOUND_HISTORY_AVAILABILITY_AND_RETURN',
+   sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
+   stateAsOf:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).stateAsOf'),
+   observerSha256:createHash('sha256').update(readFileSync(observer)).digest('hex'),
+   renderer:first.stats.renderer,gpu:first.gpu,weatherStatus:calm.status,
+   sourceUnchanged:true,ordinaryWaterAdvanced:true,explicitPause:true,
+   browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
+   places:historySweep
+  },null,2)+'\n',{flag:'wx'});
+ }
  if(temporalDir){
   assert.equal(temporalCaptures.length,4,'Missing moving/paused Waterfall Temple temporal coverage');
   mkdirSync(temporalDir,{recursive:true});

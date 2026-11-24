@@ -188,3 +188,25 @@ Historical reading, when privately supplied, suspends the camera and restores it
 exact viewpoint. Public publication permission, final art acceptance, physical-
 phone/hardware-GPU verification, independent review, merge and deployment remain
 separate gates. This source port does not certify any of them.
+
+## Optional all-place recorded-history GPU sweep
+
+After the same unpublished source-only build, run the mutually exclusive
+`--history-sweep-dir` mode with a new output directory:
+
+```sh
+node productions/audience-site/preview/tools/webgl2-journey-smoke.mjs \
+  /tmp/commonwealth-preview/observer.html \
+  --history-sweep-dir /tmp/commonwealth-history-sweep
+```
+
+The physical Chrome/WebGL2 sweep selects each of the 23 current Atlas places
+through the existing spectator index. For each location it compares the visible
+history availability and exact event headings against the embedded source
+catalog. Recorded histories must remain read-only, hold ordinary water time
+while reading, return to the same camera and resume water afterward. Locations
+without exact records must remain visible with the existing absence notice.
+The mode emits a source-revision/observer-hash-pinned JSON manifest only after
+the original calm-weather, explicit-pause, source-integrity and offline browser
+gates pass. It does not generate missing histories or provide artistic acceptance.
+The 2026-11-24 example is in `evidence/gpu-all-place-history-sweep-20261124/`.

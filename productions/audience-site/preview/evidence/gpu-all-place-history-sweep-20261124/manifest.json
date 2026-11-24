@@ -1,0 +1,323 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "PHYSICAL_GPU_SOURCE_BOUND_HISTORY_AVAILABILITY_AND_RETURN",
+  "sourceRevision": "7f040d13d82bfa75c885f374f15072a3edab993d",
+  "stateAsOf": "end_of_week_3_2026",
+  "observerSha256": "587630ae2ea4510fec382ba33235ffe6e3760328898a57370a61fa0802fb0912",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "weatherStatus": "GLOBAL_CALM",
+  "sourceUnchanged": true,
+  "ordinaryWaterAdvanced": true,
+  "explicitPause": true,
+  "browserExceptions": 0,
+  "consoleErrors": 0,
+  "externalRequests": 0,
+  "places": [
+    {
+      "placeId": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "sourceEventIds": [
+        "EVT-W3-COUNTRY-CLUB-CHILI"
+      ],
+      "historyAvailable": true,
+      "cameraBefore": {
+        "target": [
+          13.99999944759166,
+          4.9982338439098,
+          51.9999979481976
+        ],
+        "distance": 60.84177936203415,
+        "yaw": 0.11999998618979153,
+        "pitch": 0.650000005129506
+      },
+      "cameraAfter": {
+        "target": [
+          13.999999499960289,
+          4.998233862606275,
+          51.99999814270965
+        ],
+        "distance": 60.84177854224731,
+        "yaw": 0.11999998749900723,
+        "pitch": 0.6500000046432258
+      },
+      "waterBefore": 4.8230000000953686,
+      "waterFrozen": 4.8230000000953686,
+      "waterHeld": 4.8230000000953686,
+      "waterResumed": 4.992200000000003,
+      "readOnly": true
+    },
+    {
+      "placeId": "LOC-ARSENAL-BARBERSHOP",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-STORM-BOWL",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-LLC-BOARDROOM",
+      "sourceEventIds": [
+        "EVT-W2-LLC-INTRUSION"
+      ],
+      "historyAvailable": true,
+      "cameraBefore": {
+        "target": [
+          55.99995729225917,
+          6.1456553564285255,
+          63.99998779778659
+        ],
+        "distance": 15.986979197804905,
+        "yaw": 0.1199999999999873,
+        "pitch": 0.6500000000000048
+      },
+      "cameraAfter": {
+        "target": [
+          55.999961364166,
+          6.145655467671338,
+          63.999988961188706
+        ],
+        "distance": 15.986974849120447,
+        "yaw": 0.1199999999999885,
+        "pitch": 0.6500000000000044
+      },
+      "waterBefore": 7.308700000000028,
+      "waterFrozen": 7.325400000000028,
+      "waterHeld": 7.325400000000028,
+      "waterResumed": 7.496900000095397,
+      "readOnly": true
+    },
+    {
+      "placeId": "LOC-RED-RUINS",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-CHILI-STABLE",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-BELT-KEEPER-KEEP",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-SLOB-FOOTHILL-CAMP",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-CHINS-ROAD-COMMONS",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-LEAGUE-CHAMBER",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-PITTSYS-BOOK",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "sourceEventIds": [
+        "EVT-W3-BRIDGE"
+      ],
+      "historyAvailable": true,
+      "cameraBefore": {
+        "target": [
+          28.000015643248513,
+          8.172265454280963,
+          -31.999916532032426
+        ],
+        "distance": 20.13303176776312,
+        "yaw": 0.11999996930269327,
+        "pitch": 0.6500000114018567
+      },
+      "cameraAfter": {
+        "target": [
+          28.000015643248513,
+          8.172265454280963,
+          -31.999916532032426
+        ],
+        "distance": 20.13303176776312,
+        "yaw": 0.11999996930269327,
+        "pitch": 0.6500000114018567
+      },
+      "waterBefore": 9.83010000009538,
+      "waterFrozen": 9.83010000009538,
+      "waterHeld": 9.83010000009538,
+      "waterResumed": 10.003800000190743,
+      "readOnly": true
+    },
+    {
+      "placeId": "LOC-DK-MUD-HILL",
+      "sourceEventIds": [
+        "EVT-W3-MIRE-HILL"
+      ],
+      "historyAvailable": true,
+      "cameraBefore": {
+        "target": [
+          -19.99995589770179,
+          6.70575066732057,
+          5.9999650857686495
+        ],
+        "distance": 32.15865588222252,
+        "yaw": 0.1199999999999718,
+        "pitch": 0.6500000000000107
+      },
+      "cameraAfter": {
+        "target": [
+          -19.99995589770179,
+          6.70575066732057,
+          5.9999650857686495
+        ],
+        "distance": 32.15865588222252,
+        "yaw": 0.1199999999999718,
+        "pitch": 0.6500000000000107
+      },
+      "waterBefore": 12.320500000190709,
+      "waterFrozen": 12.320500000190709,
+      "waterHeld": 12.320500000190709,
+      "waterResumed": 12.49180000009534,
+      "readOnly": true
+    },
+    {
+      "placeId": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "sourceEventIds": [
+        "EVT-W3-ALPINE-WAGER"
+      ],
+      "historyAvailable": true,
+      "cameraBefore": {
+        "target": [
+          -10.000009193449696,
+          31.40282492396869,
+          -63.999935645600424
+        ],
+        "distance": 50.27362410701916,
+        "yaw": 0.11999999999999993,
+        "pitch": 0.6500000000000006
+      },
+      "cameraAfter": {
+        "target": [
+          -10.000009193449696,
+          31.40282492396869,
+          -63.999935645600424
+        ],
+        "distance": 50.27362410701916,
+        "yaw": 0.11999999999999993,
+        "pitch": 0.6500000000000006
+      },
+      "waterBefore": 14.8084000000953,
+      "waterFrozen": 14.8084000000953,
+      "waterHeld": 14.8084000000953,
+      "waterResumed": 14.990100000190663,
+      "readOnly": true
+    },
+    {
+      "placeId": "LOC-SOUTHERN-SPEEDWAY",
+      "sourceEventIds": [
+        "EVT-W3-SPEEDWAY"
+      ],
+      "historyAvailable": true,
+      "cameraBefore": {
+        "target": [
+          -6.000004064973474,
+          4.507015068344826,
+          29.999904473408325
+        ],
+        "distance": 25.0575373496745,
+        "yaw": 0.11999999999999993,
+        "pitch": 0.6500000000000006
+      },
+      "cameraAfter": {
+        "target": [
+          -6.000004064973474,
+          4.507015068344826,
+          29.999904473408325
+        ],
+        "distance": 25.0575373496745,
+        "yaw": 0.11999999999999993,
+        "pitch": 0.6500000000000006
+      },
+      "waterBefore": 17.29000000019063,
+      "waterFrozen": 17.29000000019063,
+      "waterHeld": 17.29000000019063,
+      "waterResumed": 17.465799999999884,
+      "readOnly": true
+    },
+    {
+      "placeId": "LOC-LLC-STORM-CITY",
+      "sourceEventIds": [
+        "EVT-W3-LLC-STORM"
+      ],
+      "historyAvailable": true,
+      "cameraBefore": {
+        "target": [
+          65.99992687452996,
+          5.114470171919856,
+          59.99996953095885
+        ],
+        "distance": 17.695057798572254,
+        "yaw": 0.11999999999999993,
+        "pitch": 0.6500000000000006
+      },
+      "cameraAfter": {
+        "target": [
+          65.99993384657051,
+          5.114470230742157,
+          59.99997243598483
+        ],
+        "distance": 17.695057085633987,
+        "yaw": 0.11999999999999993,
+        "pitch": 0.6500000000000006
+      },
+      "waterBefore": 19.782499999999832,
+      "waterFrozen": 19.782499999999832,
+      "waterHeld": 19.782499999999832,
+      "waterResumed": 19.964299999904462,
+      "readOnly": true
+    },
+    {
+      "placeId": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-TDS-CHILI-SHARED-MARCH",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    },
+    {
+      "placeId": "LOC-LEAGUE-ARCHIVE",
+      "sourceEventIds": [],
+      "historyAvailable": false
+    }
+  ]
+}

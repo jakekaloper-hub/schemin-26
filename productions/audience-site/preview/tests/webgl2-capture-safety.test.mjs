@@ -39,3 +39,18 @@ test('Temporal evidence and standard captures are mutually exclusive',()=>{
  assert.notEqual(p.status,0);
  assert.match(p.stderr,/Optional capture argument/);
 });
+
+test('History sweep refuses an existing destination and is mutually exclusive with image modes',()=>{
+ const dir=mkdtempSync(join(tmpdir(),'cw-history-guard-'));
+ const guard=join(dir,'original.txt');
+ try{
+  writeFileSync(guard,'PRESERVE');
+  const p=spawnSync(process.execPath,[script,script,'--history-sweep-dir',dir],{encoding:'utf8',timeout:6000});
+  assert.notEqual(p.status,0);
+  assert.match(p.stderr,/HISTORY_DIRECTORY_EXISTS/);
+  assert.equal(readFileSync(guard,'utf8'),'PRESERVE');
+  const mixed=spawnSync(process.execPath,[script,script,'--history-sweep-dir','/tmp/a','--capture-dir','/tmp/b'],{encoding:'utf8',timeout:6000});
+  assert.notEqual(mixed.status,0);
+  assert.match(mixed.stderr,/Optional capture argument/);
+ }finally{rmSync(dir,{recursive:true,force:true});}
+});
