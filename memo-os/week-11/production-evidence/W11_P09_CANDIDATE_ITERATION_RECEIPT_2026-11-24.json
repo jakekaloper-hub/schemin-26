@@ -1,0 +1,39 @@
+{
+  "schema": "schemin.w11.visual_candidate_receipt.v1",
+  "date": "2026-11-24",
+  "folio": "F09",
+  "filename": "Schemin26_Week11_P09_After_You_Austin_CANDIDATE.png",
+  "phone_filename": "Schemin26_Week11_P09_After_You_Austin_390px_PROOF.png",
+  "artifact_location": "ChatGPT conversation attachment; bytes not uploaded to GitHub",
+  "render_status": "REVISED_CANDIDATE_ONLY",
+  "production_source": "memo-os/week-11/preproduction/W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json",
+  "native_png": {
+    "width": 1080,
+    "height": 1920,
+    "sha256": "7133f809be36e89f0feb99203d640fcbdf434f574224d937b4b8b88758191062",
+    "bytes": 3939184
+  },
+  "phone_png": {
+    "width": 390,
+    "height": 693,
+    "sha256": "26c3927787fce79069fa8afd1807bfa0f57184f16412f42f76b11ef803b15679",
+    "bytes": 614662
+  },
+  "revisions": "After initial rejected frame and two visually incorrect image-gen retries, latest candidate restores approved After You, Austin title, correct Wilson/Austin dialogue attribution, working carter and wagon, full 87-word reader copy set deterministically, and charging action.",
+  "passed_candidate_checks": [
+    "Approved current hooded red-eyed Austin rendered instead of exposed-face knight",
+    "Wilson to right: The Belt Keeper comes to ask permission? and After you, Austin",
+    "Austin to left: Not yours",
+    "Carter, horse and wagon visible at left of bridge",
+    "Mountain Lake and intact bridge maintained",
+    "Narrative copy reproduced by deterministic typography, no printed folio identifiers",
+    "Native portrait and phone proof produced"
+  ],
+  "remaining_release_holds": [
+    "Independent Character QA for exact four-hoof anatomy across dynamic charge frames",
+    "Provider character reference subject binding receipt unavailable",
+    "Atlas cinematic photography acceptance not signed",
+    "Independent Umpire native/390px acceptance not signed"
+  ],
+  "page_decision": "Await Jake's assessment; not published or accepted as final"
+}
