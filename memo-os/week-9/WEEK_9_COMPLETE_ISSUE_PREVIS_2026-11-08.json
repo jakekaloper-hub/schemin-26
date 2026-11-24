@@ -19986,10 +19986,19 @@
         "examples_are_not_render_inputs": true
       },
       "map_binding": {
+        "source_binding_revision": {
+          "version": "W09-P30-20261124-CANDIDATE",
+          "previous_location_sha256": "4dcfe5756ad0cc58b8ba9f3f9e1b0cab77de5b057af9d55afa382490a291e074",
+          "previous_packet_blob": "307409d42ea94d86fdf8052a75fdc423205122ac",
+          "candidate_location_blob": "9c2d30399a092967ec85bfb3431af9b36e06adc3",
+          "compatibility_receipt": "memo-os/week-9/W09_P30_MAP_SOURCE_REBIND_CANDIDATE_2026-11-24.json",
+          "state": "CANDIDATE_PENDING_INDEPENDENT_ATLAS_AND_QA",
+          "independent_approval": false
+        },
         "source_assets": [
           {
             "path": "world/data/locations.json",
-            "sha256": "4dcfe5756ad0cc58b8ba9f3f9e1b0cab77de5b057af9d55afa382490a291e074"
+            "sha256": "7b6103741f6fee6597c58aae7044f3d1787c762f19a81febd4b4c676f1b719ea"
           },
           {
             "path": "world/data/owner_domains.json",
