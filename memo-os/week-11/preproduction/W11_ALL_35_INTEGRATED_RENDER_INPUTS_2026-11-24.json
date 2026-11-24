@@ -1,0 +1,2836 @@
+{
+  "schema": "schemin.w11.integrated.folio.render_handoff.v1",
+  "title": "One Last Crossing",
+  "observed_date": "2026-11-24",
+  "source_branch": "memo-v52rc-20261115-intake",
+  "status": "INTEGRATED_SOURCE_HANDOFF__RELEASE_HOLD",
+  "written_to": "EXISTING_PR_313",
+  "issue_total_folios": 35,
+  "native_png": {
+    "width": 1080,
+    "height": 1920,
+    "format": "PNG"
+  },
+  "phone_proof": {
+    "width": 390,
+    "height": 693,
+    "format": "PNG"
+  },
+  "source_blob_receipts": {
+    "reader": {
+      "path": "memo-os/week-11/preproduction/W11_READER_LETTERING_2026-11-24.md",
+      "blob_sha": "b783117d530ea245c17c4c7c4700e01615c2ef96"
+    },
+    "cuts": {
+      "path": "memo-os/week-11/preproduction/W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json",
+      "blob_sha": "e0f493c01fa0eecbf5d8cf7a593f3a1d0779d87e"
+    },
+    "shots": {
+      "path": "memo-os/week-11/preproduction/W11_ALL_35_VISUAL_DIRECTOR_SHOT_SPECS_2026-11-23.json",
+      "blob_sha": "bf07d1df570f820cd0387a07187e40c7ffb3a412"
+    },
+    "briefs": {
+      "path": "memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md",
+      "blob_sha": "75de6117f9d2c1ccdb16bf355a6d83b906b5fc92"
+    },
+    "location": {
+      "path": "memo-os/week-11/preproduction/WEEK11_LOCATION_DESK.json",
+      "blob_sha": "13cfda239039e873e30be5adbec9aeb39f8c4672"
+    },
+    "scene": {
+      "path": "memo-os/week-11/preproduction/W11_FINAL_SCENE_14_FOLIO_VISUAL_PERFORMANCE_REGISTER_2026-11-24.json",
+      "blob_sha": "499a54d06f17ada11b8d1dba5c2a6d78ad61a9ac"
+    },
+    "director": {
+      "path": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+      "blob_sha": "83ba42b27432c21a7cdd8a154aa5baeef17038b1"
+    },
+    "proof_inventory": {
+      "path": "memo-os/week-11/production-evidence/W11_PRODUCTION_DESK_2026-11-24.md",
+      "blob_sha": "2262ebff9d75b0d7779d106c864ded06bf36a665"
+    },
+    "reference": {
+      "path": "memo-os/week-11/preproduction/WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json",
+      "blob_sha": "ff5c50336e9778fa6aec1a150d5b01fb2cd67791"
+    },
+    "steward": {
+      "path": "memo-os/week-9/WEEK_11_SCK_STEWARD_HANDOFF_2026-11-24.json",
+      "blob_sha": "35e2da94fc85fd0b5fc5358a038ebfc0665fff9f"
+    },
+    "render_caps": {
+      "path": "canon/characters/renderer_capabilities_v1.json",
+      "blob_sha": "de3a5659ea02890057550ceb12a4f7df7fc8d03c"
+    }
+  },
+  "rule_precedence": [
+    "Official final ESPN and dated House result / source facts",
+    "Nov 24 exact reader lettering for printed copy",
+    "Nov 24 result-selected cuts override Nov 23 conditional winner branches",
+    "Commissioned per-folio visual director shot specification and stage holds",
+    "Published Week 10 memo geometry for layout comparison, not source replacement",
+    "Current character primary and preferred appearance source, then scene state",
+    "World/Atlas parent, feature and venue permissions"
+  ],
+  "inherited_design_system": {
+    "target": "COMPLETE_ILLUSTRATED_MEMO_PAGE_NOT_STANDALONE_SCENE",
+    "typography": "Typeset exact reader copy, including tables, scores and dialogue, in a scene-led integrated magazine composition. Use deterministic typography if generator cannot reproduce text. Never shrink prose to illegibility; reflow before final export.",
+    "narrative": "The director manuscript is supplied IN FULL for visual action/performance and source-safe manuscript review. It is not silently substituted for shorter signed reader lettering. Any additional printed script requires Jake/editorial decision.",
+    "physical_art": "One hyper-realistic cinematic image and its editorial print space per page. No ordinary screenshots, no collage, no generic magazine template, no PDF framing, no floating tables as UI.",
+    "exclusion": "No P##/F## folio labels, slug, debug metadata, production audit labels or fake signature on printable pages. Internal identifiers remain for file tracking only.",
+    "continuity": "Respect preceding and following page, exact cast, prop and geometry, game outcome and established prior-week motifs; visual style may vary by editorial purpose.",
+    "candidate_approval": "Do not infer permission to generate published identity-safe canon art from symbolic storyboards or semantic descriptions. Renderer mount hashes, subject binding and Atlas approval remain actual gates.",
+    "qa": "Inspect native PNG 1080x1920, deterministic print copy against exact reader, 390x693 resampling, cast identity, physical causality, World continuity, text coverage, and independent Umpire acceptance. No PASS from an aesthetic image alone.",
+    "workflow": "User directs each page. No automatic new image output before the user instructs it. Tldraw paused, no PDF assembly."
+  },
+  "counts": {
+    "total_pages": 35,
+    "exact_reader_copy": 35,
+    "individual_visual_commissions": 35,
+    "selected_cut_overlays": 35,
+    "location_records": 35,
+    "full_cinematic_performance_scripts": 14,
+    "working_native_phone_pairs": 17,
+    "accepted_final_png": 0,
+    "matchup_sites_without_approved_cinematic_plates": 6,
+    "matchup_cast_provider_bindings": 0
+  },
+  "pages": [
+    {
+      "internal_folio_id": "F01",
+      "reading_position": 1,
+      "final_page_headline": "One Last Crossing",
+      "printed_masthead": "USE_MASTHEAD_EXACTLY_ONCE_FROM_READER_COPY",
+      "exact_reader_publication_copy_markdown": "SCHEMIN’ ’26 · WEEK 11\n\nThe last crossover before three Sundays against the neighbors.",
+      "reader_copy_words": 14,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Primary cover audition: the carter waits beside Austin at the intact Mountain Lake bridge as Wilson resurfaces. Alternate: Brandon’s single throw at the Wolf Brand Chili tank. Choose after identity-bound native art and a 390-pixel proof.",
+        "source_stage": "COVER_IMAGE_AND_FINAL_390PX_QA_PENDING",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "unit_stills",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "One human-scale decisive gesture with both opposed owners, exact accepted location after six finals",
+        "composition": "Near-shoulder photo portrait; title safe zone above silhouette, no floating icons",
+        "weather_light": "Source-motivated practical light; a single strong environmental color contrast",
+        "preserve": "Score and final character gesture not selected before official result",
+        "intended_page_turn": "Cover must resolve two candidate moments after result",
+        "native_and_phone_visual_check": "Recognizable at thumbnail, team and consequence accurate",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "COVER_AUDITIONS_PENDING_VISUAL_PROOF",
+        "location_restrictions": "Primary cover audition: the carter waits beside Austin at the intact Mountain Lake bridge as Wilson resurfaces. Alternate: Brandon’s single throw at the Wolf Brand Chili tank. Choose after identity-bound native art and a 390-pixel proof.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": true,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F02",
+      "reading_position": 2,
+      "final_page_headline": "The bottom of the register",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Bobby Mitchell began the week with two wins and put up 151.26 against Seven Deadly Chins. He turned the register back to his own row and wrote in a third. Across the table, Jordan Hollingshead had beaten El Niño by 4.26 to reach seven wins. Two other clubs had seven. Bobby let the ink dry on three.",
+      "reader_copy_words": 57,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Bobby Mitchell began the week with two wins and put up 151.26 against Seven Deadly Chins. He turned the register back to his own row and wrote in a third. Across the table, Jordan Hollingshead had beaten El Niño by 4.26 to reach seven wins. Two other clubs had seven. Bobby let the ink dry on three.",
+        "source_stage": "COPY_NEEDS_EDITORIAL_SIGNOFF",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "Two ordinary registers, Bobby and Jordan as physical signs of opposite seasonal fortunes",
+        "composition": "Over-open-book perspective toward two seats; keep rows legible",
+        "weather_light": "Two lamp temperatures on wood, real recent rainfall through distant doorway",
+        "preserve": "Clerk's ledger and established chamber, not a generic infographic",
+        "intended_page_turn": "Turn from cover hero to twelve-team context",
+        "native_and_phone_visual_check": "Readers distinguish owners and entering records",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-LEAGUE-CHAMBER"
+        ],
+        "scene_binding": null,
+        "venue_status": "EXPLICIT_PARENT",
+        "location_restrictions": "Stage the register inside the League Chamber. Its registered records desk is a possible framing choice.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F02.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F02.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F03",
+      "reading_position": 3,
+      "final_page_headline": "Commissioner’s Note",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Over the next three Sundays, somebody in this league will be rooting for you who hasn’t rooted for you all year. You may be the only team left on the schedule that can beat the club he’s chasing. That’s what a division owes its last-place team, and what the last-place team owes the division. Everybody gets your best starting ten. Especially the guy who thinks he’s earned an easy Sunday.",
+      "reader_copy_words": 70,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Commissioner's signed address may acknowledge six completed contests and the divisional turn. The actual Commissioner voice and portrait remain a separate authorized byline; never manufacture his quote.",
+        "source_stage": "COMMISSIONER_SIGNOFF_PENDING",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "Commissioner's signed statement, not a second owner appearance",
+        "composition": "Extreme close letter and lamp with working hand as human anchor",
+        "weather_light": "Warm desk lamp across folded paper and shadow, no fake official seal",
+        "preserve": "Exact signed and authorized copy, portrait only if sourced",
+        "intended_page_turn": "Set up the official Week 11 scoreboard",
+        "native_and_phone_visual_check": "Signature, text, attribution readable at 390px",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "CLOSE_INSERT_UNASSIGNED",
+        "location_restrictions": "Commissioner’s desk in close-up. The desk owner is established; a Chamber or office parent is unassigned.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/f03-unsigned-note-candidate-20261124/F03.png",
+        "phone_path": "memo-os/week-11/preproduction/f03-unsigned-note-candidate-20261124/F03-390.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": true,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F04",
+      "reading_position": 4,
+      "final_page_headline": "The Week 11 board",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "The last crossover. For the next three weeks, every opponent comes from your own division.\n\n| Visitor | Points | Home | Points |\n| --- | --- | --- | --- |\n| His Majesty’s Blood | 168.20 | D0nkey K0ng | 129.75 |\n| El Niño | 134.60 | Slob on my Dobb | 138.86 |\n| The Chili Cheesers | 133.52 | ObiWan Jacoby | 83.79 |\n| Red Leopards | 94.80 | Three Dreaded Snake | 125.74 |\n| Seven Deadly Chins | 117.66 | Mud Dogs | 151.26 |\n| The LLC | 127.60 | Dr. Duckhook | 173.01 |\n\nESPN · Final through Week 11",
+      "reader_copy_words": 111,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Publish six ESPN-final pairings with exact two-decimal scores and all twelve teams; resolve AWAY/HOME and official WINNER rather than projected values. Source label: ESPN/Flaim final 2026-11-24.",
+        "source_stage": "PROVIDER_VERIFIED_NEEDS_390PX_AND_DATA_STEWARD",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "vfx_pipeline",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "All six finished pairings with 12 teams and honest winner fields",
+        "composition": "Front-on inhabited score rail with a low observer or passerby beyond",
+        "weather_light": "Neutral venue practical light, controlled color accents not six illustrated trophies",
+        "preserve": "Team names and decimals exact; empty fields stay until official",
+        "intended_page_turn": "Score board turns to editorial rankings",
+        "native_and_phone_visual_check": "Every pair and digit passes 390px",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "UNASSIGNED_WIDE",
+        "location_restrictions": "Show the inhabited results board in close framing while the exact wide site is open.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F04.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F04.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F05",
+      "reading_position": 5,
+      "final_page_headline": "The Twelve · first six",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Sports Desk power rankings · Change since Week 7\n\n| Rank | Franchise | W–L | Move | This week |\n| --- | --- | --- | --- | --- |\n| 1 | Dr. Duckhook | 7–4 | ↑ 4 | Four starters cleared 20 in a 173.01-point win. |\n| 2 | Slob on my Dobb | 7–4 | ↓ 1 | Lamb scored 31.20. Nobody has more season points than Jordan. |\n| 3 | His Majesty’s Blood | 7–4 | ↑ 4 | Coleman and Hubbard combined for 68.00 against D0nkey K0ng. |\n| 4 | D0nkey K0ng | 6–5 | ↓ 2 | Prescott scored 45.30 in defeat. Wilson still leads Burgers. |\n| 5 | El Niño | 6–5 | ↑ 4 | Fell 4.26 short. Now Chins come calling. |\n| 6 | The Chili Cheesers | 6–5 | ↓ 3 | Ward and Dike turned two Thursday moves into 48.17 points. |",
+      "reader_copy_words": 161,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Draft editorial power-ranking positions 1–6, distinct from ESPN seeds and 70/30 scoring form: Dr. Duckhook 1 (up 4 since Week7), Slob 2 (down 1), His Majesty’s Blood 3 (up 4), D0nkey K0ng 4 (down 2), El Niño 5 (up 4), Chili Cheesers 6 (down 3). Use actual W11 boxscores and an approved character portrait for each; editorial judgments still require publication signoff.",
+        "source_stage": "COMPLETE_6_ROW_EDITORIAL_CANDIDATE_NOT_PUBLISHED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "color_finishing",
+        "support": [
+          "unit_stills",
+          "production_design"
+        ],
+        "concept": "Editorial ranks 1–6 with distinct approved owner portrait moments",
+        "composition": "Six-row bronze portrait register, edge-of-frame photo portraits",
+        "weather_light": "Soft directional portrait light, consistent register material",
+        "preserve": "One photo crop per registered character, previous-week movement trace",
+        "intended_page_turn": "First ranks continue into same-scale second ranks",
+        "native_and_phone_visual_check": "Six long team names remain unclipped",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "EDITORIAL_NO_VENUE",
+        "location_restrictions": "Portrait register; rank six after final scores.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/portrait-rank-proofs-20261124/native/F05.png",
+        "phone_path": "memo-os/week-11/preproduction/portrait-rank-proofs-20261124/phone/F05.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": true,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F06",
+      "reading_position": 6,
+      "final_page_headline": "The Twelve · second six",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Sports Desk power rankings · Change since Week 7\n\n| Rank | Franchise | W–L | Move | This week |\n| --- | --- | --- | --- | --- |\n| 7 | Seven Deadly Chins | 6–5 | ↓ 1 | Lost to Mud Dogs. Ben still holds sixth seed. |\n| 8 | Three Dreaded Snake | 5–6 | ↑ 3 | Thirty points clear of Red, one win behind seventh. |\n| 9 | Red Leopards | 5–6 | ↓ 5 | A second straight loss sends Kevin into divisional play. |\n| 10 | The LLC | 4–7 | — | Seven defeats despite 1,576.85 points for the season. |\n| 11 | Mud Dogs | 3–8 | ↑ 1 | Bobby put up 151.26 to earn win number three. |\n| 12 | ObiWan Jacoby | 4–7 | ↓ 4 | Scored 83.79 with three divisional games to recover. |",
+      "reader_copy_words": 157,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Draft editorial power-ranking positions 7–12, matching the first panel: Seven Deadly Chins 7 (down 1 since Week7), Three Dreaded Snake 8 (up 3), Red Leopards 9 (down 5), The LLC 10 (unchanged), Mud Dogs 11 (up 1), ObiWan Jacoby 12 (down 4). The exact 7-berth ESPN seed line and TheFFHub odds remain separate sources, not editorial ranks.",
+        "source_stage": "COMPLETE_6_ROW_EDITORIAL_CANDIDATE_NOT_PUBLISHED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "color_finishing",
+        "support": [
+          "unit_stills",
+          "production_design"
+        ],
+        "concept": "Editorial ranks 7–12, seventh place already within view",
+        "composition": "Match F05 lens, row baseline, metal rule at seventh row",
+        "weather_light": "Same lamp/warm light, cooler shadow below cutline",
+        "preserve": "No reuse of winner montage portraits; signed movement since Week7",
+        "intended_page_turn": "Turn reveals official seventh-place boundary",
+        "native_and_phone_visual_check": "Rows 7–12 and movement readable at 390px",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "EDITORIAL_NO_VENUE",
+        "location_restrictions": "Portrait register; show the remaining six once each.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/portrait-rank-proofs-20261124/native/F06.png",
+        "phone_path": "memo-os/week-11/preproduction/portrait-rank-proofs-20261124/phone/F06.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": true,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F07",
+      "reading_position": 7,
+      "final_page_headline": "What seventh place means",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Three division winners and four wild cards qualify. The Chili Cheesers hold seventh at 6–5. Three Dreaded Snake are one win back.\n\n| ESPN seed | Franchise | W–L–T | Points for |\n| --- | --- | --- | --- |\n| 1 | His Majesty’s Blood | 7–4–0 | 1,620.15 |\n| 2 | Slob on my Dobb | 7–4–0 | 1,738.85 |\n| 3 | D0nkey K0ng | 6–5–0 | 1,541.57 |\n| 4 | Dr. Duckhook | 7–4–0 | 1,625.16 |\n| 5 | El Niño | 6–5–0 | 1,584.63 |\n| 6 | Seven Deadly Chins | 6–5–0 | 1,474.28 |\n| 7 | The Chili Cheesers | 6–5–0 | 1,518.31 |\n| 8 | Three Dreaded Snake | 5–6–0 | 1,405.20 |\n| 9 | Red Leopards | 5–6–0 | 1,499.31 |\n| 10 | The LLC | 4–7–0 | 1,576.85 |\n| 11 | ObiWan Jacoby | 4–7–0 | 1,468.30 |\n| 12 | Mud Dogs | 3–8–0 | 1,332.61 |\n\nStandings through Week 11",
+      "reader_copy_words": 172,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Current ESPN playoffSeed order: HMB 1, Slob 2, DK 3, Duckhook 4, El Niño 5, Chins 6, Chili 7. Next: Snake 8, Red 9, LLC 10, ObiWan 11, Mud 12. Seven berths; a seed is not a clinch.",
+        "source_stage": "PROVIDER_VERIFIED_NO_CLINCH_CLAIMS",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "vfx_pipeline",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "Archive clerk's straightedge crossing exactly seventh official berth",
+        "composition": "Eye-level across wide twelve-row standings register",
+        "weather_light": "Institutional lamp grazes straightedge and ledger figures",
+        "preserve": "Official ESPN record and tiebreak date, all 12 teams",
+        "intended_page_turn": "Official order hands off to geographic Roads Between",
+        "native_and_phone_visual_check": "7th rank/digits never covered by prop",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-LEAGUE-ARCHIVE"
+        ],
+        "scene_binding": null,
+        "venue_status": "EXPLICIT_PARENT",
+        "location_restrictions": "The archive clerk maintains the register. Specific shelf or room unassigned.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F07.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F07.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F08",
+      "reading_position": 8,
+      "final_page_headline": "The roads between",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "On Hearthroad, a white chip of gravel moves between sweeps of a wiper. At Mountain Lake, a cart wheel waits on a strip of polished stone.",
+      "reader_copy_words": 26,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Carry the storm from Hearthroad wheel to Mountain Lake bridge wheel with distinct locations and physically consistent drainage. Six venue references remain separate cinematic-approval holds.",
+        "source_stage": "STRUCTURAL_PREVIS_CAN_PROCEED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "sound_motion",
+        "support": [
+          "editing",
+          "unit_stills"
+        ],
+        "concept": "Jordan's moving wiper gravel chip echoes the carter's still cart wheel",
+        "composition": "Matched-cut two-location image or sequential split with clear different backdrops",
+        "weather_light": "Upper Valleys rain, distinct local reflected surfaces",
+        "preserve": "Hearthroad and Mountain Lake Bridge physically SEPARATE, no invented route",
+        "intended_page_turn": "From records into first scene G01 with familiar wheel",
+        "native_and_phone_visual_check": "At thumbnail reader sees two sites not one teleport",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-SLOB-FOOTHILL-CAMP",
+          "LOC-BRIDGE-MOUNTAIN-LAKE"
+        ],
+        "scene_binding": null,
+        "venue_status": "TWO_SELECTED_FEATURES",
+        "location_restrictions": "Crosscut the rain at the rut with the intact span; preserve two distinct features.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true,
+        "current_generated_candidate_status": "UNAPPROVED_SCENIC_STUDY__RENDER_FROM_CLEAN_SOURCE"
+      }
+    },
+    {
+      "internal_folio_id": "F09",
+      "reading_position": 9,
+      "final_page_headline": "After you, Austin",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Week 11 Game of the Week · His Majesty’s Blood at D0nkey K0ng\n\nWilson made room on the wet bridge. “After you, Austin.”\n\nThe carter loosened his reins. For a moment he thought the courtesy might extend to him.",
+      "reader_copy_words": 39,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G01",
+        "selected_instruction": "HMB wins 168.20–129.75. Wilson's theatrical lane offer and waiting carter remain the opening action. Show the intact rain-slick bridge, four hooves, belt, one wind direction; no winner blow yet.",
+        "source_stage": "FINAL_SCORE_SELECTED_VISUAL_REFERENCE_HOLD",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "The cart was there before either warrior. Its left wheel stood on the damp stone beside the same working lantern that had burned over the Mountain Lake crossing the week before, while the carter kept the reins close and listened to the lake batter the pier. Across the narrow deck, Wilson Look stepped carefully into the roadway, four equine hooves carrying one immense Arsenal-armored gorilla torso. Wind pulled against the cart’s canopy, the crimson edges of Austin Byars’ cloak and the leaves caught in Wilson’s armored greaves. Wilson moved sideways, gracious enough to be insulting. “After you, Austin.” His smile claimed the bridge as a personal gift. Austin’s hand found the Belt Keeper’s buckle; he looked at the gap Wilson had opened, then past it at the worker who had never been asked. No one laughed when the carter shifted the reins.",
+      "selected_performance_register": {
+        "folio": "F09",
+        "scene": "G01",
+        "title": "After you, Austin",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Carter-wheel foreground, intact bridge lantern, Wilson's four visible hooves with Austin's black armor/red cloak and Belt Keeper badge in view.",
+        "emotional_performance": "Wilson's elaborate lane offer is not charity. Keep waiting worker's eyeline.",
+        "preferred_author_dialogue": "After you, Austin.",
+        "source_constraints": "No old river gorge, no selected winner fall yet.",
+        "production_lead": "production_design",
+        "supporting_disciplines": [
+          "stunt_blocking",
+          "character_vfx"
+        ],
+        "camera": "Low carter-wheel foreground to full four-hoof centaur on intact bridge",
+        "weather": "Local crosswind whips cloak, wagon cover and leaves together",
+        "phone_QA": "All four hooves visible, one body, no biped",
+        "live_tldraw_target_shape": "shape:w11-os-f09",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G01"
+      },
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "stunt_blocking",
+          "character_vfx"
+        ],
+        "concept": "Wilson's theatrical courtesy forces Austin to consider a waiting carter",
+        "composition": "Low carter-wheel foreground to full four-hoof centaur on intact bridge",
+        "weather_light": "Local crosswind whips cloak, wagon cover and leaves together",
+        "preserve": "Belt, lantern, lake both sides, cart's permitted passage",
+        "intended_page_turn": "Establish right of way before combat",
+        "native_and_phone_visual_check": "All four hooves visible, one body, no biped",
+        "source_identity_refs": [
+          "CHAR-WILSON-LOOK",
+          "CHAR-AUSTIN-BYARS"
+        ],
+        "named_places": [
+          "LOC-BRIDGE-MOUNTAIN-LAKE"
+        ],
+        "scene_binding": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Open on the intact deck and both approaches.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G01",
+        "venue": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "feature": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_primary": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_primary": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+            "primary_in_issue_tree": true,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": {
+          "path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+          "git_blob": "40f43b2720411c9762d12c8991d4319893e96f0f",
+          "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade"
+        }
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F10",
+      "reading_position": 10,
+      "final_page_headline": "He was here before us",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "His Majesty’s Blood at D0nkey K0ng\n\n“He was here before us,” Austin said.\n\nWilson heard him over the rain. When their steel met, Austin held his footing. Four hooves slid toward the parapet.",
+      "reader_copy_words": 33,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G01",
+        "selected_instruction": "Austin notices the ordinary carter's right of way, steadies on wet stone and lands the decisive HMB-winning strike. Wilson's hoof slide is physically caused; his Arsenal gorilla-centaur body remains ONE body with four hooves.",
+        "source_stage": "FINAL_SCORE_SELECTED_WILSON_SOURCE_HOLD",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "“He was here before us,” Austin said. He did not shout above the squall; Wilson heard him anyway. For an instant the champion’s attention was not on his opponent but on the ordinary man and the wagon whose safe passage mattered less to Wilson than making Austin bow. A slick hoof sounded against the worn center stones, caught, and shifted again. The carter saw that too. Austin waited until the cart’s path was visible, then moved toward Wilson. Steel met steel as the wind drove rain between them. The strike that settled their quarrel belonged to Austin, not to the weather. Its force threw Wilson’s weight backward; the footing he had so ostentatiously controlled gave way beneath four skidding hooves. Keep the parapet, lake and cart in the same geographic orientation as F09.",
+      "selected_performance_register": {
+        "folio": "F10",
+        "scene": "G01",
+        "title": "He was here before us",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Reverse over Austin toward carter and Wilson; illustrate wet traction failure before the source-locked champion strike.",
+        "emotional_performance": "Austin chooses the ordinary worker over Wilson's demand for public deference.",
+        "preferred_author_dialogue": "He was here before us.",
+        "source_constraints": "Only Austin wins the real fantasy contest; Wilson is one four-legged body.",
+        "production_lead": "stunt_blocking",
+        "supporting_disciplines": [
+          "pose_silhouette",
+          "unit_stills"
+        ],
+        "camera": "Reverse from Austin's crimson cloak to Wilson, with waiting worker clear behind",
+        "weather": "Rain-glazed stones, one hoof catching traction, same lantern and crosswind",
+        "phone_QA": "Believable carter side and hoof placement",
+        "live_tldraw_target_shape": "shape:w11-os-f10",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G01"
+      },
+      "camera_scene_and_design": {
+        "lead": "stunt_blocking",
+        "support": [
+          "pose_silhouette",
+          "unit_stills"
+        ],
+        "concept": "Austin says the cart has priority as Wilson shifts on slick stone",
+        "composition": "Reverse from Austin's crimson cloak to Wilson, with waiting worker clear behind",
+        "weather_light": "Rain-glazed stones, one hoof catching traction, same lantern and crosswind",
+        "preserve": "HMB belt stays Austin; no premature victory blow",
+        "intended_page_turn": "Traction detail motivates result-specific later fall",
+        "native_and_phone_visual_check": "Believable carter side and hoof placement",
+        "source_identity_refs": [
+          "CHAR-WILSON-LOOK",
+          "CHAR-AUSTIN-BYARS"
+        ],
+        "named_places": [
+          "LOC-BRIDGE-MOUNTAIN-LAKE"
+        ],
+        "scene_binding": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Hold the middle of the crossing while the carter waits.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G01",
+        "venue": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "feature": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_primary": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_primary": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+            "primary_in_issue_tree": true,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": {
+          "path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+          "git_blob": "40f43b2720411c9762d12c8991d4319893e96f0f",
+          "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade"
+        }
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F11",
+      "reading_position": 11,
+      "final_page_headline": "The carter listens",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "The carter listened until Wilson broke the surface, coughing. Only then did Austin reach for the cap. “My jester.” One wet bell clunked on the swim home.\n\nHis Majesty’s Blood 168.20 · D0nkey K0ng 129.75",
+      "reader_copy_words": 35,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G01",
+        "selected_instruction": "Selected HMB-victory ending: Wilson skids off the intact bridge into rough Mountain Lake and resurfaces alive, watched by Austin and carter. NO river rapids, no death, no bridge destruction.",
+        "source_stage": "SELECTED_SURVIVOR_ENDING_WILSON_SOURCE_HOLD",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Where Wilson had stood there was a space and a scream of lake spray. His armored bulk went over the intact bridge into the storm-chopped water below. Austin took one step toward the edge, still wearing his belt, and stopped. The carter held his reins so tightly the leather creaked. The moment felt longer than the duel. Then a dark Arsenal head broke through the chop, coughing, alive, fighting toward a plausible bank. Austin’s relief arrived before his pride; the carter saw both. If the existing jester-cap motif appears, it may fall afterward as a small, rueful sign of rivalry, never as a rescue device or victorious punch line during the fear. **HMB won by 38.45 points; Wilson lives.** The bridge remains passable. This scene uses Mountain Lake foam and spray, not invented directional rapids.",
+      "selected_performance_register": {
+        "folio": "F11",
+        "scene": "G01",
+        "title": "The carter listens",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "From carter height show intact parapet, storm-chopped LAKE, Austin's immediate concern and recognizable Wilson resurfacing ALIVE.",
+        "emotional_performance": "Hold on the feared silence until life returns before any possible subdued jester-cap coda.",
+        "preferred_author_dialogue": "",
+        "source_constraints": "No river rapids, bridge destruction, death or missing 4-legged source warning.",
+        "production_lead": "unit_stills",
+        "supporting_disciplines": [
+          "stunt_blocking",
+          "character_vfx"
+        ],
+        "camera": "Carter-level low shot into living survivor and intact parapet",
+        "weather": "Whitecaps and spray; avoid directional river rapids",
+        "phone_QA": "Clear living head, correct loser, no death/wrecked bridge",
+        "live_tldraw_target_shape": "shape:w11-os-f11",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G01"
+      },
+      "camera_scene_and_design": {
+        "lead": "unit_stills",
+        "support": [
+          "stunt_blocking",
+          "character_vfx"
+        ],
+        "concept": "Loser survives in wind-driven rough Mountain Lake, carter and winner watch",
+        "composition": "Carter-level low shot into living survivor and intact parapet",
+        "weather_light": "Whitecaps and spray; avoid directional river rapids",
+        "preserve": "HMB win Wilson slips after strike; DK win Austin falls with belt; tie both stay bridge",
+        "intended_page_turn": "After public duel, soundless survivor and worried onlookers",
+        "native_and_phone_visual_check": "Clear living head, correct loser, no death/wrecked bridge",
+        "source_identity_refs": [
+          "CHAR-WILSON-LOOK",
+          "CHAR-AUSTIN-BYARS"
+        ],
+        "named_places": [
+          "LOC-BRIDGE-MOUNTAIN-LAKE"
+        ],
+        "scene_binding": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Let the carter hear the water before he can see the swimmer.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G01",
+        "venue": "LOC-BRIDGE-MOUNTAIN-LAKE",
+        "feature": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_primary": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_primary": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+            "primary_in_issue_tree": true,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": {
+          "path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+          "git_blob": "40f43b2720411c9762d12c8991d4319893e96f0f",
+          "sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade"
+        }
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F12",
+      "reading_position": 12,
+      "final_page_headline": "Six. I told her six.",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "El Niño at Slob on my Dobb\n\nThe delivery slip under the visor had curled in the damp. Manning watched pale gravel move below Jordan’s window. “What time do they expect it?” Jordan looked up at the slip. “Six. I told her six.”",
+      "reader_copy_words": 43,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G02",
+        "selected_instruction": "Slob wins the fantasy game narrowly, 138.86–134.60. At Hearthroad the six-o'clock delivery promise and Manning's first weather pressure remain; no outcome fact teleports the truck.",
+        "source_stage": "FINAL_SCORE_SELECTED_SOURCE_STAGE_OK",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "The slip beneath Jordan Hollingshead’s visor had curled in the damp, but the one word on it still read SIX. The covered beer load behind the familiar SAME SPEED truck made a dull, rhythmic weight against the straps. Manning Welty stood at the Hearthroad driver’s window watching fine pale gravel move in the first runoff. “What time do they expect it?” he asked. Jordan looked at the slip before he looked at Manning. “Six. I told her six.” He could make a promise in seconds; the weather would take much longer to answer it. The red-cord opener clicked against the dash as Jordan lowered the window and tried to see how deep the first rut had become. Manning was still there when Jordan started the engine. He does **not** later appear magically on a separate swamp road.",
+      "selected_performance_register": {
+        "folio": "F12",
+        "scene": "G02",
+        "title": "Six. I told her six.",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Hearthroad cab and truck SAME SPEED mark, red-cord opener, six-o'clock slip and Manning at the window; rainwater gravel moves downhill.",
+        "emotional_performance": "Jordan measures his obligation; Manning notices weather without foreknowledge of a distant spill.",
+        "preferred_author_dialogue": "Six. I told her six.",
+        "source_constraints": "Keep trailer cargo/straps and Week10 truck source, no teleport.",
+        "production_lead": "environment_design",
+        "supporting_disciplines": [
+          "environment_design",
+          "stunt_blocking"
+        ],
+        "camera": "Truck cab three-quarter through glass, slip under visor and radio in depth",
+        "weather": "Upland wet wiper/gravel runoff, red opener tapping dash",
+        "phone_QA": "Slip SIX and occupants identifiable at 390px",
+        "live_tldraw_target_shape": "shape:w11-os-f12",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G02"
+      },
+      "camera_scene_and_design": {
+        "lead": "environment_design",
+        "support": [
+          "environment_design",
+          "stunt_blocking"
+        ],
+        "concept": "Jordan's six-o'clock beer obligation with Manning physically at his window",
+        "composition": "Truck cab three-quarter through glass, slip under visor and radio in depth",
+        "weather_light": "Upland wet wiper/gravel runoff, red opener tapping dash",
+        "preserve": "Week10 original SAME SPEED truck, kegs secured under canvas",
+        "intended_page_turn": "Travel ellipsis BEFORE any later swamp access",
+        "native_and_phone_visual_check": "Slip SIX and occupants identifiable at 390px",
+        "source_identity_refs": [
+          "CHAR-JORDAN-HOLLINGSHEAD",
+          "CHAR-MANNING-WELTY"
+        ],
+        "named_places": [
+          "LOC-SLOB-FOOTHILL-CAMP"
+        ],
+        "scene_binding": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Inside the cab, show the rut and cargo handoff.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G02",
+        "venue": "LOC-SLOB-FOOTHILL-CAMP",
+        "feature": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+            "registered_primary": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-MANNING-WELTY",
+            "registered_primary": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F13",
+      "reading_position": 13,
+      "final_page_headline": "The radio call",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "The second lash slipped. Jordan counted two kegs in the mirror and braked. For a moment he held the radio without speaking. “Two came off. I’m stopping here and checking the ground before I move.”\n\nSlob on my Dobb 138.86 · El Niño 134.60",
+      "reader_copy_words": 44,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G02",
+        "selected_instruction": "Selected Slob-victory recovery branch: secondary strap loosens, exactly TWO kegs fall by gravity, Jordan anticipates washed edge, stabilizes truck, calls taproom and arranges safe retrieval/accounting. Remaining beer stays secured. Loaded-truck wetland access remains Atlas HOLD.",
+        "source_stage": "FINAL_ENDING_SELECTED_TRUCK_ACCESS_HOLD",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Some distance after that departure, on a proposed later wetland approach whose loaded-truck access still requires Atlas acceptance, a gust got under the canvas. Jordan had kept the main straps tight; one **secondary** lash, already beating against a metal ring, slipped free. Two heavy kegs left the trailer, hit the wet surface with real mass and rolled toward the shallow roadside flood. The others stayed secured. Jordan watched the nearer keg cross his mirror and caught the washout at the edge of the rear wheel’s track. He braked before the vehicle followed its cargo. The engine shook. So did his hand, very slightly, when he reached for the radio. “I’ve got most of it,” he said after a pause. “Two came off. I’m stopping here and checking the ground before I move.” Whoever was listening at the taproom heard a driver explaining what had happened, not claiming an impossible arrival time. Jordan marked where the two had fallen and arranged a safe recovery or accounting before continuing. **Slob won by 4.26 points**, but the narrowness should live in Jordan’s small recovered margin of control, not in a cliff-hanging truck wreck.",
+      "selected_performance_register": {
+        "folio": "F13",
+        "scene": "G02",
+        "title": "The radio call",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "One physically plausible wide captures SECONDARY tie loosening and exactly TWO heavy beer kegs falling; rear wheel remains recoverable as Jordan brakes.",
+        "emotional_performance": "Jordan controls the aftermath responsibly, radioing what actually happened and accounting for cargo.",
+        "preferred_author_dialogue": "I've got most of it. Two came off.",
+        "source_constraints": "Atlas loaded-truck wetland road still HOLD; no magically flying kegs or completed delivery claim.",
+        "production_lead": "stunt_blocking",
+        "supporting_disciplines": [
+          "environment_design",
+          "unit_stills"
+        ],
+        "camera": "Single road-wide from safe side shows strap, two keg gravity paths, rear axle and Jordan's brake",
+        "weather": "Wetland rain and wind with real trailer scale, no magically airborne steel kegs",
+        "phone_QA": "Two keg count, unchanged trailer/paint/strap; no result claim",
+        "live_tldraw_target_shape": "shape:w11-os-f13",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G02"
+      },
+      "camera_scene_and_design": {
+        "lead": "stunt_blocking",
+        "support": [
+          "environment_design",
+          "unit_stills"
+        ],
+        "concept": "Violent gust loosens secondary beer tie, TWO kegs tumble off trailer",
+        "composition": "Single road-wide from safe side shows strap, two keg gravity paths, rear axle and Jordan's brake",
+        "weather_light": "Wetland rain and wind with real trailer scale, no magically airborne steel kegs",
+        "preserve": "Route extension only after Atlas truck-access acceptance; remaining load tied",
+        "intended_page_turn": "Road hazard causes honest radio response without inventing Manning at swamp",
+        "native_and_phone_visual_check": "Two keg count, unchanged trailer/paint/strap; no result claim",
+        "source_identity_refs": [
+          "CHAR-JORDAN-HOLLINGSHEAD",
+          "CHAR-MANNING-WELTY"
+        ],
+        "named_places": [
+          "LOC-SLOB-FOOTHILL-CAMP"
+        ],
+        "scene_binding": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Use the radio at the same rut. The recipient can respond offscreen.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G02",
+        "venue": "LOC-SLOB-FOOTHILL-CAMP",
+        "feature": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+            "registered_primary": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-MANNING-WELTY",
+            "registered_primary": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": true,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F14",
+      "reading_position": 14,
+      "final_page_headline": "Off the board",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "The Chili Cheesers at ObiWan Jacoby\n\nTwo fans passed the OFF BOARD notice arguing about somebody else’s game. “We could’ve argued about who he made the underdog all the way up here,” Brandon said. Jake reached for the microphone. “Listen to them. That could’ve been our game.”",
+      "reader_copy_words": 47,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G03",
+        "selected_instruction": "Chili wins 133.52–83.79; Brandon and Jake still complain that their matchup was OFF BOARD in the House notice. Recovered black rodeo hat and rain-drenched Eastern Ascent carnival retained.",
+        "source_stage": "FINAL_SCORE_SELECTED_HOUSE_OFF_BOARD_HISTORICAL",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Rain pressed the public carnival into the foot of the Eastern Ascent, pooling at the microphone stand and running down the edges of Pittsy’s November 19 sheet. Brandon Pryor found the line for The Chili Cheesers and ObiWan Jacoby, then found no number beside it: **OFF BOARD**. Two people nearby were already debating a different House market. “We could’ve argued about who he made the underdog all the way up here,” Brandon told Jake Kaloper. Jake looked past the notice at the uphill crowd. “Listen to them. That could’ve been our game.” He reached for the microphone, and people who had ignored them started to turn. Brandon’s recovered black rodeo hat, lost to mud in Week 10, gathered drops of water along the brim. There was an audience now; Jake had invited it.",
+      "selected_performance_register": {
+        "folio": "F14",
+        "scene": "G03",
+        "title": "Off the board",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Rain-wet OFF BOARD notice legible near carnival mic, Brandon with recovered black Week10 hat and Jake demanding an audience.",
+        "emotional_performance": "Brandon wanted an underdog line; Jake wanted the watching crowd.",
+        "preferred_author_dialogue": "That could've been our game.",
+        "source_constraints": "PUBLIC carnival, not Jake's private After Dark shack; no House betting price invented.",
+        "production_lead": "production_design",
+        "supporting_disciplines": [
+          "performance",
+          "character_vfx"
+        ],
+        "camera": "Wet House sheet and two distinct owner reactions, crowd crossing behind mic",
+        "weather": "Visible rain and upland gust through carnival lamps",
+        "phone_QA": "OFF BOARD readable, not printed betting line",
+        "live_tldraw_target_shape": "shape:w11-os-f14",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G03"
+      },
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "performance",
+          "character_vfx"
+        ],
+        "concept": "Brandon and Jake notice Pittsy made their matchup OFF BOARD",
+        "composition": "Wet House sheet and two distinct owner reactions, crowd crossing behind mic",
+        "weather_light": "Visible rain and upland gust through carnival lamps",
+        "preserve": "Exact House sheet; recovered Brandon black rodeo hat",
+        "intended_page_turn": "Crowd grievance leads to voluntary dunk challenge",
+        "native_and_phone_visual_check": "OFF BOARD readable, not printed betting line",
+        "source_identity_refs": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-BRANDON-PRYOR"
+        ],
+        "named_places": [
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        ],
+        "scene_binding": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Keep both rivals below the uphill spectators, outside the private shack.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G03",
+        "venue": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "feature": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_primary": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_primary": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": {
+          "manifest": {
+            "path": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+            "git_blob": "06f038a2051ec21918c6b3dae668b73718dc506b"
+          },
+          "approval_date": "2026-10-22",
+          "preferred_presentation": true,
+          "local_image_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+          "requested_repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+          "present_in_issue_tree": false,
+          "render_mount": "UNVERIFIED"
+        }
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true,
+        "current_generated_candidate_status": "REJECTED__RENDER_FROM_CLEAN_SOURCE"
+      }
+    },
+    {
+      "internal_folio_id": "F15",
+      "reading_position": 15,
+      "final_page_headline": "The safest seat",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "The Chili Cheesers at ObiWan Jacoby\n\nFrom the Wolf Brand Chili seat Jake called, “Safest place to stand is right behind the target.” Brandon turned the ball in his hand. “Sit tight.” One throw. The seat dropped.",
+      "reader_copy_words": 37,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G03",
+        "selected_instruction": "Brandon lands ONE skilled throw without wind assist; willing Jake drops into thick Wolf Brand Chili NO BEANS. Show target-hinge continuity, submerged face and palm; rainfall stays outside tank.",
+        "source_stage": "RESULT_INDEPENDENT_DUNK_SELECTED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Jake climbed onto the hinged seat above the Wolf Brand Chili **NO BEANS** tank as though he had rented the carnival for his own amusement. “Brandon played D5 quarterback in Texas, folks,” he told the microphone—an in-universe heckle, not a verified school biography. “Safest place to stand is right behind the target.” He grinned down at Brandon and asked whether he should run a slant. Brandon turned one ball in his palm. “Sit tight.” In the source-grounded axis of ball, target and hinge, **one accurate throw** found the painted mark. The seat dropped; Jake fell into thick red-brown chili rather than rainwater, and the microphone gave a wet pop. Through the glass his palm met the pane. The crowd became muffled motion above him, and the comedy acquired a full, silent breath of vulnerability.",
+      "selected_performance_register": {
+        "folio": "F15",
+        "scene": "G03",
+        "title": "The safest seat",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Camera on axis ball → target → hinged seat → CHILI tank; Brandon ONE throw; Jake's palm and face visible UNDER thick chili.",
+        "emotional_performance": "Comedy turns silent inside the tank; wet rain outside is a separate material.",
+        "preferred_author_dialogue": "Sit tight.",
+        "source_constraints": "Jake—not Brandon—is submerged; Wolf Brand Chili NO BEANS accurate lettering.",
+        "production_lead": "character_vfx",
+        "supporting_disciplines": [
+          "unit_stills",
+          "pose_silhouette"
+        ],
+        "camera": "Near-target axis that leaves transparent tank window and Jake face readable",
+        "weather": "Rain outside in carnival light, thick chili red-brown separately lit",
+        "phone_QA": "Accurate single throw; facial palm visible, not cropped",
+        "live_tldraw_target_shape": "shape:w11-os-f15",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G03"
+      },
+      "camera_scene_and_design": {
+        "lead": "character_vfx",
+        "support": [
+          "unit_stills",
+          "pose_silhouette"
+        ],
+        "concept": "Brandon's ONE throw hits target, Jake is submerged in actual chili",
+        "composition": "Near-target axis that leaves transparent tank window and Jake face readable",
+        "weather_light": "Rain outside in carnival light, thick chili red-brown separately lit",
+        "preserve": "Wolf Brand Chili NO BEANS can, hinged seat; splash as physically possible",
+        "intended_page_turn": "From boast to silent underwater expression",
+        "native_and_phone_visual_check": "Accurate single throw; facial palm visible, not cropped",
+        "source_identity_refs": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-BRANDON-PRYOR"
+        ],
+        "named_places": [
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        ],
+        "scene_binding": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Keep the dunk tank and the watching crowd at the public footpath.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G03",
+        "venue": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "feature": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_primary": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_primary": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": {
+          "manifest": {
+            "path": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+            "git_blob": "06f038a2051ec21918c6b3dae668b73718dc506b"
+          },
+          "approval_date": "2026-10-22",
+          "preferred_presentation": true,
+          "local_image_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+          "requested_repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+          "present_in_issue_tree": false,
+          "render_mount": "UNVERIFIED"
+        }
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true,
+        "current_generated_candidate_status": "REJECTED__RENDER_FROM_CLEAN_SOURCE"
+      }
+    },
+    {
+      "internal_folio_id": "F16",
+      "reading_position": 16,
+      "final_page_headline": "At the ladder",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Rain rolled off Brandon’s hat. Chili clung to both of Jake’s boots. “I thought we were going back,” Jake said. Brandon waited at the ladder.\n\nThe Chili Cheesers 133.52 · ObiWan Jacoby 83.79",
+      "reader_copy_words": 33,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G03",
+        "selected_instruction": "Chili's 49.73-point victory heightens Jake's public humiliation: Jake emerges chili-covered from hair to BOTH boots, Brandon holds his hat. ObiWan falls to 4–7; playoff elimination NOT certified.",
+        "source_stage": "FINAL_SCORE_SELECTED_NO_UNVERIFIED_ELIMINATION",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Jake’s hair broke the surface first, then his face, then his robe and both boots on the lower ladder rungs—all coated in heavy chili while clean rain still struck from above. He tried to wipe his eyes with his sleeve and only spread the mess. Brandon was beside the ladder before the crowd finished cheering. He had the hat in one hand and nothing clever left to say. The board announced The Chili Cheesers **133.52**, ObiWan Jacoby **83.79**. “I thought we were going back,” Jake said, quietly enough to miss the microphone. Brandon stayed where he was. The 49.73-point defeat hurt; it did **not** certify elimination. The refreshed TheFFHub model places ObiWan’s playoff probability at **12.88%** entering the three divisional weeks. The humiliation belongs to this public carnival, not Jake’s separate After Dark shack.",
+      "selected_performance_register": {
+        "folio": "F16",
+        "scene": "G03",
+        "title": "At the ladder",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Full vertical ladder portrait with Jake's face and BOTH boots dripping thick chili, Brandon and his black hat at edge, rain falling.",
+        "emotional_performance": "Dramatic joke fades into Brandon's quiet concern and Jake's playoff anxiety.",
+        "preferred_author_dialogue": "I thought we were going back.",
+        "source_constraints": "Chili wins by 49.73; ObiWan model 12.88%, no clinched elimination.",
+        "production_lead": "pose_silhouette",
+        "supporting_disciplines": [
+          "performance",
+          "character_vfx"
+        ],
+        "camera": "Full-length side lens at ladder with negative space for quiet coda",
+        "weather": "Rain highlights wet clothing while thicker chili clings to hair and robe",
+        "phone_QA": "Jake face & both boots simultaneously at 390px",
+        "live_tldraw_target_shape": "shape:w11-os-f16",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G03"
+      },
+      "camera_scene_and_design": {
+        "lead": "pose_silhouette",
+        "support": [
+          "performance",
+          "character_vfx"
+        ],
+        "concept": "Jake climbs ladder head to BOTH chili-coated boots, Brandon near him",
+        "composition": "Full-length side lens at ladder with negative space for quiet coda",
+        "weather_light": "Rain highlights wet clothing while thicker chili clings to hair and robe",
+        "preserve": "No belt for ObiWan, Brandon hat source, same tank orientation",
+        "intended_page_turn": "From humiliating dunk to result-gated playoff worry",
+        "native_and_phone_visual_check": "Jake face & both boots simultaneously at 390px",
+        "source_identity_refs": [
+          "CHAR-JAKE-KALOPER",
+          "CHAR-BRANDON-PRYOR"
+        ],
+        "named_places": [
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        ],
+        "scene_binding": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "The ladder belongs to this staging; a season result selects the coda.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G03",
+        "venue": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+        "feature": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_primary": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_primary": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": {
+          "manifest": {
+            "path": "canon/characters/CHAR-BRANDON-PRYOR/COMMISSIONER_APPEARANCE_LOCK_2026_10_22.json",
+            "git_blob": "06f038a2051ec21918c6b3dae668b73718dc506b"
+          },
+          "approval_date": "2026-10-22",
+          "preferred_presentation": true,
+          "local_image_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+          "requested_repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+          "present_in_issue_tree": false,
+          "render_mount": "UNVERIFIED"
+        }
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F17",
+      "reading_position": 17,
+      "final_page_headline": "Pick a side",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Red Leopards at Three Dreaded Snake\n\n“Race you to the dry stone,” Kevin said. Phillip turned all three heads toward the clearing. “You sure you want the short way?” Kevin grinned. “I usually do.”",
+      "reader_copy_words": 34,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G04",
+        "selected_instruction": "Kevin Zeek stopped at the break in the vegetation. Rain had erased the easy-looking path, leaving roots slick and mud deep enough to steal a stride. Last week he had watched water undo his own defenses. He was not about to let Phillip see him hesitate. 'Race you to the dry stone.' Phillip Pitts turned all three heads toward the opening. 'You sure you want the short way?' Kevin grinned. 'I usually do.' He took the direct approach; Phillip followed the longer, firmer edge of the same visitor-side clearing.",
+        "source_stage": "FINAL_WINNER_SELECTED_SPORT_PROPOSED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Kevin Zeek stopped at the break in the vegetation. Rain had erased the easy-looking path, leaving roots slick and mud deep enough to steal a stride. Last week he had watched water undo his own defenses. He was not about to let Phillip see him hesitate. 'Race you to the dry stone.' Phillip Pitts turned all three heads toward the opening. 'You sure you want the short way?' Kevin grinned. 'I usually do.' He took the direct approach; Phillip followed the longer, firmer edge of the same visitor-side clearing.",
+      "selected_performance_register": {
+        "folio": "F17",
+        "scene": "G04",
+        "title": "Pick a side",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Low wide: Kevin chooses direct muddy approach; Phillip observes firm edge, one body three heads.",
+        "emotional_performance": "Kevin’s speed loses to Phillip’s local knowledge; rivalry ends with dry wit.",
+        "preferred_author_dialogue": "Race you to the dry stone.",
+        "source_constraints": "No bounty costume or bag. Visitor-side clearing only; informal challenge proposed, no World promotion. One body, three heads.",
+        "production_lead": "environment_design",
+        "supporting_disciplines": [
+          "production_design",
+          "character_vfx"
+        ],
+        "camera": "Low wide: Kevin chooses direct muddy approach; Phillip observes firm edge, one body three heads.",
+        "weather": "Heavy jungle rain and windswept large leaves; mud tracks show grade",
+        "phone_QA": "Low wide: Kevin chooses direct muddy approach; Phillip observes firm edge, one body three heads.",
+        "live_tldraw_target_shape": "shape:w11-os-f17",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G04"
+      },
+      "camera_scene_and_design": {
+        "lead": "environment_design",
+        "support": [
+          "production_design",
+          "character_vfx"
+        ],
+        "concept": "Kevin Zeek stopped at the break in the vegetation. Rain had erased the easy-looking path, leaving roots slick and mud deep enough to steal a stride. Last week he had watched water undo his own defenses. He was not about to let Phillip see him hesitate. 'Race you to the dry stone.' Phillip Pitts turned all three heads toward the opening. 'You sure you want the short way?' Kevin grinned. 'I usually do.' He took the direct approach; Phillip followed the longer, firmer edge of the same visitor-side clearing.",
+        "composition": "Low wide: Kevin chooses direct muddy approach; Phillip observes firm edge, one body three heads.",
+        "weather_light": "Heavy jungle rain and windswept large leaves; mud tracks show grade",
+        "preserve": "No bounty costume or bag. Visitor-side clearing only; informal challenge proposed, no World promotion. One body, three heads.",
+        "intended_page_turn": "A physically legible course precedes uncertain finish",
+        "native_and_phone_visual_check": "Low wide: Kevin chooses direct muddy approach; Phillip observes firm edge, one body three heads.",
+        "source_identity_refs": [
+          "CHAR-PHILLIP-PITTS",
+          "CHAR-KEVIN-ZEEK"
+        ],
+        "named_places": [
+          "LOC-TDS-WATERFALL-TEMPLE"
+        ],
+        "scene_binding": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Kevin Zeek stopped at the break in the vegetation. Rain had erased the easy-looking path, leaving roots slick and mud deep enough to steal a stride. Last week he had watched water undo his own defenses. He was not about to let Phillip see him hesitate. 'Race you to the dry stone.' Phillip Pitts turned all three heads toward the opening. 'You sure you want the short way?' Kevin grinned. 'I usually do.' He took the direct approach; Phillip followed the longer, firmer edge of the same visitor-side clearing.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G04",
+        "venue": "LOC-TDS-WATERFALL-TEMPLE",
+        "feature": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-PHILLIP-PITTS",
+            "registered_primary": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+            "primary_in_issue_tree": true,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-KEVIN-ZEEK",
+            "registered_primary": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F18",
+      "reading_position": 18,
+      "final_page_headline": "The dry stone",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Phillip was waiting on the stone by the time Kevin got free of the mud. “You should see me on dry ground.” Phillip glanced down. “All three of us would love to.”\n\nThree Dreaded Snake 125.74 · Red Leopards 94.80",
+      "reader_copy_words": 40,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G04",
+        "selected_instruction": "Kevin had the first few strides. Then the mud caught his foot and he had to steady himself against a root. Across the clearing Phillip kept moving, one head watching the ground, another tracking Kevin, the third fixed on the sheltered stone. When Kevin reached it, Phillip was already waiting. Kevin looked down at his muddy legs. 'You should see me on dry ground.' Phillip glanced at the stone beneath them. 'All three of us would love to.' Kevin laughed despite himself. The Snake had won on his own ground, 125.74 to 94.80.",
+        "source_stage": "SNAKE_WIN_NO_COSTUME_OR_BAG",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Kevin had the first few strides. Then the mud caught his foot and he had to steady himself against a root. Across the clearing Phillip kept moving, one head watching the ground, another tracking Kevin, the third fixed on the sheltered stone. When Kevin reached it, Phillip was already waiting. Kevin looked down at his muddy legs. 'You should see me on dry ground.' Phillip glanced at the stone beneath them. 'All three of us would love to.' Kevin laughed despite himself. The Snake had won on his own ground, 125.74 to 94.80.\n\n*Production:* A proposed informal challenge within the existing visitor-side clearing, not a new mapped route or institutional sport. One reptilian body, exactly three post-haircut heads. No hunting costume, bag, or private courtyard. Preserve storm and Week 10 continuity.",
+      "selected_performance_register": {
+        "folio": "F18",
+        "scene": "G04",
+        "title": "The dry stone",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Same clearing reverse: Phillip waits on sheltered stone; muddy Kevin arrives, both visible.",
+        "emotional_performance": "Kevin’s speed loses to Phillip’s local knowledge; rivalry ends with dry wit.",
+        "preferred_author_dialogue": "All three of us would love to.",
+        "source_constraints": "No bounty costume or bag. Visitor-side clearing only; informal challenge proposed, no World promotion. One body, three heads.",
+        "production_lead": "costume",
+        "supporting_disciplines": [
+          "environment_design",
+          "pose_silhouette"
+        ],
+        "camera": "Same clearing reverse: Phillip waits on sheltered stone; muddy Kevin arrives, both visible.",
+        "weather": "Rivulets and track continuity, small sheltered dry patch",
+        "phone_QA": "Same clearing reverse: Phillip waits on sheltered stone; muddy Kevin arrives, both visible.",
+        "live_tldraw_target_shape": "shape:w11-os-f18",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G04"
+      },
+      "camera_scene_and_design": {
+        "lead": "costume",
+        "support": [
+          "environment_design",
+          "pose_silhouette"
+        ],
+        "concept": "Kevin had the first few strides. Then the mud caught his foot and he had to steady himself against a root. Across the clearing Phillip kept moving, one head watching the ground, another tracking Kevin, the third fixed on the sheltered stone. When Kevin reached it, Phillip was already waiting. Kevin looked down at his muddy legs. 'You should see me on dry ground.' Phillip glanced at the stone beneath them. 'All three of us would love to.' Kevin laughed despite himself. The Snake had won on his own ground, 125.74 to 94.80.",
+        "composition": "Same clearing reverse: Phillip waits on sheltered stone; muddy Kevin arrives, both visible.",
+        "weather_light": "Rivulets and track continuity, small sheltered dry patch",
+        "preserve": "No bounty costume or bag. Visitor-side clearing only; informal challenge proposed, no World promotion. One body, three heads.",
+        "intended_page_turn": "Race and witness before optional costume portrait",
+        "native_and_phone_visual_check": "Same clearing reverse: Phillip waits on sheltered stone; muddy Kevin arrives, both visible.",
+        "source_identity_refs": [
+          "CHAR-PHILLIP-PITTS",
+          "CHAR-KEVIN-ZEEK"
+        ],
+        "named_places": [
+          "LOC-TDS-WATERFALL-TEMPLE"
+        ],
+        "scene_binding": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Kevin had the first few strides. Then the mud caught his foot and he had to steady himself against a root. Across the clearing Phillip kept moving, one head watching the ground, another tracking Kevin, the third fixed on the sheltered stone. When Kevin reached it, Phillip was already waiting. Kevin looked down at his muddy legs. 'You should see me on dry ground.' Phillip glanced at the stone beneath them. 'All three of us would love to.' Kevin laughed despite himself. The Snake had won on his own ground, 125.74 to 94.80.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G04",
+        "venue": "LOC-TDS-WATERFALL-TEMPLE",
+        "feature": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-PHILLIP-PITTS",
+            "registered_primary": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+            "primary_in_issue_tree": true,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-KEVIN-ZEEK",
+            "registered_primary": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F19",
+      "reading_position": 19,
+      "final_page_headline": "The wrong turn",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Seven Deadly Chins at Mud Dogs\n\n“Which way to Playoff Island?” Ben called from the truck. Bobby kept one paw on dry ground. With the other he pointed into the flood. “That stretch opens up.”",
+      "reader_copy_words": 35,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G05",
+        "selected_instruction": "Mud Dogs wins 151.26–117.66. Bobby KNOWINGLY directs Ben into a misleading, extraordinarily flooded track from a truly dry raised lip; empty stands LEFT, right Cancún card above water.",
+        "source_stage": "MUD_WIN_INTENTIONAL_MISDIRECTION",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "The Southern Wetlands flood had risen to the lower supports of the old Gators & Dawgs sign. The empty stands were on the **left**; the little Cancún postcard still held to the **right-hand** post above the water. Bobby Mitchell stood on a raised patch of truly dry ground, one clean paw in plain sight. His season had yielded only two victories before this week, and the card behind him advertised the future he was trying not to picture. Ben Whipple’s truck arrived with water washing over familiar wheel ruts. Ben opened his high window. “Which way to Playoff Island?” he asked. Bobby knew the safe ground; the angle of his paw proved it. He pointed the other way. “That stretch opens up.” The road he named only looked easy from Ben’s height. Bobby kept his eyes steady as the truck turned. He was **lying deliberately**, not issuing the truthful warning of a discarded earlier draft.",
+      "selected_performance_register": {
+        "folio": "F19",
+        "scene": "G05",
+        "title": "The wrong turn",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Flood mark on existing Gators & Dawgs sign supports, empty stands LEFT, Cancún card RIGHT and Bobby's paw safely DRY beside high truck window.",
+        "emotional_performance": "Bobby deliberately misdirects Ben away from the identifiable dry strip.",
+        "preferred_author_dialogue": "That stretch opens up.",
+        "source_constraints": "No truthful warning, no physical Playoff Island road, no catastrophic drowning.",
+        "production_lead": "environment_design",
+        "supporting_disciplines": [
+          "editing",
+          "unit_stills"
+        ],
+        "camera": "Low Bobby clean paw on last dry lip opposite tall truck window",
+        "weather": "Exceptional temporary flood up sign supports, empty stands LEFT, card RIGHT above water",
+        "phone_QA": "High-water reference and deceit unmistakable",
+        "live_tldraw_target_shape": "shape:w11-os-f19",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G05"
+      },
+      "camera_scene_and_design": {
+        "lead": "environment_design",
+        "support": [
+          "editing",
+          "unit_stills"
+        ],
+        "concept": "Bobby knowingly points Ben's high truck into dangerous swollen swamp",
+        "composition": "Low Bobby clean paw on last dry lip opposite tall truck window",
+        "weather_light": "Exceptional temporary flood up sign supports, empty stands LEFT, card RIGHT above water",
+        "preserve": "Original Gators & Dawgs lettering and ruts, provisional raised outpost",
+        "intended_page_turn": "Ben asks directions; Bobby chooses deception",
+        "native_and_phone_visual_check": "High-water reference and deceit unmistakable",
+        "source_identity_refs": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "named_places": [
+          "LOC-MUD-DOGS-SWAMP"
+        ],
+        "scene_binding": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Bobby knowingly points Ben's truck into a misleading high-water route while standing on the true dry raised lip. Old sign, left empty stands and above-water right Cancún card; provisional outpost only.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G05",
+        "venue": "LOC-MUD-DOGS-SWAMP",
+        "feature": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-BOBBY-MITCHELL",
+            "registered_primary": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-BEN-WHIPPLE",
+            "registered_primary": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F20",
+      "reading_position": 20,
+      "final_page_headline": "The road that comes back",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Ben caught the same sign in his headlights, this time from behind. He turned the truck around. Bobby smiled until the wind lifted the corner of his Cancún postcard.\n\nMud Dogs 151.26 · Seven Deadly Chins 117.66",
+      "reader_copy_words": 37,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G05",
+        "selected_instruction": "Ben recognizes repeated ruts and old sign, retreats safely; Bobby enjoys a brief spoiler's smirk before fearing his own Cancún postcard. Chins are 6–5, currently sixth seed, NOT officially eliminated.",
+        "source_stage": "MUD_WIN_NO_CHINS_ELIMINATION",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Ben found a curve in the water he thought he remembered. Then the same stand supports, the same bend of the sign and the same half-drowned ruts appeared again. Headlights caught the painted letters from the wrong side. The direction had brought him back toward the place he started, not toward any mapped Playoff Island road. He braked with enough firm track left to turn the truck safely, and understanding altered his expression before anger did. From his small outpost Bobby saw the turn and allowed himself one private smile. Mud Dogs had beaten Seven Deadly Chins **151.26–117.66**, his third win of the season. The smile faded when the Cancún postcard moved in the wind. One successful piece of spite had not turned his year into a championship year. And Ben was not eliminated: Chins remained **6–5**, ESPN’s sixth seed, with an estimated **68.87%** playoff probability and a crucial divisional matchup at El Niño ahead.",
+      "selected_performance_register": {
+        "folio": "F20",
+        "scene": "G05",
+        "title": "The road that comes back",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Ben sees repeated familiar sign/ruts through flood and retreats with safe ground left; separate deep-focus Bobby's brief smirk then postcard look.",
+        "emotional_performance": "Mud wins 151.26–117.66 but Bobby cannot evade his own season; Ben is not out of playoffs.",
+        "preferred_author_dialogue": "",
+        "source_constraints": "Seven Deadly Chins 6–5 and TheFFHub 68.87%; no Losers Beach arrival.",
+        "production_lead": "editing",
+        "supporting_disciplines": [
+          "environment_design",
+          "performance"
+        ],
+        "camera": "Ben's truck-height low wheel + separate distant outpost eyeline; no simultaneous teleport",
+        "weather": "Brown reflective flood and drifting reeds, safe retreat still visible",
+        "phone_QA": "Avoid official elimination claim and invented Island road",
+        "live_tldraw_target_shape": "shape:w11-os-f20",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G05"
+      },
+      "camera_scene_and_design": {
+        "lead": "editing",
+        "support": [
+          "environment_design",
+          "performance"
+        ],
+        "concept": "Ben recognizes repeated drowned sign/ruts; Bobby's smirk becomes regret",
+        "composition": "Ben's truck-height low wheel + separate distant outpost eyeline; no simultaneous teleport",
+        "weather_light": "Brown reflective flood and drifting reeds, safe retreat still visible",
+        "preserve": "Cancún right card, left empty stands, repeated recognizable landmarks",
+        "intended_page_turn": "Return from wrong turn to Bobby's private Losers Beach dread",
+        "native_and_phone_visual_check": "Avoid official elimination claim and invented Island road",
+        "source_identity_refs": [
+          "CHAR-BOBBY-MITCHELL",
+          "CHAR-BEN-WHIPPLE"
+        ],
+        "named_places": [
+          "LOC-MUD-DOGS-SWAMP"
+        ],
+        "scene_binding": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Ben recognizes repeated flooded sign/ruts and intentional deception, with a plausible retreat; Bobby's smirk then right-post Cancún card. No new route, official elimination or actual island trip.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G05",
+        "venue": "LOC-MUD-DOGS-SWAMP",
+        "feature": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-BOBBY-MITCHELL",
+            "registered_primary": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-BEN-WHIPPLE",
+            "registered_primary": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F21",
+      "reading_position": 21,
+      "final_page_headline": "The visitor's chair",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "The LLC at Dr. Duckhook\n\nThe groundskeeper hung up the wet key and left. David offered to buy Jackson. Zach slid the offer back unsigned. “Before you buy my place, maybe ask who’s running yours.” David still had the pen when Zach passed him a second sheet.",
+      "reader_copy_words": 47,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G06",
+        "selected_instruction": "Duckhook wins 173.01–127.60. David believes investors back his purchase of Jackson. Severe storm stays OUTSIDE dry executive office; groundskeeper returns wet key and EXITS; first purchase sheet remains unsigned.",
+        "source_stage": "FINAL_SCORE_SELECTED_FIXED_UNSOLD_CLUB",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "Outside the Country Club of Jackson, November rain raked across the windows and bent the course trees almost to the patio. Inside the executive office it remained warm, dry and intact. The groundskeeper returned the wet working key to its hook. He looked once at David Babb’s open folder, then left, shutting the door **before** the private discussion began. David sat in the visitor’s chair as a man confident of the next purchase. He had beaten ObiWan the previous week, and he believed his LLC investors would back the acquisition of Jackson. “After last week, my investors wanted to know what came next. I told them Jackson.” Zach Wilson glanced at the first page, the purchase offer. He slid it back **unsigned**. “Before you buy my place, maybe ask who’s running yours.” A second sheet crossed the desk, face down. David kept the unused pen in his hand.",
+      "selected_performance_register": {
+        "folio": "F21",
+        "scene": "G06",
+        "title": "The visitor’s chair",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Rain-streaked exterior Jackson window versus warm DRY office, wet course key returned BEFORE worker exits, David confident with UNSIGNED first sheet.",
+        "emotional_performance": "Zach's withheld knowledge turns David's acquisition confidence to dread.",
+        "preferred_author_dialogue": "Before you buy my place, maybe ask who's running yours.",
+        "source_constraints": "Two different papers; no invented real corporate investor/legal filing.",
+        "production_lead": "unit_stills",
+        "supporting_disciplines": [
+          "color_finishing",
+          "production_design"
+        ],
+        "camera": "Guest-chair toward Zach with violent storm behind intact glass",
+        "weather": "Extreme outdoor wind/rain contrasted warm dry office lamp",
+        "phone_QA": "Buyer confidence, two papers and witness exit read",
+        "live_tldraw_target_shape": "shape:w11-os-f21",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G06"
+      },
+      "camera_scene_and_design": {
+        "lead": "unit_stills",
+        "support": [
+          "color_finishing",
+          "production_design"
+        ],
+        "concept": "David Babb expects investors will finance a Jackson purchase",
+        "composition": "Guest-chair toward Zach with violent storm behind intact glass",
+        "weather_light": "Extreme outdoor wind/rain contrasted warm dry office lamp",
+        "preserve": "Rain-wet working course key returned before groundskeeper exits, UNSIGNED offer and unused pen",
+        "intended_page_turn": "Offer refused; second sheet remains face down at page turn",
+        "native_and_phone_visual_check": "Buyer confidence, two papers and witness exit read",
+        "source_identity_refs": [
+          "CHAR-ZACH-WILSON",
+          "CHAR-DAVID-BABB"
+        ],
+        "named_places": [
+          "LOC-COUNTRY-CLUB-JACKSON"
+        ],
+        "scene_binding": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Show the groundskeeper returning the key and leaving before the notice appears.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G06",
+        "venue": "LOC-COUNTRY-CLUB-JACKSON",
+        "feature": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-ZACH-WILSON",
+            "registered_primary": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-DAVID-BABB",
+            "registered_primary": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F22",
+      "reading_position": 22,
+      "final_page_headline": "The second sheet",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "**THE LLC · BOARD ACTION**\n\nDavid Babb removed as corporate CEO. Dr. Duckhook appointed corporate CEO and chairman.\n\nThe chair scraped. “You went to my board?”\n\n“Some of them came to me. I made the calls.”\n\nDavid eyed the coffee. “I take mine black.”\n\nDr. Duckhook 173.01 · The LLC 127.60",
+      "reader_copy_words": 51,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "G06",
+        "selected_instruction": "Fixed board action independent of ESPN: David Babb removed as corporate LLC CEO, Zach Duckhook appointed CEO AND chairman, after discreet board contacts. David rises furious, pen hits dry desk, Zach calm; LLC fantasy representation unchanged. Duckhook WIN coffee coda: David asks for his coffee BLACK.",
+        "source_stage": "DUCKHOOK_WIN_BLACK_COFFEE_BABB_FANTASY_OWNER_UNCHANGED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": "David turned over a genuine-looking **fictional LLC board-action notice** with two unmistakable lines: *David Babb removed as corporate CEO. Dr. Duckhook appointed corporate CEO and chairman.* Zach had quietly spoken with members of David’s own executive board; some had asked him to take charge, and he had made further calls. Do not invent a numerical board vote, legal filing or owner-company shareholder list. “You went to my board?” David asked. “Some of them came to me,” Zach said. “I made the calls.” David reread the notice and stood so quickly his chair scraped the floor. The unused pen struck the dry desk beside the unsigned Jackson offer. “You think you can take my company and keep your club?” Zach did not raise his voice. “You never had Jackson.” The storm shook the glass, not the papers. The club was **not sold**. David remained the fantasy manager of **The LLC** even though his fictional corporate CEO role was gone. Only then did the week’s other result enter the room: Duckhook **173.01**, The LLC **127.60**. A cup was set down. David looked at it without sitting. “I take mine black.” Zach reached for the coffee.",
+      "selected_performance_register": {
+        "folio": "F22",
+        "scene": "G06",
+        "title": "The second sheet",
+        "source": "W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "dominant_visual": "Legible second LLC officer notice on dry desk, furious Babb rising/chair scraping/pen landing, calm Zach, then black-coffee coda.",
+        "emotional_performance": "Corporate David loses CEO role, Zach becomes CEO+chairman; Babb retains fantasy LLC and Jackson remains unsold.",
+        "preferred_author_dialogue": "I take mine black.",
+        "source_constraints": "Only coffee follows Duckhook's 173.01–127.60 sports win; board action fixed owner fiction.",
+        "production_lead": "performance",
+        "supporting_disciplines": [
+          "color_finishing",
+          "production_design"
+        ],
+        "camera": "Dry desk foreground notice readable, reverse to Babb furious face/chair and steady Zach",
+        "weather": "Rain-sheets on glass behind David, indoor dry warm paper and pen",
+        "phone_QA": "Company offices and Babb fantasy representation distinct",
+        "live_tldraw_target_shape": "shape:w11-os-f22",
+        "stage": "SELECTED_DIRECTOR_PREVIS_NOT_RENDER_APPROVAL",
+        "scene_heading": "G06"
+      },
+      "camera_scene_and_design": {
+        "lead": "performance",
+        "support": [
+          "color_finishing",
+          "production_design"
+        ],
+        "concept": "The second LLC board document removes Babb CEO and names Duckhook CEO/chairman",
+        "composition": "Dry desk foreground notice readable, reverse to Babb furious face/chair and steady Zach",
+        "weather_light": "Rain-sheets on glass behind David, indoor dry warm paper and pen",
+        "preserve": "Exact CEO/chairman labels, same key, board members absent, no sale of course",
+        "intended_page_turn": "Fury then result-gated coffee; company result independent of ESPN",
+        "native_and_phone_visual_check": "Company offices and Babb fantasy representation distinct",
+        "source_identity_refs": [
+          "CHAR-ZACH-WILSON",
+          "CHAR-DAVID-BABB"
+        ],
+        "named_places": [
+          "LOC-COUNTRY-CLUB-JACKSON"
+        ],
+        "scene_binding": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+        "venue_status": "SELECTED_SCENE_FEATURE",
+        "location_restrictions": "Two papers inside the Jackson office. Babb’s Jackson purchase offer stays unsigned. Once the groundskeeper leaves, Babb reads the board action removing him as LLC CEO and making Dr. Duckhook CEO and chairman after Duckhook led the proxy fight. Babb remains football representative. No course sale, new physical HQ, vote tally or official football result follows.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": {
+        "game_id": "W11-G06",
+        "venue": "LOC-COUNTRY-CLUB-JACKSON",
+        "feature": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+        "cinematic_venue_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+        "provider_cast_binding_count": 0,
+        "reference_cast": [
+          {
+            "character_id": "CHAR-ZACH-WILSON",
+            "registered_primary": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          },
+          {
+            "character_id": "CHAR-DAVID-BABB",
+            "registered_primary": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+            "primary_in_issue_tree": false,
+            "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+          }
+        ],
+        "special_reference_override": null
+      },
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F23",
+      "reading_position": 23,
+      "final_page_headline": "What the starters changed",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "**At the bridge.** Dak Prescott scored 45.30 for D0nkey K0ng. His Majesty’s Blood answered with 38.30 from Jonah Coleman and 29.70 from Chuba Hubbard.\n\n**On Hearthroad.** CeeDee Lamb gave Slob on my Dobb 31.20. El Niño got 27.60 from Emmett Johnson in a game decided by 4.26.\n\n**At the carnival.** Cam Ward and Chimere Dike gave The Chili Cheesers 48.17 between them.",
+      "reader_copy_words": 62,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Sports Desk G01–G03: Jonah Coleman 38.30 plus Chuba Hubbard 29.70 and Purdy 28.20 for HMB; Slob CeeDee Lamb 31.20 vs El Niño Emmett Johnson 27.60; Chili Cam Ward 28.42 and Chimere Dike 19.75 helped bury ObiWan.",
+        "source_stage": "PLAYER_DETAILS_PROVIDER_LOCKED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "vfx_pipeline",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "Three source-verified Week11 starter investigations G01–G03",
+        "composition": "Over-shoulder archive writer marking three vertically separated matchup sheets",
+        "weather_light": "Desk practical light and visible human hand; no floating graphs",
+        "preserve": "Actual starter position, matchup margin and source timestamp",
+        "intended_page_turn": "F22 corporate scene transitions to sports cause",
+        "native_and_phone_visual_check": "Three separate peer-to-peer comparisons readable",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "EDITORIAL_NO_VENUE",
+        "location_restrictions": "Sports Desk typesets G01–G03 starter evidence.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F23.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F23.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F24",
+      "reading_position": 24,
+      "final_page_headline": "Who could answer?",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "**At the falls.** Javonte Williams scored 25.90 and Ladd McConkey 20.70 for Three Dreaded Snake. Red Leopards scored 94.80 in all.\n\n**In the swamp.** Ashton Jeanty and Jared Goff combined for 57.86 for Mud Dogs. The Bears defense put up 20.80 for Seven Deadly Chins.\n\n**At Jackson.** Babb still manages The LLC. Four of Duckhook’s starters cleared 20 against him, led by Jahmyr Gibbs at 30.10 and C.J. Stroud at 29.06.",
+      "reader_copy_words": 71,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Sports Desk G04–G06: Snake Javonte Williams 25.90 plus Ladd McConkey 20.70; Mud Ashton Jeanty 31.00 and Jared Goff 26.86; Duckhook Gibbs 30.10, Stroud 29.06, Kelce 25.40, Olave 20.20. Confirm causal statements against exact final margins.",
+        "source_stage": "PLAYER_DETAILS_PROVIDER_LOCKED",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "vfx_pipeline",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "Three starter investigations G04–G06, opponent response separate",
+        "composition": "Reverse newsroom desk angle maintaining equal column scale",
+        "weather_light": "Same warm desk, cooler back half for change of perspective",
+        "preserve": "Actual G04–G06 starter points, bench excluded from starter subtotal",
+        "intended_page_turn": "Conclude six-pair causality before availability",
+        "native_and_phone_visual_check": "At 390px every player/owner is correctly tagged",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "EDITORIAL_NO_VENUE",
+        "location_restrictions": "Sports Desk typesets G04–G06 starter evidence; Babb remains the football representative.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F24.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F24.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F25",
+      "reading_position": 25,
+      "final_page_headline": "The cost of Sunday",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "On November 19, Pittsy kept The Chili Cheesers and ObiWan Jacoby off the board over uncertainty about Bowers, Walker and Waddle. The final lineup gives three different answers. Brock Bowers was on Chili’s bench. Kenneth Walker III occupied ObiWan’s IR slot. Jaylen Waddle started at WR/TE and scored 9.10.",
+      "reader_copy_words": 49,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Use dated lineup/House notices separately from actual Week 11 starters and official fantasy totals. Do not infer medical diagnoses from roster, IR or availability labels.",
+        "source_stage": "DATE_PROVENANCE_AND_EDITORIAL_QA",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "Dated House slip juxtaposed with dated Sunday availability/roster source",
+        "composition": "Two physical receipts on archive intake desk, date strings focal",
+        "weather_light": "Neutral writing lamp, textured paper physically layered",
+        "preserve": "No unsourced diagnoses; IR slot not medical causation",
+        "intended_page_turn": "Availability issue leads to what a manager could change",
+        "native_and_phone_visual_check": "Dates and player roles not confused",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-LEAGUE-ARCHIVE"
+        ],
+        "scene_binding": null,
+        "venue_status": "INFERRED_PARENT",
+        "location_restrictions": "Archive intake desk. The League Archive is the proposed parent from editorial context. A named intake feature is unregistered.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F25.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F25.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F26",
+      "reading_position": 26,
+      "final_page_headline": "The next starting sheet",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "D0nkey K0ng started Chiefs D/ST for 13.00 and left Texans D/ST’s 23.80 on the bench. Swapping them would have added 10.80. Wilson would still have trailed His Majesty’s Blood by 27.65.",
+      "reader_copy_words": 31,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "DK started Chiefs D/ST for 13.00 while Texans D/ST scored 23.80 on bench (+10.80 alternative); HMB nevertheless won by 38.45. Do not portray the choice as the cause of an otherwise reversed result.",
+        "source_stage": "ELIGIBLE_DST_COMPARISON_SOURCE_READY",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "vfx_pipeline",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "One eligible starter and one eligible reserve on separate starting sheets",
+        "composition": "Split register perspective from checked left slot to right bench paper",
+        "weather_light": "One coherent desk key light with brighter empty swap line",
+        "preserve": "Eligibility, bench D/ST clearly separate, margin and roster time sourced",
+        "intended_page_turn": "Feasible alternate decision, not retrospective certainty",
+        "native_and_phone_visual_check": "Every box and number has starter/bench label",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "EDITORIAL_NO_VENUE",
+        "location_restrictions": "The starting-sheet insert needs player and roster evidence.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F26.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F26.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F27",
+      "reading_position": 27,
+      "final_page_headline": "Who made it onto the roster?",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "On November 19, The Chili Cheesers added Cam Ward and won Chimere Dike for 31 FAAB. Red Leopards’ bid of 24 failed. Ward started at quarterback for 28.42. Dike added 19.75. Together they put 48.17 on Brandon’s winning sheet.\n\nWeek 11 activity · 43 recorded · 32 completed · 6 failed · 5 canceled",
+      "reader_copy_words": 54,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Flaim Week 11 source returned 43 transactions: 32 completed, 6 failed, 5 canceled. Chili's Nov 19 Cam Ward and Chimere Dike adds yielded 28.42 and 19.75 started points; avoid counting failed waivers as acquisitions.",
+        "source_stage": "TRANSACTION_SOURCE_READY",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "Actual completed add/drop transaction stamped in roster ledger",
+        "composition": "Diagonal waiver slip crossing the matching live roster slot",
+        "weather_light": "Clerk stamp casting single real shadow over dated document",
+        "preserve": "Transaction ID, add/drop, completed status only",
+        "intended_page_turn": "One move leads to divisional forward context",
+        "native_and_phone_visual_check": "Both legs/date and roster recipient readable",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "CLOSE_INSERT_UNASSIGNED",
+        "location_restrictions": "The transaction desk records acquisitions. A physical office is unassigned.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F27.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F27.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F28",
+      "reading_position": 28,
+      "final_page_headline": "Three divisions",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "| Division | Through Week 11 | A Week 12 possibility |\n| --- | --- | --- |\n| Burgers | D0nkey K0ng 6–5, Three Dreaded Snake 5–6, ObiWan Jacoby 4–7, Mud Dogs 3–8 | ObiWan can deny D0nkey K0ng a seventh win. |\n| Wings | Slob on my Dobb 7–4, Dr. Duckhook 7–4, The Chili Cheesers 6–5, Red Leopards 5–6 | A Chili win would pull Brandon level with Slob at seven. |\n| Pizza | His Majesty’s Blood 7–4, El Niño 6–5, Seven Deadly Chins 6–5, The LLC 4–7 | The winner of Chins at El Niño reaches seven wins. |\n\nOverall records through Week 11. All twelve clubs have zero ties.",
+      "reader_copy_words": 116,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Use verified Week 12 visiting-host pairings: Burgers ObiWan→DK and Snake→Mud; Wings Duckhook→Red and Chili→Slob; Pizza HMB→LLC and Chins→El Niño. Refresh W-L-T as recorded in ESPN after Week11.",
+        "source_stage": "DIVISION_SOURCE_READY",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "Burgers, Pizza, Wings each four owner teams approaching Week12",
+        "composition": "Three physical banner/ledger rows tied by actual road direction",
+        "weather_light": "Warm archive board and accent lines, no geographic map if unsupported",
+        "preserve": "Exact division members, records and ties from source",
+        "intended_page_turn": "Divisions produce scoring form and Week12 stakes",
+        "native_and_phone_visual_check": "Three columns of four teams survive phone view",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-LEAGUE-ARCHIVE"
+        ],
+        "scene_binding": null,
+        "venue_status": "EXPLICIT_PARENT",
+        "location_restrictions": "League Archive standings sheet; use the three divisions and the official update.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F28.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F28.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F29",
+      "reading_position": 29,
+      "final_page_headline": "The Twelve · scoring form",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Dr. Duckhook rose from eighth to first. The LLC sits fifth in scoring form and tenth in the standings.\n\n| Week 11 | Franchise | Week 10 | Score |\n| --- | --- | --- | --- |\n| 1 | Dr. Duckhook | 8 | 155.32 |\n| 2 | His Majesty’s Blood | 2 | 153.56 |\n| 3 | Slob on my Dobb | 1 | 152.31 |\n| 4 | El Niño | 4 | 141.22 |\n| 5 | The LLC | 3 | 138.63 |\n| 6 | D0nkey K0ng | 6 | 137.02 |\n| 7 | The Chili Cheesers | 10 | 136.68 |\n| 8 | Mud Dogs | 11 | 130.18 |\n| 9 | Seven Deadly Chins | 9 | 129.12 |\n| 10 | Three Dreaded Snake | 12 | 127.14 |\n| 11 | Red Leopards | 7 | 123.85 |\n| 12 | ObiWan Jacoby | 5 | 118.57 |\n\n70% of season points per game plus 30% of Week 11 points. Through 11 games.",
+      "reader_copy_words": 180,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Publish the separate computed 70/30 raw scoring-form table after week11: Duckhook 1, HMB 2, Slob 3, El Niño 4, LLC 5, DK 6, Chili 7, Mud 8, Chins 9, Snake 10, Red 11, ObiWan 12; compare Week10 same-method baseline.",
+        "source_stage": "SCORING_INDEX_MATH_VERIFIED_PENDING_METHOD_SIGNOFF",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "vfx_pipeline",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "Twelve-team 70/30 scoring index distinct from editorial rank",
+        "composition": "Straight metal scoring scale and one bold movement annotation",
+        "weather_light": "Controlled desk-lit arithmetic, not cartoon meter",
+        "preserve": "Current versus previous index, date, weights exactly sourced",
+        "intended_page_turn": "Scoring judgment turns into seven places",
+        "native_and_phone_visual_check": "No editorial ranking numbers reused as scores",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "EDITORIAL_NO_VENUE",
+        "location_restrictions": "Scoring form is a ledger graphic. Its storage location is unassigned.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F29.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F29.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F30",
+      "reading_position": 30,
+      "final_page_headline": "Seven places",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "All twelve can still make the seven. All twelve can still miss. ObiWan Jacoby can get through on seven wins with help elsewhere. Even Mud Dogs can win Burgers at 6–8 if the remaining games and division tiebreaks fall their way.\n\n| Franchise | Playoff chance |\n| --- | --- |\n| Slob on my Dobb | 99.81% |\n| Dr. Duckhook | 99.36% |\n| His Majesty’s Blood | 98.97% |\n| D0nkey K0ng | 92.49% |\n| El Niño | 87.05% |\n| Seven Deadly Chins | 68.87% |\n| The Chili Cheesers | 63.27% |\n| Three Dreaded Snake | 30.84% |\n| Red Leopards | 26.84% |\n| The LLC | 19.36% |\n| ObiWan Jacoby | 12.88% |\n| Mud Dogs | 0.26% |\n\nTheFFHub · November 24 · 10,000 simulated seasons using historical scoring. Each percentage estimates how often a team qualified.",
+      "reader_copy_words": 149,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "A clerk lays out seven postseason honor places, while all twelve franchises remain in the race as long as mathematically supported. TheFFHub fresh post-Week11 10,000 simulations: Slob 99.81%, Duckhook 99.36%, HMB 98.97%, DK 92.49%, El Niño 87.05%, Chins 68.87%, Chili 63.27%, Snake 30.84%, Red 26.84%, LLC 19.36%, ObiWan 12.88%, Mud 0.26%. These are model odds, NOT standings seeds, definitive clinches or eliminations.",
+        "source_stage": "THEFFHUB_CURRENT_MODEL_CAPTURED_12_OF_12_SIMULATIONS_NOT_MATHEMATICAL_CLINCH",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "Archive table shows seven vacant playoff honors, not Island arrival",
+        "composition": "Slightly overhead old chart and seven empty honor places beside clerk",
+        "weather_light": "Distant moody water glow only as paper imagery, not real island sightline",
+        "preserve": "TheFFHub 12-team seeded odds/date, 7 qualification slots, no zero-prob elimination",
+        "intended_page_turn": "Season cliffhanger before After Dark",
+        "native_and_phone_visual_check": "Seven distinct vacancies and odds source visible",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-LEAGUE-ARCHIVE"
+        ],
+        "scene_binding": null,
+        "venue_status": "MAINLAND_ARCHIVE_CONTEXT",
+        "location_restrictions": "Keep the seven-place chart in the regular-season Commonwealth. No Island arrival, beach admission or physical championship venue.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F30.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F30.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F31",
+      "reading_position": 31,
+      "final_page_headline": "Under a deal we never made?",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Schemin’ After Dark · A dramatized conversation at the shack\n\n2023, Week 13 · 144.76–143.72. Just 1.04 points separated these franchise slots.\n\n**Reporter** — Pittsy kept the game off the board over lineup uncertainty. Why did you take it personally?\n\n**Jake** — “I think Snake ducked it. Back before the season, Phillip and I talked about protection if an injury or a suspension hit my side of the trade. He’d have owed me under that clause. The way I saw it, Austin stepped in and stopped the deal.”\n\n**Reporter** — “So what did Phillip actually owe you this week?”\n\n**Jake** — “Under a deal we never made? Nothing. Ask me what I wish I’d had.”\n\nWeek 11 · The Chili Cheesers 133.52 · ObiWan Jacoby 83.79",
+      "reader_copy_words": 126,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Keep founder-quoted private After Dark grievance distinct from House official explanation. Insert new ObiWan Week11 loss (83.79 to 133.52) only as sourced football context, not as proof the allegation against Snake or Commissioner is factual.",
+        "source_stage": "AFTER_DARK_QUOTE_AUTHORITY",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "performance",
+        "support": [
+          "pose_silhouette",
+          "unit_stills"
+        ],
+        "concept": "Jake hooded in his separate private After Dark shack with reporter",
+        "composition": "Two-shot across desk lamp, 2023 clipping and Nov19 House sheet",
+        "weather_light": "Low nocturnal lamp, atmospheric wet exterior, saber remains clipped unlit",
+        "preserve": "Unexecuted trade, injury/suspension allegation not official House wrongdoing",
+        "intended_page_turn": "After Dark closes old grievance and sets Week12 choices",
+        "native_and_phone_visual_check": "Both dialogue speakers and actual 1.04 margin visible",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        ],
+        "scene_binding": null,
+        "venue_status": "NARRATIVE_INTERIOR_UNREGISTERED",
+        "location_restrictions": "Private mountain shack selected for After Dark. Jake and the reporter can know only what the interview or public clipping gives them. No registered shack feature.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": true,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F32",
+      "reading_position": 32,
+      "final_page_headline": "The next six",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Three divisional rounds remain. In Pizza, Babb has a visitor who would like to hear what happened at Jackson.\n\n| Division | Week 12 visitor | Home |\n| --- | --- | --- |\n| Burgers | ObiWan Jacoby | D0nkey K0ng |\n| Burgers | Three Dreaded Snake | Mud Dogs |\n| Wings | Dr. Duckhook | Red Leopards |\n| Wings | The Chili Cheesers | Slob on my Dobb |\n| Pizza | His Majesty’s Blood | The LLC |\n| Pizza | Seven Deadly Chins | El Niño |",
+      "reader_copy_words": 95,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Week12 division starts with exact ESPN away→home fixture list (12 teams, six pairings); neither next week's scores nor Thanksgiving results are available. Validate all arrows from visitor to host.",
+        "source_stage": "W12_SCHEDULE_PROVIDER_READY",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "Six Week12 visitor-to-host fixtures grouped by three divisions",
+        "composition": "Divisional road register with consistent travel arrows from visitor to host",
+        "weather_light": "Archive lamp and footpath lighting not Thanksgiving imagery",
+        "preserve": "All 12 teams once, home-away check, actual schedule",
+        "intended_page_turn": "Lead from six departures to chosen featured destination",
+        "native_and_phone_visual_check": "No arrows reversed at 390px",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "SCHEDULE_ONLY",
+        "location_restrictions": "Six verified Week 12 visitors and hosts. Each home anchor is a reference for a possible destination; F32 stages the schedule register.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/desk-proofs-20261124/native/F32.png",
+        "phone_path": "memo-os/week-11/preproduction/desk-proofs-20261124/phone/F32.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": false,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F33",
+      "reading_position": 33,
+      "final_page_headline": "Next week's feature",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "Sports Desk’s Week 12 Game of the Week recommendation\n\n**Seven Deadly Chins at El Niño · both 6–5**\n\nBen takes the biggest playoff swing on the Week 12 schedule to Manning’s door. Their combined swing is 67.59 percentage points.\n\n| TheFFHub scenario | Chins qualify | El Niño qualifies |\n| --- | --- | --- |\n| Chins win | 93.71% | 69.63% |\n| El Niño wins | 54.08% | 97.59% |\n\n10,000 simulations per outcome · November 24",
+      "reader_copy_words": 81,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Select Seven Deadly Chins at El Niño as the evidence-supported Week12 Game of the Week: both 6–5 entering divisional play. In TheFFHub's separate 10,000-draw winner-forced simulations, Chins playoff odds are 93.71% if Chins win versus 54.08% if El Niño wins; El Niño's are 97.59% if El Niño wins versus 69.63% if Chins win. Combined direct qualification-odds swing is 67.59 percentage points, biggest across six Week12 pairs. Keep the El Niño host venue, route, character reference and final Commissioner selection subject to existing review.",
+        "source_stage": "W12_GOTW_SOURCE_SUPPORTED_PREPRODUCTION_CHINS_AT_EL_NINO_COMMISSIONER_AND_ATLAS_PENDING",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "unit_stills",
+        "support": [
+          "production_design",
+          "color_finishing"
+        ],
+        "concept": "Two candidate Week12 decisive consequences, select one after source sweep",
+        "composition": "Compare two source-backed site wides in preproduction, final full bleed single matchup",
+        "weather_light": "Darker road arrival leading practical host beacon, avoid invented travel metrics",
+        "preserve": "GOTW strictly highest real playoff stakes, not favorite rival",
+        "intended_page_turn": "Chosen host motion leads to Pittsy's Book",
+        "native_and_phone_visual_check": "Do not preselect winner or site before official",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "FEATURE_RECOMMENDED_VENUE_PENDING",
+        "location_restrictions": "Seven Deadly Chins visit El Niño. Use Storm Bowl as the evidenced home-domain candidate. Commissioner feature selection, physical venue, exact feature and cinematic plate remain open.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": null,
+      "production_preflight": {
+        "editorial_decision_pending": true,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": false,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F34",
+      "reading_position": 34,
+      "final_page_headline": "Pittsy’s Book",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "**Pittsy’s November 19 board**\n\n| Sides and prices | Total · both ways −130 |\n| --- | --- |\n| Slob −13.5 (−135) / El Niño +13.5 (−125) | 303.5 |\n| HMB −8.5 (−135) / DK +8.5 (−125) | 266.5 |\n| LLC −13.5 (−135) / Duckhook +13.5 (−125) | 295.5 |\n\nOff board · The Chili Cheesers vs. ObiWan Jacoby · Red Leopards vs. Three Dreaded Snake.\n\nThe November 19 sheet gave no status for Seven Deadly Chins at Mud Dogs.\n\n$25 maximum. No moneylines, parlays, player props, free plays, bets against your team or unders on your matchup. Lines subject to injury updates and House approval.\n\n“Sorry fellas, I know you like to rile me up, but I’m not having it today.”\n\n**The settlement** · Eight wagers, $106.50 staked. Bettors +$27.88. House −$27.88. Season House record 2–4, net −$252.01.\n\n“Pittsy’s Book is less of a sportsbook and more of a charitable organization.”",
+      "reader_copy_words": 156,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Week11 confirmed ledger: $106.50 staked, bettors +$27.88, house −$27.88; seasonal house 2–4, −$252.01. Winners Zwilson +20, Zeek +20, Byars +1.38; Kaloper −1, Qwilly −12.50. Preserve exact dated markets and season standing, print the charitable-organization punchline as owner-supplied satire.",
+        "source_stage": "BOOK_ARITHMETIC_AND_ESPN_MARKETS_PASS_WIDE_LOCATION_HOLD",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "production_design",
+        "support": [
+          "environment_design",
+          "color_finishing"
+        ],
+        "concept": "House's three priced matches, two OFF BOARD shutters, sixth status unknown",
+        "composition": "Real wooden betting counter foreground with Phillip's three heads on same body behind",
+        "weather_light": "Counter lamps through wet exterior; neutral warm House accents",
+        "preserve": "Exact November19 markets/restrictions, no fabricated sixth price or wide Book location",
+        "intended_page_turn": "After route suspense, House limits who can bet",
+        "native_and_phone_visual_check": "All decimal lines, cap and OFF BOARD legible",
+        "source_identity_refs": [],
+        "named_places": [
+          "LOC-PITTSYS-BOOK"
+        ],
+        "scene_binding": null,
+        "venue_status": "COUNTER_ONLY_WIDE_DISPUTED",
+        "location_restrictions": "Use the recurring House counter. The precise counter handle is unassigned. Hold the wide while the same Book’s Central Basin machine placement and Founder’s waterfall-domain correction are reconciled.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/f34-pittsys-book-candidate-20261124/F34.png",
+        "phone_path": "memo-os/week-11/preproduction/f34-pittsys-book-candidate-20261124/F34-390.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": false,
+        "verified_character_renderer_binding_pending": true,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": true,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    },
+    {
+      "internal_folio_id": "F35",
+      "reading_position": 35,
+      "final_page_headline": "They know the way home",
+      "printed_masthead": "SCHEMIN’ ’26 · WEEK 11",
+      "exact_reader_publication_copy_markdown": "For three weeks now, everybody who can spoil your Sunday knows the way to your place.",
+      "reader_copy_words": 16,
+      "user_approved_print_controls": {
+        "visible_folio_reference": false,
+        "visible_page_number": false,
+        "visible_internal_labels": false,
+        "complete_editorial_text_required": true,
+        "source_qualified_stats": true,
+        "typography_and_art_integrated": true,
+        "one_portrait_page": true
+      },
+      "authoritative_selected_outcome": {
+        "game": "ISSUE",
+        "selected_instruction": "Week12 feature audition selects Seven Deadly Chins visiting El Niño by the highest combined direct qualification-odds swing. A single pair of headlights approaches a *source-approved* Niño home road, not an invented Playoff Island causeway. End on the divisional phrase: “For three weeks now, everybody who can spoil your Sunday knows the way to your place.” Exact route/camera still Atlas HOLD pending host-site acceptance.",
+        "source_stage": "WEEK12_FEATURE_SELECTED_IN_PREPRODUCTION_ROUTE_AND_LOCATION_ATLAS_HOLD",
+        "production_stage": "COPY_READY_SOURCE_GATED_RENDER_NOT_YET_APPROVED"
+      },
+      "screenplay_for_performance_only": null,
+      "selected_performance_register": null,
+      "camera_scene_and_design": {
+        "lead": "editing",
+        "support": [
+          "unit_stills",
+          "sound_motion"
+        ],
+        "concept": "One familiar Week12 road and departing headlights, no new future lore",
+        "composition": "Long cinematic road perspective with one local landmark catching taillight",
+        "weather_light": "Late-night wet road, accent from practical lights, reserve Thanksgiving for Week12",
+        "preserve": "Selected Week12 verified host route; no extra owner without provenance",
+        "intended_page_turn": "Issue closes on one image and one sentence",
+        "native_and_phone_visual_check": "No premature Island or Thanksgiving image",
+        "source_identity_refs": [],
+        "named_places": [],
+        "scene_binding": null,
+        "venue_status": "HOST_APPROACH_TOPOLOGY_VERIFIED_CAMERA_PENDING",
+        "location_restrictions": "Trace the final approach from LLC Storm City along Storm Coast Road toward Storm Bowl. A headlight shot requires evidence for motor-vehicle access and an accepted viewpoint. Until then the depiction can show the approach in close framing without specifying transport.",
+        "prohibited_staged_world_promotions": true
+      },
+      "exact_game_reference": null,
+      "working_proof": {
+        "native_path": "memo-os/week-11/preproduction/f35-final-word-candidate-20261124/F35.png",
+        "phone_path": "memo-os/week-11/preproduction/f35-final-word-candidate-20261124/F35-390.png",
+        "status": "INTERNAL_PROOF_NOT_ACCEPTED"
+      },
+      "production_preflight": {
+        "editorial_decision_pending": true,
+        "verified_character_renderer_binding_pending": false,
+        "venue_or_geography_authority_pending": true,
+        "special_risk_review": true,
+        "independent_data_steward_fact_lock_pending": true,
+        "independent_visual_umpire_page_acceptance_pending": true,
+        "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
+        "owner_generation_instruction_required": true
+      }
+    }
+  ]
+}
