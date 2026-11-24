@@ -222,7 +222,7 @@ Week 11 activity · 43 recorded · 32 completed · 6 failed · 5 canceled
 | Wings | Slob on my Dobb 7–4, Dr. Duckhook 7–4, The Chili Cheesers 6–5, Red Leopards 5–6 | A Chili win would pull Brandon level with Slob at seven. |
 | Pizza | His Majesty’s Blood 7–4, El Niño 6–5, Seven Deadly Chins 6–5, The LLC 4–7 | The winner of Chins at El Niño reaches seven wins. |
 
-All twelve division records have zero ties.
+Overall records through Week 11. All twelve clubs have zero ties.
 
 ## F29 · The Twelve · scoring form
 
@@ -270,7 +270,7 @@ TheFFHub · November 24 · 10,000 simulated seasons using historical scoring. Ea
 
 Schemin’ After Dark · A dramatized conversation at the shack
 
-2023, Week 13 · 144.76–143.72 between the two franchise slots.
+2023, Week 13 · 144.76–143.72. Just 1.04 points separated these franchise slots.
 
 **Reporter** — Pittsy kept the game off the board over lineup uncertainty. Why did you take it personally?
 
@@ -319,6 +319,8 @@ Ben takes the biggest playoff swing on the Week 12 schedule to Manning’s door.
 | LLC −13.5 (−135) / Duckhook +13.5 (−125) | 295.5 |
 
 Off board · The Chili Cheesers vs. ObiWan Jacoby · Red Leopards vs. Three Dreaded Snake.
+
+The November 19 sheet gave no status for Seven Deadly Chins at Mud Dogs.
 
 $25 maximum. No moneylines, parlays, player props, free plays, bets against your team or unders on your matchup. Lines subject to injury updates and House approval.
 

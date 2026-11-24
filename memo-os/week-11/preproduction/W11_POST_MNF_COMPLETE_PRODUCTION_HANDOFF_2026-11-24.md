@@ -39,8 +39,8 @@
 ## Remaining acceptance gates (do not duplicate previous workflows)
 - Final editorial power ranks and Commissioner’s Note voice/signature; F01 cover and F35 exact camera geography; TheFFHub statistical calibration and independent acceptance of the remaining-schedule qualification examples.
 - Six cinematic venue photo plates remain unapproved in the inspected World registry; Wilson Look source-router is a documented conflict; G02 truck route and Pittsy Book wide landscape unresolved. Exact original character reference bytes and provider mount/subject binding required before identity-safe image production.
-- Current tldraw live editor session unconnected; earlier verified 35 production +35 review cards and 28 revisions are historical evidence, not a new readback. Six GitHub 16:9 storyboards and all 35 shot specs are still unverified as current live tldraw assets. Never create a replacement board or claim an import without asset/shape IDs.
-- No final native 1080×1920 hyper-realistic PNGs and 390px inspection, independent Umpire release acknowledgement, or current CI promotion signed. Preserve PR #313 as DRAFT and Week11 outcomes source-locked rather than published.
+- November 24 live browser readback confirmed 369 shapes, including all 35 production cards, all 35 review cards and 42 images. The six gallery image IDs are absent. Older card wording persists on the canvas. [Live inventory and per-folio links](../production-evidence/W11_PRODUCTION_DESK_2026-11-24.md#live-tldraw-visual-library).
+- [Twelve native desk proofs and their phone-size reads](desk-proofs-20261124/README.md) cover F02, F04, F07, F23–F30 and F32. Accepted final issue masters remain 0/35. Independent Umpire and authenticated Steward acceptance remain open on draft PR #313.
 
 ## Authoritative links inside the repository
 - [Fresh ESPN/Flaim full league capture](W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json) · [Direct ESPN 6+12 parity](W11_ESPN_DIRECT_FLAIM_PARITY_2026-11-24.json) · [F01–F35 selected cut register](W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json).
