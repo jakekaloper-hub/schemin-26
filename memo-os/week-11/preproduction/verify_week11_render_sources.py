@@ -27,7 +27,7 @@ lineup = load(ROOT / "canon/characters/APPROVED_LINEUP_2026_10_18.json")
 native_refs = load(ROOT / "canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json")
 reconcile = load(ISSUE / "WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json")
 text = (ISSUE / "W11_READER_LETTERING_2026-11-24.md").read_text(encoding="utf-8")
-heads = list(re.finditer(r"^## (F\\d\\d) · ([^\\n]+)$", text, re.MULTILINE))
+heads = list(re.finditer(r"^## (F\d\d) · ([^\n]+)$", text, re.MULTILINE))
 expected_ids = ["F%02d" % i for i in range(1,36)]
 found_ids = [p["internal_folio_id"] for p in render.get("pages", [])]
 check("35_integrated_pages", found_ids == expected_ids, "%d integrated packets" % len(found_ids))
