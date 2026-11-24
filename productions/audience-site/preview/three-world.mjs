@@ -261,7 +261,7 @@ export function createAtmosphericSky(THREE){
 }
 /** Use the existing illustrative clock floor (.32), not a second clock or
  * weather input. Keep noon colors and fog/horizon continuity; only optical
- * daylight goes to zero at night, leaving terrain and water lighting intact.
+ * daylight goes to zero at night, retaining ambient and ordinary water motion.
  */
 export function applyAtmosphereLighting(sky,background,fogColor,strength){
  const daylight=Math.max(0,Math.min(1,(strength-.32)/.68));
@@ -269,6 +269,7 @@ export function applyAtmosphereLighting(sky,background,fogColor,strength){
  fogColor.copy(background);
  sky.material.uniforms.uHorizon.value.copy(fogColor);
  sky.material.uniforms.uDaylight.value=daylight;
+ return daylight;
 }
 /** A source-identified, local water-haze candidate over the existing Mud Dogs
  * swamp disc. This is illustrative optical depth, not a storm, weather event,
@@ -392,7 +393,9 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
    sun.shadow.camera.updateProjectionMatrix();renderer.shadowMap.needsUpdate=true;
    lastShadowKey=shadowKey;stats.shadowRefreshes++;
   }
-  sun.intensity=.35+strength*2.15;hemisphere.intensity=.45+strength*.95;applyAtmosphereLighting(sky,scene.background,scene.fog.color,strength);
+  const daylight=applyAtmosphereLighting(sky,scene.background,scene.fog.color,strength);
+  // The same daylight drives the solar halo and direct terrain illumination.
+  sun.intensity=2.5*daylight;hemisphere.intensity=.45+strength*.95;
   renderer.render(scene,camera);stats.frames=++frames;stats.waterTime=lastTime;stats.triangles=renderer.info.render.triangles;stats.drawCalls=renderer.info.render.calls;stats.memory={...renderer.info.memory};
  }
  function project(p){if(disposed)return null;const v=new THREE.Vector3(...p).project(camera);if(v.z<-1||v.z>1)return null;return {x:(v.x*.5+.5)*canvas.clientWidth,y:(.5-v.y*.5)*canvas.clientHeight,depth:v.z};}

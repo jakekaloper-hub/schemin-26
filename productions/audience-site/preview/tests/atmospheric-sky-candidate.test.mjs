@@ -69,3 +69,23 @@ test('shared illustrative Eastern-clock strength drives continuous horizon and z
  assert.match(sky.material.fragmentShader,/halo\*\.21\*light\*upper/);
  sky.geometry.dispose();sky.material.dispose();
 });
+
+test('direct terrain sunlight shares the atmospheric daylight while ambient illumination remains at night',()=>{
+ const sky=createAtmosphericSky(THREE),background=new THREE.Color(),fog=new THREE.Color();
+ const sample=hour=>{
+  const strength=illustrativeLight(hour).strength;
+  const daylight=applyAtmosphereLighting(sky,background,fog,strength);
+  assert.equal(daylight,sky.material.uniforms.uDaylight.value);
+  return {direct:2.5*daylight,ambient:.45+strength*.95};
+ };
+ const night=sample(0),dawn=sample(6),morning=sample(9),noon=sample(12),dusk=sample(18);
+ assert.equal(night.direct,0);
+ assert.ok(night.ambient>0);
+ assert.ok(dawn.direct<1e-12&&dusk.direct<1e-12);
+ assert.ok(morning.direct>0&&morning.direct<noon.direct);
+ assert.ok(Math.abs(noon.direct-2.5)<1e-12);
+ assert.ok(Math.abs(noon.ambient-1.4)<1e-12);
+ assert.match(source,/const daylight=applyAtmosphereLighting\(sky,scene\.background,scene\.fog\.color,strength\)/);
+ assert.match(source,/sun\.intensity=2\.5\*daylight;hemisphere\.intensity=\.45\+strength\*\.95/);
+ sky.geometry.dispose();sky.material.dispose();
+});
