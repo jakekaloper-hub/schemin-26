@@ -1,5 +1,30 @@
 # Week 11 — initial production index
 
+## November 24 post-Monday check
+
+Direct ESPN and Flaim agree on all twelve live scores. All six ESPN winner fields still read `UNDECIDED`, all twelve official total fields are zero, and the standings returned by Flaim still count ten games for every club. Each team's ten starters sums to the live figure below in both reads. Final corrections and the Week 11 table remain open.
+
+| Scene | Away | Starter sum | Home | Starter sum |
+|---|---|---:|---|---:|
+| G01 | His Majesty's Blood | 168.20 | D0nkey K0ng | 129.75 |
+| G02 | El Niño | 134.60 | Slob on my Dobb | 138.86 |
+| G03 | The Chili Cheesers | 133.52 | ObiWan Jacoby | 83.79 |
+| G04 | Red Leopards | 94.80 | Three Dreaded Snake | 125.74 |
+| G05 | Seven Deadly Chins | 117.66 | Mud Dogs | 151.26 |
+| G06 | The LLC | 127.60 | Dr. Duckhook | 173.01 |
+
+[Direct ESPN Week 11 response](https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/1417621?view=mMatchupScore&scoringPeriodId=11) · League 1417621, 2026, period 11. Captured response SHA-256 `1d0ec3753d415fa7c39b9a158af820470e0d6e4161727cfe6a8b593d10a645e3`. Compared ESPN period points and active lineup slots with Flaim's Week 11 scoreboard and six player-detail reads.
+
+**F32 preview.** Both schedule reads agree, away at home: ObiWan Jacoby at D0nkey K0ng; Three Dreaded Snake at Mud Dogs; Dr. Duckhook at Red Leopards; The Chili Cheesers at Slob on my Dobb; His Majesty’s Blood at The LLC; Seven Deadly Chins at El Niño. Babb hosts His Majesty’s Blood for The LLC. Choose the feature on verified playoff stakes after the standings update.
+
+**F14–F16.** Brandon wants to know who Pittsy would have favored. Jake wanted the crowd talking about the confrontation on his mountain. Hold both faces with the sheet reading **The Chili Cheesers vs. ObiWan Jacoby — OFF BOARD**. The November 19 House explanation cites Bowers, Walker and Waddle injuries and lineup uncertainty. Carry Jake’s D5 heckle, Brandon’s single unaided hit, Jake’s underwater Wolf Brand Chili reaction and the ladder shot framing his downcast face through both chili-covered boots. Leave the score-specific dialogue open. [House record](https://github.com/jakekaloper-hub/schemin-26/issues/323) · [Open-board rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-14)
+
+**F21–F22.** At Jackson, Babb carries his unused pen from the unsigned offer to the second sheet. Dr. Duckhook led the successful proxy fight. The new board ousts David Babb as CEO of The LLC and appoints Dr. Duckhook CEO and chairman. Only the two owners hear the private exchange. The course stays at Jackson and Babb represents The LLC in league play. Use the pending coffee beat: the cup lands in silence. [Jackson rehearsal](preproduction/OPEN_BOARD_PAGE_REHEARSAL.md#folio-21) · [Owner-directed scene](WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet)
+
+**Production handoff.** Retain the six pending cuts and the linked [35-folio preproduction work](preproduction/visual-previs/README.md). The Atlas structural plans support blocking. Final art needs the approved cinematic venue reference, mounted character pair and likeness review, including the Wilson Look conflict. For the Novel, Jordan hears the taproom operator and experiences El Niño through the weather. At the carnival the underwater reaction belongs to Jake alone. Route witnessed consequences after immutable issue release and owner acceptance. [Source-specific gates](EVENING_LAYER_REFRESH_2026-11-22.md) · [Current reference receipt](preproduction/W11_REFERENCE_AND_SOURCE_RECONCILIATION_2026-11-23.json)
+
+**Next check — Tuesday, November 24, 9:00 a.m. ET, existing Weekly Memo Production Cycle.** Re-read both scoreboards, all twelve corrected starter sums and the eleven-game standings. Once reconciled, verify division and tiebreak order, prove the seventh-place boundary, run the full TheFFHub sweep and validate the Week 12 schedule. Compare editorial movement to the published Week 7 Highland Power Rankings (physical p. 6); calculate the separate scoring-form series against Week 10's 70/30 baseline. Then select supported endings, the cover and the highest-stakes preview for review. Keep the issue on publication hold.
+
 **November 23 visual integration closeout:** [35 portrait blocking preview and tested existing-page editor patch](preproduction/visual-previs/README.md) · [P0–P2 execution receipt](preproduction/W11_VISUAL_INTEGRATION_CLOSEOUT_2026-11-23.json) · [six venue and Wilson reference evidence](preproduction/W11_REFERENCE_AND_SOURCE_RECONCILIATION_2026-11-23.json). F19/F20 current source titles and acceptance instructions are reconciled; original historical image hashes and Atlas bindings remain intact. Six remote storyboard byte checks and six mock-editor tests pass. Live tldraw editor remains unavailable; no live imports or new shapes are claimed, and final renderer/approval gates remain HOLD.
 
 **November 23 evidence-grade GitHub ↔ tldraw differential audit:** [35-folio source-to-canvas discrepancy report](preproduction/W11_TLDRAW_VS_GITHUB_AUDIT_2026-11-23.md) · [machine-readable per-folio source hashes, 9 prioritized gaps and live-canvas verification boundary](preproduction/W11_TLDRAW_VS_GITHUB_AUDIT_2026-11-23.json). Source and Bullpen Librarian preflight pass; actual latest tldraw canvas integration is UNVERIFIED because editor did not connect in this audit. Two outdated current folio titles in the old comparator (F19/F20), six still-unverified storyboard imports, six prior missing cinematic plates and separate Monday data/release gates are reported, not silently fixed. No story, PNG, board or canon replacement.
