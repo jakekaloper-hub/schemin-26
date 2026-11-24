@@ -1,0 +1,233 @@
+{
+  "schema": "schemin.w11.scoring_form.70_30.v1",
+  "updated_at_utc": "2026-11-24T12:46:43.600Z",
+  "source": "Connected ESPN/Flaim final Week 11 capture; Week 10 existing 70/30 comparator",
+  "method": "0.70 × 2026 season fantasy PPG (after 11 completed weeks) + 0.30 × actual Week 11 fantasy score; raw points, no normalization",
+  "scope": "SCORING_FORM_INDEX_ONLY_NOT_ESPN_SEED_NOT_EDITORIAL_POWER_RANKING",
+  "week10_baseline_order": [
+    "Slob on my Dobb",
+    "His Majesty's Blood",
+    "The LLC",
+    "El Niño",
+    "ObiWan Jacoby",
+    "D0nkey K0ng",
+    "Red Leopards",
+    "Dr. Duckhook",
+    "Seven Deadly Chins",
+    "The Chili Cheesers",
+    "Mud Dogs",
+    "Three Dreaded Snake"
+  ],
+  "rows": [
+    {
+      "team_id": 12,
+      "team": "Dr. Duckhook",
+      "rank": 1,
+      "record": [
+        7,
+        4,
+        0
+      ],
+      "official_espn_seed": 4,
+      "week10_scoring_form_rank": 8,
+      "week11_score": 173.01,
+      "season_points_for": 1625.16,
+      "season_points_per_game": 147.7418,
+      "index_70_30": 155.3223,
+      "rank_change": 7
+    },
+    {
+      "team_id": 8,
+      "team": "His Majesty's Blood",
+      "rank": 2,
+      "record": [
+        7,
+        4,
+        0
+      ],
+      "official_espn_seed": 1,
+      "week10_scoring_form_rank": 2,
+      "week11_score": 168.2,
+      "season_points_for": 1620.15,
+      "season_points_per_game": 147.2864,
+      "index_70_30": 153.5605,
+      "rank_change": 0
+    },
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "rank": 3,
+      "record": [
+        7,
+        4,
+        0
+      ],
+      "official_espn_seed": 2,
+      "week10_scoring_form_rank": 1,
+      "week11_score": 138.86,
+      "season_points_for": 1738.85,
+      "season_points_per_game": 158.0773,
+      "index_70_30": 152.3121,
+      "rank_change": -2
+    },
+    {
+      "team_id": 9,
+      "team": "El Niño",
+      "rank": 4,
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "official_espn_seed": 5,
+      "week10_scoring_form_rank": 4,
+      "week11_score": 134.6,
+      "season_points_for": 1584.63,
+      "season_points_per_game": 144.0573,
+      "index_70_30": 141.2201,
+      "rank_change": 0
+    },
+    {
+      "team_id": 4,
+      "team": "The LLC",
+      "rank": 5,
+      "record": [
+        4,
+        7,
+        0
+      ],
+      "official_espn_seed": 10,
+      "week10_scoring_form_rank": 3,
+      "week11_score": 127.6,
+      "season_points_for": 1576.85,
+      "season_points_per_game": 143.35,
+      "index_70_30": 138.625,
+      "rank_change": -2
+    },
+    {
+      "team_id": 5,
+      "team": "D0nkey K0ng",
+      "rank": 6,
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "official_espn_seed": 3,
+      "week10_scoring_form_rank": 6,
+      "week11_score": 129.75,
+      "season_points_for": 1541.57,
+      "season_points_per_game": 140.1427,
+      "index_70_30": 137.0249,
+      "rank_change": 0
+    },
+    {
+      "team_id": 7,
+      "team": "The Chili Cheesers",
+      "rank": 7,
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "official_espn_seed": 7,
+      "week10_scoring_form_rank": 10,
+      "week11_score": 133.52,
+      "season_points_for": 1518.31,
+      "season_points_per_game": 138.0282,
+      "index_70_30": 136.6757,
+      "rank_change": 3
+    },
+    {
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "rank": 8,
+      "record": [
+        3,
+        8,
+        0
+      ],
+      "official_espn_seed": 12,
+      "week10_scoring_form_rank": 11,
+      "week11_score": 151.26,
+      "season_points_for": 1332.61,
+      "season_points_per_game": 121.1464,
+      "index_70_30": 130.1805,
+      "rank_change": 3
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "rank": 9,
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "official_espn_seed": 6,
+      "week10_scoring_form_rank": 9,
+      "week11_score": 117.66,
+      "season_points_for": 1474.28,
+      "season_points_per_game": 134.0255,
+      "index_70_30": 129.1158,
+      "rank_change": 0
+    },
+    {
+      "team_id": 6,
+      "team": "Three Dreaded Snake",
+      "rank": 10,
+      "record": [
+        5,
+        6,
+        0
+      ],
+      "official_espn_seed": 8,
+      "week10_scoring_form_rank": 12,
+      "week11_score": 125.74,
+      "season_points_for": 1405.2,
+      "season_points_per_game": 127.7455,
+      "index_70_30": 127.1438,
+      "rank_change": 2
+    },
+    {
+      "team_id": 2,
+      "team": "Red Leopards",
+      "rank": 11,
+      "record": [
+        5,
+        6,
+        0
+      ],
+      "official_espn_seed": 9,
+      "week10_scoring_form_rank": 7,
+      "week11_score": 94.8,
+      "season_points_for": 1499.31,
+      "season_points_per_game": 136.3009,
+      "index_70_30": 123.8506,
+      "rank_change": -4
+    },
+    {
+      "team_id": 1,
+      "team": "ObiWan Jacoby",
+      "rank": 12,
+      "record": [
+        4,
+        7,
+        0
+      ],
+      "official_espn_seed": 11,
+      "week10_scoring_form_rank": 5,
+      "week11_score": 83.79,
+      "season_points_for": 1468.3,
+      "season_points_per_game": 133.4818,
+      "index_70_30": 118.5743,
+      "rank_change": -7
+    }
+  ],
+  "verification": {
+    "distinct_teams": 12,
+    "all_scores_present": true,
+    "current_week_completed": 11
+  },
+  "release": "SOURCE_DERIVED_READY_FOR_INDEPENDENT_UMPIRE_AND_METHOD_CROSSCHECK"
+}
