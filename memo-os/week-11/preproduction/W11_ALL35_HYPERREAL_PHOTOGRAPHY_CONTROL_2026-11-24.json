@@ -1,0 +1,357 @@
+{
+  "schema": "schemin.week11.photographic_realism_master.v1",
+  "date": "2026-11-24",
+  "scope": "all 35 Week 11 portrait folios, Act II especially",
+  "status": "EDITORIAL_PHOTO_REALISM_CONTROL__PUBLISHED_ASSET_NOT_AUTOMATICALLY_APPROVED",
+  "reference_photo": {
+    "origin": "Founder-supplied image in current ChatGPT conversation",
+    "original_name": "B99AF4E8-8B21-48F6-A1FA-7E34C9E07BC9(1).png",
+    "sha256": "ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+    "pixels": [
+      941,
+      1672
+    ],
+    "subject": "low camera over rain-wet gravel rural road with micro-puddles, grassy verge, droplets, diffuse cloudy dusk and receding horizon",
+    "source_role": "Photographic realism, lensing, moisture, texture and light benchmark. Not proof every Commonwealth place has this road. Not yet uploaded to GitHub; follow asset custody.",
+    "authority": "Founder-established aesthetic reference; not Atlas location promotion."
+  },
+  "photo_standard": {
+    "principle": "Make each scene convincingly photographed in a physical world BEFORE adding fantasy action and editorial typography. Material realism does not require every image to look identical.",
+    "camera": "Choose purposeful real focal length and lens height appropriate to scene, physical depth of field and coherent focus plane; avoid infinite-sharp plastic CGI.",
+    "geometry": "Environment materials show wear, uneven aggregate, plausible cracks, reeds/roots, chipped painted wood, weathered metal and real contact shadows. World location remains unique per folio.",
+    "moisture": "Raindrop size, wet sheen and surface runoff vary by material, puddles obey gravity, waterline is physical; rain MUST NOT uniformly coat every surface.",
+    "lighting": "Source-driven sky/lantern/window illumination, reflections consistent with each source and object, realistic penumbra, no arbitrary glowing rim around every edge.",
+    "color": "Muted nuanced shadows with warm practical accent, avoid over-saturated orange/teal CGI bloom and gold metal on every surface.",
+    "motion": "Weight and inertia in movement, cloth and animal limbs follow physical forces; actionable cause/effect from source storyboard.",
+    "faces": "Realistic anatomy and naturally textured skin/fur/fabric; exact registered characters, commissioner overrides and posed relationships, no generic character substitution.",
+    "composite": "Cinematic visual plate and text are independent layers. Generate/choose a realistic plate, verify it, then place exact source narrative in deliberate negative-space typography at 4K, export 1080 and 390 proofs.",
+    "negative_controls": [
+      "plastic airbrushed surfaces",
+      "over-sharpened HDR or AI halation",
+      "unmotivated lens flare",
+      "repeatable photobash artifact edges",
+      "uniform foliage, repeated pebbles or cloned raindrops",
+      "floating feet or weapons",
+      "impossible optics, water physics and material continuity",
+      "typographic spelling drift and invented narrative prose",
+      "generic poster portrait replacing documented action",
+      "film-like frame without readable published manuscript"
+    ]
+  },
+  "print_and_resolution": {
+    "master_canvas_px": [
+      2160,
+      3840
+    ],
+    "delivery_px": [
+      1080,
+      1920
+    ],
+    "phone_px": [
+      390,
+      693
+    ],
+    "target": "Final composite at 4K with vector/deterministic type; if base artwork remains 941x1672 or 1080x1920, enlargement increases pixel count but does not invent high-frequency detail. Sharpness must be judged at native effective detail and phone legibility.",
+    "preserve_p09": "Founder approved original P09 composition and subtle under-masthead title; do not overwrite approved source"
+  },
+  "quality_rubric": {
+    "photographic_materials": 20,
+    "realistic_light_and_weather": 15,
+    "depth_and_lens": 10,
+    "real_world_physics": 10,
+    "character_reference_fidelity": 15,
+    "location_and_story_continuity": 10,
+    "cinematic_composition": 10,
+    "full_exact_copy_and_phone_type": 10,
+    "threshold_for_new_candidate_review": 90,
+    "critical_vetoes": [
+      "source identity wrong",
+      "unapproved World geography as fact",
+      "missing essential manuscript/score",
+      "dialogue attribution wrong",
+      "physically incoherent decisive action"
+    ]
+  },
+  "all_folios": [
+    {
+      "id": "F01",
+      "scene_identity": "Cover",
+      "photographic_reality_anchor": "Authentic storm-lit bridge stone or approved alternate Chili carnival; monumental action still feels shot by a real camera, not a digital painting.",
+      "camera_lens_and_exposure": "Wide establishing 28–35mm, physically justified practical light, atmospheric rain with high-contrast subject",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F02",
+      "scene_identity": "Opening register",
+      "photographic_reality_anchor": "Rain-damp records room: engraved wood grain, paper fibers, oil sheen on lamp glass, wet boot marks.",
+      "camera_lens_and_exposure": "Documentary 50mm, soft lamp falloff, distinct real shadows",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F03",
+      "scene_identity": "Commissioner note",
+      "photographic_reality_anchor": "Real ink absorption, folded paper fibers, hand contact, wax/metal aged honestly; signature exact.",
+      "camera_lens_and_exposure": "Macro 70mm on document, clean editorial copy separate",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F04",
+      "scene_identity": "Scoreboard",
+      "photographic_reality_anchor": "Real stadium or chamber score rail surface with weathering, clerk and practical bulb reflections; exact scores typed.",
+      "camera_lens_and_exposure": "50mm restrained frontal doc photograph",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F05",
+      "scene_identity": "Power ranking A",
+      "photographic_reality_anchor": "Identity-faithful photo portrait plates embedded in the same tangible bronze register, not plastic game-character busts.",
+      "camera_lens_and_exposure": "85mm photographic portraits with directional falloff",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F06",
+      "scene_identity": "Power ranking B",
+      "photographic_reality_anchor": "Same bronze/register materials and portrait falloff as F05; seventh place visible in real-depth surface.",
+      "camera_lens_and_exposure": "Same controlled photographic portrait treatment as F05",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F07",
+      "scene_identity": "Standings cutoff",
+      "photographic_reality_anchor": "True paper/ledger grain, handheld straightedge contact shadow, clear distinction between ink and typed factual figures.",
+      "camera_lens_and_exposure": "Close 50mm archive photograph",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F08",
+      "scene_identity": "Roads between",
+      "photographic_reality_anchor": "Use today’s wet gravel/grass/puddle reference directly for material quality on Hearthroad; distinct Mountain Lake stone cart-wheel shot.",
+      "camera_lens_and_exposure": "Ground-height 35/50mm, natural depth of field, micro-droplets, no background teleported",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F09",
+      "scene_identity": "Bridge verbal clash and charge",
+      "photographic_reality_anchor": "Retain already Founder-approved P09 composition; improve subtle physical texture if future finishing without redrawing approved figures.",
+      "camera_lens_and_exposure": "Wide stone geometry plus intimate actor close shots and motion. Do not revise approved art without instruction",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F10",
+      "scene_identity": "Bridge weapon contact",
+      "photographic_reality_anchor": "Steel blade metal scuffs, real wet stone traction, layered rain depth, cloak fabric inertia, four hoof contact.",
+      "camera_lens_and_exposure": "Fast-shutter practical action still with matched camera axis and believable motion blur",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F11",
+      "scene_identity": "Bridge fall/survivor",
+      "photographic_reality_anchor": "Wetted armor with real spray and wave physics; thick whitecaps and real gravity at parapet, identifiable living head.",
+      "camera_lens_and_exposure": "Low carter POV then spray-level survivor lens; lake not river",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F12",
+      "scene_identity": "Beer delivery promise",
+      "photographic_reality_anchor": "Fogged cab windshield, real dust and wet wiper scratches, dashboard worn plastic, damp delivery paper, same truck paint.",
+      "camera_lens_and_exposure": "Interior 35mm practical dash light and rainy side-window exposure",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F13",
+      "scene_identity": "Two-keg incident",
+      "photographic_reality_anchor": "Actual vehicle scale, heavy metal barrels rolling with grounded gravity and wet reflections, readable tie geometry.",
+      "camera_lens_and_exposure": "Wide roadway 35mm with telephoto mirror detail",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F14",
+      "scene_identity": "OFF BOARD carnival",
+      "photographic_reality_anchor": "Rain-beaded rodeo hat leather, real carnival bulb reflections, paper notice curling at edges, muddy uphill spectators.",
+      "camera_lens_and_exposure": "50mm public reportage, natural facial texture",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F15",
+      "scene_identity": "Chili dunk",
+      "photographic_reality_anchor": "Real glass smear, lensing through thick chili, believable splash viscosity, weather outside vs chili inside; precisely one target hit.",
+      "camera_lens_and_exposure": "High-speed action photo plus underwater/cross-glass still, no cartoon liquid",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F16",
+      "scene_identity": "Chili aftermath",
+      "photographic_reality_anchor": "Sticky textured chili clings to fabric and boot leather, differing from rainfall, face to both boots in focus.",
+      "camera_lens_and_exposure": "Full-length 35mm documentary portrait",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F17",
+      "scene_identity": "Falls challenge",
+      "photographic_reality_anchor": "Wet tropical root bark, mud adhesion to shoes, different ground firmness, real leaf translucency under rain.",
+      "camera_lens_and_exposure": "35mm ground and figure story, sheltered stone landmark",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F18",
+      "scene_identity": "Falls finish",
+      "photographic_reality_anchor": "Same roots and wet ground; captured high-detail mud smear and subtle runoff, Phillip one body three heads.",
+      "camera_lens_and_exposure": "50mm reverse of same camera world, credible actor surface",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F19",
+      "scene_identity": "Swamp misdirection",
+      "photographic_reality_anchor": "Brown flooded water surface, real reed edges, waterline on sign support, dry paw/flood boundary, truck window raindrops.",
+      "camera_lens_and_exposure": "Low 35mm sign-and-paw perspective",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F20",
+      "scene_identity": "Swamp return",
+      "photographic_reality_anchor": "Same sign corrosion and ruts, reflected headlight beams through humid haze, soft postcard paper edges.",
+      "camera_lens_and_exposure": "Long-lens road reflection anchored to repeated sign",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F21",
+      "scene_identity": "Jackson purchase offer",
+      "photographic_reality_anchor": "Wet course key, office desk wood pores, real storm through glass, restrained faces and dry paper contrast.",
+      "camera_lens_and_exposure": "50mm cinematic office daylight+warm desk practical",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F22",
+      "scene_identity": "Jackson second sheet",
+      "photographic_reality_anchor": "Tactile legal-looking fictional paper, ink and dry pen/chair contact, truly legible words without fake printed texture.",
+      "camera_lens_and_exposure": "85mm shallow-depth corporate still with sharp document plane",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F23",
+      "scene_identity": "Starter investigation 1",
+      "photographic_reality_anchor": "Genuine desk clutter, physically separate matchup sheets and graphite marks, documentary newsroom surface.",
+      "camera_lens_and_exposure": "Over-shoulder 50mm hands/paper; data deterministically typeset",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F24",
+      "scene_identity": "Starter investigation 2",
+      "photographic_reality_anchor": "Same newsroom surfaces, slightly reverse camera position and practical lighting, unique sheets.",
+      "camera_lens_and_exposure": "Reverse 50mm with source exact tables",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F25",
+      "scene_identity": "Cost of Sunday",
+      "photographic_reality_anchor": "Two dated real paper receipts with separate weathered surfaces; never invent doctor or medical images.",
+      "camera_lens_and_exposure": "Macro 70mm, hard clean date plane",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F26",
+      "scene_identity": "Starting sheet",
+      "photographic_reality_anchor": "Starter page and bench page at distinct physical positions, pencil, clear line spacing.",
+      "camera_lens_and_exposure": "50mm practical desk shadow",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F27",
+      "scene_identity": "Roster transaction",
+      "photographic_reality_anchor": "Stamped waiver slip and ledger slot, stamp ink feathering on paper, cast shadow.",
+      "camera_lens_and_exposure": "Close overhead documentary still",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F28",
+      "scene_identity": "Three divisions",
+      "photographic_reality_anchor": "Three tactile cloth banners and wood/bronze archive register, true seams and folds, no cartoony map.",
+      "camera_lens_and_exposure": "50mm archive photograph, accurate lettering overlay",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F29",
+      "scene_identity": "Scoring index",
+      "photographic_reality_anchor": "Real machinist metal scale with nicks and patina, shot in authentic perspective; editorial math crisp.",
+      "camera_lens_and_exposure": "Close product/documentary lens with deterministic figures",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F30",
+      "scene_identity": "Seven places",
+      "photographic_reality_anchor": "Seven actual vacant honor recesses and paper charts as objects, subtle light on material, no fantasy island hallucination.",
+      "camera_lens_and_exposure": "35mm archive still with readable probability overlay",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F31",
+      "scene_identity": "After Dark interview",
+      "photographic_reality_anchor": "Live night rain beyond actual shack window, lamp bounce on skin and wood, printed clipping with paper fibers.",
+      "camera_lens_and_exposure": "50mm intimate two-shot / 85mm reaction",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F32",
+      "scene_identity": "Next six fixtures",
+      "photographic_reality_anchor": "Physical rail/dispatch slats, practical lantern lighting, faithful paper and paint textures; visible arrow semantics.",
+      "camera_lens_and_exposure": "Front-on archival documentary photograph with typed matchups",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F33",
+      "scene_identity": "Next feature",
+      "photographic_reality_anchor": "Credible Storm Bowl entrance road and terrain, lantern/headlight falloff with world approval; avoid fabricated road geography.",
+      "camera_lens_and_exposure": "28–35mm evening arrival film still",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F34",
+      "scene_identity": "Pittsy's Book",
+      "photographic_reality_anchor": "Real wooden counter with wet sleeve shine, physical dice/ledger microtextures, three-head source-safe Phillip.",
+      "camera_lens_and_exposure": "50mm low light interior documentary, source-safe identity",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    },
+    {
+      "id": "F35",
+      "scene_identity": "Closing roadway",
+      "photographic_reality_anchor": "Today’s wet gravel/grass road feel informs Storm Coast approach material only; one real local landmark, natural reflections.",
+      "camera_lens_and_exposure": "Ground-height 35mm, moody late dusk and headlight diffusion",
+      "source_narrative": "Use existing full reader copy and scene storyboard, do not shorten",
+      "status": "PRE_RENDER_PHOTO_DIRECTION_ONLY"
+    }
+  ]
+}
