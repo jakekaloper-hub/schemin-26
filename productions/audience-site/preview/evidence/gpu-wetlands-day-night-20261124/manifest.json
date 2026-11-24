@@ -1,0 +1,149 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "PHYSICAL_GPU_SYNTHETIC_EASTERN_NOON_MIDNIGHT_WHOLE_SCENE_COMPARISON",
+  "sourceRevision": "c3a94b76798c60712c2f7474ec3d8d1ab823eee5",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "weatherStatus": "GLOBAL_CALM",
+  "syntheticClock": true,
+  "cameraViewHeld": true,
+  "waterPhaseHeld": true,
+  "ordinaryWaterAdvanced": true,
+  "originalHistoryJourneyPassed": true,
+  "sourceUnchanged": true,
+  "captures": [
+    {
+      "file": "jackson-noon.png",
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "period": "noon",
+      "syntheticUtc": "2026-11-24T17:00:00.000Z",
+      "waterTime": 5.894899999809283,
+      "frames": 357,
+      "bytes": 828124,
+      "width": 1440,
+      "height": 813,
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 60.84177071454606,
+        "pitch": 0.65,
+        "yaw": 0.12
+      },
+      "sha256": "1813beac7e1eaeb65e65bb63f5dd711ae16eaa4adcae134924c1808d6d7eac54"
+    },
+    {
+      "file": "jackson-midnight.png",
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "period": "midnight",
+      "syntheticUtc": "2026-11-24T05:00:00.000Z",
+      "waterTime": 5.894899999809283,
+      "frames": 358,
+      "bytes": 494969,
+      "width": 1440,
+      "height": 813,
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 60.84177071454606,
+        "pitch": 0.65,
+        "yaw": 0.12
+      },
+      "sha256": "c7a1fd8ead8a83c2d2710f305bc12a06cf7973826fa03c9ec5decffa610385af"
+    },
+    {
+      "file": "temple-noon.png",
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "period": "noon",
+      "syntheticUtc": "2026-11-24T17:00:00.000Z",
+      "waterTime": 9.094799999809293,
+      "frames": 551,
+      "bytes": 771872,
+      "width": 1440,
+      "height": 813,
+      "camera": {
+        "target": [
+          -36,
+          8.374296887967935,
+          42
+        ],
+        "distance": 51.80026278409167,
+        "pitch": 0.65,
+        "yaw": 0.12
+      },
+      "sha256": "05305a2b5155b4a753c9a52668dd11febb7016754c9148db154d1bce855d0c44"
+    },
+    {
+      "file": "temple-midnight.png",
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "period": "midnight",
+      "syntheticUtc": "2026-11-24T05:00:00.000Z",
+      "waterTime": 9.094799999809293,
+      "frames": 552,
+      "bytes": 442533,
+      "width": 1440,
+      "height": 813,
+      "camera": {
+        "target": [
+          -36,
+          8.374296887967935,
+          42
+        ],
+        "distance": 51.80026278409167,
+        "pitch": 0.65,
+        "yaw": 0.12
+      },
+      "sha256": "9f8f0ab74b33f4742fa338f5f83866989eb57998ad61585283ec4e424aa54fbc"
+    },
+    {
+      "file": "mud-dogs-noon.png",
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "period": "noon",
+      "syntheticUtc": "2026-11-24T17:00:00.000Z",
+      "waterTime": 12.294599999809249,
+      "frames": 745,
+      "bytes": 826017,
+      "width": 1440,
+      "height": 813,
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 53.30610536071947,
+        "pitch": 0.65,
+        "yaw": 0.12
+      },
+      "sha256": "bd338457e331a73e433ab4f2794d1fdf47fff376da006a558d5d47d47524ffcf"
+    },
+    {
+      "file": "mud-dogs-midnight.png",
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "period": "midnight",
+      "syntheticUtc": "2026-11-24T05:00:00.000Z",
+      "waterTime": 12.294599999809249,
+      "frames": 746,
+      "bytes": 474361,
+      "width": 1440,
+      "height": 813,
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 53.30610536071947,
+        "pitch": 0.65,
+        "yaw": 0.12
+      },
+      "sha256": "c84c96f7e71a760544a26e526968d64a18cc6bddca4fae3a980a89d0825d2cef"
+    }
+  ]
+}

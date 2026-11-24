@@ -18,10 +18,11 @@ const temporalOption=process.argv.indexOf('--temporal-dir');
 const wetlandsOption=process.argv.indexOf('--wetlands-temporal-dir');
 const closeupOption=process.argv.indexOf('--wetlands-closeup-dir');
 const atlasOption=process.argv.indexOf('--atlas-views-dir');
-const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption].filter(index=>index>=0);
+const lightOption=process.argv.indexOf('--wetlands-light-dir');
+const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption,lightOption].filter(index=>index>=0);
 assert.ok((options.length===0&&process.argv.length===3)
  ||(options.length===1&&options[0]===3&&process.argv.length===5),
- 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir /new/private/evidence/directory');
+ 'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir /new/private/evidence/directory');
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
 const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 const wetlandsDir=wetlandsOption<0?null:resolve(process.argv[4]);
@@ -32,6 +33,9 @@ if(temporalDir)assert.ok(!existsSync(temporalDir),'TEMPORAL_DIRECTORY_EXISTS: re
 if(wetlandsDir)assert.ok(!existsSync(wetlandsDir),'WETLANDS_DIRECTORY_EXISTS: refusal to overwrite evidence');
 if(closeupDir)assert.ok(!existsSync(closeupDir),'CLOSEUP_DIRECTORY_EXISTS: refusal to overwrite evidence');
 if(atlasDir)assert.ok(!existsSync(atlasDir),'ATLAS_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const lightDir=lightOption<0?null:resolve(process.argv[4]);
+if(lightDir)assert.ok(!existsSync(lightDir),'LIGHT_DIRECTORY_EXISTS: refusal to overwrite evidence');
+const lightCaptures=[];
 const captured=[],temporalCaptures=[],wetlandTemporalCaptures=[],wetlandCloseupCaptures=[],closeupCameras=[],atlasCaptures=[];
 let atlasPlan=null;
 const observer=resolve(process.argv[2]||'');
@@ -79,7 +83,7 @@ async function evaluate(expression){
 }
 const snapshot=()=>evaluate('(()=>({state:__observerDebug.state(),stats:__observerDebug.stats(),places:__observerDebug.bindings().length,sourceUnchanged:__observerDebug.sourceUnchanged(),fallback:!document.querySelector("#fallback").hidden,gpu:__observerDebug.stats()?.gpuRenderer||"UNAVAILABLE"}))()');
 async function captureCandidate(file,placeId,sink=captured){
- if(!captureDir&&!atlasDir)return;
+ if(!captureDir&&!atlasDir&&!lightDir)return;
  const s=await snapshot();
  assert.equal(s.stats.renderer,'three-webgl2','Visual evidence requires real WebGL2');
  assert.ok(s.stats.frames>0&&s.sourceUnchanged&&!s.fallback,'Invalid candidate capture state');
@@ -191,6 +195,37 @@ async function main(){
   }
   verifyAtlasCandidateCaptures(atlasPlan,atlasCaptures);
   assert.equal((await snapshot()).sourceUnchanged,true,'Atlas-wide capture mutated source');
+ }
+ if(lightDir){
+  // Evidence-only clock substitution in this isolated Chrome session.
+  // The actual source-built host still computes its own Eastern-clock lighting.
+  for(const {placeId,title,slug} of WETLAND_TEMPORAL_SITES){
+   await click('#placesToggle');
+   await click('[data-place="'+placeId+'"]');
+   assert.equal(await evaluate('document.querySelector("#placeName").textContent'),title);
+   await delay(3200);
+   await click('#motionToggle');
+   const held=(await snapshot()).stats.waterTime;
+   const camera=await evaluate('__observerDebug.camera()');
+   await evaluate('globalThis.__evidenceNativeDate=globalThis.Date');
+   try{
+    for(const [period,iso] of [['noon','2026-11-24T17:00:00.000Z'],['midnight','2026-11-24T05:00:00.000Z']]){
+     const frames=(await snapshot()).stats.frames;
+     await evaluate(`(()=>{const Native=globalThis.__evidenceNativeDate;const fixed=Native.parse(${JSON.stringify(iso)});globalThis.Date=class extends Native{constructor(...args){super(...(args.length?args:[fixed]));}static now(){return fixed;}};return new Date().toISOString();})()`);
+     assert.equal(await evaluate('new Date().toISOString()'),iso);
+     await until(async()=>{const q=await snapshot();return q.stats.frames>frames?q:null;},'synthetic Eastern clock frame '+period,12000);
+     await delay(350);
+     assert.equal((await snapshot()).stats.waterTime,held,'Water phase changed during lighting comparison');
+     assertHistoricalViewRestored(camera,await evaluate('__observerDebug.camera()'));
+     await captureCandidate(slug+'-'+period+'.png',placeId,lightCaptures);
+     Object.assign(lightCaptures.at(-1),{period,syntheticUtc:iso,waterTime:held});
+    }
+   }finally{await evaluate('globalThis.Date=globalThis.__evidenceNativeDate;delete globalThis.__evidenceNativeDate;');}
+   assert.notDeepEqual(lightCaptures.at(-1).bytes,lightCaptures.at(-2).bytes,'No visible clock response');
+   await click('#motionToggle');
+   await click('#inspectorWorld');
+  }
+  assert.equal(lightCaptures.length,6);
  }
  if(temporalDir){
   // Evidence-only: inspect two real Temple frames under global calm from the same settled viewpoint.
@@ -367,6 +402,20 @@ async function main(){
   writeFileSync(join(atlasDir,'inspection.html'),
    atlasContactSheetHtml(atlasPlan,{sourceRevision,stateAsOf,gpu:first.gpu,renderer:first.stats.renderer}),
    {flag:'wx'});
+ }
+ if(lightDir){
+  mkdirSync(lightDir,{recursive:true});
+  for(const shot of lightCaptures)writeFileSync(join(lightDir,shot.file),shot.bytes,{flag:'wx'});
+  writeFileSync(join(lightDir,'manifest.json'),JSON.stringify({
+   status:'CANDIDATE_NOT_APPROVED',publicationAuthorized:false,
+   evidenceType:'PHYSICAL_GPU_SYNTHETIC_EASTERN_NOON_MIDNIGHT_WHOLE_SCENE_COMPARISON',
+   sourceRevision:await evaluate('JSON.parse(document.querySelector("#catalog").textContent).sourceRevision'),
+   renderer:first.stats.renderer,gpu:first.gpu,weatherStatus:calm.status,
+   syntheticClock:true,cameraViewHeld:true,waterPhaseHeld:true,ordinaryWaterAdvanced:true,
+   originalHistoryJourneyPassed:true,sourceUnchanged:true,
+   captures:lightCaptures.map(({file,placeId,period,syntheticUtc,waterTime,frames,bytes,width,height,camera})=>
+    ({file,placeId,period,syntheticUtc,waterTime,frames,bytes:bytes.length,width,height,camera,sha256:createHash('sha256').update(bytes).digest('hex')}))
+  },null,2)+'\n',{flag:'wx'});
  }
  if(captureDir){
   assert.equal(captured.length,4,'Missing candidate scene coverage');
