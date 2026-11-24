@@ -197,7 +197,11 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float brokenThread=.5+.5*sin(vUv.y*25.-uTime*3.6+vUv.x*8.);
         float sideFade=smoothstep(.02,.13,vUv.x)*(1.-smoothstep(.87,.98,vUv.x));
         float endFade=smoothstep(.025,.16,vUv.y)*(1.-smoothstep(.86,.985,vUv.y));
-        float threadLight=foamThread*brokenThread*sideFade*endFade;
+        // Suppress unresolved narrow threads at distance; the displaced
+        // falling sheet and broad moving foam remain visible at every scale.
+        float threadFootprint=fwidth(threadCoordinate);
+        float threadLight=foamThread*brokenThread*sideFade*endFade
+          *(1.-smoothstep(.35,1.15,threadFootprint));
         fallTint=clamp(fallTint+vec3(.055,.071,.061)*threadLight,0.,1.);
         // Candidate sky glint follows the ACTUAL folded sheet normal and the
         // spectator camera, with foam-dependent intensity and edge suppression.

@@ -36,7 +36,9 @@ test('Temple foam threads shade the one existing sheet, not other waters or clim
   'brokenThread=.5+.5*sin(vUv.y*25.-uTime*3.6+vUv.x*8.)',
   'sideFade=smoothstep(.02,.13,vUv.x)*(1.-smoothstep(.87,.98,vUv.x))',
   'endFade=smoothstep(.025,.16,vUv.y)*(1.-smoothstep(.86,.985,vUv.y))',
+  'float threadFootprint=fwidth(threadCoordinate)',
   'threadLight=foamThread*brokenThread*sideFade*endFade',
+  '*(1.-smoothstep(.35,1.15,threadFootprint))',
   'fallTint=clamp(fallTint+vec3(.055,.071,.061)*threadLight,0.,1.)',
   'gl_FragColor=vec4(fallTint,fallingAlpha)'
  ]) assert.ok(fall.includes(fragment),fragment);
@@ -78,4 +80,27 @@ test('El Nino synthetic global calm preserves foam clock; only explicit pause fr
  assert.equal(JSON.stringify(places),before);
  a.dispose();a.dispose();
  assert.equal(geometryDisposals,1);assert.equal(materialDisposals,1);
+});
+
+test('unresolved narrow foam threads fade at distance while close threads retain ordinary motion',()=>{
+ const coordinate=(u,v,t)=>u*47+Math.sin(v*13-t*1.17)*1.1;
+ const footprint=(u,v,t,step)=>Math.abs(coordinate(u+step,v,t)-coordinate(u,v,t))
+   +Math.abs(coordinate(u,v+step,t)-coordinate(u,v,t));
+ const attenuation=w=>1-smooth(.35,1.15,w);
+ let maxChange=0;
+ for(let i=4;i<37;i++)for(let j=4;j<37;j++)for(const t of [0,1.9,8]){
+  const u=i/40,v=j/40;
+  const near=attenuation(footprint(u,v,t,.002));
+  const far=attenuation(footprint(u,v,t,.05));
+  assert.ok(near>.99);
+  assert.equal(far,0);
+  assert.ok(near>=far&&near<=1);
+  maxChange=Math.max(maxChange,Math.abs(threads(u,v,t)*near-
+   threads(u,v,t+.31)*attenuation(footprint(u,v,t+.31,.002))));
+ }
+ assert.ok(maxChange>.1);
+ const a=build(),w=a.water.find(w=>w.kind==='waterfall');
+ assert.ok(w.material.fragmentShader.includes('foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.'));
+ assert.ok(!w.material.vertexShader.includes('threadFootprint'));
+ a.dispose();
 });
