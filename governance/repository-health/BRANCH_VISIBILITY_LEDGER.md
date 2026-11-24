@@ -1,33 +1,41 @@
 # Schemin '26 — Repository Visibility Ledger
 
-**Inventory day (UTC):** 2026-11-20
+**Inventory day (UTC):** 2026-11-24
 **Repository:** https://github.com/jakekaloper-hub/schemin-26
-**Main HEAD at inventory:** 83818c68f8dc338c2d70d827e90244ef4abd2c2d
+**Main HEAD at inventory:** db559bc97ef105c981f1f3d346a2e5332a8b6c93
 **Main branch protection:** UNPROTECTED
 
 > Visibility does not imply canon, approval, merge, or publication. Source, domain authority, QA and release evidence remain governed by PROJECT_CONTROL_REGISTRY.md.
 
 ## Summary
 
-- 300 branches including main; 35 open pull requests
-- 32 draft; 3 reviewable
-- 5 stacked PRs targeting a non-main base
-- 24 non-main branches without any same-repository PR record
+- 315 branches including main; 42 open pull requests
+- 40 draft; 2 reviewable
+- 7 stacked PRs targeting a non-main base
+- 26 non-main branches without any same-repository PR record
 
 ## Every open pull request
 
 | PR | State | Base | Head | Title |
 |---|---|---|---|---|
+| [#348](https://github.com/jakekaloper-hub/schemin-26/pull/348) | DRAFT | feat/gap-remediation-canary-20261122 | feat/bullpen-image-candidate-handoff-20261122 | Draft: connect source custody to image-candidate handoff (no rendering authorization) |
+| [#347](https://github.com/jakekaloper-hub/schemin-26/pull/347) | DRAFT | memo-week10-preproduction-20261116 | feat/week10-30min-film-storyboard-20261122 | [DRAFT] Week 10 — 30:00 Commonwealth film storyboard (34 scenes / 186 shots) |
+| [#346](https://github.com/jakekaloper-hub/schemin-26/pull/346) | DRAFT | main | feat/gap-remediation-canary-20261122 | Draft: four-gap remediation — local model draft worker, source custody and forecast holds |
+| [#344](https://github.com/jakekaloper-hub/schemin-26/pull/344) | DRAFT | main | memo-v52rc-steward-receipt-boundary-20261121 | memo(sck): block claimed ACK until independent signed Steward receipt verifies (P0 candidate) |
+| [#343](https://github.com/jakekaloper-hub/schemin-26/pull/343) | DRAFT | main | audit/architecture-inventory-20261120 | Audit: all-path cross-OS inventory and evidence-gated World Engine modernization |
+| [#341](https://github.com/jakekaloper-hub/schemin-26/pull/341) | DRAFT | main | audit/all-subsystems-world-engine-20261120 | Audit: freeze complete subsystem inventory and World Engine modernization mission |
+| [#339](https://github.com/jakekaloper-hub/schemin-26/pull/339) | DRAFT | main | feat/atlas-geo-board-photo-bridge-20261120 | DRAFT: Bullpen Atlas geography board + parallel cinematic photo library handoff |
+| [#337](https://github.com/jakekaloper-hub/schemin-26/pull/337) | DRAFT | main | feat/commonwealth-cinematic-loc-folio-20261120 | Commonwealth Folio Studio: 3 divisions, 12 homes, Atlas + draft Island (code only) |
 | [#326](https://github.com/jakekaloper-hub/schemin-26/pull/326) | DRAFT | memo-week10-preproduction-20261116 | memo-week11-storyroom-20261120 | WIP: Week 11 story-room continuation on Week 10 preproduction |
 | [#325](https://github.com/jakekaloper-hub/schemin-26/pull/325) | DRAFT | feat/postseason-island-historical-foundation-20261118 | feat/atlas-three-layer-147-sites-20261120 | Atlas three-depth summit: preserve 103 established IDs and propose 44 source-anchored locations |
 | [#324](https://github.com/jakekaloper-hub/schemin-26/pull/324) | DRAFT | main | feat/atlas-location-summit-20261120 | Atlas: 111 three-layer dossiers, 40 new candidate locations and 2015–2025 history crosswalk |
 | [#322](https://github.com/jakekaloper-hub/schemin-26/pull/322) | DRAFT | main | feat/postseason-island-historical-foundation-20261118 | Postseason Island foundation: 11-season brackets, 56 contest treatments, arena and beach continuity |
 | [#321](https://github.com/jakekaloper-hub/schemin-26/pull/321) | DRAFT | main | feat/postseason-island-history-2015-2025-20261118 | Postseason island foundation: 2015–2025 bracket archaeology, 56 scene seeds, and challenge/camp system |
 | [#320](https://github.com/jakekaloper-hub/schemin-26/pull/320) | DRAFT | main | production/road-to-seven-20261118 | The Road to Seven — 7 canon-bound folios, Flaim rosters and 36 live FFHub scenarios |
-| [#315](https://github.com/jakekaloper-hub/schemin-26/pull/315) | DRAFT | main | memo-week10-preproduction-20261116 | Week 10  /  Final sources, design and playoff integration — PNG paused |
+| [#315](https://github.com/jakekaloper-hub/schemin-26/pull/315) | DRAFT | main | memo-week10-preproduction-20261116 | Week 10 / verified 35-page PDF + preproduction sources — release gate open |
 | [#314](https://github.com/jakekaloper-hub/schemin-26/pull/314) | DRAFT | feat/commonwealth-audience-site-v2-story-graph | feat/commonwealth-observer-foundation-20261115 | Commonwealth observer foundation: spectator access, Atlas visibility and El Niño weather policy |
-| [#313](https://github.com/jakekaloper-hub/schemin-26/pull/313) | DRAFT | main | memo-v52rc-20261115-intake | memo(data): Nov 15–19 Week 10 finals + Week 11 typed intake (V5.2-RC) |
-| [#312](https://github.com/jakekaloper-hub/schemin-26/pull/312) | REVIEW | main | memo-v52rc-20261114-lineage-intake | memo(data): Nov 14 typed waiver lineage regression and provider intake (V5.2-RC) |
+| [#313](https://github.com/jakekaloper-hub/schemin-26/pull/313) | DRAFT | main | memo-v52rc-20261115-intake | memo(data): Nov 15–22 Week 10 finals + Week 11 typed intake (V5.2-RC) |
+| [#312](https://github.com/jakekaloper-hub/schemin-26/pull/312) | DRAFT | main | memo-v52rc-20261114-lineage-intake | memo(data): Nov 14 typed waiver lineage regression and provider intake (V5.2-RC) |
 | [#309](https://github.com/jakekaloper-hub/schemin-26/pull/309) | REVIEW | story-production-graph-v1 | feat/commonwealth-audience-site-v2-story-graph | Audience Site V2: recover Commonwealth reader onto Story Graph |
 | [#307](https://github.com/jakekaloper-hub/schemin-26/pull/307) | REVIEW | main | story-production-graph-v1 | Story Production Graph V1: 2026 Memo Weeks 1–9 Event, Scene, Chronicle and Compiler convergence |
 | [#278](https://github.com/jakekaloper-hub/schemin-26/pull/278) | DRAFT | main | fix/week8-release-validation-20261106 | fix(memo): enforce provider-backed preview fixtures in final release gate |
@@ -36,7 +44,6 @@
 | [#265](https://github.com/jakekaloper-hub/schemin-26/pull/265) | DRAFT | main | feature/after-dark-p2b-host-studio-bible-20261028 | After Dark P2B: candidate host and Central Basin broadcasting studio bible |
 | [#264](https://github.com/jakekaloper-hub/schemin-26/pull/264) | DRAFT | main | novel/noncanon-ch1-causal-proof-20261028 | Draft: Chapter I causal reading reconstruction V2 (noncanon, three owner POV) |
 | [#262](https://github.com/jakekaloper-hub/schemin-26/pull/262) | DRAFT | main | bullpen/openai-image-route-20261028 | Memo OS: opt-in OpenAI Images API 9:16 adapter |
-| [#261](https://github.com/jakekaloper-hub/schemin-26/pull/261) | DRAFT | main | audit/novel-execution-drift-20261028 | Novel OS: detect stale execution-state claims before mission resume |
 | [#258](https://github.com/jakekaloper-hub/schemin-26/pull/258) | DRAFT | main | week7/trade-deadline-reconciliation-20261027 | Week 7: integrate November 4 trade deadline into existing V5.2-RC intake |
 | [#256](https://github.com/jakekaloper-hub/schemin-26/pull/256) | DRAFT | main | memo/week7-founder-preproduction-20261027 | Week 7 preproduction: Founder decisions, six manuscripts and 22-folio contract register |
 | [#253](https://github.com/jakekaloper-hub/schemin-26/pull/253) | DRAFT | main | feature/commonwealth-visual-library-20261026 | feat: Commonwealth Visual Library — canonical character reference gallery |
@@ -61,12 +68,14 @@ Unlinked branches appear first. No PR does not prove unmerged work; a branch can
 | Branch | Best matching PR | State | Target |
 |---|---|---|---|
 | [archive/week7-preproduction-library-20261026](https://github.com/jakekaloper-hub/schemin-26/tree/archive/week7-preproduction-library-20261026) | No PR | NEEDS TRIAGE | — |
+| [automation/repository-visibility-20261121-44944407536](https://github.com/jakekaloper-hub/schemin-26/tree/automation/repository-visibility-20261121-44944407536) | No PR | NEEDS TRIAGE | — |
+| [automation/repository-visibility-20261122-45065842167](https://github.com/jakekaloper-hub/schemin-26/tree/automation/repository-visibility-20261122-45065842167) | No PR | NEEDS TRIAGE | — |
+| [automation/repository-visibility-20261124-45300263136](https://github.com/jakekaloper-hub/schemin-26/tree/automation/repository-visibility-20261124-45300263136) | No PR | NEEDS TRIAGE | — |
 | [bullpen/week4-cover-sandbox-acceptance](https://github.com/jakekaloper-hub/schemin-26/tree/bullpen/week4-cover-sandbox-acceptance) | No PR | NEEDS TRIAGE | — |
 | [bullpen/week5-readiness-reconciliation](https://github.com/jakekaloper-hub/schemin-26/tree/bullpen/week5-readiness-reconciliation) | No PR | NEEDS TRIAGE | — |
 | [character-12of12-integrity-2026-10-05](https://github.com/jakekaloper-hub/schemin-26/tree/character-12of12-integrity-2026-10-05) | No PR | NEEDS TRIAGE | — |
 | [data/live](https://github.com/jakekaloper-hub/schemin-26/tree/data/live) | No PR | NEEDS TRIAGE | — |
 | [fix/memo-p0-steward-gates-20261029](https://github.com/jakekaloper-hub/schemin-26/tree/fix/memo-p0-steward-gates-20261029) | No PR | NEEDS TRIAGE | — |
-| [governance/repository-visibility-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/governance/repository-visibility-20261120) | No PR | NEEDS TRIAGE | — |
 | [memo/week4-publication-fidelity-acceptance](https://github.com/jakekaloper-hub/schemin-26/tree/memo/week4-publication-fidelity-acceptance) | No PR | NEEDS TRIAGE | — |
 | [memo/week6-v52rc-intake-20261018](https://github.com/jakekaloper-hub/schemin-26/tree/memo/week6-v52rc-intake-20261018) | No PR | NEEDS TRIAGE | — |
 | [mission/chapter-i-golden-path-canary](https://github.com/jakekaloper-hub/schemin-26/tree/mission/chapter-i-golden-path-canary) | No PR | NEEDS TRIAGE | — |
@@ -87,9 +96,11 @@ Unlinked branches appear first. No PR does not prove unmerged work; a branch can
 | [architecture/repository-v2](https://github.com/jakekaloper-hub/schemin-26/tree/architecture/repository-v2) | [#91](https://github.com/jakekaloper-hub/schemin-26/pull/91) | MERGED | main |
 | [archive/week-4-6-2026-commissioner-source-receipts](https://github.com/jakekaloper-hub/schemin-26/tree/archive/week-4-6-2026-commissioner-source-receipts) | [#232](https://github.com/jakekaloper-hub/schemin-26/pull/232) | MERGED | main |
 | [atlas/week7-six-site-geographic-candidates](https://github.com/jakekaloper-hub/schemin-26/tree/atlas/week7-six-site-geographic-candidates) | [#242](https://github.com/jakekaloper-hub/schemin-26/pull/242) | DRAFT | main |
+| [audit/all-subsystems-world-engine-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/audit/all-subsystems-world-engine-20261120) | [#341](https://github.com/jakekaloper-hub/schemin-26/pull/341) | DRAFT | main |
+| [audit/architecture-inventory-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/audit/architecture-inventory-20261120) | [#343](https://github.com/jakekaloper-hub/schemin-26/pull/343) | DRAFT | main |
 | [audit/fla-extraction-postbuild-v1](https://github.com/jakekaloper-hub/schemin-26/tree/audit/fla-extraction-postbuild-v1) | [#95](https://github.com/jakekaloper-hub/schemin-26/pull/95) | MERGED | main |
 | [audit/hcsr-193-phase0a-inventory](https://github.com/jakekaloper-hub/schemin-26/tree/audit/hcsr-193-phase0a-inventory) | [#194](https://github.com/jakekaloper-hub/schemin-26/pull/194) | MERGED | main |
-| [audit/novel-execution-drift-20261028](https://github.com/jakekaloper-hub/schemin-26/tree/audit/novel-execution-drift-20261028) | [#261](https://github.com/jakekaloper-hub/schemin-26/pull/261) | DRAFT | main |
+| [audit/novel-execution-drift-20261028](https://github.com/jakekaloper-hub/schemin-26/tree/audit/novel-execution-drift-20261028) | [#261](https://github.com/jakekaloper-hub/schemin-26/pull/261) | CLOSED_UNMERGED | main |
 | [bullpen/branch-visibility-audit-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/bullpen/branch-visibility-audit-20261120) | [#331](https://github.com/jakekaloper-hub/schemin-26/pull/331) | MERGED | main |
 | [bullpen/character-runtime-convergence-20261018](https://github.com/jakekaloper-hub/schemin-26/tree/bullpen/character-runtime-convergence-20261018) | [#204](https://github.com/jakekaloper-hub/schemin-26/pull/204) | MERGED | main |
 | [bullpen/combined-cinematic-integration-20261022](https://github.com/jakekaloper-hub/schemin-26/tree/bullpen/combined-cinematic-integration-20261022) | [#233](https://github.com/jakekaloper-hub/schemin-26/pull/233) | MERGED | main |
@@ -126,14 +137,17 @@ Unlinked branches appear first. No PR does not prove unmerged work; a branch can
 | [data/memo-week9-intake-20261107](https://github.com/jakekaloper-hub/schemin-26/tree/data/memo-week9-intake-20261107) | [#279](https://github.com/jakekaloper-hub/schemin-26/pull/279) | MERGED | main |
 | [data/memo-week9-intake-20261108](https://github.com/jakekaloper-hub/schemin-26/tree/data/memo-week9-intake-20261108) | [#280](https://github.com/jakekaloper-hub/schemin-26/pull/280) | MERGED | main |
 | [docs/external-ai-production-charter-v3](https://github.com/jakekaloper-hub/schemin-26/tree/docs/external-ai-production-charter-v3) | [#245](https://github.com/jakekaloper-hub/schemin-26/pull/245) | MERGED | main |
+| [feat/atlas-geo-board-photo-bridge-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/feat/atlas-geo-board-photo-bridge-20261120) | [#339](https://github.com/jakekaloper-hub/schemin-26/pull/339) | DRAFT | main |
 | [feat/atlas-location-summit-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/feat/atlas-location-summit-20261120) | [#324](https://github.com/jakekaloper-hub/schemin-26/pull/324) | DRAFT | main |
 | [feat/atlas-publication-convergence](https://github.com/jakekaloper-hub/schemin-26/tree/feat/atlas-publication-convergence) | [#45](https://github.com/jakekaloper-hub/schemin-26/pull/45) | MERGED | main |
 | [feat/atlas-three-layer-147-sites-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/feat/atlas-three-layer-147-sites-20261120) | [#325](https://github.com/jakekaloper-hub/schemin-26/pull/325) | DRAFT | feat/postseason-island-historical-foundation-20261118 |
 | [feat/author-council-cs-lewis-2026](https://github.com/jakekaloper-hub/schemin-26/tree/feat/author-council-cs-lewis-2026) | [#254](https://github.com/jakekaloper-hub/schemin-26/pull/254) | MERGED | main |
 | [feat/bullpen-command-adapter-v2](https://github.com/jakekaloper-hub/schemin-26/tree/feat/bullpen-command-adapter-v2) | [#35](https://github.com/jakekaloper-hub/schemin-26/pull/35) | MERGED | main |
 | [feat/bullpen-counterweight-adapter](https://github.com/jakekaloper-hub/schemin-26/tree/feat/bullpen-counterweight-adapter) | [#36](https://github.com/jakekaloper-hub/schemin-26/pull/36) | MERGED | main |
+| [feat/bullpen-image-candidate-handoff-20261122](https://github.com/jakekaloper-hub/schemin-26/tree/feat/bullpen-image-candidate-handoff-20261122) | [#348](https://github.com/jakekaloper-hub/schemin-26/pull/348) | DRAFT | feat/gap-remediation-canary-20261122 |
 | [feat/commonwealth-audience-site-20261022](https://github.com/jakekaloper-hub/schemin-26/tree/feat/commonwealth-audience-site-20261022) | [#236](https://github.com/jakekaloper-hub/schemin-26/pull/236) | DRAFT | main |
 | [feat/commonwealth-audience-site-v2-story-graph](https://github.com/jakekaloper-hub/schemin-26/tree/feat/commonwealth-audience-site-v2-story-graph) | [#309](https://github.com/jakekaloper-hub/schemin-26/pull/309) | REVIEW | story-production-graph-v1 |
+| [feat/commonwealth-cinematic-loc-folio-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/feat/commonwealth-cinematic-loc-folio-20261120) | [#337](https://github.com/jakekaloper-hub/schemin-26/pull/337) | DRAFT | main |
 | [feat/commonwealth-creative-production-integration](https://github.com/jakekaloper-hub/schemin-26/tree/feat/commonwealth-creative-production-integration) | [#252](https://github.com/jakekaloper-hub/schemin-26/pull/252) | DRAFT | main |
 | [feat/commonwealth-literary-summit-evidence-pilot](https://github.com/jakekaloper-hub/schemin-26/tree/feat/commonwealth-literary-summit-evidence-pilot) | [#220](https://github.com/jakekaloper-hub/schemin-26/pull/220) | DRAFT | main |
 | [feat/commonwealth-observer-foundation-20261115](https://github.com/jakekaloper-hub/schemin-26/tree/feat/commonwealth-observer-foundation-20261115) | [#314](https://github.com/jakekaloper-hub/schemin-26/pull/314) | DRAFT | feat/commonwealth-audience-site-v2-story-graph |
@@ -141,6 +155,7 @@ Unlinked branches appear first. No PR does not prove unmerged work; a branch can
 | [feat/enforcement-plane-v1-2026-09-28](https://github.com/jakekaloper-hub/schemin-26/tree/feat/enforcement-plane-v1-2026-09-28) | [#17](https://github.com/jakekaloper-hub/schemin-26/pull/17) | CLOSED_UNMERGED | chore/librarian-deprecation-canon-lock-2026-09-28 |
 | [feat/execution-control-adapter-v1](https://github.com/jakekaloper-hub/schemin-26/tree/feat/execution-control-adapter-v1) | [#90](https://github.com/jakekaloper-hub/schemin-26/pull/90) | MERGED | main |
 | [feat/fla-resilience-harvest-v1](https://github.com/jakekaloper-hub/schemin-26/tree/feat/fla-resilience-harvest-v1) | [#94](https://github.com/jakekaloper-hub/schemin-26/pull/94) | MERGED | main |
+| [feat/gap-remediation-canary-20261122](https://github.com/jakekaloper-hub/schemin-26/tree/feat/gap-remediation-canary-20261122) | [#346](https://github.com/jakekaloper-hub/schemin-26/pull/346) | DRAFT | main |
 | [feat/member-ai-gateway-phase1](https://github.com/jakekaloper-hub/schemin-26/tree/feat/member-ai-gateway-phase1) | [#34](https://github.com/jakekaloper-hub/schemin-26/pull/34) | CLOSED_UNMERGED | main |
 | [feat/original-website-artwork](https://github.com/jakekaloper-hub/schemin-26/tree/feat/original-website-artwork) | [#237](https://github.com/jakekaloper-hub/schemin-26/pull/237) | DRAFT | feat/commonwealth-audience-site-20261022 |
 | [feat/playoff-context-intelligence-v1](https://github.com/jakekaloper-hub/schemin-26/tree/feat/playoff-context-intelligence-v1) | [#111](https://github.com/jakekaloper-hub/schemin-26/pull/111) | MERGED | main |
@@ -150,6 +165,7 @@ Unlinked branches appear first. No PR does not prove unmerged work; a branch can
 | [feat/task-orientation-v1](https://github.com/jakekaloper-hub/schemin-26/tree/feat/task-orientation-v1) | [#88](https://github.com/jakekaloper-hub/schemin-26/pull/88) | MERGED | main |
 | [feat/unreal-world-adapter-20261022](https://github.com/jakekaloper-hub/schemin-26/tree/feat/unreal-world-adapter-20261022) | [#238](https://github.com/jakekaloper-hub/schemin-26/pull/238) | MERGED | main |
 | [feat/video-intelligence-217](https://github.com/jakekaloper-hub/schemin-26/tree/feat/video-intelligence-217) | [#218](https://github.com/jakekaloper-hub/schemin-26/pull/218) | MERGED | main |
+| [feat/week10-30min-film-storyboard-20261122](https://github.com/jakekaloper-hub/schemin-26/tree/feat/week10-30min-film-storyboard-20261122) | [#347](https://github.com/jakekaloper-hub/schemin-26/pull/347) | DRAFT | memo-week10-preproduction-20261116 |
 | [feat/week10-playoff-context-code-20261117](https://github.com/jakekaloper-hub/schemin-26/tree/feat/week10-playoff-context-code-20261117) | [#316](https://github.com/jakekaloper-hub/schemin-26/pull/316) | MERGED | main |
 | [feature/after-dark-p2b-host-studio-bible-20261028](https://github.com/jakekaloper-hub/schemin-26/tree/feature/after-dark-p2b-host-studio-bible-20261028) | [#265](https://github.com/jakekaloper-hub/schemin-26/pull/265) | DRAFT | main |
 | [feature/commonwealth-visual-library-20261026](https://github.com/jakekaloper-hub/schemin-26/tree/feature/commonwealth-visual-library-20261026) | [#253](https://github.com/jakekaloper-hub/schemin-26/pull/253) | DRAFT | main |
@@ -164,18 +180,23 @@ Unlinked branches appear first. No PR does not prove unmerged work; a branch can
 | [fix/archivist-cli-root-20261024](https://github.com/jakekaloper-hub/schemin-26/tree/fix/archivist-cli-root-20261024) | [#240](https://github.com/jakekaloper-hub/schemin-26/pull/240) | MERGED | main |
 | [fix/character-lock-r1-r7](https://github.com/jakekaloper-hub/schemin-26/tree/fix/character-lock-r1-r7) | [#32](https://github.com/jakekaloper-hub/schemin-26/pull/32) | CLOSED_UNMERGED | main |
 | [fix/character-reference-binary-preflight-20261021](https://github.com/jakekaloper-hub/schemin-26/tree/fix/character-reference-binary-preflight-20261021) | [#223](https://github.com/jakekaloper-hub/schemin-26/pull/223) | MERGED | main |
+| [fix/memo-preview-schedule-guard-isolated-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/fix/memo-preview-schedule-guard-isolated-20261120) | [#338](https://github.com/jakekaloper-hub/schemin-26/pull/338) | MERGED | main |
+| [fix/memo-transaction-lineage-isolated-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/fix/memo-transaction-lineage-isolated-20261120) | [#335](https://github.com/jakekaloper-hub/schemin-26/pull/335) | MERGED | main |
+| [fix/novel-execution-drift-visibility-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/fix/novel-execution-drift-visibility-20261120) | [#336](https://github.com/jakekaloper-hub/schemin-26/pull/336) | MERGED | main |
 | [fix/p0-12-owner-reference-coverage](https://github.com/jakekaloper-hub/schemin-26/tree/fix/p0-12-owner-reference-coverage) | [#161](https://github.com/jakekaloper-hub/schemin-26/pull/161) | MERGED | main |
 | [fix/p0-guard-renderer-source-inputs](https://github.com/jakekaloper-hub/schemin-26/tree/fix/p0-guard-renderer-source-inputs) | [#160](https://github.com/jakekaloper-hub/schemin-26/pull/160) | MERGED | main |
 | [fix/p0-ingest-two-original-primary-bytes](https://github.com/jakekaloper-hub/schemin-26/tree/fix/p0-ingest-two-original-primary-bytes) | [#159](https://github.com/jakekaloper-hub/schemin-26/pull/159) | MERGED | main |
 | [fix/p0-nine-owner-posters-20261013](https://github.com/jakekaloper-hub/schemin-26/tree/fix/p0-nine-owner-posters-20261013) | [#158](https://github.com/jakekaloper-hub/schemin-26/pull/158) | MERGED | main |
 | [fix/p0-render-payload-20261013](https://github.com/jakekaloper-hub/schemin-26/tree/fix/p0-render-payload-20261013) | [#155](https://github.com/jakekaloper-hub/schemin-26/pull/155) | DRAFT | main |
 | [fix/p0-sync-primary-source-status](https://github.com/jakekaloper-hub/schemin-26/tree/fix/p0-sync-primary-source-status) | [#162](https://github.com/jakekaloper-hub/schemin-26/pull/162) | MERGED | main |
+| [fix/repository-visibility-review-gate-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/fix/repository-visibility-review-gate-20261120) | [#334](https://github.com/jakekaloper-hub/schemin-26/pull/334) | MERGED | main |
 | [fix/task-orientation-packet-integrity-v1-1](https://github.com/jakekaloper-hub/schemin-26/tree/fix/task-orientation-packet-integrity-v1-1) | [#93](https://github.com/jakekaloper-hub/schemin-26/pull/93) | MERGED | main |
 | [fix/week10-analytics-audit-20261117](https://github.com/jakekaloper-hub/schemin-26/tree/fix/week10-analytics-audit-20261117) | [#317](https://github.com/jakekaloper-hub/schemin-26/pull/317) | MERGED | main |
 | [fix/week7-story-first-production-gate-20261022](https://github.com/jakekaloper-hub/schemin-26/tree/fix/week7-story-first-production-gate-20261022) | [#235](https://github.com/jakekaloper-hub/schemin-26/pull/235) | MERGED | main |
 | [fix/week8-release-validation-20261106](https://github.com/jakekaloper-hub/schemin-26/tree/fix/week8-release-validation-20261106) | [#278](https://github.com/jakekaloper-hub/schemin-26/pull/278) | DRAFT | main |
 | [fix/week9-apply-current-character-authority-20261108](https://github.com/jakekaloper-hub/schemin-26/tree/fix/week9-apply-current-character-authority-20261108) | [#291](https://github.com/jakekaloper-hub/schemin-26/pull/291) | MERGED | main |
 | [fix/week9-settled-character-continuation-20261108](https://github.com/jakekaloper-hub/schemin-26/tree/fix/week9-settled-character-continuation-20261108) | [#285](https://github.com/jakekaloper-hub/schemin-26/pull/285) | MERGED | main |
+| [governance/repository-visibility-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/governance/repository-visibility-20261120) | [#333](https://github.com/jakekaloper-hub/schemin-26/pull/333) | MERGED | main |
 | [governance/schemin-org-design-v1](https://github.com/jakekaloper-hub/schemin-26/tree/governance/schemin-org-design-v1) | [#33](https://github.com/jakekaloper-hub/schemin-26/pull/33) | CLOSED_UNMERGED | main |
 | [hotfix/dk-current-visual-guard-20261018](https://github.com/jakekaloper-hub/schemin-26/tree/hotfix/dk-current-visual-guard-20261018) | [#197](https://github.com/jakekaloper-hub/schemin-26/pull/197) | MERGED | main |
 | [incident/character-reference-authority-router](https://github.com/jakekaloper-hub/schemin-26/tree/incident/character-reference-authority-router) | [#83](https://github.com/jakekaloper-hub/schemin-26/pull/83) | MERGED | main |
@@ -194,8 +215,9 @@ Unlinked branches appear first. No PR does not prove unmerged work; a branch can
 | [memo-v52rc-20261112-espn-week10](https://github.com/jakekaloper-hub/schemin-26/tree/memo-v52rc-20261112-espn-week10) | [#305](https://github.com/jakekaloper-hub/schemin-26/pull/305) | MERGED | main |
 | [memo-v52rc-20261113-espn-week10](https://github.com/jakekaloper-hub/schemin-26/tree/memo-v52rc-20261113-espn-week10) | [#310](https://github.com/jakekaloper-hub/schemin-26/pull/310) | MERGED | main |
 | [memo-v52rc-20261113-gateway-scope-qa](https://github.com/jakekaloper-hub/schemin-26/tree/memo-v52rc-20261113-gateway-scope-qa) | [#311](https://github.com/jakekaloper-hub/schemin-26/pull/311) | MERGED | main |
-| [memo-v52rc-20261114-lineage-intake](https://github.com/jakekaloper-hub/schemin-26/tree/memo-v52rc-20261114-lineage-intake) | [#312](https://github.com/jakekaloper-hub/schemin-26/pull/312) | REVIEW | main |
+| [memo-v52rc-20261114-lineage-intake](https://github.com/jakekaloper-hub/schemin-26/tree/memo-v52rc-20261114-lineage-intake) | [#312](https://github.com/jakekaloper-hub/schemin-26/pull/312) | DRAFT | main |
 | [memo-v52rc-20261115-intake](https://github.com/jakekaloper-hub/schemin-26/tree/memo-v52rc-20261115-intake) | [#313](https://github.com/jakekaloper-hub/schemin-26/pull/313) | DRAFT | main |
+| [memo-v52rc-steward-receipt-boundary-20261121](https://github.com/jakekaloper-hub/schemin-26/tree/memo-v52rc-steward-receipt-boundary-20261121) | [#344](https://github.com/jakekaloper-hub/schemin-26/pull/344) | DRAFT | main |
 | [memo-week10-preproduction-20261116](https://github.com/jakekaloper-hub/schemin-26/tree/memo-week10-preproduction-20261116) | [#315](https://github.com/jakekaloper-hub/schemin-26/pull/315) | DRAFT | main |
 | [memo-week11-storyroom-20261120](https://github.com/jakekaloper-hub/schemin-26/tree/memo-week11-storyroom-20261120) | [#326](https://github.com/jakekaloper-hub/schemin-26/pull/326) | DRAFT | memo-week10-preproduction-20261116 |
 | [memo-week5-retrospective-guardrails-20261014](https://github.com/jakekaloper-hub/schemin-26/tree/memo-week5-retrospective-guardrails-20261014) | [#165](https://github.com/jakekaloper-hub/schemin-26/pull/165) | MERGED | main |
