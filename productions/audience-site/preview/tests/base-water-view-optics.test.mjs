@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import * as THREE from '../vendor/three.module.js';
 import {createBaseWaterMaterial} from '../three-world.mjs';
+import {illustrativeLight} from '../spatial.mjs';
 
 const source=readFileSync(new URL('../three-world.mjs',import.meta.url),'utf8');
 function waterAt(x,y,time){
@@ -65,4 +66,21 @@ test('view-responsive light changes while storm calm never freezes ordinary wate
  m.uniforms.uTime.value=5;m.uniforms.uStorm.value=0;
  assert.equal(m.uniforms.uTime.value,5,'global calm changes weather, not river clock');
  m.dispose();
+});
+
+
+test('base water direct solar reflection follows the same shared-clock daylight as the sky',()=>{
+ const material=createBaseWaterMaterial(THREE),f=material.fragmentShader;
+ assert.match(f,/float solarDaylight=clamp\(\(uStrength-\.32\)\/\.68,0\.,1\.\)/);
+ assert.match(f,/col\+=vec3\(\.38,\.34,\.21\)\*glint\*\.35\*solarDaylight;/);
+ assert.match(f,/col=mix\(col,vec3\(\.36,\.47,\.47\),\(\.10\+\.27\*fresnel\)\)/);
+ assert.match(f,/col\*=\.45\+\.55\*uStrength/);
+ assert.match(source,/oceanMaterial\.uniforms\.uStrength\.value=strength/);
+ const daylight=hour=>Math.max(0,Math.min(1,(illustrativeLight(hour).strength-.32)/.68));
+ for(const hour of [0,3,6,18,21,23])assert.ok(daylight(hour)<1e-12);
+ assert.ok(Math.abs(daylight(12)-1)<1e-12);
+ assert.ok(daylight(7)<daylight(9)&&daylight(9)<daylight(12));
+ assert.ok(daylight(12)>daylight(15)&&daylight(15)>daylight(17));
+ assert.notEqual(waterAt(0,0,0).height,waterAt(0,0,5).height);
+ material.dispose();
 });

@@ -207,7 +207,9 @@ export function createBaseWaterMaterial(THREE,shorelineTexture=null){
     float fresnel=pow(1.-max(dot(n,viewDir),0.),3.);
     float glint=pow(max(dot(reflect(-sunDir,n),viewDir),0.),64.);
     col=mix(col,vec3(.36,.47,.47),(.10+.27*fresnel));
-    col+=vec3(.38,.34,.21)*glint*.35;
+    // Match the sky solar halo: night retains ambient water optics, not direct sunlight.
+    float solarDaylight=clamp((uStrength-.32)/.68,0.,1.);
+    col+=vec3(.38,.34,.21)*glint*.35*solarDaylight;
     // Existing terrain determines shallows; normal uTime drives highlights.
     vec2 shoreUV=(vP.xz+vec2(110.))/220.;
     float within=step(0.,shoreUV.x)*step(shoreUV.x,1.)*step(0.,shoreUV.y)*step(shoreUV.y,1.);
