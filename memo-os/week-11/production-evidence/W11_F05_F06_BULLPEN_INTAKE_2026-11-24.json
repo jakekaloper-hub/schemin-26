@@ -1,0 +1,59 @@
+{
+  "source": "PR313_F05_F06_CANDIDATE_INTAKE",
+  "request_id": "W11-F05-F06-41e2234966f6",
+  "folios": [
+    {
+      "folio": "F05",
+      "native_sha256": "edebad3feabb651adf48dcb8ae46e72ddb7f9103c39dffc0d8bcdb27d3b7259a",
+      "phone_sha256": "fb8f26ff603c7a92bdca2f5dc9de6e7659db4b08897abbc59a42dc0f14d01f4d"
+    },
+    {
+      "folio": "F06",
+      "native_sha256": "04852f907bb439358a8df5f01d2858fe988aece2ed50694038e4e137f3434706",
+      "phone_sha256": "853bfa34738fe31990ff7d7c2d5621de28e9f1e31060b41047f1b071bae6c5db"
+    }
+  ],
+  "started": "2026-11-24T15:48:48.773Z",
+  "finished": "2026-11-24T15:49:37.002Z",
+  "manifest_sha256": "41e2234966f671b922435c92c5dcebcdd3fb72998a30d8f5afd88e62ec63129a",
+  "runtime_commit": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+  "model": "qwen2.5-coder:7b",
+  "staff": {
+    "name": "OutputReviewStaff",
+    "owner": "the_gm",
+    "implementation_blob": "4b647a0c87845acebb887c797ec1ccf6f263289b",
+    "result": {
+      "passed": true,
+      "failures": [],
+      "requirementCount": 23,
+      "evidenceCount": 1
+    }
+  },
+  "channels": [
+    {
+      "channel": "the_setup_man",
+      "channel_readback_sha256": "41e2234966f671b922435c92c5dcebcdd3fb72998a30d8f5afd88e62ec63129a",
+      "message_id": 1,
+      "received_at": "2026-11-24T15:48:48.778Z",
+      "disposition": "RECEIVE_FOR_INTERNAL_REVIEW",
+      "response_sha256": "c3f2e5f39a7c1f9ad66fa91edc21fce995e962dddee7f17d477d0dead39b4b2f",
+      "initial_response_sha256": "48cb3c480257745003758484195dbc851f4a79f49441404180cdc72905bfdcc2",
+      "initial_disposition": "UNCLASSIFIED_RESPONSE"
+    },
+    {
+      "channel": "the_gm",
+      "channel_readback_sha256": "41e2234966f671b922435c92c5dcebcdd3fb72998a30d8f5afd88e62ec63129a",
+      "message_id": 2,
+      "received_at": "2026-11-24T15:48:57.622Z",
+      "disposition": "RECEIVE_FOR_INTERNAL_REVIEW",
+      "response_sha256": "c3f2e5f39a7c1f9ad66fa91edc21fce995e962dddee7f17d477d0dead39b4b2f",
+      "initial_response_sha256": "3efb6337c6dbf475935f8622098128e7b526d31761e530eae1af9216ccbf9080",
+      "initial_disposition": "UNCLASSIFIED_RESPONSE"
+    }
+  ],
+  "trace_count": 4,
+  "delivery_scope": "Canonical message store with process-local memory adapter and live loopback director consults. Exact candidate-manifest bytes read back on both channels. Staff inspected manifest text. All four PNG hashes and sizes plus both Lanczos downsample pixel arrays independently verified. Models saw manifest only.",
+  "commissioner_rank_signoff": false,
+  "publication_approved": false,
+  "followup_scope": "Two targeted disposition clarifications on the same submission. No duplicate delivery."
+}
