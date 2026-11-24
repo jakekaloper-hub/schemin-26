@@ -493,7 +493,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
       // Narrow, broken wake light follows the already-modeled waterfall impact.
       // Rim and bank remain dark; no new water mesh or hydrological path.
       vec2 wakeUv=(vUv-impactUv)*vec2(2.,2.2);
-      float wakeSpoke=pow(max(sin(atan(wakeUv.y,wakeUv.x)*6.+impactRadius*28.-uTime*1.64),0.),12.);
+      // Differentiate the angular phase locally instead of differentiating atan:
+      // its +/-pi branch cut would otherwise create an artificial dark seam.
+      // The existing wake field masks the center; guard the local gradient there.
+      vec2 wakeAngleGradient=vec2(-wakeUv.y,wakeUv.x)/max(dot(wakeUv,wakeUv),.00001);
+      float wakePhaseFootprint=abs(6.*dot(wakeAngleGradient,dFdx(wakeUv))+28.*dFdx(impactRadius))
+        +abs(6.*dot(wakeAngleGradient,dFdy(wakeUv))+28.*dFdy(impactRadius));
+      float wakeSpoke=pow(max(sin(atan(wakeUv.y,wakeUv.x)*6.+impactRadius*28.-uTime*1.64),0.),12.)
+        *(1.-smoothstep(.35,1.15,wakePhaseFootprint));
       float wakeBreak=.5+.5*sin(impactRadius*37.-uTime*2.28+vUv.x*19.);
       float wakeField=smoothstep(.20,.34,impactRadius)
         *(1.-smoothstep(.59,.76,impactRadius))*boundary;

@@ -45,6 +45,10 @@ test('Temple receiving-pool optical wake is geometrically sourced, local, with o
   'plungeGrazing=pow(1.-clamp(abs(dot(plungeNormal,plungeEye)),0.,1.),2.)',
   'plungeFacet=plungeSlope*(.35+.65*plungeGrazing)*boundary',
   'wakeUv=(vUv-impactUv)*vec2(2.,2.2)',
+  'wakeAngleGradient=vec2(-wakeUv.y,wakeUv.x)/max(dot(wakeUv,wakeUv),.00001)',
+  'wakePhaseFootprint=abs(6.*dot(wakeAngleGradient,dFdx(wakeUv))+28.*dFdx(impactRadius))',
+  '+abs(6.*dot(wakeAngleGradient,dFdy(wakeUv))+28.*dFdy(impactRadius))',
+  '*(1.-smoothstep(.35,1.15,wakePhaseFootprint))',
   'wakeSpoke=pow(max(sin(atan(wakeUv.y,wakeUv.x)*6.+impactRadius*28.-uTime*1.64),0.),12.)',
   'wakeField=smoothstep(.20,.34,impactRadius)',
   'wakeGlint=wakeSpoke*sqrt(wakeBreak)*wakeField',
@@ -95,4 +99,37 @@ test('El Niño global calm advances ordinary waterfall/river/pool water; pause a
  }
  a.dispose();a.dispose();assert.equal(ge,1);assert.equal(ma,1);
  assert.equal(JSON.stringify(places),before);
+});
+
+test('rotating wake footprint is finite at center, seam-safe and retains resolved motion',()=>{
+ const footprint=(x,y,h)=>{
+  const r=Math.hypot(x,y),d=Math.max(x*x+y*y,.00001);
+  return Math.abs(6*(-y/d)*h+28*(Math.hypot(x+h,y)-r))
+    +Math.abs(6*(x/d)*h+28*(Math.hypot(x,y+h)-r));
+ };
+ const fade=(x,y,h)=>1-smooth(.35,1.15,footprint(x,y,h));
+ // A quad crossing the negative x-axis has a 2pi atan jump, but no physical phase jump.
+ const x=-.4,h=.001,y=-h/2;
+ const raw=6*Math.abs(Math.atan2(y+h,x)-Math.atan2(y,x));
+ assert.ok(raw>35);
+ assert.ok(footprint(x,y,h)<.1);
+ assert.ok(fade(x,y,h)>.99&&fade(x,-y,h)>.99);
+ assert.ok(Math.abs(fade(x,y,h)-fade(x,-y,h))<1e-10);
+ assert.ok(Number.isFinite(footprint(0,0,h)));
+ let peak=0,change=0,coarse=0,total=0;
+ for(let i=0;i<72;i++){
+  const a=i*Math.PI/36;
+  for(const r of [.34,.4,.5,.59]){
+   const x=r*Math.cos(a),y=r*Math.sin(a);
+   const near=fade(x,y,.002),far=fade(x,y,.05);
+   assert.ok(near>.99);
+   assert.ok(far>=0&&far<=1);
+   total++;if(far<.1)coarse++;
+   const u=.5+x/2,v=.554+y/2.2;
+   peak=Math.max(peak,wake(u,v,0)*near);
+   change=Math.max(change,Math.abs(wake(u,v,0)-wake(u,v,.43))*near);
+  }
+ }
+ assert.ok(coarse/total>.9,coarse+'/'+total);
+ assert.ok(peak>.45&&change>.2);
 });
