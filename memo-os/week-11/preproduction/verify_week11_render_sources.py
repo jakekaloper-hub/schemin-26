@@ -153,6 +153,36 @@ check("g01_lake_hydrology_not_silently_changed",
       duel["stage"]["water_handle"].endswith("::LAKE"),
       "Raging wave effect OK; literal river requires Atlas amendment")
 
+# Founder 2026-11-24 photographic reality / 4K composition-source gate.
+# A PASS certifies instructions are present, never that an image looks photoreal.
+photo = load(ISSUE / "W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json")
+actii_photo = load(ISSUE / "W11_ACTII_P09_GOLD_STANDARD_14_FOLIO_ART_DIRECTION_2026-11-24.json")
+photo_map = {x["id"]:x for x in photo["all_folios"]}
+check("photo_standard_all_35", len(photo_map)==35 and set(photo_map)==set(expected_ids),
+      "35 distinct page-specific photographic material and lens treatments")
+check("photo_reference_is_quality_not_geography",
+      photo["reference_photo"]["source_role"].startswith("Photographic realism") and
+      photo["reference_photo"]["pixels"]==[941,1672] and
+      photo["reference_photo"]["sha256"]=="ab3a5d5b1bff74eb961ca185357a0c177031240db0d39de0180630fcc06bb7e2",
+      "Founder photo reference is 941x1672; must not overwrite other Atlas locations")
+for page in render["pages"]:
+    pid = page["internal_folio_id"]
+    phot = page.get("photographic_realism_contract",{})
+    check("photographic_handoff_"+pid,
+          phot.get("physical_reality_anchor")==photo_map[pid]["photographic_reality_anchor"] and
+          phot.get("source")=="W11_ALL35_HYPERREAL_PHOTOGRAPHY_CONTROL_2026-11-24.json" and
+          "4K" in phot.get("finishing",""),
+          "Quality and physical site material attributes are kept separate from original source copy")
+check("actii_photo_all_14",len(actii_photo["folios"])==14 and
+      all(x.get("photographic_finish_anchor")==photo_map[x["id"]]["photographic_reality_anchor"] for x in actii_photo["folios"]),
+      "Six narrative matchups carry 14 distinct shot/material directions")
+for id in ["F09","F10","F11"]:
+    request = load(ISSUE / "render-inputs" / ("W11-P"+id[-2:]) / "request.json")
+    check("g01_photo_render_request_"+id,
+          request.get("photographic_finish",{}).get("reference_photo_sha256")==photo["reference_photo"]["sha256"] and
+          "PHOTOGRAPHIC REALISM HARD GATE" in request["prompt"],
+          "Actual render request includes physical photo realism rather than only generic high resolution")
+
 result = {
   "status":"WORKING_ART_SOURCE_PREFLIGHT_PASS" if not ERRORS else "WORKING_ART_SOURCE_PREFLIGHT_FAIL",
   "publication_approved":False,
