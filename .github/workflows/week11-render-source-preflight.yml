@@ -28,3 +28,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Verify integrated 35-page packet, approved lineup crops and recovered Oct22 image SHA
         run: python3 memo-os/week-11/preproduction/verify_week11_render_sources.py
+      - name: Verify all six game-ending final score banners are present in the render handoff
+        run: python3 memo-os/week-11/preproduction/validate_week11_result_banners.py
