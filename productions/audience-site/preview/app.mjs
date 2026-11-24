@@ -312,15 +312,41 @@ function drawAmbient(t){
  }
 }
 
-function draw(t){frameId=requestAnimationFrame(draw);if(!renderer)return;if(memorySession||historySession){lastTime=t;return;}const dt=Math.min(.05,(t-lastTime)/1000||.016);lastTime=t;if(!paused&&!document.hidden)animationTime+=dt;
+function draw(t){if(!$('#fallback').hidden||!renderer)return;frameId=requestAnimationFrame(draw);if(memorySession||historySession){lastTime=t;return;}const dt=Math.min(.05,(t-lastTime)/1000||.016);lastTime=t;if(!paused&&!document.hidden)animationTime+=dt;
  if(state.phase==='REVEALING'){const elapsed=(t-revealStart)/2200,f=clamp01(elapsed),s=f*f*(3-2*f);camera={...target,distance:280-(280-target.distance)*s,pitch:1.18-(1.18-target.pitch)*s,yaw:-.11+(.11+target.yaw)*s,target:[...target.target]};if(f===1){dispatch({type:'reveal_finished'});finishReveal();}}
  else if(state.phase==='EXPLORING'&&!paused){const f=1-Math.exp(-dt*6);for(const k of ['distance','pitch','yaw'])camera[k]+=(target[k]-camera[k])*f;camera.target=camera.target.map((v,i)=>v+(target.target[i]-v)*f);}
- const clock=observerClock(new Date().toISOString()),light=illustrativeLight(clock.hour+clock.minute/60);renderer.render(camera,animationTime,{strength:light.strength,storm:demo||0,paused});drawAmbient(animationTime);
+ const clock=observerClock(new Date().toISOString()),light=illustrativeLight(clock.hour+clock.minute/60);renderer.render(camera,animationTime,{strength:light.strength,storm:demo||0,paused});if(!$('#fallback').hidden)return;drawAmbient(animationTime);
  if(state.phase==='EXPLORING'&&t-revealStart>11000)$('#hint').style.opacity='0';
 }
 function clamp01(v){return Math.max(0,Math.min(1,v));}
 window.__observerDebug={state:()=>structuredClone(state),bindings:()=>structuredClone(bindings),weather:()=>structuredClone(weather),metadata:()=>structuredClone(metadata),sourceUnchanged:()=>JSON.stringify(catalog)===original,stats:()=>renderer?.stats,camera:()=>structuredClone(camera),loseContext:()=>renderer?.loseContext()};
-requestAnimationFrame(()=>requestAnimationFrame(async()=>{try{renderer=createWorldRenderer(canvas,bindings,{onContextLost:()=>showFallback('The graphics context was lost. The source Atlas is still available below.')});dispatch({type:'asset_ready',id:'geometry'});if(renderer.prepare)await renderer.prepare(camera);dispatch({type:'asset_ready',id:'renderer'});renderer.render(camera,0,{strength:1});requestAnimationFrame(()=>{dispatch({type:'asset_ready',id:'first-frame'});revealStart=performance.now();splash.classList.add('out');if(state.phase==='REVEALING'){$('#skipReveal').hidden=false;setTimeout(()=>splash.hidden=true,1200);}else finishReveal();frameId=requestAnimationFrame(draw);});}catch(e){try{dispatch({type:'asset_failed',id:'geometry'});}catch{}showFallback('3D initialization did not complete. '+String(e.message));}}));
+// Graphics loss is terminal for this preview instance; retry is an explicit reload.
+frameId=requestAnimationFrame(()=>{
+ if(!$('#fallback').hidden)return;
+ frameId=requestAnimationFrame(async()=>{
+  if(!$('#fallback').hidden)return;
+  try{
+   renderer=createWorldRenderer(canvas,bindings,{onContextLost:()=>showFallback('The graphics context was lost. The source Atlas is still available below.')});
+   if(!$('#fallback').hidden)return;
+   dispatch({type:'asset_ready',id:'geometry'});
+   if(renderer.prepare)await renderer.prepare(camera);
+   if(!$('#fallback').hidden)return;
+   dispatch({type:'asset_ready',id:'renderer'});
+   renderer.render(camera,0,{strength:1});
+   if(!$('#fallback').hidden)return;
+   frameId=requestAnimationFrame(()=>{
+    if(!$('#fallback').hidden)return;
+    dispatch({type:'asset_ready',id:'first-frame'});revealStart=performance.now();splash.classList.add('out');
+    if(state.phase==='REVEALING'){$('#skipReveal').hidden=false;setTimeout(()=>splash.hidden=true,1200);}else finishReveal();
+    frameId=requestAnimationFrame(draw);
+   });
+  }catch(e){
+   if(!$('#fallback').hidden)return;
+   try{dispatch({type:'asset_failed',id:'geometry'});}catch{}
+   showFallback('3D initialization did not complete. '+String(e.message));
+  }
+ });
+});
 // A persisted pagehide freezes this document for browser back/forward navigation.
  // Keep its one existing animation loop and renderer alive; the browser resumes them.
 window.addEventListener('pagehide',e=>{if(e.persisted)return;cancelAnimationFrame(frameId);renderer?.dispose();});
