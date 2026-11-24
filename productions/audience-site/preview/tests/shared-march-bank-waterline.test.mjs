@@ -30,7 +30,7 @@ test('Shared March alone has the bank-waterline gate; all Atlas places and four 
   assert.equal(w.mesh.geometry.getAttribute('position').count,393);
   assert.equal(w.mesh.geometry.index.count,2184);
   assert.equal(w.mesh.children.length,0);
-  assert.equal(Object.keys(w.material.uniforms).length,9);
+  assert.deepEqual(Object.keys(w.material.uniforms).sort(),['uAmplitude','uBarrier','uBridge','uColor','uCrossing','uLakeGlint','uLightLevel','uMire','uTime','uViewSheen']);
   assert.equal(w.material.transparent,true);
   assert.equal(w.material.depthWrite,false);
  }
@@ -55,7 +55,7 @@ test('bank glints read the unchanged physically displaced crossing phase and fad
   'c=clamp(c+vec3(.035,.051,.041)*bankWake,0.,1.);'
  ])assert.ok(fragment.includes(token),token);
  assert.ok(!fragment.includes('uGlobalCalm')&&!fragment.includes('uStorm'));
- assert.equal(Object.keys(river.material.uniforms).length,9);
+ assert.deepEqual(Object.keys(river.material.uniforms).sort(),['uAmplitude','uBarrier','uBridge','uColor','uCrossing','uLakeGlint','uLightLevel','uMire','uTime','uViewSheen']);
  assert.ok(bankWake(0,.71,2.5,.002)>.8,'close moving bank glint must be readable');
  assert.ok(bankWake(0,.71,2.5,.09)<.001,'subpixel bank glint must fade');
  a.dispose();

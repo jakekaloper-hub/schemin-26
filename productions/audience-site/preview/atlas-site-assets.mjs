@@ -466,7 +466,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
   return geo;
  }
  function waterSurface(g,x,y,z,rx,rz,kind='lake',color='#366d76'){
-  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0},uMire:{value:kind==='mire'?1:0},uLakeGlint:{value:kind==='mountain lake'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+  const material=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uLightLevel:{value:1},uColor:{value:new THREE.Color(color)},uAmplitude:{value:kind==='mountain lake'?.028:kind==='sheltered port'?.021:kind==='mire'?.012:.010},uViewSheen:{value:kind==='mountain lake'?.52:kind==='sheltered port'?.42:kind==='mire'?.12:.24},uCrossing:{value:kind==='watercourse crossing'?1:0},uBridge:{value:kind==='mountain lake'?1:0},uBarrier:{value:kind==='sheltered port'?1:0},uMire:{value:kind==='mire'?1:0},uLakeGlint:{value:kind==='mountain lake'?1:0}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
    vertexShader:`uniform float uTime;uniform float uAmplitude;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;varying float vBridgeCrest;
     void main(){
      vUv=uv;vec3 p=position;
@@ -510,7 +510,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      vWorld=(modelMatrix*vec4(p,1.)).xyz;
      gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
     }`,
-   fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;varying float vBridgeCrest;
+   fragmentShader:`uniform float uTime;uniform float uLightLevel;uniform vec3 uColor;uniform float uViewSheen;uniform float uCrossing;uniform float uBridge;uniform float uBarrier;uniform float uMire;uniform float uLakeGlint;varying vec2 vUv;varying vec3 vWorld;varying float vCrossCrest;varying float vBarrierCrest;varying float vBridgeCrest;
     void main(){
      float edge=1.-smoothstep(.83,1.,length((vUv-.5)*2.));
      // Screen-footprint attenuation of subpixel painted water streaks: no change to waves.
@@ -598,7 +598,7 @@ export function buildAtlasSiteAssets(THREE,bindings,height){
      c=clamp(c+vec3(.028,.046,.045)*barrierCrest,0.,1.);
      c=clamp(c+vec3(.052,.034,-.008)*mireSilt,0.,1.);
      c=mix(c,vec3(.31,.29,.22),.17*mireShallow);
-     gl_FragColor=vec4(c,.87*edge);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
+     gl_FragColor=vec4(c,.87*edge);\n// Shared-clock radiance only: preserve alpha and physical motion.\ngl_FragColor.rgb*=.45+.55*clamp(uLightLevel,0.,1.);\n#include <tonemapping_fragment>\n#include <colorspace_fragment>\n}`});materials.add(material);
   const o=mesh(g,existingWaterDisk(),material,x,y,z,'Moving '+kind+' candidate');o.rotation.x=-Math.PI/2;o.scale.set(rx,rz,1);o.castShadow=false;o.receiveShadow=false;water.push({mesh:o,material,kind});return o;
  }
  // Shallow, discontinuous sediment shelves around Mire Hill's EXISTING mire.

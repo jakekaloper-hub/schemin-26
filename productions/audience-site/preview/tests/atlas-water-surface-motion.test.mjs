@@ -87,3 +87,24 @@ test('geometry and material disposal remains bounded and tick after dispose is i
  a.tick(99);
  assert.ok(waters.every(w=>w.material.uniforms.uTime.value===0));
 });
+
+test('all four Atlas waters share regional clock radiance without changing alpha or motion',()=>{
+ const a=build();
+ try{
+  assert.equal(a.water.length,4);
+  for(const {material:m} of a.water){
+   assert.equal(m.uniforms.uLightLevel.value,1);
+   assert.match(m.fragmentShader,/uniform float uLightLevel;/);
+   assert.match(m.fragmentShader,/gl_FragColor=vec4\(c,\.87\*edge\);/);
+   assert.match(m.fragmentShader,/gl_FragColor\.rgb\*=\.45\+\.55\*clamp\(uLightLevel,0\.,1\.\);/);
+   assert.doesNotMatch(m.vertexShader,/uLightLevel/);
+   assert.doesNotMatch(m.fragmentShader,/\buStorm\b|\buWeather\b/);
+  }
+  a.tick(2,{globalCalm:true});
+  for(const w of a.water)w.material.uniforms.uLightLevel.value=.32;
+  a.tick(4,{globalCalm:true});a.tick(8,{paused:true});
+  for(const w of a.water){assert.equal(w.material.uniforms.uTime.value,4);assert.equal(w.material.uniforms.uLightLevel.value,.32);}
+  const renderer=readFileSync(new URL('../three-world.mjs',import.meta.url),'utf8');
+  assert.match(renderer,/for\(const w of atlasSites\?\.water\|\|\[\]\)w\.material\.uniforms\.uLightLevel\.value=strength;/);
+ }finally{a.dispose();}
+});

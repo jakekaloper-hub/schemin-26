@@ -24,7 +24,7 @@ test('source-bound Mountain Lake alone gets the crest and original water geometr
   assert.equal(w.mesh.geometry.getAttribute('position').count,393);
   assert.equal(w.mesh.geometry.index.count,2184);
   assert.equal(w.mesh.children.length,0);
-  assert.equal(Object.keys(w.material.uniforms).length,9);
+  assert.deepEqual(Object.keys(w.material.uniforms).sort(),['uAmplitude','uBarrier','uBridge','uColor','uCrossing','uLakeGlint','uLightLevel','uMire','uTime','uViewSheen']);
  }
  assert.deepEqual(a.principalCharacters,[]);assert.equal(a.worldMutationAllowed,false);
  assert.equal(a.weatherMutationAllowed,false);assert.equal(JSON.stringify(bindings),snapshot);a.dispose();

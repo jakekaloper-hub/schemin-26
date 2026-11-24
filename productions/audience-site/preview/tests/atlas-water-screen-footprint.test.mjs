@@ -22,7 +22,7 @@ test('existing four source-bound moving water disks retain geometry, uniforms an
   assert.equal(water.mesh.geometry.getAttribute('position').count,393);
   assert.equal(water.mesh.geometry.index.count,2184);
   assert.equal(water.mesh.children.length,0);
-  assert.equal(Object.keys(water.material.uniforms).length,9,'no new GLSL uniforms');
+  assert.deepEqual(Object.keys(water.material.uniforms).sort(),['uAmplitude','uBarrier','uBridge','uColor','uCrossing','uLakeGlint','uLightLevel','uMire','uTime','uViewSheen']);
   assert.equal(water.material.depthWrite,false);
   assert.equal(water.material.transparent,true);
  }

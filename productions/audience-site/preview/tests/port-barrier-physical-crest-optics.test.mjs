@@ -26,7 +26,7 @@ test('source-exact Storm City port uses the existing barrier-contact mesh, no ne
  assert.equal(port.mesh.geometry.getAttribute('position').count,393);
  assert.equal(port.mesh.geometry.index.count,2184);
  assert.equal(port.mesh.children.length,0);
- assert.equal(Object.keys(port.material.uniforms).length,9);
+ assert.deepEqual(Object.keys(port.material.uniforms).sort(),['uAmplitude','uBarrier','uBridge','uColor','uCrossing','uLakeGlint','uLightLevel','uMire','uTime','uViewSheen']);
  assert.equal(port.material.depthWrite,false);
  assert.equal(a.worldMutationAllowed,false);assert.equal(a.weatherMutationAllowed,false);
  assert.deepEqual(a.principalCharacters,[]);assert.equal(JSON.stringify(bindings),snapshot);
