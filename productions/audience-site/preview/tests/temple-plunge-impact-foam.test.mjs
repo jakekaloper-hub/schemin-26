@@ -52,7 +52,10 @@ test('impact foam is localized, numerically bounded, dynamic, and plunge-shader-
   /impactUv=vec2\(\.5,\.554\)/,
   /impactOffset=\(vUv-impactUv\)\*vec2\(2\.,2\.2\)/,
   /impactField=1\.-smoothstep\(\.13,\.52,impactRadius\)/,
-  /impactCrest=pow\(max\(sin\(impactRadius\*34\.-uTime\*2\.8/,
+  /impactCoordinate=impactRadius\*34\.-uTime\*2\.8/,
+  /impactCrest=pow\(max\(sin\(impactCoordinate\),0\.\),9\.\)/,
+  /fwidth\(impactCoordinate\)/,
+  /fwidth\(plungeRingCoordinate\)/,
   /impactFoam=impactCrest\*impactBreakup\*impactField/,
   /vec3\(\.10,\.15,\.13\)\*impactFoam\*boundary/,
   /gl_FragColor=vec4\(plungeTint,\.88\)/
@@ -77,4 +80,32 @@ test('Temple impact motion advances during global calm and stops only on explici
  a.tick(21,{storm:0});assert.equal(pool.material.uniforms.uTime.value,21);
  assert.equal(JSON.stringify(places),before);
  a.dispose();a.dispose();
+});
+
+
+test('pool radial crest filtering preserves close motion and attenuates unresolved distant detail',()=>{
+ const ring=(u,v,t)=>Math.hypot((u-.5)*2,(v-.5)*2*1.16)*31-t*2.1+.7*Math.sin(u*14+t*.35);
+ const crest=(u,v,t)=>Math.hypot((u-.5)*2,(v-.554)*2.2)*34-t*2.8+.28*Math.sin(u*19+t*.3);
+ const attenuation=(c,u,v,t,step)=>1-smooth(.35,1.15,Math.abs(c(u+step,v,t)-c(u,v,t))+Math.abs(c(u,v+step,t)-c(u,v,t)));
+ let change=0;
+ const samples=new Map([[ring,{n:0,filtered:0}],[crest,{n:0,filtered:0}]]);
+ for(const [c,power] of [[ring,10],[crest,9]])for(let i=12;i<=28;i++)for(let j=12;j<=28;j++)for(const t of [0,1.7,8]){
+  const u=i/40,v=j/40,near=attenuation(c,u,v,t,.002),far=attenuation(c,u,v,t,.05);
+  assert.ok(near>.99);
+  assert.ok(far>=0&&far<=1);
+  const count=samples.get(c);count.n++;if(far<.1)count.filtered++;
+  const optical=(time)=>Math.max(Math.sin(c(u,v,time)),0)**power*attenuation(c,u,v,time,.002);
+  change=Math.max(change,Math.abs(optical(t)-optical(t+.43)));
+ }
+ // Radial phase can be stationary in a quad crossing the center; do not require
+ // universal suppression there. On the sampled grid most coarse quads resolve neither crest.
+ for(const count of samples.values())assert.ok(count.filtered/count.n>.9,JSON.stringify(count));
+ assert.ok(change>.5,'ordinary water motion remains visible in resolved crests');
+ const a=build(),p=a.water.find(w=>w.kind==='pool'),f=p.material.fragmentShader;
+ const scoped=f.slice(f.indexOf('}else if(uPlunge>.5){'),f.indexOf('}else{',f.indexOf('}else if(uPlunge>.5){')));
+ for(const coordinate of ['plungeRingCoordinate','impactCoordinate'])assert.ok(scoped.includes('*(1.-smoothstep(.35,1.15,fwidth('+coordinate+')))'));
+ assert.ok(scoped.includes('foam=pow(scatter,3.)*plungeCore'));
+ assert.ok(scoped.includes('plungeFacet=plungeSlope*(.35+.65*plungeGrazing)*boundary'));
+ assert.ok(!p.material.vertexShader.includes('plungeRingCoordinate'));
+ a.dispose();
 });

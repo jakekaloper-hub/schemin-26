@@ -459,8 +459,11 @@ export function buildRegionalAssets(THREE, bindings, height) {
       // Small moving eddies beneath the EXISTING Temple plunge; not a new waterbody.
       vec2 p=(vUv-vec2(.5))*2.;
       float r=length(p*vec2(1.,1.16));
-      float moving=sin(r*31.-uTime*2.1+.7*sin(vUv.x*14.+uTime*.35));
-      float ring=pow(max(moving,0.),10.);
+      float plungeRingCoordinate=r*31.-uTime*2.1+.7*sin(vUv.x*14.+uTime*.35);
+      float moving=sin(plungeRingCoordinate);
+      // Preserve broad pool foam while fading unresolved narrow radial crests.
+      float ring=pow(max(moving,0.),10.)
+        *(1.-smoothstep(.35,1.15,fwidth(plungeRingCoordinate)));
       float plungeCore=1.-smoothstep(.08,.45,r);
       float scatter=.5+.5*sin(p.x*34.+uTime*1.1)*sin(p.y*29.-uTime*.87);
       float foam=pow(scatter,3.)*plungeCore;
@@ -472,7 +475,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec2 impactOffset=(vUv-impactUv)*vec2(2.,2.2);
       float impactRadius=length(impactOffset);
       float impactField=1.-smoothstep(.13,.52,impactRadius);
-      float impactCrest=pow(max(sin(impactRadius*34.-uTime*2.8+sin(vUv.x*19.+uTime*.3)*.28),0.),9.);
+      float impactCoordinate=impactRadius*34.-uTime*2.8+sin(vUv.x*19.+uTime*.3)*.28;
+      float impactCrest=pow(max(sin(impactCoordinate),0.),9.)
+        *(1.-smoothstep(.35,1.15,fwidth(impactCoordinate)));
       float impactBreakup=.45+.55*(.5+.5*sin(vUv.x*27.-vUv.y*17.+uTime*.57));
       float impactFoam=impactCrest*impactBreakup*impactField;
       vec3 plungeTint=uColor+vec3(.10,.14,.12)*(ring*.55+foam*.45)*boundary
