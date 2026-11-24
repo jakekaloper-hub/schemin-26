@@ -149,6 +149,75 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_native_file_id": "file_00000000df4081f5803f8ba6dfb68b42",
+            "registered_library_file_id": "libfile_24a22e961e988191928d08b1bfab06e2",
+            "legacy_primary_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_oct18_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "native_handle_registry_state": "VISUAL_CANON_CONFLICT_HOLD",
+            "current_semantic_risk": "PREVIOUS_PRIMARY_BIPED_CONFLICT_WITH_CURRENT_FOUR_HOOF_CANON",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_native_file_id": "file_00000000bae081f9a48f850b293aaa78",
+            "registered_library_file_id": "libfile_e4bcc187081c8191ad6d591a54949028",
+            "legacy_primary_expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_oct18_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_native_file_id": "file_000000001f6881f59e412a2b70adf3ca",
+            "registered_library_file_id": "libfile_ecc124baa0708191912ab17f4f18f840",
+            "legacy_primary_expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "approved_oct18_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_native_file_id": "file_00000000204c81f58b663f2d1378a260",
+            "registered_library_file_id": "libfile_c58ba66f781c8191b64e7452e2fc2bc8",
+            "legacy_primary_expected_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+            "approved_oct18_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": {
+              "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "git_blob_sha": "1057ed07f317c2515b7a69ff2d420df7985fc0ca",
+              "expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "ingestion_status": "RECOVERED_FROM_VERIFIED_WEEK10_GIT_BLOB__SHA256_NOT_YET_VERIFIED"
+            }
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 1,
+        "source_id": "W10-P01",
+        "native_file": "01 - The Ceiling Breaks_ Week 10.png",
+        "native_pixels": [
+          992,
+          1586
+        ],
+        "native_sha256": "25bdf746e914b5021c286f2d654c17ddd3c05eb25d48531d72c4c2c7973f5df8",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -211,6 +280,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-BOBBY-MITCHELL",
+            "registered_native_file_id": "file_00000000b0f081f585aae4372c880d72",
+            "registered_library_file_id": "libfile_9a5a7d5cbb788191822739e8dd19c7ba",
+            "legacy_primary_expected_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+            "approved_oct18_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+            "registered_native_file_id": "file_0000000032d4820cb641b185754bdbe4",
+            "registered_library_file_id": "libfile_f330daf3bae0819198b6008d67fecc51",
+            "legacy_primary_expected_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+            "approved_oct18_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 2,
+        "source_id": "W10-P02",
+        "native_file": "02 - Tabletop league atlas.png",
+        "native_pixels": [
+          940,
+          1672
+        ],
+        "native_sha256": "ce95c0f95dfd253f35980a45353a8b311597f52ad74352de80b03c16017f4999",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -271,6 +382,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 3,
+        "source_id": "W10-P03",
+        "native_file": "03 - Iron-nailed commissioner’s letter.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "5f20b3208d221eb26a15b7bf57ca227111db97d80a21d6bc43bfc455d2aec91a",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -331,6 +461,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 4,
+        "source_id": "W10-P04",
+        "native_file": "04 - Rain-Swept Week 10 Result Board.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "581ff56abfc8a575c24a9a39a55e376cd388f363aeccac0f34c156720b528a1a",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -391,6 +540,97 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-ZACH-WILSON",
+            "registered_native_file_id": "file_00000000684c81f88ac9e7373dbf8479",
+            "registered_library_file_id": "libfile_af25a9c60db88191b46b0f343fe50e09",
+            "legacy_primary_expected_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+            "approved_oct18_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+            "registered_native_file_id": "file_0000000032d4820cb641b185754bdbe4",
+            "registered_library_file_id": "libfile_f330daf3bae0819198b6008d67fecc51",
+            "legacy_primary_expected_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+            "approved_oct18_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_native_file_id": "file_00000000bae081f9a48f850b293aaa78",
+            "registered_library_file_id": "libfile_e4bcc187081c8191ad6d591a54949028",
+            "legacy_primary_expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_oct18_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_native_file_id": "file_00000000df4081f5803f8ba6dfb68b42",
+            "registered_library_file_id": "libfile_24a22e961e988191928d08b1bfab06e2",
+            "legacy_primary_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_oct18_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "native_handle_registry_state": "VISUAL_CANON_CONFLICT_HOLD",
+            "current_semantic_risk": "PREVIOUS_PRIMARY_BIPED_CONFLICT_WITH_CURRENT_FOUR_HOOF_CANON",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-MANNING-WELTY",
+            "registered_native_file_id": "file_00000000cf4081f59d2209cfeb77d8f5",
+            "registered_library_file_id": "libfile_8f45a323b5dc819197282fe3d5a66561",
+            "legacy_primary_expected_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+            "approved_oct18_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_native_file_id": "file_00000000204c81f58b663f2d1378a260",
+            "registered_library_file_id": "libfile_c58ba66f781c8191b64e7452e2fc2bc8",
+            "legacy_primary_expected_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+            "approved_oct18_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": {
+              "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "git_blob_sha": "1057ed07f317c2515b7a69ff2d420df7985fc0ca",
+              "expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "ingestion_status": "RECOVERED_FROM_VERIFIED_WEEK10_GIT_BLOB__SHA256_NOT_YET_VERIFIED"
+            }
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 28,
+        "source_id": "W10-P27",
+        "native_file": "28 - Stormlit Bronze Standings Gate.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "93c22b88d9afab4c976025065703c5b02f71390cf55b835bf783e5c941109b14",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -451,6 +691,92 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-BEN-WHIPPLE",
+            "registered_native_file_id": "file_00000000d60081f5925da6c608733499",
+            "registered_library_file_id": "libfile_eae6ac6a8b7c8191b2dd4c359d6b7aa7",
+            "legacy_primary_expected_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+            "approved_oct18_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-PHILLIP-PITTS",
+            "registered_native_file_id": "file_000000008124820db5a01e1ad4977d9e",
+            "registered_library_file_id": "libfile_68a2173146888191bbae1160bb9972d2",
+            "legacy_primary_expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+            "approved_oct18_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-KEVIN-ZEEK",
+            "registered_native_file_id": "file_0000000029fc820d8dd998b4b0d7d3d2",
+            "registered_library_file_id": "libfile_971787749a34819197cb5225df6b4772",
+            "legacy_primary_expected_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+            "approved_oct18_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-DAVID-BABB",
+            "registered_native_file_id": "file_000000002c60820c913d24e69b64cd51",
+            "registered_library_file_id": "libfile_bac6d604ba6081918ba5ec42d76452cc",
+            "legacy_primary_expected_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+            "approved_oct18_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BOBBY-MITCHELL",
+            "registered_native_file_id": "file_00000000b0f081f585aae4372c880d72",
+            "registered_library_file_id": "libfile_9a5a7d5cbb788191822739e8dd19c7ba",
+            "legacy_primary_expected_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+            "approved_oct18_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_native_file_id": "file_000000001f6881f59e412a2b70adf3ca",
+            "registered_library_file_id": "libfile_ecc124baa0708191912ab17f4f18f840",
+            "legacy_primary_expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "approved_oct18_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 28,
+        "source_id": "W10-P27",
+        "native_file": "28 - Stormlit Bronze Standings Gate.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "93c22b88d9afab4c976025065703c5b02f71390cf55b835bf783e5c941109b14",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -513,6 +839,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 28,
+        "source_id": "W10-P27",
+        "native_file": "28 - Stormlit Bronze Standings Gate.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "93c22b88d9afab4c976025065703c5b02f71390cf55b835bf783e5c941109b14",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -573,6 +918,25 @@
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true,
         "current_generated_candidate_status": "UNAPPROVED_SCENIC_STUDY__RENDER_FROM_CLEAN_SOURCE"
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 11,
+        "source_id": "W10-P11",
+        "native_file": "11 - The Commonwealth Under Stormlight.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "5d2056b6b90fe2fc5f8dd78ab2aee93409f22a28671ec991e338703055216fcd",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -679,6 +1043,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_native_file_id": "file_00000000df4081f5803f8ba6dfb68b42",
+            "registered_library_file_id": "libfile_24a22e961e988191928d08b1bfab06e2",
+            "legacy_primary_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_oct18_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "native_handle_registry_state": "VISUAL_CANON_CONFLICT_HOLD",
+            "current_semantic_risk": "PREVIOUS_PRIMARY_BIPED_CONFLICT_WITH_CURRENT_FOUR_HOOF_CANON",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_native_file_id": "file_00000000bae081f9a48f850b293aaa78",
+            "registered_library_file_id": "libfile_e4bcc187081c8191ad6d591a54949028",
+            "legacy_primary_expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_oct18_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 33,
+        "source_id": "W10-P35",
+        "native_file": "33 - The Crossing Narrows_ Week 11.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -785,6 +1191,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_native_file_id": "file_00000000df4081f5803f8ba6dfb68b42",
+            "registered_library_file_id": "libfile_24a22e961e988191928d08b1bfab06e2",
+            "legacy_primary_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_oct18_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "native_handle_registry_state": "VISUAL_CANON_CONFLICT_HOLD",
+            "current_semantic_risk": "PREVIOUS_PRIMARY_BIPED_CONFLICT_WITH_CURRENT_FOUR_HOOF_CANON",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_native_file_id": "file_00000000bae081f9a48f850b293aaa78",
+            "registered_library_file_id": "libfile_e4bcc187081c8191ad6d591a54949028",
+            "legacy_primary_expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_oct18_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 33,
+        "source_id": "W10-P35",
+        "native_file": "33 - The Crossing Narrows_ Week 11.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -891,6 +1339,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-WILSON-LOOK",
+            "registered_native_file_id": "file_00000000df4081f5803f8ba6dfb68b42",
+            "registered_library_file_id": "libfile_24a22e961e988191928d08b1bfab06e2",
+            "legacy_primary_expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_oct18_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "native_handle_registry_state": "VISUAL_CANON_CONFLICT_HOLD",
+            "current_semantic_risk": "PREVIOUS_PRIMARY_BIPED_CONFLICT_WITH_CURRENT_FOUR_HOOF_CANON",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-AUSTIN-BYARS",
+            "registered_native_file_id": "file_00000000bae081f9a48f850b293aaa78",
+            "registered_library_file_id": "libfile_e4bcc187081c8191ad6d591a54949028",
+            "legacy_primary_expected_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_oct18_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 33,
+        "source_id": "W10-P35",
+        "native_file": "33 - The Crossing Narrows_ Week 11.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -993,6 +1483,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+            "registered_native_file_id": "file_0000000032d4820cb641b185754bdbe4",
+            "registered_library_file_id": "libfile_f330daf3bae0819198b6008d67fecc51",
+            "legacy_primary_expected_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+            "approved_oct18_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-MANNING-WELTY",
+            "registered_native_file_id": "file_00000000cf4081f59d2209cfeb77d8f5",
+            "registered_library_file_id": "libfile_8f45a323b5dc819197282fe3d5a66561",
+            "legacy_primary_expected_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+            "approved_oct18_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 16,
+        "source_id": "W10-P16",
+        "native_file": "16 - Same Speed Through the Swamp.png",
+        "native_pixels": [
+          916,
+          1717
+        ],
+        "native_sha256": "b3e5419ebfcaa9e95d816051f60ad894f9fefa11c03622edf6e3db3544ed9f93",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1095,6 +1627,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+            "registered_native_file_id": "file_0000000032d4820cb641b185754bdbe4",
+            "registered_library_file_id": "libfile_f330daf3bae0819198b6008d67fecc51",
+            "legacy_primary_expected_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+            "approved_oct18_crop_sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-MANNING-WELTY",
+            "registered_native_file_id": "file_00000000cf4081f59d2209cfeb77d8f5",
+            "registered_library_file_id": "libfile_8f45a323b5dc819197282fe3d5a66561",
+            "legacy_primary_expected_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+            "approved_oct18_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 35,
+        "source_id": "W10-P33",
+        "native_file": "34 - Storm Watch at Slob’s Shelter.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "0e0e2aefe274608baa217ca73407c757217bad6a88f74012f51d8d8c9dfe9777",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1209,6 +1783,53 @@
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true,
         "current_generated_candidate_status": "REJECTED__RENDER_FROM_CLEAN_SOURCE"
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_native_file_id": "file_000000001f6881f59e412a2b70adf3ca",
+            "registered_library_file_id": "libfile_ecc124baa0708191912ab17f4f18f840",
+            "legacy_primary_expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "approved_oct18_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_native_file_id": "file_00000000204c81f58b663f2d1378a260",
+            "registered_library_file_id": "libfile_c58ba66f781c8191b64e7452e2fc2bc8",
+            "legacy_primary_expected_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+            "approved_oct18_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": {
+              "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "git_blob_sha": "1057ed07f317c2515b7a69ff2d420df7985fc0ca",
+              "expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "ingestion_status": "RECOVERED_FROM_VERIFIED_WEEK10_GIT_BLOB__SHA256_NOT_YET_VERIFIED"
+            }
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 7,
+        "source_id": "W10-P07",
+        "native_file": "07 - No private exit.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1323,6 +1944,53 @@
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true,
         "current_generated_candidate_status": "REJECTED__RENDER_FROM_CLEAN_SOURCE"
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_native_file_id": "file_000000001f6881f59e412a2b70adf3ca",
+            "registered_library_file_id": "libfile_ecc124baa0708191912ab17f4f18f840",
+            "legacy_primary_expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "approved_oct18_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_native_file_id": "file_00000000204c81f58b663f2d1378a260",
+            "registered_library_file_id": "libfile_c58ba66f781c8191b64e7452e2fc2bc8",
+            "legacy_primary_expected_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+            "approved_oct18_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": {
+              "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "git_blob_sha": "1057ed07f317c2515b7a69ff2d420df7985fc0ca",
+              "expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "ingestion_status": "RECOVERED_FROM_VERIFIED_WEEK10_GIT_BLOB__SHA256_NOT_YET_VERIFIED"
+            }
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 5,
+        "source_id": "W10-P05",
+        "native_file": "05 - Chili’s Highland Rodeo Escape.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "af769d70ef6a238a2b63ff5a8ddaf428bc5c42dd8ca0e45c2d79690d0ed3e4f0",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1436,6 +2104,53 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_native_file_id": "file_000000001f6881f59e412a2b70adf3ca",
+            "registered_library_file_id": "libfile_ecc124baa0708191912ab17f4f18f840",
+            "legacy_primary_expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "approved_oct18_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BRANDON-PRYOR",
+            "registered_native_file_id": "file_00000000204c81f58b663f2d1378a260",
+            "registered_library_file_id": "libfile_c58ba66f781c8191b64e7452e2fc2bc8",
+            "legacy_primary_expected_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+            "approved_oct18_crop_sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": {
+              "repository_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22.png",
+              "git_blob_sha": "1057ed07f317c2515b7a69ff2d420df7985fc0ca",
+              "expected_sha256": "5812d9b62844368fdd1e23bb11657bbe47af101f7c026413eea6ce2bb8a3793f",
+              "ingestion_status": "RECOVERED_FROM_VERIFIED_WEEK10_GIT_BLOB__SHA256_NOT_YET_VERIFIED"
+            }
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 7,
+        "source_id": "W10-P07",
+        "native_file": "07 - No private exit.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1538,6 +2253,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-PHILLIP-PITTS",
+            "registered_native_file_id": "file_000000008124820db5a01e1ad4977d9e",
+            "registered_library_file_id": "libfile_68a2173146888191bbae1160bb9972d2",
+            "legacy_primary_expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+            "approved_oct18_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-KEVIN-ZEEK",
+            "registered_native_file_id": "file_0000000029fc820d8dd998b4b0d7d3d2",
+            "registered_library_file_id": "libfile_971787749a34819197cb5225df6b4772",
+            "legacy_primary_expected_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+            "approved_oct18_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 12,
+        "source_id": "W10-P12",
+        "native_file": "12 - Jackhammer chaos in the waterfall courtyard.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "4e431687102250a1c39e7038a6ade4e45104c4a72e2005cf9071e7163419ff7d",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1640,6 +2397,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-PHILLIP-PITTS",
+            "registered_native_file_id": "file_000000008124820db5a01e1ad4977d9e",
+            "registered_library_file_id": "libfile_68a2173146888191bbae1160bb9972d2",
+            "legacy_primary_expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+            "approved_oct18_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-KEVIN-ZEEK",
+            "registered_native_file_id": "file_0000000029fc820d8dd998b4b0d7d3d2",
+            "registered_library_file_id": "libfile_971787749a34819197cb5225df6b4772",
+            "legacy_primary_expected_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+            "approved_oct18_crop_sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 10,
+        "source_id": "W10-P10",
+        "native_file": "10 - Red Leopard Beneath the Hoop.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "fd0601e4884fc430922f3389f2f2dad207706dbe0f26cf6491b079a4a4cd0b0f",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1742,6 +2541,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-BOBBY-MITCHELL",
+            "registered_native_file_id": "file_00000000b0f081f585aae4372c880d72",
+            "registered_library_file_id": "libfile_9a5a7d5cbb788191822739e8dd19c7ba",
+            "legacy_primary_expected_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+            "approved_oct18_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BEN-WHIPPLE",
+            "registered_native_file_id": "file_00000000d60081f5925da6c608733499",
+            "registered_library_file_id": "libfile_eae6ac6a8b7c8191b2dd4c359d6b7aa7",
+            "legacy_primary_expected_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+            "approved_oct18_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 15,
+        "source_id": "W10-P15",
+        "native_file": "15 - Mud Dog Guards the Swamp Entrance.png",
+        "native_pixels": [
+          916,
+          1717
+        ],
+        "native_sha256": "425e824ec60c4fd053cc9b5e5c5e8fd16ce19ac6ce5679efc587f67c91656b62",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1844,6 +2685,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-BOBBY-MITCHELL",
+            "registered_native_file_id": "file_00000000b0f081f585aae4372c880d72",
+            "registered_library_file_id": "libfile_9a5a7d5cbb788191822739e8dd19c7ba",
+            "legacy_primary_expected_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+            "approved_oct18_crop_sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-BEN-WHIPPLE",
+            "registered_native_file_id": "file_00000000d60081f5925da6c608733499",
+            "registered_library_file_id": "libfile_eae6ac6a8b7c8191b2dd4c359d6b7aa7",
+            "legacy_primary_expected_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+            "approved_oct18_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 17,
+        "source_id": "W10-P17",
+        "native_file": "17 - Last Tail Lamp in the Swamp.png",
+        "native_pixels": [
+          916,
+          1717
+        ],
+        "native_sha256": "57f9e808621787e840f51990e090fc0b8acaa711f88065055a1a8cdaefb8b687",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -1946,6 +2829,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-ZACH-WILSON",
+            "registered_native_file_id": "file_00000000684c81f88ac9e7373dbf8479",
+            "registered_library_file_id": "libfile_af25a9c60db88191b46b0f343fe50e09",
+            "legacy_primary_expected_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+            "approved_oct18_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-DAVID-BABB",
+            "registered_native_file_id": "file_000000002c60820c913d24e69b64cd51",
+            "registered_library_file_id": "libfile_bac6d604ba6081918ba5ec42d76452cc",
+            "legacy_primary_expected_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+            "approved_oct18_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 20,
+        "source_id": "W10-P19",
+        "native_file": "20 - The Champion’s Gift at Jackson Club.png",
+        "native_pixels": [
+          916,
+          1717
+        ],
+        "native_sha256": "70fde235a6fcdb7aa26ce4f1c65d29d7cde0ebc805612f944c02cd2367ab3431",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2048,6 +2973,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-ZACH-WILSON",
+            "registered_native_file_id": "file_00000000684c81f88ac9e7373dbf8479",
+            "registered_library_file_id": "libfile_af25a9c60db88191b46b0f343fe50e09",
+            "legacy_primary_expected_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+            "approved_oct18_crop_sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-DAVID-BABB",
+            "registered_native_file_id": "file_000000002c60820c913d24e69b64cd51",
+            "registered_library_file_id": "libfile_bac6d604ba6081918ba5ec42d76452cc",
+            "legacy_primary_expected_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+            "approved_oct18_crop_sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 22,
+        "source_id": "W10-P21",
+        "native_file": "22 - Birthday cake payback.png",
+        "native_pixels": [
+          916,
+          1717
+        ],
+        "native_sha256": "6b37482349e4b4efa21fd1041c33ae63d48e92a4fb8093f8be10412cdac34a65",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2108,6 +3075,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 18,
+        "source_id": "W10-P18",
+        "native_file": "18 - Schemin-W10-18-Why-the-Board-Moved.png",
+        "native_pixels": [
+          1080,
+          1920
+        ],
+        "native_sha256": "d7810868b992de977cb680064901e1ba3820c378cb4755a1729289309a623b9d",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2168,6 +3154,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 18,
+        "source_id": "W10-P18",
+        "native_file": "18 - Schemin-W10-18-Why-the-Board-Moved.png",
+        "native_pixels": [
+          1080,
+          1920
+        ],
+        "native_sha256": "d7810868b992de977cb680064901e1ba3820c378cb4755a1729289309a623b9d",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2230,6 +3235,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 19,
+        "source_id": "W10-P34",
+        "native_file": "19 - Schemin-W10-19-The-Cost-of-Sunday.png",
+        "native_pixels": [
+          1080,
+          1920
+        ],
+        "native_sha256": "155636bbbaef822f8b909e8a17eb2ac7ee20b28a0314b730e31509bbd89ae959",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2290,6 +3314,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 26,
+        "source_id": "W10-P25",
+        "native_file": "26 - Rainy League Chamber Reserve Watch.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "3b2b6d6f29336104ff78ce8a8204510c5db3677b7ef5c6a74e95d400e480fd54",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2350,6 +3393,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 27,
+        "source_id": "W10-P26",
+        "native_file": "27 - Transactions in the rainy archive.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "1f1137e07cb3b44c12ca9dd069944a60ce10fd24b0699893f0bf91558d8651cf",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2412,6 +3474,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 29,
+        "source_id": "W10-P28",
+        "native_file": "29 - Schemin-W10-29-Three-Divisions.png",
+        "native_pixels": [
+          1080,
+          1920
+        ],
+        "native_sha256": "40d11cd62dee55003fe038fe9dceb7c73f278d6c28415af0debd473275237364",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2472,6 +3553,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 30,
+        "source_id": "W10-P29",
+        "native_file": "30 - Schemin ’26_ Dusk over the Mountain Lake.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "659fae7b9610f58d5aff739e6bcdde75ab980aad25440ff58b4644f4ed10acd5",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2534,6 +3634,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 31,
+        "source_id": "W10-P30",
+        "native_file": "31 - Schemin-W10-31-Four-More-After-This.png",
+        "native_pixels": [
+          1080,
+          1920
+        ],
+        "native_sha256": "9e734a6169f3514ac2135ffdab45ecba1688897aa33ec24e2aa3f0d945bb9f0b",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2592,6 +3711,37 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-JAKE-KALOPER",
+            "registered_native_file_id": "file_000000001f6881f59e412a2b70adf3ca",
+            "registered_library_file_id": "libfile_ecc124baa0708191912ab17f4f18f840",
+            "legacy_primary_expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+            "approved_oct18_crop_sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 24,
+        "source_id": "W10-P23",
+        "native_file": "24 - The LLC descends toward ObiWan.png",
+        "native_pixels": [
+          916,
+          1717
+        ],
+        "native_sha256": "b0f7016637798f139088df0b538ea4512509d3abebae8a8308e9002a1ec62232",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2652,6 +3802,25 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 32,
+        "source_id": "W10-P31",
+        "native_file": "32 - Dawn Dispatches Beneath Stone Arches.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "c0aacba69d988231e64aaa52e563ec5c214e686eec34957fb42899e6a478be3d",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2708,6 +3877,48 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-BEN-WHIPPLE",
+            "registered_native_file_id": "file_00000000d60081f5925da6c608733499",
+            "registered_library_file_id": "libfile_eae6ac6a8b7c8191b2dd4c359d6b7aa7",
+            "legacy_primary_expected_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+            "approved_oct18_crop_sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          },
+          {
+            "character_id": "CHAR-MANNING-WELTY",
+            "registered_native_file_id": "file_00000000cf4081f59d2209cfeb77d8f5",
+            "registered_library_file_id": "libfile_8f45a323b5dc819197282fe3d5a66561",
+            "legacy_primary_expected_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+            "approved_oct18_crop_sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 33,
+        "source_id": "W10-P35",
+        "native_file": "33 - The Crossing Narrows_ Week 11.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2770,6 +3981,37 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": true,
+        "authoritatively_registered_handle_ids": [
+          {
+            "character_id": "CHAR-PHILLIP-PITTS",
+            "registered_native_file_id": "file_000000008124820db5a01e1ad4977d9e",
+            "registered_library_file_id": "libfile_68a2173146888191bbae1160bb9972d2",
+            "legacy_primary_expected_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+            "approved_oct18_crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+            "approved_oct18_crop_sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+            "native_handle_registry_state": "DIRECT_CANONICAL_HANDLE_READY",
+            "current_semantic_risk": "NONE_RECORDED",
+            "preferred_oct22_override": null
+          }
+        ],
+        "image_generation_input_status": "REQUIRED_REBIND_AT_RENDER_SESSION_AND_VISUAL_INSPECTION",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 34,
+        "source_id": null,
+        "native_file": "33a - Pittsy’s Book, Closed Again.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "f1a93a9de35e97658c60009f800c3d093bc172084e94bf24961dd087258d5cc9",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     },
     {
@@ -2830,7 +4072,42 @@
         "independent_visual_umpire_page_acceptance_pending": true,
         "production_status": "SOURCE_PACKET_ASSEMBLED__NOT_APPROVED_FOR_PUBLICATION",
         "owner_generation_instruction_required": true
+      },
+      "render_reference_handoff": {
+        "requires_exact_attached_assets": false,
+        "authoritatively_registered_handle_ids": [],
+        "image_generation_input_status": "NO_NAMED_CHARACTER_BINDING_REQUIRED",
+        "nonpublisher_candidate_policy": "PROCEED_AS_PREVIEW_AFTER_SOURCE_ATTACHMENT_AND_USER_PAGE_INSTRUCTION",
+        "publication_policy": "CANNOT_PROVE_PROVIDER_SUBJECT_BINDING_WITH_REPOSITORY_MANIFEST_ALONE",
+        "environment_source": "See page location IDs and approved structural plate; six matchup cinematic photograph approvals remain a separate Atlas decision."
+      },
+      "week10_published_visual_precedent": {
+        "physical_page": 35,
+        "source_id": "W10-P33",
+        "native_file": "34 - Storm Watch at Slob’s Shelter.png",
+        "native_pixels": [
+          941,
+          1672
+        ],
+        "native_sha256": "0e0e2aefe274608baa217ca73407c757217bad6a88f74012f51d8d8c9dfe9777",
+        "scope": "LAYOUT_CHARACTER_CONTINUITY_REFERENCE_NOT_AUTOMATIC_WORLD_OR_FACT_APPROVAL"
       }
     }
-  ]
+  ],
+  "week10_reference_transfer": {
+    "prior_issue_physical_pages": 35,
+    "visual_matches_to_published_pdf": 35,
+    "published_native_source_raster_size_distribution": {
+      "992x1586": 1,
+      "940x1672": 1,
+      "941x1672": 20,
+      "916x1717": 9,
+      "1080x1920": 4
+    },
+    "conclusion": "Week10 demonstrated real published individual-character art and integrated editorial design. It did not by itself attest exact native image handle mounts for this future Week11 generation.",
+    "native_reference_mapping": "canon/characters/NATIVE_RENDER_REFERENCE_BINDING_V1.json",
+    "characters_registered": 12,
+    "one_semantic_conflict": "CHAR-WILSON-LOOK",
+    "application": "Reuse prior published appearance/layout patterns and registered source handles; inspect each Week11 output for identity and exact print text."
+  }
 }
