@@ -316,6 +316,22 @@ Carry the storm from Hearthroad wheel to Mountain Lake bridge wheel with distinc
 
 ### F09 · After you, Austin
 
+**ACTIVE FOUNDER BATTLE-UPGRADE — NOVEMBER 24, 2026 (F09)**
+
+**Use the [G01 three-page stunt sequence V2](W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.md) as the active shot/copy direction, superseding the static earlier visual.** Verbal exchange across the FULL bridge leads to two opposing charges, with the cut occurring just before metal contacts.
+
+**Correct visual subject:** COMPLETELY HOODED FACE, TWO LUMINOUS RED EYES, segmented BLACK armor, circular GOLD chest medallion, gold title belt, crimson-black ragged cape, ornate sword. No face, no exposed brown hair, no generic swordsman. Wilson remains one gorilla-centaur and FOUR hooves, war axe, Arsenal colors; the old biped primary is not current render authority.
+
+- **A / upper 56%:** An extreme-wide oblique bridge master: Wilson LEFT, Austin RIGHT, both ends, the carter behind Wilson's approach, both lake surfaces and the midspan lantern visible; words land across real distance. Wilson mocks crown and title; Austin's red eyes remain hidden beneath the hood; the ordinary carter waits and decides not to cross.
+- **B / lower 44%:** Low ground tracking split within the SAME physical page: Wilson's four hooves pounding wet stone and raised axe on left diagonal; Austin draws the long ornate sword, the flowing crimson-black cape shearing right toward center. Their motion converges at center line but no steel contact yet. Both opt into the charge, in opposite directions; speed and weight read at phone scale.
+
+**Final typeset manuscript:** Across the Mountain Lake bridge, Wilson Look planted four hooves and raised his axe. “The Belt Keeper comes to ask permission?” he called. From the far landing, Austin Byars lifted his hooded head, red eyes burning in shadow. “Not yours,” came the answer. Behind Wilson, the carter held his horse and wagon still. Wilson made a mocking path between them. “After you, Austin.” The old lantern swung, the storm tore at their cloaks, and both warriors lowered their weapons. Neither intended to surrender the crossing. They charged.
+
+**Out-of-frame / continuation:** Both closing on the reset center stone; sword and axe raised; lantern still at midpoint; no strike or slip yet.
+
+**Hydrology:** violent wind-churned water at Mountain Lake, where Atlas currently records the LAKE handle; any literal river reclassification needs the Founder/Atlas contract. **Art:** one full hyper-realistic portrait PNG with cinematic multibeat action and all exact reader lettering; absolutely no visible F## / P##. 390px QA: Both identities, complete four-hoof silhouette and two-direction charge readable; no medieval human swordsman.. **Output remains a candidate until independent acceptance.**
+
+
 **Who owns the road?.** Cart wheel in front, four hooves at midspan, lake visible on both sides. Wilson yields with elaborate courtesy.
 
 “After you, Austin.” Let the reader learn who was actually waiting first.
@@ -349,6 +365,23 @@ HMB wins 168.20–129.75. Wilson's theatrical lane offer and waiting carter rema
 
 ### F10 · He was here before us
 
+**ACTIVE FOUNDER BATTLE-UPGRADE — NOVEMBER 24, 2026 (F10)**
+
+**Use the [G01 three-page stunt sequence V2](W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.md) as the active shot/copy direction, superseding the static earlier visual.** Professional-grade fight logic: impact -> pressure -> sidestep/pivot -> counterstrike -> visible hoof slip. Never invent airborne weapons, disconnected limbs or teleport.
+
+**Correct visual subject:** COMPLETELY HOODED FACE, TWO LUMINOUS RED EYES, segmented BLACK armor, circular GOLD chest medallion, gold title belt, crimson-black ragged cape, ornate sword. No face, no exposed brown hair, no generic swordsman. Wilson remains one gorilla-centaur and FOUR hooves, war axe, Arsenal colors; the old biped primary is not current render authority.
+
+- **C / upper kinetic wedge:** An over-shoulder charged contact: Wilson's axe comes down on a visible arc and Austin's ornate sword meets the haft/edge in one coherent plane; shower of sparks is brief and source-motivated. Mass and load transfer visible; black armored hooded Austin defends with his actual blade.
+- **D / central large image:** Tracking reverse: Wilson rotates ALL FOUR hooves on wet central stones, uses body weight to press, Austin steps laterally toward lamp/reset stone, one boot planted, cloak trails leeward. Carter and cart remain at left approach. Combatants physically reposition without swapping places; silhouettes remain legible.
+- **E / lower diagonal payoff:** Austin moves inside the axe reach, delivers a decisive armor-thudding sword strike across Wilson's upper guard; Wilson's hind hooves cross/skid and his front hooves scramble near the intact parapet, his body still on deck at cut. Austin wins because of a timed counterstrike plus wet traction, not wind magically pushing Wilson. No fall until next page.
+
+**Final typeset manuscript:** Their first collision rang against the lantern stones. Wilson drove his axe down; Austin caught its haft with his sword and turned aside instead of meeting the centaur’s weight head-on. Hooves hammered the narrow deck. Wilson twisted for a second cut, forcing Austin toward the parapet. “He was here before us,” Austin said, glancing at the waiting carter. He slipped inside the next swing and struck Wilson’s armored upper body. The impact shoved the huge warrior backward. His hind hooves crossed on rain-slick stone. All four feet fought for purchase as the parapet rushed toward him.
+
+**Out-of-frame / continuation:** Wilson is at edge with weight moving outward, all 4 hooves visible, still not in water; Austin sword held, Belt remains with Austin, bridge intact.
+
+**Hydrology:** violent wind-churned water at Mountain Lake, where Atlas currently records the LAKE handle; any literal river reclassification needs the Founder/Atlas contract. **Art:** one full hyper-realistic portrait PNG with cinematic multibeat action and all exact reader lettering; absolutely no visible F## / P##. 390px QA: Three steps visually connected; weapon contact and hoof skid clear at 390px.. **Output remains a candidate until independent acceptance.**
+
+
 **Austin answers Wilson.** Reverse past Austin’s shoulder to Wilson and the waiting carter. Return to the crosswise wide on the clash.
 
 Austin gives the carter the right of way in words. Show what Wilson hears in them.
@@ -379,6 +412,22 @@ Austin notices the ordinary carter's right of way, steadies on wet stone and lan
 <a id="folio-11"></a>
 
 ### F11 · The carter listens
+
+**ACTIVE FOUNDER BATTLE-UPGRADE — NOVEMBER 24, 2026 (F11)**
+
+**Use the [G01 three-page stunt sequence V2](W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.md) as the active shot/copy direction, superseding the static earlier visual.** The fall is unmistakable, then a beat of feared silence, then identifiable survivor; pride returns last.
+
+**Correct visual subject:** COMPLETELY HOODED FACE, TWO LUMINOUS RED EYES, segmented BLACK armor, circular GOLD chest medallion, gold title belt, crimson-black ragged cape, ornate sword. No face, no exposed brown hair, no generic swordsman. Wilson remains one gorilla-centaur and FOUR hooves, war axe, Arsenal colors; the old biped primary is not current render authority.
+
+- **F / dominant upper 65% impact frame:** From cart-height 3/4 view: Wilson in physically continuous four-hoof pose pitches over the unbroken stone parapet; axe remains plausibly in hand or follows known trajectory. The camera sees the violent lake beneath and Austin's hooded silhouette above, not an invisible attacker. Transfer from F10 skid; no bridge damage, no invented fast river gorge.
+- **G / lower 35% quiet survival echo:** Waterside/low lens gives the large gorilla head emerging alive among huge whitecaps, splashes and foam with arm reaching toward plausible bank; inset of carter's still hands and Austin's red-eyed hood watching from same parapet, clear cause/space relation. Two-step reaction: witness fears the worst, relief once Wilson resurfaces. Small cap coda only after survival and not blocking his face.
+
+**Final typeset manuscript:** Austin’s final blow carried through the clash. Four hooves scraped for grip; Wilson’s enormous armored body pitched over the intact parapet and vanished into the raging, storm-churned water. The carter stopped breathing. Even Austin stepped to the edge, his gold belt still fixed at his waist. Waves battered the pier. Then Wilson’s dark head broke the foam—coughing, alive. Only when the great centaur reached toward shore did Austin release the small jester’s cap. “My jester,” he said, almost without triumph. His Majesty’s Blood 168.20 · D0nkey K0ng 129.75.
+
+**Out-of-frame / continuation:** Wilson alive, injured only if separately sourced (do not infer), the cart can cross later; Austin retains championship belt; cap may appear only after Wilson surfaces; no World permanence inferred.
+
+**Hydrology:** violent wind-churned water at Mountain Lake, where Atlas currently records the LAKE handle; any literal river reclassification needs the Founder/Atlas contract. **Art:** one full hyper-realistic portrait PNG with cinematic multibeat action and all exact reader lettering; absolutely no visible F## / P##. 390px QA: Fall and LIVING resurfacing both readable; four hooves on falling body; no duplicate Wilson or Austin per beat; exact score.. **Output remains a candidate until independent acceptance.**
+
 
 **What the winner hears.** The hand stills the harness. Beyond it, the victor waits on deck and the loser surfaces alive.
 
