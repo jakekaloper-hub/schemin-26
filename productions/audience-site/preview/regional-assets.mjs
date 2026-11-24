@@ -22,7 +22,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))},uIslandSiteCount:{value:0},uIslandSites:{value:Array.from({length:4},()=>new THREE.Vector4(0,0,0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uLightLevel:{value:1},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))},uIslandSiteCount:{value:0},uIslandSites:{value:Array.from({length:4},()=>new THREE.Vector4(0,0,0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
       vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform float uChannel;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
@@ -176,7 +176,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
+      fragmentShader:`uniform float uTime;uniform float uLightLevel;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
         stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);
         float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);
         // The EXISTING physically displaced sheet now shades from its real screen-space
@@ -486,7 +486,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
       plungeTint=clamp(plungeTint+vec3(.062,.088,.074)*plungeFacet
         +vec3(.042,.063,.052)*wakeGlint,0.,1.);
       gl_FragColor=vec4(plungeTint,.88);
-      }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}}`});
+      }else{float a=sin(vWorld.x*3.+uTime*.6+sin(vWorld.z*2.2))*sin(vWorld.z*3.8-uTime*.34);float rim=pow(clamp(a,0.,1.),6.);gl_FragColor=vec4(uColor+vec3(.25,.34,.24)*rim,.88);}
+      // Match the existing base-water light response without changing opacity or motion.
+      gl_FragColor.rgb*=.45+.55*clamp(uLightLevel,0.,1.);
+      }`});
     materials.set('water-'+water.length,m);return m;
   }
   function wetlandWaterDisk(name='Candidate wetland water surface',segments=48){
@@ -546,7 +549,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Moving landing ripples, not frozen metallic-looking torus props.
     // Candidate local detail only: no claim about actual approved hydrology geometry.
     for(let i=0;i<4;i++){
-      const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uPhase:{value:i/4}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+      const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uLightLevel:{value:1},uPhase:{value:i/4}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
         // Each EXISTING expanding landing ring now carries a shallow 3D crest.
         // Keep the original inner/outer radii and XY expansion; subdivide only
         // its interior so age-fading vertical relief can rise above the pool.
@@ -568,13 +571,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
             gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
           }`,
         // Broken, feathered foam instead of a continuous uniform luminous hoop.
-        fragmentShader:`varying float vFade;varying float vCrest;varying float vFoam;
+        fragmentShader:`uniform float uLightLevel;varying float vFade;varying float vCrest;varying float vFoam;
           void main(){
             float broken=.30+.70*pow(vFoam,1.5);
             float feather=.24+.76*vCrest;
             float alpha=.43*vFade*broken*feather;
             vec3 tint=vec3(.72,.91,.82)+vec3(.055,.045,.035)*vCrest*vFoam;
             gl_FragColor=vec4(tint,alpha);
+            gl_FragColor.rgb*=.45+.55*clamp(uLightLevel,0.,1.);
           }`});
       materials.set('landing-ripple-'+i,m);
       const ring=mesh(g,new THREE.RingGeometry(.89,1,48,4),m,x,y-drop+.10+i*.008,z+.9);

@@ -370,6 +370,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
   const signature=JSON.stringify([c,paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight]);if(signature===lastSignature)return;lastSignature=signature;setCamera(c);
   if(!paused)lastTime=time;regional.tick(lastTime,{paused});atlasSites?.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;if(swampHaze){swampHaze.material.uniforms.uTime.value=lastTime;swampHaze.material.uniforms.uLightLevel.value=strength;}oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
   if(templeMist)templeMist.material.uniforms.uLightLevel.value=strength;
+  for(const w of regional.water)w.material.uniforms.uLightLevel.value=strength;
   const {span,key:shadowKey}=shadowCoverage(c);
   if(shadowKey!==lastShadowKey){
    sun.position.set(c.target[0]-95,150,c.target[2]+60);sun.target.position.set(c.target[0],0,c.target[2]);

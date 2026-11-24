@@ -48,10 +48,10 @@ test('Real imported Waterfall Temple shader adds one bounded camera-dependent gl
  assert.equal(w.mesh.material.transparent,true);
  assert.equal(w.mesh.material.depthWrite,false);
  assert.deepEqual(Object.keys(w.material.uniforms).sort(),[
-  'uBankContact','uChannel','uColor','uFall','uFlow','uIslandSiteCount','uIslandSites',
+  'uBankContact','uChannel','uColor','uFall','uFlow','uIslandSiteCount','uIslandSites','uLightLevel',
   'uPadSiteCount','uPadSites','uPlunge','uPond','uRiver','uRootSiteCount','uRootSites',
   'uSheenGain','uTime','uWetland'
- ].sort(),'No new uniforms added');
+ ].sort(),'Only the existing glint inputs plus the shared scene-light uniform');
  const shader=w.material.fragmentShader,start=shader.indexOf('if(uFall>.5){'),
    stop=shader.indexOf('}else if(uWetland>.5){',start),fall=shader.slice(start,stop);
  assert.ok(start>0&&stop>start);
