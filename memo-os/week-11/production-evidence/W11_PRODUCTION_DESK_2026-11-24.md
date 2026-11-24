@@ -24,6 +24,8 @@ The other 23 pages have reader copy and shot briefs. F01, F05–F06, F08–F22, 
 
 ## Bullpen decision and sports check
 
+The Closer directs the existing 12-proof and 23-page production queue, with the Librarian’s visual reconciliation and the Data Release Steward assignment active alongside it. Jake has no decision due for this work to proceed. [Executive direction, owners and exit checks](W11_CLOSER_PRODUCTION_DIRECTION_2026-11-24.md)
+
 The postgame board ran through the existing Bullpen ConsultEngine. All 18 AI director roles returned. Each director received the roster of the staff they supervise, covering all 46 desks. Seven staff implementations performed 11 checks, and the Librarian’s visual-library preflight passed five regressions. The existing Inklings and production review covers eight literary methods and twelve production disciplines. The roles retain the 35-page order and six outcomes. [Postgame director and staff receipt](W11_POSTGAME_18_DIRECTOR_46_STAFF_VISUAL_LIBRARY_REVIEW_2026-11-24.json) · [Inklings and production adjudication](../preproduction/W11_RESULT_LOCKED_INKLINGS_PRODUCTION_ADJUDICATION_2026-11-24.md)
 
 The ESPN paths check also separates a possible finish from a model probability. With automatic seeding and existing rules, all twelve clubs have a qualifying finish and a finish outside the seven. Mud Dogs can still win Burgers at 6–8 under the worked score example. [Replayable qualification scenarios](../preproduction/W11_PLAYOFF_QUALIFICATION_PATHS_2026-11-24.md)
