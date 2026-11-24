@@ -599,7 +599,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geo.setAttribute('aDrift',new THREE.Float32BufferAttribute(drift,3));
     geo.computeBoundingSphere();geometries.add(geo);
     const m=new THREE.ShaderMaterial({
-      uniforms:{uTime:{value:0}},transparent:true,depthWrite:false,blending:THREE.NormalBlending,
+      uniforms:{uTime:{value:0},uLightLevel:{value:1}},transparent:true,depthWrite:false,blending:THREE.NormalBlending,
       vertexShader:`uniform float uTime;attribute float aPhase;attribute vec3 aDrift;varying float vOpacity;varying float vViewFade;varying vec2 vSprayAxis;
         void main(){
           float age=fract(aPhase+uTime*(.105+.048*aDrift.y));
@@ -628,7 +628,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
           // Mist stays locally animated; modest camera-depth extinction is optical only.
           vViewFade=1.-.25*smoothstep(7.,85.,-view.z);
         }`,
-      fragmentShader:`varying float vOpacity;varying float vViewFade;varying vec2 vSprayAxis;
+      fragmentShader:`uniform float uLightLevel;varying float vOpacity;varying float vViewFade;varying vec2 vSprayAxis;
         void main(){
           // Feather a restrained, velocity-oriented droplet within the SAME
           // original point square. The .98 longitudinal scale guarantees
@@ -639,12 +639,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
           float radial=length(vec2(dot(drop,vSprayAxis)*.98,
             dot(drop,transverse)*1.45));
           // Soft finite spray core with a faint depth-scattered brighter center.
-          // No extra particle, fragment loop, texture, weather, or light input.
+          // Shared illustrative scene light changes radiance only, not opacity or motion.
           float core=1.-smoothstep(.02,.30,radial);
           float feather=1.-smoothstep(.08,.49,radial);
           vec3 scatter=mix(vec3(.68,.82,.78),vec3(.91,.96,.88),core*.42);
           float alpha=feather*vOpacity*(.16+.07*core)*vViewFade;
-          gl_FragColor=vec4(scatter,alpha);
+          gl_FragColor=vec4(scatter*clamp(uLightLevel,.30,1.),alpha);
         }`
     });
     materials.set('candidate-temple-plunge-mist',m);ambientMotion.push(m);

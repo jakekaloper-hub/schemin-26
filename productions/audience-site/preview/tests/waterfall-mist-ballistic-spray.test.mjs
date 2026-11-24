@@ -32,7 +32,7 @@ test('Temple uses the SAME one-draw localized mist emitter and keeps Atlas ident
   assert.ok(atlas.locations.find(l=>l.id===ids[0]).persistent_landmarks.includes('waterfall'));
   assert.ok(m.isPoints);assert.equal(p.count,144);assert.equal(phase.count,144);assert.equal(drift.count,144);
   assert.equal(m.material.isShaderMaterial,true);
-  assert.deepEqual(Object.keys(m.material.uniforms),['uTime']);
+  assert.deepEqual(Object.keys(m.material.uniforms),['uTime','uLightLevel']);
   assert.equal(a.root.getObjectsByProperty('name','Candidate waterfall plunge mist').length,1);
   assert.equal(m.userData.visualAuthority,'CANDIDATE_NOT_APPROVED');
   assert.equal(m.userData.sourceLandmark,'waterfall');

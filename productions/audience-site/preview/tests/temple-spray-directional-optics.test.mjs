@@ -49,7 +49,7 @@ test('source-bound Temple mist remains one original 144-point draw with unchange
   assert.equal(g.getAttribute('position').count,144);
   assert.equal(g.getAttribute('aPhase').count,144);
   assert.equal(g.getAttribute('aDrift').count,144);
-  assert.deepEqual(Object.keys(o.material.uniforms),['uTime']);
+  assert.deepEqual(Object.keys(o.material.uniforms),['uTime','uLightLevel']);
   assert.equal(o.userData.visualAuthority,'CANDIDATE_NOT_APPROVED');
   assert.equal(o.userData.navigable,false);
   assert.deepEqual(o.userData.routeIds,[]);

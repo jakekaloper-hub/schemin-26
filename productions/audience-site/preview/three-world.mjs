@@ -348,6 +348,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
  const siteIds=siteLocations.map(l=>l.id);if(new Set(siteIds).size!==siteIds.length)throw Error('DUPLICATE_RENDERED_SITE');
  const framesBySite=siteViewFrames(THREE,siteLocations);
  const batches=siteLocations.flatMap(l=>batchStaticGeometry(THREE,l.group).geometries);
+ const templeMist=regional.locations.find(l=>l.id==='LOC-TDS-WATERFALL-TEMPLE')?.group.getObjectByName('Candidate waterfall plunge mist');
  const swampSite=regional.locations.find(l=>l.id==='LOC-MUD-DOGS-SWAMP');
  const swampHaze=swampSite?createWetlandWaterHaze(THREE):null;
  if(swampHaze)swampSite.group.add(swampHaze);
@@ -368,6 +369,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
   if(!Number.isFinite(time)||!Number.isFinite(strength))throw Error('INVALID_RENDER_TIME');
   const signature=JSON.stringify([c,paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight]);if(signature===lastSignature)return;lastSignature=signature;setCamera(c);
   if(!paused)lastTime=time;regional.tick(lastTime,{paused});atlasSites?.tick(lastTime,{paused});oceanMaterial.uniforms.uTime.value=lastTime;if(swampHaze){swampHaze.material.uniforms.uTime.value=lastTime;swampHaze.material.uniforms.uLightLevel.value=strength;}oceanMaterial.uniforms.uStrength.value=strength;oceanMaterial.uniforms.uStorm.value=storm;
+  if(templeMist)templeMist.material.uniforms.uLightLevel.value=strength;
   const {span,key:shadowKey}=shadowCoverage(c);
   if(shadowKey!==lastShadowKey){
    sun.position.set(c.target[0]-95,150,c.target[2]+60);sun.target.position.set(c.target[0],0,c.target[2]);

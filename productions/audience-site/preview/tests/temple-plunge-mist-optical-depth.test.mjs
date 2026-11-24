@@ -27,7 +27,7 @@ function optical(radial,depth,age,driftY){
  return {rgb,alpha:feather*vOpacity*(.16+.07*core)*vViewFade,core,vViewFade};
 }
 
-test('Existing Waterfall Temple emitter remains exactly one source-local 144-point layer with zero new uniforms',()=>{
+test('Existing Waterfall Temple emitter remains exactly one source-local 144-point layer with only ordinary time and shared scene light',()=>{
  const a=build(),o=mist(a),geo=o.geometry;
  assert.equal(atlas.locations.find(p=>p.id===ids[0]).canon_status,'PERMANENT_CANON');
  assert.ok(atlas.locations.find(p=>p.id===ids[0]).persistent_landmarks.includes('waterfall'));
@@ -42,7 +42,7 @@ test('Existing Waterfall Temple emitter remains exactly one source-local 144-poi
  assert.equal(geo.getAttribute('position').count,144);
  assert.equal(geo.getAttribute('aPhase').count,144);
  assert.equal(geo.getAttribute('aDrift').count,144);
- assert.deepEqual(Object.keys(o.material.uniforms),['uTime']);
+ assert.deepEqual(Object.keys(o.material.uniforms),['uTime','uLightLevel']);
  assert.equal(o.material.transparent,true);
  assert.equal(o.material.depthWrite,false);
  const pts=geo.getAttribute('position');
@@ -69,7 +69,7 @@ test('Imported mist shaders compute bounded view extinction and feathered transl
  assert.match(f,/float feather=1\.-smoothstep\(\.08,\.49,radial\)/);
  assert.match(f,/vec3 scatter=mix\(vec3\(\.68,\.82,\.78\),vec3\(\.91,\.96,\.88\),core\*\.42\)/);
  assert.match(f,/float alpha=feather\*vOpacity\*\(\.16\+\.07\*core\)\*vViewFade/);
- assert.match(f,/gl_FragColor=vec4\(scatter,alpha\)/);
+ assert.match(f,/gl_FragColor=vec4\(scatter\*clamp\(uLightLevel,\.30,1\.\),alpha\)/);
  assert.doesNotMatch(v+f,/\buStorm\b|\buRain\b|\buGlobalCalm\b|\buWeather\b/);
  const center=optical(0,8,.5,.8),middle=optical(.21,8,.5,.8),
        rim=optical(.5,8,.5,.8),far=optical(0,100,.5,.8);
@@ -117,4 +117,27 @@ test('Mist stays unbatched and advances with all original waters under global ca
  assert.equal(matDisposals,1);
  assert.equal(JSON.stringify(atlas),oldAtlas);
  assert.equal(JSON.stringify(bindings),oldBindings);
+});
+
+
+test('Temple spray has separate shared-scene radiance and ordinary time inputs',()=>{
+ const a=build(),o=mist(a),u=o.material.uniforms;
+ const positions=Array.from(o.geometry.getAttribute('position').array);
+ assert.equal(u.uLightLevel.value,1);
+ u.uLightLevel.value=.2;
+ a.tick(8,{globalCalm:true});
+ assert.equal(u.uLightLevel.value,.2);
+ assert.equal(u.uTime.value,8);
+ assert.ok(a.water.every(w=>w.material.uniforms.uTime.value===8));
+ u.uLightLevel.value=.6;
+ a.tick(12,{paused:true,globalCalm:true});
+ assert.equal(u.uLightLevel.value,.6);
+ assert.equal(u.uTime.value,8);
+ assert.ok(a.water.every(w=>w.material.uniforms.uTime.value===8));
+ assert.deepEqual(Array.from(o.geometry.getAttribute('position').array),positions);
+ assert.match(o.material.fragmentShader,/gl_FragColor=vec4\(scatter\*clamp\(uLightLevel,\.30,1\.\),alpha\)/);
+ assert.doesNotMatch(o.material.vertexShader,/uLightLevel/);
+ const rendererSource=readFileSync(new URL('../three-world.mjs',import.meta.url),'utf8');
+ assert.match(rendererSource,/if\(templeMist\)templeMist.material.uniforms.uLightLevel.value=strength/);
+ a.dispose();
 });
