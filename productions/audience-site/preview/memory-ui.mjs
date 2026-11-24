@@ -70,7 +70,7 @@ function exitMemory(){
  camera=structuredClone(restore.camera);target=structuredClone(restore.camera);
  memoryDialog.close();document.body.classList.remove('memory-open');
  memoryImage.removeAttribute('src');memoryImage.hidden=true;
- lastTime=performance.now();if(memoryPreviousFocus?.isConnected)memoryPreviousFocus.focus();
+ lastTime=performance.now();if(!restoreFallbackPlace(restore.locationId)&&memoryPreviousFocus?.isConnected)memoryPreviousFocus.focus();
 }
 function nextMemory(delta){if(!memorySession)return;memorySession=navigateMemory(memorySession,memoryIndex,delta);memoryZoom=false;showMemoryPage();}
 $('#openMemory').onclick=enterMemory;$('#memoryBack').onclick=exitMemory;

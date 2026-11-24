@@ -20,11 +20,12 @@ const fixture=(status='RELEASE_CANDIDATE')=>{
     sourceReceipts:['memo-os/week-2/RECEIPT.md'],expiryCondition:'requires source restoration'};
   const catalog={locations:bindings,stateAsOf:'end_of_week_3_2026',history:{status,publicationAuthorized:false,events:[event]}};
   let focused=null;const create=tag=>new Element(tag,n=>focused=n);
-  const nodes=Object.fromEntries(['#placeList','#fallbackPlaces','#fallbackDetail'].map(key=>[key,create('div')]));
+  const nodes=Object.fromEntries(['#placeList','#fallbackPlaces','#fallbackDetail','#fallback','#retry'].map(key=>[key,create('div')]));
   assert.ok(snippet,'source-bound fallback block must exist');
-  new Function('document','$','bindings','catalog','PlaceHistory','indexButton',snippet)(
+  nodes['#fallback'].hidden=true;
+  const restore=new Function('document','$','bindings','catalog','PlaceHistory','indexButton',snippet+'\nreturn restoreFallbackPlace;')(
     {createElement:create},key=>nodes[key],bindings,catalog,{historyForLocation},()=>create('button'));
-  return {catalog,nodes,focused:()=>focused};
+  return {catalog,nodes,restore,focused:()=>focused};
 };
 const flatten=n=>[n.textContent||'',...n.children.flatMap(flatten)].join(' ');
 const historyButton=d=>d.children.find(x=>x.dataset?.fallbackHistory);
@@ -68,4 +69,52 @@ test('offline markup retains source-only and no-external-request bounds',()=>{
   assert.match(source,/PlaceHistory\.historyForLocation\(catalog,place\.id\)/);
   assert.match(source,/Source receipt paths \(not public links\)/);
   assert.doesNotMatch(snippet,/fetch\(|localStorage|writeWorld|publish|createEvent/);
+});
+
+test('graphics-loss return uses exact location and restores the recorded-history control',()=>{
+  const x=fixture(),d=x.nodes['#fallbackDetail'];
+  assert.equal(x.restore('LOC-0',true),false);assert.equal(d.children.length,0);
+  x.nodes['#fallback'].hidden=false;
+  assert.equal(x.restore('LOC-0',true),true);
+  assert.equal(x.focused().dataset.fallbackHistory,'LOC-0');
+  assert.match(flatten(d),/Place 0/);assert.equal(x.nodes['#fallbackPlaces'].children.length,23);
+  x.focused().onclick();assert.match(flatten(d),/EVT-W2-EXACT/);
+  d.children[0].onclick();assert.equal(x.focused().dataset.fallbackHistory,'LOC-0');
+  assert.equal(x.restore('LOC-17'),true);assert.equal(x.focused().tag,'h2');
+  assert.match(flatten(d),/Place 17/);assert.equal(historyButton(d),undefined);
+});
+test('unknown or unselected graphics-loss return focuses retry without borrowing history',()=>{
+  const x=fixture();x.nodes['#fallback'].hidden=false;
+  assert.equal(x.restore('LOC-UNKNOWN',true),true);assert.equal(x.focused(),x.nodes['#retry']);
+  assert.equal(x.nodes['#fallbackDetail'].children.length,0);
+});
+
+test('graphics loss defers handoff while a historical reader owns focus',()=>{
+  const code=source.slice(source.indexOf('function showFallback('),source.indexOf('function escapePanels('));
+  for(const owner of ['history','memory',null]){
+    const nodes=Object.fromEntries(['#fallback','#fallbackReason','#splash','#skipReveal'].map(key=>[key,{hidden:true}]));
+    const calls=[];
+    const loss=new Function('$','cancelAnimationFrame','restoreFallbackPlace','historySession','memorySession',
+      'let ready=true,frameId=42,selected={id:"LOC-0"};'+code+';return showFallback;')(
+      key=>nodes[key],id=>calls.push(id),id=>calls.push(id),owner==='history'?{}:null,owner==='memory'?{}:null);
+    loss('graphics lost');assert.equal(nodes['#fallback'].hidden,false);
+    assert.deepEqual(calls,owner?[42]:[42,'LOC-0']);
+    loss('duplicate loss');assert.deepEqual(calls,owner?[42,42]:[42,'LOC-0',42]);
+  }
+});
+test('historical modal exit routes restored source ID before attempting world focus',()=>{
+  for(const [kind,file] of [['history','place-history-ui.mjs'],['memory','memory-ui.mjs']]){
+    const cap=kind[0].toUpperCase()+kind.slice(1),ui=readFileSync(new URL('../'+file,import.meta.url),'utf8');
+    const start=ui.indexOf('function exit'+cap+'(){'),end=ui.indexOf('\n}',start)+2;
+    assert.ok(start>=0&&end>start);
+    for(const fallback of [true,false]){
+      const calls=[],saved={locationId:'LOC-0',camera:{target:[1,2,3]}};
+      const noop=()=>{};
+      const exit=new Function(kind==='history'?'closePlaceHistory':'closeMemory',kind+'Dialog','document',kind+'PreviousFocus','restoreFallbackPlace','memoryImage',
+        'let '+kind+'Session={},camera,target,lastTime,memoryGeneration=0,memoryZoom=false;'+ui.slice(start,end)+';return exit'+cap+';')(
+        ()=>saved,{close:()=>calls.push('close')},{body:{classList:{remove:noop}}},{isConnected:true,focus:()=>calls.push('world focus')},
+        (id,history)=>{calls.push([id,history??false]);return fallback;},{removeAttribute:noop});
+      exit();assert.deepEqual(calls,['close',['LOC-0',kind==='history'],...fallback?[]:['world focus']]);
+    }
+  }
 });

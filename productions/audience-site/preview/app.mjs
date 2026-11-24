@@ -17,7 +17,12 @@ let selected=null,pointerStart=null,dragDistance=0,pointers=new Map(),pinchDista
 const canvas=$('#world'),splash=$('#splash');
 let inspectionReturnFocus=canvas;
 function dispatch(a){state=transitionObserver(state,a);return state;}
-function showFallback(reason){ready=false;cancelAnimationFrame(frameId);$('#fallback').hidden=false;$('#fallbackReason').textContent=reason;$('#splash').hidden=true;$('#skipReveal').hidden=true;}
+function showFallback(reason){
+ const firstLoss=$('#fallback').hidden;
+ ready=false;cancelAnimationFrame(frameId);$('#fallback').hidden=false;$('#fallbackReason').textContent=reason;$('#splash').hidden=true;$('#skipReveal').hidden=true;
+ // Let a current read-only modal finish; its exit hands focus to the same source place.
+ if(firstLoss&&!historySession&&!memorySession)restoreFallbackPlace(selected?.id);
+}
 function escapePanels(){for(const id of ['#placesPanel','#infoPanel','#inspector'])$(id).hidden=true;$('#placesToggle').setAttribute('aria-expanded','false');$('#tooltip').hidden=true;}
 function indexButton(p){const b=document.createElement('button');b.type='button';b.textContent=p.name;b.dataset.place=p.id;b.addEventListener('click',()=>select(p.id));return b;}
 /* FALLBACK_JOURNEY_START: source-bound read-only navigation when graphics are unavailable. */
@@ -71,10 +76,18 @@ function renderFallbackPlace(place,indexButton,restoreHistoryFocus=false){
   detail.append(fallbackNode('p','Recorded history belongs only to this location and is not live world state.'),read);
   if(restoreHistoryFocus)read.focus();else title.focus();
 }
+function restoreFallbackPlace(locationId,restoreHistoryFocus=false){
+  if($('#fallback').hidden)return false;
+  const place=bindings.find(p=>p.id===locationId);
+  const button=place&&Array.from($('#fallbackPlaces').children).find(b=>b.dataset.fallbackPlace===place.id);
+  if(place&&button)renderFallbackPlace(place,button,restoreHistoryFocus);
+  else $('#retry').focus();
+  return true;
+}
 for(const p of bindings){
   $('#placeList').append(indexButton(p));
   const b=fallbackNode('button',p.name);
-  b.type='button';b.addEventListener('click',()=>renderFallbackPlace(p,b));$('#fallbackPlaces').append(b);
+  b.type='button';b.dataset.fallbackPlace=p.id;b.addEventListener('click',()=>renderFallbackPlace(p,b));$('#fallbackPlaces').append(b);
 }
 /* FALLBACK_JOURNEY_END */
 function select(id){

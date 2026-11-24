@@ -41,7 +41,7 @@ function exitHistory(){
   const restore=closePlaceHistory(historySession);historySession=null;
   camera=structuredClone(restore.camera);target=structuredClone(restore.camera);
   historyDialog.close();document.body.classList.remove('history-open');
-  lastTime=performance.now();if(historyPreviousFocus?.isConnected)historyPreviousFocus.focus();
+  lastTime=performance.now();if(!restoreFallbackPlace(restore.locationId,true)&&historyPreviousFocus?.isConnected)historyPreviousFocus.focus();
 }
 $('#openHistory').onclick=enterHistory;$('#historyBack').onclick=exitHistory;
 historyDialog.addEventListener('cancel',e=>{e.preventDefault();exitHistory();});
