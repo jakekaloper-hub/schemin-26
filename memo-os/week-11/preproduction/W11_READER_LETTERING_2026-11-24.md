@@ -88,27 +88,23 @@ Standings through Week 11
 
 On Hearthroad, a white chip of gravel moves between sweeps of a wiper. At Mountain Lake, a cart wheel waits on a strip of polished stone.
 
-## F09 · After you, Austin
+## F09 · After You, Austin
 
-Week 11 Game of the Week · His Majesty’s Blood at D0nkey K0ng
+WEEK 11 · GAME OF THE WEEK · His Majesty’s Blood at D0nkey K0ng
 
-Wilson made room on the wet bridge. “After you, Austin.”
+Across the Mountain Lake bridge, Wilson Look planted four hooves and raised his axe. “The Belt Keeper comes to ask permission?” he called. From the far landing, Austin Byars lifted his hooded head, red eyes burning in shadow. “Not yours,” came the answer. Behind Wilson, the carter held his horse and wagon still. Wilson made a mocking path between them. “After you, Austin.” The old lantern swung, the storm tore at their cloaks, and both warriors lowered their weapons. Neither intended to surrender the crossing. They charged.
 
-The carter loosened his reins. For a moment he thought the courtesy might extend to him.
+## F10 · He Was Here Before Us
 
-## F10 · He was here before us
+WEEK 11 · GAME OF THE WEEK · His Majesty’s Blood at D0nkey K0ng
 
-His Majesty’s Blood at D0nkey K0ng
+Their first collision rang against the lantern stones. Wilson drove his axe down; Austin caught its haft with his sword and turned aside instead of meeting the centaur’s weight head-on. Hooves hammered the narrow deck. Wilson twisted for a second cut, forcing Austin toward the parapet. “He was here before us,” Austin said, glancing at the waiting carter. He slipped inside the next swing and struck Wilson’s armored upper body. The impact shoved the huge warrior backward. His hind hooves crossed on rain-slick stone. All four feet fought for purchase as the parapet rushed toward him.
 
-“He was here before us,” Austin said.
+## F11 · The Carter Listens
 
-Wilson heard him over the rain. When their steel met, Austin held his footing. Four hooves slid toward the parapet.
+WEEK 11 · GAME OF THE WEEK · His Majesty’s Blood at D0nkey K0ng
 
-## F11 · The carter listens
-
-The carter listened until Wilson broke the surface, coughing. Only then did Austin reach for the cap. “My jester.” One wet bell clunked on the swim home.
-
-His Majesty’s Blood 168.20 · D0nkey K0ng 129.75
+Austin’s final blow carried through the clash. Four hooves scraped for grip; Wilson’s enormous armored body pitched over the intact parapet and vanished into the raging, storm-churned water. The carter stopped breathing. Even Austin stepped to the edge, his gold belt still fixed at his waist. Waves battered the pier. Then Wilson’s dark head broke the foam—coughing, alive. Only when the great centaur reached toward shore did Austin release the small jester’s cap. “My jester,” he said, almost without triumph. His Majesty’s Blood 168.20 · D0nkey K0ng 129.75.
 
 ## F12 · Six. I told her six.
 
