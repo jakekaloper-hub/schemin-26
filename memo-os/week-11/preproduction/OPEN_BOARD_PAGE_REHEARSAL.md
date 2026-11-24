@@ -64,7 +64,7 @@ Earlier observation · ESPN league 1417621 · Sunday, November 22, **7:40 p.m. E
 
 ## Reader sequence
 
-<a id="folio-01"></a>
+<a id="folio-01"></a>010101
 
 ### F01 · One Last Crossing
 
@@ -79,9 +79,17 @@ Name the consequence for a second team. Audition the bridge against the stronges
 - **Phone proof.** The gesture must survive a group-chat thumbnail.
 - **Turn.** Front cover → **One Last Crossing** → The bottom of the register.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Cover candidates: Austin's decisive bridge strike, Brandon's single chili-tank throw, or Zach's second board sheet. Official winners are known; select the strongest readable character moment after visual proof, not simply the highest point scorer.
+
+**Evidence and acceptance:** COVER_IMAGE_AND_FINAL_390PX_QA_PENDING. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f01) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-01) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-01) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f01)
 
-<a id="folio-02"></a>
+<a id="folio-02"></a>020202
 
 ### F02 · The bottom of the register
 
@@ -98,9 +106,17 @@ Six teams entered 6–4. A loss could close the door on the 2–8 Mud Dogs. Add 
 
 - **Weather continuity — editorial:** let one dated dispatch point to a Week 10 storm that different regions experienced differently, as set in the source-backed [weather pass](WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md). Do not tell the reader that El Niño has officially won Week 11, or that every storm event is his personally controlled manifestation.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Opening Drive: three clubs stand 7–4, four are 6–5, two 5–6, two 4–7, and Mud Dogs 3–8. Bobby's upset and Jordan's close loss frame the tension between confidence and consequence.
+
+**Evidence and acceptance:** COPY_NEEDS_EDITORIAL_SIGNOFF. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f02) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-02) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-02) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f02)
 
-<a id="folio-03"></a>
+<a id="folio-03"></a>030303
 
 ### F03 · Commissioner’s Note
 
@@ -115,9 +131,17 @@ Give the Commissioner one judgment about what division rivals owe each other. Ke
 - **Phone proof.** Keep the signature out of the body column.
 - **Turn.** The bottom of the register → **Commissioner’s Note** → The Week 11 board.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Commissioner's signed address may acknowledge six completed contests and the divisional turn. The actual Commissioner voice and portrait remain a separate authorized byline; never manufacture his quote.
+
+**Evidence and acceptance:** COMMISSIONER_SIGNOFF_PENDING. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f03) · [Native study 01](board-png/01-one-last-crossing.png) · Week 10 physical 1, 2, 3 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-03) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-03) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f03)
 
-<a id="folio-04"></a>
+<a id="folio-04"></a>040404
 
 ### F04 · The Week 11 board
 
@@ -132,9 +156,26 @@ Tell the reader this was the last interdivisional week. Set team names, totals a
 - **Phone proof.** Names, decimals and away/home pairing must survive at 390 px.
 - **Turn.** Commissioner’s Note → **The Week 11 board** → The Twelve · first six.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Publish six ESPN-final pairings with exact two-decimal scores and all twelve teams; resolve AWAY/HOME and official WINNER rather than projected values. Source label: ESPN/Flaim final 2026-11-24.
+
+**Evidence and acceptance:** PROVIDER_VERIFIED_NEEDS_390PX_AND_DATA_STEWARD. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+**Final Week 11 scoreboard (ESPN):**
+| Game | Away | Final (away–home) | Home | Winner |
+|---|---|---:|---|---|
+| G01 | His Majesty's Blood | 168.20–129.75 | D0nkey K0ng | His Majesty's Blood |
+| G02 | El Niño | 134.60–138.86 | Slob on my Dobb | Slob on my Dobb |
+| G03 | The Chili Cheesers | 133.52–83.79 | ObiWan Jacoby | The Chili Cheesers |
+| G04 | Red Leopards | 94.80–125.74 | Three Dreaded Snake | Three Dreaded Snake |
+| G05 | Seven Deadly Chins | 117.66–151.26 | Mud Dogs | Mud Dogs |
+| G06 | The LLC | 127.60–173.01 | Dr. Duckhook | Dr. Duckhook |
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f04) · [Native study 02](board-png/02-two-ways-to-read-sunday.png) · Week 10 physical 4, 11 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-04) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-04) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f04)
 
-<a id="folio-05"></a>
+<a id="folio-05"></a>050505
 
 ### F05 · The Twelve · first six
 
@@ -149,9 +190,26 @@ Make six distinct arguments. Movement is change since the Week 7 editorial ranki
 - **Phone proof.** Leave room for long team names and a signed movement value.
 - **Turn.** The Week 11 board → **The Twelve · first six** → The Twelve · second six.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Draft editorial power-ranking positions 1–6, distinct from ESPN seeds and 70/30 scoring form: Dr. Duckhook 1 (up 4 since Week7), Slob 2 (down 1), His Majesty’s Blood 3 (up 4), D0nkey K0ng 4 (down 2), El Niño 5 (up 4), Chili Cheesers 6 (down 3). Use actual W11 boxscores and an approved character portrait for each; editorial judgments still require publication signoff.
+
+**Evidence and acceptance:** COMPLETE_6_ROW_EDITORIAL_CANDIDATE_NOT_PUBLISHED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
+**Sports Desk production-facing editorial ranking candidate — awaiting Commissioner signoff:**
+| # | Team | Record | Move vs W7 | Evidence |
+|---:|---|---:|---:|---|
+| 1 | Dr. Duckhook | 7–4 | +4 | 7–4 and a 173.01–127.60 victory over LLC; first on separate season/Week11 scoring-form calculation, with 99.36% vendor playoff model. |
+| 2 | Slob on my Dobb | 7–4 | -1 | 7–4, league-leading season points for (1738.85) and narrow 138.86–134.60 escape against El Niño; 99.81% model playoff estimate. |
+| 3 | His Majesty's Blood | 7–4 | +4 | ESPN current seed #1 at 7–4, 168.20 over DK by 38.45 and second scoring-form index. |
+| 4 | D0nkey K0ng | 6–5 | -2 | Burgers leader/ESPN seed #3 at 6–5 despite 38.45 loss to HMB; 92.49% vendor model playoff odds. |
+| 5 | El Niño | 6–5 | +4 | 6–5, 134.60 in four-point near miss against Slob; fourth scoring-form rank and most volatile direct Week12 feature vs Chins. |
+| 6 | The Chili Cheesers | 6–5 | -3 | 6–5, a 49.73-point victory over ObiWan and Cam Ward/Chimere Dike production; seventh ESPN current seed. |
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f05) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-05) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-05) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f05)
 
-<a id="folio-06"></a>
+<a id="folio-06"></a>060606
 
 ### F06 · The Twelve · second six
 
@@ -166,9 +224,26 @@ Give the remaining teams one reason each. Explain that editorial rank and playof
 - **Phone proof.** Read rows seven through twelve without switching columns.
 - **Turn.** The Twelve · first six → **The Twelve · second six** → What seventh place means.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Draft editorial power-ranking positions 7–12, matching the first panel: Seven Deadly Chins 7 (down 1 since Week7), Three Dreaded Snake 8 (up 3), Red Leopards 9 (down 5), The LLC 10 (unchanged), Mud Dogs 11 (up 1), ObiWan Jacoby 12 (down 4). The exact 7-berth ESPN seed line and TheFFHub odds remain separate sources, not editorial ranks.
+
+**Evidence and acceptance:** COMPLETE_6_ROW_EDITORIAL_CANDIDATE_NOT_PUBLISHED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
+**Sports Desk production-facing editorial ranking candidate — awaiting Commissioner signoff:**
+| # | Team | Record | Move vs W7 | Evidence |
+|---:|---|---:|---:|---|
+| 7 | Seven Deadly Chins | 6–5 | -1 | 6–5 and current sixth seed despite a 33.60 loss to Mud; 68.87% TheFFHub odds and decisive Week12 game at Niño. |
+| 8 | Three Dreaded Snake | 5–6 | +3 | 5–6, 30.94-point win over Red, currently eighth seed and 30.84% model odds, a meaningful comeback window. |
+| 9 | Red Leopards | 5–6 | -5 | 5–6, suffered a 30.94 defeat to Snake and dropped to 11th in 70/30 scoring form; still 26.84% vendor odds. |
+| 10 | The LLC | 4–7 | +0 | 4–7 and a big 45.41 loss to Duckhook, but fifth on 70/30 form; penalized for seven losses despite season scoring strength. |
+| 11 | Mud Dogs | 3–8 | +1 | 3–8, 151.26–117.66 upset over Chins and eighth 70/30 form, though still only 0.26% vendor odds and ESPN last seed. |
+| 12 | ObiWan Jacoby | 4–7 | -4 | 4–7, lost 133.52–83.79, 12th raw 70/30 scoring form; TheFFHub still gives 12.88%, not eliminated. |
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f06) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-06) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-06) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f06)
 
-<a id="folio-07"></a>
+<a id="folio-07"></a>070707
 
 ### F07 · What seventh place means
 
@@ -183,9 +258,32 @@ Explain any order that records alone cannot resolve. Identify the last completed
 - **Phone proof.** The seventh-place rule cannot obscure a digit.
 - **Turn.** The Twelve · second six → **What seventh place means** → The roads between.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Current ESPN playoffSeed order: HMB 1, Slob 2, DK 3, Duckhook 4, El Niño 5, Chins 6, Chili 7. Next: Snake 8, Red 9, LLC 10, ObiWan 11, Mud 12. Seven berths; a seed is not a clinch.
+
+**Evidence and acceptance:** PROVIDER_VERIFIED_NO_CLINCH_CLAIMS. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+**ESPN postseason seed order, not mathematical clinch status:**
+| Seed | Team | Record |
+|---:|---|---:|
+| 1 | His Majesty's Blood | 7–4 |
+| 2 | Slob on my Dobb | 7–4 |
+| 3 | D0nkey K0ng | 6–5 |
+| 4 | Dr. Duckhook | 7–4 |
+| 5 | El Niño | 6–5 |
+| 6 | Seven Deadly Chins | 6–5 |
+| 7 | The Chili Cheesers | 6–5 |
+| 8 | Three Dreaded Snake | 5–6 |
+| 9 | Red Leopards | 5–6 |
+| 10 | The LLC | 4–7 |
+| 11 | ObiWan Jacoby | 4–7 |
+| 12 | Mud Dogs | 3–8 |
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f07) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-07) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-07) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f07)
 
-<a id="folio-08"></a>
+<a id="folio-08"></a>080808
 
 ### F08 · The roads between
 
@@ -202,9 +300,17 @@ Connect two separate places by sound and movement. The route is a cut between sc
 
 - **Weather route shot:** this is the issue's region-to-region connector: weaker cloud/wind on Hearthroad and Mountain Lake, stronger Week 10 Storm Coast exposure already witnessed, delayed wetland runoff. Separate locations and elapsed times rather than one real-time drone map; follow [the Week 10-backed propagation matrix](WEEK11_EL_NINO_COMMONWEALTH_STORM_PASS_2026-11-23.md). No invented forecast map or travel-time number.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Carry the storm from Hearthroad wheel to Mountain Lake bridge wheel with distinct locations and physically consistent drainage. Six venue references remain separate cinematic-approval holds.
+
+**Evidence and acceptance:** STRUCTURAL_PREVIS_CAN_PROCEED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f08) · [Native study 02](board-png/02-two-ways-to-read-sunday.png) · Week 10 physical 4, 11 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-08) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-08) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f08)
 
-<a id="folio-09"></a>
+<a id="folio-09"></a>090909
 
 ### F09 · After you, Austin
 
@@ -225,9 +331,17 @@ Connect two separate places by sound and movement. The route is a cut between sc
 
 - **Founder November 23 bridge-weather cue — pre-fall.** The stronger *local* squall drives leaves past the carter's stationary wheel. His wagon covering whips in the wind. The lake on both sides has sharp white-edged chop; the stone stays intact and publicly usable. Preserve Wilson's calculated courtesy and Austin's belt; the weather is exposure, not the cause of either owner's social choice.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+HMB wins 168.20–129.75. Wilson's theatrical lane offer and waiting carter remain the opening action. Show the intact rain-slick bridge, four hooves, belt, one wind direction; no winner blow yet.
+
+**Evidence and acceptance:** FINAL_SCORE_SELECTED_VISUAL_REFERENCE_HOLD. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f09) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-09) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-09) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f09)
 
-<a id="folio-10"></a>
+<a id="folio-10"></a>101010
 
 ### F10 · He was here before us
 
@@ -246,9 +360,17 @@ Austin gives the carter the right of way in words. Show what Wilson hears in the
 
 - **Founder November 23 bridge-weather setup — traction.** A close detail shows rainwater glazing old midspan stones; Wilson's four hooves briefly adjust on the slick surface before the showdown while Austin braces into the wind and makes his original carter-right-of-way response. Stage an observable direction for the gust (cloak, leaves, carter cover all agree), with the same lantern and parapet across camera reverses. No official winner/fall before ESPN decision.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Austin notices the ordinary carter's right of way, steadies on wet stone and lands the decisive HMB-winning strike. Wilson's hoof slide is physically caused; his Arsenal gorilla-centaur body remains ONE body with four hooves.
+
+**Evidence and acceptance:** FINAL_SCORE_SELECTED_WILSON_SOURCE_HOLD. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f10) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-10) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-10) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f10)
 
-<a id="folio-11"></a>
+<a id="folio-11"></a>111111
 
 ### F11 · The carter listens
 
@@ -267,9 +389,17 @@ One final score selects the cap or the cough. In a tie or pending cut, both rema
 
 - **Founder November 23 conditional HMB-win image.** ONLY if ESPN officially confirms **His Majesty's Blood defeating D0nkey K0ng**: Austin lands the final strike, Wilson's four hooves **lose purchase on rain-slick stone**, he slides over the intact bridge edge and lands in **storm-agitated Mountain Lake**. Show windblown leaves, straining cart covering, Austin's cloak, foaming whitecaps and spray **rather than invented directional river rapids**; a literal fast outflow/current requires separate Atlas hydrology confirmation. Austin and the carter wait anxiously until Wilson resurfaces ALIVE and reaches a plausible bank; only then can Austin use the existing quiet jester-cap beat. If **D0nkey K0ng wins**, preserve Austin-over-water alternate and his retained belt; tie/pending holds both midspan. At 390px the physical cause (blow + sliding hooves), same real lake and living survivor must read.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Selected HMB-victory ending: Wilson skids off the intact bridge into rough Mountain Lake and resurfaces alive, watched by Austin and carter. NO river rapids, no death, no bridge destruction.
+
+**Evidence and acceptance:** SELECTED_SURVIVOR_ENDING_WILSON_SOURCE_HOLD. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f11) · [Native study 03](board-png/03-after-you-austin.png) · Week 10 physical 33, 5, 6, 21 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-11) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-11) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f11)
 
-<a id="folio-12"></a>
+<a id="folio-12"></a>121212
 
 ### F12 · Six. I told her six.
 
@@ -283,9 +413,17 @@ Manning: “What time did you tell them?” Jordan: “Six. I told her six.” H
 - **Visual QA.** A camera through the windshield should show the runoff's direction and first risk. Manning's visible reaction must be to the ground, not magical access to future distant truck damage.
 - **Turn.** The carter listens → **Six. I told her six.** → The radio call. The last image motivates rather than resolves the next page.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Slob wins the fantasy game narrowly, 138.86–134.60. At Hearthroad the six-o'clock delivery promise and Manning's first weather pressure remain; no outcome fact teleports the truck.
+
+**Evidence and acceptance:** FINAL_SCORE_SELECTED_SOURCE_STAGE_OK. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f12) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-12) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-12) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f12)
 
-<a id="folio-13"></a>
+<a id="folio-13"></a>131313
 
 ### F13 · The radio call
 
@@ -303,9 +441,17 @@ If El Niño wins, use a cinematic three-quarter view of the truck braked at an e
 
 - **Founder storm/cargo visual override (November 23).** A crosswind catches the Week 10 beer-trailer canvas on the *later*, route-approved wetland approach. One secondary lash loosens; **two kegs visibly tumble from the trailer** and roll in the roadside runoff. The remaining covered beer load stays secured. At the raised shoulder the rear axle is threatened; the cab/brake/radio remain physically coherent. **This spill is shared scene action regardless of the eventual football winner**; a confirmed El Niño win means a stranded, delayed shipment, a confirmed Slob on my Dobb win means Jordan controls the truck and arranges safe keg recovery. If undecided, stop without publishing the recovery or delivery time. No weightless flying kegs, victim, permanent road loss or assumed truck clearance on Delta Causeway. Compare exact Week 10 trailer/strap/cargo reference and show one actual mass-and-gravity path at 390px.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Selected Slob-victory recovery branch: secondary strap loosens, exactly TWO kegs fall by gravity, Jordan anticipates washed edge, stabilizes truck, calls taproom and arranges safe retrieval/accounting. Remaining beer stays secured. Loaded-truck wetland access remains Atlas HOLD.
+
+**Evidence and acceptance:** FINAL_ENDING_SELECTED_TRUCK_ACCESS_HOLD. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f13) · [Native study 04](board-png/04-six-i-told-her-six.png) · Week 10 physical 35, 16, 8 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-13) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-13) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f13)
 
-<a id="folio-14"></a>
+<a id="folio-14"></a>141414
 
 ### F14 · Off the board
 
@@ -322,9 +468,17 @@ Brandon wanted to know who was the underdog. Jake wanted that crowd arguing abou
 
 - **Inklings summit Nov 23 — proposed personalization.** **Why the grievance matters.** Brandon wants to know which owner Pittsy would have favored; Jake wants the passing crowd talking about *his* mountain confrontation. The OFF BOARD sheet makes each feel overlooked for different reasons. Hold both faces and the actual notice in one frame. The House's recorded injury/lineup concern is separate from Jake's later allegation; neither should be rewritten as a confirmed conspiracy.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Chili wins 133.52–83.79; Brandon and Jake still complain that their matchup was OFF BOARD in the House notice. Recovered black rodeo hat and rain-drenched Eastern Ascent carnival retained.
+
+**Evidence and acceptance:** FINAL_SCORE_SELECTED_HOUSE_OFF_BOARD_HISTORICAL. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f14) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-14) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-14) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f14)
 
-<a id="folio-15"></a>
+<a id="folio-15"></a>151515
 
 ### F15 · The safest seat
 
@@ -345,9 +499,17 @@ Jake works the carnival mic with the D5 Texas quarterback joke. Leave the underw
 
 - **Founder wet carnival override (November 23).** Rainfall is **clearly visible**, not just a cold wind: heavy drops traverse the lit carnival booth, puddles reflect the public footpath, Brandon's black hat is wet, and the posted OFF BOARD notice still reads. The Wolf Brand Chili tank remains filled with unmistakable thick chili **rather than rainwater**. Brandon's **one** throw hits the target by his skill, not by a lucky gust; Jake's fully submerged face and palm are legible behind the viewing window despite rain outside. Do not combine with the alternative saber duel.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Brandon lands ONE skilled throw without wind assist; willing Jake drops into thick Wolf Brand Chili NO BEANS. Show target-hinge continuity, submerged face and palm; rainfall stays outside tank.
+
+**Evidence and acceptance:** RESULT_INDEPENDENT_DUNK_SELECTED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f15) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-15) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-15) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f15)
 
-<a id="folio-16"></a>
+<a id="folio-16"></a>161616
 
 ### F16 · At the ladder
 
@@ -366,9 +528,17 @@ The score chooses the quiet admission, the request to repeat it, or the held rea
 
 - **Rain + chili identity check.** The rain continues visibly across the mountain carnival when Jake climbs out **head to both chili-coated boots**. Wet fabric is distinct from thick reddish chili clinging to hair/robe; spectators' coats and Brandon's hat maintain rain continuity. Brandon remains beside the ladder, the last quiet reaction carries the conditional score and playoff concern without a false elimination caption.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Chili's 49.73-point victory heightens Jake's public humiliation: Jake emerges chili-covered from hair to BOTH boots, Brandon holds his hat. ObiWan falls to 4–7; playoff elimination NOT certified.
+
+**Evidence and acceptance:** FINAL_SCORE_SELECTED_NO_UNVERIFIED_ELIMINATION. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f16) · [Native study 05](board-png/05-the-safest-seat.png) · Week 10 physical 7, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-16) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-16) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f16)
 
-<a id="folio-17"></a>
+<a id="folio-17"></a>171717
 
 ### F17 · Pick a side
 
@@ -389,9 +559,17 @@ Phillip speaks first. Kevin checks the path before choosing. Keep the footrace a
 
 - **Founder stronger waterfall-front revision.** Tropical-looking jungle at the **existing visitor-side waterfall break** receives heavy rainfall, thrashing broad leaves, muddy footprints and runoff trickles across the two possible race approaches. Phillip's private household stays off camera. Keep the **raised dry finish stone** physically plausible as the one sheltered/elevated foothold and three heads on the same body. Kevin checks the soaked track because of Week 10's very real storm damage to his separate territory. The race remains an audition rather than an invented official result.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Three Dreaded Snake wins 125.74–94.80 over Kevin. At waterfall jungle's outer visitor-side boundary, Kevin checks muddy paths; Phillip has ONE body and THREE heads. The exact sport remains an editorial staging hold.
+
+**Evidence and acceptance:** FINAL_WINNER_SELECTED_SPORT_PROPOSED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f17) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-17) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-17) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f17)
 
-<a id="folio-18"></a>
+<a id="folio-18"></a>181818
 
 ### F18 · The dry stone
 
@@ -410,9 +588,17 @@ A Red Leopards win opens the bag. A Three Dreaded Snake win gives Kevin the conc
 
 - **Waterlogged finish/conditional wardrobe.** The contestants' mud-darkened feet, runoff and wet vegetation must carry through the reverse from F17, with the first palm on the established **comparatively dry stone** readable before any celebration. The Florida python-hunter bag stays sealed on a Snake win, tie or pending game; **only** a verified Red Leopards win opens it. No flooded family courtyard or damaged waterfall-temple canon.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Selected Snake-victory finish: Phillip gets to the relatively dry raised finish stone first. Kevin's Florida python-hunter dry bag stays SHUT; no celebratory outfit because Red lost.
+
+**Evidence and acceptance:** SNAKE_WIN_BAG_CLOSED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f18) · [Native study 06](board-png/06-first-choice.png) · Week 10 physical 9, 10, 12 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-18) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-18) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f18)
 
-<a id="folio-19"></a>
+<a id="folio-19"></a>191919
 
 ### F19 · The wrong turn
 
@@ -430,9 +616,17 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 
 - **Founder exceptionally high water level.** Show a temporary flood mark well up the **lower Gators & Dawgs sign supports** and near the left empty-stand foundations, submerged familiar wheel scars, floating reeds and brown water. Keep the right-hand Cancún card above the flood and Bobby's small reversible outpost on safe raised ground. His clean paw is genuinely dry on an elevated strip while he *deliberately* points Ben Whipple toward the deeper misleading route. The swamp danger must read visually before the dialogue; no new permanent physical route or certified El Niño world flood.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Mud Dogs wins 151.26–117.66. Bobby KNOWINGLY directs Ben into a misleading, extraordinarily flooded track from a truly dry raised lip; empty stands LEFT, right Cancún card above water.
+
+**Evidence and acceptance:** MUD_WIN_INTENTIONAL_MISDIRECTION. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f19) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-19) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-19) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f19)
 
-<a id="folio-20"></a>
+<a id="folio-20"></a>202020
 
 ### F20 · The road that comes back
 
@@ -450,9 +644,17 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 
 - **The high-water wrong turn.** Ben's raised truck visibly encounters unnaturally high floodwater for this week's scene, sees familiar sign/rut/stand positions reflected through water and realizes Bobby's directions were intentional sabotage. Retain a source-plausible way to stop/retreat; don't depict an impossible submerged truck, a permanent road disappearance or a real Playoff Island crossing. At the outpost Bobby gives one small smirk before the above-water Cancún card reminds him of his own season. ESPN/FFHub later controls any genuine spoiler/seeding claims.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Ben recognizes repeated ruts and old sign, retreats safely; Bobby enjoys a brief spoiler's smirk before fearing his own Cancún postcard. Chins are 6–5, currently sixth seed, NOT officially eliminated.
+
+**Evidence and acceptance:** MUD_WIN_NO_CHINS_ELIMINATION. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f20) · [Native study 07](board-png/07-the-dry-paw.png) · Week 10 physical 15, 17, 13, 14 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-20) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-20) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f20)
 
-<a id="folio-21"></a>
+<a id="folio-21"></a>212121
 
 ### F21 · The visitor’s chair
 
@@ -468,9 +670,17 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 
 - **Founder investor-confidence + extreme clubhouse exterior (operative).** David Babb enters *because he believes his investors back a proposed Jackson acquisition after last week's victory*. Show the entire exterior through the office window under punishing gusts, driving rain, trees bent and club workers securing exterior equipment. The dry, secure executive office and lamp are a haven for his overconfidence. A groundskeeper returns a **rain-damp course key** to the existing hook and departs before the private exchange. David's unsigned course purchase offer and poised pen stay separate from Zach's *unrevealed* second sheet; no real investor identity or amount is invented.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Duckhook wins 173.01–127.60. David believes investors back his purchase of Jackson. Severe storm stays OUTSIDE dry executive office; groundskeeper returns wet key and EXITS; first purchase sheet remains unsigned.
+
+**Evidence and acceptance:** FINAL_SCORE_SELECTED_FIXED_UNSOLD_CLUB. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f21) · [Study 08, original desk blocking](board-png/08-stay-for-coffee.png) · [Owner revision and shots](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · Week 10 original PNGs 20, 21 and 24 · [F21 blocking and lettering](lettering/W11-F21-The-Visitors-Chair.png) · [390 px phone proof](lettering/W11-F21-The-Visitors-Chair-390.png) · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-21) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-21) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f21)
 
-<a id="folio-22"></a>
+<a id="folio-22"></a>222222
 
 ### F22 · The second sheet
 
@@ -492,9 +702,17 @@ Through the high window Ben asks, “Which way to Playoff Island?” Bobby's cle
 
 - **Founder discreet board and furious reversal (operative).** David reads the *same fixed* LLC board action, then understands that members of The LLC executive board had privately asked Zach to take charge and Zach had been calling them. Only **the two owners** hear this; David's fury is visceral: he rises fast, the chair shifts and his unused pen strikes dry wood without destroying the legally legible paper or office. Extreme rain and bent exterior trees fill the **window behind him**, but the storm did not appoint the CEO. Zach stays restrained and keeps Jackson; David stays The LLC fantasy representative. Preserve the complete “CEO and chairman” notice at 390px; coffee branch only after official winner.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Fixed board action independent of ESPN: David Babb removed as corporate LLC CEO, Zach Duckhook appointed CEO AND chairman, after discreet board contacts. David rises furious, pen hits dry desk, Zach calm; LLC fantasy representation unchanged. Duckhook WIN coffee coda: David asks for his coffee BLACK.
+
+**Evidence and acceptance:** DUCKHOOK_WIN_BLACK_COFFEE_BABB_FANTASY_OWNER_UNCHANGED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f22) · [Study 08, before the owner revision](board-png/08-stay-for-coffee.png) · [Full scene and owner direction](../WHOLE_ISSUE_CINEMATIC_PASS_2026-11-22.md#g06--the-second-sheet) · [Native F22 lettering study](lettering/W11-F22-The-Second-Sheet.png) · [390 px inspection copy](lettering/W11-F22-The-Second-Sheet-390.png) · Week 10 original PNGs 22, 20, 21, 24 and 25 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-22) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-22) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f22)
 
-<a id="folio-23"></a>
+<a id="folio-23"></a>232323
 
 ### F23 · What the starters changed
 
@@ -509,9 +727,17 @@ Sunday desk copy, 8:24 p.m. ET. Jonah Coleman and Chuba Hubbard had 68.00 for Hi
 - **Phone proof.** Every pair of figures needs a team label.
 - **Turn.** The second sheet → **What the starters changed** → Who could answer?.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Sports Desk G01–G03: Jonah Coleman 38.30 plus Chuba Hubbard 29.70 and Purdy 28.20 for HMB; Slob CeeDee Lamb 31.20 vs El Niño Emmett Johnson 27.60; Chili Cam Ward 28.42 and Chimere Dike 19.75 helped bury ObiWan.
+
+**Evidence and acceptance:** PLAYER_DETAILS_PROVIDER_LOCKED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f23) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-23) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-23) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f23)
 
-<a id="folio-24"></a>
+<a id="folio-24"></a>242424
 
 ### F24 · Who could answer?
 
@@ -526,9 +752,17 @@ Sunday desk copy, 8:24 p.m. ET. Javonte and Caleb Williams had 44.64 for Three D
 - **Phone proof.** Keep bench points out of the starter subtotal.
 - **Turn.** What the starters changed → **Who could answer?** → The cost of Sunday.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Sports Desk G04–G06: Snake Javonte Williams 25.90 plus Ladd McConkey 20.70; Mud Ashton Jeanty 31.00 and Jared Goff 26.86; Duckhook Gibbs 30.10, Stroud 29.06, Kelce 25.40, Olave 20.20. Confirm causal statements against exact final margins.
+
+**Evidence and acceptance:** PLAYER_DETAILS_PROVIDER_LOCKED. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f24) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-24) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-24) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f24)
 
-<a id="folio-25"></a>
+<a id="folio-25"></a>252525
 
 ### F25 · The cost of Sunday
 
@@ -543,9 +777,17 @@ Explain how the original concern and the actual starter differed. Cite any medic
 - **Phone proof.** An IR slot or absence alone cannot support a diagnosis.
 - **Turn.** Who could answer? → **The cost of Sunday** → The next starting sheet.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Use dated lineup/House notices separately from actual Week 11 starters and official fantasy totals. Do not infer medical diagnoses from roster, IR or availability labels.
+
+**Evidence and acceptance:** DATE_PROVENANCE_AND_EDITORIAL_QA. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f25) · [Native study 09](board-png/09-why-the-board-moved.png) · Week 10 physical 18, 19 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-25) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-25) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f25)
 
-<a id="folio-26"></a>
+<a id="folio-26"></a>262626
 
 ### F26 · The next starting sheet
 
@@ -560,9 +802,17 @@ Compare Kansas City and Houston D/ST. Then identify a real Week 12 decision that
 - **Phone proof.** Make the bench label as legible as the points.
 - **Turn.** The cost of Sunday → **The next starting sheet** → Who made it onto the roster?.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+DK started Chiefs D/ST for 13.00 while Texans D/ST scored 23.80 on bench (+10.80 alternative); HMB nevertheless won by 38.45. Do not portray the choice as the cause of an otherwise reversed result.
+
+**Evidence and acceptance:** ELIGIBLE_DST_COMPARISON_SOURCE_READY. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f26) · [Native study 10](board-png/10-who-made-the-lineup.png) · Week 10 physical 26, 27 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-26) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-26) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f26)
 
-<a id="folio-27"></a>
+<a id="folio-27"></a>272727
 
 ### F27 · Who made it onto the roster?
 
@@ -577,9 +827,17 @@ On November 19 The Chili Cheesers added Cam Ward and dropped Bryce Young. Report
 - **Phone proof.** Both legs, both dates and transaction status must read.
 - **Turn.** The next starting sheet → **Who made it onto the roster?** → Three divisions.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Flaim Week 11 source returned 43 transactions: 32 completed, 6 failed, 5 canceled. Chili's Nov 19 Cam Ward and Chimere Dike adds yielded 28.42 and 19.75 started points; avoid counting failed waivers as acquisitions.
+
+**Evidence and acceptance:** TRANSACTION_SOURCE_READY. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f27) · [Native study 10](board-png/10-who-made-the-lineup.png) · Week 10 physical 26, 27 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-27) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-27) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f27)
 
-<a id="folio-28"></a>
+<a id="folio-28"></a>282828
 
 ### F28 · Three divisions
 
@@ -594,9 +852,17 @@ Explain how one real Week 12 result could change each race. Keep a conditional v
 - **Phone proof.** Four member rows must fit under each division heading.
 - **Turn.** Who made it onto the roster? → **Three divisions** → The Twelve · scoring form.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Use verified Week 12 visiting-host pairings: Burgers ObiWan→DK and Snake→Mud; Wings Duckhook→Red and Chili→Slob; Pizza HMB→LLC and Chins→El Niño. Refresh W-L-T as recorded in ESPN after Week11.
+
+**Evidence and acceptance:** DIVISION_SOURCE_READY. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f28) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-28) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-28) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f28)
 
-<a id="folio-29"></a>
+<a id="folio-29"></a>292929
 
 ### F29 · The Twelve · scoring form
 
@@ -611,9 +877,32 @@ Explain the 70% season PPG / 30% current-week score formula. Compare it to Week 
 - **Phone proof.** No movement from the Week 7 editorial series in this column.
 - **Turn.** Three divisions → **The Twelve · scoring form** → Seven places.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Publish the separate computed 70/30 raw scoring-form table after week11: Duckhook 1, HMB 2, Slob 3, El Niño 4, LLC 5, DK 6, Chili 7, Mud 8, Chins 9, Snake 10, Red 11, ObiWan 12; compare Week10 same-method baseline.
+
+**Evidence and acceptance:** SCORING_INDEX_MATH_VERIFIED_PENDING_METHOD_SIGNOFF. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+**Computed 70/30 scoring form — separate from ESPN playoffSeed and editorial ranks:**
+| # | Team | Raw index | Movement from Week 10 |
+|---:|---|---:|---:|
+| 1 | Dr. Duckhook | 155.3223 | +7 |
+| 2 | His Majesty's Blood | 153.5605 | +0 |
+| 3 | Slob on my Dobb | 152.3121 | -2 |
+| 4 | El Niño | 141.2201 | +0 |
+| 5 | The LLC | 138.6250 | -2 |
+| 6 | D0nkey K0ng | 137.0249 | +0 |
+| 7 | The Chili Cheesers | 136.6757 | +3 |
+| 8 | Mud Dogs | 130.1805 | +3 |
+| 9 | Seven Deadly Chins | 129.1158 | +0 |
+| 10 | Three Dreaded Snake | 127.1438 | +2 |
+| 11 | Red Leopards | 123.8506 | -4 |
+| 12 | ObiWan Jacoby | 118.5743 | -7 |
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f29) · [Native study 11](board-png/11-the-line-after-seventh.png) · Week 10 physical 28, 29, 30 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-29) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-29) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f29)
 
-<a id="folio-30"></a>
+<a id="folio-30"></a>303030
 
 ### F30 · Seven places
 
@@ -628,9 +917,19 @@ Distinguish qualification math from simulated odds. Label the model date, input 
 - **Phone proof.** No pre-Week-15 island arrival. Roundoff is not elimination.
 - **Turn.** The Twelve · scoring form → **Seven places** → Under a deal we never made?.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+A clerk lays out seven postseason honor places, while all twelve franchises remain in the race as long as mathematically supported. TheFFHub fresh post-Week11 10,000 simulations: Slob 99.81%, Duckhook 99.36%, HMB 98.97%, DK 92.49%, El Niño 87.05%, Chins 68.87%, Chili 63.27%, Snake 30.84%, Red 26.84%, LLC 19.36%, ObiWan 12.88%, Mud 0.26%. These are model odds, NOT standings seeds, definitive clinches or eliminations.
+
+**Evidence and acceptance:** THEFFHUB_CURRENT_MODEL_CAPTURED_12_OF_12_SIMULATIONS_NOT_MATHEMATICAL_CLINCH. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
+
+**Fresh TheFFHub source:** The model uses team historical scoring averages and deviations, not NFL projections or byes, and samples 10,000 seasons for the baseline and separate winner-forced Week12 runs. Do not infer official clinch/elimination or assign an Island arrival from the decimals. Production art remains subject to original Atlas/reference/390px gates.
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f30) · [Native study 12](board-png/12-seven-places.png) · Week 10 physical 31, 17, 24 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-30) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-30) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f30)
 
-<a id="folio-31"></a>
+<a id="folio-31"></a>313131
 
 ### F31 · Under a deal we never made?
 
@@ -645,9 +944,17 @@ The reporter asks why the missing line felt personal. Jake attributes the propos
 - **Phone proof.** Keep the two speakers and the unexecuted trade legible.
 - **Turn.** Seven places → **Under a deal we never made?** → The next six.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Keep founder-quoted private After Dark grievance distinct from House official explanation. Insert new ObiWan Week11 loss (83.79 to 133.52) only as sourced football context, not as proof the allegation against Snake or Commissioner is factual.
+
+**Evidence and acceptance:** AFTER_DARK_QUOTE_AUTHORITY. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f31) · [Native study 14](board-png/14-under-a-deal-we-never-made.png) · Week 10 physical 23, 24, 7 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-31) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-31) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f31)
 
-<a id="folio-32"></a>
+<a id="folio-32"></a>323232
 
 ### F32 · The next six
 
@@ -662,9 +969,26 @@ Name all six verified Week 12 fixtures and who hosts. Give one open question to 
 - **Phone proof.** Arrows must consistently point from visitor to host.
 - **Turn.** Under a deal we never made? → **The next six** → Next week’s feature.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Week12 division starts with exact ESPN away→home fixture list (12 teams, six pairings); neither next week's scores nor Thanksgiving results are available. Validate all arrows from visitor to host.
+
+**Evidence and acceptance:** W12_SCHEDULE_PROVIDER_READY. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+**Official Week 12 visitor to host:**
+| Visitor | Host |
+|---|---|
+| ObiWan Jacoby | D0nkey K0ng |
+| Three Dreaded Snake | Mud Dogs |
+| Dr. Duckhook | Red Leopards |
+| The Chili Cheesers | Slob on my Dobb |
+| His Majesty's Blood | The LLC |
+| Seven Deadly Chins | El Niño |
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f32) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-32) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-32) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f32)
 
-<a id="folio-33"></a>
+<a id="folio-33"></a>333333
 
 ### F33 · Next week’s feature
 
@@ -679,9 +1003,19 @@ Choose the fixture whose Week 11 consequence gives both sides something to do. [
 - **Phone proof.** A projected winner cannot choose the feature.
 - **Turn.** The next six → **Next week’s feature** → Pittsy’s Book.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Select Seven Deadly Chins at El Niño as the evidence-supported Week12 Game of the Week: both 6–5 entering divisional play. In TheFFHub's separate 10,000-draw winner-forced simulations, Chins playoff odds are 93.71% if Chins win versus 54.08% if El Niño wins; El Niño's are 97.59% if El Niño wins versus 69.63% if Chins win. Combined direct qualification-odds swing is 67.59 percentage points, biggest across six Week12 pairs. Keep the El Niño host venue, route, character reference and final Commissioner selection subject to existing review.
+
+**Evidence and acceptance:** W12_GOTW_SOURCE_SUPPORTED_PREPRODUCTION_CHINS_AT_EL_NINO_COMMISSIONER_AND_ATLAS_PENDING. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+
+
+**TheFFHub six-matchup leverage audition:** Seven Deadly Chins at El Niño 67.59, ObiWan Jacoby at D0nkey K0ng 40.76, Dr. Duckhook at Red Leopards 37.31, Three Dreaded Snake at Mud Dogs 33.94, The Chili Cheesers at Slob on my Dobb 30.41, His Majesty's Blood at The LLC 28.48 percentage points of combined direct team odds swing. All scenarios independent stochastic runs; preserve sampling uncertainty and correct Week12 visitor→host. Chins at El Niño is the leading *proposed* feature, not confirmed artwork.
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f33) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-33) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-33) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f33)
 
-<a id="folio-34"></a>
+<a id="folio-34"></a>343434
 
 ### F34 · Pittsy’s Book
 
@@ -696,9 +1030,27 @@ Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the s
 - **Phone proof.** Transcribe every sign and decimal at phone width.
 - **Turn.** Next week’s feature → **Pittsy’s Book** → They know the way home.
 
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Week11 confirmed ledger: $106.50 staked, bettors +$27.88, house −$27.88; seasonal house 2–4, −$252.01. Winners Zwilson +20, Zeek +20, Byars +1.38; Kaloper −1, Qwilly −12.50. Preserve exact dated markets and season standing, print the charitable-organization punchline as owner-supplied satire.
+
+**Evidence and acceptance:** BOOK_ARITHMETIC_AND_ESPN_MARKETS_PASS_WIDE_LOCATION_HOLD. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
+**Owner-reported Week 11 House settlement, ESPN markets crosschecked (net amounts):**
+| Bettor | Record | Stake | Customer net |
+|---|---:|---:|---:|
+| Zwilson | 1-0 | 25.00 | +20.00 |
+| Zeek | 1-0 | 25.00 | +20.00 |
+| Byars | 2-1 | 34.00 | +1.38 |
+| Kaloper | 1-1 | 10.00 | -1.00 |
+| Qwilly | 0-1 | 12.50 | -12.50 |
+
+Total staked 106.50, customers net +27.88, House weekly −27.88, House season −252.01 (2–4). Currency is USD; details and nine-person season standings in the source JSON. Owner supplied settlement is not proof of completed financial transfers.
+
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f34) · [Native study 13](board-png/13-what-s-on-the-board.png) · Week 10 physical 34, 19 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-34) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-34) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f34)
 
-<a id="folio-35"></a>
+<a id="folio-35"></a>353535
 
 ### F35 · They know the way home
 
@@ -714,6 +1066,14 @@ Give the exact Nov. 19 lines, prices, holds, restrictions and limit. Leave the s
 - **Turn.** Pittsy’s Book → **They know the way home** → Back of issue.
 
 - **Weather handoff, not weather climax:** the selected Week 12 divisional road can inherit regionally plausible damp pavement and headlights, echoing the Week 10 return-home picture. Do not clear every sky on a Slob win, unleash an unapproved El Niño-wide catastrophe on an El Niño win, or photograph a new island sightline.
+
+
+**Tuesday, November 24 — ESPN-final selected production cut (NOT approved final artwork).**
+
+Week12 feature audition selects Seven Deadly Chins visiting El Niño by the highest combined direct qualification-odds swing. A single pair of headlights approaches a *source-approved* Niño home road, not an invented Playoff Island causeway. End on the divisional phrase: “For three weeks now, everybody who can spoil your Sunday knows the way to your place.” Exact route/camera still Atlas HOLD pending host-site acceptance.
+
+**Evidence and acceptance:** WEEK12_FEATURE_SELECTED_IN_PREPRODUCTION_ROUTE_AND_LOCATION_ATLAS_HOLD. Selected scoreboard/House data is current as of the November 24 provider and owner sources. Prior Sunday projections and opposite-result branches below are archival rehearsals. This DOES NOT certify a finished PNG or approve a venue, likeness or screenplay.
+
 
 [On the board](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-os-f35) · [Native study 15](board-png/15-they-know-the-way-home.png) · Week 10 physical 32, 33, 35 · [PNG desk](WEEK11_FOLIO_OG_COMPARISON.md#compare-35) · [Atlas address](WEEK11_LOCATION_DESK.md#atlas-35) · [Comparison card](https://www.tldraw.com/f/H_be9JJ8DjE11hXg4vkTu?d=sw11-review-f35)
 

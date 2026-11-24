@@ -1,4 +1,28 @@
 # One Last Crossing
+
+## November 24 — official Week 11 results: selected cinematic branches
+
+**Post-Week 11 playoff and feature source upgrade (Nov 24):** TheFFHub public league page refreshed after all six ESPN games, capturing a 10,000-simulation twelve-team playoff field with probability estimates Slob 99.81%, Duckhook 99.36%, HMB 98.97%, DK 92.49%, El Niño 87.05%, Chins 68.87%, Chili 63.27%, Snake 30.84%, Red 26.84%, LLC 19.36%, ObiWan 12.88% and Mud 0.26%. The figures do not mathematically clinch or eliminate anyone.
+
+**Week 12 dramatic turn chosen for camera audition:** Seven Deadly Chins at El Niño is top of six pairings by combined direct playoff-probability swing (67.59 percentage points) under winner-forced scenario simulations, both clubs 6–5. Chins projected 93.71% if winning versus 54.08% losing; El Niño 97.59% if winning versus 69.63% losing. This is a proposed founder/Commissioner feature subject to venue and artist QA, not an invented sport result. Sources: [twelve current odds](preproduction/W11_FFHUB_POST_WEEK11_ODDS_2026-11-24.json), [six pairings counterfactual study](preproduction/W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json).
+
+
+
+The six ESPN matchup winners are DECIDED. These are selected Week 11 reader-story endings, replacing the open Sunday branch in the working treatment. Original alternative endings remain as preproduction history. They do not authorize World changes or finished image releases.
+
+| Game | Final | Result-selected consequence |
+|---|---|---|
+| G01 | His Majesty's Blood 168.20 – D0nkey K0ng 129.75; His Majesty's Blood WINS | Selected HMB-victory ending: Wilson skids off the intact bridge into rough Mountain Lake and resurfaces alive, watched by Austin and carter. NO river rapids, no death, no bridge destruction. |
+| G02 | El Niño 134.60 – Slob on my Dobb 138.86; Slob on my Dobb WINS | Selected Slob-victory recovery branch: secondary strap loosens, exactly TWO kegs fall by gravity, Jordan anticipates washed edge, stabilizes truck, calls taproom and arranges safe retrieval/accounting. Remaining beer stays secured. Loaded-truck wetland access remains Atlas HOLD. |
+| G03 | The Chili Cheesers 133.52 – ObiWan Jacoby 83.79; The Chili Cheesers WINS | Chili's 49.73-point victory heightens Jake's public humiliation: Jake emerges chili-covered from hair to BOTH boots, Brandon holds his hat. ObiWan falls to 4–7; playoff elimination NOT certified. |
+| G04 | Red Leopards 94.80 – Three Dreaded Snake 125.74; Three Dreaded Snake WINS | Selected Snake-victory finish: Phillip gets to the relatively dry raised finish stone first. Kevin's Florida python-hunter dry bag stays SHUT; no celebratory outfit because Red lost. |
+| G05 | Seven Deadly Chins 117.66 – Mud Dogs 151.26; Mud Dogs WINS | Ben recognizes repeated ruts and old sign, retreats safely; Bobby enjoys a brief spoiler's smirk before fearing his own Cancún postcard. Chins are 6–5, currently sixth seed, NOT officially eliminated. |
+| G06 | The LLC 127.60 – Dr. Duckhook 173.01; Dr. Duckhook WINS | Fixed board action independent of ESPN: David Babb removed as corporate LLC CEO, Zach Duckhook appointed CEO AND chairman, after discreet board contacts. David rises furious, pen hits dry desk, Zach calm; LLC fantasy representation unchanged. Duckhook WIN coffee coda: David asks for his coffee BLACK. |
+
+Week 11 Sports Desk: three teams are 7–4, four 6–5, two 5–6, two 4–7, and Mud Dogs 3–8. ESPN playoff seeds 1–7 are HMB, Slob, DK, Duckhook, El Niño, Chins, Chili; no seeds imply automatic clinch. TheFFHub twelve-team odds remain source-gated. Pittsy’s Book records 106.50 USD wagered, weekly House −27.88, seasonal House −252.01 through six reporting weeks.
+
+Primary sources: [final ESPN results, all 12 standings, 6 starter detail packets, Week 12 schedule and 43 transactions](preproduction/W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json); [all 35 source-selected cuts](preproduction/W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json); [Book ledger](preproduction/W11_PITTSYS_BOOK_FINAL_OWNER_LEDGER_2026-11-24.json); [70/30 scoring index](preproduction/W11_FINAL_SCORING_FORM_70_30_2026-11-24.json). No final cinematic plate, character mount or release is implied.
+
 ## Week 11 cinematic and editorial working book
 
 November 22, 2026 · Schemin ’26 · Preproduction

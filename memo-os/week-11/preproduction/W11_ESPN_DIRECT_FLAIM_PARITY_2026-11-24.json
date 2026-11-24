@@ -1,0 +1,195 @@
+{
+  "schema": "schemin.w11.espn_direct_vs_flaim_fact_crosscheck.v1",
+  "checked_utc": "2026-11-24T13:02:40.948055+00:00",
+  "espn_public_url": "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/1417621?view=mMatchupScore&view=mScoreboard&scoringPeriodId=11",
+  "raw_direct_http_status": 200,
+  "raw_byte_length": 1165829,
+  "raw_sha256": "c4644bb4502ec0ec399bfe07cc0f5b3a32572dac76813ad681bd9367cbf4c84d",
+  "provider_flaim_filename": "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
+  "matchups_validated": [
+    {
+      "away_id": 9,
+      "away_score": 134.6,
+      "home_id": 3,
+      "home_score": 138.86,
+      "winner": "HOME"
+    },
+    {
+      "away_id": 2,
+      "away_score": 94.8,
+      "home_id": 6,
+      "home_score": 125.74,
+      "winner": "HOME"
+    },
+    {
+      "away_id": 11,
+      "away_score": 117.66,
+      "home_id": 10,
+      "home_score": 151.26,
+      "winner": "HOME"
+    },
+    {
+      "away_id": 7,
+      "away_score": 133.52,
+      "home_id": 1,
+      "home_score": 83.79,
+      "winner": "AWAY"
+    },
+    {
+      "away_id": 8,
+      "away_score": 168.2,
+      "home_id": 5,
+      "home_score": 129.75,
+      "winner": "AWAY"
+    },
+    {
+      "away_id": 4,
+      "away_score": 127.6,
+      "home_id": 12,
+      "home_score": 173.01,
+      "winner": "HOME"
+    }
+  ],
+  "teams_validated": [
+    {
+      "team_id": 1,
+      "team": "ObiWan Jacoby",
+      "record": [
+        4,
+        7,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 2,
+      "team": "Red Leopards",
+      "record": [
+        5,
+        6,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 3,
+      "team": "Slob on my Dobb",
+      "record": [
+        7,
+        4,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 4,
+      "team": "The LLC",
+      "record": [
+        4,
+        7,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 5,
+      "team": "D0nkey K0ng",
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 6,
+      "team": "Three Dreaded Snake",
+      "record": [
+        5,
+        6,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 7,
+      "team": "The Chili Cheesers ",
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 8,
+      "team": "His Majesty's Blood",
+      "record": [
+        7,
+        4,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 9,
+      "team": "El Ni\u00f1o",
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 10,
+      "team": "Mud Dogs",
+      "record": [
+        3,
+        8,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 11,
+      "team": "Seven Deadly Chins",
+      "record": [
+        6,
+        5,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    },
+    {
+      "team_id": 12,
+      "team": "Dr. Duckhook",
+      "record": [
+        7,
+        4,
+        0
+      ],
+      "playoffSeed_in_this_view": null,
+      "pointsFor_in_this_view": null
+    }
+  ],
+  "status": "6_FINAL_WINNERS_AND_12_CURRENT_WLT_RECORDS_DIRECT_ESPN_FLAIM_PARITY_PASS",
+  "limitations": [
+    "The direct raw ESPN object remains a local protected source, not a public repo file.",
+    "This ESPN mMatchupScore/mScoreboard view omits playoffSeed and pointsFor team fields: these were NOT independently checked here.",
+    "ESPN projected playoff percentages in the separate mStandings view are provider-specific and not TheFFHub odds.",
+    "Official provider data does not provide User House financial transactions.",
+    "This is programmatic dual-source parity, not human/Umpire release approval."
+  ]
+}

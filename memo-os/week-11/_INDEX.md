@@ -1,5 +1,11 @@
 # Week 11 — initial production index
 
+**Tuesday November 24 — completed-source, not yet final-art issue handoff:** [read the Week11 post-MNF source, TheFFHub, Pittsy’s Book, 35 folio and production/QA status summary](preproduction/W11_POST_MNF_COMPLETE_PRODUCTION_HANDOFF_2026-11-24.md). All ESPN results are decided and direct ESPN scores/WLT match Flaim. TheFFHub twelve-team model and Week12 forced-result feature tests are recovered. Chins at El Niño leads the Week12 featured-game candidate. Editorial opinion, source visual permissions, native image delivery and independent Umpire/CI release remain separate holds.
+
+**Fresh Nov 24 TheFFHub twelve-team playoff capture:** [baseline twelve-team odds after Week11](preproduction/W11_FFHUB_POST_WEEK11_ODDS_2026-11-24.json) · [all six Week12 winner-forced two-team odds swings](preproduction/W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json). Chins at El Niño leads the qualification-stakes Game of the Week audition (67.59 combined percentage-point swing). ESPN seeds and vendor odds are different concepts; neither is a mathematical clinch. F30/F33 result-selected briefs updated in place; no fictional Island journey or unapproved art issued.
+
+**Nov 24 official Week 11 results selected and source-linked:** [six decided ESPN games, 12 standings, six full roster/starters and 43 transactions](preproduction/W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json) · [35 result-selected folio cuts](preproduction/W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json) · [House settlement](preproduction/W11_PITTSYS_BOOK_FINAL_OWNER_LEDGER_2026-11-24.json) · [70/30 formula](preproduction/W11_FINAL_SCORING_FORM_70_30_2026-11-24.json). Result copy has been integrated into the working 35-folio rehearsal and cinematic manuscript without replacing historical studies. TheFFHub playoffs, commissioned editorial rank, independent data/visual QA and release remain gated.
+
 ## November 24 post-Monday check
 
 Direct ESPN and Flaim agree on all twelve live scores. All six ESPN winner fields still read `UNDECIDED`, all twelve official total fields are zero, and the standings returned by Flaim still count ten games for every club. Each team's ten starters sums to the live figure below in both reads. Final corrections and the Week 11 table remain open.
