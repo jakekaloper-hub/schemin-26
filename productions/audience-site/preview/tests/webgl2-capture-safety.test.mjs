@@ -54,3 +54,20 @@ test('History sweep refuses an existing destination and is mutually exclusive wi
   assert.match(mixed.stderr,/Optional capture argument/);
  }finally{rmSync(dir,{recursive:true,force:true});}
 });
+
+test('DPR image evidence refuses overwrite and incompatible capture options',()=>{
+ const dir=mkdtempSync(join(tmpdir(),'cw-dpr-guard-'));
+ const guard=join(dir,'original.txt');
+ try{
+  writeFileSync(guard,'PRESERVE');
+  const p=spawnSync(process.execPath,[script,script,'--dpr-evidence-dir',dir],{encoding:'utf8',timeout:6000});
+  assert.notEqual(p.status,0);
+  assert.match(p.stderr,/DPR_DIRECTORY_EXISTS/);
+  assert.equal(readFileSync(guard,'utf8'),'PRESERVE');
+  for(const args of [['--dpr-evidence-dir'],['--dpr-evidence-dir','--dpr-check'],['--dpr-evidence-dir','/tmp/a','--capture-dir','/tmp/b'],['--dpr-evidence-dir','/tmp/a','--dpr-check']]){
+   const mixed=spawnSync(process.execPath,[script,script,...args],{encoding:'utf8',timeout:6000});
+   assert.notEqual(mixed.status,0);
+   assert.match(mixed.stderr,/Optional capture argument/);
+  }
+ }finally{rmSync(dir,{recursive:true,force:true});}
+});

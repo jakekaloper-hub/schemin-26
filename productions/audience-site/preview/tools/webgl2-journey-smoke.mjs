@@ -21,12 +21,13 @@ const atlasOption=process.argv.indexOf('--atlas-views-dir');
 const lightOption=process.argv.indexOf('--wetlands-light-dir');
 const historyOption=process.argv.indexOf('--history-sweep-dir');
 const dprOption=process.argv.indexOf('--dpr-evidence-dir');
-const dprDir=dprOption<0?null:resolve(process.argv[4]);
-const dprCheck=(process.argv.length===4&&process.argv[3]==='--dpr-check')||Boolean(dprDir);
+const dprCheckOnly=process.argv.length===4&&process.argv[3]==='--dpr-check';
 const options=[captureOption,temporalOption,wetlandsOption,closeupOption,atlasOption,lightOption,historyOption,dprOption].filter(index=>index>=0);
-assert.ok((options.length===0&&(process.argv.length===3||dprCheck))
- ||(options.length===1&&options[0]===3&&process.argv.length===5),
+assert.ok((options.length===0&&(process.argv.length===3||dprCheckOnly))
+ ||(options.length===1&&options[0]===3&&process.argv.length===5&&!process.argv[4].startsWith('--')),
  'Optional capture argument: --capture-dir, --temporal-dir, --wetlands-temporal-dir, --wetlands-closeup-dir or --atlas-views-dir or --wetlands-light-dir or --history-sweep-dir /new/private/evidence/directory; or --dpr-check or --dpr-evidence-dir /new/private/evidence/directory');
+const dprDir=dprOption<0?null:resolve(process.argv[4]);
+const dprCheck=dprCheckOnly||Boolean(dprDir);
 const captureDir=captureOption<0?null:resolve(process.argv[4]);
 const temporalDir=temporalOption<0?null:resolve(process.argv[4]);
 const wetlandsDir=wetlandsOption<0?null:resolve(process.argv[4]);
@@ -396,11 +397,16 @@ async function main(){
   const syntheticUtc='2026-11-24T17:00:00.000Z';
   if(dprDir)await evaluate(`(()=>{const Native=globalThis.Date;globalThis.__dprNativeDate=Native;const fixed=Native.parse(${JSON.stringify(syntheticUtc)});globalThis.Date=class extends Native{constructor(...args){super(...(args.length?args:[fixed]));}static now(){return fixed;}};})()`);
   try{
+   // The paused renderer intentionally skips unchanged signatures. Settle the
+   // clock through two animation callbacks before capturing the baseline; only
+   // actual backing-buffer transitions must advance the render counter.
+   if(dprDir)await evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true))))');
    for(const deviceScaleFactor of [1,2,1]){
+    const beforeDensity=(await snapshot()).stats;
     await cdp('Emulation.setDeviceMetricsOverride',{width:dimensions.width,height:dimensions.height,deviceScaleFactor,mobile:false});
     const expected=Math.min(deviceScaleFactor,dimensions.cssWidth<700?1.25:1.5);
     const observation=await until(async()=>{
-     const o=await evaluate('(()=>{const c=document.querySelector("#world"),s=__observerDebug.stats();return {cssWidth:c.clientWidth,cssHeight:c.clientHeight,bufferWidth:c.width,bufferHeight:c.height,devicePixelRatio,pixelRatio:s.pixelRatio,waterTime:s.waterTime,renderer:s.renderer};})()');
+     const o=await evaluate('(()=>{const c=document.querySelector("#world"),s=__observerDebug.stats();return {cssWidth:c.clientWidth,cssHeight:c.clientHeight,bufferWidth:c.width,bufferHeight:c.height,devicePixelRatio,pixelRatio:s.pixelRatio,waterTime:s.waterTime,renderer:s.renderer,frames:s.frames};})()');
      return o.devicePixelRatio===deviceScaleFactor&&o.pixelRatio===expected&&o.bufferWidth===Math.floor(dimensions.cssWidth*expected)&&o.bufferHeight===Math.floor(dimensions.cssHeight*expected)?o:null;
     },'display density transition '+deviceScaleFactor,12000);
     assert.equal(observation.cssWidth,dimensions.cssWidth);
@@ -410,8 +416,8 @@ async function main(){
     assertHistoricalViewRestored(camera,await evaluate('__observerDebug.camera()'));
     dprObservations.push(observation);
     if(dprDir){
-     const frames=(await snapshot()).stats.frames;
-     await until(async()=>{const q=await snapshot();return q.stats.frames>frames?q:null;},'rendered density evidence frame',12000);
+     if(beforeDensity.pixelRatio!==expected)assert.ok(observation.frames>beforeDensity.frames,'Density changed without a rendered frame');
+     assert.equal((await snapshot()).state.locationId,'LOC-TDS-WATERFALL-TEMPLE');
      await delay(350);
      assert.equal(await evaluate('new Date().toISOString()'),syntheticUtc);
      assert.equal((await snapshot()).stats.waterTime,held);
