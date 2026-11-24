@@ -402,12 +402,12 @@
       "id": "F09",
       "title": "After you, Austin",
       "story": "G01",
-      "concept": "Wilson's theatrical courtesy forces Austin to consider a waiting carter",
-      "camera_and_composition": "Low carter-wheel foreground to full four-hoof centaur on intact bridge",
-      "lighting_and_weather": "Local crosswind whips cloak, wagon cover and leaves together",
-      "must_preserve_or_source": "Belt, lantern, lake both sides, cart's permitted passage",
-      "page_turn": "Establish right of way before combat",
-      "phone_and_visual_quality": "All four hooves visible, one body, no biped",
+      "concept": "Verbal exchange across the FULL bridge leads to two opposing charges, with the cut occurring just before metal contacts.",
+      "camera_and_composition": "A (upper 56%): An extreme-wide oblique bridge master: Wilson LEFT, Austin RIGHT, both ends, the carter behind Wilson's approach, both lake surfaces and the midspan lantern visible; words land across real distance. THEN B (lower 44%): Low ground tracking split within the SAME physical page: Wilson's four hooves pounding wet stone and raised axe on left diagonal; Austin draws the long ornate sword, the flowing crimson-black cape shearing right toward center. Their motion converges at center line but no steel contact yet.",
+      "lighting_and_weather": "Intense local storm squall: directional crosswind, whipping crimson cape and wagon canopy, leaves, cold rain, large wind-agitated waves hitting piers, loud whitecaps/spray beneath intact span.",
+      "must_preserve_or_source": "HMB never human-faced; Wilson FOUR equine hooves; constant bridge, lamp, carter and wave-loaded LAKE; Both closing on the reset center stone; sword and axe raised; lantern still at midpoint; no strike or slip yet.",
+      "page_turn": "Both closing on the reset center stone; sword and axe raised; lantern still at midpoint; no strike or slip yet.",
+      "phone_and_visual_quality": "Both identities, complete four-hoof silhouette and two-direction charge readable; no medieval human swordsman. Integrated print copy visible. No F##/P## on art.",
       "place_and_cast": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE. Wilson Look, Austin Byars.",
       "site_status": "SELECTED_SCENE_FEATURE",
       "location_ids": [
@@ -426,7 +426,7 @@
       "tldraw_card_id": "shape:w11-os-f09",
       "tldraw_review_card_id": "shape:w11-review-f09",
       "result_dependency": "PREPRODUCE_NOW",
-      "status": "VISUAL_DIRECTION_PROPOSED_NOT_FINAL_RENDER",
+      "status": "FOUNDER_DIRECTED_SHOT_REVISION__NOT_ACCEPTED_FINAL",
       "base_visual_preproduction": "READY_FOR_PREVIS_NOT_PROVIDER_RENDER_AUTHORIZED",
       "result_dependent_overlays": "NO_OFFICIAL_OUTCOME_NEEDED_FOR_BASE_SCENE",
       "concept_status": "SOURCE_BOUND_SHOT_DIRECTION_PENDING_EXACT_RENDER_REFERENCES",
@@ -449,18 +449,60 @@
         "editory": "The Beat Writer and Inklings source adjudication, only if narrative defect",
         "reference_gates": "Librarian/VisualLibraryStaff source reconciliation; 6 cinematic plates and exact character bindings HOLD where missing",
         "specialist_source_mode": "AI_PUBLISHED_METHOD_REFERENCE_NOT_REAL_PROFESSIONAL"
+      },
+      "cinematic_beat_sequence_v2": {
+        "path": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json",
+        "visual_beats": [
+          {
+            "beat": "A",
+            "size": "upper 56%",
+            "shot": "An extreme-wide oblique bridge master: Wilson LEFT, Austin RIGHT, both ends, the carter behind Wilson's approach, both lake surfaces and the midspan lantern visible; words land across real distance.",
+            "performance": "Wilson mocks crown and title; Austin's red eyes remain hidden beneath the hood; the ordinary carter waits and decides not to cross."
+          },
+          {
+            "beat": "B",
+            "size": "lower 44%",
+            "shot": "Low ground tracking split within the SAME physical page: Wilson's four hooves pounding wet stone and raised axe on left diagonal; Austin draws the long ornate sword, the flowing crimson-black cape shearing right toward center. Their motion converges at center line but no steel contact yet.",
+            "performance": "Both opt into the charge, in opposite directions; speed and weight read at phone scale."
+          }
+        ],
+        "source_identity": {
+          "austin": {
+            "id": "CHAR-AUSTIN-BYARS",
+            "alias": "The Belt Keeper",
+            "approved_hmb_correction_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "approved_hmb_correction_sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "approved_lineup_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_lineup_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "must_show": "COMPLETELY HOODED FACE, TWO LUMINOUS RED EYES, segmented BLACK armor, circular GOLD chest medallion, gold title belt, crimson-black ragged cape, ornate sword. No face, no exposed brown hair, no generic swordsman."
+          },
+          "wilson": {
+            "id": "CHAR-WILSON-LOOK",
+            "alias": "Arsenal Gorilla Centaur",
+            "approved_lineup_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_lineup_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "must_show": "ONE gorilla torso fused anatomically to FOUR-hoof equine lower body, red-and-gold Arsenal-style battle trappings, oversized axe. FOUR hooves readable in running, binding and falling angles.",
+            "source_hold": "Old primary biped conflicts; do not use older primary as source-of-truth. Current lineup is candidate seed only until Character authority resolves."
+          },
+          "witness": {
+            "role": "Working carter with horse and wagon",
+            "position": "LEFT landfall behind Wilson's starting side; does NOT teleport. Wagon remains outside the duel lane, keeping its near wheel and lantern as persistent film anchors."
+          }
+        },
+        "print_copy": "Across the Mountain Lake bridge, Wilson Look planted four hooves and raised his axe. “The Belt Keeper comes to ask permission?” he called. From the far landing, Austin Byars lifted his hooded head, red eyes burning in shadow. “Not yours,” came the answer. Behind Wilson, the carter held his horse and wagon still. Wilson made a mocking path between them. “After you, Austin.” The old lantern swung, the storm tore at their cloaks, and both warriors lowered their weapons. Neither intended to surrender the crossing. They charged.",
+        "output": "portrait integrated editorial cinematic multi-beat"
       }
     },
     {
       "id": "F10",
       "title": "He was here before us",
       "story": "G01",
-      "concept": "Austin says the cart has priority as Wilson shifts on slick stone",
-      "camera_and_composition": "Reverse from Austin's crimson cloak to Wilson, with waiting worker clear behind",
-      "lighting_and_weather": "Rain-glazed stones, one hoof catching traction, same lantern and crosswind",
-      "must_preserve_or_source": "HMB belt stays Austin; no premature victory blow",
-      "page_turn": "Traction detail motivates result-specific later fall",
-      "phone_and_visual_quality": "Believable carter side and hoof placement",
+      "concept": "Professional-grade fight logic: impact -> pressure -> sidestep/pivot -> counterstrike -> visible hoof slip. Never invent airborne weapons, disconnected limbs or teleport.",
+      "camera_and_composition": "C (upper kinetic wedge): An over-shoulder charged contact: Wilson's axe comes down on a visible arc and Austin's ornate sword meets the haft/edge in one coherent plane; shower of sparks is brief and source-motivated. THEN D (central large image): Tracking reverse: Wilson rotates ALL FOUR hooves on wet central stones, uses body weight to press, Austin steps laterally toward lamp/reset stone, one boot planted, cloak trails leeward. Carter and cart remain at left approach. THEN E (lower diagonal payoff): Austin moves inside the axe reach, delivers a decisive armor-thudding sword strike across Wilson's upper guard; Wilson's hind hooves cross/skid and his front hooves scramble near the intact parapet, his body still on deck at cut.",
+      "lighting_and_weather": "Intense local storm squall: directional crosswind, whipping crimson cape and wagon canopy, leaves, cold rain, large wind-agitated waves hitting piers, loud whitecaps/spray beneath intact span.",
+      "must_preserve_or_source": "HMB never human-faced; Wilson FOUR equine hooves; constant bridge, lamp, carter and wave-loaded LAKE; Wilson is at edge with weight moving outward, all 4 hooves visible, still not in water; Austin sword held, Belt remains with Austin, bridge intact.",
+      "page_turn": "Wilson is at edge with weight moving outward, all 4 hooves visible, still not in water; Austin sword held, Belt remains with Austin, bridge intact.",
+      "phone_and_visual_quality": "Three steps visually connected; weapon contact and hoof skid clear at 390px. Integrated print copy visible. No F##/P## on art.",
       "place_and_cast": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE. Wilson Look, Austin Byars.",
       "site_status": "SELECTED_SCENE_FEATURE",
       "location_ids": [
@@ -479,7 +521,7 @@
       "tldraw_card_id": "shape:w11-os-f10",
       "tldraw_review_card_id": "shape:w11-review-f10",
       "result_dependency": "PREPRODUCE_NOW",
-      "status": "VISUAL_DIRECTION_PROPOSED_NOT_FINAL_RENDER",
+      "status": "FOUNDER_DIRECTED_SHOT_REVISION__NOT_ACCEPTED_FINAL",
       "base_visual_preproduction": "READY_FOR_PREVIS_NOT_PROVIDER_RENDER_AUTHORIZED",
       "result_dependent_overlays": "NO_OFFICIAL_OUTCOME_NEEDED_FOR_BASE_SCENE",
       "concept_status": "SOURCE_BOUND_SHOT_DIRECTION_PENDING_EXACT_RENDER_REFERENCES",
@@ -502,18 +544,66 @@
         "editory": "The Beat Writer and Inklings source adjudication, only if narrative defect",
         "reference_gates": "Librarian/VisualLibraryStaff source reconciliation; 6 cinematic plates and exact character bindings HOLD where missing",
         "specialist_source_mode": "AI_PUBLISHED_METHOD_REFERENCE_NOT_REAL_PROFESSIONAL"
+      },
+      "cinematic_beat_sequence_v2": {
+        "path": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json",
+        "visual_beats": [
+          {
+            "beat": "C",
+            "size": "upper kinetic wedge",
+            "shot": "An over-shoulder charged contact: Wilson's axe comes down on a visible arc and Austin's ornate sword meets the haft/edge in one coherent plane; shower of sparks is brief and source-motivated.",
+            "performance": "Mass and load transfer visible; black armored hooded Austin defends with his actual blade."
+          },
+          {
+            "beat": "D",
+            "size": "central large image",
+            "shot": "Tracking reverse: Wilson rotates ALL FOUR hooves on wet central stones, uses body weight to press, Austin steps laterally toward lamp/reset stone, one boot planted, cloak trails leeward. Carter and cart remain at left approach.",
+            "performance": "Combatants physically reposition without swapping places; silhouettes remain legible."
+          },
+          {
+            "beat": "E",
+            "size": "lower diagonal payoff",
+            "shot": "Austin moves inside the axe reach, delivers a decisive armor-thudding sword strike across Wilson's upper guard; Wilson's hind hooves cross/skid and his front hooves scramble near the intact parapet, his body still on deck at cut.",
+            "performance": "Austin wins because of a timed counterstrike plus wet traction, not wind magically pushing Wilson. No fall until next page."
+          }
+        ],
+        "source_identity": {
+          "austin": {
+            "id": "CHAR-AUSTIN-BYARS",
+            "alias": "The Belt Keeper",
+            "approved_hmb_correction_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "approved_hmb_correction_sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "approved_lineup_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_lineup_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "must_show": "COMPLETELY HOODED FACE, TWO LUMINOUS RED EYES, segmented BLACK armor, circular GOLD chest medallion, gold title belt, crimson-black ragged cape, ornate sword. No face, no exposed brown hair, no generic swordsman."
+          },
+          "wilson": {
+            "id": "CHAR-WILSON-LOOK",
+            "alias": "Arsenal Gorilla Centaur",
+            "approved_lineup_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_lineup_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "must_show": "ONE gorilla torso fused anatomically to FOUR-hoof equine lower body, red-and-gold Arsenal-style battle trappings, oversized axe. FOUR hooves readable in running, binding and falling angles.",
+            "source_hold": "Old primary biped conflicts; do not use older primary as source-of-truth. Current lineup is candidate seed only until Character authority resolves."
+          },
+          "witness": {
+            "role": "Working carter with horse and wagon",
+            "position": "LEFT landfall behind Wilson's starting side; does NOT teleport. Wagon remains outside the duel lane, keeping its near wheel and lantern as persistent film anchors."
+          }
+        },
+        "print_copy": "Their first collision rang against the lantern stones. Wilson drove his axe down; Austin caught its haft with his sword and turned aside instead of meeting the centaur’s weight head-on. Hooves hammered the narrow deck. Wilson twisted for a second cut, forcing Austin toward the parapet. “He was here before us,” Austin said, glancing at the waiting carter. He slipped inside the next swing and struck Wilson’s armored upper body. The impact shoved the huge warrior backward. His hind hooves crossed on rain-slick stone. All four feet fought for purchase as the parapet rushed toward him.",
+        "output": "portrait integrated editorial cinematic multi-beat"
       }
     },
     {
       "id": "F11",
       "title": "The carter listens",
       "story": "G01",
-      "concept": "Loser survives in wind-driven rough Mountain Lake, carter and winner watch",
-      "camera_and_composition": "Carter-level low shot into living survivor and intact parapet",
-      "lighting_and_weather": "Whitecaps and spray; avoid directional river rapids",
-      "must_preserve_or_source": "HMB win Wilson slips after strike; DK win Austin falls with belt; tie both stay bridge",
-      "page_turn": "After public duel, soundless survivor and worried onlookers",
-      "phone_and_visual_quality": "Clear living head, correct loser, no death/wrecked bridge",
+      "concept": "The fall is unmistakable, then a beat of feared silence, then identifiable survivor; pride returns last.",
+      "camera_and_composition": "F (dominant upper 65% impact frame): From cart-height 3/4 view: Wilson in physically continuous four-hoof pose pitches over the unbroken stone parapet; axe remains plausibly in hand or follows known trajectory. The camera sees the violent lake beneath and Austin's hooded silhouette above, not an invisible attacker. THEN G (lower 35% quiet survival echo): Waterside/low lens gives the large gorilla head emerging alive among huge whitecaps, splashes and foam with arm reaching toward plausible bank; inset of carter's still hands and Austin's red-eyed hood watching from same parapet, clear cause/space relation.",
+      "lighting_and_weather": "Intense local storm squall: directional crosswind, whipping crimson cape and wagon canopy, leaves, cold rain, large wind-agitated waves hitting piers, loud whitecaps/spray beneath intact span.",
+      "must_preserve_or_source": "HMB never human-faced; Wilson FOUR equine hooves; constant bridge, lamp, carter and wave-loaded LAKE; Wilson alive, injured only if separately sourced (do not infer), the cart can cross later; Austin retains championship belt; cap may appear only after Wilson surfaces; no World permanence inferred.",
+      "page_turn": "Wilson alive, injured only if separately sourced (do not infer), the cart can cross later; Austin retains championship belt; cap may appear only after Wilson surfaces; no World permanence inferred.",
+      "phone_and_visual_quality": "Fall and LIVING resurfacing both readable; four hooves on falling body; no duplicate Wilson or Austin per beat; exact score. Integrated print copy visible. No F##/P## on art.",
       "place_and_cast": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE. Wilson Look, Austin Byars.",
       "site_status": "SELECTED_SCENE_FEATURE",
       "location_ids": [
@@ -532,7 +622,7 @@
       "tldraw_card_id": "shape:w11-os-f11",
       "tldraw_review_card_id": "shape:w11-review-f11",
       "result_dependency": "SELECT_AFTER_OFFICIAL_FINAL",
-      "status": "VISUAL_DIRECTION_PROPOSED_NOT_FINAL_RENDER",
+      "status": "FOUNDER_DIRECTED_SHOT_REVISION__NOT_ACCEPTED_FINAL",
       "base_visual_preproduction": "READY_FOR_PREVIS_NOT_PROVIDER_RENDER_AUTHORIZED",
       "result_dependent_overlays": "TUESDAY_PROVIDER_LOCK",
       "concept_status": "SOURCE_BOUND_SHOT_DIRECTION_PENDING_EXACT_RENDER_REFERENCES",
@@ -555,6 +645,48 @@
         "editory": "The Beat Writer and Inklings source adjudication, only if narrative defect",
         "reference_gates": "Librarian/VisualLibraryStaff source reconciliation; 6 cinematic plates and exact character bindings HOLD where missing",
         "specialist_source_mode": "AI_PUBLISHED_METHOD_REFERENCE_NOT_REAL_PROFESSIONAL"
+      },
+      "cinematic_beat_sequence_v2": {
+        "path": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json",
+        "visual_beats": [
+          {
+            "beat": "F",
+            "size": "dominant upper 65% impact frame",
+            "shot": "From cart-height 3/4 view: Wilson in physically continuous four-hoof pose pitches over the unbroken stone parapet; axe remains plausibly in hand or follows known trajectory. The camera sees the violent lake beneath and Austin's hooded silhouette above, not an invisible attacker.",
+            "performance": "Transfer from F10 skid; no bridge damage, no invented fast river gorge."
+          },
+          {
+            "beat": "G",
+            "size": "lower 35% quiet survival echo",
+            "shot": "Waterside/low lens gives the large gorilla head emerging alive among huge whitecaps, splashes and foam with arm reaching toward plausible bank; inset of carter's still hands and Austin's red-eyed hood watching from same parapet, clear cause/space relation.",
+            "performance": "Two-step reaction: witness fears the worst, relief once Wilson resurfaces. Small cap coda only after survival and not blocking his face."
+          }
+        ],
+        "source_identity": {
+          "austin": {
+            "id": "CHAR-AUSTIN-BYARS",
+            "alias": "The Belt Keeper",
+            "approved_hmb_correction_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/supplementary/COMMISSIONER_HMB_CORRECTION_2026_10_18.png",
+            "approved_hmb_correction_sha256": "ed65db3f1271e19db54be94d7a09b7910b333cde79dcaa107020cc54015d5ade",
+            "approved_lineup_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+            "approved_lineup_crop_sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+            "must_show": "COMPLETELY HOODED FACE, TWO LUMINOUS RED EYES, segmented BLACK armor, circular GOLD chest medallion, gold title belt, crimson-black ragged cape, ornate sword. No face, no exposed brown hair, no generic swordsman."
+          },
+          "wilson": {
+            "id": "CHAR-WILSON-LOOK",
+            "alias": "Arsenal Gorilla Centaur",
+            "approved_lineup_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+            "approved_lineup_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+            "must_show": "ONE gorilla torso fused anatomically to FOUR-hoof equine lower body, red-and-gold Arsenal-style battle trappings, oversized axe. FOUR hooves readable in running, binding and falling angles.",
+            "source_hold": "Old primary biped conflicts; do not use older primary as source-of-truth. Current lineup is candidate seed only until Character authority resolves."
+          },
+          "witness": {
+            "role": "Working carter with horse and wagon",
+            "position": "LEFT landfall behind Wilson's starting side; does NOT teleport. Wagon remains outside the duel lane, keeping its near wheel and lantern as persistent film anchors."
+          }
+        },
+        "print_copy": "Austin’s final blow carried through the clash. Four hooves scraped for grip; Wilson’s enormous armored body pitched over the intact parapet and vanished into the raging, storm-churned water. The carter stopped breathing. Even Austin stepped to the edge, his gold belt still fixed at his waist. Waves battered the pier. Then Wilson’s dark head broke the foam—coughing, alive. Only when the great centaur reached toward shore did Austin release the small jester’s cap. “My jester,” he said, almost without triumph. His Majesty’s Blood 168.20 · D0nkey K0ng 129.75.",
+        "output": "portrait integrated editorial cinematic multi-beat"
       }
     },
     {
@@ -1935,5 +2067,6 @@
       "consultation_mode": "PUBLISHED_METHOD_LENS"
     }
   ],
-  "staff_boundary": "All staff are registered capability lenses; operational work requires actual dispatch and receipts, not implied by assignment."
+  "staff_boundary": "All staff are registered capability lenses; operational work requires actual dispatch and receipts, not implied by assignment.",
+  "active_G01_shot_revision": "W11_G01_MOUNTAIN_LAKE_FIGHT_SEQUENCE_V2_2026-11-24.json"
 }
