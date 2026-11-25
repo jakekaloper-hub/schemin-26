@@ -497,8 +497,20 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float ring=pow(max(moving,0.),10.)
         *(1.-smoothstep(.35,1.15,fwidth(plungeRingCoordinate)));
       float plungeCore=1.-smoothstep(.08,.45,r);
-      float scatter=.5+.5*sin(p.x*34.+uTime*1.1)*sin(p.y*29.-uTime*.87);
+      float scatterPhaseX=p.x*34.+uTime*1.1;
+      float scatterPhaseY=p.y*29.-uTime*.87;
+      float scatterX=sin(scatterPhaseX),scatterY=sin(scatterPhaseY);
+      float scatter=.5+.5*scatterX*scatterY;
       float foam=pow(scatter,3.)*plungeCore;
+      // Average the existing cubic scatter toward its analytic periodic mean
+      // on each unresolved axis. Retain the resolved axis and pool foam energy,
+      // instead of erasing the receiving-pool turbulence at coarse footprints.
+      float scatterBlendX=smoothstep(.35,1.15,fwidth(scatterPhaseX));
+      float scatterBlendY=smoothstep(.35,1.15,fwidth(scatterPhaseY));
+      float scatterMeanX=.125+.1875*scatterY*scatterY;
+      float scatterMeanY=.125+.1875*scatterX*scatterX;
+      foam=mix(mix(foam,scatterMeanX*plungeCore,scatterBlendX),
+        mix(scatterMeanY,.21875,scatterBlendX)*plungeCore,scatterBlendY);
       float boundary=1.-smoothstep(.63,.94,length(p));
       // Local candidate impact follows the EXISTING falling sheet, landing
       // rings and receiving pool; it does not establish new water geography.
