@@ -1857,6 +1857,58 @@ export function buildRegionalAssets(THREE, bindings, height) {
     geometry.name='Candidate Jackson inward-jointed original stone arch';
     return geometry;
   }
+  function jacksonBalustrade(g,x,z,base,y,w,h,d){
+    // Existing rail components only: preserve the original stone roles and hulls.
+    // The seven-sided baluster profile is retained, with recesses INSIDE each facet.
+    const post=d===undefined,geo=post?new THREE.CylinderGeometry(w,h,.50,28,12):
+      new THREE.BoxGeometry(w,h,d,4,4,48);
+    const pos=geo.getAttribute('position'),colors=[];
+    for(let k=0;k<pos.count;k++){
+      const px=pos.getX(k),py=pos.getY(k),pz=pos.getZ(k);
+      let shade=1;
+      if(post){
+        const t=Math.max(0,Math.min(1,py/.50+.5));
+        const angle=Math.atan2(px,pz);
+        const facet=((angle%(2*Math.PI/7))+2*Math.PI/7)%(2*Math.PI/7);
+        const profile=Math.cos(Math.PI/7)/Math.cos(facet-Math.PI/7);
+        const hold=Math.sin(Math.PI*t)**2;
+        const flute=.5+.5*Math.cos(angle*7);
+        const collar=Math.pow(.5+.5*Math.cos(t*Math.PI*8),6);
+        const inset=hold*(.085+.10*flute+.07*collar);
+        pos.setXYZ(k,px*profile*(1-inset),py,pz*profile*(1-inset));
+        shade=.83+.12*(1-flute)-.08*hold*collar;
+      }else{
+        const u=(pz/d+.5)*12,groove=Math.pow(Math.max(0,1-Math.abs(u-Math.round(u))/.27),2);
+        const hold=Math.max(0,Math.min(1,(d/2-Math.abs(pz))/.15));
+        const xHold=Math.max(0,1-Math.abs(px)/(w/2));
+        const yHold=Math.max(0,1-Math.abs(py)/(h/2));
+        if(Math.abs(py-h/2)<1e-6)pos.setY(k,py-.013*groove*hold*xHold);
+        else if(Math.abs(Math.abs(px)-w/2)<1e-6)pos.setX(k,px-Math.sign(px)*.009*groove*hold*yHold);
+        shade=1-.24*groove*hold*Math.max(xHold,yHold);
+      }
+      colors.push(shade,shade*.985,shade*.96);
+    }
+    pos.needsUpdate=true;geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+    geo.computeVertexNormals();geo.computeBoundingBox();geo.computeBoundingSphere();
+    if(post){
+      const normals=geo.getAttribute('normal');
+      for(let row=0;row<=12;row++){
+        const a=row*29,b=a+28;
+        const n=new THREE.Vector3().fromBufferAttribute(normals,a)
+          .add(new THREE.Vector3().fromBufferAttribute(normals,b)).normalize();
+        normals.setXYZ(a,n.x,n.y,n.z);normals.setXYZ(b,n.x,n.y,n.z);
+      }
+      normals.needsUpdate=true;
+    }
+    const key=post?'jackson-baluster-stone':'jackson-coping-stone';
+    if(!materials.has(key)){const m=base.clone();m.vertexColors=true;materials.set(key,m);}
+    const o=mesh(g,geo,materials.get(key),x,y+(post?.25:h/2),z);
+    o.name=geo.name=post?'Candidate Jackson recessed stone baluster':'Candidate Jackson jointed stone coping';
+    o.userData={bridgePart:post?'baluster':'coping',originalDimensions:post?[w,h,.50]:[w,h,d],
+      visualAuthority:'CANDIDATE_NOT_APPROVED',historicalReference:'W09-COUNTRY-CLUB-FOLIOS-05-08',
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function jacksonBridgeDeck(g,deckMaterial){
     // The ONE inherited Week 9 stone-arch bridge deck keeps its original
     // rectangular hull and material. Shallow transverse tread joints are
@@ -1967,9 +2019,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       face.userData={bridgePart:'stone-arch',stoneDetail:'inward-jointed-original-facade',
         visualAuthority:'CANDIDATE_NOT_APPROVED',navigable:false,routeIds:[],
         principalCharacters:[]};
-      box(bridge,side+.07,1.48,0,.26,.15,5.42,edge);
-      for(const z of [-2.26,-1.13,0,1.13,2.26])cyl(bridge,side+.07,1.64,z,.105,.13,.50,stone,7);
-      box(bridge,side+.07,2.14,0,.22,.14,5.30,edge);
+      jacksonBalustrade(bridge,side+.07,0,edge,1.48,.26,.15,5.42);
+      for(const z of [-2.26,-1.13,0,1.13,2.26])jacksonBalustrade(bridge,side+.07,z,stone,1.64,.105,.13);
+      jacksonBalustrade(bridge,side+.07,0,edge,2.14,.22,.14,5.30);
     }
     jacksonBridgeDeck(bridge,mat('#997856'));
     // Irregular tree crowns echo the historical folio's autumn grove, without
