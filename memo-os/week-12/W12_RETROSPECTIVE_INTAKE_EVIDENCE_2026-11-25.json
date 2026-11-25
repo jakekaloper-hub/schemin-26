@@ -126,5 +126,42 @@
     "actual independent Director consultations",
     "native geometry and source-to-publication reconciliation",
     "regression of outcome-transition runtime"
-  ]
+  ],
+  "engineering_observations": {
+    "week9_reconcile": "Local Schemin revision a33d20d551421187d21747978d0872436fb18a02 memo-os/week-9/prepare_production_inputs.py waits for all six finals before result proposals; it does not itself write approved artifacts. Week4 provisional story-room controls already exist; do not infer global production reset.",
+    "tests": [
+      {
+        "repository": "bullpen",
+        "revision": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+        "scope": "local dirty checkout; routing, commands, portable staff, execution-control",
+        "pass": 70,
+        "fail": 0
+      },
+      {
+        "repository": "schemin-26",
+        "revision": "a33d20d551421187d21747978d0872436fb18a02",
+        "scope": "governance/resilience/test_resilience.py",
+        "pass": 9,
+        "fail": 0
+      },
+      {
+        "repository": "schemin-26",
+        "source_blob": "7b92daa03ab68fb3ea3100223628d2ac353b116a",
+        "test_blob": "c8d30011dc7b204066b33ab231b5902319f29eb2",
+        "scope": "exact GitHub readback source and tests, run on Mac; 8 unit tests and one real-fixture baseline/synthetic final canary",
+        "pass": 8,
+        "fail": 0,
+        "canary": "W12-H05-A01 synthetic HOME result affected only first story and scoreboard; preserved other five stories and Thanksgiving theme; all lock/release/write flags false"
+      }
+    ],
+    "integration_state": "CANDIDATE pure helper only; not wired into live SCK/Steward, exact-head CI and independent acceptance outstanding",
+    "advisory_runs": {
+      "model": "qwen2.5-coder:7b",
+      "via": "local canonical consult engine",
+      "setup_man": "Proposed transition preservation test; no proof by advice alone.",
+      "librarian": "Requested variant provenance; response misidentified week and undecided variants; discard unsupported claims.",
+      "closer": "Returned only a question; no synthesis or acceptance.",
+      "status": "3 local model calls completed, no independent acceptance; local checkout dirty; raw transcripts retained locally"
+    }
+  }
 }
