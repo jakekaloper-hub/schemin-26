@@ -229,9 +229,15 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec2 wetlandUv = vUv + uFlow * uTime;
       float meander=sin(wetlandUv.y*10.+sin(wetlandUv.x*6.)*.5)*.024;
       float breakup=.5+.5*sin(wetlandUv.y*17.+sin(wetlandUv.x*13.)*1.2);
-      float currentPattern=sin((wetlandUv.x+meander)*44.+wetlandUv.y*11.+sin(wetlandUv.x*9.)*.8);
-      float currentSheen=pow(max(currentPattern,0.),13.)*smoothstep(.45,.9,breakup);
-      float eddy=pow(max(sin(length((wetlandUv-vec2(.52,.44))*vec2(1.,1.4))*30.-uTime*.15),0.),12.);
+      // Keep narrow optical crests at resolved scales; broader moving relief and
+      // sediment remain independent of these screen-footprint filters.
+      float currentCoordinate=(wetlandUv.x+meander)*44.+wetlandUv.y*11.+sin(wetlandUv.x*9.)*.8;
+      float currentPattern=sin(currentCoordinate);
+      float currentSheen=pow(max(currentPattern,0.),13.)*smoothstep(.45,.9,breakup)
+        *(1.-smoothstep(.35,1.15,fwidth(currentCoordinate)));
+      float eddyCoordinate=length((wetlandUv-vec2(.52,.44))*vec2(1.,1.4))*30.-uTime*.15;
+      float eddy=pow(max(sin(eddyCoordinate),0.),12.)
+        *(1.-smoothstep(.35,1.15,fwidth(eddyCoordinate)));
       float eddyFade=1.-smoothstep(.12,.42,length(wetlandUv-vec2(.52,.44)));
       float sediment=.5+.5*sin((wetlandUv.x-wetlandUv.y)*10.+sin(wetlandUv.y*6.)*.6);
       vec3 waterTint=mix(uColor,uColor*vec3(.84,.92,.80),sediment*.13);
@@ -311,7 +317,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float across=dot(p,crossAxis);
         float along=dot(p,alongAxis);
         float bend=sin(along*8.-uTime*.26)*.036;
-        float fineLine=pow(max(sin((across+bend)*31.+along*7.-uTime*.90),0.),12.);
+        float channelRibbonCoordinate=(across+bend)*31.+along*7.-uTime*.90;
+        float fineLine=pow(max(sin(channelRibbonCoordinate),0.),12.)
+          *(1.-smoothstep(.35,1.15,fwidth(channelRibbonCoordinate)));
         float gaps=.5+.5*sin(along*23.-uTime*.53+sin(across*11.)*.72);
         float interior=1.-smoothstep(.70,.98,length(p));
         channelRibbons=fineLine*smoothstep(.34,.80,gaps)*interior;

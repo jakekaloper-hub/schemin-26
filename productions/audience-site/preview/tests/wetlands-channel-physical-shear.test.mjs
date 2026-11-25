@@ -47,7 +47,8 @@ test('channel-only physical shear follows the existing flow and glint phase on u
   assert.match(vertex,/channelPhase=\(channelCross\+channelBend\)\*31\./);
   assert.match(vertex,/p\.z\+=\.009\*sin\(channelPhase\)\*channelShear\*shoreHold/);
   assert.match(fragment,/bend=sin\(along\*8\.-uTime\*\.26\)\*\.036/);
-  assert.match(fragment,/fineLine=pow\(max\(sin\(\(across\+bend\)\*31\.\+along\*7\.-uTime\*\.90\),0\.\),12\./);
+  assert.match(fragment,/channelRibbonCoordinate=\(across\+bend\)\*31\.\+along\*7\.-uTime\*\.90/);
+  assert.match(fragment,/fineLine=pow\(max\(sin\(channelRibbonCoordinate\),0\.\),12\./);
   for(const shader of [vertex,fragment])assert.doesNotMatch(shader,/\buStorm\b|\buWeather\b/i);
   assert.equal(a.worldMutationAllowed,false);
   assert.deepEqual(a.principalCharacters,[]);
