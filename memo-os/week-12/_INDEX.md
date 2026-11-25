@@ -55,3 +55,6 @@ The six existing matchups now have explicit championship-pressure action treatme
 
 ## Founder interviews complete — execution mission
 [Consolidated Founder foundations](W12_CONSOLIDATED_FOUNDER_FOUNDATIONS_REVIEW_2026-11-25.md) now supersede earlier audition preferences for opening-scene development only. [Eleven-workstream execution plan](W12_FOUNDER_PRODUCTION_EXECUTION_PLAN_2026-11-25.json) binds existing Issue #268 and PR #313. Resume source reconciliation, parallel Atlas candidate registration, six opening manuscripts/twelve POVs/separate dialogue and historical audit. Existing runtime returned CONTINUE; registry binding and worker dispatch not demonstrated. Preproduction gates independent of results; final production remains Fact Lock dependent. Preserve 34 provisional folio IDs and prior immutable artifacts. No new OS or publication authorization.
+
+## Completion and FLAIM harvesting mandate
+[Completion directive and official NFL game-window collection contract](W12_COMPLETION_AND_FLAIM_HARVEST_DIRECTIVE_2026-11-25.json). Continue all reversible preproduction work; football evidence is a concurrent stream, not a blanket blocker. No unverified final results or independent acceptance. Existing scheduler execution remains separate from this committed directive.
