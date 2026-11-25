@@ -34,3 +34,6 @@ Existing Week 11 source remains immutable. This continuation index is not a seco
 
 ## Engineering canary — provisional result delta
 [Reusable non-mutating matchup delta helper](../matchup_delta.py) and [eight regression tests](../tests/test_matchup_delta.py) are committed as candidates. Existing normalized Data Gateway receipts remain the input contract; the helper returns a review/preserve plan only. Actual six Week 12 fixture identities passed an offline no-op + synthetic partial-final canary; no actual final results, source acceptance, automatic application, or gate promotion. Before live integration, resolve registered dependencies and route through existing Steward/SCK acceptance. See [execution evidence](W12_RETROSPECTIVE_INTAKE_EVIDENCE_2026-11-25.json). Do not infer `DECIDED` from hypothetical test inputs.
+
+## Thanksgiving manuscript continuation (Nov 25)
+[Six conditional working manuscripts](W12_CONDITIONAL_STORY_ROOM_2026-11-25.md) preserve actual W11 selected-scene continuity and W12 entering records; twelve possible endings, registered candidate venue anchors, character IDs and production-method notes. Host-authored candidates, not independent Inklings approval. Next: retrieve Founder inputs, resolve Atlas encounter cards and exact character bindings, refine copy and complete issue previs. Do not render or select outcomes from this material.
