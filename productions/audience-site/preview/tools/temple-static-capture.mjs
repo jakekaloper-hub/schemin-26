@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
  * Opt-in physical-GPU screenshot evidence for the existing, unpublished
- * Temple vegetation inspection at fixed synthetic noon and phase zero.
+ * Temple vegetation or Jackson bridge inspection at fixed synthetic noon and phase zero.
  * No publishing, canon writes, external requests or third-party dependencies.
- * Usage: node temple-static-capture.mjs /path/observer.html /new/evidence/dir EXPECTED_SOURCE_SHA
+ * Usage: node temple-static-capture.mjs /path/observer.html /new/evidence/dir EXPECTED_SOURCE_SHA [temple|jackson]
  */
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -13,7 +13,10 @@ import {tmpdir} from 'node:os';
 import {resolve,join} from 'node:path';
 import {pathToFileURL} from 'node:url';
 
-const [observerArg,outArg,expectedSha]=process.argv.slice(2);
+const [observerArg,outArg,expectedSha,preset='temple',...extra]=process.argv.slice(2);
+const presets={temple:{site:'LOC-TDS-WATERFALL-TEMPLE',distances:[51,44]},jackson:{site:'LOC-COUNTRY-CLUB-JACKSON',distances:[60,30]}};
+assert.ok(Object.hasOwn(presets,preset)&&extra.length===0,'UNKNOWN_CAPTURE_PRESET');
+const {site,distances}=presets[preset];
 assert.ok(observerArg&&outArg&&/^[0-9a-f]{40}$/.test(expectedSha||''),'Usage: observer.html NEW_OUTPUT_DIR EXPECTED_SOURCE_SHA');
 const observer=resolve(observerArg),out=resolve(outArg);
 assert.ok(existsSync(observer),'SOURCE_OBSERVER_MISSING');
@@ -103,10 +106,9 @@ async function main(){
  assert.equal(await evaluate('__observerDebug.weather().status'),'GLOBAL_CALM');
  await click('#infoClose');await click('#placesToggle');
  assert.equal(await evaluate('document.querySelectorAll("#placeList button[data-place]").length'),23);
- await click('[data-place="LOC-TDS-WATERFALL-TEMPLE"]');
- const site='LOC-TDS-WATERFALL-TEMPLE';
+ await click('[data-place="'+site+'"]');
  await sleep(500);
- for(const [stage,distance] of [['standard',51],['closer',44]]){
+ for(const [stage,distance] of [['standard',distances[0]],['closer',distances[1]]]){
    const prior=(await state()).camera.distance;
    // Fractional wheel delta via the existing spectator event handler; no camera state mutation.
    await evaluate(`document.querySelector('#world').dispatchEvent(new WheelEvent('wheel',{deltaY:${(distance-prior)/.07},bubbles:true,cancelable:true}))`);
@@ -125,7 +127,7 @@ async function main(){
  assert.ok((await state()).unchanged);
  mkdirSync(out,{recursive:false});
  for(const f of frames.filter(x=>!x.file.includes('-repeat')))writeFileSync(join(out,f.file),f.bytes,{flag:'wx'});
- const manifest={sourceSha:expectedSha,toolCheckoutBase,observerSha256:createHash('sha256').update(readFileSync(observer)).digest('hex'),sourceStateAsOf:catalog.stateAsOf,syntheticUtc,weather:'SYNTHETIC_GLOBAL_CALM',gpu:ready.stats.gpuRenderer,atlasLocations:23,publicationAuthorized:false,visualAcceptance:'NOT_REVIEWED',browserErrors:errors.length,externalRequests:externalRequests.length,frames:frames.map(({bytes,...f})=>({...f,bytes:bytes.length,retained:!f.file.includes('-repeat')}))};
+ const manifest={preset,sourceSha:expectedSha,toolCheckoutBase,observerSha256:createHash('sha256').update(readFileSync(observer)).digest('hex'),sourceStateAsOf:catalog.stateAsOf,syntheticUtc,weather:'SYNTHETIC_GLOBAL_CALM',gpu:ready.stats.gpuRenderer,atlasLocations:23,publicationAuthorized:false,visualAcceptance:'NOT_REVIEWED',browserErrors:errors.length,externalRequests:externalRequests.length,frames:frames.map(({bytes,...f})=>({...f,bytes:bytes.length,retained:!f.file.includes('-repeat')}))};
  writeFileSync(join(out,'manifest.json'),JSON.stringify(manifest,null,2)+'\n',{flag:'wx'});
  console.log(JSON.stringify(manifest));
 }

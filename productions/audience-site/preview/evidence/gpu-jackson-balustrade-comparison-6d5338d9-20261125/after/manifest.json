@@ -1,0 +1,101 @@
+{
+  "preset": "jackson",
+  "sourceSha": "6d5338d90c090050ffa18d71cddb126c79759f51",
+  "toolCheckoutBase": "6d5338d90c090050ffa18d71cddb126c79759f51",
+  "observerSha256": "1c40d133bef8b2032b7f16e50ac276fec6274aa88e8f0c86cef983af2dfc7868",
+  "sourceStateAsOf": "end_of_week_3_2026",
+  "syntheticUtc": "2026-11-25T17:00:00.000Z",
+  "weather": "SYNTHETIC_GLOBAL_CALM",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "atlasLocations": 23,
+  "publicationAuthorized": false,
+  "visualAcceptance": "NOT_REVIEWED",
+  "browserErrors": 0,
+  "externalRequests": 0,
+  "frames": [
+    {
+      "file": "standard.png",
+      "stage": "standard",
+      "locationId": "LOC-COUNTRY-CLUB-JACKSON",
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 60,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "a78ee7fffe8a90272360f036754e5c9e56422c5048ea51ae0506f6990aec1249",
+      "bytes": 822915,
+      "retained": true
+    },
+    {
+      "file": "standard-repeat.png",
+      "stage": "standard",
+      "locationId": "LOC-COUNTRY-CLUB-JACKSON",
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 60,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "a78ee7fffe8a90272360f036754e5c9e56422c5048ea51ae0506f6990aec1249",
+      "bytes": 822915,
+      "retained": false
+    },
+    {
+      "file": "closer.png",
+      "stage": "closer",
+      "locationId": "LOC-COUNTRY-CLUB-JACKSON",
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 30,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "494767f1c49311156a04be574b09dc0b37bb62d0df9827563e9bb16a190cecf2",
+      "bytes": 628749,
+      "retained": true
+    },
+    {
+      "file": "closer-repeat.png",
+      "stage": "closer",
+      "locationId": "LOC-COUNTRY-CLUB-JACKSON",
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 30,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "494767f1c49311156a04be574b09dc0b37bb62d0df9827563e9bb16a190cecf2",
+      "bytes": 628749,
+      "retained": false
+    }
+  ]
+}
