@@ -16,7 +16,34 @@ export function buildRegionalAssets(THREE, bindings, height) {
   const branch=(g,a,b,r,m=trunk)=>{const av=new THREE.Vector3(...a),bv=new THREE.Vector3(...b),v=bv.clone().sub(av);const o=mesh(g,new THREE.CylinderGeometry(r*.62,r,v.length(),7),m,...av.clone().add(bv).multiplyScalar(.5).toArray());o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),v.normalize());return o;};
   function canopy(g,x,y,z,scale=1,tint=leaf){
     cyl(g,x,y,z,.15*scale,.30*scale,2.5*scale,trunk,7);
-    for(let j=0;j<3;j++){const a=j*2.1+.3;branch(g,[x,y+1.5*scale,z],[x+Math.cos(a)*.7*scale,y+2.7*scale,z+Math.sin(a)*.7*scale],.09*scale);rock(g,x+Math.cos(a)*.65*scale,y+3.05*scale,z+Math.sin(a)*.65*scale,1.1*scale,.75*scale,.95*scale,j===1?leafLight:tint);}
+    // Temple-only dense vegetation: retain the three original crown lobes per
+    // stand, sculpting irregular leaf clusters within their original envelopes.
+    for(let j=0;j<3;j++){
+      const a=j*2.1+.3;
+      branch(g,[x,y+1.5*scale,z],[x+Math.cos(a)*.7*scale,y+2.7*scale,z+Math.sin(a)*.7*scale],.09*scale);
+      const base=j===1?leafLight:tint,key='temple-canopy:'+base.color.getHexString();
+      if(!materials.has(key)){const m=base.clone();m.vertexColors=true;materials.set(key,m);}
+      const o=rock(g,x+Math.cos(a)*.65*scale,y+3.05*scale,z+Math.sin(a)*.65*scale,1.1*scale,.75*scale,.95*scale,materials.get(key));
+      const geo=o.geometry,p=geo.getAttribute('position'),colors=[];
+      const seed=x*.71+z*.43+j*1.37;
+      for(let k=0;k<p.count;k++){
+        const px=p.getX(k),py=p.getY(k),pz=p.getZ(k);
+        // Continuous Cartesian fields avoid azimuth seams and pole artifacts.
+        const cluster=.5+.5*Math.sin(px*8.7+pz*4.1+seed)*Math.cos(py*9.3-pz*5.7);
+        const leafGrain=.5+.5*Math.sin(px*17.2+py*11.6-seed)*Math.sin(pz*15.3-py*6.8);
+        const inset=.145*(.65*cluster*cluster+.35*leafGrain);
+        p.setXYZ(k,px*(1-inset),py*(1-inset),pz*(1-inset));
+        const sunward=.5+.5*py;
+        const tone=.56+.23*sunward+.12*(1-cluster)+.09*leafGrain;
+        colors.push(tone*.95,tone,tone*.87+.065);
+      }
+      p.needsUpdate=true;geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+      geo.computeVertexNormals();geo.computeBoundingSphere();
+      geo.name='Candidate Temple irregular dense canopy crown';o.name=geo.name;
+      o.userData={templeCanopyPart:'crown',sourceLandmark:'dense vegetation',
+        visualAuthority:'CANDIDATE_NOT_APPROVED',originalLobeEnvelopePreserved:true,
+        navigable:false,routeIds:[],principalCharacters:[]};
+    }
   }
   function waterMaterial(kind,color){
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
