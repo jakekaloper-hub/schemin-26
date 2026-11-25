@@ -1,0 +1,143 @@
+{
+  "mission": "Existing Issue #268 / PR #313 — Week 12 production completion",
+  "authority": "Memo OS V5.5 / V5.2-RC subordinate",
+  "source": "W12_CONSOLIDATED_FOUNDER_FOUNDATIONS_REVIEW_2026-11-25.md",
+  "source_blob": "a3a19f1528d7c19d20c7685c87c0caf8529f4e20",
+  "runtime_receipt": {
+    "version": "2.3",
+    "command": "resume",
+    "owners": [
+      "the_librarian",
+      "the_groundskeeper"
+    ],
+    "registry_bound": false,
+    "continuation": "CONTINUE",
+    "note": "Actual local execution plan routed resume only; detailed dependency matrix host-authored; not scheduler dispatch or independent acceptance."
+  },
+  "tasks": [
+    {
+      "id": "W12-01",
+      "owner": "Librarian / Groundskeeper",
+      "work": "Recover authoritative inputs and checkpoint; reconcile six Founder files, chronology, actual current branch and existing packet register",
+      "acceptance": "6 source hashes, 12 owner IDs, 66 matches, supersession map; no stale audition authority",
+      "depends_on": [],
+      "status": "PARTIAL"
+    },
+    {
+      "id": "W12-02",
+      "owner": "Architect / Atlas OS",
+      "work": "Register six candidate locations using existing schema; physical region, parent/route, landmark; reusable terrain, layout, lighting, props, access and scale",
+      "acceptance": "6 schema-valid candidate records; G06 route/vehicle authority verified or explicitly blocked; no active canon without gate",
+      "depends_on": [
+        "W12-01"
+      ],
+      "status": "READY"
+    },
+    {
+      "id": "W12-03",
+      "owner": "Beat Writer / Inklings / Novel OS",
+      "work": "Write six shared opening manuscripts and twelve character journeys; separately track visual action, narrative POV and spoken dialogue; historical callbacks and conditional branches",
+      "acceptance": "6 openings, 12 distinct owner lenses, 6 dialogue tracks, 12 conditional branches; existing POV validator and evidence review; no results",
+      "depends_on": [
+        "W12-01"
+      ],
+      "status": "READY"
+    },
+    {
+      "id": "W12-04",
+      "owner": "Librarian / Scout",
+      "work": "Historical memorabilia and rivalry source audit, current SEC debate sources, previous folio callbacks",
+      "acceptance": "Every historical claim linked; unresolved owner lineage excluded or flagged; no invented trophies",
+      "depends_on": [
+        "W12-01"
+      ],
+      "status": "READY"
+    },
+    {
+      "id": "W12-05",
+      "owner": "Pitching Coach / production team",
+      "work": "Twelve discipline passes per matchup: design, environment, character VFX, costume, props, camera, lighting, action, dialogue presentation, editing, sound cues, continuity",
+      "acceptance": "72 review cells with evidence and dispositions; distinguish actual worker from host-assisted work",
+      "depends_on": [
+        "W12-02",
+        "W12-03",
+        "W12-04"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "id": "W12-06",
+      "owner": "Architect / Setup Man / Groundskeeper",
+      "work": "Revise existing P09–26 packet register and reconcile P01–08, P27–34 dependencies; retain stable IDs and conditional slots",
+      "acceptance": "34 folios reconciled, 18 matchup packets, 12 reference byte checks, 6 semantic venue checks, checkpoint readback",
+      "depends_on": [
+        "W12-02",
+        "W12-03",
+        "W12-05"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "id": "W12-07",
+      "owner": "Umpire / Closer",
+      "work": "Independent preproduction review; fix defects and recheck exact head",
+      "acceptance": "No unresolved preproduction defect except explicitly scoped external evidence; record actual review receipts and exact head; no release",
+      "depends_on": [
+        "W12-06"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "id": "W12-08",
+      "owner": "Scout / existing Steward / Analyst",
+      "work": "Maintain provider intake during games; validate finals, corrections, qualification and actual player evidence",
+      "acceptance": "6 accepted final receipts, Steward acknowledgement, Fact Lock, no synthetic result",
+      "depends_on": [
+        "W12-01"
+      ],
+      "status": "WAITING_EXTERNAL"
+    },
+    {
+      "id": "W12-09",
+      "owner": "Beat Writer / Inklings / production team",
+      "work": "Apply result delta to impacted dialogue/action/payoff only; maintain shared opening and cross-story continuity",
+      "acceptance": "6 accepted outcomes or explicit tie/revision handling; 4 G03/G05 combinations reconciled; no premature elimination",
+      "depends_on": [
+        "W12-07",
+        "W12-08"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "id": "W12-10",
+      "owner": "Pitching Coach / production / Umpire",
+      "work": "Generate native PNG masters only after respective render gates; inspect each physical folio and correct drift",
+      "acceptance": "All approved folios 1080x1920, reference fidelity, readable copy, scores, visual continuity, file hashes, no placeholders",
+      "depends_on": [
+        "W12-09"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "id": "W12-11",
+      "owner": "Closer / Librarian / Groundskeeper",
+      "work": "Exact-head QA, publication package and Week13 continuity writeback",
+      "acceptance": "Approved manifest and distribution identity, actual release authorization, verified archive and next-week carryover; no premature closure",
+      "depends_on": [
+        "W12-10"
+      ],
+      "status": "PENDING"
+    }
+  ],
+  "rules": [
+    "Existing controls take precedence; no new OS or duplicate mission",
+    "Parallelize 02/03/04/08 after 01; do not block other work on G06 route or results",
+    "Outcome-dependent changes only after accepted final evidence; preserve shared openings and previous hashes",
+    "No owner escalation for correctable internal defects; no spend, publication, or canon promotion without authority",
+    "At each checkpoint run existing continuation logic; persist actual evidence and unresolved blockers; no simulated worker acceptance"
+  ],
+  "completion": {
+    "preproduction": "W12-01 through W12-07 accepted; pending football outcomes not counted as preproduction failure",
+    "production": "W12-08 through W12-11 accepted and original objective satisfied"
+  }
+}
