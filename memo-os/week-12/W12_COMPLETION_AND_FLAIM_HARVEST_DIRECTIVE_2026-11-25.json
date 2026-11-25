@@ -1,0 +1,112 @@
+{
+  "status": "EXECUTION_DIRECTIVE_NOT_COMPLETION_RECEIPT",
+  "mission": "Issue #268 / PR #313",
+  "authority": "Memo OS V5.5 / V5.2-RC",
+  "league": {
+    "id": "1417621",
+    "season": 2026,
+    "week": 12,
+    "platform": "espn"
+  },
+  "timezone": "America/New_York",
+  "source": "https://www.nfl.com/news/week-12-schedule-change",
+  "source_date": "2026-11-17",
+  "windows": [
+    {
+      "date": "2026-11-25",
+      "time": "20:00",
+      "games": [
+        "GB@LAR"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "time": "13:00",
+      "games": [
+        "CHI@DET"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "time": "16:30",
+      "games": [
+        "PHI@DAL"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "time": "20:20",
+      "games": [
+        "KC@BUF"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "time": "15:00",
+      "games": [
+        "DEN@PIT"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "time": "13:00",
+      "games": [
+        "BAL@HOU",
+        "NO@CIN",
+        "NYJ@MIA",
+        "ATL@MIN",
+        "NYG@IND",
+        "TEN@JAX"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "time": "16:05",
+      "games": [
+        "NE@LAC"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "time": "16:25",
+      "games": [
+        "SEA@SF",
+        "WAS@ARI"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "time": "20:20",
+      "games": [
+        "LV@CLE"
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "time": "20:15",
+      "games": [
+        "CAR@TB"
+      ]
+    }
+  ],
+  "collection": [
+    "12 current roster snapshots with provider IDs, NFL team, lineup slot, availability and timestamp; preserve missing values",
+    "6 explicit week12 matchup snapshots, currentPoints and provider winner; UNDECIDED remains provisional",
+    "Map roster players to NFL game windows by verified NFL team; retain starter/bench/IR distinction",
+    "Pregame availability and lineup, postgame player points/status, scoring swing and roster updates; refresh at next supported run after game final, never assume elapsed time means final",
+    "Store immutable dated receipts; delta-deduplicate; retain injuries, inactive and missing-data flags with provenance; verify material NFL injury news via official sources",
+    "After MNF, verify all 6 final provider decisions, corrections and Steward acceptance; Fact Lock only through existing gate"
+  ],
+  "directive": [
+    "Resume existing execution plan W12-01–11; finish all reversible outcome-independent tasks without waiting for football.",
+    "Deliver six locations, six shared openings, twelve distinct POVs, six dialogue tracks, historical prop audit, twelve conditional branches, 72 discipline cells, eighteen revised folio packets and 34-folio reconciliation.",
+    "Use existing Atlas/Novel/Memo controls and actual worker receipts; no unverified acceptance, rendering, publication or canon promotion.",
+    "Reevaluate CONTINUE after each checkpoint; preserve unresolved external gates; continue unaffected work."
+  ],
+  "runtime": {
+    "command": "resume",
+    "continuation": "CONTINUE",
+    "registry_dispatch_verified": false
+  },
+  "automation_status": "not activated by this file"
+}
