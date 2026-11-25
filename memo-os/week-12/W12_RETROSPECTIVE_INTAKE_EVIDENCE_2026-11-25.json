@@ -1,0 +1,130 @@
+{
+  "schema": "mission_evidence_observation_v1",
+  "scope": "Issue 268; historical artifact inventory and host-assisted portable Staff execution; not release receipt",
+  "date": "2026-11-25",
+  "bullpen_local_revision": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+  "local_checkout_dirty": true,
+  "publications": [
+    {
+      "week": 6,
+      "name": "Schemin_26_Week_6_Memo.pdf",
+      "pages": 23,
+      "sha256": "1d9b1b6915bf4b757a927c33719ab1cbd9f8f8eb93523e8103d3d8e2bd1a61c8"
+    },
+    {
+      "week": 7,
+      "name": "Schemin_26_Official_Week_7_Memo.pdf",
+      "pages": 31,
+      "sha256": "48a8e874deaf73ef16b49ffbd77ccb1fcd4a8dca2435244217a35c7d52b53b25"
+    },
+    {
+      "week": 8,
+      "name": "Schemin_26_Official_Week_8_Memo.pdf",
+      "pages": 20,
+      "sha256": "973ed75c366a14ba2ec243b4c661b8e307ecb104b77a1434ac571eef599b042e"
+    },
+    {
+      "week": 9,
+      "name": "Schemin_26_Week_9_Memo_Shareable_v2.pdf",
+      "pages": 34,
+      "sha256": "6af7cfd3e69310fed6508e678ed0def9baf84b41d1db83776b0b0cd3b7ccef7d"
+    },
+    {
+      "week": 10,
+      "name": "Schemin-26-Week-10-Memo.pdf",
+      "pages": 35,
+      "sha256": "520fa19c5881623c74c5052d36ba09fefbc793592917e523ec9f4114cf84f2b2"
+    },
+    {
+      "week": 11,
+      "name": "Schemin-26 Wk11.pdf / Schemin-26_W11_iMessage.pdf",
+      "pages": 29,
+      "sha256": "b401dcedef7988d93d361eea8403a824406085f56ac9e9e11cfa6aa0e2f28bdf"
+    },
+    {
+      "week": 11,
+      "name": "Schemin-26_W11_TheCrossingNarrows.pdf",
+      "pages": 29,
+      "sha256": "96fd9edd0dbe42c03a91212015573d2c59da45a6d4a42360b8f2075f57d2f0f8"
+    },
+    {
+      "week": 11,
+      "name": "Schemin-26_Week-11_The-Crossing-Narrows.pdf",
+      "pages": 29,
+      "sha256": "1631b9aa01ba33ac5debe3a851e14c096586637a7b3839dec25bc74ecfb59ba0"
+    }
+  ],
+  "provenance": "W6–10 candidates in local official directory; W10 matches PR315; W8 page count matches #276; W11 local variants, owner reports completed; distribution and release gates not independently authenticated. Metadata only, visual audit pending.",
+  "staff_receipt": {
+    "execution": "direct portable implementation calls on authorized Mac, host-assisted, not authenticated independent Director or gate acceptance",
+    "inventory": {
+      "status": "succeeded",
+      "expected": 35,
+      "observed": 31,
+      "missing": [
+        "P07",
+        "P27",
+        "P31",
+        "P32"
+      ],
+      "duplicates": [],
+      "aligned": false
+    },
+    "completion_audit": {
+      "status": "succeeded",
+      "auditPassed": false,
+      "failureReasons": [
+        "evidence[] is required",
+        "tests[] is required",
+        "result is required",
+        "owner_review is required"
+      ],
+      "scope": "minimal completion input deliberately rejected; not full release audit"
+    },
+    "session_scribe": {
+      "status": "succeeded",
+      "type": "DIRECTIVE",
+      "state": "PENDING",
+      "title": "Week 12 provisional continuation",
+      "body": "Preserve Week 11 and W12 source; do not require DECIDED for creative intake; draft PR313.",
+      "persistence_required": true
+    },
+    "data_freshness": {
+      "status": "succeeded",
+      "sources": 1,
+      "fresh": 1,
+      "stale": 0,
+      "max_age_hours": 48,
+      "observation": "2026-11-25T14:02:09.489Z",
+      "scope": "timestamp age only; no Steward or Fact Lock"
+    }
+  },
+  "week11_png": {
+    "manifest_files": 29,
+    "hashes_matching": 29,
+    "native_1080x1920": 0,
+    "consolidated": [
+      "P05-P06",
+      "P25-P26"
+    ],
+    "missing": [
+      "P07",
+      "P27",
+      "P31",
+      "P32"
+    ],
+    "scope": "local manifest inventory, dimensions from manifest, no visual or independent release approval"
+  },
+  "continuation": {
+    "status": "CONTINUE",
+    "next_command": "next"
+  },
+  "hold": [
+    "official PDF visual audit",
+    "W11 distribution identity",
+    "Steward acceptance",
+    "actual independent Director consultations",
+    "native geometry and source-to-publication reconciliation",
+    "regression of outcome-transition runtime"
+  ]
+}
