@@ -1619,7 +1619,7 @@
       "id": "CAND-W12-DK-FOREST-TRAINING",
       "working_name": "DK Forest Training Grounds",
       "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
-      "location_class": "MATCHUP_LANDMARK",
+      "location_class": "OWNER_SUBLOCATION",
       "likely_physical_zone_ids": [
         "REG-UPPER-VALLEYS"
       ],
@@ -1627,7 +1627,8 @@
         "DIV-BURGERS"
       ],
       "event_eligibility": [
-        "REGULAR_SEASON"
+        "REGULAR",
+        "DIVISIONAL"
       ],
       "activation_trigger": "Existing Atlas semantic, route, modernity and canon acceptance; Founder scene direction does not itself activate geography.",
       "story_functions": [
@@ -1656,7 +1657,7 @@
       "id": "CAND-W12-MUD-HUNTING-CABIN",
       "working_name": "Mud Dogs Hunting Cabin",
       "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
-      "location_class": "MATCHUP_LANDMARK",
+      "location_class": "OWNER_SUBLOCATION",
       "likely_physical_zone_ids": [
         "REG-SOUTHERN-WETLANDS"
       ],
@@ -1664,7 +1665,8 @@
         "DIV-BURGERS"
       ],
       "event_eligibility": [
-        "REGULAR_SEASON"
+        "REGULAR",
+        "DIVISIONAL"
       ],
       "activation_trigger": "Existing Atlas semantic, route, modernity and canon acceptance; Founder scene direction does not itself activate geography.",
       "story_functions": [
@@ -1693,7 +1695,7 @@
       "id": "CAND-W12-RED-SPECIAL-CABIN",
       "working_name": "Red Leopards Special Cabin",
       "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
-      "location_class": "MATCHUP_LANDMARK",
+      "location_class": "OWNER_SUBLOCATION",
       "likely_physical_zone_ids": [
         "REG-EASTERN-STORM-COAST"
       ],
@@ -1701,7 +1703,8 @@
         "DIV-WINGS"
       ],
       "event_eligibility": [
-        "REGULAR_SEASON"
+        "REGULAR",
+        "DIVISIONAL"
       ],
       "activation_trigger": "Existing Atlas semantic, route, modernity and canon acceptance; Founder scene direction does not itself activate geography.",
       "story_functions": [
@@ -1730,7 +1733,7 @@
       "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
       "working_name": "Slob Backyard Retreat",
       "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
-      "location_class": "MATCHUP_LANDMARK",
+      "location_class": "OWNER_SUBLOCATION",
       "likely_physical_zone_ids": [
         "REG-UPPER-VALLEYS"
       ],
@@ -1738,7 +1741,8 @@
         "DIV-WINGS"
       ],
       "event_eligibility": [
-        "REGULAR_SEASON"
+        "REGULAR",
+        "DIVISIONAL"
       ],
       "activation_trigger": "Existing Atlas semantic, route, modernity and canon acceptance; Founder scene direction does not itself activate geography.",
       "story_functions": [
@@ -1768,7 +1772,7 @@
       "id": "CAND-W12-LLC-HIDDEN-DUNGEON",
       "working_name": "LLC Hidden Dungeon",
       "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
-      "location_class": "MATCHUP_LANDMARK",
+      "location_class": "OWNER_SUBLOCATION",
       "likely_physical_zone_ids": [
         "REG-INNER-SEA-LITTORAL"
       ],
@@ -1776,7 +1780,8 @@
         "DIV-PIZZA"
       ],
       "event_eligibility": [
-        "REGULAR_SEASON"
+        "REGULAR",
+        "DIVISIONAL"
       ],
       "activation_trigger": "Existing Atlas semantic, route, modernity and canon acceptance; Founder scene direction does not itself activate geography.",
       "story_functions": [
@@ -1806,13 +1811,14 @@
       "id": "CAND-W12-CHINS-STORM-HIGHWAY",
       "working_name": "Chins Storm Highway Encounter",
       "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
-      "location_class": "MATCHUP_LANDMARK",
+      "location_class": "TRANSIT_NODE",
       "likely_physical_zone_ids": [],
       "division_affinity_ids": [
         "DIV-PIZZA"
       ],
       "event_eligibility": [
-        "REGULAR_SEASON"
+        "REGULAR",
+        "DIVISIONAL"
       ],
       "activation_trigger": "Existing Atlas semantic, route, modernity and canon acceptance; Founder scene direction does not itself activate geography.",
       "story_functions": [
