@@ -17,3 +17,16 @@ jobs:
         run: node memo-os/week-12/thanksgiving-special/validate.mjs
       - name: Check renderer Python syntax
         run: python3 -m py_compile memo-os/week-12/thanksgiving-special/render.py
+      - name: Recover inspected archival source revision
+        run: git fetch --no-tags --depth=1 origin 13b8bcfcbc3673a2e97d598ccebb70464c20e945
+      - name: Compose two historical-artwork candidates
+        run: |
+          python3 -m pip install Pillow==11.3.0
+          python3 memo-os/week-12/thanksgiving-special/render_archival_candidates.py
+      - name: Preserve two candidates and mobile QA evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: thanksgiving-two-folio-candidates
+          path: memo-os/week-12/thanksgiving-special/historical-candidates/
+          if-no-files-found: error
+          retention-days: 30
