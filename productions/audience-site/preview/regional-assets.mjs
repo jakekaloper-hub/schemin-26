@@ -407,8 +407,13 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec2 p=(vUv-vec2(.5))*2.;
       float r1=length((p-vec2(-.19,.08))*vec2(1.,1.25));
       float r2=length((p-vec2(.25,-.18))*vec2(1.2,1.));
-      float wave1=pow(max(sin(r1*33.0-uTime*2.4),0.),12.);
-      float wave2=pow(max(sin(r2*25.0-uTime*1.75),0.),12.);
+      // Fade unresolved narrow optical crests without altering physical pond waves.
+      float pondWaveCoordinateA=r1*33.0-uTime*2.4;
+      float pondWaveCoordinateB=r2*25.0-uTime*1.75;
+      float wave1=pow(max(sin(pondWaveCoordinateA),0.),12.)
+        *(1.-smoothstep(.35,1.15,fwidth(pondWaveCoordinateA)));
+      float wave2=pow(max(sin(pondWaveCoordinateB),0.),12.)
+        *(1.-smoothstep(.35,1.15,fwidth(pondWaveCoordinateB)));
       float bank=1.-smoothstep(.68,.95,length(p));
       float ripple=(wave1*.6+wave2*.4)*bank;
       float micro=.5+.5*sin(p.x*7.3+sin(p.y*8.2+uTime*.17));
@@ -451,10 +456,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
       vec2 bridgeB=vec2(.71/3.8,0.);
       float bridgeDistA=length((p-bridgeA)*vec2(1.,1.28));
       float bridgeDistB=length((p-bridgeB)*vec2(1.,1.28));
+      float bridgeWaveCoordinateA=bridgeDistA*37.-uTime*2.05;
+      float bridgeWaveCoordinateB=bridgeDistB*33.-uTime*1.82+1.2;
       float bridgeCrestA=(1.-smoothstep(.08,.43,bridgeDistA))
-        *pow(max(sin(bridgeDistA*37.-uTime*2.05),0.),10.);
+        *pow(max(sin(bridgeWaveCoordinateA),0.),10.)
+        *(1.-smoothstep(.35,1.15,fwidth(bridgeWaveCoordinateA)));
       float bridgeCrestB=(1.-smoothstep(.08,.43,bridgeDistB))
-        *pow(max(sin(bridgeDistB*33.-uTime*1.82+1.2),0.),10.);
+        *pow(max(sin(bridgeWaveCoordinateB),0.),10.)
+        *(1.-smoothstep(.35,1.15,fwidth(bridgeWaveCoordinateB)));
       float bridgeBreak=.5+.5*sin(p.y*27.+uTime*.68+p.x*11.);
       float bridgeContact=clamp((bridgeCrestA+bridgeCrestB)*bridgeBreak*bank,0.,1.);
       vec3 pondBridgeLight=vec3(.042,.061,.052)*bridgeContact;
