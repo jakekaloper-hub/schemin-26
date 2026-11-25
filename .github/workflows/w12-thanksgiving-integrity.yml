@@ -1,0 +1,19 @@
+name: Thanksgiving two-folio sports integrity
+on:
+  pull_request:
+    paths:
+      - 'memo-os/week-12/thanksgiving-special/**'
+      - 'memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json'
+      - '.github/workflows/w12-thanksgiving-integrity.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Verify locked sports facts and negative cases
+        run: node memo-os/week-12/thanksgiving-special/validate.mjs
+      - name: Check renderer Python syntax
+        run: python3 -m py_compile memo-os/week-12/thanksgiving-special/render.py
