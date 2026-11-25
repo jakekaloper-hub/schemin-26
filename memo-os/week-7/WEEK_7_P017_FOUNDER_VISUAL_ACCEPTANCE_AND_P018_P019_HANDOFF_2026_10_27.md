@@ -1,0 +1,59 @@
+# Week 7 — P017 Founder Visual Acceptance and P018/P019 Individual Production Handoff
+
+**Date:** 2026-10-27  
+**Authority:** Commissioner's explicit message: "i accept this image. do whats necessary so we can proceed to produce individually P018 and P019"  
+**Scope:** Forgotten Court three-folio story, only. No automatic authorization to render both folios together, alter matchup canon, merge PR or publish PDF.
+
+## Accepted P017 candidate
+- Folio P017 — `A Game Without Witnesses`, Overture.
+- Image filename from live conversation: `a_cinematic_fantasy_sports_editorial_poster_magazi.png`
+- Locally checked size: PNG, 1024×1536, RGB.
+- SHA256: `979b3bb79a4368ce5efc964a25729d5ea341e9ab8801a0809433bc43fd8065f4`.
+- **Founder visual acceptance: APPROVED.** Earlier candidate-only creative classification is superseded.
+- The image was generated in a ChatGPT session, not uploaded to the GitHub repository. GitHub binary materialization + hash recheck and deterministic copyfit/release QA remain separate open tasks. Do not invent a GitHub-hosted image URL.
+- P017 visual art direction is frozen for handoff; do not rerender it absent new Founder instruction or proven critical compliance error.
+
+## Locked continuity for P018 and P019
+- **Red Leopards:** `CHAR-KEVIN-ZEEK`; red-and-black leopard, full anthropomorphic leopard body, complete spotted-fur coverage and tail. ZERO exposed human skin, NO human head/mask shorthand. Preserve established approved P017 silhouette.
+- **His Majesty's Blood:** `CHAR-AUSTIN-BYARS`; hooded black/gold armored Belt Keeper with glowing red eyes. NO crown worn atop hood or exposed human face. Belt remains HMB's on the sidelines throughout.
+- **Environment:** event-specific weathered private basketball court within a Central Basin neutral-ground *candidate* parent. Single hoop on consistent action axis, aged stone, arches, distant waterfall and late-day cinematic directional light from the accepted image. Do not silently promote the provisional court as permanent Atlas canon.
+- **Basketball grammar:** two characters, one ball, no crowd/referee, first-to-eleven private contest; no duplicated equipment or player anatomy.
+- **Magazine grammar:** 1024×1536 portrait, cinematic character scale and editorial type/copy treatment in the accepted P017, not an identical opening establishing shot for subsequent pages. Exact manuscript / scores on deterministic graphic layer where tooling supports it.
+- **Source:** `WEEK_7_FIVE_MATCHUP_FIFTEEN_CINEMATIC_RENDER_INPUT_PACKETS_2026_10_27.md` P018 / P019 copy and blocking remain controlling.
+
+## P018 — FOUNDER VISUAL APPROVED (2026-10-27)
+- Escalation: `Every Inch Contested`.
+- Camera intention: **50mm lateral two-shot**, tighter than P017, strong player-to-player eye line and footwork.
+- Beats: Red probes left, HMB defends using reach and adjusts, increasingly hard-played possession, psychological escalation.
+- Do NOT depict final ankle-breaker, made jumper or championship Belt transfer.
+- Output: one P018 PNG; inspect anatomy, hood/crown, Belt, page text and continuity; present for Founder approval before P019 begins.
+
+## P019 — NEXT INDIVIDUAL PRODUCTION
+- Payoff: `The Crossover`.
+- Camera intention: **35mm low-side decisive jumper** following consistent screen direction and basket geometry.
+- Beats: Red crosses back, HMB briefly loses balance, Red releases and makes clean jumper. Winner Red Leopards; observed Week 7 ESPN points 148.53–137.02, pending applicable publication fact gate. HMB remains Belt Keeper.
+- Output: one P019 PNG; do not produce simultaneously with P018.
+
+## P018 acceptance receipt and P019 continuation
+- **Founder decision:** Explicit visual approval of the *second, revised* P018 image in chat, 2026-10-27; first P018 candidate is superseded.
+- **Accepted visual reference:** `a_dramatic_cinematic_fantasy_sports_magazine_cove.png`, 1024 × 1536 RGB PNG, SHA256 `de692177ebb1bf9bfc87d0f8e523699c595f36520fe8c1260f15a8b84d29fe27` (measured locally in current container).
+- **Artwork status:** FOUNDER_VISUALLY_APPROVED, not exact-copy-certified, independently QA-approved or PDF-published. PNG exists in the conversation environment; binary not committed to repo.
+- **Visual continuity:** Single basket remains on RIGHT in P017 and accepted revised P018; HMB's ornate championship Belt on near RIGHT sideline slab; red/black full-bodied furred leopard incl. tail, NO HUMAN SKIN; black-gold hooded red-eyed HMB with no crown worn. Directional warm sunset behind stone arches and waterfalls; wet leaf-strewn ancient half-court. P019 should preserve this axis and prop geography while changing to low-side climactic angle.
+- **Outstanding P018 correction:** Image-generated article text diverges from controlling P018 manuscript; deterministic typography replacement and 390px actual copyfit remain separate post-production gates. Founder visual acceptance does not waive accuracy of exact copy.
+- **Next step:** Produce ONLY P019. Do not regenerate P017/P018, unless explicitly requested. P019 must show the crossover, HMB off balance but uninjured, Red's clean decisive jumper and Belt still on sideline; observed fantasy outcome Red 148.53 over HMB 137.02, no belt transfer. No crowd or added figures.
+
+## Disposition
+FOUNDER_VISUAL_APPROVED_P017 / FOUNDER_VISUAL_APPROVED_P018 / P019_READY_FOR_INDIVIDUAL_CREATIVE_PRODUCTION. Independent factual, asset-ingestion, Atlas and raster QA remain separately tracked. This handoff does not claim authenticated live Bullpen agent conference, independent Umpire acceptance, publication or merge.
+
+## P019 individual render candidate — 2026-10-27
+- **Generated:** single 1024×1536 PNG review candidate, `SCHEMIN_26_W07_P019_SOURCE_COPY_REVIEW.png`; local SHA256 `5f3de4865c995a33cb800776228e7615a1218b9ee8f6eb97429445f6a64f9db4`.
+- **Creative:** Game of the Week masthead, `THE CROSSOVER` payoff, right-side hoop and retained HMB Belt, RED 148.53 / HMB 137.02 result banner, RED +11.51 margin. Full furred Red with feline anatomy; hooded red-eyed HMB; no worn crown. Action is a cinematic raised-ball finishing moment, not an image-proven made basket; prose narrates the made jumper.
+- **Copy remediation:** initial image-generated bottom article contained unsupported standings and text other than the P019 packet. Replaced that narrative region with the existing P019 exact candidate editorial copy via deterministic raster text. Do not treat image-model article text as authoritative.
+- **State:** `P019_RENDERED_FOUNDER_REVIEW_PENDING`. This image lives in the conversation output filesystem, **not GitHub**; no claimed binary GitHub ingestion or independent Umpire acceptance. Preview at 1024×1536 has been visually inspected; 390px mobile and publication PDF QA not independently certified.
+- **Next gate:** Founder visual approval or precise corrections. Do not automatically declare the three-folio matchup officially published.
+
+## P019 Founder visual acceptance — subsequent decision
+- Commissioner stated: "im satisfied, lets move on to another matchup. now Dr Duckhook vs Three Dreaded Snakes". This is explicit visual acceptance of the latest P019 revision, completing Founder visual review of P017–P019.
+- Accepted conversation artifact: `SCHEMIN_26_W07_P019_REVISED_EXACT_COPY.png` (not yet proven to be ingested as a binary into GitHub).
+- **Status:** P017/P018/P019 FOUNDER VISUAL APPROVED. This is not independent copyfit/raster certification, permanent Atlas ratification, Fact Lock, PDF release or repo merge.
+- **Next matchup:** Three Dreaded Snake (HOME) vs Dr. Duckhook (AWAY), `The Miracle Putt`, P005–P007; begin P005 individually. Maintain actual character refs `CHAR-PHILLIP-PITTS` (one armored humanoid body, three serpent heads) and `CHAR-ZACH-WILSON` (duck-headed golfer) under `LOC-TDS-WATERFALL-TEMPLE` with proposed event-only green.
