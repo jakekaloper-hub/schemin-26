@@ -160,13 +160,45 @@ async function main(){
  await delay(2300);
  if(captureDir)await captureCandidate('02-country-club-jackson.png','LOC-COUNTRY-CLUB-JACKSON');
  const beforeHistory=await evaluate('__observerDebug.camera()');
+ // Probe the real DOM handlers synchronously, with a synthetic fallback gate only.
+ // No WebGL context is lost, no fallback event is generated, and the flag is restored
+ // before another animation frame. This exercises the denied entry, not GPU recovery.
+ const deniedEntry=await evaluate(`(()=>{
+  const fallback=document.querySelector('#fallback'),history=document.querySelector('#openHistory'),memory=document.querySelector('#openMemory');
+  history.focus();
+  const view=()=>({history:__observerHistoryDebug.session(),memory:__observerMemoryDebug.session(),
+   historyOpen:document.querySelector('#historyDialog').open,memoryOpen:document.querySelector('#memoryDialog').open,
+   camera:__observerDebug.camera(),focus:document.activeElement?.id,
+   historyClass:document.body.classList.contains('history-open'),memoryClass:document.body.classList.contains('memory-open')});
+  const before=view(),originalHidden=fallback.hidden;
+  let denied;
+  try{fallback.hidden=false;history.click();memory.click();denied=view();}
+  finally{fallback.hidden=originalHidden;}
+  return {before,denied,restored:fallback.hidden};
+ })()`);
+ assert.equal(deniedEntry.before.focus,'openHistory','History trigger could not take focus');
+ assert.equal(deniedEntry.before.history,null);
+ assert.equal(deniedEntry.before.memory,null);
+ assert.equal(deniedEntry.restored,true,'Synthetic fallback gate did not restore');
+ assert.deepEqual(deniedEntry.denied,deniedEntry.before,'Synthetic fallback allowed a competing reader or side effect');
  await click('#openHistory');
  assert.equal(await evaluate('document.querySelector("#historyDialog").open'),true);
  assert.ok(await evaluate('document.querySelectorAll("#historyEntries article").length')>0,'No location-exact source history');
+ const activeReader=await evaluate(`(()=>{
+  const view=()=>({history:__observerHistoryDebug.session(),memory:__observerMemoryDebug.session(),
+   camera:__observerDebug.camera(),focus:document.activeElement?.id,
+   historyOpen:document.querySelector('#historyDialog').open,memoryOpen:document.querySelector('#memoryDialog').open});
+  const before=view();document.querySelector('#openHistory').click();document.querySelector('#openMemory').click();
+  return {before,after:view()};
+ })()`);
+ assert.equal(activeReader.before.focus,'historyBack','History reader did not own focus');
+ assert.equal(activeReader.before.memoryOpen,false);
+ assert.deepEqual(activeReader.after,activeReader.before,'Reader re-entry changed the active history or camera');
  const frozen=await snapshot();await delay(550);
  assert.equal((await snapshot()).stats.waterTime,frozen.stats.waterTime,'Historical reader advanced water');
  await click('#historyBack');
  assert.equal(await evaluate('document.querySelector("#historyDialog").open'),false);
+ assert.equal(await evaluate('document.activeElement?.id'),'openHistory','History return lost trigger focus');
  assertHistoricalViewRestored(beforeHistory,await evaluate('__observerDebug.camera()'));
  await click('#inspectorWorld');
  assert.equal(await evaluate('document.querySelector("#inspector").hidden'),true);
@@ -583,6 +615,7 @@ async function main(){
   renderer:first.stats.renderer,gpu:first.gpu,frames:b.stats.frames,places:first.places,
   jacksonHistory:await evaluate('__observerHistoryDebug.entries("LOC-COUNTRY-CLUB-JACKSON").length'),
   weather:calm.status,ordinaryWaterAdvanced:true,historicalPause:true,explicitPause:true,sourceUnchanged:true,
+  historyReaderOwnership:{syntheticFallbackDenied:true,activeReaderReentryDenied:true,triggerFocusRestored:true,privateEditionExercised:false},
   browserExceptions:runtimeExceptions.length,consoleErrors:consoleErrors.length,externalRequests:externalRequests.length,
   displayDensityObservations:dprObservations,candidateCaptures:captured.map(c=>c.file),temporalCaptures:temporalCaptures.map(c=>c.file),wetlandsTemporalCaptures:wetlandTemporalCaptures.map(c=>c.file),wetlandsCloseupCaptures:wetlandCloseupCaptures.map(c=>c.file),atlasViewCaptures:atlasCaptures.map(c=>c.file)
  }));

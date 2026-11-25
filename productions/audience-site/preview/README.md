@@ -69,8 +69,11 @@ isolated temporary Chrome profile; it installs no browser dependency. It fails
 closed on Canvas fallback, zero WebGL2 frames, missing Atlas sites, shader/runtime
 errors, unexpected external requests, broken Jackson source-history return,
 incorrect synthetic global calm, frozen ordinary water, or broken explicit pause.
-It prints a single machine-readable `WEBGL2_JOURNEY_SMOKE_PASS` result with the
-observed GPU. This is **opt-in device evidence**, not a GitHub Actions GPU test,
+It also probes the real history entry handlers with a synchronous synthetic
+fallback flag (restored before the next frame), rejects modal re-entry, and
+checks focus restoration to the history trigger. This is not a WebGL context-loss
+exercise or a private-edition test. It prints a single machine-readable
+`WEBGL2_JOURNEY_SMOKE_PASS` result with the observed GPU. This is **opt-in device evidence**, not a GitHub Actions GPU test,
 Founder-approved art, live-weather proof, public release, or hardware benchmark.
 
 ## Optional display-density transition smoke
