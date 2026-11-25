@@ -179,6 +179,13 @@ export function buildRegionalAssets(THREE, bindings, height) {
       fragmentShader:`uniform float uTime;uniform float uLightLevel;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
         stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);
         float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);
+        // The broad falling-sheet bands retain their original periodic energy
+        // when a pixel can no longer resolve their phase. Resolved foam and
+        // fold motion remain unchanged; this adjusts optical response only.
+        float fallStripePhase=vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9;
+        float fallFoamPhase=vUv.y*35.+uTime*9.+sin(vUv.x*13.);
+        stripe=mix(stripe,.3125,smoothstep(.35,1.15,fwidth(fallStripePhase)));
+        foam=mix(foam,.2734375,smoothstep(.35,1.15,fwidth(fallFoamPhase)));
         // The EXISTING physically displaced sheet now shades from its real screen-space
         // geometry. No new lighting or climate authority: only a restrained candidate
         // view response to folding, with no added geometry or transparency layers.
