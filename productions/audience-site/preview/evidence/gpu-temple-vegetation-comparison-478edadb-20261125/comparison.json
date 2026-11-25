@@ -1,0 +1,59 @@
+{
+  "kind": "CONTROLLED_PHYSICAL_GPU_TEMPLE_VEGETATION_COMPARISON",
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "baseline": "0b6cdd0396c37d923dcbddf143b770bceac561c2",
+  "refined": "478edadbe05336e37103a55b6bde718884fbece3",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "syntheticUtc": "2026-11-25T17:00:00.000Z",
+  "weather": "SYNTHETIC_GLOBAL_CALM",
+  "sourceStateAsOf": "end_of_week_3_2026",
+  "atlasLocations": 23,
+  "sourceOnly": true,
+  "matchedCamera": true,
+  "matchedWaterPhase": true,
+  "stableRepeatPairs": 4,
+  "browserErrors": 0,
+  "externalRequests": 0,
+  "captureToolSha256": "8d193a9a469489f46eb0c29a7e9cd39c35452aeee2b979207521b0c3a73556d6",
+  "comparisons": [
+    {
+      "stage": "standard",
+      "camera": {
+        "target": [
+          -36,
+          8.374296887967935,
+          42
+        ],
+        "distance": 51,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "changed": 33987,
+      "total": 1170720,
+      "changedFraction": 0.029030852808528084,
+      "minimumRgbChannelDelta": 2,
+      "scope": "Entire viewport; includes any vegetation-induced shading changes and UI, not a segmentation mask."
+    },
+    {
+      "stage": "closer",
+      "camera": {
+        "target": [
+          -36,
+          8.374296887967935,
+          42
+        ],
+        "distance": 44,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "changed": 45787,
+      "total": 1170720,
+      "changedFraction": 0.03911012026786934,
+      "minimumRgbChannelDelta": 2,
+      "scope": "Entire viewport; includes any vegetation-induced shading changes and UI, not a segmentation mask."
+    }
+  ]
+}
