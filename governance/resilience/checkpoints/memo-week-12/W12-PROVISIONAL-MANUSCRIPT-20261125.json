@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "checkpoint_id": "W12-PROVISIONAL-MANUSCRIPT-20261125",
+  "project": "schemin-26",
+  "workflow": "memo-week-12",
+  "stage": "PROVISIONAL_MANUSCRIPT_DRAFT",
+  "owner": "the_beat_writer",
+  "source_authority": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+  "completed_at": "2026-11-25T17:00:00Z",
+  "input_fingerprints": [
+    {
+      "path": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+      "digest_algo": "git_blob",
+      "digest": "94e38656f2cb1b33958f1fc60da77923828cf8c5"
+    },
+    {
+      "path": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+      "digest_algo": "git_blob",
+      "digest": "d445249cfd2a52bd1da83a1795cf73bcae220dbc"
+    },
+    {
+      "path": "world/data/locations.json",
+      "digest_algo": "git_blob",
+      "digest": "9c2d30399a092967ec85bfb3431af9b36e06adc3"
+    },
+    {
+      "path": "memo-os/SCHEMIN_26_WEEKLY_MEMO_OS_V5_5_INTEGRATED_PREPRODUCTION_PATCH.md",
+      "digest_algo": "git_blob",
+      "digest": "a8e9bb3b79457ecbce2cc2a95b4cdf703c792243"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
+      "digest_algo": "git_blob",
+      "digest": "ab0ffe5b6d75a35c459be8d938c67597b3d09a3c"
+    }
+  ],
+  "evidence": [
+    "memo-os/week-12/_INDEX.md",
+    "memo-os/week-9/WEEK_12_PROVIDER_EVIDENCE_2026-11-25.json"
+  ],
+  "invalidation_triggers": [
+    "applicable character or location authority changes",
+    "prior-scene continuity changes",
+    "manuscript bytes change",
+    "Founder supersession"
+  ]
+}
