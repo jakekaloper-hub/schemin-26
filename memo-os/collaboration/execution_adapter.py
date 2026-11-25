@@ -39,3 +39,26 @@ def evaluate_assignment(task_id: str, handoff: dict, registry: dict | None = Non
     if not contract.acknowledged(handoff.get("ack_state")):
         return {"status": "BLOCKED", "reason": "ACK_MISSING"}
     return {"status": "READY", "reason": "VALIDATED", "task_id": task_id}
+
+
+def plan_provisional_matchup_review(previous: dict, current: dict, dependencies: dict) -> dict:
+    """Read-only collaboration entry point; never acknowledges a Steward assignment.
+
+    Accepts normalized provider observations, not a release or canonical snapshot.
+    The caller must resolve registered artifact dependencies. Only an independent
+    accepted assignment can authorize downstream application; this function does
+    not dispatch, reopen, write, or grant any lock.
+    """
+    delta = _load(ROOT / "memo-os/matchup_delta.py", "matchup_delta")
+    try:
+        review = delta.plan(previous, current, dependencies)
+    except (ValueError, KeyError, TypeError, AttributeError) as exc:
+        return {"status": "BLOCKED", "reason": "INVALID_PROVISIONAL_OBSERVATION",
+                "detail": str(exc), "application_authorized": False}
+    correction = contract.correction(review["review_artifacts"], dependencies.keys())
+    return {"status": "PROVISIONAL_REVIEW_ONLY",
+            "affected": sorted(correction["reopen"]),
+            "preserved": sorted(correction["preserve"]),
+            "delta": review,
+            "steward_acknowledged": False,
+            "application_authorized": False}
