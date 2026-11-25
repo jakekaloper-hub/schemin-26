@@ -5,6 +5,9 @@
 
 ## Resume existing issue before new planning
 
+**Week 12 provisional continuation (Nov 25, draft PR #313):** [Week 12 intake and conditional story-room prompts](week-12/_INDEX.md) · [historical publication inventory and portable Staff evidence](week-12/W12_RETROSPECTIVE_INTAKE_EVIDENCE_2026-11-25.json). Outcome-independent development may proceed; existing Steward assignment, Fact Lock, canon and release gates remain binding. Week 11 closure and historical publication provenance remain unresolved; do not restart either issue or silently promote a publication. This is a draft-branch continuation pointer, not a main or release promotion.
+
+
 Load the current issue index, its Founder context, latest actual artifact and next uncompleted step. For Week9 use [week-9/_INDEX.md](week-9/_INDEX.md) and [thread continuity](week-9/THREAD_CONTINUITY.md). Preserve questionnaire answers, delegation and supersession history; this is the existing Commissioner Context Pass.
 
 ## Load order
