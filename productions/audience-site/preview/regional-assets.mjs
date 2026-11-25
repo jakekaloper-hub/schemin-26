@@ -308,7 +308,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
           float contactBand=smoothstep(.86,.97,islandRadius)
             *(1.-smoothstep(1.04,1.22,islandRadius));
           float lapPhase=islandRadius*24.-uTime*1.85+atan(delta.y,delta.x)*2.;
-          islandLap=max(islandLap,contactBand*pow(max(sin(lapPhase),0.),4.));
+          // Local phase derivative avoids an artificial footprint spike across
+          // the atan branch cut. Only the existing optical crest is filtered.
+          vec2 lapGradient=24.*delta/max(islandRadius,.00001)
+            +2.*vec2(-delta.y,delta.x)/max(dot(delta,delta),.00001);
+          float lapFootprint=abs(dot(lapGradient,dFdx(delta)))
+            +abs(dot(lapGradient,dFdy(delta)));
+          islandLap=max(islandLap,contactBand*pow(max(sin(lapPhase),0.),4.)
+            *(1.-smoothstep(.35,1.15,lapFootprint)));
         }
       }
       vec3 islandSheen=vec3(.095,.13,.10)*(islandLap*.30*bankFade);
