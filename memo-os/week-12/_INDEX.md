@@ -49,3 +49,6 @@ The six existing matchups now have explicit championship-pressure action treatme
 
 ## Founder-selected narrative continuity enhancements
 [Novel/Memo continuity overlay](W12_NOVEL_MEMO_CONTINUITY_OVERLAY_2026-11-25.md) · [132 owner-week chronology](W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json) · [high-stakes auditions](W12_HIGH_STAKES_STORYROOM_ESCALATION_2026-11-25.md). Ten Founder-selected enhancements govern the next provisional editorial review; existing 34-folio sequence remains a candidate. Use twelve-owner POV law, historical identity firewall, six rivalry workshops and W12–14 conditional open loops. No Story Lock, canon promotion, final outcome or rendering. Next: three distinct auditions per matchup, source-grounded challenge and independent acceptance.
+
+## Eighteen-concept audition and Founder interview
+[18 cinematic auditions](W12_INKLINGS_18_CINEMATIC_AUDITIONS_2026-11-25.md) — three distinct concepts per pairing, 36 conditional outcome directions, existing 34 folio slots preserved. Next gate: Founder interview, one pairing at a time covering all 12 characters, then revise and select. Recommendations are not approvals. No rendering, canon promotion, or independent specialist acceptance claimed.
