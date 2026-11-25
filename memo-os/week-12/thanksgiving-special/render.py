@@ -102,6 +102,7 @@ def main():
         single(d,"W4 WINNER: "+m["winner_name"],x,y+180,1110,48,42,color=GOLD)
         single(d,m["week4_score"],x,y+245,1110,90,70)
         wrap(d,e["caption"],x,y+350,1110,2,55)
+    single(d,f2["closing"],70,3560,2020,56,46,kind="body",color=GOLD)
     footer(d,"F02","Week 4 final scores • Week 12 results undecided • ESPN")
     output.append((f2,im))
     out=ROOT/"candidate";out.mkdir(exist_ok=True)
