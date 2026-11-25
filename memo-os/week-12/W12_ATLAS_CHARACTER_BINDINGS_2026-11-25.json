@@ -1,0 +1,232 @@
+{
+  "scope": "Provisional source-bound semantic location/character intake; not adapter execution or approval",
+  "issue_id": "memo.2026.week-12",
+  "lineup_blob": "d445249cfd2a52bd1da83a1795cf73bcae220dbc",
+  "world_state_blob": "8705635c49d6bf7130ddd859c2d25c187b93b2a7",
+  "bindings": [
+    {
+      "matchup_id": "W12-H05-A01",
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+      "physical_zone": "REG-UPPER-VALLEYS",
+      "division_overlay": "DIV-BURGERS",
+      "card_blob": "e7ef9fef04d750ddc02c59be924f14bee9e40ec0",
+      "canon_status": "INTERPRETIVE_CANON",
+      "route_context": [
+        "ROUTE-DK-HIGHLAND-LINK"
+      ],
+      "landmarks": [
+        "highland stronghold",
+        "training court",
+        "road approach"
+      ],
+      "characters": [
+        {
+          "id": "CHAR-WILSON-LOOK",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+          "manifest": "canon/characters/CHAR-WILSON-LOOK/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-DK-HIGHLAND-STRONGHOLD"
+        },
+        {
+          "id": "CHAR-JAKE-KALOPER",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8",
+          "manifest": "canon/characters/CHAR-JAKE-KALOPER/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-TRADE-JEDI-MOUNTAIN-BASE"
+        }
+      ],
+      "encounter_status": "CANDIDATE_HOLD",
+      "world_state_status": "STALE_BASELINE_END_WEEK_3; W11 deltas not promoted",
+      "render_status": "HOLD_SOURCE_BYTES_PROVIDER_BINDING_QA"
+    },
+    {
+      "matchup_id": "W12-H10-A06",
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+      "physical_zone": "REG-SOUTHERN-WETLANDS",
+      "division_overlay": "DIV-BURGERS",
+      "card_blob": "15e0afc80661e7796f333f3640cca56dbd941ed6",
+      "canon_status": "PERMANENT_CANON",
+      "route_context": [
+        "ROUTE-DELTA-CAUSEWAY"
+      ],
+      "landmarks": [
+        "mud channels",
+        "raised ground",
+        "Gators & Dawgs sign"
+      ],
+      "characters": [
+        {
+          "id": "CHAR-BOBBY-MITCHELL",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736",
+          "manifest": "canon/characters/CHAR-BOBBY-MITCHELL/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-MUD-DOGS-SWAMP"
+        },
+        {
+          "id": "CHAR-PHILLIP-PITTS",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65",
+          "manifest": "canon/characters/CHAR-PHILLIP-PITTS/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-TDS-WATERFALL-TEMPLE"
+        }
+      ],
+      "encounter_status": "CANDIDATE_HOLD",
+      "world_state_status": "STALE_BASELINE_END_WEEK_3; W11 deltas not promoted",
+      "render_status": "HOLD_SOURCE_BYTES_PROVIDER_BINDING_QA"
+    },
+    {
+      "matchup_id": "W12-H02-A12",
+      "location_id": "LOC-RED-RUINS",
+      "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+      "physical_zone": "REG-EASTERN-STORM-COAST",
+      "division_overlay": "DIV-WINGS",
+      "card_blob": "21c1463b44d18fdd6ea7f1d9ceeecfd5d63a4bd8",
+      "canon_status": "PERMANENT_CANON",
+      "route_context": [
+        "ROUTE-RAIN-ESCARPMENT"
+      ],
+      "landmarks": [
+        "jungle ruins",
+        "predator banners"
+      ],
+      "characters": [
+        {
+          "id": "CHAR-KEVIN-ZEEK",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b",
+          "manifest": "canon/characters/CHAR-KEVIN-ZEEK/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-RED-RUINS"
+        },
+        {
+          "id": "CHAR-ZACH-WILSON",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a",
+          "manifest": "canon/characters/CHAR-ZACH-WILSON/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-COUNTRY-CLUB-JACKSON"
+        }
+      ],
+      "encounter_status": "CANDIDATE_HOLD",
+      "world_state_status": "STALE_BASELINE_END_WEEK_3; W11 deltas not promoted",
+      "render_status": "HOLD_SOURCE_BYTES_PROVIDER_BINDING_QA"
+    },
+    {
+      "matchup_id": "W12-H03-A07",
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+      "physical_zone": "REG-UPPER-VALLEYS",
+      "division_overlay": "DIV-WINGS",
+      "card_blob": "21708d9e6342a8c84fb96f613c6af6bfc65d3a16",
+      "canon_status": "PROVISIONAL_CANON",
+      "route_context": [
+        "ROUTE-HEARTHROAD"
+      ],
+      "landmarks": [
+        "tailgate yard",
+        "rough training ground",
+        "Hearthroad rut"
+      ],
+      "characters": [
+        {
+          "id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515",
+          "manifest": "canon/characters/CHAR-JORDAN-HOLLINGSHEAD/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-SLOB-FOOTHILL-CAMP"
+        },
+        {
+          "id": "CHAR-BRANDON-PRYOR",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e",
+          "manifest": "canon/characters/CHAR-BRANDON-PRYOR/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-CHILI-STABLE"
+        }
+      ],
+      "encounter_status": "CANDIDATE_HOLD",
+      "world_state_status": "STALE_BASELINE_END_WEEK_3; W11 deltas not promoted",
+      "render_status": "HOLD_SOURCE_BYTES_PROVIDER_BINDING_QA"
+    },
+    {
+      "matchup_id": "W12-H04-A08",
+      "location_id": "LOC-LLC-BOARDROOM",
+      "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+      "physical_zone": "REG-INNER-SEA-LITTORAL",
+      "division_overlay": "DIV-PIZZA",
+      "card_blob": "1676f9bad4edff97d69c7e4c699fd1ccef2591d7",
+      "canon_status": "PERMANENT_CANON",
+      "route_context": [
+        "ROUTE-INNER-SEA-QUAY"
+      ],
+      "landmarks": [
+        "executive chamber",
+        "ledgers",
+        "market overlook"
+      ],
+      "characters": [
+        {
+          "id": "CHAR-DAVID-BABB",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340",
+          "manifest": "canon/characters/CHAR-DAVID-BABB/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-LLC-BOARDROOM"
+        },
+        {
+          "id": "CHAR-AUSTIN-BYARS",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3",
+          "manifest": "canon/characters/CHAR-AUSTIN-BYARS/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-BELT-KEEPER-KEEP"
+        }
+      ],
+      "encounter_status": "CANDIDATE_HOLD",
+      "world_state_status": "STALE_BASELINE_END_WEEK_3; W11 deltas not promoted",
+      "render_status": "HOLD_SOURCE_BYTES_PROVIDER_BINDING_QA"
+    },
+    {
+      "matchup_id": "W12-H09-A11",
+      "location_id": "LOC-STORM-BOWL",
+      "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+      "physical_zone": "REG-EASTERN-STORM-COAST",
+      "division_overlay": "DIV-PIZZA",
+      "card_blob": "9f7c586b59e558ebcb68de45dd46a8faa125086c",
+      "canon_status": "PROVISIONAL_CANON",
+      "route_context": [
+        "ROUTE-STORM-COAST"
+      ],
+      "landmarks": [
+        "weather-exposed venue",
+        "service counter"
+      ],
+      "characters": [
+        {
+          "id": "CHAR-MANNING-WELTY",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04",
+          "manifest": "canon/characters/CHAR-MANNING-WELTY/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-STORM-BOWL"
+        },
+        {
+          "id": "CHAR-BEN-WHIPPLE",
+          "crop": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f",
+          "manifest": "canon/characters/CHAR-BEN-WHIPPLE/REFERENCE_MANIFEST.yaml",
+          "home": "LOC-CHINS-ROAD-COMMONS"
+        }
+      ],
+      "encounter_status": "CANDIDATE_HOLD",
+      "world_state_status": "STALE_BASELINE_END_WEEK_3; W11 deltas not promoted",
+      "render_status": "HOLD_SOURCE_BYTES_PROVIDER_BINDING_QA"
+    }
+  ],
+  "validation": {
+    "six_registered_cards": true,
+    "six_existing_local_handles": true,
+    "twelve_distinct_character_ids": true,
+    "home_owners_match": true,
+    "route_approval": false,
+    "world_state_lock": false,
+    "reference_bytes_verified": false,
+    "render_authorized": false
+  }
+}
