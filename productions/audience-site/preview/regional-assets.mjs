@@ -336,6 +336,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float bankAngle=atan(vUv.y-.5,vUv.x-.5);
       float bankWobble=sin(bankAngle*9.+uTime*.31)*.009
                      +sin(bankAngle*17.-uTime*.20)*.006;
+      // Fade only unresolved contact glints; the signed distance avoids an abs() cusp.
+      float bankDistance=bankRadius-(.90+bankWobble);
+      float bankOpticalGain=1.-smoothstep(.35,1.15,fwidth(bankDistance/.022));
       float bankCrest=1.-smoothstep(.0,.022,abs(bankRadius-(.90+bankWobble)));
       float bankBreakup=.45+.55*(.5+.5*sin(bankAngle*13.+uTime*.63));
       float bankMask=smoothstep(.73,.84,bankRadius)
@@ -346,7 +349,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       // A shallow, bounded shadow-tone variation from EXISTING tree positions.
       // Keep the old water footprint and root-wake/perimeter masks unchanged.
       contactTint*=1.-.072*canopyShade*bankFade;
-      vec3 contactLight=vec3(.09,.12,.073)*bankCrest*bankBreakup*bankMask*uBankContact;
+      vec3 contactLight=vec3(.09,.12,.073)*bankCrest*bankOpticalGain*bankBreakup*bankMask*uBankContact;
       // Illustrative surface reflectance grows at grazing view angles.
       // Camera-facing tint affects only the EXISTING wetland material branch;
       // no water boundary, current, clock input, or lighting authority changes.
