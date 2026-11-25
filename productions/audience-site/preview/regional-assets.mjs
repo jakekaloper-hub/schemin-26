@@ -15,7 +15,38 @@ export function buildRegionalAssets(THREE, bindings, height) {
   const rock=(g,x,y,z,sx,sy,sz,m=stone)=>{const o=mesh(g,new THREE.IcosahedronGeometry(1,2),m,x,y,z);o.scale.set(sx,sy,sz);o.rotation.set(.19+x*.07,z*.16,.1);return o;};
   const branch=(g,a,b,r,m=trunk)=>{const av=new THREE.Vector3(...a),bv=new THREE.Vector3(...b),v=bv.clone().sub(av);const o=mesh(g,new THREE.CylinderGeometry(r*.62,r,v.length(),7),m,...av.clone().add(bv).multiplyScalar(.5).toArray());o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),v.normalize());return o;};
   function canopy(g,x,y,z,scale=1,tint=leaf){
-    cyl(g,x,y,z,.15*scale,.30*scale,2.5*scale,trunk,7);
+    // Preserve the original tapered trunk and branch attachments; add only
+    // illustrative bark relief inside its radius, with both end rings held.
+    const h=2.5*scale,geo=new THREE.CylinderGeometry(.15*scale,.30*scale,h,24,12);
+    const pos=geo.getAttribute('position'),colors=[],seed=x*.71+z*.43;
+    for(let k=0;k<pos.count;k++){
+      const px=pos.getX(k),py=pos.getY(k),pz=pos.getZ(k),r=Math.hypot(px,pz);
+      const t=Math.max(0,Math.min(1,py/h+.5)),angle=r>1e-6?Math.atan2(pz,px):0;
+      const flute=.5+.5*Math.cos(angle*7+seed+.45*Math.sin(t*7));
+      const grain=.5+.5*Math.sin(angle*11-seed+t*17);
+      const hold=Math.sin(Math.PI*t)**2;
+      const inset=(.125*flute**2+.035*grain)*hold;
+      pos.setXYZ(k,px*(1-inset),py,pz*(1-inset));
+      const tone=.60+.26*(1-flute)+.10*grain;
+      colors.push(tone,tone*.94,tone*.85+.06);
+    }
+    pos.needsUpdate=true;geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
+    geo.computeVertexNormals();geo.computeBoundingSphere();
+    // Weld the normal at the duplicated UV seam on the side wall only.
+    const normals=geo.getAttribute('normal');
+    for(let row=0;row<=12;row++){
+      const a=row*25,b=a+24;
+      const n=new THREE.Vector3().fromBufferAttribute(normals,a)
+        .add(new THREE.Vector3().fromBufferAttribute(normals,b)).normalize();
+      normals.setXYZ(a,n.x,n.y,n.z);normals.setXYZ(b,n.x,n.y,n.z);
+    }
+    normals.needsUpdate=true;
+    if(!materials.has('temple-bark')){const m=trunk.clone();m.vertexColors=true;materials.set('temple-bark',m);}
+    const stem=mesh(g,geo,materials.get('temple-bark'),x,y+h/2,z);
+    geo.name='Candidate Temple recessed bark trunk';stem.name=geo.name;
+    stem.userData={templeCanopyPart:'trunk',sourceLandmark:'dense vegetation',
+      visualAuthority:'CANDIDATE_NOT_APPROVED',originalRadiusEnvelopePreserved:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
     // Temple-only dense vegetation: retain the three original crown lobes per
     // stand, sculpting irregular leaf clusters within their original envelopes.
     for(let j=0;j<3;j++){
