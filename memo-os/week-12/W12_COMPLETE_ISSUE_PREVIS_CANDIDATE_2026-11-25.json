@@ -1,0 +1,2024 @@
+{
+  "issue_id": "memo.2026.week-12",
+  "status": "COMPLETE_ISSUE_PREVIS_CANDIDATE_NOT_CONTRACTED",
+  "authority": "V5.5 / native PNG contract; proposed editorial page count, no Founder approval",
+  "manuscript": "W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
+  "bindings": "W12_ATLAS_CHARACTER_BINDINGS_2026-11-25.json",
+  "design_shell": {
+    "theme": "Thanksgiving",
+    "editorial_thesis": "Temporary hospitality; divisional competition resumes",
+    "palette": "warm hearth amber against location-specific daylight and coastal storm tones; no uniform autumn biome",
+    "typography": "deterministically composited factual text; high contrast, protected margins",
+    "format": "1080x1920 PNG",
+    "rhythm": "alternate information, environment, dialogue, reaction; no repeated banquet compositions"
+  },
+  "page_count": 34,
+  "hold": [
+    "Story Lock",
+    "Fact Lock",
+    "venue/world state",
+    "character packet/provider source attachment",
+    "exact copy",
+    "independent QA"
+  ],
+  "pages": [
+    {
+      "page_id": "W12-P01",
+      "page_role": "cover",
+      "title": "Cover",
+      "narrative_job": "Issue thesis candidate: The Table Is Set; no winner on cover before selection",
+      "lead_discipline": "unit stills",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [],
+      "copy_budget_words": 65,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [],
+      "adjacent_pages": {
+        "previous": null,
+        "next": "W12-P02"
+      }
+    },
+    {
+      "page_id": "W12-P02",
+      "page_role": "opening",
+      "title": "Opening Drive",
+      "narrative_job": "Divisional return and the difference between hospitality and competition",
+      "lead_discipline": "production design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [],
+      "copy_budget_words": 65,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [],
+      "adjacent_pages": {
+        "previous": "W12-P01",
+        "next": "W12-P03"
+      }
+    },
+    {
+      "page_id": "W12-P03",
+      "page_role": "editorial",
+      "title": "Commissioner's note",
+      "narrative_job": "Founder copy pending; no fabricated quotation",
+      "lead_discipline": "performance",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [],
+      "copy_budget_words": 110,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [],
+      "adjacent_pages": {
+        "previous": "W12-P02",
+        "next": "W12-P04"
+      }
+    },
+    {
+      "page_id": "W12-P04",
+      "page_role": "scoreboard",
+      "title": "Six results",
+      "narrative_job": "Final scores/winners only after Fact Lock",
+      "lead_discipline": "VFX pipeline",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS",
+        "POSTWEEK_STANDINGS"
+      ],
+      "copy_budget_words": 65,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P03",
+        "next": "W12-P05"
+      }
+    },
+    {
+      "page_id": "W12-P05",
+      "page_role": "rankings-a",
+      "title": "Power Rankings 1–6",
+      "narrative_job": "Editorial rankings and prior movement, six rows",
+      "lead_discipline": "color finishing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS",
+        "POSTWEEK_STANDINGS"
+      ],
+      "copy_budget_words": 65,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P04",
+        "next": "W12-P06"
+      }
+    },
+    {
+      "page_id": "W12-P06",
+      "page_role": "rankings-b",
+      "title": "Power Rankings 7–12",
+      "narrative_job": "Remaining six rows and movement",
+      "lead_discipline": "color finishing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS",
+        "POSTWEEK_STANDINGS"
+      ],
+      "copy_budget_words": 65,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P05",
+        "next": "W12-P07"
+      }
+    },
+    {
+      "page_id": "W12-P07",
+      "page_role": "boundary",
+      "title": "Seven places",
+      "narrative_job": "Playoff field rules and verified boundary; forecasts gated",
+      "lead_discipline": "production design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS",
+        "POSTWEEK_STANDINGS"
+      ],
+      "copy_budget_words": 65,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P06",
+        "next": "W12-P08"
+      }
+    },
+    {
+      "page_id": "W12-P08",
+      "page_role": "geography",
+      "title": "Roads and gathering places",
+      "narrative_job": "Distinct candidate Atlas locations; no invented connecting itinerary",
+      "lead_discipline": "environment design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [],
+      "copy_budget_words": 65,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "editorial portrait; deliberate safe zones; no character by default",
+      "mobile_risk": "exact text and labels",
+      "deterministic_data_fields": [],
+      "adjacent_pages": {
+        "previous": "W12-P07",
+        "next": "W12-P09"
+      }
+    },
+    {
+      "page_id": "W12-P09",
+      "page_role": "matchup_setup",
+      "title": "The Place at the Head — Arrival",
+      "narrative_job": "Neither rival has forgotten Week 11; the contest is ahead.",
+      "lead_discipline": "environment design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H05-A01",
+      "chapter_beat": "Arrival",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-WILSON-LOOK",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+        },
+        {
+          "id": "CHAR-JAKE-KALOPER",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Wide low-angle road approach; stronghold establishes scale",
+      "foreground": "hoof marks and road edge",
+      "midground": "Wilson's four-legged silhouette and arriving hooded ObiWan",
+      "background": "layered highland ridges",
+      "image_tells": "Wide low-angle road approach; stronghold establishes scale",
+      "prose_tells": "Neither rival has forgotten Week 11; the contest is ahead.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P08",
+        "next": "W12-P10"
+      }
+    },
+    {
+      "page_id": "W12-P10",
+      "page_role": "matchup_setup",
+      "title": "The Place at the Head — The challenge",
+      "narrative_job": "I didn't come to talk about last week. / Then give me something else to remember.",
+      "lead_discipline": "performance",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H05-A01",
+      "chapter_beat": "The challenge",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-WILSON-LOOK",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+        },
+        {
+          "id": "CHAR-JAKE-KALOPER",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Medium opposing eyelines, uncluttered silhouette",
+      "foreground": "training court stone",
+      "midground": "two rivals; clipped lightsaber and four-hoof stance",
+      "background": "stronghold wall",
+      "image_tells": "Medium opposing eyelines, uncluttered silhouette",
+      "prose_tells": "I didn't come to talk about last week. / Then give me something else to remember.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P09",
+        "next": "W12-P11"
+      }
+    },
+    {
+      "page_id": "W12-P11",
+      "page_role": "matchup_payoff",
+      "title": "The Place at the Head — The answer",
+      "narrative_job": "Insert selected manuscript ending only after evidence review.",
+      "lead_discipline": "editing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H05-A01",
+      "chapter_beat": "The answer",
+      "fact_dependencies": [
+        "W12-H05-A01"
+      ],
+      "characters_present": [
+        "CHAR-WILSON-LOOK",
+        "CHAR-JAKE-KALOPER"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-WILSON-LOOK",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+          "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+        },
+        {
+          "id": "CHAR-JAKE-KALOPER",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+          "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Conditional reaction and departure, not a replay of the bridge",
+      "foreground": "open road",
+      "midground": "result-selected reaction",
+      "background": "court and ridge",
+      "image_tells": "Conditional reaction and departure, not a replay of the bridge",
+      "prose_tells": "Insert selected manuscript ending only after evidence review.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "conditional pending verified result and canon gate",
+      "deterministic_data_fields": [
+        "home_score",
+        "away_score",
+        "winner"
+      ],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P10",
+        "next": "W12-P12"
+      }
+    },
+    {
+      "page_id": "W12-P12",
+      "page_role": "matchup_setup",
+      "title": "The Dry Way Through — The bank",
+      "narrative_job": "Last week's wrong turn still matters.",
+      "lead_discipline": "environment design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H10-A06",
+      "chapter_beat": "The bank",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-BOBBY-MITCHELL",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736"
+        },
+        {
+          "id": "CHAR-PHILLIP-PITTS",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground",
+          "Gators & Dawgs sign"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Low oblique wide over mud channels",
+      "foreground": "raised ground and water edge",
+      "midground": "Bobby at the bank, Phillip arriving",
+      "background": "wetland vegetation",
+      "image_tells": "Low oblique wide over mud channels",
+      "prose_tells": "Last week's wrong turn still matters.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P11",
+        "next": "W12-P13"
+      }
+    },
+    {
+      "page_id": "W12-P13",
+      "page_role": "matchup_setup",
+      "title": "The Dry Way Through — The question",
+      "narrative_job": "Do you give everyone directions? / Only when they ask.",
+      "lead_discipline": "performance",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H10-A06",
+      "chapter_beat": "The question",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-BOBBY-MITCHELL",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736"
+        },
+        {
+          "id": "CHAR-PHILLIP-PITTS",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground",
+          "Gators & Dawgs sign"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Medium side profile with all three heads attached to one body",
+      "foreground": "mud texture",
+      "midground": "Bobby and Phillip facing same terrain",
+      "background": "registered sign if visible",
+      "image_tells": "Medium side profile with all three heads attached to one body",
+      "prose_tells": "Do you give everyone directions? / Only when they ask.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P12",
+        "next": "W12-P14"
+      }
+    },
+    {
+      "page_id": "W12-P14",
+      "page_role": "matchup_payoff",
+      "title": "The Dry Way Through — The choice",
+      "narrative_job": "No new route, flood or permanent change.",
+      "lead_discipline": "editing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H10-A06",
+      "chapter_beat": "The choice",
+      "fact_dependencies": [
+        "W12-H10-A06"
+      ],
+      "characters_present": [
+        "CHAR-BOBBY-MITCHELL",
+        "CHAR-PHILLIP-PITTS"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-BOBBY-MITCHELL",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+          "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736"
+        },
+        {
+          "id": "CHAR-PHILLIP-PITTS",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+          "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground",
+          "Gators & Dawgs sign"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Conditional eyeline reversal across visible terrain",
+      "foreground": "bank edge",
+      "midground": "winner-dependent reaction",
+      "background": "mud channels",
+      "image_tells": "Conditional eyeline reversal across visible terrain",
+      "prose_tells": "No new route, flood or permanent change.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "conditional pending verified result and canon gate",
+      "deterministic_data_fields": [
+        "home_score",
+        "away_score",
+        "winner"
+      ],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P13",
+        "next": "W12-P15"
+      }
+    },
+    {
+      "page_id": "W12-P15",
+      "page_role": "matchup_setup",
+      "title": "The Visitor Without an Offer — The ruins",
+      "narrative_job": "At Jackson, two sheets changed an office. Here, the stones do not care.",
+      "lead_discipline": "environment design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H02-A12",
+      "chapter_beat": "The ruins",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-KEVIN-ZEEK",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b"
+        },
+        {
+          "id": "CHAR-ZACH-WILSON",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Wide ruin-height establishing shot",
+      "foreground": "weathered stone",
+      "midground": "Kevin holds position; Duckhook approaches",
+      "background": "forest ruins and banners",
+      "image_tells": "Wide ruin-height establishing shot",
+      "prose_tells": "At Jackson, two sheets changed an office. Here, the stones do not care.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P14",
+        "next": "W12-P16"
+      }
+    },
+    {
+      "page_id": "W12-P16",
+      "page_role": "matchup_setup",
+      "title": "The Visitor Without an Offer — Empty hands",
+      "narrative_job": "Nothing to sign? / Not today.",
+      "lead_discipline": "performance",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H02-A12",
+      "chapter_beat": "Empty hands",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-KEVIN-ZEEK",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b"
+        },
+        {
+          "id": "CHAR-ZACH-WILSON",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Controlled medium two-shot",
+      "foreground": "empty hands visible",
+      "midground": "Kevin and Duckhook",
+      "background": "predator banner",
+      "image_tells": "Controlled medium two-shot",
+      "prose_tells": "Nothing to sign? / Not today.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P15",
+        "next": "W12-P17"
+      }
+    },
+    {
+      "page_id": "W12-P17",
+      "page_role": "matchup_payoff",
+      "title": "The Visitor Without an Offer — The ground",
+      "narrative_job": "Sporting result cannot change property or corporate ownership.",
+      "lead_discipline": "editing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H02-A12",
+      "chapter_beat": "The ground",
+      "fact_dependencies": [
+        "W12-H02-A12"
+      ],
+      "characters_present": [
+        "CHAR-KEVIN-ZEEK",
+        "CHAR-ZACH-WILSON"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-KEVIN-ZEEK",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+          "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b"
+        },
+        {
+          "id": "CHAR-ZACH-WILSON",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+          "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Conditional reaction framed by existing ruin masonry",
+      "foreground": "stone threshold",
+      "midground": "result-selected winner/loser reaction",
+      "background": "forest approach",
+      "image_tells": "Conditional reaction framed by existing ruin masonry",
+      "prose_tells": "Sporting result cannot change property or corporate ownership.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "conditional pending verified result and canon gate",
+      "deterministic_data_fields": [
+        "home_score",
+        "away_score",
+        "winner"
+      ],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P16",
+        "next": "W12-P18"
+      }
+    },
+    {
+      "page_id": "W12-P18",
+      "page_role": "matchup_setup",
+      "title": "What Was Delivered — The yard",
+      "narrative_job": "A promise and a delivery are not the same thing.",
+      "lead_discipline": "environment design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H03-A07",
+      "chapter_beat": "The yard",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515"
+        },
+        {
+          "id": "CHAR-BRANDON-PRYOR",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground",
+          "Hearthroad rut"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Wide practical yard, secured cargo only if source confirmed",
+      "foreground": "secured straps",
+      "midground": "Jordan prepares",
+      "background": "tailgate yard and foothills",
+      "image_tells": "Wide practical yard, secured cargo only if source confirmed",
+      "prose_tells": "A promise and a delivery are not the same thing.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P17",
+        "next": "W12-P19"
+      }
+    },
+    {
+      "page_id": "W12-P19",
+      "page_role": "matchup_setup",
+      "title": "What Was Delivered — The guest",
+      "narrative_job": "You're early. / I figured I'd give you a chance to catch up.",
+      "lead_discipline": "performance",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H03-A07",
+      "chapter_beat": "The guest",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515"
+        },
+        {
+          "id": "CHAR-BRANDON-PRYOR",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground",
+          "Hearthroad rut"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Medium conversational shot",
+      "foreground": "strap and cooking props if accepted",
+      "midground": "Brandon arrives; Jordan checks cargo",
+      "background": "yard shelter",
+      "image_tells": "Medium conversational shot",
+      "prose_tells": "You're early. / I figured I'd give you a chance to catch up.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P18",
+        "next": "W12-P20"
+      }
+    },
+    {
+      "page_id": "W12-P20",
+      "page_role": "matchup_payoff",
+      "title": "What Was Delivered — The host",
+      "narrative_job": "No new cargo incident or repeat dunk tank.",
+      "lead_discipline": "editing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H03-A07",
+      "chapter_beat": "The host",
+      "fact_dependencies": [
+        "W12-H03-A07"
+      ],
+      "characters_present": [
+        "CHAR-JORDAN-HOLLINGSHEAD",
+        "CHAR-BRANDON-PRYOR"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+          "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515"
+        },
+        {
+          "id": "CHAR-BRANDON-PRYOR",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+          "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground",
+          "Hearthroad rut"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Conditional close reaction, hospitality continues",
+      "foreground": "table edge if approved",
+      "midground": "result-selected reaction",
+      "background": "yard",
+      "image_tells": "Conditional close reaction, hospitality continues",
+      "prose_tells": "No new cargo incident or repeat dunk tank.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "conditional pending verified result and canon gate",
+      "deterministic_data_fields": [
+        "home_score",
+        "away_score",
+        "winner"
+      ],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P19",
+        "next": "W12-P21"
+      }
+    },
+    {
+      "page_id": "W12-P21",
+      "page_role": "matchup_setup",
+      "title": "The Name on the Door — The chamber",
+      "narrative_job": "Last week's corporate loss does not remove Babb from league play.",
+      "lead_discipline": "environment design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H04-A08",
+      "chapter_beat": "The chamber",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-DAVID-BABB",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340"
+        },
+        {
+          "id": "CHAR-AUSTIN-BYARS",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-LLC-BOARDROOM",
+        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "executive chamber",
+          "ledgers",
+          "market overlook"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Restrained wide symmetrical office frame",
+      "foreground": "ledger edge",
+      "midground": "Babb and hooded Austin",
+      "background": "executive chamber",
+      "image_tells": "Restrained wide symmetrical office frame",
+      "prose_tells": "Last week's corporate loss does not remove Babb from league play.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P20",
+        "next": "W12-P22"
+      }
+    },
+    {
+      "page_id": "W12-P22",
+      "page_role": "matchup_setup",
+      "title": "The Name on the Door — Not a meeting",
+      "narrative_job": "This isn't a board meeting. / Good.",
+      "lead_discipline": "performance",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H04-A08",
+      "chapter_beat": "Not a meeting",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-DAVID-BABB",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340"
+        },
+        {
+          "id": "CHAR-AUSTIN-BYARS",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-LLC-BOARDROOM",
+        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "executive chamber",
+          "ledgers",
+          "market overlook"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Medium opposition, chair and belt distinguish status",
+      "foreground": "empty chair",
+      "midground": "Babb and Austin with red eyes, closed hood",
+      "background": "market-facing room if confirmed",
+      "image_tells": "Medium opposition, chair and belt distinguish status",
+      "prose_tells": "This isn't a board meeting. / Good.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P21",
+        "next": "W12-P23"
+      }
+    },
+    {
+      "page_id": "W12-P23",
+      "page_role": "matchup_payoff",
+      "title": "The Name on the Door — The departure",
+      "narrative_job": "No corporate reversal or ownership transfer.",
+      "lead_discipline": "editing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H04-A08",
+      "chapter_beat": "The departure",
+      "fact_dependencies": [
+        "W12-H04-A08"
+      ],
+      "characters_present": [
+        "CHAR-DAVID-BABB",
+        "CHAR-AUSTIN-BYARS"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-DAVID-BABB",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+          "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340"
+        },
+        {
+          "id": "CHAR-AUSTIN-BYARS",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+          "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-LLC-BOARDROOM",
+        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "executive chamber",
+          "ledgers",
+          "market overlook"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Conditional quiet aftermath, no document transfer",
+      "foreground": "chair",
+      "midground": "result-selected reaction",
+      "background": "door and chamber",
+      "image_tells": "Conditional quiet aftermath, no document transfer",
+      "prose_tells": "No corporate reversal or ownership transfer.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "conditional pending verified result and canon gate",
+      "deterministic_data_fields": [
+        "home_score",
+        "away_score",
+        "winner"
+      ],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P22",
+        "next": "W12-P24"
+      }
+    },
+    {
+      "page_id": "W12-P24",
+      "page_role": "matchup_setup",
+      "title": "A Seat Near the Door — The threshold",
+      "narrative_job": "Ben wants to see the door before trusting the weather.",
+      "lead_discipline": "environment design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H09-A11",
+      "chapter_beat": "The threshold",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-MANNING-WELTY",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04"
+        },
+        {
+          "id": "CHAR-BEN-WHIPPLE",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-STORM-BOWL",
+        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "weather-exposed venue",
+          "service counter"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Wide exposed venue, shelter versus weather",
+      "foreground": "threshold",
+      "midground": "Ben arriving; Manning representation pending",
+      "background": "storm coast",
+      "image_tells": "Wide exposed venue, shelter versus weather",
+      "prose_tells": "Ben wants to see the door before trusting the weather.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P23",
+        "next": "W12-P25"
+      }
+    },
+    {
+      "page_id": "W12-P25",
+      "page_role": "matchup_setup",
+      "title": "A Seat Near the Door — The invitation",
+      "narrative_job": "You can come in. / That's not the part I'm worried about.",
+      "lead_discipline": "performance",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H09-A11",
+      "chapter_beat": "The invitation",
+      "fact_dependencies": [],
+      "characters_present": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-MANNING-WELTY",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04"
+        },
+        {
+          "id": "CHAR-BEN-WHIPPLE",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-STORM-BOWL",
+        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "weather-exposed venue",
+          "service counter"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Medium atmospheric encounter, embodiment mode gated",
+      "foreground": "door edge",
+      "midground": "Ben and accepted Manning presentation",
+      "background": "exposed venue",
+      "image_tells": "Medium atmospheric encounter, embodiment mode gated",
+      "prose_tells": "You can come in. / That's not the part I'm worried about.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "shared setup; no winner asserted",
+      "deterministic_data_fields": [],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P24",
+        "next": "W12-P26"
+      }
+    },
+    {
+      "page_id": "W12-P26",
+      "page_role": "matchup_payoff",
+      "title": "A Seat Near the Door — Seven places",
+      "narrative_job": "Do not infer clinch, elimination, or Island journey.",
+      "lead_discipline": "editing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "matchup_id": "W12-H09-A11",
+      "chapter_beat": "Seven places",
+      "fact_dependencies": [
+        "W12-H09-A11"
+      ],
+      "characters_present": [
+        "CHAR-MANNING-WELTY",
+        "CHAR-BEN-WHIPPLE"
+      ],
+      "reference_assets": [
+        {
+          "id": "CHAR-MANNING-WELTY",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+          "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04"
+        },
+        {
+          "id": "CHAR-BEN-WHIPPLE",
+          "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+          "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f"
+        }
+      ],
+      "encounter": {
+        "venue_id": "LOC-STORM-BOWL",
+        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "weather-exposed venue",
+          "service counter"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD"
+      },
+      "camera_and_composition": "Conditional close reaction with open exit",
+      "foreground": "threshold",
+      "midground": "result-selected reaction",
+      "background": "weather beyond shelter",
+      "image_tells": "Conditional close reaction with open exit",
+      "prose_tells": "Do not infer clinch, elimination, or Island journey.",
+      "copy_budget_words": 85,
+      "art_text_ratio": "75:25 candidate",
+      "mobile_risk": "two distinct silhouettes; concise integrated text",
+      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
+      "continuity_out": "conditional pending verified result and canon gate",
+      "deterministic_data_fields": [
+        "home_score",
+        "away_score",
+        "winner"
+      ],
+      "forbidden_mutations": [
+        "unapproved geography",
+        "character identity drift",
+        "premature outcome",
+        "new permanent canon"
+      ],
+      "manual_approval_required": true,
+      "adjacent_pages": {
+        "previous": "W12-P25",
+        "next": "W12-P27"
+      }
+    },
+    {
+      "page_id": "W12-P27",
+      "page_role": "sports",
+      "title": "Sports Desk",
+      "narrative_job": "Verified starters, high performances and meaningful consequences",
+      "lead_discipline": "VFX pipeline",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P26",
+        "next": "W12-P28"
+      }
+    },
+    {
+      "page_id": "W12-P28",
+      "page_role": "transactions",
+      "title": "Transactions",
+      "narrative_job": "Completed vs pending moves distinguished",
+      "lead_discipline": "production design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P27",
+        "next": "W12-P29"
+      }
+    },
+    {
+      "page_id": "W12-P29",
+      "page_role": "divisions",
+      "title": "Three Divisions",
+      "narrative_job": "Four teams per division; verified records",
+      "lead_discipline": "production design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P28",
+        "next": "W12-P30"
+      }
+    },
+    {
+      "page_id": "W12-P30",
+      "page_role": "scoring",
+      "title": "Scoring Form",
+      "narrative_job": "Distinct from editorial rankings; source formula gated",
+      "lead_discipline": "VFX pipeline",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P29",
+        "next": "W12-P31"
+      }
+    },
+    {
+      "page_id": "W12-P31",
+      "page_role": "playoffs",
+      "title": "Playoff Watch",
+      "narrative_job": "No unsupported probability or elimination",
+      "lead_discipline": "production design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P30",
+        "next": "W12-P32"
+      }
+    },
+    {
+      "page_id": "W12-P32",
+      "page_role": "next",
+      "title": "Next Six",
+      "narrative_job": "Week 13 fixtures with verified home/away",
+      "lead_discipline": "production design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P31",
+        "next": "W12-P33"
+      }
+    },
+    {
+      "page_id": "W12-P33",
+      "page_role": "book",
+      "title": "Pittsy's Book",
+      "narrative_job": "Official owner-supplied ledger and verified settlement only",
+      "lead_discipline": "production design",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P32",
+        "next": "W12-P34"
+      }
+    },
+    {
+      "page_id": "W12-P34",
+      "page_role": "close",
+      "title": "Final Word",
+      "narrative_job": "Issue consequence and next-week continuity",
+      "lead_discipline": "editing",
+      "page_state": "PLANNED",
+      "output_format": "PNG",
+      "output_width_px": 1080,
+      "output_height_px": 1920,
+      "output_aspect_ratio": "9:16",
+      "render_authorized": false,
+      "required_qa": [
+        "FACT_WHERE_APPLICABLE",
+        "CHARACTER_WHERE_APPLICABLE",
+        "WORLD_WHERE_APPLICABLE",
+        "COPY",
+        "MOBILE_390PX",
+        "NATIVE_PNG",
+        "INDEPENDENT_PAGE_LOCK"
+      ],
+      "fact_dependencies": [
+        "ALL_W12_RESULTS"
+      ],
+      "copy_budget_words": 75,
+      "art_text_ratio": "candidate; data legibility controls",
+      "camera_and_composition": "portrait editorial layout; avoid repeating adjacent grammar",
+      "mobile_risk": "exact names, numbers and typography",
+      "deterministic_data_fields": [
+        "verified source fields only"
+      ],
+      "adjacent_pages": {
+        "previous": "W12-P33",
+        "next": null
+      }
+    }
+  ]
+}
