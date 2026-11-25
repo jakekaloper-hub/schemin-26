@@ -46,7 +46,9 @@ test('single-material pond underpass shade is bounded, soft, broken and isolated
   const vertex=pond.material.vertexShader,fragment=pond.material.fragmentShader;
   assert.match(fragment,/float bridgeDeckShadow=\(1\.-smoothstep\(\.14,\.27,abs\(p\.x\)\)\)/);
   assert.match(fragment,/\*\(1\.-smoothstep\(\.62,\.96,abs\(p\.y\)\)\)\*bank/);
-  assert.match(fragment,/float bridgeShadowDapple=\.90\+\.10\*\(\.5\+\.5\*sin\(p\.y\*27\.-uTime\*\.59\+p\.x\*13\.\)\)/);
+  assert.match(fragment,/float bridgeShadowPhase=p\.y\*27\.-uTime\*\.59\+p\.x\*13\.;/);
+  assert.match(fragment,/float bridgeShadowDapple=\.90\+\.10\*\(\.5\+\.5\*sin\(bridgeShadowPhase\)\)/);
+  assert.match(fragment,/bridgeShadowDapple=mix\(bridgeShadowDapple,\.95,smoothstep\(\.35,1\.15,fwidth\(bridgeShadowPhase\)\)\)/);
   assert.match(fragment,/pondTint\*=1\.-\.17\*bridgeDeckShadow\*bridgeShadowDapple/);
   assert.match(fragment,/bridgeMirrorMix/);
   assert.match(vertex,/bridgeDistA/);

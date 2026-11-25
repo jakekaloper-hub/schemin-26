@@ -461,7 +461,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       // Small broken tones follow ordinary water time, not climatic conditions.
       float bridgeDeckShadow=(1.-smoothstep(.14,.27,abs(p.x)))
         *(1.-smoothstep(.62,.96,abs(p.y)))*bank;
-      float bridgeShadowDapple=.90+.10*(.5+.5*sin(p.y*27.-uTime*.59+p.x*13.));
+      float bridgeShadowPhase=p.y*27.-uTime*.59+p.x*13.;
+      float bridgeShadowDapple=.90+.10*(.5+.5*sin(bridgeShadowPhase));
+      bridgeShadowDapple=mix(bridgeShadowDapple,.95,smoothstep(.35,1.15,fwidth(bridgeShadowPhase)));
       pondTint*=1.-.17*bridgeDeckShadow*bridgeShadowDapple;
       // Narrow broken contact light follows the same two candidate masonry
       // arch bases, with the SAME local transforms as the physical wavelets.
@@ -478,7 +480,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float bridgeCrestB=(1.-smoothstep(.08,.43,bridgeDistB))
         *pow(max(sin(bridgeWaveCoordinateB),0.),10.)
         *(1.-smoothstep(.35,1.15,fwidth(bridgeWaveCoordinateB)));
-      float bridgeBreak=.5+.5*sin(p.y*27.+uTime*.68+p.x*11.);
+      float bridgeContactPhase=p.y*27.+uTime*.68+p.x*11.;
+      float bridgeBreak=.5+.5*sin(bridgeContactPhase);
+      bridgeBreak=mix(bridgeBreak,.5,smoothstep(.35,1.15,fwidth(bridgeContactPhase)));
       float bridgeContact=clamp((bridgeCrestA+bridgeCrestB)*bridgeBreak*bank,0.,1.);
       vec3 pondBridgeLight=vec3(.042,.061,.052)*bridgeContact;
       // Broken mirror tones follow ONLY the two existing illustrated bridge faces.
@@ -488,7 +492,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float bridgeMirrorB=1.-smoothstep(.012,.089,
         abs(p.x-bridgeB.x+.012*sin(p.y*24.-uTime*.39+1.3)));
       float bridgeMirrorLength=1.-smoothstep(.38,.83,abs(p.y));
-      float bridgeMirrorBreak=.48+.52*(.5+.5*sin(p.y*42.-uTime*.84+p.x*12.));
+      float bridgeMirrorPhase=p.y*42.-uTime*.84+p.x*12.;
+      float bridgeMirrorBreak=.48+.52*(.5+.5*sin(bridgeMirrorPhase));
+      bridgeMirrorBreak=mix(bridgeMirrorBreak,.74,smoothstep(.35,1.15,fwidth(bridgeMirrorPhase)));
       float bridgeMirrorGrazing=smoothstep(.02,.5,pondGrazing);
       float bridgeMirrorMix=clamp(max(bridgeMirrorA,bridgeMirrorB)
         *bridgeMirrorLength*bridgeMirrorBreak*bridgeMirrorGrazing*bank*.17,0.,.17);
