@@ -51,7 +51,8 @@ test('Temple receiving-pool optical wake is geometrically sourced, local, with o
   '*(1.-smoothstep(.35,1.15,wakePhaseFootprint))',
   'wakeSpoke=pow(max(sin(atan(wakeUv.y,wakeUv.x)*6.+impactRadius*28.-uTime*1.64),0.),12.)',
   'wakeField=smoothstep(.20,.34,impactRadius)',
-  'wakeGlint=wakeSpoke*sqrt(wakeBreak)*wakeField',
+  'wakeAmplitude=mix(sqrt(wakeBreak),.6366197724,smoothstep(.35,1.15,fwidth(wakeBreakPhase)))',
+  'wakeGlint=wakeSpoke*wakeAmplitude*wakeField',
   'plungeTint=clamp(plungeTint+vec3(.062,.088,.074)*plungeFacet',
   'gl_FragColor=vec4(plungeTint,.88)'
  ])assert.ok(scoped.includes(x),x);

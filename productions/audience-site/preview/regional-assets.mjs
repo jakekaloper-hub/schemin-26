@@ -535,7 +535,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float impactCoordinate=impactRadius*34.-uTime*2.8+sin(vUv.x*19.+uTime*.3)*.28;
       float impactCrest=pow(max(sin(impactCoordinate),0.),9.)
         *(1.-smoothstep(.35,1.15,fwidth(impactCoordinate)));
-      float impactBreakup=.45+.55*(.5+.5*sin(vUv.x*27.-vUv.y*17.+uTime*.57));
+      float impactBreakupPhase=vUv.x*27.-vUv.y*17.+uTime*.57;
+      float impactBreakup=.45+.55*(.5+.5*sin(impactBreakupPhase));
+      // Fade only unresolved modulation to its mean, not the moving crest.
+      impactBreakup=mix(impactBreakup,.725,smoothstep(.35,1.15,fwidth(impactBreakupPhase)));
       float impactFoam=impactCrest*impactBreakup*impactField;
       vec3 plungeTint=uColor+vec3(.10,.14,.12)*(ring*.55+foam*.45)*boundary
         +vec3(.10,.15,.13)*impactFoam*boundary;
@@ -558,10 +561,13 @@ export function buildRegionalAssets(THREE, bindings, height) {
         +abs(6.*dot(wakeAngleGradient,dFdy(wakeUv))+28.*dFdy(impactRadius));
       float wakeSpoke=pow(max(sin(atan(wakeUv.y,wakeUv.x)*6.+impactRadius*28.-uTime*1.64),0.),12.)
         *(1.-smoothstep(.35,1.15,wakePhaseFootprint));
-      float wakeBreak=.5+.5*sin(impactRadius*37.-uTime*2.28+vUv.x*19.);
+      float wakeBreakPhase=impactRadius*37.-uTime*2.28+vUv.x*19.;
+      float wakeBreak=.5+.5*sin(wakeBreakPhase);
+      // Filter after sqrt: the periodic mean of sqrt((1+sin(p))/2) is 2/pi.
+      float wakeAmplitude=mix(sqrt(wakeBreak),.6366197724,smoothstep(.35,1.15,fwidth(wakeBreakPhase)));
       float wakeField=smoothstep(.20,.34,impactRadius)
         *(1.-smoothstep(.59,.76,impactRadius))*boundary;
-      float wakeGlint=wakeSpoke*sqrt(wakeBreak)*wakeField;
+      float wakeGlint=wakeSpoke*wakeAmplitude*wakeField;
       plungeTint=clamp(plungeTint+vec3(.062,.088,.074)*plungeFacet
         +vec3(.042,.063,.052)*wakeGlint,0.,1.);
       gl_FragColor=vec4(plungeTint,.88);
