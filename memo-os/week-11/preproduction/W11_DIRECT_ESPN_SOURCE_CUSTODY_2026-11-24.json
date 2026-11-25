@@ -1,0 +1,112 @@
+{
+  "schema": "schemin.w11.source_provenance.v1",
+  "captured_on": "2026-11-24",
+  "purpose": "Fresh direct-source readback for the existing Week 11 Data Release Steward assignment",
+  "assignment_id": "ECS-DATA-STEWARD-1417621-20261124",
+  "handoff_git_blob_sha1": "35e2da94fc85fd0b5fc5358a038ebfc0665fff9f",
+  "provider_evidence_git_blob_sha1": "00fcf1863775891303c7fe75d561ed7feb52da96",
+  "league_id": 1417621,
+  "season": 2026,
+  "scoring_period": 11,
+  "source": "Public ESPN response bodies; unauthenticated GET without cookies",
+  "direct_source_captures": {
+    "scoreboard": {
+      "request_url": "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/1417621?view=mMatchupScore&view=mScoreboard&scoringPeriodId=11",
+      "retrieved_start_utc": "2026-11-24T15:05:00.493541+00:00",
+      "retrieved_end_utc": "2026-11-24T15:05:04.722459+00:00",
+      "http_status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "date": "Tue, 24 Nov 2026 15:05:04 GMT",
+        "etag": "W/\"01b148dd2d758b662b3dad60dfeed27ed\"",
+        "cache-control": "must-revalidate"
+      },
+      "body_bytes": 1165829,
+      "body_sha256": "aca45642258c8ea41a7e67456916d32bb8156cda18ac12cad761201e0bf8ac8b",
+      "archive_member": "scoreboard.json"
+    },
+    "teams": {
+      "request_url": "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/1417621?view=mTeam&scoringPeriodId=11",
+      "retrieved_start_utc": "2026-11-24T15:05:04.763706+00:00",
+      "retrieved_end_utc": "2026-11-24T15:05:09.232405+00:00",
+      "http_status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=utf-8",
+        "date": "Tue, 24 Nov 2026 15:05:09 GMT",
+        "etag": "W/\"086ce4a6ef6aec9e247dd72d4c669b16b\"",
+        "cache-control": "must-revalidate"
+      },
+      "body_bytes": 46501,
+      "body_sha256": "927d029e7e50e53fbb0bd9d2729accaf62e7c44de88c33049e98eba493e97688",
+      "archive_member": "teams.json"
+    }
+  },
+  "private_evidence_package": {
+    "filename": "Schemin-26-Week-11-ESPN-source-evidence.zip",
+    "sha256": "efe78feebb370136d9f644771957fba9d043b37d498206d1dfdcd30cf1133a4e",
+    "repository_contents": "Only digests and limited HTTP metadata are public. The owner retains the unchanged response bodies and capture metadata in the named private archive."
+  },
+  "git_blob_sha1_by_comparison_input": {
+    "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json": "b4d7218a58accbf63e1c46bbb001223d8ec107bd",
+    "W11_WEEK13_14_REMAINING_ESPN_SCHEDULE_2026-11-24.json": "9640d622acca8df3b310e8e6adac86fec180ecde"
+  },
+  "direct_vs_flaim": {
+    "week11": {
+      "matched": 6,
+      "fields": [
+        "away_team_id",
+        "home_team_id",
+        "winner",
+        "away_score",
+        "home_score"
+      ]
+    },
+    "week12": {
+      "matched": 6,
+      "fields": [
+        "away_team_id",
+        "home_team_id",
+        "winner"
+      ]
+    },
+    "week13": {
+      "matched": 6,
+      "fields": [
+        "away_team_id",
+        "home_team_id",
+        "winner"
+      ]
+    },
+    "week14": {
+      "matched": 6,
+      "fields": [
+        "away_team_id",
+        "home_team_id",
+        "winner"
+      ]
+    },
+    "team_standings": {
+      "matched": 12,
+      "fields": [
+        "team_id",
+        "wins",
+        "losses",
+        "ties",
+        "playoffSeed",
+        "pointsFor",
+        "pointsAgainst"
+      ]
+    }
+  },
+  "comparison_method": "Join games by matchup period plus away/home team IDs and teams by numeric team ID. Compare winners literally, W-L-T as exact integer fields, and scores/PF/PA as decimal values at league precision.",
+  "prior_observation": {
+    "sha256": "c4644bb4502ec0ec399bfe07cc0f5b3a32572dac76813ad681bd9367cbf4c84d",
+    "same_as_current": false,
+    "scope": "The retained bodies prove this fresh observation only. Historical source-body identity is recorded separately."
+  },
+  "scope_limits": [
+    "This comparison did not cover transaction lineage, full starter/bench rows, model calibration, GW freshness policy or artwork.",
+    "An independent protected receiver must still make the signed validation decision. No internal Fact Lock, gate-runner acceptance, independent Umpire approval or publication is asserted."
+  ],
+  "sck_ack_state": "ASSIGNED"
+}

@@ -1,0 +1,91 @@
+# Week 11 interview review · From the Mountain Lake Bridge to the 2026 championship
+
+November 21, 2026 · Advisory production and story-room notes for the Week 11 draft. [Founder’s eight visual selections and two open questions](_INDEX.md#issue-wide-art-direction). The interview controls the shell. Proposals below can be tested in storyboard review.
+
+## What a reader should experience
+
+A person who starts with Week 11 should understand why two figures refuse to yield an empty bridge, why a delivery matters when the weather turns, and why an absent betting line irritates two rivals. Start with what a character wants, then show the older object or location that gives that want a history. Save the cover for the verified result that can express a league-wide consequence in one photographed moment. Game of the Week retains the bridge feature even if another game earns the cover.
+
+## Back issues at the storyboard table
+
+| Reference | Production lesson for Week 11 |
+|---|---|
+| W1 | The clerk, receipt and ledger made the league’s institutions tangible. Give the Book’s prices a physical place and the paper’s figures an identifiable source. |
+| W2 | Special Delivery established working roads, couriers and service counters. Show why Slob cares about a shipment before the weather threatens it. |
+| W3 | Mountain Lake Bridge connects upland and basin. Keep approach, parapet and far pier legible when the camera reverses. |
+| W4 | The transition review favors a cut when location, evidence or stakes change. Give a reaction shot a specific piece of information to reveal. |
+| W5 | Giant chess sustained three pages, a comic two, a golf result one. Let each confrontation earn its page count. |
+| W6 | Six role/location arrangements provide a check on who belongs where. Compare masters against current approved likenesses and the host venue plate. |
+| W7 | The court and Miracle Putt hero frames worked. Repeated headers and map clutter competed with the scenes. Test each newspaper figure and its annotation at phone size. |
+| W8 | The Inklings’ shrinking swamp horizon and dripping-ceiling reveal taught the reader to discover a change in the environment. Put a familiar rut or sign in view before water obscures it. |
+| W9 | The pause before The Last Putt made the payoff readable. The damaged terrace and trapped truck let consequences survive a cut. A repeated incorrect score on physical page 22 makes a practical case for checking every printed occurrence against the same source. |
+| W10 | The P35 scene brief leaves DK and HMB on opposite approaches with the bridge intact. The P33 scene brief leaves delivery cargo under shelter as a front approaches. Match those positions to accepted prior art at layout. Start Week 11 at the next choice each character makes. |
+
+[Weeks 1–3 legacy register](https://github.com/jakekaloper-hub/schemin-26/blob/main/world/production/MEMO_LEGACY_LAYER_V1.md) · [Week 7 delivered-page audit](https://github.com/jakekaloper-hub/schemin-26/blob/03cce69771931c67e462d4da7020fe2e5fc5de91/memo-os/week-8/WEEK_8_WEEK7_31_PAGE_VISUAL_AUDIT_2026-11-02.md) · [Week 8 Inklings receipt](https://github.com/jakekaloper-hub/schemin-26/blob/03cce69771931c67e462d4da7020fe2e5fc5de91/memo-os/week-8/WEEK_8_INKLINGS_ENRICHMENT_EXECUTION_RECEIPT_2026-11-02.md) · [Week 9 delivered-issue review](https://github.com/jakekaloper-hub/schemin-26/blob/4b52b91be57db99a90b22ff8a44d55f0fe827314/memo-os/week-10/preproduction/week9-review.md) · [Week 10 visual pass](https://github.com/jakekaloper-hub/schemin-26/blob/4b52b91be57db99a90b22ff8a44d55f0fe827314/memo-os/week-10/preproduction/VISUAL_STORYTELLING_PASS_2026-11-17.md)
+
+## Six photographic scene notes
+
+| Encounter | First image or cut to test |
+|---|---|
+| HMB / DK | Open wide on the empty bridge deck. Let DK’s first deliberate movement motivate the reverse to HMB. Angle the lens low enough for the violet sky to reflect off stone where weather supports it. Preserve the four-legged silhouette and the far pier. |
+| Slob / El Niño | Frame the cargo and rising runoff together. Slob chooses what to secure first. Catch the break in a headlight reflection when water crosses his working route. |
+| ObiWan / Chili | Both rivals can see the audience they hoped to impress. Hold long enough for them to notice the missing line, then move close to ObiWan when his swagger slips. Give his account of the proposed preseason clause an attributed sidebar with the House’s stated lineup rationale alongside it. |
+| Red / TDS | Hold one lateral view across the property edge so a reader can judge both competitors in the same frame. Pin the temporary dressing to the selected sporting event once chosen. Preserve the waterfall household’s privacy. |
+| Chins / Mud | Open wide enough for the absurdity of the contest. Return to a known racing rut at Mud’s eye level when survival becomes personal. Any Cancún coda follows verified elimination. Postseason beach admission follows the official bracket. |
+| Duckhook / LLC | Stay with Duckhook for the beat after his laugh. Reverse only when LLC’s reaction gives away his own insecurity. Tight frames can proceed while the eleven-year non-golf venue awaits verification. |
+
+**Sports Desk.** Lead the photographed investigative newspaper with the final interdivisional weekend across all six matchups. Trace one verified lineup decision, starter contribution or bench swing in each encounter, then show how the six outcomes reshape the race for all twelve teams. Use an ObiWan sidebar for the narrower question, “How much did the Chili game matter to his playoff chances?” For the internal layout proof, label the Nov 18 model’s 52.89% with a win and 12.77% with a loss beside its 32.45% baseline. Caption the pre-Week-11 input and 10,000 simulations per scenario. When finals arrive, distinguish the dated forecast from the actual standing. Compose the Book separately so its three posted games, each with a spread and total, read first at 390 px with Pittsy beside them. Chins–Mud remains unspecified. [Model receipt](FFHUB_NOV18_RECOVERY_AND_CONDITIONAL_POVS_2026-11-20.md) · [House board](https://github.com/jakekaloper-hub/schemin-26/issues/323)
+
+**Q6 and Q7 remain open.** For layout, compare the same bridge manuscript as one wide photograph and as a wide/reaction pair. Ask what the second shot teaches the reader. Keep the quiet OFF BOARD Easter egg in the duel and the separate After Dark interview about the proposed clause. Q7 leaves the emphasis of additional satire open. In the interview, Jacoby’s “bet the house” is character hyperbole; the House board lists that matchup OFF BOARD.
+
+## November 18–20 work to carry into layout
+
+Use the [58-answer Founder receipt](FOUNDER_CREATIVE_INTERVIEW_58_RESPONSES_2026-11-20.md) and the later [visual interview](_INDEX.md#issue-wide-art-direction) together. The former sets story, tone and point of view. The latter sets the photographic finish, eight design choices and two open decisions about page layout and satire emphasis.
+
+| Earlier decision | Instruction for the Week 11 page brief |
+|---|---|
+| November 19 After Dark one-page press conference | Keep the feature available as its own portrait PNG. Stage reporters at ObiWan’s mountain shack. Hood up, spirits low, unlit saber clipped at his waist while his hands are free. His utility belt and HMB’s championship belt are distinct props. Preserve the green blade for the separate Chili encounter. Give the reporters substantive questions and supply enough manuscript for a newcomer to understand the injury/suspension concern, the proposed protection and the playoff stakes. |
+| Part Four of the interview | Let Jacoby say in character that he would have bet the house on beating Chili. A reporter can press him on whom he holds responsible. In his account, Commissioner Austin Byars intervened in a proposed preseason deal with TDS, and TDS avoided the contingent obligation. His accusation that Snake ducked the line is distinct from Pittsy’s stated lineup/injury rationale. Use attributed, authored dialogue; reserve the Commissioner persona for the Note. The original three-sequence interview plus the subsequent Part Four request were recovered; exact approved wording for Parts One–Three remains unverified. Verify any player discipline and injury timeline before typesetting. |
+| November 19 Pittsy commission and poster alternatives | Compose one continuous inhabited Book scene. The board reads first, Pittsy works beside it, restrictions sit at the counter, and the two shuttered notices have physical positions. Preserve the [House quote, exact odds, six restrictions and $25 cap](https://github.com/jakekaloper-hub/schemin-26/issues/323). Use the approved post-haircut single body and three heads. Retain the requested GTA VI logo detail for this Book concept with Schemin’ ’26 as the issue masthead. If trialing alternatives, vary camera position, distance and staging; plate and light the visible landscape against the Atlas. Build at 1080×1920 and test actual phone legibility. |
+| League-wide POV and reader context | Give each encounter a fresh event, a sourced personal touch or inherited object, and one football detail that explains a decision. Bring the six stories together in a deeper investigative Sports Desk spread. Retain a dedicated playoff-road segment with divisional politics, each contender’s emotional stakes and seven places of honor. Attribute November 18 estimates with dates. A distant-horizon reference to the island requires the existing Atlas visibility check; physical arrival follows Week 14 qualification. |
+| Deliberate limits of the open interview answers | Q6 leaves page composition open. Earlier direction already calls for intimate acting, landscapes and multi-shot action across the issue. Q7 leaves the primary satire target open. Earlier direction already asks for relentless league roasting and makes the missing line a small Easter egg inside the duel. Give it space in the separate interview. |
+| Final Word and adjacent projects | Preview the six Week 12 divisional games in Week 11’s GTA VI look. Thanksgiving first appears in Week 12. Keep Road to Seven’s independent folio formats and the Week 10 movie/animation experiments with their own productions. Use the November 18 model receipt for the internal newspaper proof’s dated 32.45 / 52.89 / 12.77 figures; an earlier interview draft used different estimates. |
+
+### FantasyHoff rivalry research · November 21 refresh
+
+**Recommended newspaper clipping for layout.** “2023 · Week 13 — ObiWan Jacoby 144.76, The Chili Cheesers 143.72. Jake Kaloper’s team won by 1.04 points.” ESPN/Flaim verifies the historical matchup by franchise IDs 1 and 7. Use current team names or verified owner names throughout the artwork and manuscript. An After Dark reporter can ask why Jacoby sounds so certain after a meeting that close. Keep any answer in the authored dialogue lane.
+
+**Scope and routing.** FantasyHoff surfaced seven regular-season meetings in its displayed 2021–25 log. The November 21 comparison matched all seven to ESPN. Use the isolated score as Memo / Inklings background; prior-owner identities, all-time series claims, official House prices and postseason geography each have separate authorities. The current refresh returned twelve standings rows and six undecided Week 11 matchups; ObiWan (4–6, seed 10) trailed Chili (5–5, seed 8) by 19.00–0.00 in starter points at observation. Replace live points with the settled result before outcome copy.
+
+**Model reconciliation.** FantasyHoff’s November 21 scenario was 30% baseline, 48% with an ObiWan win and 11% with a loss (5,000 draws). The November 18 TheFFHub capture was 32.45%, 52.89%, 12.77% (10,000 draws). FantasyHoff fills seven places by overall ranking with a points-scored tiebreak. The league reserves three division-winner places; TheFFHub capture selected head-to-head. Keep the two readings as separate dated research until qualification and tiebreak behavior are validated. Neither supplies an official probability, elimination decision or Island admission. Current-score authority remains ESPN via Flaim. The manual research handoff works independently of FantasyHoff availability.
+
+[Provider comparison and seven-game verification](https://github.com/jakekaloper-hub/schemin-26/issues/345#issuecomment-7066517871)
+
+## Forward continuity
+
+| Week | Matchups or bracket | What the production should carry |
+|---|---|---|
+| 12 · Thanksgiving | DK–ObiWan, Mud–TDS, Red–Duckhook, Slob–Chili, LLC–HMB, El Niño–Chins | Open the holiday here. Pick one result-supported Week 11 consequence per matchup. For example, the reader who saw DK challenge HMB at the bridge will watch what ObiWan does when he next faces DK. Finish Week 11 entirely within its GTA VI shell. |
+| 13 · Divisional | Mud–ObiWan, TDS–DK, Slob–Duckhook, Chili–Red, El Niño–HMB, Chins–LLC | Return to one established object or obligation only if intervening results give it new meaning. Refresh standings before assigning urgency. |
+| 14 · Divisional finale | TDS–ObiWan, Mud–DK, Chili–Duckhook, Slob–Red, Chins–HMB, El Niño–LLC | Let TDS–ObiWan revisit the Book argument if still relevant. After official settlement, identify the three division winners and four additional berths and account for all twelve teams. |
+| 15 · Quarterfinals | Seven qualifiers, seed 1 bye, three games, fixed bracket | The island proposal opens with the postseason causeway and the Bye House. Five nonqualifiers begin at Losers’ Beach. Three settled losses bring the beach to eight. |
+| 16 · Semifinals | Four contenders, two games | Each approved arena can shape how both opponents act. Let one earned material trace survive each encounter. Two settled losses bring the beach to ten. |
+| 17 · 2026 championship | Two finalists, one final | Give each finalist a consequential choice. After the official result, give the runner-up a distinct departure and the champion a separate trophy moment. Eleven at Losers’ Beach, one champion. |
+
+**Postseason Island / Losers’ Beach.** Mountain Lake Bridge and the postseason causeway are distinct landmarks. The proposed quarterfinal venues are Iron Quarry, Saltwind Steps and Breakwater Grounds. Crown Stair and Grove of Standards are semifinal candidates. The Last Field is the championship designation; the location conflict remains with Atlas. The Founder’s proposed ceremonial draw follows qualification and uses a compatible arena. Losers’ Beach is a bittersweet viewing village with room for eliminated characters to respond to the surviving field. The Champions’ Walk and trophy gallery can frame the 2026 winner once verified. Keep the protected Michael Farrell memorial a quiet, distinct place. All finalist names, inscriptions and island arrivals wait for their corresponding official transitions.
+
+[Schedule and continuity](https://github.com/jakekaloper-hub/schemin-26/blob/4b52b91be57db99a90b22ff8a44d55f0fe827314/memo-os/week-11/preproduction/CROSS_WEEK_CONTINUITY_AND_RUNWAY_2026-11-20.md) · [Postseason event contract](https://github.com/jakekaloper-hub/schemin-26/blob/b32ecbc46e82133f7197fc8802a85e6b59abc44a/planning/postseason/POSTSEASON_2026_ISLAND_EVENT_CONTRACT.proposal.json) · [Founder’s postseason decisions](https://github.com/jakekaloper-hub/schemin-26/blob/b32ecbc46e82133f7197fc8802a85e6b59abc44a/planning/postseason/FOUNDER_INTERVIEW_II_DECISION_REGISTER_2026_11_19.md) · [Atlas reconciliation](https://github.com/jakekaloper-hub/schemin-26/pull/324)
+
+## Review provenance and editorial disposition
+
+Four registered Bullpen Director personas returned fresh assessments through the local consult engine: Beat Writer, Groundskeeper, Librarian and Umpire, followed by a Closer synthesis. Three separate modeled reads covered Inklings/production craft, back-issue continuity and the postseason contract. These are advisory readings. The board’s useful suggestions were to compare the grade across six venues, keep titles consistent and identify each establishing shot’s source. Use clean digits for posted prices and evidence. Discarded suggestions included applying swamp weather to all six sites and citing an alleged storyboard version/receipt that the sources did not substantiate. The Week 3 landmark and W10-P35 scene direction are separately traceable. Independent raster and release review remain pending.
+
+## November 21 lifecycle audit · production proof
+
+The registered mission lifecycle was opened against this handoff. Four Bullpen Director personas returned fresh board assessments. Separate Inklings, source and production reads checked those recommendations against the Founder receipts, [Austin Byars’s active package](../../canon/characters/CHAR-AUSTIN-BYARS/PACKAGE.md) and the House board. Discarded board suggestions included an unsupported numbered Founder rule and a miscount of unspecified games. The evidence has one unspecified game.
+
+**Before art selection:** Match both Week 10 reference plates to the correct prior page. Identify the home/neutral venue and each character’s approved reference. Record what remains conditional. Choose the cover from verified finals and reserve Thanksgiving’s first visual for Week 12.
+
+**At actual raster review:** Inspect the flattened 1080×1920 Book page at 390 CSS px wide without zoom. A reader should see the posted games before Pittsy and transcribe the numbers. Compare every spread, total and price against [House issue #323](https://github.com/jakekaloper-hub/schemin-26/issues/323). Check both shuttered notices, six restrictions, the $25 cap and the injury-update/House-approval footer. Check Pittsy’s single body and three heads beside the board. Repeat the transcription check on the shared PDF export. Ask a reader unfamiliar with the layout what caught their eye first. Record the raster hash, display width, reviewer and any transcription mismatches. If glare hides a minus sign or board perspective compresses a decimal, adjust the shot and repeat the same test on the new export.
+
+**Scope of proof:** The Week 11 intake validator and its adversarial tests check the pinned source fixtures. They do not inspect pixels or certify official scores. Final page layout, scores, rendered art, mobile proof and release review have their own evidence.

@@ -1,0 +1,204 @@
+{
+  "schema": "schemin.week11.pittsys-book.owner-recap.v1",
+  "source": "Founder supplied Pittsy’s Book Week 11 Recap 2026-11-24",
+  "source_evidence": "USER_SUPPLIED_HOUSE_RECAP_SETTLEMENT_WITH_ESPN_MATCHUP_SCORE_CROSSCHECK",
+  "status": "ACCEPTED_OWNER_HOUSE_POST_NOT_INDEPENDENT_TRANSACTION_VERIFICATION",
+  "week": 11,
+  "bets": [
+    {
+      "bettor": "Zwilson",
+      "weekly_record": "1-0",
+      "stake_cents": 2500,
+      "legs": [
+        {
+          "stake_cents": 2500,
+          "market": "Duckhook +13.5",
+          "result": "WIN",
+          "profit_cents": 2000
+        }
+      ],
+      "weekly_net_cents": 2000
+    },
+    {
+      "bettor": "Zeek",
+      "weekly_record": "1-0",
+      "stake_cents": 2500,
+      "legs": [
+        {
+          "stake_cents": 2500,
+          "market": "Duckhook +13.5",
+          "result": "WIN",
+          "profit_cents": 2000
+        }
+      ],
+      "weekly_net_cents": 2000
+    },
+    {
+      "bettor": "Byars",
+      "weekly_record": "2-1",
+      "stake_cents": 3400,
+      "legs": [
+        {
+          "stake_cents": 1000,
+          "market": "El Niño/Slob UNDER 303.5",
+          "result": "WIN",
+          "profit_cents": 769
+        },
+        {
+          "stake_cents": 1000,
+          "market": "HMB/DK OVER 266.5",
+          "result": "WIN",
+          "profit_cents": 769
+        },
+        {
+          "stake_cents": 1400,
+          "market": "LLC -13.5",
+          "result": "LOSS",
+          "profit_cents": -1400
+        }
+      ],
+      "weekly_net_cents": 138
+    },
+    {
+      "bettor": "Kaloper",
+      "weekly_record": "1-1",
+      "stake_cents": 1000,
+      "legs": [
+        {
+          "stake_cents": 500,
+          "market": "Duckhook +13.5",
+          "result": "WIN",
+          "profit_cents": 400
+        },
+        {
+          "stake_cents": 500,
+          "market": "El Niño/Slob OVER 303.5",
+          "result": "LOSS",
+          "profit_cents": -500
+        }
+      ],
+      "weekly_net_cents": -100
+    },
+    {
+      "bettor": "Qwilly",
+      "weekly_record": "0-1",
+      "stake_cents": 1250,
+      "legs": [
+        {
+          "stake_cents": 1250,
+          "market": "DK +8.5",
+          "result": "LOSS",
+          "profit_cents": -1250
+        }
+      ],
+      "weekly_net_cents": -1250
+    }
+  ],
+  "total_staked_cents": 10650,
+  "customer_net_cents": 2788,
+  "house_net_cents": -2788,
+  "market_result_crosschecks": [
+    {
+      "game": "G02",
+      "total_points": 273.46,
+      "under_303_5": "WIN",
+      "over_303_5": "LOSS"
+    },
+    {
+      "game": "G01",
+      "total_points": 297.95,
+      "over_266_5": "WIN",
+      "dk_plus_8_5": "LOSS"
+    },
+    {
+      "game": "G06",
+      "duckhook_points": 173.01,
+      "llc_points": 127.6,
+      "duckhook_plus_13_5": "WIN",
+      "llc_minus_13_5": "LOSS"
+    }
+  ],
+  "season_standings": [
+    {
+      "rank": 1,
+      "name": "BYARS",
+      "net_cents": 13578
+    },
+    {
+      "rank": 2,
+      "name": "ZEEK",
+      "net_cents": 10921
+    },
+    {
+      "rank": 3,
+      "name": "HOLLI",
+      "net_cents": 3557
+    },
+    {
+      "rank": 4,
+      "name": "Pryor",
+      "net_cents": 2225
+    },
+    {
+      "rank": 5,
+      "name": "Zwilson",
+      "net_cents": 2193
+    },
+    {
+      "rank": 6,
+      "name": "Kaloper",
+      "net_cents": -190
+    },
+    {
+      "rank": 7,
+      "name": "Babb",
+      "net_cents": -1833
+    },
+    {
+      "rank": 8,
+      "name": "Wilson",
+      "net_cents": -2000
+    },
+    {
+      "rank": 9,
+      "name": "QWhips",
+      "net_cents": -3250
+    }
+  ],
+  "house_weekly_results": [
+    {
+      "week": 1,
+      "house_net_cents": 6300
+    },
+    {
+      "week": 2,
+      "house_net_cents": -13266
+    },
+    {
+      "week": 3,
+      "house_net_cents": -13805
+    },
+    {
+      "week": 4,
+      "house_net_cents": 11600
+    },
+    {
+      "week": 8,
+      "house_net_cents": -13242
+    },
+    {
+      "week": 11,
+      "house_net_cents": -2788
+    }
+  ],
+  "house_weekly_record": "2-4",
+  "house_season_net_cents": -25201,
+  "proof": {
+    "stake_sum_cents": 10650,
+    "customer_net_sum_cents": 2788,
+    "house_sum_cents": -25201,
+    "all_bettor_nets_reconciled": true
+  },
+  "identity_note": "Preserve Qwilly (weekly bet) and QWhips (season board) as supplied; alias association unverified. Zwilson and Wilson appear as separate ledger entries; do not collapse them.",
+  "editorial": "Pittsy's Book is less of a sportsbook and more of a charitable organization — owner-supplied humor; not an independently verified assessment."
+}

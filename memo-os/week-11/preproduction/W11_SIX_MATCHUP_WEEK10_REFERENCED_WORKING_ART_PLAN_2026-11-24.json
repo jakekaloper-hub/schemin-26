@@ -1,0 +1,360 @@
+{
+  "schema": "schemin.w11.working_art_six_venue_precedent.v1",
+  "source_revision": "memo-v52rc-20261115-intake",
+  "date": "2026-11-24",
+  "status": "READY_FOR_USER_DIRECTED_CREATIVE_CANDIDATES__NO_ATLAS_PROMOTION",
+  "purpose": "Apply published Week10 physical precedents and approved Week11 structural references when generating candidate cinematic folios; distinguish technical audition from unissued World/Atlas approvals.",
+  "absolute_rule": "No invented canonical road or approved cinematic venue image; source-backed scene is a creative candidate until specific Atlas judgment.",
+  "venues": [
+    {
+      "game_id": "G01",
+      "matching_folios": [
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "location_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "feature_handle": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+      "structural_reference": {
+        "path": "world/environment-references/plates/LOC-BRIDGE-MOUNTAIN-LAKE/STRUCTURAL_PLATE.svg",
+        "expected_sha256": "d5ac24c22de8db15004f97b223669832806a737ba1b0c27c418759985b409406",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "historical_week10_published_scene_precedents": [
+        {
+          "folio": "F09",
+          "physical": 33,
+          "title": "THE CROSSING NARROWS",
+          "sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c"
+        },
+        {
+          "folio": "F10",
+          "physical": 33,
+          "title": "THE CROSSING NARROWS",
+          "sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c"
+        },
+        {
+          "folio": "F11",
+          "physical": 33,
+          "title": "THE CROSSING NARROWS",
+          "sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c"
+        }
+      ],
+      "preproduction_cinematic_candidates": [
+        {
+          "path": "memo-os/week-11/preproduction/board-png/03-after-you-austin.png",
+          "sha256": "108c37dd146cc4aa346ff5b32d88cae409bed3d543974c6f1e4c30beedd1d346",
+          "bytes": 914856,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "identity_sources": [
+        {
+          "character_id": "CHAR-WILSON-LOOK",
+          "reference_authority": "ACTIVE_VISUAL_CANON_CONFLICT",
+          "legacy_primary_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg"
+        },
+        {
+          "character_id": "CHAR-AUSTIN-BYARS",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg"
+        }
+      ],
+      "working_art_authorization": "SOURCE_GROUNDED_COMPOSITION_AUDITION_ONLY",
+      "world_canonical_cinematic_plate": "NOT_APPROVED",
+      "can_generate_candidate_without_canon_promotion": true,
+      "release_needs": "ACTUAL_CHARACTER_QA_AND_ATLAS_ACCEPTED_VENUE_IMAGE"
+    },
+    {
+      "game_id": "G02",
+      "matching_folios": [
+        "F12",
+        "F13"
+      ],
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "feature_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+      "structural_reference": {
+        "path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+        "expected_sha256": "c09e9c6c15f4325bf9308fa2579e35689f1f5bb4234bd20aea9e987551eb19e1",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "historical_week10_published_scene_precedents": [
+        {
+          "folio": "F12",
+          "physical": 16,
+          "title": "Same Speed",
+          "sha256": "b3e5419ebfcaa9e95d816051f60ad894f9fefa11c03622edf6e3db3544ed9f93"
+        },
+        {
+          "folio": "F13",
+          "physical": 35,
+          "title": "THE WEATHER IS COMING HOME",
+          "sha256": "0e0e2aefe274608baa217ca73407c757217bad6a88f74012f51d8d8c9dfe9777"
+        }
+      ],
+      "preproduction_cinematic_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-SLOB-FOOTHILL-CAMP/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "94d8b7cbf6bd001b0a41c56e7f58bea8e40ecc75571300a3965330a24f7a91da",
+          "bytes": 3288261,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/preproduction/board-png/04-six-i-told-her-six.png",
+          "sha256": "1a6c6c0d8732f1b873b3afee9c9c4940427e5d189a9d81f0759ea46845a078dd",
+          "bytes": 709631,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "identity_sources": [
+        {
+          "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg"
+        },
+        {
+          "character_id": "CHAR-MANNING-WELTY",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg"
+        }
+      ],
+      "working_art_authorization": "SOURCE_GROUNDED_COMPOSITION_AUDITION_ONLY",
+      "world_canonical_cinematic_plate": "NOT_APPROVED",
+      "can_generate_candidate_without_canon_promotion": true,
+      "release_needs": "ACTUAL_CHARACTER_QA_AND_ATLAS_ACCEPTED_VENUE_IMAGE"
+    },
+    {
+      "game_id": "G03",
+      "matching_folios": [
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "feature_handle": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "structural_reference": {
+        "path": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
+        "expected_sha256": "0589607460dd28281cb5fd9e59bc414ee2ee15f9c0ba3f9289b62e9503c3690d",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "historical_week10_published_scene_precedents": [
+        {
+          "folio": "F14",
+          "physical": 7,
+          "title": "No Private Exit",
+          "sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59"
+        },
+        {
+          "folio": "F15",
+          "physical": 5,
+          "title": "Everybody Gets a View",
+          "sha256": "af769d70ef6a238a2b63ff5a8ddaf428bc5c42dd8ca0e45c2d79690d0ed3e4f0"
+        },
+        {
+          "folio": "F16",
+          "physical": 7,
+          "title": "No Private Exit",
+          "sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59"
+        }
+      ],
+      "preproduction_cinematic_candidates": [
+        {
+          "path": "memo-os/week-11/preproduction/board-png/05-the-safest-seat.png",
+          "sha256": "a984020930dc58c3b5af0fb25a37513596ace8356dd9af0dbf073271622bd029",
+          "bytes": 709433,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "identity_sources": [
+        {
+          "character_id": "CHAR-JAKE-KALOPER",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg"
+        },
+        {
+          "character_id": "CHAR-BRANDON-PRYOR",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg"
+        }
+      ],
+      "working_art_authorization": "SOURCE_GROUNDED_COMPOSITION_AUDITION_ONLY",
+      "world_canonical_cinematic_plate": "NOT_APPROVED",
+      "can_generate_candidate_without_canon_promotion": true,
+      "release_needs": "ACTUAL_CHARACTER_QA_AND_ATLAS_ACCEPTED_VENUE_IMAGE"
+    },
+    {
+      "game_id": "G04",
+      "matching_folios": [
+        "F17",
+        "F18"
+      ],
+      "location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "feature_handle": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+      "structural_reference": {
+        "path": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+        "expected_sha256": "0001fc7af2c3820465ee128c31bc3b97c3f6a157da7db52d89e25ac6c66ef080",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "historical_week10_published_scene_precedents": [
+        {
+          "folio": "F17",
+          "physical": 12,
+          "title": "Just as the House Settles",
+          "sha256": "4e431687102250a1c39e7038a6ade4e45104c4a72e2005cf9071e7163419ff7d"
+        },
+        {
+          "folio": "F18",
+          "physical": 10,
+          "title": "That Cold Again",
+          "sha256": "fd0601e4884fc430922f3389f2f2dad207706dbe0f26cf6491b079a4a4cd0b0f"
+        }
+      ],
+      "preproduction_cinematic_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-TDS-WATERFALL-TEMPLE/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "e44ae1c8f036c5e93634ef7fb0c50671fed02de2e9cbb32e5e1ca22222857e42",
+          "bytes": 3368015,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/preproduction/board-png/06-first-choice.png",
+          "sha256": "12695dbd5d2a3e5593f5283b88b7c7ba507e8b2313ece1e7f33f3fd5ccb33809",
+          "bytes": 727564,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "identity_sources": [
+        {
+          "character_id": "CHAR-PHILLIP-PITTS",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg"
+        },
+        {
+          "character_id": "CHAR-KEVIN-ZEEK",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg"
+        }
+      ],
+      "working_art_authorization": "SOURCE_GROUNDED_COMPOSITION_AUDITION_ONLY",
+      "world_canonical_cinematic_plate": "NOT_APPROVED",
+      "can_generate_candidate_without_canon_promotion": true,
+      "release_needs": "ACTUAL_CHARACTER_QA_AND_ATLAS_ACCEPTED_VENUE_IMAGE"
+    },
+    {
+      "game_id": "G05",
+      "matching_folios": [
+        "F19",
+        "F20"
+      ],
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "feature_handle": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+      "structural_reference": {
+        "path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+        "expected_sha256": "e960e3de8ad67cbf2d23353648cdc0a5f0dcef05fafcdf121c97c21132877269",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "historical_week10_published_scene_precedents": [
+        {
+          "folio": "F19",
+          "physical": 15,
+          "title": "The Swamp Declares a Blockade",
+          "sha256": "425e824ec60c4fd053cc9b5e5c5e8fd16ce19ac6ce5679efc587f67c91656b62"
+        },
+        {
+          "folio": "F20",
+          "physical": 17,
+          "title": "Cancún Is Calling",
+          "sha256": "57f9e808621787e840f51990e090fc0b8acaa711f88065055a1a8cdaefb8b687"
+        }
+      ],
+      "preproduction_cinematic_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-MUD-DOGS-SWAMP/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "9dc76844e7c64725004cec79d6387b18943b3559471503e1fb7f05562c684114",
+          "bytes": 2927635,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/preproduction/board-png/07-the-dry-paw.png",
+          "sha256": "fc7088b2f6711f87c759a58b09a739c0cb0c102d7e47462dbe6e5784819ed879",
+          "bytes": 893469,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "identity_sources": [
+        {
+          "character_id": "CHAR-BOBBY-MITCHELL",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg"
+        },
+        {
+          "character_id": "CHAR-BEN-WHIPPLE",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg"
+        }
+      ],
+      "working_art_authorization": "SOURCE_GROUNDED_COMPOSITION_AUDITION_ONLY",
+      "world_canonical_cinematic_plate": "NOT_APPROVED",
+      "can_generate_candidate_without_canon_promotion": true,
+      "release_needs": "ACTUAL_CHARACTER_QA_AND_ATLAS_ACCEPTED_VENUE_IMAGE"
+    },
+    {
+      "game_id": "G06",
+      "matching_folios": [
+        "F21",
+        "F22"
+      ],
+      "location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "feature_handle": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "structural_reference": {
+        "path": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+        "expected_sha256": "950b92810c5ac0694fd4b3e661b14277a040f80a89adf7394d1fd47a47e54e50",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "historical_week10_published_scene_precedents": [
+        {
+          "folio": "F21",
+          "physical": 20,
+          "title": "A Very Generous Guest",
+          "sha256": "70fde235a6fcdb7aa26ce4f1c65d29d7cde0ebc805612f944c02cd2367ab3431"
+        },
+        {
+          "folio": "F22",
+          "physical": 22,
+          "title": "Many Unhappy Returns",
+          "sha256": "6b37482349e4b4efa21fd1041c33ae63d48e92a4fb8093f8be10412cdac34a65"
+        }
+      ],
+      "preproduction_cinematic_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-COUNTRY-CLUB-JACKSON/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "56ddc7b1ca50747ccb3097a0936ba0f832715cdd1cd911569ac803e4ae51cb71",
+          "bytes": 3069829,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/sets/jackson-executive-office/office-study.webp",
+          "sha256": "748c51b8a5d0b7c087df8a7bab0de219c8731c7b96dd3c329c8dbda03529556a",
+          "bytes": 79506,
+          "authority": "JACKSON_BLOCKING_STUDY_NOT_CINEMATIC_APPROVAL"
+        }
+      ],
+      "identity_sources": [
+        {
+          "character_id": "CHAR-ZACH-WILSON",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg"
+        },
+        {
+          "character_id": "CHAR-DAVID-BABB",
+          "reference_authority": "REFERENCE_AUTHORITY_RESOLVED",
+          "legacy_primary_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg"
+        }
+      ],
+      "working_art_authorization": "SOURCE_GROUNDED_COMPOSITION_AUDITION_ONLY",
+      "world_canonical_cinematic_plate": "NOT_APPROVED",
+      "can_generate_candidate_without_canon_promotion": true,
+      "release_needs": "ACTUAL_CHARACTER_QA_AND_ATLAS_ACCEPTED_VENUE_IMAGE"
+    }
+  ]
+}

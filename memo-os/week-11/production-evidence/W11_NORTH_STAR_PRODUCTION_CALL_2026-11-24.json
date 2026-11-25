@@ -1,0 +1,225 @@
+{
+  "schema": "schemin.w11.north_star_production_call.v1",
+  "production_base": "ad45e44fe12f3d4629e3ce457aa4b34f73f7ce22",
+  "as_of": "2026-11-24T15:30:23.484Z",
+  "leading_role": "the_closer",
+  "convened_new_full_board": false,
+  "benchmarks": {
+    "formal": "Week 3",
+    "visual_precedent": "Week 10 native pages",
+    "source": "../NORTH_STAR_BOARD_2026-11-22.md",
+    "mission": "../../../SCHEMIN_26_PROJECT_MISSION.md",
+    "gold_standard": "../../SCHEMIN_26_WEEKLY_MEMO_GOLD_STANDARD_PRODUCTION_MANUAL.md",
+    "page_comparators": "../preproduction/WEEK11_FOLIO_OG_COMPARISON.md",
+    "criteria": "Read actual native and phone images, distinguish evidence from prediction, keep identity and geography stable, and tie each game to a character decision and a consequence a witness could remember. Numeric scoring is maintained in the separate issue assessment."
+  },
+  "decision": {
+    "begin_png_production": "GO",
+    "new_close_framed_candidate": "F35",
+    "authorized_unsigned_layout": "F03",
+    "issue_title": "One Last Crossing",
+    "week11_game_of_week": "His Majesty’s Blood at D0nkey K0ng, Bridge at the Mountain Lake",
+    "cover": "Compare the strongest actual cinematic character moments across all six after rendering; the feature designation gives G01 no automatic cover.",
+    "week12_preview": "F33, Seven Deadly Chins at El Niño, highest modeled direct qualification leverage. Commissioner retains the feature choice.",
+    "tldraw": "Reuse as the reference and blocking library. An optional canvas operation cannot invalidate a source-cleared proof."
+  },
+  "source_adjudication": [
+    {
+      "owner": "The Closer / The Beat Writer",
+      "folio": "F35",
+      "instruction": "Produce the commissioned one-sentence closer in a close, transport-free crop of the damp Storm Coast Road approach to Storm Bowl. The approved depiction scope excludes new vehicles, wide viewpoint, cast, Island, Thanksgiving and invented landmarks. A protected venue capture was not required for this bounded internal study.",
+      "source": "../preproduction/WEEK11_LOCATION_DESK.md"
+    },
+    {
+      "owner": "The Closer / actual Commissioner",
+      "folio": "F03",
+      "instruction": "Produce an unsigned internal composition proof alongside F35. Preserve the existing note and its attribution state. The Commissioner’s actual voice and signature remain outstanding for release.",
+      "source": "../preproduction/W11_READER_LETTERING_2026-11-24.md"
+    },
+    {
+      "owner": "Pitching Coach / Librarian / production design",
+      "folio": "F34",
+      "instruction": "A complete commissioned page needs Phillip as one body with three heads at the established counter, proper reference binding, and the exact House ledger. Existing type and mobile studies already cover a partial insert; another anonymous ledger does not fulfill the folio. Wide site remains disputed.",
+      "source": "../preproduction/W11_ALL_35_VISUAL_DIRECTOR_SHOT_SPECS_2026-11-23.json"
+    },
+    {
+      "owner": "The GM / OutputReviewStaff and Setup Man",
+      "folios": [
+        "F02",
+        "F04",
+        "F07",
+        "F23",
+        "F24",
+        "F25",
+        "F26",
+        "F27",
+        "F28",
+        "F29",
+        "F30",
+        "F32"
+      ],
+      "instruction": "Receive and track the twelve exact native and phone artifacts together for internal candidate review. Both named directors received the same request digest and each returned a receiving disposition.",
+      "source": "W11_TWELVE_DESK_CANDIDATES_REVIEW_REQUEST_2026-11-24.json"
+    },
+    {
+      "owner": "GM and Setup Man",
+      "folio": "F35",
+      "instruction": "Receive the separately submitted F35 candidate after rendering. The GM explicitly received the new submission for internal review.",
+      "source": "../preproduction/f35-final-word-candidate-20261124/candidate.json"
+    },
+    {
+      "owner": "GM / Setup Man and actual Commissioner",
+      "folio": "F03",
+      "instruction": "The unsigned layout with two real PNGs reached both coordinator channels. GM received it for unsigned-layout review only. Existing note and the separate signature/voice gates remain in force.",
+      "source": "../preproduction/f03-unsigned-note-candidate-20261124/candidate.json"
+    },
+    {
+      "owner": "The Closer / independent Umpire",
+      "instruction": "The venue and reference restrictions apply page by page. Rejected model suggestions included a global wait on F35, treating F35 as the three-headed character commission, treating the 35 folios as 35 games, and equating a registered candidate with final approval. The current Steward, Commissioner and final Umpire boundaries remain in force.",
+      "source": "W11_CLOSER_PRODUCTION_DIRECTION_2026-11-24.md"
+    }
+  ],
+  "candidate_accounting_at_receipt": {
+    "existing_desk_batch": 12,
+    "additional_submitted": 2,
+    "additional_folios": [
+      "F35",
+      "F03"
+    ],
+    "total_submitted": 14,
+    "accepted_final": 0,
+    "of_total": 35,
+    "F03": "Unsigned layout review only. Commissioner voice and signature unapproved.",
+    "remaining_without_native_candidate": 21
+  },
+  "runtime": {
+    "source": "https://github.com/jakekaloper-hub/bullpen/blob/915dd2d23be6c62dab80f65d5279ea914ff1f73b/runtime/consultEngine.js",
+    "provider": "qwen2.5-coder:7b on the established local Bullpen runtime",
+    "ledger": {
+      "receipt": {
+        "started": "2026-11-24T15:24:59.446Z",
+        "finished": "2026-11-24T15:25:49.232Z",
+        "model": "qwen2.5-coder:7b",
+        "runtime": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+        "traceCount": 4,
+        "returns": [
+          {
+            "slug": "the_closer",
+            "response_sha256": "c4e9418a2053300b513785a1c4928d97cd9197c15205e692d415fd036719bd50",
+            "timestamp": "2026-11-24T15:25:14.421Z"
+          },
+          {
+            "slug": "the_pitching_coach",
+            "response_sha256": "3935e72b4602b907d6420898db5bb94bb90eaa73d4711b5aacca8c8334dd897d",
+            "timestamp": "2026-11-24T15:25:26.079Z"
+          },
+          {
+            "slug": "the_beat_writer",
+            "response_sha256": "18f954812a71bc773b2937e4d6caed76eda0f520d3d22f77539fc8e2a5ee303e",
+            "timestamp": "2026-11-24T15:25:37.657Z"
+          },
+          {
+            "slug": "the_gm",
+            "response_sha256": "10fde65be7056a6581ce100fdc972c38652d1dad57e157d3e2f1544e9e40e667",
+            "timestamp": "2026-11-24T15:25:49.231Z"
+          }
+        ],
+        "private_receipt_sha256": "96b1a3d9074d107528947df2f039fd794a9e34a46772385c39c3346c1fa4495c"
+      },
+      "desk12-receipt": {
+        "model": "qwen2.5-coder:7b",
+        "runtime": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+        "trace_count": 2,
+        "request_id": "W11-DESK12-c04f310bce8a",
+        "request_sha256": "46421db5f059058317501bb7c48558c25db2bc4f66d82b1a0874e21ccf523f1c",
+        "store": "canonical message store with process-local memory adapter; corresponding file in PR is durable intake",
+        "checks": {
+          "passed": true,
+          "failures": [],
+          "requirementCount": 51,
+          "evidenceCount": 1
+        },
+        "channel_readback": [
+          {
+            "channel": "the_setup_man",
+            "sha256": "46421db5f059058317501bb7c48558c25db2bc4f66d82b1a0874e21ccf523f1c",
+            "received": true
+          },
+          {
+            "channel": "the_gm",
+            "sha256": "46421db5f059058317501bb7c48558c25db2bc4f66d82b1a0874e21ccf523f1c",
+            "received": true
+          }
+        ],
+        "staff": "OutputReviewStaff",
+        "owner": "the_gm",
+        "publication": false,
+        "returns": [
+          {
+            "slug": "the_setup_man",
+            "response_sha256": "f3acf675c83dd350ea271169c43bef4ac923111e409bfd4b4332dba13839ce84",
+            "timestamp": "2026-11-24T15:27:05.830Z",
+            "response": "Received for internal folio candidate review. No immediate Jake interaction needed, per current rules."
+          },
+          {
+            "slug": "the_gm",
+            "response_sha256": "f0cfaceff1a534244b0cfe8bbdc28be31f98d2864efccf0497d804fc83427b5f",
+            "timestamp": "2026-11-24T15:27:08.180Z",
+            "response": "receive for internal folio candidate review"
+          }
+        ],
+        "private_receipt_sha256": "8af8f2b1c18f2e70730444e9b3a0fe2caf1fb87e254d2a57b35fbc5b4642775b"
+      },
+      "folio-clarification": {
+        "started": "2026-11-24T15:27:29.403Z",
+        "trace_count": 1,
+        "returns": [],
+        "at": "2026-11-24T15:27:34.029Z",
+        "response_sha256": "d1ce541c06da2db3bfba605795d35e2d384fa02789df9a8c929ca6d864292fcc",
+        "private_receipt_sha256": "bb3bb645ad5d5dde39f8dd2b4e20d8aabda613ac80c1bb40eaea6cc1efc909ba"
+      },
+      "f35-receipt": {
+        "started": "2026-11-24T15:28:25.068Z",
+        "finished": "2026-11-24T15:28:26.219Z",
+        "traceCount": 1,
+        "channels": [
+          "the_setup_man",
+          "the_gm"
+        ],
+        "id": "W11-F35-70d884758e61",
+        "sha256": "70d884758e61698399ca4b4618f29d4ba2ada55db9f85285d19b3f727b9e37e8",
+        "staff": {
+          "passed": true,
+          "failures": [],
+          "requirementCount": 6,
+          "evidenceCount": 1
+        },
+        "gm": "RECEIVE_FOR_INTERNAL_REVIEW",
+        "publication": false,
+        "returns": [],
+        "private_receipt_sha256": "53586a961ae81a10c353fb8c01334be911a2d86e9d4fe8abe3214b0de5713fb5"
+      },
+      "f03-receipt": {
+        "id": "W11-F03-8667d000fe64",
+        "sha256": "8667d000fe6413cba72c019943d64f11e8ef7bf0e50decc9d1da5e6999fe6ef9",
+        "channels": [
+          "the_setup_man",
+          "the_gm"
+        ],
+        "staff": {
+          "passed": true,
+          "failures": [],
+          "requirementCount": 9,
+          "evidenceCount": 1
+        },
+        "gm": "RECEIVE_UNSIGNED_LAYOUT",
+        "started": "2026-11-24T15:30:22.743Z",
+        "finished": "2026-11-24T15:30:23.484Z",
+        "traceCount": 1,
+        "publication": false,
+        "private_receipt_sha256": "4d976522d392b68c2e084934405a4371644dfabc29d0d0aada92fa87657c6d87"
+      }
+    },
+    "scope": "The director role dispositions are modeled. Both submissions used canonical message-store channel readback with the memory adapter; this receipt and the source manifests preserve them. OutputReviewStaff checks exact request content. It did not evaluate image pixels or confer an independent Umpire signature."
+  }
+}

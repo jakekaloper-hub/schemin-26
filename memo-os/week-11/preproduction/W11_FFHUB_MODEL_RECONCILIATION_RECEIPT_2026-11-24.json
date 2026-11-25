@@ -1,0 +1,45 @@
+{
+  "schema": "schemin.w11.theffhub_source_application.v1",
+  "date": "2026-11-24",
+  "changed_folios": [
+    "F30",
+    "F33"
+  ],
+  "sources": [
+    "W11_FFHUB_POST_WEEK11_ODDS_2026-11-24.json",
+    "W11_FFHUB_WEEK12_QUALIFICATION_LEVERAGE_2026-11-24.json"
+  ],
+  "model_sample_size": 10000,
+  "computed_direct_team_swing_gotw": 67.59,
+  "chosen_preproduction_game": "Seven Deadly Chins at El Niño",
+  "approval": "MODEL_CURRENT_VENDOR_CAPTURED_NOT_COMMISSIONER_FINAL_ART",
+  "comparison_digests_recalculated": [],
+  "historical_visual_source_mutated": false,
+  "existing_instruction_digest_refresh_after_global_rehearsal_recompose": [
+    {
+      "folio": "F12",
+      "previous_sha": "3e935c243c196e6ccb278d0ec5b5cf12aa323796b738aadfefe7ea522297c0f6",
+      "new_sha": "7d2c542c826d1317137175c76641a58ea88b4b16e3a824322241cca4b8d54e9f"
+    },
+    {
+      "folio": "F13",
+      "previous_sha": "141c90c9f94f673fd58bbedeeb609643c61ba9c6b1ddcadf43c90cf349237cb2",
+      "new_sha": "7c9dafe61f5bc8ba59cb0f6edc9212efc62a0edbd6c7b0292dc789862012c0a2"
+    },
+    {
+      "folio": "F14",
+      "previous_sha": "f25538d61eb55445e9a538e1546f8458e557049bcfd4c38e0562e2958a74acdd",
+      "new_sha": "3fc85b8a468ff311314229d3cb0c7499749e7b84f4f3ced39c5d64282a8b96d7"
+    },
+    {
+      "folio": "F21",
+      "previous_sha": "9c8b20d8bd5409c2fb350787f5ba6f2289c41f3b2cefe52ed68f9b8ed716274a",
+      "new_sha": "be072536e0a261345ad3292fac5292180cd7b736dbc7cd755b50fdd5cc2e843e"
+    },
+    {
+      "folio": "F22",
+      "previous_sha": "60f9871a1a94a7c2c585ffba1cc4caf3a95ddabc2935f2ec964c2fe5245104b6",
+      "new_sha": "6280e556bd9028e272e1ffe2d9575194286b16c6fecb2afacf18b772a72cb45e"
+    }
+  ]
+}

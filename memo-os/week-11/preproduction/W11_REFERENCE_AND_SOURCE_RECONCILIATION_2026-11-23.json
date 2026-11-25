@@ -1,0 +1,365 @@
+{
+  "source_head": "9125779051b3525d0863b1d71eda33dd2b68d94a",
+  "source_titles_and_instructions_corrected": [
+    {
+      "file": "WEEK11_FOLIO_OG_COMPARISON.json",
+      "folio": "F19",
+      "old_title": "One clean paw",
+      "new_title": "The wrong turn",
+      "changed_fields": [
+        "title",
+        "week11_acceptance_test",
+        "week11_card_phone_test"
+      ]
+    },
+    {
+      "file": "WEEK11_FOLIO_OG_COMPARISON.json",
+      "folio": "F20",
+      "old_title": "Back at the post",
+      "new_title": "The road that comes back",
+      "changed_fields": [
+        "title",
+        "week11_acceptance_test",
+        "week11_card_phone_test"
+      ]
+    },
+    {
+      "file": "WEEK11_LOCATION_DESK.json",
+      "folio": "F19",
+      "old_title": "One clean paw",
+      "new_title": "The wrong turn",
+      "changed_fields": [
+        "title",
+        "instruction"
+      ]
+    },
+    {
+      "file": "WEEK11_LOCATION_DESK.json",
+      "folio": "F20",
+      "old_title": "Back at the post",
+      "new_title": "The road that comes back",
+      "changed_fields": [
+        "title",
+        "instruction"
+      ]
+    }
+  ],
+  "six_venue_review_packets": {
+    "G01": {
+      "parent_id": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "feature": "SUB::LOC-BRIDGE-MOUNTAIN-LAKE::STONE-BRIDGE",
+      "structural_plate": {
+        "path": "world/environment-references/plates/LOC-BRIDGE-MOUNTAIN-LAKE/STRUCTURAL_PLATE.svg",
+        "sha256": "d5ac24c22de8db15004f97b223669832806a737ba1b0c27c418759985b409406",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "approved_cinematic_reference_uris": [],
+      "cinematic_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "review_candidates": [
+        {
+          "path": "memo-os/week-11/preproduction/board-png/03-after-you-austin.png",
+          "sha256": "108c37dd146cc4aa346ff5b32d88cae409bed3d543974c6f1e4c30beedd1d346",
+          "bytes": 914856,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "week10_originals": [
+        {
+          "folio": "F09",
+          "physical": 33,
+          "title": "THE CROSSING NARROWS",
+          "sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c"
+        },
+        {
+          "folio": "F10",
+          "physical": 33,
+          "title": "THE CROSSING NARROWS",
+          "sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c"
+        },
+        {
+          "folio": "F11",
+          "physical": 33,
+          "title": "THE CROSSING NARROWS",
+          "sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c"
+        }
+      ],
+      "binding_status": "NOT_PROVIDER_BOUND"
+    },
+    "G02": {
+      "parent_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "feature": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+      "structural_plate": {
+        "path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+        "sha256": "c09e9c6c15f4325bf9308fa2579e35689f1f5bb4234bd20aea9e987551eb19e1",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "approved_cinematic_reference_uris": [],
+      "cinematic_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "review_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-SLOB-FOOTHILL-CAMP/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "94d8b7cbf6bd001b0a41c56e7f58bea8e40ecc75571300a3965330a24f7a91da",
+          "bytes": 3288261,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/preproduction/board-png/04-six-i-told-her-six.png",
+          "sha256": "1a6c6c0d8732f1b873b3afee9c9c4940427e5d189a9d81f0759ea46845a078dd",
+          "bytes": 709631,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "week10_originals": [
+        {
+          "folio": "F12",
+          "physical": 16,
+          "title": "Same Speed",
+          "sha256": "b3e5419ebfcaa9e95d816051f60ad894f9fefa11c03622edf6e3db3544ed9f93"
+        },
+        {
+          "folio": "F13",
+          "physical": 35,
+          "title": "THE WEATHER IS COMING HOME",
+          "sha256": "0e0e2aefe274608baa217ca73407c757217bad6a88f74012f51d8d8c9dfe9777"
+        }
+      ],
+      "binding_status": "NOT_PROVIDER_BOUND"
+    },
+    "G03": {
+      "parent_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "feature": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "structural_plate": {
+        "path": "world/environment-references/plates/LOC-TRADE-JEDI-MOUNTAIN-BASE/STRUCTURAL_PLATE.svg",
+        "sha256": "0589607460dd28281cb5fd9e59bc414ee2ee15f9c0ba3f9289b62e9503c3690d",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "approved_cinematic_reference_uris": [],
+      "cinematic_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "review_candidates": [
+        {
+          "path": "memo-os/week-11/preproduction/board-png/05-the-safest-seat.png",
+          "sha256": "a984020930dc58c3b5af0fb25a37513596ace8356dd9af0dbf073271622bd029",
+          "bytes": 709433,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "week10_originals": [
+        {
+          "folio": "F14",
+          "physical": 7,
+          "title": "No Private Exit",
+          "sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59"
+        },
+        {
+          "folio": "F15",
+          "physical": 5,
+          "title": "Everybody Gets a View",
+          "sha256": "af769d70ef6a238a2b63ff5a8ddaf428bc5c42dd8ca0e45c2d79690d0ed3e4f0"
+        },
+        {
+          "folio": "F16",
+          "physical": 7,
+          "title": "No Private Exit",
+          "sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59"
+        }
+      ],
+      "binding_status": "NOT_PROVIDER_BOUND"
+    },
+    "G04": {
+      "parent_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "feature": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+      "structural_plate": {
+        "path": "world/environment-references/plates/LOC-TDS-WATERFALL-TEMPLE/STRUCTURAL_PLATE.svg",
+        "sha256": "0001fc7af2c3820465ee128c31bc3b97c3f6a157da7db52d89e25ac6c66ef080",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "approved_cinematic_reference_uris": [],
+      "cinematic_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "review_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-TDS-WATERFALL-TEMPLE/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "e44ae1c8f036c5e93634ef7fb0c50671fed02de2e9cbb32e5e1ca22222857e42",
+          "bytes": 3368015,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/preproduction/board-png/06-first-choice.png",
+          "sha256": "12695dbd5d2a3e5593f5283b88b7c7ba507e8b2313ece1e7f33f3fd5ccb33809",
+          "bytes": 727564,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "week10_originals": [
+        {
+          "folio": "F17",
+          "physical": 12,
+          "title": "Just as the House Settles",
+          "sha256": "4e431687102250a1c39e7038a6ade4e45104c4a72e2005cf9071e7163419ff7d"
+        },
+        {
+          "folio": "F18",
+          "physical": 10,
+          "title": "That Cold Again",
+          "sha256": "fd0601e4884fc430922f3389f2f2dad207706dbe0f26cf6491b079a4a4cd0b0f"
+        }
+      ],
+      "binding_status": "NOT_PROVIDER_BOUND"
+    },
+    "G05": {
+      "parent_id": "LOC-MUD-DOGS-SWAMP",
+      "feature": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+      "structural_plate": {
+        "path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+        "sha256": "e960e3de8ad67cbf2d23353648cdc0a5f0dcef05fafcdf121c97c21132877269",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "approved_cinematic_reference_uris": [],
+      "cinematic_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "review_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-MUD-DOGS-SWAMP/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "9dc76844e7c64725004cec79d6387b18943b3559471503e1fb7f05562c684114",
+          "bytes": 2927635,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/preproduction/board-png/07-the-dry-paw.png",
+          "sha256": "fc7088b2f6711f87c759a58b09a739c0cb0c102d7e47462dbe6e5784819ed879",
+          "bytes": 893469,
+          "authority": "WEEK11_PREVIS_ONLY"
+        }
+      ],
+      "week10_originals": [
+        {
+          "folio": "F19",
+          "physical": 15,
+          "title": "The Swamp Declares a Blockade",
+          "sha256": "425e824ec60c4fd053cc9b5e5c5e8fd16ce19ac6ce5679efc587f67c91656b62"
+        },
+        {
+          "folio": "F20",
+          "physical": 17,
+          "title": "Cancún Is Calling",
+          "sha256": "57f9e808621787e840f51990e090fc0b8acaa711f88065055a1a8cdaefb8b687"
+        }
+      ],
+      "binding_status": "NOT_PROVIDER_BOUND"
+    },
+    "G06": {
+      "parent_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "feature": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "structural_plate": {
+        "path": "world/environment-references/plates/LOC-COUNTRY-CLUB-JACKSON/STRUCTURAL_PLATE.svg",
+        "sha256": "950b92810c5ac0694fd4b3e661b14277a040f80a89adf7394d1fd47a47e54e50",
+        "status": "APPROVED_STRUCTURAL_REFERENCE"
+      },
+      "approved_cinematic_reference_uris": [],
+      "cinematic_status": "MISSING_APPROVED_CINEMATIC_REFERENCE",
+      "review_candidates": [
+        {
+          "path": "world/environment-references/candidates/week-6/LOC-COUNTRY-CLUB-JACKSON/CINEMATIC_CANDIDATE_V1.png",
+          "sha256": "56ddc7b1ca50747ccb3097a0936ba0f832715cdd1cd911569ac803e4ae51cb71",
+          "bytes": 3069829,
+          "authority": "HISTORICAL_CANDIDATE_ONLY_NO_APPROVED_URI"
+        },
+        {
+          "path": "memo-os/week-11/sets/jackson-executive-office/office-study.webp",
+          "sha256": "748c51b8a5d0b7c087df8a7bab0de219c8731c7b96dd3c329c8dbda03529556a",
+          "bytes": 79506,
+          "authority": "JACKSON_BLOCKING_STUDY_NOT_CINEMATIC_APPROVAL"
+        }
+      ],
+      "week10_originals": [
+        {
+          "folio": "F21",
+          "physical": 20,
+          "title": "A Very Generous Guest",
+          "sha256": "70fde235a6fcdb7aa26ce4f1c65d29d7cde0ebc805612f944c02cd2367ab3431"
+        },
+        {
+          "folio": "F22",
+          "physical": 22,
+          "title": "Many Unhappy Returns",
+          "sha256": "6b37482349e4b4efa21fd1041c33ae63d48e92a4fb8093f8be10412cdac34a65"
+        }
+      ],
+      "binding_status": "NOT_PROVIDER_BOUND"
+    }
+  },
+  "wilson": {
+    "old_original_router": {
+      "state": "GENERATION_BLOCKED",
+      "reason": "ACTIVE_VISUAL_CANON_CONFLICT",
+      "character_id": "CHAR-WILSON-LOOK",
+      "review_gate": "ACTIVE_CANON_VISUAL_CONFLICT_HOLD",
+      "source_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10"
+    },
+    "candidate_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/COMMISSIONER_2026-10-12.png",
+    "candidate_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d",
+    "candidate_bytes": 2209166,
+    "candidate_registry_path": "canon/characters/assets/CHAR-WILSON-LOOK/candidate/COMMISSIONER_2026-10-12.png",
+    "candidate_router": {
+      "state": "GENERATION_BLOCKED",
+      "reason": "REFERENCE_SOURCE_HASH_MISMATCH",
+      "expected_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+      "observed_sha256": "c4ef045845641e6e2067d1ed82be20b9a0fd154c41aff0bfec4c2e36d26d319d"
+    },
+    "approved_presentation_crop_path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+    "approved_presentation_crop_sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f",
+    "candidate_available_at_actual_branch_path": true,
+    "source_supersession_required": true,
+    "independent_C1_required": true,
+    "native_mount_and_subject_binding_required": true
+  },
+  "approval_state": "HOLD_NO_NEW_CINEMATIC_OR_CHARACTER_AUTHORITY",
+  "six_storyboards_pinned_url_validation": [
+    {
+      "scene": "G01",
+      "http_status": 200,
+      "content_type": "image/png",
+      "size": 557103,
+      "sha256_match": true,
+      "expected_size_match": true
+    },
+    {
+      "scene": "G02",
+      "http_status": 200,
+      "content_type": "image/png",
+      "size": 506060,
+      "sha256_match": true,
+      "expected_size_match": true
+    },
+    {
+      "scene": "G03",
+      "http_status": 200,
+      "content_type": "image/png",
+      "size": 519221,
+      "sha256_match": true,
+      "expected_size_match": true
+    },
+    {
+      "scene": "G04",
+      "http_status": 200,
+      "content_type": "image/png",
+      "size": 516215,
+      "sha256_match": true,
+      "expected_size_match": true
+    },
+    {
+      "scene": "G05",
+      "http_status": 200,
+      "content_type": "image/png",
+      "size": 553877,
+      "sha256_match": true,
+      "expected_size_match": true
+    },
+    {
+      "scene": "G06",
+      "http_status": 200,
+      "content_type": "image/png",
+      "size": 494942,
+      "sha256_match": true,
+      "expected_size_match": true
+    }
+  ]
+}

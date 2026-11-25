@@ -1,0 +1,46 @@
+name: Week 11 Memo Source and Creative Intake Gate
+
+on:
+  pull_request:
+    paths:
+      - 'memo-os/week-11/**'
+      - 'memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-20.json'
+      - 'canon/characters/reference_sources_v1.json'
+      - 'world/data/owner_domains.json'
+      - 'world/data/routes.json'
+      - 'world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json'
+      - 'world/location-control-plane/locations/*/CARD.json'
+      - '.github/workflows/memo-week11-source-gate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'memo-os/week-11/**'
+      - 'memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-20.json'
+      - 'canon/characters/reference_sources_v1.json'
+      - 'world/data/owner_domains.json'
+      - 'world/data/routes.json'
+      - 'world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json'
+      - 'world/location-control-plane/locations/*/CARD.json'
+      - '.github/workflows/memo-week11-source-gate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-intake-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Source-pinned Founder and ESPN positive validation
+        run: python3 memo-os/week-11/validate_creative_intake.py
+      - name: Test Founder, scoring, House and scene binding regressions
+        run: python3 -m unittest discover -s memo-os/week-11 -p 'test_validate_*.py' -v
+      - name: Check Week 11 routes and matchup cast, venue and folio assignments
+        run: python3 memo-os/week-11/validate_atlas_routes.py
+      - name: Verify current Week 11 folio links and refreshed artist instructions
+        run: python3 memo-os/week-11/preproduction/validate_folio_handoff.py

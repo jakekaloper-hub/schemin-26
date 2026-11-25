@@ -1,0 +1,85 @@
+{
+  "schema": "schemin26.sck_typed_handoff.v52rc",
+  "run_id": "S26-MEMO-W12-20261125",
+  "trace_id": "TRACE-S26-MEMO-20261125-1417621",
+  "work_key": "league=1417621/season=2026/week=12/observation=2026-11-25/source=flaim-espn",
+  "assignment_id": "ECS-DATA-STEWARD-1417621-20261125",
+  "from": "ECS/LEAGUE_DATA_PLATFORM",
+  "to": "DATA_RELEASE_STEWARD",
+  "artifact": "memo-os/week-9/WEEK_12_PROVIDER_EVIDENCE_2026-11-25.json",
+  "artifact_blob_sha": "14bd0ffdf2f4f49d55e08585ed0cf987b931b168",
+  "artifact_version": 1,
+  "source_authority": "ESPN league 1417621 via authenticated Flaim, provisional normalized observation",
+  "source_snapshot": "data/live:data/snapshots/1417621/manifest.json; capture 2026-11-25T04:01:43.495434+00:00 (manifest only)",
+  "status": "ASSIGNED",
+  "ack_state": "ASSIGNED",
+  "receiver_identity": null,
+  "receiver_signature": null,
+  "receiver_validated_at": null,
+  "verified_facts": [
+    "48/48 producer preflight assertions; all ten requested provider domains returned",
+    "18 Week 9–11 decided matchups unchanged; Week 12 six undecided score pairs unchanged; all 12 competitive standings unchanged",
+    "Week 8–11 typed transaction windows unchanged; Week 12 from 1 to 14 observations, 8 complete, 3 failed, 2 pending, 1 canceled",
+    "Pre-intake head 171a19bf80ae1726de43a397e8a2ffe876fc63fb all 10 reported workflow runs successful; 9 distinct workflow names",
+    "Week 11 internal native/phone candidate receipt reports 14/35 candidates and 0/35 final approvals at its observation"
+  ],
+  "interpretations": [
+    "No Week 11 score or competitive standing dependency changed in this observation; do not reopen unrelated folios",
+    "Pending and terminal waiver rows are distinct observations; no current ownership inferred",
+    "CI recovery is not independent Atlas acceptance or release approval"
+  ],
+  "assumptions": [
+    "The November 24 assignment remains active; this is supplemental observation, not superseding its approval requirements"
+  ],
+  "unavailable": [
+    "Original ESPN HTTP bytes and headers",
+    "Independent parsed direct-gateway parity",
+    "Authenticated Steward service receipt",
+    "Independent release QA",
+    "Trusted SCK communication telemetry"
+  ],
+  "unresolved": [
+    "MISSING_PROVENANCE",
+    "MISSING_DEPENDENCY",
+    "QA_NOT_PERFORMED"
+  ],
+  "confidence": "provider_normalized_preliminary",
+  "qa_already_performed": [
+    "48 deterministic producer checks and exact GitHub content readback",
+    "Pre-intake exact-head CI review"
+  ],
+  "prohibited_inferences": [
+    "CI_IS_STEWARD_APPROVAL",
+    "PENDING_IS_COMPLETED",
+    "PROVISIONAL_IS_FACT_LOCK",
+    "MERCER_AS_SOURCE",
+    "RC_IS_PERMANENT"
+  ],
+  "dependencies": [
+    "ORIGINAL_SOURCE_LINEAGE",
+    "INDEPENDENT_STEWARD_RECEIVER",
+    "SIGNED_VALIDATION_RECEIPT"
+  ],
+  "next_required_action": "ECS to route supplemental intake to authenticated independent Steward; verify original provenance and freshness; issue signed lifecycle events or reject with reason code. Retain prior Week 11 handoff.",
+  "next_gate": "CANONICAL_SNAPSHOT_LOCK",
+  "required_checkpoints": [
+    "CANONICAL_SNAPSHOT_LOCK",
+    "FACT_LOCK",
+    "STORY_LOCK",
+    "CHARACTER_PACKET_LOCK",
+    "ART_LOCK",
+    "COPY_LOCK",
+    "PAGE_LOCK",
+    "RELEASE_DATA_FREEZE"
+  ],
+  "workflow_state": "BLOCKED",
+  "publication_state": "HOLD",
+  "event_observation": {
+    "type": "RELEASE_BLOCKED",
+    "reason": "MISSING_DEPENDENCY",
+    "authenticated_runtime_event": false
+  },
+  "communication_kpis": "UNMEASURABLE_WITHOUT_TRUSTED_EVENTS",
+  "jake_intervention_rate": "UNMEASURABLE_WITHOUT_DENOMINATOR",
+  "scope_firewall": "No Mercer input used; no other agent consulted for source acquisition."
+}

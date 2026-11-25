@@ -1,0 +1,211 @@
+{
+  "schema": "schemin.w11.tldraw.visual-gallery-import.v1",
+  "date": "2026-11-23",
+  "board_id": "H_be9JJ8DjE11hXg4vkTu",
+  "target_page": "page:w11-whole-memo-22nov",
+  "head_commit": "30c083d16ba2912464557c9f559fa8752b5a268a",
+  "expected_before": {
+    "production_shape_ids": [
+      "shape:w11-os-f01",
+      "shape:w11-os-f02",
+      "shape:w11-os-f03",
+      "shape:w11-os-f04",
+      "shape:w11-os-f05",
+      "shape:w11-os-f06",
+      "shape:w11-os-f07",
+      "shape:w11-os-f08",
+      "shape:w11-os-f09",
+      "shape:w11-os-f10",
+      "shape:w11-os-f11",
+      "shape:w11-os-f12",
+      "shape:w11-os-f13",
+      "shape:w11-os-f14",
+      "shape:w11-os-f15",
+      "shape:w11-os-f16",
+      "shape:w11-os-f17",
+      "shape:w11-os-f18",
+      "shape:w11-os-f19",
+      "shape:w11-os-f20",
+      "shape:w11-os-f21",
+      "shape:w11-os-f22",
+      "shape:w11-os-f23",
+      "shape:w11-os-f24",
+      "shape:w11-os-f25",
+      "shape:w11-os-f26",
+      "shape:w11-os-f27",
+      "shape:w11-os-f28",
+      "shape:w11-os-f29",
+      "shape:w11-os-f30",
+      "shape:w11-os-f31",
+      "shape:w11-os-f32",
+      "shape:w11-os-f33",
+      "shape:w11-os-f34",
+      "shape:w11-os-f35"
+    ],
+    "review_shape_ids": [
+      "shape:w11-review-f01",
+      "shape:w11-review-f02",
+      "shape:w11-review-f03",
+      "shape:w11-review-f04",
+      "shape:w11-review-f05",
+      "shape:w11-review-f06",
+      "shape:w11-review-f07",
+      "shape:w11-review-f08",
+      "shape:w11-review-f09",
+      "shape:w11-review-f10",
+      "shape:w11-review-f11",
+      "shape:w11-review-f12",
+      "shape:w11-review-f13",
+      "shape:w11-review-f14",
+      "shape:w11-review-f15",
+      "shape:w11-review-f16",
+      "shape:w11-review-f17",
+      "shape:w11-review-f18",
+      "shape:w11-review-f19",
+      "shape:w11-review-f20",
+      "shape:w11-review-f21",
+      "shape:w11-review-f22",
+      "shape:w11-review-f23",
+      "shape:w11-review-f24",
+      "shape:w11-review-f25",
+      "shape:w11-review-f26",
+      "shape:w11-review-f27",
+      "shape:w11-review-f28",
+      "shape:w11-review-f29",
+      "shape:w11-review-f30",
+      "shape:w11-review-f31",
+      "shape:w11-review-f32",
+      "shape:w11-review-f33",
+      "shape:w11-review-f34",
+      "shape:w11-review-f35"
+    ],
+    "previous_observation_shape_count": 369
+  },
+  "placement": {
+    "rule": "compute live canvas maximum X across existing current-page shapes, then originX=maxX+500 and originY=max(-1000,minY+350)",
+    "columns": 2,
+    "rows": 3,
+    "image_display_size": [
+      1120,
+      630
+    ],
+    "gap_x": 130,
+    "gap_y": 165,
+    "notes": "Only measured tldraw current page bounds are authoritative; this is not a fixed-location assumption."
+  },
+  "items": [
+    {
+      "scene_id": "G01",
+      "reference_files": "03-after-you-austin.png",
+      "public_image_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G01-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "repository_path": "memo-os/week-11/preproduction/visual-previs/W11-G01-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 557103,
+      "sha256": "691806c82ba07f0345e6f6a525e79004526d821f42128164013585b81f0dd08f",
+      "target_shape_id": "shape:w11-production-storyboard-g01",
+      "alt_text": "Schemin Week 11 G01 three-shot production storyboard, not a final published folio",
+      "grid_column": 0,
+      "grid_row": 0,
+      "folio_targets": [
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "import_status": "NOT_VERIFIED"
+    },
+    {
+      "scene_id": "G02",
+      "reference_files": "04-six-i-told-her-six.png",
+      "public_image_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G02-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "repository_path": "memo-os/week-11/preproduction/visual-previs/W11-G02-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 506060,
+      "sha256": "29680dc710e0cec2e9ab4a790817dc406936549aa1707fcac44ad26ccf363c9a",
+      "target_shape_id": "shape:w11-production-storyboard-g02",
+      "alt_text": "Schemin Week 11 G02 three-shot production storyboard, not a final published folio",
+      "grid_column": 1,
+      "grid_row": 0,
+      "folio_targets": [
+        "F12",
+        "F13"
+      ],
+      "import_status": "NOT_VERIFIED"
+    },
+    {
+      "scene_id": "G03",
+      "reference_files": "05-the-safest-seat.png",
+      "public_image_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G03-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "repository_path": "memo-os/week-11/preproduction/visual-previs/W11-G03-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 519221,
+      "sha256": "d9880ef4c97d43aa0e81d0b92993ae5466400f7c5fb2274e354174021f6006df",
+      "target_shape_id": "shape:w11-production-storyboard-g03",
+      "alt_text": "Schemin Week 11 G03 three-shot production storyboard, not a final published folio",
+      "grid_column": 0,
+      "grid_row": 1,
+      "folio_targets": [
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "import_status": "NOT_VERIFIED"
+    },
+    {
+      "scene_id": "G04",
+      "reference_files": "06-first-choice.png",
+      "public_image_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G04-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "repository_path": "memo-os/week-11/preproduction/visual-previs/W11-G04-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 516215,
+      "sha256": "5789698cfce4fe1eeb17d0d12d7a37b551ac137d3703b287ba5e3947e97525ba",
+      "target_shape_id": "shape:w11-production-storyboard-g04",
+      "alt_text": "Schemin Week 11 G04 three-shot production storyboard, not a final published folio",
+      "grid_column": 1,
+      "grid_row": 1,
+      "folio_targets": [
+        "F17",
+        "F18"
+      ],
+      "import_status": "NOT_VERIFIED"
+    },
+    {
+      "scene_id": "G05",
+      "reference_files": "07-the-dry-paw.png",
+      "public_image_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G05-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "repository_path": "memo-os/week-11/preproduction/visual-previs/W11-G05-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 553877,
+      "sha256": "661c7ff31f5669d6ab351c2551f6a1783da595b3158b2a2a9f2b8f135516b98f",
+      "target_shape_id": "shape:w11-production-storyboard-g05",
+      "alt_text": "Schemin Week 11 G05 three-shot production storyboard, not a final published folio",
+      "grid_column": 0,
+      "grid_row": 2,
+      "folio_targets": [
+        "F19",
+        "F20"
+      ],
+      "import_status": "NOT_VERIFIED"
+    },
+    {
+      "scene_id": "G06",
+      "reference_files": "08-stay-for-coffee.png",
+      "public_image_url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G06-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "repository_path": "memo-os/week-11/preproduction/visual-previs/W11-G06-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 494942,
+      "sha256": "e2f113b1a18909a3b939efb6764f1e5fcbcf57054026240774ef229315357045",
+      "target_shape_id": "shape:w11-production-storyboard-g06",
+      "alt_text": "Schemin Week 11 G06 three-shot production storyboard, not a final published folio",
+      "grid_column": 1,
+      "grid_row": 2,
+      "folio_targets": [
+        "F21",
+        "F22"
+      ],
+      "import_status": "NOT_VERIFIED"
+    }
+  ],
+  "state": "READY_TO_IMPORT_NOT_LIVE_CONFIRMED",
+  "specialist_branch": "jakekaloper-hub/bullpen PR #176; VisualLibraryStaff STUB, not promoted",
+  "caveats": [
+    "Use helpers.addImage for real owned assets; never handwrite asset src",
+    "Inspect existing asset shape ID before every upload",
+    "Never retry on unknown outcome without re-inspection",
+    "Preserve existing Week10 page and Week11 70 folio/review cards",
+    "No PDF final, no official fantasy result or final raster acceptance inferred."
+  ]
+}

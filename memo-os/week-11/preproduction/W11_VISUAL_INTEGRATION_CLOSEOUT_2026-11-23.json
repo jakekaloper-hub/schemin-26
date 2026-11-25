@@ -1,0 +1,93 @@
+{
+  "schema": "schemin.w11.visual-integration.closeout.v1",
+  "source_head": "9125779051b3525d0863b1d71eda33dd2b68d94a",
+  "board_id": "H_be9JJ8DjE11hXg4vkTu",
+  "page_id": "page:w11-whole-memo-22nov",
+  "P0": {
+    "status": "PARTIAL_LIVE_EDITOR_BLOCKED",
+    "public_pngs_verified_exact_remote_bytes": 6,
+    "live_imports_confirmed_this_pass": 0,
+    "live_editor_attempts": "Two connector open requests, repeated list loading/empty, read returned NOT_OPEN; no fresh canvas inspection or mutation.",
+    "venue_review_packets": 6,
+    "cinematic_approved": 0,
+    "wilson_candidate_verified": true,
+    "wilson_primary_approval": "HOLD_EXISTING_AUTHORITY"
+  },
+  "P1": {
+    "status": "PARTIAL_VISUAL_ARTIFACT_AND_TESTED_PATCH_COMPLETE_LIVE_STAGE_BLOCKED",
+    "portrait_blocking_folios": 35,
+    "editable_geometry_manifest": "visual-previs/W11_EDITABLE_PORTRAIT_BLOCKING.json",
+    "preview": "visual-previs/W11_35_PORTRAIT_BLOCKING_PREVIEW.png",
+    "preview_sha256": "c1f026d514a5d49a1d01364611bc32c8a42c65aeb9271d9bd02bf0efd92105d4",
+    "editor_script": "visual-previs/apply_w11_tldraw_visuals.js",
+    "mock_patch_tests_passed": 6,
+    "live_editor_shapes_added_this_pass": 0,
+    "scope": "Source-linked symbolic compositions, not final PNG or current live visual acceptance."
+  },
+  "P2": {
+    "status": "GITHUB_CORRECTED_LIVE_REVIEW_HEADINGS_PENDING",
+    "source_registers_updated": 2,
+    "records_corrected": [
+      {
+        "file": "WEEK11_FOLIO_OG_COMPARISON.json",
+        "folio": "F19",
+        "old_title": "One clean paw",
+        "new_title": "The wrong turn",
+        "changed_fields": [
+          "title",
+          "week11_acceptance_test",
+          "week11_card_phone_test"
+        ]
+      },
+      {
+        "file": "WEEK11_FOLIO_OG_COMPARISON.json",
+        "folio": "F20",
+        "old_title": "Back at the post",
+        "new_title": "The road that comes back",
+        "changed_fields": [
+          "title",
+          "week11_acceptance_test",
+          "week11_card_phone_test"
+        ]
+      },
+      {
+        "file": "WEEK11_LOCATION_DESK.json",
+        "folio": "F19",
+        "old_title": "One clean paw",
+        "new_title": "The wrong turn",
+        "changed_fields": [
+          "title",
+          "instruction"
+        ]
+      },
+      {
+        "file": "WEEK11_LOCATION_DESK.json",
+        "folio": "F20",
+        "old_title": "Back at the post",
+        "new_title": "The road that comes back",
+        "changed_fields": [
+          "title",
+          "instruction"
+        ]
+      }
+    ],
+    "historical_sources_preserved": true
+  },
+  "governance": {
+    "production_method_assignments": "Existing 35-folio ownership and twelve disciplines used; no human specialist approval asserted.",
+    "librarian": "Executed draft VisualLibraryStaff read-only preflight; staff remains stub.",
+    "technical": "Simulated editor tests, not independent live Umpire signoff.",
+    "final_raster": "HOLD",
+    "sports": "Independent official Monday results and Tuesday source/FFHub verification required."
+  },
+  "verification": {
+    "creative": 34,
+    "atlas_structural": 6,
+    "folio_routes": 35,
+    "week11_unit": 25,
+    "environment_reference_unit": 9,
+    "character_reference_unit": 7,
+    "mock_tldraw_unit": 6
+  },
+  "next": "Responsive authorized editor: inspect existing page and all 70 cards, compare actual live folio content, then apply titles, each missing gallery image and only reviewed diagram placements; read back and screenshot. Do not treat mock tests as live evidence."
+}

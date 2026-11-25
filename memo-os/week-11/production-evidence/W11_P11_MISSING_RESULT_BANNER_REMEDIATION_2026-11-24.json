@@ -1,0 +1,77 @@
+{
+  "schema": "schemin.w11.p11_missing_result_correction_receipt.v1",
+  "date": "2026-11-24",
+  "folio": "F11",
+  "status": "FOUNDER_REVIEW_CANDIDATE__NOT_UMPIRE_ACCEPTED",
+  "incident": "Original closing illustration retained correct Wilson falling into Mountain Lake and resurfacing alive, but was delivered to Founder with no final result plaque. Two automated full-scene remakes made false winner scenes, dialogue or folio identifiers; rejected. Source ESPN game was already decided and reader manuscript included both points, so defect was output QA, not upstream source.",
+  "cause": "No image-level enforcement that all six closing-scene results had a separately visible exact score banner; no production image proof-gate before Founder preview.",
+  "source_image": {
+    "name": "The Crossing Narrows_ Wilson’s Survival.png",
+    "size": [
+      941,
+      1672
+    ],
+    "sha256": "06b3a7669a241ab6d852e8a2dec9cc60fb7b9e5b7931c83fd79b23849600d998"
+  },
+  "remedy": "One image-edit pass created a source-grounded ornate banner; then local deterministic text composition preserved the user's original P11 art, original narration, bridging story and jester-cap rescue while inserting FINAL RESULT at the lower margin.",
+  "final_result": {
+    "winner": "His Majesty's Blood",
+    "winner_score": 168.2,
+    "loser": "D0nkey K0ng",
+    "loser_score": 129.75,
+    "exact_text": "His Majesty's Blood 168.20  •  D0nkey K0ng 129.75",
+    "source": "W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json#F11"
+  },
+  "files": [
+    {
+      "filename": "Schemin26_W11_P11_The_Carter_Listens_RESULT_FIXED_1080x1920.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "04d1f854d1b0158b4aebb6afa3769ec614599bd736f4c0021567652dd7f08090"
+    },
+    {
+      "filename": "Schemin26_W11_P11_The_Carter_Listens_RESULT_FIXED_390x693.png",
+      "dimensions": [
+        390,
+        693
+      ],
+      "sha256": "e4f636effff853dd0d02452be2af75c6c089c13de326538043706d61c01b0d54"
+    },
+    {
+      "filename": "Schemin26_W11_P11_The_Carter_Listens_RESULT_FIXED_4K.png",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "sha256": "b66f5d62d850321d796861bb75560e04c2544ac90f3b7992f7f833c2637c2e93",
+      "note": "4K enlarged composite, not native image-gen 4K detail"
+    }
+  ],
+  "storage": "Image bytes exist as ChatGPT conversation assets in this turn; not uploaded as GitHub binary files. This receipt records filenames/hashes only.",
+  "qa": {
+    "verified_by_operator": [
+      "visual final-result plaque added to corrected P11 candidate",
+      "source winner/loser and scores matched exactly",
+      "original two-scene fall and survival preserved",
+      "original supplied editorial narrative preserved",
+      "no internal folio number printed",
+      "1080 portrait, 390 phone proof and 4K enlargement generated"
+    ],
+    "not_certified": [
+      "external provider character-reference attachment",
+      "Atlas photo approval",
+      "independent Umpire acceptance"
+    ]
+  },
+  "system_fixes": {
+    "manifest": "memo-os/week-11/preproduction/W11_SIX_MATCHUP_FINAL_RESULT_BANNER_CONTRACT_2026-11-24.json",
+    "page_packet": "memo-os/week-11/preproduction/W11_ALL_35_INTEGRATED_RENDER_INPUTS_2026-11-24.json",
+    "per_page": "memo-os/week-11/preproduction/render-inputs/W11-P11/request.json",
+    "test": "memo-os/week-11/preproduction/validate_week11_result_banners.py",
+    "ci": ".github/workflows/week11-render-source-preflight.yml"
+  },
+  "creative_route": "The Closer controls dispatch, Setup Man routes per-folio, Beat Writer validates exactly printed results, GM OutputReview inspects actual score legibility at native/phone; independent Umpire sign-off after visual evidence.",
+  "no_fictional_approval": true
+}

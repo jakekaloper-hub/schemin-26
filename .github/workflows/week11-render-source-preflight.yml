@@ -1,0 +1,32 @@
+name: Week 11 integrated render source preflight
+
+on:
+  push:
+    branches:
+      - memo-v52rc-20261115-intake
+    paths:
+      - "memo-os/week-11/preproduction/**"
+      - "canon/characters/**"
+      - ".github/workflows/week11-render-source-preflight.yml"
+  pull_request:
+    paths:
+      - "memo-os/week-11/preproduction/**"
+      - "canon/characters/**"
+      - ".github/workflows/week11-render-source-preflight.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  week11-source-preflight:
+    name: Verify exact copy and identity-source bytes (not publication approval)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout pinned branch
+        uses: actions/checkout@v4
+      - name: Verify integrated 35-page packet, approved lineup crops and recovered Oct22 image SHA
+        run: python3 memo-os/week-11/preproduction/verify_week11_render_sources.py
+      - name: Verify all six game-ending final score banners are present in the render handoff
+        run: python3 memo-os/week-11/preproduction/validate_week11_result_banners.py

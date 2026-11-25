@@ -1,0 +1,45 @@
+{
+  "schema": "schemin.w11.image_candidate_provenance.v1",
+  "issue": "One Last Crossing",
+  "page": "F09",
+  "date": "2026-11-24",
+  "stage": "HYPERREAL_REATTEMPT__USER_REVIEW_REQUIRED",
+  "founder_previously_approved_image": "After You, Austin_ Stormbound Duel.png",
+  "new_image_generation": "a_cinematic_high_detail_hyper_realistic_fantasy_b.png",
+  "failure_detected_in_new_generation": "AI generated a large obsolete 'The Crossing Narrows' headline and drifted from exact approved editorial copy",
+  "correction": "Composite from the newly generated more photographic weather/bridge/action layers with user-approved original masthead, small After You, Austin title, corrected speaker attribution and approved narrative lettering. This is a new candidate, NOT a replacement of the prior approved master until founder confirms.",
+  "qa": {
+    "subtitle_subtle": true,
+    "no_visible_folio_id": true,
+    "correct_speaker_alignment": true,
+    "carter_wagon_visible": true,
+    "hooded_austin_red_eyes": true,
+    "wilson_four_hooves_candidate": true,
+    "full_editorial_copy_retained_visually": true,
+    "bridge_intact": true,
+    "independent_character_umpire_approved": false
+  },
+  "outputs": [
+    {
+      "name": "Schemin26_W11_P09_Hyperreal_Reattempt_4K.png",
+      "width": 2160,
+      "height": 3840,
+      "sha256": "aeab01665ce035a4e4cf4ec15650bd00676fcf7bd3b496a897e816959fb7a359",
+      "quality": "Lanczos enlarged + controlled sharpening, not newly photographed native 4K detail"
+    },
+    {
+      "name": "Schemin26_W11_P09_Hyperreal_Reattempt_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "b26f629ebd5a5afb0c0275b547d6ab76a19f909ede0c490a7704beeceed5b22c"
+    },
+    {
+      "name": "Schemin26_W11_P09_Hyperreal_Reattempt_390x693.png",
+      "width": 390,
+      "height": 693,
+      "sha256": "800d4ce12441267f25d76643e7e850dcb142049e35987a293cf15c933c43616b"
+    }
+  ],
+  "storage": "Files are current ChatGPT conversation attachments, not uploaded as binaries to GitHub; repository stores metadata and source control.",
+  "next": "Founder compares new candidate against previously approved P09; do not advance P10 based on unapproved replacement."
+}

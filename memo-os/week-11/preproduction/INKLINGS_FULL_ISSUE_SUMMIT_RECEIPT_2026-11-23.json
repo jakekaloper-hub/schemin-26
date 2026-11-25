@@ -1,0 +1,132 @@
+{
+  "schema": "schemin.week11.literary_production_simulated_summit_receipt.v1",
+  "date_eastern": "2026-11-23",
+  "authority": {
+    "repo": "jakekaloper-hub/schemin-26",
+    "branch": "memo-v52rc-20261115-intake",
+    "pr": 313,
+    "work": "Existing Week 11 35-PNG production; no version promotion, main merge, canon apply or publication"
+  },
+  "mac_runtime": {
+    "device": "Jakes-MacBook-Pro.local",
+    "private_bullpen_head": "915dd2d",
+    "board_skill": "skills/chatgpt/bullpen-board-consultation/SKILL.md",
+    "intent_compiler_command": "board",
+    "router_primary": "the_closer",
+    "router_counterweights": [
+      "the_gm",
+      "the_analyst",
+      "the_umpire"
+    ],
+    "local_model": "ollama/qwen2.5-coder:7b",
+    "local_provider": "127.0.0.1 loopback only",
+    "local_transcript_file": "/tmp/schemin_w11_inklings_summit_20261123.json",
+    "transcripts_committed": false
+  },
+  "modeled_council": {
+    "named_published_method_lenses": [
+      "J.R.R. Tolkien",
+      "C. S. Lewis",
+      "George R.R. Martin",
+      "J.K. Rowling",
+      "John Grisham",
+      "Ursula K. Le Guin",
+      "Brandon Sanderson",
+      "Joe Abercrombie"
+    ],
+    "independent_model_invocations": 8,
+    "reference_production_disciplines": [
+      "Doug Chiang",
+      "Dylan Cole",
+      "Joe Letteri",
+      "Ngila Dickson",
+      "Andy Serkis",
+      "Rob Alonzo",
+      "James Baxter",
+      "Frank Masi",
+      "John Knoll",
+      "Jill Bogdanowicz",
+      "Thelma Schoonmaker",
+      "Randy Thom"
+    ],
+    "production_modeled_invocations": 1,
+    "bullpen_runtime": "createConsultEngine().conveneBoardMeeting",
+    "director_slugs": [
+      "the_beat_writer",
+      "the_librarian",
+      "the_scout",
+      "the_groundskeeper",
+      "the_umpire",
+      "the_closer"
+    ],
+    "director_responses": 6,
+    "closer_synthesis_returned": true,
+    "invocation_errors": 0
+  },
+  "qa": {
+    "human_author_contacted": false,
+    "external_film_professional_contacted": false,
+    "independent_umpire_approved": false,
+    "final_raster_inspected": false,
+    "official_week11_result_included": false,
+    "source_adjudication": "SIMULATED_MODEL_OUTPUTS_REJECTED_WHERE_UNSUPPORTED",
+    "rejected_categories": [
+      "invented championship trophies, forge, enchanted props, extra course geography",
+      "premature official Week 11 winner assertions",
+      "false belt transfer and competition outcome assertions",
+      "claimed already-rendered or approved final imagery",
+      "Bobby fictional directions conflated with ESPN stats manipulation",
+      "anonymous background witness omniscience and unverified truck access"
+    ]
+  },
+  "files": {
+    "summit": "memo-os/week-11/preproduction/INKLINGS_FULL_ISSUE_PERSONALIZATION_SUMMIT_2026-11-23.md",
+    "folio_briefs": "memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md",
+    "questions_reconciled": [
+      "memo-os/week-11/preproduction/INKLINGS_QUESTIONS.md",
+      "memo-os/week-11/preproduction/PRODUCTION_QUESTIONS.md",
+      "memo-os/week-11/preproduction/BULLPEN_QUESTIONS.md"
+    ],
+    "target_folios": [
+      "F09",
+      "F10",
+      "F11",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F21",
+      "F22"
+    ],
+    "matchups_reviewed": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ],
+    "folio_positions_preserved": 35
+  },
+  "stages": [
+    "source_freshness_and_founder_lock",
+    "eight_independent_inklings_method_lenses",
+    "four_story_personalization_candidate_selects",
+    "twelve_discipline_visual_methods",
+    "six_director_bullpen_consult_engine_with_closer_synthesis",
+    "adversarial_source_adjudication",
+    "existing_folio_update_and_readback",
+    "Tuesday_only_scoring_and_release_handoff"
+  ],
+  "release_boundary": {
+    "current": "PREPRODUCTION_REVIEW_RECORDED",
+    "official_winners": "UNDECIDED_AT_OBSERVATION",
+    "fact_lock": "NOT_ATTESTED",
+    "native_png_art_lock": "NOT_ATTESTED",
+    "publication": "HOLD",
+    "tuesday_ffhub": "PENDING_FULL_12_TEAM_SOURCE_VALIDATED_SWEEP",
+    "cover": "PENDING_STRONGEST_CHARACTER_MOMENT",
+    "week12_gotw": "PENDING_PLAYOFF_STAKES_TEST"
+  }
+}

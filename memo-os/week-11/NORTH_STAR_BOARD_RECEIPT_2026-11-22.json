@@ -1,0 +1,781 @@
+{
+  "meeting": "Week 11 north-star review",
+  "runtime_repository": "jakekaloper-hub/bullpen",
+  "runtime_checked_out_revision": "915dd2d23be6c62dab80f65d5279ea914ff1f73b",
+  "entry_point": "consultation.conveneBoardMeeting",
+  "command": "/bullpen board",
+  "meeting_skill": "skills/chatgpt/bullpen-board-consultation/SKILL.md",
+  "project_skill": "skills/schemin-bullpen-execution/SKILL.md",
+  "authority": "Modeled director consultations with independent evidence adjudication. Approval covers continued editorial preparation only.",
+  "first_sitting": {
+    "utc_start": "2026-11-23T00:12:13.129Z",
+    "utc_end": "2026-11-23T00:14:02.657Z",
+    "model": "gemma3:4b",
+    "packet_sha256": "50f6eba5c53f7417739d490287b8f54df5bad1f004fc6c47c82081ff20b9f727",
+    "canonical_route": {
+      "source": "jakekaloper-hub/bullpen",
+      "verified_counterweight_baseline": "fce34487cac4b3d7d18761f686a681cf2cf5ca1f",
+      "primary": "the_beat_writer",
+      "secondary": [
+        "the_closer",
+        "the_gm"
+      ],
+      "counterweight_plan": {
+        "primary": "the_beat_writer",
+        "activated": true,
+        "edge": "truth-preserving narrative quality",
+        "failure_mode": "narrative coherence becoming stronger than evidentiary truth",
+        "counterweights": [
+          "the_scout",
+          "the_librarian"
+        ],
+        "trigger_reasons": [
+          "material_trigger:production"
+        ],
+        "challenge_questions": [
+          "What is the verified event spine?",
+          "Which statements are interpretation rather than fact?",
+          "Did creative framing alter causality or history?"
+        ],
+        "preflight": [
+          "build the fact spine before prose"
+        ],
+        "during": [
+          "keep creative framing subordinate to the event spine"
+        ],
+        "postflight": [
+          "reconcile narrative claims against evidence and provenance"
+        ],
+        "tension": {
+          "id": "story_truth",
+          "name": "Claim Provenance",
+          "principle": "Every meaningful factual claim must know where it came from."
+        }
+      },
+      "canonical_participants": [
+        "the_beat_writer",
+        "the_closer",
+        "the_gm",
+        "the_scout",
+        "the_librarian"
+      ],
+      "schemin_project_roles": [
+        "Inklings",
+        "Visual Development",
+        "Sports Desk"
+      ],
+      "participants": [
+        "the_beat_writer",
+        "the_closer",
+        "the_gm",
+        "the_scout",
+        "the_librarian",
+        "Inklings",
+        "Visual Development",
+        "Sports Desk"
+      ],
+      "authority": {
+        "primary_preserved": true,
+        "counterweights_challenge_only": true,
+        "project_roles_do_not_create_directors": true,
+        "canonical_director_count": 18
+      }
+    },
+    "seats_requested": [
+      "the_beat_writer",
+      "the_closer",
+      "the_gm",
+      "the_scout",
+      "the_librarian",
+      "the_groundskeeper",
+      "the_umpire"
+    ],
+    "response_count": 7,
+    "seats": [
+      {
+        "director": "the_beat_writer",
+        "error": null,
+        "response_characters": 1417,
+        "reply_sha256": "161ab1f430ca580f2c0fd285adb2d6224e7c0cf42c7e2645b9b3f1dbbc115350"
+      },
+      {
+        "director": "the_closer",
+        "error": null,
+        "response_characters": 1559,
+        "reply_sha256": "f4d2f93394f677e9e137bd122d7fc8b1cd828b0bc1dfc5a8ba6f2d1fd817bc2e"
+      },
+      {
+        "director": "the_gm",
+        "error": null,
+        "response_characters": 1504,
+        "reply_sha256": "f503ba1cb04988042466e9f23b6bc6f0de36344a5c89c8658b307fb27458281a"
+      },
+      {
+        "director": "the_scout",
+        "error": null,
+        "response_characters": 1545,
+        "reply_sha256": "a95f4c24bd955e0c3a5fac5092807dff0e1f95e8976f3192f39579d74f49aa0c"
+      },
+      {
+        "director": "the_librarian",
+        "error": null,
+        "response_characters": 1206,
+        "reply_sha256": "9d80aac741c111cf0441dac5ac878223774c48a2a52afeffdd9834569974213a"
+      },
+      {
+        "director": "the_groundskeeper",
+        "error": null,
+        "response_characters": 1784,
+        "reply_sha256": "7286b3f98860c7c56f4bed45615abf7b7338156e39e39ca29128f0781292ebc7"
+      },
+      {
+        "director": "the_umpire",
+        "error": null,
+        "response_characters": 1159,
+        "reply_sha256": "6b28db9e4e1fbcb5ab900f1d8a2337940992bda9ec4d0a0d182518594f9d6c40"
+      }
+    ],
+    "synthesis_characters": 3322,
+    "synthesis_sha256": "f54dcc2d5b2d93875e180bdb32ad1cedb20b0d1a26dba689d622667071ad1ca1"
+  },
+  "source_challenge": {
+    "utc_start": "2026-11-23T00:19:39.740Z",
+    "utc_end": "2026-11-23T00:20:19.864Z",
+    "model": "gemma3:4b",
+    "packet_sha256": "1b09d626a9a666740c0732f1d98413354c044d673f5354b73ab39a5286ada1f6",
+    "canonical_route": {
+      "source": "jakekaloper-hub/bullpen",
+      "verified_counterweight_baseline": "fce34487cac4b3d7d18761f686a681cf2cf5ca1f",
+      "primary": "the_beat_writer",
+      "secondary": [
+        "the_closer",
+        "the_gm"
+      ],
+      "counterweight_plan": {
+        "primary": "the_beat_writer",
+        "activated": true,
+        "edge": "truth-preserving narrative quality",
+        "failure_mode": "narrative coherence becoming stronger than evidentiary truth",
+        "counterweights": [
+          "the_scout",
+          "the_librarian"
+        ],
+        "trigger_reasons": [
+          "material_trigger:production"
+        ],
+        "challenge_questions": [
+          "What is the verified event spine?",
+          "Which statements are interpretation rather than fact?",
+          "Did creative framing alter causality or history?"
+        ],
+        "preflight": [
+          "build the fact spine before prose"
+        ],
+        "during": [
+          "keep creative framing subordinate to the event spine"
+        ],
+        "postflight": [
+          "reconcile narrative claims against evidence and provenance"
+        ],
+        "tension": {
+          "id": "story_truth",
+          "name": "Claim Provenance",
+          "principle": "Every meaningful factual claim must know where it came from."
+        }
+      },
+      "canonical_participants": [
+        "the_beat_writer",
+        "the_closer",
+        "the_gm",
+        "the_scout",
+        "the_librarian"
+      ],
+      "schemin_project_roles": [
+        "Inklings",
+        "Visual Development",
+        "Sports Desk"
+      ],
+      "participants": [
+        "the_beat_writer",
+        "the_closer",
+        "the_gm",
+        "the_scout",
+        "the_librarian",
+        "Inklings",
+        "Visual Development",
+        "Sports Desk"
+      ],
+      "authority": {
+        "primary_preserved": true,
+        "counterweights_challenge_only": true,
+        "project_roles_do_not_create_directors": true,
+        "canonical_director_count": 18
+      }
+    },
+    "seats_requested": [
+      "the_beat_writer",
+      "the_scout",
+      "the_librarian",
+      "the_umpire",
+      "the_closer"
+    ],
+    "response_count": 5,
+    "seats": [
+      {
+        "director": "the_beat_writer",
+        "error": null,
+        "response_characters": 675,
+        "reply_sha256": "4fe3a147c9b1a6f3cf1f8cc5a255dc5998d96bcf3727a2a336b3634abdf7e694"
+      },
+      {
+        "director": "the_scout",
+        "error": null,
+        "response_characters": 623,
+        "reply_sha256": "29e45c1adcff4e762431ed264a46da103577e9ff38f19b7079a5f4ce6d950816"
+      },
+      {
+        "director": "the_librarian",
+        "error": null,
+        "response_characters": 678,
+        "reply_sha256": "74290503517c7621c3d2551ee57db02a6fc657be254703e2a99a61f13be120fd"
+      },
+      {
+        "director": "the_umpire",
+        "error": null,
+        "response_characters": 459,
+        "reply_sha256": "bb6472a440cb0c8b4b937770bb1e0dbe82cb247322441156254440ebc1f55d05"
+      },
+      {
+        "director": "the_closer",
+        "error": null,
+        "response_characters": 586,
+        "reply_sha256": "b429fb9a34a93badaffee3a2d418259c4ce5791a91e738dcfe58f056a783478f"
+      }
+    ],
+    "synthesis_characters": 539,
+    "synthesis_sha256": "230fa51518bdff96b86c62f591d998573568e9ab07a9bdce3f40f2c55412cf58"
+  },
+  "incomplete_challenge_attempt": {
+    "utc_start": "2026-11-23T00:14:53.928Z",
+    "utc_end": "2026-11-23T00:17:32.497Z",
+    "model": "qwen3:8b",
+    "packet_sha256": "1b09d626a9a666740c0732f1d98413354c044d673f5354b73ab39a5286ada1f6",
+    "canonical_route": {
+      "source": "jakekaloper-hub/bullpen",
+      "verified_counterweight_baseline": "fce34487cac4b3d7d18761f686a681cf2cf5ca1f",
+      "primary": "the_beat_writer",
+      "secondary": [
+        "the_closer",
+        "the_gm"
+      ],
+      "counterweight_plan": {
+        "primary": "the_beat_writer",
+        "activated": true,
+        "edge": "truth-preserving narrative quality",
+        "failure_mode": "narrative coherence becoming stronger than evidentiary truth",
+        "counterweights": [
+          "the_scout",
+          "the_librarian"
+        ],
+        "trigger_reasons": [
+          "material_trigger:production"
+        ],
+        "challenge_questions": [
+          "What is the verified event spine?",
+          "Which statements are interpretation rather than fact?",
+          "Did creative framing alter causality or history?"
+        ],
+        "preflight": [
+          "build the fact spine before prose"
+        ],
+        "during": [
+          "keep creative framing subordinate to the event spine"
+        ],
+        "postflight": [
+          "reconcile narrative claims against evidence and provenance"
+        ],
+        "tension": {
+          "id": "story_truth",
+          "name": "Claim Provenance",
+          "principle": "Every meaningful factual claim must know where it came from."
+        }
+      },
+      "canonical_participants": [
+        "the_beat_writer",
+        "the_closer",
+        "the_gm",
+        "the_scout",
+        "the_librarian"
+      ],
+      "schemin_project_roles": [
+        "Inklings",
+        "Visual Development",
+        "Sports Desk"
+      ],
+      "participants": [
+        "the_beat_writer",
+        "the_closer",
+        "the_gm",
+        "the_scout",
+        "the_librarian",
+        "Inklings",
+        "Visual Development",
+        "Sports Desk"
+      ],
+      "authority": {
+        "primary_preserved": true,
+        "counterweights_challenge_only": true,
+        "project_roles_do_not_create_directors": true,
+        "canonical_director_count": 18
+      }
+    },
+    "seats_requested": [
+      "the_beat_writer",
+      "the_scout",
+      "the_librarian",
+      "the_umpire",
+      "the_closer"
+    ],
+    "response_count": 1,
+    "seats": [
+      {
+        "director": "the_beat_writer",
+        "error": null,
+        "response_characters": 0,
+        "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "director": "the_scout",
+        "error": null,
+        "response_characters": 0,
+        "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "director": "the_librarian",
+        "error": null,
+        "response_characters": 0,
+        "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "director": "the_umpire",
+        "error": null,
+        "response_characters": 142,
+        "reply_sha256": "b21e0915511cd586190d779032d4cf2cc2d61c64c4ab0fec61868f9eeb0643a0"
+      },
+      {
+        "director": "the_closer",
+        "error": null,
+        "response_characters": 0,
+        "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "synthesis_characters": 0,
+    "synthesis_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "repository_scope": {
+    "authority": "Full path enumeration using git ls-tree -r, then content search on distinct in-scope text blobs. Branch comparison uses complete snapshot path and blob identity, not line differences or merge intent.",
+    "repository": "jakekaloper-hub/schemin-26",
+    "main": {
+      "commit": "db559bc97ef105c981f1f3d346a2e5332a8b6c93",
+      "paths": 2687,
+      "scan": {
+        "searchable text": 2448,
+        "other format; metadata only": 236,
+        "protected-path; metadata only": 3
+      },
+      "text_search_matches": {
+        "memo": 566,
+        "cross_system": 201,
+        "release_qa": 500,
+        "week11": 11
+      }
+    },
+    "week11": {
+      "commit": "e60a22ba6c255fa12d205b50c659f122d05c4e94",
+      "paths": 2712,
+      "scan": {
+        "searchable text": 2466,
+        "other format; metadata only": 241,
+        "protected-path; metadata only": 5
+      },
+      "text_search_matches": {
+        "memo": 588,
+        "week11": 68,
+        "cross_system": 204,
+        "release_qa": 507
+      },
+      "issue_directory_files": 36
+    },
+    "comparison": {
+      "shared_identical": 2615,
+      "main_only": 40,
+      "candidate_only": 65,
+      "common_paths_different_blob": 32
+    },
+    "scan_vocabulary": {
+      "memo": "weekly memo|memo os|memo-os|weekly.memorand",
+      "cross_system": "cross.os|one canonical world|world evolution|north.star|project mission",
+      "week11": "week\\s*[-_ ]?11\\b|\\bw11[-_]",
+      "release_qa": "fact lock|final.raster|publication gate|release gate|character qa|fidelity"
+    },
+    "scope_limit": "Complete path inventory on both pinned trees. All in-scope text was searched by rule. Binaries, other formats, and protected paths were inventoried by metadata. Owning authorities and issue evidence received editorial reading. Remote branch inventory identifies siblings and lineage; branch presence alone makes no release claim.",
+    "remote_head_count": 314,
+    "root_files": [
+      ".gitattributes",
+      ".gitignore",
+      "CONTRIBUTING.md",
+      "MIGRATION_LEDGER.md",
+      "PROJECT_CONTROL_REGISTRY.md",
+      "README.md",
+      "SCHEMIN_26_PROJECT_MISSION.md",
+      "XCODE_CHATGPT_HANDOFF.md",
+      "XCODE_HANDOFF_PRO_SCHEMIN_WORLD.md"
+    ],
+    "domains": [
+      {
+        "domain": ".github",
+        "kind": "support",
+        "owner": "Repository Operations",
+        "main_files": 34,
+        "candidate_files": 33,
+        "main_entrypoint_read": ".github/workflows/memo-issue-guardrails-ci.yml",
+        "entrypoint_blob": "f74c893715a4cfcc3173fdbdba4d50e75213bd74"
+      },
+      {
+        "domain": "archive",
+        "kind": "lifecycle",
+        "owner": "The Librarian",
+        "main_files": 101,
+        "candidate_files": 101,
+        "main_entrypoint_read": "archive/_INDEX.md",
+        "entrypoint_blob": "373d4735c0727a25c36849819eadfad4ba9cd952"
+      },
+      {
+        "domain": "bullpen",
+        "kind": "domain",
+        "owner": "Schemin Bullpen / Librarian",
+        "main_files": 22,
+        "candidate_files": 22,
+        "main_entrypoint_read": "bullpen/_INDEX.md",
+        "entrypoint_blob": "e7f1c37883d8ac91c72db1388cfd2ee1025377ab"
+      },
+      {
+        "domain": "bullpen-runtime",
+        "kind": "runtime",
+        "owner": "The Architect",
+        "main_files": 18,
+        "candidate_files": 18,
+        "main_entrypoint_read": "bullpen-runtime/README.md",
+        "entrypoint_blob": "7967e70e3d00a6b6ec0f5e62d5a75c205bf2de73"
+      },
+      {
+        "domain": "canon",
+        "kind": "domain",
+        "owner": "Character Canon authority",
+        "main_files": 248,
+        "candidate_files": 248,
+        "main_entrypoint_read": "canon/_INDEX.md",
+        "entrypoint_blob": "4bd44296ce387a6e591c451308f213cdd7df52c1"
+      },
+      {
+        "domain": "chronicles",
+        "kind": "lifecycle",
+        "owner": "The Librarian + Narrative History",
+        "main_files": 174,
+        "candidate_files": 174,
+        "main_entrypoint_read": "chronicles/README.md",
+        "entrypoint_blob": "b0b20b71ee1a45226bfa9176897e7192aa23d056"
+      },
+      {
+        "domain": "data",
+        "kind": "support",
+        "owner": "Data authorities",
+        "main_files": 2,
+        "candidate_files": 2,
+        "main_entrypoint_read": "data/README.md",
+        "entrypoint_blob": "eb9eb09b335b1226d73fe4f14eaa40634d31b140"
+      },
+      {
+        "domain": "data-gateway",
+        "kind": "domain",
+        "owner": "Data Gateway",
+        "main_files": 46,
+        "candidate_files": 32,
+        "main_entrypoint_read": "data-gateway/_INDEX.md",
+        "entrypoint_blob": "be0954bc241c5f72d0ba9d835bdd3b399e6632b1"
+      },
+      {
+        "domain": "docs",
+        "kind": "support",
+        "owner": "The Librarian",
+        "main_files": 31,
+        "candidate_files": 30,
+        "main_entrypoint_read": "docs/README.md",
+        "entrypoint_blob": "874a9b0fe051ff1825e53b80df63b1be3aed1a8d"
+      },
+      {
+        "domain": "governance",
+        "kind": "control",
+        "owner": "Cross-system governance",
+        "main_files": 76,
+        "candidate_files": 69,
+        "main_entrypoint_read": "governance/README.md",
+        "entrypoint_blob": "772538caa3c025208390f2193658c5695b526054"
+      },
+      {
+        "domain": "living-novel",
+        "kind": "domain",
+        "owner": "Novel OS",
+        "main_files": 627,
+        "candidate_files": 625,
+        "main_entrypoint_read": "living-novel/README.md",
+        "entrypoint_blob": "aa9f26d590603d7954e33e19bfc93bbba7cf3777"
+      },
+      {
+        "domain": "memo-os",
+        "kind": "domain",
+        "owner": "Weekly Memo OS",
+        "main_files": 680,
+        "candidate_files": 730,
+        "main_entrypoint_read": "memo-os/_INDEX.md",
+        "entrypoint_blob": "b2fb6607f9bc4d88b7c287b47ba1462cff24d792"
+      },
+      {
+        "domain": "mercer",
+        "kind": "domain",
+        "owner": "Jack Mercer",
+        "main_files": 4,
+        "candidate_files": 4,
+        "main_entrypoint_read": "mercer/_INDEX.md",
+        "entrypoint_blob": "984094bbd62e52c5da75c213e76e94ff05dc1ee7"
+      },
+      {
+        "domain": "planning",
+        "kind": "lifecycle",
+        "owner": "Groundskeeper + owning program",
+        "main_files": 62,
+        "candidate_files": 62,
+        "main_entrypoint_read": "planning/README.md",
+        "entrypoint_blob": "1c44688d7944b1d9d51a860e920a6ba3c842973b"
+      },
+      {
+        "domain": "productions",
+        "kind": "lifecycle",
+        "owner": "Owning cross-system production",
+        "main_files": 4,
+        "candidate_files": 4,
+        "main_entrypoint_read": "productions/README.md",
+        "entrypoint_blob": "2d9c84d1daeb7b06e05e314a4a84df175fba13b8"
+      },
+      {
+        "domain": "prompts",
+        "kind": "support",
+        "owner": "Owning subsystem",
+        "main_files": 1,
+        "candidate_files": 1,
+        "main_entrypoint_read": "prompts/README.md",
+        "entrypoint_blob": "c96cf2c238824dc44ba1b652c5019bb3f42eefc6"
+      },
+      {
+        "domain": "schemas",
+        "kind": "support",
+        "owner": "Owning subsystem / Data",
+        "main_files": 18,
+        "candidate_files": 18,
+        "main_entrypoint_read": "schemas/README.md",
+        "entrypoint_blob": "5e1c67710b1f2573df2b1194144a0aa4e2fd4e6c"
+      },
+      {
+        "domain": "skills",
+        "kind": "runtime",
+        "owner": "Schemin execution adapters",
+        "main_files": 6,
+        "candidate_files": 6,
+        "main_entrypoint_read": "skills/README.md",
+        "entrypoint_blob": "588887212ee5af03385dfbea582c7417ab5bbe56"
+      },
+      {
+        "domain": "tests",
+        "kind": "support",
+        "owner": "QA / owning subsystem",
+        "main_files": 26,
+        "candidate_files": 26,
+        "main_entrypoint_read": "tests/README.md",
+        "entrypoint_blob": "9f605d1d79f17b3ef99dcc5b2b5defda23004b4f"
+      },
+      {
+        "domain": "world",
+        "kind": "domain",
+        "owner": "World Engine / Atlas Control Plane",
+        "main_files": 498,
+        "candidate_files": 498,
+        "main_entrypoint_read": "world/README.md",
+        "entrypoint_blob": "16553665352265154eacfa7544c6e0da2374aae3"
+      }
+    ]
+  },
+  "supplemental_text_screen": {
+    "unique_text_blobs_screened": 2601,
+    "total_text_bytes_screened": 24990406,
+    "blobs_with_at_least_one_matched_term": 537,
+    "scope": "Two pinned trees. Format-limited machine text screening and targeted human-readable review. Binary assets inventoried by path; selected visuals separately inspected."
+  },
+  "week10_recheck": {
+    "physical_pdf_pages": 35,
+    "pairwise_comparisons": 1225,
+    "both_rank_expected_first": 35,
+    "min_expected_rgb_correlation": 0.9970169,
+    "flagged_page_numbers": []
+  },
+  "separate_editorial_rankings_comparator": {
+    "series": "The Twelve — Power Rankings",
+    "edition": "Through Week 7 · Highland Stronghold Edition",
+    "physical_pdf_page": 6,
+    "source_png": {
+      "filename": "The Twelve_ Highland Power Rankings.png",
+      "size_px": [
+        1024,
+        1536
+      ],
+      "sha256": "50f43e01b92108410aa0cee86040fac0936d95523bc712c2d7eb6163be576272"
+    },
+    "official_folio": {
+      "filename": "Schemin_26_Official_Week_7_Memo.pdf",
+      "pages": 31,
+      "bytes": 25066466,
+      "sha256": "48a8e874deaf73ef16b49ffbd77ccb1fcd4a8dca2435244217a35c7d52b53b25"
+    },
+    "visual_check": {
+      "method": "Read each printed row in a viewing copy of the original PNG. Independently normalize the original and all 31 PDFKit page thumbnails to 64 × 96 RGB and rank by mean absolute channel error on [0,1].",
+      "closest_page": 6,
+      "mae": 0.0036760451,
+      "next_closest_page": 15,
+      "next_mae": 0.1667611315
+    },
+    "columns": [
+      "published_rank",
+      "current_team_name",
+      "printed_week7_minus_week6_rank_gain",
+      "printed_week7_record",
+      "printed_week7_points_for"
+    ],
+    "rows": [
+      [
+        1,
+        "Slob on my Dobb",
+        1,
+        "4–3",
+        "1096.78"
+      ],
+      [
+        2,
+        "D0nkey K0ng",
+        -1,
+        "4–3",
+        "1003.70"
+      ],
+      [
+        3,
+        "The Chili Cheesers",
+        4,
+        "4–3",
+        "1014.74"
+      ],
+      [
+        4,
+        "Red Leopards",
+        1,
+        "4–3",
+        "1002.31"
+      ],
+      [
+        5,
+        "Dr. Duckhook",
+        1,
+        "4–3",
+        "983.86"
+      ],
+      [
+        6,
+        "Seven Deadly Chins",
+        2,
+        "4–3",
+        "931.78"
+      ],
+      [
+        7,
+        "His Majesty’s Blood",
+        -3,
+        "4–3",
+        "945.49"
+      ],
+      [
+        8,
+        "ObiWan Jacoby",
+        -5,
+        "4–3",
+        "931.22"
+      ],
+      [
+        9,
+        "El Niño",
+        2,
+        "3–4",
+        "971.03"
+      ],
+      [
+        10,
+        "The LLC",
+        -1,
+        "2–5",
+        "976.82"
+      ],
+      [
+        11,
+        "Three Dreaded Snake",
+        -1,
+        "3–4",
+        "900.59"
+      ],
+      [
+        12,
+        "Mud Dogs",
+        0,
+        "2–5",
+        "882.65"
+      ]
+    ],
+    "use": "The printed footer compares its movement to the published Week 6 Power Rankings. The W7 ranking page prints rank, movement, team, record and PF. It supplies no numerical editorial ranking formula. If the editor restarts this same series after Week 11 results, compare W11's authored 1–12 order against W7 and explicitly label the four-week interval. The W7 page's own arrows describe W6→W7 only.",
+    "edition_checks": [
+      {
+        "week": 8,
+        "result": "Both contact sheets from the 20-page completed edition inspected. No separately published editorial power list.",
+        "source": "memo-os/week-9/production-evidence/convergence-2026-11-09/SOURCE_AND_REVIEW.md"
+      },
+      {
+        "week": 9,
+        "result": "Physical p30 is The Twelve — Scoring Form, a disclosed 70/30 formula.",
+        "source": "Week 10 PR 315, memo-os/week-10/preproduction/week9-review.md"
+      },
+      {
+        "week": 10,
+        "result": "Physical p30 is the 70/30 scoring-form index and cannot supply prior editorial power ranks.",
+        "source": "Week 10 native PNG / Week 11 WEEK10_NATIVE_PNG_REFERENCE_MAP.json"
+      }
+    ]
+  },
+  "issue_outputs": {
+    "original_thread_decisions": "retained",
+    "native_review_boards": 15,
+    "revised_cards": [
+      3,
+      5,
+      11,
+      12
+    ],
+    "game_to_future_witness_handoffs": 6,
+    "raw_model_results": "Included in the private PNG review ZIP under Board-evidence, beside the adjudicated minutes. Raw suggestions include rejected claims.",
+    "final_issue_released": false,
+    "world_state_mutations": 0
+  }
+}

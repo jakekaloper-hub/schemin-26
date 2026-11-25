@@ -1,0 +1,75 @@
+{
+  "folio": "F31",
+  "title": "Under a deal we never made?",
+  "source_revision": "ad45e44fe12f3d4629e3ce457aa4b34f73f7ce22",
+  "production_owner": "Performance, with Pose/Silhouette and Unit Stills; Beat Writer for narrative and GM/OutputReviewStaff for working proof review.",
+  "source_reconciliation": {
+    "subject": "Jake Kaloper / ObiWan Jacoby, private interviewee",
+    "primary_source_authority_check": {
+      "state": "REFERENCE_AUTHORITY_RESOLVED",
+      "character_id": "CHAR-JAKE-KALOPER",
+      "source_filename": "73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+      "expected_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+      "render_quality": "HIGH",
+      "active_version": "1.0"
+    },
+    "byte_count": 765962,
+    "image_dimensions": [
+      1024,
+      1536
+    ],
+    "observed_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+    "observed_git_blob": "10035aa785da4308695bba086a72889848bccbe2",
+    "acquisition": "Exact registered first-party Library original retrieved and rehashed in private staging. Original is kept private.",
+    "current_primary_visual_readback": "Blond face and earth-tone layers. The existing poster has the hood down, a lit saber in his hand and no reporter.",
+    "existing_interview_art_checked": [
+      {
+        "title": "Four cabin-step exchanges with ObiWan Jacoby",
+        "sha256": "8ecd4034727345676b351ca8dfb827355284cd68dbede6b58076d33d9dbf9dfa"
+      },
+      {
+        "title": "Jacoby’s Mountain Porch Press Feature",
+        "sha256": "908e2c25b42e873fc7de1ceddae608ed1762056f76647e671598df423d4168f7"
+      },
+      {
+        "title": "Jacoby’s Week 11 mountain interview",
+        "sha256": "75785222607dbdab849eba88392f0b17dd9af3e05694b82251094c5832b37bf2"
+      },
+      {
+        "title": "ObiWan Jacoby’s mountain porch interview",
+        "sha256": "7cd7f3c97867f7ee5945551e1c3d2dd07f4cd1069902efaa831eea4512e4250b"
+      },
+      {
+        "title": "Twilight Steps with ObiWan Jacoby",
+        "sha256": "eea9f1b182806a1369f294fd7c1c3f3034cec6a9f99d4b7db45c269bcf066234"
+      }
+    ],
+    "existing_plates_visual_disposition": "The five November 19 interview layouts show public steps or the porch and multiple reporters. No plate shows the desk-lamp two-shot and 2023 clipping inside the private shack."
+  },
+  "site_scope": "A tight two-shot at the lamp in the narrative interior is supported. No claim about an exterior approach, exact shack feature or eyewitnesses beyond the interview.",
+  "page_art_requirements": [
+    "Hood up, saber clipped and unlit.",
+    "Reporter and interviewee across a desk lamp; 2023 clipping and November 19 House sheet in reach.",
+    "House stated lineup uncertainty; injury/suspension protection belonged to an unexecuted trade discussed in the dramatized interview."
+  ],
+  "governed_route_check": {
+    "state": "GENERATION_ROUTE_SUBJECT_BINDING_UNPROVEN",
+    "reason": "CAPABILITY_EVIDENCE_UNPROVEN"
+  },
+  "provider_attestation_check": {
+    "state": "RENDERER_REFERENCE_MOUNT_UNVERIFIED",
+    "reason": "PROVIDER_RECEIPT_REQUIRED",
+    "generation_eligible": false
+  },
+  "status": "PRIMARY_VERIFIED__HERO_ART_HELD_FOR_PROVIDER_SUBJECT_BINDING",
+  "remaining_authority": "Character authority and the renderer adapter must return a provider-observed receipt for the mounted primary hash and the Jake subject slot. Then review the output for recognizability, venue constraints and phone reading before advancing.",
+  "publication_approved": false,
+  "full_native_candidate_created": false,
+  "source_files": [
+    "memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md",
+    "memo-os/week-11/preproduction/WEEK11_LOCATION_DESK.json",
+    "memo-os/week-11/preproduction/WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json",
+    "canon/characters/renderer_capabilities_v1.json",
+    "canon/characters/runtime/provider_attachment_receipt.py"
+  ]
+}

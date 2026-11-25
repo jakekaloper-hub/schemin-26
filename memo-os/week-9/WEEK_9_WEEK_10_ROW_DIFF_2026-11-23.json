@@ -1,0 +1,209 @@
+{
+  "schema": "schemin26.truth_plane_row_diff.v1",
+  "run_id": "S26-MEMO-W11-20261123",
+  "trace_id": "TRACE-S26-MEMO-20261123-1417621",
+  "work_key": "league=1417621/season=2026/week=11/observation=2026-11-23/source=flaim-espn",
+  "observation_date": "2026-11-23",
+  "league_id": "1417621",
+  "season": 2026,
+  "compared_to": {
+    "path": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-22.json",
+    "pr": 313,
+    "review_state": "DRAFT"
+  },
+  "typed_key": "espn_event_id.kind+':'+espn_event_id.value",
+  "transaction_rows": {
+    "week8": {
+      "previous_count": 32,
+      "current_count": 32,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 32
+    },
+    "week9": {
+      "previous_count": 42,
+      "current_count": 42,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 42
+    },
+    "week10": {
+      "previous_count": 41,
+      "current_count": 41,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 41
+    },
+    "week11": {
+      "previous_count": 43,
+      "current_count": 43,
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "unchanged_count": 43
+    }
+  },
+  "matchups": {
+    "week9": {
+      "pairing_change": false,
+      "score_or_winner_change": false,
+      "projection_change": false,
+      "score_deltas": []
+    },
+    "week10": {
+      "pairing_change": false,
+      "score_or_winner_change": false,
+      "projection_change": false,
+      "score_deltas": []
+    },
+    "week11": {
+      "pairing_change": false,
+      "score_or_winner_change": true,
+      "projection_change": true,
+      "score_deltas": [
+        {
+          "homeId": 1,
+          "awayId": 7,
+          "previous_home": 0,
+          "current_home": 83.79,
+          "previous_away": 19,
+          "current_away": 133.52,
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "homeId": 3,
+          "awayId": 9,
+          "previous_home": 0,
+          "current_home": 138.86,
+          "previous_away": 22.8,
+          "current_away": 113.1,
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "homeId": 5,
+          "awayId": 8,
+          "previous_home": 3.3,
+          "current_home": 120.8,
+          "previous_away": 0,
+          "current_away": 168.2,
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "homeId": 6,
+          "awayId": 2,
+          "previous_home": 2.1,
+          "current_home": 125.74,
+          "previous_away": 3,
+          "current_away": 83.7,
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "homeId": 10,
+          "awayId": 11,
+          "previous_home": 0,
+          "current_home": 136.96,
+          "previous_away": 5.7,
+          "current_away": 107.06,
+          "provider_winner": "UNDECIDED"
+        },
+        {
+          "homeId": 12,
+          "awayId": 4,
+          "previous_home": 29.06,
+          "current_home": 173.01,
+          "previous_away": 7.8,
+          "current_away": 102.5,
+          "provider_winner": "UNDECIDED"
+        }
+      ]
+    }
+  },
+  "competitive_standings_diffs": [],
+  "standings_metadata_diffs": [
+    {
+      "teamId": 9,
+      "name": "El Niño",
+      "waiverPriority": [
+        12,
+        12
+      ],
+      "currentProjectedRank": [
+        6,
+        5
+      ]
+    },
+    {
+      "teamId": 12,
+      "name": "Dr. Duckhook",
+      "waiverPriority": [
+        9,
+        9
+      ],
+      "currentProjectedRank": [
+        5,
+        4
+      ]
+    },
+    {
+      "teamId": 11,
+      "name": "Seven Deadly Chins",
+      "waiverPriority": [
+        10,
+        10
+      ],
+      "currentProjectedRank": [
+        4,
+        6
+      ]
+    },
+    {
+      "teamId": 1,
+      "name": "ObiWan Jacoby",
+      "waiverPriority": [
+        3,
+        3
+      ],
+      "currentProjectedRank": [
+        10,
+        11
+      ]
+    },
+    {
+      "teamId": 6,
+      "name": "Three Dreaded Snake",
+      "waiverPriority": [
+        2,
+        2
+      ],
+      "currentProjectedRank": [
+        11,
+        10
+      ]
+    }
+  ],
+  "status_distribution_week11": {
+    "canceled": 5,
+    "complete": 32,
+    "failed": 6
+  },
+  "preliminary_checks": {
+    "passed": 69,
+    "failed": [],
+    "checks": 69
+  },
+  "source_limitations": {
+    "week8": {
+      "structured_details_incomplete": true
+    },
+    "week9": {
+      "structured_details_incomplete": true
+    },
+    "week10": {},
+    "week11": {}
+  },
+  "revision_warnings": [],
+  "score_update_classification": "LIVE_WEEK11_SCORE_PROGRESSION_NOT_FINAL"
+}

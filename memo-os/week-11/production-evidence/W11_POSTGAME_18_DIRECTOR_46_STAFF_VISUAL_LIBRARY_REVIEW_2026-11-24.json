@@ -1,0 +1,440 @@
+{
+  "schema": "schemin.w11.postgame.council-source-review.v1",
+  "purpose": "Locate the existing Week 11 production work and reconcile the studio assignments, visual-library evidence and release responsibilities.",
+  "as_of": "2026-11-24T15:06:48.388Z",
+  "schemin_input_commit": "a5253cf918e7ab5f67ec4db643a456935b340940",
+  "existing_handoffs": [
+    {
+      "source": "../preproduction/SUMMIT_84_ROLE_SUMMIT_EXECUTION_RECEIPT_2026-11-23.json",
+      "evidence": "18 director AI responses, 46 staff question desks, 8 Inklings and 12 production-method lenses. 420 questions."
+    },
+    {
+      "source": "../preproduction/W11_POST_MNF_BULLPEN_REVIEW_RECEIPT_2026-11-24.json",
+      "evidence": "6 focused postgame AI director responses before this full board."
+    },
+    {
+      "source": "../preproduction/W11_RESULT_LOCKED_INKLINGS_PRODUCTION_ADJUDICATION_2026-11-24.md",
+      "evidence": "6 postgame narrative/visual review panels covering the 8 literary and 12 film methods. Source-selected Six storylines and 14 cinematic folios."
+    }
+  ],
+  "current_board": {
+    "method": "Canonical createConsultEngine().conveneBoardMeeting on the existing local Bullpen/Ollama host. All 18 registered directors were explicitly selected. Each role prompt included its named staff desks. Local AI advisory responses, no human or independent approval.",
+    "runtime_source": "https://github.com/jakekaloper-hub/bullpen/blob/915dd2d23be6c62dab80f65d5279ea914ff1f73b/runtime/consultEngine.js",
+    "runtime_git_blob": "fde453f1a5391683ccdfcb6be0dc507fa1fa85f2",
+    "org_git_blob": "43759c4c1cb0bc4b8ac3e4affe49dd1bb62a7c2e",
+    "model": "qwen2.5-coder:7b",
+    "started_at": "2026-11-24T15:04:46.107Z",
+    "finished_at": "2026-11-24T15:06:48.388Z",
+    "responses": 18,
+    "errors": 0,
+    "traces": 19,
+    "named_staff_in_director_briefs": 46,
+    "raw_run_sha256": "bad3975f825f47a16eeb2b9242b3721b9a6569afe8d4e919829fb8b8b73ac43f",
+    "synthesis_sha256": "e8b91547056277e426f2f0b3593f389f9fc771a432558b9be905beb9fbeef160",
+    "evidence_custody": "Raw model text remains with the originating private session. Per-director digests cover exact UTF-8 response text. Editorial decisions below are independently reconciled against source.",
+    "returns": [
+      {
+        "director": "the_closer",
+        "staffDesks": [
+          "SessionScribeStaff"
+        ],
+        "returnedAt": "2026-11-24T15:04:55.399Z",
+        "responseSha256": "e181e4cfa033471909f3a1538015de18a1ab9ad8ab3ec533f6295b5389f69263"
+      },
+      {
+        "director": "the_setup_man",
+        "staffDesks": [
+          "PipelineMonitorStaff",
+          "IncidentTriageStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:01.064Z",
+        "responseSha256": "88333117db70ae3bd71860afcb1fbe78709905cc8f08202bb056ea2c460baea9"
+      },
+      {
+        "director": "the_scout",
+        "staffDesks": [
+          "DataFreshnessStaff",
+          "PlayerMapperStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:08.037Z",
+        "responseSha256": "bfa3afa4bf0881e51849debd399012f6683d4234dd771739fdfc08bc962843ae"
+      },
+      {
+        "director": "the_umpire",
+        "staffDesks": [
+          "PatternScanStaff",
+          "CompletionAuditStaff",
+          "PromotionReadinessStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:13.465Z",
+        "responseSha256": "4a1b1601ead43ed8f10e9d1cbe49fc6f3f65cbc2aea0fadcf3df39a728e064f7"
+      },
+      {
+        "director": "the_groundskeeper",
+        "staffDesks": [
+          "DeliveryMonitorStaff",
+          "CostTrackerStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:19.219Z",
+        "responseSha256": "40bd77d349a78e98040df17afc3566824c59e31d1aa0a5554f2bff9b842f74b2"
+      },
+      {
+        "director": "the_beat_writer",
+        "staffDesks": [
+          "NarrativeAssemblyStaff",
+          "HighlightExtractionStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:25.602Z",
+        "responseSha256": "6eca229198591ca33470ca2888531ebc14f849ba7e44058ee8bd141c0382563f"
+      },
+      {
+        "director": "the_gm",
+        "staffDesks": [
+          "TierAuditStaff",
+          "CommissionerBriefStaff",
+          "OutputReviewStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:31.449Z",
+        "responseSha256": "3d15fef35aea2362f227ceb1de2af5e3acb1ddbf89af086ad1be6ca7c825cf08"
+      },
+      {
+        "director": "the_pitching_coach",
+        "staffDesks": [
+          "ModelAssignmentStaff",
+          "PromptVersionStaff",
+          "SceneDiversityStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:37.318Z",
+        "responseSha256": "e65a6d0951cb2f92cb2383111adb54e085ab83f836a17fc58fd2a9dce2e95154"
+      },
+      {
+        "director": "the_warden",
+        "staffDesks": [
+          "AuthCoverageStaff",
+          "SecretScanStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:42.756Z",
+        "responseSha256": "7bfa318f78b92a02e46bee5ac0cec4c166eaa7a6cdad16079eebdbc49b69db0a"
+      },
+      {
+        "director": "the_commissioner",
+        "staffDesks": [
+          "CommissionerFeedbackStaff",
+          "SleeperIngestionStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:49.339Z",
+        "responseSha256": "444fb188e76bc838bb2b2d820d511b5f3f563789dd7a3e241415f4610a12e095"
+      },
+      {
+        "director": "the_analyst",
+        "staffDesks": [
+          "DraftIntelAssemblyStaff",
+          "SeasonPlannerStaff"
+        ],
+        "returnedAt": "2026-11-24T15:05:55.738Z",
+        "responseSha256": "8a76227a3f26e4b007fb57b156e55816feed3624870baf0436fd140fd7028e43"
+      },
+      {
+        "director": "the_librarian",
+        "staffDesks": [
+          "DocCurrencyStaff",
+          "InventoryAuditStaff",
+          "MasterIndexSyncStaff",
+          "CurriculumGuardianAgent",
+          "VisualLibraryStaff",
+          "ControlTowerStaff"
+        ],
+        "returnedAt": "2026-11-24T15:06:01.560Z",
+        "responseSha256": "fad5bfde3d54e7cbf627f7527ac0e4f613283049ade50b2123b757133ba4cbef"
+      },
+      {
+        "director": "the_agent",
+        "staffDesks": [
+          "BrandVoiceStaff",
+          "RevenueSurfaceStaff",
+          "CampaignPerformanceStaff"
+        ],
+        "returnedAt": "2026-11-24T15:06:09.555Z",
+        "responseSha256": "bc47b109bf3094e0ff12b7c11edd725fbc6598a382ad39c699a735c69c67490f"
+      },
+      {
+        "director": "the_bookkeeper",
+        "staffDesks": [
+          "StripeReconciliationStaff",
+          "InvestorReportStaff",
+          "BudgetAlertStaff"
+        ],
+        "returnedAt": "2026-11-24T15:06:16.706Z",
+        "responseSha256": "42e9e1cd74b363a701d6b2afd00fe130a53a731a88c7e67432045f72d613745c"
+      },
+      {
+        "director": "the_commissioner_general",
+        "staffDesks": [
+          "IPRegistryStaff",
+          "ToSLifecycleStaff",
+          "ContentGovernanceStaff"
+        ],
+        "returnedAt": "2026-11-24T15:06:22.396Z",
+        "responseSha256": "06382562635045cd27502bb52022d557279a7d3a07c83c5d3a97b4a46104aa7e"
+      },
+      {
+        "director": "the_clubhouse_manager",
+        "staffDesks": [
+          "AgentOnboardingStaff",
+          "PerformanceTrackingStaff",
+          "CultureAuditStaff"
+        ],
+        "returnedAt": "2026-11-24T15:06:29.169Z",
+        "responseSha256": "b2c6178c92e13e494720330e7c9804966fcb8e5ce144d9bfbf6dd8a2bd9c3010"
+      },
+      {
+        "director": "the_scout_master",
+        "staffDesks": [
+          "PipelineIntelStaff",
+          "OutreachSignalStaff",
+          "ReferralProgramStaff"
+        ],
+        "returnedAt": "2026-11-24T15:06:34.951Z",
+        "responseSha256": "bee7cd13f016cd0f2dedc8de968eaf5e3560319cbc33decd6b6cb2fdfed90f12"
+      },
+      {
+        "director": "the_architect",
+        "staffDesks": [
+          "CodeQualityStaff"
+        ],
+        "returnedAt": "2026-11-24T15:06:42.257Z",
+        "responseSha256": "6d77e0ad048048a39c80a281a1fc116a28f2448fe8eb51d57541488af9c71d65"
+      }
+    ]
+  },
+  "staff_execution": {
+    "worker_source": "https://github.com/jakekaloper-hub/bullpen/blob/70a7031b934d4525859cb5ceea4c247e18680a04/core/staff/portable/index.js",
+    "worker_git_blob": "d904a4869a30d8c51fbec94d985233bbb71b869f",
+    "all_canonical_staff_dispositions": {
+      "CORE_PORTABLE": 15,
+      "MERGE_CANDIDATE": 6,
+      "PROJECT_ADAPTER": 24,
+      "REFERENCE_ONLY": 1
+    },
+    "workers_invoked": 7,
+    "checks_invoked": 11,
+    "scope": "Direct invocations of portable staff implementations over read-only, pinned inputs. The other staff desks were represented by their director. The simulated negative release assertion tests completion-evidence handling and grants no independent approval.",
+    "checks": [
+      {
+        "staff": "InventoryAuditStaff",
+        "director": "the_librarian",
+        "check": "18 official directors",
+        "inputSha256": "ebf7cd6d1bfb8498b2f3359b050085f31a7b1a494dee27d8c382628b77ed5c42",
+        "result": {
+          "expectedCount": 18,
+          "observedCount": 18,
+          "missing": [],
+          "unexpected": [],
+          "duplicates": [],
+          "aligned": true
+        }
+      },
+      {
+        "staff": "InventoryAuditStaff",
+        "director": "the_librarian",
+        "check": "46 canonical staff",
+        "inputSha256": "8ee6e232c0860032f41181521e7909012076c72eb9bd84b7468e5c76e1962027",
+        "result": {
+          "expectedCount": 46,
+          "observedCount": 46,
+          "missing": [],
+          "unexpected": [],
+          "duplicates": [],
+          "aligned": true
+        }
+      },
+      {
+        "staff": "InventoryAuditStaff",
+        "director": "the_librarian",
+        "check": "35 selected cuts",
+        "inputSha256": "2795f81a3ceab6d941a8c66105dd7b32a5585ab892d76cc03c41092da14bccd9",
+        "result": {
+          "expectedCount": 35,
+          "observedCount": 35,
+          "missing": [],
+          "unexpected": [],
+          "duplicates": [],
+          "aligned": true
+        }
+      },
+      {
+        "staff": "InventoryAuditStaff",
+        "director": "the_librarian",
+        "check": "35 shot assignments",
+        "inputSha256": "2795f81a3ceab6d941a8c66105dd7b32a5585ab892d76cc03c41092da14bccd9",
+        "result": {
+          "expectedCount": 35,
+          "observedCount": 35,
+          "missing": [],
+          "unexpected": [],
+          "duplicates": [],
+          "aligned": true
+        }
+      },
+      {
+        "staff": "InventoryAuditStaff",
+        "director": "the_librarian",
+        "check": "35 recorded tldraw source cards",
+        "inputSha256": "2795f81a3ceab6d941a8c66105dd7b32a5585ab892d76cc03c41092da14bccd9",
+        "result": {
+          "expectedCount": 35,
+          "observedCount": 35,
+          "missing": [],
+          "unexpected": [],
+          "duplicates": [],
+          "aligned": true
+        }
+      },
+      {
+        "staff": "MasterIndexSyncStaff",
+        "director": "the_librarian",
+        "check": "420 distinct question IDs",
+        "inputSha256": "6d5931b121b9bed6ba1ff94168d4b09302354ee4836e10664b1cfd0fc0b3ed0e",
+        "result": {
+          "collisions": [],
+          "recordCount": 420,
+          "indexedCount": 420
+        }
+      },
+      {
+        "staff": "DataFreshnessStaff",
+        "director": "the_scout",
+        "check": "age of ESPN and TheFFHub source captures",
+        "inputSha256": "4351792b468f4a839d95fbeadf47f43cd44f9623e2e4c795c6bcd2757c596b1f",
+        "result": {
+          "requiredSources": 2,
+          "freshSources": 2,
+          "staleSources": 0,
+          "overdue": [],
+          "freshnessScore": "healthy"
+        }
+      },
+      {
+        "staff": "OutputReviewStaff",
+        "director": "the_gm",
+        "check": "six source-adjudicated scenes and phone scale in adjudication",
+        "inputSha256": "4a8515b0c82c6a457d7dad67d3cfe3248f63c884e24ce64f220dd1f7872e3ec2",
+        "result": {
+          "passed": true,
+          "failures": [],
+          "requirementCount": 7,
+          "evidenceCount": 0
+        }
+      },
+      {
+        "staff": "SecretScanStaff",
+        "director": "the_warden",
+        "check": "selected public consultation and planning documents",
+        "inputSha256": "1a04f9ae12d13a9898ab2de7a6c0b5e8e3493256418339b805be2c7b0ceb34d3",
+        "result": {
+          "filesScanned": 9,
+          "findings": [],
+          "findingCount": 0,
+          "safe": true,
+          "note": "Findings intentionally exclude matched secret values."
+        }
+      },
+      {
+        "staff": "CompletionAuditStaff",
+        "director": "the_umpire",
+        "check": "test whether captured producer receipts alone support a full release",
+        "inputSha256": "6a409c7c954b57281133d0b56508f96b364419e72c6006ef214902e188240645",
+        "result": {
+          "auditPassed": false,
+          "failureReasons": [
+            "tests[] is required",
+            "result is required",
+            "owner_review is required"
+          ],
+          "evidenceCount": 2,
+          "testCount": 0
+        }
+      },
+      {
+        "staff": "SessionScribeStaff",
+        "director": "the_closer",
+        "check": "record studio handoff from reviewed source",
+        "inputSha256": "4dbf33fcb0ce0c2d0c8473f408fcb2d9e8fd95a91c572595fb0f3de477283f87",
+        "result": {
+          "persistence_required": true
+        }
+      }
+    ]
+  },
+  "visual_library_specialist": {
+    "source": "https://github.com/jakekaloper-hub/bullpen/pull/176",
+    "cli_git_blob": "99aad9c114e9450905725749325d7ee4d5558bdf",
+    "test_git_blob": "da6e21697db4f29d095cef99f7bf7eb9e747d043",
+    "tests_passed": 5,
+    "tests_run": 5,
+    "application": {
+      "status": "PLAN_GATES_PASS_NOT_LIVE_CANVAS_OR_FINAL_RASTER",
+      "board": "H_be9JJ8DjE11hXg4vkTu",
+      "pageId": "page:w11-whole-memo-22nov",
+      "folioCount": 35,
+      "uniqueShapes": 70,
+      "distinctLeadDisciplines": 12,
+      "sourceStudyPositions": 33,
+      "resultOverlayPositions": 23,
+      "errors": [],
+      "warnings": [],
+      "limits": [
+        "No live tldraw editor read",
+        "No screenshot or accepted raster",
+        "No publication authority"
+      ]
+    },
+    "scope": "Read-only VisualLibraryStaff preflight over the saved card/shot manifests. Live board inspection belongs in its own receipt. The draft specialist patch grants no staff-adapter promotion."
+  },
+  "adjudicated_actions": [
+    {
+      "owner": "The Closer / SessionScribeStaff; The Scout / DataFreshnessStaff",
+      "finding": "All 35 postgame cuts, 6 adjudicated scene outcomes and 12 standings rows have source records. The full-board model proposed an ingestion refresh. Both actual captures were within 24 hours during this check. Trusted Steward review remains a separate release dependency.",
+      "sources": [
+        "W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json",
+        "W11_POST_MNF_FLAIM_ESPN_SOURCE_2026-11-24.json",
+        "W11_FFHUB_POST_WEEK11_ODDS_2026-11-24.json",
+        "W11_POST_MNF_FINAL_SOURCE_REGRESSION_2026-11-24.json"
+      ]
+    },
+    {
+      "owner": "The Librarian / InventoryAuditStaff and VisualLibraryStaff; The Pitching Coach / SceneDiversityStaff",
+      "finding": "Match the 35 source cards and 35 review cards by stable IDs on the Week 11 page. Trace the six storyboard source bytes to board-owned assets and each final folio to native and phone proof. A 35-card inventory passes only source coverage.",
+      "sources": [
+        "W11_ALL_35_VISUAL_DIRECTOR_SHOT_SPECS_2026-11-23.json",
+        "W11_TLDRAW_VS_GITHUB_AUDIT_2026-11-23.json"
+      ]
+    },
+    {
+      "owner": "The Beat Writer / NarrativeAssemblyStaff; The GM / OutputReviewStaff",
+      "finding": "For F09–F22 use the six result-selected storylines. Verify the two-owner page action, cast, and site before output. The model assigned those scenes to TierAuditStaff; editorial routing follows the adopted role assignments.",
+      "sources": [
+        "W11_RESULT_LOCKED_INKLINGS_PRODUCTION_ADJUDICATION_2026-11-24.md"
+      ]
+    },
+    {
+      "owner": "The Commissioner General / IPRegistryStaff; The Warden; The Umpire / CompletionAuditStaff",
+      "finding": "Verify the accepted Wilson Look reference, venue plates, actual cast binding, and independently reviewed page images. The Warden model suggested updating access permissions; no permission change was required or performed. No governance authority or release status changed in this review.",
+      "sources": [
+        "WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json",
+        "W11_POST_MNF_FINAL_SOURCE_REGRESSION_2026-11-24.json"
+      ]
+    },
+    {
+      "owner": "The Architect; The Bookkeeper; The Groundskeeper",
+      "finding": "Use stable folio IDs and artifact hashes. Fourteen feature folios map to the six games; the twenty-one supporting folios retain their own editorial functions. The Bookkeeper suggestion to require a game-ending link on every cut and any automatic claim of finished rendering were rejected.",
+      "sources": [
+        "W11_POST_MNF_ALL_35_FOLIO_SELECTED_CUTS_2026-11-24.json",
+        "W11_FINAL_SCENE_14_FOLIO_VISUAL_PERFORMANCE_REGISTER_2026-11-24.json"
+      ]
+    }
+  ],
+  "source_path_base": "../preproduction/",
+  "independent_umpire_approval": false,
+  "release_decision": "No release action in this advisory run."
+}

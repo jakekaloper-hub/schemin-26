@@ -31,6 +31,20 @@
       "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
     },
     {
+      "handle_id": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "parent_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "foot of the Eastern Ascent",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
+    },
+    {
       "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::MUD-CHANNELS",
       "parent_location_id": "LOC-MUD-DOGS-SWAMP",
       "name": "mud channels",
@@ -59,9 +73,37 @@
       "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
     },
     {
+      "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+      "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Gators & Dawgs sign",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
+    },
+    {
       "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::CLUBHOUSE",
       "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
       "name": "clubhouse",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "executive office",
       "handle_class": "PERSISTENT_FEATURE_HANDLE",
       "source": "persistent_landmarks",
       "inherits": [
@@ -269,6 +311,20 @@
       "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
     },
     {
+      "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "falls vegetation break",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
+    },
+    {
       "handle_id": "SUB::LOC-CHILI-STABLE::STABLE",
       "parent_location_id": "LOC-CHILI-STABLE",
       "name": "stable",
@@ -365,6 +421,20 @@
         "route_context"
       ],
       "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Hearthroad rut",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
     },
     {
       "handle_id": "SUB::LOC-CHINS-ROAD-COMMONS::ROADSIDE-HALL",

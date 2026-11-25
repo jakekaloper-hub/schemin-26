@@ -1,0 +1,685 @@
+{
+  "method": "Render the full physical PDF page at 72 dpi, RGB, on white in PyMuPDF. Convert each page and each viewing copy to 128 x 192 RGB with Pillow Lanczos; normalize channels to [0,1]. Rank all PDF pages by mean absolute RGB error (lower is closer) and independently by centered Pearson correlation (higher is closer).",
+  "scope_limit": "This checks visible page identity at thumbnail resolution. JPEG recompression, PDF rasterization and downsampling do not establish byte identity or certify individual text characters.",
+  "pdf_sha256": "520fa19c5881623c74c5052d36ba09fefbc793592917e523ec9f4114cf84f2b2",
+  "physical_pdf_pages": 35,
+  "pairwise_comparisons": 1225,
+  "both_rank_expected_first": 35,
+  "max_expected_rgb_mae": 0.0100175,
+  "min_expected_rgb_correlation": 0.9970169,
+  "flagged_page_numbers": [],
+  "pages": [
+    {
+      "physical_page": 1,
+      "folio_source_id": "W10-P01",
+      "source_title": "THE CEILING BREAKS",
+      "native_file": "01 - The Ceiling Breaks_ Week 10.png",
+      "native_pixels": [
+        992,
+        1586
+      ],
+      "native_sha256": "25bdf746e914b5021c286f2d654c17ddd3c05eb25d48531d72c4c2c7973f5df8",
+      "visible_detail": "Two 200-point performances share the cover, one at the bridge and one in the club.",
+      "week11_review_boards": [
+        "01 Opening pages"
+      ],
+      "nearest_pdf_page_by_rgb": 1,
+      "nearest_pdf_page_by_correlation": 1,
+      "normalized_rgb_mae": 0.005334,
+      "thumbnail_correlation": 0.9994716
+    },
+    {
+      "physical_page": 2,
+      "folio_source_id": "W10-P02",
+      "source_title": "ROOM ABOVE TWO HUNDRED",
+      "native_file": "02 - Tabletop league atlas.png",
+      "native_pixels": [
+        940,
+        1672
+      ],
+      "native_sha256": "ce95c0f95dfd253f35980a45353a8b311597f52ad74352de80b03c16017f4999",
+      "visible_detail": "The reader looks down onto a relief map from the edge of a table.",
+      "week11_review_boards": [
+        "01 Opening pages"
+      ],
+      "nearest_pdf_page_by_rgb": 2,
+      "nearest_pdf_page_by_correlation": 2,
+      "normalized_rgb_mae": 0.0051448,
+      "thumbnail_correlation": 0.9993308
+    },
+    {
+      "physical_page": 3,
+      "folio_source_id": "W10-P03",
+      "source_title": "KEEP THE WHOLE LEAGUE IN VIEW",
+      "native_file": "03 - Iron-nailed commissioner’s letter.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "5f20b3208d221eb26a15b7bf57ca227111db97d80a21d6bc43bfc455d2aec91a",
+      "visible_detail": "A nail fixes the Commissioner’s handwritten page to a wooden desk.",
+      "week11_review_boards": [
+        "01 Opening pages"
+      ],
+      "nearest_pdf_page_by_rgb": 3,
+      "nearest_pdf_page_by_correlation": 3,
+      "normalized_rgb_mae": 0.0083709,
+      "thumbnail_correlation": 0.9988544
+    },
+    {
+      "physical_page": 4,
+      "folio_source_id": "W10-P04",
+      "source_title": "THE WEEK 10 BOARD",
+      "native_file": "04 - Rain-Swept Week 10 Result Board.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "581ff56abfc8a575c24a9a39a55e376cd388f363aeccac0f34c156720b528a1a",
+      "visible_detail": "The six results are grouped on one rain-glossed board above the spectators.",
+      "week11_review_boards": [
+        "02 Scoreboard & Commonwealth"
+      ],
+      "nearest_pdf_page_by_rgb": 4,
+      "nearest_pdf_page_by_correlation": 4,
+      "normalized_rgb_mae": 0.007949,
+      "thumbnail_correlation": 0.9978267
+    },
+    {
+      "physical_page": 5,
+      "folio_source_id": "W10-P05",
+      "source_title": "Everybody Gets a View",
+      "native_file": "05 - Chili’s Highland Rodeo Escape.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "af769d70ef6a238a2b63ff5a8ddaf428bc5c42dd8ca0e45c2d79690d0ed3e4f0",
+      "visible_detail": "Brandon imitates Wilson in front of a tiered rodeo audience.",
+      "week11_review_boards": [
+        "03 G01  /  Game of the Week"
+      ],
+      "nearest_pdf_page_by_rgb": 5,
+      "nearest_pdf_page_by_correlation": 5,
+      "normalized_rgb_mae": 0.009992,
+      "thumbnail_correlation": 0.9972052
+    },
+    {
+      "physical_page": 6,
+      "folio_source_id": "W10-P06",
+      "source_title": "The Ring Runs Out",
+      "native_file": "06 - A muddy run ends at the gate.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "c03c9a8da2a6881c38d7a9eb02c4814cc302f4c2027f1dca842a6a3ca8de3eb6",
+      "visible_detail": "A rope cuts the attempted escape short. The wide returns the pair to the ring.",
+      "week11_review_boards": [
+        "03 G01  /  Game of the Week"
+      ],
+      "nearest_pdf_page_by_rgb": 6,
+      "nearest_pdf_page_by_correlation": 6,
+      "normalized_rgb_mae": 0.0093236,
+      "thumbnail_correlation": 0.9970437
+    },
+    {
+      "physical_page": 7,
+      "folio_source_id": "W10-P07",
+      "source_title": "No Private Exit",
+      "native_file": "07 - No private exit.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "fd7a758f639c22107cf24a27c015a4c51a0ca978b97d1ad8236acf8bb583cf59",
+      "visible_detail": "Brandon’s hat is in the mud within sight of the front row.",
+      "week11_review_boards": [
+        "05 G03  /  Eastern Ascent",
+        "14 After Dark  /  Mountain shack"
+      ],
+      "nearest_pdf_page_by_rgb": 7,
+      "nearest_pdf_page_by_correlation": 7,
+      "normalized_rgb_mae": 0.0099881,
+      "thumbnail_correlation": 0.9971209
+    },
+    {
+      "physical_page": 8,
+      "folio_source_id": "W10-P08",
+      "source_title": "One More Bag",
+      "native_file": "08 - The Last Sandbag Against the Storm.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "6b21ef26c9a3e0411a572154a6187efd190e1d8ba50d5339962986e9056fc39a",
+      "visible_detail": "Kevin leans into a sandbag as rivulets gather at his feet.",
+      "week11_review_boards": [
+        "04 G02  /  Hearthroad"
+      ],
+      "nearest_pdf_page_by_rgb": 8,
+      "nearest_pdf_page_by_correlation": 8,
+      "normalized_rgb_mae": 0.0089677,
+      "thumbnail_correlation": 0.9974767
+    },
+    {
+      "physical_page": 9,
+      "folio_source_id": "W10-P09",
+      "source_title": "The Place That Answered Once",
+      "native_file": "09 - Red Leopards and the falling backboard.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "7feced6888acf86513de848552d3c27aa04a5a0af7d90a209b0262e05fbd7b2b",
+      "visible_detail": "A fallen limb takes the backboard with it in the overgrown court.",
+      "week11_review_boards": [
+        "06 G04  /  The outer falls"
+      ],
+      "nearest_pdf_page_by_rgb": 9,
+      "nearest_pdf_page_by_correlation": 9,
+      "normalized_rgb_mae": 0.0100131,
+      "thumbnail_correlation": 0.9970892
+    },
+    {
+      "physical_page": 10,
+      "folio_source_id": "W10-P10",
+      "source_title": "That Cold Again",
+      "native_file": "10 - Red Leopard Beneath the Hoop.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "fd0601e4884fc430922f3389f2f2dad207706dbe0f26cf6491b079a4a4cd0b0f",
+      "visible_detail": "Kevin sits beneath the tilted hoop. His posture carries the result.",
+      "week11_review_boards": [
+        "06 G04  /  The outer falls"
+      ],
+      "nearest_pdf_page_by_rgb": 10,
+      "nearest_pdf_page_by_correlation": 10,
+      "normalized_rgb_mae": 0.008546,
+      "thumbnail_correlation": 0.9972373
+    },
+    {
+      "physical_page": 11,
+      "folio_source_id": "W10-P11",
+      "source_title": "THE ROADS BETWEEN",
+      "native_file": "11 - The Commonwealth Under Stormlight.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "5d2056b6b90fe2fc5f8dd78ab2aee93409f22a28671ec991e338703055216fcd",
+      "visible_detail": "A traveler tightens his cover at a stone parapet. Coast and wetlands get separate views.",
+      "week11_review_boards": [
+        "02 Scoreboard & Commonwealth"
+      ],
+      "nearest_pdf_page_by_rgb": 11,
+      "nearest_pdf_page_by_correlation": 11,
+      "normalized_rgb_mae": 0.0090239,
+      "thumbnail_correlation": 0.9977791
+    },
+    {
+      "physical_page": 12,
+      "folio_source_id": "W10-P12",
+      "source_title": "Just as the House Settles",
+      "native_file": "12 - Jackhammer chaos in the waterfall courtyard.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "4e431687102250a1c39e7038a6ade4e45104c4a72e2005cf9071e7163419ff7d",
+      "visible_detail": "Phillip looks down from his balcony as Ben breaks pavement with a jackhammer.",
+      "week11_review_boards": [
+        "06 G04  /  The outer falls"
+      ],
+      "nearest_pdf_page_by_rgb": 12,
+      "nearest_pdf_page_by_correlation": 12,
+      "normalized_rgb_mae": 0.0085801,
+      "thumbnail_correlation": 0.9978975
+    },
+    {
+      "physical_page": 13,
+      "folio_source_id": "W10-P13",
+      "source_title": "He Heard You",
+      "native_file": "13 - He heard you, chose the encore.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "03740f632dbe5030326bdaafed37ae83770df45f64dbc31b93cdbe01202182b9",
+      "visible_detail": "Ben’s hand returns to the controls after the man on the balcony objects.",
+      "week11_review_boards": [
+        "07 G05  /  Gators & Dawgs"
+      ],
+      "nearest_pdf_page_by_rgb": 13,
+      "nearest_pdf_page_by_correlation": 13,
+      "normalized_rgb_mae": 0.008549,
+      "thumbnail_correlation": 0.9979488
+    },
+    {
+      "physical_page": 14,
+      "folio_source_id": "W10-P14",
+      "source_title": "No Quiet Hours",
+      "native_file": "14 - Chins’ Revenge Dance Below the Balcony.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "9c7e43b68a56ddf06219e8a15310229a03e350b95631b594e2c7ecda0c75d709",
+      "visible_detail": "The reverse gives Phillip the last look down into the noisy courtyard.",
+      "week11_review_boards": [
+        "07 G05  /  Gators & Dawgs"
+      ],
+      "nearest_pdf_page_by_rgb": 14,
+      "nearest_pdf_page_by_correlation": 14,
+      "normalized_rgb_mae": 0.0089417,
+      "thumbnail_correlation": 0.9979576
+    },
+    {
+      "physical_page": 15,
+      "folio_source_id": "W10-P15",
+      "source_title": "The Swamp Declares a Blockade",
+      "native_file": "15 - Mud Dog Guards the Swamp Entrance.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "425e824ec60c4fd053cc9b5e5c5e8fd16ce19ac6ce5679efc587f67c91656b62",
+      "visible_detail": "A dog waits by the old overhead sign. The headlights of a delivery truck enter from the right.",
+      "week11_review_boards": [
+        "07 G05  /  Gators & Dawgs"
+      ],
+      "nearest_pdf_page_by_rgb": 15,
+      "nearest_pdf_page_by_correlation": 15,
+      "normalized_rgb_mae": 0.0098867,
+      "thumbnail_correlation": 0.9974324
+    },
+    {
+      "physical_page": 16,
+      "folio_source_id": "W10-P16",
+      "source_title": "Same Speed",
+      "native_file": "16 - Same Speed Through the Swamp.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "b3e5419ebfcaa9e95d816051f60ad894f9fefa11c03622edf6e3db3544ed9f93",
+      "visible_detail": "Jordan remains in the cab while the loaded flatbed moves through at ordinary speed.",
+      "week11_review_boards": [
+        "04 G02  /  Hearthroad"
+      ],
+      "nearest_pdf_page_by_rgb": 16,
+      "nearest_pdf_page_by_correlation": 16,
+      "normalized_rgb_mae": 0.0099724,
+      "thumbnail_correlation": 0.9970691
+    },
+    {
+      "physical_page": 17,
+      "folio_source_id": "W10-P17",
+      "source_title": "Cancún Is Calling",
+      "native_file": "17 - Last Tail Lamp in the Swamp.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "57f9e808621787e840f51990e090fc0b8acaa711f88065055a1a8cdaefb8b687",
+      "visible_detail": "Empty stands sit left of Bobby. The small Cancún postcard hangs on the right-hand post.",
+      "week11_review_boards": [
+        "07 G05  /  Gators & Dawgs",
+        "12 Playoff road"
+      ],
+      "nearest_pdf_page_by_rgb": 17,
+      "nearest_pdf_page_by_correlation": 17,
+      "normalized_rgb_mae": 0.0089312,
+      "thumbnail_correlation": 0.9971905
+    },
+    {
+      "physical_page": 18,
+      "folio_source_id": "W10-P18",
+      "source_title": "WHY THE BOARD MOVED",
+      "native_file": "18 - Schemin-W10-18-Why-the-Board-Moved.png",
+      "native_pixels": [
+        1080,
+        1920
+      ],
+      "native_sha256": "d7810868b992de977cb680064901e1ba3820c378cb4755a1729289309a623b9d",
+      "visible_detail": "A Sports Desk page places a starter-leaders table above attributed scoring analysis.",
+      "week11_review_boards": [
+        "09 Sports Desk & availability"
+      ],
+      "nearest_pdf_page_by_rgb": 18,
+      "nearest_pdf_page_by_correlation": 18,
+      "normalized_rgb_mae": 0.0043149,
+      "thumbnail_correlation": 0.9996097
+    },
+    {
+      "physical_page": 19,
+      "folio_source_id": "W10-P34",
+      "source_title": "THE COST OF SUNDAY",
+      "native_file": "19 - Schemin-W10-19-The-Cost-of-Sunday.png",
+      "native_pixels": [
+        1080,
+        1920
+      ],
+      "native_sha256": "155636bbbaef822f8b909e8a17eb2ac7ee20b28a0314b730e31509bbd89ae959",
+      "visible_detail": "The health desk labels the timing and roster consequence of each availability note.",
+      "week11_review_boards": [
+        "09 Sports Desk & availability",
+        "13 Pittsy’s Book"
+      ],
+      "nearest_pdf_page_by_rgb": 19,
+      "nearest_pdf_page_by_correlation": 19,
+      "normalized_rgb_mae": 0.004202,
+      "thumbnail_correlation": 0.9994675
+    },
+    {
+      "physical_page": 20,
+      "folio_source_id": "W10-P19",
+      "source_title": "A Very Generous Guest",
+      "native_file": "20 - The Champion’s Gift at Jackson Club.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "70fde235a6fcdb7aa26ce4f1c65d29d7cde0ebc805612f944c02cd2367ab3431",
+      "visible_detail": "Guests turn from their tables as Austin carries a gift into the Jackson dining room.",
+      "week11_review_boards": [
+        "08 G06  /  Jackson executive office"
+      ],
+      "nearest_pdf_page_by_rgb": 20,
+      "nearest_pdf_page_by_correlation": 20,
+      "normalized_rgb_mae": 0.0099215,
+      "thumbnail_correlation": 0.9976121
+    },
+    {
+      "physical_page": 21,
+      "folio_source_id": "W10-P20",
+      "source_title": "The 200 Burger",
+      "native_file": "21 - Duckhook’s 200 Burger Birthday.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "7c7ee36222f90b79955e07b4ef592834703798a97ceb2f0e9070d0eed4a24afd",
+      "visible_detail": "Zach opens the box. A small pennant names the 200 Burger.",
+      "week11_review_boards": [
+        "03 G01  /  Game of the Week"
+      ],
+      "nearest_pdf_page_by_rgb": 21,
+      "nearest_pdf_page_by_correlation": 21,
+      "normalized_rgb_mae": 0.0089048,
+      "thumbnail_correlation": 0.9982335
+    },
+    {
+      "physical_page": 22,
+      "folio_source_id": "W10-P21",
+      "source_title": "Many Unhappy Returns",
+      "native_file": "22 - Birthday cake payback.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "6b37482349e4b4efa21fd1041c33ae63d48e92a4fb8093f8be10412cdac34a65",
+      "visible_detail": "Cake hits Zach’s face while the boxed hamburger stays in the lower corner.",
+      "week11_review_boards": [
+        "08 G06  /  Jackson executive office"
+      ],
+      "nearest_pdf_page_by_rgb": 22,
+      "nearest_pdf_page_by_correlation": 22,
+      "normalized_rgb_mae": 0.0100175,
+      "thumbnail_correlation": 0.9980362
+    },
+    {
+      "physical_page": 23,
+      "folio_source_id": "W10-P22",
+      "source_title": "The Empire Opens Fire",
+      "native_file": "23 - Green Blade, Red Fire.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "f85797f8d6357b2db43470cfa6bc070d17e9abd394fd5ad2ef825f9d996b7d70",
+      "visible_detail": "A green blade catches incoming fire on the approach to Jake’s home.",
+      "week11_review_boards": [
+        "14 After Dark  /  Mountain shack"
+      ],
+      "nearest_pdf_page_by_rgb": 23,
+      "nearest_pdf_page_by_correlation": 23,
+      "normalized_rgb_mae": 0.0092833,
+      "thumbnail_correlation": 0.9978833
+    },
+    {
+      "physical_page": 24,
+      "folio_source_id": "W10-P23",
+      "source_title": "The Price of Quiet",
+      "native_file": "24 - The LLC descends toward ObiWan.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "b0f7016637798f139088df0b538ea4512509d3abebae8a8308e9002a1ec62232",
+      "visible_detail": "David descends the lit steps. The inset keeps the waiting retriever in the story.",
+      "week11_review_boards": [
+        "05 G03  /  Eastern Ascent",
+        "12 Playoff road",
+        "14 After Dark  /  Mountain shack"
+      ],
+      "nearest_pdf_page_by_rgb": 24,
+      "nearest_pdf_page_by_correlation": 24,
+      "normalized_rgb_mae": 0.0089457,
+      "thumbnail_correlation": 0.9975456
+    },
+    {
+      "physical_page": 25,
+      "folio_source_id": "W10-P24",
+      "source_title": "Unlimited Firepower",
+      "native_file": "25 - Blue lightning across the snowy causeway.png",
+      "native_pixels": [
+        916,
+        1717
+      ],
+      "native_sha256": "c499193b59a8b58595f18fb522e27b1c011bd87fe6d0bf87f21773f1cc853011",
+      "visible_detail": "Blue-white lightning and the closing score panel share a vertical sightline.",
+      "week11_review_boards": [
+        "08 G06  /  Jackson executive office"
+      ],
+      "nearest_pdf_page_by_rgb": 25,
+      "nearest_pdf_page_by_correlation": 25,
+      "normalized_rgb_mae": 0.0097251,
+      "thumbnail_correlation": 0.9975253
+    },
+    {
+      "physical_page": 26,
+      "folio_source_id": "W10-P25",
+      "source_title": "THE NEXT STARTING SHEET",
+      "native_file": "26 - Rainy League Chamber Reserve Watch.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "3b2b6d6f29336104ff78ce8a8204510c5db3677b7ef5c6a74e95d400e480fd54",
+      "visible_detail": "A two-column position list sits in front of a working league chamber.",
+      "week11_review_boards": [
+        "10 Reserve Watch & transactions"
+      ],
+      "nearest_pdf_page_by_rgb": 26,
+      "nearest_pdf_page_by_correlation": 26,
+      "normalized_rgb_mae": 0.0095443,
+      "thumbnail_correlation": 0.9973624
+    },
+    {
+      "physical_page": 27,
+      "folio_source_id": "W10-P26",
+      "source_title": "MOVES THAT REACHED THE ROSTER",
+      "native_file": "27 - Transactions in the rainy archive.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "1f1137e07cb3b44c12ca9dd069944a60ce10fd24b0699893f0bf91558d8651cf",
+      "visible_detail": "A registrar stamps an entry above short, named transaction accounts.",
+      "week11_review_boards": [
+        "10 Reserve Watch & transactions"
+      ],
+      "nearest_pdf_page_by_rgb": 27,
+      "nearest_pdf_page_by_correlation": 27,
+      "normalized_rgb_mae": 0.009393,
+      "thumbnail_correlation": 0.9980108
+    },
+    {
+      "physical_page": 28,
+      "folio_source_id": "W10-P27",
+      "source_title": "TWELVE TEAMS. TEN POSTED RESULTS.",
+      "native_file": "28 - Stormlit Bronze Standings Gate.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "93c22b88d9afab4c976025065703c5b02f71390cf55b835bf783e5c941109b14",
+      "visible_detail": "Twelve rows fill the bronze standings board. A red band marks the cutoff.",
+      "week11_review_boards": [
+        "11 Standings, divisions & form"
+      ],
+      "nearest_pdf_page_by_rgb": 28,
+      "nearest_pdf_page_by_correlation": 28,
+      "normalized_rgb_mae": 0.0080377,
+      "thumbnail_correlation": 0.9976408
+    },
+    {
+      "physical_page": 29,
+      "folio_source_id": "W10-P28",
+      "source_title": "THREE DIVISIONS. DIFFERENT PRESSURES.",
+      "native_file": "29 - Schemin-W10-29-Three-Divisions.png",
+      "native_pixels": [
+        1080,
+        1920
+      ],
+      "native_sha256": "40d11cd62dee55003fe038fe9dceb7c73f278d6c28415af0debd473275237364",
+      "visible_detail": "Three division banners separate the three races along the parapet.",
+      "week11_review_boards": [
+        "11 Standings, divisions & form"
+      ],
+      "nearest_pdf_page_by_rgb": 29,
+      "nearest_pdf_page_by_correlation": 29,
+      "normalized_rgb_mae": 0.0041834,
+      "thumbnail_correlation": 0.9994198
+    },
+    {
+      "physical_page": 30,
+      "folio_source_id": "W10-P29",
+      "source_title": "THE TWELVE — SCORING FORM",
+      "native_file": "30 - Schemin ’26_ Dusk over the Mountain Lake.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "659fae7b9610f58d5aff739e6bcdde75ab980aad25440ff58b4644f4ed10acd5",
+      "visible_detail": "Twelve scoring-form places and indices appear over a mountain-lake backdrop.",
+      "week11_review_boards": [
+        "11 Standings, divisions & form"
+      ],
+      "nearest_pdf_page_by_rgb": 30,
+      "nearest_pdf_page_by_correlation": 30,
+      "normalized_rgb_mae": 0.0075435,
+      "thumbnail_correlation": 0.9972801
+    },
+    {
+      "physical_page": 31,
+      "folio_source_id": "W10-P30",
+      "source_title": "FOUR MORE AFTER THIS",
+      "native_file": "31 - Schemin-W10-31-Four-More-After-This.png",
+      "native_pixels": [
+        1080,
+        1920
+      ],
+      "native_sha256": "9e734a6169f3514ac2135ffdab45ecba1688897aa33ec24e2aa3f0d945bb9f0b",
+      "visible_detail": "A rope and stone steps climb toward numbered weeks, with seven places explained in type.",
+      "week11_review_boards": [
+        "12 Playoff road"
+      ],
+      "nearest_pdf_page_by_rgb": 31,
+      "nearest_pdf_page_by_correlation": 31,
+      "normalized_rgb_mae": 0.0042458,
+      "thumbnail_correlation": 0.9995184
+    },
+    {
+      "physical_page": 32,
+      "folio_source_id": "W10-P31",
+      "source_title": "THE NEXT SIX",
+      "native_file": "32 - Dawn Dispatches Beneath Stone Arches.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "c0aacba69d988231e64aaa52e563ec5c214e686eec34957fb42899e6a478be3d",
+      "visible_detail": "The six fixtures hang on individual strips under the stone arches.",
+      "week11_review_boards": [
+        "15 Week 12 & Final Word"
+      ],
+      "nearest_pdf_page_by_rgb": 32,
+      "nearest_pdf_page_by_correlation": 32,
+      "normalized_rgb_mae": 0.0076002,
+      "thumbnail_correlation": 0.9988449
+    },
+    {
+      "physical_page": 33,
+      "folio_source_id": "W10-P35",
+      "source_title": "THE CROSSING NARROWS",
+      "native_file": "33 - The Crossing Narrows_ Week 11.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "acb38ca0f4c26cd0367fa86bd4cffb69e6767d67d23cc9f99c6c76ce48fda00c",
+      "visible_detail": "The stone span separates Wilson’s four-legged silhouette from Austin’s red hood.",
+      "week11_review_boards": [
+        "03 G01  /  Game of the Week",
+        "15 Week 12 & Final Word"
+      ],
+      "nearest_pdf_page_by_rgb": 33,
+      "nearest_pdf_page_by_correlation": 33,
+      "normalized_rgb_mae": 0.0087798,
+      "thumbnail_correlation": 0.9970169
+    },
+    {
+      "physical_page": 34,
+      "folio_source_id": null,
+      "source_title": "PITTSY'S BOOK",
+      "native_file": "33a - Pittsy’s Book, Closed Again.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "f1a93a9de35e97658c60009f800c3d093bc172084e94bf24961dd087258d5cc9",
+      "visible_detail": "A CLOSED AGAIN sign and family note sit behind a counter in the waterfall district.",
+      "week11_review_boards": [
+        "13 Pittsy’s Book"
+      ],
+      "nearest_pdf_page_by_rgb": 34,
+      "nearest_pdf_page_by_correlation": 34,
+      "normalized_rgb_mae": 0.0090739,
+      "thumbnail_correlation": 0.9977029
+    },
+    {
+      "physical_page": 35,
+      "folio_source_id": "W10-P33",
+      "source_title": "THE WEATHER IS COMING HOME",
+      "native_file": "34 - Storm Watch at Slob’s Shelter.png",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "native_sha256": "0e0e2aefe274608baa217ca73407c757217bad6a88f74012f51d8d8c9dfe9777",
+      "visible_detail": "Jordan cinches canvas over kegs beneath a shelter. The road disappears into weather.",
+      "week11_review_boards": [
+        "04 G02  /  Hearthroad",
+        "15 Week 12 & Final Word"
+      ],
+      "nearest_pdf_page_by_rgb": 35,
+      "nearest_pdf_page_by_correlation": 35,
+      "normalized_rgb_mae": 0.0086052,
+      "thumbnail_correlation": 0.9977578
+    }
+  ]
+}

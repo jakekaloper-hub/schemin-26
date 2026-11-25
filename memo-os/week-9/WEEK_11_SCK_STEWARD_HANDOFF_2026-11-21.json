@@ -1,0 +1,75 @@
+{
+  "schema": "schemin26.sck_typed_handoff.v52rc",
+  "run_id": "S26-MEMO-W11-20261121",
+  "trace_id": "TRACE-S26-MEMO-20261121-1417621",
+  "work_key": "league=1417621/season=2026/week=11/observation=2026-11-21/source=flaim-espn",
+  "assignment_id": "ECS-DATA-STEWARD-1417621-20261121",
+  "from": "ECS/LEAGUE_DATA_PLATFORM",
+  "to": "DATA_RELEASE_STEWARD",
+  "artifact": "memo-os/week-9/WEEK_9_WEEK_10_PROVIDER_EVIDENCE_2026-11-21.json",
+  "artifact_version": 1,
+  "source_authority": "ESPN league 1417621 via authenticated Flaim; provider-normalized preflight only",
+  "source_snapshot": "data/live:data/snapshots/1417621/manifest.json@02032b149a4b84f3369aa8de82400a29b543e3ab",
+  "status": "ASSIGNED",
+  "ack_state": "ASSIGNED",
+  "receiver_identity": null,
+  "receiver_signature": null,
+  "receiver_validated_at": null,
+  "verified_facts": [
+    "Flaim adapter returned 42 structured Week 11 records",
+    "Two additional provider event rows relative to 2026-11-20",
+    "Six Week 11 pairings remain UNDECIDED at observed currentPoints",
+    "49 deterministic preflight assertions passed"
+  ],
+  "interpretations": [
+    "Week 11 scoreboard points are unchanged; ESPN projections changed",
+    "Unchanged competitive standings do not establish playoff odds"
+  ],
+  "assumptions": [
+    "No ESPN roster move is described as current ownership beyond historical event evidence"
+  ],
+  "unavailable": [
+    "Original ESPN HTTP response bytes/headers",
+    "Independent direct-gateway parsed parity",
+    "Authenticated Data Release Steward receipt and signature",
+    "Independent QA signoff"
+  ],
+  "unresolved": [
+    "RAW_PROVENANCE",
+    "INDEPENDENT_SEMANTIC_AND_FRESHNESS_REVIEW",
+    "SCK_ACK",
+    "CANONICAL_SNAPSHOT_LOCK",
+    "FACT_LOCK"
+  ],
+  "confidence": "provider_normalized_preliminary",
+  "qa_already_performed": [
+    "deterministic_preflight_only"
+  ],
+  "prohibited_inferences": [
+    "PENDING_OR_CANCELED_IS_COMPLETED",
+    "LIVE_SCORE_IS_FINAL",
+    "PROJECTION_IS_SCORE",
+    "CI_IS_STEWARD_APPROVAL",
+    "MERCER_AS_SOURCE",
+    "RC_IS_PERMANENT"
+  ],
+  "dependencies": [
+    "SOURCE_LINEAGE",
+    "INDEPENDENT_STEWARD_RECEIVER",
+    "SIGNED_VALIDATION_RECEIPT"
+  ],
+  "next_required_action": "Independent Steward authenticates RECEIVED and VALIDATED or returns an explicit reason code; executable independent gate runner controls locks",
+  "next_gate": "CANONICAL_SNAPSHOT_LOCK",
+  "rejection_reason": "MISSING_AUTHENTICATED_STEWARD_ACK",
+  "required_checkpoints": [
+    "CANONICAL_SNAPSHOT_LOCK",
+    "FACT_LOCK",
+    "STORY_LOCK",
+    "CHARACTER_PACKET_LOCK",
+    "ART_LOCK",
+    "COPY_LOCK",
+    "PAGE_LOCK",
+    "RELEASE_DATA_FREEZE"
+  ],
+  "publication_state": "HOLD"
+}

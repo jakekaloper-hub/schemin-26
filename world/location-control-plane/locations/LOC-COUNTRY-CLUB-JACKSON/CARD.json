@@ -97,13 +97,27 @@
   "persistent_landmarks": [
     "clubhouse",
     "golf grounds",
-    "water hazards"
+    "water hazards",
+    "executive office"
   ],
   "addressable_feature_handles": [
     {
       "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::CLUBHOUSE",
       "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
       "name": "clubhouse",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "executive office",
       "handle_class": "PERSISTENT_FEATURE_HANDLE",
       "inherits": [
         "physical_zone",
@@ -261,7 +275,8 @@
   ],
   "source_provenance": [
     "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
-    "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+    "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md",
+    "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
   ],
   "generated_from": [
     "world/data/locations.json",

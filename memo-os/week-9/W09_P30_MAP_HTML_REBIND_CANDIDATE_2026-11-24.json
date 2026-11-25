@@ -1,0 +1,233 @@
+{
+  "schema": "schemin26.map_source_rebind_candidate.v1",
+  "trace_id": "TRACE-S26-ATLAS-W09-P30-20261124",
+  "assignment_id": "ECS-ATLAS-REGRESSION-W09-P30",
+  "work_key": "W09-P30/html/19f356c7b1a30288fc31e2f48ce9c410587b92e96cd31ad5f3c08ea9fb045c16/b0592f2f05d19acdf68e54ab57bea780e0e17244c0fbf338b3e1786fdf13095d",
+  "source_path": "world/atlas/interactive/SCHEMIN_ATLAS_INTERACTIVE.html",
+  "previous": {
+    "commit": "db559bc97ef105c981f1f3d346a2e5332a8b6c93",
+    "blob": "a218ae29ae9d9c5624279e75a597c07377f678ad",
+    "sha256": "19f356c7b1a30288fc31e2f48ce9c410587b92e96cd31ad5f3c08ea9fb045c16"
+  },
+  "candidate": {
+    "commit": "9d481a8b82bd59f4ce932398a7564340a9642f41",
+    "blob": "0a8fca51ccee922bd7d68aa8a328f7e029ec3573",
+    "sha256": "b0592f2f05d19acdf68e54ab57bea780e0e17244c0fbf338b3e1786fdf13095d"
+  },
+  "digest_evidence": "Weekly Memo Authority CI run 45410284009 job 138501879622; exact failing SHA assertion",
+  "checks": {
+    "html_non_data_lines_unchanged": true,
+    "all_other_atlas_fields_unchanged": true,
+    "location_changes_match_prior_receipt": true,
+    "all_existing_handles_preserved": true,
+    "five_additive_handles": true,
+    "all_positions_unchanged": true
+  },
+  "location_changes": [
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "field": "persistent_landmarks",
+      "before": [
+        "high ridge",
+        "war-room overlook"
+      ],
+      "after": [
+        "high ridge",
+        "war-room overlook",
+        "foot of the Eastern Ascent"
+      ]
+    },
+    {
+      "id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "field": "source_provenance",
+      "before": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "after": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
+      ]
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "field": "persistent_landmarks",
+      "before": [
+        "mud channels",
+        "raised ground"
+      ],
+      "after": [
+        "mud channels",
+        "raised ground",
+        "Gators & Dawgs sign"
+      ]
+    },
+    {
+      "id": "LOC-MUD-DOGS-SWAMP",
+      "field": "source_provenance",
+      "before": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md"
+      ],
+      "after": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
+        "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
+      ]
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "field": "persistent_landmarks",
+      "before": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards"
+      ],
+      "after": [
+        "clubhouse",
+        "golf grounds",
+        "water hazards",
+        "executive office"
+      ]
+    },
+    {
+      "id": "LOC-COUNTRY-CLUB-JACKSON",
+      "field": "source_provenance",
+      "before": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md"
+      ],
+      "after": [
+        "bullpen/PRO_SCHEMIN_WORLD_FOUNDATION_PHASE0_PASS1.md",
+        "memo-os/week-3/WEEK_3_VISUAL_CALLBACK_AND_CONTINUITY_INVENTORY_V1.md",
+        "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
+      ]
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "field": "persistent_landmarks",
+      "before": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation"
+      ],
+      "after": [
+        "waterfall",
+        "temple stone",
+        "dense vegetation",
+        "falls vegetation break"
+      ]
+    },
+    {
+      "id": "LOC-TDS-WATERFALL-TEMPLE",
+      "field": "source_provenance",
+      "before": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "after": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
+      ]
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "field": "persistent_landmarks",
+      "before": [
+        "tailgate yard",
+        "rough training ground"
+      ],
+      "after": [
+        "tailgate yard",
+        "rough training ground",
+        "Hearthroad rut"
+      ]
+    },
+    {
+      "id": "LOC-SLOB-FOOTHILL-CAMP",
+      "field": "source_provenance",
+      "before": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md"
+      ],
+      "after": [
+        "canon/SCHEMIN_26_MASTER_CHARACTER_CANON.md",
+        "memo-os/week-11/FOUNDER_LOCATION_INTERVIEW_AND_INKLINGS_SCENES.md"
+      ]
+    }
+  ],
+  "added_feature_handles": [
+    {
+      "handle_id": "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "parent_location_id": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "name": "foot of the Eastern Ascent",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
+    },
+    {
+      "handle_id": "SUB::LOC-MUD-DOGS-SWAMP::GATORS-DAWGS-SIGN",
+      "parent_location_id": "LOC-MUD-DOGS-SWAMP",
+      "name": "Gators & Dawgs sign",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
+    },
+    {
+      "handle_id": "SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE",
+      "parent_location_id": "LOC-COUNTRY-CLUB-JACKSON",
+      "name": "executive office",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "source": "persistent_landmarks",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED"
+    },
+    {
+      "handle_id": "SUB::LOC-TDS-WATERFALL-TEMPLE::FALLS-VEGETATION-BREAK",
+      "parent_location_id": "LOC-TDS-WATERFALL-TEMPLE",
+      "name": "falls vegetation break",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
+    },
+    {
+      "handle_id": "SUB::LOC-SLOB-FOOTHILL-CAMP::HEARTHROAD-RUT",
+      "parent_location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "name": "Hearthroad rut",
+      "handle_class": "PERSISTENT_FEATURE_HANDLE",
+      "inherits": [
+        "physical_zone",
+        "division_relationship",
+        "current_world_state",
+        "route_context"
+      ],
+      "canon_effect": "NONE_UNLESS_SEPARATELY_PROMOTED",
+      "source": "persistent_landmarks"
+    }
+  ],
+  "independent_atlas_approval": false,
+  "independent_qa_approval": false,
+  "final_map_accepted": false,
+  "canon_promotion": false,
+  "disposition": "CANDIDATE_ONLY_QA_RETURNED"
+}

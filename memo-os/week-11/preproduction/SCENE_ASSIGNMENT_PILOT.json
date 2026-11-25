@@ -1,0 +1,77 @@
+{
+  "scope": "Week 11 staged matchup assignments. This receipt measures production routing and preparation only.",
+  "schemin_baseline": "8ecdd7c7e625956b74bfabaa62443210e4b1f36d",
+  "bullpen": {
+    "repository": "jakekaloper-hub/bullpen",
+    "revision": "70a7031b934d4525859cb5ceea4c247e18680a04",
+    "command": "mission",
+    "primary": "the_architect",
+    "counterweights": [
+      "the_setup_man",
+      "the_gm"
+    ],
+    "method": "Executed pinned Bullpen JavaScript locally. Implementation, source review and independent QA used separate Codex assignments.",
+    "worker_source": "core/staff/portable/index.js"
+  },
+  "output_review": {
+    "worker": "OutputReviewStaff",
+    "fields": [
+      "W11-G03",
+      "ObiWan Jacoby",
+      "Chili Cheesers",
+      "CHAR-JAKE-KALOPER",
+      "CHAR-BRANDON-PRYOR",
+      "SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "baseline": "PASS W11-G03 SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT",
+    "repaired": "PASS W11-G03 | ObiWan Jacoby (CHAR-JAKE-KALOPER) / The Chili Cheesers (CHAR-BRANDON-PRYOR) | SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::FOOT-OF-THE-EASTERN-ASCENT | F14, F15, F16",
+    "matched_before": 2,
+    "matched_after": 9,
+    "scope": "Presence of operator lookup fields in the emitted line. The regression tests separately verify their associations."
+  },
+  "pipeline_monitor": {
+    "worker": "PipelineMonitorStaff",
+    "baseline_github_actions": {
+      "workflowsChecked": 8,
+      "failed": [
+        {
+          "id": 45104984871,
+          "status": "failed"
+        }
+      ],
+      "stuck": [],
+      "healthy": false
+    },
+    "finding": "Week 11 CI was green at the baseline. Historical W09-P30 checks all six frozen source hashes against the live checkout. Five sites gained landmark and provenance details. The locations file hash changed; all 18 map coordinates still matched.",
+    "run": "https://github.com/jakekaloper-hub/schemin-26/actions/runs/45104984871"
+  },
+  "independent_qa": {
+    "source": "Separate Codex Umpire review of old and repaired entry points on isolated copies of the production inputs.",
+    "faults_injected": 16,
+    "caught_before": 1,
+    "caught_after": 16,
+    "valid_inputs_accepted": 2,
+    "changes_from_review": [
+      "Reconcile the cast on the location work card against the staged scene.",
+      "Reconcile the venue page index against the page list so a dropped F16 is detected even if the receipt also drops it."
+    ],
+    "validator_sha256": "ef8d65e6e6123d4ce6769203457ec0b43faf6304f6b46f976118937262b22eb1"
+  },
+  "regression_commands": [
+    "python3 memo-os/week-11/validate_atlas_routes.py",
+    "python3 memo-os/week-11/validate_creative_intake.py",
+    "python3 -m unittest discover -s memo-os/week-11 -p 'test_validate_*.py' -v"
+  ],
+  "validated": {
+    "matchups": 6,
+    "matchup_folios": 14,
+    "routes": 7,
+    "intake_checks": 34,
+    "unit_tests": 25
+  },
+  "render_followup": "Verify individual renderer bindings for Jake and Brandon including Brandon’s October 22 correction, and an approved cinematic plate for the public foot of the Eastern Ascent. The existing dunk study crops the legs in the ladder shot; final proof requires the face and both boots together.",
+  "release": "Publication hold. Final score, playoff conclusion, native PNG, visual QA and world-state promotion each require their own evidence."
+}

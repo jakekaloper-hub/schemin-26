@@ -37,7 +37,10 @@ class Phase4Tests(unittest.TestCase):
  def test_semantic_property_features_come_from_existing_registry(self):
   text=OUT.read_text()
   controls=self.load("world/location-control-plane/registries/PARENT_SUBLOCATION_REGISTRY.json")["handles"]
-  self.assertEqual(len(controls),58)
+  locations=self.load("world/data/locations.json")["locations"]
+  expected=[(loc["id"], name) for loc in locations for name in loc["persistent_landmarks"]]
+  self.assertCountEqual([(h["parent_location_id"], h["name"]) for h in controls], expected)
+  self.assertIn("SUB::LOC-COUNTRY-CLUB-JACKSON::EXECUTIVE-OFFICE", text)
   for handle in controls:
    self.assertIn(handle["handle_id"],text)
   self.assertIn("SUB::LOC-TRADE-JEDI-MOUNTAIN-BASE::HIGH-RIDGE",text)

@@ -1,0 +1,1052 @@
+{
+  "audit": "Week 11 GitHub source + existing tldraw page differential",
+  "as_of": "2026-11-23 afternoon America/New_York",
+  "git_branch": "memo-v52rc-20261115-intake",
+  "git_commit": "8cae5b2effda43b62d4c3f37e43d7cab7e8013d6",
+  "board_discovery": {
+    "name": "Schemin ’26 | Week 10 — Highland Rodeo • P05–P07 Previs & Review (PROOF)",
+    "updatedAt_UTC": "2026-11-23T20:20:16.897Z",
+    "discovery": "tldraw_search_boards",
+    "boardId": "H_be9JJ8DjE11hXg4vkTu"
+  },
+  "actual_tldraw_page": "page:w11-whole-memo-22nov",
+  "direct_live_canvas_this_audit": "NOT_CONNECTED_YET",
+  "historical_live_observation": {
+    "board_id": "H_be9JJ8DjE11hXg4vkTu",
+    "page_id": "page:w11-whole-memo-22nov",
+    "name": "Week 11 • One Last Crossing | full memo review",
+    "visible_shapes_at_inspection": 369,
+    "production_cards": 35,
+    "review_cards": 35,
+    "live_cards_updated": 28,
+    "updated_folios": [
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+    ],
+    "verified_by": "Live tldraw Editor API read, updateShapes, and readback in current chat",
+    "existing_Week10_page_preserved": true,
+    "final_render_quality_approved": false
+  },
+  "evidence_boundary": "Historical live readback verifies prior 28 cards only; current exact canvas state and six new image imports not confirmed in this audit.",
+  "source_findings": {
+    "folios_present": 35,
+    "github_study_slots": 33,
+    "current_35_detailed_shot_specs": 35,
+    "actual_standalone_previs_pngs": 6,
+    "source_inconsistencies": 2,
+    "source_error_examples": [
+      "FOLIO_TITLE_DIVERGENCE",
+      "FOLIO_TITLE_DIVERGENCE"
+    ],
+    "lead_disciplines": {
+      "unit_stills": 4,
+      "production_design": 10,
+      "vfx_pipeline": 6,
+      "color_finishing": 2,
+      "sound_motion": 1,
+      "stunt_blocking": 2,
+      "environment_design": 3,
+      "character_vfx": 1,
+      "pose_silhouette": 1,
+      "costume": 1,
+      "editing": 2,
+      "performance": 2
+    },
+    "lead_roles_count": 12,
+    "result_dependent_overlays": 23,
+    "six_venue_plate_statuses": {
+      "MISSING_APPROVED_CINEMATIC_REFERENCE": 6
+    },
+    "character_router_statuses": {
+      "ACTIVE_VISUAL_CANON_CONFLICT": 1,
+      "REFERENCE_AUTHORITY_RESOLVED": 11
+    },
+    "historical_sunday_winner_fields": {
+      "UNDECIDED": 6
+    },
+    "original_comparator_rows": 35,
+    "latest_github_commit_after_board_change": true,
+    "atlas_location_statuses": {
+      "GAME_DEPENDENT_COVER": 1,
+      "EXPLICIT_PARENT": 3,
+      "CLOSE_INSERT_UNASSIGNED": 2,
+      "UNASSIGNED_WIDE": 1,
+      "EDITORIAL_NO_VENUE": 6,
+      "TWO_SELECTED_FEATURES": 1,
+      "SELECTED_SCENE_FEATURE": 14,
+      "INFERRED_PARENT": 1,
+      "MAINLAND_ARCHIVE_CONTEXT": 1,
+      "NARRATIVE_INTERIOR_UNREGISTERED": 1,
+      "SCHEDULE_ONLY": 1,
+      "FEATURE_SELECTION_PENDING": 1,
+      "COUNTER_ONLY_WIDE_DISPUTED": 1,
+      "SELECTED_APPROACH_PENDING": 1
+    },
+    "locations_without_selected_parent": [
+      "F01",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F23",
+      "F24",
+      "F26",
+      "F27",
+      "F29",
+      "F32",
+      "F33",
+      "F35"
+    ],
+    "final_approved_pngs": 0,
+    "original_week10_page_comparisons": 35,
+    "native_lettering_proofs": 3,
+    "mobile_lettering_proofs": 3,
+    "frozen_sunday_source_at": "2026-11-23T01:24:20.535441+00:00"
+  },
+  "tldraw_vs_github_gaps": [
+    {
+      "id": "GAP-01",
+      "severity": "P0",
+      "finding": "Six newest illustrated visual storyboard PNGs exist in GitHub, but exact live tldraw imported asset/shape receipt missing",
+      "source": "W11_TLDRAW_SIX_STORYBOARD_IMPORT_PLAN_2026-11-23.json, all 6 NOT_VERIFIED",
+      "action": "Inspect current board shape IDs, use public image importer with stable IDs, read back assets; only then mark import complete."
+    },
+    {
+      "id": "GAP-02",
+      "severity": "P1",
+      "finding": "All 35 newest detailed lens/lighting/phone-QA specs live in GitHub but have no confirmed matching per-page canvas incorporation",
+      "source": "W11_ALL_35_VISUAL_DIRECTOR_SHOT_SPECS_2026-11-23.json, last GitHub head newer than board update metadata",
+      "action": "Verify 35 existing card text/source then mark 21 support cards and add camera diagrams without overwriting existing original reference studies."
+    },
+    {
+      "id": "GAP-03",
+      "severity": "P1",
+      "finding": "Only 14/35 folio cards + 14 review cards were confirmed updated on the Week 11 tldraw page in prior verified session",
+      "source": "W11_PRE_MNF_SALVAGE_TLDRAW_RECEIPT_2026-11-23.json",
+      "action": "Audit remaining 21 issue pages for stale storyboard, score and atlas references; update only actual drift."
+    },
+    {
+      "id": "GAP-04",
+      "severity": "P0",
+      "finding": "Six cinematic venue reference plates missing in last pre-render source, one character reference authority conflict (Wilson Look)",
+      "source": "WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json",
+      "action": "Librarian reference rights/bytes and renderer input binding before final art; tldraw geometry cannot clear this gate."
+    },
+    {
+      "id": "GAP-05",
+      "severity": "P1",
+      "finding": "G02 loaded-truck wetland route, G04 precise sport, F34 Pittsy Book wide geography and G01 uncertain hydrology remain unresolved",
+      "source": "WEEK11_LOCATION_DESK + explicit validator holds",
+      "action": "Preserve conditional art alternatives; do not add fictitious world route."
+    },
+    {
+      "id": "GAP-06",
+      "severity": "P0",
+      "finding": "No 35 native 1080x1920 final folios or independent 390px visual release review. Six landscape storyboard sheets are NOT final folios.",
+      "source": "WEEK11_FOLIO_OG_COMPARISON.json + PNG inventory",
+      "action": "Produce genuine source-bound render, evaluate actual visuals. Keep release HOLD."
+    },
+    {
+      "id": "GAP-07",
+      "severity": "P0",
+      "finding": "Current branch source ledger is Sunday UNDECIDED; Monday results require separate late-game refresh, Fact Lock and full 12-team FFHub",
+      "source": "SUNDAY_2024_ET_SOURCE.json observed Nov 22 evening; Monday closing workflow",
+      "action": "Keep projected result/ending/cover/Week12 GOTW conditional; no preemptive winner."
+    },
+    {
+      "id": "GAP-08",
+      "severity": "P2",
+      "finding": "Bullpen VisualLibraryStaff expertise exists in separate draft PR #176, not activated agent; read-only source preflight tests passed",
+      "source": "Bullpen PR #176 and staff status stub",
+      "action": "No claim of operational staff dispatcher or autonomous tldraw edits. Do not merge/promote without independent gates."
+    },
+    {
+      "id": "GAP-09",
+      "severity": "P2",
+      "finding": "Board directory title refers to Week 10 although separate Week 11 page was verified; not inherently a mismatch",
+      "source": "tldraw board metadata and prior direct editor getPages",
+      "action": "Do not create a duplicate board or rename/remove the established Week10 proof."
+    }
+  ],
+  "per_folio": [
+    {
+      "folio": "F01",
+      "title": "One Last Crossing",
+      "game": "ISSUE",
+      "studio_lead": "unit_stills",
+      "camera": "Near-shoulder photo portrait; title safe zone above silhouette, no floating icons",
+      "source_study": "board-png/01-one-last-crossing.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f01",
+        "review": "shape:w11-review-f01"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F02",
+      "title": "The bottom of the register",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Over-open-book perspective toward two seats; keep rows legible",
+      "source_study": "board-png/01-one-last-crossing.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f02",
+        "review": "shape:w11-review-f02"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F03",
+      "title": "Commissioner’s Note",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Extreme close letter and lamp with working hand as human anchor",
+      "source_study": "board-png/01-one-last-crossing.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f03",
+        "review": "shape:w11-review-f03"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F04",
+      "title": "The Week 11 board",
+      "game": "ISSUE",
+      "studio_lead": "vfx_pipeline",
+      "camera": "Front-on inhabited score rail with a low observer or passerby beyond",
+      "source_study": "board-png/02-two-ways-to-read-sunday.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f04",
+        "review": "shape:w11-review-f04"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F05",
+      "title": "The Twelve · first six",
+      "game": "ISSUE",
+      "studio_lead": "color_finishing",
+      "camera": "Six-row bronze portrait register, edge-of-frame photo portraits",
+      "source_study": "board-png/11-the-line-after-seventh.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f05",
+        "review": "shape:w11-review-f05"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F06",
+      "title": "The Twelve · second six",
+      "game": "ISSUE",
+      "studio_lead": "color_finishing",
+      "camera": "Match F05 lens, row baseline, metal rule at seventh row",
+      "source_study": "board-png/11-the-line-after-seventh.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f06",
+        "review": "shape:w11-review-f06"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F07",
+      "title": "What seventh place means",
+      "game": "ISSUE",
+      "studio_lead": "vfx_pipeline",
+      "camera": "Eye-level across wide twelve-row standings register",
+      "source_study": "board-png/11-the-line-after-seventh.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f07",
+        "review": "shape:w11-review-f07"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F08",
+      "title": "The roads between",
+      "game": "ISSUE",
+      "studio_lead": "sound_motion",
+      "camera": "Matched-cut two-location image or sequential split with clear different backdrops",
+      "source_study": "board-png/02-two-ways-to-read-sunday.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f08",
+        "review": "shape:w11-review-f08"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F09",
+      "title": "After you, Austin",
+      "game": "G01",
+      "studio_lead": "production_design",
+      "camera": "Low carter-wheel foreground to full four-hoof centaur on intact bridge",
+      "source_study": "board-png/03-after-you-austin.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f09",
+        "review": "shape:w11-review-f09"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "BRIDGE_WORLD_HYDROLOGY_PROVISIONAL",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F10",
+      "title": "He was here before us",
+      "game": "G01",
+      "studio_lead": "stunt_blocking",
+      "camera": "Reverse from Austin's crimson cloak to Wilson, with waiting worker clear behind",
+      "source_study": "board-png/03-after-you-austin.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f10",
+        "review": "shape:w11-review-f10"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "BRIDGE_WORLD_HYDROLOGY_PROVISIONAL",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F11",
+      "title": "The carter listens",
+      "game": "G01",
+      "studio_lead": "unit_stills",
+      "camera": "Carter-level low shot into living survivor and intact parapet",
+      "source_study": "board-png/03-after-you-austin.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f11",
+        "review": "shape:w11-review-f11"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "BRIDGE_WORLD_HYDROLOGY_PROVISIONAL",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F12",
+      "title": "Six. I told her six.",
+      "game": "G02",
+      "studio_lead": "environment_design",
+      "camera": "Truck cab three-quarter through glass, slip under visor and radio in depth",
+      "source_study": "board-png/04-six-i-told-her-six.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f12",
+        "review": "shape:w11-review-f12"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F13",
+      "title": "The radio call",
+      "game": "G02",
+      "studio_lead": "stunt_blocking",
+      "camera": "Single road-wide from safe side shows strap, two keg gravity paths, rear axle and Jordan's brake",
+      "source_study": "board-png/04-six-i-told-her-six.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f13",
+        "review": "shape:w11-review-f13"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "LOADED_TRUCK_WETLAND_ROUTE_HOLD",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F14",
+      "title": "Off the board",
+      "game": "G03",
+      "studio_lead": "production_design",
+      "camera": "Wet House sheet and two distinct owner reactions, crowd crossing behind mic",
+      "source_study": "board-png/05-the-safest-seat.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f14",
+        "review": "shape:w11-review-f14"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F15",
+      "title": "The safest seat",
+      "game": "G03",
+      "studio_lead": "character_vfx",
+      "camera": "Near-target axis that leaves transparent tank window and Jake face readable",
+      "source_study": "board-png/05-the-safest-seat.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f15",
+        "review": "shape:w11-review-f15"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F16",
+      "title": "At the ladder",
+      "game": "G03",
+      "studio_lead": "pose_silhouette",
+      "camera": "Full-length side lens at ladder with negative space for quiet coda",
+      "source_study": "board-png/05-the-safest-seat.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f16",
+        "review": "shape:w11-review-f16"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F17",
+      "title": "Pick a side",
+      "game": "G04",
+      "studio_lead": "environment_design",
+      "camera": "Visitor-side low wide; Phillip one body/three heads entirely visible",
+      "source_study": "board-png/06-first-choice.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f17",
+        "review": "shape:w11-review-f17"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SPORT_STILL_PROPOSED",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F18",
+      "title": "The dry stone",
+      "game": "G04",
+      "studio_lead": "costume",
+      "camera": "Fixed reverse continuing same muddy path and finish cloth",
+      "source_study": "board-png/06-first-choice.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f18",
+        "review": "shape:w11-review-f18"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SPORT_STILL_PROPOSED",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F19",
+      "title": "The wrong turn",
+      "game": "G05",
+      "studio_lead": "environment_design",
+      "camera": "Low Bobby clean paw on last dry lip opposite tall truck window",
+      "source_study": "board-png/07-the-dry-paw.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f19",
+        "review": "shape:w11-review-f19"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [
+        "FOLIO_TITLE_DIVERGENCE"
+      ],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "NO_CONFIRMED_ELIMINATION",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F20",
+      "title": "The road that comes back",
+      "game": "G05",
+      "studio_lead": "editing",
+      "camera": "Ben's truck-height low wheel + separate distant outpost eyeline; no simultaneous teleport",
+      "source_study": "board-png/07-the-dry-paw.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f20",
+        "review": "shape:w11-review-f20"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [
+        "FOLIO_TITLE_DIVERGENCE"
+      ],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "NO_CONFIRMED_ELIMINATION",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F21",
+      "title": "The visitor’s chair",
+      "game": "G06",
+      "studio_lead": "unit_stills",
+      "camera": "Guest-chair toward Zach with violent storm behind intact glass",
+      "source_study": null,
+      "has_board_study": false,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f21",
+        "review": "shape:w11-review-f21"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F22",
+      "title": "The second sheet",
+      "game": "G06",
+      "studio_lead": "performance",
+      "camera": "Dry desk foreground notice readable, reverse to Babb furious face/chair and steady Zach",
+      "source_study": null,
+      "has_board_study": false,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f22",
+        "review": "shape:w11-review-f22"
+      },
+      "canvas_state": "PRIOR_SESSION_28_CARD_UPDATE_READBACK",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "CINEMATIC_VENUE_PLATE_HOLD",
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F23",
+      "title": "What the starters changed",
+      "game": "ISSUE",
+      "studio_lead": "vfx_pipeline",
+      "camera": "Over-shoulder archive writer marking three vertically separated matchup sheets",
+      "source_study": "board-png/09-why-the-board-moved.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f23",
+        "review": "shape:w11-review-f23"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F24",
+      "title": "Who could answer?",
+      "game": "ISSUE",
+      "studio_lead": "vfx_pipeline",
+      "camera": "Reverse newsroom desk angle maintaining equal column scale",
+      "source_study": "board-png/09-why-the-board-moved.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f24",
+        "review": "shape:w11-review-f24"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F25",
+      "title": "The cost of Sunday",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Two physical receipts on archive intake desk, date strings focal",
+      "source_study": "board-png/09-why-the-board-moved.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f25",
+        "review": "shape:w11-review-f25"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F26",
+      "title": "The next starting sheet",
+      "game": "ISSUE",
+      "studio_lead": "vfx_pipeline",
+      "camera": "Split register perspective from checked left slot to right bench paper",
+      "source_study": "board-png/10-who-made-the-lineup.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f26",
+        "review": "shape:w11-review-f26"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F27",
+      "title": "Who made it onto the roster?",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Diagonal waiver slip crossing the matching live roster slot",
+      "source_study": "board-png/10-who-made-the-lineup.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f27",
+        "review": "shape:w11-review-f27"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F28",
+      "title": "Three divisions",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Three physical banner/ledger rows tied by actual road direction",
+      "source_study": "board-png/11-the-line-after-seventh.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f28",
+        "review": "shape:w11-review-f28"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F29",
+      "title": "The Twelve · scoring form",
+      "game": "ISSUE",
+      "studio_lead": "vfx_pipeline",
+      "camera": "Straight metal scoring scale and one bold movement annotation",
+      "source_study": "board-png/11-the-line-after-seventh.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f29",
+        "review": "shape:w11-review-f29"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F30",
+      "title": "Seven places",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Slightly overhead old chart and seven empty honor places beside clerk",
+      "source_study": "board-png/12-seven-places.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f30",
+        "review": "shape:w11-review-f30"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F31",
+      "title": "Under a deal we never made?",
+      "game": "ISSUE",
+      "studio_lead": "performance",
+      "camera": "Two-shot across desk lamp, 2023 clipping and Nov19 House sheet",
+      "source_study": "board-png/14-under-a-deal-we-never-made.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f31",
+        "review": "shape:w11-review-f31"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F32",
+      "title": "The next six",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Divisional road register with consistent travel arrows from visitor to host",
+      "source_study": "board-png/15-they-know-the-way-home.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f32",
+        "review": "shape:w11-review-f32"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F33",
+      "title": "Next week’s feature",
+      "game": "ISSUE",
+      "studio_lead": "unit_stills",
+      "camera": "Compare two source-backed site wides in preproduction, final full bleed single matchup",
+      "source_study": "board-png/15-they-know-the-way-home.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f33",
+        "review": "shape:w11-review-f33"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "WEEK12_GOTW_SEED_HOLD",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F34",
+      "title": "Pittsy’s Book",
+      "game": "ISSUE",
+      "studio_lead": "production_design",
+      "camera": "Real wooden betting counter foreground with Phillip's three heads on same body behind",
+      "source_study": "board-png/13-what-s-on-the-board.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f34",
+        "review": "shape:w11-review-f34"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "PITTSYS_BOOK_GEOGRAPHY_HOLD",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    },
+    {
+      "folio": "F35",
+      "title": "They know the way home",
+      "game": "ISSUE",
+      "studio_lead": "editing",
+      "camera": "Long cinematic road perspective with one local landmark catching taillight",
+      "source_study": "board-png/15-they-know-the-way-home.png",
+      "has_board_study": true,
+      "original_sha_verified": true,
+      "screen_mapping": {
+        "os": "shape:w11-os-f35",
+        "review": "shape:w11-review-f35"
+      },
+      "canvas_state": "PREEXISTING_CARD_PRIOR_TO_NEW_SHOT_SPECS",
+      "latest_all_35_folio_specs_in_canvas": "NOT_VERIFIED",
+      "final_png": "NOT_APPROVED",
+      "findings": [],
+      "gates": [
+        "SPORTS_RESULT_OVERLAY_PENDING",
+        "SHOT_NOT_FINAL_RENDER"
+      ]
+    }
+  ],
+  "import_objects": [
+    {
+      "scene": "G01",
+      "url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G01-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 557103,
+      "sha256": "691806c82ba07f0345e6f6a525e79004526d821f42128164013585b81f0dd08f",
+      "target_shape": "shape:w11-production-storyboard-g01",
+      "source_verified": true,
+      "import_state": "NOT_VERIFIED",
+      "issues": []
+    },
+    {
+      "scene": "G02",
+      "url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G02-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 506060,
+      "sha256": "29680dc710e0cec2e9ab4a790817dc406936549aa1707fcac44ad26ccf363c9a",
+      "target_shape": "shape:w11-production-storyboard-g02",
+      "source_verified": true,
+      "import_state": "NOT_VERIFIED",
+      "issues": []
+    },
+    {
+      "scene": "G03",
+      "url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G03-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 519221,
+      "sha256": "d9880ef4c97d43aa0e81d0b92993ae5466400f7c5fb2274e354174021f6006df",
+      "target_shape": "shape:w11-production-storyboard-g03",
+      "source_verified": true,
+      "import_state": "NOT_VERIFIED",
+      "issues": []
+    },
+    {
+      "scene": "G04",
+      "url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G04-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 516215,
+      "sha256": "5789698cfce4fe1eeb17d0d12d7a37b551ac137d3703b287ba5e3947e97525ba",
+      "target_shape": "shape:w11-production-storyboard-g04",
+      "source_verified": true,
+      "import_state": "NOT_VERIFIED",
+      "issues": []
+    },
+    {
+      "scene": "G05",
+      "url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G05-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 553877,
+      "sha256": "661c7ff31f5669d6ab351c2551f6a1783da595b3158b2a2a9f2b8f135516b98f",
+      "target_shape": "shape:w11-production-storyboard-g05",
+      "source_verified": true,
+      "import_state": "NOT_VERIFIED",
+      "issues": []
+    },
+    {
+      "scene": "G06",
+      "url": "https://raw.githubusercontent.com/jakekaloper-hub/schemin-26/memo-v52rc-20261115-intake/memo-os/week-11/preproduction/visual-previs/W11-G06-CINEMATIC-SHOTBOARD-PREVIS.png",
+      "bytes": 494942,
+      "sha256": "e2f113b1a18909a3b939efb6764f1e5fcbcf57054026240774ef229315357045",
+      "target_shape": "shape:w11-production-storyboard-g06",
+      "source_verified": true,
+      "import_state": "NOT_VERIFIED",
+      "issues": []
+    }
+  ],
+  "release_gate": "HOLD",
+  "next_executable_step": "Get responsive current tldraw editor, inspect per-page shapes and import state, then convert GAP-01 and GAP-02 from UNKNOWN to verified.",
+  "title_drift": [
+    {
+      "folio": "F19",
+      "current": "The wrong turn",
+      "older_comparator": "One clean paw",
+      "kind": "current-folio-title"
+    },
+    {
+      "folio": "F20",
+      "current": "The road that comes back",
+      "older_comparator": "Back at the post",
+      "kind": "current-folio-title"
+    }
+  ],
+  "source_status": "34/34 creative; 6/6 Atlas; 35/35 navigation; 25 unit tests passed. Source-only.",
+  "live_editor_current_audit": "UNAVAILABLE: board discovered; open/list did not yield responsive live canvas; historical direct editor readback only",
+  "latest_source_versus_board_metadata": "Current source commit is later than tldraw directory last edit 2026-11-23T20:20:16.897Z; six new images are not verified imported."
+}

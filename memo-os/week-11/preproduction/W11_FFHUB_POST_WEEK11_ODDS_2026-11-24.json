@@ -1,0 +1,314 @@
+{
+  "schema": "schemin.w11.ffhub.post_week11_public_ui.v1",
+  "league_id": "1417621",
+  "season_year": 2026,
+  "through_week": 11,
+  "source_url": "https://theffhub.com/PlayoffTool?site=espn&leagueId=1417621&userId=&s2=&swid=",
+  "captured_utc": "2026-11-24T12:55:56.873Z",
+  "capture_method": "headless authenticated-neutral Chromium DOM text read from public TheFFHub web application; NO imported private ESPN cookie, no vendor backend raw JSON obtained",
+  "upstream_page_title": "The Fantasy Football Hub",
+  "page_http_status": 200,
+  "sample_size_simulations": 10000,
+  "playoff_spots": 7,
+  "model_notes": "TheFFHub webpage: samples each team score based on historical team score average and standard deviation; ignores lineup projections and byes. Standings tiebreak positions may differ from stochastic placements.",
+  "model_calibration": "NOT_INDEPENDENTLY_VERIFIED",
+  "mathematical_clinch_proof": "NOT_PROVEN_FROM_ODDS",
+  "raw_body_sha256": "4d768594dc663820c97aa651009b6234698d4d58ad02b959c0a37afefd189efc",
+  "standings_crosschecked_against_current_Flaim_ESPN": true,
+  "results": [
+    {
+      "team": "Slob on my Dobb",
+      "positions_1_to_12_pct": [
+        39.17,
+        25.32,
+        6.88,
+        19.58,
+        6.55,
+        1.79,
+        0.52,
+        0.19,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "playoff_pct": 99.81,
+      "team_id": 3,
+      "record": {
+        "wins": 7,
+        "losses": 4
+      },
+      "espn_seed": 2
+    },
+    {
+      "team": "Dr. Duckhook",
+      "positions_1_to_12_pct": [
+        15.63,
+        7.75,
+        0.0,
+        50.11,
+        16.32,
+        7.45,
+        2.1,
+        0.58,
+        0.06,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "playoff_pct": 99.36,
+      "team_id": 12,
+      "record": {
+        "wins": 7,
+        "losses": 4
+      },
+      "espn_seed": 4
+    },
+    {
+      "team": "His Majesty's Blood",
+      "positions_1_to_12_pct": [
+        37.65,
+        24.67,
+        2.19,
+        12.25,
+        12.23,
+        7.01,
+        2.97,
+        0.81,
+        0.21,
+        0.01,
+        0.0,
+        0.0
+      ],
+      "playoff_pct": 98.97,
+      "team_id": 8,
+      "record": {
+        "wins": 7,
+        "losses": 4
+      },
+      "espn_seed": 1
+    },
+    {
+      "team": "D0nkey K0ng",
+      "positions_1_to_12_pct": [
+        3.23,
+        12.61,
+        68.84,
+        0.0,
+        0.16,
+        2.54,
+        5.11,
+        4.0,
+        2.09,
+        1.07,
+        0.35,
+        0.0
+      ],
+      "playoff_pct": 92.49,
+      "team_id": 5,
+      "record": {
+        "wins": 6,
+        "losses": 5
+      },
+      "espn_seed": 3
+    },
+    {
+      "team": "El Niño",
+      "positions_1_to_12_pct": [
+        0.78,
+        24.73,
+        5.42,
+        2.04,
+        24.96,
+        18.14,
+        10.98,
+        7.05,
+        3.84,
+        1.77,
+        0.29,
+        0.0
+      ],
+      "playoff_pct": 87.05,
+      "team_id": 9,
+      "record": {
+        "wins": 6,
+        "losses": 5
+      },
+      "espn_seed": 5
+    },
+    {
+      "team": "Seven Deadly Chins",
+      "positions_1_to_12_pct": [
+        1.69,
+        2.57,
+        0.3,
+        3.98,
+        14.74,
+        22.99,
+        22.6,
+        12.75,
+        10.66,
+        6.93,
+        0.79,
+        0.0
+      ],
+      "playoff_pct": 68.87,
+      "team_id": 11,
+      "record": {
+        "wins": 6,
+        "losses": 5
+      },
+      "espn_seed": 6
+    },
+    {
+      "team": "The Chili Cheesers",
+      "positions_1_to_12_pct": [
+        1.8,
+        0.98,
+        0.99,
+        10.28,
+        14.82,
+        16.5,
+        17.9,
+        16.04,
+        11.98,
+        6.63,
+        2.07,
+        0.01
+      ],
+      "playoff_pct": 63.27,
+      "team_id": 7,
+      "record": {
+        "wins": 6,
+        "losses": 5
+      },
+      "espn_seed": 7
+    },
+    {
+      "team": "Three Dreaded Snake",
+      "positions_1_to_12_pct": [
+        0.02,
+        0.97,
+        5.69,
+        0.17,
+        2.12,
+        7.96,
+        13.91,
+        17.62,
+        16.52,
+        18.54,
+        13.06,
+        3.42
+      ],
+      "playoff_pct": 30.84,
+      "team_id": 6,
+      "record": {
+        "wins": 5,
+        "losses": 6
+      },
+      "espn_seed": 8
+    },
+    {
+      "team": "Red Leopards",
+      "positions_1_to_12_pct": [
+        0.03,
+        0.4,
+        1.05,
+        1.51,
+        2.79,
+        9.96,
+        11.1,
+        13.86,
+        18.49,
+        18.45,
+        20.41,
+        1.95
+      ],
+      "playoff_pct": 26.84,
+      "team_id": 2,
+      "record": {
+        "wins": 5,
+        "losses": 6
+      },
+      "espn_seed": 9
+    },
+    {
+      "team": "The LLC",
+      "positions_1_to_12_pct": [
+        0.0,
+        0.0,
+        0.0,
+        0.08,
+        5.28,
+        4.88,
+        9.12,
+        15.17,
+        16.42,
+        21.53,
+        24.83,
+        2.69
+      ],
+      "playoff_pct": 19.36,
+      "team_id": 4,
+      "record": {
+        "wins": 4,
+        "losses": 7
+      },
+      "espn_seed": 10
+    },
+    {
+      "team": "ObiWan Jacoby",
+      "positions_1_to_12_pct": [
+        0.0,
+        0.0,
+        8.44,
+        0.0,
+        0.03,
+        0.78,
+        3.63,
+        11.5,
+        18.42,
+        20.47,
+        23.42,
+        13.31
+      ],
+      "playoff_pct": 12.88,
+      "team_id": 1,
+      "record": {
+        "wins": 4,
+        "losses": 7
+      },
+      "espn_seed": 11
+    },
+    {
+      "team": "Mud Dogs",
+      "positions_1_to_12_pct": [
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.06,
+        0.43,
+        1.31,
+        4.6,
+        14.78,
+        78.62
+      ],
+      "playoff_pct": 0.26,
+      "team_id": 10,
+      "record": {
+        "wins": 3,
+        "losses": 8
+      },
+      "espn_seed": 12
+    }
+  ],
+  "validation": {
+    "teams": 12,
+    "all_rank_distributions_total_100": true,
+    "first_seven_sum_matches_playoff_pct": true
+  },
+  "review_status": "MODEL_SOURCE_CAPTURED_NOT_INDEPENDENT_UMPIRE_OR_VENDOR_BACKEND_ATTESTED"
+}
