@@ -258,7 +258,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
         vec2 delta=(vUv-uRootSites[i])*vec2(21.,16.4);
         float rootDistance=length(delta);
         float wakeFade=1.-smoothstep(.55,3.25,rootDistance);
-        float wakeCrest=pow(max(sin(rootDistance*7.1-uTime*1.6),0.),6.);
+        float rootWakeCoordinate=rootDistance*7.1-uTime*1.6;
+        float wakeCrest=pow(max(sin(rootWakeCoordinate),0.),6.)
+          *(1.-smoothstep(.35,1.15,fwidth(rootWakeCoordinate)));
         rootWake=max(rootWake,wakeFade*wakeCrest);
         // The channel has no stand anchors; only the Mud Dogs swamp is affected.
         float canopyFade=1.-smoothstep(1.05,2.50,rootDistance);
@@ -283,9 +285,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
           if(float(i)>=uPadSiteCount)break;
           vec2 padDelta=(vUv-uPadSites[i])*vec2(21.,16.4);
           float padDistance=length(padDelta);
+          // Derivatives require uniform control flow; evaluate before the varying radius guard.
+          float padWakeCoordinate=padDistance*12.-uTime*2.05;
+          float padWakeGain=1.-smoothstep(.35,1.15,fwidth(padWakeCoordinate));
           if(padDistance<1.05){
             float padInterior=1.-smoothstep(.32,1.05,padDistance);
-            float padCrest=pow(max(sin(padDistance*12.-uTime*2.05),0.),8.);
+            float padCrest=pow(max(sin(padWakeCoordinate),0.),8.)*padWakeGain;
             padContactWake=max(padContactWake,padInterior*padCrest);
           }
         }

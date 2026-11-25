@@ -67,7 +67,8 @@ test('vertex-stage root contact matches existing fragment ripple phase and is bo
   /p\.z\+=\.006\*rootRelief\*shoreHold/
  ])assert.match(vertexBranch,expression);
  assert.match(fragment,/rootWake=max\(rootWake,wakeFade\*wakeCrest\)/);
- assert.match(fragment,/wakeCrest=pow\(max\(sin\(rootDistance\*7\.1-uTime\*1\.6\),0\.\),6\.\)/);
+ assert.match(fragment,/rootWakeCoordinate=rootDistance\*7\.1-uTime\*1\.6/);
+ assert.match(fragment,/wakeCrest=pow\(max\(sin\(rootWakeCoordinate\),0\.\),6\.\)\s*\*\(1\.-smoothstep\(\.35,1\.15,fwidth\(rootWakeCoordinate\)\)\)/);
  assert.doesNotMatch(shader,/\buStorm\b|\buWeather\b/i);
  assert.equal(water.material.uniforms.uRiver.value,0);
  const sites=water.material.uniforms.uRootSites.value;
