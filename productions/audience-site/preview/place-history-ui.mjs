@@ -17,7 +17,7 @@ function appendLine(parent,label,values){
   section.append(heading,list);parent.append(section);
 }
 function enterHistory(){
-  if(!selected||historySession||memorySession||state.phase!=='EXPLORING'||state.inputOwner!=='WORLD')return;
+  if(!selected||!canControl())return;
   historyPreviousFocus=document.activeElement;
   historySession=openPlaceHistory(catalog,selected.id,camera);target=structuredClone(camera);
   pointers.clear();pointerStart=null;pinchDistance=null;

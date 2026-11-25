@@ -55,7 +55,8 @@ async function showMemoryPage(){
  }
 }
 function enterMemory(){
- const m=selectedMemory();if(!m||memorySession||state.phase!=='EXPLORING')return;
+ if(!selected||!canControl())return;
+ const m=selectedMemory();if(!m)return;
  memoryPreviousFocus=document.activeElement;
  // Freeze precisely the current observation position, even during a camera approach.
  memorySession=openMemory(memoryIndex,selected.id,camera);if(innerWidth<700)memorySession=memoryView(memorySession,'FOLIO');memoryGeneration++;memoryZoom=false;
