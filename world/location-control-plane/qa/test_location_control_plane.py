@@ -80,8 +80,19 @@ class LocationControlPlaneTests(unittest.TestCase):
         self.assertFalse(any(x["location_id"].startswith("CAND-") for x in reg["cards"]))
 
     def test_phase2_does_not_mutate_candidate_count(self):
-        c=self.load("world/data/atlas_location_candidates.json")
-        self.assertEqual(len(c["candidates"]),48)
+        before=self.load("world/data/atlas_location_candidates.json")
+        before_ids=[x["id"] for x in before["candidates"]]
+        self.assertEqual(len(before_ids),len(set(before_ids)))
+        self.assertEqual(
+            resolve_location("CAND-AFTER-DARK-BROADCAST-HOUSE")["status"],
+            "HUMAN_REVIEW_REQUIRED"
+        )
+        after=self.load("world/data/atlas_location_candidates.json")
+        after_ids=[x["id"] for x in after["candidates"]]
+        self.assertEqual(after_ids,before_ids)
+        active=self.load("world/data/locations.json")
+        self.assertFalse(any(x["id"]=="LOC-AFTER-DARK-BROADCAST-HOUSE"
+                             for x in active["locations"]))
 
     def test_reference_registry_explicit(self):
         r=self.load("world/location-control-plane/registries/LOCATION_REFERENCE_REGISTRY.json")

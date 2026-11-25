@@ -1,0 +1,37 @@
+name: After Dark P2E Candidate Gate
+on:
+  pull_request:
+    paths:
+      - 'productions/after-dark/**'
+      - 'world/data/atlas_location_candidates.json'
+      - 'world/data/locations.json'
+      - 'world/data/routes.json'
+      - 'world/data/physical_zones.json'
+      - 'schemas/atlas-location-candidate.schema.json'
+  workflow_dispatch:
+jobs:
+  candidate-checks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run After Dark P2E candidate / weather fixtures
+        run: |
+          node productions/after-dark/validate_p2e_candidate.cjs
+          node productions/after-dark/validate_p3c_narrative.cjs
+          python3 productions/after-dark/compile_twelve_context.py
+          python3 productions/after-dark/test_twelve_context.py
+          python3 productions/after-dark/build_story_docket.py
+          python3 productions/after-dark/test_story_docket.py
+          python3 productions/after-dark/reconcile_novel_anchors.py
+          python3 productions/after-dark/test_p3h_folio.py
+          python3 productions/after-dark/test_p3k_pregen.py
+          python3 productions/after-dark/enrich_week7_week8.py
+          python3 productions/after-dark/test_story_docket.py
+          python3 productions/after-dark/reconcile_novel_anchors.py
+          python3 productions/after-dark/test_p3h_folio.py
+          python3 productions/after-dark/test_p3k_pregen.py
