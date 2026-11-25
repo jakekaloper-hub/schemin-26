@@ -1,0 +1,69 @@
+{
+  "scope": "Host-assisted semantic and structural candidate verification, not final QA",
+  "atlas_adapter_local_revision": "a33d20d551421187d21747978d0872436fb18a02",
+  "atlas_adapter_results": [
+    {
+      "location_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "status": "READY_FOR_SEMANTIC_QA",
+      "review_blockers": [],
+      "appearance": "VERIFIED_APPEARANCE_ONLY",
+      "render_eligible": false
+    },
+    {
+      "location_id": "LOC-MUD-DOGS-SWAMP",
+      "status": "READY_FOR_SEMANTIC_QA",
+      "review_blockers": [],
+      "appearance": "VERIFIED_APPEARANCE_ONLY",
+      "render_eligible": false
+    },
+    {
+      "location_id": "LOC-RED-RUINS",
+      "status": "READY_FOR_SEMANTIC_QA",
+      "review_blockers": [],
+      "appearance": "VERIFIED_APPEARANCE_ONLY",
+      "render_eligible": false
+    },
+    {
+      "location_id": "LOC-SLOB-FOOTHILL-CAMP",
+      "status": "READY_FOR_SEMANTIC_QA",
+      "review_blockers": [],
+      "appearance": "VERIFIED_APPEARANCE_ONLY",
+      "render_eligible": false
+    },
+    {
+      "location_id": "LOC-LLC-BOARDROOM",
+      "status": "READY_FOR_SEMANTIC_QA",
+      "review_blockers": [],
+      "appearance": "VERIFIED_APPEARANCE_ONLY",
+      "render_eligible": false
+    },
+    {
+      "location_id": "LOC-STORM-BOWL",
+      "status": "READY_FOR_SEMANTIC_QA",
+      "review_blockers": [],
+      "appearance": "VERIFIED_APPEARANCE_ONLY",
+      "render_eligible": false
+    }
+  ],
+  "previs_blob": "949d0726d10644ac1db69b9b7ad73053fdb82951",
+  "bindings_blob": "4b8f9aa3db5982ae0b744f2723d0e35d229a5ff0",
+  "structural_readback_checks": {
+    "count": true,
+    "unique": true,
+    "adjacency": true,
+    "geometry": true,
+    "no_render": true,
+    "six_chapters": true,
+    "payoff_dependency": true,
+    "bindings": true
+  },
+  "passed": 8,
+  "total": 8,
+  "limitations": [
+    "Local adapter revision is not current PR head",
+    "Canonical state as of end of week 3; no state promotion",
+    "No exact image byte/provider attachment verification",
+    "No independent Umpire/Closer acceptance",
+    "No live SCK transition integration"
+  ]
+}
