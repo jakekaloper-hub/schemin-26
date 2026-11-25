@@ -1,0 +1,403 @@
+{
+  "edition": "Thanksgiving Special — The Road to the Crown",
+  "status": "PREPRODUCTION_LOCKED_CANDIDATE_NOT_RELEASED",
+  "format": {
+    "width": 2160,
+    "height": 3840,
+    "phone_width": 390,
+    "count": 2,
+    "format": "PNG",
+    "artwork": "hyperrealistic Commonwealth photography; no baked text; seasonal props, no new canon",
+    "design": "2-column six-row roster; six cinematic matchup rows. Legibility over dense decoration."
+  },
+  "sources": [
+    {
+      "path": "memo-os/week-11/preproduction/WEEK11_PRE_RENDER_REFERENCE_RECEIPT.json",
+      "blob_sha": "ff5c50336e9778fa6aec1a150d5b01fb2cd67791"
+    },
+    {
+      "path": "living-novel/whole-book/HISTORICAL_INTEGRATION_MAP_V1.md",
+      "blob_sha": "1ac558544f66a2434bc6a0eab1bf59e16ab79cf0"
+    },
+    {
+      "path": "memo-os/week-11/preproduction/W11_READER_LETTERING_2026-11-24.md",
+      "blob_sha": "c14c7b7514c3e63ea140171df106165db489099a"
+    },
+    {
+      "path": "memo-os/week-11/preproduction/OPEN_BOARD_PAGE_REHEARSAL.md",
+      "blob_sha": "8e5b896446ff7d96504874d0c35667cafd4d3004"
+    },
+    {
+      "path": "memo-os/week-12/thanksgiving-special/sports-lock.json",
+      "blob_sha": "08890636f8f52b72db0617b1ada656e8467a148b"
+    }
+  ],
+  "fols": [
+    {
+      "id": "F01",
+      "title": "Eleven Weeks. Twelve Destinies.",
+      "subtitle": "The Commonwealth • Thanksgiving 2026",
+      "output": "SCHEMIN26_W12_THANKSGIVING_F01.png",
+      "teams": [
+        {
+          "team_id": 1,
+          "caption": "2024 champion. Six straight defeats.",
+          "asset": "assets/portrait-1.png"
+        },
+        {
+          "team_id": 5,
+          "caption": "Opened 3–0. Still dangerous.",
+          "asset": "assets/portrait-5.png"
+        },
+        {
+          "team_id": 10,
+          "caption": "Eight straight losses. Finally a third win.",
+          "asset": "assets/portrait-10.png"
+        },
+        {
+          "team_id": 6,
+          "caption": "1–13 in 2023. Third in 2025.",
+          "asset": "assets/portrait-6.png"
+        },
+        {
+          "team_id": 2,
+          "caption": "13–1 in 2022. No crown.",
+          "asset": "assets/portrait-2.png"
+        },
+        {
+          "team_id": 12,
+          "caption": "Five straight wins in Weeks 5–9.",
+          "asset": "assets/portrait-12.png"
+        },
+        {
+          "team_id": 3,
+          "caption": "Three straight victories.",
+          "asset": "assets/portrait-3.png"
+        },
+        {
+          "team_id": 7,
+          "caption": "Alternating wins and losses all season.",
+          "asset": "assets/portrait-7.png"
+        },
+        {
+          "team_id": 8,
+          "caption": "Reigning champion. The belt remains his.",
+          "asset": "assets/portrait-8.png"
+        },
+        {
+          "team_id": 4,
+          "caption": "203.96 in Week 10. A defeat in Week 11.",
+          "asset": "assets/portrait-4.png"
+        },
+        {
+          "team_id": 9,
+          "caption": "2022 champion after a 7–7 season.",
+          "asset": "assets/portrait-9.png"
+        },
+        {
+          "team_id": 11,
+          "caption": "Four straight wins in Weeks 5–8.",
+          "asset": "assets/portrait-11.png"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "The Reckoning — Week XII",
+      "subtitle": "Six rematches. Three divisional weeks remain.",
+      "output": "SCHEMIN26_W12_THANKSGIVING_F02.png",
+      "matchups": [
+        {
+          "winner": 1,
+          "loser": 5,
+          "caption": "Ended DK’s unbeaten start. Can he end his own slide?",
+          "asset": "assets/rematch-1-5.png"
+        },
+        {
+          "winner": 6,
+          "loser": 10,
+          "caption": "The serpent won first. The hound has rediscovered victory.",
+          "asset": "assets/rematch-6-10.png"
+        },
+        {
+          "winner": 2,
+          "loser": 12,
+          "caption": "The hunter won the first encounter. The doctor returns at 7–4.",
+          "asset": "assets/rematch-2-12.png"
+        },
+        {
+          "winner": 3,
+          "loser": 7,
+          "caption": "Slob won by 50.76. Chili seeks consecutive wins.",
+          "asset": "assets/rematch-3-7.png"
+        },
+        {
+          "winner": 8,
+          "loser": 4,
+          "caption": "The Belt Keeper faces an opponent who needs a reversal.",
+          "asset": "assets/rematch-8-4.png"
+        },
+        {
+          "winner": 9,
+          "loser": 11,
+          "caption": "The storm won the first meeting. Chins seeks a reversal.",
+          "asset": "assets/rematch-9-11.png"
+        }
+      ],
+      "closing": "Eleven weeks have written their histories. Three remain to determine their destinies."
+    }
+  ],
+  "reference_candidates": [
+    {
+      "team": "D0nkey K0ng",
+      "character_id": "CHAR-WILSON-LOOK",
+      "source_router": "ACTIVE_VISUAL_CANON_CONFLICT",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-WILSON-LOOK/primary/IMG_7866(1).jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 810974,
+        "staged_sha256": "d6279c5ca904c20de1e5800490d1fed42aa24c8674d051654b29838291459a10",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "ACTIVE_VISUAL_CANON_CONFLICT"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-WILSON-LOOK.png",
+        "git_blob": "ca4ff2796530d72a02a714528262d640414e7225",
+        "sha256": "3404ccc361a218c42bb0f7ee65ebe90d2b4076c1240125300e93ca05df2a772f"
+      }
+    },
+    {
+      "team": "His Majesty's Blood",
+      "character_id": "CHAR-AUSTIN-BYARS",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-AUSTIN-BYARS/primary/IMG_2179.jpeg",
+        "present_in_issue_tree": true,
+        "staged_bytes": 238145,
+        "staged_sha256": "eedfaaf0b2e2dd78a7a32e11aef333cab41278c206b65ec78c4aa4f1fd2c4f76",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-AUSTIN-BYARS.png",
+        "git_blob": "a97f54ba3ac177b601b3c1b7b6dc635caece5627",
+        "sha256": "e5600122b9a4c85684f968b17b27edafa0b75e9e161ad02ead8329e97794bce3"
+      }
+    },
+    {
+      "team": "Slob on my Dobb",
+      "character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-JORDAN-HOLLINGSHEAD/primary/0435E914-64B3-4350-8A41-758173DDC98D.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 481355,
+        "staged_sha256": "c052e8c74939338517f1b14bbca5f2ea3d57146794f675d065698a44fb1064e8",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JORDAN-HOLLINGSHEAD.png",
+        "git_blob": "6c61e84daaef41650eae5cf0eaa0b19621860911",
+        "sha256": "5b3ad2add4a73e224a666379920a53cd9d217afd11b39d9babad99ee17c1e515"
+      }
+    },
+    {
+      "team": "El Niño",
+      "character_id": "CHAR-MANNING-WELTY",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-MANNING-WELTY/primary/2FA6D29A-5E4C-4CA1-9790-88BE5E75F14E.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 520546,
+        "staged_sha256": "5e43eadf7ea6426ea8ba2c3af80c108714638625db5adc9d5a32492ff84fc965",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-MANNING-WELTY.png",
+        "git_blob": "ef9dc3a72909f58c9c5a50067963204f4a82e00b",
+        "sha256": "d9b7cf1c1ea18e8f4b615cb71471909dbede1cd8ebd4518e71e9437af7b05f04"
+      }
+    },
+    {
+      "team": "ObiWan Jacoby",
+      "character_id": "CHAR-JAKE-KALOPER",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-JAKE-KALOPER/primary/73B4BF07-22E9-44CA-BCBB-882612DFA9C1.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 765962,
+        "staged_sha256": "e9b6690899566864fc9d56b3bc9dbce0e1eb43a2901d23c0949170be4da91e58",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-JAKE-KALOPER.png",
+        "git_blob": "84d48cd52be96f2fd5f4f58e0cecad1a3d70c496",
+        "sha256": "fe8ce76e267c4c0d8985b2f108b7384d928d3515704d93a20808480c438777e8"
+      }
+    },
+    {
+      "team": "The Chili Cheesers",
+      "character_id": "CHAR-BRANDON-PRYOR",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-BRANDON-PRYOR/primary/76344FB3-1974-48D0-AA90-8B231E6008F7.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 767855,
+        "staged_sha256": "0bb99794f3a0b9fa1a7f791e17e6885fffcca4b79c824057623bab5c74598cfe",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BRANDON-PRYOR.png",
+        "git_blob": "0393eea5139393b9d06610344523d96cf144adb1",
+        "sha256": "f12df5e269823726ffa99833d6207d5747f8ab2cfdeaa5c171fa5e8acf82093e"
+      }
+    },
+    {
+      "team": "Three Dreaded Snake",
+      "character_id": "CHAR-PHILLIP-PITTS",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-PHILLIP-PITTS/primary/IMG_2178.jpeg",
+        "present_in_issue_tree": true,
+        "staged_bytes": 200005,
+        "staged_sha256": "31b9d7be295ba662b1332897ef7c33e2f64e92aeefb2d6abe625c08bac914c0c",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-PHILLIP-PITTS.png",
+        "git_blob": "214366eb2a7152d9241d9fa414c3d79e4aa3c7d0",
+        "sha256": "0c6d6ee2cdd1c1f77c58cda2e5e25c0b482943279e433b16e14aa1277e201a65"
+      }
+    },
+    {
+      "team": "Red Leopards",
+      "character_id": "CHAR-KEVIN-ZEEK",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-KEVIN-ZEEK/primary/4369C44E-C5C8-46E9-B99F-04A97CEBEC13.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 474768,
+        "staged_sha256": "df597e71aed77ddf510fd81f3fcd4ee812ac22b8f8e129e276dc5edfbd9dddc1",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-KEVIN-ZEEK.png",
+        "git_blob": "be12c8429633fb0a97c23418ecd20f4b9782150e",
+        "sha256": "53bcf61c8514173a35caf7fc3d8b65f4c04a28ac7f0d2e182cc1cce014621e3b"
+      }
+    },
+    {
+      "team": "Mud Dogs",
+      "character_id": "CHAR-BOBBY-MITCHELL",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-BOBBY-MITCHELL/primary/17E68E6F-7825-460F-A612-734BE1E2A543.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 558760,
+        "staged_sha256": "4ad8693d7f155f2ee99722f87eb74ea99490eebdfe0b30ca2f17f05004e7cf12",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BOBBY-MITCHELL.png",
+        "git_blob": "52820b4656164a6363c5bad451ff47b312c4ae1e",
+        "sha256": "d88f6ffdde967d0dee2ec350f0d9314f2e8b4da4dd9b8d8d1890bc28d6fae736"
+      }
+    },
+    {
+      "team": "Seven Deadly Chins",
+      "character_id": "CHAR-BEN-WHIPPLE",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-BEN-WHIPPLE/primary/88B8E56B-8320-4524-8425-134FFAE8FBF5.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 468673,
+        "staged_sha256": "c4401f79783637c9e3974f02de20ba5aeb1209e7ed4e0f5620e2bfcce3b270cf",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-BEN-WHIPPLE.png",
+        "git_blob": "89719bde79083cc6d4ab29dfaa68f49fde7a64ab",
+        "sha256": "0cb352849ff671488948b2d5eea60f49f1e3aa6ee974369e34bc85afcb3abc2f"
+      }
+    },
+    {
+      "team": "Dr. Duckhook",
+      "character_id": "CHAR-ZACH-WILSON",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-ZACH-WILSON/primary/5B8C182F-FEBF-40A3-8DDA-1B4B62386B10.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 508338,
+        "staged_sha256": "c8124a1f1146c0acc65b5e82d1c21289afd6a74a8ac2046895e39794619dcefb",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-ZACH-WILSON.png",
+        "git_blob": "e22aff79deb3a99cf4dd394994c593019025a666",
+        "sha256": "c0ac1b3314c32b8e85c82045268c21a0d9c52525c2fd8ad869aaff449b4cf36a"
+      }
+    },
+    {
+      "team": "The LLC",
+      "character_id": "CHAR-DAVID-BABB",
+      "source_router": "REFERENCE_AUTHORITY_RESOLVED",
+      "registered_primary": {
+        "expected_path": "canon/characters/assets/CHAR-DAVID-BABB/primary/A6F3AA99-CDB1-4265-AB08-3728117089A3.jpeg",
+        "present_in_issue_tree": false,
+        "staged_bytes": 413410,
+        "staged_sha256": "ce3137d1472d63deb7a026d114d200f338d2461d3d223647f34b473794e1f85b",
+        "integrity": "PRIMARY_BYTES_VERIFIED",
+        "source_router": "REFERENCE_AUTHORITY_RESOLVED"
+      },
+      "lineup_crop": {
+        "path": "canon/characters/assets/lineups/2026-10-18-crops/CHAR-DAVID-BABB.png",
+        "git_blob": "e977045d5698ffba5136601397fa0cd3dbf5f3c2",
+        "sha256": "f7fa692603289275c819dec2e5e1e09ea69bf33309c1bea1da0151a026b8f340"
+      }
+    }
+  ],
+  "props": [
+    {
+      "item": "Wolf chili tin / carnival tank",
+      "source": "Week 11 F15–F17",
+      "state": "requires visual proof"
+    },
+    {
+      "item": "HMB belt and jester cap",
+      "source": "Week 11 F09–F11",
+      "state": "requires visual proof; belt only HMB"
+    },
+    {
+      "item": "delivery slip / radio",
+      "source": "Week 11 F12–F13",
+      "state": "requires visual proof"
+    },
+    {
+      "item": "Duckhook executive-office callback",
+      "source": "Week 11 reader lettering",
+      "state": "requires visual proof"
+    },
+    {
+      "item": "TDS haircut callback",
+      "source": "earlier memo; exact reference still required",
+      "state": "optional; omit if unresolved"
+    }
+  ],
+  "render_gates": {
+    "sports": "PASS_LOCAL_LOGIC; steward independent acceptance pending",
+    "historical": "source-backed draft copy; independent Inklings review pending",
+    "character": "BLOCKED: verify current reference authority including Wilson conflict; 12 identities; actual renderer receipts",
+    "atlas": "BLOCKED: approved location IDs and cinematic plates for all scenes; no invented geography",
+    "assets": "BLOCKED: approved text-free portrait and rematch image bytes plus fonts with SHA256",
+    "release": "BLOCKED: independent Umpire review 2/2 native + 390px, no numerical drift, exact hashes, actual approvals; no league distribution"
+  }
+}
