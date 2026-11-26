@@ -1,0 +1,43 @@
+{
+  "sourceRevision": "e1641d4d4311311543348d96a3a4968bc36b5a10",
+  "catalogSha256": "8ed0a8be09b6e170061d1727af5f8ac4dc8867aff90568874a7bc647acdbafa8",
+  "regionalSourceSha256": "98decfa3f838702c5976072c8ea8ef99ddf5c35aebf12d5c618d25071bac2307",
+  "locationId": "LOC-MUD-DOGS-SWAMP",
+  "nominalLocalWaterY": 0.12,
+  "authority": "CANDIDATE_NOT_APPROVED",
+  "method": "CPU triangle-plane intersection; normalized shader-site coordinates; radial envelope only; no wave phase, shader execution, camera, pixels or GPU",
+  "metrics": [
+    {
+      "island": 1,
+      "segments": 56,
+      "closedLoop": true,
+      "minRadius": 0.888244,
+      "maxRadius": 1.001951,
+      "minRadialEnvelope": 0.163926
+    },
+    {
+      "island": 2,
+      "segments": 56,
+      "closedLoop": true,
+      "minRadius": 0.883082,
+      "maxRadius": 0.998315,
+      "minRadialEnvelope": 0.113615
+    },
+    {
+      "island": 3,
+      "segments": 56,
+      "closedLoop": true,
+      "minRadius": 0.928705,
+      "maxRadius": 1.032466,
+      "minRadialEnvelope": 0.683023
+    },
+    {
+      "island": 4,
+      "segments": 56,
+      "closedLoop": true,
+      "minRadius": 0.895276,
+      "maxRadius": 0.998465,
+      "minRadialEnvelope": 0.242562
+    }
+  ]
+}
