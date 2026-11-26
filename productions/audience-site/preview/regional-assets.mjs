@@ -1549,8 +1549,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
   function mudDogsFallenTimber(g){
     // Refine the single inherited candidate branch, not a new crossing or landmark.
     // Subdivide its exact seven-sided taper; recess grain strictly within that
-    // polygon, retaining both original end faces, endpoints and shared bark.
-    const a=new THREE.Vector3(-5,.5,1),b=new THREE.Vector3(0,.8,4);
+    // polygon, retaining both end-face profiles and shared bark. The inherited
+    // candidate floated entirely above water; lower only the vertical endpoints
+    // into the existing swamp surface (not an Atlas position or new crossing).
+    const a=new THREE.Vector3(-5,.30,1),b=new THREE.Vector3(0,.23,4);
     const direction=b.clone().sub(a),length=direction.length(),r=.32;
     const radial=56,axial=24,step=2*Math.PI/7;
     const geo=new THREE.CylinderGeometry(r*.62,r,length,radial,axial);
@@ -1580,7 +1582,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
     o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),direction.normalize());
     o.name=geo.name='Candidate Mud Dogs recessed fallen timber';
     o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['cypress-like wetlands'],
-      originalEndpointsPreserved:true,originalPolygonEnvelopePreserved:true,
+      originalPlanEndpointsPreserved:true,originalCrossSectionEnvelopePreserved:true,
+      verticalPlacement:"CANDIDATE_WATER_CONTACT",
       navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
