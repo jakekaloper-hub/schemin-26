@@ -1005,6 +1005,34 @@ export function buildRegionalAssets(THREE, bindings, height) {
       navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function templeUpperRoofCourse(g){
+    // Cut shallow staggered masonry joints into the existing upper slab only.
+    // Keep both horizontal planes, every corner, material and outer envelope.
+    const w=6.1,h=.32,d=4.5,geometry=new THREE.BoxGeometry(w,h,d,40,10,30);
+    const p=geometry.getAttribute('position');
+    for(let i=0;i<p.count;i++){
+      const x=p.getX(i),y=p.getY(i),z=p.getZ(i);
+      if(Math.abs(y)>=h/2-1e-6)continue;
+      const front=Math.abs(Math.abs(z)-d/2)<1e-6&&Math.abs(x)<w/2-1e-6;
+      const side=Math.abs(Math.abs(x)-w/2)<1e-6&&Math.abs(z)<d/2-1e-6;
+      if(!front&&!side)continue;
+      const grid=front?(x+w/2)/w*40:(z+d/2)/d*30;
+      const t=y/h+.5,stagger=t<.5?0:2.5;
+      const joint=Math.pow(.5+.5*Math.cos((grid-stagger)*Math.PI*2/5),10);
+      const bed=Math.pow(.5+.5*Math.cos((t-.5)*Math.PI*2),10);
+      const hold=Math.pow(Math.sin(Math.PI*t),2);
+      const inset=hold*Math.max(.023*joint,.019*bed);
+      if(front)p.setZ(i,z-Math.sign(z)*inset);
+      else p.setX(i,x-Math.sign(x)*inset);
+    }
+    p.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    const o=mesh(g,geometry,stone,1,5.9+h/2,-.1);
+    o.name=geometry.name='Candidate Temple staggered upper roof stone course';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'temple stone',
+      originalDimensions:[w,h,d],originalPerimeterPreserved:true,staticRelief:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function temple(g){
     // Source-supported raised stone temple, vegetation and falling water; exact forms are candidates.
     templeCliff(g,-6,3,-3,4,6,3,mat('#677163'),0);templeCliff(g,-8,2,-4,3.6,4.8,3.2,mat('#777b6a'),1);templeCliff(g,-5,1,-5,4,4,3.6,mat('#596955'),2);
@@ -1012,7 +1040,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     for(let j=0;j<9;j++)templeStoneTread(g,j);
     templeEntranceHallWall(g);
     for(let i=-2;i<=2;i++){templeFlutedPillar(g,i);box(g,1+i*1.05,5.34,1.1,.7,.22,.65,edge);}
-    templeLowerRoofCornice(g);box(g,1,5.9,-.1,6.1,.32,4.5,stone);box(g,1,6.22,-.1,5.2,.3,3.9,dark);
+    templeLowerRoofCornice(g);templeUpperRoofCourse(g);box(g,1,6.22,-.1,5.2,.3,3.9,dark);
     templeEntranceDoor(g);
     for(let i=0;i<15;i++)box(g,-2.1+i*.44,5.52,2.43,.16,.25,.15,dark);
     for(let i=0;i<12;i++){const a=i*2.399;rock(g,Math.cos(a)*(5+i%3),.3,Math.sin(a)*(4+i%2),.7,.45,.6,i%3?stone:moss);}
