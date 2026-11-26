@@ -52,9 +52,21 @@ test('Real imported Waterfall Temple shader adds one bounded camera-dependent gl
   'uPadSiteCount','uPadSites','uPlunge','uPond','uRiver','uRootSiteCount','uRootSites',
   'uSheenGain','uTime','uTimberContact','uTimberSegment','uWetland'
  ].sort(),'Exact shared-water inputs, including the inert swamp-only timber controls');
- for(const other of a.water.filter(x=>x.kind!=='swamp')){
+ // The shared water shader and the separate landing-ripple shader have
+ // different contracts. Require the controls on every shared surface;
+ // require their absence on all four independent landing rings.
+ const shared=a.water.filter(x=>x.kind!=='landing-ripple');
+ const ripples=a.water.filter(x=>x.kind==='landing-ripple');
+ assert.deepEqual(shared.map(x=>x.kind).sort(),['channel','pond','pool','river','swamp','waterfall']);
+ assert.equal(ripples.length,4);
+ for(const other of shared.filter(x=>x.kind!=='swamp')){
   assert.equal(other.material.uniforms.uTimberContact.value,0,'Timber optics must be disabled on '+other.kind);
   assert.deepEqual(other.material.uniforms.uTimberSegment.value.toArray(),[0,0,0,0],'No timber segment on '+other.kind);
+ }
+ for(const ripple of ripples){
+  assert.equal(Object.hasOwn(ripple.material.uniforms,'uTimberContact'),false);
+  assert.equal(Object.hasOwn(ripple.material.uniforms,'uTimberSegment'),false);
+  assert.doesNotMatch(ripple.material.vertexShader+'\n'+ripple.material.fragmentShader,/uTimberContact|uTimberSegment|timberDistance/);
  }
  const shader=w.material.fragmentShader,start=shader.indexOf('if(uFall>.5){'),
    stop=shader.indexOf('}else if(uWetland>.5){',start),fall=shader.slice(start,stop);
