@@ -1,0 +1,5 @@
+--- temple-static-capture.mjs
++++ temple-static-capture.mjs
+@@ -17 +17 @@
+-const presets={temple:{site:'LOC-TDS-WATERFALL-TEMPLE',distances:[51,44]},jackson:{site:'LOC-COUNTRY-CLUB-JACKSON',distances:[60,30]}};
++const presets={temple:{site:'LOC-TDS-WATERFALL-TEMPLE',distances:[51,44]},jackson:{site:'LOC-COUNTRY-CLUB-JACKSON',distances:[60,30]},mud:{site:'LOC-MUD-DOGS-SWAMP',distances:[60,36]}};
