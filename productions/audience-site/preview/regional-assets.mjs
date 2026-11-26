@@ -1546,6 +1546,44 @@ export function buildRegionalAssets(THREE, bindings, height) {
       originalVerticalSpan:verticalSpan,navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
+  function mudDogsFallenTimber(g){
+    // Refine the single inherited candidate branch, not a new crossing or landmark.
+    // Subdivide its exact seven-sided taper; recess grain strictly within that
+    // polygon, retaining both original end faces, endpoints and shared bark.
+    const a=new THREE.Vector3(-5,.5,1),b=new THREE.Vector3(0,.8,4);
+    const direction=b.clone().sub(a),length=direction.length(),r=.32;
+    const radial=56,axial=24,step=2*Math.PI/7;
+    const geo=new THREE.CylinderGeometry(r*.62,r,length,radial,axial);
+    const p=geo.getAttribute('position');
+    for(let i=0;i<p.count;i++){
+      const x=p.getX(i),y=p.getY(i),z=p.getZ(i),radius=Math.hypot(x,z);
+      if(radius<1e-8)continue;
+      const angle=Math.atan2(x,z),phase=((angle%step)+step)%step;
+      const polygon=Math.cos(step/2)/Math.cos(phase-step/2);
+      const t=Math.max(0,Math.min(1,y/length+.5));
+      const hold=Math.sin(Math.PI*t)**2;
+      const furrow=Math.pow(.5+.5*Math.cos(angle*14+.6*Math.sin(t*8)),3);
+      const grain=.5+.5*Math.sin(angle*21-t*19);
+      const factor=polygon*(1-hold*(.15*furrow+.045*grain));
+      p.setXYZ(i,x*factor,y,z*factor);
+    }
+    p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    const normal=geo.getAttribute('normal');
+    for(let row=0;row<=axial;row++){
+      const first=row*(radial+1),last=first+radial;
+      const n=new THREE.Vector3().fromBufferAttribute(normal,first)
+        .add(new THREE.Vector3().fromBufferAttribute(normal,last)).normalize();
+      normal.setXYZ(first,n.x,n.y,n.z);normal.setXYZ(last,n.x,n.y,n.z);
+    }
+    normal.needsUpdate=true;
+    const o=mesh(g,geo,trunk,...a.clone().add(b).multiplyScalar(.5).toArray());
+    o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),direction.normalize());
+    o.name=geo.name='Candidate Mud Dogs recessed fallen timber';
+    o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceEnvironment:['cypress-like wetlands'],
+      originalEndpointsPreserved:true,originalPolygonEnvelopePreserved:true,
+      navigable:false,routeIds:[],principalCharacters:[]};
+    return o;
+  }
   function swamp(g){
     // Raised ground and channels; no principal character or invented settlement.
     pool(g,'swamp',0,.12,0,10.5,8.2,'#375e50');pool(g,'channel',-6,.14,7,4.2,4.5,'#467767');
@@ -1606,7 +1644,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     wetlandCanopyFringe(g,illustratedTreeCrowns);
     wetlandWaterlineStems(g);
     wetlandFloatingFoliage(g);
-    branch(g,[-5,.5,1],[0,.8,4],.32,trunk);
+    mudDogsFallenTimber(g);
   }
   function estateSculptedCourseGrass(index){
     // The THREE existing Jackson course discs retain their elliptical outlines
