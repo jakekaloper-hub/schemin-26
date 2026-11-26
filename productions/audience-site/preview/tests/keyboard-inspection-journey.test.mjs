@@ -30,13 +30,13 @@ function setup(fromIndex){
  }};
  const before=JSON.stringify(catalog),updates=[];
  const init=new Function('$','document','bindings','catalog','canvas','dispatch','escapePanels',
-   'locationCamera','renderer','updateMemoryEntry','updateHistoryEntry','nearestObserverViewYaw',
+   'locationCamera','renderer','updateMemoryEntry','updateHistoryEntry','nearestObserverViewYaw','syncViewControls',
    "let state={phase:'EXPLORING',inputOwner:'WORLD'},selected=null,target=null,camera={target:[0,0,0],distance:280,yaw:0,pitch:.78},paused=false,inspectionReturnFocus=canvas;\n"+inspection+
    "\nreturn {select,closeInspector,snapshot:()=>({selected,target,inspectionReturnFocus})};");
  const app=init($,doc,bindings,catalog,canvas,action=>actions.push(action),
    ()=>{node('#placesPanel').hidden=true;node('#inspector').hidden=true;},
    (places,id)=>({target:[...places.find(x=>x.id===id).anchor],distance:30,yaw:0,pitch:.65}),
-   {height:()=>0,siteView:()=>null},()=>updates.push('memory'),()=>updates.push('history'),nearestObserverViewYaw);
+   {height:()=>0,siteView:()=>null},()=>updates.push('memory'),()=>updates.push('history'),nearestObserverViewYaw,()=>{});
  return {$,app,doc,bindings,catalog,before,calls,actions,updates,canvas};
 }
 test('index→source place→historical record→exact viewpoint return does not lose focus or mutate canon',()=>{

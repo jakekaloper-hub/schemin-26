@@ -90,12 +90,17 @@ for(const p of bindings){
   b.type='button';b.dataset.fallbackPlace=p.id;b.addEventListener('click',()=>renderFallbackPlace(p,b));$('#fallbackPlaces').append(b);
 }
 /* FALLBACK_JOURNEY_END */
+// Reflect the last explicit viewpoint, not an exact camera pose after manual orbit.
+function syncViewControls(mode){
+ for(const b of document.querySelectorAll('[data-view]')){const active=b.dataset.view===mode;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}
+ const wetlands=$('#wetlandsView'),active=mode==='WETLANDS';wetlands.classList.toggle('active',active);wetlands.setAttribute('aria-pressed',String(active));
+}
 function select(id){
  if(state.phase!=='EXPLORING'||state.inputOwner!=='WORLD')return;
  // The place index becomes hidden upon selection; never strand keyboard focus there.
  const fromIndex=$('#placeList').contains(document.activeElement);
  inspectionReturnFocus=fromIndex?$('#placesToggle'):canvas;
- dispatch({type:'inspect',id});
+ dispatch({type:'inspect',id});syncViewControls(null);
  selected=bindings.find(p=>p.id===id);
  escapePanels();
  target=locationCamera(bindings,id);
@@ -114,7 +119,7 @@ function closeInspector(){
  $('#inspector').hidden=true;
  (inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});
 }
-function wholeWorld(){if(state.phase!=='EXPLORING')return;const fromInspector=$('#inspector').contains(document.activeElement);dispatch({type:'world_view'});selected=null;target=nearestObserverViewYaw(camera,defaultCamera());escapePanels();if(paused)camera=structuredClone(target);if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});}
+function wholeWorld(){if(state.phase!=='EXPLORING')return;const fromInspector=$('#inspector').contains(document.activeElement);dispatch({type:'world_view'});selected=null;target=nearestObserverViewYaw(camera,defaultCamera());syncViewControls('AERIAL');escapePanels();if(paused)camera=structuredClone(target);if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});}
 $('#placesToggle').onclick=()=>{const open=$('#placesPanel').hidden;escapePanels();$('#placesPanel').hidden=!open;$('#placesToggle').setAttribute('aria-expanded',String(open));if(open)$('#placeSearch').focus();};
 $('#placesClose').onclick=()=>{escapePanels();$('#placesToggle').focus();};
 $('#infoToggle').onclick=()=>{const open=$('#infoPanel').hidden;escapePanels();$('#infoPanel').hidden=!open;};$('#infoClose').onclick=()=>{escapePanels();$('#infoToggle').focus();};
@@ -125,11 +130,11 @@ $('#wetlandsView').onclick=()=>{
  if(!canControl())return;
  const fromInspector=$('#inspector').contains(document.activeElement);
  const overview=regionOverviewCamera(bindings,'REG-SOUTHERN-WETLANDS',canvas.clientWidth/Math.max(1,canvas.clientHeight));
- dispatch({type:'world_view'});selected=null;escapePanels();target=nearestObserverViewYaw(camera,overview);
+ dispatch({type:'world_view'});selected=null;escapePanels();target=nearestObserverViewYaw(camera,overview);syncViewControls('WETLANDS');
  if(paused)camera=structuredClone(target);
  if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});
 };
-for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>{if(state.phase!=='EXPLORING')return;dispatch({type:'camera',mode:b.dataset.view});target=modeCamera(b.dataset.view,selected?.renderAnchor||[0,0,0]);if(!selected&&b.dataset.view==='AERIAL')target=defaultCamera();target=nearestObserverViewYaw(camera,target);for(const x of document.querySelectorAll('[data-view]'))x.classList.toggle('active',x===b);if(paused)camera=structuredClone(target);};
+for(const b of document.querySelectorAll('[data-view]'))b.onclick=()=>{if(state.phase!=='EXPLORING')return;dispatch({type:'camera',mode:b.dataset.view});target=modeCamera(b.dataset.view,selected?.renderAnchor||[0,0,0]);if(!selected&&b.dataset.view==='AERIAL')target=defaultCamera();target=nearestObserverViewYaw(camera,target);syncViewControls(b.dataset.view);if(paused)camera=structuredClone(target);};
 function setPaused(v){paused=v;$('#motionToggle').setAttribute('aria-pressed',String(paused));$('#motionToggle').textContent=paused?'▷':'Ⅱ';$('#motionToggle').setAttribute('aria-label',paused?'Resume environmental motion':'Pause environmental motion');if(paused)camera=structuredClone(target);}
 $('#motionToggle').onclick=()=>setPaused(!paused);setPaused(paused);
 function syntheticWeather(wins){const now=new Date(),checked=new Date(now.getTime()-60000),until=new Date(now.getTime()+3600000);const matches=wins===0?[{week:9,season:2026,completion:'FINAL',evidenceStatus:'VERIFIED',outcome:'LOSS'}]:Array.from({length:wins+1},(_,i)=>({week:9-i,season:2026,completion:'FINAL',evidenceStatus:'VERIFIED',outcome:i<wins?'WIN':'LOSS'}));return resolveObserverWeather({mode:'LIVE',now:now.toISOString(),weatherRegions:catalog.weatherRegions,resultEvidence:{characterId:'CHAR-MANNING-WELTY',season:2026,latestCompletedWeek:9,sourceReceipts:['SYNTHETIC_PREVIEW_FIXTURE_NOT_LEAGUE_DATA'],checkedAt:checked.toISOString(),validUntil:until.toISOString(),matches}});}
