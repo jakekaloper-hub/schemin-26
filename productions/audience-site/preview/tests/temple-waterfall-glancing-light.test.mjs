@@ -50,11 +50,16 @@ test('Real imported Waterfall Temple shader adds one bounded camera-dependent gl
  assert.deepEqual(Object.keys(w.material.uniforms).sort(),[
   'uBankContact','uChannel','uColor','uFall','uFlow','uIslandSiteCount','uIslandSites','uLightLevel',
   'uPadSiteCount','uPadSites','uPlunge','uPond','uRiver','uRootSiteCount','uRootSites',
-  'uSheenGain','uTime','uWetland'
- ].sort(),'Only the existing glint inputs plus the shared scene-light uniform');
+  'uSheenGain','uTime','uTimberContact','uTimberSegment','uWetland'
+ ].sort(),'Exact shared-water inputs, including the inert swamp-only timber controls');
+ for(const other of a.water.filter(x=>x.kind!=='swamp')){
+  assert.equal(other.material.uniforms.uTimberContact.value,0,'Timber optics must be disabled on '+other.kind);
+  assert.deepEqual(other.material.uniforms.uTimberSegment.value.toArray(),[0,0,0,0],'No timber segment on '+other.kind);
+ }
  const shader=w.material.fragmentShader,start=shader.indexOf('if(uFall>.5){'),
    stop=shader.indexOf('}else if(uWetland>.5){',start),fall=shader.slice(start,stop);
  assert.ok(start>0&&stop>start);
+ assert.doesNotMatch(fall,/uTimberContact|uTimberSegment|timberDistance/,'Swamp-only contact calculation must not enter the waterfall branch');
  assert.match(fall,/faceCross=cross\(dFdx\(vWorld\),dFdy\(vWorld\)\)/);
  assert.match(fall,/skyKey=normalize\(vec3\(\.19,\.32,\.93\)\)/);
  assert.match(fall,/halfRay=normalize\(eyeRay\+skyKey\)/);
