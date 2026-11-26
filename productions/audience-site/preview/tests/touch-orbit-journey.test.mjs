@@ -141,3 +141,39 @@ test('capture loss during a pinch cannot turn the surviving finger into a tap or
  assert.equal(x.calls.pick,0);
  assert.equal(x.api.snapshot().pointerCount,0);
 });
+
+test('secondary and Shift orbit intent never opens a place on stationary release; dragging still orbits',()=>{
+ for(const extra of [{button:2},{button:0,shiftKey:true}]){
+  const x=setup({paused:true}),event={pointerType:'mouse',...extra};
+  x.pointer('pointerdown',1,100,100,event);
+  x.pointer('pointerup',1,100,100,event);
+  assert.equal(x.calls.pick,0);
+  assert.deepEqual(x.selections,[]);
+  x.pointer('pointerdown',2,100,100,event);
+  const before=x.api.snapshot();
+  x.pointer('pointermove',2,120,115,event);
+  const after=x.api.snapshot();
+  assert.notEqual(after.target.yaw,before.target.yaw);
+  assert.notEqual(after.target.pitch,before.target.pitch);
+  assert.deepEqual(after.camera,after.target);
+  x.pointer('pointerup',2,120,115,event);
+  assert.equal(x.calls.pick,0);
+  x.pointer('pointerdown',3,100,100,{pointerType:'mouse'});
+  x.pointer('pointerup',3,102,101,{pointerType:'mouse'});
+  assert.deepEqual(x.selections,['LOC-MUD-DOGS-SWAMP']);
+ }
+});
+
+test('auxiliary mouse buttons cannot capture or pan the world or open a place',()=>{
+ for(const button of [1,3,4]){
+  const x=setup(),event={pointerType:'mouse',button};
+  const before=x.api.snapshot();
+  x.pointer('pointerdown',1,100,100,event);
+  // A release on an untracked auxiliary button cannot inspect.
+  x.pointer('pointerup',1,100,100,event);
+  assert.deepEqual(x.captures,[]);
+  assert.deepEqual(x.api.snapshot(),before);
+  assert.equal(x.calls.pick,0);
+  assert.deepEqual(x.selections,[]);
+ }
+});

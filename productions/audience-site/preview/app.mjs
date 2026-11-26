@@ -147,7 +147,8 @@ function finishReveal(){camera=structuredClone(target);$('#skipReveal').hidden=t
 function canControl(){return !memorySession&&!historySession&&state.phase==='EXPLORING'&&state.inputOwner==='WORLD'&&$('#fallback').hidden;}
 canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('pointerdown',e=>{
- if(!canControl())return;
+ // Only primary pan/tap and secondary orbit own the world gesture.
+ if(!canControl()||(e.button!==0&&e.button!==2))return;
  canvas.setPointerCapture(e.pointerId);
  pointers.set(e.pointerId,[e.clientX,e.clientY]);
  $('#tooltip').hidden=true;
@@ -200,7 +201,8 @@ function up(e){
  // A fast release can arrive without its final pointermove. Use the
  // down-to-up displacement as well as the accumulated delivered movement.
  const releaseDistance=pointerStart?Math.abs(e.clientX-pointerStart.x)+Math.abs(e.clientY-pointerStart.y):Infinity;
- if(!multiTouchGesture&&dragDistance<8&&releaseDistance<8&&canControl()){
+ // Orbit intent (even without motion) is never place inspection.
+ if(pointerStart&&!pointerStart.orbit&&e.button===0&&!multiTouchGesture&&dragDistance<8&&releaseDistance<8&&canControl()){
   const p=renderer.pick(e.clientX,e.clientY);if(p)select(p.id);
  }
  if(!pointers.size){
