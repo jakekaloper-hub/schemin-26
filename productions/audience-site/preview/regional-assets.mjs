@@ -80,7 +80,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Local candidate current direction/speed: visualization only, no new hydrology canon.
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
-    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uLightLevel:{value:1},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))},uIslandSiteCount:{value:0},uIslandSites:{value:Array.from({length:4},()=>new THREE.Vector4(0,0,0,0))}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
+    const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uLightLevel:{value:1},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))},uIslandSiteCount:{value:0},uIslandSites:{value:Array.from({length:4},()=>new THREE.Vector4(0,0,0,0))},uTimberContact:{value:0},uTimberSegment:{value:new THREE.Vector4(0,0,0,0)}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
       vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform float uChannel;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
@@ -234,7 +234,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
           vUv=uv;vWorld=(modelMatrix*vec4(p,1.)).xyz;
           gl_Position=projectionMatrix*modelViewMatrix*vec4(p,1.);
         }`,
-      fragmentShader:`uniform float uTime;uniform float uLightLevel;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
+      fragmentShader:`uniform float uTime;uniform float uLightLevel;uniform vec3 uColor;uniform float uFall;uniform float uRiver;uniform float uWetland;uniform float uChannel;uniform float uPond;uniform float uPlunge;uniform vec2 uFlow;uniform float uSheenGain;uniform float uBankContact;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];uniform float uTimberContact;uniform vec4 uTimberSegment;varying vec2 vUv;varying vec3 vWorld;void main(){float stripe;if(uFall>.5){
         stripe=pow(.5+.5*sin(vUv.x*21.+sin(vUv.y*9.-uTime*3.8)*1.9),3.);
         float foam=pow(.5+.5*sin(vUv.y*35.+uTime*9.+sin(vUv.x*13.)),4.);
         // The broad falling-sheet bands retain their original periodic energy
@@ -445,6 +445,21 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float reliefFacing=clamp(abs(dot(wetlandNormal,normalize(vec3(.30,.91,.27)))),0.,1.);
       vec3 reliefLight=vec3(.10,.15,.12)*reliefSlope*(.4+.6*reliefFacing)*bankFade;
       contactTint+=reliefLight+padContactSheen+islandSheen;
+      // Contact optics around the EXISTING partly immersed timber; no wave height change.
+      // Convert rotated disk UV to local X/Z, using the exact timber endpoints.
+      if(uTimberContact>.5){
+        vec2 timberPoint=(vUv-vec2(.5))*vec2(21.,-16.4);
+        vec2 timberAxis=uTimberSegment.zw-uTimberSegment.xy;
+        float timberAlong=clamp(dot(timberPoint-uTimberSegment.xy,timberAxis)/max(dot(timberAxis,timberAxis),.00001),0.,1.);
+        float timberDistance=length(timberPoint-(uTimberSegment.xy+timberAxis*timberAlong));
+        float timberNear=1.-smoothstep(.17,.68,timberDistance);
+        float timberBand=smoothstep(.14,.27,timberDistance)*(1.-smoothstep(.45,.85,timberDistance));
+        float timberPhase=timberDistance*15.-uTime*1.8+timberAlong*9.;
+        float timberGain=1.-smoothstep(.35,1.15,fwidth(timberPhase));
+        float timberCrest=pow(max(sin(timberPhase),0.),6.)*timberGain;
+        contactTint*=1.-.055*timberNear*bankFade;
+        contactTint+=vec3(.052,.072,.059)*timberBand*timberCrest*bankFade;
+      }
       gl_FragColor=vec4(contactTint+lowSheen+quietEddy+rootSheen+contactLight+channelSheen,.92);
       }else if(uRiver>.5){
        // Broken light on the EXISTING upstream sheet, not a flow/topology record.
@@ -1546,13 +1561,16 @@ export function buildRegionalAssets(THREE, bindings, height) {
       originalVerticalSpan:verticalSpan,navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
-  function mudDogsFallenTimber(g){
+  function mudDogsFallenTimber(g,swampSurface){
     // Refine the single inherited candidate branch, not a new crossing or landmark.
     // Subdivide its exact seven-sided taper; recess grain strictly within that
     // polygon, retaining both end-face profiles and shared bark. The inherited
     // candidate floated entirely above water; lower only the vertical endpoints
     // into the existing swamp surface (not an Atlas position or new crossing).
     const a=new THREE.Vector3(-5,.30,1),b=new THREE.Vector3(0,.23,4);
+    // Same centerline as the actual mesh; only the existing swamp receives the cue.
+    swampSurface.material.uniforms.uTimberSegment.value.set(a.x,a.z,b.x,b.z);
+    swampSurface.material.uniforms.uTimberContact.value=1;
     const direction=b.clone().sub(a),length=direction.length(),r=.32;
     const radial=56,axial=24,step=2*Math.PI/7;
     const geo=new THREE.CylinderGeometry(r*.62,r,length,radial,axial);
@@ -1647,7 +1665,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     wetlandCanopyFringe(g,illustratedTreeCrowns);
     wetlandWaterlineStems(g);
     wetlandFloatingFoliage(g);
-    mudDogsFallenTimber(g);
+    mudDogsFallenTimber(g,swampSurface);
   }
   function estateSculptedCourseGrass(index){
     // The THREE existing Jackson course discs retain their elliptical outlines
