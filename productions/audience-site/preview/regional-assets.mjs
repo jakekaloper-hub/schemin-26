@@ -1073,8 +1073,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
   function wetlandEmergentVegetation(g){
     // Read-only visualization of vegetation on the EXISTING candidate bank.
     // No new botanical species, river boundary, crossing, named landmark or canon.
-    // Individual blade triangles share one GPU draw; roots stay fixed as tips sway.
-    const pos=[],sway=[],tints=[];
+    // Fold the existing blades around a midrib; one GPU draw, stationary roots.
+    const pos=[],sway=[],tints=[],faces=[];
     const palette=['#496944','#65815a','#55754b','#778962','#5b7657'].map(c=>new THREE.Color(c));
     const bladesPerTuft=4,tufts=96;
     for(let i=0;i<tufts;i++){
@@ -1091,17 +1091,27 @@ export function buildRegionalAssets(THREE, bindings, height) {
         const width=.047+(i+j*3)%5*.012;
         const tipX=x+Math.sin(b*2.+i)*.10,tipZ=z+Math.cos(b*2.+i)*.07;
         const tint=palette[(i+j)%palette.length];
-        const verts=[x-dx*width,y,z-dz*width,x+dx*width,y,z+dz*width,tipX,y+h,tipZ];
-        pos.push(...verts);
-        sway.push(phase,0,phase,0,phase,1);
-        for(let k=0;k<3;k++)tints.push(tint.r,tint.g,tint.b);
+        // Keep both original root vertices and the original tip. Split the
+        // interpolated blade cross-section into two faces around a modest ridge.
+        const start=pos.length/3,mx=(x+tipX)*.5,mz=(z+tipZ)*.5,my=y+h*.5;
+        const fold=.018+.004*((i+j)%5),half=width*.5;
+        pos.push(x-dx*width,y,z-dz*width,x+dx*width,y,z+dz*width,
+          mx-dx*half,my,mz-dz*half,mx+dx*half,my,mz+dz*half,
+          mx-dz*fold,my,mz+dx*fold,tipX,y+h,tipZ);
+        for(const t of [0,0,.5,.5,.5,1])sway.push(phase,t);
+        for(const scale of [.78,.84,.79,.98,1.04,.92])
+          tints.push(tint.r*scale,tint.g*scale,tint.b*scale);
+        faces.push(start,start+2,start+4,start,start+4,start+1,
+          start+1,start+4,start+3,start+2,start+5,start+4,start+4,start+5,start+3);
       }
     }
     const geo=new THREE.BufferGeometry();
     geo.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
     geo.setAttribute('aSway',new THREE.Float32BufferAttribute(sway,2));
     geo.setAttribute('aTint',new THREE.Float32BufferAttribute(tints,3));
-    geo.computeVertexNormals();geo.computeBoundingSphere();
+    geo.setIndex(faces);geo.computeVertexNormals();geo.computeBoundingSphere();
+    // Preserve the culling envelope for the inherited shader displacement.
+    geo.boundingSphere.radius+=.24;
     const m=new THREE.ShaderMaterial({
       uniforms:{uTime:{value:0}},side:THREE.DoubleSide,depthWrite:true,
       vertexShader:`uniform float uTime;attribute vec2 aSway;attribute vec3 aTint;varying vec3 vTint;varying float vHeight;
