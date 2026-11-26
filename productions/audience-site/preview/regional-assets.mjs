@@ -1024,27 +1024,50 @@ export function buildRegionalAssets(THREE, bindings, height) {
     // Source supports mud channels, raised ground and cypress-like wetlands.
     // This bank is ONLY a local candidate transition around the existing visual pool:
     // it creates no river/shoreline topology and deliberately leaves the water ellipse visible.
-    const sides=96,rings=3,positions=[],colors=[],faces=[];
+    const sides=96,rings=5,positions=[],colors=[],faces=[];
     const tones=['#414c3a','#5e6547','#354d39'].map(c=>new THREE.Color(c));
+    const wetSilt=new THREE.Color('#3e392d'),drySilt=new THREE.Color('#88775a');
     for(let i=0;i<=sides;i++){
       const a=i/sides*Math.PI*2;
       const waviness=Math.sin(a*7+.3)*.018+Math.sin(a*13-.8)*.009;
       const radii=[1.019+Math.sin(a*11)*.006,1.079+waviness,1.188+waviness*1.6+Math.sin(a*5)*.012];
       const levels=[.102,.235+Math.sin(a*9)*.018,.105+Math.cos(a*6)*.018];
       for(let j=0;j<rings;j++){
-        const r=radii[j];positions.push(Math.cos(a)*10.5*r,levels[j],Math.sin(a)*8.2*r);
-        const tone=tones[j].clone().multiplyScalar(.965+.035*Math.sin(a*8+.8));
+        const lo=Math.floor(j/2),hi=Math.ceil(j/2),r=(radii[lo]+radii[hi])*.5;
+        let y=(levels[lo]+levels[hi])*.5;
+        const tone=tones[lo].clone().lerp(tones[hi],.5);
+        // Subdivide the existing bank slopes, leaving all three original rings
+        // intact. Recess two irregular sediment bands within the inherited bank.
+        if(j%2){
+          const wash=.5+.5*Math.sin(a*17+j*.71)*Math.cos(a*9-j*.43);
+          const runnel=Math.pow(.5+.5*Math.sin(a*29+j*1.4),3);
+          y-=.006+.016*wash+.017*runnel;
+          tone.lerp(j===1?wetSilt:drySilt,.23+.34*wash);
+          tone.multiplyScalar(1-.13*runnel);
+        }
+        positions.push(Math.cos(a)*10.5*r,y,Math.sin(a)*8.2*r);
+        tone.multiplyScalar(.965+.035*Math.sin(a*8+.8));
         colors.push(tone.r,tone.g,tone.b);
       }
       if(i<sides)for(let j=0;j<rings-1;j++){
-        const p=i*rings+j,q=p+rings;faces.push(p,p+1,q,p+1,q+1,q);
+        const p=i*rings+j,q=p+rings;faces.push(p,q,p+1,p+1,q,q+1);
       }
     }
     const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
     geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geo.setIndex(faces);geo.computeVertexNormals();
+    // The duplicate azimuth endpoints share a normalized seam normal.
+    const normal=geo.getAttribute('normal');
+    for(let j=0;j<rings;j++){
+      const k=sides*rings+j;
+      const n=new THREE.Vector3().fromBufferAttribute(normal,j)
+        .add(new THREE.Vector3().fromBufferAttribute(normal,k)).normalize();
+      normal.setXYZ(j,n.x,n.y,n.z);normal.setXYZ(k,n.x,n.y,n.z);
+    }
+    normal.needsUpdate=true;
     // Opaque shared vertex-color material: landform depth and palettes survive batching.
     const bank=mesh(g,geo,landformMaterial,0,0,0);bank.name='Candidate wetland shoreline transition';
-    bank.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmarks:['mud channels','raised ground']};
+    bank.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmarks:['mud channels','raised ground'],
+      originalRingsPreserved:true,sedimentBands:2,navigable:false,routeIds:[]};
     bank.castShadow=false;bank.renderOrder=1;
   }
   function wetlandEmergentVegetation(g){
