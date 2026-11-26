@@ -16,11 +16,11 @@ function setup({origin='index',active='inside',connected=true,paused=true,phase=
  document.activeElement=active==='inside'?inside:toolbar;
  const initial={target:[3,1,8],yaw:.2,pitch:.7,distance:25};
  const world={target:[0,0,0],yaw:0,pitch:1,distance:110};
- const factory=new Function('$','document','canvas','dispatch','defaultCamera','escapePanels','inspectionReturnFocus','structuredClone','nearestObserverViewYaw','syncViewControls',
+ const factory=new Function('$','document','canvas','dispatch','defaultCamera','escapePanels','inspectionReturnFocus','structuredClone','nearestObserverViewYaw','syncViewControls','canControl',
   'let state={phase:'+JSON.stringify(phase)+'},selected={id:"LOC-SOURCE"},target='+JSON.stringify(initial)+',camera='+JSON.stringify(initial)+',paused='+JSON.stringify(paused)+';\n'+worldFn+
   '\nreturn {wholeWorld,snapshot:()=>({selected,target,camera})};');
  const api=factory($,document,canvas,a=>actions.push(a),()=>structuredClone(world),
-  ()=>{$('#inspector').hidden=true;$('#placesPanel').hidden=true;},origin==='index'?index:canvas,structuredClone,nearestObserverViewYaw,()=>{});
+  ()=>{$('#inspector').hidden=true;$('#placesPanel').hidden=true;},origin==='index'?index:canvas,structuredClone,nearestObserverViewYaw,()=>{},()=>phase==='EXPLORING');
  return {api,document,calls,actions,canvas,index,inside,toolbar,world,nodes};
 }
 test('inspector has visible direct world return and resets state, camera and keyboard focus',()=>{
