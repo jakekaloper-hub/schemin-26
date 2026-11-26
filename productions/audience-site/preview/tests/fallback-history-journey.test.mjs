@@ -94,12 +94,12 @@ test('graphics loss defers handoff while a historical reader owns focus',()=>{
   for(const owner of ['history','memory',null]){
     const nodes=Object.fromEntries(['#fallback','#fallbackReason','#splash','#skipReveal'].map(key=>[key,{hidden:true}]));
     const calls=[];
-    const loss=new Function('$','cancelAnimationFrame','restoreFallbackPlace','historySession','memorySession',
+    const loss=new Function('$','cancelAnimationFrame','restoreFallbackPlace','historySession','memorySession','cancelWorldGesture',
       'let ready=true,frameId=42,selected={id:"LOC-0"};'+code+';return showFallback;')(
-      key=>nodes[key],id=>calls.push(id),id=>calls.push(id),owner==='history'?{}:null,owner==='memory'?{}:null);
+      key=>nodes[key],id=>calls.push(id),id=>calls.push(id),owner==='history'?{}:null,owner==='memory'?{}:null,()=>calls.push('cancel gesture'));
     loss('graphics lost');assert.equal(nodes['#fallback'].hidden,false);
-    assert.deepEqual(calls,owner?[42]:[42,'LOC-0']);
-    loss('duplicate loss');assert.deepEqual(calls,owner?[42,42]:[42,'LOC-0',42]);
+    assert.deepEqual(calls,owner?['cancel gesture',42]:['cancel gesture',42,'LOC-0']);
+    loss('duplicate loss');assert.deepEqual(calls,owner?['cancel gesture',42,'cancel gesture',42]:['cancel gesture',42,'LOC-0','cancel gesture',42]);
   }
 });
 test('historical modal exit routes restored source ID before attempting world focus',()=>{

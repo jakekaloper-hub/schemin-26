@@ -9,20 +9,22 @@ const begin=source.indexOf("canvas.addEventListener('pointerdown'");
 const end=source.indexOf("canvas.addEventListener('wheel'",begin);
 assert.ok(begin>0&&end>begin,'real pointer handlers exist');
 const handlers=source.slice(begin,end);
+const cancellation=source.slice(source.indexOf('function cancelWorldGesture(){'),source.indexOf("canvas.addEventListener('contextmenu'"));
+assert.ok(cancellation.startsWith('function cancelWorldGesture(){'));
 
 function setup({paused=false,control=true}={}){
- const events={},selections=[],captures=[],calls={pick:0},ui={};
- const canvas={style:{},setPointerCapture:id=>captures.push(id),addEventListener:(type,callback)=>events[type]=callback};
+ const events={},selections=[],captures=[],released=[],held=new Set(),calls={pick:0},ui={};
+ const canvas={style:{},setPointerCapture:id=>{captures.push(id);held.add(id);},hasPointerCapture:id=>held.has(id),releasePointerCapture:id=>{held.delete(id);released.push(id);events.lostpointercapture({pointerId:id});},addEventListener:(type,callback)=>events[type]=callback};
  const $=id=>ui[id]??(ui[id]={hidden:true,textContent:'',style:{}});
  const renderer={pick(x,y){calls.pick++;return{id:'LOC-MUD-DOGS-SWAMP',name:'Mud Dogs Swamp'};}};
  const evaluate=new Function('canvas','$','renderer','canControl','cameraStep','structuredClone','select','innerWidth',
   "let pointers=new Map(),pointerStart=null,dragDistance=0,pinchDistance=null,pinchCenter=null,multiTouchGesture=false;"+
   "let target={target:[0,0,0],yaw:0,pitch:.7,distance:80},camera=structuredClone(target),paused="+JSON.stringify(paused)+";"+
-  handlers+
-  "return {snapshot:()=>({target:structuredClone(target),camera:structuredClone(camera),pointerCount:pointers.size,multiTouchGesture,dragDistance})};");
+  cancellation+handlers+
+  "return {cancelWorldGesture,snapshot:()=>({target:structuredClone(target),camera:structuredClone(camera),pointerCount:pointers.size,multiTouchGesture,dragDistance})};");
  const api=evaluate(canvas,$,renderer,()=>control,cameraStep,structuredClone,id=>selections.push(id),1000);
  const pointer=(type,id,x,y,extra={})=>events[type]({pointerId:id,clientX:x,clientY:y,pointerType:'touch',button:0,shiftKey:false,...extra});
- return {pointer,api,selections,captures,calls,ui};
+ return {pointer,api,selections,captures,released,held,calls,ui,canvas};
 }
 
 test('two-finger centroid moves orbit yaw/pitch while pinch changes distance without selecting',()=>{
@@ -176,4 +178,36 @@ test('auxiliary mouse buttons cannot capture or pan the world or open a place',(
   assert.equal(x.calls.pick,0);
   assert.deepEqual(x.selections,[]);
  }
+});
+
+test('reader or fallback ownership retires both captured fingers, hover and pinch state before capture-loss callbacks',()=>{
+ const x=setup({paused:true});
+ x.pointer('pointerdown',1,100,100);x.pointer('pointerdown',2,200,100);
+ x.pointer('pointermove',1,110,110);
+ const before=x.api.snapshot().target;
+ x.ui['#tooltip'].hidden=false;x.canvas.style.cursor='pointer';
+ x.api.cancelWorldGesture();
+ assert.deepEqual(x.released,[1,2]);assert.equal(x.held.size,0);
+ assert.equal(x.api.snapshot().pointerCount,0);assert.equal(x.api.snapshot().multiTouchGesture,false);
+ assert.equal(x.api.snapshot().dragDistance,0);
+ assert.equal(x.ui['#tooltip'].hidden,true);assert.equal(x.canvas.style.cursor,'grab');
+ x.pointer('pointerup',1,110,110);x.pointer('pointerup',2,200,100);
+ assert.deepEqual(x.api.snapshot().target,before);assert.equal(x.calls.pick,0);
+ x.pointer('pointerdown',3,100,100);
+ x.pointer('lostpointercapture',1,100,100);
+ assert.equal(x.api.snapshot().pointerCount,1,'late old capture loss does not cancel fresh gesture');
+ x.pointer('pointerup',3,100,100);
+ assert.deepEqual(x.selections,['LOC-MUD-DOGS-SWAMP']);
+ x.api.cancelWorldGesture();assert.deepEqual(x.released,[1,2],'no redundant release');
+});
+test('ownership cancellation is wired into both reader entries and graphics fallback',()=>{
+ for(const [file,entry] of [['place-history-ui.mjs','enterHistory'],['memory-ui.mjs','enterMemory']]){
+  const reader=readFileSync(new URL('../'+file,import.meta.url),'utf8');
+  const start=reader.indexOf('function '+entry+'(){'),end=reader.indexOf('\n}',start);
+  const body=reader.slice(start,end);
+  assert.match(body,/cancelWorldGesture\(\)/);
+  assert.ok(body.indexOf('cancelWorldGesture()')<body.indexOf('.showModal()'));
+ }
+ const fallback=source.slice(source.indexOf('function showFallback('),source.indexOf('function escapePanels('));
+ assert.match(fallback,/cancelWorldGesture\(\)/);
 });

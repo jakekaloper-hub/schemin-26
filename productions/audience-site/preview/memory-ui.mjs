@@ -60,7 +60,7 @@ function enterMemory(){
  memoryPreviousFocus=document.activeElement;
  // Freeze precisely the current observation position, even during a camera approach.
  memorySession=openMemory(memoryIndex,selected.id,camera);if(innerWidth<700)memorySession=memoryView(memorySession,'FOLIO');memoryGeneration++;memoryZoom=false;
- target=structuredClone(camera);pointers.clear();pointerStart=null;pinchDistance=null;
+ target=structuredClone(camera);cancelWorldGesture();
  memoryButtons.length=0;$('#memoryPages').replaceChildren();
  for(let i=0;i<m.pages.length;i++){const b=document.createElement('button');b.type='button';b.textContent=String(i+1).padStart(2,'0');b.dataset.memoryPage=i;b.setAttribute('aria-label',m.pages[i].title);b.onclick=()=>{memorySession=navigateMemory(memorySession,memoryIndex,i-memorySession.pageIndex);memoryZoom=false;showMemoryPage();};memoryButtons.push(b);$('#memoryPages').append(b);}
  document.body.classList.add('memory-open');memoryDialog.showModal();$('#memoryBack').focus();showMemoryPage();

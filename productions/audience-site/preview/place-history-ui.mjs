@@ -20,7 +20,7 @@ function enterHistory(){
   if(!selected||!canControl())return;
   historyPreviousFocus=document.activeElement;
   historySession=openPlaceHistory(catalog,selected.id,camera);target=structuredClone(camera);
-  pointers.clear();pointerStart=null;pinchDistance=null;
+  cancelWorldGesture();
   $('#historyPlace').textContent=selected.name;
   $('#historyBoundary').textContent=`World Memory · ${catalog.history.status.replaceAll('_',' ')} · recorded as ${catalog.stateAsOf.replaceAll('_',' ')}. Historical source descriptions are not verified present-day conditions, official released folios or approved physical geometry.`;
   historyEntries.replaceChildren();

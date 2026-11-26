@@ -19,6 +19,7 @@ let inspectionReturnFocus=canvas;
 function dispatch(a){state=transitionObserver(state,a);return state;}
 function showFallback(reason){
  const firstLoss=$('#fallback').hidden;
+ cancelWorldGesture();
  ready=false;cancelAnimationFrame(frameId);$('#fallback').hidden=false;$('#fallbackReason').textContent=reason;$('#splash').hidden=true;$('#skipReveal').hidden=true;
  // Let a current read-only modal finish; its exit hands focus to the same source place.
  if(firstLoss&&!historySession&&!memorySession)restoreFallbackPlace(selected?.id);
@@ -145,6 +146,16 @@ $('#skipReveal').onclick=()=>{if(state.phase==='REVEALING'){dispatch({type:'skip
 $('#retry').onclick=()=>location.reload();
 function finishReveal(){camera=structuredClone(target);$('#skipReveal').hidden=true;splash.classList.add('out');setTimeout(()=>splash.hidden=true,reduced?0:1200);try{sessionStorage.setItem('commonwealth-observer-seen','1');}catch{}ready=true;}
 function canControl(){return !memorySession&&!historySession&&state.phase==='EXPLORING'&&state.inputOwner==='WORLD'&&$('#fallback').hidden;}
+function cancelWorldGesture(){
+ // Clear ownership before releasing capture: lostpointercapture may fire
+ // during release or later, and must not act on the retired gesture.
+ const captured=[...pointers.keys()];
+ pointers.clear();pointerStart=null;dragDistance=0;pinchDistance=null;pinchCenter=null;multiTouchGesture=false;
+ for(const id of captured){
+  try{if(canvas.hasPointerCapture(id))canvas.releasePointerCapture(id);}catch{} // Pointer may already have ended.
+ }
+ $('#tooltip').hidden=true;canvas.style.cursor='grab';
+}
 canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('pointerdown',e=>{
  // Only primary pan/tap and secondary orbit own the world gesture.
