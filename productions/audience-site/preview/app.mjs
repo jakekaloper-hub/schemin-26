@@ -15,7 +15,7 @@ let state=createObserver({locationIds:bindings.map(p=>p.id),criticalAssetIds:['g
 let renderer,camera=defaultCamera(),target=defaultCamera(),paused=reduced,animationTime=0,lastTime=0,frameId=0,revealStart=0,weather={status:'NOT_CONNECTED',affectedZoneIds:[]},demo=null,ready=false;
 let selected=null,pointerStart=null,dragDistance=0,pointers=new Map(),pinchDistance=null,pinchCenter=null,multiTouchGesture=false;
 const canvas=$('#world'),splash=$('#splash');
-let inspectionReturnFocus=canvas;
+let inspectionReturnFocus=canvas,infoFromInspector=false;
 function dispatch(a){state=transitionObserver(state,a);return state;}
 function showFallback(reason){
  const firstLoss=$('#fallback').hidden;
@@ -24,7 +24,7 @@ function showFallback(reason){
  // Let a current read-only modal finish; its exit hands focus to the same source place.
  if(firstLoss&&!historySession&&!memorySession)restoreFallbackPlace(selected?.id);
 }
-function escapePanels(){for(const id of ['#placesPanel','#infoPanel','#inspector'])$(id).hidden=true;$('#placesToggle').setAttribute('aria-expanded','false');$('#tooltip').hidden=true;}
+function escapePanels(){infoFromInspector=false;for(const id of ['#placesPanel','#infoPanel','#inspector'])$(id).hidden=true;$('#placesToggle').setAttribute('aria-expanded','false');$('#tooltip').hidden=true;}
 function indexButton(p){const b=document.createElement('button');b.type='button';b.textContent=p.name;b.dataset.place=p.id;b.addEventListener('click',()=>select(p.id));return b;}
 /* FALLBACK_JOURNEY_START: source-bound read-only navigation when graphics are unavailable. */
 function fallbackNode(tag,text){const n=document.createElement(tag);n.textContent=text;return n;}
@@ -123,8 +123,15 @@ function closeInspector(){
 function wholeWorld(){if(!canControl())return;const fromInspector=$('#inspector').contains(document.activeElement);dispatch({type:'world_view'});selected=null;target=nearestObserverViewYaw(camera,defaultCamera());syncViewControls('AERIAL');escapePanels();if(paused)camera=structuredClone(target);if(fromInspector)(inspectionReturnFocus?.isConnected?inspectionReturnFocus:canvas).focus({preventScroll:true});}
 $('#placesToggle').onclick=()=>{const open=$('#placesPanel').hidden;escapePanels();$('#placesPanel').hidden=!open;$('#placesToggle').setAttribute('aria-expanded',String(open));if(open)$('#placeSearch').focus();};
 $('#placesClose').onclick=()=>{escapePanels();$('#placesToggle').focus();};
-$('#infoToggle').onclick=()=>{const open=$('#infoPanel').hidden;escapePanels();$('#infoPanel').hidden=!open;};$('#infoClose').onclick=()=>{escapePanels();$('#infoToggle').focus();};
-$('#inspectorClose').onclick=closeInspector;$('#inspectSource').onclick=()=>{$('#infoPanel').hidden=false;$('#inspector').hidden=true;$('#infoClose').focus({preventScroll:true});};
+function closeInfo(){
+ const restore=infoFromInspector&&selected&&canControl();
+ escapePanels();
+ if(restore){$('#inspector').hidden=false;$('#inspectSource').focus({preventScroll:true});}
+ else $('#infoToggle').focus({preventScroll:true});
+}
+$('#infoToggle').onclick=()=>{if(!$('#infoPanel').hidden){closeInfo();return;}escapePanels();$('#infoPanel').hidden=false;};
+$('#infoClose').onclick=closeInfo;
+$('#inspectorClose').onclick=closeInspector;$('#inspectSource').onclick=()=>{infoFromInspector=true;$('#infoPanel').hidden=false;$('#inspector').hidden=true;$('#infoClose').focus({preventScroll:true});};
 $('#placeSearch').oninput=e=>{for(const b of $('#placeList').children)b.hidden=!b.textContent.toLowerCase().includes(e.target.value.toLowerCase());};
 $('#returnWorld').onclick=wholeWorld;$('#inspectorWorld').onclick=wholeWorld;
 $('#wetlandsView').onclick=()=>{
@@ -246,7 +253,8 @@ function handleWorldKey(e){
  // A recorded-history or memory dialog (and graphics fallback) owns its own keys.
  if(e.defaultPrevented||!canControl())return;
  if(e.key==='Escape'){
-  const opener=!$('#placesPanel').hidden?$('#placesToggle'):!$('#infoPanel').hidden?$('#infoToggle'):!$('#inspector').hidden?inspectionReturnFocus:null;
+  if(!$('#infoPanel').hidden){e.preventDefault();closeInfo();return;}
+  const opener=!$('#placesPanel').hidden?$('#placesToggle'):!$('#inspector').hidden?inspectionReturnFocus:null;
   if(!opener)return;
   e.preventDefault();escapePanels();
   (opener.isConnected?opener:canvas).focus({preventScroll:true});return;

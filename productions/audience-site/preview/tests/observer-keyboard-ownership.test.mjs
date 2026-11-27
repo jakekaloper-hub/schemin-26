@@ -8,12 +8,15 @@ const end=source.indexOf("document.addEventListener('keydown',handleWorldKey);",
 assert.ok(start>=0&&end>start);
 function setup(){
  const calls=[],nodes=new Map();
- const $=id=>{if(!nodes.has(id))nodes.set(id,{hidden:true,isConnected:true,focus(){calls.push(id);}});return nodes.get(id);};
+ const $=id=>{if(!nodes.has(id))nodes.set(id,{hidden:true,isConnected:true,setAttribute(){},focus(){calls.push(id);}});return nodes.get(id);};
  const canvas=$('#world'),body={};
  let enabled=true;
- const build=new Function('$','canvas','document','canControl','escapePanels','cameraStep','defaultCamera',
- "let target=defaultCamera(),camera=defaultCamera(),paused=true,inspectionReturnFocus=$('#placesToggle');\n"+source.slice(start,end)+"\nreturn {handleWorldKey,snapshot:()=>({target,camera})};");
- const app=build($,canvas,{body},()=>enabled,()=>{for(const id of ['#placesPanel','#infoPanel','#inspector'])$(id).hidden=true;calls.push('close');},cameraStep,defaultCamera);
+ const escape=source.slice(source.indexOf('function escapePanels(){'),source.indexOf('function indexButton(')).replace('function escapePanels(){','function clearPanels(){');
+ const infoStart=source.indexOf('function closeInfo(){');
+ const info=source.slice(infoStart>=0?infoStart:source.indexOf("$('#infoToggle').onclick="),source.indexOf("$('#placeSearch').oninput="));
+ const build=new Function('$','canvas','document','canControl','cameraStep','defaultCamera','calls','structuredClone',
+ "let target=defaultCamera(),camera=defaultCamera(),paused=true,inspectionReturnFocus=$('#placesToggle'),selected={id:'LOC-TEST'},infoFromInspector=false;function closeInspector(){};\n"+escape+"\nfunction escapePanels(){clearPanels();calls.push('close');}\n"+info+"\n"+source.slice(start,end)+"\nreturn {handleWorldKey,escapePanels,snapshot:()=>({target,camera})};");
+ const app=build($,canvas,{body},()=>enabled,cameraStep,defaultCamera,calls,structuredClone);
  const press=(key,target=canvas,extra={})=>{let prevented=false;app.handleWorldKey({key,target,preventDefault(){prevented=true;},...extra});return prevented;};
  return {$,canvas,body,calls,app,press,disable(){enabled=false;}};
 }
@@ -41,4 +44,26 @@ test('focused world retains arrow and zoom navigation, including paused camera u
  const x=setup();const before=x.app.snapshot().target;
  assert.equal(x.press('ArrowRight'),true);assert.notDeepEqual(x.app.snapshot().target,before);
  assert.equal(x.press('+',x.body),true);assert.deepEqual(x.app.snapshot().camera,x.app.snapshot().target);
+});
+
+test('source boundaries from the selected place return to that inspector without moving the camera',()=>{
+ for(const dismiss of [x=>x.$('#infoClose').onclick(),x=>x.press('Escape',{}),x=>x.$('#infoToggle').onclick()]){
+  const x=setup();x.$('#inspector').hidden=false;const before=x.app.snapshot();
+  x.$('#inspectSource').onclick();
+  assert.equal(x.$('#inspector').hidden,true);assert.equal(x.$('#infoPanel').hidden,false);
+  assert.equal(x.calls.at(-1),'#infoClose');
+  dismiss(x);
+  assert.equal(x.$('#infoPanel').hidden,true);assert.equal(x.$('#inspector').hidden,false);
+  assert.equal(x.calls.at(-1),'#inspectSource');assert.deepEqual(x.app.snapshot(),before);
+ }
+});
+test('global info and unrelated panel navigation do not resurrect the prior inspector',()=>{
+ const x=setup();x.$('#inspector').hidden=false;x.$('#inspectSource').onclick();
+ x.app.escapePanels();x.$('#infoToggle').onclick();x.$('#infoClose').onclick();
+ assert.equal(x.$('#inspector').hidden,true);assert.equal(x.calls.at(-1),'#infoToggle');
+});
+test('graphics or reader ownership prevents Escape and prevents restoring an unavailable world inspector',()=>{
+ const x=setup();x.$('#inspector').hidden=false;x.$('#inspectSource').onclick();x.disable();
+ assert.equal(x.press('Escape',{}),false);assert.equal(x.$('#infoPanel').hidden,false);
+ x.$('#infoClose').onclick();assert.equal(x.$('#inspector').hidden,true);
 });
