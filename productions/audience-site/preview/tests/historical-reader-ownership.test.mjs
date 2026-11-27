@@ -2,7 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const read=name=>readFileSync(new URL('../'+name,import.meta.url),'utf8');
-const gate=read('app.mjs').match(/function canControl\(\)\{[^\n]+\}/)?.[0];
+const app=read('app.mjs');
+const gate=app.match(/function canControl\(\)\{[^\n]+\}/)?.[0];
+const cancel=app.match(/function cancelWorldGesture\(\)\{[\s\S]*?\n\}/)?.[0];
+assert.ok(cancel,'reuse the actual world gesture cancellation helper');
 assert.ok(gate,'reuse the actual shared world input gate');
 function entry(name,kind){
  const s=read(name),start=s.indexOf('function enter'+kind+'('),end=s.indexOf('\n}',start);
@@ -13,9 +16,11 @@ const entries={History:entry('place-history-ui.mjs','History'),Memory:entry('mem
 // Source-executing DOM stub: no real browser, GPU, private folios, or canonical data.
 function run(kind,scenario={}){
  const calls=[],node={focus(){calls.push('focus')},append(){},replaceChildren(){},setAttribute(){}};
+ const captured=new Set([1]),tooltip={hidden:false},canvas={style:{cursor:'grabbing'},hasPointerCapture:id=>captured.has(id),releasePointerCapture(id){captured.delete(id);calls.push('release:'+id)}};
  const env={
+  canvas,
   state:{phase:scenario.phase??'EXPLORING',inputOwner:scenario.owner??'WORLD'},
-  $:id=>id==='#fallback'?{hidden:!scenario.fallback}:node,
+  $:id=>id==='#fallback'?{hidden:!scenario.fallback}:id==='#tooltip'?tooltip:node,
   selected:scenario.noSelected?null:{id:'LOC-TEST',name:'Synthetic place'},
   selectedMemory:()=>{calls.push('lookup');return scenario.noMemory?null:{pages:[]}},
   document:{activeElement:node,body:{classList:{add(){calls.push('body')}}}},
@@ -28,9 +33,9 @@ function run(kind,scenario={}){
  };
  const factory=new Function(...Object.keys(env),
   'let historySession='+(scenario.history?'{}':'null')+',memorySession='+(scenario.memory?'{}':'null')+
-  ',historyPreviousFocus,memoryPreviousFocus,camera={target:[1,2,3]},target={target:[8,9,10]},pointers=new Map([[1,{}]]),pointerStart={},pinchDistance=5,memoryGeneration=0,memoryZoom;\n'+
-  gate+'\n'+entries[kind]+'\nenter'+kind+'();return {camera,target,pointerCount:pointers.size};');
- return {calls,...factory(...Object.values(env))};
+  ',historyPreviousFocus,memoryPreviousFocus,camera={target:[1,2,3]},target={target:[8,9,10]},pointers=new Map([[1,{}]]),pointerStart={},dragDistance=8,pinchDistance=5,pinchCenter={},multiTouchGesture=true,memoryGeneration=0,memoryZoom;\n'+
+  gate+'\n'+cancel+'\n'+entries[kind]+'\nenter'+kind+'();return {camera,target,pointerCount:pointers.size,pointerStart,dragDistance,pinchDistance,pinchCenter,multiTouchGesture};');
+ return {calls,...factory(...Object.values(env)),captured:[...captured],tooltipHidden:tooltip.hidden,cursor:canvas.style.cursor};
 }
 const denied=[
  {name:'active history',history:true},{name:'active private memory',memory:true},
@@ -45,6 +50,9 @@ for(const kind of Object.keys(entries)){
    assert.deepEqual(x.target,{target:[8,9,10]},scenario.name);
    assert.deepEqual(x.camera,{target:[1,2,3]},scenario.name);
    assert.equal(x.pointerCount,1,scenario.name);
+   assert.deepEqual(x.captured,[1],scenario.name);
+   assert.equal(x.tooltipHidden,false,scenario.name);
+   assert.equal(x.cursor,'grabbing',scenario.name);
   }
  });
  test(kind+' still opens from an active selected world view and freezes the approach',()=>{
@@ -53,6 +61,15 @@ for(const kind of Object.keys(entries)){
   assert.equal(x.calls.filter(c=>c==='modal').length,1);
   assert.deepEqual(x.target,x.camera);
   assert.equal(x.pointerCount,0);
+  assert.deepEqual(x.captured,[]);
+  assert.equal(x.calls.filter(c=>c==='release:1').length,1);
+  assert.equal(x.pointerStart,null);
+  assert.equal(x.dragDistance,0);
+  assert.equal(x.pinchDistance,null);
+  assert.equal(x.pinchCenter,null);
+  assert.equal(x.multiTouchGesture,false);
+  assert.equal(x.tooltipHidden,true);
+  assert.equal(x.cursor,'grab');
  });
 }
 test('missing private edition remains unavailable without opening or changing camera',()=>{
@@ -60,4 +77,7 @@ test('missing private edition remains unavailable without opening or changing ca
  assert.deepEqual(x.calls,['lookup']);
  assert.deepEqual(x.target,{target:[8,9,10]});
  assert.equal(x.pointerCount,1);
+ assert.deepEqual(x.captured,[1]);
+ assert.equal(x.tooltipHidden,false);
+ assert.equal(x.cursor,'grabbing');
 });
