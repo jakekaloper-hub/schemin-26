@@ -65,3 +65,56 @@ test('fallback edit does not alter canonical source, Three renderer or native We
  assert.match(source,/const ratio=Math\.min\(devicePixelRatio\|\|1,1\.6\)/);
  assert.doesNotMatch(source,/fetch\(|writeWorldState|publishObserver|createPrincipalCharacter/);
 });
+
+test('Canvas density-only redraw preserves CSS projection and the paused water frame',()=>{
+ const before=globalThis.devicePixelRatio;
+ globalThis.devicePixelRatio=1;
+ const transforms=[],frames=[],resizes=[0,0];let points=[],bw=0,bh=0;
+ const gradient={addColorStop(){}};
+ const ctx={
+  createLinearGradient(){return gradient;},setTransform(...v){transforms.push(v);},
+  fillRect(){points=[];frames.push(points);},beginPath(){},moveTo(x,y){if(points.length<80)points.push([x,y]);},
+  lineTo(){},closePath(){},fill(){},stroke(){}
+ };
+ const canvas={clientWidth:901,clientHeight:651,
+  get width(){return bw;},set width(v){bw=Math.floor(v);resizes[0]++;},
+  get height(){return bh;},set height(v){bh=Math.floor(v);resizes[1]++;},
+  getContext(type){return type==='2d'?ctx:null;}
+ };
+ let renderer;
+ try{
+  renderer=createWorldRenderer(canvas,[],{});
+  const camera={target:[0,2,50],distance:190,yaw:.2,pitch:.17},held={strength:1,storm:0,paused:true};
+  renderer.render(camera,.5,{...held,paused:false});
+  const projection=renderer.project([0,0,50]),first=frames[0];
+  assert.ok(first.length>0);
+  assert.deepEqual([bw,bh],[901,651]);assert.deepEqual(resizes,[1,1]);
+  globalThis.devicePixelRatio=2;
+  renderer.render(camera,9,held);
+  assert.deepEqual([bw,bh],[1351,976]);
+  assert.deepEqual(transforms.at(-1),[1351/901,0,0,976/651,0,0]);
+  assert.equal(frames.length,2);assert.deepEqual(frames[1],first);
+  assert.deepEqual(renderer.project([0,0,50]),projection);
+  globalThis.devicePixelRatio=3;
+  renderer.render(camera,10,held);
+  assert.equal(frames.length,2,'same capped backing need not repaint');
+  assert.deepEqual(resizes,[2,2]);
+  globalThis.devicePixelRatio=1;
+  renderer.render(camera,11,held);
+  assert.deepEqual([bw,bh],[901,651]);assert.deepEqual(resizes,[3,3]);
+  assert.equal(frames.length,3);assert.deepEqual(frames[2],first);
+  assert.deepEqual(renderer.project([0,0,50]),projection);
+  renderer.render(camera,12,held);assert.equal(frames.length,3);
+  // Browser zoom may temporarily hide the canvas; it must not poison the cache.
+  canvas.clientWidth=0;renderer.render(camera,13,held);assert.equal(frames.length,3);
+  canvas.clientWidth=901;globalThis.devicePixelRatio=1.25;renderer.render(camera,14,held);
+  assert.deepEqual([bw,bh],[1126,813]);
+  assert.deepEqual(transforms.at(-1),[1126/901,0,0,813/651,0,0]);
+  assert.deepEqual(frames[3],first);assert.equal(frames.length,4);
+  renderer.render(camera,.875,{...held,paused:false});
+  assert.equal(frames.length,5,'ordinary water resumes after density transition');
+ }finally{
+  renderer?.dispose();
+  if(before===undefined)delete globalThis.devicePixelRatio;else globalThis.devicePixelRatio=before;
+ }
+});

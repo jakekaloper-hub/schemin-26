@@ -228,8 +228,15 @@ function createSoftwareRenderer(canvas,bindings,{onContextLost}){
    lastWater=nextWaterPhase(lastWater,time,paused);
    // At most eight fallback redraws/sec for ordinary water; explicit pause holds exact pixels.
    const waterFrame=Math.floor(lastWater*8)/8;
-   const w=canvas.clientWidth,h=canvas.clientHeight;const current=JSON.stringify([w,h,c.target.map(x=>Math.round(x*20)/20),Math.round(c.distance*20),Math.round(c.yaw*500),Math.round(c.pitch*500),Math.round(strength*100),storm,waterFrame]);if(signature===current)return;signature=current;drawCount++;
-  width=w;heightPx=h;const ratio=Math.min(devicePixelRatio||1,1.5);if(canvas.width!==Math.floor(w*ratio)||canvas.height!==Math.floor(h*ratio)){canvas.width=w*ratio;canvas.height=h*ratio;}ctx.setTransform(ratio,0,0,ratio,0,0);
+   const w=canvas.clientWidth,h=canvas.clientHeight;if(!(w>0&&h>0))return;
+   // Density-only changes must repaint even at an explicitly held water phase.
+   // Cache actual capped backing dimensions, not the requested device ratio.
+   const dpr=globalThis.devicePixelRatio,ratio=Math.min(Number.isFinite(dpr)&&dpr>0?dpr:1,1.5);
+   const pw=Math.max(1,Math.floor(w*ratio)),ph=Math.max(1,Math.floor(h*ratio));
+   const current=JSON.stringify([w,h,pw,ph,c.target.map(x=>Math.round(x*20)/20),Math.round(c.distance*20),Math.round(c.yaw*500),Math.round(c.pitch*500),Math.round(strength*100),storm,waterFrame]);if(signature===current&&canvas.width===pw&&canvas.height===ph)return;signature=current;drawCount++;
+  width=w;heightPx=h;if(canvas.width!==pw)canvas.width=pw;if(canvas.height!==ph)canvas.height=ph;
+  // Backing dimensions are integral; project and pick continue to use CSS pixels.
+  ctx.setTransform(pw/w,0,0,ph/h,0,0);
   const aspect=w/h,fit=Math.max(1,1.25/aspect),distance=c.distance*(c.distance>100?fit:Math.min(fit,1.25)),t=c.target;eye=[t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*distance,t[1]+Math.sin(c.pitch)*distance,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*distance];view=lookAt(eye,t);vp=multiply(perspective(.72,aspect,.2,1900),view);
   const grad=ctx.createLinearGradient(0,0,0,h);grad.addColorStop(0,`rgb(${Math.round(126*strength+20)},${Math.round(153*strength+20)},${Math.round(155*strength+20)})`);grad.addColorStop(.5,`rgb(${Math.round(48*strength+20)},${Math.round(103*strength+15)},${Math.round(109*strength+15)})`);grad.addColorStop(1,`rgb(${Math.round(22*strength+14)},${Math.round(65*strength+14)},${Math.round(72*strength+14)})`);ctx.fillStyle=grad;ctx.fillRect(0,0,w,h);
   const ordered=[];for(const tri of triangles){const p=tri.pts.map(project);if(p.some(x=>!x))continue;if(p.every(x=>x.x<0)||p.every(x=>x.x>w)||p.every(x=>x.y<0)||p.every(x=>x.y>h))continue;ordered.push({tri,p,d:p.reduce((s,x)=>s+x.distance,0)/3});}
