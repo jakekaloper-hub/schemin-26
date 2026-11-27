@@ -28,3 +28,40 @@ test('ripple candidates neither write the world nor generate unnamed new locatio
   assert.equal(JSON.stringify(source),before);
   a.dispose();a.dispose();
 });
+
+test('landing ripple culling bounds contain the full shader crest and preserve edge-of-view water',()=>{
+  const a=create();
+  try {
+    a.root.updateMatrixWorld(true);
+    const rings=a.water.filter(w=>w.kind==='landing-ripple');
+    for(const {mesh,material} of rings){
+      const g=mesh.geometry,p=g.getAttribute('position');
+      assert.match(material.vertexShader,/p\.xy\*=\.55\+progress\*2\.65/);
+      assert.match(material.vertexShader,/p\.z\+=\.033\*crest\*pulse\*pow\(1\.-progress,1\.6\)/);
+      assert.equal(mesh.frustumCulled,true);
+      if(!g.boundingSphere)g.computeBoundingSphere();
+      const sphere=g.boundingSphere;
+      for(const progress of [0,.25,.5,.65,.9,.999999])for(let i=0;i<p.count;i++){
+        const v=new THREE.Vector3().fromBufferAttribute(p,i);
+        const radial=Math.max(0,Math.min(1,(Math.hypot(v.x,v.y)-.89)/.11));
+        v.multiplyScalar(.55+progress*2.65);
+        v.z=.033*Math.sin(Math.PI*radial)*(1-progress)**1.6; // maximum pulse
+        assert.ok(sphere.containsPoint(v),'shader-displaced vertex must be inside culling sphere');
+      }
+      const center=mesh.getWorldPosition(new THREE.Vector3());
+      const camera=new THREE.OrthographicCamera(-.15,.15,.15,-.15,.1,20);
+      const edge=mesh.localToWorld(new THREE.Vector3(2.2,0,0));
+      camera.position.copy(edge).add(new THREE.Vector3(0,5,0));
+      camera.up.set(0,0,-1);camera.lookAt(edge);camera.updateMatrixWorld(true);
+      const frustum=new THREE.Frustum().setFromProjectionMatrix(new THREE.Matrix4().multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse));
+      assert.ok(frustum.containsPoint(edge));
+      assert.equal(frustum.containsPoint(center),false);
+      const staticSphere=new THREE.Sphere(center,1);
+      assert.equal(frustum.intersectsSphere(staticSphere),false,'original unit sphere incorrectly culled');
+      assert.equal(frustum.intersectsObject(mesh),true,'visible expanding ring is submitted');
+      camera.position.x+=10;camera.updateMatrixWorld(true);
+      frustum.setFromProjectionMatrix(new THREE.Matrix4().multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse));
+      assert.equal(frustum.intersectsObject(mesh),false,'distant ring still culled');
+    }
+  } finally {a.dispose();}
+});

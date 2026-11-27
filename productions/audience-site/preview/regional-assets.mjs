@@ -739,7 +739,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
             gl_FragColor.rgb*=.45+.55*clamp(uLightLevel,0.,1.);
           }`});
       materials.set('landing-ripple-'+i,m);
-      const ring=mesh(g,new THREE.RingGeometry(.89,1,48,4),m,x,y-drop+.10+i*.008,z+.9);
+      const ringGeometry=new THREE.RingGeometry(.89,1,48,4);
+      // Three culls against CPU bounds before GLSL runs. The existing ripple
+      // expands to radius 3.2 with up to .033 crest height; retain a conservative
+      // local sphere for all phases without disabling offscreen culling.
+      ringGeometry.boundingSphere=new THREE.Sphere(new THREE.Vector3(),3.201);
+      const ring=mesh(g,ringGeometry,m,x,y-drop+.10+i*.008,z+.9);
       ring.rotation.x=-Math.PI/2;ring.castShadow=false;ring.receiveShadow=false;ring.renderOrder=3;
       water.push({kind:'landing-ripple',material:m,mesh:ring});
     }
