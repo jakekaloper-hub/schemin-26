@@ -233,7 +233,15 @@ function cancelPointer(e){
 canvas.addEventListener('pointercancel',cancelPointer);
 canvas.addEventListener('lostpointercapture',cancelPointer);
 canvas.addEventListener('pointerleave',()=>$('#tooltip').hidden=true);
-canvas.addEventListener('wheel',e=>{if(!canControl())return;e.preventDefault();target=cameraStep(target,{zoom:e.deltaY*.07});if(paused)camera=structuredClone(target);$('#tooltip').hidden=true;},{passive:false});
+canvas.addEventListener('wheel',e=>{
+ if(!canControl())return;
+ e.preventDefault();
+ // WheelEvent deltas may be CSS pixels, lines or pages depending on device/browser.
+ // Read deltaMode first; some browsers expose compatibility units otherwise.
+ const mode=e.deltaMode,delta=e.deltaY*(mode===1?16:mode===2?Math.max(1,canvas.clientHeight):1);
+ if(!Number.isFinite(delta))return;
+ target=cameraStep(target,{zoom:delta*.07});if(paused)camera=structuredClone(target);$('#tooltip').hidden=true;
+},{passive:false});
 function handleWorldKey(e){
  // A recorded-history or memory dialog (and graphics fallback) owns its own keys.
  if(e.defaultPrevented||!canControl())return;
