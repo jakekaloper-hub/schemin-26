@@ -66,3 +66,13 @@ test('page, view, zoom and reader exit invalidate the prior touch origin',()=>{
  assert.match(source,/\$\('#memoryZoom'\)\.onclick=\(\)=>\{memoryTouch=null;/);
  assert.match(source,/function enterMemory\(\)\{[\s\S]*?showMemoryPage\(\);/);
 });
+test('fit original folios reserve horizontal swipes but zoomed folios retain native two-axis pan',()=>{
+ const template=readFileSync(new URL('../index.template.html',import.meta.url),'utf8');
+ const fit=template.match(/#memoryViewport\.original\{([^}]+)\}/)?.[1];
+ const zoomed=template.match(/#memoryViewport\.original\.zoomed\{([^}]+)\}/)?.[1];
+ assert.ok(fit,'original folio viewport rule');
+ assert.match(fit,/(?:^|;)touch-action:pan-y(?:;|$)/);
+ assert.ok(zoomed,'zoomed original viewport rule');
+ assert.match(zoomed,/(?:^|;)touch-action:pan-x pan-y(?:;|$)/);
+ assert.match(fit,/(?:^|;)overflow:auto(?:;|$)/);
+});

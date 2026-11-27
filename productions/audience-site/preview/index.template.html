@@ -16,7 +16,7 @@
 .memory-step{display:flex;align-items:center;gap:10px}#memoryPage{font-size:11px;min-width:42px;text-align:center;color:#ddd6be}
 .memory-dialog button:disabled{opacity:.25;cursor:default}#memoryProvenance{max-width:680px;font-size:9px;line-height:1.5;color:#bfc7b5;margin:12px 0 0}
 #memoryLoading,#memoryFailure{position:absolute;z-index:3;inset:0;display:grid;place-content:center;text-align:center;padding:30px;background:#0b100d;line-height:1.6}#memoryFailureText{max-width:440px}
-#memoryViewport.original{inset:83px 0 157px;overflow:auto;touch-action:pan-x pan-y}#memoryViewport.original #memoryAperture{position:relative;width:100%;height:100%;overflow:visible;display:flex;align-items:center;justify-content:center}
+#memoryViewport.original{inset:83px 0 157px;overflow:auto;touch-action:pan-y}#memoryViewport.original.zoomed{touch-action:pan-x pan-y}#memoryViewport.original #memoryAperture{position:relative;width:100%;height:100%;overflow:visible;display:flex;align-items:center;justify-content:center}
 #memoryViewport.original #memoryImage{position:static;object-fit:contain;width:100%;height:100%}#memoryViewport.original.zoomed #memoryAperture{width:180%;height:180%;align-items:flex-start;justify-content:flex-start}
 #memoryViewport.original.zoomed #memoryImage{object-fit:contain;width:100%;height:100%}.memory-dialog:has(.original) .memory-shade{display:none}
 #openMemory{margin-top:20px;display:block;width:100%;text-align:left;font-size:10px;letter-spacing:.12em;padding:15px 0;border:0;border-top:1px solid #ddcba655;background:transparent;color:#f0d49b;min-height:44px}
