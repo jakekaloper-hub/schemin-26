@@ -58,3 +58,6 @@ The six existing matchups now have explicit championship-pressure action treatme
 
 ## Completion and FLAIM harvesting mandate
 [Completion directive and official NFL game-window collection contract](W12_COMPLETION_AND_FLAIM_HARVEST_DIRECTIVE_2026-11-25.json). Continue all reversible preproduction work; football evidence is a concurrent stream, not a blanket blocker. No unverified final results or independent acceptance. Existing scheduler execution remains separate from this committed directive.
+
+## November 27 — Thanksgiving player-level Friday overlay
+[Fresh six-matchup player evidence and folio overlay](W12_THANKSGIVING_PLAYER_OVERLAY_2026-11-27.json) — all 12 teams, six UNDECIDED pairings, 12/12 starter sums match ESPN currentPoints, no score changes since earlier Friday summary; LLC projection revised 135.67→117.23, not a scoring change. Four NFL games final (including Wednesday). Reuse P09–P26 setup manuscripts and both endings; P04/P05–07/P27/P29–31/P33–34 receive provisional evidence only. No final rank, outcome, odds, injury or render lock. November 26 roster-team joins are historical; three unmapped player IDs require current roster reconciliation. Preserve the earlier dated receipts. Independent Steward and Bullpen execution receipts remain absent.
