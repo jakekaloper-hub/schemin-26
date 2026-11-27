@@ -172,6 +172,21 @@ export function buildWorldGeometry(bindings,grid=200,treeCount=4300,{skipLandmar
 
 return {mesh,water,height};
 }
+/** Compatibility adapters receive viewport client coordinates from the observer,
+ * while their projection and hit radius are expressed in canvas CSS pixels. */
+function pickCompatibilityPlace(canvas,bindings,project,clientX,clientY){
+ const {left,top}=canvas.getBoundingClientRect(),x=clientX-left,y=clientY-top;
+ if(!Number.isFinite(x)||!Number.isFinite(y)||x<0||y<0||x>canvas.clientWidth||y>canvas.clientHeight||!(canvas.clientWidth>0&&canvas.clientHeight>0))return null;
+ let best=null,dist=30;
+ for(const p of bindings){
+  const q=project(p.renderAnchor);
+  if(!q||!Number.isFinite(q.depth)||q.depth< -1||q.depth>1)continue;
+  const d=Math.hypot(q.x-x,q.y-y);
+  if(d<dist){dist=d;best=p;}
+ }
+ return best;
+}
+
 export function createWorldRenderer(canvas,bindings,{onContextLost=()=>{}}={}){
  const gl=canvas.getContext('webgl',{antialias:true,alpha:false,preserveDrawingBuffer:true});if(!gl)return createSoftwareRenderer(canvas,bindings,{onContextLost});
  const {mesh,water,height}=buildWorldGeometry(bindings,200,4300,{waterCellSize:8});
@@ -190,7 +205,7 @@ export function createWorldRenderer(canvas,bindings,{onContextLost=()=>{}}={}){
   const sky=[.63,.72,.72].map(v=>v*(.58+.42*strength));gl.clearColor(...sky,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(P);gl.uniformMatrix4fv(loc.uVP,false,vp);gl.uniformMatrix4fv(loc.uLightVP,false,lightVP);gl.uniform3fv(loc.uEye,eye);gl.uniform3fv(loc.uSun,[-.6,.9,.36]);gl.uniform3fv(loc.uSky,sky);gl.uniform1f(loc.uStrength,strength);gl.uniform1f(loc.uTime,waterTime);gl.uniform1f(loc.uStorm,storm);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,shadowTex);gl.uniform1i(loc.uShadow,0);gl.uniform1f(loc.uWater,0);bind(P,terrain);gl.drawArrays(gl.TRIANGLES,0,terrain.count);gl.uniform1f(loc.uWater,1);bind(P,ocean);gl.drawArrays(gl.TRIANGLES,0,ocean.count);
  }
  function project(p){if(!vp)return null;const v=[...p,1],o=[0,0,0,0];for(let r=0;r<4;r++)for(let c=0;c<4;c++)o[r]+=vp[c*4+r]*v[c];if(o[3]<=0)return null;return {x:(o[0]/o[3]*.5+.5)*canvas.clientWidth,y:(-.5*o[1]/o[3]+.5)*canvas.clientHeight,depth:o[2]/o[3]};}
- function pick(x,y){let best=null,dist=30;for(const p of bindings){const q=project(p.renderAnchor);if(!q||q.depth>1)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<dist){dist=d;best=p;}}return best;}
+ function pick(clientX,clientY){return pickCompatibilityPlace(canvas,bindings,project,clientX,clientY);}
  return {render,project,pick,height,stats:{vertices:terrain.count,locations:bindings.length,renderer:'native-webgl',geometry:'PROCEDURAL_MASSING_NOT_APPROVED_ART'},loseContext(){gl.getExtension('WEBGL_lose_context')?.loseContext();},dispose(){disposed=true;canvas.removeEventListener('webglcontextlost',contextLost);gl.deleteBuffer(terrain.buffer);gl.deleteBuffer(ocean.buffer);gl.deleteTexture(shadowTex);gl.deleteRenderbuffer(depth);gl.deleteFramebuffer(fb);gl.deleteProgram(P);gl.deleteProgram(S);}};
 }
 
@@ -263,6 +278,6 @@ function createSoftwareRenderer(canvas,bindings,{onContextLost}){
    ctx.strokeStyle=`rgba(216,219,190,${.08*strength})`;ctx.lineWidth=.6;
    for(let i=0;i<110;i++){const bankX=(hash(i,7)*250)-125,z=hash(i,11)*170+35;if(height(bankX,z)>-.3)continue;const x=bankX+waterSheenDrift(i,waterFrame);const endX=x+1+hash(i,1)*2;const start=[x,-.4+canvasWaterDisplacement(x,z,waterFrame),z],end=[endX,-.4+canvasWaterDisplacement(endX,z,waterFrame),z];if(!canvasSheenVisible(start,end,eye,height))continue;const a=project(start),b=project(end);if(a&&b){ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
  }
- function pick(x,y){let best=null,dist=30;for(const p of bindings){const q=project(p.renderAnchor);if(!q||q.depth>1)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<dist){dist=d;best=p;}}return best;}
+ function pick(clientX,clientY){return pickCompatibilityPlace(canvas,bindings,project,clientX,clientY);}
  return {render,project,pick,height,stats:{triangles:triangles.length,waterTriangles:waterTriangles.length,locations:bindings.length,renderer:'canvas2d-spatial-fallback',geometry:'PROCEDURAL_MASSING_NOT_APPROVED_ART'},loseContext(){onContextLost();},dispose(){disposed=true;}};
 }

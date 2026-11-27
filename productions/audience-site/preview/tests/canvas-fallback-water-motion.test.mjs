@@ -118,3 +118,52 @@ test('Canvas density-only redraw preserves CSS projection and the paused water f
   if(before===undefined)delete globalThis.devicePixelRatio;else globalThis.devicePixelRatio=before;
  }
 });
+
+function compatibilityPickingFixture(native){
+ const gradient={addColorStop(){}},ctx={createLinearGradient(){return gradient;},setTransform(){},fillRect(){},beginPath(){},moveTo(){},lineTo(){},closePath(){},fill(){},stroke(){}};
+ let bound=null;const constants=new Map();
+ const methods={createShader:()=>({}),createProgram:()=>({}),createBuffer:()=>({}),createTexture:()=>({}),createRenderbuffer:()=>({}),createFramebuffer:()=>({}),
+  getShaderParameter:()=>true,getProgramParameter:()=>true,getAttribLocation:()=>0,getUniformLocation:()=>({}),isContextLost:()=>false,
+  bindFramebuffer:(_target,value)=>{bound=value;},getParameter:()=>bound,checkFramebufferStatus:()=>gl.FRAMEBUFFER_COMPLETE};
+ const gl=new Proxy(methods,{get(target,key){if(key in target)return target[key];if(/^[A-Z0-9_]+$/.test(key)){if(!constants.has(key))constants.set(key,constants.size+1);return constants.get(key);}return ()=>{};}});
+ const canvas={clientWidth:900,clientHeight:650,width:0,height:0,left:137,top:91,
+  getBoundingClientRect(){return {left:this.left,top:this.top,width:this.clientWidth,height:this.clientHeight};},
+  getContext(type){return type==='2d'?ctx:native&&type==='webgl'?gl:null;},
+  addEventListener(){},removeEventListener(){}};
+ return canvas;
+}
+
+for(const native of [false,true])test((native?'Native WebGL':'Canvas')+' compatibility selects existing place using client coordinates after canvas relocation',()=>{
+ const before=globalThis.devicePixelRatio;globalThis.devicePixelRatio=1;
+ const canvas=compatibilityPickingFixture(native),binding={id:'LOC-MUD-DOGS-SWAMP',anchor:[0,0,50],visited:false};
+ const camera={target:[0,2,50],distance:190,yaw:.2,pitch:.17};
+ let renderer;
+ try{
+  renderer=createWorldRenderer(canvas,[binding],{});
+  assert.equal(renderer.stats.renderer,native?'native-webgl':'canvas2d-spatial-fallback');
+  renderer.render(camera,.5,{strength:1,storm:0,paused:false});
+  let q=renderer.project(binding.renderAnchor);
+  assert.ok(q&&q.depth>=-1&&q.depth<=1);
+  assert.equal(renderer.pick(q.x+canvas.left,q.y+canvas.top),binding,'pointer uses client rather than canvas-local coordinates');
+  assert.equal(renderer.pick(q.x,q.y),null,'untranslated local coordinate must not select a displaced place');
+  // Moving the DOM element does not change source projection or the place.
+  canvas.left=235;canvas.top=175;
+  assert.equal(renderer.pick(q.x+canvas.left,q.y+canvas.top),binding);
+  assert.equal(renderer.pick(NaN,q.y+canvas.top),null);
+  assert.equal(renderer.pick(canvas.left-1,canvas.top+1),null);
+  globalThis.devicePixelRatio=2;
+  renderer.render(camera,10,{strength:1,storm:0,paused:true});
+  q=renderer.project(binding.renderAnchor);
+  assert.equal(renderer.pick(q.x+canvas.left,q.y+canvas.top),binding,'backing density does not scale client hits');
+  // Synthetic near-plane probe uses the existing camera and only the test binding.
+  const t=camera.target,d=camera.distance,dir=[Math.sin(camera.yaw)*Math.cos(camera.pitch),Math.sin(camera.pitch),Math.cos(camera.yaw)*Math.cos(camera.pitch)];
+  binding.renderAnchor=t.map((v,i)=>v+dir[i]*(d-.15));
+  const near=renderer.project(binding.renderAnchor);
+  assert.ok(near&&near.depth< -1,'probe is in front of eye but clipped by near plane');
+  assert.equal(renderer.pick(near.x+canvas.left,near.y+canvas.top),null);
+  assert.equal(binding.visited,false);
+ }finally{
+  renderer?.dispose();
+  if(before===undefined)delete globalThis.devicePixelRatio;else globalThis.devicePixelRatio=before;
+ }
+});
