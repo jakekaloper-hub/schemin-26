@@ -375,5 +375,9 @@ frameId=requestAnimationFrame(()=>{
 });
 // A persisted pagehide freezes this document for browser back/forward navigation.
  // Keep its one existing animation loop and renderer alive; the browser resumes them.
-window.addEventListener('pagehide',e=>{if(e.persisted)return;cancelAnimationFrame(frameId);renderer?.dispose();});
+window.addEventListener('pagehide',e=>{cancelWorldGesture();if(e.persisted)return;cancelAnimationFrame(frameId);renderer?.dispose();});
 window.addEventListener('pageshow',e=>{if(e.persisted)lastTime=performance.now();});
+
+// Leaving the active document retires only world input, never the renderer or camera.
+window.addEventListener('blur',cancelWorldGesture);
+document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelWorldGesture();});
