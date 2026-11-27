@@ -98,3 +98,41 @@ test('El Niño calm does not suppress ordinary river/wetland/pond flow, pause st
   assert.equal(disposals,1);
   assert.equal(JSON.stringify(bindings),before);
 });
+
+test('hanging foliage UV wrap uses area-weighted side normals without changing the pointed tip or cap',()=>{
+  const a=build();
+  try {
+    const v=strands(a);assert.equal(v.length,28);
+    for(const o of v){
+      const g=o.geometry,p=g.getAttribute('position'),n=g.getAttribute('normal'),idx=g.getIndex();
+      const {radialSegments:r,heightSegments:h}=g.parameters,stride=r+1,sideCount=stride*(h+1);
+      const raw=g.clone();raw.computeVertexNormals();const original=raw.getAttribute('normal');
+      const pos=i=>new THREE.Vector3().fromBufferAttribute(p,i);
+      const normal=i=>new THREE.Vector3().fromBufferAttribute(n,i);
+      for(let row=0;row<=h;row++){
+        const first=row*stride,last=first+r,sum=new THREE.Vector3(),used=new Set();
+        assert.ok(pos(first).distanceTo(pos(last))<1e-6);
+        for(let k=0;k<idx.count;k+=3){
+          const tri=[idx.getX(k),idx.getX(k+1),idx.getX(k+2)];
+          if(tri.some(i=>i>=sideCount)||!tri.some(i=>i===first||i===last))continue;
+          for(const i of tri)used.add(i);
+          const [x,y,z]=tri.map(pos);sum.add(y.sub(x).cross(z.sub(x)));
+        }
+        sum.normalize();
+        assert.ok(normal(first).distanceTo(normal(last))<1e-6,'UV wrap lighting discontinuity');
+        assert.ok(normal(first).distanceTo(sum)<1e-6,'area-weighted side seam');
+        assert.ok(Math.abs(normal(first).length()-1)<1e-6);
+        if(row===0){
+          const tip=[first,last].filter(i=>used.has(i));
+          assert.equal(tip.length,1,'only one wrap duplicate is referenced at the cone tip');
+          assert.ok(normal(tip[0]).distanceTo(new THREE.Vector3().fromBufferAttribute(original,tip[0]))<1e-6,'referenced apex normal unchanged');
+        }
+      }
+      for(let i=0;i<p.count;i++){
+        if(i<sideCount&&(i%stride===0||i%stride===r))continue;
+        assert.deepEqual(normal(i).toArray(),new THREE.Vector3().fromBufferAttribute(original,i).toArray(),'non-seam tip, side and cap normals unchanged');
+      }
+      raw.dispose();
+    }
+  } finally {a.dispose();}
+});

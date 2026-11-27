@@ -1588,6 +1588,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       p.setXYZ(j,xx*(1-inset),yy,zz*(1-inset));
     }
     p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    reconcileCylinderSideSeam(geo);
     const o=mesh(g,geo,moss,x,y,z);
     o.name='Candidate Mud Dogs folded hanging vegetation';
     o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',
