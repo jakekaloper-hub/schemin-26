@@ -19,7 +19,9 @@ function appendLine(parent,label,values){
 function enterHistory(){
   if(!selected||!canControl())return;
   historyPreviousFocus=document.activeElement;
-  historySession=openPlaceHistory(catalog,selected.id,camera);target=structuredClone(camera);
+  historySession=openPlaceHistory(catalog,selected.id,camera);
+  // UI-only destination: keep the pending place approach separate from the frozen replay camera.
+  historySession.returnTarget=structuredClone(target);target=structuredClone(camera);
   cancelWorldGesture();
   $('#historyPlace').textContent=selected.name;
   $('#historyBoundary').textContent=`World Memory · ${catalog.history.status.replaceAll('_',' ')} · recorded as ${catalog.stateAsOf.replaceAll('_',' ')}. Historical source descriptions are not verified present-day conditions, official released folios or approved physical geometry.`;
@@ -38,8 +40,8 @@ function enterHistory(){
 }
 function exitHistory(){
   if(!historySession)return;
-  const restore=closePlaceHistory(historySession);historySession=null;
-  camera=structuredClone(restore.camera);target=structuredClone(restore.camera);
+  const restore=closePlaceHistory(historySession),resumeTarget=historySession.returnTarget??restore.camera;historySession=null;
+  camera=structuredClone(restore.camera);target=structuredClone(resumeTarget);
   historyDialog.close();document.body.classList.remove('history-open');
   lastTime=performance.now();if(!restoreFallbackPlace(restore.locationId,true)&&historyPreviousFocus?.isConnected)historyPreviousFocus.focus();
 }

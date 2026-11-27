@@ -59,7 +59,8 @@ function enterMemory(){
  const m=selectedMemory();if(!m)return;
  memoryPreviousFocus=document.activeElement;
  // Freeze precisely the current observation position, even during a camera approach.
- memorySession=openMemory(memoryIndex,selected.id,camera);if(innerWidth<700)memorySession=memoryView(memorySession,'FOLIO');memoryGeneration++;memoryZoom=false;
+ memorySession=openMemory(memoryIndex,selected.id,camera);
+ memorySession.returnTarget=structuredClone(target);if(innerWidth<700)memorySession=memoryView(memorySession,'FOLIO');memoryGeneration++;memoryZoom=false;
  target=structuredClone(camera);cancelWorldGesture();
  memoryButtons.length=0;$('#memoryPages').replaceChildren();
  for(let i=0;i<m.pages.length;i++){const b=document.createElement('button');b.type='button';b.textContent=String(i+1).padStart(2,'0');b.dataset.memoryPage=i;b.setAttribute('aria-label',m.pages[i].title);b.onclick=()=>{memorySession=navigateMemory(memorySession,memoryIndex,i-memorySession.pageIndex);memoryZoom=false;showMemoryPage();};memoryButtons.push(b);$('#memoryPages').append(b);}
@@ -67,8 +68,8 @@ function enterMemory(){
 }
 function exitMemory(){
  if(!memorySession)return;
- const restore=closeMemory(memorySession);memorySession=null;memoryGeneration++;memoryZoom=false;
- camera=structuredClone(restore.camera);target=structuredClone(restore.camera);
+ const restore=closeMemory(memorySession),resumeTarget=memorySession.returnTarget??restore.camera;memorySession=null;memoryGeneration++;memoryZoom=false;
+ camera=structuredClone(restore.camera);target=structuredClone(resumeTarget);
  memoryDialog.close();document.body.classList.remove('memory-open');
  memoryImage.removeAttribute('src');memoryImage.hidden=true;
  lastTime=performance.now();if(!restoreFallbackPlace(restore.locationId)&&memoryPreviousFocus?.isConnected)memoryPreviousFocus.focus();
