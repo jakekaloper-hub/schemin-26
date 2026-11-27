@@ -84,8 +84,16 @@ $('#memoryZoom').onclick=()=>{memoryTouch=null;memoryZoom=!memoryZoom;layoutMemo
 $('#memoryRetry').onclick=showMemoryPage;
 memoryDialog.addEventListener('cancel',e=>{e.preventDefault();exitMemory();});
 document.addEventListener('keydown',e=>{
- if(!memorySession)return;
- if(['Escape','ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();e.stopImmediatePropagation();if(e.key==='Escape')exitMemory();else nextMemory(e.key==='ArrowLeft'?-1:1);}
+ if(!memorySession||e.defaultPrevented)return;
+ if(e.key==='Escape'){e.preventDefault();e.stopImmediatePropagation();exitMemory();return;}
+ if(e.altKey||e.ctrlKey||e.metaKey||e.shiftKey)return;
+ // A magnified original is a reading surface, not a page-turn gesture.
+ if(memoryZoom&&memorySession.view==='FOLIO'&&['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){
+  e.preventDefault();e.stopImmediatePropagation();
+  const [left,top]={ArrowLeft:[-48,0],ArrowRight:[48,0],ArrowUp:[0,-48],ArrowDown:[0,48]}[e.key];
+  $('#memoryViewport').scrollBy({left,top,behavior:'auto'});return;
+ }
+ if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();e.stopImmediatePropagation();nextMemory(e.key==='ArrowLeft'?-1:1);}
 },true);
 // Only the initiating primary touch may turn a folio. A second finger
 // retires the gesture, and page/view/session transitions discard its origin.
