@@ -85,3 +85,33 @@ test('arrow navigation stays screen-relative after orbiting the world',()=>{
   }
  }
 });
+
+test('Shift+arrow orbit and tilt preserve the viewpoint target, distance and paused synchronization',()=>{
+ const x=setup(),before=x.app.snapshot().target;
+ assert.equal(x.press('ArrowRight',x.canvas,{shiftKey:true}),true);
+ let pose=x.app.snapshot();
+ assert.ok(Math.abs(pose.target.yaw-before.yaw-.12)<1e-9);
+ assert.deepEqual(pose.target.target,before.target);assert.equal(pose.target.distance,before.distance);
+ assert.deepEqual(pose.camera,pose.target);
+ assert.equal(x.press('ArrowLeft',x.canvas,{shiftKey:true}),true);
+ assert.ok(Math.abs(x.app.snapshot().target.yaw-before.yaw)<1e-9);
+ assert.equal(x.press('ArrowUp',x.canvas,{shiftKey:true}),true);
+ assert.ok(Math.abs(x.app.snapshot().target.pitch-before.pitch-.08)<1e-9);
+ for(let i=0;i<30;i++)x.press('ArrowUp',x.canvas,{shiftKey:true});
+ assert.equal(x.app.snapshot().target.pitch,1.48);
+ for(let i=0;i<30;i++)x.press('ArrowDown',x.canvas,{shiftKey:true});
+ pose=x.app.snapshot();assert.equal(pose.target.pitch,.2);
+ assert.deepEqual(pose.target.target,before.target);assert.deepEqual(pose.camera,pose.target);
+});
+test('keyboard orbit does not override native controls, modifiers, history ownership or zoom',()=>{
+ const x=setup(),before=x.app.snapshot();
+ assert.equal(x.press('ArrowRight',{}, {shiftKey:true}),false);
+ assert.equal(x.press('ArrowUp',x.canvas,{shiftKey:true,ctrlKey:true}),false);
+ assert.equal(x.press('ArrowLeft',x.canvas,{shiftKey:true,defaultPrevented:true}),false);
+ assert.deepEqual(x.app.snapshot(),before);
+ assert.equal(x.press('+',x.canvas,{shiftKey:true}),true);
+ assert.equal(x.app.snapshot().target.distance,before.target.distance-10);
+ x.disable();const after=x.app.snapshot();
+ assert.equal(x.press('ArrowDown',x.canvas,{shiftKey:true}),false);
+ assert.deepEqual(x.app.snapshot(),after);
+});

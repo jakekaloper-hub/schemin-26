@@ -265,7 +265,9 @@ function handleWorldKey(e){
  // Match pointer panning in the current target view rather than fixed Atlas axes.
  const c=Math.cos(target.yaw),s=Math.sin(target.yaw);
  const action={ArrowLeft:{panX:-3*c,panZ:3*s},ArrowRight:{panX:3*c,panZ:-3*s},ArrowUp:{panX:-3*s,panZ:-3*c},ArrowDown:{panX:3*s,panZ:3*c},'+':{zoom:-10},'=':{zoom:-10},'-':{zoom:10}}[e.key];
- if(action){e.preventDefault();target=cameraStep(target,action);if(paused)camera=structuredClone(target);}
+ // Shift+arrows give keyboard-only spectators the same orbit/tilt capability as drag.
+ const orbit=e.shiftKey?{ArrowLeft:{yaw:-.12},ArrowRight:{yaw:.12},ArrowUp:{pitch:.08},ArrowDown:{pitch:-.08}}[e.key]:null;
+ if(action){e.preventDefault();target=cameraStep(target,orbit||action);if(paused)camera=structuredClone(target);}
 }
 document.addEventListener('keydown',handleWorldKey);
 
