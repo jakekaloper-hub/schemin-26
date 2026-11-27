@@ -99,3 +99,43 @@ test('Static shafts keep natural water moving during calm, freeze on pause and d
   assert.equal(geometryDisposals,1);assert.equal(materialDisposals,1);
   assert.equal(JSON.stringify(bindings),snapshot);
 });
+
+test('Temple shaft duplicate UV seam shares exact area-weighted side normals without touching caps',()=>{
+  const a=build();
+  let samples=0;
+  for(const o of shafts(a)){
+    const g=o.geometry,p=g.getAttribute('position'),n=g.getAttribute('normal');
+    const uv=g.getAttribute('uv'),index=g.getIndex();
+    const stride=33,sideCount=stride*9;
+    const split=g.clone();split.computeVertexNormals();
+    const old=split.getAttribute('normal');
+    for(let row=0;row<9;row++){
+      const first=row*stride,last=first+32;
+      const expected=new THREE.Vector3();
+      for(let k=0;k<index.count;k+=3){
+        const ids=[index.getX(k),index.getX(k+1),index.getX(k+2)];
+        if(!ids.includes(first)&&!ids.includes(last))continue;
+        assert.ok(ids.every(i=>i<sideCount),'Side seam excludes separate cap vertices');
+        const [u,v,w]=ids.map(i=>new THREE.Vector3().fromBufferAttribute(p,i));
+        expected.add(v.sub(u).cross(w.sub(u)));
+      }
+      expected.normalize();
+      const left=new THREE.Vector3().fromBufferAttribute(n,first);
+      const right=new THREE.Vector3().fromBufferAttribute(n,last);
+      assert.ok(left.distanceTo(right)<1e-7,'No artificial normal split at the UV seam');
+      assert.ok(left.distanceTo(expected)<1e-6,'Both seam normals use all incident face areas');
+      assert.ok(Math.abs(left.length()-1)<1e-6);
+      assert.ok(new THREE.Vector3().fromBufferAttribute(p,first)
+        .distanceTo(new THREE.Vector3().fromBufferAttribute(p,last))<1e-6);
+      assert.equal(uv.getX(first),0);assert.equal(uv.getX(last),1);
+      samples++;
+    }
+    for(let i=0;i<n.count;i++){
+      if(i<sideCount&&(i%stride===0||i%stride===32))continue;
+      assert.deepEqual([n.getX(i),n.getY(i),n.getZ(i)],[old.getX(i),old.getY(i),old.getZ(i)],
+        'Non-seam side and independent cap normals are unchanged');
+    }
+    split.dispose();
+  }
+  assert.equal(samples,45);a.dispose();assert.equal(JSON.stringify(bindings),snapshot);
+});

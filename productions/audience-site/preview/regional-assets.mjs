@@ -890,6 +890,29 @@ export function buildRegionalAssets(THREE, bindings, height) {
       position.setXYZ(j,x*(1-depth),y,z*(1-depth));
     }
     position.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    // The cylindrical side has duplicate vertices at its UV wrap, not a
+    // physical ridge. Reconcile their area-weighted normals after carving.
+    // Separate cap vertices, all positions, UVs and triangle indices stay fixed.
+    const normal=geometry.getAttribute('normal'),index=geometry.getIndex();
+    const radial=geometry.parameters.radialSegments,rows=geometry.parameters.heightSegments+1;
+    const stride=radial+1,sideCount=stride*rows;
+    const sums=Array.from({length:rows},()=>new THREE.Vector3());
+    const a=new THREE.Vector3(),b=new THREE.Vector3(),c=new THREE.Vector3();
+    for(let k=0;k<index.count;k+=3){
+      const i0=index.getX(k),i1=index.getX(k+1),i2=index.getX(k+2);
+      if(i0>=sideCount||i1>=sideCount||i2>=sideCount)continue;
+      const seamRows=[i0,i1,i2].filter(v=>v%stride===0||v%stride===radial)
+        .map(v=>Math.floor(v/stride));
+      if(!seamRows.length)continue;
+      a.fromBufferAttribute(position,i0);b.fromBufferAttribute(position,i1);
+      c.fromBufferAttribute(position,i2);b.sub(a).cross(c.sub(a));
+      for(const row of new Set(seamRows))sums[row].add(b);
+    }
+    for(let row=0;row<rows;row++){
+      const n=sums[row].normalize(),first=row*stride,last=first+radial;
+      normal.setXYZ(first,n.x,n.y,n.z);normal.setXYZ(last,n.x,n.y,n.z);
+    }
+    normal.needsUpdate=true;
     const o=mesh(g,geometry,stone,1+i*1.05,2.3+h/2,1.1);
     o.name='Candidate Temple fluted stone pillar';
     o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'temple stone',
