@@ -1275,7 +1275,31 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const geo=new THREE.BufferGeometry();
     geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
     geo.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
-    geo.setIndex(indices);geo.computeVertexNormals();geo.computeBoundingSphere();
+    geo.setIndex(indices);geo.computeVertexNormals();
+    // Duplicate only the UV wrap after computing the original smooth normals.
+    // A shared u=0 corner otherwise stretches the wood texture across the last face.
+    const normals=Array.from(geo.getAttribute('normal').array),stride=sides*rings;
+    for(let root=0;root<rootCount;root++){
+      const start=root*stride,seamStart=positions.length/3;
+      for(let r=0;r<rings;r++){
+        const v=start+r*sides;
+        positions.push(...positions.slice(v*3,v*3+3));
+        normals.push(...normals.slice(v*3,v*3+3));
+        uv.push(1,r/(rings-1));
+      }
+      // Only the final sector of each ring strip uses the duplicate u=1 corner.
+      for(let r=0;r<rings-1;r++){
+        const faceStart=((root*(rings-1)+r)*sides+sides-1)*6;
+        for(let k=faceStart;k<faceStart+6;k++){
+          const v=indices[k];
+          if((v-start)%sides===0)indices[k]=seamStart+(v-start)/sides;
+        }
+      }
+    }
+    geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+    geo.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));
+    geo.setAttribute('normal',new THREE.Float32BufferAttribute(normals,3));
+    geo.setIndex(indices);geo.computeBoundingSphere();
     // Existing trunk material/UVs let the static batcher reuse an existing draw group.
     const knees=mesh(g,geo,trunk,0,0,0);
     knees.name='Candidate wetland waterline root knees';
