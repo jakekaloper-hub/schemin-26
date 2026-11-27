@@ -72,3 +72,32 @@ test('bark geometry batches into one opaque material with vertex color and retai
  }finally{for(const geo of batch.geometries)geo.dispose();a.dispose();a.dispose();}
  assert.equal(disposed,1);
 });
+
+test('Temple bark UV wraps use incident area-weighted side normals without changing non-seam normals',()=>{
+ const a=build();let maxError=0,pairs=0;
+ try{
+ for(const o of trunks(a)){
+  const g=o.geometry,p=g.getAttribute('position'),n=g.getAttribute('normal'),idx=g.getIndex();
+  const {radialSegments:r,heightSegments:h}=g.parameters,stride=r+1,sideCount=stride*(h+1);
+  const baseline=g.clone();baseline.computeVertexNormals();
+  try{
+  const raw=baseline.getAttribute('normal');
+  for(let row=0;row<=h;row++){
+   const first=row*stride,last=first+r,sum=new THREE.Vector3();
+   for(let k=0;k<idx.count;k+=3){
+    const tri=[idx.getX(k),idx.getX(k+1),idx.getX(k+2)];
+    if(tri.some(v=>v>=sideCount)||(!tri.includes(first)&&!tri.includes(last)))continue;
+    const [u,v,w]=tri.map(i=>new THREE.Vector3().fromBufferAttribute(p,i));
+    sum.add(v.sub(u).cross(w.sub(u)));
+   }
+   sum.normalize();assert.ok(sum.lengthSq()>.99);
+   for(const i of [first,last])maxError=Math.max(maxError,sum.distanceTo(new THREE.Vector3().fromBufferAttribute(n,i)));
+   pairs++;
+  }
+  for(let i=0;i<n.count;i++)if(i>=sideCount||(i%stride!==0&&i%stride!==r))
+   assert.deepEqual(n.array.slice(i*3,i*3+3),raw.array.slice(i*3,i*3+3));
+  }finally{baseline.dispose();}
+ }
+ assert.equal(pairs,91);console.log(JSON.stringify({pairs,maxError}));assert.ok(maxError<1e-6,`area-weighted seam error ${maxError}`);
+ }finally{a.dispose();}
+});

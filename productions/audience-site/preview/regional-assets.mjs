@@ -32,15 +32,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     }
     pos.needsUpdate=true;geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
     geo.computeVertexNormals();geo.computeBoundingSphere();
-    // Weld the normal at the duplicated UV seam on the side wall only.
-    const normals=geo.getAttribute('normal');
-    for(let row=0;row<=12;row++){
-      const a=row*25,b=a+24;
-      const n=new THREE.Vector3().fromBufferAttribute(normals,a)
-        .add(new THREE.Vector3().fromBufferAttribute(normals,b)).normalize();
-      normals.setXYZ(a,n.x,n.y,n.z);normals.setXYZ(b,n.x,n.y,n.z);
-    }
-    normals.needsUpdate=true;
+    reconcileCylinderSideSeam(geo);
     if(!materials.has('temple-bark')){const m=trunk.clone();m.vertexColors=true;materials.set('temple-bark',m);}
     const stem=mesh(g,geo,materials.get('temple-bark'),x,y+h/2,z);
     geo.name='Candidate Temple recessed bark trunk';stem.name=geo.name;
