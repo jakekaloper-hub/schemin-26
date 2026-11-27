@@ -103,3 +103,40 @@ test('existing calm/pause water clock remains unchanged; the crown geometry disp
   assert.equal(disposed,1);
   assert.equal(JSON.stringify(bindings),before);
 });
+
+test('all Mud Dogs crown vertices share area-weighted lighting across coincident face corners',()=>{
+  const a=build();try{
+    let groups=0,copies=0,maxError=0,maxDiscontinuity=0;
+    for(const o of lobes(a)){
+      const g=o.geometry,p=g.attributes.position,n=g.attributes.normal;
+      assert.equal(g.index,null,'preserve original non-indexed triangle topology');
+      const pos=i=>new THREE.Vector3().fromBufferAttribute(p,i);
+      const normal=i=>new THREE.Vector3().fromBufferAttribute(n,i);
+      const corners=new Map();
+      for(let i=0;i<p.count;i++){
+        const key=pos(i).toArray().join(',');
+        if(!corners.has(key))corners.set(key,[]);
+        corners.get(key).push(i);
+      }
+      for(const ids of corners.values()){
+        assert.ok(ids.length>=3,'every crown corner belongs to a closed smooth surface');
+        const expected=new THREE.Vector3();
+        for(const i of ids){
+          const k=i-i%3,[x,y,z]=[pos(k),pos(k+1),pos(k+2)];
+          expected.add(y.sub(x).cross(z.sub(x)));
+        }
+        expected.normalize();groups++;copies+=ids.length;
+        for(const i of ids){
+          maxError=Math.max(maxError,normal(i).distanceTo(expected));
+          maxDiscontinuity=Math.max(maxDiscontinuity,normal(i).distanceTo(normal(ids[0])));
+          assert.ok(Math.abs(normal(i).length()-1)<1e-6);
+          assert.ok(normal(i).dot(pos(i))>0,'outward crown lighting');
+        }
+      }
+    }
+    assert.equal(groups,5152);assert.equal(copies,30240);
+    console.log('MUD_DOGS_CROWN_LIGHTING',JSON.stringify({groups,copies,maxError,maxDiscontinuity}));
+    assert.ok(maxError<1e-6,'incident triangle area-weighted normal');
+    assert.ok(maxDiscontinuity<1e-6,'no artificial split-face lighting');
+  }finally{a.dispose();}
+});

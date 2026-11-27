@@ -1556,7 +1556,23 @@ export function buildRegionalAssets(THREE, bindings, height) {
       p.setXYZ(k,x*(1-inset),y*(1-inset),z*(1-inset));
     }
     p.needsUpdate=true;geo.name='Candidate Mud Dogs inward-scalloped canopy lobe';
-    geo.computeVertexNormals();geo.computeBoundingSphere();
+    // The inherited detail-2 icosahedron is non-indexed. Recomputing face-local
+    // normals would reintroduce faceting at duplicated, coincident corners.
+    // Sum incident triangle areas at exact shared positions without welding UVs.
+    const normal=geo.getAttribute('normal'),sums=new Map(),keys=[];
+    const a=new THREE.Vector3(),b=new THREE.Vector3(),c=new THREE.Vector3();
+    for(let i=0;i<p.count;i+=3){
+      a.fromBufferAttribute(p,i);b.fromBufferAttribute(p,i+1);c.fromBufferAttribute(p,i+2);
+      const area=b.sub(a).cross(c.sub(a));
+      for(let j=i;j<i+3;j++){
+        const key=[p.getX(j),p.getY(j),p.getZ(j)].join(',');keys[j]=key;
+        if(!sums.has(key))sums.set(key,new THREE.Vector3());
+        sums.get(key).add(area);
+      }
+    }
+    for(const sum of sums.values())sum.normalize();
+    for(let i=0;i<p.count;i++){const n=sums.get(keys[i]);normal.setXYZ(i,n.x,n.y,n.z);}
+    normal.needsUpdate=true;geo.computeBoundingSphere();
     lobe.userData={...lobe.userData,visualAuthority:'CANDIDATE_NOT_APPROVED',
       sourceEnvironment:['cypress-like wetlands'],originalLobeEnvelopePreserved:true,
       navigable:false,routeIds:[],principalCharacters:[]};
