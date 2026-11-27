@@ -39,7 +39,8 @@ function syncMemoryChrome(){
 async function showMemoryPage(){
  memoryTouch=null;
  if(!memorySession)return;
- const generation=memoryGeneration,token=memorySession.loadToken,m=currentMemory(),page=m.pages[memorySession.pageIndex];
+ // A retry of the same page also supersedes any outstanding decode.
+ const generation=++memoryGeneration,token=memorySession.loadToken,m=currentMemory(),page=m.pages[memorySession.pageIndex];
  $('#memoryLoading').hidden=false;$('#memoryFailure').hidden=true;memoryImage.hidden=true;
  syncMemoryChrome();
  try{
