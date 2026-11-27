@@ -15,7 +15,7 @@ function setup(){
  const infoStart=source.indexOf('function closeInfo(){');
  const info=source.slice(infoStart>=0?infoStart:source.indexOf("$('#infoToggle').onclick="),source.indexOf("$('#placeSearch').oninput="));
  const build=new Function('$','canvas','document','canControl','cameraStep','defaultCamera','calls','structuredClone',
- "let target=defaultCamera(),camera=defaultCamera(),paused=true,inspectionReturnFocus=$('#placesToggle'),selected={id:'LOC-TEST'},infoFromInspector=false;function closeInspector(){};\n"+escape+"\nfunction escapePanels(){clearPanels();calls.push('close');}\n"+info+"\n"+source.slice(start,end)+"\nreturn {handleWorldKey,escapePanels,snapshot:()=>({target,camera})};");
+ "let target=defaultCamera(),camera=defaultCamera(),paused=true,inspectionReturnFocus=$('#placesToggle'),selected={id:'LOC-TEST'},infoFromInspector=false;function closeInspector(){};\n"+escape+"\nfunction escapePanels(){clearPanels();calls.push('close');}\n"+info+"\n"+source.slice(start,end)+"\nreturn {handleWorldKey,escapePanels,snapshot:()=>({target,camera}),setYaw:yaw=>{target.yaw=yaw;camera.yaw=yaw;}};");
  const app=build($,canvas,{body},()=>enabled,cameraStep,defaultCamera,calls,structuredClone);
  const press=(key,target=canvas,extra={})=>{let prevented=false;app.handleWorldKey({key,target,preventDefault(){prevented=true;},...extra});return prevented;};
  return {$,canvas,body,calls,app,press,disable(){enabled=false;}};
@@ -66,4 +66,22 @@ test('graphics or reader ownership prevents Escape and prevents restoring an una
  const x=setup();x.$('#inspector').hidden=false;x.$('#inspectSource').onclick();x.disable();
  assert.equal(x.press('Escape',{}),false);assert.equal(x.$('#infoPanel').hidden,false);
  x.$('#infoClose').onclick();assert.equal(x.$('#inspector').hidden,true);
+});
+
+test('arrow navigation stays screen-relative after orbiting the world',()=>{
+ const cases=[
+  [0,[[3,0],[-3,0],[0,-3],[0,3]]],
+  [Math.PI/2,[[0,-3],[0,3],[-3,0],[3,0]]],
+  [Math.PI,[[-3,0],[3,0],[0,3],[0,-3]]],
+  [-Math.PI/2,[[0,3],[0,-3],[3,0],[-3,0]]]
+ ];
+ for(const [yaw,expected] of cases){
+  for(const [i,key] of ['ArrowRight','ArrowLeft','ArrowUp','ArrowDown'].entries()){
+   const x=setup();x.app.setYaw(yaw);
+   assert.equal(x.press(key),true);
+   const {target,camera}=x.app.snapshot(),[dx,dz]=expected[i];
+   assert.ok(Math.abs(target.target[0]-dx)<1e-9&&Math.abs(target.target[2]-dz)<1e-9,`${key} at ${yaw}`);
+   assert.equal(target.yaw,yaw);assert.deepEqual(camera,target);
+  }
+ }
 });
