@@ -1623,14 +1623,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       p.setXYZ(i,x*factor,y,z*factor);
     }
     p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
-    const normal=geo.getAttribute('normal');
-    for(let row=0;row<=axial;row++){
-      const first=row*(radial+1),last=first+radial;
-      const n=new THREE.Vector3().fromBufferAttribute(normal,first)
-        .add(new THREE.Vector3().fromBufferAttribute(normal,last)).normalize();
-      normal.setXYZ(first,n.x,n.y,n.z);normal.setXYZ(last,n.x,n.y,n.z);
-    }
-    normal.needsUpdate=true;
+    reconcileCylinderSideSeam(geo);
     const o=mesh(g,geo,trunk,...a.clone().add(b).multiplyScalar(.5).toArray());
     o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),direction.normalize());
     o.name=geo.name='Candidate Mud Dogs recessed fallen timber';

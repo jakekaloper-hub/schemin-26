@@ -120,3 +120,32 @@ test('Timber centerline intersects the entire bounded ordinary-water envelope ab
     console.log('TIMBER_CONTACT_CPU',JSON.stringify({stations:41,terrainGrid:grid,margins,waterEnvelope:[.12-trough,.12+crest]}));
   }finally{a.dispose();geo.dispose();material.dispose();}
 });
+
+test('Fallen timber UV-wrap lighting uses the area-weighted incident side faces',()=>{
+  const a=build();try{
+    const g=timber(a).geometry,p=g.attributes.position,n=g.attributes.normal,idx=g.index;
+    const {radialSegments:r,heightSegments:h}=g.parameters,stride=r+1,sideCount=stride*(h+1);
+    const raw=g.clone();raw.computeVertexNormals();
+    const pos=i=>new THREE.Vector3().fromBufferAttribute(p,i);
+    const normal=i=>new THREE.Vector3().fromBufferAttribute(n,i);
+    try{
+      for(let row=0;row<=h;row++){
+        const first=row*stride,last=first+r,sum=new THREE.Vector3();
+        assert.ok(pos(first).distanceTo(pos(last))<1e-6);
+        for(let k=0;k<idx.count;k+=3){
+          const tri=[idx.getX(k),idx.getX(k+1),idx.getX(k+2)];
+          if(tri.some(i=>i>=sideCount)||!tri.some(i=>i===first||i===last))continue;
+          const [x,y,z]=tri.map(pos);sum.add(y.sub(x).cross(z.sub(x)));
+        }
+        sum.normalize();
+        assert.ok(normal(first).distanceTo(sum)<1e-6,'area-weighted timber side normal');
+        assert.ok(normal(last).distanceTo(sum)<1e-6,'matching wrap normal');
+        assert.ok(Math.abs(normal(first).length()-1)<1e-6);
+      }
+      for(let v=0;v<p.count;v++){
+        if(v<sideCount&&(v%stride===0||v%stride===r))continue;
+        assert.ok(normal(v).distanceTo(new THREE.Vector3().fromBufferAttribute(raw.attributes.normal,v))<1e-6,'non-seam and cap normals unchanged');
+      }
+    }finally{raw.dispose();}
+  }finally{a.dispose();}
+});
