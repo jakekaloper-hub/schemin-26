@@ -1,0 +1,189 @@
+{
+  "state": "12_OF_12_VISUAL_COMPARISON_OBSERVED_NOT_RENDER_APPROVED",
+  "founder_direction": "Prefer Week 10 and Week 9 character appearance; Week 11 Chili suspected drift; screenshot recovery authorized. This is edition-specific visual precedence, not blanket primary identity supersession.",
+  "week10": {
+    "source_revision": "13b8bcfcbc3673a2e97d598ccebb70464c20e945",
+    "receipt_path": "memo-os/week-10/production-evidence/completed-pdf-20261121/WEEK10_COMPLETED_PDF_RECEIPT_V1.json",
+    "receipt_blob": "5fd64f7da2c32fd17f7a2ab7b8f7e99ddbe58131",
+    "pdf_sha256": "520fa19c5881623c74c5052d36ba09fefbc793592917e523ec9f4114cf84f2b2",
+    "mac_hash_rechecked": true,
+    "physical_pages": 35,
+    "planned_scene_pages": [
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10
+      ],
+      [
+        12,
+        13,
+        14
+      ],
+      [
+        15,
+        16,
+        17
+      ],
+      [
+        20,
+        21,
+        22
+      ],
+      [
+        23,
+        24,
+        25
+      ]
+    ],
+    "screenshot_status": "REMOTE_EXTRACTION_REQUESTED; result not verified",
+    "chili_supplementary": {
+      "path": "canon/characters/assets/CHAR-BRANDON-PRYOR/supplementary/COMMISSIONER_CHILI_OUTLAW_2026_10_22_LOCAL_COPY.png",
+      "blob_sha": "1057ed07f317c2515b7a69ff2d420df7985fc0ca",
+      "status": "GitHub entry located; binary response empty, not visually inspected"
+    }
+  },
+  "week9": {
+    "source_revision": "13b8bcfcbc3673a2e97d598ccebb70464c20e945",
+    "pages": [
+      {
+        "page": 5,
+        "sha": "6687fcaf66a9a87763c92c7aeb1d04a99c48f818",
+        "subjects": [
+          {
+            "id": 12,
+            "region": "left",
+            "observed": "anthropomorphic white duck, orange bill, dark green golf beret and tartan vest"
+          },
+          {
+            "id": 1,
+            "region": "right",
+            "observed": "brown weathered hood, clipped lightsaber, no championship belt"
+          }
+        ],
+        "path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p05.jpg",
+        "inspection": "actual JPEG pixels viewed"
+      },
+      {
+        "page": 9,
+        "sha": "225dc1ec3cca93d38870e617c3a6356664a7c9db",
+        "subjects": [
+          {
+            "id": 10,
+            "region": "upper",
+            "observed": "mud-and-moss hound; riding pose does not independently certify four-legged anatomy"
+          },
+          {
+            "id": 9,
+            "region": "lower",
+            "observed": "long-haired humanoid elemental with water and lightning"
+          }
+        ],
+        "path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p09.jpg",
+        "inspection": "actual JPEG pixels viewed"
+      },
+      {
+        "page": 12,
+        "sha": "82862991665a8ff7b84fd99c430c63454618186a",
+        "subjects": [
+          {
+            "id": 2,
+            "region": "upper",
+            "observed": "red spotted leopard warrior, fur-lined armor"
+          },
+          {
+            "id": 11,
+            "region": "lower",
+            "observed": "large human trucker, cap, shades, overalls, SEVEN tally tattoo"
+          }
+        ],
+        "path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p12.jpg",
+        "inspection": "actual JPEG pixels viewed"
+      },
+      {
+        "page": 18,
+        "sha": "9f8938ee0ba12ab333240da2bd296b750db62aba",
+        "subjects": [
+          {
+            "id": 7,
+            "region": "left",
+            "observed": "dark cowboy hat with chili ornament, red weathered leather, dark beard, red bandana and cartridge-style trim; prefer over Week 11 suspected drift"
+          },
+          {
+            "id": 8,
+            "region": "right",
+            "observed": "black hooded armor, crimson cloak, red eyes and gold belt"
+          }
+        ],
+        "path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p18.jpg",
+        "inspection": "actual JPEG pixels viewed"
+      },
+      {
+        "page": 21,
+        "sha": "fb33b345a9d866db36d4e26bb6cc7799db2d63ec",
+        "subjects": [
+          {
+            "id": 5,
+            "region": "left",
+            "observed": "one integrated gorilla/equine centaur in red Arsenal armor; four-hoof silhouette needs additional full-body verification; historical source conflict not superseded"
+          },
+          {
+            "id": 4,
+            "region": "right",
+            "observed": "human dark-haired executive warrior with black and gold armor, sunglasses and LLC insignia"
+          }
+        ],
+        "path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p21.jpg",
+        "inspection": "actual JPEG pixels viewed"
+      },
+      {
+        "page": 23,
+        "sha": "a234ef317004da4e04d267abf471639282d86556",
+        "subjects": [
+          {
+            "id": 3,
+            "region": "upper",
+            "observed": "stocky curly-haired bearded fighter, black/gold gear; paintball gear scene-specific"
+          },
+          {
+            "id": 6,
+            "region": "lower",
+            "observed": "one body, three masked heads; masks are scene-specific, cannot certify unmasked serpent faces"
+          }
+        ],
+        "path": "memo-os/week-10/production-evidence/recovery-20261116/precedent-w09-p23.jpg",
+        "inspection": "actual JPEG pixels viewed"
+      }
+    ],
+    "support": [
+      {
+        "page": 24,
+        "blob_sha": "28e28ea5ceacdab635efc517aab9579dcaa7b38f"
+      },
+      {
+        "page": 25,
+        "blob_sha": "5739497e2eaf11c082436acd0d73cd7b8a74bb42"
+      },
+      {
+        "page": 15,
+        "blob_sha": "e6834999c2dc308aba220128c4538eb9e5a386f0",
+        "purpose": "Commonwealth landscape/style comparison only"
+      }
+    ]
+  },
+  "restrictions": [
+    "Do not copy historical scoreboard lettering or imply the pictured contest is a Week 12 outcome.",
+    "Week 11 Chili art excluded as appearance authority; prior approved outlaw reference takes priority.",
+    "Existing canon conflict remains for DK primary; screenshot provides semantic comparison, not automatic source supersession.",
+    "Do not upload private source photographs or entire private PDF into public repository.",
+    "Independent Character/Atlas approval and actual renderer bindings remain required."
+  ],
+  "bullpen_route": {
+    "status": "ROUTING_SPEC_ONLY; no authenticated screenshot staff worker invocation confirmed",
+    "request": "Librarian + Pitching Coach / visual staff: recover Week 10 screenshots from hash-verified PDF; reconcile 12 appearances against inspected W9 screenshots and current character authority; preserve actual screenshots/hash provenance; Umpire independently inspect final candidates."
+  }
+}

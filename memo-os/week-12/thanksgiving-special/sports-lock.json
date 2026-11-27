@@ -1,0 +1,192 @@
+{
+  "status": "SPORTS_VALIDATED_ONLY",
+  "sources": {
+    "provider": {
+      "path": "provider-snapshot.json",
+      "blob_sha": "c43993f093bfb45d435c0c8ff97c56803bafe567"
+    },
+    "archive": {
+      "path": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+      "blob_sha": "b54449a07c7534dae24b9d53c9311cd2e9a5fa0e"
+    }
+  },
+  "checks": {
+    "fresh_archive_score_winner_comparison": true,
+    "records_and_ribbons": true,
+    "all_six_rematches": true,
+    "negative_score_mutation_rejected": true
+  },
+  "data": {
+    "season": 2026,
+    "as_of": "2026-11-25",
+    "completed_weeks": 11,
+    "completed_matchups": 66,
+    "owner_weeks": 132,
+    "teams": [
+      {
+        "id": 1,
+        "name": "ObiWan Jacoby",
+        "ribbon": "WLWWWLLLLLL",
+        "wins": 4,
+        "losses": 7,
+        "record": "4-7",
+        "division": "Burgers"
+      },
+      {
+        "id": 5,
+        "name": "D0nkey K0ng",
+        "ribbon": "WWWLLWLLWWL",
+        "wins": 6,
+        "losses": 5,
+        "record": "6-5",
+        "division": "Burgers"
+      },
+      {
+        "id": 10,
+        "name": "Mud Dogs",
+        "ribbon": "WWLLLLLLLLW",
+        "wins": 3,
+        "losses": 8,
+        "record": "3-8",
+        "division": "Burgers"
+      },
+      {
+        "id": 6,
+        "name": "Three Dreaded Snake",
+        "ribbon": "WLLWLWLWLLW",
+        "wins": 5,
+        "losses": 6,
+        "record": "5-6",
+        "division": "Burgers"
+      },
+      {
+        "id": 2,
+        "name": "Red Leopards",
+        "ribbon": "LWWWLLWLWLL",
+        "wins": 5,
+        "losses": 6,
+        "record": "5-6",
+        "division": "Wings"
+      },
+      {
+        "id": 12,
+        "name": "Dr. Duckhook",
+        "ribbon": "WLLLWWWWWLW",
+        "wins": 7,
+        "losses": 4,
+        "record": "7-4",
+        "division": "Wings"
+      },
+      {
+        "id": 3,
+        "name": "Slob on my Dobb",
+        "ribbon": "LWLWLWWLWWW",
+        "wins": 7,
+        "losses": 4,
+        "record": "7-4",
+        "division": "Wings"
+      },
+      {
+        "id": 7,
+        "name": "The Chili Cheesers",
+        "ribbon": "WLWLWLWLWLW",
+        "wins": 6,
+        "losses": 5,
+        "record": "6-5",
+        "division": "Wings"
+      },
+      {
+        "id": 8,
+        "name": "His Majesty's Blood",
+        "ribbon": "LLWWWWLWLWW",
+        "wins": 7,
+        "losses": 4,
+        "record": "7-4",
+        "division": "Pizza"
+      },
+      {
+        "id": 4,
+        "name": "The LLC",
+        "ribbon": "LLWLWLLWLWL",
+        "wins": 4,
+        "losses": 7,
+        "record": "4-7",
+        "division": "Pizza"
+      },
+      {
+        "id": 9,
+        "name": "El Niño",
+        "ribbon": "LWLWLLWWWWL",
+        "wins": 6,
+        "losses": 5,
+        "record": "6-5",
+        "division": "Pizza"
+      },
+      {
+        "id": 11,
+        "name": "Seven Deadly Chins",
+        "ribbon": "LWLLWWWWLWL",
+        "wins": 6,
+        "losses": 5,
+        "record": "6-5",
+        "division": "Pizza"
+      }
+    ],
+    "rematches": [
+      {
+        "winner": 1,
+        "loser": 5,
+        "winner_name": "ObiWan Jacoby",
+        "loser_name": "D0nkey K0ng",
+        "week4_score": "157.33 – 139.67",
+        "margin": "17.66",
+        "week12_state": "UNDECIDED"
+      },
+      {
+        "winner": 6,
+        "loser": 10,
+        "winner_name": "Three Dreaded Snake",
+        "loser_name": "Mud Dogs",
+        "week4_score": "149.84 – 126.98",
+        "margin": "22.86",
+        "week12_state": "UNDECIDED"
+      },
+      {
+        "winner": 2,
+        "loser": 12,
+        "winner_name": "Red Leopards",
+        "loser_name": "Dr. Duckhook",
+        "week4_score": "164.08 – 128.36",
+        "margin": "35.72",
+        "week12_state": "UNDECIDED"
+      },
+      {
+        "winner": 3,
+        "loser": 7,
+        "winner_name": "Slob on my Dobb",
+        "loser_name": "The Chili Cheesers",
+        "week4_score": "190.72 – 139.96",
+        "margin": "50.76",
+        "week12_state": "UNDECIDED"
+      },
+      {
+        "winner": 8,
+        "loser": 4,
+        "winner_name": "His Majesty's Blood",
+        "loser_name": "The LLC",
+        "week4_score": "177.32 – 138.87",
+        "margin": "38.45",
+        "week12_state": "UNDECIDED"
+      },
+      {
+        "winner": 9,
+        "loser": 11,
+        "winner_name": "El Niño",
+        "loser_name": "Seven Deadly Chins",
+        "week4_score": "170.62 – 106.20",
+        "margin": "64.42",
+        "week12_state": "UNDECIDED"
+      }
+    ]
+  }
+}
