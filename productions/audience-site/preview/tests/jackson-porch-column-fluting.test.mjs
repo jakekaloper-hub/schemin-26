@@ -136,3 +136,36 @@ test('Static batching, ordinary water clocks during global calm, pause and once-
   assert.equal(JSON.stringify(atlas),sourceBefore);
   assert.equal(JSON.stringify(bindings),bindingsBefore);
 });
+
+test('Porch shafts reconcile only the artificial UV-wrap lighting seam',()=>{
+  const a=build();
+  try {
+    assert.equal(columns(a).length,6);
+    for(const o of columns(a)){
+      const g=o.geometry,p=g.attributes.position,n=g.attributes.normal,idx=g.index;
+      const {radialSegments:r,heightSegments:h}=g.parameters,stride=r+1,sideCount=stride*(h+1);
+      const raw=g.clone();raw.computeVertexNormals();
+      const original=raw.attributes.normal;
+      const pos=i=>new THREE.Vector3().fromBufferAttribute(p,i);
+      const normal=i=>new THREE.Vector3().fromBufferAttribute(n,i);
+      for(let row=0;row<=h;row++){
+        const first=row*stride,last=first+r,sum=new THREE.Vector3();
+        assert.ok(pos(first).distanceTo(pos(last))<1e-6);
+        for(let k=0;k<idx.count;k+=3){
+          const tri=[idx.getX(k),idx.getX(k+1),idx.getX(k+2)];
+          if(tri.some(i=>i>=sideCount)||!tri.some(i=>i===first||i===last))continue;
+          const [x,y,z]=tri.map(pos);sum.add(y.sub(x).cross(z.sub(x)));
+        }
+        sum.normalize();
+        assert.ok(normal(first).distanceTo(normal(last))<1e-6,'UV wrap lighting discontinuity');
+        assert.ok(normal(first).distanceTo(sum)<1e-6,'area-weighted side normal');
+        assert.ok(Math.abs(normal(first).length()-1)<1e-6);
+      }
+      for(let i=0;i<p.count;i++){
+        if(i<sideCount&&(i%stride===0||i%stride===r))continue;
+        assert.deepEqual(normal(i).toArray(),new THREE.Vector3().fromBufferAttribute(original,i).toArray());
+      }
+      raw.dispose();
+    }
+  } finally {a.dispose();}
+});

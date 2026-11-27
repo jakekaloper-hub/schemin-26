@@ -1932,6 +1932,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       p.setXYZ(i,px*scale,py,pz*scale);
     }
     p.needsUpdate=true;geo.computeVertexNormals();geo.computeBoundingSphere();
+    reconcileCylinderSideSeam(geo);
     geo.name='Candidate Jackson porch inward-fluted octagonal shaft';
     const o=mesh(g,geo,columnMaterial,x,.37+h/2,3.6);
     o.name='Candidate Jackson fluted porch support';
