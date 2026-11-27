@@ -103,3 +103,24 @@ test('El Nino global calm keeps ordinary waterfall, river, swamp and pond moving
  assert.equal(roofDisposals,1);assert.equal(materialDisposals,1);
  assert.equal(JSON.stringify(bindings),original);
 });
+
+test('each Jackson hip ridge keeps distinct face normals at identical positions and UVs',()=>{
+ const a=build();
+ try{
+  for(const roof of roofs(a)){
+   const geo=roof.geometry,p=geo.getAttribute('position'),n=geo.getAttribute('normal'),uv=geo.getAttribute('uv');
+   assert.equal(geo.index.count,4608,'no additional triangles');
+   for(const row of [6,12,18])for(const column of [0,8,16,24]){
+    const i=row*33+column,corner=new THREE.Vector3().fromBufferAttribute(p,i);
+    const coincident=[];
+    for(let j=0;j<p.count;j++)if(corner.distanceTo(new THREE.Vector3().fromBufferAttribute(p,j))<1e-6)coincident.push(j);
+    assert.equal(coincident.length,2,`two face vertices at row ${row} column ${column}`);
+    const [left,right]=coincident;
+    const nl=new THREE.Vector3().fromBufferAttribute(n,left),nr=new THREE.Vector3().fromBufferAttribute(n,right);
+    assert.ok(nl.dot(nr)<.80,`distinct ridge normals at row ${row} column ${column}`);
+    approx(nl.length(),1);approx(nr.length(),1);
+    if(column!==0){approx(uv.getX(left),uv.getX(right));approx(uv.getY(left),uv.getY(right));}
+   }
+  }
+ }finally{a.dispose();}
+});

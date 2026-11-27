@@ -2085,7 +2085,28 @@ export function buildRegionalAssets(THREE, bindings, height) {
         const inset=endHold*(.027*course+.009*joint);
         p.setXYZ(k,px*squareProfile*(1-inset),py,pz*squareProfile*(1-inset));
       }
-      p.needsUpdate=true;geo.rotateY(Math.PI/4);
+      p.needsUpdate=true;
+      // Split the three interior angular ridges before recomputing normals.
+      // CylinderGeometry already separates the fourth (UV seam) and bottom cap.
+      // Every triangle keeps its exact positions and UVs; only normal sharing changes.
+      const stride=33,sideCount=geo.groups[0].count,idx=geo.index,duplicates=new Map();
+      for(let j=0;j<sideCount;j+=3){
+        const corners=[idx.getX(j),idx.getX(j+1),idx.getX(j+2)];
+        const firstColumn=Math.min(...corners.map(k=>k%stride));
+        for(let k=0;k<3;k++){
+          const original=corners[k],column=original%stride;
+          if(column===0||column===32||column%8!==0||firstColumn>=column)continue;
+          if(!duplicates.has(original))duplicates.set(original,p.count+duplicates.size);
+          idx.setX(j+k,duplicates.get(original));
+        }
+      }
+      for(const [name,attribute] of Object.entries(geo.attributes)){
+        const size=attribute.itemSize,values=new attribute.array.constructor((attribute.count+duplicates.size)*size);
+        values.set(attribute.array);
+        for(const [original,copy] of duplicates)values.set(attribute.array.subarray(original*size,(original+1)*size),copy*size);
+        geo.setAttribute(name,new THREE.BufferAttribute(values,size,attribute.normalized));
+      }
+      idx.needsUpdate=true;geo.rotateY(Math.PI/4);
       geo.name='Candidate Jackson recessed hip-roof courses';
       geo.computeVertexNormals();geo.computeBoundingSphere();
       const o=mesh(g,geo,roof,x,y+h/2,z);
