@@ -6,7 +6,7 @@ const memoryIndex=rawMemoryIndex===null?{memories:[],source:null,publicationAuth
 const memoryAssets=JSON.parse($('#memoryAssets').textContent);
 const memoryDialog=$('#memoryDialog');
 const memoryImage=$('#memoryImage');
-let memorySession=null,memoryGeneration=0,memoryZoom=false,memoryPreviousFocus=null;
+let memorySession=null,memoryGeneration=0,memoryZoom=false,memoryPreviousFocus=null,memoryTouch=null;
 const memoryButtons=[];
 function selectedMemory(){return selected?memoryForLocation(memoryIndex,selected.id):null;}
 function updateMemoryEntry(){const m=selectedMemory();$('#openMemory').hidden=!m;$('#memoryAvailability').hidden=Boolean(m);$('#openMemory').textContent=m?'ENTER WEEK 9 · '+m.pages.length+' PAGES':'';}
@@ -37,6 +37,7 @@ function syncMemoryChrome(){
  layoutMemoryImage();
 }
 async function showMemoryPage(){
+ memoryTouch=null;
  if(!memorySession)return;
  const generation=memoryGeneration,token=memorySession.loadToken,m=currentMemory(),page=m.pages[memorySession.pageIndex];
  $('#memoryLoading').hidden=false;$('#memoryFailure').hidden=true;memoryImage.hidden=true;
@@ -67,6 +68,7 @@ function enterMemory(){
  document.body.classList.add('memory-open');memoryDialog.showModal();$('#memoryBack').focus();showMemoryPage();
 }
 function exitMemory(){
+ memoryTouch=null;
  if(!memorySession)return;
  const restore=closeMemory(memorySession),resumeTarget=memorySession.returnTarget??restore.camera;memorySession=null;memoryGeneration++;memoryZoom=false;
  camera=structuredClone(restore.camera);target=structuredClone(resumeTarget);
@@ -77,17 +79,30 @@ function exitMemory(){
 function nextMemory(delta){if(!memorySession)return;memorySession=navigateMemory(memorySession,memoryIndex,delta);memoryZoom=false;showMemoryPage();}
 $('#openMemory').onclick=enterMemory;$('#memoryBack').onclick=exitMemory;
 $('#memoryPrevious').onclick=()=>nextMemory(-1);$('#memoryNext').onclick=()=>nextMemory(1);
-$('#memoryView').onclick=()=>{memorySession=memoryView(memorySession,memorySession.view==='FOLIO'?'SCENE':'FOLIO');memoryZoom=false;layoutMemoryImage();};
-$('#memoryZoom').onclick=()=>{memoryZoom=!memoryZoom;layoutMemoryImage();};
+$('#memoryView').onclick=()=>{memoryTouch=null;memorySession=memoryView(memorySession,memorySession.view==='FOLIO'?'SCENE':'FOLIO');memoryZoom=false;layoutMemoryImage();};
+$('#memoryZoom').onclick=()=>{memoryTouch=null;memoryZoom=!memoryZoom;layoutMemoryImage();};
 $('#memoryRetry').onclick=showMemoryPage;
 memoryDialog.addEventListener('cancel',e=>{e.preventDefault();exitMemory();});
 document.addEventListener('keydown',e=>{
  if(!memorySession)return;
  if(['Escape','ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();e.stopImmediatePropagation();if(e.key==='Escape')exitMemory();else nextMemory(e.key==='ArrowLeft'?-1:1);}
 },true);
-let memoryTouch=null;
-$('#memoryViewport').addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&!memoryZoom)memoryTouch=[e.clientX,e.clientY];});
-$('#memoryViewport').addEventListener('pointerup',e=>{if(!memoryTouch)return;const dx=e.clientX-memoryTouch[0],dy=e.clientY-memoryTouch[1];memoryTouch=null;if(Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.7)nextMemory(dx<0?1:-1);});
-$('#memoryViewport').addEventListener('pointercancel',()=>memoryTouch=null);
+// Only the initiating primary touch may turn a folio. A second finger
+// retires the gesture, and page/view/session transitions discard its origin.
+$('#memoryViewport').addEventListener('pointerdown',e=>{
+ if(e.pointerType!=='touch')return;
+ if(!memorySession||memoryZoom||!e.isPrimary){memoryTouch=null;return;}
+ memoryTouch={id:e.pointerId,x:e.clientX,y:e.clientY};
+});
+$('#memoryViewport').addEventListener('pointerup',e=>{
+ if(e.pointerType!=='touch'||!memoryTouch||e.pointerId!==memoryTouch.id)return;
+ const {x,y}=memoryTouch;memoryTouch=null;
+ if(!memorySession||memoryZoom||!e.isPrimary)return;
+ const dx=e.clientX-x,dy=e.clientY-y;
+ if(Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.7)nextMemory(dx<0?1:-1);
+});
+function cancelMemoryTouch(e){if(memoryTouch?.id===e.pointerId)memoryTouch=null;}
+$('#memoryViewport').addEventListener('pointercancel',cancelMemoryTouch);
+$('#memoryViewport').addEventListener('lostpointercapture',cancelMemoryTouch);
 window.addEventListener('resize',layoutMemoryImage);
 window.__observerMemoryDebug={session:()=>memorySession?structuredClone(memorySession):null,coverage:()=>memoryCoverage(memoryIndex,bindings.map(p=>p.id)),edition:()=>structuredClone(memoryIndex.source)};
