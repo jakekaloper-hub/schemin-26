@@ -872,24 +872,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
       staticRelief:true,navigable:false,routeIds:[],principalCharacters:[]};
     return o;
   }
-  function templeFlutedPillar(g,i){
-    // Existing five Temple shafts only: original stone material, location,
-    // height, capitals and enclosing radii. Scenic sculpting, not new canon.
-    const h=3.1,top=.23,base=.29;
-    const geometry=new THREE.CylinderGeometry(top,base,h,32,8);
-    geometry.name='Candidate Temple fluted stone pillar geometry';
-    const position=geometry.getAttribute('position');
-    for(let j=0;j<position.count;j++){
-      const x=position.getX(j),y=position.getY(j),z=position.getZ(j);
-      // Preserve both original end rings and caps without modification.
-      if(Math.abs(y)>=h/2-.000001)continue;
-      const angle=Math.atan2(z,x);
-      const flute=Math.pow(.5+.5*Math.cos(angle*8+i*.15),6);
-      const endHold=Math.pow(Math.sin(Math.PI*(y/h+.5)),2);
-      const depth=.046*flute*endHold*(.82+.18*(.5+.5*Math.sin(y*7+i)));
-      position.setXYZ(j,x*(1-depth),y,z*(1-depth));
-    }
-    position.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+  function reconcileCylinderSideSeam(geometry){
+    const position=geometry.getAttribute("position");
     // The cylindrical side has duplicate vertices at its UV wrap, not a
     // physical ridge. Reconcile their area-weighted normals after carving.
     // Separate cap vertices, all positions, UVs and triangle indices stay fixed.
@@ -913,6 +897,26 @@ export function buildRegionalAssets(THREE, bindings, height) {
       normal.setXYZ(first,n.x,n.y,n.z);normal.setXYZ(last,n.x,n.y,n.z);
     }
     normal.needsUpdate=true;
+  }
+  function templeFlutedPillar(g,i){
+    // Existing five Temple shafts only: original stone material, location,
+    // height, capitals and enclosing radii. Scenic sculpting, not new canon.
+    const h=3.1,top=.23,base=.29;
+    const geometry=new THREE.CylinderGeometry(top,base,h,32,8);
+    geometry.name='Candidate Temple fluted stone pillar geometry';
+    const position=geometry.getAttribute('position');
+    for(let j=0;j<position.count;j++){
+      const x=position.getX(j),y=position.getY(j),z=position.getZ(j);
+      // Preserve both original end rings and caps without modification.
+      if(Math.abs(y)>=h/2-.000001)continue;
+      const angle=Math.atan2(z,x);
+      const flute=Math.pow(.5+.5*Math.cos(angle*8+i*.15),6);
+      const endHold=Math.pow(Math.sin(Math.PI*(y/h+.5)),2);
+      const depth=.046*flute*endHold*(.82+.18*(.5+.5*Math.sin(y*7+i)));
+      position.setXYZ(j,x*(1-depth),y,z*(1-depth));
+    }
+    position.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    reconcileCylinderSideSeam(geometry);
     const o=mesh(g,geometry,stone,1+i*1.05,2.3+h/2,1.1);
     o.name='Candidate Temple fluted stone pillar';
     o.userData={visualAuthority:'CANDIDATE_NOT_APPROVED',sourceLandmark:'temple stone',
@@ -1507,6 +1511,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       p.setXYZ(j,xx*(1-inset),yy,zz*(1-inset));
     }
     p.needsUpdate=true;geometry.computeVertexNormals();geometry.computeBoundingSphere();
+    reconcileCylinderSideSeam(geometry);
     const o=mesh(g,geometry,trunk,...av.clone().add(bv).multiplyScalar(.5).toArray());
     o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),direction.normalize());
     o.name='Candidate Mud Dogs contoured buttress root';
@@ -1533,6 +1538,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     }
     p.needsUpdate=true;
     geo.computeVertexNormals();geo.computeBoundingSphere();
+    reconcileCylinderSideSeam(geo);
     const o=mesh(g,geo,trunk,x,y+h/2,z);
     o.userData={...o.userData,visualAuthority:'CANDIDATE_NOT_APPROVED',
       sourceEnvironment:['cypress-like wetlands'],originalRadiusEnvelopePreserved:true};
