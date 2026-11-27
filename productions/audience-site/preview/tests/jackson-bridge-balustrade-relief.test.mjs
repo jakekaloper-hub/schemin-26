@@ -83,3 +83,37 @@ test('balustrade materials retain original stone colors and dispose once; water 
  a.tick(4,{globalCalm:true,paused:true});assert.ok(a.water.every(w=>w.material.uniforms.uTime.value===2));
  a.dispose();a.dispose();assert.equal(disposals,1);
 });
+
+test('Jackson baluster UV-wrap lighting uses area-weighted incident side faces',()=>{
+ const a=build();let maxError=0,pairs=0;
+ try{
+  for(const o of parts(a).filter(o=>o.userData.bridgePart==='baluster')){
+   const g=o.geometry,p=g.attributes.position,n=g.attributes.normal,idx=g.index;
+   const {radialSegments:r,heightSegments:h}=g.parameters,stride=r+1,sideCount=stride*(h+1);
+   const raw=g.clone();raw.computeVertexNormals();
+   const pos=i=>new THREE.Vector3().fromBufferAttribute(p,i);
+   const normal=i=>new THREE.Vector3().fromBufferAttribute(n,i);
+   try{
+    for(let row=0;row<=h;row++){
+     const first=row*stride,last=first+r,sum=new THREE.Vector3();
+     assert.ok(pos(first).distanceTo(pos(last))<1e-6);
+     for(let k=0;k<idx.count;k+=3){
+      const tri=[idx.getX(k),idx.getX(k+1),idx.getX(k+2)];
+      if(tri.some(i=>i>=sideCount)||!tri.some(i=>i===first||i===last))continue;
+      const [x,y,z]=tri.map(pos);sum.add(y.sub(x).cross(z.sub(x)));
+     }
+     sum.normalize();pairs++;
+     maxError=Math.max(maxError,normal(first).distanceTo(sum),normal(last).distanceTo(sum));
+     assert.ok(Math.abs(normal(first).length()-1)<1e-6);
+    }
+    for(let v=0;v<p.count;v++){
+     if(v<sideCount&&(v%stride===0||v%stride===r))continue;
+     assert.ok(normal(v).distanceTo(new THREE.Vector3().fromBufferAttribute(raw.attributes.normal,v))<1e-6,'non-seam and cap normals unchanged');
+    }
+   }finally{raw.dispose();}
+  }
+  assert.equal(pairs,130);
+  console.log('BALUSTER_SEAM_CPU',JSON.stringify({pairs,maxError}));
+  assert.ok(maxError<1e-6,'area-weighted baluster side normals');
+ }finally{a.dispose();}
+});

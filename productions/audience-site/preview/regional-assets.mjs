@@ -2039,16 +2039,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     }
     pos.needsUpdate=true;geo.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));
     geo.computeVertexNormals();geo.computeBoundingBox();geo.computeBoundingSphere();
-    if(post){
-      const normals=geo.getAttribute('normal');
-      for(let row=0;row<=12;row++){
-        const a=row*29,b=a+28;
-        const n=new THREE.Vector3().fromBufferAttribute(normals,a)
-          .add(new THREE.Vector3().fromBufferAttribute(normals,b)).normalize();
-        normals.setXYZ(a,n.x,n.y,n.z);normals.setXYZ(b,n.x,n.y,n.z);
-      }
-      normals.needsUpdate=true;
-    }
+    if(post)reconcileCylinderSideSeam(geo);
     const key=post?'jackson-baluster-stone':'jackson-coping-stone';
     if(!materials.has(key)){const m=base.clone();m.vertexColors=true;materials.set(key,m);}
     const o=mesh(g,geo,materials.get(key),x,y+(post?.25:h/2),z);
