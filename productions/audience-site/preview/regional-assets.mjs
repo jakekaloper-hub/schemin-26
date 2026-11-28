@@ -323,6 +323,11 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float canopyFade=1.-smoothstep(1.05,2.50,rootDistance);
         float wateryBreakup=.5+.5*sin(delta.x*3.8-uTime*.27)
                            *sin(delta.y*4.4+uTime*.21);
+        // The product has sum/difference frequencies; preserve mean shade when unresolved.
+        float canopyPhaseX=delta.x*3.8-uTime*.27;
+        float canopyPhaseY=delta.y*4.4+uTime*.21;
+        float canopyFootprint=max(fwidth(canopyPhaseX+canopyPhaseY),fwidth(canopyPhaseX-canopyPhaseY));
+        wateryBreakup=mix(wateryBreakup,.5,smoothstep(.35,1.15,canopyFootprint));
         canopyShade=max(canopyShade,canopyFade*(.66+.34*wateryBreakup));
          // The inherited tree locations, not invented mirror anchors, drive
          // slender reflections broken by ordinary local water time.
@@ -331,6 +336,9 @@ export function buildRegionalAssets(THREE, bindings, height) {
          float mirrorStreak=(1.-smoothstep(.12,.58,mirrorAcross))
            *(1.-smoothstep(.60,2.10,mirrorAlong));
          float mirrorBreakup=.55+.45*sin(delta.y*10.+uTime*.51+delta.x*4.);
+         // Retain the broad trunk mirror while undersampled ripple breakup tends to its mean.
+         float mirrorPhase=delta.y*10.+uTime*.51+delta.x*4.;
+         mirrorBreakup=mix(mirrorBreakup,.55,smoothstep(.35,1.15,fwidth(mirrorPhase)));
          trunkReflection=max(trunkReflection,mirrorStreak*mirrorBreakup);
       }
       float bankFade=1.-smoothstep(.78,.99,length((vUv-vec2(.5))*2.));
