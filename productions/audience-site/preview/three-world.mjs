@@ -414,7 +414,19 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
   renderer.render(scene,camera);stats.frames=++frames;stats.waterTime=lastTime;stats.triangles=renderer.info.render.triangles;stats.drawCalls=renderer.info.render.calls;stats.memory={...renderer.info.memory};
  }
  function project(p){if(disposed)return null;const v=new THREE.Vector3(...p).project(camera);if(v.z<-1||v.z>1)return null;return {x:(v.x*.5+.5)*canvas.clientWidth,y:(.5-v.y*.5)*canvas.clientHeight,depth:v.z};}
- function pick(clientX,clientY){const r=canvas.getBoundingClientRect(),x=clientX-r.left,y=clientY-r.top;let best=null,distance=32;for(const p of bindings){const q=project(framesBySite[p.id]?.target||p.renderAnchor||[p.anchor[0],height(p.anchor[0],p.anchor[2])+2,p.anchor[2]]);if(!q)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<distance){best=p;distance=d;}}return best;}
+ function pick(clientX,clientY){
+  const r=canvas.getBoundingClientRect(),x=clientX-r.left,y=clientY-r.top;
+  // Captured pointer releases can land outside the world canvas. Match the
+  // compatibility adapters' CSS-pixel bounds before inspecting a source place.
+  if(!Number.isFinite(x)||!Number.isFinite(y)||x<0||y<0||x>canvas.clientWidth||y>canvas.clientHeight||!(canvas.clientWidth>0&&canvas.clientHeight>0))return null;
+  let best=null,distance=32;
+  for(const p of bindings){
+   const q=project(framesBySite[p.id]?.target||p.renderAnchor||[p.anchor[0],height(p.anchor[0],p.anchor[2])+2,p.anchor[2]]);
+   if(!q||![q.x,q.y,q.depth].every(Number.isFinite)||q.depth< -1||q.depth>1)continue;
+   const d=Math.hypot(q.x-x,q.y-y);if(d<distance){best=p;distance=d;}
+  }
+  return best;
+ }
  const lost=e=>{e.preventDefault();onContextLost();};canvas.addEventListener('webglcontextlost',lost);
  return {prepare,render,project,pick,height,stats,siteView(id){return framesBySite[id]?structuredClone(framesBySite[id]):null;},
   loseContext(){renderer.forceContextLoss();},
