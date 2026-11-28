@@ -5,14 +5,56 @@
   "source_blob": "a3a19f1528d7c19d20c7685c87c0caf8529f4e20",
   "runtime_receipt": {
     "version": "2.3",
-    "command": "resume",
-    "owners": [
-      "the_librarian",
-      "the_groundskeeper"
+    "command": "mission",
+    "resume_command": "resume",
+    "continuation_command": "next",
+    "registry_bound": true,
+    "registry_scope": "Schema-valid scoped projection of the eleven existing W12 task IDs, not a mutation of the invalid global registry.",
+    "runtime_local_head": "9fea7bd815e2caaefab5e2258f28f54b3cdf267d",
+    "source_head": "3dfff28a7cad0cdd0f5e735236e2a71d7841586d",
+    "receipt_sha256": "870868cd3d4c699f74c2a458a34fc1abb660acd7103412255161fa3c04cd853b",
+    "checkpoint_sha256": "02fa9395092f7112658a962985666dc5e0cad55b97e9d10b68cf3a7343adb1a4",
+    "lifecycle": [
+      "status",
+      "research",
+      "spec",
+      "premortem",
+      "plan",
+      "execute",
+      "test",
+      "verify",
+      "audit",
+      "redteam",
+      "polish",
+      "test",
+      "reconcile",
+      "handoff",
+      "retro",
+      "next"
     ],
-    "registry_bound": false,
     "continuation": "CONTINUE",
-    "note": "Actual local execution plan routed resume only; detailed dependency matrix host-authored; not scheduler dispatch or independent acceptance."
+    "next_task": "W12-02",
+    "runtime_tests": {
+      "passed": 46,
+      "failed": 0,
+      "files": [
+        "tests/commands.test.js",
+        "tests/task-orientation.test.js",
+        "tests/execution-control.test.js"
+      ]
+    },
+    "scope_limit": "Actual lifecycle compile, resume resolution, next selection, W12-01 transition and runtime tests. Not autonomous worker dispatch or completion of all 16 lifecycle stages.",
+    "previous_receipt": {
+      "version": "2.3",
+      "command": "resume",
+      "owners": [
+        "the_librarian",
+        "the_groundskeeper"
+      ],
+      "registry_bound": false,
+      "continuation": "CONTINUE",
+      "note": "Actual local execution plan routed resume only; detailed dependency matrix host-authored; not scheduler dispatch or independent acceptance."
+    }
   },
   "tasks": [
     {
@@ -21,7 +63,77 @@
       "work": "Recover authoritative inputs and checkpoint; reconcile six Founder files, chronology, actual current branch and existing packet register",
       "acceptance": "6 source hashes, 12 owner IDs, 66 matches, supersession map; no stale audition authority",
       "depends_on": [],
-      "status": "PARTIAL"
+      "status": "COMPLETE",
+      "evidence": {
+        "status": "PASS",
+        "checks": {
+          "six_founder_sources": true,
+          "twelve_league_slots": true,
+          "twelve_canonical_principals": true,
+          "sixty_six_matchups": true,
+          "thirty_four_folios": true,
+          "precedence": true
+        },
+        "sources": [
+          {
+            "path": "memo-os/week-12/W12_G01_FOUNDER_INTAKE_2026-11-25.md",
+            "blob_sha": "a59e98f267d7237837c64ee7c8f95bb0b380e4ad"
+          },
+          {
+            "path": "memo-os/week-12/W12_G02_FOUNDER_INTAKE_2026-11-25.md",
+            "blob_sha": "0f442fd7cd26fe12c534be476340cbff12957388"
+          },
+          {
+            "path": "memo-os/week-12/W12_G03_FOUNDER_INTAKE_2026-11-25.md",
+            "blob_sha": "945c1f29c5c632d0b371688999190a5cb7765c5e"
+          },
+          {
+            "path": "memo-os/week-12/W12_G04_FOUNDER_INTAKE_2026-11-25.md",
+            "blob_sha": "2a4abf90be2d05090366b4793e71b6259629dbda"
+          },
+          {
+            "path": "memo-os/week-12/W12_G05_FOUNDER_INTAKE_2026-11-25.md",
+            "blob_sha": "f35ed7218f7d1f4bfdc9048b8a8df978c51ebdb2"
+          },
+          {
+            "path": "memo-os/week-12/W12_G06_FOUNDER_INTAKE_2026-11-25.md",
+            "blob_sha": "9c176bf69e9b1096d934ba4d53c5abdc5d78914d"
+          },
+          {
+            "path": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+            "blob_sha": "b54449a07c7534dae24b9d53c9311cd2e9a5fa0e"
+          },
+          {
+            "path": "memo-os/week-12/W12_PROVISIONAL_PAGE_PACKET_REGISTER_2026-11-25.json",
+            "blob_sha": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+          },
+          {
+            "path": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+            "blob_sha": "cad3a19f7509f4197756d690ddd2a11ca76a3183"
+          },
+          {
+            "path": "memo-os/week-12/W12_ATLAS_EFFECTIVE_CONTROLS_2026-11-28.json",
+            "blob_sha": "55f7e82cf7e0bde68c90806f59d38e31f858b929"
+          },
+          {
+            "path": "canon/characters/APPROVED_LINEUP_2026_10_18.json",
+            "blob_sha": "d445249cfd2a52bd1da83a1795cf73bcae220dbc"
+          }
+        ],
+        "transitions": [
+          {
+            "from": "IN_PROGRESS",
+            "to": "VERIFYING",
+            "at": "2026-11-28"
+          },
+          {
+            "from": "VERIFYING",
+            "to": "COMPLETE",
+            "at": "2026-11-28"
+          }
+        ],
+        "scope": "Source checkpoint only; no independent visual or release acceptance."
+      }
     },
     {
       "id": "W12-02",
@@ -31,7 +143,8 @@
       "depends_on": [
         "W12-01"
       ],
-      "status": "READY"
+      "status": "IN_PROGRESS",
+      "next_action": "Resolve repeat renderer off-subject/source-attachment defect with Setup Man/Pitching Coach, prove G02 V3/V4 geometry or retain hold, reconcile G05/G06 access and exact reference custody; no active canon."
     },
     {
       "id": "W12-03",
@@ -41,7 +154,8 @@
       "depends_on": [
         "W12-01"
       ],
-      "status": "READY"
+      "status": "IN_PROGRESS",
+      "next_action": "Separate six dialogue tracks, run existing POV gate and preserve twelve conditional branches."
     },
     {
       "id": "W12-04",
@@ -51,7 +165,8 @@
       "depends_on": [
         "W12-01"
       ],
-      "status": "READY"
+      "status": "IN_PROGRESS",
+      "next_action": "Historical prop provenance and source audit; preserve unresolved owner lineage holds."
     },
     {
       "id": "W12-05",
@@ -63,7 +178,7 @@
         "W12-03",
         "W12-04"
       ],
-      "status": "PENDING"
+      "status": "NOT_STARTED"
     },
     {
       "id": "W12-06",
@@ -75,7 +190,7 @@
         "W12-03",
         "W12-05"
       ],
-      "status": "PENDING"
+      "status": "NOT_STARTED"
     },
     {
       "id": "W12-07",
@@ -85,7 +200,7 @@
       "depends_on": [
         "W12-06"
       ],
-      "status": "PENDING"
+      "status": "NOT_STARTED"
     },
     {
       "id": "W12-08",
@@ -106,7 +221,7 @@
         "W12-07",
         "W12-08"
       ],
-      "status": "PENDING"
+      "status": "NOT_STARTED"
     },
     {
       "id": "W12-10",
@@ -116,7 +231,7 @@
       "depends_on": [
         "W12-09"
       ],
-      "status": "PENDING"
+      "status": "NOT_STARTED"
     },
     {
       "id": "W12-11",
@@ -126,7 +241,7 @@
       "depends_on": [
         "W12-10"
       ],
-      "status": "PENDING"
+      "status": "NOT_STARTED"
     }
   ],
   "rules": [
@@ -139,5 +254,17 @@
   "completion": {
     "preproduction": "W12-01 through W12-07 accepted; pending football outcomes not counted as preproduction failure",
     "production": "W12-08 through W12-11 accepted and original objective satisfied"
+  },
+  "execution_control_gap": {
+    "global_registry": "governance/execution-control/TASK_REGISTRY_V1.json",
+    "global_registry_blob": "5e72e48f3c305e6def1051e0b18883a7be6b6af0",
+    "global_next": "CHAR-PORT-002",
+    "global_validation": "FAIL_PREEXISTING",
+    "findings": [
+      "NOVEL-POV-MIG-001 evidence entries 1–5 use invalid status values.",
+      "NOVEL-POV-MIG-001 references four missing blocker task IDs.",
+      "Global registry contains no W12 task IDs."
+    ],
+    "disposition": "Do not mutate unrelated Novel task or claim global registry validated. Resume existing eleven W12 IDs using scoped registry projection; durable canonical W12 status is this existing plan. Global adapter repair is separate scope."
   }
 }
