@@ -68,7 +68,7 @@
     {
       "g": "G02",
       "id": "CAND-W12-MUD-HUNTING-CABIN",
-      "visual": "Freeze V1 cabin/dock silhouette; correct half-submerged tied boat before reverse. Retry failed twice; no collage allowed.",
+      "visual": "V1 remains provisional wide role; V3 improves submerged boat and tether but changes dock geometry. Choose one anchor after comparison; do not mix V1 and V3 or claim reverse proof.",
       "narrative": "Bobby's familiarity derives from longstanding use and maintenance; TDS reads a different environment without replaying W11 deception.",
       "shot_plan": "Wide: V1; reverse: porch-to-dock; overview: cabin-bank-dock relation; detail: boat and mooring; material: planks and roots."
     },
@@ -307,6 +307,23 @@
       "height": 941,
       "status": "REJECTED_TERRAIN_DRIFT",
       "notes": "Superseded by direct Founder correction: paved carriageway, painted markings and generic highway guardrail prohibited; keep for audit only, not reference or vehicle authority.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "version": "V3",
+      "role": "WIDE",
+      "source_file": "W12_G02_Swamp_Anchor_V3.png",
+      "archive_path": "G02_MUD-HUNTING-CABIN/V3_WIDE.png",
+      "custody": "standalone conversation PNG; not yet in original ZIP or GitHub",
+      "bytes": 3416738,
+      "sha256": "ad3dc39dea3482ebf0e9ef4749c51d257c64c5eef2968c44daf886c10b3e25a8",
+      "width": 1672,
+      "height": 941,
+      "status": "ANCHOR_AUDITION_GEOMETRY_REVIEW",
+      "notes": "Improved half-flooded hull and visible tether; cabin front, stairs and dock geometry changed from V1. Keep V1 planning slot until one anchor is chosen. Not a reverse view or exact edit.",
       "approved": false,
       "github_binary_verified": false
     }
@@ -562,12 +579,22 @@
     {
       "source": "a_highly_detailed_cinematic_production_dashboard.png",
       "reason": "Second wrong output: dashboard; embedded claims invalid."
+    },
+    {
+      "source": "a_cinematic_hyper_realistic_commonwealth_atlas.png",
+      "sha256": "598d42d08d0e4c2a9b56d607c4143479e63b82553e1eab38972346d5966a60c7",
+      "reason": "Wrong output: multi-location collage instead of G02 porch reverse. False embedded progress ignored."
+    },
+    {
+      "source": "a_cinematic_hyper_realistic_landscape_scene_at_go.png",
+      "sha256": "9dc2f5ca7a7866959a87bf9aafd49b1087ac1b965b9cd973e679acc6712fa599",
+      "reason": "Wrong output: mountain route instead of G03 interior; fabricated directions, mileages and Playoff Island link; exclude from Atlas reference."
     }
   ],
   "checks": {
-    "standalone_pngs_verified_in_container": 13,
+    "standalone_pngs_verified_in_container": 14,
     "new_single_view_candidates": 1,
-    "misgenerated_boards_rejected": 2,
+    "misgenerated_boards_rejected": 3,
     "planned_roles": 30,
     "occupied_provisional_roles": 7,
     "approved_roles": 0,
@@ -576,7 +603,9 @@
     "final_render": false,
     "scoped_technology_approvals": 2,
     "terrain_drift_rejected": 1,
-    "derived_detail_candidates": 10
+    "derived_detail_candidates": 10,
+    "additional_wrong_scene_rejected": 1,
+    "g02_new_wide_audition": 1
   },
   "limitations": [
     "Actual image bytes bundled in conversation artifact, not uploaded to GitHub; GitHub register is metadata and shot assignments only.",
