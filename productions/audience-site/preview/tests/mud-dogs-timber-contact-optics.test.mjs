@@ -22,7 +22,8 @@ test('timber contact optics are anchored to the actual immersed mesh and isolate
   for(const other of a.water.filter(x=>x!==w))assert.equal(other.material.uniforms.uTimberContact?.value??0,0);
   const f=w.material.fragmentShader;
   for(const part of ['if(uTimberContact>.5)','vec2(21.,-16.4)','timberDistance*15.-uTime*1.8+timberAlong*9.','fwidth(timberPhase)','contactTint*=1.-.055*timberNear*bankFade','vec3(.052,.072,.059)*timberBand*timberCrest*bankFade'])assert.ok(f.includes(part),part);
-  assert.doesNotMatch(w.material.vertexShader,/uTimber|timberDistance/);
+  const v=w.material.vertexShader;
+  for(const part of ['uniform float uTimberContact;uniform vec4 uTimberSegment','if(uTimberContact>.5)','vec2(21.,-16.4)','timberDistance*2.6-uTime*1.8+timberAlong*2.4','p.z+=.008*timberEnvelope*timberBroadCrest*shoreHold'])assert.ok(v.includes(part),part);
   assert.equal(w.mesh.geometry.getAttribute('position').count,385);
   assert.equal(w.mesh.geometry.index.count,2160);
   a.tick(2,{globalCalm:true,storm:0});a.tick(6,{globalCalm:true,storm:0});assert.equal(u.uTime.value,6);

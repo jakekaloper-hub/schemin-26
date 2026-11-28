@@ -73,7 +73,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
     const wetland=kind==='swamp'||kind==='channel';
     const flow=kind==='channel'?new THREE.Vector2(-.034,.013):kind==='swamp'?new THREE.Vector2(.012,-.009):new THREE.Vector2(0,0);
     const m=new THREE.ShaderMaterial({uniforms:{uTime:{value:0},uLightLevel:{value:1},uColor:{value:new THREE.Color(color)},uFall:{value:kind==='waterfall'?1:0},uRiver:{value:kind==='river'?1:0},uWetland:{value:wetland?1:0},uChannel:{value:kind==='channel'?1:0},uPond:{value:kind==='pond'?1:0},uPlunge:{value:kind==='pool'?1:0},uFlow:{value:flow},uSheenGain:{value:kind==='swamp'?.42:kind==='channel'?.62:0},uBankContact:{value:kind==='swamp'?.76:kind==='channel'?.42:0},uRootSiteCount:{value:0},uRootSites:{value:Array.from({length:5},()=>new THREE.Vector2(0,0))},uPadSiteCount:{value:0},uPadSites:{value:Array.from({length:12},()=>new THREE.Vector2(0,0))},uIslandSiteCount:{value:0},uIslandSites:{value:Array.from({length:4},()=>new THREE.Vector4(0,0,0,0))},uTimberContact:{value:0},uTimberSegment:{value:new THREE.Vector4(0,0,0,0)}},transparent:true,depthWrite:false,side:THREE.DoubleSide,
-      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform float uChannel;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
+      vertexShader:`uniform float uTime;uniform float uWetland;uniform float uFall;uniform float uRiver;uniform float uPlunge;uniform float uPond;uniform float uChannel;uniform float uRootSiteCount;uniform vec2 uRootSites[5];uniform float uPadSiteCount;uniform vec2 uPadSites[12];uniform float uIslandSiteCount;uniform vec4 uIslandSites[4];uniform float uTimberContact;uniform vec4 uTimberSegment;uniform vec2 uFlow;varying vec2 vUv;varying vec3 vWorld;
         void main(){
           vec3 p=position;
           if(uFall>.5){
@@ -173,6 +173,20 @@ export function buildRegionalAssets(THREE, bindings, height) {
                 islandLap=max(islandLap,contactBand*pow(max(sin(lapPhase),0.),4.));
               }
               p.z+=.007*islandLap*shoreHold;
+            }
+            // Broad, low-frequency surface wake around the EXISTING immersed
+            // timber. Fine fragment crests are too narrow for the coarse disk.
+            // Same local centerline and ordinary clock; no new water geometry.
+            if(uTimberContact>.5){
+              vec2 timberPoint=(uv-vec2(.5))*vec2(21.,-16.4);
+              vec2 timberAxis=uTimberSegment.zw-uTimberSegment.xy;
+              float timberAlong=clamp(dot(timberPoint-uTimberSegment.xy,timberAxis)/max(dot(timberAxis,timberAxis),.00001),0.,1.);
+              float timberDistance=length(timberPoint-(uTimberSegment.xy+timberAxis*timberAlong));
+              float timberEnvelope=smoothstep(.22,.48,timberDistance)
+                *(1.-smoothstep(1.,1.85,timberDistance));
+              float timberBroadPhase=timberDistance*2.6-uTime*1.8+timberAlong*2.4;
+              float timberBroadCrest=pow(max(sin(timberBroadPhase),0.),2.);
+              p.z+=.008*timberEnvelope*timberBroadCrest*shoreHold;
             }
           }
           if(uRiver>.5){
@@ -446,7 +460,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float reliefFacing=clamp(abs(dot(wetlandNormal,normalize(vec3(.30,.91,.27)))),0.,1.);
       vec3 reliefLight=vec3(.10,.15,.12)*reliefSlope*(.4+.6*reliefFacing)*bankFade;
       contactTint+=reliefLight+padContactSheen+islandSheen;
-      // Contact optics around the EXISTING partly immersed timber; no wave height change.
+      // Fine contact optics around the EXISTING partly immersed timber; broad relief is vertex-stage.
       // Convert rotated disk UV to local X/Z, using the exact timber endpoints.
       if(uTimberContact>.5){
         vec2 timberPoint=(vUv-vec2(.5))*vec2(21.,-16.4);
