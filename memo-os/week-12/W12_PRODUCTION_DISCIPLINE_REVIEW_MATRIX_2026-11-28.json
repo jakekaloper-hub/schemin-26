@@ -1,0 +1,1501 @@
+{
+  "schema": "schemin26.week12.production_discipline_review.v1",
+  "date": "2026-11-28",
+  "source_head": "4740a5267883f01645d1c18823bceacabad9c4b5",
+  "status": "PREPARATORY_REVIEW_NOT_W12_05_ACCEPTANCE",
+  "authority": "Existing W12-05 plan and advisory-only production bench; one visual lead per folio remains unchanged.",
+  "source_blobs": [
+    {
+      "path": "memo-os/week-12/W12_FOUNDER_PRODUCTION_EXECUTION_PLAN_2026-11-25.json",
+      "blob_sha": "c93cb359144eb8124d0bf0f06c5e82ee9d6a664d"
+    },
+    {
+      "path": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "blob_sha": "8cb8987b49a94e691d72f7c4257e79bff5b098d8"
+    },
+    {
+      "path": "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json",
+      "blob_sha": "49d743b3bee3410a7f4e1bf4f324f609e93f986d"
+    },
+    {
+      "path": "memo-os/week-12/W12_ENVIRONMENT_REFERENCE_PREVIS_MANIFEST_2026-11-28.json",
+      "blob_sha": "c0e46419926ab98dc76cb1e74b463378307580a0"
+    },
+    {
+      "path": "memo-os/cinematography/PRODUCTION_SPECIALIST_REFERENCE_BENCH_V1.json",
+      "blob_sha": "10bcad1d357a34ae5c721b8a9262752288b34b52"
+    },
+    {
+      "path": "living-novel/consultants/author-council/_INDEX.md",
+      "blob_sha": "eb2b90d1baad62a9275b76d007b96d0fb899f479"
+    }
+  ],
+  "consultation": {
+    "board": "Beat Writer / Pitching Coach 2/2",
+    "board_sha256": "7e2f23703ed3db88d451a326ffaf78fc98d1ea9d945b6a995c21ce5d326c6bc2",
+    "inklings_grouped_sha256": "782e60b849519bddf01f07984e48fe7c866829711a94aa9cb5a58a3d4521f19d",
+    "disposition": "Beat Writer largely repeated input; Pitching Coach missed explicit private-plot mentions; Inklings identified G01 perspective risk but suggested incorrect swap of ObiWan's motive and DK's practice. Rejected role/motive swap; host applied source-grounded POV corrections. Advisory only."
+  },
+  "method_note": "12 workstream disciplines from existing W12 plan; bench domains mapped as advisory reference categories. No actual named production professionals or independent staff signoff; host authored each cell after reading current packets and narrative.",
+  "cells": [
+    {
+      "cell_id": "G01-design",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "design",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Ancient modest ruins and stream form distinct training clearing; exclude V2 invented training fixtures.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-environment",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "environment",
+      "reference_bench_domain": "environment_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Keep V1 as wide anchor; V3 reverse has no proved shared geometry or internal access.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-character_vfx",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "character_vfx",
+      "reference_bench_domain": "character_vfx",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "DK one integrated four-legged gorilla-centaur; ObiWan exact source mount and reference QA absent.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-costume",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "costume",
+      "reference_bench_domain": "costume",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Obi hood and clipped saber on arrival, no belt; DK current Arsenal identity only.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-props",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "props",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Existing axe and lightsaber; no dated battle relics, bridge lantern or fabricated trophies.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-camera",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "camera",
+      "reference_bench_domain": "unit_stills",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Wide P09 geography, P10 two bodies and visible footing; P11 late-bound, exact cross-angle landmarks unverified.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-lighting",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "lighting",
+      "reference_bench_domain": "color_finishing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Low consistent sunrise from one side, still air; do not carry Week 11 storm.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-action",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "action",
+      "reference_bench_domain": "stunt_blocking",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Nonfatal duel direction valid; decisive movement and injury recipient/severity unassigned.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-dialogue_presentation",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "dialogue_presentation",
+      "reference_bench_domain": "performance",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Solitude vs training interruption; fictional dialogue tracks, no prior private motives stated.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-editing",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "editing",
+      "reference_bench_domain": "editing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Setup → challenge → outcome; no replay of lake fall or chili tank.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-sound_cues",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "sound_cues",
+      "reference_bench_domain": "sound_motion",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Stream, leaves and stillness as implied cues only; no sound file.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G01-continuity",
+      "g": "G01",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "discipline": "continuity",
+      "reference_bench_domain": "vfx_pipeline",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Same stream/ruin/boulders all three; prior bridge memory stays at bridge; state/mount/independent review open.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-design",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "design",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Raised weathered cabin/dock and half-flooded tied boat; no extra buildings.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-environment",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "environment",
+      "reference_bench_domain": "environment_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "V3 wide/V4 porch reverse candidate only; post count, boat orientation, porch stairs and access unverified.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-character_vfx",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "character_vfx",
+      "reference_bench_domain": "character_vfx",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "TDS exactly three heads on one body; Mud Dogs quadruped. Exact character references not mounted.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-costume",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "costume",
+      "reference_bench_domain": "costume",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "TDS post-haircut current identity; no borrowed hunting costume or redesign.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-props",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "props",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Tether and flooded hull required; V1 detail crops remain separate from V3/V4 geometry.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-camera",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "camera",
+      "reference_bench_domain": "unit_stills",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "P12 cabin-bank-dock relationship, P13 clear opposing forms; V4 not geometry-proof.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-lighting",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "lighting",
+      "reference_bench_domain": "color_finishing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Early mist, restrained canopy light and consistent waterline; no sudden weather transition.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-action",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "action",
+      "reference_bench_domain": "stunt_blocking",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Founder combat/environmental objective unresolved; do not recycle W11 navigation deception.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-dialogue_presentation",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "dialogue_presentation",
+      "reference_bench_domain": "performance",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "TDS confidence vs observable Mud response; no Bobby interiority, dialogue is fictional.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-editing",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "editing",
+      "reference_bench_domain": "editing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Reveal local familiarity before confrontation; payoff held.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-sound_cues",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "sound_cues",
+      "reference_bench_domain": "sound_motion",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Water, dock creaks and wind implied only; no actual audio.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G02-continuity",
+      "g": "G02",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "discipline": "continuity",
+      "reference_bench_domain": "vfx_pipeline",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "No Gators & Dawgs sign, postcard or imported W11 flood state; no verified same geometry.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-design",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "design",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Secluded hill cabin within Red domain, V1 modest exterior; no direct ocean or expanded lodge.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-environment",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "environment",
+      "reference_bench_domain": "environment_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Exact hill siting and access unresolved; off-subject interior generations rejected.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-character_vfx",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "character_vfx",
+      "reference_bench_domain": "character_vfx",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Use current Red and Duckhook identities; exact character mount not proved.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-costume",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "costume",
+      "reference_bench_domain": "costume",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Use existing identity/wardrobe rather than costume redesign; no invented corporate uniform.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-props",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "props",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Two glasses, worn table, shutters/hearth; no invented awards, dated inscriptions or technical trap props.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-camera",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "camera",
+      "reference_bench_domain": "unit_stills",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "P15 exterior then P16 gathering room, same window light; interior anchor missing.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-lighting",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "lighting",
+      "reference_bench_domain": "color_finishing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Cold sunset, heavy wind outside, warm interior practicals; no swamp dawn.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-action",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "action",
+      "reference_bench_domain": "stunt_blocking",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Deception or avoidance late-bound; abstract fictional confinement only, no mechanism.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-dialogue_presentation",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "dialogue_presentation",
+      "reference_bench_domain": "performance",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Toast and suspicions; keep G05 secret meeting out of character knowledge.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-editing",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "editing",
+      "reference_bench_domain": "editing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Hospitality → doubt → payoff; preserve Duckhook corporate appointment independent of sport.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-sound_cues",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "sound_cues",
+      "reference_bench_domain": "sound_motion",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Shutter gust, glass and fire suggested in static scene, not audio.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G03-continuity",
+      "g": "G03",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "discipline": "continuity",
+      "reference_bench_domain": "vfx_pipeline",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "W13/14 continuity bridge if confinement selected; no active location or state change.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-design",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "design",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Mature landscaped yard and established covered gathering/cooking area; V2 candidate anchor.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-environment",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "environment",
+      "reference_bench_domain": "environment_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "V2 geometry, lawn and mount arrival still need reverse/overview proof and internal access.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-character_vfx",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "character_vfx",
+      "reference_bench_domain": "character_vfx",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Chili and Dark Horse exact identity and Slob reference mounts unproved.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-costume",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "costume",
+      "reference_bench_domain": "costume",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Preserve established character clothing and companion; no invented historic awards.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-props",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "props",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "TV/fan/grill/smoker/lights scoped approved; Dutch oven, table, kegs; no dated personal trophies.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-camera",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "camera",
+      "reference_bench_domain": "unit_stills",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "P18 mount arrival, P19 table/cooking axis, P20 outcome; no established alternate view.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-lighting",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "lighting",
+      "reference_bench_domain": "color_finishing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Cold midday autumn with modest warm fire accent, not nighttime neon.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-action",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "action",
+      "reference_bench_domain": "stunt_blocking",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Both slapstick branches preserved; no hot-liquid method, injury or permanent hoof damage.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-dialogue_presentation",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "dialogue_presentation",
+      "reference_bench_domain": "performance",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "SEC argument is fictional; numerical CFP claims excluded pending source verification.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-editing",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "editing",
+      "reference_bench_domain": "editing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Hospitality escalates into competitive humor; avoid recycling carnival or delivery scene.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-sound_cues",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "sound_cues",
+      "reference_bench_domain": "sound_motion",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Football broadcast, fire, foliage implied; no audio generation or broadcast reproduction.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G04-continuity",
+      "g": "G04",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "discipline": "continuity",
+      "reference_bench_domain": "vfx_pipeline",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Technology approval not venue lock; historical memorabilia and precise internal access held.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-design",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "design",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Long-used archive/office separate from Jackson; rival board contemporary, old ledgers undated.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-environment",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "environment",
+      "reference_bench_domain": "environment_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "V1 material-only; exact parent containment/access unresolved, no spatial promotion.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-character_vfx",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "character_vfx",
+      "reference_bench_domain": "character_vfx",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Babb/HMB identities; exact reference mount absent; HMB Belt stays.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-costume",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "costume",
+      "reference_bench_domain": "costume",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "HMB hood/red eyes/dark armor and Belt; no new identity from business role.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-props",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "props",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Unlabelled ledgers, folder and symbolic offer; no unverified trophies or mechanism.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-camera",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "camera",
+      "reference_bench_domain": "unit_stills",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "P21 archive visual anchors, P22 dialogue eyelines; no mapped floor plan, interior placement unproved.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-lighting",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "lighting",
+      "reference_bench_domain": "color_finishing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Warm practicals against cool masonry; no borrowed Jackson or Storm City look.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-action",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "action",
+      "reference_bench_domain": "stunt_blocking",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Alliance versus betrayal late-bound; no operational confinement or actual asset transfer.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-dialogue_presentation",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "dialogue_presentation",
+      "reference_bench_domain": "performance",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Negotiation stays private, no mention of Red cabin by principals lacking knowledge.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-editing",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "editing",
+      "reference_bench_domain": "editing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Babb agency separate from corporate ouster; HMB competitive win not title transfer.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-sound_cues",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "sound_cues",
+      "reference_bench_domain": "sound_motion",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Paper, quiet room and low practical light as implied texture only.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G05-continuity",
+      "g": "G05",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "discipline": "continuity",
+      "reference_bench_domain": "vfx_pipeline",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Four G03/G05 combinations need subsequent W13/14 branch review; no new state.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-design",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "design",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "All terrestrial paths unpaved; locally appropriate marker and protective edge only where warranted.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-environment",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "environment",
+      "reference_bench_domain": "environment_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Basin Market investigation preferred, not selected; exact zone/segment and vehicle access unresolved.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-character_vfx",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "character_vfx",
+      "reference_bench_domain": "character_vfx",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Ben current identity and exact truck source held; El Niño atmospheric manifestation only, no new form.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-costume",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "costume",
+      "reference_bench_domain": "costume",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Established Ben appearance; no new outfit or visible Manning body implied by weather.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-props",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "props",
+      "reference_bench_domain": "production_design",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Lifted truck technology allowed, no specific substitute vehicle, paved road or invented signs.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-camera",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "camera",
+      "reference_bench_domain": "unit_stills",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "P24 cab/master, P25 weather pressure, P26 same corridor; route and mounted source needed.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-lighting",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "lighting",
+      "reference_bench_domain": "color_finishing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Early fog and rain; stable visibility progression and region-specific terrain.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-action",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "action",
+      "reference_bench_domain": "stunt_blocking",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "Progress or turnback conditional; no crash or guaranteed playoff admission.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-dialogue_presentation",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "dialogue_presentation",
+      "reference_bench_domain": "performance",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Ben's fictional brief line; Manning external weather counterpoint only.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-editing",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "editing",
+      "reference_bench_domain": "editing",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "W11 wrong turn informs caution, not a repeat; no final winner.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-sound_cues",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "sound_cues",
+      "reference_bench_domain": "sound_motion",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "DRAFT_DIRECTION_ALIGNED",
+      "finding": "Rain, wind and leaves as visual motion cues only; no audio claim.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    },
+    {
+      "cell_id": "G06-continuity",
+      "g": "G06",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "discipline": "continuity",
+      "reference_bench_domain": "vfx_pipeline",
+      "reference_bench_status": "ADVISORY_METHOD_LENS_NOT_INDEPENDENT_PARTICIPATION",
+      "status": "HOLD_EVIDENCE_OR_RESULT",
+      "finding": "No Island route, terrain change, permanent closure or truck access inference; no final geography lock.",
+      "evidence": [
+        "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json"
+      ],
+      "acceptance": "Planning review only; final raster, world, source-mount and independent gates remain separate."
+    }
+  ],
+  "counts": {
+    "cells": 72,
+    "aligned": 42,
+    "held": 30,
+    "approved": 0
+  },
+  "dependencies": [
+    "W12-02",
+    "W12-03",
+    "W12-04"
+  ],
+  "remaining": [
+    "Actual mount receipt and verified geometry/access",
+    "Current revision POV gate and independent literary review",
+    "Historical claim review and any factual copy validation",
+    "Actual production review / independent acceptance"
+  ],
+  "render_authorized": false,
+  "selected_outcomes": 0
+}

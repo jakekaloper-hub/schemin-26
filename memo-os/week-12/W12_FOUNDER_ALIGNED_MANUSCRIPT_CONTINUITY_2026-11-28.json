@@ -352,7 +352,9 @@
     "dialogue_independent_review": false,
     "pov_gate_structural_pass": 12,
     "pov_gate_negative_pass": 5,
-    "historical_prop_review_locations": 6
+    "historical_prop_review_locations": 6,
+    "current_revision_pov_gate_executed": false,
+    "literary_revision_count": 4
   },
   "principal_narrative_candidates": [
     {
@@ -373,7 +375,7 @@
       "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
       "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
       "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
-      "manuscript_text": "Wilson had come to the old clearing to practice, not to explain the lake. The stream marked one edge of the open ground; the ruin wall marked another. When the hooded visitor appeared, Wilson let his axe rest. He could not know why Jake had come. He knew only that the interruption had become another test."
+      "manuscript_text": "Wilson had come to the old clearing to practice, not to explain the lake. The stream marked one edge of the open ground; the ruin wall marked another. When the hooded visitor appeared, Wilson let his axe rest. Wilson waited for the visitor to speak. The interruption was already another test."
     },
     {
       "scene_id": "W12-G01-CHAR-JAKE-KALOPER",
@@ -473,7 +475,7 @@
       "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
       "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
       "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
-      "manuscript_text": "Zach had accepted a celebration, not another negotiation. The warm windows and old table made the cabin seem welcoming. Kevin's pause caught his attention. A hesitation was not evidence of a particular scheme, and Zach had heard nothing of the separate meeting involving Babb."
+      "manuscript_text": "Zach had accepted a celebration, not another negotiation. The warm windows and old table made the cabin seem welcoming. Kevin's pause caught his attention. A hesitation was not evidence of a particular scheme. Zach watched Kevin over the rim of his glass."
     },
     {
       "scene_id": "W12-G04-CHAR-JORDAN-HOLLINGSHEAD",
@@ -533,7 +535,7 @@
       "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
       "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
       "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
-      "manuscript_text": "Babb looked from the old ledgers to Duckhook's place on the rivalry board. The room offered a setting for a conversation separate from Jackson's executive office. Austin had come at his invitation, and Babb wanted an agreement, not an assurance that another meeting with Zach was inevitable. He could not know what was happening in Red's cabin."
+      "manuscript_text": "Babb looked from the old ledgers to Duckhook's place on the rivalry board. The room offered a setting for a conversation separate from Jackson's executive office. Austin had come at his invitation, and Babb wanted an agreement, not an assurance that another meeting with Zach was inevitable. For now, his attention remained on the man across the desk."
     },
     {
       "scene_id": "W12-G05-CHAR-AUSTIN-BYARS",
@@ -553,7 +555,7 @@
       "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
       "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
       "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
-      "manuscript_text": "Austin regarded the offered arrangement without surrendering the distinction between an invitation and an agreement. The Belt remained with him. Babb's papers showed only what Babb chose to present; they revealed nothing of another private encounter. The champion had not yet committed to the proposed alliance."
+      "manuscript_text": "Austin regarded the offered arrangement without surrendering the distinction between an invitation and an agreement. The Belt remained with him. Babb's papers showed only what Babb chose to present. Austin looked from the folder to his host. The champion had not yet committed to the proposed alliance."
     },
     {
       "scene_id": "W12-G06-CHAR-BEN-WHIPPLE",
@@ -775,6 +777,50 @@
         ],
         "disposition": "SOURCE_BOUNDED_DRAFT_REVIEW_NO_HISTORICAL_PROP_APPROVAL"
       }
+    ]
+  },
+  "literary_review": {
+    "status": "HOST_REVISED_CANDIDATE_REQUIRES_INDEPENDENT_REVIEW_AND_CURRENT_POV_REGRESSION",
+    "source_blob": "8cb8987b49a94e691d72f7c4257e79bff5b098d8",
+    "actual_local_consultation": {
+      "board": "Beat Writer / Pitching Coach 2/2",
+      "board_sha256": "7e2f23703ed3db88d451a326ffaf78fc98d1ea9d945b6a995c21ce5d326c6bc2",
+      "inklings_grouped_sha256": "782e60b849519bddf01f07984e48fe7c866829711a94aa9cb5a58a3d4521f19d",
+      "disposition": "Beat Writer largely repeated input; Pitching Coach missed explicit private-plot mentions; Inklings identified G01 perspective risk but suggested incorrect swap of ObiWan's motive and DK's practice. Rejected role/motive swap; host applied source-grounded POV corrections. Advisory only."
+    },
+    "changes": [
+      {
+        "id": "CHAR-WILSON-LOOK",
+        "before": "He could not know why Jake had come. He knew only that the interruption had become another test.",
+        "after": "Wilson waited for the visitor to speak. The interruption was already another test."
+      },
+      {
+        "id": "CHAR-ZACH-WILSON",
+        "before": "A hesitation was not evidence of a particular scheme, and Zach had heard nothing of the separate meeting involving Babb.",
+        "after": "A hesitation was not evidence of a particular scheme. Zach watched Kevin over the rim of his glass."
+      },
+      {
+        "id": "CHAR-DAVID-BABB",
+        "before": "He could not know what was happening in Red's cabin.",
+        "after": "For now, his attention remained on the man across the desk."
+      },
+      {
+        "id": "CHAR-AUSTIN-BYARS",
+        "before": "Babb's papers showed only what Babb chose to present; they revealed nothing of another private encounter.",
+        "after": "Babb's papers showed only what Babb chose to present. Austin looked from the folder to his host."
+      }
+    ],
+    "host_checks": {
+      "structural_field_sanity": true,
+      "removed_cross_plot_references": true,
+      "external_only_preserved": true,
+      "six_shared_openings_unchanged": true,
+      "twelve_conditional_branches_unchanged": true
+    },
+    "prior_gate_receipt_applies_to": "Pre-revision passage set; retained as historical evidence",
+    "current_gate_status": "NOT_RUN_REMOTE_COMMAND_REJECTED",
+    "limitations": [
+      "The previous 12/12 structural pass is not a certification of the revised text. A remote verification attempt was rejected by the tool; no workaround attempted."
     ]
   }
 }

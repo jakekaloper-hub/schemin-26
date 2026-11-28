@@ -59,11 +59,10 @@
       "command": "resume",
       "resolved_task": "W12-02",
       "registry_bound": true,
-      "receipt_sha256": "9599bc27a9473323bb706bb8bc420cec053e639eb2a3a1f5944a98cec46550bc",
       "continuation": "CONTINUE",
       "next_task": "W12-02",
       "provider_gate": "BLOCKED_NO_PROVIDER_RECEIPT",
-      "parallel_work": "W12-03 existing POV gate 12 positive + 5 negative tests pass; W12-04 six-location historical prop review documented; both remain in progress."
+      "parallel_work": "Four literary corrections; 72 discipline review cells prepared without marking W12-05 started. Actual local resume and advisory board/panel receipts in manuscript."
     }
   },
   "tasks": [
@@ -172,14 +171,14 @@
         "W12-01"
       ],
       "status": "IN_PROGRESS",
-      "next_action": "Independent Inklings/Beat Writer literary review of tested principal passages, external-only boundaries and conditional payoff continuity; no Story Lock.",
+      "next_action": "Run existing POV gate on exact corrected passages when permitted; independent literary/branch review remains.",
       "latest_evidence": {
         "ref": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
         "status": "PARTIAL",
-        "positive_pov_gate_pass": 12,
-        "negative_pov_gate_pass": 5,
-        "dialogue_tracks": 6,
-        "principal_prose_candidates": 12
+        "literary_revisions": 4,
+        "previous_pov_gate_positive_pass": 12,
+        "current_revision_gate": "NOT_RUN_REMOTE_COMMAND_REJECTED",
+        "host_field_check": true
       }
     },
     {
@@ -211,7 +210,16 @@
         "W12-03",
         "W12-04"
       ],
-      "status": "NOT_STARTED"
+      "status": "NOT_STARTED",
+      "preparation_evidence": {
+        "ref": "memo-os/week-12/W12_PRODUCTION_DISCIPLINE_REVIEW_MATRIX_2026-11-28.json",
+        "status": "PARTIAL",
+        "cells": 72,
+        "draft_aligned": 42,
+        "held": 30,
+        "approved": 0
+      },
+      "next_action": "Use prepared 72-cell matrix when W12-02/03/04 acceptance allows formal execution; resolve held cells and actual specialist/independent evidence."
     },
     {
       "id": "W12-06",
