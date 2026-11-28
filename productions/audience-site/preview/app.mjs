@@ -158,7 +158,11 @@ $('#demoLoss').onclick=()=>setDemo(0);$('#demoWin').onclick=()=>setDemo(1);$('#d
 $('#sourceDetails').textContent=`Source ${catalog.sourceRevision.slice(0,8)} · State recorded as ${catalog.stateAsOf.replaceAll('_',' ')}. Historical/source status is not reclassified as current by this preview.`;
 $('#skipReveal').onclick=()=>{if(state.phase==='REVEALING'){dispatch({type:'skip_reveal'});finishReveal();}};
 $('#retry').onclick=()=>location.reload();
-function finishReveal(){camera=structuredClone(target);$('#skipReveal').hidden=true;splash.classList.add('out');setTimeout(()=>splash.hidden=true,reduced?0:1200);try{sessionStorage.setItem('commonwealth-observer-seen','1');}catch{}ready=true;}
+function finishReveal(){
+ const skip=$('#skipReveal'),restoreFocus=document.activeElement===skip;
+ camera=structuredClone(target);$('#worldInteraction').inert=false;skip.hidden=true;splash.classList.add('out');setTimeout(()=>splash.hidden=true,reduced?0:1200);try{sessionStorage.setItem('commonwealth-observer-seen','1');}catch{}ready=true;
+ if(restoreFocus)canvas.focus({preventScroll:true});
+}
 function canControl(){return !memorySession&&!historySession&&state.phase==='EXPLORING'&&state.inputOwner==='WORLD'&&$('#fallback').hidden;}
 function cancelWorldGesture(){
  // Clear ownership before releasing capture: lostpointercapture may fire
