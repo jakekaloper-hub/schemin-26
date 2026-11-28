@@ -348,7 +348,433 @@
     "render_authorized": false,
     "dialogue_tracks": 6,
     "dialogue_speakers_within_matchup": true,
-    "existing_pov_gate_executed": false,
-    "dialogue_independent_review": false
+    "existing_pov_gate_executed": true,
+    "dialogue_independent_review": false,
+    "pov_gate_structural_pass": 12,
+    "pov_gate_negative_pass": 5,
+    "historical_prop_review_locations": 6
+  },
+  "principal_narrative_candidates": [
+    {
+      "scene_id": "W12-G01-CHAR-WILSON-LOOK",
+      "g": "G01",
+      "pov_character_id": "CHAR-WILSON-LOOK",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=5;away=1",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=7;away=5",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=1;away=4",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=1;away=7",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=5;away=8"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-DK-FOREST-TRAINING",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Wilson had come to the old clearing to practice, not to explain the lake. The stream marked one edge of the open ground; the ruin wall marked another. When the hooded visitor appeared, Wilson let his axe rest. He could not know why Jake had come. He knew only that the interruption had become another test."
+    },
+    {
+      "scene_id": "W12-G01-CHAR-JAKE-KALOPER",
+      "g": "G01",
+      "pov_character_id": "CHAR-JAKE-KALOPER",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=5;away=1",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=7;away=5",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=1;away=4",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=1;away=7",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=5;away=8"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-DK-FOREST-TRAINING",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Jake had wanted the sound of water rather than another conversation about defeat. The old wall and the boulders offered a quiet place until he saw Wilson beyond them. He kept his lightsaber clipped. Wilson's challenge changed the morning; it did not tell Jake what the other warrior had been thinking."
+    },
+    {
+      "scene_id": "W12-G02-CHAR-BOBBY-MITCHELL",
+      "g": "G02",
+      "pov_character_id": "CHAR-BOBBY-MITCHELL",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "EXTERNAL_OBSERVATION_ONLY",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=10;away=6",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=6;away=11",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=10;away=3",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=6;away=2",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=10;away=11"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Bobby stood on the raised bank beside the old cabin. His attention followed the visitor from the tree line toward the dock. The tether shifted as water stirred inside the weathered boat. The hound remained on familiar ground."
+    },
+    {
+      "scene_id": "W12-G02-CHAR-PHILLIP-PITTS",
+      "g": "G02",
+      "pov_character_id": "CHAR-PHILLIP-PITTS",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=10;away=6",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=6;away=11",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=10;away=3",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=6;away=2",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=10;away=11"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Phillip had come expecting a shorter encounter than the swamp seemed willing to offer. Three heads surveyed the water, bank and cabin from one body. The newer plank in the weathered dock drew his attention. Bobby's familiarity was visible; what the hound intended was not."
+    },
+    {
+      "scene_id": "W12-G03-CHAR-KEVIN-ZEEK",
+      "g": "G03",
+      "pov_character_id": "CHAR-KEVIN-ZEEK",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=2;away=12",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=2;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=12;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=6;away=2",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=12;away=4"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Kevin had prepared two glasses in a room accustomed to quieter gatherings. Zach's appointment offered a reason for a toast, and the rivalry offered enough to talk about. When the wind struck the shutters, Kevin watched his guest rather than the window. The invitation had another purpose, but nothing in the room yet settled its outcome."
+    },
+    {
+      "scene_id": "W12-G03-CHAR-ZACH-WILSON",
+      "g": "G03",
+      "pov_character_id": "CHAR-ZACH-WILSON",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=2;away=12",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=2;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=12;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=6;away=2",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=12;away=4"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Zach had accepted a celebration, not another negotiation. The warm windows and old table made the cabin seem welcoming. Kevin's pause caught his attention. A hesitation was not evidence of a particular scheme, and Zach had heard nothing of the separate meeting involving Babb."
+    },
+    {
+      "scene_id": "W12-G04-CHAR-JORDAN-HOLLINGSHEAD",
+      "g": "G04",
+      "pov_character_id": "CHAR-JORDAN-HOLLINGSHEAD",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=3;away=7",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=7;away=5",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=10;away=3",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=3;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=1;away=7"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Jordan regarded the prepared table with more satisfaction than the week's argument deserved. The garden was maintained, the Dutch oven ready, and the television familiar company in the covered gathering area. Brandon's arrival shifted the afternoon from preparation to competition. Jordan did not intend to let a guest settle the football debate for him."
+    },
+    {
+      "scene_id": "W12-G04-CHAR-BRANDON-PRYOR",
+      "g": "G04",
+      "pov_character_id": "CHAR-BRANDON-PRYOR",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=3;away=7",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=7;away=5",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=10;away=3",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=3;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=1;away=7"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Brandon arrived as an invited guest, with Dark Horse and his recent competitive confidence intact. The table and cooking area were already prepared. He could hear the football conversation from the covered space, and Jordan's greeting offered an opening for an argument. He had no reason yet to know how the afternoon would end."
+    },
+    {
+      "scene_id": "W12-G05-CHAR-DAVID-BABB",
+      "g": "G05",
+      "pov_character_id": "CHAR-DAVID-BABB",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=4;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=12;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=1;away=4",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=5;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=12;away=4"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Babb looked from the old ledgers to Duckhook's place on the rivalry board. The room offered a setting for a conversation separate from Jackson's executive office. Austin had come at his invitation, and Babb wanted an agreement, not an assurance that another meeting with Zach was inevitable. He could not know what was happening in Red's cabin."
+    },
+    {
+      "scene_id": "W12-G05-CHAR-AUSTIN-BYARS",
+      "g": "G05",
+      "pov_character_id": "CHAR-AUSTIN-BYARS",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=4;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=12;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=1;away=4",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=5;away=8",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=12;away=4"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Austin regarded the offered arrangement without surrendering the distinction between an invitation and an agreement. The Belt remained with him. Babb's papers showed only what Babb chose to present; they revealed nothing of another private encounter. The champion had not yet committed to the proposed alliance."
+    },
+    {
+      "scene_id": "W12-G06-CHAR-BEN-WHIPPLE",
+      "g": "G06",
+      "pov_character_id": "CHAR-BEN-WHIPPLE",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "BOUNDED_PRINCIPAL_PERSPECTIVE",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=9;away=11",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=2;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=6;away=11",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=3;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=10;away=11"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Ben watched the unpaved track lose definition under rain and fog. Last week's wrong turn gave him a reason to question familiarity rather than trust it blindly. From the truck, he could still make out the ground beside the trees. He could judge the changing visibility; he could not know where the weather would ultimately let him travel."
+    },
+    {
+      "scene_id": "W12-G06-CHAR-MANNING-WELTY",
+      "g": "G06",
+      "pov_character_id": "CHAR-MANNING-WELTY",
+      "pov_class": "PRINCIPAL_CHARACTER",
+      "narrative_mode": "EXTERNAL_OBSERVATION_ONLY",
+      "source_event_ids": [
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=4;home=9;away=11",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=2;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=10;home=6;away=11",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=3;away=9",
+        "W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json#week=11;home=10;away=11"
+      ],
+      "source_event_scope": "Repository row locators derived from actual normalized provider observations; not new canonical event IDs or independent Fact Lock.",
+      "world_context_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "world_context_status": "EXISTING_CANDIDATE_NOT_ACTIVE_VENUE",
+      "story_time_cutoff": "2026 Week 11 settled narrative / Week 12 pre-encounter; no W12 outcome",
+      "real_owner_boundary_note": "Fictional character prose; not real owner statements, private thoughts or verified real-world events.",
+      "manuscript_text": "Rain darkened the natural track as wind stirred the roadside leaves. The obscured horizon offered less visibility than before. The weather moved across the track, and the trees bent beneath its gusts. Beyond the rain, the road was no longer clear."
+    }
+  ],
+  "pov_gate_receipt": {
+    "gate": "living-novel/os/qa/twelve_owner_rewrite_gate.py",
+    "gate_blob_sha": "1f84d07fede1e5e4dba8eb3dc085c8b73e8743c7",
+    "character_registry_blob_sha": "30b490eece6bfcb7edafcb7d2a59c391d1a621d7",
+    "source_story_blob_sha": "36ee4167c4e2dd822ecf33ffd7ac14898b6a2f1a",
+    "source_chronology_blob_sha": "b54449a07c7534dae24b9d53c9311cd2e9a5fa0e",
+    "source_atlas_manifest_blob_sha": "c0e46419926ab98dc76cb1e74b463378307580a0",
+    "tested_scene_serialization_sha256": "26ac72949277f2f70ea91b4ddf17c6dc6fa555c3378b0352b998938b8546cbcd",
+    "positive_pass": 12,
+    "negative_pass": 5,
+    "negative_cases": [
+      "non-owner ID",
+      "witness POV class",
+      "missing source events",
+      "missing world context",
+      "retired narrator name"
+    ],
+    "runtime_receipt_sha256": "9599bc27a9473323bb706bb8bc420cec053e639eb2a3a1f5944a98cec46550bc",
+    "scope": "Existing gate executed on exact copied sources in isolated temporary directory on local Mac. Checks structural requirements only; source row pointers are not hard canon event IDs; candidate world context is not a venue approval. External-only Bobby/Manning preserved; independent literary, historical and geography acceptance pending."
+  },
+  "historical_prop_review": {
+    "authority": "Host source audit; no independent Inklings/Steward signoff",
+    "sources": [
+      {
+        "path": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+        "blob_sha": "c17670d9c6d86dcb200c865a2a238dc2309b913c"
+      },
+      {
+        "path": "living-novel/history/OWNER_LINEAGE.md",
+        "blob_sha": "be68b2b2c836592ed872e32b6216af238a0cd64c"
+      },
+      {
+        "path": "living-novel/whole-book/HISTORICAL_INTEGRATION_MAP_V1.md",
+        "blob_sha": "1ac558544f66a2434bc6a0eab1bf59e16ab79cf0"
+      },
+      {
+        "path": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+        "blob_sha": "b54449a07c7534dae24b9d53c9311cd2e9a5fa0e"
+      }
+    ],
+    "locations": [
+      {
+        "g": "G01",
+        "use": [
+          "weathered ruin wall, boulders, stream, axe and clipped lightsaber",
+          "2026 rematch and W11 defeat as fictional narrative pressure"
+        ],
+        "hold": [
+          "No historical battle inscription or personal trophy based on old slot records.",
+          "No bridge relics or Mire Hill scars at forest."
+        ],
+        "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+        "source_historical_dossier": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+        "source_founder_intake": "memo-os/week-12/W12_G01_FOUNDER_INTAKE_2026-11-25.md",
+        "source_owner_lineage": "living-novel/history/OWNER_LINEAGE.md",
+        "source_current_results": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+        "historical_slot_observations": [
+          "2015 W1 Here, Ok I took L's 129–65.5 Scruffy Looking Nerf Herders (slots 5/1 only).",
+          "2021 W7 Dewars White Label 152.91–108.84 Obi-Wan Jacoby; 2021 champion slot 5, historical ownership not verified.",
+          "2024 W7 Looks Don’t Lose 151.54–126.13 ObiWan; ObiWan 2024 champion; 2025 W8 ObiWan 126.62–98.34 Baker Moore Purdy.",
+          "2026 W3 Mire Hill yield and standard below summit are separate-location history; W4 ObiWan 157.33–139.67 DK; W11 HMB defeats DK 168.20–129.75 at Mountain Lake, survival; bridge remains separate."
+        ],
+        "disposition": "SOURCE_BOUNDED_DRAFT_REVIEW_NO_HISTORICAL_PROP_APPROVAL"
+      },
+      {
+        "g": "G02",
+        "use": [
+          "old timbers, newer replacement plank, tethered half-flooded boat",
+          "W11 Mud Dogs victory as prior sporting observation"
+        ],
+        "hold": [
+          "Do not label specific boat repair year or owner history.",
+          "No transplanted Gators & Dawgs sign, postcard or flood height."
+        ],
+        "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+        "source_historical_dossier": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+        "source_founder_intake": "memo-os/week-12/W12_G02_FOUNDER_INTAKE_2026-11-25.md",
+        "source_owner_lineage": "living-novel/history/OWNER_LINEAGE.md",
+        "source_current_results": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+        "historical_slot_observations": [
+          "2015 W2 Pittsy's Rhino's 84.5–71 Team Hollingshead (slots 6/10 only).",
+          "2020 slot 10 champion Where Mahomies at?; not Bobby personal attribution. 2023 Two Dreaded Snake lost both W4 and W13 slot-10 matchups; TDS 1–13 season historical name evidence.",
+          "2024 W8 TDS 178.36–177.12 Mud Dogs; W14 Mud Dogs 158.38–83.06 TDS; 2025 W8 Mud Dogs 163.26–100.45 TDS.",
+          "2026 W3 Mire Hill defeat/yield separate site; W4 TDS 149.84–126.98 Mud Dogs; W11 Mud Dogs defeats Chins and swamp-route deception; no new flood permanence."
+        ],
+        "disposition": "SOURCE_BOUNDED_DRAFT_REVIEW_NO_HISTORICAL_PROP_APPROVAL"
+      },
+      {
+        "g": "G03",
+        "use": [
+          "two glasses, worn table, shutters and hearth",
+          "W11 Duckhook–LLC result and selected fictional corporate appointment"
+        ],
+        "hold": [
+          "No older personal victory quote without owner-lineage proof.",
+          "No historical cabin encounter inferred from 2024–25 matchups; no dated trophies."
+        ],
+        "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+        "source_historical_dossier": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+        "source_founder_intake": "memo-os/week-12/W12_G03_FOUNDER_INTAKE_2026-11-25.md",
+        "source_owner_lineage": "living-novel/history/OWNER_LINEAGE.md",
+        "source_current_results": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+        "historical_slot_observations": [
+          "2015 W7 slot 2 Hook, Line, and Zeeker 100.5–89.5 slot 12 Discount Belichick; W13 reverse 140.5–61. No owner/venue equivalence.",
+          "2022 Red Leopards 13–1, semifinal defeat to El Niño; 2023 W7 Red 131.56–102.56 Eggs Benedict, W16 Eggs Benedict 214.52–149.84 Red.",
+          "2024 W7 Duckhook 181.34–160.34 Red; 2025 W13 Duckhook 157.78–78.44 Red; 2025 Duckhook semifinal loss 0.40 to The Immortal.",
+          "2026 W4 Red 164.08–128.36 Duckhook; W8 LLC defeats Red; W11 Red loses TDS, Duckhook defeats LLC and takes fictional Jackson CEO/chairman role."
+        ],
+        "disposition": "SOURCE_BOUNDED_DRAFT_REVIEW_NO_HISTORICAL_PROP_APPROVAL"
+      },
+      {
+        "g": "G04",
+        "use": [
+          "mature garden, repaired furnishings, Dutch oven, TV/fan/grill/smoker/lights per scoped Founder approval",
+          "W4 rematch, W11 delivery and carnival selected narrative"
+        ],
+        "hold": [
+          "No personal championship count or unverified trophy display.",
+          "Specific CFP/NCAA facts from Founder intake remain source anchors, not reverified in this pass; current dialogue uses no numerical claim."
+        ],
+        "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+        "source_historical_dossier": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+        "source_founder_intake": "memo-os/week-12/W12_G04_FOUNDER_INTAKE_2026-11-25.md",
+        "source_owner_lineage": "living-novel/history/OWNER_LINEAGE.md",
+        "source_current_results": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+        "historical_slot_observations": [
+          "2015 W7 slot 3 Kunt Liquors 107–80.5 slot 7 Cypress Gunslingers; W13 121–76; no personal attribution.",
+          "2019 slot 3 champion Please, Please, Please, please; 2020 W7 Jacktown Hollisquad 142.87–117.32 Cowboy Killerz; older slot continuity only.",
+          "2024 W2 The Blew Waffle's 169.44–129.15 Slob; 2025 W9 Slob 156.40–117.05 Chili.",
+          "2026 W4 Slob 190.72–139.96 Chili; W10 Chili rodeo humiliation; W11 Slob delivery struggle and recovery, Chili carnival win; these happened elsewhere."
+        ],
+        "disposition": "SOURCE_BOUNDED_DRAFT_REVIEW_NO_HISTORICAL_PROP_APPROVAL"
+      },
+      {
+        "g": "G05",
+        "use": [
+          "unlabelled aged ledgers, private office furniture, contemporary rivalry board",
+          "HMB's reigning belt from existing character canon"
+        ],
+        "hold": [
+          "No trophy count, historical award attribution, dated record or new institutional ownership.",
+          "No Jackson office or Storm City repair state imported."
+        ],
+        "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+        "source_historical_dossier": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+        "source_founder_intake": "memo-os/week-12/W12_G05_FOUNDER_INTAKE_2026-11-25.md",
+        "source_owner_lineage": "living-novel/history/OWNER_LINEAGE.md",
+        "source_current_results": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+        "historical_slot_observations": [
+          "2015 W6 Bavid Dabbs 90.5–89 Austin's Hyena's; W12 104–98. 2016 slot 8 champion; personal ownership not verified.",
+          "2018 W2 $20 Grahams 171.15–109.08 Kardiac Kids; W13 Kardiac Kids 154.26–148.17; 2018 slot 8 champion only.",
+          "2021 W16 The Third Coming 173.04–146.84 B.A.B.B. LLC in winners bracket; 2024 W3 The King 152.66–125.48 LLC; 2025 W11 The Immortal 147.86–145.83 LLC; 2025 HMB incumbent championship context.",
+          "2026 W2 LLC boardroom intrusion/repair unknown; W3 Storm City protection works separate site; W4 HMB 177.32–138.87 LLC; W11 Jackson office corporate ouster distinct from candidate hidden office."
+        ],
+        "disposition": "SOURCE_BOUNDED_DRAFT_REVIEW_NO_HISTORICAL_PROP_APPROVAL"
+      },
+      {
+        "g": "G06",
+        "use": [
+          "natural unpaved terrain and wet vegetation; contemporary truck technology approved only",
+          "W11 wrong-turn memory and W10 observed result"
+        ],
+        "hold": [
+          "No paved road, dated sign, exact route, unverified vehicle reference or playoff destination.",
+          "No historical storm damage inferred from sporting results."
+        ],
+        "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+        "source_historical_dossier": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+        "source_founder_intake": "memo-os/week-12/W12_G06_FOUNDER_INTAKE_2026-11-25.md",
+        "source_owner_lineage": "living-novel/history/OWNER_LINEAGE.md",
+        "source_current_results": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+        "historical_slot_observations": [
+          "2015 W7 slot 11 I'M HERE SO I WON'T GET FINED 66–65.5 slot 9 Calvin's Johnson; W13 slot 9 wins 138.5–110.5. No current character attribution.",
+          "2022 El Niño 7–7 champion and 2023 11–3 regular-season leader without title; 2023 W16 Arm Chair GM 159.52–148.24 El Niño, slot 11 identity not verified.",
+          "2024 W1 Chins 183.56–119.82 El Niño and W11 Chins 156.88–127.84 El Niño; 2025 W11 El Niño 116.05–78.64 Chins.",
+          "2026 W3 Southern Speedway HMB/Chins memory at separate site; W4 El Niño 170.62–106.20 Chins; W11 Chins wrong swamp turn and both teams lose. No exact route to playoff venue established."
+        ],
+        "disposition": "SOURCE_BOUNDED_DRAFT_REVIEW_NO_HISTORICAL_PROP_APPROVAL"
+      }
+    ]
   }
 }

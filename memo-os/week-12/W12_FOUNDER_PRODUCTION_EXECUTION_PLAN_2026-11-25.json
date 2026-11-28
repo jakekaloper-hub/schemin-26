@@ -59,11 +59,11 @@
       "command": "resume",
       "resolved_task": "W12-02",
       "registry_bound": true,
-      "receipt_sha256": "c8e3b7ba7bdc8204b3204ddf407ab56873922874dc8f3de6c496d07ec7b8bfeb",
+      "receipt_sha256": "9599bc27a9473323bb706bb8bc420cec053e639eb2a3a1f5944a98cec46550bc",
       "continuation": "CONTINUE",
       "next_task": "W12-02",
       "provider_gate": "BLOCKED_NO_PROVIDER_RECEIPT",
-      "parallel_work": "W12-03 six dialogue tracks drafted, W12-04 still in progress"
+      "parallel_work": "W12-03 existing POV gate 12 positive + 5 negative tests pass; W12-04 six-location historical prop review documented; both remain in progress."
     }
   },
   "tasks": [
@@ -172,12 +172,14 @@
         "W12-01"
       ],
       "status": "IN_PROGRESS",
-      "next_action": "Six separate fictional dialogue tracks drafted; run existing POV gate with actual source event and world context bindings; independent Inklings review and held payoff branches.",
+      "next_action": "Independent Inklings/Beat Writer literary review of tested principal passages, external-only boundaries and conditional payoff continuity; no Story Lock.",
       "latest_evidence": {
         "ref": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
         "status": "PARTIAL",
+        "positive_pov_gate_pass": 12,
+        "negative_pov_gate_pass": 5,
         "dialogue_tracks": 6,
-        "pov_gate_run": false
+        "principal_prose_candidates": 12
       }
     },
     {
@@ -189,7 +191,15 @@
         "W12-01"
       ],
       "status": "IN_PROGRESS",
-      "next_action": "Historical prop provenance and source audit; preserve unresolved owner lineage holds."
+      "next_action": "Review precise historical prop claims and verify any quantitative SEC/NCAA copy before insertion; no invented awards.",
+      "latest_evidence": {
+        "ref": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "status": "PARTIAL",
+        "historical_prop_review_locations": 6,
+        "owner_lineage": "PARTIAL",
+        "unsupported_award_claims": "HELD",
+        "cfp_specific_facts": "NOT_REVERIFIED_THIS_PASS"
+      }
     },
     {
       "id": "W12-05",
