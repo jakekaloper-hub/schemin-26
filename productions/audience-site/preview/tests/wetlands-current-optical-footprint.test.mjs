@@ -12,7 +12,7 @@ const smooth=(a,b,v)=>{const t=Math.max(0,Math.min(1,(v-a)/(b-a)));return t*t*(3
 const flow=[-.034,.013],mag=Math.hypot(...flow),alongAxis=flow.map(v=>v/mag),crossAxis=[-alongAxis[1],alongAxis[0]];
 const phases=[
  (u,v,t)=>{const x=u+.012*t,y=v-.009*t;return (x+Math.sin(y*10+Math.sin(x*6)*.5)*.024)*44+y*11+Math.sin(x*9)*.8;},
- (u,v,t)=>Math.hypot(u+.012*t-.52,(v-.009*t-.44)*1.4)*30-t*.15,
+ (u,v,t)=>Math.hypot(u-.52,(v-.44)*1.4)*30-t*.15,
  (u,v,t)=>{const x=(u-.5)*2,y=(v-.5)*2,along=x*alongAxis[0]+y*alongAxis[1],across=x*crossAxis[0]+y*crossAxis[1];return (across+Math.sin(along*8-t*.26)*.036)*31+along*7-t*.90;}
 ];
 const gain=(f,u,v,t,step)=>1-smooth(.35,1.15,Math.abs(f(u+step,v,t)-f(u,v,t))+Math.abs(f(u,v+step,t)-f(u,v,t)));

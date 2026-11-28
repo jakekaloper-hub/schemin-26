@@ -292,10 +292,12 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float currentPattern=sin(currentCoordinate);
       float currentSheen=pow(max(currentPattern,0.),13.)*smoothstep(.45,.9,breakup)
         *(1.-smoothstep(.35,1.15,fwidth(currentCoordinate)));
-      float eddyCoordinate=length((wetlandUv-vec2(.52,.44))*vec2(1.,1.4))*30.-uTime*.15;
+      // Local eddy stays within the existing disk; only its radial phase advances.
+      // Unlimited current advection would eventually carry its entire envelope off-screen.
+      float eddyCoordinate=length((vUv-vec2(.52,.44))*vec2(1.,1.4))*30.-uTime*.15;
       float eddy=pow(max(sin(eddyCoordinate),0.),12.)
         *(1.-smoothstep(.35,1.15,fwidth(eddyCoordinate)));
-      float eddyFade=1.-smoothstep(.12,.42,length(wetlandUv-vec2(.52,.44)));
+      float eddyFade=1.-smoothstep(.12,.42,length(vUv-vec2(.52,.44)));
       float sediment=.5+.5*sin((wetlandUv.x-wetlandUv.y)*10.+sin(wetlandUv.y*6.)*.6);
       vec3 waterTint=mix(uColor,uColor*vec3(.84,.92,.80),sediment*.13);
       vec3 lowSheen=vec3(.13,.16,.14)*(currentSheen * uSheenGain);
