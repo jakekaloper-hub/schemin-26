@@ -46,6 +46,10 @@ Broadly pre-technological/pre-modern relative to the Founder's requested epic-fa
 No modern communications, automobiles, firearms-as-modernity, fantasy-football screens, or direct technological stand-ins for ESPN.
 Information travels through people, writing, signal systems, institutions and rumor at speeds constrained by geography.
 
+## Terrain-based movement — Founder directive, 28 November 2026
+
+All terrestrial roads and paths are unpaved and derived from local physical geography, climate, hydrology and use. No generic asphalt or concrete carriageways, painted lane markings or modern highway guardrails. Existing crossing structures are separate from road surfacing. Explicitly approved vehicles and local modern fixtures do not override this rule or change the wider technology ceiling. The seven-zone material guidance is maintained in `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`.
+
 ## Supernatural restraint
 The supernatural, if present, is not a convenience layer.
 Any supernatural phenomenon requires:

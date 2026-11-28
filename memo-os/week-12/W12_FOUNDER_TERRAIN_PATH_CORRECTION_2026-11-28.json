@@ -1,0 +1,83 @@
+{
+  "schema": "schemin26.week12.founder_terrain_path_correction.v1",
+  "date": "2026-11-28",
+  "authority": {
+    "type": "DIRECT_FOUNDER_INSTRUCTION",
+    "verbatim": "resume, no paved roads, all terrained paths based on location wthin atlas"
+  },
+  "supersedes": {
+    "path": "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json",
+    "blob_sha": "251d62bd0bc6390da3c9cd751132c2b973b74ed6",
+    "scope": "G06 road surfacing and associated modern-road fixtures only; G04 technology permission and G06 lifted-truck permission preserved."
+  },
+  "scope": "All Commonwealth terrestrial travel paths, across seven Atlas physical zones; not a blanket prohibition on existing bridges, docks, quays, buildings or private interior/yard finishes.",
+  "rule": "Unpaved, location-specific terrain paths; no asphalt/concrete paved carriageways, painted traffic lanes or modern highway guardrails as generic road dressing. Natural exposed bedrock is not paving. Engineered crossings and other existing structures retain their established identities.",
+  "seven_zone_material_guidance": [
+    {
+      "region_id": "REG-NORTHERN-SPINE",
+      "proposed_visual_guidance": "Exposed natural rock, scree and worn mountain trails; snow or ice when season and elevation warrant.",
+      "scope": "Regional production guidance, not a claim of exact existing route construction."
+    },
+    {
+      "region_id": "REG-UPPER-VALLEYS",
+      "proposed_visual_guidance": "Compacted earth, gravel, forest leaf litter, pasture tracks and natural fieldstone exposed in the ground.",
+      "scope": "Regional production guidance, not a claim of exact existing route construction."
+    },
+    {
+      "region_id": "REG-CENTRAL-BASIN",
+      "proposed_visual_guidance": "Worn alluvial earth, clay or gravel tracks; seasonal mud and ruts where supported by weather and drainage.",
+      "scope": "Regional production guidance, not a claim of exact existing route construction."
+    },
+    {
+      "region_id": "REG-WESTERN-TABLELANDS",
+      "proposed_visual_guidance": "Dry dusty earth, broken rock and grassland tracks; localized mud only when rainfall supports it.",
+      "scope": "Regional production guidance, not a claim of exact existing route construction."
+    },
+    {
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "proposed_visual_guidance": "Wet forest earth, roots, gravel and exposed bedrock; rain washouts and natural drainage.",
+      "scope": "Regional production guidance, not a claim of exact existing route construction."
+    },
+    {
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "proposed_visual_guidance": "Raised earthen causeways, muddy tracks and established timber crossings where required; respect floodwater and boat access.",
+      "scope": "Regional production guidance, not a claim of exact existing route construction."
+    },
+    {
+      "region_id": "REG-INNER-SEA-LITTORAL",
+      "proposed_visual_guidance": "Compacted coastal earth, sand, gravel and exposed stone; retain established quays and bridge structures as distinct from road surfacing.",
+      "scope": "Regional production guidance, not a claim of exact existing route construction."
+    }
+  ],
+  "route_source": {
+    "path": "world/data/routes.json",
+    "blob_sha": "da418245708c1f9d2128775df0ce7d26e7eeaa18",
+    "registered_routes": 18
+  },
+  "region_source": {
+    "path": "world/data/physical_zones.json",
+    "blob_sha": "3d06bb11b6dd48d1fab523cd886b5003df1c8651"
+  },
+  "g06": {
+    "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+    "working_name": "Chins Storm Track Encounter",
+    "surface": "Unpaved; actual material depends on resolved Atlas segment.",
+    "vehicle": "Existing lifted truck permitted as technology; exact identity and route-specific access unresolved.",
+    "rejected_asset": "G06 V2 paved roadway PNG; preserve as rejected historical audition only.",
+    "retained_asset": "G06 V1 weather/material study, not a mapped route.",
+    "route_region_resolved": false
+  },
+  "checks": {
+    "active_route_graph_changed": false,
+    "active_location_changed": false,
+    "world_state_changed": false,
+    "final_render_authorized": false,
+    "approved_reference_count": 0
+  },
+  "remaining": [
+    "Exact G06 route and region",
+    "Vehicle reference bytes and access",
+    "Independent Atlas review",
+    "Binary asset ingestion"
+  ]
+}

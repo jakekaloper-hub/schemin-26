@@ -1820,7 +1820,7 @@
     },
     {
       "id": "CAND-W12-CHINS-STORM-HIGHWAY",
-      "working_name": "Chins Storm Highway Encounter",
+      "working_name": "Chins Storm Track Encounter",
       "lifecycle_status": "HOLD_FOR_LATER_EVIDENCE",
       "location_class": "TRANSIT_NODE",
       "likely_physical_zone_ids": [],
@@ -1833,7 +1833,7 @@
       ],
       "activation_trigger": "Existing Atlas semantic, route, modernity and canon acceptance; Founder scene direction does not itself activate geography.",
       "story_functions": [
-        "Early morning highway, fog, rain, gusts and leaves; exact segment and truck access unresolved."
+        "Early morning terrain-based track, fog, rain, gusts and leaves; exact segment and truck access unresolved."
       ],
       "technology_translation": "REQUIRES_TECH_UNLOCK",
       "championship_only": false,
@@ -1849,13 +1849,15 @@
       "canon_notes": [
         "Founder-directed Week 12 candidate only; no outcome, permanent injury or confinement promoted.",
         "Founder Nov28: historically existing site revealed in W12, not newly built. Exact historical ownership, dated physical alterations and event venues not inferred. Four-era development proposals and three-layer dossiers are in linked source; no promotion or render authority.",
-        "Nov28 Founder technology approval recorded in linked receipt; scoped to current W12 candidate depiction, no global history change. REQUIRES_TECH_UNLOCK retained as schema classification; scoped approval satisfies technology prerequisite only."
+        "Nov28 Founder technology approval recorded in linked receipt; scoped to current W12 candidate depiction, no global history change. REQUIRES_TECH_UNLOCK retained as schema classification; scoped approval satisfies technology prerequisite only.",
+        "Direct Founder correction Nov28: no paved roads anywhere; surface follows physical zone. Lifted truck remains permitted; G06 V2 paved concept rejected. Candidate ID retained."
       ],
       "source_provenance": [
         "memo-os/week-12/W12_G06_FOUNDER_INTAKE_2026-11-25.md",
         "memo-os/week-12/W12_CONSOLIDATED_FOUNDER_FOUNDATIONS_REVIEW_2026-11-25.md",
         "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
-        "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json"
+        "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json",
+        "memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json"
       ],
       "promoted_location_id": null
     }

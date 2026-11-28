@@ -46,17 +46,15 @@
       "g": "G06",
       "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
       "approved_current_depiction": [
-        "lifted pickup truck",
-        "paved highway",
-        "road markings",
-        "guardrail and roadside fixtures"
+        "lifted pickup truck"
       ],
-      "disposition": "TECHNOLOGY_CLASS_APPROVED_FOR_UNPLACED_CONCEPT_DEVELOPMENT",
+      "disposition": "VEHICLE_TECH_APPROVED_TERRAIN_PATH_RULE_CONTROLS",
       "remaining": [
         "exact region, parent containment and corridor",
         "route-specific vehicle access and vehicle identity/reference bytes",
         "no assumed connection to Playoff Island",
-        "approved environment bytes and independent QA"
+        "approved environment bytes and independent QA",
+        "No paved road; resolve natural route terrain from Atlas."
       ]
     }
   ],
@@ -64,12 +62,13 @@
     "No retroactive technology dates inferred; location existence and current fixtures are separate.",
     "No global modernity change or permission for unrelated technologies.",
     "No active LOC/SUB creation, promotion, route write or world-state mutation.",
-    "No approval of an entire image, fabricated memorabilia, final matchup outcome, publication or final folio."
+    "No approval of an entire image, fabricated memorabilia, final matchup outcome, publication or final folio.",
+    "Later direct Founder correction: all terrestrial paths unpaved and location-specific; see memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json"
   ],
   "production_actions": [
     "G04 V2 becomes proposed visual anchor; V1 alternate retained. Match overview and reverse to V2, reconcile yard/table/cooking/covered area and mount arrival with structural previs.",
-    "G06 V2 becomes unplaced road/vehicle concept, not geographic reference; keep V1 bounded weather study; develop visual details without assigning route.",
+    "G06 V2 paved roadway rejected for drift; retain V1 weather study and develop an unpaved terrain-path concept without assigning route.",
     "Beat Writer/Inklings can use contemporary TV football gathering and established vehicle familiarity in result-neutral openings; no unsupported historical installations or road journey."
   ],
-  "receipt_status": "FOUNDER_TECHNOLOGY_APPROVAL_RECORDED_OTHER_GATES_RETAINED"
+  "receipt_status": "FOUNDER_TECHNOLOGY_APPROVAL_RECORDED_WITH_TERRAIN_CORRECTION"
 }

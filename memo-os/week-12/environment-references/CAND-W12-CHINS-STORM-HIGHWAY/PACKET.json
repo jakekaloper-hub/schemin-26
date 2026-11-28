@@ -29,11 +29,12 @@
   "source": {
     "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
     "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3",
-    "technology_approval": "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json"
+    "technology_approval": "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json",
+    "terrain_path_correction": "memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json"
   },
   "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
   "three_layers": {
-    "physical": "Candidate road segment only; tree line, shoulder, obscured horizon and early fog/rain; final terrain and road surface depend on resolved region. No new island link or mapped junction.",
+    "physical": "Candidate unpaved track only; tree line, natural verge, obscured horizon and early fog/rain. Ground material must follow resolved physical region; no asphalt, painted lanes, modern road guardrails or island link.",
     "civil": "Existing Chins Road Commons has road services, courier/caravan activity and ordinary public life. Proposed maintenance traces require chosen corridor; no new agency or vehicle route inferred.",
     "memory": "Ben's W11 wrong-turn experience supports changed judgment; historical El Niño record gives thematic pressure, not magical prophecy or verified local weather. Manning's external environmental action only; no interiority."
   },
@@ -41,9 +42,9 @@
     "2015–18: propose a long-used road corridor with older substrate and roadside traces, not an identified route.",
     "2019–21: propose successive ordinary maintenance and drainage attention where supported by chosen zone.",
     "2022–23: historical storm/competition themes can shape road culture, not proof of specific storms along this segment.",
-    "2024–26: present truck encounter uses same aged corridor concept; modern paved roadway and lifted truck permitted by Founder for present candidate depiction; exact dates and corridor unresolved."
+    "2024–26: present truck encounter uses the same longstanding terrain corridor concept; lifted truck permitted, but no paved road. Exact surface, route and historical installation dates unresolved."
   ],
-  "material_art_direction": "Undated weathered edges and maintained surface; paved roadway, markings and guardrail approved for contemporary concept depiction, not mapped corridor.",
+  "material_art_direction": "Undated worn earth, natural gravel/stone and weathered edges as appropriate to the resolved Atlas zone. No paved carriageway or modern road dressing.",
   "lighting": "Early morning fog, rain and directional gusts; continuity of visibility.",
   "relative_layout": {
     "zones": [
@@ -104,8 +105,8 @@
     ]
   },
   "shot_reference": {
-    "establishing": "G06 V2 unplaced modern highway/truck concept only; preserve weather identity; exact road and truck reference still held.",
-    "detail": "Weathered verge and wet materials; no unsafe driving or crash staging.",
+    "establishing": "Develop unplaced terrain-track study from G06 V1 weather grammar; reject V2 paved surface. Exact route and truck reference remain held.",
+    "detail": "Natural surface, rain, roots/stone or mud only as appropriate to the zone; no unsafe driving or crash staging.",
     "interior_or_alternate": "Cab view conditional on verified truck reference and access; do not invent vehicle."
   },
   "folio_bindings": [
@@ -129,7 +130,7 @@
       "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
       "planning_override_scope": "previs only; never pass CAND to active venue compiler",
       "lead": "environment design",
-      "shot_intent": "P24 familiar road and cab perspective, no destination admission.",
+      "shot_intent": "P24 familiar terrain track and cab perspective, no destination admission.",
       "ending": "RESULT_NEUTRAL",
       "render_authorized": false
     },
@@ -153,7 +154,7 @@
       "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
       "planning_override_scope": "previs only; never pass CAND to active venue compiler",
       "lead": "performance",
-      "shot_intent": "P25 exterior master matches road orientation and environmental visibility.",
+      "shot_intent": "P25 exterior master matches terrain track orientation and environmental visibility.",
       "ending": "RESULT_NEUTRAL",
       "render_authorized": false
     },
@@ -177,7 +178,7 @@
       "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
       "planning_override_scope": "previs only; never pass CAND to active venue compiler",
       "lead": "editing",
-      "shot_intent": "P26 either continuation or retreat, same road, no crash or confirmed playoff arrival.",
+      "shot_intent": "P26 either continuation or retreat, same terrain track, no crash or confirmed playoff arrival.",
       "ending": "BOTH_CONDITIONAL_VARIANTS_HELD",
       "render_authorized": false
     }
@@ -189,7 +190,8 @@
     "route_lock": false,
     "world_state_lock": false,
     "independent_review": false,
-    "technology_approval_scope": "CURRENT_UNPLACED_CANDIDATE_ONLY"
+    "technology_approval_scope": "CURRENT_UNPLACED_CANDIDATE_ONLY",
+    "terrain_path_rule": "FOUNDER_APPROVED_UNPAVED_REGION_SPECIFIC"
   },
   "render_authorized": false,
   "canon_promotion": false
