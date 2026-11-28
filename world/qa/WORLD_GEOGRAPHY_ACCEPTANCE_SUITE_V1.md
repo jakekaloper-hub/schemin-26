@@ -46,6 +46,8 @@ FAIL on plot-speed relocation across blocked terrain.
 
 For the Founder terrain-path directive: PASS only when depicted terrestrial routes are unpaved and surface, weather and drainage match their resolved Atlas zone. FAIL on asphalt/concrete carriageways, painted traffic lanes, generic modern highway guardrails or a fabricated zone/route. Do not confuse established bridge, dock or quay structures with paved travel paths. Vehicle approval does not pass this check.
 
+Regional marker/edge QA: PASS for locally plausible freestanding or carved wayfinding, and short protective barriers only where terrain or an established crossing justifies them. FAIL for painted road lanes, generic continuous highway rail, unsupported bridges or invented route placement. Proposed fixtures are not automatically canonical.
+
 ### GEO-10 — Horizon continuity
 PASS when established visible landmarks and cardinal relationships are stable.
 FAIL when major geography moves for composition convenience.

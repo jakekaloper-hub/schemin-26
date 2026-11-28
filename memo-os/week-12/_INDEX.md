@@ -82,3 +82,6 @@ The six existing matchups now have explicit championship-pressure action treatme
 
 ## November 28 — Founder correction: terrain-based paths across the Commonwealth
 [Direct terrain directive](W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json) supersedes G06 paved-road permission only. All terrestrial routes are unpaved and region-specific; existing crossing structures remain distinct. Slob technology and Chins lifted truck remain permitted. G06 V2 paved image rejected; V1 weather study retained. Existing CAND ID unchanged, working title Chins Storm Track Encounter; exact segment/zone, vehicle access and visual acceptance held. Route model, Novel World Design Principles and GEO-09 QA updated. No route graph, active geography or world-state mutation.
+
+## November 28 — Terrain-native wayfinding and guardrail design
+Founder clarification extends the existing [terrain-path correction](W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json): retain the navigation/protection functions of markings and guardrails using seven region-specific material treatments. Route model, Novel principles, GEO-09 and G06 packet/register updated. All proposed fixtures remain candidate art direction, not approved installations. No paved roads, lane paint, generic highway rail, active route/LOC change, final reference approval or historical fixture dates inferred.

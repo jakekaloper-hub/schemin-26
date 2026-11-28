@@ -79,5 +79,67 @@
     "Vehicle reference bytes and access",
     "Independent Atlas review",
     "Binary asset ingestion"
-  ]
+  ],
+  "regional_wayfinding_and_edge_protection": {
+    "authority": "Direct Founder continuation: no paved roads, all terrained paths based on location wthin atlas; get creative with markings and modern guardrails within world guidelines.",
+    "interpretation": "Preserve navigation and edge-protection functions using locally grounded visual analogues. Proposed fixtures are not exact route placements, engineering designs, or new permanent canon.",
+    "design_rules": [
+      "No painted traffic lanes, asphalt, concrete carriageway or generic galvanized W-beam highway guardrail.",
+      "Use regional materials, age, maintenance and terrain-specific hazard context; not every path has markers or protective rails.",
+      "Markings are freestanding or carved features, not painted pavement. Existing approved structures remain distinct.",
+      "Vehicles remain permitted within scoped approval, but road suitability and exact vehicle reference still require review."
+    ],
+    "regional_designs": [
+      {
+        "region_id": "REG-NORTHERN-SPINE",
+        "surface": "Exposed bedrock, loose scree, worn high-pass track",
+        "markings": "Stacked stone cairns and tall notched stakes visible above seasonal snow",
+        "protective_edges": "Rough stone parapets at established exposed crossings; timber posts and iron chain where appropriate",
+        "status": "PROPOSED_REGIONAL_ART_DIRECTION_NOT_REGISTERED_ASSETS"
+      },
+      {
+        "region_id": "REG-UPPER-VALLEYS",
+        "surface": "Compacted loam, gravel, forest litter and pasture track",
+        "markings": "Carved wooden direction posts and fieldstone edge markers",
+        "protective_edges": "Split-rail timber fencing and low dry-stone walls only where terrain or land use warrants",
+        "status": "PROPOSED_REGIONAL_ART_DIRECTION_NOT_REGISTERED_ASSETS"
+      },
+      {
+        "region_id": "REG-CENTRAL-BASIN",
+        "surface": "Alluvial earth, clay, loose gravel and seasonal wheel ruts",
+        "markings": "Worn stone waymarkers with simple carved direction glyphs; taller posts near flood-prone approaches",
+        "protective_edges": "Low fieldstone edges or stout timber railings near established river crossings",
+        "status": "PROPOSED_REGIONAL_ART_DIRECTION_NOT_REGISTERED_ASSETS"
+      },
+      {
+        "region_id": "REG-WESTERN-TABLELANDS",
+        "surface": "Dusty earth, broken rock and flattened grassland tracks",
+        "markings": "Weathered upright stone markers and widely spaced timber stakes",
+        "protective_edges": "Low stacked stone boundaries or ranch-style timber rails near actual hazards; open stretches remain unfenced",
+        "status": "PROPOSED_REGIONAL_ART_DIRECTION_NOT_REGISTERED_ASSETS"
+      },
+      {
+        "region_id": "REG-EASTERN-STORM-COAST",
+        "surface": "Rain-dark earth, exposed roots, loose gravel and bedrock",
+        "markings": "Pale stone waymarkers and weathered timber posts with restrained iron fittings; no painted road lines",
+        "protective_edges": "Short rugged timber-and-forged-iron edge rails or low stone walls at real drops; no generic continuous steel highway rail",
+        "status": "PROPOSED_REGIONAL_ART_DIRECTION_NOT_REGISTERED_ASSETS"
+      },
+      {
+        "region_id": "REG-SOUTHERN-WETLANDS",
+        "surface": "Raised earthen causeways, wet mud and established timber crossings",
+        "markings": "Tall flood-height posts with carved bands and pole markers visible above water",
+        "protective_edges": "Weathered timber railings and stout posts at established raised crossings; keep waterways and drainage open",
+        "status": "PROPOSED_REGIONAL_ART_DIRECTION_NOT_REGISTERED_ASSETS"
+      },
+      {
+        "region_id": "REG-INNER-SEA-LITTORAL",
+        "surface": "Compacted coastal earth, loose gravel, sand and exposed rock",
+        "markings": "Carved stone direction markers and maritime-style timber posts near existing port approaches",
+        "protective_edges": "Stone parapets or timber-and-rope boundaries at established quay or exposed edge; no implication of a new coastal route",
+        "status": "PROPOSED_REGIONAL_ART_DIRECTION_NOT_REGISTERED_ASSETS"
+      }
+    ],
+    "g06": "Unplaced visual study: rain-dark natural track, worn stone marker, short weathered timber/iron protective edge only if a real drop is visible. No route name, island horizon, paved surface, or truck identity claim."
+  }
 }
