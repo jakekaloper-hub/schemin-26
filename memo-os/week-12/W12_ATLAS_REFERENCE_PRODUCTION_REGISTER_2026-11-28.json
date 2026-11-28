@@ -575,12 +575,14 @@
     "active_canon_mutation": false,
     "final_render": false,
     "scoped_technology_approvals": 2,
-    "terrain_drift_rejected": 1
+    "terrain_drift_rejected": 1,
+    "derived_detail_candidates": 10
   },
   "limitations": [
     "Actual image bytes bundled in conversation artifact, not uploaded to GitHub; GitHub register is metadata and shot assignments only.",
     "G04/G06 scoped technology approved; G05 containment, G06 exact route/vehicle access and identity, exact candidate access, stale state and approved visual references unresolved.",
     "Thirty role target is not thirty generated or approved images. No score uplift inferred.",
     "All road/path surfaces must be unpaved and region-specific; no G06 V2 reuse."
-  ]
+  ],
+  "supplemental_detail_reference_receipt": "memo-os/week-12/W12_ATLAS_SOURCE_DETAIL_REFERENCE_RECEIPT_2026-11-28.json"
 }

@@ -1,0 +1,284 @@
+{
+  "schema": "schemin26.week12.source_detail_reference_receipt.v1",
+  "date": "2026-11-28",
+  "source_head": "03a47f73dc569891515e3af12628d388036f7765",
+  "source_register_blob": "b04e0dd253890f466cf5a041678ff81628afc217",
+  "archive": {
+    "name": "W12_Atlas_Source_Detail_Reference_Pack.zip",
+    "bytes": 7416470,
+    "sha256": "e6c6a10fbf1bd5aeb8d3ac6dcd7c724452690a9983ff6a47506d307311129697",
+    "custody": "conversation artifact, not GitHub binary storage"
+  },
+  "assets": [
+    {
+      "g": "G01",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "role": "DETAIL",
+      "name": "ruin_masonry",
+      "parent_sha256": "25e60e9f56d9f5e0a26b4ae4121942f934820caf4250050fa8364a27c57664a9",
+      "parent_archive_path": "G01_DK-FOREST-TRAINING/V1_WIDE.png",
+      "archive_path": "G01_DK-FOREST-TRAINING/DETAIL_ruin_masonry.png",
+      "crop_xyxy": [
+        765,
+        150,
+        1470,
+        525
+      ],
+      "width": 705,
+      "height": 375,
+      "bytes": 574511,
+      "sha256": "5e0300af48dd8829dc866ebfc490b7449f9f57e1d662ac452de93b9d7fe402a9",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G01",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "role": "MATERIAL",
+      "name": "stream_and_moss",
+      "parent_sha256": "25e60e9f56d9f5e0a26b4ae4121942f934820caf4250050fa8364a27c57664a9",
+      "parent_archive_path": "G01_DK-FOREST-TRAINING/V1_WIDE.png",
+      "archive_path": "G01_DK-FOREST-TRAINING/MATERIAL_stream_and_moss.png",
+      "crop_xyxy": [
+        0,
+        420,
+        630,
+        941
+      ],
+      "width": 630,
+      "height": 521,
+      "bytes": 660715,
+      "sha256": "d102abff386d5550989c6fd6559a982930d90226bf295b181947055a1d837007",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G02",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "role": "DETAIL",
+      "name": "dock_and_tether",
+      "parent_sha256": "91308a3587576eaa65d94a81143bdfe39fbc522fad01ebe1acbd9bcf221557be",
+      "parent_archive_path": "G02_MUD-HUNTING-CABIN/V1_WIDE.png",
+      "archive_path": "G02_MUD-HUNTING-CABIN/DETAIL_dock_and_tether.png",
+      "crop_xyxy": [
+        570,
+        440,
+        1390,
+        905
+      ],
+      "width": 820,
+      "height": 465,
+      "bytes": 735771,
+      "sha256": "6e4f4be68a87c4e670e9bc72d33fb859ab4edcdfbf25b1c59f6028659759fd89",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G02",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "role": "MATERIAL",
+      "name": "weathered_cabin_timbers",
+      "parent_sha256": "91308a3587576eaa65d94a81143bdfe39fbc522fad01ebe1acbd9bcf221557be",
+      "parent_archive_path": "G02_MUD-HUNTING-CABIN/V1_WIDE.png",
+      "archive_path": "G02_MUD-HUNTING-CABIN/MATERIAL_weathered_cabin_timbers.png",
+      "crop_xyxy": [
+        125,
+        210,
+        805,
+        630
+      ],
+      "width": 680,
+      "height": 420,
+      "bytes": 556400,
+      "sha256": "22a75036835d9c4c947d9cb5b07678d879842bbce9224c00c43ca7382f539db9",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G03",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "role": "DETAIL",
+      "name": "shutters_and_window",
+      "parent_sha256": "7122f9bc66521f2986805ac1c3e8c2280ea2c7284eacf81fdf8a125f44ba0dbb",
+      "parent_archive_path": "G03_RED-SPECIAL-CABIN/V1_WIDE.png",
+      "archive_path": "G03_RED-SPECIAL-CABIN/DETAIL_shutters_and_window.png",
+      "crop_xyxy": [
+        1080,
+        195,
+        1672,
+        690
+      ],
+      "width": 592,
+      "height": 495,
+      "bytes": 585864,
+      "sha256": "8c2d83e8bca9afe88e87aac201ddc67bf6ecbe9347f4f1649db47b89d09a9b28",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G03",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "role": "MATERIAL",
+      "name": "stone_and_moss",
+      "parent_sha256": "7122f9bc66521f2986805ac1c3e8c2280ea2c7284eacf81fdf8a125f44ba0dbb",
+      "parent_archive_path": "G03_RED-SPECIAL-CABIN/V1_WIDE.png",
+      "archive_path": "G03_RED-SPECIAL-CABIN/MATERIAL_stone_and_moss.png",
+      "crop_xyxy": [
+        790,
+        515,
+        1672,
+        941
+      ],
+      "width": 882,
+      "height": 426,
+      "bytes": 763761,
+      "sha256": "57c3f944fbcac969e34cef6ede3ceb2723c302f00279ecbadd881a616dc5ff4f",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G04",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "role": "DETAIL",
+      "name": "covered_gathering_fixtures",
+      "parent_sha256": "09c9a7cd437d7538b2908d3d05425cf4000fcbb16d9c842cb1bf594e4705b272",
+      "parent_archive_path": "G04_SLOB-BACKYARD-RETREAT/V2_WIDE.png",
+      "archive_path": "G04_SLOB-BACKYARD-RETREAT/DETAIL_covered_gathering_fixtures.png",
+      "crop_xyxy": [
+        950,
+        110,
+        1672,
+        610
+      ],
+      "width": 722,
+      "height": 500,
+      "bytes": 641982,
+      "sha256": "147ccc8095d326e87ef49d1cd6605ca46c9a5c39b29b596eaa85d5335838b345",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G04",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "role": "MATERIAL",
+      "name": "table_and_landscape",
+      "parent_sha256": "09c9a7cd437d7538b2908d3d05425cf4000fcbb16d9c842cb1bf594e4705b272",
+      "parent_archive_path": "G04_SLOB-BACKYARD-RETREAT/V2_WIDE.png",
+      "archive_path": "G04_SLOB-BACKYARD-RETREAT/MATERIAL_table_and_landscape.png",
+      "crop_xyxy": [
+        260,
+        485,
+        1520,
+        941
+      ],
+      "width": 1260,
+      "height": 456,
+      "bytes": 1134454,
+      "sha256": "966b99a6a2598f69ae1b99ff7210200e11436ed5c2449ab225e3db43e602dafd",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G05",
+      "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "role": "DETAIL",
+      "name": "archive_shelving",
+      "parent_sha256": "2964fa45fea865525979da46dd4f26d522887cb54452f430de0d9c2ce48d913c",
+      "parent_archive_path": "G05_LLC-HIDDEN-DUNGEON/V1_MATERIAL.png",
+      "archive_path": "G05_LLC-HIDDEN-DUNGEON/DETAIL_archive_shelving.png",
+      "crop_xyxy": [
+        90,
+        25,
+        770,
+        695
+      ],
+      "width": 680,
+      "height": 670,
+      "bytes": 735746,
+      "sha256": "3c954839ca53958ae1b8e8a3d2ca9a635354bb07112550296f57074242e1ae9c",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G06",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "role": "DETAIL",
+      "name": "wet_natural_track",
+      "parent_sha256": "a4680fe7ac92314678f32338ceac57fa8e103c0a4935846f6adf44f02a1bfc76",
+      "parent_archive_path": "G06_CHINS-STORM-HIGHWAY/V1_MATERIAL.png",
+      "archive_path": "G06_CHINS-STORM-HIGHWAY/DETAIL_wet_natural_track.png",
+      "crop_xyxy": [
+        620,
+        455,
+        1672,
+        941
+      ],
+      "width": 1052,
+      "height": 486,
+      "bytes": 1021876,
+      "sha256": "e2e6183361ad3e3981125c136a03e0b85200d08e8acc4ee496b8f4d47cee18d5",
+      "method": "SOURCE_PIXEL_CROP_NO_RESIZE_NO_GENERATIVE_EDIT",
+      "independent_view": false,
+      "approved": false,
+      "github_binary_verified": false
+    }
+  ],
+  "visual_review": [
+    {
+      "g": "G01",
+      "finding": "V1 and V3 do not establish exact tree/boulder/ruin correspondence; keep geometry unverified."
+    },
+    {
+      "g": "G02",
+      "finding": "Tether and boat visible; half-submerged condition not adequately established."
+    },
+    {
+      "g": "G03",
+      "finding": "Preserve V1 hillside exterior and shutter arrangement; no ocean or interior inferred."
+    },
+    {
+      "g": "G04",
+      "finding": "Scoped fixture exception applies; V2 remains candidate, yard layout and arrival pending."
+    },
+    {
+      "g": "G05",
+      "finding": "Bounded archive material only, no room geometry or historical awards."
+    },
+    {
+      "g": "G06",
+      "finding": "Natural wet terrain only; V2 paved rejection retained; no corridor selected."
+    }
+  ],
+  "checks": {
+    "original_pngs_reverified": 13,
+    "derived_pngs_verified": 10,
+    "provisional_independent_roles_unchanged": 7,
+    "approved_roles": 0,
+    "new_independent_camera_views": 0,
+    "github_binary_ingestion": 0,
+    "active_world_changed": false
+  },
+  "bullpen": {
+    "actual_local": "Librarian and Pitching Coach 2/2 plus Closer",
+    "receipt_sha256": "0c0957cfe049ec46499585c4c7a865ed5a2de4f6f3794d1c0562bfc9815d1907",
+    "limit": "Generic/truncated model responses, host performed actual byte verification and crop work; no independent approval."
+  }
+}
