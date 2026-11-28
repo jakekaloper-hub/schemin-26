@@ -1,0 +1,197 @@
+{
+  "schema": "schemin26.week12.environment_previs_manifest.v1",
+  "date": "2026-11-28",
+  "authority": "Existing W12-02/03/05/06; environment reference standard; eleven-year Founder directive",
+  "state": "CANDIDATE_PREVIS_ONLY",
+  "source_head": "751ebea85cacc0b6b7c835dfe6504cbea547a586",
+  "packets": [
+    {
+      "g": "G01",
+      "id": "CAND-W12-DK-FOREST-TRAINING",
+      "packet": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+      "svg": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/STRUCTURAL_PREVIS.svg",
+      "parent": {
+        "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "region": "REG-UPPER-VALLEYS",
+        "route": "ROUTE-DK-HIGHLAND-LINK",
+        "structural_reference": {
+          "path": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg",
+          "blob_sha": "0b018db684a0afe47b4e211814b61d84486bb4a7",
+          "verified_svg": true,
+          "scope": "Parent only; cannot approve candidate geometry."
+        }
+      },
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "blockers": [
+        "Internal access and exact ruin history",
+        "No automatic move of Mire Hill scars or bridge relics",
+        "Exact approved environment reference bytes",
+        "Internal access and ruin history unverified; no candidate promotion.",
+        "Independent Atlas validation and approved cinematic reference absent"
+      ]
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "packet": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+      "svg": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/STRUCTURAL_PREVIS.svg",
+      "parent": {
+        "id": "LOC-MUD-DOGS-SWAMP",
+        "region": "REG-SOUTHERN-WETLANDS",
+        "route": "ROUTE-DELTA-CAUSEWAY",
+        "structural_reference": {
+          "path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+          "blob_sha": "a658c0e1719f48bf3dbc9e0a9310b03467baa1fc",
+          "verified_svg": true,
+          "scope": "Parent only; cannot approve candidate geometry."
+        }
+      },
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "blockers": [
+        "Internal trail/access exactness",
+        "Boat history and waterline dates unknown",
+        "No truck/boat operational authorization inferred",
+        "Internal trail and boat history unverified; no actual boat or truck access inference.",
+        "Independent Atlas validation and approved cinematic reference absent"
+      ]
+    },
+    {
+      "g": "G03",
+      "id": "CAND-W12-RED-SPECIAL-CABIN",
+      "packet": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+      "svg": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/STRUCTURAL_PREVIS.svg",
+      "parent": {
+        "id": "LOC-RED-RUINS",
+        "region": "REG-EASTERN-STORM-COAST",
+        "route": "ROUTE-RAIN-ESCARPMENT",
+        "structural_reference": {
+          "path": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg",
+          "blob_sha": "1c0573be78fda1d9cd2b7d13dcdfd1c4ef06760b",
+          "verified_svg": true,
+          "scope": "Parent only; cannot approve candidate geometry."
+        }
+      },
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "blockers": [
+        "Cabin civil access and precise hill siting",
+        "Historical owner attribution for older LLC victories",
+        "No mechanism, construction or escape details",
+        "Exact siting and access unverified; no confinement design.",
+        "Independent Atlas validation and approved cinematic reference absent"
+      ]
+    },
+    {
+      "g": "G04",
+      "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "packet": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+      "svg": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/STRUCTURAL_PREVIS.svg",
+      "parent": {
+        "id": "LOC-SLOB-FOOTHILL-CAMP",
+        "region": "REG-UPPER-VALLEYS",
+        "route": "ROUTE-HEARTHROAD",
+        "structural_reference": {
+          "path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+          "blob_sha": "33edd4acab6b11e6ea138f62e18abd6f8f622215",
+          "verified_svg": true,
+          "scope": "Parent only; cannot approve candidate geometry."
+        }
+      },
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "blockers": [
+        "TV and modernity authority",
+        "Verified memorabilia and source dates",
+        "No inferred permanent damage or new technology history",
+        "TV exception unresolved, historical memorabilia unverified; no permanent damage.",
+        "Independent Atlas validation and approved cinematic reference absent"
+      ]
+    },
+    {
+      "g": "G05",
+      "id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "packet": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+      "svg": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/STRUCTURAL_PREVIS.svg",
+      "parent": {
+        "id": "LOC-LLC-BOARDROOM",
+        "region": "REG-INNER-SEA-LITTORAL",
+        "route": null,
+        "structural_reference": {
+          "path": "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg",
+          "blob_sha": "7fded4af467299b6d0fbad47d0978c8e15073f3e",
+          "verified_svg": true,
+          "scope": "Parent only; cannot approve candidate geometry."
+        }
+      },
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "blockers": [
+        "Exact parent/route access, distinct from Jackson",
+        "Document and memorabilia attribution",
+        "No engineered confinement detail, no new institutional authority",
+        "Parent and access provisional; no duplicate Jackson office or fabricated asset transfer.",
+        "Independent Atlas validation and approved cinematic reference absent"
+      ]
+    },
+    {
+      "g": "G06",
+      "id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "packet": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+      "svg": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/STRUCTURAL_PREVIS.svg",
+      "parent": {
+        "id": "LOC-CHINS-ROAD-COMMONS",
+        "region": null,
+        "route": null,
+        "structural_reference": {
+          "path": "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg",
+          "blob_sha": "eb88e9a437d87154560743dd2301caee1b54b232",
+          "verified_svg": true,
+          "scope": "Parent only; cannot approve candidate geometry."
+        }
+      },
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "blockers": [
+        "Exact route/region/parent and connection unresolved",
+        "Truck/highway modernity gate; registered routes mostly foot/mount/wagon",
+        "No direct playoff island access or new weather capability",
+        "Region/segment/vehicle authorization unresolved. No island road claim.",
+        "Independent Atlas validation and approved cinematic reference absent"
+      ]
+    }
+  ],
+  "checks": {
+    "six_unique_candidate_ids": true,
+    "eighteen_unique_folios": true,
+    "parent_structural_svg_count": 6,
+    "all_34_folios_preserved": true,
+    "active_location_mutation": false,
+    "cinematic_approval": false,
+    "render_authorized": false
+  },
+  "notes": [
+    "No image generation or approval; SVGs are reusable relative schematic assets.",
+    "All 18 encounter bindings supersede old generic treatments for planning only; existing immutable page register retained; renderer must remain blocked.",
+    "G05/06 provisional geography and G04/06 modernity holds; world state stale W3. No new canon or final matchup outcomes."
+  ]
+}

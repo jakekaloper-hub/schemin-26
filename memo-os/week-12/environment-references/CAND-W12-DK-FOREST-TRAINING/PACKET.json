@@ -1,0 +1,205 @@
+{
+  "schema": "schemin26.week12.candidate_environment_reference.v1",
+  "location_id": "CAND-W12-DK-FOREST-TRAINING",
+  "semantic_reference_status": "CANDIDATE_SEMANTIC_PACKET_FOR_QA",
+  "visual_reference_status": "CANDIDATE_REFERENCE_ONLY",
+  "approved_reference_uris": [],
+  "candidate_reference_paths": [
+    "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/STRUCTURAL_PREVIS.svg"
+  ],
+  "approval_provenance": null,
+  "supersedes": "Older generic encounter staging for scene planning only; no active LOC/SUB changes.",
+  "blockers": [
+    "Internal access and exact ruin history",
+    "No automatic move of Mire Hill scars or bridge relics",
+    "Exact approved environment reference bytes",
+    "Internal access and ruin history unverified; no candidate promotion.",
+    "Independent Atlas validation and approved cinematic reference absent"
+  ],
+  "parent_context": {
+    "id": "LOC-DK-HIGHLAND-STRONGHOLD",
+    "region": "REG-UPPER-VALLEYS",
+    "route": "ROUTE-DK-HIGHLAND-LINK",
+    "structural_reference": {
+      "path": "world/environment-references/plates/LOC-DK-HIGHLAND-STRONGHOLD/STRUCTURAL_PLATE.svg",
+      "blob_sha": "0b018db684a0afe47b4e211814b61d84486bb4a7",
+      "verified_svg": true,
+      "scope": "Parent only; cannot approve candidate geometry."
+    }
+  },
+  "source": {
+    "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
+    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+  },
+  "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+  "three_layers": {
+    "physical": "Stream consistently beside clearing; mossed stone fragments, old boulders, compressed leaf litter and two visible approach areas. Relative scale accommodates four-hoof anatomy. Sunrise from same side across triad.",
+    "civil": "Peopled-kind upland martial domain; candidate ordinary use by training attendants and maintenance workers, not a new sovereign order. Separate communal court access from private forest solitude.",
+    "memory": "Use worn standing areas and unevenly weathered stone as evidence of repeated use, not dated battles. Wilson's prior public defeats and ObiWan's prior title pressure inform present choices; no inherited personal victory counts or transfer of Belt."
+  },
+  "four_era_development": [
+    "2015–18: long-used woodland approach, weathered ruin fragments and stream-side ground; no claim of who built ruins or used them then.",
+    "2019–21: propose incremental maintenance of paths and old stone edges as training and communal travel continue; no claim of a championship-driven construction.",
+    "2022–23: propose layered signs of ordinary use and upkeep, a contrast to changing league fortunes.",
+    "2024–26: retain aged ground and recent maintenance; DK trains after bridge defeat, not because the clearing was newly built."
+  ],
+  "material_art_direction": "Layer weathered stone and undated plain repair; moss, leaf litter, worn earth, mature trees. No magical growth, battle relics or transplanted bridge.",
+  "lighting": "Low warm sunrise on one consistent side; still air.",
+  "relative_layout": {
+    "zones": [
+      {
+        "label": "stream",
+        "x": 42,
+        "y": 75,
+        "w": 105,
+        "h": 305
+      },
+      {
+        "label": "ruin remnants",
+        "x": 175,
+        "y": 80,
+        "w": 185,
+        "h": 76
+      },
+      {
+        "label": "training clearing",
+        "x": 202,
+        "y": 185,
+        "w": 310,
+        "h": 196
+      },
+      {
+        "label": "boulders",
+        "x": 528,
+        "y": 118,
+        "w": 97,
+        "h": 105
+      },
+      {
+        "label": "woodland approach A",
+        "x": 42,
+        "y": 414,
+        "w": 222,
+        "h": 55
+      },
+      {
+        "label": "woodland approach B",
+        "x": 465,
+        "y": 414,
+        "w": 205,
+        "h": 55
+      }
+    ],
+    "axis": "Stream left, ruins behind clearing, two distinct woodland approaches; relative layout only, no invented map bearing.",
+    "coordinate_space": "illustrative non-metric composition",
+    "camera_anchors": [
+      {
+        "x": 290,
+        "y": 410,
+        "folio": "P09"
+      },
+      {
+        "x": 510,
+        "y": 174,
+        "folio": "P10"
+      },
+      {
+        "x": 170,
+        "y": 245,
+        "folio": "P11"
+      }
+    ]
+  },
+  "shot_reference": {
+    "establishing": "Wide, stream and ruins readable; open ground visibly suitable for both principals.",
+    "detail": "Ground-level stones and compressed leaf litter; preserve physical scale.",
+    "interior_or_alternate": "Not applicable; open forest."
+  },
+  "folio_bindings": [
+    {
+      "page_id": "W12-P09",
+      "legacy_encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "environment design",
+      "shot_intent": "P09 same stream and ruin silhouette introduce solitude and training.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P10",
+      "legacy_encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "performance",
+      "shot_intent": "P10 maintain two approaches and spatial axis; duel framing with established axe/lightsaber.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P11",
+      "legacy_encounter": {
+        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "highland stronghold",
+          "training court",
+          "road approach"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "editing",
+      "shot_intent": "P11 either outcome uses the same clearing; consequences not built into permanent state.",
+      "ending": "BOTH_CONDITIONAL_VARIANTS_HELD",
+      "render_authorized": false
+    }
+  ],
+  "qa": {
+    "same_geometry_all_three": true,
+    "source_parent_bytes_read": true,
+    "approved_visual_reference": false,
+    "route_lock": false,
+    "world_state_lock": false,
+    "independent_review": false
+  },
+  "render_authorized": false,
+  "canon_promotion": false
+}

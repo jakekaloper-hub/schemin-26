@@ -1,0 +1,205 @@
+{
+  "schema": "schemin26.week12.candidate_environment_reference.v1",
+  "location_id": "CAND-W12-MUD-HUNTING-CABIN",
+  "semantic_reference_status": "CANDIDATE_SEMANTIC_PACKET_FOR_QA",
+  "visual_reference_status": "CANDIDATE_REFERENCE_ONLY",
+  "approved_reference_uris": [],
+  "candidate_reference_paths": [
+    "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/STRUCTURAL_PREVIS.svg"
+  ],
+  "approval_provenance": null,
+  "supersedes": "Older generic encounter staging for scene planning only; no active LOC/SUB changes.",
+  "blockers": [
+    "Internal trail/access exactness",
+    "Boat history and waterline dates unknown",
+    "No truck/boat operational authorization inferred",
+    "Internal trail and boat history unverified; no actual boat or truck access inference.",
+    "Independent Atlas validation and approved cinematic reference absent"
+  ],
+  "parent_context": {
+    "id": "LOC-MUD-DOGS-SWAMP",
+    "region": "REG-SOUTHERN-WETLANDS",
+    "route": "ROUTE-DELTA-CAUSEWAY",
+    "structural_reference": {
+      "path": "world/environment-references/plates/LOC-MUD-DOGS-SWAMP/STRUCTURAL_PLATE.svg",
+      "blob_sha": "a658c0e1719f48bf3dbc9e0a9310b03467baa1fc",
+      "verified_svg": true,
+      "scope": "Parent only; cannot approve candidate geometry."
+    }
+  },
+  "source": {
+    "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
+    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+  },
+  "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+  "three_layers": {
+    "physical": "Raised cabin bank, narrow dock, partially submerged tethered boat, roots and mud channels; continuous waterline and subdued morning canopy light.",
+    "civil": "Wetland transport, fishing and causeway maintenance are existing regional texture; propose cabin as longstanding shelter and gear storage, with no new named settlement or inhabitants assigned.",
+    "memory": "Contrast old route knowledge with visitors' confidence. Local repairs reflect ordinary survival; Mire Hill scar, Gators & Dawgs sign and W11 deception remain source-specific and are not physically transplanted into cabin."
+  },
+  "four_era_development": [
+    "2015–18: propose long-used raised timber shelter and wetland landing, waterline history undated.",
+    "2019–21: successive replacement timbers and patched dock edges suggest ongoing ferry/fishing utility, not named historic occupants.",
+    "2022–23: ordinary wetland upkeep amid variable seasons; no fabricated flood disaster.",
+    "2024–26: old tethered boat and dock remain familiar features; present confrontation uses local knowledge rather than repeating W11 wrong-turn scene."
+  ],
+  "material_art_direction": "Mixed-age boards, water staining, faded boat finish; cypress-root texture compatible with wetland. No specified flood year.",
+  "lighting": "Diffuse early fog and canopy light; no sudden waterline jump.",
+  "relative_layout": {
+    "zones": [
+      {
+        "label": "wetland channel",
+        "x": 42,
+        "y": 75,
+        "w": 628,
+        "h": 160
+      },
+      {
+        "label": "raised bank",
+        "x": 42,
+        "y": 275,
+        "w": 628,
+        "h": 170
+      },
+      {
+        "label": "cabin",
+        "x": 100,
+        "y": 305,
+        "w": 220,
+        "h": 102
+      },
+      {
+        "label": "dock",
+        "x": 360,
+        "y": 188,
+        "w": 130,
+        "h": 134
+      },
+      {
+        "label": "tethered old boat",
+        "x": 500,
+        "y": 96,
+        "w": 145,
+        "h": 83
+      },
+      {
+        "label": "rooted approach",
+        "x": 505,
+        "y": 365,
+        "w": 145,
+        "h": 64
+      }
+    ],
+    "axis": "Cabin on raised bank, dock touches water, boat remains adjacent to dock; relative waterline constant.",
+    "coordinate_space": "illustrative non-metric composition",
+    "camera_anchors": [
+      {
+        "x": 220,
+        "y": 250,
+        "folio": "P12"
+      },
+      {
+        "x": 532,
+        "y": 285,
+        "folio": "P13"
+      },
+      {
+        "x": 345,
+        "y": 425,
+        "folio": "P14"
+      }
+    ]
+  },
+  "shot_reference": {
+    "establishing": "Waterline view includes cabin, bank, dock and boat in one frame.",
+    "detail": "Patina and replacement timber; no boat operation required.",
+    "interior_or_alternate": "Cabin exterior is sufficient; optional ordinary shelter interior remains unspecified."
+  },
+  "folio_bindings": [
+    {
+      "page_id": "W12-P12",
+      "legacy_encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground",
+          "Gators & Dawgs sign"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "environment design",
+      "shot_intent": "P12 show cabin bank, dock and boat together.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P13",
+      "legacy_encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground",
+          "Gators & Dawgs sign"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "performance",
+      "shot_intent": "P13 reverse angle preserves waterline and positions; three heads one body, hound quadruped.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P14",
+      "legacy_encounter": {
+        "venue_id": "LOC-MUD-DOGS-SWAMP",
+        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "physical_region": "REG-SOUTHERN-WETLANDS",
+        "division_context": "DIV-BURGERS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "mud channels",
+          "raised ground",
+          "Gators & Dawgs sign"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "editing",
+      "shot_intent": "P14 same landing supports either result; no permanent water change inferred.",
+      "ending": "BOTH_CONDITIONAL_VARIANTS_HELD",
+      "render_authorized": false
+    }
+  ],
+  "qa": {
+    "same_geometry_all_three": true,
+    "source_parent_bytes_read": true,
+    "approved_visual_reference": false,
+    "route_lock": false,
+    "world_state_lock": false,
+    "independent_review": false
+  },
+  "render_authorized": false,
+  "canon_promotion": false
+}

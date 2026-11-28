@@ -1,0 +1,205 @@
+{
+  "schema": "schemin26.week12.candidate_environment_reference.v1",
+  "location_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+  "semantic_reference_status": "CANDIDATE_SEMANTIC_PACKET_FOR_QA",
+  "visual_reference_status": "CANDIDATE_REFERENCE_ONLY",
+  "approved_reference_uris": [],
+  "candidate_reference_paths": [
+    "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/STRUCTURAL_PREVIS.svg"
+  ],
+  "approval_provenance": null,
+  "supersedes": "Older generic encounter staging for scene planning only; no active LOC/SUB changes.",
+  "blockers": [
+    "Exact parent/route access, distinct from Jackson",
+    "Document and memorabilia attribution",
+    "No engineered confinement detail, no new institutional authority",
+    "Parent and access provisional; no duplicate Jackson office or fabricated asset transfer.",
+    "Independent Atlas validation and approved cinematic reference absent"
+  ],
+  "parent_context": {
+    "id": "LOC-LLC-BOARDROOM",
+    "region": "REG-INNER-SEA-LITTORAL",
+    "route": null,
+    "structural_reference": {
+      "path": "world/environment-references/plates/LOC-LLC-BOARDROOM/STRUCTURAL_PLATE.svg",
+      "blob_sha": "7fded4af467299b6d0fbad47d0978c8e15073f3e",
+      "verified_svg": true,
+      "scope": "Parent only; cannot approve candidate geometry."
+    }
+  },
+  "source": {
+    "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
+    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+  },
+  "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+  "three_layers": {
+    "physical": "Older stone interior, later timber fittings, practical lamps, archive wall, desk and rival board. Parent and internal access remain unresolved; no technical confinement layout.",
+    "civil": "Commercial-institutional domain, Inner Sea shipping, warehousing and clerical texture; propose historical recordkeeping and private meetings, not Jackson CEO office or an independent political state.",
+    "memory": "Institutional memory spans league era change and narrow 2025 rivalry. Keep W2 repair uncertainty at boardroom, W3 storm barriers at Storm City, W11 takeover at Jackson. Current HMB belt remains HMB's; no automatic title or asset transfer."
+  },
+  "four_era_development": [
+    "2015–18: propose longstanding stone archive volume, undated fittings and older record-storage function, no owner or original builder established.",
+    "2019–21: propose changing clerical storage, repaired shelves and accumulated documents, without claiming dated business transactions.",
+    "2022–23: propose accumulated administrative records and ordinary port-era upkeep; no invented financial institutions.",
+    "2024–26: private office still has older material layers; current Babb negotiation about Duckhook is newly staged there, not evidence it was created after ouster."
+  ],
+  "material_art_direction": "Layer older masonry, repaired shelving, worn ledgers and contemporary rival board. No legible historical claims without proof.",
+  "lighting": "Warm practicals against cool stone; restrained shadows.",
+  "relative_layout": {
+    "zones": [
+      {
+        "label": "older stone volume",
+        "x": 42,
+        "y": 75,
+        "w": 628,
+        "h": 380
+      },
+      {
+        "label": "archive visual wall",
+        "x": 65,
+        "y": 98,
+        "w": 582,
+        "h": 73
+      },
+      {
+        "label": "private office area",
+        "x": 91,
+        "y": 197,
+        "w": 529,
+        "h": 220
+      },
+      {
+        "label": "old desk",
+        "x": 232,
+        "y": 256,
+        "w": 225,
+        "h": 89
+      },
+      {
+        "label": "rival board",
+        "x": 480,
+        "y": 212,
+        "w": 121,
+        "h": 99
+      },
+      {
+        "label": "practical lamp",
+        "x": 116,
+        "y": 228,
+        "w": 87,
+        "h": 61
+      }
+    ],
+    "axis": "Abstract visual zones only, no entrances, confinement mechanisms, escape routes or technical layout. Office is not Jackson.",
+    "coordinate_space": "illustrative non-metric composition",
+    "camera_anchors": [
+      {
+        "x": 70,
+        "y": 435,
+        "folio": "P21"
+      },
+      {
+        "x": 550,
+        "y": 362,
+        "folio": "P22"
+      },
+      {
+        "x": 177,
+        "y": 380,
+        "folio": "P23"
+      }
+    ]
+  },
+  "shot_reference": {
+    "establishing": "Archive wall and desk establish longstanding institutional use.",
+    "detail": "Ledger patina and current rival-board contrast; no unsupported dates.",
+    "interior_or_alternate": "Same office sightlines through negotiation and either conclusion; no operational dungeon blueprint."
+  },
+  "folio_bindings": [
+    {
+      "page_id": "W12-P21",
+      "legacy_encounter": {
+        "venue_id": "LOC-LLC-BOARDROOM",
+        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "executive chamber",
+          "ledgers",
+          "market overlook"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "environment design",
+      "shot_intent": "P21 reveal established archive/office and invited champion.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P22",
+      "legacy_encounter": {
+        "venue_id": "LOC-LLC-BOARDROOM",
+        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "executive chamber",
+          "ledgers",
+          "market overlook"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "performance",
+      "shot_intent": "P22 same desk, archive and sightline through negotiation.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P23",
+      "legacy_encounter": {
+        "venue_id": "LOC-LLC-BOARDROOM",
+        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
+        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "executive chamber",
+          "ledgers",
+          "market overlook"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "editing",
+      "shot_intent": "P23 late-bound alliance or fictional betrayal; no legal/canon consequence inferred.",
+      "ending": "BOTH_CONDITIONAL_VARIANTS_HELD",
+      "render_authorized": false
+    }
+  ],
+  "qa": {
+    "same_geometry_all_three": true,
+    "source_parent_bytes_read": true,
+    "approved_visual_reference": false,
+    "route_lock": false,
+    "world_state_lock": false,
+    "independent_review": false
+  },
+  "render_authorized": false,
+  "canon_promotion": false
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "schemin26.week12.candidate_environment_reference.v1",
+  "location_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+  "semantic_reference_status": "CANDIDATE_SEMANTIC_PACKET_FOR_QA",
+  "visual_reference_status": "CANDIDATE_REFERENCE_ONLY",
+  "approved_reference_uris": [],
+  "candidate_reference_paths": [
+    "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/STRUCTURAL_PREVIS.svg"
+  ],
+  "approval_provenance": null,
+  "supersedes": "Older generic encounter staging for scene planning only; no active LOC/SUB changes.",
+  "blockers": [
+    "Exact route/region/parent and connection unresolved",
+    "Truck/highway modernity gate; registered routes mostly foot/mount/wagon",
+    "No direct playoff island access or new weather capability",
+    "Region/segment/vehicle authorization unresolved. No island road claim.",
+    "Independent Atlas validation and approved cinematic reference absent"
+  ],
+  "parent_context": {
+    "id": "LOC-CHINS-ROAD-COMMONS",
+    "region": null,
+    "route": null,
+    "structural_reference": {
+      "path": "world/environment-references/plates/LOC-CHINS-ROAD-COMMONS/STRUCTURAL_PLATE.svg",
+      "blob_sha": "eb88e9a437d87154560743dd2301caee1b54b232",
+      "verified_svg": true,
+      "scope": "Parent only; cannot approve candidate geometry."
+    }
+  },
+  "source": {
+    "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
+    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+  },
+  "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+  "three_layers": {
+    "physical": "Candidate road segment only; tree line, shoulder, obscured horizon and early fog/rain; final terrain and road surface depend on resolved region. No new island link or mapped junction.",
+    "civil": "Existing Chins Road Commons has road services, courier/caravan activity and ordinary public life. Proposed maintenance traces require chosen corridor; no new agency or vehicle route inferred.",
+    "memory": "Ben's W11 wrong-turn experience supports changed judgment; historical El Niño record gives thematic pressure, not magical prophecy or verified local weather. Manning's external environmental action only; no interiority."
+  },
+  "four_era_development": [
+    "2015–18: propose a long-used road corridor with older substrate and roadside traces, not an identified route.",
+    "2019–21: propose successive ordinary maintenance and drainage attention where supported by chosen zone.",
+    "2022–23: historical storm/competition themes can shape road culture, not proof of specific storms along this segment.",
+    "2024–26: present truck encounter uses same aged corridor concept; current road surface/technology approval pending, no claim modern highway existed unchanged all eleven years."
+  ],
+  "material_art_direction": "Undated weathered edges and maintained surface; actual surface depends on zone and modernity clearance.",
+  "lighting": "Early morning fog, rain and directional gusts; continuity of visibility.",
+  "relative_layout": {
+    "zones": [
+      {
+        "label": "tree line / verge",
+        "x": 42,
+        "y": 75,
+        "w": 628,
+        "h": 100
+      },
+      {
+        "label": "unresolved road corridor",
+        "x": 42,
+        "y": 216,
+        "w": 628,
+        "h": 127
+      },
+      {
+        "label": "shoulder / older edge",
+        "x": 42,
+        "y": 349,
+        "w": 628,
+        "h": 55
+      },
+      {
+        "label": "obscured horizon",
+        "x": 515,
+        "y": 177,
+        "w": 155,
+        "h": 34
+      },
+      {
+        "label": "relative approach",
+        "x": 42,
+        "y": 424,
+        "w": 213,
+        "h": 45
+      }
+    ],
+    "axis": "Only an illustrative corridor orientation, not a mapped location, bearing, road junction or route to Playoff Island.",
+    "coordinate_space": "illustrative non-metric composition",
+    "camera_anchors": [
+      {
+        "x": 110,
+        "y": 202,
+        "folio": "P24"
+      },
+      {
+        "x": 350,
+        "y": 190,
+        "folio": "P25"
+      },
+      {
+        "x": 585,
+        "y": 411,
+        "folio": "P26"
+      }
+    ]
+  },
+  "shot_reference": {
+    "establishing": "Cab-view and exterior road master share horizon and verge identity.",
+    "detail": "Weathered verge and wet materials; no unsafe driving or crash staging.",
+    "interior_or_alternate": "Cab view conditional on verified truck reference and access; do not invent vehicle."
+  },
+  "folio_bindings": [
+    {
+      "page_id": "W12-P24",
+      "legacy_encounter": {
+        "venue_id": "LOC-STORM-BOWL",
+        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "weather-exposed venue",
+          "service counter"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "environment design",
+      "shot_intent": "P24 familiar road and cab perspective, no destination admission.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P25",
+      "legacy_encounter": {
+        "venue_id": "LOC-STORM-BOWL",
+        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "weather-exposed venue",
+          "service counter"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "performance",
+      "shot_intent": "P25 exterior master matches road orientation and environmental visibility.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P26",
+      "legacy_encounter": {
+        "venue_id": "LOC-STORM-BOWL",
+        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-PIZZA",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "weather-exposed venue",
+          "service counter"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "editing",
+      "shot_intent": "P26 either continuation or retreat, same road, no crash or confirmed playoff arrival.",
+      "ending": "BOTH_CONDITIONAL_VARIANTS_HELD",
+      "render_authorized": false
+    }
+  ],
+  "qa": {
+    "same_geometry_all_three": true,
+    "source_parent_bytes_read": true,
+    "approved_visual_reference": false,
+    "route_lock": false,
+    "world_state_lock": false,
+    "independent_review": false
+  },
+  "render_authorized": false,
+  "canon_promotion": false
+}

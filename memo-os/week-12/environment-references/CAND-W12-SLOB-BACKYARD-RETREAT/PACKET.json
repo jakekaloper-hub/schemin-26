@@ -1,0 +1,212 @@
+{
+  "schema": "schemin26.week12.candidate_environment_reference.v1",
+  "location_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+  "semantic_reference_status": "CANDIDATE_SEMANTIC_PACKET_FOR_QA",
+  "visual_reference_status": "CANDIDATE_REFERENCE_ONLY",
+  "approved_reference_uris": [],
+  "candidate_reference_paths": [
+    "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/STRUCTURAL_PREVIS.svg"
+  ],
+  "approval_provenance": null,
+  "supersedes": "Older generic encounter staging for scene planning only; no active LOC/SUB changes.",
+  "blockers": [
+    "TV and modernity authority",
+    "Verified memorabilia and source dates",
+    "No inferred permanent damage or new technology history",
+    "TV exception unresolved, historical memorabilia unverified; no permanent damage.",
+    "Independent Atlas validation and approved cinematic reference absent"
+  ],
+  "parent_context": {
+    "id": "LOC-SLOB-FOOTHILL-CAMP",
+    "region": "REG-UPPER-VALLEYS",
+    "route": "ROUTE-HEARTHROAD",
+    "structural_reference": {
+      "path": "world/environment-references/plates/LOC-SLOB-FOOTHILL-CAMP/STRUCTURAL_PLATE.svg",
+      "blob_sha": "33edd4acab6b11e6ea138f62e18abd6f8f622215",
+      "verified_svg": true,
+      "scope": "Parent only; cannot approve candidate geometry."
+    }
+  },
+  "source": {
+    "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
+    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+  },
+  "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+  "three_layers": {
+    "physical": "Mature landscape, stable lawn, cooking area and covered gathering space, Thanksgiving table and visible mount arrival. Preserve layout and midday cold-autumn lighting; separate target display from conflict.",
+    "civil": "Foothill camp has upland food supply and road services; candidate retreat is personal hospitality/football gathering space, not named public institution. TV stays modernity hold; historical awards require owner-lineage evidence.",
+    "memory": "The W11 delivery motif is responsibility versus spectacle, not a claim that the yard was flooded. Current guest's W10/W11 reversal and older competitive history inform banter; no invented personal championships."
+  },
+  "four_era_development": [
+    "2015–18: propose old shared gathering ground and established mature planting, no proven early owner.",
+    "2019–21: propose durable cooking surfaces and repaired shelter accumulated through years of ordinary gatherings.",
+    "2022–23: evolving landscaping and hospitality objects, no invented trophy count.",
+    "2024–26: maintained retreat with current Thanksgiving arrangements; evidence of older use beneath fresh seasonal setup, not a brand-new backyard."
+  ],
+  "material_art_direction": "Mature beds, maintained lawn, repaired table, patinated cooking gear; no invented trophies.",
+  "lighting": "Cold autumn midday; warm firelight accent only.",
+  "relative_layout": {
+    "zones": [
+      {
+        "label": "mature garden border",
+        "x": 42,
+        "y": 75,
+        "w": 628,
+        "h": 70
+      },
+      {
+        "label": "covered gathering area",
+        "x": 58,
+        "y": 168,
+        "w": 244,
+        "h": 119
+      },
+      {
+        "label": "cooking / fire area",
+        "x": 358,
+        "y": 168,
+        "w": 207,
+        "h": 108
+      },
+      {
+        "label": "Thanksgiving table",
+        "x": 253,
+        "y": 316,
+        "w": 213,
+        "h": 82
+      },
+      {
+        "label": "open lawn",
+        "x": 48,
+        "y": 304,
+        "w": 165,
+        "h": 108
+      },
+      {
+        "label": "recreation display",
+        "x": 505,
+        "y": 306,
+        "w": 145,
+        "h": 91
+      },
+      {
+        "label": "Dark Horse arrival",
+        "x": 42,
+        "y": 438,
+        "w": 205,
+        "h": 42
+      }
+    ],
+    "axis": "Covered area and cooking area flank central yard; arrival readable, recreation display remains separate from confrontation.",
+    "coordinate_space": "illustrative non-metric composition",
+    "camera_anchors": [
+      {
+        "x": 282,
+        "y": 438,
+        "folio": "P18"
+      },
+      {
+        "x": 520,
+        "y": 282,
+        "folio": "P19"
+      },
+      {
+        "x": 160,
+        "y": 283,
+        "folio": "P20"
+      }
+    ]
+  },
+  "shot_reference": {
+    "establishing": "Wide yard with arrival and recognizable layout.",
+    "detail": "Cooking equipment and table; no unsupported memorabilia lettering.",
+    "interior_or_alternate": "Covered gathering area; television depiction excluded until modernity authority verifies it."
+  },
+  "folio_bindings": [
+    {
+      "page_id": "W12-P18",
+      "legacy_encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground",
+          "Hearthroad rut"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "environment design",
+      "shot_intent": "P18 wide yard master and Dark Horse arrival.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P19",
+      "legacy_encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground",
+          "Hearthroad rut"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "performance",
+      "shot_intent": "P19 same cooking/table axis during SEC argument.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P20",
+      "legacy_encounter": {
+        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
+        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "physical_region": "REG-UPPER-VALLEYS",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "tailgate yard",
+          "rough training ground",
+          "Hearthroad rut"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "editing",
+      "shot_intent": "P20 either requested comic payoff uses same footprint; any hoof marks temporary unless later accepted.",
+      "ending": "BOTH_CONDITIONAL_VARIANTS_HELD",
+      "render_authorized": false
+    }
+  ],
+  "qa": {
+    "same_geometry_all_three": true,
+    "source_parent_bytes_read": true,
+    "approved_visual_reference": false,
+    "route_lock": false,
+    "world_state_lock": false,
+    "independent_review": false
+  },
+  "render_authorized": false,
+  "canon_promotion": false
+}

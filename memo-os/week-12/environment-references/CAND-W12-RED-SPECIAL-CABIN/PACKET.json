@@ -1,0 +1,209 @@
+{
+  "schema": "schemin26.week12.candidate_environment_reference.v1",
+  "location_id": "CAND-W12-RED-SPECIAL-CABIN",
+  "semantic_reference_status": "CANDIDATE_SEMANTIC_PACKET_FOR_QA",
+  "visual_reference_status": "CANDIDATE_REFERENCE_ONLY",
+  "approved_reference_uris": [],
+  "candidate_reference_paths": [
+    "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/STRUCTURAL_PREVIS.svg"
+  ],
+  "approval_provenance": null,
+  "supersedes": "Older generic encounter staging for scene planning only; no active LOC/SUB changes.",
+  "blockers": [
+    "Cabin civil access and precise hill siting",
+    "Historical owner attribution for older LLC victories",
+    "No mechanism, construction or escape details",
+    "Exact siting and access unverified; no confinement design.",
+    "Independent Atlas validation and approved cinematic reference absent"
+  ],
+  "parent_context": {
+    "id": "LOC-RED-RUINS",
+    "region": "REG-EASTERN-STORM-COAST",
+    "route": "ROUTE-RAIN-ESCARPMENT",
+    "structural_reference": {
+      "path": "world/environment-references/plates/LOC-RED-RUINS/STRUCTURAL_PLATE.svg",
+      "blob_sha": "1c0573be78fda1d9cd2b7d13dcdfd1c4ef06760b",
+      "verified_svg": true,
+      "scope": "Parent only; cannot approve candidate geometry."
+    }
+  },
+  "source": {
+    "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
+    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+  },
+  "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+  "three_layers": {
+    "physical": "Mossy hillside cabin, weather-worn stone/timber, consistent exterior approach, windows and warm gathering room; cold windy sunset; concealed fictional trapdoor only abstract, no operational design.",
+    "civil": "Private refuge within Red domain; forest/coastal exchange and storm preparation are existing regional texture. Propose ordinary shelter and invited gatherings, not a permanent detention institution.",
+    "memory": "2022 dominance and 2023 playoff reversal supply narrative pressure; 2025 Duckhook narrow defeat and 2026 W11 appointment inform current conversation. Historical game facts do not prove any took place here."
+  },
+  "four_era_development": [
+    "2015–18: propose old hillside refuge with a simple stone base, no original builder identified.",
+    "2019–21: propose successive maintenance and conversion into a private gathering place, no dated refurbishment asserted.",
+    "2022–23: restraint and competitive memory expressed through a well-kept interior against weathered exterior, not a fabricated memorial to a particular game.",
+    "2024–26: established meeting room can host a toast celebrating Duckhook's appointment; deceptive plan is current scene only."
+  ],
+  "material_art_direction": "Weathered stone, repaired shutters, table patina; undated furnishings, no invented trophy or dated ownership.",
+  "lighting": "Cold sunset and warm interior practicals, consistent wind outside.",
+  "relative_layout": {
+    "zones": [
+      {
+        "label": "mossy hillside",
+        "x": 42,
+        "y": 75,
+        "w": 628,
+        "h": 120
+      },
+      {
+        "label": "existing cabin silhouette",
+        "x": 152,
+        "y": 210,
+        "w": 414,
+        "h": 216
+      },
+      {
+        "label": "gathering room",
+        "x": 215,
+        "y": 244,
+        "w": 283,
+        "h": 145
+      },
+      {
+        "label": "hearth visual anchor",
+        "x": 224,
+        "y": 253,
+        "w": 100,
+        "h": 37
+      },
+      {
+        "label": "window visual anchor",
+        "x": 392,
+        "y": 253,
+        "w": 95,
+        "h": 37
+      },
+      {
+        "label": "old gathering table",
+        "x": 290,
+        "y": 310,
+        "w": 136,
+        "h": 55
+      },
+      {
+        "label": "exterior approach",
+        "x": 42,
+        "y": 440,
+        "w": 222,
+        "h": 40
+      }
+    ],
+    "axis": "Exterior silhouette, hearth/window/table as visual anchors only; abstract composition, not an architectural floorplan or hidden mechanism.",
+    "coordinate_space": "illustrative non-metric composition",
+    "camera_anchors": [
+      {
+        "x": 105,
+        "y": 414,
+        "folio": "P15"
+      },
+      {
+        "x": 556,
+        "y": 302,
+        "folio": "P16"
+      },
+      {
+        "x": 541,
+        "y": 390,
+        "folio": "P17"
+      }
+    ]
+  },
+  "shot_reference": {
+    "establishing": "Secluded hill cabin, warm windows from the existing approach.",
+    "detail": "Table and glasses, older wood and hearth; consistent eyelines.",
+    "interior_or_alternate": "Non-operational gathering-room composition only; no concealed-space layout."
+  },
+  "folio_bindings": [
+    {
+      "page_id": "W12-P15",
+      "legacy_encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "environment design",
+      "shot_intent": "P15 exterior approach establishes seclusion and existing cabin.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P16",
+      "legacy_encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "performance",
+      "shot_intent": "P16 same window/hearth/table orientation supports friendly toast and rising doubt.",
+      "ending": "RESULT_NEUTRAL",
+      "render_authorized": false
+    },
+    {
+      "page_id": "W12-P17",
+      "legacy_encounter": {
+        "venue_id": "LOC-RED-RUINS",
+        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "physical_region": "REG-EASTERN-STORM-COAST",
+        "division_context": "DIV-WINGS",
+        "world_state_in": "RECONCILIATION_REQUIRED",
+        "persistent_landmarks": [
+          "jungle ruins",
+          "predator banners"
+        ],
+        "route_required": "REVIEW_REQUIRED",
+        "venue_status": "CANDIDATE_HOLD",
+        "venue_type": "candidate; see Atlas card",
+        "provisional_location": true
+      },
+      "planning_candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "planning_override_scope": "previs only; never pass CAND to active venue compiler",
+      "lead": "editing",
+      "shot_intent": "P17 preserve both possible outcomes without physical trap design or permanent confinement promotion.",
+      "ending": "BOTH_CONDITIONAL_VARIANTS_HELD",
+      "render_authorized": false
+    }
+  ],
+  "qa": {
+    "same_geometry_all_three": true,
+    "source_parent_bytes_read": true,
+    "approved_visual_reference": false,
+    "route_lock": false,
+    "world_state_lock": false,
+    "independent_review": false
+  },
+  "render_authorized": false,
+  "canon_promotion": false
+}
