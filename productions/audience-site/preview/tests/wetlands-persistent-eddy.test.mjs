@@ -14,7 +14,7 @@ const phaseMatch=region.match(/float eddyCoordinate=length\(\((vUv|wetlandUv)-ve
 const fadeMatch=region.match(/float eddyFade=1\.-smoothstep\(\.12,\.42,length\((vUv|wetlandUv)-vec2\(\.52,\.44\)\)\);/);
 function evaluate(u,v,time,flow){
  assert.ok(phaseMatch&&fadeMatch,'recognized exact source equations');
- const uv=kind=>kind==='vUv'?[u,v]:[u+flow[0]*time,v+flow[1]*time];
+ const uv=kind=>kind==='vUv'?[u,v]:[u-flow[0]*time,v-flow[1]*time];
  const [px,py]=uv(phaseMatch[1]),[fx,fy]=uv(fadeMatch[1]);
  const phase=Math.hypot(px-.52,(py-.44)*1.4)*30-time*.15;
  const envelope=1-smooth(.12,.42,Math.hypot(fx-.52,fy-.44));
@@ -49,7 +49,7 @@ test('radial phase advances under the same time while resolved startup shape is 
 
 test('independent advected flow and optical footprint remain; no weather input',()=>{
  assert.ok(start>=0&&end>start);
- for(const term of ['wetlandUv = vUv + uFlow * uTime','currentCoordinate=(wetlandUv.x+meander)','fwidth(eddyCoordinate)','eddy*eddyFade*.5*uSheenGain','sediment=.5+.5*sin((wetlandUv.x-wetlandUv.y)'])assert.ok(region.includes(term),term);
+ for(const term of ['wetlandUv = vUv - uFlow * uTime','currentCoordinate=(wetlandUv.x+meander)','fwidth(eddyCoordinate)','eddy*eddyFade*.5*uSheenGain','sediment=.5+.5*sin((wetlandUv.x-wetlandUv.y)'])assert.ok(region.includes(term),term);
  assert.ok(!/uStorm|uWeather|uGlobalCalm/.test(region));
  assert.ok(!source.slice(0,start).includes('float eddyCoordinate=length((vUv-vec2(.52,.44))'));
 });

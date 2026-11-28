@@ -297,7 +297,8 @@ export function buildRegionalAssets(THREE, bindings, height) {
         gl_FragColor=vec4(fallTint,fallingAlpha);
       }else if(uWetland>.5){
       // Broken, low-contrast elongated reflections rather than high-frequency luminous grids.
-      vec2 wetlandUv = vUv + uFlow * uTime;
+      // Sample upstream so the optical field travels in the existing uFlow direction.
+      vec2 wetlandUv = vUv - uFlow * uTime;
       float meander=sin(wetlandUv.y*10.+sin(wetlandUv.x*6.)*.5)*.024;
       float breakup=.5+.5*sin(wetlandUv.y*17.+sin(wetlandUv.x*13.)*1.2);
       // Keep narrow optical crests at resolved scales; broader moving relief and
