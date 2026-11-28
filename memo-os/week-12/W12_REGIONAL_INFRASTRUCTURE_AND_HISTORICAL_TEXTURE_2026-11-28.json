@@ -1,0 +1,258 @@
+{
+  "schema": "schemin26.atlas.regionally_differentiated_infrastructure.v1",
+  "date": "2026-11-28",
+  "status": "CANDIDATE_ART_DIRECTION_ONLY",
+  "authority": {
+    "type": "DIRECT_FOUNDER_CONTINUATION",
+    "verbatim": "resume, no paved roads, all terrained paths based on location wthin atlas. get creative when it comes to markings and modern guardrails from its visual direction but within our world's guidelines as some regions are more modernized than others. inklings should know how the world has existinged for the past 11 years to help with clarity",
+    "precedence": "memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json"
+  },
+  "source_head": "582b4217ab31721d3d211803f6fa463d6216ad4f",
+  "source_blobs": [
+    {
+      "path": "world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md",
+      "blob_sha": "db0061bb8252ca7801e979fc34bb5cebc1d2f354"
+    },
+    {
+      "path": "world/atlas/phase-1/SEVEN_ZONE_MACRO_GEOGRAPHY_BIBLE_V1.md",
+      "blob_sha": "59e308d13f9b6e585d3f4aeeb24c27da9f87cc70"
+    },
+    {
+      "path": "world/data/physical_zones.json",
+      "blob_sha": "3d06bb11b6dd48d1fab523cd886b5003df1c8651"
+    },
+    {
+      "path": "world/data/settlements.json",
+      "blob_sha": "d6f8787c8daf2e105025f381c07b44fae21b7f9e"
+    },
+    {
+      "path": "world/data/routes.json",
+      "blob_sha": "da418245708c1f9d2128775df0ce7d26e7eeaa18"
+    },
+    {
+      "path": "living-novel/whole-book/HISTORICAL_INTEGRATION_MAP_V1.md",
+      "blob_sha": "1ac558544f66a2434bc6a0eab1bf59e16ab79cf0"
+    },
+    {
+      "path": "living-novel/history/HISTORICAL_ERAS.md",
+      "blob_sha": "c5dd817a223e54d28ba0377da42b8f2aa6e448ff"
+    },
+    {
+      "path": "living-novel/world/CIVILIZATION_SYSTEMS.md",
+      "blob_sha": "3a615e5e6c2a1eef1280c2d514378e6225c1f388"
+    },
+    {
+      "path": "memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json",
+      "blob_sha": "820cf133f04465c725474c73d82345ea4f5c6565"
+    },
+    {
+      "path": "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json",
+      "blob_sha": "d703259248a8eeac2d2b0b1f4b19ae26ae56b567"
+    },
+    {
+      "path": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+      "blob_sha": "9eda32edd4b0546386d8e14f64218c30b4f396a0"
+    },
+    {
+      "path": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+      "blob_sha": "8e812b96b0cef1e2ef736622c4278fdbfa99f683"
+    },
+    {
+      "path": "living-novel/historical-chronicle/seasons/2015/PROLOGUE.md",
+      "blob_sha": "5037180fd27138937b7c950c81607bae67e639c2"
+    }
+  ],
+  "principles": [
+    "Natural, unpaved terrestrial travel surfaces in every zone; existing bridges/docks/quays separate.",
+    "Modernization is local and functional, not a linear region-wide ranking; distinguish remote track, maintained local connector and serviced civic/estate corridor.",
+    "Markers and protective-edge objects may express modern functions through region-specific craft, material and maintenance. No painted traffic lanes, asphalt, concrete carriageways or generic continuous highway rail.",
+    "Metalwork or sophisticated fixtures may be proposed where regional economy supports them; no new technology system, electricity grid, reflector standard or historical installation date inferred.",
+    "A place's age does not establish the age of every fixture. Do not retrofit contemporary approvals into earlier eras."
+  ],
+  "regional_designs": [
+    {
+      "region_id": "REG-NORTHERN-SPINE",
+      "name": "Northern Spine",
+      "surface": "Scree, exposed bedrock, thin compacted tracks; snow only at appropriate altitude/season.",
+      "low_service": "Remote: irregular cairns, tool-cut stone marks, tall snow stakes; no rails on broad safe ground.",
+      "higher_service": "Pass town or worked crossing: carefully fitted stone parapet, dark timber post-and-iron-chain edge; visible repairs and differently aged ironwork.",
+      "causal_basis": "Local stone cutters, miners, guides; access to metalwork does not make every trail urban.",
+      "historical_texture": "Mountain paths show generations of foot and pack use; repair date and builder unknown.",
+      "source_settlement": "SETCTX-NORTHERN-SPINE",
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+    },
+    {
+      "region_id": "REG-UPPER-VALLEYS",
+      "name": "Upper Valleys and Foothills",
+      "surface": "Forest loam, leaf litter, estate gravel, exposed natural fieldstone; pasture tracks.",
+      "low_service": "Remote: small carved wood junction post or low fieldstone boundary; woodland training paths mostly unmarked.",
+      "higher_service": "Market/estate: deliberate timber signage, dressed-stone marker bases, selective forged iron fittings or maintained fence; approved G04 modern fixtures remain at the backyard, not generic regional road lighting.",
+      "causal_basis": "Estate craftsmen, mills, market towns, agricultural traffic support variable upkeep.",
+      "historical_texture": "Worn routes and younger replacement posts; DK forest and Slob yard remain separate places.",
+      "source_settlement": "SETCTX-UPPER-VALLEYS",
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+    },
+    {
+      "region_id": "REG-CENTRAL-BASIN",
+      "name": "Central River Basin",
+      "surface": "Wide compacted alluvial earth or loose gravel, wheel ruts and seasonally muddy margins; no laid pavement.",
+      "low_service": "Rural connector: stone distance markers and old timber posts at genuine junctions.",
+      "higher_service": "Civic/market corridor: coordinated carved direction panels, numbered or symbolic waymarkers if later authored, replaceable bronze or iron fittings, low dressed-stone boundary or custom timber/metal rails at genuine crossing hazards; no lane paint.",
+      "causal_basis": "Density of archives, trade, courts and courier services supports more organized wayfinding; no claim of uniform governance.",
+      "historical_texture": "Older markers can sit beside newer repaired equivalents, without attributing a league-era construction program.",
+      "source_settlement": "SETCTX-CENTRAL-BASIN",
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+    },
+    {
+      "region_id": "REG-WESTERN-TABLELANDS",
+      "name": "Western Tablelands",
+      "surface": "Dry earth, broken rock, flattened grass, localized mud after rainfall.",
+      "low_service": "Remote: isolated stone markers, weather-bleached stakes, long open stretches with no rail.",
+      "higher_service": "Ranch/road-house: pragmatic stout wood and iron hardware, local signboards and short fenced margins at actual hazards or land-use boundaries.",
+      "causal_basis": "Dispersed ranches and caravan services justify durable simple fittings; visual sparseness rather than presumed poverty.",
+      "historical_texture": "Sun-bleached wood and replacement fittings suggest repeated use, not dated events.",
+      "source_settlement": "SETCTX-WESTERN-TABLELANDS",
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+    },
+    {
+      "region_id": "REG-EASTERN-STORM-COAST",
+      "name": "Eastern Forest and Storm Coast",
+      "surface": "Rain-dark forest earth, roots, loose gravel and exposed bedrock; storm-drainage depressions.",
+      "low_service": "Remote: pale weathered stone markers, rugged carved hardwood posts at real decisions, no generic continuous rail.",
+      "higher_service": "Harbor/estate or maintained exposed crossing: locally fabricated timber-and-forged-iron protective edge with restrained metal detailing, storm-resistant finishes and mixed-age replacement posts; ornate or polished metal only when setting warrants.",
+      "causal_basis": "Timber, navigation, ship repair and coastal trade support skilled material fabrication without uniform infrastructure.",
+      "historical_texture": "Storm-weathered surfaces and replacements indicate ongoing maintenance, not specific El Niño events unless sourced.",
+      "source_settlement": "SETCTX-EASTERN-STORM-COAST",
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+    },
+    {
+      "region_id": "REG-SOUTHERN-WETLANDS",
+      "name": "Southern Wetlands and Delta",
+      "surface": "Raised earthen causeways, wet mud, natural levee surfaces; established timber crossings distinct from road surfacing.",
+      "low_service": "Remote: high water-reference poles and carved bands; worn mooring posts only where water access exists.",
+      "higher_service": "Estate/levee station: robust timber rails or custom iron fittings at established crossings; legible flood-height markers and maintenance access; no new bridges or claims of vehicle suitability.",
+      "causal_basis": "Specialized wetland travel, boatbuilding and causeway upkeep drive technical sophistication in water adaptation.",
+      "historical_texture": "Uneven stains and replacement timber can suggest long use; no dated floods or permanent damage inferred.",
+      "source_settlement": "SETCTX-SOUTHERN-WETLANDS",
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+    },
+    {
+      "region_id": "REG-INNER-SEA-LITTORAL",
+      "name": "Inner Sea Littoral",
+      "surface": "Compacted coastal earth, sand, loose gravel and exposed stone; established stone quays remain distinct.",
+      "low_service": "Remote: carved direction stones, simple weathered timber markers; exposed edges treated only when needed.",
+      "higher_service": "Mercantile port approach: crafted brass/iron or timber wayfinding, maritime hardware, locally refined rail or stone parapet near a real quay or drop; no new electrical or transport system inferred.",
+      "causal_basis": "Shipping, imported goods, metal fittings and clerical trade support more refined details near established institutions.",
+      "historical_texture": "Salt patina, old stone and newer hardware visually coexist; no specific era of modernization assumed.",
+      "source_settlement": "SETCTX-INNER-SEA",
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+    }
+  ],
+  "history": {
+    "coverage": {
+      "completed_seasons": 11,
+      "archived_week_windows": 183,
+      "archived_rows": 1117,
+      "archived_rows_with_both_ids": 985,
+      "current_2026_weeks": 11,
+      "current_2026_rows": 66,
+      "note": "Raw archive observations, not unique matches; repeat playoff periods retained, 2017 IDs mostly missing. Historical slots not historical owner identities."
+    },
+    "era_application": [
+      {
+        "era": "2015–18",
+        "basis": "Early recorded League of Thrones period; 2015 Chronicle prologue is a noncanon draft that frames roads as older than surviving competition records.",
+        "production_use": "Old stone, trail wear and established routes; no dated owner or installation claims."
+      },
+      {
+        "era": "2019–21",
+        "basis": "Verified league-name transition and changing competitive succession, not a verified infrastructure event.",
+        "production_use": "Propose repair layers and changing administrative visual language without asserting construction in 2019."
+      },
+      {
+        "era": "2022–23",
+        "basis": "Competitive dominance and postseason reversals are narrative pressure, not physical route evidence.",
+        "production_use": "Show ongoing upkeep and ordinary commerce; no invented storm damage, political shift or public works program."
+      },
+      {
+        "era": "2024–26",
+        "basis": "Current world records and Founder-approved contemporary exceptions.",
+        "production_use": "Older fabric beside current localized improvements. Keep Slob fixtures and Chins truck scoped; all paths unpaved."
+      }
+    ]
+  },
+  "g06": {
+    "id": "CAND-W12-CHINS-STORM-HIGHWAY",
+    "working_name": "Chins Storm Track Encounter",
+    "route_options": [
+      {
+        "route_id": "ROUTE-BASIN-MARKET",
+        "assessment": "Preferred investigation, not selection",
+        "basis": "Direct Road Commons connection; market traffic and civic road culture support compacted earth or gravel, repaired carved/metal-fitted waymarkers. Exact forested storm segment and truck access still unverified.",
+        "visual": "Broad natural earth track with loose gravel, rain-dark wheel tracks, a single locally crafted stone/iron marker. No barriers unless hazard shown."
+      },
+      {
+        "route_id": "ROUTE-JACKSON-LEVEE",
+        "assessment": "Secondary wetland alternative, not selection",
+        "basis": "Direct Road Commons-to-Jackson connection; flood closures and river crossings support raised earthen approach and water-reference markers. W11 wrong-turn memory must not be repeated as a new event.",
+        "visual": "Raised earth and wet margin, tall weathered marker; an existing crossing may justify short timber/iron protective edge, not an invented bridge."
+      },
+      {
+        "route_id": "ROUTE-WESTERN-RANGE",
+        "assessment": "Lower fit to current fog/forest visual; still an existing approach",
+        "basis": "Direct Road Commons-to-Chili Stable connection; long exposed distances and dry-season water stops. Do not transplant Eastern dense forest into the drier Tablelands.",
+        "visual": "Open broken terrain, isolated stone markers, seasonal rain only with regional weather context."
+      },
+      {
+        "route_id": "ROUTE-STORM-COAST",
+        "assessment": "Environmental style precedent, not direct Road Commons route",
+        "basis": "Registered Storm Bowl–LLC Storm City corridor; not incident to Chins Road Commons. Cannot select solely because weather is dramatic.",
+        "visual": "Wet forest roots and bedrock; crafted short rails only at an actual exposed edge. No coastline or route claim in unplaced study."
+      }
+    ],
+    "route_selected": null,
+    "region_selected": null,
+    "truck_technology_permitted": true,
+    "truck_reference_verified": false,
+    "visual_study": {
+      "role": "UNPLACED_NATURAL_TRACK_CONCEPT",
+      "composition": "Single live-action establishing photograph, rain-dark compacted earth and loose natural gravel, mature wet foliage, diffuse early light, freestanding old stone waymarker with locally forged iron fitting, no readable invented directions. If no real edge hazard is visible, no rail; an alternate material-only study may explore weathered timber posts with custom iron rail at an abstract exposed edge, without establishing a new structure. No asphalt, concrete, painted lanes, standardized traffic signs, highway guardrail, vehicle identity, coastline or island."
+    },
+    "folio_intents": [
+      {
+        "folio": "W12-P24",
+        "intent": "Ben recognizes familiar terrain and weighs earlier wrong-turn experience; use grounded weather and track rather than signage exposition."
+      },
+      {
+        "folio": "W12-P25",
+        "intent": "Rain and wind obscure natural track and existing visual anchors; no invented destructive power or unverified route."
+      },
+      {
+        "folio": "W12-P26",
+        "intent": "Both late-bound endings reuse identical track, fixture grammar and horizon; no outcome or playoff arrival selected."
+      }
+    ]
+  },
+  "domain_ownership": {
+    "architect": "Validate regional fit and actual corridor/route access; no promotion.",
+    "beat_writer_inklings": "Historical pressure and local ordinary life; no unsupported dates, motives or historical site occupancy.",
+    "pitching_coach_production": "One stable wide anchor before alternate shots; distinguish local material language from generic modern highway set dressing.",
+    "librarian": "Source IDs, candidate history and binary provenance.",
+    "umpire_closer": "Independent check before lock."
+  },
+  "checks": {
+    "seven_regions": true,
+    "all_unpaved": true,
+    "registered_route_options": 4,
+    "route_selected": false,
+    "active_graph_changed": false,
+    "active_world_changed": false,
+    "render_authorized": false,
+    "approved_reference_count": 0
+  },
+  "limitations": [
+    "Regional infrastructure detail is creative proposal, not mapped fixtures, engineering specifications or settled canon.",
+    "Historical archive coverage is sporting evidence; historical Novel prose remains incomplete, and no dated modernization sequence is established.",
+    "G06 exact segment, route-specific truck access, and reference bytes still unresolved."
+  ]
+}
