@@ -68,9 +68,9 @@
     {
       "g": "G02",
       "id": "CAND-W12-MUD-HUNTING-CABIN",
-      "visual": "V1 remains provisional wide role; V3 improves submerged boat and tether but changes dock geometry. Choose one anchor after comparison; do not mix V1 and V3 or claim reverse proof.",
+      "visual": "V3 working wide anchor selected for flooded boat/tether fidelity; V4 reverse is candidate only. Preserve V1 and existing exact V1 detail crops as historical audit references, not shared geometry. Verify porch, dock posts, mooring orientation, waterline and light before spatial acceptance.",
       "narrative": "Bobby's familiarity derives from longstanding use and maintenance; TDS reads a different environment without replaying W11 deception.",
-      "shot_plan": "Wide: V1; reverse: porch-to-dock; overview: cabin-bank-dock relation; detail: boat and mooring; material: planks and roots."
+      "shot_plan": "Wide V3; porch reverse V4; overview held for geometry review; detail/material crops must be rebuilt against V3 if promoted. No actual final rendering."
     },
     {
       "g": "G03",
@@ -161,8 +161,8 @@
       "sha256": "91308a3587576eaa65d94a81143bdfe39fbc522fad01ebe1acbd9bcf221557be",
       "width": 1672,
       "height": 941,
-      "status": "ANCHOR_CANDIDATE",
-      "notes": "Tether visible; boat submergence needs refinement.",
+      "status": "SUPERSEDED_WORKING_ANCHOR_CANDIDATE",
+      "notes": "Tether visible; boat submergence needs refinement. Retained for audit and existing V1 exact detail crops only; don't mount with V3/V4 as same geometry.",
       "approved": false,
       "github_binary_verified": false
     },
@@ -322,8 +322,26 @@
       "sha256": "ad3dc39dea3482ebf0e9ef4749c51d257c64c5eef2968c44daf886c10b3e25a8",
       "width": 1672,
       "height": 941,
-      "status": "ANCHOR_AUDITION_GEOMETRY_REVIEW",
-      "notes": "Improved half-flooded hull and visible tether; cabin front, stairs and dock geometry changed from V1. Keep V1 planning slot until one anchor is chosen. Not a reverse view or exact edit.",
+      "status": "ANCHOR_CANDIDATE",
+      "notes": "Selected as working G02 anchor by host for better Founder boat fidelity, not approved canonical reference; V4 reverse audition uses this intended geometry. V1 remains historical candidate.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "version": "V4",
+      "role": "REVERSE",
+      "source_file": "W12_G02_Swamp_Reverse_V4.png",
+      "archive_path": "G02_MUD-HUNTING-CABIN/V4_REVERSE.png",
+      "custody": "Standalone conversation PNG; not yet included in original ZIP or GitHub binary storage.",
+      "bytes": 2858418,
+      "sha256": "19c8867ce8e7980f40c3b1679424f89d1bb6e18231be0a1d50e8e01d93745c00",
+      "width": 1672,
+      "height": 941,
+      "status": "CANDIDATE_REVIEW",
+      "intended_parent_sha256": "ad3dc39dea3482ebf0e9ef4749c51d257c64c5eef2968c44daf886c10b3e25a8",
+      "notes": "Single porch-to-dock reverse composition; flooded hull and wetland atmosphere plausible. Boat orientation, dock post counts, porch stair/railing and fixed landmarks require actual spatial comparison. Exact renderer reference attachment not proved by tool receipt.",
       "approved": false,
       "github_binary_verified": false
     }
@@ -374,15 +392,15 @@
       "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
       "role": "WIDE",
       "status": "ANCHOR_CANDIDATE",
-      "source_sha256": "91308a3587576eaa65d94a81143bdfe39fbc522fad01ebe1acbd9bcf221557be",
+      "source_sha256": "ad3dc39dea3482ebf0e9ef4749c51d257c64c5eef2968c44daf886c10b3e25a8",
       "approved": false
     },
     {
       "id": "G02-REVERSE",
       "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
       "role": "REVERSE",
-      "status": "PENDING_SINGLE_VIEW",
-      "source_sha256": null,
+      "status": "CANDIDATE_REVIEW",
+      "source_sha256": "19c8867ce8e7980f40c3b1679424f89d1bb6e18231be0a1d50e8e01d93745c00",
       "approved": false
     },
     {
@@ -589,14 +607,19 @@
       "source": "a_cinematic_hyper_realistic_landscape_scene_at_go.png",
       "sha256": "9dc2f5ca7a7866959a87bf9aafd49b1087ac1b965b9cd973e679acc6712fa599",
       "reason": "Wrong output: mountain route instead of G03 interior; fabricated directions, mileages and Playoff Island link; exclude from Atlas reference."
+    },
+    {
+      "source": "a_cinematic_hyper_realistic_highly_detailed_land.png",
+      "sha256": "0591d75109d13ca7f497abaf26b19905eca9121b6096a16b058e84ea834ab587",
+      "reason": "Wrong subject and format: swamp collage generated instead of G03 cabin interior. No thumbnails or additional props counted."
     }
   ],
   "checks": {
-    "standalone_pngs_verified_in_container": 14,
+    "standalone_pngs_verified_in_container": 15,
     "new_single_view_candidates": 1,
-    "misgenerated_boards_rejected": 3,
+    "misgenerated_boards_rejected": 4,
     "planned_roles": 30,
-    "occupied_provisional_roles": 7,
+    "occupied_provisional_roles": 8,
     "approved_roles": 0,
     "github_binary_ingestion": 0,
     "active_canon_mutation": false,
@@ -605,7 +628,9 @@
     "terrain_drift_rejected": 1,
     "derived_detail_candidates": 10,
     "additional_wrong_scene_rejected": 1,
-    "g02_new_wide_audition": 1
+    "g02_new_wide_audition": 1,
+    "g02_new_reverse_audition": 1,
+    "g02_exact_renderer_mount_verified": false
   },
   "limitations": [
     "Actual image bytes bundled in conversation artifact, not uploaded to GitHub; GitHub register is metadata and shot assignments only.",
