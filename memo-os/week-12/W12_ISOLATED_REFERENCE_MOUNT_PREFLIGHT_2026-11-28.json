@@ -1,0 +1,261 @@
+{
+  "schema": "schemin26.week12.isolated_reference_mount_preflight.v1",
+  "date": "2026-11-28",
+  "source_head": "0ffe8a199e7943b1a87ab5c06e26ed37b95af1bb",
+  "source_register_blob": "49d743b3bee3410a7f4e1bf4f324f609e93f986d",
+  "authority_refs": [
+    "memo-os/REFERENCE_MOUNT_RECEIPT_V1.md",
+    "memo-os/GENERATION_INTENT_FIREWALL_V1.md",
+    "memo-os/RENDERER_ADDRESSABLE_ASSET_CONTRACT_V1.md",
+    "memo-os/LOCATION_CONTROL_PLANE_INTEGRATION_PATCH_V1.md"
+  ],
+  "status": "HOST_INPUT_READY_PROVIDER_MOUNT_BLOCKED",
+  "archive": {
+    "name": "W12_Atlas_Isolated_Render_Inputs.zip",
+    "sha256": "bef55c0ec098fd6045424e851632b5d6c84c18016f2fef92080a12a30fb3a6dc",
+    "bytes": 22650659,
+    "custody": "Conversation artifact; not GitHub binary storage."
+  },
+  "intents": [
+    {
+      "generation_intent_id": "W12-G01-REVERSE_OR_DETAIL-ISOLATED-CANDIDATE",
+      "scene_id": "G01",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "artifact_type": "SINGLE_ENVIRONMENT_PHOTOGRAPH",
+      "expected_medium": "PNG",
+      "source_path": "G01/SOURCE.png",
+      "expected_reference_ids": [
+        "G01-WORKING-SOURCE"
+      ],
+      "expected_reference_hashes": [
+        "25e60e9f56d9f5e0a26b4ae4121942f934820caf4250050fa8364a27c57664a9"
+      ],
+      "mounted_reference_ids": [],
+      "mounted_reference_hashes": [],
+      "mount_status": "BLOCKED",
+      "composition": "One forest scene, original ruins, stream and boulders; preserve sunrise direction.",
+      "text_policy": "NO_TEXT_OR_PANELS",
+      "prohibited_outputs": [
+        "dashboard",
+        "collage",
+        "wrong scene",
+        "invented route/landmark",
+        "final folio"
+      ],
+      "source_size_bytes": 3847304,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "render_authorized": false,
+      "reference_approved": false
+    },
+    {
+      "generation_intent_id": "W12-G02-OVERVIEW-ISOLATED-CANDIDATE",
+      "scene_id": "G02",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "artifact_type": "SINGLE_ENVIRONMENT_PHOTOGRAPH",
+      "expected_medium": "PNG",
+      "source_path": "G02/SOURCE.png",
+      "expected_reference_ids": [
+        "G02-WORKING-SOURCE"
+      ],
+      "expected_reference_hashes": [
+        "ad3dc39dea3482ebf0e9ef4749c51d257c64c5eef2968c44daf886c10b3e25a8"
+      ],
+      "mounted_reference_ids": [],
+      "mounted_reference_hashes": [],
+      "mount_status": "BLOCKED",
+      "composition": "One cabin/dock scene, flooded boat and tether; exact geometry held.",
+      "text_policy": "NO_TEXT_OR_PANELS",
+      "prohibited_outputs": [
+        "dashboard",
+        "collage",
+        "wrong scene",
+        "invented route/landmark",
+        "final folio"
+      ],
+      "source_size_bytes": 3416738,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "render_authorized": false,
+      "reference_approved": false
+    },
+    {
+      "generation_intent_id": "W12-G03-INTERIOR-ISOLATED-CANDIDATE",
+      "scene_id": "G03",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "artifact_type": "SINGLE_ENVIRONMENT_PHOTOGRAPH",
+      "expected_medium": "PNG",
+      "source_path": "G03/SOURCE.png",
+      "expected_reference_ids": [
+        "G03-WORKING-SOURCE"
+      ],
+      "expected_reference_hashes": [
+        "7122f9bc66521f2986805ac1c3e8c2280ea2c7284eacf81fdf8a125f44ba0dbb"
+      ],
+      "mounted_reference_ids": [],
+      "mounted_reference_hashes": [],
+      "mount_status": "BLOCKED",
+      "composition": "Modest hillside gathering room, table, two glasses, hearth and shutters. No swamp, ocean or hidden mechanism.",
+      "text_policy": "NO_TEXT_OR_PANELS",
+      "prohibited_outputs": [
+        "dashboard",
+        "collage",
+        "wrong scene",
+        "invented route/landmark",
+        "final folio"
+      ],
+      "source_size_bytes": 3685280,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "render_authorized": false,
+      "reference_approved": false
+    },
+    {
+      "generation_intent_id": "W12-G04-REVERSE-ISOLATED-CANDIDATE",
+      "scene_id": "G04",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "artifact_type": "SINGLE_ENVIRONMENT_PHOTOGRAPH",
+      "expected_medium": "PNG",
+      "source_path": "G04/SOURCE.png",
+      "expected_reference_ids": [
+        "G04-WORKING-SOURCE"
+      ],
+      "expected_reference_hashes": [
+        "09c9a7cd437d7538b2908d3d05425cf4000fcbb16d9c842cb1bf594e4705b272"
+      ],
+      "mounted_reference_ids": [],
+      "mounted_reference_hashes": [],
+      "mount_status": "BLOCKED",
+      "composition": "Same covered area, garden, table and scoped approved cooking/TV fixtures.",
+      "text_policy": "NO_TEXT_OR_PANELS",
+      "prohibited_outputs": [
+        "dashboard",
+        "collage",
+        "wrong scene",
+        "invented route/landmark",
+        "final folio"
+      ],
+      "source_size_bytes": 3398818,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "render_authorized": false,
+      "reference_approved": false
+    },
+    {
+      "generation_intent_id": "W12-G05-DETAIL-ISOLATED-CANDIDATE",
+      "scene_id": "G05",
+      "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "artifact_type": "SINGLE_ENVIRONMENT_PHOTOGRAPH",
+      "expected_medium": "PNG",
+      "source_path": "G05/SOURCE.png",
+      "expected_reference_ids": [
+        "G05-WORKING-SOURCE"
+      ],
+      "expected_reference_hashes": [
+        "2964fa45fea865525979da46dd4f26d522887cb54452f430de0d9c2ce48d913c"
+      ],
+      "mounted_reference_ids": [],
+      "mounted_reference_hashes": [],
+      "mount_status": "BLOCKED",
+      "composition": "Bounded archive material study only; no layout or containment promotion.",
+      "text_policy": "NO_TEXT_OR_PANELS",
+      "prohibited_outputs": [
+        "dashboard",
+        "collage",
+        "wrong scene",
+        "invented route/landmark",
+        "final folio"
+      ],
+      "source_size_bytes": 2501802,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "render_authorized": false,
+      "reference_approved": false
+    },
+    {
+      "generation_intent_id": "W12-G06-DETAIL-ISOLATED-CANDIDATE",
+      "scene_id": "G06",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "artifact_type": "SINGLE_ENVIRONMENT_PHOTOGRAPH",
+      "expected_medium": "PNG",
+      "source_path": "G06/SOURCE.png",
+      "expected_reference_ids": [
+        "G06-WORKING-SOURCE"
+      ],
+      "expected_reference_hashes": [
+        "a4680fe7ac92314678f32338ceac57fa8e103c0a4935846f6adf44f02a1bfc76"
+      ],
+      "mounted_reference_ids": [],
+      "mounted_reference_hashes": [],
+      "mount_status": "BLOCKED",
+      "composition": "Unplaced natural terrain/weather material; no paving, route, truck identity or island claim.",
+      "text_policy": "NO_TEXT_OR_PANELS",
+      "prohibited_outputs": [
+        "dashboard",
+        "collage",
+        "wrong scene",
+        "invented route/landmark",
+        "final folio"
+      ],
+      "source_size_bytes": 3299712,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "render_authorized": false,
+      "reference_approved": false
+    }
+  ],
+  "comparison_only": {
+    "path": "G02_REVIEW_ONLY/REVERSE_V4.png",
+    "sha256": "19c8867ce8e7980f40c3b1679424f89d1bb6e18231be0a1d50e8e01d93745c00",
+    "scope": "Not mounted as input; V3/V4 geometry unverified."
+  },
+  "preflight": {
+    "source": "memo-os/week-12/environment-references/isolated_mount_preflight.js",
+    "verification": "Actual local Node inline execution of identical predicate. Fixture tests do not authenticate provider receipt or verify a real mount.",
+    "cases": [
+      "missing receipt",
+      "wrong scene",
+      "wrong hash",
+      "extra source",
+      "wrong ID",
+      "blocked receipt",
+      "matching fixture"
+    ],
+    "passed": 7,
+    "failed": 0,
+    "actual_provider_receipts": 0
+  },
+  "lifecycle": {
+    "command": "resume",
+    "resolved": "W12-02",
+    "registry_valid": true,
+    "continuation": "CONTINUE",
+    "next": "W12-02",
+    "runtime_receipt_sha256": "c8e3b7ba7bdc8204b3204ddf407ab56873922874dc8f3de6c496d07ec7b8bfeb"
+  },
+  "checks": {
+    "source_pngs_verified": 7,
+    "intents": 6,
+    "provider_mount_passes": 0,
+    "geometry_verified": false,
+    "github_binary_ingestion": 0,
+    "final_render_authorized": false
+  },
+  "limitations": [
+    "No provider mount metadata exists; host predicate not integrated into a real renderer.",
+    "All six inputs remain candidates, not approved references. G05/G06 bounded studies only.",
+    "Do not reissue mixed-source generation until real attachment evidence or an explicitly separate audition-only route is available."
+  ]
+}
