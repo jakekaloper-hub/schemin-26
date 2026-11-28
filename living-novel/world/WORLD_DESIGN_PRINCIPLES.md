@@ -43,7 +43,7 @@ The world requires:
 
 ## Technology
 Broadly pre-technological/pre-modern relative to the Founder's requested epic-fantasy mode.
-No modern communications, automobiles, firearms-as-modernity, fantasy-football screens, or direct technological stand-ins for ESPN.
+No modern communications, automobiles, firearms-as-modernity, fantasy-football screens, or direct technological stand-ins for ESPN **by default**. Explicit Founder-scoped exceptions govern only their named current contexts: see `memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json` and `memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json`. This permits G04 local fixtures and G06 lifted-truck technology without permitting paved roads or retroactive technological history.
 Information travels through people, writing, signal systems, institutions and rumor at speeds constrained by geography.
 
 ## Terrain-based movement — Founder directive, 28 November 2026
@@ -51,6 +51,8 @@ Information travels through people, writing, signal systems, institutions and ru
 All terrestrial roads and paths are unpaved and derived from local physical geography, climate, hydrology and use. No generic asphalt or concrete carriageways, painted lane markings or modern highway guardrails. Existing crossing structures are separate from road surfacing. Explicitly approved vehicles and local modern fixtures do not override this rule or change the wider technology ceiling. The seven-zone material guidance is maintained in `world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md`.
 
 Wayfinding and protective boundaries may have the practical functions of modern infrastructure, but their visual expression follows regional materials, local maintenance and the established terrain. The Atlas route model contains proposed regional treatments; these do not establish new historical fixtures or route permissions.
+
+For current Week 12 production, resolve superseded instructions through `memo-os/week-12/W12_ATLAS_EFFECTIVE_CONTROLS_2026-11-28.json` and use the proposed seven-zone, three-tier design in `memo-os/week-12/W12_REGIONAL_INFRASTRUCTURE_AND_HISTORICAL_TEXTURE_2026-11-28.json`. These are contextual material proposals, not historical construction facts.
 
 ## Supernatural restraint
 The supernatural, if present, is not a convenience layer.

@@ -31,7 +31,8 @@
     "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3",
     "technology_approval": "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json",
     "terrain_path_correction": "memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json",
-    "regional_infrastructure_direction": "memo-os/week-12/W12_REGIONAL_INFRASTRUCTURE_AND_HISTORICAL_TEXTURE_2026-11-28.json"
+    "regional_infrastructure_direction": "memo-os/week-12/W12_REGIONAL_INFRASTRUCTURE_AND_HISTORICAL_TEXTURE_2026-11-28.json",
+    "effective_controls": "memo-os/week-12/W12_ATLAS_EFFECTIVE_CONTROLS_2026-11-28.json"
   },
   "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
   "three_layers": {
@@ -185,14 +186,16 @@
     }
   ],
   "qa": {
-    "same_geometry_all_three": true,
+    "same_geometry_all_three": false,
     "source_parent_bytes_read": true,
     "approved_visual_reference": false,
     "route_lock": false,
     "world_state_lock": false,
     "independent_review": false,
     "technology_approval_scope": "CURRENT_UNPLACED_CANDIDATE_ONLY",
-    "terrain_path_rule": "FOUNDER_APPROVED_UNPAVED_REGION_SPECIFIC"
+    "terrain_path_rule": "FOUNDER_APPROVED_UNPAVED_REGION_SPECIFIC",
+    "geometry_continuity_intended": true,
+    "geometry_verification_status": "PENDING_COMPARISON_OF_ACTUAL_MULTI_ANGLE_REFERENCES"
   },
   "render_authorized": false,
   "canon_promotion": false

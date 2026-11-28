@@ -1,0 +1,103 @@
+{
+  "schema": "schemin26.week12.atlas_effective_controls.v1",
+  "date": "2026-11-28",
+  "audited_head": "ab8f784f6317244d8d6deece7a8f723591eb1f03",
+  "status": "CONTROLLING_PREPRODUCTION_OVERLAY_NOT_RELEASE_LOCK",
+  "priority": [
+    {
+      "path": "memo-os/week-12/W12_FOUNDER_TERRAIN_PATH_CORRECTION_2026-11-28.json",
+      "scope": "All terrestrial road surfaces unpaved; locally appropriate markers and protective edges; supersedes paving permission."
+    },
+    {
+      "path": "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json",
+      "scope": "G04 contemporary TV/fan/grill/smoker/practical lights and G06 lifted truck only; terrain rule controls."
+    },
+    {
+      "path": "memo-os/week-12/W12_REGIONAL_INFRASTRUCTURE_AND_HISTORICAL_TEXTURE_2026-11-28.json",
+      "scope": "21 contextual material/modernization treatments, proposed only."
+    },
+    {
+      "path": "memo-os/week-12/W12_ENVIRONMENT_REFERENCE_PREVIS_MANIFEST_2026-11-28.json",
+      "scope": "Six current candidate packet references; not approved geography or imagery."
+    }
+  ],
+  "superseded_instruction_examples": [
+    {
+      "source": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+      "g": "G04",
+      "old": "TV stays modernity hold",
+      "effective": "Scoped contemporary fixtures allowed; exact geometry and memorabilia still held."
+    },
+    {
+      "source": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+      "g": "G06",
+      "old": "current road surface/technology approval pending",
+      "effective": "Unpaved terrain mandatory; truck technology permitted; corridor and vehicle reference held."
+    },
+    {
+      "source": "memo-os/week-12/W12_ATLAS_ROUTE_STATE_AND_CINEMATIC_READINESS_2026-11-28.json",
+      "g": "G04",
+      "old": "exclude electronics",
+      "effective": "Scoped local fixtures permitted."
+    },
+    {
+      "source": "memo-os/week-12/W12_ATLAS_ROUTE_STATE_AND_CINEMATIC_READINESS_2026-11-28.json",
+      "g": "G06",
+      "old": "weather study only, no truck",
+      "effective": "Unplaced unpaved concept may be developed; no specific vehicle identity or route without proof."
+    }
+  ],
+  "geometry_policy": {
+    "intended_same_geometry": true,
+    "verified_same_geometry": false,
+    "required_evidence": "Actual mounted image bytes from matching angles, landmark comparison, unchanged spatial relationships, lighting and route validation; independent reviewer."
+  },
+  "hard_holds": [
+    "G05 exact parent/containment",
+    "G06 exact corridor, region, vehicle access and identity",
+    "six candidate internal accesses",
+    "world state reconciliation",
+    "visual asset custody, ingestion and independent acceptance",
+    "final outcomes and render lock"
+  ],
+  "checks": {
+    "no_active_geography_mutation": true,
+    "all_34_folios_preserved": true,
+    "all_6_candidate_ids_preserved": true,
+    "all_21_cells_proposed": true
+  },
+  "sources": [
+    {
+      "path": "memo-os/week-12/W12_ENVIRONMENT_REFERENCE_PREVIS_MANIFEST_2026-11-28.json",
+      "blob_sha": "b2dd4b28e246cb3101c0ae724f6d5abff6ebbefb"
+    },
+    {
+      "path": "memo-os/week-12/W12_REGIONAL_INFRASTRUCTURE_AND_HISTORICAL_TEXTURE_2026-11-28.json",
+      "blob_sha": "0a4e089c8e909b9bf50c37e0b7df7549cca94bc9"
+    },
+    {
+      "path": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+      "blob_sha": "8e812b96b0cef1e2ef736622c4278fdbfa99f683"
+    },
+    {
+      "path": "memo-os/week-12/W12_ATLAS_ROUTE_STATE_AND_CINEMATIC_READINESS_2026-11-28.json",
+      "blob_sha": "0a2b65350e72e585190c066148a89c7472b3c5a7"
+    },
+    {
+      "path": "world/atlas/ROUTE_AND_TRAVEL_MODEL_V1.md",
+      "blob_sha": "db0061bb8252ca7801e979fc34bb5cebc1d2f354"
+    },
+    {
+      "path": "living-novel/world/WORLD_DESIGN_PRINCIPLES.md",
+      "blob_sha": "75332ac147d9e12db1caf08f84b52a21ce3d4694"
+    },
+    {
+      "path": "world/qa/WORLD_GEOGRAPHY_ACCEPTANCE_SUITE_V1.md",
+      "blob_sha": "e2e2b0aa0b179d2acb86913ea084e9d61a41e712"
+    },
+    {
+      "path": "memo-os/week-12/_INDEX.md",
+      "blob_sha": "4bb6dc8ada63775ab126c5ca2531a351bdf7ee5f"
+    }
+  ]
+}

@@ -79,7 +79,32 @@
       "causal_basis": "Local stone cutters, miners, guides; access to metalwork does not make every trail urban.",
       "historical_texture": "Mountain paths show generations of foot and pack use; repair date and builder unknown.",
       "source_settlement": "SETCTX-NORTHERN-SPINE",
-      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION",
+      "established_service": {
+        "surface": "Worn scree and exposed stone with compacted earth at sheltered passes; snow only at supported altitude/season.",
+        "wayfinding": "Notched timber direction posts and locally worked iron markers at existing pass junctions.",
+        "edge": "Short stone or timber-and-iron boundaries only at established exposed edges.",
+        "ordinary_use": "Guides, pack traffic and seasonal supply.",
+        "aging": "Older rock and repaired posts; no dates asserted."
+      },
+      "service_levels": [
+        {
+          "tier": "REMOTE",
+          "design": "Remote: irregular cairns, tool-cut stone marks, tall snow stakes; no rails on broad safe ground."
+        },
+        {
+          "tier": "ESTABLISHED",
+          "surface": "Worn scree and exposed stone with compacted earth at sheltered passes; snow only at supported altitude/season.",
+          "wayfinding": "Notched timber direction posts and locally worked iron markers at existing pass junctions.",
+          "edge": "Short stone or timber-and-iron boundaries only at established exposed edges.",
+          "ordinary_use": "Guides, pack traffic and seasonal supply.",
+          "aging": "Older rock and repaired posts; no dates asserted."
+        },
+        {
+          "tier": "ADVANCED_CIVIC_OR_INSTITUTIONAL",
+          "design": "Pass town or worked crossing: carefully fitted stone parapet, dark timber post-and-iron-chain edge; visible repairs and differently aged ironwork."
+        }
+      ]
     },
     {
       "region_id": "REG-UPPER-VALLEYS",
@@ -90,7 +115,32 @@
       "causal_basis": "Estate craftsmen, mills, market towns, agricultural traffic support variable upkeep.",
       "historical_texture": "Worn routes and younger replacement posts; DK forest and Slob yard remain separate places.",
       "source_settlement": "SETCTX-UPPER-VALLEYS",
-      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION",
+      "established_service": {
+        "surface": "Maintained estate gravel, compacted soil, leaf litter at forest margins.",
+        "wayfinding": "Carved timber posts with locally forged fittings and fieldstone bases at existing junctions.",
+        "edge": "Maintained split rails at pasture boundaries or hazard-specific low fieldstone edging.",
+        "ordinary_use": "Farm, mill, estate and market-town traffic.",
+        "aging": "Mature hedges, wear and replaced boards; G04 modern fixtures remain site-local."
+      },
+      "service_levels": [
+        {
+          "tier": "REMOTE",
+          "design": "Remote: small carved wood junction post or low fieldstone boundary; woodland training paths mostly unmarked."
+        },
+        {
+          "tier": "ESTABLISHED",
+          "surface": "Maintained estate gravel, compacted soil, leaf litter at forest margins.",
+          "wayfinding": "Carved timber posts with locally forged fittings and fieldstone bases at existing junctions.",
+          "edge": "Maintained split rails at pasture boundaries or hazard-specific low fieldstone edging.",
+          "ordinary_use": "Farm, mill, estate and market-town traffic.",
+          "aging": "Mature hedges, wear and replaced boards; G04 modern fixtures remain site-local."
+        },
+        {
+          "tier": "ADVANCED_CIVIC_OR_INSTITUTIONAL",
+          "design": "Market/estate: deliberate timber signage, dressed-stone marker bases, selective forged iron fittings or maintained fence; approved G04 modern fixtures remain at the backyard, not generic regional road lighting."
+        }
+      ]
     },
     {
       "region_id": "REG-CENTRAL-BASIN",
@@ -101,7 +151,32 @@
       "causal_basis": "Density of archives, trade, courts and courier services supports more organized wayfinding; no claim of uniform governance.",
       "historical_texture": "Older markers can sit beside newer repaired equivalents, without attributing a league-era construction program.",
       "source_settlement": "SETCTX-CENTRAL-BASIN",
-      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION",
+      "established_service": {
+        "surface": "Compacted alluvial earth and loose gravel on heavily used connectors; rutted seasonal margins.",
+        "wayfinding": "Coordinated stone waymarkers and carved timber direction panels at real junctions.",
+        "edge": "Stout timber or dressed stone at established crossings; no fabricated bridge.",
+        "ordinary_use": "Couriers, agricultural carts and market movement.",
+        "aging": "Mixed-age stone and replacement fittings, without invented civic program."
+      },
+      "service_levels": [
+        {
+          "tier": "REMOTE",
+          "design": "Rural connector: stone distance markers and old timber posts at genuine junctions."
+        },
+        {
+          "tier": "ESTABLISHED",
+          "surface": "Compacted alluvial earth and loose gravel on heavily used connectors; rutted seasonal margins.",
+          "wayfinding": "Coordinated stone waymarkers and carved timber direction panels at real junctions.",
+          "edge": "Stout timber or dressed stone at established crossings; no fabricated bridge.",
+          "ordinary_use": "Couriers, agricultural carts and market movement.",
+          "aging": "Mixed-age stone and replacement fittings, without invented civic program."
+        },
+        {
+          "tier": "ADVANCED_CIVIC_OR_INSTITUTIONAL",
+          "design": "Civic/market corridor: coordinated carved direction panels, numbered or symbolic waymarkers if later authored, replaceable bronze or iron fittings, low dressed-stone boundary or custom timber/metal rails at genuine crossing hazards; no lane paint."
+        }
+      ]
     },
     {
       "region_id": "REG-WESTERN-TABLELANDS",
@@ -112,7 +187,32 @@
       "causal_basis": "Dispersed ranches and caravan services justify durable simple fittings; visual sparseness rather than presumed poverty.",
       "historical_texture": "Sun-bleached wood and replacement fittings suggest repeated use, not dated events.",
       "source_settlement": "SETCTX-WESTERN-TABLELANDS",
-      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION",
+      "established_service": {
+        "surface": "Wide dusty tracks of compacted earth and scattered natural rock.",
+        "wayfinding": "Weathered ranch or road-house signboards and locally maintained posts; no invented place names.",
+        "edge": "Short ranch fencing or stone boundaries where land use or real hazards warrant.",
+        "ordinary_use": "Stock movement, caravan provisioning and road-house commerce.",
+        "aging": "Sun-bleached timber beside recent repair hardware."
+      },
+      "service_levels": [
+        {
+          "tier": "REMOTE",
+          "design": "Remote: isolated stone markers, weather-bleached stakes, long open stretches with no rail."
+        },
+        {
+          "tier": "ESTABLISHED",
+          "surface": "Wide dusty tracks of compacted earth and scattered natural rock.",
+          "wayfinding": "Weathered ranch or road-house signboards and locally maintained posts; no invented place names.",
+          "edge": "Short ranch fencing or stone boundaries where land use or real hazards warrant.",
+          "ordinary_use": "Stock movement, caravan provisioning and road-house commerce.",
+          "aging": "Sun-bleached timber beside recent repair hardware."
+        },
+        {
+          "tier": "ADVANCED_CIVIC_OR_INSTITUTIONAL",
+          "design": "Ranch/road-house: pragmatic stout wood and iron hardware, local signboards and short fenced margins at actual hazards or land-use boundaries."
+        }
+      ]
     },
     {
       "region_id": "REG-EASTERN-STORM-COAST",
@@ -123,7 +223,32 @@
       "causal_basis": "Timber, navigation, ship repair and coastal trade support skilled material fabrication without uniform infrastructure.",
       "historical_texture": "Storm-weathered surfaces and replacements indicate ongoing maintenance, not specific El Niño events unless sourced.",
       "source_settlement": "SETCTX-EASTERN-STORM-COAST",
-      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION",
+      "established_service": {
+        "surface": "Rain-dark earth, gravel, roots and natural exposed stone, with wet drainage margins.",
+        "wayfinding": "Durable carved hardwood and pale stone, restrained locally worked iron fittings.",
+        "edge": "Short timber-and-metal edge only at a demonstrated drop or crossing.",
+        "ordinary_use": "Timber exchange, hunting, coastal trade and estate supply.",
+        "aging": "Storm-weathered surfaces with replacement pieces; no invented storm event."
+      },
+      "service_levels": [
+        {
+          "tier": "REMOTE",
+          "design": "Remote: pale weathered stone markers, rugged carved hardwood posts at real decisions, no generic continuous rail."
+        },
+        {
+          "tier": "ESTABLISHED",
+          "surface": "Rain-dark earth, gravel, roots and natural exposed stone, with wet drainage margins.",
+          "wayfinding": "Durable carved hardwood and pale stone, restrained locally worked iron fittings.",
+          "edge": "Short timber-and-metal edge only at a demonstrated drop or crossing.",
+          "ordinary_use": "Timber exchange, hunting, coastal trade and estate supply.",
+          "aging": "Storm-weathered surfaces with replacement pieces; no invented storm event."
+        },
+        {
+          "tier": "ADVANCED_CIVIC_OR_INSTITUTIONAL",
+          "design": "Harbor/estate or maintained exposed crossing: locally fabricated timber-and-forged-iron protective edge with restrained metal detailing, storm-resistant finishes and mixed-age replacement posts; ornate or polished metal only when setting warrants."
+        }
+      ]
     },
     {
       "region_id": "REG-SOUTHERN-WETLANDS",
@@ -134,7 +259,32 @@
       "causal_basis": "Specialized wetland travel, boatbuilding and causeway upkeep drive technical sophistication in water adaptation.",
       "historical_texture": "Uneven stains and replacement timber can suggest long use; no dated floods or permanent damage inferred.",
       "source_settlement": "SETCTX-SOUTHERN-WETLANDS",
-      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION",
+      "established_service": {
+        "surface": "Raised earthen causeway or muddy bank track on stable ground; timber crossings separate.",
+        "wayfinding": "Tall carved water-reference posts near actual crossings and wetland junctions.",
+        "edge": "Stout repaired timber at an established raised crossing; no new structure or truck clearance inferred.",
+        "ordinary_use": "Fishing, wetland craft, causeway maintenance.",
+        "aging": "Water stains and mixed-age planks; no dated flood line."
+      },
+      "service_levels": [
+        {
+          "tier": "REMOTE",
+          "design": "Remote: high water-reference poles and carved bands; worn mooring posts only where water access exists."
+        },
+        {
+          "tier": "ESTABLISHED",
+          "surface": "Raised earthen causeway or muddy bank track on stable ground; timber crossings separate.",
+          "wayfinding": "Tall carved water-reference posts near actual crossings and wetland junctions.",
+          "edge": "Stout repaired timber at an established raised crossing; no new structure or truck clearance inferred.",
+          "ordinary_use": "Fishing, wetland craft, causeway maintenance.",
+          "aging": "Water stains and mixed-age planks; no dated flood line."
+        },
+        {
+          "tier": "ADVANCED_CIVIC_OR_INSTITUTIONAL",
+          "design": "Estate/levee station: robust timber rails or custom iron fittings at established crossings; legible flood-height markers and maintenance access; no new bridges or claims of vehicle suitability."
+        }
+      ]
     },
     {
       "region_id": "REG-INNER-SEA-LITTORAL",
@@ -145,7 +295,32 @@
       "causal_basis": "Shipping, imported goods, metal fittings and clerical trade support more refined details near established institutions.",
       "historical_texture": "Salt patina, old stone and newer hardware visually coexist; no specific era of modernization assumed.",
       "source_settlement": "SETCTX-INNER-SEA",
-      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION"
+      "status": "PROPOSED_ART_DIRECTION_NOT_APPROVED_INSTALLATION",
+      "established_service": {
+        "surface": "Compacted coastal earth, sand or gravel on approach to existing port districts; quays separate.",
+        "wayfinding": "Merchant route markers with carved wood, stone and restrained metal fittings.",
+        "edge": "Local timber-and-rope or worked stone protection only near a confirmed edge.",
+        "ordinary_use": "Warehouse deliveries, port workers, coastal trade.",
+        "aging": "Salt patina and repaired hardware; no unapproved electrical system."
+      },
+      "service_levels": [
+        {
+          "tier": "REMOTE",
+          "design": "Remote: carved direction stones, simple weathered timber markers; exposed edges treated only when needed."
+        },
+        {
+          "tier": "ESTABLISHED",
+          "surface": "Compacted coastal earth, sand or gravel on approach to existing port districts; quays separate.",
+          "wayfinding": "Merchant route markers with carved wood, stone and restrained metal fittings.",
+          "edge": "Local timber-and-rope or worked stone protection only near a confirmed edge.",
+          "ordinary_use": "Warehouse deliveries, port workers, coastal trade.",
+          "aging": "Salt patina and repaired hardware; no unapproved electrical system."
+        },
+        {
+          "tier": "ADVANCED_CIVIC_OR_INSTITUTIONAL",
+          "design": "Mercantile port approach: crafted brass/iron or timber wayfinding, maritime hardware, locally refined rail or stone parapet near a real quay or drop; no new electrical or transport system inferred."
+        }
+      ]
     }
   ],
   "history": {
@@ -248,11 +423,15 @@
     "active_graph_changed": false,
     "active_world_changed": false,
     "render_authorized": false,
-    "approved_reference_count": 0
+    "approved_reference_count": 0,
+    "three_tiers_per_region": true,
+    "regional_service_cells": 21
   },
   "limitations": [
     "Regional infrastructure detail is creative proposal, not mapped fixtures, engineering specifications or settled canon.",
     "Historical archive coverage is sporting evidence; historical Novel prose remains incomplete, and no dated modernization sequence is established.",
-    "G06 exact segment, route-specific truck access, and reference bytes still unresolved."
-  ]
+    "G06 exact segment, route-specific truck access, and reference bytes still unresolved.",
+    "Service tiers are contextual alternatives within each region, not a ranking of wealth or an authorization for any installation."
+  ],
+  "consumer_precedence": "memo-os/week-12/W12_ATLAS_EFFECTIVE_CONTROLS_2026-11-28.json"
 }

@@ -48,6 +48,10 @@ For the Founder terrain-path directive: PASS only when depicted terrestrial rout
 
 Regional marker/edge QA: PASS for locally plausible freestanding or carved wayfinding, and short protective barriers only where terrain or an established crossing justifies them. FAIL for painted road lanes, generic continuous highway rail, unsupported bridges or invented route placement. Proposed fixtures are not automatically canonical.
 
+Consumer precedence: resolve `memo-os/week-12/W12_ATLAS_EFFECTIVE_CONTROLS_2026-11-28.json` before older dossiers. Verify all seven regions contain REMOTE, ESTABLISHED and ADVANCED_CIVIC_OR_INSTITUTIONAL service treatments. They must all remain unpaved. Never use a tier as vehicle permission or as evidence of historical installation.
+
+Geometry QA: intended layout continuity is not verified image continuity. Set verified geometry true only after actual alternate reference bytes and invariant comparison are recorded; pending candidates remain false.
+
 ### GEO-10 — Horizon continuity
 PASS when established visible landmarks and cardinal relationships are stable.
 FAIL when major geography moves for composition convenience.

@@ -61,6 +61,10 @@ The Founder permits creative equivalents of road markings and guardrails, provid
 
 Keep all terrestrial travel surfaces unpaved. No generic modern lane paint or continuous manufactured highway rail. No new route nodes, transport permissions or structures are established by this table.
 
+## Contextual modernization — effective production overlay
+
+Use the [seven-region, three-tier art-direction matrix](../../memo-os/week-12/W12_REGIONAL_INFRASTRUCTURE_AND_HISTORICAL_TEXTURE_2026-11-28.json) and [effective controls](../../memo-os/week-12/W12_ATLAS_EFFECTIVE_CONTROLS_2026-11-28.json) before developing scene references. Remote, established and advanced/service-rich corridors all remain unpaved. Tiers describe a local context, not regional rank, surveyed installations or vehicle permissions. The terrain correction takes precedence over older paving/technology wording. Actual route and image verification are separate gates.
+
 ## Home-host travel law
 
 For ordinary matchups:

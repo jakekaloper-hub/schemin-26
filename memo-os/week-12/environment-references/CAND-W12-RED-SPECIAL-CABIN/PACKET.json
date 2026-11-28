@@ -29,7 +29,8 @@
   },
   "source": {
     "historical_dossier_blob": "8e812b96b0cef1e2ef736622c4278fdbfa99f683",
-    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+    "original_page_register_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3",
+    "effective_controls": "memo-os/week-12/W12_ATLAS_EFFECTIVE_CONTROLS_2026-11-28.json"
   },
   "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
   "three_layers": {
@@ -197,12 +198,14 @@
     }
   ],
   "qa": {
-    "same_geometry_all_three": true,
+    "same_geometry_all_three": false,
     "source_parent_bytes_read": true,
     "approved_visual_reference": false,
     "route_lock": false,
     "world_state_lock": false,
-    "independent_review": false
+    "independent_review": false,
+    "geometry_continuity_intended": true,
+    "geometry_verification_status": "PENDING_COMPARISON_OF_ACTUAL_MULTI_ANGLE_REFERENCES"
   },
   "render_authorized": false,
   "canon_promotion": false
