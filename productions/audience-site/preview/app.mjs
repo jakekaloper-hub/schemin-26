@@ -20,7 +20,7 @@ function dispatch(a){state=transitionObserver(state,a);return state;}
 function showFallback(reason){
  const firstLoss=$('#fallback').hidden;
  cancelWorldGesture();
- ready=false;cancelAnimationFrame(frameId);$('#fallback').hidden=false;$('#fallbackReason').textContent=reason;$('#splash').hidden=true;$('#skipReveal').hidden=true;
+ ready=false;cancelAnimationFrame(frameId);$('#worldSurface').hidden=true;$('#fallback').hidden=false;$('#fallbackReason').textContent=reason;$('#splash').hidden=true;$('#skipReveal').hidden=true;
  // Let a current read-only modal finish; its exit hands focus to the same source place.
  if(firstLoss&&!historySession&&!memorySession)restoreFallbackPlace(selected?.id);
 }

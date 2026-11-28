@@ -8,7 +8,7 @@ assert.ok(fallback.startsWith('function showFallback('));
 assert.ok(draw.startsWith('function draw(t){'));
 // Execute the actual host draw and fallback handlers with a controlled frame queue.
 function fixture({failure=null,paused=false,history=false,memory=false,hidden=false}={}){
- const nodes={'#fallback':{hidden:true},'#fallbackReason':{},'#splash':{hidden:true},'#skipReveal':{hidden:true},'#hint':{style:{}}};
+ const nodes={'#worldSurface':{hidden:false},'#fallback':{hidden:true},'#fallbackReason':{},'#splash':{hidden:true},'#skipReveal':{hidden:true},'#hint':{style:{}}};
  const queue=new Map(),cancelled=[],restored=[],rendered=[],ambient=[];
  let serial=0,retired=0,lose;
  const renderer={render(_camera,time,options){
@@ -24,7 +24,7 @@ function fixture({failure=null,paused=false,history=false,memory=false,hidden=fa
 }
 for(const failure of ['renderer','ambient'])test('post-readiness '+failure+' failure retires the frame and retains selected-place source access',()=>{
  const x=fixture({failure});x.draw(1020);
- assert.equal(x.nodes['#fallback'].hidden,false);
+ assert.equal(x.nodes['#fallback'].hidden,false);assert.equal(x.nodes['#worldSurface'].hidden,true);
  assert.match(x.nodes['#fallbackReason'].textContent,/graphics frame did not complete/);
  assert.equal(x.read().ready,false);
  assert.deepEqual(x.cancelled,[1]);assert.equal(x.queue.size,0);
@@ -40,7 +40,7 @@ test('a context loss followed by an exception preserves the first fallback reaso
 });
 test('healthy global-calm frames retain ordinary water motion and exactly one successor',()=>{
  const x=fixture();x.draw(1020);x.step(1040);
- assert.equal(x.queue.size,1);assert.equal(x.nodes['#fallback'].hidden,true);
+ assert.equal(x.queue.size,1);assert.equal(x.nodes['#fallback'].hidden,true);assert.equal(x.nodes['#worldSurface'].hidden,false);
  assert.deepEqual(x.rendered.map(r=>r.options.storm),[0,0]);
  assert.ok(x.rendered[0].time>10);assert.ok(x.rendered[1].time>x.rendered[0].time);
  assert.deepEqual(x.ambient,x.rendered.map(r=>r.time));assert.deepEqual(x.cancelled,[]);

@@ -92,12 +92,12 @@ test('unknown or unselected graphics-loss return focuses retry without borrowing
 test('graphics loss defers handoff while a historical reader owns focus',()=>{
   const code=source.slice(source.indexOf('function showFallback('),source.indexOf('function escapePanels('));
   for(const owner of ['history','memory',null]){
-    const nodes=Object.fromEntries(['#fallback','#fallbackReason','#splash','#skipReveal'].map(key=>[key,{hidden:true}]));
+    const nodes=Object.fromEntries(['#fallback','#fallbackReason','#splash','#skipReveal','#worldSurface'].map(key=>[key,{hidden:key!=='#worldSurface'}]));
     const calls=[];
     const loss=new Function('$','cancelAnimationFrame','restoreFallbackPlace','historySession','memorySession','cancelWorldGesture',
       'let ready=true,frameId=42,selected={id:"LOC-0"};'+code+';return showFallback;')(
       key=>nodes[key],id=>calls.push(id),id=>calls.push(id),owner==='history'?{}:null,owner==='memory'?{}:null,()=>calls.push('cancel gesture'));
-    loss('graphics lost');assert.equal(nodes['#fallback'].hidden,false);
+    loss('graphics lost');assert.equal(nodes['#fallback'].hidden,false);assert.equal(nodes['#worldSurface'].hidden,true);
     assert.deepEqual(calls,owner?['cancel gesture',42]:['cancel gesture',42,'LOC-0']);
     loss('duplicate loss');assert.deepEqual(calls,owner?['cancel gesture',42,'cancel gesture',42]:['cancel gesture',42,'LOC-0','cancel gesture',42]);
   }
@@ -117,4 +117,16 @@ test('historical modal exit routes restored source ID before attempting world fo
       exit();assert.deepEqual(calls,['close',['LOC-0',kind==='history'],...fallback?[]:['world focus']]);
     }
   }
+});
+
+test('terminal fallback removes all graphics controls from navigation without hiding source readers',()=>{
+  const start=layout.indexOf('<div id="worldSurface">'),end=layout.indexOf('</div><!-- worldSurface -->');
+  assert.ok(start>=0&&end>start);
+  const world=layout.slice(start,end),rest=layout.slice(end);
+  for(const id of ['world','motionToggle','infoToggle','placesToggle','placesPanel','inspector','infoPanel','skipReveal','splash'])assert.ok(world.includes('id="'+id+'"'),id);
+  assert.match(world,/class="skip"/);
+  for(const id of ['fallback','fallbackPlaces','fallbackDetail','memoryDialog','historyDialog']){
+    assert.ok(rest.includes('id="'+id+'"'),id);assert.ok(!world.includes('id="'+id+'"'),id);
+  }
+  assert.match(layout,/\[hidden\]\{display:none!important\}/);
 });
