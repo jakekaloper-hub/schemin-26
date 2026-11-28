@@ -31,9 +31,16 @@ function syncMemoryChrome(){
  const m=currentMemory(),p=m.pages[memorySession.pageIndex];
  $('#memoryTitle').textContent=p.title;$('#memoryPage').textContent=`${memorySession.pageIndex+1} / ${m.pages.length}`;
  $('#memoryPeriod').textContent=`2026 · WEEK 9 · RECORDED ARTWORK`;
- $('#memoryPrevious').disabled=memorySession.pageIndex===0;$('#memoryNext').disabled=memorySession.pageIndex===m.pages.length-1;
- $('#memoryProvenance').textContent=`Original source: Week 9 PDF, page ${p.pdfPage}. Scene detail is a crop; Original page shows the complete unaltered folio. Private preview—not present-day world state.`;
+ const previous=$('#memoryPrevious'),next=$('#memoryNext');
+ const atStart=memorySession.pageIndex===0,atEnd=memorySession.pageIndex===m.pages.length-1;
  for(const b of memoryButtons){const active=Number(b.dataset.memoryPage)===memorySession.pageIndex;b.setAttribute('aria-current',active?'page':'false');}
+ const focused=document.activeElement;
+ // Move focus before disabling a boundary control; keep other reader focus untouched.
+ if((focused===previous&&atStart)||(focused===next&&atEnd)){
+  memoryButtons.find(b=>Number(b.dataset.memoryPage)===memorySession.pageIndex)?.focus({preventScroll:true});
+ }
+ previous.disabled=atStart;next.disabled=atEnd;
+ $('#memoryProvenance').textContent=`Original source: Week 9 PDF, page ${p.pdfPage}. Scene detail is a crop; Original page shows the complete unaltered folio. Private preview—not present-day world state.`;
  layoutMemoryImage();
 }
 async function showMemoryPage(){
