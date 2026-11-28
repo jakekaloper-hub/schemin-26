@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Commonwealth · physical-GPU spectator journey inspection</title>
+<style>
+:root{color-scheme:dark;--line:#8b9f8a57;--sand:#e2d9bb;--green:#a1c4a6;--bg:#101b18}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--sand);font-family:system-ui,-apple-system,sans-serif}
+main{width:min(1180px,94vw);margin:0 auto;padding:35px 0 72px}.eyebrow{font-size:11px;letter-spacing:.17em;color:var(--green);text-transform:uppercase}
+h1{font:clamp(28px,4vw,48px)/1.08 Georgia,serif;margin:10px 0 13px}header p{max-width:790px;line-height:1.65;color:#c1cbbd}
+nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:28px 0 17px}
+nav button{background:#1c2a24;color:var(--sand);border:1px solid var(--line);border-radius:9px;text-align:left;min-height:65px;padding:12px 15px;cursor:pointer;font-size:12px;line-height:1.4}
+nav button strong{display:block;color:var(--green);font-size:10px;letter-spacing:.12em;margin-bottom:5px}
+nav button[aria-current="step"]{border-color:#dbd5af;background:#304134}button:focus-visible,a:focus-visible{outline:3px solid #dfd097;outline-offset:3px}
+figure{margin:0;border:1px solid var(--line);background:#060c0a;border-radius:10px;overflow:hidden}
+figure img{width:100%;display:block;object-fit:contain;aspect-ratio:1440/813}figcaption{padding:20px 24px 25px;display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:12px}
+figcaption h2{font:26px Georgia,serif;margin:0 0 8px}figcaption p{max-width:730px;line-height:1.55;color:#c2c9bc;margin:0}
+a{color:#d6d7ab;text-underline-offset:3px}.small{font-size:12px;color:#b4c5b2}
+footer{border-top:1px solid var(--line);margin-top:28px;padding-top:18px;max-width:900px;font-size:12px;line-height:1.65;color:#b9c3b3}
+@media(max-width:700px){nav{grid-template-columns:repeat(2,minmax(0,1fr))}figcaption{padding:16px}main{padding-top:20px}}
+</style>
+</head>
+<body><main>
+<header>
+<div class="eyebrow">Unpublished observer · observed physical GPU evidence</div>
+<h1>One complete spectator journey</h1>
+<p>Six original 1440 × 813 Chrome screenshots from the Apple M3 Pro's Three/WebGL2 observer, captured against source commit <code>77fbc8c0</code> after the Jackson bridge and Temple water refinements. Explore the established world, inspect Country Club of Jackson, read its location-exact recorded history, return to the identical viewpoint, return to the unlabeled world, then observe Waterfall Temple under the synthetic El Niño-loss global calm.</p>
+</header>
+<nav aria-label="Journey stages" id="stages">
+<button type="button" data-step="0" aria-current="step"><strong>01 · World</strong>Unlabeled Atlas view</button>
+<button type="button" data-step="1"><strong>02 · Place</strong>Country Club of Jackson</button>
+<button type="button" data-step="2"><strong>03 · History</strong>Recorded world memory</button>
+<button type="button" data-step="3"><strong>04 · Return</strong>Same Jackson camera</button>
+<button type="button" data-step="4"><strong>05 · World</strong>All 23 places still present</button>
+<button type="button" data-step="5"><strong>06 · Calm</strong>Waterfall motion continues</button>
+</nav>
+<figure><img id="frame" src="01-unlabeled-world.png" alt="Unlabeled Commonwealth world screenshot captured by actual Three/WebGL2 renderer">
+<figcaption><div><h2 id="heading">Unlabeled Commonwealth world</h2><p id="description">No place is hidden pending a visitor unlock. The world remains available without login.</p></div><a id="original" href="01-unlabeled-world.png">Open original PNG</a></figcaption></figure>
+<footer>
+<p><strong>Evidence boundaries.</strong> This is a local, source-only browser inspection surface, not a published visitor site, a historical reenactment, a live meteorological feed, proof of water-pixel causality, independently reviewed art, or Founder acceptance. Historical source state remains <code>end_of_week_3_2026</code>; the El Niño loss is a synthetic weather check. Screenshot stages were recorded sequentially; they are not spatially registered before/after scientific frames. Ordinary moving water was verified separately from the synthetic weather clock.</p>
+<p>Read the <a href="journey-smoke.json">separate full journey smoke</a> and the <a href="manifest.json">exact source/GPU/PNG SHA-256 manifest</a> for capture details. Keys: <kbd>←</kbd> and <kbd>→</kbd> navigate the stages. No external requests or third-party scripts.</p>
+</footer>
+</main>
+<script>
+const stages=[
+ ['01-unlabeled-world.png','Unlabeled Commonwealth world','No place is hidden pending a visitor unlock. The world remains available without login.'],
+ ['02-country-club-jackson.png','Country Club of Jackson','Source-bound place selection shows its own name, recorded status and candidate physical environment.'],
+ ['03-recorded-jackson-history.png','Jackson recorded world memory','Location-exact historical record opened in the existing reader. Historical time and water animation were isolated.'],
+ ['04-return-same-jackson-view.png','Return to the same place viewpoint','Closing recorded history preserved the observed Jackson camera within the strict regression tolerance.'],
+ ['05-return-unlabeled-world.png','Return to the unlabeled world','The inspector closes and the world remains explorable, with all 23 source locations still available.'],
+ ['06-waterfall-temple-global-calm.png','Waterfall Temple during global calm','Synthetic El Niño loss fixture suppresses storm regions; ordinary water continues animating. This is not a live feed.']
+];
+const buttons=[...document.querySelectorAll('[data-step]')],img=document.querySelector('#frame');
+const title=document.querySelector('#heading'),description=document.querySelector('#description'),link=document.querySelector('#original');
+let selected=0;
+function show(n){
+ selected=(n+stages.length)%stages.length;
+ const [file,heading,detail]=stages[selected];
+ img.src=file;img.alt=heading+' · unaltered real GPU screenshot';title.textContent=heading;
+ description.textContent=detail;link.href=file;
+ buttons.forEach((button,i)=>{if(i===selected)button.setAttribute('aria-current','step');else button.removeAttribute('aria-current')});
+}
+buttons.forEach((button,i)=>button.addEventListener('click',()=>show(i)));
+document.addEventListener('keydown',event=>{
+ if(event.key==='ArrowRight'||event.key==='ArrowLeft'){
+  event.preventDefault();show(selected+(event.key==='ArrowRight'?1:-1));
+  buttons[selected].focus();
+ }
+});
+</script>
+</body></html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Commonwealth · Southern Wetlands water-region motion inspection</title>
+<style>
+:root{color-scheme:dark;background:#111b17;color:#e7eadf;font-family:system-ui,-apple-system,sans-serif}
+*{box-sizing:border-box}body{max-width:1750px;margin:auto;padding:clamp(18px,3vw,46px)}
+.kicker{font-size:.75rem;letter-spacing:.2em;color:#d4bd84;text-transform:uppercase}
+h1{font:400 clamp(2rem,4.2vw,4.3rem)/1.08 Georgia,serif;margin:12px 0 18px}
+h2{font:400 clamp(1.1rem,1.6vw,1.6rem) Georgia,serif}p{max-width:1000px;line-height:1.6;color:#bacabb}
+nav{display:flex;gap:10px;flex-wrap:wrap;margin:25px 0;padding:15px 0;border-block:1px solid #435846}
+button{background:#203329;color:#e7eadf;border:1px solid #536e59;border-radius:6px;padding:12px 16px;cursor:pointer;font:inherit;min-height:44px}
+button[aria-pressed=true]{background:#d3bc86;color:#111b17;font-weight:700}
+button:focus-visible,a:focus-visible{outline:3px solid #e7cd91;outline-offset:3px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+figure{margin:0;background:#192b22;border:1px solid #435a49;border-radius:8px;overflow:hidden}
+.view{position:relative;aspect-ratio:1440/813}
+.view img{width:100%;height:100%;object-fit:contain;display:block}
+.roi{position:absolute;border:2px solid #f5b362;background:rgba(245,179,98,.11);pointer-events:none}
+.roi.static{border-color:#a6dfbd;background:rgba(166,223,189,.09)}
+figcaption{padding:12px 15px;line-height:1.5;color:#cbd4c9;font-size:.86rem}
+.score{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}
+.metric{flex:1;min-width:170px;border-top:1px solid #61765d;padding-top:13px}
+.metric b{font:400 clamp(1.5rem,2.8vw,2.5rem) Georgia,serif;display:block}
+.metric span{color:#b7c8b8;font-size:.8rem}
+.zoom{display:grid;grid-template-columns:minmax(170px,360px) 1fr;gap:20px;align-items:center;margin:24px 0}
+.zoom img{width:100%;max-height:380px;object-fit:contain;image-rendering:pixelated;border:1px solid #8c6547;border-radius:5px;background:#091313}
+.note{border-top:1px solid #435846;padding-top:15px;font-size:.86rem}
+a{color:#dfc897}.sources{display:flex;gap:12px;flex-wrap:wrap}
+@media(max-width:830px){.grid,.zoom{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><div class="kicker">Schemin · Commonwealth / Atlas · private evidence · 23 November 2026</div>
+<h1>Water in motion.<br>Source pixels under inspection.</h1>
+<p>These are original, held-camera, hardware-Three/WebGL2 Southern Wetlands frames captured on an Apple M3 Pro. The outlined water-focused region is compared between two moving frames taken during synthetic El Niño <strong>GLOBAL_CALM</strong>; the nearby green control sample is unchanged. Explicitly paused frames are pixel-identical.</p>
+<p><strong>CANDIDATE_NOT_APPROVED.</strong> The regions are manually selected screen rectangles, <strong>not water-only segmentation</strong>. Changes may include foliage, mist or shading. The derived amber pixels are a diagnostic RGB-difference visualization, not added scenery, finished art or independent acceptance.</p></header>
+<nav aria-label="Source location"><button data-place="temple" type="button" aria-pressed="true">Waterfall Temple</button><button data-place="jackson" type="button" aria-pressed="false">Country Club of Jackson</button><button data-place="mud-dogs" type="button" aria-pressed="false">Mud Dogs Swamp</button></nav>
+<main><h2 id="name">Podium Shadow Waterfall Temple</h2>
+<div class="grid">
+<figure><div class="view"><img id="frameA" alt="Hardware-rendered first moving frame" width="1440" height="813" src="../gpu-wetlands-exact-0736e071-20261123/temple-01-moving.png"><div id="waterBox" class="roi" aria-hidden="true"></div><div id="staticBox" class="roi static" aria-hidden="true"></div></div><figcaption>Moving 01 · orange: water-focused sample · green: stable control sample</figcaption></figure>
+<figure><div class="view"><img id="frameB" alt="Hardware-rendered second moving frame, same camera" width="1440" height="813" src="../gpu-wetlands-exact-0736e071-20261123/temple-02-moving.png"></div><figcaption>Moving 02 · same location and held camera · ordinary water time advanced</figcaption></figure>
+</div>
+<div class="score"><div class="metric"><b id="changed">33 / 4,930</b><span>Water-region pixels with average RGB delta greater than 12</span></div><div class="metric"><b>0</b><span>Changed pixels in nearby stable-control rectangle</span></div><div class="metric"><b>0</b><span>Changed pixels in water rectangle under explicit pause</span></div></div>
+<section class="zoom"><a id="diffLink" href="temple-water-region-rgb-difference.png"><img id="diff" src="temple-water-region-rgb-difference.png" alt="Source-derived water-region RGB difference, amber indicates changed pixels"></a>
+<div><h2>Zoomed pixel difference</h2><p>Displayed at native region resolution with nearest-neighbor enlargement. Amber marks RGB variation between original frames; dark areas have no or negligible change. The heatmap is derived from immutable source screenshots, not a third synthetic rendering.</p>
+<div class="sources"><a id="originalA" href="../gpu-wetlands-exact-0736e071-20261123/temple-01-moving.png">Full-size moving 01</a><a id="originalB" href="../gpu-wetlands-exact-0736e071-20261123/temple-02-moving.png">Full-size moving 02</a><a id="pausedA" href="../gpu-wetlands-exact-0736e071-20261123/temple-03-paused-a.png">Paused A</a><a id="pausedB" href="../gpu-wetlands-exact-0736e071-20261123/temple-04-paused-b.png">Paused B</a></div></div></section>
+<p class="note">Capture source <code>0736e071e4fcd3c70deea60e565293ccfde2230b</code>, historic <code>end_of_week_3_2026</code>; screenshot authority and SHA-256 are in the <a href="../gpu-wetlands-exact-0736e071-20261123/manifest.json">original capture manifest</a>. Derived pixel metrics, ROI coordinates and PNG hashes are in the <a href="./manifest.json">diagnostic manifest</a>. No public release, new topology, live weather feed, principal characters, credentials, paid API or publication authorization.</p></main>
+<script>
+(()=>{'use strict';
+const base='../gpu-wetlands-exact-0736e071-20261123/';
+const sites={
+ temple:{name:'Podium Shadow Waterfall Temple',region:[620,340,34,145],stable:[705,350,100,70],changed:33,total:4930},
+ jackson:{name:'Country Club of Jackson',region:[665,118,65,130],stable:[632,400,120,68],changed:114,total:8450},
+ 'mud-dogs':{name:'Mud Dogs Swamp',region:[690,560,180,55],stable:[200,490,170,110],changed:311,total:9900}
+};
+const el=id=>document.getElementById(id);
+function box(node,r){node.style.left=r[0]/1440*100+'%';node.style.top=r[1]/813*100+'%';node.style.width=r[2]/1440*100+'%';node.style.height=r[3]/813*100+'%';}
+function select(slug){
+ const site=sites[slug];if(!site)return;
+ el('name').textContent=site.name;box(el('waterBox'),site.region);box(el('staticBox'),site.stable);
+ el('changed').textContent=site.changed+' / '+site.total.toLocaleString('en-US');
+ for(const [id,suffix]of [['frameA','01-moving'],['frameB','02-moving']]){
+  el(id).src=base+slug+'-'+suffix+'.png';el(id).alt=site.name+', original '+suffix.replaceAll('-',' ')+' hardware-rendered frame';
+ }
+ for(const [id,suffix]of [['originalA','01-moving'],['originalB','02-moving'],['pausedA','03-paused-a'],['pausedB','04-paused-b']])el(id).href=base+slug+'-'+suffix+'.png';
+ const diff=slug+'-water-region-rgb-difference.png';el('diff').src=diff;el('diffLink').href=diff;el('diff').alt=site.name+', derived region RGB-difference image';
+ for(const b of document.querySelectorAll('[data-place]'))b.setAttribute('aria-pressed',String(b.dataset.place===slug));
+}
+for(const b of document.querySelectorAll('[data-place]'))b.addEventListener('click',()=>select(b.dataset.place));
+select('temple');
+})();
+</script></body></html>

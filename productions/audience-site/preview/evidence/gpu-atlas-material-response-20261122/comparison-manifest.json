@@ -1,0 +1,205 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "QUALITATIVE_SIDE_BY_SIDE_PHYSICAL_GPU_STILLS_NOT_CAUSAL_PIXEL_DIFF_OR_ART_ACCEPTANCE",
+  "baselineRevision": "8ae8615fad190af2a4308438d04270bdf4c76eef",
+  "candidateRevision": "7a03257e0bf745a18819a0aa97506b988c6f149a",
+  "baselineEvidenceDirectory": "gpu-atlas-views-20261122-1528",
+  "candidateEvidenceDirectory": "gpu-atlas-material-response-20261122",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "sourceAsOf": "end_of_week_3_2026",
+  "coverage": {
+    "placeCount": 23,
+    "sameSourcePlaceIds": true,
+    "nearIdenticalCamerasWithinWorldUnits": 0.01,
+    "baselineAndCandidateImageHashesVerified": true
+  },
+  "interpretation": "Captured across separate hardware runs; antialiasing, exposure, temporal phase, animation and numerical camera drift may differ. Compare material appearance visually, not as an isolated causal A/B or pixel-difference oracle. No visual approval is implied.",
+  "pairs": [
+    {
+      "placeId": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "sourceName": "Trade Jedi Mountain Base",
+      "file": "01-loc-trade-jedi-mountain-base.png",
+      "baselineSha256": "d0cfaaa3a4b43ce8fa32f07a5fd56204d51995a908a57a9c92dcb6afe2a2e3fa",
+      "candidateSha256": "10b8992dffd40d0d228b53f8a6fc22e498eb4bbbe13d33a20c32074fdd00dd5f",
+      "cameraMaxAbsDelta": 0.00030759
+    },
+    {
+      "placeId": "LOC-MUD-DOGS-SWAMP",
+      "sourceName": "Mud Dogs Swamp",
+      "file": "02-loc-mud-dogs-swamp.png",
+      "baselineSha256": "07b97d7cbdeeb93d0557ba24724e76cce9491bdb8e8bf94ca8a32f4a2de7c05c",
+      "candidateSha256": "33ce2ef4a3be4944982437127b68731d289dc4df19462bc0381ccbfaf0b892a3",
+      "cameraMaxAbsDelta": 4.721e-05
+    },
+    {
+      "placeId": "LOC-COUNTRY-CLUB-JACKSON",
+      "sourceName": "Country Club of Jackson",
+      "file": "03-loc-country-club-jackson.png",
+      "baselineSha256": "723a775ad44665dc9f89c486375315f205c86b46d4a0fe46660fab74d5839046",
+      "candidateSha256": "73aa649da692734c804dee63912324c71e5f924f6f66217a763ad34d82a48808",
+      "cameraMaxAbsDelta": 1.878e-05
+    },
+    {
+      "placeId": "LOC-ARSENAL-BARBERSHOP",
+      "sourceName": "Arsenal Barbershop",
+      "file": "04-loc-arsenal-barbershop.png",
+      "baselineSha256": "da9d6b34892a7a95d459543125363aa8a00ffc7ab2fe86c0b34c5d564b92f344",
+      "candidateSha256": "f7e09249575141381e574d790f8546f7a5b5d1a17e730115c4263bf91979f122",
+      "cameraMaxAbsDelta": 5.453e-05
+    },
+    {
+      "placeId": "LOC-STORM-BOWL",
+      "sourceName": "Storm Bowl",
+      "file": "05-loc-storm-bowl.png",
+      "baselineSha256": "4a67bb8d201b54ede7f121263ffc2814dee90e1bece7f1a9aeb1bf48a63acf06",
+      "candidateSha256": "1083cc31b3cb8ceeefa54fa46d1b7b50f0d4094130953665e982834744d85ffa",
+      "cameraMaxAbsDelta": 7.464e-05
+    },
+    {
+      "placeId": "LOC-LLC-BOARDROOM",
+      "sourceName": "LLC Mercantile Boardroom",
+      "file": "06-loc-llc-boardroom.png",
+      "baselineSha256": "e8d49674565ff89659eb38d9f64ade83811997455c24bbd20b5459eafeef9efc",
+      "candidateSha256": "4f59bf86ef3067a4a73af878e3faf25fbd9215162df0b340d79224c72980460d",
+      "cameraMaxAbsDelta": 5.024e-05
+    },
+    {
+      "placeId": "LOC-RED-RUINS",
+      "sourceName": "Red Leopard Ruins",
+      "file": "07-loc-red-ruins.png",
+      "baselineSha256": "64dd75ac99f239e26c42ef8e169993383720bd107f93af67e9e5c3d27ad51c5e",
+      "candidateSha256": "c1c802eb351fdc793789071b61964baf7225032145fda943e7c260f862afeded",
+      "cameraMaxAbsDelta": 5.299e-05
+    },
+    {
+      "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+      "sourceName": "Podium Shadow Waterfall Temple",
+      "file": "08-loc-tds-waterfall-temple.png",
+      "baselineSha256": "bbd9f6c211fc05a9091544e118d5386fa7a42590b50ff570650ee8f282a62163",
+      "candidateSha256": "72e2a40c77aae5e9786f6233ee2cdaccec115a7e4b022edb84ca572f12d8d731",
+      "cameraMaxAbsDelta": 7.132e-05
+    },
+    {
+      "placeId": "LOC-CHILI-STABLE",
+      "sourceName": "Chili Outlaw Stable",
+      "file": "09-loc-chili-stable.png",
+      "baselineSha256": "e9dae8656f7da2bbaa3d0e3807b8bd0498524c3e585e0a3680b0552fa35a4256",
+      "candidateSha256": "949a1a1e8b2174369ae80a93c04aab034a6fadf9eebfcd88850ce15678755daa",
+      "cameraMaxAbsDelta": 5.37e-06
+    },
+    {
+      "placeId": "LOC-BELT-KEEPER-KEEP",
+      "sourceName": "Belt Keeper Rune Keep",
+      "file": "10-loc-belt-keeper-keep.png",
+      "baselineSha256": "55cee1592becc1961c2b9f4c700c303b90832bfef10b2ce78be608c4e7185f8f",
+      "candidateSha256": "41e7388dea516a324fa75f6652170f5c355a8d6245b3e1e3740aab51df0d67a1",
+      "cameraMaxAbsDelta": 0.00011826
+    },
+    {
+      "placeId": "LOC-SLOB-FOOTHILL-CAMP",
+      "sourceName": "Slob Foothill Camp",
+      "file": "11-loc-slob-foothill-camp.png",
+      "baselineSha256": "43864dac09c41f1c4a9fb14b0bff7dd0f4275c404e1aa6a5a8b5612f3160f27c",
+      "candidateSha256": "065419e97a8bed20edab38439191cf5822c5242eefdf9976e9dd84b5eeb5ecea",
+      "cameraMaxAbsDelta": 0.0
+    },
+    {
+      "placeId": "LOC-CHINS-ROAD-COMMONS",
+      "sourceName": "People's Champ Road Commons",
+      "file": "12-loc-chins-road-commons.png",
+      "baselineSha256": "84a8d5950d360bdac2f1df8c656e0881e5d5b5907a2111c3597e71199e03c1f6",
+      "candidateSha256": "bd564302a7e16458bf6373fe8981780a9d6fac89b450b4249e00c9df20b33675",
+      "cameraMaxAbsDelta": 8.972e-05
+    },
+    {
+      "placeId": "LOC-LEAGUE-CHAMBER",
+      "sourceName": "League Chamber",
+      "file": "13-loc-league-chamber.png",
+      "baselineSha256": "34d4a2d99534655a97fc9544d011c512ff9ed078659b120df49cb04e43a67dd2",
+      "candidateSha256": "511561150123c189ea9a9d776fd03035f856e984baef41488eb1870baaf1d579",
+      "cameraMaxAbsDelta": 4.487e-05
+    },
+    {
+      "placeId": "LOC-PITTSYS-BOOK",
+      "sourceName": "Pittsy's Book",
+      "file": "14-loc-pittsys-book.png",
+      "baselineSha256": "f39fffd82bcc0348a4b2322055376f0b30193ffe2bdfe42455265e08b914c8bf",
+      "candidateSha256": "1ed15d5a1516fe8e0fe320b315495732b2f750f7ce26a78948afd138505f44cd",
+      "cameraMaxAbsDelta": 8.82e-06
+    },
+    {
+      "placeId": "LOC-BRIDGE-MOUNTAIN-LAKE",
+      "sourceName": "Bridge at the Mountain Lake",
+      "file": "15-loc-bridge-mountain-lake.png",
+      "baselineSha256": "7cbf8af6c8388735946ff162da9c3b499f23c99e7ddcbcd76b3739605eed557c",
+      "candidateSha256": "aaa5528cdccb1d20dcc6a8648f2018acdeec4b01d60beeab5a5e252d1542008d",
+      "cameraMaxAbsDelta": 0.00010986
+    },
+    {
+      "placeId": "LOC-DK-MUD-HILL",
+      "sourceName": "Mire Hill Battlefield",
+      "file": "16-loc-dk-mud-hill.png",
+      "baselineSha256": "4a41d82201506b1fe1a4ff953cd0aca35f5689ac0c2a761cdd880789e4929de1",
+      "candidateSha256": "2a88652898644aeb7f96446228285de94f7a052f53805a762e0e6fb760dacd3e",
+      "cameraMaxAbsDelta": 0.00012215
+    },
+    {
+      "placeId": "LOC-RED-SLOB-ALPINE-ROUTE",
+      "sourceName": "Alpine Wager Route",
+      "file": "17-loc-red-slob-alpine-route.png",
+      "baselineSha256": "97a5efd6cf25ec300c3b2c8b502ad575dee213a3f18b5d1df7be781b32e44310",
+      "candidateSha256": "705fce198b7aa510e1866764dcac84dd2799124686a1752f9c7a3f0dcd292856",
+      "cameraMaxAbsDelta": 5.724e-05
+    },
+    {
+      "placeId": "LOC-SOUTHERN-SPEEDWAY",
+      "sourceName": "Southern Speedway",
+      "file": "18-loc-southern-speedway.png",
+      "baselineSha256": "2cda922fbbba390ed151aa6d4b958f3b99baeb5c167ee6a34cdb1a5da394d55a",
+      "candidateSha256": "60b798b3893d95def7b6f59a2556d518eace34952d9ac369d49fa6011bf4fd2a",
+      "cameraMaxAbsDelta": 0.00014438
+    },
+    {
+      "placeId": "LOC-LLC-STORM-CITY",
+      "sourceName": "LLC Port City Storm District",
+      "file": "19-loc-llc-storm-city.png",
+      "baselineSha256": "e9cc87adef9fe1d94ff6b87d5576dfe03edcf9044639cd042f225a7da2571f4e",
+      "candidateSha256": "066261284a732c774e5a3913e9d3a134edb6877edb440e8cf24c20f484658d06",
+      "cameraMaxAbsDelta": 0.00010692
+    },
+    {
+      "placeId": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "sourceName": "D0nkey K0ng Highland Stronghold",
+      "file": "20-loc-dk-highland-stronghold.png",
+      "baselineSha256": "71e895477162a8e96a3d75292558d44e2e708de04067f6a9b866d99ba9b11110",
+      "candidateSha256": "f3e8e17c233f5d175bc1e8f5509df1b75d61ac28e5c97135649cecda0adec27c",
+      "cameraMaxAbsDelta": 0.0
+    },
+    {
+      "placeId": "LOC-TDS-CHILI-SHARED-MARCH",
+      "sourceName": "TDS\u2013Chili Shared March",
+      "file": "21-loc-tds-chili-shared-march.png",
+      "baselineSha256": "5c6c40a517104330a7e9c4ab03172ba4efe7196e2506f0182f74fab26df383bf",
+      "candidateSha256": "edfeed7005922e9f086491067b1bad0e4ec6ffaa1d891cdc43957322ca4eb605",
+      "cameraMaxAbsDelta": 6.391e-05
+    },
+    {
+      "placeId": "LOC-COMPACT-NEUTRAL-GROUNDS",
+      "sourceName": "Compact Neutral Grounds",
+      "file": "22-loc-compact-neutral-grounds.png",
+      "baselineSha256": "b0b6ff45b547d6281fa620e51d33f7bce2db545ac953309194e05a9cb1785dbb",
+      "candidateSha256": "596e93d1b5f9ad6ccade717d82dd42b5c675cf01b10cff994fd5fc7dcaaf41b2",
+      "cameraMaxAbsDelta": 3.658e-05
+    },
+    {
+      "placeId": "LOC-LEAGUE-ARCHIVE",
+      "sourceName": "League Archive",
+      "file": "23-loc-league-archive.png",
+      "baselineSha256": "49e04aaae13c412ef7ad58684b81e7491a3d38eb41b7fd541b286dfcaf5b69a2",
+      "candidateSha256": "45c23698783352baa380d9a06281d53f8f50e60296a841090973a01c134c4a81",
+      "cameraMaxAbsDelta": 7.546e-05
+    }
+  ]
+}

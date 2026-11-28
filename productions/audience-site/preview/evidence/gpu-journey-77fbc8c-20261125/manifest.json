@@ -1,0 +1,145 @@
+{
+  "kind": "UNPUBLISHED_REAL_GPU_JOURNEY_EVIDENCE",
+  "sourceSha": "77fbc8c0cb9a481efd6e03e8cb2f58a7fdd59e79",
+  "sourceStateAsOf": "end_of_week_3_2026",
+  "historyStatus": "RELEASE_CANDIDATE",
+  "publicationAuthorized": false,
+  "originalMemoImages": 0,
+  "visualAcceptance": "NOT_REVIEWED",
+  "browser": "Chrome headless physical WebGL2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "atlasLocations": 23,
+  "historyLocationId": "LOC-COUNTRY-CLUB-JACKSON",
+  "historyEntryCount": 1,
+  "historyCameraPreserved": true,
+  "historyWaterPaused": true,
+  "historyPausedWaterSampleStart": 3.833199999999996,
+  "historyPausedWaterSampleEnd": 3.833199999999996,
+  "preHistoryWaterAdvanced": true,
+  "resumedWaterAfterHistory": true,
+  "elNinoSyntheticLossStatus": "GLOBAL_CALM",
+  "stormZonesDuringCalm": [],
+  "ordinaryWaterAdvancedDuringCalm": true,
+  "externalRequests": [],
+  "errors": [],
+  "stages": [
+    {
+      "file": "01-unlabeled-world.png",
+      "stage": "WORLD",
+      "locationId": null,
+      "camera": {
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "distance": 280,
+        "yaw": -0.23,
+        "pitch": 0.78
+      },
+      "waterTime": 1.0333000000000006,
+      "width": 1440,
+      "height": 813,
+      "sha256": "ad2d2f69df5de3b152231b1ba1dc85d4c7ba38081bac1d9a35ae0d914ea369db"
+    },
+    {
+      "file": "02-country-club-jackson.png",
+      "stage": "PLACE",
+      "locationId": "LOC-COUNTRY-CLUB-JACKSON",
+      "camera": {
+        "target": [
+          13.999985772625541,
+          4.998228961718287,
+          51.999947155466295
+        ],
+        "distance": 60.84199343213131,
+        "yaw": 0.11999964431563855,
+        "pitch": 0.6500001321113342
+      },
+      "waterTime": 3.583199999999996,
+      "width": 1440,
+      "height": 813,
+      "sha256": "bdfb3c437d735e920f7e2db7ba286e49c97a8f6cd34e9a998bb696f1f5ebc0d6"
+    },
+    {
+      "file": "03-recorded-jackson-history.png",
+      "stage": "HISTORY",
+      "locationId": "LOC-COUNTRY-CLUB-JACKSON",
+      "camera": {
+        "target": [
+          13.999996825443658,
+          4.998232907759126,
+          51.99998820879073
+        ],
+        "distance": 60.841820409556526,
+        "yaw": 0.11999992063609148,
+        "pitch": 0.6500000294780232
+      },
+      "waterTime": 3.833199999999996,
+      "width": 1440,
+      "height": 813,
+      "sha256": "bf5c9f4de4c657735b18d4f2287f7948f3ccf71d85da08a3406454c065c1b89f"
+    },
+    {
+      "file": "04-return-same-jackson-view.png",
+      "stage": "SAME_PLACE_RETURN",
+      "locationId": "LOC-COUNTRY-CLUB-JACKSON",
+      "camera": {
+        "target": [
+          13.999996825443658,
+          4.998232907759126,
+          51.99998820879073
+        ],
+        "distance": 60.841820409556526,
+        "yaw": 0.11999992063609148,
+        "pitch": 0.6500000294780232
+      },
+      "waterTime": 3.9900000003814653,
+      "width": 1440,
+      "height": 813,
+      "sha256": "bf140aca5ad4ad5c5e673aa0223972217b0ea4bfc9ef112da04fdd2c9b9b16e1"
+    },
+    {
+      "file": "05-return-unlabeled-world.png",
+      "stage": "WORLD_RETURN",
+      "locationId": null,
+      "camera": {
+        "target": [
+          0.0017287738186162467,
+          0.0006172011535442836,
+          0.006421159897717488
+        ],
+        "distance": 279.9729374993626,
+        "yaw": -0.2299567806545346,
+        "pitch": 0.7799839471002558
+      },
+      "waterTime": 5.740000000381483,
+      "width": 1440,
+      "height": 813,
+      "sha256": "dc5f705d070f991b8d200dc0468de7a50ba0eed29cbb14bef9e90e25f1549472"
+    },
+    {
+      "file": "06-waterfall-temple-global-calm.png",
+      "stage": "CALM_WATERFALL",
+      "locationId": "LOC-TDS-WATERFALL-TEMPLE",
+      "camera": {
+        "target": [
+          -35.999963437122865,
+          8.374288382819945,
+          41.99995734401375
+        ],
+        "distance": 51.800494548669406,
+        "yaw": 0.11999964453258971,
+        "pitch": 0.6500001320307524
+      },
+      "waterTime": 8.4566000003815,
+      "width": 1440,
+      "height": 813,
+      "sha256": "b9b98f4c14495cd211785117dea80788a7a9cba6f35f7ba11afbeb4f84fe5833"
+    }
+  ],
+  "observerSha256": "634b9bcc345514b9c006488150670a663e8bd1f121fadcd80aa67bb2ac0558f4",
+  "evidenceStatus": "CANDIDATE_NOT_APPROVED",
+  "captureTool": "productions/audience-site/preview/tools/journey-stage-capture.mjs",
+  "separateJourneySmoke": "journey-smoke.json"
+}

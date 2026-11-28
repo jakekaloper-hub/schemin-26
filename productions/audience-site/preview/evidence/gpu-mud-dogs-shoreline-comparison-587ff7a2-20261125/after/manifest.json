@@ -1,0 +1,101 @@
+{
+  "preset": "mud",
+  "sourceSha": "587ff7a2f248a7420fb72ee3b17d6bcbcd15b968",
+  "toolCheckoutBase": "587ff7a2f248a7420fb72ee3b17d6bcbcd15b968",
+  "observerSha256": "ae4cd684ef9b9e3e029536f63031d923ce65dacc39733e022fab165f11cd4754",
+  "sourceStateAsOf": "end_of_week_3_2026",
+  "syntheticUtc": "2026-11-25T17:00:00.000Z",
+  "weather": "SYNTHETIC_GLOBAL_CALM",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "atlasLocations": 23,
+  "publicationAuthorized": false,
+  "visualAcceptance": "NOT_REVIEWED",
+  "browserErrors": 0,
+  "externalRequests": 0,
+  "frames": [
+    {
+      "file": "standard.png",
+      "stage": "standard",
+      "locationId": "LOC-MUD-DOGS-SWAMP",
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 60,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "a0fbcb841492c2eff48fe47358ce3dfcb7e34e4143a1b052b834e261de76dc23",
+      "bytes": 841104,
+      "retained": true
+    },
+    {
+      "file": "standard-repeat.png",
+      "stage": "standard",
+      "locationId": "LOC-MUD-DOGS-SWAMP",
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 60,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "a0fbcb841492c2eff48fe47358ce3dfcb7e34e4143a1b052b834e261de76dc23",
+      "bytes": 841104,
+      "retained": false
+    },
+    {
+      "file": "closer.png",
+      "stage": "closer",
+      "locationId": "LOC-MUD-DOGS-SWAMP",
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 36,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "7fe071f9cc177afe5118c1821ecbad778519ae5c5480649282a7adb87465e6df",
+      "bytes": 787307,
+      "retained": true
+    },
+    {
+      "file": "closer-repeat.png",
+      "stage": "closer",
+      "locationId": "LOC-MUD-DOGS-SWAMP",
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 36,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "width": 1440,
+      "height": 813,
+      "sha256": "7fe071f9cc177afe5118c1821ecbad778519ae5c5480649282a7adb87465e6df",
+      "bytes": 787307,
+      "retained": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "CONTROLLED_PHYSICAL_GPU_JACKSON_BALUSTRADE_COMPARISON",
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "baseline": "22b37d6f583cbcbf7358a409716c6bfc133a8e1b",
+  "refined": "6d5338d90c090050ffa18d71cddb126c79759f51",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "syntheticUtc": "2026-11-25T17:00:00.000Z",
+  "weather": "SYNTHETIC_GLOBAL_CALM",
+  "sourceStateAsOf": "end_of_week_3_2026",
+  "atlasLocations": 23,
+  "sourceOnly": true,
+  "matchedCamera": true,
+  "matchedWaterPhase": true,
+  "stableRepeatPairs": 4,
+  "browserErrors": 0,
+  "externalRequests": 0,
+  "captureToolSha256": "57cef2bfc11b692bc1d684bdc8860d4889390c2dda7efd59afedfb1de6cf7c61",
+  "comparisons": [
+    {
+      "stage": "standard",
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 60,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "changed": 706,
+      "total": 1170720,
+      "changedFraction": 0.0006030476971436381,
+      "minimumRgbChannelDelta": 2,
+      "changedPixelBounds": [
+        821,
+        454,
+        879,
+        548
+      ],
+      "scope": "Whole viewport; includes any induced shading changes, not an isolated bridge mask."
+    },
+    {
+      "stage": "closer",
+      "camera": {
+        "target": [
+          14,
+          4.998234041128811,
+          52
+        ],
+        "distance": 30,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "changed": 4571,
+      "total": 1170720,
+      "changedFraction": 0.00390443487768211,
+      "minimumRgbChannelDelta": 2,
+      "changedPixelBounds": [
+        942,
+        506,
+        1073,
+        720
+      ],
+      "scope": "Whole viewport; includes any induced shading changes, not an isolated bridge mask."
+    }
+  ]
+}

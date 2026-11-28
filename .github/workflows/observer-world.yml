@@ -1,0 +1,50 @@
+name: Commonwealth observer foundation
+on:
+  pull_request:
+    paths:
+      - 'productions/audience-site/**'
+      - 'world/data/**'
+      - '.github/workflows/observer-world.yml'
+      - 'docs/superpowers/specs/2026-11-15-commonwealth-observer-foundation.md'
+      - 'docs/superpowers/plans/2026-11-15-commonwealth-observer-foundation.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Exact source revision
+        run: git rev-parse HEAD
+      - name: All audience-site Node tests (including observer regressions)
+        run: npm --prefix productions/audience-site test
+      - name: Existing public catalog and publication/world boundaries
+        run: |
+          python3 productions/audience-site/tests/test_public_catalog.py
+          python3 governance/publication-manifest/validate_publication_manifest.py
+          python3 world/qa/test_one_world_model_contract.py
+      - name: Full Story Graph tests and corpus drift
+        run: |
+          python3 -m unittest discover -s planning/story-production-graph/tests -p 'test_*.py' -v
+          python3 planning/story-production-graph/generate_persisted_corpus.py --check
+          python3 planning/story-production-graph/build_downstream_consumers.py --check
+      - name: Whole-Atlas observer integration
+        run: |
+          node productions/audience-site/scripts/verify-observer-sources.mjs
+          node productions/audience-site/scripts/build-observer-catalog.mjs
+          git diff --exit-code -- world/data
+      - uses: actions/upload-artifact@v4
+        with:
+          name: observer-candidate-${{ github.event.pull_request.head.sha || github.sha }}
+          path: productions/audience-site/dist/observer-candidate.json
+          if-no-files-found: error

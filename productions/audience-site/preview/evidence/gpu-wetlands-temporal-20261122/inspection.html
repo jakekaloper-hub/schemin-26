@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Commonwealth Southern Wetlands | 12-frame physical-GPU candidate inspection</title>
+<style>
+:root{color-scheme:dark;background:#101e1c;color:#e5efeb;font-family:system-ui,-apple-system,sans-serif}
+*{box-sizing:border-box}body{margin:0}main{max-width:1510px;margin:0 auto;padding:clamp(16px,3vw,40px)}
+.eyebrow{text-transform:uppercase;letter-spacing:.15em;color:#a3d8c8;font-size:.72rem;font-weight:700}
+h1{font-family:Georgia,serif;font-size:clamp(2rem,4vw,3.2rem);margin:.2rem 0 12px}h2{font-family:Georgia,serif;font-size:clamp(1.5rem,3vw,2.15rem);margin:0}
+p{line-height:1.55}.subtle,figcaption{color:#c3d0ca}.mono{font-family:ui-monospace,Menlo,monospace;font-size:.83rem;overflow-wrap:anywhere}
+nav{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 28px}.place{margin:18px 0}
+button{font:inherit;background:#1b3933;color:#e4f5ef;border:1px solid #51776b;border-radius:8px;padding:9px 13px;cursor:pointer}
+button:hover,button:focus-visible{outline:2px solid #9bd4c2;outline-offset:2px}
+button[aria-pressed="true"]{background:#2b6655;border-color:#a3ddc7}button:disabled{opacity:.6}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+figure{min-width:0;background:#172b27;border:1px solid #365d51;border-radius:12px;margin:0;padding:14px}
+h3{font-size:1rem;margin:4px 0 13px}.view{position:relative;aspect-ratio:1440/813;background:#060d0c;overflow:hidden;border-radius:7px}
+.view img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;user-select:none}
+.view .after{clip-path:inset(0 50% 0 0)}.view.difference .after{clip-path:none!important;mix-blend-mode:difference}
+.controls{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:13px 0}.controls label,.controls output{font-size:.82rem}
+input[type="range"]{min-width:80px;flex:1;accent-color:#b3ddca}.controls button{font-size:.83rem}
+figcaption{font-size:.8rem;line-height:1.6}.broken{font-weight:700;color:#ffaaa0}
+.boundary{border-left:3px solid #d7bd7b;background:#1c3330;margin-top:32px;padding:15px 22px}
+a{color:#b6e9d3}a:hover{text-decoration:none}
+[hidden]{display:none!important}@media(max-width:860px){.grid{grid-template-columns:1fr}}
+</style></head><body><main>
+<p class="eyebrow">Schemin' Commonwealth / read-only engineering evidence</p>
+<h1>Southern Wetlands: water in motion</h1>
+<p>Three <strong>source-defined places</strong>, 12 unchanged physical WebGL2 screenshots, one held viewpoint per place. Compare advancing scene frames under a <strong>synthetic El Niño loss → GLOBAL_CALM</strong> weather demonstration with exactly stable frames during explicit pause. The world and all 23 Atlas locations are unchanged; this is <strong>not a published observer build</strong>.</p>
+<p class="subtle">Actual renderer: <strong>three-webgl2</strong> · physical GPU: ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version) · 1440 × 813 source frames · original observer revision <span class="mono">3c2acb6cf58b33d977f7220fe15b2b82182a54c0</span></p>
+<nav aria-label="Choose a source-bound Wetlands place"><button type="button" data-select="LOC-COUNTRY-CLUB-JACKSON" aria-pressed="true">Country Club of Jackson</button>
+<button type="button" data-select="LOC-TDS-WATERFALL-TEMPLE" aria-pressed="false">Podium Shadow Waterfall Temple</button>
+<button type="button" data-select="LOC-MUD-DOGS-SWAMP" aria-pressed="false">Mud Dogs Swamp</button></nav>
+<section class="site" data-site="LOC-COUNTRY-CLUB-JACKSON" ><header class="place"><p class="eyebrow">Southern Wetlands · source location 1 of 3</p><h2>Country Club of Jackson</h2><p class="mono">LOC-COUNTRY-CLUB-JACKSON</p></header><div class="grid"><figure data-compare><h3>01 / Motion during synthetic calm</h3>
+<div class="view"><img src="jackson-01-moving.png" alt="Country Club of Jackson MOVING frame A" loading="lazy"><img src="jackson-02-moving.png" alt="Country Club of Jackson MOVING frame B" class="after" loading="lazy"></div>
+<div class="controls"><label for="v0-0">Wipe</label><input id="v0-0" type="range" min="0" max="100" value="50" aria-label="Country Club of Jackson MOVING comparison wipe"><output for="v0-0">50%</output><button class="diff" aria-pressed="false" type="button">Difference view</button></div>
+<figcaption>MOVING · water time 5.898 s → 7.148 s · whole-frame hashes different. <a href="jackson-01-moving.png">Frame A</a> · <a href="jackson-02-moving.png">Frame B</a></figcaption>
+<p role="alert" class="broken" hidden>Source PNG missing. Comparison unavailable.</p></figure><figure data-compare><h3>02 / Explicit-pause control</h3>
+<div class="view"><img src="jackson-03-paused-a.png" alt="Country Club of Jackson PAUSED frame A" loading="lazy"><img src="jackson-04-paused-b.png" alt="Country Club of Jackson PAUSED frame B" class="after" loading="lazy"></div>
+<div class="controls"><label for="v0-1">Wipe</label><input id="v0-1" type="range" min="0" max="100" value="50" aria-label="Country Club of Jackson PAUSED comparison wipe"><output for="v0-1">50%</output><button class="diff" aria-pressed="false" type="button">Difference view</button></div>
+<figcaption>PAUSED · water time 7.365 s = 7.365 s · whole-frame hashes identical. <a href="jackson-03-paused-a.png">Frame A</a> · <a href="jackson-04-paused-b.png">Frame B</a></figcaption>
+<p role="alert" class="broken" hidden>Source PNG missing. Comparison unavailable.</p></figure></div></section>
+<section class="site" data-site="LOC-TDS-WATERFALL-TEMPLE" hidden><header class="place"><p class="eyebrow">Southern Wetlands · source location 2 of 3</p><h2>Podium Shadow Waterfall Temple</h2><p class="mono">LOC-TDS-WATERFALL-TEMPLE</p></header><div class="grid"><figure data-compare><h3>01 / Motion during synthetic calm</h3>
+<div class="view"><img src="temple-01-moving.png" alt="Podium Shadow Waterfall Temple MOVING frame A" loading="lazy"><img src="temple-02-moving.png" alt="Podium Shadow Waterfall Temple MOVING frame B" class="after" loading="lazy"></div>
+<div class="controls"><label for="v1-0">Wipe</label><input id="v1-0" type="range" min="0" max="100" value="50" aria-label="Podium Shadow Waterfall Temple MOVING comparison wipe"><output for="v1-0">50%</output><button class="diff" aria-pressed="false" type="button">Difference view</button></div>
+<figcaption>MOVING · water time 10.581 s → 11.781 s · whole-frame hashes different. <a href="temple-01-moving.png">Frame A</a> · <a href="temple-02-moving.png">Frame B</a></figcaption>
+<p role="alert" class="broken" hidden>Source PNG missing. Comparison unavailable.</p></figure><figure data-compare><h3>02 / Explicit-pause control</h3>
+<div class="view"><img src="temple-03-paused-a.png" alt="Podium Shadow Waterfall Temple PAUSED frame A" loading="lazy"><img src="temple-04-paused-b.png" alt="Podium Shadow Waterfall Temple PAUSED frame B" class="after" loading="lazy"></div>
+<div class="controls"><label for="v1-1">Wipe</label><input id="v1-1" type="range" min="0" max="100" value="50" aria-label="Podium Shadow Waterfall Temple PAUSED comparison wipe"><output for="v1-1">50%</output><button class="diff" aria-pressed="false" type="button">Difference view</button></div>
+<figcaption>PAUSED · water time 11.998 s = 11.998 s · whole-frame hashes identical. <a href="temple-03-paused-a.png">Frame A</a> · <a href="temple-04-paused-b.png">Frame B</a></figcaption>
+<p role="alert" class="broken" hidden>Source PNG missing. Comparison unavailable.</p></figure></div></section>
+<section class="site" data-site="LOC-MUD-DOGS-SWAMP" hidden><header class="place"><p class="eyebrow">Southern Wetlands · source location 3 of 3</p><h2>Mud Dogs Swamp</h2><p class="mono">LOC-MUD-DOGS-SWAMP</p></header><div class="grid"><figure data-compare><h3>01 / Motion during synthetic calm</h3>
+<div class="view"><img src="mud-dogs-01-moving.png" alt="Mud Dogs Swamp MOVING frame A" loading="lazy"><img src="mud-dogs-02-moving.png" alt="Mud Dogs Swamp MOVING frame B" class="after" loading="lazy"></div>
+<div class="controls"><label for="v2-0">Wipe</label><input id="v2-0" type="range" min="0" max="100" value="50" aria-label="Mud Dogs Swamp MOVING comparison wipe"><output for="v2-0">50%</output><button class="diff" aria-pressed="false" type="button">Difference view</button></div>
+<figcaption>MOVING · water time 15.215 s → 16.448 s · whole-frame hashes different. <a href="mud-dogs-01-moving.png">Frame A</a> · <a href="mud-dogs-02-moving.png">Frame B</a></figcaption>
+<p role="alert" class="broken" hidden>Source PNG missing. Comparison unavailable.</p></figure><figure data-compare><h3>02 / Explicit-pause control</h3>
+<div class="view"><img src="mud-dogs-03-paused-a.png" alt="Mud Dogs Swamp PAUSED frame A" loading="lazy"><img src="mud-dogs-04-paused-b.png" alt="Mud Dogs Swamp PAUSED frame B" class="after" loading="lazy"></div>
+<div class="controls"><label for="v2-1">Wipe</label><input id="v2-1" type="range" min="0" max="100" value="50" aria-label="Mud Dogs Swamp PAUSED comparison wipe"><output for="v2-1">50%</output><button class="diff" aria-pressed="false" type="button">Difference view</button></div>
+<figcaption>PAUSED · water time 16.681 s = 16.681 s · whole-frame hashes identical. <a href="mud-dogs-03-paused-a.png">Frame A</a> · <a href="mud-dogs-04-paused-b.png">Frame B</a></figcaption>
+<p role="alert" class="broken" hidden>Source PNG missing. Comparison unavailable.</p></figure></div></section>
+<section class="boundary"><h2>Evidence and acceptance boundary</h2>
+<p>The two moving PNGs at each place have different whole-scene hashes and advancing water-clock readings. Each paused pair has the same clock reading and identical SHA-256 image bytes. These outcomes verify <strong>whole-scene motion and exact paused stability on the observed Apple GPU</strong>, not independent water-only pixel attribution or cinematic visual quality. Weather calm does not freeze ordinary river, pond or waterfall time; the explicit pause control does.</p>
+<p>This page is local and dependency-free. It cannot change geography, places, source authority, history, weather state, or private memo art. <strong>CANDIDATE_NOT_APPROVED</strong>: no independent visual/artist/Founder signoff, live-feed proof, publication or deployment. Original files and per-frame source, time and SHA-256 evidence: <a href="manifest.json">manifest.json</a>.</p></section>
+</main><script>
+'use strict';
+const sections=[...document.querySelectorAll('[data-site]')];
+for(const button of document.querySelectorAll('[data-select]'))button.addEventListener('click',()=>{
+ for(const b of document.querySelectorAll('[data-select]'))b.setAttribute('aria-pressed',String(b===button));
+ for(const section of sections)section.hidden=section.dataset.site!==button.dataset.select;
+});
+for(const figure of document.querySelectorAll('[data-compare]')){
+ const view=figure.querySelector('.view'),after=view.querySelector('img.after'),slider=figure.querySelector('input[type="range"]'),output=figure.querySelector('output'),button=figure.querySelector('.diff'),broken=figure.querySelector('.broken');
+ const apply=()=>{after.style.clipPath='inset(0 '+(100-Number(slider.value))+'% 0 0)';output.textContent=slider.value+'%';};
+ slider.addEventListener('input',apply);apply();
+ button.addEventListener('click',()=>{const on=view.classList.toggle('difference');button.setAttribute('aria-pressed',String(on));slider.disabled=on;});
+ for(const img of view.querySelectorAll('img')){const fail=()=>{broken.hidden=false;button.disabled=true;slider.disabled=true};img.addEventListener('error',fail);if(img.complete&&!img.naturalWidth)fail()}
+}
+</script></body></html>

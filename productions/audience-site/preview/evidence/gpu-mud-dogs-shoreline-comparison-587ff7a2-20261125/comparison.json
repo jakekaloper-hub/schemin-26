@@ -1,0 +1,73 @@
+{
+  "kind": "CONTROLLED_PHYSICAL_GPU_MUD_DOGS_SHORELINE_COMPARISON",
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "baseline": "4a83b39e11055d8540bd6c0571812bf64b6703d2",
+  "refined": "587ff7a2f248a7420fb72ee3b17d6bcbcd15b968",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "syntheticUtc": "2026-11-25T17:00:00.000Z",
+  "weather": "SYNTHETIC_GLOBAL_CALM",
+  "sourceStateAsOf": "end_of_week_3_2026",
+  "atlasLocations": 23,
+  "sourceOnly": true,
+  "matchedCamera": true,
+  "matchedWaterPhase": true,
+  "stableRepeatPairs": 4,
+  "browserErrors": 0,
+  "externalRequests": 0,
+  "captureToolBaseSha256": "57cef2bfc11b692bc1d684bdc8860d4889390c2dda7efd59afedfb1de6cf7c61",
+  "capturePresetPatchSha256": "881849e986dcfa97b1e68e6d8bf035e8897a04d9a9df9fd54f4b0a30fc2199c2",
+  "captureToolSha256": "4565b2d5a7873d07db4c6d014b15e3fc4083ed26edb244faa0990d7c92637300",
+  "comparisons": [
+    {
+      "stage": "standard",
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 60,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "changed": 8817,
+      "total": 1170720,
+      "changedFraction": 0.007531262812628127,
+      "minimumRgbChannelDelta": 2,
+      "changedPixelBounds": [
+        565,
+        363,
+        947,
+        582
+      ],
+      "scope": "Whole viewport; includes any induced shading changes, not an isolated shoreline mask."
+    },
+    {
+      "stage": "closer",
+      "camera": {
+        "target": [
+          -16,
+          6.652919843445174,
+          68
+        ],
+        "distance": 36,
+        "yaw": 0.12,
+        "pitch": 0.65
+      },
+      "waterTime": 0,
+      "changed": 26710,
+      "total": 1170720,
+      "changedFraction": 0.022815019816864835,
+      "minimumRgbChannelDelta": 2,
+      "changedPixelBounds": [
+        456,
+        340,
+        1070,
+        720
+      ],
+      "scope": "Whole viewport; includes any induced shading changes, not an isolated shoreline mask."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+const api=await import('../preview/memory.mjs').catch(()=>null);
+const sha='a'.repeat(64),loc='LOC-COUNTRY-CLUB-JACKSON';
+const locations=[loc,'LOC-RED-RUINS'];
+const camera={target:[14,3,52],distance:30,yaw:.2,pitch:.65};
+function fixture(){return {schemaVersion:1,scope:'PRIVATE_LOCAL',publicationAuthorized:false,source:{fileName:'Week 9.pdf',sha256:sha,season:2026,week:9},memories:[{id:'MEM-W09-JACKSON',locationId:loc,title:'The Last Putt',entryIndex:0,pages:[5,6,7,8].map(n=>({id:'W09-PDF-'+n,pdfPage:n,title:'Page '+n,path:'assets/folio_'+n+'.jpg',sha256:sha,width:941,height:1672,crop:[.04,.15,.96,.42],alt:'Original Week 9 page '+n}))}]};}
+function ready(){assert.ok(api,'memory state module required');return api.validateMemoryIndex(fixture(),locations);}
+test('manifest binds private supplied-artifact context without publishing it',()=>{const m=ready();assert.equal(m.publicationAuthorized,false);assert.equal(m.scope,'PRIVATE_LOCAL');});
+test('unregistered location cannot gain artwork through fuzzy fallback',()=>{ready();assert.equal(api.memoryForLocation(fixture(),'LOC-RED-RUINS'),null);assert.equal(api.memoryForLocation(fixture(),'LOC-UNKNOWN'),null);});
+test('duplicate memory or location IDs fail before display',()=>{ready();const m=fixture();m.memories.push(structuredClone(m.memories[0]));assert.throws(()=>api.validateMemoryIndex(m,locations),/DUPLICATE/);});
+test('missing source hash or public promotion fails closed',()=>{ready();for(const mutate of [m=>m.source.sha256='',m=>m.publicationAuthorized=true,m=>m.scope='PUBLIC']){const m=fixture();mutate(m);assert.throws(()=>api.validateMemoryIndex(m,locations));}});
+test('candidate or wrong Atlas binding is rejected',()=>{ready();const m=fixture();m.memories[0].locationId='LOC-NOT-IN-ATLAS';assert.throws(()=>api.validateMemoryIndex(m,locations),/LOCATION/);});
+test('invalid crop and absent image provenance cannot enter the viewer',()=>{ready();for(const mutate of [p=>p.crop=[0,.8,1,.2],p=>p.crop=[-1,0,1,1],p=>p.sha256='',p=>p.width=0,p=>p.path='https://example.com/asset.jpg']){const m=fixture();mutate(m.memories[0].pages[0]);assert.throws(()=>api.validateMemoryIndex(m,locations));}});
+test('open preserves exact edition time and forbids world effects',()=>{ready();const s=api.openMemory(fixture(),loc,camera);assert.equal(s.season,2026);assert.equal(s.week,9);assert.equal(s.worldMutationAllowed,false);assert.equal(s.liveWeatherAllowed,false);assert.equal(s.status,'LOADING');assert.equal(s.inputOwner,'MEMORY');});
+test('opening an uncovered location gives no substitute memory',()=>{ready();assert.throws(()=>api.openMemory(fixture(),'LOC-RED-RUINS',camera),/NO_MEMORY/);});
+test('source and original camera stay immutable during navigation',()=>{ready();const m=fixture(),before=JSON.stringify(m),c=structuredClone(camera),original=JSON.stringify(c);const s=api.openMemory(m,loc,c);api.navigateMemory(s,m,1);assert.equal(JSON.stringify(m),before);assert.equal(JSON.stringify(c),original);});
+test('navigation cannot wrap silently into another matchup or exceed pages',()=>{ready();let s=api.openMemory(fixture(),loc,camera);s=api.navigateMemory(s,fixture(),-1);assert.equal(s.pageIndex,0);s=api.navigateMemory(s,fixture(),99);assert.equal(s.pageIndex,3);assert.equal(s.memoryId,'MEM-W09-JACKSON');});
+test('new page requires fresh decode and does not retain previous ready state',()=>{ready();let s=api.openMemory(fixture(),loc,camera);s=api.memoryAssetResult(s,s.loadToken,true);assert.equal(s.status,'READY');const next=api.navigateMemory(s,fixture(),1);assert.equal(next.status,'LOADING');assert.ok(next.loadToken>s.loadToken);});
+test('late image callbacks cannot reveal the wrong page',()=>{ready();const s=api.openMemory(fixture(),loc,camera),next=api.navigateMemory(s,fixture(),1);assert.deepEqual(api.memoryAssetResult(next,s.loadToken,true),next);});
+test('decode failure does not masquerade as a ready memory',()=>{ready();const s=api.openMemory(fixture(),loc,camera);assert.equal(api.memoryAssetResult(s,s.loadToken,false).status,'FAILED');});
+test('folio mode keeps exact source pixels and can return to scene view',()=>{ready();let s=api.openMemory(fixture(),loc,camera);s=api.memoryView(s,'FOLIO');assert.equal(s.view,'FOLIO');assert.throws(()=>api.memoryView(s,'WARP_CHARACTER'),/VIEW/);});
+test('closing returns the exact spectator camera and existing place',()=>{ready();const s=api.openMemory(fixture(),loc,camera);assert.deepEqual(api.closeMemory(s),{camera,locationId:loc,inputOwner:'WORLD'});});
+test('art coverage accounts for every Atlas place without inventing replacements',()=>{ready();const report=api.memoryCoverage(fixture(),locations);assert.equal(report.total,2);assert.equal(report.linked,1);assert.deepEqual(report.unlinked,['LOC-RED-RUINS']);});

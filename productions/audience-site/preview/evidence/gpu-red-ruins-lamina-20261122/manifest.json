@@ -1,0 +1,62 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "SOURCE_EXACT_PHYSICAL_WEBGL2_RED_RUINS_CREEPER_LAMINA_STILL_NOT_VISUAL_APPROVAL",
+  "placeId": "LOC-RED-RUINS",
+  "stateAsOf": "end_of_week_3_2026",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "sourceRevision": "8ea01fbff15b0875e52c50ec9798223c85d7d0b2",
+  "sourceStateAsOf": "end_of_week_3_2026",
+  "sourceFile": "productions/audience-site/preview/atlas-site-assets.mjs",
+  "sourceFileSha256": "384b39c1f27f0f0b09ae3fe41e69a5c700bed0cb6bb2960cb1d9f0490a4dd602",
+  "observerHtmlSha256": "4b9f7db5361fb47b5941447a0c7c73ddcf79a26a3e7926db357e6f9bb8da1529",
+  "baseline": {
+    "sourceRevision": "7a03257e0bf745a18819a0aa97506b988c6f149a",
+    "file": "../gpu-atlas-material-response-20261122/07-loc-red-ruins.png",
+    "sha256": "c1c802eb351fdc793789071b61964baf7225032145fda943e7c260f862afeded",
+    "camera": {
+      "target": [
+        50.000012273906044,
+        12.592278665182311,
+        -21.999824075267238
+      ],
+      "distance": 32.70685386352354,
+      "yaw": 0.11999999999999993,
+      "pitch": 0.6500000000000006
+    }
+  },
+  "candidate": {
+    "file": "red-ruins-lamina-physical-webgl2.png",
+    "sha256": "e5903db04ae054ea5554cecee5cc7274636c822febfac6ea030c8c1b27a62914",
+    "bytes": 594389,
+    "width": 1440,
+    "height": 813,
+    "frames": 1029,
+    "camera": {
+      "target": [
+        50.00002237801783,
+        12.592267809136601,
+        -21.999679252179703
+      ],
+      "distance": 32.70682570749757,
+      "yaw": 0.11999999999999993,
+      "pitch": 0.6500000000000006
+    }
+  },
+  "maxCameraComponentDelta": 0.00014482308753471784,
+  "verification": {
+    "all23Locations": true,
+    "jacksonHistoryReturn": true,
+    "ordinaryWaterDuringSyntheticGlobalCalm": true,
+    "sourceUnchanged": true,
+    "browserExceptions": 0,
+    "consoleErrors": 0,
+    "externalRequests": 0
+  },
+  "limitations": [
+    "Illustrative leaf facets may be subtle at the whole-Atlas camera distance.",
+    "Independent banner/water animation phases and minor camera drift prevent a pixel-causal art comparison.",
+    "No founder/independent art acceptance, live data, release, merge or deployment."
+  ]
+}

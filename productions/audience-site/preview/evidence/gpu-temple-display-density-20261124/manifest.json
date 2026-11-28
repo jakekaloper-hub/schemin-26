@@ -1,0 +1,87 @@
+{
+  "status": "CANDIDATE_NOT_APPROVED",
+  "publicationAuthorized": false,
+  "evidenceType": "PHYSICAL_GPU_EMULATED_DENSITY_PAUSED_TEMPLE_SCENE",
+  "placeId": "LOC-TDS-WATERFALL-TEMPLE",
+  "sourceRevision": "83fac58cfcc794c790d18e530da3812956bd545a",
+  "stateAsOf": "end_of_week_3_2026",
+  "observerSha256": "01267201d4f1e7c3842c973f3870977812e917c5fc32f055716624a6f21642e0",
+  "renderer": "three-webgl2",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+  "weatherStatus": "GLOBAL_CALM",
+  "camera": {
+    "target": [
+      -36,
+      8.374296887967935,
+      42
+    ],
+    "distance": 51.80026278409167,
+    "pitch": 0.65,
+    "yaw": 0.12
+  },
+  "sourceUnchanged": true,
+  "ordinaryWaterAdvanced": true,
+  "explicitPause": true,
+  "browserExceptions": 0,
+  "consoleErrors": 0,
+  "externalRequests": 0,
+  "captures": [
+    {
+      "file": "temple-1-dpr-1.png",
+      "width": 1440,
+      "height": 813,
+      "syntheticUtc": "2026-11-24T17:00:00.000Z",
+      "observation": {
+        "cssWidth": 1440,
+        "cssHeight": 813,
+        "bufferWidth": 1440,
+        "bufferHeight": 813,
+        "devicePixelRatio": 1,
+        "pixelRatio": 1,
+        "waterTime": 2.6874000000000002,
+        "renderer": "three-webgl2",
+        "frames": 167
+      },
+      "bytes": 774125,
+      "sha256": "91a49a388cd0b581ea3ea0d15d16a351dfe628297643fe3230f8c6ecfb0a8413"
+    },
+    {
+      "file": "temple-2-dpr-2.png",
+      "width": 2880,
+      "height": 1626,
+      "syntheticUtc": "2026-11-24T17:00:00.000Z",
+      "observation": {
+        "cssWidth": 1440,
+        "cssHeight": 813,
+        "bufferWidth": 2160,
+        "bufferHeight": 1219,
+        "devicePixelRatio": 2,
+        "pixelRatio": 1.5,
+        "waterTime": 2.6874000000000002,
+        "renderer": "three-webgl2",
+        "frames": 168
+      },
+      "bytes": 2148800,
+      "sha256": "871ae62805fc435d243c1b2c7291e2a4355f1bcc123aea9bf88d8aac34687590"
+    },
+    {
+      "file": "temple-3-dpr-1.png",
+      "width": 1440,
+      "height": 813,
+      "syntheticUtc": "2026-11-24T17:00:00.000Z",
+      "observation": {
+        "cssWidth": 1440,
+        "cssHeight": 813,
+        "bufferWidth": 1440,
+        "bufferHeight": 813,
+        "devicePixelRatio": 1,
+        "pixelRatio": 1,
+        "waterTime": 2.6874000000000002,
+        "renderer": "three-webgl2",
+        "frames": 169
+      },
+      "bytes": 774125,
+      "sha256": "91a49a388cd0b581ea3ea0d15d16a351dfe628297643fe3230f8c6ecfb0a8413"
+    }
+  ]
+}

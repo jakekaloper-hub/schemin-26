@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Temple density evidence</title>
+<style>
+body{font:16px system-ui;background:#15191d;color:#eee;margin:24px;line-height:1.5}main,.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px}img,svg{display:block;width:100%;height:auto}svg{overflow:hidden;background:#101419}a{color:#addaff}figure{margin:0;min-width:0}figcaption{margin-top:6px}section{margin-top:32px;border-top:1px solid #46505b;padding-top:12px}small{color:#bcc7ce}h2,h3{line-height:1.2}.pair{grid-template-columns:repeat(2,minmax(0,1fr));max-width:920px}.pair svg{max-height:480px}@media(max-width:580px){body{margin:12px}.pair{grid-template-columns:1fr}}
+</style>
+<h1>Waterfall Temple — display-density inspection</h1>
+<p>Same paused source location, camera and synthetic Eastern noon. Physical GPU with emulated device density; not physical-phone or isolated spray-pixel proof. Original screenshots are retained at their native pixel dimensions.</p>
+<main>
+<figure><a href="temple-1-dpr-1.png"><img src="temple-1-dpr-1.png" alt="Temple at device DPR 1"></a><figcaption>Device DPR 1 · renderer ratio 1 · 1440 × 813 pixels</figcaption></figure>
+<figure><a href="temple-2-dpr-2.png"><img src="temple-2-dpr-2.png" alt="Temple at device DPR 2"></a><figcaption>Device DPR 2 · renderer ratio 1.5 · 2880 × 1626 pixels</figcaption></figure>
+<figure><a href="temple-3-dpr-1.png"><img src="temple-3-dpr-1.png" alt="Temple at restored device DPR 1"></a><figcaption>Restored device DPR 1 · renderer ratio 1 · 1440 × 813 pixels</figcaption></figure>
+</main>
+<section aria-labelledby="details-title">
+<h2 id="details-title">Matched detail views</h2>
+<p>Each pair magnifies the same rectangle in the 1440 × 813 logical viewport, using the original captures without changing their pixels. The 2× screenshot contains a capped 1.5× renderer buffer. These are visual aids, not a measured pixel-difference test or artistic acceptance.</p>
+<div id="details"></div>
+<noscript><p>Matched crops require JavaScript. The three original captures above remain available.</p></noscript>
+</section>
+<p><a href="manifest.json">Exact source and capture manifest</a></p>
+<script>
+const regions=[
+ {name:'Falling water and cliff lip',rect:[545,285,112,185]},
+ {name:'Receiving pool and impact wake',rect:[508,450,145,77]},
+ {name:'Temple columns, stairs and stonework',rect:[638,305,186,242]}
+];
+const shots=[
+ {file:'temple-1-dpr-1.png',label:'Device DPR 1 · renderer 1×'},
+ {file:'temple-2-dpr-2.png',label:'Device DPR 2 · renderer 1.5×'}
+];
+const ns='http://www.w3.org/2000/svg';
+for(const region of regions){
+ const block=document.createElement('article');
+ const heading=document.createElement('h3');heading.textContent=region.name;block.append(heading);
+ const bounds=document.createElement('small');bounds.textContent='Logical crop (x, y, width, height): '+region.rect.join(', ');block.append(bounds);
+ const pair=document.createElement('div');pair.className='pair';
+ for(const shot of shots){
+  const figure=document.createElement('figure'),link=document.createElement('a');link.href=shot.file;
+  const svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox',region.rect.join(' '));svg.setAttribute('role','img');svg.setAttribute('aria-label',region.name+' — '+shot.label);
+  const image=document.createElementNS(ns,'image');image.setAttribute('href',shot.file);image.setAttribute('width','1440');image.setAttribute('height','813');svg.append(image);link.append(svg);figure.append(link);
+  const caption=document.createElement('figcaption');caption.textContent=shot.label;figure.append(caption);pair.append(figure);
+ }
+ block.append(pair);document.querySelector('#details').append(block);
+}
+</script>
+</html>
