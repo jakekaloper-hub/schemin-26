@@ -17,9 +17,9 @@ test('Mud Dogs source-anchored haze attenuates with camera depth, not weather',(
   assert.equal(haze.userData.visualAuthority,'CANDIDATE_NOT_APPROVED');
   assert.equal(haze.userData.waterAndWeatherAuthority,'NONE');
   assert.equal(haze.geometry.getAttribute('position').count,96);
-  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime','uLightLevel']);
+  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime','uLightLevel','uPixelRatio']);
   const s=haze.material.vertexShader;
-  assert.match(s,/gl_PointSize=clamp\(2600\.\/max\(1\.,-mvPosition\.z\),2\.,64\.\)/);
+  assert.match(s,/gl_PointSize=clamp\(2600\.\/max\(1\.,-mvPosition\.z\),2\.,64\.\)\*uPixelRatio/);
   assert.match(s,/float viewDepth=max\(0\.,-mvPosition\.z\)/);
   assert.match(s,/float nearVisibility=smoothstep\(4\.,14\.,viewDepth\)/);
   assert.match(s,/float farVisibility=1\.-smoothstep\(95\.,165\.,viewDepth\)/);
@@ -46,7 +46,7 @@ test('depth envelope preserves close local view and ordinary haze animation',()=
   haze.material.uniforms.uTime.value=18.5;
   assert.equal(haze.material.uniforms.uTime.value,18.5);
   assert.deepEqual(Array.from(haze.geometry.getAttribute('position').array),before);
-  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime','uLightLevel']);
+  assert.deepEqual(Object.keys(haze.material.uniforms),['uTime','uLightLevel','uPixelRatio']);
  }finally{haze.geometry.dispose();haze.material.dispose();}
 });
 

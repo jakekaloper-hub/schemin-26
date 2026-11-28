@@ -14,9 +14,10 @@ function fixture({width=390,height=844,dpr=2,maxTextureSize=4096,initialSize=102
  const renderer={capabilities:{maxTextureSize},shadowMap,setPixelRatio(v){pixelRatio=v;},getPixelRatio(){return pixelRatio;},setSize(w,h){resizes.push([w,h]);}};
  const camera={position:{set(){}},lookAt(){},updateMatrixWorld(){},updateProjectionMatrix(){}};
  const sky={position:{copy(){}}},stats={};
- const run=new Function('canvas','globalThis','renderer','camera','sky','sun','templeMist','stats',
-  'let lastWidth=0,lastHeight=0,lastPixelRatio=0;\n'+quality+'\n'+setCamera+'\nreturn setCamera;')(canvas,env,renderer,camera,sky,sun,null,stats);
- return {canvas,env,allocations,resizes,mapSize,shadowMap,stats,frame(){shadowMap.needsUpdate=false;run({target:[0,4,0],distance:60,yaw:.2,pitch:.8});return shadowMap.needsUpdate;}};
+ const swampHaze={material:{uniforms:{uPixelRatio:{value:1}}}};
+ const run=new Function('canvas','globalThis','renderer','camera','sky','sun','templeMist','stats','swampHaze',
+  'let lastWidth=0,lastHeight=0,lastPixelRatio=0;\n'+quality+'\n'+setCamera+'\nreturn setCamera;')(canvas,env,renderer,camera,sky,sun,null,stats,swampHaze);
+ return {canvas,env,allocations,resizes,mapSize,shadowMap,stats,swampHaze,frame(){shadowMap.needsUpdate=false;run({target:[0,4,0],distance:60,yaw:.2,pitch:.8});return shadowMap.needsUpdate;}};
 }
 test('mobile to desktop restores the existing 2048 shadow tier at the exact breakpoint',()=>{
  const x=fixture();assert.equal(x.frame(),false);
@@ -52,4 +53,13 @@ test('viewport changes remain in the actual render signature, including paused f
  assert.ok(render.includes('paused?lastTime:time,strength,storm,canvas.clientWidth,canvas.clientHeight'));
  assert.ok(render.includes('setCamera(c)'));
  assert.ok(render.includes('if(!paused)lastTime=time;regional.tick(lastTime,{paused})'));
+});
+
+test('Mud Dogs optical sprite size tracks effective renderer DPR without changing shadow invalidation',()=>{
+ const x=fixture();const ratio=x.swampHaze.material.uniforms.uPixelRatio;
+ assert.equal(x.frame(),false);assert.equal(ratio.value,1.25);
+ x.canvas.clientWidth=1440;assert.equal(x.frame(),true);assert.equal(ratio.value,1.5);
+ x.env.devicePixelRatio=1;assert.equal(x.frame(),false);assert.equal(ratio.value,1);
+ x.canvas.clientWidth=390;assert.equal(x.frame(),true);assert.equal(ratio.value,1);
+ assert.equal(x.frame(),false);assert.equal(ratio.value,1);
 });

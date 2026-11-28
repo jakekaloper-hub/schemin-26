@@ -289,9 +289,9 @@ export function createWetlandWaterHaze(THREE){
  geometry.setAttribute('aPhase',new THREE.BufferAttribute(phases,1));
  geometry.computeBoundingSphere();
  const material=new THREE.ShaderMaterial({
-  uniforms:{uTime:{value:0},uLightLevel:{value:1}},
+  uniforms:{uTime:{value:0},uLightLevel:{value:1},uPixelRatio:{value:1}},
   transparent:true,depthTest:true,depthWrite:false,fog:false,
-  vertexShader:`uniform float uTime;attribute float aPhase;varying float vOpacity;
+  vertexShader:`uniform float uTime;uniform float uPixelRatio;attribute float aPhase;varying float vOpacity;
    void main(){
     vec3 p=position;
     // Small bounded optical drift on ordinary independent animation time.
@@ -300,7 +300,8 @@ export function createWetlandWaterHaze(THREE){
     p.y+=.035*sin(uTime*.29+aPhase);
     vec4 mvPosition=modelViewMatrix*vec4(p,1.);
     gl_Position=projectionMatrix*mvPosition;
-    gl_PointSize=clamp(2600./max(1.,-mvPosition.z),2.,64.);
+    // Preserve the existing CSS-space halo size at the effective renderer DPR.
+    gl_PointSize=clamp(2600./max(1.,-mvPosition.z),2.,64.)*uPixelRatio;
     // Optical extinction: avoid near-camera sprites and distant world-view fog.
     // This is independent of weather and does not change the source footprint.
     float viewDepth=max(0.,-mvPosition.z);
@@ -379,6 +380,7 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
    renderer.setPixelRatio(q.pixelRatio);renderer.setSize(w,h,false);camera.aspect=aspect;camera.updateProjectionMatrix();
    lastWidth=w;lastHeight=h;lastPixelRatio=q.pixelRatio;
    if(templeMist)templeMist.material.uniforms.uPixelRatio.value=renderer.getPixelRatio();
+   if(swampHaze)swampHaze.material.uniforms.uPixelRatio.value=renderer.getPixelRatio();
    // The quality tier follows the current viewport, not its startup width.
    // Three r187 resizes an existing directional shadow target on the next pass.
    const shadowSize=Math.min(q.shadowSize,renderer.capabilities.maxTextureSize);

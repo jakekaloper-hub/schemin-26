@@ -27,7 +27,8 @@ test('Mud Dogs water-haze is one deterministic, source-identified bounded non-ac
   assert.ok(y>=.20&&y<.80,'mist remains close to the already modeled water');
  }
  assert.equal(a.material.uniforms.uTime.value,0);
- assert.equal(Object.keys(a.material.uniforms).join(','),'uTime,uLightLevel');
+ assert.equal(a.material.uniforms.uPixelRatio.value,1);
+ assert.equal(Object.keys(a.material.uniforms).join(','),'uTime,uLightLevel,uPixelRatio');
  assert.equal(a.material.transparent,true);
  assert.equal(a.material.depthWrite,false);
  assert.equal(a.material.depthTest,true);
@@ -62,7 +63,7 @@ test('optical drift is small compared with the existing swamp disc and has no ge
  assert.match(s,/p\.x\+=\.23\*sin\(uTime\*\.19\+aPhase\)/);
  assert.match(s,/p\.z\+=\.19\*cos\(uTime\*\.17\+aPhase\*1\.3\)/);
  assert.match(s,/p\.y\+=\.035\*sin\(uTime\*\.29\+aPhase\)/);
- assert.match(s,/gl_PointSize=clamp\(2600\.\/max\(1\.,-mvPosition\.z\),2\.,64\.\)/);
+ assert.match(s,/gl_PointSize=clamp\(2600\.\/max\(1\.,-mvPosition\.z\),2\.,64\.\)\*uPixelRatio/);
  assert.match(haze.material.fragmentShader,/vec2 p=\(gl_PointCoord\*2\.-1\.\)\*vec2\(1\.,2\.1\)/);
  assert.ok(haze.material.uniforms.uTime.value===0);
  assert.equal(haze.renderOrder,3);
