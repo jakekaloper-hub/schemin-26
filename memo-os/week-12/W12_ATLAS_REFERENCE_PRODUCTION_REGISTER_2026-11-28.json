@@ -14,6 +14,10 @@
     {
       "path": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
       "blob_sha": "8e812b96b0cef1e2ef736622c4278fdbfa99f683"
+    },
+    {
+      "path": "memo-os/week-12/W12_FOUNDER_SCOPED_TECHNOLOGY_APPROVAL_2026-11-28.json",
+      "scope": "Founder technology exception; companion commit artifact"
     }
   ],
   "scope": "Existing W12-02/03/05/06, 34 folios, P09–26; historical environment only",
@@ -70,9 +74,9 @@
     {
       "g": "G04",
       "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
-      "visual": "Correct both auditions to bounded covered gathering/cooking and lawn; site-specific TV, grill/fan technology held.",
+      "visual": "V2 wide proposed anchor; scoped current TV/fan/grill/smoker/lights approved. Reconcile geometry, no unverified trophies.",
       "narrative": "Hospitality, old fixtures and seasonal Thanksgiving setting support escalating disagreement; no unverified trophies.",
-      "shot_plan": "Wide: blocked tech correction; reverse: table/cooking axis; overview: covered area, lawn, arrival; detail: Dutch oven; material: mature landscaping and worn table."
+      "shot_plan": "Wide: V2 candidate; reverse: table/cooking axis; overview: covered area, lawn, arrival; detail: Dutch oven and current fixtures; material: mature landscaping and worn table."
     },
     {
       "g": "G05",
@@ -84,9 +88,9 @@
     {
       "g": "G06",
       "id": "CAND-W12-CHINS-STORM-HIGHWAY",
-      "visual": "Weather-only V1; no road surface, vehicle, exact route, overhead or highway lock.",
+      "visual": "V1 weather study and V2 unplaced modern road/truck concept. Technology approved; no exact route, region or vehicle asset authority.",
       "narrative": "Ben's earlier wrong turn informs caution; weather remains observable pressure, no invented powers or playoff destination.",
-      "shot_plan": "Wide/reverse/overview: hold; detail: wet foliage only; material: V1 bounded weather texture."
+      "shot_plan": "Wide: unplaced V2 concept, geographic role held; reverse/overview: route hold; detail: bounded rain/road texture; material: V1 weather texture."
     }
   ],
   "assets": [
@@ -213,8 +217,8 @@
       "sha256": "3241927e50d1c8ff671beab51d1e960a52464f8b7039bd6efb8e8ebeaa1d90be",
       "width": 1672,
       "height": 941,
-      "status": "HOLD_TECH",
-      "notes": "Grill and fan require site-specific technology approval.",
+      "status": "ALTERNATE_CANDIDATE",
+      "notes": "Scoped technology approved; retain alternate only, do not mix geometry with V2.",
       "approved": false,
       "github_binary_verified": false
     },
@@ -229,8 +233,8 @@
       "sha256": "09c9a7cd437d7538b2908d3d05425cf4000fcbb16d9c842cb1bf594e4705b272",
       "width": 1672,
       "height": 941,
-      "status": "HOLD_TECH",
-      "notes": "TV, fan and grill plus expanded geometry.",
+      "status": "ANCHOR_CANDIDATE",
+      "notes": "Scoped technology approved; proposed wide anchor. Reconcile expanded geometry, access and reference continuity; no actual image approval.",
       "approved": false,
       "github_binary_verified": false
     },
@@ -293,8 +297,8 @@
       "sha256": "273807df00ca478be231f61ae04faed31b6f87fd049292a1f3a4bbdf9a027fd8",
       "width": 1672,
       "height": 941,
-      "status": "HOLD_ROUTE_TECH",
-      "notes": "Pavement, markings, guardrail and vehicle/corridor unresolved.",
+      "status": "UNPLACED_CONCEPT_ROUTE_HOLD",
+      "notes": "Modern highway, markings, guardrail and lifted truck approved as technology; exact route, region and vehicle reference remain unresolved.",
       "approved": false,
       "github_binary_verified": false
     }
@@ -424,15 +428,15 @@
       "id": "G04-WIDE",
       "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
       "role": "WIDE",
-      "status": "HOLD_TECH_CORRECTION",
-      "source_sha256": null,
+      "status": "ANCHOR_CANDIDATE",
+      "source_sha256": "09c9a7cd437d7538b2908d3d05425cf4000fcbb16d9c842cb1bf594e4705b272",
       "approved": false
     },
     {
       "id": "G04-REVERSE",
       "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
       "role": "REVERSE",
-      "status": "HOLD_TECH_CORRECTION",
+      "status": "PENDING_SINGLE_VIEW",
       "source_sha256": null,
       "approved": false
     },
@@ -440,7 +444,7 @@
       "id": "G04-OVERVIEW",
       "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
       "role": "OVERVIEW",
-      "status": "HOLD_TECH_CORRECTION",
+      "status": "PENDING_SINGLE_VIEW",
       "source_sha256": null,
       "approved": false
     },
@@ -448,7 +452,7 @@
       "id": "G04-DETAIL",
       "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
       "role": "DETAIL",
-      "status": "HOLD_TECH_CORRECTION",
+      "status": "PENDING_SINGLE_VIEW",
       "source_sha256": null,
       "approved": false
     },
@@ -456,7 +460,7 @@
       "id": "G04-MATERIAL",
       "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
       "role": "MATERIAL",
-      "status": "HOLD_TECH_CORRECTION",
+      "status": "PENDING_SINGLE_VIEW",
       "source_sha256": null,
       "approved": false
     },
@@ -504,7 +508,7 @@
       "id": "G06-WIDE",
       "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
       "role": "WIDE",
-      "status": "HOLD_PLACEMENT_OR_ROUTE",
+      "status": "HOLD_ROUTE_UNPLACED_CONCEPT_AVAILABLE",
       "source_sha256": null,
       "approved": false
     },
@@ -557,15 +561,16 @@
     "new_single_view_candidates": 1,
     "misgenerated_boards_rejected": 2,
     "planned_roles": 30,
-    "occupied_provisional_roles": 6,
+    "occupied_provisional_roles": 7,
     "approved_roles": 0,
     "github_binary_ingestion": 0,
     "active_canon_mutation": false,
-    "final_render": false
+    "final_render": false,
+    "scoped_technology_approvals": 2
   },
   "limitations": [
     "Actual image bytes bundled in conversation artifact, not uploaded to GitHub; GitHub register is metadata and shot assignments only.",
-    "G04 technology, G05 containment, G06 route/technology, exact candidate access, stale state and approved visual references unresolved.",
+    "G04/G06 scoped technology approved; G05 containment, G06 exact route/vehicle access and identity, exact candidate access, stale state and approved visual references unresolved.",
     "Thirty role target is not thirty generated or approved images. No score uplift inferred."
   ]
 }

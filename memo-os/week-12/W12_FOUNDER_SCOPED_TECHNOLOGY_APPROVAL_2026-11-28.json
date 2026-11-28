@@ -1,0 +1,75 @@
+{
+  "schema": "schemin26.week12.scoped_founder_technology_approval.v1",
+  "date": "2026-11-28",
+  "authority": {
+    "type": "DIRECT_FOUNDER_INSTRUCTION",
+    "verbatim": "resume, i approve the technology",
+    "interpretation": "Approval applies to the technology issues just identified for G04 and G06, not a general world technology ceiling change."
+  },
+  "source_head": "e844bd418f5817d6bcd9f11d42132b2d0296fbfa",
+  "source_blobs": [
+    {
+      "path": "memo-os/week-12/W12_ATLAS_REFERENCE_PRODUCTION_REGISTER_2026-11-28.json",
+      "blob_sha": "07b11506192683f743b0a4a0840eed255475bdb7"
+    },
+    {
+      "path": "world/data/atlas_location_candidates.json",
+      "blob_sha": "2acb9cf48f6ce5f6d47a9d255cc41e7b8679719e"
+    },
+    {
+      "path": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+      "blob_sha": "2fd6aab69a231e56f064f55eef2c4b56ca649d5d"
+    },
+    {
+      "path": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+      "blob_sha": "e1a5f8ad4547ec0f50a57148135a021d1fc6c706"
+    }
+  ],
+  "scope": [
+    {
+      "g": "G04",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "approved_current_depiction": [
+        "outdoor television",
+        "ceiling fan",
+        "grill/smoker",
+        "practical electric lights"
+      ],
+      "disposition": "TECHNOLOGY_PREREQUISITE_SATISFIED_FOR_CANDIDATE_DEVELOPMENT",
+      "remaining": [
+        "exact spatial continuity and internal access",
+        "historical memorabilia provenance",
+        "approved environment bytes and independent QA"
+      ]
+    },
+    {
+      "g": "G06",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "approved_current_depiction": [
+        "lifted pickup truck",
+        "paved highway",
+        "road markings",
+        "guardrail and roadside fixtures"
+      ],
+      "disposition": "TECHNOLOGY_CLASS_APPROVED_FOR_UNPLACED_CONCEPT_DEVELOPMENT",
+      "remaining": [
+        "exact region, parent containment and corridor",
+        "route-specific vehicle access and vehicle identity/reference bytes",
+        "no assumed connection to Playoff Island",
+        "approved environment bytes and independent QA"
+      ]
+    }
+  ],
+  "boundaries": [
+    "No retroactive technology dates inferred; location existence and current fixtures are separate.",
+    "No global modernity change or permission for unrelated technologies.",
+    "No active LOC/SUB creation, promotion, route write or world-state mutation.",
+    "No approval of an entire image, fabricated memorabilia, final matchup outcome, publication or final folio."
+  ],
+  "production_actions": [
+    "G04 V2 becomes proposed visual anchor; V1 alternate retained. Match overview and reverse to V2, reconcile yard/table/cooking/covered area and mount arrival with structural previs.",
+    "G06 V2 becomes unplaced road/vehicle concept, not geographic reference; keep V1 bounded weather study; develop visual details without assigning route.",
+    "Beat Writer/Inklings can use contemporary TV football gathering and established vehicle familiarity in result-neutral openings; no unsupported historical installations or road journey."
+  ],
+  "receipt_status": "FOUNDER_TECHNOLOGY_APPROVAL_RECORDED_OTHER_GATES_RETAINED"
+}
