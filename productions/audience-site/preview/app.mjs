@@ -389,7 +389,9 @@ frameId=requestAnimationFrame(()=>{
    if(renderer.prepare)await renderer.prepare(camera);
    if(!$('#fallback').hidden)return;
    dispatch({type:'asset_ready',id:'renderer'});
-   renderer.render(camera,0,{strength:1});
+   // Use the same Eastern-clock light as the ordinary observation frames.
+   const clock=observerClock(new Date().toISOString()),light=illustrativeLight(clock.hour+clock.minute/60);
+   renderer.render(camera,0,{strength:light.strength});
    if(!$('#fallback').hidden)return;
    frameId=requestAnimationFrame(()=>{
     if(!$('#fallback').hidden)return;
