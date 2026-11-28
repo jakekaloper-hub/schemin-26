@@ -360,7 +360,15 @@ function drawAmbient(t){
 function draw(t){if(!$('#fallback').hidden||!renderer)return;frameId=requestAnimationFrame(draw);if(memorySession||historySession){lastTime=t;return;}const dt=Math.min(.05,(t-lastTime)/1000||.016);lastTime=t;if(!paused&&!document.hidden)animationTime+=dt;
  if(state.phase==='REVEALING'){const elapsed=(t-revealStart)/2200,f=clamp01(elapsed),s=f*f*(3-2*f);camera={...target,distance:280-(280-target.distance)*s,pitch:1.18-(1.18-target.pitch)*s,yaw:-.11+(.11+target.yaw)*s,target:[...target.target]};if(f===1){dispatch({type:'reveal_finished'});finishReveal();}}
  else if(state.phase==='EXPLORING'&&!paused){const f=1-Math.exp(-dt*6);for(const k of ['distance','pitch','yaw'])camera[k]+=(target[k]-camera[k])*f;camera.target=camera.target.map((v,i)=>v+(target.target[i]-v)*f);}
- const clock=observerClock(new Date().toISOString()),light=illustrativeLight(clock.hour+clock.minute/60);renderer.render(camera,animationTime,{strength:light.strength,storm:demo||0,paused});if(!$('#fallback').hidden)return;drawAmbient(animationTime);
+ const clock=observerClock(new Date().toISOString()),light=illustrativeLight(clock.hour+clock.minute/60);
+ try{
+  renderer.render(camera,animationTime,{strength:light.strength,storm:demo||0,paused});if(!$('#fallback').hidden)return;drawAmbient(animationTime);
+ }catch(e){
+  // A later frame can fail even after readiness; retire its queued successor.
+  // Preserve a synchronous context-loss fallback rather than replacing its cause.
+  if($('#fallback').hidden)showFallback('The graphics frame did not complete. The source Atlas is still available below.');
+  return;
+ }
  if(state.phase==='EXPLORING'&&t-revealStart>11000)$('#hint').style.opacity='0';
 }
 function clamp01(v){return Math.max(0,Math.min(1,v));}
