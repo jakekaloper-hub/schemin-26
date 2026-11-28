@@ -414,9 +414,14 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float channelRibbonCoordinate=(across+bend)*31.+along*7.-uTime*.90;
         float fineLine=pow(max(sin(channelRibbonCoordinate),0.),12.)
           *(1.-smoothstep(.35,1.15,fwidth(channelRibbonCoordinate)));
-        float gaps=.5+.5*sin(along*23.-uTime*.53+sin(across*11.)*.72);
+        float gapCoordinate=along*23.-uTime*.53+sin(across*11.)*.72;
+        float gaps=.5+.5*sin(gapCoordinate);
         float interior=1.-smoothstep(.70,.98,length(p));
         channelRibbons=fineLine*smoothstep(.34,.80,gaps)*interior;
+        // The longitudinal gap phase has a different footprint than the carrier.
+        // Preserve the phase-mean mask when unresolved, never revive a faded carrier.
+        channelRibbons=mix(channelRibbons,fineLine*.45424*interior,
+          smoothstep(.35,1.15,fwidth(gapCoordinate)));
       }
       vec3 channelSheen=vec3(.12,.17,.13)*(channelRibbons*.75);
       // Broken near-bank lapping light, confined to the existing wetland disc.
