@@ -1,0 +1,585 @@
+{
+  "schema": "schemin26.week12.atlas_route_state_cinematic_readiness.v1",
+  "date": "2026-11-28",
+  "source_head": "922f9a1d5b44eb70fdda73e9557faf2bb513a264",
+  "source_blobs": [
+    {
+      "path": "memo-os/week-12/W12_ENVIRONMENT_REFERENCE_PREVIS_MANIFEST_2026-11-28.json",
+      "blob_sha": "b2dd4b28e246cb3101c0ae724f6d5abff6ebbefb"
+    },
+    {
+      "path": "world/data/routes.json",
+      "blob_sha": "da418245708c1f9d2128775df0ce7d26e7eeaa18"
+    },
+    {
+      "path": "world/data/locations.json",
+      "blob_sha": "9c2d30399a092967ec85bfb3431af9b36e06adc3"
+    },
+    {
+      "path": "world/data/current_world_state.json",
+      "blob_sha": "8705635c49d6bf7130ddd859c2d25c187b93b2a7"
+    },
+    {
+      "path": "world/evolution/WORLD_EVOLUTION_LEDGER.json",
+      "blob_sha": "d377f715578dac016b8cb6e826299517616f888c"
+    },
+    {
+      "path": "memo-os/week-4/publication-readiness/WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md",
+      "blob_sha": "8839bd3854e143c00ea34a7d18664b70a01f8c0d"
+    },
+    {
+      "path": "memo-os/week-9/WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.md",
+      "blob_sha": "c62183d159c57b10e72c7c547802b4400e7f4fde"
+    },
+    {
+      "path": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+      "blob_sha": "94e38656f2cb1b33958f1fc60da77923828cf8c5"
+    }
+  ],
+  "authority": "W12-02/03/05/06; candidate planning only",
+  "routes": [
+    {
+      "g": "G01",
+      "id": "CAND-W12-DK-FOREST-TRAINING",
+      "parent": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "registered_parent_zone": "REG-UPPER-VALLEYS",
+      "region_agrees": true,
+      "registered_parent_routes": [
+        {
+          "id": "ROUTE-DK-HIGHLAND-LINK",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ],
+          "constraints": [
+            "ridge grade",
+            "market traffic"
+          ]
+        }
+      ],
+      "staged_route": "ROUTE-DK-HIGHLAND-LINK",
+      "staged_route_incident": true,
+      "guest_home": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+      "guest_to_parent_topology": [
+        {
+          "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "route": "ROUTE-EASTERN-ASCENT",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ]
+        },
+        {
+          "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "to": "LOC-SLOB-FOOTHILL-CAMP",
+          "route": "ROUTE-HEARTHROAD",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ]
+        },
+        {
+          "from": "LOC-SLOB-FOOTHILL-CAMP",
+          "to": "LOC-ARSENAL-BARBERSHOP",
+          "route": "ROUTE-HEARTHROAD",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ]
+        },
+        {
+          "from": "LOC-ARSENAL-BARBERSHOP",
+          "to": "LOC-DK-HIGHLAND-STRONGHOLD",
+          "route": "ROUTE-DK-HIGHLAND-LINK",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ]
+        }
+      ],
+      "common_route_modes": [
+        "foot",
+        "mount",
+        "wagon"
+      ],
+      "status": "PARENT_GEOGRAPHY_CHECKED_INTERNAL_ACCESS_UNRESOLVED"
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "parent": "LOC-MUD-DOGS-SWAMP",
+      "registered_parent_zone": "REG-SOUTHERN-WETLANDS",
+      "region_agrees": true,
+      "registered_parent_routes": [
+        {
+          "id": "ROUTE-DELTA-CAUSEWAY",
+          "modes": [
+            "foot",
+            "mount",
+            "wetland"
+          ],
+          "constraints": [
+            "seasonal flooding",
+            "soft ground"
+          ]
+        },
+        {
+          "id": "ROUTE-FALLS-PATH",
+          "modes": [
+            "foot",
+            "wetland"
+          ],
+          "constraints": [
+            "waterfall escarpment",
+            "seasonal high water"
+          ]
+        }
+      ],
+      "staged_route": "ROUTE-DELTA-CAUSEWAY",
+      "staged_route_incident": true,
+      "guest_home": "LOC-TDS-WATERFALL-TEMPLE",
+      "guest_to_parent_topology": [
+        {
+          "from": "LOC-TDS-WATERFALL-TEMPLE",
+          "to": "LOC-MUD-DOGS-SWAMP",
+          "route": "ROUTE-FALLS-PATH",
+          "modes": [
+            "foot",
+            "wetland"
+          ]
+        }
+      ],
+      "common_route_modes": [
+        "foot",
+        "wetland"
+      ],
+      "status": "PARENT_GEOGRAPHY_CHECKED_INTERNAL_ACCESS_UNRESOLVED"
+    },
+    {
+      "g": "G03",
+      "id": "CAND-W12-RED-SPECIAL-CABIN",
+      "parent": "LOC-RED-RUINS",
+      "registered_parent_zone": "REG-EASTERN-STORM-COAST",
+      "region_agrees": true,
+      "registered_parent_routes": [
+        {
+          "id": "ROUTE-RAIN-ESCARPMENT",
+          "modes": [
+            "foot",
+            "mount"
+          ],
+          "constraints": [
+            "heavy rain",
+            "forest grade"
+          ]
+        }
+      ],
+      "staged_route": "ROUTE-RAIN-ESCARPMENT",
+      "staged_route_incident": true,
+      "guest_home": "LOC-COUNTRY-CLUB-JACKSON",
+      "guest_to_parent_topology": [
+        {
+          "from": "LOC-COUNTRY-CLUB-JACKSON",
+          "to": "LOC-DK-MUD-HILL",
+          "route": "ROUTE-DELTA-CAUSEWAY",
+          "modes": [
+            "foot",
+            "mount",
+            "wetland"
+          ]
+        },
+        {
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "route": "ROUTE-BASIN-MARKET",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon",
+            "river"
+          ]
+        },
+        {
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "route": "ROUTE-UPPER-BASIN-CONNECTOR",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon",
+            "river"
+          ]
+        },
+        {
+          "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "to": "LOC-RED-RUINS",
+          "route": "ROUTE-RAIN-ESCARPMENT",
+          "modes": [
+            "foot",
+            "mount"
+          ]
+        }
+      ],
+      "common_route_modes": [
+        "foot",
+        "mount"
+      ],
+      "status": "PARENT_GEOGRAPHY_CHECKED_INTERNAL_ACCESS_UNRESOLVED"
+    },
+    {
+      "g": "G04",
+      "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "parent": "LOC-SLOB-FOOTHILL-CAMP",
+      "registered_parent_zone": "REG-UPPER-VALLEYS",
+      "region_agrees": true,
+      "registered_parent_routes": [
+        {
+          "id": "ROUTE-HEARTHROAD",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ],
+          "constraints": [
+            "ridge traffic",
+            "market congestion"
+          ]
+        }
+      ],
+      "staged_route": "ROUTE-HEARTHROAD",
+      "staged_route_incident": true,
+      "guest_home": "LOC-CHILI-STABLE",
+      "guest_to_parent_topology": [
+        {
+          "from": "LOC-CHILI-STABLE",
+          "to": "LOC-CHINS-ROAD-COMMONS",
+          "route": "ROUTE-WESTERN-RANGE",
+          "modes": [
+            "mount",
+            "wagon",
+            "foot"
+          ]
+        },
+        {
+          "from": "LOC-CHINS-ROAD-COMMONS",
+          "to": "LOC-COUNTRY-CLUB-JACKSON",
+          "route": "ROUTE-JACKSON-LEVEE",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ]
+        },
+        {
+          "from": "LOC-COUNTRY-CLUB-JACKSON",
+          "to": "LOC-DK-MUD-HILL",
+          "route": "ROUTE-DELTA-CAUSEWAY",
+          "modes": [
+            "foot",
+            "mount",
+            "wetland"
+          ]
+        },
+        {
+          "from": "LOC-DK-MUD-HILL",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "route": "ROUTE-BASIN-MARKET",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon",
+            "river"
+          ]
+        },
+        {
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "route": "ROUTE-UPPER-BASIN-CONNECTOR",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon",
+            "river"
+          ]
+        },
+        {
+          "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "to": "LOC-SLOB-FOOTHILL-CAMP",
+          "route": "ROUTE-HEARTHROAD",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ]
+        }
+      ],
+      "common_route_modes": [
+        "mount",
+        "foot"
+      ],
+      "status": "PARENT_GEOGRAPHY_CHECKED_INTERNAL_ACCESS_UNRESOLVED"
+    },
+    {
+      "g": "G05",
+      "id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "parent": "LOC-LLC-BOARDROOM",
+      "registered_parent_zone": "REG-INNER-SEA-LITTORAL",
+      "region_agrees": true,
+      "registered_parent_routes": [
+        {
+          "id": "ROUTE-INNER-SEA-QUAY",
+          "modes": [
+            "foot",
+            "wagon",
+            "sea"
+          ],
+          "constraints": [
+            "port congestion",
+            "storm gates"
+          ]
+        }
+      ],
+      "staged_route": null,
+      "staged_route_incident": null,
+      "guest_home": "LOC-BELT-KEEPER-KEEP",
+      "guest_to_parent_topology": [
+        {
+          "from": "LOC-BELT-KEEPER-KEEP",
+          "to": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "route": "ROUTE-BLACK-CLIFF",
+          "modes": [
+            "foot",
+            "mount"
+          ]
+        },
+        {
+          "from": "LOC-TRADE-JEDI-MOUNTAIN-BASE",
+          "to": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "route": "ROUTE-EASTERN-ASCENT",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ]
+        },
+        {
+          "from": "LOC-BRIDGE-MOUNTAIN-LAKE",
+          "to": "LOC-LEAGUE-CHAMBER",
+          "route": "ROUTE-UPPER-BASIN-CONNECTOR",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon",
+            "river"
+          ]
+        },
+        {
+          "from": "LOC-LEAGUE-CHAMBER",
+          "to": "LOC-LLC-STORM-CITY",
+          "route": "ROUTE-PORT-BASIN-CONNECTOR",
+          "modes": [
+            "wagon",
+            "river",
+            "coastal_vessel"
+          ]
+        },
+        {
+          "from": "LOC-LLC-STORM-CITY",
+          "to": "LOC-LLC-BOARDROOM",
+          "route": "ROUTE-INNER-SEA-QUAY",
+          "modes": [
+            "foot",
+            "wagon",
+            "sea"
+          ]
+        }
+      ],
+      "common_route_modes": [],
+      "status": "PARENT_NETWORK_CHECKED_CONTAINMENT_UNRESOLVED"
+    },
+    {
+      "g": "G06",
+      "id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "parent": "LOC-CHINS-ROAD-COMMONS",
+      "registered_parent_zone": "REG-CENTRAL-BASIN",
+      "region_agrees": false,
+      "registered_parent_routes": [
+        {
+          "id": "ROUTE-JACKSON-LEVEE",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon"
+          ],
+          "constraints": [
+            "flood closures",
+            "river crossings"
+          ]
+        },
+        {
+          "id": "ROUTE-WESTERN-RANGE",
+          "modes": [
+            "mount",
+            "wagon",
+            "foot"
+          ],
+          "constraints": [
+            "long exposed distances",
+            "dry-season water stops"
+          ]
+        },
+        {
+          "id": "ROUTE-BASIN-MARKET",
+          "modes": [
+            "foot",
+            "mount",
+            "wagon",
+            "river"
+          ],
+          "constraints": [
+            "market traffic"
+          ]
+        }
+      ],
+      "staged_route": null,
+      "staged_route_incident": null,
+      "guest_home": "LOC-CHINS-ROAD-COMMONS",
+      "guest_to_parent_topology": null,
+      "common_route_modes": [],
+      "status": "CORRIDOR_REGION_AND_VEHICLE_HOLD"
+    }
+  ],
+  "world_state": {
+    "baseline": "end_of_week_3_2026",
+    "accepted_evolution_transaction_count": 0,
+    "dispositions": [
+      {
+        "g": "G01",
+        "event": "W11 Mountain Lake bridge fight and survival",
+        "source": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "lines": "9–17",
+        "classification": "CHARACTER_MEMORY_ELSEWHERE",
+        "use": "Motivation for return to training. Do not transplant damage, lantern, jester cap or injury to forest."
+      },
+      {
+        "g": "G02",
+        "event": "W11 Gators & Dawgs flooding and wrong turn",
+        "source": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "lines": "47–53",
+        "classification": "TEMPORARY_OTHER_SUBSITE",
+        "use": "Swamp familiarity and memory; no inherited flood height at cabin, no copied sign or Cancun card."
+      },
+      {
+        "g": "G03",
+        "event": "W9 Red terrace truck damage alternative endings and W11 Red defeat",
+        "source": "memo-os/week-9/WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.md",
+        "classification": "UNSELECTED_OR_OTHER_SITE",
+        "use": "No terrace damage or trapped truck at private cabin. Selected W11 event motivates conversation, not structural damage."
+      },
+      {
+        "g": "G04",
+        "event": "W4 cave televisions; W11 delivery and two lost kegs",
+        "source": "memo-os/week-4/publication-readiness/WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md",
+        "lines": "205–211",
+        "secondary": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "classification": "PRECEDENT_NOT_GENERAL_TECH_CLEARANCE",
+        "use": "Retain covered gathering function and established television precedent; no implication of yard flood, new electrical infrastructure, or verified historical memorabilia."
+      },
+      {
+        "g": "G05",
+        "event": "W2 boardroom intrusion and W3 storm barriers; W11 Jackson corporate transfer",
+        "source": "world/data/current_world_state.json",
+        "secondary": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "lines": "55–61",
+        "classification": "DISTINCT_INSTITUTIONS_STATE_HOLD",
+        "use": "Do not transfer Jackson office appearance, W2 damage or storm barriers to hidden archive. Babb team identity preserved."
+      },
+      {
+        "g": "G06",
+        "event": "W9 lifted truck; W11 swamp wrong turn",
+        "source": "memo-os/week-9/WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.md",
+        "lines": "137–173",
+        "secondary": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+        "classification": "VEHICLE_PRECEDENT_ROUTE_UNRESOLVED",
+        "use": "Vehicle depiction and familiarity are precedents, not approval of a new roadway, truck class, playoff route or storm intersection."
+      }
+    ],
+    "writeback": false,
+    "lock": false
+  },
+  "modernity": {
+    "television": {
+      "precedent": "memo-os/week-4/publication-readiness/WEEK_04_FINAL_WRITTEN_MANUSCRIPT.md",
+      "scope": "Week4 cave; W12 backyard installation not approved"
+    },
+    "truck": {
+      "precedent": "memo-os/week-9/WEEK_9_EDITORIAL_COPY_PROOF_2026-11-09.md",
+      "secondary": "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+      "scope": "Chins vehicle precedent; no route or highway authorization"
+    }
+  },
+  "cinematic_briefs": [
+    {
+      "g": "G01",
+      "scope": "Environment-only wide cinematic candidate brief",
+      "frame": "Wide stream-side view with old stone remnants behind a well-worn training clearing, mature forest and boulders; low sunrise, subdued earth and moss. No characters, no weapons, no inscriptions. Relative layout from structural SVG; no visible offsite approach network.",
+      "second": "Ground-level material detail, worn stone and leaf litter",
+      "negative": "No bridge, castle skyline, magical trees, combat or historical trophy."
+    },
+    {
+      "g": "G02",
+      "scope": "Environment-only wide cinematic candidate brief",
+      "frame": "Old raised timber hunting shelter, adjacent dock and tethered partially submerged boat, rooted southern wetland, low morning mist; weathered planks, stable relative waterline. No people, no boat operation or transport route depiction.",
+      "second": "Dock/boat/material detail, fixed waterline",
+      "negative": "No Gators & Dawgs sign, road flood copied from W11, new village, giant swamp disaster."
+    },
+    {
+      "g": "G03",
+      "scope": "Environment-only wide cinematic candidate brief",
+      "frame": "Longstanding isolated stone-and-timber hillside refuge, mature mossy forest, cold sunset and warm windows, well-used furnishings. Companion interior view anchors hearth and table only; no operational hidden-space depiction.",
+      "second": "Warm gathering room with old table and hearth, consistent window orientation",
+      "negative": "No trap mechanism, captivity, current owner or invented dated trophies."
+    },
+    {
+      "g": "G04",
+      "scope": "Environment-only wide cinematic candidate brief excluding unresolved technology",
+      "frame": "Mature landscaping, established covered gathering area, old cooking equipment and Thanksgiving table on manicured autumn lawn. Cold midday light, restrained warm firelight. Leave electronics and readable memorabilia outside image until site-specific clearance.",
+      "second": "Patinated table and cooking gear, covered area in background",
+      "negative": "No new wiring, televisions in this candidate plate until clearance, truck, new trophies or aftermath."
+    },
+    {
+      "g": "G05",
+      "scope": "Interior material/atmosphere study only; siting remains held",
+      "frame": "Old stone and aged wooden shelves, archive ledgers and private office desk; warm practical light. No mapping of entry, underground relation, hidden passages or confinement.",
+      "second": "Undated worn ledger and furniture study",
+      "negative": "No Jackson office duplication, technical dungeon layout, asset transfer or captions."
+    },
+    {
+      "g": "G06",
+      "scope": "Unplaced weather/material study only; not a location plate",
+      "frame": "Rain and wind passing across mature roadside vegetation and weathered ground; generic non-geolocated texture study only, no mapped highway, truck, island or direction.",
+      "second": "Wet verge and visibility study",
+      "negative": "No modern road surface, named intersection, vehicle or Playoff Island horizon."
+    }
+  ],
+  "checks": {
+    "parent_exists": 6,
+    "staged_parent_route_incident": 4,
+    "route_path_to_parent": 5,
+    "exact_candidate_access_verified": 0,
+    "approved_cinematic_plates": 0,
+    "world_state_lock": false,
+    "active_canon_mutation": false
+  },
+  "limitations": [
+    "Topology is undirected abstract adjacency, not proof of character travel, permissions, vehicle fit, internal access, route orientation, time or distance.",
+    "Historical imagery precedents are manuscript evidence, not proof of approved source bytes or site-specific technology.",
+    "No new art produced, no renderer binding or active geography changes. Candidate art preparation only; exact grounding requires approval."
+  ]
+}
