@@ -379,6 +379,13 @@ export function createThreeWorldRenderer(THREE,canvas,bindings,{buildWorldGeomet
    renderer.setPixelRatio(q.pixelRatio);renderer.setSize(w,h,false);camera.aspect=aspect;camera.updateProjectionMatrix();
    lastWidth=w;lastHeight=h;lastPixelRatio=q.pixelRatio;
    if(templeMist)templeMist.material.uniforms.uPixelRatio.value=renderer.getPixelRatio();
+   // The quality tier follows the current viewport, not its startup width.
+   // Three r187 resizes an existing directional shadow target on the next pass.
+   const shadowSize=Math.min(q.shadowSize,renderer.capabilities.maxTextureSize);
+   if(sun.shadow.mapSize.x!==shadowSize||sun.shadow.mapSize.y!==shadowSize){
+    sun.shadow.mapSize.set(shadowSize,shadowSize);
+    renderer.shadowMap.needsUpdate=true;
+   }
    stats.pixelRatio=renderer.getPixelRatio();
   }
   camera.position.set(t[0]+Math.sin(c.yaw)*Math.cos(c.pitch)*d,t[1]+Math.sin(c.pitch)*d,t[2]+Math.cos(c.yaw)*Math.cos(c.pitch)*d);camera.lookAt(...t);camera.updateMatrixWorld(true);sky.position.copy(camera.position);
