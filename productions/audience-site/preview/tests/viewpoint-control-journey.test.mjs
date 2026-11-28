@@ -44,9 +44,25 @@ test('stale navigation callbacks cannot change the selected source place or came
   const before=structuredClone(x.api.snapshot()),actions=structuredClone(x.actions);
   x.api.block(owner);
   x.api.select('LOC-MUD-DOGS-SWAMP');x.$('#inspectorWorld').onclick();x.$('#returnWorld').onclick();
-  for(const b of x.views)b.onclick();x.wetlands.onclick();
+  for(const b of x.views)b.onclick();x.wetlands.onclick();x.$('#reframePlace').onclick();
   assert.deepEqual(x.api.snapshot(),before,owner);assert.deepEqual(x.actions,actions,owner);x.check(null);
   x.api.block(null);x.$('#inspectorWorld').onclick();x.check('AERIAL');
   assert.equal(x.api.snapshot().selected,null);assert.equal(x.actions.length,actions.length+1);
  }
+});
+
+test('inspector reframe restores the selected source view after another viewpoint without a new visit',()=>{
+ const x=setup();x.api.select('LOC-MUD-DOGS-SWAMP');
+ const expected=structuredClone(x.api.snapshot().target);
+ x.views[1].onclick();x.check('OVERHEAD');assert.notDeepEqual(x.api.snapshot().target,expected);
+ const actions=structuredClone(x.actions),selected=x.api.snapshot().selected;
+ x.$('#reframePlace').onclick();x.check(null);
+ assert.deepEqual(x.api.snapshot().target,expected);assert.deepEqual(x.api.snapshot().camera,expected);
+ assert.equal(x.api.snapshot().selected,selected);assert.deepEqual(x.actions,actions);
+ assert.equal(x.$('#inspector').hidden,false);
+});
+test('reframe with no selected place is inert and inspector has a native button',()=>{
+ assert.match(markup,/id="reframePlace" type="button" class="textbutton">REFRAME SELECTED PLACE/);
+ const x=setup(),before=structuredClone(x.api.snapshot());
+ x.$('#reframePlace').onclick();assert.deepEqual(x.api.snapshot(),before);assert.deepEqual(x.actions,[]);
 });

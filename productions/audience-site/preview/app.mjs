@@ -101,20 +101,26 @@ function select(id){
  // The place index becomes hidden upon selection; never strand keyboard focus there.
  const fromIndex=$('#placeList').contains(document.activeElement);
  inspectionReturnFocus=fromIndex?$('#placesToggle'):canvas;
- dispatch({type:'inspect',id});syncViewControls(null);
+ dispatch({type:'inspect',id});
  selected=bindings.find(p=>p.id===id);
  escapePanels();
- target=locationCamera(bindings,id);
- target.target[1]=renderer?renderer.height(target.target[0],target.target[2]):0;
- const framing=renderer?.siteView?.(id);if(framing)target={...target,...framing};target=nearestObserverViewYaw(camera,target);
+ reframeSelected();
  $('#placeRegion').textContent=selected.zoneId.replace(/^REG-/,'').replaceAll('-',' ');
  $('#placeName').textContent=selected.name;
  $('#landmarks').textContent=selected.landmarks.join(' · ');
  $('#placeStatus').textContent=selected.canonStatus.replaceAll('_',' ')+' · '+catalog.stateAsOf.replaceAll('_',' ');
  $('#inspector').hidden=false;
  updateMemoryEntry();updateHistoryEntry();
- if(paused)camera=structuredClone(target);
  if(fromIndex){const heading=$('#placeName');heading.tabIndex=-1;heading.focus({preventScroll:true});}
+}
+// Restore the initial source-bound candidate framing without another visit.
+function reframeSelected(){
+ if(!canControl()||!selected)return;
+ target=locationCamera(bindings,selected.id);
+ target.target[1]=renderer?renderer.height(target.target[0],target.target[2]):0;
+ const framing=renderer?.siteView?.(selected.id);if(framing)target={...target,...framing};target=nearestObserverViewYaw(camera,target);
+ syncViewControls(null);
+ if(paused)camera=structuredClone(target);
 }
 function closeInspector(){
  $('#inspector').hidden=true;
@@ -134,6 +140,7 @@ $('#infoClose').onclick=closeInfo;
 $('#inspectorClose').onclick=closeInspector;$('#inspectSource').onclick=()=>{infoFromInspector=true;$('#infoPanel').hidden=false;$('#inspector').hidden=true;$('#infoClose').focus({preventScroll:true});};
 $('#placeSearch').oninput=e=>{for(const b of $('#placeList').children)b.hidden=!b.textContent.toLowerCase().includes(e.target.value.toLowerCase());};
 $('#returnWorld').onclick=wholeWorld;$('#inspectorWorld').onclick=wholeWorld;
+$('#reframePlace').onclick=reframeSelected;
 $('#wetlandsView').onclick=()=>{
  if(!canControl())return;
  const fromInspector=$('#inspector').contains(document.activeElement);
