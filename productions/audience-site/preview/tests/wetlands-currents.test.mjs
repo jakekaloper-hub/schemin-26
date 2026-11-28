@@ -12,7 +12,7 @@ test('Wetland swamp and channel have nonzero candidate currents, unlike estate p
  const a=build(),wet=a.water.filter(x=>['swamp','channel'].includes(x.kind));
  assert.equal(wet.length,2);
  for(const w of wet){assert.equal(w.material.uniforms.uWetland.value,1);assert.ok(w.material.uniforms.uFlow.value instanceof THREE.Vector2);assert.ok(w.material.uniforms.uFlow.value.length()>0);
- assert.match(w.material.fragmentShader,/wetlandUv\s*=\s*vUv\s*\+\s*uFlow\s*\*\s*uTime/);}
+ assert.match(w.material.fragmentShader,/wetlandUv\s*=\s*vUv\s*-\s*uFlow\s*\*\s*uTime/);}
  const pond=a.water.find(x=>x.kind==='pond');assert.equal(pond.material.uniforms.uWetland.value,0);assert.equal(pond.material.uniforms.uFlow.value.length(),0);a.dispose();
 });
 test('Calm permits currents and pause holds their phase',()=>{
