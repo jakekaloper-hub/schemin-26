@@ -439,6 +439,13 @@ export function buildRegionalAssets(THREE, bindings, height) {
       float bankOpticalGain=1.-smoothstep(.35,1.15,fwidth(bankDistance/.022));
       float bankCrest=1.-smoothstep(.0,.022,abs(bankRadius-(.90+bankWobble)));
       float bankBreakup=.45+.55*(.5+.5*sin(bankAngle*13.+uTime*.63));
+      // Filter the angular breakup independently of the radial crest.
+      // Use the local gradient rather than differentiating atan across its seam.
+      vec2 bankDelta=vUv-vec2(.5);
+      vec2 bankBreakGradient=13.*vec2(-bankDelta.y,bankDelta.x)/max(dot(bankDelta,bankDelta),.00001);
+      float bankBreakFootprint=abs(dot(bankBreakGradient,dFdx(vUv)))
+        +abs(dot(bankBreakGradient,dFdy(vUv)));
+      bankBreakup=mix(bankBreakup,.725,smoothstep(.35,1.15,bankBreakFootprint));
       float bankMask=smoothstep(.73,.84,bankRadius)
                      *(1.-smoothstep(.955,.995,bankRadius));
       float bankShelf=smoothstep(.79,.95,bankRadius)
