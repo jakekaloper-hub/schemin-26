@@ -1,0 +1,571 @@
+{
+  "schema": "schemin26.week12.atlas_reference_production_register.v1",
+  "date": "2026-11-28",
+  "source_head": "492c828b58ba9396d56228122bc36eb9ad1b5821",
+  "source_blobs": [
+    {
+      "path": "memo-os/week-12/W12_ENVIRONMENT_REFERENCE_PREVIS_MANIFEST_2026-11-28.json",
+      "blob_sha": "b2dd4b28e246cb3101c0ae724f6d5abff6ebbefb"
+    },
+    {
+      "path": "memo-os/week-12/W12_ATLAS_ROUTE_STATE_AND_CINEMATIC_READINESS_2026-11-28.json",
+      "blob_sha": "0a2b65350e72e585190c066148a89c7472b3c5a7"
+    },
+    {
+      "path": "memo-os/week-12/W12_ATLAS_ELEVEN_YEAR_HISTORICAL_DEPTH_2026-11-28.json",
+      "blob_sha": "8e812b96b0cef1e2ef736622c4278fdbfa99f683"
+    }
+  ],
+  "scope": "Existing W12-02/03/05/06, 34 folios, P09–26; historical environment only",
+  "authority": "Candidate-only; no active world mutation",
+  "bullpen": {
+    "runtime": "Actual local ConsultEngine, Architect/Pitching Coach/Beat Writer/Librarian 4/4 plus Closer synthesis",
+    "receipt_sha256": "87cebe9c2ab9999a1779ec25c1f1d1cbdc7a5cdf9146f34f6a9027c2cdb0e3f7",
+    "disposition": "Responses generic/partially truncated; actual asset inventory and assignments host adjudicated; no independent staff acceptance"
+  },
+  "domain_ownership": [
+    {
+      "owner": "Architect / Atlas OS",
+      "deliverable": "Canonical spatial constraints, hold decisions and candidate continuity tests"
+    },
+    {
+      "owner": "Librarian / VisualLibraryStaff",
+      "deliverable": "PNG custody, SHA256, provenance and GitHub binary ingestion verification"
+    },
+    {
+      "owner": "Pitching Coach / production disciplines",
+      "deliverable": "Stable anchor before reverse/overview/detail; one camera role, no collage; exact source mounting"
+    },
+    {
+      "owner": "Beat Writer / eight Inklings method lenses",
+      "deliverable": "Use site-specific historical and everyday texture in result-neutral scene copy, preserving Founder direction"
+    },
+    {
+      "owner": "Umpire / Closer",
+      "deliverable": "Independent acceptance after source/continuity checks, not automatic score promotion"
+    }
+  ],
+  "locations": [
+    {
+      "g": "G01",
+      "id": "CAND-W12-DK-FOREST-TRAINING",
+      "visual": "Retain V1 modest wall/stream anchor. V3 reverse candidate requires comparison of individual landmarks. No V2 training equipment.",
+      "narrative": "Make DK's return to familiar ground and ObiWan's search for solitude visible through worn paths, not invented dated battles.",
+      "shot_plan": "WIDE: V1; reverse: V3; overhead: reveal relative clearing without new structures; detail: original ruin/stream; material: weathered stone and leaf litter."
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "visual": "Freeze V1 cabin/dock silhouette; correct half-submerged tied boat before reverse. Retry failed twice; no collage allowed.",
+      "narrative": "Bobby's familiarity derives from longstanding use and maintenance; TDS reads a different environment without replaying W11 deception.",
+      "shot_plan": "Wide: V1; reverse: porch-to-dock; overview: cabin-bank-dock relation; detail: boat and mooring; material: planks and roots."
+    },
+    {
+      "g": "G03",
+      "id": "CAND-W12-RED-SPECIAL-CABIN",
+      "visual": "Use V1 hillside cabin only. No coastline or expanded lodge. Interior anchors hearth, table and compatible window light.",
+      "narrative": "The familiar welcoming retreat gives the toast credibility before suspicion; no historical venue claim or trap mechanism.",
+      "shot_plan": "Wide: V1; reverse: forest approach looking back; overview: relative hill/cabin siting; interior: hearth/table; material: repaired shutters and worn wood."
+    },
+    {
+      "g": "G04",
+      "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "visual": "Correct both auditions to bounded covered gathering/cooking and lawn; site-specific TV, grill/fan technology held.",
+      "narrative": "Hospitality, old fixtures and seasonal Thanksgiving setting support escalating disagreement; no unverified trophies.",
+      "shot_plan": "Wide: blocked tech correction; reverse: table/cooking axis; overview: covered area, lawn, arrival; detail: Dutch oven; material: mature landscaping and worn table."
+    },
+    {
+      "g": "G05",
+      "id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "visual": "Material-only V1; no overhead or mapped interior until parent/containment and room authority resolved.",
+      "narrative": "Long-used archive supports Babb's institutional identity and private negotiation; no claim Jackson is here or trophies are verified.",
+      "shot_plan": "Wide/reverse/overview: hold; detail: generic archive furniture only; material: V1 limited stone/wood/ledger textures."
+    },
+    {
+      "g": "G06",
+      "id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "visual": "Weather-only V1; no road surface, vehicle, exact route, overhead or highway lock.",
+      "narrative": "Ben's earlier wrong turn informs caution; weather remains observable pressure, no invented powers or playoff destination.",
+      "shot_plan": "Wide/reverse/overview: hold; detail: wet foliage only; material: V1 bounded weather texture."
+    }
+  ],
+  "assets": [
+    {
+      "g": "G01",
+      "id": "CAND-W12-DK-FOREST-TRAINING",
+      "version": "V1",
+      "role": "WIDE",
+      "source_file": "a_wide_cinematic_photorealistic_landscape_scene.png",
+      "archive_path": "G01_DK-FOREST-TRAINING/V1_WIDE.png",
+      "bytes": 3847304,
+      "sha256": "25e60e9f56d9f5e0a26b4ae4121942f934820caf4250050fa8364a27c57664a9",
+      "width": 1672,
+      "height": 941,
+      "status": "ANCHOR_CANDIDATE",
+      "notes": "Original stream and modest ruins; internal approaches still not verified.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G01",
+      "id": "CAND-W12-DK-FOREST-TRAINING",
+      "version": "V2",
+      "role": "WIDE",
+      "source_file": "wide_cinematic_nature_scene_in_a_forest_ruin_an_e.png",
+      "archive_path": "G01_DK-FOREST-TRAINING/V2_WIDE.png",
+      "bytes": 4047169,
+      "sha256": "7f6dbf96665da30b9143b8592e62258a545bdb204895afaad445a27a8426e3b4",
+      "width": 1672,
+      "height": 941,
+      "status": "HOLD_ALTERNATE",
+      "notes": "Changed stream/architecture, training fixtures not approved.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G01",
+      "id": "CAND-W12-DK-FOREST-TRAINING",
+      "version": "V3",
+      "role": "REVERSE",
+      "source_file": "a_highly_detailed_photorealistic_autumn_woodland.png",
+      "archive_path": "G01_DK-FOREST-TRAINING/V3_REVERSE.png",
+      "bytes": 3897582,
+      "sha256": "1a7be0f357ce060d39fd88430419977b99786f2c048c712823c21205392c90ee",
+      "width": 1672,
+      "height": 941,
+      "status": "CANDIDATE_REVIEW",
+      "notes": "New reverse view; compare stone, tree, stream and light relationships, not surveyed spatial proof.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "version": "V1",
+      "role": "WIDE",
+      "source_file": "a_cinematic_hyper_realistic_swamp_cypress_bayou_s.png",
+      "archive_path": "G02_MUD-HUNTING-CABIN/V1_WIDE.png",
+      "bytes": 3491823,
+      "sha256": "91308a3587576eaa65d94a81143bdfe39fbc522fad01ebe1acbd9bcf221557be",
+      "width": 1672,
+      "height": 941,
+      "status": "ANCHOR_CANDIDATE",
+      "notes": "Tether visible; boat submergence needs refinement.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "version": "V2",
+      "role": "WIDE",
+      "source_file": "a_cinematic_ultra_detailed_photorealistic_swamp.png",
+      "archive_path": "G02_MUD-HUNTING-CABIN/V2_WIDE.png",
+      "bytes": 3538481,
+      "sha256": "2848bfe77e683ec036127962b64499b64dd54e3e9b58dc0ac5f8bd7064742ed8",
+      "width": 1672,
+      "height": 941,
+      "status": "HOLD_ALTERNATE",
+      "notes": "Cabin/dock geometry changed, tether unclear and cooler unverified.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G03",
+      "id": "CAND-W12-RED-SPECIAL-CABIN",
+      "version": "V1",
+      "role": "WIDE",
+      "source_file": "a_cinematic_photorealistic_landscape_scene_of_a_r.png",
+      "archive_path": "G03_RED-SPECIAL-CABIN/V1_WIDE.png",
+      "bytes": 3685280,
+      "sha256": "7122f9bc66521f2986805ac1c3e8c2280ea2c7284eacf81fdf8a125f44ba0dbb",
+      "width": 1672,
+      "height": 941,
+      "status": "ANCHOR_CANDIDATE",
+      "notes": "Forested hillside; no direct coastline.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G03",
+      "id": "CAND-W12-RED-SPECIAL-CABIN",
+      "version": "V2",
+      "role": "WIDE",
+      "source_file": "a_dramatic_cinematic_ultra_detailed_landscape_sc.png",
+      "archive_path": "G03_RED-SPECIAL-CABIN/V2_WIDE.png",
+      "bytes": 3333262,
+      "sha256": "3b4d98b9d4ab8e36cb834b8a538d99e1f3bc1a926d75f9b8739f3ca649364c27",
+      "width": 1672,
+      "height": 941,
+      "status": "HOLD_ALTERNATE",
+      "notes": "Unverified direct ocean frontage and larger lodge.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G04",
+      "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "version": "V1",
+      "role": "WIDE",
+      "source_file": "a_hyperrealistic_high_detail_outdoor_autumn_backy.png",
+      "archive_path": "G04_SLOB-BACKYARD-RETREAT/V1_WIDE.png",
+      "bytes": 4017190,
+      "sha256": "3241927e50d1c8ff671beab51d1e960a52464f8b7039bd6efb8e8ebeaa1d90be",
+      "width": 1672,
+      "height": 941,
+      "status": "HOLD_TECH",
+      "notes": "Grill and fan require site-specific technology approval.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G04",
+      "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "version": "V2",
+      "role": "WIDE",
+      "source_file": "a_richly_detailed_photorealistic_outdoor_backyard.png",
+      "archive_path": "G04_SLOB-BACKYARD-RETREAT/V2_WIDE.png",
+      "bytes": 3398818,
+      "sha256": "09c9a7cd437d7538b2908d3d05425cf4000fcbb16d9c842cb1bf594e4705b272",
+      "width": 1672,
+      "height": 941,
+      "status": "HOLD_TECH",
+      "notes": "TV, fan and grill plus expanded geometry.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G05",
+      "id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "version": "V1",
+      "role": "MATERIAL",
+      "source_file": "a_cinematic_highly_detailed_cozy_rustic_study_li.png",
+      "archive_path": "G05_LLC-HIDDEN-DUNGEON/V1_MATERIAL.png",
+      "bytes": 2501802,
+      "sha256": "2964fa45fea865525979da46dd4f26d522887cb54452f430de0d9c2ce48d913c",
+      "width": 1672,
+      "height": 941,
+      "status": "BOUNDED_STUDY",
+      "notes": "Stone/wood/ledger texture only; window/lamp and placement not authorized.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G05",
+      "id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "version": "V2",
+      "role": "MATERIAL",
+      "source_file": "a_richly_detailed_cinematic_moody_war_room_old.png",
+      "archive_path": "G05_LLC-HIDDEN-DUNGEON/V2_MATERIAL.png",
+      "bytes": 2433835,
+      "sha256": "172df79b97be68cfc06f94c7ba1558d71da4600ccfa5709316c709997bfe66d7",
+      "width": 1672,
+      "height": 941,
+      "status": "HOLD_ALTERNATE",
+      "notes": "Trophies, globe, charts and other room unverified.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G06",
+      "id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "version": "V1",
+      "role": "MATERIAL",
+      "source_file": "a_cinematic_moody_landscape_scene_in_heavy_rain_a.png",
+      "archive_path": "G06_CHINS-STORM-HIGHWAY/V1_MATERIAL.png",
+      "bytes": 3299712,
+      "sha256": "a4680fe7ac92314678f32338ceac57fa8e103c0a4935846f6adf44f02a1bfc76",
+      "width": 1672,
+      "height": 941,
+      "status": "BOUNDED_STUDY",
+      "notes": "Weather/vegetation only; no corridor or surface authority.",
+      "approved": false,
+      "github_binary_verified": false
+    },
+    {
+      "g": "G06",
+      "id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "version": "V2",
+      "role": "WIDE",
+      "source_file": "a_cinematic_ultra_realistic_stormy_roadway_scene.png",
+      "archive_path": "G06_CHINS-STORM-HIGHWAY/V2_WIDE.png",
+      "bytes": 3447759,
+      "sha256": "273807df00ca478be231f61ae04faed31b6f87fd049292a1f3a4bbdf9a027fd8",
+      "width": 1672,
+      "height": 941,
+      "status": "HOLD_ROUTE_TECH",
+      "notes": "Pavement, markings, guardrail and vehicle/corridor unresolved.",
+      "approved": false,
+      "github_binary_verified": false
+    }
+  ],
+  "slots": [
+    {
+      "id": "G01-WIDE",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "role": "WIDE",
+      "status": "ANCHOR_CANDIDATE",
+      "source_sha256": "25e60e9f56d9f5e0a26b4ae4121942f934820caf4250050fa8364a27c57664a9",
+      "approved": false
+    },
+    {
+      "id": "G01-REVERSE",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "role": "REVERSE",
+      "status": "CANDIDATE_REVIEW",
+      "source_sha256": "1a7be0f357ce060d39fd88430419977b99786f2c048c712823c21205392c90ee",
+      "approved": false
+    },
+    {
+      "id": "G01-OVERVIEW",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "role": "OVERVIEW",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G01-DETAIL",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "role": "DETAIL",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G01-MATERIAL",
+      "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+      "role": "MATERIAL",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G02-WIDE",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "role": "WIDE",
+      "status": "ANCHOR_CANDIDATE",
+      "source_sha256": "91308a3587576eaa65d94a81143bdfe39fbc522fad01ebe1acbd9bcf221557be",
+      "approved": false
+    },
+    {
+      "id": "G02-REVERSE",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "role": "REVERSE",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G02-OVERVIEW",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "role": "OVERVIEW",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G02-DETAIL",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "role": "DETAIL",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G02-MATERIAL",
+      "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+      "role": "MATERIAL",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G03-WIDE",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "role": "WIDE",
+      "status": "ANCHOR_CANDIDATE",
+      "source_sha256": "7122f9bc66521f2986805ac1c3e8c2280ea2c7284eacf81fdf8a125f44ba0dbb",
+      "approved": false
+    },
+    {
+      "id": "G03-REVERSE",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "role": "REVERSE",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G03-OVERVIEW",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "role": "OVERVIEW",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G03-DETAIL",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "role": "DETAIL",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G03-MATERIAL",
+      "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+      "role": "MATERIAL",
+      "status": "PENDING_SINGLE_VIEW",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G04-WIDE",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "role": "WIDE",
+      "status": "HOLD_TECH_CORRECTION",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G04-REVERSE",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "role": "REVERSE",
+      "status": "HOLD_TECH_CORRECTION",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G04-OVERVIEW",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "role": "OVERVIEW",
+      "status": "HOLD_TECH_CORRECTION",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G04-DETAIL",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "role": "DETAIL",
+      "status": "HOLD_TECH_CORRECTION",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G04-MATERIAL",
+      "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "role": "MATERIAL",
+      "status": "HOLD_TECH_CORRECTION",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G05-WIDE",
+      "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "role": "WIDE",
+      "status": "HOLD_PLACEMENT_OR_ROUTE",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G05-REVERSE",
+      "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "role": "REVERSE",
+      "status": "HOLD_PLACEMENT_OR_ROUTE",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G05-OVERVIEW",
+      "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "role": "OVERVIEW",
+      "status": "HOLD_PLACEMENT_OR_ROUTE",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G05-DETAIL",
+      "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "role": "DETAIL",
+      "status": "BOUNDED_STUDY_PENDING",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G05-MATERIAL",
+      "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "role": "MATERIAL",
+      "status": "BOUNDED_STUDY",
+      "source_sha256": "2964fa45fea865525979da46dd4f26d522887cb54452f430de0d9c2ce48d913c",
+      "approved": false
+    },
+    {
+      "id": "G06-WIDE",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "role": "WIDE",
+      "status": "HOLD_PLACEMENT_OR_ROUTE",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G06-REVERSE",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "role": "REVERSE",
+      "status": "HOLD_PLACEMENT_OR_ROUTE",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G06-OVERVIEW",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "role": "OVERVIEW",
+      "status": "HOLD_PLACEMENT_OR_ROUTE",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G06-DETAIL",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "role": "DETAIL",
+      "status": "BOUNDED_STUDY_PENDING",
+      "source_sha256": null,
+      "approved": false
+    },
+    {
+      "id": "G06-MATERIAL",
+      "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "role": "MATERIAL",
+      "status": "BOUNDED_STUDY",
+      "source_sha256": "a4680fe7ac92314678f32338ceac57fa8e103c0a4935846f6adf44f02a1bfc76",
+      "approved": false
+    }
+  ],
+  "rejected": [
+    {
+      "source": "a_cinematic_highly_detailed_production_briefing_b.png",
+      "sha256": "a8e30c8b565b89d66ca196f457ca01553ad4546c08189e97600d3034f6ae732a",
+      "reason": "Wrong output: dashboard not G02 reverse; embedded claims invalid."
+    },
+    {
+      "source": "a_highly_detailed_cinematic_production_dashboard.png",
+      "reason": "Second wrong output: dashboard; embedded claims invalid."
+    }
+  ],
+  "checks": {
+    "standalone_pngs_verified_in_container": 13,
+    "new_single_view_candidates": 1,
+    "misgenerated_boards_rejected": 2,
+    "planned_roles": 30,
+    "occupied_provisional_roles": 6,
+    "approved_roles": 0,
+    "github_binary_ingestion": 0,
+    "active_canon_mutation": false,
+    "final_render": false
+  },
+  "limitations": [
+    "Actual image bytes bundled in conversation artifact, not uploaded to GitHub; GitHub register is metadata and shot assignments only.",
+    "G04 technology, G05 containment, G06 route/technology, exact candidate access, stale state and approved visual references unresolved.",
+    "Thirty role target is not thirty generated or approved images. No score uplift inferred."
+  ]
+}
