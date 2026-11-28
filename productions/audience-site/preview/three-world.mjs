@@ -214,7 +214,12 @@ export function createBaseWaterMaterial(THREE,shorelineTexture=null){
     vec2 shoreUV=(vP.xz+vec2(110.))/220.;
     float within=step(0.,shoreUV.x)*step(shoreUV.x,1.)*step(0.,shoreUV.y)*step(shoreUV.y,1.);
     float shallows=texture2D(uShoreMask,clamp(shoreUV,0.,1.)).r*within;
-    float breaking=pow(max(sin(vP.x*3.1+uTime*.8)*sin(vP.z*2.8-uTime*.71),0.),6.)*fineDetailFade;
+    // Shore highlights have a shorter wavelength than offshore detail.
+    float shorePhaseA=vP.x*3.1+uTime*.8;
+    float shorePhaseB=vP.z*2.8-uTime*.71;
+    float shorePixelSpan=max(fwidth(shorePhaseA),fwidth(shorePhaseB));
+    float shoreDetailFade=1.-smoothstep(.5,2.,shorePixelSpan);
+    float breaking=pow(max(sin(shorePhaseA)*sin(shorePhaseB),0.),6.)*shoreDetailFade;
     col=mix(col,vec3(.22,.4,.35),shallows*.28);
     col+=vec3(.33,.31,.24)*shallows*breaking*.25;
     col*=.45+.55*uStrength;
