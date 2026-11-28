@@ -4,7 +4,12 @@
   "source_blobs": {
     "previs": "a1e3b597ba7c060cdb0409e273da4bdbf8514345",
     "bindings": "4b8f9aa3db5982ae0b744f2723d0e35d229a5ff0",
-    "manuscript": "9853b4523990acc6f3a1c514d0a658c786d46870"
+    "manuscript": "9853b4523990acc6f3a1c514d0a658c786d46870",
+    "current_founder_manuscript": "58030713456565b1033f3cf69b7008bbb0432eb2",
+    "current_atlas_manifest": "c0e46419926ab98dc76cb1e74b463378307580a0",
+    "prior_page_snapshot": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3",
+    "prior_character_byte_receipt": "46f73e2b171a7ebea95f1d58cc0c331745ba1816",
+    "production_review": "2c39f88e2ac0feaa0bd548e8b423c9568a47298c"
   },
   "pages": [
     {
@@ -635,8 +640,8 @@
     {
       "page_id": "W12-P09",
       "page_role": "matchup_setup",
-      "title": "The Place at the Head — Arrival",
-      "narrative_job": "Wilson crosses the stronghold training court dragging a heavy training standard upright into position, four hooves planted; Jake arrives hooded, lightsaber clipped. Two empty spaces in the viewing area suggest absent contenders, not literal elimination. Jake: “Three weeks left. I'm not going to the beach.” Wilson: “Then don't ask me to move.”",
+      "title": "The clearing remembers — Arrival",
+      "narrative_job": "The stream kept its own time. Wilson had been at the clearing since the first light reached the old stones, his axe rising and falling over ground worn by years of practice. Jake had come for quiet, not company. He stopped when four hooves turned toward him. The water went on moving. Neither mentioned the lake or the carnival until Wilson broke the silence. “You picked a fine morning to interrupt.” Jake glanced at the space between the boulders. “I was looking for somewhere nobody wanted anything.” Wilson raised his axe. “Then you took the wrong path.”",
       "lead_discipline": "environment design",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -673,32 +678,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
-        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-UPPER-VALLEYS",
         "division_context": "DIV-BURGERS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "highland stronghold",
-          "training court",
-          "road approach"
+          "stream",
+          "old ruin wall",
+          "boulders",
+          "training clearing"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+        "planning_parent_context": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Wide low training-court approach",
-      "foreground": "hoof marks and road edge",
-      "midground": "Wilson's four-legged silhouette and arriving hooded ObiWan",
-      "background": "Stronghold ridges",
-      "image_tells": "Four-hoof stance; standard and portable shield; hooded visitor",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Wide sunrise clearing with stream and ruin wall, distinct approaches",
+      "foreground": "wet leaves and stream edge",
+      "midground": "Wilson practicing; hooded ObiWan arrives",
+      "background": "old ruins and mature forest",
+      "image_tells": "Solitude interrupted; recognizably old terrain",
+      "prose_tells": "Prior bridge/carnival defeat motivates choices; no territory or Belt transfer.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "W11 bridge and carnival remain elsewhere; four-hoof identity, hood and clipped saber before challenge.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -725,18 +736,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Neither rival has forgotten Week 11; the contest is ahead.",
+      "reader_takeaway": "Establish the place and opposing character intentions in The clearing remembers.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Wilson crosses the stronghold training court dragging a heavy training standard upright into position, four hooves planted; Jake arrives hooded, lightsaber clipped. Two empty spaces in the viewing area suggest absent contenders, not literal elimination. Jake: “Three weeks left. I'm not going to the beach.” Wilson: “Then don't ask me to move.”",
+        "shared": "The stream kept its own time. Wilson had been at the clearing since the first light reached the old stones, his axe rising and falling over ground worn by years of practice. Jake had come for quiet, not company. He stopped when four hooves turned toward him. The water went on moving. Neither mentioned the lake or the carnival until Wilson broke the silence. “You picked a fine morning to interrupt.” Jake glanced at the space between the boulders. “I was looking for somewhere nobody wanted anything.” Wilson raised his axe. “Then you took the wrong path.”",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -751,18 +762,76 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Wilson crosses the stronghold training court dragging a heavy training standard upright into position, four hooves planted; Jake arrives hooded, lightsaber clipped. Two empty spaces in the viewing area suggest absent contenders, not literal elimination. Jake: “Three weeks left. I'm not going to the beach.” Wilson: “Then don't ask me to move.”",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "The stream kept its own time. Wilson had been at the clearing since the first light reached the old stones, his axe rising and falling over ground worn by years of practice. Jake had come for quiet, not company. He stopped when four hooves turned toward him. The water went on moving. Neither mentioned the lake or the carnival until Wilson broke the silence. “You picked a fine morning to interrupt.” Jake glanced at the space between the boulders. “I was looking for somewhere nobody wanted anything.” Wilson raised his axe. “Then you took the wrong path.”",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-WILSON-LOOK",
+              "You picked a fine morning to interrupt."
+            ],
+            [
+              "CHAR-JAKE-KALOPER",
+              "I was looking for somewhere nobody wanted anything."
+            ],
+            [
+              "CHAR-WILSON-LOOK",
+              "Then you took the wrong path."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-JAKE-KALOPER",
+              "I didn't come here for another fight."
+            ],
+            [
+              "CHAR-WILSON-LOOK",
+              "Then why are you still standing here?"
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G01-design",
+          "G01-environment",
+          "G01-character_vfx",
+          "G01-costume",
+          "G01-props",
+          "G01-camera",
+          "G01-lighting",
+          "G01-action",
+          "G01-dialogue_presentation",
+          "G01-editing",
+          "G01-sound_cues",
+          "G01-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P10",
       "page_role": "matchup_setup",
-      "title": "The Place at the Head — The challenge",
-      "narrative_job": "A proposed contest of holding ground in the existing training court. Wilson drives his armored mass forward against a portable training shield; Jake braces, pivots and counters using a training staff rather than changing his lightsaber continuity. The shield shifts across a marked practice line. The decisive movement is held until the result. Camera wide enough for all four hooves, then low near the moving shield. No replay of last week's bridge fall.",
+      "title": "The clearing remembers — Pressure",
+      "narrative_job": "P10 opposing silhouettes, axe and lightsaber, clear ground between stream and old ruins; no decisive strike yet.",
       "lead_discipline": "performance",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -780,7 +849,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H05-A01",
-      "chapter_beat": "The challenge",
+      "chapter_beat": "Pressure",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-WILSON-LOOK",
@@ -799,32 +868,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
-        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-UPPER-VALLEYS",
         "division_context": "DIV-BURGERS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "highland stronghold",
-          "training court",
-          "road approach"
+          "stream",
+          "old ruin wall",
+          "boulders",
+          "training clearing"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+        "planning_parent_context": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Low moving shield with wide body-silhouette continuity",
-      "foreground": "training court stone",
-      "midground": "two rivals; clipped lightsaber and four-hoof stance",
-      "background": "Court wall",
-      "image_tells": "Shield displacement, staff counter and visible practice line",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Medium-wide opposing silhouettes, visible grounded four-hoof stance and weapon contrast",
+      "foreground": "compressed leaves and boulders",
+      "midground": "DK and ObiWan face each other",
+      "background": "same forest and ruin wall",
+      "image_tells": "Readable contrast of integrated centaur and Jedi without decisive outcome",
+      "prose_tells": "Prior bridge/carnival defeat motivates choices; no territory or Belt transfer.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "W11 bridge and carnival remain elsewhere; four-hoof identity, hood and clipped saber before challenge.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -851,18 +926,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "I didn't come to talk about last week. / Then give me something else to remember.",
+      "reader_takeaway": "The encounter intensifies; no winner implied.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "A proposed contest of holding ground in the existing training court. Wilson drives his armored mass forward against a portable training shield; Jake braces, pivots and counters using a training staff rather than changing his lightsaber continuity. The shield shifts across a marked practice line. The decisive movement is held until the result. Camera wide enough for all four hooves, then low near the moving shield. No replay of last week's bridge fall.",
+        "shared": "P10 opposing silhouettes, axe and lightsaber, clear ground between stream and old ruins; no decisive strike yet.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -877,18 +952,76 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "A proposed contest of holding ground in the existing training court. Wilson drives his armored mass forward against a portable training shield; Jake braces, pivots and counters using a training staff rather than changing his lightsaber continuity. The shield shifts across a marked practice line. The decisive movement is held until the result. Camera wide enough for all four hooves, then low near the moving shield. No replay of last week's bridge fall.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "P10 opposing silhouettes, axe and lightsaber, clear ground between stream and old ruins; no decisive strike yet.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-WILSON-LOOK",
+              "You picked a fine morning to interrupt."
+            ],
+            [
+              "CHAR-JAKE-KALOPER",
+              "I was looking for somewhere nobody wanted anything."
+            ],
+            [
+              "CHAR-WILSON-LOOK",
+              "Then you took the wrong path."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-JAKE-KALOPER",
+              "I didn't come here for another fight."
+            ],
+            [
+              "CHAR-WILSON-LOOK",
+              "Then why are you still standing here?"
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G01-design",
+          "G01-environment",
+          "G01-character_vfx",
+          "G01-costume",
+          "G01-props",
+          "G01-camera",
+          "G01-lighting",
+          "G01-action",
+          "G01-dialogue_presentation",
+          "G01-editing",
+          "G01-sound_cues",
+          "G01-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P11",
       "page_role": "matchup_payoff",
-      "title": "The Place at the Head — The answer",
-      "narrative_job": "HOME: Wilson forces the shield past the line, then stands clear rather than humiliating Jake again. AWAY: Jake redirects the shield and steps across the mark first; Wilson yields the contest, not his homeland. The losing character looks toward the open road. Reader copy selects only verified score/winner. DK is protecting a division lead; ObiWan has little margin left, no automatic elimination.",
+      "title": "The clearing remembers — Conditional answer",
+      "narrative_job": "HOME: DK wins the duel; ObiWan survives. Injury specifics remain held; no belt or permanent state transfer. AWAY: ObiWan wins the duel; DK survives. Injury specifics remain held; no belt or territorial claim.",
       "lead_discipline": "editing",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -906,7 +1039,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H05-A01",
-      "chapter_beat": "The answer",
+      "chapter_beat": "Conditional answer",
       "fact_dependencies": [
         "W12-H05-A01"
       ],
@@ -927,32 +1060,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-DK-HIGHLAND-STRONGHOLD",
-        "local_handle": "SUB::LOC-DK-HIGHLAND-STRONGHOLD::TRAINING-COURT",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-UPPER-VALLEYS",
         "division_context": "DIV-BURGERS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "highland stronghold",
-          "training court",
-          "road approach"
+          "stream",
+          "old ruin wall",
+          "boulders",
+          "training clearing"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+        "planning_parent_context": "LOC-DK-HIGHLAND-STRONGHOLD",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Conditional finish-line reaction; no bridge replay",
-      "foreground": "open road",
-      "midground": "result-selected reaction",
-      "background": "Open road",
-      "image_tells": "Only selected winner crosses; loser remains intact",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Conditional medium-wide aftermath retaining same stream, wall and boulders",
+      "foreground": "same clearing ground",
+      "midground": "result-selected surviving rivals",
+      "background": "same forest and ruin wall",
+      "image_tells": "Selected outcome and nonfatal consequence only; injury held",
+      "prose_tells": "Prior bridge/carnival defeat motivates choices; no territory or Belt transfer.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "conditional pending verified result and canon gate",
+      "continuity_in": "W11 bridge and carnival remain elsewhere; four-hoof identity, hood and clipped saber before challenge.",
+      "continuity_out": "BOTH_BRANCHES_HELD; no persistent state or result selected.",
       "deterministic_data_fields": [
         "home_score",
         "away_score",
@@ -983,18 +1122,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Insert selected manuscript ending only after evidence review.",
+      "reader_takeaway": "Conditional result only after accepted Fact Lock and continuity review.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
         "shared": null,
-        "home": "Wilson forces the shield past the line, then stands clear rather than humiliating Jake again.",
-        "away": "Jake redirects the shield and steps across the mark first; Wilson yields the contest, not his homeland. The losing character looks toward the open road. Reader copy selects only verified score/winner. DK is protecting a division lead; ObiWan has little margin left, no automatic elimination.",
+        "home": "DK wins the duel; ObiWan survives. Injury specifics remain held; no belt or permanent state transfer.",
+        "away": "ObiWan wins the duel; DK survives. Injury specifics remain held; no belt or territorial claim.",
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_payoff",
       "failure_conditions": [
@@ -1010,18 +1149,76 @@
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
         "PROVIDER_ATTACHMENT",
-        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "HOME: Wilson forces the shield past the line, then stands clear rather than humiliating Jake again. AWAY: Jake redirects the shield and steps across the mark first; Wilson yields the contest, not his homeland. The losing character looks toward the open road. Reader copy selects only verified score/winner. DK is protecting a division lead; ObiWan has little margin left, no automatic elimination.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "HOME: DK wins the duel; ObiWan survives. Injury specifics remain held; no belt or permanent state transfer. AWAY: ObiWan wins the duel; DK survives. Injury specifics remain held; no belt or territorial claim.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-DK-FOREST-TRAINING",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-DK-FOREST-TRAINING/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-WILSON-LOOK",
+              "You picked a fine morning to interrupt."
+            ],
+            [
+              "CHAR-JAKE-KALOPER",
+              "I was looking for somewhere nobody wanted anything."
+            ],
+            [
+              "CHAR-WILSON-LOOK",
+              "Then you took the wrong path."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-JAKE-KALOPER",
+              "I didn't come here for another fight."
+            ],
+            [
+              "CHAR-WILSON-LOOK",
+              "Then why are you still standing here?"
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G01-design",
+          "G01-environment",
+          "G01-character_vfx",
+          "G01-costume",
+          "G01-props",
+          "G01-camera",
+          "G01-lighting",
+          "G01-action",
+          "G01-dialogue_presentation",
+          "G01-editing",
+          "G01-sound_cues",
+          "G01-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P12",
       "page_role": "matchup_setup",
-      "title": "The Dry Way Through — The bank",
-      "narrative_job": "Bobby drives a portable marker into raised ground and tests a muddy channel with a pole. Phillip's three heads follow three different visual cues on the same bank, one body. A dry marker across the channel becomes the target of a proposed sporting challenge, not a permanent landmark. Bobby: “You want a seat at that table? Come through my swamp.”",
+      "title": "The bank knows its own — Arrival",
+      "narrative_job": "Mist covered the water, but it could not hide the old boards of the hunting cabin. One newer plank lay among the dark timber of the dock; the half-sunken boat still pulled gently at its tether. Bobby waited on the raised bank. Phillip approached with three heads watching the cabin, water and ground in turn, all carried by one body. “After last week, you must be feeling dangerous.” Bobby gave him a long look. “You came all this way to ask?” The water moved beneath the dock. Phillip had expected a short visit; the swamp had offered no such promise.",
       "lead_discipline": "environment design",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1039,7 +1236,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H10-A06",
-      "chapter_beat": "The bank",
+      "chapter_beat": "Arrival",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-BOBBY-MITCHELL",
@@ -1058,32 +1255,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-MUD-DOGS-SWAMP",
-        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-SOUTHERN-WETLANDS",
         "division_context": "DIV-BURGERS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "mud channels",
-          "raised ground",
-          "Gators & Dawgs sign"
+          "raised hunting cabin",
+          "weathered dock",
+          "tethered partly flooded boat",
+          "raised bank"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+        "planning_parent_context": "LOC-MUD-DOGS-SWAMP",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Low oblique wetland establishing frame",
-      "foreground": "raised ground and water edge",
-      "midground": "Bobby at the bank, Phillip arriving",
-      "background": "Raised bank and channels",
-      "image_tells": "Portable marker, pole and three heads on one body",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Wide cabin-bank-dock master using V3 working audition",
+      "foreground": "wet roots and dock boards",
+      "midground": "quadruped Mud Dogs and one-body three-headed TDS",
+      "background": "cabin and tethered boat",
+      "image_tells": "Established swamp familiarity and flooded hull",
+      "prose_tells": "TDS confidence and Mud Dogs' spoiler pressure; no invented historical losing-season counts.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "W11 sign/flood/postcard remain separate outpost; boat tie and waterline stable; no historical Losers Beach counts inferred.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -1110,18 +1313,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Last week's wrong turn still matters.",
+      "reader_takeaway": "Establish the place and opposing character intentions in The bank knows its own.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Bobby drives a portable marker into raised ground and tests a muddy channel with a pole. Phillip's three heads follow three different visual cues on the same bank, one body. A dry marker across the channel becomes the target of a proposed sporting challenge, not a permanent landmark. Bobby: “You want a seat at that table? Come through my swamp.”",
+        "shared": "Mist covered the water, but it could not hide the old boards of the hunting cabin. One newer plank lay among the dark timber of the dock; the half-sunken boat still pulled gently at its tether. Bobby waited on the raised bank. Phillip approached with three heads watching the cabin, water and ground in turn, all carried by one body. “After last week, you must be feeling dangerous.” Bobby gave him a long look. “You came all this way to ask?” The water moved beneath the dock. Phillip had expected a short visit; the swamp had offered no such promise.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -1136,18 +1339,72 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Bobby drives a portable marker into raised ground and tests a muddy channel with a pole. Phillip's three heads follow three different visual cues on the same bank, one body. A dry marker across the channel becomes the target of a proposed sporting challenge, not a permanent landmark. Bobby: “You want a seat at that table? Come through my swamp.”",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "Mist covered the water, but it could not hide the old boards of the hunting cabin. One newer plank lay among the dark timber of the dock; the half-sunken boat still pulled gently at its tether. Bobby waited on the raised bank. Phillip approached with three heads watching the cabin, water and ground in turn, all carried by one body. “After last week, you must be feeling dangerous.” Bobby gave him a long look. “You came all this way to ask?” The water moved beneath the dock. Phillip had expected a short visit; the swamp had offered no such promise.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-PHILLIP-PITTS",
+              "After last week, you must be feeling dangerous."
+            ],
+            [
+              "CHAR-BOBBY-MITCHELL",
+              "You came all this way to ask?"
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-PHILLIP-PITTS",
+              "Three weeks. I'm not spending them looking backward."
+            ],
+            [
+              "CHAR-BOBBY-MITCHELL",
+              "You're already looking at the wrong thing."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G02-design",
+          "G02-environment",
+          "G02-character_vfx",
+          "G02-costume",
+          "G02-props",
+          "G02-camera",
+          "G02-lighting",
+          "G02-action",
+          "G02-dialogue_presentation",
+          "G02-editing",
+          "G02-sound_cues",
+          "G02-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P13",
       "page_role": "matchup_setup",
-      "title": "The Dry Way Through — The question",
-      "narrative_job": "The marker is carried over an existing shallow muddy approach; Bobby advances with practiced footing while Phillip reads the bank and changes direction before a soft patch. Mud displaces visibly, no magical teleport or repeated Ben deception. Both approach the target as the page cuts.",
+      "title": "The bank knows its own — Pressure",
+      "narrative_job": "P13 confrontation uses the same bank, dock and waterline; environmental challenge or combat remains subject to exact action review.",
       "lead_discipline": "performance",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1165,7 +1422,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H10-A06",
-      "chapter_beat": "The question",
+      "chapter_beat": "Pressure",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-BOBBY-MITCHELL",
@@ -1184,32 +1441,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-MUD-DOGS-SWAMP",
-        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-SOUTHERN-WETLANDS",
         "division_context": "DIV-BURGERS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "mud channels",
-          "raised ground",
-          "Gators & Dawgs sign"
+          "raised hunting cabin",
+          "weathered dock",
+          "tethered partly flooded boat",
+          "raised bank"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+        "planning_parent_context": "LOC-MUD-DOGS-SWAMP",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Tracking across shallow approach",
-      "foreground": "mud texture",
-      "midground": "Bobby and Phillip facing same terrain",
-      "background": "Wetland vegetation",
-      "image_tells": "Both competitors negotiate the mud, visible target",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Low or medium-wide confrontation on same bank; V4 reverse only after spatial review",
+      "foreground": "bank and dock edge",
+      "midground": "both principals in readable confrontation",
+      "background": "same waterline and cabin",
+      "image_tells": "Physical contrast without repeating W11 wrong turn",
+      "prose_tells": "TDS confidence and Mud Dogs' spoiler pressure; no invented historical losing-season counts.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "W11 sign/flood/postcard remain separate outpost; boat tie and waterline stable; no historical Losers Beach counts inferred.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -1236,18 +1499,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Do you give everyone directions? / Only when they ask.",
+      "reader_takeaway": "The encounter intensifies; no winner implied.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "The marker is carried over an existing shallow muddy approach; Bobby advances with practiced footing while Phillip reads the bank and changes direction before a soft patch. Mud displaces visibly, no magical teleport or repeated Ben deception. Both approach the target as the page cuts.",
+        "shared": "P13 confrontation uses the same bank, dock and waterline; environmental challenge or combat remains subject to exact action review.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -1262,18 +1525,72 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "The marker is carried over an existing shallow muddy approach; Bobby advances with practiced footing while Phillip reads the bank and changes direction before a soft patch. Mud displaces visibly, no magical teleport or repeated Ben deception. Both approach the target as the page cuts.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "P13 confrontation uses the same bank, dock and waterline; environmental challenge or combat remains subject to exact action review.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-PHILLIP-PITTS",
+              "After last week, you must be feeling dangerous."
+            ],
+            [
+              "CHAR-BOBBY-MITCHELL",
+              "You came all this way to ask?"
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-PHILLIP-PITTS",
+              "Three weeks. I'm not spending them looking backward."
+            ],
+            [
+              "CHAR-BOBBY-MITCHELL",
+              "You're already looking at the wrong thing."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G02-design",
+          "G02-environment",
+          "G02-character_vfx",
+          "G02-costume",
+          "G02-props",
+          "G02-camera",
+          "G02-lighting",
+          "G02-action",
+          "G02-dialogue_presentation",
+          "G02-editing",
+          "G02-sound_cues",
+          "G02-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P14",
       "page_role": "matchup_payoff",
-      "title": "The Dry Way Through — The choice",
-      "narrative_job": "HOME: Bobby reaches the target first; Phillip stops on sound ground, conceding only the contest. AWAY: Phillip's deliberate detour beats Bobby to the marker; Bobby pulls his own foot free, alive and unharmed. Both face the narrowing Burgers race. Mud Dogs' route is unusually difficult but source witnesses show a path; no fabricated clinch or elimination.",
+      "title": "The bank knows its own — Conditional answer",
+      "narrative_job": "HOME: Mud Dogs earns spoiler victory through familiarity and resolve; no new flood or permanent route. AWAY: TDS earns victory by overcoming the challenge without repeating Chins' wrong-turn plot; no invented injury or elimination.",
       "lead_discipline": "editing",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1291,7 +1608,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H10-A06",
-      "chapter_beat": "The choice",
+      "chapter_beat": "Conditional answer",
       "fact_dependencies": [
         "W12-H10-A06"
       ],
@@ -1312,32 +1629,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-MUD-DOGS-SWAMP",
-        "local_handle": "SUB::LOC-MUD-DOGS-SWAMP::RAISED-GROUND",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-SOUTHERN-WETLANDS",
         "division_context": "DIV-BURGERS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "mud channels",
-          "raised ground",
-          "Gators & Dawgs sign"
+          "raised hunting cabin",
+          "weathered dock",
+          "tethered partly flooded boat",
+          "raised bank"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+        "planning_parent_context": "LOC-MUD-DOGS-SWAMP",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Conditional marker arrival; no permanent change",
-      "foreground": "bank edge",
-      "midground": "winner-dependent reaction",
-      "background": "Existing bank",
-      "image_tells": "Winner reaches marker; loser stays on safe ground",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Conditional reaction from same dock/bank geography",
+      "foreground": "same bank edge",
+      "midground": "result-dependent response",
+      "background": "same cabin and waterline",
+      "image_tells": "Result-specific reaction, no new flood",
+      "prose_tells": "TDS confidence and Mud Dogs' spoiler pressure; no invented historical losing-season counts.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "conditional pending verified result and canon gate",
+      "continuity_in": "W11 sign/flood/postcard remain separate outpost; boat tie and waterline stable; no historical Losers Beach counts inferred.",
+      "continuity_out": "BOTH_BRANCHES_HELD; no persistent state or result selected.",
       "deterministic_data_fields": [
         "home_score",
         "away_score",
@@ -1368,18 +1691,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "No new route, flood or permanent change.",
+      "reader_takeaway": "Conditional result only after accepted Fact Lock and continuity review.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
         "shared": null,
-        "home": "Bobby reaches the target first; Phillip stops on sound ground, conceding only the contest.",
-        "away": "Phillip's deliberate detour beats Bobby to the marker; Bobby pulls his own foot free, alive and unharmed. Both face the narrowing Burgers race. Mud Dogs' route is unusually difficult but source witnesses show a path; no fabricated clinch or elimination.",
+        "home": "Mud Dogs earns spoiler victory through familiarity and resolve; no new flood or permanent route.",
+        "away": "TDS earns victory by overcoming the challenge without repeating Chins' wrong-turn plot; no invented injury or elimination.",
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_payoff",
       "failure_conditions": [
@@ -1395,18 +1718,72 @@
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
         "PROVIDER_ATTACHMENT",
-        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "HOME: Bobby reaches the target first; Phillip stops on sound ground, conceding only the contest. AWAY: Phillip's deliberate detour beats Bobby to the marker; Bobby pulls his own foot free, alive and unharmed. Both face the narrowing Burgers race. Mud Dogs' route is unusually difficult but source witnesses show a path; no fabricated clinch or elimination.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "HOME: Mud Dogs earns spoiler victory through familiarity and resolve; no new flood or permanent route. AWAY: TDS earns victory by overcoming the challenge without repeating Chins' wrong-turn plot; no invented injury or elimination.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-MUD-HUNTING-CABIN",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-MUD-HUNTING-CABIN/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-PHILLIP-PITTS",
+              "After last week, you must be feeling dangerous."
+            ],
+            [
+              "CHAR-BOBBY-MITCHELL",
+              "You came all this way to ask?"
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-PHILLIP-PITTS",
+              "Three weeks. I'm not spending them looking backward."
+            ],
+            [
+              "CHAR-BOBBY-MITCHELL",
+              "You're already looking at the wrong thing."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G02-design",
+          "G02-environment",
+          "G02-character_vfx",
+          "G02-costume",
+          "G02-props",
+          "G02-camera",
+          "G02-lighting",
+          "G02-action",
+          "G02-dialogue_presentation",
+          "G02-editing",
+          "G02-sound_cues",
+          "G02-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P15",
       "page_role": "matchup_setup",
-      "title": "The Visitor Without an Offer — The ruins",
-      "narrative_job": "Kevin stands among the predator banners. Duckhook arrives without purchase papers, carrying a golf club only if current reference/prop authority allows. Kevin challenges him to an accuracy contest using movable targets in the ruins' existing open space, no damage to masonry. “You bought yourself a chair. You haven't bought this place.”",
+      "title": "A toast in the hills — Arrival",
+      "narrative_job": "The cabin windows were warm against the cold hillside. Zach shook the wind from his shoulders and accepted the invitation without a purchase agreement. Kevin had set two glasses on the old table. “To the chairman,” he said. “And to David, wherever he's found a chair.” Zach laughed. “Preferably one with a view.” They toasted victories and the peculiar trouble of winning an argument with Babb. A gust struck the shutters. Kevin looked toward the room's far side, then back at his guest. Zach noticed the pause, but not its meaning. The evening had begun courteously enough.",
       "lead_discipline": "environment design",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1424,7 +1801,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H02-A12",
-      "chapter_beat": "The ruins",
+      "chapter_beat": "Arrival",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-KEVIN-ZEEK",
@@ -1443,31 +1820,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-RED-RUINS",
-        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-EASTERN-STORM-COAST",
         "division_context": "DIV-WINGS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "jungle ruins",
-          "predator banners"
+          "hillside cabin",
+          "shuttered windows",
+          "hearth",
+          "old table"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+        "planning_parent_context": "LOC-RED-RUINS",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Wide ruin approach",
-      "foreground": "weathered stone",
-      "midground": "Kevin holds position; Duckhook approaches",
-      "background": "Jungle masonry",
-      "image_tells": "Predator banners and portable target; prop authority pending",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Wide V1 hillside cabin at cold sunset",
+      "foreground": "mossy hillside approach",
+      "midground": "Red welcomes Duckhook",
+      "background": "modest cabin and forest",
+      "image_tells": "Longstanding retreat and invitation",
+      "prose_tells": "W11 corporate appointment and rivalry irony; separate private meeting remains unknown.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "W11 corporate takeover selected fiction; W8 Red loss and prior competitive memories, no unsupported personal quotations; G05 parallel but private.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -1494,18 +1878,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "At Jackson, two sheets changed an office. Here, the stones do not care.",
+      "reader_takeaway": "Establish the place and opposing character intentions in A toast in the hills.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Kevin stands among the predator banners. Duckhook arrives without purchase papers, carrying a golf club only if current reference/prop authority allows. Kevin challenges him to an accuracy contest using movable targets in the ruins' existing open space, no damage to masonry. “You bought yourself a chair. You haven't bought this place.”",
+        "shared": "The cabin windows were warm against the cold hillside. Zach shook the wind from his shoulders and accepted the invitation without a purchase agreement. Kevin had set two glasses on the old table. “To the chairman,” he said. “And to David, wherever he's found a chair.” Zach laughed. “Preferably one with a view.” They toasted victories and the peculiar trouble of winning an argument with Babb. A gust struck the shutters. Kevin looked toward the room's far side, then back at his guest. Zach noticed the pause, but not its meaning. The evening had begun courteously enough.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -1520,18 +1904,72 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Kevin stands among the predator banners. Duckhook arrives without purchase papers, carrying a golf club only if current reference/prop authority allows. Kevin challenges him to an accuracy contest using movable targets in the ruins' existing open space, no damage to masonry. “You bought yourself a chair. You haven't bought this place.”",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "The cabin windows were warm against the cold hillside. Zach shook the wind from his shoulders and accepted the invitation without a purchase agreement. Kevin had set two glasses on the old table. “To the chairman,” he said. “And to David, wherever he's found a chair.” Zach laughed. “Preferably one with a view.” They toasted victories and the peculiar trouble of winning an argument with Babb. A gust struck the shutters. Kevin looked toward the room's far side, then back at his guest. Zach noticed the pause, but not its meaning. The evening had begun courteously enough.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-KEVIN-ZEEK",
+              "To the chairman. And to David, wherever he's found a chair."
+            ],
+            [
+              "CHAR-ZACH-WILSON",
+              "Preferably one with a view."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-ZACH-WILSON",
+              "You didn't invite me all the way out here just to congratulate me."
+            ],
+            [
+              "CHAR-KEVIN-ZEEK",
+              "Not every invitation needs a purchase agreement."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G03-design",
+          "G03-environment",
+          "G03-character_vfx",
+          "G03-costume",
+          "G03-props",
+          "G03-camera",
+          "G03-lighting",
+          "G03-action",
+          "G03-dialogue_presentation",
+          "G03-editing",
+          "G03-sound_cues",
+          "G03-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P16",
       "page_role": "matchup_setup",
-      "title": "The Visitor Without an Offer — Empty hands",
-      "narrative_job": "Kevin and Duckhook compete to land a ball at a portable target between two existing stone features. Kevin's attempt shows controlled physical intent; Duckhook studies the angle, wind and ground. Use a close view of the ball and a wider reaction, keep each attempt readable. If prop authority is unresolved, hold that art instead of inventing a weapon.",
+      "title": "A toast in the hills — Pressure",
+      "narrative_job": "P16 toast becomes uneasy, use table/hearth/windows from stable interior; deceptive intent abstract only.",
       "lead_discipline": "performance",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1549,7 +1987,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H02-A12",
-      "chapter_beat": "Empty hands",
+      "chapter_beat": "Pressure",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-KEVIN-ZEEK",
@@ -1568,31 +2006,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-RED-RUINS",
-        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-EASTERN-STORM-COAST",
         "division_context": "DIV-WINGS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "jungle ruins",
-          "predator banners"
+          "hillside cabin",
+          "shuttered windows",
+          "hearth",
+          "old table"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+        "planning_parent_context": "LOC-RED-RUINS",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Ball/target close-up with wider attempt reaction",
-      "foreground": "empty hands visible",
-      "midground": "Kevin and Duckhook",
-      "background": "Existing ruin",
-      "image_tells": "Distinct controlled attempts; no masonry damage",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Two-character gathering-room composition using table, hearth and window light",
+      "foreground": "two glasses and worn table",
+      "midground": "opposing conversation and suspicion",
+      "background": "hearth and shuttered windows",
+      "image_tells": "Hospitality becomes suspicion",
+      "prose_tells": "W11 corporate appointment and rivalry irony; separate private meeting remains unknown.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "W11 corporate takeover selected fiction; W8 Red loss and prior competitive memories, no unsupported personal quotations; G05 parallel but private.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -1619,18 +2064,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Nothing to sign? / Not today.",
+      "reader_takeaway": "The encounter intensifies; no winner implied.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Kevin and Duckhook compete to land a ball at a portable target between two existing stone features. Kevin's attempt shows controlled physical intent; Duckhook studies the angle, wind and ground. Use a close view of the ball and a wider reaction, keep each attempt readable. If prop authority is unresolved, hold that art instead of inventing a weapon.",
+        "shared": "P16 toast becomes uneasy, use table/hearth/windows from stable interior; deceptive intent abstract only.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -1645,18 +2090,72 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Kevin and Duckhook compete to land a ball at a portable target between two existing stone features. Kevin's attempt shows controlled physical intent; Duckhook studies the angle, wind and ground. Use a close view of the ball and a wider reaction, keep each attempt readable. If prop authority is unresolved, hold that art instead of inventing a weapon.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "P16 toast becomes uneasy, use table/hearth/windows from stable interior; deceptive intent abstract only.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-KEVIN-ZEEK",
+              "To the chairman. And to David, wherever he's found a chair."
+            ],
+            [
+              "CHAR-ZACH-WILSON",
+              "Preferably one with a view."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-ZACH-WILSON",
+              "You didn't invite me all the way out here just to congratulate me."
+            ],
+            [
+              "CHAR-KEVIN-ZEEK",
+              "Not every invitation needs a purchase agreement."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G03-design",
+          "G03-environment",
+          "G03-character_vfx",
+          "G03-costume",
+          "G03-props",
+          "G03-camera",
+          "G03-lighting",
+          "G03-action",
+          "G03-dialogue_presentation",
+          "G03-editing",
+          "G03-sound_cues",
+          "G03-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P17",
       "page_role": "matchup_payoff",
-      "title": "The Visitor Without an Offer — The ground",
-      "narrative_job": "HOME: Kevin's shot is closest; he retrieves his target and Duckhook acknowledges the defeat. AWAY: Duckhook lands the decisive shot and leaves the ruins untouched. Kevin's domain and Duckhook's corporate appointment remain unchanged. Red seeks to climb back into the seven; Duckhook seeks to defend a strong position.",
+      "title": "A toast in the hills — Conditional answer",
+      "narrative_job": "HOME: Red's fictional deception succeeds, Duckhook confined as requested; no mechanism, durable confinement or future availability lock without later continuity ruling. AWAY: Duckhook recognizes the deception and avoids it; no automatic change in corporate position.",
       "lead_discipline": "editing",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1674,7 +2173,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H02-A12",
-      "chapter_beat": "The ground",
+      "chapter_beat": "Conditional answer",
       "fact_dependencies": [
         "W12-H02-A12"
       ],
@@ -1695,31 +2194,38 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-RED-RUINS",
-        "local_handle": "SUB::LOC-RED-RUINS::JUNGLE-RUINS",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-EASTERN-STORM-COAST",
         "division_context": "DIV-WINGS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "jungle ruins",
-          "predator banners"
+          "hillside cabin",
+          "shuttered windows",
+          "hearth",
+          "old table"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+        "planning_parent_context": "LOC-RED-RUINS",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Conditional result reaction and target recovery",
-      "foreground": "stone threshold",
-      "midground": "result-selected winner/loser reaction",
-      "background": "Forest approach",
-      "image_tells": "Sporting win only; no property transfer",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Conditional interior reaction, no technical mechanism shown",
+      "foreground": "same table or hearth edge",
+      "midground": "result-selected reaction",
+      "background": "same gathering-room anchors",
+      "image_tells": "Deception or avoidance represented abstractly",
+      "prose_tells": "W11 corporate appointment and rivalry irony; separate private meeting remains unknown.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "conditional pending verified result and canon gate",
+      "continuity_in": "W11 corporate takeover selected fiction; W8 Red loss and prior competitive memories, no unsupported personal quotations; G05 parallel but private.",
+      "continuity_out": "BOTH_BRANCHES_HELD; no persistent state or result selected.",
       "deterministic_data_fields": [
         "home_score",
         "away_score",
@@ -1750,18 +2256,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Sporting result cannot change property or corporate ownership.",
+      "reader_takeaway": "Conditional result only after accepted Fact Lock and continuity review.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
         "shared": null,
-        "home": "Kevin's shot is closest; he retrieves his target and Duckhook acknowledges the defeat.",
-        "away": "Duckhook lands the decisive shot and leaves the ruins untouched. Kevin's domain and Duckhook's corporate appointment remain unchanged. Red seeks to climb back into the seven; Duckhook seeks to defend a strong position.",
+        "home": "Red's fictional deception succeeds, Duckhook confined as requested; no mechanism, durable confinement or future availability lock without later continuity ruling.",
+        "away": "Duckhook recognizes the deception and avoids it; no automatic change in corporate position.",
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_payoff",
       "failure_conditions": [
@@ -1777,18 +2283,72 @@
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
         "PROVIDER_ATTACHMENT",
-        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "HOME: Kevin's shot is closest; he retrieves his target and Duckhook acknowledges the defeat. AWAY: Duckhook lands the decisive shot and leaves the ruins untouched. Kevin's domain and Duckhook's corporate appointment remain unchanged. Red seeks to climb back into the seven; Duckhook seeks to defend a strong position.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "HOME: Red's fictional deception succeeds, Duckhook confined as requested; no mechanism, durable confinement or future availability lock without later continuity ruling. AWAY: Duckhook recognizes the deception and avoids it; no automatic change in corporate position.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-RED-SPECIAL-CABIN",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-RED-SPECIAL-CABIN/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-KEVIN-ZEEK",
+              "To the chairman. And to David, wherever he's found a chair."
+            ],
+            [
+              "CHAR-ZACH-WILSON",
+              "Preferably one with a view."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-ZACH-WILSON",
+              "You didn't invite me all the way out here just to congratulate me."
+            ],
+            [
+              "CHAR-KEVIN-ZEEK",
+              "Not every invitation needs a purchase agreement."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G03-design",
+          "G03-environment",
+          "G03-character_vfx",
+          "G03-costume",
+          "G03-props",
+          "G03-camera",
+          "G03-lighting",
+          "G03-action",
+          "G03-dialogue_presentation",
+          "G03-editing",
+          "G03-sound_cues",
+          "G03-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P18",
       "page_role": "matchup_setup",
-      "title": "What Was Delivered — The yard",
-      "narrative_job": "Jordan checks cargo and sets two movable empty practice barrels at the tailgate yard; Brandon arrives from the road. They agree on a proposed barrel-roll relay between temporary markers before the meal. No real cargo is wasted. “You can stay for dinner,” Jordan says. “You still have to earn your place.”",
+      "title": "The good table — Arrival",
+      "narrative_job": "Jordan had set the table long before the guest arrived. The old garden beds were neat, the covered gathering area ready, and the Dutch oven stood near the fire. The television carried the afternoon's football conversation into the yard. Brandon arrived on Dark Horse, greeted his host and looked over the spread. “You expecting the whole conference?” Jordan handed him a drink. “Only the part that knows how football works.” Brandon glanced at the screen. “Then you're going to have to explain why you're on that side of the argument.” The meal was ready. The conversation was not.",
       "lead_discipline": "environment design",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1806,7 +2366,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H03-A07",
-      "chapter_beat": "The yard",
+      "chapter_beat": "Arrival",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-JORDAN-HOLLINGSHEAD",
@@ -1825,32 +2385,39 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
-        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-UPPER-VALLEYS",
         "division_context": "DIV-WINGS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "tailgate yard",
-          "rough training ground",
-          "Hearthroad rut"
+          "mature garden",
+          "covered gathering area",
+          "cooking area",
+          "Thanksgiving table",
+          "open lawn"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+        "planning_parent_context": "LOC-SLOB-FOOTHILL-CAMP",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Wide tailgate yard",
-      "foreground": "secured straps",
-      "midground": "Jordan prepares",
-      "background": "Foothills and cooking smoke",
-      "image_tells": "Two empty practice barrels; secured real cargo separate",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Wide V2 yard, cooking/table and Dark Horse arrival",
+      "foreground": "maintained garden and lawn",
+      "midground": "Slob hosts; Chili arrives with Dark Horse",
+      "background": "covered area and mature landscaping",
+      "image_tells": "Established private hospitality",
+      "prose_tells": "Current fixture permission, historical memorabilia hold, no unsupported numerical NCAA claim.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "Modern fixtures scoped; mature garden and ordinary private gathering; no invented historical awards or riding approach.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -1877,18 +2444,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "A promise and a delivery are not the same thing.",
+      "reader_takeaway": "Establish the place and opposing character intentions in The good table.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Jordan checks cargo and sets two movable empty practice barrels at the tailgate yard; Brandon arrives from the road. They agree on a proposed barrel-roll relay between temporary markers before the meal. No real cargo is wasted. “You can stay for dinner,” Jordan says. “You still have to earn your place.”",
+        "shared": "Jordan had set the table long before the guest arrived. The old garden beds were neat, the covered gathering area ready, and the Dutch oven stood near the fire. The television carried the afternoon's football conversation into the yard. Brandon arrived on Dark Horse, greeted his host and looked over the spread. “You expecting the whole conference?” Jordan handed him a drink. “Only the part that knows how football works.” Brandon glanced at the screen. “Then you're going to have to explain why you're on that side of the argument.” The meal was ready. The conversation was not.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -1903,18 +2470,80 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Jordan checks cargo and sets two movable empty practice barrels at the tailgate yard; Brandon arrives from the road. They agree on a proposed barrel-roll relay between temporary markers before the meal. No real cargo is wasted. “You can stay for dinner,” Jordan says. “You still have to earn your place.”",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "Jordan had set the table long before the guest arrived. The old garden beds were neat, the covered gathering area ready, and the Dutch oven stood near the fire. The television carried the afternoon's football conversation into the yard. Brandon arrived on Dark Horse, greeted his host and looked over the spread. “You expecting the whole conference?” Jordan handed him a drink. “Only the part that knows how football works.” Brandon glanced at the screen. “Then you're going to have to explain why you're on that side of the argument.” The meal was ready. The conversation was not.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-BRANDON-PRYOR",
+              "You expecting the whole conference?"
+            ],
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "Only the part that knows how football works."
+            ],
+            [
+              "CHAR-BRANDON-PRYOR",
+              "Then you're going to have to explain why you're on that side of the argument."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "You can't talk about the schedule and pretend the opponents don't matter."
+            ],
+            [
+              "CHAR-BRANDON-PRYOR",
+              "You can't talk about the opponents and pretend the results don't matter."
+            ],
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "That sounds like something a guest would say at somebody else's table."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G04-design",
+          "G04-environment",
+          "G04-character_vfx",
+          "G04-costume",
+          "G04-props",
+          "G04-camera",
+          "G04-lighting",
+          "G04-action",
+          "G04-dialogue_presentation",
+          "G04-editing",
+          "G04-sound_cues",
+          "G04-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P19",
       "page_role": "matchup_setup",
-      "title": "What Was Delivered — The guest",
-      "narrative_job": "Each pushes his own barrel through a marked turn; one barrel wobbles, both adjust with distinct physical techniques. Cooking smoke frames the background, not a generic feast. The page turns before either crosses the finish. No repeated dunk tank or Week 11 spill; no unsafe loaded-truck sequence.",
+      "title": "The good table — Pressure",
+      "narrative_job": "P19 playful SEC debate becomes an argument, exact sports facts only from previously verified source record; keep cooking and table axis.",
       "lead_discipline": "performance",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -1932,7 +2561,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H03-A07",
-      "chapter_beat": "The guest",
+      "chapter_beat": "Pressure",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-JORDAN-HOLLINGSHEAD",
@@ -1951,32 +2580,39 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
-        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-UPPER-VALLEYS",
         "division_context": "DIV-WINGS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "tailgate yard",
-          "rough training ground",
-          "Hearthroad rut"
+          "mature garden",
+          "covered gathering area",
+          "cooking area",
+          "Thanksgiving table",
+          "open lawn"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+        "planning_parent_context": "LOC-SLOB-FOOTHILL-CAMP",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Tracking relay turn",
-      "foreground": "strap and cooking props if accepted",
-      "midground": "Brandon arrives; Jordan checks cargo",
-      "background": "Existing yard",
-      "image_tells": "Barrels and competitors both visible",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Medium-wide table/cooking axis with covered gathering area",
+      "foreground": "table and cooking area",
+      "midground": "fictional SEC debate",
+      "background": "approved TV and existing furnishings",
+      "image_tells": "Competitive banter shifts the gathering",
+      "prose_tells": "Current fixture permission, historical memorabilia hold, no unsupported numerical NCAA claim.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "Modern fixtures scoped; mature garden and ordinary private gathering; no invented historical awards or riding approach.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -2003,18 +2639,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "You're early. / I figured I'd give you a chance to catch up.",
+      "reader_takeaway": "The encounter intensifies; no winner implied.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Each pushes his own barrel through a marked turn; one barrel wobbles, both adjust with distinct physical techniques. Cooking smoke frames the background, not a generic feast. The page turns before either crosses the finish. No repeated dunk tank or Week 11 spill; no unsafe loaded-truck sequence.",
+        "shared": "P19 playful SEC debate becomes an argument, exact sports facts only from previously verified source record; keep cooking and table axis.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -2029,18 +2665,80 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Each pushes his own barrel through a marked turn; one barrel wobbles, both adjust with distinct physical techniques. Cooking smoke frames the background, not a generic feast. The page turns before either crosses the finish. No repeated dunk tank or Week 11 spill; no unsafe loaded-truck sequence.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "P19 playful SEC debate becomes an argument, exact sports facts only from previously verified source record; keep cooking and table axis.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-BRANDON-PRYOR",
+              "You expecting the whole conference?"
+            ],
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "Only the part that knows how football works."
+            ],
+            [
+              "CHAR-BRANDON-PRYOR",
+              "Then you're going to have to explain why you're on that side of the argument."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "You can't talk about the schedule and pretend the opponents don't matter."
+            ],
+            [
+              "CHAR-BRANDON-PRYOR",
+              "You can't talk about the opponents and pretend the results don't matter."
+            ],
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "That sounds like something a guest would say at somebody else's table."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G04-design",
+          "G04-environment",
+          "G04-character_vfx",
+          "G04-costume",
+          "G04-props",
+          "G04-camera",
+          "G04-lighting",
+          "G04-action",
+          "G04-dialogue_presentation",
+          "G04-editing",
+          "G04-sound_cues",
+          "G04-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P20",
       "page_role": "matchup_payoff",
-      "title": "What Was Delivered — The host",
-      "narrative_job": "HOME: Jordan controls the final turn and stops his barrel at the finish first. AWAY: Brandon recovers the wobble and takes the last marker first. The loser returns to the yard, the meal still offered. This is a fight for Wings position, not permission to take a permanent asset. Both want a championship berth, not a holiday consolation.",
+      "title": "The good table — Conditional answer",
+      "narrative_job": "HOME: Slob wins, non-graphic chili splash gag; no hot-liquid method or injury. AWAY: Chili wins; table upset and Dark Horse hoof marks as fictional temporary gag, no permanent damage.",
       "lead_discipline": "editing",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -2058,7 +2756,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H03-A07",
-      "chapter_beat": "The host",
+      "chapter_beat": "Conditional answer",
       "fact_dependencies": [
         "W12-H03-A07"
       ],
@@ -2079,32 +2777,39 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-SLOB-FOOTHILL-CAMP",
-        "local_handle": "SUB::LOC-SLOB-FOOTHILL-CAMP::TAILGATE-YARD",
+        "venue_id": null,
+        "local_handle": null,
         "physical_region": "REG-UPPER-VALLEYS",
         "division_context": "DIV-WINGS",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "tailgate yard",
-          "rough training ground",
-          "Hearthroad rut"
+          "mature garden",
+          "covered gathering area",
+          "cooking area",
+          "Thanksgiving table",
+          "open lawn"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+        "planning_parent_context": "LOC-SLOB-FOOTHILL-CAMP",
+        "planning_region_status": "CANDIDATE_CONTEXT_NOT_LOCKED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Conditional finish marker",
-      "foreground": "table edge if approved",
-      "midground": "result-selected reaction",
-      "background": "Yard shelter",
-      "image_tells": "Winner stops barrel; hospitality remains",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Conditional comic reaction with same yard footprint",
+      "foreground": "same table area",
+      "midground": "selected non-graphic comic payoff",
+      "background": "same yard and covered gathering area",
+      "image_tells": "Result-dependent comedy without permanent damage",
+      "prose_tells": "Current fixture permission, historical memorabilia hold, no unsupported numerical NCAA claim.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "conditional pending verified result and canon gate",
+      "continuity_in": "Modern fixtures scoped; mature garden and ordinary private gathering; no invented historical awards or riding approach.",
+      "continuity_out": "BOTH_BRANCHES_HELD; no persistent state or result selected.",
       "deterministic_data_fields": [
         "home_score",
         "away_score",
@@ -2135,18 +2840,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "No new cargo incident or repeat dunk tank.",
+      "reader_takeaway": "Conditional result only after accepted Fact Lock and continuity review.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
         "shared": null,
-        "home": "Jordan controls the final turn and stops his barrel at the finish first.",
-        "away": "Brandon recovers the wobble and takes the last marker first. The loser returns to the yard, the meal still offered. This is a fight for Wings position, not permission to take a permanent asset. Both want a championship berth, not a holiday consolation.",
+        "home": "Slob wins, non-graphic chili splash gag; no hot-liquid method or injury.",
+        "away": "Chili wins; table upset and Dark Horse hoof marks as fictional temporary gag, no permanent damage.",
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_payoff",
       "failure_conditions": [
@@ -2162,18 +2867,80 @@
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
         "PROVIDER_ATTACHMENT",
-        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "HOME: Jordan controls the final turn and stops his barrel at the finish first. AWAY: Brandon recovers the wobble and takes the last marker first. The loser returns to the yard, the meal still offered. This is a fight for Wings position, not permission to take a permanent asset. Both want a championship berth, not a holiday consolation.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "HOME: Slob wins, non-graphic chili splash gag; no hot-liquid method or injury. AWAY: Chili wins; table upset and Dark Horse hoof marks as fictional temporary gag, no permanent damage.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-SLOB-BACKYARD-RETREAT/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-BRANDON-PRYOR",
+              "You expecting the whole conference?"
+            ],
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "Only the part that knows how football works."
+            ],
+            [
+              "CHAR-BRANDON-PRYOR",
+              "Then you're going to have to explain why you're on that side of the argument."
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "You can't talk about the schedule and pretend the opponents don't matter."
+            ],
+            [
+              "CHAR-BRANDON-PRYOR",
+              "You can't talk about the opponents and pretend the results don't matter."
+            ],
+            [
+              "CHAR-JORDAN-HOLLINGSHEAD",
+              "That sounds like something a guest would say at somebody else's table."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G04-design",
+          "G04-environment",
+          "G04-character_vfx",
+          "G04-costume",
+          "G04-props",
+          "G04-camera",
+          "G04-lighting",
+          "G04-action",
+          "G04-dialogue_presentation",
+          "G04-editing",
+          "G04-sound_cues",
+          "G04-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P21",
       "page_role": "matchup_setup",
-      "title": "The Name on the Door — The chamber",
-      "narrative_job": "Babb removes the unused pen from the table and pushes an empty chair aside; Austin enters in hooded black armor, red eyes, belt retained. Babb sets a small portable strategy board on the existing ledger table. “They took my chair. They didn't take my team.”",
+      "title": "The other office — Arrival",
+      "narrative_job": "Babb had not brought Austin to Jackson. The old records in this room had outlasted more than one arrangement, and the desk had no new name on it. Duckhook's place on the rival board was unmistakable. The reigning champion regarded it without removing the Belt. “You invited me here to talk about Zach?” Babb opened a folder. “I invited you to talk about the next time one of us sees him.” He let the offer rest between them. Austin looked at the papers, then at Babb. “And what do you expect in return?” Neither had yet agreed to anything.",
       "lead_discipline": "environment design",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -2191,7 +2958,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H04-A08",
-      "chapter_beat": "The chamber",
+      "chapter_beat": "Arrival",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-DAVID-BABB",
@@ -2210,32 +2977,37 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-LLC-BOARDROOM",
-        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
-        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "venue_id": null,
+        "local_handle": null,
+        "physical_region": null,
         "division_context": "DIV-PIZZA",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "executive chamber",
-          "ledgers",
-          "market overlook"
+          "old stone and archive furniture",
+          "desk",
+          "rivalry board"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+        "planning_parent_context": "LOC-LLC-BOARDROOM",
+        "planning_region_status": "UNRESOLVED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Symmetrical office setup",
-      "foreground": "ledger edge",
-      "midground": "Babb and hooded Austin",
-      "background": "Executive chamber",
-      "image_tells": "Portable strategy board, empty chair, hooded HMB",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Bounded archive material composition; actual room and access held",
+      "foreground": "unlabelled old ledgers",
+      "midground": "Babb and HMB meeting",
+      "background": "archive visual texture only",
+      "image_tells": "Long-used archive, distinct from Jackson",
+      "prose_tells": "Babb seeks leverage after corporate ouster; no actual transaction or knowledge of Red's plot.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "Archive not Jackson; W2 boardroom damage and W3 Storm City barriers not physically transplanted; G03 private knowledge firewall.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -2262,18 +3034,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Last week's corporate loss does not remove Babb from league play.",
+      "reader_takeaway": "Establish the place and opposing character intentions in The other office.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Babb removes the unused pen from the table and pushes an empty chair aside; Austin enters in hooded black armor, red eyes, belt retained. Babb sets a small portable strategy board on the existing ledger table. “They took my chair. They didn't take my team.”",
+        "shared": "Babb had not brought Austin to Jackson. The old records in this room had outlasted more than one arrangement, and the desk had no new name on it. Duckhook's place on the rival board was unmistakable. The reigning champion regarded it without removing the Belt. “You invited me here to talk about Zach?” Babb opened a folder. “I invited you to talk about the next time one of us sees him.” He let the offer rest between them. Austin looked at the papers, then at Babb. “And what do you expect in return?” Neither had yet agreed to anything.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -2288,18 +3060,76 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Babb removes the unused pen from the table and pushes an empty chair aside; Austin enters in hooded black armor, red eyes, belt retained. Babb sets a small portable strategy board on the existing ledger table. “They took my chair. They didn't take my team.”",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "Babb had not brought Austin to Jackson. The old records in this room had outlasted more than one arrangement, and the desk had no new name on it. Duckhook's place on the rival board was unmistakable. The reigning champion regarded it without removing the Belt. “You invited me here to talk about Zach?” Babb opened a folder. “I invited you to talk about the next time one of us sees him.” He let the offer rest between them. Austin looked at the papers, then at Babb. “And what do you expect in return?” Neither had yet agreed to anything.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-AUSTIN-BYARS",
+              "You invited me here to talk about Zach?"
+            ],
+            [
+              "CHAR-DAVID-BABB",
+              "I invited you to talk about the next time one of us sees him."
+            ],
+            [
+              "CHAR-AUSTIN-BYARS",
+              "And what do you expect in return?"
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-DAVID-BABB",
+              "I'm offering you a reason to listen."
+            ],
+            [
+              "CHAR-AUSTIN-BYARS",
+              "That isn't the same as giving me a reason to agree."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G05-design",
+          "G05-environment",
+          "G05-character_vfx",
+          "G05-costume",
+          "G05-props",
+          "G05-camera",
+          "G05-lighting",
+          "G05-action",
+          "G05-dialogue_presentation",
+          "G05-editing",
+          "G05-sound_cues",
+          "G05-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P22",
       "page_role": "matchup_setup",
-      "title": "The Name on the Door — Not a meeting",
-      "narrative_job": "Both place and counter-move pieces in a tense tabletop strategy contest. A final piece sits between their hands; the camera uses the belt, board and Babb's expression, not an invented corporate document. Austin: “Then show me you're still in the game.” The last move is withheld.",
+      "title": "The other office — Pressure",
+      "narrative_job": "P22 negotiation and fictional investment offer; no real transaction, detailed confinement plan or claim of postseason matchup.",
       "lead_discipline": "performance",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -2317,7 +3147,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H04-A08",
-      "chapter_beat": "Not a meeting",
+      "chapter_beat": "Pressure",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-DAVID-BABB",
@@ -2336,32 +3166,37 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-LLC-BOARDROOM",
-        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
-        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "venue_id": null,
+        "local_handle": null,
+        "physical_region": null,
         "division_context": "DIV-PIZZA",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "executive chamber",
-          "ledgers",
-          "market overlook"
+          "old stone and archive furniture",
+          "desk",
+          "rivalry board"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+        "planning_parent_context": "LOC-LLC-BOARDROOM",
+        "planning_region_status": "UNRESOLVED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Tight hands/board plus opposed expressions",
-      "foreground": "empty chair",
-      "midground": "Babb and Austin with red eyes, closed hood",
-      "background": "Existing ledger table",
-      "image_tells": "Final move withheld; belt retained",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Two-character negotiation composition with abstract archive anchors",
+      "foreground": "folder and desk",
+      "midground": "fictional offer and negotiation",
+      "background": "rival board, no mapped room",
+      "image_tells": "Tense exchange and reigning Belt Keeper",
+      "prose_tells": "Babb seeks leverage after corporate ouster; no actual transaction or knowledge of Red's plot.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "Archive not Jackson; W2 boardroom damage and W3 Storm City barriers not physically transplanted; G03 private knowledge firewall.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -2388,18 +3223,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "This isn't a board meeting. / Good.",
+      "reader_takeaway": "The encounter intensifies; no winner implied.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Both place and counter-move pieces in a tense tabletop strategy contest. A final piece sits between their hands; the camera uses the belt, board and Babb's expression, not an invented corporate document. Austin: “Then show me you're still in the game.” The last move is withheld.",
+        "shared": "P22 negotiation and fictional investment offer; no real transaction, detailed confinement plan or claim of postseason matchup.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -2414,18 +3249,76 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Both place and counter-move pieces in a tense tabletop strategy contest. A final piece sits between their hands; the camera uses the belt, board and Babb's expression, not an invented corporate document. Austin: “Then show me you're still in the game.” The last move is withheld.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "P22 negotiation and fictional investment offer; no real transaction, detailed confinement plan or claim of postseason matchup.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-AUSTIN-BYARS",
+              "You invited me here to talk about Zach?"
+            ],
+            [
+              "CHAR-DAVID-BABB",
+              "I invited you to talk about the next time one of us sees him."
+            ],
+            [
+              "CHAR-AUSTIN-BYARS",
+              "And what do you expect in return?"
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-DAVID-BABB",
+              "I'm offering you a reason to listen."
+            ],
+            [
+              "CHAR-AUSTIN-BYARS",
+              "That isn't the same as giving me a reason to agree."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G05-design",
+          "G05-environment",
+          "G05-character_vfx",
+          "G05-costume",
+          "G05-props",
+          "G05-camera",
+          "G05-lighting",
+          "G05-action",
+          "G05-dialogue_presentation",
+          "G05-editing",
+          "G05-sound_cues",
+          "G05-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P23",
       "page_role": "matchup_payoff",
-      "title": "The Name on the Door — The departure",
-      "narrative_job": "HOME: Babb closes Austin's last route on the board and stands, winning sporting agency rather than regaining the CEO role. AWAY: Austin makes the decisive move; Babb clears the board himself, still the LLC league representative. Austin retains the belt in either branch. No legal settlement or title transfer. The 4–7 LLC chases a narrow route; HMB cannot assume a berth.",
+      "title": "The other office — Conditional answer",
+      "narrative_job": "HOME: LLC wins, both appear pleased with conditional alliance; no guaranteed future opponent or asset transfer in canon. AWAY: HMB wins, symbolic double-cross and proposed confinement/ticket; no operational mechanism, actual elimination, or permanent state without approval.",
       "lead_discipline": "editing",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -2443,7 +3336,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H04-A08",
-      "chapter_beat": "The departure",
+      "chapter_beat": "Conditional answer",
       "fact_dependencies": [
         "W12-H04-A08"
       ],
@@ -2464,32 +3357,37 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-LLC-BOARDROOM",
-        "local_handle": "SUB::LOC-LLC-BOARDROOM::EXECUTIVE-CHAMBER",
-        "physical_region": "REG-INNER-SEA-LITTORAL",
+        "venue_id": null,
+        "local_handle": null,
+        "physical_region": null,
         "division_context": "DIV-PIZZA",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "executive chamber",
-          "ledgers",
-          "market overlook"
+          "old stone and archive furniture",
+          "desk",
+          "rivalry board"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+        "planning_parent_context": "LOC-LLC-BOARDROOM",
+        "planning_region_status": "UNRESOLVED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Conditional decisive move and departure",
-      "foreground": "chair",
-      "midground": "result-selected reaction",
-      "background": "Chamber doorway",
-      "image_tells": "Sporting agency, not CEO transfer",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Conditional response at same desk; no confinement mechanism or floorplan",
+      "foreground": "same furniture",
+      "midground": "result-selected response",
+      "background": "same archive texture",
+      "image_tells": "Alliance or betrayal conveyed symbolically",
+      "prose_tells": "Babb seeks leverage after corporate ouster; no actual transaction or knowledge of Red's plot.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "conditional pending verified result and canon gate",
+      "continuity_in": "Archive not Jackson; W2 boardroom damage and W3 Storm City barriers not physically transplanted; G03 private knowledge firewall.",
+      "continuity_out": "BOTH_BRANCHES_HELD; no persistent state or result selected.",
       "deterministic_data_fields": [
         "home_score",
         "away_score",
@@ -2520,18 +3418,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "No corporate reversal or ownership transfer.",
+      "reader_takeaway": "Conditional result only after accepted Fact Lock and continuity review.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
         "shared": null,
-        "home": "Babb closes Austin's last route on the board and stands, winning sporting agency rather than regaining the CEO role.",
-        "away": "Austin makes the decisive move; Babb clears the board himself, still the LLC league representative. Austin retains the belt in either branch. No legal settlement or title transfer. The 4–7 LLC chases a narrow route; HMB cannot assume a berth.",
+        "home": "LLC wins, both appear pleased with conditional alliance; no guaranteed future opponent or asset transfer in canon.",
+        "away": "HMB wins, symbolic double-cross and proposed confinement/ticket; no operational mechanism, actual elimination, or permanent state without approval.",
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_payoff",
       "failure_conditions": [
@@ -2547,18 +3445,76 @@
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
         "PROVIDER_ATTACHMENT",
-        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "HOME: Babb closes Austin's last route on the board and stands, winning sporting agency rather than regaining the CEO role. AWAY: Austin makes the decisive move; Babb clears the board himself, still the LLC league representative. Austin retains the belt in either branch. No legal settlement or title transfer. The 4–7 LLC chases a narrow route; HMB cannot assume a berth.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "HOME: LLC wins, both appear pleased with conditional alliance; no guaranteed future opponent or asset transfer in canon. AWAY: HMB wins, symbolic double-cross and proposed confinement/ticket; no operational mechanism, actual elimination, or permanent state without approval.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-LLC-HIDDEN-DUNGEON/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": null,
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [
+            [
+              "CHAR-AUSTIN-BYARS",
+              "You invited me here to talk about Zach?"
+            ],
+            [
+              "CHAR-DAVID-BABB",
+              "I invited you to talk about the next time one of us sees him."
+            ],
+            [
+              "CHAR-AUSTIN-BYARS",
+              "And what do you expect in return?"
+            ]
+          ],
+          "pressure": [
+            [
+              "CHAR-DAVID-BABB",
+              "I'm offering you a reason to listen."
+            ],
+            [
+              "CHAR-AUSTIN-BYARS",
+              "That isn't the same as giving me a reason to agree."
+            ]
+          ],
+          "nonverbal": null,
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G05-design",
+          "G05-environment",
+          "G05-character_vfx",
+          "G05-costume",
+          "G05-props",
+          "G05-camera",
+          "G05-lighting",
+          "G05-action",
+          "G05-dialogue_presentation",
+          "G05-editing",
+          "G05-sound_cues",
+          "G05-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P24",
       "page_role": "matchup_setup",
-      "title": "A Seat Near the Door — The threshold",
-      "narrative_job": "Ben reaches the weather-exposed Storm Bowl. A temporary marker at the shelter edge and another within sight establish a proposed weather-endurance contest. Manning's embodied presentation remains subject to canon; no physical form invented. Ben: “I'm not spending December on Losers Beach.”",
+      "title": "What the road remembers — Arrival",
+      "narrative_job": "The early light had scarcely reached the trees when rain began to darken the track. Ben knew what a familiar road could become in weather. Last week's wrong turn had taught him that recognition was not the same as certainty. From the truck he watched the verge disappear into mist, then glanced back toward the road he could still recognize. A gust shook leaves from the branches. He had started the morning convinced that he had somewhere to be. Now the weather was asking whether the road would let him get there.",
       "lead_discipline": "environment design",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -2576,7 +3532,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H09-A11",
-      "chapter_beat": "The threshold",
+      "chapter_beat": "Arrival",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-MANNING-WELTY",
@@ -2595,31 +3551,37 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-STORM-BOWL",
-        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
-        "physical_region": "REG-EASTERN-STORM-COAST",
+        "venue_id": null,
+        "local_handle": null,
+        "physical_region": null,
         "division_context": "DIV-PIZZA",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "weather-exposed venue",
-          "service counter"
+          "natural unpaved track",
+          "wet vegetation",
+          "obscured horizon"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+        "planning_parent_context": "LOC-CHINS-ROAD-COMMONS",
+        "planning_region_status": "UNRESOLVED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Wide weather-exposed threshold",
-      "foreground": "threshold",
-      "midground": "Ben arriving; Manning representation pending",
-      "background": "Storm coast and shelter",
-      "image_tells": "Temporary markers; Manning embodiment held",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Unplaced natural track master or cab view only when exact truck and corridor cleared",
+      "foreground": "rain-dark earth and loose natural material",
+      "midground": "Ben in established truck conditional on source; El Niño as weather",
+      "background": "obscured horizon",
+      "image_tells": "Natural terrain loses visibility",
+      "prose_tells": "W11 wrong turn informs caution; no private Manning interiority, no route or playoff admission.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "Unpaved surface, route/region not chosen; local marker only once place fits; W11 swamp deception is memory, not replay.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -2646,18 +3608,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Ben wants to see the door before trusting the weather.",
+      "reader_takeaway": "Establish the place and opposing character intentions in What the road remembers.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Ben reaches the weather-exposed Storm Bowl. A temporary marker at the shelter edge and another within sight establish a proposed weather-endurance contest. Manning's embodied presentation remains subject to canon; no physical form invented. Ben: “I'm not spending December on Losers Beach.”",
+        "shared": "The early light had scarcely reached the trees when rain began to darken the track. Ben knew what a familiar road could become in weather. Last week's wrong turn had taught him that recognition was not the same as certainty. From the truck he watched the verge disappear into mist, then glanced back toward the road he could still recognize. A gust shook leaves from the branches. He had started the morning convinced that he had somewhere to be. Now the weather was asking whether the road would let him get there.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -2672,18 +3634,59 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Ben reaches the weather-exposed Storm Bowl. A temporary marker at the shelter edge and another within sight establish a proposed weather-endurance contest. Manning's embodied presentation remains subject to canon; no physical form invented. Ben: “I'm not spending December on Losers Beach.”",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "The early light had scarcely reached the trees when rain began to darken the track. Ben knew what a familiar road could become in weather. Last week's wrong turn had taught him that recognition was not the same as certainty. From the truck he watched the verge disappear into mist, then glanced back toward the road he could still recognize. A gust shook leaves from the branches. He had started the morning convinced that he had somewhere to be. Now the weather was asking whether the road would let him get there.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": "ATMOSPHERIC_EXTERNAL_ONLY",
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [],
+          "pressure": [
+            [
+              "CHAR-BEN-WHIPPLE",
+              "Not this road again."
+            ]
+          ],
+          "nonverbal": "Manning's weather manifestation remains externally observed. Wind and rain supply the counterpoint, not invented speech or interiority.",
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G06-design",
+          "G06-environment",
+          "G06-character_vfx",
+          "G06-costume",
+          "G06-props",
+          "G06-camera",
+          "G06-lighting",
+          "G06-action",
+          "G06-dialogue_presentation",
+          "G06-editing",
+          "G06-sound_cues",
+          "G06-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P25",
       "page_role": "matchup_setup",
-      "title": "A Seat Near the Door — The invitation",
-      "narrative_job": "Wind drives loose leaves and rain across the open space. Ben advances against the gusts toward the marker; Manning's accepted representation challenges him from the same venue. Both struggle for the final position, no magical flood or fabricated storm-scale change. Keep the shelter and exit visible, no Island arrival.",
+      "title": "What the road remembers — Pressure",
+      "narrative_job": "P25 same natural terrain corridor, obscured horizon, weather pressure; exact truck and route held, no collision or unsafe driving sequence.",
       "lead_discipline": "performance",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -2701,7 +3704,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H09-A11",
-      "chapter_beat": "The invitation",
+      "chapter_beat": "Pressure",
       "fact_dependencies": [],
       "characters_present": [
         "CHAR-MANNING-WELTY",
@@ -2720,31 +3723,37 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-STORM-BOWL",
-        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
-        "physical_region": "REG-EASTERN-STORM-COAST",
+        "venue_id": null,
+        "local_handle": null,
+        "physical_region": null,
         "division_context": "DIV-PIZZA",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "weather-exposed venue",
-          "service counter"
+          "natural unpaved track",
+          "wet vegetation",
+          "obscured horizon"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+        "planning_parent_context": "LOC-CHINS-ROAD-COMMONS",
+        "planning_region_status": "UNRESOLVED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Medium-wide weather endurance",
-      "foreground": "door edge",
-      "midground": "Ben and accepted Manning presentation",
-      "background": "Shelter/exit",
-      "image_tells": "Visible wind and both accepted presentations",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Same corridor under fog/rain; no mapped junction or substitute vehicle",
+      "foreground": "wet verge and leaves",
+      "midground": "visibility and weather pressure",
+      "background": "same horizon and vegetation",
+      "image_tells": "Atmospheric pressure constrains movement",
+      "prose_tells": "W11 wrong turn informs caution; no private Manning interiority, no route or playoff admission.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "shared setup; no winner asserted",
+      "continuity_in": "Unpaved surface, route/region not chosen; local marker only once place fits; W11 swamp deception is memory, not replay.",
+      "continuity_out": "RESULT_NEUTRAL_SETUP; same candidate geography intended, not verified.",
       "deterministic_data_fields": [],
       "forbidden_mutations": [
         "unapproved geography",
@@ -2771,18 +3780,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "You can come in. / That's not the part I'm worried about.",
+      "reader_takeaway": "The encounter intensifies; no winner implied.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
-        "shared": "Wind drives loose leaves and rain across the open space. Ben advances against the gusts toward the marker; Manning's accepted representation challenges him from the same venue. Both struggle for the final position, no magical flood or fabricated storm-scale change. Keep the shelter and exit visible, no Island arrival.",
+        "shared": "P25 same natural terrain corridor, obscured horizon, weather pressure; exact truck and route held, no collision or unsafe driving sequence.",
         "home": null,
         "away": null,
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_setup",
       "failure_conditions": [
@@ -2797,18 +3806,59 @@
         "VENUE_LOCK",
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
-        "PROVIDER_ATTACHMENT"
+        "PROVIDER_ATTACHMENT",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "Wind drives loose leaves and rain across the open space. Ben advances against the gusts toward the marker; Manning's accepted representation challenges him from the same venue. Both struggle for the final position, no magical flood or fabricated storm-scale change. Keep the shelter and exit visible, no Island arrival.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "P25 same natural terrain corridor, obscured horizon, weather pressure; exact truck and route held, no collision or unsafe driving sequence.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": "ATMOSPHERIC_EXTERNAL_ONLY",
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [],
+          "pressure": [
+            [
+              "CHAR-BEN-WHIPPLE",
+              "Not this road again."
+            ]
+          ],
+          "nonverbal": "Manning's weather manifestation remains externally observed. Wind and rain supply the counterpoint, not invented speech or interiority.",
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G06-design",
+          "G06-environment",
+          "G06-character_vfx",
+          "G06-costume",
+          "G06-props",
+          "G06-camera",
+          "G06-lighting",
+          "G06-action",
+          "G06-dialogue_presentation",
+          "G06-editing",
+          "G06-sound_cues",
+          "G06-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P26",
       "page_role": "matchup_payoff",
-      "title": "A Seat Near the Door — Seven places",
-      "narrative_job": "HOME: Manning holds the decisive position while Ben steps back into shelter. AWAY: Ben reaches the marker and steadies himself as the gust passes; Manning concedes the contest, not control of the coast. Both leave with their future still tied to verified results. This 6–5 versus 6–5 game remains an existing feature candidate, not a locked GOTW. The closing shot faces the open road, not an assigned postseason destination.",
+      "title": "What the road remembers — Conditional answer",
+      "narrative_job": "HOME: El Niño wins; progress stops or Ben turns back, no crash, elimination or permanent road closure. AWAY: Chins wins; truck clears affected stretch, not confirmed Playoff Island admission.",
       "lead_discipline": "editing",
       "page_state": "PLANNED",
       "output_format": "PNG",
@@ -2826,7 +3876,7 @@
         "INDEPENDENT_PAGE_LOCK"
       ],
       "matchup_id": "W12-H09-A11",
-      "chapter_beat": "Seven places",
+      "chapter_beat": "Conditional answer",
       "fact_dependencies": [
         "W12-H09-A11"
       ],
@@ -2847,31 +3897,37 @@
         }
       ],
       "encounter": {
-        "venue_id": "LOC-STORM-BOWL",
-        "local_handle": "SUB::LOC-STORM-BOWL::WEATHER-EXPOSED-VENUE",
-        "physical_region": "REG-EASTERN-STORM-COAST",
+        "venue_id": null,
+        "local_handle": null,
+        "physical_region": null,
         "division_context": "DIV-PIZZA",
         "world_state_in": "RECONCILIATION_REQUIRED",
         "persistent_landmarks": [
-          "weather-exposed venue",
-          "service counter"
+          "natural unpaved track",
+          "wet vegetation",
+          "obscured horizon"
         ],
         "route_required": "REVIEW_REQUIRED",
         "venue_status": "CANDIDATE_HOLD",
-        "venue_type": "candidate; see Atlas card",
-        "provisional_location": true
+        "venue_type": "unpromoted candidate; active venue unresolved",
+        "provisional_location": true,
+        "planning_candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+        "planning_parent_context": "LOC-CHINS-ROAD-COMMONS",
+        "planning_region_status": "UNRESOLVED",
+        "planning_packet": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "legacy_encounter_source_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
       },
-      "camera_and_composition": "Conditional marker reaction",
-      "foreground": "threshold",
-      "midground": "result-selected reaction",
-      "background": "Open exit",
-      "image_tells": "No Island/Beach arrival, no clinch claim",
-      "prose_tells": "Championship pressure and consequences beyond the visible action; use approved reader copy only.",
+      "camera_and_composition": "Conditional continuation or turnback, same unpaved terrain",
+      "foreground": "same natural track",
+      "midground": "result-dependent progress or retreat",
+      "background": "same terrain, no Island",
+      "image_tells": "Progress or halt without crash or arrival",
+      "prose_tells": "W11 wrong turn informs caution; no private Manning interiority, no route or playoff admission.",
       "copy_budget_words": 85,
       "art_text_ratio": "75:25 candidate",
       "mobile_risk": "two distinct silhouettes; concise integrated text",
-      "continuity_in": "W11 selected-scene manuscript and current approved character IDs; world promotion pending",
-      "continuity_out": "conditional pending verified result and canon gate",
+      "continuity_in": "Unpaved surface, route/region not chosen; local marker only once place fits; W11 swamp deception is memory, not replay.",
+      "continuity_out": "BOTH_BRANCHES_HELD; no persistent state or result selected.",
       "deterministic_data_fields": [
         "home_score",
         "away_score",
@@ -2902,18 +3958,18 @@
         }
       ],
       "temporal_canon_receipts": [],
-      "reader_takeaway": "Do not infer clinch, elimination, or Island journey.",
+      "reader_takeaway": "Conditional result only after accepted Fact Lock and continuity review.",
       "copy_budget": {
         "words": 85,
         "exact_copy_status": "PENDING_EDITORIAL_ACCEPTANCE"
       },
       "manuscript": {
         "shared": null,
-        "home": "Manning holds the decisive position while Ben steps back into shelter.",
-        "away": "Ben reaches the marker and steadies himself as the gust passes; Manning concedes the contest, not control of the coast. Both leave with their future still tied to verified results. This 6–5 versus 6–5 game remains an existing feature candidate, not a locked GOTW. The closing shot faces the open road, not an assigned postseason destination.",
+        "home": "El Niño wins; progress stops or Ben turns back, no crash, elimination or permanent road closure.",
+        "away": "Chins wins; truck clears affected stretch, not confirmed Playoff Island admission.",
         "selection": "UNSELECTED",
-        "source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-        "editorial_note": "Action treatment, not final reader lettering; compress to existing copy budget."
+        "source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "editorial_note": "Working manuscript and action direction; reader lettering and independent acceptance pending."
       },
       "rhythm_function": "matchup_payoff",
       "failure_conditions": [
@@ -2929,12 +3985,53 @@
         "WORLD_STATE_LOCK",
         "CHARACTER_PACKET_LOCK",
         "PROVIDER_ATTACHMENT",
-        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY",
+        "EXACT_ENVIRONMENT_REFERENCE",
+        "SPATIAL_CONTINUITY",
+        "CURRENT_MANUSCRIPT_REVIEW"
       ],
-      "action_treatment": "HOME: Manning holds the decisive position while Ben steps back into shelter. AWAY: Ben reaches the marker and steadies himself as the gust passes; Manning concedes the contest, not control of the coast. Both leave with their future still tied to verified results. This 6–5 versus 6–5 game remains an existing feature candidate, not a locked GOTW. The closing shot faces the open road, not an assigned postseason destination.",
-      "action_source": "memo-os/week-12/W12_CONDITIONAL_STORY_ROOM_2026-11-25.md",
-      "action_status": "PROVISIONAL_CANDIDATE",
-      "action_prop_approval": "HOLD"
+      "action_treatment": "HOME: El Niño wins; progress stops or Ben turns back, no crash, elimination or permanent road closure. AWAY: Chins wins; truck clears affected stretch, not confirmed Playoff Island admission.",
+      "action_source": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+      "action_status": "FOUNDER_ALIGNED_PREPRODUCTION_DRAFT",
+      "action_prop_approval": "HOLD",
+      "planning_binding": {
+        "candidate_id": "CAND-W12-CHINS-STORM-HIGHWAY",
+        "source_manuscript": "memo-os/week-12/W12_FOUNDER_ALIGNED_MANUSCRIPT_CONTINUITY_2026-11-28.json",
+        "source_atlas": "memo-os/week-12/environment-references/CAND-W12-CHINS-STORM-HIGHWAY/PACKET.json",
+        "source_character_receipt": "memo-os/week-12/W12_REFERENCE_BYTE_VERIFICATION_2026-11-25.json",
+        "character_receipt_status": "PRIOR_BYTE_VERIFICATION_RECONCILED_NOT_FRESH_BYTES_OR_MOUNT",
+        "provider_mount": "BLOCKED_NO_PROVIDER_RECEIPT",
+        "geometry_verified": false,
+        "manifestation_mode": "ATMOSPHERIC_EXTERNAL_ONLY",
+        "dialogue_track": {
+          "status": "FICTIONAL_RESULT_NEUTRAL_DRAFT",
+          "opening": [],
+          "pressure": [
+            [
+              "CHAR-BEN-WHIPPLE",
+              "Not this road again."
+            ]
+          ],
+          "nonverbal": "Manning's weather manifestation remains externally observed. Wind and rain supply the counterpoint, not invented speech or interiority.",
+          "payoff": "Held until accepted result; no selected outcome.",
+          "authority": "Separate working dialogue; no real-owner quotations. No new historical fact, venue, outcome or identity claim."
+        },
+        "review_cells": [
+          "G06-design",
+          "G06-environment",
+          "G06-character_vfx",
+          "G06-costume",
+          "G06-props",
+          "G06-camera",
+          "G06-lighting",
+          "G06-action",
+          "G06-dialogue_presentation",
+          "G06-editing",
+          "G06-sound_cues",
+          "G06-continuity"
+        ],
+        "legacy_packet_blob": "9e271962e87ed92fc6527fa7c84ea0fd15ba9ce3"
+      }
     },
     {
       "page_id": "W12-P27",
@@ -3574,5 +4671,239 @@
       ],
       "postseason_direction": "Founder: seven championship playoff teams; five go to Losers Beach after Week 14. No names or destination geography before verified qualification and canon gates."
     }
-  ]
+  ],
+  "current_integration_review": {
+    "status": "PREPARATORY_PAGE_RECONCILIATION_NOT_W12_06_ACCEPTANCE",
+    "date": "2026-11-28",
+    "source_head": "85741f51f4fc0a513f31445a04fc46f04165f432",
+    "checks": {
+      "original_folios_preserved": 34,
+      "matchup_packets_reconciled": 18,
+      "support_packets_reviewed_unchanged": 16,
+      "character_reference_links_matched_to_prior_receipt": 36,
+      "unique_reference_ids": 12,
+      "active_venue_resolutions": 0,
+      "selected_payoffs": 0,
+      "render_authorized": 0
+    },
+    "support_review": [
+      {
+        "page_id": "W12-P01",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ISSUE_EDITORIAL_THESIS_REVIEW"
+        ],
+        "notes": "Cover selection remains unapproved."
+      },
+      {
+        "page_id": "W12-P02",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ISSUE_EDITORIAL_THESIS_REVIEW"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P03",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA"
+        ],
+        "fact_dependencies": [],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P04",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "POSTWEEK_STANDINGS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P05",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "POSTWEEK_STANDINGS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P06",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "POSTWEEK_STANDINGS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P07",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "POSTWEEK_STANDINGS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P08",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA"
+        ],
+        "fact_dependencies": [],
+        "notes": "Use six candidate contexts only; no exact connecting itinerary or newly paved road."
+      },
+      {
+        "page_id": "W12-P27",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P28",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "TRANSACTION_SNAPSHOT"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P29",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P30",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P31",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P32",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "W13_FIXTURES"
+        ],
+        "notes": "No new result or copy approval."
+      },
+      {
+        "page_id": "W12-P33",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "HOUSE_LEDGER"
+        ],
+        "notes": "Retain official owner ledger gate; do not manufacture line."
+      },
+      {
+        "page_id": "W12-P34",
+        "review": "RETAIN_EXISTING_DIRECTION_AND_OPEN_REQUIREMENTS",
+        "open_requirements": [
+          "EDITORIAL_COPY_ACCEPTANCE",
+          "INDEPENDENT_QA",
+          "APPLICABLE_FACT_OR_EDITORIAL_DEPENDENCY"
+        ],
+        "fact_dependencies": [
+          "ALL_W12_RESULTS",
+          "ISSUE_EDITORIAL_THESIS_REVIEW"
+        ],
+        "notes": "No new result or copy approval."
+      }
+    ],
+    "remaining": [
+      "Formal W12-05/06 prerequisites not accepted",
+      "Exact revised POV regression still blocked; host review only",
+      "Provider mount, geometry and internal access unresolved",
+      "World state baseline W3; no state promotion",
+      "Actual results and independent acceptance pending"
+    ]
+  }
 }
