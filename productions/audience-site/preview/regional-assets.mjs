@@ -293,6 +293,10 @@ export function buildRegionalAssets(THREE, bindings, height) {
         float spanHold=smoothstep(.02,.12,vUv.y)
           *(1.-smoothstep(.88,.98,vUv.y));
         float edgeFlutter=.55+.45*sin(vUv.y*31.-uTime*2.1+sin(vUv.x*9.)*.65);
+        // Filter only the unresolved side-opacity oscillation, retaining its mean.
+        // This leaves the displaced sheet, crest, landing and resolved flutter intact.
+        float edgeFlutterPhase=vUv.y*31.-uTime*2.1+sin(vUv.x*9.)*.65;
+        edgeFlutter=mix(edgeFlutter,.55,smoothstep(.35,1.15,fwidth(edgeFlutterPhase)));
         float fallingAlpha=.88*(1.-.50*(1.-lateralEdge)*spanHold*edgeFlutter);
         gl_FragColor=vec4(fallTint,fallingAlpha);
       }else if(uWetland>.5){
