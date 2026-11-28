@@ -1,0 +1,2033 @@
+{
+  "schema": "schemin26.week12.atlas_historical_depth_overlay.v1",
+  "date": "2026-11-28",
+  "authority": "Founder current thread; existing Atlas Phase 1 candidate workflow; W12-02/03/04/05/06, PR313",
+  "scope": "Six existing CAND IDs, all 18 matchup folios; no result dependency; no active canon change",
+  "coverage": {
+    "completed_seasons": 11,
+    "archived_week_windows": 183,
+    "archived_rows": 1117,
+    "archived_rows_with_both_ids": 985,
+    "current_2026_weeks": 11,
+    "current_2026_rows": 66,
+    "note": "Raw archive observations, not unique matches; repeat playoff periods retained, 2017 IDs mostly missing. Historical slots not historical owner identities."
+  },
+  "archive_manifest": [
+    {
+      "year": 2015,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "7b337ca014ac5755c424aa6ba08251279ee69ea4",
+      "week_windows": 17,
+      "rows": 102,
+      "rows_with_both_ids": 102
+    },
+    {
+      "year": 2016,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+      "week_windows": 17,
+      "rows": 102,
+      "rows_with_both_ids": 102
+    },
+    {
+      "year": 2017,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "dbbf6dbcc4e377be3cfe932bfc7df5e92316b62d",
+      "week_windows": 16,
+      "rows": 97,
+      "rows_with_both_ids": 1
+    },
+    {
+      "year": 2018,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "55fd80bc0a27eeeff2a083f278a8619526dbdc53",
+      "week_windows": 16,
+      "rows": 97,
+      "rows_with_both_ids": 95
+    },
+    {
+      "year": 2019,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8",
+      "week_windows": 16,
+      "rows": 97,
+      "rows_with_both_ids": 95
+    },
+    {
+      "year": 2020,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+      "week_windows": 16,
+      "rows": 97,
+      "rows_with_both_ids": 95
+    },
+    {
+      "year": 2021,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+      "week_windows": 17,
+      "rows": 105,
+      "rows_with_both_ids": 99
+    },
+    {
+      "year": 2022,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+      "blob_sha": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+      "week_windows": 17,
+      "rows": 105,
+      "rows_with_both_ids": 99
+    },
+    {
+      "year": 2023,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+      "week_windows": 17,
+      "rows": 105,
+      "rows_with_both_ids": 99
+    },
+    {
+      "year": 2024,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "b3860331845e2f31c47170fbbfdcc9a26f3d6e19",
+      "week_windows": 17,
+      "rows": 105,
+      "rows_with_both_ids": 99
+    },
+    {
+      "year": 2025,
+      "source": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+      "blob_sha": "23df10570770114697426f15c51f56ff21e30c00",
+      "week_windows": 17,
+      "rows": 105,
+      "rows_with_both_ids": 99
+    }
+  ],
+  "current_chronology": {
+    "source": "memo-os/week-12/W12_TWELVE_OWNER_W1_W11_SPORTS_CHRONOLOGY_2026-11-25.json",
+    "blob_sha": "b54449a07c7534dae24b9d53c9311cd2e9a5fa0e"
+  },
+  "source_context": [
+    "living-novel/history/HISTORICAL_ERAS.md",
+    "living-novel/history/HISTORICAL_PRESSURE_LEDGER.md",
+    "living-novel/history/OWNER_LINEAGE.md",
+    "living-novel/whole-book/HISTORICAL_INTEGRATION_MAP_V1.md",
+    "living-novel/whole-book/WORLD_ATLAS_NARRATIVE_HYDRATION_REGISTER_V1.md",
+    "living-novel/production/full-rewrite-2026/R39_TWELVE_OWNER_LONGFORM_STORY_DOSSIERS_V1.md",
+    "living-novel/historical-chronicle/INDEX.md",
+    "living-novel/historical-chronicle/seasons/2015/weeks/W01.md through W13.md; 2016 W01; both seasons prologue/postseason/epilogue (NONCANON)",
+    "living-novel/manuscript/PROLOGUE_DRAFT_V1.md and CHAPTER_01 through CHAPTER_04 (legacy manuscript locations not independently canonized)",
+    "world/data/locations.json",
+    "world/data/routes.json",
+    "world/data/domain_profiles.json",
+    "world/data/settlements.json",
+    "world/data/world_memory.json",
+    "memo-os/week-11/preproduction/W11_RESULT_LOCKED_SIX_STORYLINES_DIRECTORS_CUT_2026-11-24.md",
+    "memo-os/week-11/preproduction/WEEK11_LOCATION_DESK.md"
+  ],
+  "consultation": {
+    "prior_board": "Previous thread actual 5/5 Bullpen ConsultEngine responses plus Closer synthesis; 7999ef5ecc00e177d69a5d45ddf2e91dd999a17c7df385c8168a7b9ef60602c4",
+    "new_grouped_workshop": {
+      "model": "qwen2.5-coder:7b local Ollama",
+      "sha256": "9ae3409c021778881a3dfac97b4d9eafb437417762af91c28ea635f27b57d991",
+      "disposition": "REJECTED unsupported enchantments, magic fauna, color-changing pools, prophetic stone, new characters and unrelated beats; retained general ordinary-use question only. Host authored grounded alternatives."
+    },
+    "staff_dispatch": "not established",
+    "specialist_lenses": "Eight Inklings and twelve production-method lenses applied as grouped advisory analysis; no actual named human participation or independent acceptance"
+  },
+  "state_baseline": {
+    "source": "world/data/current_world_state.json",
+    "blob_sha": "8705635c49d6bf7130ddd859c2d25c187b93b2a7",
+    "as_of": "end_of_week_3_2026",
+    "rule": "Later narrative observations remain source-specific; no active state writeback"
+  },
+  "locations": [
+    {
+      "g": "G01",
+      "id": "CAND-W12-DK-FOREST-TRAINING",
+      "folios": [
+        "W12-P09",
+        "W12-P10",
+        "W12-P11"
+      ],
+      "parent": "LOC-DK-HIGHLAND-STRONGHOLD",
+      "region": "REG-UPPER-VALLEYS",
+      "route": "ROUTE-DK-HIGHLAND-LINK",
+      "slots": [
+        5,
+        1
+      ],
+      "historical_anchors": [
+        "2015 W1 Here, Ok I took L's 129–65.5 Scruffy Looking Nerf Herders (slots 5/1 only).",
+        "2021 W7 Dewars White Label 152.91–108.84 Obi-Wan Jacoby; 2021 champion slot 5, historical ownership not verified.",
+        "2024 W7 Looks Don’t Lose 151.54–126.13 ObiWan; ObiWan 2024 champion; 2025 W8 ObiWan 126.62–98.34 Baker Moore Purdy.",
+        "2026 W3 Mire Hill yield and standard below summit are separate-location history; W4 ObiWan 157.33–139.67 DK; W11 HMB defeats DK 168.20–129.75 at Mountain Lake, survival; bridge remains separate."
+      ],
+      "era_development": [
+        "2015–18: long-used woodland approach, weathered ruin fragments and stream-side ground; no claim of who built ruins or used them then.",
+        "2019–21: propose incremental maintenance of paths and old stone edges as training and communal travel continue; no claim of a championship-driven construction.",
+        "2022–23: propose layered signs of ordinary use and upkeep, a contrast to changing league fortunes.",
+        "2024–26: retain aged ground and recent maintenance; DK trains after bridge defeat, not because the clearing was newly built."
+      ],
+      "layers": {
+        "physical": "Stream consistently beside clearing; mossed stone fragments, old boulders, compressed leaf litter and two visible approach areas. Relative scale accommodates four-hoof anatomy. Sunrise from same side across triad.",
+        "civil": "Peopled-kind upland martial domain; candidate ordinary use by training attendants and maintenance workers, not a new sovereign order. Separate communal court access from private forest solitude.",
+        "memory": "Use worn standing areas and unevenly weathered stone as evidence of repeated use, not dated battles. Wilson's prior public defeats and ObiWan's prior title pressure inform present choices; no inherited personal victory counts or transfer of Belt."
+      },
+      "material": [
+        "Weathered stone with newer plain repairs",
+        "Well-worn trail edges",
+        "Undated hoof-worn clearing, not forensic battle tracks"
+      ],
+      "folio_flow": [
+        "P09 same stream and ruin silhouette introduce solitude and training.",
+        "P10 maintain two approaches and spatial axis; duel framing with established axe/lightsaber.",
+        "P11 either outcome uses the same clearing; consequences not built into permanent state."
+      ],
+      "holds": [
+        "Internal access and exact ruin history",
+        "No automatic move of Mire Hill scars or bridge relics",
+        "Exact approved environment reference bytes"
+      ],
+      "historical_pair_observations": [
+        {
+          "year": 2015,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "7b337ca014ac5755c424aa6ba08251279ee69ea4",
+          "rows": [
+            {
+              "home_id": 1,
+              "home": "Scruffy Looking Nerf Herders ",
+              "hp": 65.5,
+              "away_id": 5,
+              "away": "Here, Ok I took L's",
+              "ap": 129,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 1,
+              "week": 1
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+          "rows": [
+            {
+              "home_id": 1,
+              "home": "Scruffy Looking Nerf Herders ",
+              "hp": 95.62,
+              "away_id": 5,
+              "away": "Here, Ok I took L's",
+              "ap": 85.64,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 1,
+              "week": 1
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "dbbf6dbcc4e377be3cfe932bfc7df5e92316b62d",
+          "rows": []
+        },
+        {
+          "year": 2018,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "55fd80bc0a27eeeff2a083f278a8619526dbdc53",
+          "rows": [
+            {
+              "period": 9,
+              "home_id": 5,
+              "home": "Make Amarica Great Again",
+              "hp": 182.1,
+              "away_id": 1,
+              "away": "Obi-Wan  Jacoby",
+              "ap": 154.02,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 9
+            },
+            {
+              "period": 16,
+              "home_id": 5,
+              "home": "Make Amarica Great Again",
+              "hp": 130.05,
+              "away_id": 1,
+              "away": "Obi-Wan  Jacoby",
+              "ap": 149.26,
+              "winner": "AWAY",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "week": 16
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8",
+          "rows": [
+            {
+              "period": 7,
+              "home_id": 5,
+              "home": "Make Amarica Great Again",
+              "hp": 157.87,
+              "away_id": 1,
+              "away": "Obi-Wan  Jacoby",
+              "ap": 125.46,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 7
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+          "rows": [
+            {
+              "period": 4,
+              "home_id": 5,
+              "home": "Make Amarica Great Again",
+              "hp": 179.98,
+              "away_id": 1,
+              "away": "Obi-Wan  Jacoby",
+              "ap": 139.12,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 4
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+          "rows": [
+            {
+              "period": 7,
+              "home_id": 1,
+              "home": "Obi-Wan  Jacoby",
+              "hp": 108.84,
+              "away_id": 5,
+              "away": "Dewars White Label",
+              "ap": 152.91,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 7
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+          "blob_sha": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+          "rows": [
+            {
+              "week": 1,
+              "period": 1,
+              "home_id": 5,
+              "away_id": 1,
+              "home": "Dewar's Scotsmen",
+              "away": "Obi-Wan  Jacoby",
+              "hp": 142,
+              "ap": 123,
+              "winner": "HOME",
+              "tier": "NONE"
+            },
+            {
+              "week": 11,
+              "period": 11,
+              "home_id": 5,
+              "away_id": 1,
+              "home": "Dewar's Scotsmen",
+              "away": "Obi-Wan  Jacoby",
+              "hp": 83.98,
+              "ap": 165.06,
+              "winner": "AWAY",
+              "tier": "NONE"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+          "rows": [
+            {
+              "period": 12,
+              "home_id": 5,
+              "home": "Benedict Coomhersnatch",
+              "hp": 152.72,
+              "away_id": 1,
+              "away": "Benedict Kenobi",
+              "ap": 123.16,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 12
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "b3860331845e2f31c47170fbbfdcc9a26f3d6e19",
+          "rows": [
+            {
+              "home_id": 1,
+              "home": "ObiWan Jacoby",
+              "hp": 126.13,
+              "away_id": 5,
+              "away": "Looks Don’t Lose",
+              "ap": 151.54,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "23df10570770114697426f15c51f56ff21e30c00",
+          "rows": [
+            {
+              "home_id": 5,
+              "home": "Baker Moore Purdy",
+              "hp": 98.34,
+              "away_id": 1,
+              "away": "ObiWan Jacoby",
+              "ap": 126.62,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 8,
+              "week": 8
+            }
+          ]
+        }
+      ],
+      "current_2026_pair_observations": [
+        {
+          "week": 4,
+          "home": 5,
+          "away": 1,
+          "home_points": 139.67,
+          "away_points": 157.33,
+          "winner": "AWAY"
+        }
+      ],
+      "status": "EXPANDED_PREPRODUCTION_CANDIDATE_ONLY",
+      "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+      "render_authorized": false,
+      "canon_promotion": false
+    },
+    {
+      "g": "G02",
+      "id": "CAND-W12-MUD-HUNTING-CABIN",
+      "folios": [
+        "W12-P12",
+        "W12-P13",
+        "W12-P14"
+      ],
+      "parent": "LOC-MUD-DOGS-SWAMP",
+      "region": "REG-SOUTHERN-WETLANDS",
+      "route": "ROUTE-DELTA-CAUSEWAY",
+      "slots": [
+        10,
+        6
+      ],
+      "historical_anchors": [
+        "2015 W2 Pittsy's Rhino's 84.5–71 Team Hollingshead (slots 6/10 only).",
+        "2020 slot 10 champion Where Mahomies at?; not Bobby personal attribution. 2023 Two Dreaded Snake lost both W4 and W13 slot-10 matchups; TDS 1–13 season historical name evidence.",
+        "2024 W8 TDS 178.36–177.12 Mud Dogs; W14 Mud Dogs 158.38–83.06 TDS; 2025 W8 Mud Dogs 163.26–100.45 TDS.",
+        "2026 W3 Mire Hill defeat/yield separate site; W4 TDS 149.84–126.98 Mud Dogs; W11 Mud Dogs defeats Chins and swamp-route deception; no new flood permanence."
+      ],
+      "era_development": [
+        "2015–18: propose long-used raised timber shelter and wetland landing, waterline history undated.",
+        "2019–21: successive replacement timbers and patched dock edges suggest ongoing ferry/fishing utility, not named historic occupants.",
+        "2022–23: ordinary wetland upkeep amid variable seasons; no fabricated flood disaster.",
+        "2024–26: old tethered boat and dock remain familiar features; present confrontation uses local knowledge rather than repeating W11 wrong-turn scene."
+      ],
+      "layers": {
+        "physical": "Raised cabin bank, narrow dock, partially submerged tethered boat, roots and mud channels; continuous waterline and subdued morning canopy light.",
+        "civil": "Wetland transport, fishing and causeway maintenance are existing regional texture; propose cabin as longstanding shelter and gear storage, with no new named settlement or inhabitants assigned.",
+        "memory": "Contrast old route knowledge with visitors' confidence. Local repairs reflect ordinary survival; Mire Hill scar, Gators & Dawgs sign and W11 deception remain source-specific and are not physically transplanted into cabin."
+      },
+      "material": [
+        "Mixed-age dock planks",
+        "Water-worn timber and subdued stains",
+        "Old mooring and faded boat finish"
+      ],
+      "folio_flow": [
+        "P12 show cabin bank, dock and boat together.",
+        "P13 reverse angle preserves waterline and positions; three heads one body, hound quadruped.",
+        "P14 same landing supports either result; no permanent water change inferred."
+      ],
+      "holds": [
+        "Internal trail/access exactness",
+        "Boat history and waterline dates unknown",
+        "No truck/boat operational authorization inferred"
+      ],
+      "historical_pair_observations": [
+        {
+          "year": 2015,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "7b337ca014ac5755c424aa6ba08251279ee69ea4",
+          "rows": [
+            {
+              "home_id": 10,
+              "home": "Team Hollingshead",
+              "hp": 71,
+              "away_id": 6,
+              "away": "Pittsy's Rhino's",
+              "ap": 84.5,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 2,
+              "week": 2
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+          "rows": [
+            {
+              "home_id": 10,
+              "home": "Team Hollingshead",
+              "hp": 139.76,
+              "away_id": 6,
+              "away": "Pittsy's Rhino's",
+              "ap": 124.72,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 2,
+              "week": 2
+            },
+            {
+              "home_id": 10,
+              "home": "Team Hollingshead",
+              "hp": 166.74,
+              "away_id": 6,
+              "away": "Pittsy's Rhino's",
+              "ap": 152.4,
+              "winner": "HOME",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "period": 14,
+              "week": 14
+            },
+            {
+              "home_id": 10,
+              "home": "Team Hollingshead",
+              "hp": 166.74,
+              "away_id": 6,
+              "away": "Pittsy's Rhino's",
+              "ap": 152.4,
+              "winner": "HOME",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "period": 14,
+              "week": 15
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "dbbf6dbcc4e377be3cfe932bfc7df5e92316b62d",
+          "rows": []
+        },
+        {
+          "year": 2018,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "55fd80bc0a27eeeff2a083f278a8619526dbdc53",
+          "rows": [
+            {
+              "period": 4,
+              "home_id": 6,
+              "home": "J.T.  Couch Round 2",
+              "hp": 123.88,
+              "away_id": 10,
+              "away": "Highland Park Rushees",
+              "ap": 171.91,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 4
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8",
+          "rows": [
+            {
+              "period": 5,
+              "home_id": 10,
+              "home": "Where Mahomies at? ",
+              "hp": 126.06,
+              "away_id": 6,
+              "away": "Weenie Hut Jr.",
+              "ap": 129.75,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 5
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+          "rows": [
+            {
+              "period": 10,
+              "home_id": 6,
+              "home": "TacOdell Shits",
+              "hp": 109.74,
+              "away_id": 10,
+              "away": "Where Mahomies at? ",
+              "ap": 136.46,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 10
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+          "rows": [
+            {
+              "period": 7,
+              "home_id": 6,
+              "home": "Foolio Jones",
+              "hp": 131.22,
+              "away_id": 10,
+              "away": "Where Mahomies at?",
+              "ap": 162.84,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 7
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+          "blob_sha": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+          "rows": [
+            {
+              "week": 1,
+              "period": 1,
+              "home_id": 6,
+              "away_id": 10,
+              "home": "0 0",
+              "away": "Where Mahomies at?",
+              "hp": 95.82,
+              "ap": 157.48,
+              "winner": "AWAY",
+              "tier": "NONE"
+            },
+            {
+              "week": 11,
+              "period": 11,
+              "home_id": 6,
+              "away_id": 10,
+              "home": "0 0",
+              "away": "Where Mahomies at?",
+              "hp": 192.36,
+              "ap": 98.53,
+              "winner": "HOME",
+              "tier": "NONE"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+          "rows": [
+            {
+              "period": 4,
+              "home_id": 6,
+              "home": "Two Dreaded Snake",
+              "hp": 97.08,
+              "away_id": 10,
+              "away": "Mixon it up for a week",
+              "ap": 173.5,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 4
+            },
+            {
+              "period": 13,
+              "home_id": 10,
+              "home": "Mixon it up for a week",
+              "hp": 187.98,
+              "away_id": 6,
+              "away": "Two Dreaded Snake",
+              "ap": 128.32,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 13
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "b3860331845e2f31c47170fbbfdcc9a26f3d6e19",
+          "rows": [
+            {
+              "home_id": 6,
+              "home": "Three Dreaded Snake",
+              "hp": 178.36,
+              "away_id": 10,
+              "away": "Mud Dogs",
+              "ap": 177.12,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 8,
+              "week": 8
+            },
+            {
+              "home_id": 6,
+              "home": "Three Dreaded Snake",
+              "hp": 83.06,
+              "away_id": 10,
+              "away": "Mud Dogs",
+              "ap": 158.38,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 14,
+              "week": 14
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "23df10570770114697426f15c51f56ff21e30c00",
+          "rows": [
+            {
+              "home_id": 6,
+              "home": "Three Dreaded Snake",
+              "hp": 100.45,
+              "away_id": 10,
+              "away": "Mud Dogs",
+              "ap": 163.26,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 8,
+              "week": 8
+            }
+          ]
+        }
+      ],
+      "current_2026_pair_observations": [
+        {
+          "week": 4,
+          "home": 10,
+          "away": 6,
+          "home_points": 126.98,
+          "away_points": 149.84,
+          "winner": "AWAY"
+        }
+      ],
+      "status": "EXPANDED_PREPRODUCTION_CANDIDATE_ONLY",
+      "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+      "render_authorized": false,
+      "canon_promotion": false
+    },
+    {
+      "g": "G03",
+      "id": "CAND-W12-RED-SPECIAL-CABIN",
+      "folios": [
+        "W12-P15",
+        "W12-P16",
+        "W12-P17"
+      ],
+      "parent": "LOC-RED-RUINS",
+      "region": "REG-EASTERN-STORM-COAST",
+      "route": "ROUTE-RAIN-ESCARPMENT",
+      "slots": [
+        2,
+        12
+      ],
+      "historical_anchors": [
+        "2015 W7 slot 2 Hook, Line, and Zeeker 100.5–89.5 slot 12 Discount Belichick; W13 reverse 140.5–61. No owner/venue equivalence.",
+        "2022 Red Leopards 13–1, semifinal defeat to El Niño; 2023 W7 Red 131.56–102.56 Eggs Benedict, W16 Eggs Benedict 214.52–149.84 Red.",
+        "2024 W7 Duckhook 181.34–160.34 Red; 2025 W13 Duckhook 157.78–78.44 Red; 2025 Duckhook semifinal loss 0.40 to The Immortal.",
+        "2026 W4 Red 164.08–128.36 Duckhook; W8 LLC defeats Red; W11 Red loses TDS, Duckhook defeats LLC and takes fictional Jackson CEO/chairman role."
+      ],
+      "era_development": [
+        "2015–18: propose old hillside refuge with a simple stone base, no original builder identified.",
+        "2019–21: propose successive maintenance and conversion into a private gathering place, no dated refurbishment asserted.",
+        "2022–23: restraint and competitive memory expressed through a well-kept interior against weathered exterior, not a fabricated memorial to a particular game.",
+        "2024–26: established meeting room can host a toast celebrating Duckhook's appointment; deceptive plan is current scene only."
+      ],
+      "layers": {
+        "physical": "Mossy hillside cabin, weather-worn stone/timber, consistent exterior approach, windows and warm gathering room; cold windy sunset; concealed fictional trapdoor only abstract, no operational design.",
+        "civil": "Private refuge within Red domain; forest/coastal exchange and storm preparation are existing regional texture. Propose ordinary shelter and invited gatherings, not a permanent detention institution.",
+        "memory": "2022 dominance and 2023 playoff reversal supply narrative pressure; 2025 Duckhook narrow defeat and 2026 W11 appointment inform current conversation. Historical game facts do not prove any took place here."
+      },
+      "material": [
+        "Repaired shutters and stone hearth surround",
+        "Uneven patina on old table",
+        "Undated weathered predator-domain ornament subject to reference QA"
+      ],
+      "folio_flow": [
+        "P15 exterior approach establishes seclusion and existing cabin.",
+        "P16 same window/hearth/table orientation supports friendly toast and rising doubt.",
+        "P17 preserve both possible outcomes without physical trap design or permanent confinement promotion."
+      ],
+      "holds": [
+        "Cabin civil access and precise hill siting",
+        "Historical owner attribution for older LLC victories",
+        "No mechanism, construction or escape details"
+      ],
+      "historical_pair_observations": [
+        {
+          "year": 2015,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "7b337ca014ac5755c424aa6ba08251279ee69ea4",
+          "rows": [
+            {
+              "home_id": 12,
+              "home": "Discount  Belichick",
+              "hp": 89.5,
+              "away_id": 2,
+              "away": "Hook, Line, and Zeeker",
+              "ap": 100.5,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            },
+            {
+              "home_id": 2,
+              "home": "Hook, Line, and Zeeker",
+              "hp": 61,
+              "away_id": 12,
+              "away": "Discount  Belichick",
+              "ap": 140.5,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 13,
+              "week": 13
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+          "rows": [
+            {
+              "home_id": 12,
+              "home": "The Real Austin's Hyenas",
+              "hp": 84.72,
+              "away_id": 2,
+              "away": "Hook, Line, and Zeeker",
+              "ap": 101.7,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            },
+            {
+              "home_id": 2,
+              "home": "Hook, Line, and Zeeker",
+              "hp": 120.06,
+              "away_id": 12,
+              "away": "The Real Austin's Hyenas",
+              "ap": 129.18,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 13,
+              "week": 13
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "dbbf6dbcc4e377be3cfe932bfc7df5e92316b62d",
+          "rows": []
+        },
+        {
+          "year": 2018,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "55fd80bc0a27eeeff2a083f278a8619526dbdc53",
+          "rows": [
+            {
+              "period": 6,
+              "home_id": 2,
+              "home": "Red Leopards",
+              "hp": 123.74,
+              "away_id": 12,
+              "away": "Christopher Columbus",
+              "ap": 189.5,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 6
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8",
+          "rows": [
+            {
+              "period": 2,
+              "home_id": 12,
+              "home": "Convicts and Company ",
+              "hp": 134.02,
+              "away_id": 2,
+              "away": "Red Leopards",
+              "ap": 155.68,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 2
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+          "rows": [
+            {
+              "period": 7,
+              "home_id": 2,
+              "home": "Red Leopards",
+              "hp": 167.12,
+              "away_id": 12,
+              "away": "Guild  of Dunces",
+              "ap": 129.3,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 7
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+          "rows": [
+            {
+              "period": 5,
+              "home_id": 2,
+              "home": "Red Leopards",
+              "hp": 211.38,
+              "away_id": 12,
+              "away": "The  Disappointments",
+              "ap": 131.36,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 5
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+          "blob_sha": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+          "rows": [
+            {
+              "week": 9,
+              "period": 9,
+              "home_id": 2,
+              "away_id": 12,
+              "home": "Red Leopards",
+              "away": "Javonte's InferNO Knee",
+              "hp": 129.26,
+              "ap": 98.44,
+              "winner": "HOME",
+              "tier": "NONE"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+          "rows": [
+            {
+              "period": 7,
+              "home_id": 2,
+              "home": "Red Leopards",
+              "hp": 131.56,
+              "away_id": 12,
+              "away": "Eggs Benedict ",
+              "ap": 102.56,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 7
+            },
+            {
+              "period": 16,
+              "home_id": 2,
+              "home": "Red Leopards",
+              "hp": 149.84,
+              "away_id": 12,
+              "away": "Eggs Benedict ",
+              "ap": 214.52,
+              "winner": "AWAY",
+              "tier": "WINNERS_BRACKET",
+              "week": 16
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "b3860331845e2f31c47170fbbfdcc9a26f3d6e19",
+          "rows": [
+            {
+              "home_id": 2,
+              "home": "Red Leopards",
+              "hp": 160.34,
+              "away_id": 12,
+              "away": "Dr. Duckhook",
+              "ap": 181.34,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "23df10570770114697426f15c51f56ff21e30c00",
+          "rows": [
+            {
+              "home_id": 2,
+              "home": "Red Leopards",
+              "hp": 78.44,
+              "away_id": 12,
+              "away": "Dr. Duckhook",
+              "ap": 157.78,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 13,
+              "week": 13
+            }
+          ]
+        }
+      ],
+      "current_2026_pair_observations": [
+        {
+          "week": 4,
+          "home": 2,
+          "away": 12,
+          "home_points": 164.08,
+          "away_points": 128.36,
+          "winner": "HOME"
+        }
+      ],
+      "status": "EXPANDED_PREPRODUCTION_CANDIDATE_ONLY",
+      "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+      "render_authorized": false,
+      "canon_promotion": false
+    },
+    {
+      "g": "G04",
+      "id": "CAND-W12-SLOB-BACKYARD-RETREAT",
+      "folios": [
+        "W12-P18",
+        "W12-P19",
+        "W12-P20"
+      ],
+      "parent": "LOC-SLOB-FOOTHILL-CAMP",
+      "region": "REG-UPPER-VALLEYS",
+      "route": "ROUTE-HEARTHROAD",
+      "slots": [
+        3,
+        7
+      ],
+      "historical_anchors": [
+        "2015 W7 slot 3 Kunt Liquors 107–80.5 slot 7 Cypress Gunslingers; W13 121–76; no personal attribution.",
+        "2019 slot 3 champion Please, Please, Please, please; 2020 W7 Jacktown Hollisquad 142.87–117.32 Cowboy Killerz; older slot continuity only.",
+        "2024 W2 The Blew Waffle's 169.44–129.15 Slob; 2025 W9 Slob 156.40–117.05 Chili.",
+        "2026 W4 Slob 190.72–139.96 Chili; W10 Chili rodeo humiliation; W11 Slob delivery struggle and recovery, Chili carnival win; these happened elsewhere."
+      ],
+      "era_development": [
+        "2015–18: propose old shared gathering ground and established mature planting, no proven early owner.",
+        "2019–21: propose durable cooking surfaces and repaired shelter accumulated through years of ordinary gatherings.",
+        "2022–23: evolving landscaping and hospitality objects, no invented trophy count.",
+        "2024–26: maintained retreat with current Thanksgiving arrangements; evidence of older use beneath fresh seasonal setup, not a brand-new backyard."
+      ],
+      "layers": {
+        "physical": "Mature landscape, stable lawn, cooking area and covered gathering space, Thanksgiving table and visible mount arrival. Preserve layout and midday cold-autumn lighting; separate target display from conflict.",
+        "civil": "Foothill camp has upland food supply and road services; candidate retreat is personal hospitality/football gathering space, not named public institution. TV stays modernity hold; historical awards require owner-lineage evidence.",
+        "memory": "The W11 delivery motif is responsibility versus spectacle, not a claim that the yard was flooded. Current guest's W10/W11 reversal and older competitive history inform banter; no invented personal championships."
+      },
+      "material": [
+        "Mature trees and established beds",
+        "Patinated cooking equipment and repaired table",
+        "Older unlabelled communal fixtures"
+      ],
+      "folio_flow": [
+        "P18 wide yard master and Dark Horse arrival.",
+        "P19 same cooking/table axis during SEC argument.",
+        "P20 either requested comic payoff uses same footprint; any hoof marks temporary unless later accepted."
+      ],
+      "holds": [
+        "TV and modernity authority",
+        "Verified memorabilia and source dates",
+        "No inferred permanent damage or new technology history"
+      ],
+      "historical_pair_observations": [
+        {
+          "year": 2015,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "7b337ca014ac5755c424aa6ba08251279ee69ea4",
+          "rows": [
+            {
+              "home_id": 7,
+              "home": "Cypress Gunslingers",
+              "hp": 80.5,
+              "away_id": 3,
+              "away": "Kunt Liquors",
+              "ap": 107,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            },
+            {
+              "home_id": 3,
+              "home": "Kunt Liquors",
+              "hp": 121,
+              "away_id": 7,
+              "away": "Cypress Gunslingers",
+              "ap": 76,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 13,
+              "week": 13
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+          "rows": [
+            {
+              "home_id": 7,
+              "home": "The Gunslingers",
+              "hp": 111.24,
+              "away_id": 3,
+              "away": "Kunt Liquors",
+              "ap": 78.48,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            },
+            {
+              "home_id": 3,
+              "home": "Kunt Liquors",
+              "hp": 100.48,
+              "away_id": 7,
+              "away": "The Gunslingers",
+              "ap": 102.36,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 13,
+              "week": 13
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "dbbf6dbcc4e377be3cfe932bfc7df5e92316b62d",
+          "rows": []
+        },
+        {
+          "year": 2018,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "55fd80bc0a27eeeff2a083f278a8619526dbdc53",
+          "rows": [
+            {
+              "period": 6,
+              "home_id": 7,
+              "home": "Gunslinger Nation",
+              "hp": 136.97,
+              "away_id": 3,
+              "away": "Le Tits  Now",
+              "ap": 79.23,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 6
+            },
+            {
+              "period": 15,
+              "home_id": 3,
+              "home": "Le Tits  Now",
+              "hp": 131.48,
+              "away_id": 7,
+              "away": "Gunslinger Nation",
+              "ap": 93.67,
+              "winner": "HOME",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "week": 15
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8",
+          "rows": [
+            {
+              "period": 6,
+              "home_id": 7,
+              "home": "Gunslinger Nation",
+              "hp": 167.25,
+              "away_id": 3,
+              "away": "Please, Please, Please, please ",
+              "ap": 126.91,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 6
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+          "rows": [
+            {
+              "period": 7,
+              "home_id": 3,
+              "home": "Jacktown Hollisquad",
+              "hp": 142.87,
+              "away_id": 7,
+              "away": "Cowboy Killerz",
+              "ap": 117.32,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 7
+            },
+            {
+              "period": 15,
+              "home_id": 7,
+              "home": "Cowboy Killerz",
+              "hp": 98.29,
+              "away_id": 3,
+              "away": "Jacktown Hollisquad",
+              "ap": 140.32,
+              "winner": "AWAY",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "week": 15
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+          "rows": [
+            {
+              "period": 10,
+              "home_id": 7,
+              "home": "King of the Hill",
+              "hp": 109.13,
+              "away_id": 3,
+              "away": "Jacktown Hollisquad",
+              "ap": 129.59,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 10
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+          "blob_sha": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+          "rows": [
+            {
+              "week": 9,
+              "period": 9,
+              "home_id": 3,
+              "away_id": 7,
+              "home": "Small Dak Energy",
+              "away": "DEEBOOO Country Roadsss",
+              "hp": 100.62,
+              "ap": 104.92,
+              "winner": "AWAY",
+              "tier": "NONE"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+          "rows": [
+            {
+              "period": 8,
+              "home_id": 3,
+              "home": "The KING of the Octagon Village",
+              "hp": 114.4,
+              "away_id": 7,
+              "away": "The Blew Waffle's",
+              "ap": 100.33,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 8
+            },
+            {
+              "period": 14,
+              "home_id": 3,
+              "home": "The KING of the Octagon Village",
+              "hp": 128.04,
+              "away_id": 7,
+              "away": "The Blew Waffle's",
+              "ap": 168.44,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 14
+            },
+            {
+              "period": 15,
+              "home_id": 7,
+              "home": "The Blew Waffle's",
+              "hp": 110.94,
+              "away_id": 3,
+              "away": "The KING of the Octagon Village",
+              "ap": 118.7,
+              "winner": "AWAY",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "week": 15
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "b3860331845e2f31c47170fbbfdcc9a26f3d6e19",
+          "rows": [
+            {
+              "home_id": 3,
+              "home": "Slob on my Dobb",
+              "hp": 129.15,
+              "away_id": 7,
+              "away": "The Blew Waffle's",
+              "ap": 169.44,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 2,
+              "week": 2
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "23df10570770114697426f15c51f56ff21e30c00",
+          "rows": [
+            {
+              "home_id": 3,
+              "home": "Slob on my Dobb",
+              "hp": 156.4,
+              "away_id": 7,
+              "away": "The Chili Cheesers ",
+              "ap": 117.05,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 9,
+              "week": 9
+            }
+          ]
+        }
+      ],
+      "current_2026_pair_observations": [
+        {
+          "week": 4,
+          "home": 3,
+          "away": 7,
+          "home_points": 190.72,
+          "away_points": 139.96,
+          "winner": "HOME"
+        }
+      ],
+      "status": "EXPANDED_PREPRODUCTION_CANDIDATE_ONLY",
+      "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+      "render_authorized": false,
+      "canon_promotion": false
+    },
+    {
+      "g": "G05",
+      "id": "CAND-W12-LLC-HIDDEN-DUNGEON",
+      "folios": [
+        "W12-P21",
+        "W12-P22",
+        "W12-P23"
+      ],
+      "parent": "LOC-LLC-BOARDROOM",
+      "region": "REG-INNER-SEA-LITTORAL",
+      "route": null,
+      "slots": [
+        4,
+        8
+      ],
+      "historical_anchors": [
+        "2015 W6 Bavid Dabbs 90.5–89 Austin's Hyena's; W12 104–98. 2016 slot 8 champion; personal ownership not verified.",
+        "2018 W2 $20 Grahams 171.15–109.08 Kardiac Kids; W13 Kardiac Kids 154.26–148.17; 2018 slot 8 champion only.",
+        "2021 W16 The Third Coming 173.04–146.84 B.A.B.B. LLC in winners bracket; 2024 W3 The King 152.66–125.48 LLC; 2025 W11 The Immortal 147.86–145.83 LLC; 2025 HMB incumbent championship context.",
+        "2026 W2 LLC boardroom intrusion/repair unknown; W3 Storm City protection works separate site; W4 HMB 177.32–138.87 LLC; W11 Jackson office corporate ouster distinct from candidate hidden office."
+      ],
+      "era_development": [
+        "2015–18: propose longstanding stone archive volume, undated fittings and older record-storage function, no owner or original builder established.",
+        "2019–21: propose changing clerical storage, repaired shelves and accumulated documents, without claiming dated business transactions.",
+        "2022–23: propose accumulated administrative records and ordinary port-era upkeep; no invented financial institutions.",
+        "2024–26: private office still has older material layers; current Babb negotiation about Duckhook is newly staged there, not evidence it was created after ouster."
+      ],
+      "layers": {
+        "physical": "Older stone interior, later timber fittings, practical lamps, archive wall, desk and rival board. Parent and internal access remain unresolved; no technical confinement layout.",
+        "civil": "Commercial-institutional domain, Inner Sea shipping, warehousing and clerical texture; propose historical recordkeeping and private meetings, not Jackson CEO office or an independent political state.",
+        "memory": "Institutional memory spans league era change and narrow 2025 rivalry. Keep W2 repair uncertainty at boardroom, W3 storm barriers at Storm City, W11 takeover at Jackson. Current HMB belt remains HMB's; no automatic title or asset transfer."
+      },
+      "material": [
+        "Patinated shelving and repaired wood",
+        "Old unlabeled ledgers with visible use",
+        "Contemporary rival board separate from historical archive"
+      ],
+      "folio_flow": [
+        "P21 reveal established archive/office and invited champion.",
+        "P22 same desk, archive and sightline through negotiation.",
+        "P23 late-bound alliance or fictional betrayal; no legal/canon consequence inferred."
+      ],
+      "holds": [
+        "Exact parent/route access, distinct from Jackson",
+        "Document and memorabilia attribution",
+        "No engineered confinement detail, no new institutional authority"
+      ],
+      "historical_pair_observations": [
+        {
+          "year": 2015,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "7b337ca014ac5755c424aa6ba08251279ee69ea4",
+          "rows": [
+            {
+              "home_id": 4,
+              "home": "Bavid Dabbs",
+              "hp": 90.5,
+              "away_id": 8,
+              "away": "Austin's Hyena's",
+              "ap": 89,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 6,
+              "week": 6
+            },
+            {
+              "home_id": 8,
+              "home": "Austin's Hyena's",
+              "hp": 98,
+              "away_id": 4,
+              "away": "Bavid Dabbs",
+              "ap": 104,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 12,
+              "week": 12
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+          "rows": [
+            {
+              "home_id": 4,
+              "home": "Bavid Dabbs",
+              "hp": 66.88,
+              "away_id": 8,
+              "away": "Austin's Hyena's",
+              "ap": 139.84,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 6,
+              "week": 6
+            },
+            {
+              "home_id": 8,
+              "home": "Austin's Hyena's",
+              "hp": 167.54,
+              "away_id": 4,
+              "away": "Bavid Dabbs",
+              "ap": 93.1,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 12,
+              "week": 12
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "dbbf6dbcc4e377be3cfe932bfc7df5e92316b62d",
+          "rows": []
+        },
+        {
+          "year": 2018,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "55fd80bc0a27eeeff2a083f278a8619526dbdc53",
+          "rows": [
+            {
+              "period": 2,
+              "home_id": 8,
+              "home": "Kardiac Kids",
+              "hp": 109.08,
+              "away_id": 4,
+              "away": "$20 Grahams",
+              "ap": 171.15,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 2
+            },
+            {
+              "period": 13,
+              "home_id": 4,
+              "home": "$20 Grahams",
+              "hp": 148.17,
+              "away_id": 8,
+              "away": "Kardiac Kids",
+              "ap": 154.26,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 13
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8",
+          "rows": [
+            {
+              "period": 4,
+              "home_id": 4,
+              "home": "Mr. Kenyan Drake Killed Me",
+              "hp": 167.1,
+              "away_id": 8,
+              "away": "Kardiac Kids",
+              "ap": 116.48,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 4
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+          "rows": [
+            {
+              "period": 4,
+              "home_id": 4,
+              "home": "InDavey .500",
+              "hp": 77.35,
+              "away_id": 8,
+              "away": "The Grinch",
+              "ap": 192.08,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 4
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+          "rows": [
+            {
+              "period": 12,
+              "home_id": 4,
+              "home": "B.A.B.B.  LLC",
+              "hp": 114.12,
+              "away_id": 8,
+              "away": "The Third Coming",
+              "ap": 128.98,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 12
+            },
+            {
+              "period": 16,
+              "home_id": 8,
+              "home": "The Third Coming",
+              "hp": 173.04,
+              "away_id": 4,
+              "away": "B.A.B.B.  LLC",
+              "ap": 146.84,
+              "winner": "HOME",
+              "tier": "WINNERS_BRACKET",
+              "week": 16
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+          "blob_sha": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+          "rows": [
+            {
+              "week": 3,
+              "period": 3,
+              "home_id": 8,
+              "away_id": 4,
+              "home": "The Second Coming",
+              "away": "The LLC",
+              "hp": 124.54,
+              "ap": 109.18,
+              "winner": "HOME",
+              "tier": "NONE"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+          "rows": [
+            {
+              "period": 3,
+              "home_id": 8,
+              "home": "Benedict Arnold",
+              "hp": 165.56,
+              "away_id": 4,
+              "away": "The LLC",
+              "ap": 156.46,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 3
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "b3860331845e2f31c47170fbbfdcc9a26f3d6e19",
+          "rows": [
+            {
+              "home_id": 8,
+              "home": "The King",
+              "hp": 152.66,
+              "away_id": 4,
+              "away": "The LLC",
+              "ap": 125.48,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 3,
+              "week": 3
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "23df10570770114697426f15c51f56ff21e30c00",
+          "rows": [
+            {
+              "home_id": 8,
+              "home": "The Immortal",
+              "hp": 147.86,
+              "away_id": 4,
+              "away": "The LLC",
+              "ap": 145.83,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 11,
+              "week": 11
+            }
+          ]
+        }
+      ],
+      "current_2026_pair_observations": [
+        {
+          "week": 4,
+          "home": 4,
+          "away": 8,
+          "home_points": 138.87,
+          "away_points": 177.32,
+          "winner": "AWAY"
+        }
+      ],
+      "status": "EXPANDED_PREPRODUCTION_CANDIDATE_ONLY",
+      "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+      "render_authorized": false,
+      "canon_promotion": false
+    },
+    {
+      "g": "G06",
+      "id": "CAND-W12-CHINS-STORM-HIGHWAY",
+      "folios": [
+        "W12-P24",
+        "W12-P25",
+        "W12-P26"
+      ],
+      "parent": "LOC-CHINS-ROAD-COMMONS",
+      "region": null,
+      "route": null,
+      "slots": [
+        9,
+        11
+      ],
+      "historical_anchors": [
+        "2015 W7 slot 11 I'M HERE SO I WON'T GET FINED 66–65.5 slot 9 Calvin's Johnson; W13 slot 9 wins 138.5–110.5. No current character attribution.",
+        "2022 El Niño 7–7 champion and 2023 11–3 regular-season leader without title; 2023 W16 Arm Chair GM 159.52–148.24 El Niño, slot 11 identity not verified.",
+        "2024 W1 Chins 183.56–119.82 El Niño and W11 Chins 156.88–127.84 El Niño; 2025 W11 El Niño 116.05–78.64 Chins.",
+        "2026 W3 Southern Speedway HMB/Chins memory at separate site; W4 El Niño 170.62–106.20 Chins; W11 Chins wrong swamp turn and both teams lose. No exact route to playoff venue established."
+      ],
+      "era_development": [
+        "2015–18: propose a long-used road corridor with older substrate and roadside traces, not an identified route.",
+        "2019–21: propose successive ordinary maintenance and drainage attention where supported by chosen zone.",
+        "2022–23: historical storm/competition themes can shape road culture, not proof of specific storms along this segment.",
+        "2024–26: present truck encounter uses same aged corridor concept; current road surface/technology approval pending, no claim modern highway existed unchanged all eleven years."
+      ],
+      "layers": {
+        "physical": "Candidate road segment only; tree line, shoulder, obscured horizon and early fog/rain; final terrain and road surface depend on resolved region. No new island link or mapped junction.",
+        "civil": "Existing Chins Road Commons has road services, courier/caravan activity and ordinary public life. Proposed maintenance traces require chosen corridor; no new agency or vehicle route inferred.",
+        "memory": "Ben's W11 wrong-turn experience supports changed judgment; historical El Niño record gives thematic pressure, not magical prophecy or verified local weather. Manning's external environmental action only; no interiority."
+      },
+      "material": [
+        "Undated repaired road edges or compatible old substrate",
+        "Weather-worn roadside surface",
+        "Established truck reference only after modernity and access QA"
+      ],
+      "folio_flow": [
+        "P24 familiar road and cab perspective, no destination admission.",
+        "P25 exterior master matches road orientation and environmental visibility.",
+        "P26 either continuation or retreat, same road, no crash or confirmed playoff arrival."
+      ],
+      "holds": [
+        "Exact route/region/parent and connection unresolved",
+        "Truck/highway modernity gate; registered routes mostly foot/mount/wagon",
+        "No direct playoff island access or new weather capability"
+      ],
+      "historical_pair_observations": [
+        {
+          "year": 2015,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2015_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "7b337ca014ac5755c424aa6ba08251279ee69ea4",
+          "rows": [
+            {
+              "home_id": 9,
+              "home": "Calvin's Johnson",
+              "hp": 65.5,
+              "away_id": 11,
+              "away": "I'M HERE SO I WON'T GET FINED",
+              "ap": 66,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            },
+            {
+              "home_id": 11,
+              "home": "I'M HERE SO I WON'T GET FINED",
+              "hp": 110.5,
+              "away_id": 9,
+              "away": "Calvin's Johnson",
+              "ap": 138.5,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 13,
+              "week": 13
+            },
+            {
+              "home_id": 9,
+              "home": "Calvin's Johnson",
+              "hp": 158,
+              "away_id": 11,
+              "away": "I'M HERE SO I WON'T GET FINED",
+              "ap": 188.5,
+              "winner": "AWAY",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "period": 15,
+              "week": 16
+            },
+            {
+              "home_id": 9,
+              "home": "Calvin's Johnson",
+              "hp": 158,
+              "away_id": 11,
+              "away": "I'M HERE SO I WON'T GET FINED",
+              "ap": 188.5,
+              "winner": "AWAY",
+              "tier": "LOSERS_CONSOLATION_LADDER",
+              "period": 15,
+              "week": 17
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2016_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "6dbec1fe2537139f3a97c6a78250e2bae082a518",
+          "rows": [
+            {
+              "home_id": 9,
+              "home": "All ACL Squad",
+              "hp": 66.74,
+              "away_id": 11,
+              "away": "I'M HERE SO I WON'T GET FINED",
+              "ap": 128.92,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 7,
+              "week": 7
+            },
+            {
+              "home_id": 11,
+              "home": "I'M HERE SO I WON'T GET FINED",
+              "hp": 132.6,
+              "away_id": 9,
+              "away": "All ACL Squad",
+              "ap": 86.7,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 13,
+              "week": 13
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2017_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "dbbf6dbcc4e377be3cfe932bfc7df5e92316b62d",
+          "rows": []
+        },
+        {
+          "year": 2018,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2018_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "55fd80bc0a27eeeff2a083f278a8619526dbdc53",
+          "rows": [
+            {
+              "period": 9,
+              "home_id": 9,
+              "home": "It Ertz  When I Pee",
+              "hp": 134.44,
+              "away_id": 11,
+              "away": "Schreck Chappell",
+              "ap": 99.31,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 9
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2019_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "1495d61f9be4d01a0b24e9a537e89071c7395af8",
+          "rows": [
+            {
+              "period": 2,
+              "home_id": 11,
+              "home": "Kevin's Mom's House",
+              "hp": 146.76,
+              "away_id": 9,
+              "away": "Sharkeil  O'Neal",
+              "ap": 133.66,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 2
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2020_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "be865764154825b5ba6a635a6ef5562d26dbbbcb",
+          "rows": [
+            {
+              "period": 8,
+              "home_id": 9,
+              "home": "Dos Gatos",
+              "hp": 130.48,
+              "away_id": 11,
+              "away": "Kevin's Mom's House",
+              "ap": 108.64,
+              "winner": "HOME",
+              "tier": "NONE",
+              "week": 8
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2021_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ec1f12544fd15b4e8ada0e2652a47b55ef69cab5",
+          "rows": [
+            {
+              "period": 5,
+              "home_id": 11,
+              "home": "Kevin's Mom's House",
+              "hp": 187.98,
+              "away_id": 9,
+              "away": "Dos Gatos",
+              "ap": 203.24,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 5
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2022_FLAIM_WEEK_BY_WEEK_MATCHUP_EXTRACT.json",
+          "blob_sha": "e3340ba1676408fa917eff7a61360a6588ba17dd",
+          "rows": [
+            {
+              "week": 12,
+              "period": 12,
+              "home_id": 11,
+              "away_id": 9,
+              "home": "Kevin's Mom's House",
+              "away": "El Niño",
+              "hp": 93.38,
+              "ap": 106.42,
+              "winner": "AWAY",
+              "tier": "NONE"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2023_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "ded119cde5c660f87f197f269b8d6ddd2a11316a",
+          "rows": [
+            {
+              "period": 2,
+              "home_id": 11,
+              "home": "Arm Chair GM",
+              "hp": 138.84,
+              "away_id": 9,
+              "away": "El Niño",
+              "ap": 188.92,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "week": 2
+            },
+            {
+              "period": 16,
+              "home_id": 9,
+              "home": "El Niño",
+              "hp": 148.24,
+              "away_id": 11,
+              "away": "Arm Chair GM",
+              "ap": 159.52,
+              "winner": "AWAY",
+              "tier": "WINNERS_BRACKET",
+              "week": 16
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2024_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "b3860331845e2f31c47170fbbfdcc9a26f3d6e19",
+          "rows": [
+            {
+              "home_id": 11,
+              "home": "Seven Deadly Chins",
+              "hp": 183.56,
+              "away_id": 9,
+              "away": "El Niño",
+              "ap": 119.82,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 1,
+              "week": 1
+            },
+            {
+              "home_id": 9,
+              "home": "El Niño",
+              "hp": 127.84,
+              "away_id": 11,
+              "away": "Seven Deadly Chins",
+              "ap": 156.88,
+              "winner": "AWAY",
+              "tier": "NONE",
+              "period": 11,
+              "week": 11
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "source": "living-novel/production/full-rewrite-2026/evidence/G01_2025_FULL_WEEKLY_MATCHUPS.json",
+          "blob_sha": "23df10570770114697426f15c51f56ff21e30c00",
+          "rows": [
+            {
+              "home_id": 9,
+              "home": "El Niño",
+              "hp": 116.05,
+              "away_id": 11,
+              "away": "Seven Deadly Chins",
+              "ap": 78.64,
+              "winner": "HOME",
+              "tier": "NONE",
+              "period": 11,
+              "week": 11
+            }
+          ]
+        }
+      ],
+      "current_2026_pair_observations": [
+        {
+          "week": 4,
+          "home": 9,
+          "away": 11,
+          "home_points": 170.62,
+          "away_points": 106.2,
+          "winner": "HOME"
+        }
+      ],
+      "status": "EXPANDED_PREPRODUCTION_CANDIDATE_ONLY",
+      "historical_existence": "Founder directive: existed throughout eleven-year Commonwealth history, revealed/documented in W12; exact build dates/owners/physical events not established",
+      "render_authorized": false,
+      "canon_promotion": false
+    }
+  ],
+  "acceptance": {
+    "six_stable_ids": true,
+    "three_layers_each": true,
+    "four_era_proposals_each": true,
+    "eighteen_folio_bindings": true,
+    "active_registry_write": false,
+    "approved_visual_references": false,
+    "route_and_world_state_acceptance": false,
+    "final_render": false
+  },
+  "limitations": [
+    "11 completed seasons plus ongoing 2026, not eleven complete novel manuscripts; archived sports evidence comprehensive within returned files, older historical prose partial and noncanon.",
+    "2017 mostly missing team IDs; no backfill from names, no inference of historical human owners or past site occupancy.",
+    "Historical material evolution is proposed fiction, not documented dates or approved canon. Current world state stale W3; G05/G06 geography and G04/G06 modernity holds remain.",
+    "No final scores or conditional endings selected; no reference images created or mounted; no independent Atlas/Steward/Umpire approval."
+  ]
+}
