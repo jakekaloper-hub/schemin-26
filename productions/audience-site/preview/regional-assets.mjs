@@ -427,8 +427,13 @@ export function buildRegionalAssets(THREE, bindings, height) {
       // Illustrative surface reflectance grows at grazing view angles.
       // Camera-facing tint affects only the EXISTING wetland material branch;
       // no water boundary, current, clock input, or lighting authority changes.
+      // Share the actual displaced two-sided surface normal between reflectance
+      // and relief. Flat water keeps its original world-up incidence response.
+      vec3 wetlandFace=cross(dFdx(vWorld),dFdy(vWorld));
+      float wetlandFaceSize=length(wetlandFace);
+      vec3 wetlandNormal=wetlandFaceSize>.00001?wetlandFace/wetlandFaceSize:vec3(0.,1.,0.);
       vec3 viewToEye=normalize(cameraPosition-vWorld);
-      float viewIncidence=clamp(abs(viewToEye.y),0.,1.);
+      float viewIncidence=clamp(abs(dot(wetlandNormal,viewToEye)),0.,1.);
       float grazingGain=.035+.21*pow(1.-viewIncidence,2.);
       contactTint=mix(contactTint,vec3(.31,.41,.37),grazingGain);
        // Reflections fade toward overhead cameras and the existing bank.
@@ -436,13 +441,7 @@ export function buildRegionalAssets(THREE, bindings, height) {
        float trunkView=smoothstep(.22,.80,1.-viewIncidence);
        float trunkMirrorMix=clamp(trunkReflection*.20*trunkView*bankFade,0.,.20);
        contactTint=mix(contactTint,vec3(.11,.19,.17),trunkMirrorMix);
-      // Existing moving surface now contributes restrained geometry-derived light.
-      // Local relief does not interpret source climate, topology or light authority.
-      // Use world-space derivatives of the *displaced* vertices; sign-independent
-      // orientation also handles two-sided water and varying camera handedness.
-      vec3 wetlandFace=cross(dFdx(vWorld),dFdy(vWorld));
-      float wetlandFaceSize=length(wetlandFace);
-      vec3 wetlandNormal=wetlandFaceSize>.00001?wetlandFace/wetlandFaceSize:vec3(0.,1.,0.);
+      // Existing moving surface contributes restrained geometry-derived relief light.
       float reliefSlope=clamp((1.-clamp(abs(wetlandNormal.y),0.,1.))*14.,0.,.42);
       float reliefFacing=clamp(abs(dot(wetlandNormal,normalize(vec3(.30,.91,.27)))),0.,1.);
       vec3 reliefLight=vec3(.10,.15,.12)*reliefSlope*(.4+.6*reliefFacing)*bankFade;

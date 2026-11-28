@@ -34,7 +34,7 @@ test('Shader derives bounded grazing reflectance from actual camera angle, not w
  const a=build(),shader=a.water.find(w=>w.kind==='swamp').material.fragmentShader;
  assert.match(shader,/else if\(uWetland>\.5\)/);
  assert.match(shader,/viewToEye=normalize\(cameraPosition-vWorld\)/);
- assert.match(shader,/viewIncidence=clamp\(abs\(viewToEye\.y\),0\.,1\.\)/);
+ assert.match(shader,/viewIncidence=clamp\(abs\(dot\(wetlandNormal,viewToEye\)\),0\.,1\.\)/);
  assert.match(shader,/grazingGain=\.035\+\.21\*pow\(1\.-viewIncidence,2\.\)/);
  assert.match(shader,/contactTint=mix\(contactTint,vec3\(\.31,\.41,\.37\),grazingGain\)/);
  assert.match(shader,/gl_FragColor=vec4\(contactTint\+lowSheen\+quietEddy\+rootSheen\+contactLight\+channelSheen,\.92\)/);
